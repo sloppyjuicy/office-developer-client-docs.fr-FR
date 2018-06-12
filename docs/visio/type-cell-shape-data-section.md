@@ -1,0 +1,50 @@
+---
+title: Type, cellule (section Shape Data)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- Vis_DSS.chm1055
+localization_priority: Normal
+ms.assetid: 1e24a906-83ce-32d2-5d7b-ba6dd6eea2d3
+description: Indique le type des données de forme.
+ms.openlocfilehash: e5471dcc1ed487a5992779f1faa4763887bebb2a
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19789950"
+---
+# <a name="type-cell-shape-data-section"></a><span data-ttu-id="cf1a5-103">Type, cellule (section Shape Data)</span><span class="sxs-lookup"><span data-stu-id="cf1a5-103">Type Cell (Shape Data Section)</span></span>
+
+<span data-ttu-id="cf1a5-104">Indique le type des données de forme.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-104">Specifies a data type for the shape data value.</span></span>
+  
+|<span data-ttu-id="cf1a5-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-105">**Value**</span></span>|<span data-ttu-id="cf1a5-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-106">**Description**</span></span>|<span data-ttu-id="cf1a5-107">**Constante d’Automation**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-107">**Automation constant**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="cf1a5-108">0</span><span class="sxs-lookup"><span data-stu-id="cf1a5-108">0</span></span>  <br/> |<span data-ttu-id="cf1a5-p101">Chaîne. Valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-p101">String. This is the default.</span></span>  <br/> |<span data-ttu-id="cf1a5-111">**visPropTypeString**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-111">**visPropTypeString**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-112">1</span><span class="sxs-lookup"><span data-stu-id="cf1a5-112">1</span></span>  <br/> |<span data-ttu-id="cf1a5-113">Liste fixe.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-113">Fixed list.</span></span> <span data-ttu-id="cf1a5-114">Affiche les éléments de liste dans une liste déroulante zone dans la boîte de dialogue **Définir les données de forme** .</span><span class="sxs-lookup"><span data-stu-id="cf1a5-114">Displays the list items in a drop-down combo box in the **Define Shape Data** dialog box.</span></span> <span data-ttu-id="cf1a5-115">Spécifiez les éléments de liste dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-115">Specify the list items in the Format cell.</span></span> <span data-ttu-id="cf1a5-116">Les utilisateurs peuvent sélectionner qu’un seul élément dans la liste.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-116">Users can select only one item from the list.</span></span>  <br/> |<span data-ttu-id="cf1a5-117">**visPropTypeListFix**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-117">**visPropTypeListFix**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-118">2</span><span class="sxs-lookup"><span data-stu-id="cf1a5-118">2</span></span>  <br/> |<span data-ttu-id="cf1a5-p103">Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-p103">Number. Includes date, time, duration, and currency values as well as scalars, dimensions, and angles. Specify a format picture in the Format cell.</span></span>  <br/> |<span data-ttu-id="cf1a5-122">**visPropTypeNumber**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-122">**visPropTypeNumber**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-123">3</span><span class="sxs-lookup"><span data-stu-id="cf1a5-123">3</span></span>  <br/> |<span data-ttu-id="cf1a5-124">Boolean.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-124">Boolean.</span></span> <span data-ttu-id="cf1a5-125">Affiche true et False comme éléments que les utilisateurs peuvent sélectionner dans une zone de liste déroulante dans la boîte de dialogue **Définir les données de forme** .</span><span class="sxs-lookup"><span data-stu-id="cf1a5-125">Displays FALSE and TRUE as items users can select from a drop-down list box in the **Define Shape Data** dialog box.</span></span>  <br/> |<span data-ttu-id="cf1a5-126">**visPropTypeBool**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-126">**visPropTypeBool**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-127">4</span><span class="sxs-lookup"><span data-stu-id="cf1a5-127">4</span></span>  <br/> |<span data-ttu-id="cf1a5-128">Liste de variables.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-128">Variable list.</span></span> <span data-ttu-id="cf1a5-129">Affiche les éléments de liste dans une liste déroulante zone dans la boîte de dialogue **Définir les données de forme** .</span><span class="sxs-lookup"><span data-stu-id="cf1a5-129">Displays the list items in a drop-down combo box in the **Define Shape Data** dialog box.</span></span> <span data-ttu-id="cf1a5-130">Spécifiez les éléments de liste dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-130">Specify the list items in the Format cell.</span></span> <span data-ttu-id="cf1a5-131">Les utilisateurs peuvent sélectionner un élément de liste, ou entrez un nouvel élément est ajouté à la liste actuelle dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-131">Users can select a list item or enter a new item that is added to the current list in the Format cell.</span></span>  <br/> |<span data-ttu-id="cf1a5-132">**visPropTypeListVar**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-132">**visPropTypeListVar**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-133">5</span><span class="sxs-lookup"><span data-stu-id="cf1a5-133">5</span></span>  <br/> |<span data-ttu-id="cf1a5-p106">Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-p106">Date or time value. Displays days, months, and years, or seconds, minutes, and hours, or a combined date and time value. Specify a format picture in the Format cell.</span></span>  <br/> |<span data-ttu-id="cf1a5-137">**visPropTypeDate**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-137">**visPropTypeDate**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-138">6</span><span class="sxs-lookup"><span data-stu-id="cf1a5-138">6</span></span>  <br/> |<span data-ttu-id="cf1a5-p107">Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-p107">Duration value. Displays elapsed time. Specify a format picture in the Format cell.</span></span>  <br/> |<span data-ttu-id="cf1a5-142">**visPropTypeDuration**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-142">**visPropTypeDuration**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-143">7</span><span class="sxs-lookup"><span data-stu-id="cf1a5-143">7</span></span>  <br/> |<span data-ttu-id="cf1a5-p108">Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.</span><span class="sxs-lookup"><span data-stu-id="cf1a5-p108">Currency value. Uses the system's current Regional Settings. Specify a format picture in the Format cell.</span></span>  <br/> |<span data-ttu-id="cf1a5-147">**visPropTypeCurrency**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-147">**visPropTypeCurrency**</span></span> <br/> |
+   
+## <a name="remarks"></a><span data-ttu-id="cf1a5-148">Note</span><span class="sxs-lookup"><span data-stu-id="cf1a5-148">Remarks</span></span>
+
+<span data-ttu-id="cf1a5-149">Pour obtenir une référence à la cellule Type par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-149">To get a reference to the Type cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="cf1a5-150">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-150">Cell name:</span></span>  <br/> |<span data-ttu-id="cf1a5-151">Propriétés. *Nom* . Type de propriétés où.  *Name* est le nom de ligne</span><span class="sxs-lookup"><span data-stu-id="cf1a5-151">Prop. *Name*  .Type where Prop.  *Name*  is the row name</span></span>  <br/> |
+   
+<span data-ttu-id="cf1a5-152">Pour obtenir une référence à la cellule Type par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-152">To get a reference to the Type cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="cf1a5-153">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-153">Section index:</span></span>  <br/> |<span data-ttu-id="cf1a5-154">**visSectionProp**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-154">**visSectionProp**</span></span> <br/> |
+|<span data-ttu-id="cf1a5-155">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-155">Row index:</span></span>  <br/> |<span data-ttu-id="cf1a5-156">**visRowProp** +  *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="cf1a5-156">**visRowProp** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="cf1a5-157">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cf1a5-157">Cell index:</span></span>  <br/> |<span data-ttu-id="cf1a5-158">**visCustPropsType**</span><span class="sxs-lookup"><span data-stu-id="cf1a5-158">**visCustPropsType**</span></span> <br/> |
+   
+
