@@ -1,0 +1,116 @@
+---
+title: Programmation avec l�API�C dans Excel
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: overview
+keywords:
+- c api [excel 2007],programming interfaces [Excel 2007],C API [Excel 2007], when to use,C API [Excel 2007], relation to XLM,Excel programming interfaces
+localization_priority: Normal
+ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
+description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+ms.openlocfilehash: 459e57d41ef7497c535e51944bbaf24daee84167
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19782185"
+---
+# <a name="programming-with-the-c-api-in-excel"></a>Programmation avec l�API�C dans Excel
+
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+  
+Vous pouvez utiliser le Kit de d�veloppement logiciel (SDK) XLL Microsoft�Excel�2013 et l�API�C pour cr�er des fonctions de feuille de calcul hautes performances pour Excel�2013. Les mises � niveau vers l�API�C Excel�2013 illustrent le support permanent aux utilisateurs pour lesquels les performances des fonctionnalit�s tierces ou internes sont critiques.
+  
+## <a name="excel-programming-interfaces"></a>Interfaces de programmation Excel
+
+Excel offre plusieurs options pour le d�veloppement d�applications qui interagissent avec lui. Les interfaces de programmation Excel ont �t� ajout�es aux versions ant�rieures dans l�ordre suivant�:
+  
+- **Langage de macro XLM�:** premier langage accessible par l�utilisateur pour l�extension d�Excel et la base de l�API�C. Bien que toujours pris en charge dans Excel 2010, XLM a longtemps �t� remplac� par Visual Basic pour Applications (VBA). 
+    
+- **API�C et XLL�:** DLL int�gr�es � Excel. Ces DLL offrent l�interface la plus directe et la plus rapide pour l�ajout de fonctions de feuille de calcul hautes performances mais au prix d�une complexit� sup�rieure par rapport aux technologies plus r�centes. 
+    
+- **VBA :** objets de code Visual Basic associ�s � des objets de classeur Excel. VBA permet la capture d��v�nements, ainsi que la personnalisation et l�ajout de commandes et de fonctions d�finies par l�utilisateur. VBA est la plus fr�quemment utilis�e et la plus accessible des options d�extensibilit�. 
+    
+- **COM�:** interop�rabilit� standard pour les applications Windows par lesquelles Excel expose ses �v�nements et objets. VBA utilise COM pour interagir avec Excel. Excel exporte les biblioth�ques de type COM qui peuvent vous aider � cr�er des ressources de code C++ COM et des applications qui peuvent contr�ler Excel de fa�on externe. 
+    
+- **Microsoft .NET Framework�:** environnement de code g�r� multilingue con�u pour le d�veloppement rapide d�applications destin�es aux environnements distribu�s. C# est le langage de programmation principal pour le code bas� sur .NET Framework bien que plusieurs langages puissent �tre compil�s dans le langage interm�diaire Microsoft (MSIL). Excel�2013 peut acc�der aux ressources de code contenues dans des assemblys .NET Framework. 
+    
+## <a name="when-to-use-the-c-api"></a>Quand utiliser l�API�C
+
+La principale raison d��crire des XLL et d�utiliser l�API�C est de cr�er des fonctions de feuille de calcul hautes performances. Bien que les fonctions XLL soient souvent appel�es des fonctions d�finies par l�utilisateur, la formation n�cessaire � la compr�hension et � la ma�trise de l�environnement de d�veloppement des XLL les rendent peu accessibles � la plupart des utilisateurs. Toutefois, les applications des fonctions hautes performances (et dans Excel�2013, la possibilit� d��crire des interfaces multithreads vers des ressources serveur puissantes) en font un axe essentiel de l�extensibilit� d�Excel. 
+  
+La r�vision de l�API�C introduite dans Excel�2007 concernait les aspects li�s � des calculs hautes performances plut�t que les fonctionnalit�s telles que l�interface utilisateur.
+  
+### <a name="writing-high-performance-user-defined-worksheet-functions"></a>�criture de fonctions de feuilles de calcul hautes performances d�finies par l�utilisateur
+
+L�API�C d�Excel est le choix id�al lorsque vous souhaitez cr�er des fonctions de feuille de calcul hautes performances en cr�ant des compl�ments XLL. L�API�C vous fournit l�acc�s le plus direct aux donn�es de feuille de calcul. Les XLL fournissent � Excel le moyen le plus direct d�acc�der aux ressources DLL. Les performances des XLL sont encore am�lior�es dans Excel�2013 gr�ce � l�ajout de nouveaux types de donn�es mais surtout gr�ce � la prise en charge de l�ex�cution des fonctions d�finies par l�utilisateur sur des serveurs group�s.
+  
+L�utilisation des XLL a un co�t�: L�API�C ne poss�de aucune des fonctionnalit�s de d�veloppement rapide de niveau sup�rieur de VBA, COM ou .NET Framework. La gestion de la m�moire op�re � faible niveau et, par cons�quent, fait peser plus de responsabilit� sur le d�veloppeur. La plupart des fonctionnalit�s d�Excel expos�es par le biais de COM, ce qui les rend accessibles par le biais de .NET Framework et de VBA, ne sont pas expos�es � l�API�C.
+  
+### <a name="accessing-multithreaded-servers-by-using-xll-worksheet-functions"></a>Acc�s aux serveurs multithreads � l�aide de fonctions de feuille de calcul XLL
+
+La fonction de Recalcul multithread (MTR), qui a �t� introduite dans Excel�2007, vous permet de cr�er des fonctions de feuille de calcul XLL thread-safe. Vous pouvez utiliser ces fonctions pour acc�der aux serveurs multithreads. Les sections suivantes d�crivent plus en d�tail comment cela peut consid�rablement augmenter les performances observ�es par l�utilisateur. Pour les utilisateurs Excel qui ont parfois besoin d�une puissance de traitement consid�rable, la combinaison d�un XLL qui utilise MTR et d�un serveur de calcul puissant constitue une solution hautes performances.
+  
+### <a name="customizing-the-excel-user-interface"></a>Personnalisation de l�interface utilisateur Excel
+
+Pour la plupart des versions d�Excel, l�API�C n�a pas �t� le choix id�al pour la personnalisation de l�interface utilisateur. VBA a un meilleur acc�s aux objets et �v�nements Excel. L�interface utilisateur apparue dans Excel�2007 est sensiblement diff�rente des versions ant�rieures � la fois par son apparence et la technologie sous-jacente. Vous pouvez personnaliser cette interface en utilisant des ressources de code manag�.
+  
+### <a name="creating-applications-that-can-be-accessed-on-the-internet"></a>Cr�ation d�applications accessibles sur Internet
+
+Les services Excel, introduits dans Microsoft Office�2007, offrent aux utilisateurs la meilleure fa�on d�acc�der aux classeurs et aux fonctionnalit�s d�Excel par les outils de navigation web standards. Avec les langages de d�veloppement et ressources .NET Framework, ces technologies repr�sentent une partie importante du d�ploiement d�Excel pour les utilisateurs dans le futur.
+  
+### <a name="controlling-excel-from-external-applications"></a>Contr�le d�Excel � partir d�applications externes
+
+Excel expose ses objets, m�thodes et �v�nements au moyen de l�interface COM. Vous pouvez, par cons�quent, utiliser COM pour cr�er des applications autonomes qui peuvent d�marrer et contr�ler une session Excel ou contr�ler une session Excel existante. Vous pouvez acc�der � l�interface Excel expos�e par COM dans plusieurs langages de d�veloppement, notamment C++ et VBA. De la m�me fa�on, C# et .NET Framework fournissent une interface Excel qui autorise l�acc�s � distance et le contr�le d�Excel.
+  
+## <a name="asynchronous-calling-of-excel"></a>Appel asynchrone d�Excel
+
+Excel permet aux XLL d�appeler l�API�C uniquement lorsque Excel a transmis le contr�le � la XLL. Une fonction de feuille de calcul qui est appel�e par Excel peut effectuer un rappel vers Excel � l�aide de l�API�C. Une commande XLL qui est appel�e par Excel peut appeler l�API�C. Les fonctions et commandes DLL et XLL appel�es par VBA lorsque VBA a lui-m�me �t� appel� par Excel peuvent appeler l�API�C. Par exemple, vous ne pouvez pas d�finir un rappel Windows chronom�tr� dans votre XLL et appeler l�API�C � partir de celle-ci, et vous ne pouvez pas appeler l�API�C � partir d�un thread en arri�re-plan cr�� par votre XLL. Il est d�conseill� d�appeler Excel de fa�on asynchrone � l�aide de COM � partir d�une DLL ou d�une XLL.
+  
+Cela se r�v�le tr�s restrictif, car il peut y avoir des applications dans lesquelles vous souhaitez qu�Excel r�agisse � un �v�nement asynchrone. Par exemple, vous pouvez souhaiter qu�Excel r�cup�re un �l�ment de donn�es sur Internet et effectue un nouveau calcul � chaque modification de ces donn�es. Vous pouvez �galement souhaiter qu�un thread en arri�re-plan effectue un calcul et qu�Excel effectue un nouveau calcul � la fin.
+  
+Pour y parvenir, vous pouvez faire en sorte qu�Excel recherche fr�quemment les modifications, mais cette approche est inefficace et contre-productive car Excel devra fr�quemment interrompre son activit� normale. Vous pouvez configurer l�ex�cution r�p�t�e de la commande � l�aide de l�API�C ou de VBA bien que cette solution ne soit pas id�ale.
+  
+Dans l�id�al, vous souhaiterez peut-�tre un processus externe plus efficace qui contr�le la modification des donn�es et qui, pour cela, d�clenche Excel afin de r�cup�rer la mise � jour et effectuer un nouveau calcul. Vous pouvez effectuer cette action � l�aide d�une application qui sert d�interface vers Excel � l�aide de COM. COM n�est pas limit� comme l�API�C � passer des appels uniquement lorsqu�Excel lui a pass� le contr�le. Les applications COM peuvent appeler des m�thodes Excel chaque fois qu�Excel est pr�t bien que ces appels de m�thode puissent �tre ignor�s si les bo�tes de dialogue sont affich�es, si les menus sont d�roul�s ou si une macro est ex�cut�e.
+  
+## <a name="c-api-and-its-relation-to-xlm"></a>API�C et sa relation avec XML
+
+Le langage de macro Excel (XLM) a �t� le premier environnement de programmation accessible par l�utilisateur dans Excel. Il permettait aux utilisateurs de cr�er des commandes et fonctions personnalis�es dans des feuilles de macro sp�ciales ressemblant � des feuilles de calcul ordinaires. Les feuilles de macro XML sont toujours prises en charge dans Excel�2013. Vous pouvez utiliser toutes les fonctions de feuille de calcul habituelles telles que **SUM** et **LOG** dans une feuille de macro, en plus des �l�ments suivants qui ne peuvent pas �tre entr�s dans une feuille de calcul�: 
+  
+- Fonctions d�informations de l�espace de travail comme **GET.CELL** et **GET.WORKBOOK**.
+    
+- Fonctions �quivalentes de commande qui permettent l�automatisation des op�rations utilisateur ordinaires comme **DEFINE.NAME** et **PASTE**.
+    
+- Fonctions relatives aux modules compl�mentaires comme **REGISTER**.
+    
+- Captures d��v�nement de commande comme **ON.ENRTY** et **ON.TIME**.
+    
+- Op�rations propres aux fonctions de macro comme **ARGUMENT** et **VOLATILE**.
+    
+- Op�rations de contr�le de flux comme **GOTO** et **RETURN**.
+    
+Une version limit�e de l�API�C existait dans Excel�3. Toutefois, dans Excel�4, le langage XML a �t� associ� � l�API�C. Depuis lors, les DLL ont pu appeler toutes les fonctions de feuille de calcul, les fonctions d�informations de feuille de macro et les commandes et elles ont pu d�finir des captures d��v�nement. Les DLL ne peuvent pas appeler des fonctions de contr�le de flux XLM � partir de l�API�C. Ces fonctions et fonctions de feuille de macro sont pr�sent�es dans le fichier d�aide XLMacr8.hlp (anciennement nomm� Macrofun.hlp). Pour obtenir ce fichier d�aide, acc�dez au [Centre de t�l�chargement Microsoft](http://download.microsoft.com) et recherchez ��XLMacr8.hlp��. 
+  
+> [!NOTE]
+> [!REMARQUE] Windows Vista et Windows�7 ne prennent pas en charge directement les fichiers .hlp, mais vous pouvez y rem�dier en t�l�chargeant le [programme d�aide Windows (WinHlp32.exe) pour Windows Vista](http://go.microsoft.com/fwlink/?LinkID=82148) ou le [programme d�aide Windows (WinHlp32.exe) pour Windows�7](http://www.microsoft.com/download/en/details.aspx?id=91) � partir de Microsoft. 
+  
+Les DLL appellent les �quivalents API�C de ces fonctions et commandes � l�aide des fonctions de rappel **Excel4**, **Excel4v**, **Excel12** et **Excel12v** (les deux derni�res ont �t� introduites dans Excel�2007). Les constantes �num�r�es qui correspondent � chaque fonction et commande sont d�finies dans un fichier d�en-t�te et transmises en tant qu�arguments � ces rappels. Par exemple, **GET.CELL** est repr�sent� par **xlfGetCell**, **REGISTER** par **xlfRegister** et **DEFINE.NAME** par **xlcDefineName**.
+  
+Outre les fonctions de feuille de calcul et les fonctions et commandes de feuille de macro, l�API�C fournit des �num�rations de fonction et de commande qui peuvent �tre appel�es uniquement en utilisant les rappels suivants dans une DLL. Par exemple, **xlGetName** permet � la DLL de d�terminer le nom et le chemin du fichier, ce qui n�cessaire lorsque vous enregistrez des commandes et fonctions dans Excel. 
+  
+Depuis l�introduction de Visual Basic pour Applications (VBA) dans Excel�5 et de l��diteur Visual Basic (VBE) dans la version�8 (Excel�97), le moyen le plus simple pour les utilisateurs de personnaliser Excel consiste � utiliser VBA au lieu de XML. Par cons�quent, la majeure partie de la nouvelle fonctionnalit� introduite dans les versions ult�rieures d�Excel est disponible par le biais de VBA, mais pas au moyen de XML ou de l�API�C. Par exemple, plusieurs commandes, captures d��v�nements et fonctionnalit�s de bo�te de dialogue am�lior�es sont disponibles en VBA, mais pas au moyen de XML ou de l�API�C.
+  
+Pour plus d�informations, voir [Quelles sont les nouveaut�s de l'API C pour Excel 2013](what-s-new-in-the-c-api-for-excel.md).
+  
+## <a name="see-also"></a>Voir aussi
+
+
+
+[Quelles sont les nouveaut�s de l'API C pour Excel 2013](what-s-new-in-the-c-api-for-excel.md)
+  
+[Les fonctions de rappel de l'API C Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+
+
+[Mise en route avec le Kit de d�veloppement logiciel XLL Excel 2013](getting-started-with-the-excel-xll-sdk.md)
+
