@@ -1,0 +1,40 @@
+---
+title: TONE, fonction
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
+description: Modifie la couleur en diminuant sa saturation de la quantité spécifiée dans le paramètre int.
+ms.openlocfilehash: be89764c849299288963c272f8ffb2d5d728f270
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19789921"
+---
+# <a name="tone-function"></a><span data-ttu-id="1e55d-103">TONE, fonction</span><span class="sxs-lookup"><span data-stu-id="1e55d-103">TONE Function</span></span>
+
+<span data-ttu-id="1e55d-104">Modifie la couleur en diminuant sa saturation de la quantité spécifiée dans le paramètre _int_ .</span><span class="sxs-lookup"><span data-stu-id="1e55d-104">Modifies the color by decreasing its saturation by the amount specified in the  _int_ parameter.</span></span> 
+  
+## <a name="syntax"></a><span data-ttu-id="1e55d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1e55d-105">Syntax</span></span>
+
+<span data-ttu-id="1e55d-106">TONE (** *couleur* **, ** *int* **)</span><span class="sxs-lookup"><span data-stu-id="1e55d-106">TONE(** *color* **, ** *int* ** )</span></span> 
+  
+### <a name="parameters"></a><span data-ttu-id="1e55d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1e55d-107">Parameters</span></span>
+
+|<span data-ttu-id="1e55d-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="1e55d-108">**Name**</span></span>|<span data-ttu-id="1e55d-109">**Obligatoire/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="1e55d-109">**Required/Optional**</span></span>|<span data-ttu-id="1e55d-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="1e55d-110">**Data Type**</span></span>|<span data-ttu-id="1e55d-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="1e55d-111">**Description**</span></span>|
+|:-----|:-----|:-----|:-----|
+| <span data-ttu-id="1e55d-112">_color_</span><span class="sxs-lookup"><span data-stu-id="1e55d-112">_color_</span></span> <br/> |<span data-ttu-id="1e55d-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="1e55d-113">Required</span></span>  <br/> |<span data-ttu-id="1e55d-114">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="1e55d-114">**Numeric**</span></span> <br/> |<span data-ttu-id="1e55d-115">Index de couleurs Microsoft Visio ou valeur RVB de la couleur.</span><span class="sxs-lookup"><span data-stu-id="1e55d-115">The Microsoft Visio color index or RGB value of the color.</span></span>  <br/> |
+| <span data-ttu-id="1e55d-116">_int_</span><span class="sxs-lookup"><span data-stu-id="1e55d-116">_int_</span></span> <br/> |<span data-ttu-id="1e55d-117">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="1e55d-117">Required</span></span>  <br/> |<span data-ttu-id="1e55d-118">**Integer**</span><span class="sxs-lookup"><span data-stu-id="1e55d-118">**Integer**</span></span> <br/> |<span data-ttu-id="1e55d-p101">Valeur de diminution de la saturation de la couleur. Elle peut être positive ou négative.</span><span class="sxs-lookup"><span data-stu-id="1e55d-p101">The amount by which to decrease the saturation of the color. Can be positive or negative.</span></span>  <br/> |
+   
+### <a name="return-value"></a><span data-ttu-id="1e55d-121">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="1e55d-121">Return value</span></span>
+
+ <span data-ttu-id="1e55d-122">**RGB**</span><span class="sxs-lookup"><span data-stu-id="1e55d-122">**RGB**</span></span>
+  
+## <a name="remarks"></a><span data-ttu-id="1e55d-123">Note</span><span class="sxs-lookup"><span data-stu-id="1e55d-123">Remarks</span></span>
+
+<span data-ttu-id="1e55d-124">Les limites supérieures et inférieures de saturation sont respectivement 0 et 240.</span><span class="sxs-lookup"><span data-stu-id="1e55d-124">The upper and lower limits of saturation are 0 and 240 respectively.</span></span> <span data-ttu-id="1e55d-125">Il n’existe aucune limite la taille de l’entier, que vous pouvez passer au paramètre _int_ , mais la saturation ne dépasse jamais ces limites.</span><span class="sxs-lookup"><span data-stu-id="1e55d-125">There is no limit on the size of the integer you can pass for the  _int_ parameter, but saturation never exceeds these limits.</span></span> 
+  
+

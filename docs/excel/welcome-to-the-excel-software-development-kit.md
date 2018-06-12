@@ -1,0 +1,63 @@
+---
+title: Bienvenue dans le Kit de d�veloppement logiciel (SDK) Excel
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: overview
+keywords:
+- excel 2007 xll software development kit,add-ins [Excel 2007]
+localization_priority: Normal
+ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
+description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+ms.openlocfilehash: 4de88a12b5fb945c6243e52b77babe88b2d02417
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19782200"
+---
+# <a name="welcome-to-the-excel-software-development-kit"></a><span data-ttu-id="4c0ca-104">Bienvenue dans le Kit de d�veloppement logiciel (SDK) Excel</span><span class="sxs-lookup"><span data-stu-id="4c0ca-104">Welcome to the Excel Software Development Kit</span></span>
+
+ <span data-ttu-id="4c0ca-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="4c0ca-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+  
+<span data-ttu-id="4c0ca-p101">Bienvenue dans la documentation du kit de d�veloppement logiciel (SDK) XLL Excel�2013. Cette r�f�rence contient des vues d�ensemble conceptuelles, des t�ches de programmation et des exemples pour vous aider � d�velopper des XLL Microsoft�Excel�2013.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-p101">Welcome to the Excel 2013 XLL Software Development Kit (SDK) documentation. This reference contains conceptual overviews, programming tasks, and samples to help you develop Microsoft Excel 2013 XLLs.</span></span>
+  
+<span data-ttu-id="4c0ca-108">R�vision�: novembre 2012</span><span class="sxs-lookup"><span data-stu-id="4c0ca-108">Revised: November 2012</span></span>
+  
+<span data-ttu-id="4c0ca-109">T�l�chargez le [SDK XLL Excel�2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span><span class="sxs-lookup"><span data-stu-id="4c0ca-109">Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span></span>
+  
+<span data-ttu-id="4c0ca-110">Le SDK XLL Excel�2013 comprend les �l�ments suivants�:</span><span class="sxs-lookup"><span data-stu-id="4c0ca-110">The Excel 2013 XLL SDK includes the following:</span></span>
+  
+- <span data-ttu-id="4c0ca-111">**Interface de programmation d�application (API)�C**�: inclut les fichiers d�en-t�te et sources qui permettent aux DLL d�acc�der � la fonctionnalit� Excel�2013, ainsi qu�une description de l�interface dont doit disposer une DLL pour utiliser le Gestionnaire de compl�ments Excel.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-111">**C application programming interface (API)**—Includes header and source files that enable DLLs to access Excel 2013 functionality, and a description of the interface that a DLL should expose to work with the Excel Add-in Manager.</span></span>
+    
+- <span data-ttu-id="4c0ca-p102">**Projets Microsoft�Visual�Studio**�: incluent le code source C/C++ et montrent comment utiliser l�API�C. Ces exemples de projets servent de point de d�part � votre d�veloppement personnel de compl�ments.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-p102">**Microsoft Visual Studio projects**—Includes C/C++ source code and shows how to use the C API. These sample projects provide examples and they serve as a starting point for your own add-in development.</span></span>
+    
+<span data-ttu-id="4c0ca-114">La documentation du SDK contient les sections suivantes�:</span><span class="sxs-lookup"><span data-stu-id="4c0ca-114">The SDK documentation contains the following sections:</span></span>
+  
+- [<span data-ttu-id="4c0ca-115">Mise en route avec le Kit de d�veloppement logiciel XLL Excel 2013</span><span class="sxs-lookup"><span data-stu-id="4c0ca-115">Getting Started with the Excel XLL SDK</span></span>](getting-started-with-the-excel-xll-sdk.md)
+    
+- [<span data-ttu-id="4c0ca-116">D�veloppement de XLL de Excel 2013</span><span class="sxs-lookup"><span data-stu-id="4c0ca-116">Developing Excel XLLs</span></span>](developing-excel-xlls.md)
+    
+- [<span data-ttu-id="4c0ca-117">D�veloppement de connecteurs de Cluster Excel 2013</span><span class="sxs-lookup"><span data-stu-id="4c0ca-117">Developing Excel Cluster Connectors</span></span>](developing-excel-cluster-connectors.md)
+    
+- [<span data-ttu-id="4c0ca-118">R�f�rence des fonctions XLL SDK API Excel 2013</span><span class="sxs-lookup"><span data-stu-id="4c0ca-118">Excel XLL SDK API Function Reference</span></span>](excel-xll-sdk-api-function-reference.md)
+    
+## <a name="functionality-not-covered"></a><span data-ttu-id="4c0ca-119">Fonction non trait�e</span><span class="sxs-lookup"><span data-stu-id="4c0ca-119">Functionality Not Covered</span></span>
+
+<span data-ttu-id="4c0ca-120">Les sujets suivants ne sont pas trait�s�:</span><span class="sxs-lookup"><span data-stu-id="4c0ca-120">The following subjects are not covered:</span></span>
+  
+- <span data-ttu-id="4c0ca-121">D�veloppement de fonctions et commandes d�finies par l�utilisateur dans les feuilles de calcul macro (XLM) Excel.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-121">Developing user-defined functions and commands in Excel macro (XLM) sheets.</span></span>
+    
+- <span data-ttu-id="4c0ca-122">Cr�ation de fonctions d�finies par l�utilisateur dans des DLL qui contr�lent le flux d�ex�cution d�une macro XLM.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-122">Creating user-defined functions in DLLs that control the flow of execution of an XLM macro.</span></span>
+    
+    <span data-ttu-id="4c0ca-123">Ces fonctions �uvrent en renvoyant un type de donn�es de contr�le de flux sp�cial, qui n�est pas non plus d�crit dans cette documentation.</span><span class="sxs-lookup"><span data-stu-id="4c0ca-123">Such functions work by returning a special flow control data type, which is also not described in this documentation.</span></span>
+    
+## <a name="related-links"></a><span data-ttu-id="4c0ca-124">Liens connexes</span><span class="sxs-lookup"><span data-stu-id="4c0ca-124">Related Links</span></span>
+
+[<span data-ttu-id="4c0ca-125">Centre pour d�veloppeurs Excel</span><span class="sxs-lookup"><span data-stu-id="4c0ca-125">Excel Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905411.aspx)
+  
+[<span data-ttu-id="4c0ca-126">Centre pour d�veloppeurs Microsoft�Office</span><span class="sxs-lookup"><span data-stu-id="4c0ca-126">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
+  
+[<span data-ttu-id="4c0ca-127">SDK Excel�2010�: kit de d�veloppement logiciel XLL Excel�2010</span><span class="sxs-lookup"><span data-stu-id="4c0ca-127">Excel 2010 SDK: Excel 2010 XLL Software Development Kit</span></span>](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+  
+
