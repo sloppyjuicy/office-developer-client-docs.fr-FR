@@ -1,0 +1,68 @@
+---
+title: Type complexe Geometry_Type (« Visio XML »)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: 115a1499-ae55-f85c-676c-e78f478c4703
+ms.openlocfilehash: 882540e92f9635d6e99716fd8bbbe369c42a6bec
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/15/2018
+ms.locfileid: "19788722"
+---
+# <a name="geometrytype-complextype-visio-xml"></a><span data-ttu-id="d4c2a-102">Type complexe Geometry_Type (« Visio XML »)</span><span class="sxs-lookup"><span data-stu-id="d4c2a-102">Geometry_Type complexType ('Visio XML')</span></span>
+
+## <a name="type-information"></a><span data-ttu-id="d4c2a-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="d4c2a-103">Type information</span></span>
+
+|||
+|:-----|:-----|
+|<span data-ttu-id="d4c2a-104">**Espace de noms**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="d4c2a-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-105">**Schema file**</span></span> <br/> |<span data-ttu-id="d4c2a-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="d4c2a-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="d4c2a-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-107">**Extension base**</span></span> <br/> |<span data-ttu-id="d4c2a-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="d4c2a-108">Section_Type</span></span>  <br/> |
+   
+## <a name="definition"></a><span data-ttu-id="d4c2a-109">Définition</span><span class="sxs-lookup"><span data-stu-id="d4c2a-109">Definition</span></span>
+
+```XML
+          <xs:complexType name="Geometry_Type">
+          
+          <xs:complexContent>
+          <xs:extension base="Section_Type">
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+    <xs:element name="Cell"  type="Cell_Type"
+     minOccurs="0"
+     maxOccurs="unbounded"
+    >
+    </xs:element>
+    
+    <xs:element name="Row"  type="GeometryRow_Type"
+     minOccurs="0"
+     maxOccurs="unbounded"
+    >
+    </xs:element>
+    
+      </xs:choice>
+      </xs:extension>
+      </xs:complexContent>
+      </xs:complexType>
+      
+```
+
+## <a name="elements-and-attributes"></a><span data-ttu-id="d4c2a-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="d4c2a-110">Elements and attributes</span></span>
+
+<span data-ttu-id="d4c2a-111">Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition.</span><span class="sxs-lookup"><span data-stu-id="d4c2a-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+  
+### <a name="child-elements"></a><span data-ttu-id="d4c2a-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="d4c2a-112">Child elements</span></span>
+
+|<span data-ttu-id="d4c2a-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-113">**Element**</span></span>|<span data-ttu-id="d4c2a-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-114">**Type**</span></span>|<span data-ttu-id="d4c2a-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="d4c2a-115">**Description**</span></span>|
+|:-----|:-----|:-----|
+|[<span data-ttu-id="d4c2a-116">Cell</span><span class="sxs-lookup"><span data-stu-id="d4c2a-116">Cell</span></span>](cell-element-geometry-sectionvisio-xml.md) <br/> |[<span data-ttu-id="d4c2a-117">Cell_Type</span><span class="sxs-lookup"><span data-stu-id="d4c2a-117">Cell_Type</span></span>](cell_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="d4c2a-118">Row</span><span class="sxs-lookup"><span data-stu-id="d4c2a-118">Row</span></span>](row-element-geometry-sectionvisio-xml.md) <br/> |<span data-ttu-id="d4c2a-119">GeometryRow_Type</span><span class="sxs-lookup"><span data-stu-id="d4c2a-119">GeometryRow_Type</span></span>  <br/> ||
+   
+### <a name="attributes"></a><span data-ttu-id="d4c2a-120">Attributs</span><span class="sxs-lookup"><span data-stu-id="d4c2a-120">Attributes</span></span>
+
+<span data-ttu-id="d4c2a-121">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d4c2a-121">None.</span></span>
+  
+
