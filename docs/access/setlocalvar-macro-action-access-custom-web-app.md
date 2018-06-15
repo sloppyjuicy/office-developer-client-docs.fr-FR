@@ -11,7 +11,7 @@ ms.openlocfilehash: 26b1515a8604c02c32135e6e5ccf6fe1e67622f2
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 06/15/2018
 ms.locfileid: "19781978"
 ---
 # <a name="setlocalvar-macro-action-access-custom-web-app"></a>Action de Macro DéfinirVarLocale (accès personnalisé web app)
