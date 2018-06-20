@@ -1,0 +1,65 @@
+---
+title: Rule, élément (RuleSet_Type, complexType) (« Visio XML »)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
+description: Représente une règle de validation unique dans un ensemble de règles de validation de diagramme.
+ms.openlocfilehash: feae283c624bdece98dbc1136b0fe8765d911e12
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19789557"
+---
+# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Rule, élément (RuleSet_Type, complexType) (« Visio XML »)
+
+Représente une règle de validation unique dans un ensemble de règles de validation de diagramme.
+  
+## <a name="element-information"></a>Informations sur l'élément
+
+|||
+|:-----|:-----|
+|**Type d’élément** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
+|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Parties de document** <br/> |validation.Xml  <br/> |
+   
+## <a name="definition"></a>Définition
+
+```XML
+< xs:element name="Rule" type="Rule_Type" minOccurs="0" maxOccurs="unbounded" >
+</xs:element >
+```
+
+## <a name="elements-and-attributes"></a>Éléments et attributs
+
+Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+  
+### <a name="parent-elements"></a>Éléments parents
+
+|**Élément**|**Type**|**Description**|
+|:-----|:-----|:-----|
+|[Ensemble de règles](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Représente un ensemble de règles de validation du diagramme.  <br/> |
+   
+### <a name="child-elements"></a>Éléments enfants
+
+|**Élément**|**Type**|**Description**|
+|:-----|:-----|:-----|
+|[RuleFilter](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |Spécifie l’expression logique qui détermine si la règle de validation doit être appliquée à un objet cible.  <br/> |
+|[RuleTest](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |Spécifie l’expression logique qui détermine si l’objet cible correspond à la règle de validation.  <br/> |
+   
+### <a name="attributes"></a>Attributs
+
+|**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
+|:-----|:-----|:-----|:-----|:-----|
+|Category  <br/> |XSD : String  <br/> |facultatif  <br/> |Spécifie le texte affiché dans la colonne **catégorie** de la fenêtre problèmes. Il s'agit par défaut d'une chaîne vide.  <br/> |Valeurs du type xsd : String.  <br/> |
+|Description  <br/> |XSD : String  <br/> |facultatif  <br/> |Spécifie la description de la règle de validation qui s’affiche dans l’interface utilisateur. Valeur par défaut est « Inconnue ».  <br/> |Valeurs du type xsd : String.  <br/> |
+|ID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |Spécifie l’identificateur unique de la règle de validation.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|Ignoré  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |Spécifie si la règle de validation est actuellement ignorée. Valeur par défaut est False.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
+|NameU  <br/> |XSD : String  <br/> |obligatoire  <br/> |Spécifie le nom universel de la règle de validation.  <br/> |Valeurs du type xsd : String.  <br/> |
+|RuleTarget  <br/> |XSD : int  <br/> |facultatif  <br/> |Spécifie le type d’objet auquel s’applique la règle de validation.  <br/> |Valeurs du type xsd : int.  <br/> |
+   
+

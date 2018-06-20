@@ -1,0 +1,41 @@
+---
+title: ShdwOffsetY, cellule (section Page Properties)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+f1_keywords:
+- vis_sdr.chm930
+localization_priority: Normal
+ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
+description: Détermine, en unités de page, la distance du décalage vertical entre l'ombre d'une forme et la forme.
+ms.openlocfilehash: 0228fef00230dd1517d20067fda855225cef5533
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19789719"
+---
+# <a name="shdwoffsety-cell-page-properties-section"></a>ShdwOffsetY, cellule (section Page Properties)
+
+Détermine, en unités de page, la distance du décalage vertical entre l'ombre d'une forme et la forme.
+  
+## <a name="remarks"></a>Remarques
+
+Cette valeur est définie dans la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur la flèche **Mise en Page** ). Cette valeur est indépendante de l’échelle du dessin. Si le dessin est mis à l’échelle, le décalage d’ombre reste identique. 
+  
+Pour obtenir une référence à la cellule ShdwOffsetY par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+  
+|||
+|:-----|:-----|
+| Nom de la cellule :  <br/> | ShdwOffsetY  <br/> |
+   
+Pour obtenir une référence à la cellule ShdwOffsetY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+  
+|||
+|:-----|:-----|
+| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la ligne :  <br/> |**visRowPage** <br/> |
+| Index de la cellule :  <br/> |**visPageShdwOffsetY** <br/> |
+   
+

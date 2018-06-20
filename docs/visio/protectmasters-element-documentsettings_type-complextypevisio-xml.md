@@ -1,0 +1,57 @@
+---
+title: Élément ProtectMasters (DocumentSettings_Type, complexType) (« Visio XML »)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+localization_priority: Normal
+ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
+description: Spécifie si l’utilisateur est empêché de création, modification ou la suppression des formes de base. L’utilisateur peut toujours créer des nouvelles formes à partir d’une forme de base, quel que soit ce paramètre.
+ms.openlocfilehash: cb576f267e076b06f2088ce53a18e9af36a46b0c
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19789357"
+---
+# <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectMasters (DocumentSettings_Type, complexType) (« Visio XML »)
+
+Spécifie si l’utilisateur est empêché de création, modification ou la suppression des formes de base. L’utilisateur peut toujours créer des nouvelles formes à partir d’une forme de base, quel que soit ce paramètre. 
+  
+La plage de valeurs possibles pour cet élément est « 0 » ou « 1 ». Une valeur de « 0 » indique que les utilisateurs peuvent créer, modifier ou supprimer des formes de base. La valeur « 1 » indique que les utilisateurs ne peuvent pas créer, modifier ou supprimer des formes de base.
+  
+## <a name="element-information"></a>Informations sur l'élément
+
+|||
+|:-----|:-----|
+|**Type d’élément** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
+|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
+|**Parties de document** <br/> |document.Xml  <br/> |
+   
+## <a name="definition"></a>Définition
+
+```XML
+< xs:element name="ProtectMasters" type="ProtectMasters_Type" minOccurs="0" maxOccurs="1" >
+</xs:element >
+```
+
+## <a name="elements-and-attributes"></a>Éléments et attributs
+
+Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+  
+### <a name="parent-elements"></a>Éléments parents
+
+|**Élément**|**Type**|**Description**|
+|:-----|:-----|:-----|
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document.  <br/> |
+   
+### <a name="child-elements"></a>Éléments enfants
+
+Aucun.
+  
+### <a name="attributes"></a>Attributs
+
+Aucun.
+  
+
