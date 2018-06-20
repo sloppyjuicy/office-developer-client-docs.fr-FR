@@ -1,0 +1,116 @@
+---
+title: IMsgServiceAdmin2CreateMsgServiceEx
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMsgServiceAdmin2.CreateMsgServiceEx
+api_type:
+- COM
+ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: 3aae61f7b21c507da7955dbb4393d13bfb5fa24c
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19784227"
+---
+# <a name="imsgserviceadmin2createmsgserviceex"></a><span data-ttu-id="a340c-103">IMsgServiceAdmin2::CreateMsgServiceEx</span><span class="sxs-lookup"><span data-stu-id="a340c-103">IMsgServiceAdmin2::CreateMsgServiceEx</span></span>
+
+  
+  
+<span data-ttu-id="a340c-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="a340c-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="a340c-105">Ajoute un service de message pour le profil actuel et des retours nouvellement ajouté UID de service.</span><span class="sxs-lookup"><span data-stu-id="a340c-105">Adds a message service to the current profile and returns that newly added service UID.</span></span>
+  
+```cpp
+HRESULT CreateMsgServiceEx(
+  LPSTR lpszService,
+  LPSTR lpszDisplayName,
+  ULONG_PTR ulUIParam,
+  ULONG ulFlags,    
+  LPMAPIUID lpuidService
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="a340c-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a340c-106">Parameters</span></span>
+
+ <span data-ttu-id="a340c-107">_lpszService_</span><span class="sxs-lookup"><span data-stu-id="a340c-107">_lpszService_</span></span>
+  
+> <span data-ttu-id="a340c-108">[in] Pointeur vers le nom du service de message à ajouter.</span><span class="sxs-lookup"><span data-stu-id="a340c-108">[in] A pointer to the name of the message service to add.</span></span> <span data-ttu-id="a340c-109">Ce nom de service de message doit apparaître dans la section **[Services]** du fichier MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="a340c-109">This message service name must appear in the **[Services]** section of the MapiSvc.inf file.</span></span> 
+    
+ <span data-ttu-id="a340c-110">_lpszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="a340c-110">_lpszDisplayName_</span></span>
+  
+> <span data-ttu-id="a340c-111">[in] Pointeur vers le nom complet du service de message à ajouter.</span><span class="sxs-lookup"><span data-stu-id="a340c-111">[in] A pointer to the display name of the message service to add.</span></span> <span data-ttu-id="a340c-112">Le paramètre _lpszDisplayName_ est ignoré si le service de message a défini la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) dans le fichier MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="a340c-112">The  _lpszDisplayName_ parameter is ignored if the message service has set the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property in the MapiSvc.inf file.</span></span>
+    
+ <span data-ttu-id="a340c-113">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="a340c-113">_ulUIParam_</span></span>
+  
+> <span data-ttu-id="a340c-114">[in] Un handle vers la fenêtre parent des boîtes de dialogue ni windows cette méthode affiche.</span><span class="sxs-lookup"><span data-stu-id="a340c-114">[in] A handle to the parent window of any dialog boxes or windows this method displays.</span></span>
+    
+ <span data-ttu-id="a340c-115">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="a340c-115">_ulFlags_</span></span>
+  
+> <span data-ttu-id="a340c-116">[in] Masque de bits d’indicateurs qui contrôle la façon dont le service de message est installé.</span><span class="sxs-lookup"><span data-stu-id="a340c-116">[in] A bitmask of flags that controls how the message service is installed.</span></span> <span data-ttu-id="a340c-117">Les indicateurs suivants peuvent être définis :</span><span class="sxs-lookup"><span data-stu-id="a340c-117">The following flags can be set:</span></span>
+    
+<span data-ttu-id="a340c-118">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a340c-118">MAPI_UNICODE</span></span>
+  
+> <span data-ttu-id="a340c-119">Paramètres lpszDisplayName et le lpszService doivent être castés en LPWSTR et interprétées en tant que chaînes Unicode.</span><span class="sxs-lookup"><span data-stu-id="a340c-119">The lpszService and the lpszDisplayName parameters should be cast to LPWSTR and interpreted as Unicode strings.</span></span>
+    
+<span data-ttu-id="a340c-120">SERVICE_NO_RESTART_WARNING</span><span class="sxs-lookup"><span data-stu-id="a340c-120">SERVICE_NO_RESTART_WARNING</span></span>
+  
+> <span data-ttu-id="a340c-121">Lorsque vous ajoutez un nouveau service de message pour le profil, le sous-système MAPI, selon les circonstances et de différents critères, détermine souvent que cette action nécessite un redémarrage d’Outlook.</span><span class="sxs-lookup"><span data-stu-id="a340c-121">When adding a new message service to the profile, the MAPI subsystem, based on various circumstances and criteria, often determines that this action requires a restart of Outlook.</span></span> <span data-ttu-id="a340c-122">Si l’indicateur SERVICE_NO_RESTART_WARNING n’est pas inclus, l’interface utilisateur est autorisé - basée sur les indicateurs SERVICE_UI_ALWAYS et SERVICE_UI_ALLOWED - et au moins un processus est connecté le profil actif, cette fonction affiche le message « vous devez redémarrer Outlook pour ces modifications prennent effet. »</span><span class="sxs-lookup"><span data-stu-id="a340c-122">If the SERVICE_NO_RESTART_WARNING flag is not included and UI is allowed - based on the SERVICE_UI_ALWAYS and SERVICE_UI_ALLOWED flags - and at least one process is logged onto the current profile, this function displays the message "You must restart Outlook for these changes to take effect."</span></span> <span data-ttu-id="a340c-123">Y compris l’indicateur SERVICE_NO_RESTART_WARNING supprime l’affichage de ce message d’avertissement.</span><span class="sxs-lookup"><span data-stu-id="a340c-123">Including the SERVICE_NO_RESTART_WARNING flag suppresses the display of that warning message.</span></span>
+    
+<span data-ttu-id="a340c-124">SERVICE_UI_ALLOWED</span><span class="sxs-lookup"><span data-stu-id="a340c-124">SERVICE_UI_ALLOWED</span></span>
+  
+> <span data-ttu-id="a340c-125">La configuration du service message si nécessaire, l’interface utilisateur est autorisé.</span><span class="sxs-lookup"><span data-stu-id="a340c-125">The message service configuration UI is allowed if needed.</span></span>
+    
+<span data-ttu-id="a340c-126">SERVICE_UI_ALWAYS</span><span class="sxs-lookup"><span data-stu-id="a340c-126">SERVICE_UI_ALWAYS</span></span>
+  
+> <span data-ttu-id="a340c-127">Le service de message affiche sa feuille de propriétés de configuration.</span><span class="sxs-lookup"><span data-stu-id="a340c-127">The message service displays its configuration property sheet.</span></span>
+    
+ <span data-ttu-id="a340c-128">_lpuidService_</span><span class="sxs-lookup"><span data-stu-id="a340c-128">_lpuidService_</span></span>
+  
+> <span data-ttu-id="a340c-129">[out] Pointeur vers l’UID du service de message ajouté.</span><span class="sxs-lookup"><span data-stu-id="a340c-129">[out] The pointer to the UID of the message service added.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="a340c-130">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="a340c-130">Return value</span></span>
+
+<span data-ttu-id="a340c-131">S_OK</span><span class="sxs-lookup"><span data-stu-id="a340c-131">S_OK</span></span>
+  
+> <span data-ttu-id="a340c-132">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="a340c-132">The call succeeded and has returned the expected value or values.</span></span>
+    
+<span data-ttu-id="a340c-133">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="a340c-133">MAPI_E_NOT_FOUND</span></span>
+  
+> <span data-ttu-id="a340c-134">Le nom de service de message n’est pas dans la section **[Services]** du fichier MapiSvc.inf.</span><span class="sxs-lookup"><span data-stu-id="a340c-134">The message service name is not in the **[Services]** section of MapiSvc.inf.</span></span> 
+    
+## <a name="remarks"></a><span data-ttu-id="a340c-135">Remarques</span><span class="sxs-lookup"><span data-stu-id="a340c-135">Remarks</span></span>
+
+<span data-ttu-id="a340c-136">La méthode **IMsgServiceAdmin2::CreateMsgServiceEx** ajoute un service de message pour le profil actuel.</span><span class="sxs-lookup"><span data-stu-id="a340c-136">The **IMsgServiceAdmin2::CreateMsgServiceEx** method adds a message service to the current profile.</span></span> <span data-ttu-id="a340c-137">**CreateMsgServiceEx** appelle la fonction du point d’entrée du service de message pour effectuer des tâches de configuration spécifiques au service.</span><span class="sxs-lookup"><span data-stu-id="a340c-137">**CreateMsgServiceEx** calls the message service's entry point function to perform any service-specific configuration tasks.</span></span> <span data-ttu-id="a340c-138">Si l’indicateur SERVICE_UI_ALLOWED est défini dans le paramètre _ulFlags_ , le service de message en cours d’installation peut afficher une feuille de propriétés de l’activation de l’utilisateur de configurer ses paramètres.</span><span class="sxs-lookup"><span data-stu-id="a340c-138">If the SERVICE_UI_ALLOWED flag is set in the  _ulFlags_ parameter, the message service being installed can display a property sheet enabling the user to configure its settings.</span></span> 
+  
+<span data-ttu-id="a340c-139">Le fichier MapiSvc.inf contient la liste des fournisseurs qui constituent un service de message et les propriétés de chacun.</span><span class="sxs-lookup"><span data-stu-id="a340c-139">The MapiSvc.inf file contains the list of providers that make up a message service and the properties for each.</span></span> <span data-ttu-id="a340c-140">**CreateMsgServiceEx** crée d’abord une nouvelle section de profil pour le service de message, puis copie toutes les informations de ce service à partir du fichier MapiSvc.inf dans le profil de la création de nouvelles sections pour chaque fournisseur.</span><span class="sxs-lookup"><span data-stu-id="a340c-140">**CreateMsgServiceEx** first creates a new profile section for the message service and then copies all of the information for that service from the MapiSvc.inf file into the profile, creating new sections for each provider.</span></span> 
+  
+<span data-ttu-id="a340c-141">Une fois que toutes les informations a été copiées à partir du fichier MapiSvc.inf, fonction de point d’entrée du message service **MSGSERVICEENTRY**, est appelée avec la valeur MSG_SERVICE_CREATE définie dans le paramètre _ulContext_ .</span><span class="sxs-lookup"><span data-stu-id="a340c-141">After all the information has been copied from MapiSvc.inf, the message service's entry point function, **MSGSERVICEENTRY**, is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter.</span></span> <span data-ttu-id="a340c-142">Si l’indicateur SERVICE_UI_ALLOWED est défini dans le paramètre de la méthode **CreateMsgServiceEx** _ulFlags_ , les valeurs dans les paramètres _ulUIParam_ et _ulFlags_ sont également passés à la fonction de point d’entrée du service de message est appelée.</span><span class="sxs-lookup"><span data-stu-id="a340c-142">If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgServiceEx** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called.</span></span> <span data-ttu-id="a340c-143">Fournisseurs de services doivent afficher leurs feuilles de propriétés de configuration afin que les utilisateurs peuvent configurer le service de message.</span><span class="sxs-lookup"><span data-stu-id="a340c-143">Service providers should display their configuration property sheets so users can configure the message service.</span></span> 
+  
+## <a name="notes-to-callers"></a><span data-ttu-id="a340c-144">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="a340c-144">Notes to callers</span></span>
+
+<span data-ttu-id="a340c-145">Si l’argument _lpuidService_ **CreateMsgServiceEx** n’est pas NULL, la propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) du service de message qui a été ajouté au profil est renvoyée dans le **GUID** vers laquelle il pointe.</span><span class="sxs-lookup"><span data-stu-id="a340c-145">If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points.</span></span> 
+  
+<span data-ttu-id="a340c-146">Passez la valeur de la propriété **PR_SERVICE_UID** dans le paramètre _lpuidService_ à la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) pour configurer le service.</span><span class="sxs-lookup"><span data-stu-id="a340c-146">Pass the value of the **PR_SERVICE_UID** property in the  _lpuidService_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service.</span></span> 
+  
+> [!CAUTION]
+> <span data-ttu-id="a340c-147">L’implémentation Microsoft Outlook 2010 du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échoue si elle est utilisée.</span><span class="sxs-lookup"><span data-stu-id="a340c-147">The Microsoft Outlook 2010 implementation of the MAPI subsystem does not support MAPI_UNICODE and will fail if it is used.</span></span> 
+  
+> [!IMPORTANT]
+> <span data-ttu-id="a340c-148">L’interface IMsgServiceAdmin2 est exposé par le même objet qui implémente l’interface IMsgServiceAdmin et est disponible à l’aide de la mise en œuvre d’Outlook du sous-système MAPI depuis Outlook 2003.</span><span class="sxs-lookup"><span data-stu-id="a340c-148">The IMsgServiceAdmin2 interface is exposed by the same object that implements the IMsgServiceAdmin interface, and has been available using Outlook's implementation of the MAPI subsystem since Outlook 2003.</span></span> <span data-ttu-id="a340c-149">Son IID est définie comme suit : > `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> _ulFlags_ SERVICE_NO_RESTART_WARNING pas peuvent être définis dans le fichier d’en-tête téléchargeables que vous avez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >`#define SERVICE_NO_RESTART_WARNING 0x00000080`</span><span class="sxs-lookup"><span data-stu-id="a340c-149">Its IID is defined as follows: >  `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)`>  `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> The  _ulFlags_ SERVICE_NO_RESTART_WARNING might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: >  `#define SERVICE_NO_RESTART_WARNING 0x00000080`</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="a340c-150">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a340c-150">See also</span></span>
+
+
+
+[<span data-ttu-id="a340c-151">IMsgServiceAdmin2 : IMsgServiceAdmin</span><span class="sxs-lookup"><span data-stu-id="a340c-151">IMsgServiceAdmin2 : IMsgServiceAdmin</span></span>](imsgserviceadmin2imsgserviceadmin.md)
+
+
+[<span data-ttu-id="a340c-152">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="a340c-152">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+

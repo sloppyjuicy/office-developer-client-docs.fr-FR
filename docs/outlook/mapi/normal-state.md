@@ -1,0 +1,40 @@
+---
+title: État normal
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 8b2acad7-5ef8-44db-911f-3bd2a7ca2778
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dcc92d220f07b1c111284acacac4a65a2e3f8b6f
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19784905"
+---
+# <a name="normal-state"></a><span data-ttu-id="96b9e-103">État normal</span><span class="sxs-lookup"><span data-stu-id="96b9e-103">Normal State</span></span>
+
+  
+  
+<span data-ttu-id="96b9e-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="96b9e-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="96b9e-105">L’état Normal est où l’objet form passe la plupart de ses temps d’attente pour les applications clientes initier une action tels qu’enregistrer les modifications et fermer le formulaire.</span><span class="sxs-lookup"><span data-stu-id="96b9e-105">The Normal state is where the form object spends most of its time, waiting for client applications to initiate an action such as saving changes or closing the form.</span></span> <span data-ttu-id="96b9e-106">Le tableau suivant décrit les transitions autorisées à partir de son état Normal.</span><span class="sxs-lookup"><span data-stu-id="96b9e-106">The following table describes allowed transitions from the Normal state.</span></span>
+  
+|<span data-ttu-id="96b9e-107">**Méthode IPersistMessage**</span><span class="sxs-lookup"><span data-stu-id="96b9e-107">**IPersistMessage method**</span></span>|<span data-ttu-id="96b9e-108">**Action**</span><span class="sxs-lookup"><span data-stu-id="96b9e-108">**Action**</span></span>|<span data-ttu-id="96b9e-109">**Nouvel état**</span><span class="sxs-lookup"><span data-stu-id="96b9e-109">**New state**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="96b9e-110">[IPersistMessage::Save](ipersistmessage-save.md) (_pMessage ==_ NULL, _fSameAsLoad ==_ TRUE)</span><span class="sxs-lookup"><span data-stu-id="96b9e-110">[IPersistMessage::Save](ipersistmessage-save.md)(_pMessage ==_ NULL,  _fSameAsLoad ==_ TRUE)</span></span>  <br/> <span data-ttu-id="96b9e-111">ou -</span><span class="sxs-lookup"><span data-stu-id="96b9e-111">-or-</span></span>  <br/> <span data-ttu-id="96b9e-112">**IPersistMessage::Save** (_pMessage ! =_ NULL, _fSameAsLoad ==_ FALSE)</span><span class="sxs-lookup"><span data-stu-id="96b9e-112">**IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ FALSE)</span></span>  <br/> |<span data-ttu-id="96b9e-113">Récursive enregistrer tous les objets OLE incorporés qui ont été modifiés.</span><span class="sxs-lookup"><span data-stu-id="96b9e-113">Recursively save any embedded OLE objects that have been modified.</span></span> <span data-ttu-id="96b9e-114">Enregistrer les données de message dans l’objet du message.</span><span class="sxs-lookup"><span data-stu-id="96b9e-114">Save message data back to the message object.</span></span> <span data-ttu-id="96b9e-115">Stocker l’indicateur _fSameAsLoad_ pour une utilisation ultérieure dans l’état de [NoScribble](noscribble-state.md) .</span><span class="sxs-lookup"><span data-stu-id="96b9e-115">Store the  _fSameAsLoad_ flag for later use in the [NoScribble](noscribble-state.md) state.</span></span>  <br/> |<span data-ttu-id="96b9e-116">NoScribble</span><span class="sxs-lookup"><span data-stu-id="96b9e-116">NoScribble</span></span>  <br/> |
+|<span data-ttu-id="96b9e-117">**IPersistMessage::Save** (_pMessage ! =_ NULL, _fSameAsLoad ==_ TRUE)</span><span class="sxs-lookup"><span data-stu-id="96b9e-117">**IPersistMessage::Save**(_pMessage !=_ NULL,  _fSameAsLoad ==_ TRUE)</span></span>  <br/> |<span data-ttu-id="96b9e-118">Ceci est la même que le cas précédent, sauf que cet appel **Enregistrer** est utilisé dans les situations de mémoire insuffisante et ne doit pas échouer par manque de mémoire.</span><span class="sxs-lookup"><span data-stu-id="96b9e-118">This is the same as the previous case, except that this **Save** call is used in low-memory situations and must not fail for lack of memory.</span></span>  <br/> |<span data-ttu-id="96b9e-119">NoScribble</span><span class="sxs-lookup"><span data-stu-id="96b9e-119">NoScribble</span></span>  <br/> |
+|[<span data-ttu-id="96b9e-120">IPersistMessage::HandsOffMessage</span><span class="sxs-lookup"><span data-stu-id="96b9e-120">IPersistMessage::HandsOffMessage</span></span>](ipersistmessage-handsoffmessage.md) <br/> |<span data-ttu-id="96b9e-121">Appel de manière récursive la méthode **HandsOffMessage** sur des messages incorporés ou OLE [IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) sur les objets OLE incorporés.</span><span class="sxs-lookup"><span data-stu-id="96b9e-121">Recursively invoke the **HandsOffMessage** method on embedded messages or the OLE [IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) method on embedded OLE objects.</span></span> <span data-ttu-id="96b9e-122">Version de l’objet du message et des messages incorporés ni objet.</span><span class="sxs-lookup"><span data-stu-id="96b9e-122">Release the message object and any embedded messages or objects.</span></span>  <br/> |[<span data-ttu-id="96b9e-123">HandsOffFromNormal</span><span class="sxs-lookup"><span data-stu-id="96b9e-123">HandsOffFromNormal</span></span>](handsofffromnormal-state.md) <br/> |
+|<span data-ttu-id="96b9e-124">[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md)</span><span class="sxs-lookup"><span data-stu-id="96b9e-124">[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md) or [IPersistMessage::Load](ipersistmessage-load.md)</span></span> <br/> |<span data-ttu-id="96b9e-125">Définissez la dernière erreur à et E_UNEXPECTED.</span><span class="sxs-lookup"><span data-stu-id="96b9e-125">Set the last error to and return E_UNEXPECTED.</span></span>  <br/> |<span data-ttu-id="96b9e-126">Normal</span><span class="sxs-lookup"><span data-stu-id="96b9e-126">Normal</span></span>  <br/> |
+|[<span data-ttu-id="96b9e-127">IPersistMessage::GetLastError</span><span class="sxs-lookup"><span data-stu-id="96b9e-127">IPersistMessage::GetLastError</span></span>](ipersistmessage-getlasterror.md) <br/> |<span data-ttu-id="96b9e-128">Renvoie la dernière erreur.</span><span class="sxs-lookup"><span data-stu-id="96b9e-128">Return the last error.</span></span>  <br/> |<span data-ttu-id="96b9e-129">Normal</span><span class="sxs-lookup"><span data-stu-id="96b9e-129">Normal</span></span>  <br/> |
+|<span data-ttu-id="96b9e-130">Autres [IPersistMessage : IUnknown](ipersistmessageiunknown.md) méthodes ou autres interfaces</span><span class="sxs-lookup"><span data-stu-id="96b9e-130">Other [IPersistMessage : IUnknown](ipersistmessageiunknown.md) methods or methods from other interfaces</span></span>  <br/> |<span data-ttu-id="96b9e-131">Implémenter comme décrit dans la documentation pour les [IPersistMessage : IUnknown](ipersistmessageiunknown.md) interface.</span><span class="sxs-lookup"><span data-stu-id="96b9e-131">Implement as described in the documentation for the [IPersistMessage : IUnknown](ipersistmessageiunknown.md) interface.</span></span>  <br/> |<span data-ttu-id="96b9e-132">Normal</span><span class="sxs-lookup"><span data-stu-id="96b9e-132">Normal</span></span>  <br/> |
+   
+## <a name="see-also"></a><span data-ttu-id="96b9e-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="96b9e-133">See also</span></span>
+
+
+
+[<span data-ttu-id="96b9e-134">États de formulaire</span><span class="sxs-lookup"><span data-stu-id="96b9e-134">Form States</span></span>](form-states.md)
+
