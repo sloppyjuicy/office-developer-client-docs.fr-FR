@@ -87,7 +87,7 @@ MAPI_E_TOO_COMPLEX
   
 > Le fournisseur de services ne gère pas les critères de recherche spécifiée.
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La méthode **IMAPIContainer::SetSearchCriteria** établit les critères de recherche pour un conteneur qui prend en charge les recherches, généralement un dossier de résultats de recherche. Un dossier de résultats de recherche contient des liens vers les messages qui répondent aux critères de recherche ; les messages réels sont toujours stockés dans leurs emplacements d’origine. Les données uniquement uniques qui se trouve dans un dossier de résultats de recherche sont sa table des matières. La table des matières d’un dossier de résultats de recherche a le contenu de la banque de messages fusionné après que la restriction de recherche a été appliquée. 
   

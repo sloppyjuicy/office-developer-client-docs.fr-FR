@@ -1,0 +1,84 @@
+---
+title: DTBLPAGE
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.DTBLPAGE
+api_type:
+- COM
+ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 86cd30b15402f35e8396dedf6b685050ee4fb45e
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19783248"
+---
+# <a name="dtblpage"></a>DTBLPAGE
+
+  
+  
+**S’applique à**: Outlook 
+  
+Décrit une page à onglets qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage. 
+  
+|||
+|:-----|:-----|
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macro connexe :  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
+   
+```cpp
+typedef struct _DTBLPAGE
+{
+  ULONG ulbLpszLabel;
+  ULONG ulFlags;
+  ULONG ulbLpszComponent;
+  ULONG ulContext;
+} DTBLPAGE, FAR *LPDTBLPAGE;
+
+```
+
+## <a name="members"></a>Membres
+
+ **ulbLpszLabel**
+  
+> Position dans la mémoire de l’étiquette de chaîne de caractères de l’onglet page.
+    
+ **ulFlags**
+  
+> Masque de bits d’indicateurs utilisés pour désigner le format de l’étiquette vers laquelle pointé le membre **ulbLpszLabelName** . Vous pouvez définir l’indicateur suivant : 
+    
+MAPI_UNICODE 
+  
+> L’étiquette est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
+    
+ **ulbLpszComponent**
+  
+> Position dans la mémoire d’une chaîne de caractères identifiant la section **[Help File Mappings]** dans le fichier MAPISVC.inf. Fichier configuration ou 0. Le nom de fichier figurant dans le fichier MAPISVC.inf. Section INF peut être utilisée par un utilisateur à accéder à l’aide étendue pour la page à onglets en cliquant sur le bouton **aide** dans la boîte de dialogue. Pour plus d’informations sur les entrées dans le fichier MAPISVC.inf. INF, voir [Format de fichier du fichier MAPISVC.inf. INF](file-format-of-mapisvc-inf.md).
+    
+ **ulContext**
+  
+> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le membre **ulbLpszComponent** et le membre **ulContext** doivent être différent de zéro pour le bouton **aide** travailler. Si cet identificateur est égale à zéro, et la chaîne du composant est NULL, aucune aide n’est associée à la page. 
+    
+## <a name="remarks"></a>Remarques
+
+Une structure **DTBLPAGE** décrit une page à onglets un contrôle qui est utilisé pour séparer plusieurs boîtes de dialogue connexes. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour afficher les options pour le destinataire, message ou configuration. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
+  
+L’identificateur de chaîne et le contexte du composant fournissent des informations sur si aide détaillée est disponible pour la page à onglets. Si aide détaillée est disponible, l’identificateur de chaîne et le contexte de composant fournit des informations sur la façon d’y accéder. La chaîne composant mappe sur le fichier d’aide ; l’ID de contexte correspond à la rubrique d’aide. Si l’ID de contexte est égale à zéro, et la chaîne du composant est NULL, aide étendue n’est pas disponible.
+  
+Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md).
+  
+## <a name="see-also"></a>Voir aussi
+
+
+
+[DTCTL](dtctl.md)
+
+
+[Structures MAPI](mapi-structures.md)
+

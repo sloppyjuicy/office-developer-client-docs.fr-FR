@@ -1,0 +1,74 @@
+---
+title: IMAPIMessageSiteGetFolder
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMAPIMessageSite.GetFolder
+api_type:
+- COM
+ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ea95ea4efbbf50e5551a27eb81fe5d5ab3b73948
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19783825"
+---
+# <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
+
+  
+  
+**S’applique à**: Outlook 
+  
+Renvoie le dossier dans lequel le message en cours a été créé ou ouvert, si un tel dossier existe. Cette méthode renvoie la valeur NULL dans le paramètre _ppFolder_ pour les messages incorporés, qui ne sont pas stockées directement dans un dossier. 
+  
+```cpp
+HRESULT GetFolder(
+  LPMAPIFOLDER FAR * ppFolder
+);
+```
+
+## <a name="parameters"></a>Paramètres
+
+ _ppFolder_
+  
+> [out] Pointeur vers un pointeur vers le dossier renvoyé.
+    
+## <a name="return-value"></a>Valeur renvoy�e
+
+S_OK 
+  
+> L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.
+    
+S_FALSE 
+  
+> Aucun dossier n’existe pour le message.
+    
+## <a name="remarks"></a>Remarques
+
+Pour obtenir la liste des interfaces qui sont liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
+  
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+
+Pour des exemples de code MFCMAPI, voir le tableau suivant.
+  
+|**Fichier**|**Fonction**|**Commentaire**|
+|:-----|:-----|:-----|
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFolder  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFolder** pour renvoyer le pointeur actuellement mis en cache dans le dossier spécifié.  <br/> |
+   
+## <a name="see-also"></a>Voir aussi
+
+
+
+[IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
+
+
+[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+  
+[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
+

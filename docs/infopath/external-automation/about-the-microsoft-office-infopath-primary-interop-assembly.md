@@ -1,0 +1,113 @@
+---
+title: À propos de l’Assembly d’interopérabilité Microsoft Office InfoPath principal
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+keywords:
+- InfoPath 2007, PIA, assemblys PIA d’InfoPath, assemblys PIA [InfoPath 2007], assemblys PIA [InfoPath 2007]
+localization_priority: Normal
+ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
+description: Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code managé tel que Visual c# et Visual Basic, l’option prise en charge de la programmabilité .NET dans le programme d’installation de InfoPath installe trois assemblys d’interopérabilité.
+ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19782258"
+---
+# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’Assembly d’interopérabilité Microsoft Office InfoPath principal
+
+L’application InfoPath est construite comme une application de composant COM (Object Model) qui expose ses interfaces de programmation pour l’automatisation externe en tant qu’interfaces COM. Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code managé tel que Visual c# et Visual Basic, l’option **Prise en charge de la programmabilité .NET** dans le programme d’installation de InfoPath installe trois assemblys d’interopérabilité. Les assemblys d'interopérabilité sont des assemblys .NET qui font office de lien entre le code managé et le code non managé et mappent les membres des objets COM avec les membres managés .NET équivalents. 
+  
+Les fichiers des trois assemblys d'interopérabilité installés par InfoPath sont les suivants :
+  
+- Microsoft.Office.Interop.InfoPath.dll
+    
+- Microsoft.Office.Interop.InfoPath.SemiTrust.dll
+    
+- Microsoft.Office.Interop.InfoPath.Xml.dll
+    
+Cette rubrique décrit le modèle objet exposé par le biais de l’assembly d’interopérabilité Microsoft.Office.Interop.InfoPath, qui est utilisé exclusivement pour le code d’automatisation externe. Pour plus d’informations sur l’assembly Microsoft.Office.Interop.InfoPath.SemiTrust, qui est utilisé exclusivement pour l’écriture et en cours d’exécution du code managé qui s’exécute à partir de modèles de formulaire InfoPath (.xsn), voir [Modèles d’objet compatible avec InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
+  
+## <a name="important-installation-information"></a>Informations importantes concernant l'installation
+
+L’option d’installation par défaut du programme d’installation InfoPath installe l’assembly Microsoft.Office.Interop.InfoPath dans le Global Assembly Cache (GAC), le contenu qui peut être affiché à partir du dossier C:\Windows\Assembly (ou C:\Windows\assembly\GAC_ MSIL lors de l’affichage du système de fichiers directement). Cet assembly est appelé le « Microsoft Office InfoPath PIA » et est souvent utilisé conjointement avec l’assembly Microsoft.Office.Interop.InfoPath.Xml, qui est également installé dans le Global Assembly Cache, pour automatiser l’application InfoPath à partir de applications externes qui utilisent du code managé. Pour plus d’informations sur l’assembly Microsoft.Office.Interop.InfoPath.Xml, voir à [Propos InfoPath XML des assemblys PIA](about-the-infopath-xml-interop-assembly.md).
+  
+Si l’assembly Microsoft.Office.Interop.InfoPath n’est pas visible dans le Global Assembly Cache, vous devez vérifier que InfoPath a été installé correctement. Par défaut, l’option de **Prise en charge de la programmabilité .NET** dans le programme d’installation est définie pour **l’Exécuter à partir du disque dur** tant que .NET Framework 1.1 Redistributable, Kit de développement logiciel (SDK) .NET Framework 1.1 ou une version ultérieure du .NET Framework est installé avant d’exécuter le programme d’installation. Si ces assemblys PIA ne sont pas disponibles sur votre ordinateur, vous devez vérifier que .NET Framework version 1.1 ou ultérieure est installé, puis utilisez **programmes et fonctionnalités** dans le **Panneau de configuration** pour modifier le programme d’installation en définissant la programmabilité .NET ** Prise en charge** située sous **Microsoft Office InfoPath** pour **Exécuter à partir du disque dur**.
+  
+Pour plus d’informations sur le téléchargement de .NET Framework 1.1 Redistributable, voir [.NET Framework 1.1 Redistributable](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx).
+  
+## <a name="the-microsoftofficeinteropinfopath-namespace"></a>Le Namespace Microsoft.Office.Interop.InfoPath
+
+Bien que le processus d’écriture géré code pour une tâche donnée est très similaire à l’exécution de la même tâche à l’aide d’un langage de Visual Basic pour Applications ou JScript, le modèle objet exposé lors de l’affichage de la **Microsoft.Office.Interop.InfoPath** espace de noms à partir de l' **Explorateur d’objets** dans Microsoft Visual Studio recherche plus complexe. Il s’agit, car l’interopérabilité avec le .NET Framework requiert un serveur COM pour exposer toutes ses interfaces publics, ainsi que certaines constructions supplémentaires requises par le .NET Framework lui-même. Pour plus d’informations sur comment et pourquoi le modèle objet exposé par un assembly d’interopérabilité s’affiche plus complexe, consultez la section « Comment COM objets sont exposés au Code managé » de la rubrique [Modèles d’objet compatible avec InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx) . 
+  
+### <a name="using-intellisense"></a>Utilisation d'IntelliSense
+
+Les exemples de cette section supposent que vous avez établi des références aux assemblys Microsoft.Office.Interop.InfoPath et Microsoft.Office.Interop.InfoPath.Xml. Pour plus d’informations sur la définition des références et des exemples de l’automatisation externe supplémentaires, voir [scénarios d’automatisation externe et des exemples](external-automation-scenarios-and-examples.md).
+  
+Avant de pouvoir utiliser Microsoft IntelliSense semi-automatique dans le code d’automatisation externe, vous devez créer une variable d’objet d’une instance de la classe [d’Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Application.aspx) , comme indiqué dans la ligne de code suivante. 
+  
+```cs
+Application myApp = 
+    new Microsoft.Office.Interop.InfoPath.Application();
+```
+
+```vb
+Dim myApp As Application = _
+    New Microsoft.Office.Interop.InfoPath.Application()
+```
+
+Après avoir créé la variable d’objet, lorsque vous tapez le nom de la variable suivi d’un point, une liste déroulante s’affiche avec les membres de la classe **d’Application** à sélectionner. 
+  
+Pour travailler avec un formulaire InfoPath, déclarez une variable objet de type [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.XDocument.aspx) et initialiser puis en ouvrant le formulaire à partir de la collection [XDocuments](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.XDocuments.aspx) de la variable d’objet **d’Application** comme indiqué dans la ligne de code suivante. 
+  
+```cs
+XDocument myXDoc = myApp.XDocuments.Open(
+    "c:\\temp\\Form1.xml",
+    (int) XdDocumentVersionMode.xdFailOnVersionOlder);
+```
+
+```vb
+Dim myXDoc As XDocument = myApp.XDocuments.Open( _
+    "c:\\temp\\Form1.xml", _
+    XdDocumentVersionMode.xdFailOnVersionOlder)
+```
+
+La liste déroulante de IntelliSense instruction fin pour les membres de la classe **XDocument** s’affiche lorsque vous tapez le nom de la variable suivi d’un point. 
+  
+Pour travailler avec le contenu du document XML sous-jacent du formulaire à l’aide de Microsoft XML Core Services (MSXML), vous devez créer une variable de type [IXMLDOMDocument2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument2.aspx) et ensuite utiliser la propriété [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._XDocument2.DOM.aspx) de la classe **XDocument** pour affecter le code XML Modèle DOM (Document Object) du formulaire à cette variable. 
+  
+```cs
+IXMLDOMDocument2 doc= myXDoc.DOM as IXMLDOMDocument2;
+```
+
+```vb
+Dim doc As IXMLDOMDocument2 = myXDoc.DOM
+```
+
+La liste déroulante de IntelliSense instruction fin pour les membres de la classe **IXMLDOMDocument2** s’affiche lorsque vous tapez le nom de la variable suivi d’un point, ce qui vous permet d’utiliser MSXML pour travailler avec le document XML. 
+  
+### <a name="using-the-class-library-reference-documentation"></a>Utilisation de la documentation de référence de la bibliothèque de classes
+
+L’organisation de la documentation de référence de bibliothèque de classes d’espace de noms [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.aspx) reflète les relations entre les interfaces de coclasse et les interfaces héritées qu’elles implémentent. 
+  
+Lorsque vous ouvrez une rubrique pour une interface de coclasse, tels que des [applications](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Application.aspx) , le lien vers les membres de l’interface de coclasse suivant la description de l’interface au début de la rubrique affiche une rubrique vide. Pour afficher la liste des membres implémentés par l'interface de coclasse, vous devez ouvrir la rubrique de la dernière interface héritée par la coclasse, puis ouvrir la table de ses membres. Un lien vers l'interface héritée est proposé au début de la section Remarques de la rubrique consacrée à l'interface de coclasse. 
+  
+Lorsque vous appuyez sur F1 dans l’éditeur de Code Visual Studio, le comportement est similaire, sauf que le membre sur lequel vous appelez aide F1 s’affichera directement, car vous n’êtes plus généralement avec les membres d’une interface. Cependant, le fait qu'un membre puisse être implémenté depuis une interface avec version peut paraître confus la première fois que vous y êtes confronté. Par exemple, si vous tapez  `myXDocument.UI.Alert` puis que vous placez le curseur sur  `Alert` et que vous appuyez sur F1, une rubrique intitulée « UI2.Alert Method » s'affiche. Ceci est dû au fait que la méthode **Alert** est une implémentation d'un membre de l'interface **UI2**. 
+  
+### <a name="passing-optional-parameters-to-infopath-object-model-members"></a>Transmission de paramètres facultatifs à des membres du modèle objet InfoPath
+
+Si un membre de modèle objet InfoPath contient un paramètre facultatif, et vous ne spécifiez pas de valeur pour ce paramètre, vous devez passer le champ **Type.Missing** pour ce paramètre. Si vous ne transmettez pas le champ **Type.Missing** alors que la valeur est omise, cela provoque une erreur de compilation. Cela est vrai pour le code écrit en c# et Visual Basic. Par exemple, la méthode [SelectNodes](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.View2.SelectNodes.aspx) de l'interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.ViewObject.aspx) comprend deux paramètres facultatifs :  _varEndNode_ et  _varViewContext_. Une ligne de code dans laquelle les valeurs de ces deux paramètres ne sont pas spécifiées doit ressembler aux exemples suivants.
+  
+```cs
+myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing);
+```
+
+```vb
+myXDocument.View.SelectNodes(group1, Type.Missing, Type.Missing)
+```
+
+## <a name="see-also"></a>Voir aussi
+
+- [Exemples et des scénarios d’automatisation externe](external-automation-scenarios-and-examples.md)
+

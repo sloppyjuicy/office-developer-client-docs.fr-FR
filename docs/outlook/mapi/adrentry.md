@@ -55,7 +55,7 @@ typedef struct _ADRENTRY
   
 > Pointeur vers un tableau de valeurs de propriété décrivant les propriétés pour le destinataire. Le membre **rgPropVals** peut être NULL. 
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Une structure **ADRENTRY** décrit les propriétés qui appartiennent à un seul destinataire. Les propriétés qui sont généralement utilisées pour décrire un destinataire sont les suivantes : 
   

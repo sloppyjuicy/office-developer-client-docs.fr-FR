@@ -45,7 +45,7 @@ S_OK
   
 > L’enregistrement a été annulée.
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Clients appellent la méthode **Unadvise** pour arrêter de recevoir des notifications sur les modifications apportées à une entrée de carnet d’adresses particulière. Lorsqu’un enregistrement de notification est annulé, le carnet d’adresses versions fournisseur son pointeur vers l’appelant de notification récepteur. Toutefois, la version peut se produire lors de l’appel **Unadvise** ou ultérieurement, si un autre thread est en appelant la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . Lorsqu’une notification est en cours, la version est différée jusqu'à ce que la méthode **OnNotify** renvoie. 
   

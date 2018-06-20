@@ -46,7 +46,7 @@ Le nom de la fonction XLL qui est enregistré.
 
 La fonction doit renvoyer le résultat de la tentative d’inscrire le de fonction XLL _pxName_ à l’aide de la fonction **xlfRegister** . Si la fonction spécifiée ne fait pas partie des exportations du XLL, elle doit retourner la **#VALUE !** erreur ou **NULL** qui Excel interprète à **#VALUE !**.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Votre implémentation de **xlAutoRegister** doit effectuer une recherche par le biais de listes internes de votre XLL des fonctions et des commandes qu'exporte vous recherchez une correspondance avec le nom passé pas la casse. Si la fonction ou la commande est trouvée, **xlAutoRegister** doit essayer de l’enregistrer à l’aide de la fonction **xlfRegister** , en veillant à fournir la chaîne qui indique les types de retour et l’argument de la fonction, ainsi que les autres requis à Excel informations sur la fonction. Il doit ensuite retourner vers Excel quelle que soit l’appel de **xlfRegister** renvoyé. Si la fonction a été enregistrée avec succès, **xlfRegister** renvoie une valeur de **xltypeNum** contenant l’ID de la fonction Enregistrer. 
   

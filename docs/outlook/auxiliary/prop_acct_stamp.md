@@ -29,7 +29,7 @@ Voir [IOlkAccount](iolkaccount.md).
 |Balise de propriété :  <br/> |0x000D001F  <br/> |
 |Access :  <br/> |Lecture seule  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Obtenez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md). Si le client essaie de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**. 
   

@@ -58,7 +58,7 @@ S_OK
   
 > L’état du contrôle bouton a été récupéré correctement.
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Fournisseurs de services implémentent la méthode **IMAPIControl::GetState** pour fournir MAPI avec l’état d’un contrôle bouton. Si le bouton est activé, il peut répondre à un clic de souris ou la touche. S’il est désactivé, le bouton apparaît en grisé et ne répond pas à un clic de souris ou la touche. 
   

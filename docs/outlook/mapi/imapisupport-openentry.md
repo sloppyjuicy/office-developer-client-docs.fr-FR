@@ -1,0 +1,114 @@
+---
+title: IMAPISupportOpenEntry
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMAPISupport.OpenEntry
+api_type:
+- COM
+ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: 04bf7f2ddda7377df72417df2472246a2cf329bf
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19784026"
+---
+# <a name="imapisupportopenentry"></a>IMAPISupport::OpenEntry
+
+  
+  
+**S’applique à**: Outlook 
+  
+Ouvre un objet et retourne un pointeur d’interface pour l’accès des autres. 
+  
+```cpp
+HRESULT OpenEntry(
+ULONG cbEntryID,
+LPENTRYID lpEntryID,
+LPCIID lpInterface,
+ULONG ulOpenFlags,
+ULONG FAR * lpulObjType,
+LPUNKNOWN FAR * lppUnk
+);
+```
+
+## <a name="parameters"></a>Paramètres
+
+ _cbEntryID_
+  
+> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+    
+ _lpEntryID_
+  
+> [in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir.
+    
+ _lpInterface_
+  
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. Transmission NULL des résultats de l’interface standard de l’objet retourné. Par exemple, si l’objet à ouvrir est un message, l’interface standard est [IMessage](imessageimapiprop.md); pour les dossiers, il est [IMAPIFolder](imapifolderimapicontainer.md). Les interfaces standards pour les objets de carnet d’adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et les [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+    
+ _ulOpenFlags_
+  
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être définis :
+    
+MAPI_BEST_ACCESS 
+  
+> Demande que l’objet s’ouvre avec les autorisations de réseau maximale autorisées pour l’appelant. Par exemple, si l’appelant a l’autorisation de lecture/écriture, l’objet doit être ouvert en lecture/écriture ; Si l’appelant a l’autorisation en lecture seule, l’objet doit être ouvert en lecture seule. 
+    
+MAPI_DEFERRED_ERRORS 
+  
+> Permet **OpenEntry** retournée correctement, éventuellement, avant de l’objet est accessible à l’appelant. Si l’objet n’est pas accessible, passer un appel d’objet suivantes permettre provoquer une erreur. 
+    
+N' 
+  
+> Demandes d’autorisation de lecture/écriture. Par défaut, les objets sont ouverts en lecture seule, et les appelants ne doivent pas travailler sur l’hypothèse que bénéficie des autorisations en lecture/écriture. 
+    
+ _lpulObjType_
+  
+> [out] Pointeur vers le type de l’objet ouvert.
+    
+ _lppUnk_
+  
+> [out] Pointeur vers un pointeur vers l’objet ouvert.
+    
+## <a name="return-value"></a>Valeur renvoy�e
+
+S_OK 
+  
+> L’objet a été ouvert avec succès.
+    
+MAPI_E_NO_ACCESS 
+  
+> Une tentative a été effectuée pour modifier un objet en lecture seule, ou tentative d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes.
+    
+MAPI_E_NOT_FOUND 
+  
+> Il n’est pas un objet associé à l’identificateur d’entrée passé dans le paramètre _lpEntryID_ . 
+    
+MAPI_E_UNKNOWN_ENTRYID 
+  
+> L’identificateur d’entrée passé dans le paramètre _lpEntryID_ est dans un format non reconnaissable. Cette valeur est généralement renvoyée si le fournisseur de carnet d’adresses qui contient l’objet n’est pas ouvert. 
+    
+## <a name="remarks"></a>Remarques
+
+La méthode **IMAPISupport::OpenEntry** est implémentée pour tous les objets de prise en charge de fournisseur de service. Fournisseurs de services d’appel **IMAPISupport::OpenEntry** pour récupérer un pointeur vers une interface qui peut être utilisé pour accéder à un objet particulier. 
+  
+## <a name="notes-to-callers"></a>Notes aux appelants
+
+Appelez **IMAPISupport::OpenEntry** uniquement lorsque vous ne savez pas quel type d’objet que vous ouvrez. Si vous connaissez que l’ouverture d’un dossier ou un message, appelez [IMsgStore::OpenEntry](imsgstore-openentry.md) à la place. Si vous connaissez que l’ouverture d’un conteneur de carnet d’adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md). Ces méthodes plus spécifiques sont plus rapides que **IMAPISupport::OpenEntry**. 
+  
+ **IMAPISupport::OpenEntry** ouvre tous les objets en lecture seule, sauf si vous définissez l’indicateur n’ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ et vos autorisations sont suffisantes. Définition de l’une de ces indicateurs ne garantit pas un type particulier d’accès ; les autorisations qui vous sont accordées dépendent de votre niveau d’accès, l’objet et le fournisseur de services qui détient l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+  
+Vérifiez la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer que le type d’objet retourné est attendue. Si le type d’objet est comme prévu, convertir le pointeur à partir du paramètre _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrez un dossier, un cast _lppUnk_ à un pointeur du type LPMAPIFOLDER. 
+  
+## <a name="see-also"></a>Voir aussi
+
+
+
+[IMAPISupport : IUnknown](imapisupportiunknown.md)
+
