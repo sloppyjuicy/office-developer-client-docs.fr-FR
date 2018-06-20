@@ -1,0 +1,160 @@
+---
+title: IMAPISessionOpenEntry
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- IMAPISession.OpenEntry
+api_type:
+- COM
+ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f23b4855b7e2faeb599868f8c2db52ae9cbfbfd8
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19783933"
+---
+# <a name="imapisessionopenentry"></a><span data-ttu-id="c3c9b-103">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="c3c9b-103">IMAPISession::OpenEntry</span></span>
+
+  
+  
+<span data-ttu-id="c3c9b-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="c3c9b-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="c3c9b-105">Ouvre un objet et retourne un pointeur d’interface pour l’accès supplémentaire.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-105">Opens an object and returns an interface pointer for additional access.</span></span>
+  
+```cpp
+HRESULT OpenEntry(
+  ULONG cbEntryID,
+  LPENTRYID lpEntryID,
+  LPCIID lpInterface,
+  ULONG ulFlags,
+  ULONG FAR * lpulObjType,
+  LPUNKNOWN FAR * lppUnk
+);
+```
+
+## <a name="parameters"></a><span data-ttu-id="c3c9b-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c3c9b-106">Parameters</span></span>
+
+ <span data-ttu-id="c3c9b-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-107">_cbEntryID_</span></span>
+  
+> <span data-ttu-id="c3c9b-108">[in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="c3c9b-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+    
+ <span data-ttu-id="c3c9b-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-109">_lpEntryID_</span></span>
+  
+> <span data-ttu-id="c3c9b-110">[in] Pointeur vers l’identificateur d’entrée de l’objet à ouvrir.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-110">[in] A pointer to the entry identifier of the object to open.</span></span>
+    
+ <span data-ttu-id="c3c9b-111">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-111">_lpInterface_</span></span>
+  
+> <span data-ttu-id="c3c9b-112">[in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-112">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the opened object.</span></span> <span data-ttu-id="c3c9b-113">Passage de NULL renvoie interface standard de l’objet.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-113">Passing NULL returns the object's standard interface.</span></span> <span data-ttu-id="c3c9b-114">Par exemple, si l’objet à ouvrir est un message, l’interface standard est [IMessage](imessageimapiprop.md); pour les dossiers, il est [IMAPIFolder](imapifolderimapicontainer.md).</span><span class="sxs-lookup"><span data-stu-id="c3c9b-114">For example, if the object to be opened is a message, the standard interface is [IMessage](imessageimapiprop.md); for folders, it is [IMAPIFolder](imapifolderimapicontainer.md).</span></span> <span data-ttu-id="c3c9b-115">Les interfaces standards pour les objets de carnet d’adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et les [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-115">The standard interfaces for address book objects are [IDistList](idistlistimapicontainer.md) for a distribution list and [IMailUser](imailuserimapiprop.md) for a messaging user.</span></span> 
+    
+ <span data-ttu-id="c3c9b-116">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-116">_ulFlags_</span></span>
+  
+> <span data-ttu-id="c3c9b-117">[in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-117">[in] A bitmask of flags that controls how the object is opened.</span></span> <span data-ttu-id="c3c9b-118">Les indicateurs suivants peuvent être utilisés :</span><span class="sxs-lookup"><span data-stu-id="c3c9b-118">The following flags can be used:</span></span>
+    
+<span data-ttu-id="c3c9b-119">MAPI_BEST_ACCESS</span><span class="sxs-lookup"><span data-stu-id="c3c9b-119">MAPI_BEST_ACCESS</span></span> 
+  
+> <span data-ttu-id="c3c9b-120">Demande que l’objet s’ouvre avec les autorisations de réseau maximale autorisées pour l’accès des utilisateurs et le nombre maximal de clients application.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-120">Requests that the object be opened by using the maximum network permissions allowed for the user and the maximum client application access.</span></span> <span data-ttu-id="c3c9b-121">Par exemple, si le client a l’autorisation de lecture/écriture, l’objet doit être ouvert avec l’autorisation de lecture/écriture ; Si le client dispose des autorisations en lecture seule, l’objet doit être ouvert avec l’autorisation en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-121">For example, if the client has read/write permission, the object should be opened with read/write permission; if the client has read-only permission, the object should be opened with read-only permission.</span></span> 
+    
+<span data-ttu-id="c3c9b-122">MAPI_CACHE_OK</span><span class="sxs-lookup"><span data-stu-id="c3c9b-122">MAPI_CACHE_OK</span></span>
+  
+> <span data-ttu-id="c3c9b-123">Utiliser tous les moyens, y compris des carnets d’adresses en mode hors connexion, pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-123">Use all means, including offline address books, to perform name resolution.</span></span>
+    
+<span data-ttu-id="c3c9b-124">MAPI_CACHE_ONLY</span><span class="sxs-lookup"><span data-stu-id="c3c9b-124">MAPI_CACHE_ONLY</span></span>
+  
+> <span data-ttu-id="c3c9b-125">Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-125">Use only the offline address book to perform name resolution.</span></span> <span data-ttu-id="c3c9b-126">Par exemple, vous pouvez utiliser cet indicateur pour autoriser une application cliente ouvrir la liste d’adresses globale (LAG) en mode exchange mis en cache et accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer le trafic entre le client et le serveur.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-126">For example, you can use this flag to allow a client application to open the global address list (GAL) in cached exchange mode and access an entry in that address book from the cache without creating traffic between the client and the server.</span></span> <span data-ttu-id="c3c9b-127">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-127">This flag is supported only by the Exchange Address Book Provider.</span></span>
+    
+<span data-ttu-id="c3c9b-128">MAPI_DEFERRED_ERRORS</span><span class="sxs-lookup"><span data-stu-id="c3c9b-128">MAPI_DEFERRED_ERRORS</span></span> 
+  
+> <span data-ttu-id="c3c9b-129">Permet **OpenEntry** renvoyer avec succès, éventuellement, avant de l’objet est entièrement disponible au client appelant.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-129">Allows **OpenEntry** to return successfully, possibly before the object is fully available to the calling client.</span></span> <span data-ttu-id="c3c9b-130">Si l’objet n’est pas disponible, un appel d’objet suivantes permettre provoquer une erreur.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-130">If the object is not available, making a subsequent object call can cause an error.</span></span> 
+    
+<span data-ttu-id="c3c9b-131">N'</span><span class="sxs-lookup"><span data-stu-id="c3c9b-131">MAPI_MODIFY</span></span> 
+  
+> <span data-ttu-id="c3c9b-132">Demandes d’autorisation de lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-132">Requests read/write permission.</span></span> <span data-ttu-id="c3c9b-133">Par défaut, les objets sont ouverts avec l’autorisation en lecture seule et clients ne doivent pas fonctionner en supposant que l’autorisation est accordée en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-133">By default, objects are opened with read-only permission, and clients should not work on the assumption that read/write permission is granted.</span></span> 
+    
+<span data-ttu-id="c3c9b-134">MAPI_NO_CACHE</span><span class="sxs-lookup"><span data-stu-id="c3c9b-134">MAPI_NO_CACHE</span></span>
+  
+> <span data-ttu-id="c3c9b-135">N’utilisez pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-135">Do not use the offline address book to perform name resolution.</span></span> <span data-ttu-id="c3c9b-136">Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-136">This flag is supported only by the Exchange Address Book Provider.</span></span>
+    
+<span data-ttu-id="c3c9b-137">SHOW_SOFT_DELETES</span><span class="sxs-lookup"><span data-stu-id="c3c9b-137">SHOW_SOFT_DELETES</span></span>
+  
+> <span data-ttu-id="c3c9b-138">Afficher les éléments qui sont actuellement marqués comme logicielles supprimés (autrement dit, ils sont dans la rétention des éléments supprimés phase de temps).</span><span class="sxs-lookup"><span data-stu-id="c3c9b-138">Show items that are currently marked as soft deleted (that is, they are in the deleted item retention time phase).</span></span>
+    
+ <span data-ttu-id="c3c9b-139">_lpulObjType_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-139">_lpulObjType_</span></span>
+  
+> <span data-ttu-id="c3c9b-140">[out] Pointeur vers le type de l’objet ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-140">[out] A pointer to the type of the opened object.</span></span>
+    
+ <span data-ttu-id="c3c9b-141">_lppUnk_</span><span class="sxs-lookup"><span data-stu-id="c3c9b-141">_lppUnk_</span></span>
+  
+> <span data-ttu-id="c3c9b-142">[out] Pointeur vers un pointeur vers l’objet ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-142">[out] A pointer to a pointer to the opened object.</span></span>
+    
+## <a name="return-value"></a><span data-ttu-id="c3c9b-143">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="c3c9b-143">Return value</span></span>
+
+<span data-ttu-id="c3c9b-144">S_OK</span><span class="sxs-lookup"><span data-stu-id="c3c9b-144">S_OK</span></span> 
+  
+> <span data-ttu-id="c3c9b-145">L’objet a été ouvert avec succès.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-145">The object was opened successfully.</span></span>
+    
+<span data-ttu-id="c3c9b-146">MAPI_E_NO_ACCESS</span><span class="sxs-lookup"><span data-stu-id="c3c9b-146">MAPI_E_NO_ACCESS</span></span> 
+  
+> <span data-ttu-id="c3c9b-147">Une tentative a été effectuée pour modifier un objet en lecture seule ou tentative d’accès à un objet pour lequel l’utilisateur dispose d’autorisations insuffisantes.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-147">An attempt was made to modify a read-only object or an attempt was made to access an object for which the user has insufficient permissions.</span></span>
+    
+<span data-ttu-id="c3c9b-148">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="c3c9b-148">MAPI_E_NOT_FOUND</span></span> 
+  
+> <span data-ttu-id="c3c9b-149">Il n’est pas un objet associé à l’identificateur d’entrée passé dans le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="c3c9b-149">There is not an object associated with the entry identifier passed in the  _lpEntryID_ parameter.</span></span> 
+    
+<span data-ttu-id="c3c9b-150">MAPI_E_UNKNOWN_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="c3c9b-150">MAPI_E_UNKNOWN_ENTRYID</span></span> 
+  
+> <span data-ttu-id="c3c9b-151">L’identificateur d’entrée passé dans le paramètre _lpEntryID_ est dans un format non reconnaissable.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-151">The entry identifier passed in the  _lpEntryID_ parameter is in an unrecognizable format.</span></span> <span data-ttu-id="c3c9b-152">Cette valeur est généralement renvoyée si le fournisseur de services qui contient l’objet n’est pas ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-152">This value is typically returned if the service provider that contains the object is not open.</span></span> 
+    
+## <a name="remarks"></a><span data-ttu-id="c3c9b-153">Remarques</span><span class="sxs-lookup"><span data-stu-id="c3c9b-153">Remarks</span></span>
+
+<span data-ttu-id="c3c9b-154">Le s’ouvre à la méthode **IMAPISession::OpenEntry** un message doit être stockée ou adresses objet book, qui retourne un pointeur vers une interface qui peut servir à accéder à l’objet.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-154">The **IMAPISession::OpenEntry** method opens a message store or address book object, returning a pointer to an interface that can be used to access the object.</span></span> 
+  
+## <a name="notes-to-callers"></a><span data-ttu-id="c3c9b-155">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="c3c9b-155">Notes to callers</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="c3c9b-156">Lors de l’ouverture des entrées de dossier sur un magasin public, telles que les dossiers et messages, utilisez [IMsgStore::OpenEntry](imsgstore-openentry.md) au lieu de **IMAPISession::OpenEntry**.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-156">When opening folder entries on a public store, such as folders and messages, use [IMsgStore::OpenEntry](imsgstore-openentry.md) instead of **IMAPISession::OpenEntry**.</span></span> <span data-ttu-id="c3c9b-157">Ainsi, cette fonction de dossiers publics correctement lorsque plusieurs comptes Exchange sont définis dans un profil.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-157">This ensures that public folders function correctly when multiple Exchange accounts are defined in a profile.</span></span> 
+  
+<span data-ttu-id="c3c9b-158">Appelez **IMAPISession::OpenEntry** uniquement lorsque vous ne connaissez pas le type d’objet que vous ouvrez.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-158">Call **IMAPISession::OpenEntry** only when you do not know what kind of object that you are opening.</span></span> <span data-ttu-id="c3c9b-159">Si vous savez que vous ouvrez un dossier ou un message, appelez [IMsgStore::OpenEntry](imsgstore-openentry.md).</span><span class="sxs-lookup"><span data-stu-id="c3c9b-159">If you know that you are opening a folder or a message, call [IMsgStore::OpenEntry](imsgstore-openentry.md).</span></span> <span data-ttu-id="c3c9b-160">Si vous savez que vous ouvrez un conteneur de carnet d’adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md).</span><span class="sxs-lookup"><span data-stu-id="c3c9b-160">If you know that you are opening an address book container, a messaging user, or a distribution list, call [IAddrBook::OpenEntry](iaddrbook-openentry.md).</span></span> <span data-ttu-id="c3c9b-161">Ces méthodes plus spécifiques sont plus rapides que **IMAPISession::OpenEntry**.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-161">These more specific methods are faster than **IMAPISession::OpenEntry**.</span></span> 
+  
+<span data-ttu-id="c3c9b-162">MAPI ouvre tous les objets avec des autorisations en lecture seule, sauf si vous définissez l’indicateur n’ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="c3c9b-162">MAPI opens all objects with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the  _ulFlags_ parameter.</span></span> <span data-ttu-id="c3c9b-163">Définition de l’une de ces indicateurs ne garantit pas un type particulier d’accès ; les autorisations qui sont accordées dépendent de l’objet, le niveau d’accès et le fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-163">Setting one of these flags does not guarantee a particular type of access; the permissions that are granted depend on the service provider, the access level, and the object.</span></span> <span data-ttu-id="c3c9b-164">Pour déterminer le niveau d’accès de l’objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="c3c9b-164">To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.</span></span>
+  
+<span data-ttu-id="c3c9b-165">Appel de **IMAPISession::OpenEntry** et le paramètre _lpEntryID_ pour pointer vers l’identificateur d’entrée d’une banque de messages est identique à l’appel de la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) avec l’indicateur MDB_NO_DIALOG défini.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-165">Calling **IMAPISession::OpenEntry** and setting  _lpEntryID_ to point to the entry identifier of a message store is the same as calling the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method with the MDB_NO_DIALOG flag set.</span></span> <span data-ttu-id="c3c9b-166">Les paramètres d’indicateur sont également équivalentes, exception faite que pour demander l’autorisation en lecture/écriture avec **OpenMsgStore**, vous devez définir l’indicateur MDB_WRITE au lieu de ne.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-166">The flag settings are also equivalent, except that to request read/write permission with **OpenMsgStore**, you must set the MDB_WRITE flag instead of MAPI_MODIFY.</span></span> 
+  
+<span data-ttu-id="c3c9b-167">Vérifiez la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer si le type d’objet retourné est attendue.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-167">Check the value returned in the  _lpulObjType_ parameter to determine whether the object type returned is what you expected.</span></span> <span data-ttu-id="c3c9b-168">Si le type d’objet n’est pas le type escomptés, convertir le pointeur à partir du paramètre _lppUnk_ vers un pointeur du type approprié.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-168">If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type.</span></span> <span data-ttu-id="c3c9b-169">Par exemple, si vous ouvrez un dossier, un cast _lppUnk_ à un pointeur du type LPMAPIFOLDER.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-169">For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER.</span></span> 
+  
+## <a name="mfcmapi-reference"></a><span data-ttu-id="c3c9b-170">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="c3c9b-170">MFCMAPI reference</span></span>
+
+<span data-ttu-id="c3c9b-171">Pour des exemples de code MFCMAPI, voir le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-171">For MFCMAPI sample code, see the following table.</span></span>
+  
+|<span data-ttu-id="c3c9b-172">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="c3c9b-172">**File**</span></span>|<span data-ttu-id="c3c9b-173">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="c3c9b-173">**Function**</span></span>|<span data-ttu-id="c3c9b-174">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="c3c9b-174">**Comment**</span></span>|
+|:-----|:-----|:-----|
+|<span data-ttu-id="c3c9b-175">MAPIFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="c3c9b-175">MAPIFunctions.cpp</span></span>  <br/> |<span data-ttu-id="c3c9b-176">CallOpenEntry</span><span class="sxs-lookup"><span data-stu-id="c3c9b-176">CallOpenEntry</span></span>  <br/> |<span data-ttu-id="c3c9b-177">MFCMAPI utilise la méthode **IMAPISession::OpenEntry** pour ouvrir un objet.</span><span class="sxs-lookup"><span data-stu-id="c3c9b-177">MFCMAPI uses the **IMAPISession::OpenEntry** method to open an object.</span></span>  <br/> |
+   
+## <a name="see-also"></a><span data-ttu-id="c3c9b-178">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c3c9b-178">See also</span></span>
+
+
+
+[<span data-ttu-id="c3c9b-179">IAddrBook::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="c3c9b-179">IAddrBook::OpenEntry</span></span>](iaddrbook-openentry.md)
+  
+[<span data-ttu-id="c3c9b-180">IDistList : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="c3c9b-180">IDistList : IMAPIContainer</span></span>](idistlistimapicontainer.md)
+  
+[<span data-ttu-id="c3c9b-181">IMailUser : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="c3c9b-181">IMailUser : IMAPIProp</span></span>](imailuserimapiprop.md)
+  
+[<span data-ttu-id="c3c9b-182">IMAPIFolder : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="c3c9b-182">IMAPIFolder : IMAPIContainer</span></span>](imapifolderimapicontainer.md)
+  
+[<span data-ttu-id="c3c9b-183">IMAPISession::OpenMsgStore</span><span class="sxs-lookup"><span data-stu-id="c3c9b-183">IMAPISession::OpenMsgStore</span></span>](imapisession-openmsgstore.md)
+  
+[<span data-ttu-id="c3c9b-184">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="c3c9b-184">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
+  
+[<span data-ttu-id="c3c9b-185">IMsgStore::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="c3c9b-185">IMsgStore::OpenEntry</span></span>](imsgstore-openentry.md)
+  
+[<span data-ttu-id="c3c9b-186">IMAPISession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c3c9b-186">IMAPISession : IUnknown</span></span>](imapisessioniunknown.md)
+
+
+[<span data-ttu-id="c3c9b-187">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="c3c9b-187">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+
