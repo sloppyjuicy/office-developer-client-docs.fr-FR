@@ -1,0 +1,65 @@
+---
+title: prévision, élément (weatherType, complexType) (schéma des informations météo Outlook)
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
+description: "Spécifie les conditions météo future d’au moins trois jours avance y compris aujourd'hui : aujourd'hui, demain, jour après demain."
+ms.openlocfilehash: c618b753ddf8a72fce270800675982f1a7f7af5b
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787720"
+---
+# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>prévision, élément (weatherType, complexType) (schéma des informations météo Outlook)
+
+Spécifie les conditions météo future d’au moins trois jours avance y compris aujourd'hui : aujourd'hui, demain, jour après demain.
+  
+## <a name="element-information"></a>Informations sur l'élément
+
+|||
+|:-----|:-----|
+|**Type d’élément** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
+|**Espace de noms** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Fichier de schéma** <br/> |GetWeatherInfo.xsd  <br/> |
+   
+## <a name="definition"></a>Définition
+
+```XML
+<xs:element name="forecast"      type="forecastType" minOccurs="3"     maxOccurs="unbounded"    >
+  </xs:element>  
+
+```
+
+## <a name="elements-and-attributes"></a>Éléments et attributs
+
+Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+  
+### <a name="parent-elements"></a>Éléments parents
+
+|**Élément**|**Type**|**Description**|
+|:-----|:-----|:-----|
+|[météo](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques d’un emplacement.  <br/> |
+   
+### <a name="child-elements"></a>Éléments enfants
+
+Aucun.
+  
+### <a name="attributes"></a>Attributs
+
+|**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
+|:-----|:-----|:-----|:-----|:-----|
+|date  <br/> |xs : date  <br/> |obligatoire  <br/> |Spécifie la date pour la prévision.  <br/> |Valeur du type xs : date  <br/> |
+|jour  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un jour pour la prévision.  <br/> |Valeur du type xs : String  <br/> |
+|haute  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température la plus élevée prévue.  <br/> |Une valeur de la xs : Integer type  <br/> |
+|faible  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température prévue.  <br/> |Une valeur de la xs : Integer type  <br/> |
+|precip  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la possibilité de pourcentage de précipitation.  <br/> |Une valeur de la xs : Integer type  <br/> |
+|shortday  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un jour sous forme abrégée.  <br/> |Valeur du type xs : String  <br/> |
+|skycodeday  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie un code pour les conditions prévues.  <br/> |Une valeur de la xs : Integer type  <br/> |
+|skytextday  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un ou deux mots qui décrivent les conditions prévues.  <br/> |Valeur du type xs : String  <br/> |
+   
+

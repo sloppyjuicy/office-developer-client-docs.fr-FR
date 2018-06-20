@@ -34,7 +34,7 @@ Cette propriété contient la valeur TRUE si l’Assistant profil consiste à su
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Zone :  <br/> |D’administration Exchange  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Fournisseurs de services peuvent définir cette propriété lors de l’appel d’une fonction basée sur le prototype de la fonction [LAUNCHWIZARDENTRY](launchwizardentry.md) . Cette propriété indique à l’Assistant profil que le fournisseur ne souhaite pas la page PST à afficher au cours de la boîte de dialogue utilisateur. 
   

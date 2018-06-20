@@ -1,0 +1,77 @@
+---
+title: Propriété canonique PidTagSpamThreshold
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 24a033269b072712fea6e9957d0ffac3573ce3a1
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19786796"
+---
+# <a name="pidtagspamthreshold-canonical-property"></a>Propriété canonique PidTagSpamThreshold
+
+  
+  
+**S’applique à**: Outlook 
+  
+Une valeur de type long qui indique le niveau de filtrage du courrier indésirable.
+  
+|||
+|:-----|:-----|
+|Propriétés associées :  <br/> |PR_SPAM_THRESHOLD  <br/> |
+|ID de type long (capot) :  <br/> | 0x041B  <br/> |
+|Type de données :  <br/> |PT_LONG  <br/> |
+|Zone :  <br/> |Courrier indésirable  <br/> |
+   
+## <a name="values"></a>Valeurs
+
+Les valeurs pour le filtrage du courrier indésirable sont les suivantes :
+  
+|**Au niveau du courrier indésirable**|**Valeur**|
+|:-----|:-----|
+|Aucun  <br/> |0xFFFFFFFF  <br/> |
+|Low  <br/> |0 x 00000006  <br/> |
+|Moyenne  <br/> |0 x 00000005  <br/> |
+|High  <br/> |0 x 00000003  <br/> |
+   
+## <a name="related-resources"></a>Ressources connexes
+
+### <a name="protocol-specifications"></a>Spécifications du protocole
+
+[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+  
+> Fournit des définitions de jeu de propriétés et des références pour les spécifications des protocoles Microsoft Exchange Server.
+    
+[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+  
+> Permet la gestion des listes autoriser/bloquer et la détermination des messages de courrier indésirable.
+    
+### <a name="header-files"></a>Fichiers d’en-tête
+
+Mapidefs.h
+  
+> Fournit des définitions de type de données.
+    
+MAPITAGS.h
+  
+> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+    
+## <a name="see-also"></a>Voir aussi
+
+
+
+[Propriétés MAPI](mapi-properties.md)
+  
+[Propriétés canoniques MAPI](mapi-canonical-properties.md)
+  
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+

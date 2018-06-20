@@ -50,7 +50,7 @@ typedef struct _SGuidArray
   
 > Pointeur vers un tableau de structures **GUID** qui contient les valeurs d’identificateur de classe. 
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur PT_MV_CLSID, voir la [Liste des Types de propriété](property-types.md).
   

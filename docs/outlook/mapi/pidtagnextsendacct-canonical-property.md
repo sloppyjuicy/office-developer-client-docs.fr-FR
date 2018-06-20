@@ -1,0 +1,78 @@
+---
+title: Propriété canonique PidTagNextSendAcct
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagNextSendAcct
+api_type:
+- HeaderDef
+ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 517d0900e968ea55cedf6b17b31d97795fcf61c0
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19786261"
+---
+# <a name="pidtagnextsendacct-canonical-property"></a>Propriété canonique PidTagNextSendAcct
+
+  
+  
+**S’applique à**: Outlook 
+  
+Spécifie le serveur qui tente actuellement un client à utiliser pour envoyer un message électronique.
+  
+|||
+|:-----|:-----|
+|Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
+|Identificateur :  <br/> |0x0E29  <br/> |
+|Type de données :  <br/> |PT_UNICODE  <br/> |
+|Zone :  <br/> |Application Outlook  <br/> |
+   
+## <a name="remarks"></a>Remarques
+
+Le format de cette propriété est dépend de l’implémentation. Cette propriété peut être utilisée par le client pour déterminer quel serveur pour diriger le courrier électronique à, mais est facultative et la valeur est dépourvu de signification sur le serveur.
+  
+## <a name="related-resources"></a>Ressources connexes
+
+### <a name="protocol-specifications"></a>Spécifications du protocole
+
+[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+  
+> Fournit des références aux spécifications du protocole Exchange Server associées.
+    
+[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+  
+> La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
+    
+[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+  
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+    
+### <a name="header-files"></a>Fichiers d’en-tête
+
+Mapidefs.h
+  
+> Fournit des définitions de type de données.
+    
+MAPITAGS.h
+  
+> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+    
+## <a name="see-also"></a>Voir aussi
+
+
+
+[Propriétés MAPI](mapi-properties.md)
+  
+[Propriétés canoniques MAPI](mapi-canonical-properties.md)
+  
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+

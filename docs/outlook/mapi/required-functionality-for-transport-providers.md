@@ -1,0 +1,36 @@
+---
+title: Fonctionnalités requises pour les fournisseurs de Transport
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: eb5d70c31f28df16593fb020f13124ea217476ca
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787019"
+---
+# <a name="required-functionality-for-transport-providers"></a>Fonctionnalités requises pour les fournisseurs de Transport
+
+  
+  
+**S’applique à**: Outlook 
+  
+Chaque fournisseur de transport MAPI doit :
+  
+- Suivez les instructions générales pour l’utilisation de MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et les [Fournisseurs de services MAPI](mapi-service-providers.md).
+    
+- Avoir son fournisseur de transport exposent DLL MAPI sa fonction d’initialisation de [XPProviderInit](xpproviderinit.md) . 
+    
+- Exposer à MAPI son implémentation de la [IXPProvider : IUnknown](ixpprovideriunknown.md) et [IXPLogon : IUnknown](ixplogoniunknown.md) interfaces. 
+    
+- Exposer aux applications MAPI et client son implémentation de la [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface. Pour plus d’informations sur l’implémentation de **IMAPIStatus**, voir [Implémentation d’objet état](status-object-implementation.md). 
+    
+- Implémenter une boîte de dialogue de feuille de propriété de configuration. Pour plus d’informations sur l’implémentation de feuilles de propriétés, voir [Implémentation de feuille de propriétés](property-sheet-implementation.md).
+    
+
