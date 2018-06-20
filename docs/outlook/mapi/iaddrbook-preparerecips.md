@@ -59,7 +59,7 @@ S_OK
   
 > La liste de destinataires a été correctement préparée.
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Clients et fournisseurs de services appellent la méthode **PrepareRecips** pour effectuer les opérations suivantes : 
   
