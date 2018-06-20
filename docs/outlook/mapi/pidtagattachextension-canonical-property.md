@@ -1,0 +1,72 @@
+---
+title: Propriété canonique PidTagAttachExtension
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagAttachExtension
+api_type:
+- HeaderDef
+ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4d71a0e26e2043bbaf961ae5096afc5789be36be
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19785720"
+---
+# <a name="pidtagattachextension-canonical-property"></a>Propriété canonique PidTagAttachExtension
+
+  
+  
+**S’applique à**: Outlook 
+  
+Contient une extension de nom de fichier qui indique le type de document d’une pièce jointe. 
+  
+|||
+|:-----|:-----|
+|Propriétés associées :  <br/> |PR_ATTACH_EXTENSION, PR_ATTACH_EXTENSION_A, PR_ATTACH_EXTENSION_W  <br/> |
+|Identificateur :  <br/> |0x3703  <br/> |
+|Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Zone :  <br/> |Pièce jointe du message  <br/> |
+   
+## <a name="remarks"></a>Remarques
+
+Ces propriétés sont définies par l’application cliente au moment de l’envoi. 
+  
+Le système utilise **PR_ATTACH_EXTENSION** de messagerie lors de la conversion des pièces jointes des messages (conversion dans itinéraire) ou lancer des applications basées sur les pièces jointes dans les messages reçus. Si le client d’envoi ne fournit pas une valeur pour ces propriétés, la banque de messages gère la pièce jointe n’est pas obligée de générer. Le client destinataire doit d’abord vérifier **PR_ATTACH_EXTENSION**et si elle n’est pas fourni, doit analyser l’extension de nom de fichier à partir de la pièce jointe **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) ou **PR_ATTACH_LONG_FILENAME **Propriété ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)). 
+  
+## <a name="related-resources"></a>Ressources connexes
+
+### <a name="protocol-specifications"></a>Spécifications du protocole
+
+[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+  
+> Gère les objets de message et la pièce jointe.
+    
+### <a name="header-files"></a>Fichiers d’en-tête
+
+Mapidefs.h
+  
+> Fournit des définitions de type de données.
+    
+MAPITAGS.h
+  
+> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+    
+## <a name="see-also"></a>Voir aussi
+
+
+
+[Propriétés MAPI](mapi-properties.md)
+  
+[Propriétés canoniques MAPI](mapi-canonical-properties.md)
+  
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+

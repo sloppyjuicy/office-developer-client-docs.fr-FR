@@ -35,7 +35,7 @@ Spécifie l’adresse complète du domicile du contact.
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Zone :  <br/> |Contact  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette propriété doit être une combinaison des autres propriétés de l’adresse physique et est basée sur les paramètres régionaux du client.
   

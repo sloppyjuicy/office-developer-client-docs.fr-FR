@@ -35,7 +35,7 @@ Indique le dernier numéro de séquence qui a été envoyé à un participant da
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Zone :  <br/> |Réunions  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette propriété n’a aucune signification d’un participant.
   

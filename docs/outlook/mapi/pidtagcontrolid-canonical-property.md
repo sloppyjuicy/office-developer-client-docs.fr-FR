@@ -34,7 +34,7 @@ Contient un identificateur unique pour un contrôle utilisé dans une boîte de 
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Zone :  <br/> |Afficher une table MAPI  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure [GUID](guid.md) et une valeur de type **LONG**binary. Tous les contrôles dans la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser un unique valeur de **type LONG** pour s’assurer que les contrôles n’entrent pas en conflit. 
   

@@ -1,0 +1,64 @@
+---
+title: Propriété canonique PidTagIpmSentMailEntryId
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- PidTagIpmSentMailEntryId
+api_type:
+- HeaderDef
+ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2bf7665d7867b9c7151f787bbc6b3cfd802bca35
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19786145"
+---
+# <a name="pidtagipmsentmailentryid-canonical-property"></a>Propriété canonique PidTagIpmSentMailEntryId
+
+  
+  
+**S’applique à**: Outlook 
+  
+Contient l’identificateur d’entrée du dossier éléments envoyés standard message interpersonnel (IPM). 
+  
+|||
+|:-----|:-----|
+|Propriétés associées :  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
+|Identificateur :  <br/> |0x35E4  <br/> |
+|Type de données :  <br/> |PT_BINARY  <br/> |
+|Zone :  <br/> |Folder  <br/> |
+   
+## <a name="remarks"></a>Remarques
+
+Après l’envoi, de messages sont généralement placés dans le dossier éléments envoyés. Un client peut utiliser cette propriété pour définir la propriété **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) sur un message envoyé. 
+  
+## <a name="related-resources"></a>Ressources connexes
+
+### <a name="header-files"></a>Fichiers d’en-tête
+
+Mapidefs.h
+  
+> Fournit des définitions de type de données.
+    
+MAPITAGS.h
+  
+> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+    
+## <a name="see-also"></a>Voir aussi
+
+
+
+[Propriétés MAPI](mapi-properties.md)
+  
+[Propriétés canoniques MAPI](mapi-canonical-properties.md)
+  
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+
