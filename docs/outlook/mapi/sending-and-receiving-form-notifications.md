@@ -1,0 +1,46 @@
+---
+title: Envoyer et recevoir des Notifications de formulaire
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: 4730fb04d530fce516fe1ca4fd572c58fc1f1ffa
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787106"
+---
+# <a name="sending-and-receiving-form-notifications"></a><span data-ttu-id="0729f-103">Envoyer et recevoir des Notifications de formulaire</span><span class="sxs-lookup"><span data-stu-id="0729f-103">Sending and Receiving Form Notifications</span></span>
+
+  
+  
+<span data-ttu-id="0729f-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="0729f-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="0729f-105">Notifications de formulaire sont utilisées dans MAPI pour faciliter la communication à partir du formulaire à votre afficheur ainsi qu’à partir de votre visionneuse au formulaire.</span><span class="sxs-lookup"><span data-stu-id="0729f-105">Form notifications are used in MAPI to facilitate communication both from the form to your viewer as well as from your viewer to the form.</span></span>
+  
+<span data-ttu-id="0729f-106">Formulaires envoyer des notifications à votre visionneuse lorsqu’un des événements suivants se produisent :</span><span class="sxs-lookup"><span data-stu-id="0729f-106">Forms send notifications to your viewer when one of the following events occur:</span></span>
+  
+- <span data-ttu-id="0729f-107">Le formulaire est fermé.</span><span class="sxs-lookup"><span data-stu-id="0729f-107">The form is closed.</span></span>
+    
+- <span data-ttu-id="0729f-108">Un nouveau message est chargé dans le formulaire.</span><span class="sxs-lookup"><span data-stu-id="0729f-108">A new message is loaded in the form.</span></span>
+    
+- <span data-ttu-id="0729f-109">Une opération d’enregistrement est terminée.</span><span class="sxs-lookup"><span data-stu-id="0729f-109">A save operation is completed.</span></span>
+    
+- <span data-ttu-id="0729f-110">Un message est envoyé.</span><span class="sxs-lookup"><span data-stu-id="0729f-110">A message is sent.</span></span>
+    
+<span data-ttu-id="0729f-111">Chacun de ces types d’événement correspondent à une méthode particulière dans [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md), un des visionneuse de votre formulaire doit implémenter les interfaces.</span><span class="sxs-lookup"><span data-stu-id="0729f-111">Each of these event types correspond to a particular method in [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md), one of the interfaces that your form viewer must implement.</span></span> <span data-ttu-id="0729f-112">Lorsqu’un événement se produit, le form appelle la méthode **IMAPIViewAdviseSink** correspondante dans l’Afficheur de notification récepteur.</span><span class="sxs-lookup"><span data-stu-id="0729f-112">When an event occurs, the form calls the corresponding **IMAPIViewAdviseSink** method in your viewer's advise sink.</span></span> <span data-ttu-id="0729f-113">Par exemple, lorsqu’un nouveau message arrive que votre afficheur doit inclure dans l’affichage, le formulaire appelle votre méthode [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) .</span><span class="sxs-lookup"><span data-stu-id="0729f-113">For example, when a new message arrives that your viewer should include in its display, the form calls your [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) method.</span></span> 
+  
+<span data-ttu-id="0729f-114">Implémenter l’affichage de notification récepteur d’une manière qui convient pour votre visionneuse ; Il n’existe aucune mise en œuvre standard.</span><span class="sxs-lookup"><span data-stu-id="0729f-114">Implement your view advise sink in a way that makes sense for your viewer; there is no standard implementation.</span></span> <span data-ttu-id="0729f-115">Par exemple, dans **OnNewMessage** vous pouvez mettre à jour l’affichage du tableau de contenu du dossier en cours d’inclure le message qui vient d’arriver.</span><span class="sxs-lookup"><span data-stu-id="0729f-115">For example, in **OnNewMessage** you can update the view of the current folder's contents table to include the newly arrived message.</span></span> <span data-ttu-id="0729f-116">Dans [IMAPIViewAdviseSink::OnSubmitted](imapiviewadvisesink-onsubmitted.md), la méthode est appelée lorsque vous recevez un événement de message envoyé, vous pouvez copier le message envoyé à un dossier éléments envoyés.</span><span class="sxs-lookup"><span data-stu-id="0729f-116">In [IMAPIViewAdviseSink::OnSubmitted](imapiviewadvisesink-onsubmitted.md), the method that is called when you receive a submitted message event, you can copy the submitted message to a Sent Items folder.</span></span>
+  
+<span data-ttu-id="0729f-117">Formulaires de recevoir une notification à partir de votre visionneuse lors d’un changement qui affecte le formulaire et lors du chargement d’un nouveau message.</span><span class="sxs-lookup"><span data-stu-id="0729f-117">Forms receive notification from your viewer when a change occurs that affects the form and when you are loading a new message.</span></span> <span data-ttu-id="0729f-118">Pour signaler un formulaire, appelez l’une des méthodes de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) ou [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md).</span><span class="sxs-lookup"><span data-stu-id="0729f-118">To notify a form, call one of the methods of **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) or [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md).</span></span> <span data-ttu-id="0729f-119">**OnChange** pour communiquer l’état d’appel.</span><span class="sxs-lookup"><span data-stu-id="0729f-119">Call **OnChange** to communicate status.</span></span> <span data-ttu-id="0729f-120">Par exemple, si le formulaire affiche le dernier élément dans un dossier lorsqu’un nouveau message arrive, appelez **OnChange** avec l’indicateur VCSTATUS_NEXT pour indiquer le formulaire qu’il est désormais un élément suivant.</span><span class="sxs-lookup"><span data-stu-id="0729f-120">For example, if the form is displaying the last item in a folder when a new message arrives, call **OnChange** with the VCSTATUS_NEXT flag set to tell the form that there is now a next item.</span></span> 
+  
+<span data-ttu-id="0729f-121">Appelez **OnActivateNext** pour le formulaire à l’arrivée d’un nouveau message d’alerte qu’il peut ou ne peut pas être en mesure d’afficher.</span><span class="sxs-lookup"><span data-stu-id="0729f-121">Call **OnActivateNext** to alert the form to the arrival of a new message that it may or may not be able to display.</span></span> <span data-ttu-id="0729f-122">Passez la classe de message du message à **OnActivateNext**.</span><span class="sxs-lookup"><span data-stu-id="0729f-122">Pass the message class of the message to **OnActivateNext**.</span></span> 
+  
+<span data-ttu-id="0729f-123">Notifications par un objet de formulaire à l’application cliente sont gérées par l’interface de **IMAPIViewAdviseSink** de l’application cliente.</span><span class="sxs-lookup"><span data-stu-id="0729f-123">Notifications by a form object to the client application are handled by the client application's **IMAPIViewAdviseSink** interface.</span></span> <span data-ttu-id="0729f-124">Pour plus d’informations, voir [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md).</span><span class="sxs-lookup"><span data-stu-id="0729f-124">For more information, see [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md).</span></span>
+  
+

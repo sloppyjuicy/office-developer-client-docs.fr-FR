@@ -1,0 +1,60 @@
+---
+title: Propriété canonique PidTagPhysicalDeliveryReportRequest
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.PidTagPhysicalDeliveryReportRequest
+api_type:
+- COM
+ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6965a314682b897a488157bf5d909fd6f40680c5
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19786408"
+---
+# <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a><span data-ttu-id="8b984-103">Propriété canonique PidTagPhysicalDeliveryReportRequest</span><span class="sxs-lookup"><span data-stu-id="8b984-103">PidTagPhysicalDeliveryReportRequest Canonical Property</span></span>
+
+  
+  
+<span data-ttu-id="8b984-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8b984-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="8b984-105">Indique le mode d’un rapport de remise à un destinataire de message spécifique à la fin de la remise du message physique ou remise par le système de gestion des messages.</span><span class="sxs-lookup"><span data-stu-id="8b984-105">Contains the mode of a report to be delivered to a particular message recipient upon completion of physical message delivery or delivery by the message handling system.</span></span>
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="8b984-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="8b984-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8b984-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span><span class="sxs-lookup"><span data-stu-id="8b984-107">PR_PHYSICAL_DELIVERY_REPORT_REQUEST</span></span>  <br/> |
+|<span data-ttu-id="8b984-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="8b984-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8b984-109">0x0C0C</span><span class="sxs-lookup"><span data-stu-id="8b984-109">0x0C0C</span></span>  <br/> |
+|<span data-ttu-id="8b984-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="8b984-110">Data type:</span></span>  <br/> |<span data-ttu-id="8b984-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="8b984-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="8b984-112">Zone :</span><span class="sxs-lookup"><span data-stu-id="8b984-112">Area:</span></span>  <br/> |<span data-ttu-id="8b984-113">Destinataire MAPI</span><span class="sxs-lookup"><span data-stu-id="8b984-113">MAPI recipient</span></span>  <br/> |
+   
+## <a name="related-resources"></a><span data-ttu-id="8b984-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="8b984-114">Related resources</span></span>
+
+### <a name="header-files"></a><span data-ttu-id="8b984-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="8b984-115">Header files</span></span>
+
+<span data-ttu-id="8b984-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8b984-116">Mapidefs.h</span></span>
+  
+> <span data-ttu-id="8b984-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="8b984-117">Provides data type definitions.</span></span>
+    
+<span data-ttu-id="8b984-118">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="8b984-118">Mapitags.h</span></span>
+  
+> <span data-ttu-id="8b984-119">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="8b984-119">Contains definitions of properties listed as associated properties.</span></span>
+    
+## <a name="see-also"></a><span data-ttu-id="8b984-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8b984-120">See also</span></span>
+
+
+
+[<span data-ttu-id="8b984-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="8b984-121">MAPI Properties</span></span>](mapi-properties.md)
+  
+[<span data-ttu-id="8b984-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="8b984-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+  
+[<span data-ttu-id="8b984-123">Mappage de noms de propriété canonique aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="8b984-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+  
+[<span data-ttu-id="8b984-124">Mappage de noms MAPI pour les noms de propriété canonique</span><span class="sxs-lookup"><span data-stu-id="8b984-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+

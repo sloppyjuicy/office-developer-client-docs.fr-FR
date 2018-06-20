@@ -1,0 +1,45 @@
+---
+title: Utilisation des colonnes à valeurs multiples
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787489"
+---
+# <a name="working-with-multivalued-columns"></a><span data-ttu-id="23a9c-103">Utilisation des colonnes à valeurs multiples</span><span class="sxs-lookup"><span data-stu-id="23a9c-103">Working with Multivalued Columns</span></span>
+
+  
+  
+<span data-ttu-id="23a9c-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="23a9c-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="23a9c-105">Une colonne à plusieurs valeurs contienne les données d’une propriété à valeurs multiples, qui est une propriété qui a un tableau de valeurs du type de base au lieu d’une valeur unique.</span><span class="sxs-lookup"><span data-stu-id="23a9c-105">A multivalued column contains the data of a multivalued property, which is a property that has an array of values of the base type instead of a single value.</span></span> <span data-ttu-id="23a9c-106">Car aucune table inclure des propriétés à valeurs multiples dans leurs jeux de colonnes par défaut, les propriétés à valeurs multiples sont incluses dans une table uniquement si la demande de l’utilisateur de la table.</span><span class="sxs-lookup"><span data-stu-id="23a9c-106">Because none of the tables include multivalued properties in their default column sets, multivalued properties are included in a table only if the user of the table requests it.</span></span> 
+  
+<span data-ttu-id="23a9c-107">Colonnes à valeurs multiples peuvent être affichées dans les tableaux :</span><span class="sxs-lookup"><span data-stu-id="23a9c-107">Multivalued columns can be displayed in tables:</span></span>
+  
+- <span data-ttu-id="23a9c-108">Une seule ligne, avec toutes les valeurs de propriété qui apparaissent dans l’instance de colonne unique.</span><span class="sxs-lookup"><span data-stu-id="23a9c-108">In a single row, with all of the property values appearing in the single column instance.</span></span> <span data-ttu-id="23a9c-109">Il s’agit de la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="23a9c-109">This is the default.</span></span>
+    
+    - <span data-ttu-id="23a9c-110">Ou -</span><span class="sxs-lookup"><span data-stu-id="23a9c-110">Or -</span></span>
+    
+- <span data-ttu-id="23a9c-111">Dans une série de lignes, avec une ligne pour chacune des valeurs de propriété.</span><span class="sxs-lookup"><span data-stu-id="23a9c-111">In a series of rows, with one row for each of the property values.</span></span> <span data-ttu-id="23a9c-112">Chaque valeur unique s’affiche dans la colonne dans sa propre ligne avec là étant comme le nombre de lignes comme y est des valeurs dans la propriété à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="23a9c-112">Each unique value appears in the column in its own row with there being as many rows as there are values in the multivalued property.</span></span> <span data-ttu-id="23a9c-113">Chaque ligne contient une valeur unique pour la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)), mais les mêmes valeurs pour les autres colonnes.</span><span class="sxs-lookup"><span data-stu-id="23a9c-113">Each row has a unique value for the **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) property, but the same values for the other columns.</span></span> <span data-ttu-id="23a9c-114">Si une ligne contient plusieurs colonnes avec plusieurs valeurs, par exemple, deux colonnes avec _M_ et _N_ valeurs respectivement, puis _M\*N_ les instances de la ligne s’affichent dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="23a9c-114">If a row contains more than one column with multiple values, for example, two columns with  _M_ and  _N_ values respectively, then  _M\*N_ instances of the row appear in the table.</span></span> 
+    
+<span data-ttu-id="23a9c-115">Un utilisateur de la table demande le type par défaut d’affichage en appelant la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) avec l’indicateur MVI_FLAG défini dans le type de propriété de la colonne à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="23a9c-115">A table user requests the nondefault type of display by calling the [IMAPITable::SetColumns](imapitable-setcolumns.md) method with the MVI_FLAG flag set in the property type of the multivalued column.</span></span> <span data-ttu-id="23a9c-116">L’indicateur MVI_FLAG est une constante définie comme le résultat de la combinaison d’indicateurs MV_FLAG et MV_INSTANCE avec une opération **OR** logique.</span><span class="sxs-lookup"><span data-stu-id="23a9c-116">The MVI_FLAG flag is a constant defined as the result of combining the MV_FLAG and MV_INSTANCE flags with a logical **OR** operation.</span></span> <span data-ttu-id="23a9c-117">Outre utilisé dans **SetColumns**, MVI_FLAG peut également être passé à [IMAPITable::SortTable](imapitable-sorttable.md) dans le paramètre _lpSortCriteria_ et [IMAPITable](imapitable-restrict.md) dans le membre **ulPropTag** de la _lpRestriction_ paramètre.</span><span class="sxs-lookup"><span data-stu-id="23a9c-117">In addition to being used in **SetColumns**, MVI_FLAG can also be passed to [IMAPITable::SortTable](imapitable-sorttable.md) in the  _lpSortCriteria_ parameter and [IMAPITable::Restrict](imapitable-restrict.md) in the **ulPropTag** member of the  _lpRestriction_ parameter.</span></span> <span data-ttu-id="23a9c-118">Lorsqu’il est passé à la MVI_FLAG, **SortTable** fonctionne de façon similaire à **SetColumns**, ajout d’une ligne pour chaque valeur dans la colonne à valeurs multiples et de tri des valeurs uniques dans les cas.</span><span class="sxs-lookup"><span data-stu-id="23a9c-118">When passed the MVI_FLAG, **SortTable** performs similarly to **SetColumns**, adding one row for each value in the multivalued column and sorting on the single values in the instances.</span></span> <span data-ttu-id="23a9c-119">Une ligne est ajoutée pour chaque valeur.</span><span class="sxs-lookup"><span data-stu-id="23a9c-119">One row is added for each value.</span></span> 
+  
+ <span data-ttu-id="23a9c-120">**Restrict**, mais n’étend pas la colonne à valeurs multiples en lignes calculées supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="23a9c-120">**Restrict**, however, does not expand the multivalued column into additional computed rows.</span></span> <span data-ttu-id="23a9c-121">Une colonne à valeurs multiples avec le jeu de MVI_FLAG indique le fournisseur de services à utiliser cette colonne dans une restriction sur le tableau.</span><span class="sxs-lookup"><span data-stu-id="23a9c-121">A multivalued column with the MVI_FLAG set instructs the service provider to use that column in restricting the table.</span></span> <span data-ttu-id="23a9c-122">Si la restriction est une valeur de propriété, il doit être une balise de propriété seule valeur identique à celle qui est renvoyé par [IMAPITable::QueryRows](imapitable-queryrows.md) pour la colonne.</span><span class="sxs-lookup"><span data-stu-id="23a9c-122">If there is a property value in the restriction, it must be a single value property tag identical to the one that would be returned by [IMAPITable::QueryRows](imapitable-queryrows.md) for the column.</span></span> 
+  
+<span data-ttu-id="23a9c-123">L’implémentation de la table est uniquement requis pour prendre en charge le type d’affichage par défaut et peut renvoyer la valeur MAPI_E_TOO_COMPLEX lorsqu’un appelant demande l’autre moyen.</span><span class="sxs-lookup"><span data-stu-id="23a9c-123">Table implementers are only required to support the default type of display and can return the MAPI_E_TOO_COMPLEX value when a caller requests the other alternative.</span></span> <span data-ttu-id="23a9c-124">La possibilité de prendre en charge les deux types d’affichage est plus importante pour les fournisseurs de banque de message l’implémentation de tables de contenu de dossier.</span><span class="sxs-lookup"><span data-stu-id="23a9c-124">The ability to support both types of display is most important for message store providers implementing folder contents tables.</span></span> 
+  
+## <a name="see-also"></a><span data-ttu-id="23a9c-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="23a9c-125">See also</span></span>
+
+
+
+[<span data-ttu-id="23a9c-126">Tables MAPI</span><span class="sxs-lookup"><span data-stu-id="23a9c-126">MAPI Tables</span></span>](mapi-tables.md)
+

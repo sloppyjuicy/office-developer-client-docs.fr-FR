@@ -1,0 +1,67 @@
+---
+title: SMessageClassArray
+manager: soliver
+ms.date: 03/09/2015
+ms.audience: Developer
+ms.topic: reference
+ms.prod: office-online-server
+localization_priority: Normal
+api_name:
+- MAPI.SMessageClassArray
+api_type:
+- COM
+ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 01563e3655d42abc62ea88a12f2878e5d81129d7
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787221"
+---
+# <a name="smessageclassarray"></a><span data-ttu-id="8b3a3-103">SMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="8b3a3-103">SMessageClassArray</span></span>
+
+  
+  
+<span data-ttu-id="8b3a3-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="8b3a3-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="8b3a3-105">Contient un tableau de pointeurs vers des chaînes de classe de message.</span><span class="sxs-lookup"><span data-stu-id="8b3a3-105">Contains an array of pointers to message class strings.</span></span>
+  
+|||
+|:-----|:-----|
+|<span data-ttu-id="8b3a3-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="8b3a3-106">Header file:</span></span>  <br/> |<span data-ttu-id="8b3a3-107">MAPIForm.h</span><span class="sxs-lookup"><span data-stu-id="8b3a3-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="8b3a3-108">Macro connexe :</span><span class="sxs-lookup"><span data-stu-id="8b3a3-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="8b3a3-109">CbMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="8b3a3-109">CbMessageClassArray</span></span>](cbmessageclassarray.md) <br/> |
+   
+```cpp
+typedef struct 
+{
+  ULONG cValues;
+  LPCSTR aMessageClass[MAPI_DIM];
+} SMessageClassArray, FAR * LPSMESSAGECLASSARRAY;
+
+```
+
+## <a name="members"></a><span data-ttu-id="8b3a3-110">Membres</span><span class="sxs-lookup"><span data-stu-id="8b3a3-110">Members</span></span>
+
+ <span data-ttu-id="8b3a3-111">**cValues**</span><span class="sxs-lookup"><span data-stu-id="8b3a3-111">**cValues**</span></span>
+  
+> <span data-ttu-id="8b3a3-112">Nombre de pointeurs de chaîne de classe de message dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="8b3a3-112">Count of message class string pointers in the array.</span></span>
+    
+ <span data-ttu-id="8b3a3-113">**aMessageClass**</span><span class="sxs-lookup"><span data-stu-id="8b3a3-113">**aMessageClass**</span></span>
+  
+> <span data-ttu-id="8b3a3-114">Tableau de pointeurs vers des chaînes de classe de message.</span><span class="sxs-lookup"><span data-stu-id="8b3a3-114">Array of pointers to message class strings.</span></span>
+    
+## <a name="remarks"></a><span data-ttu-id="8b3a3-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="8b3a3-115">Remarks</span></span>
+
+<span data-ttu-id="8b3a3-116">La structure **SMessageClassArray** est transmise en tant que paramètre dans les méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="8b3a3-116">The **SMessageClassArray** structure is passed as a parameter in the following methods:</span></span> 
+  
+- [<span data-ttu-id="8b3a3-117">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="8b3a3-117">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>](imapiformcontainer-resolvemultiplemessageclasses.md)
+    
+- [<span data-ttu-id="8b3a3-118">IMAPIFormMgr::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="8b3a3-118">IMAPIFormMgr::ResolveMultipleMessageClasses</span></span>](imapiformmgr-resolvemultiplemessageclasses.md)
+    
+## <a name="see-also"></a><span data-ttu-id="8b3a3-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8b3a3-119">See also</span></span>
+
+
+
+[<span data-ttu-id="8b3a3-120">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="8b3a3-120">MAPI Structures</span></span>](mapi-structures.md)
+

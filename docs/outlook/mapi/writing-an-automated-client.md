@@ -1,0 +1,38 @@
+---
+title: Écriture d’un Client automatique
+manager: soliver
+ms.date: 11/16/2014
+ms.audience: Developer
+localization_priority: Normal
+api_type:
+- COM
+ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
+description: 'Derni�re modification�: samedi 23 juillet 2011'
+ms.openlocfilehash: e5357c1e822dda35d3f38e00f91b58adbaf0ff9d
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19787471"
+---
+# <a name="writing-an-automated-client"></a><span data-ttu-id="11b0d-103">Écriture d’un Client automatique</span><span class="sxs-lookup"><span data-stu-id="11b0d-103">Writing an Automated Client</span></span>
+
+  
+  
+<span data-ttu-id="11b0d-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="11b0d-104">**Applies to**: Outlook</span></span> 
+  
+<span data-ttu-id="11b0d-105">Une application cliente automatisée est une application qui s’exécute sans assistance, n’affichant aucun l’interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="11b0d-105">An automated client application is an application that runs unattended, displaying no user interface.</span></span>
+  
+ <span data-ttu-id="11b0d-106">Par défaut, plusieurs méthodes d’interface MAPI affichent une interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="11b0d-106">By default, many MAPI interface methods show a user interface.</span></span> <span data-ttu-id="11b0d-107">Toutes ces méthodes ont des indicateurs qui autorisent un client autoriser ou supprimer cet affichage.</span><span class="sxs-lookup"><span data-stu-id="11b0d-107">All of these methods have flags that allow a client to either allow or suppress this display.</span></span> <span data-ttu-id="11b0d-108">Bien que MAPI attend des fournisseurs de services de respecter ces indicateurs, il existe certains fournisseurs qui ne remplissent pas toujours ces attentes.</span><span class="sxs-lookup"><span data-stu-id="11b0d-108">Although MAPI expects service providers to honor these flags, there are some providers that do not always meet these expectations.</span></span> <span data-ttu-id="11b0d-109">Une raison légitime ne pas en respectant les indicateurs est la dépendance du fournisseur de services sur un autre service qui n’autorise pas la suppression d’interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="11b0d-109">A legitimate reason for not honoring the flags is the reliance of the service provider on another service that does not allow user interface suppression.</span></span> <span data-ttu-id="11b0d-110">Si vous développez un client automatique, prêtez une attention particulière pour les fournisseurs de services que vous utilisez et la façon dont ils sont configurés.</span><span class="sxs-lookup"><span data-stu-id="11b0d-110">If you are developing an automated client, pay careful attention to the service providers you are using and how they are configured.</span></span> <span data-ttu-id="11b0d-111">Ne pensez pas que tous vos appels pour supprimer une interface utilisateur sera réussi.</span><span class="sxs-lookup"><span data-stu-id="11b0d-111">Do not assume that all of your calls to suppress a user interface will be successful.</span></span> 
+  
+<span data-ttu-id="11b0d-112">Clients automatisées doivent avoir les informations nécessaires disponibles pour la configuration correcte de chacun des services de message dans le profil.</span><span class="sxs-lookup"><span data-stu-id="11b0d-112">Automated clients must have the necessary information available for proper configuration of each of the message services in the profile.</span></span> <span data-ttu-id="11b0d-113">Il existe deux méthodes pour fournir des informations de configuration au moment de l’ouverture de session :</span><span class="sxs-lookup"><span data-stu-id="11b0d-113">There are two ways to supply configuration information at logon time:</span></span>
+  
+- <span data-ttu-id="11b0d-114">Le fournisseur de services peut récupérer les informations du profil.</span><span class="sxs-lookup"><span data-stu-id="11b0d-114">The service provider can retrieve information from the profile.</span></span>
+    
+- <span data-ttu-id="11b0d-115">Le fournisseur de services peut demander à l’utilisateur pour plus d’informations.</span><span class="sxs-lookup"><span data-stu-id="11b0d-115">The service provider can prompt the user for information.</span></span> 
+    
+<span data-ttu-id="11b0d-116">Dans la mesure où la deuxième option n’est pas disponible pour les clients automatisées, ces clients doivent utiliser la première option.</span><span class="sxs-lookup"><span data-stu-id="11b0d-116">Since the second option is unavailable to automated clients, these clients must use the first option.</span></span> <span data-ttu-id="11b0d-117">Les clients doivent configurer leurs profils avec soin pour en garantir le fonctionne de cette option toujours.</span><span class="sxs-lookup"><span data-stu-id="11b0d-117">Clients must configure their profiles carefully to ensure that this option always works.</span></span>
+  
+<span data-ttu-id="11b0d-118">Clients automatisées définir toujours l’indicateur MAPI_NO_MAIL dans l’appel de fonction [MAPILogonEx](mapilogonex.md) pour commencer une session MAPI.</span><span class="sxs-lookup"><span data-stu-id="11b0d-118">Automated clients always set the MAPI_NO_MAIL flag in the [MAPILogonEx](mapilogonex.md) function call to begin a MAPI session.</span></span> 
+  
+
