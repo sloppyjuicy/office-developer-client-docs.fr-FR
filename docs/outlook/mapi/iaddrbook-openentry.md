@@ -16,7 +16,7 @@ ms.openlocfilehash: fa279962043f6f7cb7a134b624000c9c7e65369f
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19783640"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
@@ -107,7 +107,7 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > L’identificateur d’entrée spécifié dans _lpEntryID_ n’est pas reconnue. Cette valeur est généralement renvoyée si le fournisseur de carnet d’adresses responsable de l’entrée correspondante n’est pas ouvert. 
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Clients et fournisseurs de services appellent la méthode **IAddrBook::OpenEntry** pour ouvrir une entrée de carnet d’adresses. MAPI transfère l’appel vers le fournisseur de carnet d’adresse appropriée, en fonction de la structure [MAPIUID](mapiuid.md) incluse dans l’identificateur d’entrée passé dans le paramètre _lpEntryID_ . Le fournisseur de carnet d’adresses ouvre l’entrée en lecture seule, sauf si l’indicateur n’ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ est défini. Toutefois, ces indicateurs sont des suggestions. Si le fournisseur de carnet d’adresses n’autorise pas la modification de l’entrée demandée, il renvoie MAPI_E_NO_ACCESS. 
   

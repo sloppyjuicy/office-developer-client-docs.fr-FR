@@ -16,7 +16,7 @@ ms.openlocfilehash: db28d9684f1bb679ce36f99346f4ecc67a1a93e6
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19783975"
 ---
 # <a name="imapisupportcompletemsg"></a>IMAPISupport::CompleteMsg
@@ -55,7 +55,7 @@ S_OK
   
 > Le post-traitement a réussi.
     
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La méthode **IMAPISupport::CompleteMsg** est implémentée pour les objets de prise en charge de fournisseur de magasin de message et est appelée uniquement par les fournisseurs de magasins de message sont étroitement liés à des fournisseurs de transport. Fournisseurs de magasins étroitement couplés appellent **IMAPISupport::CompleteMsg** pour demander au spouleur MAPI de post-traitement d’un message. 
   

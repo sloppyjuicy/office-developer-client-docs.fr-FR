@@ -16,7 +16,7 @@ ms.openlocfilehash: a784c91a04cce572c8e30085b1760c28296a1d53
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19785107"
 ---
 # <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propriété canonique PidLidCleanGlobalObjectId
@@ -35,7 +35,7 @@ Spécifie nettoyage global **ObjectID**.
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Zone :  <br/> |Réunions  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Le format de cette propriété est la même que celle du **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). La valeur de cette propriété doit être égale à la valeur de **LID_GLOBAL_OBJID**, à l’exception de la YH, YL M, et les champs D doivent être égal à zéro. Tous les objets qui font référence à une Instance d’une série périodique (y compris une instance orpheline), ainsi que la série périodique lui-même, aura la même valeur pour cette propriété.
   

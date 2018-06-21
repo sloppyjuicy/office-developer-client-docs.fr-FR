@@ -13,14 +13,14 @@ ms.openlocfilehash: 0fc1345a5c1ab680535718b3c40d4df878d2b0dd
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19789205"
 ---
 # <a name="page-properties-section"></a>Page Properties, section
 
 Contient les cellules qui contrôlent les attributs de page, comme la largeur, la hauteur et l'échelle de la page.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Vous pouvez définir les valeurs des propriétés de page en créant une entrée dans la cellule de la section **Propriétés de la Page** , ou à l’aide de la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur le Lanceur de boîte de dialogue dans le groupe **Mise en Page** ). 
   

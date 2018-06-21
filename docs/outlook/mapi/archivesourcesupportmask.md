@@ -16,7 +16,7 @@ ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19782933"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
@@ -37,7 +37,7 @@ Indique si Microsoft Office Outlook doit analyser les dossiers dans un magasin e
 |Type de propriété :  <br/> |PT_LONG  <br/> |
 |Type d’accès :  <br/> |En lecture seule ou en lecture/écriture, selon le fournisseur de banque  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Pour fournir une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour une de ces propriétés passées à un appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété pour une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de banque doit également retourner la valeur de la propriété adéquate. Fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   

@@ -16,7 +16,7 @@ ms.openlocfilehash: bf58e0598af6eb833b003b824be95f8fb82bd8bf
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
+ms.lasthandoff: 06/21/2018
 ms.locfileid: "19786185"
 ---
 # <a name="pidtaglastmodificationtime-canonical-property"></a>Propriété canonique PidTagLastModificationTime
@@ -34,7 +34,7 @@ Contient la date et l’heure de dernière modification de l’objet ou le sous-
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Zone :  <br/> |Heure du message  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette propriété est initialement définie sur la même valeur que la propriété **PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Pièce jointe sous-objets peuvent mettre à jour selon les besoins en copiant l’heure de dernière modification mis à jour par le système de fichiers natif. Une application cliente peut définir cette propriété qu’au premier appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Ensuite le fournisseur doit mettre à jour **PR_LAST_MODIFICATION_TIME** pendant chaque appel **IMAPIProp::SaveChanges** . 
   
