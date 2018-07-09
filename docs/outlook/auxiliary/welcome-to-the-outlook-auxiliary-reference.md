@@ -60,7 +60,7 @@ ms.locfileid: "19782837"
     
 - <span data-ttu-id="d2ab0-128">L' [API de disponibilité](about-the-free-busy-api.md) fournit des informations de disponibilité sur les comptes d’utilisateur spécifiques dans une plage de temps spécifique.</span><span class="sxs-lookup"><span data-stu-id="d2ab0-128">The [Free/Busy API](about-the-free-busy-api.md) provides free/busy status information about specific user accounts within a specific time range.</span></span> 
 
-## <a name="sample-tasks"></a><span data-ttu-id="d2ab0-129">Exemples de tâches (en anglais)</span><span class="sxs-lookup"><span data-stu-id="d2ab0-129">Sample tasks</span></span>
+## <a name="sample-tasks"></a><span data-ttu-id="d2ab0-129">Exemples de tâches</span><span class="sxs-lookup"><span data-stu-id="d2ab0-129">Sample tasks</span></span>
 
 <span data-ttu-id="d2ab0-130">Exemples de tâches de procédures dans l’autre référence Outlook sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="d2ab0-130">Sample how-to tasks in the Outlook Auxiliary Reference include the following:</span></span>
     
@@ -72,7 +72,7 @@ ms.locfileid: "19782837"
     
 - [<span data-ttu-id="d2ab0-134">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="d2ab0-134">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [<span data-ttu-id="d2ab0-135">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="d2ab0-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [<span data-ttu-id="d2ab0-135">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="d2ab0-135">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/fr-fr/library/office/gg262879.aspx)
     
 - [<span data-ttu-id="d2ab0-136">Utiliser l’heure relative pour accéder aux données et de disponibilité</span><span class="sxs-lookup"><span data-stu-id="d2ab0-136">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
     

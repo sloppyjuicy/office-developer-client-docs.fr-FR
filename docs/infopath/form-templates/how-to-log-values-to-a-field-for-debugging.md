@@ -30,7 +30,7 @@ ms.locfileid: "19782375"
 2. <span data-ttu-id="45b1f-112">Dans l'éditeur de code, ajoutez les trois fonctions d'assistance à la classe publique dans le fichier de code du formulaire.</span><span class="sxs-lookup"><span data-stu-id="45b1f-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
     
    > [!IMPORTANT]
-   > <span data-ttu-id="45b1f-113">[!IMPORTANTE] Assurez-vous de mettre à jour la valeur de la variable  `debugFieldXpath` dans la fonction  `AddToDebugField` pour qu'elle contienne la bonne expression XPath pour le champ lié au contrôle créé dans la première procédure.</span><span class="sxs-lookup"><span data-stu-id="45b1f-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
+   > <span data-ttu-id="45b1f-113">Assurez-vous de mettre à jour la valeur de la variable  `debugFieldXpath` dans la fonction  `AddToDebugField` pour qu'elle contienne la bonne expression XPath pour le champ lié au contrôle créé dans la première procédure.</span><span class="sxs-lookup"><span data-stu-id="45b1f-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
   
     ```cs
         private void AddToDebugField(string valueToAdd)

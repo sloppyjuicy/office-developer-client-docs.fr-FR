@@ -29,7 +29,7 @@ ms.locfileid: "19782026"
   
 - [<span data-ttu-id="ddf4c-113">Utilisation des DLL</span><span class="sxs-lookup"><span data-stu-id="ddf4c-113">Working with DLLs</span></span>](working-with-dlls.md)
   
-- [<span data-ttu-id="ddf4c-114">Acc�s au code XLL dans Excel (en anglais)</span><span class="sxs-lookup"><span data-stu-id="ddf4c-114">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
+- [<span data-ttu-id="ddf4c-114">Acc�s au code XLL dans Excel</span><span class="sxs-lookup"><span data-stu-id="ddf4c-114">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
   
 - [<span data-ttu-id="ddf4c-115">Appel des fonctions XLL à partir de l’Assistant fonction ou remplacer des boîtes de dialogue</span><span class="sxs-lookup"><span data-stu-id="ddf4c-115">Call XLL Functions from the Function Wizard or Replace Dialog Boxes</span></span>](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
   

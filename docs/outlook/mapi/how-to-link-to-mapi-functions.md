@@ -129,7 +129,7 @@ ms.locfileid: "19783486"
 - [<span data-ttu-id="fe466-155">Installation du sous-système MAPI</span><span class="sxs-lookup"><span data-stu-id="fe466-155">Installing the MAPI Subsystem</span></span>](installing-the-mapi-subsystem.md)
 - [<span data-ttu-id="fe466-156">Installer les fichiers d’en-tête MAPI</span><span class="sxs-lookup"><span data-stu-id="fe466-156">Install MAPI Header Files</span></span>](how-to-install-mapi-header-files.md)
 - [<span data-ttu-id="fe466-157">Choisissez une Version spécifique de MAPI à charge</span><span class="sxs-lookup"><span data-stu-id="fe466-157">Choose a Specific Version of MAPI to Load</span></span>](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [<span data-ttu-id="fe466-158">Méthode de liaison à utiliser</span><span class="sxs-lookup"><span data-stu-id="fe466-158">Determining Which Linking Method to Use</span></span>](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [<span data-ttu-id="fe466-159">Liaison d’un exécutable à une DLL</span><span class="sxs-lookup"><span data-stu-id="fe466-159">Linking an Executable to a DLL</span></span>](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [<span data-ttu-id="fe466-160">Configuration des clés MSI pour votre DLL MAPI</span><span class="sxs-lookup"><span data-stu-id="fe466-160">Setting Up the MSI Keys for Your MAPI DLL</span></span>](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [<span data-ttu-id="fe466-158">Méthode de liaison à utiliser</span><span class="sxs-lookup"><span data-stu-id="fe466-158">Determining Which Linking Method to Use</span></span>](http://msdn.microsoft.com/fr-fr/library/253b8k2c.aspx)
+- [<span data-ttu-id="fe466-159">Liaison d’un exécutable à une DLL</span><span class="sxs-lookup"><span data-stu-id="fe466-159">Linking an Executable to a DLL</span></span>](http://msdn.microsoft.com/fr-fr/library/9yd93633.aspx)
+- [<span data-ttu-id="fe466-160">Configuration des clés MSI pour votre DLL MAPI</span><span class="sxs-lookup"><span data-stu-id="fe466-160">Setting Up the MSI Keys for Your MAPI DLL</span></span>](http://msdn.microsoft.com/fr-fr/library/ee909494%28v=VS.85%29.aspx)
 

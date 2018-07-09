@@ -92,7 +92,7 @@ HRESULT CopyEntries(
     
 4. <span data-ttu-id="9364d-146">Méthode de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la nouvelle entrée pour effectuer une sauvegarde.</span><span class="sxs-lookup"><span data-stu-id="9364d-146">The new entry's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to perform a save.</span></span> 
     
-5. <span data-ttu-id="9364d-147">Méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) de la nouvelle entrée fourniture de référence du conteneur.</span><span class="sxs-lookup"><span data-stu-id="9364d-147">The new entry's [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) method to release the container's reference.</span></span> 
+5. <span data-ttu-id="9364d-147">Méthode [IUnknown::Release](http://msdn.microsoft.com/fr-fr/library/ms682317%28VS.85%29.aspx) de la nouvelle entrée fourniture de référence du conteneur.</span><span class="sxs-lookup"><span data-stu-id="9364d-147">The new entry's [IUnknown::Release](http://msdn.microsoft.com/fr-fr/library/ms682317%28VS.85%29.aspx) method to release the container's reference.</span></span> 
     
 ## <a name="notes-to-implementers"></a><span data-ttu-id="9364d-148">Remarques destinées aux responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="9364d-148">Notes to implementers</span></span>
 

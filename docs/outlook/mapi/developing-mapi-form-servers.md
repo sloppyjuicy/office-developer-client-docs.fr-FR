@@ -45,5 +45,5 @@ ms.locfileid: "19783166"
 
 
 
-[<span data-ttu-id="121a0-125">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="121a0-125">MAPI Concepts</span></span>](mapi-concepts.md)
+[<span data-ttu-id="121a0-125">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="121a0-125">MAPI Concepts</span></span>](mapi-concepts.md)
 

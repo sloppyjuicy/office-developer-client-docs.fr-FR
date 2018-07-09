@@ -51,5 +51,5 @@ ms.locfileid: "19784723"
     
 ## <a name="see-also"></a><span data-ttu-id="ae8ec-147">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ae8ec-147">See also</span></span>
 
-- [<span data-ttu-id="ae8ec-148">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="ae8ec-148">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="ae8ec-148">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="ae8ec-148">MAPI Concepts</span></span>](mapi-concepts.md)
 

@@ -18,7 +18,7 @@ ms.locfileid: "19781831"
 <span data-ttu-id="47733-104">Vous pouvez utiliser l’action **ChangeView** pour naviguer entre les vues en place.</span><span class="sxs-lookup"><span data-stu-id="47733-104">You can use the **ChangeView** action to navigate between views in place.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="47733-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="47733-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="47733-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="47733-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="47733-107">Valeur</span><span class="sxs-lookup"><span data-stu-id="47733-107">Setting</span></span>
 

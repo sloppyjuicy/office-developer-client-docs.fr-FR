@@ -98,6 +98,6 @@ End Sub
 ```
 
 > [!NOTE]
-> <span data-ttu-id="65e6d-p108">[!REMARQUE] Chaque objet d'événement InfoPath du modèle objet compatible avec InfoPath 2003 implémente différentes propriétés et méthodes. Pour plus d'informations sur un objet d'événement en particulier, cliquez dessus dans le tableau Objets d'événement présenté plus haut.</span><span class="sxs-lookup"><span data-stu-id="65e6d-p108">Each of the InfoPath event objects in the InfoPath 2003-compatible object model implements different properties and methods. For more information about a particular event object, click the appropriate object in the Event Objects table shown earlier.</span></span> 
+> <span data-ttu-id="65e6d-p108">Chaque objet d'événement InfoPath du modèle objet compatible avec InfoPath 2003 implémente différentes propriétés et méthodes. Pour plus d'informations sur un objet d'événement en particulier, cliquez dessus dans le tableau Objets d'événement présenté plus haut.</span><span class="sxs-lookup"><span data-stu-id="65e6d-p108">Each of the InfoPath event objects in the InfoPath 2003-compatible object model implements different properties and methods. For more information about a particular event object, click the appropriate object in the Event Objects table shown earlier.</span></span> 
   
 

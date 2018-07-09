@@ -51,5 +51,5 @@ int MNLS_lstrcmpW(
 
 
 
-[<span data-ttu-id="451c7-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="451c7-116">GetUserDefaultLCID</span></span>](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
+[<span data-ttu-id="451c7-116">GetUserDefaultLCID</span><span class="sxs-lookup"><span data-stu-id="451c7-116">GetUserDefaultLCID</span></span>](http://msdn.microsoft.com/fr-fr/library/dd318135%28VS.85%29.aspx)
 

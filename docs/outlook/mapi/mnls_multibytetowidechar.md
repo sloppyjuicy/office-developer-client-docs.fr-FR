@@ -65,6 +65,6 @@ int MNLS_MultiByteToWideChar(
   
 ## <a name="remarks"></a><span data-ttu-id="64cc6-123">Remarques</span><span class="sxs-lookup"><span data-stu-id="64cc6-123">Remarks</span></span>
 
-<span data-ttu-id="64cc6-124">Cette fonction encapsule la fonction **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="64cc6-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="64cc6-125">Pour plus d’informations, voir [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="64cc6-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="64cc6-124">Cette fonction encapsule la fonction **MultiByteToWideChar** .</span><span class="sxs-lookup"><span data-stu-id="64cc6-124">This function wraps the **MultiByteToWideChar** function.</span></span> <span data-ttu-id="64cc6-125">Pour plus d’informations, voir [MultiByteToWideChar](http://msdn.microsoft.com/fr-fr/library/dd319072%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="64cc6-125">For more information, see [MultiByteToWideChar](http://msdn.microsoft.com/fr-fr/library/dd319072%28VS.85%29.aspx).</span></span>
   
 

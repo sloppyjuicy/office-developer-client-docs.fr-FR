@@ -35,17 +35,17 @@ ms.locfileid: "19787786"
 [<span data-ttu-id="2ac2e-119">Bloc de mise à jour des champs personnalisés et créer des sites de projet à partir d’un flux de travail Project Online</span><span class="sxs-lookup"><span data-stu-id="2ac2e-119">Bulk update custom fields and create project sites from a Project Online workflow</span></span>](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
 
 
-[<span data-ttu-id="2ac2e-120">Développement de flux de travail dans SharePoint Designer 2013 et Visio 2013</span><span class="sxs-lookup"><span data-stu-id="2ac2e-120">Workflow development in SharePoint Designer 2013 and Visio 2013</span></span>](http://msdn.microsoft.com/en-us/library/jj163272%28office.15%29.aspx)
+[<span data-ttu-id="2ac2e-120">Développement de flux de travail dans SharePoint Designer 2013 et Visio 2013</span><span class="sxs-lookup"><span data-stu-id="2ac2e-120">Workflow development in SharePoint Designer 2013 and Visio 2013</span></span>](http://msdn.microsoft.com/fr-fr/library/jj163272%28office.15%29.aspx)
   
-[<span data-ttu-id="2ac2e-121">Nouveautés des flux de travail pour SharePoint 2013</span><span class="sxs-lookup"><span data-stu-id="2ac2e-121">What's new in workflows for SharePoint 2013</span></span>](http://msdn.microsoft.com/en-us/library/jj163177.aspx)
+[<span data-ttu-id="2ac2e-121">Nouveautés des flux de travail pour SharePoint 2013</span><span class="sxs-lookup"><span data-stu-id="2ac2e-121">What's new in workflows for SharePoint 2013</span></span>](http://msdn.microsoft.com/fr-fr/library/jj163177.aspx)
   
-[<span data-ttu-id="2ac2e-122">Développer des flux de travail SharePoint 2013 à l'aide de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2ac2e-122">Develop SharePoint 2013 workflows using Visual Studio</span></span>](http://msdn.microsoft.com/en-us/library/jj163199.aspx)
+[<span data-ttu-id="2ac2e-122">Développer des flux de travail SharePoint 2013 à l'aide de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2ac2e-122">Develop SharePoint 2013 workflows using Visual Studio</span></span>](http://msdn.microsoft.com/fr-fr/library/jj163199.aspx)
   
 [<span data-ttu-id="2ac2e-123">Création de flux de travail de projet à l’aide de Visual Studio 2012</span><span class="sxs-lookup"><span data-stu-id="2ac2e-123">Creating Project Workflows using Visual Studio 2012</span></span>](http://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx)
   
-[<span data-ttu-id="2ac2e-124">Windows Workflow Foundation</span><span class="sxs-lookup"><span data-stu-id="2ac2e-124">Windows Workflow Foundation</span></span>](http://msdn.microsoft.com/en-us/library/dd489441.aspx)
+[<span data-ttu-id="2ac2e-124">Windows Workflow Foundation</span><span class="sxs-lookup"><span data-stu-id="2ac2e-124">Windows Workflow Foundation</span></span>](http://msdn.microsoft.com/fr-fr/library/dd489441.aspx)
   
-[<span data-ttu-id="2ac2e-125">Introduction du développeur pour Windows Workflow Foundation (WF) dans .NET 4</span><span class="sxs-lookup"><span data-stu-id="2ac2e-125">A developer's introduction to Windows Workflow Foundation (WF) in .NET 4</span></span>](http://msdn.microsoft.com/en-us/library/ee342461.aspx)
+[<span data-ttu-id="2ac2e-125">Introduction du développeur pour Windows Workflow Foundation (WF) dans .NET 4</span><span class="sxs-lookup"><span data-stu-id="2ac2e-125">A developer's introduction to Windows Workflow Foundation (WF) in .NET 4</span></span>](http://msdn.microsoft.com/fr-fr/library/ee342461.aspx)
   
-[<span data-ttu-id="2ac2e-126">Guide de gestion de la demande (livre blanc)</span><span class="sxs-lookup"><span data-stu-id="2ac2e-126">Hitchhiker's guide to demand management (white paper)</span></span>](http://msdn.microsoft.com/en-us/library/ff973112.aspx)
+[<span data-ttu-id="2ac2e-126">Guide de gestion de la demande (livre blanc)</span><span class="sxs-lookup"><span data-stu-id="2ac2e-126">Hitchhiker's guide to demand management (white paper)</span></span>](http://msdn.microsoft.com/fr-fr/library/ff973112.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: Exemples de tâches (en anglais)
+title: Exemples de tâches
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19782844"
 ---
-# <a name="sample-tasks"></a><span data-ttu-id="91993-103">Exemples de tâches (en anglais)</span><span class="sxs-lookup"><span data-stu-id="91993-103">Sample tasks</span></span>
+# <a name="sample-tasks"></a><span data-ttu-id="91993-103">Exemples de tâches</span><span class="sxs-lookup"><span data-stu-id="91993-103">Sample tasks</span></span>
 
 <span data-ttu-id="91993-104">Cette section contient des tâches d'exemples qui utilisent les API disponibles dans le Guide de référence auxiliaire Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="91993-104">This section contains sample tasks that use the APIs available in the Outlook 2013 Auxiliary Reference.</span></span>
 
@@ -26,7 +26,7 @@ ms.locfileid: "19782844"
     
 - [<span data-ttu-id="91993-108">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="91993-108">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [<span data-ttu-id="91993-109">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="91993-109">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [<span data-ttu-id="91993-109">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="91993-109">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/fr-fr/library/office/gg262879.aspx)
     
 - [<span data-ttu-id="91993-110">Utiliser l’heure relative pour accéder aux données et de disponibilité</span><span class="sxs-lookup"><span data-stu-id="91993-110">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
     

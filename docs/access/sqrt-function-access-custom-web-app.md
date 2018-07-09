@@ -19,7 +19,7 @@ ms.locfileid: "19781976"
 <span data-ttu-id="709c4-104">Renvoie la racine carrée de la valeur spécifiée.</span><span class="sxs-lookup"><span data-stu-id="709c4-104">Returns the square root of the specified value.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="709c4-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="709c4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="709c4-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="709c4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="709c4-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="709c4-107">Syntax</span></span>
 

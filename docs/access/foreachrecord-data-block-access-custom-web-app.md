@@ -19,10 +19,10 @@ ms.locfileid: "19781836"
 <span data-ttu-id="e1804-104">Un bloc de données **PourChaqueEnregistrement** répète un ensemble d’instructions pour chaque enregistrement dans un domaine.</span><span class="sxs-lookup"><span data-stu-id="e1804-104">A **ForEachRecord** data block repeats a set of statements for each record in a domain.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="e1804-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e1804-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="e1804-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e1804-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="e1804-107">[!REMARQUE] Le bloc de données **PourChaqueEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="e1804-107">The **ForEachRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="e1804-107">Le bloc de données **PourChaqueEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="e1804-107">The **ForEachRecord** data block is available only in Data Macros.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="e1804-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="e1804-108">Setting</span></span>
 

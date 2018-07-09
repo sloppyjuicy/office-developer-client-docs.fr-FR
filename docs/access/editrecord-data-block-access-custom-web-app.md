@@ -18,10 +18,10 @@ ms.locfileid: "19781811"
 <span data-ttu-id="d0f86-104">Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifier les valeurs contenues dans un enregistrement existant.</span><span class="sxs-lookup"><span data-stu-id="d0f86-104">You can use the **EditRecord** data block to change the values contained in an existing record.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="d0f86-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="d0f86-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="d0f86-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="d0f86-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="d0f86-107">[!REMARQUE] Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="d0f86-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
+> <span data-ttu-id="d0f86-107">Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="d0f86-107">The **EditRecord** data block is available only in Data Macros.</span></span> 
   
 ## <a name="setting"></a><span data-ttu-id="d0f86-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="d0f86-108">Setting</span></span>
 

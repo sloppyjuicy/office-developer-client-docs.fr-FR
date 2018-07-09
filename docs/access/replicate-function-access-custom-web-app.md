@@ -19,7 +19,7 @@ ms.locfileid: "19781973"
 <span data-ttu-id="e57fa-104">Répète une valeur de texte à un nombre de fois spécifié.</span><span class="sxs-lookup"><span data-stu-id="e57fa-104">Repeats a text value a specified number of times.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="e57fa-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e57fa-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="e57fa-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="e57fa-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="e57fa-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e57fa-107">Syntax</span></span>
 

@@ -52,6 +52,6 @@ ms.locfileid: "19782535"
   
 - [<span data-ttu-id="01fe5-121">Déterminer si un élément Outlook a été modifié mais ne pas enregistré (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="01fe5-121">Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)</span></span>](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [<span data-ttu-id="01fe5-122">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="01fe5-122">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [<span data-ttu-id="01fe5-122">Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)</span><span class="sxs-lookup"><span data-stu-id="01fe5-122">Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)</span></span>](https://msdn.microsoft.com/fr-fr/library/office/gg262879.aspx)
     
 

@@ -30,7 +30,7 @@ ms.locfileid: "19782537"
 - <span data-ttu-id="cc423-113">[Codes d’erreur](error-codes-onenote.md): répertorie les codes d’erreur dans le modèle d’objet OneNote 2013.</span><span class="sxs-lookup"><span data-stu-id="cc423-113">[Error codes](error-codes-onenote.md): Lists the error codes in the OneNote 2013 object model.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="cc423-p102">[!REMARQUE] Les API décrites dans cette documentation sont conçues uniquement pour les solutions clientes de bureau Win32 OneNote dans les scénarios sans connexion. Pour les scénarios avec connexion, utilisez les API du service OneNote recommandées. Pour plus d'informations, consultez le site [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615).</span><span class="sxs-lookup"><span data-stu-id="cc423-p102">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615).</span></span> 
+> <span data-ttu-id="cc423-p102">Les API décrites dans cette documentation sont conçues uniquement pour les solutions clientes de bureau Win32 OneNote dans les scénarios sans connexion. Pour les scénarios avec connexion, utilisez les API du service OneNote recommandées. Pour plus d'informations, consultez le site [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615).</span><span class="sxs-lookup"><span data-stu-id="cc423-p102">The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](http://go.microsoft.com/fwlink/?LinkID=390615).</span></span> 
   
 ## <a name="see-also"></a><span data-ttu-id="cc423-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cc423-117">See also</span></span>
 
@@ -40,9 +40,9 @@ ms.locfileid: "19782537"
     
 - [<span data-ttu-id="cc423-120">Accessibilité des produits Microsoft</span><span class="sxs-lookup"><span data-stu-id="cc423-120">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
     
-- [<span data-ttu-id="cc423-121">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="cc423-121">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="cc423-121">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="cc423-121">Document Conventions</span></span>](http://msdn.microsoft.com/fr-fr/office/aa905365.aspx)
     
-- [<span data-ttu-id="cc423-122">Informations de Copyright de référence pour développeur OneNote</span><span class="sxs-lookup"><span data-stu-id="cc423-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/en-us/library/office/jj680116.aspx)
+- [<span data-ttu-id="cc423-122">Informations de Copyright de référence pour développeur OneNote</span><span class="sxs-lookup"><span data-stu-id="cc423-122">OneNote Developer Reference Copyright Information</span></span>](https://msdn.microsoft.com/fr-fr/library/office/jj680116.aspx)
     
 - [<span data-ttu-id="cc423-123">Déclaration de confidentialité Microsoft</span><span class="sxs-lookup"><span data-stu-id="cc423-123">Microsoft Online Privacy Notice</span></span>](http://privacy.microsoft.com/en-us/default.mspx)
     

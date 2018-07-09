@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  <span data-ttu-id="c3840-107">_LCID_</span><span class="sxs-lookup"><span data-stu-id="c3840-107">_lcid_</span></span>
   
-> <span data-ttu-id="c3840-108">[in] Identificateur de paramètres régionaux.</span><span class="sxs-lookup"><span data-stu-id="c3840-108">[in] Locale identifier.</span></span> <span data-ttu-id="c3840-109">Pour les définitions détaillées, voir le paramètre _Locale_ de [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-109">For detailed definitions, see the  _Locale_ parameter of [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span></span>
+> <span data-ttu-id="c3840-108">[in] Identificateur de paramètres régionaux.</span><span class="sxs-lookup"><span data-stu-id="c3840-108">[in] Locale identifier.</span></span> <span data-ttu-id="c3840-109">Pour les définitions détaillées, voir le paramètre _Locale_ de [CompareString](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-109">For detailed definitions, see the  _Locale_ parameter of [CompareString](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span></span>
     
  <span data-ttu-id="c3840-110">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="c3840-110">_dwFlags_</span></span>
   
-> <span data-ttu-id="c3840-111">[in] Indicateurs à ignorer la casse et des signes diacritiques.</span><span class="sxs-lookup"><span data-stu-id="c3840-111">[in] Flags to ignore case and diacritics.</span></span> <span data-ttu-id="c3840-112">Pour les définitions détaillées, voir le paramètre _dwCmpFlags_ de [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-112">For detailed definitions, see the  _dwCmpFlags_ parameter of [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span></span>
+> <span data-ttu-id="c3840-111">[in] Indicateurs à ignorer la casse et des signes diacritiques.</span><span class="sxs-lookup"><span data-stu-id="c3840-111">[in] Flags to ignore case and diacritics.</span></span> <span data-ttu-id="c3840-112">Pour les définitions détaillées, voir le paramètre _dwCmpFlags_ de [CompareStringEx](http://msdn.microsoft.com/fr-fr/library/dd317761%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-112">For detailed definitions, see the  _dwCmpFlags_ parameter of [CompareStringEx](http://msdn.microsoft.com/fr-fr/library/dd317761%28VS.85%29.aspx).</span></span>
     
  <span data-ttu-id="c3840-113">_pstr1_</span><span class="sxs-lookup"><span data-stu-id="c3840-113">_pstr1_</span></span>
   
@@ -61,17 +61,17 @@ int MNLS_CompareStringW (
     
 ## <a name="return-value"></a><span data-ttu-id="c3840-125">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="c3840-125">Return value</span></span>
 
-<span data-ttu-id="c3840-126">Renvoie les valeurs indiquées pour [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-126">Returns the values described for [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="c3840-126">Renvoie les valeurs indiquées pour [CompareStringEx](http://msdn.microsoft.com/fr-fr/library/dd317761%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-126">Returns the values described for [CompareStringEx](http://msdn.microsoft.com/fr-fr/library/dd317761%28VS.85%29.aspx).</span></span>
   
 ## <a name="remarks"></a><span data-ttu-id="c3840-127">Remarques</span><span class="sxs-lookup"><span data-stu-id="c3840-127">Remarks</span></span>
 
-<span data-ttu-id="c3840-128">Cette fonction encapsule [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-128">This function wraps [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span></span> <span data-ttu-id="c3840-129">**MNLS_CompareStringW** accepte les mêmes paramètres et a le même comportement que [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-129">**MNLS_CompareStringW** takes the same parameters and has the same behavior as [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="c3840-128">Cette fonction encapsule [CompareStringW](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-128">This function wraps [CompareStringW](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span></span> <span data-ttu-id="c3840-129">**MNLS_CompareStringW** accepte les mêmes paramètres et a le même comportement que [CompareStringW](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c3840-129">**MNLS_CompareStringW** takes the same parameters and has the same behavior as [CompareStringW](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="c3840-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c3840-130">See also</span></span>
 
 
 
-[<span data-ttu-id="c3840-131">CompareStringW</span><span class="sxs-lookup"><span data-stu-id="c3840-131">CompareStringW</span></span>](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[<span data-ttu-id="c3840-131">CompareStringW</span><span class="sxs-lookup"><span data-stu-id="c3840-131">CompareStringW</span></span>](http://msdn.microsoft.com/fr-fr/library/dd317759%28VS.85%29.aspx)
   
-[<span data-ttu-id="c3840-132">CompareStringEx</span><span class="sxs-lookup"><span data-stu-id="c3840-132">CompareStringEx</span></span>](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[<span data-ttu-id="c3840-132">CompareStringEx</span><span class="sxs-lookup"><span data-stu-id="c3840-132">CompareStringEx</span></span>](http://msdn.microsoft.com/fr-fr/library/dd317761%28VS.85%29.aspx)
 

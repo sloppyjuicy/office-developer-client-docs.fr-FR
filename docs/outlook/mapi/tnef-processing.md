@@ -35,7 +35,7 @@ ms.locfileid: "19787355"
     
 5. <span data-ttu-id="763c9-116">Utilisez [ITnef : IUnknown](itnefiunknown.md) méthodes pour insérer des balises décrivant les positions des pièces jointes des messages dans le texte du message de l’interface.</span><span class="sxs-lookup"><span data-stu-id="763c9-116">Use [ITnef : IUnknown](itnefiunknown.md) interface methods to insert tags describing the positions of message attachments in the message text.</span></span> 
     
-6. <span data-ttu-id="763c9-117">Accès le texte du message avec balise via les méthodes [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) et l’envoyer au système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="763c9-117">Access the tagged message text through [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system.</span></span> 
+6. <span data-ttu-id="763c9-117">Accès le texte du message avec balise via les méthodes [IStream](http://msdn.microsoft.com/fr-fr/library/aa380034%28VS.85%29.aspx) et l’envoyer au système de messagerie.</span><span class="sxs-lookup"><span data-stu-id="763c9-117">Access the tagged message text through [IStream](http://msdn.microsoft.com/fr-fr/library/aa380034%28VS.85%29.aspx) methods, and send it to the messaging system.</span></span> 
     
  <span data-ttu-id="763c9-118">**Pour récupérer les propriétés encapsulées**</span><span class="sxs-lookup"><span data-stu-id="763c9-118">**To retrieve encapsulated properties**</span></span>
   

@@ -41,7 +41,7 @@ BOOL FGetComponentPath(
 
  <span data-ttu-id="efb44-107">_szComponent_</span><span class="sxs-lookup"><span data-stu-id="efb44-107">_szComponent_</span></span>
   
-> <span data-ttu-id="efb44-108">[in] La clé de Registre MSIComponentID décrite dans les [Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span><span class="sxs-lookup"><span data-stu-id="efb44-108">[in] The MSIComponentID reg key described in [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/en-us/library/dd162409.aspx).</span></span>
+> <span data-ttu-id="efb44-108">[in] La clé de Registre MSIComponentID décrite dans les [Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/fr-fr/library/dd162409.aspx).</span><span class="sxs-lookup"><span data-stu-id="efb44-108">[in] The MSIComponentID reg key described in [Mapi32.dll Stub Registry Settings](http://msdn.microsoft.com/fr-fr/library/dd162409.aspx).</span></span>
     
  <span data-ttu-id="efb44-109">_szQualifier_</span><span class="sxs-lookup"><span data-stu-id="efb44-109">_szQualifier_</span></span>
   
@@ -80,5 +80,5 @@ BOOL FGetComponentPath(
 [<span data-ttu-id="efb44-126">Choisissez une Version spécifique de MAPI à charge</span><span class="sxs-lookup"><span data-stu-id="efb44-126">Choose a Specific Version of MAPI to Load</span></span>](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[<span data-ttu-id="efb44-127">Paramètres de Registre Stub Mapi32.dll</span><span class="sxs-lookup"><span data-stu-id="efb44-127">Mapi32.dll Stub Registry Settings</span></span>](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
+[<span data-ttu-id="efb44-127">Paramètres de Registre Stub Mapi32.dll</span><span class="sxs-lookup"><span data-stu-id="efb44-127">Mapi32.dll Stub Registry Settings</span></span>](http://msdn.microsoft.com/fr-fr/library/dd162409.aspx)
 

@@ -59,5 +59,5 @@ ms.locfileid: "19784530"
 [<span data-ttu-id="efecc-153">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="efecc-153">MAPI Structures</span></span>](mapi-structures.md)
 
 
-[<span data-ttu-id="efecc-154">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="efecc-154">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="efecc-154">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="efecc-154">MAPI Reference</span></span>](mapi-reference.md)
 

@@ -65,7 +65,7 @@ HRESULT Logoff(
     
 ## <a name="remarks"></a><span data-ttu-id="3d42b-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="3d42b-125">Remarks</span></span>
 
-<span data-ttu-id="3d42b-126">La méthode **IMAPISession::Logoff** termine une session MAPI.</span><span class="sxs-lookup"><span data-stu-id="3d42b-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="3d42b-127">Lors de la **fermeture de session** renvoie, aucune des méthodes à l’exception de [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) peut être appelée.</span><span class="sxs-lookup"><span data-stu-id="3d42b-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
+<span data-ttu-id="3d42b-126">La méthode **IMAPISession::Logoff** termine une session MAPI.</span><span class="sxs-lookup"><span data-stu-id="3d42b-126">The **IMAPISession::Logoff** method ends a MAPI session.</span></span> <span data-ttu-id="3d42b-127">Lors de la **fermeture de session** renvoie, aucune des méthodes à l’exception de [IUnknown::Release](http://msdn.microsoft.com/fr-fr/library/ms682317%28v=VS.85%29.aspx) peut être appelée.</span><span class="sxs-lookup"><span data-stu-id="3d42b-127">When **Logoff** returns, none of the methods except for [IUnknown::Release](http://msdn.microsoft.com/fr-fr/library/ms682317%28v=VS.85%29.aspx) can be called.</span></span> 
   
 ## <a name="notes-to-callers"></a><span data-ttu-id="3d42b-128">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="3d42b-128">Notes to callers</span></span>
 

@@ -19,7 +19,7 @@ ms.locfileid: "19781964"
 <span data-ttu-id="3f58e-104">Renvoie un nombre pseudo-aléatoire compris entre 0 et 1.</span><span class="sxs-lookup"><span data-stu-id="3f58e-104">Returns a pseudo-random number between 0 and 1.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="3f58e-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="3f58e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3f58e-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="3f58e-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="3f58e-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3f58e-107">Syntax</span></span>
 

@@ -62,7 +62,7 @@ ms.locfileid: "19782383"
     
    ```
 
-<span data-ttu-id="2dd8a-133">Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur http://support.microsoft.com/.</span><span class="sxs-lookup"><span data-stu-id="2dd8a-133">For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on http://support.microsoft.com/.</span></span>
+<span data-ttu-id="2dd8a-133">Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » sur http://support.microsoft.com/.</span><span class="sxs-lookup"><span data-stu-id="2dd8a-133">For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on http://support.microsoft.com/.</span></span>
     
 ## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a><span data-ttu-id="2dd8a-134">Création d'un service Web de proxy sans Visual Studio .NET</span><span class="sxs-lookup"><span data-stu-id="2dd8a-134">Creating a Proxy Web Service Without Visual Studio .NET</span></span>
 

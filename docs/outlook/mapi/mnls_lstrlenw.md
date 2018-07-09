@@ -24,7 +24,7 @@ ms.locfileid: "19784920"
 <span data-ttu-id="c8007-105">Détermine la longueur de la chaîne Unicode spécifiée, à l’exception du caractère de fin null.</span><span class="sxs-lookup"><span data-stu-id="c8007-105">Determines the length of the specified Unicode string, excluding the terminating null character.</span></span>
   
 > [!TIP]
-> <span data-ttu-id="c8007-106">Utilisez plutôt [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="c8007-106">Consider using [StringCchLength](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="c8007-106">Utilisez plutôt [StringCchLength](http://msdn.microsoft.com/fr-fr/library/ms647539%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="c8007-106">Consider using [StringCchLength](http://msdn.microsoft.com/fr-fr/library/ms647539%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 int MNLS_lstrlen(
@@ -43,13 +43,13 @@ int MNLS_lstrlen(
   
 ## <a name="remarks"></a><span data-ttu-id="c8007-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c8007-114">Remarks</span></span>
 
-<span data-ttu-id="c8007-115">Cette fonction à la ligne de la fonction **lstrlen** .</span><span class="sxs-lookup"><span data-stu-id="c8007-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="c8007-116">Pour plus d’informations, voir [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8007-116">For more information, see [lstrlen](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="c8007-115">Cette fonction à la ligne de la fonction **lstrlen** .</span><span class="sxs-lookup"><span data-stu-id="c8007-115">This function wraps the **lstrlen** function.</span></span> <span data-ttu-id="c8007-116">Pour plus d’informations, voir [lstrlen](http://msdn.microsoft.com/fr-fr/library/ms647492%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="c8007-116">For more information, see [lstrlen](http://msdn.microsoft.com/fr-fr/library/ms647492%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="c8007-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c8007-117">See also</span></span>
 
 
 
-[<span data-ttu-id="c8007-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="c8007-118">lstrlen</span></span>](http://msdn.microsoft.com/en-us/library/ms647492%28VS.85%29.aspx)
+[<span data-ttu-id="c8007-118">lstrlen</span><span class="sxs-lookup"><span data-stu-id="c8007-118">lstrlen</span></span>](http://msdn.microsoft.com/fr-fr/library/ms647492%28VS.85%29.aspx)
   
-[<span data-ttu-id="c8007-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="c8007-119">StringCchLength</span></span>](http://msdn.microsoft.com/en-us/library/ms647539%28VS.85%29.aspx)
+[<span data-ttu-id="c8007-119">StringCchLength</span><span class="sxs-lookup"><span data-stu-id="c8007-119">StringCchLength</span></span>](http://msdn.microsoft.com/fr-fr/library/ms647539%28VS.85%29.aspx)
 

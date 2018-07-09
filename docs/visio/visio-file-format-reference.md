@@ -36,11 +36,11 @@ ms.locfileid: "19790020"
     
 ## <a name="see-also"></a><span data-ttu-id="b00ad-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b00ad-114">See also</span></span>
 
-- [<span data-ttu-id="b00ad-115">Visio pour les développeurs</span><span class="sxs-lookup"><span data-stu-id="b00ad-115">Visio for developers</span></span>](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [<span data-ttu-id="b00ad-115">Visio pour les développeurs</span><span class="sxs-lookup"><span data-stu-id="b00ad-115">Visio for developers</span></span>](http://msdn.microsoft.com/fr-fr/office/aa905478.aspx)
     
 - [<span data-ttu-id="b00ad-116">Accessibilité des produits Microsoft</span><span class="sxs-lookup"><span data-stu-id="b00ad-116">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)
     
-- [<span data-ttu-id="b00ad-117">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="b00ad-117">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
+- [<span data-ttu-id="b00ad-117">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="b00ad-117">Document Conventions</span></span>](http://msdn.microsoft.com/fr-fr/office/aa905365.aspx)
     
 - [<span data-ttu-id="b00ad-118">Notice de copyright SDK Visio</span><span class="sxs-lookup"><span data-stu-id="b00ad-118">Visio SDK copyright notice</span></span>](visio-sdk-copyright-notice.md)
     

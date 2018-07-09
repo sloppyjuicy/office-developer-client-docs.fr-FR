@@ -31,5 +31,5 @@ ms.locfileid: "19784665"
 
 
 
-[<span data-ttu-id="308bc-113">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="308bc-113">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="308bc-113">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="308bc-113">MAPI Reference</span></span>](mapi-reference.md)
 

@@ -24,7 +24,7 @@ ms.locfileid: "19784903"
 <span data-ttu-id="1a205-105">Copie une chaîne dans une mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="1a205-105">Copies a string to a buffer.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="1a205-106">Ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="1a205-106">Do not use.</span></span> <span data-ttu-id="1a205-107">Utilisez plutôt [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="1a205-107">Consider using [StringCchCopy](http://msdn.microsoft.com/en-us/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="1a205-106">Ne pas utiliser.</span><span class="sxs-lookup"><span data-stu-id="1a205-106">Do not use.</span></span> <span data-ttu-id="1a205-107">Utilisez plutôt [StringCchCopy](http://msdn.microsoft.com/fr-fr/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="1a205-107">Consider using [StringCchCopy](http://msdn.microsoft.com/fr-fr/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -50,11 +50,11 @@ LPCWSTR lpString2);
   
 ## <a name="remarks"></a><span data-ttu-id="1a205-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="1a205-116">Remarks</span></span>
 
-<span data-ttu-id="1a205-117">Cette fonction encapsule la fonction **lstrcpy** .</span><span class="sxs-lookup"><span data-stu-id="1a205-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="1a205-118">Pour plus d’informations, voir [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1a205-118">For more information, see [lstrcpy](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="1a205-117">Cette fonction encapsule la fonction **lstrcpy** .</span><span class="sxs-lookup"><span data-stu-id="1a205-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="1a205-118">Pour plus d’informations, voir [lstrcpy](http://msdn.microsoft.com/fr-fr/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="1a205-118">For more information, see [lstrcpy](http://msdn.microsoft.com/fr-fr/library/ms647490%28VS.85%29.aspx).</span></span>
   
 ## <a name="see-also"></a><span data-ttu-id="1a205-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1a205-119">See also</span></span>
 
 
 
-[<span data-ttu-id="1a205-120">lstrcpy</span><span class="sxs-lookup"><span data-stu-id="1a205-120">lstrcpy</span></span>](http://msdn.microsoft.com/en-us/library/ms647490%28VS.85%29.aspx)
+[<span data-ttu-id="1a205-120">lstrcpy</span><span class="sxs-lookup"><span data-stu-id="1a205-120">lstrcpy</span></span>](http://msdn.microsoft.com/fr-fr/library/ms647490%28VS.85%29.aspx)
 

@@ -119,7 +119,7 @@ bool called_from_paste_fn_dlg(void)
 
 
 
-[<span data-ttu-id="d1069-128">Acc�s au code XLL dans Excel (en anglais)</span><span class="sxs-lookup"><span data-stu-id="d1069-128">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
+[<span data-ttu-id="d1069-128">Acc�s au code XLL dans Excel</span><span class="sxs-lookup"><span data-stu-id="d1069-128">Accessing XLL Code in Excel</span></span>](accessing-xll-code-in-excel.md)
   
 [<span data-ttu-id="d1069-129">Appel dans Excel � partir du fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="d1069-129">Calling into Excel from the DLL or XLL</span></span>](calling-into-excel-from-the-dll-or-xll.md)
   

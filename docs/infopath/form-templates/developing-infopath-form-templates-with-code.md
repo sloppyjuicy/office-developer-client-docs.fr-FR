@@ -43,7 +43,7 @@ ms.locfileid: "19782336"
     
 ## <a name="related-sections"></a><span data-ttu-id="01cd7-117">Sections associées</span><span class="sxs-lookup"><span data-stu-id="01cd7-117">Related sections</span></span>
 
-[<span data-ttu-id="01cd7-118">Portail des développeurs InfoPath (éventuellement en anglais)</span><span class="sxs-lookup"><span data-stu-id="01cd7-118">InfoPath Developer Portal</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
+[<span data-ttu-id="01cd7-118">Portail des développeurs InfoPath</span><span class="sxs-lookup"><span data-stu-id="01cd7-118">InfoPath Developer Portal</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
   
 > <span data-ttu-id="01cd7-119">Contient des liens vers des articles techniques, des exemples de code, des téléchargements et d'autres documents MSDN (Microsoft Developer Network) sur la création de solutions InfoPath personnalisées.</span><span class="sxs-lookup"><span data-stu-id="01cd7-119">Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom InfoPath solutions.</span></span>
     

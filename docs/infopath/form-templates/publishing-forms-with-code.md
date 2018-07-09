@@ -65,7 +65,7 @@ ms.locfileid: "19782467"
 3. <span data-ttu-id="96d12-146">Entrez l'URL du site SharePoint sur lequel publier, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="96d12-146">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
     
     > [!IMPORTANT]
-    > <span data-ttu-id="96d12-147">[!IMPORTANTE] Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="96d12-147">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+    > <span data-ttu-id="96d12-147">Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="96d12-147">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
   
 4. <span data-ttu-id="96d12-148">Sélectionnez **Bibliothèque de formulaires**, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="96d12-148">Select **Form Library**, and then click **Next**.</span></span>
     

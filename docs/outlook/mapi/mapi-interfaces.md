@@ -50,5 +50,5 @@ ms.locfileid: "19784638"
 
 
 
-[<span data-ttu-id="0d80a-139">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="0d80a-139">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="0d80a-139">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="0d80a-139">MAPI Reference</span></span>](mapi-reference.md)
 

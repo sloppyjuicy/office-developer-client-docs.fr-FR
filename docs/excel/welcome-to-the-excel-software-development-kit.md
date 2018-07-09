@@ -24,7 +24,7 @@ ms.locfileid: "19782200"
   
 <span data-ttu-id="4c0ca-108">R�vision�: novembre 2012</span><span class="sxs-lookup"><span data-stu-id="4c0ca-108">Revised: November 2012</span></span>
   
-<span data-ttu-id="4c0ca-109">T�l�chargez le [SDK XLL Excel�2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span><span class="sxs-lookup"><span data-stu-id="4c0ca-109">Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).</span></span>
+<span data-ttu-id="4c0ca-109">T�l�chargez le [SDK XLL Excel�2013](http://go.microsoft.com/fwlink/?LinkID=251082).</span><span class="sxs-lookup"><span data-stu-id="4c0ca-109">Download the [Excel 2013 XLL SDK](http://go.microsoft.com/fwlink/?LinkID=251082).</span></span>
   
 <span data-ttu-id="4c0ca-110">Le SDK XLL Excel�2013 comprend les �l�ments suivants�:</span><span class="sxs-lookup"><span data-stu-id="4c0ca-110">The Excel 2013 XLL SDK includes the following:</span></span>
   
@@ -54,10 +54,10 @@ ms.locfileid: "19782200"
     
 ## <a name="related-links"></a><span data-ttu-id="4c0ca-124">Liens connexes</span><span class="sxs-lookup"><span data-stu-id="4c0ca-124">Related Links</span></span>
 
-[<span data-ttu-id="4c0ca-125">Centre pour d�veloppeurs Excel</span><span class="sxs-lookup"><span data-stu-id="4c0ca-125">Excel Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/aa905411.aspx)
+[<span data-ttu-id="4c0ca-125">Centre pour d�veloppeurs Excel</span><span class="sxs-lookup"><span data-stu-id="4c0ca-125">Excel Developer Center</span></span>](http://msdn.microsoft.com/fr-fr/office/aa905411.aspx)
   
-[<span data-ttu-id="4c0ca-126">Centre pour d�veloppeurs Microsoft�Office</span><span class="sxs-lookup"><span data-stu-id="4c0ca-126">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/en-us/office/default.aspx)
+[<span data-ttu-id="4c0ca-126">Centre pour d�veloppeurs Microsoft�Office</span><span class="sxs-lookup"><span data-stu-id="4c0ca-126">Microsoft Office Developer Center</span></span>](http://msdn.microsoft.com/fr-fr/office/default.aspx)
   
-[<span data-ttu-id="4c0ca-127">SDK Excel�2010�: kit de d�veloppement logiciel XLL Excel�2010</span><span class="sxs-lookup"><span data-stu-id="4c0ca-127">Excel 2010 SDK: Excel 2010 XLL Software Development Kit</span></span>](http://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
+[<span data-ttu-id="4c0ca-127">SDK Excel�2010�: kit de d�veloppement logiciel XLL Excel�2010</span><span class="sxs-lookup"><span data-stu-id="4c0ca-127">Excel 2010 SDK: Excel 2010 XLL Software Development Kit</span></span>](http://go.microsoft.com/fwlink/?LinkID=186435)
   
 

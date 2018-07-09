@@ -48,7 +48,7 @@ ms.locfileid: "19787700"
 ## <a name="see-also"></a><span data-ttu-id="a550e-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a550e-123">See also</span></span>
 
 - [<span data-ttu-id="a550e-124">Informations de copyright-référence du fournisseur Outlook Social Connector 2013</span><span class="sxs-lookup"><span data-stu-id="a550e-124">Outlook Social Connector 2013 provider reference copyright notice</span></span>](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
-- [<span data-ttu-id="a550e-125">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="a550e-125">Document Conventions</span></span>](http://msdn.microsoft.com/en-us/office/aa905365.aspx)   
+- [<span data-ttu-id="a550e-125">Conventions de document</span><span class="sxs-lookup"><span data-stu-id="a550e-125">Document Conventions</span></span>](http://msdn.microsoft.com/fr-fr/office/aa905365.aspx)   
 - [<span data-ttu-id="a550e-126">Accessibilité des produits Microsoft</span><span class="sxs-lookup"><span data-stu-id="a550e-126">Accessibility in Microsoft Products</span></span>](http://www.microsoft.com/enable/products/default.aspx)  
 - [<span data-ttu-id="a550e-127">Déclaration de confidentialité Microsoft</span><span class="sxs-lookup"><span data-stu-id="a550e-127">Microsoft Online Privacy Notice</span></span>](https://privacy.microsoft.com/en-us/privacystatement)
     

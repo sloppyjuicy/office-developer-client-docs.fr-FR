@@ -19,7 +19,7 @@ ms.locfileid: "19783405"
   
 <span data-ttu-id="d4776-p101">Le R�f�rence Messaging�API (MAPI) Microsoft�Outlook�2013 d�crit comment cr�er des solutions MAPI qui fonctionnent avec Microsoft�Outlook�2013. Cette section explique comment rechercher la r�f�rence et les ressources conceptuelles diff�rentes dans le R�f�rence MAPI Outlook�2013.</span><span class="sxs-lookup"><span data-stu-id="d4776-p101">The Microsoft Outlook 2013 Messaging API (MAPI) Reference describes how to create MAPI solutions that work with Microsoft Outlook 2013. This section describes how to find the various reference and conceptual resources in the Outlook 2013 MAPI Reference.</span></span>
   
-<span data-ttu-id="d4776-107">Si vous �tes novice � d�velopper des solutions pour Outlook, reportez-vous � la section [s�lection d'une API ou une technologie pour le d�veloppement de solutions pour Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) pour identifier les API et les technologies qui sont le mieux adapt�s � vos besoins.</span><span class="sxs-lookup"><span data-stu-id="d4776-107">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
+<span data-ttu-id="d4776-107">Si vous �tes novice � d�velopper des solutions pour Outlook, reportez-vous � la section [s�lection d'une API ou une technologie pour le d�veloppement de solutions pour Outlook 2013](http://msdn.microsoft.com/fr-fr/library/jj900714.aspx) pour identifier les API et les technologies qui sont le mieux adapt�s � vos besoins.</span><span class="sxs-lookup"><span data-stu-id="d4776-107">If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook 2013](http://msdn.microsoft.com/fr-fr/library/jj900714.aspx) to identify the APIs and technologies that are most appropriate for your needs.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="d4776-108">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d4776-108">In this section</span></span>
 
@@ -37,10 +37,10 @@ ms.locfileid: "19783405"
     
 ## <a name="related-sections"></a><span data-ttu-id="d4776-115">Sections associ�es</span><span class="sxs-lookup"><span data-stu-id="d4776-115">Related sections</span></span>
 
-- [<span data-ttu-id="d4776-116">Exemples MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="d4776-116">MAPI Samples</span></span>](mapi-samples.md)
+- [<span data-ttu-id="d4776-116">Exemples MAPI</span><span class="sxs-lookup"><span data-stu-id="d4776-116">MAPI Samples</span></span>](mapi-samples.md)
   
-- [<span data-ttu-id="d4776-117">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="d4776-117">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="d4776-117">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="d4776-117">MAPI Concepts</span></span>](mapi-concepts.md)
   
-- [<span data-ttu-id="d4776-118">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="d4776-118">MAPI Reference</span></span>](mapi-reference.md)
+- [<span data-ttu-id="d4776-118">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="d4776-118">MAPI Reference</span></span>](mapi-reference.md)
   
 

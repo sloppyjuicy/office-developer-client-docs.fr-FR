@@ -25,7 +25,7 @@ ms.locfileid: "19785492"
   
 <span data-ttu-id="5cb8e-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="5cb8e-104">**Applies to**: Outlook</span></span> 
   
-<span data-ttu-id="5cb8e-105">Contient un flux qui mappe sur le format persistant d’une structure [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’une demande de réunion ou un rendez-vous périodique.</span><span class="sxs-lookup"><span data-stu-id="5cb8e-105">Contains a stream that maps to the persisted format of a [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) structure, which describes the time zone to be used for the start and end time of a recurring appointment or meeting request.</span></span> 
+<span data-ttu-id="5cb8e-105">Contient un flux qui mappe sur le format persistant d’une structure [TZREG](http://msdn.microsoft.com/fr-fr/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’une demande de réunion ou un rendez-vous périodique.</span><span class="sxs-lookup"><span data-stu-id="5cb8e-105">Contains a stream that maps to the persisted format of a [TZREG](http://msdn.microsoft.com/fr-fr/library/bb820983%28v=office.12%29.aspx) structure, which describes the time zone to be used for the start and end time of a recurring appointment or meeting request.</span></span> 
   
 |||
 |:-----|:-----|

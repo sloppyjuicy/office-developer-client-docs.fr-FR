@@ -35,7 +35,7 @@ HRESULT IConverterSession::SetSaveFormat (
 
 <span data-ttu-id="baeb0-107">_mstSaveFormat_</span><span class="sxs-lookup"><span data-stu-id="baeb0-107">_mstSaveFormat_</span></span>
   
-> <span data-ttu-id="baeb0-108">[in] Format d’enregistrement à utiliser pour un flux de données MIME.</span><span class="sxs-lookup"><span data-stu-id="baeb0-108">[in] The save format to be used for a MIME stream.</span></span> <span data-ttu-id="baeb0-109">Pour plus d’informations, voir le type enum [MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="baeb0-109">For more information, see the enum type [MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx).</span></span>
+> <span data-ttu-id="baeb0-108">[in] Format d’enregistrement à utiliser pour un flux de données MIME.</span><span class="sxs-lookup"><span data-stu-id="baeb0-108">[in] The save format to be used for a MIME stream.</span></span> <span data-ttu-id="baeb0-109">Pour plus d’informations, voir le type enum [MIMESAVETYPE](http://msdn.microsoft.com/fr-fr/library/ms715128%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="baeb0-109">For more information, see the enum type [MIMESAVETYPE](http://msdn.microsoft.com/fr-fr/library/ms715128%28VS.85%29.aspx).</span></span>
     
   - <span data-ttu-id="baeb0-110">**SAVE_RFC1521**: utiliser MIME, qui est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="baeb0-110">**SAVE_RFC1521**: Use MIME, which is the default.</span></span>      
   - <span data-ttu-id="baeb0-111">**SAVE_RFC822**: utiliser uuencode.</span><span class="sxs-lookup"><span data-stu-id="baeb0-111">**SAVE_RFC822**: Use uuencode.</span></span>

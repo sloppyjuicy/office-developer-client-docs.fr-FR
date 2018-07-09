@@ -19,9 +19,9 @@ ms.locfileid: "19781808"
 <span data-ttu-id="65d08-104">Utilisez l'action **QuitterPourChaqueEnregistrement** pour quitter immédiatement un bloc de données **[PourChaqueEnregistrement](foreachrecord-data-block-access-custom-web-app.md)**.</span><span class="sxs-lookup"><span data-stu-id="65d08-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block-access-custom-web-app.md)** data block.</span></span> 
   
 > [!IMPORTANT]
-> <span data-ttu-id="65d08-p101">[!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="65d08-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="65d08-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="65d08-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="65d08-107">[!REMARQUE] L'action **QuitterPourChaqueEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="65d08-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
+> <span data-ttu-id="65d08-107">L'action **QuitterPourChaqueEnregistrement** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="65d08-107">The **ExitForEachRecord** action is available only in Data Macros.</span></span> 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "19782339"
   
 > <span data-ttu-id="633c9-p101">Informations sur les concepts et les procédures de création de modèles de formulaires avec InfoPath. Pour accéder à l'Aide de Microsoft Office InfoPath, cliquez sur le bouton **?** dans Microsoft InfoPath. Lorsque vous êtes connecté à Internet, le contenu supplémentaire et les rubriques d'aide mises à jour sont intégrés dans l'Aide sur le site Web Microsoft Office Online.</span><span class="sxs-lookup"><span data-stu-id="633c9-p101">Conceptual and procedural information on designing form templates with InfoPath. To access Microsoft Office InfoPath Help, click the **Help** button in Microsoft InfoPath. When you are connected to the Internet, additional content and updated help topics are integrated into Help from the Microsoft Office Online Web site.</span></span> 
     
-[<span data-ttu-id="633c9-111">InfoPath Developer Center (éventuellement en anglais)</span><span class="sxs-lookup"><span data-stu-id="633c9-111">InfoPath Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
+[<span data-ttu-id="633c9-111">InfoPath Developer Center</span><span class="sxs-lookup"><span data-stu-id="633c9-111">InfoPath Developer Center</span></span>](http://go.microsoft.com/fwlink?LinkID=11689)
   
 > <span data-ttu-id="633c9-112">Ce site Web contient des livres blancs, des formulaires d'exemple, des outils, des articles et des informations générales sur le développement de formulaires InfoPath.</span><span class="sxs-lookup"><span data-stu-id="633c9-112">This Web site contains white papers, sample forms, tools, articles, and information about developing InfoPath form templates.</span></span>
     
@@ -41,7 +41,7 @@ ms.locfileid: "19782339"
   
 > <span data-ttu-id="633c9-119">Ce site Web contient des informations sur divers outils et plates-formes de développement Microsoft.</span><span class="sxs-lookup"><span data-stu-id="633c9-119">This Web site contains information about a variety of Microsoft development platforms and tools.</span></span>
     
-[<span data-ttu-id="633c9-120">XML Developer Center (éventuellement en anglais)</span><span class="sxs-lookup"><span data-stu-id="633c9-120">XML Developer Center</span></span>](http://go.microsoft.com/fwlink/?LinkId=61827)
+[<span data-ttu-id="633c9-120">XML Developer Center</span><span class="sxs-lookup"><span data-stu-id="633c9-120">XML Developer Center</span></span>](http://go.microsoft.com/fwlink/?LinkId=61827)
   
 > <span data-ttu-id="633c9-121">Ce site Web contient des informations sur le développement de programmes et de services utilisant le XML.</span><span class="sxs-lookup"><span data-stu-id="633c9-121">This Web site contains information about developing programs and services that use XML.</span></span>
     

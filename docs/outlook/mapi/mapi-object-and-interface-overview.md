@@ -38,5 +38,5 @@ ms.locfileid: "19784641"
 [<span data-ttu-id="adfd6-123">IMAPIContainer : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="adfd6-123">IMAPIContainer : IMAPIProp</span></span>](imapicontainerimapiprop.md)
 
 
-[<span data-ttu-id="adfd6-124">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="adfd6-124">MAPI Concepts</span></span>](mapi-concepts.md)
+[<span data-ttu-id="adfd6-124">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="adfd6-124">MAPI Concepts</span></span>](mapi-concepts.md)
 

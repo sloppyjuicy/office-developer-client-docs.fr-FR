@@ -42,7 +42,7 @@ HRESULT DeleteMessage(
     
  <span data-ttu-id="c9074-109">_prcPosRect_</span><span class="sxs-lookup"><span data-stu-id="c9074-109">_prcPosRect_</span></span>
   
-> <span data-ttu-id="c9074-110">[in] Pointeur vers une structure [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) qui contient la taille de la fenêtre et la position du formulaire actif.</span><span class="sxs-lookup"><span data-stu-id="c9074-110">[in] A pointer to a [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position.</span></span> <span data-ttu-id="c9074-111">Le formulaire suivant utilise également ce rectangle de la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="c9074-111">The next form displayed also uses this window rectangle.</span></span> 
+> <span data-ttu-id="c9074-110">[in] Pointeur vers une structure [RECT](http://msdn.microsoft.com/fr-fr/library/dd162897%28VS.85%29.aspx) qui contient la taille de la fenêtre et la position du formulaire actif.</span><span class="sxs-lookup"><span data-stu-id="c9074-110">[in] A pointer to a [RECT](http://msdn.microsoft.com/fr-fr/library/dd162897%28VS.85%29.aspx) structure that contains the current form's window size and position.</span></span> <span data-ttu-id="c9074-111">Le formulaire suivant utilise également ce rectangle de la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="c9074-111">The next form displayed also uses this window rectangle.</span></span> 
     
 ## <a name="return-value"></a><span data-ttu-id="c9074-112">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="c9074-112">Return value</span></span>
 
@@ -76,7 +76,7 @@ HRESULT DeleteMessage(
     
 4. <span data-ttu-id="c9074-130">Il supprime ou déplace le message.</span><span class="sxs-lookup"><span data-stu-id="c9074-130">It deletes or moves the message.</span></span>
     
-<span data-ttu-id="c9074-131">Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="c9074-131">To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) function.</span></span> 
+<span data-ttu-id="c9074-131">Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction Windows [GetWindowRect](http://msdn.microsoft.com/fr-fr/library/ms633519) .</span><span class="sxs-lookup"><span data-stu-id="c9074-131">To obtain the **RECT** structure used by a form's window, call the Windows [GetWindowRect](http://msdn.microsoft.com/fr-fr/library/ms633519) function.</span></span> 
   
 <span data-ttu-id="c9074-132">Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="c9074-132">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   

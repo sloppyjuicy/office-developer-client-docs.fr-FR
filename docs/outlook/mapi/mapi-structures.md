@@ -79,5 +79,5 @@ ms.locfileid: "19784716"
 [<span data-ttu-id="cc34f-196">Fonctions MAPI, les rappels et les Macros</span><span class="sxs-lookup"><span data-stu-id="cc34f-196">MAPI Functions, Callbacks, and Macros</span></span>](mapi-functions-callbacks-and-macros.md)
 
 
-[<span data-ttu-id="cc34f-197">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="cc34f-197">MAPI Reference</span></span>](mapi-reference.md)
+[<span data-ttu-id="cc34f-197">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="cc34f-197">MAPI Reference</span></span>](mapi-reference.md)
 

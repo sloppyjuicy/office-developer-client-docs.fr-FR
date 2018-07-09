@@ -60,5 +60,5 @@ ms.locfileid: "19784712"
 
 
 
-[<span data-ttu-id="62b3c-142">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="62b3c-142">MAPI Concepts</span></span>](mapi-concepts.md)
+[<span data-ttu-id="62b3c-142">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="62b3c-142">MAPI Concepts</span></span>](mapi-concepts.md)
 

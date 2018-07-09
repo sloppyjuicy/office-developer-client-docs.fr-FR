@@ -140,7 +140,7 @@ ms.locfileid: "19782460"
     2. <span data-ttu-id="aad37-130">Entrez l'URL du site SharePoint sur lequel publier, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="aad37-130">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
         
        > [!IMPORTANT]
-       > <span data-ttu-id="aad37-131">[!IMPORTANTE] Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="aad37-131">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+       > <span data-ttu-id="aad37-131">Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="aad37-131">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
     
     3. <span data-ttu-id="aad37-132">Sélectionnez **Bibliothèque de formulaires**, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="aad37-132">Select **Form Library**, and then click **Next**.</span></span>
         
@@ -284,7 +284,7 @@ ms.locfileid: "19782460"
     2. <span data-ttu-id="aad37-178">Entrez l'URL du site SharePoint sur lequel publier, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="aad37-178">Enter the URL of the SharePoint site to publish to, and then click **Next**.</span></span> 
         
        > [!IMPORTANT]
-       > <span data-ttu-id="aad37-179">[!IMPORTANTE] Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="aad37-179">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
+       > <span data-ttu-id="aad37-179">Vous devez être administrateur de collection de sites sur ce site pour publier ce modèle de formulaire en tant que solution bac à sable.</span><span class="sxs-lookup"><span data-stu-id="aad37-179">You must be a site collection administrator on this site to publish this form template as a sandboxed solution.</span></span> 
     
     3. <span data-ttu-id="aad37-180">Sélectionnez **Bibliothèque de formulaires**, puis cliquez sur **Suivant**.</span><span class="sxs-lookup"><span data-stu-id="aad37-180">Select **Form Library**, and then click **Next**.</span></span>
         

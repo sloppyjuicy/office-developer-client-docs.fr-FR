@@ -27,10 +27,10 @@ ms.locfileid: "19783064"
     
 - [<span data-ttu-id="27be7-110">Mise en route avec la r�f�rence de MAPI pour Outlook 2013</span><span class="sxs-lookup"><span data-stu-id="27be7-110">Getting Started with the Outlook MAPI Reference</span></span>](getting-started-with-the-outlook-mapi-reference.md)
     
-- [<span data-ttu-id="27be7-111">Exemples MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="27be7-111">MAPI Samples</span></span>](mapi-samples.md)
+- [<span data-ttu-id="27be7-111">Exemples MAPI</span><span class="sxs-lookup"><span data-stu-id="27be7-111">MAPI Samples</span></span>](mapi-samples.md)
     
-- [<span data-ttu-id="27be7-112">Concepts MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="27be7-112">MAPI Concepts</span></span>](mapi-concepts.md)
+- [<span data-ttu-id="27be7-112">Concepts MAPI</span><span class="sxs-lookup"><span data-stu-id="27be7-112">MAPI Concepts</span></span>](mapi-concepts.md)
     
-- [<span data-ttu-id="27be7-113">R�f�rence MAPI (en anglais)</span><span class="sxs-lookup"><span data-stu-id="27be7-113">MAPI Reference</span></span>](mapi-reference.md)
+- [<span data-ttu-id="27be7-113">R�f�rence MAPI</span><span class="sxs-lookup"><span data-stu-id="27be7-113">MAPI Reference</span></span>](mapi-reference.md)
     
 

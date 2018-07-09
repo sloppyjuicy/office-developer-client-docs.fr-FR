@@ -103,7 +103,7 @@ ms.locfileid: "19783471"
   
 ## <a name="see-also"></a><span data-ttu-id="758e3-213">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="758e3-213">See also</span></span>
 
-- [<span data-ttu-id="758e3-214">Référence MAPI Outlook</span><span class="sxs-lookup"><span data-stu-id="758e3-214">Outlook MAPI Reference</span></span>](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)  
-- [<span data-ttu-id="758e3-215">Créer par programme un profil dans Outlook</span><span class="sxs-lookup"><span data-stu-id="758e3-215">Programmatically Create a Profile in Outlook</span></span>](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [<span data-ttu-id="758e3-214">Référence MAPI Outlook</span><span class="sxs-lookup"><span data-stu-id="758e3-214">Outlook MAPI Reference</span></span>](https://msdn.microsoft.com/fr-fr/library/office/cc765775.aspx)  
+- [<span data-ttu-id="758e3-215">Créer par programme un profil dans Outlook</span><span class="sxs-lookup"><span data-stu-id="758e3-215">Programmatically Create a Profile in Outlook</span></span>](https://msdn.microsoft.com/fr-fr/library/office/mt707568.aspx)
     
 

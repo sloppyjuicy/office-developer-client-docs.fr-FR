@@ -20,13 +20,13 @@ ms.locfileid: "19781779"
   
 - [<span data-ttu-id="f23e1-106">Référence VBA Access</span><span class="sxs-lookup"><span data-stu-id="f23e1-106">Access VBA reference</span></span>](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   
-- [<span data-ttu-id="f23e1-107">Access 2010</span><span class="sxs-lookup"><span data-stu-id="f23e1-107">Access 2010</span></span>](https://msdn.microsoft.com/en-us/library/office/ff604965%28v=office.14%29.aspx)
+- [<span data-ttu-id="f23e1-107">Access 2010</span><span class="sxs-lookup"><span data-stu-id="f23e1-107">Access 2010</span></span>](https://msdn.microsoft.com/fr-fr/library/office/ff604965%28v=office.14%29.aspx)
   
 ### <a name="office-add-ins"></a><span data-ttu-id="f23e1-108">Compléments Office</span><span class="sxs-lookup"><span data-stu-id="f23e1-108">Office Add-ins</span></span>
   
 - [<span data-ttu-id="f23e1-109">Prise en main</span><span class="sxs-lookup"><span data-stu-id="f23e1-109">Get started</span></span>](https://dev.office.com/getting-started/addins)
   
-- [<span data-ttu-id="f23e1-110">Présentation de la plateforme</span><span class="sxs-lookup"><span data-stu-id="f23e1-110">Platform overview</span></span>](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [<span data-ttu-id="f23e1-110">Présentation de la plateforme</span><span class="sxs-lookup"><span data-stu-id="f23e1-110">Platform overview</span></span>](https://msdn.microsoft.com/fr-fr/library/office/jj220082.aspx)
   
 ### <a name="other-resources"></a><span data-ttu-id="f23e1-111">Autres ressources</span><span class="sxs-lookup"><span data-stu-id="f23e1-111">Other resources</span></span>
   
@@ -36,7 +36,7 @@ ms.locfileid: "19781779"
   
 - [<span data-ttu-id="f23e1-114">Ouvrir le Kit de développement logiciel (SDK) XML</span><span class="sxs-lookup"><span data-stu-id="f23e1-114">Open XML SDK</span></span>](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
   
-- [<span data-ttu-id="f23e1-115">Compléments VSTO pour Office</span><span class="sxs-lookup"><span data-stu-id="f23e1-115">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
+- [<span data-ttu-id="f23e1-115">Compléments VSTO pour Office</span><span class="sxs-lookup"><span data-stu-id="f23e1-115">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/fr-fr/library/jj620922.aspx)
   
 ### <a name="support"></a><span data-ttu-id="f23e1-116">Prise en charge</span><span class="sxs-lookup"><span data-stu-id="f23e1-116">Support</span></span>
   
