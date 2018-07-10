@@ -20,7 +20,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
 > [!NOTE]
 > [!REMARQUE] Vous voulez développer des solutions qui étendent l'expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability) ? Découvrez le nouveau [modèle de compléments Excel](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/excel-add-ins-overview). 
   
-### <a name="viewed-most"></a>Afficher plus
+### <a name="viewed-most"></a>Articles les plus consultés
   
 - [Référence VBA Excel](https://msdn.microsoft.com/EN-US/library/ee861528.aspx)
   

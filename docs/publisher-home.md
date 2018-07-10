@@ -20,11 +20,11 @@ Trouvez des procédures, des articles techniques et des références pour le dé
 > [!NOTE]
 > [!REMARQUE] Vous voulez développer des solutions qui étendent l'expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
 
-### <a name="viewed-most"></a>Afficher plus
+### <a name="viewed-most"></a>Articles les plus consultés
 
-- [Référence VBA pour Publisher](https://msdn.microsoft.com/en-us/VBA/VBA-Publisher)
+- [Référence VBA Publisher](https://msdn.microsoft.com/en-us/VBA/VBA-Publisher)
 
-- [Publisher 2010](https://msdn.microsoft.com/en-us/library/office/ff604963(v=office.14).aspx)
+- [Publisher 2010](https://msdn.microsoft.com/en-us/library/office/ff604963(v=office.14).aspx)
 
 
 ### <a name="office-add-ins"></a>Compléments Office 

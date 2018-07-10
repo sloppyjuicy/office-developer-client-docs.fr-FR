@@ -20,11 +20,11 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
 > [!NOTE]
 > [!REMARQUE] Vous voulez développer des solutions qui étendent l'expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
-### <a name="viewed-most"></a>Afficher plus
+### <a name="viewed-most"></a>Articles les plus consultés
   
-- [Référence du projet VBA](https://msdn.microsoft.com/en-us/library/dn175495.aspx)
+- [Référence VBA Project](https://msdn.microsoft.com/en-us/library/dn175495.aspx)
   
-- [Project 2010](https://msdn.microsoft.com/EN-US/library/ee861523.aspx)
+- [Project 2010](https://msdn.microsoft.com/EN-US/library/ee861523.aspx)
   
 ### <a name="office-add-ins"></a>Compléments Office
   

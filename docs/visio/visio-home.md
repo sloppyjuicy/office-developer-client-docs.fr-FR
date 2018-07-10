@@ -21,7 +21,7 @@ Trouvez des procédures, exemple de code, documentation du Kit de développement
 > [!NOTE]
 > [!REMARQUE] Vous voulez développer des solutions qui étendent l'expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
-### <a name="viewed-most"></a>Afficher plus
+### <a name="viewed-most"></a>Articles les plus consultés
   
 - [Référence VBA Visio](http://msdn.microsoft.com/library/b6834d21-5898-4dd9-af2b-9ffeb1b92a1c%28Office.15%29.aspx)
   
@@ -29,11 +29,11 @@ Trouvez des procédures, exemple de code, documentation du Kit de développement
   
 - [Référence Visio Viewer](http://msdn.microsoft.com/library/6ee197eb-5d40-61a8-4ba4-8c13c9dc3a7e%28Office.15%29.aspx)
   
-- [Référence Visio ShapeSheet](visio-shapesheet-reference.md)
+- [Feuille ShapeSheet de référence Visio](visio-shapesheet-reference.md)
   
 - [Référence des formats de fichier Visio](visio-file-format-reference.md)
   
-- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
+- [Visio 2010](http://msdn.microsoft.com/library/4076d9a1-2c7f-499f-87c1-7ae515b7b1d2%28Office.15%29.aspx)
   
 ### <a name="downloads"></a>Téléchargements
   

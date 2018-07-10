@@ -16,7 +16,7 @@ ms.locfileid: "19781779"
 
 Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Access.
   
-### <a name="viewed-most"></a>Afficher plus
+### <a name="viewed-most"></a>Les plus consultés
   
 - [Référence VBA Access](http://msdn.microsoft.com/library/0e9c6fa4-3289-4a13-b409-354c70129308%28Office.15%29.aspx)
   
@@ -38,7 +38,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
   
 - [Compléments VSTO pour Office](https://msdn.microsoft.com/en-us/library/jj620922.aspx)
   
-### <a name="support"></a>Prise en charge
+### <a name="support"></a>Support
   
 - [Centre de développement Office](http://dev.office.com)
   
