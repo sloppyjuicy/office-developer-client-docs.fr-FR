@@ -19,7 +19,7 @@ ms.locfileid: "19781828"
 <span data-ttu-id="6f089-104">Renvoie le plus grand entier inférieur ou égal à l’expression numérique spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6f089-104">Returns the largest integer less than or equal to the specified numeric expression.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="6f089-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="6f089-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="6f089-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="6f089-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="syntax"></a><span data-ttu-id="6f089-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6f089-107">Syntax</span></span>
 

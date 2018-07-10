@@ -18,7 +18,7 @@ ms.locfileid: "19781801"
 ## <a name="in-this-section"></a><span data-ttu-id="454be-103">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="454be-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="454be-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="454be-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="454be-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="454be-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 - [<span data-ttu-id="454be-106">ABS, fonction (accès personnalisé web app)</span><span class="sxs-lookup"><span data-stu-id="454be-106">Abs Function (Access custom web app)</span></span>](abs-function-access-custom-web-app.md)
     

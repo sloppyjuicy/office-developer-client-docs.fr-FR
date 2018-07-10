@@ -16,7 +16,7 @@ ms.locfileid: "19781843"
 # <a name="data-blocks-access-custom-web-app"></a><span data-ttu-id="dc281-102">Blocs de données (accès personnalisé web app)</span><span class="sxs-lookup"><span data-stu-id="dc281-102">Data blocks (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="dc281-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="dc281-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="dc281-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="dc281-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
 ## <a name="in-this-section"></a><span data-ttu-id="dc281-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="dc281-105">In this section</span></span>
 
