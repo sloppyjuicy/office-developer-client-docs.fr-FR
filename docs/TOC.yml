@@ -19,7 +19,7 @@
     - name: Office Online Server
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office pour Mac
-      href: 'https://msdn.microsoft.com/en-us/library/office/mt654019.aspx'
+      href: 'https://msdn.microsoft.com/fr-fr/library/office/mt654019.aspx'
     - name: Office partagé
       href: shared/office-shared.md
       items:
@@ -37,20 +37,20 @@
             - name: Problèmes de compatibilité dans Office
               href: shared/compatibility-issues-in-office.md
         - name: Référence de la bibliothèque d’objets VBA Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
+          href: 'https://msdn.microsoft.com/fr-fr/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
         - name: Référence de langage VBA pour Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference'
+          href: 'https://msdn.microsoft.com/fr-fr/VBA/VBA-Language-Reference'
         - name: Référence d’Assembly PIA Office
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597925.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff597925.aspx'
         - name: "Kit de développement logiciel (SDK) Open XML\_2.5"
-          href: 'https://msdn.microsoft.com/en-us/library/office/bb448854.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/bb448854.aspx'
         - name: Utilisation de CSISyncClient pour contrôler le ODC
           href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
     - name: Access
       href: access/access-home.md
       items:
         - name: Référence VBA Access
-          href: 'https://msdn.microsoft.com/en-us/library/mt346046.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/mt346046.aspx'
         - name: Référence de l'application web personnalisée Access
           href: access/access-custom-web-app-reference.md
           items:
@@ -344,14 +344,14 @@
                     - name: OpenPopup
                       href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Référence de base de données de bureau Access
-          href: 'https://msdn.microsoft.com/en-us/library/dn142571.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/dn142571.aspx'
     - name: Excel
       href: excel/excel-home.md
       items:
         - name: Référence VBA Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861528.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861528.aspx'
         - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Excel"
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597926.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff597926.aspx'
         - name: "Kit de développement logiciel (SDK) Excel\_XLL"
           href: excel/welcome-to-the-excel-software-development-kit.md
           items:
@@ -599,7 +599,7 @@
                     - name: ShowOptions
                       href: excel/showoptions.md
         - name: Conseils pour éliminer les obstacles aux performances
-          href: 'https://msdn.microsoft.com/en-us/library/office/mt709003.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/mt709003.aspx'
     - name: InfoPath
       href: infopath/infopath-home.md
       items:
@@ -784,7 +784,7 @@
                     - name: Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003 lors de la conception
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
             - name: Référence de bibliothèque de classes pour les modèles de formulaires InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee526341.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/ee526341.aspx'
         - name: Référence du développeur InfoPath pour l’automatisation externe
           href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
           items:
@@ -805,7 +805,7 @@
                 - name: Automatisation d’InfoPath à partir d’une Application externe
                   href: infopath/external-automation/automating-infopath-from-an-external-application.md
             - name: Référence de bibliothèque de classes pour l’automatisation externe InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ff663147.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/ff663147.aspx'
     - name: OneNote
       href: onenote/onenote-home.md
       items:
@@ -828,9 +828,9 @@
         - name: Sélection d'une API ou d'une technologie pour développer des solutions pour Outlook
           href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
         - name: Référence VBA Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861520.aspx'
         - name: Référence d’Assembly PIA Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/bb652780.aspx'
         - name: Référence du fournisseur Outlook Social Connector
           href: outlook/social-connector/outlook-social-connector-provider-reference.md
           items:
@@ -6203,12 +6203,12 @@
       href: powerpoint-home.md
       items:
         - name: "Référence\_VBA PowerPoint"
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861525.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861525.aspx'
     - name: Project
       href: project/project-home.md
       items:
         - name: Référence VBA Project
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861523.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861523.aspx'
         - name: Documentation du développeur
           href: project/project-2013-developer-documentation.md
           items:
@@ -6273,25 +6273,25 @@
                     - name: "Codes d’erreur de Project\_Server"
                       href: project/project-server-error-codes.md
                     - name: ProjectData - OData service reference
-                      href: 'https://msdn.microsoft.com/en-us/library/office/jj163015.aspx'
+                      href: 'https://msdn.microsoft.com/fr-fr/library/office/jj163015.aspx'
             - name: Référence de service web et de bibliothèque de classes
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee767707.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/ee767707.aspx'
             - name: Référence d’API JavaScript
-              href: 'https://msdn.microsoft.com/en-us/library/office/jj712612.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/jj712612.aspx'
     - name: Maison d'édition
       href: publisher-home.md
       items:
         - name: Référence VBA Publisher
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861522.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861522.aspx'
     - name: Visio
       href: visio/visio-home.md
       items:
         - name: Référence VBA Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861526.aspx'
         - name: Enregistrement de Visio en tant que référence Web
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff767184.aspx'
         - name: Référence de la visionneuse Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff766866.aspx'
         - name: Feuille ShapeSheet de référence Visio
           href: visio/visio-shapesheet-reference.md
           items:
@@ -8433,9 +8433,9 @@
         - name: Contrôles de contenu dans Word
           href: word/content-controls-in-word.md
         - name: Référence VBA Word
-          href: 'https://msdn.microsoft.com/en-us/library/ee861527.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/ee861527.aspx'
         - name: Référence de l’Assembly PIA Word
-          href: 'https://msdn.microsoft.com/en-us/library/ff597928.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/ff597928.aspx'
     - name: Modèle URI de balancement
       href: swayuri.md
     - name: Modèles d’URI Office
