@@ -19,15 +19,15 @@
     - name: Office Online Server
       href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
     - name: Office pour Mac
-      href: 'https://msdn.microsoft.com/en-us/library/office/mt654019.aspx'
+      href: 'https://msdn.microsoft.com/fr-fr/library/office/mt654019.aspx'
     - name: Office partagé
       href: shared/office-shared.md
       items:
-        - name: "Compatibilité entre les versions 32\_bits et 64\_bits d’Office"
+        - name: "Compatibilité entre les versions 32 bits et 64 bits d’Office"
           href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
         - name: Intégration des applications de messagerie instantanée à Office
           href: shared/integrating-im-applications-with-office.md
-        - name: "Applications facilitant la gestion et programme d’installation en un clic d’Office\_365"
+        - name: "Applications facilitant la gestion et programme d’installation en un clic d’Office 365"
           href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
         - name: Journal de télémétrie Office
           href: shared/office-telemetry-log.md
@@ -37,20 +37,20 @@
             - name: Problèmes de compatibilité dans Office
               href: shared/compatibility-issues-in-office.md
         - name: Référence de la bibliothèque d’objets VBA Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
+          href: 'https://msdn.microsoft.com/fr-fr/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference'
         - name: Référence de langage VBA pour Office
-          href: 'https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference'
-        - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Office"
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597925.aspx'
-        - name: "Kit de développement logiciel (SDK) Open XML\_2.5"
-          href: 'https://msdn.microsoft.com/en-us/library/office/bb448854.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/VBA/VBA-Language-Reference'
+        - name: "Référence de l’assembly PIA (Primary Interop Assembly) Office"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff597925.aspx'
+        - name: "Kit de développement logiciel (SDK) Open XML 2.5"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/bb448854.aspx'
         - name: Utilisation de CSISyncClient pour contrôler l’ODC
           href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
     - name: Access
       href: access/access-home.md
       items:
         - name: Référence VBA Access
-          href: 'https://msdn.microsoft.com/en-us/library/mt346046.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/mt346046.aspx'
         - name: Référence de l’application web personnalisée Access
           href: access/access-custom-web-app-reference.md
           items:
@@ -344,23 +344,23 @@
                     - name: OpenPopup
                       href: access/openpopup-macro-action-access-custom-web-app.md
         - name: Référence de base de données de bureau Access
-          href: 'https://msdn.microsoft.com/en-us/library/dn142571.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/dn142571.aspx'
     - name: Excel
       href: excel/excel-home.md
       items:
         - name: Référence VBA Excel
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861528.aspx'
-        - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Excel"
-          href: 'https://msdn.microsoft.com/en-us/library/office/ff597926.aspx'
-        - name: "Kit de développement logiciel (SDK) Excel\_XLL"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861528.aspx'
+        - name: "Référence de l’assembly PIA (Primary Interop Assembly) Excel"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff597926.aspx'
+        - name: "Kit de développement logiciel (SDK) Excel XLL"
           href: excel/welcome-to-the-excel-software-development-kit.md
           items:
             - name: Mise en route
               href: excel/getting-started-with-the-excel-xll-sdk.md
               items:
-                - name: "Programmation avec l’API\_C dans Excel"
+                - name: "Programmation avec l’API C dans Excel"
                   href: excel/programming-with-the-c-api-in-excel.md
-                - name: "Nouveautés dans l’API\_C pour Excel"
+                - name: "Nouveautés dans l’API C pour Excel"
                   href: excel/what-s-new-in-the-c-api-for-excel.md
                 - name: Problèmes connus
                   href: excel/known-issues-in-excel-xll-development.md
@@ -444,14 +444,14 @@
                       href: excel/xlautoregister-xlautoregister12.md
                     - name: xlAutoRemove
                       href: excel/xlautoremove.md
-                - name: "Fonctions de rappel de l’API\_C Excel4, Excel12"
+                - name: "Fonctions de rappel de l’API C Excel4, Excel12"
                   href: excel/c-api-callback-functions-excel4-excel12.md
                   items:
                     - name: Excel4/Excel12
                       href: excel/excel4-excel12.md
                     - name: Excel4v/Excel12v
                       href: excel/excel4v-excel12v.md
-                - name: "Fonctions XLM d’API\_C utiles et essentielles"
+                - name: "Fonctions XLM d’API C utiles et essentielles"
                   href: excel/essential-and-useful-c-api-xlm-functions.md
                   items:
                     - name: xlfCaller
@@ -462,19 +462,19 @@
                       href: excel/xlfgetdef.md
                     - name: xlfGetName
                       href: excel/xlfgetname.md
-                    - name: "xlfRegister (formulaire\_1)"
+                    - name: "xlfRegister (formulaire 1)"
                       href: excel/xlfregister-form-1.md
-                    - name: "xlfRegister (formulaire\_2)"
+                    - name: "xlfRegister (formulaire 2)"
                       href: excel/xlfregister-form-2.md
                     - name: xlfRegisterId
                       href: excel/xlfregisterid.md
-                    - name: "xlfUnregister (formulaire\_1)"
+                    - name: "xlfUnregister (formulaire 1)"
                       href: excel/xlfunregister-form-1.md
-                    - name: "xlfUnregister (formulaire\_2)"
+                    - name: "xlfUnregister (formulaire 2)"
                       href: excel/xlfunregister-form-2.md
                     - name: xlfSetName
                       href: excel/xlfsetname.md
-                - name: "Fonctions d’API\_C qui peuvent être appelées uniquement à partir d’un fichier DLL ou XLL"
+                - name: "Fonctions d’API C qui peuvent être appelées uniquement à partir d’un fichier DLL ou XLL"
                   href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
                   items:
                     - name: xlAbort
@@ -599,7 +599,7 @@
                     - name: ShowOptions
                       href: excel/showoptions.md
         - name: Conseils pour supprimer les limites de performance
-          href: 'https://msdn.microsoft.com/en-us/library/office/mt709003.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/mt709003.aspx'
     - name: InfoPath
       href: infopath/infopath-home.md
       items:
@@ -616,7 +616,7 @@
                       href: infopath/form-templates/what-s-new-for-infopath-developers.md
                     - name: Présentation des modèles objet InfoPath et de l’environnement de développement
                       href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
-                    - name: "Développement avec Visual\_Studio"
+                    - name: "Développement avec Visual Studio"
                       href: infopath/form-templates/how-to-develop-with-visual-studio.md
                     - name: Installation de l’aide locale de .NET Framework pour Visual Studio Tools for Applications
                       href: infopath/form-templates/how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md
@@ -626,7 +626,7 @@
                       href: infopath/form-templates/how-to-preview-and-debug-infopath-form-templates-with-code.md
                     - name: Afficher un aperçu et déboguer des modèles de formulaires qui nécessitent une autorisation totale
                       href: infopath/form-templates/how-to-preview-and-debug-form-templates-that-require-full-trust.md
-                    - name: "Procédure\_: Création d’un modèle de formulaire de base avec code"
+                    - name: "Procédure : Création d’un modèle de formulaire de base avec code"
                       href: infopath/form-templates/walkthrough-creating-a-basic-form-template-with-code.md
                     - name: Enregistrer des valeurs dans un champ pour débogage
                       href: infopath/form-templates/how-to-log-values-to-a-field-for-debugging.md
@@ -718,73 +718,73 @@
                       href: infopath/form-templates/rich-text-and-web-services.md
                     - name: 'InfoPath, codage RPC et services web'
                       href: infopath/form-templates/infopath-rpc-encoding-and-web-services.md
-                    - name: "Intégrer un formulaire InfoPath avec une base de données Microsoft\_Access"
+                    - name: "Intégrer un formulaire InfoPath avec une base de données Microsoft Access"
                       href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
                     - name: Créer un contrôle ActiveX pouvant lier des données de formulaire InfoPath
                       href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
                     - name: Activer la fusion personnalisée de formulaires InfoPath
                       href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
-            - name: "Développement de modèles de formulaires à l’aide du modèle objet InfoPath\_2003"
+            - name: "Développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003"
               href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
               items:
-                - name: "Préparation en vue du développement de modèles de formulaires utilisant le modèle objet InfoPath\_2003"
+                - name: "Préparation en vue du développement de modèles de formulaires utilisant le modèle objet InfoPath 2003"
                   href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
                   items:
-                    - name: "Créer un modèle de formulaire à l’aide du modèle objet InfoPath\_2003"
+                    - name: "Créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-                    - name: "Procédure pas à pas\_: Création et débogage d’un modèle de formulaire basique à l’aide du modèle objet InfoPath\_2003"
+                    - name: "Procédure pas à pas : Création et débogage d’un modèle de formulaire basique à l’aide du modèle objet InfoPath 2003"
                       href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-                    - name: "Tâches courantes pour le développement de modèles de formulaires à l’aide du modèle objet InfoPath\_2003"
+                    - name: "Tâches courantes pour le développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003"
                       href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
-                    - name: "Utilisation des membres Microsoft.Office.Interop.InfoPath.SemiTrust qui ne sont pas compatibles avec InfoPath\_2003"
+                    - name: "Utilisation des membres Microsoft.Office.Interop.InfoPath.SemiTrust qui ne sont pas compatibles avec InfoPath 2003"
                       href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
-                - name: "Création de modèles de formulaires à l’aide du modèle objet InfoPath\_2003"
+                - name: "Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003"
                   href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
                   items:
-                    - name: "Code d’initialisation et de nettoyage utilisant le modèle objet InfoPath\_2003"
+                    - name: "Code d’initialisation et de nettoyage utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-                    - name: "Débogage de projets InfoPath en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Débogage de projets InfoPath en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: "Ajout d’un gestionnaire d’événements en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Ajout d’un gestionnaire d’événements en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-                    - name: "Prise en charge du threading dans les projets InfoPath utilisant le modèle objet InfoPath\_2003"
+                    - name: "Prise en charge du threading dans les projets InfoPath utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-                    - name: "Utilisation de MSXML et de System.Xml à l’aide du modèle objet InfoPath\_2003"
+                    - name: "Utilisation de MSXML et de System.Xml à l’aide du modèle objet InfoPath 2003"
                       href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
-                - name: "Présentation du modèle objet InfoPath\_2003"
+                - name: "Présentation du modèle objet InfoPath 2003"
                   href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
                   items:
-                    - name: "Modèles objet compatibles avec InfoPath\_2003"
+                    - name: "Modèles objet compatibles avec InfoPath 2003"
                       href: infopath/form-templates/infopath-2003-compatible-object-models.md
-                    - name: "Accès aux données d’application en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Accès aux données d’application en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-                    - name: "Accès à des sources de données externes en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Accès à des sources de données externes en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-                    - name: "Accès aux données de formulaire en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Accès aux données de formulaire en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-                    - name: "Affichage des alertes et des boîtes de dialogue en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Affichage des alertes et des boîtes de dialogue en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-                    - name: "Gestion des erreurs en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Gestion des erreurs en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-                    - name: "Réponse aux événements de formulaire en utilisant le modèle objet InfoPath\_2003"
+                    - name: "Réponse aux événements de formulaire en utilisant le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-                    - name: "Utilisation des fenêtres de formulaire avec le modèle objet InfoPath\_2003"
+                    - name: "Utilisation des fenêtres de formulaire avec le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-                    - name: "Utilisation des vues à l’aide du modèle objet InfoPath\_2003"
+                    - name: "Utilisation des vues à l’aide du modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-                    - name: "Utilisation de signatures numériques avec le modèle objet InfoPath\_2003"
+                    - name: "Utilisation de signatures numériques avec le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-                    - name: "Utilisation des solutions hors ligne avec le modèle objet InfoPath\_2003"
+                    - name: "Utilisation des solutions hors ligne avec le modèle objet InfoPath 2003"
                       href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
-                - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath\_2003"
+                - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003"
                   href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
                   items:
-                    - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath\_2003 au moment de l’exécution"
+                    - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003 au moment de l’exécution"
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-                    - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath\_2003 au moment de la conception"
+                    - name: "Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003 au moment de la conception"
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
             - name: Référence de bibliothèque de classes de modèles de formulaires InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ee526341.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/ee526341.aspx'
         - name: Référence du développeur InfoPath pour l’automatisation externe
           href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
           items:
@@ -796,7 +796,7 @@
             - name: Automatisation d’InfoPath à partir d’autres applications
               href: infopath/external-automation/automating-infopath-from-other-applications.md
               items:
-                - name: "À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft\_Office"
+                - name: "À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office"
                   href: infopath/external-automation/about-the-microsoft-office-infopath-primary-interop-assembly.md
                 - name: À propos de l’assembly d’interopérabilité XML InfoPath
                   href: infopath/external-automation/about-the-infopath-xml-interop-assembly.md
@@ -805,7 +805,7 @@
                 - name: Automatisation d’InfoPath à partir d’une application externe
                   href: infopath/external-automation/automating-infopath-from-an-external-application.md
             - name: Informations de référence sur la bibliothèque de classes pour l’automatisation externe d’InfoPath
-              href: 'https://msdn.microsoft.com/en-us/library/office/ff663147.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/ff663147.aspx'
     - name: OneNote
       href: onenote/onenote-home.md
       items:
@@ -828,10 +828,10 @@
         - name: Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
           href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
         - name: Référence VBA Outlook
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx'
-        - name: "Référence de l’assembly\_PIA (Primary\_Interop\_Assembly)\_Outlook"
-          href: 'https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx'
-        - name: "Référence du fournisseur Outlook\_Social\_Connector"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861520.aspx'
+        - name: "Référence de l’assembly PIA (Primary Interop Assembly) Outlook"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/bb652780.aspx'
+        - name: "Référence du fournisseur Outlook Social Connector"
           href: outlook/social-connector/outlook-social-connector-provider-reference.md
           items:
             - name: Prise en main
@@ -839,7 +839,7 @@
               items:
                 - name: Nouveautés pour les fournisseurs
                   href: outlook/social-connector/what-s-new-for-providers.md
-                - name: "Pourquoi développer un fournisseur de services Outlook Social Connector\_?"
+                - name: "Pourquoi développer un fournisseur de services Outlook Social Connector ?"
                   href: outlook/social-connector/why-develop-an-outlook-social-connector-provider.md
                 - name: Lien de l’OSC avec Outlook et les réseaux sociaux
                   href: outlook/social-connector/relating-the-osc-with-outlook-and-social-networks.md
@@ -929,7 +929,7 @@
                 - name: Interfaces
                   href: outlook/social-connector/outlook-social-connector-provider-interfaces.md
                   items:
-                    - name: "ISocialPerson\_: IUnknown"
+                    - name: "ISocialPerson : IUnknown"
                       href: outlook/social-connector/isocialpersoniunknown.md
                       items:
                         - name: 'ISocialPerson::GetActivities'
@@ -944,7 +944,7 @@
                           href: outlook/social-connector/isocialperson-getpicture.md
                         - name: 'ISocialPerson::GetStatus'
                           href: outlook/social-connector/isocialperson-getstatus.md
-                    - name: "ISocialProfile\_: ISocialPerson"
+                    - name: "ISocialProfile : ISocialPerson"
                       href: outlook/social-connector/isocialprofileisocialperson.md
                       items:
                         - name: 'ISocialProfile::AreFriendsOrColleagues'
@@ -953,7 +953,7 @@
                           href: outlook/social-connector/isocialprofile-getactivitiesoffriendsandcolleagues.md
                         - name: 'ISocialProfile::SetStatus'
                           href: outlook/social-connector/isocialprofile-setstatus.md
-                    - name: "ISocialProvider\_: IUnknown"
+                    - name: "ISocialProvider : IUnknown"
                       href: outlook/social-connector/isocialprovideriunknown.md
                       items:
                         - name: 'ISocialProvider::DefaultSiteUrls'
@@ -976,7 +976,7 @@
                           href: outlook/social-connector/isocialprovider-socialnetworkname.md
                         - name: 'ISocialProvider::Version'
                           href: outlook/social-connector/isocialprovider-version.md
-                    - name: "ISocialSession\_: IUnknown"
+                    - name: "ISocialSession : IUnknown"
                       href: outlook/social-connector/isocialsessioniunknown.md
                       items:
                         - name: 'ISocialSession::FindPerson'
@@ -1005,7 +1005,7 @@
                           href: outlook/social-connector/isocialsession-siteurl.md
                         - name: 'ISocialSession::UnFollowPerson'
                           href: outlook/social-connector/isocialsession-unfollowperson.md
-                    - name: "ISocialSession2\_: IUnknown"
+                    - name: "ISocialSession2 : IUnknown"
                       href: outlook/social-connector/isocialsession2iunknown.md
                       items:
                         - name: 'ISocialSession2::FollowPersonEx'
@@ -1620,7 +1620,7 @@
                         - name: Problèmes d’environnement d’exploitation
                           href: outlook/mapi/operating-environment-issues.md
                           items:
-                            - name: "Création d’applications MAPI sur les plateformes 32\_bits et 64\_bits"
+                            - name: "Création d’applications MAPI sur les plateformes 32 bits et 64 bits"
                               href: outlook/mapi/building-mapi-applications-on-32-bit-and-64-bit-platforms.md
                             - name: Appel de MAPI à partir de services Windows
                               href: outlook/mapi/calling-mapi-from-windows-services.md
@@ -1628,7 +1628,7 @@
                           href: outlook/mapi/how-to-access-store-on-remote-server-in-cached-exchange-mode.md
                         - name: Créer un profil Outlook en utilisant MFCMAPI
                           href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
-                        - name: "Détecter la version d’Exchange\_Server dans un profil Outlook"
+                        - name: "Détecter la version d’Exchange Server dans un profil Outlook"
                           href: outlook/mapi/how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md
                         - name: Déterminer si Outlook a téléchargé uniquement l’en-tête d’un message
                           href: outlook/mapi/how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md
@@ -2189,11 +2189,11 @@
                           href: outlook/mapi/delegate-access.md
                         - name: Envoi de messages avec TNEF
                           href: outlook/mapi/sending-messages-with-tnef.md
-                        - name: "Envoi de messages\_: tâches de spouleur MAPI"
+                        - name: "Envoi de messages : tâches de spouleur MAPI"
                           href: outlook/mapi/sending-messages-mapi-spooler-tasks.md
-                        - name: "Envoi de messages\_: tâches de fournisseur de banque de messages"
+                        - name: "Envoi de messages : tâches de fournisseur de banque de messages"
                           href: outlook/mapi/sending-messages-message-store-provider-tasks.md
-                        - name: "Envoi de messages\_: tâche de fournisseur de transport"
+                        - name: "Envoi de messages : tâche de fournisseur de transport"
                           href: outlook/mapi/sending-messages-transport-provider-tasks.md
                     - name: Envoi sur des domaines de messagerie
                       href: outlook/mapi/sending-across-messaging-domains.md
@@ -2236,15 +2236,15 @@
                       items:
                         - name: Synchronisation du texte et de la mise en forme
                           href: outlook/mapi/synchronizing-text-and-formatting.md
-                        - name: "Prise en charge du texte mis en forme dans les messages sortants\_: responsabilités du client"
+                        - name: "Prise en charge du texte mis en forme dans les messages sortants : responsabilités du client"
                           href: outlook/mapi/supporting-formatted-text-in-outgoing-messages-client-responsibilities.md
-                        - name: "Prise en charge du texte mis en forme dans les messages entrants\_: responsabilités du client"
+                        - name: "Prise en charge du texte mis en forme dans les messages entrants : responsabilités du client"
                           href: outlook/mapi/supporting-formatted-text-in-incoming-messages-client-responsibilities.md
-                        - name: "Prise en charge du texte mis en forme\_: responsabilités de la banque de messages"
+                        - name: "Prise en charge du texte mis en forme : responsabilités de la banque de messages"
                           href: outlook/mapi/supporting-formatted-text-message-store-responsibilities.md
-                        - name: "Prise en charge du texte mis en forme\_: rendu des pièces jointes"
+                        - name: "Prise en charge du texte mis en forme : rendu des pièces jointes"
                           href: outlook/mapi/supporting-formatted-text-rendering-attachments.md
-                        - name: "Prise en charge du texte mis en forme\_: responsabilités de passerelle"
+                        - name: "Prise en charge du texte mis en forme : responsabilités de passerelle"
                           href: outlook/mapi/supporting-formatted-text-gateway-responsibilities.md
                     - name: Moteur inactif
                       href: outlook/mapi/mapi-idle-engine.md
@@ -2679,7 +2679,7 @@
                 - name: Interfaces
                   href: outlook/mapi/mapi-interfaces.md
                   items:
-                    - name: "IABContainer\_: IMAPIContainer"
+                    - name: "IABContainer : IMAPIContainer"
                       href: outlook/mapi/iabcontainerimapicontainer.md
                       items:
                         - name: 'IABContainer::CopyEntries'
@@ -2690,7 +2690,7 @@
                           href: outlook/mapi/iabcontainer-deleteentries.md
                         - name: 'IABContainer::ResolveNames'
                           href: outlook/mapi/iabcontainer-resolvenames.md
-                    - name: "IABLogon\_: IUnknown"
+                    - name: "IABLogon : IUnknown"
                       href: outlook/mapi/iablogoniunknown.md
                       items:
                         - name: 'IABLogon::Advise'
@@ -2713,14 +2713,14 @@
                           href: outlook/mapi/iablogon-preparerecips.md
                         - name: 'IABLogon::Unadvise'
                           href: outlook/mapi/iablogon-unadvise.md
-                    - name: "IABProvider\_: IUnknown"
+                    - name: "IABProvider : IUnknown"
                       href: outlook/mapi/iabprovideriunknown.md
                       items:
                         - name: 'IABProvider::Logon'
                           href: outlook/mapi/iabprovider-logon.md
                         - name: 'IABProvider::Shutdown'
                           href: outlook/mapi/iabprovider-shutdown.md
-                    - name: "IAddrBook\_: IMAPIProp"
+                    - name: "IAddrBook : IMAPIProp"
                       href: outlook/mapi/iaddrbookimapiprop.md
                       items:
                         - name: 'IAddrBook::Address'
@@ -2755,19 +2755,19 @@
                           href: outlook/mapi/iaddrbook-setsearchpath.md
                         - name: 'IAddrBook::Unadvise'
                           href: outlook/mapi/iaddrbook-unadvise.md
-                    - name: "IAttach\_: IMAPIProp"
+                    - name: "IAttach : IMAPIProp"
                       href: outlook/mapi/iattachimapiprop.md
-                    - name: "IAttachmentSecurity\_: IUnknown"
+                    - name: "IAttachmentSecurity : IUnknown"
                       href: outlook/mapi/iattachmentsecurityiunknown.md
                       items:
                         - name: 'IAttachmentSecurity::IsAttachmentBlocked'
                           href: outlook/mapi/iattachmentsecurity-isattachmentblocked.md
-                    - name: "IContabAdmin\_: IUnknown"
+                    - name: "IContabAdmin : IUnknown"
                       href: outlook/mapi/icontabadminiunknown.md
                       items:
                         - name: 'IContabAdmin::RemoveStore'
                           href: outlook/mapi/icontabadmin-removestore.md
-                    - name: "IConverterSession\_: IUnknown"
+                    - name: "IConverterSession : IUnknown"
                       href: outlook/mapi/iconvertersessioniunknown.md
                       items:
                         - name: 'IConverterSession::MAPIToMIMEStm'
@@ -2784,9 +2784,9 @@
                           href: outlook/mapi/iconvertersession-setsaveformat.md
                         - name: 'IConverterSession::SetTextWrapping'
                           href: outlook/mapi/iconvertersession-settextwrapping.md
-                    - name: "IDistList\_: IMAPIContainer"
+                    - name: "IDistList : IMAPIContainer"
                       href: outlook/mapi/idistlistimapicontainer.md
-                    - name: "IExchangeModifyTable\_: IUnknown"
+                    - name: "IExchangeModifyTable : IUnknown"
                       href: outlook/mapi/iexchangemodifytableiunknown.md
                       items:
                         - name: 'IExchangeModifyTable::GetLastError'
@@ -2795,19 +2795,19 @@
                           href: outlook/mapi/iexchangemodifytable-gettable.md
                         - name: 'IExchangeModifyTable::ModifyTable'
                           href: outlook/mapi/iexchangemodifytable-modifytable.md
-                    - name: "IFolderSupport\_: IUnknown"
+                    - name: "IFolderSupport : IUnknown"
                       href: outlook/mapi/ifoldersupportiunknown.md
                       items:
                         - name: 'IFolderSupport::GetSupportMask'
                           href: outlook/mapi/ifoldersupport-getsupportmask.md
-                    - name: "IMailUser\_: IMAPIProp"
+                    - name: "IMailUser : IMAPIProp"
                       href: outlook/mapi/imailuserimapiprop.md
-                    - name: "IMAPIAdviseSink\_: IUnknown"
+                    - name: "IMAPIAdviseSink : IUnknown"
                       href: outlook/mapi/imapiadvisesinkiunknown.md
                       items:
                         - name: 'IMAPIAdviseSink::OnNotify'
                           href: outlook/mapi/imapiadvisesink-onnotify.md
-                    - name: "IMAPIClientShutdown\_: IUnknown"
+                    - name: "IMAPIClientShutdown : IUnknown"
                       href: outlook/mapi/imapiclientshutdowniunknown.md
                       items:
                         - name: 'IMAPIClientShutdown::DoFastShutdown'
@@ -2816,7 +2816,7 @@
                           href: outlook/mapi/imapiclientshutdown-notifyprocessshutdown.md
                         - name: 'IMAPIClientShutdown::QueryFastShutdown'
                           href: outlook/mapi/imapiclientshutdown-queryfastshutdown.md
-                    - name: "IMAPIContainer\_: IMAPIProp"
+                    - name: "IMAPIContainer : IMAPIProp"
                       href: outlook/mapi/imapicontainerimapiprop.md
                       items:
                         - name: 'IMAPIContainer::GetContentsTable'
@@ -2829,7 +2829,7 @@
                           href: outlook/mapi/imapicontainer-openentry.md
                         - name: 'IMAPIContainer::SetSearchCriteria'
                           href: outlook/mapi/imapicontainer-setsearchcriteria.md
-                    - name: "IMAPIControl\_: IUnknown"
+                    - name: "IMAPIControl : IUnknown"
                       href: outlook/mapi/imapicontroliunknown.md
                       items:
                         - name: 'IMAPIControl::Activate'
@@ -2838,7 +2838,7 @@
                           href: outlook/mapi/imapicontrol-getlasterror.md
                         - name: 'IMAPIControl::GetState'
                           href: outlook/mapi/imapicontrol-getstate.md
-                    - name: "IMAPIFolder\_: IMAPIContainer"
+                    - name: "IMAPIFolder : IMAPIContainer"
                       href: outlook/mapi/imapifolderimapicontainer.md
                       items:
                         - name: 'IMAPIFolder::CopyFolder'
@@ -2863,7 +2863,7 @@
                           href: outlook/mapi/imapifolder-setmessagestatus.md
                         - name: 'IMAPIFolder::SetReadFlags'
                           href: outlook/mapi/imapifolder-setreadflags.md
-                    - name: "IMAPIForm\_: IUnknown"
+                    - name: "IMAPIForm : IUnknown"
                       href: outlook/mapi/imapiformiunknown.md
                       items:
                         - name: 'IMAPIForm::Advise'
@@ -2880,14 +2880,14 @@
                           href: outlook/mapi/imapiform-shutdownform.md
                         - name: 'IMAPIForm::Unadvise'
                           href: outlook/mapi/imapiform-unadvise.md
-                    - name: "IMAPIFormAdviseSink\_: IUnknown"
+                    - name: "IMAPIFormAdviseSink : IUnknown"
                       href: outlook/mapi/imapiformadvisesinkiunknown.md
                       items:
                         - name: 'IMAPIFormAdviseSink::OnActivateNext'
                           href: outlook/mapi/imapiformadvisesink-onactivatenext.md
                         - name: 'IMAPIFormAdviseSink::OnChange'
                           href: outlook/mapi/imapiformadvisesink-onchange.md
-                    - name: "IMAPIFormContainer\_: IUnknown"
+                    - name: "IMAPIFormContainer : IUnknown"
                       href: outlook/mapi/imapiformcontaineriunknown.md
                       items:
                         - name: 'IMAPIFormContainer::CalcFormPropSet'
@@ -2904,7 +2904,7 @@
                           href: outlook/mapi/imapiformcontainer-resolvemessageclass.md
                         - name: 'IMAPIFormContainer::ResolveMultipleMessageClasses'
                           href: outlook/mapi/imapiformcontainer-resolvemultiplemessageclasses.md
-                    - name: "IMAPIFormFactory\_: IUnknown"
+                    - name: "IMAPIFormFactory : IUnknown"
                       href: outlook/mapi/imapiformfactoryiunknown.md
                       items:
                         - name: 'IMAPIFormFactory::CreateClassFactory'
@@ -2913,7 +2913,7 @@
                           href: outlook/mapi/imapiformfactory-getlasterror.md
                         - name: 'IMAPIFormFactory::LockServer'
                           href: outlook/mapi/imapiformfactory-lockserver.md
-                    - name: "IMAPIFormInfo\_: IMAPIProp"
+                    - name: "IMAPIFormInfo : IMAPIProp"
                       href: outlook/mapi/imapiforminfoimapiprop.md
                       items:
                         - name: 'IMAPIFormInfo::CalcFormPropSet'
@@ -2926,7 +2926,7 @@
                           href: outlook/mapi/imapiforminfo-openformcontainer.md
                         - name: 'IMAPIFormInfo::SaveForm'
                           href: outlook/mapi/imapiforminfo-saveform.md
-                    - name: "IMAPIFormMgr\_: IUnknown"
+                    - name: "IMAPIFormMgr : IUnknown"
                       href: outlook/mapi/imapiformmgriunknown.md
                       items:
                         - name: 'IMAPIFormMgr::CalcFormPropSet'
@@ -2953,12 +2953,12 @@
                           href: outlook/mapi/imapiformmgr-selectformcontainer.md
                         - name: 'IMAPIFormMgr::SelectMultipleForms'
                           href: outlook/mapi/imapiformmgr-selectmultipleforms.md
-                    - name: "IMAPIGetSession\_: IUnknown"
+                    - name: "IMAPIGetSession : IUnknown"
                       href: outlook/mapi/imapigetsessioniunknown.md
                       items:
                         - name: 'IMAPIGetSession::GetMAPISession'
                           href: outlook/mapi/imapigetsession-getmapisession.md
-                    - name: "IMAPIMessageSite\_: IUnknown"
+                    - name: "IMAPIMessageSite : IUnknown"
                       href: outlook/mapi/imapimessagesiteiunknown.md
                       items:
                         - name: 'IMAPIMessageSite::CopyMessage'
@@ -2987,7 +2987,7 @@
                           href: outlook/mapi/imapimessagesite-savemessage.md
                         - name: 'IMAPIMessageSite::SubmitMessage'
                           href: outlook/mapi/imapimessagesite-submitmessage.md
-                    - name: "IMAPIOffline\_: IUnknown"
+                    - name: "IMAPIOffline : IUnknown"
                       href: outlook/mapi/imapiofflineiunknown.md
                       items:
                         - name: 'IMAPIOffline::GetCapabilities'
@@ -2996,19 +2996,19 @@
                           href: outlook/mapi/imapioffline-getcurrentstate.md
                         - name: 'IMAPIOffline::SetCurrentState'
                           href: outlook/mapi/imapioffline-setcurrentstate.md
-                    - name: "IMAPIOfflineMgr\_: IMAPIOffline"
+                    - name: "IMAPIOfflineMgr : IMAPIOffline"
                       href: outlook/mapi/imapiofflinemgrimapioffline.md
                       items:
                         - name: 'IMAPIOfflineMgr::Advise'
                           href: outlook/mapi/imapiofflinemgr-advise.md
                         - name: 'IMAPIOfflineMgr::Unadvise'
                           href: outlook/mapi/imapiofflinemgr-unadvise.md
-                    - name: "IMAPIOfflineNotify\_: IUnknown"
+                    - name: "IMAPIOfflineNotify : IUnknown"
                       href: outlook/mapi/imapiofflinenotifyiunknown.md
                       items:
                         - name: 'IMAPIOfflineNotify::Notify'
                           href: outlook/mapi/imapiofflinenotify-notify.md
-                    - name: "IMAPIProgress\_: IUnknown"
+                    - name: "IMAPIProgress : IUnknown"
                       href: outlook/mapi/imapiprogressiunknown.md
                       items:
                         - name: 'IMAPIProgress::GetFlags'
@@ -3021,7 +3021,7 @@
                           href: outlook/mapi/imapiprogress-progress.md
                         - name: 'IMAPIProgress::SetLimits'
                           href: outlook/mapi/imapiprogress-setlimits.md
-                    - name: "IMAPIProp\_: IUnknown"
+                    - name: "IMAPIProp : IUnknown"
                       href: outlook/mapi/imapipropiunknown.md
                       items:
                         - name: 'IMAPIProp::CopyProps'
@@ -3046,7 +3046,7 @@
                           href: outlook/mapi/imapiprop-savechanges.md
                         - name: 'IMAPIProp::SetProps'
                           href: outlook/mapi/imapiprop-setprops.md
-                    - name: "IMAPIProviderShutdown\_: IUnknown"
+                    - name: "IMAPIProviderShutdown : IUnknown"
                       href: outlook/mapi/imapiprovidershutdowniunknown.md
                       items:
                         - name: 'IMAPIProviderShutdown::DoFastShutdown'
@@ -3055,12 +3055,12 @@
                           href: outlook/mapi/imapiprovidershutdown-notifyprocessshutdown.md
                         - name: 'IMAPIProviderShutdown::QueryFastShutdown'
                           href: outlook/mapi/imapiprovidershutdown-queryfastshutdown.md
-                    - name: "IMAPISecureMessage\_: IUnknown"
+                    - name: "IMAPISecureMessage : IUnknown"
                       href: outlook/mapi/imapisecuremessageiunknown.md
                       items:
                         - name: 'IMAPISecureMessage::GetBaseMessage'
                           href: outlook/mapi/imapisecuremessage-getbasemessage.md
-                    - name: "IMAPISession\_: IUnknown"
+                    - name: "IMAPISession : IUnknown"
                       href: outlook/mapi/imapisessioniunknown.md
                       items:
                         - name: 'IMAPISession::AdminServices'
@@ -3097,7 +3097,7 @@
                           href: outlook/mapi/imapisession-showform.md
                         - name: 'IMAPISession::Unadvise'
                           href: outlook/mapi/imapisession-unadvise.md
-                    - name: "IMAPIStatus\_: IMAPIProp"
+                    - name: "IMAPIStatus : IMAPIProp"
                       href: outlook/mapi/imapistatusimapiprop.md
                       items:
                         - name: 'IMAPIStatus::ChangePassword'
@@ -3108,7 +3108,7 @@
                           href: outlook/mapi/imapistatus-settingsdialog.md
                         - name: 'IMAPIStatus::ValidateState'
                           href: outlook/mapi/imapistatus-validatestate.md
-                    - name: "IMAPISupport\_: IUnknown"
+                    - name: "IMAPISupport : IUnknown"
                       href: outlook/mapi/imapisupportiunknown.md
                       items:
                         - name: 'IMAPISupport::Address'
@@ -3189,12 +3189,12 @@
                           href: outlook/mapi/imapisupport-unsubscribe.md
                         - name: 'IMAPISupport::WrapStoreEntryID'
                           href: outlook/mapi/imapisupport-wrapstoreentryid.md
-                    - name: "IMAPISync\_: IUnknown"
+                    - name: "IMAPISync : IUnknown"
                       href: outlook/mapi/imapisynciunknown.md
                       items:
-                        - name: "IMAPISync\_: SynchronizeInBackground"
+                        - name: "IMAPISync : SynchronizeInBackground"
                           href: outlook/mapi/imapisyncsynchronizeinbackground.md
-                    - name: "IMAPISyncProgressCallback\_: IUnknown"
+                    - name: "IMAPISyncProgressCallback : IUnknown"
                       href: outlook/mapi/imapisyncprogresscallbackiunknown.md
                       items:
                         - name: 'IMAPISyncProgressCallback::Progress'
@@ -3203,7 +3203,7 @@
                           href: outlook/mapi/imapisyncprogresscallback-error.md
                         - name: 'IMAPISyncProgressCallback::Done'
                           href: outlook/mapi/imapisyncprogresscallback-done.md
-                    - name: "IMAPITable\_: IUnknown"
+                    - name: "IMAPITable : IUnknown"
                       href: outlook/mapi/imapitableiunknown.md
                       items:
                         - name: 'IMAPITable::Abort'
@@ -3252,7 +3252,7 @@
                           href: outlook/mapi/imapitable-unadvise.md
                         - name: 'IMAPITable::WaitForCompletion'
                           href: outlook/mapi/imapitable-waitforcompletion.md
-                    - name: "IMAPIViewAdviseSink\_: IUnknown"
+                    - name: "IMAPIViewAdviseSink : IUnknown"
                       href: outlook/mapi/imapiviewadvisesinkiunknown.md
                       items:
                         - name: 'IMAPIViewAdviseSink::OnShutdown'
@@ -3265,7 +3265,7 @@
                           href: outlook/mapi/imapiviewadvisesink-onsaved.md
                         - name: 'IMAPIViewAdviseSink::OnSubmitted'
                           href: outlook/mapi/imapiviewadvisesink-onsubmitted.md
-                    - name: "IMAPIViewContext\_: IUnknown"
+                    - name: "IMAPIViewContext : IUnknown"
                       href: outlook/mapi/imapiviewcontextiunknown.md
                       items:
                         - name: 'IMAPIViewContext::ActivateNext'
@@ -3299,12 +3299,12 @@
                           href: outlook/mapi/imessage-setreadflag.md
                         - name: 'IMessage::SubmitMessage'
                           href: outlook/mapi/imessage-submitmessage.md
-                    - name: "IMSCapabilities\_: IUnknown"
+                    - name: "IMSCapabilities : IUnknown"
                       href: outlook/mapi/imscapabilitiesiunknown.md
                       items:
                         - name: 'IMSCapabilities::GetCapabilities'
                           href: outlook/mapi/imscapabilities-getcapabilities.md
-                    - name: "IMsgServiceAdmin\_: IUnknown"
+                    - name: "IMsgServiceAdmin : IUnknown"
                       href: outlook/mapi/imsgserviceadminiunknown.md
                       items:
                         - name: 'IMsgServiceAdmin::AdminProviders'
@@ -3331,12 +3331,12 @@
                           href: outlook/mapi/imsgserviceadmin-renamemsgservice.md
                         - name: 'IMsgServiceAdmin::SetPrimaryIdentity'
                           href: outlook/mapi/imsgserviceadmin-setprimaryidentity.md
-                    - name: "IMsgServiceAdmin2\_: IMsgServiceAdmin"
+                    - name: "IMsgServiceAdmin2 : IMsgServiceAdmin"
                       href: outlook/mapi/imsgserviceadmin2imsgserviceadmin.md
                       items:
                         - name: 'IMsgServiceAdmin2::CreateMsgServiceEx'
                           href: outlook/mapi/imsgserviceadmin2-createmsgserviceex.md
-                    - name: "IMsgStore\_: IMAPIProp"
+                    - name: "IMsgStore : IMAPIProp"
                       href: outlook/mapi/imsgstoreimapiprop.md
                       items:
                         - name: 'IMsgStore::AbortSubmit'
@@ -3365,7 +3365,7 @@
                           href: outlook/mapi/imsgstore-storelogoff.md
                         - name: 'IMsgStore::Unadvise'
                           href: outlook/mapi/imsgstore-unadvise.md
-                    - name: "IMSLogon\_: IUnknown"
+                    - name: "IMSLogon : IUnknown"
                       href: outlook/mapi/imslogoniunknown.md
                       items:
                         - name: 'IMSLogon::Advise'
@@ -3382,7 +3382,7 @@
                           href: outlook/mapi/imslogon-openstatusentry.md
                         - name: 'IMSLogon::Unadvise'
                           href: outlook/mapi/imslogon-unadvise.md
-                    - name: "IMSProvider\_: IUnknown"
+                    - name: "IMSProvider : IUnknown"
                       href: outlook/mapi/imsprovideriunknown.md
                       items:
                         - name: 'IMSProvider::CompareStoreIDs'
@@ -3393,7 +3393,7 @@
                           href: outlook/mapi/imsprovider-shutdown.md
                         - name: 'IMSProvider::SpoolerLogon'
                           href: outlook/mapi/imsprovider-spoolerlogon.md
-                    - name: "IOSTX\_: IUnknown"
+                    - name: "IOSTX : IUnknown"
                       href: outlook/mapi/iostxiunknown.md
                       items:
                         - name: 'IOSTX::GetLastError'
@@ -3410,7 +3410,7 @@
                           href: outlook/mapi/iostx-synchdrbeg.md
                         - name: 'IOSTX::SyncHdrEnd'
                           href: outlook/mapi/iostx-synchdrend.md
-                    - name: "IPSTOVERRIDE1\_: IUnknown"
+                    - name: "IPSTOVERRIDE1 : IUnknown"
                       href: outlook/mapi/ipstoverride1iunknown.md
                       items:
                         - name: 'IPSTOVERRIDE1::GetPersistedRegistrations'
@@ -3419,12 +3419,12 @@
                           href: outlook/mapi/ipstoverride1-overridepstdisablegrow.md
                         - name: 'IPSTOVERRIDE1::SetPersistedRegistrations'
                           href: outlook/mapi/ipstoverride1-setpersistedregistrations.md
-                    - name: "IPSTOVERRIDEREQ\_: IUnknown"
+                    - name: "IPSTOVERRIDEREQ : IUnknown"
                       href: outlook/mapi/ipstoverridereqiunknown.md
                       items:
                         - name: 'IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler'
                           href: outlook/mapi/ipstoverridereq-registertrustedpstoverridehandler.md
-                    - name: "IPSTX\_: IUnknown"
+                    - name: "IPSTX : IUnknown"
                       href: outlook/mapi/ipstxiunknown.md
                       items:
                         - name: 'IPSTX::EmulateSpooler'
@@ -3433,23 +3433,23 @@
                           href: outlook/mapi/ipstx-getlasterror.md
                         - name: 'IPSTX::GetSyncObject'
                           href: outlook/mapi/ipstx-getsyncobject.md
-                    - name: "IPSTX2\_: IPSTX"
+                    - name: "IPSTX2 : IPSTX"
                       href: outlook/mapi/ipstx2ipstx.md
                       items:
                         - name: 'IPSTX2::SetSpoolSuspendState'
                           href: outlook/mapi/ipstx2-setspoolsuspendstate.md
-                    - name: "IPSTX3\_: IPSTX2"
+                    - name: "IPSTX3 : IPSTX2"
                       href: outlook/mapi/ipstx3ipstx2.md
-                    - name: "IPSTX4\_: IPSTX3"
+                    - name: "IPSTX4 : IPSTX3"
                       href: outlook/mapi/ipstx4ipstx3.md
-                    - name: "IPSTX5\_: IPSTX4"
+                    - name: "IPSTX5 : IPSTX4"
                       href: outlook/mapi/ipstx5ipstx4.md
-                    - name: "IPSTX6\_: IPSTX5"
+                    - name: "IPSTX6 : IPSTX5"
                       href: outlook/mapi/ipstx6ipstx5.md
                       items:
                         - name: 'IPSTX6::DisconnectStore'
                           href: outlook/mapi/ipstx6-disconnectstore.md
-                    - name: "IPersistMessage\_: IUnknown"
+                    - name: "IPersistMessage : IUnknown"
                       href: outlook/mapi/ipersistmessageiunknown.md
                       items:
                         - name: 'IPersistMessage::GetClassID'
@@ -3468,7 +3468,7 @@
                           href: outlook/mapi/ipersistmessage-save.md
                         - name: 'IPersistMessage::SaveCompleted'
                           href: outlook/mapi/ipersistmessage-savecompleted.md
-                    - name: "IProfAdmin\_: IUnknown"
+                    - name: "IProfAdmin : IUnknown"
                       href: outlook/mapi/iprofadminiunknown.md
                       items:
                         - name: 'IProfAdmin::AdminServices'
@@ -3489,9 +3489,9 @@
                           href: outlook/mapi/iprofadmin-renameprofile.md
                         - name: 'IProfAdmin::SetDefaultProfile'
                           href: outlook/mapi/iprofadmin-setdefaultprofile.md
-                    - name: "IProfSect\_: IMAPIProp"
+                    - name: "IProfSect : IMAPIProp"
                       href: outlook/mapi/iprofsectimapiprop.md
-                    - name: "IPropData\_: IMAPIProp"
+                    - name: "IPropData : IMAPIProp"
                       href: outlook/mapi/ipropdataimapiprop.md
                       items:
                         - name: 'IPropData::HrAddObjProps'
@@ -3502,7 +3502,7 @@
                           href: outlook/mapi/ipropdata-hrsetobjaccess.md
                         - name: 'IPropData::HrSetPropAccess'
                           href: outlook/mapi/ipropdata-hrsetpropaccess.md
-                    - name: "IProviderAdmin\_: IUnknown"
+                    - name: "IProviderAdmin : IUnknown"
                       href: outlook/mapi/iprovideradminiunknown.md
                       items:
                         - name: 'IProviderAdmin::CreateProvider'
@@ -3520,7 +3520,7 @@
                       items:
                         - name: 'IProxyStoreObject::UnwrapNoRef'
                           href: outlook/mapi/iproxystoreobject-unwrapnoref.md
-                    - name: "ITableData\_: IUnknown"
+                    - name: "ITableData : IUnknown"
                       href: outlook/mapi/itabledataiunknown.md
                       items:
                         - name: 'ITableData::HrDeleteRow'
@@ -3541,7 +3541,7 @@
                           href: outlook/mapi/itabledata-hrnotify.md
                         - name: 'ITableData::HrQueryRow'
                           href: outlook/mapi/itabledata-hrqueryrow.md
-                    - name: "ITnef\_: IUnknown"
+                    - name: "ITnef : IUnknown"
                       href: outlook/mapi/itnefiunknown.md
                       items:
                         - name: 'ITnef::AddProps'
@@ -3558,7 +3558,7 @@
                           href: outlook/mapi/itnef-opentaggedbody.md
                         - name: 'ITnef::SetProps'
                           href: outlook/mapi/itnef-setprops.md
-                    - name: "IXPLogon\_: IUnknown"
+                    - name: "IXPLogon : IUnknown"
                       href: outlook/mapi/ixplogoniunknown.md
                       items:
                         - name: 'IXPLogon::AddressTypes'
@@ -3583,7 +3583,7 @@
                           href: outlook/mapi/ixplogon-transportnotify.md
                         - name: 'IXPLogon::ValidateState'
                           href: outlook/mapi/ixplogon-validatestate.md
-                    - name: "IXPProvider\_: IUnknown"
+                    - name: "IXPProvider : IUnknown"
                       href: outlook/mapi/ixpprovideriunknown.md
                       items:
                         - name: 'IXPProvider::Shutdown'
@@ -6202,13 +6202,13 @@
     - name: PowerPoint
       href: powerpoint-home.md
       items:
-        - name: "Référence\_VBA PowerPoint"
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861525.aspx'
+        - name: "Référence VBA PowerPoint"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861525.aspx'
     - name: Projet
       href: project/project-home.md
       items:
         - name: Référence VBA de projet
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861523.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861523.aspx'
         - name: Documentation du développeur
           href: project/project-2013-developer-documentation.md
           items:
@@ -6220,9 +6220,9 @@
                 - name: Architecture et programmabilité
                   href: project/project-server-2013-architecture-and-programmability.md
                   items:
-                    - name: "Architecture Project\_Server"
+                    - name: "Architecture Project Server"
                       href: project/project-server-2013-architecture.md
-                    - name: "Programmabilité de Project\_Server"
+                    - name: "Programmabilité de Project Server"
                       href: project/project-server-programmability.md
                     - name: Fonctionnalités de l’interface PSI
                       href: project/what-the-psi-does-and-does-not-do.md
@@ -6235,29 +6235,29 @@
                       href: project/getting-started-with-the-project-server-csom-and-net.md
                     - name: Prise en main du modèle objet JavaScript
                       href: project/getting-started-with-the-project-server-2013-javascript-object-model.md
-                    - name: "Développement d’une application Project\_Online"
+                    - name: "Développement d’une application Project Online"
                       href: project/developing-a-project-online-application-using-the-client-side-object-model.md
-                    - name: "Accès aux champs personnalisés d’entreprise Project\_Online"
+                    - name: "Accès aux champs personnalisés d’entreprise Project Online"
                       href: project/accessing-project-online-enterprise-custom-fields.md
-                    - name: "De 0 à 60 avec Project\_Online"
+                    - name: "De 0 à 60 avec Project Online"
                       href: project/from-0-to-60-with-project-online.md
-                    - name: "Développement d’un complément Project\_Online à l’aide du modèle objet JavaScript (JSOM)"
+                    - name: "Développement d’un complément Project Online à l’aide du modèle objet JavaScript (JSOM)"
                       href: project/developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md
                 - name: Programmation du client Project
                   href: project/project-client-programming.md
                 - name: Tâches de programmation Project
                   href: project/project-programming-tasks.md
                   items:
-                    - name: "Prise en main du développement de flux de travail Project\_Server"
+                    - name: "Prise en main du développement de flux de travail Project Server"
                       href: project/getting-started-developing-project-server-workflows.md
                       items:
-                        - name: "Créer un flux de travail Project\_Server pour la gestion de la demande"
+                        - name: "Créer un flux de travail Project Server pour la gestion de la demande"
                           href: project/create-a-project-server-workflow-for-demand-management.md
-                    - name: "Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project\_Online"
+                    - name: "Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project Online"
                       href: project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md
                     - name: Utilisation des projets à l’aide du modèle objet JavaScript
                       href: project/create-retrieve-update-delete-projects-using-project-server-javascript.md
-                    - name: "Créer un complément Project\_Server hébergé sur SharePoint"
+                    - name: "Créer un complément Project Server hébergé sur SharePoint"
                       href: project/create-a-sharepoint-hosted-project-server-add-in.md
                     - name: Obtenir l’ID du projet dans un composant de complément sur une page de détails du projet
                       href: project/get-the-project-id-in-an-add-in-part-on-a-project-details-page.md
@@ -6270,32 +6270,32 @@
                       href: project/prerequisites-for-asmx-based-code-samples-in-project.md
                     - name: Conditions préalables pour les exemples de code basés sur WCF
                       href: project/prerequisites-for-wcf-based-code-samples-in-project.md
-                    - name: "Codes d’erreur de Project\_Server"
+                    - name: "Codes d’erreur de Project Server"
                       href: project/project-server-error-codes.md
                     - name: ProjectData - Référence du service OData
-                      href: 'https://msdn.microsoft.com/en-us/library/office/jj163015.aspx'
+                      href: 'https://msdn.microsoft.com/fr-fr/library/office/jj163015.aspx'
             - name: Référence de service web et de bibliothèque de classes
-              href: 'https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server'
+              href: 'https://docs.microsoft.com/fr-fr/dotnet/api/index?view=office-project-server'
             - name: Référence d’API JavaScript
-              href: 'https://msdn.microsoft.com/en-us/library/office/jj712612.aspx'
+              href: 'https://msdn.microsoft.com/fr-fr/library/office/jj712612.aspx'
     - name: Publisher
       href: publisher-home.md
       items:
         - name: Référence VBA Publisher
-          href: 'https://msdn.microsoft.com/en-us/library/office/ee861522.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861522.aspx'
     - name: Visio
       href: visio/visio-home.md
       items:
         - name: Référence VBA Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ee861526.aspx'
         - name: Visio - Enregistrer comme référence web
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff767184.aspx'
         - name: Référence de la visionneuse Visio
-          href: 'https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx'
-        - name: "Référence de Visio\_ShapeSheet"
+          href: 'https://msdn.microsoft.com/fr-fr/library/office/ff766866.aspx'
+        - name: "Référence de Visio ShapeSheet"
           href: visio/visio-shapesheet-reference.md
           items:
-            - name: "Nouveautés pour les développeurs Visio\_ShapeSheet"
+            - name: "Nouveautés pour les développeurs Visio ShapeSheet"
               href: visio/what-s-new-for-visio-shapesheet-developers.md
             - name: Concepts
               href: visio/concepts-visio-shapesheet.md
@@ -6365,9 +6365,9 @@
                 - name: Cellules
                   href: visio/cells-visio-shapesheet-reference.md
                   items:
-                    - name: "Cellule\_A (section Géométrie)"
+                    - name: "Cellule A (section Géométrie)"
                       href: visio/a-cell-geometry-section.md
-                    - name: "Cellule\_Action (section Actions)"
+                    - name: "Cellule Action (section Actions)"
                       href: visio/action-cell-actions-section.md
                     - name: Cellule Active (section Calques)
                       href: visio/active-cell-layers-section.md
@@ -6401,7 +6401,7 @@
                       href: visio/avenuesizey-cell-page-layout-section.md
                     - name: Cellule AvoidPageBreaks (section Mise en page)
                       href: visio/avoidpagebreaks-cell-page-layout-section.md
-                    - name: "Cellule\_B (section Géométrie)"
+                    - name: "Cellule B (section Géométrie)"
                       href: visio/b-cell-geometry-section.md
                     - name: Cellule BeginArrow (section Format de ligne)
                       href: visio/beginarrow-cell-line-format-section.md
@@ -6463,7 +6463,7 @@
                       href: visio/buttonface-cell-action-tags-section.md
                     - name: Cellule ButtonFace (section Actions)
                       href: visio/buttonface-cell-actions-section.md
-                    - name: "Cellule\_C (section Géométrie)"
+                    - name: "Cellule C (section Géométrie)"
                       href: visio/c-cell-geometry-section.md
                     - name: Cellule Calendar (section Divers)
                       href: visio/calendar-cell-miscellaneous-section.md
@@ -6521,7 +6521,7 @@
                       href: visio/ctrlasinput-cell-page-layout-section.md
                     - name: Cellule D (section Points de connexion)
                       href: visio/d-cell-connection-points-section.md
-                    - name: "Cellule\_D (section Géométrie)"
+                    - name: "Cellule D (section Géométrie)"
                       href: visio/d-cell-geometry-section.md
                     - name: Cellule Date (section Annotation)
                       href: visio/date-cell-annotation-section.md
@@ -6577,7 +6577,7 @@
                       href: visio/dynamicsoff-cell-page-layout-section.md
                     - name: Cellule DynFeedback (section Divers)
                       href: visio/dynfeedback-cell-miscellaneous-section.md
-                    - name: "Cellule\_E (section Géométrie)"
+                    - name: "Cellule E (section Géométrie)"
                       href: visio/e-cell-geometry-section.md
                     - name: Cellule EffectSchemeIndex (section Propriétés du thème)
                       href: visio/effectschemeindex-cell-theme-properties-section.md
@@ -8433,9 +8433,9 @@
         - name: Contrôles de contenu dans Word
           href: word/content-controls-in-word.md
         - name: Référence VBA Word
-          href: 'https://msdn.microsoft.com/en-us/library/ee861527.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/ee861527.aspx'
         - name: Référence de l’assembly d’interopérabilité de base Word
-          href: 'https://msdn.microsoft.com/en-us/library/ff597928.aspx'
+          href: 'https://msdn.microsoft.com/fr-fr/library/ff597928.aspx'
     - name: Modèle d’URI Sway
       href: swayuri.md
     - name: Modèles d’URI Office
