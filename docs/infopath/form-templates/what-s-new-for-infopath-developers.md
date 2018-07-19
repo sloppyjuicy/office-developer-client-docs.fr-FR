@@ -10,7 +10,7 @@ ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath est conçu pour faciliter la création d'applications basées sur des formulaires riches sur la plateforme Microsoft SharePoint Server. Microsoft InfoPath 2013, Microsoft SharePoint Server 2013 et InfoPath Forms Services offrent de nombreuses fonctionnalités aux développeurs. InfoPath Forms Services, qui est disponible dans SharePoint Server 2013, vous permet de déployer un modèle de formulaire InfoPath vers un SharePoint Server, de manière à ce que les utilisateurs sans le client riche InfoPath puissent ouvrir et remplir les formulaires InfoPath dans un navigateur web.
 ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19782469"
@@ -33,9 +33,9 @@ Les sections suivantes décrivent brièvement les fonctionnalités et améliorat
     
 - Améliorer les formulaires de liste SharePoint
     
-- Héberger des formulaires sur des Pages de portail à l’aide du composant WebPart formulaire InfoPath
+- Héberger des formulaires sur des pages de portail à l'aide du composant WebPart Formulaire InfoPath
     
-- Formulaires web plus riches
+- Web Forms riche en fonctionnalités
     
 - Formulaires de navigateur compatibles avec les normes
     
@@ -61,11 +61,11 @@ InfoPath est conçu pour faciliter encore plus la publication de mises à jour d
 
 Avec InfoPath, vous pouvez désormais étendre et améliorer les formulaires utilisés pour créer, modifier et afficher les éléments dans une liste SharePoint. À l'ouverture d'une liste, cliquez sur l'onglet **Liste** sous **Outils de liste**, puis en cliquant sur **Personnaliser un formulaire**, vous pouvez générer automatiquement un formulaire InfoPath qui ressemble au formulaire de liste SharePoint prêt à l'emploi par défaut. Vous pouvez ensuite personnaliser et améliorer ce formulaire en modifiant la mise en page, en créant des vues supplémentaires et en ajoutant des règles et des validations de données dans InfoPath. Lorsque vous avez terminé de modifier votre formulaire de liste amélioré, vous pouvez le publier sur SharePoint à l'aide de la nouvelle fonctionnalité de publication en un clic dans InfoPath.
   
-## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Héberger des formulaires sur des Pages de portail à l’aide du composant WebPart formulaire InfoPath
+## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Héberger des formulaires sur des pages de portail à l'aide du composant WebPart Formulaire InfoPath
 
-Dans SharePoint Server 2013, il est plus facile que jamais pour héberger vos formulaires sur des pages Web en utilisant le nouveau **composant WebPart formulaire InfoPath**. Dans Microsoft Office SharePoint Server 2007, les utilisateurs qui souhaitent héberger leurs formulaires InfoPath dans des pages Web doivent écrire du code dans Visual Studio. Maintenant, sans écrire une seule ligne de code, vous pouvez ajouter le **composant WebPart formulaire InfoPath** à une page de composants WebPart et faites-le pointer vers votre formulaire publié. Vous pouvez utiliser le **composant WebPart formulaire InfoPath** pour héberger n’importe quel formulaire de navigateur InfoPath qui est publié dans une bibliothèque de formulaire ou de liste SharePoint. Vous pouvez également vous connecter à d’autres composants WebPart dans la page pour envoyer ou recevoir des données. Pour plus d’informations sur la façon d’utiliser le **composant WebPart formulaire InfoPath**, voir [utilisation du composant WebPart formulaire InfoPath](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) dans le SDK SharePoint 2010. 
+Dans SharePoint Server 2013, il est plus facile que jamais d’héberger vos formulaires sur des pages Web en utilisant le nouveau **composant WebPart Formulaire InfoPath**. Dans Microsoft Office SharePoint Server 2007, les utilisateurs qui souhaitent héberger leurs formulaires InfoPath sur les pages Web doivent écrire le code dans Visual Studio. À présent et sans écrire une seule ligne de code, vous pouvez ajouter le **composant WebPart Formulaire InfoPath** à une page WebPart et le pointer sur votre formulaire publié. Vous pouvez utiliser le **composant WebPart Formulaire InfoPath** pour héberger un formulaire de navigateur InfoPath qui est publié dans une bibliothèque de liste ou de formulaires SharePoint. Vous pouvez également vous connecter aux autres composants WebPart sur la page pour envoyer ou recevoir des données. Pour plus d’informations sur l’utilisation du **composant WebPart Formulaire InfoPath**, consulter [Manipuler le composant WebPart Formulaire InfoPath](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) dans le SDK SharePoint 2010. 
   
-## <a name="richer-web-forms"></a>Formulaires web plus riches
+## <a name="richer-web-forms"></a>Web Forms riche en fonctionnalités
 
 L'écart de fonctionnalité entre les formulaires clients et les formulaires de navigateur a été réduit ; l'expérience du remplissage des formulaires est ainsi plus cohérente pour l'ensemble des utilisateurs. Les contrôles et les fonctions maintenant pris en charge dans les formulaires de navigateur sont notamment :
   
@@ -115,5 +115,5 @@ InfoPath fournit un jeu de contrôles plus riche, que vous pouvez ajouter à vos
 
 [Développement de modèles de formulaire InfoPath avec code](developing-infopath-form-templates-with-code.md)
   
-[Développement de modèles de formulaire utilisant le modèle objet InfoPath 2003](developing-form-templates-using-the-infopath-2003-object-model.md)
+[Développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003](developing-form-templates-using-the-infopath-2003-object-model.md)
 
