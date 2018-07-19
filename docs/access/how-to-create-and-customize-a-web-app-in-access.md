@@ -1,5 +1,5 @@
 ---
-title: Créer et personnaliser une application web dans Access
+title: Création et personnalisation d’une application web dans Access
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -8,15 +8,15 @@ localization_priority: Normal
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 ms.openlocfilehash: 7a41bc4c9509f1d9cec49003fb775a3be2768703
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19781852"
 ---
-# <a name="create-and-customize-a-web-app-in-access"></a>Créer et personnaliser une application web dans Access
+# <a name="create-and-customize-a-web-app-in-access"></a>Création et personnalisation d’une application web dans Access
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 Access 2013 propose un nouveau modèle d'application qui permet aux experts de créer rapidement des applications pour le web. Access inclut un ensemble de modèles qui vous permettent de commencer à créer votre application.
 
@@ -24,15 +24,15 @@ Access 2013 propose un nouveau modèle d'application qui permet aux experts de c
 
 ## <a name="prerequisites-for-building-an-app-with-access-2013"></a>Conditions préalables à la création d'une application avec Access 2013
 
-Pour suivre les étapes décrites dans cet exemple, vous avez besoin des éléments suivants :
+Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants :
   
 - Access
     
 - Un environnement de développement SharePoint
     
-Pour plus d’informations sur la configuration de votre environnement de développement SharePoint, voir [configurer un environnement de développement général pour SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
+Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint](https://docs.microsoft.com/fr-FR/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint). 
   
-Pour plus d’informations sur l’obtention de l’accès et SharePoint, consultez les [téléchargements](http://msdn.microsoft.com/en-US/office/apps/fp123627).
+Pour plus d'informations sur l'obtention d’Access et SharePoint, consultez [Téléchargements](http://msdn.microsoft.com/fr-FR/office/apps/fp123627).
 
 <a name="ac15_CreateAndCustomizeWebApp_CreateTheApp"> </a>
 
@@ -50,9 +50,9 @@ Supposons que vous vouliez créer une application Access qui assure le suivi des
     
    La figure 1 présente la liste des modèles pouvant être utiles pour le suivi des problèmes.
     
-   **Figure 1. Modèles appropriés pour la recherche de problèmes**
+   **Figure 1. Modèles appropriés pour la recherche des problèmes**
 
-   ![Modèles qui correspondent à la recherche de problèmes] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles qui correspondent à la recherche de problèmes")
+   ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles correspondant à la recherche des problèmes")
   
 4. Sélectionnez **Problèmes**.
     
@@ -69,9 +69,9 @@ Dans une base de données du bureau Access (.accdb), les relations entre tables 
   
 Le champ **Client** est associé à la table **Clients**. Pour examiner la relation, sélectionnez le champ **Client**, puis **Modifier les listes de choix**. L' **Assistant Liste de choix** s'affiche comme illustré à la figure 2. 
   
-**Figure 2. Assistant Liste de choix affichant la relation à la table Clients**
+**Figure 2. Assistant Liste de choix affichant la relation à la table Clients**
 
-![Assistant liste de choix affichant la relation] (media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Assistant liste de choix affichant la relation")
+![Assistant Liste de choix affichant la relation](media/odc_Access15_CreateAndCustomizeWebApp_Figure02.jpg "Assistant Liste de choix affichant la relation")
   
 La boîte de dialogue de l'Assistant Liste de choix indique que le champ **Client** est lié à la table **Clients**, et invite à revenir au champ **Nom complet Prénom Nom** de la table **Clients**. 
   
@@ -79,9 +79,9 @@ Les champs **Ouvert par**, **Affecté à** et **Modifié par** ont trait à la t
   
 Fermez la table **Problèmes**, puis examinez le volet des mosaïques. Les trois mosaïques supérieures pour les tables **Problèmes**, **Clients** et **Employés** s'affichent différemment des deux mosaïques inférieures pour les tables **Problèmes connexes** et **Commentaires sur le problème**, comme l'illustre la figure 3. 
   
-**Figure_3. Volet des mosaïques pour le schéma Problèmes**
+**Figure 3. Volet des mosaïques pour le schéma Problèmes**
 
-![Volet vignette pour le schéma des problèmes] (media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Volet vignette pour le schéma des problèmes")
+![Volet des mosaïques pour le schéma Problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure03.jpg "Volet des mosaïques pour le schéma Problèmes")
   
 Les tables **Problèmes connexes** et **Commentaires sur le problème** sont grisées parce qu'elles devront être invisibles pour l'utilisateur dans le navigateur web. 
   
@@ -91,9 +91,9 @@ L'application ouvre l'affichage **Liste des problèmes** de la table Problèmes.
   
 Utilisez le Sélecteur d'affichage pour choisir l'un des trois modes d'affichage disponibles pour la table **Clients**, à savoir **Liste**, **Feuille de données** ou **Groupes**, comme illustré à la figure 4. 
   
-**Figure 4. Sélecteur d'affichage**
+**Figure 4. Sélecteur d’affichage**
 
-![Sélecteur d’affichage] (media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Sélecteur d’affichage")
+![Sélecteur d'affichage](media/odc_Access15_CreateAndCustomizeWebApp_Figure04.jpg "Sélecteur d'affichage")
   
 Le choix du mode **Liste** active l'affichage **Liste des clients**, qui est un affichage de type Détails de la liste. L'affichage Détails de la liste est l'un de ceux qu'Access génère automatiquement lors de la création d'une table. Le principal élément qui caractérise un affichage Détails de la liste est le volet Liste du côté gauche de l'affichage. Ce volet permet de filtrer et de parcourir les enregistrements figurant dans l'affichage. Dans une base de données du Bureau Access , l'implémentation d'un affichage Liste permettant d'effectuer une recherche requiert l'écriture d'un code personnalisé. 
   
@@ -103,15 +103,15 @@ Le choix du mode Groupes ouvre un Affichage de synthèse. Ce type d'affichage pe
   
 Lors de l'ajout de clients, utilisez la barre d'action pour ajouter, modifier, rétablir, enregistrer ou supprimer des enregistrements. La barre d'action est une barre d'outils personnalisable qui s'affiche en haut de chaque affichage, comme l'illustre la figure 5.
   
-**Figure 5. Barre d'action**
+**Figure 5. Barre d’action**
 
-![Barre d’action] (media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barre d’action")
+![Barre d’action](media/odc_Access15_CreateAndCustomizeWebApp_Figure05.jpg "Barre d’action")
   
 Après avoir ajouté des clients et des employés, ouvrez l'affichage Liste des problèmes, puis commencez à ajouter un problème. À mesure que vous tapez le nom d'un client dans le champ Client, un ou plusieurs noms de client s'affichent, comme l'illustre la figure 6.
   
 **Figure 6. Contrôle de saisie semi-automatique**
 
-![Contrôle de saisie semi-automatique] (media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Contrôle de saisie semi-automatique")
+![Contrôle de saisie semi-automatique](media/odc_Access15_CreateAndCustomizeWebApp_Figure06.jpg "Contrôle de saisie semi-automatique")
   
 Le champ Client est un contrôle de saisie semi-automatique. Ce contrôle affiche la liste des enregistrements correspondant à ce que vous tapez dans le champ. Cela vous aide à contrôler l'exactitude des données que vous entrez.
   
@@ -130,7 +130,7 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
     
 4. Sélectionnez **Texte court** dans la colonne **Type de données**. 
     
-5. Sélectionnez **Enregistrer**.
+5. Cliquez sur **Enregistrer**.
     
 6. Fermez la table Problèmes.
     
@@ -153,11 +153,11 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
 7. Dans la liste déroulante **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**. 
     
     > [!NOTE]
-    > Vous verrez deux déroulantes **Ajouter une nouvelle Action** , un dans le bloc **RechercherEnregistrement** et l’autre en dehors du bloc **RechercherEnregistrement** . Vous devez choisir la liste déroulante **Ajouter une nouvelle Action** dans le bloc **RechercherEnregistrement** , comme le montre la Figure 7. 
+    > Vous verrez deux listes déroulantes **Ajouter une nouvelle Action**, une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la liste déroulante **Ajouter une nouvelle Action** dans le bloc **LookupRecord**, comme illustré dans la Figure 7. 
   
-   **Figure 7. Liste déroulante Ajouter une nouvelle Action**
+   **Figure 7. Liste déroulante Ajouter une nouvelle Action**
 
-   ![Liste déroulante Ajouter une nouvelle Action] (media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Liste déroulante Ajouter une nouvelle Action")
+   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Liste déroulante Ajouter une nouvelle Action")
   
 8. Dans le champ **Nom**, entrez **TéléphoneContact**. 
     
@@ -165,11 +165,11 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
     
 10. Sélectionnez **Enregistrer**. Dans le champ **Nom de macro**, entrez **ObtenirTéléphoneContact**, puis sélectionnez **OK**.
     
-    La macro doit ressembler celle illustrée à la figure 8.
+    La macro doit ressembler celle illustrée à la figure 8.
     
-    **Figure 8. Macro de données ObtenirTéléphoneContact**
+    **Figure 8. Macro de données ObtenirTéléphoneContact**
 
-    ![Macro de données GetContactPhone] (media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macro de données GetContactPhone")
+    ![Macro de données ObtenirTéléphoneContact](media/odc_Access15_CreateAndCustomizeWebApp_Figure08.jpg "Macro de données ObtenirTéléphoneContact")
   
 11. Fermez l'affichage Création de macros.
     
@@ -187,7 +187,7 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
     
 5. Dans le champ **Nom du contrôle**, entrez **ContactClient**, puis fermez la fenêtre contextuelle **Données**. 
     
-6. Sélectionnez **Enregistrer**.
+6. Cliquez sur **Enregistrer**.
     
 À présent, nous devons écrire une macro d'interface utilisateur qui copie le champ **Téléphone professionnel** de la table **Clients** vers le champ **Téléphone du contact** de la table **Problèmes**. L'événement **Après la mise à jour** du contrôle **CustomerAutocomplete** est un bon emplacement pour enregistrer la macro. 
   
@@ -217,23 +217,23 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
     
 9. Dans le champ **Valeur**, entrez **=[Phone]**. 
     
-10. Sélectionnez **Enregistrer**.
+10. Cliquez sur **Enregistrer**.
     
-    La macro doit ressembler celle illustrée à la figure 9.
+    La macro doit ressembler celle illustrée à la figure 9.
     
-    **Figure 9. Macro AprèsMiseàJour**
+    **Figure 9. Après la Mise à jour de macros**
 
-    ![Macro après la mise à jour] (media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro après la mise à jour")
+    ![Après la Mise à jour de macros](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Après la Mise à jour de macros")
   
 11. Fermez l'affichage Création de macros.
     
 12. Fermez l'affichage Liste des problèmes. Lorsque vous êtes invité à enregistrer vos modifications, sélectionnez **Oui**. 
     
-Nous sommes à présent prêts à tester la personnalisation. Cliquez sur **Démarrer l'application** pour ouvrir l'application dans votre navigateur web, puis ajoutez un nouveau problème. Les **Numéro de Contact** zone mises à jour automatiquement après que le nom du client est entré, comme le montre la Figure 10. 
+À présent, nous sommes prêts pour la personnalisation du texte. Cliquez sur **Lancer l’application** pour ouvrir l’application dans votre navigateur web et ajoutez un problème. Le champ **Coordonnées du contact** est automatiquement mis à jour après la saisie du nom du client, comme illustré à la figure 10. 
   
-**Figure 10. Affichage Problèmes mis à jour avec un numéro de téléphone**
+**Figure 10. Affichage Problèmes mis à jour avec un numéro de téléphone**
 
-![Affichage des problèmes mis à jour avec le numéro de téléphone] (media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Affichage des problèmes mis à jour avec le numéro de téléphone")
+![Affichage Problèmes mis à jour avec un numéro de téléphone](media/odc_Access15_CreateAndCustomizeWebApp_Figure10.jpg "Affichage Problèmes mis à jour avec un numéro de téléphone")
   
 ## <a name="conclusion"></a>Conclusion
 
@@ -241,7 +241,7 @@ L'utilisation d'un des modèles de schéma inclus dans est une bonne manière de
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Nouveautés d'Access pour les développeurs](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
+- [Nouveautés d’Access 2013 pour les développeurs](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx) 
 - [Référence de l'application web personnalisée Access](access-custom-web-app-reference.md)
   
 

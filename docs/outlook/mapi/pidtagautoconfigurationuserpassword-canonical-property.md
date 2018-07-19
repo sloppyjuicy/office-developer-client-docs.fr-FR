@@ -11,10 +11,10 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1b0fefd6d75ed3cf417e20d84bf0996a2e2f0a38
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19785755"
@@ -25,13 +25,13 @@ ms.locfileid: "19785755"
   
 **S’applique à**: Outlook 
   
-Représente le mot de passe.
+Représente le mot de passe de l’utilisateur.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AUTOCFG_USER_PASSWORD_W  <br/> |
 |Identificateur :  <br/> |0x67FC  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 

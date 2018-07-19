@@ -8,7 +8,7 @@ ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office pour Android s'intègre à la structure d'accès au stockage Android, permettant à Office d'ouvrir les fichiers stockés par un autre fournisseur de documents.
 ms.openlocfilehash: c217eb2aa6c0974c32e60f5015449de7b157d39d
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19782517"
@@ -31,7 +31,7 @@ Les utilisateurs peuvent se connecter aux applications Office avec un compte Mic
 |:-----|:-----|:-----|
 |Type de document  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
 |Pseudonyme du service  <br/> |com_microsoft_office_servicename  <br/> |Tout pseudonyme du service utilisé pour identifier un document dans la liste des derniers fichiers utilisés des applications Office. Notez que la propriété « Conditions d'utilisation » doit être fournie avant le pseudonyme pour pouvoir afficher le service.  <br/> |
-|Conditions d'utilisation  <br/> |com_microsoft_office_termsofuse  <br/> |\<J'accepte les conditions situées dans http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Conditions d'utilisation  <br/> |com_microsoft_office_termsofuse  <br/> |\<J’accepte les termes du contrat disponible à l’adresse http://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 <a name="bk_addresources"> </a>
