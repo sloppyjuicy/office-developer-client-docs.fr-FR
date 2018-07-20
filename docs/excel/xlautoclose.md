@@ -10,10 +10,10 @@ keywords:
 - fonction xlAutoClose [excel 2007]
 localization_priority: Normal
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3cbe1cd879fb5a91d14b38f8a659a7f77d943fe7
 ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/11/2018
 ms.locfileid: "19782223"
@@ -22,9 +22,9 @@ ms.locfileid: "19782223"
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Appelée par Microsoft Excel lorsque le XLL est désactivée. Le complément est désactivé lorsqu’une session Excel se termine normalement. Le complément peut être désactivé par l’utilisateur lors d’une session Excel, et cette fonction est appelée dans ce cas.
+Activée par Microsoft Excel chaque fois que la XLL est désactivée. Le complément est désactivé lorsqu’une session Excel se termine normalement. Le complément peut être désactivé par l’utilisateur pendant une session Excel, et dans ce cas, cette fonction est activée.
   
-Excel ne nécessite pas un ressource XLL à mettre en œuvre et exporter cette fonction, même s’il est conseillé de sorte que votre XLL permettre annuler l’inscription des fonctions et les commandes, libérer les ressources, annuler des personnalisations et ainsi de suite. Si les fonctions et les commandes ne sont pas explicitement retirées par la ressource XLL, Excel effectue cette action après l’appel de la fonction **xlAutoClose** . 
+Excel ne requiert pas une XLL pour exécuter et exporter cette fonction, bien que cela soit conseillé afin que votre XLL puisse annuler les fonctions et les commandes, libérer des ressources, annuler des personnalisations et ainsi de suite. Si les fonctions et les commandes ne sont pas explicitement désinscrites par la XLL, Excel l’effectue après avoir activé la**fonction**xlAutoClose. 
   
 ```cs
 int WINAPI xlAutoClose(void);
@@ -32,39 +32,39 @@ int WINAPI xlAutoClose(void);
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction prend aucun argument.
+Cette fonction ne prend aucun argument.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Votre implémentation de cette fonction doit renvoyer 1 (**int**).
+Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Excel appelle la fonction **xlAutoClose** chaque fois que la ressource XLL est désactivée, autrement dit, déchargé de la mémoire. La ressource XLL est désactivée dans les situations suivantes : 
+Excel active la fonction **xlAutoClose** chaque fois que la XLL est désactivée, autrement dit, déchargée à partir de la mémoire. La XLL est désactivée dans les situations suivantes : 
   
-- À la fin normale d’une session Excel si active pendant cette session.
+- À la fin d’une session normale Excel si celle-ci est active au cours de cette session.
     
-- Si explicitement déchargé lors d’une session Excel.
+- Si elle est explicitement déchargée pendant une session Excel.
     
-- Une solution XLL peut être déchargé de plusieurs façons :
+- Une XLL peut être déchargée de différentes manières :
     
-- À l’aide du Gestionnaire de compléments.
+- Utilisation du Gestionnaire de compléments.
     
-- À partir d’une autre XLL qui appelle [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument uniquement. 
+- À partir d’une autre XLL qui active [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique. 
     
-- À partir d’une feuille de macro XLM qui appelle [UNREGISTER](xlfunregister-form-1.md) portant le nom de cette DLL comme argument uniquement. 
+- À partir d’une autre feuille macro XLL qui active [DÉSINCRIRE](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique. 
     
-Cette fonction doit effectuer les opérations suivantes :
+Cette fonction effectue les opérations suivantes :
   
-- Supprimer les menus ou les éléments de menu qui ont été ajoutés à la ressource XLL.
+- Supprimer les menus ou les éléments du menu qui ont été ajoutés via la XLL.
     
-- Exécuter le nettoyage global nécessaire.
+- Effectuer tout nettoyage général nécessaire.
     
-- Supprimez tous les noms qui ont été créées, notamment les noms des fonctions exportées. N’oubliez pas qu’enregistrement de fonctions risque de créer des noms à créer, si l’argument quatrième pour **inscrire** est présent. 
+- Supprimer les noms qui ont été créés en particulier les noms de fonctions exportées. N’oubliez pas qu’inscrire les fonctions peut entraîner la création de certains noms, si le quatrième argument de **INSCRIRE** est présent. 
     
 ## <a name="example"></a>Exemple
 
-Consultez les fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C` par exemple les implémentations de cette fonction. Le code suivant présente de `SAMPLES\GENERIC\GENERIC.C`.
+Afficher les fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C` par exemple les exécutions de cette fonction. Ajouter le code suivant à partir de `SAMPLES\GENERIC\GENERIC.C`.
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -116,5 +116,5 @@ int WINAPI xlAutoClose(void)
 [xlAutoOpen](xlautoopen.md)
 
 
-[Gestionnaire de compléments et les fonctions de l’Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Gestionnaire de compléments et fonctions d’interface XLL](add-in-manager-and-xll-interface-functions.md)
 
