@@ -50,7 +50,7 @@ Pour que la DLL puisse appeler **Excel4**, **Excel4v**, **Excel12** ou **Excel12
     
 Vous ne pouvez pas appeler l’API C Excel dans les scénarios suivants :
   
-- � partir d�un �v�nement de syst�me d�exploitation (par exemple, depuis la fonction [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx)). 
+- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx)). 
     
 - À partir d’un thread en arrière-plan créé par votre DLL.
     
@@ -66,7 +66,7 @@ Ces quatre fonctions renvoient un nombre entier qui indique � l�appelant si 
 |4  <br/> |**xlretInvCount** <br/> |Le nombre d’arguments fourni n’est pas correct dans l’appel.  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |Une ou plusieurs valeurs d�argument **XLOPER** ou **XLOPER12** ne sont pas correctement mises en forme ou remplies.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel a détecté un risque que l’opération dépasse sa pile d’appels et, par conséquent, ne puisse pas appeler la fonction.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une r�f�rence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx).  <br/> |
+|32  <br/> |**xlretFailed** <br/> |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une référence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx).  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |L�op�ration a tent� de r�cup�rer la valeur d�une cellule non calcul�e. Pour pr�server l�int�grit� de recalcul dans Excel, les fonctions de feuille de calcul ne sont pas autoris�es � effectuer cette action. Toutefois, les fonctions et commandes XLL enregistr�es en tant que fonctions macro sont autoris�es � acc�der aux valeurs des cellules non calcul�es.  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |(Introduit dans Excel 2007) Une fonction de feuille de calcul XLL enregistr�e en tant que fonction thread-safe essayait d�appeler une fonction d�API C non thread-safe. Par exemple, une fonction thread-safe ne peut pas appeler la fonction XLM **xlfGetCell**.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Introduit dans Excel 2010) Le pointeur de fonction asynchrone n�est pas valide.  <br/> |
@@ -140,7 +140,7 @@ bool delete_my_backup_files(bool show_dialog)
 
 Vous pouvez configurer Excel de façon à afficher les fonctions et les noms des commandes XML dans plusieurs langues. Certaines fonctions et commandes de l’API C opèrent sur des chaînes qui sont considérées comme des noms de fonction ou de commande. Par exemple, **xlcFormula** prend un argument de chaîne qui est destiné à être placé dans une cellule spécifiée. Pour que votre complément fonctionne avec tous les paramètres de langue, vous pouvez fournir les noms de chaîne en anglais et définir le bit 0x2000 (**xlIntl**) dans l’énumération de fonction ou de commande.
   
-L�exemple suivant ins�re l��quivalent de  `=SUM(X1:X100)` dans la cellule A2 de la feuille active. Notez qu�il utilise la fonction Framework **TempActiveRef** pour cr�er une r�f�rence externe temporaire **XLOPER**. La formule appara�t dans la cellule A2 dans la langue correcte d�termin�e par les param�tres r�gionaux (par exemple,  `=SOMME(X1:X100)` si la langue est le fran�ais). 
+L�exemple suivant ins�re l��quivalent de  `=SUM(X1:X100)` dans la cellule A2 de la feuille active. Notez qu�il utilise la fonction Framework **TempActiveRef** pour cr�er une référence externe temporaire **XLOPER**. La formule appara�t dans la cellule A2 dans la langue correcte d�termin�e par les param�tres r�gionaux (par exemple,  `=SOMME(X1:X100)` si la langue est le fran�ais). 
   
 ```cs
 int WINAPI InternationlExample(void)
@@ -160,7 +160,7 @@ int WINAPI InternationlExample(void)
   
 ### <a name="dll-only-functions-and-commands"></a>Fonctions et commandes DLL uniquement
 
-Excel prend en charge un petit nombre de fonctions accessibles uniquement � partir d�une DLL ou d�une XLL. Elles sont d�finies dans le fichier d�en-t�te  `(n | xlSpecial)`, o�  `n` est un nombre d�cimal sup�rieur ou �gal � 0 et  `xlSpecial` est d�fini en tant que nombre d�cimal 0x4000. Ces fonctions sont r�pertori�es dans le tableau suivant et pr�sent�es dans la [R�f�rence des fonctions d�API](excel-xll-sdk-api-function-reference.md).
+Excel prend en charge un petit nombre de fonctions accessibles uniquement � partir d�une DLL ou d�une XLL. Elles sont d�finies dans le fichier d�en-t�te  `(n | xlSpecial)`, o�  `n` est un nombre d�cimal sup�rieur ou �gal � 0 et  `xlSpecial` est d�fini en tant que nombre d�cimal 0x4000. Ces fonctions sont r�pertori�es dans le tableau suivant et pr�sent�es dans la [Référence des fonctions d�API](excel-xll-sdk-api-function-reference.md).
   
 ||||
 |:-----|:-----|:-----|
@@ -236,7 +236,7 @@ void Excel12v_example(double *dbl_array, int size, double &sum, double &average,
 
 ```
 
-Le remplacement des r�f�rences des valeurs **XLOPER12** par **XLOPER**, et **Excel12v** par **Excel4v**, dans le code pr�c�dent permettait d�avoir une fonction compatible avec toutes les versions d�Excel. L�ex�cution de ces fonctions Excel **SUM**, **AVERAGE**, **MIN** et **MAX** est assez simple et il serait plus efficace de les coder en langage�C afin de ne pas avoir � pr�parer les arguments et l�appel dans Excel. Toutefois, la plupart des fonctions Excel sont plus complexes, ce qui rend cette approche utile dans certains cas. 
+Le remplacement des références des valeurs **XLOPER12** par **XLOPER**, et **Excel12v** par **Excel4v**, dans le code pr�c�dent permettait d�avoir une fonction compatible avec toutes les versions d�Excel. L�ex�cution de ces fonctions Excel **SUM**, **AVERAGE**, **MIN** et **MAX** est assez simple et il serait plus efficace de les coder en langage�C afin de ne pas avoir � pr�parer les arguments et l�appel dans Excel. Toutefois, la plupart des fonctions Excel sont plus complexes, ce qui rend cette approche utile dans certains cas. 
   
 La rubrique [xlfRegister](http://msdn.microsoft.com/library/guid_c730124c-1886-4a0f-8f06-79763025537d%28Office.15%29.aspx) offre un autre exemple d�utilisation de **Excel4v** et **Excel12v**. Lorsque vous enregistrez une fonction de feuille de calcul XLL, vous pouvez fournir une cha�ne descriptive pour chaque argument utilis� dans la bo�te de dialogue **Coller une fonction**. Par cons�quent, le nombre total d�arguments fourni � **xlfRegister** d�pend du nombre d�arguments que votre fonction XLL accepte et varie d�une fonction � l�autre. 
   
@@ -321,9 +321,9 @@ Bien que vous puissiez utiliser ce m�canisme pour d�terminer si la nouvelle 
 
 [Création de XLL](creating-xlls.md)
   
-[Acc�s au code XLL dans Excel (en anglais)](accessing-xll-code-in-excel.md)
+[Accés au code XLL dans Excel](accessing-xll-code-in-excel.md)
   
-[R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
   
 [Les fonctions de rappel de l'API C Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
   

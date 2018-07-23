@@ -19,26 +19,26 @@ ms.locfileid: "19784951"
   
 **S’applique à**: Outlook 
   
-Bienvenue dans la R�f�rence Messaging�API (MAPI) Microsoft Outlook 2013. MAPI fournit l�architecture de messagerie pour Microsoft Outlook 2013. MAPI pour Outlook 2013 propose un ensemble d�interfaces, de fonctions et d�autres types de donn�es pour faciliter le d�veloppement d�applications de messagerie Outlook 2013. Les applications et les transports utilisent MAPI pour manipuler les donn�es de messagerie, pour cr�er des messages �lectroniques et les dossiers permettant de les stocker, et pour prendre en charge les notifications de modifications apport�es aux donn�es existantes li�es � MAPI.
+Bienvenue dans la Référence Messaging�API (MAPI) Microsoft Outlook 2013. MAPI fournit l�architecture de messagerie pour Microsoft Outlook 2013. MAPI pour Outlook 2013 propose un ensemble d�interfaces, de fonctions et d�autres types de donn�es pour faciliter le d�veloppement d�applications de messagerie Outlook 2013. Les applications et les transports utilisent MAPI pour manipuler les donn�es de messagerie, pour cr�er des messages �lectroniques et les dossiers permettant de les stocker, et pour prendre en charge les notifications de modifications apport�es aux donn�es existantes li�es � MAPI.
   
 > [!NOTE]
 > Si vous n��tes pas encore familiaris� avec le d�veloppement de solutions pour Outlook, consultez la rubrique [S�lection d�une API ou d�une technologie pour d�velopper des solutions pour Outlook 2013](http://msdn.microsoft.com/fr-FR/library/jj900714.aspx) afin d�identifier les API et technologies les plus adapt�es � vos besoins. 
   
 ## <a name="in-this-section"></a>Dans cette section
 
-[Mise en route avec la r�f�rence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
   
-> Fournit des informations sur les diff�rentes ressources conceptuelles et de r�f�rence dans la R�f�rence MAPI Outlook 2013.
+> Fournit des informations sur les différentes ressources conceptuelles et de référence dans la Référence MAPI Outlook 2013.
     
-[Exemples MAPI (en anglais)](mapi-samples.md)
+[Exemples MAPI](mapi-samples.md)
   
 > Fournit des exemples d’application.
     
-[Concepts MAPI (en anglais)](mapi-concepts.md)
+[Concepts MAPI](mapi-concepts.md)
   
 > Fournit un guide de présentation et de programmation avec MAPI.
     
-[R�f�rence MAPI (en anglais)](mapi-reference.md)
+[Référence MAPI](mapi-reference.md)
   
 > Fournit des références aux éléments de programmation de MAPI.
     

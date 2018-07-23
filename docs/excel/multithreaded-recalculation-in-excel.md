@@ -23,9 +23,9 @@ ms.locfileid: "19782179"
 Microsoft Office Excel 2007 a �t� la premi�re version d�Excel � utiliser le recalcul multithread (MTR) de feuilles de calcul. Vous pouvez configurer Excel pour utiliser jusqu�� 1�024�threads simultan�s lors du recalcul, quel que soit le nombre de processeurs ou de c�urs de processeur pr�sents sur l�ordinateur. 
   
 > [!NOTE]
-> Il existe une surcharge de syst�me d�exploitation li�e � chaque thread. �vitez donc de configurer Excel pour qu�il utilise plus de threads que n�cessaire. 
+> Il existe une surcharge de systéme d�exploitation li�e � chaque thread. �vitez donc de configurer Excel pour qu�il utilise plus de threads que n�cessaire. 
   
-Si l�ordinateur dispose de plusieurs processeurs ou c�urs de processeur, le syst�me d�exploitation a la responsabilit� d�allouer les threads aux processeurs de la mani�re la plus efficace.
+Si l�ordinateur dispose de plusieurs processeurs ou c�urs de processeur, le systéme d�exploitation a la responsabilit� d�allouer les threads aux processeurs de la mani�re la plus efficace.
   
 ## <a name="excel-mtr-overview"></a>Vue d’ensemble du recalcul multithread Excel
 
@@ -135,16 +135,16 @@ Les cons�quences sont que les op�rations et fonctions suivantes ne sont pas 
     
 - appels vers la fonction [xlAbort](xlabort.md) pour effacer une condition d�arr�t�; 
     
-- appels vers la fonction [xlCoerce](xlcoerce.md) pour obtenir la valeur d�une r�f�rence de cellule non calcul�e. 
+- appels vers la fonction [xlCoerce](xlcoerce.md) pour obtenir la valeur d�une référence de cellule non calcul�e. 
     
 > [!NOTE]
 > Les fonctions de feuille de calcul�XLL ne sont pas autoris�es � appeler les commandes d�API C, par exemple **xlcSave**, qu�elles aient �t� enregistr�es en tant que thread-safe ou non. 
   
-�tant donn� que les fonctions�XLL d�clar�es comme thread-safe ne peuvent pas appeler les fonctions d�informations XLM ou les cellules non calcul�es de r�f�rence, Excel n�autorise pas les fonctions�XLL qui sont enregistr�es comme des �quivalents de feuille macro, pouvant aussi �tre enregistr�es en tant que thread-safe. Par cons�quent, la tentative d�obtention de la valeur d�une r�f�rence de cellule non calcul�e � l�aide de l��l�ment **xlCoerce** �choue avec une erreur **xlretUncalced**. L�appel d�une fonction d�information XLM �choue avec une erreur **xlretFailed**. Les autres points r�pertori�s pr�c�demment �chouent avec un code d�erreur introduit dans l�API C Excel : **xlretNotThreadSafe**. 
+�tant donn� que les fonctions�XLL d�clar�es comme thread-safe ne peuvent pas appeler les fonctions d�informations XLM ou les cellules non calcul�es de référence, Excel n�autorise pas les fonctions�XLL qui sont enregistr�es comme des �quivalents de feuille macro, pouvant aussi �tre enregistr�es en tant que thread-safe. Par cons�quent, la tentative d�obtention de la valeur d�une référence de cellule non calcul�e � l�aide de l��l�ment **xlCoerce** �choue avec une erreur **xlretUncalced**. L�appel d�une fonction d�information XLM �choue avec une erreur **xlretFailed**. Les autres points r�pertori�s pr�c�demment �chouent avec un code d�erreur introduit dans l�API C Excel : **xlretNotThreadSafe**. 
   
 Les fonctions de rappel concernant uniquement l�API C sont toutes thread-safe :
   
-- **xlCoerce** (sauf en cas d��chec de for�age de type de r�f�rences de cellule non calcul�e) 
+- **xlCoerce** (sauf en cas d��chec de for�age de type de références de cellule non calcul�e) 
     
 - **xlFree**
     
@@ -186,13 +186,13 @@ Excel impose une restriction suppl�mentaire : les fonctions thread-safe ne peu
 ## <a name="memory-contention"></a>Contention de mémoire
 <a name="xl2007xllsdk_threadsafe"> </a>
 
-Les syst�mes multithread doivent traiter des probl�mes fondamentaux :
+Les systémes multithread doivent traiter des probl�mes fondamentaux :
   
 - comment prot�ger la m�moire utilis�e en lecture et en �criture � l�aide de plusieurs threads�;
     
 - comment cr�er et acc�der � une m�moire associ�e et propre au thread en cours d�ex�cution.
     
-Le syst�me d�exploitation Windows et le kit de d�veloppement logiciel (SDK) Windows fournissent des outils pour ces deux �l�ments : des sections critiques et l�API de stockage local de thread (TLS), respectivement. Pour plus d�informations, voir [Gestion de la m�moire dans Excel](memory-management-in-excel.md).
+Le systéme d�exploitation Windows et le kit de d�veloppement logiciel (SDK) Windows fournissent des outils pour ces deux �l�ments : des sections critiques et l�API de stockage local de thread (TLS), respectivement. Pour plus d�informations, voir [Gestion de la m�moire dans Excel](memory-management-in-excel.md).
   
 Le premier probl�me peut se produire, par exemple, lorsque deux fonctions de feuille de calcul (ou deux instances de la m�me fonction en cours d�ex�cution simultan�ment) doivent acc�der � ou modifier une variable globale dans un projet DLL. N�oubliez pas qu�une telle variable globale peut �tre masqu�e dans une instance d�objet de classe accessible globalement.
   
@@ -207,9 +207,9 @@ Plus pr�cis�ment, le recalcul multithread a un impact consid�rable sur la 
   
 Si Excel est configur� pour utiliser le m�me nombre de threads que le serveur (appel� N), et que la topologie de l�arborescence des d�pendances du classeur le permet, la dur�e de recalcul totale peut �tre r�duite � une valeur proche de 1/N de la dur�e de calcul monothread. Cette action peut s�av�rer efficace, m�me lorsque l�ordinateur client (sur lequel le classeur est en cours d�ex�cution) n�a qu�un processeur, en particulier lorsque le temps n�cessaire pour effectuer l�appel vers le serveur est court par rapport � la dur�e n�cessaire au serveur pour �mettre l�appel. 
   
-Il existe une surcharge du syst�me d�exploitation pour chaque thread suppl�mentaire. Par cons�quent, un peu de pratique peut �tre requise pour un classeur donn� et un ordinateur serveur et client donn� pour trouver le nombre optimal de threads qu�Excel doit utiliser. 
+Il existe une surcharge du systéme d�exploitation pour chaque thread suppl�mentaire. Par cons�quent, un peu de pratique peut �tre requise pour un classeur donn� et un ordinateur serveur et client donn� pour trouver le nombre optimal de threads qu�Excel doit utiliser. 
   
-Par exemple, imaginez un ordinateur monoprocesseur ex�cutant Excel et un classeur contenant 1�000�cellules. Il appelle une fonction d�finie par l�utilisateur, qui � son tour appelle un ou plusieurs serveurs � distance. Supposons que les 1�000�cellules ne d�pendent pas les unes des autres, afin que Microsoft�Excel n�ait pas � attendre la fin d�un appel avant d�effectuer l�appel suivant. (Une relaxation de cette contrainte est possible sans influer cet exemple). Si les serveurs peuvent traiter 100�demandes simultan�ment, et qu�Excel est configur� pour utiliser 100�threads, le temps d�ex�cution peut �tre r�duit � une valeur aussi faible que 1/100e de la valeur lorsqu�un seul thread est utilis�. La surcharge qui est associ�e � Excel allouant des appels � chaque thread et au syst�me d�exploitation g�rant 100�threads signifie que, dans la pratique, la r�duction ne sera pas vraiment id�ale. Il existe �galement une hypoth�se implicite selon laquelle le serveur est �volutif, et que le fait de lui demander de traiter 100�t�ches simultan�ment n�aura pas d�impact consid�rable sur les dur�es individuelles de traitement des t�ches.
+Par exemple, imaginez un ordinateur monoprocesseur ex�cutant Excel et un classeur contenant 1�000�cellules. Il appelle une fonction d�finie par l�utilisateur, qui � son tour appelle un ou plusieurs serveurs � distance. Supposons que les 1�000�cellules ne d�pendent pas les unes des autres, afin que Microsoft�Excel n�ait pas � attendre la fin d�un appel avant d�effectuer l�appel suivant. (Une relaxation de cette contrainte est possible sans influer cet exemple). Si les serveurs peuvent traiter 100�demandes simultan�ment, et qu�Excel est configur� pour utiliser 100�threads, le temps d�ex�cution peut �tre r�duit � une valeur aussi faible que 1/100e de la valeur lorsqu�un seul thread est utilis�. La surcharge qui est associ�e � Excel allouant des appels � chaque thread et au systéme d�exploitation g�rant 100�threads signifie que, dans la pratique, la r�duction ne sera pas vraiment id�ale. Il existe �galement une hypoth�se implicite selon laquelle le serveur est �volutif, et que le fait de lui demander de traiter 100�t�ches simultan�ment n�aura pas d�impact consid�rable sur les dur�es individuelles de traitement des t�ches.
   
 Une application pratique dans laquelle cette technique peut repr�senter des avantages importants est celle des m�thodes Monte�Carlo, ainsi que d�autres t�ches intensives num�riques qui peuvent �tre divis�es en sous-t�ches moins volumineuses pouvant �tre confi�es aux serveurs.
   
@@ -225,8 +225,8 @@ Pour que les fonctions d�un XLL soient disponibles de cette fa�on, elles doi
 ## <a name="see-also"></a>Voir aussi
 
 - [Recalcul Excel](excel-recalculation.md)  
-- [Gestion de la m�moire dans Excel](memory-management-in-excel.md) 
-- [Acc�s au code XLL dans Excel (en anglais)](accessing-xll-code-in-excel.md)  
+- [Gestion de la mémoire dans Excel](memory-management-in-excel.md) 
+- [Accés au code XLL dans Excel](accessing-xll-code-in-excel.md)  
 - [Concepts de programmation Excel](excel-programming-concepts.md)  
-- [R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+- [Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
 

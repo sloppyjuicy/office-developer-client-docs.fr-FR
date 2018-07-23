@@ -30,7 +30,7 @@ Vous pouvez accéder à une commande ou à une fonction DLL dans Microsoft Exce
     
 Cette documentation ne couvre pas les fonctions XLM. Il est recommand� d�utiliser l�une des deux autres approches.
   
-Pour pouvoir acc�der � la fonction ou � la commande directement � partir de la feuille de calcul ou d�un �l�ment personnalis� dans l�interface utilisateur, elles doivent pr�alablement �tre inscrites aupr�s d�Excel. Pour plus d�informations sur l�inscription des commandes et des fonctions, voir [Acc�s au code XLL dans Excel (en anglais)](accessing-xll-code-in-excel.md).
+Pour pouvoir accéder � la fonction ou � la commande directement � partir de la feuille de calcul ou d�un �l�ment personnalis� dans l�interface utilisateur, elles doivent pr�alablement �tre inscrites aupr�s d�Excel. Pour plus d�informations sur l�inscription des commandes et des fonctions, voir [Accés au code XLL dans Excel](accessing-xll-code-in-excel.md).
   
 ## <a name="calling-dll-functions-and-commands-from-vba"></a>Appel des fonctions et commandes DLL à partir de VBA
 
@@ -48,14 +48,14 @@ Vous pouvez acc�der aux fonctions et commandes DLL dans VBA � l�aide de l�
   [Public | Private] Declare Function name Lib "libname" [Alias "aliasname"] [([arglist])] [As type]
   ```
 
-Les mots cl�s facultatifs **Public** et **Private** indiquent la port�e de la fonction import�e, respectivement l�ensemble du projet Visual�Basic ou le module Visual�Basic. Le nom est celui que vous souhaitez utiliser dans le code VBA. S�il est diff�rent du nom dans DLL, vous devez utiliser le sp�cificateur Alias ��aliasname��, et vous devez indiquer le nom de la fonction comme export� par DLL. Si vous souhaitez acc�der � une fonction DLL en r�f�rence � un nombre ordinal DLL, vous devez fournir un nom d�alias, autrement dit l�ordinal pr�fix� par **#**.
+Les mots cl�s facultatifs **Public** et **Private** indiquent la port�e de la fonction import�e, respectivement l�ensemble du projet Visual�Basic ou le module Visual�Basic. Le nom est celui que vous souhaitez utiliser dans le code VBA. S�il est diff�rent du nom dans DLL, vous devez utiliser le sp�cificateur Alias ��aliasname��, et vous devez indiquer le nom de la fonction comme export� par DLL. Si vous souhaitez acc�der � une fonction DLL en référence � un nombre ordinal DLL, vous devez fournir un nom d�alias, autrement dit l�ordinal pr�fix� par **#**.
   
 Les commandes doivent renvoyer **void**. Les fonctions doivent renvoyer des types que VBA peut reconna�tre, **ByVal**. Cela signifie que certains types sont renvoy�s plus facilement en modifiant les arguments en place : chaînes, tableaux, types d�finis par l�utilisateur et objets.
   
 > [!NOTE]
 > VBA ne peut pas v�rifier que la liste d�arguments et que le renvoi indiqu� dans le module Visual�Basic sont les m�mes que ceux cod�s dans DLL. Vous devez v�rifier cet �l�ment vous-m�me tr�s attentivement, car une erreur peut provoquer un incident d�Excel. 
   
-Lorsque les arguments de la fonction ou de la commande ne sont pas transmis par r�f�rence ou pointeur, ils doivent �tre pr�c�d�s du mot cl� **ByVal** dans la d�claration **arglist**. Lorsqu�une fonction C/C++ prend des arguments de pointeur, ou qu�une fonction C++ prend des arguments de r�f�rence, ils doivent �tre transmis **ByRef**. Le mot cl� **ByRef** peut �tre omis des listes d�arguments, car il s�agit de la valeur par d�faut dans VBA. 
+Lorsque les arguments de la fonction ou de la commande ne sont pas transmis par référence ou pointeur, ils doivent �tre pr�c�d�s du mot cl� **ByVal** dans la d�claration **arglist**. Lorsqu�une fonction C/C++ prend des arguments de pointeur, ou qu�une fonction C++ prend des arguments de référence, ils doivent �tre transmis **ByRef**. Le mot cl� **ByRef** peut �tre omis des listes d�arguments, car il s�agit de la valeur par d�faut dans VBA. 
   
 ### <a name="argument-types-in-cc-and-vba"></a>Types d’arguments dans C/C++ et VBA
 
@@ -112,13 +112,13 @@ Excel transmet uniquement des variantes des types suivants � une fonction d�
 |Boolean  <br/> |**VT_BOOL** <br/> ||
 |Date  <br/> |**VT_DATE** <br/> ||
 |String  <br/> |**VT_BSTR** <br/> |Cha�ne d�octets BSTR OLE  <br/> |
-|Range  <br/> |**VT_DISPATCH** <br/> |R�f�rences de plage et de cellule  <br/> |
+|Range  <br/> |**VT_DISPATCH** <br/> |Références de plage et de cellule  <br/> |
 |Variant contenant un tableau  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |Tableaux de type litt�ral  <br/> |
 |Ccy  <br/> |**VT_CY** <br/> |Nombre entier de 64�bits mis � l��chelle pour autoriser 4�d�cimales de pr�cision.  <br/> |
 |Variant contenant une erreur  <br/> |**VT_ERROR** <br/> ||
 ||**VT_EMPTY** <br/> |Cellules vides ou arguments omis  <br/> |
    
-Vous pouvez v�rifier le type d�un �l�ment Variant transmis dans VBA � l�aide de **VarType**, sauf que la fonction renvoie le type des valeurs de la plage lorsqu�elle est appel�e avec des r�f�rences. Pour d�terminer si un �l�ment **Variant** est un objet de r�f�rence **Range**, vous pouvez utiliser la fonction **IsObject**. 
+Vous pouvez v�rifier le type d�un �l�ment Variant transmis dans VBA � l�aide de **VarType**, sauf que la fonction renvoie le type des valeurs de la plage lorsqu�elle est appel�e avec des références. Pour d�terminer si un �l�ment **Variant** est un objet de référence **Range**, vous pouvez utiliser la fonction **IsObject**. 
   
 Vous pouvez cr�er des �l�ments **Variants** qui contiennent des tableaux de variantes dans VBA � partir d�un �l�ment **Range** en affectant sa propri�t� **Value** � un �l�ment **Variant**. Toutes les cellules de la plage source qui sont mises en forme � l�aide du format de devise standard pour les param�tres r�gionaux en vigueur � ce moment-l� sont converties en �l�ments de tableau de type **Currency**. Toutes les cellules mises en forme en tant que dates sont converties en �l�ments de tableau de type **Date**. Les cellules contenant des chaînes sont converties en variantes **BSTR** � caract�res larges. Les cellules contenant des erreurs sont converties en �l�ments **Variants** de type **VT_ERROR**. Les cellules contenant les valeurs **Boolean** **True** ou **False** sont converties en �l�ments **Variants** de type **VT_BOOL**. 
   
