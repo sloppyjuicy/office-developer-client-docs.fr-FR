@@ -41,13 +41,13 @@ Un utilisateur peut indiquer un autre service de données météorologiques pour
     
 2. Pour demander un code d’emplacement, le service web autorise Outlook à ajouter les paramètres suivants à l’URL de base : 
     
-   - outputview = cherche : ce paramètre indique que la demande est une recherche d’emplacement.
+   - outputview=search : ce paramètre indique que la demande est une recherche d’emplacement.
     
-   - weasearchstr = _Ville_: ce paramètre indique l’emplacement _Ville_, pour laquelle l'utilisateur souhaite recevoir des prévisions météorologiques (par exemple, Londres).
+   - weasearchstr=_city_ : ce paramètre indique le lieu (_ville_), pour lequel l'utilisateur souhaite recevoir des prévisions météorologiques (par exemple, Londres).
     
-   - culture = _LCID_: ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
+   - src=outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
     
    Ces paramètres permettent à Outlook de connaître le lieu qui intéresse l'utilisateur et de rechercher le code d'emplacement associé pris en charge par le service de données météorologiques. Le service web doit répondre à Outlook avec un code d'emplacement sous la forme d'un code XML conforme au [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). La figure 2 récapitule la demande et la réponse du service web relatives à un code d'emplacement.
     
@@ -55,15 +55,15 @@ Un utilisateur peut indiquer un autre service de données météorologiques pour
 
    ![Demande météo et réponse en fonction du lieu](media/ol15_WeatherBar_Fig02.gif)
   
-3. Pour demander un code d’emplacement, le service web autorise également Outlook à ajouter les paramètres suivants à l’URL de base :
+3. Pour demander un code de lieu, le service web autorise également Outlook à ajouter les paramètres suivants à l’URL de base :
     
-   - wealocations = _code_: _code_ de ce paramètre représente le code d'emplacement qu'Outlook obtient lors de l’étape 2. Ce code permet d'identifier le lieu qui intéresse l'utilisateur. 
+   - wealocations=_code_ : « _code_ » dans ce paramètre représente le code de lieu qu'Outlook obtient lors de l’étape 2. Ce code permet d'identifier le lieu qui intéresse l'utilisateur. 
     
-   - weadegreetype = _degreetype_: ce paramètre spécifie si vous souhaitez utiliser les unités de mesure métriques ou impériales pour la température. Pour _degreetype_, spécifiez c pour métrique, f pour impérial. Ce paramètre est facultatif et n’est pas toujours disponible dans la demande de service web.
+   - weadegreetype=_degreetype_ : ce paramètre spécifie si vous souhaitez utiliser les unités de mesure métriques ou impériales pour la température. Pour _degreetype_, spécifiez c pour métrique, f pour impérial. Ce paramètre est facultatif et n’est pas toujours disponible dans la demande de service web.
     
-   - culture = _LCID_: ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
+   - src=outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
     
    Ces paramètres permettent à Outlook de prendre le code d'emplacement renvoyé à l'étape 2 et de demander des prévisions météorologiques au service de données. Le service web doit répondre à Outlook avec les données météorologiques correspondantes sous la forme d'un code XML conforme au [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). La figure 3 récapitule la demande et la réponse du service web relatives à un code d'emplacement.
     
@@ -215,7 +215,7 @@ La barre météorologique du calendrier Outlook utilise MSN Météo par défaut 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Schéma XML d’emplacement météorologique d’Outlook](outlook-weather-location-xml-schema.md)   
+- [Schéma XML de lieu météorologique d’Outlook](outlook-weather-location-xml-schema.md)   
 - [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md)
     
 

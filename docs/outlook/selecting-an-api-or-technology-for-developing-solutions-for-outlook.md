@@ -17,7 +17,7 @@ ms.locfileid: "19787597"
 
 Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et vous aide à choisir l'API ou la technologie adaptée à votre scénario.
   
-Microsoft prend en charge diverses API et des technologies qui s’étendent Outlook : 
+Microsoft prend en charge diverses API et des technologies qui étendent Outlook : 
   
 - Nouveauté dans Office 2013 : la plateforme d'applications pour Office offre des possibilités d'extension des fonctionnalités Outlook dans les clients Outlook sur ordinateur de bureau, tablette et smartphone. La plateforme comprend une interface API JavaScript pour Office et un schéma pour les manifestes d'application.
     
@@ -305,7 +305,7 @@ Figure 3. Autres scénarios pris en charge par le modèle d'objet ou PIA depuis 
   
 [![Énumérer et afficher les éléments dans un dossier](media/odc_ol15_ta_SelectingAPI_Fig3-4.gif)
   
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Enumerating)[![Marquer les éléments comme tâches](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
+](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Enumerating)[![Marquer des éléments comme tâches](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
   
 ](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemsFlag)[![Partager les calendriers, les flux RSS et les dossiers](media/odc_ol15_ta_SelectingAPI_Fig3-6.gif)
   
@@ -323,7 +323,7 @@ Figure 3. Autres scénarios pris en charge par le modèle d'objet ou PIA depuis 
   
 ](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_PrimaryAccount)[![Gérer les listes de distribution et les utilisateurs Exchange](media/odc_ol15_ta_SelectingAPI_Fig3-11.gif)
   
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AddressBook)[![Enregistrer les données privées pour les solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
+](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AddressBook)[![Enregistrer des données privées de solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
   
 ](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_StoringData)
   
@@ -491,7 +491,7 @@ Après avoir choisi les API ou technologies à utiliser dans votre solution, vou
 
 [Vue d'ensemble de la plateforme des compléments pour Office](http://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) fournit une bonne introduction sur les Compléments Office, notamment l'architecture et le cycle de vie de développement. 
   
-Consulter [compléments Outlook](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) pour une feuille de route détaillée de ressources concernant le développement d’applications de courrier. 
+Consultez l’article [Compléments Outlook](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) pour une feuille de route détaillée des ressources concernant le développement d’applications de courrier. 
   
 ## <a name="see-also-object-model-and-pia"></a>Voir aussi : modèle objet et PIA 
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
@@ -540,7 +540,7 @@ Les ressources suivantes fournissent plus d'informations sur l'utilisation du mo
 ### <a name="attachments"></a>Attachments
 <a name="OLSelectAPI_Attachments"> </a>
 
-- [Joindre un fichier à un élément de messagerie](http://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
+- [Joindre un fichier à un élément de courrier](http://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
 - [Types de pièces jointes limités par Outlook 2010](http://technet.microsoft.com/fr-FR/library/cc179163.aspx)
     
@@ -582,7 +582,7 @@ Les ressources suivantes fournissent plus d'informations sur l'utilisation du mo
     
 - [Pourquoi utiliser Outlook PIA](http://msdn.microsoft.com/library/5cc9085e-7c97-4698-8cb9-e33e427c02e7%28Office.15%29.aspx)
     
-- [Méthodes conseillées pour le développement de compléments managés Outlook](http://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
+- [Méthodes conseillées pour le développement de compléments Outlook gérés](http://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
     
 - [Obtenir une instance d’Outlook et s’y connecter](http://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
     
@@ -628,7 +628,7 @@ Les ressources suivantes fournissent plus d'informations sur l'utilisation du mo
     
 - [Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur](http://msdn.microsoft.com/library/8021dd2b-c36c-492b-b281-783e85140ad8%28Office.15%29.aspx)
     
-### <a name="explorer-inline-response"></a>Explorer : réponse inline
+### <a name="explorer-inline-response"></a>Explorateur : réponse incluse
 <a name="OLSelectAPI_InlineResponse"> </a>
 
 - Propriété [Explorer.ActiveInlineResponse](http://msdn.microsoft.com/library/fc38314d-7cff-44f4-9151-6129f918a721%28Office.15%29.aspx) 
@@ -707,7 +707,7 @@ Consultez les propriétés suivantes liées aux tâches dans certains objets d'�
     
 - [Gérer les règles dans le modèle d’objet Outlook](http://msdn.microsoft.com/library/05ddd643-e9bd-a37d-b680-b8519960a5f6%28Office.15%29.aspx)
     
-- [Créer une règle pour déplacer des messages électroniques spécifiques vers un dossier](http://msdn.microsoft.com/library/e72fa307-8224-c2d2-1318-a18cd8e9f22f%28Office.15%29.aspx)
+- [Créer une règle pour déplacer des courriers spécifiques vers un dossier](http://msdn.microsoft.com/library/e72fa307-8224-c2d2-1318-a18cd8e9f22f%28Office.15%29.aspx)
     
 - Objet [Rules](http://msdn.microsoft.com/library/dd41b4de-bf5f-5532-46c9-394a5d078bec%28Office.15%29.aspx) 
     
@@ -864,7 +864,7 @@ Les ressources suivantes fournissent plus d'informations sur les API auxiliaires
 
 - [Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d'Outlook)](auxiliary/how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-### <a name="rebase-calendars"></a>Relocaliser calendriers
+### <a name="rebase-calendars"></a>Relocaliser les calendriers
 
 - [À propos de la relocalisation des calendriers par programme à l'heure](auxiliary/about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     

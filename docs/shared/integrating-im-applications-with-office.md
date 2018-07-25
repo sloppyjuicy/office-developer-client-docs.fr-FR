@@ -60,12 +60,12 @@ Vous pouvez personnaliser une application cliente de messagerie instantanée afi
 Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](http://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office. 
   
 > [!IMPORTANT] 
-> La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela ne fonctionne uniquement que lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll. 
+> La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela fonctionne uniquement lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll. 
   
 > [!NOTE]
->  Une multitude d'applications Office 2010 peuvent également s'intégrer à une application de fournisseur de messagerie instantanée tierce : Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 et SharePoint Server 2010 (à l'aide d'un contrôle ActiveX). Nombre des étapes nécessaires pour l’intégration avec Office 2013 s’appliquent aussi à Office 2010. Il existe plusieurs principales différences dans la manière dont Office 2010 est intégré avec une application de fournisseur de messagerie instantanée : 
->  - Office 2010 n’affiche pas photo du contact. 
->  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [Lync 2010 SDK](http://www.microsoft.com/en-us/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
+>  Une multitude d'applications Office 2010 peuvent également s'intégrer à une application de fournisseur de messagerie instantanée tierce : Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 et SharePoint Server 2010 (à l'aide d'un contrôle ActiveX). Nombre des étapes nécessaires pour l’intégration avec Office 2013 s’appliquent aussi à Office 2010. Il existe plusieurs différences dans la manière dont Office 2010 est intégré avec une application de fournisseur de messagerie instantanée : 
+>  - Office 2010 n’affiche pas la photo du contact. 
+>  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [SDK Lync 2010](http://www.microsoft.com/en-us/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
 >  - Lorsque l’application Office appelle la méthode [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) dans l’application cliente de messagerie instantanée, elle transfère la chaîne « 14.0.0.0 ». 
 >  - Office 2010 énumère tous les groupes et les contacts dès qu'il se connecte à une application cliente de messagerie instantanée. 
   
@@ -245,7 +245,7 @@ public class LitwareClientAppObject : IUCOfficeIntegration
 
 La méthode **GetAuthenticationInfo** prend une chaîne comme argument pour le paramètre  _version_. Lorsque l’application Office appelle cette méthode, elle transfert l’une des deux chaînes comme argument, en fonction de la version d’Office. Lorsque l'application Office fournit la méthode avec la version d'Office prise en charge par l'application cliente de messagerie instantanée (autrement dit, qui prend en charge la fonctionnalité), la méthode **GetAuthenticationInfo** renvoie une chaîne XML `<authenticationinfo>` codée en dur. 
   
-Utiliser le code suivant pour implémenter la méthode **GetAuthentication** dans le code d’application cliente de messagerie instantanée. 
+Utilisez le code suivant pour implémenter la méthode **GetAuthentication** dans le code d’application cliente de messagerie instantanée. 
   
 ```cs
 public string GetAuthenticationInfo(string _version)

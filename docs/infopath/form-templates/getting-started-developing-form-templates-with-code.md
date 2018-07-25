@@ -41,7 +41,7 @@ Cette section offre des informations sur la création de modèles de formulaire 
   
 > Décrit comment ajouter des gestionnaires d’événements à un modèle de formulaire en code managé InfoPath. 
     
-[Afficher un aperçu et Déboguer des modèles de formulaires InfoPath avec code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Afficher un aperçu et déboguer des modèles de formulaires InfoPath avec code](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > Décrit comment afficher un aperçu et déboguer des modèles de formulaires en code managé InfoPath.
     

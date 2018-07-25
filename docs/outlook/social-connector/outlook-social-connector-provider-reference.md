@@ -29,11 +29,11 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Prise en main de développement d’un fournisseur Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): fournit une vue d’ensemble d’OSC, abordant les points suivants : comment un fournisseur OSC peut être utile, les étapes rapides pour apprendre à développer un fournisseur, les exigences techniques, les meilleures pratiques pour développer un fournisseur et quelles sont les nouveautés dans cette version.
+- [Prise en main du développement d’un fournisseur Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): fournit une vue d’ensemble d’OSC, abordant les points suivants : comment un fournisseur OSC peut être utile, les étapes rapides pour apprendre à développer un fournisseur, les exigences techniques, les meilleures pratiques pour développer un fournisseur et quelles sont les nouveautés dans cette version.
     
 - [Exemples de modèles OSC](osc-sample-templates.md): décrit plusieurs modèles de Visual Studio pour le développement d’un fournisseur.
     
-- [Séquences d’appels classiques OSC](osc-typical-calling-sequences.md): décrit quelques séquences appels classiques par OSC des membres dans les interfaces d’extensibilité du fournisseur OSC. Cela vous permettra à mieux comprendre comment implémenter ces interfaces.
+- [Séquences d’appels classiques OSC](osc-typical-calling-sequences.md): décrit quelques séquences d’appel classiques par OSC des membres dans les interfaces d’extensibilité du fournisseur OSC. Cela vous permettra de mieux comprendre comment implémenter ces interfaces.
     
 - [Développement d’un fournisseur présentant le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md): décrit comment les interfaces d'extensibilité du fournisseur OSC et le schéma XML OSC sont conçus pour prendre en charge un fournisseur OSC.
     
@@ -41,13 +41,13 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
     
 - [Déploiement d’un fournisseur](deploying-a-provider.md): décrit la configuration requise d’inscription pour un fournisseur OSC et fournit une liste de vérification pour l’installation d’un fournisseur.
     
-- [Préparation à l’élaboration d’un fournisseur OSC](getting-ready-to-release-an-osc-provider.md): propose une série de tests à effectuer avant de publier un fournisseur OSC.
+- [Préparation à la publication d’un fournisseur OSC](getting-ready-to-release-an-osc-provider.md): propose une série de tests à effectuer avant de publier un fournisseur OSC.
     
-- [Fournisseur référence Outlook Social Connector](outlook-social-connector-provider-reference-0.md): fournit des informations de référence pour les interfaces d’extensibilité du fournisseur OSC et le schéma XML OSC et répertorie les codes d’erreur possibles.
+- [Référence du fournisseur Outlook Social Connector](outlook-social-connector-provider-reference-0.md): fournit des informations de référence pour les interfaces d’extensibilité du fournisseur OSC et le schéma XML OSC et répertorie les codes d’erreur possibles.
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Informations de copyright-référence du fournisseur Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
+- [Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Conventions de document](http://msdn.microsoft.com/fr-FR/office/aa905365.aspx)   
 - [Accessibilité des produits Microsoft](http://www.microsoft.com/enable/products/default.aspx)  
 - [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/fr-FR/privacystatement)

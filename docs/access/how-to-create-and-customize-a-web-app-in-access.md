@@ -52,7 +52,7 @@ Supposons que vous vouliez créer une application Access qui assure le suivi des
     
    **Figure 1. Modèles appropriés pour la recherche des problèmes**
 
-   ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles correspondant à la recherche des problèmes")
+   ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles appropriés pour la recherche des problèmes")
   
 4. Sélectionnez **Problèmes**.
     
@@ -153,11 +153,11 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
 7. Dans la liste déroulante **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**. 
     
     > [!NOTE]
-    > Vous verrez deux listes déroulantes **Ajouter une nouvelle Action**, une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la liste déroulante **Ajouter une nouvelle Action** dans le bloc **LookupRecord**, comme illustré dans la Figure 7. 
+    > Vous verrez deux listes déroulantes **Ajouter une nouvelle action** : une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la liste déroulante **Ajouter une nouvelle action** dans le bloc **LookupRecord**, comme illustré dans la Figure 7. 
   
-   **Figure 7. Liste déroulante Ajouter une nouvelle Action**
+   **Figure 7. Liste déroulante Ajouter une nouvelle action**
 
-   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Liste déroulante Ajouter une nouvelle Action")
+   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access15_CreateAndCustomizeWebApp_Figure07.jpg "Liste déroulante Ajouter une nouvelle action")
   
 8. Dans le champ **Nom**, entrez **TéléphoneContact**. 
     
@@ -221,15 +221,15 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
     
     La macro doit ressembler celle illustrée à la figure 9.
     
-    **Figure 9. Après la Mise à jour de macros**
+    **Figure 9. Macro Après mise à jour**
 
-    ![Après la Mise à jour de macros](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Après la Mise à jour de macros")
+    ![Macro Après mise à jour](media/odc_Access15_CreateAndCustomizeWebApp_Figure09.jpg "Macro Après mise à jour")
   
 11. Fermez l'affichage Création de macros.
     
 12. Fermez l'affichage Liste des problèmes. Lorsque vous êtes invité à enregistrer vos modifications, sélectionnez **Oui**. 
     
-À présent, nous sommes prêts pour la personnalisation du texte. Cliquez sur **Lancer l’application** pour ouvrir l’application dans votre navigateur web et ajoutez un problème. Le champ **Coordonnées du contact** est automatiquement mis à jour après la saisie du nom du client, comme illustré à la figure 10. 
+À présent, nous sommes prêts pour la personnalisation du texte. Cliquez sur **Lancer l’application** pour ouvrir l’application dans votre navigateur web, puis ajoutez un problème. Le champ **Coordonnées du contact** est automatiquement mis à jour après la saisie du nom du client, comme illustré à la Figure 10. 
   
 **Figure 10. Affichage Problèmes mis à jour avec un numéro de téléphone**
 
