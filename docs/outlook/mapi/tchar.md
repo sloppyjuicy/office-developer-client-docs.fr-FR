@@ -25,7 +25,7 @@ ms.locfileid: "19787348"
   
 **S’applique à**: Outlook 
   
-Chaîne de caract�res Win32 qui peut �tre utilis�e pour d�crire les chaînes ANSI, DBCS ou Unicode. Pour les plateformes ANSI et DBCS, TCHAR est d�fini comme suit :
+Chaîne de caractères Win32 qui peut être utilisée pour décrire les chaînes ANSI, DBCS ou Unicode. Pour les plateformes ANSI et DBCS, TCHAR est défini comme suit :
   
 ```cpp
 typedef char TCHAR;
@@ -36,9 +36,9 @@ typedef char TCHAR;
 
 Pour les plateformes Unicode, TCHAR est défini comme synonyme du type WCHAR. 
   
-Les clients MAPI peuvent utiliser le type de donn�es TCHAR pour repr�senter une cha�ne de type WCHAR ou CHAR. Veillez � bien d�finir la constante symbolique UNICODE et � limiter la plateforme lorsque cela est n�cessaire. MAPI interpr�te les informations de plateforme et traduit en interne les caract�res TCHAR dans la cha�ne appropri�e. Le type de propri�t� MAPI, PT_TSTRING, fonctionne comme le type de donn�es TCHAR. Lorsque la plateforme prend en charge le langage Unicode, le type PT_UNICODE est affect� aux propri�t�s de type PT_TSTRING lors de la compilation. Si la plateforme ne prend pas en charge le langage Unicode, ces propri�t�s ont le type PT_STRING8.
+Les clients MAPI peuvent utiliser le type de données TCHAR pour représenter une chaîne de type WCHAR ou CHAR. Veillez à bien définir la constante symbolique UNICODE et à limiter la plateforme lorsque cela est nécessaire. MAPI interprète les informations de plateforme et traduit en interne les caractères TCHAR dans la chaîne appropriée. Le type de propriété MAPI, PT_TSTRING, fonctionne comme le type de données TCHAR. Lorsque la plateforme prend en charge le langage Unicode, le type PT_UNICODE est affecté aux propriétés de type PT_TSTRING lors de la compilation. Si la plateforme ne prend pas en charge le langage Unicode, ces propriétés ont le type PT_STRING8.
   
-Pour plus d�informations sur cette fonctionnalit�, voir [Jeux de caract�res](mapi-character-sets.md) et [Liste de types de propri�t�s](property-types.md). 
+Pour plus d’informations sur cette fonctionnalité, voir [Jeux de caractères](mapi-character-sets.md) et [Liste de types de propriétés](property-types.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

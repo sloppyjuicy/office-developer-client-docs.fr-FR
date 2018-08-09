@@ -26,11 +26,11 @@ Révision : novembre 2012
   
 Téléchargez le [SDK XLL Excel 2013](http://go.microsoft.com/fwlink/?LinkID=251082&amp;clcid=0x409).
   
-Le SDK XLL Excel 2013 comprend les �l�ments suivants :
+Le SDK XLL Excel 2013 comprend les éléments suivants :
   
-- **Interface de programmation d�application (API) C** : inclut les fichiers d�en-t�te et sources qui permettent aux DLL d�acc�der � la fonctionnalit� Excel 2013, ainsi qu�une description de l�interface dont doit disposer une DLL pour utiliser le Gestionnaire de compl�ments Excel.
+- **Interface de programmation d’application (API) C** : inclut les fichiers d’en-tête et sources qui permettent aux DLL d’accéder à la fonctionnalité Excel 2013, ainsi qu’une description de l’interface dont doit disposer une DLL pour utiliser le Gestionnaire de compléments Excel.
     
-- **Projets Microsoft Visual Studio** : incluent le code source C/C++ et montrent comment utiliser l�API C. Ces exemples de projets servent de point de d�part � votre d�veloppement personnel de compl�ments.
+- **Projets Microsoft Visual Studio** : incluent le code source C/C++ et montrent comment utiliser l’API C. Ces exemples de projets servent de point de départ à votre développement personnel de compléments.
     
 La documentation du SDK contient les sections suivantes :
   
