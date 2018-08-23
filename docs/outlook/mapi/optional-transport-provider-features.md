@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités du fournisseur de Transport facultatif
+title: Fonctionnalités facultatives de fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0bec2c17-b41c-4e46-8961-a55bde1f7326
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fd685e5bc67a3cb0785d9102e94c11ea921f07ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b55e6518ee1f3f59ef0459b3aeb68461f00a7ab3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784939"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566823"
 ---
-# <a name="optional-transport-provider-features"></a>Fonctionnalités du fournisseur de Transport facultatif
+# <a name="optional-transport-provider-features"></a>Fonctionnalités facultatives de fournisseur de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de transport peuvent mettre en œuvre de fonctionnalités facultatives sont les suivantes :
   

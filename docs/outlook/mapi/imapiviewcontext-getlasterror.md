@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3306e37a-2500-4281-96c3-ca0d5c81909d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f7455e9013f3bd9460ae5f4d876c135594840b68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e373a4abd5e2435d08fc263316ff6ebf650410ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568097"
 ---
 # <a name="imapiviewcontextgetlasterror"></a>IMAPIViewContext::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente à l’objet de contexte d’affichage en cours. 
   

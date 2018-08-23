@@ -1,21 +1,21 @@
 ---
-title: Déconnexion d’un complément en mode hors connexion d’état
+title: Déconnexion d’un complément d’état hors connexion
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 82f529f58a62f412ed8b25d1ceaf508463491612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19783165"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564135"
 ---
-# <a name="disconnecting-an-offline-state-add-in"></a>Déconnexion d’un complément en mode hors connexion d’état
+# <a name="disconnecting-an-offline-state-add-in"></a>Déconnexion d’un complément d’état hors connexion
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque le complément hors connexion est déconnecté, vous devez implémenter les fonctions pour terminer correctement et de nettoyer le complément. Pour plus d’informations sur la configuration et l’utilisation hors connexion d’état de complément pour surveiller les changements d’état de connexion, voir le [complément de paramètre d’un état en mode hors connexion](setting-up-an-offline-state-add-in.md) et [Surveillance connexion état modifications en utilisant un complément état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -145,9 +145,9 @@ void UnloadLibraries()
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
-- [L’installation de l’exemple en mode hors connexion d’état complément](installing-the-sample-offline-state-add-in.md)
-- [À propos de l’exemple en mode hors connexion-dans l’état](about-the-sample-offline-state-add-in.md)
-- [Configuration d’un complément en mode hors connexion d’état](setting-up-an-offline-state-add-in.md)
-- [Analyse l’état de connexion change utilisant un complément en mode hors connexion d’état](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+- [À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
+- [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md)
+- [À propos de l’exemple de complément d’état hors connexion](about-the-sample-offline-state-add-in.md)
+- [Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md)
+- [Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 

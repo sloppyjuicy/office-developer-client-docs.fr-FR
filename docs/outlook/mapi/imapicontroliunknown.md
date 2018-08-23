@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 395e44c2ea54816fab9f29dbedfe5e165e98c7b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 80acb1a1e4663a68efc4692ab67ec27bc369f4b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566515"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet de désactive un contrôle bouton et effectue des tâches lorsqu’un utilisateur d’une application cliente clique sur le contrôle activé. Fournisseurs de services implémentent des objets de contrôle pour créer des boutons personnalisés dans les boîtes de dialogue, tels que des feuilles de propriétés de configuration, qui sont définies à l’aide de tables de l’affichage. 
   

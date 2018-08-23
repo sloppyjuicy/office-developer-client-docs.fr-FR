@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b8212f4a055125858b77ee615a5d929a4a62bb82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d8c9fb0b24d8954fae75274bfbedca9d7c62de93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784599"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567859"
 ---
 # <a name="mapi-entry-identifiers"></a>Identificateurs d’entrée MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Identificateurs d’entrée sont des éléments de données binaires stockées dans une structure [ENTRYID](entryid.md) qui servent à identifier et ouvrir un objet MAPI de manière unique. La plupart des objets MAPI ont des identificateurs d’entrée. Identificateurs d’entrée pour les objets sont similaires aux noms des fichiers. Toutefois, elles ne sont pas transmissible et ne peut pas être utilisés sur les systèmes autres que le système qu'ils provient. 
   

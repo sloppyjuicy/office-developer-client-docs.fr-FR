@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2bded946a1fc7d7ab181d3953defa24e247c003c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784002"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568209"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Traite un message envoy�.
   

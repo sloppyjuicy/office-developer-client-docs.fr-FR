@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 252b6d6c7ff74acd5f0b288af48ff2901c2330ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 51c239897e5e225a0765f78404526e2836371f30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784110"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567901"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Reconstruit l’état actuel de développés ou réduit d’une table, voir l’aide de données qui a été enregistrées par un appel antérieur à la méthode [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) . 
   

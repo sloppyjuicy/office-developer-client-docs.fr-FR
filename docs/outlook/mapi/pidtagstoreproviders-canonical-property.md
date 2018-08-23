@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d9330c3583d95e2124a6eea5720c634b9dba8994
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: adef294255b8f29fc3d4f2d87bd0d7b10009aa57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566273"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Propriété canonique PidTagStoreProviders
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste d’identificateurs de fournisseurs de magasins de message dans le profil actif.
   
@@ -32,7 +32,7 @@ Contient une liste d’identificateurs de fournisseurs de magasins de message da
 |Propriétés associées :  <br/> |PR_STORE_PROVIDERS  <br/> |
 |Identificateur :  <br/> |0x3D00  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Profil MAPI  <br/> |
+|Domaine :  <br/> |Profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: abd2a3e2a1a810f902ad977413c89f2e8b0113a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5380b6541e609c17a9005c3390c6d5db06155306
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783785"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567243"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau des propriétés qui utilise un groupe de formulaires.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc9b00b6-6337-411b-9219-067dd6c1add3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 158aae90d9e3f90ff6a53026ac299059d6b2a9c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 677457e3e774cfca09fd65ec44ef599e58ea81d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785563"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568377"
 ---
 # <a name="pidnamecomments-canonical-property"></a>Propriété canonique PidNameComments
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie les commentaires du fichier qui est attaché au document.
   
@@ -33,7 +33,7 @@ Spécifie les commentaires du fichier qui est attaché au document.
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Commentaires  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

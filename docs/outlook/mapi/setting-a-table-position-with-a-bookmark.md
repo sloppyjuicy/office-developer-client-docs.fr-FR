@@ -1,5 +1,5 @@
 ---
-title: Définition d’une Position de tableau avec un signet
+title: Définition d’une position de table avec un signet
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d53f15cb439494ae99ff45509ed14c0928756d8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f43e3a7e3376cb437620204a29aed9fb732d3427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787133"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564093"
 ---
-# <a name="setting-a-table-position-with-a-bookmark"></a>Définition d’une Position de tableau avec un signet
+# <a name="setting-a-table-position-with-a-bookmark"></a>Définition d’une position de table avec un signet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un signet est une ressource qui indique un emplacement particulier dans une table. Définition d’un signet rend possible revenir à une position à une date ultérieure, une fonctionnalité qui peut améliorer sensiblement les performances des opérations de table. MAPI définit trois signets standards : 
   

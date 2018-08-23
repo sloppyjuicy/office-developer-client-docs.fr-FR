@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: Contient un exemple de code en langage C++ qui montre comment utiliser IID_IMessageRaw IMsgStore::OpenEntry pour obtenir une interface IMessage qui gère un message dans un fichier de dossiers en mode hors connexion (OST) sans forcer un téléchargement de la totalité du message lorsque le client est dans Exchange mis en cache Mode.
-ms.openlocfilehash: e32bf4f64bfb91979133ee983e45481b3d5b9732
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f094f5a7deae705ed64b912483726aeb409fb107
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783494"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568104"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Gérer les messages dans le fichier OST sans appeler une synchronisation en mode Exchange mis en cache
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple de code en langage C++ qui montre comment utiliser `IID_IMessageRaw` dans **[IMsgStore::OpenEntry](imsgstore-openentry.md)** pour obtenir une interface **[IMessage](imessageimapiprop.md)** qui gère un message dans un fichier de dossiers en mode hors connexion (OST) sans forcer un téléchargement de la totalité du message lorsque le client est en Mode Exchange mis en cache. 
   
@@ -62,6 +62,6 @@ Si la méthode **OpenEntry** renvoie le code d’erreur **MAPI_E_INTERFACE_NOT_S
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos des ajouts MAPI](about-mapi-additions.md) 
-- [Accès un magasin sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
-- [Ouvrir un objet Store sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 

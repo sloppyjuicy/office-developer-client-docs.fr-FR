@@ -1,5 +1,5 @@
 ---
-title: À propos de l’Assembly d’interopérabilité Microsoft Office InfoPath principal
+title: À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code managé tel que Visual c# et Visual Basic, l’option prise en charge de la programmabilité .NET dans le programme d’installation de InfoPath installe trois assemblys d’interopérabilité.
-ms.openlocfilehash: b6b37254773d758dc064e22045d68f29febe7bbe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564128"
 ---
-# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’Assembly d’interopérabilité Microsoft Office InfoPath principal
+# <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office
 
 L’application InfoPath est construite comme une application de composant COM (Object Model) qui expose ses interfaces de programmation pour l’automatisation externe en tant qu’interfaces COM. Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code managé tel que Visual c# et Visual Basic, l’option **Prise en charge de la programmabilité .NET** dans le programme d’installation de InfoPath installe trois assemblys d’interopérabilité. Les assemblys d'interopérabilité sont des assemblys .NET qui font office de lien entre le code managé et le code non managé et mappent les membres des objets COM avec les membres managés .NET équivalents. 
   
@@ -35,11 +35,11 @@ L’option d’installation par défaut du programme d’installation InfoPath i
   
 Si l’assembly Microsoft.Office.Interop.InfoPath n’est pas visible dans le Global Assembly Cache, vous devez vérifier que InfoPath a été installé correctement. Par défaut, l’option de **Prise en charge de la programmabilité .NET** dans le programme d’installation est définie pour **l’Exécuter à partir du disque dur** tant que .NET Framework 1.1 Redistributable, Kit de développement logiciel (SDK) .NET Framework 1.1 ou une version ultérieure du .NET Framework est installé avant d’exécuter le programme d’installation. Si ces assemblys PIA ne sont pas disponibles sur votre ordinateur, vous devez vérifier que .NET Framework version 1.1 ou ultérieure est installé, puis utilisez **programmes et fonctionnalités** dans le **Panneau de configuration** pour modifier le programme d’installation en définissant la programmabilité .NET ** Prise en charge** située sous **Microsoft Office InfoPath** pour **Exécuter à partir du disque dur**.
   
-Pour plus d’informations sur le téléchargement de .NET Framework 1.1 Redistributable, voir [.NET Framework 1.1 Redistributable](http://msdn.microsoft.com/netframework/technologyinfo/redist/default.aspx).
+Pour plus d’informations sur le téléchargement de .NET Framework 1.1 Redistributable, voir [.NET Framework 1.1 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=26).
   
 ## <a name="the-microsoftofficeinteropinfopath-namespace"></a>Le Namespace Microsoft.Office.Interop.InfoPath
 
-Bien que le processus d’écriture géré code pour une tâche donnée est très similaire à l’exécution de la même tâche à l’aide d’un langage de Visual Basic pour Applications ou JScript, le modèle objet exposé lors de l’affichage de la **Microsoft.Office.Interop.InfoPath** espace de noms à partir de l' **Explorateur d’objets** dans Microsoft Visual Studio recherche plus complexe. Il s’agit, car l’interopérabilité avec le .NET Framework requiert un serveur COM pour exposer toutes ses interfaces publics, ainsi que certaines constructions supplémentaires requises par le .NET Framework lui-même. Pour plus d’informations sur comment et pourquoi le modèle objet exposé par un assembly d’interopérabilité s’affiche plus complexe, consultez la section « Comment COM objets sont exposés au Code managé » de la rubrique [Modèles d’objet compatible avec InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx) . 
+Bien que le processus d’écriture géré code pour une tâche donnée est très similaire à l’exécution de la même tâche à l’aide d’un langage de Visual Basic pour Applications ou JScript, le modèle objet exposé lors de l’affichage de la **Microsoft.Office.Interop.InfoPath** espace de noms à partir de l' **Explorateur d’objets** dans Microsoft Visual Studio recherche plus complexe. Il s’agit, car l’interopérabilité avec le .NET Framework requiert un serveur COM pour exposer toutes ses interfaces publics, ainsi que certaines constructions supplémentaires requises par le .NET Framework lui-même. Pour plus d’informations sur comment et pourquoi le modèle objet exposé par un assembly d’interopérabilité s’affiche plus complexe, consultez la section « Comment COM objets sont exposés au Code managé » de la rubrique [Modèles d’objet compatible avec InfoPath 2003](../form-templates/infopath-2003-compatible-object-models.md) . 
   
 ### <a name="using-intellisense"></a>Utilisation d'IntelliSense
 

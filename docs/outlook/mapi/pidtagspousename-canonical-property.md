@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c1b4aabe4f066e8fbb65cbcc5db64a050001e649
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6f41a353172f3991b6ac4a73afc062bd0741d0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566172"
 ---
 # <a name="pidtagspousename-canonical-property"></a>Propriété canonique PidTagSpouseName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom d’utilisateur du conjoint.
   
@@ -32,7 +32,7 @@ Contient le nom d’utilisateur du conjoint.
 |Propriétés associées :  <br/> |PR_SPOUSE_NAME, PR_SPOUSE_NAME_A, PR_SPOUSE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A48  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

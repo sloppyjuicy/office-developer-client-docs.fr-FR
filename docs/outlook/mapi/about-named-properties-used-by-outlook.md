@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 75a08db313ac1b38a400fb329eefa914858ec71e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa4d52d25f120e8b3e2a4c0dcaa4845ad576127a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782846"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566228"
 ---
 # <a name="about-named-properties-used-by-outlook"></a>� propos des propri�t�s nomm�es utilis�es par Outlook
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI fournit un proc�d� pour l'affectation des noms pour certaines propri�t�s, pour le mappage de ces noms � des identificateurs uniques et pour rendre ce nom-�-identificateur mappage persistent entre les sessions. Les propri�t�s nomm�es sont identifi�es par un nom et un identificateur global unique (GUID) d'un jeu de propri�t�s. Le nom peut �tre un nombre ou une cha�ne. Pour Microsoft�Outlook�2013 ou Microsoft�Outlook�2010, le jeu de propri�t�s est souvent un espace de noms d�fini par Outlook�2013 ou Outlook 2010, par exemple **PSETID_Appointment**. 
   
@@ -185,9 +185,9 @@ Les propri�t�s nomm�es dans l'espace de noms **PS_PUBLIC_STRINGS** sont le
 
 [Constantes MAPI](mapi-constants.md)
   
-[Déterminer si Outlook téléchargés uniquement l’en-tête d’un Message](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
+[Déterminer si Outlook a téléchargé uniquement l’en-tête d’un message](how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md)
   
-[Obtenir l’adresse de messagerie d’un élément de Contact](how-to-get-the-email-address-of-a-contact-item.md)
+[Obtenir l’adresse électronique d’un élément de contact](how-to-get-the-email-address-of-a-contact-item.md)
   
-[Supprimer la définition du formulaire personnalisé enregistrée avec un Message](how-to-remove-custom-form-definition-saved-with-a-message.md)
+[Supprimer la définition de formulaire personnalisé enregistrée avec un message](how-to-remove-custom-form-definition-saved-with-a-message.md)
 

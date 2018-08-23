@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 498a740a6523434cc6c70793cf98fd1e2ccfbdb3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0f65c197999f23d959657cbfee9c6fbb0aaf439f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786734"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566284"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailBcc
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne Unicode qui est interrogée dans la liste des adresses de messagerie ou les noms complets des destinataires dans la ligne **Cci** des messages en attente sur le magasin. 
   
@@ -30,7 +30,7 @@ Contient une chaîne Unicode qui est interrogée dans la liste des adresses de m
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificateur :  <br/> |0x0EA8  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Access :  <br/> |Search  <br/> |
+|Access :  <br/> |Recherche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

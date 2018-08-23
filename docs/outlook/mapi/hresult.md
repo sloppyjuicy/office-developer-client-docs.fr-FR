@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5bacf3c73ba7f9a7720586c77ee520d289c40e11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a3e46732f9b74b9cdf2dc4c961e7b6b66e3d91d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783528"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565227"
 ---
 # <a name="hresult"></a>HRESULT
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une valeur de 32 bits qui est utilisée pour décrire une erreur ou un avertissement.
   
@@ -71,5 +71,5 @@ Pour plus d’informations sur l’utilisation OLE de valeurs **HRESULT** , voir
 [SCODE](scode.md)
 
 
-[Types de donn�es MAPI](mapi-data-types.md)
+[Types de données MAPI](mapi-data-types.md)
 

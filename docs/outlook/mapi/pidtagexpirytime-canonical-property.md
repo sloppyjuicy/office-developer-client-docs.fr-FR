@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4666a5837c9f9f2ceb209088929aa3d343eb02f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 21e052545c9c5e68bf1bc2f8c1ead054163f3b8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785997"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566144"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propriété canonique PidTagExpiryTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure lorsque le système de messagerie peut invalider le contenu d’un message. 
   
@@ -32,7 +32,7 @@ Contient la date et l’heure lorsque le système de messagerie peut invalider l
 |Propriétés associées :  <br/> |PR_EXPIRY_TIME  <br/> |
 |Identificateur :  <br/> |0x0015  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

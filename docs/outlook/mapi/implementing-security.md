@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 62db34a0-887c-4607-94ad-d8cae68b35c2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f09d96fd8b35df6cafa81b3830642cf6d67806e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c2926e7c94178d5a3135f34e2ab3b3ae11d145dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568482"
 ---
 # <a name="implementing-security"></a>Implémentation de la sécurité
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Si le système de messagerie a besoin, le fournisseur de transport est responsable de la mise en œuvre d’un niveau de sécurité pour l’accès au système de messagerie approprié. Chaque message entrant ou sortant envoyé via un fournisseur de transport par le spouleur MAPI est géré dans le contexte d’une session d’ouverture de session du fournisseur. Le fournisseur de transport peut afficher une boîte de dialogue d’ouverture de session à l’utilisateur qui vous invite à fournir les informations d’identification d’un utilisateur avant d’établir une connexion de ce type. Sinon, le fournisseur de transport peut stocker les informations d’identification entrées précédemment dans la plage de la propriété sécurisée dans une section de profil et les utiliser pour l’accès sans demander de confirmation.
   

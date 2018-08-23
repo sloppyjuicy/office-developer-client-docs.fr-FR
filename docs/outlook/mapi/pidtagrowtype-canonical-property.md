@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7fdb8781c39d7814ff2c38ff4df4545511d28a5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6e856cc8dc131c1b6266181a954a8da9cfb1d1ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786624"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566102"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>Propriété canonique PidTagRowType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur qui indique le type d’une ligne dans une table.
   
@@ -32,7 +32,7 @@ Contient une valeur qui indique le type d’une ligne dans une table.
 |Propriétés associées :  <br/> |PR_ROW_TYPE  <br/> |
 |Identificateur :  <br/> |0x0FF5  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -85,7 +85,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

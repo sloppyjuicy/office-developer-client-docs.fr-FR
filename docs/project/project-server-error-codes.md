@@ -14,107 +14,107 @@ keywords:
 localization_priority: Normal
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Cette rubrique contient des tableaux des codes d’erreur pour l’Interface Project Server (PSI) dans Project Server 2013. Les tables sont organisées par domaine fonctionnel et par plage de codes d’erreur.
-ms.openlocfilehash: 9d63ed0dde638d123098ec4ffb8de083ddbb4fc6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4d4960c0452c90e267c48ee06de014b9e04b038f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564142"
 ---
 # <a name="project-server-error-codes"></a>Codes d’erreur de Project Server
 
 Cette rubrique contient des tableaux des codes d’erreur pour l’Interface Project Server (PSI) dans Project Server 2013. Les tables sont organisées par domaine fonctionnel et par plage de codes d’erreur.
    
-Project Server 2013 processus et les méthodes PSI ont des numéros de code d’erreur qui sont généralement organisées par zone fonctionnelle. L’énumération [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx) est dupliquée dans [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx); ils répertorient les codes d’erreur dans l’ordre alphabétique par nom. Cette rubrique répertorie les codes d’erreur dans les tables sont organisées par la classe PSI ou domaine fonctionnel et du numéro d’erreur identificateur (ID). 
+Project Server 2013 processus et les méthodes PSI ont des numéros de code d’erreur qui sont généralement organisées par zone fonctionnelle. L’énumération [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/en-us/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) est dupliquée dans [WebSvcProject.PSErrorID](https://msdn.microsoft.com/en-us/library/office/websvcproject.pserrorid_di_pj14mref.aspx); ils répertorient les codes d’erreur dans l’ordre alphabétique par nom. Cette rubrique répertorie les codes d’erreur dans les tables sont organisées par la classe PSI ou domaine fonctionnel et du numéro d’erreur identificateur (ID). 
   
 > [!NOTE]
 >  De nombreux codes d’erreur sont d’ordre général et peuvent avoir plusieurs causes possibles. Pour plus d’informations sur les erreurs, vous pouvez effectuer les actions suivantes : 
-> - Pour les applications basées sur ASMX, utilisez **System.Web.Services.Protocols.SoapException** avec l’objet **PSClientError** pour afficher une liste ou une hiérarchie d’erreurs dans un appel de méthode PSI. Voir [l’exemple de Code d’erreur pour ASMX](#pj15_ErrorCodes_ASMXExample). 
-> - Pour les applications basées sur WCF, vous pouvez utiliser **System.ServiceModel.FaultException** pour obtenir un objet **PSClientError** ainsi que pour obtenir des informations d’erreur supplémentaires. Voir [l’exemple de Code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). 
+> - Pour les applications basées sur ASMX, utilisez **System.Web.Services.Protocols.SoapException** avec l’objet **PSClientError** pour afficher la liste ou la hiérarchie des erreurs dans un appel de méthode PSI. Voir [Exemple de code d’erreur pour ASMX](#pj15_ErrorCodes_ASMXExample). 
+> - Pour les applications basées sur WCF, vous pouvez utiliser **System.ServiceModel.FaultException** pour obtenir un objet **PSClientError** et pour obtenir des informations supplémentaires sur l’erreur. Voir [Exemple de code d’erreur pour WCF](#pj15_ErrorCodes_WCFExample). 
 > - Utilisez le journal d’événements d’application sur l’ordinateur Project Server.
 > - Utilisez les journaux de suivi du Service de journalisation unifiée (ULS). Pour obtenir une explication, consultez la section *Vérification des erreurs* de [Mise en route avec le développement pour Project 2010](http://msdn.microsoft.com/en-us/library/gg607685.aspx). 
 > - Pour plus d’informations sur l’utilisation de journaux ULS, consultez l’article de blog prise en charge du projet [Project Server 2010 : ce qui se passe lorsque vous récupérez l’inattendu](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)et recherchez le blog de « lecture ULS les journaux ». 
 > - Pour vous aider à trouver ou examiner des problèmes spécifiques dans les données ULS, utilisez la [Visionneuse ULS](http://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Utilisez le Générateur de profils Microsoft SQL Server pour aider à catch ou surveiller les erreurs de base de données. Pour plus d’informations, voir [Générateur de profils SQL Server](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
-> - La plupart des codes d’erreur sont utilisés uniquement en interne. Par exemple, les services web **ExchangeSync** et **PWA** ne sont pas pris en charge pour le développement d’un tiers, vous n’êtes pas susceptibles de voir les codes d’erreur à partir de méthodes dans ces domaines, tels que les méthodes de **règles** et **StatusReports** . Toutefois, les tableaux dans cet article incluent tous les codes d’erreur de Project Server pour le type. 
+> - Utilisez le Microsoft SQL Server Profiler pour vous aider à déceler et surveiller les erreurs de base de données. Pour plus d’informations, voir [SQL Server Profiler](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
+> - De nombreux codes d’erreur sont utilisés uniquement en interne. Par exemple, les services web **ExchangeSync** et **PWA** n’étant pas pris en charge pour le développement tiers, vous ne verrez probablement pas de codes d’erreur associés aux méthodes dans ces domaines, telles que les méthodes **Rules** et **StatusReports**. Cependant, les tableaux présents dans cet article comprennent tous les codes d’erreur Project Server par souci d’exhaustivité. 
   
 ## <a name="table-1-error-code-functional-areas-and-related-number-ranges"></a>Tableau 1. Domaines fonctionnels pour les codes d’erreur et plages de numéros correspondantes
 
-|Domaine fonctionnel Project Server|Plages de numéros de code erreur|
+|Domaine fonctionnel Project Server|Plages de numéros de code d’erreur|
 |:-----|:-----|
-|[Tableau 3 : Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |0 - 99 ; 500 - 999. 9131 ; 10000 - 10099 ; 20000 - 20099 ; 26000 - 26099  <br/> |
-|[Tableau 4 : Cache actif](#pj15_ErrorCodes_ActiveCache) <br/> |12000 - 12099  <br/> |
-|[Tableau 5 : La synchronisation Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000 - 27999  <br/> |
-|[Le tableau 6 : Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |16600 - 16699 ; 19011, 19012 et 19032 ; 20003 ; et 25000 - 25099  <br/> |
-|[Le tableau 7 : Archive (sauvegarde et restauration)](#pj15_ErrorCodes_Archive) <br/> |25000 - 25999 ; et 29000 - 29099  <br/> |
-|[Le tableau 8 : affectations](#pj15_ErrorCodes_Assignments) <br/> |120 - 199  <br/> |
-|[Le tableau 9 : calendrier](#pj15_ErrorCodes_Calendar) <br/> |77 ; et 13000 - 13999  <br/> |
-|[Tableau 10 : Cube Build Service (SCC)](#pj15_ErrorCodes_CBS) <br/> |17000 - 17999  <br/> |
+|[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |0 - 99 ; 500 - 999. 9131 ; 10000 - 10099 ; 20000 - 20099 ; 26000 - 26099  <br/> |
+|[Tableau 4. Cache actif](#pj15_ErrorCodes_ActiveCache) <br/> |12000 - 12099  <br/> |
+|[Tableau 5. Synchronisation Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |27000 - 27999  <br/> |
+|[Tableau 6. Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |16600 - 16699 ; 19011, 19012 et 19032 ; 20003 ; et 25000 - 25099  <br/> |
+|[Tableau 7. Archivage (sauvegarde et restauration)](#pj15_ErrorCodes_Archive) <br/> |25000 - 25999 ; et 29000 - 29099  <br/> |
+|[Tableau 8. Affectations](#pj15_ErrorCodes_Assignments) <br/> |120 - 199  <br/> |
+|[Tableau 9. Calendrier](#pj15_ErrorCodes_Calendar) <br/> |77 ; et 13000 - 13999  <br/> |
+|[Tableau 10. Service de construction du cube (SCC)](#pj15_ErrorCodes_CBS) <br/> |17000 - 17999  <br/> |
 |[Le tableau 11 : Intégration - récupération](#pj15_ErrorCodes_CICO) <br/> |10100 - 10199  <br/> |
-|[Tableau 12 : Champs personnalisés](#pj15_ErrorCodes_CustomFields) <br/> |11500 - 11999  <br/> |
-|[Tableau 13 : Tables de choix](#pj15_ErrorCodes_LookupTables) <br/> |11000 - 11499  <br/> |
-|[Le tableau 14 : divers](#pj15_ErrorCodes_Miscellaneous) <br/> |11000 - 11499  <br/> |
-|[Le tableau 15 : Notifications](#pj15_ErrorCodes_Notifications) <br/> |16000 - 16599  <br/> |
-|[Tableau 16 : l’optimiseur](#pj15_ErrorCodes_Optimizer) (analyse de portefeuille de projets)  <br/> |29000 - 29999  <br/> |
-|[Tableau 17 : planificateur](#pj15_ErrorCodes_Planner) (analyse de portefeuille de projets)  <br/> |28000 - 28999  <br/> |
-|[Le tableau 18 : projets](#pj15_ErrorCodes_Projects) <br/> |100 - 499 ; 1000 - 1199 ; 9100 - 9199 ; et 23000-23999  <br/> |
-|[Tableau 19 : Service de données de création de rapports](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000 - 24999  <br/> |
-|[Tableau 20 : ressources](#pj15_ErrorCodes_Resources) <br/> |2000 - 2999  <br/> |
-|[Tableau 21 : Plans de ressources](#pj15_ErrorCodes_ResourcePlans) <br/> |30000 - 30999  <br/> |
-|[Tableau 22 : règles](#pj15_ErrorCodes_Rules) <br/> |21000 - 21099  <br/> |
-|[Le tableau 23 : sécurité](#pj15_ErrorCodes_Security) <br/> |19000 - 19099  <br/> |
-|[24 table : Événements du serveur](#pj15_ErrorCodes_Events) <br/> |19033 ; et 22000 - 22999  <br/> |
-|[Tableau 25 : état](#pj15_ErrorCodes_Statusing) <br/> |3100 - 3199  <br/> |
-|[Tableau 26 : Rapports d’état](#pj15_ErrorCodes_StatusReports) <br/> |12100 - 12299  <br/> |
-|[Tableau 27 : tâches](#pj15_ErrorCodes_Tasks) <br/> |7000 - 7099  <br/> |
-|[Tableau 28 : feuilles de temps](#pj15_ErrorCodes_Timesheets) <br/> |3200 - 3299  <br/> |
-|[Tableau 29 : Délégation d’utilisateur](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
-|[Tableau 30 : flux de travail](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999 : flux de travail  <br/> |
-|[Tableau 31 : WSSInterop et ObjectLinkProvider (intégration SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499 : intégration SharePoint et espaces de travail de projet  <br/> 18000 - 18099 : fournisseur de liaison d’objet et importation de projet SharePoint  <br/> |
+|[Tableau 12. Champs personnalisés](#pj15_ErrorCodes_CustomFields) <br/> |11500 - 11999  <br/> |
+|[Tableau 13. Tables de choix](#pj15_ErrorCodes_LookupTables) <br/> |11000 - 11499  <br/> |
+|[Tableau 14. Divers](#pj15_ErrorCodes_Miscellaneous) <br/> |11000 - 11499  <br/> |
+|[Tableau 15. Notifications](#pj15_ErrorCodes_Notifications) <br/> |16000 - 16599  <br/> |
+|[Tableau 16. Optimiseur](#pj15_ErrorCodes_Optimizer) (analyse de portefeuille de projets)  <br/> |29000 - 29999  <br/> |
+|[Tableau 17. Planificateur](#pj15_ErrorCodes_Planner) (analyse de portefeuille de projets)  <br/> |28000 - 28999  <br/> |
+|[Tableau 18. Projets](#pj15_ErrorCodes_Projects) <br/> |100 - 499 ; 1000 - 1199 ; 9100 - 9199 ; et 23000-23999  <br/> |
+|[Tableau 19. Service de données de création de rapports](#pj15_ErrorCodes_RDS) (RDS)  <br/> |24000 - 24999  <br/> |
+|[Tableau 20. Ressources](#pj15_ErrorCodes_Resources) <br/> |2000 - 2999  <br/> |
+|[Tableau 21. Plan de charge des ressources](#pj15_ErrorCodes_ResourcePlans) <br/> |30000 - 30999  <br/> |
+|[Tableau 22. Règles](#pj15_ErrorCodes_Rules) <br/> |21000 - 21099  <br/> |
+|[Tableau 23. Sécurité](#pj15_ErrorCodes_Security) <br/> |19000 - 19099  <br/> |
+|[Tableau 24. Événements de serveur](#pj15_ErrorCodes_Events) <br/> |19033 ; et 22000 - 22999  <br/> |
+|[Tableau 25. Gestion des états](#pj15_ErrorCodes_Statusing) <br/> |3100 - 3199  <br/> |
+|[Tableau 26. Rapports d’état](#pj15_ErrorCodes_StatusReports) <br/> |12100 - 12299  <br/> |
+|[Tableau 27. Tâches](#pj15_ErrorCodes_Tasks) <br/> |7000 - 7099  <br/> |
+|[Tableau 28. Feuilles de temps](#pj15_ErrorCodes_Timesheets) <br/> |3200 - 3299  <br/> |
+|[Table 29. Délégation d’utilisateur](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
+|[Tableau 30. Flux de travail](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999 : flux de travail  <br/> |
+|[Tableau 31. WSSInterop et ObjectLinkProvider (intégration SharePoint)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499 : intégration SharePoint et espaces de travail de projet  <br/> 18000 - 18099 : fournisseur de liaison d’objet et importation de projet SharePoint  <br/> |
    
 ## <a name="table-2-error-code-table-by-number-range"></a>Tableau 2. Tableau de code d’erreur par plage de numéros
 
-|Plage de codes d’erreur|Tableau de code d’erreur|
+|Plage de codes d’erreur |Tableau de code d’erreur|
 |:-----|:-----|
-|0 - 99  <br/> |[Tableau 3 : codes d’erreur générale](#pj15_ErrorCodes_General), sauf 77 est [tableau 9 : calendrier](#pj15_ErrorCodes_Calendar) <br/> |
-|100 - 119  <br/> |[Le tableau 18 : projets](#pj15_ErrorCodes_Projects) <br/> |
-|120 - 199  <br/> |[Le tableau 8 : affectations](#pj15_ErrorCodes_Assignments) <br/> |
-|500 - 999  <br/> |[Tableau 3 : Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
-|1000 - 1199  <br/> |[Le tableau 18 : projets](#pj15_ErrorCodes_Projects) <br/> |
-|2000 - 2999  <br/> |[Tableau 20 : ressources](#pj15_ErrorCodes_Resources) <br/> |
-|3100 - 3199  <br/> |[Tableau 25 : état](#pj15_ErrorCodes_Statusing) <br/> |
-|3200 - 3299  <br/> |[Tableau 28 : feuilles de temps](#pj15_ErrorCodes_Timesheets) <br/> |
-|7000 - 7099  <br/> |[Tableau 27 : tâches](#pj15_ErrorCodes_Tasks) <br/> |
-|9100 - 9199  <br/> |[Le tableau 18 : projets](#pj15_ErrorCodes_Projects), sauf 9131 se trouve dans [tableau 3 : codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
-|10000 - 10099  <br/> |[Tableau 3 : Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
+|0 - 99  <br/> |[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General), sauf 77 qui se trouve dans le [Tableau 9. Calendrier](#pj15_ErrorCodes_Calendar) <br/> |
+|100 - 119  <br/> |[Tableau 18. Projets](#pj15_ErrorCodes_Projects) <br/> |
+|120 - 199  <br/> |[Tableau 8. Affectations](#pj15_ErrorCodes_Assignments) <br/> |
+|500 - 999  <br/> |[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
+|1000 - 1199  <br/> |[Tableau 18. Projets](#pj15_ErrorCodes_Projects) <br/> |
+|2000 - 2999  <br/> |[Tableau 20. Ressources](#pj15_ErrorCodes_Resources) <br/> |
+|3100 - 3199  <br/> |[Tableau 25. Gestion des états](#pj15_ErrorCodes_Statusing) <br/> |
+|3200 - 3299  <br/> |[Tableau 28. Feuilles de temps](#pj15_ErrorCodes_Timesheets) <br/> |
+|7000 - 7099  <br/> |[Tableau 27. Tâches](#pj15_ErrorCodes_Tasks) <br/> |
+|9100 - 9199  <br/> |[Tableau 18. Projets](#pj15_ErrorCodes_Projects), sauf 9131 qui se trouve dans le [Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
+|10000 - 10099  <br/> |[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
 |10100 - 10199  <br/> |[Le tableau 11 : Intégration - récupération](#pj15_ErrorCodes_CICO) <br/> |
-|11000 - 11499  <br/> |[Tableau 13 : Tables de choix](#pj15_ErrorCodes_LookupTables) <br/> |
-|11500 - 11999  <br/> |[Tableau 12 : Champs personnalisés](#pj15_ErrorCodes_CustomFields) <br/> |
-|12000 - 12099  <br/> |[Tableau 4 : Cache actif](#pj15_ErrorCodes_ActiveCache) <br/> |
-|12100 - 12299  <br/> |[Tableau 26 : Rapports d’état](#pj15_ErrorCodes_StatusReports) <br/> |
-|13000 - 13999  <br/> |[Le tableau 9 : calendrier](#pj15_ErrorCodes_Calendar) <br/> |
-|16000 - 16399  <br/> |[Le tableau 15 : Notifications](#pj15_ErrorCodes_Notifications) <br/> |
-|16400 - 16499  <br/> |[Tableau 31 : WssInterop et fournisseur de liaison d’objet (intégration SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
-|16600 - 16699  <br/> |[Le tableau 6 : Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
-|17000 - 17999  <br/> |[Tableau 10 : Cube Build Service (SCC)](#pj15_ErrorCodes_CBS) <br/> |
-|18000 - 18099  <br/> |[Tableau 31 : Intégration à SharePoint](#pj15_ErrorCodes_WSS) <br/> |
-|19000 - 19099  <br/> |[Tableau 23 : sécurité](#pj15_ErrorCodes_Security), sauf 19011, 19012 et 19032 sont liées à la sécurité des codes dans [tableau 6 : service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
-|20000 - 20099  <br/> |[Tableau 3 : codes d’erreur générale](#pj15_ErrorCodes_General), sauf 20003 se trouve dans [tableau 6 : service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
-|21000 - 21099  <br/> |[Tableau 22 : règles](#pj15_ErrorCodes_Rules) <br/> |
-|22000 - 22999  <br/> |[24 table : Événements du serveur](#pj15_ErrorCodes_Events) <br/> |
-|23000 - 23999  <br/> |[Le tableau 18 : projets](#pj15_ErrorCodes_Projects) <br/> |
-|24000 - 24999  <br/> |[Tableau 19 : Service de données de création de rapports](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
-|25000 - 25999  <br/> |[Tableau 7 : Archive (sauvegarde et restauration)](#pj15_ErrorCodes_Archive), à l’exception de 25004, 25006 se trouvent dans [tableau 6 : service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
-|26000 - 26099  <br/> |[Tableau 3 : Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
-|27000 - 27999  <br/> |[Tableau 5 : La synchronisation Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |
-|28000 - 28999  <br/> |[Tableau 17 : planificateur](#pj15_ErrorCodes_Planner) (Analyse de portefeuille de projets)  <br/> |
-|29000 - 29999  <br/> |[Tableau 16 : l’optimiseur](#pj15_ErrorCodes_Optimizer) (Analyse de portefeuille de projets), sauf 29021 se trouve dans [tableau 7 : Archive](#pj15_ErrorCodes_Archive) <br/> |
-|30000 - 30999  <br/> |[Tableau 21 : Plans de ressources](#pj15_ErrorCodes_ResourcePlans) <br/> |
-|31000 - 31999  <br/> 32000 - 32100  <br/> |[Le tableau 14 : divers](#pj15_ErrorCodes_Miscellaneous) (L’audit ; non utilisé)  <br/> Pages de détails de projet  <br/> |
-|35000 - 35999  <br/> 40000 - 40499  <br/> |[Tableau 30 : flux de travail](#pj15_ErrorCodes_Workflow) <br/> |
-|40500 - 40999  <br/> 42000 - 42999  <br/> |[Le tableau 14 : divers](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync**; utilisation interne)  <br/> Project Web App chronologie  <br/> |
-|43000 - 43500  <br/> |[Tableau 29 : Délégation d’utilisateur](#pj15_ErrorCodes_UserDelegation) <br/> |
-|50000 - 51999  <br/> |[Le tableau 14 : divers](#pj15_ErrorCodes_Miscellaneous) (Les erreurs de base de données)  <br/> |
+|11000 - 11499  <br/> |[Tableau 13. Tables de choix](#pj15_ErrorCodes_LookupTables) <br/> |
+|11500 - 11999  <br/> |[Tableau 12. Champs personnalisés](#pj15_ErrorCodes_CustomFields) <br/> |
+|12000 - 12099  <br/> |[Tableau 4. Cache actif](#pj15_ErrorCodes_ActiveCache) <br/> |
+|12100 - 12299  <br/> |[Tableau 26. Rapports d’état](#pj15_ErrorCodes_StatusReports) <br/> |
+|13000 - 13999  <br/> |[Tableau 9. Calendrier](#pj15_ErrorCodes_Calendar) <br/> |
+|16000 - 16399  <br/> |[Tableau 15. Notifications](#pj15_ErrorCodes_Notifications) <br/> |
+|16400 - 16499  <br/> |[Tableau 31. WssInterop et fournisseur de liaison d’objet (intégration SharePoint)](#pj15_ErrorCodes_WSS) <br/> |
+|16600 - 16699  <br/> |[Tableau 6. Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
+|17000 - 17999  <br/> |[Tableau 10. Service de construction du cube (SCC)](#pj15_ErrorCodes_CBS) <br/> |
+|18000 - 18099  <br/> |[Tableau 31. Intégration SharePoint](#pj15_ErrorCodes_WSS) <br/> |
+|19000 - 19099  <br/> |[Tableau 23. Sécurité](#pj15_ErrorCodes_Security), sauf 19011, 19012, 19032 qui sont des codes liés à la sécurité dans le [Tableau 6. Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
+|20000 - 20099  <br/> |[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General), sauf 20003 qui se trouve dans le [Tableau 6. Service web d’administration](#pj15_ErrorCodes_Admin) <br/> |
+|21000 - 21099  <br/> |[Tableau 22. Règles](#pj15_ErrorCodes_Rules) <br/> |
+|22000 - 22999  <br/> |[Tableau 24. Événements de serveur](#pj15_ErrorCodes_Events) <br/> |
+|23000 - 23999  <br/> |[Tableau 18. Projets](#pj15_ErrorCodes_Projects) <br/> |
+|24000 - 24999  <br/> |[Tableau 19. Service de données de création de rapports](#pj15_ErrorCodes_RDS) (RDS)  <br/> |
+|25000 - 25999  <br/> |[Tableau 7. Archivage (sauvegarde et restauration)](#pj15_ErrorCodes_Archive), sauf 25004, 25006 qui se trouvent dans le [Tableau 6. Service web d’administration ](#pj15_ErrorCodes_Admin) <br/> |
+|26000 - 26099  <br/> |[Tableau 3. Codes d’erreur générale](#pj15_ErrorCodes_General) <br/> |
+|27000 - 27999  <br/> |[Tableau 5. Synchronisation Active Directory](#pj15_ErrorCodes_ActiveDirectory) <br/> |
+|28000 - 28999  <br/> |[Tableau 17. Planificateur](#pj15_ErrorCodes_Planner) (analyse de portefeuille de projets)  <br/> |
+|29000 - 29999  <br/> |[Tableau 16. Optimiseur](#pj15_ErrorCodes_Optimizer) (analyse de portefeuille de projets), sauf 29021 qui se trouve dans le [Tableau 7. Archivage](#pj15_ErrorCodes_Archive) <br/> |
+|30000 - 30999  <br/> |[Tableau 21. Plan de charge des ressources](#pj15_ErrorCodes_ResourcePlans) <br/> |
+|31000 - 31999  <br/> 32000 - 32100  <br/> |[Tableau 14. Divers](#pj15_ErrorCodes_Miscellaneous) (audit ; non utilisé)  <br/> Pages de détails de projet  <br/> |
+|35000 - 35999  <br/> 40000 - 40499  <br/> |[Tableau 30. Flux de travail](#pj15_ErrorCodes_Workflow) <br/> |
+|40500 - 40999  <br/> 42000 - 42999  <br/> |[Tableau 14. Divers](#pj15_ErrorCodes_Miscellaneous) (**ExchangeSync** ; utilisation en interne)  <br/> Project Web App chronologie  <br/> |
+|43000 - 43500  <br/> |[Table 29. Délégation d’utilisateur](#pj15_ErrorCodes_UserDelegation) <br/> |
+|50000 - 51999  <br/> |[Tableau 14. Divers](#pj15_ErrorCodes_Miscellaneous) (erreurs de base de données)  <br/> |
 
 <a name="pj15_ErrorCodes_General"></a>
 
@@ -145,9 +145,9 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |GeneralQueueException = 9131  <br/> |Exception : erreur générale du service de mise en file d’attente.  <br/> |
 |GeneralItemDoesNotExist = 10000  <br/> |Un élément spécifié n’existe pas.  <br/> |
 |GeneralLCIDInvalid = 10001  <br/> |Identificateur de paramètres régionaux (ID de langue) non valide.  <br/> |
-|GeneralRowDoesNotExist = 10002  <br/> |La ligne spécifiée d’un **objet DataTable** n’existe pas.  <br/> |
-|GeneralInvalidColumnValue = 20000  <br/> |Une valeur de colonne dans une **table de données** n’est pas valide.  <br/> |
-|GeneralInvalidDataRowState = 20001  <br/> |Un état **DataRow** non valide.  <br/> |
+|GeneralRowDoesNotExist = 10002  <br/> |La ligne spécifiée dans un élément **DataTable** n’existe pas.  <br/> |
+|GeneralInvalidColumnValue = 20000  <br/> |Valeur de colonne non valide dans l’élément **DataTable**.  <br/> |
+|GeneralInvalidDataRowState = 20001  <br/> |État de l’élément **DataRow** non valide.  <br/> |
 |GeneralDuplicatedNames = 20004  <br/> |Nom en double. Les noms doivent être uniques.  <br/> |
 |GeneralReadOnlyColumn = 20005  <br/> |La colonne est en lecture seule.  <br/> |
 |GeneralReadOnlyRow = 20006  <br/> |La ligne est en lecture seule.  <br/> |
@@ -181,7 +181,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |GeneralQueueInvalidGroupPriority = 26009  <br/> |Priorité du groupe en file d’attente non valide.  <br/> |
 |GeneralQueueInvalidCorrelationPriority = 26010  <br/> |Priorité de la corrélation en file d’attente non valide.  <br/> |
 |GeneralQueueInvalidQueueID = 26011  <br/> |Numéro d’identification de file d’attente non valide.  <br/> |
-|GeneralQueueInvalidAdminAction = 26012  <br/> |L’action de **l’administrateur** n’est pas valide pour la file d’attente.  <br/> |
+|GeneralQueueInvalidAdminAction = 26012  <br/> |Opération **Admin** non valide pour la file d’attente.  <br/> |
 |GeneralQueueInvalidStatType = 26013  <br/> |Type d’état de file d’attente non valide.  <br/> |
 |GeneralQueueInvalidBlockPolicy = 26014  <br/> |Stratégie de blocage de file d’attente non valide.  <br/> |
 |GeneralQueueCannotRetryJob = 26015  <br/> |La file d’attente ne peut pas recommencer le travail.  <br/> |
@@ -190,20 +190,20 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |GeneralDalErrorGettingConnectionStrings = 26018  <br/> |Erreur lors de l’obtention des chaînes de connexion pour la couche d’accès aux données.  <br/> |
 |GeneralDalErrorConnectingToDatabase = 26019  <br/> |Erreur dans la couche d’accès aux données lors de la connexion à la base de données.  <br/> |
 |GeneralDalInvalidArgumentCountCreatingFilter = 26020  <br/> |Nombre d’arguments non valide pour la création d’un filtre.  <br/> |
-|GeneralDataTableCannotBeNull = 26024  <br/> |Un **élément DataTable** ne peut pas être **null**.  <br/> |
-|GeneralDatasetConstraints = 26025  <br/> |Erreur dans les contraintes de **jeu de données** .  <br/> |
-|GeneralInvalidDataSetStructure = 26027  <br/> |La structure du **jeu de données** n’est pas valide.  <br/> |
+|GeneralDataTableCannotBeNull = 26024  <br/> |L’élément **DataTable** ne peut pas être **null**.  <br/> |
+|GeneralDatasetConstraints = 26025  <br/> |Erreur dans les contraintes de l’élément **DataSet**.  <br/> |
+|GeneralInvalidDataSetStructure = 26027  <br/> |Structure de l’élément **DataSet** non valide.  <br/> |
 |GeneralDalNoRowsUpdated = 26028  <br/> |Aucune ligne mise à jour dans la couche d’accès aux données.  <br/> |
-|GeneralDataTableCannotBeEmpty = 26029  <br/> |L' **élément DataTable** ne peut pas être vide.  <br/> |
+|GeneralDataTableCannotBeEmpty = 26029  <br/> |L’élément **DataTable** ne peut pas être vide.  <br/> |
 |GeneralWSSContentDBNotWritable = 26030  <br/> |Impossible d’écrire dans la base de données de contenu SharePoint. La base de données de contenu est peut-être en lecture seule ou il existe un blocage au niveau de la collection de sites.  <br/> |
 |GeneralSPValidateFormDigestError = 26031  <br/> |Erreur de validation de chiffrement de formulaire dans un rappel de Project Web App, généralement en raison d’un délai d’attente.  <br/> |
-|GeneralDelegationActiveForCurrentUser = 26032  <br/> |L’utilisateur actuel possède une délégation active. Cette erreur est générée par les méthodes web dans le service de **WinProj** pour Project Professionnel.  <br/> |
+|GeneralDelegationActiveForCurrentUser = 26032  <br/> |L’utilisateur actuel dispose d’une délégation active. Cette erreur est déclenchée par les méthodes web du service **WinProj** pour Project Professional.<br/> |
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
 ## <a name="table-4-active-cache"></a>Tableau 4. Cache actif
 
-|Code d’erreur du cache actif|Description|
+|Code d’erreur relatif au cache actif|Description|
 |:-----|:-----|
 |ActiveCacheInvalidDataFormat = 12000  <br/> |Format de données non valide.  <br/> |
 |ActiveCacheUnsupportedDataFormatVersion = 12001  <br/> |Version du format de données non pris en charge.  <br/> |
@@ -225,7 +225,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-5-active-directory-synchronization"></a>Tableau 5. Synchronisation Active Directory
 
-|Code d’erreur la synchronisation actif Directory|Description|
+|Code d’erreur relatif à la synchronisation Active Directory|Description|
 |:-----|:-----|
 |AdSyncUpdateTimerJobFailed = 27002  <br/> |Échec de la synchronisation du travail du minuteur de mise à jour avec les services d’annuaire Active Directory.  <br/> |
 |AdSyncDeleteTimerJobFailed = 27003  <br/> |Échec de la synchronisation du travail du minuteur de suppression avec Active Directory.  <br/> |
@@ -259,8 +259,8 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |AdminUserAccountNameNull = 28021  <br/> |Le nom du compte d’utilisateur est NULL.  <br/> |
 |AdminIsWindowsUserNull = 28022  <br/> |Le compte d’utilisateur Windows (NTLM) semble être NULL.  <br/> |
 |AdminInvalidTimePeriodState = 28023  <br/> |État de la période non valide.  <br/> |
-|AdminGlobalUpdateFailed = 28024  <br/> |Échec de la mise à jour globale d’entreprise pendant l’appel de **SetServerCurrency**.  <br/> |
-|AdminGlobalCheckedOut = 28025  <br/> |Le modèle global d’entreprise est déjà extrait au cours de l’appel de **SetServerCurrency**.  <br/> |
+|AdminGlobalUpdateFailed = 28024  <br/> |Échec de la mise à jour globale d’entreprise lors de l’appel de **SetServerCurrency**.  <br/> |
+|AdminGlobalCheckedOut = 28025  <br/> |Le modèle global d’entreprise a déjà été extrait au cours de l’appel de **SetServerCurrency**.  <br/> |
 |AdminInvalidDatabaseTimeout = 28026  <br/> |Dépassement du délai d’attente causé par une base de données non valide.  <br/> |
 |AdminInvalidDatabaseTimeoutType = 28027  <br/> |Dépassement du délai d’attente causé par un type de base de données non valide.  <br/> |
 |AdminInvalidEntityType = 28028  <br/> |Le type d’entité non valide. Voir [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) .  <br/> |
@@ -316,7 +316,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-8-assignment"></a>Tableau 8. Assignment
 
-|Code d’erreur affectation|Description|
+|Code d’erreur relatif à l’affectation|Description|
 |:-----|:-----|
 |AssignmentNotFound = 120  <br/> |Affectation introuvable.  <br/> |
 |AssignmentWrongTrackingMethod = 122  <br/> |Méthode de suivi de l’affectation incorrecte.  <br/> |
@@ -336,7 +336,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-9-calendar"></a>Tableau 9. Calendrier
 
-|Code d’erreur de calendrier|Description|
+|Code d’erreur relatif au calendrier|Description|
 |:-----|:-----|
 |CalendarUidInvalid = 77  <br/> |GUID de calendrier non valide.  <br/> |
 |CalendarOnlyOneShiftIsNull = 13000  <br/> |Un seul déplacement est NULL.  <br/> |
@@ -367,7 +367,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |CalCalendarUniqueIdToDuplicateShouldBeNull = 13035  <br/> |Le GUID doit être NULL pour dupliquer un calendrier.  <br/> |
 |CalendarInvalidBaseCalendarUniqueId = 13037  <br/> |GUID de calendrier de base non valide.  <br/> |
 |CalendarInvalidUniqueIdToDuplicate = 13038  <br/> |GUID non valide pour la duplication d’un calendrier.  <br/> |
-|CalendarUnusedCalendarException = 13039  <br/> |L’exception de calendrier ne dispose pas d’un calendrier correspondant. Cet événement se produit lors de l’utilisation de la méthode **mettre** s’il existe une entrée dans la table **ResourceDataSet.CalendarExceptions** , mais aucun **BaseCalendarUniqueId ne** pour cette ressource dans le tableau des **ressources** .  <br/> |
+|CalendarUnusedCalendarException = 13039  <br/> |L’exception de calendrier n’a pas de calendrier correspondant. Cela se produit lorsque la méthode **UpdateResources** est utilisée lorsqu’il existe une entrée dans la table **ResourceDataSet.CalendarExceptions**, mais pas d’élément **BaseCalendarUniqueId** pour cette ressource dans la table **Resources**.<br/> |
 |CalendarCannotDeleteStandardCalendar = 13040  <br/> |Impossible de supprimer le calendrier standard.  <br/> |
 |CalendarCannotRenameStandardCalendar = 13041  <br/> |Impossible de renommer le calendrier standard.  <br/> |
 |CalendarCannotDeleteCalendarUsedByEnterpriseResource = 13042  <br/> |Le calendrier est en cours d’utilisation par une ressource d’entreprise et ne peut pas être supprimé.  <br/> |
@@ -418,7 +418,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-11-check-in-and-check-out"></a>Le tableau 11. Archiver et extraire
 
-|Code d’erreur à l’archivage|Description|
+|Code d’erreur relatif à l’archivage/l’extraction|Description|
 |:-----|:-----|
 |CICOCheckedOutToOtherUser = 10100  <br/> |Extrait pour un autre utilisateur.  <br/> |
 |CICOAlreadyCheckedOutToYou = 10101  <br/> |Déjà extrait pour vous.  <br/> |
@@ -432,7 +432,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-12-custom-field"></a>Le tableau 12. Champ personnalisé
 
-|Code d’erreur de champ personnalisé|Description|
+|Code d’erreur relatif aux champs personnalisés|Description|
 |:-----|:-----|
 |CustomFieldInvalidPropertyType = 11500  <br/> |Type de propriété non valide.  <br/> |
 |CustomFieldInvalidScope = 11503  <br/> |Portée du champ personnalisé non valide.  <br/> |
@@ -492,7 +492,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 |CustomFieldCannotModifyDepartmentUidOnBuiltinFields = 11732  <br/> |Impossible de modifier le GUID de service pour des champs personnalisés prédéfinis.  <br/> |
 |CustomFieldCannotHaveBothLookupTableAndMultilineText = 11733  <br/> |Un champ personnalisé ne peut pas inclure une table de choix et du texte multiligne.  <br/> |
 |CustomFieldCannotHaveBothFormulaAndMultilineText = 11734  <br/> |Un champ personnalisé ne peut pas inclure une formule et du texte multiligne.  <br/> |
-|CustomFieldDescriptionExceedsLimit = 11735  <br/> |La description du champ personnalisé est trop longue. Longueur maximale de la propriété **MD_PROP_DESCRIPTION** est 1000 caractères.  <br/> |
+|CustomFieldDescriptionExceedsLimit = 11735  <br/> |La description du champ personnalisé est trop longue. La longueur maximale de la propriété **MD_PROP_DESCRIPTION** est de 1 000 caractères.<br/> |
 |CustomFieldOnlyTextFieldsCanHaveMultilineText = 11736  <br/> |Seuls les champs personnalisés de texte peuvent contenir du texte multiligne.  <br/> |
 |CustomFieldOnlyProjectFieldsCanHaveMultilineText = 11737  <br/> |Seuls les champs personnalisés de projet peuvent contenir du texte multiligne.  <br/> |
 |CustomFieldCannotChangeWorkflowControlledBehaviorForNonProjectCustomFields = 11738  <br/> |Un champ personnalisé ne peut pas modifier le comportement des champs personnalisés hors projet contrôlés par un flux de travail.  <br/> |
@@ -512,7 +512,7 @@ Project Server 2013 processus et les méthodes PSI ont des numéros de code d’
 
 ## <a name="table-13-lookup-table"></a>Le tableau 13. Table de choix
 
-|Code d’erreur de table de choix|Description|
+|Code d’erreur relatif aux tables de choix|Description|
 |:-----|:-----|
 |LookupTableMaskNotDefined = 11000  <br/> |Masque de code de table de choix non défini.  <br/> |
 |LookupTableMaskHasTooManyValues = 11001  <br/> |Le masque de code de table de choix contient un trop grand nombre de valeurs.  <br/> |
@@ -582,8 +582,8 @@ Codes d’erreur dans le tableau 14 incluent les éléments pour les pages de d�
 |ProjectDetailPagesUnavailableWorker = 32002  <br/> |Échec du chargement de l’exploration de projets. Aucun processus de travail n’est disponible.  <br/> |
 |ProjectDetailPagesFailedToLoadProjectInWorker = 32003  <br/> |Échec du chargement du processus de travail.  <br/> |
 |AppPermissionInvalidAppPermissionId = 32300  <br/> |Problème lié à l’ID d’autorisation de l’application.  <br/> |
-|InvariantValidationPSIFailed = 40000  <br/> |Renvoyée par **PWA** méthodes si toutes les méthodes privées renvoient **ValidationMethodFailed**. Usage interne.  <br/> |
-|ValidationMethodFailed = 40001  <br/> |Renvoyée par les méthodes **PWA** privées lorsqu’ils détectent les incohérences de la base de données. Usage interne.  <br/> |
+|InvariantValidationPSIFailed = 40000  <br/> |Renvoyé par les méthodes **PWA** si des méthodes privées renvoient **ValidationMethodFailed**. Usage interne.<br/> |
+|ValidationMethodFailed = 40001  <br/> |Renvoyé par les méthodes **PWA** privées lorsqu’elle détectent des incohérences de base de données. Usage interne.<br/> |
 |GeneralExchangeSyncError = 40500  <br/> |Erreur générale lors de la synchronisation avec Microsoft Exchange. Usage interne.  <br/> |
 |ExchangeSyncRootFolderCreationFailed = 40501  <br/> |Échec de la création du dossier racine lors de la synchronisation avec Microsoft Exchange.  <br/> |
 |ExchangeSyncTaskFolderCreationFailed = 40502  <br/> |Échec de la création du dossier de tâches.  <br/> |
@@ -608,7 +608,7 @@ Codes d’erreur dans le tableau 14 incluent les éléments pour les pages de d�
 
 ## <a name="table-15-notification"></a>Le tableau 15. Notification
 
-|Code d’erreur de notification|Description|
+|Code d’erreur relatif aux notifications|Description|
 |:-----|:-----|
 |NotificationReminderUnknown = 16050  <br/> |Notification de rappel inconnue.  <br/> |
 |NotificationReminderParentNotSubscribed = 16051  <br/> |Il n’existe aucun abonnement au parent de la notification de rappel.  <br/> |
@@ -625,7 +625,7 @@ Tous les codes d’erreur du tableau 16 sont liés à l’optimiseur, un compos
 
 ## <a name="table-16-optimizer-project-portfolio-analysis"></a>Le tableau 16. Optimiseur (analyse de portefeuille de projets)
 
-|Code d’erreur de l’optimiseur|Description|
+|Code d’erreur relatif à l’optimiseur|Description|
 |:-----|:-----|
 |OptimizerDepInvalidDepType = 29000  <br/> |L’optimiseur valeur **DEPENDENCY_TYPE** dans l' [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) n’est pas valide. Voir [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) .  <br/> |
 |OptimizerDepInvalidEntityType = 29001  <br/> |Le type d’entité non valide. Voir la propriété [entités](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx) .  <br/> |
@@ -746,7 +746,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 
 ## <a name="table-17-planner-project-portfolio-analysis"></a>Le tableau 17. Planificateur (analyse de portefeuille de projets)
 
-|Code d’erreur planificateur|Description|
+|Code d’erreur relatif au planificateur|Description|
 |:-----|:-----|
 |PlannerSolutionMessageDeleteFailed = 28000  <br/> |Erreur de file d’attente : échec du message de suppression de la solution du planificateur.  <br/> |
 |PlannerSolutionMessageCreateFailed = 28001  <br/> |Erreur de file d’attente : échec du message de création de la solution du planificateur.  <br/> |
@@ -791,7 +791,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 |PlannerCannotDeleteSolution = 28902  <br/> |Le planificateur ne peut pas supprimer la solution.  <br/> |
 |PlannerCannotCreateMultipleSolutions = 28903  <br/> |Le planificateur ne peut pas créer plusieurs solutions.  <br/> |
 |PlannerCannotUpdateMultipleSolutions = 28904  <br/> |Le planificateur ne peut pas mettre à jour plusieurs solutions.  <br/> |
-|PlannerTableIsReadOnly = 28907  <br/> |La **table de données** est en lecture seule.  <br/> |
+|PlannerTableIsReadOnly = 28907  <br/> |L’élément **DataTable** est en lecture seule.  <br/> |
 |PlannerCannotCommitSolution = 28908  <br/> |Le planificateur ne peut pas valider la solution dans la base de données.  <br/> |
 |PlannerFieldIsReadOnly = 28909  <br/> |Le champ est en lecture seule.  <br/> |
 |PlannerProjectNotInParentSolution = 28910  <br/> |Le projet n’est pas dans la solution parent.  <br/> |
@@ -812,7 +812,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 
 ## <a name="table-18-project"></a>Le tableau 18. Project
 
-|Code d’erreur Project|Description|
+|Code d’erreur relatif aux projets|Description|
 |:-----|:-----|
 |ProjectGlobalNotFound = 100  <br/> |Modèle global d’entreprise introuvable.  <br/> |
 |ProjectGlobalCannotBeDeleted = 101  <br/> |Impossible de supprimer le modèle global d’entreprise.  <br/> |
@@ -857,10 +857,10 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 |ProjectIsNotPublished = 1051  <br/> |Projet non publié.  <br/> |
 |ProjectExceededLWPTaskLimit = 1052  <br/> |La limite de tâche pour une proposition de projet (projet léger) a été dépassée.  <br/> |
 |ProjectOptFinishDateInvalid = 1053  <br/> |Date de fin non valide dans les options de projet.  <br/> |
-|ProjectExceededItemsLimit = 1054  <br/> |A dépassé la limite d’éléments à traiter. L’application de service Project Server ne peut pas utiliser **ProjectDataSet** pour ajouter ou mettre à jour le total de toutes les tables de plus de 1 000 éléments. Pour traiter plus de 1 000 éléments, utilisez plusieurs appels, par exemple, pour **QueueUpdateProject**.  <br/> |
+|ProjectExceededItemsLimit = 1054  <br/> |La limite d’éléments à traiter a été dépassée. L’application de service Project Server ne peut pas utiliser **ProjectDataSet** pour ajouter ou mettre à jour plus de 1 000 éléments au total dans toutes les tables. Pour traiter plus de 1 000 éléments, utilisez des appels multiples, par exemple, de **QueueUpdateProject**.<br/> |
 |ProjectColumnNotReadOnly = 1055  <br/> |La colonne n’est pas en lecture seule.  <br/> |
 |ProjectInvalidOwner = 1056  <br/> |Propriétaire du projet non valide.  <br/> |
-|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |Impossible de modifier **PctWorkComplete** pour une tâche qui ne comporte aucune affectation de travail réel.  <br/> |
+|ProjectCantEditPctWrkCompForNonWrkRscs = 1057  <br/> |Impossible de modifier **PctWorkComplete** pour une tâche qui n’a aucune affectation de travail réelle.  <br/> |
 |ProjectCannotEditMaterialResource = 1058  <br/> |Impossible de modifier la ressource consommable.  <br/> |
 |ProjectCannotEditFieldWhenTaskHasNoWorkAssignment = 1059  <br/> |Impossible de modifier le champ, car la tâche n’a aucune affectation de travail.  <br/> |
 |ProjectSubProjectNotFound = 1070  <br/> |Aucun sous-projet n’a été trouvé.  <br/> |
@@ -912,7 +912,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 
 ## <a name="table-19-reporting-data-service-rds"></a>Tableau 19. Service de création de rapports de données (RDS)
 
-|Code d’erreur RDS|Description|
+|Code d’erreur relatif au service RDS|Description|
 |:-----|:-----|
 |ReportingAttributeCubeSettingsChangedMessageFailed = 24000  <br/> |Échec du message de modification RDS pour un attribut de paramètres de cube.  <br/> |
 |ReportingBaseCalendarChangeMessageFailed = 24001  <br/> |Échec du message de modification RDS pour un calendrier de base.  <br/> |
@@ -952,7 +952,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 
 ## <a name="table-20-resource"></a>Tableau 20. Ressource
 
-|Code d’erreur de ressource|Description|
+|Code d’erreur relatif aux ressources|Description|
 |:-----|:-----|
 |ResourceNotFound = 2000  <br/> |Ressource introuvable.  <br/> |
 |ResourceAlreadyExists = 2001  <br/> |La ressource existe déjà.  <br/> |
@@ -1030,7 +1030,7 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 
 ## <a name="table-21-resource-plan"></a>Le tableau 21. Plan de ressources
 
-|Code d’erreur de plan de ressources|Description|
+|Code d’erreur relatif au plan de charge des ressources|Description|
 |:-----|:-----|
 |ResourcePlanProjectPublishIncomplete = 30000  <br/> |Échec de la publication du projet pour le plan de charge des ressources.  <br/> |
 |ResourcePlanInvalidResourceType = 30001  <br/> |Type de ressource non valide dans le plan de charge des ressources.  <br/> |
@@ -1046,11 +1046,11 @@ Les codes d’erreur du tableau 17 sont liés au planificateur, un composant ut
 |ResourcePlanInvalidProjectUID = 30011  <br/> |GUID de projet non valide pour le plan de charge des ressources.  <br/> |
 |ResourcePlanResourceAlreadyExists = 30012  <br/> |La ressource existe déjà dans le plan de charge des ressources.  <br/> |
    
-Les codes d’erreur dans la Table 22 sont pour les méthodes de **règles** dans le service web de **PWA** . Ils sont utilisés en interne. 
+Les codes d’erreur du tableau 22 sont liés aux méthodes **Rules** du service web **PWA**. Ils sont utilisés en interne. 
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
-## <a name="table-22-rules"></a>Tableau 22. Règles
+## <a name="table-22-rules"></a>Tableau 22. Rules
 
 |Code d’erreur de règles|Description|
 |:-----|:-----|
@@ -1068,7 +1068,7 @@ Les codes d’erreur dans la Table 22 sont pour les méthodes de **règles** dan
 
 ## <a name="table-23-security"></a>Le tableau 23. Sécurité
 
-|Code d’erreur de sécurité|Description|
+|Code d’erreur relatif à la sécurité|Description|
 |:-----|:-----|
 |SecurityGroupCouldNotBeCreated = 19001  <br/> |Impossible de créer le groupe de sécurité.  <br/> |
 |SecurityFieldAccessIDInvalid = 19003  <br/> |Numéro d’identification de code d’accès au champ de sécurité non valide.  <br/> |
@@ -1126,7 +1126,7 @@ Les codes d’erreur dans la Table 22 sont pour les méthodes de **règles** dan
 
 ## <a name="table-24-project-server-event"></a>Tableau 24. Événement Project Server
 
-|Code d’erreur serveur événement de projet|Description|
+|Code d’erreur relatif aux événements Project Server|Description|
 |:-----|:-----|
 |ServerEventInvalidEventId = 19033  <br/> |Numéro d’identification d’événement Project Server non valide.  <br/> |
 |ServerEventServiceNotFound = 22003  <br/> |Service d’événement Project Server introuvable. Cette erreur n’est pas utilisée dans le code de Project Server, mais elle correspond à un événement du service de journalisation unifiée (ULS) brut.  <br/> |
@@ -1146,38 +1146,38 @@ Les codes d’erreur dans la Table 22 sont pour les méthodes de **règles** dan
 
 |Code d’erreur état web service|Description|
 |:-----|:-----|
-|StatusingInvalidEntity = 3102  <br/> |L’entité pour **l’état** n’est pas valide.  <br/> |
+|StatusingInvalidEntity = 3102  <br/> |Entité **Statusing** non valide.  <br/> |
 |StatusingGetDataForTaskFailed = 3103  <br/> |Échec de l’obtention des données pour l’état de la tâche.  <br/> |
 |StatusingGetTaskOrAssnCntrFailed = 3104  <br/> |Échec de l’obtention de la tâche ou du centre d’affectation pour l’état.  <br/> |
-|StatusingInvalidPIDForProjCntr = 3105  <br/> |Le numéro d’identification de propriété **état** pour le centre de projets n’est pas valide.  <br/> |
-|StatusingDeleteAssnFailed = 3106  <br/> |Impossible de supprimer l’affectation dans le processus **Statusing** .  <br/> |
-|StatusingAssnSaveFailed = 3107  <br/> |Impossible d’enregistrer l’affectation dans le processus **Statusing** .  <br/> |
-|StatusingTaskSaveFailed = 3108  <br/> |Impossible d’enregistrer la tâche dans le processus **Statusing** .  <br/> |
-|StatusingInvalidPID = 3109  <br/> |Le numéro d’identification de propriété **Statusing** non valide.  <br/> |
-|StatusingSetDataValueInvalid = 3111  <br/> |La valeur de données **d’état** n’est pas valide.  <br/> |
-|StatusingSetDataFailed = 3112  <br/> |Impossible de définir la valeur de données **d’état** .  <br/> |
-|StatusingInvalidDelegationStart = 3113  <br/> |L’heure de début d’une affectation dans la méthode **DelegateAssignments** n’est pas valide.  <br/> |
+|StatusingInvalidPIDForProjCntr = 3105  <br/> |Numéro d’identification de la propriété **Statusing** non valide pour le centre de projets.  <br/> |
+|StatusingDeleteAssnFailed = 3106  <br/> |Échec de la suppression de l’affectation dans le processus **Statusing**.  <br/> |
+|StatusingAssnSaveFailed = 3107  <br/> |Échec de l’enregistrement de l’affectation dans le processus **Statusing**.  <br/> |
+|StatusingTaskSaveFailed = 3108  <br/> |Échec de l’enregistrement de la tâche dans le processus **Statusing**.  <br/> |
+|StatusingInvalidPID = 3109  <br/> |Numéro d’identification de la propriété **Statusing** non valide.  <br/> |
+|StatusingSetDataValueInvalid = 3111  <br/> |Valeur de données **Statusing** non valide.  <br/> |
+|StatusingSetDataFailed = 3112  <br/> |Échec de la définition de la valeur de données **Statusing**.  <br/> |
+|StatusingInvalidDelegationStart = 3113  <br/> |Heure de début non valide pour une affectation dans la méthode **DelegateAssignments**.  <br/> |
 |StatusingApprovalUpdateFailed = 3114  <br/> |Échec de la mise à jour de l’approbation d’état.  <br/> |
 |StatusingInvalidApprovalType = 3115  <br/> |Type d’approbation d’état non valide.  <br/> |
-|StatusingInternalError = 3116  <br/> |Erreur de traitement interne dans une méthode **Statusing** .  <br/> |
-|StatusingInvalidUpdateData = 3117  <br/> |Les données de mise à jour dans une méthode **Statusing** non valide.  <br/> |
-|StatusingProjectUpdateFailed = 3118  <br/> |Échec de la mise à jour de **l’état** du projet.  <br/> |
+|StatusingInternalError = 3116  <br/> |Erreur de traitement interne dans une méthode **Statusing**.  <br/> |
+|StatusingInvalidUpdateData = 3117  <br/> |Données de mise à jour non valides dans une méthode **Statusing**.  <br/> |
+|StatusingProjectUpdateFailed = 3118  <br/> |Échec de la mise à jour de la méthode **Statusing** du projet.  <br/> |
 |StatusingInvalidPreviewData = 3119  <br/> |Aperçu des données **Statusing** non valide.  <br/> |
 |StatusingInvalidTransaction = 3120  <br/> |Transaction **Statusing** non valide.  <br/> |
 |StatusingTooManyResults = 3121  <br/> |Trop de résultats. Plus de 5 000 lignes seraient renvoyées lors de la lecture des données d’état chronologiques.  <br/> |
-|StatusingInvalidInterval = 3122  <br/> |L’intervalle dans une méthode **Statusing** non valide. L’intervalle doit en minutes et doit être supérieure à zéro.  <br/> |
-|StatusingApplyUpdatesFailed = 3123  <br/> |Impossible d’appliquer **état** mises à jour la demande de file d’attente.  <br/> |
-|StatusingApplyUpdatesFailure = 3124  <br/> |Impossible d’appliquer **les** mises à jour lors du traitement de file d’attente.  <br/> |
-|StatusingInvalidWorkData = 3125  <br/> |Les données de travail pour **l’état** ne sont pas valides.  <br/> |
+|StatusingInvalidInterval = 3122  <br/> |Intervalle non valide dans une méthode **Statusing**. L’intervalle doit être indiqué en minutes et doit être supérieur à zéro.<br/> |
+|StatusingApplyUpdatesFailed = 3123  <br/> |Échec de l’application des mises à jour **Statusing** lors de la mise en file d’attente de la demande.  <br/> |
+|StatusingApplyUpdatesFailure = 3124  <br/> |Échec de l’application des mises à jour **Statusing** lors du traitement de la file d’attente.  <br/> |
+|StatusingInvalidWorkData = 3125  <br/> |Données de travail **Statusing** non valides.  <br/> |
 |StatusingMissingNameAttribute = 3126  <br/> |Attribut de nom manquant pour **Statusing**.  <br/> |
-|StatusingInvalidNameAttribute = 3127  <br/> |L’attribut name pour **l’état** n’est pas valide.  <br/> |
-|StatusingInvalidData = 3128  <br/> |Les données **d’état** ne sont pas valides.  <br/> |
+|StatusingInvalidNameAttribute = 3127  <br/> |Attribut de nom **Statusing** non valide.  <br/> |
+|StatusingInvalidData = 3128  <br/> |Données **Statusing** non valides.  <br/> |
 |StatusingInvalidChangelist = 3130  <br/> |Les données XML ne sont pas valides dans le paramètre _changexml_ de la méthode **UpdateStatus** .  <br/> |
-|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** ne peut pas mettre à jour une affectation, car l’utilisateur n’est pas autorisé.  <br/> |
-|StatusingInvalidChangeNumber = 3132  <br/> |Le numéro de changement **d’état** n’est pas valide.  <br/> |
-|StatusingPidNotEditable = 3133  <br/> |Le numéro d’identification de propriété **état** n’est pas modifiable.  <br/> |
-|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |Impossible de définir les données chronologiques dans les tâches manuelles pour **l’état**.  <br/> |
-|StatusingCannotChangeTaskMode = 3135  <br/> |Impossible de modifier le mode de tâche pour **l’état**.  <br/> |
+|StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** ne peut pas mettre à jour une affectation, car l’utilisateur ne dispose pas de l’autorisation.  <br/> |
+|StatusingInvalidChangeNumber = 3132  <br/> |Numéro de modification **Statusing** non valide.  <br/> |
+|StatusingPidNotEditable = 3133  <br/> |Le numéro d’identification de la propriété **Statusing** n’est pas modifiable.  <br/> |
+|StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |Impossible de définir les données chronologiques des tâches manuelles pour **Statusing**.  <br/> |
+|StatusingCannotChangeTaskMode = 3135  <br/> |Impossible de modifier le mode des tâches pour **Statusing**.  <br/> |
    
 Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports** dans le service web de **PWA** . Ils sont utilisés en interne dans Project Web App. 
 
@@ -1185,7 +1185,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 ## <a name="table-26-statusreports"></a>Tableau 26. StatusReports 
 
-|Code d’erreur rapport État|Description|
+|Code d’erreur relatif aux rapports d’état|Description|
 |:-----|:-----|
 |StatusReportsUnknownError = 12100  <br/> |Erreur inconnue dans **StatusReports**.  <br/> |
 |StatusReportsPeriodUnmatched = 12101  <br/> |Impossible de faire correspondre la période du rapport d’état.  <br/> |
@@ -1194,9 +1194,9 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## <a name="table-27-task"></a>Tableau 27. Tâche 
+## <a name="table-27-task"></a>Tableau 27. Task 
 
-|Code d’erreur de tâche|Description|
+|Code d’erreur relatif aux tâches|Description|
 |:-----|:-----|
 |TaskIDInvalid = 7001  <br/> |GUID de tâche non valide.  <br/> |
 |TaskNameTooLong = 7003  <br/> |Le nom de la tâche est trop long.  <br/> |
@@ -1245,7 +1245,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 ## <a name="table-28-timesheet"></a>Tableau 28. Feuille de temps 
 
-|Code d’erreur de feuille de temps|Description|
+|Code d’erreur relatif à la feuille de temps|Description|
 |:-----|:-----|
 |TimesheetMaxHourPerDayExceeded = 3201  <br/> |Le nombre maximal d’heures par jour dans la feuille de temps a été dépassé.  <br/> |
 |TimesheetHoursPerTSLimitExceeded = 3202  <br/> |La limite du nombre d’heures dans une feuille de temps a été dépassée.  <br/> |
@@ -1265,7 +1265,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 ## <a name="table-29-user-delegation"></a>Tableau 29. Délégation d’utilisateur 
 
-|Code d’erreur utilisateur délégation|Description|
+|Code d’erreur relatif à la délégation d’utilisateur|Description|
 |:-----|:-----|
 |UserDelegationExpired = 43000  <br/> |La délégation d’utilisateur a expiré.  <br/> |
 |UserDelegationCannotSelfDelegate = 43001  <br/> |Un utilisateur ne peut pas se déléguer une tâche à lui-même.  <br/> |
@@ -1283,7 +1283,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 ## <a name="table-30-workflow"></a>Tableau 30. Workflow 
 
-|Code d’erreur de flux de travail|Description|
+|Code d’erreur relatif aux flux de travail|Description|
 |:-----|:-----|
 |WorkflowPhasesCannotCreatePhase = 35000  <br/> |Impossible de créer la phase de flux de travail.  <br/> |
 |WorkflowPhasesCannotUpdatePhase = 35001  <br/> |Impossible de mettre à jour la phase de flux de travail.  <br/> |
@@ -1326,7 +1326,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 |WorkflowMultipleStagesInProgress = 35119  <br/> |Plusieurs étapes sont en cours dans le flux de travail.  <br/> |
 |WorkflowActivityInvalidArgument = 35120  <br/> |Message renvoyé lorsqu’une activité de flux de travail a reçu un argument non valide.  <br/> |
 |WorkflowMTWConfigurationError = 35121  <br/> |Erreur de configuration du flux de travail Microsoft Azure.  <br/> |
-|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |**ENTERPRISE_PROJECT_TYPE_UID** non valide.  <br/> |
+|EnterpriseProjectTypeInvalidEnterpriseProjectTypeUid = 35200  <br/> |Propriété **ENTERPRISE_PROJECT_TYPE_UID** non valide.  <br/> |
 |EnterpriseProjectTypeCannotCreateEnterpriseProjectType = 35201  <br/> |Impossible de créer le type de projet d’entreprise.  <br/> |
 |EnterpriseProjectTypeCannotUpdateEnterpriseProjectType = 35202  <br/> |Impossible de mettre à jour le type de projet d’entreprise.  <br/> |
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |Impossible de supprimer le type de projet d’entreprise.  <br/> |
@@ -1339,7 +1339,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 |EnterpriseProjectTypeCannotReadWssSettings = 35210  <br/> |Impossible de lire les paramètres SharePoint.  <br/> |
 |EnterpriseProjectTypeCannotReadWssLanguagesAndTemplates = 35211  <br/> |Impossible de lire les langues et les modèles de site SharePoint.  <br/> |
 |EnterpriseProjectTypeInvalidDepartmentUid = 35212  <br/> |Le [DEPARTMENT_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.DEPARTMENT_UID.aspx) n’est pas valide.  <br/> |
-|EnterpriseProjectTypeInvalidUri = 35213  <br/> |[ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) non valide.  <br/> |
+|EnterpriseProjectTypeInvalidUri = 35213  <br/> |Propriété [ENTERPRISE_PROJECT_TYPE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeDepartmentsRow.ENTERPRISE_PROJECT_TYPE_UID.aspx) non valide.  <br/> |
 |EnterpriseProjectTypeUriRequiresHttp = 35214  <br/> |L’URI de type de projet d’entreprise requiert le protocole HTTP.  <br/> |
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Impossible de supprimer le type de projet d’entreprise par défaut.  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Impossible de modifier le type de projet d’entreprise par défaut.  <br/> |
@@ -1347,7 +1347,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 |EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Un modèle de projet d’entreprise (TPE) pour un flux de travail requiert une *créer* type projet détails page associée (PDP) pour créer un projet à l’aide du TPE. Cette erreur se produit lorsque la PDP n’est pas incluse dans la définition du TPE. Autres types PDP sont *Normal* pour la modification d’un projet et *l’État du flux de travail* pour l’affichage des détails d’un projet relatives aux flux de travail.  <br/> |
 |EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |La définition de TPE ne permet qu’une seule page de détails de projet type *créer* .  <br/> |
 |EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Un modèle de projet d’entreprise (TPE) pour un flux de travail requiert une *créer* type projet détails page associée (PDP) pour créer un projet à l’aide du TPE. Cette erreur se produit lorsque la PDP dans la définition des TPE de flux de travail d’un autre type. Autres types PDP sont *Normal* pour la modification d’un projet et *l’État du flux de travail* pour l’affichage des détails d’un projet relatives aux flux de travail.  <br/> |
-|EnterpriseProjectTypeInvalidData = 35221  <br/> |L' **élément WorkflowDataSet** pour le type de projet d’entreprise comporte des données non valide.  <br/> |
+|EnterpriseProjectTypeInvalidData = 35221  <br/> |L’élément **WorkflowDataSet** pour le type de projet d’entreprise comporte des données non valides.  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |Aucun type de projet d’entreprise par défaut n’est défini.  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Au moins une page de détails de projet est requise pour le type de projet d’entreprise.  <br/> |
 |EnterpriseProjectTypeWorkflowStatusPDPNotAllowed = 35224  <br/> |Une page de détails de projet associée à l’état du flux de travail n’est pas autorisée pour le type de projet d’entreprise.  <br/> |
@@ -1357,7 +1357,7 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 
 ## <a name="table-31-wssinterop-and-objectlinkprovider-sharepoint-integration"></a>Tableau 31. WssInterop et ObjectLinkProvider (intégration SharePoint)
 
-|Code d’erreur de l’intégration de SharePoint|Description|
+|Code d’erreur relatif à l’intégration SharePoint|Description|
 |:-----|:-----|
 |WSSCreateSiteFailure = 16400  <br/> |Échec de la création du site SharePoint pour l’espace de travail de projet.  <br/> |
 |WSSCannotCreateWebWithBlankName = 16401  <br/> |Impossible de créer un site web SharePoint avec un nom vide.  <br/> |
@@ -1380,10 +1380,10 @@ Les codes d’erreur dans le tableau 26 sont pour les méthodes **StatusReports*
 |WSSWebCannotStartOrEndOnPeriod = 16418  <br/> |Un nom de site web SharePoint ne peut pas commencer ou se terminer par un point.  <br/> |
 |WSSCannotDeleteSiteCollection = 16419  <br/> |Impossible de supprimer la collection de sites web.  <br/> |
 |WSSListUidInvalid = 16420  <br/> |GUID de liste SharePoint non valide.  <br/> |
-|WSSSyncDataSetListUidMismatch = 16421  <br/> |Le GUID de liste SharePoint ne correspond pas à la liste des GUID dans le **jeu de données**de synchronisation.  <br/> |
-|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |Le **jeu de données** pour la synchronisation avec SharePoint est manquante dans la ligne de paramètres de projet.  <br/> |
-|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |Mappages des tâches ne sont pas autorisés dans le **jeu de données** pour la synchronisation avec SharePoint.  <br/> |
-|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |La liste SharePoint GUID est vide dans le **jeu de données** pour la synchronisation avec SharePoint.  <br/> |
+|WSSSyncDataSetListUidMismatch = 16421  <br/> |Le GUID de liste SharePoint ne correspond pas au GUID de liste **DataSet** en cours de synchronisation.  <br/> |
+|WSSSyncDataSetMissingProjectSettingsRow = 16422  <br/> |La ligne de paramètres de projet est manquante dans l’élément **DataSet** à synchroniser avec SharePoint.  <br/> |
+|WSSSyncDataSetTaskMappingsNotAllowed = 16423  <br/> |Mappages des tâches non autorisés dans l’élément **DataSet** à synchroniser avec SharePoint.  <br/> |
+|WSSSyncDataSetWssListUidEmpty = 16424  <br/> |Le GUID de liste SharePoint est vide dans l’élément **DataSet** à synchroniser avec SharePoint.  <br/> |
 |WSSSyncDataNotFound = 16425  <br/> |Données manquantes lors de la synchronisation avec SharePoint.  <br/> |
 |WSSSyncCriticalDataValidationError = 16426  <br/> |Erreur critique de validation des données lors de la synchronisation avec SharePoint.  <br/> |
 |WSSSyncSharePointListNotAccessibleError = 16427  <br/> |La liste SharePoint est inaccessible.  <br/> |
@@ -1609,8 +1609,6 @@ CustomFieldRequiredValueNotProvided
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSErrorID.aspx)
-- [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/WebSvcProject.PSErrorID.aspx)
 - [Articles conceptuelles et procédures Project](project-conceptual-and-how-to-articles.md)
 - [Générateur de profils SQL Server](http://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010 : Ce qui se passe lorsque vous récupérez l’inattendu](http://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)

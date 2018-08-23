@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fd7f79ad7a36fd174bf9817ff463b00e6a334104
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b292e65ddabcbe052832687a3dcf01658de5e379
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567474"
 ---
 # <a name="attsentfor"></a>attSentFor
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’attribut **attSentFor** est codée selon les chaînes comptées bout en bout. Le format de **attSentFor** est la suivante : 
   

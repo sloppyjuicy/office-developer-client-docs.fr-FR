@@ -1,5 +1,5 @@
 ---
-title: Tables du fournisseur
+title: Tables de fournisseurs
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a613bd744a113b4378c5bef94fb51f6ae3aa4041
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ccc51f33ff681021492949c2180fe70940157f4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786953"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566137"
 ---
-# <a name="provider-tables"></a>Tables du fournisseur
+# <a name="provider-tables"></a>Tables de fournisseurs
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une table fournisseur contient des informations sur les fournisseurs de services. Il existe deux tables autre fournisseur, implémentés par MAPI et utilisé par les clients. La première table, accédée en appelant la méthode [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) , conserve des informations sur tous les fournisseurs pour le profil actuel. Le deuxième tableau, accédé via [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), crée une table qui stocke des informations sur tous les fournisseurs de services d’un service de message.
   

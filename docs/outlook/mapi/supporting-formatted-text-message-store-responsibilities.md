@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 301ebbf8e7a3e2a2deb303af5b198fd11511d495
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d5f4be5a8593cfc483dfed1cffbb59f596e2e408
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787272"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567649"
 ---
-# <a name="supporting-formatted-text-message-store-responsibilities"></a>Prenant en charge le format texte : Responsabilités de banque de messages
+# <a name="supporting-formatted-text-message-store-responsibilities"></a>Prise en charge du texte mis en forme : responsabilités de la banque de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de banque de messages **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) la propriété permet pour publier ou non ils peuvent gérer le texte enrichi (RTF), le texte HTML et, si elles sont au format RTF prenant en charge, si elles stockent le texte mis en forme dans un format compressé ou non compressé. Fournisseurs de magasins de message indiquent qu’ils sont compatibles RTF en définissant le bit STORE_RTF_OK et qu’elles contiennent le texte mis en forme dans un formulaire non compressé en définissant le bit STORE_UNCOMPRESSED_RTF. Fournisseurs de magasins de message indiquent qu’ils sont compatibles HTML en définissant le bit STORE_HTML_OK.
   

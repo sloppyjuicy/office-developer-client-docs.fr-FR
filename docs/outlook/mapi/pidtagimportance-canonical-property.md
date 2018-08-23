@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9f6a67dcff6c74f44bbc64ae8b95f3e0ec284a90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 12fa3d0d1c5cc84c42049f4a208ea961f6631bcd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566207"
 ---
 # <a name="pidtagimportance-canonical-property"></a>Propriété canonique PidTagImportance
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur qui indique l’avis de l’expéditeur du message de l’importance d’un message. 
   
@@ -32,7 +32,7 @@ Contient une valeur qui indique l’avis de l’expéditeur du message de l’im
 |Propriétés associées :  <br/> |PR_IMPORTANCE  <br/> |
 |Identificateur :  <br/> |0x0017  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

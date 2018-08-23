@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2f1872c6f95f8ab12014de9890b0d03789bc5f0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0a93dd44960a01996672a55501a7626d0ff56986
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783613"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567887"
 ---
 # <a name="iabprovidershutdown"></a>IABProvider::Shutdown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Annule une connexion à une session active.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c939189c2c8f7d3147c3146f55deac0e032ce9df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9dbf02fc94519d40431fb6bd493ef8e68df59d11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566543"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet. 
   

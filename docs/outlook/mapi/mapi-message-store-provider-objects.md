@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f5bdf4a4cbf67aa9524819ffe4eee14b62714632
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d2df6dcb2e20cf1750d78f2e0b3200026b51f712
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784642"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567425"
 ---
 # <a name="mapi-message-store-provider-objects"></a>Objets du fournisseur de magasin de message MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins message implémentent fournisseur et objets d’ouverture de session, comme les fournisseurs de services. Elles implémentent également un objet de banque de messages, les dossiers, messages, les pièces jointes et tables. En tant qu’option, certains fournisseurs de banque de messages implémentent les objets d’état.
   

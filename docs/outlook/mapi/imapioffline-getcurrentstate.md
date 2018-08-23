@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3769e83-d678-1087-fc0f-b4f156386333
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3cf8ad3966c44add3fd85b9f1adf677039bfce15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5d6b1dfcd3866b0d0e7151e9d5399e1274810d14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568202"
 ---
 # <a name="imapiofflinegetcurrentstate"></a>IMAPIOffline::GetCurrentState
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtient l’état en ligne ou hors connexion en cours d’un objet en mode hors connexion.
   

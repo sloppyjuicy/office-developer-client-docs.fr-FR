@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d969fd806e5038e6c918da45041402a981554a49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69945bc03d9183ea18a436186523741ce534b71e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783149"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568489"
 ---
 # <a name="delegate-access"></a>Acc�s d�l�gu�
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Acc�s d�l�gu� fait r�f�rence � la capacit� de l'utilisateur pour envoyer un message sous la forme d'un autre utilisateur ou de recevoir un message pour un autre utilisateur. Acc�s d�l�gu� est une fonctionnalit� d'ind�pendant du fournisseur de service de MAPI prises en charge par les fournisseurs de transport s'ils le souhaitent. Toutefois, aucun fournisseur n'est requis pour effectuer cette op�ration. Acc�s d�l�gu� est utile lorsqu'il est n�cessaire pour un utilisateur d'envoyer des messages en tant qu'ou filtrer les messages entrants pour un autre utilisateur ou lorsqu'un utilisateur doit acc�der banque de messages d'un autre utilisateur. Avant d'autoriser un utilisateur d�l�gu� pour se connecter au magasin d'un autre utilisateur, le fournisseur de banque de messages doit v�rifier que l'utilisateur d�l�gu� dispose de l'autorit� appropri�e. 
   

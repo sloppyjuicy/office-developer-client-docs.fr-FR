@@ -1,5 +1,5 @@
 ---
-title: Corrélation TNEF dans les passerelles X.400 et des Transports
+title: Corrélation TNEF dans les transports et passerelles X.400
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0ffa0802-bfdd-4993-b4a3-142e5d15bfb4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ea5ca41ef21c72377ade72370e0aee1b313c92d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 297fff3482a4b7aea391c3e1869cd127cc49cad2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787356"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566816"
 ---
-# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>Corrélation TNEF dans les passerelles X.400 et des Transports
+# <a name="tnef-correlation-in-x400-gateways-and-transports"></a>Corrélation TNEF dans les transports et passerelles X.400
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Passerelles et des transports qui se connectent aux systèmes X.400, utilisez la valeur de l’attribut IM_THIS_IPM X.400 et l’attribut TNEF **attMessageID** pour implémenter la corrélation TNEF. 
   

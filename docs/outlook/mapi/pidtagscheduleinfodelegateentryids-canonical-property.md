@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8ea60fb989cd85b23e6dd9302bc03a9b5befd20f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f7521d387fa45c191a67f2a20320fac700baed37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567215"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegateEntryIds
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient **identificateurs d’entrée** des délégués. 
   
@@ -32,7 +32,7 @@ Contient **identificateurs d’entrée** des délégués.
 |Propriétés associées :  <br/> |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x6845  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

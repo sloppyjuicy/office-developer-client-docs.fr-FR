@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 40f8f2b2d1b4dc6316e1716e102217de43198833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9711a930424deb8a9a9bc2b61f6da6e87f15ce6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786650"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567222"
 ---
 # <a name="pidtagrpcoverhttpproxyserver-canonical-property"></a>Propriété canonique PidTagRpcOverHttpProxyServer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’URL du serveur proxy qui est utilisé pour connecter Microsoft Outlook à Microsoft Exchange Server sans le protocole HTTP ou le protocole sécurisé HTTPS (Hypertext Transfer) qui précède l’URL.
   
@@ -30,7 +30,7 @@ Contient l’URL du serveur proxy qui est utilisé pour connecter Microsoft Outl
 |Propriétés associées :  <br/> |PR_ROH_PROXY_SERVER  <br/> |
 |Identificateur :  <br/> |0x6622  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Divers  <br/> |
+|Domaine :  <br/> |Divers  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

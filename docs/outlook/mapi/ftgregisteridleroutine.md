@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0d3f24c41f2cfbd499d92e050c74da904dd4c377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566272"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajoute une routine [FNIDLE](fnidle.md) fonction inactive au système MAPI. 
   

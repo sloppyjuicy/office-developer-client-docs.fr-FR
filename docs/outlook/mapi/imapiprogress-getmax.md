@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bbd52116a108be12df7697f45df41b03adeba68e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2dadad410b9aaf1401d792de373e561c29183a12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567236"
 ---
 # <a name="imapiprogressgetmax"></a>IMAPIProgress::GetMax
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie le nombre maximal d’éléments dans l’opération de l’avancement des informations s’affichent.
   
@@ -82,5 +82,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
   
-[L’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
+[Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

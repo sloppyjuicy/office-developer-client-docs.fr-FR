@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités non prises en charge par les responsables de formulaire
+title: Fonctionnalités non prises en charge par les gestionnaires de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 86c91353b620482ca0862aa998aae1b3329cfc94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a84c0a93f80080b71f6049e73f0a0094c38c28ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782994"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566872"
 ---
-# <a name="capabilities-not-supported-by-form-managers"></a>Fonctionnalités non prises en charge par les responsables de formulaire
+# <a name="capabilities-not-supported-by-form-managers"></a>Fonctionnalités non prises en charge par les gestionnaires de formulaires
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les fonctionnalités suivantes ne sont pas pris en charge par le Gestionnaire de formulaire par défaut pour des raisons de performances, mais peuvent être pris en charge par les responsables de formulaire personnalisé.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 37f21c438a0a337eecf5c15a27a0b891d19bcfb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: adcb8e78d4e85e19d4102795aa4d43f06a7f86ba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783878"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568146"
 ---
 # <a name="imapiofflinenotify--iunknown"></a>IMAPIOfflineNotify : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 l’envoi de rappels de notification à un client.
   
@@ -49,7 +49,7 @@ Le client doit implémenter cette interface et lui passer un pointeur en tant qu
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

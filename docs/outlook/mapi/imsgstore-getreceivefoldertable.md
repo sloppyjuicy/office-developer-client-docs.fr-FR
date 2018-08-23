@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8146b5c2b9c9fb5429a9c1d46bca687c32bcf3dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 681fd68fc068633912df1cb7f060b8c4111b5de8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784264"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566536"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table de dossier de réception, une table qui consacrée des informations sur tous les dossiers de réception de la banque de messages.
   

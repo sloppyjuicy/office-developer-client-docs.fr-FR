@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2ac8fb6f4e56b6f086e6061c227120cd49fc621a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784261"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566550"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet la déconnexion ordonnée de la banque de messages.
   

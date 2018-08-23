@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3fd61828cd631c4abc0131da867ca213a3c44d20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787243"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568496"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau d’une ou plusieurs structures [SPropProblem](spropproblem.md) . 
   
@@ -41,7 +41,7 @@ typedef struct _SPropProblemArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cProblem**
   

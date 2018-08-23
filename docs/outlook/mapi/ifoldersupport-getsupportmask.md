@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6f7aa23606da40c817c9af623b8bade9383ce427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c51f4a7266e67be08f31daa5afbf23ce0b256252
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783682"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567852"
 ---
 # <a name="ifoldersupportgetsupportmask"></a>IFolderSupport::GetSupportMask
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtient des informations sur la prise en charge d’un dossier pour le partage.
   

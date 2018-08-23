@@ -1,5 +1,5 @@
 ---
-title: Les Messages et les fichiers joints
+title: Messages et fichiers joints
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 489930b35d24d2691c9b9fbb59b0fa95707a0618
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d5b37ea2e254e05ada3214309f58147e92f46393
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566830"
 ---
-# <a name="attached-files-and-messages"></a>Les Messages et les fichiers joints
+# <a name="attached-files-and-messages"></a>Messages et fichiers joints
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Si MIME avec TNEF est utilisé lors de l’encodage du contenu des messages, toutes les propriétés des pièces jointes et le contenu se trouvent dans le flux TNEF. Le format TNEF elle-même est un seul fichier joint binaire nommé Winmail.dat, codés comme décrit MIME sans TNEF. 
   
@@ -31,7 +31,7 @@ Si MIME est utilisée sans TNEF, les fichiers joints sont envoyés en tant que p
     
 - Si long des lignes ou à 25 % de caractères 8 bits sont détectés, le contenu de pièce jointe est un texte et le jeu de caractères est déterminé par les paramètres régionaux. Il doit être choisie dans les jeux de caractères définis par la norme ISO 8859 standard. *Type de contenu : texte/ordinaire ; charset = ISO-8859-1*  (par exemple) 
     
-     *Content-Transfer-Encoding : quoted-printable* 
+     *Content-Transfer-Encoding: quoted-printable* 
     
 - Si au moins 25 % des caractères possède le bit élevé, la pièce jointe est binaire. Il est codé à l’aide de l’algorithme en Base64. *Content-type : application/octet-flux*  (par défaut, basé sur l’extension de fichier) 
     
@@ -79,5 +79,5 @@ Positions de rendu des pièces jointes sont transmises en réalité, à l’aide
 
 
 
-[Mappage d’attributs de messagerie Internet sur des propriétés MAPI](mapping-of-internet-mail-attributes-to-mapi-properties.md)
+[Mappage des attributs de messagerie Internet aux propriétés MAPI](mapping-of-internet-mail-attributes-to-mapi-properties.md)
 

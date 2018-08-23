@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 054299e6bdf685163bc23678a2070f5d702a4529
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f4f1070b89971c631fd855a6f84d56b699152421
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786669"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566844"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>Propriété canonique PidTagRuleProviderData
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une propriété opaque qui définit par le client à l’usage exclusif du client. 
   
@@ -32,7 +32,7 @@ Une propriété opaque qui définit par le client à l’usage exclusif du clien
 |Propriétés associées :  <br/> |PR_RULE_PROVIDER_DATA  <br/> |
 |Identificateur :  <br/> |0x6684  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Règles côté serveur  <br/> |
+|Domaine :  <br/> |Règles côté serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aa72085c4e50fcef1f2d3da81e5409af3d55d89b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1f09c88d9bd6720720e2d30ac24fa4a19aed5538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783622"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567229"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Effectue la résolution de noms, affectation d’identificateurs d’entrée aux destinataires dans une liste de destinataires.
   

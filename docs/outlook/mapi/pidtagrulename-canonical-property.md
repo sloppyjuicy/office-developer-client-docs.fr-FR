@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 94373a412f20040a79b90219b1fb4949cfdf2299
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 31d5d15c8ccda81fb41a87d285f8f1df70e2253b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786666"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566487"
 ---
 # <a name="pidtagrulename-canonical-property"></a>Propriété canonique PidTagRuleName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le nom de la règle lisible par l’utilisateur.
   
@@ -32,7 +32,7 @@ Spécifie le nom de la règle lisible par l’utilisateur.
 |Propriétés associées :  <br/> |PR_RULE_NAME  <br/> |
 |Identificateur :  <br/> |0x6682  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Zone :  <br/> |Règles côté serveur  <br/> |
+|Domaine :  <br/> |Règles côté serveur  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

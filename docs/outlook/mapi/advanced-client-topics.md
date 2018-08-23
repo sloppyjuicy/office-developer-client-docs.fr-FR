@@ -1,5 +1,5 @@
 ---
-title: Rubriques de clients avancées
+title: Rubriques clients avancées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0186a9299bd5a9efaefb8cb38e3173f5851abae0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 59f245972fabde8db5123c4d0d39e259257ecfdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782909"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566193"
 ---
-# <a name="advanced-client-topics"></a>Rubriques de clients avancées
+# <a name="advanced-client-topics"></a>Rubriques clients avancées
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette section contient des sujets secondaires sur l’implémentation de certaines des fonctionnalités plus rares ou difficiles dans une application cliente.
   
 ## <a name="in-this-section"></a>Dans cette section
 
-[Écriture d’un Client automatique](writing-an-automated-client.md)
+[Écriture d’un client automatisé](writing-an-automated-client.md)
   
 > Explique comment écrire un client automatisé qui supprime l’interface utilisateur.
     
@@ -41,11 +41,11 @@ Cette section contient des sujets secondaires sur l’implémentation de certain
   
 > Explique comment utiliser des utilitaires MAPI qui sont composés des données de la table et les objets de données de propriété et une variété de fonctions pour prendre en charge diverses fonctionnalités
     
-[L’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
+[Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
   
 > Décrit comment mettre en œuvre un indicateur de progression.
     
-[Centralisation de la réception de rapports de non-remise](centralizing-the-receipt-of-ndrs.md)
+[Centralisation de la réception des rapports de non remise](centralizing-the-receipt-of-ndrs.md)
   
 > Décrit comment centraliser la réception de rapports de non-remise.
     

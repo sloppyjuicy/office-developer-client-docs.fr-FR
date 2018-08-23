@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4ae7645e45efb461ac53b6718569d909cec76504
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 15ff5ded3c26a4283572a0f64f4e41452c7699f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785650"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566837"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>Propriété canonique PidTag7BitDisplayName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une représentation de ASCII 7 bits du nom d’un utilisateur de messagerie. 
   
@@ -32,7 +32,7 @@ Contient une représentation de ASCII 7 bits du nom d’un utilisateur de messag
 |Propriétés associées :  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x39FF  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Carnet d’adresses  <br/> |
+|Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -84,7 +84,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

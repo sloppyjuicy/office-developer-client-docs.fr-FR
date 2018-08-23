@@ -1,5 +1,5 @@
 ---
-title: Create table
+title: CreateTable
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5f42e1eb0d120d2fbb785e63b451acdd2d5a91f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5d4717dad51e7e6b90da59d285268761eec84d7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783120"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564149"
 ---
-# <a name="createtable"></a>Create table
+# <a name="createtable"></a>CreateTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée des structures et un handle d’objet pour un objet [ITableData](itabledataiunknown.md) qui peut être utilisé pour créer le contenu du tableau. 
   

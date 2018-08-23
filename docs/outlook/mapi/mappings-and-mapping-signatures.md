@@ -1,5 +1,5 @@
 ---
-title: Mappages et mappage des Signatures
+title: Mappages et signatures de mappages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 16f192ae816aba2dd0e34a42fba211c3ef70ba47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b5c8fd8c757de995e2a2e4239be614cf171fcb44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566186"
 ---
-# <a name="mappings-and-mapping-signatures"></a>Mappages et mappage des Signatures
+# <a name="mappings-and-mapping-signatures"></a>Mappages et signatures de mappages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’un fournisseur de services prend en charge les propriétés nommées, chaque jeu de paires identificateur et le nom est appelé un mappage. Fournisseurs de services peuvent prendre en charge un mappage ou plusieurs. Qui est un fournisseur de banque de messages, par exemple, peut implémenter les méthodes **GetIDsFromNames** et **GetNamesFromIDs** pour toutes ses messages, dossier et objets de banque de messages pour fonctionner avec une seule liste de noms et de leurs identificateurs correspondants. Un autre fournisseur de banque de messages peut-être avoir une liste de tous les dossiers et les messages qu’il contient ou implémenter une liste unique pour chaque message et chaque dossier. Les fournisseurs de magasins de message qui utilisent un mappage unique pour chaque message ne doivent pas autoriser les propriétés nommées apparaissent dans les tables de contenu de dossier, car un nom de propriété donné, l’identificateur de la propriété sera différent à partir du message à. MAPI recommande que les fournisseurs de simplicité et fonctionnent avec une seule liste pour tous les objets, y compris les tables. 
   
