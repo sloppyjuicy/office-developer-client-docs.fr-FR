@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 85161fb87e798bbb03b267f9760870da1246e48d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 78d499dabe60a8051c6a2a77abad4b7d6f2ed159
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783155"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591953"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime un [FNIDLE](fnidle.md) en fonction de routine inactive à partir du système MAPI. 
   

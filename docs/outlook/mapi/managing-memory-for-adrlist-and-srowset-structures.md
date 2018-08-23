@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ab582b869fb5a53d7ac4e97e039d9bde4a4f0430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ef20cf8460aa7d3d160208109e42b2de66658d54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589727"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Gestion de la mémoire pour les structures ADRLIST et SRowSet »
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La condition requise pour allouer toute la mémoire pour une mémoire tampon de la mesure du possible avec un seul appel **MAPIAllocateBuffer** ne s’applique pas à l’aide de la liste d’adresses ou **ADRLIST**et jeu de lignes ou **SRowSet**, structures. 
   

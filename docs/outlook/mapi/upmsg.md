@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e281907931a493e82c44913a7c26f6df55876e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: fa8b84e7baed74bda25ec1b20bd79fb121a838fd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787439"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587571"
 ---
 # <a name="upmsg"></a>UPMSG
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations de téléchargement d’un élément Outlook pendant la [Télécharger l’état du message](upload-message-state.md).
   
@@ -38,7 +38,7 @@ struct UPMSG
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _ulFlags_
   
@@ -119,7 +119,7 @@ _skeySrc_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [FEID](feid.md)
 - [MEID](meid.md)

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: df52f668e91b707c0436b394186b27fdbb3a5dbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d04144a4f5ef714b59b608bfe19367bcb3c1ced8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588572"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propriété canonique PidTagSpoolerStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le statut du message en fonction des informations qui est disponibles pour le spouleur MAPI.
   
@@ -32,7 +32,7 @@ Indique le statut du message en fonction des informations qui est disponibles po
 |Propriétés associées :  <br/> |PR_SPOOLER_STATUS  <br/> |
 |Identificateur :  <br/> |0x0E10  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 40409edf80bfe937819f85f10e849c3d49526ebf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: da7d757516ac47fbe74b9fec23ade41579e04e60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786741"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592632"
 ---
 # <a name="pidtagsearchownerid-canonical-property"></a>Propriété canonique PidTagSearchOwnerId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’ID de processus du processus qui envoie des notifications à l’indexeur sur les objets prêt pour l’indexation.
   

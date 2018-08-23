@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6658f1c4bcfaf7557d9b53c5e70d87e124475580
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: beeca6ba958c38e12fba7dbc2884c81e58bdf3c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784071"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590119"
 ---
 # <a name="imapisupportsubscribe"></a>IMAPISupport::Subscribe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Enregistre un récepteur de notifications pour recevoir des notifications par le biais de MAPI.
   

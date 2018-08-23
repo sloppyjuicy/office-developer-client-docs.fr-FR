@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 975c01457515a400d1d442fedc432dc000f06665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 42d09fd92edf4dc221b73dac4948e78a7c6898ac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783897"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589328"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Implémente un objet de progression qui fournit des applications clientes avec un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, telles que la copie des dossiers entre les magasins de message. Applications clientes et MAPI implémentent des objets de l’avancement et fournisseurs de services de les utilisent. 
   

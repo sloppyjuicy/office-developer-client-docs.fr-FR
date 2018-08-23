@@ -1,5 +1,5 @@
 ---
-title: Interaction des composants et fournisseurs MAPI
+title: Interaction des composants et des fournisseurs MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2c0e010b-0432-4ef7-a243-3a4b46f0a19d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cb0f8d5077b4851a50ceb8523943ae760a8ee5ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c81da7673d6c0c59de6992bc46362069daf71b42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784344"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592625"
 ---
-# <a name="interaction-of-mapi-providers-and-components"></a>Interaction des composants et fournisseurs MAPI
+# <a name="interaction-of-mapi-providers-and-components"></a>Interaction des composants et des fournisseurs MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de services MAPI de n’importe quel type doivent respecter certaines règles pour travailler avec d’autres composants MAPI. Chaque fournisseur de services doit :
   

@@ -1,5 +1,5 @@
 ---
-title: Libérer le fournisseur de Transport
+title: Publication du fournisseur de transport
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: b8032b22c78ae34bce7e9ccfb0f0a14cdde07290
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea9656f9571777478d3db9a2613fbff5ddef0ee6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786985"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592289"
 ---
-# <a name="releasing-the-transport-provider"></a>Libérer le fournisseur de Transport
+# <a name="releasing-the-transport-provider"></a>Publication du fournisseur de transport
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque MAPI ou le spouleur MAPI est terminée à l’aide d’un objet de connexion de transport :
   

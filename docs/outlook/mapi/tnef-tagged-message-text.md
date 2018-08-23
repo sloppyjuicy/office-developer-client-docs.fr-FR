@@ -1,5 +1,5 @@
 ---
-title: Texte du Message TNEF balisés
+title: Texte du message TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: bedfc0457b0de8287a4e7bc8bdf8fb57404e4fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787362"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588859"
 ---
-# <a name="tnef-tagged-message-text"></a>Texte du Message TNEF balisés
+# <a name="tnef-tagged-message-text"></a>Texte du message TNEF
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Texte du message avec balise est utilisé par TNEF pour résoudre les positions des pièces jointes dans le message parent. Cette opération est effectuée en ajoutant un espace réservé dans le texte du message à la position de la pièce jointe. Cet espace réservé ou balise de pièce jointe, décrit la pièce jointe de telle sorte que TNEF sait comment résoudre la pièce jointe et sa position. Les balises sont mis en forme comme suit :
   

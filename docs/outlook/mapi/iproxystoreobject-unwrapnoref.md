@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7c6c763e918947c423c5dae283b0d4ab2f880616
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8539f81ed1741063d878da492d925b63c488d1a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586430"
 ---
 # <a name="iproxystoreobjectunwrapnoref"></a>IProxyStoreObject::UnwrapNoRef
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtient un pointeur vers un objet banque IMAP Internet Message Access Protocol () non qui fournit l’accès dans le fichier de dossiers personnels (PST) sous-jacent sans appel de la synchronisation et de télécharger les éléments.
   

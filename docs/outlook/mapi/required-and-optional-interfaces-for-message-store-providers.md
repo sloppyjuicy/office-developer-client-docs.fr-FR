@@ -1,5 +1,5 @@
 ---
-title: Interfaces obligatoires et facultatifs pour les fournisseurs de banque de messages
+title: Interfaces obligatoires et facultatives pour les fournisseurs de banque de messages
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: d8cd03fa184865446da48d7532764ba71e0e47d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786992"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586962"
 ---
-# <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatoires et facultatifs pour les fournisseurs de banque de messages
+# <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces obligatoires et facultatives pour les fournisseurs de banque de messages
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI définit un ensemble d’interfaces qui sont associées aux fournisseurs de magasins de message. En raison de la grande variété de fonctionnalités qu’une banque de messages peut choisir d’implémenter, certains de ces interfaces sont obligatoires, mais pas. Le tableau suivant répertorie les interfaces MAPI qui sont liées aux fournisseurs de magasins de message, indique si les interfaces sont obligatoires ou facultatives et décrit leur fonction.
   

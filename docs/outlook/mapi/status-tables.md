@@ -1,5 +1,5 @@
 ---
-title: Tableaux d’état
+title: Tables des états
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: afbef333af46051284fa51d52c2e3f77607b0b13
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ee7d729000fbda895918458993437fd4fe72e370
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787262"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591610"
 ---
-# <a name="status-tables"></a>Tableaux d’état
+# <a name="status-tables"></a>Tables des états
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La table d’état contient des informations relatives à l’état de la session en cours. Il existe une table d’état pour chaque session MAPI qui inclut les informations fournies par MAPI et par les fournisseurs de services. MAPI fournit les données de trois lignes : une ligne pour le sous-système MAPI, une ligne pour le spouleur MAPI et une ligne pour le carnet d’adresses intégré. Étant donné que les fournisseurs de transport requis pour fournir des informations d’état à la table d’état, il est une ligne pour chaque fournisseur de transport actif. Fournisseurs de magasin de messages et du carnet d’adresses peuvent choisir prendre en charge de la table d’état. 
   

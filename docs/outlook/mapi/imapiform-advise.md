@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b5347205e10b44d62a7e11cbe2f4179970f1bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783744"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591071"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Enregistre une visionneuse de formulaire pour les notifications concernant les événements qui affectent le formulaire.
   
@@ -79,7 +79,7 @@ Pour plus d’informations sur les formulaires et de notification, consultez [en
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[Notification d’événement MAPI](event-notification-in-mapi.md)
+[Notification d’événement dans MAPI](event-notification-in-mapi.md)
   
-[Envoyer et recevoir des Notifications de formulaire](sending-and-receiving-form-notifications.md)
+[Envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md)
 

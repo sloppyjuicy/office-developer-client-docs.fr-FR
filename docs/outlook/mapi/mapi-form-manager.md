@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d12d879ea5a82c5e0e3978d90694b3851aaac5cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f78c25285c7ac3f8736006e4a45079a7d9a6d867
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784606"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592296"
 ---
 # <a name="mapi-form-manager"></a>Gestionnaire de formulaire MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un gestionnaire de formulaire est un objet qui implémente l’interface [IMAPIFormMgr](imapiformmgriunknown.md) . La plupart des organisations utiliseront le Gestionnaire de formulaire fourni avec MAPI, appelé le Gestionnaire de formulaire par défaut. Toutefois, une organisation peut remplacer le Gestionnaire de formulaire par défaut avec un gestionnaire de formulaire personnalisé si vous le souhaitez. Le Gestionnaire de formulaire se charge de localisation des formulaires dans les bibliothèques de formulaires, le chargement des formulaires en réponse aux requêtes des utilisateurs et l’installation de formulaires dans la bibliothèque de formulaires local, bibliothèque de formulaires de dossier ou bibliothèque de formulaires personnels d’un utilisateur. 
   

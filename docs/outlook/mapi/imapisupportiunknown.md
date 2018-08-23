@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7daa8ec536a81abc196bbb23a0e1a48e826579e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784060"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590203"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des implémentations pour les tâches qui sont généralement effectuées par les fournisseurs de services et fonctions de point d’entrée message service. Fournisseurs de services s’affiche un pointeur vers l’objet de prise en charge MAPI appelle la méthode d’ouverture de session de l’objet de leur fournisseur. Services de messagerie reçoivent le pointeur d’objet de prise en charge dans l’appel de fonction de leur point d’entrée.
   
@@ -42,8 +42,8 @@ Fournit des implémentations pour les tâches qui sont généralement effectuée
 |:-----|:-----|
 |[GetLastError](imapisupport-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur d’objet prise en charge précédente.  <br/> |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |Récupère les adresses des mémoire allocation et libération de fonctions MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).  <br/> |
-|[S’abonner](imapisupport-subscribe.md) <br/> |Enregistre un récepteur de notifications pour recevoir des notifications par le biais de MAPI.  <br/> |
-|[Annuler l’abonnement](imapisupport-unsubscribe.md) <br/> |Annule la responsabilité de l’envoi de notifications précédemment établie par un appel à la méthode **Subscribe** .  <br/> |
+|[Subscribe](imapisupport-subscribe.md) <br/> |Enregistre un récepteur de notifications pour recevoir des notifications par le biais de MAPI.  <br/> |
+|[Unsubscribe](imapisupport-unsubscribe.md) <br/> |Annule la responsabilité de l’envoi de notifications précédemment établie par un appel à la méthode **Subscribe** .  <br/> |
 |[Avertir](imapisupport-notify.md) <br/> |Envoie une notification d’un événement spécifié à une source d’advise initialement enregistré pour la notification par le biais de la méthode **Subscribe** .  <br/> |
 |[ModifyStatusRow](imapisupport-modifystatusrow.md) <br/> |Modifie la table d’état en ajoutant une nouvelle ligne ou de modification d’une ligne existante.  <br/> |
 |[OpenProfileSection](imapisupport-openprofilesection.md) <br/> |Ouvre une section du profil actuel et retourne un pointeur [IProfSect](iprofsectimapiprop.md) pour davantage d’accès  <br/> |
@@ -58,7 +58,7 @@ Fournit des implémentations pour les tâches qui sont généralement effectuée
 |[OpenTemplateID](imapisupport-opentemplateid.md) <br/> |Ouvre une entrée de destinataires dans un fournisseur de carnet d’adresse étrangère.  <br/> |
 |[OpenEntry](imapisupport-openentry.md) <br/> |Ouvre un objet et retourne un pointeur d’interface pour l’accès des autres.  <br/> |
 |[GetOneOffTable](imapisupport-getoneofftable.md) <br/> |Retourne un pointeur vers le tableau unique de MAPI (une liste des modèles que tous les du carnet d’adresses fournisseurs de prise en charge pour la création de nouveaux destinataires).  <br/> |
-|[Address](imapisupport-address.md) <br/> |Affiche la boîte de dialogue adresses.  <br/> |
+|[Adresse](imapisupport-address.md) <br/> |Affiche la boîte de dialogue adresses.  <br/> |
 |[Détails](imapisupport-details.md) <br/> |Affiche une boîte de dialogue qui affiche des informations sur une entrée de carnet d’adresses particulière.  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |Ajoute un nouveau destinataire directement à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.  <br/> |
 |[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |Affiche une feuille de propriétés de configuration.  <br/> |
@@ -86,14 +86,14 @@ Carnets d’adresses, les banques de messages, les fournisseurs de transport et 
   
 ||||
 |:-----|:-----|:-----|
-|**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
+|**Adresse** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**Détails** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
 |**GetLastError** <br/> |**GetMemAllocRoutines** <br/> |**GetOneOffTable** <br/> |
 |**IStorageFromStream** <br/> |**GetSvcConfigSupportObj** <br/> |**MakeInvalid** <br/> |
 |**ModifyStatusRow** <br/> |**NewEntry** <br/> |**NewUID** <br/> |
 |**Avertir** <br/> |**OpenAddressBook** <br/> |**OpenEntry** <br/> |
 |**OpenProfileSection** <br/> |**OpenTemplateID** <br/> |**SetProviderUID** <br/> |
-|**S’abonner** <br/> |**Annuler l’abonnement** <br/> |**WrapStoreEntryID** <br/> |
+|**Subscribe** <br/> |**Unsubscribe** <br/> |**WrapStoreEntryID** <br/> |
    
 Objets de prise en charge du fournisseur de magasin de message ont des implémentations des méthodes suivantes :
   
@@ -108,7 +108,7 @@ Objets de prise en charge du fournisseur de magasin de message ont des implémen
 |**NewUID** <br/> |**Avertir** <br/> |**OpenAddressBook** <br/> |
 |**OpenEntry** <br/> |**OpenProfileSection** <br/> |**PrepareSubmit** <br/> |
 |**ReadReceipt** <br/> |**SetProviderUID** <br/> |**SpoolerNotify** <br/> |
-|**StoreLogoffTransports** <br/> |**S’abonner** <br/> |**Annuler l’abonnement** <br/> |
+|**StoreLogoffTransports** <br/> |**Subscribe** <br/> |**Unsubscribe** <br/> |
 |**WrapStoreEntryID** <br/> |
    
 Prise en charge des objets du fournisseur de transport ont des implémentations des méthodes suivantes :
@@ -121,7 +121,7 @@ Prise en charge des objets du fournisseur de transport ont des implémentations 
 |**OpenAddressBook** <br/> |**RegisterPreprocessor** <br/> |**NewUID** <br/> |
 |**Avertir** <br/> |**OpenProfileSection** <br/> |**OpenEntry** <br/> |
 |**StatusRecips** <br/> |**SpoolerNotify** <br/> |**SpoolerYield** <br/> |
-|**WrapStoreEntryID** <br/> |**S’abonner** <br/> |**Annuler l’abonnement** <br/> |
+|**WrapStoreEntryID** <br/> |**Subscribe** <br/> |**Unsubscribe** <br/> |
    
 Objets de prise en charge de service de message ont des implémentations des méthodes suivantes :
   

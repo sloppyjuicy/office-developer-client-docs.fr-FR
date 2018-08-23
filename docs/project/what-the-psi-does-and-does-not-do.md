@@ -1,19 +1,19 @@
 ---
-title: Ce que fait la PSI et ne fait pas
+title: Fonctionnalités de l’interface PSI
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: L’Interface de Project Server (PSI) peut aider à automatiser de nombreux processus côté serveur dans les installations locales de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professional 2013.
-ms.openlocfilehash: 0afdcdf43c4748fff42f7b5bc74af6c4b59b0b07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787940"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588110"
 ---
-# <a name="what-the-psi-does-and-does-not-do"></a>Ce que fait la PSI et ne fait pas
+# <a name="what-the-psi-does-and-does-not-do"></a>Fonctionnalités de l’interface PSI
 
 L’Interface de Project Server (PSI) peut aider à automatiser de nombreux processus côté serveur dans les installations locales de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professional 2013.
   
@@ -97,7 +97,7 @@ La liste suivante, voici ce que le modèle CSOM ni la PSI.
     
 - Création de liaisons entre projets.
     
-#### <a name="resources"></a>Ressources
+#### <a name="resources"></a>Resources
 
 - Demande ou effectuer l’audit des ressources.
     
@@ -231,14 +231,10 @@ Pour la tâche récapitulative du projet, les limitations PSI sont les mêmes qu
   - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
 ## <a name="see-also"></a>Voir aussi
-<a name="pj14_WhatPSIDoes_AR"> </a>
 
-- [Ce que fait le modèle CSOM et ne fait pas](what-the-csom-does-and-does-not-do.md)
-    
-- [Programmabilité Project Server](project-server-programmability.md)
-    
-- [Authentification à distance dans SharePoint Online à l’aide de l’authentification basée sur les revendications](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)
-    
-- [Compléments Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
+- [Fonctionnalité du modèle CSOM](what-the-csom-does-and-does-not-do.md)  
+- [Programmabilité de Project Server](project-server-programmability.md)   
+- [Authentification à distance dans SharePoint Online à l’aide de l’authentification basée sur les revendications](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

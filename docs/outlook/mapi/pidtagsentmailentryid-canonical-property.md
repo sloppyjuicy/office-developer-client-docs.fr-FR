@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 869f7f0bb4ea5e7222201083cb6d41754d241396
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b53275d3bf26aa8bee3aeaef2148f5ead961e471
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591652"
 ---
 # <a name="pidtagsentmailentryid-canonical-property"></a>Propriété canonique PidTagSentMailEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée du dossier dans lequel le message doit être déplacé après l’envoi.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier dans lequel le message doit �
 |Propriétés associées :  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0E0A  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

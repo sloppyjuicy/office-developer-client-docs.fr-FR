@@ -1,5 +1,5 @@
 ---
-title: Propriétés de destinataire pour les rapports d’état de remise
+title: Propriétés des destinataires pour les rapports d’état de remise
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a6ff82fa3cc4a7ad243285e9eb93b0ec880a3bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 58711a18fa6dc512cca10644437bee2ecd4d2143
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786958"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592996"
 ---
-# <a name="recipient-properties-for-delivery-status-reports"></a>Propriétés de destinataire pour les rapports d’état de remise
+# <a name="recipient-properties-for-delivery-status-reports"></a>Propriétés des destinataires pour les rapports d’état de remise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les propriétés suivantes sont présentes pour les rapports d’état de remise pour les destinataires. **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) n’est pas utilisée dans les rapports de non-remise. **PR_NDR_DIAG_CODE** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) et **PR_NDR_REASON_CODE** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) sont utilisés uniquement sur les rapports de non-remise.
   

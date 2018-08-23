@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b099bf5df657b5516fbf0948e742d1d1b36af2e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 02ab7f88edda39fcb1c66eaf643a8263e9d509c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786601"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591729"
 ---
 # <a name="pidtagresponserequested-canonical-property"></a>Propriété canonique PidTagResponseRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si l’expéditeur du message souhaite une réponse à une demande de réunion.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si l’expéditeur du message souhaite une réponse à u
 |Propriétés associées :  <br/> |PR_RESPONSE_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0063  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -76,7 +76,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

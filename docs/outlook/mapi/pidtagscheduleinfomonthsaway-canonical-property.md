@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6301cd86a81dfbf38666b6fb3ea326bc1f801490
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b8caf16bad26eef10d7686d66c5a17320de5e3bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786725"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588103"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsAway
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste des mois pour laquelle et de disponibilité des données de type en dehors du bureau (OOF) sont présentes dans le message et de disponibilité. 
   
@@ -32,7 +32,7 @@ Contient une liste des mois pour laquelle et de disponibilité des données de t
 |Propriétés associées :  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
 |Identificateur :  <br/> |0x6855  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

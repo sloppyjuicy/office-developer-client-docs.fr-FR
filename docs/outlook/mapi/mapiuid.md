@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3675c6a8ee2ee208f175dd5f7d219447aa52e9ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f7ec60768ab07c56969f538f196a1f9df5dbed17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784786"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587165"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une version indépendante de l’ordre des octets d’une structure [GUID](guid.md) qui sert à identifier de manière unique un fournisseur de services. 
   
@@ -40,7 +40,7 @@ typedef struct _MAPIUID
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **Carnet d’adresses**
   
@@ -66,9 +66,9 @@ Lorsqu’un client transmet un message sur un réseau, il doit utiliser un forma
   
 Pour plus d’informations sur l’utilisation des structures **MAPIUID** , consultez les rubriques suivantes : 
   
-[Inscription des identificateurs uniques de fournisseur de Service](registering-service-provider-unique-identifiers.md)
+[Inscription des identificateurs uniques de fournisseur de services](registering-service-provider-unique-identifiers.md)
   
-[Ordre de Transport de paramètre](setting-transport-order.md)
+[Définition de l’ordre de transport](setting-transport-order.md)
   
 ## <a name="see-also"></a>Voir aussi
 

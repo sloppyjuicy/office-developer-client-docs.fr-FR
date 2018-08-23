@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d3a8dc45bb131f5d2e7ff370617a10e3096a99f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fcea014ca4c1b1629505127484c44ae990eed855
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785677"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590805"
 ---
 # <a name="pidtagadditionalrenentryidsex-canonical-property"></a>Propriété canonique PidTagAdditionalRenEntryIdsEx
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée de dossier spécial pour un objet store. Chaque entrée de cette propriété à valeurs multiples peut être mappée à un ou plusieurs identificateurs d’entrée, autrement dit, il existe une relation un-à-plusieurs entre une entrée et son identificateur d’entrée associé.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée de dossier spécial pour un objet store.
 |Propriétés associées :  <br/> |PR_ADDITIONAL_REN_ENTRYIDS_EX  <br/> |
 |Identificateur :  <br/> |0x36D9  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Application Outlook  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Si cette propriété est utilisée, il contient un tableau de blocs qui spécifi
   
 **Bloc PersistData**
 
-|**Name**|**Type**|**Size**|**Description**|
+|**Name**|**Type**|**Taille**|**Description**|
 |:-----|:-----|:-----|:-----|
 |**PersistID** <br/> |WORD  <br/> |2  <br/> |Tapez la valeur de l’identificateur de cette entrée **PersistData** . Voir le tableau des « Valeurs PersistBlockType » pour la liste des valeurs valides.  <br/> |
 |**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Taille, en octets, du champ **DataElements** .  <br/> |
@@ -65,7 +65,7 @@ Si la valeur **PersistBlockType** n’est pas une de celles définies ici, le bl
   
 **PersistElementBlock**
 
-|**Name**|**Type**|**Size**|**Description**|
+|**Name**|**Type**|**Taille**|**Description**|
 |:-----|:-----|:-----|:-----|
 |**ElementID** <br/> |WORD  <br/> |2  <br/> |Spécifie la valeur d’identificateur de type de ce bloc **PersistElement** . Voir le tableau des « Valeurs PersistElementType » pour obtenir la liste des valeurs valides.  <br/> |
 |**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Spécifie la taille, en octets, du champ **ElementData** .  <br/> |
@@ -115,11 +115,11 @@ Mapidefs.h
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

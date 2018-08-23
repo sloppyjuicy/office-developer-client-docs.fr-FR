@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2a003be35fc9c3ef8efc7c66997ee99f6e578f09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3fc72f008d1c2610de3c74762aabc6231dabbfbd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783886"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589055"
 ---
 # <a name="imapiprogressprogress"></a>IMAPIProgress::Progress
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Met à jour l’indicateur de progression avec un affichage de la progression qu’elle est réalisée vers la fin de l’opération. 
   
@@ -92,5 +92,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
   
-[L’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
+[Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

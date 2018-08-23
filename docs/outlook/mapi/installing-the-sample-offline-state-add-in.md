@@ -1,23 +1,23 @@
 ---
-title: L’installation de l’exemple en mode hors connexion d’état complément
+title: Installation de l’exemple de complément d’état hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Dernière modification : 06 juillet 2012'
-ms.openlocfilehash: 00232f290c367c4bab1854bfe3909abc7b03cef8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7616c3a6077b9354cda7046c0949e7c5553f6551
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784338"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586836"
 ---
-# <a name="installing-the-sample-offline-state-add-in"></a>L’installation de l’exemple en mode hors connexion d’état complément
+# <a name="installing-the-sample-offline-state-add-in"></a>Installation de l’exemple de complément d’état hors connexion
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente les étapes pour télécharger et installer le complément exemple hors connexion état. Le complément exemple hors connexion état est un complément COM qui ajoute un menu **État hors connexion** dans Outlook et utilise l’API de l’état en mode hors connexion. Via le menu état hors connexion, vous pouvez activer ou désactiver l’analyse de l’état, vérifiez l’état actuel et modifier l’état actuel. Pour plus d’informations sur la façon dont le complément état hors connexion est implémenté, voir [définition d’une en mode hors connexion de l’état Add-in](setting-up-an-offline-state-add-in.md).
   
@@ -60,15 +60,15 @@ Cette rubrique présente les étapes pour télécharger et installer le complém
 
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
-[L’installation de l’exemple en mode hors connexion d’état complément](installing-the-sample-offline-state-add-in.md)
+[Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md)
   
-[À propos de l’exemple en mode hors connexion-dans l’état](about-the-sample-offline-state-add-in.md)
+[À propos de l’exemple de complément d’état hors connexion](about-the-sample-offline-state-add-in.md)
   
-[Configuration d’un complément en mode hors connexion d’état](setting-up-an-offline-state-add-in.md)
+[Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md)
   
-[Analyse l’état de connexion change utilisant un complément en mode hors connexion d’état](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
+[Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
   
-[Déconnexion d’un complément en mode hors connexion d’état](disconnecting-an-offline-state-add-in.md)
+[Déconnexion d’un complément d’état hors connexion](disconnecting-an-offline-state-add-in.md)
 

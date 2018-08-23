@@ -1,5 +1,5 @@
 ---
-title: Extraction de principal et identité du fournisseur
+title: Récupération de l’identité fournisseur et principale
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d81bb81d-1708-4a8d-a4d5-c3ba087db9b7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2a87e32fe21aa6fb1d9296c568a74da994c146bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: da11cf684c4bdcfb94d33791ed7c61d2e322e1a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586584"
 ---
-# <a name="retrieving-primary-and-provider-identity"></a>Extraction de principal et identité du fournisseur
+# <a name="retrieving-primary-and-provider-identity"></a>Récupération de l’identité fournisseur et principale
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de services, généralement les fournisseurs de carnet d’adresses, ont la possibilité de fournir une identité qui peut être utilisée pour représenter la session dans de nombreuses situations. Trois propriétés décrivent l’identité d’un fournisseur :
   

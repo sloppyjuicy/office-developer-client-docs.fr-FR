@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7d6ccd64fea0af30e81a2db0bcb9630062b4b64d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587837"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Met fin à une session MAPI.
   
@@ -93,5 +93,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Mettre fin à une Session MAPI](ending-a-mapi-session.md)
+[Fermeture d’une session MAPI](ending-a-mapi-session.md)
 

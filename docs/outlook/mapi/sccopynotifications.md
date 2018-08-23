@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 28a802ffc43b08d3e2ec2be26dd98fa78f474d91
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7d4877c81a52b529aa183ea552430b481c6617f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787057"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593353"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Copie un groupe de notifications d’événements dans un bloc de mémoire. 
   

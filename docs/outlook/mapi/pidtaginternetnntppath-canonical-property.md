@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 05799e5bf9f987c28035d07bcd218e75651e5ae0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e265b646aa9942efafe8de352cc1d7939dec87a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786123"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592751"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Propriété canonique PidTagInternetNntpPath
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Correspond à l’en-tête du chemin d’accès MIME.
   
@@ -32,7 +32,7 @@ Correspond à l’en-tête du chemin d’accès MIME.
 |Propriétés associées :  <br/> |PR_INTERNET_NNTP_PATH, PR_INTERNET_NNTP_PATH_A, PR_INTERNET_NNTP_PATH_W  <br/> |
 |Identificateur :  <br/> |0x1038  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |MIME  <br/> |
+|Domaine :  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -60,7 +60,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

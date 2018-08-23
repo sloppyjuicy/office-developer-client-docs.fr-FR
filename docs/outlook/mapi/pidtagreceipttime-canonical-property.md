@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0d0b8f3a394d2ec2239e8ab186d4021b60b00ea4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4e022508f85b3f2c473809e730377ad74f55a43c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786498"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590280"
 ---
 # <a name="pidtagreceipttime-canonical-property"></a>Propriété canonique PidTagReceiptTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure de qu'un rapport de remise est généré.
   
@@ -32,7 +32,7 @@ Contient la date et l’heure de qu'un rapport de remise est généré.
 |Propriétés associées :  <br/> |PR_RECEIPT_TIME  <br/> |
 |Identificateur :  <br/> |0x002A  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

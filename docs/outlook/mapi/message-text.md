@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d1837f1-494f-481b-9e09-ab8249f1488c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9dba148646678f0740c5b2c338ae345ecd76dfac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2d74c9d5632e81e5b98cd1a4a02d5646cf3f6300
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784885"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592310"
 ---
 # <a name="message-text"></a>Texte du message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour les messages sortants en mode MIME, le type de contenu dépend s’offrent à quoi ressemble le texte du message et des pièces jointes. S’il existe des pièces jointes, le type de contenu est _mixte/multipartie ;_ le texte du message et chaque pièce jointe deviennent une partie du contenu du message, chacun avec son propre type de contenu distincte. S’il n’y a pas de pièces jointes, le type de contenu du message est _text/plain_ et qu’une seule partie. 
   
@@ -29,7 +29,7 @@ Le texte du message n'est pas ligne-encapsulé, sauf si une ligne dépasse 140 c
     
 - Si les lignes longues ou caractères 8 bits sont détectés, le message est du texte et le jeu de caractères est déterminé par les paramètres régionaux. Il doit être choisie dans les jeux de caractères définis par la norme ISO 8859 standard. _Type de contenu : texte/ordinaire ; charset = iso-8859-1_ (ou un autre jeu de caractères valide) 
     
-     _Content-Transfer-Encoding : quoted-printable_
+     _Content-Transfer-Encoding: quoted-printable_
     
 Pour les messages MIME entrants, si le premier message de contenu de composant a _Content-type : texte /\* _ (c'est-à-dire, tout type de texte) et son jeu de caractères est reconnue, elle est mappée à **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Une première partie du contenu message ne pas ce critère devient une pièce jointe. Tous les composants suivants sont également les pièces jointes.
   

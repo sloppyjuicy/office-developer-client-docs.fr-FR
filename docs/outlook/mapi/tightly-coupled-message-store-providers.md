@@ -1,5 +1,5 @@
 ---
-title: Fournisseurs de banque de messages étroitement couplés
+title: Fournisseurs de banques de messages étroitement couplés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 83ebb739302ca0e12604b9eaf854f273554826ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4b8aa7f05c20eb3b100e9e04424dc752f064a61b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787347"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590294"
 ---
-# <a name="tightly-coupled-message-store-providers"></a>Fournisseurs de banque de messages étroitement couplés
+# <a name="tightly-coupled-message-store-providers"></a>Fournisseurs de banques de messages étroitement couplés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins de message peuvent être étroitement avec un fournisseur de transport. Associant étroitement les moyens de fournisseurs de service MAPI implémenter les deux fournisseurs tels que le fournisseur de magasin et le fournisseur de transport peuvent communiquer pour faciliter le processus d’envoi et réception de messages plus efficaces. L’avantage de cette approche est qu’améliorations des performances peuvent se produire lorsque deux fournisseurs de services peuvent interagir les uns avec les autres directement plutôt que prenait spouleur MAPI. Pour associer étroitement un fournisseur de banque de messages à un fournisseur de transport, le fournisseur de transport doit placer l’identificateur d’entrée du fournisseur de banque de messages dans la propriété **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) dans du fournisseur transport ligne dans la table d’état MAPI. Cela permet de spouleur MAPI pour se connecter au fournisseur de magasin pour le fournisseur de transport.
   

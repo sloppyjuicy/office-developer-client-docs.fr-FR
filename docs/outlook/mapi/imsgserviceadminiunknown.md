@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 21889bf626d7f9128d1e01b3e6a15b5fa0d2e696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cf275c66a60ed977c442b468b7c9951325db5120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593514"
 ---
 # <a name="imsgserviceadmin--iunknown"></a>IMsgServiceAdmin : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Modifie un service de message dans un profil.
   

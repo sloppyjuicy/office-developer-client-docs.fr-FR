@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
 description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 28f60154524065bd2c818e2e4b7db37ca33276b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 79f1f9254e69e1871e886fa0bb3fbb66e2aab128
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784936"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590455"
 ---
 # <a name="opening-an-address-book-container"></a>L’ouverture d’un conteneur de carnet d’adresses
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Après que l’ouverture de l’interface MAPI intégré du carnet d’adresses, ouvrez un ou plusieurs conteneurs de carnet d’adresses pour accéder à des destinataires au sein de celles-ci.
   

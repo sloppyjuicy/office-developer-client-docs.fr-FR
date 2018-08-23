@@ -1,5 +1,5 @@
 ---
-title: Fournir des Notifications pour les fournisseurs de banque de messages
+title: Fourniture de notifications pour les fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0e1cdba-ceb6-4a3f-8449-79d1a0ad1adf
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3abb4ba67ff5f0cf2284fa9286b6968698877b84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3722893ae57a108b338725e46c975e92c0f8ff72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786956"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587508"
 ---
-# <a name="providing-notifications-for-message-store-providers"></a>Fournir des Notifications pour les fournisseurs de banque de messages
+# <a name="providing-notifications-for-message-store-providers"></a>Fourniture de notifications pour les fournisseurs de banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Alors que les notifications sont facultatives, ils sont un composant essentiel d’un fournisseur de magasin de message bonne. Les applications clientes et le spouleur MAPI s’appuient sur les notifications à partir du fournisseur de banque de messages pour obtenir de bonnes performances lors de l’envoi de messages sortants ou la réception de messages entrants. Clients et le spouleur MAPI peuvent fonctionner sans recevoir des notifications à partir du fournisseur de banque de messages, mais ils ne seront pas en mesure d’informer les utilisateurs des modifications dans la banque de messages sans les. En règle générale, cela signifie que les utilisateurs ne pourront pas savoir qu’un nouveau message est arrivé jusqu'à ce que le client suivant pour ouvrir la banque de messages reçoivent dossier.
   

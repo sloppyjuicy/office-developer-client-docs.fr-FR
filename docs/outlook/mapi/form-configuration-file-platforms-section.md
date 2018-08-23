@@ -1,5 +1,5 @@
 ---
-title: Section de formulaire Configuration de fichier [plateformes]
+title: Section [Plates-formes] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ddc6db2303d9d5f114fdb27b6e15e699a04e73f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d86edfb6fcc72c5968a8ff5d9cd739e20e5dec43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589895"
 ---
-# <a name="form-configuration-file-platforms-section"></a>Section de formulaire Configuration de fichier [plateformes]
+# <a name="form-configuration-file-platforms-section"></a>Section [Plates-formes] du fichier de configuration de formulaire
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La section **[plateformes]** répertorie l’ensemble complet des plateformes prises en charge par ce formulaire. Chaque entrée de plateforme comprend le préfixe **plate-forme.** _chaîne_dans laquelle la _chaîne_ est un code de chaîne arbitraire pour la plateforme. Chaque chaîne correspond à l’entrée de **l’UC** de des sections **[plateformes]** . Chaque entrée dans la section **[plateformes]** définit une _chaîne de plateforme_ qui fait référence suivante **[plateforme.** _chaîne de plateforme_ section **]** comme indiqué ici. 
   

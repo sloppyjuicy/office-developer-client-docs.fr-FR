@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 16dca82b94225afc88bcb6c4e698a50565d6b088
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8002698b1644fb63292b4242d4fb3d784a99a03f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592023"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Multiplie un entier non signé de 32 bits par une autre.
   

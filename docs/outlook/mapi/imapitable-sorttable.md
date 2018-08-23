@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 46a87a6eb5c80244c04ae6257cd4441b8797ba36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: efeff92f1a21d076c1ee58b82ad3ab25797df014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784103"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592303"
 ---
 # <a name="imapitablesorttable"></a>IMAPITable::SortTable
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La méthode **IMAPITable::SortTable** trie les lignes du tableau, en fonction de tri critères. 
   

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
 description: 'Dernière modification : 02 juillet 2012'
-ms.openlocfilehash: bb2d347d218a7c33a2184bf1fcf181a11fa7d8fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783300"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588306"
 ---
 # <a name="feid"></a>FEID
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Identificateur d’un dossier. Il contient un identificateur d’entrée et d’autres informations pertinentes.
   
@@ -35,7 +35,7 @@ struct FEID
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -57,7 +57,7 @@ struct FEID
 
 
 
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [Constantes MAPI](mapi-constants.md)
   
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SYNCHRONISATION](sync.md)
+[SYNC](sync.md)
 

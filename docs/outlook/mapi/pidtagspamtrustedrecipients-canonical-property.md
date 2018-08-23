@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 59f43316-3ff6-4ed0-bc29-b31039192b08
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3a852ff8b4e3ff0df59c4c84f53802fa29d63a80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 11999ef954ba3a35fa380f9ad2cf9f1fdffdea38
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786791"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587550"
 ---
 # <a name="pidtagspamtrustedrecipients-canonical-property"></a>Propriété canonique PidTagSpamTrustedRecipients
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste délimitée par des points-virgules, des adresses de messagerie et des domaines qui représentent les destinataires approuvés.
   
@@ -26,7 +26,7 @@ Contient une liste délimitée par des points-virgules, des adresses de messager
 |Propriétés associées :  <br/> |PR_SPAM_TRUSTED_RECIPIENTS_W  <br/> |
 |ID de type long (capot) :  <br/> |0x0419  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Courrier indésirable  <br/> |
+|Domaine :  <br/> |Courrier indésirable  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,6 +54,6 @@ MAPITAGS.h
 
 - [Propriétés MAPI](mapi-properties.md) 
 - [Propriétés canoniques MAPI](mapi-canonical-properties.md)  
-- [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)  
-- [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+- [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)  
+- [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

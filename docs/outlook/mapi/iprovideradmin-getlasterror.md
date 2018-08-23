@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f00418efa068ea81fab94605cbdfd139e24bb4a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 63ddf6fd8f61834c7a7faa910f70bfd98715a703
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784395"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591323"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente s’est produite à l’objet de l’administration du fournisseur. 
   

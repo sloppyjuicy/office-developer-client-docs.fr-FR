@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4c5b6cbdda63dcb79b23253e0db695ae658c4fa4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0b4cc2fe82db60a2302f33a194314e0df1458a89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586913"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Installer les exemples de cette section
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour installer l’application MFCMAPI et projet CreateOutlookItemsAddin pour afficher et exécuter l’exemple de code référencée par les rubriques de la section [Création des éléments Outlook à l’aide de MAPI](creating-outlook-items-by-using-mapi.md) , procédez comme suit. 
 
@@ -78,8 +78,8 @@ Certaines rubriques font référence au code source à partir de l’application
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Créer un élément de courrier Simple](how-to-create-a-simple-mail-item.md)
-- [Créer une tâche périodique Simple](how-to-create-a-simple-recurrent-task-item.md)
-- [Créer un rendez-vous périodique complexes](how-to-create-a-complex-recurrent-appointment-item.md)
+- [Créer un élément simple de messagerie](how-to-create-a-simple-mail-item.md)
+- [Créer un élément simple de tâche récurrente](how-to-create-a-simple-recurrent-task-item.md)
+- [Créer un élément complexe de rendez-vous récurrent](how-to-create-a-complex-recurrent-appointment-item.md)
 - [Lire et analyser une périodicité](how-to-read-and-parse-a-recurrence-pattern.md)
 

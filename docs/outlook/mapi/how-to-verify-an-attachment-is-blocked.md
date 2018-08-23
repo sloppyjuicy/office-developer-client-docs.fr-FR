@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: a21383e0ea6920075a57d872e82851462bf0e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb83b57de3bb484e4fb5f94f76a7d9bfa0fce876
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783506"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589797"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Vérifiez la que pièce jointe est bloquée
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 En C++, cet exemple de code montre comment utiliser la [IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) interface permettant de savoir si une pièce jointe est bloquée par Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation. 
   

@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 26c329323eebff6cfdf4f4be4dffe9a62f8745e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a2f9d1623c3733292ebf5c65452ac0d65f577c4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592716"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Ajoutez une définition pour un nouveau champ défini par l’utilisateur
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous ajoutez un champ défini par l’utilisateur à un élément Microsoft Outlook, vous ajoutez une définition de champ à la structure de flux de [la définition PropertyDefinition](propertydefinition-stream-structure.md) correspondante. Utilisez la procédure suivante pour ajouter une nouvelle définition de champ à une structure de flux de la définition PropertyDefinition. 
   
@@ -35,5 +35,5 @@ Lorsque vous ajoutez un champ défini par l’utilisateur à un élément Micros
     
 ## <a name="see-also"></a>Voir aussi
 
-- [La définition PropertyDefinition flux Structure](propertydefinition-stream-structure.md)
+- [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 

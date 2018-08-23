@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f91df63c-ff6d-4c63-a665-5bcfdabe7e0e
 description: 'Dernière modification : 06 juillet 2012'
-ms.openlocfilehash: 33e5b9e0112f562b192400498764a10682d006a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1e11d9f663384f00e7fd867802ef63afe1dd7e9e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592737"
 ---
 # <a name="opening-ole-attachments-with-istreamdocfile"></a>Ouverture des pièces jointes OLE avec IStreamDocfile
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous ouvrez la pièce jointe d’objet OLE, utilisez l’interface **IStreamDocfile** plutôt que de [IStream](http://msdn.microsoft.com/en-us/library/windows/desktop/aa380034%28v=vs.85%29.aspx) ou de [IStorage](http://msdn.microsoft.com/en-us/library/windows/desktop/aa380015%28v=vs.85%29.aspx). 
 

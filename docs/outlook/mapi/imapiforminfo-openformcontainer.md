@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f6461a1e47437c5d0c2c422d727e2b00819629b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783782"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590420"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.
   

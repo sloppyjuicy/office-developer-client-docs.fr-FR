@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 31b2353b76bbac5cd58cd791f4a289c7dbabdb78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1eb4d7ac8d0287388a1bb76185f23636eddcf809
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591673"
 ---
 # <a name="mapiinit0"></a>MAPIINIT_0
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Présente les options de la fonction [exécuter MAPIInitialize](mapiinitialize.md) . 
   
@@ -40,7 +40,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulVersion**
   
@@ -72,7 +72,7 @@ Pour plus d’informations sur le moment de définir cet indicateur et comment i
 
 
 
-[Exécuter MAPIInitialize](mapiinitialize.md)
+[MAPIInitialize](mapiinitialize.md)
 
 
 [Structures MAPI](mapi-structures.md)

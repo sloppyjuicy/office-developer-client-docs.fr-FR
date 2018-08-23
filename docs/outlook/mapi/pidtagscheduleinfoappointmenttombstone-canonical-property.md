@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 37a6d101f6ee9c04236253e143aff3a51a9208d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e554a496dd1869dd7c07b315d92a136676e05006
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786706"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590042"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propriété canonique PidTagScheduleInfoAppointmentTombstone
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
   
@@ -32,7 +32,7 @@ Contient une liste de blocs de données qui représentent les réunions qui ont 
 |Propriétés associées :  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
 |Identificateur :  <br/> |0x686A  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -50,8 +50,8 @@ L’en-tête est suivi d’entrées **RecordsCount** des valeurs 32 bits défini
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Heure de début  <br/> |Heure de début de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
-|Heure de fin  <br/> |Heure de fin de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
+|StartTime  <br/> |Heure de début de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
+|EndTime  <br/> |Heure de fin de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
 |GlobalObjectIdSize  <br/> |La taille, en octets, du champ GlobalObjectId.  <br/> |
 |GlobalObjectId  <br/> |La valeur de la propriété **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion cet enregistrement représente.  <br/> |
 |UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 qui suit.  <br/> |
@@ -86,7 +86,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c832842568ea3d64d50b56d226b66d551402ba6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a328d71aef57f85a5bd33db5cc219dff181dafc0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786598"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593304"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>Propriété canonique PidTagReportTag
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de balise binaires que le système de messagerie doit copier dans un rapport généré pour le message. 
   
@@ -32,7 +32,7 @@ Contient une valeur de balise binaires que le système de messagerie doit copier
 |Propriétés associées :  <br/> |PR_REPORT_TAG  <br/> |
 |Identificateur :  <br/> |0x0031  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

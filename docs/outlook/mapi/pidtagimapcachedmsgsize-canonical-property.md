@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 30f9ddb26307791ea7cf64f355f38f99a14743aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f669eff49665f28f06e23f19f8f0c0fcd9dd6afd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19786111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591925"
 ---
 # <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propriété canonique PidTagImapCachedMsgsize
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la taille du message Internet Message Access Protocol mis en cache.
   
@@ -32,7 +32,7 @@ Contient la taille du message Internet Message Access Protocol mis en cache.
 |Propriétés associées :  <br/> |Aucun  <br/> |
 |Identificateur :  <br/> |0x10F0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Renommer le dossier de message  <br/> |
+|Domaine :  <br/> |Renommer le dossier de message  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Entrées de liste dans les Sections de Service de Message MapiSvc.inf
+title: Entrées de liste dans les sections de service de message MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f4f052d6-ef63-421a-9d8c-4f3c6df83863
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cfb06e8dd305add6049d035c44685be047dc744f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c5b5c468b56e5b34d265e7f00bbee96142a88e1c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591120"
 ---
-# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Entrées de liste dans les Sections de Service de Message MapiSvc.inf
+# <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Entrées de liste dans les sections de service de message MapiSvc.inf
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe deux types d’entrées de la liste section : une qui répertorie les sections de fournisseur de service et l’autre qui répertorie les sections spécifiques au service de message divers. Ces deux types d’entrées s’affichent dans mapisvc.inf à l’aide des formats suivants :
   

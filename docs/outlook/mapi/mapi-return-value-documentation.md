@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c32ee53c-b063-4a00-a6bf-75ce5e07f56a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f2b8f87987f93ec152d4986131a6b7990273c28d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 39d195f3cea6acbd5d5ab80cbba9d041ce9f7137
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784695"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589146"
 ---
 # <a name="mapi-return-value-documentation"></a>Documentation de valeur de retour MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les entrées de référence dans ce guide de référence du document uniquement les valeurs de retour qui nécessitent une gestion par les applications clientes. Valeurs de retour qui indiquent les erreurs courantes et peuvent être déduites en vérifiant les échecs ne figurent pas dans la documentation. Par exemple, de nombreuses méthodes de l’interface peuvent renvoyer MAPI_E_INVALID_PARAMETER si un appelant spécifie une valeur incorrecte pour un paramètre d’entrée. Cette valeur n’est généralement pas répertoriée dans l’ensemble de valeurs de retour attendus, car il est inutile de vérifier spécifiquement pour MAPI_E_INVALID_PARAMETER et pas nécessaire de traiter de façon différente à partir de n’importe quel autre erreur. En revanche, certains fournisseurs de services ne prennent pas en charge la notification d’événement et retourne à la méthode **Advise** effectuée par les clients par le biais de **IMAPISession**MAPI_E_NO_SUPPORT. Étant donné que les clients doivent vérifier cette valeur et fournissent le code pour traiter la condition qu’il représente doit explicitement, il se produit, MAPI_E_NO_SUPPORT est inclus dans la liste des valeurs de retour pour [IMAPISession::Advise](imapisession-advise.md).
   

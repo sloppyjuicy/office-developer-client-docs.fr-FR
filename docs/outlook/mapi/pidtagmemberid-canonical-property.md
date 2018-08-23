@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ce6925f40e09261494e4edbcbd7314728debbe2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: caf1cb2e16c298af452e638631293379fdd68b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589783"
 ---
 # <a name="pidtagmemberid-canonical-property"></a>Propriété canonique PidTagMemberId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’un membre de la table qui possède les droits décrits dans une boîte aux lettres ou un dossier Microsoft Exchange Server.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’un membre de la table qui possède les droits d�
 |Propriétés associées :  <br/> |PR_MEMBER_ID  <br/> |
 |Identificateur :  <br/> |0x6671  <br/> |
 |Type de données :  <br/> |PT_I8  <br/> |
-|Zone :  <br/> |Contrôle d’accès  <br/> |
+|Domaine :  <br/> |Contrôle d’accès  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

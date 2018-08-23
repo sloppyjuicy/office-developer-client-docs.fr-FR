@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 070fa55b5116f6e5adad8f3e33bf5629583bec3a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0726ceae42fecdf39512c9095295ea643b138c64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785652"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590581"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propriété canonique PidTagAbDefaultPab
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée du conteneur de carnet d’adresses à utiliser comme le carnet d’adresses personnel (CAP). 
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du conteneur de carnet d’adresses à u
 |Propriétés associées :  <br/> |PR_AB_DEFAULT_PAB  <br/> |
 |Identificateur :  <br/> |0x3D07  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Carnet d’adresses  <br/> |
+|Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

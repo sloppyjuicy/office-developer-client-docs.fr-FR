@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e07d39ba364fd7da72fe9f923fed2d8b93bd2f8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cfe3eaa7a1d849fa5b192c83af0eb153b3f90ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786109"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588978"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Propriété canonique PidTagIncompleteCopy
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si ce message est une copie d’un autre message incomplète.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si ce message est une copie d’un autre message incompl
 |Propriétés associées :  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identificateur :  <br/> |0x0035  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Propriétés de Message générales  <br/> |
+|Domaine :  <br/> |Propriétés de Message générales  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

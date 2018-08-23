@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e26acb8415df007a7f3fb5901521da7222ae40ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 37dc92a40043657cb791359d543ef52c77dbd8ce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783397"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589237"
 ---
 # <a name="ftnegft"></a>FtNegFt
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule des deux complément d’un nombre entier non signé 64 bits. 
   

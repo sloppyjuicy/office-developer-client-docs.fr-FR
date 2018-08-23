@@ -1,5 +1,5 @@
 ---
-title: Administration des profils et des Services de messagerie
+title: Administration des profils et des services de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 71e8cf50c1951abf1df6163cae4757ffebc979b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 124f4875834e035e29d4c63e52789bf07f18258d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782893"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587543"
 ---
-# <a name="administering-profiles-and-message-services"></a>Administration des profils et des Services de messagerie
+# <a name="administering-profiles-and-message-services"></a>Administration des profils et des services de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Profil et le message d’administration du service peut impliquer créer de nouveaux profils, la suppression des anciens profils et modifier le contenu des profils existants en modifiant le message les services et les fournisseurs de services qu’ils contiennent. Pas tous les clients prennent en charge l’administration du service de profil et message en tant que fonctionnalités standard. Certains clients ont rien d’autre à faire avec des profils à autoriser les utilisateurs à sélectionner une au moment de l’ouverture de session.
   
@@ -49,7 +49,7 @@ Soyez prudent dans votre prise en charge de l’administration du service de pro
   
 > Explique comment supprimer un profil.
     
-[Définir un profil par défaut](setting-a-default-profile.md)
+[Définition d’un profil par défaut](setting-a-default-profile.md)
   
 > Décrit comment définir un profil par défaut.
     
@@ -57,23 +57,23 @@ Soyez prudent dans votre prise en charge de l’administration du service de pro
   
 > Décrit comment rechercher un nom d’un profil.
     
-[Ajout d’un Service de Message](adding-a-message-service.md)
+[Ajout d’un service de messagerie](adding-a-message-service.md)
   
 > Explique comment ajouter un service de message.
     
-[Configuration d’un Service de Message](configuring-a-message-service.md)
+[Configuration d’un service de messagerie](configuring-a-message-service.md)
   
 > Explique comment configurer un service de message.
     
-[Copie d’un Service de Message](copying-a-message-service.md)
+[Copie d’un service de messagerie](copying-a-message-service.md)
   
 > Décrit la copie d’un service de message à un profil.
     
-[Suppression d’un Service de Message](deleting-a-message-service.md)
+[Suppression d’un service de messagerie](deleting-a-message-service.md)
   
 > Explique comment supprimer un service de message.
     
-[Ajout ou suppression de fournisseurs dans un Service de Message](adding-or-deleting-providers-in-a-message-service.md)
+[Ajout ou suppression de fournisseurs dans un service de messagerie](adding-or-deleting-providers-in-a-message-service.md)
   
 > Décrit comment ajouter ou supprimer des fournisseurs dans un service de message.
     

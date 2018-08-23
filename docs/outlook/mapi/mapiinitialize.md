@@ -1,5 +1,5 @@
 ---
-title: Exécuter MAPIInitialize
+title: MAPIInitialize
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d22c24088960debcd18ccd818dad23656f6a01f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5fcebd1fefa0d077acbe62a45a19a622e13b35fc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587368"
 ---
-# <a name="mapiinitialize"></a>Exécuter MAPIInitialize
+# <a name="mapiinitialize"></a>MAPIInitialize
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Incrémente le décompte de références du sous-système MAPI et initialise les données globales de la DLL MAPI. 
   

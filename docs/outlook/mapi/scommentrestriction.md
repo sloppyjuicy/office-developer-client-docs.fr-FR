@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2185b059f2b831a14b90bad3a3c286ed72f8234d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 84fb79b1922669db9c8e5d518a833a6866f11cea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589181"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction de commentaire, qui sert à annoter une restriction. 
   
@@ -41,7 +41,7 @@ typedef struct _SCommentRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

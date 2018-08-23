@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b0e54f78257eb6890e8afbb7941dc625dc79be0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c6cdb07e1cbe68d90c6dcd9d5418f700ea5abc3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783441"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589650"
 ---
 # <a name="handling-mapi-forms"></a>Gestion des formulaires MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un formulaire MAPI est une visionneuse pour un message d’une classe particulière. Les clients qui autorisent leurs aux utilisateurs de travailler avec des messages appartenant à une variété de classes de message doivent être écrite pour gérer une variété de formulaires MAPI. Pour gérer plusieurs formulaires, clients implémentent un composant appelé une visionneuse de formulaire qui contient les trois objets suivants :
   
@@ -68,5 +68,5 @@ Pour accéder au Gestionnaire de formulaire, appelez la fonction de [MAPIOpenFor
 ## <a name="see-also"></a>Voir aussi
 
 - [Formulaires MAPI](mapi-forms.md)
-- [Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+- [Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

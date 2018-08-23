@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 29e842584e5145f747aa0ef0c7796e5f7b3a8e0b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a15830d1b673b44e9058e33a1499744f631d8e32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785813"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587655"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreSupportMasks
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des indicateurs indiquant les fonctionnalités prises en charge de la banque.
   
@@ -32,7 +32,7 @@ Contient des indicateurs indiquant les fonctionnalités prises en charge de la b
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
 |Identificateur :  <br/> |0x6621  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Zone :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

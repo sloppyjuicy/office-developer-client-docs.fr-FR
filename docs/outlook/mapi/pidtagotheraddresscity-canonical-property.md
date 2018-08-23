@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 480ec0dc-6c04-4284-99da-aa4b26f5d7d0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0e393170601c52f04c20fddd3362462bc2d14f9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e65e6032eea158bf358fc91dcb0fdf3032d7b3c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786394"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588544"
 ---
 # <a name="pidtagotheraddresscity-canonical-property"></a>Propriété canonique PidTagOtherAddressCity
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom de la messagerie autres localité d’utilisateur, telles que la ville ou une ville.
   
@@ -32,7 +32,7 @@ Contient le nom de la messagerie autres localité d’utilisateur, telles que la
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_CITY, PR_OTHER_ADDRESS_CITY_A, PR_OTHER_ADDRESS_CITY_W  <br/> |
 |Identificateur :  <br/> |0x3A5F  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

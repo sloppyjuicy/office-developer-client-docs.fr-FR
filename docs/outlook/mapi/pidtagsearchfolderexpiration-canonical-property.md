@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bd70d18242fadee964ad96305728e63617a0276f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a2f72f68926665087ee8e3a0c9e8394042a8f955
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786736"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590770"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>Propriété canonique PidTagSearchFolderExpiration
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’heure à laquelle le conteneur de dossiers de recherche sera obsolète et doit être mis à jour ou recréé.
   
@@ -32,7 +32,7 @@ Contient l’heure à laquelle le conteneur de dossiers de recherche sera obsol�
 |Propriétés associées :  <br/> |PR_WB_SF_EXPIRATION  <br/> |
 |Identificateur :  <br/> |0x683A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Search  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

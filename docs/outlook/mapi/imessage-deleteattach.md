@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 93f264cc91118e40f7a2869d29e7e53d404ae381
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: de5c98272c08c469acf23b0ecae7eac0a2d1bfe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784143"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592513"
 ---
 # <a name="imessagedeleteattach"></a>IMessage::DeleteAttach
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime une pièce jointe.
   

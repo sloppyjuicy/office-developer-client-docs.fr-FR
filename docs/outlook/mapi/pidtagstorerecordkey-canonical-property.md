@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27347302-bd52-4f62-98f1-6c37f9a66463
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4598ca5e654308f7701b1dd66adb227599773b7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 08527f3325742eb7c48f11c2ed7d08f71fa3e972
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786855"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592709"
 ---
 # <a name="pidtagstorerecordkey-canonical-property"></a>Propriété canonique PidTagStoreRecordKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur unique comparable binaire (clé d’enregistrement) de la banque de messages dans lequel réside un objet.
   
@@ -32,7 +32,7 @@ Contient l’identificateur unique comparable binaire (clé d’enregistrement) 
 |Propriétés associées :  <br/> |PR_STORE_RECORD_KEY  <br/> |
 |Identificateur :  <br/> |0x0FFA  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Propriétés ID  <br/> |
+|Domaine :  <br/> |Propriétés ID  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

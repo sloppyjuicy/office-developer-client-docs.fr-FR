@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9af170f3445757eb96b9fe78c7cbea2c29ef4612
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 954609cbc62039c0d60874bde83fde50d1d11c30
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784919"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591666"
 ---
 # <a name="msgserviceentry"></a>MSGSERVICEENTRY
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit un prototype pour une fonction point d’entrée message service prendre en charge la configuration du service de message. 
   

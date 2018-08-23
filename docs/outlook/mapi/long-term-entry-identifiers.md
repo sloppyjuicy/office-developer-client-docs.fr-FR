@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 589420db48edb348a22f34ce72b948f4d8207ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e624ab4f39ef5a5385119779b0780ee7173a3ee7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784535"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586920"
 ---
 # <a name="long-term-entry-identifiers"></a>Identificateurs d’entrée à long terme
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un identificateur d’entrée à long terme est affecté par un fournisseur de services à un objet lorsqu’un objet nécessite un identificateur ayant une durée de vie prolongée. Identificateurs d’entrée à long terme sont toujours valables pour plusieurs semaines ou mois et peuvent être valides sur les autres stations de travail, selon le fournisseur. Les identificateurs à long terme créés par les fournisseurs de carnet d’adresses pour les destinataires personnalisés valent universel. 
   

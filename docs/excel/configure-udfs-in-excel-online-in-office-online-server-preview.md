@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilisez les fonctions définies par l’utilisateur (UDF) dans Excel Online dans Office Online Server Preview pour appeler des fonctions personnalisées.
-ms.openlocfilehash: ae2d668ebd4a4df278a5c19e702de248b1749b84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12f452241754be1b4b1e545c69225aed055f4965
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782005"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590181"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>Configurer des UDF dans Excel Online dans Office Server Online Preview
 
@@ -27,11 +27,11 @@ Fonctions définies par l’utilisateur (UDF) dans Excel Online permettent d’a
     
 Vous pouvez installer les fichiers binaires UDF dans un des deux emplacements :
   
-- Un répertoire local. Par exemple : 
+- Un répertoire local. Par exemple : 
     
     C:\UDFs\MySampleUdf.dll 
     
-- Le global assembly cache. Par exemple : 
+- Le global assembly cache. Par exemple : 
     
     CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38
     
@@ -83,11 +83,11 @@ Utiliser les applets de commande Windows PowerShell suivante pour travailler ave
 Les fichiers suivants fournissent un exemple de classeur qui utilise un fichier UDF et le fichier UDF binaires :
   
 - [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un exemple de classeur qui utilise un fichier UDF  
-- [EcsUdfsCommonSet.dll](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/EcsUdfsCommonSet.dll) --le fichier binaire UDF 
+- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) --le fichier binaire UDF 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Configurer les paramètres d’administration Excel Online](https://technet.microsoft.com/en-us/library/jj219698%28v=office.16%29.aspx)  
-- [Office Online Server Preview](https://technet.microsoft.com/en-us/library/jj219456%28v=office.16%29.aspx)
+- [Configurer les paramètres d’administration Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
     
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 124b9f05-032d-42f1-a3d3-4f4c9b9f7a06
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 234bfaffab2e82bbcebd7222f32a750e8585d958
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4687bc4bb5cc2dd6a2125eac8a620c64c495eca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588292"
 ---
 # <a name="pidtagorganizationalidnumber-canonical-property"></a>Propriété canonique PidTagOrganizationalIdNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un numéro d’ID d’organisation pour le contact, par exemple un numéro d’identification des employés.
   
@@ -32,7 +32,7 @@ Contient un numéro d’ID d’organisation pour le contact, par exemple un num�
 |Propriétés associées :  <br/> |PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A, PR_ORGANIZATIONAL_ID_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A10  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

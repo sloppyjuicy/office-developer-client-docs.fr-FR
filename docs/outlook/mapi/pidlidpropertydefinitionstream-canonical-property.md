@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f7f764d95c2fc36ba6af617333cb47d266cd2aa9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 23850e7da71125642abd8484fb45b8ec23264748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785338"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587648"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propriété canonique PidLidPropertyDefinitionStream
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente les définitions des champs définis par l’utilisateur et les paramètres de liaison de données de champs intégrés d’un message.
   
@@ -33,7 +33,7 @@ Représente les définitions des champs définis par l’utilisateur et les para
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008540  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Configuration d’exécution  <br/> |
+|Domaine :  <br/> |Configuration d’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,17 +59,17 @@ Mapidefs.h
 
 
 
-[Les champs et les éléments outlook](outlook-items-and-fields.md)
+[Champs et éléments Outlook](outlook-items-and-fields.md)
   
-[Ajoutez une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Exemple de flux de la définition PropertyDefinition](propertydefinition-stream-sample.md)
+[Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
   
 [Propriétés MAPI](mapi-properties.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

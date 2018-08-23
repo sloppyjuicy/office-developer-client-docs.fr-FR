@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 549acbb5e8f593144edffffb097ac7cdc2f0b271
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c77792c1e33f9b0aed1bb0e5d109a0339fa0fe6e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786405"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587172"
 ---
 # <a name="pidtagphysicaldeliverybureaufaxdelivery-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryBureauFaxDelivery
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si le système de messagerie doit utiliser un bureau de télécopie pour remise physique de ce message.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si le système de messagerie doit utiliser un bureau de 
 |Propriétés associées :  <br/> |PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |
 |Identificateur :  <br/> |0x0C0A  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

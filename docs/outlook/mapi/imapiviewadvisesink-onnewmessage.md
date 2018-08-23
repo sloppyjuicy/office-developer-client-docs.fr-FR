@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: adf9b28e941e9ead9b83660f58701f13f35cabc7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bb373e4b666f44c432ac1b04c0449eb7f0408a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784120"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592933"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la visionneuse de formulaire à une nouvelle ou un message existant a été chargé dans un formulaire.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d6a53d112e4c12cd9092ac627e99cf3c13d901f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592569"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Offre la possibilité de récupérer et de modifier l’accès pour les propriétés d’un objet. 
   

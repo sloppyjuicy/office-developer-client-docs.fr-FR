@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fc444725aae20e7321fa287a90cf7d3e13b7ffb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 56f124d7d42ac41e8b5cdb7cf61c9867bbf69837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587529"
 ---
 # <a name="mapi-message-service-overview"></a>Vue d’ensemble du service de message MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un service de message définit un groupe de fournisseurs de service associé, généralement des fournisseurs de services qui fonctionnent avec le même système de messagerie. Tandis que les fournisseurs de services exécutent le travail de communication entre les systèmes de messagerie et le sous-système MAPI, services message les tâches d’interface entre les fournisseurs de services qui fonctionnent avec un système de messagerie courants.  
   
@@ -25,7 +25,7 @@ Services de messagerie existent pour simplifier l’installation et la configura
   
 La figure suivante illustre la relation entre une application cliente basée sur la messagerie et de deux services de messagerie.
   
-**Configuration et installation du service de message**
+**Installation et configuration du service de messagerie**
   
 ![Configuration et installation du service de message] (media/amapi_44.gif "Configuration et installation du service de message")
   

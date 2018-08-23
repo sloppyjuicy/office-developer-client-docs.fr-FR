@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: dbe81a2a27f302a38eba6f3c5045df905d8db682
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7b74ecb44d9a38fc73ceed4077d6f7a939f92f5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19783663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591799"
 ---
 # <a name="idle-state"></a>État inactif
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état d’inactivité de l’ordinateur d’état de réplication. 
   
@@ -45,7 +45,7 @@ Rien ne se passe dans cet état. Un magasin local est dans cet état avant la r�
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Envoyer des Messages à l’aide de MAPI
+title: Envoi de messages à l’aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 36de3b70b0ab7b16f8abed85bbd0983224e00568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593451"
 ---
-# <a name="sending-messages-by-using-mapi"></a>Envoyer des Messages à l’aide de MAPI
+# <a name="sending-messages-by-using-mapi"></a>Envoi de messages à l’aide de MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes appellent la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer un message. **SubmitMessage** appelle [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle soit le spouleur MAPI ou directement à un fournisseur de transport. 
   

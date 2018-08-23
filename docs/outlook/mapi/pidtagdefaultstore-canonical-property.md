@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6314d91c-4948-4fd1-bacc-932d4bb2c22f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 573ac849bba026ec6a5988220a7e49688393440d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d544c741685d401aaf36fe19be50ab402c9e5604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592681"
 ---
 # <a name="pidtagdefaultstore-canonical-property"></a>Propriété canonique PidTagDefaultStore
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si une banque de messages est la banque de messages par défaut dans la table. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si une banque de messages est la banque de messages par 
 |Propriétés associées :  <br/> |PR_DEFAULT_STORE  <br/> |
 |Identificateur :  <br/> |0x3400  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Banque de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

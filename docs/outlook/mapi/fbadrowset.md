@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e6963fc373f771289e3dbff3a0b41857352b4b9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e86e9fbf4901b5944775886f38db1ba12c4b122d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590959"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Valide toutes les lignes de tableau inclus dans un ensemble de lignes du tableau.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 81d154d3044ecb5fb2e920874058f1c5136bc7ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586710"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Propriété canonique PidTagYCoordinate
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la coordonnée y de la position de départ (le coin supérieur gauche) d’un contrôle de boîte de dialogue, en unités de boîte de dialogue Windows standards.
   
@@ -32,7 +32,7 @@ Contient la coordonnée y de la position de départ (le coin supérieur gauche) 
 |Propriétés associées :  <br/> |PR_YPOS  <br/> |
 |Identificateur :  <br/> |0x3F06  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Afficher une table MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

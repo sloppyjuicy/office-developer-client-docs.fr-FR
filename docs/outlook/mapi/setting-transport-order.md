@@ -1,5 +1,5 @@
 ---
-title: Ordre de Transport de paramètre
+title: Définition de l’ordre de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 71d7ebf2bc8c7bbf3b5ee6ce60959fdeee79abe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6e4c318678fdce7976140ff8f480ae638fd3ca4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787141"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593024"
 ---
-# <a name="setting-transport-order"></a>Ordre de Transport de paramètre
+# <a name="setting-transport-order"></a>Définition de l’ordre de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le spouleur MAPI attribue la responsabilité pour les messages sortants en fonction des types d’adresses et identificateurs de fournisseurs de transport déclarer qu’ils peuvent gérer. Fournisseurs de transport publient une liste des types d’adresse pris en charge et les identificateurs, stockées dans des structures **MAPIUID** — lorsque MAPI appelle leur méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) , directement après l’ouverture de session. Type d’adresse d’un destinataire est stocké dans sa propriété **TYPEADR_PR** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   

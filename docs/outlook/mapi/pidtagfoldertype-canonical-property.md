@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2ab4681e-0013-4ba0-ba26-50517bbf3f5b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2520a7544eb4ba39cd83a7a0aa65b98bd8a67deb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8d6167a7a3c983171f2ff9cb2a54c879a14dca0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591414"
 ---
 # <a name="pidtagfoldertype-canonical-property"></a>Propriété canonique PidTagFolderType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une constante qui indique le type de dossier. 
   
@@ -32,7 +32,7 @@ Contient une constante qui indique le type de dossier.
 |Propriétés associées :  <br/> |PR_FOLDER_TYPE  <br/> |
 |Identificateur :  <br/> |0x3601  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Conteneur MAPI  <br/> |
+|Domaine :  <br/> |Conteneur MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -86,7 +86,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

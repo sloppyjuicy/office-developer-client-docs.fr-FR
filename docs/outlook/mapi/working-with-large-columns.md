@@ -1,5 +1,5 @@
 ---
-title: Utilisation des colonnes de grande taille
+title: Utilisation de colonnes volumineuses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 452acccf-22fd-4450-b50f-eaa2b2c94515
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a191a8551d425d7e8b3b9a281936a4a0e2dfd587
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 11007fa18a57e296472c28f86480cb71b780e568
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593031"
 ---
-# <a name="working-with-large-columns"></a>Utilisation des colonnes de grande taille
+# <a name="working-with-large-columns"></a>Utilisation de colonnes volumineuses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Colonnes avec des données de propriété binaire ou chaîne pouvant être volumineux, voire des milliers d’octets. Y compris une ou plusieurs colonnes avec des centaines d’octets dans un affichage est souvent difficile, MAPI permet l’implémentation de la table à tronquer la valeur, la plupart du temps à 255 octets et moins souvent 510 octets. La mesure du possible, l’implémentation de la table doit inclure la valeur complète d’une propriété dans une colonne de table. L’alternative recommandée consiste à inclure uniquement les 255 premiers octets.
   

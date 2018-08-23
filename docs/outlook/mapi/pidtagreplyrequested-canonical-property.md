@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 204f8ef2-c7ec-41c5-ab7d-6ef7a864dcb9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 34862cf40f38d3baaac304e77c82081974d28585
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8a967aa9e69c4939c376266087b8fa3f227cb277
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786572"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589202"
 ---
 # <a name="pidtagreplyrequested-canonical-property"></a>Propriété canonique PidTagReplyRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message demande une réponse à partir d’un destinataire.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un expéditeur du message demande une réponse à par
 |Propriétés associées :  <br/> |PR_REPLY_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C17  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

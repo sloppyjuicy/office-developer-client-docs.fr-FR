@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9573f10c-66e1-4e87-93f0-89687e906b8b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 51241009262471bf30f7d71e3108b896bbce8df7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b4ccfb8cf8201a17993932acc4c0104ace80b94d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786929"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588719"
 ---
 # <a name="preparing-a-recipient"></a>Préparation d’un destinataire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une application cliente prépare les destinataires à convertir leurs identificateurs d’entrée à court terme identificateurs d’entrée à long terme et éventuellement l’ajout, modification ou réorganisation des propriétés. Vous pouvez préparer des destinataires qui font partie d’une liste de destinataires pour un message ou des destinataires qui ne sont pas liés à un message. En règle générale, les clients appeler [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) directement pour convertir les identificateurs d’entrée à court terme en identificateurs d’entrée à long terme pour les destinataires qui sont inclus dans la boîte de dialogue adresses. Pour les destinataires qui sont associés à un message sortant, la préparation d’un destinataire est gérée par le processus de résolution de nom. 
   
@@ -57,7 +57,7 @@ La liste de destinataires pour les destinataires 1 et 2 comprend des propriété
     
 4. **PR_DISPLAY_NAME**
     
-5. **CLÉ PR_SEARCH_KEY**
+5. **PR_SEARCH_KEY**
     
 6. **ADRESSE_EMAIL_PR**
     
@@ -79,7 +79,7 @@ La liste de destinataires pour les destinataires 3, 4 et 5 comprend des proprié
     
 4. **PR_DISPLAY_NAME**
     
-5. **CLÉ PR_SEARCH_KEY**
+5. **PR_SEARCH_KEY**
     
 6. **ADRESSE_EMAIL_PR**
     

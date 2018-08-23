@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1904cc68-adf2-4543-8210-043a72b90887
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 60a9058b5e604c480597c4bb245353522e41d1e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ca8fd1dc8dde69cd9f2e8932cc0c50ea03c86a24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587249"
 ---
 # <a name="pidlidcurrentversionname-canonical-property"></a>Propriété canonique PidLidCurrentVersionName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne qui indique le numéro de version principale et secondaire de l’application Outlook pour un élément.
   
@@ -33,7 +33,7 @@ Contient une chaîne qui indique le numéro de version principale et secondaire 
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008554  <br/> |
 |Type de données :  <br/> |TBD  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

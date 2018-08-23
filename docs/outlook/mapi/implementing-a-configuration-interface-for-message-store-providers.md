@@ -1,5 +1,5 @@
 ---
-title: Implémentation d’une Interface de Configuration pour les fournisseurs de banque de messages
+title: Implémentation d’une interface de configuration pour les fournisseurs de banque de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 508e6950-d483-4cbe-b817-8016f4aa5cd8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f7151841eef180a78a13ad161d197af783decfb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 15833768fbd148ae4e689b5a80ed3479823864cb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784139"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592926"
 ---
-# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implémentation d’une Interface de Configuration pour les fournisseurs de banque de messages
+# <a name="implementing-a-configuration-interface-for-message-store-providers"></a>Implémentation d’une interface de configuration pour les fournisseurs de banque de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins de message sont requis pour implémenter une interface qui permet à l’utilisateur de configurer le fournisseur de banque de messages à exécuter sur l’ordinateur de l’utilisateur. En règle générale, le fournisseur de banque de messages est configuré lorsque le fournisseur de banque de message est ajouté à un profil utilisateur. Interface de configuration du fournisseur de banque de messages gère généralement les tâches telles que la définition des noms d’utilisateur et mots de passe pour les magasins de message protégé, choix des chemins d’accès aux fichiers nécessaires, et création de mécanisme de stockage sous-jacent qu’il utilise, si nécessaire.
   

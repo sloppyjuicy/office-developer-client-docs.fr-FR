@@ -1,5 +1,5 @@
 ---
-title: Envoyer et recevoir des Notifications de formulaire
+title: Envoi et réception de notifications de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4730fb04d530fce516fe1ca4fd572c58fc1f1ffa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7148383c92b59adb9d3783e079e7c5f28c038eac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787106"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588992"
 ---
-# <a name="sending-and-receiving-form-notifications"></a>Envoyer et recevoir des Notifications de formulaire
+# <a name="sending-and-receiving-form-notifications"></a>Envoi et réception de notifications de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notifications de formulaire sont utilisées dans MAPI pour faciliter la communication à partir du formulaire à votre afficheur ainsi qu’à partir de votre visionneuse au formulaire.
   

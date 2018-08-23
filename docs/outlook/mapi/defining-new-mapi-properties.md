@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1a2325ea-ddfa-480f-b65f-f5b20471fb40
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 68e877568565cfcc30b60e9b21f55b7dc1600b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f922ee95cda84311d840aa9de339883c57efba56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783148"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590322"
 ---
 # <a name="defining-new-mapi-properties"></a>Définition des nouvelles propriétés MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 En dépit de nombreuses propriétés fournis par MAPI pour une utilisation par les clients et les fournisseurs de services, MAPI permet de nouvelles propriétés à créer si nécessaire. Certains scénarios valides pour la définition des nouvelles propriétés publiques incluent un client de création de propriétés pour prendre en charge une nouvelle classe de message et un fournisseur de services créer de nouvelles propriétés pour exposer les fonctionnalités de système de messagerie unique.
   
@@ -51,5 +51,5 @@ Utiliser le type **PT_BINARY** pour indiquer un tableau d’octets comptés. Ce 
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

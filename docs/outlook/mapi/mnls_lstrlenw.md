@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d342a956-1164-4c9c-b0bb-7a0b72dc97fc
 description: 'Dernière modification : 21 février 2012'
-ms.openlocfilehash: 70c15970ce69e4bc075da6bf55320cb23116b7a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1135a8e07bf94a200d06db8b692ee39dfdb78272
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784920"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588887"
 ---
 # <a name="mnlslstrlenw"></a>MNLS_lstrlenW
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Détermine la longueur de la chaîne Unicode spécifiée, à l’exception du caractère de fin null.
   

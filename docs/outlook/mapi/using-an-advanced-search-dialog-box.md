@@ -1,5 +1,5 @@
 ---
-title: À l’aide d’une boîte de dialogue Recherche avancée
+title: Utilisation d’une boîte de dialogue de recherche avancée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c9a156e6-3472-4409-a4ba-3a1a65b7bdcd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3c27b859f6d056d3b9a98bd4d71db8e500dff696
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 581607e184d67413e735c4cbfb874643b3222a80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787447"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588768"
 ---
-# <a name="using-an-advanced-search-dialog-box"></a>À l’aide d’une boîte de dialogue Recherche avancée
+# <a name="using-an-advanced-search-dialog-box"></a>Utilisation d’une boîte de dialogue de recherche avancée
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Certains conteneurs de carnet d’adresses prend en charge une fonction de recherche avancée qui permet aux clients d’effectuer une recherche sur les propriétés de **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Conteneurs du carnet d’adresses qui prennent en charge les recherches avancées ont une propriété de l’objet conteneur appelée **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Cet objet conteneur fournit l’accès à un tableau d’affichage qui décrit la boîte de dialogue de recherche — une boîte de dialogue permet d’entrer et de modifier les critères de recherche avancée.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 64b2c147acb02b6c29cf080076b6fe2e3eefb717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0d3f540a14c833e0ee0ed212f6f3b3b709d72ec0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591036"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Copie ou déplace les messages d’un dossier dans un autre dossier.
   

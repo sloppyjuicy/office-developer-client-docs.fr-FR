@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
 description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: ee68052f330bf3239cd12139ffbd77f5a180f6cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a40d4e62a930219a738c7b431f3d2192007c3d9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591330"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fin de la synchronisation pour un en-tête de message.
   

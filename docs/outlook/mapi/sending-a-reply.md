@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d83fce761afb4673b71df9d620ac3fd794d6009f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4d8c995f5fbca322fca44cdcbb0de224af6b2fbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787089"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590287"
 ---
 # <a name="sending-a-reply"></a>L’envoi d’une réponse
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes prennent généralement en charge deux types de réponses : celui qui est envoyé uniquement à l’expéditeur du message d’origine et celui qui est envoyée à tous les autres destinataires inclus dans la liste des destinataires du message en plus de l’expéditeur d’origine. Ce deuxième type de réponse est communément appelé une réponse de que tous les messages.
   

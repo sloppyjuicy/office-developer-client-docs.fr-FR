@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a187245b2594282bc9908b3075852440f418af2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 769ae984e4b6e8610ca7909ea2ac714d9d04d698
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783252"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589671"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit la boîte de dialogue qui est générée à partir d’une table d’affichage par la fonction [BuildDisplayTable](builddisplaytable.md) . 
   
@@ -46,7 +46,7 @@ typedef struct DTPAGE
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cctl**
   

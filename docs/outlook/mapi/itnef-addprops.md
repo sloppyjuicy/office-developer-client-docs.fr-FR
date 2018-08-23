@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2d37898b100398218d4f8762cdd3a16943d8f11a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589517"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet à l’appelant fournisseur de services ou la passerelle ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Code uniquement les propriétés à partir du message ou d’une pièce jointe spécifié par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur de _lpvData_ doit être un pointeur [IStream](http://msdn.microsoft.com/library/stg.istream%28Office.15%29.aspx) . 
+> Code uniquement les propriétés à partir du message ou d’une pièce jointe spécifié par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur de _lpvData_ doit être un pointeur [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   

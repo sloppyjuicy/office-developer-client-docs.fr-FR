@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 78e2806d-bb6f-cd96-21f1-b7c667c73c33
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8eb8c56c6b27592347a7d08186287fe1cf67cb41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5f4aa6444eb02831b299a5ca6e0c54b6b2d0a6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589706"
 ---
 # <a name="about-mapi-additions"></a>À propos des ajouts MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajouts MAPI sont les API qui appartiennent à MAPI Messaging Application Programming Interface (), tels que les types de données, les fonctions et les propriétés, qui ont été précédemment pas exposées et documentées dans le cadre de référence du programmeur MAPI. Elles incluent les définitions et les propriétés suivantes.
   
@@ -29,7 +29,7 @@ Ajouts MAPI sont les API qui appartiennent à MAPI Messaging Application Program
     
 - **[FollowUpStatus](followupstatus.md)**
     
-- **[Sexe](gender.md)**
+- **[Gender](gender.md)**
     
 - **[OlFlagIcon](olflagicon.md)**
     
@@ -233,8 +233,8 @@ Les propriétés suivantes sont exposées par les objets store et sont utilisée
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Accès un magasin sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Détecter la Version d’Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
-- [Ouvrir un objet Store sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Gérer un Message dans un fichier OST sans appeler une synchronisation en Mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
+- [Détecter la version d’Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Synchronisation du texte et la mise en forme
+title: Synchronisation du texte et de la mise en forme
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 40d7a45ab97e0d2f8e9d3db1e1d38eb3bdb75158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d797932a9fd22944f1cfd78e7fb67cd3ddbf8632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787333"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588817"
 ---
-# <a name="synchronizing-text-and-formatting"></a>Synchronisation du texte et la mise en forme
+# <a name="synchronizing-text-and-formatting"></a>Synchronisation du texte et de la mise en forme
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le défi principal de l’envoi de messages RTF (RICH Text Format) consiste à maintenir la synchronisation avec la mise en forme du texte. Pour garantir que lorsque les messages arrivent à destination qu’ils sont en tant que leurs auteurs prévus et que le texte et la mise en forme sont synchronisées, MAPI fournit la fonction [RTFSync](rtfsync.md) . **RTFSync** est généralement appelée par les clients prenant en charge les RTF avant d’afficher les messages entrants et par le spouleur MAPI lorsqu’il télécharge des messages à un fournisseur de transport. Les appelants spécifier la zone d’incohérence possible en transmettant un ou deux indicateurs à **RTFSync**:
   

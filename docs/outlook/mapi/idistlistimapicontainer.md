@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7fee3c84d6a4d4a94397f5197f45637b0c7dd2be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d5b9fb9bf8c84433ee5000cc8832c2f09bfc5fe3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783679"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590623"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des conteneurs du carnet d’accès aux listes de distribution dans la zone Adresse modifiable. **IDistList** peut créer, copier et supprimer des listes de distribution, en plus de la résolution de nom. 
   

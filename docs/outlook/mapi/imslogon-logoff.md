@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5d9a57cee371675493ba71b2df52b83941d34fc2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e72c947a6e0d4052d3335c3e3cfaf5ffb94da669
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784308"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593003"
 ---
 # <a name="imslogonlogoff"></a>IMSLogon::Logoff
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseur de magasins de journaux d’un message. 
   

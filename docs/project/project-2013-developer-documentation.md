@@ -16,12 +16,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Recherchez la documentation, exemples de code, articles explicatifs et références de programmation pour aider à créer des applications pour l’Office Store ou un catalogue d’applications privé et à personnaliser et à intégrer les clients Project et Project Server avec une grande variété d’autres du bureau et d’entreprise applications de gestion de projet d’entreprise.
-ms.openlocfilehash: 490b5bd2fcbe2f92653b6ebc84d36e5c28cdc8c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 23c1229769a08f78b9ad35eab7403876cbe294d4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787926"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590756"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentation du développeur Project 2013
 
@@ -30,7 +30,7 @@ Recherchez la documentation, exemples de code, articles explicatifs et référen
 Bienvenue dans le Microsoft Project 2013 Kit de développement logiciel (SDK). Le Kit de développement contient la documentation, des exemples de code, articles explicatifs et références de programmation pour aider à créer des applications pour une banque de dossiers publics ou un catalogue d’applications privé et à personnaliser et à intégrer Project Server et les clients Project avec une grande variété d’autres bureau et applications d’entreprise pour la gestion de projet d’entreprise.
   
 > [!NOTE]
-> Project Server 2013 repose sur la plateforme SharePoint Server 2013 et Project 2013 présente l’essentiel de la même infrastructure que les autres applications Office 2013. Pour la documentation du modèle pour SharePoint Add-ins, flux de travail basées sur SharePoint, des composants WebPart, développement avec d’autres fonctionnalités SharePoint et de la documentation des compléments Office, voir [Apps for Office et SharePoint](http://msdn.microsoft.com/en-us/library/fp161507%28office.15%29.aspx). 
+> Project Server 2013 repose sur la plateforme SharePoint Server 2013 et Project 2013 présente l’essentiel de la même infrastructure que les autres applications Office 2013. Pour la documentation du modèle pour SharePoint Add-ins, flux de travail basées sur SharePoint, des composants WebPart, développement avec d’autres fonctionnalités SharePoint et de la documentation des compléments Office, voir [SharePoint complémentaires](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins) et [compléments Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins). 
   
 ## <a name="introduction-to-the-project-sdk"></a>Présentation du kit de développement logiciel Project
 <a name="pj15_Welcome_IntroToSDK"> </a>
@@ -75,7 +75,7 @@ Voici quelques-unes des nouvelles rubriques :
   
 - [Créer un serveur de Project Server hébergée sur SharePoint complément](create-a-sharepoint-hosted-project-server-add-in.md) montre comment utiliser Visual Studio pour le développement à distance d’une application qui peut être utilisé avec Project Server 2013 et Project Online. 
     
-- [Architecture de Project Server 2013](project-server-2013-architecture.md) explique les nouvelles fonctionnalités principales de la plateforme de Project Server. 
+- [Project Server 2013 architecture](project-server-2013-architecture.md) décrit les principales nouvelles fonctionnalités de la plateforme Project Server. 
     
 - [Mise en route avec le modèle objet Project Server 2013 JavaScript](getting-started-with-the-project-server-2013-javascript-object-model.md) montre comment développer des applications web qui peuvent accéder à Project Server. 
     
@@ -103,7 +103,7 @@ Il existe deux sections de niveau supérieur dans le Kit de développement Proje
     
 - La section [référence service Project Server 2013 classe web et de la bibliothèque de](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) documents au modèle objet des assemblys publics, l’assembly Microsoft.ProjectServer.Client.dll pour le modèle CSOM et les services PSI. 
     
-La section **concepts et procédures** inclut les éléments suivants : 
+La section **Articles conceptuels et pratiques** comprend les éléments suivants : 
   
 - [Quelles sont les nouveautés et composants disponibles pour les développeurs](updates-for-developers-in-project-2013.md) décrit les nouvelles fonctionnalités de programmabilité principales et les fonctionnalités déconseillées dans Project 2013. 
     
@@ -119,9 +119,9 @@ La section **concepts et procédures** inclut les éléments suivants :
 ## <a name="see-also"></a>Voir aussi
 <a name="pj15_Welcome_AR"> </a>
 
-- [Mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md)
+- [Mises à jour pour les développeurs Project 2013](updates-for-developers-in-project-2013.md)
     
-- [Architecture de Project Server 2013](project-server-2013-architecture.md)
+- [Architecture Project Server 2013](project-server-2013-architecture.md)
     
 - [Téléchargement du Kit de développement logiciel (SDK) de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
     

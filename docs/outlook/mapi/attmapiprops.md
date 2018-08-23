@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: eef480e8b024565ab282fb242a36336cd17384a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 72f252791e374ed4b9b2a40c9b151ef2b91fefe6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782952"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588054"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’attribut **attMAPIProps** est spécial en ce sens qu’il peut être utilisé pour encoder des propriétés MAPI qui n’ont pas un équivalent dans l’ensemble des attributs définis par le format TNEF existants. Les données d’attribut sont un ensemble de propriétés MAPI définies de bout en bout compté. Le format de codage, qui permet à n’importe quel jeu de propriétés MAPI, est comme suit :  
   

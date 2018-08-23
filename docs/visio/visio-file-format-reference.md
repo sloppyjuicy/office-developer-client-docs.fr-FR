@@ -1,5 +1,5 @@
 ---
-title: Référence des formats de fichier Visio
+title: Référence du format de fichier Visio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
 description: Cette référence contient une rubrique Vue d’ensemble conceptuelle et les rubriques de référence, y compris des exemples, pour vous aider à développer des solutions avec le format de fichier Visio.
-ms.openlocfilehash: e79ee31ed4ffb0096baa72eccda10b99a17390a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0f5147e70febc0883f0de0dbd23eb5a7f6f1660d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790020"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593430"
 ---
-# <a name="visio-file-format-reference"></a>Référence des formats de fichier Visio
+# <a name="visio-file-format-reference"></a>Référence du format de fichier Visio
 
 Cette référence contient une rubrique Vue d’ensemble conceptuelle et les rubriques de référence, y compris des exemples, pour vous aider à développer des solutions avec le format de fichier Visio (\*.vsdx).
   
@@ -24,9 +24,9 @@ Vos commentaires ou des questions concernant ce contenu sont les bienvenus. Vous
   
 Cette documentation contient les informations suivantes :
   
-- [Introduction au format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
+- [Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md)
     
-- [Manipuler le format de fichier Visio par programme](how-to-manipulate-the-visio-file-format-programmatically.md)
+- [Manipuler le format de fichier Visio par programmation](how-to-manipulate-the-visio-file-format-programmatically.md)
     
 - [Mappage de schéma](schema-mapvisio-xml.md): affiche le schéma XML du format de fichier Visio.
     
@@ -36,14 +36,10 @@ Cette documentation contient les informations suivantes :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Visio pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
-    
+- [Visio pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905478.aspx) 
 - [Accessibilité des produits Microsoft](http://www.microsoft.com/enable/products/default.aspx)
-    
-- [Conventions de document](http://msdn.microsoft.com/en-us/office/aa905365.aspx)
-    
+- [Conventions de document](http://msdn.microsoft.com/en-us/office/aa905365.aspx) 
 - [Notice de copyright SDK Visio](visio-sdk-copyright-notice.md)
-    
-- [Déclaration de confidentialité Microsoft](http://privacy.microsoft.com/en-us/default.mspx)
+
     
 

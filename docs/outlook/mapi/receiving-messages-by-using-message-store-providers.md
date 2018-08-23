@@ -1,5 +1,5 @@
 ---
-title: Recevoir des Messages à l’aide de fournisseurs de banque de messages
+title: Réception de messages à l’aide de fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 94ea0fe7fba4e49c1f646d889f3727cf5ef4739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8a5df2e8f50d8de05ec43b03ae5b56887e76d505
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590189"
 ---
-# <a name="receiving-messages-by-using-message-store-providers"></a>Recevoir des Messages à l’aide de fournisseurs de banque de messages
+# <a name="receiving-messages-by-using-message-store-providers"></a>Réception de messages à l’aide de fournisseurs de banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de banque de messages n’ont pas prendre en charge les envois de messages entrants (autrement dit, prennent en charge la possibilité pour les fournisseurs de transport et le spouleur MAPI à utiliser le message d’un fournisseur de magasins comme point de remise des messages). Toutefois, si votre fournisseur de banque de messages n’accepte pas les envois de messages entrants, il ne peut être utilisé en tant que la banque de messages par défaut.
   

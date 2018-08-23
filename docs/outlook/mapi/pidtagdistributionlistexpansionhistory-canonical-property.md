@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3989532388d9c88c293427a4ce7109579a832ad1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0ba27e1eefa85e1651dbd24fa0540f8b1108588a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785958"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588467"
 ---
 # <a name="pidtagdistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagDistributionListExpansionHistory
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un historique montrant comment une liste de distribution a été développée lors de la transmission de message. 
   
@@ -32,7 +32,7 @@ Contient un historique montrant comment une liste de distribution a été dével
 |Propriétés associées :  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Identificateur :  <br/> |0x0013  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

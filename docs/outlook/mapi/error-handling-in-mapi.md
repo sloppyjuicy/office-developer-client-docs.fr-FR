@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6f0ebd2112b65140a106a1376896f6de9c00da1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d98b7cf1d6c5cdc8517ea2e653115d9a7c01e3c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783259"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593297"
 ---
 # <a name="error-handling-in-mapi"></a>Gestion des erreurs dans MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les valeurs de réussite, avertissement et d’erreur sont renvoyés en utilisant un nombre 32 bits connu ainsi poignée ou HRESULT. Une valeur HRESULT n’est vraiment pas un handle vers rien ; Il est simplement une valeur 32 bits avec plusieurs champs codé dans la valeur. Un résultat de zéro indique la réussite et un résultat différent de zéro indique l’échec.
   

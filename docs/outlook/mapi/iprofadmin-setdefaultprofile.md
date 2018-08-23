@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cf5060ba2113032fe1e13e5417590006808a53e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: af695d55cdd5f8d7e24d7e60e6eebaf03868b03f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587704"
 ---
 # <a name="iprofadminsetdefaultprofile"></a>IProfAdmin::SetDefaultProfile
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Active ou désactive le profil par défaut d’un client.
   

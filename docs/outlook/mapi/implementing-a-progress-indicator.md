@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’un indicateur de progression
+title: Implémentation d’un indicateur de progression
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 767b8723d9a544a31ee5c4bbc1d6186a15387b44
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1a359ec413da91b3e2819978e80ea0a921f6b245
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587123"
 ---
-# <a name="implementing-a-progress-indicator"></a>L’implémentation d’un indicateur de progression
+# <a name="implementing-a-progress-indicator"></a>Implémentation d’un indicateur de progression
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 De nombreuses opérations initiées par des clients prennent beaucoup de temps. Un des paramètres d’entrée à ces opérations potentiellement longues est un pointeur vers un objet de l’avancement, un objet qui implémente le [IMAPIProgress : IUnknown](imapiprogressiunknown.md) interface. Objets de progression contrôlent l’apparence et l’affichage des indicateurs de progression et sont implémentées par les clients et par MAPI. Vous pouvez choisir d’implémenter un objet de l’avancement ou non. L’implémentation de MAPI est disponible pour les fournisseurs de services à utiliser si vous décidez de ne pas fournir une implémentation. 
   

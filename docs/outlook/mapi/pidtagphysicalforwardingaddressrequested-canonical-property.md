@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 633e71e6-fdab-4453-8921-9bc0d5752b26
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4205c946eb92c05e5ff1ec3616dad174034cc893
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e6d0d95351ab2b82f00a7a5758e3f30637ef2cbb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591400"
 ---
 # <a name="pidtagphysicalforwardingaddressrequested-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingAddressRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message demande à l’agent de transfert des messages pour attacher une adresse de transfert physique pour un destinataire du message.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un expéditeur du message demande à l’agent de tra
 |Propriétés associées :  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C0E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

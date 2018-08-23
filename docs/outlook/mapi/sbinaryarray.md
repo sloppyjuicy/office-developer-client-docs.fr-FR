@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fd9a8d731d141dbb71a204a2d20b268951bef42f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787048"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586465"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de valeurs binaires. 
   
@@ -40,7 +40,7 @@ typedef struct _SBinaryArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

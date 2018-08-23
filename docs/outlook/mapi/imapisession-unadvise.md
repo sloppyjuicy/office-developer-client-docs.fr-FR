@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 25f80ddce60ab5a8966a62761d234accafbb54be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3b582b48773b9f6f1a6f46f9c0e4c6dcb9782b86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783957"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592065"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Annule l’envoi de notifications précédemment configurées avec un appel à la méthode [IMAPISession::Advise](imapisession-advise.md) . 
   

@@ -1,5 +1,5 @@
 ---
-title: À propos des Restrictions
+title: À propos des restrictions
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d7294527fcd557ae2d4824b9a3215ff464f62c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 003655354ecac8e2910b3e6851da32c28ce31cfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782853"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586452"
 ---
-# <a name="about-restrictions"></a>À propos des Restrictions
+# <a name="about-restrictions"></a>À propos des restrictions
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une restriction est un moyen de limiter le nombre de lignes dans un affichage uniquement aux lignes avec des valeurs pour les colonnes qui correspondent à des critères spécifiques. Il existe plusieurs opportunités différentes pour des tableaux à l’aide de restrictions. Les applications clientes peuvent utiliser restrictions, par exemple, pour filtrer un tableau de contenu pour les messages envoyés par une personne particulière, pour rechercher des lignes qui ne prennent pas en charge une propriété ou ont défini une propriété à une valeur spécifique, ou pour rechercher des destinataires en double dans un Message. 
   

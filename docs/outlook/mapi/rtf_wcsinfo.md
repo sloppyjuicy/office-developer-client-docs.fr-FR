@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c328e79b7e474369f11f8a4002e00137659db3c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2dd9f002401f8de52a9ad187b7e5850d47caf8a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787052"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587382"
 ---
 # <a name="rtfwcsinfo"></a>RTF_WCSINFO
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette structure vous permet de spécifier des informations pour décompresser le corps d’un message dans compressé texte enrichi (RTF) et, éventuellement, retourner le flux de corps dans son format natif.
   
@@ -35,9 +35,9 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
- _taille_
+ _size_
   
 > La taille de la structure **RTF_WCSINFO** en nombre d’octets. 
     

@@ -11,29 +11,29 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 49c9b0a80f9bc3b45dfafa6f4e037fe55af289d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7019ef5e23d0325d43b17009137dd29a2ec95c0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593535"
 ---
 # <a name="pidtagaddressbookhierarchicalrootdepartment"></a>PidTagAddressBookHierarchicalRootDepartment
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Contient le nom unique (DN) de la racine d’adresses hiérarchique (HAB). 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT, PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
-|Jeu de propriétés :  <br/> |Carnet d'adresses  <br/> |
+|Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
 |ID de type long (capot) :  <br/> |0x8C98  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Zone :  <br/> |Carnet d’adresses Exchange  <br/> |
+|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -73,7 +73,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

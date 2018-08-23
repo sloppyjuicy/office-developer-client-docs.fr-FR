@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2a080b9e6a824e50648a6df0757826f45b5da1f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 82c44f2292400c449ee0f82600c5b596728af7c0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784582"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590434"
 ---
 # <a name="mapi-canonical-properties"></a>Propriétés canoniques MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une propriété canonique est une propriété virtuelle qui représente une propriété MAPI ou plusieurs propriétés MAPI définies avec le même identificateur de propriété. Propriétés canoniques sont uniquement destinées à faciliter l’identification cohérente des propriétés MAPI dans la documentation en dehors du code ou discussions. Contrairement aux noms de propriété avec balise MAPI définie, les noms de propriété canonique ne sont pas définies comme des constantes globales dans les fichiers d’en-tête MAPI.
   

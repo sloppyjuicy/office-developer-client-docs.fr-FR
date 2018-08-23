@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ab92aee6a8254a16c48352e371b711932bbe7427
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cff866ce73eb6ada45a2b629a6c95c69ad189045
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783882"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587823"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie la valeur minimale dans la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) pour l’avancement des informations s’affichent. 
   
@@ -82,5 +82,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
   
-[L’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
+[Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

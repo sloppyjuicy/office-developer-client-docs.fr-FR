@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 945dabec4ee34d38d2474c918e779d894f4a917c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786673"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591687"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Propriété canonique PidTagRulesTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau avec toutes les règles sont appliquées à un dossier.
   
@@ -30,7 +30,7 @@ Contient un tableau avec toutes les règles sont appliquées à un dossier.
 |Propriétés associées :  <br/> |PR_RULES_TABLE  <br/> |
 |Identificateur :  <br/> |0x3FE1  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Règles côté serveur  <br/> |
+|Domaine :  <br/> |Règles côté serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

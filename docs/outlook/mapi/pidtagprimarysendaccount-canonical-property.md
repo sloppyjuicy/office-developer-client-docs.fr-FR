@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 222ca10e58b50fa06876718658d1a6f3843da2f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a0f4ae75117dff3610175b785ab3f982cc7e7552
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786427"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590406"
 ---
 # <a name="pidtagprimarysendaccount-canonical-property"></a>Propriété canonique PidTagPrimarySendAccount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne qui nomme le premier serveur est utilisé pour envoyer le message.
   
@@ -32,7 +32,7 @@ Contient une chaîne qui nomme le premier serveur est utilisé pour envoyer le m
 |Propriétés associées :  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
 |Identificateur :  <br/> |0x0E28  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Compte  <br/> |
+|Domaine :  <br/> |Compte  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 102f840c-5cd7-4507-ba42-20ba3669cd05
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0c3c2505e2374ee929cf42802c6fddedd0e44682
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 27da770ff9973afb472b73ddcd91b7147f47cc71
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786425"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588733"
 ---
 # <a name="pidtagpreferredbyname-canonical-property"></a>Propriété canonique PidTagPreferredByName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom que le destinataire préfère à appeler.
   
@@ -32,7 +32,7 @@ Contient le nom que le destinataire préfère à appeler.
 |Propriétés associées :  <br/> |PR_PREFERRED_BY_NAME, PR_PREFERRED_BY_NAME_A, PR_PREFERRED_BY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3A47  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

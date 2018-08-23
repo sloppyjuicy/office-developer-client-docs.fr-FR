@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6965a314682b897a488157bf5d909fd6f40680c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fc83bace43e4807598ce1b1f723eb15695794a86
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786408"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590602"
 ---
 # <a name="pidtagphysicaldeliveryreportrequest-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryReportRequest
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le mode d’un rapport de remise à un destinataire de message spécifique à la fin de la remise du message physique ou remise par le système de gestion des messages.
   
@@ -32,7 +32,7 @@ Indique le mode d’un rapport de remise à un destinataire de message spécifiq
 |Propriétés associées :  <br/> |PR_PHYSICAL_DELIVERY_REPORT_REQUEST  <br/> |
 |Identificateur :  <br/> |0x0C0C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

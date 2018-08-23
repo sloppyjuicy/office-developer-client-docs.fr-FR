@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b0f86b2260299d2d0294598628f2895c50ed9452
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 124a0d8f23fcff9d1bca9d5debe4a9aa6fb6146c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785393"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587116"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propriété canonique PidLidRemoteTransport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Identifie le compte de l’élément d’en-tête est associé, principalement pour implémenter le congé POP sur les fonctionnalités du serveur. 
   
@@ -33,7 +33,7 @@ Identifie le compte de l’élément d’en-tête est associé, principalement p
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
 |ID de type long (capot) :  <br/> |0x00008F03  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Zone :  <br/> |Message à distance  <br/> |
+|Domaine :  <br/> |Message à distance  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

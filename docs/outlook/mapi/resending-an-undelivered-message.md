@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4fd0bf5a542e006ec743dbb7fe03d3331875c6d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: cdb1ef3cf6db2a1b63b68a105867aa6624b80c2c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588894"
 ---
 # <a name="resending-an-undelivered-message"></a>Renvoi d’un message non remis
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur de transport envoie un rapport de non-remise (NDR) lorsqu’il ne peut pas remettre avec succès un message que vous avez soumis. C’est le client ou non les utilisateurs peuvent tenter de renvoyer ces messages non remis. Si vous prenez en charge le renvoi de messages, vous pouvez utiliser un formulaire fourni par MAPI ou implémenter votre propre. Le formulaire MAPI affiche les noms des destinataires ayant échoués et la raison de l’échec de remise, dans la mesure du possible et inclut un bouton qui, lorsque sélectionnée, permet à un utilisateur de renvoyer le message.
   

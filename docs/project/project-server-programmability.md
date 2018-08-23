@@ -25,14 +25,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Découvrez les fonctionnalités principales de la programmabilité de Project Server 2013. Cet article contient des informations sur la conversion des applications qui ont été créées pour les versions antérieures de Project Server.
-ms.openlocfilehash: c2c03da1e0b7c010d4cad8801f98c0c0cf0b1883
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3901fe97f1c8291d0b35709f2350fc4358044b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787933"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592982"
 ---
-# <a name="project-server-programmability"></a>Programmabilité de Project Server
+# <a name="project-server-programmability"></a>Programmabilité de Project Server
 
 Découvrez les fonctionnalités principales de la programmabilité de Project Server 2013. Cet article contient des informations sur la conversion des applications qui ont été créées pour les versions antérieures de Project Server.
 
@@ -54,7 +54,7 @@ L’Application de Service Project est un fournisseur de service logique qui peu
 > [!NOTE]
 > Certaines pages d’administration dans Project Web App, telles que la page Paramètres PWA — ne sont pas modifiables et ne pas afficher la commande **Modifier la Page** . Project Web App n’autorise pas vous permet de modifier des pages à l’aide de SharePoint Designer 2013. Vous pouvez modifier des pages de site de projet avec SharePoint Designer 2013. 
   
-**La figure 1. À l’aide du menu Modifier la Page dans Project Web App**
+**Figure 1. Utilisation du menu Modifier la page dans Project Web App**
 
 ![Modification de la page d’accueil dans Project Web Access] (media/pj15_Programmability_PWAHome.gif "Modification de la page d’accueil dans Project Web Access")
   
@@ -74,11 +74,11 @@ Pour Project Online, vous pouvez ajouter des boutons au ruban Project Web App, m
   
 Le fichier de schéma PSEntityProvision.xsd est disponible dans le téléchargement du Kit de développement Project 2013, dans le `Documentation\Schemas\AppProvisioning` sous-répertoire. La figure 2 illustre l’affichage de l’Explorateur de schémas XML dans Visual Studio du schéma **PSEntityProvision** , où la séquence **LookupTable** est développée. 
   
-**La figure 2. Affichage de l’entité Project Server de mise en service de schéma de Visual Studio**
+**Figure 2. Affichage Visual Studio du schéma d’approvisionnement de l’entité Project Server**
 
 ![Affichage du schéma d’entité Project Server] (media/pj15_Programmability_EntitySchema.gif "Affichage du schéma d’entité Project Server")
   
-Packages SharePoint installer des fonctionnalités de Project Server peuvent contenir un ou plusieurs fichiers elements.xml qui suivent le schéma **PSEntityProvision** . Les entités Project Server dans un fichier XML doivent apparaître dans l’ordre suivant : 
+Les packages SharePoint qui installent des fonctionnalités Project Server peuvent contenir un ou plusieurs fichiers elements.xml qui suivent le schéma **PSEntityProvision**. Les entités Project Server d’un même fichier XML doivent apparaître dans l’ordre suivant : 
   
 1. Phases de flux de travail
     
@@ -99,7 +99,7 @@ En cas d’échec de l’installation d’un package, les objets qui ont été c
 ## <a name="upgrading-applications-with-the-project-server-apis"></a>Mise à niveau d’application avec les API Project Server
 <a name="pj15_Programmability_APIs"> </a>
 
-Lorsque vous mettez à niveau une application qui a été développée pour une version antérieure de Project Server, vous pouvez choisir d’utiliser le modèle CSOM ou la PSI pour une interface de programmation qui inclut des méthodes pour créer, lire, mettre à jour et supprimer des entités de projet (les opérations CRUD). Bien que le modèle CSOM appelle en interne la PSI, elle ne remplace pas entièrement toutes les méthodes PSI. Pour les scénarios et les limitations de la PSI et le modèle CSOM, voir [ce que la PSI fait et ne fait pas](what-the-psi-does-and-does-not-do.md) et [que le modèle et ne fait pas](what-the-csom-does-and-does-not-do.md).
+Lorsque vous mettez à niveau une application développée pour une version précédente de Project Server, vous pouvez choisir d’utiliser le modèle CSOM ou l’interface PSI pour une interface de programmation qui inclut des méthodes pour créer, lire, mettre à jour et supprimer des entités de projet (opérations CRUD). Bien que le modèle CSOM appelle en interne l’interface PSI, il ne remplace pas entièrement toutes les méthodes PSI. Pour les scénarios et les limitations de l’interface PSI et le modèle CSOM, consultez la page sur [les fonctionnalité de l’interface PSI](what-the-psi-does-and-does-not-do.md) et la page sur [les fonctionnalités du modèle CSOM](what-the-csom-does-and-does-not-do.md).
   
 > [!NOTE]
 > Si le modèle comprend les fonctionnalités que requises, nous vous recommandons de mise à niveau d’applications afin d’utiliser le modèle CSOM. Le modèle CSOM permet aux applications à utiliser pour les locaux et les installations en ligne de Project Server 2013. 
@@ -153,7 +153,7 @@ Les applications développées pour le service PDS ne sont pas compatibles avec 
 > [!NOTE]
 > Étant donné que les applications de service PDS doivent être entièrement repensées pour Project Server 2013, il est recommandé que vous utilisez le modèle CSOM. 
   
-Pour plus d’informations sur la compatibilité PDS et guidelines for portage extensions PDS à PSI, voir [Parité PDS dans les Services Web PSI](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
+Pour plus d’informations sur la compatibilité PDS et des instructions sur le portage des extensions PDS vers l’interface PSI, consultez [Parité PDS dans les services web PSI](http://msdn.microsoft.com/library/61a0b0c7-9b74-46d1-87ed-66ffdd8017f8%28Office.15%29.aspx).
   
 ### <a name="porting-applications-built-for-project-server-2007-and-project-server-2010"></a>Portage des applications conçues pour Project Server 2007 et Project Server 2010
 <a name="pj15_Programmability_Porting2007"> </a>
@@ -235,7 +235,7 @@ Voici les problèmes et limitations de la programmation PSI avec l’ancien mote
   
 - **Modification de l’état actif d’une tâche** Le moteur de planification Project Server antérieur incohérente Démarrer pour afficher ou fin lorsque vous utilisez la méthode [QueueUpdateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) pour modifier l’état actif d’une tâche, s’il existe plusieurs modifications dans l’objet **ProjectDataSet** pour la _ jeu de données_ paramètre. Si la propriété **TASK_IS_ACTIVE** est le seul changement dans le paramètre de _jeu de données_ de **QueueUpdateProject**, vous pouvez mettre à jour le projet.
     
-    Pour plus d’informations sur les tâches inactives et l’ancien moteur de planification, voir le blog de l’article [Introduction les tâches inactives dans Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) et [Project Server 2010 : planification sur le site web, la PSI et Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Pour obtenir une comparaison de planification dans Project Professionnel 2010 et Project Web App dans Project Server 2010, voir [comparaison de gestion de planification sur le Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx).
+    Pour plus d’informations sur les tâches inactives et l’ancien moteur de planification, voir le blog de l’article [Introduction les tâches inactives dans Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) et [Project Server 2010 : planification sur le site web, la PSI et Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Pour obtenir une comparaison de planification dans Project Professionnel 2010 et Project Web App dans Project Server 2010, voir [comparaison de gestion de planification sur le Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
 - **Audit des coûts pas calculée** L’ancien moteur de planification ne calcule pas les champs de la valeur acquise : CRTE, arrière, CBTE, CBTP, IPC, CV, VC %, CAE, SPI, SV, VP %, TCPI, VAC, variation de durée, variation de début, variation de fin, variation de coût et variation de travail. Si un projet a des valeurs de ces champs et le projet est mis à jour à l’aide de la méthode **QueueUpdateProject** , les valeurs de champ ne modifiez pas. Pour éviter ce problème, utilisez la méthode **QueueUpdateProject2** . 
     
@@ -279,17 +279,15 @@ Les schémas pour le brouillon, publiée, et les tables d’archivage ne sont pa
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md)    
-- [Architecture de Project Server 2013](project-server-2013-architecture.md)    
-- [Ce que fait la PSI et ne fait pas](what-the-psi-does-and-does-not-do.md)   
-- [Ce que fait le modèle CSOM et ne fait pas](what-the-csom-does-and-does-not-do.md)    
-- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)    
-- [Prise en main développement flux de travail Project Server](getting-started-developing-project-server-workflows.md)    
+- [Mises à jour pour les développeurs Project 2013](updates-for-developers-in-project-2013.md)    
+- [Architecture Project Server 2013](project-server-2013-architecture.md)    
+- [Fonctionnalités de l’interface PSI](what-the-psi-does-and-does-not-do.md)   
+- [Fonctionnalité du modèle CSOM](what-the-csom-does-and-does-not-do.md)    
+- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)    
+- [Prise en main du développement de flux de travail Project Server](getting-started-developing-project-server-workflows.md)    
 - [Références de programmation de Project 2013](project-2013-programming-references.md)    
 - [Présentation des références de projet PSI](project-psi-reference-overview.md)    
 - [Créer des actions personnalisées à déployer avec des applications pour SharePoint](http://msdn.microsoft.com/en-us/library/office/apps/jj163954%28v=office.15%29.aspx)    
 - [Présentation des tâches inactives dans Project 2010](http://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)    
-- [Project Server 2010 : Planification sur le site Web, la PSI et Project Professional](http://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0)
-- [Comparaison de gestion de planification sur le Web](http://www.microsoft.com/project/en/us/project-server-2010-editions.aspx)
-    
+- [Project Server 2010 : Planification sur le site Web, la PSI et Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Spécifie une collection de propriétés connexes.
-ms.openlocfilehash: 7cb5e1c30960e69b252abc7af38e021607fd3502
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c729ddd18da7b19499be72a71a9d0666791da207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789611"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593521"
 ---
 # <a name="section-element-sheettype-complextype-visio-xml"></a>Élément de la section (Sheet_Type, complexType) (« Visio XML »)
 
@@ -44,7 +44,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 |:-----|:-----|:-----|
 |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’un dessin.  <br/> |
 |[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’une page dans un dessin.  <br/> |
-|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Type complexe Master_Type](master_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés de la page de dessin associé à la forme de base.  <br/> |
+|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Master_Type complexType](master_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés de la page de dessin associé à la forme de base.  <br/> |
 |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une collection de propriétés associées à une forme.  <br/> |
 |[Sheet](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Sheet_Type](sheet_type-complextypevisio-xml.md) <br/> |Spécifie une collection de propriétés associées à un style, dessin, dessin page ou shape.  <br/> |
 |[Feuille de style](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Spécifie une feuille de style.  <br/> |
@@ -53,7 +53,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](http://msdn.microsoft.com/library/70a9d6d6-a4ff-2b0d-febc-789a04a2f5b0%28Office.15%29.aspx) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Spécifie une propriété unique.  <br/> |
 |[Row](http://msdn.microsoft.com/library/c978e3eb-b895-8fb7-e2ba-88c50e57b3db%28Office.15%29.aspx) <br/> |[Row_Type](row_type-complextypevisio-xml.md) <br/> |Spécifie une collection d’éléments **Cell_Type** .  <br/> |
    
 ### <a name="attributes"></a>Attributs
@@ -72,7 +72,7 @@ L’attribut **N** de cet élément de la **Section** doit être un ensemble lim
 |:-----|:-----|:-----|
 |Actions  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule. Il doit avoir un élément parent **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Actions, section](actions-section.md) <br/> |
 |ActionTag  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent **ShapeSheet_Type** ou **PageSheet_Type** .  <br/> |[Section de balise d'action](action-tag-section.md) <br/> |
-|Connexions  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> ||
+|Connections  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> ||
 |Contrôles  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Controls, section](controls-section.md) <br/> |
 |Lien hypertexte  <br/> |Une collection de propriétés associées qui spécifient les liens hypertexte de la forme. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Hyperlinks, section](hyperlinks-section.md) <br/> |
 |ShapeData  <br/> |Une collection de propriétés associées qui spécifient les données de forme. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Shape Data, section](shape-data-section.md) <br/> |
@@ -84,12 +84,12 @@ L’attribut **IX** de cet élément de la **Section** doit être un ensemble li
 |:-----|:-----|:-----|
 |Annotation  <br/> |Une collection de propriétés qui contiennent des informations sur les commentaires insérés sur une page de document.  <br/> |[Annotation, section](annotation-section.md) <br/> |
 |Caractère  <br/> |Une collection de propriétés associées qui spécifient les propriétés de caractères du texte d’une forme. Il doit avoir un élément parent de **ShapeSheet_Type** ou d’un élément parent de **StyleSheet_Type** .  <br/> |[Character, section](character-section.md) <br/> |
-|Connexions  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Connection Points, section](connection-points-section.md) <br/> |
+|Connections  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule uniquement. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Connection Points, section](connection-points-section.md) <br/> |
 |Champ  <br/> |Une collection de propriétés associées qui spécifient les champs de texte d’une forme. Il doit avoir un élément parent de **ShapeSheet_Type** .  <br/> |[Text Fields, section](text-fields-section.md) <br/> |
-|FillGradient  <br/> |Une collection de propriétés qui spécifient le dégradé de couleur de remplissage d’une forme. Il doit avoir un élément parent **ShapeSheet_Type** ou **StyleSheet_Type** .  <br/> |[Section dégradée de remplissage](fill-gradient-section.md) <br/> |
+|FillGradient  <br/> |Une collection de propriétés qui spécifient le dégradé de couleur de remplissage d’une forme. Il doit avoir un élément parent **ShapeSheet_Type** ou **StyleSheet_Type** .  <br/> |[Section Remplissage dégradé](fill-gradient-section.md) <br/> |
 |Geometry  <br/> |Une collection de propriétés associées qui spécifient la visualisation de géométrie. Il doit avoir un élément parent de **ShapeSheet_Type** . Le premier élément enfant de **Row_Type** de cet élément doit être de type MoveTo, RelMoveTo, Ellipse ou InfiniteLine.  <br/> |[Geometry, section](geometry-section.md) <br/> |
 |Layers  <br/> |Une collection de propriétés qui affiche tous les calques définis sur une page de dessin. Il doit être l’enfant d’un élément **PageSheet_Type** .  <br/> |[Layers, section](layers-section.md) <br/> |
-|Dégradé de ligne  <br/> |Une collection de propriétés associées qui spécifient le dégradé de couleur de trait d’une forme. Il doit avoir un élément parent **ShapeSheet_Type** ou **StyleSheet_Type** .  <br/> |[Section dégradé de ligne](line-gradient-section.md) <br/> |
+|Dégradé de ligne  <br/> |Une collection de propriétés associées qui spécifient le dégradé de couleur de trait d’une forme. Il doit avoir un élément parent **ShapeSheet_Type** ou **StyleSheet_Type** .  <br/> |[Section Trait dégradé](line-gradient-section.md) <br/> |
 |Paragraph  <br/> |Une collection de propriétés associées qui spécifient les propriétés de paragraphe du texte d’une forme. Il doit avoir un élément parent de **ShapeSheet_Type** ou d’un élément parent de **StyleSheet_Type** .  <br/> |[Paragraph, section](paragraph-section.md) <br/> |
 |Reviewer  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule. Il doit avoir un élément parent de **DocumentSheet_Type** .  <br/> |[Reviewer, section](reviewer-section.md) <br/> |
 |Montage  <br/> |Une collection de propriétés qui sont utilisés pour l’évaluation de formule. Il doit avoir un élément parent **DocumentSheet_Type**, **PageSheet_Type**ou **ShapeSheet_Type** .  <br/> |[Scratch, section](scratch-section.md) <br/> |

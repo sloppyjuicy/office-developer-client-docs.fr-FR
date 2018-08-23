@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 73fa4311a61be9259d8c45aca79d719785c213a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b0d5588218fd74f005de19daba002cd622c13a17
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785529"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587186"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>Propriété canonique PidLidUseTnef
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie si le Transport Neutral Encapsulation Format (TNEF) doivent être inclus dans un message lorsque ce message est converti en message MAPI au format Multipurpose Internet Mail Extensions (MIME) ou SMTP Simple Mail Transfer Protocol ().
   
@@ -33,7 +33,7 @@ Spécifie si le Transport Neutral Encapsulation Format (TNEF) doivent être incl
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008582  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Configuration d’exécution  <br/> |
+|Domaine :  <br/> |Configuration d’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -77,7 +77,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

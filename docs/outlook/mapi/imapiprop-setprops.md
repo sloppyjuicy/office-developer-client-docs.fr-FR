@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 304295e3ac77fb67ec5875620a7a269377b542c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 93bfcce9c45a4c6fd4d57be8c1222be286e0a945
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592030"
 ---
 # <a name="imapipropsetprops"></a>IMAPIProp::SetProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Met à jour une ou plusieurs propriétés.
   

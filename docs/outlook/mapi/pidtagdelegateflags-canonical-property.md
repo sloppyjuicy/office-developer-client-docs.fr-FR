@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 160ddc53edf3d9681adf6f9d536a488c0c345a07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785911"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590735"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriété canonique PidTagDelegateFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie si un délégué peut afficher des objets de message privé de la personne.
   
@@ -32,7 +32,7 @@ Spécifie si un délégué peut afficher des objets de message privé de la pers
 |Propriétés associées :  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x686B  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Zone :  <br/> |Message défini par la classe transmissible  <br/> |
+|Domaine :  <br/> |Message défini par la classe transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

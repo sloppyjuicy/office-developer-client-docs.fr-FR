@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f59b0041f271010e56dda2f73d2248f133bc1325
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7d588380ccc84f51fe58bb0f092d5287b12b4270
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787224"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586535"
 ---
 # <a name="spropertyrestriction"></a>SPropertyRestriction
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction de propriété qui est utilisée pour la correspondance d’une constante avec la valeur d’une propriété.
   
@@ -39,7 +39,7 @@ typedef struct _SPropertyRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **RelOp**
   
@@ -87,7 +87,7 @@ Balises de propriété à valeurs multiples peuvent être utilisées dans les m�
     
 - [IMAPITable::SortTable](imapitable-sorttable.md)
     
-- [IMAPITable](imapitable-restrict.md)
+- [IMAPITable::Restrict](imapitable-restrict.md)
     
 > [!IMPORTANT]
 > Un cas notable lorsque les balises de deux propriété ne correspondront pas se restriction sur une propriété à valeurs multiples. Dans ce cas, les informations suivantes doivent être vérifiées. > Si le type de propriété de **ulPropTag** de **SPropertyRestriction** contient le type de propriété à valeurs multiples bit indicateur MV_FLAG (0 x 1000), le type de propriété de **ulPropTag** de **SPropValue** doit correspondre à l’ancienne moins le MV_ INDICATEUR bit indicateur, autrement dit, son inverse. > Par exemple, pour limiter à l’aide d’une propriété de type chaîne à valeurs multiples comme une catégorie avec une balise de propriété pour la propriété 0x8012101f, c'est-à-dire PROP_TAG (MV_FLAG | PT_UNICODE, 0x8012)), le correspondant **SPropertyRestriction** apparaît sous la forme suit. >  `SPropertyRestriction.ulPropTag = 0x8012101f; // attempt to restrict a MultiValue property`>  `SPropertyRestriction.lpProp->ulPropTag = 0x8012001f; // the lpszW member of the Value property is valid`>  `SPropertyRestriction.lpProp.Value->lpszW = L"My Category";`> Notez que si le type de propriété de **ulPropTag** de **SPropValue** contient l’indicateur de bit MV_FLAG, le retour est MAPI_E_TOO_COMPLEX. 
@@ -101,6 +101,6 @@ Pour plus d’informations sur la structure **SPropertyRestriction** , voir [à 
 - [SPropValue](spropvalue.md)
 - [SRestriction](srestriction.md)
 - [IMAPITable::FindRow](imapitable-findrow.md)
-- [IMAPITable](imapitable-restrict.md)
+- [IMAPITable::Restrict](imapitable-restrict.md)
 - [Structures MAPI](mapi-structures.md)
 

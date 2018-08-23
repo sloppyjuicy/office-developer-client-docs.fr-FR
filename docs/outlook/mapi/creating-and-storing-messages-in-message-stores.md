@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 32cfae36fb519654c1fb92d2f3b688c966f9288f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: be718ea3ef4da91d2f85a0229f5a506198a2527f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783108"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589174"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Cr�ation et le stockage des Messages dans les banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Comment votre fournisseur de banque de messages cr�e et stocke les messages dans le m�canisme de stockage sous-jacent d�pendent essentiellement le m�canisme de stockage sous-jacent lui-m�me. En r�gle g�n�rale, vous devez uniquement d'�crire du code afin de pr�server les propri�t�s d'un message et leurs valeurs.
   

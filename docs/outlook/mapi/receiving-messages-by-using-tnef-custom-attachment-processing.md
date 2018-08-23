@@ -1,5 +1,5 @@
 ---
-title: Recevoir des Messages à l’aide de traitement des pièces jointes personnalisé TNEF
+title: Réception de messages via le traitement de pièce jointe personnalisé TNEF
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 18fc0983554284355dcdfb301fd41a0161a860fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 67c202e5130bd35e1277c5260bc1702043eadd95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786990"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588026"
 ---
-# <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Recevoir des Messages à l’aide de traitement des pièces jointes personnalisé TNEF
+# <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Réception de messages via le traitement de pièce jointe personnalisé TNEF
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour recevoir un message TNEF avec traitement personnalisé des pièces jointes :
   

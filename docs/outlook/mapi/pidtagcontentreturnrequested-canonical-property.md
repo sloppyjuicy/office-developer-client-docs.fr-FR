@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b4aaf05cdd8c85736215bd0d0f3a8c5c9dafecf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785865"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586591"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propriété canonique PidTagContentReturnRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un message doit être retourné avec un rapport de non-remise. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un message doit être retourné avec un rapport de no
 |Propriétés associées :  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x000A  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |État  <br/> |
+|Domaine :  <br/> |État  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

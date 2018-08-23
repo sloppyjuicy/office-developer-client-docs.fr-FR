@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: dc97abcb4b316b696032f2788f4e653717e1396b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2ec5c2604c72d41078aa467764463e2659c62e65
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587942"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>Allocation et libération de la mémoire dans MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Outre la spécification de l’affectation et libérer de la mémoire, MAPI définit un modèle pour savoir quand la mémoire transmise entre la méthode d’interface publique et la fonction API appels doivent être libérés. Le modèle s’applique uniquement à la mémoire allouée pour les paramètres qui ne sont pas des pointeurs vers des interfaces, telles que des chaînes et des pointeurs vers des structures. Pointeurs d’interface utilisent le décompte de références mécanisme implémentés par le biais de **IUnknown**. Lors de l’allocation et la libération non MAPI liées mémoire en interne au sein d’une application cliente ou d’un fournisseur de services, utilisez le mécanisme significatif. 
   

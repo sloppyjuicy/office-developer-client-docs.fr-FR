@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 525c817cfc3bdcf96455d35025e85486ec8b5b42
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 680d80c0827399f3b7a0ea5819e51be654a05810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784928"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592478"
 ---
 # <a name="opening-a-view-descriptor"></a>L’ouverture d’un descripteur d’affichage
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Nombre de dossiers peut être ouvert avec n’importe quel nombre de vues personnalisées, une vue par défaut ou un affichage normal. Un affichage explique comment afficher le contenu d’un dossier. L’affichage normal est utilisé lorsqu’il n’existe aucune autre vue et lorsque vous ouvrez le dossier pour la première fois. Lorsqu’une autre vue n’existe pas, vous devez l’utiliser pour ouvrir le dossier.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 39f255a277403073132dfd3cd21c995eefe904c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3f03412c9ab639678c68016ec1a8eff937b6c1a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783777"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590987"
 ---
 # <a name="imapiformcontainer--iunknown"></a>IMAPIFormContainer : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Gère les formulaires dans les bibliothèques de formulaires. Cette interface est utilisée pour créer des bibliothèques de formulaires spécifique à l’application. 
   

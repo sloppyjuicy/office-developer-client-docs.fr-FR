@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8eb19f9a2d3458e153b0758b56c502ce612be0cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a0d86b9b0342beea6b33db0219cb5889d2e63f03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592072"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime une ou plusieurs propriétés d’un objet. 
   

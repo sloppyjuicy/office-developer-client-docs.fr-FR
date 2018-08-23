@@ -1,5 +1,5 @@
 ---
-title: L’enregistrement d’un Message dans la boîte de réception
+title: Enregistrement d’un message dans la boîte de réception
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3c48ded73d924a400632a94feab65f7afca6e526
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e79133ed4928495dcf75b59877a82d3228773883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586283"
 ---
-# <a name="saving-a-message-in-the-inbox"></a>L’enregistrement d’un Message dans la boîte de réception
+# <a name="saving-a-message-in-the-inbox"></a>Enregistrement d’un message dans la boîte de réception
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour stocker un message dans la boîte de réception sans les destinataires**
   

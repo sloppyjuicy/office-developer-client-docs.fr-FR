@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 01a65306e5e0d34ed6f1ce7231227224868ff5cb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: eb04983015e8557541e69981ec130ebf07598655
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786831"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588369"
 ---
 # <a name="pidtagstatus-canonical-property"></a>Propriété canonique PidTagStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un masque de bits 32 bits d’indicateurs qui définissent l’état du dossier.
   
@@ -32,7 +32,7 @@ Contient un masque de bits 32 bits d’indicateurs qui définissent l’état du
 |Propriétés associées :  <br/> |PR_STATUS  <br/> |
 |Identificateur :  <br/> |0x360B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Conteneur MAPI  <br/> |
+|Domaine :  <br/> |Conteneur MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -90,7 +90,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 96bc2e58482ba259b14e820f3380978f80c542c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ae9b49717fd7981d653e9852ed02d50bef7c7846
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787336"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590686"
 ---
 # <a name="testing-and-debugging"></a>Test et débogage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tests des stratégies varient selon que vous développez un client ou fournisseur de services. Comme une application cliente requiert un ou plusieurs fournisseurs de services fonctionner, les clients doivent être testés dans un environnement comportant plusieurs ensembles de fournisseurs de services.
   

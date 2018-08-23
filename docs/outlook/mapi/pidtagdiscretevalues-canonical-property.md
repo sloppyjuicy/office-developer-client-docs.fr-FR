@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 958f3cf7-953a-43f4-9102-ad35edf5e813
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9911d6cee40637a69dfaf432be0e6d42bf38bccd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f1aa54c3364185d322137ef41f6aface31c5c556
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785954"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587417"
 ---
 # <a name="pidtagdiscretevalues-canonical-property"></a>Propriété canonique PidTagDiscreteValues
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un rapport de non-remise s’applique uniquement à des membres d’une liste de distribution plutôt que l’intégralité de la liste. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un rapport de non-remise s’applique uniquement à d
 |Propriétés associées :  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Identificateur :  <br/> |0x0E0E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

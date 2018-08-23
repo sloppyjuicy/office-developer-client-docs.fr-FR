@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a89b1a93b2b03f97426a3988739e9b0d8411f113
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 316e17e7804e754eed4ee4fef27211fb5173d4bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783672"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589643"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet les conversions entre objets MIME et les messages MAPI. Cela peut être utile de transport des messages via Internet.
   
@@ -57,7 +57,7 @@ Appelez **SetEncoding** avant d’utiliser **MAPIToMIMEStm** pour effectuer la c
 
 
 
-[À propos de l’API de Conversion MAPI MIME](about-the-mapi-mime-conversion-api.md)
+[À propos de l’API de conversion MAPI-MIME](about-the-mapi-mime-conversion-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

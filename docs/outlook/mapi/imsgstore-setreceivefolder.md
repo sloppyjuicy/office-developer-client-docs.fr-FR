@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c30c38e1dbc944fd3016badf2621aef5de1e08f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4e2d4f76fe436fd18b439bbbb558b1169094b438
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784273"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589461"
 ---
 # <a name="imsgstoresetreceivefolder"></a>IMsgStore::SetReceiveFolder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Établissement d’un dossier comme destination pour les messages entrants d’une classe de message particulier.
   

@@ -1,5 +1,5 @@
 ---
-title: Développement d’un fournisseur de Transport prenant en charge TNEF
+title: Développement d’un fournisseur de transport TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7525eee1-4016-49b8-9509-5ebbe1db819f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9f80feecda219e3bcebbf8ceb346b5034e821470
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4d4f7ed75bb1144b7cd4a813b0d093246a30cca5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588348"
 ---
-# <a name="developing-a-tnef-enabled-transport-provider"></a>Développement d’un fournisseur de Transport prenant en charge TNEF
+# <a name="developing-a-tnef-enabled-transport-provider"></a>Développement d’un fournisseur de transport TNEF
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour promouvoir l’interopérabilité entre les systèmes de messagerie qui prennent en charge différentes fonctionnalités MAPI, MAPI fournit le Transport Neutral Encapsulation Format TNEF () en tant que standard permet de transférer des données. Ce format encapsule des propriétés MAPI non pris en charge par un système de messagerie sous-jacent dans un objet stream binaire qui peut être transféré ainsi que le message lorsque envoie un fournisseur de transport. Le fournisseur de transport qui reçoit le message peut décoder puis le flux binaire pour récupérer toutes les propriétés du message d’origine et les rendre disponibles pour les applications clientes. Le modèle opérationnel pour TNEF est la suivante :
   

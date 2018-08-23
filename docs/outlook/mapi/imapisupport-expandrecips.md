@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2e41701d3a739864b1eafc8001833b7df5c8908b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783991"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591009"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Termine la liste des destinataires d’un message, développer des listes de distribution particulier.
   

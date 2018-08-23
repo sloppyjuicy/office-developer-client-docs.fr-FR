@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 52c97d6c-7f4b-4522-aeac-0c1ed8475952
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4aec52497e02e99423fa50f378cd35dbf366c37c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b4c8c6cf3bee0575a42bc42a1ebf5e185ef78ab4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591631"
 ---
 # <a name="pidtagconversationkey-canonical-property"></a>Propriété canonique PidTagConversationKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la clé de conversation utilisée dans Microsoft Outlook uniquement lors de la recherche **IPM. MessageManager** messages, tels que le message qui contient l’historique de téléchargement d’un compte Post Office Protocol (POP3). Cette propriété a été déconseillée dans Microsoft Exchange Server. 
   
@@ -28,7 +28,7 @@ Contient la clé de conversation utilisée dans Microsoft Outlook uniquement lor
 |Propriétés associées :  <br/> |PR_CONVERSATION_KEY  <br/> |
 |Identificateur :  <br/> |0x000B  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,13 +66,13 @@ MAPITAGS.h
 
 [Sous-arborescence IPM](ipm-subtree.md)
   
-[Dossiers spéciaux MAPI](mapi-special-folders.md)
+[Dossiers sp�ciaux MAPI](mapi-special-folders.md)
   
 [Propriétés MAPI](mapi-properties.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

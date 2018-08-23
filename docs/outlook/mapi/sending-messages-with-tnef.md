@@ -1,5 +1,5 @@
 ---
-title: Envoi de Messages avec TNEF
+title: Envoi de messages avec TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fb26d854b47894d8f37763b17e5ba0b26fd25ff6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9de158e2f269c7b000734beb93b26df195255bcf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787129"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592282"
 ---
-# <a name="sending-messages-with-tnef"></a>Envoi de Messages avec TNEF
+# <a name="sending-messages-with-tnef"></a>Envoi de messages avec TNEF
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 De nombreux fournisseurs de transport envoyer automatiquement tous les messages sortants avec la Neutral Encapsulation Format TNEF (Transport). Le format TNEF est utilisé pour transmettre le texte mis en forme qui prennent en charge les clients et les fournisseurs de banque de messages dans leurs messages, les pièces jointes de différents types et des propriétés personnalisées pour les classes de message personnalisées. Bien que le mode par défaut pour la plupart des fournisseurs de transport consiste à envoyer des messages sortants avec TNEF, certains fournisseurs de transport ne le permettent pas. L’absence de prise en charge pour le format TNEF n’est pas un problème pour les clients de messagerie standards qui envoient et reçoivent des messages IPM. Toutefois, pour les clients basés sur les formulaires ou les clients qui requièrent des propriétés personnalisées, l’utilisation du format TNEF est essentielle. Les concepteurs de clients qui reposent sur des formulaires ou des propriétés personnalisées doivent prendre en charge des fonctionnalités des fournisseurs de transport qu’ils utilisent.
   

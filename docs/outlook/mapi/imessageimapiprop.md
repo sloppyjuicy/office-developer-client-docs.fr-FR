@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9ed02e19a2934f785b03bb8553a08e16c7bb30e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b594297d364ba4f5a3ff7da603d2fe7c2fe8cf07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784140"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588530"
 ---
-# <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
+# <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Gère les messages, les pièces jointes et les destinataires.
   
@@ -98,7 +98,7 @@ Les propriétés suivantes sont toutes en lecture seule aux clients, à l’exce
 |**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md))  <br/> |
 |**PR_REPORT_TEXT** ([PidTagReportText](pidtagreporttext-canonical-property.md))  <br/> |
 |**PR_REPORT_TIME** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |
-|**CLÉ PR_SEARCH_KEY** <br/> |
+|**PR_SEARCH_KEY** <br/> |
 |Propriétés **PR_SENDER**  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
@@ -110,6 +110,6 @@ Les propriétés suivantes sont toutes en lecture seule aux clients, à l’exce
 |**ADRESSE_EMAIL_PR** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Lecture seule  <br/> |Facultatif  <br/> |
 |**PR_ENTRYID** <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
-|**CLÉ PR_SEARCH_KEY** <br/> |Lecture seule  <br/> |Facultatif  <br/> |
+|**PR_SEARCH_KEY** <br/> |Lecture seule  <br/> |Facultatif  <br/> |
    
 

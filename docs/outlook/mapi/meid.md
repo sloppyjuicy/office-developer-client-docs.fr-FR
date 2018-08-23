@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: 1b725dc5151f1f088f2547a1ef82d322c8458b6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784904"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591939"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Identificateur pour un élément Outlook. Il contient un identificateur d’entrée et d’autres informations pertinentes.
   
@@ -36,7 +36,7 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _abFlags_
   
@@ -64,11 +64,11 @@ struct MEID
 
 [À propos de l’API de réplication](about-the-replication-api.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
   
-[SYNCHRONISATION](sync.md)
+[SYNC](sync.md)
   
 [UPMSG](upmsg.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7071c05f6f59740163f97f840c7fa48d83bea815
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4610d9e643541e39144f2af86a2d64928b8e9ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591288"
 ---
 # <a name="displaying-recipient-information"></a>Affichage des informations sur les destinataires
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI fournit une boîte de dialogue pour afficher des détails sur le destinataires. La boîte de dialogue Détails est créée à partir d’un tableau d’affichage et une implémentation **IMAPIProp** . Le tableau de l’affichage décrit l’apparence de l’affichage des détails et l’implémentation **IMAPIProp** contrôle les données pour le destinataire. Votre fournisseur est chargé de fournir le tableau d’affichage et l’implémentation **IMAPIProp** pour chaque destinataire. 
   

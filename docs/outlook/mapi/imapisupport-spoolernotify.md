@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 21ea5faaccb81e763d6d062b6ff567db509d9d35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592114"
 ---
 # <a name="imapisupportspoolernotify"></a>IMAPISupport::SpoolerNotify
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notifie le spouleur MAPI d’un changement de statut ou une demande de service. 
   
@@ -122,7 +122,7 @@ Pour plus d’informations sur l’appel de **SpoolerNotify**, consultez les rub
 
 
 
-[IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)
+[IMsgStore::GetReceiveFolderTable](imsgstore-notifynewmail.md)
   
 [IXPLogon::StartMessage](ixplogon-startmessage.md)
   

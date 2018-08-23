@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c7859e033924786e415f9faa9f75021ea47968c6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a3343381709b7ce3370ba481ad8dbb935c7d4165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784100"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586948"
 ---
 # <a name="imapitablewaitforcompletion"></a>IMAPITable::WaitForCompletion
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Interrompt le traitement jusqu'à ce qu’un ou plusieurs asynchrones opérations en cours sur la table est terminé.
   
@@ -75,7 +75,7 @@ La méthode **IMAPITable::WaitForCompletion** interrompt le traitement jusqu'à 
   
 [IMAPITable::GetStatus](imapitable-getstatus.md)
   
-[IMAPITable](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
 [IMAPITable::SetColumns](imapitable-setcolumns.md)
   

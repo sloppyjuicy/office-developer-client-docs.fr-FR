@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cce98dc630dd9f7fa459ca31d94d012ba9a7fd85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 251359a98f89c88e707e4f705bd94b1f30b32cbd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783921"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592051"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique au fournisseur MAPI qu’un client MAPI sur le point d’effectuer un arrêt rapide, afin que le fournisseur peut prendre des mesures pour éviter toute perte de données.
   

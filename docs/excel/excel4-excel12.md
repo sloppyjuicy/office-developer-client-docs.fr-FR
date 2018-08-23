@@ -11,23 +11,23 @@ keywords:
 - fonction Excel4 [excel 2007], fonction Excel12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 1c2c775cc7c5b051e4a1381df09ef29e79e2aca4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: c7caf4923e336020928006f6838de5eaeba814a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782113"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586808"
 ---
 # <a name="excel4excel12"></a>Excel4/Excel12
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelle une fonction de feuille de calcul Microsoft Excel interne, la fonction de feuille macro ou commande, ou XLL seule fonction spéciale ou, à partir d’au sein d’une DLL/XLL ou ressource de code.
   
 Toutes les versions récentes d’Excel prennent en charge **Excel4**. À compter d’Excel 2007, **Excel12** est pris en charge. 
   
-Ces fonctions peuvent être appelées uniquement lorsque Excel a réussi le contrôle à la DLL ou XLL. Ils peuvent également être appelées lorsque Excel a réussi le contrôle indirectement via un appel à Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelées à tout moment. Par exemple, ils ne peut pas être appelées pendant un appel à la fonction [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx) ou autres heures lorsque le système d’exploitation a appelé la DLL ou d’un thread créé par la DLL. 
+Ces fonctions peuvent être appelées uniquement lorsque Excel a réussi le contrôle à la DLL ou XLL. Ils peuvent également être appelées lorsque Excel a réussi le contrôle indirectement via un appel à Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelées à tout moment. Par exemple, ils ne peut pas être appelées pendant un appel à la fonction [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) ou autres heures lorsque le système d’exploitation a appelé la DLL ou d’un thread créé par la DLL. 
   
 Les fonctions [Excel4v et Excel12v](excel4v-excel12v.md) acceptent leurs arguments comme un tableau, tandis que les fonctions **Excel 4** et **Excel12** acceptent leurs arguments comme une liste de longueur variable sur la pile. Dans tous les autres aspects **Excel4** se comporte comme **Excel4v**et **Excel12** se comporte comme **Excel12v**.
   
@@ -67,7 +67,7 @@ Retourne l’une des valeurs suivantes entier (**int**).
 |8  <br/> |**xlretInvXloper** <br/> |Une **XLOPER** ou **XLOPER12** non valide a été transmis à la fonction, ou un argument de type incorrect a été utilisé.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Un dépassement s’est produite. Utilisez **xlStack** pour surveiller la quantité d’espace libre sur la pile. Éviter l’allocation de très grands tableaux (automatiques) locales et les structures sur la pile lorsque cela est possible ; Rendre statique. (Notez qu’un dépassement peut se produire sans être détecté).  <br/> |
 |32  <br/> |**xlretFailed** <br/> |Échec d’une fonction de l’équivalent de la commande. Cela équivaut à une commande de macro affichant la boîte de dialogue d’alerte macro.  <br/> |
-|64  <br/> |**au niveau** <br/> |Une tentative a été effectuée pour supprimer la référence une cellule qui n’a pas encore été calculée, car elle est planifiée qui doit être recalculée après la cellule active. Dans ce cas, la DLL doit renvoyer contrôle vers Excel immédiatement. La DLL est autorisée à appeler **xlFree** avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. Pour plus d’informations sur les fonctions peuvent et ne peuvent pas accéder aux valeurs des cellules qui n’ont pas été recalculées, voir [Excel commandes, fonctions et états](excel-commands-functions-and-states.md).  <br/> |
+|64  <br/> |**xlretUncalced** <br/> |Une tentative a été effectuée pour supprimer la référence une cellule qui n’a pas encore été calculée, car elle est planifiée qui doit être recalculée après la cellule active. Dans ce cas, la DLL doit renvoyer contrôle vers Excel immédiatement. La DLL est autorisée à appeler **xlFree** avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. Pour plus d’informations sur les fonctions peuvent et ne peuvent pas accéder aux valeurs des cellules qui n’ont pas été recalculées, voir [Excel commandes, fonctions et états](excel-commands-functions-and-states.md).  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |Une tentative a été effectuée pour appeler une fonction qui n’est pas, ou peut être pas thread-safe pendant un nouveau calcul multithread du classeur.  <br/> À compter d’Excel 2007, cette valeur est retournée, et uniquement dans les fonctions de feuille de calcul XLL déclarées en tant que thread-safe.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |La poignée de fonction asynchrone n’est pas valide.  <br/> Cette valeur est utilisée uniquement par Excel 2010.  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |L’appel n’est pas pris en charge sur les clusters.  <br/> Cette valeur est utilisée uniquement par Excel 2010.  <br/> |

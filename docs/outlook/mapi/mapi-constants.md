@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d6d6c55776c1379ec1dab0e9a6f7ef0943d2480e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784596"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586304"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient des définitions de constantes, les déclarations d’interface MAPI et les identificateurs de classe et d’interface utilisés par les API de MAPI.
   
@@ -55,7 +55,7 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 
 Cette section contient des définitions de constantes et les identificateurs de classe et l’interface de l’API de Conversion MAPI MIME.
   
-### <a name="constants"></a>Constants
+### <a name="constants"></a>Constantes
 
 |||
 |:-----|:-----|
@@ -87,7 +87,7 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 
 Cette section contient des définitions de constantes et les identificateurs de classe et l’interface de l’API de l’état en mode hors connexion.
   
-### <a name="constants"></a>Constants
+### <a name="constants"></a>Constantes
 
 |||
 |:-----|:-----|
@@ -245,7 +245,7 @@ Reportez-vous à la section emplacement de stockage MAPI pour les définitions P
 
 Cette section contient des définitions de constantes, les déclarations d’interface MAPI et identificateurs de classe et d’interface pour l’API de réplication.
   
-### <a name="constants"></a>Constants
+### <a name="constants"></a>Constantes
 
 Vous trouverez ci-dessous une structure [MAPIUID](mapiuid.md) qui identifie un fournisseur de services MAPI : 
   
@@ -378,13 +378,13 @@ DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D
 
 Cette section contient des définitions de constantes et identificateurs d’interface utilisé par les API de cette interface avec un magasin MAPI.
   
-### <a name="constants"></a>Constants
+### <a name="constants"></a>Constantes
 
 ||||
 |:-----|:-----|:-----|
 |fnevIndexing  <br/> |((ULONG) 0 X 00010000)  <br/> |Un fournisseur de magasins peut spécifier **fnevIndexing** dans le membre **ulEventType** de la structure de **[NOTIFICATION](notification.md)** pour signaler l’indexeur qu’un objet est prêt pour l’indexation. Membre de la structure de **NOTIFICATION** **info** contient une structure **[EXTENDED_NOTIFICATION](extended_notification.md)** .  <br/> |
 |FS_NONE  <br/> |0 x 00  <br/> |Un client peut appeler **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** et vérification pour le masque de bits retournée. **FS_NONE** indique que le dossier ne prend pas en charge le partage.  <br/> |
-|FS_SUPPORTS_SHARING  <br/> |0 x 01  <br/> |Un client peut appeler **IFolderSupport::GetSupportMask** et vérification pour le masque de bits retournée. **FS_SUPPORTS_SHARING** indique que le dossier prend en charge le partage.  <br/> |
+|FS_SUPPORTS_SHARING  <br/> |0x01  <br/> |Un client peut appeler **IFolderSupport::GetSupportMask** et vérification pour le masque de bits retournée. **FS_SUPPORTS_SHARING** indique que le dossier prend en charge le partage.  <br/> |
 |INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0 X 00000001)  <br/> |Identifie le processus qui est envoi une notification à un indexeur qu’un objet est prêt pour l’indexation.  <br/> |
 |MNID_ID  <br/> |Comme défini dans le mapidefs.h de fichier d’en-tête Kit de développement logiciel (SDK) de Microsoft Windows  <br/> |Une valeur pour le champ **ulKind** de la structure **[MAPINAMEID](mapinameid.md)** .  <br/> |
 |MNID_STRING  <br/> |Comme défini dans le mapidefs.h de fichier d’en-tête Kit de développement logiciel (SDK) de Microsoft Windows.  <br/> |Une valeur pour le champ **ulKind** de la structure **[MAPINAMEID](mapinameid.md)** .  <br/> |
@@ -502,7 +502,7 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 Cette section contient les définitions des constantes pour le carnet d’adresses MAPI.
   
-### <a name="constants"></a>Constants
+### <a name="constants"></a>Constantes
 
 ||||
 |:-----|:-----|:-----|
@@ -680,7 +680,7 @@ DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x3
 
 - [À propos des ajouts MAPI](about-mapi-additions.md) 
 - [À propos des propriétés nommées utilisées par Outlook](about-named-properties-used-by-outlook.md)
-- [Accès un magasin sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
-- [Ouvrir un objet Store sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Gérer un Message dans un fichier OST sans appeler une synchronisation en Mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

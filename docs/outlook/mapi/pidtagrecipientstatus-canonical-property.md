@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2abf8085ae353ea2b50f647e5cf641708008c47d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d6025feb77f5e880dec98bc65f0b170c25a00b78
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786526"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591708"
 ---
 # <a name="pidtagrecipientstatus-canonical-property"></a>Propriété canonique PidTagRecipientStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur qui est utilisée par le spouleur MAPI lors de l’attribution des responsabilités de remise parmi les fournisseurs de transport.
   
@@ -32,7 +32,7 @@ Contient une valeur qui est utilisée par le spouleur MAPI lors de l’attributi
 |Propriétés associées :  <br/> |PR_RECIPIENT_STATUS  <br/> |
 |Identificateur :  <br/> |0x0E15  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

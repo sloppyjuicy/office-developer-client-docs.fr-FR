@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 41e1113faec18625f57b24f9fc165e2cb029724d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1312f590dfc0e8388495351dd4870fcf8b9e22f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785580"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591365"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Propriété canonique PidNameExchangeJunkEmailMoveStamp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur persistant message qui indique que le message ne doit pas traité par un filtre de courrier indésirable, car le message a été déjà traités ou est fiable.
   
@@ -33,7 +33,7 @@ Contient la valeur persistant message qui indique que le message ne doit pas tra
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Messagerie sécurisée  <br/> |
+|Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

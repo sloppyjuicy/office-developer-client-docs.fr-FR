@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5e4bd4f6038db3dbb33ec3511d953448fea7a6c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ec581e2170b92721410106eae00e2d36b3c775a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22591337"
 ---
 # <a name="mapi-spooler-overview"></a>Vue d’ensemble du spouleur MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spouleur MAPI est une fonction du processus de Microsoft Office Outlook qui est responsable de l’envoi des messages et réception de messages à partir d’un système de messagerie. Spouleur MAPI joue un rôle essentiel dans la remise et de réception du message. Lorsqu’un système de messagerie n’est pas disponible, spouleur MAPI stocke les messages et les transfère automatiquement à une date ultérieure. Cette capacité d’envoyer des données lorsqu’il est nécessaire de façon permanente sur est appelée stocker et transférer, une fonctionnalité essentielle dans les environnements où les connexions à distance sont courants et le trafic réseau est élevé. Spouleur MAPI s’exécute comme un thread d’arrière-plan dans Outlook.
   
@@ -35,7 +35,7 @@ Spouleur MAPI a des responsabilités supplémentaires liées à la distribution 
     
 L’illustration suivante montre un haut niveau le flux d’un message à partir d’un client pour le système de messagerie.
   
-**Flux des messages sortants**
+**Flux de message sortant**
   
 ![Flux des messages de sortie] (media/amapi_46.gif "Flux des messages de sortie")
   

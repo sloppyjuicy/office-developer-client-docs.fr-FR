@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 87be00bce55fabda6271b472a9e5c446aaf8054a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784279"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587858"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Inscrit un objet avec un fournisseur de magasin de message pour les notifications sur les modifications dans la banque de messages. La banque de messages envoie ensuite les notifications sur les modifications apportées à l’objet inscrit.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0918f079769a70aa11e4f26551ec232308e5eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 099a744940ffae49f49e9ca25f49dc54414b25dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590007"
 ---
 # <a name="pidtagprocessed-canonical-property"></a>Propriété canonique PidTagProcessed
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La valeur TRUE si la demande de réunion a été traitée.
   
@@ -32,7 +32,7 @@ La valeur TRUE si la demande de réunion a été traitée.
 |Propriétés associées :  <br/> |PR_PROCESSED  <br/> |
 |Identificateur :  <br/> |0x7D01  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Calendrier  <br/> |
+|Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

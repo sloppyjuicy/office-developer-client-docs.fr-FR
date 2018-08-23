@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1a865b571de9e471bcc1942ab54b02f658b4c158
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0c3b200c416a21dab00e1ad31e70b58fbdbf845e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786561"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590609"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Propriété canonique PidTagRelatedMessageIds
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste d’identificateurs de messages associé à un message.
   
@@ -32,7 +32,7 @@ Contient une liste d’identificateurs de messages associé à un message.
 |Propriétés associées :  <br/> |PR_RELATED_IPMS  <br/> |
 |Identificateur :  <br/> |0x002D  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

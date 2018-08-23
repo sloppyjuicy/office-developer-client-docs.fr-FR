@@ -1,5 +1,5 @@
 ---
-title: Sections de fournisseur de Service de MapiSvc.inf
+title: Sections de fournisseur de services MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ad6a4661025dfd8cbd39d8f58a36d94ab997ada2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 05666d8d6b7279588b4b442151640fa1696aedda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586780"
 ---
-# <a name="mapisvcinf-service-provider-sections"></a>Sections de fournisseur de Service de MapiSvc.inf
+# <a name="mapisvcinf-service-provider-sections"></a>Sections de fournisseur de services MapiSvc.inf
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPISVC.inf comprend une section de fournisseur de service pour chacune des entrées répertoriées dans l’entrée de **fournisseurs** dans la section services de message précédente. Sections de fournisseur de **service** sont similaires aux sections de service de message dans la mesure où les deux types de sections contiennent des entrées dans ce format : 
   

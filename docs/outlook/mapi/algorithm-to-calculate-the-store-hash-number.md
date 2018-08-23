@@ -1,21 +1,21 @@
 ---
-title: Algorithme pour calculer le nombre de hachage magasin
+title: Algorithme permettant de calculer le nombre de hachages de magasin
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: de4fa7cb24cd486e506f5d747319c44ce9c15a77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 84065c1441008732380e68d9786d7844dbb64cb7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782900"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22592100"
 ---
-# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme pour calculer le nombre de hachage magasin
+# <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme permettant de calculer le nombre de hachages de magasin
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Dans le cadre d’un MAPI URL Uniform Resource Locator (), un fournisseur de banque envoie un numéro de hachage magasin au Gestionnaire de protocole MAPI pour identifier un objet est prêt pour l’indexation. Le Gestionnaire de protocole MAPI utilise ce numéro de hachage magasin pour identifier un magasin. En règle générale, un fournisseur de magasins calcule le nombre de hachage de magasin en fonction de la signature de mappage banque, si le magasin de la propriété **[PR_MAPPING_SIGNATURE](pidtagmappingsignature-canonical-property.md)** définie dans la section profil global. Sinon, le fournisseur de banque utilise l’ID d’entrée de magasin. L’algorithme pour calculer le nombre de hachage magasin doit réduire ambiguïtés qui identifie les magasins. 
   
@@ -242,6 +242,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Indexation de magasin de Notification](about-notification-based-store-indexing.md)
-- [À propos des URL MAPI pour l’indexation basée sur une Notification](about-mapi-urls-for-notification-based-indexing.md)
+- [À propos de l’indexation de magasin basée sur une notification](about-notification-based-store-indexing.md)
+- [À propos des URL MAPI pour l’indexation basée sur une notification](about-mapi-urls-for-notification-based-indexing.md)
 

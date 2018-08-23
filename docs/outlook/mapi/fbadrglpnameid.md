@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3f04c5be240f63d35ea8dba0f7abbf1085f2a41d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783280"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588145"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Valide un tableau de structures qui décrivent les propriétés nommées et vérifie leur affectation. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ebb925ac1ff6507a5e686b769ba9d48b095fb527
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ddec060af73d61a4a39c59b35f0442d6b9b1db66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590315"
 ---
 # <a name="pidtaglongtermentryidfromtable-canonical-property"></a>Propriété canonique PidTagLongTermEntryIdFromTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtient l’identificateur d’entrée à long terme d’un élément.
   
@@ -32,7 +32,7 @@ Obtient l’identificateur d’entrée à long terme d’un élément.
 |Propriétés associées :  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |Identificateur :  <br/> |0x6670  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Propriétés du tableau  <br/> |
+|Domaine :  <br/> |Propriétés du tableau  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

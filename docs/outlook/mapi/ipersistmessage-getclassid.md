@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e0937eed2e8ca61bc18ee45ff20337267808ea70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c9d769e6a32fad22750a965debbbdce83e4de539
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784355"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586456"
 ---
 # <a name="ipersistmessagegetclassid"></a>IPersistMessage::GetClassID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie un identificateur qui représente le serveur de formulaire qui peut gérer le formulaire. 
   

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6ebc4e9cbc79a71a91f1f2f3eec0d40de979ab18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7177b2f0f709939b7580fa7abb87490073bb00c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588810"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction de propriété de comparaison qui teste les deux propriétés à l’aide d’un opérateur relationnel. 
   
@@ -39,7 +39,7 @@ typedef struct _SComparePropsRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **RelOp**
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c942bdbf27590dde04b84970e345f265bc645045
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588243"
 ---
 # <a name="iprofadmingetprofiletable"></a>IProfAdmin::GetProfileTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table de profil, un tableau qui contient des informations sur tous les profils disponibles.
   

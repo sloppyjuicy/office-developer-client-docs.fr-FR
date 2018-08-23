@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 91f027176fc3dac35cb951e2ae7a109c5044cb08
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e770939f00896d8ec12ce990811c444f2a25f244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593486"
 ---
 # <a name="pidtagcartelephonenumber-canonical-property"></a>Propriété canonique PidTagCarTelephoneNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le numéro de téléphone de voiture du destinataire. 
   
@@ -32,7 +32,7 @@ Contient le numéro de téléphone de voiture du destinataire.
 |Propriétés associées :  <br/> |NUMÉRO_TÉLÉPHONE_VOITURE_PR, PR_CAR_TELEPHONE_NUMBER_A, PR_CAR_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A1E  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
