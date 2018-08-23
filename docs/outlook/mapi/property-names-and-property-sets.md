@@ -1,5 +1,5 @@
 ---
-title: Les noms de propriétés et les jeux de propriétés
+title: Noms de propriétés et jeux de propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c586d70054542e8d20c90a8caceafabbbb408de8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786977"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571828"
 ---
-# <a name="property-names-and-property-sets"></a>Les noms de propriétés et les jeux de propriétés
+# <a name="property-names-and-property-sets"></a>Noms de propriétés et jeux de propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le nom de chaque propriété nommée comporte deux parties :
   

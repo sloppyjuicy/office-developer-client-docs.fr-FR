@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités requises pour les conteneurs de carnet d’adresses
+title: Fonctionnalités requises pour les conteneurs du carnet d’adresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5eeaa9a8c1965954ad2eb0a6bfd2a174a355f10d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787013"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577211"
 ---
-# <a name="required-features-for-address-book-containers"></a>Fonctionnalités requises pour les conteneurs de carnet d’adresses
+# <a name="required-features-for-address-book-containers"></a>Fonctionnalités requises pour les conteneurs du carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La plupart des fournisseurs de carnet d’adresses prend en charge au moins un conteneur, certains d'entre eux modifiable. Conteneurs de carnet d’adresses peuvent fournir de contenu et tables de hiérarchie, des fonctions de recherche et la résolution de nom. Conteneurs modifiables autoriser la suppression des entrées telles que la messagerie des utilisateurs, des listes de distribution, ou autres conteneurs et l’ajout des entrées à partir d’entrées dans d’autres conteneurs ou à partir de modèles uniques.
   
@@ -37,6 +37,6 @@ Le tableau suivant décrit les fonctionnalités qui sont requises pour les fourn
 |Fournir des informations détaillées sur un conteneur  <br/> |Prise en charge de la propriété **PR_DETAILS_TABLE** sur le conteneur. Pour plus d’informations, voir [Affichage des informations sur les destinataires](displaying-recipient-information.md) et [Afficher des Tables](display-tables.md).  <br/> |
 |Fournir une liste hiérarchique des conteneurs  <br/> |Prend en charge la propriété container **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)). Pour plus d’informations, voir les [Tables de hiérarchie](hierarchy-tables.md).  <br/> |
 |Prise en charge des propriétés de l’utilisateur de messagerie  <br/> |Implémenter le [IMailUser : IMAPIProp](imailuserimapiprop.md) interface.  <br/> |
-|Résoudre des noms ambigus  <br/> | Prend en charge la restriction de propriété **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)).  <br/>  Vous pouvez également implémenter la méthode [IABContainer::ResolveNames](iabcontainer-resolvenames.md) . For more information, see [L'impl�mentation de la r�solution de noms](implementing-name-resolution.md).  <br/> |
+|Résoudre les noms ambigus  <br/> | Prend en charge la restriction de propriété **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)).  <br/>  Vous pouvez également implémenter la méthode [IABContainer::ResolveNames](iabcontainer-resolvenames.md) . For more information, see [L'impl�mentation de la r�solution de noms](implementing-name-resolution.md).  <br/> |
    
 

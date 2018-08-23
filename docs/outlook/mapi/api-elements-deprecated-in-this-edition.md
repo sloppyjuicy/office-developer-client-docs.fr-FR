@@ -1,5 +1,5 @@
 ---
-title: Éléments d’API déconseillées dans cette version
+title: Éléments de l’API obsolètes dans cette édition
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d0a6d182-961c-4496-a3bd-f643612527a5
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: c70e89efba585183d2019bbda49102ecd14b9e20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e40bcbfffc6f149837f4a11351f2bdbbf0dcc524
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782922"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571597"
 ---
-# <a name="api-elements-deprecated-in-this-edition"></a>Éléments d’API déconseillées dans cette version
+# <a name="api-elements-deprecated-in-this-edition"></a>Éléments de l’API obsolètes dans cette édition
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Éléments d’API suivants sont déconseillés dans Microsoft Outlook 2013. Ils ne sont plus pris en charge et vous ne devez pas les utiliser dans les nouveaux projets.
   
@@ -45,5 +45,5 @@ ms.locfileid: "19782922"
 
 
 
-[Mise en route avec la r�f�rence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
 

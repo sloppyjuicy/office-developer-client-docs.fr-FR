@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8964ba8c4341bec431bdbc1690d639b345df8b1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573543"
 ---
 # <a name="imapiprogressgetflags"></a>IMAPIProgress::GetFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’indicateur renvoie les paramètres de l’objet de l’avancement du niveau de l’opération sur lequel les informations d’avancement sont calculées.
   
@@ -84,5 +84,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
   
-[L’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
+[Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

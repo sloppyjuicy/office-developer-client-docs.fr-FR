@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a07a7737e9b9354514a2d5ac2ec37a393a3cd4e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 174da93e7682246565b12c4fc4ffa6d1a9de065c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575062"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction **pas** , qui est utilisée pour appliquer une opération **NOT** logique à une restriction. 
   
@@ -40,7 +40,7 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulReserved**
   

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bbdc5993a07209f381065ce1b60f860ba54c35d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fd642575a3136eef3193e0bdbe884cf8f54ba337
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571296"
 ---
 # <a name="message-envelope"></a>Enveloppe de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 En-têtes RFC 822 sont mappées sur des propriétés MAPI comme suit. PR_SENDER_\* est l’abréviation de 5 propriétés suivantes :
   

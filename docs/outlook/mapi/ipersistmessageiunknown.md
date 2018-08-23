@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 62fb2b069a50408713eea741cf837c421a749fcd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784387"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569189"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet les visionneuses de formulaire gérer le stockage d’un formulaire et à la transition entre les différents états possibles.
   

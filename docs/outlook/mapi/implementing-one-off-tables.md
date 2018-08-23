@@ -1,5 +1,5 @@
 ---
-title: Implémentation de Tables uniques
+title: Implémentation de tables ponctuelles
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b72b8658270a8e007123df3ead01168208b8d1b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b86ec02c0255d892c42a9be9610d31b76041822c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784184"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579108"
 ---
-# <a name="implementing-one-off-tables"></a>Implémentation de Tables uniques
+# <a name="implementing-one-off-tables"></a>Implémentation de tables ponctuelles
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Votre fournisseur peut implémenter une ou plusieurs tables unique. Une table unique est une liste récapitulative de modèles uniques utilisés pour créer des destinataires, soit directement dans un conteneur, ou dans la liste des destinataires d’un message sortant. Un modèle unique est un utilisent les utilisateurs de formulaire pour la saisie de données par rapport à un type particulier d’adresse. Lorsque l’utilisateur est terminé fonctionne avec le modèle, votre fournisseur crée le nouveau destinataire et l’ajoute au message. En règle générale, chaque modèle gère un type d’adresse unique. Toutefois, il est possible d’un modèle de gérer plusieurs types ou pour gérer le même type de plusieurs modèles. 
   

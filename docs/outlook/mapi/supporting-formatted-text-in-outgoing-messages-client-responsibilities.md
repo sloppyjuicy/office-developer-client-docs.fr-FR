@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d5ce2e6b0f10ff6c2f6fd91ca9f73953f3ee7cd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 975dd172b6ad342351f014d0966d62a150f713c6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787273"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571289"
 ---
-# <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Prise en charge au format texte dans les Messages sortants : responsabilités du Client
+# <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Prise en charge du texte mis en forme dans les messages sortants : responsabilités du client
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes définir la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou la propriété **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) pour un message sortant. Les clients qui prennent en charge que le texte brut définir uniquement la propriété **PR_BODY** . Rich Text Format (RTF)-connaissance clients peuvent définir à la fois **PR_BODY** et propriétés **PR_RTF_COMPRESSED** , ou uniquement **PR_RTF_COMPRESSED**, selon le message Enregistrer fournisseur utilisé. Clients prenant en charge HTML définir la propriété **PR_HTML** . 
   

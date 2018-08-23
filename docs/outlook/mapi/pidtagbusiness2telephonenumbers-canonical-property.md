@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3d8f1a5f3d244da50b2ebb92be339600d47e2ace
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 120c0619827e8cbbbc92f7665c014eefdd8504e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785773"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572626"
 ---
 # <a name="pidtagbusiness2telephonenumbers-canonical-property"></a>Propriété canonique PidTagBusiness2TelephoneNumbers
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste de numéros de téléphone pour une entreprise.
   
@@ -32,7 +32,7 @@ Contient une liste de numéros de téléphone pour une entreprise.
 |Propriétés associées :  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Identificateur :  <br/> |0x3A1B  <br/> |
 |Type de données :  <br/> |PT_MV_STRING8  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

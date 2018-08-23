@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b61012b2f0854808f0dbe002f6f2682f964b6b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7e8a624090181ae35e4bf2828f72b645e5011728
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570050"
 ---
 # <a name="pidlidlogtype-canonical-property"></a>Propriété canonique PidLidLogType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom complet de l’application de journalisation (par exemple, « MSWord ») et est généralement un attribut de forme libre d’un message de journal, généralement une chaîne.
   
@@ -33,7 +33,7 @@ Contient le nom complet de l’application de journalisation (par exemple, « M
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
 |ID de type long (capot) :  <br/> |0x00008700  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Journal  <br/> |
+|Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

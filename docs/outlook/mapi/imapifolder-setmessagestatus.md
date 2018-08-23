@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fcca6a7e8fa70a2df9042e8b3c2b28825cee9a7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d06523625a20760faec7a6c73a6beaef757818b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783747"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575076"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit l’état associé à un message (par exemple, si ce message est marqué pour suppression).
   

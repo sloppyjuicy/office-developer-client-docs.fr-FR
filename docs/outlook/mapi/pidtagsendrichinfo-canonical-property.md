@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a85851663c22b33ea94099ac0ab14f81c424259b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a1db4ba7a70695b17631ca13f1728043be8164bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575965"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>Propriété canonique PidTagSendRichInfo
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si le destinataire peut recevoir le contenu du message, y compris le Format RTF (RICH Text Format) et les objets Object Linking and Embedding (OLE). 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si le destinataire peut recevoir le contenu du message, 
 |Propriétés associées :  <br/> |PR_SEND_RICH_INFO  <br/> |
 |Identificateur :  <br/> |0x3A40  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -96,7 +96,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Utilisation des colonnes à valeurs multiples
+title: Utilisation de colonnes à valeurs multiples
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ee3307836e8b167efbc2cdc870e698257526ef97
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 78f6083cf17bb21152df1a7ea09825f3be7f0e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787489"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572941"
 ---
-# <a name="working-with-multivalued-columns"></a>Utilisation des colonnes à valeurs multiples
+# <a name="working-with-multivalued-columns"></a>Utilisation de colonnes à valeurs multiples
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une colonne à plusieurs valeurs contienne les données d’une propriété à valeurs multiples, qui est une propriété qui a un tableau de valeurs du type de base au lieu d’une valeur unique. Car aucune table inclure des propriétés à valeurs multiples dans leurs jeux de colonnes par défaut, les propriétés à valeurs multiples sont incluses dans une table uniquement si la demande de l’utilisateur de la table. 
   

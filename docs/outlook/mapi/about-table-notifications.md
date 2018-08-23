@@ -1,5 +1,5 @@
 ---
-title: À propos des Notifications de Table
+title: À propos des notifications de table
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 00c9c6c2-fc21-4b9c-91fa-629450a22d37
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3dfc67c8bcd899396da5371c614fd221cd9b2251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d6fd49e1a004202e0de02e262f6977ca8a07019d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571940"
 ---
-# <a name="about-table-notifications"></a>À propos des Notifications de Table
+# <a name="about-table-notifications"></a>À propos des notifications de table
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Clients dépendent souvent des notifications de table pour découvrir des modifications apportées aux objets au lieu d’inscription pour recevoir des notifications directement à partir des objets. Les modifications classiques qui provoquent des notifications soient envoyées incluent l’ajout, la suppression ou la modification d’une ligne et toute erreur critique. Lors de l’arrivent de notifications, clients peuvent déterminer s’il faut effectuer un autre appel recharger le tableau. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e9ad675e6df88265238a28f18e5cfcdacfdfbb5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a8f4e62a8eb1b5e61cb0223c66b921e15ab9423b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787231"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577680"
 ---
 # <a name="spropattrarray"></a>SPropAttrArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste d’attributs pour les propriétés d’un objet. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

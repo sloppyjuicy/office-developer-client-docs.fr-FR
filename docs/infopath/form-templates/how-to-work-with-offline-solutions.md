@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: Le modèle objet InfoPath fournit la propriété MachineOnlineState de la classe Application qui active votre code de formulaire pour déterminer si l'ordinateur de l'utilisateur est connecté au réseau. En vérifiant la valeur de la propriété MachineOnlineState, votre code de formulaire peut effectuer différentes actions, selon l'état de la connexion.
-ms.openlocfilehash: fcdaae31dd6a0c76cf1c453f267be430a2b34bba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab149b488d2b2df1e91ba2cb435960c6749ecefb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782370"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574558"
 ---
 # <a name="work-with-offline-solutions"></a>Travailler avec des solutions en mode hors connexion
 
@@ -160,5 +160,5 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Concevoir un modèle de formulaire pour une utilisation hors connexion](http://office.microsoft.com/en-us/infopath/HA102117391033.aspx?pid=CH100341121033)
+- [Concevoir un modèle de formulaire pour une utilisation hors connexion](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

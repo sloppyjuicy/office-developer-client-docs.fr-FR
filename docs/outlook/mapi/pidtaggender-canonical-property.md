@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b2ac7aa4fca8583fc59d727c55433108bee62dee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1c2089eee731fea8c80d8811f6b2e9f3c75ad1cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786054"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570526"
 ---
 # <a name="pidtaggender-canonical-property"></a>Propriété canonique PidTagGender
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le sexe de l’utilisateur de messagerie.
   
@@ -32,7 +32,7 @@ Indique le sexe de l’utilisateur de messagerie.
 |Propriétés associées :  <br/> |PR_GENDER  <br/> |
 |Identificateur :  <br/> |0x3A4D  <br/> |
 |Type de données :  <br/> |PT_I2  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -80,7 +80,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

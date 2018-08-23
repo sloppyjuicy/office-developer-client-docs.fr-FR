@@ -1,5 +1,5 @@
 ---
-title: L’implémentation de la résolution de noms
+title: Implémentation de résolution de noms
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a4c71b08-c47a-4421-8603-d5356d32dca9
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4d55404149baca07a64b75d460bdfb2a8c541725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 489a5888014fa9299b407ebf91759627427b69bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784182"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571387"
 ---
-# <a name="implementing-name-resolution"></a>L’implémentation de la résolution de noms
+# <a name="implementing-name-resolution"></a>Implémentation de résolution de noms
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de carnet d’adresses sont responsables de la prise en charge de la résolution de noms, le processus d’association d’un identificateur d’entrée à un nom d’affichage. Clients initialisent la résolution de noms quand ils appellent [IAddrBook::ResolveName](iaddrbook-resolvename.md) pour s’assurer que chaque membre de la liste des destinataires d’un message sortant correspond à une adresse valide. 
   

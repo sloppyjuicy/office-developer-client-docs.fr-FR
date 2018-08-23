@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 66e318c3b7b772f2713b5c730590ce4a8ad5965b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783633"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570911"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Gère et donne accès aux propriétés des pièces jointes des messages. L’interface **IAttach** a aucune méthode unique qui lui est propre. Pour plus d’informations sur l’utilisation des pièces jointes, voir [Les pièces jointes MAPI](mapi-attachments.md) et les [Tables des pièces jointes](attachment-tables.md). 
   

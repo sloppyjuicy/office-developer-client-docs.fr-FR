@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c2e135fc031dd3faf5a4e08c50147dfcf7787b5e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: adb4d09ccce95683ac46e7b271fafa328b1a9f97
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575349"
 ---
 # <a name="installing-the-mapi-subsystem"></a>Installation du sous-système MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Versions prises en charge de Windows installent la bibliothèque stub MAPI, Mapi32.dll, dans le _ \<lecteur\>_ dossier \Windows\System32. 
   

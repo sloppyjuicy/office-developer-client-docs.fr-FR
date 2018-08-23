@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ad26cb9b77404d6470f7a8d787eb85edc5cce402
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 560cae5e8a3d73d80a4907fd0fec43b389ef9fc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19782913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572024"
 ---
 # <a name="adrparm"></a>ADRPARM
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit l’affichage et le comportement de la boîte de dialogue adresses. 
   
@@ -54,7 +54,7 @@ typedef struct _ADRPARM
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **cbABContEntryID**
   
@@ -173,8 +173,8 @@ Structures **ADRPARM** sont utilisés par les clients et les fournisseurs de ser
 |**lpfnABSDI** <br/> |Non modal  <br/> |
 |**lpfnDismiss** et **lpvDismissContext** <br/> |Non modal  <br/> |
 |**lpszCaption** <br/> |Modales et non modales  <br/> |
-|**lpszNewEntryTitle** <br/> |Modale  <br/> |
-|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**et **lpulDestComps** <br/> |Modale  <br/> |
+|**lpszNewEntryTitle** <br/> |Modal  <br/> |
+|**lpszDestWellsTitle**, **cDestFields**, **nDestFieldFocus**, **lppszDestTitles**et **lpulDestComps** <br/> |Modal  <br/> |
 |**lpContRestriction** <br/> |Modales et non modales  <br/> |
 |**lpHierRestriction** <br/> |Modales et non modales  <br/> |
    

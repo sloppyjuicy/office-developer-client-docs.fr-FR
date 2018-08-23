@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 51cd838164e3de28ab33d6ab8a08a021360f3183
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d54487928abcc889441ec9bf89ab6a10e5290062
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783983"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570834"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers le tableau unique de MAPI (une liste des modèles que tous les du carnet d’adresses fournisseurs de prise en charge pour la création de nouveaux destinataires).
   
@@ -89,5 +89,5 @@ Si vous êtes inscrit pour recevoir les notifications des modifications apporté
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[Tables uniques](one-off-tables.md)
+[Tables ponctuelles](one-off-tables.md)
 

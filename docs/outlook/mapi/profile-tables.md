@@ -1,5 +1,5 @@
 ---
-title: Tables de profil
+title: Tables de profils
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 84c2d02da840dfcad077462954cb10894ba153d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786932"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571478"
 ---
-# <a name="profile-tables"></a>Tables de profil
+# <a name="profile-tables"></a>Tables de profils
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La table des profils répertorie les informations sur tous les profils associé à une application cliente spécifique. Il existe une table de profil pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
   

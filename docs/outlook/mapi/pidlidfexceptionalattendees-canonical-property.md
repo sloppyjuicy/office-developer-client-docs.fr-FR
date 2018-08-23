@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7c7f654d42df7856b0e69bf276a763ccd29d1d87
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 68ad6bd888594d09ab8e1dac050f8181341f7ee4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785207"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570780"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propriété canonique PidLidFExceptionalAttendees
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si cette propriété est un objet calendar périodique avec une ou plusieurs exceptions et au moins un des messages d’exception incorporé a au moins un RecipientRow.
   
@@ -33,7 +33,7 @@ Indique si cette propriété est un objet calendar périodique avec une ou plusi
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x0000822B  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

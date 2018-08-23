@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 71f802014200d4b767c346c14df53f1193d44b0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0deb1b34a437d47ab53cdb2e13cda006d9116f65
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786783"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570120"
 ---
 # <a name="pidtagserviceextrauids-canonical-property"></a>Propriété canonique PidTagServiceExtraUids
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste des structures [MAPIUID](mapiuid.md) qui identifient les sections de profil supplémentaires pour le service de message. 
   
@@ -32,7 +32,7 @@ Contient une liste des structures [MAPIUID](mapiuid.md) qui identifient les sect
 |Propriétés associées :  <br/> |PR_SERVICE_EXTRA_UIDS  <br/> |
 |Identificateur :  <br/> |0x3D0D  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Profil MAPI  <br/> |
+|Domaine :  <br/> |Profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1eb4e150be68ea01060c7afaed489c8759b576db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0366e889f1c63e5fe40760ca80cec701cd6b3713
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784917"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573536"
 ---
 # <a name="opening-the-default-message-store"></a>Ouverture de la banque de messages par défaut
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Dans une session particulière, une banque de messages joue de la banque de messages par défaut. Une banque de messages par défaut présente les caractéristiques suivantes :
   

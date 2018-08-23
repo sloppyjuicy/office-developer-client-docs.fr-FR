@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ede0a448a32565446e614fc2d14f2a72a9549dad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 910f779f3463ee5dccd052655a442ef24c2cce58
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783236"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570680"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une liste déroulante qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage.
   
@@ -40,7 +40,7 @@ typedef struct _DTBLMVDDLBX
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulFlags**
   

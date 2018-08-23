@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 144c7179-b390-479f-a2aa-324974f04eba
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 87f8b4f4011e405d9848f12b5cae56f27fff1ab8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a4245b5dd1b70d4cf695190c65b447cf92566ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787091"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574481"
 ---
 # <a name="selecting-a-receive-folder"></a>Sélection d’un dossier de réception
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un dossier de réception est l’emplacement des messages entrants d’une classe particulière. Pour IPM et les messages d’état connexes, MAPI affecte la boîte de réception comme le dossier de réception par défaut. Pour IPC et les messages d’état connexes, MAPI attribue le dossier racine de la banque de messages comme dossier de réception par défaut. Vous pouvez modifier ces affectations ou effectuer des affectations supplémentaires pour d’autres classes de message. Émission explicites recevoir des affectations de dossiers pour votre client pris en charge par message classes est facultative.
   

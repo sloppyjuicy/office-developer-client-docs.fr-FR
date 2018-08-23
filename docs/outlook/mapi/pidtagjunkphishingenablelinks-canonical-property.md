@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e8b2f23c10a0557744f483c894b7b2d00a7947df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ee97f1a88213c05b41af07d682d2891baa0015a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786171"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572178"
 ---
 # <a name="pidtagjunkphishingenablelinks-canonical-property"></a>Propriété canonique PidTagJunkPhishingEnableLinks
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique, si la valeur TRUE, que l’horodatage hameçonnage dans le message doit être ignorée.
   
@@ -32,7 +32,7 @@ Indique, si la valeur TRUE, que l’horodatage hameçonnage dans le message doit
 |Propriétés associées :  <br/> |PR_JUNK_PHISHING_ENABLE_LINKS  <br/> |
 |Identificateur :  <br/> |0x6107  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Courrier indésirable  <br/> |
+|Domaine :  <br/> |Courrier indésirable  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b21a3aa4-7536-4728-b4a4-273cfb25c57e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 127627b79782a2a785b00b79b9940b66256a08eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a73f5522e7201f73720318374745776b0ff08353
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785540"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570596"
 ---
 # <a name="pidlidwhere-canonical-property"></a>Propriété canonique PidLidWhere
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’emplacement d’un événement.
   
@@ -33,7 +33,7 @@ Spécifie l’emplacement d’un événement.
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
 |ID de type long (capot) :  <br/> |0x00000002  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

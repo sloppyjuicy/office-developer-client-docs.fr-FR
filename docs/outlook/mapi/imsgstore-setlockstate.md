@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1176ec-4126-43f5-856d-cbab8d622825
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a4e924489f2ec656f473f28407d528e9c2ddda5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2efee531e277b6295b7d4bc299eefc789a805d34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571086"
 ---
 # <a name="imsgstoresetlockstate"></a>IMsgStore::SetLockState
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Verrouiller ou déverrouiller un message. Cette m�thode est appel�e uniquement par le spouleur MAPI.
   

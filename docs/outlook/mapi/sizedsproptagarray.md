@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7505c5dbcfc98a8b868424ae51cbe9c47b1d4338
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 363a85e1c6f111936b16e471eda6b9f962f8b65d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787176"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573620"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure [SPropTagArray](sproptagarray.md) nommée qui inclut un nombre spécifié de balises de propriété. 
   
@@ -58,5 +58,5 @@ lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;
 ## <a name="see-also"></a>Voir aussi
 
 - [SPropTagArray](sproptagarray.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

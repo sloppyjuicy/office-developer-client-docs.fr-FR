@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 15d98183548d4b73c35368d690ef63d5c3dfd9af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784479"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571107"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Insère plusieurs lignes de tableau, remplaçant éventuellement les lignes existantes.
   

@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5e2f158607496a8cee9f9c731f2d7d6e185a2851
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7d5f63a7a57a01096151b3b6992796381ebddbdc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786732"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574516"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Propriété canonique PidTagSearchFolderTag
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur utilisée pour synchroniser ce message définition avec le conteneur de dossiers de recherche correspondant.
   
@@ -30,7 +30,7 @@ Contient la valeur utilisée pour synchroniser ce message définition avec le co
 |Propriétés associées :  <br/> |PR_WB_SF_TAG  <br/> |
 |Identificateur :  <br/> |0x6847  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Search  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

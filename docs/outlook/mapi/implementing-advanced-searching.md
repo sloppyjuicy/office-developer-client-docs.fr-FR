@@ -1,5 +1,5 @@
 ---
-title: L’implémentation de recherche avancée
+title: Implémentation de la recherche avancée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 08cc60d4-cac8-4ba5-bd7f-a56e63697be3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4430b52b470b89bd7d81922b98b121b3a455768f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0ba9958588c476ae330b0f4a413361e80d54667a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784173"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571968"
 ---
-# <a name="implementing-advanced-searching"></a>L’implémentation de recherche avancée
+# <a name="implementing-advanced-searching"></a>Implémentation de la recherche avancée
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Certains conteneurs de carnet d’adresses prend en charge une fonction de recherche avancée qui permet aux clients d’effectuer une recherche sur les propriétés de **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Pour prendre en charge les recherches avancées, votre fournisseur doit implémenter un conteneur spécial qui est accessible via la propriété **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)) de vos autres conteneurs. **PR_SEARCH** contient un objet conteneur qui fournit l’accès à un tableau d’affichage qui décrit la boîte de dialogue permet d’entrer et de modifier les critères de recherche avancée. 
   

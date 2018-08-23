@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 506c4e89bda617ef307a64c266416c0538090ab0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 20893f7c3d64698f70ae26c09c2d7ddc64ce3f9d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569931"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>Propriété canonique PidTagExceptionReplaceTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la date et l’heure de l’instance dans la périodicité serait ont s’il n’était pas une exception d’origine.
   
@@ -32,7 +32,7 @@ Indique la date et l’heure de l’instance dans la périodicité serait ont s�
 |Propriétés associées :  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |Identificateur :  <br/> |0x7FF9  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Défini par la classe de message non transmissible  <br/> |
+|Domaine :  <br/> |Défini par la classe de message non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

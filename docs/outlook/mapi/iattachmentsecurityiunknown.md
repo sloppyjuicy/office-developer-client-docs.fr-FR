@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69609f73-5884-9e2b-ab78-a2e0ece3a1d1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 040be6cea64dd58e23d79c20a9ae9dddf02fa87d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f182610f9cf4874cc18c409960e1f8b23f853d4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783637"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574825"
 ---
 # <a name="iattachmentsecurity--iunknown"></a>IAttachmentSecurity : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Autorise les solutions Microsoft Outlook 2010 et Microsoft Outlook 2013 permettant de savoir si une pièce jointe est considéré comme non sécurisés et bloqués pour l’affichage et l’indexation.
   
@@ -47,5 +47,5 @@ Solutions Outlook 2010 et Outlook 2013 peuvent interroger cette interface pour v
 
 [Constantes MAPI](mapi-constants.md)
   
-[Vérifiez la que pièce jointe est bloquée](how-to-verify-an-attachment-is-blocked.md)
+[Vérifier qu’une pièce jointe est bloquée](how-to-verify-an-attachment-is-blocked.md)
 

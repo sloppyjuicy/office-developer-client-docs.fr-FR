@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: be2d30f511540b2eb7aa6e55531753811aaa580d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ffc47eca3457eef876d88a4be43888f24c403b10
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786862"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575342"
 ---
 # <a name="pidtagsubjectprefix-canonical-property"></a>Propriété canonique PidTagSubjectPrefix
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un préfixe d’objet qui indique généralement une action sur un message, tel que « TR : » pour le transfert. 
   
@@ -32,7 +32,7 @@ Contient un préfixe d’objet qui indique généralement une action sur un mess
 |Propriétés associées :  <br/> |PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, PR_SUBJECT_PREFIX_W  <br/> |
 |Identificateur :  <br/> |0x003D  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -80,7 +80,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

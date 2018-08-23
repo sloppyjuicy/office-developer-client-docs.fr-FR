@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 694ee8b12b9918502e60c0c6ea92992cc1062945
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 587b8bbb7ac25a7977d8962535f1909464ffc248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571100"
 ---
 # <a name="imapimessagesitesubmitmessage"></a>IMAPIMessageSite::SubmitMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Demande que le message en cours est en attente de remise.
   
@@ -74,5 +74,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
 

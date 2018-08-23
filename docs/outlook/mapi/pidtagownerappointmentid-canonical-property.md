@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eea554-6bca-42d1-b943-1327f0d70584
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a6fc194a3ef7d82be656a8d6c3f5fb9ad8326ceb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 954e6fdf2f306f5a49e2d32e191c41f146ef5997
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786383"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573018"
 ---
 # <a name="pidtagownerappointmentid-canonical-property"></a>Propriété canonique PidTagOwnerAppointmentId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur pour un rendez-vous du calendrier du propriétaire.
   
@@ -32,7 +32,7 @@ Contient un identificateur pour un rendez-vous du calendrier du propriétaire.
 |Propriétés associées :  <br/> |PROPRIÉTÉ PR_OWNER_APPT_ID  <br/> |
 |Identificateur :  <br/> |0x0062  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Rendez-vous  <br/> |
+|Domaine :  <br/> |Rendez-vous  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

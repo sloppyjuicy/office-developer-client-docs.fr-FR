@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e1f12760607c86a9e076df7565696a58fdead32c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 41e957df1c7e304765d8a6ca03ea1946ac1df2f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570519"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette interface fournit des fonctionnalités d’assistance lors de l’exécution de la réplication via l’interface IOSTX.
   

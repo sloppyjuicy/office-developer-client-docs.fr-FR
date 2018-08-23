@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cecdb2c30d6c9df2aafbeed43714269b863ebc48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8fbc09d9d79f88ef783b8effe7a24e4b35564cee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19784880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570372"
 ---
 # <a name="message-reception-model"></a>Modèle de réception de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le fournisseur de transport détermine si le spouleur MAPI doit interrogent pour le courrier entrant ou s’il effectue un appel sur le spouleur MAPI lors de l’arrivée de nouveau courrier. Le fournisseur de transport définit l’indicateur SP_LOGON_POLL lorsqu’il retourne [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) pour demander d’interrogation. Sinon, le fournisseur de transport utilise [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) lorsque le courrier entrant n’est disponible. Après la formation que le courrier entrant est disponible, le spouleur MAPI ouvre un nouveau message et demande le fournisseur de transport pour stocker les propriétés de message reçu dans le message. 
   

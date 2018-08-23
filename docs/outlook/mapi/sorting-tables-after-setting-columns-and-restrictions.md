@@ -1,5 +1,5 @@
 ---
-title: Tri des tableaux après avoir défini les Restrictions et les colonnes
+title: Tri des tables après la définition des colonnes et des restrictions
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 57db0314-1df0-4fd2-b443-223b0512f1ad
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9e75143cb59e782993b9a7f9937432f0b4894d5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9f975ed1b9036bce5ed225b2a9020262260f4f57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787234"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572143"
 ---
-# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Tri des tableaux après avoir défini les Restrictions et les colonnes
+# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Tri des tables après la définition des colonnes et des restrictions
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous avez besoin limiter l’affichage d’une table triée, constituent les appels **IMAPITable** suivants dans l’ordre suivant : 
   

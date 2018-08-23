@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e2ccddd7-65e8-41f6-8e21-a4ae98190a96
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ac76d1caf5db0b041a17d40d08671665b5427051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 919b21490bb3b4418ba291e8e06198028c995b00
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786996"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570869"
 ---
 # <a name="required-features-for-address-book-providers"></a>Fonctionnalités requises pour les fournisseurs de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de carnet d’adresses peuvent fonctionner avec les informations de destinataire qui sont temporaire ou permanent, local ou distant, compréhensibles par un ou plusieurs systèmes de messagerie et mise en forme d’une table de base de données ou le fichier disque. Il existe une variété de fonctionnalités qu’un fournisseur de carnet d’adresses peut implémenter ainsi valeur et améliore l’interopérabilité avec les clients et d’autres fournisseurs. Toutefois, certaines fonctionnalités sont requises.
   

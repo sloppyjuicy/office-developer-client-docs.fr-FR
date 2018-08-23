@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 32aa91d43e4674c0de20a0dbb670dcb9e2c782cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787226"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573284"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une erreur qui sont associées à une opération impliquant une propriété.
   
@@ -41,7 +41,7 @@ typedef struct _SPropProblem
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulIndex**
   

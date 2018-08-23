@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07500bd0-bcff-4b03-8ed3-80508875e253
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 89e0b6eae35de9e40dba411afb82e19aa81fb635
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 20a4cf4fc847bdb361fb73161adeb96afb49e57e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570750"
 ---
 # <a name="pidlidtaskassigners-canonical-property"></a>Propriété canonique PidLidTaskAssigners
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une pile d’entrées qui représentent des assigners de tâche. La plus récente assigne tâche s’affiche en haut de la pile.
   
@@ -33,7 +33,7 @@ Contient une pile d’entrées qui représentent des assigners de tâche. La plu
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x00008117  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 86fe4b0a1a7521c310788505b99f53bc8657de75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2405799fa59abf58583553f8e2d3718d68411a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574971"
 ---
 # <a name="errornotification"></a>ERROR_NOTIFICATION
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit les informations qui sont associées à une erreur critique. Cela entraîne une notification d’erreur à générer. 
   
@@ -42,7 +42,7 @@ typedef struct _ERROR_NOTIFICATION
 } ERROR_NOTIFICATION;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cbEntryID**
   
@@ -78,9 +78,9 @@ Pour plus d’informations sur la notification, consultez les rubriques décrite
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
-|[Gérer les Notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge de la Notification d’événement](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Prise en charge des notifications d’événements](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

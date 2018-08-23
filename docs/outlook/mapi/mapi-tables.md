@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7c3c4479cd401a163e34c819ecd44e86d1d01965
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6393de45dbfd130e15a0678f2b6a7f18968dfa03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784723"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573214"
 ---
 # <a name="mapi-tables"></a>Tables MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une table MAPI est un objet MAPI qui est utilisé pour afficher une collection de propriétés appartenant à d’autres objets MAPI d’un type particulier. Tables MAPI sont organisées dans un format de ligne et de colonne et chaque ligne représente un objet et chaque colonne représentant une propriété de l’objet. Une des propriétés généralement incluses dans chaque ligne est la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), un identificateur qui peut être utilisé pour ouvrir et modifier l’objet. 
   
@@ -51,5 +51,5 @@ Il existe deux interfaces pour l’utilisation des tableaux :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Concepts MAPI (en anglais)](mapi-concepts.md)
+- [Concepts MAPI](mapi-concepts.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47f745a4-5a9c-42af-b076-a72548ef4d31
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6cd255c60987ec7a279e509aa2925a8029cce62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a315f1564f2980ad16ce2ba3da2308960f7d4b88
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785895"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578891"
 ---
 # <a name="pidtagdefaultprofile-canonical-property"></a>Propriété canonique PidTagDefaultProfile
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un profil utilisateur de messagerie est le profil par défaut MAPI.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un profil utilisateur de messagerie est le profil par
 |Propriétés associées :  <br/> |PR_DEFAULT_PROFILE  <br/> |
 |Identificateur :  <br/> |0x3D04  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Profil MAPI  <br/> |
+|Domaine :  <br/> |Profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

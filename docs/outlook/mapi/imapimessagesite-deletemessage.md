@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: da6de94342c8d8bbd378a3cde2fb065c97632291
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6ed73cd683f1668900a76f7b8c48494952e9fc14
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783828"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573347"
 ---
 # <a name="imapimessagesitedeletemessage"></a>IMAPIMessageSite::DeleteMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime le message en cours.
   
@@ -105,5 +105,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
 

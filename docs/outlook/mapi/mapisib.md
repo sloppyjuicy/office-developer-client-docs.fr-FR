@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a8044eb6647e6f437c87bb4d8b021c62ea15f606
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f696d9739014659812de3309ec885f37a6f85cc5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784770"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572136"
 ---
 # <a name="mapisib"></a>MAPISIB
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette structure est utilisée avec [IMAPISync::SynchronizeInBackground](imapisyncsynchronizeinbackground.md).
   
@@ -34,7 +34,7 @@ HANDLE          *phSyncDoneEvent;
 } MAPISIB, *PMAPISIB
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulSize**
   

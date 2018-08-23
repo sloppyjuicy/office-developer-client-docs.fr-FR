@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 010b17de08ee5836a26c56f300b36822df2e981e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4bfbaada3ced58a689ca4d4745e6e4c798755d4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786846"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574306"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriété canonique PidTagStoreUnicodeMask
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un masque de bits d’indicateurs applications clientes doivent interroger pour déterminer les caractéristiques d’une banque de messages.
   
@@ -32,7 +32,7 @@ Contient un masque de bits d’indicateurs applications clientes doivent interro
 |Propriétés associées :  <br/> |PR_STORE_UNICODE_MASK  <br/> |
 |Identificateur :  <br/> |0x340F  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Banque de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -150,7 +150,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

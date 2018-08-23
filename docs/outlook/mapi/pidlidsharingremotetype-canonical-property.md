@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9bc7c7c-86df-45d8-922b-76e3b076144a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8a9975090a8b90946482fa77fd2dafdb503c1f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 87f3a1902c70cc9f875d472da406104ae1b45fda
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573942"
 ---
 # <a name="pidlidsharingremotetype-canonical-property"></a>Propriété canonique PidLidSharingRemoteType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le type du dossier partagé à distance. Il s’agit d’une propriété d’un message de partage.
   
@@ -33,7 +33,7 @@ Spécifie le type du dossier partagé à distance. Il s’agit d’une propriét
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
 |ID de type long (capot) :  <br/> |0x00008A1D  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Partage  <br/> |
+|Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

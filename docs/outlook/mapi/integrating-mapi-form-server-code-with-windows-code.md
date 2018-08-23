@@ -1,5 +1,5 @@
 ---
-title: Intégration de Code serveur du formulaire MAPI avec Code Windows
+title: Intégration de code du serveur de formulaire MAPI avec du code Windows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 31f09b1c2f7b23d63e17f59c28b7bcf377b769d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b37ae47e40906342aeecf179848311556a7d4ba4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784314"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573991"
 ---
-# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Intégration de Code serveur du formulaire MAPI avec Code Windows
+# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Intégration de code du serveur de formulaire MAPI avec du code Windows
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Rappelez-vous que votre serveur de formulaire est une application Win32. Par conséquent, il existe certaines tâches liées à charger votre serveur de formulaire en mémoire et en quittant l’application proprement. Comme toutes les applications Windows, le point d’entrée pour le serveur de votre formulaire est la fonction **WinMain** . Cette fonction est l’emplacement approprié pour effectuer les tâches suivantes : 
   
@@ -49,5 +49,5 @@ La fermeture de votre serveur de formulaire, il doit effectuer les tâches suiva
 
 
 
-[Écriture de Code de formulaire Server](writing-form-server-code.md)
+[Écriture de code du serveur de formulaire](writing-form-server-code.md)
 

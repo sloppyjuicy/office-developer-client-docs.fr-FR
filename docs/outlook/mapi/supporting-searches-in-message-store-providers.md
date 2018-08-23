@@ -1,5 +1,5 @@
 ---
-title: Prise en charge des recherches dans les fournisseurs de banque de messages
+title: Prise en charge des recherches dans les fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30a3fe28-31ca-4eb8-9353-f75f6d339dc7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0cd8bbe14e6af020ec5c93cd46a24853d1c8401c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f206623103f810b2868502aea7c6804cd306f022
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573193"
 ---
-# <a name="supporting-searches-in-message-store-providers"></a>Prise en charge des recherches dans les fournisseurs de banque de messages
+# <a name="supporting-searches-in-message-store-providers"></a>Prise en charge des recherches dans les fournisseurs de banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les applications clientes ont fréquemment certains composants d’interface utilisateur consacrées à la recherche de messages dans une banque de messages. Critères de recherche sont spécifiés dans le [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) interface via les méthodes [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) et [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md) . 
   

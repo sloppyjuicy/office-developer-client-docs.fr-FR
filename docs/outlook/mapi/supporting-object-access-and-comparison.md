@@ -1,5 +1,5 @@
 ---
-title: Prise en charge l’accès aux objets et comparaison
+title: Prise en charge de la comparaison et de l’accès aux objets
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2152cfbb91f2e343ebcee3f5b717a29805df1d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f33dcedae5ffe30b85a58d5248d239be81c8efc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787315"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575280"
 ---
-# <a name="supporting-object-access-and-comparison"></a>Prise en charge l’accès aux objets et comparaison
+# <a name="supporting-object-access-and-comparison"></a>Prise en charge de la comparaison et de l’accès aux objets
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de services peuvent utiliser les méthodes [IMAPISupport::OpenEntry](imapisupport-openentry.md) et [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) pour ouvrir et comparer les objets qui appartiennent à leur fournisseur ou à d’autres fournisseurs : 
   

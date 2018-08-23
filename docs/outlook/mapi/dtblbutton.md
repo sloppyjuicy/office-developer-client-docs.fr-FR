@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2505f555fd8867fdc24a14f523a74b6f478a3e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e0797364eb4ec24793f64bad2f4d838507c236e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783221"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571065"
 ---
 # <a name="dtblbutton"></a>DTBLBUTTON
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des informations sur un contrôle bouton pour une boîte de dialogue établi à partir d’un tableau d’affichage.
   
@@ -42,7 +42,7 @@ typedef struct _DTBLBUTTON
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   

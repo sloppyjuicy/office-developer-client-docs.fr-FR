@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bdb879a2412c817b7b314cd7bf6de1fa4c9f40d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787474"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572717"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décompresse la le corps d’un message électronique qui est dans compressé texte enrichi (RTF), indique le format de l’objet stream décompressé, si vous le souhaitez convertit le flux décompressé dans son format natif et retourne le flux de données décompressé ou conversion en flux natif.
   
@@ -78,5 +78,5 @@ Le modèle objet Microsoft Office Outlook fournit une propriété **Body** pour 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Récupérer le corps d’un Message au format RTF compressé et le convertir dans son Format natif](how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md)
+- [Récupérer le corps d’un message dans un fichier RTF compressé et le convertir dans son format natif](how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 823e10a1f496f5f5e8bab00f94d700d06e753b48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: cb5cb5a0169e716f7fcc7f596660bc0222c51c84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572157"
 ---
 # <a name="imapiformfactorycreateclassfactory"></a>IMAPIFormFactory::CreateClassFactory
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie un objet de fabrique de classe pour le formulaire.
   

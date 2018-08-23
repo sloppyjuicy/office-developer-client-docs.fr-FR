@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: dd828f599d87e3912bf36c46aaee2703a4e2673a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783025"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571632"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets à allouer pour une nouvelle structure [SRowSet](srowset.md) qui contient un nombre spécifié de lignes représentées par des structures [SRow](srow.md) . 
   
@@ -51,5 +51,5 @@ CbNewSRowSet (_crow)
 [SRow](srow.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

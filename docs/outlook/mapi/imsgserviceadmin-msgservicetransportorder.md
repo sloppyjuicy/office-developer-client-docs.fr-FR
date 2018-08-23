@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5b96a45bab4cd00d23604d0b0b25f3e772277395
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784241"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570792"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit l’ordre dans les transports fournisseurs sont appelées pour remettre un message.
   

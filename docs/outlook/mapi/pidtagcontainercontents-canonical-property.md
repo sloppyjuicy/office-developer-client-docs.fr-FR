@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 66dbe65a-b9fd-41d5-946f-ec8888363043
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c2979a0825ad6c62dbbb7931255501e90d8450a5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0d6a2f7b8b4f5345faa54e24c359f15ee181a7f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575482"
 ---
 # <a name="pidtagcontainercontents-canonical-property"></a>Propriété canonique PidTagContainerContents
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un objet incorporé contenu tableau qui fournit des informations relatives à un conteneur.
   
@@ -32,7 +32,7 @@ Contient un objet incorporé contenu tableau qui fournit des informations relati
 |Propriétés associées :  <br/> |PR_CONTAINER_CONTENTS  <br/> |
 |Identificateur :  <br/> |0x360F  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Container  <br/> |
+|Domaine :  <br/> |Container  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -80,7 +80,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

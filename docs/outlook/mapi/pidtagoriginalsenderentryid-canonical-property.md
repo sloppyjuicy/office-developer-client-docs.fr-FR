@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd182589-afea-4967-92f5-ba1914e4db3f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f18587e28c6a3954b86dd58f0167e826d3086c51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0b30a61d3bce6d1e6295edb1e93e27b9f7fc8363
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574442"
 ---
 # <a name="pidtagoriginalsenderentryid-canonical-property"></a>Propriété canonique PidTagOriginalSenderEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée de l’expéditeur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée de l’expéditeur de la première versi
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x005B  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

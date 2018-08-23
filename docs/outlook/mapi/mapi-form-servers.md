@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: dad36bfc5fed296cff3baa4cc11bb1fdf359c45a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0b73e246ad5e396ef67e89bff5f1e04a47f6ebcb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569924"
 ---
 # <a name="mapi-form-servers"></a>Serveurs de formulaire MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Point de vue de l’utilisateur, d’un formulaire est généralement une feuille de propriétés pour un message ou un formulaire de saisie de données qui permet aux utilisateurs d’entrer des informations structurées. Toutefois, il peut être une interface utilisateur qui est associée à une classe de message. À partir du point de vue du programmeur, un formulaire se compose de :
   

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ed11677d09ae5acacced77373b2bca783d1ec0b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 40a71592e658110dab81c9bcb4aec97f9930d014
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784678"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576476"
 ---
 # <a name="mapi-property-overview"></a>Vue d'ensemble de la propriété MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une propriété est un attribut d’un objet MAPI. Propriétés décrivent un élément sur l’objet, telles que la ligne objet du message ou le type d’adresse d’un utilisateur de messagerie. MAPI définit de nombreuses propriétés, certaines pour décrire le nombre d’objets et certains qui conviennent uniquement pour un objet d’un type particulier. Clients et fournisseurs de services peuvent étendre ensemble de MAPI de propriétés prédéfinies en créant de nouvelles propriétés personnalisées. Les clients peuvent définir des propriétés décrivant les nouvelles classes de message et fournisseurs de services peuvent définir des propriétés pour exposer les fonctionnalités uniques de leur système de messagerie.
   
@@ -45,5 +45,5 @@ La structure **SPropTagArray** est un tableau compté de balises de propriété.
 
 
 
-[Concepts MAPI (en anglais)](mapi-concepts.md)
+[Concepts MAPI](mapi-concepts.md)
 

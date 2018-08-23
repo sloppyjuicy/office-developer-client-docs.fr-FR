@@ -1,5 +1,5 @@
 ---
-title: Types d’Applications clientes
+title: Types d’applications clientes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 17b55de84c38deb515dfb528e0ed01306934739d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 783b8972c29b80e1005f0d55e00487dd0e2757b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787386"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572059"
 ---
-# <a name="types-of-client-applications"></a>Types d’Applications clientes
+# <a name="types-of-client-applications"></a>Types d’applications clientes
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe principalement deux types de clients de messagerie : celles qui gèrent les messages interpersonnels (IPM) et celles qui gèrent les messages de communication interprocessus (IPC). Au sein de ces types, les applications de client de messagerie peuvent être classées comme suit :
   

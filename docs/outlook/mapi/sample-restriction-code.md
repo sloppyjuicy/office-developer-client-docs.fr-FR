@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4f41abe2ee41946f68e1d79c75b36791364ea970
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570260"
 ---
 # <a name="sample-restriction-code"></a>Exemple de code de restriction
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot « volleyball » dans la ligne d’objet et n’ont pas été envoyés à Sue SAM. Une arborescence des structures [SRestriction](srestriction.md) est requise, avec le nœud supérieur en cours d’une restriction **et** implémentée avec une structure [SAndRestriction](sandrestriction.md) . Les trois restrictions qui sont joints à **l’opération** sont une restriction sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre restriction **et** recherche des messages qui disposent d’un objet contient « volleyball. » Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n’est pas une propriété obligatoire, une restriction **existent** doit être incluse. 
   

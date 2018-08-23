@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8595cdb411e68f2aed3ac063b2b81965e9b4d975
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 90829f8fff530d22a7dee68dc227655064147cee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575328"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des informations sur un problème de traitement de l’attribut ou propriété qui s’est produite pendant le codage ou de décodage d’un flux de Transport Neutral Encapsulation Format (TNEF).
   
@@ -42,7 +42,7 @@ typedef struct _STnefProblem
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulComponent**
   

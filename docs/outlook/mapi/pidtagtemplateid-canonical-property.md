@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7672c18f18d39ed1e4e8b4664ba7990563419a20
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f95b97fc4150695c77871f8c4f768f6b5488ceb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572459"
 ---
 # <a name="pidtagtemplateid-canonical-property"></a>Propriété canonique PidTagTemplateid
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la **propriété PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), exprimée sous la forme d’un format d’ID entrée définitive.
   
@@ -32,7 +32,7 @@ Contient la **propriété PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-
 |Propriétés associées :  <br/> |PR_TEMPLATEID  <br/> |
 |Identificateur :  <br/> |0x3902  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Carnet d'adresses MAPI  <br/> |
+|Domaine :  <br/> |Carnet d'adresses MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

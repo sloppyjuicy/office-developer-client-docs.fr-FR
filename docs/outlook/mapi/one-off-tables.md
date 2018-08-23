@@ -1,5 +1,5 @@
 ---
-title: Tables uniques
+title: Tables ponctuelles
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
 description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 3ad9141f2530e64664a2d0c75ece2b834cc6ad78
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc8d8d53dcbc091df98ba9e23533e4138660c8e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784913"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574565"
 ---
-# <a name="one-off-tables"></a>Tables uniques
+# <a name="one-off-tables"></a>Tables ponctuelles
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une table unique contient des informations sur les modèles qui prend en charge par un fournisseur de carnet d’adresses pour la création de nouveaux destinataires. Tables uniques sont implémentés par les fournisseurs de carnet d’adresses, conteneurs de carnet d’adresses individuel et MAPI et peuvent être persistante ou temporaire. 
   

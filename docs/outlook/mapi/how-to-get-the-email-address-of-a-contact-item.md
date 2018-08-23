@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: ce9579cb6b07336cae7d69fe503c918d96946b0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783473"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575552"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obtenir l’adresse de messagerie d’un élément de Contact
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique montre comment obtenir la valeur d’une propriété nommée qui représente l’adresse de messagerie d’un élément Microsoft Outlook 2010 ou de contacts Microsoft Outlook 2013.
   

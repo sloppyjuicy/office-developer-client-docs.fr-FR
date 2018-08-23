@@ -1,5 +1,5 @@
 ---
-title: Extraction de données à partir des lignes de tableau
+title: Récupération de données à partir des lignes d’un tableau
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 91b1fa06fd47321e9c19d9751caac793e27e8f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7b8690871dbe5b7234645f00cabab9c65706141e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787017"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573445"
 ---
-# <a name="retrieving-data-from-table-rows"></a>Extraction de données à partir des lignes de tableau
+# <a name="retrieving-data-from-table-rows"></a>Récupération de données à partir des lignes d’un tableau
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Récupérer des lignes d’une table implique :
   

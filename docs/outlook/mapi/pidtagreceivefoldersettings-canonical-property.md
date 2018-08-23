@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e93325873f1d9e89bb591d136df04aa27403375f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c8bd8c7fb2ff5a030cd96e4c3ac2bbb4b6b16ce5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786524"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571457"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Propriété canonique PidTagReceiveFolderSettings
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau d’un message de la banque de recevoir des paramètres du dossier.
   
@@ -32,7 +32,7 @@ Contient un tableau d’un message de la banque de recevoir des paramètres du d
 |Propriétés associées :  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identificateur :  <br/> |0x3415  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Banque de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

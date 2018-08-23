@@ -1,5 +1,5 @@
 ---
-title: Comparaison des entrées de carnet d’adresses
+title: Comparaison d’entrées de carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 808d5f4bfca15cae4ca7aab6758d3b5361813bd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e5c46aed7a15ae4f48c8e4f1fe308fcb20ab3fe7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575356"
 ---
-# <a name="comparing-address-book-entries"></a>Comparaison des entrées de carnet d’adresses
+# <a name="comparing-address-book-entries"></a>Comparaison d’entrées de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Implémentation de votre fournisseur [IABLogon::CompareEntryIDs](iablogon-compareentryids.md) compare les identificateurs d’entrée de deux des objets de votre fournisseur. MAPI appelle cette méthode après que détermination que les identificateurs de deux entrée contenant votre fournisseur inscrit [MAPIUID](mapiuid.md). Par conséquent, votre méthode **CompareEntryIDs** doit vérifier pas que les identificateurs d’entrée passés pour les paramètres _lpEntryID1_ et _lpEntryID2_ appartiennent à votre fournisseur. 
   

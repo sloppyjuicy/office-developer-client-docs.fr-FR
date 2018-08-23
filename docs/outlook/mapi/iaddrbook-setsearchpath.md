@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4f9d2f4d271e467d8fac32b8f17faa8f66cd3f99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783641"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571758"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit un nouveau chemin d’accès de la recherche dans le profil qui est utilisé pour le processus de résolution de nom. 
   

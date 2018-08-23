@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0b079b311a68459a43b0a7659ddfbe94d96d7f9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6ffbf74496d4b61357a0fb473b82deedf39ee576
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783967"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570673"
 ---
 # <a name="imapisupportcopyfolder"></a>IMAPISupport::CopyFolder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Copie ou déplace un dossier à partir de son dossier parent en cours vers un autre dossier parent.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aa149a81102a4981712ea3ca897d8b1ad448a1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 649490f18bb1a14a7056b49fd846e893fba304bd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575209"
 ---
 # <a name="pidtagrenderingposition-canonical-property"></a>Propriété canonique PidTagRenderingPosition
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un décalage, en caractères, à utiliser dans le rendu d’une pièce jointe dans le texte du message principal.
   
@@ -32,7 +32,7 @@ Contient un décalage, en caractères, à utiliser dans le rendu d’une pièce 
 |Propriétés associées :  <br/> |PR_RENDERING_POSITION  <br/> |
 |Identificateur :  <br/> |0x370B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Pièce jointe MAPI  <br/> |
+|Domaine :  <br/> |Pièce jointe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

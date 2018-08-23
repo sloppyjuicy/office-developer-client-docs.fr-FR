@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1d0538f02f852580c064560460bb8b2ba54a2f65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575783"
 ---
 # <a name="transport-provider-sample"></a>Exemple de fournisseur de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cet exemple utilise les fichiers et répertoires pour transmettre et recevoir des messages. Il implémente et enregistre un préprocesseur très simple qui ajoute une ligne de texte à chaque message sortant. L’exemple montre comment fractionner le contenu des messages entre Neutral Encapsulation Format TNEF (Transport) et le texte. Il prend également en charge toutes les options de message et les options de configuration (feuilles de propriétés, les Assistants et la configuration de programmation). Il ne gère pas les interfaces de transport à distance. 
   

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fc92cc8deb3d12c4bc8fca4c680fd4a675b4a578
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784884"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578114"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI comme un exemple de code
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’exemple MFCMAPI utilise l’API de messagerie pour accéder aux magasins MAPI via une interface utilisateur graphique. Après avoir téléchargé cet exemple, vous pouvez utiliser les fichiers sources pour examiner les cas de l’utilisation d’exemple pour la plupart des interfaces MAPI et références. Pour plus d’informations, voir [Interfaces MAPI](mapi-interfaces.md).
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 71c0bbec13c869c1401c60834f30ca61360c8b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ddb667715903656291a21ebb835690768146ee9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785657"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575224"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Propriété canonique PidTagAccessLevel
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le niveau d’accès du client à l’objet.
   
@@ -32,7 +32,7 @@ Indique le niveau d’accès du client à l’objet.
 |Propriétés associées :  <br/> |PR_ACCESS_LEVEL  <br/> |
 |Identificateur :  <br/> |0x0FF7  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Propriétés de contrôle d’accès  <br/> |
+|Domaine :  <br/> |Propriétés de contrôle d’accès  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Cette propriété est en lecture seule pour le client. Il doit être une des val
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000000  <br/> |En lecture seule  <br/> |
-|0x00000001  <br/> |Modifier  <br/> |
+|0x00000001  <br/> |Modify  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -73,7 +73,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

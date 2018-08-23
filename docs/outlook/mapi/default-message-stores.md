@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: efa178eb-feb2-443f-8f6b-2ea53a456bf2
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cece19329460b382be724faa9f0f522831cc197c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f7bf720f9105f6a81b832233cc648bc1d9ac91d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783117"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576910"
 ---
 # <a name="default-message-stores"></a>Banques de messages par d�faut
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une banque de messages par d�faut est celle dont les applications clientes peuvent utiliser pour les t�ches de messagerie � usage g�n�ral. Il existe un certain nombre de fonctionnalit�s facultatives pour les fournisseurs de banque de message qui deviennent obligatoires si le fournisseur de banque de messages doit �tre utilis� en tant que la banque de messages par d�faut. Ils sont les suivants :
   

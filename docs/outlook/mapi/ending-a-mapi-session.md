@@ -1,5 +1,5 @@
 ---
-title: Mettre fin à une Session MAPI
+title: Fermeture d’une session MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 844880e5a1e40b51ece30baafd969372e7d43121
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e8fa8df4e1439db3f1bc688d282e5ebdd3503024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783251"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575503"
 ---
-# <a name="ending-a-mapi-session"></a>Mettre fin à une Session MAPI
+# <a name="ending-a-mapi-session"></a>Fermeture d’une session MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les clients peuvent mettre fin à leurs sessions en réponse à une demande d’un utilisateur, soit immédiatement ou sortants une fois que tous les messages ont été traités et quand se produit une erreur critique. Certains clients ont besoin de rester connecté afin que les messages sortants en attente peut atteindre le fournisseur de transport et la système de messagerie de destination. Si un tel client envoie un message et déconnecte immédiatement, le message peut rester dans la file d’attente sortante jusqu'à ce qu’un utilisateur se reconnecte et reste connecté suffisamment longtemps pour que le message peut être transmis.
   

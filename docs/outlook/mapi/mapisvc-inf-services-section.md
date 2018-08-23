@@ -1,5 +1,5 @@
 ---
-title: Section MapiSvc.inf [Services]
+title: Section [services] MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 19031f6c02f3e8e925adfc8d2affa43fb6532fee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 520478061e192f9fec97c6b13edde7833a13a3d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784777"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571394"
 ---
-# <a name="mapisvcinf-services-section"></a>Section MapiSvc.inf [Services]
+# <a name="mapisvcinf-services-section"></a>Section [services] MapiSvc.inf
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La section **[Services]** répertorie les services de message qui sont installés sur un ordinateur. Entrées de cette section utilisent le format suivant : 
   

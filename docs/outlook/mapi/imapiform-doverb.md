@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9ea44c9ba75390f06ff12ddeed0c7b652538e07d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783784"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573816"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Exige que le formulaire exécute ce que les tâches associe un verbe spécifique.
   
@@ -117,5 +117,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Formulaire verbes](form-verbs.md)
+[Verbes de formulaires](form-verbs.md)
 

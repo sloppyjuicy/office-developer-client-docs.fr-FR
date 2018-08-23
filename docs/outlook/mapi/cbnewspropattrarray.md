@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c085e3e4-5d1e-42ab-8c44-2c326c032aea
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 04dd3ddf43b1dcbab188ce75ef5c6a69186e3f9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8bcb650a7aef357be155c177c38bc39cac3fa2c2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783017"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575251"
 ---
 # <a name="cbnewspropattrarray"></a>CbNewSPropAttrArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [SPropAttrArray](spropattrarray.md) qui contient un nombre spécifié d’attributs de propriété. 
   
@@ -49,5 +49,5 @@ CbNewSPropAttrArray (_cattr)
 [SPropAttrArray](spropattrarray.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

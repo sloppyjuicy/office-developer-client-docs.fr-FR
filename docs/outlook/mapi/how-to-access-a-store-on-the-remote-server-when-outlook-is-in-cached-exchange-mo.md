@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: 'Dernière modification : 02 juillet 2012'
-ms.openlocfilehash: 8bb1e9bfc4d816daf4285d083c87bb3bea4e1139
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c7994366000e323cc7d14a9c3a02b5229c5f08e7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783449"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573312"
 ---
 # <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Accéder à un magasin sur le serveur distant lorsque Outlook est en Mode Exchange mis en cache
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple de code en langage C++ qui montre comment utiliser l’indicateur **MAPI_NO_CACHE** pour ouvrir un dossier ou un message dans une banque de messages sur le serveur distant lorsque Microsoft Office Outlook est en Mode Exchange mis en cache. 
   
@@ -49,6 +49,6 @@ Si vous avez ouvert la banque de messages avec l’indicateur **MDB_ONLINE** sur
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos des ajouts MAPI](about-mapi-additions.md) 
-- [Ouvrir un objet Store sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
-- [Gérer un Message dans un fichier OST sans appeler une synchronisation en Mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
+- [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
+- [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

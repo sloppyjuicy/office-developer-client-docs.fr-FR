@@ -1,5 +1,5 @@
 ---
-title: Choix d’une classe de Message
+title: Sélection d’une classe de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f1e604120041e9d91d06276fabb2e9dd7505df51
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c3b486838c6ce2d7fc38d950a4de6f4589767073
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783062"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574236"
 ---
-# <a name="choosing-a-message-class"></a>Choix d’une classe de Message
+# <a name="choosing-a-message-class"></a>Sélection d’une classe de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Comme décrit dans [Les Classes de Message MAPI](mapi-message-classes.md), les classes de message sont importants pour l’établissement de la relation entre les types de messages personnalisés et, par extension, entre les serveurs de formulaire eux-mêmes. Heureusement, le choix d’une chaîne de classe de message est relativement simple. La chaîne de classe de message d’une classe de message est une chaîne arbitraire, mais elle doit utiliser les conventions suivantes :
   
@@ -55,5 +55,5 @@ Pour plus d’informations, consultez [installation d’un formulaire dans une b
 
 
 
-[Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+[Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5cfad1c75aaab9afae47de5798f9e6b7ea530940
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5237a5c2767920bdb604bfe86603cea4fca56b84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787232"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572773"
 ---
 # <a name="sproptagarray"></a>SPropTagArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de balises de propriété. 
   
@@ -41,7 +41,7 @@ typedef struct _SPropTagArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 81c65f21-03ba-43eb-a6d4-d311e660ac5c
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ff40eddf63e67f45495e90c1a960e45b7cc6cfb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eef65990637d9c164ffe75f682e01ed134510e32
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787122"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570274"
 ---
 # <a name="sending-messages-mapi-spooler-tasks"></a>Envoi de Messages : T�ches de spouleur MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le spouleur MAPI est impliqu� dans le processus de transmission de message lors de la banque de messages pas fortement coupl�e � un fournisseur de transport, lorsque la banque �troitement coupl� et transport ne peut pas traiter un destinataire, et lorsque le message n�cessite un pr�traitement.
   

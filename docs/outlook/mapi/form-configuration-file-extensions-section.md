@@ -1,5 +1,5 @@
 ---
-title: Section de formulaire Configuration de fichier [Extensions]
+title: Section [Extensions] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7c26b86ad4d6c7fd565abddbfc76f50ac3dccaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 459c5f5a34421583141028cd9accad5e242d31ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783326"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573557"
 ---
-# <a name="form-configuration-file-extensions-section"></a>Section de formulaire Configuration de fichier [Extensions]
+# <a name="form-configuration-file-extensions-section"></a>Section [Extensions] du fichier de configuration de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La section **[Extensions]** répertorie les attributs étendus du formulaire, généralement un ensemble de la propriété nommée, qui sont des attributs au-delà de base celles répertoriées dans la section **[Description]** du fichier de configuration du formulaire. Les attributs étendus sont les propriétés retournées par les appels à la méthode **GetProps** de l’objet **IMAPIFormInfo** avec le bit élevé défini dans la balise de propriété. Les applications clientes peuvent déterminer les attributs étendus d’un formulaire, le cas échéant, en récupérant ces balises. Pour ce faire, les clients appelez la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) , en passant les noms des propriétés du formulaire et appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir les propriétés. 
   

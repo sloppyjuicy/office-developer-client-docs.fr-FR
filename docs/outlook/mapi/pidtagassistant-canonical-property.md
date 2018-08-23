@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 24892aff-5a98-4d61-b740-17f74f8ae95d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8e3ace1ff36e433ea7687304a3b1ba26a88309e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 581d99e72fcdc6996e03f04f9c8b5e906049f1c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785698"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574915"
 ---
 # <a name="pidtagassistant-canonical-property"></a>Propriété canonique PidTagAssistant
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom de l’assistant administratif du destinataire. 
   
@@ -32,7 +32,7 @@ Contient le nom de l’assistant administratif du destinataire.
 |Propriétés associées :  <br/> |PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W  <br/> |
 |Identificateur :  <br/> |0x3A30  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -75,7 +75,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

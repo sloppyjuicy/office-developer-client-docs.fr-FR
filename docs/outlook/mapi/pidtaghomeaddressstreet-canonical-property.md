@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 557fd222-8513-4e8a-b605-3def955107dc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bbff39fa100892a74b36d2ca51bab7788ae7ab0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0f22f9fef661f611adb9e47272d18f0a69d63f51
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786060"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572122"
 ---
 # <a name="pidtaghomeaddressstreet-canonical-property"></a>Propriété canonique PidTagHomeAddressStreet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la partie de l’adresse postale.
   
@@ -32,7 +32,7 @@ Contient la partie de l’adresse postale.
 |Propriétés associées :  <br/> |PR_HOME_ADDRESS_STREET, PR_HOME_ADDRESS_STREET_A, PR_HOME_ADDRESS_STREET_W  <br/> |
 |Identificateur :  <br/> |0x3A5D  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

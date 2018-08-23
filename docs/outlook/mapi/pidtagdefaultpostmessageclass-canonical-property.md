@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 538cc7cdc6dcb281beead6d06ff8644c534ed569
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2b4013b311289816f778d7559ee3bcc7dc061538
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574334"
 ---
 # <a name="pidtagdefaultpostmessageclass-canonical-property"></a>Propriété canonique PidTagDefaultPostMessageClass
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom d’une classe de Message du formulaire personnalisé.
   
@@ -32,7 +32,7 @@ Contient le nom d’une classe de Message du formulaire personnalisé.
 |Propriétés associées :  <br/> |PR_DEF_POST_MSGCLASS  <br/> |
 |Identificateur :  <br/> |0x36E5  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Zone :  <br/> |Conteneur MAPI  <br/> |
+|Domaine :  <br/> |Conteneur MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

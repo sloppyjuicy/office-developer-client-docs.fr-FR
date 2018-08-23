@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aa144ca93e8fad9b9b5a5da1ee457e5cc3bbd841
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7c72b87eec6d0a14b0ebba10529ef5d898747028
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572976"
 ---
 # <a name="pidtagrtfsyncbodycrc-canonical-property"></a>Propriété canonique PidTagRtfSyncBodyCrc
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la vérification de redondance cyclique (CRC) calculée pour le texte du message.
   
@@ -32,7 +32,7 @@ Contient la vérification de redondance cyclique (CRC) calculée pour le texte d
 |Propriétés associées :  <br/> |PR_RTF_SYNC_BODY_CRC  <br/> |
 |Identificateur :  <br/> |0 x 1006  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Message MAPI  <br/> |
+|Domaine :  <br/> |Message MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

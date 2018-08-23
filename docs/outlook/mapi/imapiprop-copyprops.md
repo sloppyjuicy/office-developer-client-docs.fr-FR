@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ff8f13a1dcf678e1d05b6e8e083597156422b83d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783914"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571079"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Copie ou déplace des propriétés sélectionnées. 
   

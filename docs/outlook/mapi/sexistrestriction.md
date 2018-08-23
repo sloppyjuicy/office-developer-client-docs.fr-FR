@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 62b5a42a540a4fb96761c45cd51c510f12225e9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 218238bea277a2d57c77fcc9d71cd622f7da42fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787147"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571947"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction existent qui est utilisée pour déterminer si une propriété particulière existe en tant que colonne dans le tableau. 
   
@@ -41,7 +41,7 @@ typedef struct _SExistRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulReserved1**
   

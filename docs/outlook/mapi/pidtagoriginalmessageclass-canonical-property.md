@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49deb153-03c6-4be2-a3a5-53cca01accba
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7167b7b51698cda5610356779a8e8342b34a6082
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a0abd3618f7a1586d8ca786fc1b6802c17e0f0f1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786342"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573116"
 ---
 # <a name="pidtagoriginalmessageclass-canonical-property"></a>Propriété canonique PidTagOriginalMessageClass
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la classe du message d’origine pour une utilisation dans un rapport.
   
@@ -32,7 +32,7 @@ Contient la classe du message d’origine pour une utilisation dans un rapport.
 |Propriétés associées :  <br/> |PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A, PR_ORIG_MESSAGE_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x004B  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Sécuriser les propriétés de messagerie  <br/> |
+|Domaine :  <br/> |Sécuriser les propriétés de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

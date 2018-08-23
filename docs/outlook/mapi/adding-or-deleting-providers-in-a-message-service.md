@@ -1,5 +1,5 @@
 ---
-title: Ajout ou suppression de fournisseurs dans un Service de Message
+title: Ajout ou suppression de fournisseurs dans un service de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 44bb4d34-ca96-4d5a-93fe-85e09bd7971d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 05d6d548032476062127f21b23aa2ce141ed1b65
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 569c9d8a7ed3f56d88d83ea6fdac4477d39e50a2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569483"
 ---
-# <a name="adding-or-deleting-providers-in-a-message-service"></a>Ajout ou suppression de fournisseurs dans un Service de Message
+# <a name="adding-or-deleting-providers-in-a-message-service"></a>Ajout ou suppression de fournisseurs dans un service de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour ajouter ou supprimer des fournisseurs de services dans un service de message, utilisez la [IProviderAdmin : IUnknown](iprovideradminiunknown.md) interface. Vous pouvez récupérer un pointeur **IProviderAdmin** en appelant [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md). Le tableau de fournisseur, accessible par le biais [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md), répertorie les informations sur les fournisseurs de services actuellement installée dans le service de message. Clients et fournisseurs de services peuvent utiliser la table des fournisseurs de d’accéder au nom du fournisseur fichier DLL, par exemple, ou **MAPIUID**, nom complet et du type du fournisseur, ainsi que les informations sur le service de message. Pour plus d’informations, voir [Les Tables de fournisseur](provider-tables.md).
   

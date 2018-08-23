@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d9f69098f9c53e75dea6f485248d61d277e181c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783602"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570981"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Annule les notifications qui ont été précédemment configurées avec un appel à la méthode [IABLogon::Advise](iablogon-advise.md) . 
   

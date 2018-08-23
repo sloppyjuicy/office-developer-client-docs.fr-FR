@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f25b3fb967f4ed93ac38487f21145f35413764da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 34d6eb0653c3eb550bf03242a2c1b2acc3330a13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572290"
 ---
 # <a name="upfld"></a>UPFLD
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations de téléchargement d’un dossier au cours de l' [état du dossier de téléchargement](upload-folder-state.md).
   
@@ -33,7 +33,7 @@ struct UPFLD
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -70,6 +70,6 @@ _feid_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md) 
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 22aad12010a4f367e18443d8c0831c6262cc37fc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ad3d9d12e1073610747b0ab078c6d65c09f8c7c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784767"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569140"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Libère une mémoire tampon alloué avec un appel à la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore](mapiallocatemore.md) . 
   

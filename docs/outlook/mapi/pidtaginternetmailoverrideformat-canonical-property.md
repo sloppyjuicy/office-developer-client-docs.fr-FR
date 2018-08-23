@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2c77393b44df1a3b21f20dbc0f6d8090299f9eda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 73fa720b4285524d12a9dac468785f6ce211a2b1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786120"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574663"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Propriété canonique PidTagInternetMailOverrideFormat
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la méthode de codage et l’inclusion de code HTML pour les pièces jointes qui doit être défini sur le courrier sortant.
   
@@ -32,7 +32,7 @@ Indique la méthode de codage et l’inclusion de code HTML pour les pièces joi
 |Propriétés associées :  <br/> |PR_INETMAIL_OVERRIDE_FORMAT  <br/> |
 |Identificateur :  <br/> |0x5902  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MIME  <br/> |
+|Domaine :  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

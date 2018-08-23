@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 685ca78367ac4e0a8334a3d14c2fda9d57161e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1cc8471f9a3125ce89d5baefac6058e368e601d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786401"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570407"
 ---
 # <a name="pidtagpersonalhomepage-canonical-property"></a>Propriété canonique PidTagPersonalHomePage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’URL de la page d’accueil personnelle d’un utilisateur.
   
@@ -32,7 +32,7 @@ Contient l’URL de la page d’accueil personnelle d’un utilisateur.
 |Propriétés associées :  <br/> |PR_PERSONAL_HOME_PAGE, PR_PERSONAL_HOME_PAGE_A, PR_PERSONAL_HOME_PAGE_W  <br/> |
 |Identificateur :  <br/> |0x3A50  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

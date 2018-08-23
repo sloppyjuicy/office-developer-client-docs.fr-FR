@@ -1,23 +1,23 @@
 ---
-title: Outlook Messaging API (MAPI) Copyright-référence
+title: Avis de copyright de référence de l’API de messagerie Outlook (MAPI)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e3538355-8ce9-4c79-9970-aea828818d26
 description: 'Dernière modification : 22 juin 2012'
-ms.openlocfilehash: fce566164e2669071490901bcc7d2b5e396e0b11
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dc6312dc63081f136e799ee1703d3c2d65525473
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784958"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572948"
 ---
-# <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Outlook Messaging API (MAPI) Copyright-référence
+# <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Avis de copyright de référence de l’API de messagerie Outlook (MAPI)
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations contenues dans ce document, y compris les URL et autres références à des sites Internet, sujette à modification sans préavis. Sauf indication contraire, les sociétés, organisations, produits, noms de domaine, adresses de messagerie, les logos, les personnes, les lieux et les événements mentionnés dans les exemples sont fictifs. Aucune association avec toute ressemblance, organisation, produit, nom de domaine, adresse de messagerie, logo, personne, lieu ou événement fortuite ou est destinée. L'utilisateur est tenu de se conformer à toutes les législations en vigueur. Sans restriction des droits de copyright, aucune partie de ce document ne peut être reproduite, stockée ou introduite dans un système d'extraction, ou transmise sous quelque forme ou avec quelque moyen que ce soit (électronique, mécanique, photocopie, enregistrement, etc.), quel que soit l'objectif, sans l'autorisation écrite expresse de Microsoft Corporation.
   

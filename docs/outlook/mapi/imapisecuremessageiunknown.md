@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7f08528c067f48267ec70016839fd85c6823f657
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5f9f80ad8bce08484f4370ea32b2500fe05aa947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573977"
 ---
 # <a name="imapisecuremessage--iunknown"></a>IMAPISecureMessage : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit les méthodes utilisées pour gérer les messages sécurisés.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 205c9dd28692592ddf133b1b30989ba9fd4236f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572031"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtient les conditions pour lequel les rappels sont pris en charge par un objet en mode hors connexion.
   

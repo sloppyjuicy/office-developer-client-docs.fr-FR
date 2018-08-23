@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: 'Dernière modification : 26 juin 2012'
-ms.openlocfilehash: 17b1307427af2c35fe9ba8ee40dc78958e6b4a21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b8335fb2722e193f0eab1288b8ffdb2aa62df8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783274"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577785"
 ---
 # <a name="fast-shutdown-overview"></a>Vue d’ensemble de l’arrêt rapide
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Arrêt rapide est un mécanisme d’un client MAPI d’initier un arrêt rapide du processus de client, en informer tous les fournisseurs dont le client dispose d’une session MAPI active pour enregistrer les données et les paramètres avant la fermeture du processus client. Cette rubrique décrit le mécanisme de base d’arrêt rapide. 
 
@@ -50,6 +50,6 @@ Si un client MAPI doit adopter arrêt rapide, elle doit utiliser le **IMAPIClien
 ## <a name="see-also"></a>Voir aussi
 
 - [Arrêt du client dans MAPI](client-shutdown-in-mapi.md)
-- [Options d’arrêt rapide utilisateur](fast-shutdown-user-options.md)
+- [Options utilisateur d’arrêt rapide](fast-shutdown-user-options.md)
 - [Meilleures pratiques pour l’arrêt rapide](best-practices-for-fast-shutdown.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f17874f-fab5-4119-b2eb-845c1f70d882
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: da4ed488498d820c7080a87752f58c5b8c524e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 72f6bc791d9b27e4c9120c059ab7636672e5fa29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786817"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573088"
 ---
 # <a name="pidtagstateorprovince-canonical-property"></a>Propriété canonique PidTagStateOrProvince
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom de l’état ou la province du destinataire.
   
@@ -32,7 +32,7 @@ Contient le nom de l’état ou la province du destinataire.
 |Propriétés associées :  <br/> |PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_STATE_OR_PROVINCE_W, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identificateur :  <br/> |0x3A28  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

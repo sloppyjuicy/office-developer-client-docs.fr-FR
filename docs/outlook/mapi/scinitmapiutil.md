@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 771b466e58bf57a7eb4285c6f6ce94c815ec7288
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3176280de33bda01bfd09ebaafc31d326d455a3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575034"
 ---
 # <a name="scinitmapiutil"></a>ScInitMapiUtil
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Remplace les [exécuter MAPIInitialize](mapiinitialize.md) si uniquement les fonctions d’utilitaire select sont utilisées. 
   

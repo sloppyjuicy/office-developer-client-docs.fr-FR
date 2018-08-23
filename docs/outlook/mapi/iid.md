@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a0e859ac0f8bcc3bd83e336c85da21f1251efcb5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570939"
 ---
 # <a name="iid"></a>IID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une structure [GUID](guid.md) utilisée pour décrire un identificateur pour l’interface MAPI. 
   
@@ -38,7 +38,7 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 Voir la structure **GUID** . 
   

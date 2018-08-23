@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4cc97647c60322783050abbebd18726434632a43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571191"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Propriété canonique PidTagMailPermission
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si l’utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si l’utilisateur de messagerie est autorisé à envoye
 |Propriétés associées :  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Identificateur :  <br/> |0x3A0E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

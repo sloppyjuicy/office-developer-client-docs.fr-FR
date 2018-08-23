@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ee0070b-11ac-4add-9c19-4558a1f88577
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f304131312af38c0b14daa30cacfc724c73db0c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5cedd3e2078602d96f346ee4ad75d4232b23ad06
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786444"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572766"
 ---
 # <a name="pidtagprofession-canonical-property"></a>Propriété canonique PidTagProfession
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la profession de l’utilisateur.
   
@@ -32,7 +32,7 @@ Contient la profession de l’utilisateur.
 |Propriétés associées :  <br/> |PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W  <br/> |
 |Identificateur :  <br/> |0x3A46  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

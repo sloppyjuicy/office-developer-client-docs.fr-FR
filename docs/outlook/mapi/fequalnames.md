@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0d8d1b8509f699b20f6e436d8af2c1d0d97cf4ba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 09c6540f2a224b7dc89a62c34cfb0c867cef4632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783294"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570848"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Détermine si les deux MAPI nommée des propriétés sont les mêmes. 
   

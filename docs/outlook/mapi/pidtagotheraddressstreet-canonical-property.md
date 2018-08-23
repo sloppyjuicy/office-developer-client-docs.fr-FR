@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6d2731bd9c022cf18ec0ea7eb75a1d78900e62f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1c1c4cc8a645720c6652aa49318b1b2b4920a0b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786384"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570617"
 ---
 # <a name="pidtagotheraddressstreet-canonical-property"></a>Propriété canonique PidTagOtherAddressStreet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les messages autre adresse de l’utilisateur.
   
@@ -32,7 +32,7 @@ Contient les messages autre adresse de l’utilisateur.
 |Propriétés associées :  <br/> |PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A, PR_OTHER_ADDRESS_STREET_W  <br/> |
 |Identificateur :  <br/> |0x3A63  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

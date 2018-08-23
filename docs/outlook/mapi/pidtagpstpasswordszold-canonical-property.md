@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 69d62c4433d85a0e6cd9cf9b3f10acb9d758ffb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0de49d8077e51a78a72b929c4f27b2e80f13f19b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786474"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572463"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>Propriété canonique PidTagPstPasswordSzOld
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le mot de passe de la table de stockage personnel (fichier .pst) en cours de configuration.
   
@@ -30,7 +30,7 @@ Contient le mot de passe de la table de stockage personnel (fichier .pst) en cou
 |Propriétés associées :  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
 |Identificateur :  <br/> |0x6703  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Tableau de stockage personnel (.pst) interne  <br/> |
+|Domaine :  <br/> |Tableau de stockage personnel (.pst) interne  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

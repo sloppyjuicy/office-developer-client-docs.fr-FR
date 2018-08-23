@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d9b782be440e1af50cb5994691268aa098a1a7cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783006"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574453"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets qui doit être alloué pour une nouvelle structure [ENTRYID](entryid.md) d’une taille spécifiée. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**PROPRIÉTÉ ENTRYID** <br/> |
+|Structure connexe :  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -46,8 +46,8 @@ CbNewENTRYID (_cb)
 
 
 
-[PROPRIÉTÉ ENTRYID](entryid.md)
+[ENTRYID](entryid.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

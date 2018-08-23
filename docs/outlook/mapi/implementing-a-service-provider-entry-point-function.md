@@ -1,5 +1,5 @@
 ---
-title: Implémentation d’une fonction de Point d’entrée de Service fournisseur
+title: Implémentation d’une fonction de point d’entrée de fournisseur de services
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 632aff9c0f6fc60ee9730b5e43667b5b610ae8df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 40bbe110c7453cf2360fc103710fbc3bcb7f1c67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784166"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572052"
 ---
-# <a name="implementing-a-service-provider-entry-point-function"></a>Implémentation d’une fonction de Point d’entrée de Service fournisseur
+# <a name="implementing-a-service-provider-entry-point-function"></a>Implémentation d’une fonction de point d’entrée de fournisseur de services
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaque fournisseur de services DLL a une entrée fonction appels MAPI pour le charger de point. Sachez que cette fonction de point d’entrée n’est pas le même que [DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx), la fonction de point d’entrée DLL Win32.
   

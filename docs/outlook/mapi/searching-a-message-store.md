@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 90ed7da43d7f9e5e8b5f3024f1eee99a2d7a2b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 74b63719f6d72e3c92cbcef6fdb26ee106d4b9aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787094"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571835"
 ---
 # <a name="searching-a-message-store"></a>Recherche dans une banque de messages
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes peuvent parcourir un ou plusieurs dossiers de rechercher les messages qui correspondent aux critères de recherche. La technique la plus simple de recherche implique l’application d’une restriction pour définir les critères et placer les résultats dans un dossier de résultats de recherche, créé explicitement de la recherche ou une recherche précédente. Pas de toutes les banques de messages prennent en charge cette technique. 
 

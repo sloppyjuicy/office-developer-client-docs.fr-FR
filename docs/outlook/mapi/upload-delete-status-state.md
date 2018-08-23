@@ -1,23 +1,23 @@
 ---
-title: État de la suppression de téléchargement
+title: Télécharger l’état de suppression de statut
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ff957e649d5de64c65ac169b3bc413ac7b6c9491
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4a45cfafec5126c72f365858e41963bc95fa707a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787426"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574544"
 ---
-# <a name="upload-delete-status-state"></a>État de la suppression de téléchargement
+# <a name="upload-delete-status-state"></a>Télécharger l’état de suppression de statut
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état de l’état de téléchargement supprimer de l’ordinateur d’état de réplication. 
   
@@ -49,7 +49,7 @@ Lorsque cet état se termine, Outlook efface les informations internes indiquant
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

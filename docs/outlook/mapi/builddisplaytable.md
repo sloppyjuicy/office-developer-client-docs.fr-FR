@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b821394f32a938f4878ee93e685aafbeb0786597
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3b5268f0b033126083a463f72e47c64957df07eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783009"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577687"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une table de l’affichage de données de la propriété page contenues dans une ou plusieurs structures [DTPAGE](dtpage.md) . 
   

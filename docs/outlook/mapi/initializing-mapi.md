@@ -1,5 +1,5 @@
 ---
-title: L’initialisation de MAPI
+title: Initialisation de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5f1dac712731175978bc639cc7296171448a41e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784333"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574789"
 ---
-# <a name="initializing-mapi"></a>L’initialisation de MAPI
+# <a name="initializing-mapi"></a>Initialisation de MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent appeler la fonction **exécuter MAPIInitialize** . Pour plus d’informations, voir [exécuter MAPIInitialize](mapiinitialize.md). **Exécuter MAPIInitialize** initialise les données globales pour la session et prépare les bibliothèques d’accepter les appels MAPI. Il existe quelques indicateurs qui sont importantes pour définir dans certaines situations : 
   
