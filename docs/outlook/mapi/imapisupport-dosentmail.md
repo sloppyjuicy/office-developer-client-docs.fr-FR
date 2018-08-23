@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2bded946a1fc7d7ab181d3953defa24e247c003c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784002"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568209"
 ---
-# <a name="imapisupportdosentmail"></a><span data-ttu-id="60616-103">IMAPISupport::DoSentMail</span><span class="sxs-lookup"><span data-stu-id="60616-103">IMAPISupport::DoSentMail</span></span>
+# <a name="imapisupportdosentmail"></a><span data-ttu-id="0442d-103">IMAPISupport::DoSentMail</span><span class="sxs-lookup"><span data-stu-id="0442d-103">IMAPISupport::DoSentMail</span></span>
 
   
   
-<span data-ttu-id="60616-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="60616-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="0442d-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0442d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="60616-105">Traite un message envoy�.</span><span class="sxs-lookup"><span data-stu-id="60616-105">Processes a sent message.</span></span>
+<span data-ttu-id="0442d-105">Traite un message envoy�.</span><span class="sxs-lookup"><span data-stu-id="0442d-105">Processes a sent message.</span></span>
   
 ```cpp
 HRESULT DoSentMail(
@@ -34,45 +34,45 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="60616-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="60616-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0442d-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="0442d-106">Parameters</span></span>
 
- <span data-ttu-id="60616-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="60616-107">_ulFlags_</span></span>
+ <span data-ttu-id="0442d-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0442d-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="60616-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="60616-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="0442d-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="0442d-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="60616-109">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="60616-109">_lpMessage_</span></span>
+ <span data-ttu-id="0442d-109">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="0442d-109">_lpMessage_</span></span>
   
-> <span data-ttu-id="60616-110">[in] Pointeur vers le message ouvert pour lequel un message doit �tre g�n�r� dans le dossier d�sign� pour contenir les �l�ments envoy�s.</span><span class="sxs-lookup"><span data-stu-id="60616-110">[in] A pointer to the open message for which a message should be generated in the folder designated to hold sent items.</span></span>
+> <span data-ttu-id="0442d-110">[in] Pointeur vers le message ouvert pour lequel un message doit �tre g�n�r� dans le dossier d�sign� pour contenir les �l�ments envoy�s.</span><span class="sxs-lookup"><span data-stu-id="0442d-110">[in] A pointer to the open message for which a message should be generated in the folder designated to hold sent items.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="60616-111">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="60616-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0442d-111">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="0442d-111">Return value</span></span>
 
-<span data-ttu-id="60616-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="60616-112">S_OK</span></span> 
+<span data-ttu-id="0442d-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="0442d-112">S_OK</span></span> 
   
-> <span data-ttu-id="60616-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="60616-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="0442d-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="0442d-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="60616-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="60616-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0442d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="0442d-114">Remarks</span></span>
 
-<span data-ttu-id="60616-p101">The **IMAPISupport::DoSentMail** method is implemented for message store provider support objects. Message store providers call **DoSentMail** from their implementation of the [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method, which is called by the MAPI spooler when it has finished processing a message. **FinishedMsg** unlocks the message, ensures that the message's reference count is 1, and calls **DoSentMail**.</span><span class="sxs-lookup"><span data-stu-id="60616-p101">The **IMAPISupport::DoSentMail** method is implemented for message store provider support objects. Message store providers call **DoSentMail** from their implementation of the [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method, which is called by the MAPI spooler when it has finished processing a message. **FinishedMsg** unlocks the message, ensures that the message's reference count is 1, and calls **DoSentMail**.</span></span>
+<span data-ttu-id="0442d-p101">The **IMAPISupport::DoSentMail** method is implemented for message store provider support objects. Message store providers call **DoSentMail** from their implementation of the [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method, which is called by the MAPI spooler when it has finished processing a message. **FinishedMsg** unlocks the message, ensures that the message's reference count is 1, and calls **DoSentMail**.</span><span class="sxs-lookup"><span data-stu-id="0442d-p101">The **IMAPISupport::DoSentMail** method is implemented for message store provider support objects. Message store providers call **DoSentMail** from their implementation of the [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method, which is called by the MAPI spooler when it has finished processing a message. **FinishedMsg** unlocks the message, ensures that the message's reference count is 1, and calls **DoSentMail**.</span></span>
   
- <span data-ttu-id="60616-118">**DoSentMail** effectue les t�ches suivantes :</span><span class="sxs-lookup"><span data-stu-id="60616-118">**DoSentMail** performs the following tasks:</span></span> 
+ <span data-ttu-id="0442d-118">**DoSentMail** effectue les t�ches suivantes :</span><span class="sxs-lookup"><span data-stu-id="0442d-118">**DoSentMail** performs the following tasks:</span></span> 
   
-- <span data-ttu-id="60616-119">Vérifie le message de la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) déterminer si le message doit être supprimé après son envoi.</span><span class="sxs-lookup"><span data-stu-id="60616-119">Checks the message for the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to determine whether the message should be deleted after sending.</span></span>
+- <span data-ttu-id="0442d-119">Vérifie le message de la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) déterminer si le message doit être supprimé après son envoi.</span><span class="sxs-lookup"><span data-stu-id="0442d-119">Checks the message for the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to determine whether the message should be deleted after sending.</span></span>
     
-- <span data-ttu-id="60616-120">D�termine l'emplacement du dossier �l�ments envoy�s.</span><span class="sxs-lookup"><span data-stu-id="60616-120">Determines the location of the Sent Items folder.</span></span>
+- <span data-ttu-id="0442d-120">D�termine l'emplacement du dossier �l�ments envoy�s.</span><span class="sxs-lookup"><span data-stu-id="0442d-120">Determines the location of the Sent Items folder.</span></span>
     
-- <span data-ttu-id="60616-121">Lance le raccordement de message pour n'importe quel hooks d�finies sur le dossier �l�ments envoy�s de traitement.</span><span class="sxs-lookup"><span data-stu-id="60616-121">Initiates message hook processing for any hooks set on the Sent Items folder.</span></span>
+- <span data-ttu-id="0442d-121">Lance le raccordement de message pour n'importe quel hooks d�finies sur le dossier �l�ments envoy�s de traitement.</span><span class="sxs-lookup"><span data-stu-id="0442d-121">Initiates message hook processing for any hooks set on the Sent Items folder.</span></span>
     
-- <span data-ttu-id="60616-122">D�place le message vers le dossier �l�ments envoy�s, �l�ments supprim�s, dossier, ou vers un autre dossier.</span><span class="sxs-lookup"><span data-stu-id="60616-122">Moves the message to the Sent Items folder, Deleted Items folder, or to another folder.</span></span>
+- <span data-ttu-id="0442d-122">D�place le message vers le dossier �l�ments envoy�s, �l�ments supprim�s, dossier, ou vers un autre dossier.</span><span class="sxs-lookup"><span data-stu-id="0442d-122">Moves the message to the Sent Items folder, Deleted Items folder, or to another folder.</span></span>
     
-- <span data-ttu-id="60616-123">Publie le message.</span><span class="sxs-lookup"><span data-stu-id="60616-123">Releases the message.</span></span>
+- <span data-ttu-id="0442d-123">Publie le message.</span><span class="sxs-lookup"><span data-stu-id="0442d-123">Releases the message.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="60616-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="60616-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0442d-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0442d-124">See also</span></span>
 
 
 
-[<span data-ttu-id="60616-125">IMsgStore::FinishedMsg</span><span class="sxs-lookup"><span data-stu-id="60616-125">IMsgStore::FinishedMsg</span></span>](imsgstore-finishedmsg.md)
+[<span data-ttu-id="0442d-125">IMsgStore::FinishedMsg</span><span class="sxs-lookup"><span data-stu-id="0442d-125">IMsgStore::FinishedMsg</span></span>](imsgstore-finishedmsg.md)
   
-[<span data-ttu-id="60616-126">Propri�t� canonique PidTagDeleteAfterSubmit</span><span class="sxs-lookup"><span data-stu-id="60616-126">PidTagDeleteAfterSubmit Canonical Property</span></span>](pidtagdeleteaftersubmit-canonical-property.md)
+[<span data-ttu-id="0442d-126">Propri�t� canonique PidTagDeleteAfterSubmit</span><span class="sxs-lookup"><span data-stu-id="0442d-126">PidTagDeleteAfterSubmit Canonical Property</span></span>](pidtagdeleteaftersubmit-canonical-property.md)
   
-[<span data-ttu-id="60616-127">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="60616-127">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="0442d-127">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0442d-127">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
