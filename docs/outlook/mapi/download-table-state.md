@@ -1,23 +1,23 @@
 ---
-title: État de Table de téléchargement
+title: Télécharger l’état de la table
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6a29cc131b4fe352b067e343376b2b705e8e3244
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e75407f62a7e6440f6c8dca8c1d2c76843048da4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783219"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595397"
 ---
-# <a name="download-table-state"></a>État de Table de téléchargement
+# <a name="download-table-state"></a>Télécharger l’état de la table
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état du tableau de téléchargement de l’ordinateur d’état de réplication. 
   
@@ -47,7 +47,7 @@ Lorsque cet état se termine, la banque locale renvoie à l’état du contenu s
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

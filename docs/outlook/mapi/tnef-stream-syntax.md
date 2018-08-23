@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cbaf37415608dd1d79a06be65b34632f2b4afc89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ce2b2497bd89f00ce7f063d3e482752fabfeb731
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787379"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594333"
 ---
 # <a name="tnef-stream-syntax"></a>Syntaxe de flux TNEF
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente un Bakus-Nauer comme description de la syntaxe de flux TNEF. Dans cette description, les éléments non terminaux possédant une définition plus précise sont en italique. Constantes et éléments littérales sont en gras. Séquences d’éléments sont répertoriés dans l’ordre sur une seule ligne. Par exemple, l’élément de _flux de données_ se compose de la constante **TNEF_SIGNATURE**, suivi d’une _clé_, suivi d’un _objet_. Lorsqu’un élément a plus d’une implémentation possible, les alternatives figurent sur des lignes consécutives. Par exemple, un _objet_ peut se composer d’un _Message_Seq_, un _Message_Seq_ suivi d’un _Attach_Seq_ou juste un _Attach_Seq_.
   

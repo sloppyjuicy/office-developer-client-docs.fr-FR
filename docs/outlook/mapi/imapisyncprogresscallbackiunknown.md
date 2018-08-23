@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bce70d891bc33dcddb94fc05992c09991c6cdc63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 33d811af0fc9e06902750075ba39bfb6ca88903f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784064"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593710"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Transmet le fournisseur de banque comme un champ de la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de banque utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
   

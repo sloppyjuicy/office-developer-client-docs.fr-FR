@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be941efd-04b3-48d0-9b9c-8195ad2bb58d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e778df216d0fe9b901cd9f7136c8014a6b8f0d0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b0ec3ada71a3e604ea71c5d386f1ff0466132081
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787260"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594088"
 ---
 # <a name="strategies-for-error-handling"></a>Stratégies de gestion des erreurs
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Méthodes d’interface sont virtuelles, il n’est pas possible de savoir, en tant qu’un appelant, l’ensemble de valeurs qui peut être renvoyé à partir de n’importe quel un appel. Une implémentation d’une méthode peut retourner les cinq valeurs ; un autre peut retourner huit. Les entrées de référence dans la documentation de MAPI répertorient quelques valeurs pouvant être renvoyés pour chaque méthode ; Voici les valeurs que votre client ou fournisseur de services peut rechercher et traiter, car elles ont une signification spéciale. Autres valeurs peuvent être renvoyées, mais, car ils ne sont pas significatives, code spécial pour gérer ces n’est pas nécessaire. Un contrôle simple pour la réussite ou l’échec est approprié.
   

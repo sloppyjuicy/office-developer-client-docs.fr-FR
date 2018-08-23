@@ -1,5 +1,5 @@
 ---
-title: Parcourir le dossier boîte de réception
+title: Navigation dans le dossier de boîte de réception
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2ad1459f-d59a-4784-94ea-4cad194e6e50
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 87fcde5a28a30f08bc2fd5f28fb692a4b4251fbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5e93dbed0fe56ada5fc41c3e2e51aa3d0c3bef6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594487"
 ---
-# <a name="traversing-the-inbox-folder"></a>Parcourir le dossier boîte de réception
+# <a name="traversing-the-inbox-folder"></a>Navigation dans le dossier de boîte de réception
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour passer en revue tous les messages dans la boîte de réception**
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d2c2fb31b722e76034b08077632c817d6adde802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f66a570273d78f63ced110a4bdc8a12a49c531b6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785547"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595243"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Propriété canonique PidNameAcceptLanguage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de champ d’en-tête Accept-Language [RFC3282].
   
@@ -33,7 +33,7 @@ Contient une valeur de champ d’en-tête Accept-Language [RFC3282].
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Langue acceptée  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

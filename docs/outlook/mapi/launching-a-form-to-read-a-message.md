@@ -1,5 +1,5 @@
 ---
-title: Lancement d’un formulaire pour lire un Message
+title: Lancement d’un formulaire pour lire un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 675de7eeda534d8761887cdcb6d5c94a209ca18b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b9166090321aa24e35fe1c82908aec0c403095cd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784518"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593738"
 ---
-# <a name="launching-a-form-to-read-a-message"></a>Lancement d’un formulaire pour lire un Message
+# <a name="launching-a-form-to-read-a-message"></a>Lancement d’un formulaire pour lire un message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’implémentation de formulaire serveur doit attendre la séquence suivante d’appels de méthode à leur serveur du formulaire et les objets de formulaire lorsqu’une application cliente charge un message :
   
@@ -37,5 +37,5 @@ L’implémentation de formulaire serveur doit attendre la séquence suivante d�
 
 
 
-[Formulaire serveur Interactions](form-server-interactions.md)
+[Interactions avec le serveur de formulaire](form-server-interactions.md)
 

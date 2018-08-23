@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e94692ac4eb401109fcb522e6224c8748bef37f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e303361f4f0dd3a08dbb362096d07b8b391a6d97
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787079"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594417"
 ---
 # <a name="sclocalpathfromunc"></a>ScLocalPathFromUNC
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Localise un équivalent du chemin d’accès local pour le chemin UNC (convention) d’affectation de noms universels. 
   

@@ -1,5 +1,5 @@
 ---
-title: Propriétés requises pour tous les Messages
+title: Propriétés requises pour tous les messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ebe4622ec9ed25be5ee8a736ed15e2f230ff05e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 068bd55761ffd6b10761412314de97791c016f9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787016"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594326"
 ---
-# <a name="required-properties-for-all-messages"></a>Propriétés requises pour tous les Messages
+# <a name="required-properties-for-all-messages"></a>Propriétés requises pour tous les messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le tableau suivant décrit les propriétés dont les clients peuvent bénéficier de définir ou de voir pris en charge sur les messages de toutes les classes.
   

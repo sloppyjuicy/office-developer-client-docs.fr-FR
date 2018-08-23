@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9d40c21cde6bf3a6e8e37dda80dd6f900f233a0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5a3a83153dc799154edc6a46946682684cad8a09
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785836"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593773"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propriété canonique PidTagContainerClass
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette propriété est ignorée en règle générale, cette propriété doit être présent prévoient des versions de Microsoft® Exchange Server avant de gestionnaire de boîte aux lettres Exchange Server 2003.
   
@@ -32,7 +32,7 @@ Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette 
 |Propriétés associées :  <br/> |PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, PR_CONTAINER_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x3613  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Container  <br/> |
+|Domaine :  <br/> |Container  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -89,7 +89,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

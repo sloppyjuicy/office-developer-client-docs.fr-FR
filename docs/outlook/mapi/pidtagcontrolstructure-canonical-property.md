@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e531c986ef6de2eccca446f5d560290fed831c21
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785875"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594354"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propriété canonique PidTagControlStructure
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un pointeur vers une structure d’un contrôle utilisé dans une boîte de dialogue. 
   
@@ -32,7 +32,7 @@ Contient un pointeur vers une structure d’un contrôle utilisé dans une boît
 |Propriétés associées :  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificateur :  <br/> |0x3F01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Afficher une table MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,7 +67,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1ecc80feec2b0a86f35d03f1ca4f75ea9ff094e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 27999c141fdeb3e1610213db128bc4ad3d049e6d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783346"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594102"
 ---
 # <a name="form-verbs"></a>Formulaire verbes
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Interface utilisateur d’un formulaire offre généralement des éléments de menu ou des contrôles permettant aux utilisateurs d’effectuer un type d’action avec le formulaire. Il est le travail du serveur de formulaire pour gérer ces actions de l’utilisateur. Cette interface est implémentée à l’aide des API Win32 standard ; une écriture est tout simplement à rédiger des autres interfaces pour les programmes Win32 régulières.
   

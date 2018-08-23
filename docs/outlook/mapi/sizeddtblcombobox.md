@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fea2b496a34d7aa7f9469158fae14daf6a770608
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 39854c320078d2e2ca2365244f094e28962380d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787178"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593654"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour la description d’un contrôle de zone de liste déroulante et le nombre maximal de caractères pouvant être entré dans le contrôle d’édition associé. 
   
@@ -64,5 +64,5 @@ lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;
 ## <a name="see-also"></a>Voir aussi
 
 - [DTBLCOMBOBOX](dtblcombobox.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

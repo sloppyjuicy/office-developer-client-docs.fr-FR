@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2cd55464-263f-4f83-b874-524271773934
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9f1fd2d4e4bfdc9ccbbb771fedf1141769c8c8ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ffeee38920bf1c864b93e6513913c140cb658d8b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595306"
 ---
 # <a name="working-with-unicode-columns"></a>Utilisation de colonnes Unicode
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaînes de caractères dans les tableaux peuvent être représentées à l’aide de caractères 8 bits standard, qui sont de type de propriété PT_STRING8, ou caractères Unicode 16 bits, qui sont du type de la propriété PT_UNICODE. L’implémentation de la table est libres de choisir ou non leurs tables de prise en charge des chaînes Unicode. Étant donné que Unicode ajoute la valeur pour les clients et les fournisseurs de services en étendant le jeu de fonctionnalités, prenant en charge Unicode dans la mesure du possible est recommandée. 
   

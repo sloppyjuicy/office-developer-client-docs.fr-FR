@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 92407d56bd095135ac1c6c292aa4b1da4755e93c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 61dc61872e8d1ed525d5ac3c46c56ccc3e45ea5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593696"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propriété canonique PidTagProviderIcon
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne Unicode qui spécifie une icône personnalisée ou des icônes à afficher pour un fournisseur MAPI dans la barre d’état Microsoft Office Outlook dans les États en ligne et hors connexion.
   
@@ -32,7 +32,7 @@ Contient une chaîne Unicode qui spécifie une icône personnalisée ou des icô
 |Propriétés associées :  <br/> |PR_PROVIDER_ICON, PR_PROVIDER_ICON_W  <br/> |
 |Identificateur :  <br/> |0x3417  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Banque de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

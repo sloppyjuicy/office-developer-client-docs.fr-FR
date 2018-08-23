@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 645ea2be2f690701780932e891da3dc32bb1716f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1e15a0b09057d9aab1e6c5bec6c314463f15e329
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593941"
 ---
 # <a name="pidtagconversionprohibited-canonical-property"></a>Propriété canonique PidTagConversionProhibited
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si les conversions de messages sont interdits par la valeur par défaut de l’utilisateur de messagerie associé.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si les conversions de messages sont interdits par la val
 |Propriétés associées :  <br/> |PR_CONVERSION_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x3A03  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

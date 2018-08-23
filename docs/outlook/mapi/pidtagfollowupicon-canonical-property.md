@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 39840f27d67daca625daea08555ab89d5a362e63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8fa96736b5404d84c6ab48851b916c5ab987ae2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593920"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>Propriété canonique PidTagFollowupIcon
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la couleur de l’objet du message.
   
@@ -32,7 +32,7 @@ Spécifie la couleur de l’objet du message.
 |Propriétés associées :  <br/> |PR_FOLLOWUP_ICON  <br/> |
 |Identificateur :  <br/> |0x1095  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Renommer le dossier de message  <br/> |
+|Domaine :  <br/> |Renommer le dossier de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -78,7 +78,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

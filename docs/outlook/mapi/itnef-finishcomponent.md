@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7008549111f1b914cf2025c8d61ebc07196706fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0242015680f11e5be6ae8ea9987e5778dc7cdf05
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784481"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594361"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Traite des composants individuels à partir d’un message à la fois dans un flux de Transport-Neutral Encapsulation Format (TNEF).
   

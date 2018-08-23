@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 88950eda-85ae-ad7a-46c6-0e1933d35e04
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 00d92f8e2ec3af766d5b241d1a911be304b346d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 152afd68bea44f3485b2cc566f3f0d2768590704
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783263"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594473"
 ---
 # <a name="exchangestoreversionnum"></a>EXCHANGE_STORE_VERSION_NUM
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Stocke les informations de version de Microsoft Exchange Server dans un profil de Microsoft Office Outlook, les comptes connectés à.
   
@@ -35,7 +35,7 @@ typedef struct {
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _wMajorVersion_
   

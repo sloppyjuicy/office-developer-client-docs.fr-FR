@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 22f17df9347b4744dfe6598e7007469ffb9e5251
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784766"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595341"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La fonction **MAPICrashRecovery** vérifie que l’état du fichier de dossiers personnels (PST) ou le fichier de dossiers en mode hors connexion (OST) de mémoire partagée. Si la mémoire est dans un état cohérent, la fonction **MAPICrashRecovery** déplace les données sur le disque et empêche plu accès en lecture ou écriture jusqu'à ce que le processus est terminé. 
   
@@ -57,6 +57,6 @@ Appelez **MAPICrashRecovery** avec la **MAPICRASH\_récupérer** et indicateurs 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de la récupération de panne MAPI API](about-the-mapi-crash-recovery-api.md)
+- [À propos de l’API de récupération sur incident MAPI](about-the-mapi-crash-recovery-api.md)
 - [Utiliser l’API de récupération sur incident MAPI](how-to-use-the-mapi-crash-recovery-api.md)
 

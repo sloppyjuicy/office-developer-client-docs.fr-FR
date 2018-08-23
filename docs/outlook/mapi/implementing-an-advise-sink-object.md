@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’un objet de réception de notifications
+title: Implémentation d’un objet récepteur de conseil
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a95222f8ec75c519558636cf54111f28cbe14066
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b457fce208923ce01686812f20031e365842ccd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784174"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593675"
 ---
-# <a name="implementing-an-advise-sink-object"></a>L’implémentation d’un objet de réception de notifications
+# <a name="implementing-an-advise-sink-object"></a>Implémentation d’un objet récepteur de conseil
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un client peut implémenter ses propres objets du récepteur advise ou utiliser une fonction utilitaire, [HrAllocAdviseSink](hrallocadvisesink.md). **HrAllocAdviseSink** crée un objet de récepteur advise avec une implémentation **OnNotify** qui appelle une fonction de rappel. 
   
@@ -37,7 +37,7 @@ Selon le type d’événement et la source de notifications, votre méthode **On
 |:-----|:-----|
 |Objet déplacé  <br/> |Si le parent d’origine de l’objet déplacé est lié au nouveau parent, mettre à jour le début de l’affichage du dossier ou du conteneur de carnet d’adresses la plus élevée dans la hiérarchie. Si les conteneurs deux parents ne sont pas liés, mettre à jour de leur point de vue.  <br/> |
 |Nouveau message  <br/> |Modifier l’interface utilisateur pour informer l’utilisateur de l’arrivée d’un ou plusieurs nouveaux messages. Placez le dossier de réception dans l’affichage actuel.  <br/> |
-|Erreur  <br/> |Pour tous les objets à l’exception de la session, ouvrez une session l’erreur si nécessaire et de retour. Pour l’objet session, fermez la session, si possible.  <br/> |
+|Error  <br/> |Pour tous les objets à l’exception de la session, ouvrez une session l’erreur si nécessaire et de retour. Pour l’objet session, fermez la session, si possible.  <br/> |
 |Recherche terminée  <br/> |Aucun traitement n’est nécessaire.  <br/> |
    
 > [!NOTE]

@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 9581656c40af39338f8919903f6d0de29c20a061
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594452"
 ---
 # <a name="remove-custom-form-definition-saved-with-a-message"></a>Supprimer la définition du formulaire personnalisé enregistrée avec un message
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente un exemple de code en langage C++ qui convertit un message qui a été enregistré avec une définition de formulaire personnalisé à un message régulière sans la définition du formulaire.
   

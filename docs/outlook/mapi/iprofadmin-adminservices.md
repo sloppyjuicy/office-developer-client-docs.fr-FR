@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7566bb075c2ef9903b5a376fd90f209c8683c31e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a9e596ff8561d5aabc71ffe3540efaeef8f5b83d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784380"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593983"
 ---
 # <a name="iprofadminadminservices"></a>IProfAdmin::AdminServices
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Donne accès à un objet de l’administration de service de message pour apporter des modifications aux services de message dans un profil.
   

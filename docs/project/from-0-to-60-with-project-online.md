@@ -1,19 +1,19 @@
 ---
-title: Entre 0 et 60 avec Project Online
+title: De 0 à 60 avec Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un développeur peut personnaliser un site Project Online (SharePoint hébergé) à l’aide d’applications autonomes et/ou compléments Project. Un large éventail d’applications est possible que la plage à partir de répondre aux besoins des personnes impliquées dans un projet pour les fonctions d’assistance PMO, telles qu’une des options suivantes :'
-ms.openlocfilehash: c50ed12e9f1127f6313a02db4d84a151778e17b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787794"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594529"
 ---
-# <a name="from-0-to-60-with-project-online"></a>Entre 0 et 60 avec Project Online
+# <a name="from-0-to-60-with-project-online"></a>De 0 à 60 avec Project Online
 
 Un développeur peut personnaliser un site Project Online (SharePoint hébergé) à l’aide d’applications autonomes et/ou compléments Project. Un large éventail d’applications est possible que la plage à partir de répondre aux besoins des personnes impliquées dans un projet pour les fonctions d’assistance PMO, telles qu’une des options suivantes :
   
@@ -83,7 +83,7 @@ Vous pouvez télécharger et exécuter l’exemple en plusieurs étapes :
     
    Project Online examine à la fois la portée d’application de la macro complémentaire et les autorisations utilisateur déterminent l’accès aux informations sur l’hôte de Project Online. Si l’accès est refusé explicitement dans un ou les deux paramètres, Project Online refuse l’accès aux informations. Dans le cas contraire, l’accès est accordé.
     
-3. Activer le chargement de version test sur votre site. Voir l’article [Configuration de Project Online pour le développement d’applications ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)pour plus d’informations. 
+3. Activer le [chargement de version test](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site.  
     
 4. Générez le projet.
     
@@ -101,7 +101,7 @@ Un exemple de l’environnement de développement Windows pour ce type d’appli
     
 - .NET framework 4.0 ou version ultérieure
     
-- [Package SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (pour les appels CSOM) 
+- [Package SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (pour les appels CSOM) 
     
 - Un langage de programmation, tels que Visual C# 
     
@@ -115,7 +115,7 @@ Vous pouvez exécuter l’exemple en quelques étapes :
     
    Project Online examine à la fois la portée d’application de la macro complémentaire et les autorisations utilisateur déterminent l’accès aux informations sur l’hôte de Project Online. Si l’accès est refusé explicitement dans un ou les deux paramètres, Project Online refuse l’accès aux informations. Dans le cas contraire, l’accès est accordé.
     
-3. Activer le chargement de version test sur votre site. Voir l’article [Configuration de Project Online pour le développement d’applications ](http://nearbaseline.com/2013/12/configuring-project-online-for-app-development/.aspx)pour plus d’informations. 
+3. Activer le [chargement de version test](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site. 
     
 4. Générez le projet.
     
@@ -133,7 +133,7 @@ Un exemple de l’environnement de développement Windows pour ce type d’appli
     
 - .NET framework 4.0 ou version ultérieure
     
-- [Package SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/.aspx) (pour les appels CSOM) 
+- [Package SharePointOnline CSOM](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (pour les appels CSOM) 
     
 - Un langage de programmation, tels que Visual C# 
     
@@ -163,10 +163,10 @@ Chaque exemple d’application possède un article afin d’expliquer la mise en
     
 - [Développement d’un complément Project Online à l’aide du modèle objet JavaScript (JSOM)](developing-a-project-online-add-in-using-the-javascript-object-model-jsom.md)
     
-- [Accès aux champs personnalisés d’entreprise Project Online](accessing-project-online-enterprise-custom-fields.md)
+- [Accès aux champs personnalisés d’entreprise Project Online](accessing-project-online-enterprise-custom-fields.md)
     
 ## <a name="see-also"></a>Voir aussi
 
-Pour la documentation et des exemples relatifs à Project Online et développement d’applications à l’aide de CSOM, voir le [Portail de développement Project](http://dev.office.com/project.aspx).
+Pour la documentation et des exemples relatifs à Project Online et développement d’applications à l’aide de CSOM, voir le [Portail de développement Project](https://developer.microsoft.com/en-us/project).
     
 

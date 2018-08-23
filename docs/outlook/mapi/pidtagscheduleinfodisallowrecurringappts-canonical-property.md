@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 61e082dd-f5bc-479b-990a-c9c0360f883e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f5f3feb5b3186f8d0239558aa410c7f71bdf54f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 19e2cc0b95aaefbca1ec618c55b8d397de4d340e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786707"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593689"
 ---
 # <a name="pidtagscheduleinfodisallowrecurringappts-canonical-property"></a>Propriété canonique PidTagScheduleInfoDisallowRecurringAppts
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE lorsque la réponse automatique pour les rendez-vous périodiques est Refuser.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE lorsque la réponse automatique pour les rendez-vous pé
 |Propriétés associées :  <br/> |PR_SCHDINFO_DISALLOW_RECURRING_APPTS  <br/> |
 |Identificateur :  <br/> |0x686E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

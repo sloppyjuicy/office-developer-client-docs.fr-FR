@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 649046aa48f293caa5bd71cc670481b5c205459a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fdd5d01b96c9ea756ee64f113ccb5119a9693668
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787137"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594466"
 ---
 # <a name="servicewizarddlgproc"></a>SERVICEWIZARDDLGPROC
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit une fonction de rappel appelée par l’Assistant profil pour autoriser un fournisseur de services de réagir aux événements utilisateur lorsque les feuilles de propriétés ou des pages du fournisseur sont affichés. 
   

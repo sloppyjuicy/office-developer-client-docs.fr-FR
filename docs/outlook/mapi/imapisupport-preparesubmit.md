@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 467242e3-96c9-4280-9cbc-9ecfe3f279cf
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f6902b45cde3e5349d69b6f35c3f8980deb031b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5f45a6457bba738b290d967260bbd34c0f88f93f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595061"
 ---
 # <a name="imapisupportpreparesubmit"></a>IMAPISupport::PrepareSubmit
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il prépare un message pour son envoi au spouleur MAPI.
   

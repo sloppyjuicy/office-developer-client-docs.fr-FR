@@ -1,5 +1,5 @@
 ---
-title: Démarrage d’une Session MAPI
+title: Démarrage d’une session MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d683d5fc959b219569417c74494cb47d7c2c059e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9e95423a1aa9a04247a70592a797d2395cafecc4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787246"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595369"
 ---
-# <a name="starting-a-mapi-session"></a>Démarrage d’une Session MAPI
+# <a name="starting-a-mapi-session"></a>Démarrage d’une session MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Bien qu’il existe une quantité importante de travail effectué au cours de la session de démarrage, les tâches requises sont minimes. Cette opération est effectuée dans l’interface MAPI de traitement des appels [exécuter MAPIInitialize](mapiinitialize.md) et [MAPILogonEx](mapilogonex.md) . Ces deux fonctions acceptent des indicateurs en tant que paramètres d’entrée pour contrôler des aspects de la session de gestion de la notification et l’interface utilisateur. Il est important de comprendre les conséquences de la définition de chacune de ces indicateurs lors de l’appel **exécuter MAPIInitialize** pour initialiser les bibliothèques MAPI et **MAPILogonEx** pour ouvrir une session sur le sous-système MAPI. 
   
@@ -35,11 +35,11 @@ Bien qu’il existe une quantité importante de travail effectué au cours de la
     
 ## <a name="in-this-section"></a>Dans cette section
 
-[L’initialisation de MAPI](initializing-mapi.md)
+[Initialisation de MAPI](initializing-mapi.md)
   
 > Décrit comment initialiser MAPI pour une session.
     
-[L’initialisation d’OLE pour MAPI](initializing-ole-for-mapi.md)
+[Initialisation d’OLE pour MAPI](initializing-ole-for-mapi.md)
   
 > Décrit les appels s’initialiser OLE pour une utilisation avec MAPI.
     
@@ -47,7 +47,7 @@ Bien qu’il existe une quantité importante de travail effectué au cours de la
   
 > Décrit comment initialiser les utilitaires MAPI.
     
-[Se connecter à MAPI](logging-on-to-mapi.md)
+[Connexion à MAPI](logging-on-to-mapi.md)
   
 > Décrit comment les applications clientes se connecter au système sub MAPI.
     

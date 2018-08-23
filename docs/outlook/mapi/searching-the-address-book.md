@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6673e1d51a7c030a35a7c5c3cbc955341afba299
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0d3fb5d2ce5036c6491e24bba8d3541b123eaab1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595124"
 ---
 # <a name="searching-the-address-book"></a>Recherche dans le carnet d’adresses
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI permet de fournisseurs de carnet d'adresses d'impl�menter deux niveaux de la fonctionnalit� de recherche :
   
@@ -29,7 +29,7 @@ Because address book providers can support searching for each of their container
   
 In a container that supports searches, retrieve established criteria by calling [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md). You can also request that the user be prompted for search criteria before a container's contents table is displayed. Pour choisir cette option, définir l’indicateur AB_FIND_ON_OPEN de la propriété du conteneur **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)). After the user enters the criteria, it is stored as a restriction and passed to the **SetSearchCriteria** method. Setting AB_FIND_ON_OPEN is particularly useful if you are using an online service or any address book provider that has a slow link to its data. 
   
-### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Pour effectuer une recherche de base dans un conteneur de carnet d’adresses
+### <a name="to-perform-a-basic-search-in-an-address-book-container"></a>Pour effectuer une recherche de base dans un conteneur de carnet d'adresses
   
 1. Call the container's [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) method to open its contents table. 
     

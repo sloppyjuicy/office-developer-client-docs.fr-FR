@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 17ab26c62bcbb57ff8e53b5412ca27ed414fb725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ffac4328401b8afbc07eb650ea6c08da5f9c51b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784757"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594494"
 ---
 # <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette structure est utilisée avec [HrCreateOfflineObj](hrcreateofflineobj.md).
   
@@ -39,7 +39,7 @@ typedef struct
 } MAPIOFFLINE_CREATEINFO;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulSize**
   

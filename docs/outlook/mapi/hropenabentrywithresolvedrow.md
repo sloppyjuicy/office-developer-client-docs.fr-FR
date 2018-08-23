@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0e39f4edc871b49675f1ffcc1bc541345c8829d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9572f44f1f4865fcce5d7aa8bd8478340b0de968
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594718"
 ---
 # <a name="hropenabentrywithresolvedrow"></a>HrOpenABEntryWithResolvedRow
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) sauf qu’elle obtient **emsabpUID** à partir de la ligne résolue et ouvre **propriété entryID**automatiquement.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 55db507055692c9e929b0125abf719d8c03ac967
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: efb0812a88ad435c2456a729a6e950b371cc0250
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786285"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595348"
 ---
 # <a name="pidtagnull-canonical-property"></a>Propriété canonique PidTagNull
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente un paramètre d’une propriété ou une valeur null ou réserve de l’espace de tableau.
   
@@ -32,7 +32,7 @@ Représente un paramètre d’une propriété ou une valeur null ou réserve de 
 |Propriétés associées :  <br/> |PR_NULL  <br/> |
 |Identificateur :  <br/> |0x0000  <br/> |
 |Type de données :  <br/> |PT_NULL  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

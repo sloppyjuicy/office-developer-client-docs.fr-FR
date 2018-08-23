@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83290b8e-fffc-41c8-a01e-578d130b65c5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2be5e40de6894b99d9de86423e99dd95a08bc04c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ef5fee7a2e84133f88a00703f7602831d26e3d3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783689"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594725"
 ---
 # <a name="imapicontrolgetlasterror"></a>IMAPIControl::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de contrôle de bouton précédent. 
   

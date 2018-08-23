@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: Cette rubrique décrit les conditions requises pour installer correctement un fournisseur Outlook Social Connector (OSC) et l’installation vérifie que votre programme d’installation du fournisseur doit effectuer pour fonctionner correctement.
-ms.openlocfilehash: cb8ed24db28c3b0e945c4db4b2daa4a2470d7dd5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9854bf5c2b524c6d735fe974046583dab990012
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787595"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593997"
 ---
 # <a name="installation-checklist"></a>Liste de vérification d’installation
 
@@ -90,7 +90,7 @@ La procédure suivante décrit les vérifications d’installation décrites dan
       
       `{A3B82DA3-8AD9-4935-AEA8-54B754459483}`
       
-      L’ID du composant complet est un GUID qui fournit une méthode d’indirection à un niveau, semblable à un pointeur. Pour plus d’informations sur Windows Installer, voir [Introduction à la Documentation de Windows Installer](http://msdn.microsoft.com/library/_msi_roadmap_to_windows_installer_documentation.aspx).
+      L’ID du composant complet est un GUID qui fournit une méthode d’indirection à un niveau, semblable à un pointeur. Pour plus d’informations sur Windows Installer, voir [Introduction à la Documentation de Windows Installer](https://docs.microsoft.com/en-us/windows/desktop/msi/roadmap-to-windows-installer-documentation).
       
    2. Si le composant complet spécifié existe, une version de l’OSC est installée. Passez à l’étape 5 pour trouver les paramètres régionaux à interface utilisateur Outlook actif pour préparer l’installation de la dernière version de l’OSC.
       

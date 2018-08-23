@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e83c05c6-a7c0-486c-a112-58a39255767a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 573e0ba37d4117d85193933a3a5045b5060fbd3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 33bf77029207e2d8d734d5c49735262135896660
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593724"
 ---
 # <a name="pidtaginconflict-canonical-property"></a>Propriété canonique PidTagInConflict
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE lorsque la pièce jointe représente un autre réplica.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE lorsque la pièce jointe représente un autre réplica.
 |Propriétés associées :  <br/> |PR_IN_CONFLICT  <br/> |
 |Identificateur :  <br/> |0x666C  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Note de conflit  <br/> |
+|Domaine :  <br/> |Note de conflit  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

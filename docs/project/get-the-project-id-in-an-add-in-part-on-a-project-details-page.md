@@ -1,19 +1,19 @@
 ---
-title: Obtenez l’ID de projet dans un composant sur une Page de détails de projet de complément
+title: Obtenir l’ID du projet dans un composant de complément sur une page de détails du projet
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Dans Ajouter des composants sont hébergés dans les éléments iframe qui sont entièrement isolés à partir de la page d’hébergement. Pour obtenir plus d’informations sur le projet actuel dans un complément composant sur Page de détails de projet (PDP), vous pouvez utiliser la méthode window.postMessage, un récepteur d’événements et un gestionnaire d’événements qui analyse l’ID du projet à partir du message.
-ms.openlocfilehash: 6704dae7ded385f86d2da47a1334ae4c81622a74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9f6d02f328860f46784f86c049581fa28bb4749
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787788"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594424"
 ---
-# <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtenez l’ID de projet dans un composant sur une Page de détails de projet de complément
+# <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtenir l’ID du projet dans un composant de complément sur une page de détails du projet
 
 Dans Ajouter des composants sont hébergés dans les éléments **iframe** qui sont entièrement isolés à partir de la page d’hébergement. Pour obtenir plus d’informations sur le projet actuel dans un complément composant sur Page de détails de projet (PDP), vous pouvez utiliser la méthode **window.postMessage** , un récepteur d’événements et un gestionnaire d’événements qui analyse l’ID du projet à partir du message. 
   
@@ -38,7 +38,7 @@ Pour utiliser l’exemple de code dans cet article, vous avez besoin d’une des
             
         - Vous devez être connecté en tant qu’utilisateur autre que le compte système. Le compte système ne dispose pas d’autorisation pour installer un complément.
     
-Pour plus d’informations sur les compléments pour Project, consultez [conditions requises pour créer un complément pour Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Pour obtenir des conseils sur le programme d’installation locale (y compris comment désactiver la vérification en boucle, si nécessaire), consultez [configurer un environnement de développement local pour les compléments SharePoint](http://msdn.microsoft.com/library/b0878c12-27c9-4eea-ae3b-7e79e5a8838d%28Office.15%29.aspx) . Si vous développez à distance, voir [Developing apps for SharePoint sur un système distant](http://msdn.microsoft.com/library/bf35d59c-9b84-42e5-877e-fa6881a7b6fc%28Office.15%29.aspx).
+Pour plus d’informations sur les compléments pour Project, consultez [conditions requises pour créer un complément pour Project Server 2013](create-a-sharepoint-hosted-project-server-add-in.md#pj15_StatusingApp_Prerequisites) . Pour obtenir des conseils sur le programme d’installation locale (y compris comment désactiver la vérification en boucle, si nécessaire), consultez [configurer un environnement de développement local pour les compléments SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/set-up-an-on-premises-development-environment-for-sharepoint-add-ins) . Si vous développez à distance, voir [Developing apps for SharePoint sur un système distant](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/develop-sharepoint-add-ins).
   
 ## <a name="create-the-sharepoint-hosted-add-in-and-client-web-part"></a>Créer le hébergée par SharePoint complément et client de composant WebPart
 <a name="CreateApp"> </a>
@@ -250,8 +250,8 @@ L’exemple suivant est le code complet de la page de GetProjectID.aspx du compo
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Tâches de programmation du projet](project-programming-tasks.md)
-- [Créer un complément hébergée par SharePoint Project Server](create-a-sharepoint-hosted-project-server-add-in.md)
+- [Tâches de programmation Project](project-programming-tasks.md)
+- [Créer un complément Project Server hébergé sur SharePoint](create-a-sharepoint-hosted-project-server-add-in.md)
 - [Créer des composants de complément à installer avec votre complément SharePoint](http://msdn.microsoft.com/library/a2664289-6c56-4cb1-987a-22367fad55eb%28Office.15%29.aspx)
     
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 95ef351e4fe906608319a3e25de8f20a44e23d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b36e4697bfd4360f4ea6ea47c70eaaae434696d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783447"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595131"
 ---
 # <a name="handling-table-notification"></a>Gestion de notification de la table
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 En guise d’alternative à l’enregistrement directement avec un objet source advise, par exemple un dossier ou un utilisateur de messagerie, un client peut s’inscrire pour les notifications sur un contenu ou une table de hiérarchie. Suivi des modifications à l’adresse carnet d’entrées, dossiers et messages via un contenu ou table de hiérarchie peut être plus simple et plus simple que par le biais des objets individuels. 
 

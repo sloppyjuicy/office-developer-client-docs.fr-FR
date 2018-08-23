@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3eabbc1f43ae183eb7e24f3ddffaba9211e289a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5090ec35885ada98e1e9c0e35c97d51ba98b1b77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786239"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595257"
 ---
 # <a name="pidtagmessagesizeextended-canonical-property"></a>Propriété canonique PidTagMessageSizeExtended
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une version d’entier 64 bits de la propriété **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   
@@ -32,7 +32,7 @@ Contient une version d’entier 64 bits de la propriété **PR_MESSAGE_SIZE** ([
 |Propriétés associées :  <br/> |PR_MESSAGE_SIZE_EXTENDED  <br/> |
 |Identificateur :  <br/> |0x0E08  <br/> |
 |Type de données :  <br/> |PT_I8  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -75,7 +75,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

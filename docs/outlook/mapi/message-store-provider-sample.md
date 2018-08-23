@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b3c907b0a53a41a52516b23ffb1cf7400d887d89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 25c606531aa9a7436306a1b87c32aab49fd975db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784883"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593913"
 ---
 # <a name="message-store-provider-sample"></a>Exemple de fournisseur de banque de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le fournisseur de banque PST encapsulé exemple utilise un fournisseur de fichier (.pst) de dossiers personnels en tant que serveur principal pour le stockage des données. Le fournisseur de banque PST encapsulé doit être utilisé avec l’API de réplication. 
   
@@ -40,13 +40,13 @@ Cet exemple prend en charge de Microsoft Outlook 2010 64 bits et maintenant a é
   
 - [À propos de l’API de réplication](about-the-replication-api.md)
     
-- [L’initialisation d’un fournisseur de banque de dossiers personnels encapsulé](initializing-a-wrapped-pst-store-provider.md)
+- [Initialisation d’un fournisseur d’archive PST encapsulée](initializing-a-wrapped-pst-store-provider.md)
     
-- [Se connecter à un fournisseur de banque de dossiers personnels encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur d’archive PST encapsulée](logging-on-to-a-wrapped-pst-store-provider.md)
     
-- [À l’aide d’un fournisseur de banque de dossiers personnels encapsulé](using-a-wrapped-pst-store-provider.md)
+- [Utilisation d’un fournisseur d’archive PST encapsulée](using-a-wrapped-pst-store-provider.md)
     
-- [Arrêt d’un fournisseur de banque de dossiers personnels encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [Arrêt d’un fournisseur d’archive PST encapsulée](shutting-down-a-wrapped-pst-store-provider.md)
     
  **Pour installer le fournisseur de banque exemple encapsulé PST**
   

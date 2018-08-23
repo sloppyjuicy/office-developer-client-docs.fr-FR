@@ -1,5 +1,5 @@
 ---
-title: Mappage de noms MAPI pour les noms de propriété canonique
+title: Mappage des noms MAPI aux noms de propriétés canoniques
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e82dee1c0acea4e84e15cfe5c6993f9110246bd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8ecf98d1e6b267d212d23959cdbde0d53f8c961a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784821"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594690"
 ---
-# <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage de noms MAPI pour les noms de propriété canonique
+# <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage des noms MAPI aux noms de propriétés canoniques
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique mappe chaque propriété MAPI sur le nom de propriété canonique correspondant. La rubrique contient trois tables : une table de propriétés nommées avec des identificateurs numériques, une seconde table pour les propriétés nommées avec les identificateurs de chaîne et une troisième table des propriétés avec balise.
   
@@ -328,7 +328,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
 |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
 |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
-|Mots clés  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
+|Keywords  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |
 |LastSaveDtm  <br/> |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |
@@ -342,9 +342,9 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |RevNumber  <br/> |[PidNameRevisionNumber](pidnamerevisionnumber-canonical-property.md) <br/> |
 |Sécurité  <br/> |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |
 |SlideCount  <br/> |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |
-|Objet  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
+|Subject  <br/> |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |
 |Template  <br/> |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |
-|Titre  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
+|Title  <br/> |[PidNameTitle](pidnametitle-canonical-property.md) <br/> |
 |UMAudioNotes  <br/> |[PidNameAudioNotes](pidnameaudionotes-canonical-property.md) <br/> |
 |WordCount  <br/> |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |
 |X--fonctionnalités de partage  <br/> |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |
@@ -1236,7 +1236,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |PR_SCHDINFO_MONTHS_OOF  <br/> |[PidTagScheduleInfoMonthsAway](pidtagscheduleinfomonthsaway-canonical-property.md) <br/> |
 |PR_SCHDINFO_MONTHS_TENTATIVE  <br/> |[PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md) <br/> |
 |PR_SCHDINFO_RESOURCE_TYPE  <br/> |[PidTagScheduleInfoResourceType](pidtagscheduleinforesourcetype-canonical-property.md) <br/> |
-|CLÉ PR_SEARCH_KEY  <br/> |[PidTagSearchKey](pidtagsearchkey-canonical-property.md) <br/> |
+|PR_SEARCH_KEY  <br/> |[PidTagSearchKey](pidtagsearchkey-canonical-property.md) <br/> |
 |PR_SEARCH  <br/> |[PidTagSearch](pidtagsearch-canonical-property.md) <br/> |
 |PR_SEARCH_ATTACHMENTS_W  <br/> |[PidTagSearchAttachments](pidtagsearchattachments-canonical-property.md) <br/> |
 |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |[PidTagSearchRecipientEmailBcc](pidtagsearchrecipientemailbcc-canonical-property.md) <br/> |

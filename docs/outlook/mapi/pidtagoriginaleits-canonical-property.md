@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3bb3226868f88baf12e8778f0122f975c1cadd84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ed0f4f624314b2531f77751ae60def8982757ce2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786320"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594788"
 ---
 # <a name="pidtagoriginaleits-canonical-property"></a>Propriété canonique PidTagOriginalEits
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une copie des types information codée d’origine (EITs) pour le texte du message.
   
@@ -32,7 +32,7 @@ Contient une copie des types information codée d’origine (EITs) pour le texte
 |Propriétés associées :  <br/> |PR_ORIGINAL_EITS  <br/> |
 |Identificateur :  <br/> |0x0021  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

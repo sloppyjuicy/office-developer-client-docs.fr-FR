@@ -1,5 +1,5 @@
 ---
-title: Création d’un profil à l’aide de Code personnalisé
+title: Création d’un profil à l’aide de code personnalisé
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 74869293215b86c69ab4e0b1337be6014419fa3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c14d58e8a03633615798b50b256b9cc54fcc4f4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594732"
 ---
-# <a name="creating-a-profile-by-using-custom-code"></a>Création d’un profil à l’aide de Code personnalisé
+# <a name="creating-a-profile-by-using-custom-code"></a>Création d’un profil à l’aide de code personnalisé
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Si vous choisissez d’écrire du code pour créer un profil, assurez-vous de bien comprendre l’ordre des entrées de profil et le type et la quantité d’informations sont nécessaire pour chaque entrée. Les implications de l’ordre des entrées dans un profil est expliquée dans [Les profils MAPI](mapi-profiles.md).
   
