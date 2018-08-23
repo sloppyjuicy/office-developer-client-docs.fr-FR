@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5910fd60b7837c2f170358dd5cd4e3306e4c1770
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786729"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578646"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si la personne qui a délégué doit recevoir une copie des objets liés à la réunion qui sont envoyées au délégué.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si la personne qui a délégué doit recevoir une copie 
 |Propriétés associées :  <br/> |PR_SCHDINFO_BOSS_WANTS_COPY  <br/> |
 |Identificateur :  <br/> |0x6842  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

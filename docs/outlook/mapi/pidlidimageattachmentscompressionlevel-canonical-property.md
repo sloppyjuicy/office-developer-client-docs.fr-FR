@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 13e2ac93e7e3ba46bf25b26e76bd44c15f2b89e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 55b965374bb1d7e5859f0cac5cc2f61956ea5b55
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785247"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578919"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Propriété canonique PidLidImageAttachmentsCompressionLevel
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit un niveau de compression à appliquer aux pièces jointes de l’image.
   
@@ -33,7 +33,7 @@ Définit un niveau de compression à appliquer aux pièces jointes de l’image.
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008593  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Configuration d’exécution  <br/> |
+|Domaine :  <br/> |Configuration d’exécution  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

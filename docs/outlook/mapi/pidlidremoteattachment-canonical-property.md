@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcd786e2-5b93-4a4c-933a-df305abe4bcb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ae88b30baf73f3c90446f5cf0e3466ab6b86deac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a990c3622b9f37332056c162dce9445fd5b2947e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785382"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582342"
 ---
 # <a name="pidlidremoteattachment-canonical-property"></a>Propriété canonique PidLidRemoteAttachment
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si un élément à distance comporte une pièce jointe est associée.
   
@@ -33,7 +33,7 @@ Indique si un élément à distance comporte une pièce jointe est associée.
 |Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
 |ID de type long (capot) :  <br/> |0x00008F07  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Message à distance  <br/> |
+|Domaine :  <br/> |Message à distance  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

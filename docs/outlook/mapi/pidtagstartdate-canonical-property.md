@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 908c2d9f-53f4-4aa8-b309-2f3ac2dca5b5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 14a077dfdb0f0781ab0d9f085c758c7a7d6285af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 82d9060513814b5011e33ca00d849a75f9defbf6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786824"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577372"
 ---
 # <a name="pidtagstartdate-canonical-property"></a>Propriété canonique PidTagStartDate
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure d’un rendez-vous comme gérés par une application de planification départ.
   
@@ -32,7 +32,7 @@ Contient la date et l’heure d’un rendez-vous comme gérés par une applicati
 |Propriétés associées :  <br/> |PR_START_DATE  <br/> |
 |Identificateur :  <br/> |0x0060  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

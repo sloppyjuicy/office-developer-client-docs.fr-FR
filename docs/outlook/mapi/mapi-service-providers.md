@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3f1cab24ef6bbd632ee3dc204e93f59e6f9ac846
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1f931382e790da13e7d4a746e286d9dc176b7b6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571905"
 ---
 # <a name="mapi-service-providers"></a>Fournisseurs de services MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe trois principaux types de fournisseurs de services :
   
@@ -60,5 +60,5 @@ Carnet d’adresses, banque de messages et les fournisseurs de transport effectu
 
 
 
-[Concepts MAPI (en anglais)](mapi-concepts.md)
+[Concepts MAPI](mapi-concepts.md)
 

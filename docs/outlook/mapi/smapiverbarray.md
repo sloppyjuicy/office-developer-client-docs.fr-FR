@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1767c86cb5390572b95530060f2295034ed35f43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7a2911779e5f9edb8c0bba7c3476a74ce410477c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787218"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569462"
 ---
 # <a name="smapiverbarray"></a>SMAPIVerbArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures [SMAPIVerb](smapiverb.md) qui décrivent les verbes MAPI. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cForms**
   

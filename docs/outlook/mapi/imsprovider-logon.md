@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b89c8129f68852bdd243a7f984497ab312aa2551
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784325"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567635"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Journaux MAPI sur une instance d’un fournisseur de magasin de message.
   

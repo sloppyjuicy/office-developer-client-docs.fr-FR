@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 70d23bebfda10339ffb05f573c8c309a44f09d7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787460"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580438"
 ---
 # <a name="uptbl"></a>UPTBL
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations de téléchargement du contenu d’un dossier pendant la [Télécharger l’état de la table](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPTBL
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -92,7 +92,7 @@ _Conservés_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [UPTBLE](uptble.md)
 

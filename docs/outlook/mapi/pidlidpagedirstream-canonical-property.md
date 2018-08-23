@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 809209863af912113ac5f0795cc7c3b0cf51e792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cc2bacb85da810333fb9c1741fd1a414396f2f74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785329"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578996"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>Propriété canonique PidLidPageDirStream
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente des informations sur les pages du formulaire personnalisé associé au message.
   
@@ -33,7 +33,7 @@ Représente des informations sur les pages du formulaire personnalisé associé 
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008513  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Configuration d’exécution  <br/> |
+|Domaine :  <br/> |Configuration d’exécution  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -57,7 +57,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Responsabilités du client d’attribution de noms
+title: Responsabilités de noms de clients
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a97d108b2f36b40e5f8818ea81c138d7384ce9b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f47193bf8866622fa2e6d1f849d0568471c5461c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580781"
 ---
-# <a name="client-naming-responsibilities"></a>Responsabilités du client d’attribution de noms
+# <a name="client-naming-responsibilities"></a>Responsabilités de noms de clients
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les clients doivent respecter une convention d’affectation de noms pour leurs propriétés qui doivent être traduits par une passerelle. Toutes les propriétés à traduire doivent être créées en tant que propriétés nommées dans un des jeux de cinq propriété destinée à contenir les propriétés mappables :
   

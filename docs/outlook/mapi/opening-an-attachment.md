@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3875e51868e882ca454c06949347327a21a93eb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 768528c59d7aa5888c0d0427f86b8be8e1d33669
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784924"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579976"
 ---
 # <a name="opening-an-attachment"></a>L’ouverture d’une pièce jointe
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’ouverture d’une pièce jointe implique l’affichage de ses données. Par exemple, lorsqu’une pièce jointe est ouvert, affiche le contenu du fichier. Tandis que les messages et les dossiers sont ouverts à l’aide de leurs identificateurs d’entrée, les pièces jointes sont ouvertes à l’aide de leurs numéros de pièce jointe, propriétés **PR_ATTACH_NUM** . Pour plus d’informations, voir **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Les numéros de pièce jointe sont disponibles via la table des pièces jointes d’un message.
   

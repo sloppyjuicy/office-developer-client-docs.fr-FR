@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 78e2f63746a866603bc2392fbe5c8bb25d3f38c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: edbc833b411e56e2efb26631362dd25ea42c3c9f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784887"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571408"
 ---
 # <a name="message-properties-overview"></a>Vue d’ensemble des propriétés de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI divise en trois types de plusieurs propriétés de message :
   

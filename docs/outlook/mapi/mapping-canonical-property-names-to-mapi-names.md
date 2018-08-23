@@ -1,5 +1,5 @@
 ---
-title: Mappage de noms de propriété canonique aux noms MAPI
+title: Mappage des noms de propriétés canoniques aux noms MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6693326df818d2792d7448407148e57d53fff86f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f82d5a13066294e8c007f70cd7f54d286ab8b02d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784867"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579360"
 ---
-# <a name="mapping-canonical-property-names-to-mapi-names"></a>Mappage de noms de propriété canonique aux noms MAPI
+# <a name="mapping-canonical-property-names-to-mapi-names"></a>Mappage des noms de propriétés canoniques aux noms MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique mappe chaque nom de propriété canonique à la propriété MAPI ou les propriétés qu’il représente. La rubrique contient trois tables : une table de propriétés nommées avec des identificateurs numériques, une seconde table pour les propriétés nommées avec les identificateurs de chaîne et une troisième table des propriétés avec balise.
   
@@ -328,7 +328,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
 |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
-|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Mots clés  <br/> |
+|[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
 |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |LastPrinted  <br/> |
 |[PidNameLastSaveDateTime](pidnamelastsavedatetime-canonical-property.md) <br/> |LastSaveDtm  <br/> |
@@ -344,9 +344,9 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |DRMLicense  <br/> |
 |[PidNameSecurity](pidnamesecurity-canonical-property.md) <br/> |Sécurité  <br/> |
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |SlideCount  <br/> |
-|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Objet  <br/> |
+|[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Template  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Titre  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Title  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |X--fonctionnalités de partage  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-partage-Config-Url  <br/> |
@@ -903,7 +903,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidTagSearchRecipientEmailBcc](pidtagsearchrecipientemailcc-canonical-property.md) <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |[PidTagSearchRecipientEmailCc](pidtagsearchrecipientemailcc-canonical-property.md) <br/> |PR_SEARCH_RECIP_EMAIL_CC_W  <br/> |
 |[PidTagSearchRecipientEmailTo](pidtagsearchrecipientemailto-canonical-property.md) <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
-|[PidTagSearchKey](pidtagsearchkey-canonical-property.md) <br/> |CLÉ PR_SEARCH_KEY  <br/> |
+|[PidTagSearchKey](pidtagsearchkey-canonical-property.md) <br/> |PR_SEARCH_KEY  <br/> |
 |[PidTagSelectable](pidtagselectable-canonical-property.md) <br/> |PR_SELECTABLE  <br/> |
 |[PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md) <br/> |PR_SENDER_ADDRTYPE, PR_SENDER_ADDRTYPE_A, PR_SENDER_ADDRTYPE_W  <br/> |
 |[PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md) <br/> |PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W  <br/> |

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 20788f40-a7a4-44f7-8e43-efd3a34e6b10
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 34a0989b226d5d214f7c7b0a4c95df5ba9b5d865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cd5eb15a635f87741ad4ef6c837bbe540c2b7242
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785310"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574019"
 ---
 # <a name="pidlidnotewidth-canonical-property"></a>Propriété canonique PidLidNoteWidth
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la largeur de la fenêtre de message visible en pixels. 
   
@@ -33,7 +33,7 @@ Spécifie la largeur de la fenêtre de message visible en pixels.
 |Jeu de propriétés :  <br/> |PSETID_Note  <br/> |
 |ID de type long (capot) :  <br/> |0x00008B02  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Pense-bête  <br/> |
+|Domaine :  <br/> |Pense-bête  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

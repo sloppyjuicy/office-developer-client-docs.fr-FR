@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ab892513348541ec9de3c071a12268afa9337465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8dbb871a234d94f8bb2e21b15ce5de6f0db0e4ee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784793"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581831"
 ---
 # <a name="mapstoragescode"></a>MapStorageSCode
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cartes SCODE renvoie la valeur d’un objet de stockage OLE à un type de valeur HRESULT. 
   

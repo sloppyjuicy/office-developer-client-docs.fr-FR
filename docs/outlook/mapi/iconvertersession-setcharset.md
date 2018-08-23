@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 032f071e18af3a89a2850cf2bd1e141f34bc86d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 69023d2c13037fb52a4d1dc4f7376efbd839aebc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783661"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581698"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie qu'un caractère facultatif configurer que l’interface MAPI à MIME convertisseur utiliser lors de la conversion d’un message MAPI à un flux de données MIME.
   

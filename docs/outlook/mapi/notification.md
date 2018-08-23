@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7a8d25dc7cac4226f38baab593b254108210549e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0d427adde72c24d4ca879c7bd883af09c4ecad53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784929"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579969"
 ---
 # <a name="notification"></a>NOTIFICATION
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des informations sur un événement qui s’est produite et les données qui a été affectées par l’événement.
   
@@ -46,7 +46,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **ulEventType**
   
@@ -114,9 +114,9 @@ Pour plus d’informations sur la notification, consultez les rubriques décrite
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
-|[Gérer les Notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge de la Notification d’événement](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Prise en charge des notifications d’événements](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode [IMAPISupport](imapisupportiunknown.md) pour générer des notifications.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

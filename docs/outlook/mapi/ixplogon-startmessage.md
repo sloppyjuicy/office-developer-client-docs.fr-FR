@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3758cf72aa79dbf500138e96872352950fafbd2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d9235da7e7ec6ec244ee1a75f4795e9c77ec28bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784509"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579948"
 ---
 # <a name="ixplogonstartmessage"></a>IXPLogon::StartMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lance le transfert d’un message entrant à partir du fournisseur de transport pour le spouleur MAPI.
   

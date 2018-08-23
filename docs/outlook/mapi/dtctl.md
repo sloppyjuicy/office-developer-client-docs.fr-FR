@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 68c621f5f73073ed127767cc1db189769dab227d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1ce379ac70f140aae24880b118ca7293f2e72aa4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574712"
 ---
 # <a name="dtctl"></a>DTCTL
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit un contrôle qui sera utilisé dans une boîte de dialogue établie à partir d’un tableau d’affichage. 
   
@@ -58,7 +58,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **ulCtlType**
   

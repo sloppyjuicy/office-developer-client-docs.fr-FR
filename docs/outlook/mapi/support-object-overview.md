@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de la vue d’ensemble de l’objet
+title: Vue d’ensemble de l’objet de prise en charge
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5b062891-39ab-4334-9706-5b376719d5e4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ecc5439b4abbbfd920fba5456db7462f7967388f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7f43a50d08daedc623fa1e4570eafa5d58be71f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787268"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577435"
 ---
-# <a name="support-object-overview"></a>Prise en charge de la vue d’ensemble de l’objet
+# <a name="support-object-overview"></a>Vue d’ensemble de l’objet de prise en charge
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI fournit un objet de prise en charge, un objet qui implémente le [IMAPISupport : IUnknown](imapisupportiunknown.md) interface, pour tous les fournisseurs de services au cours de l’ouverture de session et pour tous les services de message lors de la configuration. 
   

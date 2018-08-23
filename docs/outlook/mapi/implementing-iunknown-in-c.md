@@ -1,5 +1,5 @@
 ---
-title: L’implémentation de IUnknown dans C
+title: Implémentation d’IUnknown dans C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d12201d8476d15021e896a44797ae5fc21178802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bdc81d78927e530037c65ca7fd61d722cd96bab7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784192"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581439"
 ---
-# <a name="implementing-iunknown-in-c"></a>L’implémentation de IUnknown dans C
+# <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Implémentations de la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) dans C sont très similaires aux implémentations C++. Il existe deux étapes de base pour l’implémentation : 
   
@@ -133,5 +133,5 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 ## <a name="see-also"></a>Voir aussi
 
 - [Implémentation d’objets MAPI](implementing-mapi-objects.md)
-- [Implémentation de l’Interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implémentation de l’interface IUnknown](implementing-the-iunknown-interface.md)
 

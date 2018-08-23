@@ -1,5 +1,5 @@
 ---
-title: Types de Tables
+title: Types de tableaux
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 36456c6226b2eb74b8f15995ad0925381302523a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f55902190aa22694d89abd4d118a04d62a3c0d5b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787391"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581915"
 ---
-# <a name="types-of-tables"></a>Types de Tables
+# <a name="types-of-tables"></a>Types de tableaux
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe de nombreux types de tables, chaque type identifié par les informations affichées. Tables activer les applications clientes et des fournisseurs de services pour accéder rapidement et de manipuler les propriétés importantes de nombreux types d’objets. 
   
@@ -44,8 +44,8 @@ Les tableaux MAPI et leurs implémenteurs et les utilisateurs sont les suivants�
 |Profil  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
 |Provider  <br/> |Implémentés par MAPI. Utilisé par les clients.  <br/> |
 |Dossier de r�ception  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients.  <br/> |
-|Destinataire  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et des fournisseurs de transport.  <br/> |
-|État  <br/> |Implémentés par MAPI et fournisseurs de services. Utilisé par les clients.  <br/> |
+|Recipient  <br/> |Implémenté par les fournisseurs de banque de messages. Utilisé par les clients et des fournisseurs de transport.  <br/> |
+|Status  <br/> |Implémentés par MAPI et fournisseurs de services. Utilisé par les clients.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,23 +1,23 @@
 ---
-title: État du dossier de téléchargement
+title: Télécharger l’état du dossier
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 82b00a33c5de11b3fc9ccd3bde4cf31c79b99c2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ae8c3c4012874e1ca35761b103066cceebb1b165
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576749"
 ---
-# <a name="upload-folder-state"></a>État du dossier de téléchargement
+# <a name="upload-folder-state"></a>Télécharger l’état du dossier
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état du dossier de téléchargement de l’ordinateur d’état de réplication. 
   
@@ -52,7 +52,7 @@ Lorsque le téléchargement du dossier se termine, la banque locale renvoie l’
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

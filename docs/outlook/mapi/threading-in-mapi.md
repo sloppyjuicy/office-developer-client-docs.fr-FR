@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 259297d2-acd7-4bc5-9a77-0df92cbfa33e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 15fb6113e9c3428cff3865307736592fd6e2b2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d9ee45ea7a3592a2b0fc0675bbdb6e640f9bd046
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787351"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580389"
 ---
 # <a name="threading-in-mapi"></a>Threading dans MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un thread est l’entité de base à laquelle un système d’exploitation alloue du temps processeur. Un thread a ses propres registres, pile, priorité et stockage, mais partage un adresse espace et traiter les ressources telles que des jetons d’accès. Threads partagent également la mémoire, avec un seul thread lecture qu’un autre thread qu’il a écrite.
   

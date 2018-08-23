@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f915a17b8271f7ec4173f507504bf165a6084085
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0712407a7882c449c065cb6816694b4a1611036f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568468"
 ---
 # <a name="handling-a-message-store"></a>Gestion d’une banque de messages
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Gestion d’une banque de messages est une part importante de l’ensemble d’un client de tâches. Ces tâches incluent l’ouverture, copie, déplacement, l’ajout et suppression de dossiers et messages, affichage de tableaux de diverses, propriétés et contrôler les niveaux d’accès.
 

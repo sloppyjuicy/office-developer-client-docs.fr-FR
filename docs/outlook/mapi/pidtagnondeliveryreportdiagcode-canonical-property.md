@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 566a56d855a517c937215b8a00eca3f6246bc212
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 528e18964cacfb59f30667295b792e850353f3ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786255"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579024"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportDiagCode
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un code de diagnostic qui fait partie d’un rapport de non-remise.
   
@@ -32,7 +32,7 @@ Contient un code de diagnostic qui fait partie d’un rapport de non-remise.
 |Propriétés associées :  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Identificateur :  <br/> |0x0C05  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -253,7 +253,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

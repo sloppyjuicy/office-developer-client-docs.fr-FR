@@ -1,5 +1,5 @@
 ---
-title: Développer des listes de Distribution
+title: Extension des listes de distribution
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 44231a95-dafc-44f7-bfa9-9f73ea8cb8b7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 47a37683ac54bef72ebd50aaaa11a36bdfd28659
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c7c0043ed898a827b2ea8c65b20837c571f88883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582055"
 ---
-# <a name="expanding-distribution-lists"></a>Développer des listes de Distribution
+# <a name="expanding-distribution-lists"></a>Extension des listes de distribution
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour demander de MAPI pour développer une liste de distribution**
   

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6b82a755cbf2c8bd0f1d3676d4560e131dce3bd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bfaa4fd5f561c8138461db6ce8b9033c2a75b96b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783364"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580627"
 ---
 # <a name="formatted-text-in-mapi"></a>Texte mis en forme dans MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le texte d’un message peut être stocké et transmises à l’aide de texte brut ou texte mis en forme. Texte mis en forme améliore le texte du message en modifiant son apparence avec, par exemple, une ou plusieurs polices, les tailles de police ou les couleurs de texte. Il est recommandé que tous les clients et la mesure du possible, tous les fournisseurs de banque de messages, prennent en charge le texte mis en forme. Prise en charge de texte mis en forme dans les messages enrichit en améliorer la lisibilité de message et en gestion des messages plus facile et plus efficace.
   
@@ -29,27 +29,27 @@ MAPI définit ces deux propriétés de texte du message et pour la conversion en
   
 ### 
 
-[Synchronisation du texte et la mise en forme](synchronizing-text-and-formatting.md)
+[Synchronisation du texte et de la mise en forme](synchronizing-text-and-formatting.md)
   
 > Décrit comment maintenir la synchronisation avec la mise en forme du texte de message RTF.
     
-[Prise en charge au format texte dans les Messages sortants : responsabilités du Client](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
+[Prise en charge du texte mis en forme dans les messages sortants : responsabilités du client](supporting-formatted-text-in-outgoing-messages-client-responsibilities.md)
   
 > Décrit les responsabilités du client application pour prendre en charge le texte mis en forme dans les messages sortants.
     
-[Prise en charge au format texte dans les Messages entrants : responsabilités du Client](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
+[Prise en charge du texte mis en forme dans les messages entrants : responsabilités du client](supporting-formatted-text-in-incoming-messages-client-responsibilities.md)
   
 > Décrit les responsabilités du client application pour prendre en charge le texte mis en forme dans les messages entrants.
     
-[Prenant en charge le format texte : Responsabilités de banque de messages](supporting-formatted-text-message-store-responsibilities.md)
+[Prise en charge du texte mis en forme : responsabilités de la banque de messages](supporting-formatted-text-message-store-responsibilities.md)
   
 > Décrit les responsabilités du magasin de message pour prendre en charge le texte mis en forme.
     
-[Prise en charge de texte mis en forme : Rendu des pièces jointes](supporting-formatted-text-rendering-attachments.md)
+[Prise en charge du texte mis en forme : rendu des pièces jointes](supporting-formatted-text-rendering-attachments.md)
   
 > Décrit comment choisir où les pièces jointes sont rendus.
     
-[Prenant en charge le format texte : Responsabilités de passerelle](supporting-formatted-text-gateway-responsibilities.md)
+[Prise en charge du texte mis en forme : responsabilités de passerelle](supporting-formatted-text-gateway-responsibilities.md)
   
 > Décrit les responsabilités de passerelle pour les messages texte mis en forme entrants et sortants.
     

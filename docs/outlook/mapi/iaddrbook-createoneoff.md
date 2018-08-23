@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fefd81a7d6cdfda24df93ec928cd3305cb8ef8be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783621"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579038"
 ---
 # <a name="iaddrbookcreateoneoff"></a>IAddrBook::CreateOneOff
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée un identificateur d’entrée pour une adresse unique.
   

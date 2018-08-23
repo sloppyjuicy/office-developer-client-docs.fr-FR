@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 97650550704ba844f10131f1a3045ebbfaaaefff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 717c456024dd98495550f1377edc6a53f82ee042
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786620"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572409"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>Propriété canonique PidTagRoamingBinary
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un flux de message associé à une sous-classe de la **IPM. Configuration** classe. 
   
@@ -28,7 +28,7 @@ Contient un flux de message associé à une sous-classe de la **IPM. Configurati
 |Propriétés associées :  <br/> |PR_ROAMING_BINARYSTREAM  <br/> |
 |Identificateur :  <br/> |0x7C09  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Configuration  <br/> |
+|Domaine :  <br/> |Configuration  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

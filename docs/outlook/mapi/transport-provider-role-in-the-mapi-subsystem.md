@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7ea60b73fb1abe32b6db5e3c73d6ef3fac53d35d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 263370590a35f19482cc5ad7e56c65f6df0087fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787377"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581299"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>Rôle de fournisseur de transport dans le sous-système MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Transport fournisseur bibliothèques de liens dynamiques (DLL) fournissent l’interface entre le spouleur MAPI et la partie d’un système de messagerie responsable de l’envoi et la réception de messages. Le spouleur MAPI et le fournisseur de transport fonctionnent ensemble pour gérer les responsabilités de l’envoi d’un message ou de recevoir un message. Le spouleur MAPI charge la DLL du fournisseur de transport lorsqu’il est utilisé en premier et libère lorsqu’il n’est plus nécessaire. Plusieurs fournisseurs de transport peuvent être installés sur le même système, mais MAPI fournit un spouleur requis.
   

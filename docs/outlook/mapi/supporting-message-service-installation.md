@@ -1,5 +1,5 @@
 ---
-title: Installation du Service de Message prise en charge
+title: Prise en charge de l’installation du service de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 822e07bc-0bca-4485-8938-2264315161e2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: bf3e79ad32801a659df2c68016167d3b547ddc6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1f82741e3c44c589a18a1428fd68cebe6a501d5c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787291"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581992"
 ---
-# <a name="supporting-message-service-installation"></a>Installation du Service de Message prise en charge
+# <a name="supporting-message-service-installation"></a>Prise en charge de l’installation du service de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le programme d’installation pour l’installation de votre service de message doit effectuer les opérations suivantes :
   
@@ -44,5 +44,5 @@ Placez le programme d’installation dans un répertoire public désigné. Ceci 
 
 
 
-[Mise en œuvre de message](message-service-implementation.md)
+[Implémentation du service de messagerie](message-service-implementation.md)
 

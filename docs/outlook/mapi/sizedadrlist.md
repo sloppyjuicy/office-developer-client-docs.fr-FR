@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 13dad61176a877295069317e4a5b51888b01bebb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787153"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574740"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient un nombre spécifié de structures [ADRENTRY](adrentry.md) . 
   
@@ -56,5 +56,5 @@ lpADRList = (LPADRLIST) &SizedADRList;
 
 - [ADRLIST](adrlist.md)
 - [ADRENTRY](adrentry.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

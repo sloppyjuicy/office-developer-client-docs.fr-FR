@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a0744251727a913184500cdda57d956080cc9d6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b5744e1674e1439729b81d3024fa6b1263ac421c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785796"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580886"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>Propriété canonique PidTagConflictEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’ID d’entrée du message de résolution de conflit.
   
@@ -32,7 +32,7 @@ Contient l’ID d’entrée du message de résolution de conflit.
 |Propriétés associées :  <br/> |PR_CONFLICT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3FF0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Synchronisation des modifications incrémentielles (ICS)  <br/> |
+|Domaine :  <br/> |Synchronisation des modifications incrémentielles (ICS)  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

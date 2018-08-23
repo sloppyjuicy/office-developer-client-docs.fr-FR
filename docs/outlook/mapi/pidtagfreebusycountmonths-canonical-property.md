@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5ba76b5735687e3bb65e530b3de0d257754559c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e7dc8c06fca48c5f7c124a1fdf2228ebeb9da450
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786043"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569980"
 ---
 # <a name="pidtagfreebusycountmonths-canonical-property"></a>Propriété canonique PidTagFreeBusyCountMonths
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur pour calculer les dates de début et de fin de la plage de données et de disponibilité pour être publiés dans les dossiers publics.
   
@@ -32,7 +32,7 @@ Contient la valeur pour calculer les dates de début et de fin de la plage de do
 |Propriétés associées :  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificateur :  <br/> |0x6869  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Message défini par la classe transmissible  <br/> |
+|Domaine :  <br/> |Message défini par la classe transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

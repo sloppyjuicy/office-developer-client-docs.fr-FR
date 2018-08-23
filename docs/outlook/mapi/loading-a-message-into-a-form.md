@@ -1,5 +1,5 @@
 ---
-title: Chargement d’un Message dans un formulaire
+title: Chargement d’un message dans un formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bdbe021-d694-4967-a105-4b24f1eebc44
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d677958b1a429201c05b5195c58bd7462d0f3d37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6e65311187ba96abde31a4779ebba371b3d02084
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576497"
 ---
-# <a name="loading-a-message-into-a-form"></a>Chargement d’un Message dans un formulaire
+# <a name="loading-a-message-into-a-form"></a>Chargement d’un message dans un formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour charger un message existant dans un formulaire à l’aide d’un serveur de formulaire, utilisez une des stratégies suivantes.
   

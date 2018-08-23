@@ -1,23 +1,23 @@
 ---
-title: En-tête d’état du Message de téléchargement
+title: Télécharger l’état de l’en-tête de message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7407b6606634ecc0151f582e4481ecbff5e7dc57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783197"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578842"
 ---
-# <a name="download-message-header-state"></a>En-tête d’état du Message de téléchargement
+# <a name="download-message-header-state"></a>Télécharger l’état de l’en-tête de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état d’en-tête de message téléchargement de l’ordinateur d’état de réplication. 
   
@@ -47,7 +47,7 @@ Lors de la synchronisation se termine, le client définit les résultats de tél
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

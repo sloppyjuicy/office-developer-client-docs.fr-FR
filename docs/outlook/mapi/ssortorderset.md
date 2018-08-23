@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1604c4a1a0d1bf4008595b0d150b4f7eb3d1c2ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e8d85ba55c5aa2f3780ad8e04cf1326cd7c35865
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787248"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575937"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit une collection de clés de tri pour une table qui est utilisé pour le tri standard ou par catégorie.
   
@@ -43,7 +43,7 @@ typedef struct _SSortOrderSet
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cSorts**
   

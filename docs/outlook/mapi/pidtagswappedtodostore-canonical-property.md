@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cbe1915df46010c5574065826ac1814f45c8c093
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fff9e488a83246f78058a699e637d83bb159ed33
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577344"
 ---
 # <a name="pidtagswappedtodostore-canonical-property"></a>Propriété canonique PidTagSwappedToDoStore
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Détermine la nécessité pour transmettre des après le traitement d’un message électronique.
   
@@ -32,7 +32,7 @@ Détermine la nécessité pour transmettre des après le traitement d’un messa
 |Propriétés associées :  <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |Identificateur :  <br/> |0x0E2C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

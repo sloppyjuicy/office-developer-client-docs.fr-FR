@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4fdd50a1108a6546445516664b01fb0f994fbfdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783820"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581516"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet les visionneuses de formulaire obtenir des informations sur et activer des serveurs de formulaire. 
   

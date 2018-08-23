@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3477104cc254ea5f22158b9791d7fd3bd776d819
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3416bc50e4628df2be09f9fe1a22d19530bcdff8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784906"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578051"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie si Microsoft Office Outlook doit analyser les dossiers sur un magasin de Contacts.
   

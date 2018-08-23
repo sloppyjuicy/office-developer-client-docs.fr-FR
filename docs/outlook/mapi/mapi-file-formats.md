@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3f214001-cd17-40d5-af90-33db1b283797
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 72c89142b73140563645aaaf408772f1a3a9c459
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8b007410bfeddaa13d58cf1c89d34c509e3c885b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784608"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580067"
 ---
 # <a name="mapi-file-formats"></a>Formats de fichiers MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI publie les formats des différents fichiers de configuration qui utilisent des clients et des fournisseurs de services pour décrire les services de messagerie et leurs fournisseurs de services et les formulaires.
   

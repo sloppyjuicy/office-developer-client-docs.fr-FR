@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 29fdbf060576ee9309473fddf8740b06229dae9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9aa038958e26652ae7ead728ab15d068e080dc69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784457"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579885"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Insère une ligne de tableau. 
   

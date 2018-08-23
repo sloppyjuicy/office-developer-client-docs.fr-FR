@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 284b4b451a31a9478caf31fe855d38bfeab2caf3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a10209bd965591e9049027e46d84d904bba14065
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580228"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>Propriété canonique PidTagProfileServerFullVersion
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie les informations de version et de compilation complètes sur le serveur Microsoft Exchange auxquels sont connectés les comptes dans un profil.
   
@@ -30,7 +30,7 @@ Spécifie les informations de version et de compilation complètes sur le serveu
 |Propriétés associées :  <br/> |PR_PROFILE_SERVER_FULL_VERSION  <br/> |
 |Identificateur :  <br/> |0x663B  <br/> |
 |Type de propriété :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Configuration d’un profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration d’un profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

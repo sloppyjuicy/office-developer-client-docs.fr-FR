@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 277505beb11dbc2b32b7e970c2bcf2a34dbdf00b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5b3160bb81cee86aeab4e7eecb76fb409d8e7c4b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581607"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Obtenir le chemin d’accès d’une version spécifique de MAPI pour le client de messagerie par défaut
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique inclut un exemple de code en langage C++ qui montre comment obtenir le chemin d’accès d’une version de MAPI est utilisé par le client de messagerie par défaut sur un ordinateur spécifique. Clients de messagerie MAPI ont une option pour spécifier dans le Registre des appels vers une DLL personnalisée que la bibliothèque stub MAPI doit charger et distribuer MAPI. La clé de Registre à définir pour cette DLL personnalisée pour un client de messagerie par défaut est **MSIComponentID**, sous la clé **HKLM\Software\Clients\Mail** du client de messagerie par défaut. La fonction [FGetComponentPath](fgetcomponentpath.md) , exportée par la bibliothèque stub MAPI, mapistub.dll, peut renvoyer le chemin d’accès à la version personnalisée de MAPI spécifié par la clé de Registre **MSIComponentID** . 
   

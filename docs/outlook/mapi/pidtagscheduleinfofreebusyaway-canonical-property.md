@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b5d013a-15ac-469a-98c8-3ed1e80f6faf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3535e8969ceff975077285aed89f979c24821bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 717f934c0dadc46935b72c409469633e0779fb3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576336"
 ---
 # <a name="pidtagscheduleinfofreebusyaway-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyAway
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les heures pour lequel l’état libre/occupé est défini à absent du bureau.
   
@@ -32,7 +32,7 @@ Contient les heures pour lequel l’état libre/occupé est défini à absent du
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_OOF  <br/> |
 |Identificateur :  <br/> |0x6856  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

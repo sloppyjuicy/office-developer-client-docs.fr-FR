@@ -1,5 +1,5 @@
 ---
-title: Implémentation de feuille de propriétés
+title: Implémentation d’une feuille de propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 406451adac3cd73286feb787bd6b4d2f356aa283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9a0fad8fa20b2d94077f9fbdf8a3c595c0ab219e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786948"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580865"
 ---
-# <a name="property-sheet-implementation"></a>Implémentation de feuille de propriétés
+# <a name="property-sheet-implementation"></a>Implémentation d’une feuille de propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une feuille de propriétés est une boîte de dialogue pour afficher les propriétés d’un objet. Les propriétés peuvent être en lecture seule, l’activation de l’utilisateur uniquement pour les afficher, ou de lecture/écriture, permettant à l’utilisateur apporter des modifications. Une feuille de propriétés contient une ou plusieurs fenêtres enfants qui se chevauchent, appelés pages. Chaque page contient un contrôle windows pour définir un groupe de propriétés connexes. Les utilisateurs naviguer d’une page en sélectionnant un onglet qui affiche la page correspondante au premier plan de la feuille de propriétés.
   

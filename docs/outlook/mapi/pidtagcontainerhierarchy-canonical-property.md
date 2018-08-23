@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 691c5977092b5e2ca6b453209982dd1333a6df89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2c9598b583ba62adc42d6fb2b904dfe4981286ff
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578107"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>Propriété canonique PidTagContainerHierarchy
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un objet table hiérarchie incorporé qui fournit des informations sur l’enfant conteneurs. 
   
@@ -32,7 +32,7 @@ Contient un objet table hiérarchie incorporé qui fournit des informations sur 
 |Propriétés associées :  <br/> |PR_CONTAINER_HIERARCHY  <br/> |
 |Identificateur :  <br/> |0x360E  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Container  <br/> |
+|Domaine :  <br/> |Container  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -84,7 +84,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

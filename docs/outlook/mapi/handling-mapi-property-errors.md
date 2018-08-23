@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: bb001d159141f70e9a82fa533e805f2a96b230ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 82f37e2a6f6834c7a8553a3d9d364f7e657d81da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579507"
 ---
 # <a name="handling-mapi-property-errors"></a>Gestion des erreurs de propriété MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Au lieu de panne compl�te ou r�ussite, les m�thodes **IMAPIProp** suivantes signale la r�ussite partielle : 
   
@@ -41,5 +41,5 @@ Lorsqu'une valeur d'erreur est renvoy�e � partir de **SetProps**, **DeletePr
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+- [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

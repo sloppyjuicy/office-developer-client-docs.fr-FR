@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ccf4a6054ecc89e280f2f5cbc4c72b2a8a829055
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8c7ca5b2b6f5f3131c2fcb70ff0043825a68a91f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785787"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580123"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propriété canonique PidTagClientSubmitTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure à laquelle que l’expéditeur du message envoyé un message. 
   
@@ -32,7 +32,7 @@ Contient la date et l’heure à laquelle que l’expéditeur du message envoyé
 |Propriétés associées :  <br/> |PR_CLIENT_SUBMIT_TIME  <br/> |
 |Identificateur :  <br/> |0x0039  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Heure du message  <br/> |
+|Domaine :  <br/> |Heure du message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

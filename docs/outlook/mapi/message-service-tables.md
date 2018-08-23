@@ -1,5 +1,5 @@
 ---
-title: Tables du Service de message
+title: Tables de services de messagerie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 81772115fcd4f081718dd560759f6ab93dc7c11c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784898"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576667"
 ---
-# <a name="message-service-tables"></a>Tables du Service de message
+# <a name="message-service-tables"></a>Tables de services de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le tableau de service de message contient des informations sur les services de messagerie dans le profil actif. Il existe une table de service de message pour chaque session MAPI, implémentés par MAPI et utilisé par les applications clientes spécial qui fournissent la prise en charge de la configuration. 
   

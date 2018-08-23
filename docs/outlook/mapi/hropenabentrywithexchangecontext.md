@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b640a5aa-4e36-4983-bf11-9428809e830b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fcedaf689db8280b4649662ba61c8468d0f98305
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e0b6718345588e79a8038f7cb409ef901d7c11f5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783552"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577155"
 ---
 # <a name="hropenabentrywithexchangecontext"></a>HrOpenABEntryWithExchangeContext
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre l' **ID d’entrée** à l’aide du carnet d’adresses Exchange identifié par **pEmsmdbUID**. Cette fonction fonctionne comme [IAddrBook::Details](iaddrbook-details.md) , sauf que l’utilisation de cette fonction garantit que [IAddrBook::OpenEntry](iaddrbook-openentry.md) est ouvert à l’aide du fournisseur de carnet d’adresses Exchange attendue. 
   

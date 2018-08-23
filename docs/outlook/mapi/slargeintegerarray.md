@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec9a674-c1a2-4137-856f-6cabe6f0eb9f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4d6785783f69857bd93f3c5818983e832e16af05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 29b26996bc337045489758a14857a30fafe48e54
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787197"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576434"
 ---
 # <a name="slargeintegerarray"></a>SLargeIntegerArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures [LARGE_INTEGER](http://go.microsoft.com/fwlink/?LinkId=132130) qui sont utilisées pour décrire une propriété de type PT_MV_I8. 
   
@@ -40,7 +40,7 @@ typedef struct _SLargeIntegerArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

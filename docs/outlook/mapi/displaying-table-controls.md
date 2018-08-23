@@ -1,5 +1,5 @@
 ---
-title: Affichage des contrôles de Table
+title: Affichage des contrôles de tableau
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 11b3279582c4cfb0d2c2249c6f4eddd7f0260b49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7af1e710006986807091c5c36d54da86204a71d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783194"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568461"
 ---
-# <a name="displaying-table-controls"></a>Affichage des contrôles de Table
+# <a name="displaying-table-controls"></a>Affichage des contrôles de tableau
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe de nombreux types de contrôles, aucun unique à MAPI. Toutefois, MAPI définit ses propres structures qui sont utilisés conjointement avec [BuildDisplayTable](builddisplaytable.md) pour décrire le jeu de données à chaque contrôle unique. 
   
@@ -44,5 +44,5 @@ Le tableau suivant répertorie les structures qui décrivent chaque type de cont
 
 
 
-[Affichage tableau implémentation](display-table-implementation.md)
+[Implémentation d’un tableau d’affichage](display-table-implementation.md)
 

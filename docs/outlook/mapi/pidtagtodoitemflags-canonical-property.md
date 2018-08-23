@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cae4ef6e4d7634ca2b429eb946aa948f5d90cd92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 79f6c90d1ebd2257cc428e88dfce3d9ee9dfeccf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786918"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573466"
 ---
 # <a name="pidtagtodoitemflags-canonical-property"></a>Propriété canonique PidTagToDoItemFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente la condition avec indicateur d’un élément action.
   
@@ -32,7 +32,7 @@ Représente la condition avec indicateur d’un élément action.
 |Propriétés associées :  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E2B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Cette propriété est un champ de bits dans lequel chaque bit doit être défini
   
 ||||
 |:-----|:-----|:-----|
-|Valeur numérique  <br/> |Name  <br/> |Description  <br/> |
+|Valeur numérique  <br/> |Nom  <br/> |Description  <br/> |
 |Absent  <br/> |S/O  <br/> |Sans indicateur  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |Objet est marqué de temps  <br/> |
 |8  <br/> |todoRecipientFlagged  <br/> |Ne doit être défini sur un objet de message provisoire, et cela signifie que l’objet est marqué pour les destinataires.  <br/> |
@@ -77,7 +77,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f601971e61eb6430bef9d50b093642ee04b14044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 03352b55589138d406ad3e4ee0756fc44bca8c78
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787157"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580613"
 ---
 # <a name="short-term-entry-identifiers"></a>Identificateurs d’entrée à court terme
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un identificateur d’entrée à court terme est affecté par un fournisseur de services à un objet lorsque l’identificateur doit être construit rapidement et ne doit pas au dernier sur heure ou à distance. Le caractère unique d’un identificateur d’entrée à court terme est garanti uniquement pendant la durée de la session en cours sur la station de travail en cours. En règle générale, un identificateur d’entrée à court terme est valide uniquement jusqu'à ce que l’objet qu’il représente. 
   

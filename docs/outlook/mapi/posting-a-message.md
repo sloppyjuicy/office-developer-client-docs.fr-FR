@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 33bf6780979ee25739abf93d89744e1517363c63
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 61e1039a89f47fe29f9b5a1ba9203cfc88d9797e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786938"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577519"
 ---
 # <a name="posting-a-message"></a>Publier un message
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Publier un message est similaire à l’envoi d’un message. La principale différence est la destination. Au lieu d’être dirigées vers un ou plusieurs destinataires sur un ou plusieurs systèmes de messagerie, un message publié reste dans un dossier dans la banque de messages en cours.
   

@@ -1,5 +1,5 @@
 ---
-title: Implémentation d’objets Thread-Safe
+title: Implémentation des objets thread-safe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3c911694-b953-4d35-9a3a-22c17cfd79bc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8c8c89f3626d54f04896ad54de5d7e480dd9b568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2f8235caceec8b27b2b14fac26d51e9e31ce1024
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579773"
 ---
-# <a name="implementing-thread-safe-objects"></a>Implémentation d’objets Thread-Safe
+# <a name="implementing-thread-safe-objects"></a>Implémentation des objets thread-safe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Avec les objets retournés par la méthode d’interface appelle directement, il incombe du fournisseur pour garantir la sécurité des threads. Avec les objets de rappel, c’est l’application cliente.
   

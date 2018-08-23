@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fb37c15e6544798a956e865e6c8c6d62bee44d28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4242e466b0e784bb260d0525db0e253f1c1f37f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784588"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568769"
 ---
 # <a name="mapi-client-objects"></a>Objets de clients MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes de messagerie standard n'implémentent qu’un seul objet, un récepteur de notifications. Récepteurs d’héritent de notification la [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) de l’interface et sont utilisés par MAPI et de service de fournisseurs de notification d’événement. Certains clients également implémentent des objets de l’avancement pour prendre en charge l’affichage des boîtes de dialogue de progression. 
   

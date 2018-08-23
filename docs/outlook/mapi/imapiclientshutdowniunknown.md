@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e68211049bc0f958ae24975f4ab4063953eef567
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9fb372e504eaeb55861b09c4151956fb102c08f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783710"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577148"
 ---
 # <a name="imapiclientshutdown--iunknown"></a>IMAPIClientShutdown : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet à un client MAPI effectuer un arrêt rapide du processus de client. 
   

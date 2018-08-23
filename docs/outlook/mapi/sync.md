@@ -1,5 +1,5 @@
 ---
-title: SYNCHRONISATION
+title: SYNC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c856dfd1d419fd7a4bf4f47852ffb69470f9281b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a40046a26efe118e48cdca4749d2e99212bb8bfe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579840"
 ---
-# <a name="sync"></a>SYNCHRONISATION
+# <a name="sync"></a>SYNC
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations de démarrage de la synchronisation entre un magasin local et un serveur. Ces informations sont utilisées lors de l' [état de synchronisation](synchronize-state.md).
   
@@ -37,7 +37,7 @@ struct SYNC
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _ulFlags_
   
@@ -90,7 +90,7 @@ struct SYNC
 
 [À propos de l’API de réplication](about-the-replication-api.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [Constantes MAPI](mapi-constants.md)
 

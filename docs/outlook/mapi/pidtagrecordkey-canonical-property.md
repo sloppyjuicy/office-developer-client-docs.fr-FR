@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a12fb9a2-799d-4112-b26c-4b2854c47cc2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bd655c6245d25948d1dea1daace6a0644b47e378
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9add9246cdfb22f7c5ad579f425932f49d4a9ecd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786559"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581243"
 ---
 # <a name="pidtagrecordkey-canonical-property"></a>Propriété canonique PidTagRecordKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur unique comparable binaire pour un objet spécifique.
   
@@ -32,7 +32,7 @@ Contient un identificateur unique comparable binaire pour un objet spécifique.
 |Propriétés associées :  <br/> |PR_RECORD_KEY  <br/> |
 |Identificateur :  <br/> |0x0FF9  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Propriétés ID  <br/> |
+|Domaine :  <br/> |Propriétés ID  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Une distinction entre les clés de recherche et d’enregistrement est la clé d
   
 Le tableau suivant récapitule les différences importantes entre **PR_ENTRYID**, **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) et cette propriété. 
   
-|**Caractéristique**|**PR_ENTRYID**|**PR_RECORD_KEY**|**CLÉ PR_SEARCH_KEY**|
+|**Caractéristique**|**PR_ENTRYID**|**PR_RECORD_KEY**|**PR_SEARCH_KEY**|
 |:-----|:-----|:-----|:-----|
 |Requis sur les objets attachment  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |Requis sur les objets de dossier  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
@@ -101,7 +101,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

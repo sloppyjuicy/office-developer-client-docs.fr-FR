@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 10f8f2cf44bf1a8e00f8c2b1a76826db5fc07161
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a13696b355e6fd815cd6bda42843505d9fc3d1f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783610"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579955"
 ---
 # <a name="iaddrbookaddress"></a>IAddrBook::Address
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Affiche la boîte de dialogue de carnet d’adresse Outlook. 
   

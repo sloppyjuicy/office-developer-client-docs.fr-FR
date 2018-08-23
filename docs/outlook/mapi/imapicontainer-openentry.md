@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c13ab9ce9c2564c39bfe9b2689f05439bc7b74ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: cd93866ae8823eb5897318fc2dda4e8432d974b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783691"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578464"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre un objet dans le conteneur, en retournant un pointeur d’interface pour l’accès des autres.
   

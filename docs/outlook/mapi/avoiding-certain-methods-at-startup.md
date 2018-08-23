@@ -1,5 +1,5 @@
 ---
-title: Éviter de certaines méthodes au démarrage
+title: Éviter certaines méthodes au démarrage
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: db327fdd239684140e4feeeb2a6045a2fcd5c410
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d26583ad7ad3b4a200daf321a8994e302b75a79
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782987"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580634"
 ---
-# <a name="avoiding-certain-methods-at-startup"></a>Éviter de certaines méthodes au démarrage
+# <a name="avoiding-certain-methods-at-startup"></a>Éviter certaines méthodes au démarrage
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour améliorer les performances lors du démarrage, évitez les appels suivants :
   

@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de la Notification d’événement
+title: Prise en charge des notifications d’événements
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 45bfe9f9314a154bd5f096ac20f76f6bf4f259c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787266"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580998"
 ---
-# <a name="supporting-event-notification"></a>Prise en charge de la Notification d’événement
+# <a name="supporting-event-notification"></a>Prise en charge des notifications d’événements
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Prise en charge de la notification d’événement pouvant être complexe, MAPI fournit trois méthodes d’objet prise en charge qui implémentent la partie la plus difficile du processus. Ces méthodes fonctionnent comme une unité, et un fournisseur doit utiliser tous les trois ou aucun d'entre eux.
   

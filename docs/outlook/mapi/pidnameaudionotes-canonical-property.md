@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2eb1f0a517b430f2c96161e94faa22ec4d67ac41
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 97986215a2280d64a7affa817e81d66e4fb82817
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785571"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577764"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>Propriété canonique PidNameAudioNotes
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie les notes textuelles qui sont joints à un message vocal.
   
@@ -33,7 +33,7 @@ Spécifie les notes textuelles qui sont joints à un message vocal.
 |Jeu de propriétés :  <br/> |PSETID_UnifiedMessaging  <br/> |
 |Nom de la propriété :  <br/> |UMAudioNotes  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |La messagerie unifiée  <br/> |
+|Domaine :  <br/> |La messagerie unifiée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

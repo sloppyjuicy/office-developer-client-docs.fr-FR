@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: 43fd56932409861db86679eea6f1405dc4c37e62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a8e318f9bb5e538473e1b60c650e8730f692e50
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577988"
 ---
 # <a name="upmov"></a>UPMOV
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations de téléchargement des éléments qui ont été déplacés. Ces informations sont utilisées lors du [téléchargement supprimer l’état](upload-delete-status-state.md) et [Télécharger l’état de la table](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -99,7 +99,7 @@ _cEntMov_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [FEID](feid.md)
 

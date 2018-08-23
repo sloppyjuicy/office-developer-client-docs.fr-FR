@@ -11,29 +11,29 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f62ced8dd2ddec588a1ae285c13268059e49da46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 15c635992134d61329f2f49c0fe3dd84d7225837
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577127"
 ---
 # <a name="pidtagaddressbookhierarchicalishierarchicalgroup"></a>PidTagAddressBookHierarchicalIsHierarchicalGroup
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si la liste de distribution est également un groupe de service. Cette propriété est disponible uniquement sur les listes de distribution.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP  <br/> |
-|Jeu de propriétés :  <br/> |Carnet d'adresses  <br/> |
+|Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
 |ID de type long (capot) :  <br/> |0x8CDD  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Carnet d’adresses Exchange  <br/> |
+|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

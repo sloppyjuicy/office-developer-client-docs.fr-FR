@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6689a9da11559ed8f08bb2d10ae128ddf637fa96
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 689d3e7815113b495140b907df1b8f8004b4a32d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581929"
 ---
 # <a name="pidtagipmreturnrequested-canonical-property"></a>Propriété canonique PidTagIpmReturnRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si ce message doit être retourné avec un rapport.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si ce message doit être retourné avec un rapport.
 |Propriétés associées :  <br/> |PR_IPM_RETURN_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C02  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

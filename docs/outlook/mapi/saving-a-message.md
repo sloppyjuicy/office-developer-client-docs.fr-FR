@@ -1,5 +1,5 @@
 ---
-title: L’enregistrement d’un Message
+title: Enregistrement d’un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e61a72691309b2ac632b764c0607f5b1e36b291b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: fcb5486cc96403b872e07ab597545ca6f493907d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787046"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581320"
 ---
-# <a name="saving-a-message"></a>L’enregistrement d’un Message
+# <a name="saving-a-message"></a>Enregistrement d’un message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Avant l’enregistrée d’un message, clients appellent généralement la méthode de [IMAPIProp::SetProps](imapiprop-setprops.md) du message pour définir plusieurs propriétés en plus des propriétés de texte de message, les propriétés de pièce jointe, **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et les propriétés associée à la liste des destinataires.
   

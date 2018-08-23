@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b46966d-c63d-4241-92d4-001d6a674e97
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f534a4738eb18519dc62cc18cfb79391ea39633b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e05cf37d7605942abc9a2073957264503b8d92db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785070"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574068"
 ---
 # <a name="pidlidattendeecriticalchange-canonical-property"></a>Propriété canonique PidLidAttendeeCriticalChange
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la date et l’heure à laquelle l’objet liées à la réunion a été envoyé.
   
@@ -33,7 +33,7 @@ Spécifie la date et l’heure à laquelle l’objet liées à la réunion a ét
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
 |ID de type long (capot) :  <br/> |0x00000001  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

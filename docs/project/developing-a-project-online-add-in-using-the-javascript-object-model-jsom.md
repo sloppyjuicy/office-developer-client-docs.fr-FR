@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: Cet article décrit le complément Microsoft Project Online développement afin d’améliorer votre expérience avec Project Online. Le projet de développement est implémenté comme une procédure pas à pas. Le complément utilisé pour cet article lit et affiche les noms de projet et les ID des projets publiés à partir de votre compte Project Online et vous permet d’atteindre de récupérer les tâches associées à des projets individuels.
-ms.openlocfilehash: 91d475afd5c4085b00ed06b66620f0d18174fd7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea5c7e3f3d20aa6bf5b6bb77a18eb87d06f549e1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787797"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572542"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Développement d’un complément Project Online à l’aide du modèle objet JavaScript (JSOM)
 
@@ -37,7 +37,9 @@ Project Online effectue une action supplémentaire pour protéger les informatio
 Le paramétrage de développement pour Project Online compléments utilise le type de projet Visual Studio SharePoint Add-in. Le complément est écrit en JavaScript et utilise le modèle d’objet Project JavaScript (JSOM) pour interagir avec le service de Project Online. Le JSOM hérite la plupart de ses fonctionnalités du JSOM SharePoint.
   
 > [!NOTE]
-> Compléments peuvent être publiés et vendus dans l’Office Store ou déployés dans un catalogue d’applications privé sur SharePoint. Pour plus d’informations, voir [déployer et publier votre complément Office](http://dev.office.com/docs/add-ins/publish/publish.aspx). > Le complément utilisé dans cet article est un exemple pour les développeurs ; elle n’est pas destinée à utiliser dans un environnement de production. Le principal objectif consiste à afficher un exemple de développement d’applications pour Project Online. 
+> Compléments peuvent être publiés et vendus dans l’Office Store ou déployés dans un catalogue d’applications privé sur SharePoint. Pour plus d’informations, voir [déployer et publier votre complément Office](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish).
+> 
+> Le complément utilisé dans cet article est un exemple pour les développeurs ; elle n’est pas destinée à utiliser dans un environnement de production. Le principal objectif consiste à afficher un exemple de développement d’applications pour Project Online. 
   
 ## <a name="prerequisites"></a>Conditions préalables
 
@@ -141,7 +143,7 @@ Le projet de complément se compose de plusieurs fichiers. Dans cet exemple, vou
     
 Si le client Project Online change, telles que le déplacement d’une version d’évaluation vers un site d’abonnement, vous pouvez mettre à jour les propriétés du projet, y compris la connexion au serveur et l’URL du Site, à l’aide de la fenêtre Propriétés disponibles par le biais de l' **affichage** > **Propriétés Fenêtre** commande. 
   
-Vous pouvez également ajouter des fichiers au projet. Dans ce cas, vous devrez mettre à jour le fichier Elements.xml situé dans le même groupe (contenu, Images, Pages ou Scripts) pour inclure les nouveaux fichiers. Pour plus d’informations sur les fichiers de projet, voir [Explorer la structure de manifeste d’application et le package d’un complément SharePoint](https://msdn.microsoft.com/en-us/library/office/fp179918.aspx.aspx).
+Vous pouvez également ajouter des fichiers au projet. Dans ce cas, vous devrez mettre à jour le fichier Elements.xml situé dans le même groupe (contenu, Images, Pages ou Scripts) pour inclure les nouveaux fichiers. Pour plus d’informations sur les fichiers de projet, voir [Explorer la structure de manifeste d’application et le package d’un complément SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
   
 ### <a name="set-application-scope"></a>Étendue d’application Set
 
@@ -149,7 +151,7 @@ Le complément a besoin de niveaux de portée ou d’autorisation définis avant
 
 |Domaine d’application|Autorisation|
 |:-----|:-----|
-|Plusieurs projets (Project Server)  <br/> |Lire  <br/> |
+|Plusieurs projets (Project Server)  <br/> |Read  <br/> |
    
 Enregistrez le fichier après la définition de l’étendue de l’application. Dans le cas contraire, aucune donnée n’est renvoyées depuis le service. 
   
@@ -170,7 +172,7 @@ Ajoutez la commande suivante pour la définition de PS.js ou PS.debug.js dans le
 
 L’exemple complément se compose de certains composants. Description des éléments statiques se trouvent dans le fichier Default.aspx. Descriptions des éléments dynamiques et code pour tous les composants se trouvent dans le fichier App.js. Pour les commentaires concernant les composants, consultez les exemples de code source. Voici une liste des composants de l’interface utilisateur dans le complément :
   
-- Titre
+- Title
     
 - Formulation de présentation
     
@@ -331,6 +333,7 @@ Exemple de sortie pour les tâches d’un projet unique suit.
   
 ## <a name="see-also"></a>Voir aussi
 
-Pour la documentation et des exemples relatifs à Project Online et développement d’applications à l’aide de CSOM, voir le [Portail de développement Project](http://dev.office.com/project.aspx).
+Pour la documentation et des exemples relatifs à Project Online et développement d’applications à l’aide de CSOM, voir le [Portail de développement Project](https://developer.microsoft.com/en-us/project).
     
+
 

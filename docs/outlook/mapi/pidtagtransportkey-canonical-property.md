@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 77b302e3c8ae06fb7578fc8fcf9ba8f27d552e18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8b1fab49f348a76693cc35fd89994419b81f250a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786892"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573690"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriété canonique PidTagTransportKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d’un message sortant via les fournisseurs de transport sortant.
   
@@ -32,7 +32,7 @@ Contient une valeur utilisée par le spouleur MAPI pour suivre la progression d�
 |Propriétés associées :  <br/> |PR_TRANSPORT_KEY  <br/> |
 |Identificateur :  <br/> |0x0E16  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

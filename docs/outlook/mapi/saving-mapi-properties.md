@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6135dfae915a1e70743f9224352390c4b56ea02e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5125fc8f3e36087a05802c38127a8402ae67d468
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787041"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576301"
 ---
 # <a name="saving-mapi-properties"></a>L’enregistrement des propriétés MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 De nombreux objets prennent en charge un modèle de transaction de traitement selon laquelle les modifications apportées aux propriétés ne sont pas apportées définitive jusqu'à ce qu’ils soient validées à une date ultérieure. Tandis que les modifications apportées aux propriétés sont gérées par les méthodes [IMAPIProp::SetProps](imapiprop-setprops.md) et [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) , l’étape de validation est gérée par [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Il n’est pas qu’après un appel réussi **SaveChanges** que la version la plus récente des propriétés d’un objet est accessible. 
   
@@ -37,5 +37,5 @@ Appel de **SaveChanges** avec l’indicateur FORCE_SAVE remplace l’enregistrem
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

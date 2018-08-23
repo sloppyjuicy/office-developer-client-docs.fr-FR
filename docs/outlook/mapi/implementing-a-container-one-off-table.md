@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’une Table unique du conteneur
+title: Implémentation d’une table ponctuelle de conteneur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 83351e18750ccbffbe60c4e19f9b04a9c94a42e2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d468943f84f1d23f1b4b84881e69cee0041a5bae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784155"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576595"
 ---
-# <a name="implementing-a-container-one-off-table"></a>L’implémentation d’une Table unique du conteneur
+# <a name="implementing-a-container-one-off-table"></a>Implémentation d’une table ponctuelle de conteneur
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour accéder à la table unique appartenant à l’une de vos conteneurs, MAPI appelle la méthode de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur pour ouvrir la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) avec **IMAPITable** interface. Le conteneur est demandé à retourner sa table unique lors d’une application cliente ajouter un destinataire vers le conteneur. Si le conteneur autorise tous les destinataires, votre fournisseur peut retourner son propre implémentation tableau soit appeler [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md) pour retourner l’implémentation MAPI. 
   

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5cc8261dfee6803492ffcf62c182930e2ac6d425
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 614d9ab1037f0fc2735112801e30e530bfafe4db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784652"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569070"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Vue d’ensemble du fournisseur MAPI message magasin
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins message gérer le stockage et la récupération de messages et d’autres informations pour les utilisateurs d’applications clientes. Les informations du message sont organisées à l’aide d’un système hiérarchique appelé une banque de messages. La banque de messages est implémentée dans plusieurs niveaux, avec des conteneurs appelés dossiers contiennent des messages de différents types. Il n’existe aucune limite au nombre de niveaux dans une banque de messages ; les dossiers peuvent contenir le nombre de sous-dossiers. 
   

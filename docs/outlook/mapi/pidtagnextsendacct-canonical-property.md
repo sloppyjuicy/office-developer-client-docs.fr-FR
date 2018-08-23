@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 517d0900e968ea55cedf6b17b31d97795fcf61c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 76584e248f03deac62af94e4638fcead15594b3e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786261"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581131"
 ---
 # <a name="pidtagnextsendacct-canonical-property"></a>Propriété canonique PidTagNextSendAcct
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le serveur qui tente actuellement un client à utiliser pour envoyer un message électronique.
   
@@ -32,7 +32,7 @@ Spécifie le serveur qui tente actuellement un client à utiliser pour envoyer u
 |Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identificateur :  <br/> |0x0E29  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Application Outlook  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ec078429bb5321ffd7271c553d435e07e903926a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 806ce556d77d704a1da866c6c69363cb59bd1c7d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785747"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581761"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>Propriété canonique PidTagAuthorizingUsers
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste d’identificateurs d’entrée pour les utilisateurs qui autorisent l’envoi d’un message.
   
@@ -32,7 +32,7 @@ Contient une liste d’identificateurs d’entrée pour les utilisateurs qui aut
 |Propriétés associées :  <br/> |PR_AUTHORIZING_USERS  <br/> |
 |Identificateur :  <br/> |0x0003  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

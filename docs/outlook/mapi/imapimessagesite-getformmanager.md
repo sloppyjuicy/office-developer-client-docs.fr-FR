@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: abaf8f665ea7add92a34c2e4d6fcbf9d5fc08d3f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5e3a2224daace9be7f4504a693806ccb3cf4abbe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783848"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570491"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie une interface du Gestionnaire de formulaire un serveur de formulaire peut utiliser pour ouvrir un autre serveur du formulaire.
   
@@ -68,5 +68,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
 

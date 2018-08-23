@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cf30d38efa7ab2d579746cca6add2aad8d4963f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 12fb03ed5a165592113f49a202f777b0f301736d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784570"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568755"
 ---
 # <a name="mapi-client-application-overview"></a>Vue d’ensemble des applications de Client MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une application cliente MAPI est une application qui utilise l’interface de programmation MAPI. Applications clientes implémentent des tâches de messagerie en tant que leur focus principal ou secondaire. Applications client de messagerie, tels que les applications qui envoyer et recevoir du courrier électronique, implémentent le principal objectif de messagerie. Pour les applications clientes de messagerie non, tel que stocks ou les applications de configuration, la messagerie est une fonctionnalité secondaire.
   

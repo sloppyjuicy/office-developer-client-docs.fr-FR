@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: db5ce6576da6f925093ae413c5c5124b2a1a996f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783486"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577715"
 ---
 # <a name="link-to-mapi-functions"></a>Lien vers des fonctions MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe trois méthodes de liaison : la liaison implicite, liaison explicite et un nouveau modèle hybride à l’aide de la bibliothèque Stub MAPI.
   
@@ -128,7 +128,7 @@ Pour accéder aux fichiers de bibliothèque de Stub MAPI et pour plus d’inform
 - [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
 - [Installation du sous-système MAPI](installing-the-mapi-subsystem.md)
 - [Installer les fichiers d’en-tête MAPI](how-to-install-mapi-header-files.md)
-- [Choisissez une Version spécifique de MAPI à charge](how-to-choose-a-specific-version-of-mapi-to-load.md)
+- [Choisir une version spécifique de MAPI à charger](how-to-choose-a-specific-version-of-mapi-to-load.md)
 - [Méthode de liaison à utiliser](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
 - [Liaison d’un exécutable à une DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
 - [Configuration des clés MSI pour votre DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)

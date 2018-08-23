@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ea841ef4bc551581fb2d9ca90201b4615e67f134
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0f1495549df751c59ab84e2b16fffbaf2f4f9fa5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574719"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures [MTSID](mtsid.md) , chacun d'entre eux contient un identificateur d’entrée X.400 message transport système (MTS). 
   
@@ -42,7 +42,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cMTSIDs**
   

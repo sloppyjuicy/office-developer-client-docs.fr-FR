@@ -1,5 +1,5 @@
 ---
-title: Déterminer la fin d’une Table
+title: Définition de la fin d’un tableau
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7cbf11f16948d582ba36a0b4d20411549b723b38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f9979baf144b6106adcec416ee04439404e05d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783156"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576343"
 ---
-# <a name="determining-a-tables-end"></a>Déterminer la fin d’une Table
+# <a name="determining-a-tables-end"></a>Définition de la fin d’un tableau
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Une erreur fréquente consiste à supposent que la fin de la table a été atteinte lorsque : 
   

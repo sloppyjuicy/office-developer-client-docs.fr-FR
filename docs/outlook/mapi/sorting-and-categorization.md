@@ -1,5 +1,5 @@
 ---
-title: Tri et classement
+title: Tri et catégorisation
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 5e63d276d25a26f937e9b4f44575fea1030f52d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581530"
 ---
-# <a name="sorting-and-categorization"></a>Tri et classement
+# <a name="sorting-and-categorization"></a>Tri et catégorisation
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tri d’un tableau place les lignes dans un ordre significatif pour la visionneuse. Par exemple, une visionneuse pourrait être préférable de voir la table des matières d’un dossier trié par objet du message, afin que tous les threads d’une conversation ensemble pendant une autre visionneuse souhaiterez les messages triés par le nom de l’expéditeur. Une table nouvellement instanciée n’est pas nécessairement triée selon un ordre particulier. 
   
@@ -79,7 +79,7 @@ Pour plus d’informations sur le tri, les threads d’une conversation voir les
     
 - [ScCreateConversationIndex](sccreateconversationindex.md)
     
-- [Tri des tableaux après avoir défini les Restrictions et les colonnes](sorting-tables-after-setting-columns-and-restrictions.md)
+- [Tri des tables après la définition des colonnes et des restrictions](sorting-tables-after-setting-columns-and-restrictions.md)
     
 ## <a name="see-also"></a>Voir aussi
 

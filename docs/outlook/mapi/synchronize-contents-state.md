@@ -1,23 +1,23 @@
 ---
-title: Synchroniser le contenu d’un état
+title: Synchroniser l’état du contenu
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 216691f2c1f94d658a5aa968d6a19148a9b3c06a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a2bdbeb39cce1e62569f364875c3828cdd530c63
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787311"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577246"
 ---
-# <a name="synchronize-contents-state"></a>Synchroniser le contenu d’un état
+# <a name="synchronize-contents-state"></a>Synchroniser l’état du contenu
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état du contenu de synchroniser de l’ordinateur d’état de réplication. 
   
@@ -51,7 +51,7 @@ Lorsque cet état se termine, Outlook nettoie ses informations internes. Le maga
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

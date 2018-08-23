@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 93be3351749ac3e9d285fb214f746d58b55fb5b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f30a5848e07de03e61d3a63188aa7b608504ff24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786767"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573732"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriété canonique PidTagSensitivity
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur qui indique l’avis de l’expéditeur du message de la sensibilité d’un message.
   
@@ -32,7 +32,7 @@ Contient une valeur qui indique l’avis de l’expéditeur du message de la sen
 |Propriétés associées :  <br/> |PR_SENSITIVITY  <br/> |
 |Identificateur :  <br/> |0x0036  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -86,7 +86,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

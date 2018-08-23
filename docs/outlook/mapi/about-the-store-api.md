@@ -1,23 +1,23 @@
 ---
-title: À propos de l’API du magasin
+title: À propos de l’API de magasin
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 31aff61ec5868b0f1e9ab34d498b2e8175519f0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d72df30eab5fde4288b5feba1d7045da05117bde
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579374"
 ---
-# <a name="about-the-store-api"></a>À propos de l’API du magasin
+# <a name="about-the-store-api"></a>À propos de l’API de magasin
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’API stocker fournit la fonctionnalité de magasin de divers pour stocker les fournisseurs. Il fournit les définitions, types de données, propriétés et interfaces suivantes.
   

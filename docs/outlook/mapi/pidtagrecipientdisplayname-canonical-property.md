@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8373edff-ef3e-4491-8cf3-e6609e1cb9b0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2e5d694c63a9d657e2d7c79b813602e95b15984a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7f546cdf65b4e248c675e838c82ab750a1e973dc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582195"
 ---
 # <a name="pidtagrecipientdisplayname-canonical-property"></a>Propriété canonique PidTagRecipientDisplayName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur de la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
@@ -32,7 +32,7 @@ Contient la valeur de la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pi
 |Propriétés associées :  <br/> |PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_A, PR_RECIPIENT_DISPLAY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x5FF6  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire de transport  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -76,7 +76,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

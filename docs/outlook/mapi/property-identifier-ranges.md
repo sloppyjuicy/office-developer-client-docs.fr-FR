@@ -1,5 +1,5 @@
 ---
-title: Propriété identificateur de plages
+title: Plages d’identificateurs de propriétés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aee199cbbd05606d20378023f103fa122f1457f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 479e5abda9137ddaedcabb8d914bc038ddf200f3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786943"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581103"
 ---
-# <a name="property-identifier-ranges"></a>Propriété identificateur de plages
+# <a name="property-identifier-ranges"></a>Plages d’identificateurs de propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le tableau suivant récapitule les différentes plages pour les identificateurs de propriété, description du propriétaire pour les propriétés de chaque plage.
   

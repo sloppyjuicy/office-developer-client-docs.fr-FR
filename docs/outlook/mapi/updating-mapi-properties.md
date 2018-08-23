@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5cff3a6cbf4bfca7b414f9663e71834da71926d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 172abe64073b11d98bfb5f76999237218ef8944a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787408"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581348"
 ---
 # <a name="updating-mapi-properties"></a>Mise à jour des propriétés MAPI
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Clients et fournisseurs de services peuvent mettre à jour une valeur de propriété en appelant :
   
@@ -46,5 +46,5 @@ La procédure suivante illustre comment utiliser **SetProps** pour mettre à jou
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+- [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

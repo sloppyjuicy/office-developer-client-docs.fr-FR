@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 35a2d88ec838a9a76355ba6580e9cdbb3f28de56
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e0f13b0b8d2f7eb6fd7ba60e9e351b62251aa13d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786481"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572836"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Propriété canonique PidTagProviderItemId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie un identificateur pour un dossier ou un élément dans une banque.
   
@@ -32,7 +32,7 @@ Spécifie un identificateur pour un dossier ou un élément dans une banque.
 |Propriétés associées :  <br/> |PR_PROVIDER_ITEMID  <br/> |
 |Identificateur :  <br/> |0x0EA3  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |MapiNonTransmittable  <br/> |
+|Domaine :  <br/> |MapiNonTransmittable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

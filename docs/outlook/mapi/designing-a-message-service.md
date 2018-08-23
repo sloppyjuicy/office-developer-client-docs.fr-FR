@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 04aa4348560396c8237811252fd96a2b461cd791
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b572ebcec0a33d2134f4cf19b88e3132cbd47117
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783145"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581999"
 ---
 # <a name="designing-a-message-service"></a>Conception d’un service de message
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Avant de commencer à écrire du code pour prendre en charge votre service de message, il est important de créer une conception. Résoudre les problèmes dans votre processus de conception suivants :
   
@@ -41,5 +41,5 @@ Avant de commencer à écrire du code pour prendre en charge votre service de me
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Mise en œuvre de message](message-service-implementation.md)
+- [Implémentation du service de messagerie](message-service-implementation.md)
 

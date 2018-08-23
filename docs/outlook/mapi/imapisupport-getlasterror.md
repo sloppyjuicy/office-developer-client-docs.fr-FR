@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2a20f0f48eebe2194bc92afb98a620f9b39bb88d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3e641842dd8264c0cd3556c498bd74c77bda32f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783981"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577505"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur d’objet prise en charge précédente. 
   
@@ -86,5 +86,5 @@ Pour libérer la mémoire allouée par MAPI, appelez la fonction [MAPIFreeBuffer
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[MAPI étendue des erreurs](mapi-extended-errors.md)
+[MAPI �tendue des erreurs](mapi-extended-errors.md)
 

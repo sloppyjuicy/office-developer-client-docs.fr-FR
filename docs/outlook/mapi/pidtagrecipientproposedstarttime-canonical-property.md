@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 65d5c2f94da219fc1cb87384ebdd3c1cf34bd9a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7500918daed361eac1c20e46e4046f47b6339c89
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786533"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580858"
 ---
 # <a name="pidtagrecipientproposedstarttime-canonical-property"></a>Propriété canonique PidTagRecipientProposedStartTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique une heure de début d’une réunion.
   
@@ -32,7 +32,7 @@ Indique une heure de début d’une réunion.
 |Propriétés associées :  <br/> |PR_RECIPIENT_PROPOSEDSTARTTIME  <br/> |
 |Identificateur :  <br/> |0x5FE3  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire de transport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

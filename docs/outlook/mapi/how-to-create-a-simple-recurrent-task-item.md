@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 926b33fa3627461139362737f86248f217191534
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783466"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576840"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Créer une tâche périodique simple
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI peut servir à créer pour créer des éléments de tâche. Cette rubrique décrit comment créer un élément de tâche périodique simple.
   

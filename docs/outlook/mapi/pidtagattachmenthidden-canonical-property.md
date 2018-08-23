@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1c6444c6e8eace7dd2556d3b77a929c3112db1c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b1604ae36bc20dc799fb21dec4c8742df4670ea1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785738"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581628"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>Propriété canonique PidTagAttachmentHidden
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si une pièce jointe est masquée à partir de l’utilisateur final.
   
@@ -32,7 +32,7 @@ Indique si une pièce jointe est masquée à partir de l’utilisateur final.
 |Propriétés associées :  <br/> |PR_ATTACHMENT_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x7FFE  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

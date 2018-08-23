@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fe5549e41008dbf5b5f50f9f32769f1a820e3bc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d212a86aae0503a5e02a5a7ecddb83db10a4d664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784632"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572374"
 ---
 # <a name="mapi-implemented-objects"></a>Objets implémentés de MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI implémente plusieurs objets pour une utilisation par les applications clientes et des fournisseurs de services. L’objet session permet aux clients d’utiliser les services de session, pour accéder aux tables et de communiquer avec les fournisseurs de services. L’objet de carnet d’adresses fournit aux clients avec accès intégré à tous les fournisseurs de carnet d’adresses différent. 
   
@@ -40,8 +40,8 @@ Le tableau suivant résume l’objectif de chaque objet qui implémente MAPI.
 |Données de propriété  <br/> |Gère l’accès aux propriétés et vous aide à mettre en œuvre **IMAPIProp**.  <br/> |
 |Administration du fournisseur  <br/> |Fournit l’accès aux informations de fournisseur de service de configuration.  <br/> |
 |Session  <br/> |Représente une connexion à des systèmes de messagerie sous-jacentes et fournit aux clients d’accéder aux ressources MAPI.  <br/> |
-|État  <br/> |Permet d’accéder à l’état du sous-système MAPI, le carnet d’adresses ou le spouleur MAPI.  <br/> |
-|Prise en charge  <br/> |Permet de fournisseurs de services de gérer les demandes des clients.  <br/> |
+|Status  <br/> |Permet d’accéder à l’état du sous-système MAPI, le carnet d’adresses ou le spouleur MAPI.  <br/> |
+|Support  <br/> |Permet de fournisseurs de services de gérer les demandes des clients.  <br/> |
 |Table  <br/> |Permet d’accéder à un affichage de synthèse des données d’objet dans un format de ligne et de colonne, similaire à une table de base de données.  <br/> |
 |Données de la table  <br/> |Gère l’accès aux données de la table sous-jacente et implémente les objets table.  <br/> |
 |TNEF  <br/> |Prend en charge l’utilisation de la Neutral Encapsulation Format TNEF (Transport).  <br/> |

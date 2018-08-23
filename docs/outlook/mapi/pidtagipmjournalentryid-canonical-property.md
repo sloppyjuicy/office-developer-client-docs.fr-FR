@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3765b9d-a108-46d7-a97c-a825ae3980be
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e48b3af79656279e3c554cd5093385d894525e43
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b1fc2beaa85f8bbc82debe6b39ea02429aeeea16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786147"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578688"
 ---
 # <a name="pidtagipmjournalentryid-canonical-property"></a>Propriété canonique PidTagIpmJournalEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient **propriété EntryID** du dossier Journal Outlook. 
   
@@ -32,7 +32,7 @@ Contient **propriété EntryID** du dossier Journal Outlook.
 |Propriétés associées :  <br/> |PR_IPM_JOURNAL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

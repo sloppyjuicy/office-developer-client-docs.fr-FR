@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 30099e9fe645f810e08ba331717cff975f69b313
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 51c88e8c062a409db305e893b82f43d8c8ac7094
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783190"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580795"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Affichage d’une table de contenu de dossier
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La table des matières d’un dossier contient des informations récapitulatives sur tous ses messages. Informations récapitulatives concernant les nouveaux messages entrants s’affiche dans le tableau contenu du dossier de réception pour la classe de message. Pour rendre ces informations disponibles aux utilisateurs, extraire la table et afficher les colonnes et lignes comme il convient.
   

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 41d1a4abe79892fa1c9c8789e159a19645318497
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 263b7eb0de7fe724625d99c3f08ad12d5740dd52
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786626"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581635"
 ---
 # <a name="pidtagroamingdictionary-canonical-property"></a>Propriété canonique PidTagRoamingDictionary
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un document XML qui décrit le dictionnaire d’itinérance.
   
@@ -30,7 +30,7 @@ Contient un document XML qui décrit le dictionnaire d’itinérance.
 |Propriétés associées :  <br/> |PR_ROAMING_DICTIONARY  <br/> |
 |Identificateur :  <br/> |0x7C07  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Configuration  <br/> |
+|Domaine :  <br/> |Configuration  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -94,7 +94,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

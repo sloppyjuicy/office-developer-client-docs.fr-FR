@@ -1,5 +1,5 @@
 ---
-title: Validation et l’initialisation d’une banque de messages
+title: Validation et initialisation d’une banque de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 74f0a1fe-2a79-4b32-ab88-85a8839a2639
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 48883ec33db9ffd6b3e7cc6e16ae9c2487a31607
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7a5a5045594e87953d967fddbdeefd5ac18c8a3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581971"
 ---
-# <a name="validating-and-initializing-a-message-store"></a>Validation et l’initialisation d’une banque de messages
+# <a name="validating-and-initializing-a-message-store"></a>Validation et initialisation d’une banque de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous ouvrez une banque de messages par le biais de la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) sans définir l’indicateur MDB_NO_MAIL, MAPI crée plusieurs dossiers et attribue les rôles et les noms par défaut. MAPI est responsable de la création de ces dossiers pour éviter les incompatibilités inévitablement cas de clients ou fournisseurs de banque de message ont été responsables de la création. 
   

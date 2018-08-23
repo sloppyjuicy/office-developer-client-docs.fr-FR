@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e255b3e-dd17-4528-ba4e-c3a1aef32b04
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a1388545597cf0000f270bf693c93f9349fb6426
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5ef210aedc884e5c09eca6335199e2ef284b901c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574831"
 ---
 # <a name="itabledatahrmodifyrow"></a>ITableData::HrModifyRow
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Insérer une nouvelle ligne de tableau, en remplaçant éventuellement une ligne existante.
   

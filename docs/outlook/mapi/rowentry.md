@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f8ac73b1977886208290285fec2d1bd0de1b4f92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fb0bfaba1ca0a0d7d34096b3b0b1db9863207097
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787035"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576266"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une ligne et l’opération est effectuée sur la ligne dans une table par le biais de l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
@@ -34,7 +34,7 @@ typedef struct
 }  ROWENTRY, FAR * LPROWENTRY;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **ulRowFlags**
   

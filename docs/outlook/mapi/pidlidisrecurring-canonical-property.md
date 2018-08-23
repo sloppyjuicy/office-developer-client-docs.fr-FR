@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c21f2885f7e9475c2149e42e2a8d947311916b4f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f7813125e18f437087fa06c57f8442c84a81d80d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785271"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574061"
 ---
 # <a name="pidlidisrecurring-canonical-property"></a>Propriété canonique PidLidIsRecurring
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie si l’objet est associé à une série périodique.
   
@@ -33,7 +33,7 @@ Spécifie si l’objet est associé à une série périodique.
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
 |ID de type long (capot) :  <br/> |0 x 00000005  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

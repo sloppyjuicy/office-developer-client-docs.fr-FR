@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 54b2dece31937b1ff233d4d1e7d8bbc198bfe118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d3b20c9fb4b4f1a26eb4ed1a9a498bd56a915a70
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784328"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579780"
 ---
 # <a name="installing-a-form-into-a-library"></a>Installation d’un formulaire dans une bibliothèque
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le Gestionnaire de formulaire MAPI par défaut fourni avec le Kit de développement Windows ne fournit pas une interface utilisateur pour l’installation de formulaires dans les différentes bibliothèques de formulaires. Pour cette raison, vous devez créer une petite application — ou détaillée du jeu d’instructions, que les utilisateurs peuvent utiliser pour installer le formulaire.
   
@@ -46,5 +46,5 @@ Si vous implémentez un programme d’installation, la série d’actions qu’i
 
 
 
-[Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+[Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

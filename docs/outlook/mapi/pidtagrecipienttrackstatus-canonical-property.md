@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cbc934eec5331a0302ba222108ee92a0dc696b1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 252a5f9cbb923728b78a232666a275ebbd2576c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568706"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique l’état de la réponse renvoyée par le participant.
   
@@ -32,7 +32,7 @@ Indique l’état de la réponse renvoyée par le participant.
 |Propriétés associées :  <br/> |PR_RECIPIENT_TRACKSTATUS  <br/> |
 |Identificateur :  <br/> |0x5FFF  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire de transport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

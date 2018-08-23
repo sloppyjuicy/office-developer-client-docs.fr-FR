@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d992c7ac43c736e01184e1f12b3ad366587c9b06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 40a2bc8a27ec3ce3df610b9c7364719c2b5ee750
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785644"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572787"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Propriété canonique PidTagAccessControlListTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau qui se compose de tous les l’accès listes de contrôle système (SACL) appliqués à un dossier.
   
@@ -32,7 +32,7 @@ Contient un tableau qui se compose de tous les l’accès listes de contrôle sy
 |Propriétés associées :  <br/> |PR_ACL_TABLE  <br/> |
 |Identificateur :  <br/> |0x3FE0  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Contrôle d’accès  <br/> |
+|Domaine :  <br/> |Contrôle d’accès  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

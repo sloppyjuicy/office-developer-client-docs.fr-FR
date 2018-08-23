@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0246138f-c55e-4353-8e53-e973f524d52c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 41f5acddf273de39a7d5952ccb00e868170c692d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 119d162b50048e69168aa864e5d19ad806758456
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784915"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575993"
 ---
 # <a name="noscribble-state"></a>État NoScribble
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’état NoScribble indique que les modifications apportées à un message sont enregistrées. L’enregistrement réel des valeurs stockées dans l’interface utilisateur de l’objet de formulaire se produit lorsque la méthode [IPersistMessage::Save](ipersistmessage-save.md) de l’objet form est appelée par l’application cliente. Le tableau suivant décrit les transitions autorisées à partir de l’état NoScribble. 
   

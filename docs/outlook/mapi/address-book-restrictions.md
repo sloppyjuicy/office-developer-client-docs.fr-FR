@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b8ad765a2bbd3aafd87a7eff79993978816729b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 54cd90cac6c00e8cf274e0b78a1bfec32401bb8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782894"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576511"
 ---
 # <a name="address-book-restrictions"></a>Restrictions de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de carnet d’adresses sont requis pour prendre en charge trois types de restrictions sur les tables des matières de leurs conteneurs :
   

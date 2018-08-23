@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’une Table unique du fournisseur
+title: Implémentation d’une table ponctuelle de fournisseur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 99146f93dcf634be6766f5c6fcc0d1c610b84d4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f484174bd0a83c9bb874bec4896fe3dd925405c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568237"
 ---
-# <a name="implementing-a-provider-one-off-table"></a>L’implémentation d’une Table unique du fournisseur
+# <a name="implementing-a-provider-one-off-table"></a>Implémentation d’une table ponctuelle de fournisseur
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI appelle la méthode [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) de votre fournisseur lorsque l’utilisateur d’une application cliente ajoute un destinataire à un message sortant. En règle générale, les types d’adresses demandés sont spécifiques à votre système de messagerie. Si votre fournisseur prend en charge la création de destinataires, elle doit fournir une table unique qui expose des modèles pour chaque type d’adresse du destinataire pris en charge. Si votre fournisseur ne gère pas la création de destinataires, renvoyer MAPI_E_NO_SUPPORT à partir de l’appel **GetOneOffTable** . 
   

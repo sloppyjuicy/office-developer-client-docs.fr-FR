@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2eb92c3f1555407a77332bd6ec3b2b7202f0553f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572563"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure [SSortOrderSet](ssortorderset.md) nommée qui contient un nombre spécifié d’ordres de tri. 
   
@@ -58,5 +58,5 @@ lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;
 ## <a name="see-also"></a>Voir aussi
 
 - [SSortOrderSet](ssortorderset.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

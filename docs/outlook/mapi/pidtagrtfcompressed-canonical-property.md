@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c93d850551e766e97292d5417c3be5577f557af0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c88e6789b5b48e946d86a0458674a0fbe6b76356
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575447"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>Propriété canonique PidTagRtfCompressed
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la version RTF (RICH Text Format) du texte du message, généralement dans un format compressé. 
   
@@ -32,7 +32,7 @@ Contient la version RTF (RICH Text Format) du texte du message, généralement d
 |Propriétés associées :  <br/> |PR_RTF_COMPRESSED  <br/> |
 |Identificateur :  <br/> |0x1009  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

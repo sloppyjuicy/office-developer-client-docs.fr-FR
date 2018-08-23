@@ -1,23 +1,23 @@
 ---
-title: Message d’état du téléchargement
+title: Télécharger l’état du message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 752756cbcf6c1ce487188dd4b9ba55eee6506cd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 430734fe98799c386e71612355b194a6b8edf00a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787427"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575412"
 ---
-# <a name="upload-message-state"></a>Message d’état du téléchargement
+# <a name="upload-message-state"></a>Télécharger l’état du message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état du message de téléchargement de l’ordinateur d’état de réplication. 
   
@@ -51,7 +51,7 @@ Lorsque le téléchargement de l’élément se termine, Outlook indique que le 
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

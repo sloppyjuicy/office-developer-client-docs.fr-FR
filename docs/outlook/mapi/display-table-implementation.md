@@ -1,5 +1,5 @@
 ---
-title: Affichage tableau implémentation
+title: Implémentation d’un tableau d’affichage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 07ad94c423c3be425dc905dc578f55ad2c467a95
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3e31dd7b25b3abf333505c8bde57f61be7a10901
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783167"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580606"
 ---
-# <a name="display-table-implementation"></a>Affichage tableau implémentation
+# <a name="display-table-implementation"></a>Implémentation d’un tableau d’affichage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un tableau d’affichage est utilisé pour afficher une feuille de propriétés, une boîte de dialogue se compose d’une ou plusieurs pages de propriétés dédiée à afficher et de modifier éventuellement une ou plusieurs propriétés. Associé à chaque table est un [IAttach : IMAPIProp](iattachimapiprop.md) implémentation de l’interface. L’implémentation [IMAPIProp](imapipropiunknown.md) gère les données de propriété qui sont présentées dans la feuille des propriétés. 
   

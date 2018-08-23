@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 25c04f8dee012f4985db98df7d1b3ae5536ef6b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b3850da2917dbf463590643b9e7ba8420f4ea219
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784048"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576056"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Convertit un identificateur d’entrée dans le format standard MAPI identificateur d’entrée interne d’une banque de messages.
   

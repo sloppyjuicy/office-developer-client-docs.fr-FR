@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 608faccd2c8b907710d7e34ce05d2f8d30f59f83
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 19a6341f8800bf44f3e763b47ee487cd09f20fdd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786100"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578135"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>Propriété canonique PidTagInternetApproved
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Correspond à l’en-tête MIME approuvé.
   
@@ -32,7 +32,7 @@ Correspond à l’en-tête MIME approuvé.
 |Propriétés associées :  <br/> |PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W  <br/> |
 |Identificateur :  <br/> |0x1030  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |MIME  <br/> |
+|Domaine :  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -60,7 +60,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

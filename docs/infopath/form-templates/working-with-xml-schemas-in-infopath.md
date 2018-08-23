@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Un modèle de formulaire que vous créez avec Microsoft InfoPath utilise un schéma XML (XSD) pour effectuer une validation de la structure et des données du code XML qui est en entrée, en modification et en sortie d'un formulaire InfoPath. Chaque modèle de formulaire créé dans le concepteur de formulaires InfoPath contient au moins un fichier de schéma XSD (.xsd) qui est utilisé pour la validation lors de l'exécution.
-ms.openlocfilehash: 6921a2206c098992a0a24e85c263992a0e2c98b1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6b19399e4f31f6270fa6f360a8428c725050ce16
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568272"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Utilisation des schémas XML dans InfoPath
 
@@ -532,8 +532,8 @@ En tirant profit de la prise en charge par InfoPath de la conception de solution
 
 - [W3C XML Schema (éventuellement en anglais)](http://www.w3.org/XML/Schema)
 - [W3C XML Schema Primer (éventuellement en anglais)](http://www.w3.org/TR/xmlschema-0/)
-- [W3C XML Schema Structures Reference (éventuellement en anglais)](http://www.xml.com/pub/a/2000/11/29/schemas/structuresref.mdl)
-- [W3C XML Schema Datatypes Reference (éventuellement en anglais)](http://www.xml.com/pub/a/2000/11/29/schemas/dataref.mdl)
-- [XML Schema Tutorial (éventuellement en anglais)](http://www.w3schools.com/schema/default.asp)
+- [W3C XML Schema Structures Reference (éventuellement en anglais)](https://www.xml.com/pub/a/2000/11/29/schemas/structuresref.html)
+- [W3C XML Schema Datatypes Reference (éventuellement en anglais)](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
+- [XML Schema Tutorial (éventuellement en anglais)](https://www.w3schools.com/xml/schema_intro.asp)
 - [Centre d'accès aux données et stockage (éventuellement en anglais)](http://msdn.microsoft.com/en-us/xml/default.aspx)
 

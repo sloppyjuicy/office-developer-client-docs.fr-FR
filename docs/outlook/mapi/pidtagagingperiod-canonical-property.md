@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1fd1b06bbaa10c2d7c71ee4c161fd6a980da1865
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: caaa01982ff9e66fe7e17df4eaf37dcd25281d4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785682"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569553"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Propriété canonique PidTagAgingPeriod
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente le nombre d’unités de temps qui sont utilisés pour déterminer la durée pendant laquelle un élément est conservée dans un dossier avant de l’élément est archivé.
   
@@ -34,7 +34,7 @@ Représente le nombre d’unités de temps qui sont utilisés pour déterminer l
 |Propriétés associées :  <br/> |PR_AGING_PERIOD  <br/> |
 |Identificateur :  <br/> |0x36EC  <br/> |
 |Type de propriété :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Divers  <br/> |
+|Domaine :  <br/> |Divers  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -86,7 +86,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

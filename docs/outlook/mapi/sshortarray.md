@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 59911531b6d8f9c094ef8563510aaa176e3a63b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787256"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573032"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau d’entiers non signés sont utilisées pour décrire une propriété de type PT_MV_SHORT.
   
@@ -40,7 +40,7 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

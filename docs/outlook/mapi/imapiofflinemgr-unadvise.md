@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b52dcd87c8714ad59db560a5ae4a8300f9cc83ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783877"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579521"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Annule des rappels pour un objet en mode hors connexion.
   

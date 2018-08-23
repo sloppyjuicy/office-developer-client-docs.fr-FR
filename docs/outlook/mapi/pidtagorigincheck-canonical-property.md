@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bbf09cb841c633b6f13ae12ec20e120ea3fd7ef7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 27b967b885ef35c04d52699c289dd60248e9abd5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786368"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581082"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propriété canonique PidTagOriginCheck
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur binaire de vérification qui permet à un destinataire de rapport de remise vérifier l’origine du message d’origine.
   
@@ -32,7 +32,7 @@ Contient une valeur binaire de vérification qui permet à un destinataire de ra
 |Propriétés associées :  <br/> |PR_ORIGIN_CHECK  <br/> |
 |Identificateur :  <br/> |forme0x0027  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

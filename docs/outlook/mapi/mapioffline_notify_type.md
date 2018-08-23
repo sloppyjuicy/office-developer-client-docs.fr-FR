@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a111d7b7-6e87-4958-8f9b-0f2adbeb8b63
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 468dfd634c4aaf18b019d06975ec9066c9d5f7a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e7120b843eae8df70cb2c4f9cbf581dcf0e09c11
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784758"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566886"
 ---
 # <a name="mapiofflinenotifytype"></a>MAPIOFFLINE_NOTIFY_TYPE
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le MAPIOFFLINE_NOTIFY_TYPE d’une notification identifie si une modification de l’état de connexion est sur le point d’avoir lieu, est en cours ou terminée. 
   
@@ -39,7 +39,7 @@ typedef enum {
 
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

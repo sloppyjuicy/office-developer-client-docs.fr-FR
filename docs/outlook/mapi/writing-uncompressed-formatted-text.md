@@ -1,5 +1,5 @@
 ---
-title: Écriture non compressée du texte mis en forme
+title: Écriture de texte mis en forme non compressé
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c78d4d00-bc31-4d0b-8af0-dd0b8f3febfe
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9baf3397255d6138caaad84de5ff5621bd6c9555
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d34168743926681ee7169a593e302755b193aae7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787492"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577043"
 ---
-# <a name="writing-uncompressed-formatted-text"></a>Écriture non compressée du texte mis en forme
+# <a name="writing-uncompressed-formatted-text"></a>Écriture de texte mis en forme non compressé
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lors de la préparation d’envoyer un message avec le texte mis en forme, soit définir la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) du message en texte compressé ou non compressé. Écriture de texte compressé dans la propriété **PR_RTF_COMPRESSED** est une opération intensive du processeur très et peut affecter considérablement les performances. 
   

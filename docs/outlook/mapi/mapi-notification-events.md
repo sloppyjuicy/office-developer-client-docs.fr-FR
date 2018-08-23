@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 76974c29f1d1efef376e6d23bb0d1f8b3b0d54c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8acf197f305373c082ef411732d631535201d488
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784654"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567250"
 ---
 # <a name="mapi-notification-events"></a>Événements de Notification MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque les applications clientes s’inscrire pour la notification d’événement, ils doivent spécifier un ou plusieurs événements. Les événements qui ils peuvent spécifier dépendent de l’ensemble d’événements qui prend en charge de la source advise concerné. Il existe dix types de notifications clients et fournisseurs de services peuvent s’inscrire pour chacune représentée par une constante. Notification d’état d’objet est une exception. Notification d’état d’objet est une notification MAPI interne ; Impossible d’enregistrer les clients pour qu’il et il ne peut pas générer des fournisseurs de services. Le tableau suivant décrit les types d’événements et les objets source advise pouvant prendre en charge les. La constante de l’événement est incluse dans le type d’événement.
   

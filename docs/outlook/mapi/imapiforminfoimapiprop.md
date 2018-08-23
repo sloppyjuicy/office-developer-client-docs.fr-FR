@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fa439d0a6fa59bac787f09c3f894a750948a0a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2b2abf4440ee2d81a8e95dcdb5fde2daeaa6e6f2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783787"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575909"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit l’accès client applications aux propriétés qui sont spécifiques à la définition du formulaire. En conservant les informations d’un formulaire dans un objet séparé, le fournisseur de bibliothèque formulaire permet de décrire un formulaire à un client sans activer le formulaire.
   

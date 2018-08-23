@@ -1,5 +1,5 @@
 ---
-title: Propriétés de Message d’état requis
+title: Propriétés de message de rapport requises
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 902b991dcca8a48597a26c52081b8c1993c911b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d42bcf531c09ca2486b0181b86bae72e223d2007
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787010"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577162"
 ---
-# <a name="required-report-message-properties"></a>Propriétés de Message d’état requis
+# <a name="required-report-message-properties"></a>Propriétés de message de rapport requises
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le tableau suivant décrit les propriétés clients peuvent s’attendre à voir pris en charge sur les messages d’état.
   

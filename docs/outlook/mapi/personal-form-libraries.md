@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0793fefd744eecc95899c4166cb8a1a6a2e6cd2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784966"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581586"
 ---
 # <a name="personal-form-libraries"></a>Bibliothèques de formulaires personnels
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Comme son nom l’indique, les bibliothèques de formulaires personnels contiennent des formulaires d’intérêt pour un utilisateur particulier. Bibliothèque des formulaires personnels d’un utilisateur est la bibliothèque de formulaires associée à la banque de messages par défaut identifiée dans le profil de l’utilisateur ; chaque profil installé sur une station de travail peut utiliser un magasin distinct par défaut et par conséquent, une bibliothèque de formulaires personnels distincts. Une bibliothèque de formulaires personnels peut contenir les copies des formulaires qui figurent également dans les autres bibliothèques de formulaires en plus des autres formes.
   

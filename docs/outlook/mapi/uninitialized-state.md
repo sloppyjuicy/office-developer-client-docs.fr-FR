@@ -1,5 +1,5 @@
 ---
-title: État non initialisée
+title: État non initialisé
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c00d5bb2e5da02b007579c7a8206baa98f64143f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 95ed80a6d0ea6a6a7c8cc768b32981ac899b69e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578247"
 ---
-# <a name="uninitialized-state"></a>État non initialisée
+# <a name="uninitialized-state"></a>État non initialisé
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’état non initialisée est le formulaire état initial dans des objets doivent être lors de leur création. Objets de formulaire devient initialisés avec les données de message lorsqu’une application cliente appelle la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) sur l’objet de formulaire. Le tableau suivant décrit les transitions autorisées à partir de l’état Unitialized. 
   

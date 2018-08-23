@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 146c8b4d711982118fd9da185a5b095a1bae6b2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 18113fd48f33eaf067942116f168a54e8b91c55c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783359"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579234"
 ---
 # <a name="forwarding-a-message"></a>Transfert d’un message
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Transfert d’un message implique de nombreuses tâches de même que l’envoi d’un message d’origine. Tout d’abord, vous devez ouvrir la banque de messages par défaut et le dossier désigné pour contenir les messages sortants, généralement la boîte d’envoi, et appeler la méthode de [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de ce dossier pour créer le message à transférer. Vous devez également ouvrir le dossier qui contient le message d’origine, généralement la boîte de réception. Pour plus d’informations sur l’ouverture des dossiers différents, consultez [ouverture d’un dossier de la banque de messages](opening-a-message-store-folder.md).
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 225c435107ba79183c737ddb8e09cda1ffbd83f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d376a5219125866f467be01709a6a611ed8d47f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786742"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576420"
 ---
 # <a name="pidtagselectable-canonical-property"></a>Propriété canonique PidTagSelectable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si l’entrée dans la table unique peut être sélectionnée. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si l’entrée dans la table unique peut être sélectio
 |Propriétés associées :  <br/> |PR_SELECTABLE  <br/> |
 |Identificateur :  <br/> |0x3609  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Conteneur de carnet d’adresses  <br/> |
+|Domaine :  <br/> |Conteneur de carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -83,7 +83,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ddaced5-49bb-41fe-95da-4e3300883bf7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ad4b9d3f7c2ca1766ecca4fe9467fc49098f2212
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e1846b4be93bf6300ea89a9ae3133fbba82b344e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786941"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573123"
 ---
 # <a name="propid"></a>PROP_ID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie l’identificateur de propriété d’une balise de propriété spécifiée.
   
@@ -55,5 +55,5 @@ La macro **PROP_ID** peut être utilisée, par exemple, pour récupérer un iden
 [SPropValue](spropvalue.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

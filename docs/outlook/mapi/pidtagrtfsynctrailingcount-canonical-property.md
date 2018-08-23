@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3174ebbcf70104c82305e2a20df1e183d30265d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7efa8dccf4c2c6da0ad60688d06d241d336e3943
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786635"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581005"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Propriété canonique PidTagRtfSyncTrailingCount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Affiche le nombre de caractères qui s’affiche après les caractères significatives du message peut être ignorés.
   
@@ -32,7 +32,7 @@ Affiche le nombre de caractères qui s’affiche après les caractères signific
 |Propriétés associées :  <br/> |PR_RTF_SYNC_TRAILING_COUNT  <br/> |
 |Identificateur :  <br/> |0x1011  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Message MAPI  <br/> |
+|Domaine :  <br/> |Message MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

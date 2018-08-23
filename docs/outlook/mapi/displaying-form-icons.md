@@ -1,5 +1,5 @@
 ---
-title: Afficher les icônes de formulaire
+title: Affichage des icônes de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b2e79e5568de38bee9a97c9df2598b30f1ba1bdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7ac8026489b06031e07ab4b2978c9ece04063bb1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783186"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579143"
 ---
-# <a name="displaying-form-icons"></a>Afficher les icônes de formulaire
+# <a name="displaying-form-icons"></a>Affichage des icônes de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous affichez une liste des messages dans un dossier, il est utile pour les utilisateurs si vous distinguer les messages avec les classes de message personnalisées à partir de l’IPM standard. Notez les messages. Classes de message personnalisées correspondent aux serveurs de formulaire et les serveurs de formulaire permettent d’icônes pour représenter elle-même. Vous pouvez afficher ces icônes dans la liste des messages pour avertir les utilisateurs de la classe de message de chaque message avant que l’utilisateur ouvre les messages. En règle générale, l’icône de la propriété du formulaire **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)) est celui qui doit être affiché dans la liste des messages. Formulaires ont également une propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) qui peut être affichée lorsque le formulaire est réduit dans une feuille de propriétés.
   

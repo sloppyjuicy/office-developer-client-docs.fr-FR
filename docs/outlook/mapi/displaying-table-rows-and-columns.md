@@ -1,5 +1,5 @@
 ---
-title: Affichage des lignes et des colonnes
+title: Affichage des lignes et des colonnes de tableau
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ee60e64559a0b4163074ddb62ed72c4600c8e03d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: dba7bd1fb7b0ca9bc23dbc45e07f44d0cc0dc8fe
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568139"
 ---
-# <a name="displaying-table-rows-and-columns"></a>Affichage des lignes et des colonnes
+# <a name="displaying-table-rows-and-columns"></a>Affichage des lignes et des colonnes de tableau
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Une page de propriétés peut être utilisée par un fournisseur de carnet d’adresses pour permettre aux utilisateurs de définir les destinataires du courrier électronique. 
   
@@ -60,5 +60,5 @@ La table finale répertorie chaque contrôle avec le contenu de la structure de 
 
 
 
-[Affichage tableau implémentation](display-table-implementation.md)
+[Implémentation d’un tableau d’affichage](display-table-implementation.md)
 

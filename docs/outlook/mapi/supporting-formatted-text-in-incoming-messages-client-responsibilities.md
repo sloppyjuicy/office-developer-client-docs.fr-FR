@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 863c95856f3198c74bb9d72881154676386f6a9f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d8fdd9ea4dfbc40d7e800be5e2df666738d2cd23
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19787292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577456"
 ---
-# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Prise en charge au format texte dans les Messages entrants : responsabilités du Client
+# <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Prise en charge du texte mis en forme dans les messages entrants : responsabilités du client
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les messages sont transférés entre les systèmes de messagerie, le spouleur MAPI permet de garantir que la mise en forme de texte enrichi reste synchronisé avec le texte du message. Le spouleur MAPI appelle la fonction [RTFSync](rtfsync.md) dans une version encapsulée du message qu’il passe au fournisseur de transport. Le fournisseur de transport enregistre les modifications apportées au message en appelant la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) , puis l’achemine vers le nouveau destinataire. 
   

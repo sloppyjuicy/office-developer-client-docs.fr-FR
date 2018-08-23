@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3c6a4050-fd97-42ce-abb1-118254b367bd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0cb40c3c644618bdf65a2c90a91580a5be8fc88c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 865d929f3348710b7786f4182670f3304a3a9244
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782965"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578037"
 ---
 # <a name="attowner"></a>attOwner
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’attribut **attOwner** est codée selon les chaînes comptées bout en bout. Le format de **attOwner** est la suivante : 
   

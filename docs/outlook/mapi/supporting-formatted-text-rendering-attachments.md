@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 14c1162bd4e225fd3ab2ea5ab11536b3bdf08edd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1b6339d768ac476c24ce988ba761270a50d47464
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580312"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>Prise en charge de texte mis en forme : Rendu des pi�ces jointes
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une application cliente qui ne se soucie où sont rendus ses pièces jointes dans un message définit la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour ces pièces jointes pendant la composition de message. Un client qui ne se soucie pas placement de rendu laisse cette propri�t� non d�finie.
   

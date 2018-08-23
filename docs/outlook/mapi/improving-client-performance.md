@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3d83108a1e375d54d7b3e3516da8fb00289408d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f3c47712ad9d64d7725505c7f8806a2d6f97b149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784206"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572066"
 ---
 # <a name="improving-client-performance"></a>Amélioration des performances du client
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les rubriques de cette section contiennent des conseils qui vous aident à créer une application cliente avec les meilleures performances possibles.
   

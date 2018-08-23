@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 27e3a9687d66bd1cd3586a25a3ca5792523096c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0d31272e63df7f68a83b23ca7a3824c081de3c1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785960"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569266"
 ---
 # <a name="pidtagemsabserver-canonical-property"></a>Propriété canonique PidTagEmsAbServer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le chemin d’accès d’un conteneur de carnet d’adresses dans un scénario en mode hors connexion ou le nom de domaine complet du serveur de catalogue global où le conteneur de carnet d’adresses se trouve dans un scénario en ligne.
   
@@ -34,7 +34,7 @@ Spécifie le chemin d’accès d’un conteneur de carnet d’adresses dans un s
 |Propriétés associées :  <br/> |PR_EMS_AB_SERVER, PR_EMS_AB_SERVER_A, PR_EMS_AB_SERVER_W  <br/> |
 |Identificateur :  <br/> |0xFFFE  <br/> |
 |Type de données :  <br/> |PT_TSTRING  <br/> |
-|Zone :  <br/> |Carnet d'adresses  <br/> |
+|Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

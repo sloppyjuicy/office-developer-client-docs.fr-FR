@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: edd29217-74bb-4321-82fd-65f0fbfd05f8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7b564b1dda1d72a28e16fad40f0ef90451aaaf0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d5afe0cfff03feafeb8299780b9402cef3282632
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577071"
 ---
 # <a name="pidtagreceivedbyname-canonical-property"></a>Propriété canonique PidTagReceivedByName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom complet de l’utilisateur de messagerie qui reçoit le message.
   
@@ -32,7 +32,7 @@ Contient le nom complet de l’utilisateur de messagerie qui reçoit le message.
 |Propriétés associées :  <br/> |PR_RECEIVED_BY_NAME, PR_RECEIVED_BY_NAME_A, PR_RECEIVED_BY_NAME_W  <br/> |
 |Identificateur :  <br/> |0x0040  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -87,7 +87,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

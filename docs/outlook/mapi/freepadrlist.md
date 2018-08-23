@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2c5d4ec8381d6614cc2bc92fb0a762b068a97a81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 39a184f00ccf54d4fa4477bbdf3086f3e44bddb0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783378"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576546"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Détruit une structure [ADRLIST](adrlist.md) et libère de la mémoire associée, y compris la mémoire allouée pour tous les tableaux membres et les structures. 
   

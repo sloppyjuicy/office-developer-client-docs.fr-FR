@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0e39f2603a1eef45c456b7fb58744b79c6b75f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 44bc6de420953bd665bd3caa336b76b15c1effd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783630"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579458"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Prend en charge l’accès au carnet d’adresses MAPI et inclut des opérations, telles que l’affichage des boîtes de dialogue courantes ; conteneurs de l’ouverture, messagerie, les utilisateurs et les listes de distribution ; et la résolution de nom.
   
@@ -48,7 +48,7 @@ Prend en charge l’accès au carnet d’adresses MAPI et inclut des opérations
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |Crée un identificateur d’entrée pour une adresse unique.  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |Ajoute un destinataire à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |Effectue la résolution de noms, affectation d’identificateurs d’entrée aux destinataires dans une liste de destinataires.  <br/> |
-|[Address](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue de carnet d’adresse Outlook.  <br/> |
+|[Adresse](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue de carnet d’adresse Outlook.  <br/> |
 |[Détails](iaddrbook-details.md) <br/> |Affiche une boîte de dialogue qui affiche des informations sur une entrée de carnet d’adresses particulière.  <br/> |
 |**RecipOptions** <br/> | *Non pris en charge ou documentés.*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *Non pris en charge ou documentés.*  <br/> |

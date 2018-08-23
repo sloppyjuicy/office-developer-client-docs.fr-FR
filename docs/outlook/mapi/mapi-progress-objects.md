@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3007aeb5ac3810c57ed6fb4a555d5ce22e831768
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784659"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567922"
 ---
 # <a name="mapi-progress-objects"></a>Objets de progression MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les méthodes et les données d’un objet de progression, vous pouvez contrôler comment l’indicateur signale la progression. Bien qu’un client ou un MAPI implémente l’objet de l’avancement, la plupart de la charge d’assurer l’exactitude de l’affichage de l’avancement se situe sur les fournisseurs de services. Vous pouvez garantir son exactitude en spécifiant une valeur pour les paramètres qui sont transmises aux méthodes d’objet de progression et un ordre particulier.
   

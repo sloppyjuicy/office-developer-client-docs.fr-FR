@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ada86f04-e81b-4f97-b9c1-1c8ec5e1a5dd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5494558db65e19891848264c170ba85a55c5df71
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4e919270efb196cda845581830cc4a918012b385
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784953"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578975"
 ---
 # <a name="packedansistring-stream-structure"></a>Structure de flux PackedAnsiString
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La structure de flux PackedAnsiString contient une représentation ANSI d’une chaîne, en fonction de la page de codes ANSI de l’ordinateur sur lequel Microsoft Outlook est en cours d’exécution. Cette chaîne n’est pas terminée par un caractère null. Éléments de données dans ce flux de données sont stockés dans l’ordre de primauté des octets, immédiatement après l’autre dans l’ordre indiqué ci-dessous. Les éléments de données réelles qui existent dépendent de la longueur de la chaîne de représentation ANSI.
   
@@ -39,9 +39,9 @@ La structure de flux PackedAnsiString contient une représentation ANSI d’une 
 
 
 
-[Les champs et les éléments outlook](outlook-items-and-fields.md)
+[Champs et éléments Outlook](outlook-items-and-fields.md)
   
-[Structures de flux de données](stream-structures.md)
+[Structures de flux](stream-structures.md)
   
 [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)
 

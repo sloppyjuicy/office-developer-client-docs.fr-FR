@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e7a4fde57515f0b8a41b9acf4adb01dd177a7a19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783037"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582034"
 ---
 # <a name="checkparms"></a>CheckParms
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de service appelées par MAPI. 
   

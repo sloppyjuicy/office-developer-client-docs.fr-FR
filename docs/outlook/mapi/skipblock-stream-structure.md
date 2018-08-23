@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2499587b-2a0e-4987-9bf7-591bef41b894
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d84704300602bada4cf93c9d3f6622feaf16f352
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b7be498473ef86b11006702f85089f0f95bb2e37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787185"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580900"
 ---
 # <a name="skipblock-stream-structure"></a>Structure de flux SkipBlock
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une structure de flux SkipBlock est un bloc de données qui commence par un entier qui spécifie la longueur de la partie restante du bloc. Cette structure de flux de données existe dans un flux [FieldDefinition](fielddefinition-stream-structure.md) si la définition de champ est au format PropDefV2. 
   
@@ -33,9 +33,9 @@ L’objectif d’une structure de flux SkipBlock dépend de son emplacement rela
 
 
 
-[Les champs et les éléments outlook](outlook-items-and-fields.md)
+[Champs et éléments Outlook](outlook-items-and-fields.md)
   
-[Structures de flux de données](stream-structures.md)
+[Structures de flux](stream-structures.md)
   
 [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)
   

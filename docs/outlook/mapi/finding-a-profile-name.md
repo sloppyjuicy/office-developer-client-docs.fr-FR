@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 332b78bcebbcd54de43376553ec4aea386c1c359
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a32c73f8a907b371c4d0f1c07050d44fd45801ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783305"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576287"
 ---
 # <a name="finding-a-profile-name"></a>Recherche d’un nom de profil
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les clients doivent parfois trouver le nom du profil en cours d’utilisation pour la session, le nom du profil par défaut ou le nom d’un autre profil installé sur l’ordinateur.
   

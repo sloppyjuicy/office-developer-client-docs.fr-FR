@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 803481a71d505fc9f12e77b162a91200cac505d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2d8157c761cd21d5c8fcdf04948646d8102e774a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785933"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580137"
 ---
 # <a name="pidtagdeliverypoint-canonical-property"></a>Propriété canonique PidTagDeliveryPoint
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la nature de l’entité fonctionnelle par lequel le message a été ou serait ont été remis au destinataire. 
   
@@ -32,7 +32,7 @@ Spécifie la nature de l’entité fonctionnelle par lequel le message a été o
 |Propriétés associées :  <br/> |PR_DELIVERY_POINT  <br/> |
 |Identificateur :  <br/> |0x0C07  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -88,7 +88,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

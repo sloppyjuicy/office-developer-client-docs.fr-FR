@@ -1,5 +1,5 @@
 ---
-title: Écriture de Code de formulaire Server
+title: Écriture de code du serveur de formulaire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 860b0150fd1ec66fa8fee387d8d4a96e8bb79761
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 463193b55dab0839c756367db16d02aae5980a77
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787478"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578121"
 ---
-# <a name="writing-form-server-code"></a>Écriture de Code de formulaire Server
+# <a name="writing-form-server-code"></a>Écriture de code du serveur de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Vous pouvez considérer un serveur de formulaire comme suit : 
   
@@ -53,5 +53,5 @@ Toutes les interfaces MAPI qui sont associées aux formulaires sont requis par t
 
 
 
-[Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+[Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

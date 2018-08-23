@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 008dd69f5e31b601b678a4346880e6b3c89a0f39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 80d1fc3f711369471eb2c1473700f13a6b995594
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786730"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578506"
 ---
 # <a name="pidtagsearchattachments-canonical-property"></a>Propriété canonique PidTagSearchAttachments
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne Unicode qui est interrogée dans le contenu de pièce jointe dans le magasin.
   
@@ -30,7 +30,7 @@ Contient une chaîne Unicode qui est interrogée dans le contenu de pièce joint
 |Propriétés associées :  <br/> |PR_SEARCH_ATTACHMENTS_W  <br/> |
 |Identificateur :  <br/> |0x0EA5  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Search  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -65,7 +65,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1fb7224e110bbee6844cf2820782aac8be213ba3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2c5d7a2114f4a85b9f63cd778e899a83d335ff45
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786979"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581278"
 ---
 # <a name="removing-address-book-entries"></a>Suppression des entrées de carnet d’adresses
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Méthode de [IABContainer::DeleteEntries](iabcontainer-deleteentries.md) de votre conteneur est appelée pour supprimer un ou plusieurs destinataires. **DeleteEntries** possède deux paramètres : un tableau d’identificateurs d’entrée représentant les destinataires à supprimer et une valeur pour les indicateurs réservés. Suppression d’un destinataire affecte la table des matières de votre conteneur ; en plus de supprimer le destinataire, le conteneur doit supprimer la ligne du tableau contenu qui représente le destinataire. Lorsque la ligne a été supprimée de la table, votre conteneur doit émettre une notification de la table pour chaque client enregistré. 
   

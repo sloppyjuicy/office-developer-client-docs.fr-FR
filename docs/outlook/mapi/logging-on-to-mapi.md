@@ -1,5 +1,5 @@
 ---
-title: Se connecter à MAPI
+title: Connexion à MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1ae3c47964ff238f57e98e0005a966008192f7c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 63f71066b1afc90c3e495ed4f9ba654bcbdfe558
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784542"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579927"
 ---
-# <a name="logging-on-to-mapi"></a>Se connecter à MAPI
+# <a name="logging-on-to-mapi"></a>Connexion à MAPI
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes ouvrez une session le sous-système MAPI en appelant la fonction **MAPILogonEx** . Pour plus d’informations, voir [MAPILogonEx](mapilogonex.md). **MAPILogonEx** valide la sélection de profil et la configuration de chaque fournisseur de services dans le profil. Une fois configuré, MAPI démarre les fournisseurs de carnet d’adresses avant de commencer les fournisseurs de banque de messages. Fournisseurs de transport sont démarrés lorsque leurs services sont d’abord requis. 
   

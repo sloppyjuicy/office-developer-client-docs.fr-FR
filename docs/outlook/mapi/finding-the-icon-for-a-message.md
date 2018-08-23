@@ -1,5 +1,5 @@
 ---
-title: Recherche de l’icône d’un Message
+title: Recherche d’une icône pour un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b73545585d3279bc290524c7ccb26c14c2977fe4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 512c686a9e5afeadacd8edccedba2c257df48f71
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783295"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567810"
 ---
-# <a name="finding-the-icon-for-a-message"></a>Recherche de l’icône d’un Message
+# <a name="finding-the-icon-for-a-message"></a>Recherche d’une icône pour un message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour rechercher l’icône associée à un message**
   

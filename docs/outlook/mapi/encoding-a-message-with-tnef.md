@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2cb5c9a971f95e309f0a91cf477eefe98fe3bd64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5043c338f309b5da21ca828a47daf1d8b6abfd5d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783269"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577750"
 ---
 # <a name="encoding-a-message-with-tnef"></a>Codage d’un message avec TNEF
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fichier qui est utilisé pour contenir le message lors de la transmission. Ensuite, une interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) est autour du fichier. Le fournisseur de transport utilise ensuite les méthodes [ITnef](itnefiunknown.md) pour écrire les propriétés de message dans le flux dans un format avec balise qui permet les propriétés à décoder facilement par les fournisseurs de transport de réception. 
   

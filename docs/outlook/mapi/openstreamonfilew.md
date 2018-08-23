@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 127c4a77b9184d8bb62925c5237c1aedec643992
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: dc8644a658b8aca97f80fcf0a942551509064bd6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784945"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581558"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Alloue et initialise un objet OLE **IStream** pour accéder au contenu d’un fichier. Cette fonction prend des chaînes UNICODE comme arguments, contrairement à la version ANSI de cette fonction [OpenStreamOnFile](openstreamonfile.md)et permet donc des caractères spéciaux dans le nom de fichier, y compris l’extension de fichier et chemin d’accès.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 70c3c0b60e4792c46d5cba8d40e810664ab3fbb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785854"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572801"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Propriété canonique PidTagContentLength
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une longueur de message, en octets, transmises à une application cliente ou le fournisseur de services pour déterminer si un message dont la longueur peut être remis. 
   
@@ -32,7 +32,7 @@ Contient une longueur de message, en octets, transmises à une application clien
 |Propriétés associées :  <br/> |PR_CONTENT_LENGTH  <br/> |
 |Identificateur :  <br/> |0 x 0009  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

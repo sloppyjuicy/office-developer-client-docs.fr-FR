@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0e1fbab53589a4ebf8681d5fe738ad625d31c18f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5b83a4acf30f498a0d17cc2c3c76f40c2c3c4b96
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786714"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582013"
 ---
 # <a name="pidtagscheduleinfofreebusymerged-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyMerged
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les heures pour lesquelles l’état libre/occupé est défini sur occupé (e) ou absent du bureau.
   
@@ -32,7 +32,7 @@ Contient les heures pour lesquelles l’état libre/occupé est défini sur occu
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY_MERGED  <br/> |
 |Identificateur :  <br/> |0x6850  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

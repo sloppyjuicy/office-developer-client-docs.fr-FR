@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a791b95f-56ad-493a-9ba5-fb4c7dd80e89
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8f26fc6a51c3abdb4d4d009183fa8263ce97b261
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2c4577a35315c9df0055e97de26dd0baf1a2b489
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783127"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580585"
 ---
 # <a name="deferring-processing"></a>Report de traitement
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Passez l’indicateur MAPI_DEFERRED_ERRORS pour les appels de méthode autant que possible. Beaucoup d’appels de méthode MAPI ont été optimisés pour accepter cet indicateur, à l’origine du fournisseur à soit attendre la tâche demandée plusieurs tâches peuvent être effectuées à la fois, ou vous pouvez attendre ne sont plus les résultats.
   

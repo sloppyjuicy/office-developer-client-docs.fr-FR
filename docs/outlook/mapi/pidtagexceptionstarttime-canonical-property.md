@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fbbd261558cf75458e69371e7fb53857e0692e74
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a8de1a90c0dde029cc6880fe46b0c4d4af9b50ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579059"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Propriété canonique PidTagExceptionStartTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la date de début et l’heure de l’exception dans le fuseau horaire local de l’ordinateur lorsque l’exception est créée.
   
@@ -32,7 +32,7 @@ Indique la date de début et l’heure de l’exception dans le fuseau horaire l
 |Propriétés associées :  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identificateur :  <br/> |0x7FFB  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Défini par la classe de message non transmissible  <br/> |
+|Domaine :  <br/> |Défini par la classe de message non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

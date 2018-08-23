@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5db1b45f42365837d7b0e7af91f859f221ff687b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4b05baf1f819a821da3496cc63c2b2980894efd7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783542"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575713"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie l’identificateur d’entrée du carnet d’adresses globale pour le service Exchange identifié par _pEmsmdbUID_. L’identificateur d’entrée renvoyée doit être libéré à l’aide de [MAPIFreeBuffer](mapifreebuffer.md).
   

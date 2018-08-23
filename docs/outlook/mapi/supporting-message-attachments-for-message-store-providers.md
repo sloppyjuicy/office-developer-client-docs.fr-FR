@@ -1,5 +1,5 @@
 ---
-title: Prise en charge des pièces jointes des messages pour les fournisseurs de banque de messages
+title: Prise en charge des pièces jointes de message pour les fournisseurs de banques de messages
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: e3d6844f8fe6121d6ea063a9594aaf1fed581ee5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576098"
 ---
-# <a name="supporting-message-attachments-for-message-store-providers"></a>Prise en charge des pièces jointes des messages pour les fournisseurs de banque de messages
+# <a name="supporting-message-attachments-for-message-store-providers"></a>Prise en charge des pièces jointes de message pour les fournisseurs de banques de messages
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Votre fournisseur de magasin de message n’a pas besoin prendre en charge les pièces jointes des messages. Toutefois, de nombreuses applications clientes prévoient être en mesure d’ajouter des pièces jointes aux messages. Si votre banque de messages doit être utilisée pour créer ou stocker IPM. Remarque Les messages, puis vous devez prendre en charge des pièces jointes des messages. Fournisseurs de banque de message par défaut doivent prennent également en charge les pièces jointes des messages. Pour plus d’informations, consultez [Classes de Message MAPI](mapi-message-classes.md)et [Banques de Message par défaut](default-message-stores.md).
   

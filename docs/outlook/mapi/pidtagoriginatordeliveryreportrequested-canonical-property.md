@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 07cea7606654bf32c1fe70e49254afeeb04f0e98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9e508f9c3d84272a0641a27e18c94e0620a7072c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574404"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Propriété canonique PidTagOriginatorDeliveryReportRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message demande un rapport de remise pour un destinataire à partir du système de messagerie particulier avant que le message est placé dans la banque de messages.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un expéditeur du message demande un rapport de remis
 |Propriétés associées :  <br/> |PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0023  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |MIME  <br/> |
+|Domaine :  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

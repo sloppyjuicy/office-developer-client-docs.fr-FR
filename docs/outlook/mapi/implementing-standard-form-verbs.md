@@ -1,5 +1,5 @@
 ---
-title: Implémentation de verbes formulaire Standard
+title: Implémentation de verbes de formulaire standard
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8135af7947f30ac600b8d9af364b2a79a3443ab6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784200"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568748"
 ---
-# <a name="implementing-standard-form-verbs"></a>Implémentation de verbes formulaire Standard
+# <a name="implementing-standard-form-verbs"></a>Implémentation de verbes de formulaire standard
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI définit un ensemble de verbes standard ou les actions effectuées lorsqu’un utilisateur effectue une sélection de menu ou clique sur un bouton, toutes les visionneuses de formulaire doivent prendre en charge. Chaque verbe possède une constante associée à l’identification, définie dans le EXCHFORM. Fichier d’en-tête H. Le tableau suivant répertorie les verbes formulaire standard et les constantes associées :
   
@@ -31,7 +31,7 @@ MAPI définit un ensemble de verbes standard ou les actions effectuées lorsqu�
 |Transférer  <br/> |EXCHIVERB_FORWARD  <br/> |
 |Imprimer  <br/> |EXCHIVERB_PRINT  <br/> |
 |Enregistrer en tant que  <br/> |EXCHIVERB_SAVEAS  <br/> |
-|Répondre à un dossier  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
+|Répondre dans le fichier  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
 Lorsqu’un utilisateur choisit un verbe, transmettez la constante dans un appel à la méthode du formulaire [IMAPIForm::DoVerb](imapiform-doverb.md) pour effectuer son action correspondante. 
   

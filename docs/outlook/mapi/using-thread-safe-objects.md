@@ -1,5 +1,5 @@
 ---
-title: À l’aide des objets Thread-Safe
+title: Utilisation des objets thread-safe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4a66f892043b9a90893a60f3fa6ba69ea6457f5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 49a94b785a51b4b0c3082832145250eec0745a19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787469"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580977"
 ---
-# <a name="using-thread-safe-objects"></a>À l’aide des objets Thread-Safe
+# <a name="using-thread-safe-objects"></a>Utilisation des objets thread-safe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les applications clientes peuvent supposent que les objets utilisés directement ou en tant que rappels sont toujours thread-safe, sauf dans les cas suivants :
   

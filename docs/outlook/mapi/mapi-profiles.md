@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7f241fde8aedeae9debc66f728ee21c1c6bed6fb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784663"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579857"
 ---
 # <a name="mapi-profiles"></a>Profils MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un profil stocke des informations sur les fournisseurs de services et les services de messagerie qui sont installés sur un ordinateur. Pour chaque session, un client au moment de l’ouverture de session sélectionne un seul profil qui décrit les fournisseurs et les services à utiliser. Un client peut choisir d’une collection de profils et, si vous le souhaitez, établir un en tant que la valeur par défaut. Le profil par défaut est le profil qui est sélectionné automatiquement lorsqu’un client démarre une session et un profil n’a pas explicitement spécifié.
   
 Dans ces rubriques, vous trouverez également une discussion sur le cache du surnom, qui est stocké dans un objet stream binaire.
   
-- [Cache du surnom dans](nickname-cache.md)
+- [Cache de surnoms](nickname-cache.md)
     
 - [Flux de saisie semi-automatique](autocomplete-stream.md)
     

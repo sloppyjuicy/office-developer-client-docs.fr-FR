@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: 6096118d72dfc51fb60025a55f581ebf97b000a7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 72dd2a27e89f00885710125f4ecb68be65f2185e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783213"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567698"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations pour le téléchargement du contenu d’un dossier à partir du serveur au cours de l' [état de la table du téléchargement](download-table-state.md), dans le cadre d’une synchronisation complète pour le contenu sur un magasin.
   
@@ -47,7 +47,7 @@ struct DNTBL
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -123,7 +123,7 @@ _pReserved2_
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)  
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)  
 - [Constantes MAPI](mapi-constants.md) 
 - [DNTBLE](dntble.md)
 

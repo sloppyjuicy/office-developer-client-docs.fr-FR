@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: df0db1e4-69c8-44ec-bb2a-d31fc8a564b9
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0f55d4cda013810884177a0f47e861e3693defd7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 60a102a68ee11cd6002be9edf47d0cee93ed2e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784896"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581432"
 ---
 # <a name="message-services-and-profiles"></a>Profils et des services de messagerie
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Certains utilisateurs requièrent les services de plusieurs systèmes de messagerie, chacun avec un ou plusieurs fournisseurs de services. Car il est difficile à installer et configurer individuellement chacun de ces fournisseurs de services, car un serveur de messagerie nécessite généralement un groupe de fournisseurs associés pour exposer toutes ses fonctionnalités, MAPI inclut le concept d’un service de message. Services de messagerie aident les utilisateurs à installer et configurer leurs fournisseurs de services.
   

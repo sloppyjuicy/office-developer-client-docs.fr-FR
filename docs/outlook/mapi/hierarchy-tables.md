@@ -1,5 +1,5 @@
 ---
-title: Tables de hiérarchie
+title: Tables de hiérarchies
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 23314418836893b40cbddf3b90bd95ec061a00c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d135e0c224866cd2a675df2ef9ec1b206f3169ab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783467"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580753"
 ---
-# <a name="hierarchy-tables"></a>Tables de hiérarchie
+# <a name="hierarchy-tables"></a>Tables de hiérarchies
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une table de hiérarchie contient des informations sur les dossiers dans une banque de messages ou les conteneurs dans un conteneur de carnet d’adresses. Chaque ligne d’une table de hiérarchie contient un ensemble de colonnes avec des informations sur un dossier ou le conteneur de carnet d’adresses. Tables de hiérarchie sont principalement utilisés par les clients et implémentés par les fournisseurs de banque de message pour afficher une arborescence de dossiers et les sous-dossiers et par les fournisseurs de carnet d’adresses pour afficher une arborescence de conteneurs dans le carnet d’adresses. Conteneurs qui ne peut pas contenir les sous-conteneurs, comme indiqué par l’absence de l’indicateur AB_SUBCONTAINERS dans leur propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), n’implémentent pas une table de hiérarchie.
   
@@ -81,7 +81,7 @@ Fournisseurs de carnet d’adresses doivent prendre en charge les méthodes **IM
 |:-----|:-----|
 |[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |[IMAPITable::QueryPosition](imapitable-queryposition.md) <br/> |
 |[IMAPITable::SeekRow](imapitable-seekrow.md) <br/> |[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) <br/> |
-|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |[IMAPITable](imapitable-restrict.md) <br/> |
+|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |[IMAPITable::Restrict](imapitable-restrict.md) <br/> |
 |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) <br/> |[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
 |[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> | <br/> |
    

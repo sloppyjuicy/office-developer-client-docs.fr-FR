@@ -1,5 +1,5 @@
 ---
-title: Rendu d’une pièce jointe en texte brut
+title: Rendu d’une pièce jointe sous la forme de texte brut
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 38db1d18f240188c7566a57afa23291a307446dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 031f8f17ae98bd62043a2cd8ce6c8c2d55a19c9f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787004"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582335"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>Rendu d’une pièce jointe en texte brut
+# <a name="rendering-an-attachment-in-plain-text"></a>Rendu d’une pièce jointe sous la forme de texte brut
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour afficher une pièce jointe dans un message avec le texte brut, récupérer la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de la pièce jointe et s’appliquent aux données de la **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) propriété. Il existe deux façons de récupérer **PR_RENDERING_POSITION**:
   

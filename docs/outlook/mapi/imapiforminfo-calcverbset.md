@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 362afb1efeddeae72cc19256c377cb2c0f7ecba0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783786"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567712"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers l’ensemble complet des verbes qui utilise un formulaire.
   

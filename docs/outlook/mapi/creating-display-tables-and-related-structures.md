@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 177fe21537e921a4b94a34ad531847701b16c344
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e17306e2b90f26dcef0a0214e78080fe78752e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783104"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568566"
 ---
 # <a name="creating-display-tables-and-related-structures"></a>Création d’afficher des tables et des structures associées
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Création d’un tableau de l’affichage est semblable à l’écriture d’un programme avec un langage de script. Vous pouvez créer un tableau d’affichage en appelant [BuildDisplayTable](builddisplaytable.md) ou écrire du code personnalisé pour remplir les lignes et colonnes de la table. En règle générale, vous devez utiliser la technique **BuildDisplayTable** , car il est plus simple. 
   
@@ -41,7 +41,7 @@ Le membre de structure de contrôle d’une structure **DTCTL** décrit les donn
   
 La relation entre les trois types de structures de table complet est indiquée dans l’illustration suivante. La boîte de dialogue décrite par cet affichage de la table a deux contrôles : un label et un contrôle d’édition. La structure **DTBLLBX** possède un membre de décalage de l’étiquette, comme plusieurs des structures de contrôle qui décrit où commence la chaîne de caractères pour l’étiquette. Étiquette des chaînes de caractères sont généralement placées en mémoire qui suit immédiatement la structure. 
   
-**Afficher les structures de table**
+**Structures de table d’affichage**
   
 ![Structures de table complet] (media/dtstruct.gif "Structures de table complet")
   

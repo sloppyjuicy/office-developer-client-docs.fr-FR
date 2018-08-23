@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 08ecb718572944db07c2888e0aae1464bd5c0f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 94bafdf0ca84fa31a7df2f022265d5d5d1a99a37
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783424"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577694"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit un identificateur global unique (GUID). 
   
@@ -42,7 +42,7 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **Data1**
   

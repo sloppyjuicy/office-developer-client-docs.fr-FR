@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9295c37a46d3566089f708aaaa0b9fc3b5f30db2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ef38893c9ad44556cc9220809b5e407f86fd2642
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783232"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576315"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit un contrôle de zone de groupe qui sera utilisé dans une boîte de dialogue établie à partir d’un tableau d’affichage.
   
@@ -41,7 +41,7 @@ typedef struct _DTBLGROUPBOX
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulbLpszLabel**
   

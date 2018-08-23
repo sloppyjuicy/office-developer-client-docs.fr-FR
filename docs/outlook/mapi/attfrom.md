@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c7c0d1df32a0ad6359fad20128a6a1e3dd225143
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6460cd3ef0495a5494e03b4c7034e067cf8793b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782971"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576063"
 ---
 # <a name="attfrom"></a>attFrom
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’attribut **attFrom** est codé en une structure **TRP** qui encode l’adresse d’e-mail et le nom complet de l’expéditeur, suivi par le nom complet et l’adresse de l’expéditeur, suivi par n’importe quel remplissage nécessaire. Le format de **attFrom** est la suivante : 
   

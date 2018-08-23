@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0814d76dac97e40940f41c49dbf72efdd26b3cca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f9ba7a2a0752dea353e914aaa14a09046b993e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782887"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580522"
 ---
 # <a name="address-book-identifiers"></a>Identificateurs de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tous les fournisseurs de carnet d’adresses attribuer des identificateurs d’entrée à l’aide de la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) à leur messagerie utilisateur et les objets de liste de distribution. Applications clientes utilisent ces identificateurs d’entrée d’ouvrir et d’accéder aux objets auxquels ils sont affectés.
   

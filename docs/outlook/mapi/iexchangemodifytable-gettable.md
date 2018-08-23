@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0cf9373c68d533908b857a4d8f1c0e71aa11846f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783688"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578989"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers une interface pour un objet de table MAPI.
   

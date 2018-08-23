@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e932966e-cb7a-4d8b-8f06-6406fce1b3e6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6bcda9c6281e25f3bae2f9c1dda2f8defb024b57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a88f05bab3f3effc60c0bcca24910106e6849903
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576806"
 ---
 # <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a>Propriété canonique PidTagScheduleInfoDontMailDelegates
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si le délégué ne souhaite pas recevoir les mises à jour.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si le délégué ne souhaite pas recevoir les mises à j
 |Propriétés associées :  <br/> |PR_SCHDINFO_DONT_MAIL_DELEGATES  <br/> |
 |Identificateur :  <br/> |0x6843  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

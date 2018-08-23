@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c274fb58b8c5c0229c830200768d083dcdcf282d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5c49f119dd03e13439193c92168638c565074ee9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785855"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578457"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propriété canonique PidTagContentConfidentialityAlgorithmId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur pour l’algorithme utilisé pour confirmer la confidentialité des messages.
   
@@ -32,7 +32,7 @@ Contient un identificateur pour l’algorithme utilisé pour confirmer la confid
 |Propriétés associées :  <br/> |PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID  <br/> |
 |Identificateur :  <br/> |0x0006  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

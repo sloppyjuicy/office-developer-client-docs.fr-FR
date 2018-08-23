@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’une fonction Point d’entrée fournisseur adresse téléchargeable
+title: Implémentation d’une fonction de point d’entrée de fournisseur de carnet d’adresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b60a80bc0ede0c2800f6cfd98a98f498b93a1d8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 68ba23e6ab23ff7306cd1326b73512b1c9f2a0f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784170"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579675"
 ---
-# <a name="implementing-an-address-book-provider-entry-point-function"></a>L’implémentation d’une fonction Point d’entrée fournisseur adresse téléchargeable
+# <a name="implementing-an-address-book-provider-entry-point-function"></a>Implémentation d’une fonction de point d’entrée de fournisseur de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’un client application appelle [MAPILogonEx](mapilogonex.md) pour commencer une session à l’aide d’un profil qui contient votre fournisseur de carnet d’adresses, MAPI charge votre fournisseur et toutes les personnes qui font partie du profil. MAPI reçoit le nom de la fonction de point d’entrée de votre fournisseur en examinant le profil. N’oubliez pas que cette fonction est identique à une fonction de point d’entrée DLL ; consultez la documentation de **DllMain** dans la documentation de Win32. 
   

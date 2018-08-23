@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a93e5a44768cd99512189f800bf98ab6e30b575d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0e84f1361e9ca3d95b4297c01801e649a9f86ced
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786517"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569231"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriété canonique PidTagRecipientFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie un champ de bits qui décrit l’état du destinataire.
   
@@ -32,7 +32,7 @@ Spécifie un champ de bits qui décrit l’état du destinataire.
 |Propriétés associées :  <br/> |PR_RECIPIENT_FLAGS  <br/> |
 |Identificateur :  <br/> |0x5FFD  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire de transport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

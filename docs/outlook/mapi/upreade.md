@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 854e674002953c31c47d56096700dca582ce0a5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787442"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579073"
 ---
 # <a name="upreade"></a>UPREADE
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Obtenir des informations détaillées pour le téléchargement de l’état de lecture d’un élément pendant le [téléchargement lire l’état de l’état](upload-read-status-state.md).
   
@@ -31,7 +31,7 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -60,7 +60,7 @@ _SKEY_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 - [UPREAD](upread.md)
 

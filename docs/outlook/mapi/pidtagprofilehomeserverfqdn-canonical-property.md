@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 398ff2fd4bab49c8279e198e3efa416c53abda7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b02a55f7b87bef6a4304d006f79472bcf21c811e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786435"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581873"
 ---
 # <a name="pidtagprofilehomeserverfqdn-canonical-property"></a>Propriété canonique PidTagProfileHomeServerFQDN
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Active l’authentification Kerberos d’une configuration de profil.
   
@@ -30,7 +30,7 @@ Active l’authentification Kerberos d’une configuration de profil.
 |Propriétés associées :  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
 |Identificateur :  <br/> |0x662A001F  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Configuration d’un profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration d’un profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

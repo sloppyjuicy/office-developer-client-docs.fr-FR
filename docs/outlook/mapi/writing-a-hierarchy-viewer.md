@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0286696707d268867a5536ef345d0af7909918dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6ff394c95dfa3166d39dcba4b0c577dcfac7b8d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787487"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22581593"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>Écriture d’une visionneuse de hiérarchie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une visionneuse de hiérarchie est un composant d’interface utilisateur qui est utilisé pour l’affichage des tables de hiérarchie de conteneur livre dossier et l’adresse. Visionneuses de hiérarchie peuvent afficher les membres de la hiérarchie à différents niveaux, extension et réduction de chaque niveau de la demande.
   

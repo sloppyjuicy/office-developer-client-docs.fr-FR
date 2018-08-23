@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ad2aedc-405b-475e-ac76-7ecbbef28f73
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 01d4391850067d00645b5c0248e1bf858c2a9049
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6893afa11cc08b335b0ffb39b725e26478dae22f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785086"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22574838"
 ---
 # <a name="pidlidcategories-canonical-property"></a>Propriété canonique PidLidCategories
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie une liste de catégories pour un élément.
   
@@ -33,7 +33,7 @@ Spécifie une liste de catégories pour un élément.
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |ID de type long (capot) :  <br/> |0x00002328  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,7 +67,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 prend en charge deux types de modèles de programmation pour le développement d’une logique métier dans les modèles de formulaire et prend en charge l’automatisation externe à partir du code managé.
-ms.openlocfilehash: 18d5d68cdc047ddcb049874d677c6a20e851f2db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 638306eabf9f761ff126953e66228cad8cc5c3ae
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782471"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22579528"
 ---
-# <a name="understanding-infopath-object-models-and-development-environment"></a>Modèles objet et environnement de développement d'InfoPath
+# <a name="understanding-infopath-object-models-and-development-environment"></a>Présentation des modèles objet InfoPath et de l’environnement de développement
 
 Microsoft InfoPath 2013 prend en charge deux types de modèles de programmation pour le développement d’une logique métier dans les modèles de formulaire et prend en charge l’automatisation externe à partir du code managé.
   
@@ -110,16 +110,13 @@ Pour plus d’informations sur le modèle objet InfoPath Forms Services, voir le
   
 ## <a name="infopath-development-environment"></a>Environnement de développement InfoPath
 
-Le développement d’une logique métier dans les modèles de formulaires InfoPath 2013 peut être effectué à l’aide de Visual Studio 2012 avec le module complémentaire [Microsoft Visual Studio Tools pour Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=30364) installé. 
+Le développement d’une logique métier dans les modèles de formulaires InfoPath 2013 peut être effectué à l’aide de Visual Studio 2012 avec le module complémentaire [Microsoft Visual Studio Tools pour Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) installé. 
   
 > [!NOTE]
 > InfoPath 2013 ne prend pas en charge la création ou modification des modèles de formulaires qui utilisent une logique métier écrite avec JScript ou VBScript, bien que InfoPath Filler prend en charge les modèles de formulaire basé sur un script d’ouverture qui ont été créés dans les versions précédentes d’InfoPath. 
   
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Procédure pas à pas : Création d’un modèle de formulaire de base avec du Code](walkthrough-creating-a-basic-form-template-with-code.md)
-  
-[Procédure pas à pas : Création et débogage d'un modèle de formulaire basique à l'aide du modèle objet InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
+- [Procédure : Création d’un modèle de formulaire de base avec code](walkthrough-creating-a-basic-form-template-with-code.md)
+- [Procédure pas à pas : Création et débogage d'un modèle de formulaire basique à l'aide du modèle objet InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
 

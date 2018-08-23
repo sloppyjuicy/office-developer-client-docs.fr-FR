@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c596cb219cb1096f186e616c05b8372fef3b42a0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4d4777077dae5effed9f233dd020628ee0dcfed5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783116"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578044"
 ---
 # <a name="creating-a-recipient"></a>Création d’un destinataire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Clients de créer des destinataires lors de l’envoi de messages et lorsqu’ils sont Ajout d’entrées pour les conteneurs de carnet d’adresses modifiable. MAPI propose trois méthodes pour la création de destinataires :
   
