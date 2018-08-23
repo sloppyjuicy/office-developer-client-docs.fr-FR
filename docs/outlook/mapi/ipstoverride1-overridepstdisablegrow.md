@@ -11,37 +11,37 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 04905de8b7dbd5195b3963932750d7f5f09950ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784415"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563344"
 ---
-# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="64774-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="64774-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
+# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="a71e1-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="a71e1-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
 
   
   
-<span data-ttu-id="64774-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="64774-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="a71e1-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a71e1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="64774-105">Déverrouille un fichier de dossiers personnels (.pst) d’une session, en remplacement de la stratégie PSTDisableGrow.</span><span class="sxs-lookup"><span data-stu-id="64774-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
+<span data-ttu-id="a71e1-105">Déverrouille un fichier de dossiers personnels (.pst) d’une session, en remplacement de la stratégie PSTDisableGrow.</span><span class="sxs-lookup"><span data-stu-id="a71e1-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="64774-106">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="64774-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a71e1-106">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="a71e1-106">Return value</span></span>
 
-<span data-ttu-id="64774-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="64774-107">S_OK</span></span>
+<span data-ttu-id="a71e1-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="a71e1-107">S_OK</span></span>
   
-> <span data-ttu-id="64774-108">L’appel de fonction a réussi.</span><span class="sxs-lookup"><span data-stu-id="64774-108">The function call was successful.</span></span>
+> <span data-ttu-id="a71e1-108">L’appel de fonction a réussi.</span><span class="sxs-lookup"><span data-stu-id="a71e1-108">The function call was successful.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="64774-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="64774-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a71e1-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a71e1-109">See also</span></span>
 
 
 
-[<span data-ttu-id="64774-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="64774-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
+[<span data-ttu-id="a71e1-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a71e1-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
   
-[<span data-ttu-id="64774-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="64774-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+[<span data-ttu-id="a71e1-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="a71e1-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 
