@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e8266b0fcac8318420bd67cfd90e8ff594638cf0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 545249f4777abc7d1a0a566631c777a6a1ba190b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785829"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563759"
 ---
 # <a name="pidtagcontactaddressbookstoreentryids-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreEntryIds
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les ID d’entrée des magasins dans les dossiers qui agissent comme adresse de contact d’entrées de carnet de sont trouvent.
   
@@ -32,7 +32,7 @@ Contient les ID d’entrée des magasins dans les dossiers qui agissent comme ad
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x6626  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7e264a75a02a08518efcf3202a60d2a4654ddfe5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 25a3a77864780fe641aabfd275567ae8ecc5e604
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785930"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569000"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propriété canonique PidTagDeltaX
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la largeur d’un contrôle de zone de boîte de dialogue en unités de boîte de dialogue Windows standards. 
   
@@ -32,7 +32,7 @@ Indique la largeur d’un contrôle de zone de boîte de dialogue en unités de 
 |Propriétés associées :  <br/> |PR_DELTAX  <br/> |
 |Identificateur :  <br/> |0x3F03  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Afficher une table MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

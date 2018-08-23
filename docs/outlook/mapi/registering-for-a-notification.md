@@ -1,5 +1,5 @@
 ---
-title: Enregistrement d’une Notification
+title: Inscription à une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 45625387-dbd2-4ca8-926b-ef87998d01d7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2d01527bb3c5176087aabeb69dbc8d99738df772
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5a35add66fb685b3c17464269456edf6b456711e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786995"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570211"
 ---
-# <a name="registering-for-a-notification"></a>Enregistrement d’une Notification
+# <a name="registering-for-a-notification"></a>Inscription à une notification
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un client peut inscrire pour les notifications de magasin de message ou de carnet d’adresses dans le cadre du processus d’initialisation.
   

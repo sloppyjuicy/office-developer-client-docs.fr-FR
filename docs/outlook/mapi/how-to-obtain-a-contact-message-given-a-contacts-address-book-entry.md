@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: 'Dernière modification : 13 août 2013'
-ms.openlocfilehash: 346e6bc471f5257aacb34c2e7d02a0aade1bb46e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 472b5847053c0a18026c76b8055a26551331d8dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783487"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564541"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtenir un message de contact donné une entrée de carnet d’adresses contacts
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple en langage C++, `HrOpenContact`, qui montre comment utiliser la structure [CONTAB_ENTRYID](contab_entryid.md) qui identifie une entrée dans un carnet d’adresses de Contacts pour obtenir le message MAPI Contact associé. 
   

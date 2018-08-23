@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1e0c099783b4d44b1aaf746b07c77981c135ca9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: da1a1403ce454eef03a4b1e965441b0c654a99aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19782933"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563813"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si Microsoft Office Outlook doit analyser les dossiers dans un magasin et les archiver automatiquement.
   

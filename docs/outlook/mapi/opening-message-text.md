@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ad3499cc1ff3bd8b633fa48173ab8455d5d8d124
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7a2dbe8d2143fd330ae1f5ca5804e30b79909576
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569405"
 ---
 # <a name="opening-message-text"></a>Texte du message d’ouverture
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le texte d’un message est stocké dans son **PR\_corps** propriété ou **PR\_RTF\_compressés** propriété. Pour plus d’informations, voir **PR\_corps** ([PidTagBody](pidtagbody-canonical-property.md)), **PR\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)), et **PR\_RTF\_compressés** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

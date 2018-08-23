@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: dce3f4b5bfdcb34148c25c880d8d2d8173755b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783000"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563575"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Création d’applications MAPI sur les plateformes 32 bits et 64 bits
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit les actions que les développeurs MAPI à suivre pour modifier et régénérer les applications MAPI 32 bits de s’exécuter sur une plateforme 64 bits et 64 bits des applications à exécuter sur une plateforme 32 bits. Dans cette rubrique, une plateforme 64 bits est un ordinateur équipé de 64 bits de Microsoft Outlook et Windows 64 bits, et une plateforme 32 bits est un ordinateur installé avec Outlook 32 bits de Windows 32 bits ou 64 bits. 
   
@@ -81,5 +81,5 @@ La figure 2 illustre un scénario WOW64 dans laquelle une application de MAPI 32
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md)
+- [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md)
 

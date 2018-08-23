@@ -1,5 +1,5 @@
 ---
-title: Fournisseurs de banque de messages de chargement
+title: Chargement de fournisseurs de banque de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 96e2ca38391931508dd9f3f78f3ba69e6f8b9c15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 47b209b9a8818cf235b7c28593da5778dd944989
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784522"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568699"
 ---
-# <a name="loading-message-store-providers"></a>Fournisseurs de banque de messages de chargement
+# <a name="loading-message-store-providers"></a>Chargement de fournisseurs de banque de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’une application cliente ouvre une banque de messages, MAPI charge DLL du fournisseur de banque de messages en mémoire. Une fois que MAPI charge la DLL, une séquence spécifique d’appels de méthode se produit entre le fournisseur de banque de messages et MAPI. Séquence d’appel de cette méthode permet de MAPI obtenir un niveau supérieur [IMSProvider : IUnknown](imsprovideriunknown.md), [IMSLogon : IUnknown](imslogoniunknown.md), et [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) interfaces et permet au fournisseur de banque de messages obtenir un objet de prise en charge MAPI. Après la séquence d’appel, le fournisseur de banque de message doit être prêt à accepter les connexions à partir de clients. 
   

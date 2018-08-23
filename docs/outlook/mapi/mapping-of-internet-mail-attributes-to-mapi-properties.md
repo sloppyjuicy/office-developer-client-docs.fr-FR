@@ -1,5 +1,5 @@
 ---
-title: Mappage d’attributs de messagerie Internet sur des propriétés MAPI
+title: Mappage des attributs de messagerie Internet aux propriétés MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4d1bc5fc5a5e304d81ab4252a527d0e52b0d6e3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 54443001e3cb14603c8f8f798f2a4068d73b00eb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19784790"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568062"
 ---
-# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mappage d’attributs de messagerie Internet sur des propriétés MAPI
+# <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mappage des attributs de messagerie Internet aux propriétés MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette annexe décrit comment un fournisseur de transport MAPI ou d’une passerelle prenant en charge MAPI qui se connecte à Internet doit traduire entre les propriétés de message MAPI et les attributs de message Simple Mail Transport Protocol (SMTP). SMTP est le protocole de messagerie utilisé sur beaucoup d’Internet. SMTP définit un ensemble d’en-têtes de message, l’enveloppe du message et un format de contenu du message. SMTP est entièrement documentée dans un ensemble de deux documents, la spécification RFC 821 et 822, qui se trouvent à un nombre de sites FTP et les services Web sur Internet.
   

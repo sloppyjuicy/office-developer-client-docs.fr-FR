@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5b76a73a0fde8f4531b99a58646b927724162e81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569336"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriété canonique PidTagMessageAttachments
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau des restrictions qui peuvent être appliqués à un tableau de contenu pour trouver tous les messages qui contiennent les sous-objets de pièce jointe répondant aux restrictions. 
   
@@ -32,7 +32,7 @@ Contient un tableau des restrictions qui peuvent être appliqués à un tableau 
 |Propriétés associées :  <br/> |PR_MESSAGE_ATTACHMENTS  <br/> |
 |Identificateur :  <br/> |0x0E13  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -76,7 +76,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

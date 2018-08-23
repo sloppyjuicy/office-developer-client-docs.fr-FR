@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8d435907c150de2ad3273ac263e7c93fb19e92a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 309d2ee5310f4e329b3f08eabe98bdf834a4fd92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786191"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563092"
 ---
 # <a name="pidtaglastverbexecutiontime-canonical-property"></a>Propriété canonique PidTagLastVerbExecutionTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’heure lorsque le dernier verbe a été exécuté.
   
@@ -32,7 +32,7 @@ Contient l’heure lorsque le dernier verbe a été exécuté.
 |Propriétés associées :  <br/> |PR_LAST_VERB_EXECUTION_TIME  <br/> |
 |Identificateur :  <br/> |0x1082  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Historique  <br/> |
+|Domaine :  <br/> |Historique  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

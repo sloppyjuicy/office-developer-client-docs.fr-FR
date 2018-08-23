@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f48d723c-3ad8-4617-952a-ba5216b2129c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c4fc8ef6dd67eb5187bbc0bac8c4f4f9bee13826
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 933e48de74402b02426343353b3d1e0af2c41c19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786313"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569833"
 ---
 # <a name="pidtagoriginaldisplaycc-canonical-property"></a>Propriété canonique PidTagOriginalDisplayCc
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les noms complets des destinataires en copie carbone (CC) du message d’origine.
   
@@ -32,7 +32,7 @@ Contient les noms complets des destinataires en copie carbone (CC) du message d�
 |Propriétés associées :  <br/> |PR_ORIGINAL_DISPLAY_CC, PR_ORIGINAL_DISPLAY_CC_A, PR_ORIGINAL_DISPLAY_CC_W  <br/> |
 |Identificateur :  <br/> |0x0073  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

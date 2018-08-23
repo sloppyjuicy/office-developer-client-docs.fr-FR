@@ -1,5 +1,5 @@
 ---
-title: Envoi de domaines de messagerie
+title: Envoi sur des domaines de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 65594253-66cd-486a-aa5b-0bc719f761f0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1fc5e4de63815c2cbfcb4818a9f6454af8c4d93b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 40c12a4010d51cb433b62558b5fe1d12afb583dd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567068"
 ---
-# <a name="sending-across-messaging-domains"></a>Envoi de domaines de messagerie
+# <a name="sending-across-messaging-domains"></a>Envoi sur des domaines de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un domaine de messagerie représente un ou plusieurs systèmes de messagerie qui partagent un même format d’adresse. Communication entre plusieurs domaines de messagerie implique la traduction d’un message envoyé dans le format du domaine de messagerie d’origine dans le format du domaine de messagerie de destination. Pas tous les formats d’adresse sont compatibles, une passerelle est nécessaire pour traduire les informations d’adressage du format source dans le format de destination. Pour garantir la validité sur plusieurs domaines de messagerie, les applications clientes stockent des informations d’adressage importantes dans les propriétés MAPI. En outre, les passerelles effectuent la traduction en examinant les propriétés connus traduction et de les modifier dans un format utilisable par le domaine de messagerie de destination.
   

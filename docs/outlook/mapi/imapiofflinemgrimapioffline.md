@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 644fad96c8aec3701233351469a84ef93341b397
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f5a4a073559c58599b175b6f85a6dfe697aec623
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783891"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563834"
 ---
 # <a name="imapiofflinemgr--imapioffline"></a>IMAPIOfflineMgr : IMAPIOffline
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Prend en charge l’inscription pour les rappels de notification des changements d’état de connexion d’un compte d’utilisateur.
   
@@ -63,7 +63,7 @@ La plupart des membres de cette interface est des espaces réservés réservé �
 [IMAPIOffline : IUnknown](imapiofflineiunknown.md)
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

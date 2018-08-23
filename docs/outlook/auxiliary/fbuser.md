@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
 description: Identifie un utilisateur qui peut ou non posséder des informations de disponibilité des données disponibles.
-ms.openlocfilehash: e83689e28f5fb6e1eae28d760bb57f5ad3796f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: edfc9980445fcc2e111045650667d93bffa94153
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565136"
 ---
 # <a name="fbuser"></a>FBUser
 
@@ -31,11 +31,11 @@ typedef struct tagFBUser
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _m_cbEid_
   
-> La longueur de l’identificateur d’entrée de l’utilisateur de messagerie, tel que représenté par l’interface [IMailUser](http://msdn.microsoft.com/library/wab._wab_IMailUser%28Office.15%29.aspx) . 
+> La longueur de l’identificateur d’entrée de l’utilisateur de messagerie, tel que représenté par l’interface [IMailUser](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/wab/-wab-imailuser-deleteprops) . 
     
 _m_lpEid_
   
@@ -51,6 +51,6 @@ _m_pwszReserved_
     
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)  
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)  
 - [IFreeBusySupport](ifreebusysupport.md)
 

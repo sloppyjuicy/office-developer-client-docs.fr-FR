@@ -1,23 +1,23 @@
 ---
-title: À propos de l’exemple de wrapper fournisseur de banque de dossiers personnels
+title: À propos de l’exemple de fournisseur d’archive PST encapsulée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: 51aef9d8778997749e401b008ebdb4126a248ee0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 399c86d189cfc4160d151f417a6dd20364e60ce3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782851"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563827"
 ---
-# <a name="about-the-sample-wrapped-pst-store-provider"></a>À propos de l’exemple de wrapper fournisseur de banque de dossiers personnels
+# <a name="about-the-sample-wrapped-pst-store-provider"></a>À propos de l’exemple de fournisseur d’archive PST encapsulée
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 ## <a name="overview-of-message-store-providers"></a>Vue d’ensemble des fournisseurs de banque de messages
 
@@ -37,23 +37,23 @@ Le fournisseur de banque PST encapsulé exemple utilise le fournisseur dossiers 
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Installation de l’exemple de wrapper fournisseur de banque de dossiers personnels](installing-the-sample-wrapped-pst-store-provider.md)
+- [Installation de l’exemple de fournisseur d’archive PST encapsulée](installing-the-sample-wrapped-pst-store-provider.md)
     
 - Explique comment télécharger et installer le fournisseur de banque exemple encapsulé PST.
     
-- [L’initialisation d’un fournisseur de banque de dossiers personnels encapsulé](initializing-a-wrapped-pst-store-provider.md)
+- [Initialisation d’un fournisseur d’archive PST encapsulée](initializing-a-wrapped-pst-store-provider.md)
     
 - La première étape dans l’implémentation d’un fournisseur de magasins PST encapsulé est à s’initialiser et configurer le fournisseur de banque PST justifié.
     
-- [Se connecter à un fournisseur de banque de dossiers personnels encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur d’archive PST encapsulée](logging-on-to-a-wrapped-pst-store-provider.md)
     
 - Après l’initialisation d’un fournisseur de magasins PST encapsulé, vous devez implémenter les fonctions afin que MAPI et le spouleur MAPI peuvent se connecter au fournisseur de magasin PST justifié.
     
-- [À l’aide d’un fournisseur de banque de dossiers personnels encapsulé](using-a-wrapped-pst-store-provider.md)
+- [Utilisation d’un fournisseur d’archive PST encapsulée](using-a-wrapped-pst-store-provider.md)
     
 - Pour utiliser une banque de dossiers personnels encapsulée fournisseur, vous devez envelopper l’interface **[IMAPISupport::IUnknown](imapisupportiunknown.md)** pour implémenter courantes encapsulé tâches du fournisseur de magasin de fichiers PST. 
     
-- [Arrêt d’un fournisseur de banque de dossiers personnels encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [Arrêt d’un fournisseur d’archive PST encapsulée](shutting-down-a-wrapped-pst-store-provider.md)
     
 - Après avoir à l’aide d’un fournisseur de magasins PST encapsulé, vous devez fermer correctement le fournisseur de banque PST justifié.
     

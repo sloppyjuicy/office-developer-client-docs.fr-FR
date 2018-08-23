@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4a60e2fe3a58e1d696ae9645e03ce8dde5340d9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 29dd2e3b47d0f43df7824274d2fdcc4f7f16eeb3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784532"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569854"
 ---
 # <a name="ltid"></a>LTID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Générique ID termes Long d’un objet dans un magasin d’Outlook.
   
@@ -34,7 +34,7 @@ struct LTID
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _GUID_
   
@@ -54,7 +54,7 @@ struct LTID
 
 [À propos de l’API de réplication](about-the-replication-api.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [FEID](feid.md)
 

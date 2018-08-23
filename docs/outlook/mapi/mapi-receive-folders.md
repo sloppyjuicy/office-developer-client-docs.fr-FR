@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 619bd2d5e3b40e49da835d774035ba237af06699
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a305b9c9ea2802ac63a22118b55274bcdff23617
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784670"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569007"
 ---
 # <a name="mapi-receive-folders"></a>MAPI re�oivent des dossiers
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un dossier de r�ception conserve les messages entrants d'une classe de message particulier. Recevoir le dossier associations peuvent �tre �tablies par les clients, par le fournisseur de banque de messages ou MAPI. MAPI a deux par d�faut � recevoir des dossiers : le dossier racine de la banque de messages et le dossier bo�te de r�ception de la sous-arborescence message interpersonnel (IPM). Le dossier racine de la banque de messages est le dossier pour tous les messages de communication interprocessus (IPC) de r�ception de la valeur par d�faut.
   
@@ -56,7 +56,7 @@ Le tableau suivant montre comment les messages avec plusieurs classes doivent �
 |**Classe de message entrant**|**Dossier de r�ception**|
 |:-----|:-----|
 |**IPM. Note.Sample.Simple** <br/> |Dossier d'exemples  <br/> |
-|**IPM. Remarque** <br/> |Dossier bo�te de r�ception  <br/> |
+|**IPM.Note** <br/> |Dossier bo�te de r�ception  <br/> |
 |**IPM. Feuille de présence** <br/> |Dossier bo�te de r�ception  <br/> |
 |**IPM. Note.Sample.Simple.Totally** <br/> |Dossier d'exemples  <br/> |
    

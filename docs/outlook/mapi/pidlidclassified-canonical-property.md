@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6e3ebca954427489313219e8c906b2d9e4c078a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 91a2fcbb9d4fb26531bd6786b49df34e86027ee3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785091"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566613"
 ---
 # <a name="pidlidclassified-canonical-property"></a>Propriété canonique PidLidClassified
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique qu’un message est classé.
   
@@ -33,7 +33,7 @@ Indique qu’un message est classé.
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x000085B5  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

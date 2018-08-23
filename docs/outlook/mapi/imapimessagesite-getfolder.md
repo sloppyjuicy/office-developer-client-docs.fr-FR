@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ea95ea4efbbf50e5551a27eb81fe5d5ab3b73948
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783825"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565542"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie le dossier dans lequel le message en cours a été créé ou ouvert, si un tel dossier existe. Cette méthode renvoie la valeur NULL dans le paramètre _ppFolder_ pour les messages incorporés, qui ne sont pas stockées directement dans un dossier. 
   
@@ -70,5 +70,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
 

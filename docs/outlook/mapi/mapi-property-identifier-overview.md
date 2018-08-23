@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 725256a64cb7d55be494ba623247255dfe5936c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8cf2f08a69ee87c40789b764596e514c91483c2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784667"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563155"
 ---
 # <a name="mapi-property-identifier-overview"></a>Vue d’ensemble d’identificateur de propriété MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un identificateur de propriété est un nombre qui est utilisé pour indiquer qu’une propriété est utilisée pour et qui est responsable. Identificateurs de propriété sont divisées par MAPI plages ; où un identificateur fait partie de la plage indique son utilisation et propriété. 
   
@@ -35,5 +35,5 @@ Pour une description complète des plages identificateur, voir [Propriété iden
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

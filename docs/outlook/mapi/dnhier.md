@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: 3c7d59849fcd66a5fe90623b7bb8516d13b4a2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbf064201bf8d2733c3eea1e1a24f77b146a23c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783214"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564569"
 ---
 # <a name="dnhier"></a>DNHIER
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations pour le téléchargement une hiérarchie à partir du serveur au cours de l' [état de la hiérarchie du téléchargement](download-hierarchy-state.md), qui fait partie d’une synchronisation complète de hiérarchie. Ce processus de téléchargement utilise la synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
   
@@ -35,7 +35,7 @@ struct DNHIER
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -67,6 +67,6 @@ _cEntDel_
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md) 
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md) 
 - [Constantes MAPI](mapi-constants.md)
 

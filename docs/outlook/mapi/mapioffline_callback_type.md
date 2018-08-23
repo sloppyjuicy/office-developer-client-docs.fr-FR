@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b200641b5dee6691b0eb1cd95ee716abd2040f16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a5c9f70831b7d3f5bcbaf9d74f5526b110375ff0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784752"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565493"
 ---
 # <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Énumération des types pris en charge des rappels.
   
@@ -37,7 +37,7 @@ typedef enum
 
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
   

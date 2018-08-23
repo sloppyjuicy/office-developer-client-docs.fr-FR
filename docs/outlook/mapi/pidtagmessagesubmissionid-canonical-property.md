@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b3286e9e666d59997693df636263cb04f7b767d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3a26a8483e584ccc5cf9f33e0dbd75f379c01633
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569665"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>Propriété canonique PidTagMessageSubmissionId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur de système (MTS) de transfert de message pour l’agent de transfert des messages (MTA).
   
@@ -32,7 +32,7 @@ Contient un identificateur de système (MTS) de transfert de message pour l’ag
 |Propriétés associées :  <br/> |PR_MESSAGE_SUBMISSION_ID  <br/> |
 |Identificateur :  <br/> |0x0047  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

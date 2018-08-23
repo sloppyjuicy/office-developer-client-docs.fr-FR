@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a696357c97a85442bbfd5532892c06d570f6367c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 487a5dbcdefe901b514083ee910972354574bd82
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782845"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564457"
 ---
 # <a name="about-display-table-notifications"></a>À propos des notifications d’affichage tableau
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notifications sur une table d’affichage sont transmises par le fournisseur de services responsable de la création de la table d’affichage à MAPI. MAPI inscrit pour ces notifications à l’appel de méthode [d’IMAPITable::Advise](imapitable-advise.md) d’une table d’affichage et en spécifiant l’événement de modification de table. 
   

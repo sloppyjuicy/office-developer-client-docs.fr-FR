@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4f2cab31d6eed19a262bd0e667166bc79f428877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 15feea923c31bd7f88fcb3b346905e37af106d84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786694"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564072"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propriété canonique PidTagScheduleInfoAutoAcceptAppointments
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un client ou serveur doit répondre automatiquement à toutes les demandes de réunion pour la ressource ou un participant.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un client ou serveur doit répondre automatiquement �
 |Propriétés associées :  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Identificateur :  <br/> |0x686D  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

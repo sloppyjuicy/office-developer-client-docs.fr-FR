@@ -1,5 +1,5 @@
 ---
-title: Copie les entrées de carnet d’adresses
+title: Copie d’entrées de carnet d’adresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 285abeb4-45c8-4e82-9a16-b935b4651afe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ce7f7e2db341be62912935b7a55d69eaf5db8ab5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: eca0c9f63a4efaaa7f9fd066cf5dce451b8f6175
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783074"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565885"
 ---
-# <a name="copying-address-book-entries"></a>Copie les entrées de carnet d’adresses
+# <a name="copying-address-book-entries"></a>Copie d’entrées de carnet d’adresses
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Méthode de [IABContainer::CopyEntries](iabcontainer-copyentries.md) de votre conteneur est appelée lorsque un ou plusieurs destinataires à partir du même ou un autre conteneur doivent être copiés dans ce conteneur. **CopyEntries** comporte quatre paramètres d’entrée : un tableau d’identificateurs d’entrée représentant les destinataires à copier, un handle de fenêtre pour l’indicateur de progression, un pointeur d’objet de progression et une valeur pour les indicateurs. Votre fournisseur doit afficher la progression si l’indicateur AB_NO_DIALOG n’est pas défini et que vous utilisez l’objet de l’avancement du paramètre _lpProgress_ si elle n’est pas NULL. Si _lpProgress_ est NULL, appelez [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) pour utiliser l’objet de l’avancement MAPI. Pour plus d’informations sur l’affichage de la progression, voir [affichant un indicateur de progression](mapi-progress-indicators.md).
   

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 573709c4374786bb1bd3d763c8ba91de59f7fb1e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784651"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563911"
 ---
 # <a name="mapi-profile-overview"></a>Vue d’ensemble des profils MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un profil est une collection d’informations sur les services de messagerie et les fournisseurs de services qu’un utilisateur d’une application cliente souhaite soit disponible pendant une session MAPI spécifique. Chaque utilisateur dispose d’au moins un profil ; nombre d’utilisateurs conserver plusieurs. Par exemple, un utilisateur peut avoir un profil pour fonctionner avec un service de banque de messages sur le serveur et un autre profil pour fonctionner avec un service de banque de messages sur l’ordinateur local. Un utilisateur souhaite accéder à un ensemble de systèmes de messagerie à l’aide des services de transport approprié pour une partie de la journée et un autre pour le reste de la journée. Les profils fournissent une grande souplesse pour sélectionner des combinaisons de services de système de messagerie. 
   

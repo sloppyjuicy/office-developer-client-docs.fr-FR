@@ -1,5 +1,5 @@
 ---
-title: Mappage d’attributs TNEF sur des propriétés MAPI
+title: Mappage d’attributs TNEF aux propriétés MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 18c11c3f945e00ae1f12e5c948b81abfb88e41ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 810895836ea4d9e4aa82c189f68d13eefd409163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784794"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568727"
 ---
-# <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Mappage d’attributs TNEF sur des propriétés MAPI
+# <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Mappage d’attributs TNEF aux propriétés MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le tableau suivant répertorie tous les attributs définis dans l’implémentation de TNEF et leurs mappages sur les propriétés MAPI. Dans certains cas, plusieurs propriétés MAPI sont codées en tant qu’attribut unique. Certains attributs ont étendues descriptions plus loin dans cette section.
   

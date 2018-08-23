@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d851f5cfa2697ea2a81f80c90e8051c59172d549
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e9337a49067e9789ece40ed932dbaae133aac0f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785906"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568181"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Propriété canonique PidTagDelegatedByRule
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si le message d’un dossier est délégué par une règle.
   
@@ -32,7 +32,7 @@ Indique si le message d’un dossier est délégué par une règle.
 |Propriétés associées :  <br/> |PR_DELEGATED_BY_RULE  <br/> |
 |Identificateur :  <br/> |0x3FE3  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

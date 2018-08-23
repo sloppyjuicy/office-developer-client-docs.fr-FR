@@ -11,17 +11,17 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4a4d3c940539c23be8ec212cb85e3dd4f3a04aab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 23c43586157806c603ad7fd8c146270a9d71170a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785991"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563785"
 ---
 # <a name="pidtagextendedfolderflags-canonical-property"></a>Propriété canonique PidTagExtendedFolderFlags
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des indicateurs étendues sur un dossier.
   
@@ -30,7 +30,7 @@ Contient des indicateurs étendues sur un dossier.
 |Propriétés associées :  <br/> |PR_EXTENDED_FOLDER_FLAGS  <br/> |
 |Identificateur :  <br/> |0x36DA  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Conteneur MAPI  <br/> |
+|Domaine :  <br/> |Conteneur MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -94,6 +94,6 @@ MAPITAGS.h
 
 - [Propriétés MAPI](mapi-properties.md)
 - [Propriétés canoniques MAPI](mapi-canonical-properties.md)
-- [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
-- [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+- [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+- [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

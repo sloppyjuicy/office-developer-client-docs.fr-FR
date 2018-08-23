@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2386be9f-18c9-4949-a2aa-efc8e212801c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 14b1b424bc55a3a8c898eaac386a5344c2e5cf99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f8260b5b7c1dd3fd6608c2fd17471d21ad362ece
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785905"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568993"
 ---
 # <a name="pidtagdeferredsendunits-canonical-property"></a>Propriété canonique PidTagDeferredSendUnits
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’unité de temps par lequel la valeur de la propriété **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) doit être multipliée.
   
@@ -32,7 +32,7 @@ Spécifie l’unité de temps par lequel la valeur de la propriété **PR_DEFERR
 |Propriétés associées :  <br/> |PR_DEFERRED_SEND_UNITS  <br/> |
 |Identificateur :  <br/> |0x3FEC  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

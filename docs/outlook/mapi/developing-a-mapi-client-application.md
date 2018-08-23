@@ -1,5 +1,5 @@
 ---
-title: Développement d’une Application de Client MAPI
+title: Développement d’une application cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bcb59b08-e6d7-4739-8cb5-e545bd0d478f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 42558fcc3d94b108c0dabb92d62f7c61fdf3039f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bffcfdd6d688c483655b97d61075b147430e3fcc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783158"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564975"
 ---
-# <a name="developing-a-mapi-client-application"></a>Développement d’une Application de Client MAPI
+# <a name="developing-a-mapi-client-application"></a>Développement d’une application cliente MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les applications clientes MAPI sont écrites avec l’interface de client orientée objet MAPI. Clients MAPI interagissent avec un ou plusieurs systèmes de messagerie via le sous-système MAPI et les fournisseurs de services compatible MAPI. Cette interaction peut se produire de différentes façons ; Il existe une grande diversité de dans les applications clientes. La plupart des clients sont des clients, l’intégration de messagerie dans leur ensemble de fonctionnalités établies ou l’exécution de messagerie en tant que leur fonctionnalité principale de messagerie. Administration des profils sont les autres fonctionnalités qui peuvent fournir des clients MAPI ou stockent la gestion des messages et le carnet d’adresses.
   

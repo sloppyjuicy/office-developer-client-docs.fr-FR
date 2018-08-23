@@ -1,5 +1,5 @@
 ---
-title: Implémentation d’objet de contrôle
+title: Implémentation d’un objet de contrôle
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 268ad60cf8161fb2b58370f89aae623aabd7da7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b4b225f7e048ef40a79c4b258629cb01b79368d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565829"
 ---
-# <a name="control-object-implementation"></a>Implémentation d’objet de contrôle
+# <a name="control-object-implementation"></a>Implémentation d’un objet de contrôle
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contrôler les objets ou les objets qui prennent en charge la [IMAPIControl : IUnknown](imapicontroliunknown.md) de l’interface, sont implémentés par les fournisseurs pour ajouter une fonctionnalité à un bouton qui s’affiche dans une boîte de dialogue MAPI. Objets de contrôle peuvent être implémentés uniquement pour les boutons. 
   

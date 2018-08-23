@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 57da2d4c78914323b5dafa4f5ba5b7628d0e2f2f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 468cda97398bc393b1c0a65e2c13df5ba3ade3aa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568909"
 ---
 # <a name="pidtagcorrelatemtsid-canonical-property"></a>Propriété canonique PidTagCorrelateMtsid
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur de système (MTS) de transfert de message utilisé en corrélation des rapports avec les messages envoyés.
   
@@ -32,7 +32,7 @@ Contient l’identificateur de système (MTS) de transfert de message utilisé e
 |Propriétés associées :  <br/> |PR_CORRELATE_MTSID  <br/> |
 |Identificateur :  <br/> |0x0E0D  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -62,7 +62,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

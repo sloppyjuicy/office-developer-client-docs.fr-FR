@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e23c73931c9051b61d30b7ea7e9c54d06a4d9c33
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784157"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568020"
 ---
 # <a name="implementing-a-logon-object"></a>Implémentation d’un objet d’ouverture de session
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaque carnet d’adresses, la banque de messages et le fournisseur de transport instancie un objet d’ouverture de session dans le cadre de son implémentation de [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Objets d’ouverture de session implémentent les méthodes qui aident les demandes des clients MAPI. Selon votre type de fournisseur de services, votre objet de connexion prendront en charge une des interfaces suivantes. 
   
@@ -71,5 +71,5 @@ Objet d’ouverture de session d’un fournisseur de transport qui implémente [
 
 
 
-[L’implémentation du fournisseur de Service d’ouverture de session](implementing-service-provider-logon.md)
+[Implémentation d’une ouverture de session de fournisseur de services](implementing-service-provider-logon.md)
 

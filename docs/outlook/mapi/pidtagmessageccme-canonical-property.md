@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8e1578da3a9caea7533b75fe6dc16c3d7c3488d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 82d043adfe6e480b4d490f44ad89d73535c80c9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569777"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriété canonique PidTagMessageCcMe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si cet utilisateur de messagerie est nommé spécifiquement comme destinataire du message en copie carbone (CC) et ne fait pas partie d’une liste de distribution. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si cet utilisateur de messagerie est nommé spécifiquem
 |Propriétés associées :  <br/> |PR_MESSAGE_CC_ME  <br/> |
 |Identificateur :  <br/> |0x0058  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

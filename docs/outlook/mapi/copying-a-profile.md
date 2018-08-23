@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 77c7853c07830804aaa044f08078d95785bcfda7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 53b7099ae74828a97eb703b865ba30ab385e9a5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783073"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564933"
 ---
 # <a name="copying-a-profile"></a>Copie d’un profil
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour créer un profil consiste à copier un profil existant et de modifier les fournisseurs de services et les services de messagerie nécessaires. Copie d’un profil implique l’utilisation d’un objet d’administration de profil, fourni par MAPI par le biais de la fonction [MAPIAdminProfiles](mapiadminprofiles.md) . 
   

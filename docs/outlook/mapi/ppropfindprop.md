@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b7755f2ec067003e47d358a9736c6d7d96ede267
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f720160193613bbbb4bbd447f78c14e6e5378eb8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786942"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565654"
 ---
 # <a name="ppropfindprop"></a>PpropFindProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Recherche une propriété spécifiée dans une propriété définie.
   

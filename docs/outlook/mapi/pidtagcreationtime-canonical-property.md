@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 475c93e7f2c246e0351f3054b0f827fb7ee015a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 03c4c0810c69f8dd8f22ce84212200d3ccad1dab
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563239"
 ---
 # <a name="pidtagcreationtime-canonical-property"></a>Propriété canonique PidTagCreationTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date de création et l’heure d’un message. 
   
@@ -32,7 +32,7 @@ Contient la date de création et l’heure d’un message.
 |Propriétés associées :  <br/> |PR_CREATION_TIME  <br/> |
 |Identificateur :  <br/> |0x3007  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Heure du message  <br/> |
+|Domaine :  <br/> |Heure du message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

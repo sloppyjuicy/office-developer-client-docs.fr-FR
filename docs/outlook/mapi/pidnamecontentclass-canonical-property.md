@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f623345-b30e-452f-a822-9308b455697a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1ad4f83cb9021cef82ce62b6b6f5616a3fc3d118
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 20dcef118a5e3f513f8330802684a59f0f0dcf73
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785582"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565346"
 ---
 # <a name="pidnamecontentclass-canonical-property"></a>Propriété canonique PidNameContentClass
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de champ d’en-tête Content-Class [RFC3282].
   
@@ -33,7 +33,7 @@ Contient une valeur de champ d’en-tête Content-Class [RFC3282].
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Content-Class  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

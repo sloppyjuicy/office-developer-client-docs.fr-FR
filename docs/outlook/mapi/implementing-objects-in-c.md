@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 71a8dc6472051e72d990a5c5d6f026ae63f1df25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d07d756abded137d3268daf7dd0998f0c953cb1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784193"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563946"
 ---
 # <a name="implementing-objects-in-c"></a>Implémentation d’objets dans C
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes et des fournisseurs de services écrits en C définissent les objets MAPI en créant une structure de données et un tableau de pointeurs fonction triée appelé une table de fonctions virtuelles ou vtable. Un pointeur vers la vtable doit être le premier membre de la structure de données.
   
@@ -25,7 +25,7 @@ Dans la vtable lui-même, il existe un pointeur pour chaque méthode dans chaque
   
 L’illustration suivante montre comment cela fonctionne. La zone à l’extrême gauche représente un client qui a besoin d’utiliser un objet de fournisseur de services. Par le biais de la session, le client obtient un pointeur vers l’objet, **lpObject**. Vtable apparaît en premier dans l’objet suivi par des méthodes et des données privées. Le pointeur vtable pointe vers la vtable réelle, qui contient des pointeurs à chacun des implémentations des méthodes dans l’interface. 
   
-**Implémentation de l’objet**
+**Implémentation d’objet**
   
 ![Implémentation de l’objet] (media/amapi_42.gif "Implémentation de l’objet")
   

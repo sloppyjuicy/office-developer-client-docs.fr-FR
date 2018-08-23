@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 29579f91a85e74b568610c749d9408f813f157f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7f36562ba189cd8f547056b93c0f0373ee9a3360
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786688"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563491"
 ---
 # <a name="pidtagrulesequence-canonical-property"></a>Propriété canonique PidTagRuleSequence
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une valeur utilisée pour déterminer l’ordre dans lequel les règles sont évaluées et exécutées. 
   
@@ -32,7 +32,7 @@ Une valeur utilisée pour déterminer l’ordre dans lequel les règles sont év
 |Propriétés associées :  <br/> |PR_RULE_SEQUENCE  <br/> |
 |Identificateur :  <br/> |0x6676  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Règles côté serveur  <br/> |
+|Domaine :  <br/> |Règles côté serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -80,7 +80,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

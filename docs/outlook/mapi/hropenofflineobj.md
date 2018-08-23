@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ac6584819b5dfa96a5f7816f1d77b89323e3eaf8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cc71974d841005785932cc9017d44c3c0614687d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783578"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563386"
 ---
 # <a name="hropenofflineobj"></a>HrOpenOfflineObj
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre un objet en mode hors connexion basé sur un profil donné.
   
@@ -94,7 +94,7 @@ Lorsque vous utilisez [GetProcAddress](http://msdn.microsoft.com/en-us/library/m
 [IMAPIOfflineMgr : IMAPIOffline](imapiofflinemgrimapioffline.md)
 
 
-[À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)
+[À propos de l’API d’état hors connexion](about-the-offline-state-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

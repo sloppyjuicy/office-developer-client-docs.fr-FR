@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 443644b66ba9c961992e22dbfc260fe8c48fe1b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 82869fa479ebe8a4d7b1881cec5d5c243b7d7957
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565094"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des informations à **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** pour enregistrer le rappel pour un objet en mode hors connexion. 
   
@@ -37,7 +37,7 @@ typedef struct
 } MAPIOFFLINE_ADVISEINFO;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulSize_: la taille de **MAPIOFFLINE_ADVISEINFO**. 
     
@@ -58,7 +58,7 @@ _ulStateMask_: le seul état pris en charge est MAPIOFFLINE_STATE_ALL.
 ## <a name="see-also"></a>Voir aussi
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-- [À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md) 
+- [À propos de l’API d’état hors connexion](about-the-offline-state-api.md) 
 - [Constantes MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

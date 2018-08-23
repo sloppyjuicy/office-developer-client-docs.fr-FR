@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7f55b85e21f007be7c1b9d42d42473e3a8d2becb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e67cbb113899487f489ef7235d92d1adfcb76163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563638"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriété canonique PidTagResolveMethod
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur de résolution de conflit d’un dossier.
   
@@ -32,7 +32,7 @@ Contient la valeur de résolution de conflit d’un dossier.
 |Propriétés associées :  <br/> |PR_RESOLVE_METHOD  <br/> |
 |Identificateur :  <br/> |0x3FE7  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -76,7 +76,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

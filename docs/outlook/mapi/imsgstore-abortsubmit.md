@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e2871f5804cda172328fbd3ebdc43f860de939ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a176b51577c7d4616d988a0b28f2afcfb554e9f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564982"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tente de supprimer un message de la file d’attente sortante.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f6566f567c228b6416a64dbd58653561bb592e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b842bee8d9e243aa38bafe39d786a31b5527b054
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784417"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567943"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit un objet de banque IMAP Internet Message Access Protocol () qui a été non et qui permet d’accéder aux éléments dans le fichier de dossiers personnels (PST) sans appel de la synchronisation et de télécharger les éléments.
   

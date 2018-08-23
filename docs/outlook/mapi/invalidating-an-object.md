@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7d601cee-ffc4-4c7c-8006-40b717dee247
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9c0ba8f1f0bf31bb892f380df310cd9fa7a8a24f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2346ec8541e1a8b7f5ea198722833447f9f5a289
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784339"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566473"
 ---
 # <a name="invalidating-an-object"></a>Invalidation d’un objet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Dans le cadre du processus d’arrêt de votre fournisseur, vous voudrez peut-être invalider un objet. Invalidation d’un objet implique de remplacer son vtable avec un vtable qui contient des implémentations pour les trois méthodes **IUnknown** : **QueryInterface**, **AddRef**et **Release**. Invalider un objet en appelant [IMAPISupport::MakeInvalid](imapisupport-makeinvalid.md), une méthode qui est incluse dans l’objet de prise en charge de chacun des trois types de fournisseurs courantes. Fournisseurs de rendre généralement cet appel dans l’implémentation de la méthode de **fermeture de session** de l’objet de leur ouverture de session. 
   

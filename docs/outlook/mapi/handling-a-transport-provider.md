@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 140fe97662f7a2ce68c18d8e0eb991d0819da6dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 00ae0f4be9818e0e9e4562784b4d5bf44eefe308
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567950"
 ---
 # <a name="handling-a-transport-provider"></a>Gestion d’un fournisseur de transport
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Clients de communiquent avec des fournisseurs de transport par le biais de l’état les objets fournis par des fournisseurs de transport et le spouleur MAPI. Clients accéder aux objets de l’état en appelant [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour récupérer la table d’état. Implémentent des objets de l’état du [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) de l’interface, qui a des méthodes pour la configuration des fournisseurs, purge entrant et sortant messages des files d’attente, les mots de passe paramètre et validation de l’état. Pour plus d’informations sur les objets d’état, voir [Table d’état et les objets d’état](status-table-and-status-objects.md).
 

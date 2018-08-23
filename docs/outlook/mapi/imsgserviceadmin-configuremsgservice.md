@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f58d0f5cd7dfe74d3859d4f06a41aad6c3a55ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a599a6fe5093e52e50d33a1761df5689b7335138
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784205"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568293"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 RECONFIGURE un service de message.
   

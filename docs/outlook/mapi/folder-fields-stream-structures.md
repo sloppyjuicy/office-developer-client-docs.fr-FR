@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d6724914896fe7c40e9a456785aa5c92b84532fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567159"
 ---
 # <a name="folder-fields-stream-structures"></a>Structures de flux de champs de dossier
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Propriété de [PidTagUserFields](pidtaguserfields-canonical-property.md) d’un message contient un flux binaire, FolderUserFields, qui contient les définitions de champ défini par l’utilisateur du dossier. Cette rubrique décrit les structures de flux de données pour les définitions de champ défini par l’utilisateur de dossier. 
 
@@ -94,7 +94,7 @@ Une structure de flux FolderFieldDefinitionW contient une définition d’un cha
 
 Valeurs d’énumération **FldType** sont répertoriés dans le tableau suivant. 
   
-|Name|Valeur  |Signification|
+|Nom|Valeur|Signification|
 |:-----|:-----|:-----|
 |ftNull  <br/> |0 x 0  <br/> |Ce type de champ est utilisé pour mettre fin à null un tableau des définitions de champ.  <br/> |
 |ftString  <br/> |0 x 1  <br/> |Texte  <br/> |
@@ -102,7 +102,7 @@ Valeurs d’énumération **FldType** sont répertoriés dans le tableau suivant
 |ftTime  <br/> |0 x 5  <br/> |Date/Heure  <br/> |
 |ftBoolean  <br/> |0 x 6  <br/> |Oui/Non  <br/> |
 |ftDuration  <br/> |0 x 7  <br/> |Duration  <br/> |
-|ftMultiString  <br/> |0xB  <br/> |Mots clés  <br/> |
+|ftMultiString  <br/> |0xB  <br/> |Keywords  <br/> |
 |ftFloat  <br/> |0xC  <br/> |Nombre ou le pourcentage  <br/> |
 |ftCurrency  <br/> |0xE  <br/> |Monnaie  <br/> |
 |ftCalc  <br/> |0 x 12  <br/> |Formule  <br/> |
@@ -130,7 +130,7 @@ Une structure de flux FolderFieldDefinitionCommon contienne les données d’une
     |FCAPM_MULTILINE_TEXT  <br/> |0 x 00000100  <br/> |Le champ peut contenir plusieurs lignes de texte.  <br/> |
     |FCAPM_PERCENT  <br/> |0 x 01000000  <br/> |Ce champ de la ftFloat de type est un champ de pourcentage.  <br/> |
     |FCAPM_DATEONLY  <br/> |0 x 01000000  <br/> |Ce champ de la ftTime de type est un champ d’heure date uniquement.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0 x 01000000  <br/> |Pour ce champ de la ftInteger type, aucune unité n’est autorisée dans le format d’affichage ; par exemple les formats « Computer - 640 k... » ne sont pas autorisés.  <br/> |
+    |FCAPM_UNITLESS  <br/> |0 x 01000000  <br/> |Pour ce champ de la ftInteger type, aucune unité n’est autorisée dans le format d’affichage ; par exemple les formats « ordinateur - 640 k... » ne sont pas autorisés.  <br/> |
     |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0 x 80000000  <br/> |Le champ peut être modifié dans l’élément : il s’agit notamment des formulaires personnalisés.  <br/> |
    
 - **dwString**: DWORD (4 octets). Voir la remarque suivante premier.
@@ -170,6 +170,6 @@ La formule du champ dans son format de l’interface utilisateur est modifiée d
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemple de flux de données FolderUserFields](folderuserfields-stream-sample.md)
-- [Ajoutez une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [Exemple de flux FolderUserFields](folderuserfields-stream-sample.md)
+- [Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
 

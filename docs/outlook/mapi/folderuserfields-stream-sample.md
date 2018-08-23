@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 72c71a6109f55f7ec06499e214a1aa11292a9e52
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 76ad693b05e3989bd64ba66565ae4def22110ad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783325"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564898"
 ---
 # <a name="folderuserfields-stream-sample"></a>Exemple de flux de données FolderUserFields
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit un exemple d’un flux FolderUserFields. Le flux contient une définition d’un champ défini par l’utilisateur, `TextField1`. Le type est **texte**, et le flux FolderUserFields contient des composants WebPart à la fois FolderUserFieldsAnsi et FolderUserFieldsUnicode. Pour plus d’informations, voir [Dossier champs Stream Structures](folder-fields-stream-structures.md).
   
@@ -161,8 +161,8 @@ Vous trouverez ci-dessous une analyse des données pour le flux **FolderUserFiel
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Les champs et les éléments outlook](outlook-items-and-fields.md)
-- [La définition PropertyDefinition flux Structure](propertydefinition-stream-structure.md)
+- [Champs et éléments Outlook](outlook-items-and-fields.md)
+- [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 - [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)
 - [Structure de flux SkipBlock](skipblock-stream-structure.md)
 - [Structure de flux FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c75cb480b9a1a7ffdcff9c0f9b49aabba746fc3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1f528332c52664ac472670566c905d36dac65bfc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785618"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565528"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriété canonique PidNameRightsManagementLicense
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Met en cache de la licence d’utilisation pour le message électronique géré par des droits.
   
@@ -33,7 +33,7 @@ Met en cache de la licence d’utilisation pour le message électronique géré 
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |DRMLicense  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Messagerie sécurisée  <br/> |
+|Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

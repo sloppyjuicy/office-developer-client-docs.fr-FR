@@ -1,5 +1,5 @@
 ---
-title: Lancer un nouveau formulaire de composition
+title: Lancement d’un nouveau formulaire de composition
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8d1b94c70e4de6310d2e84cf002c4e3199fced2b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 66aa5fe08b1c0be3906fa9a0483bbdec37c095c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564499"
 ---
-# <a name="launching-a-new-compose-form"></a>Lancer un nouveau formulaire de composition
+# <a name="launching-a-new-compose-form"></a>Lancement d’un nouveau formulaire de composition
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’implémentation de formulaire serveur doit attendre la séquence suivante d’appels de méthode à leur serveur de formulaire et les objets de formulaire lorsqu’une application cliente ouvre un nouveau message pour composer :
   
@@ -39,5 +39,5 @@ L’implémentation de formulaire serveur doit attendre la séquence suivante d�
 
 
 
-[Formulaire serveur Interactions](form-server-interactions.md)
+[Interactions avec le serveur de formulaire](form-server-interactions.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9ed460a377e2a2f0d2780f97eaebff1f76b9d9fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1fcfd5e257798d21a296f077f0f5eacbcbb82a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786045"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569623"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>Propriété canonique PidTagHasDeferredActionMessages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un message a au moins une règle d’action différée.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un message a au moins une règle d’action différé
 |Propriétés associées :  <br/> |PR_HAS_DAMS  <br/> |
 |Identificateur :  <br/> |0x3FEA  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Règles  <br/> |
+|Domaine :  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Découvrez comment utiliser CSISyncClient pour contrôler le Cache de documents Office (ODC).
-ms.openlocfilehash: adaa56bf040889bd8220506bcfab8fdb0b7ab6c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787978"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565283"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Utilisation de CSISyncClient pour contrôler le Cache de documents Office (ODC)
 
@@ -202,7 +202,7 @@ Identifie le consommateur et qui mettent en cache à utiliser. Doit être vide a
   
  _bstrProgID_
   
-Identifie un objet COM de la consommation de communication bidirectionnelle. Doit être vide avec un maximum de 39 caractères. Voir [ \<ProgID\> clé](http://msdn.microsoft.com/en-us/library/ms690196.aspx.aspx) pour plus d’informations sur le ProgID. 
+Identifie un objet COM de la consommation de communication bidirectionnelle. Doit être vide avec un maximum de 39 caractères. Voir [ \<ProgID\> clé](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) pour plus d’informations sur le ProgID. 
   
  _bstrFileSystemDirectoryHint_
   

@@ -1,5 +1,5 @@
 ---
-title: Résolution de nom d’un destinataire
+title: Résolution d’un nom de destinataire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2baed391-85bd-4e88-8800-c19bc2d2d54a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 256412f6ccbe66da067411bf9f66ad0478cf5ca2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d9b52edf7f4633fdf9c925a8d8db4953590713b3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562931"
 ---
-# <a name="resolving-a-recipient-name"></a>Résolution de nom d’un destinataire
+# <a name="resolving-a-recipient-name"></a>Résolution d’un nom de destinataire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’un message est adressé, une liste de destinataires est générée avec les propriétés relatives à chaque destinataire. Au moment où que le message est envoyé, une de ces propriétés doit être l’identificateur d’entrée du destinataire à long terme. Pour vous assurer que chaque destinataire inclut la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), passez la structure [ADRLIST](adrlist.md) décrivant votre liste de destinataires dans le contenu du paramètre _lpAdrList_ dans un appel à [IAddrBook :: ResolveName](iaddrbook-resolvename.md).
   

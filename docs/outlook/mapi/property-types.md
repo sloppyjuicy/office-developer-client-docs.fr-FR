@@ -1,5 +1,5 @@
 ---
-title: Types de propriété
+title: Types de propriétés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fd0f25f20c9e628a80d27f2b70e01dacc98229b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fba09af82a3eccc05c72e44ffea14ca979714ff0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786955"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563596"
 ---
-# <a name="property-types"></a>Types de propriété
+# <a name="property-types"></a>Types de propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI prend en charge les propriétés de valeur unique et de plusieurs valeurs. Avec une propriété à valeur unique, il existe une valeur du type de base pour la propriété. Avec une propriété à valeurs multiples, il existe plusieurs valeurs du type de base. 
   
 Les types de valeur unique et plusieurs valeurs de la propriété MAPI prend en charge sont décrits dans le tableau suivant. Pour chaque type de valeur unique qui a un type de plusieurs valeurs correspondant, le type de plusieurs valeurs apparaît entre parenthèses après le type de valeur unique.
   
-|**Type de propriété**|**Valeur hexadécimale**|**Description**|
+|**Type de propriété**|**Valeur hex**|**Description**|
 |:-----|:-----|:-----|
 |PT_UNSPECIFIED  <br/> |0000  <br/> |Indique que le type de propriété est inconnu. Ce type de propriété est réservé pour une utilisation avec les méthodes d’interface.  <br/> |
 |PT_NULL  <br/> |0001  <br/> |N’indique aucune valeur de propriété. Ce type de propriété est réservé pour une utilisation avec les méthodes d’interface et est qu'identique à OLE type VT_NULL.  <br/> |

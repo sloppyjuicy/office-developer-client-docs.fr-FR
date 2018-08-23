@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c70fd9eb771268db4030cefdf2f27b75ae5963b7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 87299ce4335492a744dd4ee965b4f8b85bcedc84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784519"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564891"
 ---
 # <a name="launching-a-form-server"></a>Lancement d’un serveur de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La série d’interactions qui se produit lorsqu’un formulaire est chargé à partir d’un stockage persistant (c'est-à-dire, à partir d’une bibliothèque de formulaires) pour afficher un message est la suivante :
   
@@ -51,5 +51,5 @@ La série d’interactions qui se produit lorsqu’un formulaire est chargé à 
 
 
 
-[Formulaire serveur Interactions](form-server-interactions.md)
+[Interactions avec le serveur de formulaire](form-server-interactions.md)
 

@@ -1,23 +1,23 @@
 ---
-title: Inscription des fournisseurs de services et les Services dans MapiSvc.inf
+title: Inscription de services et de fournisseurs de services dans MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Dernière modification : 18 juillet 2013'
-ms.openlocfilehash: 2eb7f1b496e0732b157ea4f9105a0e067329c52f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786982"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566921"
 ---
-# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Inscription des fournisseurs de services et les Services dans MapiSvc.inf
+# <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Inscription de services et de fournisseurs de services dans MapiSvc.inf
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Installation d’un nouveau fournisseur sur un système nécessite la mise à jour du fichier MapiSvc.inf afin de pointer vers le nouveau fournisseur. Propriétés standard définie lors de la configuration, qui incluent les éléments suivants, informent MAPI où trouver la bibliothèque de liens dynamiques du fournisseur (.dll) :
   

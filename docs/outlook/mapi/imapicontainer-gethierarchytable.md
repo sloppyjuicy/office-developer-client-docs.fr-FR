@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b30c6e9840ed5dddfd2d3a5f149a3f0f6e8da605
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 88b6f220f812f419b3f881aaa7f70a22186b589e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783720"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563799"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers la table de hiérarchie du conteneur.
   

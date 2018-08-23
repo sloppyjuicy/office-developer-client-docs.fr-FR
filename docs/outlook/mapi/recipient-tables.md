@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cc7635c474b99898d59589f33fcf06cf24697378
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: fdca2f65c73c0db0fa0b7d59b8d49b218aeb2330
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565087"
 ---
 # <a name="recipient-tables"></a>Tables de destinataires
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La table de destinataires contient des informations sur tous les destinataires d’un message. Tables de destinataires implémentés par les fournisseurs de banque de message et les applications clientes pour les utilisent. Accéder à une table de destinataires par un appel à la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) clients, ou si la banque de messages fournisseur prend en charge, à la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . Clients accéder aux tables de destinataires avec **OpenProperty** en spécifiant **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) pour la balise de propriété et IID_IMAPITable pour l’identificateur d’interface. Modifications apportées à une table de destinataires est possible en appelant la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
   

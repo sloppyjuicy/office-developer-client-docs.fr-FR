@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 24a033269b072712fea6e9957d0ffac3573ce3a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a9a5e72a585a2af8914b858cb4d174899706797e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786796"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566774"
 ---
 # <a name="pidtagspamthreshold-canonical-property"></a>Propriété canonique PidTagSpamThreshold
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une valeur de type long qui indique le niveau de filtrage du courrier indésirable.
   
@@ -28,9 +28,9 @@ Une valeur de type long qui indique le niveau de filtrage du courrier indésirab
 |Propriétés associées :  <br/> |PR_SPAM_THRESHOLD  <br/> |
 |ID de type long (capot) :  <br/> | 0x041B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Courrier indésirable  <br/> |
+|Domaine :  <br/> |Courrier indésirable  <br/> |
    
-## <a name="values"></a>Valeurs
+## <a name="values"></a>Values
 
 Les valeurs pour le filtrage du courrier indésirable sont les suivantes :
   
@@ -71,7 +71,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

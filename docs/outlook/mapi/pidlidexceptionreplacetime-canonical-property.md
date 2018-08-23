@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2292d53997fd4d54e9272789be83ea94a93c6a3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e28bde9571081d61b37f6939a991c11ddeb75a4c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785160"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566046"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriété canonique PidLidExceptionReplaceTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la date et l’heure au sein de la périodicité qui remplace l’exception.
   
@@ -33,7 +33,7 @@ Spécifie la date et l’heure au sein de la périodicité qui remplace l’exce
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x00008228  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Calendrier  <br/> |
+|Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

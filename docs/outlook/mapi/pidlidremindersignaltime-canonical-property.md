@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 375cde94d0ecd989908fccbdd69710c1961fba17
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c1a725583faf13fe8b46616d9d341798298a8b53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785375"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563435"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propriété canonique PidLidReminderSignalTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le point dans le temps lorsqu’un rappel passe d’en attente en retard.
   
@@ -33,7 +33,7 @@ Spécifie le point dans le temps lorsqu’un rappel passe d’en attente en reta
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008560  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Rappel  <br/> |
+|Domaine :  <br/> |Reminder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

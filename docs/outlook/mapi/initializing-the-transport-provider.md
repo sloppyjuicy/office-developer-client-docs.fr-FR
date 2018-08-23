@@ -1,5 +1,5 @@
 ---
-title: L’initialisation du fournisseur de Transport
+title: Initialisation du fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 977c18ce-ece5-4ad1-ac97-5a680846ab83
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 423b03d674028a2f81b4c042d6e65e9acfb57274
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3b369e20101bbaba5e246b2ef9f6ab3ed1771ef6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563554"
 ---
-# <a name="initializing-the-transport-provider"></a>L’initialisation du fournisseur de Transport
+# <a name="initializing-the-transport-provider"></a>Initialisation du fournisseur de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’interface de transport-spouleur définit le spouleur MAPI appels à un fournisseur de transport. Fournisseurs de transport implémentent ces routines dans une bibliothèque de liens dynamiques (DLL). Premier point d’entrée directe dans la DLL utilisé par le spouleur MAPI doit être la fonction d’initialisation du fournisseur transport [XPProviderInit](xpproviderinit.md).
   

@@ -1,5 +1,5 @@
 ---
-title: Annulation d’une Notification
+title: Annulation d’une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8cd96dd22daeb98646a62672bd17f7de4d2f7dab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 50d1fb451cbfcd07f97c5b12a9c86c03a435faa6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783002"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564772"
 ---
-# <a name="canceling-a-notification"></a>Annulation d’une Notification
+# <a name="canceling-a-notification"></a>Annulation d’une notification
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour annuler une notification, les clients appellent **Unadvise** méthode d’une source advise. L’appel de **Unadvise** est important car le fournisseur de services libérer la référence à votre récepteur de notifications. Dans la mesure où un fournisseur de services gère une référence à un récepteur de notifications, le récepteur de notifications peut continuer à recevoir des appels [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) . En fait, en raison de la nature de notification d’événement asynchrone, les clients peuvent être avertis même après une réussite **Unadvise** appeler. Clients doivent être en mesure de gérer la réception des notifications à tout moment. 
   

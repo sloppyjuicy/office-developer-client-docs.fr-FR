@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ba2b0a8-9f87-4a5e-ada2-e8c2399a9d94
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0fbf26faaa8d927cff8262ec19e0de71919d5658
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fe1f5fe525f58f27c6eff573e9f6288ac6493732
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786230"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563631"
 ---
 # <a name="pidtagmessagelocaleid-canonical-property"></a>Propriété canonique PidTagMessageLocaleId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le LCID Windows de l’utilisateur final qui a créé ce message.
   
@@ -32,7 +32,7 @@ Contient le LCID Windows de l’utilisateur final qui a créé ce message.
 |Propriétés associées :  <br/> |PR_MESSAGE_LOCALE_ID  <br/> |
 |Identificateur :  <br/> |0x3FF1  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Divers  <br/> |
+|Domaine :  <br/> |Divers  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

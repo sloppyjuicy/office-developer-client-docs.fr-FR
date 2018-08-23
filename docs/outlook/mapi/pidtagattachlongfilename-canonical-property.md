@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0debee5d480c4ea0c0a8fb4b54d9fa5d92a45987
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0f1e86924c0464814e3aa1e219930bd23fc78fb5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785721"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563484"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propriété canonique PidTagAttachLongFilename
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’une pièce jointe. 
   
@@ -32,7 +32,7 @@ Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’
 |Propriétés associées :  <br/> |PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W  <br/> |
 |Identificateur :  <br/> |0x3707  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ Mmapitags.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

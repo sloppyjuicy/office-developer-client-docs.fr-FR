@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3f13a4d278b85ffae33e8f44f3a15eb499fb11b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 461b59ff4f4c8a93f3a9945b05e31aef9a2997bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783646"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569301"
 ---
 # <a name="iaddrbooksetpab"></a>IAddrBook::SetPAB
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Désigne un conteneur spécifique comme le carnet d’adresses personnel (CAP).
   

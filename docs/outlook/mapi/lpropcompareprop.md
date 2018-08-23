@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d214cb5d449e2f7e42e7ee72774fdc146495adb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 0985ed0c5d4482bb22f46bdc9198afc343c61e5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784545"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565535"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Compare deux valeurs de propriété pour déterminer si elles sont égales. 
   

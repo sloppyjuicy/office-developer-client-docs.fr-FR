@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 34bd6de95f731c03466f19e0bc4fd6e2c9910900
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5e9135a52c15c18b70116aaf52e1ee63af413673
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784068"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563848"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée un signet à la position actuelle de la table.
   

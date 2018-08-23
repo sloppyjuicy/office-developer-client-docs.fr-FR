@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7676f6f8-28a6-4409-b669-fd2cd1a9f0ab
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4b4b025fb43e78829206bec964aa6c6b5b51ebba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a689812204354f82dc6c8ffb13771f0415a8935d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785164"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562994"
 ---
 # <a name="pidlidfax2addresstype-canonical-property"></a>Propriété canonique PidLidFax2AddressType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le type d’adresse pour l’adresse de télécopie (domicile).
   
@@ -33,7 +33,7 @@ Spécifie le type d’adresse pour l’adresse de télécopie (domicile).
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x000080C2  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

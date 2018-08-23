@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5cac96287db9638f699b75e0c387e003beb5e197
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ba0d68482c06a1f6d9ccdae95f63e980a1fd23e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786330"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563743"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSenderAddressType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le type d’adresse de l’expéditeur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
   
@@ -32,7 +32,7 @@ Contient le type d’adresse de l’expéditeur de la première version d’un m
 |Propriétés associées :  <br/> |PR_ORIGINAL_SENDER_ADDRTYPE, PR_ORIGINAL_SENDER_ADDRTYPE_A, PR_ORIGINAL_SENDER_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x0066  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

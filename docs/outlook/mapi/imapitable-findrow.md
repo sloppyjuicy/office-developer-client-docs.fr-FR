@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cb777074d1657a3ee5c2f1e9f70d2b304858c1b2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2a50a5f536e337e5ca37e61f17d4dfd40aa9c51e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565332"
 ---
 # <a name="imapitablefindrow"></a>IMAPITable::FindRow
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Trouve la ligne suivante dans une table qui correspond aux critères de recherche spécifiques et place le curseur sur cette ligne.
   

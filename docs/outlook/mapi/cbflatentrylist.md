@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a9f74e46fe74689cbcfba5414f7f083c34ef4f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783007"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565262"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante. 
   
@@ -49,5 +49,5 @@ CbFLATENTRYLIST(_lplist)
 [FLATENTRYLIST](flatentrylist.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

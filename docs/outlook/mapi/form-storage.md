@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a99ef76e63e634c661bf82bdab10b86c843e0df0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c98427ab326ada0b717282dc4077d526780aa45c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783349"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568160"
 ---
 # <a name="form-storage"></a>Stockage de formulaire
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Bien qu’il n’est pas nécessaire de connaître tous les détails de la façon dont les formulaires sont stockés physiquement, il est utile de comprendre certains des concepts principaux. Par conséquent, avant de décrire les trois types de bibliothèques de formulaires pris en charge par le Gestionnaire de formulaire par défaut, cette rubrique fournit une vue d’ensemble de la façon dont les formulaires sont stockés.
   

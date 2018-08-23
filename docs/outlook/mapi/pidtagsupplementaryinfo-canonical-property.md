@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6f9d383b6be2ce8efc135b85e9bea151df535cfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786874"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566746"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Propriété canonique PidTagSupplementaryInfo
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des informations supplémentaires à utiliser dans un rapport.
   
@@ -32,7 +32,7 @@ Contient des informations supplémentaires à utiliser dans un rapport.
 |Propriétés associées :  <br/> |PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W  <br/> |
 |Identificateur :  <br/> |0x0C1B  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

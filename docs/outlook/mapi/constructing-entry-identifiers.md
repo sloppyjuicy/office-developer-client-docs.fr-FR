@@ -1,5 +1,5 @@
 ---
-title: Construction d’identificateurs d’entrée
+title: Création d’identificateurs d’entrée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1d38c0ac7ddbd24123dd51d7315644f3ad786d15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f15749077596bd6c89828eb730cadd5624a75fe1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783053"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564583"
 ---
-# <a name="constructing-entry-identifiers"></a>Construction d’identificateurs d’entrée
+# <a name="constructing-entry-identifiers"></a>Création d’identificateurs d’entrée
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Identificateurs d’entrée sont construits avec la structure [ENTRYID](entryid.md) . La structure de la **propriété ENTRYID** est composée d’un indicateur qui décrit les attributs de l’identificateur d’entrée et de l’identificateur d’entrée réelle. 
   

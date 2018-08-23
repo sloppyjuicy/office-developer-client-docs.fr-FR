@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f16585a96164835784bfa1af3752bd652daf76e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784106"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567187"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Reçoit des notifications à partir de formulaires. 
   

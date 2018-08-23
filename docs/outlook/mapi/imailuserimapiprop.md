@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0c70d16d294426d30f3ac5f00b6bc46992386a86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7a6971504ec8f4f5ac8593b6b78777a12ff92b3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783693"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564562"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet d’accéder aux nombreuses propriétés qui sont associés à des utilisateurs de messagerie. L’interface **IMailUser** est implémentée par les objets utilisateur de messagerie. **IMailUser** hérite de la [IMAPIProp : IUnknown](imapipropiunknown.md) interface et n’a aucune méthode unique qui lui est propre. 
   
@@ -64,7 +64,7 @@ Cinq propriétés requises sont appelées les propriétés d’adresse de base p
     
 - **PR_ENTRYID**
     
-- **CLÉ PR_SEARCH_KEY**
+- **PR_SEARCH_KEY**
     
 Ces propriétés sont considérés comme spéciale car de nombreux autres groupes de propriétés similaires sont créées d’après ce groupe de base. Les autres groupes sont utilisés pour décrire un destinataire dans différents rôles, comme un message s d’origine ou déléguer l’expéditeur. Pour plus d’informations sur ces propriétés et comment les utiliser, voir [Types d’adresses MAPI](mapi-address-types.md).
   

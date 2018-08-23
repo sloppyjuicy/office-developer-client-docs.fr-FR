@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble de référence MAPI Outlook
+title: Vue d’ensemble de la référence MAPI Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 'Derni�re modification�: vendredi 1 f�vrier 2013'
-ms.openlocfilehash: c0d7faaa957167977606cd93800a085d62b214f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb7831ab79512eb8ca0018905e359654d7177cac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784946"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564779"
 ---
-# <a name="outlook-mapi-reference-overview"></a>Vue d’ensemble de référence MAPI Outlook
+# <a name="outlook-mapi-reference-overview"></a>Vue d’ensemble de la référence MAPI Outlook
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique fournit des informations générales sur la documentation de référence de MAPI pour Outlook 2013.
   
@@ -46,7 +46,7 @@ Pour plus d’informations sur les nouveautés de cette édition, consultez les 
     
 Si vous débutez au développement d’applications MAPI pour Outlook, consultez les rubriques suivantes :
   
-- [Sélection d’une API ou une technologie pour le développement de solutions pour Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
+- [Sélection d’une API ou d’une technologie pour développer des solutions pour Outlook 2013](http://msdn.microsoft.com/en-us/library/jj900714.aspx)
     
 - [Utilis�e couramment des fichiers d'en-t�te](commonly-used-header-files.md)
     
@@ -64,7 +64,7 @@ Le reste de cette référence est classé dans les trois types d’informations 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Mise en route avec la r�f�rence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+- [Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
 - [Exemples MAPI (en anglais)](mapi-samples.md)
 - [Concepts MAPI (en anglais)](mapi-concepts.md)
 

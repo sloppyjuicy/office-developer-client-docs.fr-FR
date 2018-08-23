@@ -1,23 +1,23 @@
 ---
-title: Indexation de magasin de Notification
+title: À propos de l’indexation de magasin basée sur une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 338ae3c3c8d8b4037ab0c7b46916e45cf5a8ded2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 125147ed7d6cd90c1069aa5cc1c759abe752dfe2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564520"
 ---
-# <a name="about-notification-based-store-indexing"></a>Indexation de magasin de Notification
+# <a name="about-notification-based-store-indexing"></a>À propos de l’indexation de magasin basée sur une notification
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur de banque MAPI peut spécifier si les analyses de gestionnaire de protocole MAPI et les index des messages dans le magasin, ou si la banque envoie des notifications à l’indexeur lorsqu’il existe des messages à indexer. Ce dernier est connu en tant que l’indexation basée sur une notification, et un objet store qui prend en charge l’indexation basée sur une notification est connu comme un magasin poussoir.
   
@@ -31,7 +31,7 @@ Un indexeur ne peut pas toujours indexer tout avant un arrêt se produit dans un
 
 
 
-[À propos de l’API du magasin](about-the-store-api.md)
+[À propos de l’API de magasin](about-the-store-api.md)
   
 [Constantes MAPI](mapi-constants.md)
 

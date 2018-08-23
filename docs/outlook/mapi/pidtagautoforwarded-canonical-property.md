@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8303a60ee0d61a56c79fadf471bc6111fcbde7d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785756"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565899"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Propriété canonique PidTagAutoForwarded
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si le client demande un champ d’en-tête X-MS-Exchange-organisation-transféré automatiquement.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si le client demande un champ d’en-tête X-MS-Exchange
 |Propriétés associées :  <br/> |PR_AUTO_FORWARDED  <br/> |
 |Identificateur :  <br/> |0x0005  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Rapports généraux  <br/> |
+|Domaine :  <br/> |Rapports généraux  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

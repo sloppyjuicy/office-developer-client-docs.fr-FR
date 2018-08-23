@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: baa2ac2e859b42234fcb07dd2bf521424ef9b465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 924ddbc7c2ad1ed84ce6927ae089b6eb223bfb92
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787281"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563505"
 ---
 # <a name="stnefproblemarray"></a>STnefProblemArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de structures **STnefProblem** décrivant une ou plusieurs des problèmes qui se sont produites pendant le codage de traitement ou de décodage d’un flux de Transport Neutral Encapsulation Format (TNEF). 
   
@@ -40,7 +40,7 @@ typedef struct _STnefProblemArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cProblem**
   

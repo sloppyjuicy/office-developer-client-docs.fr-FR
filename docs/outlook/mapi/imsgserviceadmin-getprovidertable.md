@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4272edef5b1b72944d1d27f0e4dd99ee4956aa57
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784221"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565290"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table fournisseurs, une liste des fournisseurs de services dans le profil.
   

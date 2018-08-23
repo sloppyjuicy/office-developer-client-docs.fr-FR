@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e63d661ab8c7e410d6a0dd786819cc189813017e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5b357a068249b12468be52f8782f646f394e4060
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785668"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567824"
 ---
 # <a name="pidtagadditionalrenentryids-canonical-property"></a>Propriété canonique PidTagAdditionalRenEntryIds
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les identificateurs d’entrée de certains dossiers spéciaux. 
   
@@ -32,7 +32,7 @@ Contient les identificateurs d’entrée de certains dossiers spéciaux.
 |Propriétés associées :  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x36D8  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Application Outlook  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -84,10 +84,10 @@ Mapidefs.h
 
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
 
-[À propos de l’API du magasin](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
+[À propos de l’API de magasin](http://msdn.microsoft.com/en-us/library/aa192884.aspx)
 

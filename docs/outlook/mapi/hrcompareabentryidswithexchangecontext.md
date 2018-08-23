@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e537c25f-51b5-4f06-a20a-44ee540b9a1f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 730c24a179cc6aaf8dc2068199ffc206d30156b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: eb91f4998f94ffafbc33b6024228945f7c91cf43
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783521"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564989"
 ---
 # <a name="hrcompareabentryidswithexchangecontext"></a>HrCompareABEntryIDsWithExchangeContext
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Compare deux adresses livre **identificateurs d’entrée** en toute sécurité dans un profil Exchange plusieurs. Cette fonction est une fonction de remplacement pour [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   

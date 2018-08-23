@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32669cbe-5460-4043-99cc-c609608f48da
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: aad19bbc016af6bdc0b17124b46112656af53a4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 11c8a58e6cfe0719e8683c4e7a0fd966972117c4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784962"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569378"
 ---
 # <a name="permissions-for-mapi-objects-and-properties"></a>Autorisations pour les propriétés et objets MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Autorisation d’accès ou l’ensemble des opérations permise, peut être une caractéristique d’objets MAPI et des propriétés individuelles pris en charge par ces objets. Accès aux objets est déterminée par le parent d’un objet. Pour un message, son dossier détermine les autorisations d’accès. Pour un utilisateur de messagerie ou une liste de distribution, le conteneur de carnet d’adresses pour ce faire. Lorsqu’un objet tel qu’un message se trouve dans deux dossiers, les autorisations pour les deux copies de l’objet peuvent être différentes. 
   
@@ -41,5 +41,5 @@ Propriété et aux objets peuvent également récupérer ou à définir à l’a
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

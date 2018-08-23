@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93ae6d54-41cd-433c-8124-eb07d71baa57
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e2b091fa21dae4a1a8da23954d5f998010483da1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d2a46be04f235ba55aa5f2feef222ea7372b211
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783130"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569861"
 ---
 # <a name="deferring-mapi-errors"></a>Report des erreurs MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Quelques m�thodes d'interface acceptent l'indicateur MAPI_DEFERRED_ERRORS comme param�tre d'entr�e. Lorsque cet indicateur est d�fini, la m�thode n'a pas renvoy�e imm�diatement avec une valeur ; elle peut informer l'appelant le r�sultat de l'appel � un moment ult�rieur.
   

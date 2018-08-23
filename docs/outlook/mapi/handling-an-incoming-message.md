@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d45d5ed9-41cd-4aaf-91d2-1e4a27bb16d4
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5705af6c8efaf42ae27d1b39bb28d162971ebf9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d6ec40005683cc67c51a63d6b186c042c8e170d7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568174"
 ---
 # <a name="handling-an-incoming-message"></a>Gestion d’un message entrant
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un message entrant est un message qui a été envoyé entre un ou plusieurs systèmes de messagerie. Il peut avoir envoyé qu’à vous ou à plusieurs autres destinataires. Les messages entrants sont placés dans un dossier de réception conçu pour stocker les messages d’une classe particulière. Vous pouvez configurer un autre dossier pour chaque classe de message que vous gérez ou utilisez un dossier pour toutes les classes de réception.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ceb055f6269e7abc8270c7d16da79c041d7f4ed0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 987188db4a3aceb4b065f59cdf449f943f68e70d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785440"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565318"
 ---
 # <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propriété canonique PidLidTaskEstimatedEffort
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la quantité de temps, en minutes, pendant laquelle l’utilisateur souhaite effectuer une tâche.
   
@@ -33,7 +33,7 @@ Indique la quantité de temps, en minutes, pendant laquelle l’utilisateur souh
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x00008111  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 598ced18d659fcbe52ded07cc3bb80dc396eddbf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 504ae8dddbddb1c7049574b1bdcc575a10a62c8f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570092"
 ---
 # <a name="one-off-addresses"></a>Adresses uniques
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Adresses uniques sont utilisées pour envoyer des messages aux destinataires uniques, les destinataires qui n’ont pas d’entrée correspondante dans les conteneurs de carnet d’adresses de la session. Les clients peuvent créer des adresses uniques lorsqu’ils ajoutent de nouvelles entrées pour le carnet d’adresses ou les nouveaux destinataires à la liste des destinataires d’un message sortant. Adresses uniques peuvent être ajoutés à n’importe quel conteneur est modifiable.
   

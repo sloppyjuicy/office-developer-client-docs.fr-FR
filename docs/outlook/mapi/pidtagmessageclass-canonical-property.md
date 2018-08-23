@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d4e478b053bc1aa81643a60899480ac2ad9d4265
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f54bdb70e9f48c89cb50e8238f8638deac8a93b0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786212"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567817"
 ---
 # <a name="pidtagmessageclass-canonical-property"></a>Propriété canonique PidTagMessageClass
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une chaîne de texte qui identifie la classe de message défini par l’expéditeur, par exemple IPM. Note. 
   
@@ -32,7 +32,7 @@ Contient une chaîne de texte qui identifie la classe de message défini par l�
 |Propriétés associées :  <br/> |PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, PR_MESSAGE_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x001A du jeu  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -101,7 +101,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

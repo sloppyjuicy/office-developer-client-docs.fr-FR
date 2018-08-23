@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c34538e-5ba4-47c8-8002-85afa9d6c067
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f3642c890c3922611d57dea6f03aca5606876864
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: cda629cf78d3f7915b64c130867ed4f8ebbd6f8d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784061"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563841"
 ---
 # <a name="imapisupportstatusrecips"></a>IMAPISupport::StatusRecips
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Génère des rapports de remise et de non-remise.
   

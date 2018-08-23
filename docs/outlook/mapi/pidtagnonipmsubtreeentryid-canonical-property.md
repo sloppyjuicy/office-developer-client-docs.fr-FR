@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8ea4d975e59a57f6b5df7bdc0fd6aee72888fdf4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 52cff2c0738622abf17992b2fc5557afef8e69bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786278"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563456"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagNonIpmSubtreeEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique l’identificateur d’entrée du dossier **NON_IPM_SUBTREE** dans une banque de dossiers publics Exchange. 
   
@@ -32,7 +32,7 @@ Indique l’identificateur d’entrée du dossier **NON_IPM_SUBTREE** dans une b
 |Propriétés associées :  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x6620  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Banque de messages  <br/> |
+|Domaine :  <br/> |Banque de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

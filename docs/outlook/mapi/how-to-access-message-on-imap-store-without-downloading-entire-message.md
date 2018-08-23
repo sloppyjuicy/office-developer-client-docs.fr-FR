@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fa7a61da47169ca7c6a1521ad5b3e84685a9b9a3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5a5a327ff74a4058d8eb15928912ca075e55ea95
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783484"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564387"
 ---
 # <a name="access-a-message-on-an-imap-store-without-downloading-the-entire-message"></a>Accéder à un message dans une banque IMAP sans télécharger l’intégralité du message
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente un exemple de code en langage C++ qui interroge une banque de messages pour l’interface **[IProxyStoreObject](iproxystoreobject.md)** et utilise le pointeur retourné et la fonction **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** pour obtenir un pointeur vers un objet banque IMAP qui a été dévoilé. À l’aide de ce magasin non permet d’accéder à un message dans son état actuel sans appeler un téléchargement de l’intégralité du message. 
   

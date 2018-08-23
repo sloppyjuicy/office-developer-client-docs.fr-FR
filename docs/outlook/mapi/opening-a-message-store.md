@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 39d6df6db329abf7509f816165341ea0eda8331b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4bab31dbcd1f7139980d7df5559c1ee52a6f167f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784918"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563645"
 ---
 # <a name="opening-a-message-store"></a>L’ouverture d’une banque de messages
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 En fonction du profil, un client vous devrez ouvrir une ou plusieurs bases de messages pendant une session typique. L’ouverture d’une banque de messages signifie que l’accès à un pointeur vers son [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) implémentation. L’interface **IMsgStore** fournit des méthodes de notification, rendant les affectations de dossiers et l’accès aux dossiers et messages. 
   

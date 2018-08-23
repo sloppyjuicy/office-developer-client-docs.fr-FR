@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 969aca6fd37f237a607df36cc58f249828449e27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 195a82bfcc163ee01d2d42c71e79a8f5c9c620e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564632"
 ---
 # <a name="form-states"></a>États de formulaire
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Objets de formulaire peuvent être l’un des cinq états distincts, en fonction de quelles méthodes ont été appelées y et si des erreurs se sont produites dans l’exécution de ces méthodes. Les États sont décrits dans les rubriques suivantes :
   
-- [État non initialisée](uninitialized-state.md)
+- [État non initialisé](uninitialized-state.md)
     
 - [État normal](normal-state.md)
     
@@ -40,5 +40,5 @@ Les rubriques de cette section décrivent les différents états possibles, ains
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+- [Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Constantes (Outlook exportée API)
+title: Constantes (Outlook des API exportées)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Cette rubrique contient des définitions de constantes pour les API qui exporte Outlook.
-ms.openlocfilehash: 54b491e436b7b9275a227de40439ddb66d8d0c5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782550"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564464"
 ---
-# <a name="constants-outlook-exported-apis"></a>Constantes (Outlook exportée API)
+# <a name="constants-outlook-exported-apis"></a>Constantes (Outlook des API exportées)
 
 Cette rubrique contient des définitions de constantes pour les API qui exporte Outlook.
   
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificateurs de répartition divers
 
-Outlook expose les identificateurs de répartition suivants (DISPID) afin que les développeurs peuvent utiliser [IDispatch::Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) pour accéder à la propriété correspondante ou la méthode, ou écouter l’événement correspondant. 
+Outlook expose les identificateurs de répartition suivants (DISPID) afin que les développeurs peuvent utiliser [IDispatch::Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) pour accéder à la propriété correspondante ou la méthode, ou écouter l’événement correspondant. 
   
 |**Constante associée**|**Valeur DISPID**|**Description**|**Interface applicable**|
 |:-----|:-----|:-----|:-----|
@@ -48,9 +48,9 @@ Outlook expose les identificateurs de répartition suivants (DISPID) afin que le
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Outlook des API exportées](outlook-exported-apis.md)
-- [À propos de l’API exporté par Outlook](about-apis-exported-by-outlook.md)
-- [Déterminer si un élément Outlook a été modifié mais ne pas enregistré (autre référence Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [API exportées Outlook](outlook-exported-apis.md)
+- [À propos des API exportées par Outlook](about-apis-exported-by-outlook.md)
+- [Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d'Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Spécifier si vous souhaitez afficher l'image d'un contact dans Outlook (référence auxiliaire d'Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
 - [Événements disponibles et leur DISPID (Outlook des API exportées)](available-events-and-their-dispids-outlook-exported-apis.md)
 

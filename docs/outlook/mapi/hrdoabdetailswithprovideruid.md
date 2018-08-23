@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 27741887-8405-49ed-b080-613613faf91b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fada57c45602f0a0b07276034101fa23a7525f5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cb4f38615ac6cacb3acbaa456f0992bf55c3653d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783531"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568622"
 ---
 # <a name="hrdoabdetailswithprovideruid"></a>HrDoABDetailsWithProviderUID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Garantit que la méthode **OpenEntry** est ouvert par le fournisseur de carnet d’adresses Exchange attendu. Cette fonction fonctionne comme [IAddrBook::Details](iaddrbook-details.md) mais ouvre **entryID** à l’aide du carnet d’adresses Exchange identifié par _pEmsabpUID_.
   

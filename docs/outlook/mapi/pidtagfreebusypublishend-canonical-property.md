@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1f7f439b211b60f7acad3a9dd19c50a21923c1cc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b539de9793c45e4b393452c264d72dda6fa58c4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786032"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568797"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>Propriété canonique PidTagFreeBusyPublishEnd
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’heure de fin de la plage de publication.
   
@@ -32,7 +32,7 @@ Contient l’heure de fin de la plage de publication.
 |Propriétés associées :  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Identificateur :  <br/> |0x6848  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

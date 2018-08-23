@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0f8484e195b1cda8e1d633133cdff89c571d8ecd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7d4337105b2dcae94956f0b1badf66c663467dc3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565661"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriété canonique PidTagJunkThreshold
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le degré le courrier entrant doit être envoyé vers le dossier courrier indésirable.
   
@@ -32,7 +32,7 @@ Indique le degré le courrier entrant doit être envoyé vers le dossier courrie
 |Propriétés associées :  <br/> |PR_JUNK_THRESHOLD  <br/> |
 |Identificateur :  <br/> |0x6101  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Courrier indésirable  <br/> |
+|Domaine :  <br/> |Courrier indésirable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -75,7 +75,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

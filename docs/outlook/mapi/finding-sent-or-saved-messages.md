@@ -1,5 +1,5 @@
 ---
-title: Recherche envoyé ou l’enregistrement des Messages
+title: Recherche de messages envoyés ou enregistrés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6e8b618e477475e8e7f45c266791086af63d8bfb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783318"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565017"
 ---
-# <a name="finding-sent-or-saved-messages"></a>Recherche envoyé ou l’enregistrement des Messages
+# <a name="finding-sent-or-saved-messages"></a>Recherche de messages envoyés ou enregistrés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour rechercher tous les messages sortants que vous avez enregistré ou envoyé**
   

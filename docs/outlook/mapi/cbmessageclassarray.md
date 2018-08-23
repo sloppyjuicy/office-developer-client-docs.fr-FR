@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cdf06861cf123162e726348b12fa6033fc88ffdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783001"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569609"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets dans une structure [SMessageClassArray](smessageclassarray.md) existante qui contient un nombre spécifié de pointeurs chaîne aux classes de message. 
   
@@ -49,5 +49,5 @@ CbMessageClassArray (_c)
 [SMessageClassArray](smessageclassarray.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

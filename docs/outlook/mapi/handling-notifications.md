@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: fdd66e4a27209e6b80757bcf52408eb0cea43794
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 4c19e88ac1cfb29a9841ec78516410e23b3e5403
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783429"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567579"
 ---
 # <a name="handling-notifications"></a>Gérer les notifications
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notifications d’activer un seul objet informer un autre objet qu’il a subi une modification. Le type de modification correspond à un événement. MAPI définit plusieurs événements pour lequel les notifications sont générées. 
   

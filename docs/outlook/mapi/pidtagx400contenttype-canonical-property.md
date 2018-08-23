@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ac79c37c8d646e5fa722af240972a0638d1bcec7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fc120a863fb9a061381eac81be04e385831cf484
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566788"
 ---
 # <a name="pidtagx400contenttype-canonical-property"></a>Propriété canonique PidTagX400ContentType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette propriété contient le type de contenu pour un message envoyé.
   
@@ -32,7 +32,7 @@ Cette propriété contient le type de contenu pour un message envoyé.
 |Propriétés associées :  <br/> |PR_X400_CONTENT_TYPE  <br/> |
 |Identificateur :  <br/> |0x003C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |X400  <br/> |
+|Domaine :  <br/> |X400  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

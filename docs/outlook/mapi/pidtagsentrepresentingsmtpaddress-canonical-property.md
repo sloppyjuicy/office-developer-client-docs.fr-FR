@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d3a3545c544c7b5cf5200468a94edf720dd326e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: afb50c2aaffd507cb269b80f1fb59f548685f2cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786775"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564919"
 ---
 # <a name="pidtagsentrepresentingsmtpaddress-canonical-property"></a>Propriété canonique PidTagSentRepresentingSmtpAddress
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’adresse de messagerie Simple Mail Transport Protocol (SMTP) de l’utilisateur de messagerie qui est représenté par l’expéditeur.
   
@@ -28,7 +28,7 @@ Contient l’adresse de messagerie Simple Mail Transport Protocol (SMTP) de l’
 |Propriétés associées :  <br/> |PR_SENT_REPRESENTING_SMTP_ADDRESS, PR_SENT_REPRESENTING_SMTP_ADDRESS_A, PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x5D02  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -90,7 +90,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

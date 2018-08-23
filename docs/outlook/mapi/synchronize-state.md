@@ -1,23 +1,23 @@
 ---
-title: État de synchronisation
+title: Synchroniser l’état
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 36bdeecfaaa94492b1e719dbd1cf455bfa40db47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d9f2a11a9ec1691863b476fed02eff1831a69207
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787321"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569721"
 ---
-# <a name="synchronize-state"></a>État de synchronisation
+# <a name="synchronize-state"></a>Synchroniser l’état
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état de synchronisation de l’ordinateur d’état de réplication. 
   
@@ -26,7 +26,7 @@ ms.locfileid: "19787321"
 |||
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC** <br/> |
-|Structure de données associées :  <br/> |**[SYNCHRONISATION](sync.md)** <br/> |
+|Structure de données associées :  <br/> |**[SYNC](sync.md)** <br/> |
 |À partir de cet état :  <br/> |[État inactif](idle-state.md) <br/> |
 |Avec cet état :  <br/> |[État de la hiérarchie du téléchargement](download-hierarchy-state.md), [synchroniser le contenu d’un état](synchronize-contents-state.md), [Téléchargez l’état de la hiérarchie](upload-hierarchy-state.md)ou inactif  <br/> |
    
@@ -49,7 +49,7 @@ Le client définit le [in] les membres de la **synchronisation**, ce qui indique
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

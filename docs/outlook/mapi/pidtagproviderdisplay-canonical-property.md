@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1546ee1aa970be71d853dba59ce0fab7cc5a4dac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 9a37382cda1a96025f950d941f83fb5b6a0497bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565500"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Propriété canonique PidTagProviderDisplay
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom d’affichage définies par le fournisseur pour un fournisseur de services.
   
@@ -32,7 +32,7 @@ Contient le nom d’affichage définies par le fournisseur pour un fournisseur d
 |Propriétés associées :  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A, PR_PROVIDER_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x3006  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI courantes  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

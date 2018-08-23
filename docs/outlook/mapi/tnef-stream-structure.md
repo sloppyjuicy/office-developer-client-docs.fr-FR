@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0fcd1c79d1c0debfb18d270dc0e40de42842c6d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ebe10ae741975b33ee58e1e99032aaca64ef38d8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787369"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569728"
 ---
 # <a name="tnef-stream-structure"></a>Structure de flux TNEF
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un flux TNEF commence avec une signature 32 bits qui identifie le flux sous forme de flux TNEF. La signature est un entier non signé de 16 bits qui est utilisé comme une clé pour le renvoi des pièces jointes à leur emplacement dans le texte du message avec balise. Le reste du flux est une séquence d’attributs TNEF. Attributs de message apparaissent en premier dans le flux TNEF et suivent les attributs de pièce jointe. Attributs appartenant à une pièce jointe particulier sont regroupées, à partir de l’attribut **attAttachRenddata** . 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 04fbfb2e6938c1ae5971e90b30f5ef749e7963e1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 35e19a4281c46ae7c2b5cbd76c1ecea35bf87665
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783227"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569763"
 ---
 # <a name="dtbllbx"></a>DTBLLBX
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une liste qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage.
   
@@ -41,7 +41,7 @@ typedef struct _DTBLLBX
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulFlags**
   

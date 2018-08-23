@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a52f4bcd-6e17-4623-a469-53be1f2758b1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2f9ee7221f523d7c92d91746f5cd719fad821a27
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 556ea9faedf0d9a02b0cff1bb2f1750289cc4d1e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783088"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565080"
 ---
 # <a name="copying-mapi-properties"></a>Copie des propriétés MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Clients et fournisseurs de services peuvent copier une ou plusieurs des propriétés d’un objet avec les fonctions de l’API des méthodes **IMAPIProp** suivantes : 
   
@@ -39,5 +39,5 @@ Les fonctions API décrites dans les précédente liste Propriétés en mémoire
 
 
 
-[Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+[Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

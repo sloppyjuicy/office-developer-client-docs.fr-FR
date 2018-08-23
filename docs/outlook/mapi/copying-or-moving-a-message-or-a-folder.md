@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
 description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 26fe135da93e0f5f94d9f7d264453b74f97a518b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97e7c90c2fdc715d7d0749300cc62854fffa6447
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563981"
 ---
 # <a name="copying-or-moving-a-message-or-a-folder"></a>Copier ou déplacer un message ou un dossier
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un client peut utiliser un des quatre méthodes pour copier ou déplacer un message ou un dossier :
   

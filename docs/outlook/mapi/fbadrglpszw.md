@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: da31da0ae0437e1578a681d9232b0693932b2aec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3b3b6b5ca0b06fc55a60e035ffd9118391cab8f9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783282"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565913"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Valide toutes les chaînes dans un tableau de chaînes Unicode. 
   

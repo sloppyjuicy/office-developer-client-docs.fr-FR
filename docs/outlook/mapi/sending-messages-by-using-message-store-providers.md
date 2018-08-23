@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: aaba816ca7efab6cee939087a18332561f31b81b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e29b909e90d2767bcf1bb9382a46e6f2c1cd9f2a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787111"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569798"
 ---
 # <a name="sending-messages-by-using-message-store-providers"></a>Fournisseurs de magasin d’envoi de messages à l’aide de message
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de banque de messages ne sont pas nécessaire pour prendre en charge les envois de messages sortants (autrement dit, la possibilité pour les applications clientes à utiliser le fournisseur de banque de messages pour envoyer des messages). Applications clientes doivent utiliser une banque de messages lors de l’envoi de messages, car les données du message doivent être stockée dans un endroit entre le moment où l’utilisateur a terminé compose il et l’heure à laquelle le spouleur MAPI donne le message à un fournisseur de transport pour envoi au système de messagerie sous-jacent. Si votre fournisseur de banque de messages n’accepte pas les envois de messages sortants, il ne peut être utilisé en tant que la banque de messages par défaut.
   

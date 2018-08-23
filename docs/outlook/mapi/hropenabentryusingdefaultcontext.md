@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 74660de551d43c589cb903b5c3852136f2f18269
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 879ba4afe85e1f6db31bd829411689b2dad58ed9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783553"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565465"
 ---
 # <a name="hropenabentryusingdefaultcontext"></a>HrOpenABEntryUsingDefaultContext
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Effectue la même fonction que [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) sauf qu’il utilise hérité **emsmdbUID** en tant que paramètre _pEmsmdbUID_ . N’utilisez pas cette fonction, sauf si vous ne peut pas obtenir correct **emsmdbUID** pour l’appel à [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md).
   

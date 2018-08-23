@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ff74ef880db286beb5f48ba299a83f2f944170b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783026"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563725"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets dans une structure [SPropProblemArray](spropproblemarray.md) existante. 
   
@@ -49,5 +49,5 @@ CbSPropProblemArray (_lparray)
 [SPropProblemArray](spropproblemarray.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a95330ab-fde7-4ad1-82ce-143ff2120306
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5d08bd4d3932c2e0b4d7d179bb9e0cb04467e8d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8be851270b4b4212928728eb8c7f44996f91d6fa
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786422"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563665"
 ---
 # <a name="pidtagprimaryfaxnumber-canonical-property"></a>Propriété canonique PidTagPrimaryFaxNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le numéro de téléphone de l’ordinateur de télécopie du destinataire.
   
@@ -32,7 +32,7 @@ Contient le numéro de téléphone de l’ordinateur de télécopie du destinata
 |Propriétés associées :  <br/> |PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A, PR_PRIMARY_FAX_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A23  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

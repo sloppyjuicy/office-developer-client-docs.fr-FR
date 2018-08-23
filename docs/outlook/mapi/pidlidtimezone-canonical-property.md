@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5eb9842da78541bc8c73cd5b2c52abeb927f9031
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 90dc35e72fc863ab12d9d6df9c54def7af788efd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785507"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568888"
 ---
 # <a name="pidlidtimezone-canonical-property"></a>Propriété canonique PidLidTimeZone
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie des informations sur le fuseau horaire d’une réunion périodique.
   
@@ -33,7 +33,7 @@ Spécifie des informations sur le fuseau horaire d’une réunion périodique.
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
 |ID de type long (capot) :  <br/> |0x0000000C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

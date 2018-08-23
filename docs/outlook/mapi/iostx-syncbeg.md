@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ddc61aa42b1087ed5f0ecb7986125ceef27cddce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 37d37d6402b165ea57626fe4791cfb1a4bcf76cc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784331"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565115"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Prépare le magasin local de la synchronisation dans un état particulier et récupère les informations nécessaires pour répliquer.
   
@@ -100,7 +100,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-[SYNCHRONISATION](sync.md)
+[SYNC](sync.md)
   
 > 
     

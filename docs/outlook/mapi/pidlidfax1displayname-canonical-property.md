@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 433c2ce1-4d18-4986-8416-ea0e7e0f841a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4350cd6d5e4711e7743f409a1264619075ef46ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a334032c5ebc5bb5627a8a3d9ea3a0e195824120
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785161"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564723"
 ---
 # <a name="pidlidfax1displayname-canonical-property"></a>Propriété canonique PidLidFax1DisplayName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le nom complet de l’adresse de télécopie professionnelle d’un contact.
   
@@ -33,7 +33,7 @@ Spécifie le nom complet de l’adresse de télécopie professionnelle d’un co
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x000080B0  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

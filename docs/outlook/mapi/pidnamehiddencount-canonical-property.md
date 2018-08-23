@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 74074f5ad28bca5bc98242cefebd0111d9cf6415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6c0b235b3e931a8c188f5c92c3d9eb3f3c326a83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785589"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563498"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>Propriété canonique PidNameHiddenCount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la valeur masquée du fichier qui est attaché au document.
   
@@ -33,7 +33,7 @@ Spécifie la valeur masquée du fichier qui est attaché au document.
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |HiddenCount  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

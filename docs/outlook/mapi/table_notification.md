@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fd77473ce728a51220a4c039f1d12d03d90e7f36
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7f32145e0947411c48e1e6c3a941c9913a08709c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787340"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565843"
 ---
 # <a name="tablenotification"></a>TABLE_NOTIFICATION
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une ligne dans une table qui a été affectée à un type d’événement, comme une modification ou une erreur. Cela entraîne une notification de la table à générer. 
   
@@ -41,7 +41,7 @@ typedef struct _TABLE_NOTIFICATION
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 **ulTableEvent**
   
@@ -59,7 +59,7 @@ TABLE_ERROR
     
    - [IMAPITable::SetColumns](imapitable-setcolumns.md)
     
-   - [IMAPITable](imapitable-restrict.md)
+   - [IMAPITable::Restrict](imapitable-restrict.md)
     
    Après avoir reçu un événement TABLE_ERROR, un client ne peut pas s’appuient sur l’exactitude des table des matières. En outre, les notifications sur les autres modifications en attente risquent d’être perdues. La méthode [IMAPITable::GetLastError](imapitable-getlasterror.md) ne peut pas fournir des informations supplémentaires sur l’erreur, car il a été généré à un moment donné précédent, pas nécessairement à partir du dernier appel de méthode. 
     
@@ -105,7 +105,7 @@ TABLE_SORT_DONE
   
 > Structure **SPropValue** pour la propriété **PR_INSTANCE_KEY** de la ligne avant celle concerné. Si la ligne concernée est la première ligne dans le tableau, **propPrior** doit être définie à **PR_NULL** et non nul. Zéro n’est pas une balise de propriété valide. 
     
-**ligne**
+**row**
   
 > Structure [SRow](srow.md) décrivant la ligne concernée. Cette structure est remplie pour tous les événements de notification de tableau. Pour les événements de notification de table qui ne passent pas de données de ligne, le membre **cValues** de la structure **SRow** est défini sur zéro et le membre **lpProps** est défini sur NULL. Étant donné que cette structure **SRow** est en lecture seule ; les clients doivent effectuer une copie de celle-ci s’ils souhaitent apporter des modifications. La fonction [ScDupPropset](scduppropset.md) peut être utilisée pour effectuer la copie. 
     
@@ -119,9 +119,9 @@ Pour plus d’informations sur la notification, consultez les rubriques décrite
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
-|[Gérer les Notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge de la Notification d’événement](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Prise en charge des notifications d’événements](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
    
 Notifications de table étant asynchrones, les clients peuvent recevoir une notification d’une ligne ajoutée après en savoir plus sur l’ajout par un autre moyen. Il est possible de recevoir un événement TABLE_ERROR lorsqu’il existe une erreur dans une méthode **IMAPITable::Sort**, **IMAPITable::Restrict**ou **IMAPITable::SetColumns** ou lorsque sous-jacentes d’un processus tente de mettre à jour un tableau avec, par exemple, nouvelle ou les lignes modifiées. 
   

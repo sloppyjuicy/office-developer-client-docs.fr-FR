@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a4a1c78e65d9a515b2b42d7e0a2bc3a8b4bd8869
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d17de9cc11bd791c75b83093a0431c138fd606d6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783712"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564170"
 ---
 # <a name="ifoldersupport--iunknown"></a>IFolderSupport : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des informations sur la prise en charge d’un dossier pour le partage.
   

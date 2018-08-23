@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b667f56553b717f1bc938b6ce045dbfdde8fdc0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e09a1de5f85edd7e352a090c573fed9ca16f017f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783962"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565549"
 ---
 # <a name="imapistatuschangepassword"></a>IMAPIStatus::ChangePassword
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Modifie le mot de passe d’un fournisseur de services sans afficher l’interface utilisateur. Cette méthode est également pris en charge dans les objets qui implémentent des fournisseurs de services d’état.
   

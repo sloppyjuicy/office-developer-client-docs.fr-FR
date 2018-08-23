@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e5b283376d018b7b2675e05f994d586126437590
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 225c0813139a74b735b5b8a3d5a729e630cd3511
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786298"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563337"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propriété canonique PidTagOriginalAuthorSearchKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la clé de recherche de l’auteur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
   
@@ -32,7 +32,7 @@ Contient la clé de recherche de l’auteur de la première version d’un messa
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0056  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -60,7 +60,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

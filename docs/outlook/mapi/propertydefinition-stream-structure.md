@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 289227ee171c2325cad0ed321dab4f635a0ca724
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786959"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566655"
 ---
 # <a name="propertydefinition-stream-structure"></a>Structure de flux de la définition PropertyDefinition
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une structure de flux de la définition PropertyDefinition est un tableau de structures de flux [FieldDefinition](fielddefinition-stream-structure.md) qui contiennent des définitions pour tous les champs définis par l’utilisateur dans un élément Microsoft Outlook et les paramètres de liaison de données pour certains champs prédéfinis. 
   
@@ -38,8 +38,8 @@ Définitions de champ dans une structure de flux de la définition PropertyDefin
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Les champs et les éléments outlook](outlook-items-and-fields.md)
-- [Ajoutez une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
-- [Exemple de flux de la définition PropertyDefinition](propertydefinition-stream-sample.md)
-- [Structures de flux de données](stream-structures.md)
+- [Champs et éléments Outlook](outlook-items-and-fields.md)
+- [Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+- [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
+- [Structures de flux](stream-structures.md)
 

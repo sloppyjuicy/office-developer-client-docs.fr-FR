@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: de737118-5f3b-464f-b036-f4a3489d411a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6d2c85aa76a372ba79e55dbf5b22024288214df6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d369093589ffad03bf087b02905c443cf6f46c34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564268"
 ---
-# <a name="supporting-formatted-text-gateway-responsibilities"></a>Prenant en charge le format texte : Responsabilités de passerelle
+# <a name="supporting-formatted-text-gateway-responsibilities"></a>Prise en charge du texte mis en forme : responsabilités de passerelle
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  **Pour gérer le Format RTF pour les messages sortants, passerelles**
   

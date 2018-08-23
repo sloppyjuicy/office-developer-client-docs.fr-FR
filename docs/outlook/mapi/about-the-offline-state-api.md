@@ -1,23 +1,23 @@
 ---
-title: À propos de l’API d’état en mode hors connexion
+title: À propos de l’API d’état hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: df225a0852b09e048656e817c54ea28b0de59888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aa30a173251193d74d6560c8dce2663463a18e36
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782869"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565983"
 ---
-# <a name="about-the-offline-state-api"></a>À propos de l’API d’état en mode hors connexion
+# <a name="about-the-offline-state-api"></a>À propos de l’API d’état hors connexion
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’API d’état en mode hors connexion prend en charge les rappels indiquant les modifications de l’état de connexion d’un utilisateur dans Microsoft Outlook 2013 et Microsoft Outlook 2010 — par exemple, d’en cours en ligne dans Outlook 2013 ou Outlook 2010 pour en cours en mode hors connexion. L’API utilise un objet global en mode hors connexion dans Outlook 2013 ou Outlook 2010 pour le suivi des modifications pour un profil de compte d’utilisateur donné. Notification est la seule forme prises en charge de rappel. Comme des clients de cette API, les fournisseurs de messagerie qui vous souhaitez être averti de ces changements d’état de connexion procédez comme suit :
   

@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2c8661f24ed9555547446cf63fc08a3be7e6e941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ff088dc5bf62f407692c9eec649ff388f79d549d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783059"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567152"
 ---
 # <a name="contabentryid"></a>CONTAB_ENTRYID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée du dossier contacts.
   
@@ -42,7 +42,7 @@ typedef struct _contab_entryid
 #pragma pack() 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **abFlags**
   

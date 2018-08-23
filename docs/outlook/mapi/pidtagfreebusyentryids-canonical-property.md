@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e0feaac0cb4c52b2f2acff1460a4d8a41196954d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 603adf8df0c00efc592572fd9a46434f42845011
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564737"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propriété canonique PidTagFreeBusyEntryIds
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient **identificateurs d’entrée** pour le message d’information délégué, le message d’informations de disponibilité de l’utilisateur connecté et le dossier dont **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est égal à « Données FreeBusy. »
   
@@ -32,7 +32,7 @@ Contient **identificateurs d’entrée** pour le message d’information délég
 |Propriétés associées :  <br/> |PR_FREEBUSY_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x36E4  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Conteneur MAPI  <br/> |
+|Domaine :  <br/> |Conteneur MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

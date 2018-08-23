@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1257fe3fd5be226c04aece1c082152ea37d1214f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ba103ab0e071b8841d55e11d7472eb41f97f97b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785596"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567404"
 ---
 # <a name="pidnameedittime-canonical-property"></a>Propriété canonique PidNameEditTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’heure lorsque le fichier a été modifié pour la dernière.
   
@@ -33,7 +33,7 @@ Spécifie l’heure lorsque le fichier a été modifié pour la dernière.
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |EditTime  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

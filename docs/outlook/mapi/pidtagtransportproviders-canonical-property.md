@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6ff3548883e273fc10a885a67209b0da52c23a12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786889"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563043"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Propriété canonique PidTagTransportProviders
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une liste d’identificateurs de fournisseurs de transport dans le profil actif.
   
@@ -32,7 +32,7 @@ Contient une liste d’identificateurs de fournisseurs de transport dans le prof
 |Propriétés associées :  <br/> |PR_TRANSPORT_PROVIDERS  <br/> |
 |Identificateur :  <br/> |0x3D02  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Profil MAPI  <br/> |
+|Domaine :  <br/> |Profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

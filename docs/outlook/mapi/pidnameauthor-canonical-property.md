@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d45ea1e4-727e-434a-b6b7-73179baa3e5b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 24682906f6f018822f50bc1461fadd48996c46aa
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e442d57a75fac2292bc70b287da20bdcc5100dc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570099"
 ---
 # <a name="pidnameauthor-canonical-property"></a>Propriété canonique PidNameAuthor
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente l’auteur du fichier qui est attaché au document.
   
@@ -33,7 +33,7 @@ Représente l’auteur du fichier qui est attaché au document.
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Auteur  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

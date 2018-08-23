@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4e7df570851aa515e07117d05103f7c0631c90f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 98c3f33c5f9b4745787d6acb55d7afb230e23518
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784451"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564240"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette interface fournit des fonctionnalités d’assistance lors de l’exécution de la réplication via l’interface **[IOSTX](iostxiunknown.md)** . 
   

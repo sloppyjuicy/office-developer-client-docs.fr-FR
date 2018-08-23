@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9a186af55a8a2846bbb8af9e51be45ef73ce5d66
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 55d838661dcbe0efb604e6a623a434f9ae87512e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786908"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567782"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propriété canonique PidTagViewDescriptorName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom d’un descripteur d’affichage.
   
@@ -32,7 +32,7 @@ Contient le nom d’un descripteur d’affichage.
 |Propriétés associées :  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identificateur :  <br/> |0x7006  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Message défini par la classe transmissible  <br/> |
+|Domaine :  <br/> |Message défini par la classe transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

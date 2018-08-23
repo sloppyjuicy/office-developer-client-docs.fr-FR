@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 293e8648374b61784f5bda0db124506f345b2701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7723897c6d249bbb53a0de5aa68ad8d1bc79830f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786728"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563724"
 ---
 # <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsBusy
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les mois dont sont présentes dans le message et de disponibilité et de disponibilité des données de type occupé (e).
   
@@ -30,7 +30,7 @@ Contient les mois dont sont présentes dans le message et de disponibilité et d
 |Propriétés associées :  <br/> |PR_SCHDINFO_MONTHS_BUSY  <br/> |
 |Identificateur :  <br/> |0x6853  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -66,7 +66,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

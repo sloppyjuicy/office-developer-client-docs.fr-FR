@@ -1,5 +1,5 @@
 ---
-title: Définition d’une Position de tableau avec un filtre
+title: Définition d’une position de table avec un filtre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4c3a5c13433fb2f037be24ddd4c877579429f7bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6c4db9c67fc712143657fe66b86ea33ef2b9c272
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565591"
 ---
-# <a name="setting-a-table-position-with-a-filter"></a>Définition d’une Position de tableau avec un filtre
+# <a name="setting-a-table-position-with-a-filter"></a>Définition d’une position de table avec un filtre
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les utilisateurs de tableau peuvent déplacer le curseur à une ligne qui correspond à un ensemble de critères de filtre. Filtres peuvent reposer sur un grand nombre d’instructions telles que les valeurs de propriété de colonne, les masques de bits ou les sous-objets. Les filtres sont spécifiés dans MAPI à l’aide d’une structure [SRestriction](srestriction.md) . 
   

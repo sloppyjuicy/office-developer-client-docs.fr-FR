@@ -10,18 +10,18 @@ api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 8708606cafffe0e6e1af06189b6ef8961e5a7a05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784628"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565395"
 ---
 # <a name="mapi-functions-callbacks-and-macros"></a>Fonctions MAPI, les rappels et les Macros
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les entrées suivantes alphabétiques contiennent documentation pour les fonctions MAPI, les rappels et les macros. 
   
@@ -31,7 +31,7 @@ Les entrées suivantes alphabétiques contiennent documentation pour les fonctio
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |[CheckParameters](checkparms.md) <br/> |
 |[CheckParms](checkparms.md) <br/> |[CloseIMsgSession](closeimsgsession.md) <br/> |
-|[CreateIProp](createiprop.md) <br/> |[Create table](createtable.md) <br/> |
+|[CreateIProp](createiprop.md) <br/> |[CreateTable](createtable.md) <br/> |
 |[DeinitMapiUtil](deinitmapiutil.md) <br/> |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |
 |[DISMISSMODELESS](dismissmodeless.md) <br/> |[EnableIdleRoutine](enableidleroutine.md) <br/> |
 |[FBadColumnSet](fbadcolumnset.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
@@ -71,7 +71,7 @@ Les entrées suivantes alphabétiques contiennent documentation pour les fonctio
 |[MAPIAllocateBuffer](mapiallocatebuffer.md) <br/> |[MAPIAllocateMore](mapiallocatemore.md) <br/> |
 |[MAPICrashRecovery](mapicrashrecovery.md) <br/> |[MAPIDeInitIdle](mapideinitidle.md) <br/> |
 |[MAPIFreeBuffer](mapifreebuffer.md) <br/> |[MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) <br/> |
-|[Exécuter MAPIInitialize](mapiinitialize.md) <br/> |[MAPIInitIdle](mapiinitidle.md) <br/> |
+|[MAPIInitialize](mapiinitialize.md) <br/> |[MAPIInitIdle](mapiinitidle.md) <br/> |
 |[MAPILogonEx](mapilogonex.md) <br/> |[MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md) <br/> |
 |[MAPIOFFLINE_CREATEINFO](mapioffline_createinfo.md) <br/> |[MAPIOpenFormMgr](mapiopenformmgr.md) <br/> |
 |[MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) <br/> |[MAPIReallocateBuffer](mapireallocatebuffer.md) <br/> |

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7a63b3ad3c45790e043e1ea8e7d996c4847ef8d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 21bbb498eb4d53704c7a1a1a5bc84e9c72a75258
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785910"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566425"
 ---
 # <a name="pidtagdeleteaftersubmit-canonical-property"></a>Propriété canonique PidTagDeleteAfterSubmit
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si une application cliente souhaite MAPI pour supprimer le message associé après l’envoi. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si une application cliente souhaite MAPI pour supprimer 
 |Propriétés associées :  <br/> |PR_DELETE_AFTER_SUBMIT  <br/> |
 |Identificateur :  <br/> |0x0E01  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

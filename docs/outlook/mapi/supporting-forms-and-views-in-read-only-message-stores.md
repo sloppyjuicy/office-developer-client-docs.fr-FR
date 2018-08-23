@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1ef9b85fd8dad980f92f5e06a4b54daf146fbcec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 52aebb53f2bc0e5af72f2da47b91ba2806d7f709
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787290"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563351"
 ---
 # <a name="supporting-forms-and-views-in-read-only-message-stores"></a>Prise en charge des formulaires et des affichages dans des magasins de Message en lecture seule
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Si votre fournisseur de banque de messages autorise une autorisation en lecture seule dans le m�canisme de stockage sous-jacent, les applications clientes et le Gestionnaire de formulaire MAPI ne pourront pas effectuer certaines op�rations. En particulier, les clients ne pourront pas ajouter ou modifier des affichages personnalis�s et du Gestionnaire de formulaire MAPI ne pourront pas installer des formulaires dans les tableaux de contenu associ� � des dossiers de la banque.
   

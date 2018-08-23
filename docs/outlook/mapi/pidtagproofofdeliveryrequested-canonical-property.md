@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d5cb5807f4a3c24bf8ab1af1db2c57f361b32ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2eb811a88cd15ad05d016c690d3939a6b1e00ca3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786447"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567796"
 ---
 # <a name="pidtagproofofdeliveryrequested-canonical-property"></a>Propriété canonique PidTagProofOfDeliveryRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette propriété contient la valeur TRUE si un expéditeur du message demande preuve de remise pour un destinataire particulier.
   
@@ -32,7 +32,7 @@ Cette propriété contient la valeur TRUE si un expéditeur du message demande p
 |Propriétés associées :  <br/> |PR_PROOF_OF_DELIVERY_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C12  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Destinataire MAPI  <br/> |
+|Domaine :  <br/> |Destinataire MAPI  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

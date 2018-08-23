@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 953c97ef-bc38-4e30-9906-b16373cd33c2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2701aaebe7a3554499af1ba43225737d38aae888
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: de0d2d7c0b03f7002d07e6703d2f7854b5c6b64c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784699"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564996"
 ---
 # <a name="mapi-service-provider-samples"></a>Exemples de fournisseurs de services MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette section contient des exemples de code de trois fournisseurs de services MAPI :
   
-- [Télécharger les exemples de MAPI Outlook](downloading-the-outlook-mapi-samples.md)
+- [Téléchargement des exemples MAPI d’Outlook](downloading-the-outlook-mapi-samples.md)
     
     Cette rubrique décrit comment télécharger les exemples.
     
-- [Fournisseur de carnet d’adresses exemple](address-book-provider-sample.md)
+- [Exemple de fournisseur de carnets d’adresses](address-book-provider-sample.md)
     
     Cet exemple prend en charge un seul conteneur en lecture seule pour les noms complets et les adresses de messagerie, qui sont lues à partir d’un fichier binaire plat.
     

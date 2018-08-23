@@ -1,5 +1,5 @@
 ---
-title: Propriété de Type Private marque
+title: Propriété de privatisation du type de magasin
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7f60d9524af18bb7f2e876386c45b84f207d42bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2d927b00391725d8804e41b66b1ec8c384f98e7c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784560"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568832"
 ---
-# <a name="make-store-type-private-property"></a>Propriété de Type Private marque
+# <a name="make-store-type-private-property"></a>Propriété de privatisation du type de magasin
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Traite un stockage secondaire comme privée.
   

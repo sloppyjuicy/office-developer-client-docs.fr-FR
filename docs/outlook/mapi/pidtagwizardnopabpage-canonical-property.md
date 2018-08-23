@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b393155d00b47fa8cce23c1b5ac7043237a58983
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: cdb7dde4853188eb0621dc3c2f45c2dc713441d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786935"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22570239"
 ---
 # <a name="pidtagwizardnopabpage-canonical-property"></a>Propriété canonique PidTagWizardNoPabPage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette propriété contient la valeur TRUE si l’Assistant profil consiste à supprimer de la page de carnet d’adresses personnel.
   
@@ -32,7 +32,7 @@ Cette propriété contient la valeur TRUE si l’Assistant profil consiste à su
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |D’administration Exchange  <br/> |
+|Domaine :  <br/> |D’administration Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

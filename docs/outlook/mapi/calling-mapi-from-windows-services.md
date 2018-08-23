@@ -1,5 +1,5 @@
 ---
-title: L’appel MAPI à partir des Services Windows
+title: Appel de MAPI à partir de services Windows
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: debf7ec3-e9f9-4912-b9a2-fc0953a56a01
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6465b2d24c3a38da40f2d1e6df79c2fa256b64b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f77b3dd9ca8c977574aab337b0df572404061b4a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782988"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565864"
 ---
-# <a name="calling-mapi-from-windows-services"></a>L’appel MAPI à partir des Services Windows
+# <a name="calling-mapi-from-windows-services"></a>Appel de MAPI à partir de services Windows
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour activer les applications clientes MAPI qui sont enregistrées en tant que services Windows pour fonctionner avec des fournisseurs de services compatible MAPI, MAPI impose plusieurs limitations et exigences.
   
@@ -43,7 +43,7 @@ Pour gérer les messages dans un thread d’initialisation, un client MAPI qui e
 
 
 
-[Exécuter MAPIInitialize](mapiinitialize.md)
+[MAPIInitialize](mapiinitialize.md)
   
 [MAPIINIT_0](mapiinit_0.md)
   

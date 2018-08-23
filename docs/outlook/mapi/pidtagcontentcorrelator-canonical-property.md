@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2290e6751778f17defc8d1007ff62c88f1b75465
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785847"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568804"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Propriété canonique PidTagContentCorrelator
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de que l’expéditeur du message peut utiliser pour correspondre à un rapport avec le message d’origine.
   
@@ -32,7 +32,7 @@ Contient une valeur de que l’expéditeur du message peut utiliser pour corresp
 |Propriétés associées :  <br/> |PR_CONTENT_CORRELATOR  <br/> |
 |Identificateur :  <br/> |0 x 0007  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

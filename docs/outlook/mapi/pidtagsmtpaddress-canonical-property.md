@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0ee2db8-7cea-4af4-9646-c02ac7fdeaa3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9c4456a999ad6503ee4fa65bd1dd04340b262726
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3d0a1def329c7fbb1d344a6f714b3cd068757d1d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786789"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565458"
 ---
 # <a name="pidtagsmtpaddress-canonical-property"></a>Propriété canonique PidTagSmtpAddress
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’adresse SMTP de l’objet de carnet d’adresses.
   
@@ -32,7 +32,7 @@ Contient l’adresse SMTP de l’objet de carnet d’adresses.
 |Propriétés associées :  <br/> |PR_SMTP_ADDRESS, PR_SMTP_ADDRESS_A, PR_SMTP_ADDRESS_W  <br/> |
 |Identificateur :  <br/> |0x39FE  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -88,7 +88,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

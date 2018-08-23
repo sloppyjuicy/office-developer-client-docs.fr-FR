@@ -1,5 +1,5 @@
 ---
-title: Reconfiguration d’un fournisseur de Transport
+title: Reconfiguration d’un fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d466bde-b70d-44b6-ba03-6ad8353ec759
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ec5a431d04799e3f19c23dd0437aeac13fbf0968
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5e7c94b387a5fe9f9682854de4097f6f1bbcd786
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786974"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565598"
 ---
-# <a name="reconfiguring-a-transport-provider"></a>Reconfiguration d’un fournisseur de Transport
+# <a name="reconfiguring-a-transport-provider"></a>Reconfiguration d’un fournisseur de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Vous pouvez utiliser l’objet d’état d’un fournisseur de transport pour modifier certaines des propriétés du fournisseur. La plage de propriétés qui peuvent être modifiées dépend des propriétés qui sont incluses dans la feuille des propriétés du fournisseur et la façon dont ces propriétés sont définies. 
   

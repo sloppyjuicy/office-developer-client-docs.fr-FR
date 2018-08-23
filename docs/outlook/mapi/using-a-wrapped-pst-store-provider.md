@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Dernière modification : 03 juillet 2012'
-ms.openlocfilehash: 4a2ccbbcdd3459af6b69156d80b37695251ba8d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74ccd44797bb5629bfe4f390b099771c6932a9b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787440"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566466"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>À l’aide d’un fournisseur de magasins PST encapsulé
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Avant de pouvoir utiliser un fournisseur de magasins encapsulé dossiers personnels (PST) de fichier, vous devez initialiser et configurer le fournisseur de banque PST justifié. Une fois que le fournisseur de banque PST encapsulé est configuré, vous devez implémenter les fonctions afin que MAPI et le spouleur MAPI peuvent se connecter au fournisseur de magasin de message. Pour plus d’informations sur l’initialisation et de se connecter à un fournisseur de magasin PST encapsulé, voir [l’initialisation d’un fournisseur de magasin encapsulé PST](initializing-a-wrapped-pst-store-provider.md) et [l’enregistrement à un fournisseur de magasin encapsulé PST](logging-on-to-a-wrapped-pst-store-provider.md).
   
@@ -56,9 +56,9 @@ STDMETHODIMP CSupport::OpenProfileSection(
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’exemple de wrapper fournisseur de banque de dossiers personnels](about-the-sample-wrapped-pst-store-provider.md)
-- [Installation de l’exemple de wrapper fournisseur de banque de dossiers personnels](installing-the-sample-wrapped-pst-store-provider.md)
-- [L’initialisation d’un fournisseur de banque de dossiers personnels encapsulé](initializing-a-wrapped-pst-store-provider.md)
-- [Se connecter à un fournisseur de banque de dossiers personnels encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Arrêt d’un fournisseur de banque de dossiers personnels encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [À propos de l’exemple de fournisseur d’archive PST encapsulée](about-the-sample-wrapped-pst-store-provider.md)
+- [Installation de l’exemple de fournisseur d’archive PST encapsulée](installing-the-sample-wrapped-pst-store-provider.md)
+- [Initialisation d’un fournisseur d’archive PST encapsulée](initializing-a-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur d’archive PST encapsulée](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Arrêt d’un fournisseur d’archive PST encapsulée](shutting-down-a-wrapped-pst-store-provider.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 379378f2092f7b119a40ac44cbdcfa03f254b448
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787265"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569595"
 ---
 # <a name="status-object-implementation"></a>Implémentation d’objet état
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tous les fournisseurs de services doivent implémenter un objet d’état et fournir des propriétés à partir de celui-ci à la table d’état de session. Vous pouvez inclure une ou plusieurs lignes dans la table d’état, en fonction du nombre de ressources que vous contrôlez. Par exemple, un fournisseur de transport doit créer une ligne dans la table d’état pour chaque file d’attente de message qu’il gère. Lorsque des modifications se produisent, la ligne de tableau statut approprié doit être mis à jour. Objets d’état sont implémentées pour fournir l’accès à la fois pour les informations contenues dans la table d’état et des informations supplémentaires non inclus dans le tableau.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 486b1f913e7c3c76886232c48fa842e25e1f7905
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b17a5791db4ccb840224785dd71a2ed52143cbaf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785477"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565444"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Propriété canonique PidLidTaskStartDate
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Date lorsque l’utilisateur souhaite commencer la tâche.
   
@@ -33,7 +33,7 @@ Date lorsque l’utilisateur souhaite commencer la tâche.
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x00008104  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

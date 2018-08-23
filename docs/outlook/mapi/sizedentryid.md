@@ -11,24 +11,24 @@ api_name:
 api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 814cfeab61854469f460cc38f927b0e3723f6f0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d797acdbf2abfb88151d69d0c93e743f07afc5c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563869"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure [ENTRYID](entryid.md) nommée qui contient un membre de **Carnet d’adresses** d’une taille spécifiée. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**PROPRIÉTÉ ENTRYID** <br/> |
+|Structure connexe :  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -57,6 +57,6 @@ lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ## <a name="see-also"></a>Voir aussi
 
-- [PROPRIÉTÉ ENTRYID](entryid.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [ENTRYID](entryid.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

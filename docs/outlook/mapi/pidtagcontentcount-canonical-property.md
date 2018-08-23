@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3c542b07eac626da5fbbb6a96b4545ad3c8558b6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b489e73f9453e5d2ae6657969c2bc18fc9a4620e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785864"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562938"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propriété canonique PidTagContentCount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nombre de messages dans un dossier, calculé par la banque de messages.
   
@@ -32,7 +32,7 @@ Contient le nombre de messages dans un dossier, calculé par la banque de messag
 |Propriétés associées :  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3602  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

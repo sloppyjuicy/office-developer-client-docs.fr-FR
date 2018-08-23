@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 64d205ee7f51c0ce6a6eb1e982659c6cda675f8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 87a470c1c682225eb1deefba9ccc8c12fbdc49c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783303"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569826"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Convertit une représentation sous forme de chaîne d’un nombre hexadécimal à des données binaires. 
   

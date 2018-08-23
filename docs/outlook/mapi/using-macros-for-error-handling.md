@@ -1,5 +1,5 @@
 ---
-title: Utilisation de Macros pour la gestion des erreurs
+title: Utilisation des macros pour la gestion des erreurs
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c4e216f2204f4ee97d9eeac81f77ce6a82fff3f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 715cd001c5eab89f40c31200a12deaf6981b9a61
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787445"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567124"
 ---
-# <a name="using-macros-for-error-handling"></a>Utilisation de Macros pour la gestion des erreurs
+# <a name="using-macros-for-error-handling"></a>Utilisation des macros pour la gestion des erreurs
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe plusieurs macros pour rendre plus facile d’utiliser des valeurs HRESULT.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 375eac56253772b363ae320b3f7044ac600e71f6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 633a7e0ea7cc2b6ffdbc555e2e470ec66ef77f8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785573"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565605"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Propriété canonique PidNameAttachmentMacInfo
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de pièce jointe [RFC3282] qui est composée de données de diriger en-tête et des ressources appropriées utilisées par les clients de messagerie Macintosh.
   
@@ -33,7 +33,7 @@ Contient une valeur de pièce jointe [RFC3282] qui est composée de données de 
 |Jeu de propriétés :  <br/> |PSETID_Attachment  <br/> |
 |Nom de la propriété :  <br/> |AttachmentMacInfo  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

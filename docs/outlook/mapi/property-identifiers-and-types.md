@@ -1,5 +1,5 @@
 ---
-title: Types et les identificateurs de propriété
+title: Types et identificateurs de propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7f31162e669af6efaf9e935c7c400d105c1321c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 423992e0485e8e3092cfc4126164576906d51149
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786937"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22567062"
 ---
-# <a name="property-identifiers-and-types"></a>Types et les identificateurs de propriété
+# <a name="property-identifiers-and-types"></a>Types et identificateurs de propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Toutes les propriétés MAPI sont représentées par des balises de propriété. Une balise de propriété est une valeur de nombre entier non signé 32 bits qui contient l’identificateur de la propriété dans le haut niveau de commande 16 bits et le type de propriété dans le bas de commande 16 bits. Balises de propriété pour toutes les propriétés définies par MAPI sont inclus dans le fichier d’en-tête mapitags.h.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e7f652e7426792d8b4c878b7f6738439aec65348
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784927"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564954"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée et ouvre une session de messagerie qui regroupe les messages créés qu’il contient. 
   
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Pointeur vers un objet d’allocation mémoire exposant l’interface OLE [IMalloc](http://msdn.microsoft.com/library/047f281e-2665-4d6d-9a0b-918cd3339447%28Office.15%29.aspx) . MAPI doit utiliser cette méthode de répartition lorsque vous travaillez avec l’interface OLE [IStorage](http://msdn.microsoft.com/library/stg.istorage%28Office.15%29.aspx) . 
+> [in] Pointeur vers un objet d’allocation mémoire exposant l’interface OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI doit utiliser cette méthode de répartition lorsque vous travaillez avec l’interface OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) . 
     
  _ulFlags_
   

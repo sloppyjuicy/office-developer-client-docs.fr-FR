@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 03569d05f724df773b1ca3aaf8b7a8f5132b8681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b8af182d905a1b7449d96a525696fb6af912d3ef
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786579"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563792"
 ---
 # <a name="pidtagreplytemplateid-canonical-property"></a>Propriété canonique PidTagReplyTemplateId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur global unique (GUID) pour le modèle de réponse.
   
@@ -32,7 +32,7 @@ Contient l’identificateur global unique (GUID) pour le modèle de réponse.
 |Propriétés associées :  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Identificateur :  <br/> |0x65C2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Règles  <br/> |
+|Domaine :  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

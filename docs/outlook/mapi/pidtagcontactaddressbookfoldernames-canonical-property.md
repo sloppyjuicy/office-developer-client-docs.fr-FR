@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f8105bae0f3d97c946eec25543406b61e7d55160
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22568370"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderNames
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les noms des dossiers de Contacts où les utilisateurs de messagerie sont conservés.
   
@@ -32,7 +32,7 @@ Contient les noms des dossiers de Contacts où les utilisateurs de messagerie so
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
 |Identificateur :  <br/> |0x6623  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Zone :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

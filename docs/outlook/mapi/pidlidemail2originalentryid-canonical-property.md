@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10d45a99-54aa-4721-8847-1c7033a8a5b5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b6ee348ba63be4220114992379f4e71801884c9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 08495ef0a38fda52c0cd011277995cf21ea756f7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785138"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564471"
 ---
 # <a name="pidlidemail2originalentryid-canonical-property"></a>Propriété canonique PidLidEmail2OriginalEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie **propriété EntryId** de l’objet qui correspond à la deuxième adresse de messagerie. 
   
@@ -33,7 +33,7 @@ Spécifie **propriété EntryId** de l’objet qui correspond à la deuxième ad
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x00008095  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

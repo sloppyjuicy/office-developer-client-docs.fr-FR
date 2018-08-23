@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6c149a215a048b96408025e08df55972fa989f46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 140efe0b2d1b428a94b5bb2919d461779613932a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564681"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Récupère une ligne en fonction de sa position dans le tableau. 
   

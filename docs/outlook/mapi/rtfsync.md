@@ -11,17 +11,17 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f6afa890f61bb2f394e3cf69e0f2c54699a2ad9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565738"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet de s’assurer que le texte du message RTF (RICH Text Format) correspond à la version en texte brut. Il est nécessaire d’appeler cette fonction avant de lire la version RTF et après avoir modifié la version RTF. 
   

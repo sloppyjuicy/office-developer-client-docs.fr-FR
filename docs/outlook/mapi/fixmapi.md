@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3c064301a18a8adbfb6109170ed16cb6981d96c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 863e401f66a8012b3bd9954ed56c02382f1bd4e2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565934"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une copie de sauvegarde de la copie en cours de mapi32.dll sur le client ordinateur et restaure mapi32.dll avec la bibliothèque stub MAPI, mapistub.dll.
   

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 898f8b6ff3d0b0dd42a670596b54171f18b4a5e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 33002f31c185262bf21b4e74095e0774f55e3bf5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783433"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564590"
 ---
 # <a name="handling-message-store-notification"></a>Gestion de notification de banque de messages
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour vous inscrire pour les notifications de banque de messages, appelez le [IMAPISession::Advise](imapisession-advise.md) ou le [IMsgStore::Advise](imsgstore-advise.md) et spécifiez une banque de messages, un dossier ou un identificateur d’entrée du message dans le contenu du paramètre _lpEntryID_ . Fournisseurs de banque de messages prennent en charge les notifications d’objet et de tableau. Si vous enregistrez avec les objets de banque de message particulier, les tables de hiérarchie et le contenu de dossier qui décrivent ces objets ou les deux objets et tables varie selon les notifications, vous devriez voir, les appels pour effectuer des opérations, et comment le fournisseur de banque de message prend en charge la notification. 
   

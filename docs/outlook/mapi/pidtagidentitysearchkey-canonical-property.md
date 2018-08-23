@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 28c269db15d0c0a81950a61ee9e6629ad067b789
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 12226039457782162eb74a19713fa77936332f80
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786072"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565143"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>Propriété canonique PidTagIdentitySearchKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la clé de recherche pour l’identité d’un fournisseur de services au sein d’un système de messagerie. 
   
@@ -32,7 +32,7 @@ Contient la clé de recherche pour l’identité d’un fournisseur de services 
 |Propriétés associées :  <br/> |PR_IDENTITY_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x3E05  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -63,7 +63,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

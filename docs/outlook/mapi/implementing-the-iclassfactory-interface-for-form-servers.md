@@ -1,5 +1,5 @@
 ---
-title: Implémentation de l’Interface IClassFactory pour les serveurs de formulaire
+title: Implémentation de l’interface IClassFactory pour les serveurs de formulaires
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22402261-c0fc-49bd-a222-e31989d6ff30
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3ecae23d8631c818fb3d1c6786b2d180e9f32a2e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ff8766c6211d9820a2beed1fed871f82089b82fb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784198"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566781"
 ---
-# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implémentation de l’Interface IClassFactory pour les serveurs de formulaire
+# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a>Implémentation de l’interface IClassFactory pour les serveurs de formulaires
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) est l’interface OLE qui utilisent des applications clientes pour créer des objets de formulaire de classe de message du serveur de votre formulaire. Le tableau suivant répertorie les méthodes **IClassFactory** qui sont requis. 
   
@@ -34,5 +34,5 @@ Pour toutes les informations nécessaires pour implémenter ces méthodes, voir 
 
 
 
-[Écriture de Code de formulaire Server](writing-form-server-code.md)
+[Écriture de code du serveur de formulaire](writing-form-server-code.md)
 

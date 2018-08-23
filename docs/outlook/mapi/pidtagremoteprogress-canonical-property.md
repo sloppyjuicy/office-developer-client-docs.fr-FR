@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4e6495d5521e0f277ac4d501a987de0142d0960d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e1f57fd95ff38ef102cd74b0035dbb6b553259c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786562"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22569350"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propriété canonique PidTagRemoteProgress
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette propriété contient un nombre qui indique l’état d’un transfert à distance.
   
@@ -32,7 +32,7 @@ Cette propriété contient un nombre qui indique l’état d’un transfert à d
 |Propriétés associées :  <br/> |PR_REMOTE_PROGRESS  <br/> |
 |Identificateur :  <br/> |0x3E0B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f0cf6fa03d8f38b7d160a8747111445cfdac1ae9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c9197201388530bd7755eb1987ecc863220e3847
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787050"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566606"
 ---
 # <a name="sbitmaskrestriction"></a>SBitMaskRestriction
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction de masque de bits, qui est utilisée pour effectuer une opération de bits **AND** et tester le résultat. 
   
@@ -41,7 +41,7 @@ typedef struct _SBitMaskRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **relBMR**
   

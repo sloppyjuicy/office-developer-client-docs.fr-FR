@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8dc37f1b594eeaa199b48f5946d10e60427d4988
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 314d2d6987a8bc669239652b83a31b5927723c68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784680"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22562924"
 ---
 # <a name="mapi-property-tags"></a>Balises de propriété MAPI
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une balise de propriété est un nombre à 32 bits qui contient un identificateur de la propriété unique en bits 31 à 16 et un type de propriété dans les bits 0 à 15, comme indiqué dans l’illustration suivante. 
   
@@ -33,5 +33,5 @@ Macros quelques sont disponibles pour aider à travailler avec des balises de pr
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md)
+- [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md)
 

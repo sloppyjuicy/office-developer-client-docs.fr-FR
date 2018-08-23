@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 00d5b2bfc6b0c024f0ef12ce19fed90ef0af6721
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783625"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564653"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit le conteneur spécifié par le conteneur de carnet d’adresses par défaut.
   

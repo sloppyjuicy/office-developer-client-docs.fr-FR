@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 815b4f60adb65791cdd4c7d7d00a0cfc7d9e3fdf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: da38c8f04c0ffe6b4b26551cb23e84275900fcb4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785012"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563057"
 ---
 # <a name="pidlidappointmentrecur-canonical-property"></a>Propriété canonique PidLidAppointmentRecur
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie les dates et heures quand une série périodique se produit à l’aide d’une des plages qui sont spécifiés dans [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)les périodicités.
   
@@ -33,7 +33,7 @@ Spécifie les dates et heures quand une série périodique se produit à l’aid
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x00008216  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Calendrier  <br/> |
+|Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -77,7 +77,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

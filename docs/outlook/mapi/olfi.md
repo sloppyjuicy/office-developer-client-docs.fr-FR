@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ff23472254df2bd9d2195c7cf2c4258b856ec430
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564261"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 File d’attente des structures de ID à long terme utilisé par le fournisseur de banque de dossiers personnels (PST) de fichier pour attribuer un ID d’entrée pour un nouveau message ou un dossier en mode hors connexion.
   
@@ -37,7 +37,7 @@ typedef struct {
 } OLFI, *POLFI;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _ulVersion_
   
@@ -87,7 +87,7 @@ Un fournisseur qui encapsule le fournisseur de banque PST doit vérifier réguli
 
 [À propos de l’API de réplication](about-the-replication-api.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [LTID](ltid.md)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0465a67-3c4c-422b-9aa0-7c4c556cbd50
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 99c62910cf5cedf8117aa796131d1162d91d04d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e417b4b98ce8050a74caead3ba5ad609860c1f24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782969"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563820"
 ---
 # <a name="attreciptable"></a>attRecipTable
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’une table de destinataires est encodée, chaque destinataire est codé en tant qu’une ligne de propriétés MAPI. Le format est comme suit : 
   

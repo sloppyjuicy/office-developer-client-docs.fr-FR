@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c91ab5c7-82ac-4895-bf54-2863ca5e2410
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0333f0c309d89436c50a58124500f1b359584954
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ad98be2a457a1f7152f428f4aae834848a3b0536
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22564555"
 ---
 # <a name="pidlidsharingflavor-canonical-property"></a>Propriété canonique PidLidSharingFlavor
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Désigne comme une propriété d’un message de partage.
   
@@ -33,7 +33,7 @@ Désigne comme une propriété d’un message de partage.
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
 |ID de type long (capot) :  <br/> |0x00008A18  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Partage  <br/> |
+|Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

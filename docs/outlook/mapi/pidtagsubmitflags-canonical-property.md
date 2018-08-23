@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 444d98c4e8e32e0cc7d2eb8af753a394af1f020c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: fb048d622aaf3cfa97f380e21324749d7421603e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786861"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563687"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriété canonique PidTagSubmitFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un masque de bits d’indicateurs indiquant le plus d’informations sur un envoi de message.
   
@@ -32,7 +32,7 @@ Contient un masque de bits d’indicateurs indiquant le plus d’informations su
 |Propriétés associées :  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identificateur :  <br/> |0x0E14  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -79,7 +79,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

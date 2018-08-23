@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: f3138a5994ffc6e32ffebd1a4d5b221db0dd2312
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ce69d563a0d797298a6d708bcf70f1b2e1ad950f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785420"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565941"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>Propriété canonique PidLidSharingProviderGuid
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’identificateur global unique fournisseur partage (GUID). Il s’agit d’une propriété d’un message de partage.
   
@@ -33,7 +33,7 @@ Spécifie l’identificateur global unique fournisseur partage (GUID). Il s’ag
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
 |ID de type long (capot) :  <br/> |0x00008A01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Partage  <br/> |
+|Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

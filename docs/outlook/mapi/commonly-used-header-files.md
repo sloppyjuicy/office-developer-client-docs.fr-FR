@@ -1,5 +1,5 @@
 ---
-title: Couramment des fichiers d’en-tête
+title: Fichiers d’en-tête communément utilisés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a87f7595eb03062e54ea3aa8f7dca1f1b0f1e568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 377dc67b737f8b40c89d7f45d6fff544ce63193e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783047"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563883"
 ---
-# <a name="commonly-used-header-files"></a>Couramment des fichiers d’en-tête
+# <a name="commonly-used-header-files"></a>Fichiers d’en-tête communément utilisés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaque rubrique de référence comprend un tableau qui nomme le fichier d’en-tête MAPI dans lequel l’élément d’API est défini. Le tableau suivant décrit les fichiers d’en-tête MAPI que les développeurs utilisent souvent.
   
@@ -49,5 +49,5 @@ Pour plus d’informations sur l’obtention des fichiers d’en-tête MAPI, con
 
 
 
-[Mise en route avec la r�f�rence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
 

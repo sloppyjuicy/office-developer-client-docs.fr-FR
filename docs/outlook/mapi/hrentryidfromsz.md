@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2b7ef789c80f85f3539ec3bbd0caf4a8adc50f3e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a524a7eb40c33d6de2f64cd5373c9a39a8a1e3df
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783543"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565297"
 ---
 # <a name="hrentryidfromsz"></a>HrEntryIDFromSz
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Recrée un identificateur d’entrée à partir de l’encodage ASCII. 
   

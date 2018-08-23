@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
 description: 'Dernière modification : 12 mars 2013'
-ms.openlocfilehash: b8b30dcc2fcf0c8e75004e36b6fd9f4f4583e304
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b5af5cee7c58eb300e4020c763431fd96bdd295
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787360"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563760"
 ---
 # <a name="tnef-correlation"></a>Corrélation TNEF
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Certains systèmes de messagerie effectuent une vérification de corrélation sur n’importe quel flux de Transport-Neutral Encapsulation Format (TNEF) joint à un message entrant pour vérifier que le flux TNEF appartient à ce message. Cela implique correspondant à la valeur d’un champ dans l’en-tête du message entrant avec une copie de cette valeur stockée dans une propriété dans le flux TNEF. Les valeurs qui sont probablement uniques pour chaque message, tels que les numéros d’identification de message, sont généralement utilisés pour ce. Le transport ou la passerelle qui a créé le flux TNEF est chargé de choisir une valeur appropriée à partir de l’en-tête du message et placer une copie dans une propriété appropriée avant le codage des propriétés du message sortant dans le flux TNEF. Passerelles ou des transports qui reçoivent le message peuvent ensuite extraire cette propriété à partir du flux TNEF et vérifiez que sa valeur correspond à la valeur du champ d’en-tête du message entrant correspondant.
   
