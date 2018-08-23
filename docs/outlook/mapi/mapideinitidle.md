@@ -11,57 +11,57 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7b04486-bc48-4ba4-9f35-f021e06124bf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 4eaeb3338c95196ff346c5098e5d06371b00bc5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 33f4634623662b7bc09e0830e8bd0b51adc7799d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784737"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583497"
 ---
-# <a name="mapideinitidle"></a><span data-ttu-id="78a69-103">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="78a69-103">MAPIDeInitIdle</span></span>
+# <a name="mapideinitidle"></a><span data-ttu-id="40c9b-103">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="40c9b-103">MAPIDeInitIdle</span></span>
 
   
   
-<span data-ttu-id="78a69-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="78a69-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="40c9b-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="40c9b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="78a69-105">Arrête le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="78a69-105">Shuts down the MAPI idle engine for the calling application.</span></span> 
+<span data-ttu-id="40c9b-105">Arrête le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="40c9b-105">Shuts down the MAPI idle engine for the calling application.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="78a69-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="78a69-106">Header file:</span></span>  <br/> |<span data-ttu-id="78a69-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="78a69-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="78a69-108">Implémentée par :</span><span class="sxs-lookup"><span data-stu-id="78a69-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="78a69-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="78a69-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="78a69-110">Appelée par :</span><span class="sxs-lookup"><span data-stu-id="78a69-110">Called by:</span></span>  <br/> |<span data-ttu-id="78a69-111">Les applications clientes et des fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="78a69-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="40c9b-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="40c9b-106">Header file:</span></span>  <br/> |<span data-ttu-id="40c9b-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="40c9b-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="40c9b-108">Implémentée par :</span><span class="sxs-lookup"><span data-stu-id="40c9b-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="40c9b-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="40c9b-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="40c9b-110">Appelée par :</span><span class="sxs-lookup"><span data-stu-id="40c9b-110">Called by:</span></span>  <br/> |<span data-ttu-id="40c9b-111">Les applications clientes et des fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="40c9b-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 void MAPIDeInitIdle( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="78a69-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="78a69-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="40c9b-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="40c9b-112">Parameters</span></span>
 
-<span data-ttu-id="78a69-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="78a69-113">None.</span></span> 
+<span data-ttu-id="40c9b-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="40c9b-113">None.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="78a69-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="78a69-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="40c9b-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="40c9b-114">Return value</span></span>
 
-<span data-ttu-id="78a69-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="78a69-115">None.</span></span>
+<span data-ttu-id="40c9b-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="40c9b-115">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="78a69-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="78a69-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40c9b-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="40c9b-116">Remarks</span></span>
 
-<span data-ttu-id="78a69-117">Une application cliente ou un fournisseur de services doit appeler **MAPIDeInitIdle** lorsqu’il n’a plus besoin du moteur inactif, par exemple, lorsqu’il est sur le point d’arrêter le traitement.</span><span class="sxs-lookup"><span data-stu-id="78a69-117">A client application or service provider should call **MAPIDeInitIdle** when it no longer needs the idle engine, for example, when it is about to stop processing.</span></span> 
+<span data-ttu-id="40c9b-117">Une application cliente ou un fournisseur de services doit appeler **MAPIDeInitIdle** lorsqu’il n’a plus besoin du moteur inactif, par exemple, lorsqu’il est sur le point d’arrêter le traitement.</span><span class="sxs-lookup"><span data-stu-id="40c9b-117">A client application or service provider should call **MAPIDeInitIdle** when it no longer needs the idle engine, for example, when it is about to stop processing.</span></span> 
   
-<span data-ttu-id="78a69-118">Chaque appel à [MAPIInitIdle](mapiinitidle.md) doit correspondre à un autre appel à **MAPIDeInitIdle**, ou le moteur d’inactivité est de gauche en cours d’exécution pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="78a69-118">Every call to [MAPIInitIdle](mapiinitidle.md) must be matched by a subsequent call to **MAPIDeInitIdle**, or the idle engine is left running for the calling application.</span></span> 
+<span data-ttu-id="40c9b-118">Chaque appel à [MAPIInitIdle](mapiinitidle.md) doit correspondre à un autre appel à **MAPIDeInitIdle**, ou le moteur d’inactivité est de gauche en cours d’exécution pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="40c9b-118">Every call to [MAPIInitIdle](mapiinitidle.md) must be matched by a subsequent call to **MAPIDeInitIdle**, or the idle engine is left running for the calling application.</span></span> 
   
-<span data-ttu-id="78a69-119">Les fonctions suivantes traitent avec le moteur d’inactivité MAPI et routines inactifs basées sur le prototype de fonction [FNIDLE](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="78a69-119">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
+<span data-ttu-id="40c9b-119">Les fonctions suivantes traitent avec le moteur d’inactivité MAPI et routines inactifs basées sur le prototype de fonction [FNIDLE](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="40c9b-119">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
   
-|<span data-ttu-id="78a69-120">**Fonction de routine inactive**</span><span class="sxs-lookup"><span data-stu-id="78a69-120">**Idle routine function**</span></span>|<span data-ttu-id="78a69-121">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="78a69-121">**Usage**</span></span>|
+|<span data-ttu-id="40c9b-120">**Fonction de routine inactive**</span><span class="sxs-lookup"><span data-stu-id="40c9b-120">**Idle routine function**</span></span>|<span data-ttu-id="40c9b-121">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="40c9b-121">**Usage**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="78a69-122">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="78a69-122">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="78a69-123">Modifie les caractéristiques d’une routine d’inactivité inscrit.</span><span class="sxs-lookup"><span data-stu-id="78a69-123">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
-|[<span data-ttu-id="78a69-124">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="78a69-124">DeregisterIdleRoutine</span></span>](deregisteridleroutine.md) <br/> |<span data-ttu-id="78a69-125">Supprime une routine d’inactivité inscrit dans le système MAPI.</span><span class="sxs-lookup"><span data-stu-id="78a69-125">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="78a69-126">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="78a69-126">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="78a69-127">Active ou désactive réactive une routine d’inactivité inscrit sans la supprimer à partir du système MAPI.</span><span class="sxs-lookup"><span data-stu-id="78a69-127">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="78a69-128">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="78a69-128">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="78a69-129">Ajoute une routine inactive au système MAPI, avec ou sans l’activer.</span><span class="sxs-lookup"><span data-stu-id="78a69-129">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
-|<span data-ttu-id="78a69-130">**MAPIDeInitIdle**</span><span class="sxs-lookup"><span data-stu-id="78a69-130">**MAPIDeInitIdle**</span></span> <br/> |<span data-ttu-id="78a69-131">Arrête le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="78a69-131">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
-|[<span data-ttu-id="78a69-132">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="78a69-132">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="78a69-133">Initialise le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="78a69-133">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="40c9b-122">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="40c9b-122">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="40c9b-123">Modifie les caractéristiques d’une routine d’inactivité inscrit.</span><span class="sxs-lookup"><span data-stu-id="40c9b-123">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
+|[<span data-ttu-id="40c9b-124">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="40c9b-124">DeregisterIdleRoutine</span></span>](deregisteridleroutine.md) <br/> |<span data-ttu-id="40c9b-125">Supprime une routine d’inactivité inscrit dans le système MAPI.</span><span class="sxs-lookup"><span data-stu-id="40c9b-125">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="40c9b-126">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="40c9b-126">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="40c9b-127">Active ou désactive réactive une routine d’inactivité inscrit sans la supprimer à partir du système MAPI.</span><span class="sxs-lookup"><span data-stu-id="40c9b-127">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="40c9b-128">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="40c9b-128">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="40c9b-129">Ajoute une routine inactive au système MAPI, avec ou sans l’activer.</span><span class="sxs-lookup"><span data-stu-id="40c9b-129">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
+|<span data-ttu-id="40c9b-130">**MAPIDeInitIdle**</span><span class="sxs-lookup"><span data-stu-id="40c9b-130">**MAPIDeInitIdle**</span></span> <br/> |<span data-ttu-id="40c9b-131">Arrête le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="40c9b-131">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="40c9b-132">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="40c9b-132">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="40c9b-133">Initialise le moteur d’inactivité MAPI pour l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="40c9b-133">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
    
-<span data-ttu-id="78a69-134">Lorsque toutes les tâches de premier plan pour la plateforme sont inactives, le moteur d’inactivité MAPI appelle la routine d’inactivité priorité la plus élevée qui est prête à exécuter.</span><span class="sxs-lookup"><span data-stu-id="78a69-134">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="78a69-135">Il n’existe aucune garantie de l’appel de commande entre inactifs routines de même priorité.</span><span class="sxs-lookup"><span data-stu-id="78a69-135">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
+<span data-ttu-id="40c9b-134">Lorsque toutes les tâches de premier plan pour la plateforme sont inactives, le moteur d’inactivité MAPI appelle la routine d’inactivité priorité la plus élevée qui est prête à exécuter.</span><span class="sxs-lookup"><span data-stu-id="40c9b-134">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="40c9b-135">Il n’existe aucune garantie de l’appel de commande entre inactifs routines de même priorité.</span><span class="sxs-lookup"><span data-stu-id="40c9b-135">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
   
 
