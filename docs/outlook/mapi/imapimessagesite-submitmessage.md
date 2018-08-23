@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 694ee8b12b9918502e60c0c6ea92992cc1062945
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 587b8bbb7ac25a7977d8962535f1909464ffc248
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783852"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571100"
 ---
-# <a name="imapimessagesitesubmitmessage"></a><span data-ttu-id="03d3b-103">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="03d3b-103">IMAPIMessageSite::SubmitMessage</span></span>
+# <a name="imapimessagesitesubmitmessage"></a><span data-ttu-id="0b8dd-103">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="0b8dd-103">IMAPIMessageSite::SubmitMessage</span></span>
 
   
   
-<span data-ttu-id="03d3b-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="03d3b-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="0b8dd-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0b8dd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="03d3b-105">Demande que le message en cours est en attente de remise.</span><span class="sxs-lookup"><span data-stu-id="03d3b-105">Requests that the current message be queued for delivery.</span></span>
+<span data-ttu-id="0b8dd-105">Demande que le message en cours est en attente de remise.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-105">Requests that the current message be queued for delivery.</span></span>
   
 ```cpp
 HRESULT SubmitMessage(
@@ -33,46 +33,46 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="03d3b-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="03d3b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0b8dd-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="0b8dd-106">Parameters</span></span>
 
- <span data-ttu-id="03d3b-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="03d3b-107">_ulFlags_</span></span>
+ <span data-ttu-id="0b8dd-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0b8dd-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="03d3b-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont un message est envoyé.</span><span class="sxs-lookup"><span data-stu-id="03d3b-108">[in] A bitmask of flags that controls how a message is submitted.</span></span> <span data-ttu-id="03d3b-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="03d3b-109">The following flag can be set:</span></span>
+> <span data-ttu-id="0b8dd-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont un message est envoyé.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-108">[in] A bitmask of flags that controls how a message is submitted.</span></span> <span data-ttu-id="0b8dd-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="0b8dd-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="03d3b-110">FORCE_SUBMIT</span><span class="sxs-lookup"><span data-stu-id="03d3b-110">FORCE_SUBMIT</span></span> 
+<span data-ttu-id="0b8dd-110">FORCE_SUBMIT</span><span class="sxs-lookup"><span data-stu-id="0b8dd-110">FORCE_SUBMIT</span></span> 
   
-> <span data-ttu-id="03d3b-111">MAPI doit envoyer le message même si elle ne peut pas être envoyé immédiatement.</span><span class="sxs-lookup"><span data-stu-id="03d3b-111">MAPI should submit the message even if it might not be sent immediately.</span></span>
+> <span data-ttu-id="0b8dd-111">MAPI doit envoyer le message même si elle ne peut pas être envoyé immédiatement.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-111">MAPI should submit the message even if it might not be sent immediately.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="03d3b-112">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="03d3b-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0b8dd-112">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="0b8dd-112">Return value</span></span>
 
-<span data-ttu-id="03d3b-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="03d3b-113">S_OK</span></span> 
+<span data-ttu-id="0b8dd-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="0b8dd-113">S_OK</span></span> 
   
-> <span data-ttu-id="03d3b-114">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="03d3b-114">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="0b8dd-114">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-114">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="03d3b-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="03d3b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0b8dd-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="0b8dd-115">Remarks</span></span>
 
-<span data-ttu-id="03d3b-116">Objets de formulaire appeler la méthode **IMAPIMessageSite::SubmitMessage** pour demander qu’un message est en attente de remise.</span><span class="sxs-lookup"><span data-stu-id="03d3b-116">Form objects call the **IMAPIMessageSite::SubmitMessage** method to request that a message be queued for delivery.</span></span> <span data-ttu-id="03d3b-117">Le site de message doit appeler la méthode [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d’envoyer le message.</span><span class="sxs-lookup"><span data-stu-id="03d3b-117">The message site should call the [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) method before submitting the message.</span></span> <span data-ttu-id="03d3b-118">Le message n’a pas besoin avoir été précédemment enregistré, car **SubmitMessage** doit provoquer le message d’être enregistré si le message a été modifié.</span><span class="sxs-lookup"><span data-stu-id="03d3b-118">The message does not need to have been previously saved, because **SubmitMessage** should cause the message to be saved if the message has been modified.</span></span> <span data-ttu-id="03d3b-119">Après le retour de **SubmitMessage**, le formulaire doit rechercher un message en cours et puis faire disparaître si aucune n’existe.</span><span class="sxs-lookup"><span data-stu-id="03d3b-119">After the return of **SubmitMessage**, the form must check for a current message and then dismiss itself if none exists.</span></span> 
+<span data-ttu-id="0b8dd-116">Objets de formulaire appeler la méthode **IMAPIMessageSite::SubmitMessage** pour demander qu’un message est en attente de remise.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-116">Form objects call the **IMAPIMessageSite::SubmitMessage** method to request that a message be queued for delivery.</span></span> <span data-ttu-id="0b8dd-117">Le site de message doit appeler la méthode [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d’envoyer le message.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-117">The message site should call the [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) method before submitting the message.</span></span> <span data-ttu-id="0b8dd-118">Le message n’a pas besoin avoir été précédemment enregistré, car **SubmitMessage** doit provoquer le message d’être enregistré si le message a été modifié.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-118">The message does not need to have been previously saved, because **SubmitMessage** should cause the message to be saved if the message has been modified.</span></span> <span data-ttu-id="0b8dd-119">Après le retour de **SubmitMessage**, le formulaire doit rechercher un message en cours et puis faire disparaître si aucune n’existe.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-119">After the return of **SubmitMessage**, the form must check for a current message and then dismiss itself if none exists.</span></span> 
   
-<span data-ttu-id="03d3b-120">Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="03d3b-120">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
+<span data-ttu-id="0b8dd-120">Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="0b8dd-120">For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="03d3b-121">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="03d3b-121">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="0b8dd-121">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="0b8dd-121">MFCMAPI reference</span></span>
 
-<span data-ttu-id="03d3b-122">Pour des exemples de code MFCMAPI, voir le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="03d3b-122">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="0b8dd-122">Pour des exemples de code MFCMAPI, voir le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-122">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="03d3b-123">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="03d3b-123">**File**</span></span>|<span data-ttu-id="03d3b-124">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="03d3b-124">**Function**</span></span>|<span data-ttu-id="03d3b-125">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="03d3b-125">**Comment**</span></span>|
+|<span data-ttu-id="0b8dd-123">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="0b8dd-123">**File**</span></span>|<span data-ttu-id="0b8dd-124">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="0b8dd-124">**Function**</span></span>|<span data-ttu-id="0b8dd-125">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="0b8dd-125">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="03d3b-126">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="03d3b-126">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="03d3b-127">CMyMAPIFormViewer::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="03d3b-127">CMyMAPIFormViewer::SubmitMessage</span></span>  <br/> |<span data-ttu-id="03d3b-128">MFCMAPI utilise la méthode **IMAPIMessageSite::SubmitMessage** pour enregistrer le message.</span><span class="sxs-lookup"><span data-stu-id="03d3b-128">MFCMAPI uses the **IMAPIMessageSite::SubmitMessage** method to save the message.</span></span> <span data-ttu-id="03d3b-129">Tout d’abord, il appelle la méthode **IPersistMessage::HandsOffMessage** , et il appelle ensuite **SubmitMessage**.</span><span class="sxs-lookup"><span data-stu-id="03d3b-129">First, it calls the **IPersistMessage::HandsOffMessage** method, and then it calls **SubmitMessage**.</span></span>  <br/> |
+|<span data-ttu-id="0b8dd-126">MyMAPIFormViewer.cpp</span><span class="sxs-lookup"><span data-stu-id="0b8dd-126">MyMAPIFormViewer.cpp</span></span>  <br/> |<span data-ttu-id="0b8dd-127">CMyMAPIFormViewer::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="0b8dd-127">CMyMAPIFormViewer::SubmitMessage</span></span>  <br/> |<span data-ttu-id="0b8dd-128">MFCMAPI utilise la méthode **IMAPIMessageSite::SubmitMessage** pour enregistrer le message.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-128">MFCMAPI uses the **IMAPIMessageSite::SubmitMessage** method to save the message.</span></span> <span data-ttu-id="0b8dd-129">Tout d’abord, il appelle la méthode **IPersistMessage::HandsOffMessage** , et il appelle ensuite **SubmitMessage**.</span><span class="sxs-lookup"><span data-stu-id="0b8dd-129">First, it calls the **IPersistMessage::HandsOffMessage** method, and then it calls **SubmitMessage**.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="03d3b-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="03d3b-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0b8dd-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0b8dd-130">See also</span></span>
 
 
 
-[<span data-ttu-id="03d3b-131">IPersistMessage::HandsOffMessage</span><span class="sxs-lookup"><span data-stu-id="03d3b-131">IPersistMessage::HandsOffMessage</span></span>](ipersistmessage-handsoffmessage.md)
+[<span data-ttu-id="0b8dd-131">IPersistMessage::HandsOffMessage</span><span class="sxs-lookup"><span data-stu-id="0b8dd-131">IPersistMessage::HandsOffMessage</span></span>](ipersistmessage-handsoffmessage.md)
   
-[<span data-ttu-id="03d3b-132">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="03d3b-132">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="0b8dd-132">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0b8dd-132">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
 
 
-[<span data-ttu-id="03d3b-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="03d3b-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="0b8dd-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="0b8dd-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
   
-[<span data-ttu-id="03d3b-134">Interfaces de formulaire MAPI</span><span class="sxs-lookup"><span data-stu-id="03d3b-134">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
+[<span data-ttu-id="0b8dd-134">Interfaces de formulaires MAPI</span><span class="sxs-lookup"><span data-stu-id="0b8dd-134">MAPI Form Interfaces</span></span>](mapi-form-interfaces.md)
 
