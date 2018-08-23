@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c207b1db6a24cc60967735e2f4b1a4aa97007750
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a44974accea30b5d1406c9cc74570012f61639e5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787189"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580648"
 ---
-# <a name="slongarray"></a><span data-ttu-id="3b32d-103">SLongArray</span><span class="sxs-lookup"><span data-stu-id="3b32d-103">SLongArray</span></span>
+# <a name="slongarray"></a><span data-ttu-id="2f617-103">SLongArray</span><span class="sxs-lookup"><span data-stu-id="2f617-103">SLongArray</span></span>
 
   
   
-<span data-ttu-id="3b32d-104">**S’applique à**: Outlook</span><span class="sxs-lookup"><span data-stu-id="3b32d-104">**Applies to**: Outlook</span></span> 
+<span data-ttu-id="2f617-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2f617-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3b32d-105">Contient un tableau de types de valeur de type LONG qui sont utilisées pour décrire une propriété de type PT_MV_LONG.</span><span class="sxs-lookup"><span data-stu-id="3b32d-105">Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG.</span></span> 
+<span data-ttu-id="2f617-105">Contient un tableau de types de valeur de type LONG qui sont utilisées pour décrire une propriété de type PT_MV_LONG.</span><span class="sxs-lookup"><span data-stu-id="2f617-105">Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3b32d-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="3b32d-106">Header file:</span></span>  <br/> |<span data-ttu-id="3b32d-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3b32d-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="2f617-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="2f617-106">Header file:</span></span>  <br/> |<span data-ttu-id="2f617-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2f617-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -40,26 +40,26 @@ typedef struct _SLongArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="3b32d-108">Membres</span><span class="sxs-lookup"><span data-stu-id="3b32d-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="2f617-108">Members</span><span class="sxs-lookup"><span data-stu-id="2f617-108">Members</span></span>
 
- <span data-ttu-id="3b32d-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="3b32d-109">**cValues**</span></span>
+ <span data-ttu-id="2f617-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="2f617-109">**cValues**</span></span>
   
-> <span data-ttu-id="3b32d-110">Nombre de valeurs dans le tableau indiqué par le membre **lpl** .</span><span class="sxs-lookup"><span data-stu-id="3b32d-110">Count of values in the array pointed to by the **lpl** member.</span></span> 
+> <span data-ttu-id="2f617-110">Nombre de valeurs dans le tableau indiqué par le membre **lpl** .</span><span class="sxs-lookup"><span data-stu-id="2f617-110">Count of values in the array pointed to by the **lpl** member.</span></span> 
     
- <span data-ttu-id="3b32d-111">**LPL**</span><span class="sxs-lookup"><span data-stu-id="3b32d-111">**lpl**</span></span>
+ <span data-ttu-id="2f617-111">**LPL**</span><span class="sxs-lookup"><span data-stu-id="2f617-111">**lpl**</span></span>
   
-> <span data-ttu-id="3b32d-112">Pointeur vers un tableau de valeurs de type LONG.</span><span class="sxs-lookup"><span data-stu-id="3b32d-112">Pointer to an array of LONG values.</span></span>
+> <span data-ttu-id="2f617-112">Pointeur vers un tableau de valeurs de type LONG.</span><span class="sxs-lookup"><span data-stu-id="2f617-112">Pointer to an array of LONG values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3b32d-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="3b32d-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2f617-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="2f617-113">Remarks</span></span>
 
-<span data-ttu-id="3b32d-114">Pour plus d’informations sur PT_MV_LONG, voir la [Liste des Types de propriété](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="3b32d-114">For more information about PT_MV_LONG, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="2f617-114">Pour plus d’informations sur PT_MV_LONG, voir la [Liste des Types de propriété](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="2f617-114">For more information about PT_MV_LONG, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="3b32d-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3b32d-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f617-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2f617-115">See also</span></span>
 
 
 
-[<span data-ttu-id="3b32d-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="3b32d-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="2f617-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="2f617-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="3b32d-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="3b32d-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="2f617-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="2f617-117">MAPI Structures</span></span>](mapi-structures.md)
 
