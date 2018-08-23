@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55e08ace-493c-4246-8ebf-c304f4abc56a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ba30514df028805135e9e31e7214ca336b1b3f85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 48627c6d6eb2100e7dfcab832c86c1ec2e4ec8bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786410"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582804"
 ---
 # <a name="pidtagparententryid-canonical-property"></a>Propriété canonique PidTagParentEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée du dossier qui contient un dossier ou un message.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier qui contient un dossier ou un
 |Propriétés associées :  <br/> |PR_PARENT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x0E09  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Propriétés ID  <br/> |
+|Domaine :  <br/> |Propriétés ID  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -95,7 +95,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

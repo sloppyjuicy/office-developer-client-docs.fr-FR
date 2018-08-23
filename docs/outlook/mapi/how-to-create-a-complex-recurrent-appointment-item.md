@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 524fa44ddd1325b51a7389d712ac045afbefb8d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ad81ac74f517b36029d29f8a6ed1e1dfcb28fade
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783462"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583665"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>Créer un rendez-vous périodique complexes
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI peut être utilisé pour créer des éléments de rendez-vous périodiques.
   

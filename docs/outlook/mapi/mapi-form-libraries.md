@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 120749ca-a740-4a57-bc70-529e238f4415
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 382dd9ba422f2d8a07f4656fba87cdc0b65512f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 2411b105f685b31d8158dfc20f368ba1bdbb5792
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784607"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584645"
 ---
 # <a name="mapi-form-libraries"></a>Bibliothèques de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour vous aider à organiser les serveurs de formulaire et de les rendre facilement accessibles aux applications clientes, l’architecture de formulaire MAPI inclut des bibliothèques de formulaires, qui prend en charge l’installation, d’administration, la réplication et utiliser les serveurs de formulaire.
   

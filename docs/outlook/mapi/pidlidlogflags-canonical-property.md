@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7b2dd30511927f8df8a8bc587a6b1fedd5854810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f85fdc701a29f5865700c6519d589212a06fd0af
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785277"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585779"
 ---
 # <a name="pidlidlogflags-canonical-property"></a>Propriété canonique PidLidLogFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des métadonnées sur la feuille.
   
@@ -33,7 +33,7 @@ Contient des métadonnées sur la feuille.
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
 |ID de type long (capot) :  <br/> |0x0000870C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Journal  <br/> |
+|Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

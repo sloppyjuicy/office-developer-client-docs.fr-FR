@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c429f9d8-19f4-4c67-a93f-a55ebf6a148f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3ebf6a5ee7499f8d77f9577e69dc82311c224283
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 79ba36d08128a3073e1fd4b6af501c19200db38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785615"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583609"
 ---
 # <a name="pidnametitle-canonical-property"></a>Propriété canonique PidNameTitle
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le titre du fichier qui est attaché au document.
   
@@ -31,9 +31,9 @@ Spécifie le titre du fichier qui est attaché au document.
 |:-----|:-----|
 |Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Titre  <br/> |
+|Nom de la propriété :  <br/> |Title  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

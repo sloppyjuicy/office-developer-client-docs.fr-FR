@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 592bd2c88c8eea17d80fe7cb725b075235c51763
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2ed71b5eef0c25a78d7c8ec695a756a02e796dbf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784751"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586031"
 ---
 # <a name="mapiopenformmgr"></a>MAPIOpenFormMgr
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre une interface [IMAPIFormMgr](imapiformmgriunknown.md) sur un objet de fournisseur de bibliothèque formulaire dans le contexte d’une session existante. 
   

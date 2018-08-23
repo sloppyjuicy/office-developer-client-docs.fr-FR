@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6f7137e3d5712e7d7ce12800a07b860679dd099a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 05cd1428966f6c61e2f5e13e574a0bbcb253f7ea
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785075"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582601"
 ---
 # <a name="pidlidappointmentstartwhole-canonical-property"></a>Propriété canonique PidLidAppointmentStartWhole
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente la date et l’heure de début d’un rendez-vous.
   
@@ -33,7 +33,7 @@ Représente la date et l’heure de début d’un rendez-vous.
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x0000820D  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Calendrier  <br/> |
+|Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

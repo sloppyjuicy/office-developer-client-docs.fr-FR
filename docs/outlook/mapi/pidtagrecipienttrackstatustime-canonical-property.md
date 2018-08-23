@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0db4efcf1e05536ee7abb3459caa0159f84ef798
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8b7263fc408bd2c3f6838e571407ed8984c61427
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786539"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582762"
 ---
 # <a name="pidtagrecipienttrackstatustime-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatusTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure lorsque le participant a répondu.
   
@@ -32,7 +32,7 @@ Contient la date et l’heure lorsque le participant a répondu.
 |Propriétés associées :  <br/> |PR_RECIPIENT_TRACKSTATUS_TIME  <br/> |
 |Identificateur :  <br/> |0x5FFB  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Destinataire de transport  <br/> |
+|Domaine :  <br/> |Destinataire de transport  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

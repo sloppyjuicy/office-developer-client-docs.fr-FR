@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e0e1535a770d4f1b437faf6a90c5f6415f6000ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4b02fc316001ae11d64988cc29d0e62e9adde55e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585583"
 ---
 # <a name="ftaddft"></a>FtAddFt
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajoute un entier non signé de 64 bits à un autre.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 02d2b136ed1437ba53ce1e54a202d70a48b2abe9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a397ac9110429911755552298ffe244343d54a8a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783919"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583728"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet de clients, fournisseurs de services et MAPI travailler avec les propriétés. Tous les objets qui prennent en charge les propriétés implémentent cette interface.
   

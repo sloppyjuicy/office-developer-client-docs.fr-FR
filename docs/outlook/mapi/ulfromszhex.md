@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d5ba7e7bc52ba041e9fe6c9a01b35dc91d3b947b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e6de4be29811dafaf5288b2ccb39c0342a314bad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787409"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584624"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Convertit une chaîne de chiffres hexadécimaux en entier long non signé. 
   

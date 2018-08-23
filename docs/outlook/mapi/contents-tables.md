@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0dd79d9630837b5ec8a709d386ccc0db987dfb5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 923fd527eb7d04b31f15e6d8673e2e964fa0d1ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783058"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585639"
 ---
 # <a name="contents-tables"></a>Tables des matières
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une table des matières contient des informations sur les objets dans un conteneur MAPI. Fournisseurs de carnet d’adresses implémentent des tables des matières pour chacun de leurs conteneurs et banque de messages et des fournisseurs de transport à distance implémentent des tables de contenu pour leurs dossiers. La table des matières d’un conteneur de carnet d’adresses répertorie les informations sur ses objets messages utilisateur et de distribution liste, tandis que la table des matières d’un dossier répertorie les informations sur ses messages. Tables de contenu sont utilisées par les applications clientes. 
   

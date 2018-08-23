@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7d8653b8f0cb2196319c4a9c2b4bca89c8be5a24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783745"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584939"
 ---
 # <a name="imapifolderemptyfolder"></a>IMAPIFolder::EmptyFolder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime tous les messages et les sous-dossiers d’un dossier sans supprimer le dossier proprement dit.
   
@@ -114,5 +114,5 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

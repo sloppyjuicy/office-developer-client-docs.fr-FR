@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 03082536902ead880ba88343cd1991e518ed5665
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5ef88992cefda851742bb332c643136603a4d6a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786201"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584589"
 ---
 # <a name="pidtaglocation-canonical-property"></a>Propriété canonique PidTagLocation
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’emplacement du destinataire dans un format qui est utile pour l’organisation du destinataire. 
   
@@ -32,7 +32,7 @@ Contient l’emplacement du destinataire dans un format qui est utile pour l’o
 |Propriétés associées :  <br/> |EMPLACEMENT_PR, PR_LOCATION_A, PR_LOCATION_W  <br/> |
 |Identificateur :  <br/> |0x3A0D  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

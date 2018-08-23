@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6e917991e109ac04a14ea7d93eebcf9cce835845
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d90f502e2cd7f97ac273ebecedbd0363097b1d60
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784040"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584953"
 ---
 # <a name="imapisupportspooleryield"></a>IMAPISupport::SpoolerYield
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Donne le contrôle de l’UC pour le spouleur MAPI afin qu’elle puisse exécuter toutes les tâches qu’elle estime nécessaires.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 250074b28b98269df58fecfcb2d178f73e26c571
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 65bf7debcae1367ccad9e109242fd4a72839a94e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784372"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584925"
 ---
 # <a name="iprofadmingetlasterror"></a>IProfAdmin::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente s’est produite pour un objet d’administration de profil. 
   

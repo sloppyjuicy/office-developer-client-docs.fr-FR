@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cff0e2a5ffdb3b85e73b24ec8a30b7d88637ce48
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 40e2efbf512265dffeee43d09e85879e8c3a0e56
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785705"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582419"
 ---
 # <a name="pidtagattachcontentbase-canonical-property"></a>Propriété canonique PidTagAttachContentBase
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’en-tête de base de contenu d’une pièce jointe du message Multipurpose Internet Mail Extensions (MIME).
   
@@ -32,7 +32,7 @@ Contient l’en-tête de base de contenu d’une pièce jointe du message Multip
 |Propriétés associées :  <br/> |PR_ATTACH_CONTENT_BASE, PR_ATTACH_CONTENT_BASE_A, PR_ATTACH_CONTENT_BASE_W  <br/> |
 |Identificateur :  <br/> |0x3711  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f8ade454-2450-49e6-a76f-93801055a7e5
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 505b27b469a4ab197b41058ea5b933608818f0d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 85a67216822360bcaf9544389f79980891951757
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784690"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584855"
 ---
 # <a name="mapi-service-provider-objects"></a>Objets du fournisseur de services MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Nombre d’objets implémentés par les fournisseurs de service. Certains sont utilisées principalement par MAPI et certains sont utilisés par les applications clientes. Certains objets sont implémentées par tous les types de fournisseurs de services ; les autres sont spécifiques à un type de fournisseur unique. Le tableau suivant décrit tous les objets de fournisseur de service.
   
@@ -30,13 +30,13 @@ Nombre d’objets implémentés par les fournisseurs de service. Certains sont u
 |Contrôle  <br/> |Active ou désactive un bouton et démarre lorsque l’utilisateur clique sur le bouton de traitement.  <br/> |
 |Liste de distribution  <br/> |Décrit un ensemble de destinataires de messages individuels.  <br/> |
 |Folder  <br/> |Contient des messages et autres conteneurs de message.  <br/> |
-|Ouverture de session  <br/> |Les poignées de demandes fournisseur événement notification et le client.  <br/> |
+|Logon  <br/> |Les poignées de demandes fournisseur événement notification et le client.  <br/> |
 |Utilisateur de messagerie  <br/> |Décrit un destinataire d’un message individuel.  <br/> |
 |Message  <br/> |Contient des informations qui peuvent être envoyées à un ou plusieurs destinataires.  <br/> |
 |Banque de messages  <br/> |Agit comme une base de données organisé hiérarchiquement des messages.  <br/> |
 |Provider  <br/> |Les poignées de l’arrêt et démarrage du fournisseur de service.  <br/> |
 |Crochet spouleur  <br/> |Effectue un traitement spécial sur les messages entrants et sortants.  <br/> |
-|État  <br/> |Fournit l’accès à l’état du fournisseur de services.  <br/> |
+|Status  <br/> |Fournit l’accès à l’état du fournisseur de services.  <br/> |
 |Table  <br/> |Permet d’accéder à un affichage de synthèse des données d’objet dans un format de ligne et de colonne, similaire à une table de base de données.  <br/> |
    
 Tous les fournisseurs de services de mettre en œuvre un objet de fournisseur et un objet d’ouverture de session. Objets du fournisseur sont strictement pour référence ; ils sont utilisés par MAPI pour contrôler le processus de démarrage et arrêt. Objets d’ouverture de session du service indirectement certaines demandes des clients. Par exemple, le message stocker enregistrement de notification du fournisseur poignées de l’objet d’ouverture de session et les demandes pour ouvrir des objets de banque de messages. 
@@ -70,5 +70,5 @@ Fournisseurs de transport qui prennent en charge le Transport Neutral Encapsulat
 [IXPLogon : IUnknown](ixplogoniunknown.md)
 
 
-[Développement d’un fournisseur de Transport prenant en charge TNEF](developing-a-tnef-enabled-transport-provider.md)
+[Développement d’un fournisseur de transport TNEF](developing-a-tnef-enabled-transport-provider.md)
 

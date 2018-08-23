@@ -1,23 +1,23 @@
 ---
-title: Sur l’inscription des magasins pour l’indexation
+title: À propos de l’inscription de magasins pour l’indexation
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b16446644c360185908e7f4e58463257fe17f403
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782864"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584183"
 ---
-# <a name="about-registering-stores-for-indexing"></a>Sur l’inscription des magasins pour l’indexation
+# <a name="about-registering-stores-for-indexing"></a>À propos de l’inscription de magasins pour l’indexation
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique est spécifique à la recherche instantanée dans Microsoft Office Outlook 2007.
   
@@ -68,5 +68,5 @@ La propriété MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.m
 
 
 
-[À propos de l’API du magasin](about-the-store-api.md)
+[À propos de l’API de magasin](about-the-store-api.md)
 

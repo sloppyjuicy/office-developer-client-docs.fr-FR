@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f2fedd98fe84d7359aebaca8d03a20f392dae2b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783603"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583385"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre une entrée du destinataire qui comporte des données qui résident dans un fournisseur de carnet d’adresses hôte.
   

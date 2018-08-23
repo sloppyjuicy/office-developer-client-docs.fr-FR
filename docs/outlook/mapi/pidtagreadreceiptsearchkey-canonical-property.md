@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3210a8ab29127120ff139de51761bd84722ca52d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7016b1a7039d5df8d4e9fdedea580526eebe04bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786485"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585940"
 ---
 # <a name="pidtagreadreceiptsearchkey-canonical-property"></a>Propriété canonique PidTagReadReceiptSearchKey
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une clé de recherche pour l’utilisateur de messagerie à laquelle le système de messagerie doit diriger un rapport de lecture d’un message.
   
@@ -32,7 +32,7 @@ Contient une clé de recherche pour l’utilisateur de messagerie à laquelle le
 |Propriétés associées :  <br/> |PR_READ_RECEIPT_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0053  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

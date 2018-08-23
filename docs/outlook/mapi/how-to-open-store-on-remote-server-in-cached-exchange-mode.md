@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 25f896038e25823f1fe49d3cafbd5835a0a43f68
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783501"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584799"
 ---
 # <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Ouverture d’un magasin sur le serveur distant lorsque Outlook est en Mode Exchange mis en cache
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple de code en langage C++ qui montre comment utiliser l’indicateur **MDB_ONLINE** pour ouvrir une banque de messages sur le serveur distant lorsque Microsoft Outlook 2010 ou Microsoft Outlook 2013 est en Mode Exchange mis en cache. 
   
@@ -92,5 +92,5 @@ HRESULT HrRemoteMessageStore(
 
 - [À propos des ajouts MAPI](about-mapi-additions.md) 
 - [Constantes MAPI](mapi-constants.md)
-- [Accès un magasin sur le Remote Server quand Outlook est en Mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
+- [Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 

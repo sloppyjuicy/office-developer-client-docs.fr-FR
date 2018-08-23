@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1980e3bd815b370f125f4449dd7b7f340a7dcb9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 73ed7213ea2bd5079458ccc237b65590f06e8d53
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786903"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586262"
 ---
 # <a name="pidtagviewsentryid-canonical-property"></a>Propriété canonique PidTagViewsEntryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée du dossier vues définies par l’utilisateur.
   
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier vues définies par l’utilis
 |Propriétés associées :  <br/> |PR_VIEWS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E5  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Banque de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

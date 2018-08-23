@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 49732f30461e05e83c130f9cc24129cc86baa75f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6edbf4e9c1300a7e2e67b1f4226c8e2d05e453c8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785259"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585219"
 ---
 # <a name="pidlidinternetaccountstamp-canonical-property"></a>Propriété canonique PidLidInternetAccountStamp
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’ID de compte de messagerie à travers lequel le message électronique est envoyé.
   
@@ -33,7 +33,7 @@ Spécifie l’ID de compte de messagerie à travers lequel le message électroni
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008581  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

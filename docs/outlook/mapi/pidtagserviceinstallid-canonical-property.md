@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 03bc1a9f6f614d09cde0b4123176dd2a6d8dec1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 273796430cb2ed1badd96ddb9c8fae8b251e5802
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786795"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586255"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Propriété canonique PidTagServiceInstallId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’ID du composant du fournisseur.
   
@@ -32,7 +32,7 @@ L’ID du composant du fournisseur.
 |Propriétés associées :  <br/> |PR_SERVICE_INSTALL_ID, PR_SERVICE_INSTALL_ID_A, PR_SERVICE_INSTALL_ID_W  <br/> |
 |Identificateur :  <br/> |0x3D13  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Profil MAPI  <br/> |
+|Domaine :  <br/> |Profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

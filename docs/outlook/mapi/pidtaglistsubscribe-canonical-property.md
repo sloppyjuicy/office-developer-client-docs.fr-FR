@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5030e48ac87408f983696a365d3234c3362346c0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4408bbc9461d11859292c1d4c356c2323598eb7b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786196"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584225"
 ---
 # <a name="pidtaglistsubscribe-canonical-property"></a>Propriété canonique PidTagListSubscribe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Mail Extensions (MIME) abonner à la liste.
   
@@ -32,7 +32,7 @@ Contient la valeur du champ d’en-tête d’un message Multipurpose Internet Ma
 |Propriétés associées :  <br/> |PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W  <br/> |
 |Identificateur :  <br/> |0x1044  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Divers  <br/> |
+|Domaine :  <br/> |Divers  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

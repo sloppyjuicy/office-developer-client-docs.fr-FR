@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7b10007-42d8-4755-8362-f8ad9a8dad68
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c1ba49ba1b4deacb684da1411d86ebd4dd19e63f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 26ca126603ac1e695bd14a10cd8d9e637382b2e9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783759"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584302"
 ---
 # <a name="imapiformsetviewcontext"></a>IMAPIForm::SetViewContext
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Établissement d’un contexte de vue pour le formulaire. 
   

@@ -1,5 +1,5 @@
 ---
-title: Télécharger les exemples de MAPI Outlook
+title: Téléchargement des exemples MAPI d’Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e3501ef80b6e1b1b99d09e50186fa0bc10d7fb67
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783211"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583259"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>Télécharger les exemples de MAPI Outlook
+# <a name="downloading-the-outlook-mapi-samples"></a>Téléchargement des exemples MAPI d’Outlook
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les exemples de Microsoft Outlook MAPI comprennent un fournisseur de carnet d’adresses, un fournisseur de magasin de message et un fournisseur de transport.
   
@@ -39,7 +39,7 @@ Les exemples de Microsoft Outlook MAPI comprennent un fournisseur de carnet d’
 
 
 
-[Fournisseur de carnet d’adresses exemple](address-book-provider-sample.md)
+[Exemple de fournisseur de carnets d’adresses](address-book-provider-sample.md)
   
 [Exemple de fournisseur de banque de messages](message-store-provider-sample.md)
   

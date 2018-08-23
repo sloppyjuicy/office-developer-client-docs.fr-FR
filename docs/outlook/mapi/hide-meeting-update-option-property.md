@@ -1,5 +1,5 @@
 ---
-title: Masquer la propriété de Option de mise à jour de réunion
+title: Propriété de masquage de l’option de mise à jour de réunion
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 25942df6f6156266f16cf6e681270dbb530472e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 65255e14fd849d730e92bd86027642eef2c687bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783453"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584974"
 ---
-# <a name="hide-meeting-update-option-property"></a>Masquer la propriété de Option de mise à jour de réunion
+# <a name="hide-meeting-update-option-property"></a>Propriété de masquage de l’option de mise à jour de réunion
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Masque l’option Envoyer des mises à jour de réunion pour seulement les participants ajoutés ou supprimés.
   

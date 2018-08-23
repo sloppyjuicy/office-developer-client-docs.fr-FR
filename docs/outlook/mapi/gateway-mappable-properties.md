@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b637f4921165d70ddeda914b4299c35aabe8218f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 07c215511f010741e69c08c184df0ca3ce461e13
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783390"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583616"
 ---
 # <a name="gateway-mappable-properties"></a>Propriétés de passerelle mappables
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Passerelle-mappables les propriétés qui peuvent nécessiter traduction lorsque envoyés à partir d’un domaine de messagerie à l’autre. Propriétés de passerelle-mappables de MAPI autoriser les messages inclure des informations qui requiert une passerelle pour garantir la destination de système de messagerie utilise correctement. Bien que les développeurs de passerelle ne sont pas tenus de fournir cette fonctionnalité de traduction, ils doivent envisager passerelle-mappables propriétés comme une opportunité pour améliorer la gestion du contenu du message.
   

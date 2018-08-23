@@ -1,5 +1,5 @@
 ---
-title: Inscription des identificateurs uniques de fournisseur de Service
+title: Inscription des identificateurs uniques de fournisseur de services
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 80d2e4fd353f0746349563fd911e0af09a658b35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: bde7ff73f58c8809d2dd6467daea28461e7c6ef7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786983"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586269"
 ---
-# <a name="registering-service-provider-unique-identifiers"></a>Inscription des identificateurs uniques de fournisseur de Service
+# <a name="registering-service-provider-unique-identifiers"></a>Inscription des identificateurs uniques de fournisseur de services
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Carnet d’adresses, banque de messages et les fournisseurs de transport permet d’un identificateur unique, appelé un [MAPIUID](mapiuid.md) pour enregistrer aux objets de différents types de service. Un **MAPIUID** est un identificateur de 16 octets qui contient un GUID. Vous pouvez créer un **MAPIUID** à l’aide de la procédure suivante : 
   
@@ -51,5 +51,5 @@ Lorsqu’il existe plusieurs objets d’ouverture de session qui sont actifs sim
 
 
 
-[L’implémentation du fournisseur de Service d’ouverture de session](implementing-service-provider-logon.md)
+[Implémentation d’une ouverture de session de fournisseur de services](implementing-service-provider-logon.md)
 

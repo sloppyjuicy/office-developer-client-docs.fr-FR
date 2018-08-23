@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: eca43833fb286dbb73b6da0a278196d43aa86426
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1f3a4444829da69f67ea8b3e833c34aa8bdc9163
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783057"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585408"
 ---
 # <a name="cbssortorderset"></a>CbSSortOrderSet
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Calcule le nombre d’octets dans une structure [SSortOrderSet](ssortorderset.md) existante. 
   
@@ -49,5 +49,5 @@ CbSSortOrderSet (_lpset)
 [SSortOrderSet](ssortorderset.md)
 
 
-[Macros relatives aux Structures](macros-related-to-structures.md)
+[Macros liées aux structures](macros-related-to-structures.md)
 

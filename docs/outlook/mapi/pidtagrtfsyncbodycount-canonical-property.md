@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 09274c21df3a93abc19aa8158da976e2d16f3e7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b88c036b3bc9b29962204ea0b90bd460ee1cf90f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786653"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585170"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>Propriété canonique PidTagRtfSyncBodyCount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Affiche le nombre de caractères significatives du texte du message.
   
@@ -32,7 +32,7 @@ Affiche le nombre de caractères significatives du texte du message.
 |Propriétés associées :  <br/> |PR_RTF_SYNC_BODY_COUNT  <br/> |
 |Identificateur :  <br/> |0 x 1007  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Message MAPI  <br/> |
+|Domaine :  <br/> |Message MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e441e84e0bddff2e5a989849dbcf593320340d2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783596"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586206"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lance le processus de fermeture de session.
   

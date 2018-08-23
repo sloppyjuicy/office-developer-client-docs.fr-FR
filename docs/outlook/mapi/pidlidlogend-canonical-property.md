@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ef1c9814aa6d1f81a44883d09ac635a5eed76517
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 739fe4077fa57f0f12dd38f05f90851c5291b45a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785281"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585933"
 ---
 # <a name="pidlidlogend-canonical-property"></a>Propriété canonique PidLidLogEnd
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente la date de fin et l’heure pour le message de journal.
   
@@ -33,7 +33,7 @@ Représente la date de fin et l’heure pour le message de journal.
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
 |ID de type long (capot) :  <br/> |0x00008708  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Journal  <br/> |
+|Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

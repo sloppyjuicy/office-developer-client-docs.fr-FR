@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 80c76242df409dbea1b60e423629b5b219e1d57d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 896cfa2bf8a1b33fd6dee09649853b71618f31be
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786267"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582783"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Propriété canonique PidTagNonReceiptNotificationRequested
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message veut notification de non-réception pour un destinataire spécifié.
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un expéditeur du message veut notification de non-r�
 |Propriétés associées :  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
 |Identificateur :  <br/> |0x0C06  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

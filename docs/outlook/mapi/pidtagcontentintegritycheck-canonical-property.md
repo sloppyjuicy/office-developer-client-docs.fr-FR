@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2082db4ccd107fcd02e37882707e4e3ee697695d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 53226daafd1c0a53f96db5af3432d6f34738fd93
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785858"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585808"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Propriété canonique PidTagContentIntegrityCheck
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de vérification de l’intégrité du contenu ASN.1 qui permet à un expéditeur du message protéger le contenu des messages de divulgation à des destinataires non autorisés.
   
@@ -32,7 +32,7 @@ Contient une valeur de vérification de l’intégrité du contenu ASN.1 qui per
 |Propriétés associées :  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
 |Identificateur :  <br/> |0x0c00  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Exchange  <br/> |
+|Domaine :  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

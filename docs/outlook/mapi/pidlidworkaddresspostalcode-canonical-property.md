@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a03df7e-9ce9-4720-8e58-bc7fa61eb932
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 2b1398de87e7c08ddfbd6c30eb10ac71fcae3c8f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c1dcbc18a624ec209d86ad46c8ac7a3f16754fa0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785527"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583637"
 ---
 # <a name="pidlidworkaddresspostalcode-canonical-property"></a>Propriété canonique PidLidWorkAddressPostalCode
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la partie du code postal (code postal) de l’adresse de travail.
   
@@ -33,7 +33,7 @@ Spécifie la partie du code postal (code postal) de l’adresse de travail.
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x00008048  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

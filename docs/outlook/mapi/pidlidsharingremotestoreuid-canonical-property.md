@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b907b3385a89e0746740a4363bead41cd8fed8fd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: dba8121ca693e60ec115e5ab039406f4ce399a85
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785434"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583245"
 ---
 # <a name="pidlidsharingremotestoreuid-canonical-property"></a>Propriété canonique PidLidSharingRemoteStoreUid
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la représentation sous forme de chaîne hexadécimale de la valeur de la propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) sur le dossier partagé. Il s’agit d’une propriété d’un message de partage.
   
@@ -33,7 +33,7 @@ Spécifie la représentation sous forme de chaîne hexadécimale de la valeur de
 |Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
 |ID de type long (capot) :  <br/> |0x00008A48  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Partage  <br/> |
+|Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

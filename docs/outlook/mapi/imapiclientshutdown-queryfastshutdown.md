@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 059d0d4427a8f2d68795a671d77fb9e3d84294f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783709"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584932"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Requêtes du sous-système MAPI pour arrêt rapide prennent en charge fournie par les fournisseurs MAPI chargés.
   

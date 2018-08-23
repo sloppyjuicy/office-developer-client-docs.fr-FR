@@ -1,5 +1,5 @@
 ---
-title: Conseils pour l’utilisation des tableaux
+title: Conseils relatifs à l’utilisation des tableaux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 451bab57d4e2e8669a25d119f9ce28a8f78e628f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787345"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586136"
 ---
-# <a name="tips-for-working-with-tables"></a>Conseils pour l’utilisation des tableaux
+# <a name="tips-for-working-with-tables"></a>Conseils relatifs à l’utilisation des tableaux
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Utilisation d’une MAPI table est un peu comparable à l’utilisation d’une table de base de données relationnelle. Un utilisateur peut limiter le nombre de lignes et colonnes de la vue et spécifier leur ordre. Lignes peuvent être extraites d’un à la fois ou en groupes. Un curseur qui effectue le suivi de la position actuelle peut être déplacé vers un emplacement spécifique dans le tableau. 
   

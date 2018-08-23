@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9737b5f940f95c88c2d3c5c6e98fc885daf64219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 97d541279f052099498cdf7bfd374a95238a376d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785421"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584218"
 ---
 # <a name="pidlidtaskdatecompleted-canonical-property"></a>Propriété canonique PidLidTaskDateCompleted
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la date lorsque l’utilisateur termine la tâche.
   
@@ -33,7 +33,7 @@ Spécifie la date lorsque l’utilisateur termine la tâche.
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x0000810F  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

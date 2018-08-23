@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0bfa3a01613c49b122e92e4ac281e5b20b5f07ae
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2e6aa8407459fef5fd9657e9d2887f0ae78ff9c9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785385"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585464"
 ---
 # <a name="pidlidresponsestatus-canonical-property"></a>Propriété canonique PidLidResponseStatus
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’état de la réponse d’un participant.
   
@@ -33,7 +33,7 @@ Spécifie l’état de la réponse d’un participant.
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x00008218  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

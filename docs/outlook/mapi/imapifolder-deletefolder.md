@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 15cf8ff7e282035ddff53565aa92e81e3886729c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584316"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime un sous-dossier.
   

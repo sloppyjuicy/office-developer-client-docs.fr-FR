@@ -1,5 +1,5 @@
 ---
-title: Mise en œuvre de message
+title: Implémentation du service de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bb529cc7-ad09-4f86-89bc-0e8ad29a3f38
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6ba2f9542fd021c544d73d8208ed356a7bf95309
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c7007c01803676412b3efca8b7825b2ed8d863e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784881"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582482"
 ---
-# <a name="message-service-implementation"></a>Mise en œuvre de message
+# <a name="message-service-implementation"></a>Implémentation du service de messagerie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un service de message est un ou plusieurs fournisseurs de services connexes regroupés en vue de simplifier l’installation et la configuration. Tous les fournisseurs de services doivent être inclus dans un service de message.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b297a81a6a6fa2e328b0c747eaf269c038288b1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e903e717342f1efd346d31c591dfbec516cb6c31
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19785577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582566"
 ---
 # <a name="pidnamecontenttransferencoding-canonical-property"></a>Propriété canonique PidNameContentTransferEncoding
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur de champ en-tête de codage de transfert de contenu [RFC3282].
   
@@ -33,7 +33,7 @@ Contient une valeur de champ en-tête de codage de transfert de contenu [RFC3282
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Codage de transfert de contenu  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 22562e1177c9a649bc66b25b5e8e9e6ecc8e397c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 878c3aaf22a6cf8a08c8234df41b671088c435c7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786933"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584988"
 ---
 # <a name="preprocessmessage"></a>PreprocessMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit une fonction qui pré-traite les contenus du message ou le format d’un message.
   

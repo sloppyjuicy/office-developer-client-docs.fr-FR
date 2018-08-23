@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b44cf25bafb83e9510d254eb29d35306f3e69051
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: df3a872aedcba79613a8f2ca2b970069d372eb07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783253"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582629"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Tableau d’identificateurs d’entrée qui représente l’objet MAPI qui utilise l’implémentation de même que la structure [SBinaryArray](sbinaryarray.md) . 
   
@@ -36,7 +36,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 Voir la structure **SBinaryArry** pour les membres. 
   
@@ -44,7 +44,7 @@ Voir la structure **SBinaryArry** pour les membres.
 
 
 
-[PROPRIÉTÉ ENTRYID](entryid.md)
+[ENTRYID](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
 

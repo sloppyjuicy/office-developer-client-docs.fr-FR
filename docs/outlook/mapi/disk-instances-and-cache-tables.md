@@ -1,5 +1,5 @@
 ---
-title: Instances de disque et les Tables de Cache
+title: Instances de disque et tables de cache
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: c3b371a226c9eb6a3cf675ee316bf22a597fe806
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 27b21162c53a64675abbf31a8ab512719b413d5f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783172"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583161"
 ---
-# <a name="disk-instances-and-cache-tables"></a>Instances de disque et les Tables de Cache
+# <a name="disk-instances-and-cache-tables"></a>Instances de disque et tables de cache
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Pour activer un formulaire, ses fichiers exécutables doivent être disponibles sur l’ordinateur de l’utilisateur. Si elles ne sont pas disponibles, ils doivent être copiés à partir de la bibliothèque de formulaires sur le disque local. Pour ce faire, le Gestionnaire de formulaire par défaut crée un sous-répertoire dans le répertoire de l’utilisateur Windows pour contenir les fichiers exécutables du formulaire (. Exe. HLPs). Ce répertoire est appelé à l’instance du disque du formulaire.
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 116e3cfaace9c0965001021575b76ec371667877
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 961ac2d26cd58e625c35d00bd1216cdee2ce57a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784500"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584729"
 ---
 # <a name="ixplogonflushqueues"></a>IXPLogon::FlushQueues
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Demande que le fournisseur de transport remettre immédiatement tous les messages entrants ou sortants en attente.
   

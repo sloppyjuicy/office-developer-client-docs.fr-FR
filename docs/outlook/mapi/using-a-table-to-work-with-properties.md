@@ -1,5 +1,5 @@
 ---
-title: Utilisation d’un tableau pour qu’elle fonctionne avec des propriétés
+title: Utilisation d’une table pour utiliser les propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e4e7ecda40f3f3fcb05700ba3e8b79ab21cbe35b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 9f02da9eb1920f55acf65dfb6a503e42d4c3daf2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787435"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585422"
 ---
-# <a name="using-a-table-to-work-with-properties"></a>Utilisation d’un tableau pour qu’elle fonctionne avec des propriétés
+# <a name="using-a-table-to-work-with-properties"></a>Utilisation d’une table pour utiliser les propriétés
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 De nombreuses propriétés sont disponibles et à partir des objets qui prennent en charge les colonnes de tables. La mesure du possible, extraire ces propriétés par le biais de la table.
   

@@ -1,5 +1,5 @@
 ---
-title: Interfaces de formulaire MAPI
+title: Interfaces de formulaires MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8452a6e49059dd0912f1efffef7e749afd6cdf6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f37d398167e8210a2fd67ff08e63572eb6c9db9c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784604"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585723"
 ---
-# <a name="mapi-form-interfaces"></a>Interfaces de formulaire MAPI
+# <a name="mapi-form-interfaces"></a>Interfaces de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI définit les interfaces suivantes relatives aux formulaires.
   

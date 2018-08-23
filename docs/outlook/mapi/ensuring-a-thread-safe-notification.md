@@ -1,5 +1,5 @@
 ---
-title: Assurer une Notification de Thread-Safe
+title: Garantir une notification thread-safe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 70e594057f2d654e0527b0caa0951e44842df809
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ad10b2ebd835b21f207fd43ecd8aebc7e1f475f4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783250"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585303"
 ---
-# <a name="ensuring-a-thread-safe-notification"></a>Assurer une Notification de Thread-Safe
+# <a name="ensuring-a-thread-safe-notification"></a>Garantir une notification thread-safe
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Si votre client s’exécute sur une plate-forme multithread, vous devrez peut-être pour l’assurance que les appels vers les méthodes [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) se produisent sur un thread particulier. Étant donné que les appels vers **OnNotify** peuvent se produire généralement sur n’importe quel thread, il est possible de recevoir des notifications sur des threads inattendus et indésirables conduisant à des erreurs sont difficiles à déboguer. 
   

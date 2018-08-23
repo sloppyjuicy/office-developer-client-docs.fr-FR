@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb9050c9-5797-44f0-8bf5-6264f4e6d7c3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 42b2f8e9695b1dbdc5ea02db5a4e8a0eaba6099c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 297b5a516f8275b236092f9f385afcb673c95de0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787423"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585240"
 ---
 # <a name="ulvalidateparameters"></a>UlValidateParameters
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Appelle une fonction interne pour vérifier que les applications clientes de paramètres transmis à MAPI et les fournisseurs de services. 
   

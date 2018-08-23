@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 409fc2e01b103378eb0df1bdd06ee8b5647148bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: efedeb54decf1feae7b31f8af299a154606d7afc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785216"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582902"
 ---
 # <a name="pidlidfinvited-canonical-property"></a>Propriété canonique PidLidFInvited
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique ou non des invitations ont été envoyées pour les réunions représente cette réunion.
   
@@ -33,7 +33,7 @@ Indique ou non des invitations ont été envoyées pour les réunions représent
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x00008229  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

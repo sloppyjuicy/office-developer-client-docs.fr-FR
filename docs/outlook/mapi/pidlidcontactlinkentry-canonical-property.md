@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bf095a9839a6e25fd86d7d35b51d035fff6af80d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e510da053ace91442a3cbc8127f719f88b301308
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785097"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583539"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Propriété canonique PidLidContactLinkEntry
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la liste de carnet d’adresses **identificateurs d’entrée** liés par cet objet de message. 
   
@@ -33,7 +33,7 @@ Contient la liste de carnet d’adresses **identificateurs d’entrée** liés p
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x00008585  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

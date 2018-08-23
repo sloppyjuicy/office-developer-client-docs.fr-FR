@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 37a318df01101487fe0e8970251201c2515d1e8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 3c90284671d6087c74d4541b1a4774cc13b3ada5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785968"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583189"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriété canonique PidTagExchangeProfileSectionId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un GUID généré de manière dynamique permet de déterminer un compte lorsque vous utilisez plusieurs comptes Microsoft Exchange Server.
   
@@ -32,7 +32,7 @@ Contient un GUID généré de manière dynamique permet de déterminer un compte
 |Propriétés associées :  <br/> |PR_EMSMDB_SECTION_UID  <br/> |
 |Identificateur :  <br/> |0x3d150102  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Comptes Exchange multiples  <br/> |
+|Domaine :  <br/> |Comptes Exchange multiples  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a1530443600df7cb73ff27d5cfbeab46f81bc53c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ae3f84c6b219c7becb88737f0d6c9fcb9722ea34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787169"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584967"
 ---
 # <a name="sizeddtblpage"></a>SizedDtblPage
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure nommée qui inclut une structure [DTBLPAGE](dtblpage.md) pour la description d’un contrôle de la page à onglets, une étiquette d’une longueur spécifiée, une entrée de fichier d’aide d’une longueur spécifiée. 
   
@@ -67,5 +67,5 @@ lpDtblPage = (LPDTBLPAGE) &SizedDtblPage;
 ## <a name="see-also"></a>Voir aussi
 
 - [DTBLPAGE](dtblpage.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

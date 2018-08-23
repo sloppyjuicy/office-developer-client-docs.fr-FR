@@ -1,5 +1,5 @@
 ---
-title: Section de formulaire Configuration de fichier [Description]
+title: Section [Description] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d3673c3b10afb55121339e335163ce9b2e5937e3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783332"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582895"
 ---
-# <a name="form-configuration-file-description-section"></a>Section de formulaire Configuration de fichier [Description]
+# <a name="form-configuration-file-description-section"></a>Section [Description] du fichier de configuration de formulaire
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La section **[Description]** répertorie toutes les propriétés du formulaire qui sont associées à des contrôles dans l’interface utilisateur du formulaire, ainsi que les attributs qui sont utilisés dans la localisation de l’écran. Le **MessageClass**, **Clsid**et entrées **DisplayName** , permettant d’identifier le nom de classe de message du formulaire, son GUID et nom d’affichage de la classe de message, respectivement, sont des entrées obligatoires permet de rechercher le formulaire dans la bibliothèque de formulaires . Les autres entrées sont facultatives. Le format de la section **[Description]** est la suivante : 
   

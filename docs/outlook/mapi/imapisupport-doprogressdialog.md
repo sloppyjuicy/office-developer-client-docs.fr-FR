@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 527a7bb3201a4a6b1bc0807136bc88b80c189de2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 32174e213334d784220b960364443e60db6d1d19
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783998"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582776"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Récupère un objet de progression qui affiche un indicateur de progression.
   

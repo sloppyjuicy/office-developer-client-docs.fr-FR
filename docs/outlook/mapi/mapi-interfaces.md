@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e485079de800c63b02d71b3c3ccb90d66101c64b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ca3752e8f7e910994811dec85cc2f1b00e184661
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784638"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584807"
 ---
 # <a name="mapi-interfaces"></a>Interfaces MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La documentation de chaque interface se compose d’une section d’introduction qui inclut une brève description de l’objectif de l’interface suivie d’une table qui contient les informations suivantes.
   

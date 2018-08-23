@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cbded5d-5aa6-47c5-aa25-416ed9bd3bbe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7e9ba8eb8aee6ffd2e1b867e0df404837a78adcc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 584b358fa8aec473568f5ef63a31124aba367824
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785523"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583140"
 ---
 # <a name="pidlidworkaddresscity-canonical-property"></a>Propriété canonique PidLidWorkAddressCity
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie la partie ville ou localité d’adresse du contact.
   
@@ -33,7 +33,7 @@ Spécifie la partie ville ou localité d’adresse du contact.
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x00008046  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

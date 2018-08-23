@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c2e275e373677e50510a0aa87f5060070a870a0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8d960207e05b33efe55886166ff1322f7f4eedce
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787183"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586199"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) pour la description d’un contrôle label et l’étiquette associé d’une longueur spécifiée. 
   
@@ -62,5 +62,5 @@ lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;
 ## <a name="see-also"></a>Voir aussi
 
 - [DTBLLABEL](dtbllabel.md)
-- [Macros relatives aux Structures](macros-related-to-structures.md)
+- [Macros liées aux structures](macros-related-to-structures.md)
 

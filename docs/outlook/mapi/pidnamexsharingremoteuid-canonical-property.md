@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a99bc2f3-03ff-4997-9d00-28be0a75b7f6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e66c779c9210529f2cd9db73ac3988e89680806d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 1907395882553050ac4e86416380e989b943b36e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785655"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584701"
 ---
 # <a name="pidnamexsharingremoteuid-canonical-property"></a>Propriété canonique PidNameXSharingRemoteUid
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente la valeur de la propriété **dispidSharingRemoteUid** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)).
   
@@ -33,7 +33,7 @@ Représente la valeur de la propriété **dispidSharingRemoteUid** ([PidLidShari
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-partage-Remote-Uid  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Partage  <br/> |
+|Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

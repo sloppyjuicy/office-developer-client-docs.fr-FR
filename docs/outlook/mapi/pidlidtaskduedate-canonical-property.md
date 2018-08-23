@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d26a686573a9dc178a46b7dfdc5c18485303b7ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6b8ab295c9667d4cabb42c92dff7e8d1a3c2dd5e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785463"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584708"
 ---
 # <a name="pidlidtaskduedate-canonical-property"></a>Propriété canonique PidLidTaskDueDate
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente la date lorsque l’utilisateur souhaite effectuer la tâche.
   
@@ -33,7 +33,7 @@ Représente la date lorsque l’utilisateur souhaite effectuer la tâche.
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x00008105  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -69,7 +69,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

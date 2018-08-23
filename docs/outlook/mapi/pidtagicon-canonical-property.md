@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0aa5873d98b7ae9dea1bdaffc37f7996262b6062
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786078"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583854"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propriété canonique PidTagIcon
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un bitmap d’une icône de toute taille d’un formulaire. 
   
@@ -32,7 +32,7 @@ Contient un bitmap d’une icône de toute taille d’un formulaire.
 |Propriétés associées :  <br/> |PR_ICON  <br/> |
 |Identificateur :  <br/> |0x0FFD  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmissible  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -67,7 +67,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

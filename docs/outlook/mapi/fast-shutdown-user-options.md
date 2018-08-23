@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 'Dernière modification : 26 juin 2012'
-ms.openlocfilehash: a58f8b98ab2f5a5c1028440676a561427272d028
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd541ed09bc661f3697408d3f475928b9ef0bcc1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783277"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585191"
 ---
 # <a name="fast-shutdown-user-options"></a>Options d’arrêt rapide utilisateur
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit les trois paramètres du Registre Windows qui sont disponibles, démarrage de Microsoft Outlook 2010 et maintenant, y compris Microsoft Outlook 2013, pour l’arrêt rapide des clients MAPI de l’utilisateur. Les administrateurs peuvent utiliser ces paramètres de Registre pour spécifier le comportement de l’arrêt de client par défaut en fonction de la prise en charge des fournisseurs MAPI pour arrêt rapide du client. L’administrateur, à son tour, détermine comment le sous-système MAPI répond aux appels du client MAPI à [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) en termes de prise en charge de l’arrêt rapide disponibles. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b88fc54f1db26277d8a8d5e54fcff0ae164b0eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6cfc4d6eab5b2f19bcfd4c7e2a8fc9fa1494afa4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585576"
 ---
 # <a name="pidtagidentitydisplay-canonical-property"></a>Propriété canonique PidTagIdentityDisplay
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom complet de l’identité d’un fournisseur de services au sein d’un système de messagerie. 
   
@@ -32,7 +32,7 @@ Contient le nom complet de l’identité d’un fournisseur de services au sein 
 |Propriétés associées :  <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x3E00  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |État MAPI  <br/> |
+|Domaine :  <br/> |État MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -63,7 +63,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

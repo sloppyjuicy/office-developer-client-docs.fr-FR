@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 81af8a0b-4ec2-459c-8ab2-29d28a8b680f
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8b29298ab97518c2e346c2cdc5dee6baec28f8e0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a83af0766c907f2868f7d5e116454e648d6f4463
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783749"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583770"
 ---
 # <a name="imapiformgetlasterror"></a>IMAPIForm::GetLastError
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente généré par l’objet de formulaire. 
   

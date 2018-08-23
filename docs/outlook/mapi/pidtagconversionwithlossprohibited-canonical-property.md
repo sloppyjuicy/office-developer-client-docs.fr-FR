@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: eee70d97c35c7f115e424905b9e36f3dfa392c02
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e5d9261a9f33d77d52cfd6e448e69a2c1e8df415
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785900"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585233"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Propriété canonique PidTagConversionWithLossProhibited
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un message transfert agent d’est interdite d’effectuer des conversions de texte de perdre des informations de message. 
   
@@ -32,7 +32,7 @@ Contient la valeur TRUE si un message transfert agent d’est interdite d’effe
 |Propriétés associées :  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x000d  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Configuration générale  <br/> |
+|Domaine :  <br/> |Configuration générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 19c11c4e49eff9156a928dfa3d2a8b51d8873984
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786311"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583791"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipientName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom du destinataire à l’origine d’un message transféré automatiquement codé.
   
@@ -32,7 +32,7 @@ Contient le nom du destinataire à l’origine d’un message transféré automa
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
 |Identificateur :  <br/> |0 x 0020  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

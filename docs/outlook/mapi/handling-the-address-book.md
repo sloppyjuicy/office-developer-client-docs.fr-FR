@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b685244a-fe1b-4416-85d3-4bd86ccbc3aa
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6ef441b4315ef21f8b16dc062596bc7f1e526e1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7a72d0e90e6c28874f341fc9ba7af843a44c5da8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783443"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583322"
 ---
 # <a name="handling-the-address-book"></a>Gestion du carnet d’adresses
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Gestion du carnet d'adresses MAPI peut inclure extraction des entr�es � utiliser en tant que les destinataires du message, modification des propri�t�s de destinataire, ajout d'utilisateurs de messagerie ou des listes de distribution, cr�ation uniques et en affichant une ou plusieurs des bo�tes de dialogue adresses courantes pour permettre aux utilisateurs de parcourir les informations d'adresse et apporter des modifications.
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c5764ea39af7a96a1bc6e6abfcbc29cc315adeda
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 94b563e7bbf759cfa77d364225693c5ffc8740d5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785807"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585184"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>Propriété canonique PidTagCallbackTelephoneNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un numéro de téléphone que le destinataire du message peut utiliser pour atteindre l’expéditeur. 
   
@@ -32,7 +32,7 @@ Contient un numéro de téléphone que le destinataire du message peut utiliser 
 |Propriétés associées :  <br/> |PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A, PR_CALLBACK_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A02  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

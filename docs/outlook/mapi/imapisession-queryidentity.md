@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c8f05707d63f922c9ce22e6e520c6c57e686f884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 6b64653aa87ff7ac983409978a69f59148251d7d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783951"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583413"
 ---
 # <a name="imapisessionqueryidentity"></a>IMAPISession::QueryIdentity
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie l’identificateur d’entrée de l’objet qui fournit l’identité du principale pour la session.
   
@@ -111,9 +111,9 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [Identité principale MAPI](mapi-primary-identity.md)
   
-[Extraction de principal et identité du fournisseur](retrieving-primary-and-provider-identity.md)
+[Récupération de l’identité fournisseur et principale](retrieving-primary-and-provider-identity.md)
   
-[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
   
-[Table d’état et les objets d’état](status-table-and-status-objects.md)
+[Table de statut et objets de statut](status-table-and-status-objects.md)
 

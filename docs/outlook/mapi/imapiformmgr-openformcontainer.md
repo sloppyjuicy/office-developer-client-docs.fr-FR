@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 64031725e06a949464e7bfabb0a2f114d325470e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 4bf3d9159dd1ed31fb93569218770f1015579339
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783805"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582923"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre une interface [IMAPIFormContainer](imapiformcontaineriunknown.md) pour un conteneur de formulaire spécifique. 
   

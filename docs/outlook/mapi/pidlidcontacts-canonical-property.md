@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 709e701f-b24e-4cd5-8c55-3f9e67f67a4a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 6182c9dfc0c4de24bd587e626fe74d02ed23968b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 2a097b8e8071c08b82a05f3c8e0b021db8ec5107
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785102"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585394"
 ---
 # <a name="pidlidcontacts-canonical-property"></a>Propriété canonique PidLidContacts
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient les noms des contacts associés à l’élément.
   
@@ -33,7 +33,7 @@ Contient les noms des contacts associés à l’élément.
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x0000853A  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -73,7 +73,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

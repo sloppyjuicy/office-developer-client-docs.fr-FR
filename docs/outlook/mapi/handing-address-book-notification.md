@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f198be78dd36a6d0c9439da68ab322cd8cfa4172
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b5428ccde0e16bd32408b2ea908f5c5522992fc9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783414"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582916"
 ---
 # <a name="handing-address-book-notification"></a>Notification de carnet d’adresse de remise
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notifications de carnet d’adresse permettent à un client d’événements qui se produisent sur une entrée de carnet d’adresse ou à une entrée particulière. Vous pouvez vous inscrire pour les notifications par le biais du carnet d’adresses MAPI en appelant [IAddrBook::Advise](iaddrbook-advise.md) ou hiérarchie d’un conteneur carnet d’adresses ou une table des matières en appelant [IMAPITable::Advise](imapitable-advise.md). 
   

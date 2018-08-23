@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 456ef036b26fd8b9840d33f0f699474c3a6ce127
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0ff8d9f1ae25c55d66847b8c0e5e66c406dfdfba
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783042"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586150"
 ---
 # <a name="choosing-a-forms-property-set"></a>Choix du jeu de propriétés d’un formulaire
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsque vous implémentez votre serveur de formulaire, vous devez avoir une propriété pour chaque élément d’information qui a besoin de votre classe de message. Ces propriétés peuvent être des propriétés MAPI prédéfinies, ou ils peuvent être des propriétés personnalisées que vous définissez. Pour plus d’informations sur l’utilisation des propriétés, voir [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md).
   
@@ -38,5 +38,5 @@ Pour plus d’informations sur la définition des propriétés personnalisées, 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
+- [Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
 

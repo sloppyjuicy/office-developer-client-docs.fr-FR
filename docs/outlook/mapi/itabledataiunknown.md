@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 968768fe75286b93bf12e349a4845fdfaa1923e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: bec68568b30bdc3112493a656de591f222801e46
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784478"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586241"
 ---
 # <a name="itabledata--iunknown"></a>ITableData : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des méthodes utilitaires pour l’utilisation des tableaux. MAPI fournit des objets de données de table ou des objets qui implémentent **ITableData** pour aider les fournisseurs de services à effectuer la maintenance de la table. Pour obtenir un objet de données de table, les fournisseurs de services appellent la fonction [Create table](createtable.md) . 
   

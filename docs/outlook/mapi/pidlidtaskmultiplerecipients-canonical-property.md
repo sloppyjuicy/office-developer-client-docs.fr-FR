@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1e1cba3d927072cb03dbd34eee518c9b0a9e0383
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f20c3e988c0a0461a966a109a8d345c22e1fccee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785470"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585737"
 ---
 # <a name="pidlidtaskmultiplerecipients-canonical-property"></a>Propriété canonique PidLidTaskMultipleRecipients
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des conseils d’optimisation sur les destinataires d’une tâche.
   
@@ -33,7 +33,7 @@ Fournit des conseils d’optimisation sur les destinataires d’une tâche.
 |Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
 |ID de type long (capot) :  <br/> |0x00008120  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

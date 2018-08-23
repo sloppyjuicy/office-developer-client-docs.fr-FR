@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bd42fcd34042c2f9579497f164c4a67f6ba97e35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d6f5a0bd5da851c5107b8d3d40d683a7e3c1b26b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783584"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586010"
 ---
 # <a name="hropenabentrywithprovideruidsupport"></a>HrOpenABEntryWithProviderUIDSupport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Effectue la même fonction que la fonction [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) , sauf que la fonction **HrOpenABEntryWithProviderUIDSupport** ouvre l’entrée à l’aide de l’objet de prise en charge donné au lieu d’utiliser la session et le carnet d’adresses. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7bae17b-f1f3-4a29-bfa6-0a0658234eec
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bd67b4d6c1620957ec826e87e1db1772d7ed3f1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 38a56cf65738fb35a4e153c0a5e3d5be85779947
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785619"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583154"
 ---
 # <a name="pidnamesubject-canonical-property"></a>Propriété canonique PidNameSubject
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie le sujet du fichier qui est attaché au document.
   
@@ -31,9 +31,9 @@ Spécifie le sujet du fichier qui est attaché au document.
 |:-----|:-----|
 |Noms conviviaux :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Objet  <br/> |
+|Nom de la propriété :  <br/> |Subject  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Common  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

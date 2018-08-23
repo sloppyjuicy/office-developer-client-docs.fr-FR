@@ -9,26 +9,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 91820ae945ba44d36221e3a92ce5ee2fd47c02eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784716"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584785"
 ---
 # <a name="mapi-structures"></a>Structures MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les entrées alphabétique suivantes décrivent les structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques dans cette documentation sont également inclus.
   
 |||
 |:-----|:-----|
 |[ADRENTRY](adrentry.md) <br/> |[ADRLIST](adrlist.md) <br/> |
-|[ADRPARM](adrparm.md) <br/> |[DEVISE](currency.md) <br/> |
+|[ADRPARM](adrparm.md) <br/> |[CURRENCY](currency.md) <br/> |
 |[CONTAB_ENTRYID](contab_entryid.md) <br/> |[DIR_ENTRYID](dir_entryid.md) <br/> |
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |
@@ -37,7 +37,7 @@ Les entrées alphabétique suivantes décrivent les structures MAPI. Pour plus d
 |[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |
 |[DTBLPAGE](dtblpage.md) <br/> |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |
 |[DTCTL](dtctl.md) <br/> |[DTPAGE](dtpage.md) <br/> |
-|[PROPRIÉTÉ ENTRYID](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
+|[ENTRYID](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
 |[ERROR_NOTIFICATION](error_notification.md) <br/> |[EXTENDED_NOTIFICATION](extended_notification.md) <br/> |
 |[FILETIME](filetime.md) <br/> |[FLAGLIST](flaglist.md) <br/> |
 |[FLATENTRY](flatentry.md) <br/> |[FLATENTRYLIST](flatentrylist.md) <br/> |

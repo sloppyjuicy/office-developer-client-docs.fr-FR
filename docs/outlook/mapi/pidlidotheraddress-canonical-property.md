@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b8acb69-4c84-4075-8457-d7aadce26c73
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b8b490242d6c0260fb4ba4335846da06a0e73d4c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: eaf6c8706b6f51a297fda3015b9ce9c5277760bc
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785327"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585961"
 ---
 # <a name="pidlidotheraddress-canonical-property"></a>Propriété canonique PidLidOtherAddress
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie l’adresse complète du contact d’autre adresse.
   
@@ -33,7 +33,7 @@ Spécifie l’adresse complète du contact d’autre adresse.
 |Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
 |ID de type long (capot) :  <br/> |0x0000801C  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Contact  <br/> |
+|Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -65,7 +65,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

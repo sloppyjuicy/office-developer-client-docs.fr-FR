@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 8cf221d83601f62de2dd5e2ad13a5764ff2adfce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: c822600bf9090151fe18d3bf7cab0515fc360a4e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786740"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583504"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>Propriété canonique PidTagSearchFolderId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur global unique (GUID) qui identifie le dossier de recherche.
   
@@ -32,7 +32,7 @@ Contient un identificateur global unique (GUID) qui identifie le dossier de rech
 |Propriétés associées :  <br/> |PR_WB_SF_ID  <br/> |
 |Identificateur :  <br/> |0x6842  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Search  <br/> |
+|Domaine :  <br/> |Recherche  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

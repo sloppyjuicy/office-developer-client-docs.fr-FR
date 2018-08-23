@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c13acd1c3b759602a5fbe07c21ca8b784e0fe4d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b62fc62bb9232b7106019fca82f502221e50bad0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785838"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583560"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriété canonique PidTagContainerFlags
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un masque binaire composé des indicateurs décrivant les fonctionnalités d’un conteneur de carnet d’adresses. 
   
@@ -32,7 +32,7 @@ Contient un masque binaire composé des indicateurs décrivant les fonctionnalit
 |Propriétés associées :  <br/> |PR_CONTAINER_FLAGS  <br/> |
 |Identificateur :  <br/> |0x3600  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Carnet d’adresses  <br/> |
+|Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -98,7 +98,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

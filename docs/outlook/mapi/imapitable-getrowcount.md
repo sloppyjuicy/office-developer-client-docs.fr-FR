@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a591a49c1cb0ec936d09d59b4632d15e4842dd2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 71178f1a531bd381387e0aa7fbacb02d4431a401
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784091"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584323"
 ---
 # <a name="imapitablegetrowcount"></a>IMAPITable::GetRowCount
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie le nombre total de lignes dans le tableau. 
   

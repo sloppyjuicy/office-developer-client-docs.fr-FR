@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b6b5f5aa5c595fb0c19ca9b8a9f8aeb94a2c2725
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: b33d3d26c9369bd0a0e18cdf9e4b8ca850666657
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785932"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584869"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>Propriété canonique PidTagDeferredDeliveryTime
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure quand un expéditeur du message souhaite un message envoyé. 
   
@@ -32,7 +32,7 @@ Contient la date et l’heure quand un expéditeur du message souhaite un messag
 |Propriétés associées :  <br/> |PR_DEFERRED_DELIVERY_TIME  <br/> |
 |Identificateur :  <br/> |0x000F  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Enveloppe MAPI  <br/> |
+|Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

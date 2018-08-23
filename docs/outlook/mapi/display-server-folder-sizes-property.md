@@ -1,5 +1,5 @@
 ---
-title: Propriété tailles du dossier d’affichage Server
+title: Propriété d’affichage des tailles de dossier du serveur
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1ddf4501918d598169a3a74fd1c8d2ac38499cd2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: f1ec10bde39f853a80540b48216478edc4e41f12
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783175"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584309"
 ---
-# <a name="display-server-folder-sizes-property"></a>Propriété tailles du dossier d’affichage Server
+# <a name="display-server-folder-sizes-property"></a>Propriété d’affichage des tailles de dossier du serveur
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Affiche la taille des dossiers spécifiés sur le serveur dans la boîte de dialogue Outlook **Taille du dossier** . 
   

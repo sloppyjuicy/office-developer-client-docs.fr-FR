@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 516de39d721c532c003775bd366a52ed8144ab88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 72a26875802b2b7f94261f11e78fe560e9cc49d3
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784287"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583427"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Annule l’envoi de notifications précédemment configurées avec un appel à la méthode [IMsgStore::Advise](imsgstore-advise.md) . 
   

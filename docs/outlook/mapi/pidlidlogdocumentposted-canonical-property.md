@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27e43acf-8a5e-4ba5-8af0-36d11f071892
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b4f2537a31dbdbd4d05d24891751b2129efa8bc0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8cbc7cd64988b894e923ea59b89b643945b85933
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785270"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585716"
 ---
 # <a name="pidlidlogdocumentposted-canonical-property"></a>Propriété canonique PidLidLogDocumentPosted
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique si le document a été envoyé par courrier électronique ou publié dans un dossier de serveur au cours de la journalisation.
   
@@ -33,7 +33,7 @@ Indique si le document a été envoyé par courrier électronique ou publié dan
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
 |ID de type long (capot) :  <br/> |0x00008711  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Zone :  <br/> |Journal  <br/> |
+|Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

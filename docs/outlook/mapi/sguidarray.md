@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 553ec17e9caf9bf93278ff139eb94e02e6b48554
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19787151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585569"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un tableau de [GUID](guid.md) structures qui sont utilisées pour décrire une propriété de type PT_MV_CLSID. 
   
@@ -40,7 +40,7 @@ typedef struct _SGuidArray
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **cValues**
   

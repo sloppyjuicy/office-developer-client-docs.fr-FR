@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 28f6471f74fb0fcc4f7e2f4114f0790e1564e17e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 09f0d7988f85a6d6018c45cb64245ab331cda052
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783233"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582811"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une étiquette qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage.
   
@@ -41,7 +41,7 @@ typedef struct _DTBLLABEL
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulbLpszLabelName**
   

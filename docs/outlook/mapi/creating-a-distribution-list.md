@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 82fa28f021dbb839c7bb05974682f0bb24174bb2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f0a6b7af196073d52ce98037b443569dcd1f41e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582545"
 ---
 # <a name="creating-a-distribution-list"></a>Création d’une liste de distribution
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les clients peuvent créer une liste de distribution directement dans un conteneur modifiable telles que le carnet d’adresses personnel (CAP).
   

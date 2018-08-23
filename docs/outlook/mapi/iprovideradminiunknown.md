@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 41195a49d1bf3566c81fe6e97697012209cbc5ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 559680b9ca4ea5be85718d8f9692df93f77b0edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784399"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585751"
 ---
 # <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fonctionne avec des fournisseurs de services dans un service de message. 
   

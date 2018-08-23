@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: a5f950907e2b14cb4101a094715c24b25beb2016
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: d58a216a41ff8fe93387ce6d9d1d6aa16f36f224
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783309"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583252"
 ---
 # <a name="filetime"></a>FILETIME
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une date de 64 bits non signé et d’une valeur d’heure d’un fichier. Cette valeur représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. 
   
@@ -40,7 +40,7 @@ typedef struct _FILETIME
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **dwLowDateTime**
   

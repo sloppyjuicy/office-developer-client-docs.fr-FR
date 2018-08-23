@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4206b003-2304-4215-9844-8ff4305cc2f4
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0c9b3419147fec76d065e187adf76a2481d614c4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e27ca666ca07675369eca310da8ad2acb6c37a4f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786400"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584253"
 ---
 # <a name="pidtagpagertelephonenumber-canonical-property"></a>Propriété canonique PidTagPagerTelephoneNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le numéro de radiomessagerie du destinataire.
   
@@ -32,7 +32,7 @@ Contient le numéro de radiomessagerie du destinataire.
 |Propriétés associées :  <br/> |PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A, PR_PAGER_TELEPHONE_NUMBER_W, NUMÉRO_TÉLÉPHONE_BEEPER_PR BIP, PR_BEEPER_TELEPHONE_NUMBER_A, PR_BEEPER_TELEPHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A21  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Zone :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

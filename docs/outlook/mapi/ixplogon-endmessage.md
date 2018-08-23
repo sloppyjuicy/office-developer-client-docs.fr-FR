@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7f81a0c3c9a9ad0a9bcef5c5685aa5b343237f19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f727d68e0e193e8f2e148d881968993f836f8ab0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784491"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582468"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informe le fournisseur de transport que le spouleur MAPI terminé son traitement d’un message sortant.
   

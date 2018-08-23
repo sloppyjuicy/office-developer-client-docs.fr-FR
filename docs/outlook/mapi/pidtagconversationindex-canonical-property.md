@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bddb667cba99e240a6ce182c9c1c8ed47f467e15
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 77fee834108a603c1cd10e8e47776cc34fd75a2b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785876"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584165"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>Propriété canonique PidTagConversationIndex
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur binaire qui indique la position relative de ce message dans un thread de conversation. 
   
@@ -32,7 +32,7 @@ Contient une valeur binaire qui indique la position relative de ce message dans 
 |Propriétés associées :  <br/> |PR_CONVERSATION_INDEX  <br/> |
 |Identificateur :  <br/> |0x0071  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Général de messagerie  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

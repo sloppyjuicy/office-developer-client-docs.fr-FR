@@ -1,21 +1,21 @@
 ---
-title: À propos des URL MAPI pour l’indexation basée sur une Notification
+title: À propos des URL MAPI pour l’indexation basée sur une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 27ad80b9eca8332beeda147a8b2b4204f9f1cd38
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57868996f95cfb135298378d2638bc57b2e69977
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782839"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583672"
 ---
-# <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour l’indexation basée sur une Notification
+# <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour l’indexation basée sur une notification
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Lorsqu’un fournisseur de magasins signale un indexeur qu’un objet est prêt pour l’indexation, elle génère une URL MAPI qui identifie l’objet dans le Gestionnaire de protocole MAPI. MAPI URL sont codées au format Unicode et présentent le format suivant : 
   
@@ -90,6 +90,6 @@ Le fournisseur de banque doit écrire ces valeurs dans l’objet BLOB dans l’o
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Indexation de magasin de Notification](about-notification-based-store-indexing.md)
+- [À propos de l’indexation de magasin basée sur une notification](about-notification-based-store-indexing.md)
 - [Constantes MAPI](mapi-constants.md)
 

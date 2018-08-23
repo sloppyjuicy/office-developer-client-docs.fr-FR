@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e9b9ae316749659c6fc6a043bfb72c49010ccc9a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: eaf472a380acd62cddb2c20c35335ccb1e2ce07f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783643"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585856"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajoute un destinataire à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.
   

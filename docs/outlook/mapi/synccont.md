@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 82923895353cf600c4d0b78b9a6e16fc7d57e466
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b1ab1bd4eb6badc75065ce54d009e034f0fc2b29
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787304"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584673"
 ---
 # <a name="synccont"></a>SYNCCONT
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Informations pour la synchronisation du contenu des dossiers spécifiées dans un magasin local avec le serveur au cours de la [synchronisation de contenu d’un état](synchronize-contents-state.md). Cela implique simplement le téléchargement, ou une synchronisation complète impliquant un téléchargement, puis sur Télécharger.
   
@@ -35,7 +35,7 @@ struct SYNCCONT
 };
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
 _ulFlags_
   
@@ -68,6 +68,6 @@ _psosReserved_
 ## <a name="see-also"></a>Voir aussi
 
 - [À propos de l’API de réplication](about-the-replication-api.md)
-- [Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+- [À propos de la machine à états de réplication](about-the-replication-state-machine.md)
 - [Constantes MAPI](mapi-constants.md)
 

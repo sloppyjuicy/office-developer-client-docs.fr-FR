@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 97dad50fed4179526e46381c4d9ea9d12d568377
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: ee004bdfb8d13537fd8823225f155223ebc76ca7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787092"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583350"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Détermine la taille, en octets, d’un tableau de valeurs de propriété et valide la mémoire associée au tableau. 
   

@@ -1,5 +1,5 @@
 ---
-title: Contenu des messages
+title: Contenu du message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5e8debcd5a60357f05dfb7b6bde1faf972e50a26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 85bd3f7db53f195295405fb0b02c25f084786a67
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784879"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586080"
 ---
-# <a name="message-content"></a>Contenu des messages
+# <a name="message-content"></a>Contenu du message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il existe deux codages possibles pour le contenu du message : un à l’aide de MIME, l’autre à l’aide d’uuencode. MIME est le codage par défaut. En outre, MAPI définit une propriété par destinataire, **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)), qui détermine les informations TNEF doivent être incluses dans un message sortant ou non. Ainsi, il existe un total de quatre façons de codage du contenu des messages :
   

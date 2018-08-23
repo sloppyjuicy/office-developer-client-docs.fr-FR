@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c18de08b-8c28-4cdf-bd2e-b9c650cd6da6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0c2cf784ff9a86c9e2a2ce1a25b3c4b8ff7d8b75
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 60704464beb162a614d6619b5e74d362b4af4488
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786286"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585107"
 ---
 # <a name="pidtagordinalmost-canonical-property"></a>Propriété canonique PidTagOrdinalMost
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un nombre positif dont négatif est inférieure ou égale à la valeur de la propriété **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) de toutes les tâches dans le dossier.
   
@@ -32,7 +32,7 @@ Contient un nombre positif dont négatif est inférieure ou égale à la valeur 
 |Propriétés associées :  <br/> |PR_ORDINAL_MOST  <br/> |
 |Identificateur :  <br/> |0x36E2  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

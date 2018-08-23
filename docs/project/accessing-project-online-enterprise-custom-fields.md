@@ -1,19 +1,19 @@
 ---
-title: Accès aux champs personnalisés d’entreprise Project Online
+title: Accès aux champs personnalisés d’entreprise Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 les entreprises peuvent étendre pour répondre aux besoins de l’entreprise. Une zone d’extension est des champs personnalisés d’entreprise (ECFs). ECFs sont des champs de valeur typée qui peuvent être ajoutés à des projets, des ressources et des tâches. Le tableau suivant répertorie les ECFs associer à des projets, des ressources et des tâches et fournit un exemple d’une valeur d’une instance de ce ECF :'
-ms.openlocfilehash: d6c8f97ffc887b33e5d81af8e463cf10502845dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584603"
 ---
-# <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
+# <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
 Project Online est un service Office 365 les entreprises peuvent étendre pour répondre aux besoins de l’entreprise. Une zone d’extension est des champs personnalisés d’entreprise (ECFs). ECFs sont des champs de valeur typée qui peuvent être ajoutés à des projets, des ressources et des tâches. Le tableau suivant répertorie les ECFs associer à des projets, des ressources et des tâches et fournit un exemple d’une valeur d’une instance de ce ECF :
   
@@ -24,9 +24,9 @@ Project Online est un service Office 365 les entreprises peuvent étendre pour r
 |RETOUR SUR INVESTISSEMENT  <br/> |NOMBRE  <br/> |Project  <br/> |2,10  <br/> |
 |Coût total  <br/> |COÛT  <br/> |Project  <br/> |$1,031,514  <br/> |
 |Lancement de l’équipe  <br/> |TEXT  <br/> |Ressources  <br/> |Oui  <br/> |
-|Rôle de position  <br/> |TEXT  <br/> |Ressources  <br/> |Testeur  <br/> |
-|État de l’indicateur  <br/> |INDICATEUR  <br/> |Tâche  <br/> |Non  <br/> |
-|Santé  <br/> |TEXT  <br/> |Tâche  <br/> |Non spécifié  <br/> |
+|Rôle de position  <br/> |TEXT  <br/> |Resources  <br/> |Testeur  <br/> |
+|État de l’indicateur  <br/> |INDICATEUR  <br/> |Task  <br/> |Non  <br/> |
+|Santé  <br/> |TEXT  <br/> |Task  <br/> |Non spécifié  <br/> |
    
 ECFs sont définies au niveau de l’instance Project Web Application (PWA), externe à partir de n’importe quel projet, ressource ou tâche. Ils peuvent encore associés à un projet, la ressource ou la tâche. Cet article fournit un aperçu des champs personnalisés à l’aide d’un exemple d’application d’introduction et se concentre sur la récupération des valeurs ECF. 
   
@@ -205,7 +205,7 @@ La méthode ne vérifie pas si un projet utilise un ECF spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Portail de développement Project](http://dev.office.com/project.aspx)
+- [Portail de développement Project](https://developer.microsoft.com/en-us/project)
 - [Vue d’ensemble : Tables de choix et champs personnalisés d’entreprise](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Local et champs personnalisés d’entreprise](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
 - [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)

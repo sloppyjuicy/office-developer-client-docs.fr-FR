@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: f82c213b6e0737c27c4e979fc90109b38b0746f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e0a66443194a3f89b47218ed9dc0ed9ad9c2df83
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786976"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584512"
 ---
 # <a name="read-only-message-stores"></a>Banques de messages en lecture seule
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une banque de messages en lecture seule est une dans laquelle ni le client MAPI, ni le spouleur MAPI peut cr�er, modifier ou supprimer les objets de la banque de messages. Il existe plusieurs raisons peuvent expliquer pourquoi vous souhaiterez peut-�tre mettre en �uvre une banque de messages en lecture seule. Par exemple, un cabinet de cr�ation de rapports de cr�dit peut utiliser un magasin en lecture seule pour permettre � ses clients ou des employ�s � voir, mais ne modifie pas les rapports de cr�dit individuels. Possibilit� de rendre un message en lecture seule � stocker a des cons�quences de la structure du fournisseur de banque et de la banque elle-m�me. Par exemple, une banque de messages en lecture seule n'est pas un dossier bo�te d'envoi, car, puis les clients MAPI demandait que les nouveaux messages sortants �tre cr��s dans ce dossier. De m�me, il incombe au fournisseur de magasin afin de garantir l'int�grit� du m�canisme de stockage sous-jacent.
   

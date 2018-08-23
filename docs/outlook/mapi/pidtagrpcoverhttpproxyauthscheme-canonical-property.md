@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b8c68c2cd34ba037dc725a7d15575159466d8123
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 33dc327b9e8609a5a1a8a24e131ce4ea1d1e55bf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786610"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583903"
 ---
 # <a name="pidtagrpcoverhttpproxyauthscheme-canonical-property"></a>Propriété canonique PidTagRpcOverHttpProxyAuthScheme
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente le protocole d’authentification à utiliser pour ce profil.
   
@@ -28,7 +28,7 @@ Représente le protocole d’authentification à utiliser pour ce profil.
 |Propriétés associées :  <br/> |PR_ROH_PROXY_AUTH_SCHEME  <br/> |
 |Identificateur :  <br/> |0x6627  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Divers  <br/> |
+|Domaine :  <br/> |Divers  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -73,7 +73,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

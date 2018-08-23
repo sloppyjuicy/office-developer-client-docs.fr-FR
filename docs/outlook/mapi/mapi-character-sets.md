@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fbe63916-b3eb-4ea7-bc42-80a8b0281b03
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3f94823eb3f90ff9ac0f472a2de64e1904920d9c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 5f7da3da8d23b28e13c39570b8f5971cb75a3310
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784583"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582531"
 ---
 # <a name="mapi-character-sets"></a>Jeux de caractères MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Applications clientes compatibles MAPI et les fournisseurs de services peuvent utiliser des caractères ANSI (octet) ou Unicode (deux octets). Jeux de caractères OEM ne sont pas pris en charge. Une chaîne OEM transmis à une méthode MAPI ou la fonction entraînera cette méthode ou la fonction en échec. Les applications clientes qui fonctionnent avec les noms de fichiers dans le jeu de caractères OEM doivent être prudent pour les convertir au format ANSI avant de les passer à une méthode MAPI ou une fonction.
   

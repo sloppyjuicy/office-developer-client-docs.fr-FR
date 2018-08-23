@@ -1,5 +1,5 @@
 ---
-title: PROPRIÉTÉ ENTRYID
+title: ENTRYID
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1b55703c9ad12e3645e6e9cb3dcfcbdf21b90d25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 8540176b7675917dde7c618c40142605e9622282
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783254"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586220"
 ---
-# <a name="entryid"></a>PROPRIÉTÉ ENTRYID
+# <a name="entryid"></a>ENTRYID
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur d’entrée pour un objet MAPI. 
   
@@ -41,7 +41,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **abFlags**
   

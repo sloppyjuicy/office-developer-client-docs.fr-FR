@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5a94968-7e84-4faf-8104-9ea36d35fa1a
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 90f16f33e7e116e124384f9988c0c7dddaad2da5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: efbbffe184e965caae84db54383e1431dfb1a569
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785536"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585821"
 ---
 # <a name="pidlidvalidflagstringproof-canonical-property"></a>Propriété canonique PidLidValidFlagStringProof
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Vérifie si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) a été définie par un agent qui avait la valeur de la propriété **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
   
@@ -33,7 +33,7 @@ Vérifie si la valeur de la propriété **dispidRequest** ([PidLidFlagRequest](p
 |Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
 |ID de type long (capot) :  <br/> |0x000085BF  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -70,7 +70,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Section de formulaire Configuration de fichier [verbes]
+title: Section [Verbes] du fichier de configuration de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5fe1b064b48bc9112a872677fbf5042b7dfe5449
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6a06283e3eb072e1f502d0b1bd303ce9f0733578
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783343"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583973"
 ---
-# <a name="form-configuration-file-verbs-section"></a>Section de formulaire Configuration de fichier [verbes]
+# <a name="form-configuration-file-verbs-section"></a>Section [Verbes] du fichier de configuration de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La section **[verbes]** répertorie l’ensemble complet des verbes pris en charge par le formulaire. Le format de la section **[verbes]** est la suivante : 
   

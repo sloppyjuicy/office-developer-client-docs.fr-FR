@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3fd5a8d92621dcefce66fb42e843f78755fa84df
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 5b067b3bc38df978cd0f4c52beb37579619edc24
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785953"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22583511"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>Propriété canonique PidTagDisplayType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient une valeur utilisée pour associer une icône à une ligne particulière d’une table. 
   
@@ -32,7 +32,7 @@ Contient une valeur utilisée pour associer une icône à une ligne particulièr
 |Propriétés associées :  <br/> |PR_DISPLAY_TYPE  <br/> |
 |Identificateur :  <br/> |0x3900  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Carnet d’adresses MAPI  <br/> |
+|Domaine :  <br/> |Carnet d’adresses MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -146,7 +146,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

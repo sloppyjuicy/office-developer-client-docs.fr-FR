@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 653a9df6ec414aa18c44d8035a59f021d7cc19b8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8cb34360f5a0a3e67aca1ac53fe639724135f594
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784900"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584540"
 ---
 # <a name="message-submission-model"></a>Modèle d’envoi de message
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Envoi du message est effectuée par une série d’appels du spouleur MAPI vers le fournisseur de transport. Les appels sont classés comme suit :
   

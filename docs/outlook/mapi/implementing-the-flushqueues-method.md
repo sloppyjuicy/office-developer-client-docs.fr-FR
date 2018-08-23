@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: baafd8b6437f4febaee9420b274c20ba3242cae6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 01296995adbca2640c8da42b4d06c1c749be3266
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784209"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582412"
 ---
 # <a name="implementing-the-flushqueues-method"></a>Implémentation de la méthode FlushQueues
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le spouleur MAPI utilise la méthode [IXPLogon::FlushQueues](ixplogon-flushqueues.md) pour télécharger tous les messages en attente vers et à partir d’un fournisseur de transport. En règle générale, le spouleur MAPI système vider les files d’attente pour tous les fournisseurs de transport qui sont connectés à la session, commençant par le premier fournisseur de transport tels que définis dans la section ordre de transport de profil de l’utilisateur. Files d’attente de vidage est presque toujours le résultat d’une requête directe par l’utilisateur, afin des envoyer et recevoir des messages pendant la purge des files d’attente sont synchrone pour le spouleur MAPI. Étant donné que ces appels sont synchrones, le fournisseur de transport doit traiter aussi rapidement que possible. 
   

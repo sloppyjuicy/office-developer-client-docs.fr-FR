@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ed3f793e4353cf78949a9df3a17dd3997a573f58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783798"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22586164"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ouvre un formulaire pour créer un nouveau message en fonction de la classe de message du formulaire.
   

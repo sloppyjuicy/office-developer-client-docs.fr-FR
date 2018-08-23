@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aae2e97b987414fc5e46b410465d3232b61f1ffe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 113628ef5487bc66a07d1367c938ed178a8e32ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783275"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582909"
 ---
 # <a name="fbadentrylist"></a>FBadEntryList
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Valide une liste d’identificateurs d’entrée MAPI. 
   
