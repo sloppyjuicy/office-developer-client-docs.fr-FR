@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 979415f1d792f92e593a7073cc84cfd6ba832b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: eb3b3b3c9c2e9cffb77febf9c96baed40ce3f9e8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787060"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22566221"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Copie les propriétés définies par un tableau de structures [SPropValue](spropvalue.md) vers un nouvel emplacement. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 42e2633ac6d534be2c75c47b24c1da5ed9771e18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 013903f36bf648c4aed194c88104e7dd981b199f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784302"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563939"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ressources d’accès dans un message stockent objet d’ouverture de session.
   

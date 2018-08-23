@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: bd2d0a662585e8aba91250786f88dd310fe37e32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: 39f28d5a8e9c8c7f3dfc6a8d09cf022cea08800c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783556"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22563921"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Couches d’une interface **IStorage** sur un objet **IStream** . 
   

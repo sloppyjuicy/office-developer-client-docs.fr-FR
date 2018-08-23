@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d8d8d32bddb98e0ac180b0898478c67297980492
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 09 mars 2015
+ms.openlocfilehash: af5d05ee6d3592694952002c16e16188c3e458a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785763"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22565619"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>Propriété canonique PidTagAttachTag
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur d’objet ASN.1 spécifiant l’application d'où provient d’une pièce jointe. 
   
@@ -32,7 +32,7 @@ Contient un identificateur d’objet ASN.1 spécifiant l’application d'où pro
 |Propriétés associées :  <br/> |PR_ATTACH_TAG  <br/> |
 |Identificateur :  <br/> |0x370A  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Pièce jointe du message  <br/> |
+|Domaine :  <br/> |Pièce jointe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -73,7 +73,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 
