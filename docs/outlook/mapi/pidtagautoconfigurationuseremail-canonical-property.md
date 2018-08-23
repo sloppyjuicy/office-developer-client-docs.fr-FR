@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f7b273be8c123bd9fb9daf7993720cb36a9cbf35
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dbc575345ba2e707dd64e35c11f00a08113f5eee
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785750"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22571212"
 ---
 # <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Propriété canonique PidTagAutoConfigurationUserEmail
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Représente l’adresse e-mail de l’utilisateur.
   
