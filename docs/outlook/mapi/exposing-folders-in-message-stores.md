@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d9309e47-2a92-4576-9921-c89cc48472c2
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0e7b479931b6b2b00dd3927133187fe058b4c6e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 62f50ed7925305eca7432da17130d2be0365ef03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783265"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582594"
 ---
 # <a name="exposing-folders-in-message-stores"></a>Exposition de dossiers des banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaque fournisseur de banque de messages doit pr�senter une interface [IMAPIFolder](imapifolderimapicontainer.md) de niveau sup�rieur pour les applications clientes. Le dossier de niveau sup�rieur correspond au magasin de l'int�gralit� du message ; Il fournit l'acc�s aux dossiers que les utilisateurs voient en tant que le contenu de la banque de messages. En outre, le dossier de niveau sup�rieur est souvent utilis� comme dossier pour les messages IPC et que le dossier de r�ception par d�faut � partir de laquelle lire les rapports sont envoy�s. Les fournisseurs de banque de message doivent �galement pr�senter une sous-arborescence IPM � un ensemble de dossiers utilis� pour contenir des messages IPM � pour les applications clientes. 
   

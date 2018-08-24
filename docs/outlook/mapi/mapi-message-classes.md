@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 27b81c0939aa3e880f3998d33f4717c51bdbe681
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: eecbbb3b806ecaee6c7ceba5c92bd4b713ad1075
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784647"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575139"
 ---
 # <a name="mapi-message-classes"></a>Classes de Message MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Chaque message possède une propriété de classe de message, **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), qui identifie le type, l’objectif ou le contenu du message. **PR_MESSAGE_CLASS** est une propriété requise sur tous les nouveaux messages. Classe d’un message détermine la forme qui est utilisée pour présenter le message à l’utilisateur et le dossier pour placer les messages entrants. 
   

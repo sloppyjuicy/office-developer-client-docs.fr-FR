@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 7c1267a7b7cf479b62d8b8200573c9b3536f7d04
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c074067039ed1d3ef064ddba0b6717b302f652e6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786199"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595439"
 ---
 # <a name="pidtagmailboxownername-canonical-property"></a>Propriété canonique PidTagMailboxOwnerName
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Affiche le nom du propriétaire de la boîte aux lettres.
   
@@ -32,7 +32,7 @@ Affiche le nom du propriétaire de la boîte aux lettres.
 |Propriétés associées :  <br/> |PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, PR_MAILBOX_OWNER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x001F  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_UNICODE  <br/> |
-|Zone :  <br/> |Banque de messages  <br/> |
+|Domaine :  <br/> |Banque de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -64,7 +64,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

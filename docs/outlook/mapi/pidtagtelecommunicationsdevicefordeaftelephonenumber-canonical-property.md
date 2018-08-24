@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: aa6510e74030407015330ed6f0259d50559c09d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 81e3fca956fcfb8aa5285a30aa2254b721847850
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786875"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584757"
 ---
 # <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propriété canonique PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un appareil de télécommunications de l’utilisateur de messagerie pour le malentendants () téléphone TTYTDD.
   
@@ -32,7 +32,7 @@ Contient un appareil de télécommunications de l’utilisateur de messagerie po
 |Propriétés associées :  <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |Identificateur :  <br/> |0x3A4B  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Utilisateur de messagerie MAPI  <br/> |
+|Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -72,7 +72,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

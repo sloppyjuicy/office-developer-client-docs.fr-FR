@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0ffaf5909c978059343067c93a2b30f5969327e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a5504711bdeac4ef94cbe47395ceb8163b60ad68
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784098"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584330"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit une vue en lecture seule d’une table. **IMAPITable** est utilisée par les clients et les fournisseurs de services pour manipuler l’apparence d’un tableau. 
   
@@ -51,7 +51,7 @@ Fournit une vue en lecture seule d’une table. **IMAPITable** est utilisée par
 |[SeekRowApprox](imapitable-seekrowapprox.md) <br/> |Déplace le curseur à une position en fraction approximative dans le tableau.  <br/> |
 |[QueryPosition](imapitable-queryposition.md) <br/> |Extrait la position de ligne de tableau en cours du curseur, basée sur une valeur décimale.  <br/> |
 |[FindRow](imapitable-findrow.md) <br/> |Trouve la ligne suivante dans une table qui répond aux critères de recherche spécifiques.  <br/> |
-|[Restreindre](imapitable-restrict.md) <br/> |Applique un filtre à une table, réduisant la ligne valeur uniquement les lignes correspondant aux critères spécifiés.  <br/> |
+|[Restrict](imapitable-restrict.md) <br/> |Applique un filtre à une table, réduisant la ligne valeur uniquement les lignes correspondant aux critères spécifiés.  <br/> |
 |[CreateBookmark](imapitable-createbookmark.md) <br/> |Marque la position actuelle de la table.  <br/> |
 |[FreeBookmark](imapitable-freebookmark.md) <br/> |Libère la mémoire associée à un signet.  <br/> |
 |[SortTable](imapitable-sorttable.md) <br/> |Trie les lignes de la table en fonction des critères de tri.  <br/> |

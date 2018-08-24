@@ -1,23 +1,23 @@
 ---
-title: Hiérarchie d’état du téléchargement
+title: Télécharger l’état de la hiérarchie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d53790cb51b660c781190cf41ca317c823a021e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3ed24682086556addf76b8451674a73bd82ce050
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787432"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572185"
 ---
-# <a name="upload-hierarchy-state"></a>Hiérarchie d’état du téléchargement
+# <a name="upload-hierarchy-state"></a>Télécharger l’état de la hiérarchie
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état de la hiérarchie de téléchargement de l’ordinateur d’état de réplication. 
   
@@ -47,7 +47,7 @@ Lorsque l’état de la hiérarchie de téléchargement se termine, la banque lo
   
 [Constantes MAPI](mapi-constants.md)
   
-[Sur l’ordinateur de l’état de réplication](about-the-replication-state-machine.md)
+[À propos de la machine à états de réplication](about-the-replication-state-machine.md)
   
 [SYNCSTATE](syncstate.md)
 

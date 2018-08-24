@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: faf3d48b63d1858a2b91f66c83d9ce08e9daa02b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: c8032172ef19fbb01af68058b2e0255e269183a8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784315"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587893"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>Interaction avec le spouleur MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Les méthodes dans le [IXPLogon : IUnknown](ixplogoniunknown.md) interface utilisés par le spouleur MAPI lors de l’appel du fournisseur de transport. Il doit être possible, pour la plupart des types de fournisseurs de transport pour implémenter la plupart de ces méthodes pour qu’elles retournent rapidement. Il est souhaitable, car si une méthode prend beaucoup de temps à retourner puis il doit être divisée avec appelle de nouveau le spouleur MAPI pour libérer de l’UC pour d’autres tâches. 
   

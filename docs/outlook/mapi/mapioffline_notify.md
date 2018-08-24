@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9d8eb3f2c52f20ffe57d84823a0ed736337b4d9b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b18a4ae4ee25898d1100d9763714e5be21c69fd8
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784762"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580725"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Il s’agit de la notification d’une modification dans l’état de connexion. Elle indique la partie de l’état de connexion qui a été modifié, l’état de connexion ancien et le nouvel état de connexion.
   
@@ -42,7 +42,7 @@ typedef struct
 } MAPIOFFLINE_NOTIFY;
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  _ulSize_
   
@@ -94,7 +94,7 @@ Il est possible qu’Outlook indique d’autres modifications ne sont pas pris e
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’API d’état en mode hors connexion](about-the-offline-state-api.md)  
+- [À propos de l’API d’état hors connexion](about-the-offline-state-api.md)  
 - [Constantes MAPI](mapi-constants.md)  
 - [MAPIOFFLINE_NOTIFY_TYPE](mapioffline_notify_type.md)
 

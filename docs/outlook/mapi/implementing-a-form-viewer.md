@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’une visionneuse de formulaire
+title: Implémentation d’une visionneuse de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 645f98342b4b3ec2bebf3f233f719bd5cae69da9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: ad0da261b3059ca83f2d547c25a508ec9337aa72
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784151"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584743"
 ---
-# <a name="implementing-a-form-viewer"></a>L’implémentation d’une visionneuse de formulaire
+# <a name="implementing-a-form-viewer"></a>Implémentation d’une visionneuse de formulaire
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une visionneuse de formulaire comprend trois objets : un site de message, un affichage de notification récepteur et un contexte de vue. Chacun de ces objets vous permet d’interagir avec un serveur de la forme et ses formes.
   

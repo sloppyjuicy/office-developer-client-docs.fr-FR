@@ -1,5 +1,5 @@
 ---
-title: Une Notification de temporisation
+title: Minutage d’une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6981a3b0-96eb-44a2-b051-1c5efc70e9e3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9ee999841b53f358dcee85d4d92c5056f665dbf1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: b4b0292ab16eabe30755fe84885a29fb8e3ce295
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787352"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595194"
 ---
-# <a name="timing-a-notification"></a>Une Notification de temporisation
+# <a name="timing-a-notification"></a>Minutage d’une notification
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Notification d’événement étant un processus asynchrone, vous pouvez être averti à tout moment, pas nécessairement immédiatement après que l’événement s’est produite.
   

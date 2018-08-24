@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 884bbad509e459d4f329e6468dd99124cec6c7d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786090"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573935"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propriété canonique PidTagInitialDetailsPane
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la page d’un modèle d’affichage pour afficher le premier.
   
@@ -32,7 +32,7 @@ Indique la page d’un modèle d’affichage pour afficher le premier.
 |Propriétés associées :  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
 |Identificateur :  <br/> |0x3F08  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Afficher des Tables MAPI  <br/> |
+|Domaine :  <br/> |Afficher des Tables MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

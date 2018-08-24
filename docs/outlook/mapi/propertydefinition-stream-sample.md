@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3d0c337bd3e5a73bbbcbb72a109320cfb84efd50
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: fc216302cb68be4b0e9d57f60f491adebcba1975
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786952"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22573928"
 ---
 # <a name="propertydefinition-stream-sample"></a>Exemple de flux de la définition PropertyDefinition
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit un exemple d’un flux de la définition PropertyDefinition. Le flux contient une définition d’un champ défini par l’utilisateur, `TextField1`. Le type est **texte**, et la définition est au format PropDefV2.
   
@@ -102,9 +102,9 @@ Vous trouverez ci-dessous une analyse des données pour le flux de la définitio
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Les champs et les éléments outlook](outlook-items-and-fields.md)
-- [Structures de flux de données](stream-structures.md)
-- [La définition PropertyDefinition flux Structure](propertydefinition-stream-structure.md)
+- [Champs et éléments Outlook](outlook-items-and-fields.md)
+- [Structures de flux](stream-structures.md)
+- [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 - [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)
 - [Structure de flux SkipBlock](skipblock-stream-structure.md)
 - [Structure de flux FirstSkipBlockContent](firstskipblockcontent-stream-structure.md)

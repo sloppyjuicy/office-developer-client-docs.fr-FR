@@ -1,5 +1,5 @@
 ---
-title: Fournisseur de transport et spouleur MAPI modèle opérationnel
+title: Fournisseur de transport et modèle opérationnel de spouleur MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 0e6c38091e5b2e10e82012bc470ea41037f57c7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 26d9982248fde015a584eb79cc248bafc5afc6bb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787384"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594032"
 ---
-# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Fournisseur de transport et spouleur MAPI modèle opérationnel
+# <a name="transport-provider-and-mapi-spooler-operational-model"></a>Fournisseur de transport et modèle opérationnel de spouleur MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Initialisation de fournisseur de transport, démarrage, traitement, l’arrêt et deinitialization sont effectuées par une série d’appels du spouleur MAPI vers le fournisseur de transport. Les appels sont classés comme suit :
   

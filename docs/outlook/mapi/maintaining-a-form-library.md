@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5ccb5a2881d3cef3ff21a106e7e9ea33e0aedd9e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6713055837e3b9b664d5fa1465c9a889919ee5ed
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784538"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590091"
 ---
 # <a name="maintaining-a-form-library"></a>Maintenance d’une bibliothèque de formulaires
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une bibliothèque de formulaires conserve toutes les informations importantes sur un formulaire : ses propriétés, ses verbes et les fichiers exécutables de son serveur. Certains clients permettent à leurs utilisateurs à mettre à jour, installer ou supprimer des serveurs de formulaire. Si vous souhaitez offrir cette fonctionnalité à vos utilisateurs, vous devez avoir accès à :
   

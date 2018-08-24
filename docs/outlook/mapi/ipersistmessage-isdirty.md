@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: e748427b39418a80cae88e98b4aa7eef6df24393
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784366"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22576203"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Vérifie le formulaire pour que les modifications qui ont été apportées depuis le dernier enregistrement.
   

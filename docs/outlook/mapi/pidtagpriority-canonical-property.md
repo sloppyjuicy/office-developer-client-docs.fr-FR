@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0f3a628f-5f8e-4716-98cc-868bd3400ba9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 67f482e347db1b69a248c542f2cb172c41d6f9f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 1e69211c15a3a05b3396dc1510483fddafe3faeb
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786428"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588607"
 ---
 # <a name="pidtagpriority-canonical-property"></a>Propriété canonique PidTagPriority
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique la priorité relative d’un message.
   
@@ -32,7 +32,7 @@ Indique la priorité relative d’un message.
 |Propriétés associées :  <br/> |PR_PRIORITY  <br/> |
 |Identificateur :  <br/> |0x0026  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Courier électronique  <br/> |
+|Domaine :  <br/> |E-mail  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -84,7 +84,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

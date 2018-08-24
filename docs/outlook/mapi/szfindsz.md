@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0cc8f25271d1494ebdaca82caa2e77839f299276
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787324"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22585121"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Recherche la première occurrence d’une sous-chaîne terminée dans une chaîne. 
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5d7e3e89f15b1bc08c7ce9faab0d0a6326300e70
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1c48ceefa84658b236b8dfa4e10df18c175d920e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783986"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595159"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Crée un objet de prise en charge de service de message.
   

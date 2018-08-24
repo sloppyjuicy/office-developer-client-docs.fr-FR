@@ -1,5 +1,5 @@
 ---
-title: Prise en charge de texte RTF pour les fournisseurs de banque de messages
+title: Prise en charge de texte RTF pour les fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0022fe70-cf11-49a5-9c97-a6bc5b5b13aa
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: d7d64c8a7d4df4898502f4574ca879c736547b37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 3e65ebd3ea485ca54978d622e8aaf093dc5eff74
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787316"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594067"
 ---
-# <a name="supporting-rtf-text-for-message-store-providers"></a>Prise en charge de texte RTF pour les fournisseurs de banque de messages
+# <a name="supporting-rtf-text-for-message-store-providers"></a>Prise en charge de texte RTF pour les fournisseurs de banques de messages
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Certaines applications de client permettent aux utilisateurs d’utiliser le texte RTF (RICH Text Format) dans leurs messages. Si votre message stocker le fournisseur doit prendre en charge de texte RTF dans les messages, il doit gérer la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), en plus de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Cela signifie principalement, stockant les deux propriétés et à s’assurer que **PR_BODY** contient une version en texte brut du texte **PR_RTF_COMPRESSED**. La fonction [RTFSync](rtfsync.md) est utile à cet effet. 
   

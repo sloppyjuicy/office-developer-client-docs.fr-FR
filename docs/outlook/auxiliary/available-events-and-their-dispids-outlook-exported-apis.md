@@ -1,5 +1,5 @@
 ---
-title: Événements disponibles et leurs DISPID (Outlook exportée API)
+title: Événements disponibles et leur DISPID (Outlook des API exportées)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,18 +7,18 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: Cette section décrit les identificateurs de répartition pour les événements Outlook rend disponible.
-ms.openlocfilehash: 1542ff85579346a3674593e9ea38115170df2237
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a94787063e0fd5be30de1ef772813979d3cb2f21
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782558"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582972"
 ---
-# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Événements disponibles et leurs DISPID (Outlook exportée API)
+# <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Événements disponibles et leur DISPID (Outlook des API exportées)
 
 Cette section décrit les identificateurs de répartition pour les événements Outlook rend disponible.
   
-Outlook expose les identificateurs d’expédition suivants (DISPID) pour permettre aux compléments C++ écouter et gérer les événements à partir de la fonction [IDispatch::Invoke](http://msdn.microsoft.com/library/automat.idispatch_invoke%28Office.15%29.aspx) correspondants. 
+Outlook expose les identificateurs d’expédition suivants (DISPID) pour permettre aux compléments C++ écouter et gérer les événements à partir de la fonction [IDispatch::Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) correspondants. 
   
 |**Constante**|**DISPID, événement**|**Description**|**Paramètres**|**Remarques**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -29,8 +29,8 @@ Pour obtenir un exemple d’utilisation d’un dispid pour écouter et gérer un
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Outlook des API exportées](outlook-exported-apis.md)
+- [API exportées Outlook](outlook-exported-apis.md)
 - [Constantes (Outlook des API exportées)](constants-outlook-exported-apis.md)
-- [À propos de l’API exporté par Outlook](about-apis-exported-by-outlook.md)
+- [À propos des API exportées par Outlook](about-apis-exported-by-outlook.md)
 - [Récepteurs d’événements Outlook 2002/XP de mise en œuvre dans MFC C++ .NET 2003](http://www.codeproject.com/Articles/4230/Implementing-Outlook-2002-XP-Event-Sinks-in-MFC-C)
 

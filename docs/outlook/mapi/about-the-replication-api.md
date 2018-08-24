@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 50b36ee60d00e06a1f5baa8726b5f27c4a3e6ce7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782843"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582321"
 ---
 # <a name="about-the-replication-api"></a>À propos de l’API de réplication
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 L’API de réplication fournit les fonctionnalités pour un fournisseur de magasin de message MAPI synchroniser des éléments Microsoft Outlook 2013 ou Microsoft Outlook 2010 entre un serveur et un magasin local privé basée sur .pst est créé pour ce fournisseur. 
   
@@ -70,7 +70,7 @@ Types de données :
     
 - **[SKEY](skey.md)**
     
-- **[SYNCHRONISATION](sync.md)**
+- **[SYNC](sync.md)**
     
 - **[SYNCCONT](synccont.md)**
     

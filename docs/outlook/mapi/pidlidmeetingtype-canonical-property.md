@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: e61ce7798c9e41dbb707d0d5773b116f7cce02d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ebc7ed4563040e16c71e1df1094667f87a4c09b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785285"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572367"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriété canonique PidLidMeetingType
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Indique le type de demande de réunion ou de mise à jour de la réunion.
   
@@ -33,7 +33,7 @@ Indique le type de demande de réunion ou de mise à jour de la réunion.
 |Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
 |ID de type long (capot) :  <br/> |0x00000026  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Zone :  <br/> |Réunions  <br/> |
+|Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -74,7 +74,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

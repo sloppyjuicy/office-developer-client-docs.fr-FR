@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 17c9a7ba54d7dd0b4d97c06f6343e563223f8100
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 90fe316bfd11d712f02187b6a569450b747a6409
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783841"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587928"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit l’accès à la session MAPI en cours associé à l’objet de prise en charge. Fournisseurs MAPI peuvent interroger l’objet de prise en charge MAPI pour cette interface. Pour plus d’informations sur les objets de prise en charge, voir [Présentation de l’objet prend en charge](support-object-overview.md).
   
@@ -50,5 +50,5 @@ Fournit l’accès à la session MAPI en cours associé à l’objet de prise en
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Prise en charge de la vue d’ensemble de l’objet](support-object-overview.md)
+[Vue d’ensemble de l’objet de prise en charge](support-object-overview.md)
 

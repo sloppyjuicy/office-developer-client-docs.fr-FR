@@ -1,5 +1,5 @@
 ---
-title: L’implémentation du fournisseur de Service d’ouverture de session
+title: Implémentation d’une ouverture de session de fournisseur de services
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: eb64f2780530fd30784bf9a9b197bcde205b4a5a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784195"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589552"
 ---
-# <a name="implementing-service-provider-logon"></a>L’implémentation du fournisseur de Service d’ouverture de session
+# <a name="implementing-service-provider-logon"></a>Implémentation d’une ouverture de session de fournisseur de services
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI appelle une méthode dans votre objet de fournisseur pour commencer le processus d’ouverture de session en utilisant le pointeur vous renvoyez à partir de la fonction de point d’entrée. La méthode varie comme suit, en fonction du type de votre fournisseur de services :
   

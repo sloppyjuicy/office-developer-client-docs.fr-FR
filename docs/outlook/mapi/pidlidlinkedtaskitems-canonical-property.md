@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee735ae8-e527-4538-a633-c3f57a36f0a1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: d91e7ceb877a4f1a7ce10d33e1a25a8773db0547
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f1d7174d6af73b74be7dbba6065ad799a728ae41
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785269"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594515"
 ---
 # <a name="pidlidlinkedtaskitems-canonical-property"></a>Propriété canonique PidLidLinkedTaskItems
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Spécifie une liste de la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) des tâches liées au calendrier. 
   
@@ -33,7 +33,7 @@ Spécifie une liste de la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentr
 |Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
 |ID de type long (capot) :  <br/> |0x0000820C  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Zone :  <br/> |Tâche  <br/> |
+|Domaine :  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

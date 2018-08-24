@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: dc7fa8b546783819b701604a5e489f0fd030ae86
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ffc47e924b7a0f94db66adbffe01b2cdc619dc8c
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783513"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580732"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajoute ou déplacer des colonnes au début d’une table existante.
   

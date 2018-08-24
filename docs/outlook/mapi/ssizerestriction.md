@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 134eb844ef7b72d396c300b27a87a3a7ae320cf1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 990fe49d39a73c5bf80b9fdda96d2e5997869edf
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787258"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595418"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit une restriction de taille qui est utilisée pour tester la taille d’une valeur de propriété. 
   
@@ -41,7 +41,7 @@ typedef struct _SSizeRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **RelOp**
   

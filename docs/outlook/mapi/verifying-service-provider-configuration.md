@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 047a3b99b2d615984252071a1264521a4b2240f8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f6190b2860e227b24b34e31a4ee9741468383460
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787461"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589636"
 ---
 # <a name="verifying-service-provider-configuration"></a>Vérification de la configuration de fournisseur de service
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Votre méthode d’ouverture de session ([IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md)) doit vérifier la configuration de votre fournisseur. Cela consiste à vérifier que toutes les propriétés nécessaires pour l’opération complète sont correctement définies. Chaque fournisseur nécessite un nombre différent de propriétés. configuration dépend de votre fournisseur et le degré d’interaction utilisateur que vous autorisez. Certains fournisseurs de services conserver toutes les propriétés nécessaires dans le profil. 
 
@@ -45,11 +45,11 @@ En cas de votre fournisseur de services de la méthode d’ouverture de session 
   
 L’illustration suivante montre la logique requise pour la configuration de votre méthode d’ouverture de session service fournisseur. 
   
-**Organigramme de vérification de configuration**
+**Diagramme de flux de vérification de la configuration**
   
 ![Organigramme de vérification de configuration] (media/amapi_62.gif "Organigramme de vérification de configuration")
   
 ## <a name="see-also"></a>Voir aussi
 
-- [L’implémentation du fournisseur de Service d’ouverture de session](implementing-service-provider-logon.md)
+- [Implémentation d’une ouverture de session de fournisseur de services](implementing-service-provider-logon.md)
 

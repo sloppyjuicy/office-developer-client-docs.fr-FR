@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 37b360ae6ef5b9df37d2bbf096459836db40e33c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786233"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584736"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriété canonique PidTagMessageDeliveryId
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient un identificateur de système (MTS) de transfert de message pour les messages remis à une application cliente.
   
@@ -32,7 +32,7 @@ Contient un identificateur de système (MTS) de transfert de message pour les me
 |Propriétés associées :  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Identificateur :  <br/> |0x001B  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -54,7 +54,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

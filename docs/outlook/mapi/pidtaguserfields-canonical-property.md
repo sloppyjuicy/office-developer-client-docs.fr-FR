@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5abfd9c98c5a83ca45792f094d0c9573b8affb85
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a584c6beec0f06ab4cc6bd95f4611d1f30189a8e
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786899"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595152"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>Propriété canonique PidTagUserFields
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient le nom du type de données et autres informations sur un champ défini par l’utilisateur.
   
@@ -28,7 +28,7 @@ Contient le nom du type de données et autres informations sur un champ défini 
 |Propriétés associées :  <br/> |PR_USERFIELDS  <br/> |
 |Identificateur :  <br/> |0x36E3  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Dossier MAPI  <br/> |
+|Domaine :  <br/> |Dossier MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -59,17 +59,17 @@ Mapidefs.h
 
 
 
-[Les champs et les éléments outlook](outlook-items-and-fields.md)
+[Champs et éléments Outlook](outlook-items-and-fields.md)
   
-[Ajoutez une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Ajout d’une définition pour un nouveau champ défini par l’utilisateur](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
-[Exemple de flux de la définition PropertyDefinition](propertydefinition-stream-sample.md)
+[Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
   
 [Propriétés MAPI](mapi-properties.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: ff46c58fbb352d56ae3df09d6949cdd5f614673f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 83194b47faf7892d5da568a354921511eb097210
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783354"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582951"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit les informations de configuration de l’impression de l’objet de formulaire. 
   
@@ -43,7 +43,7 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulFlags**
   

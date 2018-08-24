@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 554f98f7bda8c6616ce06b86142213c18bff1f69
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787488"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584764"
 ---
 # <a name="writing-a-remote-viewer"></a>Écriture d’une visionneuse à distance
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une visionneuse à distance est une fenêtre dans une application cliente qui fournit un accès contrôlé aux messages stockés sur un autre ordinateur. Ce contrôle d’accès peut fonctionner sur une liaison lente. Au lieu d’extraire une sélection de messages disponibles chaque fois qu’un utilisateur ouvre un dossier, la visionneuse à distance affiche uniquement les en-têtes. L’utilisateur sélectionne ensuite les en-têtes à partir de laquelle des messages pour afficher entièrement. Clients distants visionneuse permettent à leurs utilisateurs de supprimer des messages avant de les télécharger jamais. 
   

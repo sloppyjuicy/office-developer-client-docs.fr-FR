@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 775dc1b5fdcf40867f67fbab25879bd97de24f4a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783292"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594508"
 ---
 # <a name="fielddefinition-stream-structure"></a>Structure de flux FieldDefinition
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une structure de flux FieldDefinition contient la définition de champ d’un champ défini par l’utilisateur, ou un ensemble de paramètres de liaison de données pour un champ intégré.
   
@@ -89,7 +89,7 @@ Vous pouvez manipuler par programme une structure de flux FieldDefinition si la 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Les champs et les éléments outlook](outlook-items-and-fields.md)
-- [Structures de flux de données](stream-structures.md)
-- [La définition PropertyDefinition flux Structure](propertydefinition-stream-structure.md)
+- [Champs et éléments Outlook](outlook-items-and-fields.md)
+- [Structures de flux](stream-structures.md)
+- [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 

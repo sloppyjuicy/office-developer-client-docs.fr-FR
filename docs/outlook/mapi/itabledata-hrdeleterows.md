@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 00662d7a5bf1c2addc5c4e0b39d657abd7073753
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 753067c8c0af15a44e0f3b71f6122d8683db4a98
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784458"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572108"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Supprime plusieurs lignes de tableau.
   
@@ -73,7 +73,7 @@ Suppression de lignes ne réduit pas les colonnes aux tableaux existants ou ouve
 
 
 
-[Create table](createtable.md)
+[CreateTable](createtable.md)
   
 [ITableData::HrDeleteRow](itabledata-hrdeleterow.md)
   

@@ -1,5 +1,5 @@
 ---
-title: L’implémentation d’ouverture de fournisseur du carnet d’adresses et de fermeture de session
+title: Implémentation d’ouverture et de fermeture de session de fournisseur de carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 1ffde0814fe5024a3f89a93462c48136712f1013
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f26e7b7ec607c9714012870d5367a0e775c62f34
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784175"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572101"
 ---
-# <a name="implementing-address-book-provider-logon-and-logoff"></a>L’implémentation d’ouverture de fournisseur du carnet d’adresses et de fermeture de session
+# <a name="implementing-address-book-provider-logon-and-logoff"></a>Implémentation d’ouverture et de fermeture de session de fournisseur de carnet d’adresses
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournisseurs de carnet d’adresses en charge d’ouverture de session et de fermeture de session en implémentant les méthodes de le [IABProvider : IUnknown](iabprovideriunknown.md) interface. Le ** IABProvider ** interface hérite directement à partir de **IUnknown** et ajoute deux autres méthodes : **ouverture de session** et **d’arrêt**. 
   
-## <a name="logoff"></a>Fermeture de session
+## <a name="logoff"></a>Logoff
 
 MAPI appelle votre méthode de fournisseur [IABProvider::Logon](iabprovider-logon.md) au début de chaque session et chaque fois que votre fournisseur est ajouté au profil actif et le client prend en charge la reconfiguration dynamique. Lorsque la méthode **IABProvider::Logon** appels MAPI, votre fournisseur de carnet d’adresses commence son processus d’ouverture de session. 
   

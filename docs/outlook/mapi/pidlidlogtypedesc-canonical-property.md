@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 71bee7321c9b9e2425c70b2377961b74c0df8e73
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7c07e3c62c5279c8c0f04506d0aff3cb0a1d8ed1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19785288"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22572619"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>Propriété canonique PidLidLogTypeDesc
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Décrit l’activité en cours d’enregistrement.
   
@@ -33,7 +33,7 @@ Décrit l’activité en cours d’enregistrement.
 |Jeu de propriétés :  <br/> |PSETID_Log  <br/> |
 |ID de type long (capot) :  <br/> |0x00008712  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Zone :  <br/> |Journal  <br/> |
+|Domaine :  <br/> |Journal  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -61,7 +61,7 @@ Mapidefs.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

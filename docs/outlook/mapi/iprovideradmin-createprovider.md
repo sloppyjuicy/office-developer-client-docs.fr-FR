@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 01cc8a8a54137b72091abab3671c08b526ef9e31
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: f76b44b3718f08eb68fc956ad4480d4327cb0656
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784418"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22578625"
 ---
 # <a name="iprovideradmincreateprovider"></a>IProviderAdmin::CreateProvider
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Ajoute un fournisseur de services pour le service de message. 
   

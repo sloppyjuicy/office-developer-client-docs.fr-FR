@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 54e65b23-7c5f-4ef3-9e32-329f5f461e1e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 5c4253e56e0488b7de983b6d7e8af973cef69f6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 37a79d0106de9ec2e75e8ea3954105d7ebaa52b5
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786702"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595278"
 ---
 # <a name="pidtagscheduleinfofreebusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusy
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient des informations obsolètes.
   
@@ -32,7 +32,7 @@ Contient des informations obsolètes.
 |Propriétés associées :  <br/> |PR_SCHDINFO_FREEBUSY  <br/> |
 |Identificateur :  <br/> |0x686C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Informations de disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -68,7 +68,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

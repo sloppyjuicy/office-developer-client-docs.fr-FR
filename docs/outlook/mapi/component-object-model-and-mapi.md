@@ -1,5 +1,5 @@
 ---
-title: MAPI et component Object Model
+title: COM (Component Object Model) et MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: cf687a7bfadb0981ca3440c2f81bc5de8f910924
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 605de2a1aa93a4f02277700b1aa49f7d43728a07
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783066"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582937"
 ---
-# <a name="component-object-model-and-mapi"></a>MAPI et component Object Model
+# <a name="component-object-model-and-mapi"></a>COM (Component Object Model) et MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La documentation du Kit de développement logiciel Windows comprend des informations complètes sur les règles d’implémentation des objets qui sont conformes à l’objet COM (Component Model). Ces règles expliquent comment effectuer les opérations suivantes :
   

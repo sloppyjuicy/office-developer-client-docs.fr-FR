@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ed87a2a6e3232cec492da6be032cf54cd66c3772
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 81f35f659342d6258d60f40b12bd0a3ac2dc20b2
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783587"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588474"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Effectue la résolution de noms pour une ou plusieurs entrées de destinataire.
   

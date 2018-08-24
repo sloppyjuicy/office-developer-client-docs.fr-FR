@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 9dc368e6502bbb14cf42f6bc5a08fd2893f98bf6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784049"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594984"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Fournit des informations qui sont affichent dans la boîte de dialogue d’envoi/réception. Si vous rencontrez des erreurs lors de la synchronisation, le fournisseur de banque appelle cette fonction.
   

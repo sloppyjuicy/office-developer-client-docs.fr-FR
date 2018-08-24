@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 0eb6d62b64595474957415e94275d0ac52cc2b6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783577"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22580704"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Donne accès aux conteneurs de carnet d’adresses. Applications clientes et MAPI appellent les méthodes **IABContainer** pour effectuer la résolution de noms et pour créer, copier et supprimer des destinataires. 
   

@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a51547e6-8f0e-45f4-a341-3cfa735112c2
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 22b9da0cfe70cf499cc6f3a699eabe4aaee25b0f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: dbc56b7334d3966696641a84f23a64ce3802e3e4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787389"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595271"
 ---
 # <a name="transport-provider-overview"></a>Vue d’ensemble du fournisseur de transport
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur de transport est une bibliothèque de liens dynamiques (DLL) qui joue le rôle d’intermédiaire entre le sous-système MAPI et un ou plusieurs systèmes de messagerie sous-jacent. Un système de messagerie est un mécanisme spécifique à laquelle les messages sont envoyés et reçus. Quelques exemples de systèmes de messagerie sont les suivants :
   

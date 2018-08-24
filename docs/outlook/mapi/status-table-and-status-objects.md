@@ -1,5 +1,5 @@
 ---
-title: Table d’état et les objets d’état
+title: Table de statut et objets de statut
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 774aaea0365066981b9d6426a2579160f6578844
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787254"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590063"
 ---
-# <a name="status-table-and-status-objects"></a>Table d’état et les objets d’état
+# <a name="status-table-and-status-objects"></a>Table de statut et objets de statut
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 MAPI fournit un tableau avec des informations sur l’état du sous-système MAPI, spouleur MAPI, carnet d’adresses ou un fournisseur de services. Vous pouvez accéder à ce tableau en appelant [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
   
@@ -59,7 +59,7 @@ Ne pensez pas pouvoir appeler **dialogue** ou [ChangePassword](imapistatus-chang
 
 
 
-[Tableaux d’état](status-tables.md)
+[Tables des états](status-tables.md)
   
 [Objets d’état MAPI](mapi-status-objects.md)
 

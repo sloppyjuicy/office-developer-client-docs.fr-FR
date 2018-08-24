@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a246d1aa-a08c-4687-a24e-168803cfdd6f
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: c119a47acce4f5a97892e7d0856540b73db1b390
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 02e8e7ce3984f0fb61e5721c6db0db54baac9667
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786472"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22575041"
 ---
 # <a name="pidtagpstpath-canonical-property"></a>Propriété canonique PidTagPstPath
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’emplacement de l’objet de la banque de dossiers personnels pour créer ou configurer.
   
@@ -30,7 +30,7 @@ Contient l’emplacement de l’objet de la banque de dossiers personnels pour c
 |Propriétés associées :  <br/> |PR_PST_PATH, PR_PST_PATH_A, PR_PST_PATH_W  <br/> |
 |Identificateur :  <br/> |0x6700  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Zone :  <br/> |Tableau de stockage personnel (.pst) interne  <br/> |
+|Domaine :  <br/> |Tableau de stockage personnel (.pst) interne  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -58,7 +58,7 @@ MAPITAGS.h
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
 

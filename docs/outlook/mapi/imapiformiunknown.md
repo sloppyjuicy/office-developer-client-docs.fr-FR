@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fce8bc45d5cc87c238288653ab989b62076ad451
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783799"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587130"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Permet de visionneuses de formulaire travailler avec des contextes d’affichage de formulaire et les notifications de formulaire, effectuer des verbes formulaire et arrêt de formulaires.
   

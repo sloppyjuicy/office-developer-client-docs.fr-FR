@@ -1,5 +1,5 @@
 ---
-title: Agissant comme un fournisseur de carnet d’adresses hôte
+title: Rôle de fournisseur de carnet d’adresses hôte
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f06a1034-ee49-4a09-831e-9752713228a8
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: cf52062eacbd13b45087df9d8558bffd43ccd744
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: de0acb88eee6addc0347f5281e5fbe5070bad0a4
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782880"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22595406"
 ---
-# <a name="acting-as-a-host-address-book-provider"></a>Agissant comme un fournisseur de carnet d’adresses hôte
+# <a name="acting-as-a-host-address-book-provider"></a>Rôle de fournisseur de carnet d’adresses hôte
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur d’hébergement est un fournisseur de carnet d’adresses qui inclut les destinataires à partir d’autres fournisseurs dans ses conteneurs et s’appuie sur l’implémentation des destinataires par les autres fournisseurs partiellement contrôler leur maintenance. Un fournisseur d’hébergement utilise les identificateurs de modèle de ces destinataires étrangers pour lier les données pour ces destinataires au code dans le fournisseur étranger. Ce processus de liaison est déclenché lorsque votre fournisseur récupère la propriété **PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) d’un destinataire et lui passe un appel à [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
   

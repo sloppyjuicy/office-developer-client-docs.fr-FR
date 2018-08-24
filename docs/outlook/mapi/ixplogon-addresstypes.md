@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: a7bb1aca501e24843950114bb76b6a09b20f2467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 65d633f0c2b0ce56793eaa55a417b5d6a816d449
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784496"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22589846"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Renvoie les types de destinataires qui gère le fournisseur de transport.
   

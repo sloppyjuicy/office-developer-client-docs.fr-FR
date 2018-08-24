@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b328a65f400e424fb2cd177e710fb8bcffa392c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784551"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587921"
 ---
 # <a name="mapi-address-book"></a>Carnet d'adresses MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Le carnet d'adresses int�gr� est un objet qui impl�mente la MAPI pour fournir l'acc�s � une collection int�gr�e d'informations sur les adresses de tous les fournisseurs de carnet d'adresses dans le profil. Avec le carnet d'adresses, les fournisseurs de services et les applications clientes n'ont pas faire la distinction entre les mod�les d'adressage uniques des syst�mes de messagerie. Au lieu de cela, ils peuvent consulter les adresses des destinataires dans n'importe quel syst�me de messagerie, dans la mesure o� le fournisseur de carnet d'adresses pour le syst�me de messagerie est install�.
   

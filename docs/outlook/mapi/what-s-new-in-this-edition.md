@@ -1,5 +1,5 @@
 ---
-title: Quelles sont les nouveautés de cette édition
+title: Nouveautés dans cette édition
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 4ffd92f44f1fe88b840e8f8119a92d2048f4f526
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7325c42fe7e9c1e043609d5503a3782522f76188
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787459"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22590056"
 ---
-# <a name="whats-new-in-this-edition"></a>Quelles sont les nouveautés de cette édition
+# <a name="whats-new-in-this-edition"></a>Nouveautés dans cette édition
 
  
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 La référence Microsoft Outlook 2013 MAPI a été mis à jour pour inclure la documentation pour différentes nouvelles fonctionnalités. 
   
@@ -31,7 +31,7 @@ Le contenu a été ajouté pour les fonctionnalités suivantes :
     
   - [Référence MAPI Outlook](outlook-mapi-reference.md)
     
-  - [Vue d'ensemble de r�f�rence de MAPI Outlook 2013](outlook-mapi-reference-overview.md)
+  - [Vue d’ensemble de la référence MAPI Outlook](outlook-mapi-reference-overview.md)
     
 - **Exemple de fournisseur de magasin de message**: le code [Exemple renvoyé à la ligne de fournisseur de magasin PST](message-store-provider-sample.md) maintenant a été révisé pour reconnaître et prendre en charge Outlook 2013. Pour plus d’informations, voir contenu précédemment révisée dans cette rubrique. 
     
@@ -39,7 +39,7 @@ Le contenu a été ajouté pour les fonctionnalités suivantes :
     
   - [Profils MAPI](mapi-profiles.md)
     
-  - [Cache du surnom dans](nickname-cache.md)
+  - [Cache de surnoms](nickname-cache.md)
     
   - [Flux de saisie semi-automatique](autocomplete-stream.md)
     
@@ -47,11 +47,11 @@ Le contenu a été ajouté pour les fonctionnalités suivantes :
     
 - **Propriétés**— la **PR_CONVERSATION_KEY** nommé rubrique de la propriété ([Propriété canonique PidTagConversationKey](pidtagconversationkey-canonical-property.md)) a été ajoutée et se rapporte à **IPM. MessageManager** uniquement les messages dans Outlook MAPI. Les rubriques suivantes concernant la documentation de flux de Transport-Neutral Encapsulation Format (TNEF) et ont été révisées : 
     
-  - [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
+  - [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [Mappage d’attributs TNEF sur des propriétés MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [Mappage d’attributs TNEF aux propriétés MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID et attParentID](attconversationid-and-attparentid.md)
     
@@ -111,7 +111,7 @@ Le contenu a été ajouté dans les versions précédentes de la référence MAP
 
 
 
-[Mise en route avec la r�f�rence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
+[Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
   
 [CodePlex](http://mapistublibrary.codeplex.com/)
 

@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: eef42a8c7d19af313316bea68624ac67fb1ab4e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 34d8dbeaf101d5ebb687403a2200bd0ad73b9998
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783112"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22577099"
 ---
 # <a name="creating-a-message-attachment"></a>Création d’une pièce jointe
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Une pièce jointe du message est certaines données supplémentaires, comme un fichier, un autre message ou un objet OLE, que vous pouvez envoyer ou enregistrer avec un message. Chaque pièce jointe est une collection de propriétés qui identifie et décrit le type et la façon dont il s’affiche. Comme destinataires, pièces jointes des messages uniquement accessible via le message auquel ils appartiennent. Par conséquent, pour une pièce jointe utilisable, son message doit être ouvert.
   
@@ -90,5 +90,5 @@ Une pièce jointe du message est certaines données supplémentaires, comme un f
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Pièces jointes MAPI](mapi-attachments.md)
+- [Pi�ces jointes MAPI](mapi-attachments.md)
 

@@ -13,12 +13,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0ad49ff6-8dff-4379-a52c-d292c53c2bc0
 description: Les applications de client de bureau Project 2013, Project Standard 2013 et Project Professional 2013 — peuvent être personnalisés et étendus à l’aide de VBA pour écrire des macros. Vous pouvez utiliser Visual Studio 2012 pour personnaliser l’interface utilisateur du ruban et de créer des compléments complexes permet de compléments Office de modèle une nouvelle extensibilité pour les volets de tâches de projet qui sont basés sur une plate-forme commune de Office 2013. Project Standard 2013 et Project Professional 2013 peuvent exécuter des compléments Office générales et utiliser tâche volet compléments qui sont développés spécifiquement pour le projet d’intégrer SharePoint, autres sites Web et les applications web et les données externes.
-ms.openlocfilehash: e8604b4d479d0c64f8d45ad2363d7391d57408ed
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e89c5a1f6486ce49ad8b95bcd7a92497b7a2436
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787925"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22594739"
 ---
 # <a name="project-client-programming"></a>Programmation du client Project
 
@@ -33,7 +33,7 @@ Le modèle objet **MSProject** pour VBA dans Project 2013 est essentiellement le
   
 Compléments de volet de tâches et d’autres compléments pour Office et SharePoint peuvent être vendus dans l’Office Store (voir [http://office.microsoft.com/store/](http://office.microsoft.com/en-us/store/)) pour une utilisation avec des installations de Project Online et sur site. Compléments VSTO et les macros VBA ne peut pas être répercutées dans le magasin Office ; ils sont conçus pour une utilisation locale avec Project Standard et Project Professional. Vous pouvez distribuer des macros VBA dans un projet. Fichier MPP, les installer dans le fichier Global.MPT sur votre ordinateur, ou les distribuer dans le modèle global d’entreprise dans Project Server 2013. Compléments VSTO peuvent être distribués de façon plus sécurisée via le déploiement [ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx) , qui permet de faciles mises à jour. 
   
-## <a name="reference"></a>R�f�rence
+## <a name="reference"></a>Référence
 
 [Référence du développeur VBA Project](http://msdn.microsoft.com/en-us/library/ee861523%28office.15%29.aspx) Contient la présentation et articles d’aide VBA. 
   
@@ -43,15 +43,9 @@ Compléments de volet de tâches et d’autres compléments pour Office et Share
   
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[Projet pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905469)
-  
-[Centre pour développeurs Office](https://dev.office.com)
-  
-[Centre de développement Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
-  
-[Sécurité et déploiement ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
-  
-[Référence de champs disponibles](http://office.microsoft.com/en-us/project-help/available-fields-reference-HA102749299.aspx?CTT=1)
+- [Projet pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905469)
+- [Centre pour développeurs Office](https://dev.office.com)
+- [Centre de développement Visual Studio](http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx)
+- [Sécurité et déploiement ClickOnce](http://msdn.microsoft.com/en-us/library/t71a733d.aspx)
+- [Référence sur les champs disponibles](https://support.office.com/en-us/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)
 

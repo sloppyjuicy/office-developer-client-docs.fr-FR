@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 03f53dbfbe57db76ee8ceefda3f6938301f70da8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 731ebf6f61db8e9f425d48ab63cb7b81035a41c1
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783154"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584281"
 ---
 # <a name="developing-a-mapi-address-book-provider"></a>Développement d’un fournisseur de carnet d’adresses MAPI
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur de carnet d’adresses fournit des informations de destinataires pour les applications clientes, à la banque de messages et fournisseurs, de transport et MAPI. Informations sur le destinataires sont organisées hiérarchiquement en compartiments de stockage appelés conteneurs. Chaque carnet d’adresses dans le profil contribue à un ou plus niveau supérieur, ou parent, conteneurs MAPI carnet d’adresses, un affichage intégré d’informations sur le destinataires à partir de toutes les adresses du livre fournisseurs dans une session. Il est par le biais du carnet d’adresses MAPI que les clients et autres fournisseurs de services accéder aux données d’un fournisseur de carnet d’adresses.
   

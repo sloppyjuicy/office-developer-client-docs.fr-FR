@@ -1,5 +1,5 @@
 ---
-title: Propriété Cannonical PidTagFolderWebViewInfo
+title: Propriété canonique PidTagFolderWebViewInfo
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 62bc0e75d0a405ebe9f68ec9f4af1ca038bda219
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19786023"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22588404"
 ---
-# <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriété Cannonical PidTagFolderWebViewInfo
+# <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriété canonique PidTagFolderWebViewInfo
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. Cette propriété contient un flux binaire appelé **WebViewPersistenceObject**.
   
@@ -32,7 +32,7 @@ Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. C
 |Propriétés associées :  <br/> |PR_FOLDER_WEBVIEWINFO  <br/> |
 |Identificateur :  <br/> |0x36DF  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Zone :  <br/> |Dossier MAPI  <br/> |
+|Domaine :  <br/> |Dossier MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

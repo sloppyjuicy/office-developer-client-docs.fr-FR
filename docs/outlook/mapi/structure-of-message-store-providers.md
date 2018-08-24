@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 2f78428b8067b7937e9bd2ee36934cc29a16bfb7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 58b6771c6bdae91ad0e496189258e4745de5bc84
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787293"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22584288"
 ---
 # <a name="structure-of-message-store-providers"></a>Structure de fournisseurs de magasins de message
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Un fournisseur de magasin de message, lorsqu’il s’exécute en mémoire, est un [IMSProvider : IUnknown](imsprovideriunknown.md) interface. L’interface **IMSProvider** permet aux clients applications et le spouleur MAPI pour vous connecter à et sur la banque de messages. Les interfaces par les applications clientes et le spouleur MAPI pour accéder aux dossiers et des messages dans la banque de messages sont des interfaces [IMSLogon](imslogoniunknown.md) et [IMsgStore](imsgstoreimapiprop.md) . Ces interfaces sont généralement créés lors de la banque de messages est tout d’abord ouvrir une session sur, bien que le point d’entrée du message [MSProviderInit](msproviderinit.md) stocker DLL peut également les créer. 
   

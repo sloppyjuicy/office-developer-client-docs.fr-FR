@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
-description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4ea75f723a2fcb242d8b9a516498855aa20cfdd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: e0701e64469576a8241002a6ff11299d1c343556
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784926"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22582979"
 ---
 # <a name="opening-a-message"></a>Ouverture d’un message
  
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 ### <a name="to-open-a-message"></a>Pour ouvrir un message
   

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9eeab1e1186aeb5a9b458facd59bd4cc155e8014
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b6a27231c8dd2c0796b2dcba268de54fcd93e38d
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19784093"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22587907"
 ---
 # <a name="imapitablesetcolumns"></a>IMAPITable::SetColumns
 
   
   
-**S’applique à**: Outlook 
+**S’applique à**: Outlook 2013 | Outlook 2016 
   
 Définit les propriétés et l’ordre des propriétés apparaissent sous forme de colonnes dans le tableau.
   
@@ -129,7 +129,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [IMAPITable::QueryRows](imapitable-queryrows.md)
   
-[IMAPITable](imapitable-restrict.md)
+[IMAPITable::Restrict](imapitable-restrict.md)
   
 [IMAPITable::SortTable](imapitable-sorttable.md)
   
