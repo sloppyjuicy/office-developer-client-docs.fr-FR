@@ -1,7 +1,7 @@
 ---
 title: Appel dans Excel à partir du fichier DLL ou XLL
 manager: soliver
-ms.date: 08/22/2018
+ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 996226aa8e01d58edbe9b9a8d6e6996b2453d581
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3f36d2f59b7f5bef9f9ffdca4d13e95c788bf113
+ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567705"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "19782066"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -50,7 +50,7 @@ Pour que la DLL puisse appeler **Excel4**, **Excel4v**, **Excel12** ou **Excel12
     
 Vous ne pouvez pas appeler l’API C Excel dans les scénarios suivants :
   
-- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain)). 
+- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](http://msdn.microsoft.com/library/base.dllmain%28Office.15%29.aspx)). 
     
 - À partir d’un thread en arrière-plan créé par votre DLL.
     
@@ -66,7 +66,7 @@ Ces quatre fonctions renvoient un nombre entier qui indique � l�appelant si 
 |4  <br/> |**xlretInvCount** <br/> |Le nombre d’arguments fourni n’est pas correct dans l’appel.  <br/> |
 |8  <br/> |**xlretInvXloper** <br/> |Une ou plusieurs valeurs d�argument **XLOPER** ou **XLOPER12** ne sont pas correctement mises en forme ou remplies.  <br/> |
 |16  <br/> |**xlretStackOvfl** <br/> |Excel a détecté un risque que l’opération dépasse sa pile d’appels et, par conséquent, ne puisse pas appeler la fonction.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une référence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](xlcoerce.md).  <br/> |
+|32  <br/> |**xlretFailed** <br/> |La commande ou la fonction a �chou� pour une raison qui n�est pas d�crite par une des autres valeurs de retour. Une op�ration qui n�cessite trop de m�moire, par exemple, �choue avec l�erreur suivante. Cela peut se produire pendant la tentative de conversion d�une référence tr�s volumineuse � un tableau **xltypeMulti** � l�aide de la fonction [xlCoerce](http://msdn.microsoft.com/library/guid_9d47c16c-a7e7-4998-b594-9cf001827b7b%28Office.15%29.aspx).  <br/> |
 |64  <br/> |**xlretUncalced** <br/> |L�op�ration a tent� de r�cup�rer la valeur d�une cellule non calcul�e. Pour pr�server l�int�grit� de recalcul dans Excel, les fonctions de feuille de calcul ne sont pas autoris�es � effectuer cette action. Toutefois, les fonctions et commandes XLL enregistr�es en tant que fonctions macro sont autoris�es � acc�der aux valeurs des cellules non calcul�es.  <br/> |
 |128  <br/> |**xlretNotThreadSafe** <br/> |(Introduit dans Excel 2007) Une fonction de feuille de calcul XLL enregistr�e en tant que fonction thread-safe essayait d�appeler une fonction d�API C non thread-safe. Par exemple, une fonction thread-safe ne peut pas appeler la fonction XLM **xlfGetCell**.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Introduit dans Excel 2010) Le pointeur de fonction asynchrone n�est pas valide.  <br/> |
@@ -74,7 +74,7 @@ Ces quatre fonctions renvoient un nombre entier qui indique � l�appelant si 
    
 Si la fonction renvoie une des valeurs d��chec de la table (autrement dit, elle ne renvoie pas **xlretSuccess**), la valeur de retour **XLOPER** ou **XLOPER12** est �galement d�finie sur **#VALUE!**. Dans certains cas, il peut s�agir d�un test de r�ussite suffisant, mais vous remarquerez qu�un appel peut renvoyer � la fois **xlretSuccess** et **#VALUE!**.
   
-Si un appel de l�API C entra�ne **xlretUncalced** ou **xlretAbort**, votre code DLL ou XLL doit rendre la main � Excel avant d�effectuer les autres appels d�API C (autres que les appels vers la fonction [xlfree](xlfree.md) pour lib�rer des ressources m�moire Excel allou�es dans les valeurs **XLOPER** et **XLOPER12**). 
+Si un appel de l�API C entra�ne **xlretUncalced** ou **xlretAbort**, votre code DLL ou XLL doit rendre la main � Excel avant d�effectuer les autres appels d�API C (autres que les appels vers la fonction [xlfree](http://msdn.microsoft.com/library/guid_8ce2eef2-0138-495d-b6cb-bbb727a3cda4%28Office.15%29.aspx) pour lib�rer des ressources m�moire Excel allou�es dans les valeurs **XLOPER** et **XLOPER12**). 
   
 ### <a name="command-or-function-enumeration-argument-xlfn"></a>Argument d’énumération de commande ou de fonction : xlfn
 
@@ -113,7 +113,7 @@ Toutes les fonctions de commande figurent dans la plage de nombres décimaux ent
   
 ### <a name="invoking-excel-commands-that-use-dialog-boxes"></a>Appel de commandes Excel qui utilisent des boîtes de dialogue
 
-Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
+Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
   
 L�exemple suivant supprime les fichiers dans le r�pertoire actif correspondant au masque my_data\*.bak. Une bo�te de dialogue s�affiche uniquement si l�argument est vrai.
   
@@ -238,7 +238,7 @@ void Excel12v_example(double *dbl_array, int size, double &sum, double &average,
 
 Le remplacement des références des valeurs **XLOPER12** par **XLOPER**, et **Excel12v** par **Excel4v**, dans le code pr�c�dent permettait d�avoir une fonction compatible avec toutes les versions d�Excel. L�ex�cution de ces fonctions Excel **SUM**, **AVERAGE**, **MIN** et **MAX** est assez simple et il serait plus efficace de les coder en langage�C afin de ne pas avoir � pr�parer les arguments et l�appel dans Excel. Toutefois, la plupart des fonctions Excel sont plus complexes, ce qui rend cette approche utile dans certains cas. 
   
-La rubrique [xlfRegister](xlfregister-form-1.md) offre un autre exemple d�utilisation de **Excel4v** et **Excel12v**. Lorsque vous enregistrez une fonction de feuille de calcul XLL, vous pouvez fournir une cha�ne descriptive pour chaque argument utilis� dans la bo�te de dialogue **Coller une fonction**. Par cons�quent, le nombre total d�arguments fourni � **xlfRegister** d�pend du nombre d�arguments que votre fonction XLL accepte et varie d�une fonction � l�autre. 
+La rubrique [xlfRegister](http://msdn.microsoft.com/library/guid_c730124c-1886-4a0f-8f06-79763025537d%28Office.15%29.aspx) offre un autre exemple d�utilisation de **Excel4v** et **Excel12v**. Lorsque vous enregistrez une fonction de feuille de calcul XLL, vous pouvez fournir une cha�ne descriptive pour chaque argument utilis� dans la bo�te de dialogue **Coller une fonction**. Par cons�quent, le nombre total d�arguments fourni � **xlfRegister** d�pend du nombre d�arguments que votre fonction XLL accepte et varie d�une fonction � l�autre. 
   
 Lorsque vous appelez toujours une fonction API C ou une commande avec le m�me nombre d�arguments, vous voulez �viter d�avoir � cr�er un tableau de pointeurs pour ces arguments. Dans ce cas, il est plus simple et plus rationnel d�utiliser **Excel4** et **Excel12**. Par exemple, lorsque vous enregistrez des commandes et fonctions XLL, vous devez fournir le chemin et le nom de fichier complets de la DLL ou de la XLL. Vous pouvez obtenir le nom du fichier dans un appel � **xlfGetName**, puis le lib�rer avec un appel � **xlFree**, comme montr� dans l�exemple suivant pour **Excel4** et **Excel12**.
   
@@ -317,9 +317,15 @@ Bien que vous puissiez utiliser ce m�canisme pour d�terminer si la nouvelle 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Création de XLL](creating-xlls.md)  
-- [Accés au code XLL dans Excel](accessing-xll-code-in-excel.md)  
-- [Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)  
-- [Les fonctions de rappel de l'API C Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)  
-- [Développement de XLL de Excel 2013](developing-excel-xlls.md)
+
+
+[Création de XLL](creating-xlls.md)
+  
+[Accés au code XLL dans Excel](accessing-xll-code-in-excel.md)
+  
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+  
+[Les fonctions de rappel de l'API C Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
+  
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 
