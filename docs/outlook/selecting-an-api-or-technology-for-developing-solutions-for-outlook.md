@@ -5,17 +5,17 @@ ms.date: 10/21/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
-description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et vous aide à choisir l'API ou la technologie adaptée à votre scénario.
-ms.openlocfilehash: 267ddcd69354664254755dc45ef0b0ca90f7da32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
+ms.openlocfilehash: e78e96f776b8f7c584dbd82163f41d0f5d8c80f6
+ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787597"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "22593423"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
-Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et vous aide à choisir l'API ou la technologie adaptée à votre scénario.
+Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
   
 Microsoft prend en charge diverses API et des technologies qui étendent Outlook : 
   
@@ -65,7 +65,7 @@ Les tableaux de cette section définissent les critères d'évaluation dans les 
 
 Depuis la version Office 2013, les développeurs peuvent utiliser la plateforme des Compléments Office afin d'étendre le contenu et les services web dans le contexte de clients riches et web Office. Une Complément Office est une page web développée à l'aide des technologies web courantes, hébergée dans une application cliente Office (telle qu'Outlook) et qui peut être exécutée en local ou dans le cloud. Parmi les quelques types d'Compléments Office, celui pris en charge par Outlook est nommé applications de messagerie. Si le modèle objet, l'assembly PIA et MAPI sont souvent utilisés pour automatiser Outlook au niveau de l'application, vous pouvez utiliser l'interface API JavaScript pour Office afin d'interagir à un niveau d'élément avec le contenu et les propriétés du message électronique, de la demande de réunion ou du rendez-vous. Vous pouvez publier des applications de messagerie dans l'Office Store ou un catalogue Exchange interne. 
   
-Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](http://msdn.microsoft.com/library/bfde1d24-2c13-4798-9b13-5f307d49370f%28Office.15%29.aspx). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
+Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
   
 **Figure 1. L'application de messagerie YouTube est active pour le message sélectionné, qui contient une URL vers une vidéo sur YouTube.com**
 
@@ -95,7 +95,7 @@ Les tableaux suivants présentent les critères d'évaluation de la plateforme d
 |Langages et outils  <br/> |Vous pouvez implémenter des applications de messagerie à l'aide de n'importe quelle technologie web courante, notamment HTML5, JavaScript, CSS3, XML et les API REST. Vous pouvez utiliser votre outil de développement web par défaut. Vous pouvez également utiliser Outils de développement Office 365 « Napa », Visual Studio 2012 ou une version ultérieure de ces outils et bénéficier de leurs avantages pour gagner du temps dans votre développement.  <br/> |
 |Implémentation managée  <br/> |Si nécessaire dans votre scénario, vous pouvez utiliser des pages .aspx managées pour implémenter du code sur le serveur pour vos applications de messagerie.  <br/> |
 |Peut contenir des scripts  <br/> |L'interface API JavaScript pour Office est directement utilisée dans les scripts.  <br/> |
-|Outils de test et de débogage  <br/> |Vous pouvez utiliser les outils de développement que vous préférez. Outils de développement Office 365 « Napa » et Visual Studio fournissent un environnement de développement intégré qui facilite le test et le débogage d'applications. [Résoudre les problèmes d'activation des compléments Outlook](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) et [Exemple : Propriétés de débogage des éléments Outlook](http://msdn.microsoft.com/library/e3f14f07-cf35-4896-aab0-cb7625ca09b5%28Office.15%29.aspx) vous offrent une aide supplémentaire concernant la résolution des problèmes et le débogage des applications de messagerie.  <br/> |
+|Outils de test et de débogage  <br/> |Vous pouvez utiliser les outils de développement que vous préférez. Outils de développement Office 365 « Napa » et Visual Studio fournissent un environnement de développement intégré qui facilite le test et le débogage d'applications. [Résoudre les problèmes d'activation des compléments Outlook](http://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) et [Exemple : Propriétés de débogage des éléments Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-faca78cd) vous offrent une aide supplémentaire concernant la résolution des problèmes et le débogage des applications de messagerie.  <br/> |
 |Disponibilité des experts  <br/> |Il est assez aisé de trouver des programmeurs possédant le niveau requis d'expertise de développement web pour les Compléments Office. La plateforme est destinée aux développeurs professionnels et non professionnels.  <br/> |
 |Informations disponibles  <br/> |Des informations relatives au développement et à la publication d'Compléments Office sont disponibles sur la page [Centre pour développeurs Office](http://msdn.microsoft.com/fr-FR/office/apps/fp160950.aspx). La page [Compléments Outlook](http://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx) contient de la documentation spécifique concernant les applications de messagerie.  <br/> |
 |Gestion des licences de développeur et de déploiement  <br/> |Reportez-vous à [Gérer les licences de compléments pour Office et SharePoint](http://msdn.microsoft.com/library/3e0e8ff6-66d6-44ff-b0c2-59108ebd9181%28Office.15%29.aspx) pour plus d'informations sur l'infrastructure de gestion de licences d'application pour les Compléments Office.  <br/> |
@@ -263,7 +263,7 @@ Toutefois, les fonctionnalités suivantes sont propres aux compléments et peuve
     
 - Vous pouvez détecter des événements, tels que l'envoi d'un élément ou la modification des propriétés d'un élément.
     
-- Vous pouvez utiliser des compléments sur Outlook 2013 et Exchange Server 2013, ainsi que sur les versions antérieures d'Outlook et d'Exchange. En revanche, les applications de messagerie fonctionnent sur Outlook et Exchange à partir des versions Outlook 2013 et Exchange Server 2013, et non sur les versions antérieures
+- Vous pouvez utiliser des compléments sur Outlook 2013 et Exchange Server 2013, ainsi que sur les versions antérieures d’Outlook et d’Exchange. En revanche, les applications de messagerie fonctionnent sur Outlook et Exchange à partir des versions Outlook 2013 et Exchange Server 2013, et non sur les versions antérieures.
     
 Pour plus d'informations sur les scénarios pris en charge par le modèle objet et l'assembly PIA, voir la section suivante, [Facteurs de décision pour le modèle objet ou l'assembly PIA](#OLSelectAPI_FactorsOM). Pour obtenir une comparaison de la plateforme des Compléments Office avec d'autres technologies d'extensibilité pour Office, voir [Arrière-plan des applications pour Office et SharePoint](http://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx).
   
@@ -883,40 +883,25 @@ Les ressources suivantes fournissent plus d'informations sur les références pr
   
 ### <a name="major-references-and-resources"></a>Références et ressources principales
 
-- [Compléments Office](http://msdn.microsoft.com/library/1e123201-6e70-45c1-a48c-d5b955896ddb%28Office.15%29.aspx)
-    
-- [Référence pour développeur Outlook 2013](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)
-    
-- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)
-    
-- [Référence MAPI Outlook](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
-    
-- [Référence auxiliaire d'Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)
-    
-- [Référence du fournisseur Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)
-    
-- [Extension de la barre météorologique dans Outlook](weather/extending-the-weather-bar-in-outlook.md)
-    
-- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)
-    
-- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)
-    
-- [Nouveautés dans les schémas XML pour Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)
-    
-- [Outlook 2010 : référence pour le schéma XML](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)
-    
+- [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
+- [Référence pour développeur Outlook 2013](http://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
+- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](http://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
+- [Référence MAPI Outlook](http://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Référence auxiliaire d'Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
+- [Référence du fournisseur Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)   
+- [Extension de la barre météorologique dans Outlook](weather/extending-the-weather-bar-in-outlook.md)   
+- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
+- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
+- [Nouveautés dans les schémas XML pour Outlook 2010](http://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
+- [Outlook 2010 : référence pour le schéma XML](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
 - [Développement de solutions Outlook 2010 pour des systèmes 32 bits et 64 bits](http://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
     
 ### <a name="code-samples"></a>Exemples de code
 
-- [Exemples d'applications de messagerie](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)
-    
-- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)
-    
-- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)
-    
+- [Exemples d'applications de messagerie](http://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
+- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](http://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
+- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](http://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
 - [Exemples MAPI (en anglais)](http://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
-    
 - Exemples de code d'API auxiliaire : [Exemples de tâches (en anglais)](auxiliary/sample-tasks.md)
     
 
