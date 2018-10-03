@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e35760ddb20f40a176d789be2db6c282fac05af8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 4f84ed318fa53877acd9d4759b81c140d2b32e6b
+ms.sourcegitcommit: 6a8c758e690c4b7f3ab6d40635606efd31a3cc07
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586304"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "25361484"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient des définitions de constantes, les déclarations d’interface MAPI et les identificateurs de classe et d’interface utilisés par les API de MAPI.
   
@@ -67,6 +67,7 @@ Cette section contient des définitions de constantes et les identificateurs de 
 |CCSF_USE_RTF  <br/> |0 x 0080  <br/> |
 |CCSF_PLAIN_TEXT_ONLY  <br/> |0 x 1000  <br/> |
 |CCSF_NO_MSGID  <br/> |0 x 4000  <br/> |
+|CCSF_GLOBAL_MESSAGE  <br/> |0 x 00200000  <br/> |
 |E_INVALIDARG  <br/> | *Comme défini dans le fichier d’en-tête winerror.h Kit de développement logiciel (SDK) de Microsoft Windows*  <br/> |
    
 ### <a name="class-identifiers"></a>Identificateurs de classe
