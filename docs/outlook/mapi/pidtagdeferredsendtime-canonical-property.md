@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f636c0a49d6ad96ab157d00780fa6ffc5c8f3236
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2d6374c2fd3c277e2bb976930e9e105cc839b1e8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588271"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397204"
 ---
 # <a name="pidtagdeferredsendtime-canonical-property"></a>Propriété canonique PidTagDeferredSendTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique une heure lorsqu’un client souhaite différer l’envoi d’un message.
   
@@ -46,7 +46,7 @@ Si la valeur **PR_DEFERRED_SEND_TIME** est antérieure à l’heure actuelle (en
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

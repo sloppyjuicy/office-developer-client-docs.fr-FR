@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
 description: Contient les coordonnées x ou y du dernier point d’une polyligne ou une formule de polyligne.
-ms.openlocfilehash: 485682b43db045893bfc968cfb0859cf8cb2ce2d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a27cc5a4c2b6c9833263a28bbcadc40f08d8e70
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788216"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398653"
 ---
 # <a name="cell-element-polylineto-row-visio-xml"></a>Élément de cellule (ligne PolyLineTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du dernier point d’une polyligne ou une formu
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,8 +66,8 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du sommet de fin d'une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du sommet de fin d'une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
 |A  <br/> |Formule de la polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
    
 

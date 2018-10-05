@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 68d7472f993bcc35abbd4b733bae9f137b948608
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: be765915b729824b8c8b4209f125f354b02bad2b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576840"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394340"
 ---
 # <a name="create-a-simple-recurrent-task-item"></a>Créer une tâche périodique simple
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI peut servir à créer pour créer des éléments de tâche. Cette rubrique décrit comment créer un élément de tâche périodique simple.
   
@@ -42,7 +42,7 @@ Le `AddTask` fonction dans le fichier source Tasks.cpp du projet CreateOutlookIt
   
 Le `AddTask` fonction est répertoriée ci-dessous. Notez que le paramètre _lpFolder_ transmis à la `AddTask` fonction est un pointeur vers une interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier où la nouvelle tâche est créée. Étant donné la _lpFolder_ qui représente une interface **IMAPIFolder** , le code appelle la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . La méthode **CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface **IMessage** . La plupart de la `AddTask` gère le code de la fonction de la spécification des propriétés en vue de l’appel de la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) . Si l’appel à la méthode **SetProps** réussit, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée pour valider les modifications dans le magasin et créer un nouvel élément de tâche. 
   
-Le `AddTask` fonction définit un nombre de propriétés nommées. Pour plus d’informations sur les propriétés nommées et comment ils sont créés, voir [L’aide de MAPI pour créer des éléments Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx). Étant donné que les propriétés nommées utilisées pour les éléments de tâche occupent plusieurs jeux de propriétés, être vigilant lors de la création de paramètres à transmettre à la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+Le `AddTask` fonction définit un nombre de propriétés nommées. Pour plus d’informations sur les propriétés nommées et comment ils sont créés, voir [L’aide de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Étant donné que les propriétés nommées utilisées pour les éléments de tâche occupent plusieurs jeux de propriétés, être vigilant lors de la création de paramètres à transmettre à la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
 Le `AddTask` fonction utilise le `BuildWeeklyTaskRecurrencePattern` fonction d’assistance pour créer une structure qui représente une périodicité de la tâche pour définir la propriété **dispidTaskRecur** . Pour plus d’informations sur la structure de périodicité de tâche la `BuildWeeklyTaskRecurrencePattern` builds, consultez [Propriétés canonique PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md) et [PidLidRecurrencePattern canonique](pidlidrecurrencepattern-canonical-property.md). 
 
@@ -178,5 +178,5 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer des éléments Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

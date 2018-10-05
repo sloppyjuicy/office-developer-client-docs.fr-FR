@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: Une propriété d’un élément spécifié par l’utilisateur des informations susceptibles d’être référencées par d’autres cellules et outils de module complémentaire.
-ms.openlocfilehash: 40555c58e6afdb3eefe5b1a14d4155ad4e57ed6e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ce456b624f4a4b12a3f2fdc73f56651ea6985ed
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788221"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397498"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>Élément de cellule (Section de cellules définies par l’utilisateur) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Une propriété d’un élément spécifié par l’utilisateur des informations
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, masters.xml, maître # .xml, pages.xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section de cellules définies par l’utilisateur)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Une propriété d’un élément spécifié par l’utilisateur des informations susceptibles d’être référencées par d’autres cellules et outils de module complémentaire.  <br/> |
+|[Élément de ligne (section Cellules définies par l’utilisateur)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Une propriété d’un élément spécifié par l’utilisateur des informations susceptibles d’être référencées par d’autres cellules et outils de module complémentaire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms Microsoft.Office.InfoPath .
-ms.openlocfilehash: 4b113e1c189fe8ebdb5781e969e7f67961d4ea18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 386542b5c5f4e502f48d97c2a18194638e8e1536
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782336"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399388"
 ---
 # <a name="developing-infopath-form-templates-with-code"></a>Développement de modèles de formulaire InfoPath avec code
 
@@ -29,7 +29,7 @@ Les rubriques dans cette section fournissent des informations sur la création d
   
 > Présente le modèle objet InfoPath, ainsi que les tâches de programmation courantes dans le cas des modèles de formulaires avec code managé fonctionnant avec le modèle objet fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
     
-[Sécurité dans les modèles de formulaire InfoPath avec Code](security-in-infopath-form-templates-with-code.md)
+[Sécurité des modèles de formulaire InfoPath avec code](security-in-infopath-form-templates-with-code.md)
   
 > Présente le modèle de sécurité des modèles de formulaires InfoPath qui utilisent du code managé et les procédures de sécurité connexes.
     
@@ -43,11 +43,11 @@ Les rubriques dans cette section fournissent des informations sur la création d
     
 ## <a name="related-sections"></a>Sections associées
 
-[Portail des développeurs InfoPath (éventuellement en anglais)](http://go.microsoft.com/fwlink?LinkID=11689)
+[Portail des développeurs InfoPath (éventuellement en anglais)](https://go.microsoft.com/fwlink?LinkID=11689)
   
 > Contient des liens vers des articles techniques, des exemples de code, des téléchargements et d'autres documents MSDN (Microsoft Developer Network) sur la création de solutions InfoPath personnalisées.
     
-[Centre pour développeurs Office](http://go.microsoft.com/fwlink?LinkID=27128)
+[Centre pour développeurs Office](https://go.microsoft.com/fwlink?LinkID=27128)
   
 > Contient des liens vers des articles techniques, des exemples de code, des téléchargements et d'autres documents MSDN (Microsoft Developer Network) sur la création de solutions Office personnalisées.
     

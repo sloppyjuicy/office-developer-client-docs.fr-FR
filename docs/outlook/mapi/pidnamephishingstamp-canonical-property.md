@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1eac8831b144053ff364208404dbac3925b51c4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392941"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propriété canonique PidNamePhishingStamp
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur de message qui identifie et les messages de marques sont susceptibles d’être hameçonnage.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Nom de la propriété :  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
@@ -39,11 +39,11 @@ Contient la valeur de message qui identifie et les messages de marques sont susc
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXPHISH]](http://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
+[[MS-OXPHISH]](https://msdn.microsoft.com/library/ed49ab26-ba13-4d4c-8a94-98d4ceecd4b7%28Office.15%29.aspx)
   
 > Identifie et marque les messages électroniques qui sont conçues pour amener les destinataires à dévoiler des informations sensibles (comme les mots de passe et autres informations personnelles) à une source non fiable.
     

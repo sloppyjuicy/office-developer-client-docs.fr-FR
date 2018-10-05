@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a10209bd965591e9049027e46d84d904bba14065
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 9456178e9426d7a5fe17382d876f507daa0251f4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580228"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396175"
 ---
 # <a name="pidtagprofileserverfullversion-canonical-property"></a>Propriété canonique PidTagProfileServerFullVersion
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie les informations de version et de compilation complètes sur le serveur Microsoft Exchange auxquels sont connectés les comptes dans un profil.
   
@@ -48,7 +48,7 @@ Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMai
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés.
     

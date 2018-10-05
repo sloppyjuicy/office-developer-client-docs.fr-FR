@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: ae8b5a474675c0afd771f4e8dfd060d0b379c8f4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1dd7a23bbd643b496b7634b6ad0230c806585f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572220"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398604"
 ---
 # <a name="tracking-conversations"></a>Suivi des Conversations
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Conversation suivi collecte des r�ponses � un message. Les clients doivent d�finir deux propri�t�s qui vous aident dans les conversations de suivi :
   
@@ -47,7 +47,7 @@ Chaque bloc enfant est compos� de 5 octets, r�partis comme suit :
     
 - Bits de trente un contenant la diff�rence entre l'heure actuelle et l'heure dans le bloc en-t�te exprim�e en unit�s de **FILETIME**. Cette partie du bloc enfant est g�n�r�e � l'aide d'une des deux strat�gies, selon la valeur du premier bit. Si ce bit est �gale � z�ro, **ScCreateConversationIndex** ignore les bits 15 et 18 bits de poids faibles. Si ce bit est 1, la fonction ignore les bits 10 et 23 bits de poids faibles. 
     
-- Quatre bits contenant un nombre al�atoire g�n�r� par l'appel de la fonction Win32 [GetTickCount](http://msdn.microsoft.com/en-us/library/ms724408%28VS.85%29.aspx).
+- Quatre bits contenant un nombre al�atoire g�n�r� par l'appel de la fonction Win32 [GetTickCount](https://msdn.microsoft.com/library/ms724408%28VS.85%29.aspx).
     
 - Quatre bits contenant un d�compte de s�quence qui est extrait de la partie du nombre al�atoire.
     

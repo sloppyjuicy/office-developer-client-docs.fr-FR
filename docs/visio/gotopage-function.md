@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: Affiche la page qui contient le nom pagename dans la fenêtre actuellement active.
-ms.openlocfilehash: 67f8a79b854fd6f2ae47e39877ffcdbe4a1be5cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c96585406b6104aeedbe46c35024a4f13bb0953e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788740"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397148"
 ---
-# <a name="gotopage-function"></a>GOTOPAGE, fonction
+# <a name="gotopage-function"></a>Fonction GOTOPAGE
 
 Affiche la page qui contient le nom *pagename* dans la fenêtre actuellement active. 
   
@@ -30,9 +30,9 @@ GOTOPAGE (« ** *pagename* ** »)
 |:-----|:-----|:-----|:-----|
 | _pagename_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Nom de la page à atteindre  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Si une fenêtre est déjà la page, cette fenêtre devient active. Si *pagename* n’existe pas, l’application tente d’accéder à http:// *pagename* /. Si Visio opère comme un serveur sur place, la fonction GOTOPAGE n’a aucun effet. 
+Si une fenêtre est déjà la page, cette fenêtre devient active. Si *pagename* n’existe pas, l’application tente d’accéder à https:// *pagename* /. Si Visio opère comme un serveur sur place, la fonction GOTOPAGE n’a aucun effet. 
   
 Vous pouvez utiliser la fonction HYPERLINK pour accéder à n’importe quel chemin DOS, UNC ou URL. 
   

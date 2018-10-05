@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e9d6b2b738ec16000612f41023f0fd46ceabf56f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589517"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396315"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet à l’appelant fournisseur de services ou la passerelle ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe. 
   
@@ -52,7 +52,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Code uniquement les propriétés à partir du message ou d’une pièce jointe spécifié par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur de _lpvData_ doit être un pointeur [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Code uniquement les propriétés à partir du message ou d’une pièce jointe spécifié par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur de _lpvData_ doit être un pointeur [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
@@ -78,7 +78,7 @@ TNEF_PROP_MESSAGE_ONLY
   
 > [in] Pointeur vers la liste des propriétés à inclure ou exclure de l’encapsulation.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -92,9 +92,9 @@ Fournisseurs de transport, les fournisseurs de banque de message et passerelles 
   
 Notez qu’aucun codage TNEF se produit pour **AddProps** jusqu'à ce que la méthode [ITnef::Finish](itnef-finish.md) est appelée. Cette fonctionnalité signifie que des pointeurs transmis à **AddProps** reste valables jusqu'à après l’appel à la **fin** . À ce stade, tous les objets et les données transmises, **AddProps** les appels peuvent être publiées ou libérées. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

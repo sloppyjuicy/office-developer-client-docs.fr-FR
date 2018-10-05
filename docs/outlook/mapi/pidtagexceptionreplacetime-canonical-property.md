@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 20893f7c3d64698f70ae26c09c2d7ddc64ce3f9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f255b91cbd428a2ceaa51140519b02d3f8a3b1ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569931"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395181"
 ---
 # <a name="pidtagexceptionreplacetime-canonical-property"></a>Propriété canonique PidTagExceptionReplaceTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique la date et l’heure de l’instance dans la périodicité serait ont s’il n’était pas une exception d’origine.
   
@@ -42,7 +42,7 @@ Cette valeur doit être spécifiée dans le temps universel coordonné (UTC).
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

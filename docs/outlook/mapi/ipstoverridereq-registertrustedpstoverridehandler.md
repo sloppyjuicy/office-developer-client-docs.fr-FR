@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
 description: 'Dernière modification : 24 février 2013'
-ms.openlocfilehash: 62269b823810964fc0e5749aa6a57d39c503e2b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573578"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393872"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lance la procédure de déverrouillage pour un fichier de dossiers personnels (.pst).
   
@@ -45,7 +45,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
   
 > [in] Pointeur vers les données clientes qui sont passés par le fournisseur PST dans les appels suivants à la fonction la DLL HrTrustedPSTOverrideHandlerCallback. Ces données client peuvent être utilisées par la DLL pour vous aider à vérifier si le fichier PST doit être déverrouillé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
@@ -61,7 +61,7 @@ extern "C" HRESULT __cdecl HrTrustedPSTOverrideHandlerCallback(IMsgStore *pmstor
 
 Cette fonction est appelée avec un pointeur vers l’objet IMsgStore pour le fichier PST, un pointeur vers un objet IUnknown qui implémente l’interface IPSTOVERRIDE1 et un pointeur vers les données fournies par le biais de pvClientData.
   
-Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](http://support.microsoft.com/kb/956070).
+Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Voir aussi
 

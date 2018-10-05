@@ -7,27 +7,27 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d00a2ce3ebec24ca69875bdcb83066d8b891137a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585954"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399654"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Détermine la page de codes pour un flux de Transport-Neutral Encapsulation Format (TNEF).
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |TNEF.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -51,7 +51,7 @@ HRESULT GetTnefStreamCodepage(
   
 > [out] Pointeur vers la page subcode du flux.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
  **S_OK**
   
@@ -73,5 +73,5 @@ Utilisez la fonction **GetTnefStreamCodepage** pour lire l’attribut **attOemCo
 
 
 
-[attOemCodepage](http://msdn.microsoft.com/en-us/library/ee158667%28EXCHG.80%29.aspx)
+[attOemCodepage](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: Analyse la communication entre un ou plusieurs éléments DataRecordset et une source de données non XML.
-ms.openlocfilehash: 74e15795e023517263d9b79e9f19557653e4e939
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0073c329ec9149263530421531522c4d0b95633d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788420"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399423"
 ---
 # <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>DataConnection, élément (DataConnections_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Analyse la communication entre un ou plusieurs éléments **DataRecordset** et u
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Connections.Xml  <br/> |
    

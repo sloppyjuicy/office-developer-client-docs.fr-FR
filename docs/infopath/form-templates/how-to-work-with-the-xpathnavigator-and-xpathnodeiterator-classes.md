@@ -1,5 +1,5 @@
 ---
-title: Utilisation des Classes XPathNavigator et XPathNodeIterator
+title: Utilisation des classes XPathNavigator et XPathNodeIterator
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: Pour accéder aux données XML dans les sources de données du modèle de formulaire et les manipuler, un grand nombre de membres du modèle objet avec code managé fourni par l'espace de noms Microsoft.Office.InfoPath créent ou se voient attribuer une instance de la classe XPathNavigator de l'espace de noms System.Xml.XPath. Après avoir accédé à un objet XPathNavigator retourné par un membre du modèle objet InfoPath, vous pouvez utiliser les propriétés et les méthodes de la classe XPathNavigator pour travailler avec les données.
-ms.openlocfilehash: a672ea2733d971c829b77e0c18a74f26c7050b34
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f34f2e1a1cbdb8d9e389c864a9b979be20726e6b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393039"
 ---
-# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Utilisation des Classes XPathNavigator et XPathNodeIterator
+# <a name="work-with-the-xpathnavigator-and-xpathnodeiterator-classes"></a>Utilisation des classes XPathNavigator et XPathNodeIterator
 
 Pour accéder aux données XML dans les sources de données du modèle de formulaire et les manipuler, un grand nombre de membres du modèle objet avec code managé fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) créent ou se voient attribuer une instance de la classe **XPathNavigator** de l'espace de noms **System.Xml.XPath**. Après avoir accédé à un objet **XPathNavigator** retourné par un membre du modèle objet InfoPath, vous pouvez utiliser les propriétés et les méthodes de la classe **XPathNavigator** pour travailler avec les données. 
   
@@ -73,11 +73,11 @@ Dim emailAlias As XPathNavigator = _
 emailAlias.SetValue(Me.Application.User.UserName.ToString())
 ```
 
-Pour plus d’informations sur la façon de créer des expressions XPath, voir la XPath référence sur MSDN, ainsi que le [langage XML Path (XPath) Version 1.0 W3C recommandation](http://www.w3.org/TR/xpath).
+Pour plus d'informations sur la création d'expressions XPath, voir XPath Reference (éventuellement en anglais) sur MSDN, ainsi que les [recommandations du W3C sur le langage XML Path (XPath) Version 1.0 (éventuellement en anglais)](https://www.w3.org/TR/xpath).
   
 ### <a name="setting-the-value-of-a-node-that-has-the-xsinil-attribute"></a>Définition de la valeur d'un nœud qui possède l'attribut xsi:nil
 
-Pour certains types de données, le fait de définir une valeur nulle par programme génère l'erreur « La validation de schéma a détecté des erreurs qui ne concernent pas le type de données ». En général, la cause de cette erreur est que l'attribut [xsi:nil (éventuellement en anglais)](http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) de l'élément est défini sur **true**. Si vous examinez l'élément XML sous-jacent du champ vierge du formulaire, vous verrez ce paramètre. Par exemple, l'attribut **xsi:nil** du fragment XML du champ Date vierge suivant est défini sur **true**.
+Pour certains types de données, le fait de définir une valeur nulle par programme génère l'erreur « La validation de schéma a détecté des erreurs qui ne concernent pas le type de données ». En général, la cause de cette erreur est que l'attribut [xsi:nil (éventuellement en anglais)](https://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#xsi_nil) de l'élément est défini sur **true**. Si vous examinez l'élément XML sous-jacent du champ vierge du formulaire, vous verrez ce paramètre. Par exemple, l'attribut **xsi:nil** du fragment XML du champ Date vierge suivant est défini sur **true**.
   
 ```XML
 <my:myDate xsi:nil="true"></my:myDate>
@@ -101,7 +101,7 @@ Pour empêcher cette erreur, votre code doit rechercher la présence de l'attrib
 public void DeleteNil(XPathNavigator node)
 {
    if (node.MoveToAttribute(
-      "nil", "http://www.w3.org/2001/XMLSchema-instance"))
+      "nil", "https://www.w3.org/2001/XMLSchema-instance"))
       node.DeleteSelf();
 }
 ```
@@ -109,7 +109,7 @@ public void DeleteNil(XPathNavigator node)
 ```vb
 Public Sub DeleteNil(ByVal node As XPathNavigator)
    If (node.MoveToAttribute( _
-      "nil", "http://www.w3.org/2001/XMLSchema-instance")) Then
+      "nil", "https://www.w3.org/2001/XMLSchema-instance")) Then
       node.DeleteSelf()
    End If
 End Sub
@@ -151,9 +151,9 @@ myDate.SetValue(strCurDate)
   
 ### <a name="selecting-and-setting-a-set-of-repeating-nodes"></a>Sélection et définition d'un jeu de nœuds récurrents
 
-Pour spécifier des champs ou des groupes récurrents dont le nombre n'est pas déterminé, utilisez la méthode **Select** de la classe **XPathNavigator**. Cette méthode renvoie un objet XPathNodeIterator que vous pouvez utiliser pour itérer la collection de nœuds spécifiée. 
+Pour spécifier des champs ou des groupes récurrents dont le nombre n'est pas déterminé, utilisez la méthode **Select** de la classe **XPathNavigator**. Cette méthode retourne un objet XPathNodeIterator que vous pouvez utiliser pour parcourir la collection de nœuds. 
   
-Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous utilisez la méthode MoveNext pour itérer la collection de nœuds et la propriété en cours pour renvoyer un objet **XPathNavigator** placé sur le nœud actuel. Enfin, utilisez la propriété **Value** pour extraire et afficher la valeur de chaque champ extensible. 
+Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la propriété **Value** pour extraire et afficher la valeur de chaque champ extensible. 
   
 ```cs
 string message = String.Empty;
@@ -239,7 +239,7 @@ Le tableau suivant recense les membres de l'espace de noms **Microsoft.Office.In
 |[AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx) <br/> |Méthode [BuildSqlFromXmlNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.BuildSqlFromXmlNodes.aspx)  <br/> |
 |[ClickedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.aspx) <br/> |[Source](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.Source.aspx) , propriété  <br/> |
 |[ContextChangedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.aspx) <br/> |[Context](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.Context.aspx) , propriété  <br/> |
-|[Source de données](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) <br/> |Méthode [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |
+|[DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) <br/> |Méthode [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |
 ||Méthode [GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |
 ||Méthode [SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |
 |[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) <br/> |Méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.Execute.aspx)  <br/> |
@@ -330,6 +330,6 @@ For Each selectedNode In selectedNodes
 Next
 ```
 
-Pour plus d’informations sur l’utilisation des données XML à partir de modèles de formulaire InfoPath, voir Utilisation des données XML à l’aide la classe XPathNavigator dans les modèles de formulaire InfoPath 2007.
+Pour plus d'informations sur l'utilisation de données XML à partir de modèles de formulaire InfoPath, voir Utilisation de données XML à l'aide la classe XPathNavigator dans les modèles de formulaire InfoPath 2007 (éventuellement en anglais).
   
 

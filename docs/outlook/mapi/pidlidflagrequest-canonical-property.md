@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4a2bcfbbc06427e5bf7e06f1c4060a29689fce3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ddcf32df716fe2b0a02655278ff0cd8d821de1f4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575391"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397365"
 ---
 # <a name="pidlidflagrequest-canonical-property"></a>Propriété canonique PidLidFlagRequest
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Représente l’état d’une demande de réunion.
   
@@ -45,11 +45,11 @@ Cette propriété contient du texte pouvant être précisés pour un utilisateur
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations liées aux marquage.
     

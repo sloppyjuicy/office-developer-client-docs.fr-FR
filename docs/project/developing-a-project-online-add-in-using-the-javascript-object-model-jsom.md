@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: Cet article décrit le complément Microsoft Project Online développement afin d’améliorer votre expérience avec Project Online. Le projet de développement est implémenté comme une procédure pas à pas. Le complément utilisé pour cet article lit et affiche les noms de projet et les ID des projets publiés à partir de votre compte Project Online et vous permet d’atteindre de récupérer les tâches associées à des projets individuels.
-ms.openlocfilehash: ea5c7e3f3d20aa6bf5b6bb77a18eb87d06f549e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572542"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399304"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Développement d’un complément Project Online à l’aide du modèle objet JavaScript (JSOM)
 
@@ -37,7 +37,7 @@ Project Online effectue une action supplémentaire pour protéger les informatio
 Le paramétrage de développement pour Project Online compléments utilise le type de projet Visual Studio SharePoint Add-in. Le complément est écrit en JavaScript et utilise le modèle d’objet Project JavaScript (JSOM) pour interagir avec le service de Project Online. Le JSOM hérite la plupart de ses fonctionnalités du JSOM SharePoint.
   
 > [!NOTE]
-> Compléments peuvent être publiés et vendus dans l’Office Store ou déployés dans un catalogue d’applications privé sur SharePoint. Pour plus d’informations, voir [déployer et publier votre complément Office](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish).
+> Compléments peuvent être publiés et vendus dans l’Office Store ou déployés dans un catalogue d’applications privé sur SharePoint. Pour plus d’informations, voir [déployer et publier votre complément Office](https://docs.microsoft.com/office/dev/add-ins/publish/publish).
 > 
 > Le complément utilisé dans cet article est un exemple pour les développeurs ; elle n’est pas destinée à utiliser dans un environnement de production. Le principal objectif consiste à afficher un exemple de développement d’applications pour Project Online. 
   
@@ -45,7 +45,7 @@ Le paramétrage de développement pour Project Online compléments utilise le ty
 
 Dans un environnement Windows pris en charge, ajoutez les éléments suivants :
   
-- **.NET framework 4.0 ou version ultérieure**: les versions complètes de l’infrastructure de la version 4.0 sont compatibles. Le site de téléchargement est https://msdn.microsoft.com/en-us/vstudio/aa496123.aspx.
+- **.NET framework 4.0 ou version ultérieure**: les versions complètes de l’infrastructure de la version 4.0 sont compatibles. Le site de téléchargement est https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
 - **Visual Studio 2013 ou version ultérieure**:  
     
@@ -92,7 +92,7 @@ L’Assistant Visual Studio demande quelques questions de suivi sur le site de p
     
 2. Comment voulez-vous héberger votre Add-in SharePoint ? Sélectionnez [X] **hébergée par SharePoint**.
     
-   Pour plus d’informations sur les compléments SharePoint, y compris les options d’hébergement, voir [SharePoint Add-ins](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+   Pour plus d’informations sur les compléments SharePoint, y compris les options d’hébergement, voir [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
     
 3. Cliquez sur **Suivant**. 
     
@@ -143,7 +143,7 @@ Le projet de complément se compose de plusieurs fichiers. Dans cet exemple, vou
     
 Si le client Project Online change, telles que le déplacement d’une version d’évaluation vers un site d’abonnement, vous pouvez mettre à jour les propriétés du projet, y compris la connexion au serveur et l’URL du Site, à l’aide de la fenêtre Propriétés disponibles par le biais de l' **affichage** > **Propriétés Fenêtre** commande. 
   
-Vous pouvez également ajouter des fichiers au projet. Dans ce cas, vous devrez mettre à jour le fichier Elements.xml situé dans le même groupe (contenu, Images, Pages ou Scripts) pour inclure les nouveaux fichiers. Pour plus d’informations sur les fichiers de projet, voir [Explorer la structure de manifeste d’application et le package d’un complément SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
+Vous pouvez également ajouter des fichiers au projet. Dans ce cas, vous devrez mettre à jour le fichier Elements.xml situé dans le même groupe (contenu, Images, Pages ou Scripts) pour inclure les nouveaux fichiers. Pour plus d’informations sur les fichiers de projet, voir [Explorer la structure de manifeste d’application et le package d’un complément SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/explore-the-app-manifest-structure-and-the-package-of-a-sharepoint-add-in).
   
 ### <a name="set-application-scope"></a>Étendue d’application Set
 

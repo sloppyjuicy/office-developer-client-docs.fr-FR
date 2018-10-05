@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 7325c42fe7e9c1e043609d5503a3782522f76188
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590056"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392885"
 ---
 # <a name="whats-new-in-this-edition"></a>Nouveautés dans cette édition
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La référence Microsoft Outlook 2013 MAPI a été mis à jour pour inclure la documentation pour différentes nouvelles fonctionnalités. 
   
@@ -59,9 +59,9 @@ Le contenu a été ajouté pour les fonctionnalités suivantes :
 
 Le contenu a été ajouté dans les versions précédentes de la référence MAPI Outlook pour les fonctionnalités suivantes :
   
-- Permet à Microsoft Outlook 2013 pour les scénarios de déploiement non traditionnels tels que côte à côte et Click-to-Run. Ces scénarios peuvent compliquer la logique utilisée pour charger la bibliothèque appropriée de MAPI. Les développeurs MAPI est maintenant ont la possibilité de liaison explicite fonctions MAPI et peuvent choisir pour une liaison explicite vers le stub MAPI du client MAPI par défaut (par exemple, une Msmapi32.dll d’Outlook) sans passer par la bibliothèque MAPI et le stub MAPI Windows. Pour plus d’informations sur la liaison explicite par rapport à la liaison implicite, voir [lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md). La **Bibliothèque de Stub MAPI**, publié sur le site Web [CodePlex](http://mapistublibrary.codeplex.com/) , fournit une solution de remplacement dans le désordre pour Mapi32.lib qui prend en charge la création d’applications MAPI 32 bits et 64 bits. 
+- Permet à Microsoft Outlook 2013 pour les scénarios de déploiement non traditionnels tels que côte à côte et Click-to-Run. Ces scénarios peuvent compliquer la logique utilisée pour charger la bibliothèque appropriée de MAPI. Les développeurs MAPI est maintenant ont la possibilité de liaison explicite fonctions MAPI et peuvent choisir pour une liaison explicite vers le stub MAPI du client MAPI par défaut (par exemple, une Msmapi32.dll d’Outlook) sans passer par la bibliothèque MAPI et le stub MAPI Windows. Pour plus d’informations sur la liaison explicite par rapport à la liaison implicite, voir [lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md). La **Bibliothèque de Stub MAPI**, publié sur le site Web [CodePlex](https://mapistublibrary.codeplex.com/) , fournit une solution de remplacement dans le désordre pour Mapi32.lib qui prend en charge la création d’applications MAPI 32 bits et 64 bits. 
     
-- **Prise en charge de 64 bits de Microsoft Outlook**, les rubriques de référence pour les éléments d’API applicables ont été mis à jour pour correspondre aux nouveaux fichiers d’en-tête qui prennent en charge Outlook 64 bits. Ces fichiers d’en-tête sont disponibles en téléchargement à [Outlook 2010 : fichiers d’en-tête MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un nouvel exemple de code a été fourni dans [vérifier la Version d’Outlook](how-to-check-the-version-of-outlook.md) pour montrer comment vérifier si la version installée d’Outlook est de 64 bits de Microsoft Outlook 2010 et a été modifiée pour Outlook 2013. Si votre application de MAPI 32 bits existante sur le point d’être en cours d’exécution sur un système d’exploitation 64 bits avec Outlook 64 bits est installé, vous devrez reconstruire votre application 32 bits comme une application 64 bits. Pour plus d’informations sur la prise en charge MAPI pour Outlook 64 bits, consultez [Création d’Applications MAPI sur les plateformes 32 bits et 64 bits](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
+- **Prise en charge de 64 bits de Microsoft Outlook**, les rubriques de référence pour les éléments d’API applicables ont été mis à jour pour correspondre aux nouveaux fichiers d’en-tête qui prennent en charge Outlook 64 bits. Ces fichiers d’en-tête sont disponibles en téléchargement à [Outlook 2010 : fichiers d’en-tête MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Un nouvel exemple de code a été fourni dans [vérifier la Version d’Outlook](how-to-check-the-version-of-outlook.md) pour montrer comment vérifier si la version installée d’Outlook est de 64 bits de Microsoft Outlook 2010 et a été modifiée pour Outlook 2013. Si votre application de MAPI 32 bits existante sur le point d’être en cours d’exécution sur un système d’exploitation 64 bits avec Outlook 64 bits est installé, vous devrez reconstruire votre application 32 bits comme une application 64 bits. Pour plus d’informations sur la prise en charge MAPI pour Outlook 64 bits, consultez [Création d’Applications MAPI sur les plateformes 32 bits et 64 bits](building-mapi-applications-on-32-bit-and-64-bit-platforms.md).
     
 - **Exemple de fournisseur de magasin de message**: le [Fournisseur de banque PST encapsulé exemple](message-store-provider-sample.md) avait été précédemment mis à jour pour prendre en charge l’architecture 64 bits. Rubrique de [l’initialisation d’un fournisseur de magasins PST entourées](initializing-a-wrapped-pst-store-provider.md) de l’exemple maintenant a été développé pour fournir des informations sur les « Wrapped PST et les chemins d’accès Unicode. » 
     
@@ -113,5 +113,5 @@ Le contenu a été ajouté dans les versions précédentes de la référence MAP
 
 [Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
   
-[CodePlex](http://mapistublibrary.codeplex.com/)
+[CodePlex](https://mapistublibrary.codeplex.com/)
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
 description: Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: f2554facc47de23104f65b26ae19cfc71821bd37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7e926021180d0f32c5e8754fd856081908f4925d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789377"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397211"
 ---
 # <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>Élément PublishSettings (VisioDocument_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

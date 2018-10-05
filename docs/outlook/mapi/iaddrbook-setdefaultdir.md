@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 68cca0b483aca91001f8ee71289f4b1673fb2888
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3ab01f189734ac30b4c027f4e5596c88031b5f99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564653"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392710"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit le conteneur spécifié par le conteneur de carnet d’adresses par défaut.
   
@@ -44,7 +44,7 @@ HRESULT SetDefaultDir(
   
 > [in] Pointeur vers l’identificateur d’entrée du conteneur de carnet d’adresses par défaut.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -55,11 +55,11 @@ S_OK
 Clients et fournisseurs de services appellent la méthode de **SetDefaultDir** pour établir un conteneur de carnet d’adresses par défaut nouveau. Le conteneur par défaut est le conteneur dans lequel l’utilisateur voit affiché dans le carnet d’adresses lors de la première ouverture du carnet d’adresses. **SetDefaultDir** enregistre le conteneur par défaut comme une entrée dans le profil. Le conteneur reste en tant que la valeur par défaut jusqu'à ce qu’un autre appel à **SetDefaultDir** est effectué dans la même session ou dans une autre session, soit le conteneur est supprimé. 
   
 > [!NOTE]
-> La propriété [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **d’Accepter automatiquement** dans la boîte de dialogue Options de carnet d’adresses. Lorsque cette propriété existe dans la section profil [IID_CAPONE_PROF](http://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et est définie sur **true**, la boîte de dialogue Carnet d’adresses n’est plus le conteneur spécifié par **SetDefaultDir**par défaut, mais choisit un carnet d’adresses qui prend en compte Microsoft Outlook approprié pour le contexte dans lequel la boîte de dialogue a été affiché. Notez que cela peut entraîner une mauvaise expérience pour les fournisseurs de carnet d’adresses tiers. 
+> La propriété [PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY](pidtagaddressbookchoosedirectoryautomatically-canonical-property.md) correspond au paramètre **d’Accepter automatiquement** dans la boîte de dialogue Options de carnet d’adresses. Lorsque cette propriété existe dans la section profil [IID_CAPONE_PROF](https://msdn.microsoft.com/library/281aabc3-9656-299c-4c78-7733dc71050a%28Office.15%29.aspx) et est définie sur **true**, la boîte de dialogue Carnet d’adresses n’est plus le conteneur spécifié par **SetDefaultDir**par défaut, mais choisit un carnet d’adresses qui prend en compte Microsoft Outlook approprié pour le contexte dans lequel la boîte de dialogue a été affiché. Notez que cela peut entraîner une mauvaise expérience pour les fournisseurs de carnet d’adresses tiers. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

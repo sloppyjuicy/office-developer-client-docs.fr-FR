@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2c941ea43a19b51e46c00b37aa89f504c55f180a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6d284782de86b603e6bbe190931a85cd9196c88b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587207"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393515"
 ---
 # <a name="pidtagdefaultviewentryid-canonical-property"></a>Propriété canonique PidTagDefaultViewEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’identificateur d’entrée de l’affichage de par défaut d’un dossier.
   
@@ -46,7 +46,7 @@ Implémentation d’un fournisseur de services de la méthode [IMAPIFolder::Copy
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCFOLD]](http://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Gère les opérations de dossier.
     

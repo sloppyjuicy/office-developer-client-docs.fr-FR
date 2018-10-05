@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d2926b09dd3dfd89ab771206e0c8848415238eba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585478"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398072"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>Propriété canonique PidTagAttachDataObject
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un objet attachment généralement accédé via l’interface Object Linking and Embedding (OLE) **IStorage** . 
   
@@ -48,13 +48,13 @@ Pour un objet de stockage, tel qu’un fichier composé OLE 2.0 au format d’un
   
 Si l’application cliente ou un fournisseur de services ne peuvent pas ouvrir un sous-objet de pièce jointe à l’aide de **PR_ATTACH_DATA_OBJ** à l’aide de **PR_ATTACH_METHOD**, elle doit utiliser **PR_ATTACH_DATA_BIN**. 
   
-Pour plus d’informations sur les formats et les interfaces OLE, consultez [OLE et transfert de données](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
+Pour plus d’informations sur les formats et les interfaces OLE, consultez [OLE et transfert de données](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     

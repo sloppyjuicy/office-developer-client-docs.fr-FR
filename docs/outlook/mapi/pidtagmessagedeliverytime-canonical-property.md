@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4f9d44f2-4faa-4f16-9e33-22f80c17db85
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b635ad72acc2bd98ca0c207dea71ea2df757e22b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8ebaea7fb6888e51ee1ef658db53dcf3050644da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397344"
 ---
 # <a name="pidtagmessagedeliverytime-canonical-property"></a>Propriété canonique PidTagMessageDeliveryTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure quand un message a été remis. 
   
@@ -42,7 +42,7 @@ Cette propriété indique le moment où que le message a été stocké sur le se
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

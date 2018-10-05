@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 48fd3e28-c2d2-474d-9487-5e2f08ca7319
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e019ad8d0063514cd41017b459cc701c45c22a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e97efb70716ffbd7fa98f980ce8520cfcb988532
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569595"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392402"
 ---
 # <a name="status-object-implementation"></a>Implémentation d’objet état
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Tous les fournisseurs de services doivent implémenter un objet d’état et fournir des propriétés à partir de celui-ci à la table d’état de session. Vous pouvez inclure une ou plusieurs lignes dans la table d’état, en fonction du nombre de ressources que vous contrôlez. Par exemple, un fournisseur de transport doit créer une ligne dans la table d’état pour chaque file d’attente de message qu’il gère. Lorsque des modifications se produisent, la ligne de tableau statut approprié doit être mis à jour. Objets d’état sont implémentées pour fournir l’accès à la fois pour les informations contenues dans la table d’état et des informations supplémentaires non inclus dans le tableau.
   
@@ -31,7 +31,7 @@ Tous les fournisseurs de services doivent implémenter un objet d’état et fou
           
       2. Créer un nouvel objet d’état.
           
-      3. Stocker une référence à la section profil dans l’objet d’état de votre fournisseur et appeler la méthode [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la section profil pour incrémenter son décompte de références. 
+      3. Stocker une référence à la section profil dans l’objet d’état de votre fournisseur et appeler la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la section profil pour incrémenter son décompte de références. 
           
       4. Stocker une référence à l’objet d’ouverture de session dans l’objet d’état de votre fournisseur et appelez la méthode **IUnknown::AddRef** de l’objet d’ouverture de session pour incrémenter son décompte de références. 
           

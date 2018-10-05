@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0a4fdb94877fb9491005fc650c206ffefd3f8b94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7af30866a5fd2846327223b7a58c6de91f5fef7a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578415"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397190"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriété canonique PidLidFileUnderId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie comment générer et recalculer la valeur de la propriété **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) lorsque propriétés modifier le nom de contact.
   
@@ -37,7 +37,7 @@ Spécifie comment générer et recalculer la valeur de la propriété **dispidFi
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est manquant ou une valeur non détaillés dans le tableau ci-dessous ou dans [[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), l’application peut choisir sa propre logique de recalculer la valeur de la **dispidFileUnder** d' autres propriétés comme nom du contact. 
+Si cette propriété est manquant ou une valeur non détaillés dans le tableau ci-dessous ou dans [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), l’application peut choisir sa propre logique de recalculer la valeur de la **dispidFileUnder** d' autres propriétés comme nom du contact. 
   
 Dans le tableau suivant, la notation <PropertyName> est utilisé pour spécifier « la valeur de PropertyName ». Par exemple, si la valeur de la propriété **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) est « Smith », et la valeur de la propriété **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) est « Ben », puis «<PidTagGivenName> <PidTagSurname>» spécifie la chaîne « Ben Smith ». Dans le tableau, « \r » spécifie un caractère de retour chariot, « \n » spécifie un caractère de saut de ligne, et <space> représente un espace.
   
@@ -68,11 +68,11 @@ Dans le tableau suivant, la notation <PropertyName> est utilisé pour spécifier
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

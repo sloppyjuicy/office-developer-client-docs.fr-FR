@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: Contient des éléments pour créer des liens entre une forme ou page et une autre page de dessin, un autre fichier ou un site Web de dessin.
-ms.openlocfilehash: ea2428ffbefa9ac2bf592e37d10c0089e72f6ef1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16935e463e76e0f0ee72b3fa40964551cf125cdd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789558"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400032"
 ---
 # <a name="row-element-hyperlink-section-visio-xml"></a>Row, élément (Section liens hypertexte) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient des éléments pour créer des liens entre une forme ou page et une aut
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    

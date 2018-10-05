@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Les interfaces Window et Windows sont que des objets OneNote 2013 API qui permet aux utilisateurs de travailler avec les fenêtres OneNote. Ces objets permettent aux utilisateurs d'énumérer l'ensemble des fenêtres OneNote et de modifier certaines propriétés de la fenêtre.
-ms.openlocfilehash: 83a3742419a4c8faf11c22c4766744d675151c1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782548"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399948"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de fenêtre (OneNote 2013)
 
@@ -87,7 +87,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel que http:// ou file://, une boîte de dialogue de sécurité s'affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
+|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel que https:// ou file://, une boîte de dialogue sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
 |**Syntaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**Paramètres** <br/> | _bstrUrl_ l'URL à atteindre.  <br/> |
    

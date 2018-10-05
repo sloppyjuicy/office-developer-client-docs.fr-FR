@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5f06ad00-7205-48d8-a9ff-f5c6b5e38c5e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9265aab47bdc78fb74fa2652ab4a7b60ea275d7a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c3e766dc494234ed500892cfa2fc8590c347f8e6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587445"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393805"
 ---
 # <a name="pidtagjunkpermanentlydelete-canonical-property"></a>Propriété canonique PidTagJunkPermanentlyDelete
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si la valeur 1, auquel les messages identifiés comme courrier indésirable peut être définitivement supprimé.
   
@@ -38,11 +38,11 @@ Indique si la valeur 1, auquel les messages identifiés comme courrier indésira
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permet la gestion des listes autoriser/bloquer et la détermination des messages de courrier indésirable.
     

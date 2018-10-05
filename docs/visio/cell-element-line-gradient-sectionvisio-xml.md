@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
 description: Contient la couleur, la transparence ou la position d’un point de dégradé pour un dégradé de ligne.
-ms.openlocfilehash: 13b42af36c9e11a71f21f39527788342354de01d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 915341b41849aae2af2285b49f0421798a16cf99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788205"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392192"
 ---
 # <a name="cell-element-line-gradient-section-visio-xml"></a>Élément de cellule (Section ligne de dégradé) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient la couleur, la transparence ou la position d’un point de dégradé po
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section dégradé ligne)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un point de dégradé pour un dégradé de ligne.  <br/> |
+|[Élément de ligne (section Trait dégradé)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un point de dégradé pour un dégradé de ligne.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,8 +66,8 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|GradientStopColor  <br/> |La valeur de la couleur du point de dégradé.  <br/> |[Dégradé Stop ligne (Section dégradé ligne)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |Le niveau de transparence du dégradé cesser de couleur, sous forme de pourcentage.  <br/> |[Dégradé Stop ligne (Section dégradé ligne)](gradient-stop-row-line-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |La position du point de dégradé sur l’axe de dégradé ligne, sous forme de pourcentage à partir du point d’origine du dégradé à l’extrémité du dégradé.  <br/> |[Dégradé Stop ligne (Section dégradé ligne)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopColor  <br/> |La valeur de la couleur du point de dégradé.  <br/> |[Ligne Point de dégradé (section Trait dégradé)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |Le niveau de transparence du dégradé cesser de couleur, sous forme de pourcentage.  <br/> |[Ligne Point de dégradé (section Trait dégradé)](gradient-stop-row-line-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |La position du point de dégradé sur l’axe de dégradé ligne, sous forme de pourcentage à partir du point d’origine du dégradé à l’extrémité du dégradé.  <br/> |[Ligne Point de dégradé (section Trait dégradé)](gradient-stop-row-line-gradient-section.md) <br/> |
    
 

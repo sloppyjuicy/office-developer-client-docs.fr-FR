@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 36c14d91-77f7-43a3-8d87-d50bcc21fad7
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: b5a95ca77496c3c4c2d28641ab649c2b4328a27c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c1d7f67458852319587d98831d031b2c3a131871
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578555"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400900"
 ---
 # <a name="mapi-search-folders"></a>Dossiers de recherche MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 A search-results folder holds links to messages in generic folders rather than the actual messages. Clients create a search-results folder by calling the [IMAPIFolder::CreateFolder](imapifolder-createfolder.md) method with FOLDER_SEARCH as the  _ulFolderType_ parameter. Clients fill a search-results folder by setting up and applying search criteria�� rules that filter out messages with particular characteristics. Search criteria are set up with the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method. Clients build one or more [SRestriction](srestriction.md) structures to represent the search criteria to be applied and pass them to **SetSearchCriteria**. **SetSearchCriteria** also specifies a list of folders that indicate the search domain and a set of flags that control how the search is performed. 
   
@@ -27,7 +27,7 @@ A search-results folder holds links to messages in generic folders rather than t
   
 Dossiers de r�sultats de recherche ont les limites suivantes :
   
-- La seule fa�on que le contenu d'un dossier de r�sultats de recherche peut �tre modifi� est via un appel � **SetSearchCriteria**. Pour plus d'informations sur l'impl�mentation de **SetSearchCriteria**, consultez l'article de la Base de connaissances [260322 : comment vers les dossiers de recherche avec la m�thode SetSearchCriteria](http://go.microsoft.com/fwlink/?LinkId=123603).
+- La seule fa�on que le contenu d'un dossier de r�sultats de recherche peut �tre modifi� est via un appel � **SetSearchCriteria**. Pour plus d'informations sur l'impl�mentation de **SetSearchCriteria**, consultez l'article de la Base de connaissances [260322 : comment vers les dossiers de recherche avec la m�thode SetSearchCriteria](https://go.microsoft.com/fwlink/?LinkId=123603).
     
 - Les messages ne peuvent pas �tre d�plac�s ou copi�s dans les dossiers de r�sultats de recherche.
     

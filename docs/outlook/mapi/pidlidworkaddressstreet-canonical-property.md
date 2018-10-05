@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bc714f8c6db2640c269f681c611fbb89e6e82d13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2abba4918cfb402870ff0408f5fcbcde94773771
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566557"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397953"
 ---
 # <a name="pidlidworkaddressstreet-canonical-property"></a>Propriété canonique PidLidWorkAddressStreet
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la partie du travail du contact adresse postale.
   
@@ -39,11 +39,11 @@ Spécifie la partie du travail du contact adresse postale.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

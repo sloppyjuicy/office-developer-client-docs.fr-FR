@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: Définit une propriété pour une balise d’action sur une forme ou une page.
-ms.openlocfilehash: 0945235c49e77210564e50e5c111579ab37f3e31
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 61fad8575532adde0106ef6db2888fe38f3ae4b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788182"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392500"
 ---
 # <a name="cell-element-action-tag-section-visio-xml"></a>Élément de cellule (Section balise d’Action) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Définit une propriété pour une balise d’action sur une forme ou une page.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Masters.XML, maître # .xml, pages.xml, page # .xml  <br/> |
    
@@ -71,9 +71,9 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
 |Désactivé  <br/> |Indique si la balise d’action s’affiche dans la fenêtre de dessin.  <br/> |[Disabled, cellule (section Action Tags)](disabled-cell-action-tags-section.md) <br/> |
 |DisplayMode  <br/> |Détermine si la balise d’action apparaît lorsque l’utilisateur déplace le pointeur au-dessus de la balise, quand la forme est sélectionnée ou tout le temps.  <br/> |[DisplayMode, cellule (Section Action Tags)](displaymode-cell-action-tags-section.md) <br/> |
 |TagName  <br/> |Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.  <br/> |[TagName, cellule (section Action Tags)](tagname-cell-action-tags-section.md) <br/> |
-|X   <br/> |La position de la coordonnée x dans le système de coordonnées locales de la forme autour de laquelle est positionné le bouton de balise d’action.  <br/> |[X, cellule (section Action Tags)](x-cell-action-tags-section.md) <br/> |
+|X   <br/> |Position de la coordonnée x dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[X, cellule (section Action Tags)](x-cell-action-tags-section.md) <br/> |
 |XJustify  <br/> |Décalage x du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |[X Justify, cellule (section Action Tags)](x-justify-cell-action-tags-section.md) <br/> |
-|Y  <br/> |La position de la coordonnée y dans le système de coordonnées locales de la forme autour de laquelle est positionné le bouton de balise d’action.  <br/> |[Y, cellule (section Action Tags)](y-cell-action-tags-section.md) <br/> |
+|Y  <br/> |Position de la coordonnée y dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[Y, cellule (section Action Tags)](y-cell-action-tags-section.md) <br/> |
 |YJustify  <br/> |Décalage y du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |[Y Justify, cellule (section Action Tags)](y-justify-cell-action-tags-section.md) <br/> |
    
 

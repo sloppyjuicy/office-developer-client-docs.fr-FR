@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c056b0e587de06f6c32ceb3cebbb96f2fb737208
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 59379b0b1345684a491f2f7f896f2b8fc8fd54c2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579080"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392388"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>Propriété canonique PidLidReminderSet
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie si un rappel est défini sur l’objet.
   
@@ -39,17 +39,17 @@ Spécifie si un rappel est défini sur l’objet.
 
 Si un objet calendar périodique a cette propriété la valeur TRUE, le client peut remplacer cette valeur pour les exceptions.
   
-Si cette propriété a la valeur FALSE dans un objet de calendrier périodique, les rappels sont désactivés pour la série entière, y compris les exceptions. Pour les objets de tâche périodique, cette propriété ne peut pas être remplacée par des exceptions (voir [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) et [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) pour plus d’informations). 
+Si cette propriété a la valeur FALSE dans un objet de calendrier périodique, les rappels sont désactivés pour la série entière, y compris les exceptions. Pour les objets de tâche périodique, cette propriété ne peut pas être remplacée par des exceptions (voir [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) et [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx) pour plus d’informations). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
     

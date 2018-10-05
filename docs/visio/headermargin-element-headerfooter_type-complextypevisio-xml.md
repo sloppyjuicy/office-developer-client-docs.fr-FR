@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: Indique la marge de l’en-tête d’un document.
-ms.openlocfilehash: a0accb08fd2c781e112b7b54e074dccd4c4e4307
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d8126ae73b1fb330234698343d14468fcbb3eed8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788763"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393375"
 ---
 # <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>HeaderMargin, élément (HeaderFooter_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Indique la marge de l’en-tête d’un document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
 description: Cette référence contient une rubrique Vue d’ensemble conceptuelle et les rubriques de référence, y compris des exemples, pour vous aider à développer des solutions avec le format de fichier Visio.
-ms.openlocfilehash: 0f5147e70febc0883f0de0dbd23eb5a7f6f1660d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 28e7541515720c5516ce45cd48274becedd63cf3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593430"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396784"
 ---
 # <a name="visio-file-format-reference"></a>Référence du format de fichier Visio
 
@@ -36,9 +36,9 @@ Cette documentation contient les informations suivantes :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Visio pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905478.aspx) 
-- [Accessibilité des produits Microsoft](http://www.microsoft.com/enable/products/default.aspx)
-- [Conventions de document](http://msdn.microsoft.com/en-us/office/aa905365.aspx) 
+- [Visio pour les développeurs](https://msdn.microsoft.com/office/aa905478.aspx) 
+- [Accessibilité des produits Microsoft](https://www.microsoft.com/enable/products/default.aspx)
+- [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx) 
 - [Notice de copyright SDK Visio](visio-sdk-copyright-notice.md)
 
     

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d4b62c4131ecc58db6957144321146625b43f7bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591022"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393235"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un jeton numérique que la méthode [IMAPISession::ShowForm](imapisession-showform.md) utilise pour accéder à un message. 
   
@@ -49,7 +49,7 @@ HRESULT PrepareForm(
   
 > [out] Pointeur vers un jeton de message, qui est utilisé par la méthode **IMAPISession::ShowForm** pour accéder au message vers lequel pointé _lpMessage_.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -57,15 +57,15 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::PrepareForm** crée un jeton de message pour le message vers laquelle pointé le paramètre _lpMessage_ et appelle la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) du message. Ce jeton est transmis dans le paramètre _ulMessageToken_ à **IMAPISession::ShowForm**. 
+La méthode **IMAPISession::PrepareForm** crée un jeton de message pour le message vers laquelle pointé le paramètre _lpMessage_ et appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) du message. Ce jeton est transmis dans le paramètre _ulMessageToken_ à **IMAPISession::ShowForm**. 
   
 ## <a name="notes-to-callers"></a>Notes aux appelants
 
-Si l’appel **PrepareForm** réussit, libérer le message vers lequel pointé _lpMessage_ en appelant la méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) avant d’appeler **ShowForm**. Pour libérer le message avant d’appeler **ShowForm** peut provoquer des fuites de mémoire. 
+Si l’appel **PrepareForm** réussit, libérer le message vers lequel pointé _lpMessage_ en appelant la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) avant d’appeler **ShowForm**. Pour libérer le message avant d’appeler **ShowForm** peut provoquer des fuites de mémoire. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

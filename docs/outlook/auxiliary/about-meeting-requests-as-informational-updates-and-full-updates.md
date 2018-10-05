@@ -1,5 +1,5 @@
 ---
-title: À propos des demandes de réunion en tant que les informations mises à jour et complètes
+title: À propos des demandes de réunion en tant que mises à jour intégrales et mises à jour à caractère informatif
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: Une demande de réunion est un message électronique qui a IPM. Schedule.Meeting.Request en tant que la classe de message. Par défaut, un participant reçoit une demande de réunion y répond directement.
-ms.openlocfilehash: 3565b2af03ef79d70fc9f2817c64a788f031c416
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782545"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400130"
 ---
-# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>À propos des demandes de réunion en tant que les informations mises à jour et complètes
+# <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>À propos des demandes de réunion en tant que mises à jour intégrales et mises à jour à caractère informatif
 
-Une demande de réunion est un message électronique qui a **IPM. Schedule.Meeting.Request** en tant que la classe de message. Par défaut, un participant reçoit une demande de réunion y répond directement. Outlook prend en charge la configuration de délégués qui peuvent répondre aux demandes de réunion pour le compte du destinataire principal. Outlook définit par programmation, la propriété nommée [PidLidMeetingType](http://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) une demande de réunion pour identifier l’état actuel de la mise à jour. 
+Une demande de réunion est un message électronique qui a **IPM. Schedule.Meeting.Request** en tant que la classe de message. Par défaut, un participant reçoit une demande de réunion y répond directement. Outlook prend en charge la configuration de délégués qui peuvent répondre aux demandes de réunion pour le compte du destinataire principal. Outlook définit par programmation, la propriété nommée [PidLidMeetingType](https://msdn.microsoft.com/library/290b290c-7836-4a7e-bf1a-8d0225a07e56%28Office.15%29.aspx) une demande de réunion pour identifier l’état actuel de la mise à jour. 
   
 ## <a name="recipients-without-delegates"></a>Destinataires sans délégués
 

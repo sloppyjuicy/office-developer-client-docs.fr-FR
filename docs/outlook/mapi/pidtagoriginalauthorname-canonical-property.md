@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 05e29f01747e4d5aa2fe0b61e58fa2ba738a53fd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: bb62f3a44c9f17070db969683891fb2e2d62eb5e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592849"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392703"
 ---
 # <a name="pidtagoriginalauthorname-canonical-property"></a>Propriété canonique PidTagOriginalAuthorName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom complet de l’auteur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
   
@@ -44,11 +44,11 @@ Les propriétés de l’auteur d’origine autoriser pour la conservation des in
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
     

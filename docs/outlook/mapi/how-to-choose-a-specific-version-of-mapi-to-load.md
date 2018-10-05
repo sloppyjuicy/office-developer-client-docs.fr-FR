@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c5a7ba301d61468c0ff43a7e99d05976d55d239d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d353eba55e33b8ab48b3c47d2f31f1b5e0973b58
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576668"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399731"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Choisissez une version spécifique de MAPI à charger
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lors de la liaison explicite à une implémentation de MAPI, vous devez sélectionner avec soin l’implémentation à charger. 
   
@@ -27,7 +27,7 @@ Il existe deux méthodes pour lier explicitement à une implémentation de MAPI.
     
 2. Vous pouvez implémenter l’algorithme de recherche MAPI client pour rechercher la version de MAPI utilisé par le client de messagerie par défaut et le charger.
     
-Étant donné que vous pouvez modifier les [Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx) pour diriger votre application pour utiliser une implémentation de MAPI, nous vous recommandons de rediriger votre application pour utiliser une implémentation de MAPI que vous avez testé avec. La liste suivante décrit les deux méthodes de liaison explicite. 
+Étant donné que vous pouvez modifier les [Paramètres de Registre Stub Mapi32.dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) pour diriger votre application pour utiliser une implémentation de MAPI, nous vous recommandons de rediriger votre application pour utiliser une implémentation de MAPI que vous avez testé avec. La liste suivante décrit les deux méthodes de liaison explicite. 
   
 ## <a name="reading-from-the-registry"></a>Lecture à partir du Registre
 
@@ -99,16 +99,16 @@ Car MFCMAPI charge l’implémentation par défaut de MAPI par défaut, si vous 
 10.  `GetMAPIPath`renvoie ensuite ce chemin d’accès à l’appelant, puis charge MAPI et lie explicitement lui comme décrit dans [le lien fonctions MAPI](how-to-link-to-mapi-functions.md).
     
 > [!NOTE] 
-> - Pour prendre en charge les copies localisées de MAPI pour l’anglais et les paramètres régionaux non anglais, `GetMAPIPath` lit les valeurs pour les sous-clés **MSIApplicationLCID** et **MSIOfficeLCID** .  `GetMAPIPath`appelle ensuite **FGetComponentPath**, tout d’abord spécifiant **MSIApplicationLCID** sous **szQualifier**, puis à nouveau spécifiant **MSIOfficeLCID** comme **szQualifier**. Pour plus d’informations sur les clés de Registre pour les clients de messagerie qui prennent en charge des langues, voir [Paramètre Up the MSI clés pour votre DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx).   
+> - Pour prendre en charge les copies localisées de MAPI pour l’anglais et les paramètres régionaux non anglais, `GetMAPIPath` lit les valeurs pour les sous-clés **MSIApplicationLCID** et **MSIOfficeLCID** .  `GetMAPIPath`appelle ensuite **FGetComponentPath**, tout d’abord spécifiant **MSIApplicationLCID** sous **szQualifier**, puis à nouveau spécifiant **MSIOfficeLCID** comme **szQualifier**. Pour plus d’informations sur les clés de Registre pour les clients de messagerie qui prennent en charge des langues, voir [Paramètre Up the MSI clés pour votre DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).   
 > - Si MFCMAPI ne reçoit pas d’un chemin d’accès pour l’utilisation de MAPI `GetMAPIPath`, il charge la bibliothèque de stub MAPI à partir du répertoire du système.
-> - La valeur de Registre **MSMapiApps** présentée dans le [Mappage explicitement des appels MAPI aux DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx) s’applique uniquement lorsque la bibliothèque Stub MAPI est utilisée. Applications qui chargement une implémentation de MAPI ou chargement l’implémentation par défaut n’ont pas définir la clé de Registre **MSMapiApps** . 
+> - La valeur de Registre **MSMapiApps** présentée dans le [Mappage explicitement des appels MAPI aux DLL MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx) s’applique uniquement lorsque la bibliothèque Stub MAPI est utilisée. Applications qui chargement une implémentation de MAPI ou chargement l’implémentation par défaut n’ont pas définir la clé de Registre **MSMapiApps** . 
     
 ## <a name="see-also"></a>Voir aussi
 
 - [FGetComponentPath](fgetcomponentpath.md)
 - [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
 - [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md)
-- [Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/en-us/library/ms531218%28EXCHG.10%29.aspx)
-- [Configuration des clés MSI pour votre DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28VS.85%29.aspx)
-- [Mappage explicitement des appels MAPI aux DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909490%28VS.85%29.aspx)
+- [Paramètres de Registre Stub Mapi32.dll](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx)
+- [Configuration des clés MSI pour votre DLL MAPI](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx)
+- [Mappage explicitement des appels MAPI aux DLL MAPI](https://msdn.microsoft.com/library/ee909490%28VS.85%29.aspx)
 

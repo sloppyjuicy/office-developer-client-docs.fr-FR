@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7bae17b-f1f3-4a29-bfa6-0a0658234eec
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 38a56cf65738fb35a4e153c0a5e3d5be85779947
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 805dad5b86acd3a07742e4a5f6c9fda34f0781fe
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583154"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399941"
 ---
 # <a name="pidnamesubject-canonical-property"></a>Propriété canonique PidNameSubject
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le sujet du fichier qui est attaché au document.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Subject  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Spécifie le sujet du fichier qui est attaché au document.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les documents.
     

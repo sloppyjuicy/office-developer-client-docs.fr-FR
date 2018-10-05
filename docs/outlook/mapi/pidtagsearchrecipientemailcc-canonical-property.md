@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 38fe217d-cf2e-51de-c97a-acb015129fd3
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6ac54e5a17c17ea36ededd311d55c52ece0c184e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 03501e14740d7b27bd54d761ae701e8863ad79dd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572605"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392836"
 ---
 # <a name="pidtagsearchrecipientemailcc-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailCc
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une chaîne Unicode qui est interrogée dans la liste des adresses de messagerie ou les noms complets des destinataires qui sont abordées dans la ligne **CC** des messages sur le magasin. 
   
@@ -39,11 +39,11 @@ Contient une chaîne Unicode qui est interrogée dans la liste des adresses de m
   
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole connexes Microsoft Exchange Server.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour la manipulation d’une configuration de liste de dossier de recherche.
     

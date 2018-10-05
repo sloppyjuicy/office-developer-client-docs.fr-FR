@@ -12,16 +12,16 @@ api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 519093b3c538037b5a42bc19cc65ed31ae19f07b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0905fbe2ba584aef49c50152aaf448267d477c10
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392185"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Donne accès aux conteneurs de carnet d’adresses. Applications clientes et MAPI appellent les méthodes **IABContainer** pour effectuer la résolution de noms et pour créer, copier et supprimer des destinataires. 
   
@@ -29,8 +29,8 @@ Donne accès aux conteneurs de carnet d’adresses. Applications clientes et MAP
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposés par :  <br/> |Objets conteneur de carnet d’adresses  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de carnet d’adresses  <br/> |
-|Appelée par :  <br/> |Applications MAPI et client  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de carnet d’adresses  <br/> |
+|Appelé par :  <br/> |Applications MAPI et client  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IABContainer  <br/> |
 |Type de pointeur :  <br/> |LPABCONT  <br/> |
 |Modèle de transaction :  <br/> |Traitées  <br/> |
@@ -62,7 +62,7 @@ Donne accès aux conteneurs de carnet d’adresses. Applications clientes et MAP
    
 ## <a name="remarks"></a>Remarques
 
-L’interface **IABContainer** indirectement hérite de l’interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28VS.85%29.aspx) par le biais de la [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) et [IMAPIProp : IUnknown](imapipropiunknown.md) interfaces. Fournisseurs de carnet d’adresses implémentent l’interface **IABContainer** . 
+L’interface **IABContainer** indirectement hérite de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) par le biais de la [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) et [IMAPIProp : IUnknown](imapipropiunknown.md) interfaces. Fournisseurs de carnet d’adresses implémentent l’interface **IABContainer** . 
   
 N’importe quel nombre d’autres conteneurs de carnet d’adresses, des listes de distribution et les objets utilisateur de messagerie peut exister dans un conteneur de carnet d’adresses. Comme avec n’importe quel conteneur, clients ou fournisseurs de services peuvent utiliser un conteneur de carnet d’adresses pour ouvrir une de ses entrées ou récupérer une table de hiérarchie ou une table de contenu. Conteneurs également fournissent la résolution de nom et, selon le fournisseur, la possibilité d’ajouter, supprimer ou modifier des entrées de carnet d’adresses.
   

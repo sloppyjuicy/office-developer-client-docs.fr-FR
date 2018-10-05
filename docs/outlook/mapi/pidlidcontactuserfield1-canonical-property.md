@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9652a6f-5081-4472-830b-9f611bbbb1fa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 15a24a96b7696c757d2d77d4c4ebd6a6d0763dab
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ebfad280878a5c368b5e668401506e84954b7bab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584267"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392591"
 ---
 # <a name="pidlidcontactuserfield1-canonical-property"></a>Propriété canonique PidLidContactUserField1
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le premier champ sur le contact est destiné aux divers pour le contact.
   
@@ -43,11 +43,11 @@ Cette propriété contient le texte qui n’est pas lié à une autre propriét�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

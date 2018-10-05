@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cd5a14b07888c7a17d550941909b345eff3b0276
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585457"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397834"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C++
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’implémentation des méthodes de l’interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx)and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) en langage C++ est relativement simple. Après une validation standard des paramètres qui sont passés, une implémentation de **QueryInterface** vérifie l’identificateur de l’interface demandée par rapport à la liste des interfaces prises en charge. Si l’identificateur demandé est parmi ceux pris en charge, **AddRef** est appelé et le pointeur **this** est renvoyé. Si l’identificateur demandé n’est pas dans la liste pris en charge, le pointeur de la sortie est défini sur NULL et la valeur MAPI_E_INTERFACE_NOT_SUPPORTED est renvoyée. 
+L’implémentation des méthodes de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)and [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) en langage C++ est relativement simple. Après une validation standard des paramètres qui sont passés, une implémentation de **QueryInterface** vérifie l’identificateur de l’interface demandée par rapport à la liste des interfaces prises en charge. Si l’identificateur demandé est parmi ceux pris en charge, **AddRef** est appelé et le pointeur **this** est renvoyé. Si l’identificateur demandé n’est pas dans la liste pris en charge, le pointeur de la sortie est défini sur NULL et la valeur MAPI_E_INTERFACE_NOT_SUPPORTED est renvoyée. 
   
 L’exemple de code suivant montre comment vous pouvez implémenter **QueryInterface** en langage C++ pour un objet d’état, un objet qui est une sous-classe de la [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) interface. **IMAPIStatus** hérite **IUnknown** via [IMAPIProp : IUnknown](imapipropiunknown.md). Par conséquent, si un appelant demande une de ces interfaces, le pointeur **this** peut être obtenue, car les interfaces liées par le biais de l’héritage des autorisations. 
   

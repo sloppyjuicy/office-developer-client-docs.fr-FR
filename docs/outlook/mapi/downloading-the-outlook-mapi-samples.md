@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: ee3a65ec-c776-4aa1-a772-de56fc33a8d1
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7fb1e20d35e756dc0681f4927d9f542628482cb6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6b41d9cbd6ec74167dce74e97bb0923817dc6f84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583259"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395965"
 ---
 # <a name="downloading-the-outlook-mapi-samples"></a>Téléchargement des exemples MAPI d’Outlook
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les exemples de Microsoft Outlook MAPI comprennent un fournisseur de carnet d’adresses, un fournisseur de magasin de message et un fournisseur de transport.
   
  **Pour télécharger l’exemple de fournisseur de carnet d’adresses**
   
-1. Pour télécharger les exemples MAPI Outlook, cliquez sur l’onglet **accueil** , dans la page [d’Exemples de Code Outlook MAPI (Messaging API)](http://ol2010mapisamples.codeplex.com/) . 
+1. Pour télécharger les exemples MAPI Outlook, cliquez sur l’onglet **accueil** , dans la page [d’Exemples de Code Outlook MAPI (Messaging API)](https://ol2010mapisamples.codeplex.com/) . 
     
 2. Sous l’onglet **accueil** , cliquez sur **Cliquez ici pour télécharger la source pour les exemples MAPI Outlook 2010**.
     

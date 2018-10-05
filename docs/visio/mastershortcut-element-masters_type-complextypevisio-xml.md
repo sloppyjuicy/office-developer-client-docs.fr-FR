@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: Spécifie un raccourci de base défini dans le document.
-ms.openlocfilehash: be3e7d207e58d8c249598a7e156356d4f9e61849
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 03196c6fc1f3424c61bcce406dc050f2d5a73365
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789081"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392955"
 ---
 # <a name="mastershortcut-element-masterstype-complextype-visio-xml"></a>MasterShortcut, élément (Masters_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie un raccourci de base défini dans le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |maître # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Formes de base](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contient les éléments de la **forme de base** pour le document.  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contient les éléments de la **forme de base** pour le document.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

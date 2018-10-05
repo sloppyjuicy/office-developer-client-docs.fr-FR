@@ -1,19 +1,19 @@
 ---
-title: Ce que fait le modèle CSOM et ne fait pas
+title: Fonctionnalité du modèle CSOM
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: Le modèle objet côté client (CSOM) est un ensemble d’API pour Project Server 2013 qui sont destinées à la fois en ligne et sur site utiliser dans les applications qui peuvent être développées pour les tablettes PC et appareils mobiles. Cet article inclut certains scénarios courants d’utilisation du modèle CSOM et répertorie les limites de CSOM.
-ms.openlocfilehash: 232152d3d2ee902b438bc1fe3ece06acca713175
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad9f9e0404cb0063a1c58c8e66a022372881a24f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787939"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399290"
 ---
-# <a name="what-the-csom-does-and-does-not-do"></a>Ce que fait le modèle CSOM et ne fait pas
+# <a name="what-the-csom-does-and-does-not-do"></a>Fonctionnalité du modèle CSOM
 
 Le modèle objet côté client (CSOM) est un ensemble d’API pour Project Server 2013 qui sont destinées à la fois en ligne et sur site utiliser dans les applications qui peuvent être développées pour les tablettes PC et appareils mobiles. Cet article inclut certains scénarios courants d’utilisation du modèle CSOM et répertorie les limites de CSOM.
   
@@ -65,11 +65,11 @@ Pour obtenir la liste des actions qui prennent en charge l’interface PSI ni le
 
 Le modèle n’inclut pas les fonctionnalités des services PSI suivants :
   
-- **Service d’administration** Pour gérer les paramètres d’administration et opérations dans Project Server et pour les sites de projet associés, tels que la création des périodes fiscales et de définir des paramètres de feuille de temps, utilisez les méthodes PSI dans la classe [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) . Project Web App lui-même utilise les méthodes **Admin** dans la plupart des pages qui sont liées à la page Paramètres du serveur (http:// *NomServeur*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx). 
+- **Service d’administration** Pour gérer les paramètres d’administration et opérations dans Project Server et pour les sites de projet associés, tels que la création des périodes fiscales et de définir des paramètres de feuille de temps, utilisez les méthodes PSI dans la classe [WebSvcAdmin.Admin](https://msdn.microsoft.com/library/WebSvcAdmin.Admin.aspx) . Project Web App lui-même utilise les méthodes **Admin** dans la plupart des pages qui sont liées à la page Paramètres du serveur (https:// *nom_serveur*  /  *ProjectServerName* /_layouts/15/pwa/Admin/Admin.aspx). 
     
 - **Service d’archivage** Pour enregistrer et gérer les entités telles que les projets, ressources et des champs personnalisés dans les tables d’archivage, utilisez les méthodes PSI dans la classe de [l’Archive](https://msdn.microsoft.com/library/WebSvcArchive.Archive.aspx) . 
     
-- **Service CubeAdmin** Pour créer et gérer des cubes OLAP pour les installations locales, utilisez les méthodes PSI dans la classe [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) , ou utilisez la page Gestion de base de données OLAP (http:// *NomServeur*  /  ** ProjectServerName/_layouts/15/pwa / CubeAdmin/CubeAnalysisAdmin.aspx) dans Project Web App. 
+- **Service CubeAdmin** Pour créer et gérer des cubes OLAP pour les installations locales, utilisez les méthodes PSI dans la classe [WebSvcCubeAdmin.CubeAdmin](https://msdn.microsoft.com/library/WebSvcCubeAdmin.CubeAdmin.aspx) , ou utilisez la page Gestion de base de données OLAP (https:// *nom_serveur*  /  *ProjectServerName* /_layouts/15/pwa / CubeAdmin/CubeAnalysisAdmin.aspx) dans Project Web App. 
     
     > [!NOTE]
     > Project Online ne prend pas en charge les cubes OLAP. 
@@ -110,14 +110,14 @@ Le modèle CSOM dans Project Server 2013 repose sur l’implémentation du modè
   
 Par exemple, si vous utilisez le modèle pour créer un projet, puis modifiez le projet pour ajouter des 252 tâches avec un minimum d’informations telles que nom court, le GUID de tâche et une durée de 1 d, la quantité totale de données dans la demande de **DraftProject.Update** est inférieur à 2 MO. Mais, si vous essayez d’ajouter 253 ces tâches à un projet vide, la limite de 2 Mo est dépassée et vous recevez l’exception suivante : **Microsoft.SharePoint.Client.ServerException : la demande utilise trop de ressources**
   
-Pour capturer les données dans une demande CSOM via HTTP ou HTTPS, vous pouvez utiliser un outil tel que [Fiddler](http://www.fiddler2.com) de débogage site web (http://www.fiddler2.com). Pour obtenir un exemple de code qui implémente un test pour la taille de la demande et inclut une solution qui divise une demande importante en plus petits groupes, voir [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
+Pour capturer les données dans une demande CSOM via HTTP ou HTTPS, vous pouvez utiliser un outil tel que [Fiddler](https://www.fiddler2.com) de débogage site web (https://www.fiddler2.com). Pour obtenir un exemple de code qui implémente un test pour la taille de la demande et inclut une solution qui divise une demande importante en plus petits groupes, voir [DraftProject.Update](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.DraftProject.Update.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 <a name="pj15_WhatTheCSOM_AR"> </a>
 
 - [Modèle objet côté client (CSOM) pour Project Server](client-side-object-model-csom-for-project-2013.md)
     
-- [Ce que fait la PSI et ne fait pas](what-the-psi-does-and-does-not-do.md)
+- [Fonctionnalités de l’interface PSI](what-the-psi-does-and-does-not-do.md)
     
 - [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx)
     

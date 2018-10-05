@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08239670-3211-420c-99d7-0056ed967cb8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6ca53633f0c1e5b226f7e03c8ee702d4cda7d115
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 504dc4b1cecb9798590e4a15968acc3aa98fe4a6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586794"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399899"
 ---
 # <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>Propriété canonique PidLidAppointmentTimeZoneDefinitionStartDisplay
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux qui mappe sur le format persistant d’une structure [TZDEFINITION](http://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , qui stocke la description pour le fuseau horaire qui est utilisé lorsque l’heure de début d’un rendez-vous ou d’une demande de réunion est sélectionné. 
+Contient un flux qui mappe sur le format persistant d’une structure [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , qui stocke la description pour le fuseau horaire qui est utilisé lorsque l’heure de début d’un rendez-vous ou d’une demande de réunion est sélectionné. 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Microsoft Office Outlook 2003 ou version antérieure et les solutions qui sont b
   
 Versions d’Outlook depuis Microsoft Office Outlook 2007 et les solutions basées sur CDO 1.2.1 et que vous ont exécuté l’outil de mise à jour de calendrier Outlook ou Exchange Server, utilisent cette propriété pour stocker le fuseau horaire de l’heure de début. La propriété **dispidApptTZDefStartDisplay** indique le rendez-vous ou la réunion dans le fuseau horaire d’origine qu’il a été planifiée. Il détermine si l’heure de début doit être ajusté si Modifier les règles du fuseau horaire. Si cette propriété est manquante, le fuseau horaire local est supposé. Cette propriété est utilisée uniquement à des fins d’affichage et n’est pas utilisée dans l’extension de périodicité. 
   
-Un analyseur doit être prudent lorsqu’il lit un flux de données obtenu à partir de cette propriété, ou lorsqu’il persiste **TZDEFINITION** à un flux d’engagement à une propriété binaire, tel que **dispidApptTZDefStartDisplay**. Pour plus d’informations, voir [About persistance TZDEFINITION dans un flux de validation dans une propriété binaire](http://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
+Un analyseur doit être prudent lorsqu’il lit un flux de données obtenu à partir de cette propriété, ou lorsqu’il persiste **TZDEFINITION** à un flux d’engagement à une propriété binaire, tel que **dispidApptTZDefStartDisplay**. Pour plus d’informations, voir [About persistance TZDEFINITION dans un flux de validation dans une propriété binaire](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
   
 Cette propriété spécifie les informations de fuseau horaire pour la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). La valeur de **dispidApptTZDefStartDisplay** est utilisée pour convertir la date de début et l’heure UTC du fuseau horaire local à des fins d’affichage. Pour chaque **TZRULE** spécifié par cette propriété, l’indicateur TZRULE_FLAG_RECUR_CURRENT_TZREG ne doit pas être définie. Par exemple, si la **TZRULE** est la règle effective, la valeur du champ, **TZRULE** doit être « 0 x 0002 » ; dans le cas contraire, elle doit être « 0 x 0000 ». 
   
@@ -49,11 +49,11 @@ Cette propriété spécifie les informations de fuseau horaire pour la propriét
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes...
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

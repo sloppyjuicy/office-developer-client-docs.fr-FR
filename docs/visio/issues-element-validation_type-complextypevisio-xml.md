@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: Contient tous les éléments de problème pour le document.
-ms.openlocfilehash: 9205bf014c81aa699b8bc4a2a7412c5ce59c5fd0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: da3156e34af1536fab39d3d4949acac1efe67264
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788868"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400578"
 ---
 # <a name="issues-element-validationtype-complextype-visio-xml"></a>Élément de problèmes (Validation_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient tous les éléments de problème pour le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |validation.Xml  <br/> |
    

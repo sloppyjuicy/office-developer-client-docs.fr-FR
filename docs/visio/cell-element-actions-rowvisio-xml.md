@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou action de la balise.
-ms.openlocfilehash: d0f103e6f241a7982bcc2663752d9338cf4c3eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01b81a593de07be8059263d7a6e6538f31ed3be1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395671"
 ---
 # <a name="cell-element-actions-row-visio-xml"></a>Élément de cellule (ligne Actions) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une propriété d’une action associée à une commande personnalisé
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Masters.XML, maître # .xml, pages.xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Actions)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou action de la balise.  <br/> |
+|[Élément de ligne (section Actions)](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’une action associée à une commande personnalisée dans un menu contextuel ou action de la balise.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,18 +60,18 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 |U  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente une unité de mesure par défaut est la liste de distribution.  <br/> |Unités de la cellule.  <br/> |
 |V  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |La valeur de la cellule de feuille ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 L’attribut **N** de cet élément de **cellule** doit être un ensemble limité de valeurs qui correspondent à des cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|Action  <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action.  <br/> |[Action, cellule (section Actions)](action-cell-actions-section.md) <br/> |
+|Opération  <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une commande de menu contextuel ou de balise d’action.  <br/> |[Action, cellule (section Actions)](action-cell-actions-section.md) <br/> |
 |BeginGroup  <br/> |Indique si un séparateur est inséré dans le menu au-dessus de cette action.  <br/> |[BeginGroup, cellule (section Actions)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.  <br/> |[ButtonFace, cellule (section Actions)](buttonface-cell-actions-section.md) <br/> |
-|Activée  <br/> |Indique si une option est cochée dans le menu contextuel ou de balise d’action.  <br/> |[Checked, cellule (section Actions)](checked-cell-actions-section.md) <br/> |
+|Checked  <br/> |Indique si une option est cochée dans le menu contextuel ou de balise d’action.  <br/> |[Checked, cellule (section Actions)](checked-cell-actions-section.md) <br/> |
 |Désactivé  <br/> |Indique si une option d’un menu contextuel ou de balise d’action est désactivée.  <br/> |[Disabled, cellule (section Actions)](disabled-cell-actions-section.md) <br/> |
-|FlyoutChild  <br/> |Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.  <br/> |[FlyoutChild, cellule (Section Actions)](flyoutchild-cell-actions-section.md) <br/> |
+|FlyoutChild  <br/> |Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.  <br/> |[Cellule FlyoutChild (section Actions)](flyoutchild-cell-actions-section.md) <br/> |
 |Invisible  <br/> |Indique si l’action est visible dans le menu contextuel ou de balise d’action.  <br/> |[Invisible, cellule (section Actions)](invisible-cell-actions-section.md) <br/> |
 |Menu  <br/> |Définit le nom d’une option de menu qui s’affiche dans un menu contextuel ou de balise d’action pour une forme ou une page.  <br/> |[Menu, cellule (section Actions)](menu-cell-actions-section.md) <br/> |
 |ReadOnly  <br/> |Contrôle si l’action d’un menu contextuel ou de balise d’action est en lecture seule.  <br/> |[ReadOnly, cellule (section Actions)](readonly-cell-actions-section.md) <br/> |

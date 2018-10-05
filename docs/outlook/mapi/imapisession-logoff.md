@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9dfc3b3381139b6b7fe47fb369d1cd69ee5e9677
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587837"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399647"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Met fin à une session MAPI.
   
@@ -57,7 +57,7 @@ MAPI_LOGOFF_UI
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -65,7 +65,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::Logoff** termine une session MAPI. Lors de la **fermeture de session** renvoie, aucune des méthodes à l’exception de [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) peut être appelée. 
+La méthode **IMAPISession::Logoff** termine une session MAPI. Lors de la **fermeture de session** renvoie, aucune des méthodes à l’exception de [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) peut être appelée. 
   
 ## <a name="notes-to-callers"></a>Notes aux appelants
 
@@ -73,9 +73,9 @@ Lors de la **fermeture de session** renvoie, version de l’objet de la session 
   
 Pour plus d’informations sur la fin d’une session, voir [mettre fin à une Session MAPI](ending-a-mapi-session.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -91,7 +91,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [Fermeture d’une session MAPI](ending-a-mapi-session.md)
 

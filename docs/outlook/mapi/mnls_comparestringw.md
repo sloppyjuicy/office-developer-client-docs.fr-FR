@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
 description: 'Dernière modification : 20 février 2012'
-ms.openlocfilehash: 3e23fa9fcb074fabacf1a2dd9ac3f632cdce5b5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576175"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396210"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Compare deux chaînes Unicode.
   
@@ -37,11 +37,11 @@ int MNLS_CompareStringW (
 
  _LCID_
   
-> [in] Identificateur de paramètres régionaux. Pour les définitions détaillées, voir le paramètre _Locale_ de [CompareString](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+> [in] Identificateur de paramètres régionaux. Pour les définitions détaillées, voir le paramètre _Locale_ de [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [in] Indicateurs à ignorer la casse et des signes diacritiques. Pour les définitions détaillées, voir le paramètre _dwCmpFlags_ de [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+> [in] Indicateurs à ignorer la casse et des signes diacritiques. Pour les définitions détaillées, voir le paramètre _dwCmpFlags_ de [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
@@ -59,19 +59,19 @@ int MNLS_CompareStringW (
   
 > [in] Longueur en caractères de la deuxième chaîne Unicode, à l’exception du caractère de fin null. L’application peut fournir une valeur négative si la chaîne est terminée. Dans ce cas, la fonction détermine automatiquement la longueur.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie les valeurs indiquées pour [CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx).
+Renvoie les valeurs indiquées pour [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction encapsule [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** accepte les mêmes paramètres et a le même comportement que [CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx).
+Cette fonction encapsule [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** accepte les mêmes paramètres et a le même comportement que [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[CompareStringW](http://msdn.microsoft.com/en-us/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](http://msdn.microsoft.com/en-us/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

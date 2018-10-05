@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 78b157dfb11eb7e97d90142a148e3741e3d818d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5fc7360e3070ed4d20be7ac0155ebdcb04cf2048
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572647"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396952"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Propriété canonique PidTagAttachContentId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’en-tête de l’identification du contenu d’une pièce jointe du message Multipurpose Internet Mail Extensions (MIME). 
   
@@ -42,7 +42,7 @@ Ces propriétés sont utilisées pour la prise en charge MHTML. Ils représenten
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     

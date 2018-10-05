@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 012a3f6e-fd16-4dc9-845d-2bf4cebeaa42
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 92b9fc9dd5fdf359af06e8a8e5b21d4591933a1b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6f25c1a72882f9236d56532b7259f51512734945
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578086"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400340"
 ---
 # <a name="pidlidlogduration-canonical-property"></a>Propriété canonique PidLidLogDuration
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Représente la durée, en minutes, d’un message de journal.
   
@@ -43,11 +43,11 @@ La durée, en minutes, de l’activité doit correspondre à la différence entr
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les journaux.
     

@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7d01f07b5eb5ca34b4bd825b62b7d1520b853d6b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564261"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397022"
 ---
 # <a name="olfi"></a>OLFI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 File d’attente des structures de ID à long terme utilisé par le fournisseur de banque de dossiers personnels (PST) de fichier pour attribuer un ID d’entrée pour un nouveau message ou un dossier en mode hors connexion.
   
@@ -69,7 +69,7 @@ typedef struct {
     
 ## <a name="remarks"></a>Remarques
 
-Un ID d’entrée est un identificateur d’entrée MAPI 4 octets pour un dossier ou un message. Pour plus d’informations, voir la [propriété ENTRYID](http://msdn.microsoft.com/en-us/library/ms836424).
+Un ID d’entrée est un identificateur d’entrée MAPI 4 octets pour un dossier ou un message. Pour plus d’informations, voir la [propriété ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
 Lorsqu’un fournisseur de magasins PST affecte un ID d’entrée à un nouvel objet, il doit tout d’abord un GUID qui identifie le serveur et un index qui identifie l’objet dans le magasin. Même si le GUID n’est pas unique parmi tous les identificateurs d’entrée, le GUID et l’index combinés fournissent une entrée unique. Cette paire GUID et l’index est suivie par une structure d’ID à long terme, **LTID**, qui fait partie de la structure **OLFI** . 
   

@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ebbed00fb920994f40b7ae139c7eddd658984b95
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: fa2a447d0757e75c95d7dc3d9b1dd16b8c7a8084
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566858"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394719"
 ---
 # <a name="address-book-provider-sample"></a>Exemple de fournisseur de carnets d’adresses
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cet exemple prend en charge un seul conteneur en lecture seule pour les noms complets et les adresses de messagerie, qui sont lues à partir d’un fichier binaire plat. L’exemple prend en charge les modèles uniques et toutes les options de configuration à l’exception de l’Assistant profil.
   
-Vous pouvez télécharger cet exemple à partir des [Exemples de Code Outlook MAPI (Messaging API)](http://go.microsoft.com/fwlink/?LinkId=129740
+Vous pouvez télécharger cet exemple à partir des [Exemples de Code Outlook MAPI (Messaging API)](https://go.microsoft.com/fwlink/?LinkId=129740
 ).
   
 |||

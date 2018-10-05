@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un développeur peut personnaliser un site Project Online (SharePoint hébergé) à l’aide d’applications autonomes et/ou compléments Project. Un large éventail d’applications est possible que la plage à partir de répondre aux besoins des personnes impliquées dans un projet pour les fonctions d’assistance PMO, telles qu’une des options suivantes :'
-ms.openlocfilehash: 25a38a7c7359020058983e271067a87da29f1b3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594529"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392584"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 à 60 avec Project Online
 
@@ -83,7 +83,7 @@ Vous pouvez télécharger et exécuter l’exemple en plusieurs étapes :
     
    Project Online examine à la fois la portée d’application de la macro complémentaire et les autorisations utilisateur déterminent l’accès aux informations sur l’hôte de Project Online. Si l’accès est refusé explicitement dans un ou les deux paramètres, Project Online refuse l’accès aux informations. Dans le cas contraire, l’accès est accordé.
     
-3. Activer le [chargement de version test](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site.  
+3. Activer le [chargement de version test](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site.  
     
 4. Générez le projet.
     
@@ -115,7 +115,7 @@ Vous pouvez exécuter l’exemple en quelques étapes :
     
    Project Online examine à la fois la portée d’application de la macro complémentaire et les autorisations utilisateur déterminent l’accès aux informations sur l’hôte de Project Online. Si l’accès est refusé explicitement dans un ou les deux paramètres, Project Online refuse l’accès aux informations. Dans le cas contraire, l’accès est accordé.
     
-3. Activer le [chargement de version test](https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site. 
+3. Activer le [chargement de version test](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) sur votre site. 
     
 4. Générez le projet.
     

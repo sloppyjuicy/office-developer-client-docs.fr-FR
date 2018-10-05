@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 90ce0ea3-ba73-cb57-0fa9-8898bc4ac9de
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: 5b16da68a5cc5ab9e005a262bf1518ea90aac570
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a1574de555eb74d06c4dbe721e7e013ac59d3071
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397764"
 ---
 # <a name="installing-the-sample-wrapped-pst-store-provider"></a>Installation de l’exemple de fournisseur d’archive PST encapsulée
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente les étapes pour télécharger et installer le fournisseur de banque exemple encapsulé PST. L’exemple encapsulé PST stocker de fournisseur, WrapPST, implémente un fournisseur de banque PST encapsulé est destiné à être utilisé conjointement avec l’API de réplication. Pour plus d’informations sur l’API de réplication, consultez la rubrique [Sur l’API de réplication](about-the-replication-api.md).
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Installer l’exemple de fournisseur de banque de dossiers personnels encapsulé
 
-1. Pour télécharger le fournisseur de banque exemple encapsulé PST, voir [exemples de Code de référence Outlook 2007 supplémentaire et programme d’installation redistribuable](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Pour télécharger le fournisseur de banque exemple encapsulé PST, voir [exemples de Code de référence Outlook 2007 supplémentaire et programme d’installation redistribuable](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Ouvrez le dossier **SampleWrappedPSTStoreProvider** , puis cliquez sur **Extraire tous les fichiers**.
     

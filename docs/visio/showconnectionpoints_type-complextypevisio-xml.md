@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b370158-374d-a2a8-e494-0e79fe0bc968
-ms.openlocfilehash: 5df453a9209decf5471b9fbe29909b9598366044
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3a83bf7f0b536d1a162937211abb9dda8409e6ca
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789712"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395300"
 ---
 # <a name="showconnectionpointstype-complextype-visio-xml"></a>Type complexe ShowConnectionPoints_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19789712"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |type xsd : Boolean  <br/> |
    

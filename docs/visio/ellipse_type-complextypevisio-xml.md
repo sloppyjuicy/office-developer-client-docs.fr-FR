@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67dc78e-6639-e32f-4909-945001659d30
-ms.openlocfilehash: 84be003154bd8810dc3443a355feee0ec4cec19c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9b82e9c34ee4a520f318e7c8fa1ffd8b0797d6e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788576"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396637"
 ---
 # <a name="ellipsetype-complextype-visio-xml"></a>Type complexe Ellipse_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19788576"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |GeometryRow_Type  <br/> |
    

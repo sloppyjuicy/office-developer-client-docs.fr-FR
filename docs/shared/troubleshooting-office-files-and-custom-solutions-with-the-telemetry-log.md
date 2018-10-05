@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
-ms.openlocfilehash: 95b23bfbb45a492147ec4d56849a08e0ec14e4a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebcf7908fb9f7e1558b0f0576fbbf9a6f0b07568
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787977"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393277"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Dépannage des solutions personnalisées et des fichiers Office avec le journal de télémétrie
 
@@ -25,7 +25,7 @@ Cette prolifération de solutions Office complexifie les mises à niveau des ver
   
 Outil reposant sur Excel 2013, le Journal de télémétrie pour Office 2013 aide les développeurs et les utilisateurs expérimentés à diagnostiquer les problèmes de compatibilité en affichant les événements qui se produisent dans un éventail d'applications Office 2013. Grâce à cet outil, les utilisateurs sont à même de déterminer les problèmes potentiels avec les compléments qu'ils utilisent dans leur environnement de travail, fournissant ainsi aux décideurs d'entreprise les informations dont ils ont besoin pour déterminer si la mise à niveau vers Office 2013 est possible. Le Journal de télémétrie propose également des commentaires détaillés sur des modifications ou des obsolescences spécifiques dans les modèles objet pour les applications Office 2013, ce qui permet aux développeurs d'identifier et de remanier rapidement le code ou les commandes problématiques. Les informaticiens peuvent voir les tendances de fonctionnement des solutions sur différents clients grâce au Tableau de bord de télémétrie pour Office 2013, outil complémentaire du Journal de télémétrie.
   
-Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+Pour plus d'informations, voir [Déployer le Tableau de bord de télémétrie](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
   
 ## <a name="how-the-telemetry-log-works"></a>Fonctionnement du Journal de télémétrie
 <a name="OEV_Types"> </a>
@@ -126,11 +126,11 @@ Utilisez le Tableau 2 suivant pour interpréter les enregistrements affichés da
 |**ID d’évènement**|**Titre**|**Gravité**|**Description**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Le document a été chargé  <br/> ||Le fichier indiqué dans la colonne **Fichier** a été ouvert dans l'application Office sans problème.  <br/> |
-|2  <br/> |Échec de chargement du document  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier. Un problème de compatibilité sous-jacente est possible.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](http://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](http://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|2  <br/> |Échec de chargement du document  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier. Un problème de compatibilité sous-jacente est possible.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Le modèle a été chargé  <br/> ||Le fichier de modèle indiqué dans la colonne **Fichier** a été ouvert dans l'application Office sans problème.  <br/> |
-|4  <br/> |Échec de chargement du modèle  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier de modèle. Un problème de compatibilité sous-jacent est possible ou la disponibilité du modèle a changé.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](http://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](http://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|4  <br/> |Échec de chargement du modèle  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier de modèle. Un problème de compatibilité sous-jacent est possible ou la disponibilité du modèle a changé.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Le complément a été chargé  <br/> ||Le complément indiqué dans la colonne **Fichier** a été chargé dans l'application Office sans problème. Aucun problème de compatibilité n'a été détecté.  <br/> |
-|6  <br/> |Échec du chargement du complément  <br/> |Critique  <br/> | L'application n'a pas pu charger le complément indiqué dans la colonne **Fichier**.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](http://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](http://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|6  <br/> |Échec du chargement du complément  <br/> |Critique  <br/> | L'application n'a pas pu charger le complément indiqué dans la colonne **Fichier**.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Le manifeste du complément a été correctement téléchargé  <br/> ||L'application hôte a chargé le manifeste de l'Complément Office.  <br/> |
 |8  <br/> |Échec du téléchargement du manifeste du complément  <br/> |Critique  <br/> |L’application hôte n’a pas pu charger le fichier manifeste pour l’Complément Office à partir du catalogue SharePoint, du catalogue d’entreprise ou de l’Office Store.  <br/> |
 |9  <br/> |Échec de l'analyse du balisage du complément  <br/> |Critique  <br/> |L'application hôte a chargé le manifeste de l'Complément Office pour le complément, mais n'a pas pu lire le XML.  <br/> |
@@ -158,9 +158,9 @@ Le Journal de télémétrie fournit aux grandes entreprises, aux utilisateurs in
 ## <a name="see-also"></a>Voir aussi
 <a name="OEV_Additional"> </a>
 
-- [Centre pour développeurs Office](http://msdn.microsoft.com/fr-FR/office/aa905340.aspx)
+- [Centre pour développeurs Office](https://msdn.microsoft.com/office/aa905340.aspx)
 - [Problèmes de compatibilité dans Office](compatibility-issues-in-office.md)
-- [Déployer le Tableau de bord de télémétrie Office](http://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Centre pour développeurs Office](http://msdn.microsoft.com/fr-FR/office/aa905340)
+- [Déployer le Tableau de bord de télémétrie Office](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
+- [Centre pour développeurs Office](https://msdn.microsoft.com/office/aa905340)
     
 

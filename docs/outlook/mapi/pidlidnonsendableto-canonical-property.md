@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90e14969-652b-422a-9b0a-ee99e58bc8d5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e4875ff12d494b1d259c4647ff925243e55ee281
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6cc510cb9a4a79f977cb6c9721921833441df23c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586612"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394089"
 ---
 # <a name="pidlidnonsendableto-canonical-property"></a>Propriété canonique PidLidNonSendableTo
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une liste de tous les participants de rédaction qui sont également des participants obligatoires.
   
@@ -43,11 +43,11 @@ La valeur de chaque participant est la propriété **PR_DISPLAY_NAME** ([PidTagD
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

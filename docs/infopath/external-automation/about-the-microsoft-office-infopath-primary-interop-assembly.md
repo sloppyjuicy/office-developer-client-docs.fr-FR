@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code managé tel que Visual c# et Visual Basic, l’option prise en charge de la programmabilité .NET dans le programme d’installation de InfoPath installe trois assemblys d’interopérabilité.
-ms.openlocfilehash: 95c42e4b4fce9d51a0cc97d456c7700a8022013a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 51773ad46b1371c410c4249e13a489f0c5550cd1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564128"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393354"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office
 
@@ -27,7 +27,7 @@ Les fichiers des trois assemblys d'interopérabilité installés par InfoPath so
     
 - Microsoft.Office.Interop.InfoPath.Xml.dll
     
-Cette rubrique décrit le modèle objet exposé par le biais de l’assembly d’interopérabilité Microsoft.Office.Interop.InfoPath, qui est utilisé exclusivement pour le code d’automatisation externe. Pour plus d’informations sur l’assembly Microsoft.Office.Interop.InfoPath.SemiTrust, qui est utilisé exclusivement pour l’écriture et en cours d’exécution du code managé qui s’exécute à partir de modèles de formulaire InfoPath (.xsn), voir [Modèles d’objet compatible avec InfoPath 2003](http://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
+Cette rubrique décrit le modèle objet exposé par le biais de l’assembly d’interopérabilité Microsoft.Office.Interop.InfoPath, qui est utilisé exclusivement pour le code d’automatisation externe. Pour plus d’informations sur l’assembly Microsoft.Office.Interop.InfoPath.SemiTrust, qui est utilisé exclusivement pour l’écriture et en cours d’exécution du code managé qui s’exécute à partir de modèles de formulaire InfoPath (.xsn), voir [Modèles d’objet compatible avec InfoPath 2003](https://msdn.microsoft.com/library/e4511af6-d7e7-44ad-a50d-1b7ee04f8215%28Office.15%29.aspx).
   
 ## <a name="important-installation-information"></a>Informations importantes concernant l'installation
 

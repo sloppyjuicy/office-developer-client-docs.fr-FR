@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
 description: Spécifie si un paramètre d’extension de composant logiciel enfichable spécifique est activé ou désactivé pour la fenêtre active. La valeur peut être une somme des valeurs dans le tableau suivant.
-ms.openlocfilehash: 0fe9ce4060fbd6366a188e17ed716cb74034f375
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 57fde520d3dc8e0582c0062a599d5f38a73169b4
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394404"
 ---
 # <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>SnapExtensions, élément (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie si un paramètre d’extension de composant logiciel enfichable spéci
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -50,7 +50,7 @@ Aucun.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ## <a name="remarks"></a>Remarques
 

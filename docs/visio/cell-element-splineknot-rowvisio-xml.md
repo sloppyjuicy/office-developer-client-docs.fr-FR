@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: Contient les coordonnées x ou y du point de contrôle ou le nœud d’une spline.
-ms.openlocfilehash: 14a62fba7d900f1d15a21b4a348c9affda6cad05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f2ddbcf7b750f2c2de983e16861070c7305fc3a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788219"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395118"
 ---
 # <a name="cell-element-splineknot-row-visio-xml"></a>Élément de cellule (ligne SplineKnot) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du point de contrôle ou le nœud d’une splin
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,7 +66,7 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x d’un point de contrôle.  <br/> |[SplineKnot, ligne (section Geometry)](splineknot-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x d'un point de contrôle.  <br/> |[SplineKnot, ligne (section Geometry)](splineknot-row-geometry-section.md) <br/> |
 |Y  <br/> |Coordonnée y d’un point de contrôle.  <br/> |[SplineKnot, ligne (section Geometry)](splineknot-row-geometry-section.md) <br/> |
 |A  <br/> |Un des nœuds de la spline (autre que le dernier ou les deux premiers).  <br/> |[SplineKnot, ligne (section Geometry)](splineknot-row-geometry-section.md) <br/> |
    

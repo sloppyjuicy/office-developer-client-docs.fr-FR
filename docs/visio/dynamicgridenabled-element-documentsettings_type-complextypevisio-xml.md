@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour un document.
-ms.openlocfilehash: aa463f55dd3733e4a424146bcdc0e8557cfacde8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d92f717ee07118abab8b2acf81b54197afb22b45
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788528"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396168"
 ---
 # <a name="dynamicgridenabled-element-documentsettingstype-complextype-visio-xml"></a>DynamicGridEnabled, élément (DocumentSettings_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie si la fonctionnalité de grille dynamique est activée pour un documen
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.XML, document.xml  <br/> |
    

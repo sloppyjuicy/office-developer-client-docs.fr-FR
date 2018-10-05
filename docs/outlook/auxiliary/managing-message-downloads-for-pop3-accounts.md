@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: b4218aa6-1591-49db-9782-f286135fc79a
 description: Cette section décrit comment le fournisseur POP3 de Outlook utilise l'historique de la liste d'ID Unique (UIDL) sur un compte POP3 pour identifier les messages que le fournisseur a téléchargé ou supprimés du serveur POP3, pour éviter le téléchargement de plusieurs fois le même message.
-ms.openlocfilehash: 7661797193b0d64979cf58ca384a8359bfa59cfc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35c50d83c317ebefa52fd9bfcb348c8411a06f25
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782756"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394684"
 ---
 # <a name="managing-message-downloads-for-pop3-accounts"></a>Message Gestion des téléchargements pour les comptes POP3
 
@@ -24,7 +24,7 @@ Le protocole POP (Post Office) spécifie un protocole de couche d'application po
   
 Pour un compte POP, les messages sont identifiées par des identificateurs uniques (UID). Client de messagerie électronique qui conserve les messages sur le serveur utilise la commande UIDL pour récupérer la carte UIDL qui associe chaque message a été remis à la boîte aux lettres à son UID. Le client obtient également l'historique de la commande UIDL pour les messages qui ont été téléchargés ou supprimés de la boîte de réception sur ce client. En fonction de l'historique de la commande UIDL, le client peut déterminer quels messages sont nouveaux et qu'il doivent être téléchargés.
 
-- [Localiser le message l’historique d’un compte POP3 de téléchargement](locating-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment un client de messagerie accède à la propriété [PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l’historique UIDL pour les messages dans la boîte de réception d’un compte POP3 client. 
+- [Localiser le message l’historique d’un compte POP3 de téléchargement](locating-the-message-download-history-for-a-pop3-account.md): cette rubrique décrit comment un client de messagerie accède à la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) pour obtenir l’historique UIDL pour les messages dans la boîte de réception d’un compte POP3 client. 
     
 - [Le message d’analyse l’historique d’un compte POP3 de téléchargement](parsing-the-message-download-history-for-a-pop3-account.md): cette rubrique explique comment analyser le BLOB POP3 qui représente l’historique UIDL pour les messages dans la boîte de réception d’un compte POP3, client identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
     

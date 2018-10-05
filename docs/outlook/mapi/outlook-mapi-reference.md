@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: MAPI fournit l’architecture de messagerie pour Microsoft Outlook 2013 et Outlook 2016.
-ms.openlocfilehash: efb2f87c00c8621e4180aef605021da592969441
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb3f02d872609189eaeff6b5b8fe865851ec89a6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399974"
 ---
 # <a name="outlook-mapi-reference"></a>Référence MAPI Outlook
   
@@ -36,8 +36,8 @@ Bienvenue dans la référence Messaging API (MAPI) Microsoft Outlook. MAPI fou
 
 - [Vue d’ensemble de la référence MAPI Outlook](outlook-mapi-reference-overview.md)  
 - [Avis de copyright de référence de l’API de messagerie Outlook (MAPI)](outlook-messaging-api-mapi-reference-copyright-notice.md)
-- [Outlook 2010 : référence MAPI (centre de téléchargement Microsoft)](http://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
-- [Conventions de document](http://msdn.microsoft.com/fr-FR/office/aa905365.aspx)
-- [Accessibilité dans Microsoft Office 2010](http://www.microsoft.com/enable/products/office2010/default.aspx)
-- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/fr-FR/privacystatement)
+- [Outlook 2010 : référence MAPI (centre de téléchargement Microsoft)](https://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
+- [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx)
+- [Accessibilité dans Microsoft Office 2010](https://www.microsoft.com/enable/products/office2010/default.aspx)
+- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
 

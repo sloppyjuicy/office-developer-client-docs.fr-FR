@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3809fa35-76d8-44a5-8ad9-a1ed30f91dc0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 156280bec64f5bb50901beb864e44adafdf662b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6b88d2adfd60fe346156f983994d8a74bc22749b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574341"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396154"
 ---
 # <a name="pidlidlogdocumentsaved-canonical-property"></a>Propriété canonique PidLidLogDocumentSaved
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si le document a été enregistré au cours de la journalisation.
   
@@ -39,11 +39,11 @@ Indique si le document a été enregistré au cours de la journalisation.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOJRNL]](http://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les journaux.
     

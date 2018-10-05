@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fe6270d82d227f52dfd5dfa5454c73e815ad9f42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 60a8c89afe0d70a1737c6ce694c66359fd6aae4f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573816"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398093"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Exige que le formulaire exécute ce que les tâches associe un verbe spécifique.
   
@@ -52,9 +52,9 @@ HRESULT DoVerb(
     
  _lprcPosRect_
   
-> [in] Un pointeur vers un Win32 structure [RECT](http://msdn.microsoft.com/en-us/library/dd162897%28VS.85%29.aspx) qui contient la taille et la position de la fenêtre du formulaire. 
+> [in] Un pointeur vers un Win32 structure [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) qui contient la taille et la position de la fenêtre du formulaire. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -70,7 +70,7 @@ Visionneuses de formulaire appeler la méthode **IMAPIForm::DoVerb** pour demand
   
 Chacun des verbes pris en charge est identifiée par une valeur numérique, transmise à **DoVerb** dans le paramètre _iVerb_ . Implémentations classiques de **DoVerb** contient une instruction **switch** qui teste les valeurs valides pour le paramètre _iVerb_ pour le formulaire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si la visionneuse de formulaire spécifie un contexte de vue dans le paramètre _lpViewContext_ , l’utiliser dans votre implémentation **DoVerb** au lieu du contexte de vue passée dans un appel précédent à la méthode [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) . Apportez toutes les modifications sont nécessaires pour vos structures de données internes et ne pas enregistrent le contexte de vue. 
   
@@ -86,7 +86,7 @@ Dans votre implémentation **DoVerb** , effectuez les tâches suivantes :
     
 Certains verbes, telles qu’Imprimer, doivent être modales en ce qui concerne l’appel de **DoVerb** — autrement dit, l’opération indiquée doit être terminée avant l’appel de **DoVerb** retourné. 
   
-Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction [GetWindowRect](http://msdn.microsoft.com/en-us/library/ms633519) . 
+Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
 N’enregistrez pas la poignée dans le paramètre _hwndParent_ car, même si elle reste généralement valide jusqu'à la fin de **DoVerb**, il peut être détruit immédiatement lors du retour de l’appel.
   
@@ -94,11 +94,11 @@ N’enregistrez pas la poignée dans le paramètre _hwndParent_ car, même si el
 
 Vous pouvez émettre des verbes non modal agir comme verbes modales, pointez sur une implémentation de contexte de vue qui retourne l’indicateur VCSTATUS_MODAL à partir de la méthode [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) _lpViewContext_ . 
   
-Pour plus d’informations sur les verbes MAPI, voir [Verbes du formulaire](form-verbs.md). Pour plus d’informations sur la gestion des verbes OLE, voir [OLE et transfert de données](http://msdn.microsoft.com/en-us/library/ms693425%28VS.85%29.aspx).
+Pour plus d’informations sur les verbes MAPI, voir [Verbes du formulaire](form-verbs.md). Pour plus d’informations sur la gestion des verbes OLE, voir [OLE et transfert de données](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -115,7 +115,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIForm : IUnknown](imapiformiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [Verbes de formulaires](form-verbs.md)
 

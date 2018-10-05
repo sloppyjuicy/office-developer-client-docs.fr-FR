@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: af5d05ee6d3592694952002c16e16188c3e458a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5a908b3543dff5cf011c9bd4d5d05b3a07004ead
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565619"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400452"
 ---
 # <a name="pidtagattachtag-canonical-property"></a>Propriété canonique PidTagAttachTag
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un identificateur d’objet ASN.1 spécifiant l’application d'où provient d’une pièce jointe. 
   
@@ -48,7 +48,7 @@ Pour plus d’informations sur ces identificateurs d’objet, consultez la docum
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     

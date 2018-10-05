@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7500918daed361eac1c20e46e4046f47b6339c89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8815728adce809641586c4da5beb4c9fad735507
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580858"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397113"
 ---
 # <a name="pidtagrecipientproposedstarttime-canonical-property"></a>Propriété canonique PidTagRecipientProposedStartTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique une heure de début d’une réunion.
   
@@ -42,11 +42,11 @@ Lorsque la valeur de la propriété **PR_RECIPIENT_PROPOSED** ([PidTagRecipientP
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

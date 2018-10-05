@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e76bae8f-b9de-39ef-1f56-b00a6cd2ba6c
 description: Contient la position x ou y coordonnées, du deuxième au dernier nœud, la position de la dernière épaisseur, la position du premier nœud, la position de la première épaisseur ou la formule d’une courbe B-spline rationnelle (NURBS).
-ms.openlocfilehash: acdc61235fde88a0f5b03eb6e83f54092b4f1fd3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f23f73d67d72f9536dc7ffe9e083058ea9306217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788222"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392801"
 ---
 # <a name="cell-element-nurbsto-row-visio-xml"></a>Élément de cellule (ligne NURBSTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient la position x ou y coordonnées, du deuxième au dernier nœud, la posi
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,8 +66,8 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |La coordonnée x du dernier point de contrôle d’une courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
-|Y  <br/> |La coordonnée y du dernier point de contrôle d’une courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du dernier point de contrôle d'une courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du dernier point de contrôle d'une courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
 |A  <br/> |Avant-dernier nœud de la courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
 |B  <br/> |La dernière épaisseur de la courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |
 |C  <br/> |Le premier nœud de la courbe NURBS.  <br/> |[NURBSTo, ligne (section Geometry)](nurbsto-row-geometry-section.md) <br/> |

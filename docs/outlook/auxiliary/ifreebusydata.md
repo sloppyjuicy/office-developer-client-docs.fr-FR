@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
-ms.openlocfilehash: aa42561277d5fc4de93eeedec8ceb6f36530fb80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cd9d4dffd83e1995319b0f0d661435fedb78f28c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782589"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393207"
 ---
 # <a name="ifreebusydata"></a>IFreeBusyData
 
@@ -21,7 +21,7 @@ Pour un utilisateur donné, obtient et définit une plage de temps et renvoie un
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Fourni par :  <br/> |Fournisseur de disponibilité  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IFreeBusyData  <br/> |
    
@@ -45,6 +45,6 @@ La plupart des membres de cette interface est des espaces réservés réservé �
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)
 - [Constantes (disponibilité API)](constants-free-busy-api.md)
 

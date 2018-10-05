@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: "Spécifie les conditions météo future d’au moins trois jours avance y compris aujourd'hui : aujourd'hui, demain, jour après demain."
-ms.openlocfilehash: c618b753ddf8a72fce270800675982f1a7f7af5b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 01604796d4460cc14005ee00ea6b8f46f04d4742
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398324"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>prévision, élément (weatherType, complexType) (schéma des informations météo Outlook)
 
@@ -24,7 +24,7 @@ Spécifie les conditions météo future d’au moins trois jours avance y compri
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Fichier de schéma** <br/> |GetWeatherInfo.xsd  <br/> |
    
 ## <a name="definition"></a>Définition

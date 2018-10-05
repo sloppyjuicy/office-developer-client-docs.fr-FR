@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5cb791d0d350a04864191a0a9d35a2f1c8b165d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577715"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400144"
 ---
 # <a name="link-to-mapi-functions"></a>Lien vers des fonctions MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Il existe trois méthodes de liaison : la liaison implicite, liaison explicite et un nouveau modèle hybride à l’aide de la bibliothèque Stub MAPI.
   
@@ -121,7 +121,7 @@ Voici quelques-unes des nouvelles fonctions liées à partir de cette bibliothè
     
 Une autre méthode de l’incorporation de la bibliothèque Stub MAPI consiste à copier les fichiers sources, MapiStubLibrary.cpp et StubUtils.cpp, directement dans votre projet et supprimer aucune liaison à Mapi32.lib ainsi que le code qui lie explicitement à MAPI.
   
-Pour accéder aux fichiers de bibliothèque de Stub MAPI et pour plus d’informations sur la façon de créer et intégrer à votre projet, ainsi que des questions sur cette bibliothèque comme quand et pourquoi utiliser, voir la [Bibliothèque Stub de MAPI](http://mapistublibrary.codeplex.com/documentation) sur le site CodePlex. 
+Pour accéder aux fichiers de bibliothèque de Stub MAPI et pour plus d’informations sur la façon de créer et intégrer à votre projet, ainsi que des questions sur cette bibliothèque comme quand et pourquoi utiliser, voir la [Bibliothèque Stub de MAPI](https://mapistublibrary.codeplex.com/documentation) sur le site CodePlex. 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -129,7 +129,7 @@ Pour accéder aux fichiers de bibliothèque de Stub MAPI et pour plus d’inform
 - [Installation du sous-système MAPI](installing-the-mapi-subsystem.md)
 - [Installer les fichiers d’en-tête MAPI](how-to-install-mapi-header-files.md)
 - [Choisir une version spécifique de MAPI à charger](how-to-choose-a-specific-version-of-mapi-to-load.md)
-- [Méthode de liaison à utiliser](http://msdn.microsoft.com/en-us/library/253b8k2c.aspx)
-- [Liaison d’un exécutable à une DLL](http://msdn.microsoft.com/en-us/library/9yd93633.aspx)
-- [Configuration des clés MSI pour votre DLL MAPI](http://msdn.microsoft.com/en-us/library/ee909494%28v=VS.85%29.aspx)
+- [Méthode de liaison à utiliser](https://msdn.microsoft.com/library/253b8k2c.aspx)
+- [Liaison d’un exécutable à une DLL](https://msdn.microsoft.com/library/9yd93633.aspx)
+- [Configuration des clés MSI pour votre DLL MAPI](https://msdn.microsoft.com/library/ee909494%28v=VS.85%29.aspx)
 

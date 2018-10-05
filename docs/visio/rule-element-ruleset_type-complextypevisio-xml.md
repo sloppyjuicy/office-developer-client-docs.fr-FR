@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: Représente une règle de validation unique dans un ensemble de règles de validation de diagramme.
-ms.openlocfilehash: feae283c624bdece98dbc1136b0fe8765d911e12
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789557"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395909"
 ---
 # <a name="rule-element-rulesettype-complextype-visio-xml"></a>Rule, élément (RuleSet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Représente une règle de validation unique dans un ensemble de règles de valid
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |validation.Xml  <br/> |
    

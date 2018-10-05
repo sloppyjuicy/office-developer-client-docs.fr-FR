@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dc10f727-5243-2fdb-4042-3dfdfcd8504c
-ms.openlocfilehash: da67df28a2081a52b9bcef39c06540b247a2a79e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6b10c60563a7923990cdb552b1d10fd5c43b97e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788556"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397253"
 ---
 # <a name="ellipticalarctotype-complextype-visio-xml"></a>Type complexe EllipticalArcTo_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19788556"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |GeometryRow_Type  <br/> |
    

@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7723897c6d249bbb53a0de5aa68ad8d1bc79830f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 08f8f6e016ff08211bc10e80588ab33e83d6441b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563724"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393851"
 ---
 # <a name="pidtagscheduleinfomonthsbusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsBusy
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient les mois dont sont présentes dans le message et de disponibilité et de disponibilité des données de type occupé (e).
   
@@ -40,11 +40,11 @@ Format, calcul les contraintes de cette propriété sont les mêmes que ceux du 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publie la disponibilité d’un utilisateur ou une ressource.
     

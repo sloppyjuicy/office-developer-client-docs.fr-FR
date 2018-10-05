@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7c84e4ad44fbbaad1a49d5866b8b505ca005ddfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583854"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397694"
 ---
 # <a name="pidtagicon-canonical-property"></a>Propriété canonique PidTagIcon
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un bitmap d’une icône de toute taille d’un formulaire. 
   
@@ -42,7 +42,7 @@ Cette propriété contient une image de 32 x 32 pixels d’une icône, le même 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     

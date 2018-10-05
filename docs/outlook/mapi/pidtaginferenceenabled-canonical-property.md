@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 375a98477fe45d60a7aa39ef0bfb8fad8fe0e8d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: cd1b54601c55e44ad2b9e1d2cea3d3fdd9e76017
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575419"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397946"
 ---
 # <a name="pidtaginferenceenabled-canonical-property"></a>Propriété canonique PidTagInferenceEnabled
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Stockez la propriété contrôlant la journalisation inférence.
   
@@ -34,11 +34,11 @@ Stockez la propriété contrôlant la journalisation inférence.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Spécifie les opérations autorisées pour les objets de banque de messages principale.
     

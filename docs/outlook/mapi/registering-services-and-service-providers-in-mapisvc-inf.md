@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: 'Dernière modification : 18 juillet 2013'
-ms.openlocfilehash: c74257b84636952b26c5a624f4f7f76f66be9149
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: edb67fde04a3aa27713c3de47a9a0e7f01eb4b97
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566921"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399552"
 ---
 # <a name="registering-services-and-service-providers-in-mapisvcinf"></a>Inscription de services et de fournisseurs de services dans MapiSvc.inf
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Installation d’un nouveau fournisseur sur un système nécessite la mise à jour du fichier MapiSvc.inf afin de pointer vers le nouveau fournisseur. Propriétés standard définie lors de la configuration, qui incluent les éléments suivants, informent MAPI où trouver la bibliothèque de liens dynamiques du fournisseur (.dll) :
   
@@ -43,11 +43,11 @@ Parfois dans un fournisseur de magasins, vous allez générer les identificateur
 > [!IMPORTANT]
 > Si vous utilisez des chemins d’accès complets dans MapiSvc.inf, vous devez utiliser le même chemin d’accès dans les appels à **WrapStoreEntryID**. 
   
-En outre, le chemin d’accès que vous utilisez peut-être être converti vers et depuis Unicode à l’aide de la page de code fournie par la fonction [GetACP](http://msdn.microsoft.com/en-us/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
+En outre, le chemin d’accès que vous utilisez peut-être être converti vers et depuis Unicode à l’aide de la page de code fournie par la fonction [GetACP](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) . 
   
 > [!CAUTION]
-> Vous pouvez rencontrer échec si vous choisissez un chemin d’accès contenant des caractères qui ne peuvent pas survivre tel un aller-retour via les fonctions [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) et [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
+> Vous pouvez rencontrer échec si vous choisissez un chemin d’accès contenant des caractères qui ne peuvent pas survivre tel un aller-retour via les fonctions [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) et [WideCharToMultiByte](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) . 
   
-Pour une démonstration de cette fonctionnalité, l' [exemple PST encapsulé](http://ol2010mapisamples.codeplex.com/) sur CodePlex a été modifiée : la fonctionnalité pertinente **MergeWithMapiSvc** et **GenerateProviderPath**.
+Pour une démonstration de cette fonctionnalité, l' [exemple PST encapsulé](https://ol2010mapisamples.codeplex.com/) sur CodePlex a été modifiée : la fonctionnalité pertinente **MergeWithMapiSvc** et **GenerateProviderPath**.
   
 

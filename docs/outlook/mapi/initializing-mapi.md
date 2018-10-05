@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d896d66db13b2114c1c333084d5f3b1d3a341796
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574789"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399038"
 ---
 # <a name="initializing-mapi"></a>Initialisation de MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent appeler la fonction **exécuter MAPIInitialize** . Pour plus d’informations, voir [exécuter MAPIInitialize](mapiinitialize.md). **Exécuter MAPIInitialize** initialise les données globales pour la session et prépare les bibliothèques d’accepter les appels MAPI. Il existe quelques indicateurs qui sont importantes pour définir dans certaines situations : 
   
@@ -33,7 +33,7 @@ Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent a
     
 - MAPI_NO_COINIT
     
-    Définir l’indicateur MAPI_NO_COINT pour pouvoir **exécuter MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](http://msdn.microsoft.com/en-us/library/ms886303.aspx). Si une structure **MAPIINIT_0** est passée à **exécuter MAPIInitialize** avec _ulFlags_ défini sur MAPI_NO_COINIT, MAPI part du principe que COM a déjà été initialisé et ignorer l’appel à **CoInitialize**.
+    Définir l’indicateur MAPI_NO_COINT pour pouvoir **exécuter MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Si une structure **MAPIINIT_0** est passée à **exécuter MAPIInitialize** avec _ulFlags_ défini sur MAPI_NO_COINIT, MAPI part du principe que COM a déjà été initialisé et ignorer l’appel à **CoInitialize**.
     
 Si l’indicateur MAPI_MULTITHREAD_NOTIFICATIONS n’est pas transmise, MAPI crée la fenêtre de notification sur le thread qui a été utilisé pour votre premier appel **exécuter MAPIInitialize** . MAPI crée la fenêtre de notification sur un thread distinct si MAPI_MULTITHREAD_NOTIFICATIONS est passé, un thread dédié à la gestion des notifications. MAPI attend le thread qui est utilisé pour créer la fenêtre de notification masqué : 
   

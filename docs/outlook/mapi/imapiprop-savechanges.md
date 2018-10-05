@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c12750b7899403e62b9c1603615e9fd6caa95eca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c8244180a5cafedc887fa72f36f233fb5084f79
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569525"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398842"
 ---
 # <a name="imapipropsavechanges"></a>IMAPIProp::SaveChanges
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Rend permanentes toutes les modifications qui ont été apportées à un objet depuis la dernière opération d’enregistrement. 
   
@@ -63,7 +63,7 @@ SPAMFILTER_ONSAVE
   
 > Permet de courrier indésirable de filtrage d’un message est enregistré. Prise en charge de filtrage du courrier indésirable est disponible uniquement si le type d’adresse de messagerie de l’expéditeur est SMTP Simple Mail Transfer Protocol (), et le message est enregistré dans un magasin d’un fichier de dossiers personnels (PST).
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -87,9 +87,9 @@ La méthode **IMAPIProp::SaveChanges** apporte les modifications de propriété 
   
 Car les fournisseurs de services n’ont pas à générer un identificateur d’entrée pour leurs objets jusqu'à ce que toutes les propriétés ont été enregistrées, la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) d’un objet peuvent ne pas être disponible qu’après la méthode **SaveChanges** a été appelée. Certains fournisseurs attendre jusqu'à ce que l’indicateur KEEP_OPEN_READONLY est défini sur l’appel de **SaveChanges** . KEEP_OPEN_READONLY indique que les modifications soient enregistrées dans l’appel en cours est le dernier des modifications qui seront effectuées sur l’objet. 
   
-Certaines implémentations de banque de messages ne pas afficher nouvellement créé les messages dans un dossier jusqu'à un client enregistre le message passe à l’aide de **SaveChanges** et libère les objets de message à l’aide de la méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . En outre, certaines implémentations de l’objet ne peut pas générer une propriété **PR_ENTRYID** d’un objet nouvellement créé jusqu'à après **SaveChanges** a été appelée et certaines peuvent le faire qu’après **SaveChanges** a été appelée à l’aide de KEEP_OPEN_READONLY définir dans _ulFlags_.
+Certaines implémentations de banque de messages ne pas afficher nouvellement créé les messages dans un dossier jusqu'à un client enregistre le message passe à l’aide de **SaveChanges** et libère les objets de message à l’aide de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . En outre, certaines implémentations de l’objet ne peut pas générer une propriété **PR_ENTRYID** d’un objet nouvellement créé jusqu'à après **SaveChanges** a été appelée et certaines peuvent le faire qu’après **SaveChanges** a été appelée à l’aide de KEEP_OPEN_READONLY définir dans _ulFlags_.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si vous recevez l’indicateur KEEP_OPEN_READONLY, vous avez la possibilité de laisser des accès de l’objet en lecture-écriture. Toutefois, un fournisseur ne peut jamais laisser un objet dans un état en lecture seule lorsque l’indicateur KEEP_OPEN_READWRITE est passé.
   

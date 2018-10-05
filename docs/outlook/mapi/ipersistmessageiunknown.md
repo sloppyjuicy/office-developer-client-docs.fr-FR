@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 346a2bce6d5709490ad11da842ed4f3e794b1996
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7eb65bbae2fca6648c3a701dfa5c83c5bf297ec5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569189"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396182"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet les visionneuses de formulaire gérer le stockage d’un formulaire et à la transition entre les différents états possibles.
   
@@ -31,8 +31,8 @@ Permet les visionneuses de formulaire gérer le stockage d’un formulaire et à
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
 |Exposés par :  <br/> |Persistance des objets de message  <br/> |
-|Implémentée par :  <br/> |Objets de formulaire  <br/> |
-|Appelée par :  <br/> |Visionneuses de formulaire  <br/> |
+|Implémenté par :  <br/> |Objets de formulaire  <br/> |
+|Appelé par :  <br/> |Visionneuses de formulaire  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IPersistMessage  <br/> |
 |Type de pointeur :  <br/> |LPPERSISTMESSAGE  <br/> |
    
@@ -53,7 +53,7 @@ Permet les visionneuses de formulaire gérer le stockage d’un formulaire et à
 
 Tous les formulaires sont requis pour implémenter l’interface **IPersistMessage** . 
   
- **IPersistMessage** fonctionne de façon similaire à l’interface OLE [IPersistStorage](http://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Pour plus d’informations, voir les méthodes **IPersistStorage** . 
+ **IPersistMessage** fonctionne de façon similaire à l’interface OLE [IPersistStorage](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Pour plus d’informations, voir les méthodes **IPersistStorage** . 
   
 ## <a name="see-also"></a>Voir aussi
 

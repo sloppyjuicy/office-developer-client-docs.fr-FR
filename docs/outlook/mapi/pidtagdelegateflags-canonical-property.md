@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d43ec0bd2978c64e3a5ceb635f0dcda57de01cfd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 20ffc6f7f4d21f980e5f0f387464430ba187192a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590735"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392276"
 ---
 # <a name="pidtagdelegateflags-canonical-property"></a>Propriété canonique PidTagDelegateFlags
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie si un délégué peut afficher des objets de message privé de la personne.
   
@@ -49,7 +49,7 @@ Cette propriété doit être définie dans l’objet d’informations de délég
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Spécifie les méthodes pour la connexion et configurer des boîtes aux lettres en tant que les délégués et les interactions avec les objets de messagerie et de calendrier lorsqu’ils agissent au nom d’un autre utilisateur.
     

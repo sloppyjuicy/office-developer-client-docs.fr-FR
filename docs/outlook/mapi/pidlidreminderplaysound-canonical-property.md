@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e3ab726d6b1d00db20a4d0dac05f4f0d1fa3259c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: e89209b39f2d904967011731c885e12a0d6ddc19
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591295"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394313"
 ---
 # <a name="pidlidreminderplaysound-canonical-property"></a>Propriété canonique PidLidReminderPlaySound
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie si le client doit émettre un signal sonore lorsque le rappel est en retard.
   
@@ -39,11 +39,11 @@ Spécifie si le client doit émettre un signal sonore lorsque le rappel est en r
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
     

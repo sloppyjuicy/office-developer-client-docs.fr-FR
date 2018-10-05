@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 755342da4bc280241e313fbb7efb818ab29b829f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ba79498569c544d1b0ee22e968477d5b68812c09
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571625"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398275"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propriété canonique PidLidAppointmentReplyTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la date et l’heure lorsque le participant a répondu à une mise à jour de réunion ou une demande de réunion reçue.
   
@@ -43,11 +43,11 @@ La valeur doit être spécifiée dans le temps universel coordonné (UTC).
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

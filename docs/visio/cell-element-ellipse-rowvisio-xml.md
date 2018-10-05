@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 210e6731-7c94-90b1-c7c4-635df974fdb6
 description: Contient les coordonnées x ou y du centre et de deux points sur l’ellipse.
-ms.openlocfilehash: 40458d7d9945897fd9d8f9764ff6b81884490b1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75c3cf86b7c8668b70915117e1fc70b07d2cef0b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788215"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394389"
 ---
 # <a name="cell-element-ellipse-row-visio-xml"></a>Élément de cellule (ligne Ellipse) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du centre et de deux points sur l’ellipse.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,8 +66,8 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du point central.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du point central.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du centre.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du centre.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x du premier point sur l’ellipse ; associée à la coordonnée y représentée par la cellule B.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y du premier point sur l’ellipse ; associée à la coordonnée x représentée par la cellule A.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |
 |C  <br/> |Coordonnée x du deuxième point sur l’ellipse ; associée à la coordonnée y représentée par la cellule D.  <br/> |[Ellipse, ligne (section Geometry)](ellipse-row-geometry-section.md) <br/> |

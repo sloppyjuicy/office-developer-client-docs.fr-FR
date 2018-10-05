@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e67cbb113899487f489ef7235d92d1adfcb76163
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 14bb31ae9aebbb6441948b5756b426508107c9f0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563638"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394901"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriété canonique PidTagResolveMethod
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur de résolution de conflit d’un dossier.
   
@@ -50,11 +50,11 @@ Un client ou le serveur ne doit pas générer un message de résolution de confl
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCSYNC]](http://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
+[[MS-OXCSYNC]](https://msdn.microsoft.com/library/fd3e23ef-341a-4a8c-a0e9-6afecbb11c40%28Office.15%29.aspx)
   
 > Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Définit les structures de base de données qui sont utilisés dans les opérations à distance.
     

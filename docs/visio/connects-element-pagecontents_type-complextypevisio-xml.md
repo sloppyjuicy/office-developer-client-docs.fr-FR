@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Contient un élément de connexion pour chaque connexion entre deux formes dans un dessin.
-ms.openlocfilehash: 93930a8f21f9d250bf24d821b0eeb4036f6fe187
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788345"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399955"
 ---
 # <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Se connecte, élément (PageContents_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient un élément de **connexion** pour chaque connexion entre deux formes d
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |page # .xml, master # .xml  <br/> |
    
@@ -49,7 +49,9 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.  <br/> |
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
+			Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
+  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1e758380a22531962d0d583935afa996d3c28404
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2dac2cb1d40fadbe0cad67b144891b0ece54aae9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582349"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395125"
 ---
 # <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>Propriété canonique PidTagRecipientReassignmentProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie si l’ajout de destinataires supplémentaires, lors de la transmission du message, est interdite pour le message électronique.
   
@@ -40,11 +40,11 @@ Cette propriété est définie en fonction de valeur de **PR_SENSITIVITY** ([Pid
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

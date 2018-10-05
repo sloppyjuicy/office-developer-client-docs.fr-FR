@@ -8,24 +8,24 @@ api_type:
 - COM
 ms.assetid: a1e3e49c-8d1d-4f7e-ba5a-be441f0f10ae
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1320528a2e123d36457bef929a8454155646f0da
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 83c102c25b17b6769c0c676bbadd874224f75cf6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580998"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397141"
 ---
 # <a name="supporting-event-notification"></a>Prise en charge des notifications d’événements
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Prise en charge de la notification d’événement pouvant être complexe, MAPI fournit trois méthodes d’objet prise en charge qui implémentent la partie la plus difficile du processus. Ces méthodes fonctionnent comme une unité, et un fournisseur doit utiliser tous les trois ou aucun d'entre eux.
   
 Les méthodes de prise en charge MAPI utilisent des clés de notification pour gérer les connexions entre les récepteurs de notifications et les objets qui génèrent des notifications. Une clé de notification est une structure [NOTIFKEY](notifkey.md) qui contient des données binaires qui identifie un objet entre les processus. Une clé de notification est généralement copiée à partir de l’identificateur d’entrée à long terme de l’objet source de notification. Si le client a fourni un identificateur d’entrée dans l’appel à **Advise**, vous pouvez l’utiliser pour la clé de notification. Si le paramètre _lpEntryID_ **Advise** est NULL, utilisez l’identificateur d’entrée de l’objet conteneur le plus éloigné possibles, telles que la banque de messages. 
   
-Pour utiliser les méthodes de prise en charge, appelez [IMAPISupport::Subscribe](imapisupport-subscribe.md) chaque fois qu’un client appelle votre méthode **Advise** pour vous inscrire à une notification. Allouer une structure [NOTIFKEY](notifkey.md) et créer une clé de notification unique pour votre objet de source advise. Par exemple, un fournisseur de magasins de message est invité à informer un client lorsqu’un message est reçu dans un dossier spécifique crée une clé de notification pour ce dossier. Passez un pointeur vers la structure **NOTIFKEY** dans l’appel de **s’abonner** avec un pointeur vers du client récepteur de notification. **S’abonner** appelle [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) méthode du récepteur advise pour incrémenter son décompte de références et MAPI conserve le pointeur jusqu'à ce que l’enregistrement est annulée. 
+Pour utiliser les méthodes de prise en charge, appelez [IMAPISupport::Subscribe](imapisupport-subscribe.md) chaque fois qu’un client appelle votre méthode **Advise** pour vous inscrire à une notification. Allouer une structure [NOTIFKEY](notifkey.md) et créer une clé de notification unique pour votre objet de source advise. Par exemple, un fournisseur de magasins de message est invité à informer un client lorsqu’un message est reçu dans un dossier spécifique crée une clé de notification pour ce dossier. Passez un pointeur vers la structure **NOTIFKEY** dans l’appel de **s’abonner** avec un pointeur vers du client récepteur de notification. **S’abonner** appelle [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) méthode du récepteur advise pour incrémenter son décompte de références et MAPI conserve le pointeur jusqu'à ce que l’enregistrement est annulée. 
   
 Vous pouvez passer l’indicateur NOTIFY_SYNC à **s’abonner** à demander que **Notify** se comportent de façon synchrone et pas retour jusqu'à ce qu’il a apportées à tous les appels vers les méthodes [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) d’inscrit récepteurs de notifications. Définissez cet indicateur uniquement à votre propre usage interne. Ne le définissez pas lorsque vous répondez à un appel **Advise** client. Notification d’événement entre les clients et fournisseurs est toujours asynchrone. Autrement dit, MAPI garantit que l’appel pendant laquelle un événement se produit renverra au client avant qu’un des appels **OnNotify** soient effectué. 
   
@@ -33,7 +33,7 @@ Si vous définissez l’indicateur NOTIFY_SYNC, n’apportez aucune modification
   
 Si un récepteur de notifications enregistré pour une notification synchrone renvoie de **OnNotify** avec l’indicateur CALLBACK_DISCONTINUE, [IMAPISupport::Notify](imapisupport-notify.md) définit l’indicateur NOTIFY_CANCELED et renvoie sans apporter de tous les appels à **OnNotify**. 
   
-Une fois que **l’abonnement** a renvoyé, vous n’aura plus nécessaire de conserver votre copie du récepteur de notification du client. Appelez la méthode [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) pour libérer. **S’abonner** renvoie un nombre différent de zéro connexion vous devez retourner au client. Le numéro de connexion représente la liaison entre la source des notifications et le récepteur de notifications. Il reste valide jusqu'à ce que le client effectue un appel réussi **Unadvise**. 
+Une fois que **l’abonnement** a renvoyé, vous n’aura plus nécessaire de conserver votre copie du récepteur de notification du client. Appelez la méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) pour libérer. **S’abonner** renvoie un nombre différent de zéro connexion vous devez retourner au client. Le numéro de connexion représente la liaison entre la source des notifications et le récepteur de notifications. Il reste valide jusqu'à ce que le client effectue un appel réussi **Unadvise**. 
   
 Lorsque le client est prêt à annuler un enregistrement, il appelle la méthode **Unadvise** . Passez le numéro de connexion de l’appel de **Unadvise** à [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md). **Annuler l’abonnement** appelle la méthode de **IUnknown::Release** de notification du récepteur. Comme avec **Advise** et **Unadvise**, appels **s’abonner** et **Annuler l’abonnement** doivent être associés. Vous devez apporter un appel pour **Annuler l’abonnement** pour chaque appel effectué **s’abonner**. Toutefois, vous n’êtes pas obligé d’appelé la méthode **Subscribe** chaque fois que votre méthode **Advise** est appelée. Inversement, vous pouvez l’appeler à la configuration de notifications internes. 
   

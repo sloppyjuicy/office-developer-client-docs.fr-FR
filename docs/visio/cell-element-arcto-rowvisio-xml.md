@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: Contient le x coordonnée, coordonnée y ou courbure d’un arc circulaire.
-ms.openlocfilehash: a51cf775f787a34aa8f5de6f6cf90ffc230f3500
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 709251c40299425d59df97fc0c48901bb0204167
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788189"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393060"
 ---
 # <a name="cell-element-arcto-row-visio-xml"></a>Élément de cellule (ligne ArcTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient le x coordonnée, coordonnée y ou courbure d’un arc circulaire.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y et la courbure d’un arc circulaire.  <br/> |
+|[Row, élément (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y et la courbure d'un arc circulaire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -67,7 +67,7 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |A  <br/> |Distance entre le milieu de l’arc et le milieu de sa corde.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
-|X   <br/> |Coordonnée x du sommet de fin d’un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée xdu sommet de fin d'un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du sommet de fin d’un arc  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
    
 

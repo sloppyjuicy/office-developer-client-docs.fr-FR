@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 272d4147d60df53ef30a668faa8abe89f96cd654
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582321"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396056"
 ---
 # <a name="about-the-replication-api"></a>À propos de l’API de réplication
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 L’API de réplication fournit les fonctionnalités pour un fournisseur de magasin de message MAPI synchroniser des éléments Microsoft Outlook 2013 ou Microsoft Outlook 2010 entre un serveur et un magasin local privé basée sur .pst est créé pour ce fournisseur. 
   
@@ -30,7 +30,7 @@ Pour utiliser l’API de réplication, un fournisseur de magasins de message MAP
 
 L’interface **IOSTX** est l’interface principale qui effectue la synchronisation de l’API de réplication. **IOSTX** déplace le magasin local à travers une série d’états, récupération des informations sur les modifications dans le magasin local dans chaque état, ainsi que pour informer le magasin des modifications sur le serveur local. L’API de réplication spécifie également de nombreuses structures de données qui prennent en charge la synchronisation. 
   
-Un fournisseur de magasins, en tant que client à cette API, utilise l’API de réplication pour encapsuler le magasin local et déplacer par le biais de ces États, envoi de modifications dans le magasin local (tel que les modifications à la hiérarchie de dossiers ou l’ajout de nouveaux éléments) pour le serveur et en les extrayant également informations sur les modifications sur le serveur et fournit des informations à l’interface **IOSTX** . L’interface **IOSTX** adopte la synchronisation de modification incrémentielle (ICS) fourni par Microsoft Exchange Server. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx). Par le biais **IOSTX**, le client utilise ICS pour surveiller et synchroniser les modifications incrémentielles apportées à la hiérarchie ou du contenu sur un magasin local. 
+Un fournisseur de magasins, en tant que client à cette API, utilise l’API de réplication pour encapsuler le magasin local et déplacer par le biais de ces États, envoi de modifications dans le magasin local (tel que les modifications à la hiérarchie de dossiers ou l’ajout de nouveaux éléments) pour le serveur et en les extrayant également informations sur les modifications sur le serveur et fournit des informations à l’interface **IOSTX** . L’interface **IOSTX** adopte la synchronisation de modification incrémentielle (ICS) fourni par Microsoft Exchange Server. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx). Par le biais **IOSTX**, le client utilise ICS pour surveiller et synchroniser les modifications incrémentielles apportées à la hiérarchie ou du contenu sur un magasin local. 
   
 ## <a name="the-ipstx-interface"></a>L’Interface IPSTX
 

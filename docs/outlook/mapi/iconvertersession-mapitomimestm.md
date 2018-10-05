@@ -11,17 +11,17 @@ api_type:
 - COM
 ms.assetid: 8660c701-f7f4-8d92-7984-5dae7f677783
 description: 'Dernière modification : 20 septembre 2017'
-ms.openlocfilehash: bcbc3d21a03c1585288ad23b1fb2d311d686f55c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 55c547c4dae1acc3e9874edc7778f53a5d34f957
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570449"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400116"
 ---
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Convertit un message MAPI à un flux de données MIME.
   
@@ -41,7 +41,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
     
  _pstm_
   
-> [out] Interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) pour le flux de sortie. 
+> [out] Interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour le flux de sortie. 
     
  _ulFlags_
   
@@ -97,9 +97,9 @@ E_INVALIDARG
 
 Prise en charge uniquement pour les types de message Outlook standard.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

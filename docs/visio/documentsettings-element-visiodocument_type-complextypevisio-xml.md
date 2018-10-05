@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: Contient des éléments qui spécifient les paramètres de document.
-ms.openlocfilehash: 8cd10e43b95918ccd2ceaa75a47c9e93de2acc14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788502"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396468"
 ---
 # <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Élément DocumentSettings (VisioDocument_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient des éléments qui spécifient les paramètres de document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

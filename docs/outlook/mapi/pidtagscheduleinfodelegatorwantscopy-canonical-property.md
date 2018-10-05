@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c37f5a3e2f1a5ec4411f2570d8a3fcdce52dfe57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c52a1c055792f17477ff5540c4138160544e3b18
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578646"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400424"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegatorWantsCopy
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si la personne qui a délégué doit recevoir une copie des objets liés à la réunion qui sont envoyées au délégué.
   
@@ -42,15 +42,15 @@ Cette propriété doit être définie dans l’objet d’informations de délég
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Spécifie les méthodes pour la connexion et configurer des boîtes aux lettres en tant que les délégués et les interactions avec les objets de messagerie et de calendrier lorsqu’ils agissent au nom d’un autre utilisateur.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publie la disponibilité d’un utilisateur ou une ressource.
     

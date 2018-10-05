@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bc8e4dfe934d516c07d5532ba6a95e51a3cbf962
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d0ae319a6b5fa4c901ec7d318c7ebdd216a2adeb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578079"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398968"
 ---
 # <a name="pidlidtaskmode-canonical-property"></a>Propriété canonique PidLidTaskMode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie l’état de l’affectation de la tâche.
   
@@ -52,11 +52,11 @@ La valeur doit être une des options suivantes.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
     

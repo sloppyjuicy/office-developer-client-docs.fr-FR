@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09bd3bdf-28d6-432c-9213-562a9a271adc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8ef6117557b504678012b79e2b89c13bdaf6b787
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7173caa7a31bc3ad11a4785b6a1498aba139de7c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571485"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396021"
 ---
 # <a name="pidtagreporttext-canonical-property"></a>Propriété canonique PidTagReportText
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le texte facultatif pour un rapport généré par le système de messagerie.
   
@@ -42,11 +42,11 @@ En règle générale, le texte contenu dans ces propriétés est généré en r�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

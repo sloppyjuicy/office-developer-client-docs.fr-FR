@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 15859b84-5486-bb8c-e67e-5d0baaf59ee5
-ms.openlocfilehash: 5b6dac15b8c66b4efbe32c22398d577feab47746
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2291d7967ff08cc7a7d949d7a40feb178f16b497
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788950"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392892"
 ---
 # <a name="linetotype-complextype-visio-xml"></a>Type complexe LineTo_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19788950"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |GeometryRow_Type  <br/> |
    

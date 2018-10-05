@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f7dcfe32a5edc6587dfbd1351b61e2b1901e1d28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 1ea0830a06f303da8243f927e4a07cc744951ca9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579052"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399871"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Propriété canonique PidLidAppointmentColor
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la couleur à utiliser lors de l’affichage Calendrier.
   
@@ -37,11 +37,11 @@ Spécifie la couleur à utiliser lors de l’affichage Calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie la couleur à utiliser lors de l’affichage Calendrier. Un client ou serveur doit définir cette valeur pour la compatibilité descendante avec les anciens clients. Il peut afficher à la place du calendrier en fonction de la valeur de la propriété **mots clés** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) comme spécifié dans [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Lorsque la valeur, la valeur doit être une des valeurs suivantes.
+Cette propriété spécifie la couleur à utiliser lors de l’affichage Calendrier. Un client ou serveur doit définir cette valeur pour la compatibilité descendante avec les anciens clients. Il peut afficher à la place du calendrier en fonction de la valeur de la propriété **mots clés** ([PidNameKeywords](pidnamekeywords-canonical-property.md)) comme spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Lorsque la valeur, la valeur doit être une des valeurs suivantes.
   
 |**Valeur**|**Color**|
 |:-----|:-----|
-|0x00000000  <br/> |Aucun  <br/> |
+|0x00000000  <br/> |Aucune  <br/> |
 |0x00000001  <br/> |Rouge  <br/> |
 |0x00000002  <br/> |Bleu  <br/> |
 |0 x 00000003  <br/> |Vert  <br/> |
@@ -57,11 +57,11 @@ Cette propriété spécifie la couleur à utiliser lors de l’affichage Calendr
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

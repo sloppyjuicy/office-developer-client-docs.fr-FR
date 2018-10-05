@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 16c5933f-1fa1-a180-d821-099fd6bf6e13
 description: Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête d’un document.
-ms.openlocfilehash: aaa18ef03f95df0a19308a8f0297ae6c2a2833d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4284e45c747d437f38aec1756852063aac4ffb2a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788776"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399612"
 ---
 # <a name="headerright-element-headerfootertype-complextype-visio-xml"></a>HeaderRight, élément (HeaderFooter_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient la chaîne de texte qui apparaît dans la partie droite de l’en-tête
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

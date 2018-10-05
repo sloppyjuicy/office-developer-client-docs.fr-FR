@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 490c834ee63c158b3f9c0e34f8de7f582c650bc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584064"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400718"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un flux Extensible Markup Language (XML) qui représente les informations récupérées à partir du service de découverte automatique d’un serveur Microsoft Exchange 2007.
   
@@ -32,8 +32,8 @@ Renvoie un flux Extensible Markup Language (XML) qui représente les information
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |olmapi32.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrGetAutoDiscoverXML( 
@@ -65,7 +65,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _ppXmlStream_
   
-> [out] Pointeur vers un objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) qui contient la XML de découverte automatique. Renvoie la **valeur null** en cas d’échec de l’opération de découverte automatique. Vous devez libérer l’objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) lorsque vous avez terminé avec lui. 
+> [out] Pointeur vers un objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) qui contient la XML de découverte automatique. Renvoie la **valeur null** en cas d’échec de l’opération de découverte automatique. Vous devez libérer l’objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) lorsque vous avez terminé avec lui. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -75,7 +75,7 @@ S_OK
     
 E_INVALIDARG 
   
--  _pwzAddress_ est **null** ou n’est pas une adresse SMTP valide ou _ppXmlStream_ est un pointeur vers un objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) **null** . 
+-  _pwzAddress_ est **null** ou n’est pas une adresse SMTP valide ou _ppXmlStream_ est un pointeur vers un objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) **null** . 
     
 MAPI_E_NOT_FOUND 
   

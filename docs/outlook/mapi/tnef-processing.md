@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: e6b3ef7c7eb469a5de909d440e22e522218a41f8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 066ad3dfb64161e326b92fef7774d5b3b9461d8a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569490"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399568"
 ---
 # <a name="tnef-processing"></a>Traitement TNEF
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La série d’actions suivante décrire comment des transports utilisent les méthodes TNEF pour traiter les messages entrants et sortants.
   
@@ -35,7 +35,7 @@ La série d’actions suivante décrire comment des transports utilisent les mé
     
 5. Utilisez [ITnef : IUnknown](itnefiunknown.md) méthodes pour insérer des balises décrivant les positions des pièces jointes des messages dans le texte du message de l’interface. 
     
-6. Accès le texte du message avec balise via les méthodes [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) et l’envoyer au système de messagerie. 
+6. Accès le texte du message avec balise via les méthodes [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) et l’envoyer au système de messagerie. 
     
  **Pour récupérer les propriétés encapsulées**
   

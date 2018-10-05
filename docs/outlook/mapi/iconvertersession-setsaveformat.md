@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f24ad938fdb8c3ac234e1d78f2668139840c8b8f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b528d6ef45c02b27f8e07d151793fc338f9af7b1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568216"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394355"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit le format dans lequel le convertisseur retournera un flux MIME dans [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
   
@@ -35,7 +35,7 @@ HRESULT IConverterSession::SetSaveFormat (
 
 _mstSaveFormat_
   
-> [in] Format d’enregistrement à utiliser pour un flux de données MIME. Pour plus d’informations, voir le type enum [MIMESAVETYPE](http://msdn.microsoft.com/en-us/library/ms715128%28VS.85%29.aspx).
+> [in] Format d’enregistrement à utiliser pour un flux de données MIME. Pour plus d’informations, voir le type enum [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
     
   - **SAVE_RFC1521**: utiliser MIME, qui est la valeur par défaut.      
   - **SAVE_RFC822**: utiliser uuencode.
@@ -46,9 +46,9 @@ S_OK
   
 > L’appel a réussi.
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

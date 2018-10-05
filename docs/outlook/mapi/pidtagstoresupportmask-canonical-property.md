@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1936cb8e95e3faef8c92d6bf28f5b63b3ff72df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 143e7f0d2cd89cd4e7956cdda05d1bd512db4027
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572703"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392332"
 ---
 # <a name="pidtagstoresupportmask-canonical-property"></a>Propriété canonique PidTagStoreSupportMask
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un masque binaire composé des indicateurs de cette requête d’applications client pour déterminer les caractéristiques d’une banque de messages. 
   
@@ -138,11 +138,11 @@ Une version au format RTF d’un message peut être stockée toujours, même si 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXMSG]](http://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
+[[MS-OXMSG]](https://msdn.microsoft.com/library/b046868c-9fbf-41ae-9ffb-8de2bd4eec82%28Office.15%29.aspx)
   
 > Décrit le format des messages utilisé pour envoyer des informations relatives au partage de dossiers sur le client.
     

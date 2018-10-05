@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7bf66f0c-3095-4b4a-a32e-db278e1adc5a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 20f70f9e7bfecd955eb6bfb1c05c6b2010cb52cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3fbd7205901616695bcdcd012601afd252ac05f3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563407"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396714"
 ---
 # <a name="pidtagoriginaldisplaybcc-canonical-property"></a>Propriété canonique PidTagOriginalDisplayBcc
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient les noms complets des destinataires en copie carbone invisible (Cci) du message d’origine.
   
@@ -42,11 +42,11 @@ Ces propriétés contiennent une liste séparée par des points-virgules. Ils so
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
 description: Inclut un élément RuleSet pour chaque règle de validation définie dans le document.
-ms.openlocfilehash: 84d64a8539f1b83c16a96a61ea68e9b2660c9036
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c770de80a841a452908ae1a9f77a6dee25aad4d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789583"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399640"
 ---
 # <a name="rulesets-element-validationtype-complextype-visio-xml"></a>RuleSets, élément (Validation_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Inclut un élément **RuleSet** pour chaque règle de validation définie dans l
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |validation.Xml  <br/> |
    

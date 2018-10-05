@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 intègre des fonctionnalités de gestion de projet au sein d’une batterie de serveurs SharePoint et permet l’utilisation de Project Online avec un modèle objet côté client (CSOM) et une interface OData pour les données de création de rapports.
-ms.openlocfilehash: 992fae3790b8bdb6ab55f41d42ef0229a75e255c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 633532d85b4d910c11a284231cb9a4c3e5a549cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787941"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394096"
 ---
 # <a name="project-server-architecture"></a>Architecture Project Server
 
@@ -32,7 +32,7 @@ Le Service d’Application Project dans Project Server 2013 peut être associé 
   
 Project Server gère les projets lorsqu’il a le contrôle total ; Project Professional enregistre les données directement dans Project Server. Le tableau 1 compare le comportement d’une liste de tâches, le composant WebPart de planification et d’autres fonctionnalités pour le contrôle des listes de tâches SharePoint et des projets importés lorsque Project Server dispose du contrôle total. Le composant WebPart planification contient la grille dans la page de Project Web App dans laquelle vous pouvez modifier une planification de projet. Le mode de lié est où les données d’état sont inscrit qu’une seule fois pour les tâches et feuilles de temps ; dans le mode d’entrée unique, les données d’état de tâche sont entrées séparément à partir de feuilles de temps.
   
-**Le tableau 1. Comparaison des listes de tâches SharePoint et contrôle total**
+**Tableau 1. Comparaison des listes de tâches et du contrôle total SharePoint**
 
 | Fonctionnalité | Liste des tâches | Contrôle total |
 |:-----|:-----|:-----|
@@ -56,7 +56,7 @@ La figure 1 illustre les processus suivants lorsque les projets sont tenus à j
     
 - (D) lorsqu’un projet est publié dans Project Professionnel, l’utilisateur a la possibilité de créer un site de projet pour le projet. Un projet peut également être créé dans Project Web App comme un type de projet de liste de tâches SharePoint ou comme un type de projet d’entreprise avec contrôle total (TPE). Étape (D) affiche le TPE de contrôle total.
     
-**La figure 1. Listes de tâches à l’aide des sites de projet SharePoint**
+**Figure 1. Utilisation des sites de projet en tant que listes des tâches SharePoint**
 
 ![Utilisation de sites de projet en mode visibilité] (media/pj15_Architecture_VisibilityMode.gif "Utilisation de sites de projet en mode visibilité")
 
@@ -78,7 +78,7 @@ La figure 2 illustre les processus suivants lorsque Project Server tient à jou
     
 - (C) lorsqu’un projet est publié dans Project Professionnel, l’utilisateur a la possibilité de créer un site de projet pour le projet. Un projet peut également être créé dans Project Web App avec un TPE contrôle total et publié avec une liste de tâches en lecture seule pour un site de projet dans la collection de sites.
     
-**La figure 2. L’utilisation des sites de projet avec contrôle total**
+**Figure 2. Utilisation de sites de projet avec un contrôle total**
 
 ![Utilisation de sites de projet en mode géré] (media/pj15_Architecture_ManagedMode.gif "Utilisation de sites de projet en mode géré")
   
@@ -89,7 +89,7 @@ La figure 3 montre une vue générale de l’architecture de Project Server 2013
   
 Il peut y avoir plusieurs instances de Project Web App qui communiquent avec l’Application de Service de projet principal. Pour une installation locale, le serveur Web frontal peut se trouver sur un serveur distinct dans une batterie de serveurs SharePoint, ou il peut être sur le même serveur SharePoint avec l’Application de Service Project. Project Online comprend un serveur Web frontal, Application de Service Project et un serveur de Workflow Manager Client 1.0 local ou distant. 
   
-**La figure 3. Architecture générale Project Server 2013**
+**Figure 3. Architecture générale de Project Server 2013**
 
 ![Architecture de Project Server] (media/pj15_Architecture_ProjectServiceApp_WFE.gif "Architecture de Project Server")
 
@@ -113,7 +113,7 @@ Les commentaires généraux suivants s’appliquent à la figure 3 :
     > [!NOTE]
     > L’interface ASMX basés sur SOAP pour les services web dans PSI est toujours disponible dans Project Server 2013, mais il est déconseillé. 
   
-    Le service OData pour les rapports est implémenté par le service WCF OData.svc interne. Vous pouvez obtenir le Document de métadonnées de Service pour les données de création de rapports à l’aide de `http://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
+    Le service OData pour les rapports est implémenté par le service WCF OData.svc interne. Vous pouvez obtenir le Document de métadonnées de Service pour les données de création de rapports à l’aide de `https://ServerName/ProjectServerName/_api/ProjectData/$metadata`. 
     
     Le service OData pour CSOM est destiné aux plateformes telles que Windows RT, iOS et Android, où vous pouvez utiliser l’interface REST avec JavaScript dans les pages HTML. 
     
@@ -141,7 +141,7 @@ Vous pouvez configurer plusieurs instances de Project Web App sur un serveur Web
   
 - Optimise les appels à PSI à partir de clients distants.
     
-- Elle fait la distinction entre les appels PSI qui nécessitent le Service de file d’attente de Project Server et ceux qui ne pas. Noms de méthode asynchrones PSI commencent par la file d’attente, tel que **QueueCreateProject**.
+- Fait la différence entre les appels PSI qui nécessitent ou non le service de file d’attente Project Server. Les noms de méthodes PSI asynchrones commencent par Queue, par exemple **QueueCreateProject**.
     
 - Identifie les appels PSI qui appellent des gestionnaires d’événements locaux enregistrés.
     
@@ -165,15 +165,15 @@ Project Professional 2013 et l’utilisation de Project Web App pour accéder au
   
 Certains line-of-business applications métier et autres applications de tiers qui ont été développées pour Project Server 2010 requièrent les services PSI qui ne figurent pas encore dans le modèle CSOM. Si elles ciblent uniquement une installation locale de Project Server, les applications peuvent continuer à utiliser l’interface WCF ou ASMX de la PSI.
   
-Applications clientes appellent PSI par le biais de proxys de service. Tous les services PSI par le biais d’accéder aux clients qui utilisent l’interface WCF `http://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Les clients qui utilisent une interface de service web ASMX utilisent l’URL Project Web App pour le service spécifique. Par exemple, le service de **ressources** est à `http://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Si les applications n’ont pas accès intranet à Project Server, ils peuvent utiliser un serveur de Project Web App dans un réseau de périmètre (non illustré à la Figure 3).
+Applications clientes appellent PSI par le biais de proxys de service. Tous les services PSI par le biais d’accéder aux clients qui utilisent l’interface WCF `https://ServerName/ProjectServerName/_vti_bin/psi/ProjectServer.svc`. Les clients qui utilisent une interface de service web ASMX utilisent l’URL Project Web App pour le service spécifique. Par exemple, le service de **ressources** est à `https://ServerName/ProjectServerName/_vti_bin/psi/resource.asmx?wsdl`. Si les applications n’ont pas accès intranet à Project Server, ils peuvent utiliser un serveur de Project Web App dans un réseau de périmètre (non illustré à la Figure 3).
   
 La figure 4 illustre le volet **connexions** dans le **Gestionnaire des Services Internet (IIS)** pour une installation de serveur unique d’un site local de la gestion des flux de travail SharePoint Server 2013 et Project Server 2013 pour Workflow Manager Client 1.0. La collection de sites SharePoint (A) inclut les services frontaux PSI dans le `_vti_bin\PSI` sous-répertoire virtuel. L’application de Services Web SharePoint (B) inclut l’Application de Service Project, avec les services PSI principal dans le `508c23fb7dfd4c83a8919fae24bc68c5/PSI` sous-répertoire virtuel. Le GUID est le nom de l’instance de l’Application de Service Project pour cette installation de Project Server. 
   
-**La figure 4. Gestionnaire des services IIS affichant la PSI frontal (A) et la PSI dorsal (B)**
+**Figure 4. Gestionnaire IIS affichant le service PSI frontal (A) et le service PSI principal (B)**
 
 ![PSI frontal et PSI dorsal] (media/pj15_Architecture_PSI_IIS.gif "PSI frontal et PSI dorsal")
   
-Applications clientes ne peut pas accéder directement les services WCF pour l’interface PSI dans l’Application de Service de projet principal. Si elles ne nécessitent pas d’accès à Project Online, les applications clientes et composants d’applications cœur de métier utilisent le proxy pour l’interface PSI. Une URL principale pour le service de **ressources** dans la Figure 4, par exemple, l’interface WCF serait `http://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Port 32843 est le port HTTP par défaut pour l’application de Services Web SharePoint (32844 est le port pour les communications HTTPS). Toutefois, le fichier web.config de blocs de Project Web App un accès direct aux services PSI principal.
+Applications clientes ne peut pas accéder directement les services WCF pour l’interface PSI dans l’Application de Service de projet principal. Si elles ne nécessitent pas d’accès à Project Online, les applications clientes et composants d’applications cœur de métier utilisent le proxy pour l’interface PSI. Une URL principale pour le service de **ressources** dans la Figure 4, par exemple, l’interface WCF serait `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Port 32843 est le port HTTP par défaut pour l’application de Services Web SharePoint (32844 est le port pour les communications HTTPS). Toutefois, le fichier web.config de blocs de Project Web App un accès direct aux services PSI principal.
   
 > [!NOTE]
 > Le téléchargement du Kit de développement Project 2013 inclut des fichiers proxy PSI pour les services WCF et ASMX et comment les compiler dans des assemblys de proxy. > Pour créer des fichiers proxy PSI mis à jour qui utilisent l’interface WCF, vous devez utiliser l’utilitaire svcutil.exe ou dans Visual Studio directement sur l’ordinateur Project Server. 
@@ -189,11 +189,11 @@ Le modèle objet interne de Project Server inclut des objets métier, qui repré
   
 Les objets métier ne sont pas exposés aux développeurs tiers. PSI gère le mappage de l’API aux objets métier, et CSOM mappe son API à PSI. Les entités logiques d’objets métier peuvent être classées en trois catégories :
   
-- **Les entités principales** sont des objets tels que des projets, tâches, affectations, ressources et des calendriers. Les entités principales incluent une logique métier de base telles que les autorisations et les règles d’affectation de noms. 
+- Les **entités de base** sont des objets tels que des projets, tâches, attributions, ressources et calendriers. Elles incluent la logique métier de base, comme les autorisations et les règles d’attribution de noms. 
     
-- **Les entités métier** sont des objets tels que des feuilles de temps, les portefeuilles de projet et les modèles. Les entités métier incluent une logique métier supplémentaire et sont généralement générées à partir d’une combinaison des entités de base. 
+- Les **entités métier** sont des objets tels que des feuilles de temps, portefeuilles de projets et modèles. Elles incluent une logique métier supplémentaire et sont généralement basées sur une combinaison d’entités de base. 
     
-- **Entités de prise en charge** sont des objets tels que la sécurité et la validation. 
+- Les **entités de prise en charge** sont des objets, tels que la sécurité et la validation. 
     
 Dans Project Server 2010, tous les objets métier sont implémentées dans l’Application de Service Project. Dans Project Server 2013, le serveur Web frontal héberge bon nombre d’objets métiers traitent des méthodes synchrones et ne nécessitent pas le Service de calcul Project. Méthodes PSI synchrones telles que **DeleteProject** et **ReadAssignments** n’utilisent pas le Service de file d’attente de Project Server. Les méthodes asynchrones dans l’interface PSI portent des noms qui commencent par `Queue`, telles que **QueueCreateProject** et **QueueUpdateTimesheet**. Une méthode asynchrone envoie un message pour le Service de file d’attente de Project Server, qui planifie le traitement de la méthode pendant que le contrôle est renvoyé à l’utilisateur.
   
@@ -261,12 +261,12 @@ Pour autoriser la mise à jour de la version publiée d’un projet alors qu’u
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Vue d’ensemble de Project 2013 pour les développeurs](http://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
-- [Programmabilité Project Server](project-server-programmability.md)  
-- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)  
-- [Ce que fait la PSI et ne fait pas](what-the-psi-does-and-does-not-do.md)  
-- [Prise en main développement flux de travail Project Server](getting-started-developing-project-server-workflows.md)   
+- [Vue d’ensemble de Project 2013 pour les développeurs](https://msdn.microsoft.com/library/8da91ab0-af4f-429f-8241-490600e3f7bd%28Office.15%29.aspx)
+- [Programmabilité de Project Server](project-server-programmability.md)  
+- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)  
+- [Fonctionnalités de l’interface PSI](what-the-psi-does-and-does-not-do.md)  
+- [Prise en main du développement de flux de travail Project Server](getting-started-developing-project-server-workflows.md)   
 - [Présentation des références de projet PSI](project-psi-reference-overview.md)   
-- [Protocole Open Data](http://www.odata.org/)
+- [Protocole Open Data](https://www.odata.org/)
     
 

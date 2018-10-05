@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 558c7315-5025-484b-446e-333890bc1c3a
-ms.openlocfilehash: 6cc7d2fa98e387f01900241fd65142163a35aeb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d584891576967f3e452402667f0adaad5c87843f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789440"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398345"
 ---
 # <a name="relquadbeztotype-complextype-visio-xml"></a>Type complexe RelQuadBezTo_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19789440"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |GeometryRow_Type  <br/> |
    

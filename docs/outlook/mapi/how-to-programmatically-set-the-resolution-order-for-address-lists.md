@@ -6,20 +6,20 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Dernière modification : 06 juillet 2012'
-ms.openlocfilehash: aa1981c365e2a8e81dcd688a32fca25178c7fe52
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577323"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392916"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Définir par programme l’ordre de résolution des listes d’adresses
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple de code en langage C++ qui définit par programmation l’ordre des listes d’adresses par les destinataires de courrier électronique messages et les participants dans les demandes de réunion sont résolus.
   
-MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge la méthode **[SetSearchPath](http://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin d’accès de la recherche dans le profil qui est utilisé pour la résolution de nom. Pour utiliser la méthode **IAddrBook::SetSearchPath** , que vous aurez définir l’ordre de résolution de votre choix dans un tableau de **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses pertinents dans l’ordre souhaité, puis spécifiez le tableau comme le *lpSearchPath*  paramètre. La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d’adresses correspondant. 
+MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge la méthode **[SetSearchPath](https://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin d’accès de la recherche dans le profil qui est utilisé pour la résolution de nom. Pour utiliser la méthode **IAddrBook::SetSearchPath** , que vous aurez définir l’ordre de résolution de votre choix dans un tableau de **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses pertinents dans l’ordre souhaité, puis spécifiez le tableau comme le *lpSearchPath*  paramètre. La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d’adresses correspondant. 
   
 L’exemple de code définit l’ordre de résolution dans les étapes suivantes :
   

@@ -1,5 +1,5 @@
 ---
-title: À propos de persistance TZDEFINITION dans un flux de validation dans une propriété binaire
+title: À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,16 +7,16 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 0dec535d-d48f-39a5-97d5-0bd109134b3b
 description: Les propriétés de fuseau horaire, PidLidAppointmentTimeZoneDefinitionEndDisplay, PidLidAppointmentTimeZoneDefinitionRecur et PidLidAppointmentTimeZoneDefinitionStartDisplay sont binaire nommé de propriétés, chacun d'entre eux contient un flux qui mappe sur le format persistant d’une structure TZDEFINITION.
-ms.openlocfilehash: 8e00c7203e2a0adfdf9ff3e6dadff6485c8b5111
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f94b751a55aa852c962eebe5d46968e9e622e315
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398618"
 ---
-# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>À propos de persistance TZDEFINITION dans un flux de validation dans une propriété binaire
+# <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire
 
-Les propriétés de fuseau horaire, [PidLidAppointmentTimeZoneDefinitionEndDisplay](http://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](http://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)et [PidLidAppointmentTimeZoneDefinitionStartDisplay](http://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) sont binaire nommé de propriétés, chacun d'entre eux contient un flux qui mappe sur le format d’une structure [TZDEFINITION](tzdefinition.md) persistant. 
+Les propriétés de fuseau horaire, [PidLidAppointmentTimeZoneDefinitionEndDisplay](https://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](https://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)et [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) sont binaire nommé de propriétés, chacun d'entre eux contient un flux qui mappe sur le format d’une structure [TZDEFINITION](tzdefinition.md) persistant. 
   
 Cette rubrique décrit un format endian peu qui peut être utilisé lors de la persistance **TZDEFINITION** dans un flux pour valider une des trois propriétés binaires. Utilisez le même format de primauté dans un analyseur pour interpréter une valeur de flux de données obtenue à partir d’une de ces propriétés. 
   
@@ -64,6 +64,6 @@ Notez que la structure [TZREG](tzreg.md) est conservée ici différemment que lo
 ## <a name="see-also"></a>Voir aussi
 
 - [Constantes (Outlook des API exportées)](constants-outlook-exported-apis.md)
-- [Analyser un flux de données à partir d’une propriété binaire à lire la structure TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
+- [Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
 - [Lire les propriétés de fuseau horaire à partir d’un rendez-vous](how-to-read-time-zone-properties-from-an-appointment.md)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b8caf16bad26eef10d7686d66c5a17320de5e3bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 90df272a70fd4133a780f205c93b42f26ed1ae96
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588103"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392290"
 ---
 # <a name="pidtagscheduleinfomonthsaway-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsAway
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une liste des mois pour laquelle et de disponibilité des données de type en dehors du bureau (OOF) sont présentes dans le message et de disponibilité. 
   
@@ -42,11 +42,11 @@ Format, calcul les contraintes de cette propriété sont les mêmes que ceux du 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publie la disponibilité d’un utilisateur ou une ressource.
     

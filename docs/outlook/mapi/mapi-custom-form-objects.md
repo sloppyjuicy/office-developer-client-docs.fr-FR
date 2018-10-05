@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 96266b948d80b07d7aefefbf29225d2f85089094
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 4c1c04e5b04be9bb67b050f5cf498be89d380410
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396322"
 ---
 # <a name="mapi-custom-form-objects"></a>Objets de formulaire personnalisé MAPI
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Objets des formulaires personnalisés sont implémentées par trois composants différents :
   
@@ -47,7 +47,7 @@ Le tableau suivant décrit tous les objets de formulaire personnalisé.
 |Contexte de vue  <br/> |Prend en charge les commandes pour activer les messages suivants et précédents et pour l’enregistrement ou l’impression du formulaire.  <br/> |
 |Affichage de récepteur de notification  <br/> |Gère les notifications à partir du serveur du formulaire.  <br/> |
    
-L’illustration suivante montre la relation entre les composants de formulaire personnalisé, les objets et interfaces qu’ils implémentent et les composants qui sont des utilisateurs des objets. Notez que, contrairement à la plupart des autres objets MAPI, l’objet form implémente deux interfaces qui ne sont pas liées par héritage direct. Lorsqu’un objet expose plusieurs interfaces indépendantes, un utilisateur de l’objet qui est un pointeur vers une des interfaces peut récupérer un pointeur vers une des autres interfaces. Cette possibilité de naviguer entre les implémentations d’interface d’un objet est une fonctionnalité de la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
+L’illustration suivante montre la relation entre les composants de formulaire personnalisé, les objets et interfaces qu’ils implémentent et les composants qui sont des utilisateurs des objets. Notez que, contrairement à la plupart des autres objets MAPI, l’objet form implémente deux interfaces qui ne sont pas liées par héritage direct. Lorsqu’un objet expose plusieurs interfaces indépendantes, un utilisateur de l’objet qui est un pointeur vers une des interfaces peut récupérer un pointeur vers une des autres interfaces. Cette possibilité de naviguer entre les implémentations d’interface d’un objet est une fonctionnalité de la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . 
   
 **Composants de formulaire personnalisé**
   

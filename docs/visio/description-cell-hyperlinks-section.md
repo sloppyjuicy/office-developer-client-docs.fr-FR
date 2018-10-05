@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 description: Représente une chaîne de texte descriptive d’un lien hypertexte
-ms.openlocfilehash: 567a90b3162c109582c3149c156a994392980577
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b58e6dc3ec2fc3b64db00e0f19e0718fe897aaa3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788482"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396623"
 ---
-# <a name="description-cell-hyperlinks-section"></a>Description, cellule (section Hyperlinks)
+# <a name="description-cell-hyperlinks-section"></a>Cellule Description (section Liens hypertexte)
 
 Représente une chaîne de texte descriptive d’un lien hypertexte 
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette cellule pour stocker des commentaires sur le lien. Exemple : « Lien vers la page Web de nos tarifs ».
+Utilisez cette cellule pour stocker des commentaires sur le lien hypertexte. par exemple, « un lien vers notre site prix. »
   
-Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **liens hypertexte** (cliquez sur le **lien hypertexte** sous l’onglet **Insertion** ). 
+Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Liens hypertexte** (cliquez sur **Liens hypertexte** sous l’onglet **Insertion**). 
   
-Pour obtenir une référence à la cellule Description par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour faire référence à la cellule Description par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | Lien hypertexte.  *Nom* . Description où un lien hypertexte.  *Nom* est le nom de la ligne hyperlink  <br/> |
    
-Pour obtenir une référence à la cellule Description par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

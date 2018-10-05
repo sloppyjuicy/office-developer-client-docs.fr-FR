@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 818793d6-608e-5f23-eca2-55ce6667050b
 description: Spécifie les informations concernant les formes dans une page maître ou dessin d’un dessin.
-ms.openlocfilehash: 0ca705081ad42d799a0155b26eb42ff0b64cd7d7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: aec860f4135e15f18436dba50986b0ad0e6ee9e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789197"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396567"
 ---
 # <a name="pagecontents-element-visio-xml"></a>Élément PageContents (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les informations concernant les formes dans une page maître ou dessin
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |page # .xml  <br/> |
    
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Se connecte](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un élément de **connexion** pour chaque connexion entre deux formes dans un dessin.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un élément de **connexion** pour chaque connexion entre deux formes dans un dessin.  <br/> |
 |[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Spécifie une collection de formes.  <br/> |
    
 ### <a name="attributes"></a>Attributs

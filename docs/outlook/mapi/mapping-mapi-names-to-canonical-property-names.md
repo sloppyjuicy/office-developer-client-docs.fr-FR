@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 38376abb-60de-40f1-9bc9-d8c4f9e3368b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8ecf98d1e6b267d212d23959cdbde0d53f8c961a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 693ea848d6870c443ad69fbb795f7520ecb5ee24
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594690"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397575"
 ---
 # <a name="mapping-mapi-names-to-canonical-property-names"></a>Mappage des noms MAPI aux noms de propriétés canoniques
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique mappe chaque propriété MAPI sur le nom de propriété canonique correspondant. La rubrique contient trois tables : une table de propriétés nommées avec des identificateurs numériques, une seconde table pour les propriétés nommées avec les identificateurs de chaîne et une troisième table des propriétés avec balise.
   
@@ -326,8 +326,8 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |DRMLicense  <br/> |[PidNameRightsManagementLicense](pidnamerightsmanagementlicense-canonical-property.md) <br/> |
 |EditTime  <br/> |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |
 |HiddenCount  <br/> |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |
-|http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
-|http://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
+|https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |
+|https://schemas.microsoft.com/outlook/phishingstamp  <br/> |[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |
 |Keywords  <br/> |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |
 |LastAuthor  <br/> |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |
 |LastPrinted  <br/> |[PidNameLastPrinted](pidnamelastprinted-canonical-property.md) <br/> |

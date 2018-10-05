@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook exporte des définitions, des structures de données, les fonctions suivantes, les interfaces qui ont été initialement conçus pour un usage interne, mais qui sont désormais exposés pour une consommation publique.
-ms.openlocfilehash: 888a1d7f828b463dc17c03353d693d3df3544e53
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782535"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399367"
 ---
 # <a name="about-apis-exported-by-outlook"></a>À propos de l'API exporté par Outlook
 
@@ -50,8 +50,8 @@ Outlook exporte des définitions, des structures de données, les fonctions suiv
     
 En outre, utilisation des identificateurs de dispatch, **dispidFDirty** et **dispidShowSenderPhoto**, vous pouvez obtenir les tâches suivantes :
   
-- [Déterminer si un élément Outlook a été modifié mais ne pas enregistré (autre référence Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d'Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
-- [Spécifier s’il faut afficher l’image d’un contact dans Outlook (autre référence Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Spécifier si vous souhaitez afficher l'image d'un contact dans Outlook (référence auxiliaire d'Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 

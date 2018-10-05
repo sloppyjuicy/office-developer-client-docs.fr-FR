@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e780b33f693410d3936fbeb9acfc55213953042c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: accea8bdea25ac44e6cc5d8fe88cb32caf1961be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590021"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397722"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propriété canonique PidTagSearchFolderStorageType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient des indicateurs qui spécifient les données de l’objet BLOB (Binary Large) qui s’affiche dans la propriété **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   
@@ -36,17 +36,17 @@ Contient des indicateurs qui spécifient les données de l’objet BLOB (Binary 
    
 ## <a name="remarks"></a>Remarques
 
-Les définitions des indicateurs sont spécifiées dans [[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Recherchez **PR_WB_SF_STORAGE_TYPE**.
+Les définitions des indicateurs sont spécifiées dans [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Recherchez **PR_WB_SF_STORAGE_TYPE**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour la manipulation d’une configuration de liste de dossier de recherche.
     

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c074067039ed1d3ef064ddba0b6717b302f652e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 762d60123de86b7d18d634cf39d79a4652a5ffec
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595439"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398751"
 ---
 # <a name="pidtagmailboxownername-canonical-property"></a>Propriété canonique PidTagMailboxOwnerName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche le nom du propriétaire de la boîte aux lettres.
   
@@ -38,11 +38,11 @@ Affiche le nom du propriétaire de la boîte aux lettres.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Spécifie les opérations autorisées pour les objets de banque de messages principale.
     

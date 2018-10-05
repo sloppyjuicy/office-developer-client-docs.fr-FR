@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ea7d0a17fdb6dba047cb97290d991ce384d4750
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3bf0f52dbeda37ac35024ae3bf38df8919e37b60
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573935"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393865"
 ---
 # <a name="pidtaginitialdetailspane-canonical-property"></a>Propriété canonique PidTagInitialDetailsPane
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique la page d’un modèle d’affichage pour afficher le premier.
   
@@ -42,11 +42,11 @@ Il doit être présent sur tous les objets de carnet d’adresses sur un serveur
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
     

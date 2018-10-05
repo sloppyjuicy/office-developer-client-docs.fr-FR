@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
 description: 'La référence du fournisseur Outlook Social Connector 2013 d’accompagnement est plusieurs modèles fournisseur en C++, Visual C# et Visual Basic. Vous pouvez télécharger les modèles à Outlook Social Connector 2013 : modèles du fournisseur.'
-ms.openlocfilehash: a15cc6a7530adc38b89660c489d0c27904b86211
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787699"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395923"
 ---
 # <a name="osc-sample-templates"></a>Exemples de modèles OSC
 
-La référence du fournisseur Outlook Social Connector 2013 d’accompagnement est plusieurs modèles fournisseur en C++, Visual C# et Visual Basic. Vous pouvez télécharger les modèles à [Outlook Social Connector 2013 : modèles du fournisseur](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+La référence du fournisseur Outlook Social Connector 2013 d’accompagnement est plusieurs modèles fournisseur en C++, Visual C# et Visual Basic. Vous pouvez télécharger les modèles à [Outlook Social Connector 2013 : modèles du fournisseur](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
   
 Les modèles du fournisseur sont disponibles pour une utilisation lorsque vous créez un fournisseur dans la langue de votre choix. Pour réduire la taille de téléchargement du fournisseur et réduire le temps de chargement de fournisseur, vous devez créer un fournisseur de production à l’aide de C++. Si vous développez un fournisseur pour les utilisateurs qui ont le .NET Framework 3.5 SP1 ou une version ultérieure du .NET Framework est installé sur leur ordinateur, vous pouvez également envisager d’écriture d’un fournisseur managé à l’aide de c# ou Visual Basic.
   
@@ -27,7 +27,7 @@ Les modèles du fournisseur sont disponibles pour une utilisation lorsque vous c
     
 - [Appliquer un modèle de fournisseur](applying-a-sample-provider-template.md): décrit comment utiliser les exemples de modèles de fournisseur.
     
-## <a name="reference"></a>R�f�rence
+## <a name="reference"></a>Référence
 
 - [Documentation de référence sur le fournisseur Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   

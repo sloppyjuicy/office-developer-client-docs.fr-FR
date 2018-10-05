@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: Contient les coordonnées x ou y pour le deuxième point de contrôle d’une spline, du deuxième nœud, du premier nœud, du dernier nœud ou le degré de la spline.
-ms.openlocfilehash: ed9c13d3ff376f1a13f17165c737a0a9f186d572
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d2e12eba831dafb9a79b9f76638a0bdb23671ce9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788213"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392024"
 ---
 # <a name="cell-element-splinestart-row-visio-xml"></a>Élément de cellule (ligne SplineStart) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y pour le deuxième point de contrôle d’une sp
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,11 +66,11 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Point de la coordonnée x du deuxième contrôle d’une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
-|Y  <br/> |Point de la coordonnée y du deuxième contrôle d’une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du deuxième point de contrôle d'une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du deuxième point de contrôle d’une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
 |A  <br/> |Deuxième nœud de la spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
 |B  <br/> |Premier nœud d’une spline  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
-|C  <br/> |Dernier nœud d’une spline  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](splinestart-row-geometry-section.md) <br/> |
+|C  <br/> |Dernier nœud d’une spline  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](splinestart-row-geometry-section.md) <br/> |
 |D  <br/> |Degré d'une spline (entier compris entre 1 et 25).  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
    
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: Spécifie une propriété qui contrôle la position du taquet shape et style ou l’alignement.
-ms.openlocfilehash: da2fb31688227180bb38a4366c3293a2e16600c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c6641c452144544dc769616130c96d6cf89aca23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788228"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395062"
 ---
 # <a name="cell-element-tabs-section-visio-xml"></a>Élément de cellule (Section Tabs) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une propriété qui contrôle la position du taquet shape et style ou 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Tabs)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété qui contrôle la position du taquet shape et style ou l’alignement.  <br/> |
+|[Élément de ligne (section Onglets)](row-element-tabs-sectionvisio-xml.md) <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété qui contrôle la position du taquet shape et style ou l’alignement.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

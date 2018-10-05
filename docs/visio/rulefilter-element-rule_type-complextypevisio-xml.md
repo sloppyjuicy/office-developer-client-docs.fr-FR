@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
 description: Spécifie l’expression logique qui détermine si la règle de validation doit être appliquée à un objet cible.
-ms.openlocfilehash: f2862fe4f4b6a644d80ca0393270594766d940be
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d4167fbb8dde54c55e49debb77fe307ecab6771
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789552"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396727"
 ---
 # <a name="rulefilter-element-ruletype-complextype-visio-xml"></a>Élément RuleFilter (Rule_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie l’expression logique qui détermine si la règle de validation doit 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |validation.Xml  <br/> |
    

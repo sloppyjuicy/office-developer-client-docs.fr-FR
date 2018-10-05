@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7d2f5fc2f26019902b27750613f7c360a751cd51
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a681e68c0718e49da331946d75ecb7b4fab7afe2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582930"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396791"
 ---
 # <a name="implementing-a-sample-object"></a>L’implémentation d’un exemple d’objet
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Objets de récepteur de notification — les objets qui prennent en charge la [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — sont des objets MAPI que les applications clientes implémentent pour traiter les notifications. **IMAPIAdviseSink** hérite directement de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) et contient une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de récepteur advise, un client crée du code pour les trois méthodes de **IUnknown** et [OnNotify](imapiadvisesink-onnotify.md).
+Objets de récepteur de notification — les objets qui prennent en charge la [IMAPIAdviseSink : IUnknown](imapiadvisesinkiunknown.md) interface — sont des objets MAPI que les applications clientes implémentent pour traiter les notifications. **IMAPIAdviseSink** hérite directement de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) et contient une seule méthode, **OnNotify**. Par conséquent, pour implémenter un objet de récepteur advise, un client crée du code pour les trois méthodes de **IUnknown** et [OnNotify](imapiadvisesink-onnotify.md).
   
 Le fichier d’en-tête Mapidefs.h définit une implémentation d’interface **IMAPIAdviseSink** à l’aide de **DECLARE_MAPI_INTERFACE**, comme suit :
   
@@ -36,7 +36,7 @@ DECLARE_MAPI_INTERFACE_(IMAPIAdviseSink, IUnknown)
 
 Clients qui implémentent des objets récepteurs peuvent définir leurs interfaces dans leurs objets manuellement ou avec les macros **MAPI_IUNKNOWN_METHODS** et **MAPI_IMAPIADVISESINK_METHODS** de notification. L’implémentation d’objet doit utiliser les macros d’interface chaque fois que possible pour assurer la cohérence entre les objets et de gagner du temps. 
   
-Implémentez les méthodes [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) est relativement simple, car il est généralement uniquement quelques lignes de code sont nécessaires. Par conséquent, les clients et les fournisseurs de services qui implémentent des objets peut-il leur inline implémentations **AddRef** et **Release** . Le code suivant montre comment définir un C++ conseiller objet récepteur avec des implémentations inline **AddRef** et **Release**.
+Implémentez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) and [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) est relativement simple, car il est généralement uniquement quelques lignes de code sont nécessaires. Par conséquent, les clients et les fournisseurs de services qui implémentent des objets peut-il leur inline implémentations **AddRef** et **Release** . Le code suivant montre comment définir un C++ conseiller objet récepteur avec des implémentations inline **AddRef** et **Release**.
   
 ```cpp
 class  CMAPIAdviseSink : public IMAPIAdviseSink

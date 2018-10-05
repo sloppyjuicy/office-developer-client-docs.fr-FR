@@ -1,5 +1,5 @@
 ---
-title: Synchronisation de vos amis et activités
+title: Synchronisation des amis et des activités
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: L’Outlook Social Connector (OSC) prend en charge l’affichage des informations à partir d’un réseau social sur une personne dans la carte de visite ou dans le volet personnes Outlook. SharePoint Server, SharePoint Workspace, client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prend en charge la carte de visite.
-ms.openlocfilehash: 9e843d8013b329a88de88232f16740edae77c1d1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399157"
 ---
-# <a name="synchronizing-friends-and-activities"></a>Synchronisation de vos amis et activités
+# <a name="synchronizing-friends-and-activities"></a>Synchronisation des amis et des activités
 
 L’Outlook Social Connector (OSC) prend en charge l’affichage des informations à partir d’un réseau social sur une personne dans la carte de visite ou dans le volet personnes Outlook. SharePoint Server, SharePoint Workspace, client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence prend en charge la carte de visite.
   
@@ -25,7 +25,7 @@ Le volet personnes Outlook affiche des informations sur une personne qui peut ê
   
 Pour la carte de visite ou le volet personnes afficher les informations en cours de la personne sélectionnée, le OSC synchronise ces informations via les fournisseurs OSC et qu’une forme de mise en cache. Cette synchronisation varie selon les fournisseurs OSC qui sont installés sur l’ordinateur client, que vous avez connecté grâce à leurs fournisseurs OSC et le mode de synchronisation que chacun des fournisseurs OSC social ces réseaux prend en charge les réseaux sociaux.
   
-L’OSC prend en charge amis, non amis et des activités de synchronisation pour vos amis et non amis de différentes manières : mis en cache de la synchronisation, la synchronisation de la demande et la synchronisation hybride. La différence principale entre ces modes de synchronisation est où l’OSC stocke les données, s’il s’agit d’un dossier dans le magasin d’Outlook par défaut de l’utilisateur, ou dans la mémoire sur l’ordinateur de l’utilisateur. Dans chaque cas comme indiqué précédemment dans cette rubrique, il existe une durée minimale par défaut que les données demeurent dans la mémoire ou le dossier avant l’actualisation des données. Dans certains cas, la quantité minimale de temps peut être personnalisée par la stratégie de groupe. Pour plus d’informations sur les stratégies de groupe qui contrôlent le comportement de l’OSC, voir [comment gérer Outlook Social Connector à l’aide de la stratégie de groupe](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
+L’OSC prend en charge amis, non amis et des activités de synchronisation pour vos amis et non amis de différentes manières : mis en cache de la synchronisation, la synchronisation de la demande et la synchronisation hybride. La différence principale entre ces modes de synchronisation est où l’OSC stocke les données, s’il s’agit d’un dossier dans le magasin d’Outlook par défaut de l’utilisateur, ou dans la mémoire sur l’ordinateur de l’utilisateur. Dans chaque cas comme indiqué précédemment dans cette rubrique, il existe une durée minimale par défaut que les données demeurent dans la mémoire ou le dossier avant l’actualisation des données. Dans certains cas, la quantité minimale de temps peut être personnalisée par la stratégie de groupe. Pour plus d’informations sur les stratégies de groupe qui contrôlent le comportement de l’OSC, voir [comment gérer Outlook Social Connector à l’aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103).
   
 Notez que si la personne sélectionnée n’est pas un membre du réseau social, l’OSC n’affiche aucune information personne ou une activité pour cette personne dans la carte de visite ou le volet personnes.
   
@@ -140,5 +140,5 @@ Les informations suivantes s’applique aux valeurs de Registre Windows réperto
 - [Exemple de code XML des fonctionnalités](capabilities-xml-example.md)  
 - [Fichier XML pour les fonctionnalités](xml-for-capabilities.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)  
-- [Comment faire pour gérer Outlook Social Connector à l’aide de la stratégie de groupe](http://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
+- [Comment faire pour gérer Outlook Social Connector à l’aide de la stratégie de groupe](https://support.microsoft.com/default.aspx?scid=kb%3Ben-US%3B2020103)
 

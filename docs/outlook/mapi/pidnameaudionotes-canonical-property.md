@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 97986215a2280d64a7affa817e81d66e4fb82817
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 188ddf13e623292e95a1af4af54cf4254d7b0345
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577764"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396280"
 ---
 # <a name="pidnameaudionotes-canonical-property"></a>Propriété canonique PidNameAudioNotes
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie les notes textuelles qui sont joints à un message vocal.
   
@@ -43,11 +43,11 @@ Pour activer un utilisateur final à lire et modifier des notes audio directemen
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOUM]](http://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour la représentation des messages de messagerie et de télécopie de voix.
     

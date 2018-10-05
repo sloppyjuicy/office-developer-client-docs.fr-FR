@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 91cad169157b2dd0ff279e88b69db149c4c7df89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 86a0203f930661452bb143e247c17ef6da8ed436
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590749"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398003"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Propriété canonique PidLidReminderDelta
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie l’intervalle, en minutes, entre le moment lorsque le rappel est tout d’abord en retard et l’heure de début de l’objet calendar.
   
@@ -37,17 +37,17 @@ Spécifie l’intervalle, en minutes, entre le moment lorsque le rappel est tout
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur des objets de calendrier. Pour tous les objets autres que du calendrier, cette propriété doit être définie sur « 0 x 00000000 » et est ignorée. Lorsqu’un rappel est rejeté pour une instance d’un objet calendar périodiques, la valeur de cette propriété est utilisée dans le calcul de la durée du signal l’occurrence suivante. Pour plus d’informations sur la création de l’objet calendrier, voir [[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Cette propriété doit être définie sur des objets de calendrier. Pour tous les objets autres que du calendrier, cette propriété doit être définie sur « 0 x 00000000 » et est ignorée. Lorsqu’un rappel est rejeté pour une instance d’un objet calendar périodiques, la valeur de cette propriété est utilisée dans le calcul de la durée du signal l’occurrence suivante. Pour plus d’informations sur la création de l’objet calendrier, voir [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
     

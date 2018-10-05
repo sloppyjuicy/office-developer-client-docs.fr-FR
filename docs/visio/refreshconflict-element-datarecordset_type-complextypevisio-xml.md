@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: Indique une ligne dans le jeu d’enregistrements de données liée à une forme qui est en conflit après l’actualisation du jeu d’enregistrements.
-ms.openlocfilehash: 0bcfb38c1a9ef84fc8581476fcce13b0de32c308
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2da6f98cf7b047564331aaf5a4167e392927a155
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789416"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397400"
 ---
 # <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Élément RefreshConflict (DataRecordSet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Indique une ligne dans le jeu d’enregistrements de données liée à une forme
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |recordsets.Xml  <br/> |
    

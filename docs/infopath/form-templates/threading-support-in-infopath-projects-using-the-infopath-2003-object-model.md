@@ -8,16 +8,16 @@ keywords:
 localization_priority: Normal
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: Les objets COM auxquels vous accédez via les assemblys d'interopérabilité Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll et Microsoft.Office.Interop.InfoPath.Xml.dll installés par Microsoft InfoPath ne prennent pas en charge les appels sur plusieurs threads. Ceci inclut les interfaces pour les objets MSXML (Microsoft XML Core Services) incorporées dans l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust (dont la plupart portent un nom commençant par IXMLDOM) et toutes les interfaces exposées par l'espace de noms Microsoft.Office.Interop.InfoPath.Xml, aucune de ces interfaces n'étant sécurisées pour l'utilisation de threads.
-ms.openlocfilehash: 314ef57e11295c0b2dbc9866c5faa392aab055ff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1be2bd0181c47097440af54f1aa804a4f17b30bf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782458"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395559"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Prise en charge du threading dans les projets InfoPath à l'aide du modèle de projet InfoPath 2003
 
-Les objets COM auxquels vous accédez via les assemblys d'interopérabilité Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll et Microsoft.Office.Interop.InfoPath.Xml.dll installés par Microsoft InfoPath ne prennent pas en charge les appels sur plusieurs threads. Cela inclut les interfaces pour les objets de Microsoft XML Core Services (MSXML) qui sont inclus par l’espace de noms **Microsoft.Office.Interop.InfoPath.SemiTrust** (la plupart d'entre eux ont des noms qui portent le préfixe IXMLDOM) et toutes les interfaces exposées par l’espace de noms [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) , qui sont thread-safe. 
+Les objets COM auxquels vous accédez via les assemblys d'interopérabilité Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll et Microsoft.Office.Interop.InfoPath.Xml.dll installés par Microsoft InfoPath ne prennent pas en charge les appels sur plusieurs threads. Cela inclut les interfaces pour les objets de Microsoft XML Core Services (MSXML) qui sont inclus par l’espace de noms **Microsoft.Office.Interop.InfoPath.SemiTrust** (la plupart d'entre eux ont des noms qui portent le préfixe IXMLDOM) et toutes les interfaces exposées par l’espace de noms [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) , qui sont thread-safe. 
   
 Tous les appels lancés vers ces objets COM doivent l'être sur un seul thread. Le code géré dans un projet InfoPath peut créer d'autres threads pour effectuer des tâches en arrière-plan, mais le code qui s'exécute sur des threads autres que le thread principal ne peut pas effectuer d'appels vers les modèles objets InfoPath.
   
@@ -82,7 +82,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

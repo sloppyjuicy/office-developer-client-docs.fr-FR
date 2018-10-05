@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a584c6beec0f06ab4cc6bd95f4611d1f30189a8e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 680c9dd9db2743c031de7cda4673d7044ec533e8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595152"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397428"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>Propriété canonique PidTagUserFields
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom du type de données et autres informations sur un champ défini par l’utilisateur.
   
@@ -45,7 +45,7 @@ Le jeu de champs définis par l’utilisateur dans un dossier est affiché à di
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     

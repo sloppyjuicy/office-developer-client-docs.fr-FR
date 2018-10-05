@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Identifie une ou plusieurs colonnes de clé primaire du jeu d’enregistrements de données.
-ms.openlocfilehash: f720636bbdf2c55baca6d98aa7d0761607e53ffc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789365"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396357"
 ---
 # <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>PrimaryKey, élément (DataRecordSet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Identifie une ou plusieurs colonnes de clé primaire du jeu d’enregistrements 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |recordsets.Xml  <br/> |
    

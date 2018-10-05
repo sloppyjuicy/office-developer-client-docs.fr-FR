@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: Indique si les repères sont affichés dans la fenêtre de dessin.
-ms.openlocfilehash: 41f070b6eae3380647840b7de2303b3beeb3561c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 25e630d1d6e48aef922d225924b872097e1a7aee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789718"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396819"
 ---
 # <a name="showguides-element-windowtype-complextype-visio-xml"></a>ShowGuides, élément (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Indique si les repères sont affichés dans la fenêtre de dessin.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -42,7 +42,8 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

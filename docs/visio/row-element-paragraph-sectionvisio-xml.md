@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 00ecaa82-3b40-24cc-91c0-b2562e92161d
 description: Indique les attributs de mise en forme de paragraphe du texte de la forme, tels que les retraits, l'interligne, les puces et l'alignement horizontal des paragraphes.
-ms.openlocfilehash: ac4b2083889d3cf01b8c5bfe2fa64fe0ec1ad01a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 304c63bf810232b5a9a0f08b9b36718dd75dcc69
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789536"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398191"
 ---
 # <a name="row-element-paragraph-section-visio-xml"></a>Row, élément (Section paragraphe) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Indique les attributs de mise en forme de paragraphe du texte de la forme, tels 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    

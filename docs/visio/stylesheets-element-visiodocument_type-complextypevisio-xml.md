@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da26de4b-3e5b-326b-de46-e8c542b74f02
 description: Contient une collection d’éléments de feuille de style pour le document.
-ms.openlocfilehash: fdecd1ee6a22b4ffb918ff39f3806cf18c56654b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4aae3bcbecec34d961f2d14fd6d3865e7cd332f6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789838"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395825"
 ---
 # <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>StyleSheets, élément (VisioDocument_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une collection d’éléments de feuille de style pour le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

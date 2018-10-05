@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contient les coordonnées x ou y de deux points sur une ligne infinie.
-ms.openlocfilehash: 2ead373e3ef28f9871d861a668f564c1296023d4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1dde7958116824efffce6247855a959fee61e869
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788217"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392787"
 ---
 # <a name="cell-element-infiniteline-row-visio-xml"></a>Élément de cellule (ligne InfiniteLine) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y de deux points sur une ligne infinie.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,9 +66,9 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x d’un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule Y.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y d’un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule X.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
-|A  <br/> |Coordonnée x d’un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule B.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
-|B  <br/> |Coordonnée y d’un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule A.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x d'un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule Y.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y d'un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule X.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
+|A  <br/> |Coordonnée x d’un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule B  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
+|B  <br/> |Coordonnée y d’un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule A  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
    
 

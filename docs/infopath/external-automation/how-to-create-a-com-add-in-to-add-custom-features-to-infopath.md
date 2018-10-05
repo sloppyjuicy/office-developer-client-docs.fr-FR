@@ -1,5 +1,5 @@
 ---
-title: Créer un complément COM pour ajouter des fonctionnalités personnalisées à InfoPath
+title: Créer un complément COM pour ajouter des fonctionnalités personnalisées dans InfoPath
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: Microsoft InfoPath prend en charge des compléments COM pour l’extension de l’expérience utilisateur d’édition de formulaires. Bien que prise en charge des compléments COM a été ajouté tout d’abord, dans InfoPath, les autres applications Office, telles que Microsoft Office Word et Microsoft Office Excel ont pris en charge des compléments COM depuis Office 2000.
-ms.openlocfilehash: 4c70dfb71cf7b15a0978b4567ffac02a8ba524c3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782259"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395482"
 ---
-# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Créer un complément COM pour ajouter des fonctionnalités personnalisées à InfoPath
+# <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Créer un complément COM pour ajouter des fonctionnalités personnalisées dans InfoPath
 
 Microsoft InfoPath prend en charge des compléments COM pour l’extension de l’expérience utilisateur d’édition de formulaires. Bien que prise en charge des compléments COM a été ajouté tout d’abord, dans InfoPath, les autres applications Office, telles que Microsoft Office Word et Microsoft Office Excel ont pris en charge des compléments COM depuis Office 2000.
   
@@ -67,7 +67,7 @@ Pour créer une COM géré complément à l’aide de Microsoft Visual Studio 20
   
 1. Démarrez Visual Studio.
     
-2. Dans le menu **fichier** , cliquez sur **Nouveau projet**.
+2. Dans le menu **Fichier**, cliquez sur **Nouveau projet**.
     
 3. Dans le volet **Types de projets** de la boîte de dialogue **Nouveau projet** , cliquez sur le dossier **d’Autres Types de projets** , puis cliquez sur **l’extensibilité**.
     
@@ -129,11 +129,11 @@ Pour compiler le gérée COM Add-in de test sur l’ordinateur sur lequel le pro
     
 Pour compiler le complément COM géré pour une utilisation sur un ordinateur autre que l’ordinateur sur lequel le projet Complément partagé a été développé, vous devez suivre des étapes supplémentaires pour sécuriser votre code. Pour plus d’informations sur la sécurisation des projets complément partagé pour une utilisation sur d’autres ordinateurs, consultez les trois articles suivants :
   
-- [Déploiement de compléments COM gérés dans Office XP](http://go.microsoft.com/fwlink/?LinkID=73473)
+- [Déploiement de compléments COM gérés dans Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
-- [À l’aide de la Solution de Shim pour complément COM pour déployer des compléments COM gérés dans Office XP](http://go.microsoft.com/fwlink/?LinkID=73474)
+- [À l’aide de la Solution de Shim pour complément COM pour déployer des compléments COM gérés dans Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
-- [Isolement d’Extensions Office avec l’Assistant COM Shim](http://go.microsoft.com/fwlink/?LinkID=73475)
+- [Isolement d’Extensions Office avec l’Assistant COM Shim](https://go.microsoft.com/fwlink/?LinkID=73475)
   
 > [!IMPORTANT]
 > Ne pas isoler le COM Add-in peut entraîner des fuites de mémoire et instabilité de l’application. 
@@ -200,10 +200,10 @@ Les événements de l’objet **ApplicationEvents** peuvent être gérés par le
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Création d’un Microsoft Office 2000 complément COM](http://go.microsoft.com/fwlink/?LinkID=73468) 
-- [Création d’Office géré des compléments COM avec Visual Studio .NET](http://go.microsoft.com/fwlink/?LinkID=73470)
-- [Utilisation des procédures événementielles IDTExtensibility2](http://go.microsoft.com/fwlink/?LinkID=73471)
-- [Créer un complément COM pour Office avec Visual Basic .NET](http://go.microsoft.com/fwlink/?LinkID=73469)
-- [Créer un complément COM pour Office avec Visual c# .NET](http://go.microsoft.com/fwlink/?LinkID=73472)
-- [Création de compléments InfoPath 2007 à l’aide de Visual Studio 2005 Tools pour Office System SE](http://msdn.microsoft.com/en-us/library/bb968857%28office.12%29.aspx)
+- [Création d’un Microsoft Office 2000 complément COM](https://go.microsoft.com/fwlink/?LinkID=73468) 
+- [Création d’Office géré des compléments COM avec Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [Utilisation des procédures événementielles IDTExtensibility2](https://go.microsoft.com/fwlink/?LinkID=73471)
+- [Créer un complément COM pour Office avec Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [Créer un complément COM Office à l’aide de Visual c# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Création de compléments InfoPath 2007 à l’aide de Visual Studio 2005 Tools pour Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

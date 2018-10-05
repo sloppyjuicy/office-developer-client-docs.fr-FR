@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Découvrez comment utiliser CSISyncClient pour contrôler le Cache de documents Office (ODC).
-ms.openlocfilehash: 908442bdc4e02f8268b9af877921da45a64ab197
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565283"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25399451"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Utilisation de CSISyncClient pour contrôler le Cache de documents Office (ODC)
 
@@ -202,7 +202,7 @@ Identifie le consommateur et qui mettent en cache à utiliser. Doit être vide a
   
  _bstrProgID_
   
-Identifie un objet COM de la consommation de communication bidirectionnelle. Doit être vide avec un maximum de 39 caractères. Voir [ \<ProgID\> clé](https://docs.microsoft.com/en-us/windows/desktop/com/-progid--key) pour plus d’informations sur le ProgID. 
+Identifie un objet COM de la consommation de communication bidirectionnelle. Doit être vide avec un maximum de 39 caractères. Voir [ \<ProgID\> clé](https://docs.microsoft.com/windows/desktop/com/-progid--key) pour plus d’informations sur le ProgID. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -248,7 +248,7 @@ Une chaîne qui identifie le ResourceID du fichier. Cette valeur doit être vide
   
  _bstrWebPath_
   
-Une chaîne qui identifie le fichier sur le serveur. Cette valeur doit être URL non vide et valide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par http://support.microsoft.com/kb/208427. 
+Une chaîne qui identifie le fichier sur le serveur. Cette valeur doit être URL non vide et valide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par https://support.microsoft.com/kb/208427. 
   
 ##### <a name="return-values"></a>Valeurs de retour
 
@@ -287,7 +287,7 @@ Chaîne qui spécifie le nouveau chemin d’accès local pour le fichier. Cette 
   
  _bstrNewWebPath_
   
-Chaîne qui spécifie la nouvelle URL pour le fichier. Cette valeur doit être non vides URL valide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par http://support.microsoft.com/kb/208427. 
+Chaîne qui spécifie la nouvelle URL pour le fichier. Cette valeur doit être non vides URL valide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par https://support.microsoft.com/kb/208427. 
   
  _fBlockUploads_
   
@@ -340,7 +340,7 @@ Cette méthode permet téléchargements si elle a été marquée comme télécha
 |:-----|:-----|
 |bstrFileSystemPath  <br/> |Une chaîne qui identifie le fichier sur le client. Cette valeur doit être un chemin d’accès local non vide avec un maximum de 256 caractères. Ce chemin d’accès doit être dans l’arborescence spécifiée par le FileSystemDirectoryHint lors de l’appel à initialiser.  <br/> |
 |bstrResourceID  <br/> |Une chaîne qui identifie le ResourceID du fichier. Cette valeur doit être vide avec un maximum de 128 caractères.  <br/> |
-|bstrWebPath  <br/> |Une chaîne qui identifie le fichier sur le serveur. Cette valeur doit être une URL valide non vide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par http://support.microsoft.com/kb/208427.  <br/> |
+|bstrWebPath  <br/> |Une chaîne qui identifie le fichier sur le serveur. Cette valeur doit être une URL valide non vide, mais pas plus de INTERNET_MAX_URL_LENGTH, tel que défini par https://support.microsoft.com/kb/208427.  <br/> |
    
 ##### <a name="return-values"></a>Valeurs de retour
 

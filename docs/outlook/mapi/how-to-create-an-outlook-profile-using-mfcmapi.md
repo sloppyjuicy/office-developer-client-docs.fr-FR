@@ -1,18 +1,18 @@
 ---
-title: Créer un profil Outlook à l’aide de MFCMAPI
+title: Créer un profil Outlook en utilisant MFCMAPI
 ms.date: 05/18/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: MFCMAPI permet d’accéder aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et pour fournir aux développeurs avec prise en charge pour le développement de MAPI.
-ms.openlocfilehash: 8df9a4c2783829b7f3540046daecb12ce0b6b86a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8a300ad53918b22cc3de5554a1e3c29289cd9365
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19783471"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25397876"
 ---
-# <a name="create-an-outlook-profile-using-mfcmapi"></a>Créer un profil Outlook à l’aide de MFCMAPI
+# <a name="create-an-outlook-profile-using-mfcmapi"></a>Créer un profil Outlook en utilisant MFCMAPI
 
 MFCMAPI permet d’accéder aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et pour fournir aux développeurs avec prise en charge pour le développement de MAPI.
 
@@ -78,7 +78,7 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
 |PR_PROFILE_AUTH_PACKAGE  <br/> |RPC_C_AUTHN_NONE (0 X 0)  <br/> |Décrit le schéma d’authentification à utiliser pour le *Nœud de la découverte automatique* de RPC : réponse/compte/protocole/AuthPackage (EXCH)) <sup>3</sup> <br/> |
 |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |Élément CertPrincipalName  <br/> |Utilisé pour prendre en charge l’authentification mutuelle ; par exemple, msstd : Outlook.com *Nœud de découverte automatique* : réponse/compte/protocole/CertPrincipalName (EXPR)) <sup>2</sup> <br/> |
    
-### <a name="exchange-2013"></a>Exchange 2013
+### <a name="exchange-2013"></a>Exchange 2013
   
 ||||
 |:-----|:-----|:-----|
@@ -103,7 +103,7 @@ Pour des conseils de dépannage, voir [comment configurer un profil Outlook à l
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence MAPI Outlook](https://msdn.microsoft.com/en-us/library/office/cc765775.aspx)  
-- [Créer par programme un profil dans Outlook](https://msdn.microsoft.com/en-us/library/office/mt707568.aspx)
+- [Référence MAPI Outlook](https://msdn.microsoft.com/library/office/cc765775.aspx)  
+- [Créer par programme un profil dans Outlook](https://msdn.microsoft.com/library/office/mt707568.aspx)
     
 

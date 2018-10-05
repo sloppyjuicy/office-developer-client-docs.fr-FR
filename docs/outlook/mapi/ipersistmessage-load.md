@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd4646d2-8229-499d-91aa-3cbec72b9445
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6c7942d16cabc61eab55ab145b9c26a1799bbcc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5024c2f8b88b54051e4b8400f4b3f14374b10c23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565171"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395937"
 ---
 # <a name="ipersistmessageload"></a>IPersistMessage::Load
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Charge le formulaire de message spécifié.
   
@@ -54,7 +54,7 @@ HRESULT Load(
   
 > [in] Un masque de bits d’indicateurs, copié à partir de la propriété du message **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), qui fournissent des informations supplémentaires sur l’état du message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -64,7 +64,7 @@ S_OK
 
 Visionneuses de formulaire appeler la méthode **IPersistMessage::Load** pour charger un formulaire pour un message existant. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
  **Charge** est appelé uniquement lorsqu’un formulaire est dans un des états suivants : 
   
@@ -76,7 +76,7 @@ Visionneuses de formulaire appeler la méthode **IPersistMessage::Load** pour ch
     
 Si une visionneuse de formulaire appelle **charge** lorsque le formulaire est dans un autre état, la méthode renvoie E_UNEXPECTED. 
   
-Si votre formulaire comporte une référence à un site de message actif différent de celui qui est passé en **charge**, version du site d’origine, car il sera ne plus être utilisé. Stocker des pointeurs vers le site de message et le message à partir des paramètres _pMessageSite_ et _pMessage_ et appelez des deux objets [IUnknown::AddRef](http://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) pour incrémenter son décompte de références. 
+Si votre formulaire comporte une référence à un site de message actif différent de celui qui est passé en **charge**, version du site d’origine, car il sera ne plus être utilisé. Stocker des pointeurs vers le site de message et le message à partir des paramètres _pMessageSite_ et _pMessage_ et appelez des deux objets [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) pour incrémenter son décompte de références. 
   
 Une fois terminé, **AddRef** stocker les propriétés des paramètres _ulMessageStatus_ et _ulMessageFlags_ dans le formulaire. Effectuer la transition du formulaire à son état [Normal](normal-state.md) avant de les afficher et informer des visionneuses en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
   
@@ -102,9 +102,9 @@ Si aucune erreur ne se produire, retournent S_OK.
 [États de formulaire](form-states.md)
 
 
-[IPersistStorage::Load](http://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
+[IPersistStorage::Load](https://msdn.microsoft.com/library/34379b8d-4e00-49cd-9fd1-65f88746c61a.aspx)
   
-[IPersistStream::Load](http://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
+[IPersistStream::Load](https://msdn.microsoft.com/library/351e1187-9959-4542-8778-925457c3b8e3.aspx)
   
-[IPersistFile::Load](http://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
+[IPersistFile::Load](https://msdn.microsoft.com/library/8391aa5c-fe6e-4b03-9eef-7958f75910a5.aspx)
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84d9c5b5-e734-4c07-b4cc-1d7b13c1ed19
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1f068ce2e8d98caa7d8733a182c051a820848333
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 4fbf0d8b80fdb48e44480b2739a71aec43b88a05
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579808"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395713"
 ---
 # <a name="pidtagscheduleinfofreebusybusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyBusy
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient les blocs de temps dont le statut est occupé (e).
   
@@ -42,11 +42,11 @@ Format, calcul les contraintes de cette propriété sont les mêmes que ceux du 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publie la disponibilité d’un utilisateur ou une ressource.
     

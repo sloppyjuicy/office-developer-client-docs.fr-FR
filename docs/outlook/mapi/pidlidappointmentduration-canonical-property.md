@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cfe5ad9a088fb4c02842e8be9d11a3623be749e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8ce9df6290fe6e50e52c632f0a14f226c4d715d7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395405"
 ---
 # <a name="pidlidappointmentduration-canonical-property"></a>Propriété canonique PidLidAppointmentDuration
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Représente la durée, en minutes, quand il est prévu un rendez-vous.
   
@@ -43,11 +43,11 @@ La valeur doit être le nombre de minutes entre la valeur de la **dispidApptStar
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

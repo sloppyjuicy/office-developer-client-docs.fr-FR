@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c27e320341f2e2072fa45828263e2cb3873f6ad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: bb6e082e4ef284c2e269cd587102995f75f7e344
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584211"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400627"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Propriété canonique PidTagInternetArticleNumber
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Un numéro associé à un élément dans une banque de messages.
   
@@ -42,11 +42,11 @@ Dans les magasins de message IMAPI, cette propriété correspond à l’UID IMAP
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Définit les structures de base de données qui sont utilisés dans les opérations à distance.
     

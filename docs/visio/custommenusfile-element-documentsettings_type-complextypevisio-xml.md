@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: Contient le nom du fichier (.vsu) d’interface utilisateur Microsoft Visio qui définit les menus personnalisés et des raccourcis pour un document.
-ms.openlocfilehash: 2044c7e300dc51df8b8cd03ef861391d04494e0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788379"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394379"
 ---
 # <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>CustomMenusFile, élément (DocumentSettings_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient le nom du fichier (.vsu) d’interface utilisateur Microsoft Visio qui 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

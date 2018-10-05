@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: e518830b-0aaa-4ce4-a85a-07e4f00750a9
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 70db0b0a62568cc499cf915634756bb422ae82ca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4e25dad1e04927e10af38cdfbf8f30c9bd04234b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567194"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395174"
 ---
 # <a name="shutting-down-a-service-provider"></a>Arrêt d’un fournisseur de services
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lorsqu’un client appelle la méthode [IMAPISession::Logoff](imapisession-logoff.md) à la fin de la session et arrêter tous les fournisseurs de service active, MAPI appelle à son tour les méthodes suivantes : 
   
@@ -33,7 +33,7 @@ Ces méthodes ont des implémentations similaires. Les principales tâches qui e
   
 - Libérer tous les objets ouverts, y compris les sous-objets et objets d’état.
     
-- Appel de méthode [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de l’objet de la prise en charge pour décrémenter son décompte de références. 
+- Appel de méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de l’objet de la prise en charge pour décrémenter son décompte de références. 
     
 - Suppression de toutes les structures [MAPIUID](mapiuid.md) inscrits votre fournisseur. 
     

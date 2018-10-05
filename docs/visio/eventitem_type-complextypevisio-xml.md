@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f157db03-e7d0-d39f-cbde-2a22f45b40ed
-ms.openlocfilehash: 7fc23d9e2a9e4567693a4979b796804b16f148e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 77c51ab76a1d7c5c4450c429b1d3ccb8e3442f34
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788582"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395727"
 ---
 # <a name="eventitemtype-complextype-visio-xml"></a>Type complexe EventItem_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19788582"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |Aucune  <br/> |
    
@@ -66,7 +66,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |XSD:unsignedShort  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
+|Opération  <br/> |XSD:unsignedShort  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
 |Activé  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> ||Valeurs du type de type xsd : Boolean.  <br/> |
 |EventCode  <br/> |XSD:unsignedShort  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
 |ID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |

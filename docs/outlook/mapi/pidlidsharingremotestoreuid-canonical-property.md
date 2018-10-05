@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: dba8121ca693e60ec115e5ab039406f4ce399a85
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: bf1376e1efe23aa59aa9a70c1f0accdeac92d250
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583245"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392915"
 ---
 # <a name="pidlidsharingremotestoreuid-canonical-property"></a>Propriété canonique PidLidSharingRemoteStoreUid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la représentation sous forme de chaîne hexadécimale de la valeur de la propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) sur le dossier partagé. Il s’agit d’une propriété d’un message de partage.
   
@@ -39,11 +39,11 @@ Spécifie la représentation sous forme de chaîne hexadécimale de la valeur de
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Partage des dossiers de boîte aux lettres entre des clients.
     

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c6aab4228af0f584d96a2a8cc02c5f36e05a01e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8e8deb67990ce25b10a3b0fc1d373f635f958013
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569602"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392297"
 ---
 # <a name="pidtagexpiryunits-canonical-property"></a>Propriété canonique PidTagExpiryUnits
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décrit l’unité de temps lorsque la propriété **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) multiplie.
   
@@ -50,7 +50,7 @@ Cette propriété, si la valeur, doit être une des valeurs suivantes :
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

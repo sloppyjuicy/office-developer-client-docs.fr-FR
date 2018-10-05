@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f65da1c8-d49b-44e8-8c66-9c53d088d334
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ee6fcaf2fa168f6be91b798efa249799f738bfa0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7319f1abb4a74ee17b0a4a1220215c29434d256b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571079"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398401"
 ---
 # <a name="imapipropcopyprops"></a>IMAPIProp::CopyProps
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace des propriétés sélectionnées. 
   
@@ -85,7 +85,7 @@ MAPI_NOREPLACE
   
 > [entrée, sortie] À l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; Sinon, **valeur null**, indiquant qu’il n’a pas besoin d’informations sur l’erreur. Si _lppProblems_ est un pointeur valid en entrée, **CopyProps** renvoie des informations détaillées sur les erreurs lors de la copie d’une ou plusieurs propriétés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -135,7 +135,7 @@ La méthode **IMAPIProp::CopyProps** copie ou déplace les propriétés sélecti
   
 Les sous-objets de l’objet source sont automatiquement inclus dans l’opération et copiés ou déplacés dans son intégralité, indépendamment de l’utilisation des propriétés indiqués par la structure [SPropTagArray](sproptagarray.md) . Par défaut, **CopyProps** remplace toutes les propriétés de l’objet cible qui correspondent aux propriétés de l’objet source. Si les propriétés copiées ou déplacées existent déjà dans l’objet de destination, les propriétés existantes sont remplacées par les nouvelles propriétés, sauf si l’indicateur MAPI_NOREPLACE est défini dans le paramètre _ulFlags_ . Les informations existantes dans l’objet de destination n’est pas remplacé sont conservées. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez fournir une implémentation complète de **CopyProps** ou reposer sur l’implémentation MAPI fournit de l’objet de prise en charge. Si vous souhaitez utiliser l’implémentation MAPI, appelez la méthode **IMAPISupport::DoCopyProps** . Toutefois, si vous procédez comme déléguer le traitement de **DoCopyProps** et vous sont transmis à l’indicateur MAPI_DECLINE_OK, évitez l’appel de la prise en charge et renvoyer MAPI_E_DECLINE_COPY au lieu de cela. Vous sera appelée avec cet indicateur par MAPI pour éviter la récurrence possible qui peut se produire lorsque vous copiez les dossiers. 
   
@@ -157,7 +157,7 @@ Si **CopyProps** renvoie S_OK, libérer la structure **SPropProblemArray** retou
   
 Si vous copiez les propriétés qui sont uniques pour le type d’objet source, assurez-vous que l’objet de destination est du même type. **CopyProps** ne vous empêche pas d’associant des propriétés qui appartiennent généralement à un type d’objet avec un autre type d’objet. C’est à vous pour copier des propriétés qui sont pertinents pour l’objet de destination. Par exemple, vous devez copier pas les propriétés de message à un conteneur de carnet d’adresses. 
   
-Pour vous assurer que vous copiez entre les objets du même type, vérifiez que l’objet source et de destination sont le même type, par comparaison des pointeurs d’objet ou d’appeler la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Définir l’identificateur d’interface désigné par _lpInterface_ à l’interface standard pour l’objet source. Vérifiez également que le type d’objet ou la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est la même pour les deux objets. Par exemple, si vous copiez à partir d’un message, définissez _lpInterface_ IID_IMessage et le **PR_OBJECT_TYPE** pour les deux objets MAPI_MESSAGE. 
+Pour vous assurer que vous copiez entre les objets du même type, vérifiez que l’objet source et de destination sont le même type, par comparaison des pointeurs d’objet ou d’appeler la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) . Définir l’identificateur d’interface désigné par _lpInterface_ à l’interface standard pour l’objet source. Vérifiez également que le type d’objet ou la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est la même pour les deux objets. Par exemple, si vous copiez à partir d’un message, définissez _lpInterface_ IID_IMessage et le **PR_OBJECT_TYPE** pour les deux objets MAPI_MESSAGE. 
   
 Si un pointeur non valide est passé dans le paramètre _lpDestObj_ , le résultat est imprévisible. 
   
@@ -165,9 +165,9 @@ Pour copier la liste des destinataires d’un message, appelez la méthode **Cop
   
 Pour copier un dossier une hiérarchie de conteneur de carnet adresses ou table des matières, incluez la **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou des propriétés de **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau de balise de propriété. Pour inclure la table du contenu associé d’un dossier, inclure la propriété **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) dans le tableau. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -180,7 +180,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProp::CopyTo](imapiprop-copyto.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Exemple de code XML amis
+title: Exemple de code XML sur les amis
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: L’exemple de code XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson::GetFriendsAndColleagues. L’exemple montre les amis XML pour deux amis, délimités chacun par l’élément de la personne. Chaque ami spécifie une valeur unique pour l’élément userID sur le réseaux sociaux.
-ms.openlocfilehash: 6944213e9483042862fa4cefd8420e39ade9139f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787572"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395209"
 ---
-# <a name="friends-xml-example"></a>Exemple de code XML amis
+# <a name="friends-xml-example"></a>Exemple de code XML sur les amis
 
 L’exemple de code XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) . L’exemple montre les **amis** XML pour deux amis, délimités chacun par l’élément de la **personne** . Chaque ami spécifie une valeur unique pour l’élément **userID** sur le réseaux sociaux. 
   
@@ -27,7 +27,7 @@ L’exemple suivant montre les **amis** XML pour deux personnes sur le réseau s
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>
@@ -41,7 +41,7 @@ L’exemple suivant montre les **amis** XML pour deux personnes sur le réseau s
     <emailAddress>melissa@contoso.com</emailAddress>
     <emailAddress2>melissa@fabrikam.com</emailAddress2>
     <emailAddress3>melissa@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/melissa</webProfilePage>
+    <webProfilePage>https://contoso.com/melissa</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>
@@ -64,7 +64,7 @@ L’exemple suivant montre les **amis** XML pour deux personnes sur le réseau s
     <emailAddress>michael@contoso.com</emailAddress>
     <emailAddress2>michael@fabrikam.com</emailAddress2>
     <emailAddress3>michael@adventureworks.com</emailAddress3>
-    <webProfilePage>http://contoso.com/michael</webProfilePage>
+    <webProfilePage>https://contoso.com/michael</webProfilePage>
     <phone>800-555-1212</phone>
     <cell>888-555-1212</cell>
     <workPhone>425-555-1212</workPhone>

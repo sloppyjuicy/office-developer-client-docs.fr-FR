@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9d1adb6dd1fc151c9a599ea44391c2ca5b2fe2aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a0e15462cd3dc14c93155e34e47b7caac2c04087
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580564"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395426"
 ---
 # <a name="pidtagrulestate-canonical-property"></a>Propriété canonique PidTagRuleState
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Une valeur est interprétée comme une combinaison de masque de bits d’indicateurs qui spécifient l’état de la règle.
   
@@ -86,11 +86,11 @@ OR :
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     

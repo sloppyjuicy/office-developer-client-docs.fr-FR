@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
 description: Spécifie une relation vers un composant à la page correspondante XML.
-ms.openlocfilehash: 9fc42527d311faa66b0b4041a0f978818ee84595
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7a45764817175f670cdb009157e21a1a25f31cc5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789417"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25398905"
 ---
 # <a name="rel-element-pagetype-complextype-visio-xml"></a>Élément REL (Page_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une relation vers un composant à la page correspondante XML.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |pages.XML, masters.xml, recordsets.xml, page # .xml, maître # .xml  <br/> |
    
@@ -58,6 +58,6 @@ Aucun.
 
 La valeur de l’attribut **r : id** doit être un type **ST_RelationshipID** . Le type **ST_RelationshipID** est une chaîne qui doit être au format « débarrasser # », où le dernier caractère doit être un nombre. Le numéro doit être unique parmi tous les éléments frères de l’élément **Rel** . 
   
-Pour plus d’informations sur le type ST_RelationshipID, consultez la [spécification ISO/IEC 29500 partie 1](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Pour plus d’informations sur le type ST_RelationshipID, consultez la [spécification ISO/IEC 29500 partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

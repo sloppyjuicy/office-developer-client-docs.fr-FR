@@ -8,16 +8,16 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: Toutes les données XML qui sont retournées par les fournisseurs OSC dans les méthodes d’extensibilité de fournisseur OSC doit respecter le schéma XML de fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité.
-ms.openlocfilehash: 0cf46d2a995fe9362777e853b0f13a9aceacfb99
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1ec7888f5b6d9a7264f597e0c1ef3855d27b011
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787709"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394103"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Schéma XML du fournisseur Outlook Social Connector
 
-Toutes les données XML qui sont retournées par les fournisseurs OSC dans les méthodes d’extensibilité de fournisseur OSC doit respecter le schéma XML de fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1.xsd, est également fourni dans le téléchargement pour les modèles du fournisseur qui accompagnent cet article. Pour plus d’informations, voir [Outlook Social Connector 2013 : modèles du fournisseur](http://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
+Toutes les données XML qui sont retournées par les fournisseurs OSC dans les méthodes d’extensibilité de fournisseur OSC doit respecter le schéma XML de fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1.xsd, est également fourni dans le téléchargement pour les modèles du fournisseur qui accompagnent cet article. Pour plus d’informations, voir [Outlook Social Connector 2013 : modèles du fournisseur](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c). 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,9 +27,9 @@ Toutes les données XML qui sont retournées par les fournisseurs OSC dans les m
     All Rights Reserved
 -->
 <xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns:xs="https://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />
