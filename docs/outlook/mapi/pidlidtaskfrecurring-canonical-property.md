@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47c9ccbb-161c-4829-8ffb-201f3b54cd45
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 94ec76d3247421f163775245c43ee68e6f9b560b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: aec9dd328e802e185c870d3ecd94cbd1d10ac67d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569084"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394453"
 ---
-# <a name="pidlidtaskfrecurring-canonical-property"></a><span data-ttu-id="9c94b-103">Propriété canonique PidLidTaskFRecurring</span><span class="sxs-lookup"><span data-stu-id="9c94b-103">PidLidTaskFRecurring Canonical Property</span></span>
+# <a name="pidlidtaskfrecurring-canonical-property"></a><span data-ttu-id="fbc9b-103">Propriété canonique PidLidTaskFRecurring</span><span class="sxs-lookup"><span data-stu-id="fbc9b-103">PidLidTaskFRecurring Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9c94b-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9c94b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fbc9b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fbc9b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9c94b-105">Indique si la tâche inclut une périodicité.</span><span class="sxs-lookup"><span data-stu-id="9c94b-105">Indicates whether the task includes a recurrence pattern.</span></span>
+<span data-ttu-id="fbc9b-105">Indique si la tâche inclut une périodicité.</span><span class="sxs-lookup"><span data-stu-id="fbc9b-105">Indicates whether the task includes a recurrence pattern.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9c94b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="9c94b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9c94b-107">dispidTaskFRecur</span><span class="sxs-lookup"><span data-stu-id="9c94b-107">dispidTaskFRecur</span></span>  <br/> |
-|<span data-ttu-id="9c94b-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="9c94b-108">Property set:</span></span>  <br/> |<span data-ttu-id="9c94b-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="9c94b-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="9c94b-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="9c94b-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="9c94b-111">0x00008126</span><span class="sxs-lookup"><span data-stu-id="9c94b-111">0x00008126</span></span>  <br/> |
-|<span data-ttu-id="9c94b-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="9c94b-112">Data type:</span></span>  <br/> |<span data-ttu-id="9c94b-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="9c94b-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="9c94b-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="9c94b-114">Area:</span></span>  <br/> |<span data-ttu-id="9c94b-115">Task</span><span class="sxs-lookup"><span data-stu-id="9c94b-115">Task</span></span>  <br/> |
+|<span data-ttu-id="fbc9b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="fbc9b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fbc9b-107">dispidTaskFRecur</span><span class="sxs-lookup"><span data-stu-id="fbc9b-107">dispidTaskFRecur</span></span>  <br/> |
+|<span data-ttu-id="fbc9b-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="fbc9b-108">Property set:</span></span>  <br/> |<span data-ttu-id="fbc9b-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="fbc9b-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="fbc9b-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="fbc9b-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="fbc9b-111">0x00008126</span><span class="sxs-lookup"><span data-stu-id="fbc9b-111">0x00008126</span></span>  <br/> |
+|<span data-ttu-id="fbc9b-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="fbc9b-112">Data type:</span></span>  <br/> |<span data-ttu-id="fbc9b-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="fbc9b-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="fbc9b-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="fbc9b-114">Area:</span></span>  <br/> |<span data-ttu-id="fbc9b-115">Task</span><span class="sxs-lookup"><span data-stu-id="fbc9b-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9c94b-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="9c94b-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fbc9b-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="fbc9b-116">Remarks</span></span>
 
-<span data-ttu-id="9c94b-117">Si cette propriété n’est pas définie, la valeur FALSE par défaut est supposée.</span><span class="sxs-lookup"><span data-stu-id="9c94b-117">If this property is left unset, a default value of FALSE is assumed.</span></span> <span data-ttu-id="9c94b-118">Si elle est définie sur TRUE, la **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) et propriétés **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) doivent également être définies comme spécifié dans [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="9c94b-118">If it is set to TRUE, the **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) and **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) properties must also be set as specified in [[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="fbc9b-117">Si cette propriété n’est pas définie, la valeur FALSE par défaut est supposée.</span><span class="sxs-lookup"><span data-stu-id="fbc9b-117">If this property is left unset, a default value of FALSE is assumed.</span></span> <span data-ttu-id="fbc9b-118">Si elle est définie sur TRUE, la **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) et propriétés **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) doivent également être définies comme spécifié dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="fbc9b-118">If it is set to TRUE, the **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) and **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) properties must also be set as specified in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="9c94b-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="9c94b-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fbc9b-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="fbc9b-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="9c94b-120">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="9c94b-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="fbc9b-120">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="fbc9b-120">Protocol specifications</span></span>
 
-<span data-ttu-id="9c94b-121">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9c94b-121">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="fbc9b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fbc9b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9c94b-122">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="9c94b-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="fbc9b-122">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="fbc9b-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="9c94b-123">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9c94b-123">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="fbc9b-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="fbc9b-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9c94b-124">Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.</span><span class="sxs-lookup"><span data-stu-id="9c94b-124">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="fbc9b-124">Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.</span><span class="sxs-lookup"><span data-stu-id="fbc9b-124">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="9c94b-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="9c94b-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fbc9b-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="fbc9b-125">Header files</span></span>
 
-<span data-ttu-id="9c94b-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9c94b-126">Mapidefs.h</span></span>
+<span data-ttu-id="fbc9b-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="fbc9b-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9c94b-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="9c94b-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="fbc9b-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="fbc9b-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9c94b-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9c94b-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fbc9b-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fbc9b-128">See also</span></span>
 
 
 
-[<span data-ttu-id="9c94b-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="9c94b-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fbc9b-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="fbc9b-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9c94b-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="9c94b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fbc9b-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="fbc9b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9c94b-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="9c94b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fbc9b-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="fbc9b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9c94b-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="9c94b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fbc9b-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="fbc9b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

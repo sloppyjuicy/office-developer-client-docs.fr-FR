@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f1c27f87cb113ebe30a42211035f6f50475a1be3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7200e7d226eb148fef094ab8540990644d2d4c99
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588180"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25392829"
 ---
-# <a name="imapisupportistoragefromstream"></a><span data-ttu-id="1a6f4-103">IMAPISupport::IStorageFromStream</span><span class="sxs-lookup"><span data-stu-id="1a6f4-103">IMAPISupport::IStorageFromStream</span></span>
+# <a name="imapisupportistoragefromstream"></a><span data-ttu-id="27f98-103">IMAPISupport::IStorageFromStream</span><span class="sxs-lookup"><span data-stu-id="27f98-103">IMAPISupport::IStorageFromStream</span></span>
 
   
   
-<span data-ttu-id="1a6f4-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a6f4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="27f98-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="27f98-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1a6f4-105">Implémente un objet de stockage pour accéder à un objet stream.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-105">Implements a storage object to access a stream.</span></span>
+<span data-ttu-id="27f98-105">Implémente un objet de stockage pour accéder à un objet stream.</span><span class="sxs-lookup"><span data-stu-id="27f98-105">Implements a storage object to access a stream.</span></span>
   
 ```cpp
 HRESULT IStorageFromStream(
@@ -36,75 +36,75 @@ HRESULT IStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1a6f4-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1a6f4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="27f98-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="27f98-106">Parameters</span></span>
 
- <span data-ttu-id="1a6f4-107">_lpUnkIn_</span><span class="sxs-lookup"><span data-stu-id="1a6f4-107">_lpUnkIn_</span></span>
+ <span data-ttu-id="27f98-107">_lpUnkIn_</span><span class="sxs-lookup"><span data-stu-id="27f98-107">_lpUnkIn_</span></span>
   
-> <span data-ttu-id="1a6f4-108">[in] Pointeur vers un objet stream.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-108">[in] A pointer to a stream object.</span></span>
+> <span data-ttu-id="27f98-108">[in] Pointeur vers un objet stream.</span><span class="sxs-lookup"><span data-stu-id="27f98-108">[in] A pointer to a stream object.</span></span>
     
- <span data-ttu-id="1a6f4-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="1a6f4-109">_lpInterface_</span></span>
+ <span data-ttu-id="27f98-109">_lpInterface_</span><span class="sxs-lookup"><span data-stu-id="27f98-109">_lpInterface_</span></span>
   
-> <span data-ttu-id="1a6f4-110">[in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au flux désigné par _lpUnkIn_.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the stream pointed to by  _lpUnkIn_.</span></span> <span data-ttu-id="1a6f4-111">Une des valeurs suivantes sont valide : IID_IStream, IID_ILockBytes, ou **valeur null**, ce qui indique que l’interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) doit être utilisé pour accéder au flux.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-111">Any of the following values are valid: IID_IStream, IID_ILockBytes, or **null**, which indicates that the [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) interface should be used to access the stream.</span></span> 
+> <span data-ttu-id="27f98-110">[in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au flux désigné par _lpUnkIn_.</span><span class="sxs-lookup"><span data-stu-id="27f98-110">[in] A pointer to the interface identifier (IID) that represents the interface to be used to access the stream pointed to by  _lpUnkIn_.</span></span> <span data-ttu-id="27f98-111">Une des valeurs suivantes sont valide : IID_IStream, IID_ILockBytes, ou **valeur null**, ce qui indique que l’interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) doit être utilisé pour accéder au flux.</span><span class="sxs-lookup"><span data-stu-id="27f98-111">Any of the following values are valid: IID_IStream, IID_ILockBytes, or **null**, which indicates that the [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) interface should be used to access the stream.</span></span> 
     
- <span data-ttu-id="1a6f4-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="1a6f4-112">_ulFlags_</span></span>
+ <span data-ttu-id="27f98-112">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="27f98-112">_ulFlags_</span></span>
   
-> <span data-ttu-id="1a6f4-113">[in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet de stockage doit être créé par rapport à l’objet stream.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-113">[in] A bitmask of flags that controls how the storage object is to be created relative to the stream object.</span></span> <span data-ttu-id="1a6f4-114">Par défaut, le stockage est créé avec un accès en lecture seule et le flux démarre à la position zéro dans le stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-114">By default, the storage is created with read-only access and the stream starts at position zero in the storage.</span></span> <span data-ttu-id="1a6f4-115">Les indicateurs suivants peuvent être définis :</span><span class="sxs-lookup"><span data-stu-id="1a6f4-115">The following flags can be set:</span></span>
+> <span data-ttu-id="27f98-113">[in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet de stockage doit être créé par rapport à l’objet stream.</span><span class="sxs-lookup"><span data-stu-id="27f98-113">[in] A bitmask of flags that controls how the storage object is to be created relative to the stream object.</span></span> <span data-ttu-id="27f98-114">Par défaut, le stockage est créé avec un accès en lecture seule et le flux démarre à la position zéro dans le stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-114">By default, the storage is created with read-only access and the stream starts at position zero in the storage.</span></span> <span data-ttu-id="27f98-115">Les indicateurs suivants peuvent être définis :</span><span class="sxs-lookup"><span data-stu-id="27f98-115">The following flags can be set:</span></span>
     
-<span data-ttu-id="1a6f4-116">STGSTRM_CREATE</span><span class="sxs-lookup"><span data-stu-id="1a6f4-116">STGSTRM_CREATE</span></span> 
+<span data-ttu-id="27f98-116">STGSTRM_CREATE</span><span class="sxs-lookup"><span data-stu-id="27f98-116">STGSTRM_CREATE</span></span> 
   
-> <span data-ttu-id="1a6f4-117">Un nouvel objet de stockage doit être créé pour l’objet stream.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-117">A new storage object should be created for the stream object.</span></span>
+> <span data-ttu-id="27f98-117">Un nouvel objet de stockage doit être créé pour l’objet stream.</span><span class="sxs-lookup"><span data-stu-id="27f98-117">A new storage object should be created for the stream object.</span></span>
     
-<span data-ttu-id="1a6f4-118">STGSTRM_CURRENT</span><span class="sxs-lookup"><span data-stu-id="1a6f4-118">STGSTRM_CURRENT</span></span> 
+<span data-ttu-id="27f98-118">STGSTRM_CURRENT</span><span class="sxs-lookup"><span data-stu-id="27f98-118">STGSTRM_CURRENT</span></span> 
   
-> <span data-ttu-id="1a6f4-119">L’objet de stockage doit commencer à la position actuelle du flux.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-119">The storage object should start at the current position of the stream.</span></span>
+> <span data-ttu-id="27f98-119">L’objet de stockage doit commencer à la position actuelle du flux.</span><span class="sxs-lookup"><span data-stu-id="27f98-119">The storage object should start at the current position of the stream.</span></span>
     
-<span data-ttu-id="1a6f4-120">STGSTRM_MODIFY</span><span class="sxs-lookup"><span data-stu-id="1a6f4-120">STGSTRM_MODIFY</span></span> 
+<span data-ttu-id="27f98-120">STGSTRM_MODIFY</span><span class="sxs-lookup"><span data-stu-id="27f98-120">STGSTRM_MODIFY</span></span> 
   
-> <span data-ttu-id="1a6f4-121">L’appelant doit avoir l’autorisation de lecture/écriture à l’objet de stockage renvoyé.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-121">The caller should have read/write permission to the returned storage object.</span></span>
+> <span data-ttu-id="27f98-121">L’appelant doit avoir l’autorisation de lecture/écriture à l’objet de stockage renvoyé.</span><span class="sxs-lookup"><span data-stu-id="27f98-121">The caller should have read/write permission to the returned storage object.</span></span>
     
-<span data-ttu-id="1a6f4-122">STGSTRM_RESET</span><span class="sxs-lookup"><span data-stu-id="1a6f4-122">STGSTRM_RESET</span></span> 
+<span data-ttu-id="27f98-122">STGSTRM_RESET</span><span class="sxs-lookup"><span data-stu-id="27f98-122">STGSTRM_RESET</span></span> 
   
-> <span data-ttu-id="1a6f4-123">L’objet de stockage doit commencer à la position zéro.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-123">The storage object should start at position zero.</span></span>
+> <span data-ttu-id="27f98-123">L’objet de stockage doit commencer à la position zéro.</span><span class="sxs-lookup"><span data-stu-id="27f98-123">The storage object should start at position zero.</span></span>
     
- <span data-ttu-id="1a6f4-124">_lppStorageOut_</span><span class="sxs-lookup"><span data-stu-id="1a6f4-124">_lppStorageOut_</span></span>
+ <span data-ttu-id="27f98-124">_lppStorageOut_</span><span class="sxs-lookup"><span data-stu-id="27f98-124">_lppStorageOut_</span></span>
   
-> <span data-ttu-id="1a6f4-125">[out] Pointeur vers un pointeur vers l’objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-125">[out] A pointer to a pointer to the storage object.</span></span>
+> <span data-ttu-id="27f98-125">[out] Pointeur vers un pointeur vers l’objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-125">[out] A pointer to a pointer to the storage object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="1a6f4-126">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="1a6f4-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="27f98-126">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="27f98-126">Return value</span></span>
 
-<span data-ttu-id="1a6f4-127">S_OK</span><span class="sxs-lookup"><span data-stu-id="1a6f4-127">S_OK</span></span> 
+<span data-ttu-id="27f98-127">S_OK</span><span class="sxs-lookup"><span data-stu-id="27f98-127">S_OK</span></span> 
   
-> <span data-ttu-id="1a6f4-128">L’objet de stockage a été créé avec succès.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-128">The storage object was successfully created.</span></span>
+> <span data-ttu-id="27f98-128">L’objet de stockage a été créé avec succès.</span><span class="sxs-lookup"><span data-stu-id="27f98-128">The storage object was successfully created.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="1a6f4-129">Remarques</span><span class="sxs-lookup"><span data-stu-id="1a6f4-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27f98-129">Remarques</span><span class="sxs-lookup"><span data-stu-id="27f98-129">Remarks</span></span>
 
-<span data-ttu-id="1a6f4-130">La méthode **IMAPISupport::IStorageFromStream** est implémentée pour tous les objets de prise en charge de fournisseur de service.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-130">The **IMAPISupport::IStorageFromStream** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="1a6f4-131">Fournisseurs de services d’appel **IStorageFromStream** pour créer un objet de stockage à utiliser pour ouvrir les propriétés.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-131">Service providers call **IStorageFromStream** to create a storage object to use for opening particular properties.</span></span> <span data-ttu-id="1a6f4-132">Fournisseurs de services qui ont leur propre implémentation de l’interface [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) est inutile d’appeler **IStorageFromStream**.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-132">Service providers that have their own implementation of the [IStorage](http://msdn.microsoft.com/en-us/library/aa380015%28VS.85%29.aspx) interface do not need to call **IStorageFromStream**.</span></span> 
+<span data-ttu-id="27f98-130">La méthode **IMAPISupport::IStorageFromStream** est implémentée pour tous les objets de prise en charge de fournisseur de service.</span><span class="sxs-lookup"><span data-stu-id="27f98-130">The **IMAPISupport::IStorageFromStream** method is implemented for all service provider support objects.</span></span> <span data-ttu-id="27f98-131">Fournisseurs de services d’appel **IStorageFromStream** pour créer un objet de stockage à utiliser pour ouvrir les propriétés.</span><span class="sxs-lookup"><span data-stu-id="27f98-131">Service providers call **IStorageFromStream** to create a storage object to use for opening particular properties.</span></span> <span data-ttu-id="27f98-132">Fournisseurs de services qui ont leur propre implémentation de l’interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) est inutile d’appeler **IStorageFromStream**.</span><span class="sxs-lookup"><span data-stu-id="27f98-132">Service providers that have their own implementation of the [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) interface do not need to call **IStorageFromStream**.</span></span> 
   
-<span data-ttu-id="1a6f4-133">L’objet de stockage créé par **IStorageFromStream** appelle la méthode du flux [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) pour incrémenter son décompte de références, puis le décrémente le décompte lorsque l’utilisateur relâche le stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-133">The storage object created by **IStorageFromStream** calls the stream's [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) method to increment its reference count and then decrements the count when the storage is released.</span></span> 
+<span data-ttu-id="27f98-133">L’objet de stockage créé par **IStorageFromStream** appelle la méthode du flux [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour incrémenter son décompte de références, puis le décrémente le décompte lorsque l’utilisateur relâche le stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-133">The storage object created by **IStorageFromStream** calls the stream's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method to increment its reference count and then decrements the count when the storage is released.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="1a6f4-134">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="1a6f4-134">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="27f98-134">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="27f98-134">Notes to callers</span></span>
 
-<span data-ttu-id="1a6f4-135">Lorsque la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de l’un de vos objets est appelée à le pour ouverture d’une propriété avec l’interface **IStorage** , effectuez les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="1a6f4-135">When the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method of one of your objects is called to open a property with the **IStorage** interface, perform the following tasks:</span></span> 
+<span data-ttu-id="27f98-135">Lorsque la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de l’un de vos objets est appelée à le pour ouverture d’une propriété avec l’interface **IStorage** , effectuez les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="27f98-135">When the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method of one of your objects is called to open a property with the **IStorage** interface, perform the following tasks:</span></span> 
   
-1. <span data-ttu-id="1a6f4-136">Ouvrir un objet stream avec l’autorisation de lecture/écriture de la propriété.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-136">Open a stream object with read/write permission for the property.</span></span>
+1. <span data-ttu-id="27f98-136">Ouvrir un objet stream avec l’autorisation de lecture/écriture de la propriété.</span><span class="sxs-lookup"><span data-stu-id="27f98-136">Open a stream object with read/write permission for the property.</span></span>
     
-2. <span data-ttu-id="1a6f4-137">En interne, sélectionnez le flux de propriétés en tant qu’un objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-137">Internally mark the property stream as a storage object.</span></span>
+2. <span data-ttu-id="27f98-137">En interne, sélectionnez le flux de propriétés en tant qu’un objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-137">Internally mark the property stream as a storage object.</span></span>
     
-3. <span data-ttu-id="1a6f4-138">Appelez **IStorageFromStream** pour générer un objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-138">Call **IStorageFromStream** to generate a storage object.</span></span> 
+3. <span data-ttu-id="27f98-138">Appelez **IStorageFromStream** pour générer un objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-138">Call **IStorageFromStream** to generate a storage object.</span></span> 
     
-4. <span data-ttu-id="1a6f4-139">Retourne un pointeur vers cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-139">Return a pointer to this storage object.</span></span>
+4. <span data-ttu-id="27f98-139">Retourne un pointeur vers cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="27f98-139">Return a pointer to this storage object.</span></span>
     
-<span data-ttu-id="1a6f4-140">Si vous implémentez des interfaces supplémentaires qui utilisent l’objet de stockage, créez un objet qui encapsule l’objet de stockage et implémenter un méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) de niveau supérieur.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-140">If you implement additional interfaces that use the storage object, create an object that wraps the storage object and implement a higher level [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) method.</span></span> 
+<span data-ttu-id="27f98-140">Si vous implémentez des interfaces supplémentaires qui utilisent l’objet de stockage, créez un objet qui encapsule l’objet de stockage et implémenter un méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de niveau supérieur.</span><span class="sxs-lookup"><span data-stu-id="27f98-140">If you implement additional interfaces that use the storage object, create an object that wraps the storage object and implement a higher level [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) method.</span></span> 
   
-<span data-ttu-id="1a6f4-141">Ne pas autoriser une propriété à ouvrir avec l’interface **IStream** si elle a été créée avec **IStorage**.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-141">Do not allow a property to be opened with the **IStream** interface if it was created with **IStorage**.</span></span> <span data-ttu-id="1a6f4-142">Inversement, ne pas autoriser une propriété à ouvrir avec l’interface **IStorage** si elle a été créée avec **IStream**.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-142">Conversely, do not allow a property to be opened with the **IStorage** interface if it was created with **IStream**.</span></span> 
+<span data-ttu-id="27f98-141">Ne pas autoriser une propriété à ouvrir avec l’interface **IStream** si elle a été créée avec **IStorage**.</span><span class="sxs-lookup"><span data-stu-id="27f98-141">Do not allow a property to be opened with the **IStream** interface if it was created with **IStorage**.</span></span> <span data-ttu-id="27f98-142">Inversement, ne pas autoriser une propriété à ouvrir avec l’interface **IStorage** si elle a été créée avec **IStream**.</span><span class="sxs-lookup"><span data-stu-id="27f98-142">Conversely, do not allow a property to be opened with the **IStorage** interface if it was created with **IStream**.</span></span> 
   
-<span data-ttu-id="1a6f4-143">Avec une exception, il est possible d’utiliser l’interface **IStreamDocfile** pour l’acheminement d’un objet de stockage d’un conteneur à un autre, mais l’identificateur d’interface IID_IStreamDocfile doit être transmis dans _de la méthode **OpenProperty** lpInterface _paramètre.</span><span class="sxs-lookup"><span data-stu-id="1a6f4-143">With one exception, it is acceptable to use the **IStreamDocfile** interface to stream a storage object from one container to another, but the IID_IStreamDocfile interface identifier must be passed in the **OpenProperty** method's  _lpInterface_ parameter.</span></span> 
+<span data-ttu-id="27f98-143">Avec une exception, il est possible d’utiliser l’interface **IStreamDocfile** pour l’acheminement d’un objet de stockage d’un conteneur à un autre, mais l’identificateur d’interface IID_IStreamDocfile doit être transmis dans _de la méthode **OpenProperty** lpInterface _paramètre.</span><span class="sxs-lookup"><span data-stu-id="27f98-143">With one exception, it is acceptable to use the **IStreamDocfile** interface to stream a storage object from one container to another, but the IID_IStreamDocfile interface identifier must be passed in the **OpenProperty** method's  _lpInterface_ parameter.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="1a6f4-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1a6f4-144">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27f98-144">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="27f98-144">See also</span></span>
 
 
 
-[<span data-ttu-id="1a6f4-145">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="1a6f4-145">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
+[<span data-ttu-id="27f98-145">IMAPIProp::OpenProperty</span><span class="sxs-lookup"><span data-stu-id="27f98-145">IMAPIProp::OpenProperty</span></span>](imapiprop-openproperty.md)
   
-[<span data-ttu-id="1a6f4-146">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1a6f4-146">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="27f98-146">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="27f98-146">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

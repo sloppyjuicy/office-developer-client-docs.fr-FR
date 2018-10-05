@@ -11,73 +11,73 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6017871b9567406af0898eede0d5659b468b3343
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d12e8510686f51698981c47327f79ef40d3ec342
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581033"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396224"
 ---
-# <a name="pidtagmappingsignature-canonical-property"></a><span data-ttu-id="de25b-103">Propriété canonique PidTagMappingSignature</span><span class="sxs-lookup"><span data-stu-id="de25b-103">PidTagMappingSignature Canonical Property</span></span>
+# <a name="pidtagmappingsignature-canonical-property"></a><span data-ttu-id="1633d-103">Propriété canonique PidTagMappingSignature</span><span class="sxs-lookup"><span data-stu-id="1633d-103">PidTagMappingSignature Canonical Property</span></span>
 
   
   
-<span data-ttu-id="de25b-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="de25b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1633d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1633d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="de25b-105">Contient la signature de mappage de propriétés nommées d’un objet MAPI particulier.</span><span class="sxs-lookup"><span data-stu-id="de25b-105">Contains the mapping signature for named properties of a particular MAPI object.</span></span> 
+<span data-ttu-id="1633d-105">Contient la signature de mappage de propriétés nommées d’un objet MAPI particulier.</span><span class="sxs-lookup"><span data-stu-id="1633d-105">Contains the mapping signature for named properties of a particular MAPI object.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="de25b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="de25b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="de25b-107">PR_MAPPING_SIGNATURE</span><span class="sxs-lookup"><span data-stu-id="de25b-107">PR_MAPPING_SIGNATURE</span></span>  <br/> |
-|<span data-ttu-id="de25b-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="de25b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="de25b-109">0x0FF8</span><span class="sxs-lookup"><span data-stu-id="de25b-109">0x0FF8</span></span>  <br/> |
-|<span data-ttu-id="de25b-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="de25b-110">Data type:</span></span>  <br/> |<span data-ttu-id="de25b-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="de25b-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="de25b-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="de25b-112">Area:</span></span>  <br/> |<span data-ttu-id="de25b-113">Divers</span><span class="sxs-lookup"><span data-stu-id="de25b-113">Miscellaneous</span></span>  <br/> |
+|<span data-ttu-id="1633d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1633d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1633d-107">PR_MAPPING_SIGNATURE</span><span class="sxs-lookup"><span data-stu-id="1633d-107">PR_MAPPING_SIGNATURE</span></span>  <br/> |
+|<span data-ttu-id="1633d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1633d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1633d-109">0x0FF8</span><span class="sxs-lookup"><span data-stu-id="1633d-109">0x0FF8</span></span>  <br/> |
+|<span data-ttu-id="1633d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1633d-110">Data type:</span></span>  <br/> |<span data-ttu-id="1633d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1633d-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1633d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1633d-112">Area:</span></span>  <br/> |<span data-ttu-id="1633d-113">Divers</span><span class="sxs-lookup"><span data-stu-id="1633d-113">Miscellaneous</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="de25b-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="de25b-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1633d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="1633d-114">Remarks</span></span>
 
-<span data-ttu-id="de25b-115">Il est recommandé que les objets ayant des propriétés nommées exposent cette propriété.</span><span class="sxs-lookup"><span data-stu-id="de25b-115">It is recommended that objects having named properties expose this property.</span></span> <span data-ttu-id="de25b-116">Une application cliente doit vérifier la propriété **PR_MAPPING_SIGNATURE** des deux objets lors de la copie des propriétés d’un objet à un autre nommées.</span><span class="sxs-lookup"><span data-stu-id="de25b-116">A client application should check the **PR_MAPPING_SIGNATURE** property of both objects when copying named properties from one object to another.</span></span> <span data-ttu-id="de25b-117">Utilisation de cette propriété peut réduire la traduction entre les noms et les identificateurs des propriétés copiées.</span><span class="sxs-lookup"><span data-stu-id="de25b-117">Use of this property can minimize translating between copied properties' names and identifiers.</span></span> 
+<span data-ttu-id="1633d-115">Il est recommandé que les objets ayant des propriétés nommées exposent cette propriété.</span><span class="sxs-lookup"><span data-stu-id="1633d-115">It is recommended that objects having named properties expose this property.</span></span> <span data-ttu-id="1633d-116">Une application cliente doit vérifier la propriété **PR_MAPPING_SIGNATURE** des deux objets lors de la copie des propriétés d’un objet à un autre nommées.</span><span class="sxs-lookup"><span data-stu-id="1633d-116">A client application should check the **PR_MAPPING_SIGNATURE** property of both objects when copying named properties from one object to another.</span></span> <span data-ttu-id="1633d-117">Utilisation de cette propriété peut réduire la traduction entre les noms et les identificateurs des propriétés copiées.</span><span class="sxs-lookup"><span data-stu-id="1633d-117">Use of this property can minimize translating between copied properties' names and identifiers.</span></span> 
   
-<span data-ttu-id="de25b-118">Si cette propriété n’existe pas pour un objet MAPI donné, l’objet possède son propre mappage de noms et identificateurs unique.</span><span class="sxs-lookup"><span data-stu-id="de25b-118">If this property does not exist for a given MAPI object, then the object has its own unique mapping of names and identifiers.</span></span> <span data-ttu-id="de25b-119">Dans ce cas le client doit appeler la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) sur l’objet source, puis la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) sur l’objet de destination.</span><span class="sxs-lookup"><span data-stu-id="de25b-119">In this case the client must call the [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) method on the source object and then the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method on the destination object.</span></span> 
+<span data-ttu-id="1633d-118">Si cette propriété n’existe pas pour un objet MAPI donné, l’objet possède son propre mappage de noms et identificateurs unique.</span><span class="sxs-lookup"><span data-stu-id="1633d-118">If this property does not exist for a given MAPI object, then the object has its own unique mapping of names and identifiers.</span></span> <span data-ttu-id="1633d-119">Dans ce cas le client doit appeler la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) sur l’objet source, puis la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) sur l’objet de destination.</span><span class="sxs-lookup"><span data-stu-id="1633d-119">In this case the client must call the [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) method on the source object and then the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method on the destination object.</span></span> 
   
-<span data-ttu-id="de25b-120">Lorsque deux objets ont la même valeur **PR_MAPPING_SIGNATURE** , le client n’a pas besoin traduire le nom d’identificateur et identificateur de nom.</span><span class="sxs-lookup"><span data-stu-id="de25b-120">When two objects have the same **PR_MAPPING_SIGNATURE** value, the client does not need to translate name to identifier and identifier to name.</span></span> <span data-ttu-id="de25b-121">Le client peut simplement appeler la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) sur la source, puis la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) sur la destination.</span><span class="sxs-lookup"><span data-stu-id="de25b-121">The client can simply call the [IMAPIProp::GetProps](imapiprop-getprops.md) method on the source and then the [IMAPIProp::SetProps](imapiprop-setprops.md) method on the destination.</span></span> <span data-ttu-id="de25b-122">Cela est utile pour les clients qui effectuent une copie personnalisée de propriétés nommées et pour les fournisseurs de mise en œuvre les méthodes [IMAPIProp::CopyTo](imapiprop-copyto.md) et [IMAPIProp::CopyProps](imapiprop-copyprops.md) .</span><span class="sxs-lookup"><span data-stu-id="de25b-122">This is convenient for clients that perform custom copying of named properties, and for providers implementing the [IMAPIProp::CopyTo](imapiprop-copyto.md) and [IMAPIProp::CopyProps](imapiprop-copyprops.md) methods.</span></span> 
+<span data-ttu-id="1633d-120">Lorsque deux objets ont la même valeur **PR_MAPPING_SIGNATURE** , le client n’a pas besoin traduire le nom d’identificateur et identificateur de nom.</span><span class="sxs-lookup"><span data-stu-id="1633d-120">When two objects have the same **PR_MAPPING_SIGNATURE** value, the client does not need to translate name to identifier and identifier to name.</span></span> <span data-ttu-id="1633d-121">Le client peut simplement appeler la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) sur la source, puis la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) sur la destination.</span><span class="sxs-lookup"><span data-stu-id="1633d-121">The client can simply call the [IMAPIProp::GetProps](imapiprop-getprops.md) method on the source and then the [IMAPIProp::SetProps](imapiprop-setprops.md) method on the destination.</span></span> <span data-ttu-id="1633d-122">Cela est utile pour les clients qui effectuent une copie personnalisée de propriétés nommées et pour les fournisseurs de mise en œuvre les méthodes [IMAPIProp::CopyTo](imapiprop-copyto.md) et [IMAPIProp::CopyProps](imapiprop-copyprops.md) .</span><span class="sxs-lookup"><span data-stu-id="1633d-122">This is convenient for clients that perform custom copying of named properties, and for providers implementing the [IMAPIProp::CopyTo](imapiprop-copyto.md) and [IMAPIProp::CopyProps](imapiprop-copyprops.md) methods.</span></span> 
   
-<span data-ttu-id="de25b-123">Pour plus d’informations sur les propriétés nommées et le mappage des noms et identificateurs, voir [Les propriétés MAPI nommée](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="de25b-123">For more information on named properties and mapping of names and identifiers, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
+<span data-ttu-id="1633d-123">Pour plus d’informations sur les propriétés nommées et le mappage des noms et identificateurs, voir [Les propriétés MAPI nommée](mapi-named-properties.md).</span><span class="sxs-lookup"><span data-stu-id="1633d-123">For more information on named properties and mapping of names and identifiers, see [MAPI Named Properties](mapi-named-properties.md).</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="de25b-124">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="de25b-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1633d-124">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1633d-124">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="de25b-125">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="de25b-125">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="1633d-125">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="1633d-125">Protocol specifications</span></span>
 
-<span data-ttu-id="de25b-126">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="de25b-126">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1633d-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1633d-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="de25b-127">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="de25b-127">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="1633d-127">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="1633d-127">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="de25b-128">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="de25b-128">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1633d-128">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1633d-128">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="de25b-129">Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.</span><span class="sxs-lookup"><span data-stu-id="de25b-129">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="1633d-129">Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.</span><span class="sxs-lookup"><span data-stu-id="1633d-129">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="de25b-130">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="de25b-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1633d-130">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1633d-130">Header files</span></span>
 
-<span data-ttu-id="de25b-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="de25b-131">Mapidefs.h</span></span>
+<span data-ttu-id="1633d-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1633d-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="de25b-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="de25b-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="1633d-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1633d-132">Provides data type definitions.</span></span>
     
-<span data-ttu-id="de25b-133">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="de25b-133">Mapitags.h</span></span>
+<span data-ttu-id="1633d-133">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="1633d-133">Mapitags.h</span></span>
   
-> <span data-ttu-id="de25b-134">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="de25b-134">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="1633d-134">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="1633d-134">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="de25b-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="de25b-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1633d-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1633d-135">See also</span></span>
 
 
 
-[<span data-ttu-id="de25b-136">MAPINAMEID</span><span class="sxs-lookup"><span data-stu-id="de25b-136">MAPINAMEID</span></span>](mapinameid.md)
+[<span data-ttu-id="1633d-136">MAPINAMEID</span><span class="sxs-lookup"><span data-stu-id="1633d-136">MAPINAMEID</span></span>](mapinameid.md)
 
 
-[<span data-ttu-id="de25b-137">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="de25b-137">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1633d-137">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1633d-137">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="de25b-138">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="de25b-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1633d-138">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1633d-138">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="de25b-139">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="de25b-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1633d-139">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1633d-139">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="de25b-140">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="de25b-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1633d-140">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1633d-140">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

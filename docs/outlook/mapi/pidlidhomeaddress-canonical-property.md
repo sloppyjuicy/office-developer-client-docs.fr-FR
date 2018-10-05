@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b12052370e29b55aa565f403011493afed015427
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8facbb2d3b4e83afc5fb4944607956c289f0bccb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575580"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25396231"
 ---
-# <a name="pidlidhomeaddress-canonical-property"></a><span data-ttu-id="ced1e-103">Propriété canonique PidLidHomeAddress</span><span class="sxs-lookup"><span data-stu-id="ced1e-103">PidLidHomeAddress Canonical Property</span></span>
+# <a name="pidlidhomeaddress-canonical-property"></a><span data-ttu-id="c1270-103">Propriété canonique PidLidHomeAddress</span><span class="sxs-lookup"><span data-stu-id="c1270-103">PidLidHomeAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ced1e-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ced1e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c1270-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1270-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ced1e-105">Spécifie l’adresse complète du domicile du contact.</span><span class="sxs-lookup"><span data-stu-id="ced1e-105">Specifies the complete address of the contact's home address.</span></span>
+<span data-ttu-id="c1270-105">Spécifie l’adresse complète du domicile du contact.</span><span class="sxs-lookup"><span data-stu-id="c1270-105">Specifies the complete address of the contact's home address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ced1e-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="ced1e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ced1e-107">dispidHomeAddress</span><span class="sxs-lookup"><span data-stu-id="ced1e-107">dispidHomeAddress</span></span>  <br/> |
-|<span data-ttu-id="ced1e-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="ced1e-108">Property set:</span></span>  <br/> |<span data-ttu-id="ced1e-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="ced1e-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="ced1e-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="ced1e-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="ced1e-111">0x0000801A</span><span class="sxs-lookup"><span data-stu-id="ced1e-111">0x0000801A</span></span>  <br/> |
-|<span data-ttu-id="ced1e-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="ced1e-112">Data type:</span></span>  <br/> |<span data-ttu-id="ced1e-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ced1e-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="ced1e-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="ced1e-114">Area:</span></span>  <br/> |<span data-ttu-id="ced1e-115">Contact</span><span class="sxs-lookup"><span data-stu-id="ced1e-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="c1270-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c1270-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c1270-107">dispidHomeAddress</span><span class="sxs-lookup"><span data-stu-id="c1270-107">dispidHomeAddress</span></span>  <br/> |
+|<span data-ttu-id="c1270-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c1270-108">Property set:</span></span>  <br/> |<span data-ttu-id="c1270-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="c1270-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="c1270-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="c1270-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c1270-111">0x0000801A</span><span class="sxs-lookup"><span data-stu-id="c1270-111">0x0000801A</span></span>  <br/> |
+|<span data-ttu-id="c1270-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c1270-112">Data type:</span></span>  <br/> |<span data-ttu-id="c1270-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c1270-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="c1270-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c1270-114">Area:</span></span>  <br/> |<span data-ttu-id="c1270-115">Contact</span><span class="sxs-lookup"><span data-stu-id="c1270-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ced1e-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="ced1e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c1270-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c1270-116">Remarks</span></span>
 
-<span data-ttu-id="ced1e-117">Cette propriété doit être une combinaison des autres propriétés de l’adresse physique et est basée sur les paramètres régionaux du client.</span><span class="sxs-lookup"><span data-stu-id="ced1e-117">This property should be a combination of other physical address properties, and is based on client locale.</span></span>
+<span data-ttu-id="c1270-117">Cette propriété doit être une combinaison des autres propriétés de l’adresse physique et est basée sur les paramètres régionaux du client.</span><span class="sxs-lookup"><span data-stu-id="c1270-117">This property should be a combination of other physical address properties, and is based on client locale.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="ced1e-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="ced1e-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c1270-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c1270-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="ced1e-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="ced1e-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c1270-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="c1270-119">Protocol specifications</span></span>
 
-<span data-ttu-id="ced1e-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ced1e-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c1270-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c1270-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ced1e-121">Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="ced1e-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c1270-121">Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="c1270-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="ced1e-122">[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ced1e-122">[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c1270-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c1270-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="ced1e-123">Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="ced1e-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="c1270-123">Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="c1270-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="ced1e-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="ced1e-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c1270-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c1270-124">Header files</span></span>
 
-<span data-ttu-id="ced1e-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ced1e-125">Mapidefs.h</span></span>
+<span data-ttu-id="c1270-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c1270-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ced1e-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="ced1e-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="c1270-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c1270-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ced1e-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ced1e-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c1270-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c1270-127">See also</span></span>
 
 
 
-[<span data-ttu-id="ced1e-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="ced1e-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c1270-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c1270-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ced1e-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="ced1e-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c1270-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c1270-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ced1e-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="ced1e-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c1270-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c1270-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ced1e-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="ced1e-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c1270-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c1270-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

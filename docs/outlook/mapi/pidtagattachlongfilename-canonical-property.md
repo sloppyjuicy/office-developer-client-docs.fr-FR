@@ -11,78 +11,78 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0f1e86924c0464814e3aa1e219930bd23fc78fb5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563484"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394460"
 ---
-# <a name="pidtagattachlongfilename-canonical-property"></a><span data-ttu-id="c0ef4-103">Propriété canonique PidTagAttachLongFilename</span><span class="sxs-lookup"><span data-stu-id="c0ef4-103">PidTagAttachLongFilename Canonical Property</span></span>
+# <a name="pidtagattachlongfilename-canonical-property"></a><span data-ttu-id="0476d-103">Propriété canonique PidTagAttachLongFilename</span><span class="sxs-lookup"><span data-stu-id="0476d-103">PidTagAttachLongFilename Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c0ef4-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c0ef4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0476d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0476d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c0ef4-105">Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-105">Contains an attachment's long filename and extension, excluding path.</span></span> 
+<span data-ttu-id="0476d-105">Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="0476d-105">Contains an attachment's long filename and extension, excluding path.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c0ef4-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c0ef4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c0ef4-107">PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W</span><span class="sxs-lookup"><span data-stu-id="c0ef4-107">PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W</span></span>  <br/> |
-|<span data-ttu-id="c0ef4-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="c0ef4-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c0ef4-109">0x3707</span><span class="sxs-lookup"><span data-stu-id="c0ef4-109">0x3707</span></span>  <br/> |
-|<span data-ttu-id="c0ef4-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c0ef4-110">Data type:</span></span>  <br/> |<span data-ttu-id="c0ef4-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="c0ef4-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="c0ef4-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c0ef4-112">Area:</span></span>  <br/> |<span data-ttu-id="c0ef4-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="c0ef4-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="0476d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="0476d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0476d-107">PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W</span><span class="sxs-lookup"><span data-stu-id="0476d-107">PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W</span></span>  <br/> |
+|<span data-ttu-id="0476d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="0476d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="0476d-109">0x3707</span><span class="sxs-lookup"><span data-stu-id="0476d-109">0x3707</span></span>  <br/> |
+|<span data-ttu-id="0476d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="0476d-110">Data type:</span></span>  <br/> |<span data-ttu-id="0476d-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="0476d-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="0476d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="0476d-112">Area:</span></span>  <br/> |<span data-ttu-id="0476d-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="0476d-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c0ef4-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0ef4-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0476d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="0476d-114">Remarks</span></span>
 
-<span data-ttu-id="c0ef4-115">Ces propriétés s’appliquent aux valeurs de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-115">These properties pertain to the ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE, and ATTACH_BY_REF_ONLY values of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property.</span></span> <span data-ttu-id="c0ef4-116">Plateformes qui prennent en charge les noms de fichiers longs doivent définir les propriétés de **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) et **PR_ATTACH_LONG_FILENAME** lors de l’envoi et doit vérifier **PR_ATTACH_LONG_FILENAME** lorsque réception.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-116">Platforms that support long filenames should set both the **PR_ATTACH_LONG_FILENAME** and **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) properties when sending, and should check **PR_ATTACH_LONG_FILENAME** first when receiving.</span></span> 
+<span data-ttu-id="0476d-115">Ces propriétés s’appliquent aux valeurs de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY.</span><span class="sxs-lookup"><span data-stu-id="0476d-115">These properties pertain to the ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE, and ATTACH_BY_REF_ONLY values of the **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) property.</span></span> <span data-ttu-id="0476d-116">Plateformes qui prennent en charge les noms de fichiers longs doivent définir les propriétés de **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) et **PR_ATTACH_LONG_FILENAME** lors de l’envoi et doit vérifier **PR_ATTACH_LONG_FILENAME** lorsque réception.</span><span class="sxs-lookup"><span data-stu-id="0476d-116">Platforms that support long filenames should set both the **PR_ATTACH_LONG_FILENAME** and **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) properties when sending, and should check **PR_ATTACH_LONG_FILENAME** first when receiving.</span></span> 
   
-<span data-ttu-id="c0ef4-117">L’application cliente doit définir cette propriété sur un nom de fichier long proposé à utiliser si l’ordinateur hôte reçoit un message prend en charge les noms de fichiers longs.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-117">The client application should set this property to a suggested long filename to be used if the host computer receiving a message supports long filenames.</span></span> <span data-ttu-id="c0ef4-118">**PR_ATTACH_LONG_FILENAME** peut être utilisée comme un nom de fichier pour enregistrer la pièce jointe et pour fournir l’extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n’est pas fournie.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-118">**PR_ATTACH_LONG_FILENAME** can be used as a filename for saving the attachment, and to supply the filename extension if the **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided.</span></span> 
+<span data-ttu-id="0476d-117">L’application cliente doit définir cette propriété sur un nom de fichier long proposé à utiliser si l’ordinateur hôte reçoit un message prend en charge les noms de fichiers longs.</span><span class="sxs-lookup"><span data-stu-id="0476d-117">The client application should set this property to a suggested long filename to be used if the host computer receiving a message supports long filenames.</span></span> <span data-ttu-id="0476d-118">**PR_ATTACH_LONG_FILENAME** peut être utilisée comme un nom de fichier pour enregistrer la pièce jointe et pour fournir l’extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n’est pas fournie.</span><span class="sxs-lookup"><span data-stu-id="0476d-118">**PR_ATTACH_LONG_FILENAME** can be used as a filename for saving the attachment, and to supply the filename extension if the **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) property is not provided.</span></span> 
   
-<span data-ttu-id="c0ef4-119">Contrairement à nom de fichier fourni par **PR_ATTACH_FILENAME**, ce nom n’est pas limité à un nom de fichier huit caractères et une extension de trois caractères.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-119">Unlike the filename provided by **PR_ATTACH_FILENAME**, this name is not restricted to an eight-character filename plus a three-character extension.</span></span> <span data-ttu-id="c0ef4-120">Au lieu de cela, il peut être jusqu'à 256 caractères long, y compris la période de nom de fichier, l’extension et séparateur.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-120">Instead, it can be up to 256 characters long, including the filename, extension, and separator period.</span></span> 
+<span data-ttu-id="0476d-119">Contrairement à nom de fichier fourni par **PR_ATTACH_FILENAME**, ce nom n’est pas limité à un nom de fichier huit caractères et une extension de trois caractères.</span><span class="sxs-lookup"><span data-stu-id="0476d-119">Unlike the filename provided by **PR_ATTACH_FILENAME**, this name is not restricted to an eight-character filename plus a three-character extension.</span></span> <span data-ttu-id="0476d-120">Au lieu de cela, il peut être jusqu'à 256 caractères long, y compris la période de nom de fichier, l’extension et séparateur.</span><span class="sxs-lookup"><span data-stu-id="0476d-120">Instead, it can be up to 256 characters long, including the filename, extension, and separator period.</span></span> 
   
-<span data-ttu-id="c0ef4-121">MAPI ne fonctionne qu’avec les noms de fichiers dans le jeu de caractères ANSI.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-121">MAPI works only with filenames in the ANSI character set.</span></span> <span data-ttu-id="c0ef4-122">Les applications clientes qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir au format ANSI avant l’appel de MAPI.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-122">Client applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span> 
+<span data-ttu-id="0476d-121">MAPI ne fonctionne qu’avec les noms de fichiers dans le jeu de caractères ANSI.</span><span class="sxs-lookup"><span data-stu-id="0476d-121">MAPI works only with filenames in the ANSI character set.</span></span> <span data-ttu-id="0476d-122">Les applications clientes qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir au format ANSI avant l’appel de MAPI.</span><span class="sxs-lookup"><span data-stu-id="0476d-122">Client applications that use filenames in an OEM character set must convert them to ANSI before calling MAPI.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="c0ef4-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c0ef4-123">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="0476d-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="0476d-123">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c0ef4-124">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="c0ef4-124">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="0476d-124">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="0476d-124">Protocol specifications</span></span>
 
-<span data-ttu-id="c0ef4-125">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0ef4-125">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0476d-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0476d-125">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c0ef4-126">Gère les objets de message et la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-126">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="0476d-126">Gère les objets de message et la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="0476d-126">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="c0ef4-127">[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0ef4-127">[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0476d-127">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0476d-127">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c0ef4-128">Convertit des conventions de messagerie standard Internet aux objets de message.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-128">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="0476d-128">Convertit des conventions de messagerie standard Internet aux objets de message.</span><span class="sxs-lookup"><span data-stu-id="0476d-128">Converts from Internet standard email conventions to message objects.</span></span>
     
-<span data-ttu-id="c0ef4-129">[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0ef4-129">[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0476d-129">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0476d-129">[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c0ef4-130">Spécifie les propriétés des messages codés géré par des droits.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-130">Specifies the properties of rights-managed encoded messages.</span></span>
+> <span data-ttu-id="0476d-130">Spécifie les propriétés des messages codés géré par des droits.</span><span class="sxs-lookup"><span data-stu-id="0476d-130">Specifies the properties of rights-managed encoded messages.</span></span>
     
-<span data-ttu-id="c0ef4-131">[[MS-OXOUM]](http://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0ef4-131">[[MS-OXOUM]](http://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0476d-131">[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0476d-131">[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c0ef4-132">Spécifie les propriétés et les opérations qui sont autorisées pour la représentation des messages de messagerie et de télécopie de voix.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-132">Specifies the properties and operations that are permissible for representing voice mail and fax messages.</span></span>
+> <span data-ttu-id="0476d-132">Spécifie les propriétés et les opérations qui sont autorisées pour la représentation des messages de messagerie et de télécopie de voix.</span><span class="sxs-lookup"><span data-stu-id="0476d-132">Specifies the properties and operations that are permissible for representing voice mail and fax messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c0ef4-133">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c0ef4-133">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="0476d-133">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="0476d-133">Header files</span></span>
 
-<span data-ttu-id="c0ef4-134">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c0ef4-134">Mapidefs.h</span></span>
+<span data-ttu-id="0476d-134">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0476d-134">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c0ef4-135">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-135">Provides data type definitions.</span></span>
+> <span data-ttu-id="0476d-135">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="0476d-135">Provides data type definitions.</span></span>
     
-<span data-ttu-id="c0ef4-136">Mmapitags.h</span><span class="sxs-lookup"><span data-stu-id="c0ef4-136">Mmapitags.h</span></span>
+<span data-ttu-id="0476d-136">Mmapitags.h</span><span class="sxs-lookup"><span data-stu-id="0476d-136">Mmapitags.h</span></span>
   
-> <span data-ttu-id="c0ef4-137">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="c0ef4-137">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="0476d-137">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="0476d-137">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c0ef4-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c0ef4-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0476d-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0476d-138">See also</span></span>
 
 
 
-[<span data-ttu-id="c0ef4-139">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c0ef4-139">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="0476d-139">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="0476d-139">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c0ef4-140">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c0ef4-140">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="0476d-140">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="0476d-140">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c0ef4-141">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c0ef4-141">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="0476d-141">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="0476d-141">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c0ef4-142">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c0ef4-142">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="0476d-142">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="0476d-142">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

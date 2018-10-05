@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cfe5ad9a088fb4c02842e8be9d11a3623be749e3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8ce9df6290fe6e50e52c632f0a14f226c4d715d7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574906"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25395405"
 ---
-# <a name="pidlidappointmentduration-canonical-property"></a><span data-ttu-id="9d7c5-103">Propriété canonique PidLidAppointmentDuration</span><span class="sxs-lookup"><span data-stu-id="9d7c5-103">PidLidAppointmentDuration Canonical Property</span></span>
+# <a name="pidlidappointmentduration-canonical-property"></a><span data-ttu-id="c8d56-103">Propriété canonique PidLidAppointmentDuration</span><span class="sxs-lookup"><span data-stu-id="c8d56-103">PidLidAppointmentDuration Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9d7c5-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9d7c5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c8d56-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c8d56-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9d7c5-105">Représente la durée, en minutes, quand il est prévu un rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="9d7c5-105">Represents the length of time, in minutes, when an appointment is scheduled.</span></span>
+<span data-ttu-id="c8d56-105">Représente la durée, en minutes, quand il est prévu un rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="c8d56-105">Represents the length of time, in minutes, when an appointment is scheduled.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9d7c5-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="9d7c5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9d7c5-107">dispidApptDuration</span><span class="sxs-lookup"><span data-stu-id="9d7c5-107">dispidApptDuration</span></span>  <br/> |
-|<span data-ttu-id="9d7c5-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="9d7c5-108">Property set:</span></span>  <br/> |<span data-ttu-id="9d7c5-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="9d7c5-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="9d7c5-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="9d7c5-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="9d7c5-111">0x00008213</span><span class="sxs-lookup"><span data-stu-id="9d7c5-111">0x00008213</span></span>  <br/> |
-|<span data-ttu-id="9d7c5-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="9d7c5-112">Data type:</span></span>  <br/> |<span data-ttu-id="9d7c5-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="9d7c5-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="9d7c5-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="9d7c5-114">Area:</span></span>  <br/> |<span data-ttu-id="9d7c5-115">Calendrier</span><span class="sxs-lookup"><span data-stu-id="9d7c5-115">Calendar</span></span>  <br/> |
+|<span data-ttu-id="c8d56-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c8d56-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c8d56-107">dispidApptDuration</span><span class="sxs-lookup"><span data-stu-id="c8d56-107">dispidApptDuration</span></span>  <br/> |
+|<span data-ttu-id="c8d56-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c8d56-108">Property set:</span></span>  <br/> |<span data-ttu-id="c8d56-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="c8d56-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="c8d56-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="c8d56-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c8d56-111">0x00008213</span><span class="sxs-lookup"><span data-stu-id="c8d56-111">0x00008213</span></span>  <br/> |
+|<span data-ttu-id="c8d56-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c8d56-112">Data type:</span></span>  <br/> |<span data-ttu-id="c8d56-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="c8d56-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="c8d56-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c8d56-114">Area:</span></span>  <br/> |<span data-ttu-id="c8d56-115">Calendrier</span><span class="sxs-lookup"><span data-stu-id="c8d56-115">Calendar</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9d7c5-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="9d7c5-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8d56-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c8d56-116">Remarks</span></span>
 
-<span data-ttu-id="9d7c5-117">La valeur doit être le nombre de minutes entre la valeur de la **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) et les propriétés **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="9d7c5-117">The value must be the number of minutes between the value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) and the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) properties.</span></span>
+<span data-ttu-id="c8d56-117">La valeur doit être le nombre de minutes entre la valeur de la **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) et les propriétés **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="c8d56-117">The value must be the number of minutes between the value of the **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) and the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) properties.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="9d7c5-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="9d7c5-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c8d56-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c8d56-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="9d7c5-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="9d7c5-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c8d56-119">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="c8d56-119">Protocol specifications</span></span>
 
-<span data-ttu-id="9d7c5-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9d7c5-120">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c8d56-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c8d56-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9d7c5-121">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="9d7c5-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c8d56-121">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="c8d56-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="9d7c5-122">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9d7c5-122">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c8d56-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c8d56-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9d7c5-123">Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.</span><span class="sxs-lookup"><span data-stu-id="9d7c5-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="c8d56-123">Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.</span><span class="sxs-lookup"><span data-stu-id="c8d56-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="9d7c5-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="9d7c5-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c8d56-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c8d56-124">Header files</span></span>
 
-<span data-ttu-id="9d7c5-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9d7c5-125">Mapidefs.h</span></span>
+<span data-ttu-id="c8d56-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c8d56-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9d7c5-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="9d7c5-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="c8d56-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c8d56-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9d7c5-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9d7c5-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8d56-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c8d56-127">See also</span></span>
 
 
 
-[<span data-ttu-id="9d7c5-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="9d7c5-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c8d56-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c8d56-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9d7c5-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="9d7c5-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c8d56-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c8d56-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9d7c5-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="9d7c5-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c8d56-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c8d56-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9d7c5-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="9d7c5-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c8d56-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c8d56-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

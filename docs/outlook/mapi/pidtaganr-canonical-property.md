@@ -11,73 +11,73 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6cc5edf1c93ca94fb9d8cab302ccd8e96373cd94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ce08ba971662b7f5060e6b24a6d2c5ee1a921d5b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581943"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25400438"
 ---
-# <a name="pidtaganr-canonical-property"></a><span data-ttu-id="2ae97-103">Propriété canonique PidTagAnr</span><span class="sxs-lookup"><span data-stu-id="2ae97-103">PidTagAnr Canonical Property</span></span>
+# <a name="pidtaganr-canonical-property"></a><span data-ttu-id="05c3d-103">Propriété canonique PidTagAnr</span><span class="sxs-lookup"><span data-stu-id="05c3d-103">PidTagAnr Canonical Property</span></span>
 
   
   
-<span data-ttu-id="2ae97-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2ae97-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="05c3d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05c3d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2ae97-105">Contient une valeur de chaîne pour une utilisation dans une restriction de propriété sur une table des matières adresses livre conteneur.</span><span class="sxs-lookup"><span data-stu-id="2ae97-105">Contains a string value for use in a property restriction on an address book container contents table.</span></span> 
+<span data-ttu-id="05c3d-105">Contient une valeur de chaîne pour une utilisation dans une restriction de propriété sur une table des matières adresses livre conteneur.</span><span class="sxs-lookup"><span data-stu-id="05c3d-105">Contains a string value for use in a property restriction on an address book container contents table.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2ae97-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="2ae97-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2ae97-107">PR_ANR, PR_ANR_A, PR_ANR_W</span><span class="sxs-lookup"><span data-stu-id="2ae97-107">PR_ANR, PR_ANR_A, PR_ANR_W</span></span>  <br/> |
-|<span data-ttu-id="2ae97-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="2ae97-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2ae97-109">0x360C</span><span class="sxs-lookup"><span data-stu-id="2ae97-109">0x360C</span></span>  <br/> |
-|<span data-ttu-id="2ae97-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="2ae97-110">Data type:</span></span>  <br/> |<span data-ttu-id="2ae97-111">PT_UNICODE, PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="2ae97-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
-|<span data-ttu-id="2ae97-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="2ae97-112">Area:</span></span>  <br/> |<span data-ttu-id="2ae97-113">Carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="2ae97-113">Address book</span></span>  <br/> |
+|<span data-ttu-id="05c3d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="05c3d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="05c3d-107">PR_ANR, PR_ANR_A, PR_ANR_W</span><span class="sxs-lookup"><span data-stu-id="05c3d-107">PR_ANR, PR_ANR_A, PR_ANR_W</span></span>  <br/> |
+|<span data-ttu-id="05c3d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="05c3d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="05c3d-109">0x360C</span><span class="sxs-lookup"><span data-stu-id="05c3d-109">0x360C</span></span>  <br/> |
+|<span data-ttu-id="05c3d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="05c3d-110">Data type:</span></span>  <br/> |<span data-ttu-id="05c3d-111">PT_UNICODE, PT_STRING8</span><span class="sxs-lookup"><span data-stu-id="05c3d-111">PT_UNICODE, PT_STRING8</span></span>  <br/> |
+|<span data-ttu-id="05c3d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="05c3d-112">Area:</span></span>  <br/> |<span data-ttu-id="05c3d-113">Carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="05c3d-113">Address book</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="2ae97-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="2ae97-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="05c3d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="05c3d-114">Remarks</span></span>
 
-<span data-ttu-id="2ae97-115">Ces propriétés n’appartiennent pas à n’importe quel objet ; Il est fourni par les fournisseurs de carnet d’adresses dans des structures [SPropertyRestriction](spropertyrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="2ae97-115">These properties do not belong to any object; it is furnished by address book providers in [SPropertyRestriction](spropertyrestriction.md) structures.</span></span> <span data-ttu-id="2ae97-116">Cette propriété contient une chaîne (ANR) de résolution de nom ambigu qui peut être testée par rapport à la table de contenu d’un conteneur carnet d’adresses pour rechercher les destinataires du message correspondant.</span><span class="sxs-lookup"><span data-stu-id="2ae97-116">This property contains an ambiguous name resolution (ANR) string that can be tested against an address book container's contents table to find corresponding message recipients.</span></span> 
+<span data-ttu-id="05c3d-115">Ces propriétés n’appartiennent pas à n’importe quel objet ; Il est fourni par les fournisseurs de carnet d’adresses dans des structures [SPropertyRestriction](spropertyrestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="05c3d-115">These properties do not belong to any object; it is furnished by address book providers in [SPropertyRestriction](spropertyrestriction.md) structures.</span></span> <span data-ttu-id="05c3d-116">Cette propriété contient une chaîne (ANR) de résolution de nom ambigu qui peut être testée par rapport à la table de contenu d’un conteneur carnet d’adresses pour rechercher les destinataires du message correspondant.</span><span class="sxs-lookup"><span data-stu-id="05c3d-116">This property contains an ambiguous name resolution (ANR) string that can be tested against an address book container's contents table to find corresponding message recipients.</span></span> 
   
-<span data-ttu-id="2ae97-117">Fournisseurs de carnet d’adresses correspondent à la valeur de **PR_ANR** et des propriétés associées par rapport à chaque entrée dans la table des matières, à l’aide d’un algorithme de correspondance défini par le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="2ae97-117">Address book providers match the value of **PR_ANR** and associated properties against every entry in the contents table, using a provider-defined matching algorithm.</span></span> <span data-ttu-id="2ae97-118">L’ou les colonnes qui sont utilisés dans cette correspondance sont choisis par le fournisseur dans le cadre de l’algorithme.</span><span class="sxs-lookup"><span data-stu-id="2ae97-118">The column or columns that are used in this match are chosen by the provider as part of the algorithm.</span></span> <span data-ttu-id="2ae97-119">La colonne **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est le plus fréquemment utilisée ; la colonne **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) est également utile lorsqu’il contient le nom de l’utilisateur de messagerie.</span><span class="sxs-lookup"><span data-stu-id="2ae97-119">The **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) column is the most commonly used; the **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) column is also useful when it contains the user's email name.</span></span> 
+<span data-ttu-id="05c3d-117">Fournisseurs de carnet d’adresses correspondent à la valeur de **PR_ANR** et des propriétés associées par rapport à chaque entrée dans la table des matières, à l’aide d’un algorithme de correspondance défini par le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="05c3d-117">Address book providers match the value of **PR_ANR** and associated properties against every entry in the contents table, using a provider-defined matching algorithm.</span></span> <span data-ttu-id="05c3d-118">L’ou les colonnes qui sont utilisés dans cette correspondance sont choisis par le fournisseur dans le cadre de l’algorithme.</span><span class="sxs-lookup"><span data-stu-id="05c3d-118">The column or columns that are used in this match are chosen by the provider as part of the algorithm.</span></span> <span data-ttu-id="05c3d-119">La colonne **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est le plus fréquemment utilisée ; la colonne **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) est également utile lorsqu’il contient le nom de l’utilisateur de messagerie.</span><span class="sxs-lookup"><span data-stu-id="05c3d-119">The **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) column is the most commonly used; the **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) column is also useful when it contains the user's email name.</span></span> 
   
-<span data-ttu-id="2ae97-120">Pour plus d’informations sur la résolution de nom ambigu, consultez [Restrictions de carnet d’adresses](address-book-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="2ae97-120">For more information on ambiguous name resolution, see [Address Book Restrictions](address-book-restrictions.md).</span></span> 
+<span data-ttu-id="05c3d-120">Pour plus d’informations sur la résolution de nom ambigu, consultez [Restrictions de carnet d’adresses](address-book-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="05c3d-120">For more information on ambiguous name resolution, see [Address Book Restrictions](address-book-restrictions.md).</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="2ae97-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="2ae97-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="05c3d-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="05c3d-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="2ae97-122">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="2ae97-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="05c3d-122">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="05c3d-122">Protocol specifications</span></span>
 
-<span data-ttu-id="2ae97-123">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2ae97-123">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="05c3d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="05c3d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="2ae97-124">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="2ae97-124">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="05c3d-124">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="05c3d-124">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="2ae97-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="2ae97-125">[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="05c3d-125">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="05c3d-125">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="2ae97-126">Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.</span><span class="sxs-lookup"><span data-stu-id="2ae97-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="05c3d-126">Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.</span><span class="sxs-lookup"><span data-stu-id="05c3d-126">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="2ae97-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="2ae97-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="05c3d-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="05c3d-127">Header files</span></span>
 
-<span data-ttu-id="2ae97-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2ae97-128">Mapidefs.h</span></span>
+<span data-ttu-id="05c3d-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="05c3d-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="2ae97-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="2ae97-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="05c3d-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="05c3d-129">Provides data type definitions.</span></span>
     
-<span data-ttu-id="2ae97-130">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="2ae97-130">Mapitags.h</span></span>
+<span data-ttu-id="05c3d-130">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="05c3d-130">Mapitags.h</span></span>
   
-> <span data-ttu-id="2ae97-131">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="2ae97-131">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="05c3d-131">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="05c3d-131">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="2ae97-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2ae97-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05c3d-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="05c3d-132">See also</span></span>
 
 
 
-[<span data-ttu-id="2ae97-133">IAddrBook::ResolveName</span><span class="sxs-lookup"><span data-stu-id="2ae97-133">IAddrBook::ResolveName</span></span>](iaddrbook-resolvename.md)
+[<span data-ttu-id="05c3d-133">IAddrBook::ResolveName</span><span class="sxs-lookup"><span data-stu-id="05c3d-133">IAddrBook::ResolveName</span></span>](iaddrbook-resolvename.md)
   
-[<span data-ttu-id="2ae97-134">IABContainer::ResolveNames</span><span class="sxs-lookup"><span data-stu-id="2ae97-134">IABContainer::ResolveNames</span></span>](iabcontainer-resolvenames.md)
+[<span data-ttu-id="05c3d-134">IABContainer::ResolveNames</span><span class="sxs-lookup"><span data-stu-id="05c3d-134">IABContainer::ResolveNames</span></span>](iabcontainer-resolvenames.md)
 
 
-[<span data-ttu-id="2ae97-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="2ae97-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="05c3d-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="05c3d-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="2ae97-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="2ae97-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="05c3d-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="05c3d-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="2ae97-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="2ae97-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="05c3d-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="05c3d-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="2ae97-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="2ae97-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="05c3d-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="05c3d-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
