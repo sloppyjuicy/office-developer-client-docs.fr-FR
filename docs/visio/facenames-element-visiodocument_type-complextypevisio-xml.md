@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
 description: Contient une collection d’éléments de nom de la police.
-ms.openlocfilehash: 1c031d589883f34bbf9d69a3d537b82e1ecf3129
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d6f2ffbf54dd04e744e85909fbc8a6bd4a387a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788607"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386816"
 ---
 # <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Élément FaceNames (VisioDocument_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une collection d’éléments de **nom de la police** .
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

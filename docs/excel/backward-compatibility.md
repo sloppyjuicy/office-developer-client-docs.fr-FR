@@ -8,13 +8,13 @@ keywords:
 - compatibilité des versions [excel 2007], compatibilité XLL [Excel 2007], [Excel 2007] de compatibilité descendante
 localization_priority: Normal
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 095961fa909a67b354ed43a7e093b79a9ebb4f18
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: 3e1368ef55b96be947527456e0f01918afec6663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782017"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387971"
 ---
 # <a name="backward-compatibility"></a>Compatibilité descendante
 
@@ -63,7 +63,7 @@ Pour ces raisons, dans l’idéal, compter d’Excel 2007, vous devez exporter u
   
 Une autre raison pourquoi vous souhaiterez peut-être enregistrer une autre fonction à compter d’Excel 2007 est afin de permettre aux fonctions XLL d’accepter jusqu'à 255 arguments, au lieu de la limite des versions antérieures de 30.
   
-Heureusement, vous pouvez avoir les avantages des deux en exportant les deux versions de votre projet. Vous pouvez ensuite détecter la version d’Excel en cours d’exécution et conditionnellement enregistrer la fonction la plus appropriée. Pour plus d’informations et un exemple d’implémentation, voir [Developing compléments (XLL) dans Excel 2007](http://msdn.microsoft.com/en-us/library/aa730920.aspx).
+Heureusement, vous pouvez avoir les avantages des deux en exportant les deux versions de votre projet. Vous pouvez ensuite détecter la version d’Excel en cours d’exécution et conditionnellement enregistrer la fonction la plus appropriée. Pour plus d’informations et un exemple d’implémentation, voir [Developing compléments (XLL) dans Excel 2007](https://msdn.microsoft.com/library/aa730920.aspx).
   
 Cette approche la possibilité qu’une feuille de calcul en cours d’exécution dans Excel 2003 peut afficher des résultats différents de la même feuille en cours d’exécution à compter d’Excel 2007. Par exemple, Microsoft Excel 2003 souhaite mapper une chaîne Unicode dans une cellule de feuille de calcul Excel 2003 à une chaîne d’octets ASCII, tronqué avant de passer à une fonction XLL. À compter d’Excel 2007, Excel passe une chaîne Unicode non convertie à une fonction XLL inscrite dans la bonne manière. Cela peut entraîner un résultat différent. Vous devez être conscient de cette possibilité et les conséquences de vos utilisateurs, pas seulement dans la mise à niveau. Par exemple, certaines fonctions numériques intégrées ont été améliorées entre Excel 2000 et Excel 2003.
   
@@ -74,6 +74,6 @@ Fonctions utilitaire d’analyse font partie d’Excel à compter d’Excel 2007
 ## <a name="see-also"></a>Voir aussi
 
 - [Les fonctions de rappel de l'API C Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
-- [Programmation avec l�API�C dans Excel](programming-with-the-c-api-in-excel.md)
-- [Quelles sont les nouveaut�s de l'API C pour Excel 2013](what-s-new-in-the-c-api-for-excel.md)
+- [Programmation avec l�API C dans Excel](programming-with-the-c-api-in-excel.md)
+- [Nouveautés dans l’API C pour Excel](what-s-new-in-the-c-api-for-excel.md)
 

@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2dcd9ff3-f380-48c7-ae9e-d4c717a9e41f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 35d67721537a241426afc17ec162b58edc638051
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8f7f41ed0d47efcedf7f32e0ecb19c184bb4fc91
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588432"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385990"
 ---
 # <a name="pidtagread-canonical-property"></a>Propriété canonique PidTagRead
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si une ligne de tableau a été lu.
   
@@ -38,11 +38,11 @@ Indique si une ligne de tableau a été lu.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCTABL]](http://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
+[[MS-OXCTABL]](https://msdn.microsoft.com/library/d33612dc-36a8-4623-8a26-c156cf8aae4b%28Office.15%29.aspx)
   
 > Inclut les opérations autorisées pour les objets de la table principale.
     

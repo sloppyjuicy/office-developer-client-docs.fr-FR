@@ -1,5 +1,5 @@
 ---
-title: L’analyse de l’historique de téléchargement des messages pour un compte POP3
+title: Analyse de l’historique de téléchargement de message pour un compte POP3
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: Cette rubrique décrit la structure de l’objet BLOB POP3 qui représente l’historique de téléchargement des messages d’un compte POP3, pour identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
-ms.openlocfilehash: ffed3178e4e8b45f17fc335575a7febd77d40902
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 44a799f6b6fbe2a2841522c18405149a470b0236
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782795"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389007"
 ---
-# <a name="parsing-the-message-download-history-for-a-pop3-account"></a>L’analyse de l’historique de téléchargement des messages pour un compte POP3
+# <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analyse de l’historique de téléchargement de message pour un compte POP3
 
 Cette rubrique décrit la structure de l’objet BLOB POP3 qui représente l’historique de téléchargement des messages d’un compte POP3, pour identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
 
@@ -26,7 +26,7 @@ Le fournisseur Post Office Protocol (POP) pour Outlook permet aux utilisateurs p
   
 Pour obtenir les messages d’historique de téléchargement pour une boîte de réception :
   
-- Suivez les étapes de [localiser le message l’historique d’un compte POP3 de téléchargement](locating-the-message-download-history-for-a-pop3-account.md) pour trouver la propriété [PidTagAttachDataBinary](http://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , qui contient un grand BLOB (binary object) qui représente l’historique des conversations d’un compte POP3. 
+- Suivez les étapes de [localiser le message l’historique d’un compte POP3 de téléchargement](locating-the-message-download-history-for-a-pop3-account.md) pour trouver la propriété [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) , qui contient un grand BLOB (binary object) qui représente l’historique des conversations d’un compte POP3. 
     
 - Lisez cette rubrique, qui décrit la structure de l’objet BLOB et montre un exemple BLOB pour identifier les messages qui ont été téléchargés ou supprimés de la boîte de réception du compte POP3.
 
@@ -38,7 +38,7 @@ La structure des objets BLOB POP, comme décrit dans le tableau 1, commence par 
   
 **Le tableau 1. Structure de l’objet BLOB qui représente le message d’historique de téléchargement d’un compte POP3**
 
-|**Champ BLOB**|**Size**|**Description**|
+|**Champ BLOB**|**Taille**|**Description**|
 |:-----|:-----|:-----|
 |**Version** <br/> |2 octets  <br/> |Doit être 3 (**PBLOB_VERSION_NUM**).  <br/> |
 |**Count** <br/> |2 octets  <br/> |Le nombre de balises de ressource dans cet BLOB.  <br/> |
@@ -50,7 +50,7 @@ Chaque ressource spécifie l’opération qui est appliquée à un message, des 
   
 **Le tableau 2. Structure d’une balise de ressource**
 
-|**Champ dans une balise de ressource**|**Size**|**Description**|
+|**Champ dans une balise de ressource**|**Taille**|**Description**|
 |:-----|:-----|:-----|
 | `O` <br/> |1 caractère  <br/> |L’opération effectuée sur le message électronique. La valeur doit être « + », «- », ou «&amp;», qui indique une réussite get, supprimer ou opération get-delete, respectivement.  <br/> |
 | `c` <br/> |1 caractère  <br/> |La partie du contenu du message impliqué dans l’opération. La valeur doit être « », « h » ou « b », qui indique le contenu None, en-tête ou corps, respectivement.  <br/> |
@@ -89,8 +89,8 @@ Vous pouvez même analyser les balises restantes de la 22 ressource pour ce BLOB
 ## <a name="see-also"></a>Voir aussi
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
 
-- [Message de la gestion des téléchargements pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md)    
+- [Gestion des téléchargements de messages pour les comptes POP3](managing-message-downloads-for-pop3-accounts.md)    
 - [Localisation de l'historique de téléchargement des messages pour un compte POP3](locating-the-message-download-history-for-a-pop3-account.md)    
-- [L’analyse de l’historique UIDL POP3](http://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
+- [L’analyse de l’historique UIDL POP3](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
     
 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac5eb91d-31c9-459b-bb22-f4ccfc92d1db
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 69108529b13c8c5523f0ea92ef627c69a6722469
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d106a216e8d72c126f3293f9d492db73992c3872
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594578"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384170"
 ---
 # <a name="pidtagoriginalsearchkey-canonical-property"></a>Propriété canonique PidTagOriginalSearchKey
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la clé de recherche d’origine pour une entrée copiée à partir d’un carnet d’adresses à un carnet d’adresses personnel ou autre carnet d’adresses accessible en écriture.
   
@@ -44,11 +44,11 @@ Pour un rapport nonread, cette propriété contient une copie de la clé de rech
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
     

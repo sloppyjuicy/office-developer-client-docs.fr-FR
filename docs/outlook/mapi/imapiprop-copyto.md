@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bbc9dcf2218907b5d31ce1fc9f904e6ae1da47d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f76b0a5482647fe3e181a36d7dcd8cb60ffc8985
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594011"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388580"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace toutes les propriétés, à l’exception de spécifiquement des propriétés exclues.
   
@@ -95,7 +95,7 @@ MAPI_NOREPLACE
   
 > [entrée, sortie] À l’entrée, un pointeur vers un pointeur vers une structure **SPropProblemArray** ; dans le cas contraire, **null**, indiquant ainsi pas besoin d’informations sur l’erreur. Si _lppProblems_ est un pointeur valid en entrée, **CopyTo** renvoie des informations détaillées sur les erreurs lors de la copie d’une ou plusieurs propriétés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -145,7 +145,7 @@ Par défaut, la méthode **IMAPIProp::CopyTo** copie ou déplace toutes les prop
   
 Les sous-objets de l’objet source sont automatiquement inclus dans l’opération et sont copiés ou déplacés dans leur intégralité. Par défaut, **CopyTo** remplace toutes les propriétés de l’objet cible qui correspondent aux propriétés de l’objet source. Si les propriétés copiées ou déplacées existent déjà dans l’objet de destination, les propriétés existantes sont remplacées par les nouvelles propriétés, sauf si l’indicateur MAPI_NOREPLACE est défini dans le paramètre _ulFlags_ . Les informations existantes dans l’objet de destination n’est pas remplacé sont conservées. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez fournir une implémentation complète de **CopyTo** ou reposer sur l’implémentation MAPI fournit de l’objet de prise en charge. Si vous souhaitez utiliser l’implémentation MAPI, appelez **IMAPISupport::DoCopyTo**. Toutefois, si vous procédez comme déléguer le traitement de **DoCopyTo** et vous sont transmis à l’indicateur MAPI_DECLINE_OK, évitez l’appel de la prise en charge et renvoyer MAPI_E_DECLINE_COPY au lieu de cela. MAPI appellera avec cet indicateur pour éviter la récurrence possible qui peut se produire lorsque les dossiers sont copiés. 
   
@@ -173,7 +173,7 @@ Si **CopyTo** renvoie S_OK, libérer la structure **SPropProblemArray** retourn�
   
 Si vous copiez les propriétés qui sont uniques pour le type d’objet source, vous devez vous assurer que l’objet de destination est du même type. **CopyTo** ne vous empêche pas d’associant des propriétés qui appartiennent généralement à un type d’objet avec un autre type d’objet. C’est à vous pour copier des propriétés qui sont pertinents pour l’objet de destination. Par exemple, vous devez copier pas les propriétés de message à un conteneur de carnet d’adresses. 
   
-Pour vous assurer que vous copiez entre les objets du même type, vérifiez que l’objet source et de destination sont le même type, soit en comparaison des pointeurs d’objet ou en appelant [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx). Définir l’identificateur d’interface désigné par _lpInterface_ à l’interface standard pour l’objet source. En outre, n’oubliez pas que le type d’objet ou la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est la même pour les deux objets. Par exemple, si vous copiez à partir d’un message, définissez _lpInterface_ IID_IMessage et le **PR_OBJECT_TYPE** pour les deux objets MAPI_MESSAGE. 
+Pour vous assurer que vous copiez entre les objets du même type, vérifiez que l’objet source et de destination sont le même type, soit en comparaison des pointeurs d’objet ou en appelant [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx). Définir l’identificateur d’interface désigné par _lpInterface_ à l’interface standard pour l’objet source. En outre, n’oubliez pas que le type d’objet ou la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) est la même pour les deux objets. Par exemple, si vous copiez à partir d’un message, définissez _lpInterface_ IID_IMessage et le **PR_OBJECT_TYPE** pour les deux objets MAPI_MESSAGE. 
   
 Si un pointeur non valide est passé dans le paramètre _lpDestObj_ , le résultat est imprévisible. 
   
@@ -189,13 +189,13 @@ La balise de propriété **PR_NULL** ([PidTagNull](pidtagnull-canonical-property
   
 L’utilité de la fonctionnalité **CopyTo** pour exclure des interfaces n’est peut-être pas comme évidente comme l’utilité de l’exclusion des propriétés. Vous pouvez exclure une interface lors de la copie à un objet qui n’a pas connaissance d’un groupe de propriétés. Par exemple, si vous copiez les propriétés d’un dossier à une pièce jointe, les seules propriétés fonctionnant avec la pièce jointe sont les propriétés génériques disponibles avec n’importe quelle implémentation [IMAPIProp](imapipropiunknown.md) . En excluant [IMAPIFolder](imapifolderimapicontainer.md) à partir de l’opération de copie, la pièce jointe ne reçoit pas toutes les propriétés de dossier plus spécifiques. 
   
-Lorsque vous utilisez le paramètre _rgiidExclude_ pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, à l’exclusion de [IMAPIContainer](imapicontainerimapiprop.md) , dossiers ou conteneurs de carnet d’adresses à exclure, selon le type de fournisseur. N’excluent pas **IMAPIProp** ou [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) , car les interfaces autant dérivent de ces derniers. 
+Lorsque vous utilisez le paramètre _rgiidExclude_ pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, à l’exclusion de [IMAPIContainer](imapicontainerimapiprop.md) , dossiers ou conteneurs de carnet d’adresses à exclure, selon le type de fournisseur. N’excluent pas **IMAPIProp** ou [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) , car les interfaces autant dérivent de ces derniers. 
   
 MAPI_E_COMPUTED ignorer les erreurs renvoyées dans la structure **SPropProblemArray** dans le paramètre _lppProblems_ . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -212,7 +212,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md)
   

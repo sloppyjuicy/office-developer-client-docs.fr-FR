@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: Obtenir de l’instance actuelle de ProjectContext ; récupérer et parcourir la collection de projets publiés sur le serveur ; créer, récupérer, extraire et supprimer un projet à l’aide du modèle objet de Project Server JavaScript ; et modifier les propriétés d’un projet.
-ms.openlocfilehash: 966c1298d210cb608001e4ce2b390611a75bdb24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787791"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382910"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Créer, extraire, mettre à jour et supprimer des projets à l’aide de Project Server JavaScript
 
@@ -53,7 +53,7 @@ Les étapes suivantes créent une solution Visual Studio 2012 qui contient un pr
     
 6. Dans la boîte de dialogue **Assistant Personnalisation de SharePoint**, sélectionnez **déployer en tant qu'une solution de batterie de serveurs**, puis cliquez sur le bouton **Terminer**. 
     
-7. Modifier la valeur de la propriété **URL du Site** pour le projet **ProjectsJSOM** correspondre à l’URL de l’instance Project Web App (par exemple, `http://ServerName/PWA`).
+7. Modifier la valeur de la propriété **URL du Site** pour le projet **ProjectsJSOM** correspondre à l’URL de l’instance Project Web App (par exemple, `https://ServerName/PWA`).
     
 ### <a name="to-create-the-application-page-in-visual-studio"></a>Pour créer la page d’application dans Visual Studio
 
@@ -61,7 +61,7 @@ Les étapes suivantes créent une solution Visual Studio 2012 qui contient un pr
     
 2. Dans le dossier **dispositions** , ouvrez le menu contextuel pour le dossier **ProjectsJSOM** , puis ajoutez une nouvelle page d’application SharePoint nommée ProjectsList.aspx.
     
-3. Ouvrez le menu contextuel de la page **ProjectsList.aspx** et sélectionnez **définir comme élément de démarrage**.
+3. Ouvrez le menu contextuel de la page **ProjectsList.aspx** et choisissez **Définir comme élément de démarrage**.
     
 4. Dans le balisage de la page **ProjectsList.aspx** , définissez les contrôles d’interface utilisateur dans les balises **Asp : contenu** « Main », comme suit. 
     
@@ -102,7 +102,7 @@ Les étapes suivantes créent une solution Visual Studio 2012 qui contient un pr
     
    - [Supprimer des projets de Project Server 2013 à l’aide du modèle objet JavaScript](#pj15_CRUDProjectsJSOM_DeleteProjects)
     
-7. Pour tester la page applications, dans la barre de menus, choisissez **débogage**, **Démarrer le débogage**. Si vous êtes invité à modifier le fichier web.config, cliquez sur **OK**.
+7. Pour tester la page d’application, dans la barre de menus, sélectionnez **Déboguer**, puis **Démarrer le débogage**. Si vous êtes invité à modifier le fichier web.config, cliquez sur **OK**.
     
 ## <a name="create-project-server-2013-projects-by-using-the-javascript-object-model"></a>Créer des projets de Project Server 2013 à l’aide du modèle objet JavaScript
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
@@ -351,7 +351,7 @@ Collez le code suivant entre les balises de **script** que vous avez ajoutée da
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Tâches de programmation du projet](project-programming-tasks.md)
-- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)
+- [Tâches de programmation Project](project-programming-tasks.md)
+- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)
     
 

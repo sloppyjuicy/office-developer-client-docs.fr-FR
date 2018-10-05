@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données.
-ms.openlocfilehash: 157213476214c736367b724dd6ca944060c53467
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e2baaeed38318f35d4bd4ce4269f71b6304b148f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788416"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387285"
 ---
 # <a name="datarecordset-element-datarecordsetstype-complextype-visio-xml"></a>DataRecordSet, élément (DataRecordSets_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |recordsets.Xml  <br/> |
    

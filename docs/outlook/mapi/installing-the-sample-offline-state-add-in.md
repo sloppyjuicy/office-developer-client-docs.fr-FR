@@ -6,24 +6,24 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Dernière modification : 06 juillet 2012'
-ms.openlocfilehash: 7616c3a6077b9354cda7046c0949e7c5553f6551
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586836"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389196"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Installation de l’exemple de complément d’état hors connexion
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente les étapes pour télécharger et installer le complément exemple hors connexion état. Le complément exemple hors connexion état est un complément COM qui ajoute un menu **État hors connexion** dans Outlook et utilise l’API de l’état en mode hors connexion. Via le menu état hors connexion, vous pouvez activer ou désactiver l’analyse de l’état, vérifiez l’état actuel et modifier l’état actuel. Pour plus d’informations sur la façon dont le complément état hors connexion est implémenté, voir [définition d’une en mode hors connexion de l’état Add-in](setting-up-an-offline-state-add-in.md).
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Installer l’exemple en mode hors connexion d’état complément
 
-1. Télécharger l’exemple hors connexion état complément ici : [exemples de Code de référence Outlook 2007 supplémentaire et programme d’installation redistribuable](http://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Télécharger l’exemple hors connexion état complément ici : [exemples de Code de référence Outlook 2007 supplémentaire et programme d’installation redistribuable](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Exécutez Visual Studio 2005 en tant qu’administrateur.
     

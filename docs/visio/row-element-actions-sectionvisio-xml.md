@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: Contient des lignes qui décrivent les options de menu contextuel ou de balise d’action d’une forme ou d’une page.
-ms.openlocfilehash: 67ddbf633a93a8295667d10d8957828ff4c76bfe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789510"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388909"
 ---
 # <a name="row-element-actions-section-visio-xml"></a>Row, élément (Section Actions) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient des lignes qui décrivent les options de menu contextuel ou de balise d
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Masters.XML, maître # .xml, pages.xml, page # .xml  <br/> |
    

@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilisez les fonctions définies par l’utilisateur (UDF) dans Excel Online dans Office Online Server Preview pour appeler des fonctions personnalisées.
-ms.openlocfilehash: 12f452241754be1b4b1e545c69225aed055f4965
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2b76b7351a0882762165e37b55c8fbe78f657c34
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590181"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384821"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server-preview"></a>Configurer des UDF dans Excel Online dans Office Server Online Preview
 
@@ -82,12 +82,12 @@ Utiliser les applets de commande Windows PowerShell suivante pour travailler ave
 
 Les fichiers suivants fournissent un exemple de classeur qui utilise un fichier UDF et le fichier UDF binaires :
   
-- [BooleanDataType.xlsx](http://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un exemple de classeur qui utilise un fichier UDF  
+- [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx) --un exemple de classeur qui utilise un fichier UDF  
 - [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll) --le fichier binaire UDF 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Configurer les paramètres d’administration Excel Online](https://docs.microsoft.com/en-us/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/en-us/officeonlineserver/office-online-server)
+- [Configurer les paramètres d’administration Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 

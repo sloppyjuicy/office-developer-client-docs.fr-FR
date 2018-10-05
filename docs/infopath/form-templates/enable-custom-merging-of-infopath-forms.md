@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: La fonctionnalité de fusion de formulaires de l’éditeur de Microsoft InfoPath est conçue pour combiner les données de plusieurs formulaires dans un formulaire.
-ms.openlocfilehash: e0e6bfc074829f262d7eef3cf7bf6a86c3b2253b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782351"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386914"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Activation de la fusion personnalisée de formulaires InfoPath
 
@@ -25,7 +25,7 @@ L'agrégation des données qui résulte de la fusion de formulaires peut inclure
     
 ## <a name="creating-a-custom-transform"></a>Création d'une transformation personnalisée
 
-L'opération de fusion par défaut des formulaires fonctionne bien pour les formulaires basés sur le même schéma XML. Dans certains cas, cependant, vous souhaiterez fusionner des formulaires basés sur des schémas différents ou remplacer l'opération de fusion par défaut pour des formulaires qui sont basés sur le même schéma. Pour ces scénarios, vous pouvez créer une transformation XSL qui contient des instructions d'agrégation pour l'opération de fusion. La transformation est appliquée au moment de la fusion pour créer un document DOM qui contient les informations à importer, avec des annotations qui spécifient la façon d'incorporer ces informations dans le document cible. Ces annotations sont des attributs XML dans l'espace de noms  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+L'opération de fusion par défaut des formulaires fonctionne bien pour les formulaires basés sur le même schéma XML. Dans certains cas, cependant, vous souhaiterez fusionner des formulaires basés sur des schémas différents ou remplacer l'opération de fusion par défaut pour des formulaires qui sont basés sur le même schéma. Pour ces scénarios, vous pouvez créer une transformation XSL qui contient des instructions d'agrégation pour l'opération de fusion. La transformation est appliquée au moment de la fusion pour créer un document DOM qui contient les informations à importer, avec des annotations qui spécifient la façon d'incorporer ces informations dans le document cible. Ces annotations sont des attributs XML dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 Les attributs XML et leurs valeurs servent d'instructions d'agrégation sur la façon dont chaque nœud est fusionné dans le document XML de destination. Ces attributs sont décrits dans les sections suivantes.
   
@@ -70,7 +70,7 @@ Si la valeur de l'attribut **agg:action** est « delete », chacun des élément
  agg:action="delete"/>
 ```
 
-En conjonction avec les attributs spécifiés dans l'espace de noms  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, vous utilisez l'espace de noms  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` pour indiquer un objet XSL qui implémente l'interface **IXMLDOMDocument**. La méthode **get-documentElement** est l'un des membres les plus utiles de cette interface.
+En conjonction avec les attributs spécifiés dans l'espace de noms  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, vous utilisez l'espace de noms  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` pour indiquer un objet XSL qui implémente l'interface **IXMLDOMDocument**. La méthode **get-documentElement** est l'un des membres les plus utiles de cette interface.
   
 ### <a name="get-documentelement"></a>get-documentElement
 
@@ -102,10 +102,10 @@ La fonction **target:get-documentElement** fournit l'accès au DOM (Document Obj
     
     ```XML
         <?xml version="1.0"?> 
-        <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
+        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8c7ca5b2b6f5f3131c2fcb70ff0043825a68a91f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580123"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385836"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propriété canonique PidTagClientSubmitTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure à laquelle que l’expéditeur du message envoyé un message. 
   
@@ -42,7 +42,7 @@ Le fournisseur de banque définit l’heure à laquelle l’application cliente 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     

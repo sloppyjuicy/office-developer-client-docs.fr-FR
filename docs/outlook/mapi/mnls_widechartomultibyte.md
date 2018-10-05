@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f64cde12-7ed1-444f-8ca4-51cb3ea514cf
 description: 'Dernière modification : 21 février 2012'
-ms.openlocfilehash: 6957888f6727175d73d277cf4f5b84dc234d22ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad41f9b6060e5cfbabecfd9bb29a47815929d6b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570036"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385514"
 ---
 # <a name="mnlswidechartomultibyte"></a>MNLS_WideCharToMultiByte
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette fonction est similaire à **WideCharToMultiByte**qui mappe la chaîne UTF-16 (caractères étendus) avec une nouvelle chaîne de caractères. La nouvelle chaîne de caractères est pas nécessairement à partir d’un caractère multi-octets définie.
   
@@ -69,17 +69,17 @@ int MNLS_WideCharToMultiByte(
   
 > [out] Facultatif. Pointeur vers un indicateur qui indique si la fonction a utilisé un caractère par défaut lors de la conversion.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Renvoie le nombre d’octets écrits dans la mémoire tampon vers laquelle pointée _lpMultiByteStr_ si l’opération réussit. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction encapsule la fonction **WideCharToMultiByte** . Pour plus d’informations, voir [WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx).
+Cette fonction encapsule la fonction **WideCharToMultiByte** . Pour plus d’informations, voir [WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[WideCharToMultiByte](http://msdn.microsoft.com/en-us/library/dd374130%28VS.85%29.aspx)
+[WideCharToMultiByte](https://msdn.microsoft.com/library/dd374130%28VS.85%29.aspx)
 

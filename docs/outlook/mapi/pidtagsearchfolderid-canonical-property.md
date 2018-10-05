@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c822600bf9090151fe18d3bf7cab0515fc360a4e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 1a8de27358e0987e8f686cc11ab4b02a0bd07f6c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583504"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382532"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>Propriété canonique PidTagSearchFolderId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un identificateur global unique (GUID) qui identifie le dossier de recherche.
   
@@ -38,11 +38,11 @@ Contient un identificateur global unique (GUID) qui identifie le dossier de rech
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour la manipulation d’une configuration de liste de dossier de recherche.
     

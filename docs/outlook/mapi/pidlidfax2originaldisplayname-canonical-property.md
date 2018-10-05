@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f521e27-834c-4fb5-9782-2c5d1380690f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fc7f4e5f0de940d852665fee3c32838b437895a2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b0ff001dd02b577fd6c08f3f857c4194d3afc1b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563169"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384415"
 ---
 # <a name="pidlidfax2originaldisplayname-canonical-property"></a>Propriété canonique PidLidFax2OriginalDisplayName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le nom complet d’origine de l’adresse de télécopie (domicile).
   
@@ -43,11 +43,11 @@ Cette propriété, le cas échéant, doit avoir la même valeur que la propriét
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

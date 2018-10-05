@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8d35a16432e1a7f7e78cce600d4a1bfa3133458b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5c3ad9c5e810e26a80b16fba2a3a1c2f7dd7889
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594823"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387803"
 ---
 # <a name="pidtagmessagehandlingsystemcommonname-canonical-property"></a>Propriété canonique PidTagMessageHandlingSystemCommonName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom commun du système de gestion des messages.
   
@@ -42,11 +42,11 @@ Ces propriétés contiennent le nom commun du système de gestion des messages.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
     

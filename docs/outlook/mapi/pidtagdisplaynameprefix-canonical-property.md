@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 014ce1aa-30b9-4106-82a1-447c370853cf
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: aa309a15cf25b3b57bc916eff0bbf18c1f786475
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f35ddc2ccec73e485322345fc3bd7d8c7428bc27
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586682"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383512"
 ---
 # <a name="pidtagdisplaynameprefix-canonical-property"></a>Propriété canonique PidTagDisplayNamePrefix
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le préfixe de nom d’affichage (tels que des échecs, M., Mme) pour l’utilisateur de messagerie. 
   
@@ -42,15 +42,15 @@ Ces propriétés permettent d’identifier et accéder aux informations sur un u
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
     

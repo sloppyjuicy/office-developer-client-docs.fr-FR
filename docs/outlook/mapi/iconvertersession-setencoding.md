@@ -11,17 +11,17 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3edcb422eb0e3dd415d49c5e014c8b69095e7ec1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577204"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382420"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Initialise le codage à utiliser lors de la conversion.
   
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Une valeur [ENCODINGTYPE](http://msdn.microsoft.com/en-us/library/aa374936%28VS.85%29.aspx) . Uniquement les valeurs suivantes sont prises en charge : 
+> Une valeur [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Uniquement les valeurs suivantes sont prises en charge : 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -43,7 +43,7 @@ _et_
    - IET_7BIT
    - IET_8BIT
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 E_INVALIDARG
   
@@ -55,9 +55,9 @@ Appelez **SetEncoding** avant d’utiliser [IConverterSession::MAPIToMIMEStm](ic
   
 Utilisez **SetEncoding** pour définir le codage pour seulement le corps du message extérieur d’un élément de messagerie. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisissent le codage pour les pièces jointes individuels. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

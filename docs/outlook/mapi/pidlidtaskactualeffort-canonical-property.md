@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a145a103620d23dae4f6a48c225251e8aecc278e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7eb51396f4575a8f8f9ce15aff84eb894773e979
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593668"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382581"
 ---
 # <a name="pidlidtaskactualeffort-canonical-property"></a>Propriété canonique PidLidTaskActualEffort
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique le nombre de minutes que l’utilisateur a effectué une tâche.
   
@@ -43,11 +43,11 @@ La valeur doit être supérieure ou égale à 0 et inférieur à 0x5AE980DF (1,5
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les objets de liste de distribution personnelle.
     

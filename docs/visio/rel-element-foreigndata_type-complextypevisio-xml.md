@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: Spécifie une relation entre une forme et un composant de document qui contient les données d’image associées à la forme.
-ms.openlocfilehash: f54cd76788d6f5d916b9ed181f309687109dd589
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2667d5b0b940384f10df62dfc0fbf6acfa7d4ba6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383442"
 ---
 # <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Élément REL (ForeignData_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une relation entre une forme et un composant de document qui contient 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |pages.XML, masters.xml, recordsets.xml, page # .xml, maître # .xml  <br/> |
    
@@ -58,6 +58,6 @@ Aucun.
 
 La valeur de l’attribut **r : id** doit être un type **ST_RelationshipID** . Le type **ST_RelationshipID** est une chaîne qui doit être au format « débarrasser # », où le dernier caractère doit être un nombre. Le numéro doit être unique parmi tous les éléments frères de l’élément **Rel** . 
   
-Pour plus d’informations sur le type ST_RelationshipID, consultez la [spécification ISO/IEC 29500 partie 1](http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Pour plus d’informations sur le type ST_RelationshipID, consultez la [spécification ISO/IEC 29500 partie 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

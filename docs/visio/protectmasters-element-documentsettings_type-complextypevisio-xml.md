@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
 description: Spécifie si l’utilisateur est empêché de création, modification ou la suppression des formes de base. L’utilisateur peut toujours créer des nouvelles formes à partir d’une forme de base, quel que soit ce paramètre.
-ms.openlocfilehash: cb576f267e076b06f2088ce53a18e9af36a46b0c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2730fa3aa3f9f4f7529d6b939e48d3533e31e1f3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789357"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386445"
 ---
 # <a name="protectmasters-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectMasters (DocumentSettings_Type, complexType) (« Visio XML »)
 
@@ -25,7 +25,7 @@ La plage de valeurs possibles pour cet élément est « 0 » ou « 1 ». Une
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

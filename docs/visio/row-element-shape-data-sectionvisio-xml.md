@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: Spécifie une entrée de données de forme pour associer les données à une forme.
-ms.openlocfilehash: 19dc4fe4759e7546f56160e41100d73721f9f6e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7857ad8a28e11d6ed3ba34145ffc0606f306120f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385507"
 ---
 # <a name="row-element-shape-data-section-visio-xml"></a>Row, élément (Section Shape Data) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une entrée de données de forme pour associer les données à une for
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Forme type_de_données](propertyrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    

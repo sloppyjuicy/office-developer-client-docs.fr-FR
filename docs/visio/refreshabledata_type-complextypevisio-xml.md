@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d715737a-1daa-4c61-e1c6-c997b1b71302
-ms.openlocfilehash: 136e9db7c185ec6c629c93c7ca0cda4040121f30
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6313799e6be26720e9d6c3b5677ca0ab3783e6b7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789421"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388944"
 ---
 # <a name="refreshabledatatype-complextype-visio-xml"></a>Type complexe RefreshableData_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19789421"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |Aucune  <br/> |
    

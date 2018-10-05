@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7d5f63a7a57a01096151b3b6992796381ebddbdc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a4ad72c147abebfe9863d19690bc9f27f00544a2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574516"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386921"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Propriété canonique PidTagSearchFolderTag
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur utilisée pour synchroniser ce message définition avec le conteneur de dossiers de recherche correspondant.
   
@@ -40,11 +40,11 @@ Cette propriété est modifiée lorsque le message de la définition est modifi�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour la manipulation d’une configuration de liste de dossier de recherche.
     

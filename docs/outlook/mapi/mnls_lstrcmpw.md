@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
 description: 'Dernière modification : 18 juin 2012'
-ms.openlocfilehash: 36e22c60b32242425335b122b66c2c77e376848b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03b0eb794b07bc56ec6dce4a567d89294b2c908a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580116"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386347"
 ---
 # <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Compare deux chaînes Unicode.
   
@@ -39,7 +39,7 @@ int MNLS_lstrcmpW(
   
 > [in] Pointeur vers la deuxième chaîne Unicode à comparer.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Renvoie les valeurs décrites pour un appel à **MNLS_CompareStringW** à l’exception de CSTR_EQUAL équivalent. 
   
@@ -51,5 +51,5 @@ Renvoie les valeurs décrites pour un appel à **MNLS_CompareStringW** à l’ex
 
 
 
-[GetUserDefaultLCID](http://msdn.microsoft.com/en-us/library/dd318135%28VS.85%29.aspx)
+[GetUserDefaultLCID](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

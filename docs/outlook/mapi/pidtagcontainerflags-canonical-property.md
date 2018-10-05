@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b62fc62bb9232b7106019fca82f502221e50bad0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c9c446097213e5b743a47ec32db17ec0afe63b78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583560"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389182"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriété canonique PidTagContainerFlags
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un masque binaire composé des indicateurs décrivant les fonctionnalités d’un conteneur de carnet d’adresses. 
   
@@ -68,15 +68,15 @@ L’indicateur AB_MODIFIABLE n’indique pas les types d’entrées peuvent êtr
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOABK]](http://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
     
-[[MS-NSPI]](http://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
 > Gère les communications d’un client avec un serveur NSPI Name Service Provider Interface ().
     

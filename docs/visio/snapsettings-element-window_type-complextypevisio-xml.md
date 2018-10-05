@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: Spécifie les objets formes s’alignent lorsque l’alignement est actif dans la fenêtre.
-ms.openlocfilehash: 55558301b1f85f70f723d4282b438e4883d90c25
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b4793c6d9c13a922db4d3ed9504a3a08e933230a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789772"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385206"
 ---
 # <a name="snapsettings-element-windowtype-complextype-visio-xml"></a>SnapSettings, élément (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les objets formes s’alignent lorsque l’alignement est actif dans l
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -42,7 +42,8 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -50,7 +51,7 @@ Aucun.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ## <a name="remarks"></a>Remarques
 

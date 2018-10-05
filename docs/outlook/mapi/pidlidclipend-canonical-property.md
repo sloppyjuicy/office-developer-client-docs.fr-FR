@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b1b18db072cb7c62c10c8ee4ab79dd1d8754388f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 71a0a50f26b26d65ed34f38c2a0c7f930e6082a8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588019"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386067"
 ---
 # <a name="pidlidclipend-canonical-property"></a>Propriété canonique PidLidClipEnd
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la date de fin et l’heure de l’événement dans le temps universel coordonné (UTC) pour les objets de calendrier d’instance unique. 
   
@@ -45,11 +45,11 @@ La valeur de cette propriété doit être définie à la valeur de la **dispidAp
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

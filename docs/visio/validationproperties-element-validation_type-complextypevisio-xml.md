@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
 description: Encapsule les propriétés qui sont liées à la validation du document.
-ms.openlocfilehash: 4f91160969cfb162f18440019ced23ea62061879
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9eccb85bd7463411d81c867eda3216d6c9a207f2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789993"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385220"
 ---
 # <a name="validationproperties-element-validationtype-complextype-visio-xml"></a>Élément propriétésla (Validation_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Encapsule les propriétés qui sont liées à la validation du document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |validation.Xml  <br/> |
    

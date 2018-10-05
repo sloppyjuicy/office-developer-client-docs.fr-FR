@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fb048d622aaf3cfa97f380e21324749d7421603e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ca31aece48236227a03d8e2114f8af4b127b8f90
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563687"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384142"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriété canonique PidTagSubmitFlags
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un masque de bits d’indicateurs indiquant le plus d’informations sur un envoi de message.
   
@@ -50,11 +50,11 @@ SUBMITFLAG_PREPROCESS
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
     

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cd7a287a2240d372edf6cca6bac522266c0ca620
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 00c07069ed174fe55556dfe48398d65b4e64100e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581166"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382665"
 ---
 # <a name="pidtagreceivedbyaddresstype-canonical-property"></a>Propriété canonique PidTagReceivedByAddressType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le type d’adresse e-mail, par exemple SMTP, de l’utilisateur de messagerie qui ne reçoive effectivement le message.
   
@@ -44,11 +44,11 @@ La chaîne de type d’adresse peut contenir uniquement des caractères alphabé
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

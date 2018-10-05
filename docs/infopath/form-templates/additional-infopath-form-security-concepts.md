@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: Le modèle de sécurité Microsoft InfoPath repose sur le modèle de sécurité mis en œuvre par Internet Explorer. Le modèle de sécurité Internet Explorer contribue à protéger votre ordinateur contre les opérations risquées en utilisant des zones et des niveaux de sécurité. En collaborant avec le modèle de sécurité Internet Explorer, InfoPath fournit deux types de déploiement de formulaires qui affectent le fonctionnement d'un formulaire InfoPath au sein de ce modèle de sécurité.
-ms.openlocfilehash: dc155e2c2962e2cca2b4465e5a9632f92488cef9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782338"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387418"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>Autres concepts de sécurité pour les formulaires InfoPath
 
@@ -75,7 +75,7 @@ Le scénario le plus courant pour l'utilisation malveillante des contrôles Acti
   
 Le modèle de sécurité Internet Explorer sur lequel repose Microsoft InfoPath fournit un paramètre appelé **Contrôles d'initialisation et de script ActiveX non marqués comme sécurisés** qui, par défaut, aboutit aux actions suivantes pour les formulaires InfoPath ou les volets des tâches qui tentent d'initialiser ou d'utiliser dans des scripts des contrôles ActiveX marqués comme non sécurisés pour les scripts. 
   
-|**Zone de sécurité/déploiement**|**Action**|
+|**Zone de sécurité/Déploiement**|**Action**|
 |:-----|:-----|
 |Internet  <br/> |Désactivé  <br/> |
 |Intranet local  <br/> |Désactivé  <br/> |
@@ -106,7 +106,7 @@ Le tableau suivant récapitule les autorisations par défaut pour chaque méthod
   
 |**Zone de sécurité**|**Déploiement**|**Autorisations par défaut**|
 |:-----|:-----|:-----|
-||**Basée sur une URL** <br/> |**Type URN** <br/> |**ActiveX marqués comme non sécurisé pour les scripts** <br/> |**Accès aux données inter-domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
+||**URL** <br/> |**URN** <br/> |**ActiveX marqués comme non sécurisés pour les scripts** <br/> |**Accès aux données d'autres domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
 |Sites sensibles  <br/> |N/A  <br/> |S/O  <br/> |S/O  <br/> |S/O  <br/> |N/A  <br/> |
 |Internet  <br/> |X   <br/> ||Désactiver  <br/> |Désactiver  <br/> |2  <br/> |
 |Intranet local  <br/> |X   <br/> ||Désactiver  <br/> |Demander  <br/> |2  <br/> |
@@ -154,7 +154,7 @@ Tous les formulaires du module de création d'InfoPath sont créés avec une ide
   
 ## <a name="activex-controls"></a>Contrôles ActiveX
 
-InfoPath prend en charge l'hébergement des contrôles ActiveX dans les formulaires qui sont ouverts dans l'éditeur InfoPath. Les contrôles ActiveX peuvent être préexistants (avec certaines contraintes) ou être écrits spécifiquement pour être utilisés avec InfoPath. Les contrôles ActiveX qui sont utilisés dans des formulaires InfoPath ne sont pas téléchargés automatiquement à partir des sites Web. Au lieu de ça, les fichiers CAB des contrôles ActiveX qui ne sont pas déjà présents sur l'ordinateur de l'utilisateur doivent être ajoutés dans le fichier du modèle de formulaire.
+InfoPath prend en charge l'hébergement des contrôles ActiveX dans les formulaires qui sont ouverts dans l'éditeur InfoPath. Les contrôles ActiveX peuvent être préexistants (avec certaines contraintes) ou être écrits spécifiquement pour être utilisés avec InfoPath. Les contrôles ActiveX qui sont utilisés dans les formulaires InfoPath ne sont pas téléchargés automatiquement à partir des sites Web. Au lieu de ça, les fichiers CAB des contrôles ActiveX qui ne sont pas déjà présents sur l'ordinateur de l'utilisateur doivent être ajoutés dans le fichier du modèle de formulaire.
   
 Quand un contrôle ActiveX est utilisé dans un formulaire alors qu'il n'est pas inscrit sur l'ordinateur de l'utilisateur, le comportement à l'ouverture du formulaire dépend des paramètres de ce contrôle ActiveX dans le formulaire. Si aucun fichier CAB n'est inclus dans le fichier du modèle de formulaire, InfoPath n'ouvre pas le formulaire. Si le fichier CAB est présent dans le fichier du modèle de formulaire, InfoPath démarre un processus d'installation. Pour qu'InfoPath installe un fichier CAB, le fichier doit être signé et la signature doit émaner d'un éditeur approuvé. Si l'éditeur ne figure pas déjà dans la liste des éditeurs approuvés de l'utilisateur qui dispose d'un certificat (avec une chaîne d'approbation menant à une racine de certification approuvée), l'utilisateur sera invité à accepter ou refuser l'approbation de l'éditeur. Si l'utilisateur décide de ne pas approuver l'éditeur, le fichier CAB du contrôle ne sera pas installé et InfoPath n'ouvrira pas le formulaire.
   

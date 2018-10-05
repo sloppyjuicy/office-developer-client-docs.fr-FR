@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8086bc3ea35fdbb4e0f7758b7931e305259a3a9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3ecfa1e89688ae525a28e221424fb4a8194fc217
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578667"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386669"
 ---
 # <a name="pidtagswappedtododata-canonical-property"></a>Propriété canonique PidTagSwappedToDoData
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Gère un second ensemble de valeurs de propriété qui n’affectent pas l’état de l’objet du Message avec indicateur.
   
@@ -40,21 +40,21 @@ Agir comme l’emplacement de stockage indicateur secondaire si indicateurs de l
   
 De même, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole de signalisation d’information qui sont prises en charge dans les indicateurs de destinataires et relative au protocole de paramètres de rappel qui sont prises en charge dans un destinataire rappels sur un message envoyé précédemment.
   
-Pour plus d’informations sur cette propriété, voir [[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
+Pour plus d’informations sur cette propriété, voir [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations liées aux marquage.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
     

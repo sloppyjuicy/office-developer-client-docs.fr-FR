@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e4e5986de3cdc4da3ac1e4fa2ec6da95da6e8e44
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: bc98b201b31048e22e093d92c9cf2d5ff1fb0257
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563575"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383148"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Création d’applications MAPI sur les plateformes 32 bits et 64 bits
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit les actions que les développeurs MAPI à suivre pour modifier et régénérer les applications MAPI 32 bits de s’exécuter sur une plateforme 64 bits et 64 bits des applications à exécuter sur une plateforme 32 bits. Dans cette rubrique, une plateforme 64 bits est un ordinateur équipé de 64 bits de Microsoft Outlook et Windows 64 bits, et une plateforme 32 bits est un ordinateur installé avec Outlook 32 bits de Windows 32 bits ou 64 bits. 
   
@@ -53,7 +53,7 @@ Les applications MAPI compilées pour un sous-système MAPI 32 bits qui est disp
   
 ### <a name="32-bit-mapi-application-and-64-bit-outlook"></a>application de MAPI 32 bits et 64 bits Outlook
 
-les applications MAPI 32 bits ne sont pas pris en charge pour s’exécuter sur un ordinateur installé avec Outlook 64 bits et 64 bits de Windows. Le développeur d’applications doit mettre à jour et recréer l’application sous la forme d’une application 64 bits pour la plateforme 64 bits. Il s’agit comme une application 32 bits ne peut pas charger un fichier Msmapi32.dll de 64 bits. Il existe un petit nombre de modifications apportées aux API que les développeurs d’applications doivent comporter pour générer leur code avec succès pour un environnement 64 bits. Fichiers d’en-tête MAPI ont été mis à jour avec ces modifications pour prendre en charge de la plateforme 64 bits. Vous pouvez télécharger ces fichiers d’en-tête [Outlook 2010 : fichiers d’en-tête MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Développeurs peuvent utiliser ce même ensemble de fichiers d’en-tête MAPI pour créer des applications MAPI 32 bits et 64 bits.
+les applications MAPI 32 bits ne sont pas pris en charge pour s’exécuter sur un ordinateur installé avec Outlook 64 bits et 64 bits de Windows. Le développeur d’applications doit mettre à jour et recréer l’application sous la forme d’une application 64 bits pour la plateforme 64 bits. Il s’agit comme une application 32 bits ne peut pas charger un fichier Msmapi32.dll de 64 bits. Il existe un petit nombre de modifications apportées aux API que les développeurs d’applications doivent comporter pour générer leur code avec succès pour un environnement 64 bits. Fichiers d’en-tête MAPI ont été mis à jour avec ces modifications pour prendre en charge de la plateforme 64 bits. Vous pouvez télécharger ces fichiers d’en-tête [Outlook 2010 : fichiers d’en-tête MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Développeurs peuvent utiliser ce même ensemble de fichiers d’en-tête MAPI pour créer des applications MAPI 32 bits et 64 bits.
   
 ### <a name="64-bit-mapi-application-and-64-bit-outlook"></a>application de MAPI 64 bits et 64 bits Outlook
 
@@ -61,7 +61,7 @@ les applications MAPI 64 bits sont pris en charge sur les ordinateurs installés
   
 ### <a name="64-bit-mapi-application-and-32-bit-outlook"></a>application de MAPI 64 bits et 32 bits Outlook
 
-les applications MAPI 64 bits ne sont pas pris en charge pour s’exécuter sur un ordinateur installé avec Outlook 32 bits et 32 bits ou 64 bits de Windows. Le développeur d’applications doit mettre à jour et recréer l’application sous la forme d’une application 32 bits fonctionne avec Outlook 32 bits. Utiliser les fichiers d’en-tête MAPI mis à jour, que vous pouvez télécharger à [Outlook 2010 : fichiers d’en-tête MAPI](http://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Développeurs peuvent utiliser ce même ensemble de fichiers d’en-tête MAPI pour créer des applications MAPI 32 bits et 64 bits.
+les applications MAPI 64 bits ne sont pas pris en charge pour s’exécuter sur un ordinateur installé avec Outlook 32 bits et 32 bits ou 64 bits de Windows. Le développeur d’applications doit mettre à jour et recréer l’application sous la forme d’une application 32 bits fonctionne avec Outlook 32 bits. Utiliser les fichiers d’en-tête MAPI mis à jour, que vous pouvez télécharger à [Outlook 2010 : fichiers d’en-tête MAPI](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Développeurs peuvent utiliser ce même ensemble de fichiers d’en-tête MAPI pour créer des applications MAPI 32 bits et 64 bits.
   
 ### <a name="exception-mapisendmail"></a>Exception : MAPISendMail
 

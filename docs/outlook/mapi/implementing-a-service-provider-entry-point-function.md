@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 40bbe110c7453cf2360fc103710fbc3bcb7f1c67
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 14dd11f873493e32b83dbd1960cac8ff8ef8e436
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572052"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387047"
 ---
 # <a name="implementing-a-service-provider-entry-point-function"></a>Implémentation d’une fonction de point d’entrée de fournisseur de services
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Chaque fournisseur de services DLL a une entrée fonction appels MAPI pour le charger de point. Sachez que cette fonction de point d’entrée n’est pas le même que [DllMain](http://msdn.microsoft.com/en-us/library/ms682583.aspx), la fonction de point d’entrée DLL Win32.
+Chaque fournisseur de services DLL a une entrée fonction appels MAPI pour le charger de point. Sachez que cette fonction de point d’entrée n’est pas le même que [DllMain](https://msdn.microsoft.com/library/ms682583.aspx), la fonction de point d’entrée DLL Win32.
   
 Selon le type de votre fournisseur, la fonction de point d’entrée de votre fournisseur est conforme à un prototype différent. MAPI définit les prototypes de fonction de point d’entrée différents pour les fournisseurs de service.
   

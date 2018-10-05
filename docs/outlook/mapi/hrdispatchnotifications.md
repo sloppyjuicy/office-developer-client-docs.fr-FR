@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 60c5d7e980d1dc4d4263a2be2267008dbee1fd4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f4af3f2fd094942c48e02849c60f3e46acb1a5f7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594697"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385563"
 ---
 # <a name="hrdispatchnotifications"></a>HrDispatchNotifications
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Répartition des forces de toutes les notifications en file d’attente. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT HrDispatchNotifications(
@@ -45,7 +45,7 @@ HRESULT HrDispatchNotifications(
   
 > [in] R�serv� ; doit �tre �gal � z�ro. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
@@ -65,6 +65,6 @@ La fonction **HrDispatchNotifications** entraîne MAPI distribuer toutes les not
   
 ## <a name="notes-to-callers"></a>Notes aux appelants
 
-Certaines applications attendent un message de notification dans une boucle de délai d’expiration en utilisant les fonctions [DispatchMessage](http://msdn.microsoft.com/en-us/library/ms644934.aspx) Windows [PeekMessage](http://msdn.microsoft.com/en-us/library/ms644943.aspx) . Sur tous les, mais les plateformes plus rapides, ces applications peuvent rencontrer des performances médiocres ou même blocage de notifications. À l’aide de **HrDispatchNotifications** non seulement réduit code mais améliore les performances. 
+Certaines applications attendent un message de notification dans une boucle de délai d’expiration en utilisant les fonctions [DispatchMessage](https://msdn.microsoft.com/library/ms644934.aspx) Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) . Sur tous les, mais les plateformes plus rapides, ces applications peuvent rencontrer des performances médiocres ou même blocage de notifications. À l’aide de **HrDispatchNotifications** non seulement réduit code mais améliore les performances. 
   
 

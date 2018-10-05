@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6314d91c-4948-4fd1-bacc-932d4bb2c22f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d544c741685d401aaf36fe19be50ab402c9e5604
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 0cbcc8185f6f46a1bfceb2dd6d0aaf9c5d7cab2e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592681"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385164"
 ---
 # <a name="pidtagdefaultstore-canonical-property"></a>Propriété canonique PidTagDefaultStore
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si une banque de messages est la banque de messages par défaut dans la table. 
   
@@ -42,7 +42,7 @@ Cette propriété s’affiche en tant que colonne dans la table. La valeur est b
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     

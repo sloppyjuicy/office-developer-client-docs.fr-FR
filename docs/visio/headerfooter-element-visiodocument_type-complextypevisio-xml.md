@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: Contient les éléments d’en-tête et de pied de page d’un document.
-ms.openlocfilehash: e5933ad318b8100569046668e3cc372ce9a03788
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eabb19100c4b37a546c0a271cfba5a0c865a7e83
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788767"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384443"
 ---
 # <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>HeaderFooter, élément (VisioDocument_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les éléments d’en-tête et de pied de page d’un document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

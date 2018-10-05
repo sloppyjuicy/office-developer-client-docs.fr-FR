@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b9992683-6ea9-4789-8554-024cc1dc7a5d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 110b6e917ac4352256163893d25370d74d33a2b9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 829c94027c9cb4d7167c274f699ffe4e4d6b8b24
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589622"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386984"
 ---
 # <a name="pidnamecontenttype-canonical-property"></a>Propriété canonique PidNameContentType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une valeur de champ d’en-tête Content-Type [RFC3282].
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |Content-Type  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Contient une valeur de champ d’en-tête Content-Type [RFC3282].
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

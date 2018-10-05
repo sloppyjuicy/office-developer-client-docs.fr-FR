@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: Spécifie les auteurs de commentaires dans un dessin.
-ms.openlocfilehash: 0f31e11e52809df60b41cb67b868b15435e0eb47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af1b1889fa3736931c9abde35191cf5cb3e1bbd5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788061"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387740"
 ---
 # <a name="authorlist-element-commentstype-complextype-visio-xml"></a>Élément AuthorList (Comments_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les auteurs de commentaires dans un dessin.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Comments.Xml  <br/> |
    

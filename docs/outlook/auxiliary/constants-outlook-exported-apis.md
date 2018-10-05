@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Cette rubrique contient des définitions de constantes pour les API qui exporte Outlook.
-ms.openlocfilehash: 8b7a9d70b2fc5d26c52a8729797221a44526360c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564464"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386074"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (Outlook des API exportées)
 
@@ -37,7 +37,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## <a name="miscellaneous-dispatch-identifiers"></a>Identificateurs de répartition divers
 
-Outlook expose les identificateurs de répartition suivants (DISPID) afin que les développeurs peuvent utiliser [IDispatch::Invoke](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) pour accéder à la propriété correspondante ou la méthode, ou écouter l’événement correspondant. 
+Outlook expose les identificateurs de répartition suivants (DISPID) afin que les développeurs peuvent utiliser [IDispatch::Invoke](https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) pour accéder à la propriété correspondante ou la méthode, ou écouter l’événement correspondant. 
   
 |**Constante associée**|**Valeur DISPID**|**Description**|**Interface applicable**|
 |:-----|:-----|:-----|:-----|
@@ -51,6 +51,6 @@ Outlook expose les identificateurs de répartition suivants (DISPID) afin que le
 - [API exportées Outlook](outlook-exported-apis.md)
 - [À propos des API exportées par Outlook](about-apis-exported-by-outlook.md)
 - [Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d'Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [Spécifier si vous souhaitez afficher l'image d'un contact dans Outlook (référence auxiliaire d'Outlook)](https://msdn.microsoft.com/en-us/library/office/gg262879.aspx)
+- [Spécifier si vous souhaitez afficher l'image d'un contact dans Outlook (référence auxiliaire d'Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
 - [Événements disponibles et leur DISPID (Outlook des API exportées)](available-events-and-their-dispids-outlook-exported-apis.md)
 

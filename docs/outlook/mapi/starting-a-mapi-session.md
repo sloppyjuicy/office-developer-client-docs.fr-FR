@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9e95423a1aa9a04247a70592a797d2395cafecc4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595369"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382588"
 ---
 # <a name="starting-a-mapi-session"></a>Démarrage d’une session MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Bien qu’il existe une quantité importante de travail effectué au cours de la session de démarrage, les tâches requises sont minimes. Cette opération est effectuée dans l’interface MAPI de traitement des appels [exécuter MAPIInitialize](mapiinitialize.md) et [MAPILogonEx](mapilogonex.md) . Ces deux fonctions acceptent des indicateurs en tant que paramètres d’entrée pour contrôler des aspects de la session de gestion de la notification et l’interface utilisateur. Il est important de comprendre les conséquences de la définition de chacune de ces indicateurs lors de l’appel **exécuter MAPIInitialize** pour initialiser les bibliothèques MAPI et **MAPILogonEx** pour ouvrir une session sur le sous-système MAPI. 
   
@@ -27,7 +27,7 @@ Bien qu’il existe une quantité importante de travail effectué au cours de la
   
 1. Appelez **exécuter MAPIInitialize** pour initialiser l’ensemble standard de bibliothèques de MAPI. 
     
-2. Si vous devez utiliser les bibliothèques OLE, appelez la fonction OLE [OleInitialize](http://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
+2. Si vous devez utiliser les bibliothèques OLE, appelez la fonction OLE [OleInitialize](https://msdn.microsoft.com/library/9a13e7a0-f2e2-466b-98f5-38d5972fa391%28Office.15%29.aspx).
     
 3. Si vous devez utiliser la bibliothèque d’utilitaires MAPI, appelez [ScInitMapiUtil](scinitmapiutil.md).
     

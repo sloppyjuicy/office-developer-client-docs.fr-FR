@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b375ef279fc50aecca75b60d8379438c56f13420
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5f13c2825fc0127b95fbf5bc0b41d68c64556864
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569336"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384086"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Propriété canonique PidTagMessageAttachments
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau des restrictions qui peuvent être appliqués à un tableau de contenu pour trouver tous les messages qui contiennent les sous-objets de pièce jointe répondant aux restrictions. 
   
@@ -46,15 +46,15 @@ Cette propriété peut être utilisée pour la restriction sous-objet en le déf
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCDATA]](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Définit les structures de base de données qui sont utilisés dans les opérations à distance.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Définit les structures de base de données qui sont utilisés dans les opérations à distance.
     
-[[MS-OXCICAL]](http://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
 > La conversion entre IETF RFC2445, RFC2446, RFC2447 et rendez-vous et des objets de la conférence.
     

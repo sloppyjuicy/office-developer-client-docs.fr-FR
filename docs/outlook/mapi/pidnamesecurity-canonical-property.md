@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6e42163-494d-4787-ad83-54452d26b815
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ba26ee19e4bd6efb49f867092c971cb433bfc745
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: e46533b38bc6782a363652dad3cd2bde5adaddc0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571429"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384058"
 ---
 # <a name="pidnamesecurity-canonical-property"></a>Propriété canonique PidNameSecurity
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le niveau de sécurité du fichier qui est attaché au document.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Nom de la propriété :  <br/> |Sécurité  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
@@ -39,11 +39,11 @@ Spécifie le niveau de sécurité du fichier qui est attaché au document.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXODOC]](http://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les documents.
     

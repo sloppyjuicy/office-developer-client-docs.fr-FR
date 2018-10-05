@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45846fe3-7ab3-4019-98bb-fe615889c31c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 639d5e96eb56fb543d6a6026b1c9400631cee819
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 561008782e7c1ffb8bc71cf4e3bc17befe69bbca
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593339"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387845"
 ---
 # <a name="pidlidspamoriginalfolder-canonical-property"></a>Propriété canonique PidLidSpamOriginalFolder
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique quel dossier un message se trouvait avant qu’il a été filtré dans le dossier courrier indésirable.
   
@@ -43,11 +43,11 @@ La valeur de cette propriété est **propriété EntryID** du dossier qui conten
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permet la gestion des listes autoriser/bloquer et la détermination des messages de courrier indésirable.
     

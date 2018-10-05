@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a120fb1710bf2bd351d956e4d05eb0af346ef4c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583385"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384632"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une entrée du destinataire qui comporte des données qui résident dans un fournisseur de carnet d’adresses hôte.
   
@@ -73,7 +73,7 @@ FILL_ENTRY
   
 > [out] Réservé ; doit être **null**.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -101,7 +101,7 @@ Certains exemples de lorsqu’un fournisseur de carnet d’adresses doit implém
     
 - Pour contrôler l’interaction entre les propriétés de l’entrée du fournisseur d’hébergement et l’entrée d’origine, telles que l’informatique **ADRESSE_EMAIL_PR** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) à partir des valeurs des contrôles modifier dans l’affichage des détails qui contiennent des différentes composants de l’adresse.
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Lorsqu’un fournisseur d’hébergement copie ou crée une entrée de votre fournisseur et que vous fournissez une implémentation d’objet de propriété via **IABLogon::OpenTemplateID**, vous gérez la plupart des appels à mettre à jour de l’entrée. Toutefois, car il est le fournisseur d’hébergement pour transférer les appels vers vous, le fournisseur d’hébergement peut intercepter des appels et exécuter le traitement personnalisé avant de transférer l’appel.
   
@@ -117,7 +117,7 @@ Vous devez utiliser les instructions suivantes votre propriété implémentation
     
 En général, rendre votre implémentation de l’entrée que vous passez au fournisseur hôte intercepter toutes les méthodes pour manipuler des contextuelle des propriétés pertinentes. Si l’indicateur FILL_ENTRY est passé dans le paramètre _ulTemplateFlags_ , définissez toutes les propriétés de l’entrée. 
   
-Si vous renvoyez un nouvel objet property dans le paramètre _lppMAPIPropNew_ , appeler la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) d’objet de propriété du fournisseur d’hébergement de maintenir une référence. Une fois qu’ils sont traités par l’objet lié, tous les appels par le biais de l’objet lié l’implémentation **IMAPIProp** renvoyée dans _lppMAPIPropNew_ doivent être acheminés vers leur méthode correspondante dans l’objet de la propriété hôte. 
+Si vous renvoyez un nouvel objet property dans le paramètre _lppMAPIPropNew_ , appeler la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) d’objet de propriété du fournisseur d’hébergement de maintenir une référence. Une fois qu’ils sont traités par l’objet lié, tous les appels par le biais de l’objet lié l’implémentation **IMAPIProp** renvoyée dans _lppMAPIPropNew_ doivent être acheminés vers leur méthode correspondante dans l’objet de la propriété hôte. 
   
 Les identificateurs de propriété de toute propriété nommée qui est transmise par le biais de l’objet de la propriété liée se trouvent dans l’espace de noms de votre fournisseur identificateur. Votre implémentation de la méthode [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) doit déterminer les noms des propriétés afin qu’elle puisse exécuter des tâches spécifiques d’un modèle. De même, les propriétés votre fournisseur transmet au fournisseur hôte doivent également être dans votre espace de noms. Par exemple, si vous définissez une propriété nommée dans **OpenTemplateID**, vous devez utiliser un des identificateurs de votre pour le nom — sa création, le cas échéant, en appelant la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   

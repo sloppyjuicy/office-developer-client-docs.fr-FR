@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: Contient les informations d'un seul lien hypertexte associé à une forme. Une forme contient une ligne Hyperlink pour chaque lien hypertexte.
-ms.openlocfilehash: b664f5e0ac7cfe27b7198dd59b1b8be1af276db7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6644dc70f3d3616e5c20587db4eabaaf773c31d3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788207"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387771"
 ---
 # <a name="cell-element-hyperlink-row-visio-xml"></a>Élément de cellule (ligne lien hypertexte) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les informations d’un lien hypertexte associé à une forme. Une form
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section liens hypertexte)](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |Contient les informations d’un lien hypertexte associé à une forme. Une forme contient une ligne **Hyperlink** pour chaque lien hypertexte.  <br/> |
+|[Élément de ligne (section Lien hypertexte)](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |Contient les informations d’un lien hypertexte associé à une forme. Une forme contient une ligne **Hyperlink** pour chaque lien hypertexte.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

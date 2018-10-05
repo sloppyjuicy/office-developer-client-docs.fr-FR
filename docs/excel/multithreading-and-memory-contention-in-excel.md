@@ -1,5 +1,5 @@
 ---
-title: Multithreading et la Contention de mémoire dans Excel
+title: Multithreading et contention de la mémoire dans Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,15 +8,15 @@ keywords:
 - le multithreading dans excel, la contention de mémoire dans Excel, les fonctions [Excel 2007], thread-safe, thread-safe fonctions de mémoire de thread local [Excel 2007], [Excel 2007]
 localization_priority: Normal
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: fb0eddfff2f34307143bb896fd451de357f2b639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384422"
 ---
-# <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading et la Contention de mémoire dans Excel
+# <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading et contention de la mémoire dans Excel
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -142,7 +142,7 @@ BOOL TLS_Action(DWORD DllMainCallReason)
 }
 ```
 
-Après avoir obtenu l’index, l’étape suivante consiste à allouer un bloc de mémoire pour chaque thread. La [Documentation de développement Windows](http://msdn.microsoft.com/en-us/library/ms682583%28VS.85%29.aspx) recommande cette opération chaque fois que la fonction de rappel **DllMain** est appelée avec un événement **DLL_THREAD_ATTACH** et libérer la mémoire sur chaque **DLL_THREAD_DETACH**. Toutefois, ce Conseil serait entraîner votre DLL faire inutiles pour les threads non utilisé pour le recalcul. 
+Après avoir obtenu l’index, l’étape suivante consiste à allouer un bloc de mémoire pour chaque thread. La [Documentation de développement Windows](https://msdn.microsoft.com/library/ms682583%28VS.85%29.aspx) recommande cette opération chaque fois que la fonction de rappel **DllMain** est appelée avec un événement **DLL_THREAD_ATTACH** et libérer la mémoire sur chaque **DLL_THREAD_DETACH**. Toutefois, ce Conseil serait entraîner votre DLL faire inutiles pour les threads non utilisé pour le recalcul. 
   
 Au lieu de cela, il est préférable d’utiliser une stratégie d’affecter à la première utilisation. Tout d’abord, vous devez définir une structure que vous souhaitez allouer pour chaque thread. Pour les exemples précédents qui renvoient **XLOPER** ou **XLOPER12s**, suffit suivantes, mais vous pouvez créer une structure répondant à vos besoins.
   
@@ -306,9 +306,9 @@ Où il y a beaucoup de contention pour une ressource partagée, telles que les d
 
 
 
-[Gestion de la m�moire dans Excel](memory-management-in-excel.md)
+[Gestion de la mémoire dans Excel](memory-management-in-excel.md)
   
 [Recalcul multithread dans Excel](multithreaded-recalculation-in-excel.md)
   
-[Gestionnaire de compléments et les fonctions de l’Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Fonctions du Gestionnaire de compléments et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)
 

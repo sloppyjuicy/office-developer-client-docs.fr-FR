@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
 description: Contient une collection d’éléments SnapAngle.
-ms.openlocfilehash: 6ef0339a979999e0fcaaa66406c9ef076849ba24
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09a975b280a99fdc2535503b587efdd2143cf18b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789758"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383099"
 ---
 # <a name="snapangles-element-windowtype-complextype-visio-xml"></a>SnapAngles, élément (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une collection d’éléments **SnapAngle** .
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -42,7 +42,8 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

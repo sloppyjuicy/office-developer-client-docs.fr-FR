@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e479e863-a8de-4f7e-9eae-3f721cd16e9a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 626bd945851155c20850ee7f367ec6073ad57bc1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: dacd759d978394a5f4ed028915ed1c717bf6efe5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570386"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382805"
 ---
 # <a name="pidtagmessagestatus-canonical-property"></a>Propriété canonique PidTagMessageStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un masque binaire composé de 32 bits d’indicateurs qui définit l’état d’un message dans une table des matières. 
   
@@ -84,11 +84,11 @@ Bits 16 à 31 (0 x 10000 par le biais de 0 x 80000000) de cette propriété sont
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: Spécifie si une grille est affichée dans la fenêtre de dessin.
-ms.openlocfilehash: c4b4ceafd0107fb620f32016619e8abe853f2eaf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a34ba3503cc8995554f1f6d696b27a6a4be37359
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386228"
 ---
 # <a name="showgrid-element-windowtype-complextype-visio-xml"></a>ShowGrid, élément (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie si une grille est affichée dans la fenêtre de dessin.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -42,7 +42,8 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

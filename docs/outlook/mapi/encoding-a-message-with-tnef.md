@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5043c338f309b5da21ca828a47daf1d8b6abfd5d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cdaa03cfbc0bbd0fcf6a320ecf8fae9f372d5781
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577750"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382525"
 ---
 # <a name="encoding-a-message-with-tnef"></a>Codage d’un message avec TNEF
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fichier qui est utilisé pour contenir le message lors de la transmission. Ensuite, une interface [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) est autour du fichier. Le fournisseur de transport utilise ensuite les méthodes [ITnef](itnefiunknown.md) pour écrire les propriétés de message dans le flux dans un format avec balise qui permet les propriétés à décoder facilement par les fournisseurs de transport de réception. 
+Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fichier qui est utilisé pour contenir le message lors de la transmission. Ensuite, une interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) est autour du fichier. Le fournisseur de transport utilise ensuite les méthodes [ITnef](itnefiunknown.md) pour écrire les propriétés de message dans le flux dans un format avec balise qui permet les propriétés à décoder facilement par les fournisseurs de transport de réception. 
   
 **Pour représenter un message dans un seul fichier entier**
   
-1. Obtenir un objet TNEF en passant un objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) et un message dans la fonction [OpenTnefStreamEx](opentnefstreamex.md) . 
+1. Obtenir un objet TNEF en passant un objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) et un message dans la fonction [OpenTnefStreamEx](opentnefstreamex.md) . 
     
 2. Pour obtenir une liste de toutes les propriétés définies pour le message en appelant la méthode [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
     
@@ -33,17 +33,17 @@ Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fich
     
 5. Appelez la méthode [ITnef::Finish](itnef-finish.md) pour coder le message dans le flux TNEF après avoir ajouté toutes les propriétés demandées. 
     
-6. Appelez la méthode [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) pour obtenir le texte du message avec balise. Ce texte balisé est écrites dans le système de messagerie à l’aide des méthodes de l’interface OLE [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) . 
+6. Appelez la méthode [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) pour obtenir le texte du message avec balise. Ce texte balisé est écrites dans le système de messagerie à l’aide des méthodes de l’interface OLE [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) . 
     
-7. Appelez la méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) pour libérer de l’objet **ITnef** . 
+7. Appelez la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) pour libérer de l’objet **ITnef** . 
     
 **Pour traiter un message TNEF entrant**
   
 1. Obtenir un objet de message MAPI dans le spouleur MAPI et écrire des propriétés d’en-tête de message dans le nouveau message MAPI.
     
-2. Créer et initialiser un objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) pour contenir les données TNEF à partir du message entrant. 
+2. Créer et initialiser un objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) pour contenir les données TNEF à partir du message entrant. 
     
-3. Transmettre le message MAPI et l’objet [IStream](http://msdn.microsoft.com/en-us/library/aa380034%28VS.85%29.aspx) à la fonction [OpenTnefStreamEx](opentnefstreamex.md) . 
+3. Transmettre le message MAPI et l’objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) à la fonction [OpenTnefStreamEx](opentnefstreamex.md) . 
     
 4. Décoder les informations contenues dans les données TNEF en appelant la méthode [ITnef::ExtractProps](itnef-extractprops.md) . 
     
@@ -54,6 +54,6 @@ Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fich
     
 6. Enregistrez le message en appelant [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
-7. Version de l’objet TNEF en appelant la méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) . 
+7. Version de l’objet TNEF en appelant la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) . 
     
 

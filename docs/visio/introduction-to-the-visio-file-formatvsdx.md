@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Découvrez le nouveau format de fichier dans Visio 2013, explorez certains concepts généraux relatifs à l’utilisation par programme le format de fichier Visio 2013 et créer une application de console simple qui examine un fichier Visio 2013.
-ms.openlocfilehash: aa3497af7c467c8f51ab80ab82071776568b4978
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4efa90ee513def005653f4f8717b0149de1cdc3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788840"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389364"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Présentation du format de fichier Visio (.vsdx)
 
@@ -31,15 +31,15 @@ Il existe plusieurs types de fichier, par extension, qui composent le format de 
   
 - .vsdx (dessin Visio)
     
-- .vsdm (dessin prenant en charge des Visio)
+- .vsdm (Dessin Visio prenant en charge les macros)
     
-- .vssx (gabarit Visio)
+- .vssx (Gabarit Visio)
     
-- .vssm (gabarit Visio de prenant en charge)
+- .vssm (Gabarit Visio prenant en charge les macros)
     
-- .vstx (modèle Visio)
+- .vstx (Modèle Visio)
     
-- .vstm (modèle prenant en charge des Visio)
+- .vstm (Modèle Visio prenant en charge les macros)
     
 > [!NOTE]
 > Seuls les fichiers prenant en charge les macros (.vsdm, .vssm et .vstm) peuvent contenir des macros VBA. Il est impossible d'enregistrer des macros dans des fichiers dont l'extension est .vsdx, .vssx ou .vstx. 
@@ -50,7 +50,7 @@ Il existe plusieurs types de fichier, par extension, qui composent le format de 
 Le format de fichier Visio 2013 utilise Open livraison Conventions (OPC), qui définit un moyen structuré pour stocker les données d’application avec les ressources associées à l’aide d’un conteneur de certains sort─for exemple, un fichier ZIP. Un niveau de base, un fichier Visio 2013 est réellement un conteneur ZIP qui contient d’autres types de fichiers. En fait, vous pouvez enregistrer un dessin dans Visio 2013 en tant que fichier .vsdx, renommer l’extension de fichier à «\*.zip » dans l’Explorateur Windows et puis ouvrez le fichier comme un dossier pour afficher le contenu à l’intérieur.
   
 > [!NOTE]
->  Cet article contient uniquement une vue d’ensemble de l’Open Packaging Conventions. Vous trouverez plus détaillée des conventions dans d’autres articles de la couverture : > Pour plus d’informations sur l’Open Packaging Conventions, consultez la rubrique [OPC : une nouvelle norme pour l’empaquetage de vos données](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx). > Pour plus d’informations sur l’Open Packaging Conventions et leur utilisation dans les fichiers Microsoft Office, voir [Notions essentielles de l’Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx) et [Présentation des Formats XML ouverts Office (2007)](http://msdn.microsoft.com/en-us/library/aa338205.aspx). 
+>  Cet article contient uniquement une vue d’ensemble de l’Open Packaging Conventions. Vous trouverez plus détaillée des conventions dans d’autres articles de la couverture : > Pour plus d’informations sur l’Open Packaging Conventions, consultez la rubrique [OPC : une nouvelle norme pour l’empaquetage de vos données](https://msdn.microsoft.com/magazine/cc163372.aspx). > Pour plus d’informations sur l’Open Packaging Conventions et leur utilisation dans les fichiers Microsoft Office, voir [Notions essentielles de l’Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx) et [Présentation des Formats XML ouverts Office (2007)](https://msdn.microsoft.com/library/aa338205.aspx). 
   
 ### <a name="packages-and-package-parts"></a>Packages et parties de packages
 
@@ -134,7 +134,7 @@ Toutefois, elle ressemble au code suivant dans le fichier Visio 2013.
 ## <a name="developer-scenarios-for-working-with-the-visio-2013-file-format"></a>Scénarios de développeur pour l'utilisation du format de fichier Visio 2013
 <a name="vis15_IntroVSDX_Scenarios"> </a>
 
-Comme expliqué ci-dessus, le format de fichier Visio 2013 tire parti de plusieurs technologies bien maîtrisés tels que les fichiers ZIP et XML pour stocker les données. Pour manipuler un Visio 2013 au niveau du fichier de dessin, une solution faut uniquement utiliser les espaces de noms .NET Framework et les classes associées à utilisation des fichiers ZIP ou XML, comme [System.IO.Packaging](http://msdn.microsoft.com/en-us/library/system.io.packaging%28v=vs.110%29.aspx) ou [System.Xml](http://msdn.microsoft.com/en-us/library/system.xml%28v=vs.110%29.aspx).
+Comme expliqué ci-dessus, le format de fichier Visio 2013 tire parti de plusieurs technologies bien maîtrisés tels que les fichiers ZIP et XML pour stocker les données. Pour manipuler un Visio 2013 au niveau du fichier de dessin, une solution faut uniquement utiliser les espaces de noms .NET Framework et les classes associées à utilisation des fichiers ZIP ou XML, comme [System.IO.Packaging](https://msdn.microsoft.com/library/system.io.packaging%28v=vs.110%29.aspx) ou [System.Xml](https://msdn.microsoft.com/library/system.xml%28v=vs.110%29.aspx).
   
 Le principal avantage pour les développeurs du format de fichier Visio 2013 est que vous pouvez lire et écrire dans fichiers Visio 2013 sans automatiser l’application cliente de Visio. Certains scénarios peuvent prendre en compte en tant que développeur pour l’utilisation de format de fichier Visio 2013 sont les suivantes :
   
@@ -163,13 +163,13 @@ Dans l'exemple de code suivant, vous pouvez voir comment ouvrir un fichier .vsdx
     
 4. Dans le menu **fichier** , choisissez **Nouveau**, puis choisissez ** Project **.
     
-5. Sous **Visual c#** ou **Visual Basic**, développez **Windows**, puis sélectionnez **Application Console**.
+5. Sous **Visual C#** ou **Visual Basic**, développez **Windows**, puis sélectionnez **Application console**.
     
 6. Dans la zone **nom** , tapez 'VisioFileExplorer'. Le projet d’Application Console s’ouvre. 
     
-7. Dans l' **Explorateur de solutions**, cliquez sur **VisioFileExplorer**, puis cliquez sur **Ajouter une référence**. 
+7. Dans l'**Explorateur de solutions**, cliquez avec le bouton droit sur **VisioFileExplorer**, puis cliquez sur **Ajouter une référence**. 
     
-8. Dans la boîte de dialogue **Ajouter une référence** , sous **assemblys**, développez **Framework**, puis sélectionnez **WindowsBase**.
+8. Dans la boîte de dialogue **Ajouter une référence**, sous **Assemblys**, développez **Framework**, puis sélectionnez **WindowsBase**.
     
 9. Collez le code suivant dans la solution.
     
@@ -284,12 +284,12 @@ Dans l'exemple de code suivant, vous pouvez voir comment ouvrir un fichier .vsdx
 
 Pour plus d’informations sur l’utilisation des fichiers de Visio 2013or Office OpenXML par programme, la spécification Open Packaging Convention ou le format de fichier Visio 2013, voir les ressources suivantes :
   
-- [Visio pour les développeurs](http://msdn.microsoft.com/en-us/office/aa905478.aspx)
+- [Visio pour les développeurs](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [OPC : une nouvelle norme pour l’empaquetage de vos données](http://msdn.microsoft.com/en-us/magazine/cc163372.aspx).
+- [OPC : une nouvelle norme pour l’empaquetage de vos données](https://msdn.microsoft.com/magazine/cc163372.aspx).
     
-- [Notions essentielles de l’Open Packaging Conventions](http://msdn.microsoft.com/en-us/library/ee361919.aspx)
+- [Notions essentielles de l’Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx)
     
-- [Présentation des Formats de fichier Open XML Office (2007)](http://msdn.microsoft.com/en-us/library/aa338205.aspx)
+- [Présentation des Formats de fichier Open XML Office (2007)](https://msdn.microsoft.com/library/aa338205.aspx)
     
 

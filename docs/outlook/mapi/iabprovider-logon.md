@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8cb7934919722139622b6caf3aac741c9b2e54c5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59c6d4a05c91511ad8c481fd4ddbe42396442190
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582461"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384107"
 ---
 # <a name="iabproviderlogon"></a>IABProvider::Logon
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Établit une connexion à une session active.
   
@@ -86,7 +86,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers l’objet du fournisseur d’ouverture de session.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -118,7 +118,7 @@ Connexions sont établies avec chaque fournisseur de carnet d’adresses dans le
   
 Le nom de profil vers laquelle pointé le paramètre _lpszProfileName_ s’affiche dans le jeu de caractères du client de l’utilisateur comme indiqué par la présence ou l’absence de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Dans votre implémentation de la méthode **d’ouverture de session** , appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) pour inscrire un identificateur unique, ou une structure [MAPIUID](mapiuid.md) . Chacun de vos objets aura un identificateur d’entrée qui inclut ce **MAPIUID**. MAPI utilise le **MAPIUID** pour correspondre à un objet avec son fournisseur. Par exemple, lorsqu’un client appelle la méthode [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir un utilisateur de messagerie, **OpenEntry** examine la partie **MAPIUID** de l’identificateur d’entrée qui a été passé et qu’il correspond à un **MAPIUID** enregistrés en une fournisseur de carnet d’adresses. 
   
@@ -126,7 +126,7 @@ Si un client se connecte à votre fournisseur plusieurs fois, vous souhaiterez p
   
 L’objet de prise en charge MAPI transmet à votre méthode **d’ouverture de session** dans le paramètre _lpMAPISup_ fournit l’accès à de nombreuses méthodes inclus dans le [IMAPISupport : IUnknown](imapisupportiunknown.md) interface. MAPI crée un objet de prise en charge qui est adapté à votre type de fournisseur. Par exemple, si vous avez besoin pour vous connecter à un système de messagerie sous-jacent ou le service d’annuaire lorsque vous établissez une connexion, vous pouvez appeler la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) pour récupérer les informations d’identification de sécurité pour cette session particulière. 
   
-Si **l’ouverture de session** réussit, assurez-vous que vous appelez la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) de l’objet de la prise en charge pour incrémenter son décompte de références. Cela permet à votre fournisseur de conserver le pointeur d’objet prise en charge pour le reste de la session. Si vous n’appelez pas cette méthode **AddRef** , MAPI décharge votre fournisseur. 
+Si **l’ouverture de session** réussit, assurez-vous que vous appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’objet de la prise en charge pour incrémenter son décompte de références. Cela permet à votre fournisseur de conserver le pointeur d’objet prise en charge pour le reste de la session. Si vous n’appelez pas cette méthode **AddRef** , MAPI décharge votre fournisseur. 
   
 Vous pouvez inclure le nom de profil transmis dans le paramètre _lpszProfileName_ dans les boîtes de dialogue d’erreur, écrans d’ouverture de session ou autres interfaces utilisateur. Pour utiliser le nom de profil, copiez-le vers un stockage que vous avez alloué. 
   

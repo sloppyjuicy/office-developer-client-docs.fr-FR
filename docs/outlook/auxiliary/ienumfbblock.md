@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fad9c0fd-b523-db98-ee0d-78aad5914ff2
-ms.openlocfilehash: 536c19aa314db9fca39298536c12464e71a71407
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2b37aa2000218acc0663ee8e2db12f01b93c0663
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782593"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388188"
 ---
 # <a name="ienumfbblock"></a>IEnumFBBlock
 
@@ -21,7 +21,7 @@ Prend en charge l’accès et l’énumération des informations de disponibilit
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Fourni par :  <br/> |Fournisseur de disponibilité  <br/> |
 |Identificateur de l’interface :  <br/> |**IEnumFBBlock** <br/> |
    
@@ -33,7 +33,7 @@ Prend en charge l’accès et l’énumération des informations de disponibilit
 |[Ignorer](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données et de disponibilité.  <br/> |
 |[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l’énumérateur en définissant le curseur au début.  <br/> |
 |[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’énumérateur, à l’aide de la même restriction mais définissant le curseur au début de l’énumérateur.  <br/> |
-|[Restreindre](ienumfbblock-restrict.md) <br/> |Limite de l’énumération à une période spécifiée.  <br/> |
+|[Restrict](ienumfbblock-restrict.md) <br/> |Limite de l’énumération à une période spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Un fournisseur et de disponibilité permet d’obtenir cette interface et l’é
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'API de type disponible/occupé](about-the-free-busy-api.md)  
+- [À propos de l’API Disponibilité](about-the-free-busy-api.md)  
 - [Constantes (disponibilité API)](constants-free-busy-api.md)  
 - [IFreeBusyData](ifreebusydata.md)
 

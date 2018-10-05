@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: Mappe une ligne du jeu d’enregistrements de données à une forme.
-ms.openlocfilehash: aefae8c625f35feacd6d0fdf04f128c423db299b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789567"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385311"
 ---
 # <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Élément RowMap (DataRecordSet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Mappe une ligne du jeu d’enregistrements de données à une forme.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |recordsets.Xml  <br/> |
    

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
 description: Spécifie un attribut pour le texte de la forme, telles que les retraits, l’espacement des lignes, des puces ou alignement horizontal des paragraphes de la mise en forme de paragraphe.
-ms.openlocfilehash: 38309d3d1158b02084af6686c483547b28b8995f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2647ce92b38234e4d6fc4d6bc59188d468332ca8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788218"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383471"
 ---
 # <a name="cell-element-paragraph-section-visio-xml"></a>Élément de cellule (Section paragraphe) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie un attribut pour le texte de la forme, telles que les retraits, l’es
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Paragraph)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Spécifie un attribut pour le texte de la forme, telles que les retraits, l’espacement des lignes, des puces ou alignement horizontal des paragraphes de la mise en forme de paragraphe.  <br/> |
+|[Élément de ligne (section Paragraphe)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Spécifie un attribut pour le texte de la forme, telles que les retraits, l’espacement des lignes, des puces ou alignement horizontal des paragraphes de la mise en forme de paragraphe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -60,7 +60,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 |U  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente une unité de mesure par défaut est la liste de distribution.  <br/> |Unités de la cellule.  <br/> |
 |V  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |La valeur de la cellule de feuille ShapeSheet.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 L’attribut **N** de cet élément de **cellule** doit être un ensemble limité de valeurs qui correspondent à des cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
   

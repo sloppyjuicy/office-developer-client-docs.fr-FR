@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: Contient x- ou la coordonnée y du sommet de fin d’un segment de trait droit.
-ms.openlocfilehash: 284b315c156fed8ea3592d2c6825ff6b4bf4c279
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b7d8128cbef57c4dd9fb69d5b82e1c1c2ccef68
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788206"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386592"
 ---
 # <a name="cell-element-lineto-row-visio-xml"></a>Élément de cellule (ligne LineTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient x- ou la coordonnée y du sommet de fin d’un segment de trait droit.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,7 +66,7 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’un segment de trait droit.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du sommet de fin d'un segment de droite.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
 |Y  <br/> |Coordonnée y du sommet de fin d’un segment de trait droit.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
    
 

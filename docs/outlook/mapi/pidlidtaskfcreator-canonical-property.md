@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9cbd237e80f4862683c1fa914f8261f8351b148e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: dfb49fafcc2dc368e84786b526869e0447ccaf8c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589020"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387180"
 ---
 # <a name="pidlidtaskfcreator-canonical-property"></a>Propriété canonique PidLidTaskFCreator
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique que la tâche a été initialement créée par l’utilisateur actuel ou de l’agent utilisateur au lieu de transformation d’une demande de tâche.
   
@@ -43,11 +43,11 @@ Le client définit cette propriété sur TRUE lorsque l’utilisateur crée la t
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.
     

@@ -8,21 +8,21 @@ f1_keywords:
 - Vis_DSS.chm82251381
 localization_priority: Normal
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
-description: Contient les cellules utilisées pour créer des liens entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site Web.
-ms.openlocfilehash: e24a718edfca25ec36020101a4fe214533ebec3c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contient des cellules pour créer des liens entre une forme ou page et une autre page de dessin, un autre fichier ou un site Web de dessin.
+ms.openlocfilehash: 42979a6b0f1b3dff6e950959d33a803263d9b046
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788823"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388405"
 ---
-# <a name="hyperlinks-section"></a>Hyperlinks, section
+# <a name="hyperlinks-section"></a>Section Liens hypertexte
 
-Contient les cellules utilisées pour créer des liens entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site Web.
+Contient des cellules pour créer des liens entre une forme ou page et une autre page de dessin, un autre fichier ou un site Web de dessin.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour définir un lien hypertexte, entrez des valeurs dans les cellules de cette section, ou utilisez la boîte de dialogue **liens hypertexte** (cliquez sur le **lien hypertexte** sous l’onglet **Insertion** ). 
+Pour définir un lien hypertexte, entrez des valeurs dans les cellules de cette section ou utilisez la boîte de dialogue **Liens hypertexte** (cliquez sur **Lien hypertexte** sous l’onglet **Insertion**). 
   
 Vous pouvez ajouter la section Hyperlinks à une forme, un groupe, une page ou un objet externe dans la fenêtre Feuille ShapeSheet.
   

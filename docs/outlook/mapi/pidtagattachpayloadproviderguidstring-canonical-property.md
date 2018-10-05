@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1313ac62bd2ee6c1db27bd1c583f56dadc1bff1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5051784ea08316477f3c8888ada9170e3d99c2b5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574299"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389042"
 ---
 # <a name="pidtagattachpayloadproviderguidstring-canonical-property"></a>Propriété canonique PidTagAttachPayloadProviderGuidString
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur d’un champ d’en-tête MIME X-charge utile-fournisseur-Guid.
   
@@ -44,11 +44,11 @@ Lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeur de
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Spécifie un attribut de mise en forme de la séquence de texte d’une forme, comme la police, la couleur, de style, cas, la position relative à la ligne de base ou taille en points.
-ms.openlocfilehash: 0d0725ec6ff19104d95780dcfbb3fff9715cbe92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788198"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384247"
 ---
 # <a name="cell-element-character-section-visio-xml"></a>Élément de cellule (Section Character) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie un attribut de mise en forme de la séquence de texte d’une forme, c
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Character)](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Spécifie un attribut de mise en forme de la séquence de texte d’une forme, comme la police, la couleur, de style, cas, la position relative à la ligne de base ou taille en points.  <br/> |
+|[Élément de ligne (section Caractères)](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Spécifie un attribut de mise en forme de la séquence de texte d’une forme, comme la police, la couleur, de style, cas, la position relative à la ligne de base ou taille en points.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -67,17 +67,17 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |AsianFont  <br/> |Contient l’énumération de la police utilisée pour mettre en forme une séquence de texte contenant les caractères d’Asie orientale.  <br/> |[AsianFont, cellule (section Character)](asianfont-cell-character-section.md) <br/> |
-|Cas  <br/> |Détermine la casse du texte d’une forme s’exécuter.  <br/> |[Case, cellule (section Character)](case-cell-character-section.md) <br/> |
+|Case  <br/> |Détermine la casse du texte d’une forme s’exécuter.  <br/> |[Case, cellule (section Character)](case-cell-character-section.md) <br/> |
 |Couleur  <br/> |Détermine la couleur utilisée pour la séquence de texte d’une forme.  <br/> |[Color, cellule (section Character)](color-cell-character-section.md) <br/> |
-|ColorTrans  <br/> |Détermine le degré de transparence d’un calque ou le texte de la forme exécution couleur, comprise entre 0 (complètement opaque) et 1 (complètement transparent).  <br/> |Aucun.  <br/> |
+|ColorTrans  <br/> |Détermine le degré de transparence d’un calque ou le texte de la forme exécution couleur, comprise entre 0 (complètement opaque) et 1 (complètement transparent).  <br/> |Aucune.  <br/> |
 |ComplexScriptFont  <br/> |Contient le numéro de la police utilisée pour mettre en forme une séquence de texte composé de caractères de script complexe.  <br/> |[ComplexScriptFont, cellule (section Character)](complexscriptfont-cell-character-section.md) <br/> |
 |ComplexScriptSize  <br/> |La taille de la police utilisée pour mettre en forme un texte exécuter composé de caractères de script complexe.  <br/> |[ComplexScriptSize, cellule (section Character)](complexscriptsize-cell-character-section.md) <br/> |
 |DblUnderline  <br/> |Détermine si la plage d’une séquence de texte est souligné en double.  <br/> |[DoubleULine, cellule (section Character)](doubleuline-cell-character-section.md) <br/> |
 |DoubleStrikethrough  <br/> |Détermine si une séquence de texte est barrée double.  <br/> |[DoubleStrikethrough, cellule (section Character)](doublestrikethrough-cell-character-section.md) <br/> |
 |Font  <br/> |Représente le numéro de la police utilisée pour mettre en forme une séquence de texte.  <br/> |[Font, cellule (section Character)](font-cell-character-section.md) <br/> |
-|FontScale  <br/> |Spécifie la largeur de la police.  <br/> |Aucun.  <br/> |
+|FontScale  <br/> |Spécifie la largeur de la police.  <br/> |Aucune.  <br/> |
 |ID de langue  <br/> |Indique la langue dans laquelle une séquence de texte a été entrée.  <br/> |[LangID, cellule (section Character)](langid-cell-character-section.md) <br/> |
-|Letterspace  <br/> |Spécifie la quantité d’espace entre deux ou plusieurs caractères. Espace permettre être ajouté ou supprimé par incréments de 1/20 point.  <br/> |Aucun.  <br/> |
+|Letterspace  <br/> |Spécifie la quantité d’espace entre deux ou plusieurs caractères. Espace permettre être ajouté ou supprimé par incréments de 1/20 point.  <br/> |Aucune.  <br/> |
 |Overline  <br/> |Détermine si une séquence de texte est surmonté d’un trait.  <br/> |[Overline, cellule (section Character)](overline-cell-character-section.md) <br/> |
 |POS  <br/> |Détermine la position du texte d’une forme exécuter par rapport à la ligne de base.  <br/> |[Pos, cellule (section Character)](pos-cell-character-section.md) <br/> |
 |Size  <br/> |Détermine la taille du texte dans le bloc de texte.  <br/> |[Size, cellule (section Character)](size-cell-character-section.md) <br/> |

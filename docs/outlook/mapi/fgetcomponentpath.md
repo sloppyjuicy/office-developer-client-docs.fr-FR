@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fa39128ffaaaa3530b74a660c14971834a99561b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566347"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384499"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie le chemin d’accès pour le fichier Mapi32.dll privé.
   
@@ -41,7 +41,7 @@ BOOL FGetComponentPath(
 
  _szComponent_
   
-> [in] La clé de Registre MSIComponentID décrite dans les [Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/en-us/library/dd162409.aspx).
+> [in] La clé de Registre MSIComponentID décrite dans les [Paramètres de Registre Stub Mapi32.dll](https://msdn.microsoft.com/library/dd162409.aspx).
     
  _szQualifier_
   
@@ -59,7 +59,7 @@ BOOL FGetComponentPath(
   
 > [in] Indique à MAPI pour installer le composant Mapi32.dll privé si elle est absente.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
  **valeur True**
   
@@ -80,5 +80,5 @@ Utilisez la fonction **FGetComponentPath** lorsque vous avez besoin obtenir le c
 [Choisir une version spécifique de MAPI à charger](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Paramètres de Registre Stub Mapi32.dll](http://msdn.microsoft.com/en-us/library/dd162409.aspx)
+[Paramètres de Registre Stub Mapi32.dll](https://msdn.microsoft.com/library/dd162409.aspx)
 

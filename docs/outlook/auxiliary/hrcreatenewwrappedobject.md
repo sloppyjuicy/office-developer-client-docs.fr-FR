@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
 description: Crée un objet qui peut accéder à un client dans un format de caractère par défaut.
-ms.openlocfilehash: 187bcbce8fd1170e05f57c5c9147a8962669fea4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3f68e0f275bcc5df065b3113d3322d6957f76df0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782565"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384191"
 ---
 # <a name="hrcreatenewwrappedobject"></a>HrCreateNewWrappedObject
 
@@ -23,8 +23,8 @@ Crée un objet qui peut accéder à un client dans un format de caractère par d
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |Msmapi32.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT HrCreateNewWrappedObject( 
@@ -45,7 +45,7 @@ _pvUnwrapped_
   
 > [in] L’objet Outlook non initiale. Doit implémenter une des interfaces suivantes :
     
-   - [IMailUser : IMAPIProp](http://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder : IMAPIContainer](http://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage : IMAPIProp](http://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore : IMAPIProp](http://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon : IUnknown](http://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx), ou [IOSTX](http://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
+   - [IMailUser : IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder : IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage : IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore : IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon : IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx), ou [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
     
 _ulUnwrappedFlags_
   

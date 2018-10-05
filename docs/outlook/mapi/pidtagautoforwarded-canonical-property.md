@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 49e5e3f84d747210ba42870be5fc328c83bae883
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565899"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386361"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Propriété canonique PidTagAutoForwarded
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si le client demande un champ d’en-tête X-MS-Exchange-organisation-transféré automatiquement.
   
@@ -42,11 +42,11 @@ Si cette propriété est définie FALSE ou non utilisé, aucun champ d’en-têt
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Définit chaque propriété qui est utilisée dans les objets qui sont décrits par des documents MS-OXO-préfixe.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

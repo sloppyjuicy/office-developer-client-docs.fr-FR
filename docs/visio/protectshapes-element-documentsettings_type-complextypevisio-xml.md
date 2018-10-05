@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e3835fc6-0ae6-b8c3-b1d0-bf893d4a9470
 description: Spécifie si l’utilisateur est empêché de sélection de formes qui ont leur élément LockSelect la valeur 1.
-ms.openlocfilehash: 98bb9c565f0dccc2add4a03e3dd6cd82a52015c7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f7910123c00a8fd4f5ce47ef099c8c6581f8c07
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789370"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385122"
 ---
 # <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Élément ProtectShapes (DocumentSettings_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie si l’utilisateur est empêché de sélection de formes qui ont leur 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

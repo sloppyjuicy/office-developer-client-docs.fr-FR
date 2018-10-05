@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1ba4be04e7241a9c58138ec6b4ef72f7e0f14105
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567159"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385087"
 ---
 # <a name="folder-fields-stream-structures"></a>Structures de flux de champs de dossier
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Propriété de [PidTagUserFields](pidtaguserfields-canonical-property.md) d’un message contient un flux binaire, FolderUserFields, qui contient les définitions de champ défini par l’utilisateur du dossier. Cette rubrique décrit les structures de flux de données pour les définitions de champ défini par l’utilisateur de dossier. 
 
@@ -66,7 +66,7 @@ Une structure de flux FolderFieldDefinitionA contient une définition d’un cha
     
 - **FieldNameLength**: mot (2 octets), le nombre d’éléments dans le tableau **FieldName** .
     
-- **FieldName**: un tableau de CHAR. Il s’agit de la représentation sous forme de page de codes ANSI CP_ACP du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom de champ doit satisfaire les restrictions du paramètre de nom tel que spécifié dans la méthode [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: un tableau de CHAR. Il s’agit de la représentation sous forme de page de codes ANSI CP_ACP du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom de champ doit satisfaire les restrictions du paramètre de nom tel que spécifié dans la méthode [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **FieldName** ne répondant ne pas ces restrictions, mais ces cas ne sont pas couvertes par cette rubrique. 
@@ -83,7 +83,7 @@ Une structure de flux FolderFieldDefinitionW contient une définition d’un cha
     
 - **FieldNameLength**: mot (2 octets), le nombre d’éléments dans le tableau **FieldName** .
     
-- **FieldName**: un tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom de champ doit satisfaire les restrictions du paramètre de nom tel que spécifié dans la méthode [UserProperties.Add](http://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
+- **FieldName**: un tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom de champ doit satisfaire les restrictions du paramètre de nom tel que spécifié dans la méthode [UserProperties.Add](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) . 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **FieldName** ne répondant ne pas ces restrictions, mais celles-ci n’est pas couvertes par cette rubrique. 

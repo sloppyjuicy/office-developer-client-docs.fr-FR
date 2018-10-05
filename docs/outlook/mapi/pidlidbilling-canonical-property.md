@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 46c23a39-d607-404b-ac67-6d8b02ab6045
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9295109f5e73cc3461580e67ef6ff67c512c6ec3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2346197944f1122efee00a2ffd0e3b917c5843bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583945"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388825"
 ---
 # <a name="pidlidbilling-canonical-property"></a>Propriété canonique PidLidBilling
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient les informations de facturation associées à un élément.
   
@@ -39,7 +39,7 @@ Contient les informations de facturation associées à un élément.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: Contient les coordonnées x ou y du point de terminaison d’un arc par rapport à la largeur et la hauteur de la forme coordonnées x ou y du contrôle pointe sur l’arc par rapport à la forme width et height, angle à partir de l’axe des x à l’axe majeur de l’ellipse ou rapport entre la axes principaux et secondaires de l’ellipse.
-ms.openlocfilehash: 661f6971ca4c03c68950ead45065bd12160918d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788231"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383155"
 ---
 # <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Élément de cellule (ligne RelEllipticalArcTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du point de terminaison d’un arc par rapport 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,11 +66,11 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’un arc par rapport à la largeur de la forme.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’un arc par rapport à la hauteur de la forme.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|A  <br/> |La coordonnée x du contrôle de l’arc point par rapport à la largeur de la forme ; un point sur l’arc.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|B  <br/> |Point de la coordonnée y du contrôle d’un arc par rapport à la largeur de la forme.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|C  <br/> |Angle de l’axe de principal d’un arc par rapport à l’axe x de son parent.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
-|D  <br/> |Le taux de grand axe d’un arc à l’axe secondaire.  <br/> |[RelEllipticalArcTo, ligne (Section Geometry)](relellipticalarcto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du sommet de fin d’un arc par rapport à la largeur de la forme.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du sommet de fin d’un arc par rapport à la hauteur de la forme.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
+|A  <br/> |La coordonnée x du contrôle de l’arc point par rapport à la largeur de la forme ; un point sur l’arc.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
+|B  <br/> |Point de la coordonnée y du contrôle d’un arc par rapport à la largeur de la forme.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
+|C  <br/> |Angle du grand axe d’un arc par rapport à l’axe x de son parent.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
+|D  <br/> |Le taux de grand axe d’un arc à l’axe secondaire.  <br/> |[Ligne RelEllipticalArcTo (section Géométrie)](relellipticalarcto-row-geometry-section.md) <br/> |
    
 

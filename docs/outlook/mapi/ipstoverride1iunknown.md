@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e73115811fe0009769826e0f6a011c489772f770
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5208e77f3605b5ba861f68786d8fe5e91b990d32
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569847"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382546"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet à un fournisseur de magasin de fichier (.pst) de dossiers personnels substituer la stratégie PSTDisableGrow.
   
 |||
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
-|Implémentée par :  <br/> |Fournisseur de banque PST  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Fournisseur de banque PST  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
@@ -46,7 +46,7 @@ Permet à un fournisseur de magasin de fichier (.pst) de dossiers personnels sub
 
 Les identificateurs d’Interface Gestionnaire remplacer PST pas peuvent être définis dans le fichier d’en-tête téléchargeables que vous avez actuellement, auquel cas vous serez les trouver dans la rubrique [Constantes MAPI](mapi-constants.md) et peuvent copier et les ajouter à votre code. Pour associer les noms symboliques identificateur global unique (GUID) à leurs valeurs, utilisez la macro DEFINE_GUID définie dans le guiddef.h de fichier d’en-tête Kit de développement logiciel (SDK) de Microsoft Windows. 
   
-Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](http://support.microsoft.com/kb/956070).
+Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Voir aussi
 

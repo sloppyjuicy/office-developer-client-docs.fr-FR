@@ -1,5 +1,5 @@
 ---
-title: Accéder aux données de formulaire
+title: Données de formulaire Access
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ keywords:
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Pour utiliser les fonctionnalités avancées d'un formulaire InfoPath, il est souvent nécessaire d'accéder par programme aux informations sur le document XML sous-jacent du formulaire et aux données qu'il contient, ou d'exécuter certaines actions sur le document XML. Le modèle objet InfoPath prend en charge l'accès et la manipulation d'un document XML sous-jacent d'un formulaire par le biais de l'utilisation de la classe XmlForm en association avec la classe XmlFormCollection .
-ms.openlocfilehash: c39862fd404575fe95bc1986ce7ab7d9689acfb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782395"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386830"
 ---
-# <a name="access-form-data"></a>Accéder aux données de formulaire
+# <a name="access-form-data"></a>Données de formulaire Access
 
 Pour utiliser les fonctionnalités avancées d'un formulaire InfoPath, il est souvent nécessaire d'accéder par programme aux informations sur le document XML sous-jacent du formulaire et aux données qu'il contient, ou d'exécuter certaines actions sur le document XML. Le modèle objet InfoPath prend en charge l'accès et la manipulation d'un document XML sous-jacent d'un formulaire par le biais de l'utilisation de la classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) en association avec la classe [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) . 
   
@@ -32,11 +32,11 @@ La classe [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Offic
 |Méthode [NewFromFormTemplate(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx)  <br/> |Crée un nouveau formulaire basé sur le modèle de formulaire spécifié.  <br/> |
 |Méthode [NewFromFormTemplate (String, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (surcharge 1)  <br/> |Crée un formulaire basé sur le modèle de formulaire spécifié et sur les données XML.  <br/> |
 |Méthode [NewFromFormTemplate (String, String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (surcharge 2)  <br/> |Crée un nouveau formulaire basé sur le modèle de formulaire spécifié avec des données spécifiées par un objet [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) .  <br/> |
-|Méthode [NewFromFormTemplate (String, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (surcharge 3)  <br/> |Crée un nouveau formulaire basé sur le modèle de formulaire spécifié avec des données spécifiées par un objet **XPathNavigator** en utilisant le comportement du mode d’ouverture spécifié.  <br/> |
+|Méthode [NewFromFormTemplate (String, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.NewFromFormTemplate.aspx) (surcharge 3)  <br/> |Crée un formulaire basé sur le modèle de formulaire spécifié avec des données spécifiées par un objet **XPathNavigator** en utilisant le comportement du mode d'ouverture indiqué.  <br/> |
 |Méthode [Open(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx)  <br/> |Ouvre le formulaire spécifié.  <br/> |
 |Méthode [Open (String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Open.aspx) (surcharge 1)  <br/> |Ouvre le formulaire spécifié à l'aide du mode d'ouverture spécifié.  <br/> |
-|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx)  <br/> |Obtient le nombre d’objets **XmlForm** contenus dans la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx)  <br/> |Obtient une référence à l’objet **XmlForm** spécifié à partir de la collection par valeur d’index.  <br/> |
+|Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Count.aspx)  <br/> |Récupère le nombre d'objets **XmlForm** contenus dans la collection.  <br/> |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.Item.aspx)  <br/> |Obtient une référence à l'objet **XmlForm** spécifié dans la collection par la valeur de l'index.  <br/> |
    
 ## <a name="overview-of-the-xmlform-class"></a>Présentation de la classe XmlForm
 
@@ -48,23 +48,23 @@ La classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath
 |[GetWorkflowTasks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx) , méthode  <br/> |Obtient une référence à une collection **Microsoft.Office.Core.WorkflowTasks** pour le formulaire actif.  <br/> |
 |Méthode [GetWorkflowTemplates](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTemplates.aspx)  <br/> |Obtient une référence à une collection **Microsoft.Office.Core.WorkflowTemplates** pour le formulaire actif.  <br/> |
 |Méthode [MergeForm(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx)  <br/> |Fusionne le formulaire actif avec le formulaire spécifié par un chemin d'accès ou une URL.  <br/> |
-|Méthode [MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (surcharge 1)  <br/> |Fusionne le formulaire actif avec le formulaire cible spécifié dans le nœud renvoyé par le **XPathNavigator** passé à la méthode.  <br/> |
+|Méthode [MergeForm(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MergeForm.aspx) (surcharge 1)  <br/> |Fusionne le formulaire actif avec le formulaire cible spécifié dans le nœud renvoyé par l'objet **XPathNavigator** passé à la méthode.  <br/> |
 |Méthode [NotifyHost](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.NotifyHost.aspx)  <br/> |Fournit une valeur personnalisée à l'application hôte ou à la page ASPX.  <br/> |
 |Méthode [Print()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx)  <br/> |Imprime le contenu d'un formulaire tel qu'il s'affiche dans la vue active du formulaire.  <br/> |
-|Méthode [Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (surcharge 1)  <br/> |Imprime le contenu d’un formulaire tel qu’il s’affiche dans la vue active du formulaire en affichant la boîte de dialogue **Imprimer** .  <br/> |
+|Méthode [Print(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Print.aspx) (surcharge 1)  <br/> |Imprime le contenu du formulaire tel qu'il est rendu dans la vue active du formulaire en affichant la boîte de dialogue **Imprimer**.  <br/> |
 |Méthode [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx)  <br/> |Enregistre le formulaire dans l'URL (Uniform Resource Locator) qui lui est actuellement associée.  <br/> |
 |Méthode [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx)  <br/> |Enregistre le formulaire dans l'URL (Uniform Resource Locator) spécifiée.  <br/> |
-|Méthode [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Définit le nom de fichier par défaut pour la boîte de dialogue **Enregistrer sous** .  <br/> |
-|Méthode [SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx)  <br/> |Définit le chemin d’accès par défaut pour enregistrer le formulaire à l’aide de la boîte de dialogue **Enregistrer sous** .  <br/> |
+|Méthode [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Définit le nom de fichier par défaut dans la boîte de dialogue **Enregistrer sous**.  <br/> |
+|Méthode [SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx)  <br/> |Définit le chemin d'accès par défaut pour enregistrer le formulaire dans la boîte de dialogue **Enregistrer sous**.  <br/> |
 |Méthode [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx)  <br/> |Envoie le formulaire à l'aide de l'opération d'envoi définie dans le modèle de formulaire.  <br/> |
 |Propriété [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx)  <br/> |Obtient un objet [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) qui représente la vue active du formulaire.  <br/> |
 |Propriété [DataConnections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx)  <br/> |Obtient un objet [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) associé au formulaire.  <br/> |
 |[DataSources,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) propriété  <br/> |Obtient l’objet [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) associé au formulaire.  <br/> |
 |Propriété [Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx)  <br/> |Obtient une valeur qui indique si les données d'un formulaire ont été modifiées depuis leur dernier enregistrement.  <br/> |
 |Propriété [Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx)  <br/> |Obtient une référence à la [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) associé à un formulaire.  <br/> |
-|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) , propriété  <br/> |Obtient un [objet System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) pour accéder aux fonctions et variables globales contenues dans le fichier de code de formulaire principal d’un formulaire à l’aide de [System.Reflection](https://msdn.microsoft.com/en-us/library/system.reflection(v=vs.110).aspx).  <br/> |
-|Propriété [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Obtient une référence à un conteneur des propriétés de type [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) que formulaires activés pour le navigateur peuvent utiliser pour conserver les informations d’état entre les sessions sur le serveur.  <br/> |
-|Propriété [Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Obtient un [objet System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) qui code s’exécutant dans une instance hébergée d’InfoPath peut utiliser pour accéder au modèle objet de l’application hôte.  <br/> |
+|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx) , propriété  <br/> |Obtient un [objet System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) pour accéder aux fonctions et variables globales contenues dans le fichier de code de formulaire principal d’un formulaire à l’aide de [System.Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
+|Propriété [FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Obtient une référence à un conteneur de propriétés de type [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) que les formulaires avec navigation activée peuvent utiliser pour conserver les informations d’état entre les sessions sur le serveur.  <br/> |
+|Propriété [Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Obtient un objet [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) que du code s'exécutant dans une instance hébergée d'InfoPath peut utiliser pour accéder au modèle objet de l'application hôte.  <br/> |
 |Propriété [hébergé](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Hosted.aspx)  <br/> |Indique si InfoPath est hébergé sous forme de contrôle dans une autre application.  <br/> |
 |[HostName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.HostName.aspx) , propriété  <br/> |Obtient le nom de l'application qui héberge InfoPath sous forme de contrôle.   <br/> |
 |Propriété [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx)  <br/> |Obtient un objet [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) qui représente la source de données principale du formulaire.  <br/> |
@@ -81,7 +81,7 @@ La classe [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath
 |Propriété [Uri](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Uri.aspx)  <br/> |Obtient l'URI (Uniform Resource Identifier) d'un formulaire.  <br/> |
 |Propriété [UserRole](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.UserRole.aspx)  <br/> |Obtient ou définit l'utilisateur actuel du nom de rôle du formulaire.  <br/> |
 |Propriété [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx)  <br/> |Obtient une référence à l’objet [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) associé au modèle de formulaire.  <br/> |
-|Propriété [XmlLang](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.XmlLang.aspx)  <br/> |Obtient la valeur de l’attribut **XML : lang** dans le document XML sous-jacent du formulaire.  <br/> |
+|Propriété [XmlLang](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.XmlLang.aspx)  <br/> |Obtient la valeur de l'attribut **xml:lang** dans le document XML sous-jacent du formulaire.  <br/> |
    
 ## <a name="using-the-xmlformcollection-class"></a>Utilisation de la classe XmlFormCollection
 

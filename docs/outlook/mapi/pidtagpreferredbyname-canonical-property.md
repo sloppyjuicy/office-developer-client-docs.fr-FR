@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 102f840c-5cd7-4507-ba42-20ba3669cd05
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 27da770ff9973afb472b73ddcd91b7147f47cc71
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 4c0ad82f024ccc2effd9ba4d3c38e1a3a60717b8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588733"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385318"
 ---
 # <a name="pidtagpreferredbyname-canonical-property"></a>Propriété canonique PidTagPreferredByName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom que le destinataire préfère à appeler.
   
@@ -38,11 +38,11 @@ Contient le nom que le destinataire préfère à appeler.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

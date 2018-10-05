@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bee50623-cdf7-b9d7-867a-70c86922cbac
-ms.openlocfilehash: 9d334190b686f3b2c5e25a31336c668c957e820f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 69f994b9516b04ddca8d26a645161772dc77c470
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788402"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388657"
 ---
 # <a name="datacolumntype-complextype-visio-xml"></a>Type complexe DataColumn_Type (« Visio XML »)
 
@@ -19,7 +19,7 @@ ms.locfileid: "19788402"
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Base d’extension** <br/> |Aucune  <br/> |
    
@@ -91,7 +91,7 @@ Aucun.
 |Calendrier  <br/> |XSD:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |XSD : String  <br/> |obligatoire  <br/> ||Valeurs du type xsd : String.  <br/> |
 |Monnaie  <br/> |XSD:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
-|Type de données  <br/> |XSD:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
+|DataType  <br/> |XSD:unsignedShort  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedShort.  <br/> |
 |Degré  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
 |DisplayOrder  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |

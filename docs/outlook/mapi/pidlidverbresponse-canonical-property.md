@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2fa762a44a107f826923d71faa79fe865413c55c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 474df017954618e6411494454c1405445563b862
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581040"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386991"
 ---
 # <a name="pidlidverbresponse-canonical-property"></a>Propriété canonique PidLidVerbResponse
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie l’option de vote un répondant sélectionné.
   
@@ -43,11 +43,11 @@ Cette propriété se voit généralement affecter une des valeurs délimitées q
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

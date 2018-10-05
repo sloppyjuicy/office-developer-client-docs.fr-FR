@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: Contient les coordonnées x ou y, sens horizontal ou vertical ou le type d’un point de connexion unique d’une forme.
-ms.openlocfilehash: 52328e50b185a96ebb06634248b93a4332ac35c2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 367d7e462c1eb5b8fa6ee0572346f45ad621fa15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788197"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388958"
 ---
 # <a name="cell-element-connection-row-visio-xml"></a>Élément de cellule (ligne de connexion) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y, sens horizontal ou vertical ou le type d’un 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Connection)](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y, direction horizontale et verticale et le type d’un point de connexion unique d’une forme.  <br/> |
+|[Élément de ligne (section Connexion)](row-element-connection-sectionvisio-xml.md) <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y, direction horizontale et verticale et le type d’un point de connexion unique d’une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,12 +66,12 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|AutoGen  <br/> |Spécifie si le point de connexion est automatiquement généré. Une valeur de 1 indique que le point de connexion est généré automatiquement.  <br/> |Aucun.  <br/> |
+|AutoGen  <br/> |Spécifie si le point de connexion est automatiquement généré. Une valeur de 1 indique que le point de connexion est généré automatiquement.  <br/> |Aucune.  <br/> |
 |DirX  <br/> |Détermine le composant x pour le vecteur d’alignement requis d’un point de connexion correspondant.  <br/> |[DirX / A, cellule (section Connection Points)](dirxa-cell-connection-points-section.md) <br/> |
 |DirY  <br/> |Détermine le composant y du vecteur d’alignement requis d’un point de connexion correspondant pour.  <br/> |[DirY / B, cellule (section Connection Points)](diryb-cell-connection-points-section.md) <br/> |
-|Prompt  <br/> |Cet attribut est réservé pour une utilisation future.  <br/> |Aucun.  <br/> |
+|Prompt  <br/> |Cet attribut est réservé pour une utilisation future.  <br/> |Aucune.  <br/> |
 |Type  <br/> |Définit le type du point de connexion.  <br/> |[Type / C, cellule (section Connection Points)](typec-cell-connection-points-section.md) <br/> |
-|X   <br/> |Représente la coordonnée x d’un point de connexion dans le système de coordonnées local.  <br/> |[X, cellule (section Connection Points)](x-cell-connection-points-section.md) <br/> |
+|X   <br/> |Représente la coordonnée x d'un point de connexion, exprimée dans le système de coordonnées locales.  <br/> |[X, cellule (section Connection Points)](x-cell-connection-points-section.md) <br/> |
 |Y  <br/> |Détermine la coordonnée y d’un point de connexion dans le système de coordonnées local.  <br/> |[Y, cellule (section Connection Points)](y-cell-connection-points-section.md) <br/> |
    
 

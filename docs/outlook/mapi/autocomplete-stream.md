@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: caa93fcc1675531f2d128170c81904e0e286e0f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591078"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384646"
 ---
 # <a name="autocomplete-stream"></a>Flux de saisie semi-automatique
 
@@ -71,7 +71,7 @@ Infos supplémentaires (octets EI)
   
 Métadonnées (8 octets)
   
-Pour un exemple de structure binaire, reportez-vous à la section Exemple binaire dans [Consignes pour le développement et le format de fichier NK2 Outlook 2003/2007](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+Pour un exemple de structure binaire, reportez-vous à la section Exemple binaire dans [Consignes pour le développement et le format de fichier NK2 Outlook 2003/2007](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
 ## <a name="high-level-layout"></a>Mise en page générale
 
@@ -198,7 +198,7 @@ PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
    
 ## <a name="significant-properties"></a>Propriétés importantes
 
-Comme mentionné précédemment dans cette rubrique, les blocs binaires qui représentent les propriétés possèdent des balises de propriété correspondant aux propriétés destinataires du carnet d’adresses. Pour les propriétés qui ne sont pas répertoriées ici, vous pouvez consulter la description de la propriété àhttp://msdn.microsoft.com/en-us/library/cc433490(EXCHG.80).aspx.
+Comme mentionné précédemment dans cette rubrique, les blocs binaires qui représentent les propriétés possèdent des balises de propriété correspondant aux propriétés destinataires du carnet d’adresses. Pour les propriétés qui ne sont pas répertoriées ici, vous pouvez consulter la description de la propriété àhttps://msdn.microsoft.com/library/cc433490(EXCHG.80).aspx.
   
 |**Nom de la propriété**|**Balise de propriété**|**Description (pour plus d’informations, consultez MSDN)**|
 |:-----|:-----|:-----|

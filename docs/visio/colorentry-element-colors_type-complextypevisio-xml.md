@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f325ad8-bbc7-28bf-9e48-1fde4fbdbdc0
 description: Contient une entrée de table de couleur.
-ms.openlocfilehash: 934680b36428dd272d383ce421e86ae6d5c707cf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14ef92069ce8d963ce4a0770324843321804c5cd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788283"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385339"
 ---
 # <a name="colorentry-element-colorstype-complextype-visio-xml"></a>Élément ColorEntry (Colors_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une entrée de table de couleur.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ColorEntry_Type](colorentry_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

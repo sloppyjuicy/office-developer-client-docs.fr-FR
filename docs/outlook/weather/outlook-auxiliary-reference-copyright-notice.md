@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
-description: Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation.
-ms.openlocfilehash: b0f3d11a072eb4646a71ed9a3afeefed63492209
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
+ms.openlocfilehash: 378428540bb229e07361df67a65c054737ff7c1f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787780"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382777"
 ---
 # <a name="outlook-auxiliary-reference-copyright-notice"></a>Notice de copyright de référence auxiliaire Outlook
 
-Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation.
+Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
   
 Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

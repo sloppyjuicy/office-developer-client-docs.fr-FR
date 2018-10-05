@@ -6,14 +6,14 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Pour aider les clients à tirer le meilleur parti de Project Online et d’améliorer notre service et la flexibilité, nous avons ajouté deux méthodes au modèle objet côté client que vous pouvez utiliser dans des applications Project Online et de flux de travail.
-ms.openlocfilehash: 4f8fee5de5efb69f410b78e9ce93b9dc9bb133f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787811"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386158"
 ---
-# <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Bloc de mise à jour des champs personnalisés et créer des sites de projet à partir d’un flux de travail dans Project Online
+# <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project Online
 
 Pour aider les clients à tirer le meilleur parti de Project Online et d’améliorer notre service et la flexibilité, nous avons ajouté deux méthodes au modèle objet côté client que vous pouvez utiliser dans des applications Project Online et de flux de travail.
   
@@ -25,7 +25,7 @@ Pour aider les clients à tirer le meilleur parti de Project Online et d’amél
 Outre une plus grande flexibilité, ces méthodes offrent également d’importantes améliorations des performances lors de l’enregistrement et la publication des projets dans un flux de travail. Cet article explique comment utiliser les méthodes de l’API REST et fournit des instructions pour la création d’un flux de travail que des mises à jour en bloc des champs personnalisés et un flux de travail qui crée un site de projet.
   
 > [!NOTE]
-> Pour en savoir plus sur l’appel d’API REST de flux de travail SharePoint 2013, voir [services REST de SharePoint à l’aide de flux de travail avec la méthode POST](http://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) et [appeler l’API Rest SharePoint 2013 à partir d’un flux de travail SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
+> Pour en savoir plus sur l’appel d’API REST de flux de travail SharePoint 2013, voir [services REST de SharePoint à l’aide de flux de travail avec la méthode POST](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) et [appeler l’API Rest SharePoint 2013 à partir d’un flux de travail SharePoint Designer](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/). 
   
 ## <a name="bulk-update-project-custom-fields-from-a-workflow"></a>Champs personnalisés de projet en bloc mise à jour à partir d’un flux de travail
 <a name="BulkUpdateCustomFields"> </a>
@@ -75,10 +75,10 @@ Le flux de travail final, de bout en bout ressemble à ceci :
   
 4. Ajoutez les deux éléments suivants dans le dictionnaire.
     
-    |Name|Type|Valeur|
+    |Nom|Type|Valeur|
     |:-----|:-----|:-----|
-    |Accepter  <br/> |Chaîne  <br/> |application/json ; OData = verbose  <br/> |
-    |Content-Type  <br/> |Chaîne  <br/> |application/json ; OData = verbose  <br/> |
+    |Accepter  <br/> |String  <br/> |application/json ; OData = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |application/json ; OData = verbose  <br/> |
    
     ![Ajout d’un en-tête Accept] (media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Ajout d’un en-tête Accept")
   
@@ -121,20 +121,20 @@ Le flux de travail final, de bout en bout ressemble à ceci :
        > [!NOTE]
        > Ces valeurs sont uniquement à des fins d’illustration. Les paires clé-valeur que vous allez utiliser dépendent de vos données PWA. 
   
-       |Name|Type|Valeur|
+       |Nom|Type|Valeur|
        |:-----|:-----|:-----|
-       |type/__metadata/customFieldDictionary (0)  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (0) / clé  <br/> |Chaîne  <br/> |Personnalisé\_ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary (0) / valeur  <br/> |Chaîne  <br/> |Entrée\_b9a2fd69279de411940f00155d3c8201 ; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary (0) / ValueType  <br/> |Chaîne  <br/> |Edm.String  <br/> |
-       |customFieldDictionary (1) / __metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (1) / clé  <br/> |Chaîne  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary (1) / valeur  <br/> |Chaîne  <br/> |90.5  <br/> |
-       |customFieldDictionary (1) / ValueType  <br/> |Chaîne  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary (2) / __metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary (2) / clé  <br/> |Chaîne  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary (2) / valeur  <br/> |Chaîne  <br/> |2015-04-01T00:00:00.0000000  <br/> |
-       |customFieldDictionary (2) / ValueType  <br/> |Chaîne  <br/> |Edm.DateTime  <br/> |
+       |type/__metadata/customFieldDictionary (0)  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (0) / clé  <br/> |String  <br/> |Personnalisé\_ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary (0) / valeur  <br/> |String  <br/> |Entrée\_b9a2fd69279de411940f00155d3c8201 ; #Entry\_baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary (0) / ValueType  <br/> |String  <br/> |Edm.String  <br/> |
+       |customFieldDictionary (1) / __metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (1) / clé  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary (1) / valeur  <br/> |String  <br/> |90.5  <br/> |
+       |customFieldDictionary (1) / ValueType  <br/> |String  <br/> |Edm.Double  <br/> |
+       |customFieldDictionary (2) / __metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary (2) / clé  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary (2) / valeur  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary (2) / ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
    
        ![Dictionnaire qui définit les mises à jour du champ personnalisé] (media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dictionnaire qui définit les mises à jour du champ personnalisé")
   
@@ -196,10 +196,10 @@ Nous avons ajouté la méthode **CreateProjectSite** afin que vous pouvez choisi
   
 3. Ajoutez les deux éléments suivants dans le dictionnaire.
     
-    |Name|Type|Valeur|
+    |Nom|Type|Valeur|
     |:-----|:-----|:-----|
-    |Accepter  <br/> |Chaîne  <br/> |application/json ; OData = verbose  <br/> |
-    |Content-Type  <br/> |Chaîne  <br/> |application/json ; OData = verbose  <br/> |
+    |Accepter  <br/> |String  <br/> |application/json ; OData = verbose  <br/> |
+    |Content-Type  <br/> |String  <br/> |application/json ; OData = verbose  <br/> |
    
     ![Ajout d’un en-tête Accept] (media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Ajout d’un en-tête Accept")
   
@@ -217,8 +217,8 @@ Nous avons ajouté la méthode **CreateProjectSite** afin que vous pouvez choisi
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Tâches de programmation du projet](project-programming-tasks.md)
-- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)
-- [Flux de travail dans SharePoint 2013](http://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
+- [Tâches de programmation Project](project-programming-tasks.md)
+- [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)
+- [Flux de travail dans SharePoint 2013](https://msdn.microsoft.com/library/e0602371-ae22-44be-8a7e-9e47e9f046d6%28Office.15%29.aspx)
     
 

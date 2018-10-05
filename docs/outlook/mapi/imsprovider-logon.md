@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a8359657e4a1d52afa272898d3f6b417aa8181af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c7f62c69c7a06f7ca0e4bfddcf789cddc536ea6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567635"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386564"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Journaux MAPI sur une instance d’un fournisseur de magasin de message.
   
@@ -118,7 +118,7 @@ MDB_WRITE
   
 > [out] Un pointeur vers le pointeur vers le message stocker d’objet pour les applications clientes pour vous connecter à spouleur MAPI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -158,7 +158,7 @@ MAPI appelle la méthode **IMSProvider::Logon** pour l’essentiel du traitement
   
 En plus de l’objet de banque de message renvoyé pour le client et l’utilisation de spouleur MAPI, le fournisseur renvoie également un objet de d’ouverture de session du magasin de message MAPI à utiliser dans le contrôle de la banque ouverte. L’objet d’ouverture de session du magasin de message et l’objet de banque de messages doivent être étroitement liés à l’intérieur du fournisseur de banque de message afin que chacun peut avoir une incidence sur l’autre. L’utilisation de l’objet de magasin et l’objet d’ouverture de session doit être identique ; une correspondance entre l’objet d’ouverture de session et l’objet de magasin doit être tels que les objets se comportent comme s’ils étaient un seul objet qui expose les deux interfaces. Les deux objets doivent également être créés ensemble et libérés ensemble. 
   
-L’objet de prise en charge MAPI, créé par MAPI et transmis au fournisseur dans le paramètre _lpMAPISup_ , permet d’accéder aux fonctions MAPI qui requiert le fournisseur. Cela inclut les fonctions qu’enregistrent et récupérer des informations de profil, accéder aux carnets d’adresses et ainsi de suite. Le pointeur _lpMAPISup_ peut être différent pour chaque magasin est ouvert. Pendant le traitement des appels pour une banque de messages après l’ouverture de session, le fournisseur de magasin doit utiliser la variable _lpMAPISup_ qui est spécifique à cette banque. Pour chaque appel **d’ouverture de session** qui ouvre une banque de messages et réussit lors de la création d’un objet d’ouverture de session du magasin de message, le fournisseur doit enregistrer un pointeur vers l’objet de prise en charge MAPI dans l’objet d’ouverture de session du magasin et devez appeler la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) pour ajouter une référence l’objet de prise en charge. 
+L’objet de prise en charge MAPI, créé par MAPI et transmis au fournisseur dans le paramètre _lpMAPISup_ , permet d’accéder aux fonctions MAPI qui requiert le fournisseur. Cela inclut les fonctions qu’enregistrent et récupérer des informations de profil, accéder aux carnets d’adresses et ainsi de suite. Le pointeur _lpMAPISup_ peut être différent pour chaque magasin est ouvert. Pendant le traitement des appels pour une banque de messages après l’ouverture de session, le fournisseur de magasin doit utiliser la variable _lpMAPISup_ qui est spécifique à cette banque. Pour chaque appel **d’ouverture de session** qui ouvre une banque de messages et réussit lors de la création d’un objet d’ouverture de session du magasin de message, le fournisseur doit enregistrer un pointeur vers l’objet de prise en charge MAPI dans l’objet d’ouverture de session du magasin et devez appeler la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour ajouter une référence l’objet de prise en charge. 
   
 Le paramètre _ulUIParam_ doit être utilisé si le fournisseur présente des boîtes de dialogue lors de l’appel **d’ouverture de session** . Toutefois, les boîtes de dialogue ne doivent pas être présentés si _ulFlags_ contient l’indicateur MDB_NO_DIALOG. Si une interface utilisateur doit être appelée mais _ulFlags_ ne l’autorise pas, ou si une interface utilisateur ne peut pas être affichée pour une raison quelconque, le fournisseur doit renvoyer MAPI_E_LOGON_FAILED. Si **l’ouverture de session** affiche une boîte de dialogue et l’utilisateur annule l’ouverture de session, généralement en cliquant sur le bouton **Annuler** de la boîte de dialogue, le fournisseur doit retourner MAPI_E_USER_CANCEL. 
   
@@ -178,7 +178,7 @@ Lorsque _lpEntryID_ a la **valeur null**, à utiliser la banque de messages n’
   
 Si un fournisseur qui recherche toutes les informations requises ne sont pas dans le profil, elle doit retourner MAPI_E_UNCONFIGURED. MAPI appelle ensuite la fonction de point d’entrée du fournisseur message service pour permettre à l’utilisateur pour sélectionner un magasin, ou en créer une, et pour entrer un nom de compte et le mot de passe, comme nécessaire. MAPI crée automatiquement une nouvelle section de profil pour un nouveau magasin ; Cette nouvelle section de profil peut être temporaire ou permanent, selon la façon dont il a été ajouté. Si le fournisseur de banque appelle la méthode **IMAPISupport::ModifyProfile** , la nouvelle section profil devient permanente et la banque est ajoutée à la liste des magasins de message renvoyé par la méthode [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
   
-Le paramètre _lpInterface_ Spécifie l’IID de l’interface requise pour l’objet magasin récemment ouverte. Le passage de **null** dans _lpInterface_ Spécifie que l’interface de banque de message MAPI, **IMsgStore**, est requis. En passant l’objet de banque de messages, IID_IMsgStore, indique également que **IMsgStore** est requis. Si IID_IUnknown est passé dans _lpInterface_, le fournisseur doit ouvrir le magasin à l’aide de n’importe quel interface dérivée de [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) est recommandé pour le fournisseur (là encore, il s’agit généralement **IMsgStore**). Lorsque IID_IUnknown est passé, l’implémentation appelante utilise la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/en-us/library/ms682521%28v=VS.85%29.aspx) pour sélectionner une interface une fois l’opération d’ouverture magasin réussit. 
+Le paramètre _lpInterface_ Spécifie l’IID de l’interface requise pour l’objet magasin récemment ouverte. Le passage de **null** dans _lpInterface_ Spécifie que l’interface de banque de message MAPI, **IMsgStore**, est requis. En passant l’objet de banque de messages, IID_IMsgStore, indique également que **IMsgStore** est requis. Si IID_IUnknown est passé dans _lpInterface_, le fournisseur doit ouvrir le magasin à l’aide de n’importe quel interface dérivée de [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) est recommandé pour le fournisseur (là encore, il s’agit généralement **IMsgStore**). Lorsque IID_IUnknown est passé, l’implémentation appelante utilise la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) pour sélectionner une interface une fois l’opération d’ouverture magasin réussit. 
   
 L’appel **IMSProvider::Logon** doit renvoyer suffisamment d’informations, telles que le magasin et les informations d’identification pour l’accès au magasin, pour autoriser le spouleur MAPI ouvrir une session sur le même magasin que le fournisseur de banque sans présenter une boîte de dialogue chemin d’accès. Les paramètres _lpcbSpoolSecurity_ et _lppbSpoolSecurity_ permettent de renvoyer ces informations. Le fournisseur alloue de la mémoire pour ces données en passant un pointeur vers un tampon dans [MSProviderInit](msproviderinit.md) _lpfAllocateBuffer_ paramètre de la fonction ; le fournisseur place la taille de ce tampon dans _lpcbSpoolSecurity_. 
   

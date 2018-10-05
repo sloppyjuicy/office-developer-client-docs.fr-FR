@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a2f72f68926665087ee8e3a0c9e8394042a8f955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: a119bb735f752719d292371d4dc43e72450b33c0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590770"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385944"
 ---
 # <a name="pidtagsearchfolderexpiration-canonical-property"></a>Propriété canonique PidTagSearchFolderExpiration
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’heure à laquelle le conteneur de dossiers de recherche sera obsolète et doit être mis à jour ou recréé.
   
@@ -42,11 +42,11 @@ Cette propriété doit être mis en forme en tant que le nombre de minutes depui
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOSRCH]](http://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour la manipulation d’une configuration de liste de dossier de recherche.
     

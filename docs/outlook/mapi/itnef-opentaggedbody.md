@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 14964f367e3dbca484c4e1612b374a6a72ddf17b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 154d6e4a4e333f3a6165c3875bdcd57957ebf70c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593780"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383740"
 ---
 # <a name="itnefopentaggedbody"></a>ITnef::OpenTaggedBody
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une interface de flux sur le texte d’un message encapsulé.
   
@@ -55,9 +55,9 @@ N'
     
  _lppStream_
   
-> [out] Un pointeur vers un pointeur vers un objet stream qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du passé en encapsulé message et qui prend en charge l’interface [IStream](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istream) . 
+> [out] Un pointeur vers un pointeur vers un objet stream qui contient le texte de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) du passé en encapsulé message et qui prend en charge l’interface [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

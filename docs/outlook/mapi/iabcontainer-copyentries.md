@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 36e0db77097178d2db7a11b1339d19ebb8c91f2c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ddb730ed92db4c8d281e7c8d5d9b18bc44505598
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565325"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382945"
 ---
 # <a name="iabcontainercopyentries"></a>IABContainer::CopyEntries
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie une ou plusieurs entrées, les utilisateurs de messagerie en général ou des listes de distribution.
   
@@ -70,7 +70,7 @@ CREATE_REPLACE
   
 > Indique qu’une nouvelle entrée doit remplacer un s’il est déterminé que les deux sont des doublons.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -92,9 +92,9 @@ La méthode **IABContainer::CopyEntries** copie les entrées à partir du conten
     
 4. Méthode de [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la nouvelle entrée pour effectuer une sauvegarde. 
     
-5. Méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28VS.85%29.aspx) de la nouvelle entrée fourniture de référence du conteneur. 
+5. Méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28VS.85%29.aspx) de la nouvelle entrée fourniture de référence du conteneur. 
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Tous les conteneurs qui prennent en charge la méthode **IABContainer::CopyEntries** doivent être modifiables. Définir l’indicateur AB_MODIFIABLE de votre conteneur dans sa propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) pour indiquer qu’il est modifiable. 
   
@@ -120,7 +120,7 @@ Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour 
   
 [IABContainer::CreateEntry](iabcontainer-createentry.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProp::SaveChanges](imapiprop-savechanges.md)
   

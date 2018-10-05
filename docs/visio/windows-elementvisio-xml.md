@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
 description: Contient les éléments de la fenêtre d’un document.
-ms.openlocfilehash: 70746ccfa2d99a9fdd5b3a91320c9372aa233c7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: df4d4bc48db157bd05fd39177975c9dbeaa5de52
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790034"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386802"
 ---
 # <a name="windows-element-visio-xml"></a>Élément de Windows (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les éléments de la **fenêtre** d’un document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Windows_Type](windows_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -40,13 +40,14 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

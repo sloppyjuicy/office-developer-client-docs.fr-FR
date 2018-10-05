@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath est conçu pour faciliter la création d'applications basées sur des formulaires riches sur la plateforme Microsoft SharePoint Server. Microsoft InfoPath 2013, Microsoft SharePoint Server 2013 et InfoPath Forms Services offrent de nombreuses fonctionnalités aux développeurs. InfoPath Forms Services, qui est disponible dans SharePoint Server 2013, vous permet de déployer un modèle de formulaire InfoPath vers un SharePoint Server, de manière à ce que les utilisateurs sans le client riche InfoPath puissent ouvrir et remplir les formulaires InfoPath dans un navigateur web.
-ms.openlocfilehash: a11c6b4018e60a470197ecd7ffdf3b79a13658b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782469"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385150"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Nouveautés pour les développeurs InfoPath
 
@@ -45,7 +45,7 @@ Les sections suivantes décrivent brièvement les fonctionnalités et améliorat
     
 ## <a name="new-way-to-write-and-edit-code"></a>Nouvelle méthode pour écrire et modifier du code
 
-L'IDE Microsoft Visual Studio Tools for Applications qui était intégré à InfoPath 2010 a été supprimé dans InfoPath 2013. Pour écrire ou modifier du code de formulaire dans InfoPath 2013, Visual Studio 2012 et le complément [Microsoft Visual Studio Tools for Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) doivent être installés. L'expérience de programmation à proprement parler n'a pas changé de manière fondamentale, mais vous pouvez désormais utiliser l'expérience de développement Visual Studio complète lorsque vous écrivez du code managé pour vos formulaires InfoPath. 
+L'IDE Microsoft Visual Studio Tools for Applications qui était intégré à InfoPath 2010 a été supprimé dans InfoPath 2013. Pour écrire ou modifier du code de formulaire dans InfoPath 2013, Visual Studio 2012 et le complément [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) doivent être installés. L'expérience de programmation à proprement parler n'a pas changé de manière fondamentale, mais vous pouvez désormais utiliser l'expérience de développement Visual Studio complète lorsque vous écrivez du code managé pour vos formulaires InfoPath. 
   
 Les sections suivantes décrivent les fonctionnalités qui ont d'abord été ajoutées dans InfoPath 2010 et SharePoint Server 2010 et qui restent une valeur ajoutée pour les développeurs utilisant InfoPath 2013 et SharePoint Server 2013.
   
@@ -63,7 +63,7 @@ Avec InfoPath, vous pouvez désormais étendre et améliorer les formulaires uti
   
 ## <a name="host-forms-on-portal-pages-using-the-infopath-form-web-part"></a>Héberger des formulaires sur des pages de portail à l'aide du composant WebPart Formulaire InfoPath
 
-Dans SharePoint Server 2013, il est plus facile que jamais d’héberger vos formulaires sur des pages Web en utilisant le nouveau **composant WebPart Formulaire InfoPath**. Dans Microsoft Office SharePoint Server 2007, les utilisateurs qui souhaitent héberger leurs formulaires InfoPath sur les pages Web doivent écrire le code dans Visual Studio. À présent et sans écrire une seule ligne de code, vous pouvez ajouter le **composant WebPart Formulaire InfoPath** à une page WebPart et le faire pointer vers votre formulaire publié. Vous pouvez utiliser le **composant WebPart Formulaire InfoPath** pour héberger un formulaire de navigateur InfoPath qui est publié dans une bibliothèque de liste ou de formulaires SharePoint. Vous pouvez également vous connecter aux autres composants WebPart sur la page pour envoyer ou recevoir des données. Pour plus d’informations sur l’utilisation du **composant WebPart Formulaire InfoPath**, consultez [Manipuler le composant WebPart Formulaire InfoPath](http://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) dans le SDK SharePoint 2010. 
+Dans SharePoint Server 2013, il est plus facile que jamais d’héberger vos formulaires sur des pages Web en utilisant le nouveau **composant WebPart Formulaire InfoPath**. Dans Microsoft Office SharePoint Server 2007, les utilisateurs qui souhaitent héberger leurs formulaires InfoPath sur les pages Web doivent écrire le code dans Visual Studio. À présent et sans écrire une seule ligne de code, vous pouvez ajouter le **composant WebPart Formulaire InfoPath** à une page WebPart et le faire pointer vers votre formulaire publié. Vous pouvez utiliser le **composant WebPart Formulaire InfoPath** pour héberger un formulaire de navigateur InfoPath qui est publié dans une bibliothèque de liste ou de formulaires SharePoint. Vous pouvez également vous connecter aux autres composants WebPart sur la page pour envoyer ou recevoir des données. Pour plus d’informations sur l’utilisation du **composant WebPart Formulaire InfoPath**, consultez [Manipuler le composant WebPart Formulaire InfoPath](https://msdn.microsoft.com/library/bb87e126-1a07-45aa-af36-b294df3a2576%28Office.15%29.aspx) dans le SDK SharePoint 2010. 
   
 ## <a name="richer-web-forms"></a>Formulaires Web riches en fonctionnalités
 

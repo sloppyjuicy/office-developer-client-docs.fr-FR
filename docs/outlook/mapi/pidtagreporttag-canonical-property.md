@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a328d71aef57f85a5bd33db5cc219dff181dafc0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 870fbf2228206253261124907d6bd420f95fb7c1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593304"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384842"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>Propriété canonique PidTagReportTag
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une valeur de balise binaires que le système de messagerie doit copier dans un rapport généré pour le message. 
   
@@ -42,11 +42,11 @@ Cette propriété, comme la propriété **PR_SUBJECT_IPM** ([PidTagSubjectMessag
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 44d369f0-ab37-75ca-727e-b421d6f95ba7
 description: Contient x- ou la coordonnée y du sommet de fin d’un segment de droite par rapport à la largeur et la hauteur d’une forme.
-ms.openlocfilehash: 73930b15a62a483b38da4791511f735ac81bb1a4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 63c9b2b87363ee798adc98eeeb780a30035a95e6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788235"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384534"
 ---
 # <a name="cell-element-rellineto-row-visio-xml"></a>Élément de cellule (ligne RelLineTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient x- ou la coordonnée y du sommet de fin d’un segment de droite par ra
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -66,7 +66,7 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’un segment de droite par rapport à la largeur de la forme.  <br/> |[RelLineTo, ligne (Section Geometry)](rellineto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’un segment de droite par rapport à la hauteur de la forme.  <br/> |[RelLineTo, ligne (Section Geometry)](rellineto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du sommet de fin d’un segment de droite par rapport à la largeur de la forme.  <br/> |[Ligne RelLineTo (section Géométrie)](rellineto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du sommet de fin d’un segment de droite par rapport à la hauteur de la forme.  <br/> |[Ligne RelLineTo (section Géométrie)](rellineto-row-geometry-section.md) <br/> |
    
 

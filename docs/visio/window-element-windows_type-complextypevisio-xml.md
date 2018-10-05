@@ -6,24 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
-description: Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires pour recréer exactement une fenêtre de l’interface utilisateur dans l’espace de travail lorsque le fichier est ouvert à l’origine par Visio.
-ms.openlocfilehash: 762b689d625c7865696a0bf8bb8c4acc25e3d8eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: >-
+  Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+   Cet élément contient les informations nécessaires pour recréer exactement une fenêtre de l’interface utilisateur dans l’espace de travail lorsque le fichier est ouvert à l’origine par Visio.
+ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790041"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385346"
 ---
 # <a name="window-element-windowstype-complextype-visio-xml"></a>Élément de la fenêtre (Windows_Type, complexType) (« Visio XML »)
 
-Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires pour recréer exactement une fenêtre de l’interface utilisateur dans l’espace de travail lorsque le fichier est ouvert à l’origine par Visio.
+Représente une fenêtre ouverte dans une instance de Microsoft Visio.
+ Cet élément contient les informations nécessaires pour recréer exactement une fenêtre de l’interface utilisateur dans l’espace de travail lorsque le fichier est ouvert à l’origine par Visio.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    
@@ -78,7 +81,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 |ViewCenterX  <br/> |XSD : double  <br/> |facultatif  <br/> |**ViewCenterX** et **ViewCenterY** spécifient un point central sur une page qu’un nouvel affichage (fenêtre) lorsqu’il est ouvert à l’origine.  <br/> |Valeurs du type xsd : double.  <br/> |
 |ViewCenterY  <br/> |XSD : double  <br/> |facultatif  <br/> |**ViewCenterX** et **ViewCenterY** spécifient un point central sur une page qu’un nouvel affichage (fenêtre) lorsqu’il est ouvert à l’origine.  <br/> |Valeurs du type xsd : double.  <br/> |
 |ViewScale  <br/> |XSD : double  <br/> |facultatif  <br/> |Le facteur d’agrandissement par défaut à utiliser lors de l’ouverture d’un nouvel affichage (fenêtre) de la page. Par exemple, 1 = 100 %. 1,5 = 150 % et ainsi de suite.  <br/> |Valeurs du type xsd : double.  <br/> |
-|WindowHeight (HauteurFenêtre)  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |Hauteur du rectangle de la fenêtre.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|WindowHeight  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |Hauteur du rectangle de la fenêtre.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |WindowLeft  <br/> |XSD:short  <br/> |facultatif  <br/> |Coordonnée gauche du rectangle de la fenêtre.  <br/> |Valeurs du type xsd:short.  <br/> |
 |WindowState  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> |Un entier spécifiant bits indicateurs.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |WindowTop  <br/> |XSD:short  <br/> |facultatif  <br/> |Coordonnée supérieure du rectangle de la fenêtre.  <br/> |Valeurs du type xsd:short.  <br/> |

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b9659beac383ab5da206e5184a3501036da2cd80
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564527"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385822"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>Propriété canonique PidTagExpiryNumber
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit le délai d’expiration envoi conjointement avec la propriété **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
@@ -42,7 +42,7 @@ Valeur de cette propriété doit être définie entre 0 et 999 inclus, s’il es
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

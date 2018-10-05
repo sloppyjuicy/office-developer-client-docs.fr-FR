@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Une partie spécifiée par l’utilisateur des informations susceptibles d’être référencées par d’autres cellules et outils de module complémentaire.
-ms.openlocfilehash: 10a0e0e5f7255274de528a34d5faa2de6137446e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8852c1db31e9a9b8f0860c111da32de6d44dc7f5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789545"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388013"
 ---
 # <a name="row-element-user-defined-cells-section-visio-xml"></a>Row, élément (Section de cellules définies par l’utilisateur) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Une partie spécifiée par l’utilisateur des informations susceptibles d’êt
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, masters.xml, maître # .xml, pages.xml, page # .xml  <br/> |
    

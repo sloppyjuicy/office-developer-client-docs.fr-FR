@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 86b5d76cab1b85b38d76315cf7d905d1a07f0777
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 227ceb468c54cea98519057b2f837a4aee84820c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569063"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387215"
 ---
 # <a name="pidtagoriginatornondeliveryreportrequested-canonical-property"></a>Propriété canonique PidTagOriginatorNonDeliveryReportRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message demande un rapport de non-remise pour un destinataire particulier.
   
@@ -42,7 +42,7 @@ Cette propriété est utilisée pour diriger le système de messagerie dans la g
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

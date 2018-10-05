@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b4fbcb8-1ae4-c9fb-6337-b72f49aedd91
 description: Modifie la couleur en diminuant sa luminosité d’une valeur (positive ou négative) spécifiée dans le paramètre int.
-ms.openlocfilehash: 4a02aa41050c3cf36b567c238670b5f61074bd7c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b31b4c49a823ace3f6474b94ba3737791928520d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789625"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382980"
 ---
-# <a name="shade-function"></a>SHADE, fonction
+# <a name="shade-function"></a>Fonction SHADE
 
 Modifie la couleur en diminuant sa luminosité d’une valeur (positive ou négative) spécifiée dans le paramètre _int_ . 
   
@@ -26,10 +26,10 @@ OMBRE (** *couleur* **, ** *int* **)
 
 |**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la couleur.  <br/> |
+| _color_ <br/> |Obligatoire  <br/> |**Numeric** <br/> |Index de couleurs Microsoft Visio ou valeur RVB de la couleur.  <br/> |
 | _int_ <br/> |Obligatoire  <br/> |**Integer** <br/> |Valeur de diminution de la luminosité de la couleur. Elle peut être positive ou négative.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
  **RGB**
   
@@ -37,6 +37,6 @@ OMBRE (** *couleur* **, ** *int* **)
 
 Les limites supérieures et inférieures de luminosité sont respectivement 0 et 240. Il n’existe aucune limite la taille de l’entier, que vous pouvez passer au paramètre _int_ , mais la luminosité ne dépasse jamais ces limites. 
   
-![](media/image199_ZA10173627.gif)
+![Limites supérieure et inférieure de la luminosité](media/image199_ZA10173627.gif)
   
 

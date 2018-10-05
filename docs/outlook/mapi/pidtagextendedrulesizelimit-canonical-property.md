@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 87186764-fb58-4cdf-804d-bb13c5a8cb65
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 336f2b4bd6a4251548284eae91a51ad7018949c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 347d84021b7e9ece925acb99e8b539ba608337a9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582125"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384994"
 ---
 # <a name="pidtagextendedrulesizelimit-canonical-property"></a>Propriété canonique PidTagExtendedRuleSizeLimit
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique la taille maximale, en octets, l’utilisateur est autorisé à s’accumulent pour une seule règle « étendue ».
   
@@ -38,17 +38,17 @@ Indique la taille maximale, en octets, l’utilisateur est autorisé à s’accu
 
 Si cette propriété est définie sur l’objet d’ouverture de session, le client doit conserver la taille de la propriété **PR_EXTENDED_RULE_MSG_CONDITION** ([PidTagExtendedRuleMessageCondition](pidtagextendedrulemessagecondition-canonical-property.md)) sous la valeur spécifiée par cette propriété. En revanche, le serveur doit renvoyer une erreur si le client tente de définir une propriété binaire est trop volumineux.
   
-Pour plus d’informations sur les règles d’étendue, voir [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Pour plus d’informations sur les règles d’étendue, voir [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCSTOR]](http://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
 > Spécifie les opérations autorisées pour les objets de banque de messages principale.
     

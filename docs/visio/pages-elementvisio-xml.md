@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Contient les éléments de Page du document.
-ms.openlocfilehash: bfac84c878189976df616bbce5235bf815d39bf5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4062c83f4b017fde7e1d5d4c568f7c9728e3334
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789223"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386256"
 ---
 # <a name="pages-element-visio-xml"></a>Élément de pages (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les éléments de Page du document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |pages.Xml  <br/> |
    
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

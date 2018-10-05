@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Dernière modification : 30 janvier 2013'
-ms.openlocfilehash: 547733f815c7d8c8762e79febce40ee9fec07d3a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574530"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389259"
 ---
 # <a name="nickname-cache"></a>Cache de surnoms
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Microsoft Office Outlook 2007, Microsoft Outlook 2010 et Microsoft Outlook 2013 interagissent avec le cache du surnom, également appelé « saisie semi-automatique flux. » Le flux de saisie semi-automatique est où Outlook persiste la liste de saisie semi-automatique, qui est la liste de noms qui s’affiche dans la zone **à**, **Cc**et **Cci** des zones d’édition pendant un utilisateur compose un message électronique. Cette rubrique décrit comment Outlook 2007, Outlook 2010 et Outlook 2013 interagissent avec le flux de saisie semi-automatique et traite également le format binaire du fichier et les méthodes recommandées pour interagir avec le flux de saisie semi-automatique. 
   
@@ -37,7 +37,7 @@ Le moyen de stocker les données de saisie semi-automatique diffère entre Outlo
   
  **Outlook 2007**
   
-Pour Outlook 2007, le flux de saisie semi-automatique est stocké dans un fichier avec le même nom que le profil et d’une extension .nk2. Par exemple, si le profil par défaut de « outlook » est utilisé, le fichier sera appelé « outlook.nk2 ». Le fichier .nk2 est stocké dans % APPDATA%\Microsoft\Outlook. Pour plus d’informations sur le format de fichier binaire surnom du cache, voir [Format de fichier NK2 Outlook 2003/2007 et des instructions pour les développeurs](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
+Pour Outlook 2007, le flux de saisie semi-automatique est stocké dans un fichier avec le même nom que le profil et d’une extension .nk2. Par exemple, si le profil par défaut de « outlook » est utilisé, le fichier sera appelé « outlook.nk2 ». Le fichier .nk2 est stocké dans % APPDATA%\Microsoft\Outlook. Pour plus d’informations sur le format de fichier binaire surnom du cache, voir [Format de fichier NK2 Outlook 2003/2007 et des instructions pour les développeurs](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf).
   
  **Outlook 2010 et Outlook 2013**
   
@@ -84,5 +84,5 @@ Enregistrer les modifications dans les données de saisie semi-automatique impli
 [Profils MAPI](mapi-profiles.md)
 
 
-[Format de fichier NK2 Outlook 2003/2007 et des instructions pour les développeurs](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+[Format de fichier NK2 Outlook 2003/2007 et des instructions pour les développeurs](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
 

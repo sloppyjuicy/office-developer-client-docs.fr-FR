@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 description: Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton de balise d’action.
-ms.openlocfilehash: ca6be0a95b33e173219f4bdc1ba042c7162941b3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e74b3281d894cebd8491112181198d427f0d337f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788184"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385479"
 ---
-# <a name="buttonface-cell-action-tags-section"></a>ButtonFace, cellule (section Action Tags)
+# <a name="buttonface-cell-action-tags-section"></a>Cellule ButtonFace (section Balises d’action)
 
 Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton de balise d’action. 
   
@@ -25,17 +25,17 @@ Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton 
   
 ## <a name="remarks"></a>Notes
 
-La chaîne contenue dans la cellule ButtonFace représente l’ID d’une image de bouton Microsoft Office. La valeur 0 (zéro) ou vide par défaut, le bouton informations de la balise « i » action standard ![](media/InfoPS_ZA10180114.gif).
+La chaîne contenue dans la cellule ButtonFace représente l’ID d’une image de face de bouton Microsoft Office. Une valeur de 0 (zéro) ou vide applique par défaut le bouton d’information « i » standard des balises d’action ![Bouton d’informations sur la balise « i » action standard](media/InfoPS_ZA10180114.gif).
   
 Les ID qui peuvent être utilisées dans la cellule ButtonFace sont les mêmes que ceux utilisés avec la propriété **FaceID** d’un objet **CommandBarButton** . Pour plus d’informations sur ces codes, recherchez « utilisation des images de boutons de barre de commande » sur MSDN. 
   
-Pour obtenir une référence à la cellule ButtonFace par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ButtonFace par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | Balises actives.  *nom* . ButtonFace où SmartTags. *nom* est le nom de la ligne de balise d’action  <br/> |
    
-Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ButtonFace par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

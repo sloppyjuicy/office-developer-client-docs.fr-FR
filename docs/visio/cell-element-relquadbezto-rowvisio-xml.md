@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier par rapport à la hauteur et la largeur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et la hauteur de la forme relative courbe.
-ms.openlocfilehash: 5f823e5930d3dad8bf6e20727e4b527493f89892
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788229"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388671"
 ---
 # <a name="cell-element-relquadbezto-row-visio-xml"></a>Élément de cellule (ligne RelQuadBezTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézi
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -64,9 +64,9 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’une courbe de Bézier par rapport à la largeur de la forme.  <br/> |[RelQuadBezTo, ligne (Section Geometry)](relquadbezto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo, ligne (Section Geometry)](relquadbezto-row-geometry-section.md) <br/> |
-|A  <br/> |La coordonnée x du contrôle de la courbe de point par rapport à la largeur de la forme ; un point sur l’arc. Le point de contrôle se trouve mieux sur à mi-chemin entre le début et fin sommets de l’arc.  <br/> |[RelQuadBezTo, ligne (Section Geometry)](relquadbezto-row-geometry-section.md) <br/> |
-|B  <br/> |La coordonnée y du contrôle d’une courbe de point par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo, ligne (Section Geometry)](relquadbezto-row-geometry-section.md) <br/> |
+|X   <br/> |Coordonnée x du sommet de fin d’une courbe de Bézier par rapport à la largeur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
+|Y  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier par rapport à la hauteur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
+|A  <br/> |La coordonnée x du contrôle de la courbe de point par rapport à la largeur de la forme ; un point sur l’arc. Le point de contrôle se trouve mieux sur à mi-chemin entre le début et fin sommets de l’arc.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
+|B  <br/> |La coordonnée y du contrôle d’une courbe de point par rapport à la hauteur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
    
 

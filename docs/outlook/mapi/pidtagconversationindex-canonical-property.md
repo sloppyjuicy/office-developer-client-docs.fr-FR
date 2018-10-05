@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 77fee834108a603c1cd10e8e47776cc34fd75a2b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c6fa0d8f1323e8562a78080f50dbf448b8019ec2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584165"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383624"
 ---
 # <a name="pidtagconversationindex-canonical-property"></a>Propriété canonique PidTagConversationIndex
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient une valeur binaire qui indique la position relative de ce message dans un thread de conversation. 
   
@@ -48,11 +48,11 @@ Tous les messages qui ont la même valeur pour **PR_CONVERSATION_TOPIC** peuvent
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
     

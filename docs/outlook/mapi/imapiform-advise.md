@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f0717dad6c32906995938c2b00d59f9ee96ff6e6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591071"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387530"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre une visionneuse de formulaire pour les notifications concernant les événements qui affectent le formulaire.
   
@@ -44,7 +44,7 @@ HRESULT Advise(
   
 > [out] Pointeur vers une valeur différente de zéro qui représente un enregistrement de notification réussie.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -58,9 +58,9 @@ E_OUTOFMEMORY
 
 Visionneuses de formulaire appellent méthode de **IMAPIForm::Advise** d’un formulaire à l’enregistrement d’une notification lorsque des modifications se produisent au formulaire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
-Conserver une copie de l’affichage de notification pointeur du récepteur transmis dans le paramètre _pAdvise_ afin que vous pouvez l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appel de l’affichage de notification méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) du récepteur conserver le pointeur jusqu'à l’annulation de l’inscription aux notifications. Définir le contenu du paramètre _pulConnection_ à un nombre différent de zéro. 
+Conserver une copie de l’affichage de notification pointeur du récepteur transmis dans le paramètre _pAdvise_ afin que vous pouvez l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appel de l’affichage de notification méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) du récepteur conserver le pointeur jusqu'à l’annulation de l’inscription aux notifications. Définir le contenu du paramètre _pulConnection_ à un nombre différent de zéro. 
   
 De nombreux formulaires implémentent un objet d’assistance pour gérer l’enregistrement et la notification ultérieure d’événements. 
   

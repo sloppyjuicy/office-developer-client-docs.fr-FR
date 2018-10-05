@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 31cabf50602f9e0f7a70118ddc794387990862ad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2d1edf371486c5db0aa8b869726c8a9a7b62ab06
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591267"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389441"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Propriété canonique PidLidAutoFillLocation
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique que la valeur de la propriété **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) est définie à la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) à partir de la RecipientRow qui représente une ressource.
   
@@ -37,17 +37,17 @@ Indique que la valeur de la propriété **dispidLocation** ([PidLidLocation](pid
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur RecipientRow, voir le protocole de Message et l’objet Attachment tel que spécifié dans [[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Pour plus d’informations sur RecipientRow, voir le protocole de Message et l’objet Attachment tel que spécifié dans [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

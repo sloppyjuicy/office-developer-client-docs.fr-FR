@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3ff428d96de40e70e63659c5a3e5fa1c7cf0d564
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 83940d9239bc172d5fab76232f6644f0e89033b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569112"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386725"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propriété canonique PidTagConflictItems
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un ou plusieurs identificateurs d’éléments qui ont été impliquées dans une résolution de conflit automatique d’entrée.
   
@@ -49,11 +49,11 @@ Un élément expose la propriété **PR_CONFLICT_ITEMS** si elle est un des type
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
     

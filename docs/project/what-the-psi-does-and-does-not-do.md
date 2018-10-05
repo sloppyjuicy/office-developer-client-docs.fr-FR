@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: L’Interface de Project Server (PSI) peut aider à automatiser de nombreux processus côté serveur dans les installations locales de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professional 2013.
-ms.openlocfilehash: e926e970c5e8dd382370fbe4d7c34c4136502cbf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b93c3535ca6693a84d11370de17bc18375f168ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588110"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386340"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Fonctionnalités de l’interface PSI
 
@@ -49,12 +49,12 @@ Voici des exemples de certaines applications qui prend en charge l’interface P
     
 - **Créer des activités de flux de travail personnalisé pour la gestion de la demande** Utilisez l’interface PSI dans les activités de flux de travail locale, la confiance totale pour modifier et mettre à jour les propositions de projet basées sur des modèles de projet d’entreprise. Champs personnalisés de projet permet de baliser le projet avec les informations nécessaires pour le processus d’initiation et d’approbation. Ajouter des tâches pour identifier les phases du projet pour les principaux jalons et livrables. Lors de l’approbation des propositions de projet, un flux de travail peut modifier les propositions dans des projets à grande échelle qui sont gérés avec Project Professional. 
     
-- **Extensions de créer la PSI** (**Déconseillées.** Les extensions sont déconseillées dans Project Server 2013 et ne seront pas prise en charge dans les versions futures.) L’interface PSI peut être étendue avec des services personnalisés à l’aide de l’interface Windows Communication Foundation (WCF). Extensions PSI s’exécutent sur l’ordinateur Project Server et peuvent utiliser la même infrastructure de sécurité qui utilisent les services PSI intégrés. Extensions peuvent interroger des tables dans les création de rapports, utilisez les tables de base de données distincte, consolider les appels PSI pour enregistrer la bande passante et intégrer des applications tierces et d’autres composants côté serveur. Pour plus d’informations, voir [Développement d’Extensions PSI](http://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
+- **Extensions de créer la PSI** (**Déconseillées.** Les extensions sont déconseillées dans Project Server 2013 et ne seront pas prise en charge dans les versions futures.) L’interface PSI peut être étendue avec des services personnalisés à l’aide de l’interface Windows Communication Foundation (WCF). Extensions PSI s’exécutent sur l’ordinateur Project Server et peuvent utiliser la même infrastructure de sécurité qui utilisent les services PSI intégrés. Extensions peuvent interroger des tables dans les création de rapports, utilisez les tables de base de données distincte, consolider les appels PSI pour enregistrer la bande passante et intégrer des applications tierces et d’autres composants côté serveur. Pour plus d’informations, voir [Développement d’Extensions PSI](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
     
-- **Emprunt d’identité utilisés dans les applications de confiance totale, locales** Les appels vers l’interface WCF de la PSI peuvent être empruntées, afin qu’une application suppose que les autorisations de sécurité de l’utilisateur représenté. Emprunt d’identité doit être utilisé avec modération et avec soin. Lecture et mise à jour des informations d’état pour d’autres utilisateurs ne nécessitent pas l’emprunt d’identité. Nouvelles applications qui nécessitent l’emprunt d’identité doivent utiliser le modèle CSOM et le protocole OAuth au lieu de la PSI. Pour plus d’informations sur l’emprunt d’identité avec l’interface PSI, voir [Utiliser l’emprunt d’identité avec WCF](http://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
+- **Emprunt d’identité utilisés dans les applications de confiance totale, locales** Les appels vers l’interface WCF de la PSI peuvent être empruntées, afin qu’une application suppose que les autorisations de sécurité de l’utilisateur représenté. Emprunt d’identité doit être utilisé avec modération et avec soin. Lecture et mise à jour des informations d’état pour d’autres utilisateurs ne nécessitent pas l’emprunt d’identité. Nouvelles applications qui nécessitent l’emprunt d’identité doivent utiliser le modèle CSOM et le protocole OAuth au lieu de la PSI. Pour plus d’informations sur l’emprunt d’identité avec l’interface PSI, voir [Utiliser l’emprunt d’identité avec WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
     
 > [!NOTE]
-> Dans certains cas, la PSI peut être utilisée dans les applications clientes avec CSOM et Project Online. Si vous utilisez un service web PSI basées sur ASMX, l’application doit inclure une méthode pour authentifier l’objet [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) dans le modèle et une méthode pour authentifier la ** System.Web.Services.Protocols.SoapHttpClientProtocol** objet client. Pour obtenir un exemple qui utilise un service web avec SharePoint CSOM, voir [Authentification à distance en matière d’authentification SharePoint Online Using Claims-Based](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Fait de contraintes autorisations au niveau de l’application, l’interface PSI ne peut être utilisée dans les applications qui sont conçues pour la distribution dans l’Office Store public. Dans ce cas, vous pouvez utiliser uniquement le modèle CSOM. 
+> Dans certains cas, la PSI peut être utilisée dans les applications clientes avec CSOM et Project Online. Si vous utilisez un service web PSI basées sur ASMX, l’application doit inclure une méthode pour authentifier l’objet [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) dans le modèle et une méthode pour authentifier la ** System.Web.Services.Protocols.SoapHttpClientProtocol** objet client. Pour obtenir un exemple qui utilise un service web avec SharePoint CSOM, voir [Authentification à distance en matière d’authentification SharePoint Online Using Claims-Based](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > Fait de contraintes autorisations au niveau de l’application, l’interface PSI ne peut être utilisée dans les applications qui sont conçues pour la distribution dans l’Office Store public. Dans ce cas, vous pouvez utiliser uniquement le modèle CSOM. 
   
 ## <a name="what-the-psi-does-not-do"></a>Ce que l’interface PSI ne fait pas
 <a name="pj14_WhatPSIDoes_DoesNotDo"> </a>
@@ -234,7 +234,7 @@ Pour la tâche récapitulative du projet, les limitations PSI sont les mêmes qu
 
 - [Fonctionnalité du modèle CSOM](what-the-csom-does-and-does-not-do.md)  
 - [Programmabilité de Project Server](project-server-programmability.md)   
-- [Authentification à distance dans SharePoint Online à l’aide de l’authentification basée sur les revendications](http://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
+- [Authentification à distance dans SharePoint Online à l’aide de l’authentification basée sur les revendications](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
 - [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) 
     
 

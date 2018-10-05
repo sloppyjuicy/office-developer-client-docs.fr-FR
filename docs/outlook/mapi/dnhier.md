@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3953dc9d-0146-3689-63f0-c6ba78566b8b
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: fbf064201bf8d2733c3eea1e1a24f77b146a23c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06f30b4856fc10127aec99975652e28a5e8dda30
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564569"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389084"
 ---
 # <a name="dnhier"></a>DNHIER
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement une hiérarchie à partir du serveur au cours de l' [état de la hiérarchie du téléchargement](download-hierarchy-state.md), qui fait partie d’une synchronisation complète de hiérarchie. Ce processus de téléchargement utilise la synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Informations pour le téléchargement une hiérarchie à partir du serveur au cours de l' [état de la hiérarchie du téléchargement](download-hierarchy-state.md), qui fait partie d’une synchronisation complète de hiérarchie. Ce processus de téléchargement utilise la synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -51,7 +51,7 @@ _pstmReserved_
     
 _pxihc_
   
->  [out] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications incrémentielles de hiérarchie. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, voir [Critères d’évaluation de partage de connexion Internet](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications incrémentielles de hiérarchie. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _cEntNew_
   

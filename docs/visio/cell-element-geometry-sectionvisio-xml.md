@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82dcad38-d5fa-4892-91d9-1f3f25f1e600
 description: Définit les propriétés qui déterminent les propriétés de mise en forme et le comportement en ce qui concerne les traits et des arcs qui constituent la Section Geometry.
-ms.openlocfilehash: f7ac096206b9197d71691f485a7c5aafc08eb2c8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ebfdb4dc7809f8883143fdda39f873a36f7bf896
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788239"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389308"
 ---
 # <a name="cell-element-geometry-section-visio-xml"></a>Élément de cellule (Section Geometry) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Définit les propriétés qui déterminent les propriétés de mise en forme et 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -68,7 +68,7 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
 |:-----|:-----|:-----|
 |NoFill  <br/> |Indique si un chemin peut être rempli.  <br/> |[NoFill, cellule (section Geometry)](nofill-cell-geometry-section.md) <br/> |
 |NoLine  <br/> |Détermine si un trait est tracé autour du contour du chemin.  <br/> |[NoLine, cellule (section Geometry)](noline-cell-geometry-section.md) <br/> |
-|NoQuickDrag  <br/> |Détermine si une forme peut être sélectionnée ou déplacée lorsque l’utilisateur clique sur la zone remplie définie par la section Geometry.  <br/> |[Noquickdrag, cellule (Section Geometry)](noquickdrag-cell-geometry-section.md) <br/> |
+|NoQuickDrag  <br/> |Détermine si une forme peut être sélectionnée ou déplacée lorsque l’utilisateur clique sur la zone remplie définie par la section Geometry.  <br/> |[Cellule NoQuickDrag (section Géométrie)](noquickdrag-cell-geometry-section.md) <br/> |
 |NoShow  <br/> |Indique si un chemin est affiché sur la page de dessin.  <br/> |[NoShow, cellule (section Geometry)](noshow-cell-geometry-section.md) <br/> |
 |NoSnap  <br/> |Détermine si les autres formes s'alignent sur un chemin.  <br/> |[NoSnap, cellule (section Geometry)](nosnap-cell-geometry-section.md) <br/> |
    

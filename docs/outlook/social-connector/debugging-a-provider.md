@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 'Il existe plusieurs façons, vous pouvez déboguer un fournisseur Outlook Social Connector (OSC) :'
-ms.openlocfilehash: ada439ca3b038ca9a0e849b47ff6a5f54e5016f2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787583"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386851"
 ---
 # <a name="debugging-a-provider"></a>Débogage d’un fournisseur
 
@@ -47,7 +47,7 @@ Le tableau suivant décrit les boutons de débogage.
    
 ## <a name="fiddler"></a>Fiddler
 
-Fiddler est un outil de débogage over-the-wire pour vérifier les appels d’API envoyés par votre fournisseur au réseau social et XML envoyées par le réseaux sociaux à votre fournisseur. Fiddler est disponible pour téléchargement à l’adresse [Proxy de débogage Web Fiddler](http://www.fiddler2.com/fiddler2/version.asp).
+Fiddler est un outil de débogage over-the-wire pour vérifier les appels d’API envoyés par votre fournisseur au réseau social et XML envoyées par le réseaux sociaux à votre fournisseur. Fiddler est disponible pour téléchargement à l’adresse [Proxy de débogage Web Fiddler](https://www.fiddler2.com/fiddler2/version.asp).
   
 ## <a name="see-also"></a>Voir aussi
 

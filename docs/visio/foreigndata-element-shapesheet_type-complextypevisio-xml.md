@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
 description: Contient un BLOB codé MIME (Multipurpose Internet Mail Extensions) des données d’image, telles que les données OLE, bitmap ou métafichier Windows.
-ms.openlocfilehash: d548ce8a6b05f8a9a104aee96c0982c6dbccc417
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cce7665230fb9e68bf37002e1953944a5b8f8082
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788691"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382680"
 ---
 # <a name="foreigndata-element-shapesheettype-complextype-visio-xml"></a>ForeignData, élément (ShapeSheet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient un BLOB codé MIME (Multipurpose Internet Mail Extensions) des données
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |page # .xml, master # .xml  <br/> |
    

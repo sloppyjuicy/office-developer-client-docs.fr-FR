@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83194b47faf7892d5da568a354921511eb097210
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c2b9176e21341ef28e6f0bc007757b097a05daee
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582951"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386571"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décrit les informations de configuration de l’impression de l’objet de formulaire. 
   
@@ -75,7 +75,7 @@ La structure **FORMPRINTSETUP** est utilisée pour décrire les informations de 
   
 Si l’indicateur MAPI_UNICODE est passé dans le paramètre _ulFlags_ de **GetPrintSetup**, les chaînes référencées par les membres **hDevmode** et **hDevnames** doivent être au format Unicode. Dans le cas contraire, les chaînes doivent être au format ANSI. 
   
-Visionneuses de formulaire l’implémentation **IMAPIViewContext** doivent affecter la structure **FORMPRINTSETUP** à l’aide de la fonction d’allocation MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), mais allouer les membres individuels, **hDevMode** et **hDevNames**, avec la fonction Windows [GlobalAlloc](http://go.microsoft.com/fwlink/?LinkId=132110). La version de la mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree](http://go.microsoft.com/fwlink/?LinkId=132108) tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+Visionneuses de formulaire l’implémentation **IMAPIViewContext** doivent affecter la structure **FORMPRINTSETUP** à l’aide de la fonction d’allocation MAPI [MAPIAllocateBuffer](mapiallocatebuffer.md), mais allouer les membres individuels, **hDevMode** et **hDevNames**, avec la fonction Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La version de la mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree](https://go.microsoft.com/fwlink/?LinkId=132108) tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

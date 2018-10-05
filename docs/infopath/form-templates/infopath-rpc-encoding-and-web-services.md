@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: 'Les services Web peuvent exposer un style parmi deux pour lier leurs méthodes Web dans le contrat WSDL (Web Service Description Language) qui les décrit : Document ou RPC.'
-ms.openlocfilehash: 01b75df42bce97d62ebb5e273588cb522e5e2a09
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782383"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387677"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, chiffrement RPC et services Web
 
@@ -62,7 +62,7 @@ Les préalables à la création d'un tel service de proxy Microsoft .NET Web son
     
    ```
 
-Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur http://support.microsoft.com/.
+Pour plus d'informations, recherchez l'article de la Base de connaissances Microsoft « Procédure : passage des informations d'identification actuelles à un service Web ASP.NET » (éventuellement en anglais) sur https://support.microsoft.com/.
     
 ## <a name="creating-a-proxy-web-service-without-visual-studio-net"></a>Création d'un service Web de proxy sans Visual Studio .NET
 

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: Fournit des instructions pour Microsoft Visio recalcule une relation entre les parties de document dans un fichier Visio.
-ms.openlocfilehash: 909fff3ccec176cd3ce327fc208c176a68764fe3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789944"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385437"
 ---
 # <a name="trigger-element-visio-xml"></a>Élément Trigger (« Visio XML »)
 
@@ -23,7 +23,7 @@ Fournit des instructions pour Microsoft Visio recalcule une relation entre les p
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -88,6 +88,6 @@ L’attribut **N** de cet élément **Trigger** doit être un ensemble limité d
 |RecalcType  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Il existe un déclencheur qui s’affiche sur une forme lorsqu’une référence croisée-composant à l’aide d’une fonction de **TYPE** .  <br/> |
 |RelChanged  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Il existe un déclencheur qui s’affiche sur une forme lorsqu’une référence croisée-composant à l’aide d’une fonction **CONTAINERMEMBERCOUNT** .  <br/> |
 |ZOrderChanged  <br/> |[PageSheet (Page_Type type complexe)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Il existe un déclencheur qui s’affiche sur une page lorsqu’une référence croisée-composant à l’aide d’une fonction **CONTAINERSHEETREF** .  <br/> |
-|Chemin  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Il existe un déclencheur qui s’affiche sur une page lorsqu’une référence croisée-composant à l’aide d’une fonction **POINTALONGPATH**, **PATHLENGTH**ou **PATHSEGMENT** .  <br/> |
+|Path  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Il existe un déclencheur qui s’affiche sur une page lorsqu’une référence croisée-composant à l’aide d’une fonction **POINTALONGPATH**, **PATHLENGTH**ou **PATHSEGMENT** .  <br/> |
    
 

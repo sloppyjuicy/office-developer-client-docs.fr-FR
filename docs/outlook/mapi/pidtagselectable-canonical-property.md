@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d376a5219125866f467be01709a6a611ed8d47f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 17343a721cbcc642c8cffe95112f25710c0c130c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576420"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383456"
 ---
 # <a name="pidtagselectable-canonical-property"></a>Propriété canonique PidTagSelectable
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si l’entrée dans la table unique peut être sélectionnée. 
   
@@ -52,11 +52,11 @@ Modèles de télécopies (profondeur 0, pas sélectionnable)
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOABKT]](http://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
+[[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les modèles de carnet d’adresses.
     

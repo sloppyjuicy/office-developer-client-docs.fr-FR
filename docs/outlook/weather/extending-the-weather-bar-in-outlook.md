@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
-ms.openlocfilehash: 6b2462615813b056ec09168ab512d456e1a7bdd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787723"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386578"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 
@@ -37,7 +37,7 @@ Par défaut, Outlook utilise les données météorologiques fournies par MSN Mé
 
 Un utilisateur peut indiquer un autre service de données météorologiques pour la barre météorologique, tant que ce service implémente un service web qui prend en charge le protocole suivant pour communiquer avec Outlook :
   
-1. Le service de données météorologique prend en charge une URL de base d'un service web. Par exemple, un service web Contoso Météo peut avoir une URL de base correspondant à http://service.contoso.com/data.aspx.
+1. Le service de données météorologique prend en charge une URL de base d'un service web. Par exemple, un service web Contoso Météo peut avoir une URL de base correspondant à https://service.contoso.com/data.aspx.
     
 2. Pour demander un code d’emplacement, le service web autorise Outlook à ajouter les paramètres suivants à l’URL de base : 
     
@@ -45,7 +45,7 @@ Un utilisateur peut indiquer un autre service de données météorologiques pour
     
    - weasearchstr=_city_ : ce paramètre indique le lieu (_ville_), pour lequel l'utilisateur souhaite recevoir des prévisions météorologiques (par exemple, Londres).
     
-   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](https://www.ietf.org/rfc/rfc4646.txt)
     
    - src=outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
     
@@ -61,7 +61,7 @@ Un utilisateur peut indiquer un autre service de données météorologiques pour
     
    - weadegreetype=_degreetype_ : ce paramètre spécifie si vous souhaitez utiliser les unités de mesure métriques ou impériales pour la température. Pour _degreetype_, spécifiez c pour métrique, f pour impérial. Ce paramètre est facultatif et n’est pas toujours disponible dans la demande de service web.
     
-   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](http://www.ietf.org/rfc/rfc4646.txt)
+   - culture=_LCID_ : ce paramètre indique la culture de la version d’Office installée pour l’utilisateur sur cet ordinateur. La valeur LCID est définie dans les balises [[ RFC4646] qui permettent d’identifier les langues](https://www.ietf.org/rfc/rfc4646.txt)
     
    - src=outlook : ce paramètre indique qu’Outlook est l’application cliente demandant le service.
     
@@ -74,7 +74,7 @@ Un utilisateur peut indiquer un autre service de données météorologiques pour
 ## <a name="setting-the-weather-bar-to-use-a-weather-service"></a>Définition de la barre météorologique afin d'utiliser un service météo
 <a name="ol15_weatherbar_setting"> </a>
 
-L'administrateur ou l'utilisateur avancé peut utiliser la clé de Registre **WeatherServiceUrl** pour personnaliser la barre météorologique afin d'utiliser un service météo spécifique. Par exemple, si l'URL de base pour un service météo Contoso est http://service.contoso.com/data.aspx, vous pouvez définir la clé **WeatherServiceUrl** sur cette URL. 
+L'administrateur ou l'utilisateur avancé peut utiliser la clé de Registre **WeatherServiceUrl** pour personnaliser la barre météorologique afin d'utiliser un service météo spécifique. Par exemple, si l'URL de base pour un service météo Contoso est https://service.contoso.com/data.aspx, vous pouvez définir la clé **WeatherServiceUrl** sur cette URL. 
   
 Le tableau suivant décrit la clé **WeatherServiceUrl**. 
   
@@ -134,17 +134,17 @@ Cette section présente un exemple d'un service météo Contoso qui suit le prot
 
 Contoso Météo fournit l'URL de base suivante pour leur service de données météorologiques :
   
-http://service.contoso.com/data.aspx
+https://service.contoso.com/data.aspx
   
 ### <a name="getting-a-location-code"></a>Obtention d'un code d'emplacement
 
 Outlook ajoute les paramètres décrits lors de l'étape 2 à l'URL de base afin d'obtenir le code d'emplacement d'un lieu géographique ( _city_) :
   
-http://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
+https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   
 À titre d'exemple, si l'utilisateur a sélectionné Tokyo dans la barre météorologique, Outlook utilise l'URL suivante pour obtenir le code d'emplacement de Tokyo auprès de Contoso Météo : 
   
-http://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
+https://weather.service.contoso.com/data.aspx?outputview=search&amp;weasearchstr=tokyo
   
 Contoso Météo répond avec le code XML suivant pour fournir le code d'emplacement de Tokyo. Le code XML est conforme au schéma XML d'emplacement météorologique d'Outlook. Notez que les services météorologiques renvoient souvent des données correspondant à plus d'un emplacement (par exemple, si l'emplacement choisi est une grande zone métropolitaine). Dans cet exemple, la réponse pour Tokyo comprend deux emplacements, chacun compris dans un élément [weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md). Les codes d'emplacement correspondants sont les suivants : 
   
@@ -169,11 +169,11 @@ Contoso Météo répond avec le code XML suivant pour fournir le code d'emplacem
 
 Après avoir obtenu le code d'emplacement pour un lieu donné, Outlook ajoute les paramètres décrits lors de l'étape 3 à l'URL de base afin d'obtenir des informations météorologiques relatives au code d'emplacement.
   
-http://service.contoso.com/data.aspx?wealocations= _code_
+https://service.contoso.com/data.aspx?wealocations= _code_
   
 À titre d'exemple, si Outlook a obtenu le code d'emplacement wc:JAXX0085 auprès de Contoso Météo pour Tokyo, Outlook utilise ce code d'emplacement dans l'URL suivante pour obtenir les informations météorologiques.
   
-http://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
+https://service.contoso.com/data.aspx?wealocations=wc:JAXX0085
   
 Contoso Météo répond avec le code XML suivant afin de fournir les informations météorologiques correspondant au code d'emplacement de Tokyo. Le code XML est conforme au schéma XML des informations météorologiques d'Outlook.
   
@@ -181,8 +181,8 @@ Contoso Météo répond avec le code XML suivant afin de fournir les information
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="http://contoso.com/images/en-us/" 
-    url="http://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">
       <current winddisplay="9 mph NNW" windspeed="9" humidity="90" feelslike="44" 

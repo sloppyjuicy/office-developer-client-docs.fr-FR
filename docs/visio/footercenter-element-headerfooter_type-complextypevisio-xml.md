@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2a720cc-544b-f923-5bec-67da31507444
 description: Contient la chaîne de texte qui apparaît dans la partie centrale du pied de page d’un document.
-ms.openlocfilehash: d164263c93775dcb8baea80781a876fb1caec39a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 931dcd60604adb033fb5334e6fc7fdffe3a8193c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788666"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387425"
 ---
 # <a name="footercenter-element-headerfootertype-complextype-visio-xml"></a>FooterCenter, élément (HeaderFooter_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient la chaîne de texte qui apparaît dans la partie centrale du pied de pa
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    

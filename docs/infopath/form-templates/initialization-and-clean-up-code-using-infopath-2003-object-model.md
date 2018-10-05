@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: Par défaut, le fichier FormCode.cs ou FormCode.vb créé pour un projet de modèle de formulaire compatible avec InfoPath 2003 contient tout le code source de la logique de programmation du formulaire. Le modèle du projet génère dans le fichier FormCode.cs ou FormCode.vb une classe similaire aux classes des exemples qui suivent, dans lesquels vous pouvez définir le code d'initialisation et de nettoyage, ainsi que les gestionnaires des événements du formulaire. Les fichiers FormCode.cs et FormCode.vb appliquent l'attribut de niveau assembly System.ComponentModel.DescriptionAttribute qui identifie la classe comme étant la seule classe dans laquelle sont implémentés les gestionnaires d'événements. L'attribut InfoPathNamespace (implémenté par le type InfoPathNamespaceAttribute ) est appliqué à la classe pour identifier les espaces de noms de la sélection du DOM XML utilisés dans la classe. Les espaces de noms référencés dans InfoPathNamespace sont gérés par le système de projet d'InfoPath.
-ms.openlocfilehash: 7111a8525b092998e21d4c267b5884f50fdb9777
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782381"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383120"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003
 
@@ -36,7 +36,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
     public partial class FormCode
     {
         private XDocument thisXDocument;
@@ -66,7 +66,7 @@ Namespace Template1
     ' The namespace prefixes defined in this attribute must remain synchronized with
     ' those in the form definition file (.xsf).
     <InfoPathNamespace( _
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
     Public Class FormCode
         Private thisXDocument As XDocument
         Private thisApplication As Application
@@ -163,7 +163,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
+        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
     public partial class Template1
     {
         private XDocument    thisXDocument;
@@ -198,7 +198,7 @@ Namespace Template1
         ' The namespace prefixes defined in this attribute must remain synchronized with
         ' those in the form definition file (.xsf).
         <InfoPathNamespace( _
-            "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
+            "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
         Public Class Template1
             Private thisXDocument As XDocument
             Private thisApplication As Application
@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Ajouter un gestionnaire d’événements à l’aide du modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Ajout d’un gestionnaire d’événements en utilisant le modèle objet InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

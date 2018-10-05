@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath est conçu comme une application COM (Component Object Model) et offre l'accès à ses interfaces de programmation à la fois pour l'automatisation externe et pour les scripts utilisés depuis des modèles de formulaires comme interfaces COM.
-ms.openlocfilehash: 09ba36b39e520629764bd57a623e8fb490a63a89
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782405"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389028"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Modèles d’objet compatible InfoPath 2003
 
@@ -29,7 +29,7 @@ Les fichiers des trois assemblys d'interopérabilité installés par InfoPath so
     
 Cette rubrique présente le modèle objet exposé dans l'assembly d'interopérabilité Microsoft.Office.Interop.InfoPath.SemiTrust, utilisé exclusivement pour la création et l'exécution d'une logique métier avec code managé depuis les modèles de formulaires InfoPath (.xsn). 
   
-Pour plus d’informations sur les assemblys Microsoft.Office.Interop.InfoPath et Microsoft.Office.Interop.InfoPath.Xml, consultez la documentation pour les [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.aspx) et [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) espaces de noms. 
+Pour plus d’informations sur les assemblys Microsoft.Office.Interop.InfoPath et Microsoft.Office.Interop.InfoPath.Xml, consultez la documentation pour les [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) et [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) espaces de noms. 
   
 ## <a name="important-installation-information"></a>Informations importantes sur l’installation
 
@@ -37,7 +37,7 @@ Par défaut, l'option **Installation par défaut** du programme d'installation d
   
 Si ces assemblys ne sont pas installés, vérifiez que Microsoft InfoPath a été correctement installé. Si .NET Framework 2.0 ou ultérieur est installé avant le démarrage du programme d'installation, l'option **Prise en charge de la programmabilité .NET** du programme d'installation d'InfoPath est définie sur **Exécuter à partir du disque dur** pour une **Installation par défaut** d'InfoPath. Si ces assemblys d'interopérabilité ne sont pas disponibles sur votre ordinateur, vérifiez que .NET Framework 2.0 ou ultérieur est installé, puis exécutez **Ajout/Suppression de programmes** depuis le **Panneau de configuration** et définissez l'option **Prise en charge de la programmabilité .NET** sur **Exécuter à partir du disque dur**.
   
-Pour des informations sur le téléchargement de .NET Framework 2.0 Redistributable, voir [.NET Framework 2.0 Redistributable](http://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
+Pour des informations sur le téléchargement de .NET Framework 2.0 Redistributable, voir [.NET Framework 2.0 Redistributable](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=0856eacb-4362-4b0d-8edd-aab15c5e04f5).
   
 ## <a name="the-microsoftofficeinteropinfopathsemitrust-namespace"></a>L’espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust
 
@@ -124,7 +124,7 @@ En interne, l'attribut **CLSCompliant** de toutes les interfaces et tous les mem
 ## <a name="see-also"></a>Voir aussi
 
 - [Tâches courantes en matière de développement de modèles de formulaires utilisant le modèle objet InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md)
-- [Sur le modèle de sécurité pour les modèles de formulaires avec Code](about-the-security-model-for-form-templates-with-code.md)
-- [Création de modèles de formulaire à l’aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+- [À propos du modèle de sécurité pour les modèles de formulaire avec code](about-the-security-model-for-form-templates-with-code.md)
+- [Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 - [Présentation du modèle objet InfoPath 2003](understanding-the-infopath-2003-object-model.md)
 

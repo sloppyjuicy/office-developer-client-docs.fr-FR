@@ -1,5 +1,5 @@
 ---
-title: Éléments de fonctionnalités XML
+title: Éléments XML des fonctionnalités
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
 description: Les tableaux de cette rubrique décrivent les éléments enfants de fonctionnalités XML et sont regroupées par les zones qu’ils prennent en charge.
-ms.openlocfilehash: 53bce69bbe22f6e950302a92b0ada21ed0f5a1f4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6816bbdcd24eceffc47d6b9d0835a90c7089c039
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787574"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387250"
 ---
-# <a name="capabilities-xml-elements"></a>Éléments de fonctionnalités XML
+# <a name="capabilities-xml-elements"></a>Éléments XML des fonctionnalités
 
 Les tableaux de cette rubrique décrivent les éléments enfants de **fonctionnalités** XML et sont regroupées par les zones qu’ils prennent en charge. La valeur par défaut de chaque élément **capabilities** a la **valeur false**. Si l’élément n’est pas spécifié dans les **fonctionnalités** XML renvoyé par la méthode [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) , la valeur de l’élément est égale à **false**.
   
@@ -71,7 +71,7 @@ Les éléments suivants s’appliquent à la synchronisation de la demande ou de
 
 |**Élément**|**Description**|
 |:-----|:-----|
-|**hashFunction** <br/> | Spécifie la fonction de hachage qui prend en charge par le fournisseur OSC. Pour protéger les informations d’identification personnelle des utilisateurs qui ne figurent pas dans du fournisseur réseau social ou line-of-business application, l’OSC transmet les adresses de messagerie de hachage à **ISocialSession2::GetPeopleDetails** et **ISocialSession2 :: GetActivitiesEx**.  <br/>  Si **dynamicContactsLookup** est défini sur **true** ou **dynamicActivitiesLookupEx** est définie sur **true**, le fournisseur doit définir **hashFunction** à une des valeurs autorisées : **SHA1**, **MD5**ou **CRC32MD5**. Si **hashFunction** est manquante ou spécifie une valeur incorrecte, l’OSC renvoie une erreur.  <br/> **SHA1** est un algorithme de hachage sécurisé Task Force IETF (Internet Engineering) US 1 définis par [[RFC3174]](http://www.rfc-editor.org/rfc/rfc3174.txt). Par exemple, la valeur de **SHA1** haché de messagerie adresse melissa@contoso.com est `bb81577b567262a21a4df5f6e335c1250acd7b50`.  <br/> **MD5** est un algorithme de Message condensé MD5 Internet Engineering Task Force (IETF) définie par [[RFC1321]](http://www.rfc-editor.org/rfc/rfc1321.txt). Par exemple, la valeur de **MD5** haché de messagerie adresse melissa@contoso.com est `c8c39e61ca1662477b39b83d7b0a0615`.  <br/> **CRC32MD5** est une combinaison de **CRC32** et **MD5** définie comme suit :  <br/>  Normaliser l’adresse de messagerie en supprimant les et espaces de fin et convertir tous les caractères en minuscules.  <br/>  Calculer la valeur **CRC32** pour l’adresse de messagerie normalisé et utilisez la représentation sous forme de nombre entier décimal de cette valeur. Si votre implémentation renvoie entiers signés, vous devez convertir l’entier signé en entier non signé.  <br/>  Calculer la valeur **MD5** pour l’adresse de messagerie normalisé et utiliser la représentation hexadécimale de cette valeur (à l’aide de minuscules de A à F).  <br/>  Combiner ces deux valeurs avec un trait de soulignement.  <br/>  Par exemple, la valeur de **CRC32MD5** haché de messagerie adresse melissa@contoso.com est `2149665315_c8c39e61ca1662477b39b83d7b0a0615`.  <br/> |
+|**hashFunction** <br/> | Spécifie la fonction de hachage qui prend en charge par le fournisseur OSC. Pour protéger les informations d’identification personnelle des utilisateurs qui ne figurent pas dans du fournisseur réseau social ou line-of-business application, l’OSC transmet les adresses de messagerie de hachage à **ISocialSession2::GetPeopleDetails** et **ISocialSession2 :: GetActivitiesEx**.  <br/>  Si **dynamicContactsLookup** est défini sur **true** ou **dynamicActivitiesLookupEx** est définie sur **true**, le fournisseur doit définir **hashFunction** à une des valeurs autorisées : **SHA1**, **MD5**ou **CRC32MD5**. Si **hashFunction** est manquante ou spécifie une valeur incorrecte, l’OSC renvoie une erreur.  <br/> **SHA1** est un algorithme de hachage sécurisé Task Force IETF (Internet Engineering) US 1 définis par [[RFC3174]](https://www.rfc-editor.org/rfc/rfc3174.txt). Par exemple, la valeur de **SHA1** haché de messagerie adresse melissa@contoso.com est `bb81577b567262a21a4df5f6e335c1250acd7b50`.  <br/> **MD5** est un algorithme de Message condensé MD5 Internet Engineering Task Force (IETF) définie par [[RFC1321]](https://www.rfc-editor.org/rfc/rfc1321.txt). Par exemple, la valeur de **MD5** haché de messagerie adresse melissa@contoso.com est `c8c39e61ca1662477b39b83d7b0a0615`.  <br/> **CRC32MD5** est une combinaison de **CRC32** et **MD5** définie comme suit :  <br/>  Normaliser l’adresse de messagerie en supprimant les et espaces de fin et convertir tous les caractères en minuscules.  <br/>  Calculer la valeur **CRC32** pour l’adresse de messagerie normalisé et utilisez la représentation sous forme de nombre entier décimal de cette valeur. Si votre implémentation renvoie entiers signés, vous devez convertir l’entier signé en entier non signé.  <br/>  Calculer la valeur **MD5** pour l’adresse de messagerie normalisé et utiliser la représentation hexadécimale de cette valeur (à l’aide de minuscules de A à F).  <br/>  Combiner ces deux valeurs avec un trait de soulignement.  <br/>  Par exemple, la valeur de **CRC32MD5** haché de messagerie adresse melissa@contoso.com est `2149665315_c8c39e61ca1662477b39b83d7b0a0615`.  <br/> |
    
 ## <a name="capabilities-for-supporting-authentication-and-account-configuration"></a>Fonctionnalités de prise en charge de l’authentification et la configuration de compte
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 195812f53c4c0aaf20e4ed6e215d15b0295c9a07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584183"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386529"
 ---
 # <a name="about-registering-stores-for-indexing"></a>À propos de l’inscription de magasins pour l’indexation
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique est spécifique à la recherche instantanée dans Microsoft Office Outlook 2007.
   
@@ -38,7 +38,7 @@ Par défaut, Windows Desktop Search ajoute quatre types de fournisseurs de magas
  Fournisseurs de magasins tiers indexer doivent s’inscrire dans le Registre Windows. 
   
 > [!NOTE]
-> Les administrateurs et les utilisateurs peuvent utiliser un paramètre de stratégie de groupe pour empêcher l’indexation des éléments Outlook de Windows Desktop Search. Pour plus d’informations, voir [Extension de Windows Desktop Search](http://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
+> Les administrateurs et les utilisateurs peuvent utiliser un paramètre de stratégie de groupe pour empêcher l’indexation des éléments Outlook de Windows Desktop Search. Pour plus d’informations, voir [Extension de Windows Desktop Search](https://msdn.microsoft.com/library/2eab146a-8516-4b95-b73c-ca7f980ba233%28Office.15%29.aspx). 
   
 ## <a name="registry-keys"></a>Clés de Registre
 
@@ -62,7 +62,7 @@ La propriété MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.m
 |Fichiers de dossiers personnels (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID est décrit en détail la mspst.h de fichier d’en-tête public **MSPST_UID_PROVIDER** <br/> |
 |Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID est décrit en détail la edkmdb.h de fichier d’en-tête public **pbExchangeProviderPrimaryUserGuid** <br/> |
 |Dossiers publics  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |GUID est décrit en détail la edkmdb.h de fichier d’en-tête public **pbExchangeProviderPublicGuid** <br/> |
-|Outlook Connector pour MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Aucun  <br/> |
+|Outlook Connector pour MSN  <br/> |{c34f5c97-eb05-bb4b-b199-2a7570ec7cf9}  <br/> |Aucune  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

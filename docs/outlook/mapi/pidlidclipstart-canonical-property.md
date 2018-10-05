@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3a2bbaaee9325a7d2c110ff4082e14a249e4dc16
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 4a466b31b5411b1c0467896c031c6560d6c5c880
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577701"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386515"
 ---
 # <a name="pidlidclipstart-canonical-property"></a>Propriété canonique PidLidClipStart
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la date de début et l’heure de l’événement en heures en temps universel (UTC) pour les objets de calendrier d’instance unique et spécifie minuit à la date de la première instance au format UTC d’une série périodique.
   
@@ -39,11 +39,11 @@ Spécifie la date de début et l’heure de l’événement en heures en temps u
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

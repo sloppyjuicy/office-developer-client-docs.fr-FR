@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: de942619-2507-8fe0-bc81-f9da9ef7266f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0d31272e63df7f68a83b23ca7a3824c081de3c1d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: fba49b052a51bd498f61fc115f630d08fc6c8926
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569266"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384976"
 ---
 # <a name="pidtagemsabserver-canonical-property"></a>Propriété canonique PidTagEmsAbServer
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le chemin d’accès d’un conteneur de carnet d’adresses dans un scénario en mode hors connexion ou le nom de domaine complet du serveur de catalogue global où le conteneur de carnet d’adresses se trouve dans un scénario en ligne.
   
@@ -44,7 +44,7 @@ Cette propriété est le type de propriété rétablir **PT_UNICODE** lorsqu’i
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés.
     

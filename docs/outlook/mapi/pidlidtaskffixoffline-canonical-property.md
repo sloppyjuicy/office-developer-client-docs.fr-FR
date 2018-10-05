@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 716d8b5b09ee0e29d1946042cae2631561d74df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 226e59ef6aa88bc290cf5aeb4d620979f926e1eb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584652"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386263"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>Propriété canonique PidLidTaskFFixOffline
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique la précision de la propriété **dispidTaskOwner** ([PidLidTaskOwner](pidlidtaskowner-canonical-property.md)).
   
@@ -43,11 +43,11 @@ Si la propriété **dispidTaskFFixOffline** est définie sur FALSE ou n’est pa
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
 > Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche. 
     

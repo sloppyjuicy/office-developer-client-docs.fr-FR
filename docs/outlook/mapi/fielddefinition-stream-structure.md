@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a43d4f12aa28de29116d7d074b743d6c0d61d964
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594508"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383274"
 ---
 # <a name="fielddefinition-stream-structure"></a>Structure de flux FieldDefinition
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Une structure de flux FieldDefinition contient la définition de champ d’un champ défini par l’utilisateur, ou un ensemble de paramètres de liaison de données pour un champ intégré.
   
@@ -40,7 +40,7 @@ Vous pouvez manipuler par programme une structure de flux FieldDefinition si la 
     |PDO_FT_SWITCH  <br/> |0 x 00000020  <br/> |Ce champ est de type **combinaison** et a l’option **Afficher uniquement le premier champ non vide, ignorer les suivants** sélectionné dans la boîte de dialogue **Champ de formule combinaison** .  <br/> |
     |PDO_PRINT_SAVEAS_DEF  <br/> |0 x 00000040  <br/> |Cet indicateur n’est pas utilisé par Outlook, mais il est inclus pour toutes les définitions de champ défini par l’utilisateur.  <br/> |
    
-- VT : Mot (2 octets), le type de données du champ, qui est une constante de l’énumération [VARENUM](http://msdn.microsoft.com/en-us/library/system.runtime.interopservices.varenum.aspx) . 
+- VT : Mot (2 octets), le type de données du champ, qui est une constante de l’énumération [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) . 
     
 - DispId : DWORD (4 octets), l’identificateur de la répartition du champ. Pour un champ défini par l’utilisateur, la valeur est 0.
     

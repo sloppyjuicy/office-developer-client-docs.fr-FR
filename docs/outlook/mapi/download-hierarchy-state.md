@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f9c334bc86bdff4abb2762642a37e3f0933a0b29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 45535eef75c6fc091c02ec35b669675a51e4cf48
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589027"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384856"
 ---
 # <a name="download-hierarchy-state"></a>Télécharger l’état de la hiérarchie
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
  Cette rubrique décrit le déroulement de l’état de hiérarchie de téléchargement de l’ordinateur d’état de réplication. 
   
@@ -37,7 +37,7 @@ ms.locfileid: "22589027"
 
 Cet état lance le téléchargement d’une hiérarchie d’arborescence de dossiers à partir d’un serveur dans le magasin local. 
   
-Outlook initialise la structure de données **DNHIER** associée avec un pointeur vers la hiérarchie. Le client télécharge la hiérarchie et insérer des dossiers ou des modifications de dossiers dans le magasin local. Le processus de téléchargement adopte synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](http://msdn.microsoft.com/en-us/library/aa579252%28EXCHG.80%29.aspx).
+Outlook initialise la structure de données **DNHIER** associée avec un pointeur vers la hiérarchie. Le client télécharge la hiérarchie et insérer des dossiers ou des modifications de dossiers dans le magasin local. Le processus de téléchargement adopte synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Lorsque cet état se termine, la banque locale renvoie l’état de synchronisation.
   

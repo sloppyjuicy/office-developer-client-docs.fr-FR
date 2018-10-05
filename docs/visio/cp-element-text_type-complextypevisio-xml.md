@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
 description: Marque le début de des propriétés de caractère exécuter qui est mis en forme en fonction de l’élément de caractère correspondant. L’exécution est définie à la fin du texte ou jusqu'à ce que la balise suivante.
-ms.openlocfilehash: 16e5bb94afeb860220c6cb49a9b98e36e45d76cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eb7fd30c2314e159dc3649e87cd63bd4090ba283
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788384"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388195"
 ---
 # <a name="cp-element-texttype-complextype-visio-xml"></a>élément CP (Text_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Marque le début de des propriétés de caractère exécuter qui est mis en form
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |page # .xml, master # .xml  <br/> |
    

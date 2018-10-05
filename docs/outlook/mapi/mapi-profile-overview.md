@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: d6c57be6-2397-4ab1-a912-028454dffc44
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a34c21e20fa45cd3265ec42c9d992eb828203f66
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e196800b717ce2528da4b9871bad7425f3a2c326
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563911"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385626"
 ---
 # <a name="mapi-profile-overview"></a>Vue d’ensemble des profils MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Un profil est une collection d’informations sur les services de messagerie et les fournisseurs de services qu’un utilisateur d’une application cliente souhaite soit disponible pendant une session MAPI spécifique. Chaque utilisateur dispose d’au moins un profil ; nombre d’utilisateurs conserver plusieurs. Par exemple, un utilisateur peut avoir un profil pour fonctionner avec un service de banque de messages sur le serveur et un autre profil pour fonctionner avec un service de banque de messages sur l’ordinateur local. Un utilisateur souhaite accéder à un ensemble de systèmes de messagerie à l’aide des services de transport approprié pour une partie de la journée et un autre pour le reste de la journée. Les profils fournissent une grande souplesse pour sélectionner des combinaisons de services de système de messagerie. 
   
@@ -39,7 +39,7 @@ Les entrées incluses dans un profil varient à partir du service de message au 
     
 Profils peuvent être créés au moment de l’installation, lorsque MAPI ou un service de message est chargé sur un ordinateur, ou ultérieurement. MAPI propose l’Assistant profil pour l’administration des profils. 
   
-L’Assistant profil est une application qui crée des profils avec un minimum de travail. L’Assistant utilise le valeurs par défaut pour les paramètres dans la mesure du possible, l’enregistrement d’effort et l’heure d’utilisateurs. Les utilisateurs entrent des valeurs uniquement lorsque cela est nécessaire. Pour plus d’informations, consultez [Création d’un profil à l’aide de l’Assistant profil](creating-a-profile-by-using-the-profile-wizard.md). Vous pouvez également utiliser l’outil de personnalisation Office pour créer un nouveau profil. Pour plus d’informations, voir [Outil de personnalisation Office](http://go.microsoft.com/fwlink/?LinkId=123000).
+L’Assistant profil est une application qui crée des profils avec un minimum de travail. L’Assistant utilise le valeurs par défaut pour les paramètres dans la mesure du possible, l’enregistrement d’effort et l’heure d’utilisateurs. Les utilisateurs entrent des valeurs uniquement lorsque cela est nécessaire. Pour plus d’informations, consultez [Création d’un profil à l’aide de l’Assistant profil](creating-a-profile-by-using-the-profile-wizard.md). Vous pouvez également utiliser l’outil de personnalisation Office pour créer un nouveau profil. Pour plus d’informations, voir [Outil de personnalisation Office](https://go.microsoft.com/fwlink/?LinkId=123000).
   
 ## <a name="see-also"></a>Voir aussi
 

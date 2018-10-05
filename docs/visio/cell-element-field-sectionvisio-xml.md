@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
-description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue champ.
-ms.openlocfilehash: 94c9807984ef0e327c1cc9f8449d1ea065fdd717
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
+ms.openlocfilehash: f6c3c724b210ad579012ff58b93333e28c2a8cf1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788199"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383337"
 ---
 # <a name="cell-element-field-section-visio-xml"></a>Élément de cellule (Section champ) (« Visio XML »)
 
-Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue champ.
+Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
   
 ## <a name="element-information"></a>Informations sur l'élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section champs)](row-element-field-sectionvisio-xml.md) <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue champ.  <br/> |
+|[Élément de ligne (section Champ)](row-element-field-sectionvisio-xml.md) <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

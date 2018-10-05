@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: efa778f51ac047c911deb6a3c4d5d9e718dc33fb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8d58342e0460352bd9d260cb6e73de358cb2fc23
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565038"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387719"
 ---
 # <a name="pidtagrowid-canonical-property"></a>Propriété canonique PidTagRowid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un identificateur unique pour un destinataire d’une table de destinataire ou de la table d’état.
   
@@ -42,11 +42,11 @@ Cette propriété est une valeur temporaire est valide uniquement pour la durée
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Gère l’ordre et le flux pour les transferts de données entre un client et le serveur.
     

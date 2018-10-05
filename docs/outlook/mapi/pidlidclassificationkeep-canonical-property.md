@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5e2a1aa45bfd718fa8ae1d4cd827023a80463a47
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2bb6d086dd4294cd14698b9320f0289e3f4cb431
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580445"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389065"
 ---
 # <a name="pidlidclassificationkeep-canonical-property"></a>Propriété canonique PidLidClassificationKeep
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si la classification de message doit persister avec le message si le message est ou d’une réponse.
   
@@ -37,17 +37,17 @@ Indique si la classification de message doit persister avec le message si le mes
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations, voir [comment déployer la Classification de Message pour Outlook 2007](http://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
+Pour plus d’informations, voir [comment déployer la Classification de Message pour Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

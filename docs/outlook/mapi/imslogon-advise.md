@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9cd0442a715fb5441ab8efefb9574f09f2e2c1ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587858"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382756"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Inscrit un objet avec un fournisseur de magasin de message pour les notifications sur les modifications dans la banque de messages. La banque de messages envoie ensuite les notifications sur les modifications apportées à l’objet inscrit.
   
@@ -71,7 +71,7 @@ HRESULT Advise(
   
 > [out] Pointeur vers une variable qui conserve le numéro de connexion pour l’enregistrement de notification à un retour réussi. Le numéro de connexion doit être différente de zéro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -87,7 +87,7 @@ Fournisseurs de magasins de message implémentent la méthode **IMSLogon::Advise
   
 L’appel de **OnNotify** peut se produire lors de l’appel qui modifie l’objet, ou ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d’exécution, l’appel de **OnNotify** peut se produire sur n’importe quel thread. Pour gérer en toute sécurité un appel à **OnNotify** qui peut se produire à un moment peu opportuns, une application cliente doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Pour fournir des notifications, le fournisseur de banque de messages qui implémente **Advise** doit conserver une copie du pointeur pour la _lpAdviseSink_ conseiller objet récepteur ; Pour ce faire, le fournisseur appelle la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) pour le récepteur de notifications maintenir son pointeur de l’objet jusqu'à ce que l’inscription aux notifications est annulée par un appel à la méthode [IMSLogon::Unadvise](imslogon-unadvise.md) . L’implémentation **Advise** doit affecter un numéro de connexion à l’enregistrement de notification et appelez **AddRef** sur ce numéro de connexion avant de la retourner dans le paramètre _lpulConnection_ . Fournisseurs de services peuvent libérer l’objet de récepteur advise avant l’enregistrement est annulée, mais ils ne doivent libérer le numéro de connexion jusqu'à ce que **Unadvise** a été appelée. 
+Pour fournir des notifications, le fournisseur de banque de messages qui implémente **Advise** doit conserver une copie du pointeur pour la _lpAdviseSink_ conseiller objet récepteur ; Pour ce faire, le fournisseur appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour le récepteur de notifications maintenir son pointeur de l’objet jusqu'à ce que l’inscription aux notifications est annulée par un appel à la méthode [IMSLogon::Unadvise](imslogon-unadvise.md) . L’implémentation **Advise** doit affecter un numéro de connexion à l’enregistrement de notification et appelez **AddRef** sur ce numéro de connexion avant de la retourner dans le paramètre _lpulConnection_ . Fournisseurs de services peuvent libérer l’objet de récepteur advise avant l’enregistrement est annulée, mais ils ne doivent libérer le numéro de connexion jusqu'à ce que **Unadvise** a été appelée. 
   
 Après qu’un appel à **Advise** a réussi et avant **Unadvise** a été appelée, les fournisseurs doivent être préparés pour l’objet de récepteur advise doit être publié. Par conséquent, un fournisseur doit libérer son objet de récepteur advise après **Advise** renvoie, à moins qu’une utilisation à long terme spécifique pour qu’il. 
   

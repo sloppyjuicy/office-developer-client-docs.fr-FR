@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 54c3315f-770f-6995-d0d8-ab66e4fe10d9
 description: Définit une balise d’action sur une forme ou une page.
-ms.openlocfilehash: 1e5e432b05b1dfcd02dded41253a79802c9caf81
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1ecdb256fbde4a667ade747c2c7216cd0d248fc2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789514"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387320"
 ---
 # <a name="row-element-action-tag-section-visio-xml"></a>Row, élément (Section balise d’Action) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Définit une balise d’action sur une forme ou une page.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ActionTagRow_Type](actiontagrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Masters.XML, maître # .xml, pages.xml, page # .xml  <br/> |
    

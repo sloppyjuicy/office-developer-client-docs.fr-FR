@@ -1,5 +1,5 @@
 ---
-title: xlfRegister (formulaire 1)
+title: xlfRegister (formulaire 1)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -10,15 +10,15 @@ keywords:
 - fonction xlfRegister [excel 2007]
 localization_priority: Normal
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 4fb4e8656b4f27105a30764cdda020849a07645e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: 3cd2e5072c8602fe301028e69592220a8345c211
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782226"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385080"
 ---
-# <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
+# <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -101,7 +101,7 @@ Une chaîne de caractères, la casse qui indique la touche attribuée à cette c
   
 _pxHelpTopic_ (**xltypeStr**)
   
-Une référence facultative pour le fichier d’aide (.hlp ou .chm) à afficher lorsque l’utilisateur clique sur le bouton Aide (lorsque votre fonction personnalisée est affichée). Peut être sous la forme `filepath!HelpContextID` ou `http://address/path_to_file_in_site!0`. Les deux composants avant et après le « ! » sont requis.  *HelpContextID* ne doit pas comporter de guillemets simples et seront convertis par Excel à un entier non signé de 4 octets, au format décimal. Lorsque vous utilisez la forme d’URL, Excel ouvre uniquement le fichier d’aide référencé. 
+Une référence facultative pour le fichier d’aide (.hlp ou .chm) à afficher lorsque l’utilisateur clique sur le bouton Aide (lorsque votre fonction personnalisée est affichée). Peut être sous la forme `filepath!HelpContextID` ou `https://address/path_to_file_in_site!0`. Les deux composants avant et après le « ! » sont requis.  *HelpContextID* ne doit pas comporter de guillemets simples et seront convertis par Excel à un entier non signé de 4 octets, au format décimal. Lorsque vous utilisez la forme d’URL, Excel ouvre uniquement le fichier d’aide référencé. 
   
 _pxFunctionHelp_ (**xltypeStr**)
   
@@ -111,7 +111,7 @@ _pxArgumentHelp1_ (**xltypeStr**)
   
 Facultatif. La première des chaînes qui décrivent les arguments de la fonction personnalisées lorsque la fonction est sélectionnée dans l’Assistant fonction. Dans Excel 2003 et versions antérieures, **xlfRegister** peut prendre, au maximum, 30 arguments afin que vous pouvez fournir cette aide pour les 20 premiers votre d’arguments de fonction uniquement. À compter d’Excel 2007, **xlfRegister** peut prendre jusqu'à 255 arguments afin que vous pouvez fournir cette aide pour les paramètres de la fonction 245 jusqu'à. 
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
 Si l’inscription a réussi, cette fonction renvoie l’identificateur de Registre de la fonction (**xltypeNum**), qui peut être utilisée dans les appels à **xlUDF** et **xlfUnregister** dans une DLL ou avec des **appels** et **Annuler l’inscription** dans une feuille de macro XLM. Sinon, elle renvoie une #VALUE ! erreur. 
   
@@ -127,7 +127,7 @@ Le premier tableau répertorie les types pris en charge dans toutes les versions
   
 |**Type de données**|**Passer par valeur**|**Passer par référence (pointeur)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|Bool�en  <br/> |A  <br/> |L  <br/> |abréviation [int] (0 = false ou 1 = true)  <br/> |
+|Boolean  <br/> |A  <br/> |L  <br/> |abréviation [int] (0 = false ou 1 = true)  <br/> |
 |double  <br/> |B  <br/> |E  <br/> ||
 |Char\*  <br/> ||C, F  <br/> |Chaîne d’octets ASCII terminée  <br/> |
 |char non signé\*  <br/> ||D, G  <br/> |Chaîne d’octets ASCII compté  <br/> |
@@ -286,7 +286,7 @@ Le tableau suivant répertorie les catégories standards qui sont visibles lorsq
 |7  <br/> |Base de données  <br/> |
 |8  <br/> |Statistiques  <br/> |
 |9  <br/> |Information  <br/> |
-|14  <br/> |Défini par l’utilisateur  <br/> |
+|14  <br/> |Personnalisées  <br/> |
 ||Ingénierie (commençant dans Excel 2007)  <br/> |
 ||Cube (commençant dans Excel 2007)  <br/> |
    
@@ -295,7 +295,7 @@ En outre, les catégories suivantes sont également visibles lorsque vous affich
 |**Number**|**Text**|
 |:-----|:-----|
 |10  <br/> |Commandes  <br/> |
-|11  <br/> |DDE/externe  <br/> |
+|11  <br/> |DDE/Externe  <br/> |
 |12  <br/> |Personnalisation  <br/> |
 |13  <br/> |Contrôle de macros  <br/> |
    
@@ -307,5 +307,5 @@ Voir le code de la fonction **xlAutoOpen** dans `\SAMPLES\GENERIC\GENERIC.C`.
 
 - [REGISTRE.](xlfregisterid.md)
 - [ANNULER L’INSCRIPTION](xlfunregister-form-1.md)
-- [Fonctions XLM API C essentielles et utiles](essential-and-useful-c-api-xlm-functions.md)
+- [Fonctions XLM d’API C utiles et essentielles](essential-and-useful-c-api-xlm-functions.md)
 

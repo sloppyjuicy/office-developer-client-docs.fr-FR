@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7d4337105b2dcae94956f0b1badf66c663467dc3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 078dfcc7c24870cf95a2a4b2385c34fbeb64fac0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565661"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387110"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriété canonique PidTagJunkThreshold
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique le degré le courrier entrant doit être envoyé vers le dossier courrier indésirable.
   
@@ -49,11 +49,11 @@ Cette propriété correspond à la haute / basse / aucun paramètre de filtre. U
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCSPAM]](http://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
 > Permet la gestion des listes autoriser/bloquer et la détermination des messages de courrier indésirable.
     

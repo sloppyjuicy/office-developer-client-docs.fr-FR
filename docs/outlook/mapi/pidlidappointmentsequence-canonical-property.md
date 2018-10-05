@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a047518e43e6397c83aa498de707a79d870a1a68
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 315165f3c46058424986aa8abba16b0df75baaf9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591785"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382504"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Propriété canonique PidLidAppointmentSequence
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le numéro de séquence d’un objet de la réunion.
   
@@ -39,11 +39,11 @@ Spécifie le numéro de séquence d’un objet de la réunion.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

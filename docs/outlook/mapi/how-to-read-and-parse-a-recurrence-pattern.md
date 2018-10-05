@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5127f5aef50b1040b3e6f4bc644395f2af7555cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563540"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382875"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Lire et analyser une périodicité
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI peut être utilisé pour lire et analyser une périodicité d’un rendez-vous.
   
@@ -29,7 +29,7 @@ Pour plus d’informations sur la façon de télécharger, afficher et exécuter
     
 2. Récupérer la propriété nommée **dispidApptRecur** ([Propriété canonique PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)). Pour plus d’informations sur la récupération des propriétés nommées, voir [Les propriétés MAPI nommée](mapi-named-properties.md).
     
-3. Suivez les instructions dans [[MS-OXOCAL]](http://msdn.microsoft.com/en-us/library/cc425490%28EXCHG.80%29.aspx) pour lire la structure de modèle de périodicité de rendez-vous. 
+3. Suivez les instructions dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) pour lire la structure de modèle de périodicité de rendez-vous. 
     
 L’application de référence MFCMAPI illustre la dernière étape à la `BinToAppointmentRecurrencePatternStruct` fonction dans le fichier source InterpretProp2.cpp du projet MFCMapi. Le `BinToAppointmentRecurrencePatternStruct` fonction prend un pointeur vers un tampon en mémoire en tant que paramètre. L’application de MFCMAPI obtient cette mémoire tampon en mappant le premier la **dispidApptRecur** nommé propriété à une balise de propriété, puis en demandant la valeur de propriété à l’aide de la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . Si la propriété est trop grande pour récupérer à l’aide de la méthode **GetProps** , MFCMAPI ouvre une interface de flux pour récupérer la propriété à l’aide de la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . Ensuite, l’application MFCMAPI lit les données du flux pour générer la mémoire tampon. 
   
@@ -212,5 +212,5 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer des éléments Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

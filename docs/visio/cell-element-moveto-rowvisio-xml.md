@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: Contient les coordonnées x ou y du premier sommet d’une forme ou représente les coordonnées x ou y du premier sommet après une rupture de chemin.
-ms.openlocfilehash: dbcf8d111ab86671fb2aeb073d2a13f40810f941
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 12c36b009b019592ae48d24a0e16c3edcd6110e3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788208"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382966"
 ---
 # <a name="cell-element-moveto-row-visio-xml"></a>Élément de cellule (ligne MoveTo) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y du premier sommet d’une forme ou représente 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    

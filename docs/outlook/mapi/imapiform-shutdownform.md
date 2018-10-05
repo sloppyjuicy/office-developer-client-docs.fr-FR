@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 49ed8669a5496524917c15ac86e4a13060931057
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 073a76766a296d86e7a23809921b832d494a8f1b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578569"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384835"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ferme le formulaire.
   
@@ -51,7 +51,7 @@ SAVEOPTS_SAVEIFDIRTY
   
 > Les données de formulaire doivent être enregistrées si elles ont changé depuis le dernier enregistrement. Si aucune interface utilisateur n’est affichée, le formulaire peut passer éventuellement à l’aide de la fonctionnalité pour l’option SAVEOPTS_NOSAVE.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -65,19 +65,19 @@ E_UNEXPECTED
 
 Visionneuses de formulaire appeler la méthode **IMAPIForm::ShutdownForm** pour fermer un formulaire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Dans votre implémentation de **ShutdownForm**, effectuez les tâches suivantes :
   
 1. Vérifiez qu’une visionneuse n’a pas déjà appelée **ShutdownForm**et retourner E_UNEXPECTED si elle a. Bien qu’il s’agit probablement pas, vous devez vérifier.
     
-2. Appelez la méthode de [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28VS.85%29.aspx) de votre formulaire afin que le stockage pour le formulaire et les structures de données internes restent disponibles que le traitement est terminé. 
+2. Appelez la méthode de [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de votre formulaire afin que le stockage pour le formulaire et les structures de données internes restent disponibles que le traitement est terminé. 
     
 3. Déterminer s’il existe des modifications non enregistrées pour les données du formulaire. Enregistrer les données non enregistrées en fonction de la façon dont le paramètre _ulSaveOptions_ est défini en appelant la méthode [IMAPIMessageSite::SaveMessage](imapimessagesite-savemessage.md) de votre la visionneuse. 
     
 4. Détruire la fenêtre de l’interface utilisateur de votre formulaire.
     
-5. Libérer le message et les objets du site de votre formulaire en appelant leurs méthodes [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . 
+5. Libérer le message et les objets du site de votre formulaire en appelant leurs méthodes [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . 
     
 6. Avertir inscrits toutes les visionneuses de l’arrêt en attente en appelant leurs méthodes [IMAPIViewAdviseSink::OnShutdown](imapiviewadvisesink-onshutdown.md) . 
     
@@ -90,7 +90,7 @@ Dans votre implémentation de **ShutdownForm**, effectuez les tâches suivantes�
 10. Elles retournent S_OK.
     
 > [!NOTE]
-> Une fois ces opérations terminées, les méthodes sur l’objet form qui peut être appelée uniquement valides sont celles de l’interface [IUnknown](http://msdn.microsoft.com/en-us/library/ms680509%28v=VS.85%29.aspx) . 
+> Une fois ces opérations terminées, les méthodes sur l’objet form qui peut être appelée uniquement valides sont celles de l’interface [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) . 
   
 ## <a name="notes-to-callers"></a>Notes aux appelants
 

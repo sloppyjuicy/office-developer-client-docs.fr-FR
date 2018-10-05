@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2cd4c86dc45bca85632a3fadc9023c9ad25cfa37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583028"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384065"
 ---
 # <a name="ipersistmessagehandsoffmessage"></a>IPersistMessage::HandsOffMessage
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Le formulaire libérer le message en cours.
   
@@ -35,7 +35,7 @@ HRESULT HandsOffMessage( void );
 
 Aucune
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -51,13 +51,13 @@ Transition de formulaires dans les deux États HandsOff :
     
 Lorsqu’un formulaire est dans un de ces États, il est en stocké de façon permanente. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
-Lorsqu’une visionneuse de formulaire appelle la méthode **IPersistMessage::HandsOffMessage** lorsque votre formulaire est dans un état [Normal](normal-state.md) ou [NoScribble](noscribble-state.md) , de manière récursive appel **HandsOffMessage** sur chaque message incorporé dans le message en cours et la [ IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) méthode sur chaque objet OLE incorporé dans le message en cours. Puis relâchez le message actuel et les messages incorporés et les objets OLE. Si votre formulaire a été dans son état Normal, la transition vers l’état HandsOffFromNormal. Si votre formulaire était dans l’état NoScribble, effectuer la transition à l’état HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown::Release](http://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) du message et qu’elles retournent S_OK. 
+Lorsqu’une visionneuse de formulaire appelle la méthode **IPersistMessage::HandsOffMessage** lorsque votre formulaire est dans un état [Normal](normal-state.md) ou [NoScribble](noscribble-state.md) , de manière récursive appel **HandsOffMessage** sur chaque message incorporé dans le message en cours et la [ IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) méthode sur chaque objet OLE incorporé dans le message en cours. Puis relâchez le message actuel et les messages incorporés et les objets OLE. Si votre formulaire a été dans son état Normal, la transition vers l’état HandsOffFromNormal. Si votre formulaire était dans l’état NoScribble, effectuer la transition à l’état HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) du message et qu’elles retournent S_OK. 
   
 Lorsqu’un utilisateur du formulaire appelle **HandsOffMessage** votre formulaire est ouvert dans un des États HandsOff, retourner E_UNEXPECTED. 
   
-Pour plus d’informations sur les différents États d’un formulaire, voir [Les États de formulaire](form-states.md). Pour plus d’informations sur l’utilisation de l’état HandsOff des objets de stockage, voir la méthode [IPersistStorage::HandsOffStorage](http://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
+Pour plus d’informations sur les différents États d’un formulaire, voir [Les États de formulaire](form-states.md). Pour plus d’informations sur l’utilisation de l’état HandsOff des objets de stockage, voir la méthode [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 

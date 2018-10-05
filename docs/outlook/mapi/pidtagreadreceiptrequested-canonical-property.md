@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7db0645b-f3ab-4fc4-b865-68c952aeb359
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c0263b905e01a8937e2472d6e8c165287e7ebc5d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 0e49b73c777988ad3559a442af920af3d8f4bdbb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588047"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385108"
 ---
 # <a name="pidtagreadreceiptrequested-canonical-property"></a>Propriété canonique PidTagReadReceiptRequested
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un expéditeur du message souhaite que le système de messagerie pour générer un rapport de lecture lorsque le destinataire a lu dans un message.
   
@@ -44,11 +44,11 @@ Si un message avec **PR_READ_RECEIPT_REQUESTED** set est supprimé ou expire ava
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     

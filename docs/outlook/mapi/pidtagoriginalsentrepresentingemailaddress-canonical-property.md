@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 79ddbe322534a3e98b6b2cea37f86bc25b7f5f2f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579087"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25385353"
 ---
 # <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a>Propriété canonique PidTagOriginalSentRepresentingEmailAddress
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’adresse de messagerie de l’utilisateur de messagerie pour le compte duquel le message d’origine a été envoyé.
   
@@ -42,11 +42,11 @@ Une application cliente envoie un message de la part d’un autre client doit d�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
     

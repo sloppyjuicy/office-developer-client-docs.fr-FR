@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: 311d055e0a319ec26cdc4eba5ac3b50dc9e63d9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dc2fe6bbaf4515d5c5f5be694b15040bf03ef374
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565178"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384639"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 
@@ -21,7 +21,7 @@ Fournit des informations supplémentaires sur la dernière erreur.
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Fourni par :  <br/> |Client  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IOlkErrorUnknown  <br/> |
    

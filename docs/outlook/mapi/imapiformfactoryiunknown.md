@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b2aa08ea14df87f24cda3da0137ae4bfa2c50b40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: c60b542852653bd617b5b9f604bbc44d575e5cb3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576014"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384765"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Prend en charge l’utilisation des formulaires d’exécution configurables dans des environnements informatiques distribués. 
   
@@ -31,8 +31,8 @@ Prend en charge l’utilisation des formulaires d’exécution configurables dan
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
 |Exposés par :  <br/> |Objets de fabrique de formulaire  <br/> |
-|Implémentée par :  <br/> |Serveurs de formulaire  <br/> |
-|Appelée par :  <br/> |Visionneuses de formulaire  <br/> |
+|Implémenté par :  <br/> |Serveurs de formulaire  <br/> |
+|Appelé par :  <br/> |Visionneuses de formulaire  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IMAPIFormFactory  <br/> |
 |Type de pointeur :  <br/> |LPMAPIFORMFACTORY  <br/> |
    
@@ -46,7 +46,7 @@ Prend en charge l’utilisation des formulaires d’exécution configurables dan
    
 ## <a name="remarks"></a>Remarques
 
-L’interface **IMAPIFormFactory** repose sur l’interface [IClassFactory](http://msdn.microsoft.com/en-us/library/ms694364%28VS.85%29.aspx) et les objets qui implémentent **IMAPIFormFactory** doivent également hériter de **IClassFactory**.
+L’interface **IMAPIFormFactory** repose sur l’interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) et les objets qui implémentent **IMAPIFormFactory** doivent également hériter de **IClassFactory**.
   
  **IMAPIFormFactory** est l’interface visionneuses de formulaire permet de créer de nouveaux objets de formulaire lorsqu’un serveur de formulaire prend en charge plus d’une classe de message (autrement dit, plus d’un type d’objet de formulaire). 
   

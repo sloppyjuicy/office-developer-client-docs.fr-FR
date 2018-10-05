@@ -1,5 +1,5 @@
 ---
-title: Conditions techniques
+title: Exigences techniques
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,14 +8,14 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: Cette rubrique décrit les langages de programmation pris en charge, la méthode et la visibilité COM renvoient des exigences de type et les détails de l’extensibilité de fournisseur Outlook Social Connector (OSC) DLL.
-ms.openlocfilehash: 94b57e20957f3d8d779c4d3324ecbb8ccd37f60a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787706"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383113"
 ---
-# <a name="technical-requirements"></a>Conditions techniques
+# <a name="technical-requirements"></a>Exigences techniques
 
 Cette rubrique décrit les langages de programmation pris en charge, la méthode et la visibilité COM renvoient des exigences de type et les détails de l’extensibilité de fournisseur Outlook Social Connector (OSC) DLL. 
   
@@ -33,7 +33,7 @@ Un fournisseur OSC doit être visible par COM, tel que défini par les élément
     
 - Un fournisseur OSC développé dans un langage managé est visible par COM.
     
-- Un fournisseur OSC doit ajouter les valeurs dans le Registre Windows qui indiquent que la DLL du fournisseur prend en charge un seul thread cloisonné et apartment multithread (MTA) modèles de thread. Pour plus d’informations sur les modèles de thread COM, voir [Descriptions et fonctionnement de OLE modèles de thread](http://support.microsoft.com/kb/150777).
+- Un fournisseur OSC doit ajouter les valeurs dans le Registre Windows qui indiquent que la DLL du fournisseur prend en charge un seul thread cloisonné et apartment multithread (MTA) modèles de thread. Pour plus d’informations sur les modèles de thread COM, voir [Descriptions et fonctionnement de OLE modèles de thread](https://support.microsoft.com/kb/150777).
     
 Méthodes de l’extensibilité de fournisseur OSC doivent retourner types primitifs comme **chaîne** ou **bool**. Certains **chaîne** renvoie les valeurs doivent être conformes à la définition de schéma pour l’extensibilité de fournisseur OSC. XML uniquement est pris en charge en tant que valeur de retour. 
   

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: Les commandes de menu permettant d’ajouter des fonctions de gestionnaire d’événements dans un projet de modèle de formulaire compatible avec le modèle objet InfoPath 2003 sont essentiellement les mêmes que celles des autres types de modèles de formulaire.
-ms.openlocfilehash: 9f037c59180b9c8d858ec73d79ef892974efe483
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782372"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386704"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Ajouter un gestionnaire d’événements à l’aide du modèle objet InfoPath
 
@@ -91,7 +91,7 @@ L'exemple qui suit illustre l'ajout d'un gestionnaire d'événements pour une so
   
 ```xml
 <?xml version="1.0"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema">
     <xsd:element name="catalog">
         <xsd:complexType>
             <xsd:sequence>
@@ -283,5 +283,5 @@ Si vous lancez un utilitaire d'obscurcissement sur l'assembly généré lors de 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Répondre aux événements à l’aide du modèle objet InfoPath 2003 de formulaire](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Réponse aux événements de formulaire en utilisant le modèle objet InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

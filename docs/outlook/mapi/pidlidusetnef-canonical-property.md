@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b0d5588218fd74f005de19daba002cd622c13a17
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 56f6e2355ee2e64cc766bafe27cd59454e210ab6
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587186"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384980"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>Propriété canonique PidLidUseTnef
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie si le Transport Neutral Encapsulation Format (TNEF) doivent être inclus dans un message lorsque ce message est converti en message MAPI au format Multipurpose Internet Mail Extensions (MIME) ou SMTP Simple Mail Transfer Protocol ().
   
@@ -51,15 +51,15 @@ Utiliser l’indicateur **CCSF_USE_TNEF** lors de l’appel [IConverterSession::
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
     
-[[MS-OXTNEF]](http://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
 > Code et décode des objets message et la pièce jointe à une représentation sous forme de flux efficace.
     

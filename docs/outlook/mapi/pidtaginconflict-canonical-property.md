@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e83c05c6-a7c0-486c-a112-58a39255767a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 33bf77029207e2d8d734d5c49735262135896660
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: fc2774efed1a15fe79e167149f2cb162bae7642c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593724"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384436"
 ---
 # <a name="pidtaginconflict-canonical-property"></a>Propriété canonique PidTagInConflict
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE lorsque la pièce jointe représente un autre réplica.
   
@@ -46,11 +46,11 @@ Le client de messagerie et le serveur doivent générer un message de résolutio
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXCFXICS]](http://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
 > Gère la synchronisation des données de l’objet messagerie entre un serveur et un client.
     

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: add85bbf9c7608434be045bc30a11b8a28ccaa1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 05df7fe04f511de9310edc7a8ef09130e6354ad2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578408"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389168"
 ---
 # <a name="pidtagattachpathname-canonical-property"></a>Propriété canonique PidTagAttachPathname
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le chemin d’accès complet et le nom d’une pièce jointe.
   
@@ -48,11 +48,11 @@ MAPI ne fonctionne qu’avec les chemins d’accès et le jeu de caractères ANS
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     
-[[MS-OXORMMS]](http://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
 > Spécifie les propriétés des messages codés géré par des droits.
     

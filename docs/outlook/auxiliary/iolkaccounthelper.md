@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
-ms.openlocfilehash: 3c28b1e8ab7e2d72d27cc6545b6ef57834ef5b6f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 241babe45b543fb00c0d2756a2e846303a1717b2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782703"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386410"
 ---
 # <a name="iolkaccounthelper"></a>IOlkAccountHelper
 
@@ -21,7 +21,7 @@ Fournit des fonctionnalités d’assistance dans la session MAPI en cours pour g
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Hérite de :  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Fourni par :  <br/> |Client  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IOlkAccountHelper  <br/> |
    

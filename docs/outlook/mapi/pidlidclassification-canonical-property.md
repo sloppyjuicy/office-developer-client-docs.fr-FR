@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 4b0f1830-a7d3-430a-9a2c-dad3431af744
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 793034cfaa97d24eb293fe403ac002650d888956
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 359920f71ce8a4b86f39ea372f86da344f10e3d2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589993"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384884"
 ---
 # <a name="pidlidclassification-canonical-property"></a>Propriété canonique PidLidClassification
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique le nom de la classification de message.
   
@@ -39,11 +39,11 @@ Indique le nom de la classification de message.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

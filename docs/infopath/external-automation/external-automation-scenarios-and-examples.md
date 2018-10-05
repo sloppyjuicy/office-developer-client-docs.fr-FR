@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
 description: Les membres fourni par Microsoft Office InfoPath principal assembly d’interopérabilité (Microsoft.Office.Interop.InfoPath.dll) et l’assembly d’interopérabilité XML InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) prend en charge écrire du code managé pour l’automatisation InfoPath.
-ms.openlocfilehash: 1c76e5cb659c9d3f39eec4a7e517ab57c98c858a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782253"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383162"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Exemples et des scénarios d’automatisation externe
 
@@ -21,7 +21,7 @@ Les membres fourni par Microsoft Office InfoPath principal assembly d’interop�
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Création de références aux assemblys PIA de Microsoft Office InfoPath et InfoPath XML Interop
 
-Pour écrire du code managé pour automatiser InfoPath, vous devez établir des références au PIA Microsoft InfoPath et les assemblys PIA XML InfoPath. L’assembly PIA de Microsoft InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par IPEDITOR. DLL à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . L’assembly d’interopérabilité XML InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par Microsoft XML Core Services (MSXML) à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.infopath.xml) . 
+Pour écrire du code managé pour automatiser InfoPath, vous devez établir des références au PIA Microsoft InfoPath et les assemblys PIA XML InfoPath. L’assembly PIA de Microsoft InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par IPEDITOR. DLL à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . L’assembly d’interopérabilité XML InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par Microsoft XML Core Services (MSXML) à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
   
 > [!IMPORTANT]
 > Les utilisateurs des applications de code managé qui automatisent InfoPath doivent avoir l’assembly d’interopérabilité XML InfoPath installé sur leur ordinateur, l’assembly PIA de Microsoft Office InfoPath et InfoPath. L’option de **Prise en charge de la programmabilité .NET** dans le programme d’installation de InfoPath est définie sur **Exécuter à partir du disque dur** pour une installation standard d’InfoPath.
@@ -109,7 +109,7 @@ Supposons qu’un des clients de l’utilisateur d’un modèle de formulaire In
             // namespace of the form. IMPORTANT:Replace the namespace 
             // value below with that of your sample form.
             myXMLDoc.setProperty("SelectionNamespaces",
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Select all instances of customerName that contain 
             //'Company A'.
             IXMLDOMNodeList myNames = 
@@ -161,7 +161,7 @@ Supposons qu’un des clients de l’utilisateur d’un modèle de formulaire In
           ' namespace of the form. IMPORTANT:Replace the namespace 
           ' value below with that of your sample form.
           myXMLDoc.setProperty("SelectionNamespaces", _
-    "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+    "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Select all instances of customerName that contain 
           ''Company A'.
           Dim myNames As IXMLDOMNodeList = _
@@ -247,7 +247,7 @@ L’exemple suivant automatise l’ouverture d’un formulaire vierge et remplis
             // Set the MSXML SelectionNamespaces property to the my
             // namespace of the form. IMPORTANT:Replace the namespace
             // value below with that of your sample form.
-            doc.setProperty("SelectionNamespaces","xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
+            doc.setProperty("SelectionNamespaces","xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'");
             // Pre-populate the fields with specified values.
             doc.selectSingleNode("//my:FirstName").text="My Name";
             doc.selectSingleNode("//my:LastName").text="My LastName";
@@ -280,7 +280,7 @@ L’exemple suivant automatise l’ouverture d’un formulaire vierge et remplis
           ' Set the MSXML SelectionNamespaces property to the my
           ' namespace of the form. IMPORTANT:Replace the namespace
           ' value below with that of your sample form.
-          doc.setProperty("SelectionNamespaces", "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
+          doc.setProperty("SelectionNamespaces", "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2006-09-06T23:17:34'")
           ' Pre-populate the fields with specified values.
           doc.selectSingleNode("//my:FirstName").text = "My Name"
           doc.selectSingleNode("//my:LastName").text = "My LastName"
@@ -298,6 +298,6 @@ L’exemple suivant automatise l’ouverture d’un formulaire vierge et remplis
     
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’Assembly d’interopérabilité Microsoft Office InfoPath principal](about-the-microsoft-office-infopath-primary-interop-assembly.md)
-- [À propos de l’Assembly d’interopérabilité XML InfoPath](about-the-infopath-xml-interop-assembly.md)
+- [À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office](about-the-microsoft-office-infopath-primary-interop-assembly.md)
+- [À propos de l’assembly d’interopérabilité XML InfoPath](about-the-infopath-xml-interop-assembly.md)
 

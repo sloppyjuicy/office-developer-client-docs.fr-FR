@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 44752e147569619589b23a380b2fefa511724ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ac1f0d839b1ea059ec2b8d94556808bea3850862
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571730"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383904"
 ---
 # <a name="pidliddistributionlistchecksum-canonical-property"></a>Propriété canonique PidLidDistributionListChecksum
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la redondance cyclique de 32 bits à cocher (CRC-32) polynomiale somme de contrôle pour obtenir une liste de distribution personnelle.
   
@@ -43,11 +43,11 @@ La valeur de cette propriété peut être utilisée pour détecter le moment où
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

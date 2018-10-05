@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b3d9e596bcc8659633228765ddd8f396aaee3c00
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 473c7898fec46e55e68b199e9738949c9c231a6d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570113"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25388622"
 ---
 # <a name="pidlidsharingresponsetime-canonical-property"></a>Propriété canonique PidLidSharingResponseTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie l’heure à laquelle le destinataire de la demande de partage a envoyé une réponse de partage. Il s’agit d’une propriété d’un message de partage.
   
@@ -39,11 +39,11 @@ Spécifie l’heure à laquelle le destinataire de la demande de partage a envoy
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Partage des dossiers de boîte aux lettres entre des clients.
     

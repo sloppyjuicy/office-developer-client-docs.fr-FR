@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: Indique les attributs de mise en forme d’un texte exécuter de la forme, telles que la police, couleur, style de texte, des cas, la position par rapport à la ligne de base et la taille.
-ms.openlocfilehash: 11194506a593a445656852b107f6fd780a39b9b0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3d8aa3e508b2f045a2cf38faaa795922dcc14803
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789511"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25387488"
 ---
 # <a name="row-element-character-section-visio-xml"></a>Row, élément (Section Character) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Indique les attributs de mise en forme d’un texte exécuter de la forme, telle
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    

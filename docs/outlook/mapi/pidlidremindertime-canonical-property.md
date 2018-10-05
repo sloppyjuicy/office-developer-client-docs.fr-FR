@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: dd1daddbdf4e953dac53d44181fedf371ce3beb3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 8371418aabc557f48c74039320305df59624d7ac
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573879"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382469"
 ---
 # <a name="pidlidremindertime-canonical-property"></a>Propriété canonique PidLidReminderTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la durée du signal initiale pour un rappel.
   
@@ -43,11 +43,11 @@ Pour les objets de calendrier, cette propriété représente le temps lorsque l�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXORMDR]](http://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
 > Spécifie les propriétés et le modèle d’interaction pour la messagerie et autres rappels de l’objet.
     

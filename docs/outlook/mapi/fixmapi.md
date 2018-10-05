@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 863e401f66a8012b3bd9954ed56c02382f1bd4e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 2aeca1a65a859ac9502995a463bc4869609bcd15
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565934"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383813"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une copie de sauvegarde de la copie en cours de mapi32.dll sur le client ordinateur et restaure mapi32.dll avec la bibliothèque stub MAPI, mapistub.dll.
   
@@ -28,8 +28,8 @@ Crée une copie de sauvegarde de la copie en cours de mapi32.dll sur le client o
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |Mapistub.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Windows  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Windows  <br/> |
    
 ```cpp
 DWORD STDAPICALLTYPE FixMAPI(void); 
@@ -39,7 +39,7 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 Si la fonction réussit, la valeur de retour est une valeur non nulle.
   
-Si la fonction échoue, la valeur de retour est égale à zéro. Pour obtenir des informations d’erreur étendues, appelez la fonction du Kit de développement logiciel (SDK) de Microsoft Windows, **[GetLastError](http://msdn.microsoft.com/en-us/library/ms679360.aspx)**. 
+Si la fonction échoue, la valeur de retour est égale à zéro. Pour obtenir des informations d’erreur étendues, appelez la fonction du Kit de développement logiciel (SDK) de Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -53,7 +53,7 @@ Si la fonction échoue, la valeur de retour est égale à zéro. Pour obtenir de
 
 
 
-[KB 256946 : Vous recevez un message d’erreur de conflit programme lorsque vous démarrez Outlook 2000](http://support.microsoft.com/kb/256946)
+[KB 256946 : Vous recevez un message d’erreur de conflit programme lorsque vous démarrez Outlook 2000](https://support.microsoft.com/kb/256946)
   
-[KB 228457 : Description de l’outil Fixmapi.exe inclus avec Internet Explorer 5](http://support.microsoft.com/kb/228457)
+[KB 228457 : Description de l’outil Fixmapi.exe inclus avec Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

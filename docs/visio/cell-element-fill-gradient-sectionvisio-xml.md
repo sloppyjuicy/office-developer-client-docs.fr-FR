@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: Contient la couleur, la transparence et la position d’un point de dégradé pour un dégradé de remplissage.
-ms.openlocfilehash: c5366d1d3fcf5a4cd453bc62467353b940e89792
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788203"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386354"
 ---
 # <a name="cell-element-fill-gradient-section-visio-xml"></a>Élément de cellule (remplissage dégradé Section) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient la couleur, la transparence et la position d’un point de dégradé po
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.XML, master # .xml, page # .xml  <br/> |
    
@@ -66,8 +66,8 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|GradientStopColor  <br/> |La valeur de la couleur du point de dégradé. Cette valeur peut être exprimée en tant que le numéro d’index d’une couleur dans la palette de document ou en utilisant les fonctions **RGB**, **THEMEVAL**ou **TSL** .  <br/> |[Dégradé Stop ligne (Section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |Le niveau de transparence du point de dégradé, sous forme de pourcentage.  <br/> |[Dégradé Stop ligne (Section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |La position du point de dégradé sur l’axe de dégradé ligne, sous forme de pourcentage à partir du point d’origine du dégradé à l’extrémité du dégradé.  <br/> |[Dégradé Stop ligne (Section dégradé de remplissage)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColor  <br/> |La valeur de la couleur du point de dégradé. Cette valeur peut être exprimée en tant que le numéro d’index d’une couleur dans la palette de document ou en utilisant les fonctions **RGB**, **THEMEVAL**ou **TSL** .  <br/> |[Ligne Point de dégradé (section Remplissage dégradé)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |Le niveau de transparence du point de dégradé, sous forme de pourcentage.  <br/> |[Ligne Point de dégradé (section Remplissage dégradé)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopPosition  <br/> |La position du point de dégradé sur l’axe de dégradé ligne, sous forme de pourcentage à partir du point d’origine du dégradé à l’extrémité du dégradé.  <br/> |[Ligne Point de dégradé (section Remplissage dégradé)](gradient-stop-row-fill-gradient-section.md) <br/> |
    
 

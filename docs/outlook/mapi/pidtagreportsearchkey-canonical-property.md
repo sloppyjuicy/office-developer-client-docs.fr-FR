@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b82e27358c9f30a649dc10e1a53ee7c321cb3d82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 889b43bb606cbe9c96d52c8a21ffda5dfcebb1da
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584960"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383505"
 ---
 # <a name="pidtagreportsearchkey-canonical-property"></a>Propriété canonique PidTagReportSearchKey
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la clé de recherche pour le destinataire qui doit obtenir des rapports de ce message.
   
@@ -44,11 +44,11 @@ Une application cliente qui doit router les rapports à un autre utilisateur doi
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

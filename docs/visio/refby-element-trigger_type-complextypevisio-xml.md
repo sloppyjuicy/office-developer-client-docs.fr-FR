@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: Spécifie une référence à une page dans le dessin.
-ms.openlocfilehash: e4726a8fe49a7492cd2f7833bbcf5e6810bae18d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d987825345b64bd6e202970fc786aedaf49c6a94
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572430"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25383316"
 ---
 # <a name="refby-element-triggertype-complextype-visio-xml"></a>Élément RefBy (Trigger_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une référence à une page dans le dessin.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> ||
    

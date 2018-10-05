@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: Cette rubrique décrit comment résoudre les conflits pour les types d’élément personnalisé que vous créez dans Outlook.
-ms.openlocfilehash: d85c2022d909901c71c20214f91b316cce81c596
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 357dd9182f26c4e9e1e264afdee296859e7b3483
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782534"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25382987"
 ---
 # <a name="about-conflict-resolution-for-custom-item-types"></a>À propos de la résolution de conflit pour les types d’éléments personnalisés
 
@@ -33,7 +33,7 @@ Dans ce cas, les utilisateurs peuvent choisir accéder au dossier conflits pour 
 
 ### <a name="item-types-and-message-classes"></a>Types d’éléments et classes de message
   
-Tous les éléments Outlook sont associés à une classe de message. Par exemple, par défaut, un élément de messagerie est associé à la classe de message **IPM. Remarque**. La classe de message est principalement utilisée pour identifier le formulaire doit être utilisé pour afficher l’élément dans Outlook. Outlook prend en charge une liste des classes de message qui sont mappées sur les types d’éléments intégrées à Outlook. Pour plus d’informations sur les classes de message, voir [Types d’éléments et classes de messages](http://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
+Tous les éléments Outlook sont associés à une classe de message. Par exemple, par défaut, un élément de messagerie est associé à la classe de message **IPM. Remarque**. La classe de message est principalement utilisée pour identifier le formulaire doit être utilisé pour afficher l’élément dans Outlook. Outlook prend en charge une liste des classes de message qui sont mappées sur les types d’éléments intégrées à Outlook. Pour plus d’informations sur les classes de message, reportez-vous à la rubrique [Types d’éléments et classes de messages](https://msdn.microsoft.com/library/15b709cc-7486-b6c7-88a3-4a4d8e0ab292%28Office.15%29.aspx). 
   
 Utilisateurs peuvent créer des types d’éléments personnalisés, assigner des classes de message personnalisées pour les types d’éléments personnalisés et qu’Outlook à utiliser un formulaire personnalisé pour afficher les types d’éléments personnalisés. Par exemple, vous souhaiterez Outlook d’afficher un formulaire de contact personnalisé d’entreprise pour vos contacts professionnels. Pour cela, vous pouvez créer une classe de message personnalisée **IPM. Contact.Business**, créez un formulaire personnalisé pour cette classe de message et affecter des contacts professionnels avec cette classe de message. 
   
@@ -51,7 +51,7 @@ Lorsque vous créez un type d’élément personnalisé, autre que la classe de 
     
 Définition de la résolution de conflit par le biais de la stratégie de groupe est prioritaire sur modifiant directement la clé de Registre utilisateur. L’emplacement de la clé de Registre dépend de la version d’Outlook. Vous spécifiez le nom de la classe de message personnalisé en tant que valeur sous cette clé. Spécifiez le type de la valeur **DWORD**et les données de la valeur, comme une des valeurs indiquées dans le tableau suivant, selon le schéma de résolution que vous choisissez. 
   
-|Données  | Description  |
+|Data  | Description  |
 |:-----|:-----|
 |0  <br/> |Résolution élément courantes nécessitant une décision de l’utilisateur, tel qu’utilisé dans Outlook 2002 et les versions antérieures.  <br/> |
 |1  <br/> |Résolution élément courants qui nécessite une intervention minimale de l’utilisateur, comme dans Outlook depuis Outlook 2003.  <br/> |
@@ -72,5 +72,5 @@ Si vous spécifiez un des modes de résolution propres à l’élément (clées 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments Outlook](http://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
+- [Éléments Outlook](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
 
