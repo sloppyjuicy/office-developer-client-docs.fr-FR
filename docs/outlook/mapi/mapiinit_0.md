@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1eb4d7ac8d0287388a1bb76185f23636eddcf809
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: de31fe7d472b143ed8f3c108dca84a019b5ce103
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591673"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391149"
 ---
 # <a name="mapiinit0"></a>MAPIINIT_0
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Présente les options de la fonction [exécuter MAPIInitialize](mapiinitialize.md) . 
   
@@ -60,7 +60,7 @@ MAPI_NT_SERVICE
     
 MAPI_NO_COINIT
   
-> Définir l’indicateur MAPI_NO_COINT pour pouvoir **exécuter MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](http://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si une structure **MAPIINIT_0** est passée à **exécuter MAPIInitialize** avec _ulFlags_ défini sur MAPI_NO_COINIT, MAPI part du principe que COM a déjà été initialisé et ignore l’appel à **CoInitialize**.
+> Définir l’indicateur MAPI_NO_COINT pour pouvoir **exécuter MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx). Si une structure **MAPIINIT_0** est passée à **exécuter MAPIInitialize** avec _ulFlags_ défini sur MAPI_NO_COINIT, MAPI part du principe que COM a déjà été initialisé et ignore l’appel à **CoInitialize**.
     
 ## <a name="remarks"></a>Remarques
 

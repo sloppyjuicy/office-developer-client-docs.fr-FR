@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
 description: Spécifie les propriétés permettant d’identifier les auteurs et les commentaires dans un dessin.
-ms.openlocfilehash: 77695fb32aa88cb6c2b6ac5e9bff99fa12e262bf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d82125cc5d795f0cb4455a5c10be1abf001e1198
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788290"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389644"
 ---
 # <a name="comments-element-commentstype-complextype-visio-xml"></a>Élément Comments (Comments_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les propriétés permettant d’identifier les auteurs et les commenta
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Comments.Xml  <br/> |
    
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Visio.
-ms.openlocfilehash: e55c5ab195cf8f17eae98dbe61154b6a8fa7651e
-ms.sourcegitcommit: 539bc9a767ede52cb17c1b11ef7fac2fecd96fef
+ms.openlocfilehash: 7dbb12b76835641f9bf45bf78876fd667bacb19a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "22554161"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391191"
 ---
 # <a name="visio"></a>Visio
 
@@ -37,9 +37,9 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
   
 ### <a name="downloads"></a>Téléchargements
   
-- [Téléchargement du kit de développement logiciel de Visio 2013](http://www.microsoft.com/download/details.aspx?id=36825)
+- [Téléchargement du kit de développement logiciel de Visio 2013](https://www.microsoft.com/download/details.aspx?id=36825)
 
-- [Téléchargement du kit de développement logiciel (SDK) de Visio 2016](http://www.microsoft.com/download/details.aspx?id=51221)  
+- [Téléchargement du kit de développement logiciel (SDK) de Visio 2016](https://www.microsoft.com/download/details.aspx?id=51221)  
 
 ### <a name="other-resources"></a>Autres ressources
   

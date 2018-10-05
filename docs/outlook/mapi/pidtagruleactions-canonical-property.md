@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ede62c792b1241a150c9d0a05adbe47fe0b6c0e7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: ab246414f7caaf76f462d9b80e762fe614c77c21
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567460"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390008"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriété canonique PidTagRuleActions
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’ensemble des actions associées à la règle. 
   
@@ -36,11 +36,11 @@ Contient l’ensemble des actions associées à la règle.
    
 ## <a name="remarks"></a>Remarques
 
-Les actions sont exprimées en tant qu’une action de la règle et le tampon de valeur de propriété contient la structure de mémoire tampon règle action données empaquetée tel que spécifié dans [[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Les actions sont exprimées en tant qu’une action de la règle et le tampon de valeur de propriété contient la structure de mémoire tampon règle action données empaquetée tel que spécifié dans [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -50,11 +50,11 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXORULE]](http://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     

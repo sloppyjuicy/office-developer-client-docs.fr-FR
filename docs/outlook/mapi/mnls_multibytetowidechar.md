@@ -8,18 +8,18 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 065d78bf-4c9c-48dd-b1f1-b4e59f3f1243
 description: 'Dernière modification : 21 février 2012'
-ms.openlocfilehash: 66e8c3b61caac6fb8d8b57d74ade6fa8aac3a9dd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f137aba40703fe84e5753ee6e370262f780f0a3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571704"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389553"
 ---
 # <a name="mnlsmultibytetowidechar"></a>MNLS_MultiByteToWideChar
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Semblable à **MultiByteToWideChar**qui mappe une chaîne de caractères en une chaîne UTF-16 (caractères étendus). La chaîne de caractères est pas nécessairement à partir d’un caractère multi-octets définie.
   
@@ -59,12 +59,12 @@ int MNLS_MultiByteToWideChar(
   
 > [in] Taille, en caractères, de la mémoire tampon indiquée par _lpWideCharStr_.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Renvoie le nombre de caractères écrits dans la mémoire tampon de la mention _lpWideCharStr_ si l’opération réussit. 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction encapsule la fonction **MultiByteToWideChar** . Pour plus d’informations, voir [MultiByteToWideChar](http://msdn.microsoft.com/en-us/library/dd319072%28VS.85%29.aspx).
+Cette fonction encapsule la fonction **MultiByteToWideChar** . Pour plus d’informations, voir [MultiByteToWideChar](https://msdn.microsoft.com/library/dd319072%28VS.85%29.aspx).
   
 

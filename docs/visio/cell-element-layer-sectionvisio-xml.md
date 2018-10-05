@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: Spécifie une propriété d’un calque ou ses propriétés pour une page.
-ms.openlocfilehash: 92be29321ba637bb694c0cf5d3cddcb888618c1d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e96fdc1dcd5c9a7a2cb8753beaff766c2b477af2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788236"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390974"
 ---
 # <a name="cell-element-layer-section-visio-xml"></a>Élément de cellule (Section Layer) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie une propriété d’un calque ou ses propriétés pour une page.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Masters.XML, pages.xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Layer)](row-element-layer-sectionvisio-xml.md) <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’un calque ou ses propriétés pour une page.  <br/> |
+|[Élément de ligne (section Calque)](row-element-layer-sectionvisio-xml.md) <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |Spécifie une propriété d’un calque ou ses propriétés pour une page.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -66,16 +66,16 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|Actif  <br/> |Indique si un calque est actif.  <br/> |Aucun.  <br/> |
-|Couleur  <br/> |Spécifie un des éléments suivants : l’index de la couleur de la table utilisée pour afficher le calque ou une valeur RVB spécifiant une couleur personnalisée pas dans la table des couleurs.  <br/> |Aucun.  <br/> |
-|ColorTrans  <br/> |Détermine le degré de transparence d’un calque ou la couleur de texte de la forme, à partir de 0 (complètement opaque) et 1 (complètement transparent).  <br/> |Aucun.  <br/> |
-|Collage  <br/> |Spécifie si les formes appartenant au calque peuvent être effectué un collage.  <br/> |Aucun.  <br/> |
-|Verrouillage  <br/> |Indique si les formes appartenant au calque sont verrouillées en sélection ou en modification.  <br/> |Aucun.  <br/> |
-|Nom  <br/> |Le nom d’un calque.  <br/> |Aucun.  <br/> |
-|NameUniv  <br/> |Indique le nom universel d’un calque.  <br/> |Aucun.  <br/> |
-|Imprimer  <br/> |Spécifie si les formes appartenant au calque sont imprimés lorsque le dessin est imprimé.  <br/> |Aucun.  <br/> |
-|Composant logiciel enfichable  <br/> |Spécifie si les autres formes peuvent s’aligner sur les formes attribuées au calque.  <br/> |Aucun.  <br/> |
-|État  <br/> |Indique si le calque est un calque valid pour un document.  <br/> |Aucun.  <br/> |
+|Actif  <br/> |Indique si un calque est actif.  <br/> |Aucune.  <br/> |
+|Couleur  <br/> |Spécifie un des éléments suivants : l’index de la couleur de la table utilisée pour afficher le calque ou une valeur RVB spécifiant une couleur personnalisée pas dans la table des couleurs.  <br/> |Aucune.  <br/> |
+|ColorTrans  <br/> |Détermine le degré de transparence d’un calque ou la couleur de texte de la forme, à partir de 0 (complètement opaque) et 1 (complètement transparent).  <br/> |Aucune.  <br/> |
+|Collage  <br/> |Spécifie si les formes appartenant au calque peuvent être effectué un collage.  <br/> |Aucune.  <br/> |
+|Lock  <br/> |Indique si les formes appartenant au calque sont verrouillées en sélection ou en modification.  <br/> |Aucune.  <br/> |
+|Nom  <br/> |Le nom d’un calque.  <br/> |Aucune.  <br/> |
+|NameUniv  <br/> |Indique le nom universel d’un calque.  <br/> |Aucune.  <br/> |
+|Imprimer  <br/> |Spécifie si les formes appartenant au calque sont imprimés lorsque le dessin est imprimé.  <br/> |Aucune.  <br/> |
+|Composant logiciel enfichable  <br/> |Spécifie si les autres formes peuvent s’aligner sur les formes attribuées au calque.  <br/> |Aucune.  <br/> |
+|Status  <br/> |Indique si le calque est un calque valid pour un document.  <br/> |Aucune.  <br/> |
 |Visible  <br/> |Indique si les formes appartenant au calque sont visibles sur la page de dessin.  <br/> |Aucun.  <br/> |
    
 

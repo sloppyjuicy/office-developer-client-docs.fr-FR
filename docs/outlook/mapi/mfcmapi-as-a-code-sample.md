@@ -7,17 +7,17 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b4d46dc8a84b52605d09a694e6873cb3813ae5b4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578114"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391659"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI comme un exemple de code
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 L’exemple MFCMAPI utilise l’API de messagerie pour accéder aux magasins MAPI via une interface utilisateur graphique. Après avoir téléchargé cet exemple, vous pouvez utiliser les fichiers sources pour examiner les cas de l’utilisation d’exemple pour la plupart des interfaces MAPI et références. Pour plus d’informations, voir [Interfaces MAPI](mapi-interfaces.md).
   
@@ -27,7 +27,7 @@ L’exemple MFCMAPI utilise l’API de messagerie pour accéder aux magasins MAP
    
 ### <a name="to-download-mfcmapi"></a>Pour télécharger MFCMAPI
   
-1. Dans la page [MFCMAPI](http://codeplex.com/MFCMAPI) , cliquez sur l’onglet **Code Source** . 
+1. Dans la page [MFCMAPI](https://codeplex.com/MFCMAPI) , cliquez sur l’onglet **Code Source** . 
     
 2. Sous **Archivages récents**, cliquez sur **Télécharger** pour la version la plus récente. 
     

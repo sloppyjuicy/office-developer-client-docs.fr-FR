@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: "Microsoft InfoPath prend en charge la liaison d'un contrôle Zone de texte mis en forme dans un formulaire à un élément XML reçu à partir d'un service Web, ainsi que l'envoi de données à partir d'un tel contrôle vers un élément XML via un service Web. L'élément doit respecter le format XHTML (Extensible HyperText Markup Language). Par exemple, le schéma d'un élément nommé MyRichTextElement qui contient du texte enrichi aurait la définition de schéma XML suivante :"
-ms.openlocfilehash: 07a7a3dbc0f054160adce54e316b01797feacd8a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d10f4a8cedcff43d1c351068859aee0edf607c81
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782456"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391814"
 ---
 # <a name="rich-text-and-web-services"></a>Texte enrichi et services Web
 
@@ -21,7 +21,7 @@ Microsoft InfoPath prend en charge la liaison d'un contrôle **Zone de texte mis
 <xsd:element name="MyRichTextElement"> 
     <xsd:complexType mixed="true"> 
         <xsd:sequence> 
-            <xsd:any namespace="http://www.w3.org/1999/xhtml" processContents="lax" 
+            <xsd:any namespace="https://www.w3.org/1999/xhtml" processContents="lax" 
                 minOccurs="0" maxOccurs="unbounded"/> 
         </xsd:sequence> 
     </xsd:complexType> 
@@ -31,8 +31,8 @@ Microsoft InfoPath prend en charge la liaison d'un contrôle **Zone de texte mis
 Pour pouvoir lier un contrôle **Zone de texte mis en forme** à l'élément XHTML, cet élément doit être incorporé dans un nœud wrapper ; ce nœud peut appartenir à un espace de noms arbitraire et ressembler à ce qui suit : 
   
 ```xml
-<xhtmlNode xmlns="http:// someNamespace"> 
-    <div xmlns="http://www.w3.org/1999/xhtml">Your rich text here</div> 
+<xhtmlNode xmlns="https:// someNamespace"> 
+    <div xmlns="https://www.w3.org/1999/xhtml">Your rich text here</div> 
 </xhtmlNode>
 ```
 
@@ -55,9 +55,9 @@ public XmlNode getXhtml()
             XmlDocument document = new XmlDocument(); 
  
             // Create a wrapping node with the name of the rich text field. 
-            // The "http://someNameSpace" can be any arbitrary namespace 
+            // The "https://someNameSpace" can be any arbitrary namespace 
             XmlNode richNode = document.CreateNode 
-                        (XmlNodeType.Element, "MyRichTextElement", "http://someNameSpace"); 
+                        (XmlNodeType.Element, "MyRichTextElement", "https://someNameSpace"); 
  
             // Temporary XmlDocument 
             XmlDocument tempDocument = new XmlDocument(); 
@@ -69,7 +69,7 @@ public XmlNode getXhtml()
             catch (XmlException) 
             { 
                 // If the file does not exist or content is not valid XML 
-                tempDocument.LoadXml("<div xmlns=\"http://www.w3.org/1999/xhtml\"></div>"); 
+                tempDocument.LoadXml("<div xmlns=\"https://www.w3.org/1999/xhtml\"></div>"); 
             } 
  
             // Add the file content to the xml 
@@ -98,7 +98,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If nothing was submitted or the rich text field is empty, 
                 // create a DIV that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the node to our own XmlDocument 
                 document.AppendChild(div); 
             } 
@@ -106,7 +106,7 @@ public void setXhtml(XmlNode xn)
             { 
                 // If plain text is passed in, wrap it in a DIV 
                 // that references the XHTML namespace 
-                XmlElement div = document.CreateElement("div", "http://www.w3.org/1999/xhtml"); 
+                XmlElement div = document.CreateElement("div", "https://www.w3.org/1999/xhtml"); 
                 // Copy the text to the DIV. 
                 div.AppendChild(document.ImportNode(xn, true)); 
                 // Copy the node to our own XmlDocument 

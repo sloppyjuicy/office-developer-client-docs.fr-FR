@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 78bb5114b78142ce18d3f83c34795b72910c87a2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6fa0579dcd98a0d819e58e62d8a42cb2972a9d1e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391555"
 ---
 # <a name="pidtagscheduleinfomonthstentative-canonical-property"></a>Propriété canonique PidTagScheduleInfoMonthsTentative
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient les mois marqués provisoires dans le message et de disponibilité.
   
@@ -44,11 +44,11 @@ Chaque valeur de cette propriété, a un mois et l’année codé de celui-ci. I
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Publie la disponibilité d’un utilisateur ou une ressource.
     

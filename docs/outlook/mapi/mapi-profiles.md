@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3c6701f5b7f63fdc7d21b219a5588feb0580db48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579857"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391429"
 ---
 # <a name="mapi-profiles"></a>Profils MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Un profil stocke des informations sur les fournisseurs de services et les services de messagerie qui sont installés sur un ordinateur. Pour chaque session, un client au moment de l’ouverture de session sélectionne un seul profil qui décrit les fournisseurs et les services à utiliser. Un client peut choisir d’une collection de profils et, si vous le souhaitez, établir un en tant que la valeur par défaut. Le profil par défaut est le profil qui est sélectionné automatiquement lorsqu’un client démarre une session et un profil n’a pas explicitement spécifié.
   
@@ -29,7 +29,7 @@ Dans ces rubriques, vous trouverez également une discussion sur le cache du sur
     
 - [Flux de saisie semi-automatique](autocomplete-stream.md)
     
-- [L’analyse des fichiers binaires](http://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [L’analyse des fichiers binaires](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>Sections de profil
 

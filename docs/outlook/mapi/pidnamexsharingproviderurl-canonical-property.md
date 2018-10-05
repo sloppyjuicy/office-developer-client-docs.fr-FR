@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: f44acaa6-1747-4b74-bf48-bb6f72b258ed
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bdc8175ed277a355b66ea080daaea1dc86320066
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b2d02d0333e066ac45eb18f4c7473760b24605b3
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582090"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391632"
 ---
 # <a name="pidnamexsharingproviderurl-canonical-property"></a>Propriété canonique PidNameXSharingProviderUrl
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Représente la valeur de la propriété **dispidSharingProviderUrl** ([PidLidSharingProviderUrl](pidlidsharingproviderurl-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucun  <br/> |
+|Noms conviviaux :  <br/> |Aucune  <br/> |
 |Jeu de propriétés :  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Nom de la propriété :  <br/> |X-partage-fournisseur-Url  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
@@ -39,11 +39,11 @@ Représente la valeur de la propriété **dispidSharingProviderUrl** ([PidLidSha
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXSHARE]](http://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
 > Partage des dossiers de boîte aux lettres entre des clients.
     

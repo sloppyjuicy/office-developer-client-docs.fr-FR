@@ -8,18 +8,18 @@ api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0272464d9a397f169b27aa15c80a17b49a3e9977
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571828"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391654"
 ---
 # <a name="property-names-and-property-sets"></a>Noms de propriétés et jeux de propriétés
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Le nom de chaque propriété nommée comporte deux parties :
   
@@ -27,7 +27,7 @@ Le nom de chaque propriété nommée comporte deux parties :
     
 - Une chaîne de caractères Unicode ou une valeur numérique 32 bits. 
     
-Noms des propriétés nommées sont décrites à l’aide d’une structure [MAPINAMEID](mapinameid.md) . Cette structure contient un membre de jeu de propriétés, un membre pour indiquer le nom de format numérique ou chaîne et un membre pour identifier le format est utilisé. Étant donné que le jeu de propriétés fait partie du nom de la propriété, il n’est pas facultatif. MAPI a défini plusieurs jeux de propriétés pour une utilisation par les clients et les fournisseurs de service, mais si un ensemble existant de la propriété est inapproprié, un nouveau jeu de propriétés peut être défini. Clients et fournisseurs de services peuvent définir leurs propres jeux de propriétés en appelant la fonction [CoCreateGUID](http://msdn.microsoft.com/en-us/library/ms688568.aspx) . Ces jeux de propriétés est généralement créés pour les applications clientes personnalisées. 
+Noms des propriétés nommées sont décrites à l’aide d’une structure [MAPINAMEID](mapinameid.md) . Cette structure contient un membre de jeu de propriétés, un membre pour indiquer le nom de format numérique ou chaîne et un membre pour identifier le format est utilisé. Étant donné que le jeu de propriétés fait partie du nom de la propriété, il n’est pas facultatif. MAPI a défini plusieurs jeux de propriétés pour une utilisation par les clients et les fournisseurs de service, mais si un ensemble existant de la propriété est inapproprié, un nouveau jeu de propriétés peut être défini. Clients et fournisseurs de services peuvent définir leurs propres jeux de propriétés en appelant la fonction [CoCreateGUID](https://msdn.microsoft.com/library/ms688568.aspx) . Ces jeux de propriétés est généralement créés pour les applications clientes personnalisées. 
   
 Jeux de propriétés de MAPI sont représentés par l’une des constantes suivantes :
   

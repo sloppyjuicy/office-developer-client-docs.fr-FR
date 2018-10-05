@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9bfb94b2929f780a428fb932efb3538f94f5aaea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: f04d1593e2a13a2bfc23412340d7eb9f38f5d9ef
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591463"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389966"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propriété canonique PidLidDistributionListMembers
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie la liste des identificateurs d’entrée des objets qui correspondent aux membres de la liste de distribution personnelle.
   
@@ -37,7 +37,7 @@ Spécifie la liste des identificateurs d’entrée des objets qui correspondent 
    
 ## <a name="remarks"></a>Remarques
 
-Membres de la liste de distribution personnelle peuvent être autres listes de distribution personnelles, les adresses électroniques contenues dans un contact, les utilisateurs de la liste d’adresses globale ou les listes de distribution ou les adresses de messagerie uniques. Le format de chaque propriété EntryId doit être un ID d’entrée unique, tel que spécifié dans [[MS-OXCDATA],](http://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) soit une propriété EntryId justifiée. 
+Membres de la liste de distribution personnelle peuvent être autres listes de distribution personnelles, les adresses électroniques contenues dans un contact, les utilisateurs de la liste d’adresses globale ou les listes de distribution ou les adresses de messagerie uniques. Le format de chaque propriété EntryId doit être un ID d’entrée unique, tel que spécifié dans [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) soit une propriété EntryId justifiée. 
   
 Lorsque vous définissez cette propriété, le client ou le serveur doit garantir que sa taille totale est inférieure à 15 000 octets.
   
@@ -49,11 +49,11 @@ Si le client ou le serveur de définie cette propriété, il doit être synchron
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCNTC]](http://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
     

@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d72dc0e4-4e0f-dd3f-a51a-8486f9ec548e
 description: Contient une valeur de chaîne arbitraire qui est utilisée pour fournir des informations supplémentaires sur une forme.
-ms.openlocfilehash: 5ac527e07e1150f8cac38457f3e6f7525f795d7d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a203f915e9a5ff86e7cf75d96639157f76d3c151
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788383"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390967"
 ---
 # <a name="data1-element-shapesheettype-complextype-visio-xml"></a>Data1, élément (ShapeSheet_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une valeur de chaîne arbitraire qui est utilisée pour fournir des inf
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Type_de_données](data_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |page # .xml, master # .xml  <br/> |
    

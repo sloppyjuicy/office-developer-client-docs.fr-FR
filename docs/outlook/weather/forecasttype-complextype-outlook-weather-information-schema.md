@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6301d6b6-34fa-af8d-e682-605d35cfdf47
 description: Définit les paramètres sur les conditions de prévisions météorologiques d’un emplacement.
-ms.openlocfilehash: 886c6cdbbeb9f07564854dc6a62cbcdad9703b62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 75f20d7857fac85e1e95d23cf5ac826336648132
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787714"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390624"
 ---
 # <a name="forecasttype-complextype-outlook-weather-information-schema"></a>type complexe forecastType (schéma des informations météo Outlook)
 
@@ -23,7 +23,7 @@ Définit les paramètres sur les conditions de prévisions météorologiques d�
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Fichier de schéma** <br/> |GetWeatherInfo.xsd  <br/> |
 |**Base d’extension** <br/> |Aucune  <br/> |
    

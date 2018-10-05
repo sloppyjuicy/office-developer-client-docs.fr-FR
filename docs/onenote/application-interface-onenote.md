@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'L’interface d’Application inclut des méthodes aide récupérer, manipuler et mettre à jour le contenu et les informations de OneNote. Les méthodes sont en quatre catégories générales :'
-ms.openlocfilehash: 25bb1aa570f6c36aa04140d9256d277bee65152b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b34cb5e4812842cc3660e24ad2a94268563a4964
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782524"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391478"
 ---
 # <a name="application-interface-onenote"></a>Interface application (OneNote)
 
@@ -98,7 +98,7 @@ Le code XML suivant est un extrait du fichier ChangeSectionName.xml qui passe pa
   
 ```XML
 <?xml version="1.0" ?> 
-    <one:Notebooks xmlns:one="http://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
+    <one:Notebooks xmlns:one="https://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
         <one:Notebook name="My Notebook" nickname="My Notebook" ID="{0B8E7305-AC2C-4BCB-8651-1CDA55AAE14C}{1}{B0}"> 
             <one:Section name="My Renamed Section" ID="{5F4E2908-44BA-4C02-91FE-49FC665E9A33}{1}{B0}" path="C:\My Section.one" /> 
         </one:Notebook> 
@@ -127,7 +127,7 @@ L’exemple c# suivant montre une application de console complète qui recherche
     {
         
         // OneNote 2013 Schema namespace.
-        string strNamespace = "http://schemas.microsoft.com/office/onenote/2013/onenote";
+        string strNamespace = "https://schemas.microsoft.com/office/onenote/2013/onenote";
         string outputXML;
         Application onApplication = new Application();
         onApplication.GetHierarchy(null, HierarchyScope.hsSections, out outputXML);
@@ -263,7 +263,7 @@ static void UpdatePageContent()
         OneNote.Application onApplication = new OneNote.Application();
         String strImportXML;
         strImportXML = "<?xml version=\"1.0\"?>" +
-            "<one:Page xmlns:one=\"http://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
+            "<one:Page xmlns:one=\"https://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
             ID=\"{3428B7BB-EF39-4B9C-A167-3FAE20630C37}{1}{B0}\">" +
             "    <one:PageSettings RTL=\"false\" color=\"automatic\">" +
             "        <one:PageSize>" +
@@ -319,7 +319,7 @@ static void UpdatePageContent()
 |:-----|:-----|
 |**Description** <br/> |Exporte la page que vous spécifiez dans un fichier dans n’importe quel format OneNote prend en charge.  <br/> |
 |**Syntaxe** <br/> | `HRESULT Publish(`<br/>`[in]BSTR bstrHierarchyID,`<br/>`[in]BSTR bstrTargetFilePath,`<br/>`[in,defaultvalue(pfOneNote)]PublishFormat pfPublishFormat,`<br/>`[in,defaultvalue(0)]BSTR bstrCLSIDofExporter);` <br/> |
-|**Paramètres** <br/> | _bstrHierarchyID_ &ndash; OneNote d’identification de la hiérarchie à exporter.  <br/><br/>_bstrTargetFilePath_ &ndash; Le chemin absolu vers l’emplacement où vous souhaitez enregistrer le fichier de sortie. Le fichier que vous spécifiez doit être un objet qui n’existe pas déjà à cet emplacement.  <br/><br/>_pfPublishFormat_ &ndash; Une des valeurs d’énumération [PublishFormat](enumerations-onenote-developer-reference.md#odc_PublishFormat) qui spécifie le format dans lequel vous souhaitez la page publiée (par exemple, en MHTML, PDF, etc.).  <br/><br/>_bstrCLSIDofExporter_ &ndash; L’ID de classe (CLSID) d’une application COM inscrit peut exporter Microsoft Windows enhanced métafichiers (.emf). L’application COM doit implémenter l’interface **IMsoDocExporter** . Ce paramètre est fourni pour permettre aux développeurs tiers d’écrire leur propre code pour publier du contenu OneNote dans un format personnalisé. Pour plus d’informations sur l’interface **IMsoDocExporter** , voir [extension de la fonctionnalité d’exportation Office 2007 au Format fixe](http://msdn.microsoft.com/en-us/library/office/aa338206%28v=office.12%29.aspx).  <br/> |
+|**Paramètres** <br/> | _bstrHierarchyID_ &ndash; OneNote d’identification de la hiérarchie à exporter.  <br/><br/>_bstrTargetFilePath_ &ndash; Le chemin absolu vers l’emplacement où vous souhaitez enregistrer le fichier de sortie. Le fichier que vous spécifiez doit être un objet qui n’existe pas déjà à cet emplacement.  <br/><br/>_pfPublishFormat_ &ndash; Une des valeurs d’énumération [PublishFormat](enumerations-onenote-developer-reference.md#odc_PublishFormat) qui spécifie le format dans lequel vous souhaitez la page publiée (par exemple, en MHTML, PDF, etc.).  <br/><br/>_bstrCLSIDofExporter_ &ndash; L’ID de classe (CLSID) d’une application COM inscrit peut exporter Microsoft Windows enhanced métafichiers (.emf). L’application COM doit implémenter l’interface **IMsoDocExporter** . Ce paramètre est fourni pour permettre aux développeurs tiers d’écrire leur propre code pour publier du contenu OneNote dans un format personnalisé. Pour plus d’informations sur l’interface **IMsoDocExporter** , voir [extension de la fonctionnalité d’exportation Office 2007 au Format fixe](https://msdn.microsoft.com/library/office/aa338206%28v=office.12%29.aspx).  <br/> |
    
 Actuellement, OneNote prend en charge les formats de fichier suivants :
   
@@ -351,7 +351,7 @@ Les méthodes décrites dans cette section permettent de rechercher, accédez à
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Si le lien est externe à OneNote (par exemple http:// ou file://), une boîte de dialogue sécurité s’affiche. Renvoi, OneNote essaie d’ouvrir le lien et une erreur **HResult.hrObjectDoesNotExist** est renvoyée.  <br/> |
+|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Si le lien est externe à OneNote (comme https:// ou file://), une boîte de dialogue sécurité s’affiche. Renvoi, OneNote essaie d’ouvrir le lien et une erreur **HResult.hrObjectDoesNotExist** est renvoyée.  <br/> |
 |**Syntaxe** <br/> | `HRESULT NavigateTo(`<br/>`[in]BSTR bstrUrl,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fNewWindow);` <br/> |
 |**Paramètres** <br/> | _bstrUrl_ &ndash; Une chaîne qui indique l’emplacement à atteindre. Cela peut être un lien OneNote ou autre URL, par exemple un web lien ou l’emplacement réseau.  <br/><br/>_fNewWindow_ &ndash; (Facultatif) **la valeur true** pour ouvrir l’URL spécifiée dans une nouvelle fenêtre OneNote. **false** n’ouvre pas une nouvelle fenêtre OneNote si une est ouverte.  <br/> |
    
@@ -381,7 +381,7 @@ Lorsque vous essayez d’accéder au lien qui en résulte, OneNote s’ouvre et 
 |**Syntaxe**| `HRESULT FindPages(`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTR,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(0)]VARIANT_BOOL fDisplay,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
 |**Paramètres**| _bstrStartNodeID_ &ndash; Le nœud (racine, ordinateur portable, le groupe de section ou section) sous lequel rechercher du contenu. Ce paramètre définit l’étendue de la recherche.<br/><br/>_bstrSearchString_ &ndash; La chaîne de recherche. Passez exactement la même chaîne que vous tapez dans la zone de recherche dans l’UI OneNote. Vous pouvez utiliser les opérateurs de bits, telles que **et** et **ou**, qui doit être en majuscule.<br/><br/>_pbstrHierarchyXmlOut_ &ndash; Pointeur de A (paramètre de sortie) à une chaîne dans laquelle vous souhaitez OneNote pour écrire la chaîne XML de sortie. La chaîne XML qui en résulte contient la hiérarchie de bloc-notes à partir de la racine vers le bas, y compris, toutes les pages qui correspondent à la chaîne de recherche. Par exemple, la méthode **FindPages** ne répertorie pas les sections qui ne possèdent aucune correspondance de page dans la hiérarchie. En outre, si seulement une page dans une seule section correspond à la chaîne, la hiérarchie renvoyée inclut le chemin d’accès à cette section et de page, mais à aucune des autres parties de la hiérarchie de bloc-notes.<br/><br/>_fIncludeUnindexedPages_ &ndash; (Facultatif) **la valeur true** pour rechercher des pages qui n’ont pas été indexés par la recherche de Windows ; Sinon, **false**.<br/><br/>_fDisplay_ &ndash; (Facultatif) **true** également exécuter la recherche dans l’interface utilisateur de l’utilisateur, comme si l’utilisateur a tapé eux-mêmes. **false** pour effectuer la requête sans modifier l’interface utilisateur (par défaut).<br/><br/>_xsSchema_ &ndash; (Facultatif) le OneNote version du schéma de la chaîne _pbstrHierarchyXmlOut_. Cette valeur facultative est utilisée pour spécifier la version du schéma XML de OneNote qui contient la chaîne _pbstrHierarchyXmlOut_ . Si cette valeur n’est pas spécifiée, OneNote part du principe que le code XML est dans la version de schéma _xsCurrent_. <br/><br/>**Remarque**: nous vous recommandons de spécifier une version de OneNote (par exemple, **xs2013**) au lieu de l’aide de **xsCurrent** ou laisser vide, car cela permettra à votre complément travailler avec les futures versions de OneNote.           |
    
- **FindPages** fonctionne uniquement si vous avez Microsoft Search 3.0 ou 4.0 est installé sur votre ordinateur. Windows Vista et Windows 7 incluent ce composant. Toutefois, si vous exécutez une version antérieure de Windows, vous devez installer [Windows Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) **FindPages** travailler. 
+ **FindPages** fonctionne uniquement si vous avez Microsoft Search 3.0 ou 4.0 est installé sur votre ordinateur. Windows Vista et Windows 7 incluent ce composant. Toutefois, si vous exécutez une version antérieure de Windows, vous devez installer [Windows Search](https://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) **FindPages** travailler. 
   
 ### <a name="findmeta-method"></a>Méthode FindMeta
 
@@ -391,7 +391,7 @@ Lorsque vous essayez d’accéder au lien qui en résulte, OneNote s’ouvre et 
 |**Syntaxe**| `HRESULT FindMeta (`<br/>`[in]BSTR bstrStartNodeID,`<br/>`[in]BSTR bstrSearchBSTRName,`<br/>`[out]BSTR * pbstrHierarchyXmlOut,`<br/>`[in,defaultvalue(#)]VARIANT_BOOL fIncludeUnindexedPages,`<br/>`[in,defaultvalue(#)]XMLSchema xsSchema);`|
 |**Paramètres**| _bstrStartNodeID_ &ndash; Le nœud (racine, ordinateur portable, le groupe de section ou section) sous lequel rechercher du contenu. Ce paramètre définit l’étendue de la recherche.<br/><br/>_bstrSearchStringName_ &ndash; La chaîne de recherche. Passez dans n’importe quelle partie du nom de métadonnées. Si vous passez une chaîne vide ou une valeur null, tous les objets qui ont des métadonnées seront correspondent à la requête.<br/><br/>_pbstrHierarchyXmlOut_ &ndash; Pointeur de A (paramètre de sortie) à une chaîne dans laquelle vous souhaitez OneNote pour écrire la chaîne XML de sortie. La chaîne XML qui en résulte contient la hiérarchie de bloc-notes à partir de la racine vers le bas, y compris, toutes les pages qui correspondent à la chaîne de recherche. Par exemple, la méthode **FindPages** ne répertorie pas les sections qui ne possèdent aucune correspondance de page dans la hiérarchie. En outre, si seulement une page dans une seule section correspond à la chaîne, la hiérarchie renvoyée inclut le chemin d’accès à cette section et de page, mais à aucune des autres parties de la hiérarchie de bloc-notes.  <br/><br/>_fIncludeUnindexedPages_ &ndash; (Facultatif) **la valeur true** pour rechercher des pages qui n’ont pas été indexés par la recherche de Windows ; Sinon, **false**.<br/><br/>_xsSchema_ &ndash; (Facultatif) le OneNote version du schéma de la chaîne _pbstrHierarchyXmlOut_. Cette valeur facultative est utilisée pour spécifier la version du schéma XML de OneNote qui contient la chaîne _pbstrHierarchyXmlOut_ . Si cette valeur n’est pas spécifiée, OneNote part du principe que le code XML est dans la version de schéma _xsCurrent_. <br/><br/>**Remarque**: nous vous recommandons de spécifier une version de OneNote (par exemple, **xs2013**) au lieu de l’aide de **xsCurrent** ou laisser vide, car cela permettra à votre complément travailler avec les futures versions de OneNote.           |
    
-**FindMeta** fonctionne uniquement si vous avez Microsoft Windows Search 3.0 ou 4.0 est installé sur votre ordinateur. Windows Vista et Windows 7 incluent ce composant. Toutefois, si vous exécutez une version antérieure de Windows, vous devez installer [Windows Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) **FindMeta** travailler. 
+**FindMeta** fonctionne uniquement si vous avez Microsoft Windows Search 3.0 ou 4.0 est installé sur votre ordinateur. Windows Vista et Windows 7 incluent ce composant. Toutefois, si vous exécutez une version antérieure de Windows, vous devez installer [Windows Search](https://www.microsoft.com/windows/products/winfamily/desktopsearch/getitnow.mspx) **FindMeta** travailler. 
   
 ## <a name="functional-methods"></a>Méthodes fonctionnels
 <a name="ON14DevRef_Application_Functional"> </a>
@@ -451,7 +451,7 @@ Cette section décrit les propriétés de l’interface de **l’Application** .
 |**Propriété**|**Description**|
 |:-----|:-----|
 |**Windows** <br/> |Donne aux utilisateurs l’accès ouvert OneNote windows. Cette propriété permet aux utilisateurs d’énumérer l’ensemble des fenêtres OneNote et modifier certaines propriétés de la fenêtre. Pour plus d’informations, voir [Interfaces Windows](window-interfaces-onenote.md).  <br/> |
-|**COMAddIns** <br/> |Renvoie la collection **COMAddIns** pour OneNote. Cette collection contient tous les compléments COM qui sont disponibles à OneNote. La propriété **Count** de la collection **COMAddins** renvoie le nombre de compléments COM disponibles. Pour plus d’informations, voir l’objet [COMAddIns](http://msdn.microsoft.com/en-us/library/office/ff865489.aspx) .  <br/> |
+|**COMAddIns** <br/> |Renvoie la collection **COMAddIns** pour OneNote. Cette collection contient tous les compléments COM qui sont disponibles à OneNote. La propriété **Count** de la collection **COMAddins** renvoie le nombre de compléments COM disponibles. Pour plus d’informations, voir l’objet [COMAddIns](https://msdn.microsoft.com/library/office/ff865489.aspx) .  <br/> |
 |**LanguageSettings** <br/> |Permet d’accéder à certaines API pour modifier les paramètres de langue courantes de OneNote.  <br/> |
    
 ## <a name="events"></a>Événements

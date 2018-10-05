@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0125bd57f0f2958c112fb03e7bf4166a7017cd03
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584764"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391604"
 ---
 # <a name="writing-a-remote-viewer"></a>Écriture d’une visionneuse à distance
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Une visionneuse à distance est une fenêtre dans une application cliente qui fournit un accès contrôlé aux messages stockés sur un autre ordinateur. Ce contrôle d’accès peut fonctionner sur une liaison lente. Au lieu d’extraire une sélection de messages disponibles chaque fois qu’un utilisateur ouvre un dossier, la visionneuse à distance affiche uniquement les en-têtes. L’utilisateur sélectionne ensuite les en-têtes à partir de laquelle des messages pour afficher entièrement. Clients distants visionneuse permettent à leurs utilisateurs de supprimer des messages avant de les télécharger jamais. 
   
@@ -37,7 +37,7 @@ Une visionneuse à distance est une fenêtre dans une application cliente qui fo
     
 5. Passez l’identificateur d’entrée pour chaque ligne du tableau dans un appel à [IMAPISession::OpenEntry](imapisession-openentry.md). Parce que cette interface est assemblée à partir du contexte de processus du spouleur MAPI au contexte de processus du client, contrairement aux interfaces généralement obtenus à partir du carnet d’adresses ou message stocker les fournisseurs — problèmes concernant le multithreading sont de plus d’importance. 
     
-6. Appelez la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) de l’objet de l’état, en passant IID_IMAPIFolder comme l’identificateur d’interface permet de récupérer le dossier à distance. Le dossier distant n’est pas une implémentation de dossier complet ; Il prend en charge uniquement un sous-ensemble des propriétés et méthodes de dossier. Une des méthodes requis, [IMAPIProp::GetProps](imapiprop-getprops.md), prend en charge l’extraction des propriétés suivantes :
+6. Appelez la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) de l’objet de l’état, en passant IID_IMAPIFolder comme l’identificateur d’interface permet de récupérer le dossier à distance. Le dossier distant n’est pas une implémentation de dossier complet ; Il prend en charge uniquement un sous-ensemble des propriétés et méthodes de dossier. Une des méthodes requis, [IMAPIProp::GetProps](imapiprop-getprops.md), prend en charge l’extraction des propriétés suivantes :
     
     |||
     |:-----|:-----|

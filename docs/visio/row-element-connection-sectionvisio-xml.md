@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f44fc18-4757-7aba-8778-a474ab93a78d
 description: Contient les coordonnées x ou y, direction horizontale et verticale et le type d’un point de connexion unique d’une forme.
-ms.openlocfilehash: d06a51e52f2b5273171d068f6fc2a6bf5227eed5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9f8f5f0735f7eeff2f1b2ec4562b79e6550d1716
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789520"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389917"
 ---
 # <a name="row-element-connection-section-visio-xml"></a>Row, élément (Section Connection) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient les coordonnées x ou y, direction horizontale et verticale et le type 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    

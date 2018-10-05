@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 39dd053b2896ebcfcdec97d976af3e75e19f8c0b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 607105bd58a14a3510f1ae71246069440a4f05cb
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564954"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389623"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée et ouvre une session de messagerie qui regroupe les messages créés qu’il contient. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 SCODE OpenIMsgSession(
@@ -45,7 +45,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
   
-> [in] Pointeur vers un objet d’allocation mémoire exposant l’interface OLE [IMalloc](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI doit utiliser cette méthode de répartition lorsque vous travaillez avec l’interface OLE [IStorage](https://docs.microsoft.com/en-us/windows/desktop/api/objidl/nn-objidl-istorage) . 
+> [in] Pointeur vers un objet d’allocation mémoire exposant l’interface OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) . MAPI doit utiliser cette méthode de répartition lorsque vous travaillez avec l’interface OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) . 
     
  _ulFlags_
   
@@ -55,7 +55,7 @@ SCODE OpenIMsgSession(
   
 > [out] Pointeur vers un pointeur vers l’objet de session message renvoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
@@ -81,6 +81,6 @@ Enregistre une session de messagerie de tous les **IMessage**- sur - objets **IS
   
  **OpenIMsgSession** est utilisé par les clients et les fournisseurs qui requièrent la possibilité de gérer plusieurs messages connexes en tant qu’objets OLE **IStorage** . Si seule un des messages doit être ouvert à la fois, il n’est pas nécessaire pour effectuer le suivi de plusieurs messages et aucune raison de créer une session de messagerie avec **OpenIMsgSession**. 
   
-Car elle porte sur un objet OLE sous-jacent, MAPI doit utiliser l’allocation de mémoire OLE. Pour plus d’informations sur les objets de stockage structuré OLE et l’allocation de mémoire OLE, consultez [OLE et transfert de données](http://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
+Car elle porte sur un objet OLE sous-jacent, MAPI doit utiliser l’allocation de mémoire OLE. Pour plus d’informations sur les objets de stockage structuré OLE et l’allocation de mémoire OLE, consultez [OLE et transfert de données](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx). 
   
 

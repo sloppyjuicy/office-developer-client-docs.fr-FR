@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 33287d8ac6b1faeba8b8746a95850f6fd1c37462
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 770ceb7af98f5271baad65043e013feb353d231a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579486"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390470"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Annule une inscription pour les notifications avec une visionneuse de formulaire précédemment établie en appelant [IMAPIForm::Advise](imapiform-advise.md).
   
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] Un numéro de connexion qui identifie l’enregistrement de notification d’être annulée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -53,9 +53,9 @@ E_INVALIDARG
 
 Visionneuses de formulaire appeler la méthode **IMAPIForm::Unadvise** pour annuler une inscription pour la notification qui ils tout d’abord établies en appelant la méthode **IMAPIForm::Advise** . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
-Ignorer le pointeur qui vous sont maintenant à l’affichage de l’utilisateur du formulaire de notification récepteur en appelant la méthode [IUnknown::Release](http://msdn.microsoft.com/en-us/library/ms682317%28v=VS.85%29.aspx) . En règle générale, la **version** est appelé pendant l’appel **Unadvise** . Toutefois, si un autre thread est en appelant une des méthodes [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) pour l’affichage de notification récepteur, différer l’appel de la **version** jusqu'à ce que la méthode **IMAPIViewAdviseSink** renvoie. 
+Ignorer le pointeur qui vous sont maintenant à l’affichage de l’utilisateur du formulaire de notification récepteur en appelant la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) . En règle générale, la **version** est appelé pendant l’appel **Unadvise** . Toutefois, si un autre thread est en appelant une des méthodes [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) pour l’affichage de notification récepteur, différer l’appel de la **version** jusqu'à ce que la méthode **IMAPIViewAdviseSink** renvoie. 
   
 ## <a name="see-also"></a>Voir aussi
 

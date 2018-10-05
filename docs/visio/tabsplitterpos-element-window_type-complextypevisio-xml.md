@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: Spécifie la largeur du contrôle onglet d’une fenêtre de dessin (comme une fraction de la largeur totale de la fenêtre de dessin).
-ms.openlocfilehash: dff8732ad96e43627e08565927edbc11dd40df49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0d30c151b8ad928f271ff2d8a6332755d11a562b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789848"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390640"
 ---
 # <a name="tabsplitterpos-element-windowtype-complextype-visio-xml"></a>Élément TabSplitterPos (Window_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie la largeur du contrôle onglet d’une fenêtre de dessin (comme une f
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |Windows.Xml  <br/> |
    

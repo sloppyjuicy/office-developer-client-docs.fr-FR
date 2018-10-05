@@ -6,16 +6,16 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: 'Derni�re modification�: jeudi 5 juillet 2012'
-ms.openlocfilehash: c94e625fc97207e1bc1a2e0797a1ba82ee41fca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576252"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390960"
 ---
 # <a name="setting-up-an-offline-state-add-in"></a>Configuration d’un complément hors connexion
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Pour implémenter un complément hors connexion, vous devez implémenter la connexion, d’initialisation et d’autres fonctions du programme d’installation. Dans cette rubrique, ces connexions, l’initialisation et le programme d’installation des fonctions sont illustrées à l’aide des exemples de code à partir de la macro complémentaire exemple hors connexion état. Le complément exemple hors connexion état est un complément COM qui ajoute un menu **État hors connexion** dans Outlook et utilise l’API de l’état en mode hors connexion. Via le menu **État hors connexion** , vous pouvez activer ou désactiver l’analyse de l’état, vérifiez l’état en cours et modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation du complément exemple hors connexion état, consultez [installation du complément exemple hors connexion état](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API de l’état en mode hors connexion, voir [à propos en mode hors connexion état API](about-the-offline-state-api.md).
   
@@ -23,7 +23,7 @@ Après avoir configuré un complément hors connexion, vous devez implémenter l
   
 ## <a name="on-connection-routine"></a>Dans la routine de connexion
 
-La **[Méthode IDTExtensibility2.OnConnection](http://msdn.microsoft.com/en-us/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** est appelé chaque fois qu’un complément est chargé. Il est le point d’entrée pour le complément, de sorte que le code que vous avez placé dans le `OnConnection` fonction est appelée lorsque le complément démarre. Dans l’exemple suivant, la `OnConnection` les appels de fonction la `HrInitAddin` fonction. 
+La **[Méthode IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** est appelé chaque fois qu’un complément est chargé. Il est le point d’entrée pour le complément, de sorte que le code que vous avez placé dans le `OnConnection` fonction est appelée lorsque le complément démarre. Dans l’exemple suivant, la `OnConnection` les appels de fonction la `HrInitAddin` fonction. 
   
 ### <a name="cmyaddinonconnection-example"></a>Exemple CMyAddin::OnConnection()
 

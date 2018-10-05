@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5ce5aa8c43e284b493a0709808a196c6c6889f88
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592107"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390631"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace toutes les propriétés d’un objet, à l’exception des propriétés exclues en particulier, à un autre objet.
   
@@ -101,7 +101,7 @@ MAPI_NOREPLACE
   
 > [out] À l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, NULL, qui n’indique aucun besoin d’informations sur l’erreur. Si _lppProblems_ est un pointeur valid en entrée, **DoCopyTo** renvoie des informations détaillées sur les erreurs lors de la copie d’une ou plusieurs propriétés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -171,7 +171,7 @@ Si vous passez un identificateur d’interface acceptable dans _lpDestInterface_
   
 Inversement, si vous avez pris connaissance des informations supplémentaires qui ne doivent pas être copiées ou déplacées, ajoutez les identificateurs d’interface pour les interfaces à exclure dans le tableau passé dans le paramètre _rgiidExclude_ . Par exemple, si vous copiez des messages, mais pas les pièces jointes de leurs messages, transmettez IID_IMessage dans le tableau _rgiidExclude_ . **DoCopyTo** ignore toutes les interfaces répertoriées dans _rgiidExclude_ qu’il ne reconnaît pas. 
   
-Lorsque vous utilisez le paramètre _rgiidExclude_ pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, à l’exception de l’interface [IMAPIContainer](imapicontainerimapiprop.md) , dossiers ou conteneurs de carnet d’adresses à exclure, selon le type de fournisseur. N’excluent pas [IMAPIProp](imapipropiunknown.md) ou [IUnknown](http://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) , car les interfaces autant dérivent de ces derniers. 
+Lorsque vous utilisez le paramètre _rgiidExclude_ pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, à l’exception de l’interface [IMAPIContainer](imapicontainerimapiprop.md) , dossiers ou conteneurs de carnet d’adresses à exclure, selon le type de fournisseur. N’excluent pas [IMAPIProp](imapipropiunknown.md) ou [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) , car les interfaces autant dérivent de ces derniers. 
   
  **DoCopyTo** signale les erreurs globaux qui s’appliquent à l’opération dans sa globalité et des erreurs spécifiques qui s’appliquent à des propriétés individuelles. Ces erreurs individuels sont placés dans une structure **SPropProblemArray** . Vous pouvez supprimer le rapport d’erreurs au niveau de la propriété en passant NULL, plutôt qu’un pointeur valid, pour le paramètre property problème tableau structure. 
   

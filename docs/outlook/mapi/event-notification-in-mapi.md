@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 18ce10ad73ba769f0ecc0bd9e4f12096f4227e42
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594543"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389973"
 ---
 # <a name="event-notification-in-mapi"></a>Notification d’événement MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Notification d’événements est la communication des informations entre deux objets MAPI. Par le biais d’un des objets, un client ou fournisseur de services s’inscrit pour la notification d’une modification ou d’erreur, appelée un événement, qui peut-être être effectuées dans l’autre objet. Une fois que l’événement se produit, le premier objet est informé de la modification ou l’erreur. L’objet qui reçoit la notification est appelé le récepteur de notifications ; l’objet responsable de la notification est appelé source advise.
   
@@ -59,6 +59,6 @@ L’illustration suivante montre la communication entre les objets de récepteur
   
 ![Appels de notification d’événement] (media/amapi_51.gif "Appels de notification d’événement")
   
-La classe MFCMAPI **CAdviseSink** (en utilisant les fichiers AdviseSink.h et AdviseSink.cpp) implémente l’objet de récepteur advise pour tous les appels aux **notifications**. Pour plus d’informations sur MFCMAPI, voir [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md) et [MFCMAPI](http://go.microsoft.com/fwlink/?LinkId=124154).
+La classe MFCMAPI **CAdviseSink** (en utilisant les fichiers AdviseSink.h et AdviseSink.cpp) implémente l’objet de récepteur advise pour tous les appels aux **notifications**. Pour plus d’informations sur MFCMAPI, voir [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md) et [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154).
   
 

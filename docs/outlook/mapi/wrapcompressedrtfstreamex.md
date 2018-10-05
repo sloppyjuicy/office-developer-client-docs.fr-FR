@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4b7e59c9ffccb2e063962b2cc4947b4fa54757bf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: af176c0ce327e6498a5d07f6d902c50f7323f813
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572717"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391730"
 ---
 # <a name="wrapcompressedrtfstreamex"></a>WrapCompressedRTFStreamEx
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Décompresse la le corps d’un message électronique qui est dans compressé texte enrichi (RTF), indique le format de l’objet stream décompressé, si vous le souhaitez convertit le flux décompressé dans son format natif et retourne le flux de données décompressé ou conversion en flux natif.
   
@@ -26,8 +26,8 @@ Décompresse la le corps d’un message électronique qui est dans compressé te
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |Msmapi32.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
    
 ```cpp
 HRESULT __stdcall WrapCompressedRTFStreamEx( 
@@ -72,7 +72,7 @@ MAPI_E_INVALID_PARAMETER
 
 **WrapCompressedRTFStreamEx** permet d’accéder au corps d’un message électronique encapsulé au format RTF compressé par décompression du flux, retourne le flux décompressé et son format et éventuellement le flux du corps native. Le flux du corps native peut être dans le format RTF, texte brut ou HTML. 
   
-Le modèle objet Microsoft Office Outlook fournit une propriété **Body** pour les objets **MailItem** et d’une [Propriété MailItem.BodyFormat (Outlook)](http://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) qui indique le format du corps de texte. Par leur conception, une solution qui n’est pas approuvée par Outlook appelle des boîtes de dialogue de sécurité générés par l’agent de sécurité Outlook. À l’aide de la fonction MAPI exportée **WrapCompressedRTFStreamEx** permet une solution utilisent MAPI au lieu du modèle objet Outlook et d’éviter ces boîtes de dialogue de sécurité. 
+Le modèle objet Microsoft Office Outlook fournit une propriété **Body** pour les objets **MailItem** et d’une [Propriété MailItem.BodyFormat (Outlook)](https://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) qui indique le format du corps de texte. Par leur conception, une solution qui n’est pas approuvée par Outlook appelle des boîtes de dialogue de sécurité générés par l’agent de sécurité Outlook. À l’aide de la fonction MAPI exportée **WrapCompressedRTFStreamEx** permet une solution utilisent MAPI au lieu du modèle objet Outlook et d’éviter ces boîtes de dialogue de sécurité. 
   
 Étant donné que la **MAPI\_NATIVE_BODY** indicateur ne peut être combiné avec la **MAPI\_modifier** indicateur dans le champ **ulFlags** de la **RTF\_WCSINFO** structure sur laquelle pointe *pWCSInfo*, vous pouvez uniquement accéder natif flux de corps en mode lecture seule. Pour accéder au flux de corps native en mode lecture/écriture, vous devez utiliser la fonction **WrapCompressedRTFStream** . 
   

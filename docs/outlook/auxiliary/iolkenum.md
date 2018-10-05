@@ -6,25 +6,25 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
-ms.openlocfilehash: 19ec67bf033859073e7685912196369b664f4a36
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 59f43e8b3b0819b0178d60fa357e01937ae19d81
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592688"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389735"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Prend en charge l’énumération des comptes en tant qu’objets [IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Prend en charge l’énumération des comptes en tant qu’objets [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/en-us/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Hérite de :  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
 |Fourni par :  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
-|Appelée par :  <br/> |Client  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IOlkEnum  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable

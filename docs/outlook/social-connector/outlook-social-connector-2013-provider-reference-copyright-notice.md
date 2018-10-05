@@ -1,5 +1,5 @@
 ---
-title: Informations de copyright-référence du fournisseur Outlook Social Connector 2013
+title: Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation.
-ms.openlocfilehash: 4ba294814ada3f2d946f24dc6cc0b277687cd9ee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
+ms.openlocfilehash: 6d01020fc4d4081e5f55de5f64f361ac3ae8a0b0
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787695"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391562"
 ---
-# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Informations de copyright-référence du fournisseur Outlook Social Connector 2013
+# <a name="outlook-social-connector-2013-provider-reference-copyright-notice"></a>Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013
 
-Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation.
+Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
   
 Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

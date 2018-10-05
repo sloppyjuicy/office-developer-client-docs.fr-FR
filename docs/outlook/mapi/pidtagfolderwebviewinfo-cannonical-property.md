@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 96ea23df-aa4f-4b3e-9663-e7db39f668c1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eec8ea4b4ddee8b6c399bbb4871c286fea4fae3d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70932e703511235e9f5e32efd95b18d1b66494e2
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588404"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389959"
 ---
 # <a name="pidtagfolderwebviewinfo-cannonical-property"></a>Propriété canonique PidTagFolderWebViewInfo
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. Cette propriété contient un flux binaire appelé **WebViewPersistenceObject**.
   
@@ -91,7 +91,7 @@ cbData
     
 ### <a name="webviewpersistenceobject-stream-sample"></a>Exemple de flux de données WebViewPersistenceObject
 
-Cette section décrit un exemple d’un flux **WebViewPersistenceObject** . Le flux Spécifie l’URL de la page d’accueil «http://www.microsoft.com». 
+Cette section décrit un exemple d’un flux **WebViewPersistenceObject** . Le flux Spécifie l’URL de la page d’accueil «https://www.microsoft.com». 
   
  **Vidage des données**
   
@@ -130,6 +130,6 @@ Vous trouverez ci-dessous une analyse des données pour le flux **WebViewPersist
     
  _wzURL_
   
-> Décalage 0x2C, 0 x 32 octets : tableau de 25 WCHAR. Une valeur de chaîne terminée par zéro Unicode : «http://www.microsoft.com».
+> Décalage 0x2C, 0 x 32 octets : tableau de 25 WCHAR. Une valeur de chaîne terminée par zéro Unicode : «https://www.microsoft.com».
     
 

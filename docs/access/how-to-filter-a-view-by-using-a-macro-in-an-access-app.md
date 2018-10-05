@@ -1,5 +1,5 @@
 ---
-title: Filtrer une vue à l’aide d’une macro dans une application Access
+title: Filtrage d’une vue à l’aide d’une macro dans l’application Access
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -7,19 +7,19 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Apprenez à filtrer une vue dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
-ms.openlocfilehash: 9cd8c74b3949a0bb496798df663b1b42fb2868d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781867"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390407"
 ---
-# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrer une vue à l’aide d’une macro dans une application Access
+# <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 
 Apprenez à filtrer une vue dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
 L’affichage de liste par défaut dans une application Access vous permet de filtrer les problèmes sur les valeurs contenues dans les champs. Il peut arriver dans lequel vous souhaitez filtrer une vue basée sur un ensemble de conditions plutôt qu’en correspondance d’une valeur. Pour faire que vous devez créer une macro. Cet article vous montre comment créer une macro qui filtrer une vue pour afficher les tâches qui ont dépassé une échéance ou d’échéance dans les 7 prochains jours.
   
@@ -32,7 +32,7 @@ Pour suivre les étapes décrites dans cet exemple, vous devez :
 - Un environnement de développement SharePoint 2013
     
 > [!NOTE]
-> Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint 2013](http://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). > Pour plus d’informations sur l’obtention d’Access 2013 et SharePoint 2013, consultez les [téléchargements](http://msdn.microsoft.com/en-US/office/apps/fp123627). 
+> Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). Pour plus d'informations sur l'obtention de Access 2013 et SharePoint 2013, consultez [Téléchargements](https://msdn.microsoft.com/office/apps/fp123627). 
   
 ## <a name="create-the-app"></a>Création de l'application
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
@@ -51,7 +51,7 @@ Supposons que vous souhaitez créer une application Access qui effectue le suivi
     
    **La figure 1. Modèles correspondant à la recherche de tâches**
 
-   ![Modèles qui correspondent à la recherche de problèmes] (media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles qui correspondent à la recherche de problèmes")
+   ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles appropriés pour la recherche des problèmes")
   
 4. Cliquez sur **tâches**.
     
@@ -122,13 +122,13 @@ Maintenant que vous avez déterminé les personnalisations, les implémenter. La
   
    **La figure 1. Ajouter la zone de liste d’une nouvelle Action**
 
-   ![Liste déroulante Ajouter une nouvelle Action] (media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Liste déroulante Ajouter une nouvelle Action")
+   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Liste déroulante Ajouter une nouvelle action")
   
 7. Dans la zone **nom** , entrez **TaskFound**. 
     
 8. Dans la zone **Expression** , entrez **« Oui »**. 
     
-9. Sélectionnez **Enregistrer**. Entrez **TasksDueSoon** dans la zone **Nom de la Macro** , puis choisissez **OK**.
+9. Cliquez sur **Enregistrer**. Entrez **TasksDueSoon** dans la zone **Nom de la Macro** , puis choisissez **OK**.
     
     La macro doit ressembler celle illustrée à la Figure 2.
     
@@ -199,7 +199,7 @@ Maintenant que vous avez déterminé les personnalisations, les implémenter. La
   
    **La figure 6. Ajouter la zone de liste d’une nouvelle Action**
 
-   ![Liste déroulante Ajouter une nouvelle Action] (media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Liste déroulante Ajouter une nouvelle Action")
+   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Liste déroulante Ajouter une nouvelle action")
   
 7. Dans la zone **où** , entrez **[tâches]. [ Date d’échéance]\<DateAdd(Day,7,Today()) et [tâches]. [État] \< \>« Completed »**. 
     
@@ -217,9 +217,9 @@ Maintenant que vous avez déterminé les personnalisations, les implémenter. La
     
 11. Dans la boîte de **Message** , entrez **aucune tâche n’est en retard ou arrivant à échéance dans les 7 prochains jours !**. 
     
-12. Sélectionnez **Enregistrer**.
+12. Cliquez sur **Enregistrer**.
     
-    La macro doit ressembler celle illustrée à la figure 8.
+    La macro doit ressembler celle illustrée à la figure 8.
     
     **La figure 8. Macro d’interface utilisateur pour filtrer l’affichage**
 
@@ -255,7 +255,7 @@ Maintenant que vous avez déterminé les personnalisations, les implémenter. La
     
     Cette fois-ci, nous allons laissez les zones **où** et **Order By** vide. L’action **RequeryRecords** est appelée sans aucun paramètre, tous les filtres sont supprimés de l’affichage. 
     
-3. Sélectionnez **Enregistrer**.
+3. Cliquez sur **Enregistrer**.
     
 4. Fermez l'affichage Création de macros.
     
@@ -269,6 +269,6 @@ Vous pouvez utiliser l’action de macro **RequeryRecords** dans une macro d’i
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Nouveautés d'Access pour les développeurs](http://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
+- [Nouveautés d’Access 2013 pour les développeurs](https://msdn.microsoft.com/library/df778f51-d65e-4c30-b618-65003ceb39b3%28Office.15%29.aspx)
     
 

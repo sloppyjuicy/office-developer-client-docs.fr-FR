@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8dba5906a00beb6d38e4f3e375a9c57db79d42f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bca8fccaa43bb3157b3d4e2af7d6aafa64972b41
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575958"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25390554"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>Propriété canonique PidTagFlagStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie l’état de l’indicateur de l’objet du message.
   
@@ -48,11 +48,11 @@ Cette propriété ne doit pas exister sur un objet liées à la réunion, et il 
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations liées aux marquage.
     
