@@ -11,66 +11,66 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 78bb5114b78142ce18d3f83c34795b72910c87a2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 6fa0579dcd98a0d819e58e62d8a42cb2972a9d1e
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573711"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25391555"
 ---
-# <a name="pidtagscheduleinfomonthstentative-canonical-property"></a><span data-ttu-id="8b3e8-103">Propriété canonique PidTagScheduleInfoMonthsTentative</span><span class="sxs-lookup"><span data-stu-id="8b3e8-103">PidTagScheduleInfoMonthsTentative Canonical Property</span></span>
+# <a name="pidtagscheduleinfomonthstentative-canonical-property"></a><span data-ttu-id="3fb31-103">Propriété canonique PidTagScheduleInfoMonthsTentative</span><span class="sxs-lookup"><span data-stu-id="3fb31-103">PidTagScheduleInfoMonthsTentative Canonical Property</span></span>
 
   
   
-<span data-ttu-id="8b3e8-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8b3e8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3fb31-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3fb31-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8b3e8-105">Contient les mois marqués provisoires dans le message et de disponibilité.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-105">Contains the months marked tentative in the free/busy message.</span></span>
+<span data-ttu-id="3fb31-105">Contient les mois marqués provisoires dans le message et de disponibilité.</span><span class="sxs-lookup"><span data-stu-id="3fb31-105">Contains the months marked tentative in the free/busy message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8b3e8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="8b3e8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="8b3e8-107">PR_SCHDINFO_MONTHS_TENTATIVE</span><span class="sxs-lookup"><span data-stu-id="8b3e8-107">PR_SCHDINFO_MONTHS_TENTATIVE</span></span>  <br/> |
-|<span data-ttu-id="8b3e8-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="8b3e8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="8b3e8-109">0x6851</span><span class="sxs-lookup"><span data-stu-id="8b3e8-109">0x6851</span></span>  <br/> |
-|<span data-ttu-id="8b3e8-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="8b3e8-110">Data type:</span></span>  <br/> |<span data-ttu-id="8b3e8-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="8b3e8-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="8b3e8-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="8b3e8-112">Area:</span></span>  <br/> |<span data-ttu-id="8b3e8-113">Informations de disponibilité</span><span class="sxs-lookup"><span data-stu-id="8b3e8-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="3fb31-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3fb31-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3fb31-107">PR_SCHDINFO_MONTHS_TENTATIVE</span><span class="sxs-lookup"><span data-stu-id="3fb31-107">PR_SCHDINFO_MONTHS_TENTATIVE</span></span>  <br/> |
+|<span data-ttu-id="3fb31-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3fb31-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3fb31-109">0x6851</span><span class="sxs-lookup"><span data-stu-id="3fb31-109">0x6851</span></span>  <br/> |
+|<span data-ttu-id="3fb31-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3fb31-110">Data type:</span></span>  <br/> |<span data-ttu-id="3fb31-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="3fb31-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="3fb31-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3fb31-112">Area:</span></span>  <br/> |<span data-ttu-id="3fb31-113">Informations de disponibilité</span><span class="sxs-lookup"><span data-stu-id="3fb31-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8b3e8-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="8b3e8-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3fb31-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3fb31-114">Remarks</span></span>
 
-<span data-ttu-id="8b3e8-115">Le nombre de valeurs dans cette propriété doit être comprise entre 0 et le nombre de mois couverts par la plage de publication, qui est la période entre la **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) et **PR_FREEBUSY_PUBLISH_END **Propriétés ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="8b3e8-115">The number of values in this property must be between zero and the number of months covered by the publishing range, which is the period between the **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) and **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) properties.</span></span>
+<span data-ttu-id="3fb31-115">Le nombre de valeurs dans cette propriété doit être comprise entre 0 et le nombre de mois couverts par la plage de publication, qui est la période entre la **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) et \*\*PR_FREEBUSY_PUBLISH_END \*\*Propriétés ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3fb31-115">The number of values in this property must be between zero and the number of months covered by the publishing range, which is the period between the **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) and **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)) properties.</span></span>
   
-<span data-ttu-id="8b3e8-116">Chaque valeur de cette propriété, a un mois et l’année codé de celui-ci.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-116">Each value in this property, has a month and year encoded in it.</span></span> <span data-ttu-id="8b3e8-117">Il est calculé à l’aide de l’expression « an x 16 + mois » où les mois et année sont basées sur le calendrier grégorien.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-117">This is calculated by using the expression "year × 16 + month" where year and month are based on the Gregorian calendar.</span></span> <span data-ttu-id="8b3e8-118">Les valeurs sont triées par ordre croissant et sont encodés au format little-endian.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-118">The values are sorted in ascending order and are encoded in little-endian format.</span></span> <span data-ttu-id="8b3e8-119">Si un événement s’étend sur plusieurs mois ou plusieurs années, il doit être une valeur pour chacun des mois qui figurent dans la plage de publication.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-119">If an event is spread across multiple months, or multiple years, there must be one value for each of the months that fall in the publishing range.</span></span> <span data-ttu-id="8b3e8-120">S’il n’y a aucun événement provisoire dans la plage de publication, cette propriété et la **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) ne doivent pas être définie, ou doivent être supprimés s’ils existent déjà.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-120">If there are no tentative events in the publishing range, then this property and **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) must not be set or must be deleted if they already exist.</span></span> <span data-ttu-id="8b3e8-121">Dans le cas contraire, cette propriété doit être définie.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-121">Otherwise, this property must be set.</span></span>
+<span data-ttu-id="3fb31-116">Chaque valeur de cette propriété, a un mois et l’année codé de celui-ci.</span><span class="sxs-lookup"><span data-stu-id="3fb31-116">Each value in this property, has a month and year encoded in it.</span></span> <span data-ttu-id="3fb31-117">Il est calculé à l’aide de l’expression « an x 16 + mois » où les mois et année sont basées sur le calendrier grégorien.</span><span class="sxs-lookup"><span data-stu-id="3fb31-117">This is calculated by using the expression "year × 16 + month" where year and month are based on the Gregorian calendar.</span></span> <span data-ttu-id="3fb31-118">Les valeurs sont triées par ordre croissant et sont encodés au format little-endian.</span><span class="sxs-lookup"><span data-stu-id="3fb31-118">The values are sorted in ascending order and are encoded in little-endian format.</span></span> <span data-ttu-id="3fb31-119">Si un événement s’étend sur plusieurs mois ou plusieurs années, il doit être une valeur pour chacun des mois qui figurent dans la plage de publication.</span><span class="sxs-lookup"><span data-stu-id="3fb31-119">If an event is spread across multiple months, or multiple years, there must be one value for each of the months that fall in the publishing range.</span></span> <span data-ttu-id="3fb31-120">S’il n’y a aucun événement provisoire dans la plage de publication, cette propriété et la **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) ne doivent pas être définie, ou doivent être supprimés s’ils existent déjà.</span><span class="sxs-lookup"><span data-stu-id="3fb31-120">If there are no tentative events in the publishing range, then this property and **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) must not be set or must be deleted if they already exist.</span></span> <span data-ttu-id="3fb31-121">Dans le cas contraire, cette propriété doit être définie.</span><span class="sxs-lookup"><span data-stu-id="3fb31-121">Otherwise, this property must be set.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="8b3e8-122">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="8b3e8-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3fb31-122">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3fb31-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="8b3e8-123">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="8b3e8-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3fb31-123">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="3fb31-123">Protocol specifications</span></span>
 
-<span data-ttu-id="8b3e8-124">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8b3e8-124">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3fb31-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3fb31-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8b3e8-125">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-125">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3fb31-125">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="3fb31-125">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="8b3e8-126">[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="8b3e8-126">[[MS-OXOPFFB]](http://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3fb31-126">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3fb31-126">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="8b3e8-127">Publie la disponibilité d’un utilisateur ou une ressource.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-127">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="3fb31-127">Publie la disponibilité d’un utilisateur ou une ressource.</span><span class="sxs-lookup"><span data-stu-id="3fb31-127">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="8b3e8-128">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="8b3e8-128">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3fb31-128">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3fb31-128">Header files</span></span>
 
-<span data-ttu-id="8b3e8-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8b3e8-129">Mapidefs.h</span></span>
+<span data-ttu-id="3fb31-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3fb31-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="8b3e8-130">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="3fb31-130">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3fb31-130">Provides data type definitions.</span></span>
     
-<span data-ttu-id="8b3e8-131">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="8b3e8-131">Mapitags.h</span></span>
+<span data-ttu-id="3fb31-131">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="3fb31-131">Mapitags.h</span></span>
   
-> <span data-ttu-id="8b3e8-132">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="8b3e8-132">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="3fb31-132">Contient les définitions des propriétés répertoriées en tant que d’autres noms.</span><span class="sxs-lookup"><span data-stu-id="3fb31-132">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="8b3e8-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8b3e8-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3fb31-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3fb31-133">See also</span></span>
 
 
 
-[<span data-ttu-id="8b3e8-134">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="8b3e8-134">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3fb31-134">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3fb31-134">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="8b3e8-135">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="8b3e8-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3fb31-135">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3fb31-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="8b3e8-136">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="8b3e8-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3fb31-136">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3fb31-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="8b3e8-137">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="8b3e8-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3fb31-137">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3fb31-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

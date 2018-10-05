@@ -11,69 +11,69 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ddb667715903656291a21ebb835690768146ee9c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 5138f5d255f6a90d2891fe2cf5ce92513463fa31
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575224"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389798"
 ---
-# <a name="pidtagaccesslevel-canonical-property"></a><span data-ttu-id="3471f-103">Propriété canonique PidTagAccessLevel</span><span class="sxs-lookup"><span data-stu-id="3471f-103">PidTagAccessLevel Canonical Property</span></span>
+# <a name="pidtagaccesslevel-canonical-property"></a><span data-ttu-id="d8c0a-103">Propriété canonique PidTagAccessLevel</span><span class="sxs-lookup"><span data-stu-id="d8c0a-103">PidTagAccessLevel Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3471f-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3471f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d8c0a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d8c0a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3471f-105">Indique le niveau d’accès du client à l’objet.</span><span class="sxs-lookup"><span data-stu-id="3471f-105">Indicates the client's access level to the object.</span></span>
+<span data-ttu-id="d8c0a-105">Indique le niveau d’accès du client à l’objet.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-105">Indicates the client's access level to the object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3471f-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3471f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3471f-107">PR_ACCESS_LEVEL</span><span class="sxs-lookup"><span data-stu-id="3471f-107">PR_ACCESS_LEVEL</span></span>  <br/> |
-|<span data-ttu-id="3471f-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3471f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3471f-109">0x0FF7</span><span class="sxs-lookup"><span data-stu-id="3471f-109">0x0FF7</span></span>  <br/> |
-|<span data-ttu-id="3471f-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3471f-110">Data type:</span></span>  <br/> |<span data-ttu-id="3471f-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="3471f-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="3471f-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3471f-112">Area:</span></span>  <br/> |<span data-ttu-id="3471f-113">Propriétés de contrôle d’accès</span><span class="sxs-lookup"><span data-stu-id="3471f-113">Access Control Properties</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="d8c0a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d8c0a-107">PR_ACCESS_LEVEL</span><span class="sxs-lookup"><span data-stu-id="d8c0a-107">PR_ACCESS_LEVEL</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="d8c0a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="d8c0a-109">0x0FF7</span><span class="sxs-lookup"><span data-stu-id="d8c0a-109">0x0FF7</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="d8c0a-110">Data type:</span></span>  <br/> |<span data-ttu-id="d8c0a-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="d8c0a-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="d8c0a-112">Area:</span></span>  <br/> |<span data-ttu-id="d8c0a-113">Propriétés de contrôle d’accès</span><span class="sxs-lookup"><span data-stu-id="d8c0a-113">Access Control Properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3471f-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3471f-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d8c0a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="d8c0a-114">Remarks</span></span>
 
-<span data-ttu-id="3471f-115">Cette propriété est en lecture seule pour le client.</span><span class="sxs-lookup"><span data-stu-id="3471f-115">This property is read-only for the client.</span></span> <span data-ttu-id="3471f-116">Il doit être une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="3471f-116">It must be one of the following values:</span></span>
+<span data-ttu-id="d8c0a-115">Cette propriété est en lecture seule pour le client.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-115">This property is read-only for the client.</span></span> <span data-ttu-id="d8c0a-116">Il doit être une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="d8c0a-116">It must be one of the following values:</span></span>
   
-|<span data-ttu-id="3471f-117">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="3471f-117">**Value**</span></span>|<span data-ttu-id="3471f-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="3471f-118">**Description**</span></span>|
+|<span data-ttu-id="d8c0a-117">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="d8c0a-117">**Value**</span></span>|<span data-ttu-id="d8c0a-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="d8c0a-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3471f-119">0x00000000</span><span class="sxs-lookup"><span data-stu-id="3471f-119">0x00000000</span></span>  <br/> |<span data-ttu-id="3471f-120">En lecture seule</span><span class="sxs-lookup"><span data-stu-id="3471f-120">Read-Only</span></span>  <br/> |
-|<span data-ttu-id="3471f-121">0x00000001</span><span class="sxs-lookup"><span data-stu-id="3471f-121">0x00000001</span></span>  <br/> |<span data-ttu-id="3471f-122">Modify</span><span class="sxs-lookup"><span data-stu-id="3471f-122">Modify</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-119">0x00000000</span><span class="sxs-lookup"><span data-stu-id="d8c0a-119">0x00000000</span></span>  <br/> |<span data-ttu-id="d8c0a-120">En lecture seule</span><span class="sxs-lookup"><span data-stu-id="d8c0a-120">Read-Only</span></span>  <br/> |
+|<span data-ttu-id="d8c0a-121">0x00000001</span><span class="sxs-lookup"><span data-stu-id="d8c0a-121">0x00000001</span></span>  <br/> |<span data-ttu-id="d8c0a-122">Modify</span><span class="sxs-lookup"><span data-stu-id="d8c0a-122">Modify</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="3471f-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3471f-123">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="d8c0a-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="d8c0a-123">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="3471f-124">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="3471f-124">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="d8c0a-124">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="d8c0a-124">Protocol specifications</span></span>
 
-<span data-ttu-id="3471f-125">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3471f-125">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d8c0a-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d8c0a-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3471f-126">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="3471f-126">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="d8c0a-126">Fournit des références aux spécifications du protocole Exchange Server associées.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-126">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="3471f-127">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3471f-127">[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d8c0a-127">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d8c0a-127">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3471f-128">Gère les objets de message et la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="3471f-128">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="d8c0a-128">Gère les objets de message et la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-128">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="3471f-129">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3471f-129">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="d8c0a-129">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="d8c0a-129">Header files</span></span>
 
-<span data-ttu-id="3471f-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3471f-130">Mapidefs.h</span></span>
+<span data-ttu-id="d8c0a-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d8c0a-130">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3471f-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3471f-131">Provides data type definitions.</span></span>
+> <span data-ttu-id="d8c0a-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-131">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3471f-132">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="3471f-132">Mapitags.h</span></span>
+<span data-ttu-id="d8c0a-132">MAPITAGS.h</span><span class="sxs-lookup"><span data-stu-id="d8c0a-132">Mapitags.h</span></span>
   
-> <span data-ttu-id="3471f-133">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="3471f-133">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="d8c0a-133">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="d8c0a-133">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3471f-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3471f-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d8c0a-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d8c0a-134">See also</span></span>
 
 
 
-[<span data-ttu-id="3471f-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3471f-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="d8c0a-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="d8c0a-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3471f-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3471f-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="d8c0a-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="d8c0a-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3471f-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3471f-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="d8c0a-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="d8c0a-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3471f-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3471f-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="d8c0a-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="d8c0a-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
