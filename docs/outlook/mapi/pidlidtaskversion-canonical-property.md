@@ -12,62 +12,62 @@ api_type:
 - COM
 ms.assetid: 3ab77f25-ad11-4501-8d35-ef560c07e2f2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 38bcf40f24cc7901ebcbb60a099dc0e797d8e4b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3daf8a04afc9cf47d808b46f2cee010e15a33cf9
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588033"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386039"
 ---
-# <a name="pidlidtaskversion-canonical-property"></a><span data-ttu-id="0b5c6-103">Propriété canonique PidLidTaskVersion</span><span class="sxs-lookup"><span data-stu-id="0b5c6-103">PidLidTaskVersion Canonical Property</span></span>
+# <a name="pidlidtaskversion-canonical-property"></a><span data-ttu-id="a9664-103">Propriété canonique PidLidTaskVersion</span><span class="sxs-lookup"><span data-stu-id="a9664-103">PidLidTaskVersion Canonical Property</span></span>
 
   
   
-<span data-ttu-id="0b5c6-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0b5c6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a9664-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a9664-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0b5c6-105">Indique la copie est la dernière mise à jour d’une tâche.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-105">Indicates which copy is the latest update of a task.</span></span>
+<span data-ttu-id="a9664-105">Indique la copie est la dernière mise à jour d’une tâche.</span><span class="sxs-lookup"><span data-stu-id="a9664-105">Indicates which copy is the latest update of a task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0b5c6-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="0b5c6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0b5c6-107">dispidTaskVersion</span><span class="sxs-lookup"><span data-stu-id="0b5c6-107">dispidTaskVersion</span></span>  <br/> |
-|<span data-ttu-id="0b5c6-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="0b5c6-108">Property set:</span></span>  <br/> |<span data-ttu-id="0b5c6-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="0b5c6-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="0b5c6-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="0b5c6-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="0b5c6-111">0x00008112</span><span class="sxs-lookup"><span data-stu-id="0b5c6-111">0x00008112</span></span>  <br/> |
-|<span data-ttu-id="0b5c6-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="0b5c6-112">Data type:</span></span>  <br/> |<span data-ttu-id="0b5c6-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="0b5c6-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="0b5c6-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="0b5c6-114">Area:</span></span>  <br/> |<span data-ttu-id="0b5c6-115">Task</span><span class="sxs-lookup"><span data-stu-id="0b5c6-115">Task</span></span>  <br/> |
+|<span data-ttu-id="a9664-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="a9664-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a9664-107">dispidTaskVersion</span><span class="sxs-lookup"><span data-stu-id="a9664-107">dispidTaskVersion</span></span>  <br/> |
+|<span data-ttu-id="a9664-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="a9664-108">Property set:</span></span>  <br/> |<span data-ttu-id="a9664-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="a9664-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="a9664-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="a9664-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="a9664-111">0x00008112</span><span class="sxs-lookup"><span data-stu-id="a9664-111">0x00008112</span></span>  <br/> |
+|<span data-ttu-id="a9664-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="a9664-112">Data type:</span></span>  <br/> |<span data-ttu-id="a9664-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="a9664-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="a9664-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="a9664-114">Area:</span></span>  <br/> |<span data-ttu-id="a9664-115">Task</span><span class="sxs-lookup"><span data-stu-id="a9664-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0b5c6-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="0b5c6-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9664-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="a9664-116">Remarks</span></span>
 
-<span data-ttu-id="0b5c6-117">Mises à jour avec des versions inférieures à la tâche sont ignorés.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-117">Updates with lower versions than the task are ignored.</span></span> 
+<span data-ttu-id="a9664-117">Mises à jour avec des versions inférieures à la tâche sont ignorés.</span><span class="sxs-lookup"><span data-stu-id="a9664-117">Updates with lower versions than the task are ignored.</span></span> 
   
-<span data-ttu-id="0b5c6-118">Lors de l’incorporation d’une tâche dans une communication de la tâche, le client définit la version actuelle de la tâche incorporée sur ainsi que la communication de la tâche.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-118">When embedding a task in a task communication, the client sets the current version of the embedded task on the task communication as well.</span></span>
+<span data-ttu-id="a9664-118">Lors de l’incorporation d’une tâche dans une communication de la tâche, le client définit la version actuelle de la tâche incorporée sur ainsi que la communication de la tâche.</span><span class="sxs-lookup"><span data-stu-id="a9664-118">When embedding a task in a task communication, the client sets the current version of the embedded task on the task communication as well.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="0b5c6-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="0b5c6-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a9664-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="a9664-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="0b5c6-120">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="0b5c6-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a9664-120">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="a9664-120">Protocol specifications</span></span>
 
-<span data-ttu-id="0b5c6-121">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0b5c6-121">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a9664-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a9664-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0b5c6-122">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="a9664-122">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="a9664-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="0b5c6-123">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0b5c6-123">[[MS-OXOTASK]](http://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a9664-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a9664-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="0b5c6-124">Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-124">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="a9664-124">Définit plusieurs objets qui représentent l’équivalent électronique des tâches, les affectations de tâches et les mises à jour de tâche.</span><span class="sxs-lookup"><span data-stu-id="a9664-124">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="0b5c6-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="0b5c6-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a9664-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="a9664-125">Header files</span></span>
 
-<span data-ttu-id="0b5c6-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0b5c6-126">Mapidefs.h</span></span>
+<span data-ttu-id="a9664-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a9664-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="0b5c6-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="0b5c6-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="a9664-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="a9664-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="0b5c6-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0b5c6-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9664-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a9664-128">See also</span></span>
 
 
 
-[<span data-ttu-id="0b5c6-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="0b5c6-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a9664-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="a9664-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="0b5c6-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="0b5c6-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a9664-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="a9664-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="0b5c6-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="0b5c6-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a9664-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="a9664-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="0b5c6-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="0b5c6-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a9664-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="a9664-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -6,24 +6,24 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5fcf3d9-c11a-ed5e-0bf5-e706259ef30b
-ms.openlocfilehash: 9c567542061ec419de9c4347209059b0486bdf88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 581101909096d4ee8a4f44c8e9e95dab0313ed7c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788747"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25384506"
 ---
-# <a name="headerfootertype-complextype-visio-xml"></a><span data-ttu-id="a3a78-102">Type complexe HeaderFooter_Type (« Visio XML »)</span><span class="sxs-lookup"><span data-stu-id="a3a78-102">HeaderFooter_Type complexType ('Visio XML')</span></span>
+# <a name="headerfootertype-complextype-visio-xml"></a><span data-ttu-id="f12c5-102">Type complexe HeaderFooter_Type (« Visio XML »)</span><span class="sxs-lookup"><span data-stu-id="f12c5-102">HeaderFooter_Type complexType ('Visio XML')</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="a3a78-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="a3a78-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="f12c5-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="f12c5-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a3a78-104">**Espace de noms**</span><span class="sxs-lookup"><span data-stu-id="a3a78-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="a3a78-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="a3a78-105">**Schema file**</span></span> <br/> |<span data-ttu-id="a3a78-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="a3a78-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="a3a78-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="a3a78-107">**Extension base**</span></span> <br/> |<span data-ttu-id="a3a78-108">Aucune</span><span class="sxs-lookup"><span data-stu-id="a3a78-108">None</span></span>  <br/> |
+|<span data-ttu-id="f12c5-104">**Espace de noms**</span><span class="sxs-lookup"><span data-stu-id="f12c5-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="f12c5-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="f12c5-105">**Schema file**</span></span> <br/> |<span data-ttu-id="f12c5-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="f12c5-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="f12c5-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="f12c5-107">**Extension base**</span></span> <br/> |<span data-ttu-id="f12c5-108">Aucune</span><span class="sxs-lookup"><span data-stu-id="f12c5-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="a3a78-109">Définition</span><span class="sxs-lookup"><span data-stu-id="a3a78-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="f12c5-109">Définition</span><span class="sxs-lookup"><span data-stu-id="f12c5-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="HeaderFooter_Type">
@@ -91,28 +91,28 @@ ms.locfileid: "19788747"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="a3a78-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="a3a78-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="f12c5-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="f12c5-110">Elements and attributes</span></span>
 
-<span data-ttu-id="a3a78-111">Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition.</span><span class="sxs-lookup"><span data-stu-id="a3a78-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="f12c5-111">Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition.</span><span class="sxs-lookup"><span data-stu-id="f12c5-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="a3a78-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="a3a78-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f12c5-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f12c5-112">Child elements</span></span>
 
-|<span data-ttu-id="a3a78-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="a3a78-113">**Element**</span></span>|<span data-ttu-id="a3a78-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="a3a78-114">**Type**</span></span>|<span data-ttu-id="a3a78-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="a3a78-115">**Description**</span></span>|
+|<span data-ttu-id="f12c5-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="f12c5-113">**Element**</span></span>|<span data-ttu-id="f12c5-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="f12c5-114">**Type**</span></span>|<span data-ttu-id="f12c5-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="f12c5-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="a3a78-116">FooterCenter</span><span class="sxs-lookup"><span data-stu-id="a3a78-116">FooterCenter</span></span>](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-117">FooterCenter_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-117">FooterCenter_Type</span></span>](footercenter_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-118">FooterLeft</span><span class="sxs-lookup"><span data-stu-id="a3a78-118">FooterLeft</span></span>](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-119">FooterLeft_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-119">FooterLeft_Type</span></span>](footerleft_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-120">FooterMargin</span><span class="sxs-lookup"><span data-stu-id="a3a78-120">FooterMargin</span></span>](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-121">FooterMargin_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-121">FooterMargin_Type</span></span>](footermargin_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-122">FooterRight</span><span class="sxs-lookup"><span data-stu-id="a3a78-122">FooterRight</span></span>](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-123">FooterRight_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-123">FooterRight_Type</span></span>](footerright_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-124">HeaderCenter</span><span class="sxs-lookup"><span data-stu-id="a3a78-124">HeaderCenter</span></span>](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-125">HeaderCenter_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-125">HeaderCenter_Type</span></span>](headercenter_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-126">HeaderFooterFont</span><span class="sxs-lookup"><span data-stu-id="a3a78-126">HeaderFooterFont</span></span>](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-127">HeaderFooterFont_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-127">HeaderFooterFont_Type</span></span>](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-128">HeaderLeft</span><span class="sxs-lookup"><span data-stu-id="a3a78-128">HeaderLeft</span></span>](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-129">HeaderLeft_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-129">HeaderLeft_Type</span></span>](headerleft_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-130">HeaderMargin</span><span class="sxs-lookup"><span data-stu-id="a3a78-130">HeaderMargin</span></span>](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-131">HeaderMargin_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-131">HeaderMargin_Type</span></span>](headermargin_type-complextypevisio-xml.md) <br/> ||
-|[<span data-ttu-id="a3a78-132">HeaderRight</span><span class="sxs-lookup"><span data-stu-id="a3a78-132">HeaderRight</span></span>](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="a3a78-133">HeaderRight_Type</span><span class="sxs-lookup"><span data-stu-id="a3a78-133">HeaderRight_Type</span></span>](headerright_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-116">FooterCenter</span><span class="sxs-lookup"><span data-stu-id="f12c5-116">FooterCenter</span></span>](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-117">FooterCenter_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-117">FooterCenter_Type</span></span>](footercenter_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-118">FooterLeft</span><span class="sxs-lookup"><span data-stu-id="f12c5-118">FooterLeft</span></span>](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-119">FooterLeft_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-119">FooterLeft_Type</span></span>](footerleft_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-120">FooterMargin</span><span class="sxs-lookup"><span data-stu-id="f12c5-120">FooterMargin</span></span>](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-121">FooterMargin_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-121">FooterMargin_Type</span></span>](footermargin_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-122">FooterRight</span><span class="sxs-lookup"><span data-stu-id="f12c5-122">FooterRight</span></span>](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-123">FooterRight_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-123">FooterRight_Type</span></span>](footerright_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-124">HeaderCenter</span><span class="sxs-lookup"><span data-stu-id="f12c5-124">HeaderCenter</span></span>](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-125">HeaderCenter_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-125">HeaderCenter_Type</span></span>](headercenter_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-126">HeaderFooterFont</span><span class="sxs-lookup"><span data-stu-id="f12c5-126">HeaderFooterFont</span></span>](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-127">HeaderFooterFont_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-127">HeaderFooterFont_Type</span></span>](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-128">HeaderLeft</span><span class="sxs-lookup"><span data-stu-id="f12c5-128">HeaderLeft</span></span>](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-129">HeaderLeft_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-129">HeaderLeft_Type</span></span>](headerleft_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-130">HeaderMargin</span><span class="sxs-lookup"><span data-stu-id="f12c5-130">HeaderMargin</span></span>](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-131">HeaderMargin_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-131">HeaderMargin_Type</span></span>](headermargin_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="f12c5-132">HeaderRight</span><span class="sxs-lookup"><span data-stu-id="f12c5-132">HeaderRight</span></span>](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f12c5-133">HeaderRight_Type</span><span class="sxs-lookup"><span data-stu-id="f12c5-133">HeaderRight_Type</span></span>](headerright_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="a3a78-134">Attributs</span><span class="sxs-lookup"><span data-stu-id="a3a78-134">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f12c5-134">Attributs</span><span class="sxs-lookup"><span data-stu-id="f12c5-134">Attributes</span></span>
 
-|<span data-ttu-id="a3a78-135">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="a3a78-135">**Attribute**</span></span>|<span data-ttu-id="a3a78-136">**Type**</span><span class="sxs-lookup"><span data-stu-id="a3a78-136">**Type**</span></span>|<span data-ttu-id="a3a78-137">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="a3a78-137">**Required**</span></span>|<span data-ttu-id="a3a78-138">**Description**</span><span class="sxs-lookup"><span data-stu-id="a3a78-138">**Description**</span></span>|<span data-ttu-id="a3a78-139">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="a3a78-139">**Possible values**</span></span>|
+|<span data-ttu-id="f12c5-135">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="f12c5-135">**Attribute**</span></span>|<span data-ttu-id="f12c5-136">**Type**</span><span class="sxs-lookup"><span data-stu-id="f12c5-136">**Type**</span></span>|<span data-ttu-id="f12c5-137">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="f12c5-137">**Required**</span></span>|<span data-ttu-id="f12c5-138">**Description**</span><span class="sxs-lookup"><span data-stu-id="f12c5-138">**Description**</span></span>|<span data-ttu-id="f12c5-139">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="f12c5-139">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="a3a78-140">HeaderFooterColor</span><span class="sxs-lookup"><span data-stu-id="a3a78-140">HeaderFooterColor</span></span>  <br/> |<span data-ttu-id="a3a78-141">XSD : String</span><span class="sxs-lookup"><span data-stu-id="a3a78-141">xsd:string</span></span>  <br/> |<span data-ttu-id="a3a78-142">facultatif</span><span class="sxs-lookup"><span data-stu-id="a3a78-142">optional</span></span>  <br/> ||<span data-ttu-id="a3a78-143">Valeurs du type xsd : String.</span><span class="sxs-lookup"><span data-stu-id="a3a78-143">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="f12c5-140">HeaderFooterColor</span><span class="sxs-lookup"><span data-stu-id="f12c5-140">HeaderFooterColor</span></span>  <br/> |<span data-ttu-id="f12c5-141">XSD : String</span><span class="sxs-lookup"><span data-stu-id="f12c5-141">xsd:string</span></span>  <br/> |<span data-ttu-id="f12c5-142">facultatif</span><span class="sxs-lookup"><span data-stu-id="f12c5-142">optional</span></span>  <br/> ||<span data-ttu-id="f12c5-143">Valeurs du type xsd : String.</span><span class="sxs-lookup"><span data-stu-id="f12c5-143">Values of the xsd:string type.</span></span>  <br/> |
    
 

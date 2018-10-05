@@ -11,61 +11,61 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: efedeb54decf1feae7b31f8af299a154606d7afc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 3c2ddb5da9202e9cf0d1c78da1c1ad085ef9687c
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582902"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25386151"
 ---
-# <a name="pidlidfinvited-canonical-property"></a><span data-ttu-id="1de35-103">Propriété canonique PidLidFInvited</span><span class="sxs-lookup"><span data-stu-id="1de35-103">PidLidFInvited Canonical Property</span></span>
+# <a name="pidlidfinvited-canonical-property"></a><span data-ttu-id="3a0cc-103">Propriété canonique PidLidFInvited</span><span class="sxs-lookup"><span data-stu-id="3a0cc-103">PidLidFInvited Canonical Property</span></span>
 
   
   
-<span data-ttu-id="1de35-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1de35-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3a0cc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a0cc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1de35-105">Indique ou non des invitations ont été envoyées pour les réunions représente cette réunion.</span><span class="sxs-lookup"><span data-stu-id="1de35-105">Indicates whether or not invitations have been sent for the meeting that this meeting represents.</span></span>
+<span data-ttu-id="3a0cc-105">Indique ou non des invitations ont été envoyées pour les réunions représente cette réunion.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-105">Indicates whether or not invitations have been sent for the meeting that this meeting represents.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1de35-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1de35-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1de35-107">dispidFInvited</span><span class="sxs-lookup"><span data-stu-id="1de35-107">dispidFInvited</span></span>  <br/> |
-|<span data-ttu-id="1de35-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="1de35-108">Property set:</span></span>  <br/> |<span data-ttu-id="1de35-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="1de35-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="1de35-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="1de35-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="1de35-111">0x00008229</span><span class="sxs-lookup"><span data-stu-id="1de35-111">0x00008229</span></span>  <br/> |
-|<span data-ttu-id="1de35-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1de35-112">Data type:</span></span>  <br/> |<span data-ttu-id="1de35-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="1de35-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="1de35-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1de35-114">Area:</span></span>  <br/> |<span data-ttu-id="1de35-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="1de35-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="3a0cc-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3a0cc-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3a0cc-107">dispidFInvited</span><span class="sxs-lookup"><span data-stu-id="3a0cc-107">dispidFInvited</span></span>  <br/> |
+|<span data-ttu-id="3a0cc-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="3a0cc-108">Property set:</span></span>  <br/> |<span data-ttu-id="3a0cc-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="3a0cc-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="3a0cc-110">ID de type long (capot) :</span><span class="sxs-lookup"><span data-stu-id="3a0cc-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="3a0cc-111">0x00008229</span><span class="sxs-lookup"><span data-stu-id="3a0cc-111">0x00008229</span></span>  <br/> |
+|<span data-ttu-id="3a0cc-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3a0cc-112">Data type:</span></span>  <br/> |<span data-ttu-id="3a0cc-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="3a0cc-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="3a0cc-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3a0cc-114">Area:</span></span>  <br/> |<span data-ttu-id="3a0cc-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="3a0cc-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="1de35-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="1de35-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3a0cc-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="3a0cc-116">Remarks</span></span>
 
-<span data-ttu-id="1de35-117">La valeur FALSE, ou l’absence de cette propriété indique qu’une demande de réunion n’a jamais été envoyée.</span><span class="sxs-lookup"><span data-stu-id="1de35-117">A value of FALSE, or the absence of this property, indicates that a meeting request has never been sent.</span></span> <span data-ttu-id="1de35-118">La valeur TRUE indique qu’une demande de réunion a été envoyée.</span><span class="sxs-lookup"><span data-stu-id="1de35-118">A value of TRUE indicates that a meeting request has been sent.</span></span> <span data-ttu-id="1de35-119">Une fois que cette valeur est définie sur TRUE dans une réunion, il ne doit pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="1de35-119">Once this value is set to TRUE on a meeting, it must not be changed.</span></span>
+<span data-ttu-id="3a0cc-117">La valeur FALSE, ou l’absence de cette propriété indique qu’une demande de réunion n’a jamais été envoyée.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-117">A value of FALSE, or the absence of this property, indicates that a meeting request has never been sent.</span></span> <span data-ttu-id="3a0cc-118">La valeur TRUE indique qu’une demande de réunion a été envoyée.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-118">A value of TRUE indicates that a meeting request has been sent.</span></span> <span data-ttu-id="3a0cc-119">Une fois que cette valeur est définie sur TRUE dans une réunion, il ne doit pas être modifié.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-119">Once this value is set to TRUE on a meeting, it must not be changed.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="1de35-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1de35-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3a0cc-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3a0cc-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="1de35-121">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="1de35-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3a0cc-121">Spécifications du protocole</span><span class="sxs-lookup"><span data-stu-id="3a0cc-121">Protocol specifications</span></span>
 
-<span data-ttu-id="1de35-122">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1de35-122">[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3a0cc-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3a0cc-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="1de35-123">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="1de35-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3a0cc-123">Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="1de35-124">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1de35-124">[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3a0cc-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3a0cc-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="1de35-125">Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.</span><span class="sxs-lookup"><span data-stu-id="1de35-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="3a0cc-125">Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="1de35-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1de35-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3a0cc-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3a0cc-126">Header files</span></span>
 
-<span data-ttu-id="1de35-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1de35-127">Mapidefs.h</span></span>
+<span data-ttu-id="3a0cc-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3a0cc-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="1de35-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1de35-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="3a0cc-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3a0cc-128">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="1de35-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1de35-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a0cc-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3a0cc-129">See also</span></span>
 
 
 
-[<span data-ttu-id="1de35-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1de35-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3a0cc-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3a0cc-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="1de35-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1de35-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3a0cc-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3a0cc-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="1de35-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1de35-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3a0cc-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3a0cc-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="1de35-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1de35-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3a0cc-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3a0cc-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
