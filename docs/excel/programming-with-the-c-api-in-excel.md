@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 459e57d41ef7497c535e51944bbaf24daee84167
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 53167241ebfaf8524fb58d14b4e1299809cdee50
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782185"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401621"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>Programmation avec l’API C dans Excel
 
@@ -90,10 +90,10 @@ Le langage de macro Excel (XLM) a �t� le premier environnement de programmat
     
 - Op�rations de contr�le de flux comme **GOTO** et **RETURN**.
     
-Une version limit�e de l�API C existait dans Excel�3. Toutefois, dans Excel�4, le langage XML a �t� associ� � l�API C. Depuis lors, les DLL ont pu appeler toutes les fonctions de feuille de calcul, les fonctions d�informations de feuille de macro et les commandes et elles ont pu d�finir des captures d��v�nement. Les DLL ne peuvent pas appeler des fonctions de contr�le de flux XLM � partir de l�API C. Ces fonctions et fonctions de feuille de macro sont pr�sent�es dans le fichier d�aide XLMacr8.hlp (anciennement nomm� Macrofun.hlp). Pour obtenir ce fichier d�aide, acc�dez au [Centre de t�l�chargement Microsoft](http://download.microsoft.com) et recherchez « XLMacr8.hlp ». 
+Une version limit�e de l�API C existait dans Excel�3. Toutefois, dans Excel�4, le langage XML a �t� associ� � l�API C. Depuis lors, les DLL ont pu appeler toutes les fonctions de feuille de calcul, les fonctions d�informations de feuille de macro et les commandes et elles ont pu d�finir des captures d��v�nement. Les DLL ne peuvent pas appeler des fonctions de contr�le de flux XLM � partir de l�API C. Ces fonctions et fonctions de feuille de macro sont pr�sent�es dans le fichier d�aide XLMacr8.hlp (anciennement nomm� Macrofun.hlp). Pour obtenir ce fichier d�aide, acc�dez au [Centre de t�l�chargement Microsoft](https://download.microsoft.com) et recherchez « XLMacr8.hlp ». 
   
 > [!NOTE]
-> Windows Vista et Windows 7 ne prennent pas en charge directement les fichiers .hlp, mais vous pouvez y rem�dier en t�l�chargeant le [programme d�aide Windows (WinHlp32.exe) pour Windows Vista](http://go.microsoft.com/fwlink/?LinkID=82148) ou le [programme d�aide Windows (WinHlp32.exe) pour Windows�7](http://www.microsoft.com/download/en/details.aspx?id=91) � partir de Microsoft. 
+> Windows Vista et Windows 7 ne prennent pas en charge directement les fichiers .hlp, mais vous pouvez y rem�dier en t�l�chargeant le [programme d�aide Windows (WinHlp32.exe) pour Windows Vista](https://go.microsoft.com/fwlink/?LinkID=82148) ou le [programme d�aide Windows (WinHlp32.exe) pour Windows�7](https://www.microsoft.com/download/en/details.aspx?id=91) � partir de Microsoft. 
   
 Les DLL appellent les �quivalents API C de ces fonctions et commandes � l�aide des fonctions de rappel **Excel4**, **Excel4v**, **Excel12** et **Excel12v** (les deux derni�res ont �t� introduites dans Excel 2007). Les constantes �num�r�es qui correspondent � chaque fonction et commande sont d�finies dans un fichier d�en-t�te et transmises en tant qu�arguments � ces rappels. Par exemple, **GET.CELL** est repr�sent� par **xlfGetCell**, **REGISTER** par **xlfRegister** et **DEFINE.NAME** par **xlcDefineName**.
   

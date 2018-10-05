@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
-ms.openlocfilehash: 383aac24be347cf637d9e2f255623035eea8bc40
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787945"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401734"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -57,7 +57,7 @@ Vous pouvez personnaliser une application cliente de messagerie instantanée afi
 
 ![La carte de visite dans Office 2013](media/ocom15_peoplecard.png "La carte de visite dans Office 2013")
   
-Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](http://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office. 
+Pour permettre cette intégration dans Office, l'application cliente de messagerie instantanée doit implémenter un ensemble d'interfaces fournies par Office pour établir une connexion. Les API nécessaires à cette intégration sont incluses dans l'espace de noms [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) figurant dans le fichier Microsoft.Office.UC.dll installé avec les versions de Office 2013, comprenant Lync et Skype Entreprise. L'espace de noms **UCCollaborationLib** inclut les interfaces que vous devez implémenter pour intégrer Office. 
   
 > [!IMPORTANT] 
 > La bibliothèque de types pour les interfaces requises est incorporée à Lync 2013/Skype Entreprise. Pour les intégrateurs tiers, cela fonctionne uniquement lorsque Lync 2013 et Skype Entreprise sont installés sur l’ordinateur cible. Si vous intégrez à l'aide d'Office Standard, vous devez extraire la bibliothèque de types et l'installer sur l'ordinateur cible. Le [kit de développement logiciel (SDK) Lync 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36824) inclut le fichier Microsoft.Office.UC.dll. 
@@ -65,7 +65,7 @@ Pour permettre cette intégration dans Office, l'application cliente de messager
 > [!NOTE]
 >  Une multitude d'applications Office 2010 peuvent également s'intégrer à une application de fournisseur de messagerie instantanée tierce : Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 et SharePoint Server 2010 (à l'aide d'un contrôle ActiveX). Nombre des étapes nécessaires pour l’intégration avec Office 2013 s’appliquent aussi à Office 2010. Il existe plusieurs différences dans la manière dont Office 2010 est intégré avec une application de fournisseur de messagerie instantanée : 
 >  - Office 2010 n’affiche pas la photo du contact. 
->  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [SDK Lync 2010](http://www.microsoft.com/en-us/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
+>  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [SDK Lync 2010](https://www.microsoft.com/en-us/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
 >  - Lorsque l’application Office appelle la méthode [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) dans l’application cliente de messagerie instantanée, elle transfère la chaîne « 14.0.0.0 ». 
 >  - Office 2010 énumère tous les groupes et les contacts dès qu'il se connecte à une application cliente de messagerie instantanée. 
   
@@ -108,7 +108,7 @@ L’application Office suit le processus suivant pour découvrir l’application
 
 Lorsque l’application Office établit une connexion à l’application cliente de messagerie instantanée, elle effectue ensuite les opérations suivantes :
   
-1. Elle appelle la méthode [IUnknown::QueryInterface](http://msdn.microsoft.com/fr-FR/library/ms682521%28v=VS.85%29.aspx) pour vérifier l'interface [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration). 
+1. Elle appelle la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) pour vérifier l'interface [IUCOfficeIntegration](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration). 
     
 2. Puis elle appelle la méthode **IUCOfficeIntegration.GetAuthenticationInfo**, en transmettant la version d'intégration prise en charge la plus récente (par exemple, « 15.0.0.0 »). 
     
@@ -130,7 +130,7 @@ Si l’application Office rencontre une erreur lors d’une des étapes précéd
 
 Après avoir authentifié la connexion à l’application cliente de messagerie instantanée, l’application Office essaie de se connecter à un ensemble d’interfaces requises que l’application cliente de messagerie instantanée doit exposer. L’application Office effectue cela en procédant comme suit :
   
-- L'application Office obtient un objet [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) en appelant la méthode **IUCOfficeIntegration.GetInterface**, en transférant la constante **oiInterfaceLyncClient** à partir de l'énumération [UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). 
+- L'application Office obtient un objet [ILyncClient](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ILyncClient) en appelant la méthode **IUCOfficeIntegration.GetInterface**, en transférant la constante **oiInterfaceLyncClient** à partir de l'énumération [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). 
     
 - L'application Office obtient un objet [IAutomation](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IAutomation) en appelant la méthode **IUCOfficeIntegration.GetInterface**, en transmettant la constante **oiInterfaceAutomation** à partir de l'énumération **OIInterface**. 
     
@@ -140,7 +140,7 @@ Après avoir authentifié la connexion à l’application cliente de messagerie 
     
 - L'application Office obtient l'état de connexion à partir de l'application cliente de messagerie instantanée en accédant à la propriété **ILyncClient.State**. 
     
-- L'application Office obtient les fonctionnalités de l'application cliente de messagerie instantanée en appelant la méthode **IUCOfficeIntegration.GetSupportedFeatures**, qui renvoie un indicateur de l'énumération [UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). 
+- L'application Office obtient les fonctionnalités de l'application cliente de messagerie instantanée en appelant la méthode **IUCOfficeIntegration.GetSupportedFeatures**, qui renvoie un indicateur de l'énumération [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). 
     
 - L'application Office accède à la propriété **ILyncClient.Self** pour obtenir une référence à un objet [ISelf](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_ISelf). 
     
@@ -217,7 +217,7 @@ La classe qui hérite de **IUCOfficeIntegration** doit également implémenter l
 Le tableau 2 indique les membres qui doivent implémentés dans la classe qui hérite de **IUCOfficeIntegration** et **_IUCOfficeIntegration**.
   
 > [!NOTE]
-> Pour plus d'informations sur les interfaces **IUCOfficeIntegration** et **_IUCOfficeIntegrationEvents**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IUCOfficeIntegration](http://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) et [UCCollaborationLib._IUCOfficeIntegrationEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
+> Pour plus d'informations sur les interfaces **IUCOfficeIntegration** et **_IUCOfficeIntegrationEvents**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IUCOfficeIntegration](https://msdn.microsoft.com/library/UCCollaborationLib.IUCOfficeIntegration) et [UCCollaborationLib._IUCOfficeIntegrationEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IUCOfficeIntegrationEvents). 
   
 **Tableau 2. Implémentation des interfaces IUCOfficeIntegration et _IUCOfficeIntegrationEvents**
 
@@ -267,7 +267,7 @@ public string GetAuthenticationInfo(string _version)
 
 ```
 
-La méthode **GetInterface** transmet les références aux classes vers le code appelant, en fonction de l'argument transmis pour le paramètre  _interface_. Lorsqu'une application Office appelle la méthode **GetInterface**, elle transfert une des deux valeurs pour le paramètre de l'interface : soit la constante **oiInterfaceILyncClient** (1) ou la constante **oiInterfaceIAutomation** (2) de l'énumération [UCCollaborationLib.OIInterface](http://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). Si l'application Office transfère la constante **oiInterfaceILyncClient**, la méthode **GetInterface** renvoie une référence à une classe qui implémente l'interface **ILyncClient**. Si l'application Office transfère la constante **oiInterfaceIAutomation**, la méthode **GetInterface** renvoie une classe qui implémente l'interface **IAutomation**. 
+La méthode **GetInterface** transmet les références aux classes vers le code appelant, en fonction de l'argument transmis pour le paramètre  _interface_. Lorsqu'une application Office appelle la méthode **GetInterface**, elle transfert une des deux valeurs pour le paramètre de l'interface : soit la constante **oiInterfaceILyncClient** (1) ou la constante **oiInterfaceIAutomation** (2) de l'énumération [UCCollaborationLib.OIInterface](https://msdn.microsoft.com/library/UCCollaborationLib.OIInterface). Si l'application Office transfère la constante **oiInterfaceILyncClient**, la méthode **GetInterface** renvoie une référence à une classe qui implémente l'interface **ILyncClient**. Si l'application Office transfère la constante **oiInterfaceIAutomation**, la méthode **GetInterface** renvoie une classe qui implémente l'interface **IAutomation**. 
   
 Utilisez le code suivant pour implémenter la méthode **GetInterface** dans le code de l'application cliente de messagerie instantanée. 
   
@@ -304,7 +304,7 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-La méthode **GetSupportedFeatures** renvoie des informations sur les fonctionnalités de messagerie instantanée prises en charge par l'application cliente de messagerie instantanée. Elle prend une chaîne uniquement pour son paramètre,  _version_. Lorsque l'application Office appelle la méthode **GetSupportFeatures**, celle-ci renvoie une valeur à partir de l'énumération [UCCollaborationLib.OIFeature](http://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). La valeur renvoyée définit les fonctionnalités du client de messagerie instantanée, où chaque fonctionnalité de l'application cliente de messagerie instantanée est indiquée à l'application Office par l'ajout d'un indicateur à la valeur. 
+La méthode **GetSupportedFeatures** renvoie des informations sur les fonctionnalités de messagerie instantanée prises en charge par l'application cliente de messagerie instantanée. Elle prend une chaîne uniquement pour son paramètre,  _version_. Lorsque l'application Office appelle la méthode **GetSupportFeatures**, celle-ci renvoie une valeur à partir de l'énumération [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature). La valeur renvoyée définit les fonctionnalités du client de messagerie instantanée, où chaque fonctionnalité de l'application cliente de messagerie instantanée est indiquée à l'application Office par l'ajout d'un indicateur à la valeur. 
   
 > [!NOTE]
 >  Les applications Office 2013 ignorent les constantes suivantes dans l’énumération **OIFeature** : 
@@ -327,7 +327,7 @@ public OIFeature GetSupportedFeatures(string _version)
 ### <a name="ilyncclient-interface"></a>Interface ILyncClient
 <a name="off15_IMIntegration_ImplementRequired_ILyncClient"> </a>
 
-L'interface **ILyncClient** mappe vers les fonctionnalités de l'application cliente de messagerie instantanée. Elle expose les propriétés qui font référence à la personne connectée à l'application (l'utilisateur local, représenté par l'interface [UCCollaborationLib.ISelf](http://msdn.microsoft.com/library/UCCollaborationLib.ISelf)), l'état de l'application, la liste des contacts de l'utilisateur local, ainsi que d'autres paramètres. Lorsqu'elle tente de se connecter à l'application cliente de messagerie instantanée, l'application Office obtient une référence à un objet qui implémente l'interface **ILyncClient**. À partir de cette référence, Office peut accéder à la plupart des fonctionnalités de l'application cliente de messagerie instantanée. 
+L'interface **ILyncClient** mappe vers les fonctionnalités de l'application cliente de messagerie instantanée. Elle expose les propriétés qui font référence à la personne connectée à l'application (l'utilisateur local, représenté par l'interface [UCCollaborationLib.ISelf](https://msdn.microsoft.com/library/UCCollaborationLib.ISelf)), l'état de l'application, la liste des contacts de l'utilisateur local, ainsi que d'autres paramètres. Lorsqu'elle tente de se connecter à l'application cliente de messagerie instantanée, l'application Office obtient une référence à un objet qui implémente l'interface **ILyncClient**. À partir de cette référence, Office peut accéder à la plupart des fonctionnalités de l'application cliente de messagerie instantanée. 
   
 En outre, la classe qui implémente l'interface **ILyncClient** doit également implémenter l'interface **_ILyncClientEvents**. L'interface **_ILyncClientEvents** expose plusieurs événements requis pour surveiller l'état de l'application cliente de messagerie instantanée. 
   
@@ -336,7 +336,7 @@ Le tableau 3 affiche les membres qui doivent être implémentés dans la classe
 > [!NOTE]
 > Tout membre de l'interface **ILyncClient** ou **\_ILyncClientEvents** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
 > 
-> Pour plus d'informations sur les interfaces **ILyncClient** et **_ILyncClientEvents**, ainsi que leurs membres, consultez [UCCollaborationLib.ILyncClient](http://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) et [UCCollaborationLib._ILyncClientEvents](http://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
+> Pour plus d'informations sur les interfaces **ILyncClient** et **_ILyncClientEvents**, ainsi que leurs membres, consultez [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) et [UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
 **Tableau 3. Implémentation des interfaces ILyncClient et ILyncClientEvents**
 
@@ -350,7 +350,7 @@ Le tableau 3 affiche les membres qui doivent être implémentés dans la classe
 ||Propriété **Uri**  <br/> |Obtient l’URI de l’application cliente de messagerie instantanée.  <br/> |
 |**_ILyncClientEvents** <br/> |Événement **OnStateChanged**  <br/> |Déclenché lorsque l'état de l'application cliente de messagerie instantanée est modifié. Vous devez gérer cet événement et obtenir la propriété **eventData.NewState**. L'événement est déclenché pour tous les processus liés à l'instance d'une application cliente de messagerie instantanée lorsqu'un sous-système de l'application entraîne la modification de l'état.  <br/> |
    
-Pendant le processus d'initialisation, Office accède à la propriété **ILyncClient.State**. Cette propriété doit renvoyer une valeur à partir de l'énumération [UCCollaborationLib.ClientState](http://msdn.microsoft.com/library/UCCollaborationLib.ClientState). 
+Pendant le processus d'initialisation, Office accède à la propriété **ILyncClient.State**. Cette propriété doit renvoyer une valeur à partir de l'énumération [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState). 
   
 ```cs
 private ClientState _clientState;
@@ -661,9 +661,9 @@ L'interface **IAutomation** automatise les fonctionnalités de l'application cli
 Le tableau 4 indique les membres qui doivent être implémentés dans la classe qui hérite de **IAutomation**.
   
 > [!NOTE]
-> Tout membre de l'interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 > 
-> Pour plus d'informations sur l'interface **IAutomation** et ses membres, consultez [UCCollaborationLib.IAutomation](http://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
+> Pour plus d'informations sur l'interface **IAutomation** et ses membres, consultez [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
 **Tableau 4. Implémentation de l’interface IAutomation**
 
@@ -698,9 +698,9 @@ L'interface **IContact** représente un utilisateur de l'application cliente de 
 Le tableau 5 indique les membres qui doivent être implémentés dans la classe qui hérite de **IContact**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
-> Pour plus d'informations sur l'interface **IContact** et ses membres, consultez [UCCollaborationLib.IContact](http://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
+> Pour plus d'informations sur l'interface **IContact** et ses membres, consultez [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
 **Tableau 5. Implémentation de l’interface IContact**
 
@@ -712,7 +712,7 @@ Le tableau 5 indique les membres qui doivent être implémentés dans la classe 
 |Propriété **Settings**  <br/> |Obtient une collection de propriétés de contact.  <br/> |
 |Propriété **CustomGroups**  <br/> |Obtient une collection de groupes dont le contact est membre.  <br/> |
    
-Pendant le processus d'initialisation, l'application Office appelle la méthode **IContact.CanStart** pour déterminer les fonctionnalités de messagerie instantanée de l'utilisateur local. La méthode **CanStart** récupère un indicateur à partir de l'énumération [UCCollaborationLib.ModalityTypes](http://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) en tant qu'argument pour le paramètre  __modalityTypes_. Si l'utilisateur peut participer à la modalité demandée (autrement dit, si l'utilisateur est capable d'utiliser la messagerie instantanée, la messagerie audio et vidéo ou le partage d'application), la méthode **CanStart** renvoie **true**.
+Pendant le processus d'initialisation, l'application Office appelle la méthode **IContact.CanStart** pour déterminer les fonctionnalités de messagerie instantanée de l'utilisateur local. La méthode **CanStart** récupère un indicateur à partir de l'énumération [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) en tant qu'argument pour le paramètre  __modalityTypes_. Si l'utilisateur peut participer à la modalité demandée (autrement dit, si l'utilisateur est capable d'utiliser la messagerie instantanée, la messagerie audio et vidéo ou le partage d'application), la méthode **CanStart** renvoie **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -736,7 +736,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-La méthode **GetContactInformation** récupère les informations relatives au contact à partir de l'objet **IContact**. Le code appelant doit transmettre une valeur à partir de l'énumération [UCCollaborationLib.ContactInformationType](http://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) pour le paramètre  __contactInformationType_, qui indique les données à récupérer. 
+La méthode **GetContactInformation** récupère les informations relatives au contact à partir de l'objet **IContact**. Le code appelant doit transmettre une valeur à partir de l'énumération [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) pour le paramètre  __contactInformationType_, qui indique les données à récupérer. 
   
 ```cs
 public object GetContactInformation(
@@ -767,7 +767,7 @@ public object GetContactInformation(
 }
 ```
 
-Similaire à **GetContactInformation**, la méthode **BatchGetContactInformation** extrait plusieurs éléments de présence relatifs au contact à partir de l'objet **IContact**. Le code appelant doit transmettre un tableau de valeurs à partir de l'énumération **ContactInformationType** pour le paramètre  __contactInformationTypes_. La méthode renvoie un objet [UCCollaborationLib.IContactInformationDictionary](http://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) contenant les données requises. 
+Similaire à **GetContactInformation**, la méthode **BatchGetContactInformation** extrait plusieurs éléments de présence relatifs au contact à partir de l'objet **IContact**. Le code appelant doit transmettre un tableau de valeurs à partir de l'énumération **ContactInformationType** pour le paramètre  __contactInformationTypes_. La méthode renvoie un objet [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary) contenant les données requises. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -872,7 +872,7 @@ Le tableau 7 affiche les membres qui doivent être implémentés dans la classe 
 > [!NOTE]
 > Tout membre de l’interface **IContactManager** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
 >
-> Pour plus d'informations sur les interfaces **IContactManager** et **_IContactManagerEvents**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IContactManager](http://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) et [UCCollaborationLib._IContactManagerEvents](http://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
+> Pour plus d'informations sur les interfaces **IContactManager** et **_IContactManagerEvents**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) et [UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
   
 **Tableau 7. Implémentation des interfaces IContactManager et _IContactManagerEvents**
 
@@ -936,9 +936,9 @@ L'objet **IGroup** représente un ensemble de contacts avec des propriétés sup
 Le tableau 9 affiche les membres qui doivent être implémentés dans les classes qui héritent de **IGroup** et **IGroupCollection** dans le tableau suivant. 
   
 > [!NOTE]
-> Tout membre de l'interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
-> Pour plus d'informations sur les interfaces **IGroup** et **IGroupCollection**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IGroup](http://msdn.microsoft.com/library/UCCollaborationLib.IGroup) et [UCCollaborationLib.IGroupCollection](http://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
+> Pour plus d'informations sur les interfaces **IGroup** et **IGroupCollection**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) et [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
 **Tableau 9. Implémentation des interfaces IGroup et IGroupCollection**
 
@@ -958,9 +958,9 @@ L'interface **IContactSubscription** vous permet de spécifier des contacts dont
 Le tableau 10 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactSubscription**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
-> Pour plus d'informations sur l'interface **IContactSubscription** et ses membres, consultez [UCCollaborationLib.IContactSubscription](http://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
+> Pour plus d'informations sur l'interface **IContactSubscription** et ses membres, consultez [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
 **Tableau 10. Implémentation de l’interface IContactSubscription**
 
@@ -991,9 +991,9 @@ L'interface **IContactEndPoint** représente un numéro de téléphone à partir
 Le tableau 11 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactEndPoint**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
-> Pour plus d'informations sur l'interface **IContactEndPoint** et ses membres, consultez [UCCollaborationLib.IContactEndpoint](http://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
+> Pour plus d'informations sur l'interface **IContactEndPoint** et ses membres, consultez [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
 **Tableau 11. Implémentation de l’interface IContactEndPoint**
 
@@ -1011,9 +1011,9 @@ L'interface **ILocaleString** est une structure de chaîne localisée contenant 
 Le tableau 12 affiche les membres qui doivent être implémentés dans les classes qui héritent de **ILocaleString**.
   
 > [!NOTE]
-> Tout membre de l'interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
-> Pour plus d'informations sur l'interface **ILocalString** et ses membres, voir [UCCollaborationLib.ILocaleString](http://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
+> Pour plus d'informations sur l'interface **ILocalString** et ses membres, voir [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   
 **Tableau 12. Implémentation de l’interface ILocaleString**
 
@@ -1024,6 +1024,6 @@ Le tableau 12 affiche les membres qui doivent être implémentés dans les class
    
 ## <a name="see-also"></a>Voir aussi
 
-- Espace de noms [UCCollaborationLib](http://msdn.microsoft.com/library/UCCollaborationLib) 
+- Espace de noms [UCCollaborationLib](https://msdn.microsoft.com/library/UCCollaborationLib) 
     
 

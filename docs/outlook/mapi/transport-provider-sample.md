@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3b3ae4170cab109ae96a51eae6e70c674895eeae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: def51a752abcb79a35980ed12eb73011c26d2597
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575783"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401404"
 ---
 # <a name="transport-provider-sample"></a>Exemple de fournisseur de transport
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cet exemple utilise les fichiers et répertoires pour transmettre et recevoir des messages. Il implémente et enregistre un préprocesseur très simple qui ajoute une ligne de texte à chaque message sortant. L’exemple montre comment fractionner le contenu des messages entre Neutral Encapsulation Format TNEF (Transport) et le texte. Il prend également en charge toutes les options de message et les options de configuration (feuilles de propriétés, les Assistants et la configuration de programmation). Il ne gère pas les interfaces de transport à distance. 
   
-Vous pouvez télécharger cet exemple à partir des [Exemples de Code Outlook MAPI (Messaging API)](http://go.microsoft.com/fwlink/?LinkId=129740).
+Vous pouvez télécharger cet exemple à partir des [Exemples de Code Outlook MAPI (Messaging API)](https://go.microsoft.com/fwlink/?LinkId=129740).
   
 |||
 |:-----|:-----|

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2acf0036-2f3e-4f90-8614-7aa667860f74
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c9c55aa308072db08e6103418be01f91d0d31a82
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b9c2a1bbf519379c1735c489c2dcd3fcfb395a60
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566312"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401614"
 ---
 # <a name="pidlidtimezonestruct-canonical-property"></a>Propriété canonique PidLidTimeZoneStruct
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux qui mappe sur le format persistant d’une structure [TZREG](http://msdn.microsoft.com/en-us/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’une demande de réunion ou un rendez-vous périodique. 
+Contient un flux qui mappe sur le format persistant d’une structure [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) , qui décrit le fuseau horaire à utiliser pour l’heure de début et de fin d’une demande de réunion ou un rendez-vous périodique. 
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Contient un flux qui mappe sur le format persistant d’une structure [TZREG](ht
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Office Outlook 2003, les versions antérieures d’Outlook et les applications basées sur Collaboration Data Objects (CDO) 1.21 dont les utilisateurs n’ont pas exécuter l’outil de mise à jour de calendrier fournie par Outlook ou Exchange Server stockent l’heure de début et heure de fin d’un périodique rendez-vous ou une demande de réunion en tant qu’heure relative et de stocker le fuseau horaire dans lequel la demande de réunion ou de rendez-vous est créée dans **dispidTimeZoneStruct**. Toutefois, ce schéma ignore qu’au fil du temps, les règles de fuseau horaire peuvent changer, entraînant des rendez-vous et des réunions que les utilisateurs avant les règles modifiées et se produisent à des moments incorrectes. Les utilisateurs et les administrateurs qui n’exécutent pas Windows Vista ou qui n’ont pas de mises à jour automatiques activées doivent utiliser le calendrier redéfinition des outils fournis par Outlook ou Exchange Server pour régler l’heure de ces rendez-vous et des demandes de réunion. Pour plus d’informations sur ces outils de redéfinition de calendrier et les API qui redéfinir des calendriers, voir [à propos des calendriers de redéfinition par programme à l’heure](http://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
+Microsoft Office Outlook 2003, les versions antérieures d’Outlook et les applications basées sur Collaboration Data Objects (CDO) 1.21 dont les utilisateurs n’ont pas exécuter l’outil de mise à jour de calendrier fournie par Outlook ou Exchange Server stockent l’heure de début et heure de fin d’un périodique rendez-vous ou une demande de réunion en tant qu’heure relative et de stocker le fuseau horaire dans lequel la demande de réunion ou de rendez-vous est créée dans **dispidTimeZoneStruct**. Toutefois, ce schéma ignore qu’au fil du temps, les règles de fuseau horaire peuvent changer, entraînant des rendez-vous et des réunions que les utilisateurs avant les règles modifiées et se produisent à des moments incorrectes. Les utilisateurs et les administrateurs qui n’exécutent pas Windows Vista ou qui n’ont pas de mises à jour automatiques activées doivent utiliser le calendrier redéfinition des outils fournis par Outlook ou Exchange Server pour régler l’heure de ces rendez-vous et des demandes de réunion. Pour plus d’informations sur ces outils de redéfinition de calendrier et les API qui redéfinir des calendriers, voir [à propos des calendriers de redéfinition par programme à l’heure](https://msdn.microsoft.com/library/38b342d9-ab10-04b6-5490-9a45f847a60f%28Office.15%29.aspx)
   
 Utilisez le format little-endian suivant lors de l’analyse d’un flux de données obtenu à partir de **dispidTimeZoneStruct**, ou lors de la persistance de la structure **TZREG** dans un flux pour valider à la propriété binaire **dispidTimeZoneStruct** . 
   
@@ -57,11 +57,11 @@ Cette propriété est définie sur une série périodique pour spécifier les in
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
     

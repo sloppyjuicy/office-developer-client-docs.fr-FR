@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: Contient une propriété d’une poignée de contrôle définie pour une forme.
-ms.openlocfilehash: ff9bd2111b0f5a6544638fb7b33a1a9b797ede7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ea54865a645486dfba53688278cb380142899d77
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788209"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401271"
 ---
 # <a name="cell-element-controls-row-visio-xml"></a>Élément de cellule (ligne) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient une propriété d’une poignée de contrôle définie pour une forme.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
    
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Section Controls)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contient une propriété d’une poignée de contrôle définie pour une forme.  <br/> |
+|[Élément de ligne (section Contrôles)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contient une propriété d’une poignée de contrôle définie pour une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -68,11 +68,11 @@ L’attribut **N** de cet élément de **cellule** doit être un ensemble limit�
 |:-----|:-----|:-----|
 |CanGlue  <br/> |Détermine si une poignée de contrôle peut être collée à d'autres formes.  <br/> |[Can Glue, cellule (section Controls)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Représente une chaîne de texte descriptive qui apparaît sous la forme d'une info-bulle lorsqu'un utilisateur maintient quelques instants le pointeur sur la poignée de contrôle d'une forme.  <br/> |[Tip, cellule (section Controls)](tip-cell-controls-section.md) <br/> |
-|X   <br/> |Représente la coordonnée x qui indique l’emplacement de la poignée de contrôle d’une forme dans le système de coordonnées local.  <br/> |[X, cellule (section Controls)](x-cell-controls-section.md) <br/> |
-|xCon  <br/> |Spécifie le type de comportement de la coordonnée x de la poignée de contrôle présente après que la poignée de déplacement.  <br/> |Aucun.  <br/> |
-|xDyn  <br/> |Représente la coordonnée x d’un point d’ancrage d’une poignée de contrôle dans le système de coordonnées local.  <br/> |[X Dynamics, cellule (section Controls)](x-dynamics-cell-controls-section.md) <br/> |
-|Y  <br/> |Représente la coordonnée y qui indique l’emplacement de la poignée de contrôle d’une forme dans le système de coordonnées local.  <br/> |[Y, cellule (section Controls)](y-cell-controls-section.md) <br/> |
-|YCon  <br/> |Spécifie le type de comportement de que la coordonnée y de la poignée de contrôle se présentera après que la poignée de déplacement.  <br/> |Aucun.  <br/> |
-|YDyn  <br/> |Représente la coordonnée y d’un point d’ancrage d’une poignée de contrôle dans le système de coordonnées local.  <br/> |[Y Dynamics, cellule (section Controls)](y-dynamics-cell-controls-section.md) <br/> |
+|X   <br/> |Représente la coordonnée x qui indique l'emplacement de la poignée de contrôle d'une forme. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[X, cellule (section Controls)](x-cell-controls-section.md) <br/> |
+|xCon  <br/> |Spécifie le type de comportement de la coordonnée x de la poignée de contrôle présente après que la poignée de déplacement.  <br/> |Aucune.  <br/> |
+|xDyn  <br/> |Représente la coordonnée x du point d'ancrage d'une poignée de contrôle. Cette coordonnée est exprimée dans le système de coordonnées locales.  <br/> |[X Dynamics, cellule (section Controls)](x-dynamics-cell-controls-section.md) <br/> |
+|Y  <br/> |Représente la coordonnée y qui indique l'emplacement de la poignée de contrôle d'une forme. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[Y, cellule (section Controls)](y-cell-controls-section.md) <br/> |
+|YCon  <br/> |Spécifie le type de comportement de que la coordonnée y de la poignée de contrôle se présentera après que la poignée de déplacement.  <br/> |Aucune.  <br/> |
+|YDyn  <br/> |Représente la coordonnée y du point d'ancrage d'une poignée de contrôle. Cette coordonnée est exprimée dans le système de coordonnées locales.  <br/> |[Y Dynamics, cellule (section Controls)](y-dynamics-cell-controls-section.md) <br/> |
    
 

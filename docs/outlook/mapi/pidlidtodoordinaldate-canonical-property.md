@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b19f36337459753e153a96021b1d70308b374bed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b0c5e3019efeeb0b9788d81e8730e976bfcc9d75
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577757"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401586"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>Propriété canonique PidLidToDoOrdinalDate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Détermine l’ordre de tri des objets dans une liste de tâches consolidée.
   
@@ -47,11 +47,11 @@ Lorsque cette propriété est utilisée pour trier les objets et les tri des ré
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
     
-[[MS-OXOFLAG]](http://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations liées aux marquage.
     

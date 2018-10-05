@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1baa987961eecc6ee08b3ceb039062c8f1090ff7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589552"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401642"
 ---
 # <a name="implementing-service-provider-logon"></a>Implémentation d’une ouverture de session de fournisseur de services
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI appelle une méthode dans votre objet de fournisseur pour commencer le processus d’ouverture de session en utilisant le pointeur vous renvoyez à partir de la fonction de point d’entrée. La méthode varie comme suit, en fonction du type de votre fournisseur de services :
   
@@ -29,7 +29,7 @@ MAPI appelle une méthode dans votre objet de fournisseur pour commencer le proc
     
 Effectuer les tâches suivantes dans n’importe quelle méthode d’ouverture de session vous implémentez :
   
-1. Incrémente le décompte de références sur l’objet de prise en charge qui est passé comme paramètre d’entrée en appelant la méthode [IUnknown::AddRef](http://msdn.microsoft.com/en-us/library/ms691379%28v=VS.85%29.aspx) . 
+1. Incrémente le décompte de références sur l’objet de prise en charge qui est passé comme paramètre d’entrée en appelant la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) . 
     
 2. Appeler la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) de l’objet de la prise en charge pour accéder à la section de profil. 
     

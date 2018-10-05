@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f7521d387fa45c191a67f2a20320fac700baed37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: b2adde7c5ecc75fda25b94d005fabfcd705d5d07
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567215"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401511"
 ---
 # <a name="pidtagscheduleinfodelegateentryids-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegateEntryIds
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient **identificateurs d’entrée** des délégués. 
   
@@ -42,11 +42,11 @@ Chaque entrée doit contenir la valeur de la propriété **PR_ENTRYID** ([PidTag
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXODLGT]](http://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
+[[MS-OXODLGT]](https://msdn.microsoft.com/library/01a89b11-9c43-4c40-b147-8f6a1ef5a44f%28Office.15%29.aspx)
   
 > Spécifie les méthodes pour la connexion et configurer des boîtes aux lettres en tant que les délégués et les interactions avec les objets de messagerie et de calendrier lorsqu’ils agissent au nom d’un autre utilisateur.
     

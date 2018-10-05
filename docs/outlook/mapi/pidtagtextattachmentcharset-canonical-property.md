@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cec34819cfa2c6e790f8808eb5bab70412f286b5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 1db41bc5c7ea71d65d892da520d4258354eb53cf
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591428"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401537"
 ---
 # <a name="pidtagtextattachmentcharset-canonical-property"></a>Propriété canonique PidTagTextAttachmentCharset
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur de jeu de caractères d’une pièce jointe.
   
 |||
 |:-----|:-----|
-|Propriétés associées :  <br/> |Aucun  <br/> |
+|Propriétés associées :  <br/> |Aucune  <br/> |
 |Identificateur :  <br/> |0x371B  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Pièce jointe de message  <br/> |
@@ -42,7 +42,7 @@ Données de cette propriété sont dérivées d’un champ d’en-tête MIME Con
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMAIL]](http://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
 > Convertit des conventions de messagerie standard Internet aux objets de message.
     

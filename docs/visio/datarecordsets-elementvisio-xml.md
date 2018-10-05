@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: Contient tous les éléments DataRecordset dans le document.
-ms.openlocfilehash: 205c4d963f111490698627040c190f322f2f36a1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 7730e55f0025181db193a1e64226e879f9072e90
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788415"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401488"
 ---
 # <a name="datarecordsets-element-visio-xml"></a>DataRecordSets, élément (« Visio XML »)
 
@@ -23,7 +23,7 @@ Contient tous les éléments **DataRecordset** dans le document.
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |recordsets.Xml  <br/> |
    
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
   
 ### <a name="parent-elements"></a>Éléments parents
 
-Aucun.
+Aucune.
   
 ### <a name="child-elements"></a>Éléments enfants
 

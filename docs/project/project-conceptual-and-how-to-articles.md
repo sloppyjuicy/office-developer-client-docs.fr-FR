@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: Recherchez des liens vers des informations dans cette section sur les principaux composants de la plateforme de Project 2013, mise en route avec le développement de modèle à l’aide de JavaScript et le .NET Framework, les compléments Office volet dans Project Professional 2013, l’Interface de Project Server et Service de création de rapports OData.
-ms.openlocfilehash: e19fae2a187a9a4f809eaec4d8dade128b9529bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e09df20f435816444b656927d4f6f0ebf6c38731
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570302"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401593"
 ---
 # <a name="project-conceptual-and-how-to-articles"></a>Articles conceptuelles et procédures Project
 
@@ -27,7 +27,7 @@ Project Server 2013 est basé sur l’infrastructure de service web Project Serv
   
 - [Modèle d’objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md) inclut les rubriques relatives à la mise en route avec le développement de modèle à l’aide de JavaScript et le .NET Framework. 
   
-- [Programmation du client Project](project-client-programming.md) comprend une introduction aux compléments de volet de tâches dans Project Professional 2013. Un kit de développement logiciel distinct inclut des articles et des références pour les compléments dans le projet et les autres clients Office 2013. Pour plus d’informations, voir la documentation pour les développeurs de [compléments Office](https://docs.microsoft.com/en-us/office/dev/add-ins/overview/office-add-ins) . 
+- [Programmation du client Project](project-client-programming.md) comprend une introduction aux compléments de volet de tâches dans Project Professional 2013. Un kit de développement logiciel distinct inclut des articles et des références pour les compléments dans le projet et les autres clients Office 2013. Pour plus d’informations, voir la documentation pour les développeurs de [compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) . 
   
 - [Tâches de programmation du projet](project-programming-tasks.md) montre comment développer des compléments pour Project 2013, créer des flux de travail pour la gestion de la demande, personnaliser le ruban Project Web App, créer des composants WebPart et bien plus encore. 
   
@@ -35,6 +35,6 @@ Project Server 2013 est basé sur l’infrastructure de service web Project Serv
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Référence de service web et la bibliothèque de classes de Project Server 2013](http://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
+- [Référence de service web et la bibliothèque de classes de Project Server 2013](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx)
   
 

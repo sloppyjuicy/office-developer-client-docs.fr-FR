@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b33d3d26c9369bd0a0e18cdf9e4b8ca850666657
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 7197159fd55016454de3fa806fc30d0700ef5f3d
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584869"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401754"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>Propriété canonique PidTagDeferredDeliveryTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la date et l’heure quand un expéditeur du message souhaite un message envoyé. 
   
@@ -42,11 +42,11 @@ MAPI n’effectue pas la remise différée ; Il est une option du système de m
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
     

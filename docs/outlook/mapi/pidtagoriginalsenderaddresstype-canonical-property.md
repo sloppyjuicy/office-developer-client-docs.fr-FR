@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ba0d68482c06a1f6d9ccdae95f63e980a1fd23e9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: d593b5ae1c2341ae0972ba68bcf42dde64e9a2f1
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563743"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401705"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSenderAddressType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le type d’adresse de l’expéditeur de la première version d’un message, autrement dit, le message avant d’être transférés ou une réponse.
   
@@ -42,11 +42,11 @@ Ces propriétés sont des exemples de propriétés d’adresse de l’expéditeu
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
     

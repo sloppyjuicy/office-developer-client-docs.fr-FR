@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e86e943-bd29-0a7b-3d6a-d91281f98777
 description: Spécifie les objets formes s’alignent lorsque l’alignement est actif dans la fenêtre.
-ms.openlocfilehash: 0e784ddf9d5e04dae20a6a811557455c476b11a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 68c2bd198a20047ce4f56fe06630177a17319191
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789771"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401677"
 ---
 # <a name="snapsettings-element-documentsettingstype-complextype-visio-xml"></a>SnapSettings, élément (DocumentSettings_Type, complexType) (« Visio XML »)
 
@@ -23,7 +23,7 @@ Spécifie les objets formes s’alignent lorsque l’alignement est actif dans l
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
 |**Parties de document** <br/> |document.Xml  <br/> |
    
@@ -50,7 +50,7 @@ Aucun.
   
 ### <a name="attributes"></a>Attributs
 
-Aucun.
+Aucune.
   
 ## <a name="remarks"></a>Remarques
 

@@ -1,25 +1,25 @@
 ---
-title: Développer avec Visual Studio
+title: Développement avec Visual Studio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Vous pouvez facilement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code managé dans Visual Studio 2012. Vous pouvez publier vos formulaires avec code aux bibliothèques de formulaires dans SharePoint Server 2013.
-ms.openlocfilehash: d6a2cfa1847b4b59b6978b8f4a0775aedf07a72d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782379"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401096"
 ---
-# <a name="develop-with-visual-studio"></a>Développer avec Visual Studio
+# <a name="develop-with-visual-studio"></a>Développement avec Visual Studio
 
 Vous pouvez facilement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code managé dans Visual Studio 2012. Vous pouvez publier vos formulaires avec code aux bibliothèques de formulaires dans SharePoint Server 2013.
   
 Vous pouvez commencer à programmer et à développer vos formulaires InfoPath avec code managé en suivant trois étapes importantes :
   
-1. Installez Visual Studio 2012 avec le module complémentaire [Microsoft Visual Studio Tools pour Applications 2012](http://www.microsoft.com/en-us/download/details.aspx?id=38807) . 
+1. Installez Visual Studio 2012 avec le module complémentaire [Microsoft Visual Studio Tools pour Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) . 
     
 2. Définissez votre langage de programmation, puis écrire et déboguer le code dans l’éditeur de code Visual Studio 2012.
     

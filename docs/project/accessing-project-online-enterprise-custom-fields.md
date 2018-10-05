@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 les entreprises peuvent étendre pour répondre aux besoins de l’entreprise. Une zone d’extension est des champs personnalisés d’entreprise (ECFs). ECFs sont des champs de valeur typée qui peuvent être ajoutés à des projets, des ressources et des tâches. Le tableau suivant répertorie les ECFs associer à des projets, des ressources et des tâches et fournit un exemple d’une valeur d’une instance de ce ECF :'
-ms.openlocfilehash: d560b258f2c9873844009cb6bc6e698abec029a6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 978fdfbf4ba75382ad85b9f92f8ac4df5c7f97c8
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584603"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401152"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
@@ -19,10 +19,10 @@ Project Online est un service Office 365 les entreprises peuvent étendre pour r
   
 |Nom ECF|Type ECF|Association|Exemple de valeur|
 |:-----|:-----|:-----|:-----|
-|Justification  <br/> |TEXT  <br/> |Project  <br/> |Un utilisateur final peut enregistrer les statistiques essentielles et des données d’intégrité, avec des résultats qui comprennent une évaluation de l’intégrité et d’une action personnalisée plan vers une meilleure santé.  <br/> |
-|Évaluation des risques  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
-|RETOUR SUR INVESTISSEMENT  <br/> |NOMBRE  <br/> |Project  <br/> |2,10  <br/> |
-|Coût total  <br/> |COÛT  <br/> |Project  <br/> |$1,031,514  <br/> |
+|Justification  <br/> |TEXT  <br/> |Projet  <br/> |Un utilisateur final peut enregistrer les statistiques essentielles et des données d’intégrité, avec des résultats qui comprennent une évaluation de l’intégrité et d’une action personnalisée plan vers une meilleure santé.  <br/> |
+|Évaluation des risques  <br/> |TEXT  <br/> |Projet  <br/> |Low  <br/> |
+|RETOUR SUR INVESTISSEMENT  <br/> |NOMBRE  <br/> |Projet  <br/> |2,10  <br/> |
+|Coût total  <br/> |COÛT  <br/> |Projet  <br/> |$1,031,514  <br/> |
 |Lancement de l’équipe  <br/> |TEXT  <br/> |Ressources  <br/> |Oui  <br/> |
 |Rôle de position  <br/> |TEXT  <br/> |Resources  <br/> |Testeur  <br/> |
 |État de l’indicateur  <br/> |INDICATEUR  <br/> |Task  <br/> |Non  <br/> |
@@ -207,7 +207,7 @@ La méthode ne vérifie pas si un projet utilise un ECF spécifique.
 
 - [Portail de développement Project](https://developer.microsoft.com/en-us/project)
 - [Vue d’ensemble : Tables de choix et champs personnalisés d’entreprise](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- [Local et champs personnalisés d’entreprise](https://msdn.microsoft.com/en-us/library/office/ms447495(v=office.14).aspx)
-- [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/en-us/project/add-or-edit-enterprise-custom-fields-in-project-server)
+- [Local et champs personnalisés d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
+- [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 

@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 507e0f2c-383c-4e2f-917b-159913f7234d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f6de157864bff5be41b6e030d555be7b60dcda5e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 474ffaf2317cadd214074419f09bb913b1eee4ff
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594753"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401502"
 ---
 # <a name="pidtagattachnumber-canonical-property"></a>Propriété canonique PidTagAttachNumber
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un numéro qui identifie de manière unique la pièce jointe dans un message de son parent. 
   
@@ -46,7 +46,7 @@ La banque de messages propage les modifications à la table à l’aide des mét
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     

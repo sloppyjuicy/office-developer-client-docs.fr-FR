@@ -8,16 +8,16 @@ api_type:
 - COM
 ms.assetid: bbf99c4b-3008-4475-a60a-648eaed59d01
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2f7e1c131bcdaa19fa4001c0ca566714cfffa456
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8b7afa8f3c04cb479906f721db8de90e8cf66f11
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571422"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401453"
 ---
 # <a name="create-a-simple-mail-item"></a>Créer un élément de courrier simple
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI peut être utilisé pour créer et envoyer un message qui demande une confirmation de lecture. Si une confirmation de lecture est demandée, le système de messagerie génère et renvoie un rapport de lecture à l’expéditeur lorsque le destinataire ouvre le message.
   
@@ -139,5 +139,5 @@ HRESULT AddMail(LPMAPISESSION lpMAPISession,
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer des éléments Outlook 2007](http://msdn.microsoft.com/en-us/library/cc678348%28office.12%29.aspx)
+- [Utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

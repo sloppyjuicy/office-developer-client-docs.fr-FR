@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3d692894-a0c1-b9dc-1196-07ecaa72afee
-description: Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation.
-ms.openlocfilehash: 6e1b9ee36f541550a9643dd5b7eca3acbdd946e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation.
+ms.openlocfilehash: e9b6b00609d4a3dda2a389957614ac93f9f7bacd
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787696"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401684"
 ---
 # <a name="outlook-developer-reference-copyright-notice"></a>Notice de copyright de référence du développeur Outlook
 
-Ce document est fourni en l'état. Les informations et les éléments visuels contenus dans ce document, y compris les URL et les autres références à des sites Internet, peuvent faire l'objet de modifications sans préavis. Vous assumez tous les risques liés à son utilisation. 
+Ce document est fourni en l'état. Informations et des vues exprimées dans ce document, y compris les URL et autres références à des sites Internet, peuvent changer sans préavis. Vous assumez tous les risques liés à son utilisation. 
   
 Certains exemples décrits dans ce document sont fournis à titre d'illustration uniquement et sont fictifs. Aucune association ou connexion réelle n'est voulue ni ne doit être inférée.
   

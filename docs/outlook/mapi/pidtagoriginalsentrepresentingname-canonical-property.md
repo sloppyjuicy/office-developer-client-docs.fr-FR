@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1be45cad-05a2-44cb-8c3d-7f6ac092fa0d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a2d7261aadd304b731fbf0d88cbd93cbdc07c118
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 771a7c9cdf37a94875c881d8d7e8fd292893a0ba
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587340"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401481"
 ---
 # <a name="pidtagoriginalsentrepresentingname-canonical-property"></a>Propriété canonique PidTagOriginalSentRepresentingName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient le nom complet de l’utilisateur de messagerie pour le compte duquel le message d’origine a été envoyé.
   
@@ -44,11 +44,11 @@ Une application cliente envoie un message de la part d’un autre client doit d�
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXPROPS]](http://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
 > Fournit des références aux spécifications du protocole Exchange Server associées.
     
-[[MS-OXOMSG]](http://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
     

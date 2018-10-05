@@ -7,19 +7,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f82d5a13066294e8c007f70cd7f54d286ab8b02d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 36d75c0a3a5f4767bfb0eeb0f9ae3d0c249b084b
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579360"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401768"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>Mappage des noms de propriétés canoniques aux noms MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique mappe chaque nom de propriété canonique à la propriété MAPI ou les propriétés qu’il représente. La rubrique contient trois tables : une table de propriétés nommées avec des identificateurs numériques, une seconde table pour les propriétés nommées avec les identificateurs de chaîne et une troisième table des propriétés avec balise.
   
@@ -326,7 +326,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |CreateDtmRo  <br/> |
 |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Référence croisée  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |EditTime  <br/> |
-|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |HiddenCount  <br/> |
 |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Keywords  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
@@ -336,7 +336,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Manager  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |MMClipCount  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |NoteCount  <br/> |
-|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|[PidNameOutlookPhishingstamp](pidnamephishingstamp-canonical-property.md) <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |[PidNamePageCount](pidnamepagecount-canonical-property.md) <br/> |PageCount  <br/> |
 |[PidNameParagraphCount](pidnameparagraphcount-canonical-property.md) <br/> |ParCount  <br/> |
 |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |PresFormat  <br/> |
@@ -577,7 +577,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md) <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |[PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md) <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |[PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md) <br/> |PR_IDENTITY_SEARCH_KEY  <br/> |
-|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |Aucun  <br/> |
+|[PidTagImapCachedMsgsize](pidtagimapcachedmsgsize-canonical-property.md) <br/> |Aucune  <br/> |
 |[PidTagImplicitConversionProhibited](pidtagimplicitconversionprohibited-canonical-property.md) <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |[PidTagImportance](pidtagimportance-canonical-property.md) <br/> |PR_IMPORTANCE  <br/> |
 |[PidTagIncompleteCopy](pidtagincompletecopy-canonical-property.md) <br/> |PR_INCOMPLETE_COPY  <br/> |
@@ -959,7 +959,7 @@ Pour plus d’informations sur les propriétés comment canoniques relatives aux
 |[PidTagTelecommunicationsDeviceForDeafTelephoneNumber](pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property.md) <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |[PidTagTelexNumber](pidtagtelexnumber-canonical-property.md) <br/> |PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W  <br/> |
 |[PidTagTemplateid](pidtagtemplateid-canonical-property.md) <br/> |PR_TEMPLATEID  <br/> |
-|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |Aucun  <br/> |
+|[PidTagTextAttachmentCharset](pidtagtextattachmentcharset-canonical-property.md) <br/> |Aucune  <br/> |
 |[PidTagTitle](pidtagtitle-canonical-property.md) <br/> |PR_TITLE, PR_TITLE_A, PR_TITLE_W  <br/> |
 |[PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md) <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
 |[PidTagTnefUnprocessedProps](pidtagtnefunprocessedprops-canonical-property.md) <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |

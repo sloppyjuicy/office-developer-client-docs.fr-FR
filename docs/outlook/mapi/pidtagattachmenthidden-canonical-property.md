@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b1604ae36bc20dc799fb21dec4c8742df4670ea1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: Dernière modification le 9 mars 2015
+ms.openlocfilehash: 90900b2af87f06928f22eb321c7c0f620a9a2844
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581628"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25401386"
 ---
 # <a name="pidtagattachmenthidden-canonical-property"></a>Propriété canonique PidTagAttachmentHidden
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si une pièce jointe est masquée à partir de l’utilisateur final.
   
@@ -38,11 +38,11 @@ Indique si une pièce jointe est masquée à partir de l’utilisateur final.
 
 ### <a name="protocol-specifications"></a>Spécifications du protocole
 
-[[MS-OXCMSG]](http://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Gère les objets de message et la pièce jointe.
     
-[[MS-OXOCAL]](http://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Définit les structures de base de données qui sont utilisés dans les opérations à distance.
     
