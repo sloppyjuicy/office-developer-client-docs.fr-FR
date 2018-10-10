@@ -1,0 +1,183 @@
+---
+title: Database.CreateRelation Method (DAO)
+TOCTitle: CreateRelation Method
+ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff835692(v=office.15)
+ms:contentKeyID: 48548279
+ms.date: 09/18/2015
+mtps_version: v=office.15
+f1_keywords:
+- dao360.chm1052969
+f1_categories:
+- Office.Version=v15
+ms.openlocfilehash: c7b3c69090a9879f622153f67e2aa264d18a8497
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25472318"
+---
+# <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation Method (DAO)
+
+**S’applique à**: Access 2013 | Office 2013
+
+Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail Microsoft Access uniquement).
+
+## <a name="syntax"></a>Syntaxe
+
+*expression* . CreateRelation (***nom de*** ***Table***, ***ForeignTable***, ***attributs***)
+
+*expression* Variable qui représente un objet de **base de données** .
+
+### <a name="parameters"></a>Paramètres
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Name</p></th>
+<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Type de données</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Name</p></td>
+<td><p>Facultatif</p></td>
+<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</p></td>
+</tr>
+<tr class="even">
+<td><p>Table</p></td>
+<td><p>Facultatif</p></td>
+<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
+</tr>
+<tr class="odd">
+<td><p>ForeignTable</p></td>
+<td><p>Facultatif</p></td>
+<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table étrangère dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
+</tr>
+<tr class="even">
+<td><p>Attributs</p></td>
+<td><p>Facultatif</p></td>
+<td><p><strong>Variante</strong></p></td>
+<td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus d’informations, consultez la propriété <strong><a href="field-attributes-property-dao.md">Attributes</a></strong>.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### <a name="return-value"></a>Valeur renvoyée
+
+Relation
+
+## <a name="remarks"></a>Remarques
+
+L'objet **Relation** fournit des informations au moteur de base de données Microsoft Access sur la relation entre les champs dans deux objets **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)**. Vous pouvez implémenter l'intégrité référentielle en utilisant la propriété **Attributes**.
+
+Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateRelation**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété correspondante avant d'ajouter le nouvel objet à la collection. Après l'ajout de l'objet, il est impossible de modifier les paramètres de ses propriétés. Pour plus d'informations, consultez les rubriques des différentes propriétés.
+
+Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.
+
+Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms des objets **champ** fournies dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’exécution se produit lorsque vous utilisez la méthode **Append** .
+
+Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.
+
+Pour supprimer un objet **Relation** de la collection **[Relations](relations-collection-dao.md)**, appelez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection.
+
+## <a name="example"></a>Exemple
+
+L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il illustre également comment la création d'un objet **Relation** entraîne celle des objets **Indexes** nécessaires dans la table étrangère (index DepartmentsEmployees de la table Employees).
+
+```vb
+    Sub CreateRelationX() 
+     
+     Dim dbsNorthwind As Database 
+     Dim tdfEmployees As TableDef 
+     Dim tdfNew As TableDef 
+     Dim idxNew As Index 
+     Dim relNew As Relation 
+     Dim idxLoop As Index 
+     
+     Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
+     
+     With dbsNorthwind 
+     ' Add new field to Employees table. 
+     Set tdfEmployees = .TableDefs!Employees 
+     tdfEmployees.Fields.Append _ 
+     tdfEmployees.CreateField("DeptID", dbInteger, 2) 
+     
+     ' Create new Departments table. 
+     Set tdfNew = .CreateTableDef("Departments") 
+     
+     With tdfNew 
+     ' Create and append Field objects to Fields 
+     ' collection of the new TableDef object. 
+     .Fields.Append .CreateField("DeptID", dbInteger, 2) 
+     .Fields.Append .CreateField("DeptName", dbText, 20) 
+     
+     ' Create Index object for Departments table. 
+     Set idxNew = .CreateIndex("DeptIDIndex") 
+     ' Create and append Field object to Fields 
+     ' collection of the new Index object. 
+     idxNew.Fields.Append idxNew.CreateField("DeptID") 
+     ' The index in the primary table must be Unique in 
+     ' order to be part of a Relation. 
+     idxNew.Unique = True 
+     .Indexes.Append idxNew 
+     End With 
+     
+     .TableDefs.Append tdfNew 
+     
+     ' Create EmployeesDepartments Relation object, using 
+     ' the names of the two tables in the relation. 
+     Set relNew = .CreateRelation("EmployeesDepartments", _ 
+     tdfNew.Name, tdfEmployees.Name, _ 
+     dbRelationUpdateCascade) 
+     
+     ' Create Field object for the Fields collection of the 
+     ' new Relation object. Set the Name and ForeignName 
+     ' properties based on the fields to be used for the 
+     ' relation. 
+     relNew.Fields.Append relNew.CreateField("DeptID") 
+     relNew.Fields!DeptID.ForeignName = "DeptID" 
+     .Relations.Append relNew 
+     
+     ' Print report. 
+     Debug.Print "Properties of " & relNew.Name & _ 
+     " Relation" 
+     Debug.Print " Table = " & relNew.Table 
+     Debug.Print " ForeignTable = " & _ 
+     relNew.ForeignTable 
+     Debug.Print "Fields of " & relNew.Name & " Relation" 
+     
+     With relNew.Fields!DeptID 
+     Debug.Print " " & .Name 
+     Debug.Print " Name = " & .Name 
+     Debug.Print " ForeignName = " & .ForeignName 
+     End With 
+     
+     Debug.Print "Indexes in " & tdfEmployees.Name & _ 
+     " TableDef" 
+     For Each idxLoop In tdfEmployees.Indexes 
+     Debug.Print " " & idxLoop.Name & _ 
+     ", Foreign = " & idxLoop.Foreign 
+     Next idxLoop 
+     
+     ' Delete new objects because this is a demonstration. 
+     .Relations.Delete relNew.Name 
+     .TableDefs.Delete tdfNew.Name 
+     tdfEmployees.Fields.Delete "DeptID" 
+     .Close 
+     End With 
+     
+    End Sub
+```
