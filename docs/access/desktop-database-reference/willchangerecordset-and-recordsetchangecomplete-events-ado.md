@@ -1,0 +1,63 @@
+---
+title: WillChangeRecordset et RecordsetChangeComplete, événements (ADO)
+TOCTitle: WillChangeRecordset and RecordsetChangeComplete Events (ADO)
+ms:assetid: 2cec4cf9-a4e9-c386-5202-04e86f4cf8ad
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
+ms:contentKeyID: 48543963
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7f9126005d8f11f859a3f45cbfec08e6612b59ac
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25470084"
+---
+# <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>WillChangeRecordset et RecordsetChangeComplete, événements (ADO)
+
+
+**S’applique à**: Access 2013 | Office 2013
+
+
+L'événement **WillChangeRecordset** est appelé avant qu'une opération en attente modifie l'objet [Recordset](recordset-object-ado.md). À l'inverse, l'événement **RecordsetChangeComplete** est appelé après cette modification de l'objet **Recordset**.
+
+## <a name="syntax"></a>Syntaxe
+
+WillChangeRecordset*adReason*, *adStatus*, *Connection*
+
+RecordsetChangeComplete*adReason*, *pError*, *adStatus*, *Connection*
+
+## <a name="parameters"></a>Paramètres
+
+  - *adReason*
+
+  - Valeur [EventReasonEnum](eventreasonenum.md) indiquant la raison de cet événement. Les valeurs possibles sont **adRsnRequery**, **adRsnResynch**, **adRsnClose** et **adRsnOpen**.
+
+  - *adStatus*
+
+  - [EventStatusEnum](eventstatusenum.md)
+    
+    Lorsque **WillChangeRecordset** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en attente.
+    
+    Lorsque **RecordsetChangeComplete** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement, à **adStatusErrorsOccurred** si cette dernière a échoué ou encore à **adStatusCancel** si l'opération associée à l'événement **WillChangeRecordset** précédemment accepté a été annulée
+    
+    Avant que **WillChangeRecordset** soit retourné, définissez ce paramètre à **adStatusCancel** pour demander l'annulation de l'opération en attente ou à adStatusUnwantedEvent pour éviter toute notification ultérieure.
+    
+    Avant que **WillChangeRecordset** ou que **RecordsetChangeComplete** soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure.
+
+  - *pError*
+
+  - Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.
+
+  - *Connection*
+
+  - Objet **Recordset**. Le **jeu d’enregistrements** pour laquelle cet événement se produit.
+
+## <a name="remarks"></a>Notes
+
+Les méthodes de **l’objet Recordset** [Requery](requery-method-ado.md) ou [Open](open-method-ado-recordset.md) peut entraîner un **WillChangeRecordset** ou **RecordsetChangeComplete** .
+
+Si le fournisseur ne prend pas en charge les signets, une notification d'événement **RecordsetChange** est générée chaque fois que des nouvelles lignes sont extraites du fournisseur. La fréquence de cet événement dépend de la propriété **RecordsetCacheSize**.
+
+Vous devez affecter au paramètre **adStatus** la valeur **adStatusUnwantedEvent** pour chaque valeur possible du paramètre **adReason** afin d'empêcher définitivement les notifications des événements comprenant un paramètre **adReason**.
+

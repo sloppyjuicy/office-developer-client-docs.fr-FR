@@ -1,0 +1,45 @@
+---
+title: Name, propriété (ADOX)
+TOCTitle: Name Property (ADOX)
+ms:assetid: c92a3b2b-6e3f-1ed9-c7be-bf348a0737af
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249979(v=office.15)
+ms:contentKeyID: 48547674
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 51ea68718c7605df03ed8e4d44d4cb48011649fd
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25469366"
+---
+# <a name="name-property-adox"></a>Name, propriété (ADOX)
+
+
+**S’applique à**: Access 2013 | Office 2013
+
+Indique le nom de l'objet.
+
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+
+Définit ou renvoie une valeur de type **String**.
+
+## <a name="remarks"></a>Notes
+
+Les noms ne doivent pas être uniques dans une collection.
+
+La propriété **Name** est en lecture/écriture dans la [colonne](column-object-adox.md), [groupe](group-object-adox.md), [Key](key-object-adox.md), [Index](index-object-adox.md), [Table](table-object-adox.md)et les objets [utilisateur](user-object-adox.md) . La propriété **Name** est en lecture seule sur les objets de [catalogue](catalog-object-adox.md), [Procedure](procedure-object-adox.md)et [View](view-object-adox.md) .
+
+Pour les objets en lecture/écriture (**Column**, **Group**, **Key**, **Index**, **Table** et **User**), la valeur par défaut est une chaîne vide ("").
+
+
+> [!NOTE]
+> <P>[!REMARQUE] Pour les clés, cette propriété est en lecture seule sur les objets <STRONG>Key</STRONG> déjà ajoutés à une collection.</P>
+
+
+
+
+> [!NOTE]
+> <P>[!REMARQUE] Pour les tables, elle est en lecture seule sur les objets <STRONG>Table</STRONG> déjà ajoutés à une collection.</P>
+
+
