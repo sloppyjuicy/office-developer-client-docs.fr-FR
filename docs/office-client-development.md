@@ -1,84 +1,75 @@
 ---
 title: Développement de client Office
-ms.date: 04/20/2016
+ms.date: 10/09/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.
-ms.openlocfilehash: db2df53f2d150e83c20438aa00d52cfcbe8223fa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401264"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454487"
 ---
-# <a name="office-client-development"></a><span data-ttu-id="df8f2-103">Développement de client Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-103">Office client development</span></span>
+# <a name="office-client-development"></a><span data-ttu-id="3a07f-103">Développement de client Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-103">Office client development</span></span>
 
-<span data-ttu-id="df8f2-104">Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.</span><span class="sxs-lookup"><span data-stu-id="df8f2-104">Find how-to content, sample code, SDK and API documentation, VBA references, training, and articles for developing solutions and customizing Office.</span></span>
+<span data-ttu-id="3a07f-104">Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.</span><span class="sxs-lookup"><span data-stu-id="3a07f-104">Find how-to content, sample code, SDK and API documentation, VBA references, training, and articles for developing solutions and customizing Office.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="df8f2-p101">Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="df8f2-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span> 
+> <span data-ttu-id="3a07f-p101">Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span><span class="sxs-lookup"><span data-stu-id="3a07f-p101">Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).</span></span> 
+
   
-### <a name="viewed-most"></a><span data-ttu-id="df8f2-107">Articles populaires</span><span class="sxs-lookup"><span data-stu-id="df8f2-107">Viewed most</span></span>
+### <a name="office-add-ins"></a><span data-ttu-id="3a07f-107">Compléments Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-107">Office Add-ins</span></span>
   
-- [<span data-ttu-id="df8f2-108">Référence de la bibliothèque d’objets VBA Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-108">Office VBA Object library reference</span></span>](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
+- [<span data-ttu-id="3a07f-108">Prise en main</span><span class="sxs-lookup"><span data-stu-id="3a07f-108">Get started</span></span>](https://docs.microsoft.com/office/dev/add-ins/)
   
-- [<span data-ttu-id="df8f2-109">Référence de langage VBA pour Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-109">Office VBA language reference</span></span>](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
+- [<span data-ttu-id="3a07f-109">Vue d’ensemble de la plateforme</span><span class="sxs-lookup"><span data-stu-id="3a07f-109">Platform overview</span></span>](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
-- [<span data-ttu-id="df8f2-110">Office 2010</span><span class="sxs-lookup"><span data-stu-id="df8f2-110">Office 2010</span></span>](https://msdn.microsoft.com/library/office/cc313152%28v=office.12%29.aspx)
+### <a name="sharepoint-add-ins"></a><span data-ttu-id="3a07f-110">Compléments SharePoint</span><span class="sxs-lookup"><span data-stu-id="3a07f-110">SharePoint Add-ins</span></span>
   
-### <a name="office-add-ins"></a><span data-ttu-id="df8f2-111">Compléments Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-111">Office Add-ins</span></span>
+- [<span data-ttu-id="3a07f-111">Prise en main</span><span class="sxs-lookup"><span data-stu-id="3a07f-111">Get started</span></span>](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
-- [<span data-ttu-id="df8f2-112">Prise en main</span><span class="sxs-lookup"><span data-stu-id="df8f2-112">Get started</span></span>](https://dev.office.com/getting-started/addins)
+### <a name="visual-studio-tools-for-office"></a><span data-ttu-id="3a07f-112">Visual Studio Tools pour Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-112">Visual Studio Tools for Office</span></span>
   
-- [<span data-ttu-id="df8f2-113">Vue d’ensemble de la plateforme</span><span class="sxs-lookup"><span data-stu-id="df8f2-113">Platform overview</span></span>](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [<span data-ttu-id="3a07f-113">Compléments VSTO pour Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-113">VSTO Add-ins for Office</span></span>](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
-### <a name="sharepoint-add-ins"></a><span data-ttu-id="df8f2-114">Compléments SharePoint</span><span class="sxs-lookup"><span data-stu-id="df8f2-114">SharePoint Add-ins</span></span>
+### <a name="office-client-vba-references"></a><span data-ttu-id="3a07f-114">Références VBA pour les clients Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-114">Office client VBA references</span></span>
   
-- [<span data-ttu-id="df8f2-115">Prise en main</span><span class="sxs-lookup"><span data-stu-id="df8f2-115">Get started</span></span>](https://dev.office.com/getting-started)
+- [<span data-ttu-id="3a07f-115">Access</span><span class="sxs-lookup"><span data-stu-id="3a07f-115">Access</span></span>](access/access-home.md)
   
-- [<span data-ttu-id="df8f2-116">Vue d’ensemble de la plateforme</span><span class="sxs-lookup"><span data-stu-id="df8f2-116">Platform overview</span></span>](https://msdn.microsoft.com/library/office/fp179930.aspx)
+- [<span data-ttu-id="3a07f-116">Excel</span><span class="sxs-lookup"><span data-stu-id="3a07f-116">Excel</span></span>](excel/excel-home.md)
   
-### <a name="visual-studio-tools-for-office"></a><span data-ttu-id="df8f2-117">Visual Studio Tools pour Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-117">Visual Studio Tools for Office</span></span>
+- [<span data-ttu-id="3a07f-117">InfoPath</span><span class="sxs-lookup"><span data-stu-id="3a07f-117">InfoPath</span></span>](infopath/infopath-home.md)
   
-- [<span data-ttu-id="df8f2-118">Compléments VSTO pour Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-118">VSTO Add-ins for Office</span></span>](https://msdn.microsoft.com/library/jj620922.aspx)
+- [<span data-ttu-id="3a07f-118">Référence de la bibliothèque d’objets VBA Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-118">Office VBA Object library reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-### <a name="office-client-vba-references"></a><span data-ttu-id="df8f2-119">Références VBA pour les clients Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-119">Office client VBA references</span></span>
+- [<span data-ttu-id="3a07f-119">Référence de langage VBA pour Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-119">Office VBA language reference</span></span>](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [<span data-ttu-id="df8f2-120">Access</span><span class="sxs-lookup"><span data-stu-id="df8f2-120">Access</span></span>](https://msdn.microsoft.com/library/fp179695.aspx)
+- [<span data-ttu-id="3a07f-120">Office partagé</span><span class="sxs-lookup"><span data-stu-id="3a07f-120">Office shared</span></span>](shared/office-shared.md)
   
-- [<span data-ttu-id="df8f2-121">Excel</span><span class="sxs-lookup"><span data-stu-id="df8f2-121">Excel</span></span>](https://msdn.microsoft.com/library/fp179694.aspx)
+- <span data-ttu-id="3a07f-121">[OneNote](onenote/onenote-home.md) (API uniquement pour les solutions de client de bureau OneNote Win32 dans les scénarios non connectés)</span><span class="sxs-lookup"><span data-stu-id="3a07f-121">[OneNote](onenote/onenote-home.md) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios)</span></span> 
   
-- [<span data-ttu-id="df8f2-122">InfoPath</span><span class="sxs-lookup"><span data-stu-id="df8f2-122">InfoPath</span></span>](https://msdn.microsoft.com/library/fp179694.aspx)
+- [<span data-ttu-id="3a07f-122">Outlook</span><span class="sxs-lookup"><span data-stu-id="3a07f-122">Outlook</span></span>](outlook/outlook-home.md)
   
-- [<span data-ttu-id="df8f2-123">Référence de la bibliothèque d’objets VBA Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-123">Office VBA Object library reference</span></span>](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
+- [<span data-ttu-id="3a07f-123">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="3a07f-123">PowerPoint</span></span>](powerpoint-home.md)
   
-- [<span data-ttu-id="df8f2-124">Référence de langage VBA pour Office</span><span class="sxs-lookup"><span data-stu-id="df8f2-124">Office VBA language reference</span></span>](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
+- [<span data-ttu-id="3a07f-124">Project</span><span class="sxs-lookup"><span data-stu-id="3a07f-124">Project</span></span>](project/project-home.md)
   
-- [<span data-ttu-id="df8f2-125">Office partagé</span><span class="sxs-lookup"><span data-stu-id="df8f2-125">Office shared</span></span>](https://msdn.microsoft.com/library/hh872753.aspx)
+- [<span data-ttu-id="3a07f-125">Publisher</span><span class="sxs-lookup"><span data-stu-id="3a07f-125">Publisher</span></span>](publisher-home.md)
   
-- <span data-ttu-id="df8f2-126">[OneNote](https://msdn.microsoft.com/library/jj680121.aspx) (API uniquement pour les solutions de client de bureau OneNote Win32 dans les scénarios non connectés)</span><span class="sxs-lookup"><span data-stu-id="df8f2-126">[OneNote](https://msdn.microsoft.com/library/jj680121.aspx) (APIs only for OneNote Win32 desktop client solutions in unconnected scenarios)</span></span> 
+- [<span data-ttu-id="3a07f-126">Visio</span><span class="sxs-lookup"><span data-stu-id="3a07f-126">Visio</span></span>](visio/visio-home.md)
   
-- [<span data-ttu-id="df8f2-127">Outlook</span><span class="sxs-lookup"><span data-stu-id="df8f2-127">Outlook</span></span>](https://msdn.microsoft.com/library/fp161224.aspx)
+- [<span data-ttu-id="3a07f-127">Word</span><span class="sxs-lookup"><span data-stu-id="3a07f-127">Word</span></span>](word/word-home.md)
   
-- [<span data-ttu-id="df8f2-128">PowerPoint</span><span class="sxs-lookup"><span data-stu-id="df8f2-128">PowerPoint</span></span>](https://msdn.microsoft.com/library/fp161225.aspx)
+### <a name="code-samples"></a><span data-ttu-id="3a07f-128">Exemples de code</span><span class="sxs-lookup"><span data-stu-id="3a07f-128">Code samples</span></span>
   
-- [<span data-ttu-id="df8f2-129">Project</span><span class="sxs-lookup"><span data-stu-id="df8f2-129">Project</span></span>](https://msdn.microsoft.com/library/fp161358.aspx)
+- [<span data-ttu-id="3a07f-129">Exemples de code client Office</span><span class="sxs-lookup"><span data-stu-id="3a07f-129">Office client code samples on dev.office.com</span></span>](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
   
-- [<span data-ttu-id="df8f2-130">Publisher</span><span class="sxs-lookup"><span data-stu-id="df8f2-130">Publisher</span></span>](https://msdn.microsoft.com/library/jj684499.aspx)
+- [<span data-ttu-id="3a07f-130">Exemples de code VBA</span><span class="sxs-lookup"><span data-stu-id="3a07f-130">VBA code samples on MSDN</span></span>](https://code.msdn.microsoft.com/office/site/search?query=VBA&f%5B0%5D.Value=VBA&f%5B0%5D.Type=SearchText&ac=4)
   
-- [<span data-ttu-id="df8f2-131">Visio</span><span class="sxs-lookup"><span data-stu-id="df8f2-131">Visio</span></span>](https://msdn.microsoft.com/library/fp161226.aspx)
+### <a name="other-resources"></a><span data-ttu-id="3a07f-131">Autres ressources</span><span class="sxs-lookup"><span data-stu-id="3a07f-131">Other resources</span></span>
   
-- [<span data-ttu-id="df8f2-132">Word</span><span class="sxs-lookup"><span data-stu-id="df8f2-132">Word</span></span>](https://msdn.microsoft.com/library/fp179696.aspx)
-  
-### <a name="code-samples"></a><span data-ttu-id="df8f2-133">Exemples de code</span><span class="sxs-lookup"><span data-stu-id="df8f2-133">Code samples</span></span>
-  
-- [<span data-ttu-id="df8f2-134">Exemples de code client Office sur dev.office.com</span><span class="sxs-lookup"><span data-stu-id="df8f2-134">Office client code samples on dev.office.com</span></span>](https://dev.office.com/code-samples)
-  
-- [<span data-ttu-id="df8f2-135">Exemples de code VBA sur MSDN</span><span class="sxs-lookup"><span data-stu-id="df8f2-135">VBA code samples on MSDN</span></span>](https://code.msdn.microsoft.com/office/site/search?query=VBA&amp;f%5B0%5D.Value=VBA&amp;f%5B0%5D.Type=SearchText&amp;ac=4)
-  
-### <a name="other-resources"></a><span data-ttu-id="df8f2-136">Autres ressources</span><span class="sxs-lookup"><span data-stu-id="df8f2-136">Other resources</span></span>
-  
-- [<span data-ttu-id="df8f2-137">Open XML SDK</span><span class="sxs-lookup"><span data-stu-id="df8f2-137">Open XML SDK</span></span>](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [<span data-ttu-id="3a07f-132">Open XML SDK</span><span class="sxs-lookup"><span data-stu-id="3a07f-132">Open XML SDK</span></span>](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
 
