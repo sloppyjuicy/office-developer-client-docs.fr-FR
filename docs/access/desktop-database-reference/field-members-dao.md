@@ -1,0 +1,165 @@
+---
+title: Field Members (DAO)
+TOCTitle: Field Members
+ms:assetid: 4b6a587f-1fd0-37fb-db7d-75b587a8dc60
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
+ms:contentKeyID: 48544689
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5270acfe22d4b19447290be7f626185b5375cdbf
+ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25472185"
+---
+# <a name="field-members-dao"></a>Field Members (DAO)
+
+
+**S’applique à**: Access 2013 | Office 2013
+
+Un objet Field représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.
+
+## <a name="methods"></a>Méthodes
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nom</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong><a href="field-appendchunk-method-dao.md">AppendChunk</a></strong></p></td>
+<td><p>Ajoute des données issues d'une expression de chaîne à un objet <strong><a href="field-object-dao.md">Field</a></strong> de type mémo ou binaire long dans un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
+<td><p>Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-getchunk-method-dao.md">GetChunk</a></strong></p></td>
+<td><p>Renvoie tout ou partie du contenu d'un objet <strong><strong>Field</strong></strong> de type <a href="field-object-dao.md">Memo</a> ou <strong>Long Binary</strong> appartenant à la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+## <a name="properties"></a>Propriétés
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nom</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><strong><a href="field-allowzerolength-property-dao.md">AllowZeroLength</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui indique si une chaîne de longueur nulle (&quot;&quot;) est un paramètre valid pour la propriété <strong><a href="field-value-property-dao.md">Value</a></strong> de l’objet <strong><a href="field-object-dao.md">Field</a></strong> avec un type de données texte ou Mémo (espaces de travail Microsoft Access uniquement).</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-attributes-property-dao.md">Attributs</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. Valeur de type <strong>Long</strong> en lecture/écriture.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-collatingorder-property-dao.md">CollatingOrder</a></strong></p></td>
+<td><p>Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la comparaison ou le tri de chaînes de caractères (espaces de travail Microsoft Access uniquement). Valeur <strong>Long</strong> en lecture seule.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-dataupdatable-property-dao.md">DataUpdatable</a></strong></p></td>
+<td><p>Renvoie une valeur qui indique si les données du champ représenté par un objet <strong><a href="field-object-dao.md">Field</a></strong> peuvent être modifiées.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-defaultvalue-property-dao.md">DefaultValue</a></strong></p></td>
+<td><p>Définit ou renvoie la valeur par défaut d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. Cette propriété est en lecture-écriture si l'objet <strong>Field</strong> n'est pas encore ajouté à la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-fieldsize-property-dao.md">Taille du champ</a></strong></p></td>
+<td><p>Renvoie le nombre d'octets utilisés dans la base de données (plutôt que la mémoire) d'un objet <strong><a href="field-object-dao.md">Field</a></strong> de type Mémo ou Binaire long de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-foreignname-property-dao.md">ForeignName</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui spécifie le nom de l'objet <strong><a href="field-object-dao.md">Field</a></strong> d'une table étrangère correspondant à un champ d'une table primaire d'une relation (espaces de travail Microsoft Access uniquement).</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-name-property-dao.md">Nom</a></strong></p></td>
+<td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
+<td><p>Définit ou renvoie la position relative d'un objet <strong><a href="field-object-dao.md">Field</a></strong> au sein d'une collection <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
+<td><p></p>
+
+> [!NOTE]
+> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+
+
+<p>Renvoie la valeur d'un objet <strong>Field</strong> de la base de données qui existait au moment du lancement de la dernière mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-properties-property-dao.md">Propriétés</a></strong></p></td>
+<td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-required-property-dao.md">Obligatoire</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="field-object-dao.md">Field</a></strong> requiert une valeur non Null.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-fieldsize-property-dao.md">Taille</a></strong></p></td>
+<td><p>Renvoie le nombre d'octets utilisés dans la base de données (plutôt que la mémoire) d'un objet <strong><a href="field-object-dao.md">Field</a></strong> de type Mémo ou Binaire long de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-sourcefield-property-dao.md">SourceField</a></strong></p></td>
+<td><p>Renvoie une valeur spécifiant le nom du champ qui représente la source d'origine des données d'un objet <strong>Field</strong>. Type <strong>String</strong> en lecture seule.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-sourcetable-property-dao.md">SourceTable</a></strong></p></td>
+<td><p>Renvoie une valeur indiquant le nom de la table de laquelle provient les données d'un objet <strong>Field</strong>. Données de type <strong>String</strong> en lecture seule.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-type-property-dao.md">Type</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou de données d'un objet. Type de données <strong>Integer</strong> en lecture/écriture.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui spécifie si la valeur d'un objet <strong><a href="field-object-dao.md">Field</a></strong> est immédiatement validée quand la propriété <strong><a href="field-value-property-dao.md">Value</a></strong> de l'objet est définie (espaces de travail Microsoft Access uniquement).</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-validationrule-property-dao.md">ValidationRule</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui valide les données d'un champ pendant sa modification ou son ajout à une table (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-validationtext-property-dao.md">ValidationText</a></strong></p></td>
+<td><p>Définit ou renvoie une valeur qui spécifie le texte du message que votre application affiche si la valeur d'un objet <strong>Field</strong> n'est pas conforme à la règle de validation spécifiée par la valeur de la propriété <strong>ValidationRule</strong> (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong><a href="field-value-property-dao.md">Valeur</a></strong></p></td>
+<td><p>Définit ou renvoie la valeur d'un objet. Type de données <strong>Variant</strong> en lecture/écriture.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
+<td><p></p>
+
+> [!NOTE]
+> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+
+
+<p>Renvoie une valeur actuellement dans la base de données et qui est plus récente que celle de la propriété <strong>OriginalValue</strong>, ainsi que le révèle un conflit de mise à jour par lot (espaces de travail ODBCDirect uniquement).</p></td>
+</tr>
+</tbody>
+</table>
+
