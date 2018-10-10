@@ -1,16 +1,16 @@
 ---
 title: Développement de client Office
-ms.date: 04/20/2016
+ms.date: 10/09/2018
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.
-ms.openlocfilehash: db2df53f2d150e83c20438aa00d52cfcbe8223fa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 92e4da3d6e04082ea3bceb901989ddf134b54c07
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401264"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454487"
 ---
 # <a name="office-client-development"></a>Développement de client Office
 
@@ -18,67 +18,58 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 > [!NOTE]
 > Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
-  
-### <a name="viewed-most"></a>Articles populaires
-  
-- [Référence de la bibliothèque d’objets VBA Office](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
-  
-- [Référence de langage VBA pour Office](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
-  
-- [Office 2010](https://msdn.microsoft.com/library/office/cc313152%28v=office.12%29.aspx)
+
   
 ### <a name="office-add-ins"></a>Compléments Office
   
-- [Prise en main](https://dev.office.com/getting-started/addins)
+- [Prise en main](https://docs.microsoft.com/office/dev/add-ins/)
   
-- [Vue d’ensemble de la plateforme](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+- [Vue d’ensemble de la plateforme](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="sharepoint-add-ins"></a>Compléments SharePoint
   
-- [Prise en main](https://dev.office.com/getting-started)
-  
-- [Vue d’ensemble de la plateforme](https://msdn.microsoft.com/library/office/fp179930.aspx)
+- [Prise en main](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ### <a name="visual-studio-tools-for-office"></a>Visual Studio Tools pour Office
   
-- [Compléments VSTO pour Office](https://msdn.microsoft.com/library/jj620922.aspx)
+- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### <a name="office-client-vba-references"></a>Références VBA pour les clients Office
   
-- [Access](https://msdn.microsoft.com/library/fp179695.aspx)
+- [Access](access/access-home.md)
   
-- [Excel](https://msdn.microsoft.com/library/fp179694.aspx)
+- [Excel](excel/excel-home.md)
   
-- [InfoPath](https://msdn.microsoft.com/library/fp179694.aspx)
+- [InfoPath](infopath/infopath-home.md)
   
-- [Référence de la bibliothèque d’objets VBA Office](https://msdn.microsoft.com/EN-US/library/office/ff862474.aspx)
+- [Référence de la bibliothèque d’objets VBA Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Référence de langage VBA pour Office](https://msdn.microsoft.com/EN-US/library/office/gg264383.aspx)
+- [Référence de langage VBA pour Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Office partagé](https://msdn.microsoft.com/library/hh872753.aspx)
+- [Office partagé](shared/office-shared.md)
   
-- [OneNote](https://msdn.microsoft.com/library/jj680121.aspx) (API uniquement pour les solutions de client de bureau OneNote Win32 dans les scénarios non connectés) 
+- [OneNote](onenote/onenote-home.md) (API uniquement pour les solutions de client de bureau OneNote Win32 dans les scénarios non connectés) 
   
-- [Outlook](https://msdn.microsoft.com/library/fp161224.aspx)
+- [Outlook](outlook/outlook-home.md)
   
-- [PowerPoint](https://msdn.microsoft.com/library/fp161225.aspx)
+- [PowerPoint](powerpoint-home.md)
   
-- [Project](https://msdn.microsoft.com/library/fp161358.aspx)
+- [Project](project/project-home.md)
   
-- [Publisher](https://msdn.microsoft.com/library/jj684499.aspx)
+- [Publisher](publisher-home.md)
   
-- [Visio](https://msdn.microsoft.com/library/fp161226.aspx)
+- [Visio](visio/visio-home.md)
   
-- [Word](https://msdn.microsoft.com/library/fp179696.aspx)
+- [Word](word/word-home.md)
   
 ### <a name="code-samples"></a>Exemples de code
   
-- [Exemples de code client Office sur dev.office.com](https://dev.office.com/code-samples)
+- [Exemples de code client Office](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
   
-- [Exemples de code VBA sur MSDN](https://code.msdn.microsoft.com/office/site/search?query=VBA&amp;f%5B0%5D.Value=VBA&amp;f%5B0%5D.Type=SearchText&amp;ac=4)
+- [Exemples de code VBA](https://code.msdn.microsoft.com/office/site/search?query=VBA&f%5B0%5D.Value=VBA&f%5B0%5D.Type=SearchText&ac=4)
   
 ### <a name="other-resources"></a>Autres ressources
   
-- [Open XML SDK](https://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
 
