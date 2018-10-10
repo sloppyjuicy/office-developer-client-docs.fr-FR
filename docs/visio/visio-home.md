@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Visio.
-ms.openlocfilehash: 7dbb12b76835641f9bf45bf78876fd667bacb19a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: f3848f36bf0c8cec8f00b4ce324b340aab02f489
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391191"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454536"
 ---
 # <a name="visio"></a>Visio
 
@@ -23,13 +23,13 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
   
 ### <a name="viewed-most"></a>Articles populaires
 
-- [Compléments VSTO pour Visio](https://docs.microsoft.com/visualstudio/vsto/visio-solutions)
+- [Compléments VSTO pour Visio](https://docs.microsoft.com/visualstudio/vsto/visio-solutions?view=vs-2017)
 
 - [Référence VBA Visio](https://docs.microsoft.com/office/vba/api/overview/visio)
   
 - [Visio – Enregistrer comme référence web](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference)
   
-- [Référence de la visionneuse Visio](https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference)
+- [Référence de la visionneuse Visio](https://docs.microsoft.com/office/vba/api/overview/visio/visio-viewer-reference)
   
 - [Référence de Visio ShapeSheet](visio-shapesheet-reference.md)
   
@@ -43,12 +43,12 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
 
 ### <a name="other-resources"></a>Autres ressources
   
-- [Référence de la bibliothèque d’objets VBA Office](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference)
+- [Référence de la bibliothèque d’objets VBA Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
 - [Référence de langage VBA pour Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
 - [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio)
+- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 
