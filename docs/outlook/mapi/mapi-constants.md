@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Définitions des constantes, déclarations d’interface MAPI et identificateurs de classe et d’interface utilisés par les API MAPI.
-ms.openlocfilehash: dfc7d16cdb2f57d3f095ceea5fa1ba2eba2e3afe
-ms.sourcegitcommit: b91294da1627f6580f52fd3867e2fec8073c6531
+ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/03/2018
-ms.locfileid: "25362042"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25393732"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
@@ -575,7 +575,7 @@ MAPI d’Outlook prend en charge la reconnexion à un serveur de catalogue globa
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Renvoyé lorsque le jeton de connexion d’appel de procédure distante (RPC) est obsolète. Si le jeton de la transaction actuelle est différent du jeton de la connexion, cela signifie qu’il s’est reconnecté, par conséquent **MAPI_E_RECONNECTED** est renvoyé et peut être traité de la même façon que **MAPI_E_END_OF_SESSION**. L’appel doit être retenté.  <br/> |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Renvoyé lorsque la connexion est en mode hors ligne. En règle générale, cela signifie que quelque chose s’est produit dans l’environnement, par exemple une défaillance du serveur ou une perte de connectivité réseau. Cette erreur risque surtout de se produire lorsque vous utilisez un profil en mode mis en cache et tentez de contourner le cache pour communiquer avec le serveur. Si le cache n’a jamais réussi à établir en premier lieu une connexion au serveur, il est peut-être dans un état hors connexion où l’erreur **MAPI_E_OFFLINE** peut survenir.  <br/> |
    
-Aucune des deux erreurs précédentes n’est renvoyée dans tous les scénarios où elles semblent s’appliquer. Dans la plupart des cas, **MAPI\_E_NETWORK_ERROR** ou **MAPI_E_CALL_FAILED** sera renvoyée. Aucune ne s’affiche si le téléchargement [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](http://support.microsoft.com/kb/171440) est utilisé. 
+Aucune des deux erreurs précédentes n’est renvoyée dans tous les scénarios où elles semblent s’appliquer. Dans la plupart des cas, **MAPI\_E_NETWORK_ERROR** ou **MAPI_E_CALL_FAILED** sera renvoyée. Aucune ne s’affiche si le téléchargement [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440) est utilisé. 
   
 ### <a name="definitions-for-exchange-server-mailbox-cached-mode-quotas"></a>Définitions des quotas de mode mis en cache de la boîte aux lettres du serveur Exchange
 
