@@ -44,7 +44,7 @@ Les éléments Outlook sont présentés en fonction du nom de la catégorie. Cha
 
 
 > [!NOTE]
-> [!REMARQUE] Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
+> Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
 
 Dans l'exemple de code suivant, la première procédure, EnumerateCategories, récupère la liste principale de catégories de l'utilisateur actuel, représentée par la collection **Categories**. Elle énumère ensuite les objets **Category** dans cette collection, puis écrit les propriétés **Name** et **CategoryID** des écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx). La deuxième procédure, AddACategory, récupère la liste principale de catégories de l'utilisateur actuel et utilise la méthode CategoryExists pour vérifier si une catégorie nommée « ISV » existe dans la collection. Si aucune catégorie n'existe sous le nom « ISV », AddACategory ajoute une catégorie nommée « ISV » à la liste principale de catégories et lui affecte la couleur bleu foncé à l'aide de la méthode **Add** de la collection **Categories**. Il désigne également CTRL + F11 comme touche de raccourci pour la catégorie.
 
