@@ -20,7 +20,7 @@ items:
   - name: Office Online Server
     href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
   - name: Office pour Mac
-    href: https://msdn.microsoft.com/en-us/library/office/mt654019.aspx
+    href: https://docs.microsoft.com/office/vba/api/overview/office-mac
   - name: Office partagé
     href: shared/office-shared.md
     items:
@@ -28,7 +28,7 @@ items:
       href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
     - name: Intégration des applications de messagerie instantanée à Office
       href: shared/integrating-im-applications-with-office.md
-    - name: Applications facilitant la gestion et programme d’installation en un clic d’Office 365
+    - name: Applications de gestion et programme d’installation de « Démarrer en un clic » Office 365
       href: shared/manageability-applications-with-the-office-365-click-to-run-installer.md
     - name: Journal de télémétrie Office
       href: shared/office-telemetry-log.md
@@ -38,20 +38,20 @@ items:
       - name: Problèmes de compatibilité dans Office
         href: shared/compatibility-issues-in-office.md
     - name: Référence de la bibliothèque d’objets VBA Office
-      href: https://msdn.microsoft.com/en-us/VBA/Office-Shared-VBA/articles/office-vba-object-library-reference
+      href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
     - name: Référence de langage VBA pour Office
-      href: https://msdn.microsoft.com/en-us/VBA/VBA-Language-Reference
+      href: https://docs.microsoft.com/office/vba/api/overview/language-reference
     - name: Référence de l’assembly PIA (Primary Interop Assembly) Office
-      href: https://msdn.microsoft.com/en-us/library/office/ff597925.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Kit de développement logiciel (SDK) Open XML 2.5
-      href: https://msdn.microsoft.com/en-us/library/office/bb448854.aspx
+      href: https://docs.microsoft.com/office/open-xml/open-xml-sdk
     - name: Utilisation de CSISyncClient pour contrôler l’ODC
       href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
   - name: Access
     href: access/access-home.md
     items:
     - name: Référence VBA Access
-      href: https://msdn.microsoft.com/en-us/library/mt346046.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/access
     - name: Référence de l’application web personnalisée Access
       href: access/access-custom-web-app-reference.md
       items:
@@ -253,7 +253,7 @@ items:
           - name: Opérateurs de chaîne
             href: access/string-operators-access-custom-web-app.md
             items:
-            - name: Opérateur de concaténation de chaîne
+            - name: Concaténation de chaîne
               href: access/plusstring-concatenation-operatoraccess-custom-web-app.md
       - name: Référence de fonction macro
         href: access/macro-function-reference-access-custom-web-app.md
@@ -345,23 +345,23 @@ items:
           - name: OpenPopup
             href: access/openpopup-macro-action-access-custom-web-app.md
     - name: Référence de base de données de bureau Access
-      href: https://msdn.microsoft.com/en-us/library/dn142571.aspx
+      href: https://msdn.microsoft.com/library/dn142571.aspx
   - name: Excel
     href: excel/excel-home.md
     items:
     - name: Référence VBA Excel
-      href: https://msdn.microsoft.com/en-us/library/office/ee861528.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/excel
     - name: Référence de l’assembly PIA (Primary Interop Assembly) Excel
-      href: https://msdn.microsoft.com/en-us/library/office/ff597926.aspx
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
     - name: Kit de développement logiciel (SDK) Excel XLL
       href: excel/welcome-to-the-excel-software-development-kit.md
       items:
-      - name: Mise en route
+      - name: Prise en main
         href: excel/getting-started-with-the-excel-xll-sdk.md
         items:
         - name: Programmation avec l’API C dans Excel
           href: excel/programming-with-the-c-api-in-excel.md
-        - name: Nouveautés dans l’API C pour Excel
+        - name: Nouveautés de l’API C pour Excel
           href: excel/what-s-new-in-the-c-api-for-excel.md
         - name: Problèmes connus
           href: excel/known-issues-in-excel-xll-development.md
@@ -373,13 +373,13 @@ items:
           items:
           - name: États, fonctions et commandes Excel
             href: excel/excel-commands-functions-and-states.md
-          - name: Feuille de calcul Excel et évaluation d’expression
+          - name: Feuille de calcul et évaluation des expressions Excel
             href: excel/excel-worksheet-and-expression-evaluation.md
           - name: Références de feuille de calcul
             href: excel/worksheet-references.md
-          - name: Types de données utilisées par Excel
+          - name: Types de données utilisés par Excel
             href: excel/data-types-used-by-excel.md
-          - name: Recalcul Excel
+          - name: recalcul Excel
             href: excel/excel-recalculation.md
         - name: Utilisation des fichiers DLL
           href: excel/working-with-dlls.md
@@ -392,7 +392,7 @@ items:
             href: excel/calling-user-defined-functions-from-dlls.md
         - name: Accès au code XLL dans Excel
           href: excel/accessing-xll-code-in-excel.md
-        - name: Appeler des fonctions XLL à partir de l’Assistant Fonction ou remplacer des boîtes de dialogue
+        - name: Appel des fonctions XLL à partir de l’Assistant Fonction ou des boîtes de dialogue Remplacer
           href: excel/how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md
         - name: Appel dans Excel à partir du fichier DLL ou XLL
           href: excel/calling-into-excel-from-the-dll-or-xll.md
@@ -400,7 +400,7 @@ items:
           href: excel/creating-xlls.md
         - name: Gestion des événements
           href: excel/handling-events.md
-        - name: Évaluation des noms et autres expressions de formule de feuille de calcul
+        - name: Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
           href: excel/evaluating-names-and-other-worksheet-formula-expressions.md
         - name: Multithreading et gestion de la mémoire
           href: excel/multithreading-and-memory-management.md
@@ -411,7 +411,7 @@ items:
             href: excel/multithreading-and-memory-contention-in-excel.md
           - name: Recalcul multithread dans Excel
             href: excel/multithreaded-recalculation-in-excel.md
-        - name: Fonctions définies par l’utilisateur asynchrones
+        - name: Fonctions asynchrones définies par l’utilisateur
           href: excel/asynchronous-user-defined-functions.md
         - name: Fonctions sécurisées pour le cluster
           href: excel/cluster-safe-functions.md
@@ -419,16 +419,16 @@ items:
           href: excel/permitting-user-breaks-in-lengthy-operations.md
         - name: Affichage des boîtes de dialogue dans un fichier DLL ou XLL
           href: excel/displaying-dialog-boxes-from-within-a-dll-or-xll.md
-        - name: Accès à l’instance Excel et aux handles de fenêtres principales
+        - name: Accès à l’instance Excel et aux handles de fenêtre principaux
           href: excel/how-to-access-excel-instance-and-main-window-handles.md
         - name: Compatibilité descendante
           href: excel/backward-compatibility.md
       - name: Développement de connecteurs de cluster Excel
         href: excel/developing-excel-cluster-connectors.md
-      - name: Référence de fonction d’API
+      - name: Référence des fonctions d’API
         href: excel/excel-xll-sdk-api-function-reference.md
         items:
-        - name: Gestionnaire de compléments et fonctions d’interface XLL
+        - name: Fonctions du Gestionnaire de compléments et de l’interface XLL
           href: excel/add-in-manager-and-xll-interface-functions.md
           items:
           - name: xlAddInManagerInfo/xlAddInManagerInfo12
@@ -452,7 +452,7 @@ items:
             href: excel/excel4-excel12.md
           - name: Excel4v/Excel12v
             href: excel/excel4v-excel12v.md
-        - name: Fonctions XLM d’API C utiles et essentielles
+        - name: Fonctions XLM essentielles et utiles de l’API C
           href: excel/essential-and-useful-c-api-xlm-functions.md
           items:
           - name: xlfCaller
@@ -475,7 +475,7 @@ items:
             href: excel/xlfunregister-form-2.md
           - name: xlfSetName
             href: excel/xlfsetname.md
-        - name: Fonctions d’API C qui peuvent être appelées uniquement à partir d’un fichier DLL ou XLL
+        - name: Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL
           href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
           items:
           - name: xlAbort
@@ -516,7 +516,7 @@ items:
             href: excel/xlstack.md
           - name: xlUDF
             href: excel/xludf.md
-        - name: Fonctions dans la bibliothèque d’infrastructure
+        - name: Fonctions de la bibliothèque Framework
           href: excel/functions-in-the-framework-library.md
           items:
           - name: debugPrintf
@@ -584,7 +584,7 @@ items:
             href: excel/funcsum.md
           - name: FuncFib
             href: excel/funcfib.md
-        - name: Fonctions de connecteur de cluster Excel
+        - name: Fonctions du connecteur de cluster Excel
           href: excel/excel-cluster-connector-functions.md
           items:
           - name: CallUDF
@@ -600,67 +600,67 @@ items:
           - name: ShowOptions
             href: excel/showoptions.md
     - name: Conseils pour supprimer les limites de performance
-      href: https://msdn.microsoft.com/en-us/library/office/mt709003.aspx
+      href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
   - name: InfoPath
     href: infopath/infopath-home.md
     items:
     - name: Référence de développement des modèles de formulaires InfoPath
       href: infopath/form-templates/infopath-developer-reference-for-form-templates.md
       items:
-      - name: Développement de modèles de formulaire InfoPath avec code
+      - name: Développement de modèles de formulaire InfoPath comprenant du code
         href: infopath/form-templates/developing-infopath-form-templates-with-code.md
         items:
-        - name: Prise en main du développement de modèles de formulaires avec code
+        - name: Prise en main du développement de modèles de formulaire comprenant du code
           href: infopath/form-templates/getting-started-developing-form-templates-with-code.md
           items:
-          - name: Nouveautés pour les développeurs InfoPath
+          - name: Nouveautés pour les développeurs InfoPath
             href: infopath/form-templates/what-s-new-for-infopath-developers.md
           - name: Présentation des modèles objet InfoPath et de l’environnement de développement
             href: infopath/form-templates/understanding-infopath-object-models-and-development-environment.md
           - name: Développement avec Visual Studio
             href: infopath/form-templates/how-to-develop-with-visual-studio.md
-          - name: Installation de l’aide locale de .NET Framework pour Visual Studio Tools for Applications
+          - name: Installation de l’aide locale de .NET Framework pour Visual Studio Tools for Applications
             href: infopath/form-templates/how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md
-          - name: Ajouter un gestionnaire d’événements
+          - name: Ajout d’un gestionnaire d’événements
             href: infopath/form-templates/how-to-add-an-event-handler.md
-          - name: Afficher un aperçu et déboguer des modèles de formulaires InfoPath avec code
+          - name: Aperçu et débogage des modèles de formulaire InfoPath comprenant du code
             href: infopath/form-templates/how-to-preview-and-debug-infopath-form-templates-with-code.md
-          - name: Afficher un aperçu et déboguer des modèles de formulaires qui nécessitent une autorisation totale
+          - name: Aperçu et débogage des modèles de formulaire qui nécessitent une confiance totale
             href: infopath/form-templates/how-to-preview-and-debug-form-templates-that-require-full-trust.md
-          - name: 'Procédure : Création d’un modèle de formulaire de base avec code'
+          - name: 'Procédure : Création d’un modèle de formulaire de base comprenant du code'
             href: infopath/form-templates/walkthrough-creating-a-basic-form-template-with-code.md
-          - name: Enregistrer des valeurs dans un champ pour débogage
+          - name: Enregistrement des valeurs dans un champ pour réaliser le débogage
             href: infopath/form-templates/how-to-log-values-to-a-field-for-debugging.md
-          - name: Ouverture ou conversion d’un modèle de formulaire créé avec InfoPath Toolkit
+          - name: Ouverture ou conversion d’un modèle de formulaire créé avec InfoPath Toolkit
             href: infopath/form-templates/how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md
-          - name: Déployer des modèles de formulaire InfoPath avec code
+          - name: Déploiement des modèles de formulaire InfoPath comprenant du code
             href: infopath/form-templates/how-to-deploy-infopath-form-templates-with-code.md
-          - name: Procédure...dans les modèles de formulaires InfoPath avec code
+          - name: Procédures liées aux modèles de formulaire InfoPath comprenant du code
             href: infopath/form-templates/how-do-iin-infopath-form-templates-with-code.md
           - name: Utilisation des classes XPathNavigator et XPathNodeIterator
             href: infopath/form-templates/how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md
-          - name: Utiliser les membres du modèle objet SharePoint
+          - name: Utilisation des membres du modèle objet SharePoint
             href: infopath/form-templates/how-to-use-sharepoint-object-model-members.md
-          - name: Publication de formulaires avec code
+          - name: Publication de formulaires comprenant du code
             href: infopath/form-templates/publishing-forms-with-code.md
           - name: Exemples de solutions bac à sable (sandbox)
             href: infopath/form-templates/sample-sandboxed-solutions.md
-          - name: Ressources supplémentaires pour les développeurs de modèle de formulaire InfoPath
+          - name: Autres ressources pour les développeurs de modèles de formulaire InfoPath
             href: infopath/form-templates/additional-resources-for-infopath-form-template-developers.md
-        - name: Présentation du modèle objet InfoPath et des tâches courantes pour les développeurs
+        - name: Présentation du modèle objet InfoPath et des tâches de développeur courantes
           href: infopath/form-templates/understanding-the-infopath-object-model-and-common-developer-tasks.md
           items:
-          - name: Données d’application Access
+          - name: Accès aux données de l’application
             href: infopath/form-templates/how-to-access-application-data.md
           - name: Procédure de réponse à des événements de formulaire
             href: infopath/form-templates/how-to-respond-to-form-events.md
-          - name: Données de formulaire Access
+          - name: Accès aux données du formulaire
             href: infopath/form-templates/how-to-access-form-data.md
           - name: Accès à des sources de données externes
             href: infopath/form-templates/how-to-access-external-data-sources.md
-          - name: Écriture d’une logique conditionnelle qui détermine l’environnement à l’exécution
+          - name: Écriture d’une logique conditionnelle qui détermine l’environnement d’exécution
             href: infopath/form-templates/how-to-write-conditional-logic-that-determines-the-run-time-environment.md
-          - name: Utilisation des fenêtres de formulaires
+          - name: Utilisation des fenêtres du formulaire
             href: infopath/form-templates/how-to-work-with-form-windows.md
           - name: Utilisation des vues
             href: infopath/form-templates/how-to-work-with-views.md
@@ -672,127 +672,127 @@ items:
             href: infopath/form-templates/how-to-handle-errors.md
           - name: Utilisation des paramètres Gestion des droits relatifs à l’information
             href: infopath/form-templates/how-to-work-with-information-rights-management-settings.md
-          - name: Ajouter et référencer des assemblys personnalisés
+          - name: Ajout et référencement des assemblies personnalisés
             href: infopath/form-templates/how-to-add-and-reference-custom-assemblies.md
-        - name: Sécurité des modèles de formulaire InfoPath avec code
+        - name: Sécurité des modèles de formulaire InfoPath comprenant du code
           href: infopath/form-templates/security-in-infopath-form-templates-with-code.md
           items:
-          - name: À propos du modèle de sécurité pour les modèles de formulaire avec code
+          - name: Modèle de sécurité des modèles de formulaire comprenant du code
             href: infopath/form-templates/about-the-security-model-for-form-templates-with-code.md
-          - name: Concepts supplémentaires relatifs à la sécurité des formulaires InfoPath
+          - name: Autres concepts liés à la sécurité des formulaires InfoPath
             href: infopath/form-templates/additional-infopath-form-security-concepts.md
-          - name: Instructions de sécurité pour le développement des formulaires InfoPath
+          - name: Conseils de sécurité pour développer des formulaires InfoPath
             href: infopath/form-templates/security-guidelines-for-developing-infopath-forms.md
-          - name: Configuration des paramètres de sécurité pour les modèles de formulaire avec code
+          - name: Configuration des paramètres de sécurité des modèles de formulaire comprenant du code
             href: infopath/form-templates/how-to-configure-security-settings-for-form-templates-with-code.md
-          - name: Niveaux de sécurité, déploiement de messagerie électronique et modèles de formulaires distants
+          - name: Niveaux de sécurité, déploiement de messagerie et modèles de formulaire distants
             href: infopath/form-templates/security-levels-email-deployment-and-remote-form-templates.md
-          - name: Présentation des formulaires entièrement fiables
+          - name: Présentation des formulaires de confiance totale
             href: infopath/form-templates/understanding-fully-trusted-forms.md
-          - name: Signature numérique des données dans les formulaires InfoPath
+          - name: Signature numérique des données dans les formulaires InfoPath
             href: infopath/form-templates/digitally-signing-data-in-infopath-forms.md
-          - name: Déploiement de modèles de formulaires InfoPath signés
+          - name: Déploiement de modèles de formulaire InfoPath signés
             href: infopath/form-templates/deploying-signed-infopath-form-templates.md
         - name: Utilisation des services de formulaires InfoPath et SharePoint
           href: infopath/form-templates/working-with-sharepoint-and-infopath-forms-services.md
           items:
-          - name: Création de modèles de formulaires InfoPath qui fonctionnent avec les services de formulaires InfoPath
+          - name: Création de modèles de formulaire InfoPath compatibles avec InfoPath Forms Services
             href: infopath/form-templates/creating-infopath-form-templates-that-work-with-infopath-forms-services.md
-          - name: Prise en charge du flux de travail SharePoint dans les formulaires InfoPath
+          - name: Prise en charge du flux de travail SharePoint dans les formulaires InfoPath
             href: infopath/form-templates/sharepoint-workflow-support-in-infopath-forms.md
-        - name: Concepts supplémentaires de développement InfoPath
+        - name: Autres concepts liés au développement d’InfoPath
           href: infopath/form-templates/additional-infopath-development-concepts.md
           items:
-          - name: À propos des composants de modèle de formulaire
+          - name: Composants des modèles de formulaire
             href: infopath/form-templates/about-form-template-components.md
-          - name: À propos de la prise en charge d’InfoPath pour les technologies XML
+          - name: Prise en charge des technologies XML dans InfoPath
             href: infopath/form-templates/about-infopath-support-for-xml-technologies.md
-          - name: Instructions relatives à l’amélioration des performances de formulaires InfoPath
+          - name: Conseils pour améliorer les performances des formulaires InfoPath
             href: infopath/form-templates/guidelines-for-improving-the-performance-of-infopath-forms.md
-          - name: Utilisation des schémas XML dans InfoPath
+          - name: Utilisation des schémas XML dans InfoPath
             href: infopath/form-templates/working-with-xml-schemas-in-infopath.md
-          - name: Utilisation d’un langage XSLT personnalisé dans les modèles de formulaires InfoPath
+          - name: Utilisation d’un langage XSLT personnalisé dans les modèles de formulaire InfoPath
             href: infopath/form-templates/using-custom-xslt-in-infopath-form-templates.md
-          - name: Hébergement d’InfoPath en tant qu’éditeur XML dans une autre application
+          - name: Hébergement d’InfoPath comme éditeur XML dans une autre application
             href: infopath/form-templates/hosting-infopath-as-an-xml-editor-in-another-application.md
           - name: Texte enrichi et services web
             href: infopath/form-templates/rich-text-and-web-services.md
-          - name: InfoPath, codage RPC et services web
+          - name: InfoPath, encodage RPC et services web
             href: infopath/form-templates/infopath-rpc-encoding-and-web-services.md
-          - name: Intégrer un formulaire InfoPath avec une base de données Microsoft Access
+          - name: Intégration d’un formulaire InfoPath avec une base de données Microsoft Access
             href: infopath/form-templates/integrate-an-infopath-form-with-a-microsoft-access-database.md
-          - name: Créer un contrôle ActiveX pouvant lier des données de formulaire InfoPath
+          - name: Création d’un contrôle ActiveX capable de lier les données d’un formulaire InfoPath
             href: infopath/form-templates/create-an-activex-control-that-can-bind-to-infopath-form-data.md
-          - name: Activer la fusion personnalisée de formulaires InfoPath
+          - name: Fusion personnalisée des formulaires InfoPath
             href: infopath/form-templates/enable-custom-merging-of-infopath-forms.md
-      - name: Développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003
+      - name: Développement de modèles de formulaire avec le modèle objet InfoPath 2003
         href: infopath/form-templates/developing-form-templates-using-the-infopath-2003-object-model.md
         items:
-        - name: Préparation en vue du développement de modèles de formulaires utilisant le modèle objet InfoPath 2003
+        - name: Prise en main du développement de modèles de formulaire avec le modèle objet InfoPath 2003
           href: infopath/form-templates/get-started-developing-form-templates-using-infopath-object-model.md
           items:
-          - name: Créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003
+          - name: Création d’un modèle de formulaire
             href: infopath/form-templates/how-to-create-a-form-template-using-the-infopath-2003-object-model.md
-          - name: 'Procédure pas à pas : Création et débogage d’un modèle de formulaire basique à l’aide du modèle objet InfoPath 2003'
+          - name: Création et débogage d’un modèle de formulaire de base
             href: infopath/form-templates/walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md
-          - name: Tâches courantes pour le développement de modèles de formulaires à l’aide du modèle objet InfoPath 2003
+          - name: Tâches courantes pour développer des modèles de formulaire
             href: infopath/form-templates/common-tasks-for-developing-form-templates-using-infopath-object-model.md
-          - name: Utilisation des membres Microsoft.Office.Interop.InfoPath.SemiTrust qui ne sont pas compatibles avec InfoPath 2003
+          - name: Utilisation des membres Microsoft.Office.Interop.InfoPath.SemiTrust incompatibles avec InfoPath 2003
             href: infopath/form-templates/how-to-use-microsoft-office-interop-infopath-semitrust-members.md
-        - name: Création de modèles de formulaires à l’aide du modèle objet InfoPath 2003
+        - name: Création de modèles de formulaire avec le modèle objet InfoPath 2003
           href: infopath/form-templates/creating-form-templates-using-the-infopath-2003-object-model.md
           items:
-          - name: Code d’initialisation et de nettoyage utilisant le modèle objet InfoPath 2003
+          - name: Code d’initialisation et de nettoyage
             href: infopath/form-templates/initialization-and-clean-up-code-using-infopath-2003-object-model.md
-          - name: Débogage de projets InfoPath en utilisant le modèle objet InfoPath 2003
+          - name: Débogage des projets InfoPath
             href: infopath/form-templates/how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: Ajout d’un gestionnaire d’événements en utilisant le modèle objet InfoPath 2003
+          - name: Ajout d’un gestionnaire d’événements
             href: infopath/form-templates/how-to-add-an-event-handler-using-the-infopath-2003-object-model.md
-          - name: Prise en charge du threading dans les projets InfoPath utilisant le modèle objet InfoPath 2003
+          - name: Prise en charge du threading dans les projets InfoPath
             href: infopath/form-templates/threading-support-in-infopath-projects-using-the-infopath-2003-object-model.md
-          - name: Utilisation de MSXML et de System.Xml à l’aide du modèle objet InfoPath 2003
+          - name: Utilisation de MSXML et de System.Xml
             href: infopath/form-templates/working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md
         - name: Présentation du modèle objet InfoPath 2003
           href: infopath/form-templates/understanding-the-infopath-2003-object-model.md
           items:
           - name: Modèles objet compatibles avec InfoPath 2003
             href: infopath/form-templates/infopath-2003-compatible-object-models.md
-          - name: Accès aux données d’application en utilisant le modèle objet InfoPath 2003
+          - name: Accès aux données de l’application
             href: infopath/form-templates/how-to-access-application-data-using-the-infopath-2003-object-model.md
-          - name: Accès à des sources de données externes en utilisant le modèle objet InfoPath 2003
+          - name: Accès à des sources de données externes
             href: infopath/form-templates/how-to-access-external-data-sources-using-the-infopath-2003-object-model.md
-          - name: Accès aux données de formulaire en utilisant le modèle objet InfoPath 2003
+          - name: Accès aux données du formulaire
             href: infopath/form-templates/how-to-access-form-data-using-the-infopath-2003-object-model.md
-          - name: Affichage des alertes et des boîtes de dialogue en utilisant le modèle objet InfoPath 2003
+          - name: Affichage des alertes et des boîtes de dialogue
             href: infopath/form-templates/how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md
-          - name: Gestion des erreurs en utilisant le modèle objet InfoPath 2003
+          - name: Gestion des erreurs
             href: infopath/form-templates/how-to-handle-errors-using-the-infopath-2003-object-model.md
-          - name: Réponse aux événements de formulaire en utilisant le modèle objet InfoPath 2003
+          - name: Procédure de réponse à des événements de formulaire
             href: infopath/form-templates/how-to-respond-to-form-events-using-the-infopath-2003-object-model.md
-          - name: Utilisation des fenêtres de formulaire avec le modèle objet InfoPath 2003
+          - name: Utilisation des fenêtres du formulaire
             href: infopath/form-templates/how-to-work-with-form-windows-using-the-infopath-2003-object-model.md
-          - name: Utilisation des vues à l’aide du modèle objet InfoPath 2003
+          - name: Utilisation des vues
             href: infopath/form-templates/how-to-work-with-views-using-the-infopath-2003-object-model.md
-          - name: Utilisation de signatures numériques avec le modèle objet InfoPath 2003
+          - name: Utilisation des signatures numériques
             href: infopath/form-templates/how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md
-          - name: Utilisation des solutions hors ligne avec le modèle objet InfoPath 2003
+          - name: Utilisation des solutions hors ligne
             href: infopath/form-templates/how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md
-        - name: Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003
+        - name: Dépannage des modèles de formulaire utilisant le modèle objet InfoPath 2003
           href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model.md
           items:
-          - name: Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003 au moment de l’exécution
+          - name: Dépannage des modèles de formulaire au moment de l’exécution
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md
-          - name: Dépannage des modèles de formulaires qui utilisent le modèle objet InfoPath 2003 au moment de la conception
+          - name: Dépannage des modèles de formulaire au moment de la conception
             href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
       - name: Référence de bibliothèque de classes de modèles de formulaires InfoPath
-        href: https://msdn.microsoft.com/en-us/library/office/ee526341.aspx
+        href: https://msdn.microsoft.com/library/office/ee526341.aspx
     - name: Référence du développeur InfoPath pour l’automatisation externe
       href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
       items:
-      - name: Création de projets InfoPath dans Visual Studio
+      - name: Création de projets InfoPath dans Visual Studio
         href: infopath/external-automation/creating-infopath-projects-in-visual-studio.md
         items:
-        - name: Créer un complément COM pour ajouter des fonctionnalités personnalisées dans InfoPath
+        - name: Création d’un complément COM pour ajouter des fonctionnalités personnalisées à InfoPath
           href: infopath/external-automation/how-to-create-a-com-add-in-to-add-custom-features-to-infopath.md
       - name: Automatisation d’InfoPath à partir d’autres applications
         href: infopath/external-automation/automating-infopath-from-other-applications.md
@@ -806,7 +806,7 @@ items:
         - name: Automatisation d’InfoPath à partir d’une application externe
           href: infopath/external-automation/automating-infopath-from-an-external-application.md
       - name: Informations de référence sur la bibliothèque de classes pour l’automatisation externe d’InfoPath
-        href: https://msdn.microsoft.com/en-us/library/office/ff663147.aspx
+        href: https://msdn.microsoft.com/library/office/ff663147.aspx
   - name: OneNote
     href: onenote/onenote-home.md
     items:
@@ -829,9 +829,336 @@ items:
     - name: Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
       href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
     - name: Référence VBA Outlook
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861520.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/outlook
     - name: Référence de l’assembly PIA (Primary Interop Assembly) Outlook
-      href: https://msdn.microsoft.com/EN-US/library/office/bb652780.aspx
+      href: outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md
+      items:
+      - name: Nouveautés de la référence PIA Outlook
+        href: outlook/pia/what-s-new-in-the-outlook-pia-reference.md
+      - name: Configuration pour utiliser l’assembly PIA Outlook
+        href: outlook/pia/setting-up-to-use-the-outlook-pia.md
+        items:
+        - name: Introduction à l’interopérabilité entre COM et .NET
+          href: outlook/pia/introduction-to-interoperability-between-com-and-net.md
+        - name: Pourquoi utiliser l’assembly PIA Outlook
+          href: outlook/pia/why-use-the-outlook-pia.md
+        - name: Installation et référencement de l’assembly PIA Outlook
+          href: outlook/pia/installing-and-referencing-the-outlook-pia.md
+      - name: Architecture de l’assembly PIA Outlook
+        href: outlook/pia/architecture-of-the-outlook-pia.md
+        items:
+        - name: Liaison de l’assembly PIA Outlook au modèle objet
+          href: outlook/pia/relating-the-outlook-pia-with-the-object-model.md
+        - name: Objets de l’assembly PIA Outlook
+          href: outlook/pia/objects-in-the-outlook-pia.md
+        - name: Méthodes et propriétés de l’assembly PIA Outlook
+          href: outlook/pia/methods-and-properties-in-the-outlook-pia.md
+        - name: Événements de l’assembly PIA Outlook
+          href: outlook/pia/events-in-the-outlook-pia.md
+      - name: Développement de compléments managés Outlook avec l’assembly PIA Outlook
+        href: outlook/pia/developing-managed-outlook-add-ins-using-the-outlook-pia.md
+        items:
+        - name: Connexion de gestionnaires d’événements personnalisés
+          href: outlook/pia/connecting-to-custom-event-handlers.md
+        - name: Méthodes conseillées pour développer des compléments managés Outlook
+          href: outlook/pia/best-practices-in-developing-managed-outlook-add-ins.md
+          items:
+          - name: Lancement systématique des objets
+            href: outlook/pia/systematically-releasing-objects.md
+          - name: Utilisation d’un domaine d’application distinct pour éviter les blocages
+            href: outlook/pia/using-a-separate-application-domain-to-avoid-crashing.md
+          - name: Utilisation de l’objet d’une application approuvée fourni par les Outils de développement Office pour Visual Studio
+            href: outlook/pia/using-a-trusted-application-object-provided-by-office-developer-tools-for-visual-studio.md
+          - name: Définition de l’étendue des variables dans les gestionnaires d’événements
+            href: outlook/pia/scoping-variables-appropriately-in-event-handlers.md
+          - name: Technologies non prises en charge dans les compléments managés Outlook
+            href: outlook/pia/avoiding-unsupported-technologies-in-managed-outlook-add-ins.md
+          - name: Utilisation de la liaison tardive en cas de dépendance envers plusieurs versions d’Outlook
+            href: outlook/pia/using-late-binding-if-depending-on-multiple-versions-of-outlook.md
+      - name: Procédures
+        href: outlook/pia/how-do-i-outlook-2013-pia-reference.md
+        items:
+        - name: Comptes
+          href: outlook/pia/accounts.md
+          items:
+          - name: Obtention des informations du compte
+            href: outlook/pia/how-to-get-account-information.md
+          - name: Créer un élément à envoyer pour un compte spécifique basé sur le dossier actif
+            href: outlook/pia/how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md
+          - name: Obtention du compte lié à un dossier
+            href: outlook/pia/how-to-get-the-account-for-a-folder.md
+          - name: Obtention des informations de plusieurs comptes
+            href: outlook/pia/how-to-get-information-about-multiple-accounts.md
+          - name: Envoi d’un élément de courrier électronique avec un compte Hotmail
+            href: outlook/pia/how-to-send-a-mail-item-by-using-a-hotmail-account.md
+        - name: Administration des compléments
+          href: outlook/pia/add-in-administration.md
+          items:
+          - name: Procédure pour vérifier si Outlook est une application « Démarrer en un clic » sur un ordinateur
+            href: outlook/pia/how-to-determine-whether-outlook-is-a-click-to-run-application-on-a-computer.md
+        - name: Carnet d’adresses
+          href: outlook/pia/address-book.md
+          items:
+          - name: Affichage du carnet d’adresses lié à un dossier Contacts dans la boîte de dialogue Sélectionner des noms
+            href: outlook/pia/how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md
+          - name: Obtention de la liste d’adresses globale ou d’un ensemble de listes d’adresses d’une banque
+            href: outlook/pia/how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md
+          - name: Énumération des entrées de la liste d’adresses globale
+            href: outlook/pia/how-to-enumerate-the-entries-in-the-global-address-list.md
+          - name: Affichage des listes d’adresses d’un profil
+            href: outlook/pia/how-to-display-the-address-lists-for-a-profile.md
+        - name: Rendez-vous
+          href: outlook/pia/appointments.md
+          items:
+          - name: Création d’un rendez-vous sur toute la journée
+            href: outlook/pia/how-to-create-an-appointment-that-is-an-all-day-event.md
+          - name: Création d’un rendez-vous qui commence dans le fuseau horaire Pacifique et se termine dans le fuseau horaire Est
+            href: outlook/pia/how-to-create-an-appointment-that-starts-in-the-pacific-time-zone-and-ends-in-the-eastern-time-zone.md
+          - name: Indication de plusieurs types de destinataires d’un élément de rendez-vous
+            href: outlook/pia/how-to-specify-different-recipient-types-for-an-appointment-item.md
+          - name: Création d’un rendez-vous périodique selon une périodicité par défaut
+            href: outlook/pia/how-to-create-a-recurring-appointment-by-using-the-default-recurrence-pattern.md
+          - name: Création d’un rendez-vous périodique selon une périodicité hebdomadaire
+            href: outlook/pia/how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md
+          - name: Création d’un rendez-vous périodique annuel selon une périodicité toutes les n années
+            href: outlook/pia/how-to-create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern.md
+          - name: Recherche d’un rendez-vous spécifique dans une série de rendez-vous périodiques
+            href: outlook/pia/how-to-find-a-specific-appointment-in-a-recurring-appointment-series.md
+          - name: Création d’un rendez-vous exceptionnel dans une série de rendez-vous périodiques
+            href: outlook/pia/how-to-create-an-exception-appointment-in-a-recurring-appointment-series.md
+          - name: Création d’un rappel pour un élément de rendez-vous
+            href: outlook/pia/how-to-create-a-reminder-for-an-appointment-item.md
+          - name: Importation des données XML d’un rendez-vous dans les objets de rendez-vous Outlook
+            href: outlook/pia/how-to-import-appointment-xml-data-into-outlook-appointment-objects.md
+        - name: Pièces jointes
+          href: outlook/pia/attachments.md
+          items:
+          - name: Programmation de la suppression des pièces jointes de niveau de sécurité 2 des messages pour les enregistrer sur disque
+            href: outlook/pia/how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md
+        - name: Calendrier
+          href: outlook/pia/calendar.md
+          items:
+          - name: Partage du planning de disponibilité pendant une période spécifiée dans un calendrier
+            href: outlook/pia/how-to-share-free-busy-schedule-within-a-specified-period-in-a-calendar.md
+          - name: Partage des informations de calendrier par e-mail
+            href: outlook/pia/how-to-share-calendar-information-through-e-mail.md
+          - name: Affichage du calendrier partagé d’un destinataire
+            href: outlook/pia/how-to-display-a-shared-calendar-of-a-recipient.md
+          - name: Enregistrement d’un calendrier sur disque
+            href: outlook/pia/how-to-save-a-calendar-to-disk.md
+          - name: Ouverture et affichage du contenu d’un fichier iCalendar
+            href: outlook/pia/how-to-open-and-display-the-contents-of-an-icalendar-file.md
+        - name: Catégories de couleurs
+          href: outlook/pia/color-categories.md
+          items:
+          - name: Énumération et ajout des catégories
+            href: outlook/pia/how-to-enumerate-and-add-categories.md
+          - name: Affectation des catégories à un élément
+            href: outlook/pia/how-to-assign-categories-to-an-item.md
+        - name: Contacts
+          href: outlook/pia/contacts.md
+          items:
+          - name: Création d’un contact
+            href: outlook/pia/how-to-create-a-contact-item.md
+          - name: Création d’un contact personnalisé
+            href: outlook/pia/how-to-create-a-custom-contact-item.md
+          - name: Création d’un contact à partir d’un fichier vCard et enregistrement du contact dans un dossier
+            href: outlook/pia/how-to-create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder.md
+        - name: Conversations
+          href: outlook/pia/conversations.md
+          items:
+          - name: Obtention et affichage des éléments d’une conversation
+            href: outlook/pia/how-to-get-and-display-items-in-a-conversation.md
+          - name: Obtention et énumération des conversations sélectionnées
+            href: outlook/pia/how-to-get-and-enumerate-selected-conversations.md
+        - name: Cartes de visite électroniques
+          href: outlook/pia/electronic-business-cards.md
+          items:
+          - name: Modification de la mise en page d’une carte de visite électronique
+            href: outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card.md
+          - name: Envoi d’un élément de courrier avec une carte de visite électronique
+            href: outlook/pia/how-to-send-a-mail-item-with-an-electronic-business-card.md
+        - name: Utilisateurs Exchange
+          href: outlook/pia/exchange-users.md
+          items:
+          - name: Obtention des informations de l’utilisateur actuel
+            href: outlook/pia/how-to-get-information-about-the-current-user.md
+          - name: Obtention des informations de toutes les listes de distribution dont l’utilisateur actuel est membre
+            href: outlook/pia/how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md
+          - name: Création d’une liste de distribution
+            href: outlook/pia/how-to-create-a-distribution-list.md
+          - name: Obtention des membres d’une liste de distribution Exchange
+            href: outlook/pia/how-to-get-members-of-an-exchange-distribution-list.md
+          - name: Obtention des informations du manager de l’utilisateur actuel
+            href: outlook/pia/how-to-get-information-about-the-current-user-s-manager.md
+          - name: Obtention des informations de disponibilité du manager d’un utilisateur Exchange
+            href: outlook/pia/how-to-get-availability-information-for-an-exchange-user-s-manager.md
+          - name: Vérification de la réponse d’un manager à une demande de réunion
+            href: outlook/pia/how-to-check-a-manager-s-response-to-a-meeting-request.md
+          - name: Obtention des informations des collaborateurs directs du manager de l’utilisateur actuel
+            href: outlook/pia/how-to-get-information-about-direct-reports-of-the-current-user-s-manager.md
+        - name: Dossiers
+          href: outlook/pia/folders.md
+          items:
+          - name: Ajout d’un dossier à la liste des dossiers
+            href: outlook/pia/how-to-add-a-folder-to-the-folder-list.md
+          - name: Énumération des dossiers
+            href: outlook/pia/how-to-enumerate-folders.md
+          - name: Obtention d’un dossier par défaut et énumération de ses sous-dossiers
+            href: outlook/pia/how-to-get-a-default-folder-and-enumerate-its-subfolders.md
+          - name: Obtention d’un dossier à partir de son chemin d’accès
+            href: outlook/pia/how-to-get-a-folder-based-on-its-folder-path.md
+          - name: Sélection d’un dossier et affichage de ses informations
+            href: outlook/pia/how-to-select-a-folder-and-display-folder-information.md
+          - name: Obtention de la classe de message par défaut d’un dossier
+            href: outlook/pia/how-to-get-the-default-message-class-of-a-folder.md
+          - name: Accès aux données d’une solution stockée sous forme de message masqué dans un dossier
+            href: outlook/pia/how-to-access-solution-specific-data-stored-as-a-hidden-message-in-a-folder.md
+          - name: Procédure pour vérifier la prise en charge des propriétés des éléments personnalisés dans les requêtes au niveau du dossier
+            href: outlook/pia/how-to-ensure-that-custom-item-properties-are-supported-in-folder-level-queries.md
+        - name: Éléments Outlook généraux
+          href: outlook/pia/general-outlook-items.md
+          items:
+          - name: Création d’une classe d’assistance pour accéder aux membres courants d’un élément Outlook
+            href: outlook/pia/how-to-create-a-helper-class-to-access-common-outlook-item-members.md
+          - name: Affichage des éléments sélectionnés dans l’Explorateur actif
+            href: outlook/pia/how-to-display-selected-items-in-the-active-explorer.md
+        - name: Partage de groupe
+          href: outlook/pia/group-sharing.md
+          items:
+          - name: Abonnement à un flux RSS
+            href: outlook/pia/how-to-subscribe-to-an-rss-feed.md
+          - name: Synchronisation d’Outlook avec un dossier SharePoint
+            href: outlook/pia/how-to-synchronize-outlook-with-a-sharepoint-folder.md
+        - name: Courrier
+          href: outlook/pia/mail.md
+          items:
+          - name: Création d’un élément de courrier électronique avec un modèle de message
+            href: outlook/pia/how-to-create-a-mail-item-by-using-a-message-template.md
+          - name: Création d’un élément de courrier, insertion d’un rapport en pièce jointe et envoi de l’élément au manager de l’utilisateur
+            href: outlook/pia/how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md
+          - name: Envoi d’un e-mail d’après l’adresse SMTP d’un compte
+            href: outlook/pia/how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md
+          - name: Ajout d’options de vote à un élément de courrier électronique
+            href: outlook/pia/how-to-add-voting-options-to-a-mail-item.md
+          - name: Ajout d’une action personnalisée sous forme de réponse à un élément de courrier
+            href: outlook/pia/how-to-add-a-custom-action-as-a-response-to-a-mail-item.md
+          - name: Obtention de l’adresse SMTP de l’expéditeur d’un élément de courrier
+            href: outlook/pia/how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md
+          - name: Indication de plusieurs types de destinataires d’un élément de courrier
+            href: outlook/pia/how-to-specify-different-recipient-types-for-a-mail-item.md
+        - name: Demandes de réunion
+          href: outlook/pia/meeting-requests.md
+          items:
+          - name: Création d’une demande de réunion, ajout de destinataires et d’un lieu
+            href: outlook/pia/how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md
+          - name: Obtention de l’organisateur d’une réunion
+            href: outlook/pia/how-to-get-the-organizer-of-a-meeting.md
+          - name: Consultation de toutes les réponses à une demande de réunion
+            href: outlook/pia/how-to-check-all-responses-to-a-meeting-request.md
+          - name: Recherche de l’élément de rendez-vous associé à une demande de réunion
+            href: outlook/pia/how-to-find-the-appointment-item-associated-with-a-meeting-request.md
+          - name: Validation automatique d’une demande de réunion
+            href: outlook/pia/how-to-automatically-accept-a-meeting-request.md
+          - name: Invitation d’un utilisateur pour répondre à une demande de réunion
+            href: outlook/pia/how-to-prompt-a-user-to-respond-to-a-meeting-request.md
+        - name: Destinataires
+          href: outlook/pia/recipients.md
+          items:
+          - name: Affichage de la boîte de dialogue Sélectionner des noms pour résoudre des destinataires
+            href: outlook/pia/how-to-display-the-select-names-dialog-box-to-resolve-recipients.md
+          - name: Utilisation de la boîte de dialogue Sélectionner des noms pour obtenir et attribuer des destinataires à un rendez-vous
+            href: outlook/pia/how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md
+          - name: Obtention de l’adresse e-mail du destinataire
+            href: outlook/pia/how-to-get-the-e-mail-address-of-a-recipient.md
+        - name: Règles
+          href: outlook/pia/rules.md
+          items:
+          - name: Création d’une règle pour classer les éléments de courrier provenant d’un manager et les marquer pour le suivi
+            href: outlook/pia/how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md
+          - name: Exécution immédiate d’une règle
+            href: outlook/pia/how-to-execute-a-rule-instantly.md
+          - name: Exécution d’une règle sur un ordinateur local
+            href: outlook/pia/how-to-execute-a-rule-on-a-local-computer.md
+          - name: Création d’une règle pour affecter des catégories aux éléments de courrier selon les mots employés dans l’objet
+            href: outlook/pia/how-to-create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject.md
+        - name: Exemples de tâches utilisant des événements Outlook
+          href: outlook/pia/sample-tasks-using-outlook-events.md
+          items:
+          - name: Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur
+            href: outlook/pia/how-to-implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector.md
+        - name: Recherche et filtrage
+          href: outlook/pia/search-and-filter.md
+          items:
+          - name: Énumération efficace et filtrage des éléments d’un dossier
+            href: outlook/pia/how-to-filter-and-efficiently-enumerate-items-in-a-folder.md
+          - name: Utilisation de SetColumns pour énumérer efficacement les éléments d’un dossier
+            href: outlook/pia/how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md
+          - name: Utilisation des tableaux pour énumérer efficacement les éléments d’un dossier
+            href: outlook/pia/how-to-use-arrays-to-efficiently-enumerate-items-in-a-folder.md
+          - name: Énumération des éléments de la Boîte de réception selon l’heure de la dernière modification
+            href: outlook/pia/how-to-enumerate-items-in-the-inbox-based-on-the-last-modification-time.md
+          - name: Filtrage et affichage des éléments de boîte de réception modifiés le mois dernier
+            href: outlook/pia/how-to-filter-and-display-inbox-items-modified-in-the-last-month.md
+          - name: Filtrage et affichage des propriétés à valeurs multiples pendant l’énumération des éléments d’un dossier
+            href: outlook/pia/how-to-filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder.md
+          - name: Filtrage et affichage des propriétés calculées pendant l’énumération des éléments d’un dossier
+            href: outlook/pia/how-to-filter-and-display-computed-properties-when-enumerating-items-in-a-folder.md
+          - name: Énumération des éléments masqués d’un dossier
+            href: outlook/pia/how-to-enumerate-hidden-items-in-a-folder.md
+          - name: Utilisation de la recherche instantanée pour rechercher une expression employée dans l’objet dans tous les dossiers et toutes les banques
+            href: outlook/pia/how-to-use-instant-search-to-search-all-folders-and-all-stores-for-a-phrase-in-the-subject.md
+          - name: Recherche dans un dossier d’une expression employée dans le corps des éléments
+            href: outlook/pia/how-to-search-for-a-phrase-in-the-body-of-items-in-a-folder.md
+          - name: Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
+            href: outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase.md
+          - name: Effectuer des recherches et obtenir des rendez-vous dans un intervalle de temps
+            href: outlook/pia/how-to-search-and-obtain-appointments-in-a-time-range.md
+          - name: Filtrage des rendez-vous périodiques et recherche d’une chaîne dans l’objet
+            href: outlook/pia/how-to-filter-recurring-appointments-and-search-for-a-string-in-the-subject.md
+          - name: Recherche et obtention des éléments dans une vue agrégée
+            href: outlook/pia/how-to-search-and-obtain-items-in-an-aggregated-view.md
+        - name: Sessions
+          href: outlook/pia/sessions.md
+          items:
+          - name: Obtention d’une instance d’Outlook pour s’y connecter
+            href: outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook.md
+        - name: Banques
+          href: outlook/pia/stores.md
+          items:
+          - name: Obtention des informations des banques dans un profil
+            href: outlook/pia/how-to-get-information-about-stores-in-a-profile.md
+          - name: Ajout ou suppression d’une banque
+            href: outlook/pia/how-to-add-or-remove-a-store.md
+        - name: Tâches
+          href: outlook/pia/tasks.md
+          items:
+          - name: Création d’un élément de tâche
+            href: outlook/pia/how-to-create-a-task-item.md
+          - name: Affectation d’une tâche à un destinataire
+            href: outlook/pia/how-to-assign-a-task-to-a-recipient.md
+          - name: Affichage des éléments d’une demande de tâche envoyés à un destinataire
+            href: outlook/pia/how-to-display-the-task-request-items-sent-to-a-recipient.md
+          - name: Procédure de réponse à un élément de demande de tâche
+            href: outlook/pia/how-to-respond-to-a-task-request-item.md
+          - name: Création d’une tâche périodique
+            href: outlook/pia/how-to-create-a-recurring-task.md
+          - name: Marquage des éléments de courrier envoyés par un manager pour le suivi
+            href: outlook/pia/how-to-flag-mail-items-from-a-manager-for-follow-up.md
+        - name: Affichages
+          href: outlook/pia/views.md
+          items:
+          - name: Création d’un affichage
+            href: outlook/pia/how-to-create-a-view.md
+          - name: Ajout de champs à un affichage
+            href: outlook/pia/how-to-add-fields-to-a-view.md
+          - name: Énumération des éléments dans un affichage tableau
+            href: outlook/pia/how-to-enumerate-items-in-a-table-view.md
+      - name: Bibliothèque de classes
+        href: outlook/pia/outlook-2013-interop-assembly-class-library.md
+        items:
+        - name: Espace de noms Microsoft.Office.Interop.Outlook
+          href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
     - name: Référence du fournisseur Outlook Social Connector
       href: outlook/social-connector/outlook-social-connector-provider-reference.md
       items:
@@ -894,9 +1221,9 @@ items:
           items:
           - name: Vue d’ensemble du code XML pour un élément de flux d’activité
             href: outlook/social-connector/overview-of-xml-for-an-activity-feed-item.md
-          - name: Élément activityDetails
+          - name: Élément ActivityDetails
             href: outlook/social-connector/activitydetails-element.md
-          - name: Élément activityTemplateContainer
+          - name: Élément ActivityTemplateContainer
             href: outlook/social-connector/activitytemplatecontainer-element.md
           - name: Variables de modèle
             href: outlook/social-connector/template-variables.md
@@ -1024,7 +1351,7 @@ items:
     - name: Extension de la barre météorologique dans Outlook
       href: outlook/weather/extending-the-weather-bar-in-outlook.md
       items:
-      - name: Schéma XML sur les informations météorologiques Outlook
+      - name: Schéma XML sur les informations météorologiques Outlook
         href: outlook/weather/outlook-weather-information-xml-schema.md
         items:
         - name: Mappage de schéma
@@ -1049,7 +1376,7 @@ items:
             href: outlook/weather/forecasttype-complextype-outlook-weather-information-schema.md
           - name: weatherType complexType
             href: outlook/weather/weathertype-complextype-outlook-weather-information-schema.md
-      - name: Schéma XML sur l’emplacement météorologique Outlook
+      - name: Schéma XML sur l’emplacement météorologique Outlook
         href: outlook/weather/outlook-weather-location-xml-schema.md
         items:
         - name: Mappage de schéma
@@ -1095,7 +1422,7 @@ items:
           items:
           - name: À propos de la résolution de conflit pour les types d’éléments personnalisés
             href: outlook/auxiliary/about-conflict-resolution-for-custom-item-types.md
-          - name: À propos de l’heure de la dernière mise à jour d’un carnet d’adresse en mode hors connexion
+          - name: Heure de la dernière mise à jour d’un carnet d’adresses en mode hors connexion
             href: outlook/auxiliary/about-the-last-update-time-of-an-offline-address-book.md
           - name: À propos de l’inscription d’un nouveau domaine pour la configuration automatique
             href: outlook/auxiliary/about-registering-a-new-domain-for-automatic-configuration.md
@@ -1121,7 +1448,7 @@ items:
             href: outlook/auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md
           - name: Lire les propriétés de fuseau horaire à partir d’un rendez-vous
             href: outlook/auxiliary/how-to-read-time-zone-properties-from-an-appointment.md
-          - name: Utiliser l’heure relative pour accéder aux données de disponibilité
+          - name: Utilisation de l’heure relative pour accéder aux données de disponibilité
             href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
       - name: Référence
         href: outlook/auxiliary/reference-outlook-auxiliary-reference.md
@@ -1287,7 +1614,7 @@ items:
               href: outlook/auxiliary/prop_smtp_use_spa.md
             - name: PROP_SMTP_USER
               href: outlook/auxiliary/prop_smtp_user.md
-        - name: À propos de la référence de l’API de couche de dégradation des données
+        - name: Référence de l’API de couche de dégradation des données
           href: outlook/auxiliary/data-degradation-layer-api-reference.md
           items:
           - name: Constantes
@@ -1440,63 +1767,63 @@ items:
                 href: outlook/auxiliary/iolkapptrebaser-endrebaseappointments.md
           - name: Événements
             href: outlook/auxiliary/available-events-and-their-dispids-outlook-exported-apis.md
-    - name: Référence MAPI Outlook
+    - name: Référence MAPI Outlook
       href: outlook/mapi/outlook-mapi-reference.md
       items:
-      - name: Mise en route
+      - name: Prise en main
         href: outlook/mapi/getting-started-with-the-outlook-mapi-reference.md
         items:
-        - name: Vue d’ensemble de la référence MAPI Outlook
+        - name: Présentation de la référence MAPI Outlook
           href: outlook/mapi/outlook-mapi-reference-overview.md
-        - name: Nouveautés dans cette édition
+        - name: Nouveautés de cette édition
           href: outlook/mapi/what-s-new-in-this-edition.md
-        - name: Fichiers d’en-tête communément utilisés
+        - name: Fichiers d’en-tête couramment utilisés
           href: outlook/mapi/commonly-used-header-files.md
-        - name: Propriétés communément utilisées
+        - name: Propriétés couramment utilisées
           href: outlook/mapi/commonly-used-properties.md
-        - name: Objets communément utilisés
+        - name: Objets couramment utilisés
           href: outlook/mapi/commonly-used-objects.md
-        - name: Éléments de l’API obsolètes dans cette édition
+        - name: Éléments d’API obsolètes dans cette édition
           href: outlook/mapi/api-elements-deprecated-in-this-edition.md
       - name: Exemples
         href: outlook/mapi/mapi-samples.md
         items:
-        - name: MFCMAPI en tant qu’exemple de code
+        - name: MFCMAPI comme exemple de code
           href: outlook/mapi/mfcmapi-as-a-code-sample.md
-        - name: Exemples de fournisseurs de services MAPI
+        - name: Exemples de fournisseurs de services MAPI
           href: outlook/mapi/mapi-service-provider-samples.md
           items:
-          - name: Téléchargement des exemples MAPI d’Outlook
+          - name: Téléchargement des exemples MAPI Outlook
             href: outlook/mapi/downloading-the-outlook-mapi-samples.md
           - name: Exemple de fournisseur de carnets d’adresses
             href: outlook/mapi/address-book-provider-sample.md
-          - name: Exemple de fournisseur de banque de messages
+          - name: Exemple de fournisseur de banques de messages
             href: outlook/mapi/message-store-provider-sample.md
             items:
-            - name: Installation de l’exemple de fournisseur d’archive PST encapsulée
+            - name: Installation de l’exemple de fournisseur d’archive PST encapsulée
               href: outlook/mapi/installing-the-sample-wrapped-pst-store-provider.md
-            - name: Initialisation d’un fournisseur d’archive PST encapsulée
+            - name: Initialisation d’un fournisseur d’archive PST encapsulée
               href: outlook/mapi/initializing-a-wrapped-pst-store-provider.md
-            - name: Connexion à un fournisseur d’archive PST encapsulée
+            - name: Connexion à un fournisseur d’archive PST encapsulée
               href: outlook/mapi/logging-on-to-a-wrapped-pst-store-provider.md
-            - name: Utilisation d’un fournisseur d’archive PST encapsulée
+            - name: Utilisation d’un fournisseur d’archive PST encapsulée
               href: outlook/mapi/using-a-wrapped-pst-store-provider.md
-            - name: Arrêt d’un fournisseur d’archive PST encapsulée
+            - name: Arrêt d’un fournisseur d’archive PST encapsulée
               href: outlook/mapi/shutting-down-a-wrapped-pst-store-provider.md
           - name: Exemple de fournisseur de transport
             href: outlook/mapi/transport-provider-sample.md
-        - name: Création d’éléments Outlook à l’aide de MAPI
+        - name: Création d’éléments Outlook avec MAPI
           href: outlook/mapi/creating-outlook-items-by-using-mapi.md
           items:
-          - name: Installer les exemples utilisés dans cette section
+          - name: Installation des exemples utilisés dans cette section
             href: outlook/mapi/how-to-install-the-samples-used-in-this-section.md
-          - name: Créer un élément simple de messagerie
+          - name: Création d’un élément de courrier simple
             href: outlook/mapi/how-to-create-a-simple-mail-item.md
-          - name: Créer un élément simple de tâche récurrente
+          - name: Création d’un élément de tâche récurrente simple
             href: outlook/mapi/how-to-create-a-simple-recurrent-task-item.md
-          - name: Créer un élément complexe de rendez-vous récurrent
+          - name: Création d’un élément de rendez-vous récurrent complexe
             href: outlook/mapi/how-to-create-a-complex-recurrent-appointment-item.md
-          - name: Lire et analyser une périodicité
+          - name: Lecture et analyse d’une périodicité
             href: outlook/mapi/how-to-read-and-parse-a-recurrence-pattern.md
       - name: Concepts
         href: outlook/mapi/mapi-concepts.md
@@ -1508,28 +1835,28 @@ items:
             href: outlook/mapi/mapi-feature-overview.md
           - name: Vue d’ensemble de l’architecture
             href: outlook/mapi/mapi-architecture-overview.md
-          - name: Vue d’ensemble de l’application cliente
+          - name: Présentation de l’application cliente
             href: outlook/mapi/mapi-client-application-overview.md
-          - name: Vue d’ensemble du spouleur MAPI
+          - name: Présentation du spouleur MAPI
             href: outlook/mapi/mapi-spooler-overview.md
-          - name: Vue d’ensemble du fournisseur de services
+          - name: Présentation du fournisseur de services
             href: outlook/mapi/mapi-service-provider-overview.md
-          - name: Vue d’ensemble du fournisseur de carnets d’adresses
+          - name: Présentation du fournisseur de carnets d’adresses
             href: outlook/mapi/mapi-address-book-provider-overview.md
-          - name: Vue d’ensemble du fournisseur de banques de messages
+          - name: Présentation du fournisseur de banques de messages
             href: outlook/mapi/mapi-message-store-provider-overview.md
-          - name: Vue d’ensemble du fournisseur de transport
+          - name: Présentation du fournisseur de transport
             href: outlook/mapi/mapi-transport-provider-overview.md
-          - name: Vue d’ensemble des services de messagerie
+          - name: Présentation des services de messagerie
             href: outlook/mapi/mapi-message-service-overview.md
-          - name: Vue d’ensemble de profil
+          - name: Vue d’ensemble du profil
             href: outlook/mapi/mapi-profile-overview.md
           - name: Vue d’ensemble des formulaires
             href: outlook/mapi/mapi-forms-overview.md
           - name: À propos de l’API d’état hors connexion
             href: outlook/mapi/about-the-offline-state-api.md
             items:
-            - name: À propos de l’exemple de complément d’état hors connexion
+            - name: Exemple de complément d’état hors connexion
               href: outlook/mapi/about-the-sample-offline-state-add-in.md
             - name: Installation de l’exemple de complément d’état hors connexion
               href: outlook/mapi/installing-the-sample-offline-state-add-in.md
@@ -1541,60 +1868,60 @@ items:
               href: outlook/mapi/disconnecting-an-offline-state-add-in.md
           - name: À propos de l’API de récupération sur incident MAPI
             href: outlook/mapi/about-the-mapi-crash-recovery-api.md
-          - name: À propos de la définition de l’ordre de résolution pour les listes d’adresses dans Outlook
+          - name: Définition de l’ordre de résolution des listes d’adresses dans Outlook
             href: outlook/mapi/about-setting-the-resolution-order-for-address-lists-in-outlook.md
           - name: À propos de l’API de réplication
             href: outlook/mapi/about-the-replication-api.md
             items:
-            - name: À propos de l’exemple de fournisseur d’archive PST encapsulée
+            - name: Exemple de fournisseur d’archive PST encapsulée
               href: outlook/mapi/about-the-sample-wrapped-pst-store-provider.md
           - name: À propos de la machine à états de réplication
             href: outlook/mapi/about-the-replication-state-machine.md
             items:
-            - name: Télécharger l’état de la hiérarchie
+            - name: Téléchargement de l’état de la hiérarchie
               href: outlook/mapi/download-hierarchy-state.md
-            - name: Télécharger l’état de l’en-tête de message
+            - name: Téléchargement de l’état de l’en-tête de message
               href: outlook/mapi/download-message-header-state.md
-            - name: Télécharger l’état de la table
+            - name: Téléchargement de l’état de la table
               href: outlook/mapi/download-table-state.md
             - name: État inactif
               href: outlook/mapi/idle-state.md
-            - name: Synchroniser l’état du contenu
+            - name: Synchronisation de l’état du contenu
               href: outlook/mapi/synchronize-contents-state.md
-            - name: Synchroniser l’état
+            - name: Synchronisation de l’état
               href: outlook/mapi/synchronize-state.md
-            - name: Télécharger l’état de suppression de statut
+            - name: Chargement de l’état de suppression de statut
               href: outlook/mapi/upload-delete-status-state.md
-            - name: Télécharger l’état du dossier
+            - name: Chargement de l’état du dossier
               href: outlook/mapi/upload-folder-state.md
-            - name: Télécharger l’état de la hiérarchie
+            - name: Chargement de l’état de la hiérarchie
               href: outlook/mapi/upload-hierarchy-state.md
-            - name: Télécharger l’état du message
+            - name: Chargement de l’état du message
               href: outlook/mapi/upload-message-state.md
-            - name: Télécharger l’état de lecture de statut
+            - name: Chargement de l’état de lecture de statut
               href: outlook/mapi/upload-read-status-state.md
-            - name: Télécharger l’état de la table
+            - name: Chargement de l’état de la table
               href: outlook/mapi/upload-table-state.md
           - name: À propos de l’API de magasin
             href: outlook/mapi/about-the-store-api.md
             items:
-            - name: À propos de l’inscription de magasins pour l’indexation
+            - name: Inscription des banques pour l’indexation
               href: outlook/mapi/about-registering-stores-for-indexing.md
-            - name: À propos de l’indexation de magasin basée sur une notification
+            - name: Indexation des banques basée sur une notification
               href: outlook/mapi/about-notification-based-store-indexing.md
-            - name: À propos des URL MAPI pour l’indexation basée sur une notification
+            - name: Indexation basée sur une notification avec les URL MAPI
               href: outlook/mapi/about-mapi-urls-for-notification-based-indexing.md
-            - name: Algorithme permettant de calculer le nombre de hachages de magasin
+            - name: Algorithme permettant de calculer le nombre de hachages de banque
               href: outlook/mapi/algorithm-to-calculate-the-store-hash-number.md
-            - name: Algorithme permettant d’encoder les ID d’entrée et les ID de pièce jointe
+            - name: Algorithme permettant d’encoder les ID d’entrée et de pièce jointe
               href: outlook/mapi/algorithm-to-encode-entry-ids-and-attachment-ids.md
           - name: À propos de l’API de conversion MAPI-MIME
             href: outlook/mapi/about-the-mapi-mime-conversion-api.md
           - name: À propos de l’API de sécurité des pièces jointes
             href: outlook/mapi/about-the-attachment-security-api.md
-          - name: À propos des ajouts MAPI
+          - name: Ajouts MAPI
             href: outlook/mapi/about-mapi-additions.md
-          - name: À propos des propriétés nommées utilisées par Outlook
+          - name: Propriétés nommées utilisées par Outlook
             href: outlook/mapi/about-named-properties-used-by-outlook.md
         - name: Développement d’applications
           href: outlook/mapi/mapi-application-development.md
@@ -1602,15 +1929,15 @@ items:
           - name: Vue d’ensemble de la programmation
             href: outlook/mapi/mapi-programming-overview.md
             items:
-            - name: Installation du sous-système MAPI
+            - name: Installation du sous-système MAPI
               href: outlook/mapi/installing-the-mapi-subsystem.md
-            - name: Installer les fichiers d’en-tête MAPI
+            - name: Installation des fichiers d’en-tête MAPI
               href: outlook/mapi/how-to-install-mapi-header-files.md
-            - name: Lien vers les fonctions MAPI
+            - name: Lien vers les fonctions MAPI
               href: outlook/mapi/how-to-link-to-mapi-functions.md
-            - name: Choisir une version spécifique de MAPI à charger
+            - name: Sélection d’une version spécifique de MAPI à charger
               href: outlook/mapi/how-to-choose-a-specific-version-of-mapi-to-load.md
-            - name: Vérifier la version d’Outlook
+            - name: Vérification de la version d’Outlook
               href: outlook/mapi/how-to-check-the-version-of-outlook.md
             - name: Test et débogage
               href: outlook/mapi/testing-and-debugging.md
@@ -1618,82 +1945,82 @@ items:
               href: outlook/mapi/mapi-sessions.md
             - name: Profils et services de messagerie
               href: outlook/mapi/message-services-and-profiles.md
-            - name: Problèmes d’environnement d’exploitation
+            - name: Questions liées à l’environnement d’exploitation
               href: outlook/mapi/operating-environment-issues.md
               items:
               - name: Création d’applications MAPI sur les plateformes 32 bits et 64 bits
                 href: outlook/mapi/building-mapi-applications-on-32-bit-and-64-bit-platforms.md
-              - name: Appel de MAPI à partir de services Windows
+              - name: Appel de MAPI à partir des services Windows
                 href: outlook/mapi/calling-mapi-from-windows-services.md
-            - name: Accès à un magasin sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache
+            - name: Accès à une banque sur le serveur distant quand Outlook est en mode Exchange mis en cache
               href: outlook/mapi/how-to-access-store-on-remote-server-in-cached-exchange-mode.md
             - name: Créer un profil Outlook en utilisant MFCMAPI
               href: outlook/mapi/how-to-create-an-outlook-profile-using-mfcmapi.md
-            - name: Détecter la version d’Exchange Server dans un profil Outlook
+            - name: Détection de la version d’Exchange Server dans un profil Outlook
               href: outlook/mapi/how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md
-            - name: Déterminer si Outlook a téléchargé uniquement l’en-tête d’un message
+            - name: Procédure pour déterminer si Outlook a uniquement téléchargé l’en-tête d’un message
               href: outlook/mapi/how-to-determine-if-outlook-downloaded-only-the-header-of-a-message.md
-            - name: Obtenir l’adresse électronique d’un élément de contact
+            - name: Obtention de l’adresse e-mail d’un contact
               href: outlook/mapi/how-to-get-the-email-address-of-a-contact-item.md
-            - name: Obtenir le chemin d’une version spécifique de MAPI pour le client de messagerie par défaut
+            - name: Obtention du chemin d’accès d’une version spécifique de MAPI pour le client de messagerie par défaut
               href: outlook/mapi/how-to-get-path-of-specific-version-of-mapi-for-default-mail-client.md
-            - name: Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache
+            - name: Gestion d’un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache
               href: outlook/mapi/how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md
-            - name: Obtenir le message d’un contact en fonction d’une entrée de carnet d’adresses des contacts
+            - name: Obtention d’un message d’un contact à partir d’une entrée de son carnet d’adresses
               href: outlook/mapi/how-to-obtain-a-contact-message-given-a-contacts-address-book-entry.md
-            - name: Accéder à un message dans une banque IMAP sans télécharger le message entier
+            - name: Accès à un message dans une banque IMAP sans télécharger le message entier
               href: outlook/mapi/how-to-access-message-on-imap-store-without-downloading-entire-message.md
-            - name: Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache
+            - name: Ouverture d’une banque sur le serveur distant quand Outlook est en mode Exchange mis en cache
               href: outlook/mapi/how-to-open-store-on-remote-server-in-cached-exchange-mode.md
-            - name: Définir par programme l’ordre de résolution des listes d’adresses
+            - name: Programmation de l’ordre de résolution des listes d’adresses
               href: outlook/mapi/how-to-programmatically-set-the-resolution-order-for-address-lists.md
             - name: Créer par programme un profil dans Outlook
               href: outlook/mapi/how-to-programmatically-create-a-profile-in-outlook.md
-            - name: Supprimer la définition de formulaire personnalisé enregistrée avec un message
+            - name: Suppression de la définition de formulaire personnalisé enregistrée avec un message
               href: outlook/mapi/how-to-remove-custom-form-definition-saved-with-a-message.md
-            - name: Récupérer le corps d’un message dans un fichier RTF compressé et le convertir dans son format natif
+            - name: Récupération du corps d’un message dans un fichier RTF compressé pour le convertir dans son format natif
               href: outlook/mapi/how-to-retrieve-the-body-of-a-message-in-compressed-rtf-and-convert.md
             - name: Utiliser l’API de récupération sur incident MAPI
               href: outlook/mapi/how-to-use-the-mapi-crash-recovery-api.md
-            - name: Vérifier qu’une pièce jointe est bloquée
+            - name: Vérification du blocage d’une pièce jointe
               href: outlook/mapi/how-to-verify-an-attachment-is-blocked.md
           - name: Tableaux
             href: outlook/mapi/mapi-tables.md
             items:
-            - name: Types de tableaux
+            - name: Types de tables
               href: outlook/mapi/types-of-tables.md
-            - name: Tableaux des pièces jointes
+            - name: Tables des pièces jointes
               href: outlook/mapi/attachment-tables.md
             - name: Tables des matières
               href: outlook/mapi/contents-tables.md
-            - name: Tableaux d’affichage
+            - name: Tables d’affichage
               href: outlook/mapi/display-tables.md
-            - name: Tables de hiérarchies
+            - name: Tables des hiérarchies
               href: outlook/mapi/hierarchy-tables.md
-            - name: Tables de services de messagerie
+            - name: Tables des services de messagerie
               href: outlook/mapi/message-service-tables.md
-            - name: Tables de banques de messages
+            - name: Tables des banques de messages
               href: outlook/mapi/message-store-tables.md
             - name: Tables ponctuelles
               href: outlook/mapi/one-off-tables.md
-            - name: Tables de files d’attente sortantes
+            - name: Tables des files d’attente sortantes
               href: outlook/mapi/outgoing-queue-tables.md
-            - name: Tables de profils
+            - name: Tables des profils
               href: outlook/mapi/profile-tables.md
-            - name: Tables de fournisseurs
+            - name: Tables des fournisseurs
               href: outlook/mapi/provider-tables.md
-            - name: Tables de dossiers de réception
+            - name: Tables des dossiers de réception
               href: outlook/mapi/receive-folder-tables.md
-            - name: Tables de destinataires
+            - name: Tables des destinataires
               href: outlook/mapi/recipient-tables.md
             - name: Tables des états
               href: outlook/mapi/status-tables.md
-            - name: Conseils relatifs à l’utilisation des tableaux
+            - name: Conseils pour utiliser les tables
               href: outlook/mapi/tips-for-working-with-tables.md
               items:
-              - name: Récupération de données à partir des lignes d’un tableau
+              - name: Récupération des données des lignes d’une table
                 href: outlook/mapi/retrieving-data-from-table-rows.md
-              - name: Positionnement de tableau
+              - name: Positionnement de table
                 href: outlook/mapi/table-positioning.md
                 items:
                 - name: Définition d’une position de table avec un signet
@@ -1702,36 +2029,36 @@ items:
                   href: outlook/mapi/setting-table-position-with-a-fractional-value.md
                 - name: Définition d’une position de table avec un filtre
                   href: outlook/mapi/setting-a-table-position-with-a-filter.md
-              - name: Utilisation de la mémoire et des tableaux
+              - name: Utilisation de la mémoire et des tables
                 href: outlook/mapi/tables-and-memory-usage.md
-              - name: Utilisation de colonnes volumineuses
+              - name: Utilisation des colonnes volumineuses
                 href: outlook/mapi/working-with-large-columns.md
-              - name: Utilisation de colonnes à valeurs multiples
+              - name: Utilisation des colonnes à valeurs multiples
                 href: outlook/mapi/working-with-multivalued-columns.md
-              - name: Utilisation de colonnes Unicode
+              - name: Utilisation des colonnes Unicode
                 href: outlook/mapi/working-with-unicode-columns.md
-              - name: Définition de la fin d’un tableau
+              - name: Définition de la fin d’une table
                 href: outlook/mapi/determining-a-table-s-end.md
               - name: Tri et catégorisation
                 href: outlook/mapi/sorting-and-categorization.md
-              - name: À propos des restrictions
+              - name: Restrictions
                 href: outlook/mapi/about-restrictions.md
                 items:
                 - name: Types de restrictions
                   href: outlook/mapi/types-of-restrictions.md
-                - name: Restrictions de carnet d’adresses
+                - name: Restrictions des carnets d’adresses
                   href: outlook/mapi/address-book-restrictions.md
                 - name: Création d’une restriction
                   href: outlook/mapi/building-a-restriction.md
                 - name: Exemple de code de restriction
                   href: outlook/mapi/sample-restriction-code.md
-              - name: À propos des notifications de table
+              - name: Notifications de table
                 href: outlook/mapi/about-table-notifications.md
-              - name: À propos de l’affichage des notifications de table
+              - name: Affichage des notifications de table
                 href: outlook/mapi/about-display-table-notifications.md
-              - name: À propos des opérations de tables asynchrones
+              - name: Opérations des tables asynchrones
                 href: outlook/mapi/about-asynchronous-table-operations.md
-              - name: Conseils relatifs à l’amélioration des performances de table
+              - name: Conseils pour améliorer les performances d’une table
                 href: outlook/mapi/tips-for-better-table-performance.md
           - name: Formulaires
             href: outlook/mapi/mapi-forms.md
@@ -1753,7 +2080,7 @@ items:
             - name: Bibliothèques de formulaires
               href: outlook/mapi/mapi-form-libraries.md
               items:
-              - name: Stockage de formulaire
+              - name: Stockage des formulaires
                 href: outlook/mapi/form-storage.md
               - name: Bibliothèques de formulaires locaux
                 href: outlook/mapi/local-form-libraries.md
@@ -1772,7 +2099,7 @@ items:
               href: outlook/mapi/types-of-client-applications.md
             - name: Liaison aux fichiers DLL MAPI
               href: outlook/mapi/linking-to-the-mapi-dlls.md
-            - name: Gestion de session
+            - name: Gestion d’une session
               href: outlook/mapi/mapi-session-handling.md
               items:
               - name: Démarrage d’une session MAPI
@@ -1788,7 +2115,7 @@ items:
                   href: outlook/mapi/logging-on-to-mapi.md
               - name: Fermeture d’une session MAPI
                 href: outlook/mapi/ending-a-mapi-session.md
-              - name: Accès aux objets en utilisant une session
+              - name: Accès aux objets via une session
                 href: outlook/mapi/accessing-objects-by-using-the-session.md
               - name: Récupération de l’identité fournisseur et principale
                 href: outlook/mapi/retrieving-primary-and-provider-identity.md
@@ -1824,11 +2151,11 @@ items:
             - name: Gestion d’un message entrant
               href: outlook/mapi/handling-an-incoming-message.md
               items:
-              - name: Ouverture du texte de message
+              - name: Ouverture du texte d’un message
                 href: outlook/mapi/opening-message-text.md
-              - name: Rendu d’une pièce jointe sous la forme de texte brut
+              - name: Affichage d’une pièce jointe en texte brut
                 href: outlook/mapi/rendering-an-attachment-in-plain-text.md
-              - name: Rendu d’une pièce jointe sous la forme de texte mis en forme (RTF)
+              - name: Affichage d’une pièce jointe au format RTF
                 href: outlook/mapi/rendering-an-attachment-in-rtf-text.md
               - name: Ouverture d’une pièce jointe
                 href: outlook/mapi/opening-an-attachment.md
@@ -1841,21 +2168,21 @@ items:
                 href: outlook/mapi/opening-the-default-message-store.md
               - name: Validation et initialisation d’une banque de messages
                 href: outlook/mapi/validating-and-initializing-a-message-store.md
-              - name: Recherche d’une banque de messages
+              - name: Recherche d’un message dans une banque
                 href: outlook/mapi/searching-a-message-store.md
               - name: Sélection d’un dossier de réception
                 href: outlook/mapi/selecting-a-receive-folder.md
-              - name: Ouverture d’un dossier de banque de messages
+              - name: Ouverture d’un dossier d’une banque de messages
                 href: outlook/mapi/opening-a-message-store-folder.md
-              - name: Affichage d’une table des matières de dossier
+              - name: Affichage de la table des matières d’un dossier
                 href: outlook/mapi/displaying-a-folder-contents-table.md
               - name: Navigation dans le dossier de boîte de réception
                 href: outlook/mapi/traversing-the-inbox-folder.md
-              - name: Copie ou déplacement d’un message ou d’un dossier
+              - name: Copie ou déplacement d’un message ou dossier
                 href: outlook/mapi/copying-or-moving-a-message-or-a-folder.md
               - name: Ouverture d’un message
                 href: outlook/mapi/opening-a-message.md
-              - name: Recherche d’une icône pour un message
+              - name: Recherche de l’icône d’un message
                 href: outlook/mapi/finding-the-icon-for-a-message.md
               - name: Ouverture d’un descripteur de vue
                 href: outlook/mapi/opening-a-view-descriptor.md
@@ -1865,18 +2192,18 @@ items:
                 href: outlook/mapi/saving-a-message-in-the-inbox.md
               - name: Recherche de messages envoyés ou enregistrés
                 href: outlook/mapi/finding-sent-or-saved-messages.md
-              - name: Suivi de conversations
+              - name: Suivi des conversations
                 href: outlook/mapi/tracking-conversations.md
             - name: Gestion du carnet d’adresses
               href: outlook/mapi/handling-the-address-book.md
               items:
               - name: Ouverture du carnet d’adresses
                 href: outlook/mapi/opening-the-address-book.md
-              - name: Affichage de la boîte de dialogue d’adresse courante
+              - name: Affichage de la boîte de dialogue Adresse courante
                 href: outlook/mapi/displaying-the-common-address-dialog-box.md
-              - name: Ouverture d’un conteneur de carnet d’adresses
+              - name: Ouverture d’un conteneur du carnet d’adresses
                 href: outlook/mapi/opening-an-address-book-container.md
-              - name: Définition des options de carnet d’adresses
+              - name: Définition des options du carnet d’adresses
                 href: outlook/mapi/setting-address-book-options.md
               - name: Création d’un destinataire
                 href: outlook/mapi/creating-a-recipient.md
@@ -1890,11 +2217,11 @@ items:
                 href: outlook/mapi/preparing-a-recipient.md
               - name: Accès aux membres d’une liste de distribution
                 href: outlook/mapi/accessing-the-members-of-a-distribution-list.md
-              - name: Récupération des propriétés de destinataire
+              - name: Récupération des propriétés d’un destinataire
                 href: outlook/mapi/retrieving-recipient-properties.md
               - name: Recherche dans le carnet d’adresses
                 href: outlook/mapi/searching-the-address-book.md
-              - name: Utilisation d’une boîte de dialogue de recherche avancée
+              - name: Utilisation d’une boîte de dialogue Recherche avancée
                 href: outlook/mapi/using-an-advanced-search-dialog-box.md
               - name: Résolution d’un nom de destinataire
                 href: outlook/mapi/resolving-a-recipient-name.md
@@ -1916,24 +2243,24 @@ items:
                 href: outlook/mapi/registering-for-a-notification.md
               - name: Annulation d’une notification
                 href: outlook/mapi/canceling-a-notification.md
-              - name: Gestion des notifications de banque de messages
+              - name: Gestion des notifications de la banque de messages
                 href: outlook/mapi/handling-message-store-notification.md
-              - name: Gestion des notifications de carnet d’adresses
+              - name: Gestion des notifications du carnet d’adresses
                 href: outlook/mapi/handing-address-book-notification.md
-              - name: Gestion des notifications de table
+              - name: Gestion des notifications de la table
                 href: outlook/mapi/handling-table-notification.md
               - name: Implémentation d’un objet récepteur de conseil
                 href: outlook/mapi/implementing-an-advise-sink-object.md
-              - name: Minutage d’une notification
+              - name: Planification d’une notification
                 href: outlook/mapi/timing-a-notification.md
-              - name: Garantir une notification thread-safe
+              - name: Envoi de notifications thread-safe
                 href: outlook/mapi/ensuring-a-thread-safe-notification.md
-              - name: Forçage d’une notification
+              - name: Envoi forcé d’une notification
                 href: outlook/mapi/forcing-a-notification.md
             - name: Gestion des formulaires MAPI
               href: outlook/mapi/handling-mapi-forms.md
               items:
-              - name: Implémentation d’une visionneuse de formulaire
+              - name: Implémentation d’une visionneuse de formulaires
                 href: outlook/mapi/implementing-a-form-viewer.md
               - name: Implémentation de verbes de formulaire standard
                 href: outlook/mapi/implementing-standard-form-verbs.md
@@ -1943,7 +2270,7 @@ items:
                 href: outlook/mapi/maintaining-a-form-library.md
               - name: Chargement d’un message dans un formulaire
                 href: outlook/mapi/loading-a-message-into-a-form.md
-              - name: Création d’un message en utilisant un formulaire
+              - name: Création d’un message via un formulaire
                 href: outlook/mapi/composing-a-new-message-by-using-a-form.md
               - name: Affichage des icônes de formulaire
                 href: outlook/mapi/displaying-form-icons.md
@@ -1953,9 +2280,9 @@ items:
               - name: Création d’un profil
                 href: outlook/mapi/creating-a-profile.md
                 items:
-                - name: Création d’un profil à l’aide de l’Assistant Profil
+                - name: Création d’un profil avec l’Assistant Profil
                   href: outlook/mapi/creating-a-profile-by-using-the-profile-wizard.md
-                - name: Création d’un profil à l’aide de code personnalisé
+                - name: Création d’un profil avec du code personnalisé
                   href: outlook/mapi/creating-a-profile-by-using-custom-code.md
               - name: Copie d’un profil
                 href: outlook/mapi/copying-a-profile.md
@@ -1988,12 +2315,12 @@ items:
                 href: outlook/mapi/using-the-mapi-utilities.md
               - name: Implémentation d’un indicateur de progression
                 href: outlook/mapi/implementing-a-progress-indicator.md
-              - name: Centralisation de la réception des rapports de non remise
+              - name: Centralisation de la réception des notifications d’échec de remise
                 href: outlook/mapi/centralizing-the-receipt-of-ndrs.md
             - name: Amélioration des performances du client
               href: outlook/mapi/improving-client-performance.md
               items:
-              - name: Éviter certaines méthodes au démarrage
+              - name: Conseils pour éviter certaines méthodes au démarrage
                 href: outlook/mapi/avoiding-certain-methods-at-startup.md
               - name: Obtention et définition de plusieurs propriétés
                 href: outlook/mapi/getting-and-setting-multiple-properties.md
@@ -2003,11 +2330,11 @@ items:
                 href: outlook/mapi/getting-and-setting-properties-with-getprops-and-setprops.md
               - name: Enregistrement des propriétés fréquemment utilisées
                 href: outlook/mapi/saving-frequently-used-properties.md
-              - name: Report de traitement
+              - name: Report du traitement
                 href: outlook/mapi/deferring-processing.md
               - name: Écriture de texte mis en forme non compressé
                 href: outlook/mapi/writing-uncompressed-formatted-text.md
-              - name: Éviter l’utilisation de IStream::SetSize pour étendre un flux de données
+              - name: Conseils pour éviter l’utilisation de IStream::SetSize pour étendre un flux de données
                 href: outlook/mapi/avoiding-using-istream-setsize-to-extend-a-stream.md
               - name: Tri des tables après la définition des colonnes et des restrictions
                 href: outlook/mapi/sorting-tables-after-setting-columns-and-restrictions.md
@@ -2037,21 +2364,21 @@ items:
                 href: outlook/mapi/handsoffaftersave-state.md
               - name: État HandsOffFromNormal
                 href: outlook/mapi/handsofffromnormal-state.md
-            - name: Écriture de code du serveur de formulaire
+            - name: Écriture du code du serveur de formulaire
               href: outlook/mapi/writing-form-server-code.md
               items:
-              - name: Déclaration d’interfaces de formulaire
+              - name: Déclaration des interfaces de formulaire
                 href: outlook/mapi/declaring-form-interfaces.md
-              - name: Intégration de code du serveur de formulaire MAPI avec du code Windows
+              - name: Intégration du code du serveur de formulaire MAPI avec du code Windows
                 href: outlook/mapi/integrating-mapi-form-server-code-with-windows-code.md
               - name: Implémentation de l’interface IClassFactory pour les serveurs de formulaires
                 href: outlook/mapi/implementing-the-iclassfactory-interface-for-form-servers.md
-            - name: Création d’un fichier de configuration de formulaire
+            - name: Création d’un fichier config pour un formulaire
               href: outlook/mapi/creating-a-form-configuration-file.md
             - name: Interactions avec le serveur de formulaire
               href: outlook/mapi/form-server-interactions.md
               items:
-              - name: Récupération des propriétés de formulaires
+              - name: Récupération des propriétés du formulaire
                 href: outlook/mapi/retrieving-form-properties.md
               - name: Lancement d’un formulaire pour lire un message
                 href: outlook/mapi/launching-a-form-to-read-a-message.md
@@ -2085,7 +2412,7 @@ items:
               href: outlook/mapi/mapi-search-folders.md
             - name: Dossiers cachés
               href: outlook/mapi/mapi-hidden-folders.md
-            - name: Afficher les dossiers
+            - name: Affichage des dossiers
               href: outlook/mapi/mapi-view-folders.md
           - name: Messages
             href: outlook/mapi/mapi-messages.md
@@ -2094,14 +2421,14 @@ items:
               href: outlook/mapi/mapi-message-classes.md
             - name: Messages de rapport
               href: outlook/mapi/mapi-report-messages.md
-            - name: Vue d’ensemble des propriétés de message
+            - name: Vue d’ensemble des propriétés du message
               href: outlook/mapi/message-properties-overview.md
               items:
               - name: Propriétés requises pour tous les messages
                 href: outlook/mapi/required-properties-for-all-messages.md
-              - name: Propriétés de message de rapport requises
+              - name: Propriétés requises des messages de rapport
                 href: outlook/mapi/required-report-message-properties.md
-              - name: Propriétés de message de rapport facultatives
+              - name: Propriétés facultatives des messages de rapport
                 href: outlook/mapi/optional-report-message-properties.md
               - name: Propriétés des destinataires pour tous les messages
                 href: outlook/mapi/recipient-properties-for-all-messages.md
@@ -2110,7 +2437,7 @@ items:
             - name: Champs et éléments Outlook
               href: outlook/mapi/outlook-items-and-fields.md
               items:
-              - name: Ajout d’une définition pour un nouveau champ défini par l’utilisateur
+              - name: Ajout de la définition d’un nouveau champ défini par l’utilisateur
                 href: outlook/mapi/how-to-add-a-definition-for-a-new-user-defined-field.md
               - name: Exemple de flux PropertyDefinition
                 href: outlook/mapi/propertydefinition-stream-sample.md
@@ -2123,7 +2450,7 @@ items:
                   href: outlook/mapi/propertydefinition-stream-structure.md
                 - name: Structure de flux FieldDefinition
                   href: outlook/mapi/fielddefinition-stream-structure.md
-                - name: Structures de flux de champs de dossier
+                - name: Structures de flux des champs de dossier
                   href: outlook/mapi/folder-fields-stream-structures.md
                 - name: Structure de flux SkipBlock
                   href: outlook/mapi/skipblock-stream-structure.md
@@ -2142,11 +2469,11 @@ items:
             items:
             - name: Types d’adresses
               href: outlook/mapi/mapi-address-types.md
-            - name: Adresses uniques
+            - name: Adresses ponctuelles
               href: outlook/mapi/one-off-addresses.md
             - name: Identificateurs de carnet d’adresses
               href: outlook/mapi/address-book-identifiers.md
-            - name: Identificateurs d’entrée unique
+            - name: Identificateurs d’entrée ponctuelle
               href: outlook/mapi/one-off-entry-identifiers.md
             - name: Utilisation de plusieurs comptes Exchange
               href: outlook/mapi/using-multiple-exchange-accounts.md
@@ -2164,14 +2491,14 @@ items:
           - name: Gestion de la mémoire
             href: outlook/mapi/managing-memory-in-mapi.md
             items:
-            - name: Gestion de la mémoire pour les structures ADRLIST et SRowSet
+            - name: Gestion de la mémoire des structures ADRLIST et SRowSet
               href: outlook/mapi/managing-memory-for-adrlist-and-srowset-structures.md
             - name: Allocation et libération de mémoire
               href: outlook/mapi/allocating-and-freeing-memory-in-mapi.md
           - name: Gestion des erreurs
             href: outlook/mapi/error-handling-in-mapi.md
             items:
-            - name: Convention d’affectation de noms de valeur renvoyée
+            - name: Convention d’affectation de noms pour la valeur renvoyée
               href: outlook/mapi/return-value-naming-convention.md
             - name: Utilisation des macros pour la gestion des erreurs
               href: outlook/mapi/using-macros-for-error-handling.md
@@ -2181,29 +2508,29 @@ items:
               href: outlook/mapi/strategies-for-error-handling.md
             - name: Erreurs étendues
               href: outlook/mapi/mapi-extended-errors.md
-            - name: Report d’erreurs
+            - name: Report des erreurs
               href: outlook/mapi/deferring-mapi-errors.md
-          - name: Envoi de messages à l’aide de MAPI
+          - name: Envoi des messages via MAPI
             href: outlook/mapi/sending-messages-by-using-mapi.md
             items:
             - name: Accès délégué
               href: outlook/mapi/delegate-access.md
-            - name: Envoi de messages avec TNEF
+            - name: Envoi des messages avec TNEF
               href: outlook/mapi/sending-messages-with-tnef.md
-            - name: 'Envoi de messages : tâches de spouleur MAPI'
+            - name: 'Envoi de messages : tâches du spouleur MAPI'
               href: outlook/mapi/sending-messages-mapi-spooler-tasks.md
-            - name: 'Envoi de messages : tâches de fournisseur de banque de messages'
+            - name: 'Envoi de messages : tâches du fournisseur de banques de messages'
               href: outlook/mapi/sending-messages-message-store-provider-tasks.md
-            - name: 'Envoi de messages : tâche de fournisseur de transport'
+            - name: 'Envoi de messages : tâche du fournisseur de transport'
               href: outlook/mapi/sending-messages-transport-provider-tasks.md
           - name: Envoi sur des domaines de messagerie
             href: outlook/mapi/sending-across-messaging-domains.md
             items:
-            - name: Propriétés mappables de passerelle
+            - name: Propriétés mappables de la passerelle
               href: outlook/mapi/gateway-mappable-properties.md
-            - name: Responsabilités de noms de clients
+            - name: Responsabilités du client pour l’affectation de noms
               href: outlook/mapi/client-naming-responsibilities.md
-            - name: Responsabilités de mappage de passerelle
+            - name: Responsabilités de la passerelle en cas de mappage
               href: outlook/mapi/gateway-mapping-responsibilities.md
           - name: Notification d’événement dans MAPI
             href: outlook/mapi/event-notification-in-mapi.md
@@ -2222,11 +2549,11 @@ items:
           - name: Arrêt du client
             href: outlook/mapi/client-shutdown-in-mapi.md
             items:
-            - name: Vue d’ensemble de l’arrêt rapide
+            - name: Présentation de l’arrêt rapide
               href: outlook/mapi/fast-shutdown-overview.md
-            - name: Options utilisateur d’arrêt rapide
+            - name: Options utilisateur en cas d’arrêt rapide
               href: outlook/mapi/fast-shutdown-user-options.md
-            - name: Meilleures pratiques pour l’arrêt rapide
+            - name: Meilleures pratiques en cas d’arrêt rapide
               href: outlook/mapi/best-practices-for-fast-shutdown.md
           - name: Stockage structuré
             href: outlook/mapi/structured-storage-in-mapi.md
@@ -2243,9 +2570,9 @@ items:
               href: outlook/mapi/supporting-formatted-text-in-incoming-messages-client-responsibilities.md
             - name: 'Prise en charge du texte mis en forme : responsabilités de la banque de messages'
               href: outlook/mapi/supporting-formatted-text-message-store-responsibilities.md
-            - name: 'Prise en charge du texte mis en forme : rendu des pièces jointes'
+            - name: 'Prise en charge du texte mis en forme : affichage des pièces jointes'
               href: outlook/mapi/supporting-formatted-text-rendering-attachments.md
-            - name: 'Prise en charge du texte mis en forme : responsabilités de passerelle'
+            - name: 'Prise en charge du texte mis en forme : responsabilités de la passerelle'
               href: outlook/mapi/supporting-formatted-text-gateway-responsibilities.md
           - name: Moteur inactif
             href: outlook/mapi/mapi-idle-engine.md
@@ -2266,24 +2593,24 @@ items:
                 items:
                 - name: Entrées de propriétés dans les sections de service de messagerie MapiSvc.inf
                   href: outlook/mapi/property-entries-in-mapisvc-inf-message-service-sections.md
-                - name: Entrées de liste dans les sections de service de message MapiSvc.inf
+                - name: Entrées de listes dans les sections de service de messagerie MapiSvc.inf
                   href: outlook/mapi/list-entries-in-mapisvc-inf-message-service-sections.md
               - name: Sections de fournisseur de services MapiSvc.inf
                 href: outlook/mapi/mapisvc-inf-service-provider-sections.md
               - name: Inscription de services et de fournisseurs de services dans MapiSvc.inf
                 href: outlook/mapi/registering-services-and-service-providers-in-mapisvc-inf.md
-            - name: Format des fichiers de configuration de formulaire
+            - name: Format des fichiers config des formulaires
               href: outlook/mapi/file-format-of-form-configuration-files.md
               items:
-              - name: Section [Description] du fichier de configuration de formulaire
+              - name: Section [Description] du fichier config des formulaires
                 href: outlook/mapi/form-configuration-file-description-section.md
-              - name: Section [Extensions] du fichier de configuration de formulaire
+              - name: Section [Extensions] du fichier config des formulaires
                 href: outlook/mapi/form-configuration-file-extensions-section.md
-              - name: Section [Plates-formes] du fichier de configuration de formulaire
+              - name: Section [Plateformes] du fichier config des formulaires
                 href: outlook/mapi/form-configuration-file-platforms-section.md
-              - name: Section [Propriétés] du fichier de configuration de formulaire
+              - name: Section [Propriétés] du fichier config des formulaires
                 href: outlook/mapi/form-configuration-file-properties-section.md
-              - name: Section [Verbes] du fichier de configuration de formulaire
+              - name: Section [Verbes] du fichier config des formulaires
                 href: outlook/mapi/form-configuration-file-verbs-section.md
           - name: Format TNEF (Transport Neutral Encapsulation Format)
             href: outlook/mapi/transport-neutral-encapsulation-format-tnef.md
@@ -2332,40 +2659,40 @@ items:
         - name: Éléments de programmation
           href: outlook/mapi/mapi-programming-elements.md
           items:
-          - name: Vue d’ensemble d’interface et d’objet
+          - name: Vue d’ensemble des interfaces et des objets
             href: outlook/mapi/mapi-object-and-interface-overview.md
             items:
             - name: COM (Component Object Model) et MAPI
               href: outlook/mapi/component-object-model-and-mapi.md
             - name: Objets et architecture MAPI
               href: outlook/mapi/objects-and-the-mapi-architecture.md
-            - name: Hiérarchie d’héritage d’objet
+            - name: Hiérarchie d’héritage des objets
               href: outlook/mapi/mapi-object-inheritance-hierarchy.md
-            - name: Hiérarchie d’imbrication d’objet
+            - name: Hiérarchie d’imbrication des objets
               href: outlook/mapi/mapi-object-containment-hierarchy.md
             - name: Objets implémentés par MAPI
               href: outlook/mapi/mapi-implemented-objects.md
             - name: Objets clients
               href: outlook/mapi/mapi-client-objects.md
-            - name: Objets de fournisseur de services
+            - name: Objets du fournisseur de services
               href: outlook/mapi/mapi-service-provider-objects.md
               items:
               - name: Objets du fournisseur de carnets d’adresses
                 href: outlook/mapi/mapi-address-book-provider-objects.md
               - name: Objets du fournisseur de banques de messages
                 href: outlook/mapi/mapi-message-store-provider-objects.md
-              - name: Objets de fournisseur de transport
+              - name: Objets du fournisseur de transport
                 href: outlook/mapi/mapi-transport-provider-objects.md
-            - name: Objets de formulaires personnalisés
+            - name: Objets des formulaires personnalisés
               href: outlook/mapi/mapi-custom-form-objects.md
             - name: Utilisation des objets MAPI
               href: outlook/mapi/using-mapi-objects.md
-            - name: Implémentation d’objets MAPI
+            - name: Implémentation des objets MAPI
               href: outlook/mapi/implementing-mapi-objects.md
               items:
-              - name: Implémentation d’objets dans C++
+              - name: Implémentation des objets dans C++
                 href: outlook/mapi/implementing-objects-in-c-plus-plus.md
-              - name: Implémentation d’objets dans C
+              - name: Implémentation des objets dans C
                 href: outlook/mapi/implementing-objects-in-c.md
               - name: Implémentation de l’interface IUnknown
                 href: outlook/mapi/implementing-the-iunknown-interface.md
@@ -2385,7 +2712,7 @@ items:
               href: outlook/mapi/mapi-property-identifier-overview.md
             - name: Vue d’ensemble du type de propriété
               href: outlook/mapi/mapi-property-type-overview.md
-            - name: Propriétés de chaînes
+            - name: Propriétés des chaînes
               href: outlook/mapi/mapi-string-properties.md
             - name: Propriétés canoniques
               href: outlook/mapi/mapi-canonical-properties.md
@@ -2399,7 +2726,7 @@ items:
               href: outlook/mapi/handling-mapi-property-errors.md
             - name: Définition de nouvelles propriétés
               href: outlook/mapi/defining-new-mapi-properties.md
-            - name: Autorisations pour les objets et les propriétés
+            - name: Autorisations liées aux objets et aux propriétés
               href: outlook/mapi/permissions-for-mapi-objects-and-properties.md
             - name: Récupération des propriétés
               href: outlook/mapi/retrieving-mapi-properties.md
@@ -2418,11 +2745,11 @@ items:
                 href: outlook/mapi/property-names-and-property-sets.md
               - name: Mappages et signatures de mappages
                 href: outlook/mapi/mappings-and-mapping-signatures.md
-              - name: Gestion des erreurs de propriétés nommées
+              - name: Gestion des erreurs des propriétés nommées
                 href: outlook/mapi/handling-named-property-errors.md
               - name: Transmission et copie des propriétés nommées
                 href: outlook/mapi/transmitting-and-copying-named-properties.md
-              - name: Jeux de propriétés communément utilisées
+              - name: Jeux de propriétés fréquemment utilisés
                 href: outlook/mapi/commonly-used-property-sets.md
             - name: Types et identificateurs de propriétés
               href: outlook/mapi/property-identifiers-and-types.md
@@ -2448,7 +2775,7 @@ items:
         - name: Fournisseurs de services
           href: outlook/mapi/mapi-service-providers.md
           items:
-          - name: Concepts de base sur le développement de fournisseur de services
+          - name: Informations de base sur le développement du fournisseur de services
             href: outlook/mapi/service-provider-development-basics.md
             items:
             - name: Vue d’ensemble de l’objet de prise en charge
@@ -2456,21 +2783,21 @@ items:
             - name: Démarrage d’un fournisseur de services
               href: outlook/mapi/starting-a-service-provider.md
               items:
-              - name: Implémentation d’une fonction de point d’entrée de fournisseur de services
+              - name: Implémentation de la fonction de point d’entrée d’un fournisseur de services
                 href: outlook/mapi/implementing-a-service-provider-entry-point-function.md
-              - name: Implémentation d’une ouverture de session de fournisseur de services
+              - name: Implémentation de l’ouverture de session d’un fournisseur de services
                 href: outlook/mapi/implementing-service-provider-logon.md
                 items:
                 - name: Vérification de la configuration du fournisseur de services
                   href: outlook/mapi/verifying-service-provider-configuration.md
                 - name: Implémentation d’un objet d’ouverture de session
                   href: outlook/mapi/implementing-a-logon-object.md
-                - name: Inscription des identificateurs uniques de fournisseur de services
+                - name: Inscription des identificateurs uniques du fournisseur de services
                   href: outlook/mapi/registering-service-provider-unique-identifiers.md
             - name: Arrêt d’un fournisseur de services
               href: outlook/mapi/shutting-down-a-service-provider.md
               items:
-              - name: Arrêt d’un fournisseur de banque de messages
+              - name: Arrêt d’un fournisseur de banques de messages
                 href: outlook/mapi/shutting-down-a-message-store-provider.md
               - name: Invalidation d’un objet
                 href: outlook/mapi/invalidating-an-object.md
@@ -2489,14 +2816,14 @@ items:
                 href: outlook/mapi/supporting-message-service-configuration.md
             - name: Implémentation d’une feuille de propriétés
               href: outlook/mapi/property-sheet-implementation.md
-            - name: Implémentation d’un tableau d’affichage
+            - name: Implémentation d’une table d’affichage
               href: outlook/mapi/display-table-implementation.md
               items:
-              - name: Création de tableaux d’affichage et des structures associées
+              - name: Création des tables d’affichage et des structures associées
                 href: outlook/mapi/creating-display-tables-and-related-structures.md
-              - name: Affichage des contrôles de tableau
+              - name: Affichage des contrôles de table
                 href: outlook/mapi/displaying-table-controls.md
-              - name: Affichage des lignes et des colonnes de tableau
+              - name: Affichage des lignes et des colonnes de table
                 href: outlook/mapi/displaying-table-rows-and-columns.md
             - name: Implémentation d’un objet de contrôle
               href: outlook/mapi/control-object-implementation.md
@@ -2507,41 +2834,41 @@ items:
               items:
               - name: Objets de progression
                 href: outlook/mapi/mapi-progress-objects.md
-              - name: Afficher un indicateur de progression
+              - name: Affichage d’un indicateur de progression
                 href: outlook/mapi/how-to-display-a-progress-indicator.md
-          - name: Développement d’un fournisseur de carnet d’adresses MAPI
+          - name: Développement d’un fournisseur de carnets d’adresses MAPI
             href: outlook/mapi/developing-a-mapi-address-book-provider.md
             items:
-            - name: Fonctionnalités requises pour les fournisseurs de carnet d’adresses
+            - name: Fonctionnalités requises pour les fournisseurs de carnets d’adresses
               href: outlook/mapi/required-features-for-address-book-providers.md
               items:
-              - name: Implémentation d’une fonction de point d’entrée de fournisseur de carnet d’adresses
+              - name: Implémentation de la fonction de point d’entrée d’un fournisseur de carnets d’adresses
                 href: outlook/mapi/implementing-an-address-book-provider-entry-point-function.md
-              - name: Implémentation d’ouverture et de fermeture de session de fournisseur de carnet d’adresses
+              - name: Implémentation de l’ouverture et de la fermeture de session d’un fournisseur de carnets d’adresses
                 href: outlook/mapi/implementing-address-book-provider-logon-and-logoff.md
             - name: Fonctionnalités requises pour les conteneurs du carnet d’adresses
               href: outlook/mapi/required-features-for-address-book-containers.md
               items:
-              - name: Ouverture d’entrées de carnet d’adresses
+              - name: Ouverture des entrées du carnet d’adresses
                 href: outlook/mapi/opening-address-book-entries.md
-              - name: Comparaison d’entrées de carnet d’adresses
+              - name: Comparaison des entrées du carnet d’adresses
                 href: outlook/mapi/comparing-address-book-entries.md
-              - name: Ajout d’entrées de carnet d’adresses
+              - name: Ajout d’entrées dans le carnet d’adresses
                 href: outlook/mapi/adding-address-book-entries.md
-              - name: Copie d’entrées de carnet d’adresses
+              - name: Copie d’entrées du carnet d’adresses
                 href: outlook/mapi/copying-address-book-entries.md
               - name: Suppression d’entrées du carnet d’adresses
                 href: outlook/mapi/removing-address-book-entries.md
-              - name: Implémentation de résolution de noms
+              - name: Implémentation de la résolution de noms
                 href: outlook/mapi/implementing-name-resolution.md
-              - name: Affichage des informations de destinataire
+              - name: Affichage des informations du destinataire
                 href: outlook/mapi/displaying-recipient-information.md
             - name: Fonctionnalités facultatives pour les fournisseurs de carnets d’adresses
               href: outlook/mapi/optional-features-for-address-book-providers.md
               items:
-              - name: Rôle de fournisseur de carnet d’adresses étranger
+              - name: Rôle du fournisseur de carnets d’adresses étranger
                 href: outlook/mapi/acting-as-a-foreign-address-book-provider.md
-              - name: Rôle de fournisseur de carnet d’adresses hôte
+              - name: Rôle du fournisseur de carnets d’adresses hôte
                 href: outlook/mapi/acting-as-a-host-address-book-provider.md
               - name: Implémentation de la recherche avancée
                 href: outlook/mapi/implementing-advanced-searching.md
@@ -2555,21 +2882,21 @@ items:
           - name: Développement d’un fournisseur de transport MAPI
             href: outlook/mapi/developing-a-mapi-transport-provider.md
             items:
-            - name: Vue d’ensemble du fournisseur de transport
+            - name: Présentation du fournisseur de transport
               href: outlook/mapi/transport-provider-overview.md
-            - name: Types de fournisseurs de transports
+            - name: Types de fournisseurs de transport
               href: outlook/mapi/types-of-transport-providers.md
-            - name: Rôle de fournisseur de transport dans le sous-système MAPI
+            - name: Rôle du fournisseur de transport dans le sous-système MAPI
               href: outlook/mapi/transport-provider-role-in-the-mapi-subsystem.md
               items:
-              - name: Fournisseur de transport et modèle opérationnel de spouleur MAPI
+              - name: Fournisseur de transport et modèle opérationnel du spouleur MAPI
                 href: outlook/mapi/transport-provider-and-mapi-spooler-operational-model.md
                 items:
-                - name: Modèle d’envoi de message
+                - name: Modèle d’envoi des messages
                   href: outlook/mapi/message-submission-model.md
-                - name: Modèle de réception de message
+                - name: Modèle de réception des messages
                   href: outlook/mapi/message-reception-model.md
-            - name: Fonctionnalités requises pour les fournisseurs de transports
+            - name: Fonctionnalités requises pour les fournisseurs de transport
               href: outlook/mapi/required-functionality-for-transport-providers.md
               items:
               - name: Interaction des composants et des fournisseurs MAPI
@@ -2584,41 +2911,41 @@ items:
                 href: outlook/mapi/implementing-the-flushqueues-method.md
               - name: Définition des propriétés sur les messages entrants
                 href: outlook/mapi/setting-properties-on-incoming-messages.md
-            - name: Fonctionnalités facultatives de fournisseur de transport
+            - name: Fonctionnalités facultatives du fournisseur de transport
               href: outlook/mapi/optional-transport-provider-features.md
               items:
               - name: Implémentation de la sécurité
                 href: outlook/mapi/implementing-security.md
               - name: Affichage des feuilles de propriétés de configuration
                 href: outlook/mapi/displaying-configuration-property-sheets.md
-              - name: Envoi de rapports de remise de messages
+              - name: Envoi de rapports de remise des messages
                 href: outlook/mapi/sending-message-delivery-reports.md
             - name: Développement d’un fournisseur de transport TNEF
               href: outlook/mapi/developing-a-tnef-enabled-transport-provider.md
               items:
               - name: Traitement TNEF
                 href: outlook/mapi/tnef-processing.md
-              - name: Codage d’un message avec TNEF
+              - name: Encodage d’un message avec TNEF
                 href: outlook/mapi/encoding-a-message-with-tnef.md
               - name: Traitement personnalisé avec TNEF
                 href: outlook/mapi/custom-processing-with-tnef.md
                 items:
-                - name: Envoi de messages via le traitement de pièce jointe personnalisé TNEF
+                - name: Envoi des messages via le traitement de pièce jointe personnalisé TNEF
                   href: outlook/mapi/sending-messages-by-using-tnef-custom-attachment-processing.md
-                - name: Réception de messages via le traitement de pièce jointe personnalisé TNEF
+                - name: Réception des messages via le traitement de pièce jointe personnalisé TNEF
                   href: outlook/mapi/receiving-messages-by-using-tnef-custom-attachment-processing.md
               - name: Texte du message TNEF
                 href: outlook/mapi/tnef-tagged-message-text.md
-              - name: Codage des tables de destinataires avec TNEF
+              - name: Encodage des tables de destinataires avec TNEF
                 href: outlook/mapi/encoding-recipient-tables-by-using-tnef.md
-          - name: Développement d’un fournisseur de banque de messages MAPI
+          - name: Développement d’un fournisseur de banques de messages MAPI
             href: outlook/mapi/developing-a-mapi-message-store-provider.md
             items:
-            - name: Structure de fournisseurs de banque de messages
+            - name: Structure des fournisseurs de banques de messages
               href: outlook/mapi/structure-of-message-store-providers.md
-            - name: Interfaces obligatoires et facultatives pour les fournisseurs de banque de messages
+            - name: Interfaces obligatoires et facultatives pour les fournisseurs de banques de messages
               href: outlook/mapi/required-and-optional-interfaces-for-message-store-providers.md
-            - name: Fonctionnalités de banque de messages
+            - name: Fonctionnalités des banques de messages
               href: outlook/mapi/message-store-features.md
               items:
               - name: Implémentation de dossiers dans des banques de messages
@@ -2626,36 +2953,36 @@ items:
                 items:
                 - name: Exposition des dossiers dans des banques de messages
                   href: outlook/mapi/exposing-folders-in-message-stores.md
-                - name: Dossiers de boîte de réception et de boîte d’envoi dans des banques de messages
+                - name: Dossiers de boîte de réception et de boîte d’envoi dans les banques de messages
                   href: outlook/mapi/inbox-and-outbox-folders-in-message-stores.md
-                - name: Dossiers spéciaux dans des banques de messages
+                - name: Dossiers spéciaux dans les banques de messages
                   href: outlook/mapi/special-folders-in-message-stores.md
-              - name: Implémentation des messages dans des banques de messages
+              - name: Implémentation des messages dans les banques de messages
                 href: outlook/mapi/implementing-messages-in-message-stores.md
                 items:
-                - name: Création et stockage des messages dans des banques de messages
+                - name: Création et stockage des messages dans les banques de messages
                   href: outlook/mapi/creating-and-storing-messages-in-message-stores.md
                 - name: Prise en charge des propriétés nommées dans les banques de messages
                   href: outlook/mapi/supporting-named-properties-in-message-stores.md
                 - name: Prise en charge des propriétés à valeurs multiples dans les banques de messages
                   href: outlook/mapi/supporting-multivalued-properties-in-message-stores.md
-                - name: Prise en charge de plusieurs accès client aux messages dans des banques de messages
+                - name: Prise en charge de plusieurs accès client aux messages dans les banques de messages
                   href: outlook/mapi/supporting-multiple-client-access-to-messages-in-message-stores.md
-              - name: Fourniture de rapports lus et non lus pour les fournisseurs de banques de messages
+              - name: Fourniture de rapports lus et non lus aux fournisseurs de banques de messages
                 href: outlook/mapi/providing-read-and-nonread-reports-for-message-store-providers.md
-              - name: Implémentation d’une interface de configuration pour les fournisseurs de banque de messages
+              - name: Implémentation d’une interface de configuration pour les fournisseurs de banques de messages
                 href: outlook/mapi/implementing-a-configuration-interface-for-message-store-providers.md
               - name: Tables d’informations associées aux dossiers
                 href: outlook/mapi/folder-associated-information-tables.md
-              - name: Envoi de messages à l’aide de fournisseurs de banques de messages
+              - name: Envoi de messages via les fournisseurs de banques de messages
                 href: outlook/mapi/sending-messages-by-using-message-store-providers.md
-              - name: Réception de messages à l’aide de fournisseurs de banques de messages
+              - name: Réception de messages via les fournisseurs de banques de messages
                 href: outlook/mapi/receiving-messages-by-using-message-store-providers.md
-              - name: Prise en charge des pièces jointes de message pour les fournisseurs de banques de messages
+              - name: Prise en charge des pièces jointes de message dans les fournisseurs de banques de messages
                 href: outlook/mapi/supporting-message-attachments-for-message-store-providers.md
-              - name: Prise en charge de texte RTF pour les fournisseurs de banques de messages
+              - name: Prise en charge du texte RTF dans les fournisseurs de banques de messages
                 href: outlook/mapi/supporting-rtf-text-for-message-store-providers.md
-              - name: Fourniture de notifications pour les fournisseurs de banques de messages
+              - name: Fourniture de notifications dans les fournisseurs de banques de messages
                 href: outlook/mapi/providing-notifications-for-message-store-providers.md
               - name: Regroupement et limitation des tables dans les fournisseurs de banques de messages
                 href: outlook/mapi/grouping-and-restricting-tables-in-message-store-providers.md
@@ -2672,7 +2999,7 @@ items:
                 href: outlook/mapi/supporting-forms-and-views-in-read-only-message-stores.md
             - name: Fournisseurs de banques de messages étroitement couplés
               href: outlook/mapi/tightly-coupled-message-store-providers.md
-            - name: Chargement de fournisseurs de banque de messages
+            - name: Chargement des fournisseurs de banques de messages
               href: outlook/mapi/loading-message-store-providers.md
       - name: Référence
         href: outlook/mapi/mapi-reference.md
@@ -3905,11 +4232,11 @@ items:
             href: outlook/mapi/archivesourcesupportmask.md
           - name: CrawlSourceSupportMask
             href: outlook/mapi/crawlsourcesupportmask.md
-          - name: Propriété d’affichage des tailles de dossier du serveur
+          - name: Propriété d’affichage des tailles des dossiers du serveur
             href: outlook/mapi/display-server-folder-sizes-property.md
           - name: Propriété de masquage de l’option de mise à jour de réunion
             href: outlook/mapi/hide-meeting-update-option-property.md
-          - name: Propriété de privatisation du type de magasin
+          - name: Propriété de privatisation du type de banque
             href: outlook/mapi/make-store-type-private-property.md
           - name: NoFolderScan
             href: outlook/mapi/nofolderscan.md
@@ -6204,12 +6531,12 @@ items:
     href: powerpoint-home.md
     items:
     - name: Référence VBA PowerPoint
-      href: https://msdn.microsoft.com/en-us/library/office/ee861525.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/powerpoint
   - name: Projet
     href: project/project-home.md
     items:
     - name: Référence VBA de projet
-      href: https://msdn.microsoft.com/en-us/library/office/ee861523.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/project
     - name: Documentation du développeur
       href: project/project-2013-developer-documentation.md
       items:
@@ -6252,11 +6579,11 @@ items:
           - name: Prise en main du développement de flux de travail Project Server
             href: project/getting-started-developing-project-server-workflows.md
             items:
-            - name: Créer un flux de travail Project Server pour la gestion de la demande
+            - name: Création d’un flux de travail Project Server pour la gestion de la demande
               href: project/create-a-project-server-workflow-for-demand-management.md
           - name: Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project Online
             href: project/bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md
-          - name: Utilisation des projets à l’aide du modèle objet JavaScript
+          - name: Utilisation des projets avec le modèle objet JavaScript
             href: project/create-retrieve-update-delete-projects-using-project-server-javascript.md
           - name: Créer un complément Project Server hébergé sur SharePoint
             href: project/create-a-sharepoint-hosted-project-server-add-in.md
@@ -6274,25 +6601,25 @@ items:
           - name: Codes d’erreur de Project Server
             href: project/project-server-error-codes.md
           - name: ProjectData - Référence du service OData
-            href: https://msdn.microsoft.com/en-us/library/office/jj163015.aspx
+            href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
       - name: Référence de service web et de bibliothèque de classes
-        href: https://docs.microsoft.com/en-us/dotnet/api/index?view=office-project-server
+        href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
       - name: Référence d’API JavaScript
-        href: https://msdn.microsoft.com/en-us/library/office/jj712612.aspx
+        href: https://msdn.microsoft.com/library/office/jj712612.aspx
   - name: Publisher
     href: publisher-home.md
     items:
     - name: Référence VBA Publisher
-      href: https://msdn.microsoft.com/en-us/library/office/ee861522.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/publisher
   - name: Visio
     href: visio/visio-home.md
     items:
     - name: Référence VBA Visio
-      href: https://msdn.microsoft.com/EN-US/library/office/ee861526.aspx
-    - name: Visio - Enregistrer comme référence web
-      href: https://msdn.microsoft.com/EN-US/library/office/ff767184.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/visio
+    - name: Visio – Enregistrer comme référence web
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
     - name: Référence de la visionneuse Visio
-      href: https://msdn.microsoft.com/EN-US/library/office/ff766866.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
     - name: Référence de Visio ShapeSheet
       href: visio/visio-shapesheet-reference.md
       items:
@@ -6301,33 +6628,33 @@ items:
       - name: Concepts
         href: visio/concepts-visio-shapesheet.md
         items:
-        - name: À propos des références de cellule
+        - name: Références de cellule
           href: visio/about-cell-references.md
-        - name: À propos des contantes de devise
+        - name: Constantes de devise
           href: visio/about-currency-constants.md
-        - name: À propos des valeurs de date, d’heure et de durée
+        - name: Valeurs de date, d’heure et de durée
           href: visio/about-date-time-and-duration-values.md
-        - name: À propos des valeurs d’erreur
+        - name: Valeurs d’erreur
           href: visio/about-error-values.md
-        - name: À propos de la mise en forme des images
+        - name: Mise en forme des images
           href: visio/about-format-pictures.md
-        - name: À propos des formules
+        - name: Formules
           href: visio/about-formulas.md
-        - name: À propos des fonctions
+        - name: Fonctions
           href: visio/about-functions.md
-        - name: À propos des opérateurs
+        - name: Opérateurs
           href: visio/about-operators.md
-        - name: À propos des paramètres de sécurité et du code d’exécution dans Visio
+        - name: Paramètres de sécurité et code d’exécution dans Visio
           href: visio/about-security-settings-and-running-code-in-visio-shapesheet.md
-        - name: À propos des chaînes
+        - name: Chaînes
           href: visio/about-strings.md
-        - name: À propos de la fenêtre de suivi de formule
+        - name: Fenêtre de suivi des formules
           href: visio/about-the-formula-tracing-window.md
-        - name: À propos de la feuille de calcul ShapeSheet
+        - name: Feuille de calcul ShapeSheet
           href: visio/about-the-shapesheet-spreadsheet.md
-        - name: À propos de la fenêtre Explorateur de styles
+        - name: Fenêtre Explorateur de styles
           href: visio/about-the-style-explorer-window.md
-        - name: À propos des unités de mesure
+        - name: Unités de mesure
           href: visio/about-units-of-measure-visio-shapesheet-reference.md
       - name: Tâches courantes
         href: visio/common-tasks-visio-shapesheet.md
@@ -6338,27 +6665,27 @@ items:
           href: visio/add-show-hide-or-delete-a-section.md
         - name: Modification du nom et de l’affichage de l’ID d’une forme
           href: visio/change-the-name-and-view-the-id-of-a-shape.md
-        - name: Copier et coller la formule d’une cellule dans une autre cellule
+        - name: Copie et collage des formules d’une cellule dans une autre cellule
           href: visio/copy-and-paste-a-formula-from-one-cell-into-another.md
         - name: Affichage des formules ou des valeurs dans les cellules
           href: visio/display-formulas-or-values-in-cells.md
         - name: Modification d’un composant d’une formule
           href: visio/edit-a-part-of-a-formula.md
-        - name: Entrer une formule vide
+        - name: Saisie d’une formule vide
           href: visio/enter-an-empty-formula.md
-        - name: Déplacer une fenêtre ShapeSheet
+        - name: Déplacement d’une fenêtre ShapeSheet
           href: visio/move-around-a-shapesheet-window.md
-        - name: Ouvrir toutes les feuilles ShapeSheet dans la même fenêtre
+        - name: Ouverture de toutes les feuilles ShapeSheet dans la même fenêtre
           href: visio/open-each-shapesheet-in-the-same-window.md
-        - name: Ouvrir la feuille ShapeSheet pour une forme, une page ou un document
+        - name: Ouverture d’une forme, d’une page ou d’un document dans une feuille ShapeSheet
           href: visio/open-the-shapesheet-for-a-shape-page-or-document.md
         - name: Référence à une cellule dans une formule
           href: visio/reference-a-cell-in-a-formula.md
-        - name: Exécuter en mode développeur (afficher l’onglet Développeur)
+        - name: Exécution en mode développeur (affichage de l’onglet Développeur)
           href: visio/run-in-developer-mode-display-the-developer-tab.md
-        - name: Afficher un objet dans la fenêtre ShapeSheet
+        - name: Affichage d’un objet dans la fenêtre ShapeSheet
           href: visio/show-an-object-in-the-shapesheet-window.md
-        - name: Saisir une nouvelle formule pour une cellule
+        - name: Saisie d’une nouvelle formule dans une cellule
           href: visio/type-a-new-formula-for-a-cell.md
       - name: Référence
         href: visio/reference-visio-shapesheet.md
@@ -6410,9 +6737,9 @@ items:
             href: visio/beginarrowsize-cell-line-format-section.md
           - name: Cellule BeginGroup (section Actions)
             href: visio/begingroup-cell-actions-section.md
-          - name: Cellule BeginX (section Points de terminaison 1-D)
+          - name: Cellule BeginX (section Points de terminaison 1D)
             href: visio/beginx-cell-1-d-endpoints-section.md
-          - name: Cellule BeginY (section Points de terminaison 1-D)
+          - name: Cellule BeginY (section Points de terminaison 1D)
             href: visio/beginy-cell-1-d-endpoints-section.md
           - name: Cellule BegTrigger (section Infos sur le collage)
             href: visio/begtrigger-cell-glue-info-section.md
@@ -6574,7 +6901,7 @@ items:
             href: visio/drawingsizetype-cell-page-properties-section.md
           - name: Cellule DropOnPageScale (section Divers)
             href: visio/droponpagescale-cell-miscellaneous-section.md
-          - name: Cellule DynamcOff (section Mise en page)
+          - name: Cellule DynamicsOff (section Mise en page)
             href: visio/dynamicsoff-cell-page-layout-section.md
           - name: Cellule DynFeedback (section Divers)
             href: visio/dynfeedback-cell-miscellaneous-section.md
@@ -6600,7 +6927,7 @@ items:
             href: visio/endtrigger-cell-glue-info-section.md
           - name: Cellule EndX (section Points de terminaison 1D)
             href: visio/endx-cell-1-d-endpoints-section.md
-          - name: Cellule EndY (section Points de terminaison 1-D)
+          - name: Cellule EndY (section Points de terminaison 1D)
             href: visio/endy-cell-1-d-endpoints-section.md
           - name: Cellule EventDblClick (section Événements)
             href: visio/eventdblclick-cell-events-section.md
@@ -6882,7 +7209,7 @@ items:
             href: visio/paperkind-cell-print-properties-section.md
           - name: Cellule PaperSource (section Propriétés d’impression)
             href: visio/papersource-cell-printproperties-section.md
-          - name: Cellule perspective (section Propriétés de la rotation 3D)
+          - name: Cellule Perspective (section Propriétés de la rotation 3D)
             href: visio/perspective-cell-3-d-rotation-properties-section.md
           - name: Cellule PinX (section Transformation d’une forme)
             href: visio/pinx-cell-shape-transform-section.md
@@ -6898,7 +7225,7 @@ items:
             href: visio/plowcode-cell-page-layout-section.md
           - name: Cellule Pos (section Caractères)
             href: visio/pos-cell-character-section.md
-          - name: Celulle Position (section Onglets)
+          - name: Cellule Position (section Onglets)
             href: visio/position-cell-tabs-section.md
           - name: Cellule PreviewQuality (section Propriétés du document)
             href: visio/previewquality-cell-document-properties-section.md
@@ -6996,7 +7323,7 @@ items:
             href: visio/shapeplaceflip-cell-shape-layout-section.md
           - name: Cellule ShapePlaceStyle (section Format de la forme)
             href: visio/shapeplacestyle-cell-shape-layout-section.md
-          - name: Cellule ShapeFixedCode (section Format de la forme)
+          - name: Cellule ShapePlowCode (section Format de la forme)
             href: visio/shapeplowcode-cell-shape-layout-section.md
           - name: Cellule ShapeRouteStyle (section Format de la forme)
             href: visio/shaperoutestyle-cell-shape-layout-section.md
@@ -7070,7 +7397,7 @@ items:
             href: visio/spline-cell-paragraph-section.md
           - name: Cellule Strikethru (section Caractères)
             href: visio/strikethru-cell-character-section.md
-          - name: Cellule Scale (section Caractères)
+          - name: Cellule Style (section Caractères)
             href: visio/style-cell-character-section.md
           - name: Cellule SubAddress (section Liens hypertexte)
             href: visio/subaddress-cell-hyperlinks-section.md
@@ -7170,15 +7497,15 @@ items:
             href: visio/x-dynamics-cell-controls-section.md
           - name: Cellule X Justify (section Balises d’action)
             href: visio/x-justify-cell-action-tags-section.md
-          - name: Cellule XGridDensity (section Règle et grille)
+          - name: Cellule XGridDensity (section Règle &amp; grille)
             href: visio/xgriddensity-cell-rulergrid-section.md
-          - name: Cellule XGridOrigin (section Règle et grille)
+          - name: Cellule XGridOrigin (section Règle &amp; grille)
             href: visio/xgridorigin-cell-rulergrid-section.md
-          - name: Cellule XGridSpacing (section Règle et grille)
+          - name: Cellule XGridSpacing (section Règle &amp; grille)
             href: visio/xgridspacing-cell-rulergrid-section.md
-          - name: Cellule YRulerDensity (section Règle et grille)
+          - name: Cellule XRulerDensity (section Règle &amp; grille)
             href: visio/xrulerdensity-cell-rulergrid-section.md
-          - name: Cellule YRulerOrigin (section Règle et grille)
+          - name: Cellule XRulerOrigin (section Règle &amp; grille)
             href: visio/xrulerorigin-cell-rulergrid-section.md
           - name: Cellule Y Behavior (section Contrôles)
             href: visio/y-behavior-cell-controls-section.md
@@ -7196,15 +7523,15 @@ items:
             href: visio/y-dynamics-cell-controls-section.md
           - name: Cellule Y Justify (section Balises d’action)
             href: visio/y-justify-cell-action-tags-section.md
-          - name: Cellule YGridDensity (section Règle et grille)
+          - name: Cellule YGridDensity (section Règle &amp; grille)
             href: visio/ygriddensity-cell-rulergrid-section.md
-          - name: Cellule XGridOrigin (section Règle et grille)
+          - name: Cellule YGridOrigin (section Règle &amp; grille)
             href: visio/ygridorigin-cell-rulergrid-section.md
-          - name: Cellule YGridSpacing (section Règle et grille)
+          - name: Cellule YGridSpacing (section Règle &amp; grille)
             href: visio/ygridspacing-cell-rulergrid-section.md
-          - name: Cellule YRulerDensity (section Règle et grille)
+          - name: Cellule YRulerDensity (section Règle &amp; grille)
             href: visio/yrulerdensity-cell-rulergrid-section.md
-          - name: Cellule YRulerOrigin (section Règle et grille)
+          - name: Cellule YRulerOrigin (section Règle &amp; grille)
             href: visio/yrulerorigin-cell-rulergrid-section.md
         - name: Fonctions
           href: visio/functions-visio-shapesheet-reference.md
@@ -7636,7 +7963,7 @@ items:
             href: visio/actions-row-actions-section.md
           - name: Ligne ArcTo (section Géométrie)
             href: visio/arcto-row-geometry-section.md
-          - name: Ligne Points de connexion (section Points de connexion)
+          - name: Ligne Connection Points (section Points de connexion)
             href: visio/connection-points-row-connection-points-section.md
           - name: Ligne Controls (section Contrôles)
             href: visio/controls-row-controls-section.md
@@ -7644,9 +7971,9 @@ items:
             href: visio/ellipse-row-geometry-section.md
           - name: Ligne EllipticalArcTo (section Géométrie)
             href: visio/ellipticalarcto-row-geometry-section.md
-          - name: Ligne Point de dégradé (section Remplissage dégradé)
+          - name: Ligne Gradient Stop (section Remplissage dégradé)
             href: visio/gradient-stop-row-fill-gradient-section.md
-          - name: Ligne Point de dégradé (section Trait dégradé)
+          - name: Ligne Gradient Stop (section Trait dégradé)
             href: visio/gradient-stop-row-line-gradient-section.md
           - name: Ligne Hyperlink (section Liens hypertexte)
             href: visio/hyperlink-row-hyperlinks-section.md
@@ -7678,12 +8005,12 @@ items:
             href: visio/splineknot-row-geometry-section.md
           - name: Ligne SplineStart (section Géométrie)
             href: visio/splinestart-row-geometry-section.md
-          - name: Ligne Cellules définies par l’utilisateur (section Cellules définies par l’utilisateur)
+          - name: Ligne User-defined Cells (section Cellules définies par l’utilisateur)
             href: visio/user-defined-cells-row-user-defined-cells-section.md
         - name: Sections
           href: visio/sections-visio-shapesheet-reference.md
           items:
-          - name: Section Points de terminaison 1-D
+          - name: Section Points de terminaison 1D
             href: visio/1-d-endpoints-section.md
           - name: Section Propriétés de la rotation 3D
             href: visio/3-d-rotation-properties-section.md
@@ -7753,9 +8080,9 @@ items:
             href: visio/quick-style-section.md
           - name: Section Réviseur
             href: visio/reviewer-section.md
-          - name: Section Règle et grille
+          - name: Section Règle &amp; grille
             href: visio/rulergrid-section.md
-          - name: Section Scratch
+          - name: Section Rayures
             href: visio/scratch-section.md
           - name: Section Données de forme
             href: visio/shape-data-section.md
@@ -7849,7 +8176,7 @@ items:
           href: visio/cell-element-relmoveto-rowvisio-xml.md
         - name: Élément de cellule (ligne RelQuadBezTo)
           href: visio/cell-element-relquadbezto-rowvisio-xml.md
-        - name: Élément de cellule (section Scratch)
+        - name: Élément de cellule (section Rayures)
           href: visio/cell-element-scratch-sectionvisio-xml.md
         - name: Élément de cellule (section Données de forme)
           href: visio/cell-element-shape-data-sectionvisio-xml.md
@@ -8029,7 +8356,7 @@ items:
           href: visio/row-element-line-gradient-sectionvisio-xml.md
         - name: Élément de ligne (section Paragraphe)
           href: visio/row-element-paragraph-sectionvisio-xml.md
-        - name: Élément de ligne (section Scratch)
+        - name: Élément de ligne (section Rayures)
           href: visio/row-element-scratch-sectionvisio-xml.md
         - name: Élément de ligne (section Données de forme)
           href: visio/row-element-shape-data-sectionvisio-xml.md
@@ -8434,16 +8761,16 @@ items:
     - name: Contrôles de contenu dans Word
       href: word/content-controls-in-word.md
     - name: Référence VBA Word
-      href: https://msdn.microsoft.com/en-us/library/ee861527.aspx
-    - name: Référence de l’assembly d’interopérabilité de base Word
-      href: https://msdn.microsoft.com/en-us/library/ff597928.aspx
+      href: https://docs.microsoft.com/office/vba/api/overview/word
+    - name: Référence de l’assembly PIA (Primary Interop Assembly) Word
+      href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
   - name: Modèle d’URI Sway
     href: swayuri.md
   - name: Modèles d’URI Office
     href: office-uri-schemes.md
-ms.openlocfilehash: 2f3460ac612fea7fb558ed841fa9e21a0e97a4ac
-ms.sourcegitcommit: c55eec212ae794592c83bbf06b01eab5ca6bff6d
+ms.openlocfilehash: 7033a4730c3cc661ff44f20f44bdaaba629a7aaa
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/16/2018
-ms.locfileid: "20389580"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25389371"
