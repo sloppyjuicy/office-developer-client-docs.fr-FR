@@ -1,0 +1,74 @@
+---
+title: Énumération des entrées de la liste d’adresses globale
+TOCTitle: Enumerate the entries in the Global Address List
+ms:assetid: f3dfe312-fe91-475d-8435-1c7a0bb2b725
+ms:mtpsurl: https://msdn.microsoft.com/library/Ff184654(v=office.15)
+ms:contentKeyID: 55119801
+ms.date: 07/24/2014
+mtps_version: v=office.15
+ms.openlocfilehash: f9e392710940a63f5d7723d303d5cf48569ad92f
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25407547"
+---
+# <a name="enumerate-the-entries-in-the-global-address-list"></a><span data-ttu-id="994c5-102">Énumération des entrées de la liste d’adresses globale</span><span class="sxs-lookup"><span data-stu-id="994c5-102">How to: Enumerate the Entries in the Global Address List</span></span>
+
+<span data-ttu-id="994c5-103">Cet exemple énumère les 100 premières adresses SMTP principales dans la liste d’adresses globale (LAG).</span><span class="sxs-lookup"><span data-stu-id="994c5-103">This example enumerates the first 100 primary Simple Mail Transfer Protocol (SMTP) addresses in the Global Address List (GAL).</span></span>
+
+## <a name="example"></a><span data-ttu-id="994c5-104">Exemple</span><span class="sxs-lookup"><span data-stu-id="994c5-104">Example</span></span>
+
+> [!NOTE] 
+> <span data-ttu-id="994c5-105">L’exemple de code suivant est un extrait de [programmation d’Applications pour Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).</span><span class="sxs-lookup"><span data-stu-id="994c5-105">The following code example is an excerpt from  [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493)  , from Microsoft Press (ISBN 9780735622494, copyright Microsoft Press 2007, all rights reserved).</span></span>
+
+<span data-ttu-id="994c5-106">Dans l'exemple de code suivant, l'adresse SMTP d'un objet [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) est obtenue en la castant en un objet [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) ou [ExchangeDistributionList](https://msdn.microsoft.com/library/bb624320\(v=office.15\)) lors d'un appel à la méthode [GetExchangeUser()](https://msdn.microsoft.com/library/bb645260\(v=office.15\)) ou [GetExchangeDistributionList()](https://msdn.microsoft.com/library/bb611805\(v=office.15\)) .</span><span class="sxs-lookup"><span data-stu-id="994c5-106">In the following code example, the SMTP address for an [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) object is obtained by casting it to an [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) or [ExchangeDistributionList](https://msdn.microsoft.com/library/bb624320\(v=office.15\)) object in a call to the [GetExchangeUser()](https://msdn.microsoft.com/library/bb645260\(v=office.15\)) or [GetExchangeDistributionList()](https://msdn.microsoft.com/library/bb611805\(v=office.15\)) methods.</span></span> <span data-ttu-id="994c5-107">Si l’objet **AddressEntry** représente un utilisateur Exchange, EnumerateGAL renvoie un objet **ExchangeUser** qui expose les propriétés de l’objet **AddressEntry**.</span><span class="sxs-lookup"><span data-stu-id="994c5-107">If the AddressEntry object represents an Exchange user,   returns an ExchangeUser object that exposes properties of the AddressEntry object.</span></span> <span data-ttu-id="994c5-108">Utilisez des propriétés ExchangeUser, comme [JobTitle](https://msdn.microsoft.com/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/library/bb623789\(v=office.15\)), [Alias](https://msdn.microsoft.com/library/bb610682\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/library/bb612294\(v=office.15\)) ou [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)), pour les exposer.</span><span class="sxs-lookup"><span data-stu-id="994c5-108">Use ExchangeUser properties such as JobTitle , Department , Alias , BusinessTelephoneNumber , or PrimarySmtpAddress to expose them.</span></span>
+
+<span data-ttu-id="994c5-109">Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**.</span><span class="sxs-lookup"><span data-stu-id="994c5-109">If you use Visual Studio to test this code example, you must first add a reference to the Microsoft Outlook 15.0 Object Library component and specify the   variable when you import the Microsoft.Office.Interop.Outlook namespace.</span></span> <span data-ttu-id="994c5-110">L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique.</span><span class="sxs-lookup"><span data-stu-id="994c5-110">The using statement must not occur directly before the functions in the code example but must be added before the public   declaration.</span></span> <span data-ttu-id="994c5-111">La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.</span><span class="sxs-lookup"><span data-stu-id="994c5-111">The following line of code shows how to do the import and assignment in C#.</span></span>
+
+```csharp
+using Outlook = Microsoft.Office.Interop.Outlook;
+```
+
+```csharp
+private void EnumerateGAL()
+{
+    Outlook.AddressList gal =
+        Application.Session.GetGlobalAddressList();
+    if (gal != null)
+    {
+        for (int i = 1; 
+            i <= Math.Min(100, gal.AddressEntries.Count - 1); i++)
+        {
+            Outlook.AddressEntry addrEntry =
+                gal.AddressEntries[i];
+            if (addrEntry.AddressEntryUserType ==
+                Outlook.OlAddressEntryUserType.
+                olExchangeUserAddressEntry
+                || addrEntry.AddressEntryUserType ==
+                Outlook.OlAddressEntryUserType.
+                olExchangeRemoteUserAddressEntry)
+            {
+                Outlook.ExchangeUser exchUser =
+                    addrEntry.GetExchangeUser();
+                Debug.WriteLine(exchUser.Name + " "
+                    + exchUser.PrimarySmtpAddress);
+            }
+            if (addrEntry.AddressEntryUserType ==
+                Outlook.OlAddressEntryUserType.
+                olExchangeDistributionListAddressEntry)
+            {
+                Outlook.ExchangeDistributionList exchDL =
+                    addrEntry.GetExchangeDistributionList();
+                Debug.WriteLine(exchDL.Name + " "
+                    + exchDL.PrimarySmtpAddress);
+            }
+        }
+    }
+}
+```
+
+## <a name="see-also"></a><span data-ttu-id="994c5-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="994c5-112">See also</span></span>
+
+[<span data-ttu-id="994c5-113">Carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="994c5-113">Address Book</span></span>](address-book.md)
+
