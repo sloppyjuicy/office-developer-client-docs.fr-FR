@@ -1,19 +1,13 @@
 ---
-title: Status, propriété - Exemple (VC++)
-TOCTitle: Status Property Example (VC++)
-ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
-ms:contentKeyID: 48545618
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 1f2dfa41e11f448f9f302bbc25d9e12a582324f5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469609"
+<<<<<<< Titre tête : TOCTitle Status, propriété-Exemple (VC ++) : Status, propriété-Exemple (VC ++) === titre : exemple de propriété état (VC ++) TOCTitle : exemple de propriété état (VC ++)
+>>>>>>> Master ms:assetid : 72cb738d-8404-f9f3-3d79-9eb2541a608b ms:mtpsurl : https://msdn.microsoft.com/library/JJ249464(v=office.15) ms:contentKeyID : ms.date 48545618 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="status-property-example-vc"></a>Status, propriété - Exemple (VC++)
+=======
+# <a name="status-property-example-vc"></a>Exemple de propriété état (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

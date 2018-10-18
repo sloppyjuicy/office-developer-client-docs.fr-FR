@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69d3d7830204ec400e01b64bb11434c272da5c29
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470336"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605757"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans et RollbackTrans, méthodes (ADO)
 
@@ -37,7 +37,11 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 
 *objet*. RollbackTrans
 
-## <a name="return-value"></a>Valeur de retour
+<<<<<<< Tête
+## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 **BeginTrans** peut être appelée en tant que fonction qui retourne une variable de type **Long** indiquant le niveau d'imbrication de la transaction.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249728(v=office.15)
 ms:contentKeyID: 48546672
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d9bd24d0aff1134a6af77862fd8f011d4ddff9f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d5b0dfef4d14594c2b2a9b8b57b866e032a07a5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471854"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605652"
 ---
 # <a name="step-5-datacontrol-is-made-usable-rds-tutorial"></a>Étape 5 : mise à disposition de DataControl (didacticiel RDS)
 
@@ -20,7 +20,9 @@ ms.locfileid: "25471854"
 
 L'objet **Recordset** retourné est disponible et peut être utilisé. Vous pouvez l'examiner, le parcourir ou le modifier comme n'importe quel autre objet **Recordset**. L'utilisation que vous pouvez faire de cet objet **Recordset** dépend de votre environnement. Visual Basic et Visual C++ intègrent des contrôles visuels qu'un objet **Recordset** peut utiliser directement ou indirectement à l'aide d'un contrôle d'activation de données.
 
-Par exemple, si vous affichez une page Web dans Microsoft Internet Explorer, vous souhaitez afficher les données de l’objet **Recordset** dans un contrôle visuel. Les contrôles visuels d’une page Web ne peut pas accéder à un objet **Recordset** directement. Cependant, ils peuvent accéder à l’objet **Recordset** par le biais de la [RDS. DataControl](datacontrol-object-rds.md). **RDS. DataControl** utilisable par un contrôle visuel lorsque sa propriété [SourceRecordset](recordset-sourcerecordset-properties-rds.md) est définie à l’objet **Recordset** .
+<<<<<<< Tête par exemple, si vous affichez une page Web dans Microsoft Internet Explorer, vous souhaitez afficher les données de l’objet **Recordset** dans un contrôle visuel. Les contrôles visuels d’une page Web ne peut pas accéder à un objet **Recordset** directement. Cependant, ils peuvent accéder à l’objet **Recordset** par le biais de la [RDS. DataControl](datacontrol-object-rds.md). **RDS. DataControl** utilisable par un contrôle visuel lorsque sa propriété [SourceRecordset](recordset-sourcerecordset-properties-rds.md) est définie à l’objet **Recordset** .
+=== Par exemple, si vous affichez une page Web dans Microsoft Internet Explorer, vous souhaitez afficher les données de l’objet **Recordset** dans un contrôle visuel. Les contrôles visuels d’une page Web ne peut pas accéder à un objet **Recordset** directement. Cependant, ils peuvent accéder à l’objet **Recordset** par le biais de la [RDS. DataControl](datacontrol-object-rds.md). **RDS. DataControl** utilisable par un contrôle visuel lorsque sa propriété [SourceRecordset](recordset-sourcerecordset-properties-rds.md) est définie à l’objet **Recordset** .
+>>>>>>> master
 
 Le paramètre **DATASRC** de l'objet de contrôle visuel doit être défini sur **RDS.DataControl**, et sa propriété **DATAFLD** sur un champ (colonne) de l'objet **Recordset**.
 

@@ -1,26 +1,24 @@
 ---
-title: CacheSize, propriété (ADO)
-TOCTitle: CacheSize Property (ADO)
-ms:assetid: 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249200(v=office.15)
-ms:contentKeyID: 48544491
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ed4d104dcd6d0b90e6011a305cd3502cf671175b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471732"
+<<<<<<< Titre tête : TOCTitle de la propriété CacheSize (ADO) : propriété CacheSize (ADO) === titre : CacheSize, propriété (ADO) TOCTitle : CacheSize, propriété (ADO)
+>>>>>>> Master ms:assetid : 42f86cc0-30dc-669b-9e65-5e7ecd52c4d7 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249200(v=office.15) ms:contentKeyID : ms.date 48544491 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="cachesize-property-ado"></a>CacheSize, propriété (ADO)
+=======
+# <a name="cachesize-property-ado"></a>CacheSize, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le nombre d'enregistrements dans un objet [Recordset](recordset-object-ado.md), placés dans la mémoire cache locale.
 
+<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur de type **Long** qui doit être supérieure à 0. La valeur par défaut est 1.
 

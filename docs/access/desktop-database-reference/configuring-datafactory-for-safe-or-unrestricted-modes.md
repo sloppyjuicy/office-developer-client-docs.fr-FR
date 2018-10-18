@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: abb461473d15f163fac6ea00f2af5d39f7b40d0a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472151"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606401"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configuration de DataFactory en mode sans échec ou non restreint
 
@@ -30,7 +30,9 @@ Vous pouvez éventuellement configurer une installation de **DataFactory** en mo
 
 Le fichier de Registre handsafe.reg est fourni afin de configurer les entrées de Registre du gestionnaire et obtenir ainsi une configuration sécurisée. Pour fonctionner en mode sans échec, exécutez handsafe.reg. Le fichier de Registre handunsf.reg est quant à lui fourni pour configurer les entrées de Registre du gestionnaire afin de bénéficier d'une configuration sans restriction d'accès. Pour fonctionner en mode non restreint, exécutez le fichier handunsf.reg.
 
-Après l'exécution de handsafe.reg ou de handunsf.reg, vous devez arrêter et redémarrer le service Publication World Wide Web sur le serveur Web en tapant les commandes « NET STOP W3SVC » puis « NET START W3SVC » dans une fenêtre d'invite de commandes.
+<<<<<<< Tête après l’exécution de handsafe.reg ou handunsf.reg, vous devez arrêter et redémarrer le Service de publication World Wide Web sur le serveur Web en tapant les commandes suivantes dans une fenêtre de commande : « NET STOP W3SVC » et « NET démarrer W3SVC ».
+=== Après l’exécution de handsafe.reg ou handunsf.reg, vous devez arrêter et redémarrer le Service de publication World Wide Web sur le serveur web en tapant les commandes suivantes dans une fenêtre de commande : « NET STOP W3SVC » et « NET démarrer W3SVC ».
+>>>>>>> master
 
 Pour plus d'informations sur l'utilisation de la fonctionnalité du gestionnaire de personnalisation RDS, consultez l'article technique en anglais « Using the Customization Handler Feature in RDS 2.1 ».
 

@@ -1,19 +1,13 @@
 ---
-title: ActualSize et DefinedSize, propriétés - Exemple (VB)
-TOCTitle: ActualSize and DefinedSize Properties Example (VB)
-ms:assetid: fc268c63-c4b3-f633-1efb-aaf88354efd4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250291(v=office.15)
-ms:contentKeyID: 48548884
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 4c3d06a5937ed58843271aa2787d5a6f861f981c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471218"
+<<<<<<< Titre tête : ActualSize et DefinedSize propriétés-exemple (VB) TOCTitle : ms:assetid ActualSize et DefinedSize propriétés-exemple (VB) : fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID : ms.date 48548884 : 18/09/2015 mtps_version : v=office.15
 ---
+
 # <a name="actualsize-and-definedsize-properties-example-vb"></a>ActualSize et DefinedSize, propriétés - Exemple (VB)
+=== titre : ActualSize et DefinedSize, propriétés-exemple (VB) TOCTitle : ms:assetid d’exemple (VB) propriétés ActualSize et DefinedSize : fc268c63-c4b3-f633-1efb-aaf88354efd4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250291(v=office.15) ms:contentKeyID : ms.date 48548884 : 10/16/2018 mtps _Version : v=office.15
+---
+
+# <a name="actualsize-and-definedsize-properties-example-vb"></a>ActualSize et DefinedSize, propriétés-exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

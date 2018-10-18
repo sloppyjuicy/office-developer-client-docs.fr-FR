@@ -1,19 +1,13 @@
 ---
-title: Connection Close, méthode - Exemple de propriété Table Type (VC++)
-TOCTitle: Connection Close Method, Table Type Property Example (VC++)
-ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
-ms:contentKeyID: 48548006
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: cbe17bfd18f601d9fb84be81a4962dc702a40db0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470609"
+<<<<<<< Titre tête : Connection Close, méthode, exemple de propriété Table Type (VC ++) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VC ++) === titre : Connection Close, méthode, exemple de propriété Table Type (VC ++) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VC ++)
+>>>>>>> Master ms:assetid : d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID : ms.date 48548006 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="connection-close-method-table-type-property-example-vc"></a>Connection Close, méthode - Exemple de propriété Table Type (VC++)
+=======
+# <a name="connection-close-method-table-type-property-example-vc"></a>Connection Close, méthode, exemple de propriété Table Type (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

@@ -1,19 +1,13 @@
 ---
-title: Parameters, collection - Exemple de propriété Command (VB)
-TOCTitle: Parameters Collection, Command Property Example (VB)
-ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
-ms:contentKeyID: 48544290
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b4a1f1074a81ef5d5aa14192e784b91d0c9fcddb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471219"
+<<<<<<< Titre tête : Parameters, Collection, commande propriété-Exemple (VB) TOCTitle : Collection de paramètres, la commande Propriétés-exemple (VB) === titre : Parameters, Collection, exemple de propriété Command (VB) TOCTitle : paramètres Collection, exemple de propriété Command (VB)
+>>>>>>> Master ms:assetid : 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a ms:mtpsurl : https://msdn.microsoft.com/library/JJ249151(v=office.15) ms:contentKeyID : ms.date 48544290 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="parameters-collection-command-property-example-vb"></a>Parameters, collection - Exemple de propriété Command (VB)
+=======
+# <a name="parameters-collection-command-property-example-vb"></a>Parameters, Collection, exemple de propriété Command (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

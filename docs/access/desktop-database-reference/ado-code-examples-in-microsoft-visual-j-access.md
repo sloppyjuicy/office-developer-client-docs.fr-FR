@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249854(v=office.15)
 ms:contentKeyID: 48547184
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 329494a2389c3f054bf036b20f7a6f794708e0a0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 36aa7d4adfa5499b2e41661009895057d6ea6faa
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471476"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606467"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j-access"></a>ADO Code Examples in Microsoft Visual J++ (Access)
 
@@ -20,6 +20,7 @@ ms.locfileid: "25471476"
 
   - [Exemples de code ADO en Microsoft Visual J++](ado-code-examples-in-microsoft-visual-j.md)
 
+<<<<<<< Tête
   - [AbsolutePage, PageCount et PageSize, propriétés - Exemple (VJ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
 
   - [AbsolutePosition et CursorLocation, propriétés - Exemple (VJ++)](absoluteposition-and-cursorlocation-properties-example-vj.md)
@@ -28,7 +29,18 @@ ms.locfileid: "25471476"
 
   - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés - Exemple (VJ++)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
 
-  - [ActualSize et DefinedSize, propriétés - Exemple (VJ++)](actualsize-and-definedsize-properties-example-vj.md)
+  - [ActualSize et DefinedSize, propriétés-exemple (VJ ++)](actualsize-and-definedsize-properties-example-vj.md)
+=======
+  - [AbsolutePage, PageCount et PageSize, propriétés-exemple (VJ ++)](absolutepage-pagecount-and-pagesize-properties-example-vj.md)
+
+  - [AbsolutePosition et CursorLocation, propriétés-exemple (VJ ++)](absoluteposition-and-cursorlocation-properties-example-vj.md)
+
+  - [ActiveCommand, propriété-Exemple (VJ ++)](activecommand-property-example-vj.md)
+
+  - [ActiveConnection, CommandText, CommandTimeout, CommandType, la taille et Direction, propriétés-exemple (VJ ++)](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
+
+  - [ActualSize et DefinedSize, propriétés-exemple (VJ ++)](actualsize-and-definedsize-properties-example-vj.md)
+>>>>>>> master
 
   - [AddNew, méthode - Exemple (VJ++)](addnew-method-example-vj.md)
 
@@ -36,13 +48,23 @@ ms.locfileid: "25471476"
 
   - [AppendChunk et GetChunk, méthodes - Exemple (VJ++)](appendchunk-and-getchunk-methods-example-vj.md)
 
+<<<<<<< Tête
   - [Attributes et Name, propriétés - Exemple (VJ++)](attributes-and-name-properties-example-vj.md)
 
   - [BeginTrans, CommitTrans et RollbackTrans, méthodes - Exemple (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
 
   - [BOF, EOF et Bookmark, propriétés - Exemple (VJ++)](bof-eof-and-bookmark-properties-example-vj.md)
 
-  - [CacheSize, propriété - Exemple (VJ++)](cachesize-property-example-vj.md)
+  - [CacheSize, propriété-Exemple (VJ ++)](cachesize-property-example-vj.md)
+=======
+  - [Attributs et nom, propriétés-exemple (VJ ++)](attributes-and-name-properties-example-vj.md)
+
+  - [BeginTrans, CommitTrans et RollbackTrans, méthodes - Exemple (VJ++)](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
+
+  - [BOF, EOF et Bookmark, propriétés-exemple (VJ ++)](bof-eof-and-bookmark-properties-example-vj.md)
+
+  - [CacheSize, propriété-Exemple (VJ ++)](cachesize-property-example-vj.md)
+>>>>>>> master
 
   - [Cancel, méthode - Exemple (VJ++)](cancel-method-example-vj.md)
 
@@ -50,6 +72,7 @@ ms.locfileid: "25471476"
 
   - [CompareBookmarks, méthode - Exemple (VJ++)](comparebookmarks-method-example-vj.md)
 
+<<<<<<< Tête
   - [ConnectionString, ConnectionTimeout et State, propriétés - Exemple (VJ++)](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
 
   - [Count, propriété - Exemple (VJ++)](count-property-example-vj.md)
@@ -62,7 +85,22 @@ ms.locfileid: "25471476"
 
   - [Execute, Requery et Clear, méthodes - Exemple (VJ++)](execute-requery-and-clear-methods-example-vj.md)
 
-  - [Filter et RecordCount, propriétés - Exemple (VJ++)](filter-and-recordcount-properties-example-vj.md)
+  - [Filter et RecordCount, propriétés-exemple (VJ ++)](filter-and-recordcount-properties-example-vj.md)
+=======
+  - [ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++)](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
+
+  - [Count, propriété-Exemple (VJ ++)](count-property-example-vj.md)
+
+  - [CursorType, LockType et EditMode, propriétés-exemple (VJ ++)](cursortype-locktype-and-editmode-properties-example-vj.md)
+
+  - [Delete, méthode - Exemple (VJ++)](delete-method-example-vj.md)
+
+  - [Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple (VJ ++)](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
+
+  - [Execute, Requery et Clear, méthodes - Exemple (VJ++)](execute-requery-and-clear-methods-example-vj.md)
+
+  - [Filter et RecordCount, propriétés-exemple (VJ ++)](filter-and-recordcount-properties-example-vj.md)
+>>>>>>> master
 
   - [Find, méthode - Exemple (VJ++)](find-method-example-vj.md)
 
@@ -70,13 +108,23 @@ ms.locfileid: "25471476"
 
   - [GetString, méthode - Exemple (VJ++)](getstring-method-example-vj.md)
 
+<<<<<<< Tête
   - [IsolationLevel et Mode, propriété - Exemple (VJ++)](isolationlevel-and-mode-properties-example-vj.md)
 
   - [Item, propriété - Exemple (VJ++)](item-property-example-vj.md)
 
   - [MarshalOptions, propriété - Exemple (VJ++)](marshaloptions-property-example-vj.md)
 
-  - [MaxRecords, propriété - Exemple (VJ++)](maxrecords-property-example-vj.md)
+  - [MaxRecords, propriété-Exemple (VJ ++)](maxrecords-property-example-vj.md)
+=======
+  - [IsolationLevel et Mode, propriétés-exemple (VJ ++)](isolationlevel-and-mode-properties-example-vj.md)
+
+  - [Item, propriété-Exemple (VJ ++)](item-property-example-vj.md)
+
+  - [MarshalOptions, propriété-Exemple (VJ ++)](marshaloptions-property-example-vj.md)
+
+  - [MaxRecords, propriété-Exemple (VJ ++)](maxrecords-property-example-vj.md)
+>>>>>>> master
 
   - [Move, méthode - Exemple (VJ++)](move-method-example-vj.md)
 
@@ -84,19 +132,33 @@ ms.locfileid: "25471476"
 
   - [NextRecordset, méthode - Exemple (VJ++)](nextrecordset-method-example-vj.md)
 
-  - [NumericScale et Precision, propriétés - Exemple (VJ++)](numericscale-and-precision-properties-example-vj.md)
+<<<<<<< Tête
+  - [NumericScale et Precision, propriétés-exemple (VJ ++)](numericscale-and-precision-properties-example-vj.md)
+=======
+  - [NumericScale et Precision, propriétés-exemple (VJ ++)](numericscale-and-precision-properties-example-vj.md)
+>>>>>>> master
 
   - [Open et Close, méthodes - Exemple (VJ++)](open-and-close-methods-example-vj.md)
 
   - [OpenSchema, méthode - Exemple (VJ++)](openschema-method-example-vj.md)
 
+<<<<<<< Tête
   - [Optimize, propriété - Exemple (VJ++)](optimize-property-example-vj.md)
 
   - [OriginalValue et UnderlyingValue, propriétés - Exemple (VJ++)](originalvalue-and-underlyingvalue-properties-example-vj.md)
 
   - [Prepared, propriété - Exemple (VJ++)](prepared-property-example-vj.md)
 
-  - [Provider et DefaultDatabase, propriété - Exemple (VJ++)](provider-and-defaultdatabase-properties-example-vj.md)
+  - [Fournisseur et DefaultDatabase, propriétés-exemple (VJ ++)](provider-and-defaultdatabase-properties-example-vj.md)
+=======
+  - [Optimiser, propriété-Exemple (VJ ++)](optimize-property-example-vj.md)
+
+  - [OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++)](originalvalue-and-underlyingvalue-properties-example-vj.md)
+
+  - [Prepared, propriété-Exemple (VJ ++)](prepared-property-example-vj.md)
+
+  - [Provider et DefaultDatabase, propriétés-exemple (VJ ++)](provider-and-defaultdatabase-properties-example-vj.md)
+>>>>>>> master
 
   - [Refresh, méthode - Exemple (VJ++)](refresh-method-example-vj.md)
 
@@ -104,6 +166,7 @@ ms.locfileid: "25471476"
 
   - [Save et Open, méthodes - Exemple (VJ++)](save-and-open-methods-example-vj.md)
 
+<<<<<<< Tête
   - [Sort, propriété - Exemple (VJ++)](sort-property-example-vj.md)
 
   - [Source, propriété - Exemple (VJ++)](source-property-example-vj.md)
@@ -112,7 +175,18 @@ ms.locfileid: "25471476"
 
   - [Status, propriété - Exemple (VJ++)](status-property-example-vj.md)
 
-  - [StayInSync, propriété - Exemple (VJ++)](stayinsync-property-example-vj.md)
+  - [StayInSync, propriété-Exemple (VJ ++)](stayinsync-property-example-vj.md)
+=======
+  - [Trier, propriété-Exemple (VJ ++)](sort-property-example-vj.md)
+
+  - [Exemple de propriété source (VJ ++)](source-property-example-vj.md)
+
+  - [State, propriété-Exemple (VJ ++)](state-property-example-vj.md)
+
+  - [Exemple de propriété état (VJ ++)](status-property-example-vj.md)
+
+  - [StayInSync, propriété-Exemple (VJ ++)](stayinsync-property-example-vj.md)
+>>>>>>> master
 
   - [Supports, méthode - Exemple (VJ++)](supports-method-example-vj.md)
 
@@ -120,7 +194,13 @@ ms.locfileid: "25471476"
 
   - [UpdateBatch et CancelBatch, méthodes - Exemple (VJ++)](updatebatch-and-cancelbatch-methods-example-vj.md)
 
+<<<<<<< Tête
   - [Value, propriété - Exemple (VJ++)](value-property-example-vj.md)
 
-  - [Version, propriété - Exemple (VJ++)](version-property-example-vj.md)
+  - [Version, propriété-Exemple (VJ ++)](version-property-example-vj.md)
+=======
+  - [Exemple de propriété de valeur (VJ ++)](value-property-example-vj.md)
+
+  - [Exemple de propriété version (VJ ++)](version-property-example-vj.md)
+>>>>>>> master
 

@@ -1,20 +1,14 @@
 ---
-title: ActiveCommand, propriété - Exemple (VJ++)
-TOCTitle: ActiveCommand Property Example (VJ++)
-ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
-ms:contentKeyID: 48548415
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 556bf57b1f6ebb27bf1119d0b4962d16aa38c2c6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472203"
+<<<<<<< Titre tête : TOCTitle ActiveCommand, propriété-Exemple (VJ ++) : ActiveCommand, propriété-Exemple (VJ ++) ms:assetid : e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID : ms.date 48548415 : 18/09/2015 mtps_version : v=office.15
 ---
+
 # <a name="activecommand-property-example-vj"></a>ActiveCommand, propriété - Exemple (VJ++)
 
+=== titre : ActiveCommand, propriété-Exemple (VJ ++) TOCTitle : ActiveCommand propriété-Exemple (VJ ++) ms:assetid : e7ec73de-1097-ea57-9bdd-27c56263c943 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250176(v=office.15) ms:contentKeyID : ms.date 48548415 : 17/10/2018 mtps_version : v=office.15
+---
+
+# <a name="activecommand-property-example-vj"></a>ActiveCommand, propriété-Exemple (VJ ++)
+>>>>>>> master
 
 **S’applique à**: Access 2013 | Office 2013
 

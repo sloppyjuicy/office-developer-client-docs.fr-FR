@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48f30471dd5df224e8fe01538dc02d85ded54d6a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470088"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605743"
 ---
 # <a name="command-object-ado"></a>Command, objet (ADO)
 
@@ -34,7 +34,11 @@ Les collections, les méthodes et les propriétés d'un objet **Command** vous p
 
   - Définir des requêtes paramétrées ou des arguments de procédure stockée à l'aide des objets [Parameter](parameter-object-ado.md) et de la collection [Parameters](parameters-collection-ado.md).
 
+<<<<<<< Tête
   - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) ;
+=======
+  - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) ;
+>>>>>>> master
 
   - spécifier le type de commande avec la propriété [CommandType](commandtype-property-ado.md) avant exécution afin d'optimiser les performances ;
 

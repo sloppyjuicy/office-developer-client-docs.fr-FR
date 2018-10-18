@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
 ms:contentKeyID: 48543705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c31950eda813ee4f3f07145d28a83106cf86b3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7276e642e15137bdcfcb939330a3642d96e9a5a2
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470202"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605176"
 ---
 # <a name="optimize-property--dynamic-ado"></a>Optimize, propriété dynamique (ADO)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25470202"
 
 Indique s'il est nécessaire de créer un index sur un champ.
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **booléenne** indiquant si un index doit être créé.
 

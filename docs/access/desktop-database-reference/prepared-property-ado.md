@@ -1,30 +1,26 @@
 ---
-title: Prepared, propriété (ADO)
-TOCTitle: Prepared Property (ADO)
-ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249105(v=office.15)
-ms:contentKeyID: 48544116
-ms.date: 09/18/2015
-mtps_version: v=office.15
-f1_keywords:
-- ado210.chm1231161
-f1_categories:
+<<<<<<< Titre tête : TOCTitle préparé propriété (ADO) : propriété (ADO) préparé === titre : préparé, propriété (ADO) TOCTitle : préparé, propriété (ADO)
+>>>>>>> Master ms:assetid : 33becda2-faab-5000-8904-6ffd8c5805f2 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249105(v=office.15) ms:contentKeyID : ms.date 48544116 : 18/09/2015 mtps_version : v=office.15 f1_keywords :
+- Ado210.chm1231161 f1_categories :
 - Office.Version=v15
-ms.openlocfilehash: 865453f89cd5942ec7f9f8d036beb72dc519397e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469370"
 ---
+
+<<<<<<< Tête
 # <a name="prepared-property-ado"></a>Prepared, propriété (ADO)
+=======
+# <a name="prepared-property-ado"></a>Prepared, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique s'il faut enregistrer la version compilée d'une commande avant exécution.
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **booléenne** qui, si elle est définie sur **True**, indique que la commande doit être préparée.
 

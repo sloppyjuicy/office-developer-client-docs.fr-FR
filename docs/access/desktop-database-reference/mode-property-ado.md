@@ -1,26 +1,24 @@
 ---
-title: Mode, propriété (ADO)
-TOCTitle: Mode Property (ADO)
-ms:assetid: 62086f4f-8624-16c4-dae1-a17475d1864d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249365(v=office.15)
-ms:contentKeyID: 48545227
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6d258623756b53a82c06320185f9b75247087b2d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469079"
+<<<<<<< Titre tête : TOCTitle Mode propriété (ADO) : Mode propriété (ADO) === titre : Mode, propriété (ADO) TOCTitle : Mode, propriété (ADO)
+>>>>>>> Master ms:assetid : 62086f4f-8624-16c4-dae1-a17475d1864d ms:mtpsurl : https://msdn.microsoft.com/library/JJ249365(v=office.15) ms:contentKeyID : ms.date 48545227 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="mode-property-ado"></a>Mode, propriété (ADO)
+=======
+# <a name="mode-property-ado"></a>Mode, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique les autorisations disponibles pour la modification des données d'un objet [Connection](connection-object-ado.md), [Enregistrement](record-object-ado.md) ou [Stream](stream-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur [ConnectModeEnum](connectmodeenum.md). La valeur par défaut d’un objet **Connexion** est **adModeUnknown**. La valeur par défaut d’un objet **Record** est **adModeRead**. La valeur par défaut d’un **Stream** associé à une source sous-jacente (ouverte avec une URL pour source ou comme **Stream** par défaut d’un objet **Record**) est **adModeRead**. La valeur par défaut d’un **Stream** non associé à une source sous-jacente (instanciée en mémoire) est **adModeUnknown**.
 

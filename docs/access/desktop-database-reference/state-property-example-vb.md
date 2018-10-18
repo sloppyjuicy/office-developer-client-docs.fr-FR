@@ -1,19 +1,13 @@
 ---
-title: State, propriété - Exemple (VB)
-TOCTitle: State Property Example (VB)
-ms:assetid: e5a9abc6-9be7-5b70-a2da-9b678b3a8421
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250166(v=office.15)
-ms:contentKeyID: 48548366
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 09f80226664c06fcc6c78a8d17c59aa2bc22c7c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470446"
+<<<<<<< Titre tête : état propriété-Exemple (VB) TOCTitle : état de propriété-Exemple (VB) === titre : State, propriété-Exemple (VB) TOCTitle : State, propriété-Exemple (VB)
+>>>>>>> Master ms:assetid : e5a9abc6-9be7-5b70-a2da-9b678b3a8421 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250166(v=office.15) ms:contentKeyID : ms.date 48548366 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="state-property-example-vb"></a>State, propriété - Exemple (VB)
+=======
+# <a name="state-property-example-vb"></a>State, propriété-Exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

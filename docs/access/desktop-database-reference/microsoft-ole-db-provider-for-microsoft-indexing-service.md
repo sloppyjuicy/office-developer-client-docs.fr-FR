@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 10af40231fc10e222f818896b3d65f44ac3d6d71
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470340"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25607052"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Fournisseur Microsoft OLE DB pour le service d'indexation Microsoft
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-Le fournisseur Microsoft OLE DB pour le service d'indexation Microsoft fournit un accès en lecture seule par programmation au système de fichier et aux données Web indexées par le service d'indexation de Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
+<<<<<<< Tête le fournisseur Microsoft OLE DB pour le Service d’indexation Microsoft fournit l’accès en lecture seule par programme à un système de fichiers et des données Web indexées par le Service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
+=== Le fournisseur Microsoft OLE DB pour le Service d’indexation Microsoft fournit l’accès en lecture seule par programme aux données de web et le système de fichiers indexés par le Service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
+>>>>>>> master
 
 Le fournisseur est libre de thread et utilise Unicode.
 
@@ -225,7 +227,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

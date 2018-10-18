@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250033(v=office.15)
 ms:contentKeyID: 48547814
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d75e60ec4dff90767a28a71da8f9e75af2344de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dd2ebb1a6baa30912594db8e2e9ff9ebc9e374c5
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470009"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606009"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c"></a>Exemples de code ADOX dans Microsoft Visual C++
 
@@ -28,9 +28,15 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 
 **Méthodes**
 
+<<<<<<< Tête
   - [Columns Append et Tables Append, méthodes - Exemple de propriété Name (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
-  - [Connection Close, méthode - Exemple de propriété Table Type (VC++)](connection-close-method-table-type-property-example-vc.md)
+  - [Connection Close, méthode, exemple de propriété Table Type (VC ++)](connection-close-method-table-type-property-example-vc.md)
+=======
+  - [Colonnes et Tables Append méthodes, exemple de propriété Name (VC ++)](columns-and-tables-append-methods-name-property-example-vc.md)
+
+  - [Connection Close, méthode, exemple de propriété Table Type (VC ++)](connection-close-method-table-type-property-example-vc.md)
+>>>>>>> master
 
   - [Create, méthode - Exemple (VC++)](create-method-example-vc.md)
 
@@ -42,6 +48,7 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 
   - [Indexes Append, méthode - Exemple (VC++)](indexes-append-method-example-vc.md)
 
+<<<<<<< Tête
   - [Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 **Propriétés**
@@ -62,21 +69,56 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 
   - [DeleteRule, propriété - Exemple (VC++)](deleterule-property-example-vc.md)
 
-  - [IndexNulls, propriété - Exemple (VC++)](indexnulls-property-example-vc.md)
+  - [IndexNulls, propriété-Exemple (VC ++)](indexnulls-property-example-vc.md)
+=======
+  - [Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+
+**Propriétés**
+
+  - [Attributs, propriété-Exemple (VC ++)](attributes-property-example-vc.md)
+
+  - [Catalogue ActiveConnection, propriété-Exemple (VC ++)](catalog-activeconnection-property-example-vc.md)
+
+  - [Clustered, propriété-Exemple (VC ++)](clustered-property-example-vc.md)
+
+  - [Command et CommandText, propriétés-exemple (VC ++)](command-and-commandtext-properties-example-vc.md)
+
+  - [Parameters, collection - Exemple de propriété Command (VC++)](parameters-collection-command-property-example-vc.md)
+
+  - [DateCreated et DateModified, propriétés-exemple (VC ++)](datecreated-and-datemodified-properties-example-vc.md)
+
+  - [DefinedSize, propriété-Exemple (VC ++)](definedsize-property-example-vc.md)
+
+  - [DeleteRule, propriété-Exemple (VC ++)](deleterule-property-example-vc.md)
+
+  - [IndexNulls, propriété-Exemple (VC ++)](indexnulls-property-example-vc.md)
+>>>>>>> master
 
   - [Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
   - [Columns Append et Tables Append, méthodes - Exemple de propriété Name (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 
+<<<<<<< Tête
   - [NumericScale et Precision, propriétés - Exemple (VC++)](numericscale-and-precision-properties-example-vc.md)
 
   - [ParentCatalog, propriété - Exemple (VC++)](parentcatalog-property-example-vc.md)
 
-  - [PrimaryKey et Unique, propriétés - Exemples (VC++)](primarykey-and-unique-properties-example-vc.md)
+  - [PrimaryKey et Unique, propriétés-exemple (VC ++)](primarykey-and-unique-properties-example-vc.md)
+=======
+  - [NumericScale et Precision, propriétés-exemple (VC ++)](numericscale-and-precision-properties-example-vc.md)
+
+  - [ParentCatalog, propriété-Exemple (VC ++)](parentcatalog-property-example-vc.md)
+
+  - [PrimaryKey et Unique, propriétés-exemple (VC ++)](primarykey-and-unique-properties-example-vc.md)
+>>>>>>> master
 
   - [Connection Close, méthode - Exemple de propriété Table Type (VC++)](connection-close-method-table-type-property-example-vc.md)
 
 **Collections**
 
-  - [Parameters, collection - Exemple de propriété Command (VC++)](parameters-collection-command-property-example-vc.md)
+<<<<<<< Tête
+  - [Parameters, Collection de commande, propriété-Exemple (VC ++)](parameters-collection-command-property-example-vc.md)
+=======
+  - [Parameters, Collection, exemple de propriété Command (VC ++)](parameters-collection-command-property-example-vc.md)
+>>>>>>> master
 

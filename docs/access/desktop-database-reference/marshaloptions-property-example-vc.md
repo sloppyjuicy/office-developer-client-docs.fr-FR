@@ -1,19 +1,13 @@
 ---
-title: MarshalOptions, propriété - Exemple (VC++)
-TOCTitle: MarshalOptions Property Example (VC++)
-ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
-ms:contentKeyID: 48546236
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: fe6b86ba3049304f248b2b914d16d67092573c8c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470207"
+<<<<<<< Titre tête : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++) === titre : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID : ms.date 48546236 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="marshaloptions-property-example-vc"></a>MarshalOptions, propriété - Exemple (VC++)
+=======
+# <a name="marshaloptions-property-example-vc"></a>MarshalOptions, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eee732709c4c10c8e6399d34afafd1b27bf827c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c0dd3a48274c7a0affae9caa87ec762bea498ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471170"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606373"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>TableDef.CreateIndex Method (DAO)
 
@@ -58,7 +58,11 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 </table>
 
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Index
 

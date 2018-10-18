@@ -1,26 +1,24 @@
 ---
-title: Index, propriété (ADO)
-TOCTitle: Index Property (ADO)
-ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
-ms:contentKeyID: 48544715
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3658fab0887d0d9b98e41334c2025f29f74338b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469695"
+<<<<<<< Titre tête : Index propriété (ADO) TOCTitle : Index de propriété (ADO) === titre : Index, propriété (ADO) TOCTitle : Index, propriété (ADO)
+>>>>>>> Master ms:assetid : 4cc00521-dcb4-19b2-2174-6e0e9bd42e62 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249241(v=office.15) ms:contentKeyID : ms.date 48544715 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="index-property-ado"></a>Index, propriété (ADO)
+=======
+# <a name="index-property-ado"></a>Index, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le nom de l'index utilisé pour un objet [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **String** indiquant le nom de l'index.
 

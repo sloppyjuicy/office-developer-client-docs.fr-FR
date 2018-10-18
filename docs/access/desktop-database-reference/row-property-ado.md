@@ -1,19 +1,13 @@
 ---
-title: Row, propriété - ActiveX Data Objects (ADO)
-TOCTitle: Row Property (ADO)
-ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
-ms:contentKeyID: 48543562
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 05d97bb411c4199677f512d9412653ca5a4b4fe1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470516"
+titre : Row, propriété - ActiveX Data Objects (ADO) <<<<<<< TOCTitle tête : ligne de propriété (ADO) === TOCTitle : Row, propriété (ADO)
+>>>>>>> Master ms:assetid : 1c2b0e27-7232-4b1c-826c-9dc15d758851 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248959(v=office.15) ms:contentKeyID : ms.date 48543562 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="row-property-ado"></a>Row, propriété (ADO)
+=======
+# <a name="row-property-ado"></a>Row, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -38,7 +32,11 @@ Placer HRESULT\_ligne (\[dans\] IUnknown\* pRow) ;
 
   - Objet **Row** OLE DB.
 
+<<<<<<< Tête
+## <a name="return-values"></a>Valeurs renvoyées
+=======
 ## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248971(v=office.15)
 ms:contentKeyID: 48543605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba705854fc27a18fd0d3d7a7c6fd7acdefb3830f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2249ea154ac40b9114dd3dab8006a6d26539adff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469350"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25605659"
 ---
 # <a name="datafactory-object-rdsserver"></a>DataFactory, objet (RDSServer)
 
@@ -22,11 +22,18 @@ Cet objet métier côté serveur par défaut implémente des méthodes qui procu
 
 ## <a name="remarks"></a>Notes
 
-L'objet **RDSServer.DataFactory** est conçu comme un objet Automation côté serveur, qui reçoit les demandes clientes. Dans une implémentation Internet, il réside sur un serveur Web et est instancié par le composant ADISAPI. L'objet **RDSServer.DataFactory** fournit un accès en lecture-écriture aux sources de données spécifiées, mais ne contient pas de logique de validation ou de règles métier.
+<<<<<<< Tête de l’objet **RDSServer.DataFactory** est conçu comme un objet Automation côté serveur qui reçoit les demandes des clients. Dans une implémentation Internet, il réside sur un serveur Web et est instancié par le composant ADISAPI. L'objet **RDSServer.DataFactory** fournit un accès en lecture-écriture aux sources de données spécifiées, mais ne contient pas de logique de validation ou de règles métier.
 
 Si vous utilisez une méthode disponible à la fois pour les objets **RDSServer.DataFactory** et [RDS.DataControl](datacontrol-object-rds.md), Remote Data Service utilise la version **RDS.DataControl** par défaut. Un scénario de programmation de base est pris comme point de départ par défaut, **RDSServer.DataFactory** étant utilisé comme objet métier côté serveur générique.
 
-Si vous voulez que votre application Web gère le traitement spécifique des tâches côté serveur, vous pouvez remplacer **RDSServer.DataFactory** par un objet métier personnalisé.
+<a name="if-you-want-your-web-application-to-handle-task-specific-server-side-processing-you-can-replace-the-rdsserverdatafactory-with-a-custom-business-object"></a>Si vous voulez que votre application Web gère le traitement spécifique des tâches côté serveur, vous pouvez remplacer **RDSServer.DataFactory** par un objet métier personnalisé.
+=======
+L'objet **RDSServer.DataFactory** est conçu comme un objet Automation côté serveur, qui reçoit les demandes clientes. Dans une implémentation Internet, il réside sur un serveur web et est instancié par le composant ADISAPI. L'objet **RDSServer.DataFactory** fournit un accès en lecture-écriture aux sources de données spécifiées, mais ne contient pas de logique de validation ou de règles métier.
+
+Si vous utilisez une méthode disponible à la fois pour les objets **RDSServer.DataFactory** et [RDS.DataControl](datacontrol-object-rds.md), Remote Data Service utilise la version **RDS.DataControl** par défaut. Un scénario de programmation de base est pris comme point de départ par défaut, **RDSServer.DataFactory** étant utilisé comme objet métier côté serveur générique.
+
+Si vous souhaitez que votre application web gère le traitement du côté serveur spécifiques à la tâche, vous pouvez remplacer **RDSServer.DataFactory** par un objet métier personnalisé.
+>>>>>>> master
 
 Vous pouvez créer des objets métier côté serveur qui appellent les méthodes de **RDSServer.DataFactory**, comme [Query](query-method-rds.md) et [CreateRecordset](createrecordset-method-rds.md). Cela s'avère utile si vous voulez ajouter des fonctionnalités à vos objets métier tout en profitant des technologies Remote Data Service existantes.
 

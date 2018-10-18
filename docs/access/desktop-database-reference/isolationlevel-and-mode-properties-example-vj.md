@@ -1,19 +1,13 @@
 ---
-title: IsolationLevel et Mode, propriété - Exemple (VJ++)
-TOCTitle: IsolationLevel and Mode Properties Example (VJ++)
-ms:assetid: cb2e177c-c60c-b3ca-7de2-cbe2519d1e63
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
-ms:contentKeyID: 48547711
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6b8ff091d17a8e46ad6439ef7964ab4a8ff87e00
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469279"
+<<<<<<< Titre tête : IsolationLevel et Mode, propriétés-exemple (VJ ++) TOCTitle : IsolationLevel et Mode, propriétés-exemple (VJ ++) === titre : IsolationLevel et Mode, propriétés-exemple (VJ ++) TOCTitle : IsolationLevel et Mode propriétés-exemple (VJ ++)
+>>>>>>> Master ms:assetid : cb2e177c-c60c-b3ca-7de2-cbe2519d1e63 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249989(v=office.15) ms:contentKeyID : ms.date 48547711 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="isolationlevel-and-mode-properties-example-vj"></a>IsolationLevel et Mode, propriété - Exemple (VJ++)
+=======
+# <a name="isolationlevel-and-mode-properties-example-vj"></a>IsolationLevel et Mode, propriétés-exemple (VJ ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

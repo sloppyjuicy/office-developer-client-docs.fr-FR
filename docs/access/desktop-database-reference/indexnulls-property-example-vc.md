@@ -1,19 +1,13 @@
 ---
-title: IndexNulls, propriété - Exemple (VC++)
-TOCTitle: IndexNulls Property Example (VC++)
-ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
-ms:contentKeyID: 48543039
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 28e0c1e1f7fb92f5e6752f732c275fff609252d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471387"
+<<<<<<< Titre tête : IndexNulls, propriété-Exemple (VC ++) TOCTitle : IndexNulls, propriété-Exemple (VC ++) === titre : IndexNulls, propriété-Exemple (VC ++) TOCTitle : IndexNulls, propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248813(v=office.15) ms:contentKeyID : ms.date 48543039 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété - Exemple (VC++)
+=======
+# <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

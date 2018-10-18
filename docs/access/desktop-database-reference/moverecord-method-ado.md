@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd7496efe7c38fcd78800ad087730bb21a19c32e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d6955bca1bf693386d1f5edb4bac04cee311d78e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470672"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606961"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord, méthode (ADO)
 
@@ -51,7 +51,11 @@ Déplace l'entité représentée par un objet [Record](record-object-ado.md) ver
 
   - Facultatif. Valeur de type **Boolean** qui, lorsqu'elle correspond à **True**, indique que cette opération doit être asynchrone.
 
-## <a name="return-value"></a>Valeur de retour
+<<<<<<< Tête
+## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Valeur de type **String**. En règle générale, la valeur de *Destination* est renvoyée. Toutefois, la valeur retournée précise dépend du fournisseur.
 
@@ -73,6 +77,10 @@ Si l'objet **Record** a été obtenu d'un objet [Recordset](recordset-object-ado
 
 
 > [!NOTE]
+<<<<<<< Tête
 > <P>[!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, consultez <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
+=======
+> [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

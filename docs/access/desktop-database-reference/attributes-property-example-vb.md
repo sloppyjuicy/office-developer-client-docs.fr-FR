@@ -1,19 +1,13 @@
 ---
-title: Attributes, propriété - Exemple (VB)
-TOCTitle: Attributes Property Example (VB)
-ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
-ms:contentKeyID: 48547442
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6041c142d8ba097478877a37f1412eb3a0901366
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469091"
+<<<<<<< Titre tête : attributs propriété-Exemple (VB) TOCTitle : attributs de propriété-Exemple (VB) === titre : attributs, propriété-Exemple (VB) TOCTitle : attributs, propriété-Exemple (VB)
+>>>>>>> Master ms:assetid : bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID : ms.date 48547442 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="attributes-property-example-vb"></a>Attributes, propriété - Exemple (VB)
+=======
+# <a name="attributes-property-example-vb"></a>Attributes, propriété-Exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
