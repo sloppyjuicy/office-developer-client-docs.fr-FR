@@ -1,19 +1,13 @@
 ---
-title: CacheSize, propriété - Exemple (VC++)
-TOCTitle: CacheSize Property Example (VC++)
-ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
-ms:contentKeyID: 48547435
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: e8bf74622c3d16454e070f214a1c32bece327d0d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472290"
+<<<<<<< Titre tête : TOCTitle CacheSize, propriété-Exemple (VC ++) : CacheSize, propriété-Exemple (VC ++) === titre : CacheSize, propriété-Exemple (VC ++) TOCTitle : CacheSize, propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : bd5bc7ae-c1fa-361b-9b26-a216655e3cbd ms:mtpsurl : https://msdn.microsoft.com/library/JJ249914(v=office.15) ms:contentKeyID : ms.date 48547435 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="cachesize-property-example-vc"></a>CacheSize, propriété - Exemple (VC++)
+=======
+# <a name="cachesize-property-example-vc"></a>CacheSize, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

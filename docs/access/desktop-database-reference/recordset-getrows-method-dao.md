@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 565e049fdb92da645b7ad743c74a99f829f12bca
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1ec084dce260d3371df9928c8cb65f1e8f6027e1
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472557"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602705"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Méthode Recordset.GetRows (DAO)
 
@@ -58,7 +58,11 @@ Récupère plusieurs lignes d'un objet **[Recordset](recordset-object-dao.md)**.
 </table>
 
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Variante
 

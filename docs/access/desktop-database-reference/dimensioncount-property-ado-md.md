@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248875(v=office.15)
 ms:contentKeyID: 48543301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1512a4dfc06d2e29eea9c78c0bc62e14886a04cf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f16bd172fcb9538e44b57911687dd0f920db7fe
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470036"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603881"
 ---
 # <a name="dimensioncount-property-ado-md"></a>DimensionCount, propriété (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25470036"
 
 Indique le nombre de dimensions sur un axe.
 
+<<<<<<< Tête
+## <a name="return-values"></a>Valeurs renvoyées
+=======
 ## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Retourne un entier **long** et est en lecture seule.
 

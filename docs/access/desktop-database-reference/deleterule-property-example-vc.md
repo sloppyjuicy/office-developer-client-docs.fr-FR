@@ -1,19 +1,13 @@
 ---
-title: DeleteRule, propriété - Exemple (VC++)
-TOCTitle: DeleteRule Property Example (VC++)
-ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
-ms:contentKeyID: 48544164
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 80f23f9ea8e9c40b691936f5bad6bb0049bcc3b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470550"
+<<<<<<< Titre tête : DeleteRule, propriété-Exemple (VC ++) TOCTitle : DeleteRule, propriété-Exemple (VC ++) === titre : DeleteRule, propriété-Exemple (VC ++) TOCTitle : DeleteRule, propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID : ms.date 48544164 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="deleterule-property-example-vc"></a>DeleteRule, propriété - Exemple (VC++)
+=======
+# <a name="deleterule-property-example-vc"></a>DeleteRule, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

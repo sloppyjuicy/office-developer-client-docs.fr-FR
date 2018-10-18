@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b824dc1b00f913e097432aae65ecac425ef19031
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e412fbcb083e4cf5acae363ef05ce11ad9754215
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472373"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603398"
 ---
 # <a name="nextrecordset-method-ado"></a>NextRecordset, méthode (ADO)
 
@@ -25,7 +25,11 @@ Efface l'objet [Recordset](recordset-object-ado.md) actif et retourne l'objet **
 
 Définir *l’objet recordset2* = *recordset1*. NextRecordset (*RecordsAffected* )
 
+<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Retourne un objet **Recordset**. Dans le modèle de syntaxe, *JeuEnregistrements1* et *JeuEnregistrements2* peuvent représenter le même objet **Recordset** ou vous pouvez utiliser des objets distincts. Lorsque vous utilisez des objets **Recordset** distincts et que vous réinitialisez la propriété **ActiveConnection** sur l'objet **Recordset** d'origine (*JeuEnregistrements1*) après l'appel de **NextRecordset**, une erreur se produit.
 
@@ -43,7 +47,9 @@ Retourne un objet **Recordset**. Dans le modèle de syntaxe, *JeuEnregistrements
 
 ## <a name="remarks"></a>Notes
 
-Utilisez la méthode **NextRecordset** pour retourner les résultats de la commande suivante dans une instruction de commandes composée ou les résultats d'une procédure stockée qui retourne plusieurs résultats. Si vous ouvrez un objet **Recordset** basé sur une instruction de commandes composée (par exemple, « sélectionnez \* FROM table1 ; Sélectionnez \* FROM table2 ») à l’aide de la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) sur une [commande](command-object-ado.md) ou la méthode [Open](open-method-ado-recordset.md) sur un **objet Recordset**, ADO exécute uniquement la première commande et retourne les résultats à *l’objet recordset*. Pour accéder aux résultats des commandes suivantes de l'instruction, appelez la méthode **NextRecordset**.
+<<<<<<< Tête d’utiliser la méthode **NextRecordset** pour retourner les résultats de la commande suivante dans une instruction de commandes composée ou d’une procédure stockée qui retourne plusieurs résultats. Si vous ouvrez un objet **Recordset** basé sur une instruction de commandes composée (par exemple, « sélectionnez \* FROM table1 ; Sélectionnez \* FROM table2 ») à l’aide de la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) sur une [commande](command-object-ado.md) ou la méthode [Open](open-method-ado-recordset.md) sur un **objet Recordset**, ADO exécute uniquement la première commande et retourne les résultats à *l’objet recordset*. Pour accéder aux résultats des commandes suivantes de l'instruction, appelez la méthode **NextRecordset**.
+=== D’utiliser la méthode **NextRecordset** pour retourner les résultats de la commande suivante dans une instruction de commandes composée ou d’une procédure stockée qui retourne plusieurs résultats. Si vous ouvrez un objet **Recordset** basé sur une instruction de commandes composée (par exemple, « sélectionnez \* FROM table1 ; Sélectionnez \* FROM table2 ») à l’aide de la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) sur une [commande](command-object-ado.md) ou la méthode [Open](open-method-ado-recordset.md) sur un **objet Recordset**, ADO exécute uniquement la première commande et retourne les résultats à *l’objet recordset*. Pour accéder aux résultats des commandes suivantes de l'instruction, appelez la méthode **NextRecordset**.
+>>>>>>> master
 
 Tant que des résultats supplémentaires sont et l' **objet Recordset** contenant les instructions composées n’est pas déconnecté ni marshalé au-delà des limites du processus, la méthode **NextRecordset** continue de retourner des objets **Recordset** . Si une commande retournant des lignes s’exécute correctement mais ne retourne aucun enregistrement, l’objet **Recordset** retourné sera ouvert mais vide. Dans ce cas de test en vérifiant que les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) sont toutes deux **la valeur True**. Si une commande ne retournant pas ligne s’exécute correctement, l’objet **Recordset** retourné sera être fermé, ce que vous pouvez vérifier en testant la propriété [State](state-property-ado.md) sur le **jeu d’enregistrements**. Lorsqu’il n’y a aucune davantage de résultats, *jeu d’enregistrements* est définie sur *Nothing*.
 

@@ -1,19 +1,13 @@
 ---
-title: ParentRow, propriété (ADO)
-TOCTitle: ParentRow Property (ADO)
-ms:assetid: c7520353-9428-9c8f-9d21-ff42e30e1193
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249971(v=office.15)
-ms:contentKeyID: 48547638
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 834dcaed7d1acdcf66410584436e2ccee8c91c56
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472565"
+<<<<<<< Titre tête : ligne parente propriété (ADO) TOCTitle : ligne parente propriété (ADO) === titre : ParentRow, propriété (ADO) TOCTitle : ParentRow, propriété (ADO)
+>>>>>>> Master ms:assetid : c7520353-9428-9c8f-9d21-ff42e30e1193 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249971(v=office.15) ms:contentKeyID : ms.date 48547638 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="parentrow-property-ado"></a>ParentRow, propriété (ADO)
+=======
+# <a name="parentrow-property-ado"></a>ParentRow, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -33,7 +27,11 @@ Placer HRESULT\_ligne parente (\[dans\] IUnknown\* pParent) ;
 
   - Le conteneur d'une ligne.
 
+<<<<<<< Tête
 ## <a name="return-values"></a>Valeurs renvoyées
+=======
+## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
 

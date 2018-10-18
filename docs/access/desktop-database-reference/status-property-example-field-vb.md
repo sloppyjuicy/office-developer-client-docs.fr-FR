@@ -1,19 +1,13 @@
 ---
-title: Status, propriété - Exemple (objet Field) (VB)
-TOCTitle: Status Property Example (Field) (VB)
-ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
-ms:contentKeyID: 48543601
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: ed9f0c90e994b221762588ab941174dbb9c4c764
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472520"
+<<<<<<< Titre tête : Status, propriété-Exemple (objet Field) (VB) TOCTitle : Status, propriété-Exemple (objet Field) (VB) === titre : statut, propriété-Exemple (objet Field) (VB) TOCTitle : statut, propriété-Exemple (objet Field) (VB)
+>>>>>>> Master ms:assetid : 1dc2807f-f469-de97-1280-4b1984b271b4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248969(v=office.15) ms:contentKeyID : ms.date 48543601 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="status-property-example-field-vb"></a>Status, propriété - Exemple (objet Field) (VB)
+=======
+# <a name="status-property-example-field-vb"></a>État, propriété-Exemple (objet Field) (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

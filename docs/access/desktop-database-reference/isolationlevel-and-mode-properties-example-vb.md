@@ -1,19 +1,13 @@
 ---
-title: IsolationLevel et Mode, propriétés - Exemple (VB)
-TOCTitle: IsolationLevel and Mode Properties Example (VB)
-ms:assetid: ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249800(v=office.15)
-ms:contentKeyID: 48546999
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: d4bf210ce363172b25da1f8f7586201f62cc8166
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469580"
+<<<<<<< Titre tête : IsolationLevel et Mode propriétés-exemple (VB) TOCTitle : IsolationLevel et Mode propriétés-exemple (VB) === titre : IsolationLevel et Mode, propriétés-exemple (VB) TOCTitle : IsolationLevel et Mode propriétés-exemple (VB)
+>>>>>>> Master ms:assetid : ac3ec2e7-199c-723c-ff3e-2aaf3e10aa94 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249800(v=office.15) ms:contentKeyID : ms.date 48546999 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="isolationlevel-and-mode-properties-example-vb"></a>IsolationLevel et Mode, propriétés - Exemple (VB)
+=======
+# <a name="isolationlevel-and-mode-properties-example-vb"></a>IsolationLevel et Mode, propriétés-exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

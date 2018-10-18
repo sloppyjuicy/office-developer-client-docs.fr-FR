@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c69ed0363f46f918373cbf5fe141bbbbdb027ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ae3cc867c00930c71d379e8ce5bb139075d229d8
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472241"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602502"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk, méthode (ADO)
 
@@ -25,7 +25,11 @@ Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado
 
 *variable* = *champ*. GetChunk (*taille* )
 
-## <a name="return-value"></a>Valeur de retour
+<<<<<<< Tête
+## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Retourne une valeur de type **Variant**.
 

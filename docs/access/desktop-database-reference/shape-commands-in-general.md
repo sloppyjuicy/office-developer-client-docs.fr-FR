@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 33570bec65de4ff88667ad90b591c4f288c86d96
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34e691edd429b5d7f00da0c8eb994ffd999c6305
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470946"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603951"
 ---
 # <a name="shape-commands-in-general"></a>Généralités sur les commandes de mise en forme (SHAPE)
 
@@ -62,7 +62,9 @@ Une commande SHAPE peut contenir une clause qui spécifie une commande de requê
 
 Vous pouvez utiliser une clause JOIN SQL pour établir une relation entre deux tables ; cependant, sachez qu'un objet **Recordset** hiérarchique peut représenter les informations de manière plus efficace. Chaque ligne d'un objet **Recordset** créé par une clause JOIN reproduit les informations de l'une des tables de façon redondante. En revanche, un objet **Recordset** hiérarchique ne comporte qu'un objet **Recordset** parent pour chacun des différents objets **Recordset** enfant.
 
-Les commandes SHAPE peuvent être émises par des objets **Recordset** ou en définissant la propriété [CommandText](commandtext-property-ado.md) de l'objet [Command](command-object-ado.md), puis en appelant la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)).
+<<<<<<< Commandes Shape tête peuvent être émises par des objets **Recordset** ou en définissant la propriété [CommandText](commandtext-property-ado.md) de l’objet [Command](command-object-ado.md) , puis en appelant la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) .
+=== Commandes shape peuvent être émises par des objets **Recordset** ou en définissant la propriété [CommandText](commandtext-property-ado.md) de l’objet [Command](command-object-ado.md) , puis en appelant la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) .
+>>>>>>> master
 
 Elles peuvent être imbriquées. Autrement dit, le *parent-command* ou *child-command* lui-même peut-être autre commande shape.
 

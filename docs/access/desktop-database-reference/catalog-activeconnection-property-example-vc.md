@@ -1,19 +1,13 @@
 ---
-title: Catalog - ActiveConnection, propriété - Exemple (VC++)
-TOCTitle: Catalog ActiveConnection Property Example (VC++)
-ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
-ms:contentKeyID: 48543246
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 30eea3d77121712b33881cad13d3445de1467c81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469814"
+<<<<<<< Titre tête : catalogue ActiveConnection, propriété-Exemple (VC ++) TOCTitle : catalogue ActiveConnection, propriété-Exemple (VC ++) === titre : catalogue ActiveConnection, propriété-Exemple (VC ++) TOCTitle : ActiveConnection de catalogue propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl : https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID : ms.date 48543246 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="catalog-activeconnection-property-example-vc"></a>Catalog - ActiveConnection, propriété - Exemple (VC++)
+=======
+# <a name="catalog-activeconnection-property-example-vc"></a>Catalogue ActiveConnection, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

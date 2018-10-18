@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 039da9aeb6166b25b0800533f50aa7ec5053c3c7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469127"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602586"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
@@ -89,7 +89,11 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 </table>
 
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Workspace
 

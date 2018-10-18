@@ -1,26 +1,24 @@
 ---
-title: Name, propriété (ADO)
-TOCTitle: Name Property (ADO)
-ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
-ms:contentKeyID: 48544683
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 132d00af1aecf7ec1ae8fbdb7855a10dd99c7f4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471905"
+<<<<<<< Titre tête : TOCTitle nom propriété (ADO) : nom de propriété (ADO) === titre : Name, propriété (ADO) TOCTitle : Name, propriété (ADO)
+>>>>>>> Master ms:assetid : 4b19bd08-ac3c-86f0-471d-06a37a0d4f89 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249234(v=office.15) ms:contentKeyID : ms.date 48544683 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="name-property-ado"></a>Name, propriété (ADO)
+=======
+# <a name="name-property-ado"></a>Name, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le nom d'un objet.
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **String** indiquant le nom d'un objet.
 

@@ -1,19 +1,13 @@
 ---
-title: Source, propriété - Exemple (VJ++)
-TOCTitle: Source Property Example (VJ++)
-ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
-ms:contentKeyID: 48547821
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aef4ad0bf1146236ba2df7ab51dd28005656c012
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470652"
+<<<<<<< Titre tête : TOCTitle Source, propriété-Exemple (VJ ++) : Source, propriété-Exemple (VJ ++) === titre : exemple de propriété Source (VJ ++) TOCTitle : exemple de propriété Source (VJ ++)
+>>>>>>> Master ms:assetid : cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID : ms.date 48547821 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="source-property-example-vj"></a>Source, propriété - Exemple (VJ++)
+=======
+# <a name="source-property-example-vj"></a>Exemple de propriété source (VJ ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

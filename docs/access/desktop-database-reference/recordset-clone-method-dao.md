@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 37f78b428cc4f872743fe39403608074460b276a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5a899f72c6603d81244c31775c1109f66520910e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471341"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602978"
 ---
 # <a name="recordsetclone-method-dao"></a>Recordset.Clone Method (DAO)
 
@@ -30,7 +30,11 @@ Crée un objet **[Recordset](recordset-object-dao.md)** dupliqué qui fait réf�
 
 *expression* Variable qui représente un objet **Recordset** .
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Recordset
 

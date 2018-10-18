@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6e9bf0cfd27e478b66ccc046412c0e874a4ebd6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 45164401bbab5cc9134fa7a354fde54bbb02fa37
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472578"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604783"
 ---
 # <a name="solutions-for-remote-data-access"></a>Solutions pour l'accès à distance aux données
 
@@ -24,7 +24,9 @@ ADO permet à votre application d'accéder directement aux sources de données e
 
 Cependant, il se peut que vous souhaitiez accéder aux sources de données de manière indirecte, via un intermédiaire tel que Microsoft® Internet Information Services (IIS). Ce type de système est parfois appelé système à trois couches. IIS est un système client/serveur qui fournit à une application locale ou cliente un moyen efficace d'appeler un programme distant (serveur) sur Internet ou dans un intranet. Le programme serveur accède à la source des données et traite éventuellement les données acquises.
 
-Supposons par exemple que votre page Web intranet contient une application écrite en Microsoft® Visual Basic Scripting Edition (VBScript) qui se connecte à IIS. IIS se connecte à son tour à la source de données, extrait les données et les traite d'une façon quelconque, puis retourne les informations traitées à votre application.
+<<<<<<< Tête par exemple, votre page Web intranet contient une application écrite dans Microsoft® Visual Basic Scripting Edition (VBScript), qui se connecte à IIS. IIS se connecte à son tour à la source de données, extrait les données et les traite d'une façon quelconque, puis retourne les informations traitées à votre application.
+=== Par exemple, votre page Web intranet contient une application écrite dans Microsoft® Visual Basic Scripting Edition (VBScript), qui se connecte à IIS. IIS se connecte à son tour à la source de données, extrait les données et les traite d'une façon quelconque, puis retourne les informations traitées à votre application.
+>>>>>>> master
 
 Dans cet exemple, votre application ne se connecte jamais directement à la source de données ; c'est IIS qui s'y connecte et accède aux données par l'intermédiaire d'ADO.
 

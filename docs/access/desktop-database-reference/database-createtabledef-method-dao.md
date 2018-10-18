@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e85c9f22ecfa6efa11a3d916e0bb374948df6104
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 99bccffb11dfb9813d52fed721a51b5417ef6be0
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470338"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602817"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef, méthode (DAO)
 
@@ -75,7 +75,11 @@ Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Micros
 </table>
 
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 TableDef
 

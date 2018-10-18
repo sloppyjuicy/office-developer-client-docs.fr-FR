@@ -1,19 +1,13 @@
 ---
-title: Optimize, propriété - Exemple (VC++)
-TOCTitle: Optimize Property Example (VC++)
-ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15)
-ms:contentKeyID: 48548825
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3daa5f17f274546f3d18ebd118f8c6754da98c1a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469788"
+<<<<<<< Titre tête : optimiser, propriété-Exemple (VC ++) TOCTitle : optimiser, propriété-Exemple (VC ++) === titre : optimiser, propriété-Exemple (VC ++) TOCTitle : optimiser, propriété-Exemple (VC ++)
+>>>>>>> Master ms:assetid : f9e83365-93b2-3eb6-0347-8f8aec703d6f ms:mtpsurl : https://msdn.microsoft.com/library/JJ250273(v=office.15) ms:contentKeyID : ms.date 48548825 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="optimize-property-example-vc"></a>Optimize, propriété - Exemple (VC++)
+=======
+# <a name="optimize-property-example-vc"></a>Optimiser, propriété-Exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

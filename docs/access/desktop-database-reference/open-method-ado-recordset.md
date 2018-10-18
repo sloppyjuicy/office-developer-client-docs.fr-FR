@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6887770c8e0c3b98b6ff990c884c5325d6ce6d3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dd5a956d5a978a374e10c85e7803715f81d48f2a
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471952"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603073"
 ---
 # <a name="open-method-ado-recordset"></a>Open, méthode (objet Recordset ADO)
 
@@ -63,7 +63,9 @@ L'utilisation de la méthode **Open** sur un objet **Recordset** ouvre un curseu
 
 Utilisez l’argument *Source* facultatif pour spécifier une source de données à l’aide d’une des opérations suivantes : une variable d’objet **Command** , une instruction SQL, une procédure stockée, un nom de table, une URL ou un nom de chemin d’accès complet du fichier. Si la *Source* est un nom de chemin d’accès de fichier, il peut être un chemin d’accès complet (« c :\\dir\\file.rst »), un chemin d’accès relatif («... \\file.rst »), ou une URL («https://files/file.rst»).
 
-Il n’est pas conseillé d’utiliser l’argument *Source* de la méthode **Open** pour exécuter une requête action qui ne renvoie pas d’enregistrements, car il n’existe aucun moyen simple pour déterminer si l’appel a réussi. L'objet **Recordset** retourné par ce type de requête sera fermé. Appelez plutôt la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) d'un objet **Command** ou la méthode [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) d'un objet **Connection** pour exécuter une requête qui ne retourne pas d'enregistrement, comme une instruction INSERT SQL.
+<<<<<<< Tête il n’est pas conseillé d’utiliser l’argument *Source* de la méthode **Open** pour exécuter une requête action qui ne renvoie pas d’enregistrements, car il n’existe aucun moyen simple pour déterminer si l’appel a réussi. L'objet **Recordset** retourné par ce type de requête sera fermé. Appelez plutôt la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) d'un objet **Command** ou la méthode [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) d'un objet **Connection** pour exécuter une requête qui ne retourne pas d'enregistrement, comme une instruction INSERT SQL.
+=== Il n’est pas conseillé d’utiliser l’argument *Source* de la méthode **Open** pour exécuter une requête action qui ne renvoie pas d’enregistrements, car il n’existe aucun moyen simple pour déterminer si l’appel a réussi. L'objet **Recordset** retourné par ce type de requête sera fermé. Appelez plutôt la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) d'un objet **Command** ou la méthode [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) d'un objet **Connection** pour exécuter une requête qui ne retourne pas d'enregistrement, comme une instruction INSERT SQL.
+>>>>>>> master
 
 L’argument *ActiveConnection* correspond à la propriété [ActiveConnection](activeconnection-property-ado.md) et spécifie la connexion dans laquelle ouvrir le **jeu d’enregistrements** de l' objet. Si vous passez une définition de connexion pour cet argument, ADO ouvre une nouvelle connexion à l'aide des paramètres spécifiés. Après l’ouverture de l' **objet Recordset** avec un curseur côté client (**CursorLocation** = **adUseClient**), vous pouvez modifier la valeur de cette propriété pour envoyer des mises à jour à un autre fournisseur. Vous pouvez également attribuer la valeur **Nothing** (en Microsoft Visual Basic) ou NULL à cette propriété pour déconnecter l'objet **Recordset** de tous les fournisseurs. La modification de **ConnexionActive** pour un curseur côté serveur génère, en revanche, une erreur.
 
@@ -102,9 +104,14 @@ Si vous avez attribué à la propriété [CursorLocation](cursorlocation-propert
 > <P>Extraction en arrière-plan dans le fournisseur MS Remote est pris en charge uniquement par le paramètre <EM>Options</EM> de la méthode <STRONG>Open</STRONG> .</P>
 
 
+<<<<<<< Tête
 
 
 > [!NOTE]
 > <P>[!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, consultez <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
+=======
+> [!NOTE]
+> [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

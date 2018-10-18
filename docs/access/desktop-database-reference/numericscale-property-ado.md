@@ -1,26 +1,24 @@
 ---
-title: NumericScale, propriété (ADO)
-TOCTitle: NumericScale Property (ADO)
-ms:assetid: 51b232d2-5bfd-521c-f4e9-65655ecc7c70
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249263(v=office.15)
-ms:contentKeyID: 48544824
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 3d70144ae886f60285ad22067e0c52b9193a0005
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472060"
+<<<<<<< Titre tête : TOCTitle NumericScale propriété (ADO) : propriété NumericScale (ADO) === titre : NumericScale, propriété (ADO) TOCTitle : NumericScale, propriété (ADO)
+>>>>>>> Master ms:assetid : 51b232d2-5bfd-521c-f4e9-65655ecc7c70 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249263(v=office.15) ms:contentKeyID : ms.date 48544824 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="numericscale-property-ado"></a>NumericScale, propriété (ADO)
+=======
+# <a name="numericscale-property-ado"></a>NumericScale, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique l'échelle des valeurs numériques possibles dans un objet [Parameter](parameter-object-ado.md) ou [Field](field-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur de type **Byte** qui indique le nombre de décimales que comporteront les valeurs numériques.
 

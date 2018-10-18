@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250209(v=office.15)
 ms:contentKeyID: 48548564
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 962c5e00eee3c58d2c02040869fdf1cb454af538
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f96bdfc7b669aeea279ba746c92bfc299912c70
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471448"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602551"
 ---
 # <a name="datecreated-property-adox"></a>DateCreated, propriété (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25471448"
 
 Indique la date de création de l'objet.
 
+<<<<<<< Tête
+## <a name="return-values"></a>Valeurs renvoyées
+=======
 ## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Renvoie une valeur de type **Variant** spécifiant la date de la création. La valeur est Null si la propriété **DateCreated** n'est pas prise en charge par le fournisseur.
 

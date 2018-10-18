@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249249(v=office.15)
 ms:contentKeyID: 48544744
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a42ade39a50eb5dc40e213d6f4c3f4ed0ba3475e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a389ad273c2d47405ff6dcec6f5b5c42fa0662b8
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470562"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602439"
 ---
 # <a name="state-property-ado-md"></a>State, propriété (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25470562"
 
 Indique l'état actuel de l'ensemble de cellules.
 
+<<<<<<< Tête
+## <a name="return-values"></a>Valeurs renvoyées
+=======
 ## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Retourne un entier de type **Long** qui indique la condition actuelle de l'objet [Cellset](cellset-object-ado-md.md) et est en lecture seule. Les valeurs suivantes sont valides : **adStateClosed** (0) et **adStateOpen** (1).
 

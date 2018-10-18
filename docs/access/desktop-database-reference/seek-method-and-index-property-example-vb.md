@@ -1,19 +1,13 @@
 ---
-title: Seek (méthode) et Index (propriété) - Exemple (VB)
-TOCTitle: Seek Method and Index Property Example (VB)
-ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
-ms:contentKeyID: 48547577
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: c5a3c50a94202b170534fbac23b035bec2b98c0d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469264"
+<<<<<<< Titre tête : méthode Seek et Index propriété-Exemple (VB) TOCTitle : méthode Seek et Index de propriété-Exemple (VB) === titre : méthode Seek et Index, propriété-Exemple (VB) TOCTitle : méthode Seek et Index, propriété-Exemple (VB)
+>>>>>>> Master ms:assetid : c3ddb72c-2b19-53c8-9779-2c503486e44e ms:mtpsurl : https://msdn.microsoft.com/library/JJ249957(v=office.15) ms:contentKeyID : ms.date 48547577 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="seek-method-and-index-property-example-vb"></a>Seek (méthode) et Index (propriété) - Exemple (VB)
+=======
+# <a name="seek-method-and-index-property-example-vb"></a>Seek (méthode) et Index, propriété-Exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

@@ -6,19 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d68a15873bc5030fd51e54c2219a0ffd91f080f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f37a188fd3ddb3608eda414fbdcea6402cd9d41
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471239"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603944"
 ---
 # <a name="address-book-navigation-buttons"></a>Boutons de navigation dans le Carnet d'adresses
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-Les boutons de navigation de l'application Carnet d'adresses sont disposés au bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
+<<<<<<< Application tête le carnet d’adresses affiche les boutons de navigation au bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
+=== L’application Carnet d’adresses affiche les boutons de navigation au bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
+>>>>>>> master
 
 ## <a name="navigation-sub-procedures"></a>Sous-procédures de navigation
 

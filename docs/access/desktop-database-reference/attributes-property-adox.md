@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250072(v=office.15)
 ms:contentKeyID: 48547959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7eefb2a3582f177e2a5de5597d2150b0030a882
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0b1d54b474683806349b849d8c80b0d371db8b8b
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469130"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604280"
 ---
 # <a name="attributes-property-adox"></a>Attributes, propriété (ADOX)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25469130"
 
 Décrit des caractéristiques de colonne.
 
+<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur de type **Long**. La valeur spécifie les caractéristiques de la table représentée par l'objet [Column](column-object-adox.md). Il peut s'agir d'une combinaison de constantes [ColumnAttributesEnum](columnattributesenum.md). La valeur par défaut est zéro (0), qui ne correspond ni à **adColFixed** ni à **adColNullable**.
 

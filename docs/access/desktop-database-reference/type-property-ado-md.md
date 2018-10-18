@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249230(v=office.15)
 ms:contentKeyID: 48544671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3ea67b96e24f01e167ca693dff356c595005904
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bf8efb435fb11a909b5deea7b1ed6891811a670e
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469100"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603482"
 ---
 # <a name="type-property-ado-md"></a>Type, propriété (ADO MD)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25469100"
 
 Indique le type du membre actuel.
 
+<<<<<<< Tête
+## <a name="return-values"></a>Valeurs renvoyées
+=======
 ## <a name="return-values"></a>Valeurs de retour
+>>>>>>> master
 
 Retourne une valeur [MemberTypeEnum](membertypeenum.md) et est en lecture seule.
 

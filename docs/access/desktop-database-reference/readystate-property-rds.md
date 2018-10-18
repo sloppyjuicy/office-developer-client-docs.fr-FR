@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 804a98a6fa7c93617a5b6e165a2a012969c66913
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2a22099e49489226c7848a54112e7ab5e70b64ff
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471177"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603916"
 ---
 # <a name="readystate-property-rds"></a>ReadyState, propriété (RDS)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25471177"
 
 Indique la progression d'un [DataControl](datacontrol-object-rds.md) lorsqu'il récupère des données dans son objet [Recordset](recordset-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie l'une des valeurs suivantes.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250235(v=office.15)
 ms:contentKeyID: 48548670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c568861b684856f14c644a4ef3341eed66afd569
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4d6e010ce8db93baaf8faddaeff5ab4dabda6a84
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470477"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25603384"
 ---
 # <a name="source-property-ado-record"></a>Source, propriété (objet Record ADO)
 
@@ -20,7 +20,11 @@ ms.locfileid: "25470477"
 
 Indique la source de données ou l'objet que représente l'objet [Record](record-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **Variant** qui indique l'entité que représente l'objet **Record**.
 
@@ -36,8 +40,13 @@ Si la propriété **ActiveConnection** est elle aussi définie, la propriété *
 
 La propriété **Source** est accessible en lecture/écriture lorsque l'objet **Record** est fermé et en lecture seule lorsque l'objet **Record** est ouvert.
 
+<<<<<<< Tête
 
 > [!NOTE]
-> <P>[!REMARQUE] Les URL construites sur le schéma http invoquent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, voir <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
+> <P>[!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, consultez <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
+=======
+> [!NOTE]
+> [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+>>>>>>> master
 
 

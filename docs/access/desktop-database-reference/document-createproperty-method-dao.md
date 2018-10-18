@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052967
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 95c2454b81cc46ee2df59b05ce7ea06f78a783ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bb0f40ed8dcffc4af54d7cba68cf5ddd62ed8b96
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470681"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25602530"
 ---
 # <a name="documentcreateproperty-method-dao"></a>Document.CreateProperty Method (DAO)
 
@@ -76,7 +76,11 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 </table>
 
 
+<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
+=======
+### <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Propriété
 

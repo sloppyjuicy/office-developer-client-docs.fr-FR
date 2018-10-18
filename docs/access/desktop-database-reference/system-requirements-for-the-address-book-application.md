@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8890e9dba072e2c35d9773ea389701bb7d631ee7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e1536b1a03ed0e7c873b2db06e76ee9b505ee00c
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472052"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25604427"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Configuration système requise pour l'application Carnet d'adresses
 
@@ -22,13 +22,15 @@ Pour configurer l'application exemple Carnet d'adresses, la configuration logici
 
 **Configuration logicielle requise**
 
-La configuration logicielle requise du serveur exécutant cette application Web inclut :
+<<<<<<< Tête de la configuration logicielle requise de l’ordinateur serveur pour l’exécution de cette application Web inclut : === la configuration logicielle requise de l’ordinateur serveur pour l’exécution de cette application web inclut :
+>>>>>>> master
 
   - Microsoft Windows NT® Server 4.0 avec Service Pack 3 ou ultérieur, ou Microsoft Windows® 2000 Server
 
   - Microsoft Internet Information Services (IIS) 3.0 ou ultérieur avec Active Server Pages
 
-La configuration logicielle requise de l'ordinateur client pour exécuter cette application Web inclut :
+<<<<<<< Tête de la configuration logicielle requise de l’ordinateur client pour l’exécution de cette application Web inclut : === la configuration logicielle requise de l’ordinateur client pour l’exécution de cette application web inclut :
+>>>>>>> master
 
   - Microsoft Internet Explorer 4.0 ou ultérieur
 

@@ -1,19 +1,13 @@
 ---
-title: UnderlyingValue, propriété (ADO)
-TOCTitle: UnderlyingValue Property (ADO)
-ms:assetid: f84f4c1c-2bd4-a725-3575-ed063ead13c8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250262(v=office.15)
-ms:contentKeyID: 48548782
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 10140d0cc4105ed46ddaaf48e4c827f364adc90c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471233"
+<<<<<<< Titre tête : TOCTitle UnderlyingValue propriété (ADO) : propriété UnderlyingValue (ADO) === titre : UnderlyingValue, propriété (ADO) TOCTitle : UnderlyingValue, propriété (ADO)
+>>>>>>> Master ms:assetid : f84f4c1c-2bd4-a725-3575-ed063ead13c8 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250262(v=office.15) ms:contentKeyID : ms.date 48548782 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="underlyingvalue-property-ado"></a>UnderlyingValue, propriété (ADO)
+=======
+# <a name="underlyingvalue-property-ado"></a>UnderlyingValue, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -22,7 +16,11 @@ ms.locfileid: "25471233"
 
 Indique la valeur actuelle d'un objet [Field](field-object-ado.md) dans la base de données.
 
+<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Renvoie une valeur **Variant** qui indique la valeur de l'objet **Field**.
 

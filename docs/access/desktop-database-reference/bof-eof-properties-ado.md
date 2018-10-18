@@ -1,19 +1,13 @@
 ---
-title: BOF, EOF, propriétés (ADO)
-TOCTitle: BOF, EOF Properties (ADO)
-ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
-ms:contentKeyID: 48548768
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 14cd61f6bd2985d71321d848a6426c06c4c7a94d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469800"
+<<<<<<< Titre tête : BOF, EOF propriétés (ADO) TOCTitle : BOF, EOF propriétés (ADO) === titre : BOF, propriétés EOF (ADO) TOCTitle : BOF, propriétés EOF (ADO)
+>>>>>>> Master ms:assetid : f797e140-5572-1a4d-9afc-285f6a3868a8 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250260(v=office.15) ms:contentKeyID : ms.date 48548768 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="bof-eof-properties-ado"></a>BOF, EOF, propriétés (ADO)
+=======
+# <a name="bof-eof-properties-ado"></a>BOF, propriétés EOF (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -22,7 +16,11 @@ ms.locfileid: "25469800"
 
   - **EOF**  Indique que la position d'enregistrement actuelle se trouve après le dernier enregistrement d'un objet **Recordset**.
 
-## <a name="return-value"></a>Valeur de retour
+<<<<<<< Tête
+## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Les propriétés **BOF** et **EOF** retournent des valeurs de type **Boolean**.
 

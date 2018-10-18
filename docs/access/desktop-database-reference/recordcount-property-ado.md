@@ -1,26 +1,24 @@
 ---
-title: RecordCount, propriété (ADO)
-TOCTitle: RecordCount Property (ADO)
-ms:assetid: e3072d10-5bf7-02a8-027e-a9d9a34e3f27
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250155(v=office.15)
-ms:contentKeyID: 48548304
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a619570264973fc70b7cc5bd581437a4002b00be
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471920"
+<<<<<<< Titre tête : TOCTitle de la propriété RecordCount (ADO) : propriété RecordCount (ADO) === titre : RecordCount, propriété (ADO) TOCTitle : RecordCount, propriété (ADO)
+>>>>>>> Master ms:assetid : e3072d10-5bf7-02a8-027e-a9d9a34e3f27 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250155(v=office.15) ms:contentKeyID : ms.date 48548304 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="recordcount-property-ado"></a>RecordCount, propriété (ADO)
+=======
+# <a name="recordcount-property-ado"></a>RecordCount, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le nombre d'enregistrements dans un objet [Recordset](recordset-object-ado.md).
 
+<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
+=======
+## <a name="return-value"></a>Valeur renvoyée
+>>>>>>> master
 
 Retourne une valeur de type **Long** qui indique le nombre d'enregistrements dans le **Recordset**.
 

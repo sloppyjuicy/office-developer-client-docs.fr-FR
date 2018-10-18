@@ -1,19 +1,13 @@
 ---
-title: Provider et DefaultDatabase, propriété - Exemple (VC++)
-TOCTitle: Provider and DefaultDatabase Properties Example (VC++)
-ms:assetid: 21c38be4-3906-cee8-b77b-300f1226392a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248995(v=office.15)
-ms:contentKeyID: 48543687
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 0aa8bcc1af7efda16fc6d8e23ce0bf8a3e04005d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470639"
+<<<<<<< Titre tête : Provider et DefaultDatabase, propriétés-exemple (VC ++) TOCTitle, : fournisseur et DefaultDatabase, propriétés-exemple (VC ++) === titre : fournisseur et DefaultDatabase, propriétés-exemple (VC ++) TOCTitle : fournisseur et DefaultDatabase, propriétés-exemple (VC ++)
+>>>>>>> Master ms:assetid : 21c38be4-3906-cee8-b77b-300f1226392a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248995(v=office.15) ms:contentKeyID : ms.date 48543687 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="provider-and-defaultdatabase-properties-example-vc"></a>Provider et DefaultDatabase, propriété - Exemple (VC++)
+=======
+# <a name="provider-and-defaultdatabase-properties-example-vc"></a>Provider et DefaultDatabase, propriétés-exemple (VC ++)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

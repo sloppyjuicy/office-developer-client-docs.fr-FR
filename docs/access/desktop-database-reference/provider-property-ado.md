@@ -1,26 +1,24 @@
 ---
-title: Provider, propriété (ADO)
-TOCTitle: Provider Property (ADO)
-ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
-ms:contentKeyID: 48543543
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 890f80534ff47c4dea67b34f345bce0f90328c60
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469062"
+<<<<<<< Titre tête : TOCTitle fournisseur propriété (ADO) : fournisseur de propriété (ADO) === titre : propriété Provider (ADO) TOCTitle : propriété Provider (ADO)
+>>>>>>> Master ms:assetid : 1b795f51-93d7-431c-b1fe-0db95f69a56a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248953(v=office.15) ms:contentKeyID : ms.date 48543543 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="provider-property-ado"></a>Provider, propriété (ADO)
+=======
+# <a name="provider-property-ado"></a>Propriété Provider (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le nom du fournisseur d'un objet [Connection](connection-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur **String** qui indique le nom du fournisseur.
 

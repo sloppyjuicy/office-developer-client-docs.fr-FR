@@ -1,23 +1,22 @@
 ---
-title: AbsolutePage, PageCount et PageSize, propriétés - Exemple (JScript)
-TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript)
-ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
-ms:contentKeyID: 48545506
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 60e302cc61b9bbf61a7183d5e74ea6a9dac4a135
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469298"
+<<<<<<< Titre tête : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) TOCTitle : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) ms:assetid : 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID : ms.date 48545506 : 18/09/2015 mtps_version : v=office.15
 ---
+
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a>AbsolutePage, PageCount et PageSize, propriétés - Exemple (JScript)
 
 **S’applique à**: Access 2013 | Office 2013
 
-Cet exemple illustre les propriétés AbsolutePage, PageCount et PageSize. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.
+<a name="this-example-demonstrates-the-absolutepage-pagecount-and-pagesize-properties-cut-and-paste-the-following-code-to-notepad-or-another-text-editor-and-save-it-as-absolutepagejsasp"></a>Cet exemple illustre les propriétés AbsolutePage, PageCount et PageSize. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.
+=======
+titre : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) TOCTitle : ms:assetid d’exemple (JScript) propriétés AbsolutePage, PageCount et PageSize : 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID : ms.date 48545506 : 17/10/2018 mtps_version : v=office.15
+---
+
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a>AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript)
+
+**S’applique à**: Access 2013 | Office 2013
+
+Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche à partir de la table ***Employees***, cinq enregistrements à la fois. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.
+>>>>>>> master
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

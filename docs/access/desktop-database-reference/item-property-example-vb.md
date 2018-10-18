@@ -1,19 +1,13 @@
 ---
-title: Item, propriété - Exemple (VB)
-TOCTitle: Item Property Example (VB)
-ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
-ms:contentKeyID: 48548430
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 93c0780ba601516f975d51aca89265c4d2a648e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471348"
+<<<<<<< Titre tête : élément propriété-Exemple (VB) TOCTitle : élément propriété-Exemple (VB) === titre : élément, propriété-Exemple (VB) TOCTitle : élément, propriété-Exemple (VB)
+>>>>>>> Master ms:assetid : e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl : https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID : ms.date 48548430 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="item-property-example-vb"></a>Item, propriété - Exemple (VB)
+=======
+# <a name="item-property-example-vb"></a>Item, propriété-Exemple (VB)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013

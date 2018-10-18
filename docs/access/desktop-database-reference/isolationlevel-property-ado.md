@@ -1,26 +1,24 @@
 ---
-title: IsolationLevel, propriété (ADO)
-TOCTitle: IsolationLevel Property (ADO)
-ms:assetid: 19461be5-c94b-4b61-ce08-7abdf702c3dc
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15)
-ms:contentKeyID: 48543493
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 7424258f4b5a69764189f33a902956f370a56094
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470891"
+<<<<<<< Titre tête : IsolationLevel propriété (ADO) TOCTitle : IsolationLevel propriété (ADO) === titre : IsolationLevel, propriété (ADO) TOCTitle : IsolationLevel, propriété (ADO)
+>>>>>>> Master ms:assetid : 19461be5-c94b-4b61-ce08-7abdf702c3dc ms:mtpsurl : https://msdn.microsoft.com/library/JJ248939(v=office.15) ms:contentKeyID : ms.date 48543493 : 18/09/2015 mtps_version : v=office.15
 ---
+
+<<<<<<< Tête
 # <a name="isolationlevel-property-ado"></a>IsolationLevel, propriété (ADO)
+=======
+# <a name="isolationlevel-property-ado"></a>IsolationLevel, propriété (ADO)
+>>>>>>> master
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Indique le niveau d'isolation d'un objet [Connection](connection-object-ado.md).
 
-## <a name="settings-and-return-values"></a>Paramètres et valeurs renvoyées
+<<<<<<< Tête
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+=======
+## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
+>>>>>>> master
 
 Définit ou renvoie une valeur [IsolationLevelEnum](isolationlevelenum.md). La valeur par défaut est **adXactChaos**.
 
