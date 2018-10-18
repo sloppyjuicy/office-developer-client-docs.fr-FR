@@ -1,24 +1,18 @@
 ---
-title: Optimize, propriété - Exemple (VJ++)
-TOCTitle: Optimize Property Example (VJ++)
-ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
-ms:contentKeyID: 48547949
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 67b587fb7a0e4a87bafab83ba21cebc6c33a16ec
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470455"
+<span data-ttu-id="1a7b3-101"><<<<<<< Titre tête : optimiser, propriété-Exemple (VJ ++) TOCTitle : optimiser, propriété-Exemple (VJ ++) === titre : optimiser, propriété-Exemple (VJ ++) TOCTitle : optimiser, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="1a7b3-101"><<<<<<< HEAD title: Optimize Property Example (VJ++) TOCTitle: Optimize Property Example (VJ++) ======= title: Optimize property example (VJ++) TOCTitle: Optimize property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="1a7b3-102">Master ms:assetid : d4ac9ae3-3304-addf-0292-7af4ed4fdbc2 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250067(v=office.15) ms:contentKeyID : ms.date 48547949 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="1a7b3-102">master ms:assetid: d4ac9ae3-3304-addf-0292-7af4ed4fdbc2 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15) ms:contentKeyID: 48547949 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="optimize-property-example-vj"></a><span data-ttu-id="d6073-102">Optimize, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d6073-102">Optimize Property Example (VJ++)</span></span>
+
+<span data-ttu-id="1a7b3-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="1a7b3-103"><<<<<<< HEAD</span></span>
+# <a name="optimize-property-example-vj"></a><span data-ttu-id="1a7b3-104">Optimize, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1a7b3-104">Optimize Property Example (VJ++)</span></span>
+=======
+# <a name="optimize-property-example-vj"></a><span data-ttu-id="1a7b3-105">Optimiser, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="1a7b3-105">Optimize property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="1a7b3-106">master</span><span class="sxs-lookup"><span data-stu-id="1a7b3-106">master</span></span>
 
 
-<span data-ttu-id="d6073-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6073-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1a7b3-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1a7b3-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d6073-104">Cet exemple illustre la propriété dynamique Optimize des objets [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="d6073-104">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="d6073-105">Le champ ***zip*** de la table ***Authors*** de la base de données ***Pubs*** n’est pas indexé.</span><span class="sxs-lookup"><span data-stu-id="d6073-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="d6073-106">Définition de la propriété [Optimize](optimize-property-dynamic-ado.md) sur **True** dans le champ ***zip*** autorise ADO pour créer un index qui améliore les performances de la méthode [Find](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="d6073-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="1a7b3-108">Cet exemple illustre la propriété dynamique Optimize des objets [Field](field-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="1a7b3-108">This example demonstrates the [Field](field-object-ado.md) object dynamic Optimize property.</span></span> <span data-ttu-id="1a7b3-109">Le champ ***zip*** de la table ***Authors*** de la base de données ***Pubs*** n’est pas indexé.</span><span class="sxs-lookup"><span data-stu-id="1a7b3-109">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="1a7b3-110">Définition de la propriété [Optimize](optimize-property-dynamic-ado.md) sur **True** dans le champ ***zip*** autorise ADO pour créer un index qui améliore les performances de la méthode [Find](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="1a7b3-110">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```java 
  

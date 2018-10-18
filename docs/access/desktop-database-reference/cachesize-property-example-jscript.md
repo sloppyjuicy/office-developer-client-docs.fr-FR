@@ -1,24 +1,18 @@
 ---
-title: CacheSize, propriété - Exemple (JScript)
-TOCTitle: CacheSize Property Example (JScript)
-ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
-ms:contentKeyID: 48547473
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: aacf45db59c63ad79946bcbd5b5971d9b6859b46
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472421"
+<span data-ttu-id="dfb1e-101"><<<<<<< Titre tête : TOCTitle CacheSize, propriété-Exemple (JScript) : CacheSize, propriété-Exemple (JScript) === titre : CacheSize, propriété-Exemple (JScript) TOCTitle : CacheSize, propriété-Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="dfb1e-101"><<<<<<< HEAD title: CacheSize Property Example (JScript) TOCTitle: CacheSize Property Example (JScript) ======= title: CacheSize property example (JScript) TOCTitle: CacheSize property example (JScript)</span></span>
+>>>>>>> <span data-ttu-id="dfb1e-102">Master ms:assetid : bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl : https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID : ms.date 48547473 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="dfb1e-102">master ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15) ms:contentKeyID: 48547473 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="c34f4-102">CacheSize, propriété - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="c34f4-102">CacheSize Property Example (JScript)</span></span>
+
+<span data-ttu-id="dfb1e-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="dfb1e-103"><<<<<<< HEAD</span></span>
+# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="dfb1e-104">CacheSize, propriété - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="dfb1e-104">CacheSize Property Example (JScript)</span></span>
+=======
+# <a name="cachesize-property-example-jscript"></a><span data-ttu-id="dfb1e-105">CacheSize, propriété-Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="dfb1e-105">CacheSize property example (JScript)</span></span>
+>>>>>>> <span data-ttu-id="dfb1e-106">master</span><span class="sxs-lookup"><span data-stu-id="dfb1e-106">master</span></span>
 
 
-<span data-ttu-id="c34f4-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c34f4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dfb1e-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="dfb1e-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c34f4-p101">Cet exemple utilise la propriété [CacheSize](cachesize-property-ado.md) pour monter la différence, en termes de performances, d'une opération effectuée avec et sans cache de 30 enregistrements. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte, et enregistrez-le sous **CacheSizeJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="c34f4-p101">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache. Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
+<span data-ttu-id="dfb1e-p101">Cet exemple utilise la propriété [CacheSize](cachesize-property-ado.md) pour monter la différence, en termes de performances, d'une opération effectuée avec et sans cache de 30 enregistrements. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte, et enregistrez-le sous **CacheSizeJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="dfb1e-p101">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache. Cut and paste the following code to Notepad or another text editor, and save it as **CacheSizeJS.asp**.</span></span>
 
 ```javascript 
  
@@ -29,7 +23,11 @@ ms.locfileid: "25472421"
  
 <HTML> 
 <HEAD> 
+<<<<<<< HEAD
 <title>CacheSize Property Example (JScript)</title> 
+=======
+<title>CacheSize property example (JScript)</title> 
+>>>>>>> master
 <style> 
 <!-- 
 body { 
@@ -53,7 +51,11 @@ body {
 </style> 
 </HEAD> 
 <BODY> 
+<<<<<<< HEAD
 <h1>CacheSize Property Example (JScript)</h1> 
+=======
+<h1>CacheSize property example (JScript)</h1> 
+>>>>>>> master
 <% 
  // connection and recordset variables 
  var Cnxn = Server.CreateObject("ADODB.Connection") 

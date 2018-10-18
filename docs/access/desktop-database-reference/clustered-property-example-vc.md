@@ -1,24 +1,18 @@
 ---
-title: Clustered, propriété - Exemple (VC++)
-TOCTitle: Clustered Property Example (VC++)
-ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15)
-ms:contentKeyID: 48546761
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 5be7f193c339c2c002e5b1806103fbcca5306666
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472293"
+<span data-ttu-id="cfdbc-101"><<<<<<< Titre tête : TOCTitle Clustered, propriété-Exemple (VC ++) : Clustered, propriété-Exemple (VC ++) === titre : Clustered, propriété-Exemple (VC ++) TOCTitle : groupé, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="cfdbc-101"><<<<<<< HEAD title: Clustered Property Example (VC++) TOCTitle: Clustered Property Example (VC++) ======= title: Clustered property example (VC++) TOCTitle: Clustered property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="cfdbc-102">Master ms:assetid : a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID : ms.date 48546761 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="cfdbc-102">master ms:assetid: a262e38e-ce44-66cb-1adf-fad8e6b840d1 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249748(v=office.15) ms:contentKeyID: 48546761 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="clustered-property-example-vc"></a><span data-ttu-id="de245-102">Clustered, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="de245-102">Clustered Property Example (VC++)</span></span>
+
+<span data-ttu-id="cfdbc-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="cfdbc-103"><<<<<<< HEAD</span></span>
+# <a name="clustered-property-example-vc"></a><span data-ttu-id="cfdbc-104">Clustered, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="cfdbc-104">Clustered Property Example (VC++)</span></span>
+=======
+# <a name="clustered-property-example-vc"></a><span data-ttu-id="cfdbc-105">Clustered, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="cfdbc-105">Clustered property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="cfdbc-106">master</span><span class="sxs-lookup"><span data-stu-id="cfdbc-106">master</span></span>
 
 
-<span data-ttu-id="de245-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="de245-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cfdbc-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfdbc-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="de245-104">Cet exemple illustre la propriété [Clustered](clustered-property-adox.md) d’un [Index](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="de245-104">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="de245-105">Notez que les bases de données Microsoft Jet ne prennent pas charge les index cluster, cet exemple retourne la **valeur False** pour la propriété **Clustered** de tous les index de la base de données *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="de245-105">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
+<span data-ttu-id="cfdbc-108">Cet exemple illustre la propriété [Clustered](clustered-property-adox.md) d’un [Index](index-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="cfdbc-108">This example demonstrates the [Clustered](clustered-property-adox.md) property of an [Index](index-object-adox.md).</span></span> <span data-ttu-id="cfdbc-109">Notez que les bases de données Microsoft Jet ne prennent pas charge les index cluster, cet exemple retourne la **valeur False** pour la propriété **Clustered** de tous les index de la base de données *Northwind* .</span><span class="sxs-lookup"><span data-stu-id="cfdbc-109">Note that Microsoft Jet databases do not support clustered indexes, so this example will return **False** for the **Clustered** property of all indexes in the *Northwind* database.</span></span>
 
 ```cpp 
  

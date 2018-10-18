@@ -1,24 +1,18 @@
 ---
-title: CursorType, LockType et EditMode, propriétés - Exemple (VJ++)
-TOCTitle: CursorType, LockType, and EditMode Properties Example (VJ++)
-ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
-ms:contentKeyID: 48547497
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 9801c8c2a9c260272992c75b0af2f2950dee0503
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471670"
+<span data-ttu-id="8553e-101"><<<<<<< Titre tête : CursorType, LockType et EditMode, propriétés-exemple (VJ ++) TOCTitle : CursorType, LockType et EditMode, propriétés-exemple (VJ ++) === titre : CursorType, LockType et EditMode, propriétés-exemple (VJ ++) TOCTitle : CursorType, LockType et EditMode, propriétés-exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="8553e-101"><<<<<<< HEAD title: CursorType, LockType, and EditMode Properties Example (VJ++) TOCTitle: CursorType, LockType, and EditMode Properties Example (VJ++) ======= title: CursorType, LockType, and EditMode properties example (VJ++) TOCTitle: CursorType, LockType, and EditMode properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8553e-102">Master ms:assetid : bfe87584-4909-8974-b207-4a0c363c5155 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249932(v=office.15) ms:contentKeyID : ms.date 48547497 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="8553e-102">master ms:assetid: bfe87584-4909-8974-b207-4a0c363c5155 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15) ms:contentKeyID: 48547497 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a><span data-ttu-id="5d640-102">CursorType, LockType et EditMode, propriétés - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="5d640-102">CursorType, LockType, and EditMode Properties Example (VJ++)</span></span>
+
+<span data-ttu-id="8553e-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="8553e-103"><<<<<<< HEAD</span></span>
+# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a><span data-ttu-id="8553e-104">CursorType, LockType et EditMode, propriétés - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8553e-104">CursorType, LockType, and EditMode Properties Example (VJ++)</span></span>
+=======
+# <a name="cursortype-locktype-and-editmode-properties-example-vj"></a><span data-ttu-id="8553e-105">CursorType, LockType et EditMode, propriétés-exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="8553e-105">CursorType, LockType, and EditMode properties example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="8553e-106">master</span><span class="sxs-lookup"><span data-stu-id="8553e-106">master</span></span>
 
 
-<span data-ttu-id="5d640-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d640-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8553e-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8553e-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="5d640-p101">Cet exemple illustre la définition des propriétés [CursorType](cursortype-property-ado.md) et [LockType](locktype-property-ado.md) avant l'ouverture d'un objet [Recordset](recordset-object-ado.md). Il indique également la valeur de la propriété [EditMode](editmode-property-ado.md) dans différentes conditions. La fonction EditModeOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="5d640-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="8553e-p101">Cet exemple illustre la définition des propriétés [CursorType](cursortype-property-ado.md) et [LockType](locktype-property-ado.md) avant l'ouverture d'un objet [Recordset](recordset-object-ado.md). Il indique également la valeur de la propriété [EditMode](editmode-property-ado.md) dans différentes conditions. La fonction EditModeOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="8553e-p101">This example demonstrates setting the [CursorType](cursortype-property-ado.md) and [LockType](locktype-property-ado.md) properties before opening a [Recordset](recordset-object-ado.md). It also shows the value of the [EditMode](editmode-property-ado.md) property under various conditions. The EditModeOutput function is required for this procedure to run.</span></span>
 
 ```java 
  
