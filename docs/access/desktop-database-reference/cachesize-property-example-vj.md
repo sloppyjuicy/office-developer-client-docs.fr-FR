@@ -1,24 +1,18 @@
 ---
-title: CacheSize, propriété - Exemple (VJ++)
-TOCTitle: CacheSize Property Example (VJ++)
-ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15)
-ms:contentKeyID: 48548704
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 38b04e88777113216b7a5ad6bc22e2b2f8bd81fd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469540"
+<span data-ttu-id="65443-101"><<<<<<< Titre tête : TOCTitle CacheSize, propriété-Exemple (VJ ++) : CacheSize, propriété-Exemple (VJ ++) === titre : CacheSize, propriété-Exemple (VJ ++) TOCTitle : CacheSize, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="65443-101"><<<<<<< HEAD title: CacheSize Property Example (VJ++) TOCTitle: CacheSize Property Example (VJ++) ======= title: CacheSize property example (VJ++) TOCTitle: CacheSize property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="65443-102">Master ms:assetid : f51cbf17-2944-91ea-b233-18a897ab8f1f ms:mtpsurl : https://msdn.microsoft.com/library/JJ250248(v=office.15) ms:contentKeyID : ms.date 48548704 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="65443-102">master ms:assetid: f51cbf17-2944-91ea-b233-18a897ab8f1f ms:mtpsurl: https://msdn.microsoft.com/library/JJ250248(v=office.15) ms:contentKeyID: 48548704 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="cachesize-property-example-vj"></a><span data-ttu-id="6eb4a-102">CacheSize, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6eb4a-102">CacheSize Property Example (VJ++)</span></span>
+
+<span data-ttu-id="65443-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="65443-103"><<<<<<< HEAD</span></span>
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="65443-104">CacheSize, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="65443-104">CacheSize Property Example (VJ++)</span></span>
+=======
+# <a name="cachesize-property-example-vj"></a><span data-ttu-id="65443-105">CacheSize, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="65443-105">CacheSize property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="65443-106">master</span><span class="sxs-lookup"><span data-stu-id="65443-106">master</span></span>
 
 
-<span data-ttu-id="6eb4a-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6eb4a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="65443-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="65443-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6eb4a-104">Cet exemple utilise la propriété [CacheSize](cachesize-property-ado.md) pour monter la différence, en termes de performances, d'une opération effectuée avec et sans cache de 30 enregistrements.</span><span class="sxs-lookup"><span data-stu-id="6eb4a-104">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
+<span data-ttu-id="65443-108">Cet exemple utilise la propriété [CacheSize](cachesize-property-ado.md) pour monter la différence, en termes de performances, d'une opération effectuée avec et sans cache de 30 enregistrements.</span><span class="sxs-lookup"><span data-stu-id="65443-108">This example uses the [CacheSize](cachesize-property-ado.md) property to show the difference in performance for an operation performed with and without a 30-record cache.</span></span>
 
 ```java 
  

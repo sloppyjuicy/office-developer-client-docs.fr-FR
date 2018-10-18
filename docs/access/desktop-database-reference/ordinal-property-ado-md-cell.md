@@ -6,27 +6,31 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 284e2cac2c1a86d87e39d9913a262fbafb435ece
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0e067fbc90a0e05d31611d7284a735cf1cfe6aa1
+ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469836"
+ms.lasthandoff: 10/17/2018
+ms.locfileid: "25606779"
 ---
-# <a name="ordinal-property-ado-md-cell"></a><span data-ttu-id="8936f-102">Ordinal, propriété (Cellule ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8936f-102">Ordinal Property (ADO MD Cell)</span></span>
+# <a name="ordinal-property-ado-md-cell"></a><span data-ttu-id="71911-102">Ordinal, propriété (Cellule ADO MD)</span><span class="sxs-lookup"><span data-stu-id="71911-102">Ordinal Property (ADO MD Cell)</span></span>
 
 
-<span data-ttu-id="8936f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8936f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="71911-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="71911-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="8936f-104">Identifie de manière unique une cellule au sein d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="8936f-104">Uniquely identifies a cell by its position within a cellset.</span></span>
+<span data-ttu-id="71911-104">Identifie de manière unique une cellule au sein d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="71911-104">Uniquely identifies a cell by its position within a cellset.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8936f-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="8936f-105">Return Values</span></span>
+<span data-ttu-id="71911-105"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="71911-105"><<<<<<< HEAD</span></span>
+## <a name="return-values"></a><span data-ttu-id="71911-106">Valeurs renvoyées</span><span class="sxs-lookup"><span data-stu-id="71911-106">Return Values</span></span>
+=======
+## <a name="return-values"></a><span data-ttu-id="71911-107">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="71911-107">Return values</span></span>
+>>>>>>> <span data-ttu-id="71911-108">master</span><span class="sxs-lookup"><span data-stu-id="71911-108">master</span></span>
 
-<span data-ttu-id="8936f-106">Renvoie un nombre entier de type **Long** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8936f-106">Returns a **Long** integer and is read-only.</span></span>
+<span data-ttu-id="71911-109">Renvoie un nombre entier de type **Long** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="71911-109">Returns a **Long** integer and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8936f-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="8936f-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="71911-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="71911-110">Remarks</span></span>
 
-<span data-ttu-id="8936f-p101">La valeur ordinale d’une cellule identifie de manière unique la cellule au sein d’un ensemble. En théorie, les cellules sont numérotées dans un ensemble de cellules comme si ce dernier était un tableau *p*-dimensionnel, où *p* correspond au nombre des [axes](axes-collection-ado-md.md). Les cellules sont numérotées à partir de zéro en ordre ligne-majeur.</span><span class="sxs-lookup"><span data-stu-id="8936f-p101">The cell's ordinal value uniquely identifies the cell within a cellset. Conceptually, cells are numbered in a cellset as if the cellset were a *p*-dimensional array, where *p* is the number of [axes](axes-collection-ado-md.md). Cells are numbered starting from zero in row-major order.</span></span>
+<span data-ttu-id="71911-p101">La valeur ordinale d’une cellule identifie de manière unique la cellule au sein d’un ensemble. En théorie, les cellules sont numérotées dans un ensemble de cellules comme si ce dernier était un tableau *p*-dimensionnel, où *p* correspond au nombre des [axes](axes-collection-ado-md.md). Les cellules sont numérotées à partir de zéro en ordre ligne-majeur.</span><span class="sxs-lookup"><span data-stu-id="71911-p101">The cell's ordinal value uniquely identifies the cell within a cellset. Conceptually, cells are numbered in a cellset as if the cellset were a *p*-dimensional array, where *p* is the number of [axes](axes-collection-ado-md.md). Cells are numbered starting from zero in row-major order.</span></span>
 
-<span data-ttu-id="8936f-111">Utilisée avec la propriété [Item](item-property-ado-md-cellset.md) de l'objet [Cellset](cellset-object-ado-md.md), la valeur ordinale de la cellule permet d'extraire rapidement la [cellule](cell-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="8936f-111">The cell's ordinal value can be used with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object to quickly retrieve the [Cell](cell-object-ado-md.md).</span></span>
+<span data-ttu-id="71911-114">Utilisée avec la propriété [Item](item-property-ado-md-cellset.md) de l'objet [Cellset](cellset-object-ado-md.md), la valeur ordinale de la cellule permet d'extraire rapidement la [cellule](cell-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="71911-114">The cell's ordinal value can be used with the [Item](item-property-ado-md-cellset.md) property of the [Cellset](cellset-object-ado-md.md) object to quickly retrieve the [Cell](cell-object-ado-md.md).</span></span>
 

@@ -1,26 +1,20 @@
 ---
-title: Item, propriété - Exemple (VC++)
-TOCTitle: Item Property Example (VC++)
-ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
-ms:contentKeyID: 48543452
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a32f81dc29441cb413c07c3a9e1cdde710d2a959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470250"
+<span data-ttu-id="a075a-101"><<<<<<< Titre tête : Item, propriété-Exemple (VC ++) TOCTitle : Item, propriété-Exemple (VC ++) === titre : élément, propriété-Exemple (VC ++) TOCTitle : élément, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a075a-101"><<<<<<< HEAD title: Item Property Example (VC++) TOCTitle: Item Property Example (VC++) ======= title: Item property example (VC++) TOCTitle: Item property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a075a-102">Master ms:assetid : 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID : ms.date 48543452 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="a075a-102">master ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID: 48543452 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="item-property-example-vc"></a><span data-ttu-id="185fa-102">Item, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="185fa-102">Item Property Example (VC++)</span></span>
+
+<span data-ttu-id="a075a-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="a075a-103"><<<<<<< HEAD</span></span>
+# <a name="item-property-example-vc"></a><span data-ttu-id="a075a-104">Item, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a075a-104">Item Property Example (VC++)</span></span>
+=======
+# <a name="item-property-example-vc"></a><span data-ttu-id="a075a-105">Item, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="a075a-105">Item property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="a075a-106">master</span><span class="sxs-lookup"><span data-stu-id="a075a-106">master</span></span>
 
 
-<span data-ttu-id="185fa-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="185fa-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a075a-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a075a-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="185fa-p101">Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  \*\*\*Pubs \*\*\* avec une commande paramétrée.</span><span class="sxs-lookup"><span data-stu-id="185fa-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="a075a-p101">Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  \*\*\*Pubs \*\*\* avec une commande paramétrée.</span><span class="sxs-lookup"><span data-stu-id="a075a-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="185fa-p102">Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](command-object-ado.md) de l'objet [Command](parameters-collection-ado.md) par index et par nom. Les champs de l'objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.</span><span class="sxs-lookup"><span data-stu-id="185fa-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="a075a-p102">Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](command-object-ado.md) de l'objet [Command](parameters-collection-ado.md) par index et par nom. Les champs de l'objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.</span><span class="sxs-lookup"><span data-stu-id="a075a-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```cpp 
  

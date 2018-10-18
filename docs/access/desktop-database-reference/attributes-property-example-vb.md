@@ -1,24 +1,18 @@
 ---
-title: Attributes, propriété - Exemple (VB)
-TOCTitle: Attributes Property Example (VB)
-ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
-ms:contentKeyID: 48547442
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 6041c142d8ba097478877a37f1412eb3a0901366
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469091"
+<span data-ttu-id="ff984-101"><<<<<<< Titre tête : attributs propriété-Exemple (VB) TOCTitle : attributs de propriété-Exemple (VB) === titre : attributs, propriété-Exemple (VB) TOCTitle : attributs, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="ff984-101"><<<<<<< HEAD title: Attributes Property Example (VB) TOCTitle: Attributes Property Example (VB) ======= title: Attributes property example (VB) TOCTitle: Attributes property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="ff984-102">Master ms:assetid : bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID : ms.date 48547442 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="ff984-102">master ms:assetid: bda5e445-6425-5daf-b182-b6f5ea044b04 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15) ms:contentKeyID: 48547442 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="attributes-property-example-vb"></a><span data-ttu-id="c837f-102">Attributes, propriété - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="c837f-102">Attributes Property Example (VB)</span></span>
+
+<span data-ttu-id="ff984-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="ff984-103"><<<<<<< HEAD</span></span>
+# <a name="attributes-property-example-vb"></a><span data-ttu-id="ff984-104">Attributes, propriété - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="ff984-104">Attributes Property Example (VB)</span></span>
+=======
+# <a name="attributes-property-example-vb"></a><span data-ttu-id="ff984-105">Attributes, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="ff984-105">Attributes property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="ff984-106">master</span><span class="sxs-lookup"><span data-stu-id="ff984-106">master</span></span>
 
 
-<span data-ttu-id="c837f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c837f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ff984-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff984-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c837f-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="c837f-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="ff984-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="ff984-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```vb 
  

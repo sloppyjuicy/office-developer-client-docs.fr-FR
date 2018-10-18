@@ -1,24 +1,18 @@
 ---
-title: MarshalOptions, propriété - Exemple (VC++)
-TOCTitle: MarshalOptions Property Example (VC++)
-ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
-ms:contentKeyID: 48546236
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: fe6b86ba3049304f248b2b914d16d67092573c8c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470207"
+<span data-ttu-id="81844-101"><<<<<<< Titre tête : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++) === titre : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="81844-101"><<<<<<< HEAD title: MarshalOptions Property Example (VC++) TOCTitle: MarshalOptions Property Example (VC++) ======= title: MarshalOptions property example (VC++) TOCTitle: MarshalOptions property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="81844-102">Master ms:assetid : 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID : ms.date 48546236 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="81844-102">master ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID: 48546236 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="marshaloptions-property-example-vc"></a><span data-ttu-id="03d3f-102">MarshalOptions, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="03d3f-102">MarshalOptions Property Example (VC++)</span></span>
+
+<span data-ttu-id="81844-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="81844-103"><<<<<<< HEAD</span></span>
+# <a name="marshaloptions-property-example-vc"></a><span data-ttu-id="81844-104">MarshalOptions, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="81844-104">MarshalOptions Property Example (VC++)</span></span>
+=======
+# <a name="marshaloptions-property-example-vc"></a><span data-ttu-id="81844-105">MarshalOptions, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="81844-105">MarshalOptions property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="81844-106">master</span><span class="sxs-lookup"><span data-stu-id="81844-106">master</span></span>
 
 
-<span data-ttu-id="03d3f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="03d3f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="81844-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="81844-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="03d3f-104">Cet exemple utilise la propriété [MarshalOptions](marshaloptions-property-ado.md) pour spécifier les lignes renvoyées au serveur : toutes les lignes ou uniquement les lignes modifiées.</span><span class="sxs-lookup"><span data-stu-id="03d3f-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="81844-108">Cet exemple utilise la propriété [MarshalOptions](marshaloptions-property-ado.md) pour spécifier les lignes renvoyées au serveur : toutes les lignes ou uniquement les lignes modifiées.</span><span class="sxs-lookup"><span data-stu-id="81844-108">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```cpp 
  
@@ -273,7 +267,7 @@ void PrintComError(_com_error &e)
 // EndMarshalOptionsCpp 
 ```
 
-<span data-ttu-id="03d3f-105">**MarshalOptionsX.h**</span><span class="sxs-lookup"><span data-stu-id="03d3f-105">**MarshalOptionsX.h**</span></span>
+<span data-ttu-id="81844-109">**MarshalOptionsX.h**</span><span class="sxs-lookup"><span data-stu-id="81844-109">**MarshalOptionsX.h**</span></span>
 
 ```cpp 
  

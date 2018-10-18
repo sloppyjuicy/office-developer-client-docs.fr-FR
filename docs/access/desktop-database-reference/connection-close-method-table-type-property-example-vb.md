@@ -1,23 +1,17 @@
 ---
-title: Connection Close, méthode - Exemple de propriété Table Type (VB)
-TOCTitle: Connection Close Method, Table Type Property Example (VB)
-ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
-ms:contentKeyID: 48547754
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: b0a7cb6f2f2e78727c8e4a383a901d4712916fee
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469591"
+<span data-ttu-id="7f167-101"><<<<<<< Titre tête : Connection Close, méthode, exemple de propriété Table Type (VB) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VB) === titre : Connection Close, méthode, exemple de propriété Table Type (VB) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="7f167-101"><<<<<<< HEAD title: Connection Close Method, Table Type Property Example (VB) TOCTitle: Connection Close Method, Table Type Property Example (VB) ======= title: Connection Close Method, Table Type property example (VB) TOCTitle: Connection Close Method, Table Type property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="7f167-102">Master ms:assetid : cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID : ms.date 48547754 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="7f167-102">master ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15) ms:contentKeyID: 48547754 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="58128-102">Connection Close, méthode - Exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="58128-102">Connection Close Method, Table Type Property Example (VB)</span></span>
 
-<span data-ttu-id="58128-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="58128-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7f167-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="7f167-103"><<<<<<< HEAD</span></span>
+# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="7f167-104">Connection Close, méthode - Exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="7f167-104">Connection Close Method, Table Type Property Example (VB)</span></span>
+=======
+# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="7f167-105">Connection Close, méthode, exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="7f167-105">Connection Close Method, Table Type property example (VB)</span></span>
+>>>>>>> <span data-ttu-id="7f167-106">master</span><span class="sxs-lookup"><span data-stu-id="7f167-106">master</span></span>
 
-<span data-ttu-id="58128-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="58128-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="7f167-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f167-107">**Applies to**: Access 2013 | Office 2013</span></span>
+
+<span data-ttu-id="7f167-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="7f167-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```vb 
  
@@ -64,7 +58,7 @@ ms.locfileid: "25469591"
 
 <br/>
 
-<span data-ttu-id="58128-108">La fermeture d'un objet [Connection](connection-object-ado.md) utilisé pour « ouvrir » le catalogue équivaut normalement à attribuer la valeur **Nothing** à la propriété **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="58128-108">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
+<span data-ttu-id="7f167-112">La fermeture d'un objet [Connection](connection-object-ado.md) utilisé pour « ouvrir » le catalogue équivaut normalement à attribuer la valeur **Nothing** à la propriété **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="7f167-112">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
 
 ```vb
     Sub CloseConnection() 

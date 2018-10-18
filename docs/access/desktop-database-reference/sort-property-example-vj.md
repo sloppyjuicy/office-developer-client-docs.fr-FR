@@ -1,24 +1,18 @@
 ---
-title: Sort, propriété - Exemple (VJ++)
-TOCTitle: Sort Property Example (VJ++)
-ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
-ms:contentKeyID: 48543896
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: a36b70b0f57eb9f6380660e0f0d9f86184de7d73
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471539"
+<span data-ttu-id="5cf14-101"><<<<<<< Titre tête : TOCTitle tri, propriété-Exemple (VJ ++) : Sort, propriété-Exemple (VJ ++) === titre : exemple de propriété Sort (VJ ++) TOCTitle : exemple de propriété Sort (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="5cf14-101"><<<<<<< HEAD title: Sort Property Example (VJ++) TOCTitle: Sort Property Example (VJ++) ======= title: Sort property example (VJ++) TOCTitle: Sort property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="5cf14-102">Master ms:assetid : 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID : ms.date 48543896 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="5cf14-102">master ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID: 48543896 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="sort-property-example-vj"></a><span data-ttu-id="bf952-102">Sort, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bf952-102">Sort Property Example (VJ++)</span></span>
+
+<span data-ttu-id="5cf14-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="5cf14-103"><<<<<<< HEAD</span></span>
+# <a name="sort-property-example-vj"></a><span data-ttu-id="5cf14-104">Sort, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="5cf14-104">Sort Property Example (VJ++)</span></span>
+=======
+# <a name="sort-property-example-vj"></a><span data-ttu-id="5cf14-105">Trier, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="5cf14-105">Sort property example (VJ++)</span></span>
+>>>>>>> <span data-ttu-id="5cf14-106">master</span><span class="sxs-lookup"><span data-stu-id="5cf14-106">master</span></span>
 
 
-<span data-ttu-id="bf952-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf952-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="5cf14-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5cf14-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="bf952-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="bf952-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="5cf14-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="5cf14-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
 
 ```java 
  

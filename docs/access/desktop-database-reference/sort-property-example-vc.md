@@ -1,24 +1,18 @@
 ---
-title: Sort, propriété - Exemple (VC++)
-TOCTitle: Sort Property Example (VC++)
-ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
-ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
-ms:contentKeyID: 48543259
-ms.date: 09/18/2015
-mtps_version: v=office.15
-ms.openlocfilehash: 33f8134320192ad22b0ddc743c1e445cfad46d58
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471909"
+<span data-ttu-id="1897c-101"><<<<<<< Titre tête : TOCTitle tri, propriété-Exemple (VC ++) : Sort, propriété-Exemple (VC ++) === titre : exemple de propriété Sort (VC ++) TOCTitle : exemple de propriété Sort (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1897c-101"><<<<<<< HEAD title: Sort Property Example (VC++) TOCTitle: Sort Property Example (VC++) ======= title: Sort property example (VC++) TOCTitle: Sort property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1897c-102">Master ms:assetid : 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl : https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID : ms.date 48543259 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="1897c-102">master ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID: 48543259 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
 ---
-# <a name="sort-property-example-vc"></a><span data-ttu-id="a553f-102">Sort, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a553f-102">Sort Property Example (VC++)</span></span>
+
+<span data-ttu-id="1897c-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="1897c-103"><<<<<<< HEAD</span></span>
+# <a name="sort-property-example-vc"></a><span data-ttu-id="1897c-104">Sort, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="1897c-104">Sort Property Example (VC++)</span></span>
+=======
+# <a name="sort-property-example-vc"></a><span data-ttu-id="1897c-105">Trier, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="1897c-105">Sort property example (VC++)</span></span>
+>>>>>>> <span data-ttu-id="1897c-106">master</span><span class="sxs-lookup"><span data-stu-id="1897c-106">master</span></span>
 
 
-<span data-ttu-id="a553f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a553f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1897c-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1897c-107">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a553f-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données **Pubs**. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="a553f-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="1897c-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données **Pubs**. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="1897c-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the **Pubs** database. A secondary utility routine prints each row.</span></span>
 
 ```cpp 
  
