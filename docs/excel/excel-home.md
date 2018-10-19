@@ -1,36 +1,36 @@
 ---
 title: Excel
-ms.date: 12/13/2017
+ms.date: 10/03/2018
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
-ms.openlocfilehash: 9a637bf0b4cd3f8663f40064c8f1f07bf1d3f93e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cf486b3bab5133de75cf59f8999ade1b8cca8aad
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782061"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25394705"
 ---
 # <a name="excel"></a>Excel
 
 Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/fr-FR/office/dev/add-ins/overview/office-add-in-availability) ? Découvrez le nouveau [modèle de compléments Excel](https://docs.microsoft.com/fr-FR/office/dev/add-ins/excel/excel-add-ins-overview). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Découvrez le nouveau [modèle de compléments Excel](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-overview). 
   
 ### <a name="viewed-most"></a>Articles populaires
   
-- [Référence VBA Excel](https://msdn.microsoft.com/fr-FR/library/ee861528.aspx)
+- [Référence VBA Excel](https://docs.microsoft.com/office/vba/api/overview/excel)
   
-- [Excel 2010](https://msdn.microsoft.com/fr-FR/library/ee658205%28v=office.14%29.aspx)
+- [Excel 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ee658205(v=office.14))
   
 ### <a name="office-add-ins"></a>Compléments Office
   
-- [Prise en main des compléments Excel](https://docs.microsoft.com/fr-FR/office/dev/add-ins/excel/excel-add-ins-get-started-overview)
+- [Prise en main des compléments Excel](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-get-started-overview)
   
-- [Vue d’ensemble de la plateforme](https://docs.microsoft.com/fr-FR/office/dev/add-ins/overview/office-add-ins)
+- [Vue d’ensemble de la plateforme](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
 ### <a name="code-samples"></a>Exemples de code
   
@@ -39,14 +39,18 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 ### <a name="other-resources"></a>Autres ressources
   
-- [Conseils pour supprimer les limites de performance d’Excel](https://msdn.microsoft.com/fr-FR/library/office/mt709003.aspx)
+- [Conseils pour supprimer les limites de performance](https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions)
 
-- [Référence de la bibliothèque d’objets VBA Office](http://msdn.microsoft.com/library/727c4e1c-e13c-7bac-e833-b1322607dfd3%28Office.15%29.aspx)
+- [Référence de la bibliothèque d’objets VBA Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Référence de langage VBA pour Office](http://msdn.microsoft.com/library/9c1e8386-0309-c52c-856b-963220382eb8%28Office.15%29.aspx)
+- [Référence de langage VBA pour Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](http://msdn.microsoft.com/library/f6a9ae68-7989-4208-97f5-3c945137a0ab%28Office.15%29.aspx)
+- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
   
-- [Compléments VSTO pour Office](https://msdn.microsoft.com/fr-FR/library/jj620922.aspx)
+- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
-
+### <a name="support"></a>Support
+  
+- [Centre de développement Office](https://developer.microsoft.com/fr-FR/office)
+  
+- [Support technique Office](https://support.office.com/)
