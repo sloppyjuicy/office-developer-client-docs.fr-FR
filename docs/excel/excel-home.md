@@ -6,12 +6,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
-ms.openlocfilehash: cf486b3bab5133de75cf59f8999ade1b8cca8aad
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: b12ee0ca7fa97e008767f3c207ea7fd54e914e6d
+ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394705"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "25454522"
 ---
 # <a name="excel"></a>Excel
 
@@ -34,8 +34,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 ### <a name="code-samples"></a>Exemples de code
   
-- 
-  [Exemples de code Excel dans le centre de développement Office](https://developer.microsoft.com/en-us/excel/gallery/?filterBy=Samples)
+- [Exemples de code Excel dans le centre de développement Office](https://developer.microsoft.com/excel/gallery/?filterBy=Samples)
   
 ### <a name="other-resources"></a>Autres ressources
   
@@ -51,6 +50,6 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 ### <a name="support"></a>Support
   
-- [Centre de développement Office](https://developer.microsoft.com/fr-FR/office)
+- [Centre de développement Office](https://developer.microsoft.com/office)
   
 - [Support technique Office](https://support.office.com/)
