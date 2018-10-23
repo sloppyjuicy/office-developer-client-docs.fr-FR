@@ -5,25 +5,25 @@ ms.date: 12/07/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22564135"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Déconnexion d’un complément d’état hors connexion
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque le complément hors connexion est déconnecté, vous devez implémenter les fonctions pour terminer correctement et de nettoyer le complément. Pour plus d’informations sur la configuration et l’utilisation hors connexion d’état de complément pour surveiller les changements d’état de connexion, voir le [complément de paramètre d’un état en mode hors connexion](setting-up-an-offline-state-add-in.md) et [Surveillance connexion état modifications en utilisant un complément état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Lorsque le complément d’état hors connexion est déconnecté, vous devez implémenter des fonctions pour l’arrêter et le nettoyer correctement. Pour plus d’informations sur la manière de configurer et d'utiliser le complément d’état hors connexion pour surveiller les modifications de l’état de connexion, reportez-vous aux articles [Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md) et [Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-Dans cette rubrique, ces de déconnexion, terminer et le nettoyage des fonctions sont illustrées à l’aide des exemples de code à partir de la macro complémentaire exemple hors connexion état. Le complément exemple hors connexion état est un complément COM qui ajoute un menu **État hors connexion** dans Outlook et utilise l’API de l’état en mode hors connexion. Via le menu état hors connexion, vous pouvez activer ou désactiver l’analyse de l’état, vérifiez l’état en cours et modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation du complément exemple hors connexion état, consultez [installation du complément exemple hors connexion état](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API de l’état en mode hors connexion, voir [à propos en mode hors connexion état API](about-the-offline-state-api.md).
+Dans cette rubrique, ces fonctions de déconnexion, d’arrêt et de nettoyage sont illustrées à l’aide d’exemples de code provenant de l’exemple de complément d’état hors connexion. L’exemple de complément d’état hors connexion est un complément COM qui ajoute un menu **État hors connexion** à Outlook et qui utilise l’API d’état hors connexion. Dans le menu État hors connexion, vous pouvez activer ou désactiver la surveillance de l’état, vérifier l’état actuel ainsi que le modifier. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
   
-## <a name="on-disconnection-routine"></a>Dans la Routine de déconnexion
+## <a name="on-disconnection-routine"></a>Routine à la déconnexion (OnDisconnection)
 
-La méthode **IDTExtensibility2.OnDisconnection** est appelée lorsque l’état hors connexion est déchargé. Vous devez implémenter nettoyer le code de cette fonction. Dans l’exemple suivant, la fonction **IDTExtensibility2.OnDisconnection** appelle le `HrTermAddin` fonction. 
+La méthode **IIDTExtensibility2.OnDisconnection** est appelée lorsque le complément d’état hors connexion est déchargé. Vous devez implémenter un code de nettoyage dans cette fonction. Dans l’exemple suivant, la fonction **IDTExtensibility2.OnDisconnection** appelle la fonction `HrTermAddin`. 
   
 ### <a name="cmyaddinondisconnection-example"></a>Exemple CMyAddin::OnDisconnection()
 
@@ -37,9 +37,9 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 }
 ```
 
-## <a name="terminate-add-in-function"></a>Mettre fin à la fonction complémentaire
+## <a name="terminate-add-in-function"></a>Fonction d’arrêt du complément (TermAddin)
 
-Les `HrTermAddin` les appels de fonction la `inDeInitMonitor`, `HrRemoveMenuItems`, et `UnloadLibraries` fonctions pour terminer le nettoyage de la macro complémentaire état hors connexion. 
+La fonction `HrTermAddin` appelle les fonctions `inDeInitMonitor`, `HrRemoveMenuItems` et `UnloadLibraries` pour terminer le nettoyage du complément d’état hors connexion. 
   
 ### <a name="cmyaddinhrtermaddin-example"></a>Exemple CMyAddin::HrTermAddin()
 
@@ -54,9 +54,9 @@ HRESULT CMyAddin::HrTermAddin()
 }
 ```
 
-## <a name="deinitialize-monitor-routine"></a>Désinitialiser Routine moniteur
+## <a name="deinitialize-monitor-routine"></a>Routine de désinitialisation du moniteur (DeInitMonitor)
 
-Le `inDeInitMonitor` fonction appelle la fonction [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) pour annuler des rappels pour l’objet en mode hors connexion. 
+La fonction `inDeInitMonitor` appelle la fonction [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) pour annuler les rappels pour l’objet hors connexion. 
   
 ### <a name="deinitmonitor-example"></a>Exemple DeInitMonitor()
 
@@ -75,9 +75,9 @@ g_ulAdviseToken = NULL;
 }
 ```
 
-## <a name="remove-menu-items-routine"></a>Supprimer la Routine d’éléments de Menu
+## <a name="remove-menu-items-routine"></a>Routine de suppression d’éléments de menu (RemoveMenuItems)
 
-Les `HrRemoveMenuItems` les appels de fonction `DispEventUnadvise` pour chaque élément de menu dans le menu **État hors connexion** , puis supprime le menu **d’État hors connexion** . 
+La fonction `HrRemoveMenuItems` appelle `DispEventUnadvise` pour chaque élément de menu sous le menu **État hors connexion**, puis supprime le menu **État hors connexion**. 
   
 ### <a name="cmyaddinhrremovemenuitems-example"></a>Exemple CMyAddin::HrRemoveMenuItems()
 
@@ -122,9 +122,9 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 }
 ```
 
-## <a name="unload-libraries-routine"></a>Déchargement d’une Routine de bibliothèques
+## <a name="unload-libraries-routine"></a>Routine de déchargement de bibliothèques (UnloadLibraries)
 
-Lorsque le complément est déchargé à partir d’Outlook, le `UnloadLibraries` fonction décharge les bibliothèques de liens dynamiques (DLL) nécessitant la macro complémentaire. 
+Lorsque le complément est déchargé à partir d’Outlook, la fonction `UnloadLibraries` décharge les bibliothèques de liens dynamiques (DLL) requises par le complément. 
   
 ### <a name="unloadlibraries-example"></a>Exemple UnloadLibraries()
 

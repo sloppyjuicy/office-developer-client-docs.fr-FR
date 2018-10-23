@@ -7,10 +7,10 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 10fb1650-6c3e-f467-91cd-48e5ddd82827
-description: 'Derni�re modification�: jeudi 5 juillet 2012'
+description: 'Dernière modification : 05 juillet 2012'
 ms.openlocfilehash: 41a61bd05bd511888aeab756166016813f4dceb8
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25391947"
@@ -19,9 +19,9 @@ ms.locfileid: "25391947"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement du contenu d’un dossier à partir du serveur au cours de l' [état de la table du téléchargement](download-table-state.md). Ce processus de téléchargement utilise la synchronisation modification incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+Informations relatives au téléchargement du contenu d’un dossier à partir du serveur pendant le [téléchargement de l’état de la table](download-table-state.md). Ce processus de téléchargement utilise une méthode de synchronisation des modifications incrémentielle (ICS) de Microsoft Exchange. Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,23 +35,23 @@ struct DNTBLE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _cEntNew_
   
-> [out] Nombre d’éléments ajoutés dans le magasin local. Outlook remplit cette valeur pendant le téléchargement lors de l’utilisation du partage de connexion Internet.
+> [sortant] Nombre d’éléments ajoutés à la banque locale. Outlook renseigne cette valeur pendant le téléchargement lors de l’utilisation d’ICS.
     
  _cEntMod_
   
-> [out] Nombre d’éléments modifiés sur le magasin local. Outlook remplit cette valeur pendant le téléchargement lors de l’utilisation du partage de connexion Internet.
+> [sortant] Nombre d’éléments modifiés dans la banque locale. Outlook renseigne cette valeur pendant le téléchargement lors de l’utilisation d’ICS.
     
  _cEntRead_
   
-> [out] Nombre d’éléments de lire ou marqués comme non lu dans le magasin local. Outlook remplit cette valeur pendant le téléchargement lors de l’utilisation du partage de connexion Internet.
+> [sortant] Nombre d’éléments lus ou marqués comme non lus dans la banque locale. Outlook renseigne cette valeur pendant le téléchargement lors de l’utilisation d’ICS.
     
  _cEntDel_
   
-> [out] Nombre d’éléments supprimés dans le magasin local. Outlook remplit cette valeur pendant le téléchargement lors de l’utilisation du partage de connexion Internet.
+> [sortant] Nombre d’éléments supprimés de la banque locale. Outlook renseigne cette valeur pendant le téléchargement lors de l’utilisation d’ICS.
     
 ## <a name="see-also"></a>Voir aussi
 

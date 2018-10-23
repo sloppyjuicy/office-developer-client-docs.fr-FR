@@ -7,10 +7,10 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: 5d26583ad7ad3b4a200daf321a8994e302b75a79
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22580634"
@@ -19,9 +19,9 @@ ms.locfileid: "22580634"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour améliorer les performances lors du démarrage, évitez les appels suivants :
+Pour améliorer les performances au moment du démarrage, évitez d’effectuer les appels suivants :
   
 - [IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md)
     
@@ -33,8 +33,8 @@ Pour améliorer les performances lors du démarrage, évitez les appels suivants
     
 - [IMAPIStatus::ValidateState](imapistatus-validatestate.md)
     
-L’appel vers **IMAPIStatus::ValidateState** affecte les performances que s’il fait sur le spouleur MAPI ou le sous-système MAPI. Que ces méthodes ralentissent le traitement de démarrage est, car ils ne peuvent pas effectuer jusqu'à ce que le spouleur MAPI a terminé ses tâches de démarrage. 
+L’appel à **IMAPIStatus::ValidateState** a une incidence sur les performances uniquement lorsqu’il est effectué sur le spouleur MAPI ou le sous-système MAPI. Ces méthodes ralentissent le traitement du démarrage, car elles ne peuvent pas être effectuées tant que le spouleur MAPI n’a pas terminé ses tâches de démarrage. 
   
-Vous devez également éviter de recherche dans la banque de messages au démarrage. Appelez votre [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) de traitement de démarrage est terminée. 
+Vous devez également éviter d’effectuer une recherche dans la banque de messages lors du démarrage. Exécutez votre appel [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) une fois le traitement du démarrage terminé. 
   
 

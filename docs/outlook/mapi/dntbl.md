@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
-description: 'Derni�re modification�: jeudi 5 juillet 2012'
+description: 'Dernière modification : 05 juillet 2012'
 ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25398121"
 ---
 # <a name="dntbl"></a>DNTBL
  
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement du contenu d’un dossier à partir du serveur au cours de l' [état de la table du téléchargement](download-table-state.md), dans le cadre d’une synchronisation complète pour le contenu sur un magasin.
+Informations relatives au téléchargement du contenu d’un dossier à partir du serveur pendant le [téléchargement de l’état de la table](download-table-state.md), dans le cadre d’une synchronisation complète du contenu dans une banque.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -47,79 +47,79 @@ struct DNTBL
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
-> [in] Indicateurs pour modifier le comportement 
+> [entrant] Indicateurs permettant de modifier le comportement 
     
   - DNT_OK
     
-    - [in] Téléchargement a réussi. Le client définit après le téléchargement des informations à partir du serveur.
+    - [entrant] Téléchargement réussi. Le client définit cet élément après avoir téléchargé des informations à partir du serveur.
     
 _pstmReserved1_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pstmReserved2_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pstmReserved3_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pstmReserved4_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pxicc_
   
->  [out] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le téléchargement des modifications de contenu. Pour plus d’informations sur **IExchangeImportContentsChanges**, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [sortant] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** prenant en charge le téléchargement des modifications de contenu. Pour plus d’informations sur **IExchangeImportContentsChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   
->  [out] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications incrémentielles de hiérarchie. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [sortant] Pointeur vers l’interface de hiérarchie **IExchangeImportHierarchyChanges** qui prend en charge le téléchargement des modifications de hiérarchie incrémentielle. Pour plus d’informations sur **IExchangeImportHierarchyChanges**, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pszName_
   
->  [out] Nom du dossier. 
+>  [sortant] Nom du dossier. 
     
 _ftLastMod_
   
->  [out] Heure de dernière modification du dossier. 
+>  [sortant] Heure de la dernière modification du dossier. 
     
 _ulRights_
   
->  [out] Valeur de la propriété **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** du dossier. 
+>  [sortant] Valeur de la propriété **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** du dossier. 
     
 _feid_
   
->  [out] ID d’entrée du dossier. 
+>  [sortant] ID d’entrée du dossier. 
     
 _uintReserved_
   
->  [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _rgte_
   
-> [out] Modifications normal (ou non masqués) et les éléments associés (ou masqués).  *rgte [0]* est pour les éléments normales et *rgte [1]* est des éléments associés. Outlook remplit ce membre pendant le téléchargement lors de l’utilisation de la synchronisation de modification incrémentielle (ICS). Pour plus d’informations sur le partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [sortant] Modifications pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués).  *rgte[0]* concerne les éléments normaux et *rgte[1]* concerne les éléments associés. Outlook renseigne ce membre pendant le téléchargement lors de l’utilisation de la synchronisation des modifications incrémentielle (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _lpsrReserved_
   
->  [in] / [out] ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [entrant]/[sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _boReserved_
   
->  [in] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pReserved1_
   
->  [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pReserved2_
   
->  [in] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [entrant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 ## <a name="see-also"></a>Voir aussi
 
