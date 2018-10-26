@@ -19,43 +19,43 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22579444"
 ---
-# <a name="imapiviewadvisesinkonsubmitted"></a><span data-ttu-id="d406f-103">IMAPIViewAdviseSink::OnSubmitted</span><span class="sxs-lookup"><span data-stu-id="d406f-103">IMAPIViewAdviseSink::OnSubmitted</span></span>
+# <a name="imapiviewadvisesinkonsubmitted"></a><span data-ttu-id="86543-103">IMAPIViewAdviseSink::OnSubmitted</span><span class="sxs-lookup"><span data-stu-id="86543-103">IMAPIViewAdviseSink::OnSubmitted</span></span>
 
   
   
-<span data-ttu-id="d406f-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d406f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="86543-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="86543-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d406f-105">Indique que le message en cours a été soumis au spouleur MAPI à la visionneuse de formulaire.</span><span class="sxs-lookup"><span data-stu-id="d406f-105">Notifies the form viewer that the current message has been submitted to the MAPI spooler.</span></span>
+<span data-ttu-id="86543-105">Indique que le message en cours a été soumis au spouleur MAPI à la visionneuse de formulaire.</span><span class="sxs-lookup"><span data-stu-id="86543-105">Notifies the form viewer that the current message has been submitted to the MAPI spooler.</span></span>
   
 ```cpp
 HRESULT OnSubmitted( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d406f-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d406f-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="86543-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="86543-106">Parameters</span></span>
 
-<span data-ttu-id="d406f-107">Aucune</span><span class="sxs-lookup"><span data-stu-id="d406f-107">None</span></span>
+<span data-ttu-id="86543-107">Aucune</span><span class="sxs-lookup"><span data-stu-id="86543-107">None</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="d406f-108">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="d406f-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="86543-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="86543-108">Return value</span></span>
 
-<span data-ttu-id="d406f-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="d406f-109">S_OK</span></span> 
+<span data-ttu-id="86543-109">S_OK</span><span class="sxs-lookup"><span data-stu-id="86543-109">S_OK</span></span> 
   
-> <span data-ttu-id="d406f-110">La notification a réussi.</span><span class="sxs-lookup"><span data-stu-id="d406f-110">The notification succeeded.</span></span>
+> <span data-ttu-id="86543-110">La notification a réussi.</span><span class="sxs-lookup"><span data-stu-id="86543-110">The notification succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="d406f-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="d406f-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="86543-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="86543-111">Remarks</span></span>
 
-<span data-ttu-id="d406f-112">Un objet form appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** après qu’un appel à [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) a réussi.</span><span class="sxs-lookup"><span data-stu-id="d406f-112">A form object calls the **IMAPIViewAdviseSink::OnSubmitted** method after a call to [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) has returned successfully.</span></span> 
+<span data-ttu-id="86543-112">Un objet form appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** après qu’un appel à [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) a réussi.</span><span class="sxs-lookup"><span data-stu-id="86543-112">A form object calls the **IMAPIViewAdviseSink::OnSubmitted** method after a call to [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) has returned successfully.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="d406f-113">Remarques destinées aux responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="d406f-113">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="86543-113">Remarques à l’attention des responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="86543-113">Notes to implementers</span></span>
 
-<span data-ttu-id="d406f-114">Après avoir appelé **OnSubmitted** , vous pouvez continuer sur l’hypothèse que le message a été mis à jour.</span><span class="sxs-lookup"><span data-stu-id="d406f-114">After **OnSubmitted** is called, you can continue on the assumption that the message has been updated.</span></span> <span data-ttu-id="d406f-115">Mettre à jour votre windows afin de refléter les modifications qui se sont produites.</span><span class="sxs-lookup"><span data-stu-id="d406f-115">Update your windows to reflect any changes that have occurred.</span></span> 
+<span data-ttu-id="86543-114">Après avoir appelé **OnSubmitted** , vous pouvez continuer sur l’hypothèse que le message a été mis à jour.</span><span class="sxs-lookup"><span data-stu-id="86543-114">After **OnSubmitted** is called, you can continue on the assumption that the message has been updated.</span></span> <span data-ttu-id="86543-115">Mettre à jour votre windows afin de refléter les modifications qui se sont produites.</span><span class="sxs-lookup"><span data-stu-id="86543-115">Update your windows to reflect any changes that have occurred.</span></span> 
   
-<span data-ttu-id="d406f-116">Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="d406f-116">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
+<span data-ttu-id="86543-116">Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).</span><span class="sxs-lookup"><span data-stu-id="86543-116">For more information about form notifications, see [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="d406f-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d406f-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86543-117">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="86543-117">See also</span></span>
 
 
 
-[<span data-ttu-id="d406f-118">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="d406f-118">IMAPIMessageSite::SubmitMessage</span></span>](imapimessagesite-submitmessage.md)
+[<span data-ttu-id="86543-118">IMAPIMessageSite::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="86543-118">IMAPIMessageSite::SubmitMessage</span></span>](imapimessagesite-submitmessage.md)
   
-[<span data-ttu-id="d406f-119">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d406f-119">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+[<span data-ttu-id="86543-119">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="86543-119">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
 

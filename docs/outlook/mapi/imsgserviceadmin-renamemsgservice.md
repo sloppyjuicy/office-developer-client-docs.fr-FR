@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22589559"
 ---
-# <a name="imsgserviceadminrenamemsgservice"></a><span data-ttu-id="3c8a3-103">IMsgServiceAdmin::RenameMsgService</span><span class="sxs-lookup"><span data-stu-id="3c8a3-103">IMsgServiceAdmin::RenameMsgService</span></span>
+# <a name="imsgserviceadminrenamemsgservice"></a><span data-ttu-id="0ae15-103">IMsgServiceAdmin::RenameMsgService</span><span class="sxs-lookup"><span data-stu-id="0ae15-103">IMsgServiceAdmin::RenameMsgService</span></span>
 
   
   
-<span data-ttu-id="3c8a3-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3c8a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0ae15-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0ae15-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3c8a3-105">Déconseillé.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-105">Deprecated.</span></span> <span data-ttu-id="3c8a3-106">Affecte un nouveau nom à un service de message.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-106">Assigns a new name to a message service.</span></span> 
+<span data-ttu-id="0ae15-105">Déconseillé.</span><span class="sxs-lookup"><span data-stu-id="0ae15-105">Deprecated.</span></span> <span data-ttu-id="0ae15-106">Affecte un nouveau nom à un service de message.</span><span class="sxs-lookup"><span data-stu-id="0ae15-106">Assigns a new name to a message service.</span></span> 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -35,35 +35,35 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3c8a3-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3c8a3-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0ae15-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0ae15-107">Parameters</span></span>
 
- <span data-ttu-id="3c8a3-108">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="3c8a3-108">_lpUID_</span></span>
+ <span data-ttu-id="0ae15-108">_lpUID_</span><span class="sxs-lookup"><span data-stu-id="0ae15-108">_lpUID_</span></span>
   
-> <span data-ttu-id="3c8a3-109">[in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique pour le service de message à renommer.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-109">[in] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier for the message service to rename.</span></span> 
+> <span data-ttu-id="0ae15-109">[in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique pour le service de message à renommer.</span><span class="sxs-lookup"><span data-stu-id="0ae15-109">[in] A pointer to the [MAPIUID](mapiuid.md) structure that contains the unique identifier for the message service to rename.</span></span> 
     
- <span data-ttu-id="3c8a3-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="3c8a3-110">_ulFlags_</span></span>
+ <span data-ttu-id="0ae15-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0ae15-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="3c8a3-111">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-111">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="0ae15-111">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="0ae15-111">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="3c8a3-112">_lpszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="3c8a3-112">_lpszDisplayName_</span></span>
+ <span data-ttu-id="0ae15-112">_lpszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="0ae15-112">_lpszDisplayName_</span></span>
   
-> <span data-ttu-id="3c8a3-113">[in] Pointeur vers le nouveau nom pour le service de message.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-113">[in] A pointer to the new name for the message service.</span></span>
+> <span data-ttu-id="0ae15-113">[in] Pointeur vers le nouveau nom pour le service de message.</span><span class="sxs-lookup"><span data-stu-id="0ae15-113">[in] A pointer to the new name for the message service.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="3c8a3-114">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="3c8a3-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0ae15-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="0ae15-114">Return value</span></span>
 
-<span data-ttu-id="3c8a3-115">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="3c8a3-115">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="0ae15-115">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="0ae15-115">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="3c8a3-116">MAPI ne gère pas la modification du nom de ce service de message.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-116">MAPI does not support renaming this message service.</span></span> <span data-ttu-id="3c8a3-117">**RenameMsgService** renvoie toujours cette valeur.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-117">**RenameMsgService** always returns this value.</span></span> 
+> <span data-ttu-id="0ae15-116">MAPI ne gère pas la modification du nom de ce service de message.</span><span class="sxs-lookup"><span data-stu-id="0ae15-116">MAPI does not support renaming this message service.</span></span> <span data-ttu-id="0ae15-117">**RenameMsgService** renvoie toujours cette valeur.</span><span class="sxs-lookup"><span data-stu-id="0ae15-117">**RenameMsgService** always returns this value.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="3c8a3-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="3c8a3-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0ae15-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="0ae15-118">Remarks</span></span>
 
-<span data-ttu-id="3c8a3-119">Pour attribuer un nouveau nom à un service de message, les clients doivent utiliser la propriété **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) du service de message.</span><span class="sxs-lookup"><span data-stu-id="3c8a3-119">To assign a new name to a message service, clients should use the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property of the message service.</span></span> <span data-ttu-id="3c8a3-120">Les noms des fournisseurs de services dans un service de message sont stockés dans leurs propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3c8a3-120">The names of service providers in a message service are stored in their **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) properties.</span></span> 
+<span data-ttu-id="0ae15-119">Pour attribuer un nouveau nom à un service de message, les clients doivent utiliser la propriété **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) du service de message.</span><span class="sxs-lookup"><span data-stu-id="0ae15-119">To assign a new name to a message service, clients should use the **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) property of the message service.</span></span> <span data-ttu-id="0ae15-120">Les noms des fournisseurs de services dans un service de message sont stockés dans leurs propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="0ae15-120">The names of service providers in a message service are stored in their **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) properties.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="3c8a3-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3c8a3-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ae15-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0ae15-121">See also</span></span>
 
 
 
-[<span data-ttu-id="3c8a3-122">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="3c8a3-122">MAPIUID</span></span>](mapiuid.md)
+[<span data-ttu-id="0ae15-122">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="0ae15-122">MAPIUID</span></span>](mapiuid.md)
   
-[<span data-ttu-id="3c8a3-123">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3c8a3-123">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
+[<span data-ttu-id="0ae15-123">IMsgServiceAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0ae15-123">IMsgServiceAdmin : IUnknown</span></span>](imsgserviceadminiunknown.md)
 

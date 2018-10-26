@@ -19,38 +19,38 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22584932"
 ---
-# <a name="imapiclientshutdownqueryfastshutdown"></a><span data-ttu-id="fd068-103">IMAPIClientShutdown::QueryFastShutdown</span><span class="sxs-lookup"><span data-stu-id="fd068-103">IMAPIClientShutdown::QueryFastShutdown</span></span>
+# <a name="imapiclientshutdownqueryfastshutdown"></a><span data-ttu-id="e76dc-103">IMAPIClientShutdown::QueryFastShutdown</span><span class="sxs-lookup"><span data-stu-id="e76dc-103">IMAPIClientShutdown::QueryFastShutdown</span></span>
 
   
   
-<span data-ttu-id="fd068-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fd068-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e76dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e76dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="fd068-105">Requêtes du sous-système MAPI pour arrêt rapide prennent en charge fournie par les fournisseurs MAPI chargés.</span><span class="sxs-lookup"><span data-stu-id="fd068-105">Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers.</span></span>
+<span data-ttu-id="e76dc-105">Requêtes du sous-système MAPI pour arrêt rapide prennent en charge fournie par les fournisseurs MAPI chargés.</span><span class="sxs-lookup"><span data-stu-id="e76dc-105">Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers.</span></span>
   
 ```cpp
 HRESULT QueryFastShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="fd068-106">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="fd068-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e76dc-106">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e76dc-106">Return value</span></span>
 
-<span data-ttu-id="fd068-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="fd068-107">S_OK</span></span>
+<span data-ttu-id="e76dc-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="e76dc-107">S_OK</span></span>
   
-> <span data-ttu-id="fd068-108">Le sous-système MAPI prend en charge le client MAPI pour rapide de l’arrêt.</span><span class="sxs-lookup"><span data-stu-id="fd068-108">The MAPI subsystem supports the MAPI client to do fast shutdown.</span></span>
+> <span data-ttu-id="e76dc-108">Le sous-système MAPI prend en charge le client MAPI pour rapide de l’arrêt.</span><span class="sxs-lookup"><span data-stu-id="e76dc-108">The MAPI subsystem supports the MAPI client to do fast shutdown.</span></span>
     
-<span data-ttu-id="fd068-109">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="fd068-109">MAPI_E_NO_SUPPORT</span></span>
+<span data-ttu-id="e76dc-109">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="e76dc-109">MAPI_E_NO_SUPPORT</span></span>
   
-> <span data-ttu-id="fd068-110">Le fournisseur MAPI ne gère pas le client MAPI pour rapide de l’arrêt.</span><span class="sxs-lookup"><span data-stu-id="fd068-110">The MAPI provider does not support the MAPI client to do fast shutdown.</span></span>
+> <span data-ttu-id="e76dc-110">Le fournisseur MAPI ne gère pas le client MAPI pour rapide de l’arrêt.</span><span class="sxs-lookup"><span data-stu-id="e76dc-110">The MAPI provider does not support the MAPI client to do fast shutdown.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="fd068-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="fd068-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e76dc-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="e76dc-111">Remarks</span></span>
 
-<span data-ttu-id="fd068-112">Si le sous-système MAPI prend en charge le client MAPI à rapide d’arrêt dépend du paramètre de Registre Windows de l’utilisateur ou le comportement par défaut du client MAPI pour l’arrêt rapide.</span><span class="sxs-lookup"><span data-stu-id="fd068-112">Whether the MAPI subsystem supports the MAPI client to do fast shutdown depends on the user's Windows registry setting or the default behavior of the MAPI client for fast shutdown.</span></span> <span data-ttu-id="fd068-113">Cela dépend également la possibilité des fournisseurs MAPI chargés pour prendre en charge l’arrêt rapide.</span><span class="sxs-lookup"><span data-stu-id="fd068-113">It also depends on the ability of the loaded MAPI providers to support fast shutdown.</span></span> <span data-ttu-id="fd068-114">Pour plus d’informations, voir [Options d’utilisateur de l’arrêt rapide](fast-shutdown-user-options.md).</span><span class="sxs-lookup"><span data-stu-id="fd068-114">For more information, see [Fast Shutdown User Options](fast-shutdown-user-options.md).</span></span>
+<span data-ttu-id="e76dc-112">Si le sous-système MAPI prend en charge le client MAPI à rapide d’arrêt dépend du paramètre de Registre Windows de l’utilisateur ou le comportement par défaut du client MAPI pour l’arrêt rapide.</span><span class="sxs-lookup"><span data-stu-id="e76dc-112">Whether the MAPI subsystem supports the MAPI client to do fast shutdown depends on the user's Windows registry setting or the default behavior of the MAPI client for fast shutdown.</span></span> <span data-ttu-id="e76dc-113">Cela dépend également la possibilité des fournisseurs MAPI chargés pour prendre en charge l’arrêt rapide.</span><span class="sxs-lookup"><span data-stu-id="e76dc-113">It also depends on the ability of the loaded MAPI providers to support fast shutdown.</span></span> <span data-ttu-id="e76dc-114">Pour plus d’informations, voir [Options d’utilisateur de l’arrêt rapide](fast-shutdown-user-options.md).</span><span class="sxs-lookup"><span data-stu-id="e76dc-114">For more information, see [Fast Shutdown User Options](fast-shutdown-user-options.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="fd068-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fd068-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e76dc-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e76dc-115">See also</span></span>
 
 
 
-[<span data-ttu-id="fd068-116">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fd068-116">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
+[<span data-ttu-id="e76dc-116">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e76dc-116">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
 
 
-[<span data-ttu-id="fd068-117">Arrêt du client dans MAPI</span><span class="sxs-lookup"><span data-stu-id="fd068-117">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
+[<span data-ttu-id="e76dc-117">Arrêt du client dans MAPI</span><span class="sxs-lookup"><span data-stu-id="e76dc-117">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
 

@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594039"
 ---
-# <a name="iostxinitsync"></a><span data-ttu-id="7c24e-103">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="7c24e-103">IOSTX::InitSync</span></span>
+# <a name="iostxinitsync"></a><span data-ttu-id="59df0-103">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="59df0-103">IOSTX::InitSync</span></span>
 
   
   
-<span data-ttu-id="7c24e-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c24e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="59df0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59df0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7c24e-105">Informe la banque de messages local que la synchronisation est prêt à démarrer.</span><span class="sxs-lookup"><span data-stu-id="7c24e-105">Informs the local message store that synchronization is about to start.</span></span>
+<span data-ttu-id="59df0-105">Informe la banque de messages local que la synchronisation est prêt à démarrer.</span><span class="sxs-lookup"><span data-stu-id="59df0-105">Informs the local message store that synchronization is about to start.</span></span>
   
 ```cpp
 HRESULT InitSync( 
@@ -33,30 +33,30 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7c24e-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="7c24e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="59df0-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="59df0-106">Parameters</span></span>
 
- <span data-ttu-id="7c24e-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="7c24e-107">_ulFlags_</span></span>
+ <span data-ttu-id="59df0-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="59df0-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="7c24e-108">[in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="7c24e-108">[in] Flags to determine appropriate behavior during synchronization.</span></span> <span data-ttu-id="7c24e-109">Outlook utilise ces indicateurs dans chaque état de l’ordinateur d’état de réplication pour déterminer les informations qu’il doit fournir pour le client.</span><span class="sxs-lookup"><span data-stu-id="7c24e-109">Outlook uses these flags in each state of the replication state machine to determine the information that it should provide for the client.</span></span> <span data-ttu-id="7c24e-110">Par exemple, si le client transmet **SYNC_ONLY_ASSOCIATED**, Outlook renvoie uniquement les informations relatives aux éléments associés (ou masqués).</span><span class="sxs-lookup"><span data-stu-id="7c24e-110">For example, if the client passes **SYNC_ONLY_ASSOCIATED**, Outlook will only return information related to associated (or hidden) items.</span></span> 
+> <span data-ttu-id="59df0-108">[in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="59df0-108">[in] Flags to determine appropriate behavior during synchronization.</span></span> <span data-ttu-id="59df0-109">Outlook utilise ces indicateurs dans chaque état de l’ordinateur d’état de réplication pour déterminer les informations qu’il doit fournir pour le client.</span><span class="sxs-lookup"><span data-stu-id="59df0-109">Outlook uses these flags in each state of the replication state machine to determine the information that it should provide for the client.</span></span> <span data-ttu-id="59df0-110">Par exemple, si le client transmet **SYNC_ONLY_ASSOCIATED**, Outlook renvoie uniquement les informations relatives aux éléments associés (ou masqués).</span><span class="sxs-lookup"><span data-stu-id="59df0-110">For example, if the client passes **SYNC_ONLY_ASSOCIATED**, Outlook will only return information related to associated (or hidden) items.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="7c24e-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7c24e-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="59df0-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="59df0-111">See also</span></span>
 
 
 
-[<span data-ttu-id="7c24e-112">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="7c24e-112">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
+[<span data-ttu-id="59df0-112">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="59df0-112">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
   
-[<span data-ttu-id="7c24e-113">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="7c24e-113">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
+[<span data-ttu-id="59df0-113">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="59df0-113">IOSTX::SetSyncResult</span></span>](iostx-setsyncresult.md)
   
-[<span data-ttu-id="7c24e-114">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="7c24e-114">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
+[<span data-ttu-id="59df0-114">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="59df0-114">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
   
-[<span data-ttu-id="7c24e-115">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="7c24e-115">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
+[<span data-ttu-id="59df0-115">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="59df0-115">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
   
-[<span data-ttu-id="7c24e-116">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="7c24e-116">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
+[<span data-ttu-id="59df0-116">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="59df0-116">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
   
-[<span data-ttu-id="7c24e-117">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="7c24e-117">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+[<span data-ttu-id="59df0-117">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="59df0-117">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
   
-[<span data-ttu-id="7c24e-118">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7c24e-118">IOSTX : IUnknown</span></span>](iostxiunknown.md)
+[<span data-ttu-id="59df0-118">IOSTX : IUnknown</span><span class="sxs-lookup"><span data-stu-id="59df0-118">IOSTX : IUnknown</span></span>](iostxiunknown.md)
 
 
-[<span data-ttu-id="7c24e-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="7c24e-119">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="59df0-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="59df0-119">MAPI Constants</span></span>](mapi-constants.md)
 

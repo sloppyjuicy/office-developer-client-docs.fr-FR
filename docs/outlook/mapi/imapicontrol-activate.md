@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22580683"
 ---
-# <a name="imapicontrolactivate"></a><span data-ttu-id="50019-103">IMAPIControl::Activate</span><span class="sxs-lookup"><span data-stu-id="50019-103">IMAPIControl::Activate</span></span>
+# <a name="imapicontrolactivate"></a><span data-ttu-id="003f3-103">IMAPIControl::Activate</span><span class="sxs-lookup"><span data-stu-id="003f3-103">IMAPIControl::Activate</span></span>
 
   
   
-<span data-ttu-id="50019-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50019-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="003f3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="003f3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="50019-105">Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération de programmation lorsqu’un utilisateur de l’application client clique sur le contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="50019-105">Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control.</span></span>
+<span data-ttu-id="003f3-105">Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération de programmation lorsqu’un utilisateur de l’application client clique sur le contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="003f3-105">Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control.</span></span>
   
 ```cpp
 HRESULT Activate(
@@ -34,33 +34,33 @@ HRESULT Activate(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="50019-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="50019-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="003f3-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="003f3-106">Parameters</span></span>
 
- <span data-ttu-id="50019-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="50019-107">_ulFlags_</span></span>
+ <span data-ttu-id="003f3-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="003f3-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="50019-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="50019-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="003f3-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="003f3-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="50019-109">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="50019-109">_ulUIParam_</span></span>
+ <span data-ttu-id="003f3-109">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="003f3-109">_ulUIParam_</span></span>
   
-> <span data-ttu-id="50019-110">[in] Handle vers la fenêtre parente de la boîte de dialogue sur lequel apparaît le contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="50019-110">[in] A handle to the parent window of the dialog box on which the button control appears.</span></span>
+> <span data-ttu-id="003f3-110">[in] Handle vers la fenêtre parente de la boîte de dialogue sur lequel apparaît le contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="003f3-110">[in] A handle to the parent window of the dialog box on which the button control appears.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="50019-111">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="50019-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="003f3-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="003f3-111">Return value</span></span>
 
-<span data-ttu-id="50019-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="50019-112">S_OK</span></span> 
+<span data-ttu-id="003f3-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="003f3-112">S_OK</span></span> 
   
-> <span data-ttu-id="50019-113">Le contrôle bouton a été activé avec succès.</span><span class="sxs-lookup"><span data-stu-id="50019-113">The button control was successfully activated.</span></span>
+> <span data-ttu-id="003f3-113">Le contrôle bouton a été activé avec succès.</span><span class="sxs-lookup"><span data-stu-id="003f3-113">The button control was successfully activated.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="50019-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="50019-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="003f3-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="003f3-114">Remarks</span></span>
 
-<span data-ttu-id="50019-115">La méthode **IMAPIControl::Activate** effectue des tâches suivant un bouton du contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="50019-115">The **IMAPIControl::Activate** method performs tasks following a user's click of the button control.</span></span> <span data-ttu-id="50019-116">Une fois que le clic se produit dans le cadre du traitement de la table d’affichage, MAPI effectue un appel à **Activer** après le premier appel [IMAPIControl::GetState](imapicontrol-getstate.md) pour déterminer si le bouton est activé.</span><span class="sxs-lookup"><span data-stu-id="50019-116">After the click occurs, as part of the processing of the display table, MAPI makes a call to **Activate** after first calling [IMAPIControl::GetState](imapicontrol-getstate.md) to determine whether the button is enabled.</span></span> 
+<span data-ttu-id="003f3-115">La méthode **IMAPIControl::Activate** effectue des tâches suivant un bouton du contrôle bouton.</span><span class="sxs-lookup"><span data-stu-id="003f3-115">The **IMAPIControl::Activate** method performs tasks following a user's click of the button control.</span></span> <span data-ttu-id="003f3-116">Une fois que le clic se produit dans le cadre du traitement de la table d’affichage, MAPI effectue un appel à **Activer** après le premier appel [IMAPIControl::GetState](imapicontrol-getstate.md) pour déterminer si le bouton est activé.</span><span class="sxs-lookup"><span data-stu-id="003f3-116">After the click occurs, as part of the processing of the display table, MAPI makes a call to **Activate** after first calling [IMAPIControl::GetState](imapicontrol-getstate.md) to determine whether the button is enabled.</span></span> 
   
-<span data-ttu-id="50019-117">Pour plus d’informations sur la façon d’implémenter **Activate** et l’autre [IMAPIControl : IUnknown](imapicontroliunknown.md) méthodes, voir [Implémentation d’objet de contrôle](control-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="50019-117">For more information about how to implement **Activate** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).</span></span>
+<span data-ttu-id="003f3-117">Pour plus d’informations sur la façon d’implémenter **Activate** et l’autre [IMAPIControl : IUnknown](imapicontroliunknown.md) méthodes, voir [Implémentation d’objet de contrôle](control-object-implementation.md).</span><span class="sxs-lookup"><span data-stu-id="003f3-117">For more information about how to implement **Activate** and the other [IMAPIControl : IUnknown](imapicontroliunknown.md) methods, see [Control Object Implementation](control-object-implementation.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="50019-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="50019-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="003f3-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="003f3-118">See also</span></span>
 
 
 
-[<span data-ttu-id="50019-119">IMAPIControl::GetState</span><span class="sxs-lookup"><span data-stu-id="50019-119">IMAPIControl::GetState</span></span>](imapicontrol-getstate.md)
+[<span data-ttu-id="003f3-119">IMAPIControl::GetState</span><span class="sxs-lookup"><span data-stu-id="003f3-119">IMAPIControl::GetState</span></span>](imapicontrol-getstate.md)
   
-[<span data-ttu-id="50019-120">IMAPIControl : IUnknown</span><span class="sxs-lookup"><span data-stu-id="50019-120">IMAPIControl : IUnknown</span></span>](imapicontroliunknown.md)
+[<span data-ttu-id="003f3-120">IMAPIControl : IUnknown</span><span class="sxs-lookup"><span data-stu-id="003f3-120">IMAPIControl : IUnknown</span></span>](imapicontroliunknown.md)
 

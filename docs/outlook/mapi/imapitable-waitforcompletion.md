@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22586948"
 ---
-# <a name="imapitablewaitforcompletion"></a><span data-ttu-id="4345b-103">IMAPITable::WaitForCompletion</span><span class="sxs-lookup"><span data-stu-id="4345b-103">IMAPITable::WaitForCompletion</span></span>
+# <a name="imapitablewaitforcompletion"></a><span data-ttu-id="46f51-103">IMAPITable::WaitForCompletion</span><span class="sxs-lookup"><span data-stu-id="46f51-103">IMAPITable::WaitForCompletion</span></span>
 
   
   
-<span data-ttu-id="4345b-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4345b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="46f51-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="46f51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4345b-105">Interrompt le traitement jusqu'à ce qu’un ou plusieurs asynchrones opérations en cours sur la table est terminé.</span><span class="sxs-lookup"><span data-stu-id="4345b-105">Suspends processing until one or more asynchronous operations in progress on the table have completed.</span></span>
+<span data-ttu-id="46f51-105">Interrompt le traitement jusqu'à ce qu’un ou plusieurs asynchrones opérations en cours sur la table est terminé.</span><span class="sxs-lookup"><span data-stu-id="46f51-105">Suspends processing until one or more asynchronous operations in progress on the table have completed.</span></span>
   
 ```cpp
 HRESULT WaitForCompletion(
@@ -35,51 +35,51 @@ ULONG FAR * lpulTableStatus
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4345b-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="4345b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="46f51-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="46f51-106">Parameters</span></span>
 
- <span data-ttu-id="4345b-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="4345b-107">_ulFlags_</span></span>
+ <span data-ttu-id="46f51-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="46f51-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="4345b-108">Réservé ; doit être égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="4345b-108">Reserved; must be zero.</span></span>
+> <span data-ttu-id="46f51-108">Réservé ; doit être égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="46f51-108">Reserved; must be zero.</span></span>
     
- <span data-ttu-id="4345b-109">_ulTimeout_</span><span class="sxs-lookup"><span data-stu-id="4345b-109">_ulTimeout_</span></span>
+ <span data-ttu-id="46f51-109">_ulTimeout_</span><span class="sxs-lookup"><span data-stu-id="46f51-109">_ulTimeout_</span></span>
   
-> <span data-ttu-id="4345b-110">[in] Nombre maximal de millisecondes d’attente pour l’opération asynchrone ou les opérations à effectuer.</span><span class="sxs-lookup"><span data-stu-id="4345b-110">[in] Maximum number of milliseconds to wait for the asynchronous operation or operations to complete.</span></span> <span data-ttu-id="4345b-111">Pour attendre indéfiniment jusqu'à ce que l’exécution se produit, définissez _ulTimeout_ sur 0xFFFFFFFF.</span><span class="sxs-lookup"><span data-stu-id="4345b-111">To wait indefinitely until completion occurs, set  _ulTimeout_ to 0xFFFFFFFF.</span></span> 
+> <span data-ttu-id="46f51-110">[in] Nombre maximal de millisecondes d’attente pour l’opération asynchrone ou les opérations à effectuer.</span><span class="sxs-lookup"><span data-stu-id="46f51-110">[in] Maximum number of milliseconds to wait for the asynchronous operation or operations to complete.</span></span> <span data-ttu-id="46f51-111">Pour attendre indéfiniment jusqu'à ce que l’exécution se produit, définissez _ulTimeout_ sur 0xFFFFFFFF.</span><span class="sxs-lookup"><span data-stu-id="46f51-111">To wait indefinitely until completion occurs, set  _ulTimeout_ to 0xFFFFFFFF.</span></span> 
     
- <span data-ttu-id="4345b-112">_lpulTableStatus_</span><span class="sxs-lookup"><span data-stu-id="4345b-112">_lpulTableStatus_</span></span>
+ <span data-ttu-id="46f51-112">_lpulTableStatus_</span><span class="sxs-lookup"><span data-stu-id="46f51-112">_lpulTableStatus_</span></span>
   
-> <span data-ttu-id="4345b-113">[entrée, sortie] À l’entrée, un pointeur valide ou valeur NULL.</span><span class="sxs-lookup"><span data-stu-id="4345b-113">[in, out] On input, either a valid pointer or NULL.</span></span> <span data-ttu-id="4345b-114">Dans la sortie, si _lpulTableStatus_ est un pointeur valid, il pointe vers le dernier état de la table.</span><span class="sxs-lookup"><span data-stu-id="4345b-114">On output, if  _lpulTableStatus_ is a valid pointer, it points to the most recent status of the table.</span></span> <span data-ttu-id="4345b-115">Si _lpulTableStatus_ est NULL, aucune information d’état n’est retournée.</span><span class="sxs-lookup"><span data-stu-id="4345b-115">If  _lpulTableStatus_ is NULL, no status information is returned.</span></span> <span data-ttu-id="4345b-116">Si **WaitForCompletion** renvoie une valeur HRESULT échoue, le contenu de _lpulTableStatus_ n’est pas défini.</span><span class="sxs-lookup"><span data-stu-id="4345b-116">If **WaitForCompletion** returns an unsuccessful HRESULT value, the contents of  _lpulTableStatus_ are undefined.</span></span> 
+> <span data-ttu-id="46f51-113">[entrée, sortie] À l’entrée, un pointeur valide ou valeur NULL.</span><span class="sxs-lookup"><span data-stu-id="46f51-113">[in, out] On input, either a valid pointer or NULL.</span></span> <span data-ttu-id="46f51-114">Dans la sortie, si _lpulTableStatus_ est un pointeur valid, il pointe vers le dernier état de la table.</span><span class="sxs-lookup"><span data-stu-id="46f51-114">On output, if  _lpulTableStatus_ is a valid pointer, it points to the most recent status of the table.</span></span> <span data-ttu-id="46f51-115">Si _lpulTableStatus_ est NULL, aucune information d’état n’est retournée.</span><span class="sxs-lookup"><span data-stu-id="46f51-115">If  _lpulTableStatus_ is NULL, no status information is returned.</span></span> <span data-ttu-id="46f51-116">Si **WaitForCompletion** renvoie une valeur HRESULT échoue, le contenu de _lpulTableStatus_ n’est pas défini.</span><span class="sxs-lookup"><span data-stu-id="46f51-116">If **WaitForCompletion** returns an unsuccessful HRESULT value, the contents of  _lpulTableStatus_ are undefined.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4345b-117">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="4345b-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="46f51-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="46f51-117">Return value</span></span>
 
-<span data-ttu-id="4345b-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="4345b-118">S_OK</span></span> 
+<span data-ttu-id="46f51-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="46f51-118">S_OK</span></span> 
   
-> <span data-ttu-id="4345b-119">L’opération d’attente a réussi.</span><span class="sxs-lookup"><span data-stu-id="4345b-119">The wait operation was successful.</span></span>
+> <span data-ttu-id="46f51-119">L’opération d’attente a réussi.</span><span class="sxs-lookup"><span data-stu-id="46f51-119">The wait operation was successful.</span></span>
     
-<span data-ttu-id="4345b-120">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="4345b-120">MAPI_E_NO_SUPPORT</span></span> 
+<span data-ttu-id="46f51-120">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="46f51-120">MAPI_E_NO_SUPPORT</span></span> 
   
-> <span data-ttu-id="4345b-121">Le tableau ne gère pas en attente pour l’exécution d’opérations asynchrones.</span><span class="sxs-lookup"><span data-stu-id="4345b-121">The table does not support waiting for the completion of asynchronous operations.</span></span>
+> <span data-ttu-id="46f51-121">Le tableau ne gère pas en attente pour l’exécution d’opérations asynchrones.</span><span class="sxs-lookup"><span data-stu-id="46f51-121">The table does not support waiting for the completion of asynchronous operations.</span></span>
     
-<span data-ttu-id="4345b-122">MAPI_E_TIMEOUT</span><span class="sxs-lookup"><span data-stu-id="4345b-122">MAPI_E_TIMEOUT</span></span> 
+<span data-ttu-id="46f51-122">MAPI_E_TIMEOUT</span><span class="sxs-lookup"><span data-stu-id="46f51-122">MAPI_E_TIMEOUT</span></span> 
   
-> <span data-ttu-id="4345b-123">L’opération asynchrone ou les opérations ne s’est pas terminée dans le délai spécifié.</span><span class="sxs-lookup"><span data-stu-id="4345b-123">The asynchronous operation or operations did not complete in the specified time.</span></span>
+> <span data-ttu-id="46f51-123">L’opération asynchrone ou les opérations ne s’est pas terminée dans le délai spécifié.</span><span class="sxs-lookup"><span data-stu-id="46f51-123">The asynchronous operation or operations did not complete in the specified time.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4345b-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="4345b-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="46f51-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="46f51-124">Remarks</span></span>
 
-<span data-ttu-id="4345b-125">La méthode **IMAPITable::WaitForCompletion** interrompt le traitement jusqu'à ce qu’une opération asynchrone actuellement en cours de la table est terminé.</span><span class="sxs-lookup"><span data-stu-id="4345b-125">The **IMAPITable::WaitForCompletion** method suspends processing until any asynchronous operations currently under way for the table have completed.</span></span> <span data-ttu-id="4345b-126">**WaitForCompletion** peut autoriser les opérations asynchrones à entièrement terminée ou pour exécuter un certain nombre de millisecondes, comme indiqué par _ulTimeout_, avant d’être interrompu.</span><span class="sxs-lookup"><span data-stu-id="4345b-126">**WaitForCompletion** can allow the asynchronous operations either to fully complete or to run for a certain number of milliseconds, as indicated by  _ulTimeout_, before being interrupted.</span></span> <span data-ttu-id="4345b-127">Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="4345b-127">To detect asynchronous operations in progress, call the [IMAPITable::GetStatus](imapitable-getstatus.md) method.</span></span> 
+<span data-ttu-id="46f51-125">La méthode **IMAPITable::WaitForCompletion** interrompt le traitement jusqu'à ce qu’une opération asynchrone actuellement en cours de la table est terminé.</span><span class="sxs-lookup"><span data-stu-id="46f51-125">The **IMAPITable::WaitForCompletion** method suspends processing until any asynchronous operations currently under way for the table have completed.</span></span> <span data-ttu-id="46f51-126">**WaitForCompletion** peut autoriser les opérations asynchrones à entièrement terminée ou pour exécuter un certain nombre de millisecondes, comme indiqué par _ulTimeout_, avant d’être interrompu.</span><span class="sxs-lookup"><span data-stu-id="46f51-126">**WaitForCompletion** can allow the asynchronous operations either to fully complete or to run for a certain number of milliseconds, as indicated by  _ulTimeout_, before being interrupted.</span></span> <span data-ttu-id="46f51-127">Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) .</span><span class="sxs-lookup"><span data-stu-id="46f51-127">To detect asynchronous operations in progress, call the [IMAPITable::GetStatus](imapitable-getstatus.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4345b-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4345b-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="46f51-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="46f51-128">See also</span></span>
 
 
 
-[<span data-ttu-id="4345b-129">IMAPITable::GetRowCount</span><span class="sxs-lookup"><span data-stu-id="4345b-129">IMAPITable::GetRowCount</span></span>](imapitable-getrowcount.md)
+[<span data-ttu-id="46f51-129">IMAPITable::GetRowCount</span><span class="sxs-lookup"><span data-stu-id="46f51-129">IMAPITable::GetRowCount</span></span>](imapitable-getrowcount.md)
   
-[<span data-ttu-id="4345b-130">IMAPITable::GetStatus</span><span class="sxs-lookup"><span data-stu-id="4345b-130">IMAPITable::GetStatus</span></span>](imapitable-getstatus.md)
+[<span data-ttu-id="46f51-130">IMAPITable::GetStatus</span><span class="sxs-lookup"><span data-stu-id="46f51-130">IMAPITable::GetStatus</span></span>](imapitable-getstatus.md)
   
-[<span data-ttu-id="4345b-131">IMAPITable::Restrict</span><span class="sxs-lookup"><span data-stu-id="4345b-131">IMAPITable::Restrict</span></span>](imapitable-restrict.md)
+[<span data-ttu-id="46f51-131">IMAPITable::Restrict</span><span class="sxs-lookup"><span data-stu-id="46f51-131">IMAPITable::Restrict</span></span>](imapitable-restrict.md)
   
-[<span data-ttu-id="4345b-132">IMAPITable::SetColumns</span><span class="sxs-lookup"><span data-stu-id="4345b-132">IMAPITable::SetColumns</span></span>](imapitable-setcolumns.md)
+[<span data-ttu-id="46f51-132">IMAPITable::SetColumns</span><span class="sxs-lookup"><span data-stu-id="46f51-132">IMAPITable::SetColumns</span></span>](imapitable-setcolumns.md)
   
-[<span data-ttu-id="4345b-133">IMAPITable::SortTable</span><span class="sxs-lookup"><span data-stu-id="4345b-133">IMAPITable::SortTable</span></span>](imapitable-sorttable.md)
+[<span data-ttu-id="46f51-133">IMAPITable::SortTable</span><span class="sxs-lookup"><span data-stu-id="46f51-133">IMAPITable::SortTable</span></span>](imapitable-sorttable.md)
   
-[<span data-ttu-id="4345b-134">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4345b-134">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
+[<span data-ttu-id="46f51-134">IMAPITable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="46f51-134">IMAPITable : IUnknown</span></span>](imapitableiunknown.md)
 
