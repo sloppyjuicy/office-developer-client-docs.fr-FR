@@ -23,15 +23,15 @@ ms.locfileid: "22578702"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Appelle une fonction interne pour vérifier que les applications clientes de paramètres transmis à MAPI et les fournisseurs de services. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT UlValidateParms(
@@ -50,7 +50,7 @@ HRESULT UlValidateParms(
   
 > [in] Pointeur vers le premier argument dans la pile.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

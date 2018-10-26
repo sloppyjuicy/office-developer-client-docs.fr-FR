@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: db4b8d99c960deb3de3d228b2bf9549738501bcc
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22576280"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Résout une classe de message à sa forme dans un conteneur de formulaire et renvoie un objet d’informations de formulaire pour ce formulaire.
   
@@ -53,7 +53,7 @@ MAPIFORM_EXACTMATCH
   
 > [out] Pointeur vers un pointeur vers l’objet d’informations de formulaire renvoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -73,9 +73,9 @@ Pour résoudre une classe de message à un formulaire, passez le nom de la class
   
 L’identificateur de classe pour la classe de message résolu est renvoyée dans le cadre de l’objet d’informations de formulaire. Ne pensez pas que l’identificateur de classe existe dans la bibliothèque OLE jusqu'à après l’appel de méthode le [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

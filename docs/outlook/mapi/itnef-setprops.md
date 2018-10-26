@@ -23,7 +23,7 @@ ms.locfileid: "22579647"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit la valeur d’une ou plusieurs propriétés d’un message encapsulé ou d’une pièce jointe sans modifier le message d’origine ou une pièce jointe. 
   
@@ -58,7 +58,7 @@ TNEF_PROP_CONTAINED
   
 > [in] Pointeur vers une structure **SPropValue** qui contient des propriétés pour définir les valeurs de propriété. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

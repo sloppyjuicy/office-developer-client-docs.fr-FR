@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7c649680d1d04e210ac4d90779e9a4e57aaab25a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22579864"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déconseillée : L’utilisation de [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) est recommandée. Ajoute un service de message pour le profil actuel. 
   
@@ -70,7 +70,7 @@ SERVICE_UI_ALWAYS
   
 > Le service de message affiche sa feuille de propriétés de configuration.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -108,9 +108,9 @@ Pour récupérer la **MAPIUID** pour le service de message, utilisez la procédu
 > [!IMPORTANT]
 > _ulFlags_ SERVICE_NO_RESTART_WARNING pas peuvent être définis dans le fichier d’en-tête téléchargeables que vous avez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

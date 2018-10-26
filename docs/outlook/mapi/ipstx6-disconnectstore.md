@@ -23,7 +23,7 @@ ms.locfileid: "22579703"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déconnecte du stockage local.
   

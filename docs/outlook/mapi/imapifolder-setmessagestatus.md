@@ -23,7 +23,7 @@ ms.locfileid: "22575076"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit l’état associé à un message (par exemple, si ce message est marqué pour suppression).
   
@@ -83,7 +83,7 @@ MSGSTATUS_TAGGED
   
 > [out] Pointeur vers l’état précédent du message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -93,7 +93,7 @@ S_OK
 
 La méthode **IMAPIFolder::SetMessageStatus** définit l’état de message à la valeur qui est stockée dans sa propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Comment les bits d’état message définis, désactivées et utilisés dépendent complètement votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être égal à zéro. 
   

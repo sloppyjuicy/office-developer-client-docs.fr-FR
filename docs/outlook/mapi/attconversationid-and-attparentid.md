@@ -17,7 +17,7 @@ ms.locfileid: "22582713"
 ---
 # <a name="attconversationid-and-attparentid"></a>attConversationID et attParentID
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les fenêtres de clé de conversation de messagerie 3.1 de groupes de travail est une chaîne de texte. L’équivalent MAPI est une valeur binaire. Pour des raisons de compatibilité descendante, l’implémentation TNEF convertit les données binaires en texte et ajoute un caractère null de fin.
   

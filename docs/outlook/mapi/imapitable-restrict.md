@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 924715f26e104739f2e60762511221da5facd5a5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22578324"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Applique un filtre à une table, réduisant la ligne valeur uniquement les lignes correspondant aux critères spécifiés.
   
@@ -52,7 +52,7 @@ TBL_BATCH
   
 > Diffère l’évaluation du filtre jusqu'à ce que les données dans le tableau sont requises.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -95,9 +95,9 @@ Si vous tentez d’imposer une restriction de propriété sur une propriété qu
   
 Ne prévoyez pas de recevoir une notification de tableau sur une ligne qui a été filtrée d’une table en raison d’une restriction.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

@@ -23,7 +23,7 @@ ms.locfileid: "22563470"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique au fournisseur MAPI que le client MAPI va s’arrêter immédiatement, afin que le fournisseur MAPI maintient les modifications pour éviter toute perte de données.
   
@@ -31,7 +31,7 @@ Indique au fournisseur MAPI que le client MAPI va s’arrêter immédiatement, a
 HRESULT DoFastShutdown ();
 ```
 
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

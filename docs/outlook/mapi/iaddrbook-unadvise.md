@@ -23,7 +23,7 @@ ms.locfileid: "22573683"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Annule l’inscription d’une notification précédemment établie pour une entrée de carnet d’adresses.
   
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] Un numéro de connexion qui représente l’inscription d’être annulée. Le paramètre _ulConnection_ doit contenir une valeur renvoyée par un appel précédent à la méthode [IAddrBook::Advise](iaddrbook-advise.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

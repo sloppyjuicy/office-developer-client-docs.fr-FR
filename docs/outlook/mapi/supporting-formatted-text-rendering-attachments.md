@@ -19,7 +19,7 @@ ms.locfileid: "22580312"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Une application cliente qui ne se soucie où sont rendus ses pièces jointes dans un message définit la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour ces pièces jointes pendant la composition de message. Un client qui ne se soucie pas placement de rendu laisse cette propri�t� non d�finie.
   

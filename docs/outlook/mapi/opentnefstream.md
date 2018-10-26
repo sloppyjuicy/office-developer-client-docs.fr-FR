@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c5abd3a80a9736a4d71525805e4bc38289975c34
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22577806"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Appelée par un fournisseur de transport pour initier une session MAPI Neutral Encapsulation Format TNEF (Transport). 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |TNEF.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de transport  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de transport  <br/> |
    
 ```cpp
 HRESULT OpenTnefStream(
@@ -96,7 +96,7 @@ _lppTNEF_
   
 > [out] Pointeur vers le nouvel objet TNEF.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

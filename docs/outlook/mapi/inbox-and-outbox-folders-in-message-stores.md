@@ -19,7 +19,7 @@ ms.locfileid: "22582888"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Pour la banque de messages par d�faut, un fournisseur de banque de messages doit impl�menter la bo�te de r�ception et les dossiers de la bo�te d'envoi. Ils sont g�n�ralement stock�s dans la sous-arborescence IPM d'une banque de messages. Ces dossiers sont sp�ciales dans la mesure o� ils sont d�sign�s comme les dossiers que les messages sont remis aux et envoy�s � partir de, mais aucune fonctionnalit� particuli�re n'on attend d'eux. Envoi et r�ception de messages s'effectue par le biais des s�quences d'appel d�finies entre les applications clientes, le spouleur MAPI et le fournisseur de banque de messages. Les dossiers bo�te de r�ception et d'envoi sont simplement les dossiers qui sont utilis�es pour stocker les messages pendant ces s�quences d'appel. Le point � retenir n'est pas que les dossiers sont sp�ciaux, ou m�me qu'ils sont nomm�s bo�te de r�ception et bo�te d'envoi. le point � retenir est que le fournisseur de banque de messages les utilise dans le cadre de la prise en charge pour l'envoi et r�ception de messages.
   
@@ -31,5 +31,5 @@ To support sending messages, the message store provider must support the [IMsgSt
 
 
 
-[Impl�mentation de dossiers dans les banques de messages](implementing-folders-in-message-stores.md)
+[Implémentation de dossiers dans des banques de messages](implementing-folders-in-message-stores.md)
 

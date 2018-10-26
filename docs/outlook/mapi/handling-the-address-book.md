@@ -17,7 +17,7 @@ ms.locfileid: "22583322"
 ---
 # <a name="handling-the-address-book"></a>Gestion du carnet d’adresses
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Gestion du carnet d'adresses MAPI peut inclure extraction des entr�es � utiliser en tant que les destinataires du message, modification des propri�t�s de destinataire, ajout d'utilisateurs de messagerie ou des listes de distribution, cr�ation uniques et en affichant une ou plusieurs des bo�tes de dialogue adresses courantes pour permettre aux utilisateurs de parcourir les informations d'adresse et apporter des modifications.
 

@@ -23,7 +23,7 @@ ms.locfileid: "22583273"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Obtient des informations sur qu’une banque peut prendre en charge en fonction de la sélection spécifiée.
   
@@ -39,7 +39,7 @@ MSCAP_SELECTOR mscapSelector
   
 > [in] Sélecteur indiquant les fonctionnalités à renvoyer.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   

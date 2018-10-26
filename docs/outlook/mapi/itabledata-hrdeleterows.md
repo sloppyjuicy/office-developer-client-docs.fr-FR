@@ -23,7 +23,7 @@ ms.locfileid: "22572108"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime plusieurs lignes de tableau.
   
@@ -53,7 +53,7 @@ TAD_ALL_ROWS
   
 > [out] Le nombre de lignes supprimées.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

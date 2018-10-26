@@ -23,7 +23,7 @@ ms.locfileid: "22583448"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Effectue post-traitement sur un message. 
   
@@ -49,7 +49,7 @@ HRESULT CompleteMsg(
   
 > [in] Pointeur vers l’identificateur d’entrée du message à traiter.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

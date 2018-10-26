@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: bd9cdd9119f94e1f7684be34e1b4ef6fb40ab2bf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22576504"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ce guide de référence de Microsoft Outlook MAPI (Messaging API) est écrit pour C et développeurs C++ avec une variété de besoins et expérience avec la messagerie. Pour les développeurs qui souhaitent utiliser MAPI pour améliorer leurs applications qui ont des fonctionnalités de messagerie, sans connaissances préalables spécifique est requis. Vous avez besoin d’un arrière-plan dans la messagerie et le composant COM (Object Model) à utiliser MAPI pour créer des applications de groupe de travail à grande échelle ou pilotes pour les services de système de messagerie spécialisés.
   

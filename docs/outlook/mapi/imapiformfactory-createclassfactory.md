@@ -23,7 +23,7 @@ ms.locfileid: "22572157"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un objet de fabrique de classe pour le formulaire.
   
@@ -49,7 +49,7 @@ HRESULT CreateClassFactory(
   
 > [out] Pointeur vers l’objet de fabrique de classe.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -61,7 +61,7 @@ Visionneuses de formulaire appeler la méthode **IMAPIFormFactory::CreateClassFa
   
 La méthode **CreateClassFactory** est appelée par les visionneuses de formulaire pour obtenir un objet de fabrique de classe pour les serveurs de formulaire qui implémentent plusieurs classes de message. Cette méthode reçoit un identificateur de classe (CLSID) en tant que paramètre. En fonction de ce paramètre, cette méthode peut déterminer le type spécifique de l’objet de fabrique de classe à renvoyer. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez renvoyer à partir de votre implémentation **CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. Création d’une nouvelle instance de fabrique de classe n’est pas obligatoire. 
   

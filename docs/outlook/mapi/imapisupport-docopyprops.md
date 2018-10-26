@@ -23,7 +23,7 @@ ms.locfileid: "22591127"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace une ou plusieurs propriétés d’un objet à un autre objet.
   
@@ -91,7 +91,7 @@ MAPI_NOREPLACE
   
 > [entrée, sortie] À l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, NULL, qui n’indique aucun besoin d’informations sur l’erreur. Si _lppProblems_ est un pointeur valid en entrée, **DoCopyProps** renvoie des informations détaillées sur les erreurs lors de la copie d’une ou plusieurs propriétés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

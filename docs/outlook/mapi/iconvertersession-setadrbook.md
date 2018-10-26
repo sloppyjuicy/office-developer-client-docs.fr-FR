@@ -23,7 +23,7 @@ ms.locfileid: "22584358"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie une option carnet d’adresses MAPI par l’interface MAPI convertisseur MIME pour résoudre les adresses ambigus lors de la conversion d’un message MAPI à un flux de données MIME.
   
@@ -38,7 +38,7 @@ LPADRBOOK pab);
   
 > [in] Pointeur vers une [IAddrBook : IMAPIProp](iaddrbookimapiprop.md) interface à utiliser dans la conversion MAPI MIME. Définissez ce paramètre sur **null** lorsque vous n’avez plus besoin du carnet d’adresses ; Cela libère l’interface et réinitialise le convertisseur ne pas à l’aide de n’importe quel carnet d’adresses. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
@@ -48,9 +48,9 @@ S_OK
 
 Conversion d’une MAPI message MIME stream généralement ne nécessite pas se connecter à un profil MAPI. Toutefois, la spécification d’un carnet d’adresses de MAPI pour la conversion de requiert ouvrent une session sur un profil pour obtenir le carnet d’adresses.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

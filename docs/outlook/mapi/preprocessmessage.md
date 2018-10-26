@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 878c3aaf22a6cf8a08c8234df41b671088c435c7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22584988"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction qui pré-traite les contenus du message ou le format d’un message.
   
@@ -90,7 +90,7 @@ HRESULT PreprocessMessage(
   
 > [out] Pointeur vers une structure [ADRLIST](adrlist.md) renvoyée facultative, liste des destinataires détecté préprocesseur pour laquelle le message est remis. Pour plus d’informations sur le contenu de cette liste, voir la méthode [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

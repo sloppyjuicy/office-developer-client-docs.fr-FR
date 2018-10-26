@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a9e596ff8561d5aabc71ffe3540efaeef8f5b83d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22593983"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Donne accès à un objet de l’administration de service de message pour apporter des modifications aux services de message dans un profil.
   
@@ -67,7 +67,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers un objet de l’administration de service de message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -99,9 +99,9 @@ Le nom du profil peut être jusqu'à 64 caractères et peut inclure les caractè
     
 - Des espaces, mais pas espaces à gauche ou.
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

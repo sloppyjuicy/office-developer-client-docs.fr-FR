@@ -17,7 +17,7 @@ ms.locfileid: "22577666"
 
 
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Le contenu que vous avez essayé de visualiser n’est plus disponible. Il ont été supprimé ou remplacé par une version plus récente. Explorez ce jeu de liens pour vous aider à la mise à niveau.
   

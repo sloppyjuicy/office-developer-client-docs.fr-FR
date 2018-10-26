@@ -23,7 +23,7 @@ ms.locfileid: "22578010"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique que le système est inactif, l’activation du fournisseur de transport effectuer des opérations de priorité basse.
   
@@ -39,7 +39,7 @@ HRESULT Idle(
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

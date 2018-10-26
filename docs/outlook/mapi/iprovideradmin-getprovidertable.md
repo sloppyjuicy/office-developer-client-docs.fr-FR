@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3ddfcdd95f0423ba92c37c434f18078eadf90d82
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22594018"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table fournisseur du service de message, une liste des fournisseurs de services dans le service de message.
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la table des fournisseurs.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -76,9 +76,9 @@ Pour récupérer les lignes d’une table du fournisseur dans l’ordre de trans
   
 Pour récupérer uniquement les lignes qui représentent des fournisseurs de services (sans y compris les lignes supplémentaires), limitez votre recherche les lignes qui ont une valeur de PT_ERROR dans la colonne **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

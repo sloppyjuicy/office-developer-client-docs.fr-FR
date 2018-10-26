@@ -23,7 +23,7 @@ ms.locfileid: "22589559"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déconseillé. Affecte un nouveau nom à un service de message. 
   
@@ -49,7 +49,7 @@ HRESULT RenameMsgService(
   
 > [in] Pointeur vers le nouveau nom pour le service de message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 MAPI_E_NO_SUPPORT 
   

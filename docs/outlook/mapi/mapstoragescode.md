@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8dbb871a234d94f8bb2e21b15ce5de6f0db0e4ee
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22581831"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cartes SCODE renvoie la valeur d’un objet de stockage OLE à un type de valeur HRESULT. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 SCODE MapStorageSCode(
@@ -45,7 +45,7 @@ SCODE MapStorageSCode(
   
 > [in] Valeur de retour MAPI SCODE à partir d’un objet de stockage OLE à mapper à une valeur HRESULT.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

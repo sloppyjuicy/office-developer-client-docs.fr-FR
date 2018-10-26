@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 02815c60b6bfc9809871af19e922913622588fc9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22584316"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime un sous-dossier.
   
@@ -71,7 +71,7 @@ FOLDER_DIALOG
   
 > Un indicateur de progression doit s’afficher lorsque l’opération se poursuit.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -93,7 +93,7 @@ MAPI_W_PARTIAL_COMPLETION SE PRODUIT
 
 La méthode **IMAPIFolder::DeleteFolder** supprime un sous-dossier. Par défaut, **DeleteFolder** fonctionne uniquement pour les dossiers vides, mais vous pouvez l’utiliser avec succès dans les dossiers non vides en définissant deux indicateurs : DEL_FOLDERS et DEL_MESSAGES. Uniquement les dossiers vides ou dossiers définir des indicateurs DEL_MESSAGES et DEL_FOLDERS sur l’appel **DeleteFolder** peuvent être supprimés. DEL_FOLDERS permet à tous les sous-dossiers du dossier à supprimer ; DEL_MESSAGES permet à tous les messages du dossier à supprimer. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Lorsque l’opération de suppression implique plusieurs dossiers, effectuez l’opération complètement que possible pour chaque dossier. Parfois, un des dossiers à supprimer n’existe pas ou a été déplacé ou copié ailleurs. N’arrêtez pas l’opération prématurément, sauf si une panne se produit qui est votre volonté, telles que le manque de mémoire, manque d’espace disque ou l’endommagement de la banque de messages.
   
@@ -111,9 +111,9 @@ Lorsque **DeleteFolder** n’aboutit pas, ne supposez pas qu’aucun travail n�
   
 Si un ou plusieurs sous-dossiers ne peuvent pas être supprimées, **DeleteFolder** renvoie MAPI_W_PARTIAL_COMPLETION se produit ou MAPI_E_NOT_FOUND, en fonction de l’implémentation du fournisseur de banque de messages. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

@@ -23,7 +23,7 @@ ms.locfileid: "22591036"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace les messages d’un dossier dans un autre dossier.
   
@@ -82,7 +82,7 @@ MESSAGE_MOVE
   
 > Les messages doivent être déplacés, au lieu de copier. Si MESSAGE_MOVE n’est pas définie, les messages sont copiés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

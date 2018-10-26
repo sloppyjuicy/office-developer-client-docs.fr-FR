@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f073dbb9655585ee56ab38be35bea4ef320042c0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,14 +19,14 @@ ms.locfileid: "22569770"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute un entier non signé de 64 bits à un autre, si vous le souhaitez à l’aide d’un indicateur de transport.
   
 |||
 |:-----|:-----|
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 FILETIME FtAdcFt( 
@@ -50,7 +50,7 @@ FILETIME FtAdcFt(
   
 > [entrée, sortie, facultatif] À l’entrée, un pointeur vers entrantes exécuter indicateur. Dans la sortie, un pointeur vers le résultat de transport pour l’ajout. Ce paramètre peut être NULL si le résultat de transport n’est pas nécessaire.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 La fonction **FtAdcFt** renvoie une structure **FILETIME** qui contient la somme de deux entiers. Les deux paramètres d’entrée restent inchangées. Si **pwCarry** n’est pas NULL, il contient le résultat de transport pour les fonctions sum, 0 ou 1. 
   

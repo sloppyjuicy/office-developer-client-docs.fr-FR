@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 71178f1a531bd381387e0aa7fbacb02d4431a401
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22584323"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie le nombre total de lignes dans le tableau. 
   
@@ -44,7 +44,7 @@ ULONG FAR * lpulCount
   
 > [out] Pointeur vers le nombre de lignes dans le tableau.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -66,7 +66,7 @@ MAPI_W_APPROX_COUNT
 
 La méthode **IMAPITable::GetRowCount** récupère le nombre total de lignes dans un tableau. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si vous ne peut pas déterminer le nombre de lignes exact de la table, renvoyée MAPI_W_APPROX_COUNT et une ligne approximative count dans le contenu du paramètre _lpulCount_ . 
   
@@ -78,9 +78,9 @@ Certaines tables ne pas prendre en charge **GetRowCount** et retourner MAPI_E_NO
   
 **GetRowCount** retourne MAPI_E_BUSY, car il est temporairement Impossible d’extraire un nombre de lignes, appelez la méthode [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) . Lorsque **WaitForCompletion** renvoie, réessayez l’appel vers **GetRowCount**. Une autre façon de détecter si une opération asynchrone est en cours consiste à appeler la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) et vérifiez le contenu du paramètre _lpulTableState_ . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

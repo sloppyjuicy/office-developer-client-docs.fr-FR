@@ -23,7 +23,7 @@ ms.locfileid: "22570834"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers le tableau unique de MAPI (une liste des modèles que tous les du carnet d’adresses fournisseurs de prise en charge pour la création de nouveaux destinataires).
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la table unique.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -89,5 +89,5 @@ Si vous êtes inscrit pour recevoir les notifications des modifications apporté
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[Tables ponctuelles](one-off-tables.md)
+[Tables uniques](one-off-tables.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "22567243"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau des propriétés qui utilise un groupe de formulaires.
   
@@ -61,7 +61,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la structure [SMAPIFormPropArray](smapiformproparray.md) renvoyée, qui contient les propriétés qui utilisent les formulaires. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -75,7 +75,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Visionneuses de formulaire appeler la méthode **IMAPIFormMgr::CalcFormPropSet** pour obtenir un tableau des propriétés qui utilise un groupe de formulaires. **CalcFormPropSet** accepte soit une intersection ou une union de propriété des formulaires définit, en fonction de l’indicateur défini dans le paramètre _ulFlags_ et elle renvoie une structure **SMAPIFormPropArray** qui contient le groupe résultant de Propriétés. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si une visionneuse de formulaire transmet l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes doivent être retournés en tant que chaînes Unicode. Fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   

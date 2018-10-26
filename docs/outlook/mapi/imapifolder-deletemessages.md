@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: bd0439c71df7083e3c4787a5d317fa11d2b99c61
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22578632"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime un ou plusieurs messages.
   
@@ -62,7 +62,7 @@ MESSAGE_DIALOG
   
 > Affiche un indicateur de progression de l’opération.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -76,7 +76,7 @@ MAPI_W_PARTIAL_COMPLETION SE PRODUIT
 
 La méthode **IMAPIFolder::DeleteMessages** supprime les messages à partir d’un dossier. Impossible de supprimer les messages qui n’existent pas, qui ont été déplacés ailleurs, qui sont ouverts avec l’autorisation de lecture/écriture ou qui sont actuellement soumis. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Lorsque l’opération de suppression implique plusieurs messages, effectuer l’opération complètement que possible pour chaque dossier, même si un ou plusieurs des messages ne peuvent pas être supprimées. N’arrêtez pas l’opération prématurément, sauf si une panne se produit qui est votre volonté, telles que le manque de mémoire, manque d’espace disque ou l’endommagement de la banque de messages.
   
@@ -94,9 +94,9 @@ Lorsque **DeleteMessages** n’aboutit pas, ne supposez pas qu’aucun travail n
   
  **DeleteMessages** renvoie MAPI_W_PARTIAL_COMPLETION se produit ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la banque de messages. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -113,7 +113,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

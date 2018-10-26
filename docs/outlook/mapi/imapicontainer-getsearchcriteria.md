@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4ca565f97851a2efe2f3279f062f6ea89a4c6326
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22579962"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Obtient les critères de recherche pour le conteneur.
   
@@ -74,7 +74,7 @@ SEARCH_RUNNING
   
 > La recherche est active et la table des matières du conteneur est mis à jour pour refléter les modifications de la banque de messages ou le carnet d’adresses. Si cet indicateur n’est pas défini, la recherche est inactive et la table des matières est statique.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -92,7 +92,7 @@ MAPI_E_NOT_INITIALIZED
 
 La méthode **IMAPIContainer::GetSearchCriteria** Obtient les critères de recherche pour un conteneur qui prend en charge les recherches, généralement un dossier de résultats de recherche. Vous créez des critères de recherche en appelant la méthode de **IMAPIContainer::SetSearchCriteria** d’un conteneur. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Conteneurs de carnet d’adresses peuvent prendre en charge **GetSearchCriteria** uniquement s’ils fournissent les fonctionnalités de recherche avancée associées à la propriété **PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Pour plus d’informations sur la façon d’implémenter la fonctionnalité de recherche avancée pour les conteneurs de carnet d’adresses, voir [Implémentation de la recherche avancée](implementing-advanced-searching.md).
   
@@ -100,9 +100,9 @@ Conteneurs de carnet d’adresses peuvent prendre en charge **GetSearchCriteria*
 
 Lorsque vous avez terminé avec les structures de données indiqués par les paramètres _lppRestriction_ et _lppContainerList_ , appelez [MAPIFreeBuffer](mapifreebuffer.md) qu’une seule fois pour chaque structure doit être publié. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

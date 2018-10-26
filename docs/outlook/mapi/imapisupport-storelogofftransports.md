@@ -23,7 +23,7 @@ ms.locfileid: "22578310"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Demande la version ordonnée d’une banque de messages.
   
@@ -77,7 +77,7 @@ LOGOFF_OUTBOUND_QUEUE
   
 > Il existe actuellement des messages dans la file d’attente sortante pour le magasin.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

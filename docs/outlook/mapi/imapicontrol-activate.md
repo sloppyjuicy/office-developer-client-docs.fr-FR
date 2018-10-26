@@ -23,7 +23,7 @@ ms.locfileid: "22580683"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération de programmation lorsqu’un utilisateur de l’application client clique sur le contrôle bouton.
   
@@ -44,7 +44,7 @@ HRESULT Activate(
   
 > [in] Handle vers la fenêtre parente de la boîte de dialogue sur lequel apparaît le contrôle bouton.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

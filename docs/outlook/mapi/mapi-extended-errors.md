@@ -19,7 +19,7 @@ ms.locfileid: "22592660"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 L'impl�mentation des m�thodes de l'interface peut choisir de renvoyer simplement le succ�s (S_OK) et l'�chec (MAPI_E_CALL_FAILED) ou diff�rencier les conditions d'erreur, le renvoi de valeurs d'erreur autant que le sens de la situation. La plupart des situations peuvent utiliser une des valeurs d'erreur d�finies par MAPI dans le MAPICODE. Fichier d'en-t�te H. Toutefois, pour les situations qui ne sont pas couverts par une valeur pr�d�finie, la valeur MAPI_E_EXTENDED_ERROR peut �tre utilis�. MAPI_E_EXTENDED_ERROR indique � l'appelant que vous trouverez plus d'informations sur l'erreur. L'appelant r�cup�re les informations suppl�mentaires en appelant la m�thode **GetLastError** sur le m�me objet que renvoy� MAPI_E_EXTENDED_ERROR. 
   

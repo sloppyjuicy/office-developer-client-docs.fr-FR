@@ -23,7 +23,7 @@ ms.locfileid: "22592317"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Avertit l’utilisateur du formulaire de l’état d’impression d’un formulaire.
   
@@ -56,7 +56,7 @@ A ÉCHOUÉ
   
 > Le travail d’impression a été interrompu en raison d’une défaillance.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

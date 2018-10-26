@@ -23,7 +23,7 @@ ms.locfileid: "22589846"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie les types de destinataires qui gère le fournisseur de transport.
   
@@ -63,13 +63,13 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers un tableau de pointeurs vers des structures [MAPIUID](mapiuid.md) qui identifient les types de destinataires. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
 > Le fournisseur de transport indiqué correctement les types de destinataires qu’il peut traiter.
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le spouleur MAPI appelle la méthode **IXPLogon::AddressTypes** immédiatement après qu’un fournisseur de transport renvoie à partir d’un appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) afin que le fournisseur de transport peut indiquer quels types de destinataires qu’il gère. Pour indiquer cela, le fournisseur de transport doit passer dans le paramètre _lpppszAdrTypeArray_ un pointeur vers un tableau de pointeurs vers des chaînes, ou passer dans le paramètre _lpppUIDArray_ un pointeur vers un tableau de pointeurs vers **MAPIUID** structures, ou passer de valeurs dans les deux paramètres. 
   

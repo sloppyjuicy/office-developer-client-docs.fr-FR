@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: 14536755c304ede0139b6b1026bb1539a261942f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22586409"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Entre le sous-système MAPI et les systèmes de messagerie sont les fournisseurs de services différents. Fournisseurs de services sont comme pilotes qui se connectent les applications clientes MAPI à un système de messagerie sous-jacent. Il existe trois types de fournisseurs : message banque, carnet d’adresses ou répertoire fournisseurs et les fournisseurs de transport de messages. MAPI prend en charge chaque type de service autonome, l’activation d’un fournisseur à proposer un ou plusieurs fournisseurs de services personnalisés. Par exemple, un fournisseur souhaiterez pour créer un fournisseur de carnet d’adresses qui utilise un répertoire de l’annuaire d’entreprise d’employés ou pour créer un fournisseur de magasin de message qui utilise une base de données.
   

@@ -23,7 +23,7 @@ ms.locfileid: "22588173"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournit l’accès au carnet d’adresses.
   
@@ -49,7 +49,7 @@ LPADRBOOK FAR * lppAdrBook
   
 > [out] Pointeur vers un pointeur vers le carnet d’adresses.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

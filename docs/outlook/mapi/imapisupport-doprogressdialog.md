@@ -23,7 +23,7 @@ ms.locfileid: "22582776"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère un objet de progression qui affiche un indicateur de progression.
   
@@ -53,7 +53,7 @@ MAPI_TOP_LEVEL
   
 > [out] Pointeur vers un pointeur vers l’objet de progression.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -69,12 +69,12 @@ Pour plus d’informations sur l’utilisation d’un objet de progression et l�
 
 
 
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
+[Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md)
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e86c3d9678739c09024c0655cbbbb702749a53f0
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22586164"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre un formulaire pour créer un nouveau message en fonction de la classe de message du formulaire.
   
@@ -63,7 +63,7 @@ MAPI_DIALOG
   
 > [out] Pointeur vers un pointeur vers l’interface retournée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -81,9 +81,9 @@ Le paramètre _pfrminfoToActivate_ doit pointer sur un objet d’informations de
   
 Une fois que le formulaire a été ouvert, la visionneuse de formulaire appelant doit configurer un message à l’aide de l’interface [IPersistMessage](ipersistmessageiunknown.md) et permettre éventuellement configurer un contexte de vue pour le formulaire. Pour plus d’informations, voir [lancement d’un serveur de formulaire](launching-a-form-server.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -100,7 +100,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [Lancement d’un serveur de formulaire](launching-a-form-server.md)
 

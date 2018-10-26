@@ -21,7 +21,7 @@ ms.locfileid: "22585401"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette section contient des propriétés canoniques qui sont prises en charge par Microsoft Outlook MAPI (Messaging API). Chaque propriété canonique correspond à une ou plusieurs propriétés MAPI associées. Pour plus d’informations sur les propriétés canoniques, voir [Propriétés canonique MAPI](mapi-canonical-properties.md). Pour obtenir une explication générale du fonctionne de MAPI avec les propriétés et une liste des propriétés disponibles pour chaque objet, voir [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md). Pour plus d’informations sur les macros associées aux propriétés, voir la page de référence de la structure [SPropValue](spropvalue.md) . Pour une liste complète des propriétés MAPI et leurs mappages de noms de propriété canonique, voir [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md) et le [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md). 
   

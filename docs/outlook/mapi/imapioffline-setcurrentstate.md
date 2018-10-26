@@ -23,7 +23,7 @@ ms.locfileid: "22567138"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit l’état actuel d’un objet en mode hors connexion en ligne ou hors connexion.
   
@@ -70,7 +70,7 @@ MAPIOFFLINE_STATE_OFFLINE
   
 > Ce paramètre est réservé à un usage interne Outlook et n’est pas pris en charge. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

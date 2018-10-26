@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a8cd211cc16b620ac47357271070e0b45b867bea
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22579941"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Obtient le dossier qui a été établi comme dossier pour la banque de messages de réception de la destination pour les messages entrants d’une classe de message spécifié ou en tant que la valeur par défaut.
   
@@ -63,7 +63,7 @@ MAPI_UNICODE
   
 > [out] Un pointeur vers un pointeur vers la classe de message qui définit explicitement en tant que son dossier le dossier vers lequel pointe _lppEntryID_de réception. Cette classe de message doit être identique à la classe dans le paramètre _lpszMessageClass_ , ou une classe de base de cette classe. Valeur null indique que le dossier vers lequel pointé _lppEntryID_ est la valeur par défaut recevoir de dossier pour la banque de messages. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -85,9 +85,9 @@ Valeur par défaut réception dossier, obtenus en transmettant la valeur NULL da
   
 Un client doit appeler la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsqu’il est terminé avec l’identificateur d’entrée renvoyée dans _lppEntryID_ pour libérer de la mémoire qui contient l’identificateur d’entrée. Elle doit également appeler **MAPIFreeBuffer** lorsqu’il est terminé avec la chaîne de classe de message renvoyée dans _lppszExplicitClass_ pour libérer de la mémoire qui contient cette chaîne. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

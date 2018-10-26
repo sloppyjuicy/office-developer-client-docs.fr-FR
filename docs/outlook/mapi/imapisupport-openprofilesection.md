@@ -23,7 +23,7 @@ ms.locfileid: "22588222"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une section du profil actuel et retourne un pointeur [IProfSect](iprofsectimapiprop.md) pour davantage d’accès. 
   
@@ -57,7 +57,7 @@ N'
   
 > [out] Pointeur vers un pointeur vers la section profil ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

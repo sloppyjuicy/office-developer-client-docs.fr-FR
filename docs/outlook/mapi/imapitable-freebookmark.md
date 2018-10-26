@@ -23,7 +23,7 @@ ms.locfileid: "22588481"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Libère la mémoire associée à un signet.
   
@@ -39,7 +39,7 @@ BOOKMARK bkPosition
   
 > [in] Le signet afin d’être libérée, créé en appelant la méthode [IMAPITable::CreateBookmark](imapitable-createbookmark.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -53,7 +53,7 @@ MAPI_E_INVALID_BOOKMARK
 
 La méthode **IMAPITable::FreeBookmark** libère un signet qui n’est plus nécessaire. Le signet n’est plus valide après cet appel. Chaque fois qu’une table est libérée de la mémoire, tous ses signets associés sont également libérées. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si l’appelant transmet une des trois signets prédéfinis dans le paramètre _bkPosition_ , ignorer la demande et qu’elles retournent S_OK. 
   

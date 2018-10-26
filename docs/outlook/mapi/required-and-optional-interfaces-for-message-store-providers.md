@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: 3305aaadbcf7d53b801ddaf7e31a0d63145fc7ea
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22586962"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI définit un ensemble d’interfaces qui sont associées aux fournisseurs de magasins de message. En raison de la grande variété de fonctionnalités qu’une banque de messages peut choisir d’implémenter, certains de ces interfaces sont obligatoires, mais pas. Le tableau suivant répertorie les interfaces MAPI qui sont liées aux fournisseurs de magasins de message, indique si les interfaces sont obligatoires ou facultatives et décrit leur fonction.
   
@@ -43,5 +43,5 @@ Les informations de base que vous devez implémenter **IMAPIFolder**, **IMessage
 
 
 
-[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

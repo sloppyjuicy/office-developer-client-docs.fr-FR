@@ -23,7 +23,7 @@ ms.locfileid: "22594039"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Informe la banque de messages local que la synchronisation est prêt à démarrer.
   

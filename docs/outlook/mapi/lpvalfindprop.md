@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c4a201411e2232a3e5fdcd97dcbc9460f657b12a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,15 +19,15 @@ ms.locfileid: "22578093"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Recherche une propriété spécifiée dans une propriété définie.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -51,7 +51,7 @@ LPSPropValue LpValFindProp(
   
 > [in] Tableau des structures **SPropValue** qui définit les propriétés à rechercher. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 La fonction **LpValFindProp** renvoie une structure **SPropValue** qui définit la propriété qui correspond à la balise de propriété d’entrée, ou NULL si aucune correspondance n’existe. 
   

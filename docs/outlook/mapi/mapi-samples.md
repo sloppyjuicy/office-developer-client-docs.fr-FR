@@ -15,7 +15,7 @@ ms.locfileid: "22585813"
 ---
 # <a name="mapi-samples"></a>Exemples MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette section contient des exemples de code qui montrent comment effectuer certaines tâches ou implémenter certains fournisseurs de services à l’aide de MAPI. MFCMAPI est également utilisée dans ce guide de référence pour illustrer l’utilisation de nombreuses API. Pour exécuter les exemples sur Windows Vista, Windows Server 2008, Windows XP, les systèmes d’exploitation Windows Server 2003, vous devez d’abord configurer le système de runtime MAPI. Pour plus d’informations, voir [Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md).
   

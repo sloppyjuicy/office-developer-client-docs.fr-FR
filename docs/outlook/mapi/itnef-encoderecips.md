@@ -23,7 +23,7 @@ ms.locfileid: "22584564"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Encode un affichage pour la table des destinataires d’un message dans le flux de données de Transport-Neutral Encapsulation Format (TNEF) pour le message.
   
@@ -44,7 +44,7 @@ HRESULT EncodeRecips(
   
 > [in] Pointeur vers la table de destinataires pour lesquels l’affichage est codé. Le paramètre _lpRecipientTable_ peut être NULL. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

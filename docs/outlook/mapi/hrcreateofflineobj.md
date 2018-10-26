@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f86266f192ffb1c86ca48f0fd5f99559737a9e76
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -17,15 +17,15 @@ ms.locfileid: "22576483"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
  Crée un objet en mode hors connexion MAPI qui est utilisé par le fournisseur et le magasin afin d’informer MAPI lorsque l’objet passe en ligne et hors connexion, 
   
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |Msmapi32.dll  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
    
 ```cpp
 STDAPI HrCreateOfflineObj(

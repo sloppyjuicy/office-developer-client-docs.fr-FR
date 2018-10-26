@@ -23,7 +23,7 @@ ms.locfileid: "22564681"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère une ligne en fonction de sa position dans le tableau. 
   
@@ -44,7 +44,7 @@ HRESULT HrEnumRow(
   
 > [out] Pointeur vers un pointeur vers une structure [SRow](srow.md) qui décrit la ligne cible. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22578464"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre un objet dans le conteneur, en retournant un pointeur d’interface pour l’accès des autres.
   
@@ -80,7 +80,7 @@ SHOW_SOFT_DELETES
   
 > [out] Pointeur vers un pointeur vers l’implémentation d’interface à utiliser pour accéder à l’objet ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

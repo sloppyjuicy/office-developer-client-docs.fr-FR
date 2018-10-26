@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22584785"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les entrées alphabétique suivantes décrivent les structures MAPI. Pour plus d’informations, des références croisées à d’autres publications ou à d’autres rubriques dans cette documentation sont également inclus.
   

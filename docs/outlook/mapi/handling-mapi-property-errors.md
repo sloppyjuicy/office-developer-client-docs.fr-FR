@@ -17,7 +17,7 @@ ms.locfileid: "22579507"
 ---
 # <a name="handling-mapi-property-errors"></a>Gestion des erreurs de propriété MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Au lieu de panne compl�te ou r�ussite, les m�thodes **IMAPIProp** suivantes signale la r�ussite partielle : 
   

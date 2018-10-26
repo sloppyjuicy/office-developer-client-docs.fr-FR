@@ -23,7 +23,7 @@ ms.locfileid: "22577484"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Vérifie l’état externe du fournisseur de transport. 
   
@@ -72,7 +72,7 @@ SUPPRESS_UI
   
 > Le fournisseur de transport empêche l’affichage d’une interface utilisateur.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -1,5 +1,5 @@
 ---
-title: L’ouverture d’un dossier de la banque de messages
+title: Ouverture d’un dossier d’une banque de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2ac4a30d6afc7e5245441bfe2d501169dd3a9447
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22586122"
 ---
-# <a name="opening-a-message-store-folder"></a>L’ouverture d’un dossier de la banque de messages
+# <a name="opening-a-message-store-folder"></a>Ouverture d’un dossier d’une banque de messages
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Avant de n’importe quel dossier peut être ouverts, son identificateur d’entrée doit être disponible. Pour la plupart des dossiers, cela signifie récupérer leurs propriétés **PR_ENTRYID** . Pour les dossiers spéciaux, tels que les dossiers de la sous-arborescence IPM et autres dossiers racine, MAPI définit propriétés d’identificateur d’entrée qui sont accessibles en appelant la méthode de **IMAPIProp::GetProps** de la banque de messages. Ces identificateurs d’entrée sont toujours à long terme et sont nommés comme suit : 
   

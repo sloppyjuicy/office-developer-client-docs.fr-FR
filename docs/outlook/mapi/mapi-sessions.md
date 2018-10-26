@@ -17,7 +17,7 @@ ms.locfileid: "22575027"
 ---
 # <a name="mapi-sessions"></a>Sessions MAPI
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Avant que l'application cliente peut appeler un syst�me de messagerie sous-jacent, il doit �tablir une connexion avec le sous-syst�me MAPI ou session.
   

@@ -23,7 +23,7 @@ ms.locfileid: "22585296"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Requêtes le fournisseur MAPI pour arrêt rapide prennent en charge. 
   
@@ -31,7 +31,7 @@ Requêtes le fournisseur MAPI pour arrêt rapide prennent en charge.
 HRESULT QueryFastShutdown ();
 ```
 
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

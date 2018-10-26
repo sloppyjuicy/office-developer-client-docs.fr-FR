@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 555bb4820dc36934fb28197b7e222633a5248125
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22583182"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications dans la visionneuse. 
   
@@ -39,7 +39,7 @@ LPMAPIFORMADVISESINK pmvns
   
 > [in] Pointeur vers un formulaire de notification objet récepteur ou NULL.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -49,15 +49,15 @@ S_OK
 
 Objets de formulaire appeler la méthode de **IMAPIViewContext::SetAdviseSink** pouvez en savoir plus sur les modifications dans la visionneuse de formulaire ou d’annuler une inscription préalable. Lorsque _pmvns_ est défini sur NULL, le formulaire souhaite annuler un enregistrement. Lorsque le récepteur de notification de points _pmvns_ à un formulaire valid, le formulaire souhaite enregistrer les notifications ultérieures. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Lorsque **SetAdviseSink** comprend un formulaire pointeur du récepteur de notification, conserver une référence à celui-ci jusqu'à ce qu’un autre appel **SetAdviseSink** est effectué pour annuler la notification. Envoyer une notification lorsque cet événement se produit une modification dans votre visionneuse et lors du chargement d’un nouveau message. 
   
 Pour plus d’informations, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

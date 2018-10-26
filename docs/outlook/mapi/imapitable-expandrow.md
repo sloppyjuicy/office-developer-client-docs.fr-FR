@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ce78c6873f3a1dc034ae33f3c9e965ef8f2f1815
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22563778"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Développe une catégorie de table réduite, ajout de la feuille ou des lignes d’en-tête de niveau inférieur appartenant à la catégorie à l’affichage tableau.
   
@@ -64,7 +64,7 @@ ULONG FAR * lpulMoreRows
   
 > [out] Pointeur vers le nombre total de lignes qui ont été ajoutés à l’affichage tableau.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -80,7 +80,7 @@ La méthode **IMAPITable::ExpandRow** développe une catégorie de table réduit
   
 Lorsque _ulRowCount_ est égale à zéro, demande qui zéro feuille ou lignes d’en-tête de niveau inférieur à ajouter à la catégorie ou zéro lignes sont retournées, car aucune feuille ou les lignes d’en-tête de niveau inférieur de la catégorie, la position de BOOKMARK_CURRENT est définie à la ligne la ligne identifié par _pbInstanceKey_. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Ne génèrent pas de notifications sur les lignes qui sont ajoutés à un affichage de tableau en raison d’extension de catégorie.
   
@@ -92,9 +92,9 @@ Ne prévoyez pas de recevoir une notification de table lorsqu’une catégorie m
   
 Pour plus d’informations sur les tables, voir, consultez [tri et catégorisation](sorting-and-categorization.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

@@ -23,7 +23,7 @@ ms.locfileid: "22579535"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau de destinataire du message.
   
@@ -52,7 +52,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la table de destinataires.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

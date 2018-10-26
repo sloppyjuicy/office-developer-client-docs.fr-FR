@@ -23,7 +23,7 @@ ms.locfileid: "22586311"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lance le processus de fermeture de session. 
   
@@ -39,7 +39,7 @@ HRESULT TransportLogoff(
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 Le spouleur MAPI appelle la méthode **IXPLogon::TransportLogoff** pour mettre fin à une session de fournisseur de transport pour un utilisateur particulier. Avant d’appeler **TransportLogoff**, le spouleur MAPI ignore les données sur les types d’adresse de messagerie pris en charge pour cette session passée dans la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le fournisseur de transport doit être préparé pour accepter un appel à **TransportLogoff** à tout moment. Si un message est en cours, le fournisseur doit arrêter le processus d’envoi. 
   

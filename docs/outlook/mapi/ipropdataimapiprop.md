@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22592569"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Offre la possibilité de récupérer et de modifier l’accès pour les propriétés d’un objet. 
   
@@ -31,8 +31,8 @@ Offre la possibilité de récupérer et de modifier l’accès pour les proprié
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Exposés par :  <br/> |Objet de données de propriété  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services et applications clientes  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services et applications clientes  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IMAPIPropData  <br/> |
 |Type de pointeur :  <br/> |LPPROPDATA  <br/> |
 |Modèle de transaction :  <br/> |Nontransacted  <br/> |

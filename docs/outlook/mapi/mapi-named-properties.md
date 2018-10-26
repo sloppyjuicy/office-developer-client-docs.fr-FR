@@ -17,7 +17,7 @@ ms.locfileid: "22579542"
 ---
 # <a name="mapi-named-properties"></a>MAPI des propri�t�s nomm�e
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI fournit un procédé pour l’affectation de noms aux propriétés, pour le mappage de ces noms à des identificateurs uniques et pour rendre ce mappage permanente. Nom permanent au mappage de l’identificateur garantit que les noms de propriété valides entre les sessions.
   

@@ -19,7 +19,7 @@ ms.locfileid: "22573193"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les applications clientes ont fréquemment certains composants d’interface utilisateur consacrées à la recherche de messages dans une banque de messages. Critères de recherche sont spécifiés dans le [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) interface via les méthodes [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) et [IMAPIContainer::GetSearchCriteria](imapicontainer-getsearchcriteria.md) . 
   

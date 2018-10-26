@@ -23,7 +23,7 @@ ms.locfileid: "22583819"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère une ligne de tableau.
   
@@ -49,7 +49,7 @@ HRESULT HrQueryRow(
   
 > [entrée, sortie] Sur entrée, un pointeur valide ou valeur NULL, ce qui indique qu’aucune information ne doit être renvoyé. Sur la sortie, un pointeur valid qui pointe vers le numéro de la ligne de la ligne, un numéro qui identifie la position de la ligne dans la table.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

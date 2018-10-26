@@ -23,7 +23,7 @@ ms.locfileid: "22591379"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si le fournisseur de transport a reçu un ou plusieurs messages entrants.
   
@@ -39,7 +39,7 @@ HRESULT Poll(
   
 > [out] Une valeur qui indique la présence de messages entrants. Une valeur différente de zéro indique qu’il existe des messages entrants.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

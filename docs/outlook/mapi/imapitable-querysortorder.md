@@ -23,7 +23,7 @@ ms.locfileid: "22569434"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère l’ordre de tri en cours pour une table.
   
@@ -39,7 +39,7 @@ LPSSortOrderSet FAR * lppSortCriteria
   
 > [out] Pointeur vers un pointeur vers la structure [SSortOrderSet](ssortorderset.md) maintenant l’ordre de tri en cours. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -61,7 +61,7 @@ La méthode **IMAPITable::QuerySortOrder** récupère l’ordre de tri en cours 
     
 - La structure **SSortOrderSet** n’est pas appropriée pour la description de l’ordre de tri. 
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si un appel est effectué à votre méthode [IMAPITable::SortTable](imapitable-sorttable.md) avec une structure **SSortOrderSet** contenant zéro colonnes dans la clé de tri, supprimez l’ordre de tri en cours et appliquer l’ordre par défaut, le cas échéant. Dans les appels suivants à **QuerySortOrder**, vous pouvez choisir s’il faut renvoyer zéro ou plusieurs colonnes de la clé de tri. Vous pouvez retourner plus de colonnes que dans la vue actuelle.
   

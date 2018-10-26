@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 134a492dbc86dd0ce6b3795d5ae40b334c14d468
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22585149"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace un sous-dossier.
   
@@ -94,7 +94,7 @@ MAPI_UNICODE
   
 > Le nom du dossier de destination est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le nom du dossier est au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -124,7 +124,7 @@ MAPI_W_PARTIAL_COMPLETION SE PRODUIT
 
 La méthode **IMAPIFolder::CopyFolder** copie ou déplace un sous-dossier d’un emplacement vers un autre. Le sous-dossier copiées ou déplacées est ajouté au dossier de destination, comme un sous-dossier. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Lorsque l’opération de copie ou de déplacement implique plusieurs dossiers, comme indiqué par l’indicateur COPY_SUBFOLDERS, effectuez l’opération complètement que possible pour chaque dossier. Parfois, un des dossiers d’être déplacé ou copié n’existe pas ou a déjà été déplacé ou copié ailleurs. N’arrêtez pas l’opération prématurément, sauf si une panne se produit qui est votre volonté, telles que le manque de mémoire, manque d’espace disque ou l’endommagement de la banque de messages.
   
@@ -152,9 +152,9 @@ Selon le fournisseur de banque de message, l’identificateur d’entrée du mes
     
 - Lorsque vous déplacez un dossier à un autre emplacement dans le même magasin de message, l’identificateur d’entrée peut ou ne peut-être pas modifier, selon le message le fournisseur de magasins.
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

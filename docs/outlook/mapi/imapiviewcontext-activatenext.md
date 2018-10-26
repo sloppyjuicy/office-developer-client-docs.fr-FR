@@ -21,7 +21,7 @@ ms.locfileid: "22588502"
 ---
 # <a name="imapiviewcontextactivatenext"></a>IMAPIViewContext::ActivateNext
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Active le message suivant ou précédent dans l’ordre d’affichage. 
   
@@ -60,7 +60,7 @@ _prcPosRect_
   
 > [in] Pointeur vers un **RECT** Windows structure contenant la taille et la position de la fenêtre à utiliser pour afficher le message activé. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -76,7 +76,7 @@ Objets de formulaire appeler la méthode **IMAPIViewContext::ActivateNext** pour
   
 Les indicateurs VCDIR_DELETE et VCDIR_MOVE sont définis par les [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) et les méthodes de [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) , respectivement. Implémentations des méthodes suivantes appelez **ActivateNext** avec le sens approprié, puis effectuez l’opération demandée dans le message si l’appel **ActivateNext** sans erreur. Formulaire permettent généralement aux utilisateurs de spécifier le sens de déplacement dans la liste des messages. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Votre implémentation de [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) rend le message suivant ou précédent dans le dossier, selon la valeur _ulDir_, le message en cours. Une fois **ActivateNext** renvoie, appelez [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) pour obtenir un pointeur vers le nouveau message. 
   
@@ -84,9 +84,9 @@ Votre implémentation de [IMAPIViewContext::ActivateNext](imapiviewcontext-activ
 
 Si **ActivateNext** renvoie S_FALSE, ou si un message en cours n’est pas présent, effectuez la procédure d’arrêt normal qui doit inclure l’appel de méthode de [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) de votre formulaire. Si un message précédent ou suivant est affiché, utilisez le rectangle de fenêtre passé dans le paramètre _prcPosRect_ pour l’afficher. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

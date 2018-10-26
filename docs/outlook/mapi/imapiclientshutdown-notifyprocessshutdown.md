@@ -23,7 +23,7 @@ ms.locfileid: "22568265"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique l’intention de poursuivre du client MAPI arrêté.
   
@@ -31,7 +31,7 @@ Indique l’intention de poursuivre du client MAPI arrêté.
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

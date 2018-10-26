@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 954609cbc62039c0d60874bde83fde50d1d11c30
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22591666"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit un prototype pour une fonction point d’entrée message service prendre en charge la configuration du service de message. 
   
@@ -138,7 +138,7 @@ MSG_SERVICE_UNINSTALL
   
 > [out] Pointeur vers une structure [MAPIERROR](mapierror.md) . La structure est allouée avec la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . Tous les membres sont facultatifs, bien que la plupart des structures contient une chaîne de message d’erreur valide dans le membre _lpszError_ . Si les membres _lpszComponent_ ou _lpszError_ de la structure sont présentes, leur mémoire doit finalement libérée par un simple appel à [MAPIFreeBuffer](mapifreebuffer.md) sur la structure de base. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

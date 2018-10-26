@@ -23,7 +23,7 @@ ms.locfileid: "22570981"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Annule les notifications qui ont été précédemment configurées avec un appel à la méthode [IABLogon::Advise](iablogon-advise.md) . 
   
@@ -39,7 +39,7 @@ HRESULT Unadvise(
   
 > [in] Le numéro de connexion associé à un enregistrement de notification actif. Un appel précédent à **Advise** doit renvoyer la valeur de la _classe ulConnection_.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -49,7 +49,7 @@ S_OK
 
 MAPI appelle la méthode **Unadvise** pour annuler un enregistrement de notification pour un conteneur, utilisateur ou objet liste de distribution de messagerie. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Votre implémentation de **Unadvise** varient selon que vous prenez en charge la notification manuellement ou à l’aide de MAPI. Si MAPI propose votre prise en charge, appelez la méthode [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) pour annuler l’inscription. Si un autre thread est en cours de l’appel de méthode de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du récepteur advise, elle peut être retardée jusqu'à ce que **OnNotify** a renvoyé. 
   

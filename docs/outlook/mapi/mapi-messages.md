@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cf7876dacac40420fdedb8b6f55c99efcf56c4f7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22579934"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les messages sont transmis à partir de l’application d’un client vers une autre via le spouleur MAPI et les fournisseurs de services par un système de messagerie MAPI d’objets. Presque chaque composant MAPI fonctionne avec des messages. Clients permettent aux utilisateurs de créer, enregistrer, envoyer et supprimer des messages de plus de copier et des faire passer d’un dossier à un autre. Fournisseurs de banque de messages sont responsables de la gestion des messages et de remise des messages pour le spouleur MAPI ou un fournisseur de transport. Le spouleur MAPI déplace les messages vers un fournisseur de transport approprié, tandis que les fournisseurs de transport gérer la remise et la réception de messages vers et depuis un système de messagerie et définir des propriétés de l’option destinataire et le message. Fournisseurs de carnet d’adresses manipuler indirectement messages, prise en charge des propriétés qui décrivent les destinataires du message.
   

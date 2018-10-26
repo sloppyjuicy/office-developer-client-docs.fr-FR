@@ -23,7 +23,7 @@ ms.locfileid: "22588516"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau de pièce jointe du message.
   
@@ -52,7 +52,7 @@ MAPI_DEFERRED_ERRORS
   
 > [out] Pointeur vers un pointeur vers la table des pièces jointes.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

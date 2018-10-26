@@ -23,7 +23,7 @@ ms.locfileid: "22571086"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Verrouiller ou déverrouiller un message. Cette m�thode est appel�e uniquement par le spouleur MAPI.
   
@@ -52,7 +52,7 @@ MSG_UNLOCKED
   
 > Le message doit être déverrouillé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -64,7 +64,7 @@ La méthode **IMsgStore::SetLockState** verrouille ou déverrouille un message. 
   
 En règle générale, lorsque le spouleur MAPI appelle **SetLockState** pour verrouiller un message, il est verrouillé uniquement le message le plus ancien (autrement dit, le message suivant en file d’attente pour le spouleur MAPI envoyer). Si le message le plus ancien dans la file d’attente est en attente d’un fournisseur de transport temporairement indisponible et le message suivant dans la file d’attente utilise un fournisseur de transport différents, le spouleur MAPI permettre commencer à traiter le message ultérieure. Il commence le traitement par le verrouillage de ce message à l’aide de **SetLockState**.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Une fois que le spouleur MAPI a appelé **SetLockState** avec le paramètre _ulLockState_ défini sur MSG_LOCKED, les appels à la méthode [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) pour annuler la transmission du message doivent échouer. 
   

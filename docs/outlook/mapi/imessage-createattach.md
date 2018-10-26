@@ -23,7 +23,7 @@ ms.locfileid: "22572085"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une pièce jointe.
   
@@ -58,7 +58,7 @@ MAPI_DEFERRED_ERRORS
   
 > [out] Pointeur vers un pointeur vers l’objet d’ouvrir une pièce jointe.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

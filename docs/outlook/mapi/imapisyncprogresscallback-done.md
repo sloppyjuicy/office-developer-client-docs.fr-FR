@@ -23,7 +23,7 @@ ms.locfileid: "22573206"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
  Informe Microsoft Outlook que la synchronisation est terminée. 
   
@@ -44,7 +44,7 @@ HRESULT Done(
   
 > Une valeur HRESULT indiquant l’état final de la progression.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

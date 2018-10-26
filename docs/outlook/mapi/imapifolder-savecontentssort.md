@@ -23,7 +23,7 @@ ms.locfileid: "22579661"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit l’ordre de tri par défaut pour la table des matières d’un dossier.
   
@@ -48,7 +48,7 @@ RECURSIVE_SORT
   
 > L’ensemble d’ordre de tri par défaut s’applique au dossier indiqué et tous ses sous-dossiers.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

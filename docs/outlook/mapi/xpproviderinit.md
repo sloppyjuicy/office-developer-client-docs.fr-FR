@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 38b60180ae7c417bf34998e72f96b353ace02859
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22592534"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Initialise un fournisseur de transport pour l’opération.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de transport  <br/> |
-|Appelée par :  <br/> |MAPI  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de transport  <br/> |
+|Appelé par :  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT XPProviderInit(
@@ -89,7 +89,7 @@ MAPI_NT_SERVICE
   
 > [out] Pointeur vers un pointeur vers l’objet de fournisseur de transport initialisé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -103,7 +103,7 @@ MAPI_E_VERSION
 
 MAPI appelle la fonction de point d’entrée **XPProviderInit** d’initialisation d’un fournisseur de transport après une ouverture de session client. **XPProviderInit** est appelée une seule fois pour chaque fournisseur de transport spécifié dans le profil du client. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Un fournisseur de transport doit implémenter **XPProviderInit** en tant que fonction d’un point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **XPPROVIDERINIT** , également spécifié dans Mapispi.h. MAPI définit **XPPROVIDERINIT** pour utiliser le type appel de l’initialisation de MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **XPProviderInit** à suivre la convention d’appel CDECL. L’avantage de CDECL est que les appels peuvent être tentés, même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
   

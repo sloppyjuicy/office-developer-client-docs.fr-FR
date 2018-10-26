@@ -19,7 +19,7 @@ ms.locfileid: "22566130"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette section contient des informations générales qui vous invitons à lire avant la création de vos propres fournisseurs de services MAPI.
   
@@ -29,9 +29,9 @@ Cette section contient des informations générales qui vous invitons à lire av
 
 [Développement d’un fournisseur de carnet d’adresses MAPI](developing-a-mapi-address-book-provider.md)
   
-[Développement d’un fournisseur de transport MAPI](developing-a-mapi-transport-provider.md)
+[Développement d’un fournisseur de Transport MAPI](developing-a-mapi-transport-provider.md)
   
-[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
   
 [Fournisseurs de services MAPI](mapi-service-providers.md)
   

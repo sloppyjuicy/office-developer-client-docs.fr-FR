@@ -23,7 +23,7 @@ ms.locfileid: "22579290"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires et renvoie un tableau de formulaire objets informations décrivant les formulaires.
   
@@ -68,7 +68,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers le tableau d’objets formulaire renvoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -86,7 +86,7 @@ MAPI_E_USER_CANCEL
 
 Visionneuses de formulaire appellent la méthode de **IMAPIFormMgr::SelectMultipleForms** au premier présente une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires et puis pour récupérer un tableau de formulaire d’informations des objets qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, si elles sont masquées (autrement dit, si leurs propriétés masquées sont claires). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si une visionneuse de formulaire transmet l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont en Unicode. Fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   

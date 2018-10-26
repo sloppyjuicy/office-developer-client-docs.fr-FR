@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5d8e91490cc39c3f259d35a923bb3bcbb2bf6011
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22568167"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table de service de message, une liste des services dans le profil de message.
   
@@ -44,7 +44,7 @@ HRESULT GetMsgServiceTable(
   
 > [out] Pointeur vers un pointeur vers le tableau de service de message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -56,9 +56,9 @@ La méthode **IMsgServiceAdmin::GetMsgServiceTable** permet d’accéder à la t
   
 Le tableau de service de message est statique. Une fois un client est autorisé à accéder à celui-ci, ajouts de service de message qui s’affiche et les suppressions n’affectent pas son. S’il n’y a aucun message les services dans le profil actuel, **GetMsgServiceTable** renvoie un tableau avec des lignes de zéro. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

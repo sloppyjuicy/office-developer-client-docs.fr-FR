@@ -23,7 +23,7 @@ ms.locfileid: "22579521"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Annule des rappels pour un objet en mode hors connexion.
   
@@ -44,7 +44,7 @@ HRESULT COfflineObj::Unadvise(
   
 > [in] Un jeton advise qui identifie l’inscription du rappel qui doit être annulée. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

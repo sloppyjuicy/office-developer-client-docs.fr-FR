@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c90b569414c1710cc1065fdb4fd72738e265ebff
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22588831"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime prétraités écrites par une fonction [PreprocessMessage](preprocessmessage.md) en fonction d’un message d’informations. 
   
@@ -45,7 +45,7 @@ HRESULT RemovePreprocessInfo(
   
 > [in] Pointeur vers le message prétraité à partir duquel les informations sont à supprimer.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

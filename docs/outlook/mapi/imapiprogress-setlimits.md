@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 010f69b70324d4280a34d2fe06d670e07d922d86
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22586773"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit les limites supérieures et inférieures pour le nombre d’éléments dans l’opération et des indicateurs qui déterminent comment les informations d’avancement sont calculées pour l’opération.
   
@@ -53,7 +53,7 @@ MAPI_TOP_LEVEL
   
 > Utilise les valeurs de paramètres de la méthode [IMAPIProgress::Progress](imapiprogress-progress.md) de _ulCount_ et _ulTotal_ , qui indiquent l’élément en cours de traitement et le nombre total d’éléments, respectivement, au cours d’incrémentation sur l’opération. Lorsque cet indicateur est défini, les valeurs des limites inférieures et supérieures globales doivent être définies. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -67,11 +67,11 @@ Lorsque MAPI_TOP_LEVEL n’est pas définie, les valeurs minimales et maximales 
   
 Pour plus d’informations sur l’implémentation des autres méthodes [IMAPIProgress](imapiprogressiunknown.md) et **SetLimits** , consultez [l’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md).
   
-Pour plus d’informations sur la façon et le moment pour effectuer des appels à un objet de l’avancement, voir [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
+Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -87,12 +87,12 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
   
 [IMAPIProgress::Progress](imapiprogress-progress.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
+[Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md)
   
 [Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

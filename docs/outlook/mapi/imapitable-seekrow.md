@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: aead09eb10a3015a54867f14011c56b686bc8624
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22586479"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déplace le curseur à un emplacement spécifique dans le tableau.
   
@@ -61,7 +61,7 @@ BOOKMARK_END
   
 > [out] Si _lRowCount_ est un pointeur valid sur les points d’entrée, _lplRowsSought_ au nombre de lignes qui ont été traités dans l’opération de recherche, dont le signe indique la direction de la recherche, avancer ou reculer. Si _lRowCount_ est négatif, _lplRowsSought_ est négatif. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -85,7 +85,7 @@ La méthode **IMAPITable::SeekRow** établit une nouvelle position BOOKMARK_CURR
   
 Si la position qui en résulte est au-delà de la dernière ligne du tableau, le curseur est positionné après la dernière ligne. Si la position qui en résulte est avant la première ligne du tableau, le curseur est positionné au début de la première ligne. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si la ligne désignée par _bkOrigin_ n’existe plus dans la table et ne peut pas établir une nouvelle position du signet, retourne MAPI_E_INVALID_BOOKMARK. Si la ligne désignée par _bkOrigin_ n’existe plus et que vous pouvez définir une nouvelle position du signet, renvoyer MAPI_W_POSITION_CHANGED. 
   
@@ -103,9 +103,9 @@ Si un grand nombre de lignes dans le tableau, l’opération **SeekRow** peut ê
   
 Ne définissez pas _lRowCount_ à un nombre supérieur à 50. Pour un plus grand nombre de lignes par le biais de recherche, utilisez la méthode [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

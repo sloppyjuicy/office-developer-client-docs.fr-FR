@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a9fdf3f-fd76-40fb-8217-967c6efba5f6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a9f0fac76f06bd638aeff89ff096507209cc0287
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22568454"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie l’identificateur d’entrée pour le conteneur de carnet d’adresses initiale.
   
@@ -44,7 +44,7 @@ HRESULT GetDefaultDir(
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée du conteneur par défaut.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -56,9 +56,9 @@ Fournisseurs de services et applications clientes appellent la méthode **GetDef
   
 Pour définir la valeur par défaut directory, un client ou un fournisseur appelle la méthode **SetDefaultDir** . Clients et fournisseurs n’ont pas d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) ; Étant donné que les modifications apportées au carnet d’adresses ne sont pas traitées, les modifications sont apportées immédiatement définitive. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

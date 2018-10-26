@@ -23,7 +23,7 @@ ms.locfileid: "22584337"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Extrait la position de ligne de tableau en cours du curseur, basée sur une valeur décimale.
   
@@ -49,7 +49,7 @@ ULONG FAR * lpulDenominator
   
 > [out] Pointeur vers le dénominateur de la fraction qui identifie la position de la table. Le paramètre _lpulDenominator_ ne peut pas être égal à zéro. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -59,7 +59,7 @@ S_OK
 
 La méthode **IMAPITable::QueryPosition** détermine la position de ligne en cours et renvoie le nombre de la ligne active et une valeur décimale qui indique sa position relative à la fin de la table. MAPI définit la ligne active en tant que la ligne suivante à lire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous n’avez pas besoin renvoyer le nombre exact de lignes dans la table pour le paramètre _lpulDenominator_ ; Il peut être une estimation. 
   

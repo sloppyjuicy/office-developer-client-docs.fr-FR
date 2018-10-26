@@ -19,7 +19,7 @@ ms.locfileid: "22563351"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Si votre fournisseur de banque de messages autorise une autorisation en lecture seule dans le m�canisme de stockage sous-jacent, les applications clientes et le Gestionnaire de formulaire MAPI ne pourront pas effectuer certaines op�rations. En particulier, les clients ne pourront pas ajouter ou modifier des affichages personnalis�s et du Gestionnaire de formulaire MAPI ne pourront pas installer des formulaires dans les tableaux de contenu associ� � des dossiers de la banque.
   

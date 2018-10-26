@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 287577babc9a40b771aa9917211ba5dcbf8190ad
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22584939"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime tous les messages et les sous-dossiers d’un dossier sans supprimer le dossier proprement dit.
   
@@ -61,7 +61,7 @@ FOLDER_DIALOG
   
 > Affiche un indicateur de progression pendant que l’opération s’effectue.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -79,7 +79,7 @@ Pendant un appel **EmptyFolder** , les messages envoyés ne sont pas supprimés.
   
 Contenu associé d’un dossier comprennent les messages qui sont utilisés pour décrire les affichages, les règles, les formulaires personnalisés et du stockage des solutions personnalisées et peuvent également inclure des définitions de formulaire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 N’appelez pas la méthode [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) pour les messages qui ont été envoyés dans le dossier. Les messages envoyés ne sont pas supprimés. 
   
@@ -95,9 +95,9 @@ Prévoyez ces valeurs de retour dans les conditions suivantes.
    
 Lorsque **EmptyFolder** n’aboutit pas, ne supposez pas qu’aucun travail n’a été effectuée. **EmptyFolder** peut-être en mesure de supprimer le contenu du dossier avant de rencontrer l’erreur. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -112,7 +112,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

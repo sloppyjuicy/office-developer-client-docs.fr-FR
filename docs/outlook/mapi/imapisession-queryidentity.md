@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6b64653aa87ff7ac983409978a69f59148251d7d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22583413"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie l’identificateur d’entrée de l’objet qui fournit l’identité du principale pour la session.
   
@@ -44,7 +44,7 @@ HRESULT QueryIdentity(
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée de l’objet qui fournit l’identité du principale.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -86,9 +86,9 @@ Pour plus d’informations sur l’identité en général, voir [Identité princ
   
 Pour plus d’informations sur la récupération d’identité de session MAPI, voir [récupération principal et le fournisseur d’identité](retrieving-primary-and-provider-identity.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -107,13 +107,13 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [Identité principale MAPI](mapi-primary-identity.md)
   
-[Récupération de l’identité fournisseur et principale](retrieving-primary-and-provider-identity.md)
+[Extraction de principal et identité du fournisseur](retrieving-primary-and-provider-identity.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
   
-[Table de statut et objets de statut](status-table-and-status-objects.md)
+[Table d’état et les objets d’état](status-table-and-status-objects.md)
 

@@ -23,7 +23,7 @@ ms.locfileid: "22579283"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre l’objet d’état du fournisseur.
   
@@ -58,7 +58,7 @@ N'
   
 > [out] Pointeur vers un pointeur vers l’objet ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

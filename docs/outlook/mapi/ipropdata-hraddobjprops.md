@@ -23,7 +23,7 @@ ms.locfileid: "22591681"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute une ou plusieurs propriétés de type PT_OBJECT à l’objet.
   
@@ -44,7 +44,7 @@ HRESULT HrAddObjProps(
   
 > [entrée, sortie] Sur entrée, un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) valide ou valeur NULL. Dans la sortie, un pointeur vers un pointeur vers une structure qui contient des informations sur les propriétés qui ne peut pas être ajouté ou NULL. Un pointeur vers une structure de tableau de problème de propriété est renvoyé uniquement si un pointeur valide est passé. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

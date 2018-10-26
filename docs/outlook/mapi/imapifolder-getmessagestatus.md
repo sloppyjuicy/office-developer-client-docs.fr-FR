@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8e5ccadbd6df664b6650487f340508ae4548a1c2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22583266"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Obtient l’état associé à un message dans un dossier spécifique (par exemple, si ce message est marqué pour suppression).
   
@@ -78,7 +78,7 @@ MSGSTATUS_TAGGED
   
 > Le message a été marqué pour un usage défini par le client.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -88,13 +88,13 @@ S_OK
 
 La méthode **IMAPIFolder::GetMessageStatus** renvoie l’état d’un message. Statut du message est stocké dans la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Comment les bits d’état message définis, désactivées et utilisés dépendent complètement votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être égal à zéro. Si vous stockez les messages dans la sous-arborescence IPM, MAPI réserve bits 16 à 31 pour une utilisation par les clients IPM. Si vous stockez les messages dans d’autres sous-arborescences, vous pouvez utiliser les bits 16 à 31 selon vos besoins.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

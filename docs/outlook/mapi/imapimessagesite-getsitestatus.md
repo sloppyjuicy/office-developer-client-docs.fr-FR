@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9b804728541b0f2a0499bbf0078bfee2e5aed6ee
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22563806"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne des informations à partir d’un objet de site message sur le message fonctionnalités du site pour le message en cours.
   
@@ -67,7 +67,7 @@ VCSTATUS_SUBMIT
   
 > Le message peut être envoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -77,15 +77,15 @@ S_OK
 
 Objets de formulaire appeler la méthode **IMAPIMessageSite::GetSiteStatus** pour obtenir les fonctionnalités de l’objet de site de message pour le message en cours. Les indicateurs retournés dans le paramètre _lpulStatus_ fournissent des informations sur le site de message. En règle générale, un formulaire active ou désactive les commandes de menu, en fonction des informations que fournissent les indicateurs sur les possibilités de l’implémentation de sites de message. Si un nouveau message est chargé dans un formulaire par la méthode [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) ou la méthode [IPersistMessage::Load](ipersistmessage-load.md) , les indicateurs d’état doivent être vérifiées. Certains objets du site de message, notamment les objets en lecture seule, ne pas autorisent les messages d’être enregistré ou supprimé. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 La méthode **IMAPIMessageSite::GetSiteStatus** peut nécessiter l’application cliente pour effectuer des calculs pour déterminer les opérations peuvent ou ne peut pas être effectuées sur le message en cours. En règle générale, qui implique la recherche au niveau de la ligne d’état pour le fournisseur de banque de messages du message en cours, ou l’application cliente interroger le fournisseur de banque pour déterminer les actions qui permettre effectuer à l’aide de la banque de messages. Par exemple, pour déterminer s’il faut retourner l’indicateur MAPI_DELETE_IS_MOVE, vérifiez propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) de l’objet de banque de messages pour voir s’il existe un dossier **Éléments supprimés** dans le banque de messages. 
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -104,7 +104,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
 

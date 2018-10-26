@@ -23,7 +23,7 @@ ms.locfileid: "22586948"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Interrompt le traitement jusqu'à ce qu’un ou plusieurs asynchrones opérations en cours sur la table est terminé.
   
@@ -49,7 +49,7 @@ ULONG FAR * lpulTableStatus
   
 > [entrée, sortie] À l’entrée, un pointeur valide ou valeur NULL. Dans la sortie, si _lpulTableStatus_ est un pointeur valid, il pointe vers le dernier état de la table. Si _lpulTableStatus_ est NULL, aucune information d’état n’est retournée. Si **WaitForCompletion** renvoie une valeur HRESULT échoue, le contenu de _lpulTableStatus_ n’est pas défini. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

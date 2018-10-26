@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cda3de1719ec1b7cfca1a9ecdad7bc3b59a8b17d
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22571149"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie l’état et le type de la table.
   
@@ -88,7 +88,7 @@ TBLTYPE_SNAPSHOT
   
 > Le tableau est statique et son contenu n’est pas modifié lorsque les données sous-jacentes changent.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -108,9 +108,9 @@ Vous pouvez utiliser **GetStatus** conjointement avec les trois autres méthodes
     
 - [IMAPITable::SetColumns](imapitable-setcolumns.md) pour définir un ensemble de colonnes. 
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

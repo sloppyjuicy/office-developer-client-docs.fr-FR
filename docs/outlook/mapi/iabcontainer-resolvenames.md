@@ -23,7 +23,7 @@ ms.locfileid: "22588474"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Effectue la résolution de noms pour une ou plusieurs entrées de destinataire.
   
@@ -78,7 +78,7 @@ MAPI_UNRESOLVED
   
 > L’entrée correspondante n’a pas été résolue. Autres conteneurs doivent essayer de résoudre ce destinataire.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -104,7 +104,7 @@ Après tout des conteneurs de la recherche de chemin d’accès tenté le proces
   
 Les clients peuvent également utiliser la structure **ADRLIST** retournée dans les appels à la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous ne sont pas requis pour prendre en charge la résolution de noms avec la méthode **ResolveNames** . Au lieu de cela, ou en outre, vous pouvez en charge avec la restriction de propriété **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Si vous décidez s’appuient sur la restriction de **PR_ANR** pour la résolution de noms, vous pouvez retourner MAPI_E_NO_SUPPORT. For more information, see [L'impl�mentation de la r�solution de noms](implementing-name-resolution.md).
   

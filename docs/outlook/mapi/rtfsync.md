@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22565738"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet de s’assurer que le texte du message RTF (RICH Text Format) correspond à la version en texte brut. Il est nécessaire d’appeler cette fonction avant de lire la version RTF et après avoir modifié la version RTF. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de magasin de message et les applications clientes compatibles RTF  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de magasin de message et les applications clientes compatibles RTF  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -59,7 +59,7 @@ _lpfMessageUpdated_
   
 > [out] Pointeur vers une variable qui indique s’il existe un message mis à jour. TRUE si un message mis à jour, FALSE dans le cas contraire.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

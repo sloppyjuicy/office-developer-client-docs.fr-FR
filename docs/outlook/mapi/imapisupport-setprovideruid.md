@@ -23,7 +23,7 @@ ms.locfileid: "22589069"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre une structure [MAPIUID](mapiuid.md) qui représente le fournisseur de services de manière unique. 
   
@@ -44,7 +44,7 @@ ULONG ulFlags
   
 > Réservé ; doit être égal à zéro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

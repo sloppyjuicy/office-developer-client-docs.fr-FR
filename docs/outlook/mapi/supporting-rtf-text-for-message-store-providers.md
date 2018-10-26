@@ -19,7 +19,7 @@ ms.locfileid: "22594067"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Certaines applications de client permettent aux utilisateurs d’utiliser le texte RTF (RICH Text Format) dans leurs messages. Si votre message stocker le fournisseur doit prendre en charge de texte RTF dans les messages, il doit gérer la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), en plus de la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Cela signifie principalement, stockant les deux propriétés et à s’assurer que **PR_BODY** contient une version en texte brut du texte **PR_RTF_COMPRESSED**. La fonction [RTFSync](rtfsync.md) est utile à cet effet. 
   

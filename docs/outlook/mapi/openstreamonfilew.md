@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: dc8644a658b8aca97f80fcf0a942551509064bd6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22581558"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Alloue et initialise un objet OLE **IStream** pour accéder au contenu d’un fichier. Cette fonction prend des chaînes UNICODE comme arguments, contrairement à la version ANSI de cette fonction [OpenStreamOnFile](openstreamonfile.md)et permet donc des caractères spéciaux dans le nom de fichier, y compris l’extension de fichier et chemin d’accès.
   
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |olmapi32.dll  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT STDMETHODCALLTYPE OpenStreamOnFileW(
@@ -90,7 +90,7 @@ STGM_READWRITE
   
 > [out] Pointeur vers un pointeur vers un objet exposition de l’interface **IStream** . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

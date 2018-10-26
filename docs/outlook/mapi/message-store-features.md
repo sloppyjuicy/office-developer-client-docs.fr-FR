@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7e99d9d2e1289ed98ba659e97b05c8ea6d891a74
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22581810"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournisseurs de banque de messages sont plus complexes que les autres fournisseurs de services MAPI : fournisseurs de banque de message ont un large éventail de fonctionnalités facultatives, qu'ils peuvent mettre en œuvre. La liste des fonctionnalités requises pour un fournisseur de banque de messages est relativement courte. Toutefois, un fournisseur de magasin de message par défaut prendront en charge un nombre de fonctionnalités facultatives, étant donné que de nombreuses fonctionnalités facultatives sont très utiles ou requises par la plupart des clients MAPI. Le tableau suivant répertorie les principales fonctionnalités que les fournisseurs de magasins de message peuvent mettre en œuvre et si chaque fonctionnalité est obligatoire ou facultatif pour tous les messages de stocker les fournisseurs et de message par défaut pour les fournisseurs de magasin de.
   
@@ -47,5 +47,5 @@ De nombreuses fonctionnalités facultatives peuvent être publiés dans MAPI et 
 
 
 
-[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

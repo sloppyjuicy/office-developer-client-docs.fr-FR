@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ddb87af4b14be6d728bcceddb4d958ba49229ad4
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22579038"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un identificateur d’entrée pour une adresse unique.
   
@@ -72,7 +72,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée pour le destinataire unique.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -88,9 +88,9 @@ MAPI prend en charge les chaînes de caractères Unicode pour le nom complet, ty
   
 L’indicateur MAPI_SEND_NO_RICH_INFO contrôle si le texte mis en forme au format RTF (RICH Text Format) est envoyé avec chaque message. Le Neutral Encapsulation Format TNEF (Transport) : un format qui est utilisé pour la transmission de texte mis en forme — envoyée par la plupart des fournisseurs de transport, quelle que soit la façon dont le destinataire définit sa propriété **PR_SEND_RICH_INFO** . Il n’est pas un problème pour les clients qui fonctionnent avec les messages interpersonnels de messagerie. Toutefois, étant donné que TNEF est généralement utilisé pour envoyer des propriétés personnalisées pour les classes de message personnalisées, non prise en charge peut être un problème pour les clients basés sur les formulaires ou les clients qui requièrent des propriétés MAPI personnalisées. Pour plus d’informations, consultez [Envoi de Messages avec TNEF](sending-messages-with-tnef.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

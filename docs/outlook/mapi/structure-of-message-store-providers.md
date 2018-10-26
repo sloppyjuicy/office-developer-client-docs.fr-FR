@@ -1,5 +1,5 @@
 ---
-title: Structure de fournisseurs de magasins de message
+title: Structure des fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22584288"
 ---
-# <a name="structure-of-message-store-providers"></a>Structure de fournisseurs de magasins de message
+# <a name="structure-of-message-store-providers"></a>Structure des fournisseurs de banques de messages
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Un fournisseur de magasin de message, lorsqu’il s’exécute en mémoire, est un [IMSProvider : IUnknown](imsprovideriunknown.md) interface. L’interface **IMSProvider** permet aux clients applications et le spouleur MAPI pour vous connecter à et sur la banque de messages. Les interfaces par les applications clientes et le spouleur MAPI pour accéder aux dossiers et des messages dans la banque de messages sont des interfaces [IMSLogon](imslogoniunknown.md) et [IMsgStore](imsgstoreimapiprop.md) . Ces interfaces sont généralement créés lors de la banque de messages est tout d’abord ouvrir une session sur, bien que le point d’entrée du message [MSProviderInit](msproviderinit.md) stocker DLL peut également les créer. 
   
@@ -31,5 +31,5 @@ L’illustration suivante montre un plan de haut niveau de la hiérarchie d’ob
   
 ## <a name="see-also"></a>Voir aussi
 
-- [D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+- [Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

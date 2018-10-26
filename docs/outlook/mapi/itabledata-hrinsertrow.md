@@ -23,7 +23,7 @@ ms.locfileid: "22579885"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Insère une ligne de tableau. 
   
@@ -44,7 +44,7 @@ HRESULT HrInsertRow(
   
 > [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne doit être inséré. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

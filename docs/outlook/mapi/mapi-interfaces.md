@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ca3752e8f7e910994811dec85cc2f1b00e184661
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22584807"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La documentation de chaque interface se compose d’une section d’introduction qui inclut une brève description de l’objectif de l’interface suivie d’une table qui contient les informations suivantes.
   
@@ -29,8 +29,8 @@ La documentation de chaque interface se compose d’une section d’introduction
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Le fichier d’en-tête dans laquelle l’interface est définie et qui doit être inclus lorsque vous compilez votre code source.  <br/> |
 |Exposés par :  <br/> |L’objet qui expose l’interface.  <br/> |
-|Implémentée par :  <br/> |Une liste des composants qui fournissent une implémentation de l’interface.  <br/> |
-|Appelée par :  <br/> |Une liste des composants qui appellent généralement les méthodes de l’interface.  <br/> |
+|Implémenté par :  <br/> |Une liste des composants qui fournissent une implémentation de l’interface.  <br/> |
+|Appelé par :  <br/> |Une liste des composants qui appellent généralement les méthodes de l’interface.  <br/> |
 |Identificateur de l’interface :  <br/> |L’identificateur GUID d’interface.  <br/> |
 |Type de pointeur :  <br/> |Le type de pointeur de l’objet qui expose l’interface.  <br/> |
 |Modèle de transaction :  <br/> |Pour les interfaces dérivées de [IMAPIProp](imapipropiunknown.md). Si nontransacted, les modifications prennent effet immédiatement. Si le traitement modifications ne prendront effet qu’après [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée.  <br/> |

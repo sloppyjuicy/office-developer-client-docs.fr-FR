@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3e758acfa1cf0c11be666dd730d9bf589d2e9d77
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22586213"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Démarre un formulaire pour ouvrir un message existant.
   
@@ -97,7 +97,7 @@ MAPIFORM_EXACTMATCH
   
 > [out] Pointeur vers un pointeur vers l’interface retournée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -117,13 +117,13 @@ Visionneuses de formulaire appeler la méthode **IMAPIFormMgr::LoadForm** pour o
   
 Le paramètre _pFolderFocus_ pointe vers le dossier qui contient le message. Si le message est incorporé dans un autre message, _pFolderFocus_ doit être NULL. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si NULL est indiqué dans _lpszMessageClass_, l’implémentation Obtient la classe de message du message, l’état et d’indicateurs à partir du message **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), **PR_MSG_STATUS** et **PR_MESSAGE_FLAGS **propriétés. Si une chaîne de classe de message est fournie dans _lpszMessageClass_, l’implémentation doit utiliser les valeurs _ulMessageStatus_ et _ulMessageFlags_.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

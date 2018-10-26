@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: ff13866139bf422f071eaba2c146aa1140ccd1ab
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22565045"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Vérifie si une pièce jointe spécifiée est bloquée par Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation.
   
@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [Constantes MAPI](mapi-constants.md)
   
-[Vérifier qu’une pièce jointe est bloquée](how-to-verify-an-attachment-is-blocked.md)
+[Vérifiez la que pièce jointe est bloquée](how-to-verify-an-attachment-is-blocked.md)
 

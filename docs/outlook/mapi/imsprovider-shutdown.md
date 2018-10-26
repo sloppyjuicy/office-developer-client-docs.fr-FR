@@ -23,7 +23,7 @@ ms.locfileid: "22589090"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ferme un fournisseur de magasin de message de manière ordonnée.
   
@@ -39,7 +39,7 @@ HRESULT Shutdown(
   
 > [in] Réservé ; doit être un pointeur vers zéro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

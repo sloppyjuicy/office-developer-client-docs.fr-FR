@@ -23,7 +23,7 @@ ms.locfileid: "22575174"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique l’intention du client MAPI pour quitter le processus de client immédiatement.
   
@@ -31,7 +31,7 @@ Indique l’intention du client MAPI pour quitter le processus de client immédi
 HRESULT DoFastShutdown ();
 ```
 
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

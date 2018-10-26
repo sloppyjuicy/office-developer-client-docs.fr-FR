@@ -23,7 +23,7 @@ ms.locfileid: "22582790"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un nouveau profil.
   
@@ -62,7 +62,7 @@ MAPI_DIALOG
   
 > Vous pouvez afficher les feuilles de propriétés de configuration de chacun des fournisseurs dans les services de messagerie à ajouter. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

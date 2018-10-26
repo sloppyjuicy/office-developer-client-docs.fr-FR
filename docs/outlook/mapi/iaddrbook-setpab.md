@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 75daf9d4-6975-435f-91e5-1b41e0047ab7
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 461b59ff4f4c8a93f3a9945b05e31aef9a2997bf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22569301"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Désigne un conteneur spécifique comme le carnet d’adresses personnel (CAP).
   
@@ -44,7 +44,7 @@ HRESULT SetPAB(
   
 > [in] Pointeur vers l’identificateur d’entrée du conteneur à désigner comme le carnet d’adresses personnel. Le paramètre _lpEntryID_ ne peut pas être NULL. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -58,9 +58,9 @@ Un appel à **SetPAB** établit un conteneur en tant que le carnet d’adresses 
   
 Clients et fournisseurs n’ont pas d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour conserver le changement de carnet d’adresses personnel. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

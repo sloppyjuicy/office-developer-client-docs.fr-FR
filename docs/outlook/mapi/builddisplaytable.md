@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3b5268f0b033126083a463f72e47c64957df07eb
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22577687"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une table de l’affichage de données de la propriété page contenues dans une ou plusieurs structures [DTPAGE](dtpage.md) . 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
 ```cpp
 STDAPI BuildDisplayTable(
@@ -94,7 +94,7 @@ MAPI_UNICODE
   
 > [entrée, sortie] Pointeur vers un pointeur vers un objet de données de table exposant l’interface [ITableData](itabledataiunknown.md) sur la table renvoyée dans le paramètre _lppTable_ . Si aucun objet de données de table n’est souhaitée, _lppTblData_ doit être défini sur NULL au lieu d’une valeur de pointeur. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Aucune
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5ab459239bdcdcad30c4b6c82d5a3f8641bd4aca
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22567803"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Vérifie les informations d’état externe disponibles pour la ressource MAPI ou le fournisseur de services. Cette méthode est prise en charge dans tous les objets d’état. 
   
@@ -74,7 +74,7 @@ SUPPRESS_UI
   
 > L’objet état empêche l’affichage d’une interface utilisateur dans le cadre de l’opération.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -103,7 +103,7 @@ La méthode **IMAPIStatus::ValidateState** vérifie l’état d’une ressource 
 |Carnet d’adresses MAPI  <br/> |Vérifie les entrées dans la section de profil.  <br/> |
 |Fournisseur de services  <br/> |Implémentation dépend du type de fournisseur et les indicateurs définis dans le paramètre _ulFlags_ .  <br/> |
    
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Applications clientes à distance appellent la méthode de **ValidateState** de démarrage à distance pour différentes actions de traitement. Cette méthode existe principalement pour définir des bits d’état pour communiquer avec le spouleur MAPI, au lieu de faire tout travail. En règle générale, le fournisseur de transport définit les indicateurs dans sa ligne d’état qui indiquent au spouleur MAPI qu’actions doivent être lancées pour terminer la demande du client. 
 

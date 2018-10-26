@@ -19,7 +19,7 @@ ms.locfileid: "22578289"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI d�finit quelques dossiers sp�ciaux, car ils traiter les r�les pr�d�finis comme dossiers par d�faut pour certains types de messages. Ces dossiers sp�ciaux ne peut g�n�ralement �tre supprim�s, et ils ont des propri�t�s d'identificateur d'entr�e sp�cial.
   

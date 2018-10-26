@@ -23,7 +23,7 @@ ms.locfileid: "22591421"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 D�finit le niveau d'acc�s de l'objet.
   

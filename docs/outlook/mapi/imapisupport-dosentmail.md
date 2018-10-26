@@ -23,7 +23,7 @@ ms.locfileid: "22568209"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Traite un message envoy�.
   

@@ -23,7 +23,7 @@ ms.locfileid: "22580032"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Détermine si un formulaire peut gérer son propre conflits de message. Un message est en conflit si elle a été modifié simultanément par plusieurs utilisateurs. Cela peut se produire pour les messages dans les dossiers publics.
   
@@ -53,7 +53,7 @@ HRESULT IsInConflict(
   
 > [in] Pointeur vers le dossier qui contient le message. Le paramètre _pFolderFocus_ peut être NULL si un tel dossier n’existe pas (par exemple, si le message est incorporé dans un autre message). 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

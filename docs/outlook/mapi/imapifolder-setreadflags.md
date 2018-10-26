@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 88185efea344844016547d0844277de6e0d661db
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22578317"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit ou supprime l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs des messages du dossier et gère l’envoi de rapports de lecture. 
   
@@ -106,7 +106,7 @@ L’indicateur de lecture ne peut pas être modifié pour les éléments suivant
     
 - Messages qui sont actuellement envoyées.
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous décider de ne pas prendre en charge l’envoi de rapports de lecture et de la demande à supprimer les rapports de lecture. Pour éviter la suppression d’un rapport de lecture, renvoyer MAPI_E_NO_SUPPRESS lorsque **SetReadFlags** est appelée avec SUPPRESS_RECEIPT dans le paramètre _ulFlags_ . 
   
@@ -142,9 +142,9 @@ Prévoyez ces valeurs de retour dans les conditions suivantes.
    
 Lorsque **SetReadFlags** est impossible de terminer, ne supposent qu’aucun travail n’a été effectuée. **SetReadFlags** a pu définir ou effacer l’indicateur MSGFLAG_READ pour une ou plusieurs des messages avant de rencontrer l’erreur. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -157,6 +157,6 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 - [Propriété canonique PidTagMessageFlags](pidtagmessageflags-canonical-property.md)  
 - [Propriété canonique PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)  
 - [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md)
-- [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)  
-- [Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+- [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)  
+- [Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

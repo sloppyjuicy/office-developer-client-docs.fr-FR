@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef2112c7-35cd-4106-ad18-a45e1dbe07d6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a13696b355e6fd815cd6bda42843505d9fc3d1f7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22579955"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche la boîte de dialogue de carnet d’adresse Outlook. 
   
@@ -49,7 +49,7 @@ HRESULT Address(
   
 > [entrée, sortie] Pointeur vers un pointeur vers une structure [ADRLIST](adrlist.md) qui contient les informations relatives au destinataire. À l’entrée, ce paramètre peut être NULL ou pointez sur un pointeur valide. Dans la sortie, ce paramètre pointe vers un pointeur vers les informations relatives au destinataire valides. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -79,9 +79,9 @@ La structure **ADRLIST** qui transmet l’appelant peut être une taille différ
   
  **Adresse** prend en charge les chaînes de caractères Unicode dans la structure **ADRPARM** si AB_UNICODEUI a été spécifié dans le membre **ulFlags** de **ADRPARM** dans le paramètre _lpAdrParms_ , et il prend en charge les chaînes de caractères Unicode dans ** ADRLIST**. Les chaînes Unicode sont convertis au format de chaîne (MBCS) codés avant qu’elles sont affichées dans la boîte de dialogue de carnet d’adresse Outlook.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -118,7 +118,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IAddrBook : IMAPIProp](iaddrbookimapiprop.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
 

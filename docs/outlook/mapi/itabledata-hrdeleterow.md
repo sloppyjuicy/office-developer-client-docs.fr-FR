@@ -23,7 +23,7 @@ ms.locfileid: "22563463"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime une ligne de tableau.
   
@@ -39,7 +39,7 @@ HRESULT HrDeleteRow(
   
 > [in] Pointeur vers une structure de valeur de propriété qui décrit la colonne d’index de la ligne à supprimer. Le membre **ulPropTag** de la structure de valeur de propriété doit contenir la même balise de propriété en tant que paramètre _ulPropTagIndexColumn_ de l’appel à la fonction [Create table](createtable.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

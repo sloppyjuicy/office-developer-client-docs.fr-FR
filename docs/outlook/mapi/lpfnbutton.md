@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3b302de68f27e85c67430f82bd3e2c33009600e9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22591351"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction de rappel appels MAPI pour activer un contrôle bouton d’option dans une boîte de dialogue Carnet d’adresses. Ce bouton est généralement un bouton **Détails** . 
   
@@ -65,7 +65,7 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

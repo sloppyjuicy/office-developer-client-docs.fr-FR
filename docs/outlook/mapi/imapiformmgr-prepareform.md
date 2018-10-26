@@ -23,7 +23,7 @@ ms.locfileid: "22579724"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Télécharge un formulaire d’ouverture.
   
@@ -53,7 +53,7 @@ MAPI_DIALOG
   
 > [in] Pointeur vers un objet d’informations de formulaire pour le formulaire à télécharger.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

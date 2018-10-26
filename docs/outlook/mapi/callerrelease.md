@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e97e1d5302d8247cb09ce7cb1b581582405300a5
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22568127"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction de rappel pouvant déclencher un objet de données de table lors de l’affichage tableau a été publié. 
   
@@ -55,7 +55,7 @@ void CALLERRELEASE(
   
 > [in] Pointeur vers le [IMAPITable : IUnknown](imapitableiunknown.md) interface pour l’affichage de la table publiée. Il s’agit d’une interface de l’objet table renvoyé dans le paramètre _lppMAPITable_ de la méthode [ITableData::HrGetView](itabledata-hrgetview.md) qui a créé l’objet pour libérer. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Aucune 
   

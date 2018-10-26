@@ -1,5 +1,5 @@
 ---
-title: Ouvrir le carnet d’adresses
+title: Ouverture du carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22583686"
 ---
-# <a name="opening-the-address-book"></a>Ouvrir le carnet d’adresses
+# <a name="opening-the-address-book"></a>Ouverture du carnet d’adresses
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Call [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) to open the integrated address book and retrieve a pointer to the MAPI [IAddrBook : IMAPIProp](iaddrbookimapiprop.md) interface. The methods of the **IAddrBook** interface can be used to access entries in all of the containers of each of the address book providers in the profile. 
   

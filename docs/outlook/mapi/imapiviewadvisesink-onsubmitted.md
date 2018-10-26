@@ -23,7 +23,7 @@ ms.locfileid: "22579444"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique que le message en cours a été soumis au spouleur MAPI à la visionneuse de formulaire.
   
@@ -35,7 +35,7 @@ HRESULT OnSubmitted( void );
 
 Aucune
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -45,7 +45,7 @@ S_OK
 
 Un objet form appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** après qu’un appel à [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) a réussi. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Après avoir appelé **OnSubmitted** , vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettre à jour votre windows afin de refléter les modifications qui se sont produites. 
   

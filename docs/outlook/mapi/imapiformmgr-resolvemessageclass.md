@@ -23,7 +23,7 @@ ms.locfileid: "22571814"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Associe une classe de message à sa forme au sein d’un conteneur de formulaire et renvoie un objet d’informations de formulaire pour ce formulaire.
   
@@ -58,7 +58,7 @@ MAPIFORM_EXACTMATCH
   
 > [out] Pointeur vers un pointeur vers un objet d’informations de formulaire renvoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

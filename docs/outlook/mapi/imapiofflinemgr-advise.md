@@ -23,7 +23,7 @@ ms.locfileid: "22586934"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre un client pour recevoir des rappels sur un objet en mode hors connexion.
   
@@ -49,7 +49,7 @@ HRESULT COfflineObj::Advise(
   
 > [out] Un jeton advise est renvoyé à l’appelant de client d’annulation par la suite de rappel pour l’objet.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

@@ -23,7 +23,7 @@ ms.locfileid: "22579948"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lance le transfert d’un message entrant à partir du fournisseur de transport pour le spouleur MAPI.
   
@@ -49,7 +49,7 @@ HRESULT StartMessage(
   
 > [out] Pointeur vers une valeur de référence affectée au message. Le spouleur MAPI initialise cette valeur sur 1 avant qu’il retourne le pointeur vers le fournisseur de transport.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

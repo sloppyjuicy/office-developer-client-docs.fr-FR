@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cebccd2d-8215-486e-9964-7fc42412cec6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8b1b037cf24c1bb5a0c84da3d59892ab15763f37
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22588243"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table de profil, un tableau qui contient des informations sur tous les profils disponibles.
   
@@ -44,7 +44,7 @@ HRESULT GetProfileTable(
   
 > [out] Pointeur vers un pointeur vers la table de profils.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -60,9 +60,9 @@ Si aucun profil n’existe pas, **GetProfileTable** renvoie un tableau avec des 
   
 Pour plus d’informations sur la table de profils, voir [Les Tables de profil](profile-tables.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

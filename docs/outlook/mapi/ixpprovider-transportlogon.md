@@ -21,7 +21,7 @@ ms.locfileid: "22583336"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Établit une session dans lequel une application cliente se connecte à un fournisseur de transport. 
   
@@ -70,7 +70,7 @@ _lppMAPIError_: [out] pointeur vers un pointeur vers la structure **MAPIERROR** 
     
 _lppXPLogon_: [out] pointeur vers le pointeur vers l’objet d’ouverture de session du fournisseur de transport renvoyée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK : L’appel a réussi et a renvoyé la valeur attendue ou les valeurs.
     

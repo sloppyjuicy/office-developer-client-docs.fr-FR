@@ -23,7 +23,7 @@ ms.locfileid: "22586416"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre le spouleur MAPI sur une banque de messages.
   
@@ -110,7 +110,7 @@ MDB_WRITE
   
 > [out] Un pointeur vers le pointeur vers le message stocker d’objet pour les applications clientes pour vous connecter à spouleur MAPI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
