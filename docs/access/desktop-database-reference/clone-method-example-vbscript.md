@@ -1,28 +1,28 @@
 ---
-title: Clone, méthode - Exemple (VBScript)
-TOCTitle: Clone Method Example (VBScript)
+title: Clone, méthode – Exemple (VBScript)
+TOCTitle: Clone method example (VBScript)
 ms:assetid: b9d49eb9-8da8-dfd2-1c59-35ac70969850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce2d2445b6d958f993c419ac9296192bb9dcc0aa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 503e73f2b40450ff230a0888352ac203fc79eabd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471947"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864052"
 ---
-# <a name="clone-method-example-vbscript"></a><span data-ttu-id="e7de5-102">Clone, méthode - Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="e7de5-102">Clone Method Example (VBScript)</span></span>
+# <a name="clone-method-example-vbscript"></a><span data-ttu-id="f209c-102">Clone, méthode – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="f209c-102">Clone method example (VBScript)</span></span>
 
 
-<span data-ttu-id="e7de5-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7de5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f209c-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="f209c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="e7de5-104">Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.</span><span class="sxs-lookup"><span data-stu-id="e7de5-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="f209c-104">Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.</span><span class="sxs-lookup"><span data-stu-id="f209c-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
-<span data-ttu-id="e7de5-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Cet exemple utilise la base de données Northwind (Les Comptoirs) distribuée avec Microsoft Access. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **CloneVBS.asp**. Vous pouvez afficher le résultat dans un navigateur client.</span><span class="sxs-lookup"><span data-stu-id="e7de5-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="f209c-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Cet exemple utilise la base de données Northwind (Les Comptoirs) distribuée avec Microsoft Access. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **CloneVBS.asp**. Vous pouvez afficher le résultat dans un navigateur client.</span><span class="sxs-lookup"><span data-stu-id="f209c-p101">Use the following example in an Active Server Page (ASP). This example uses the Northwind database distributed with Microsoft Access. Cut and paste the following code to Notepad or another text editor and save it as **CloneVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="e7de5-109">Pour exécuter cet exemple, changez la ligne RsCustomerList.Source = « Clients » à RsCustomerList.Source = « Produits » afin de traiter une plus grande table.</span><span class="sxs-lookup"><span data-stu-id="e7de5-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
+<span data-ttu-id="f209c-109">Pour exécuter cet exemple, changez la ligne RsCustomerList.Source = « Clients » à RsCustomerList.Source = « Produits » afin de traiter une plus grande table.</span><span class="sxs-lookup"><span data-stu-id="f209c-109">To exercise the example, change the line RsCustomerList.Source = "Customers" to to RsCustomerList.Source = "Products" to count a larger table.</span></span>
 
 ```vb 
  
