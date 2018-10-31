@@ -1,19 +1,19 @@
 ---
-title: Views et Fields, collections - Exemple (VB)
-TOCTitle: Views and Fields Collections Example (VB)
+title: Vues et les Collections Fields-exemple (VB)
+TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b2b84fa0cef3897777140d25b56e4e1d3191a0e7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d62adad4a62ed02967c6a279501ede5bc750eaea
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469285"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863843"
 ---
-# <a name="views-and-fields-collections-example-vb"></a>Views et Fields, collections - Exemple (VB)
+# <a name="views-and-fields-collections-example-vb"></a>Vues et les Collections Fields-exemple (VB)
 
 
 **S’applique à**: Access 2013 | Office 2013

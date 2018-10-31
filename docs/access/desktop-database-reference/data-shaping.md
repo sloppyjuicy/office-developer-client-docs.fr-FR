@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249390(v=office.15)
 ms:contentKeyID: 48545305
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e498bc461c2c267dee741a2bd9a4a83eacaca935
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 686c860ef9d8975b02391fedcea8f4b6f4e0b9bb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472359"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862295"
 ---
 # <a name="data-shaping"></a>Mise en forme des données
 
@@ -38,3 +38,12 @@ Vous pouvez accéder aux composants **Recordset** de l'objet **Recordset** mis e
 
 Pour obtenir des exemples de commandes de mise en forme et des hiérarchies qui en résultent, voir « Utilisation de Microsoft Data Shaping Service pour OLE DB ».
 
+Cette section comprend les rubriques suivantes :
+
+- [Remise en forme des données](reshaping.md)
+
+- [Agrégats petits-enfants](grandchild-aggregates.md)
+
+- [Commandes paramétrées avec des commandes COMPUTE intermédiaires](parameterized-commands-with-intervening-compute-commands.md)
+
+- [Persistance des objets Recordset hiérarchiques](persisting-hierarchical-recordsets.md)

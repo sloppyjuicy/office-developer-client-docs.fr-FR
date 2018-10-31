@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 886db9f42f44bd1df4acb678cb969b6d81a64df8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5d049a098a7f7cfd826c6c5945c71831acbceb04
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470192"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863051"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>Prévision d'un espace TempDB suffisant
 
@@ -20,15 +20,11 @@ ms.locfileid: "25470192"
 
 Si des erreurs se produisent lors du traitement d'objets [Recordset](recordset-object-ado.md) nécessitant un espace de traitement dans Microsoft SQL Server 6.5, vous serez peut-être amené à augmenter la taille de TempDB. (Certaines requêtes nécessitent un espace de traitement temporaire ; par exemple, une requête assortie d'une clause ORDER BY exige le tri de l'objet **Recordset**, ce qui requiert une certaine quantité d'espace temporaire.)
 
-
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Lisez cette procédure avant d'effectuer des actions, car il est plus difficile de réduire une unité qui a été préalablement étendue.</P>
-
-
-
+> [!IMPORTANTE] Lisez cette procédure avant d'effectuer des actions, car il est plus difficile de réduire une unité qui a été préalablement étendue.
 
 > [!NOTE]
-> <P>[!REMARQUE] Par défaut, dans Microsoft SQL Server 7.0 et les versions ultérieures, la base de données TempDB est configurée pour croître automatiquement en fonction des besoins. Ainsi, il est possible que cette procédure ne s'applique qu'aux serveurs exécutant des versions antérieures à la version 7.0.</P>
+> [!REMARQUE] Par défaut, dans Microsoft SQL Server 7.0 et les versions ultérieures, la base de données TempDB est configurée pour croître automatiquement en fonction des besoins. Ainsi, il est possible que cette procédure ne s'applique qu'aux serveurs exécutant des versions antérieures à la version 7.0.
 
 
 

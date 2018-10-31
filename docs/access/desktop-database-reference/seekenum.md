@@ -4,21 +4,22 @@ TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
 ms:contentKeyID: 48546706
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 6a151f7a4549a234c20f76bc1ac93d5eff6cf250
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5025706d64927482b632a17a5f71839cd4186619
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469087"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861413"
 ---
 # <a name="seekenum"></a>SeekEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
+
+<br/>
 
 <table>
 <colgroup>
@@ -68,7 +69,7 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

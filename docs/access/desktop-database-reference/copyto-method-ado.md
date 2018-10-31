@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6bd949b92068619b76ac78d5e62cde0e247ed7b6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 178254006216a71ae34c437da86cb8381d82125e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470504"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861581"
 ---
 # <a name="copyto-method-ado"></a>CopyTo, méthode (ADO)
 
@@ -31,13 +31,10 @@ Copie le nombre de caractères ou d'octets spécifié (selon la propriété [Typ
 
   - Valeur de variable objet contenant une référence à un objet **Stream** ouvert. L'objet **Stream** actif est copié dans l'objet **Stream** de destination spécifié par *DestStream*. L'objet **Stream** de destination doit être déjà ouvert sans quoi une erreur d'exécution est générée.
 
-
-    
+   
 
     > [!NOTE]
-    > <P>Le paramètre <EM>DestStream</EM> ne peut pas être un proxy de l’objet <STRONG>Stream</STRONG> parce que ceci exige l’accès à une interface privée sur l’objet <STRONG>Stream</STRONG> qui ne peuvent pas être transférée vers le client.</P>
-
-
+    > Le paramètre *DestStream* ne peut pas être un proxy de l’objet **Stream** parce que ceci exige l’accès à une interface privée sur l’objet **Stream** qui ne peuvent pas être transférée vers le client.
 
   - *NumChars*
 

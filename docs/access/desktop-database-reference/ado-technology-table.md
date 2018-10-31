@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 62e57c91acd83291ee7390d305303521510acbd2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471506"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864136"
 ---
 # <a name="ado-technology-table"></a>Tableau des technologies ADO
 
@@ -38,7 +38,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="even">
 <td><p>Interfaces du service Microsoft Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Fournisseur Microsoft OLE DB pour le service Microsoft Active Directory</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Fournisseur Microsoft OLE DB pour Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
@@ -46,11 +46,11 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Service d'indexation</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Fournisseur Microsoft OLE DB pour le service d'indexation Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Fournisseur Microsoft OLE DB pour le service d’indexation Microsoft</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Internet Explorer</p></td>
@@ -62,7 +62,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="jscript-ado-programming.md">Programmation ADO de JScript</a> <a href="ado-code-examples-in-microsoft-jscript.md">Exemples de Code ADO en Microsoft JScript</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="jscript-ado-programming.md">Programmation ADO de JScript</a> <a href="ado-code-examples-in-microsoft-jscript.md">Exemples de code ADO en Microsoft JScript</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
@@ -74,7 +74,7 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="odd">
 <td><p>Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Fournisseur Microsoft OLE DB pour Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Fournisseur Microsoft OLE DB pour Oracle</a></p></td>
 </tr>
 <tr class="even">
 <td><p>SQL Server 2000</p></td>
@@ -86,19 +86,19 @@ Le tableau suivant répertorie les produits, outils et technologies Microsoft pr
 </tr>
 <tr class="even">
 <td><p>VBScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="visual-basic-for-applications-functions.md">Visual Basic pour Applications fonctions</a> <a href="solutions-for-remote-data-access.md">Solutions pour l’accès aux données distantes</a> <a href="rds-tutorial-vbscript.md">Didacticiel RDS (VBScript)</a> <a href="vbscript-ado-programming.md">Programmation VBScript ADO</a> <a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">Exemples de Code ADO en Microsoft Visual Basic Scripting Edition</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="visual-basic-for-applications-functions.md">Visual Basic pour Applications fonctions</a> <a href="solutions-for-remote-data-access.md">Solutions pour l’accès aux données distantes</a> <a href="rds-tutorial-vbscript.md">Didacticiel RDS (VBScript)</a> <a href="vbscript-ado-programming.md">Programmation VBScript ADO</a> <a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">Exemples de code ADO en Microsoft Visual Basic Scripting Edition</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Erreurs</a> <a href="ado-errors.md">Erreurs ADO</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="visual-basic-for-applications-functions.md">Visual Basic pour Applications fonctions</a> <a href="chapter-12-rds-tutorial.md">Chapitre 12 : didacticiel RDS</a> <a href="using-ado-with-microsoft-visual-basic.md">Utilisation d’ADO avec Microsoft Visual Basic</a> <a href="ado-code-examples-in-microsoft-visual-basic.md">Exemples de Code ADO en Microsoft Visual Basic</a></p></td>
+<td><p><a href="errors.md">Erreurs</a> <a href="ado-errors.md">Erreurs ADO</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="visual-basic-for-applications-functions.md">Visual Basic pour Applications fonctions</a> <a href="chapter-12-rds-tutorial.md">Chapitre 12 : didacticiel RDS</a> <a href="using-ado-with-microsoft-visual-basic.md">Utilisation d’ADO avec Microsoft Visual Basic</a> <a href="ado-code-examples-in-microsoft-visual-basic.md">Exemples de code ADO en Microsoft Visual Basic</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="using-ado-with-microsoft-visual-c.md">Utilisation d’ADO avec Microsoft Visual C++</a> <a href="ado-code-examples-in-microsoft-visual-c.md">Exemples de Code ADO en Microsoft Visual C++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="using-ado-with-microsoft-visual-c.md">Utilisation d’ADO avec Microsoft Visual C++</a> <a href="ado-code-examples-in-microsoft-visual-c.md">Exemples de code ADO en Microsoft Visual C++</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="rds-tutorial-visual-j.md">Didacticiel RDS (Visual J ++)</a> <a href="using-ado-with-microsoft-visual-j.md">Utilisation d’ADO avec Microsoft Visual J ++</a> <a href="ado-code-examples-in-microsoft-visual-j.md">Exemples de Code ADO en Microsoft Visual J ++</a></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a> <a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a> <a href="rds-tutorial-visual-j.md">Didacticiel RDS (Visual J ++)</a> <a href="using-ado-with-microsoft-visual-j.md">Utilisation d’ADO avec Microsoft Visual J ++</a> <a href="ado-code-examples-in-microsoft-visual-j.md">Exemples de code ADO en Microsoft Visual J ++</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>

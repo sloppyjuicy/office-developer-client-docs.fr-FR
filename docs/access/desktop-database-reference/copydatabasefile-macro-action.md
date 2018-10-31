@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b52644cb9a0a5140f45c42eaead84a63723c23e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 934a44ee754c403a9ef185537c8af114f1200d82
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472054"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862533"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopierFichierBaseDeDonnées, action de macro
 
@@ -22,7 +22,7 @@ Utilisez l'action **CopierFichierBaseDeDonnées** pour créer une copie de la ba
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
 
 
 
@@ -57,7 +57,7 @@ L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </p>
 
 > [!WARNING]
-> <P>Si les utilisateurs sont déconnectés d’une base de données sans avertissement adéquat, des données risquent d’être perdues.</P>
+> Si les utilisateurs sont déconnectés d’une base de données sans avertissement adéquat, des données risquent d’être perdues.
 
 
 <p></p></td>

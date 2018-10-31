@@ -4,31 +4,32 @@ TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e928271d61cf38232014db1c67482ca6d47fd863
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6f1e174253904adf7392aa7ae19786103e55843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472130"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863352"
 ---
 # <a name="schemaenum"></a>SchemaEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie le type de **Recordset** de schéma extrait par la méthode [OpenSchema](openschema-method-ado.md).
 
-**Remarques**
+## <a name="remarks"></a>Remarques
 
-D'autres informations sur la fonction et les colonnes renvoyées pour chaque constante ADO sont présentes dans les rubriques de l'Annexe B du manuel *OLE DB Programmers Reference*. Le nom de chaque rubrique est donné entre parenthèses dans la colonne Description du tableau ci-après.
+Vous trouverez plus d’informations sur la fonction et les colonnes renvoyées pour chaque constante ADO dans les rubriques de l’annexe B de la *Référence des programmeurs OLE DB*. Le nom de chaque rubrique est répertorié entre parenthèses dans la section Description du tableau suivant.
 
-Vous trouverez plus d’informations sur la fonction et les colonnes renvoyées pour chaque constante ADO MD dans les rubriques du chapitre 23 de la documentation *OLE DB pour OLAP* . Le nom de chaque rubrique est indiqué entre parenthèses et marqué avec un astérisque (\*) dans la colonne Description du tableau ci-après.
+Vous trouverez plus d’informations sur la fonction et les colonnes renvoyées pour chaque constante ADO MD dans les rubriques du chapitre 23 de la documentation *OLE DB pour OLAP* . Le nom de chaque rubrique est indiqué entre parenthèses et marqué avec un astérisque (\*) dans la colonne Description du tableau suivant.
 
 Convertissez les types de données des colonnes de la documentation OLE DB en types de données ADO en vous reportant à la colonne de la rubrique [DataTypeEnum](datatypeenum.md) ADO. Par exemple, un type de données OLE DB de **DBTYPE\_WSTR** équivaut à un type de données ADO de **adWChar**.
 
-ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfoKeywords** et **adSchemaDBInfoLiterals**. ADO crée un **Recordset**, puis renseigne chaque ligne avec les valeurs renvoyées respectivement par les méthodes **IDBInfo::GetKeywords** et **IDBInfo::GetLiteralInfo**. Pour plus d'informations sur ces méthodes, consultez la section IDBInfo du manuel *OLE DB Programmer's Reference.*
+ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfoKeywords** et **adSchemaDBInfoLiterals**. ADO crée un **objet Recordset**, puis renseigne chaque ligne avec les valeurs renvoyées respectivement par les méthodes **IDBInfo::GetKeywords** et **IDBInfo::GetLiteralInfo** . Vous trouverez plus d’informations sur ces méthodes dans la section IDBInfo de la *référence du programmeur OLE DB*.
+
+<br/>
 
 <table>
 <colgroup>
@@ -458,7 +459,7 @@ NOM_DE_VUE</p></td>
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

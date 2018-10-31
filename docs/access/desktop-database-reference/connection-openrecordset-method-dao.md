@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b777e53bfad06e0b6c98490f7ec8bf3628c2823
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 7f0e8fa499a21bb231131b968c1456af9cb86a45
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603181"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862953"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Connection.OpenRecordset Method (DAO)
 
@@ -57,7 +57,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p>
 
 > [!NOTE]
-> <P>Si vous ouvrez un <STRONG>Recordset</STRONG> dans un espace de travail Microsoft Access et que vous n’indiquez aucun type, <STRONG>OpenRecordset</STRONG> crée un <STRONG>Recordset</STRONG> de type table, si possible. Si vous spécifiez une table liée ou une requête, <STRONG>OpenRecordset</STRONG> crée un <STRONG>Recordset</STRONG> de type feuille de réponse dynamique.</P>
+> Si vous ouvrez un **Recordset** dans un espace de travail Microsoft Access et que vous n’indiquez aucun type, **OpenRecordset** crée un **Recordset** de type table, si possible. Si vous spécifiez une table liée ou une requête, **OpenRecordset** crée un **Recordset** de type feuille de réponse dynamique.
 
 
 </td>
@@ -69,7 +69,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>Les constantes <STRONG>dbConsistent</STRONG> et <STRONG>dbInconsistent</STRONG> s’excluent mutuellement, et l’utilisation de ces deux constantes peut entraîner une erreur. L’indication d’un argument lockedits lorsque options utilise la constante <STRONG>dbReadOnly</STRONG> génère également une erreur.</P>
+> Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement, et les deux entraîne une erreur. Fournir un argument de lockedits lorsque des options d’utiliser les constantes **peut entraîner** génère également une erreur.
 
 
 </td>
@@ -81,7 +81,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p>
 
 > [!NOTE]
-> <P>Vous pouvez utiliser <STRONG>dbReadOnly</STRONG> dans l’argument options ou l’argument lockededits, mais pas dans les deux. Si vous l’utilisez pour les deux arguments, une erreur d’exécution se produit.</P>
+> Vous pouvez utiliser **dbReadOnly** dans l’argument options ou l’argument lockededits, mais pas dans les deux. Si vous l’utilisez pour les deux arguments, une erreur d’exécution se produit.
 
 
 </td>
@@ -90,7 +90,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 </table>
 
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
 =======
 ### <a name="return-value"></a>Valeur renvoyée
@@ -110,6 +110,6 @@ Le fait de fermer un objet **Recordset** par le biais de la méthode **[Close](c
 
 
 > [!NOTE]
-> <P>Si <EM>la source</EM> fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le <STRONG>jeu d’enregistrements</STRONG>. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut de votre système, et SQL n'accepte que les caractères décimaux usités aux États-Unis.</P>
+> Si *la source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le **jeu d’enregistrements**. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut de votre système, et SQL n'accepte que les caractères décimaux usités aux États-Unis.
 
 

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6460572f44e79fe4bdb30d1ca33810d610da9721
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8e60c52ded359350adff737807c3e0f92cb7c4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469596"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862123"
 ---
-# <a name="shape-append-clause"></a>APPEND, clause de commande SHAPE
+# <a name="shape-append-clause"></a>Shape Append, clause
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -122,3 +122,12 @@ SHAPE {select * from t1; drop table t1} APPEND ({select * from t2} RELATE k1 TO 
 
 FORME exécute sélectionner \* de t1 ; DROP table t1 et (sélectionnez \* from t2 associer k1 TO k2), sans réaliser que drop table t1 est distincte et dans cette commande fournisseur cas, dangereuse. Les applications doivent toujours valider l'entrée utilisateur pour empêcher d'éventuelles attaques de pirates.
 
+Cette section comprend les rubriques suivantes :
+
+- [Fonctionnement des commandes non paramétrées](operation-of-non-parameterized-commands.md)
+
+- [Fonctionnement des commandes paramétrées](operation-of-parameterized-commands.md)
+
+- [Commandes hybrides](hybrid-commands.md)
+
+- [Clauses de mise en forme COMPUTE intermédiaires](intervening-shape-compute-clauses.md)

@@ -4,21 +4,22 @@ TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: a6d6f66e3bdee06611faafef5d32a2a486fc2028
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 211ab4fc9bf4cab6302c8f2bd5f236aecdd0b078
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470008"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863648"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) doit tester.
+
+<br/>
 
 <table>
 <colgroup>
@@ -41,7 +42,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 </tr>
 <tr class="even">
 <td><p><strong>adApproxPosition</strong></p></td>
-<td><p>0 x 4000</p></td>
+<td><p>0x4000</p></td>
 <td><p>Prend en charge les propriétés <a href="absoluteposition-property-ado.md">AbsolutePosition</a> et <a href="absolutepage-property-ado.md">AbsolutePage</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -103,7 +104,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

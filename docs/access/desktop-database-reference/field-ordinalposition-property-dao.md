@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845002(v=office.15)
 ms:contentKeyID: 48543088
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7151ed1a03c0ce0cf0204716d19bb7cfd2b4f607
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1218dd1cc6b1b309c5513a9b0f67a66d06d9c499
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469333"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863632"
 ---
 # <a name="fieldordinalposition-property-dao"></a>Field.OrdinalPosition Property (DAO)
 
@@ -81,11 +81,8 @@ Deux champs **Field** ou plus peuvent avoir la même valeur de propriété **Ord
 
 Vous pouvez spécifier un nombre supérieur au nombre de champs moins 1. Le champ est renvoyé dans un ordre relatif au nombre le plus élevé. Par exemple, si vous définissez la propriété **OrdinalPosition** d'un champ sur 20 (et qu'il n'y a que 5 champs) et si vous avez défini la propriété **OrdinalPosition** des deux autres champs sur 10 et 30, respectivement, le champ défini sur 20 est renvoyé entre les champs définis sur 10 et 30.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Même si la collection <STRONG>Fields</STRONG> d'un objet <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> n'a pas été rafraîchie, l'ordre des champs dans un objet <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> ouvert à partir de l'objet <STRONG>TableDef</STRONG> reflète les données <STRONG>OrdinalPosition</STRONG> de l'objet <STRONG>TableDef</STRONG>. Un objet <STRONG>Recordset</STRONG> de type table a les mêmes données <STRONG>OrdinalPosition</STRONG> en tant que table sous-jacente, mais tout autre type d'objet <STRONG>Recordset</STRONG> a des nouvelles données <STRONG>OrdinalPosition</STRONG> (commençant par 0) qui suivent l'ordre déterminé par les données <STRONG>OrdinalPosition</STRONG> de l'objet <STRONG>TableDef</STRONG>.</P>
-
-
+> [!REMARQUE] Même si la collection **Fields** d'un objet [TableDef](tabledef-object-dao.md) n'a pas été rafraîchie, l'ordre des champs dans un objet [Recordset](recordset-object-dao.md) ouvert à partir de l'objet **TableDef** reflète les données **OrdinalPosition** de l'objet **TableDef**. Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
 
 ## <a name="example"></a>Exemple
 

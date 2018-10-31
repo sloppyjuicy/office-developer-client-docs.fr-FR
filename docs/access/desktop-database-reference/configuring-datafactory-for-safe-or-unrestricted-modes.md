@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a3f551e4c377a0c24a0b733ff094e19d1b75d725
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 04964b085d6ece60bbdb30e4561e6e02de76268d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606401"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863933"
 ---
 # <a name="configuring-datafactory-for-safe-or-unrestricted-modes"></a>Configuration de DataFactory en mode sans échec ou non restreint
 
@@ -26,7 +26,7 @@ ADO est installé par défaut avec une configuration [RDSServer.DataFactory](dat
 
 3.  Le fichier Msdfmap.ini est installé dans le répertoire Windows. Vous devez le configurer le cas échéant avant d'utiliser RDS en mode d'application à trois niveaux.
 
-Vous pouvez éventuellement configurer une installation de **DataFactory** en mode non restreint. **DataFactory** peut être utilisé directement sans le gestionnaire personnalisé. Les utilisateurs peuvent néanmoins utiliser ce dernier en modifiant les chaînes de connexion, le cas échéant. Pour plus d'informations sur les implications de l'utilisation de l'objet **RDSServer.DataFactory**, consultez [Sécurisation des applications RDS](securing-rds-applications.md).
+Vous pouvez éventuellement configurer une installation de **DataFactory** en mode non restreint. **DataFactory** peut être utilisé directement sans le gestionnaire personnalisé. Les utilisateurs peuvent néanmoins utiliser ce dernier en modifiant les chaînes de connexion, le cas échéant. Pour plus d’informations sur les implications de l’utilisation de l’objet **RDSServer.DataFactory** , consultez [Sécurisation des Applications RDS](securing-rds-applications.md).
 
 Le fichier de Registre handsafe.reg est fourni afin de configurer les entrées de Registre du gestionnaire et obtenir ainsi une configuration sécurisée. Pour fonctionner en mode sans échec, exécutez handsafe.reg. Le fichier de Registre handunsf.reg est quant à lui fourni pour configurer les entrées de Registre du gestionnaire afin de bénéficier d'une configuration sans restriction d'accès. Pour fonctionner en mode non restreint, exécutez le fichier handunsf.reg.
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8bce151e800b58e9c99c6dd6591114c53208a5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dc8f7a2d217a25a8404765aa05bae19fdccad2c3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469886"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863863"
 ---
 # <a name="append-method-adox-users"></a>Append, méthode (Utilisateurs ADOX)
 
@@ -43,6 +43,6 @@ Une erreur se produit si le fournisseur ne prend pas en charge la création d'ut
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Avant d'ajouter un objet <STRONG>User</STRONG> à la collection <STRONG>Users</STRONG> d'un objet <STRONG>Group</STRONG>, un objet <STRONG>User</STRONG> affecté de la même propriété <A href="name-property-adox.md">Name</A> que celui à ajouter doit déjà exister dans la collection <STRONG>Users</STRONG> de l'objet <STRONG>Catalog</STRONG>.</P>
+> [!REMARQUE] Avant d'ajouter un objet **User** à la collection **Users** d'un objet **Group**, un objet **User** affecté de la même propriété [Name](name-property-adox.md) que celui à ajouter doit déjà exister dans la collection **Users** de l'objet **Catalog**.
 
 
