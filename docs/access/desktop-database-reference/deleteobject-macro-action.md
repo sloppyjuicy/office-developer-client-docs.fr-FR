@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85e9fc888e06a69be6f458ed03ad92b8253b30a2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f9ac791ffd0f11c11358298570db833f8d561d11
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470587"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860937"
 ---
 # <a name="deleteobject-macro-action"></a>SupprimerObjet, action de macro
 
@@ -26,9 +26,7 @@ Utilisez l'action **SupprimerObjet** pour supprimer un objet de base de données
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
 
 ## <a name="setting"></a>Valeur
 
@@ -60,7 +58,7 @@ L'action **SupprimerObjet** possède les arguments suivants.
 
 
 > [!WARNING]
-> <P>[!ATTENTION] Si vous laissez les zones <STRONG>Type d'objet</STRONG> et <STRONG>Nom de l'objet</STRONG> vides, Access supprime l'objet sélectionné dans le volet de navigation sans afficher de message d'avertissement lorsqu'il rencontre l'action <STRONG>SupprimerObjet</STRONG>.</P>
+> [!ATTENTION] Si vous laissez les zones **Type d'objet** et **Nom de l'objet** vides, Access supprime l'objet sélectionné dans le volet de navigation sans afficher de message d'avertissement lorsqu'il rencontre l'action **SupprimerObjet**.
 
 
 

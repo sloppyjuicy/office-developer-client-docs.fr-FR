@@ -3,7 +3,7 @@
 >>>>>>> Master ms:assetid : 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID : ms.date 48543867 : 18/09/2015 mtps_version : v=office.15
 ---
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 # <a name="editmode-property-ado"></a>EditMode, propriété (ADO)
 =======
 # <a name="editmode-property-ado"></a>EditMode, propriété (ADO)
@@ -14,7 +14,7 @@
 
 Indique l'état d'édition de l'enregistrement actuel.
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ## <a name="return-value"></a>Valeur renvoyée
 =======
 ## <a name="return-value"></a>Valeur renvoyée
@@ -32,6 +32,6 @@ Lorsqu’un appel à [Supprimer](delete-method-ado-recordset.md) ne supprime pas
 
 
 > [!NOTE]
-> <P>[!REMARQUE] <STRONG>EditMode</STRONG> ne peut renvoyer une valeur valide que s'il existe un enregistrement actuel. <STRONG>EditMode</STRONG> renvoie une erreur si la valeur de <A href="bof-eof-properties-ado.md">BOF or EOF</A> est True ou si l'enregistrement actuel a été supprimé.</P>
+> [!REMARQUE] **EditMode** ne peut renvoyer une valeur valide que s'il existe un enregistrement actuel. **EditMode** renvoie une erreur si la valeur de [BOF or EOF](bof-eof-properties-ado.md) est True ou si l'enregistrement actuel a été supprimé.
 
 

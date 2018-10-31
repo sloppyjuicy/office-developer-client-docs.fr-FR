@@ -4,21 +4,22 @@ TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
 ms:contentKeyID: 48543967
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 75644308b1af0dd4c6e3b40b2bd6b1c7461f928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbfc4a45b3a85704fe8c9e6a7b984456ac783b35
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471931"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864081"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -36,7 +37,7 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adFldCacheDeferred</strong></p></td>
-<td><p>0 x 1000</p></td>
+<td><p>0x1000</p></td>
 <td><p>Indique que le fournisseur met en mémoire cache les valeurs des champs et que les lectures suivantes sont effectuées depuis la mémoire cache.</p></td>
 </tr>
 <tr class="even">
@@ -81,12 +82,12 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldMayDefer</strong></p></td>
-<td><p>0 x 2</p></td>
+<td><p>0x2</p></td>
 <td><p>Indique que le champ est différé : ses valeurs ne sont pas extraites de la source de données avec l'intégralité de l'enregistrement, mais seulement lors d'un accès explicite de votre part.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldNegativeScale</strong></p></td>
-<td><p>0 x 4000</p></td>
+<td><p>0x4000</p></td>
 <td><p>Indique que le champ représente une valeur numérique depuis une colonne qui prend en charge les valeurs d’échelle négatives. L’échelle est spécifiée par la propriété <a href="numericscale-property-ado.md">NumericScale</a>.</p></td>
 </tr>
 <tr class="even">
@@ -119,7 +120,7 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

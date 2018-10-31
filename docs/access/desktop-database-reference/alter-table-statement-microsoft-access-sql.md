@@ -1,10 +1,10 @@
 ---
-title: ALTER TABLE (Microsoft Access SQL), instruction
-TOCTitle: ALTER TABLE Statement (Microsoft Access SQL)
+title: Instruction ALTER TABLE (Microsoft Access SQL)
+TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196148(v=office.15)
 ms:contentKeyID: 48545763
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277560
@@ -12,27 +12,21 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b8fc826d438973b4d079e9b90d3663ab755821cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 83ba764fa23c972c93156d418bffcde6f3239145
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472068"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863694"
 ---
-# <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE (Microsoft Access SQL), instruction
-
+# <a name="alter-table-statement-microsoft-access-sql"></a>Instruction ALTER TABLE (Microsoft Access SQL)
 
 **S’applique à**: Access 2013 | Office 2013
 
-
-
 Modifie la structure d'une table après qu'elle a été créée avec l'instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
-
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge ALTER TABLE, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Pour cela, utilisez les méthodes Create DAO.
-
-
+> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge ALTER TABLE, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes **Create DAO** à la place.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -70,11 +64,11 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>index</em></p></td>
-<td><p>Index du <em>champ</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
+<td><p>Index du <em>champ</em>. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>index de plusieurs champs</em></p></td>
-<td><p>Définition d’un index de plusieurs champs à ajouter à la <em>table</em>. Pour plus d’informations sur la création de cet index, voir <a href="constraint-clause-microsoft-access-sql.md">CONSTRAINT, clause</a>.</p></td>
+<td><p>La définition d’un index de plusieurs champs à ajouter au <em>tableau</em>. Pour plus d’informations sur la création de cet index, voir la <a href="constraint-clause-microsoft-access-sql.md">clause CONSTRAINT</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>nom de l'index</em></p></td>
@@ -86,41 +80,34 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 
 ## <a name="remarks"></a>Notes
 
-L'instruction ALTER TABLE permet de modifier une table existante de plusieurs manières. Procédez comme suit :
+À l’aide de l’instruction ALTER TABLE, vous pouvez modifier une table existante de plusieurs façons. Procédez comme suit :
 
-  - Utilisez ADD COLUMN pour ajouter un champ à la table. Vous devez pour cela spécifier le nom du champ, le type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante ajoute un champ texte de 25 caractères appelé Notes à la table Employees :
+- Utilisez ADD COLUMN pour ajouter un champ à la table. Vous devez pour cela spécifier le nom du champ, le type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante ajoute un champ texte de 25 caractères appelé Notes à la table Employees :
     
-    ```sql
+  ```sql
     ALTER TABLE Employees ADD COLUMN Notes TEXT(25)
-    ```
+  ```
     
-    Vous pouvez également définir un index sur ce champ. Pour plus d'informations sur les index à champ unique, voir [Clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
+  Vous pouvez également définir un index sur ce champ. Pour plus d’informations sur les index monochamp, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
     
-    Si vous spécifiez NOT NULL pour un champ, les nouveaux enregistrements doivent disposer de données valides dans ce champ.
+  Si vous spécifiez NOT NULL pour un champ, les nouveaux enregistrements sont requis pour contenir des données valides dans ce champ.
 
-  - Utilisez ALTER COLUMN pour changer le type des données d'un champ existant. Vous devez pour cela spécifier le nom du champ, le nouveau type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante change le type des données d'un champ ZipCode de la table Employees en remplaçant l'entier qui s'y trouvait par du texte comportant 10 caractères :
+- Utilisez ALTER COLUMN pour changer le type des données d'un champ existant. Vous devez pour cela spécifier le nom du champ, le nouveau type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante change le type des données d'un champ ZipCode de la table Employees en remplaçant l'entier qui s'y trouvait par du texte comportant 10 caractères :
     
-    ```sql
+  ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
-    ```
+  ```
+  
+- Utilisez ADD CONSTRAINT pour ajouter un index de plusieurs champs. Pour plus d’informations sur les index de plusieurs champs, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
 
-  - Utilisez ADD CONSTRAINT pour ajouter un index de plusieurs champs. Pour plus d'informations sur les index de plusieurs champs, voir [CONSTRAINT, clause](constraint-clause-microsoft-access-sql.md).
+- Utilisez DROP COLUMN pour supprimer un champ. Vous ne devez pour cela spécifier que le nom du champ.
 
-  - Utilisez DROP COLUMN pour supprimer un champ. Vous ne devez pour cela spécifier que le nom du champ.
+- Utilisez DROP CONSTRAINT pour supprimer un index de plusieurs champs. Vous ne devez pour cela spécifier que le nom de l'index suivant le mot réservé CONSTRAINT.
 
-  - Utilisez DROP CONSTRAINT pour supprimer un index de plusieurs champs. Vous ne devez pour cela spécifier que le nom de l'index suivant le mot réservé CONSTRAINT.
-
-
-> [!NOTE]
-> <UL>
-> <LI>
-> <P>[!REMARQUE] Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.</P>
-> <LI>
-> <P>Vous pouvez utiliser l’instruction <A href="create-index-statement-microsoft-access-sql.md">CREATE INDEX</A> pour ajouter un index d’un ou de plusieurs champs à une table et l’instruction ALTER TABLE ou <A href="drop-statement-microsoft-access-sql.md">DROP</A> pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.</P>
-> <LI>
-> <P>Vous pouvez utiliser NOT NULL sur un seul champ ou dans une clause CONSTRAINT nommée qui s'applique à un index d'un ou de plusieurs champs nommé CONSTRAINT. En revanche, vous ne pouvez appliquer la restriction NOT NULL à un champ qu'une seule fois. Si vous appliquez plusieurs fois cette restriction, une erreur d'exécution de produit. 
-</P></LI></UL>
-
+> [!NOTE] 
+> - [!REMARQUE] Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.
+> - Vous pouvez utiliser l’instruction [CREATE INDEX](create-index-statement-microsoft-access-sql.md) pour ajouter un index d’un ou de plusieurs champs à une table et l’instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
+> - Vous pouvez utiliser NOT NULL sur un seul champ ou dans une clause CONSTRAINT nommée qui s'applique à un index d'un ou de plusieurs champs nommé CONSTRAINT. En revanche, vous ne pouvez appliquer la restriction NOT NULL à un champ qu'une seule fois. Si vous appliquez plusieurs fois cette restriction, une erreur d'exécution de produit. 
 
 
 ## <a name="example"></a>Exemples

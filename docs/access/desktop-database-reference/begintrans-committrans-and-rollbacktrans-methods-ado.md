@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3de31156f9c06d3a14e7dbef2748543a3e6c4fd
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 719c495e18fb769a2d3f994542ab8d9e93a469f1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605757"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860377"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans et RollbackTrans, méthodes (ADO)
 
@@ -37,7 +37,7 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 
 *objet*. RollbackTrans
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ## <a name="return-value"></a>Valeur renvoyée
 =======
 ## <a name="return-value"></a>Valeur renvoyée
@@ -57,9 +57,7 @@ Utilisez ces méthodes avec un objet **Connection** lorsque vous voulez enregist
 
 
 > [!NOTE]
-> <P>Tous les fournisseurs ne prennent pas en charge les transactions. Vérifiez que la propriété « <STRONG>Transaction DDL</STRONG> », définie par le fournisseur, apparaît dans la collection <A href="properties-collection-ado.md">Properties</A> de l’objet <STRONG>Connection</STRONG> ; elle indique que le fournisseur prend en charge les transactions. Si ce n’est pas le cas, l’appel de l’une de ces méthodes retourne une erreur.</P>
-
-
+> Tous les fournisseurs ne prennent pas en charge les transactions. Vérifiez que la propriété « **Transaction DDL** », définie par le fournisseur, apparaît dans la collection [Properties](properties-collection-ado.md) de l’objet **Connection** ; elle indique que le fournisseur prend en charge les transactions. Si ce n’est pas le cas, l’appel de l’une de ces méthodes retourne une erreur.
 
 Une fois que vous appelez la méthode **BeginTrans**, le fournisseur ne valide plus instantanément les modifications que vous apportez jusqu'à ce que vous appeliez **CommitTrans** ou **RollbackTrans** pour mettre fin à la transaction.
 

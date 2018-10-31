@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7eae567d2787e60f84c8020d80e1c15c9b02928f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e44ae29014870dcd4fc95629081d50191d6ff184
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471069"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863983"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
 
@@ -143,20 +143,12 @@ Synonyme</p></th>
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Le type de données BIT ANSI SQL ne correspond pas au type de données BIT Microsoft Access SQL. En revanche, il correspond au type de données BINARY. Il n'existe aucun équivalent ANSI SQL pour le type de données BIT Microsoft Access SQL.</P>
-> <LI>
-> <P>TIMESTAMP n'est plus reconnu comme synonyme de DATETIME.</P>
-> <LI>
-> <P>NUMERIC n'est plus reconnu comme synonyme de FLOAT ou DOUBLE. NUMERIC est désormais utilisé comme synonyme de DECIMAL.</P>
-> <LI>
-> <P>Un champ LONGTEXT est toujours stocké dans le format de représentation Unicode.</P>
-> <LI>
-> <P>Si le nom du type de données TEXT est utilisé sans que la longueur facultative soit spécifiée, par exemple TEXT(25), un champ LONGTEXT est créé. Des <A href="create-table-statement-microsoft-access-sql.md">instructions CREATE TABLE</A> sont alors créées pour produire des types de données cohérents avec Microsoft SQL Server.</P>
-> <LI>
-> <P>Un champ CHAR est toujours stocké dans le format de représentation Unicode qui est l'équivalent du type de données NATIONAL CHAR ANSI SQL.</P>
-> <LI>
-> <P>Si le nom du type de données TEXT est utilisé et si la longueur facultative est spécifiée, par exemple TEXT(25), le type de données du champ est équivalent au type de données CHAR. Ceci permet d'assurer la compatibilité avec les anciennes versions de la plupart des applications Microsoft Jet et d'aligner le type de données TEXT (sans spécification de longueur) avec Microsoft SQL Server.</P></LI></UL>
+> - Le type de données BIT ANSI SQL ne correspond pas au type de données BIT Microsoft Access SQL. En revanche, il correspond au type de données BINARY. Il n'existe aucun équivalent ANSI SQL pour le type de données BIT Microsoft Access SQL.
+> - TIMESTAMP n'est plus reconnu comme synonyme de DATETIME.
+> - NUMERIC n'est plus reconnu comme synonyme de FLOAT ou DOUBLE. NUMERIC est désormais utilisé comme synonyme de DECIMAL.
+> - Un champ LONGTEXT est toujours stocké dans le format de représentation Unicode.
+> - Si le nom du type de données TEXT est utilisé sans que la longueur facultative soit spécifiée, par exemple TEXT(25), un champ LONGTEXT est créé. Des [instructions CREATE TABLE](create-table-statement-microsoft-access-sql.md) sont alors créées pour produire des types de données cohérents avec Microsoft SQL Server.
+> - Un champ CHAR est toujours stocké dans le format de représentation Unicode qui est l'équivalent du type de données NATIONAL CHAR ANSI SQL.
+> - Si le nom du type de données TEXT est utilisé et si la longueur facultative est spécifiée, par exemple TEXT(25), le type de données du champ est équivalent au type de données CHAR. Ceci permet d'assurer la compatibilité avec les anciennes versions de la plupart des applications Microsoft Jet et d'aligner le type de données TEXT (sans spécification de longueur) avec Microsoft SQL Server.
 
 

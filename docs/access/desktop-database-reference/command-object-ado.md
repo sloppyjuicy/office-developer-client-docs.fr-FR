@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5199037f44e75bddf697197bca992a95b8432420
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605743"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864073"
 ---
 # <a name="command-object-ado"></a>Command, objet (ADO)
 
@@ -34,7 +34,7 @@ Les collections, les méthodes et les propriétés d'un objet **Command** vous p
 
   - Définir des requêtes paramétrées ou des arguments de procédure stockée à l'aide des objets [Parameter](parameter-object-ado.md) et de la collection [Parameters](parameters-collection-ado.md).
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) ;
 =======
   - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) ;
@@ -54,11 +54,8 @@ Les collections, les méthodes et les propriétés d'un objet **Command** vous p
 
   - accéder aux attributs spécifiques du fournisseur avec la collection [Properties](properties-collection-ado.md).
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Pour exécuter une requête sans utiliser d'objet <STRONG>Command</STRONG>, passez une chaîne de requête à la méthode <A href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute</A> d'un objet <STRONG>Connection</STRONG> ou à la méthode <A href="open-method-ado-recordset.md">Open</A> d'un objet <STRONG>Recordset</STRONG>. Toutefois, un objet <STRONG>Command</STRONG> est nécessaire si vous voulez rendre persistant le texte de commande et l'exécuter de nouveau, ou utiliser des paramètres de requête.</P>
-
-
+> [!REMARQUE] Pour exécuter une requête sans utiliser d'objet **Command**, passez une chaîne de requête à la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) d'un objet **Connection** ou à la méthode [Open](open-method-ado-recordset.md) d'un objet **Recordset**. Toutefois, un objet **Command** est nécessaire si vous voulez rendre persistant le texte de commande et l'exécuter de nouveau, ou utiliser des paramètres de requête.
 
 Pour créer un objet **Command** indépendamment d'un objet **Connection** déjà défini, définissez sa propriété **ActiveConnection** sur une chaîne de connexion valide. ADO crée tout de même un objet **Connection**, mais il ne l'affecte pas à une variable objet. Toutefois, si vous associez plusieurs objets **Command** à la même connexion, vous devez créer et ouvrir explicitement un objet **Connection**; l'objet **Connection** est ainsi affecté à une variable objet. Si vous ne définissez pas la propriété **ActiveConnection** de l'objet **Connection** avec cette variable objet, ADO crée un nouvel objet **Connection** pour chaque objet **Command**, même si vous utilisez la même chaîne de connexion.
 

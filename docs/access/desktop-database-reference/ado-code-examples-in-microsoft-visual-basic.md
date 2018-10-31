@@ -1,28 +1,27 @@
 ---
-title: Exemples de code ADO en Microsoft Visual Basic
-TOCTitle: ADO Code Examples in Microsoft Visual Basic
+title: Exemples de code ADO dans Microsoft Visual Basic
+TOCTitle: ADO code examples in Microsoft Visual Basic
 ms:assetid: 5eb855d4-e5e1-2626-3a21-891d195fb193
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17414560b3aafb51285de0fa6f2beb6d2f0b7b85
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604609"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862113"
 ---
-# <a name="ado-code-examples-in-microsoft-visual-basic"></a>Exemples de code ADO en Microsoft Visual Basic
+# <a name="ado-code-examples-in-microsoft-visual-basic"></a>Exemples de code ADO dans Microsoft Visual Basic
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes, propriétés et événements ADO lorsque vous écrivez du code en Visual Basic.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Collez l'exemple de code entier, de Sub à End Sub, dans votre éditeur de code. L'exemple risque de ne pas s'exécuter correctement s'il est copié partiellement ou si la mise en forme de paragraphes n'est pas respectée.</P>
+> [!REMARQUE] Collez l'exemple de code entier, du début à la fin, dans votre éditeur de code. L'exemple risque de ne pas s'exécuter correctement s'il est copié partiellement ou si la mise en forme de paragraphes n'est pas respectée.
 
 
 
@@ -60,7 +59,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
   - [GetString, méthode - Exemple](getstring-method-example-vb.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [SkipLine, méthode, EOS et LineSeparator, propriétés-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 =======
   - [SkipLine, méthode, EOS et LineSeparator, propriétés-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
@@ -84,7 +83,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
   - [Save et Open, méthodes - Exemple](save-and-open-methods-example-vb.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [Seek (méthode) et Index, propriété-exemple](seek-method-and-index-property-example-vb.md)
 =======
   - [Seek (méthode) et Index, propriété-exemple](seek-method-and-index-property-example-vb.md)
@@ -98,7 +97,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
 **Propriétés**
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [AbsolutePage, PageCount et PageSize, propriétés - Exemple](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [AbsolutePosition et CursorLocation, propriétés - Exemple](absoluteposition-and-cursorlocation-properties-example-vb.md)

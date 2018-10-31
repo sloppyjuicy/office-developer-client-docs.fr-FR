@@ -1,19 +1,19 @@
 ---
-title: "Chapitre 15 : Principes fondamentaux d'ADOX"
+title: 'Chapitre 15 : Principes de base ADOX'
 TOCTitle: 'Chapter 15: ADOX Fundamentals'
 ms:assetid: 973d7579-4f34-3b31-a761-a951ab29e850
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3869f23b93df78fd207812a85f91dd3272bd255f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472145"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863744"
 ---
-# <a name="chapter-15-adox-fundamentals"></a>Chapitre 15 : Principes fondamentaux d'ADOX
+# <a name="chapter-15-adox-fundamentals"></a>Chapitre 15 : Principes de base ADOX
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -26,15 +26,21 @@ Pour utiliser ADOX avec votre outil de développement, vous devez établir une r
 
 Le fournisseur Microsoft OLE DB pour le moteur de base de données Microsoft Jet assure la prise en charge complète d'ADOX. Il se peut que certaines fonctionnalités d'ADOX ne soient pas prises en charge selon votre fournisseur de données. Pour plus d'informations sur les fonctionnalités prises en charge par le fournisseur Microsoft OLE DB pour ODBC, le fournisseur Microsoft OLE DB pour Oracle ou le fournisseur Microsoft SQL Server OLE DB, consultez le fichier LisezMoi MDAC.
 
-Ce document suppose une connaissance pratique du langage de programmation Microsoft® Visual Basic® et une connaissance générale d'ADO. Pour plus d'informations sur ADO, consultez [Guide du programmeur ADO](ado-programmer-s-guide.md). Pour plus des informations générales sur ADOX, consultez les rubriques suivantes :
+Ce document suppose une connaissance pratique du langage de programmation Microsoft® Visual Basic® et une connaissance générale d'ADO. Pour plus d'informations sur ADO, consultez [Guide du programmeur ADO](ado-programmer-s-guide.md).
 
-  - [Objets ADOX](adox-objects.md)
+Ce chapitre traite de la rubrique suivante :
 
-  - [Collections ADOX](adox-collections.md)
+- [Prise en charge du fournisseur pour ADOX](provider-support-for-adox.md)
 
-  - [Propriétés ADOX](adox-properties.md)
+Pour plus des informations générales sur ADOX, consultez les rubriques suivantes :
 
-  - [Méthodes ADOX](adox-methods.md)
+- [Objets ADOX](adox-objects.md)
 
-  - [Exemples de code ADOX](adox-code-examples.md)
+- [Collections ADOX](adox-collections.md)
+
+- [Propriétés ADOX](adox-properties.md)
+
+- [Méthodes ADOX](adox-methods.md)
+
+- [Exemples de code ADOX](adox-code-examples.md)
 

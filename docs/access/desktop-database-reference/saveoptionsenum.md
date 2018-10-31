@@ -4,21 +4,22 @@ TOCTitle: SaveOptionsEnum
 ms:assetid: 2a4e4c7a-6331-7270-0514-cc549c721ffd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
 ms:contentKeyID: 48543906
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 68526eca205fb41dd2789ec187514d0f9b11e35f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ffd37090b264e434b5fd3750f474122f8da4bfbb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469998"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861903"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un objet [Stream](stream-object-ado.md). Les valeurs peuvent être combinées avec un opérateur AND.
+
+<br/>
 
 <table>
 <colgroup>
@@ -48,7 +49,7 @@ Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Ces constantes ne possèdent pas d'équivalent ADO/WFC.
 

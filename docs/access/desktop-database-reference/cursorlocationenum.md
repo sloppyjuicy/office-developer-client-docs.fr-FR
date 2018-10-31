@@ -4,21 +4,22 @@ TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
 ms:contentKeyID: 48544836
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 90226413579a8fac7586cbd5ef08510a36a42959
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7f8eedd1245be16d87a2d3b2cd2b9121853529c5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470451"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863628"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie l'emplacement du service de curseur.
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,13 +48,13 @@ Spécifie l'emplacement du service de curseur.
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>Par défaut. Utilise des curseurs de type données ou pilote. Ces curseurs sont parfois très souples et acceptent plus facilement les modifications apportées aux données sources. Toutefois, certaines fonctions du <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft Cursor Service for OLE DB</a> (comme les objets <a href="recordset-object-ado.md">Recordset</a> dissocciés) ne peuvent être simulés avec les curseurs de type serveur ; ces fonctions seront indisponibles avec ce paramètre.</p></td>
+<td><p>Par défaut. Utilise les curseurs pilote ou fournisseur de données. Ces curseurs sont parfois très souples et autoriser plus facilement les modifications apportées à la source de données. Cependant, certaines fonctionnalités du <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Service de curseur Microsoft pour OLE DB</a> (telles que les objets <a href="recordset-object-ado.md">Recordset</a> dissociées) ne peut pas être simuler avec les curseurs côté serveur, et ces fonctionnalités ne seront pas disponibles avec ce paramètre.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

@@ -4,21 +4,22 @@ TOCTitle: XactAttributeEnum
 ms:assetid: 9206698b-7cfa-1229-2701-f2b6949e54fc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 8a44546a63583a03bd40b9e86405c3d560b3a94e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2d39cc24feb377cf61e7c2d0a39e11513f4c0616
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471776"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864059"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie les attributs de transaction d'un objet [Connection](connection-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -37,18 +38,18 @@ Spécifie les attributs de transaction d'un objet [Connection](connection-object
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Effectue des adandons de conservation : l’appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> lance automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
+<td><p>Effectue des adandons de conservation ; Autrement dit, appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> lance automatiquement une nouvelle transaction. Tous les fournisseurs prennent en charge ce.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adXactCommitRetaining</strong></p></td>
 <td><p>131072</p></td>
-<td><p>Effectue des validations de conservation : l’appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> lance automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
+<td><p>Effectue des validations de conservation ; Autrement dit, appel de <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> lance automatiquement une nouvelle transaction. Tous les fournisseurs prennent en charge ce.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

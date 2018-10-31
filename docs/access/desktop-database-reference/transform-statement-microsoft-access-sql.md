@@ -1,21 +1,21 @@
 ---
 title: TRANSFORM, instruction (Microsoft Access SQL)
-TOCTitle: TRANSFORM Statement (Microsoft Access SQL)
+TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
 ms:contentKeyID: 48544455
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6d05f278e38cc8cf132cf06605703dfa99eb8728
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 16b88f2cf441802c6246425d5bb7bb2efb71a679
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471516"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861217"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM, instruction (Microsoft Access SQL)
 
@@ -64,7 +64,7 @@ L'instruction TRANSFORM est composée des arguments suivants :
 
 Lorsque vous synthétisez des données à l'aide d'une requête Analyse croisée, vous sélectionnez des valeurs à partir de champs ou d'expressions spécifiés comme en-têtes de colonne. Ainsi, vous pouvez voir les données sous un format plus condensé qu'avec une requête Sélection.
 
-L'instruction TRANSFORM est facultative mais, si elle est employée, elle doit venir en première position dans une chaîne SQL. Elle précède une instruction SELECT, qui spécifie les champs servant d'en-têtes de ligne ainsi qu'une clause [GROUP BY](https://msdn.microsoft.com/library/ff837271\(v=office.15\)) spécifiant le mode de regroupement des lignes. Vous pouvez éventuellement ajouter d'autres clauses, par exemple une clause [WHERE](https://msdn.microsoft.com/library/ff195245\(v=office.15\)) précisant des critères de sélection ou de tri supplémentaires. Vous pouvez aussi utiliser des sous-requêtes comme prédicats, particulièrement ceux dans la clause WHERE, dans une requête Analyse croisée.
+L'instruction TRANSFORM est facultative mais, si elle est employée, elle doit venir en première position dans une chaîne SQL. Elle précède une instruction SELECT, qui spécifie les champs servant d'en-têtes de ligne ainsi qu'une clause [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) spécifiant le mode de regroupement des lignes. Vous pouvez éventuellement ajouter d'autres clauses, par exemple une clause [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) précisant des critères de sélection ou de tri supplémentaires. Vous pouvez aussi utiliser des sous-requêtes comme prédicats, particulièrement ceux dans la clause WHERE, dans une requête Analyse croisée.
 
 Les valeurs renvoyées dans *pivotfield* sont utilisées comme en-têtes de colonne dans le jeu de résultats de la requête. Par exemple, créer une requête Analyse croisée en prenant le mois de vente comme base de sélection pour obtenir les chiffres des ventes produira douze colonnes. Vous pouvez restreindre *pivotfield* pour que les en-têtes ne soient créés qu'à partir des valeurs fixes (*valeur1*, *valeur2* ) répertoriées dans la clause IN facultative. Vous pouvez également ajouter des valeurs fixes sans données correspondantes de manière à créer des colonnes supplémentaires.
 

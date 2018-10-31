@@ -1,19 +1,19 @@
 ---
-title: 'Chapitre 2 : Extraction des données'
+title: 'Chapitre 2 : Obtention de données'
 TOCTitle: 'Chapter 2: Getting Data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d3df907e1dbe220caab58541b7c3eba605ef2f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 601d18373f5bcd0a9ed6777fa50c2a3ed631594a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471063"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860888"
 ---
-# <a name="chapter-2-getting-data"></a>Chapitre 2 : Extraction des données
+# <a name="chapter-2-getting-data"></a>Chapitre 2 : Obtention de données
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -34,3 +34,12 @@ Le modèle d'objet ADO représente le concept d'une connexion avec l'objet **Con
 
   - Fournir des informations sur la conception de la source de données sous-jacente sous la forme d'ensembles de lignes schématiques. Pour en savoir plus sur ces derniers, reportez-vous à la rubrique [OpenSchema, méthode](openschema-method-ado.md).
 
+Ce chapitre présente les rubriques suivantes :
+
+  - [Connexion](making-a-connection.md)
+
+  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
+
+  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
+
+  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)

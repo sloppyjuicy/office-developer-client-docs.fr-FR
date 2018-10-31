@@ -1,20 +1,19 @@
 ---
 title: SÉLECTIONNEZ. INTO, instruction (Microsoft Access SQL)
-TOCTitle: SELECT.INTO Statement (Microsoft Access SQL)
+TOCTitle: SELECT.INTO statement (Microsoft Access SQL)
 ms:assetid: 29f3bd55-52f5-a36e-4e33-4b3499c6ce8d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 4122421642b9746b5832984bf784faf65c603fda
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c05679994cfd98fdc5d6ffb389df00c2f5c9b94
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469655"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861994"
 ---
 # <a name="selectinto-statement-microsoft-access-sql"></a>SÉLECTIONNEZ. INTO, instruction (Microsoft Access SQL)
-
 
 **S’applique à**: Access 2013 | Office 2013
 
@@ -48,7 +47,7 @@ L'instruction SELECT…INTO est composée des arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a>.  </p></td>
+<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -62,15 +61,10 @@ L'instruction SELECT…INTO est composée des arguments suivants :
 
 Vous pouvez utiliser les requêtes Création de table pour archiver les enregistrements, faire des copies de sauvegarde des tables, ou pour faire des copies à exporter dans une autre base de données ou à utiliser pour produire des états concernant des données sur une période déterminée. Par exemple, vous pouvez produire un état Ventes Mensuelles par Région en exécutant la même requête Création de table chaque mois.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous pouvez définir une clé primaire pour la nouvelle table. Lorsque vous créez la table, ses champs héritent du type de données et de la taille de champ de chaque champ présent dans les tables sous-jacentes de la requête, mais aucune autre propriété de champ ou de table n'est transférée.</P>
-> <LI>
-> <P>Pour ajouter des données à une table existante, utilisez l'instruction <A href="insert-into-statement-microsoft-access-sql.md">INSERT INTO</A> au lieu de créer une requête Ajout.</P>
-> <LI>
-> <P>Pour savoir quels enregistrements seront sélectionnés avant d'exécuter la requête Création de table, lancez d'abord une instruction <A href="select-statement-microsoft-access-sql.md">SELECT</A> avec les mêmes critères de sélection puis examinez les résultats obtenus.</P></LI></UL>
+> - Vous pouvez définir une clé primaire pour la nouvelle table. Lorsque vous créez la table, ses champs héritent du type de données et de la taille de champ de chaque champ présent dans les tables sous-jacentes de la requête, mais aucune autre propriété de champ ou de table n'est transférée.
+> - Pour ajouter des données à une table existante, utilisez l'instruction [INSERT INTO](insert-into-statement-microsoft-access-sql.md) au lieu de créer une requête Ajout.
+> - Pour savoir quels enregistrements seront sélectionnés avant d'exécuter la requête Création de table, lancez d'abord une instruction [SELECT](select-statement-microsoft-access-sql.md) avec les mêmes critères de sélection puis examinez les résultats obtenus.
 
 
 

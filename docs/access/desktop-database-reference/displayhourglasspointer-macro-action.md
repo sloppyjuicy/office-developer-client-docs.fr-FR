@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 003fb36fc876aa573419b963a9eca6f54332190a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 725bb4530bffe9aeead327caa74cdba0798c181d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470766"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862655"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>AfficherPointeurSablier, action de macro
 
@@ -54,15 +54,9 @@ Cette action est souvent utilisée lorsque l'écho est désactivé à l'aide de 
 
 Access réinitialise automatiquement l'argument **Sablier actif** sur la valeur **Non** une fois la macro terminée.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Dans Microsoft Windows, il s'agit de l'icône définie pour <STRONG>Occupé</STRONG> dans la boîte de dialogue <STRONG>Propriétés de Souris</STRONG> du Panneau de configuration de Windows. L'icône utilisée par défaut pour tous les systèmes d'exploitation Windows est un sablier animé.</P>
-> <LI>
-> <P>Vous pouvez choisir toute autre icône.</P></LI></UL>
-
-
+> - Dans Microsoft Windows, il s'agit de l'icône définie pour **Occupé** dans la boîte de dialogue **Propriétés de Souris** du Panneau de configuration de Windows. L'icône utilisée par défaut pour tous les systèmes d'exploitation Windows est un sablier animé.
+> - Vous pouvez choisir toute autre icône.
 
 Pour exécuter l'action **AfficherPointeurSablier** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **Hourglass** de l'objet **DoCmd**.
 

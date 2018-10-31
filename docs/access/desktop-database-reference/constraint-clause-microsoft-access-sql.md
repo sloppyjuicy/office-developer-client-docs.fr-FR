@@ -1,10 +1,10 @@
 ---
-title: CONSTRAINT, clause (Microsoft Access SQL)
-TOCTitle: CONSTRAINT Clause (Microsoft Access SQL)
+title: Clause CONSTRAINT (Microsoft Access SQL)
+TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836971(v=office.15)
 ms:contentKeyID: 48548797
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277561
@@ -12,14 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7b26033c8026591c87e4d0f9e077380862e39f16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 87870d824f9e26f601529bc60b737f1e46b12960
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469325"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863002"
 ---
-# <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
+# <a name="constraint-clause-microsoft-access-sql"></a>Clause CONSTRAINT (Microsoft Access SQL)
 
 **S’applique à**: Access 2013 | Office 2013
 
@@ -27,17 +27,16 @@ Une contrainte est similaire à un index, bien qu'elle puisse être utilisée po
 
 Utilisez la clause CONSTRAINT dans les instructions [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) et [CREATE TABLE](create-table-statement-microsoft-access-sql.md) pour créer ou supprimer des contraintes. Il existe deux types de clauses CONSTRAINT : une permettant de créer une contrainte sur un seul champ et l'autre permettant de créer une contrainte sur plusieurs champs.
 
-
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Pour cela, utilisez les méthodes Create DAO.
+> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes DAO **créer** à la place.
 
 ## <a name="syntax"></a>Syntaxe
 
-Contrainte sur un seul champ :
+**Contrainte sur un seul champ**:
 
 CONSTRAINT *nom* {PRIMARY KEY | UNIQUE | NON NULL | REFERENCES *tableétrangère* \[(*champétranger1, champétranger2*)\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
 
-Contrainte sur plusieurs champs :
+**Contrainte sur plusieurs champs**:
 
 CONSTRAINT *nom* {PRIMARY KEY (*primaire1*\[, *primaire2* \[,... \]\]) | UNIQUE (*unique1*\[, *unique2* \[,... \]\]) | NON NULL (*nonnulle1*\[, *nonnulle2* \[,... \]\]) | CLÉ étrangère \[aucun INDEX\] (*réf1*\[, *réf2* \[,... \] \]) REFERENCES *tableétrangère* \[(*champétranger1* \[, *champétranger2* \[,... \] \])\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
 

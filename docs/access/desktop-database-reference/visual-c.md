@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
 ms:contentKeyID: 48544062
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a12304cc30e9e653f1cb10343cac390395961fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e6f0e020373db9bf0fe7acc1b1c7bfeab210329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470007"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861420"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Reportez-vous à la rubrique [Exemple de modèle d'événements ADO (VC++)](ado-events-model-example-vc.md) pour une description complète.
+Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Voir [l’exemple de modèle d’événements ADO (VC ++)](ado-events-model-example-vc.md) pour une description complète.
 
 Créez des classes dérivées des interfaces **ConnectionEventsVt** et **RecordsetEventsVt** du fichier adoint.h.
 

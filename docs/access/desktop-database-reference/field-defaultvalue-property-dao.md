@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197092(v=office.15)
 ms:contentKeyID: 48546185
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b5e479739177fa869bb2e96329c47c5f5889b64
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d23e088ca93474ac928875730580a693abe9648c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469258"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862225"
 ---
 # <a name="fielddefaultvalue-property-dao"></a>Field.DefaultValue Property (DAO)
 
@@ -33,11 +33,10 @@ Le paramètre ou la valeur renvoyée est un type de données **String** qui peut
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez également définir la propriété <STRONG>DefaultValue</STRONG> d'un objet <STRONG>Field</STRONG> dans un objet <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> sur une valeur spéciale appelée « GenUniqueID( ) ». Chaque enregistrement possède alors un identificateur unique, car un numéro aléatoire est affecté à ce champ lors de l'ajout ou de la création d'un enregistrement. La propriété <STRONG><A href="field-type-property-dao.md">Type</A></STRONG> du champ doit avoir la valeur <STRONG>Long</STRONG>.</P>
+> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field** dans un objet [TableDef](tabledef-object-dao.md) sur une valeur spéciale appelée « GenUniqueID( ) ». Chaque enregistrement possède alors un identificateur unique, car un numéro aléatoire est affecté à ce champ lors de l'ajout ou de la création d'un enregistrement. La propriété [Type](field-type-property-dao.md) du champ doit avoir la valeur **Long**.
 
 
-
-La disponibilité de la propriété **DefaultValue** dépend de l'objet qui contient la collection **Fields**, comme l'indique le tableau ci-dessous.
+La disponibilité de la propriété **DefaultValue** dépend de l'objet contenant la collection **Fields**, comme illustré dans le tableau suivant.
 
 <table>
 <colgroup>

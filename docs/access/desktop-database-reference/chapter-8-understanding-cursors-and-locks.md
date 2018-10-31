@@ -1,19 +1,19 @@
 ---
-title: Chapitre 8 : Fonctionnement des curseurs et des verrous
+title: 'Chapitre 8 : Présentation des curseurs et des verrous'
 TOCTitle: 'Chapter 8: Understanding Cursors and Locks'
 ms:assetid: 889356f9-53ca-3c46-6781-b37e1f065717
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249598(v=office.15)
 ms:contentKeyID: 48546139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 99f363522874f01268f4c1a64515bf6f2cdd6336
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6ff5f62bfaeb182e3399eaa82865fb492853ef30
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470047"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861098"
 ---
-# <a name="chapter-8-understanding-cursors-and-locks"></a>Chapitre 8 : Fonctionnement des curseurs et des verrous
+# <a name="chapter-8-understanding-cursors-and-locks"></a>Chapitre 8 : Présentation des curseurs et des verrous
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -24,17 +24,17 @@ De nombreuses fonctionnalités de l'objet **Recordset** ADO sont déterminées p
 
 Ce chapitre présente les rubriques suivantes :
 
-  - [Définition d'un curseur](what-is-a-cursor.md)
+- [Définition d'un curseur](what-is-a-cursor.md)
 
-  - [Types de curseurs](types-of-cursors.md)
+- [Importance de l'emplacement du curseur](the-significance-of-cursor-location.md)
 
-  - [Importance de l'emplacement du curseur](the-significance-of-cursor-location.md)
+- [Service de curseur Microsoft pour OLE DB](the-microsoft-cursor-service-for-ole-db.md)
 
-  - [Service de curseur Microsoft pour OLE DB](the-microsoft-cursor-service-for-ole-db.md)
+- [Utilisation de CacheSize ](using-cachesize.md)
 
-  - [Définition d'un verrou](what-is-a-lock.md)
+- [Caractéristiques de curseur et de verrou](cursor-and-lock-characteristics.md)
 
-  - [Utilisation de CacheSize ](using-cachesize.md)
+- [Types of Cursors (ADO)](types-of-cursors.md)
 
-  - [Caractéristiques de curseur et de verrou](cursor-and-lock-characteristics.md)
+- [What is a Lock? (ADO)](what-is-a-lock.md)
 

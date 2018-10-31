@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a482da49bb78a74cc68f589c928ffe13dd4a54ad
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aec7c9a89ea078bfad9b05d664d373831491edc4
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471954"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860223"
 ---
-# <a name="chapter-12-rds-tutorial"></a>Chapitre 12 : Didacticiel RDS
+# <a name="chapter-12-rds-tutorial"></a>Chapitre 12 : Didacticiel RDS
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -48,3 +48,20 @@ Le modèle de programmation RDS est indiqué ci-dessous. Référez-vous-y à mes
 
   - Les modifications apportées à l'objet **Recordset** sont renvoyées au serveur et utilisées pour la mise à jour de la source de données.
 
+Voici les étapes décrites dans ce didacticiel :
+
+- [Étape 1 : Spécifier un programme serveur (didacticiel RDS)](step-1-specify-a-server-program-rds-tutorial.md)
+
+- [Étape 2 : Appeler le programme serveur (didacticiel RDS)](step-2-invoke-the-server-program-rds-tutorial.md)
+
+- [Étape 3 : Le serveur obtient un recordset (didacticiel RDS)](step-3-server-obtains-a-recordset-rds-tutorial.md)
+
+- [Étape 4 : Le serveur renvoie le recordset (didacticiel RDS)](step-4-server-returns-the-recordset-rds-tutorial.md)
+
+- [Étape 5 : DataControl est disponible (didacticiel RDS)](step-5-datacontrol-is-made-usable-rds-tutorial.md)
+
+- [Étape 6 : Modifications envoyées au serveur (didacticiel RDS)](step-6-changes-are-sent-to-the-server-rds-tutorial.md)
+
+- [Didacticiel RDS (VBScript)](rds-tutorial-vbscript.md)
+
+- [Didacticiel RDS (Visual J++)](rds-tutorial-visual-j.md)

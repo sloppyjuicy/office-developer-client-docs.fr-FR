@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8420beb2c6136123c334a55b68bd6601f214faa5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6d4c869d6021c807e27fb7970ef6ea91f91bd4de
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472331"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860454"
 ---
 # <a name="creating-the-connection-string"></a>Création de la chaîne de connexion
 
@@ -58,9 +58,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 
 
 > [!NOTE]
-> <P>Dans les exemples suivants ainsi que dans l'ensemble du guide du programmeur ADO, l'ID d'utilisateur « MyId » associé au mot de passe « 123aBc » est utilisé pour l'authentification auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».</P>
-
-
+> Dans les exemples suivants ainsi que dans l'ensemble du guide du programmeur ADO, l'ID d'utilisateur « MyId » associé au mot de passe « 123aBc » est utilisé pour l'authentification auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
 
 Dans le chapitre 1, l'application HelloData a utilisé la chaîne de connexion suivante :
 

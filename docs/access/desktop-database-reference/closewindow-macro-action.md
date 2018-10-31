@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1d80ac5b545f07d3bd39f69f16c4578e49439cdf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5ddd1a4b99ec301772690b2815d961676c5a058
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469140"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861854"
 ---
 # <a name="closewindow-macro-action"></a>FermerFenêtre, action de macro
 
@@ -47,7 +47,7 @@ L'action **FermerFenêtre** utilise les arguments suivants :
 </p>
 
 > [!NOTE]
-> <P>Si vous fermez un module dans Visual Basic Editor, vous devez utiliser <STRONG>Module</STRONG> dans l’argument <STRONG>Type d’objet</STRONG>.</P>
+> Si vous fermez un module dans Visual Basic Editor, vous devez utiliser **Module** dans l’argument **Type d’objet**.
 
 
 <p></p></td>

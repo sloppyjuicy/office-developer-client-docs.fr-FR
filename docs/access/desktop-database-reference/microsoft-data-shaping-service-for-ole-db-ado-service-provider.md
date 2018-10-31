@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249436(v=office.15)
 ms:contentKeyID: 48545511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a72dcc754f39144da4476c9262b93b920fbfbdf6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 526c333f774aaf77079279932f8d9adf39915984
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470983"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861490"
 ---
 # <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Microsoft Data Shaping Service pour OLE DB (fournisseur de services ADO)
 
@@ -75,5 +75,5 @@ Debug.Print cn.Properties("Data Provider")
 cn.Properties("Data Provider") = "MSDASQL" 
 ```
 
-Pour plus d'informations sur la mise en forme des données, consultez la rubrique [Mise en forme des données](data-shaping-summary.md).
+Pour plus d'informations sur la mise en forme des données, consultez la rubrique [Mise en forme des données](data-shaping.md).
 

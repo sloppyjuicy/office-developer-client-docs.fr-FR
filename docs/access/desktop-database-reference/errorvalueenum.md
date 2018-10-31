@@ -4,17 +4,16 @@ TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
 ms:contentKeyID: 48543921
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: de7f19c119c3161ece57344b911fcca36a1a8a3d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5e9da9b9c197bb9917d2184e07a76bdfb25bd031
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470998"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860861"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
@@ -22,17 +21,16 @@ Spécifie le type d'erreur d'exécution ADO.
 
 Trois formes d'erreur sont répertoriées :
 
-  - Décimale positive  Les deux octets faibles du nombre complet au format décimal. Ce nombre est affiché dans la boîte de dialogue par défaut des messages d'erreur de Visual Basic. Exemple : Erreur d'exécution '3707''.
+- Décimale positive  Les deux octets faibles du nombre complet au format décimal. Ce nombre est affiché dans la boîte de dialogue par défaut des messages d'erreur de Visual Basic. Exemple : Erreur d'exécution '3707''.
 
-  - Décimale négative  La conversion décimale du numéro d'erreur complet.
+- Décimale négative  La conversion décimale du numéro d'erreur complet.
 
-  - Hexadécimale — La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction des numéros d'erreurs ADO est *A*. Exemple : 0x800***A***0E7B.
-
+- Hexadécimale — La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction des numéros d'erreurs ADO est *A*. Exemple : 0x800***A***0E7B.
 
 > [!NOTE]
-> <P>Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows <EM>4</EM>. Exemple : 0x800<STRONG><EM>4</EM></STRONG>.... Pour plus d'informations sur ces numéros, consultez le chapitre 16 du manuel <EM>OLE DB Programmer's Reference.</EM></P>
+> Les erreurs OLE DB peuvent être passés à votre application ADO. En règle générale, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_**4**_... Pour plus d’informations sur ces numéros, consultez le chapitre 16 de la *de référence du programmeur OLE DB.*
 
-
+<br/>
 
 <table>
 <colgroup>
@@ -430,7 +428,7 @@ Trois formes d'erreur sont répertoriées :
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c4c02aa8134a406935e5b0b4cc7753708c4ec927
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bb92d21020d918d03195cbe0353e78b173257809
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469155"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863877"
 ---
 # <a name="dbengineidle-method-dao"></a>DBEngine.Idle Method (DAO)
 
@@ -71,9 +71,7 @@ Vous n'avez pas besoin d'utiliser cette méthode dans les environnements mono-ut
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez également supprimer les verrous en lecture en intégrant les opérations à une transaction.</P>
-
-
+> [!REMARQUE] Vous pouvez également supprimer les verrous en lecture en intégrant les opérations à une transaction.
 
 ## <a name="example"></a>Exemple
 

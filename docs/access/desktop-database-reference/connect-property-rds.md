@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248890(v=office.15)
 ms:contentKeyID: 48543324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eb628356e4d93201c38cf84a9c3245b13e044ee3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 191ef13d4d3c73bfbee50d72720d7e450376dd23
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471828"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862918"
 ---
 # <a name="connect-property-rds"></a>Connect, propriété (RDS)
 
@@ -30,17 +30,14 @@ Temps d’exécution : DataControl.Connect = « ConnectionString »
 
 ## <a name="parameters"></a>Paramètres
 
-  - *ConnectionString*
+- *ConnectionString*
 
   - Chaîne de connexion valide. Pour plus d'informations d'ordre général sur les chaînes de connexion, reportez-vous à la propriété [ConnectionString](connectionstring-property-ado.md) ou à la documentation du fournisseur.
     
-
     > [!NOTE]
-    > <P>[!REMARQUE] Si vous spécifiez MS Remote comme fournisseur de l'objet <STRONG>RDS.DataControl</STRONG>, un scénario à quatre niveaux est créé. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.</P>
+    > [!REMARQUE] Si vous spécifiez MS Remote comme fournisseur de l'objet **RDS.DataControl**, un scénario à quatre niveaux est créé. Les scénarios comptant plus de trois niveaux n'ont pas été testés et sont normalement inutiles.
 
-
-
-  - *DataControl*
+- *DataControl*
 
   - Une variable objet qui représente un objet **RDS.DataControl**.
 

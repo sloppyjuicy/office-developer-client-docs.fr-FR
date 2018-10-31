@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249459(v=office.15)
 ms:contentKeyID: 48545605
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73940108f96cf46cb15d646936039c0329373899
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f01141e0dc2445a91267cf7744214b906a1af3fd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606905"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860342"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord, méthode (ADO)
 
@@ -50,7 +50,7 @@ Copie une entité représentée par un objet **Record** vers un autre emplacemen
 
   - Facultatif. Valeur de type **Boolean** qui, lorsqu'elle correspond à **True**, indique que cette opération doit être asynchrone.
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ## <a name="return-value"></a>Valeur renvoyée
 =======
 ## <a name="return-value"></a>Valeur renvoyée
@@ -68,13 +68,13 @@ Cette méthode échoue si *Destination* identifie une entité existante (par exe
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Soyez prudent lorsque vous utilisez l'option <STRONG>adCopyOverWrite</STRONG>. Par exemple, si cette option lors de la copie d’un fichier dans un répertoire sera <EM>Supprimer</EM> le répertoire et remplacez-la par le fichier.</P>
+> [!IMPORTANTE] Soyez prudent lorsque vous utilisez l'option **adCopyOverWrite**. Par exemple, si cette option lors de la copie d’un fichier dans un répertoire sera *Supprimer* le répertoire et remplacez-la par le fichier.
 
 
 
 
 > [!NOTE]
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 > <P>[!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, consultez <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
 =======
 > [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).

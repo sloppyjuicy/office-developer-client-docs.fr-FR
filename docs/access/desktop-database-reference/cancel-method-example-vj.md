@@ -1,19 +1,19 @@
 ---
-title: Cancel, méthode - Exemple (VJ++)
-TOCTitle: Cancel Method Example (VJ++)
+title: Cancel, méthode – Exemple (VJ++)
+TOCTitle: Cancel method example (VJ++)
 ms:assetid: 319a7894-9e79-a55a-0007-bd5a581ea58f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65439b9e667b8efeaf73b94121399cadaac26c20
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ce7a0429b80cbed0f5abe97dcaa3cbbd0da8be1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470183"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862503"
 ---
-# <a name="cancel-method-example-vj"></a>Cancel, méthode - Exemple (VJ++)
+# <a name="cancel-method-example-vj"></a>Cancel, méthode – Exemple (VJ++)
 
 
 **S’applique à**: Access 2013 | Office 2013

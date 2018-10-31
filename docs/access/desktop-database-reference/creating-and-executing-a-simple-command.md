@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91355c8b24fcd6e797a6610524076b8850b16f57
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469291"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860349"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Création et exécution d'une commande simple
 
@@ -82,9 +82,7 @@ La commande à exécuter est spécifiée à l'aide de la propriété **CommandTe
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Plusieurs exemples de cette section appellent une fonction utilitaire appelée GetNewConnection, qui permet d'établir une connexion avec le fournisseur de données. Pour éviter les redondances, elle n'est répertoriée qu'une seule fois, ci-dessous :</P>
-
-
+> Plusieurs exemples de cette section appellent d’une fonction utilitaire **GetNewConnection**, pour établir une connexion avec le fournisseur de données. Pour éviter la redondance, elle est répertoriée qu’une seule fois :
 
 ```vb 
  

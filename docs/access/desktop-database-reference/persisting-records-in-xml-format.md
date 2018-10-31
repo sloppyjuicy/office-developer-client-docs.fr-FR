@@ -6,24 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4b1e22c3f85c4289520326c34c6d0c218a442a3f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f06954b25c798dab7fe80ba5ba7cf91bb0efc292
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470940"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860993"
 ---
-# <a name="persisting-records-in-xml-format"></a>Enregistrements persistants au format XML
+# <a name="persisting-records-in-xml-format"></a>Persistance des enregistrements au format XML
 
 
 **S’applique à**: Access 2013 | Office 2013
 
 À l'instar du format ADTG, la persistance des **jeux d'enregistrements** au format XML est mise en œuvre par le Microsoft OLE DB Persistence Provider. Ce fournisseur génère un jeu de lignes à défilement vers l'avant uniquement et en lecture seule à partir d'un fichier ou flux XML contenant les informations de schéma générées par ADO. De la même manière, il prend un **jeu d'enregistrements** ADO, génère un code XML et l'enregistre dans un fichier ou tout objet implémentant l'interface COM **IStream**. (En fait, un fichier est juste un autre exemple d'objet prenant en charge **IStream**.) Pour les versions 2.5 et ultérieures, ADO repose sur le parseur Microsoft XML (MSXML) pour charger le code XML dans le **jeu d'enregistrements**; par conséquent msxml.dll est indispensable. Pour la version 2.5, MSXML est fourni avec Internet Explorer 5. Pour la version 2.6, MSXML est fourni avec SQL Server 2000.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Certaines restrictions s'appliquent lorsque vous enregistrez des <STRONG>jeux d'enregistrements</STRONG> (formes de données) au format XML. Vous ne pouvez pas sauvegarder au format XML si le <STRONG>jeu d'enregistrements</STRONG> hiérarchique renferme des mises à jour en suspens et vous ne pouvez pas non plus sauvegarder un <STRONG>jeu d'enregistrements</STRONG> hiérarchique paramétré. Pour en savoir plus, reportez-vous à la rubrique <A href="hierarchical-recordsets-in-xml.md">Jeux d'enregistrements hiérarchiques dans XML</A>.</P>
-
+> [!REMARQUE] Certaines restrictions s'appliquent lorsque vous enregistrez des **jeux d'enregistrements** (formes de données) au format XML. Vous ne pouvez pas sauvegarder au format XML si le **jeu d'enregistrements** hiérarchique renferme des mises à jour en suspens et vous ne pouvez pas non plus sauvegarder un **jeu d'enregistrements** hiérarchique paramétré. Pour en savoir plus, reportez-vous à la rubrique [Jeux d'enregistrements hiérarchiques dans XML](hierarchical-recordsets-in-xml.md).
 
 
 Le moyen le plus simple de conserver des données au format XML et de les recharger dans ADO est d'utiliser respectivement les méthodes **Save** et **Open**. L'exemple de code ADO suivant illustre l'enregistrement de données de la table Titles dans un fichier appelé titles.sav.
@@ -67,3 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 ADO utilise toujours le jeu de lignes du moteur du curseur client pour générer un objet **Recordset** avec défilement et signet en plus des données à défilement vers l'avant uniquement générées par le Fournisseur de persistance.
 
+Cette section comprend les rubriques suivantes :
+
+- [Format de persistance XML](xml-persistence-format.md)
+
+- [Namespaces](namespaces.md)
+
+- [Section Schéma](schema-section.md)
+
+- [Section Données](data-section.md)
+
+- [Recordsets hiérarchiques au format XML](hierarchical-recordsets-in-xml.md)
+
+- [Propriétés dynamiques du jeu d’enregistrements au format XML](recordset-dynamic-properties-in-xml.md)
+
+- [Transformations XSLT](xslt-transformations.md)
+
+- [Enregistrement dans un objet XML DOM](saving-to-the-xml-dom-object.md)
+
+- [Considérations relatives à la sécurité XML](xml-security-considerations.md)
+
+- [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

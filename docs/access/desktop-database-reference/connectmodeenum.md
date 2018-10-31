@@ -4,21 +4,22 @@ TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 5b39fc42259a1906891b82bf9b9ef252997e6240
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 91d1ad892557ad944dca175a3589a74e7205ad01
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471984"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862575"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie les autorisations disponibles pour modifier les données dans une [Connexion](connection-object-ado.md), en ouvrant un [Enregistrement](record-object-ado.md), ou en spécifiant des valeurs pour la propriété [Mode](mode-property-ado.md) de l' **Enregistrement** et des objets [Stream](stream-object-ado.md).
+
+<br/>
 
 <table>
 <colgroup>
@@ -47,7 +48,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <tr class="odd">
 <td><p><strong>encore adModeRecursive</strong></p></td>
 <td><p>0 x 400000</p></td>
-<td><p>Utilisée conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les enregistrements secondaire de l' <strong>enregistrement</strong>actif. Il n’a aucun effet si l' <strong>enregistrement</strong> n’a pas d’enfants. Une erreur d’exécution est générée si elle est utilisée avec <strong>adModeShareDenyNone</strong> . Toutefois, il peut être utilisé avec <strong>adModeShareDenyNone</strong> lorsqu’il est associé avec d’autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>encore adModeRecursive</strong>&quot;.</p></td>
+<td><p>Utilisée conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les enregistrements secondaire de l' <strong>enregistrement</strong>actif. Il n’a aucun effet si l' <strong>enregistrement</strong> n’a pas d’enfants.</p><p>Une erreur d’exécution est générée si elle est utilisée avec <strong>adModeShareDenyNone</strong> . Toutefois, il peut être utilisé avec <strong>adModeShareDenyNone</strong> lorsqu’il est associé avec d’autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>encore adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
@@ -83,7 +84,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 Module : **com.ms.wfc.data**
 

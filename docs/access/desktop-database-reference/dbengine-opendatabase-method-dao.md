@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 54078705c67e892b80a08ce2bd31db191c7fc70c
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 311481a83c25df29a26610a979a67ceb38124470
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606156"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860419"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Méthode DBEngine.OpenDatabase (DAO)
 
@@ -76,7 +76,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 </table>
 
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
 =======
 ### <a name="return-value"></a>Valeur renvoyée
@@ -122,10 +122,10 @@ Certaines considérations s’appliquent lorsque vous utilisez NomBaseDonnées 
 
   - S’il s’agit d’une chaîne de longueur nulle (« ») et *vous connecter* est « ODBC ; », une boîte de dialogue répertoriant les noms de source de données ODBC tous enregistrés s’affiche afin que l’utilisateur peut sélectionner une base de données.
 
-Pour fermer une base de données et ainsi supprimer l'objet **Database** de la collection **Databases**, utilisez la méthode **[Close](connection-close-method-dao.md)** sur l'objet.
+Pour fermer une base de données, et ainsi supprimer l'objet **Database** de la collection **Databases**, utilisez la méthode **[Close](connection-close-method-dao.md)** dans l'objet.
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Lorsque vous accédez à une source de données ODBC connectée au moteur de base de données Microsoft Access, vous pouvez améliorer les performances de votre application en ouvrant un objet <STRONG>Database</STRONG> connecté à la source de données ODBC, ce qui vous évite de lier des objets <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> individuels à des tables spécifiques dans la source de données ODBC.</P>
+> [!REMARQUE] Lorsque vous accédez à une source de données ODBC connectée au moteur de base de données Microsoft Access, vous pouvez améliorer les performances de votre application en ouvrant un objet **Database** connecté à la source de données ODBC, ce qui vous évite de lier des objets [TableDef](tabledef-object-dao.md) individuels à des tables spécifiques dans la source de données ODBC.
 
 

@@ -1,19 +1,19 @@
 ---
-title: Exemples de code ADO en Microsoft JScript
-TOCTitle: ADO Code Examples in Microsoft JScript
+title: Exemples de code ADO dans Microsoft JScript
+TOCTitle: ADO code examples in Microsoft JScript
 ms:assetid: 32e82313-4ee7-2d78-4840-e929b4e67ac8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249099(v=office.15)
 ms:contentKeyID: 48544090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58a4064f5d35726b30ec544232d1214a51739f60
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 930516aa9ffc3c12c6df96dda2cb8cf4a47b5f99
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604989"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863737"
 ---
-# <a name="ado-code-examples-in-microsoft-jscript"></a>Exemples de code ADO en Microsoft JScript
+# <a name="ado-code-examples-in-microsoft-jscript"></a>Exemples de code ADO dans Microsoft JScript
 
 **S’applique à**: Access 2013 | Office 2013
 
@@ -36,7 +36,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
 **Propriétés**
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [AbsolutePage, PageCount et PageSize, propriétés - Exemple](absolutepage-pagecount-and-pagesize-properties-example-jscript.md)
 
   - [AbsolutePosition et CursorLocation, propriétés - Exemple](absoluteposition-and-cursorlocation-properties-example-jscript.md)

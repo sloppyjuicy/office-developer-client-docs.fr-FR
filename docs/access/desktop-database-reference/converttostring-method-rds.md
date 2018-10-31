@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250113(v=office.15)
 ms:contentKeyID: 48548136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fa1a4326cf318a9cbcddf8ebcdf584543ac8ebfb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7483144ff3ab9b93ae35bdebff951c5b4415786c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471844"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860510"
 ---
 # <a name="converttostring-method-rds"></a>ConvertToString, méthode (RDS)
 
@@ -44,6 +44,6 @@ Sur le client, RDS (Remote Data Service) peut reconvertir la chaîne MIME en un 
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Si vous utilisez des pages ASP pour incorporer la chaîne MIME résultante dans une page HTML cliente, sachez que les versions de VBScript antérieures à 2.0 limitent la taille de la chaîne à 32 Ko. Si cette limite est dépassée, une erreur est retournée. Par conséquent, essayez de limiter la portée de la requête lorsque vous procédez à une incorporation MIME via des fichiers .asp. Pour résoudre ce problème, téléchargez la dernière version de VBScript à partir du <A href="https://www.microsoft.com/downloads/en/default.aspx">Centre de téléchargement Microsoft</A>.</P>
+> [!REMARQUE] Si vous utilisez des pages ASP pour incorporer la chaîne MIME résultante dans une page HTML cliente, sachez que les versions de VBScript antérieures à 2.0 limitent la taille de la chaîne à 32 Ko. Si cette limite est dépassée, une erreur est retournée. Par conséquent, essayez de limiter la portée de la requête lorsque vous procédez à une incorporation MIME via des fichiers .asp. Pour résoudre ce problème, téléchargez la dernière version de VBScript à partir du [Centre de téléchargement Microsoft](https://www.microsoft.com/downloads/en/default.aspx).
 
 

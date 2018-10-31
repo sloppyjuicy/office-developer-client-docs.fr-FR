@@ -6,21 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6701171a418b229a5d1a5844809689388837f87b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b8766c7291c04344a13267e81617750c3cb95add
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472007"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860524"
 ---
 # <a name="connections-members-dao"></a>Connections Members (DAO)
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access. Une collection Connections contient les objets de connexion en cours d’un objet Workspace. (Espaces de travail ODBCDirect uniquement).</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access. Une collection Connections contient les objets de connexion en cours d’un objet Workspace (espaces de travail ODBCDirect uniquement).
 
 
 

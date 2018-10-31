@@ -1,19 +1,19 @@
 ---
 title: SELECT, instruction (Microsoft Access SQL)
-TOCTitle: SELECT Statement (Microsoft Access SQL)
+TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: ae7a63a3fe7647dde117db80a52e2322b9af75b9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469791"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860580"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
@@ -41,7 +41,7 @@ L'instruction SELECT est composée des arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><em>prédicat</em></p></td>
-<td><p>Un des prédicats suivants : <a href="https://msdn.microsoft.com/library/ff195711(v=office.15)">ALL, DISTINCT, DISTINCTROW ou TOP</a>. Les prédicats permettent de limiter le nombre d'enregistrements renvoyés. Si aucun n'est précisé, ALL est choisi par défaut.  </p></td>
+<td><p>Un des prédicats suivants : <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW ou TOP</a>. Les prédicats permettent de limiter le nombre d'enregistrements renvoyés. Si aucun n'est précisé, ALL est choisi par défaut.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>*</em></p></td>
@@ -71,9 +71,9 @@ L'instruction SELECT est composée des arguments suivants :
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour effectuer cette opération, le moteur de base de données Microsoft® Jet recherche la ou les tables spécifiées, extrait les colonnes choisies, sélectionne les lignes qui correspondent aux critères, trie et/ou regroupe ces lignes dans l'ordre indiqué.
+Pour effectuer cette opération, le moteur de base de données Microsoft Jet recherche l’ou les tables spécifiées, extrait les colonnes choisies, sélectionne les lignes qui correspondent aux critères, trie et/ou regroupe les lignes dans l’ordre spécifié.
 
 Les instructions SELECT ne modifient pas les données dans la base de données.
 
@@ -151,6 +151,8 @@ Dans cet exemple, un objet **Recordset** de type feuille dynamique basé sur une
     End Sub
 ```
 
+<br/>
+
 Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le champ PostalCode est calculé et le champ renvoyé est nommé Tally.
 
 ```sql
@@ -178,6 +180,8 @@ Dans cet exemple, le nombre d'enregistrements comportant une entrée dans le cha
      
     End Sub 
 ```
+
+<br/>
 
 Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maximal et moyen.
 
@@ -209,6 +213,8 @@ Dans cet exemple, le nombre d'employés est indiqué ainsi que les salaires maxi
      
     End Sub 
 ```
+
+<br/>
 
 §LSA La procédure **Sub** EnumFields bénéficie d'un objet **Recordset** à partir de la procédure appelante. La procédure met en forme et imprime les champs de l'objet **Recordset** dans la fenêtre **Débogage**. La variable est la largeur de champ imprimé voulue. Certains champs peuvent être tronqués.
 

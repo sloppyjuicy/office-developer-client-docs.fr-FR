@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 52822d45b30c631dcabe3c38b6722398e96f489f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f907cee27511f782a3d766761ae716bc3cef4c0b
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471641"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862960"
 ---
 # <a name="cancelevent-macro-action"></a>AnnulerEvénement, action de macro
 
@@ -70,7 +70,7 @@ Les événements suivants peuvent être annulés par l'action **AnnulerEvénemen
 <td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Supprimer</strong></p></td>
+<td><p><strong>Delete</strong></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -80,19 +80,14 @@ Les événements suivants peuvent être annulés par l'action **AnnulerEvénemen
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez utiliser l'action <STRONG>AnnulerEvénement</STRONG> avec l'événement <STRONG>SourisAppuyée</STRONG> uniquement pour annuler l'événement qui est déclenché lorsque vous cliquez avec le bouton droit sur un objet.</P>
-
-
+> [!REMARQUE] Vous pouvez utiliser l'action **AnnulerEvénement** avec l'événement **SourisAppuyée** uniquement pour annuler l'événement qui est déclenché lorsque vous cliquez avec le bouton droit sur un objet.
 
 Si le paramètre de la propriété de type événement **SurDoubleClic** d'un contrôle spécifie une macro contenant l'action **AnnulerEvénement**, l'action annule l'événement **DoubleClic**.
 
 Le comportement par défaut des événements pouvant être annulés (à savoir, le comportement d'Access lorsque l'événement est déclenché) a lieu une fois la macro événementielle exécutée. Ceci vous permet d'annuler le comportement par défaut. Par exemple, lorsque vous double-cliquez sur un mot sur lequel se trouve le point d'insertion dans une zone de texte, Access sélectionne normalement ce mot. Vous pouvez, cependant, annuler ce comportement par défaut dans la macro événementielle **DoubleClic** et exécuter une autre action comme l'ouverture d'un formulaire contenant des informations sur le contenu de la zone de texte. Le comportement par défaut des événements ne pouvant pas être annulés a lieu avant l'exécution de la macro.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si la propriété de type événement <STRONG>SurLibération</STRONG> d'un formulaire spécifie une macro qui exécute une action <STRONG>AnnulerEvénement</STRONG>, vous ne pourrez pas fermer le formulaire. Vous devez soit corriger la condition à l'origine de l'exécution de l'action <STRONG>AnnulerEvénement</STRONG>, soit ouvrir la macro et supprimer l'action <STRONG>AnnulerEvénement</STRONG>. Si le formulaire est un formulaire modal, vous ne pourrez pas ouvrir la macro.</P>
-
-
+> [!REMARQUE] Si la propriété de type événement **SurLibération** d'un formulaire spécifie une macro qui exécute une action **AnnulerEvénement**, vous ne pourrez pas fermer le formulaire. Vous devez soit corriger la condition à l'origine de l'exécution de l'action **AnnulerEvénement**, soit ouvrir la macro et supprimer l'action **AnnulerEvénement**. Si le formulaire est un formulaire modal, vous ne pourrez pas ouvrir la macro.
 
 Pour exécuter l'action **AnnulerEvénement** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **CancelEvent** de l'objet **DoCmd**.
 

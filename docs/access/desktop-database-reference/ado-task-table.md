@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 422d33e65f2ca3148276759a8c973295db8bc447
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 787375117566673b745cf819694a8d2d77e13779
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471580"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861567"
 ---
-# <a name="ado-task-table"></a>Tableau des tâches ADO
+# <a name="ado-task-table"></a>Tableau de tâches ADO
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -34,11 +34,11 @@ Le tableau suivant répertorie les taches de programmation, présentées dans le
 <tbody>
 <tr class="odd">
 <td><p>Connexion à un fournisseur de données</p></td>
-<td><p><a href="making-a-connection.md">Établissement d'une connexion</a></p></td>
+<td><p><a href="making-a-connection.md">Connexion</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Exécution de commandes ou appel de procédures stockées</p></td>
-<td><p><a href="using-the-command-object-access.md">Utilisation de l'objet Command</a></p></td>
+<td><p><a href="using-the-command-object-access.md">À l’aide de l’objet Command</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ouverture d'un objet <strong>Recordset</strong></p></td>
@@ -50,7 +50,7 @@ Le tableau suivant répertorie les taches de programmation, présentées dans le
 </tr>
 <tr class="odd">
 <td><p>Accès à un enregistrement spécifique</p></td>
-<td><p><a href="navigating-through-the-data.md">Navigation des données</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Navigation dans les données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Accès à des valeurs de colonne</p></td>
@@ -62,15 +62,15 @@ Le tableau suivant répertorie les taches de programmation, présentées dans le
 </tr>
 <tr class="even">
 <td><p>Modification des données et des valeurs</p></td>
-<td><p><a href="editing-existing-records.md">Modification d'enregistrements existants</a></p></td>
+<td><p><a href="editing-existing-records.md">Modification d’enregistrements existants</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ajout de données</p></td>
-<td><p><a href="adding-records.md">Ajout d'enregistrements</a></p></td>
+<td><p><a href="adding-records.md">Ajout d’enregistrements</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Suppression de données</p></td>
-<td><p><a href="deleting-records-using-the-delete-method.md">Suppression des enregistrements à l'aide de la méthode Delete</a></p></td>
+<td><p><a href="deleting-records-using-the-delete-method.md">Suppression d’enregistrements à l’aide de la méthode Delete</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Publication des modifications dans la source de données</p></td>
@@ -78,11 +78,11 @@ Le tableau suivant répertorie les taches de programmation, présentées dans le
 </tr>
 <tr class="even">
 <td><p>Exécution, validation et annulation de transactions</p></td>
-<td><p><a href="transaction-processing.md">Traitement des transactions</a></p></td>
+<td><p><a href="transaction-processing.md">Traitement de transactions</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Enregistrement des enregistrements dans un fichier (XML ou binaire)</p></td>
-<td><p><a href="persisting-data.md">Données persistantes</a></p></td>
+<td><p><a href="persisting-data.md">Persistance des données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gestion des erreurs</p></td>
@@ -102,7 +102,7 @@ Le tableau suivant répertorie les taches de programmation, présentées dans le
 </tr>
 <tr class="even">
 <td><p>Renvoi des enregistrements connexes dans un objet  <strong>Recordset</strong></p></td>
-<td><p><a href="data-shaping-summary.md">Résumé de la mise en forme des données</a></p></td>
+<td><p><a href="data-shaping.md">Mise en forme des données</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Accès aux données semi-structurées</p></td>

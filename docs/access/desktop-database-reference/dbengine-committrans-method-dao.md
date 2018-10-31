@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845171(v=office.15)
 ms:contentKeyID: 48543197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3306c81af03b374416c948f44107690f188769cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4cdb0a08cf4336716aa86e878b309822f71287c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472320"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861378"
 ---
 # <a name="dbenginecommittrans-method-dao"></a>DBEngine.CommitTrans Method (DAO)
 
@@ -60,11 +60,8 @@ Les méthodes de transaction **BeginTrans**, **CommitTrans** et **Rollback** gè
 
 En général, vous utilisez des transactions pour conserver l'intégrité de vos données lorsque vous devez mettre à jour des enregistrements dans deux ou plusieurs tables et vous assurer que les modifications sont terminées (validées) dans toutes les tables ou dans aucune des tables (annulées). Par exemple, si vous transférez de l'argent d'un compte à un autre, vous devez soustraire un montant d'un compte et l'ajouter à un autre compte. Si une de ces mises à jour échoue, les comptes ne sont plus équilibrés. Utilisez la méthode **BeginTrans** avant de mettre à jour le premier enregistrement, puis, si une mise à jour suivante échoue, vous pouvez utiliser la méthode **Rollback** pour annuler toutes les mises à jour. Utilisez la méthode **CommitTrans** une fois que vous avez réussi à mettre à jour le dernier enregistrement.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Dans un objet <STRONG>Workspace</STRONG>, les transactions sont toujours globales dans l'objet <STRONG>Workspace</STRONG> et vous n'êtes pas limité à un seul objet <STRONG>Connection</STRONG> ou <STRONG>Database</STRONG>. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction <STRONG>Workspace</STRONG>, la résolution de la transaction (à l'aide de la méthode <STRONG>CommitTrans</STRONG> ou <STRONG>Rollback</STRONG>) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.</P>
-
-
+> [!REMARQUE] Dans un objet **Workspace**, les transactions sont toujours globales dans l'objet **Workspace** et vous n'êtes pas limité à un seul objet **Connection** ou **Database**. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction **Workspace**, la résolution de la transaction (à l'aide de la méthode **CommitTrans** ou **Rollback**) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.
 
 Une fois que vous avez utilisé la méthode **CommitTrans**, vous ne pouvez pas annuler les modifications effectuées au cours de cette transaction sauf si la transaction est imbriquée dans une autre transaction qui est elle-même annulée. Si vous imbriquez des transactions, vous devez résoudre la transaction active avant de pouvoir résoudre une transaction située à un niveau supérieur d'imbrication.
 
@@ -82,12 +79,8 @@ Dans les espaces de travail ODBC, lorsque vous utilisez **CommitTrans**, il peut
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous pouvez souvent améliorer les performances de l'application en fractionnant les opérations qui doivent accéder au disque en blocs de transactions. Cette opération place les opérations dans la mémoire tampon et peut considérablement réduire le nombre d'accès à un disque.</P>
-> <LI>
-> <P>Dans un espace de travail Microsoft Access, les transactions sont journalisées dans un fichier conservé dans le répertoire spécifié par la variable d'environnement TEMP sur le poste de travail. Si le fichier journal des transactions utilise tout l'espace de stockage disponible sur le lecteur TEMP, le moteur de base de données déclenche une erreur d'exécution. À ce niveau, si vous utilisez <STRONG>CommitTrans</STRONG>, un nombre indéterminé d'opérations est validé, mais les opérations restantes qui n'ont pas été terminées sont perdues, et l'opération doit être recommencée. L'utilisation de la méthode <STRONG>Rollback</STRONG> libère le journal des transactions et annule toutes les opérations dans la transaction.</P>
-> <LI>
-> <P>La fermeture d'un objet <STRONG>Recordset</STRONG> cloné pendant une transaction en attente entraîne une opération <STRONG>Rollback</STRONG> implicite.</P></LI></UL>
+> - Vous pouvez souvent améliorer les performances de l'application en fractionnant les opérations qui doivent accéder au disque en blocs de transactions. Cette opération place les opérations dans la mémoire tampon et peut considérablement réduire le nombre d'accès à un disque.
+> - Dans un espace de travail Microsoft Access, les transactions sont journalisées dans un fichier conservé dans le répertoire spécifié par la variable d'environnement TEMP sur le poste de travail. Si le fichier journal des transactions utilise tout l'espace de stockage disponible sur le lecteur TEMP, le moteur de base de données déclenche une erreur d'exécution. À ce niveau, si vous utilisez **CommitTrans**, un nombre indéterminé d'opérations est validé, mais les opérations restantes qui n'ont pas été terminées sont perdues, et l'opération doit être recommencée. L'utilisation de la méthode **Rollback** libère le journal des transactions et annule toutes les opérations dans la transaction.
+> - La fermeture d'un objet **Recordset** cloné pendant une transaction en attente entraîne une opération **Rollback** implicite.
 
 

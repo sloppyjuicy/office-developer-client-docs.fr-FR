@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250049(v=office.15)
 ms:contentKeyID: 48547878
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed3e6bfd6fe3b6727055eb264b1261b13d7a5a0b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 692bf7e1adf561c99ec1e3060578de93fbd1a064
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469297"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861882"
 ---
 # <a name="step-3-send-the-data"></a>Étape 3 : envoyer les données
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-## <a name="step-3-send-the-data"></a>Étape 3 : envoyer les données
+## <a name="step-3-send-the-data"></a>Étape 3 : Envoyer des données
 
 À présent que vous disposez d'un objet **Recordset**, vous devez l'envoyer au client en l'enregistrant en tant que fichier XML dans l'objet **Response** ASP. Ajoutez le code suivant au bas de XMLResponse.asp :
 
@@ -40,5 +40,7 @@ Notez que l’objet ASP **Response Group** est spécifié comme destination de l
 
 Enregistrez et fermez XMLResponse.asp avant de passer à l'étape suivante. Copiez également le fichier adovbs.inc c:\\Program Files\\Common Files\\système\\dossier Ado dans le même dossier où vous avez le fichier XMLResponse.asp.
 
-**Suivant** [Étape 4 : recevoir les données](step-4-receive-and-display-the-data.md)
+### <a name="next-step"></a>Étape suivante
+
+[Étape 4 : Recevoir les données](step-4-receive-and-display-the-data.md)
 

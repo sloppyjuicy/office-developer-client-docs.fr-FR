@@ -3,7 +3,7 @@
 >>>>>>> Master ms:assetid : f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID : ms.date 48548682 : 18/09/2015 mtps_version : v=office.15
 ---
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 # <a name="cursortype-property-ado"></a>CursorType, propriété (ADO)
 =======
 # <a name="cursortype-property-ado"></a>CursorType, propriété (ADO)
@@ -14,7 +14,7 @@
 
 Indique le type de curseur utilisé dans un objet [Recordset](recordset-object-ado.md).
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 =======
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
@@ -64,11 +64,8 @@ Le tableau ci-après indique les fonctionnalités des fournisseurs (identifiées
 </table>
 
 
-
 > [!NOTE]
-> <P>Même si la méthode <STRONG>Supports</STRONG>(<STRONG>adUpdateBatch</STRONG>) peut avoir la valeur True pour les curseurs dynamiques ou avant uniquement, vous devez, pour les mises à jour par lot, utiliser un curseur de jeu de clés ou statique. Affectez à la propriété <A href="locktype-property-ado.md">LockType</A> la valeur <STRONG>adLockBatchOptimistic</STRONG> et à la propriété <STRONG>CursorLocation</STRONG> la valeur <STRONG>adUseClient</STRONG> pour activer le service de curseur pour OLE DB, nécessaire aux mises à jour par lot.</P>
-
-
+> Même si la méthode **Supports**(**adUpdateBatch**) peut avoir la valeur True pour les curseurs dynamiques ou avant uniquement, vous devez, pour les mises à jour par lot, utiliser un curseur de jeu de clés ou statique. Affectez à la propriété [LockType](locktype-property-ado.md) la valeur **adLockBatchOptimistic** et à la propriété **CursorLocation** la valeur **adUseClient** pour activer le service de curseur pour OLE DB, nécessaire aux mises à jour par lot.
 
 La propriété **CursorType** est en lecture/écriture lorsque l'objet **Recordset** est fermé et en lecture seule lorsqu'il est ouvert.
 

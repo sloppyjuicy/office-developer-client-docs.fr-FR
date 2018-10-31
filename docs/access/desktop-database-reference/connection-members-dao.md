@@ -6,23 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 001cb1372acf4a4a55b3841a3f4ca8d6598f55e8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d797852512becee7f076298750495205cd09bf86
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469863"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861498"
 ---
 # <a name="connection-members-dao"></a>Connection Members (DAO)
 
-
 **S’applique à**: Access 2013 | Office 2013
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.Un objet Connection représente une connexion à une base de données ODBC (espaces de travail ODBCDirect uniquement).</P>
-
-
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access. Un objet Connection représente une connexion à une base de données ODBC (espaces de travail ODBCDirect uniquement).
+ 
 
 ## <a name="methods"></a>Méthodes
 
@@ -42,8 +39,7 @@ ms.locfileid: "25469863"
 <td><p><strong><a href="connection-cancel-method-dao.md">Annuler</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+<br/>
 
 
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
@@ -90,14 +86,13 @@ ms.locfileid: "25469863"
 <td><p><strong><a href="connection-database-property-dao.md">Base de données</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+<br/>
 
 
 <p>Renvoie l'objet <strong><a href="database-object-dao.md">Database</a></strong> qui correspond à cette connexion (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="connection-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="connection-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie le nom d'un objet <strong><a href="connection-object-dao.md">Connection</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -120,8 +115,7 @@ ms.locfileid: "25469863"
 <td><p><strong><a href="connection-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
 <td><p></p>
 
-> [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+<br/>
 
 
 <p>Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <strong>dbRunAsync</strong>) est terminée (espaces de travail ODBCDirect uniquement).</p></td>

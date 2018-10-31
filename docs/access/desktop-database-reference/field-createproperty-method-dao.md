@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822050(v=office.15)
 ms:contentKeyID: 48547202
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a5b911e9e02380e9ea6aa85100e2a60b3b086a49
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fa8868d457100ea74eeb76b67fcfc535c2e859b3
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602999"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861910"
 ---
 # <a name="fieldcreateproperty-method-dao"></a>Field.CreateProperty Method (DAO)
 
@@ -72,7 +72,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 </table>
 
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
 =======
 ### <a name="return-value"></a>Valeur renvoyée
@@ -92,6 +92,6 @@ Pour supprimer un objet utilisateur **Property** de la collection, utilisez la m
 
 
 > [!NOTE]
-> <P>Si vous omettez l’argument DDL, la valeur par défaut est False (non DDL). Aucune propriété DDL correspondante n'étant exposée, vous devez supprimer et recréer un objet <STRONG>Property</STRONG> pour en faire un objet non DDL.</P>
+> Si vous omettez l’argument DDL, la valeur par défaut est False (non DDL). Aucune propriété DDL correspondante n'étant exposée, vous devez supprimer et recréer un objet **Property** pour en faire un objet non DDL.
 
 

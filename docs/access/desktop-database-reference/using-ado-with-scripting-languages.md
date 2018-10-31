@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249074(v=office.15)
 ms:contentKeyID: 48543985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 196366987e89f52a3c498a769fa501a3faca9dae
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4d357fe07a93548419fd03745541435d94d59a8c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604434"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861035"
 ---
-# <a name="using-ado-with-scripting-languages"></a>Utilisation d'ADO avec des langages de script
+# <a name="using-ado-with-scripting-languages"></a>Utilisation d’ADO avec langages de script
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -36,7 +36,6 @@ N/A avec des langages de script
 
 Les rubriques suivantes contiennent des informations détaillées sur l'utilisation d'ADO avec des langages de script :
 
-  - [Programmation ADO en VBScript](vbscript-ado-programming.md)
+- [Programmation ADO JScript](jscript-ado-programming.md)
 
-  - [Programmation ADO en Jscript](jscript-ado-programming.md)
-
+- [Programmation ADO en VBScript](vbscript-ado-programming.md)

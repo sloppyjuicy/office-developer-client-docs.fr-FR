@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 446b4b4c22aad7288744730978c99f8322a55316
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b893ca7d380525cfab8a467f2032e254633268f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471665"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861525"
 ---
 # <a name="dbenginerollback-method-dao"></a>DBEngine.Rollback Method (DAO)
 
@@ -36,11 +36,8 @@ Les méthodes de transaction **BeginTrans**, **CommitTrans** et **Rollback** gè
 
 En général, vous utilisez des transactions pour conserver l'intégrité de vos données lorsque vous devez mettre à jour des enregistrements dans deux ou plusieurs tables et vous assurer que les modifications sont terminées (validées) dans toutes les tables ou dans aucune des tables (annulées). Par exemple, si vous transférez de l'argent d'un compte à un autre, vous devez soustraire un montant d'un compte et l'ajouter à un autre compte. Si une de ces mises à jour échoue, les comptes ne sont plus équilibrés. Utilisez la méthode **BeginTrans** avant de mettre à jour le premier enregistrement, puis, si une mise à jour suivante échoue, vous pouvez utiliser la méthode **Rollback** pour annuler toutes les mises à jour. Utilisez la méthode **CommitTrans** une fois que vous avez réussi à mettre à jour le dernier enregistrement.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Dans un objet <STRONG>Workspace</STRONG>, les transactions sont toujours globales dans l'objet <STRONG>Workspace</STRONG> et vous n'êtes pas limité à un seul objet <STRONG>Connection</STRONG> ou <STRONG>Database</STRONG>. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction <STRONG>Workspace</STRONG>, la résolution de la transaction (à l'aide de la méthode <STRONG>CommitTrans</STRONG> ou <STRONG>Rollback</STRONG>) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.</P>
-
-
+> [!REMARQUE] Dans un objet **Workspace**, les transactions sont toujours globales dans l'objet **Workspace** et vous n'êtes pas limité à un seul objet **Connection** ou **Database**. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction **Workspace**, la résolution de la transaction (à l'aide de la méthode **CommitTrans** ou **Rollback**) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.
 
 Une fois que vous avez utilisé la méthode **CommitTrans**, vous ne pouvez pas annuler les modifications effectuées au cours de cette transaction sauf si la transaction est imbriquée dans une autre transaction qui est elle-même annulée. Si vous imbriquez des transactions, vous devez résoudre la transaction active avant de pouvoir résoudre une transaction située à un niveau supérieur d'imbrication.
 

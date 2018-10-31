@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195178(v=office.15)
 ms:contentKeyID: 48545330
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb8c41917ab6834cda15a706ae550751698543eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1106d477f0c9e055e01db34cafa959b3fcddec37
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471125"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861516"
 ---
 # <a name="connections-collection-dao"></a>Connections Collection (DAO)
 
@@ -42,7 +42,7 @@ Le paramètre de propriété **Name** d'un objet **Connection** est une chaîne 
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez ouvrir la même source de données plusieurs fois, ce qui crée des noms dupliqués dans la collection <STRONG>Connections</STRONG>. Il convient d'affecter des objets <STRONG>Connection</STRONG> aux variables d'objet et de s'y référer par nom de variables.</P>
+> [!REMARQUE] Vous pouvez ouvrir la même source de données plusieurs fois, ce qui crée des noms dupliqués dans la collection **Connections**. Il convient d'affecter des objets **Connection** aux variables d'objet et de s'y référer par nom de variables.
 
 
 

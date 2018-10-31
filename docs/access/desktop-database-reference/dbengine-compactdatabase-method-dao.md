@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1be6f910c8ab4aefed483c147ef88e8cecfa3a84
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9452a76f9e5d467279ee427c6c07016107833acf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470335"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861430"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
 
@@ -86,7 +86,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p>
 
 > [!NOTE]
-> <P>Cela est le paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</P>
+> Cela est le paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.
 
 
 </td>

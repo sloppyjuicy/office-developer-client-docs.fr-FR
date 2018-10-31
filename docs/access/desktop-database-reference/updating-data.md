@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2f507cb7d8939a4d4da65b570ae8e2db53cc8c7c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6b7255fb97798a8c074dc650cc4c61e17c22dd9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469999"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863800"
 ---
 # <a name="updating-data"></a>Mise à jour des données
 
@@ -25,4 +25,12 @@ Utilisez la méthode **Update** pour enregistrer toutes les modifications apport
 Si l'objet **Recordset** prend en charge les mises à jour par lot, il est possible d'enregistrer dans un cache local les modifications apportées à un ou plusieurs enregistrements jusqu'à ce que vous appeliez la méthode **UpdateBatch**. Si vous êtes en train de modifier l'enregistrement actif ou d'ajouter un nouvel enregistrement lorsque vous appelez la méthode **UpdateBatch**, ADO appelle automatiquement la méthode **Update** pour enregistrer toutes les modifications en cours de l'enregistrement actif avant de transmettre les modifications par lot au fournisseur.
 
 L'enregistrement actif reste actif après l'appel des méthodes **Update** ou **UpdateBatch**.
+
+Cette section comprend les rubriques suivantes :
+
+- [Mode immédiat](immediate-mode.md)
+
+- [Traitement de transactions](transaction-processing.md)
+
+- [Batch Mode (ADO)](batch-mode.md)
 

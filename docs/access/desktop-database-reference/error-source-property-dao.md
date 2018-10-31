@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b9aafe1b16b3d989a81ff21f97bd4b6d10f79de3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51acfc5f349d6096028ef86aac480ce81c9b26bf
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471353"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860496"
 ---
 # <a name="errorsource-property-dao"></a>Error.Source Property (DAO)
 
@@ -41,9 +41,7 @@ Vous pouvez écrire du code qui gèrera l'erreur de façon adaptée, en vous bas
 
 
 > [!NOTE]
-> <P>La construction <STRONG>On Error Resume Next</STRONG> est parfois préférable à la construction <STRONG>On Error GoTo</STRONG> lorsqu'il s'agit d'erreurs générées au cours de l'accès à d'autres objets. Lorsque vous vérifiez la propriété de l'objet <STRONG>Error</STRONG> après chaque interaction avec un objet, vous pouvez identifier précisément l'objet auquel votre code accédait au moment de l'erreur. Par conséquent, vous pouvez déterminer avec certitude l'objet qui a placé le code d'erreur dans <STRONG>Error.Number</STRONG>, ainsi que l'objet à l'origine de l'erreur (<STRONG>Error.Source</STRONG>).</P>
-
-
+> La construction **On Error Resume Next** est parfois préférable à la construction **On Error GoTo** lorsqu'il s'agit d'erreurs générées au cours de l'accès à d'autres objets. Lorsque vous vérifiez la propriété de l'objet **Error** après chaque interaction avec un objet, vous pouvez identifier précisément l'objet auquel votre code accédait au moment de l'erreur. Par conséquent, vous pouvez déterminer avec certitude l'objet qui a placé le code d'erreur dans **Error.Number**, ainsi que l'objet à l'origine de l'erreur (**Error.Source**).
 
 ## <a name="example"></a>Exemple
 

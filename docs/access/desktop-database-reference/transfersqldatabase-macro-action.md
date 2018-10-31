@@ -10,23 +10,23 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 301fce8bcdeff45135c305054da72f4c75f503eb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8066c7e8ae827d7ae5a521682f2100bc11c9a6f8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469686"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862890"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransférerBaseDeDonnéesSQL, action de macro
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-Dans un projet Access, l'action **TransférerBaseDeDonnéesSQL** permet de transférer une base de données Microsoft SQL Server 7.0 ou version ultérieure vers une autre base de données SQL Server 7.0 ou version ultérieure. Pour plus d'informations sur le transfert de base de données, voir la documentation de SQL Server.
+Dans un projet Access, l'action **TransférerBaseDeDonnéesSQL** permet de transférer une base de données Microsoft SQL Server 7.0 ou version ultérieure vers une autre base de données SQL Server 7.0 ou version ultérieure. Pour plus d’informations sur le transfert d’une base de données, voir la documentation SQL Server.
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
 
 
 

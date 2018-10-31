@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d61d298da0e3b44895c8fce3ee1adc3b55d9a491
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472105"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860848"
 ---
 # <a name="importexportdata-macro-action"></a>ImporterExporterDonnées, action de macro
 
@@ -66,7 +66,7 @@ L'action **ImporterExporterDonnées** utilise les arguments suivants :
 <li><p>Sélectionnez une table dans la boîte de dialogue <strong>Attacher les tables</strong>, puis cliquez sur <strong>OK</strong>.</p></li>
 </ol>
 <p>Ouvrez la table attachée en mode Création et affichez les propriétés de la table en cliquant sur <strong>Feuille de propriétés</strong> sous l'onglet <strong>Créer</strong> du groupe <strong>Outils</strong>. Le texte affiché dans le paramètre de propriété <strong>Description</strong> est la chaîne de connexion de cette table.  </p>
-<p>Pour plus d'informations sur les chaînes de connexion ODBC, voir la rubrique d'aide ou la documentation du pilote ODBC de ce type de base de données ODBC.</p></td>
+<p>Pour plus d’informations sur les chaînes de connexion ODBC, consultez le fichier d’aide ou la documentation du pilote ODBC de ce type de base de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type d'objet</strong></p></td>

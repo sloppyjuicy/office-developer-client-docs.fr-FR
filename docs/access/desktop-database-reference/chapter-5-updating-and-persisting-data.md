@@ -1,19 +1,19 @@
 ---
-title: 'Chapitre  5 : Mise à jour et persistance des données'
+title: 'Chapitre 5 : Mise à jour et persistance des données'
 TOCTitle: 'Chapter 5: Updating and Persisting Data'
 ms:assetid: 77acb763-1c60-1945-791d-3e83d684fb0d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249493(v=office.15)
 ms:contentKeyID: 48545732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91c747c970988a9ca853f0be66f5c0b485f5c3f6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 487fd11112375fb0f5788505d049a4fc71e245ba
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469380"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861973"
 ---
-# <a name="chapter-5-updating-and-persisting-data"></a>Chapitre  5 : Mise à jour et persistance des données
+# <a name="chapter-5-updating-and-persisting-data"></a>Chapitre 5 : Mise à jour et persistance des données
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -28,3 +28,8 @@ La deuxième notion est que les modifications sont que soit propagés à la sour
 
 En mode de mise à jour immédiate, chaque appel de la méthode **Update** propage les modifications à la source de données. En mode de mise à jour par lot, chaque appel de la méthode **Update** ou chaque déplacement de la position de ligne active enregistre les modifications dans le tampon de copie, mais seule la méthode **UpdateBatch** propage les modifications à la source de données.
 
+Ce chapitre présente les rubriques suivantes :
+
+- [Updating Data (ADO)](updating-data.md)
+
+- [Persisting Data (ADO)](persisting-data.md)

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195868(v=office.15)
 ms:contentKeyID: 48545652
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4d01ba185112bc396181dfe7f5e45df2f082d191
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7b534d4595bd003c76e756c44d6e88f53a725cc8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471294"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861784"
 ---
 # <a name="dbengine-members-dao"></a>DBEngine Members (DAO)
 
@@ -63,7 +63,7 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 
 <p>Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</p></td>
@@ -115,7 +115,7 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 <td><p>Définit le nom d'utilisateur servant à créer l'objet <strong>Workspace</strong> par défaut lors de son initialisation. Valeur de type <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="dbengine-errors-property-dao.md">Errors</a></strong></p></td>
+<td><p><strong><a href="dbengine-errors-property-dao.md">Erreurs</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Errors</strong> qui contient tous les objets <strong>Error</strong> enregistrés pour l'objet spécifié. Valeur en lecture seule.</p></td>
 </tr>
 <tr class="odd">

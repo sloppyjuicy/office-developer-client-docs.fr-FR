@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1e2d939f8583fdfd98ed1ae8e51a5bbfe792e486
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8f8266d2b632b27ee4fafbb4ed0634def544c17a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472063"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860258"
 ---
-# <a name="using-ado-for-internet-publishing"></a>Utilisation d'ADO pour la publication Internet
+# <a name="using-ado-for-internet-publishing"></a>Utilisation d’ADO pour la publication Internet
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -42,3 +42,6 @@ Plusieurs objets ADO ont été améliorés pour fonctionner avec les objets **Re
 
   - Une autre solution plus rapide que l'utilisation de la méthode **Append** consiste à créer des champs simplement en affectant une valeur à un champ non défini ou précédemment supprimé.
 
+## <a name="see-also"></a>Voir aussi
+
+- [Rubriques de scénario de publication Internet](internet-publishing-scenario.md)

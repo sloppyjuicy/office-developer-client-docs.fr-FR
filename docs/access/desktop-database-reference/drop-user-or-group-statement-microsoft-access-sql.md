@@ -1,32 +1,31 @@
 ---
-title: DROP USER ou GROUP, instruction (Microsoft Access SQL)
-TOCTitle: DROP USER or GROUP Statement (Microsoft Access SQL)
+title: Instruction DROP USER ou GROUP (Microsoft Access SQL)
+TOCTitle: DROP USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 46bc5916-556b-17df-2f4c-8fd7bbd21ef7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 3a5cf75de06c13e2452e5f33b8355b7fb480d8a3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a7988a2124af13dc84cefe678342da969e349a06
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469604"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864027"
 ---
-# <a name="drop-user-or-group-statement-microsoft-access-sql"></a>DROP USER ou GROUP, instruction (Microsoft Access SQL)
-
+# <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Instruction DROP USER ou GROUP (Microsoft Access SQL)
 
 **S’applique à**: Access 2013 | Office 2013
 
-Supprime un ou plusieurs *utilisateurs* ou *groupes* existants ou un ou plusieurs *utilisateurs* d'un *groupe* existant.
+Supprime un ou plusieurs *utilisateurs* ou *groupes*, ou un ou plusieurs *utilisateurs* existants à partir d’un *groupe*existant.
 
 ## <a name="syntax"></a>Syntaxe
 
-Supprimer un ou plusieurs *utilisateurs* ou supprimer un ou plusieurs *utilisateurs* d'un *groupe*:
+**Supprimer un ou plusieurs _utilisateurs_ ou supprimer un ou plusieurs _utilisateurs_ d’un _groupe_**:
 
 DROP USER *utilisateur*\[, *utilisateur*,... \] \[De *groupe*\]
 
-Supprimer un ou plusieurs *groupes* :
+**Supprimer un ou plusieurs _groupes_**:
 
 DROP GROUP *groupe*\[, *groupe*,...\]
 
@@ -58,7 +57,7 @@ L'instruction DROP USER ou GROUP est composée des arguments suivants :
 
 ## <a name="remarks"></a>Notes
 
-Si le mot clé FROM est utilisé dans l'instruction DROP USER, alors chacun des *utilisateurs* indiqué dans l'instruction est supprimé du *groupe* spécifié à la suite du mot clé FROM. En revanche, les *utilisateurs* eux-mêmes ne sont pas supprimés.
+Si le mot clé FROM est utilisé dans l’instruction DROP USER, chacun des *utilisateurs* figurant dans l’instruction sera supprimé du *groupe* spécifié après le mot clé FROM. Toutefois, les *utilisateurs* eux-mêmes ne seront pas supprimés.
 
-L'instruction DROP GROUP supprime les *groupes* spécifiés. Les *utilisateurs* qui sont membres des *groupes* ne sont pas supprimés, mais ils ne sont plus membres des *groupes* supprimés.
+L’instruction DROP GROUP supprimera spécifié *groupe*(s). Les *utilisateurs* qui sont membres du *groupe*(s) ne seront pas affectés, mais ils ne seront plus membres supprimés de *groupe (s)*.
 

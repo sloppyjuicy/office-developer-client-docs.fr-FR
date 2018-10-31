@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b47b7b0514b78a89425e47962c36b092e35677ea
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03d3b7ac215c8b5328148b33e2e966c4e574c98e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471291"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864001"
 ---
 # <a name="append-method-ado"></a>Append, méthode (ADO)
 
@@ -78,8 +78,7 @@ Le paramètre *FieldValue* n’est valide que lorsque vous ajoutez un objet **Fi
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Pour les nouveaux objets <STRONG>Field</STRONG> qui ont été ajoutés à la collection <STRONG>Fields</STRONG> d'un objet <STRONG>Record</STRONG>, la propriété <A href="value-property-ado.md">Value</A> doit être définie pour qu'une propriété <STRONG>Field</STRONG> puisse être spécifiée. Une valeur spécifique doit avoir été affectée au préalable à la propriété <STRONG>Value</STRONG> et la méthode <A href="update-method-ado.md">Update</A> doit avoir été appelée sur la collection <STRONG>Fields</STRONG>. Vous pouvez alors accéder à d'autres propriétés comme <A href="type-property-ado.md">Type</A> ou <A href="attributes-property-ado.md">Attributes</A>.</P>
-
+> [!REMARQUE] Pour les nouveaux objets **Field** qui ont été ajoutés à la collection **Fields** d'un objet **Record**, la propriété [Value](value-property-ado.md) doit être définie pour qu'une propriété **Field** puisse être spécifiée. Une valeur spécifique doit avoir été affectée au préalable à la propriété **Value** et la méthode [Update](update-method-ado.md) doit avoir été appelée sur la collection **Fields**. Vous pouvez alors accéder à d'autres propriétés comme [Type](type-property-ado.md) ou [Attributes](attributes-property-ado.md).
 
 
 Une erreur se produit si vous tentez d'ajouter des objets **Field** ayant les types de données suivants (**DataTypeEnum**) à la collection **Fields** : **adArray**, **adChapter**, **adEmpty**, **adPropVariant** et **adUserDefined**. De même, les types de données suivants ne sont pas pris en charge par ADO : **adIDispatch**, **adIUnknown** et **adIVariant**. L'ajout de ces derniers ne génère pas d'erreur mais vous risquez d'obtenir des résultats imprévisibles et notamment des pertes de mémoire lorsque vous les utilisez.

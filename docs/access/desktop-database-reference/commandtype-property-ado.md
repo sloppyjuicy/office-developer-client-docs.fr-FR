@@ -5,7 +5,7 @@
 - Office.Version=v15
 ---
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 # <a name="commandtype-property-ado"></a>CommandType, propriété (ADO)
 =======
 # <a name="commandtype-property-ado"></a>CommandType, propriété (ADO)
@@ -16,7 +16,7 @@
 
 Indique le type d'un objet [Command](command-object-ado.md).
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 =======
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
@@ -24,10 +24,8 @@ Indique le type d'un objet [Command](command-object-ado.md).
 
 Définit ou renvoie une ou plusieurs valeurs [CommandTypeEnum](commandtypeenum.md).
 
-
 > [!NOTE]
-> <P>[!REMARQUE] N'utilisez pas les valeurs <STRONG>CommandTypeEnum</STRONG> <STRONG>adCmdFile</STRONG> ou <STRONG>adCmdTableDirect</STRONG> avec la propriété <STRONG>CommandType</STRONG>. Ces valeurs peuvent être uniquement utilisées en tant qu'options avec les méthodes <A href="open-method-ado-recordset.md">Open</A> et <A href="requery-method-ado.md">Requery</A> d'un objet <A href="recordset-object-ado.md">Recordset</A>.</P>
-
+> [!REMARQUE] N'utilisez pas les valeurs **CommandTypeEnum** **adCmdFile** ou **adCmdTableDirect** avec la propriété **CommandType**. Ces valeurs peuvent être uniquement utilisées en tant qu'options avec les méthodes [Open](open-method-ado-recordset.md) et [Requery](requery-method-ado.md) d'un objet [Recordset](recordset-object-ado.md).
 
 
 ## <a name="remarks"></a>Notes

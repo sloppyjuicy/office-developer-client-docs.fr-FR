@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 60fe0519bc722e688630f13acdd6701b96beff05
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35d9d80ba9299049eb55ee4ae83ac00d57c22293
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470217"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861955"
 ---
 # <a name="document-object-dao"></a>Document Object (DAO)
 
@@ -56,10 +56,8 @@ Chaque objet **Container** comporte une collection **Documents** qui contient de
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!REMARQUE] Ne confondez pas les objets <STRONG>Container</STRONG> répertoriés dans le tableau précédent avec les collections du même nom. L'objet <STRONG>Container</STRONG> des bases de données renvoie à tous les objets de base de données enregistrés, mais la collection <STRONG>Databases</STRONG> renvoie uniquement aux objets de base de données ouverts dans un espace de travail déterminé.</P>
+> [!REMARQUE] Ne confondez pas les objets **Container** répertoriés dans le tableau précédent avec les collections du même nom. L'objet **Container** des bases de données renvoie à tous les objets de base de données enregistrés, mais la collection **Databases** renvoie uniquement aux objets de base de données ouverts dans un espace de travail déterminé.
 
 
 

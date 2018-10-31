@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250246(v=office.15)
 ms:contentKeyID: 48548700
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 551ee657018cb10bffa714ffe388849bbbf6bbe1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: cc3f68fe2c47599a0b56d597927c7094231c35c7
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603160"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860429"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic-topics"></a>ADOX Code Examples in Microsoft Visual Basic Topics
 
@@ -21,7 +21,7 @@ ms.locfileid: "25603160"
 
   - [Exemples de code ADOX dans Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [Attributes, propriété - Exemple (VB)](attributes-property-example-vb.md)
 
   - [Catalog - ActiveConnection, propriété - Exemple (VB)](catalog-activeconnection-property-example-vb.md)
@@ -42,36 +42,36 @@ ms.locfileid: "25603160"
 
   - [DeleteRule, propriété-Exemple (VB)](deleterule-property-example-vb.md)
 =======
-  - [Attributes, propriété-Exemple (VB)](attributes-property-example-vb.md)
+  - [Attributes, propriété – Exemple (VB)](attributes-property-example-vb.md)
 
-  - [Catalogue ActiveConnection, propriété-Exemple (VB)](catalog-activeconnection-property-example-vb.md)
+  - [Propriété ActiveConnection de l’objet Catalog – Exemple (VB)](catalog-activeconnection-property-example-vb.md)
 
-  - [Clustered, propriété-Exemple (VB)](clustered-property-example-vb.md)
+  - [Clustered, propriété – Exemple (VB)](clustered-property-example-vb.md)
 
   - [Colonnes et Tables Append méthodes, nom, propriété-Exemple (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 
-  - [Command et CommandText, propriétés-exemple (VB)](command-and-commandtext-properties-example-vb.md)
+  - [Command et CommandText, propriétés – Exemple (VB)](command-and-commandtext-properties-example-vb.md)
 
   - [Connection Close, méthode, exemple de propriété Table Type (VB)](connection-close-method-table-type-property-example-vb.md)
 
-  - [Create, méthode - Exemple (VB)](create-method-example-vb.md)
+  - [Create, méthode – Exemple (VB)](create-method-example-vb.md)
 
-  - [DateCreated et DateModified, propriétés-exemple (VB)](datecreated-and-datemodified-properties-example-vb.md)
+  - [DateCreated et DateModified, propriétés – Exemple (VB)](datecreated-and-datemodified-properties-example-vb.md)
 
-  - [DefinedSize, propriété-Exemple (VB)](definedsize-property-example-vb.md)
+  - [DefinedSize, propriété – Exemple (VB)](definedsize-property-example-vb.md)
 
-  - [DeleteRule, propriété-Exemple (VB)](deleterule-property-example-vb.md)
+  - [DeleteRule, propriété – Exemple (VB)](deleterule-property-example-vb.md)
 >>>>>>> master
 
-  - [GetObjectOwner et SetObjectOwner, méthodes - Exemple (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
+  - [GetObjectOwner et SetObjectOwner, méthodes – Exemple (VB)](getobjectowner-and-setobjectowner-methods-example-vb.md)
 
-  - [GetPermissions et SetPermissions, méthodes - Exemple (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
+  - [GetPermissions et SetPermissions, méthodes – Exemple (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
 
-  - [Groups Append, Users Append, ChangePassword, méthodes - Exemple (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
+  - [Groups Append, Users Append, ChangePassword, méthodes – Exemple (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
 
-  - [Indexes Append, méthode - Exemple (VB)](indexes-append-method-example-vb.md)
+  - [Indexes Append, méthode – Exemple (VB)](indexes-append-method-example-vb.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [IndexNulls, propriété - Exemple (VB)](indexnulls-property-example-vb.md)
 
   - [Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
@@ -84,42 +84,42 @@ ms.locfileid: "25603160"
 
   - [PrimaryKey et Unique, propriétés-exemple (VB)](primarykey-and-unique-properties-example-vb.md)
 =======
-  - [IndexNulls, propriété-Exemple (VB)](indexnulls-property-example-vb.md)
+  - [IndexNulls, propriété – Exemple (VB)](indexnulls-property-example-vb.md)
 
   - [Clés méthode Append, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 
-  - [NumericScale et Precision, propriétés-exemple (VB)](numericscale-and-precision-properties-example-vb.md)
+  - [NumericScale et Precision, propriétés – Exemple (VB)](numericscale-and-precision-properties-example-vb.md)
 
   - [Parameters, Collection, exemple de propriété Command (VB)](parameters-collection-command-property-example-vb.md)
 
-  - [ParentCatalog, propriété-Exemple (VB)](parentcatalog-property-example-vb.md)
+  - [ParentCatalog, propriété – Exemple (VB)](parentcatalog-property-example-vb.md)
 
-  - [PrimaryKey et Unique, propriétés-exemple (VB)](primarykey-and-unique-properties-example-vb.md)
+  - [PrimaryKey et Unique, propriétés – Exemples (VB)](primarykey-and-unique-properties-example-vb.md)
 >>>>>>> master
 
-  - [Procedures Append, méthode - Exemple (VB)](procedures-append-method-example-vb.md)
+  - [Procedures Append, méthode – Exemple (VB)](procedures-append-method-example-vb.md)
 
-  - [Procedures Delete, méthode - Exemple (VB)](procedures-delete-method-example-vb.md)
+  - [Procedures Delete, méthode – Exemple (VB)](procedures-delete-method-example-vb.md)
 
-  - [Procedures Refresh, méthode - Exemple (VB)](procedures-refresh-method-example-vb.md)
+  - [Procedures Refresh, méthode – Exemple (VB)](procedures-refresh-method-example-vb.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [SortOrder, propriété-Exemple (VB)](sortorder-property-example-vb.md)
 =======
-  - [SortOrder, propriété-Exemple (VB)](sortorder-property-example-vb.md)
+  - [SortOrder, propriété – Exemple (VB)](sortorder-property-example-vb.md)
 >>>>>>> master
 
-  - [Views et Fields, collections - Exemple (VB)](views-and-fields-collections-example-vb.md)
+  - [Vues et les Collections Fields-exemple (VB)](views-and-fields-collections-example-vb.md)
 
-  - [Views Append, méthode - Exemple (VB)](views-append-method-example-vb.md)
+  - [Views Append, méthode – Exemple (VB)](views-append-method-example-vb.md)
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
   - [Views, Collection-exemple de propriété CommandText (VB)](views-collection-commandtext-property-example-vb.md)
 =======
   - [Views, Collection CommandText, propriété-Exemple (VB)](views-collection-commandtext-property-example-vb.md)
 >>>>>>> master
 
-  - [Views Delete, méthode - Exemple (VB)](views-delete-method-example-vb.md)
+  - [Views Delete, méthode – Exemple (VB)](views-delete-method-example-vb.md)
 
-  - [Views Refresh, méthode - Exemple (VB)](views-refresh-method-example-vb.md)
+  - [Views Refresh, méthode-exemple (VB)](views-refresh-method-example-vb.md)
 

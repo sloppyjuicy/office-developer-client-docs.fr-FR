@@ -1,21 +1,21 @@
 ---
 title: Instruction INSERT INTO (Microsoft Access SQL)
-TOCTitle: INSERT INTO Statement (Microsoft Access SQL)
+TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834799(v=office.15)
 ms:contentKeyID: 48547918
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 751d2e2747a2d3b9aac4a0d36b8fac11a60c418f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ae2aaffc7361588a55cc17cc33169a9b8b840e1f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471103"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860461"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -25,11 +25,11 @@ Ajoute un ou plusieurs enregistrements à une table. Cette opération est une re
 
 ## <a name="syntax"></a>Syntaxe
 
-Requête Ajout avec plusieurs enregistrements :
+**Requête Ajout de plusieurs enregistrements**:
 
 INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] \[IN *basededonnéesexterne* \] sélectionnez \[ *source*. \] *champ1*\[, *champ2*\[,... \] FROM *expressiontable*
 
-Requête Ajout avec un seul enregistrement :
+**Requête Ajout de seul enregistrement**:
 
 INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] Valeurs (*valeur1*\[, *valeur2*\[,... \])
 
@@ -57,7 +57,7 @@ L’instruction INSERT INTO comprend les éléments suivants :
 </tr>
 <tr class="odd">
 <td><p><em>basededonnéesexterne</em></p></td>
-<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://msdn.microsoft.com/library/ff194542(v=office.15)">IN</a>.  </p></td>
+<td><p>Chemin d'accès à une base de données externe. Pour une description du chemin d'accès, voir la clause <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a>.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
@@ -101,9 +101,9 @@ Au lieu d'ajouter des enregistrements existants à partir d'une autre table, vou
 
 **Liens fournis par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
 
-  - [Générer des numéros séquentiels pour les instructions INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
+- [Générer des numéros séquentiels pour les instructions INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 
-  - [Formateur SQL vers VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
+- [Formateur SQL vers VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 
 ## <a name="example"></a>Exemple
 
@@ -128,6 +128,8 @@ Cet exemple sélectionne tous les enregistrements dans une table New Customers h
      
     End Sub
 ```
+
+<br/>
 
 Cet exemple crée un nouvel enregistrement dans la table Employees.
 

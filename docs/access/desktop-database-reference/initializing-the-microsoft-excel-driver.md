@@ -10,25 +10,20 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7c9a3282f3bb508a4c68ecbd3f2c0465cfee9bac
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 85961b761255583738026113a025d6ca84b61f83
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603097"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861987"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
-
 **S’applique à**: Access 2013 | Office 2013
 
-<<<<<<< Tête lors de l’installation du pilote Microsoft® Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Microsoft Windows®. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données Microsoft Excel.
-
-## <a name="microsoft-excel-initialization-settings"></a>Paramètres d'initialisation Microsoft Excel
-=== Lorsque vous installez le pilote Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données Microsoft Excel.
+Lorsque vous installez le pilote Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données Microsoft Excel.
 
 ## <a name="excel-initialization-settings"></a>Paramètres d’initialisation de Excel
->>>>>>> master
 
 Le **Access Connectivity Engine\\moteurs\\Excel** dossier contient des paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe aux feuilles de calcul Microsoft Excel. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
 
@@ -147,14 +142,9 @@ Le **Access Connectivity Engine\\moteurs\\Excel 8.0** dossier contient les entr�
 </table>
 
 
-
 > [!NOTE]
 > Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
-<<<<<<< Tête
-
-=======
 ## <a name="see-also"></a>Voir aussi
 
-[À l’aide du paramètre TypeGuessRows pour pilote Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
->>>>>>> master
+[À l’aide du paramètre TypeGuessRows pour pilote Excel](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b)

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837255(v=office.15)
 ms:contentKeyID: 48548925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 114f5c1cfd08098b8dc0a2731709965e2c3f2ea4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 281b319de123049cfe96d9dc8cf35d6bca9bf37a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470503"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860601"
 ---
 # <a name="dbenginebegintrans-method-dao"></a>DBEngine.BeginTrans Method (DAO)
 
@@ -34,7 +34,7 @@ En général, vous utilisez des transactions pour conserver l'intégrité de vos
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Dans un objet <STRONG>Workspace</STRONG>, les transactions sont toujours globales dans l'objet <STRONG>Workspace</STRONG> et vous n'êtes pas limité à un seul objet <STRONG>Connection</STRONG> ou <STRONG>Database</STRONG>. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction <STRONG>Workspace</STRONG>, la résolution de la transaction (à l'aide de la méthode <STRONG>CommitTrans</STRONG> ou <STRONG>Rollback</STRONG>) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.</P>
+> [!REMARQUE] Dans un objet **Workspace**, les transactions sont toujours globales dans l'objet **Workspace** et vous n'êtes pas limité à un seul objet **Connection** ou **Database**. Si vous effectuez des opérations sur plusieurs connexions ou bases de données dans une transaction **Workspace**, la résolution de la transaction (à l'aide de la méthode **CommitTrans** ou **Rollback**) affecte toutes les opérations de toutes les connexions et bases de données dans cet espace de travail.
 
 
 
@@ -54,12 +54,8 @@ Dans les espaces de travail ODBC, lorsque vous utilisez **CommitTrans**, il peut
 
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous pouvez souvent améliorer les performances de l'application en fractionnant les opérations qui doivent accéder au disque en blocs de transactions. Cette opération place les opérations dans la mémoire tampon et peut considérablement réduire le nombre d'accès à un disque.</P>
-> <LI>
-> <P>Dans un espace de travail Microsoft Access, les transactions sont journalisées dans un fichier conservé dans le répertoire spécifié par la variable d'environnement TEMP sur le poste de travail. Si le fichier journal des transactions utilise tout l'espace de stockage disponible sur le lecteur TEMP, le moteur de base de données déclenche une erreur d'exécution. À ce niveau, si vous utilisez <STRONG>CommitTrans</STRONG>, un nombre indéterminé d'opérations est validé, mais les opérations restantes qui n'ont pas été terminées sont perdues, et l'opération doit être recommencée. L'utilisation de la méthode <STRONG>Rollback</STRONG> libère le journal des transactions et annule toutes les opérations dans la transaction.</P>
-> <LI>
-> <P>La fermeture d'un objet <STRONG>Recordset</STRONG> cloné pendant une transaction en attente entraîne une opération <STRONG>Rollback</STRONG> implicite.</P></LI></UL>
+> - Vous pouvez souvent améliorer les performances de l'application en fractionnant les opérations qui doivent accéder au disque en blocs de transactions. Cette opération place les opérations dans la mémoire tampon et peut considérablement réduire le nombre d'accès à un disque.
+> - Dans un espace de travail Microsoft Access, les transactions sont journalisées dans un fichier conservé dans le répertoire spécifié par la variable d'environnement TEMP sur le poste de travail. Si le fichier journal des transactions utilise tout l'espace de stockage disponible sur le lecteur TEMP, le moteur de base de données déclenche une erreur d'exécution. À ce niveau, si vous utilisez **CommitTrans**, un nombre indéterminé d'opérations est validé, mais les opérations restantes qui n'ont pas été terminées sont perdues, et l'opération doit être recommencée. L'utilisation de la méthode **Rollback** libère le journal des transactions et annule toutes les opérations dans la transaction.
+> - La fermeture d'un objet **Recordset** cloné pendant une transaction en attente entraîne une opération **Rollback** implicite.
 
 

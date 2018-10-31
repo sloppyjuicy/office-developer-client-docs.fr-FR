@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f118bab1a73d29858776e33149c54aab39ef5cc
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9091d2c767bf7910a99d30cd0ffa7cbe122a1be0
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469428"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864066"
 ---
 # <a name="errors-collection-dao"></a>Errors Collection (DAO)
 
@@ -34,9 +34,7 @@ L'énumération des différentes erreurs dans la collection **Errors** permet à
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Si vous utilisez le mot clé <STRONG>New</STRONG> pour créer un objet à l'origine d'une erreur avant ou au moment d'être placé dans la collection <STRONG>Errors</STRONG>, cette dernière ne contient pas les informations d'erreur de cet objet, car le nouvel objet n'est pas associé à l'objet <STRONG>DBEngine</STRONG>. Toutefois, les informations d'erreur sont disponibles dans l'objet VBA <STRONG>Err</STRONG>.</P>
-
-
+> [!REMARQUE] Si vous utilisez le mot clé **New** pour créer un objet à l'origine d'une erreur avant ou au moment d'être placé dans la collection **Errors**, cette dernière ne contient pas les informations d'erreur de cet objet, car le nouvel objet n'est pas associé à l'objet **DBEngine**. Toutefois, les informations d'erreur sont disponibles dans l'objet VBA **Err**.
 
 ## <a name="example"></a>Exemple
 

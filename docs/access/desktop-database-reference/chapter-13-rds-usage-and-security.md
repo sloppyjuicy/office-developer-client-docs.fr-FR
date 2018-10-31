@@ -1,19 +1,19 @@
 ---
-title: 'Chapitre 13 : Utilisation et sécurité de RDS'
+title: 'Chapitre 13 : Utilisation et sécurité RDS'
 TOCTitle: 'Chapter 13: RDS Usage and Security'
 ms:assetid: 78add8bb-f01a-2efb-33f0-430deebefe8f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 82eb5120c842f5fc587b9737fb34e1962a7120b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 439225d1307e37ea367f0ac5121fdd138f54e2ec
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472022"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860315"
 ---
-# <a name="chapter-13-rds-usage-and-security"></a>Chapitre 13 : Utilisation et sécurité de RDS
+# <a name="chapter-13-rds-usage-and-security"></a>Chapitre 13 : Utilisation et sécurité RDS
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -22,11 +22,29 @@ Les informations contenues dans ce chapitre vous seront utiles pour configurer v
 
 Cette section contient des informations sur les points suivants :
 
-  - [Configuration de RDS](configuring-rds.md)
+- [Configuration de RDS](configuring-rds.md)
 
-  - [Utilisation des technologies associées à RDS](using-related-technologies-with-rds.md)
+- [Octroi de privilèges invité à un serveur Web ; RDS invité privilèges \[ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 
-  - [Personnalisation de DataFactory](datafactory-customization.md)
+- [Objets métier reconnus sûrs pour l'écriture de scripts](marking-business-objects-as-safe-for-scripting.md)
 
-  - [Résolution des problèmes liés à RDS](troubleshooting-rds.md)
+- [Inscription côté client des objets métier à utiliser avec DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
+
+- [Définition du format pour le marshaling de flux DCOM](setting-dcom-stream-marshaling-format.md)
+
+- [Configuration d'une DLL pour son exécution sur DCOM](enabling-a-dll-to-run-on-dcom.md)
+
+- [Configuration des serveurs virtuels dans IIS](configuring-virtual-servers-on-iis.md)
+
+- [Définition du nombre de threads par processeur dans IIS](specifying-threads-per-processor-on-iis.md)
+
+- [Sécurisation des applications RDS](securing-rds-applications.md)
+
+- [Configuration de DataFactory en mode sécurisé ou non restreint](configuring-datafactory-for-safe-or-unrestricted-modes.md)
+
+- [Using Related Technologies with RDS (ADO)](using-related-technologies-with-rds.md)
+
+- [DataFactory Customization (ADO)](datafactory-customization.md)
+
+- [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
 

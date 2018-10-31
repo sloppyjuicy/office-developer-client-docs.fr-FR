@@ -1,30 +1,30 @@
 ---
-title: CREATE INDEX, instruction (Microsoft Access SQL)
-TOCTitle: CREATE INDEX Statement (Microsoft Access SQL)
+title: Instruction CREATE INDEX (Microsoft Access SQL)
+TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823109(v=office.15)
 ms:contentKeyID: 48547612
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab501348d19ad8577bf1a55a3f37c6c3923381b1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7710dd89a645b10d20044e2eeaeb26986730c843
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469474"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861553"
 ---
-# <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX, instruction (Microsoft Access SQL)
+# <a name="create-index-statement-microsoft-access-sql"></a>Instruction CREATE INDEX (Microsoft Access SQL)
 
 **S’applique à**: Access 2013 | Office 2013
 
 Crée un nouvel index sur une table existante.
 
 > [!NOTE]
-> [!REMARQUE] Pour les bases de données autres que celles de type Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC), ni les instructions du langage de définition de données (DDL). Pour cela, utilisez les méthodes Create DAO . Pour plus d'informations, voir la section Notes.
+> Pour les bases de données Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge l’utilisation de CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC) ou une des instructions de langage de définition de données. Utilisez les méthodes **Create DAO** à la place. Pour plus d’informations, voir la section Remarques.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,7 +64,7 @@ L'instruction CREATE INDEX est composée des arguments suivants :
 
 Pour interdire les valeurs dupliquées dans les champs indexés de différent enregistrements, utilisez le mot réservé UNIQUE.
 
-Vous pouvez appliquer des règles de validation dans la clause WITH facultative. Vous pouvez :
+Dans la clause WITH facultative, vous pouvez appliquer des règles de validation de données. Vous pouvez :
 
 - interdire les entrées Null dans les champs indexés de nouveaux enregistrements à l'aide de l'option DISALLOW NULL ;
 
@@ -72,7 +72,7 @@ Vous pouvez appliquer des règles de validation dans la clause WITH facultative.
 
 - désigner les champs indexés en tant que clé primaire en utilisant le mot réservé PRIMARY. Ceci implique que la clé soit unique, aussi vous pouvez omettre le mot réservé UNIQUE.
 
-Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft® SQL Server qui ne comporte pas d'index. Vous n'avez pas besoin d'une autorisation d'accès particulière au serveur distant pour créer un pseudo index ; la base de données distante ignore l'existence du pseudo index qui n'a par conséquent aucune incidence sur celle-ci. Utilisez la même syntaxe pour les tables liées et natives. Créer un pseudo index sur une table qui est normalement en lecture seule peut s'avérer particulièrement utile.
+Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft SQL Server, qui n’a pas déjà un index. Vous n'avez pas besoin d'une autorisation d'accès particulière au serveur distant pour créer un pseudo index ; la base de données distante ignore l'existence du pseudo index qui n'a par conséquent aucune incidence sur celle-ci. Utilisez la même syntaxe pour les tables liées et natives. Créer un pseudo index sur une table qui est normalement en lecture seule peut s'avérer particulièrement utile.
 
 Vous pouvez également utiliser l'instruction [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) pour ajouter un index d'un seul champ ou de plusieurs champs à une table et l'instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
 

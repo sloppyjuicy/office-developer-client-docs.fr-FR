@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 106dd9d72cb350422f00da05859bc096cb2b52e9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca51537c78dfc07a6cd3560bba7154f6b56ef31f
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470822"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861210"
 ---
 # <a name="append-method-adox-views"></a>Append, méthode (Vues ADOX)
 
@@ -43,6 +43,6 @@ Si le texte de commande spécifié par l'utilisateur représente une procédure 
 
 
 > [!NOTE]
-> <P>Lorsque vous utilisez le fournisseur OLE DB pour Microsoft Jet, la méthode <STRONG>Append</STRONG> de collection <STRONG>Views</STRONG> vous autorisera à spécifier une <STRONG>procédure</STRONG> plutôt qu’une <STRONG>vue</STRONG> dans le paramètre de <EM>commande</EM> . L'objet <STRONG>Procedure</STRONG> sera ajouté à la source de données et à la collection <STRONG>Views</STRONG>. Après cet <STRONG>ajout</STRONG> et en cas d'actualisation des collections <STRONG>Procedures</STRONG> et <STRONG>Views</STRONG>, l'objet <STRONG>Procedure</STRONG> ne figurera plus dans la collection <STRONG>Views</STRONG> mais apparaîtra dans la collection <STRONG>Procedures</STRONG>.</P>
+> Lorsque vous utilisez le fournisseur OLE DB pour Microsoft Jet, la méthode **Append** de collection **Views** vous autorisera à spécifier une **procédure** plutôt qu’une **vue** dans le paramètre de *commande* . L'objet **Procedure** sera ajouté à la source de données et à la collection **Views**. Après cet **ajout** et en cas d'actualisation des collections **Procedures** et **Views**, l'objet **Procedure** ne figurera plus dans la collection **Views** mais apparaîtra dans la collection **Procedures**.
 
 

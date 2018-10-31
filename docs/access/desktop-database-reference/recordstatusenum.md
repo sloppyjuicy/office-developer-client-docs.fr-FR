@@ -4,21 +4,22 @@ TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
 ms:contentKeyID: 48544022
-ms.date: 09/18/2015
+ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 88929ced56583316c42f2d5195054e51e98a1d5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 06c7674734a044bdc242ec7548685a5faf915be2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470486"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860594"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
-
 
 **S’applique à**: Access 2013 | Office 2013
 
 Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres opérations globales de ce type.
+
+<br/>
 
 <table>
 <colgroup>
@@ -61,7 +62,7 @@ Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres 
 </tr>
 <tr class="even">
 <td><p><strong>adRecIntegrityViolation</strong></p></td>
-<td><p>0 x 1000</p></td>
+<td><p>0x1000</p></td>
 <td><p>Indique que l'enregistrement n'a pas été sauvegardé car l'utilisateur n'a pas respecté les contraintes d'intégrité.</p></td>
 </tr>
 <tr class="odd">
@@ -76,7 +77,7 @@ Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres 
 </tr>
 <tr class="odd">
 <td><p><strong>adRecModified</strong></p></td>
-<td><p>0 x 2</p></td>
+<td><p>0x2</p></td>
 <td><p>Indique que l'enregistrement a été modifié.</p></td>
 </tr>
 <tr class="even">
@@ -86,12 +87,12 @@ Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres 
 </tr>
 <tr class="odd">
 <td><p><strong>adRecNew</strong></p></td>
-<td><p>0 x 1</p></td>
+<td><p>0x1</p></td>
 <td><p>Indique qu'il s'agit d'un nouvel enregistrement.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecObjectOpen</strong></p></td>
-<td><p>0 x 4000</p></td>
+<td><p>0x4000</p></td>
 <td><p>Indique que l'enregistrement n'a pas été sauvegardé en raison d'un conflit avec un objet de stockage ouvert.</p></td>
 </tr>
 <tr class="odd">
@@ -128,7 +129,7 @@ Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres 
 </table>
 
 
-**Équivalent ADO/WFC**
+### <a name="adowfc-equivalent"></a>Équivalent ADO/WFC
 
 AdoEnums.RecordStatus.
 

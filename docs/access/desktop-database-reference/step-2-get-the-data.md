@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250171(v=office.15)
 ms:contentKeyID: 48548387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4b93eb3e3679fdbc235f4406b0480ad2597d25
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80dae05dc691343b3c89ce8fd3ccfe72b776984c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469347"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860328"
 ---
 # <a name="step-2-get-the-data"></a>Étape 2 : obtenir les données
 
 
 **S’applique à**: Access 2013 | Office 2013
 
-## <a name="step-2-get-the-data"></a>Étape 2 : obtenir les données
+## <a name="step-2-get-the-data"></a>Étape 2 : Obtenir des données
 
 Cette étape consiste à écrire le code permettant d'ouvrir un objet **Recordset** ADO et de préparer son envoi au client. Ouvrez le fichier XMLResponse.asp dans un éditeur de texte, tel que le Bloc-notes de Windows, puis insérez-y le code suivant :
 
@@ -49,5 +49,7 @@ Veillez à modifier la valeur du paramètre Source de données dans le paramètr
 
 Gardez le fichier ouvert et passez à l'étape suivante.
 
-**Suivant** [Étape 3 : envoyer les données](step-3-send-the-data.md)
+### <a name="next-step"></a>Étape suivante
+
+[Étape 3 : envoyer les données](step-3-send-the-data.md)
 

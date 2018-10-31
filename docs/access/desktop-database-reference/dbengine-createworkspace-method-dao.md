@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2464426bc7178638e8ebbfc9f5b2f6d1d1b61ca2
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: f76cb57345b7ec653092517d72fa3355a29de6cd
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602586"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862561"
 ---
 # <a name="dbenginecreateworkspace-method-dao"></a>DBEngine.CreateWorkspace Method (DAO)
 
@@ -68,7 +68,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p>Une <strong>chaîne</strong> contenant le mot de passe pour le nouvel objet <strong>Workspace</strong> . Le mot de passe peut comporter jusqu'à 20 caractères et peut inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null).</p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</P>
+> [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.
 
 
 </td>
@@ -80,7 +80,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p>Une des valeurs de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Définition de l’argument type sur <STRONG>dbUseODBC</STRONG> provoquera une erreur d’exécution. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Définition de l’argument type sur **dbUseODBC** provoquera une erreur d’exécution. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 
 </td>
@@ -89,7 +89,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 </table>
 
 
-<<<<<<< Tête
+<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
 =======
 ### <a name="return-value"></a>Valeur renvoyée

@@ -1,19 +1,19 @@
 ---
-title: Find, méthode - Exemple (VB)
-TOCTitle: Find Method Example (VB)
+title: Find, méthode – Exemple (VB)
+TOCTitle: Find method example (VB)
 ms:assetid: 93fa7cab-e66d-7d9c-22bb-d73b44982649
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249657(v=office.15)
 ms:contentKeyID: 48546408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89f6654f2749aab2f30e55c3543763da76e53a52
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3f1c72931381839f7a8340d1d212b2afaa6fc3e
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471748"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860930"
 ---
-# <a name="find-method-example-vb"></a>Find, méthode - Exemple (VB)
+# <a name="find-method-example-vb"></a>Find, méthode – Exemple (VB)
 
 
 **S’applique à**: Access 2013 | Office 2013

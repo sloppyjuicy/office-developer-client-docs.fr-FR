@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a565430cf81eed5cbc1ebfe135ce80ee6f0177e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6b1e04c3ce9f450d2168c9f607bfa1d135951bb9
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471981"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862302"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk, méthode (ADO)
 
@@ -49,7 +49,7 @@ S'il n'existe pas d'enregistrement actif lorsque vous appelez la méthode **Appe
 
 
 > [!NOTE]
-> <P>[!REMARQUE] La méthode <STRONG>AppendChunk</STRONG> ne fonctionne pas sur les objets <STRONG>Field</STRONG> d'un objet <A href="record-object-ado.md">Record</A> ; elle n'exécute aucune opération et génère une erreur d'exécution.</P>
+> [!REMARQUE] La méthode **AppendChunk** ne fonctionne pas sur les objets **Field** d'un objet [Record](record-object-ado.md) ; elle n'exécute aucune opération et génère une erreur d'exécution.
 
 
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 11c999fcac3b77ddc4eeb9ef8f4414a5f8aa1559
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fa52050e91c1a291dd59f9cde1ea36c320406dd6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470014"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860265"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Database.PopulatePartial Method (DAO)
 
@@ -79,7 +79,7 @@ La méthode **PopulatePartial** ne peut être appelée que sur un réplica parti
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Même si <STRONG>PopulatePartial</STRONG> effectue une synchronisation unidirectionnelle avant d'effacer et de remplir à nouveau le réplica partiel, il est judicieux d'appeler <STRONG>Synchronize</STRONG> avant <STRONG>PopulatePartial</STRONG>. En effet, si l'appel de <STRONG>Synchronize</STRONG> échoue, une erreur interceptable se produit. Cette erreur peut vous être utile pour décider s'il convient ou non de poursuivre avec la méthode <STRONG>PopulatePartial</STRONG> (laquelle supprime tous les enregistrements du réplica partiel). Si <STRONG>PopulatePartial</STRONG> s'appelle elle-même et qu'une erreur se produit alors que les enregistrements sont en cours de synchronisation, les enregistrements du réplica partiel sont quand même effacés, ce qui peut ne pas correspondre au résultat souhaité.</P>
+> [!REMARQUE] Même si **PopulatePartial** effectue une synchronisation unidirectionnelle avant d'effacer et de remplir à nouveau le réplica partiel, il est judicieux d'appeler **Synchronize** avant **PopulatePartial**. En effet, si l'appel de **Synchronize** échoue, une erreur interceptable se produit. Cette erreur peut vous être utile pour décider s'il convient ou non de poursuivre avec la méthode **PopulatePartial** (laquelle supprime tous les enregistrements du réplica partiel). Si **PopulatePartial** s'appelle elle-même et qu'une erreur se produit alors que les enregistrements sont en cours de synchronisation, les enregistrements du réplica partiel sont quand même effacés, ce qui peut ne pas correspondre au résultat souhaité.
 
 
 

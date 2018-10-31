@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa1f9a3c7601601a1ce48ea3912a4f759d436e4f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 6e209c00742772d8d3294be4a74772526c3c29c2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472440"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861021"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>Utilisation d'ADO avec Microsoft Visual Basic
 
@@ -115,5 +115,5 @@ Afin de gérer des événements ADO en Microsoft Visual Basic, vous devez décla
 
 ## <a name="visual-basic-examples"></a>Exemples Visual Basic
 
-De nombreux exemples Visual Basic sont inclus dans la documentation ADO. Pour plus d'informations, consultez [Exemples de code ADO en Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
+De nombreux exemples Visual Basic sont inclus dans la documentation ADO. Pour plus d’informations, voir [exemples de code ADO en Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

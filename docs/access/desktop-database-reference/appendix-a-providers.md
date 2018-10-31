@@ -1,19 +1,19 @@
 ---
-title: 'Annexe A : Fournisseurs'
+title: 'Annexe A : Fournisseurs'
 TOCTitle: 'Appendix A: Providers'
 ms:assetid: b3f92279-8d66-ad59-71c4-c0448168125a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbd9536edd15f923af85f2fadad8b696077af4a4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f18af92724ff87263808cba2e8799bca2a558541
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471611"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861441"
 ---
-# <a name="appendix-a-providers"></a>Annexe A : Fournisseurs
+# <a name="appendix-a-providers"></a>Annexe A : Fournisseurs
 
 
 **S’applique à**: Access 2013 | Office 2013
@@ -49,31 +49,31 @@ Les détails concernant chaque fournisseur de données de Microsoft actuellement
 <tbody>
 <tr class="odd">
 <td><p>Bases de données ODBC</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Fournisseur Microsoft OLE DB pour ODBC</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-odbc.md">Fournisseur Microsoft OLE DB pour ODBC</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Service d'indexation Microsoft</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Fournisseur Microsoft OLE DB pour le service d'indexation Microsoft</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-indexing-service.md">Fournisseur Microsoft OLE DB pour le service d’indexation Microsoft</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Service Microsoft Active Directory</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Fournisseur Microsoft OLE DB pour le service Microsoft Active Directory</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-active-directory-service.md">Fournisseur Microsoft OLE DB pour Microsoft Active Directory Service</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bases de données Microsoft Jet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Fournisseur OLE DB pour Microsoft Jet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-microsoft-jet.md">Fournisseur Microsoft OLE DB pour Microsoft Jet</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft SQL Server</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Fournisseur Microsoft OLE DB pour SQL Server</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-sql-server.md">Fournisseur Microsoft OLE DB pour SQL Server</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bases de données Oracle</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Fournisseur Microsoft OLE DB pour Oracle</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-oracle.md">Fournisseur Microsoft OLE DB pour Oracle</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Publication Internet</p></td>
-<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a></p></td>
+<td><p><a href="microsoft-ole-db-provider-for-internet-publishing.md">Fournisseur Microsoft OLE DB pour la publication Internet</a></p></td>
 </tr>
 </tbody>
 </table>

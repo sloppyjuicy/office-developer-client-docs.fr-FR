@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15f868867466bdbce6f15b326a88b7a9f0842015
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 58e36426360abf36d7fdf0cb026f6d8ff14b29b5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469309"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864018"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -109,7 +109,7 @@ Un objet Database représente une base de données ouverte.
 <td><p></p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 
 <p>Renvoie l'objet <strong><a href="connection-object-dao.md">Connection</a></strong> qui correspond à la base de données (espaces de travail ODBCDirect uniquement).</p></td>
@@ -123,7 +123,7 @@ Un objet Database représente une base de données ouverte.
 <td><p>Définit ou renvoie une valeur de 16 octets qui identifie de façon unique le réplica-maître d'un jeu de réplicas (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">

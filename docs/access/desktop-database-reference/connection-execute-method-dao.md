@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3171ec1d35f08a5bc9d6a02a9a50ca80e11413de
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e0307710d5519fa08eff0843ca48268b5bc00f0a
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471477"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862590"
 ---
 # <a name="connectionexecute-method-dao"></a>Connection.Execute Method (DAO)
 
@@ -111,18 +111,11 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 </tbody>
 </table>
 
-
+> [!NOTE]
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!REMARQUE] Les constantes <STRONG>dbConsistent</STRONG> et <STRONG>dbInconsistent</STRONG> s'excluent mutuellement. Vous pouvez utiliser l'une ou l'autre, mais jamais les deux en même temps dans une instance donnée d' <STRONG>OpenRecordset</STRONG>. L'utilisation de <STRONG>dbConsistent</STRONG> et <STRONG>dbInconsistent</STRONG> génère une erreur.</P>
-
-
+> [!REMARQUE] Les constantes **dbConsistent** et **dbInconsistent** s'excluent mutuellement. Vous pouvez utiliser l'une ou l'autre, mais jamais les deux en même temps dans une instance donnée d' **OpenRecordset**. L'utilisation de **dbConsistent** et **dbInconsistent** génère une erreur.
 
 La méthode **Execute** est valide uniquement pour les requêtes action. Si vous utilisez **Execute** avec un autre type de requête, une erreur est générée. Dans la mesure où une requête Action ne renvoie aucun enregistrement, **Execute** ne renvoie pas d'objet **Recordset**. (L'exécution d'une requête SQL directe dans un espace de travail ODBCDirect ne renvoie pas d'erreur si aucun objet **Recordset** n'est renvoyé.)
 
