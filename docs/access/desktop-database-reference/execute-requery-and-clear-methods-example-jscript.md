@@ -1,24 +1,24 @@
 ---
-title: Execute, Requery et Clear, méthodes - Exemple (JScript)
-TOCTitle: Execute, Requery, and Clear Methods Example (JScript)
+title: Execute, Requery et Clear, méthodes – Exemple (JScript)
+TOCTitle: Execute, Requery, and Clear methods example (JScript)
 ms:assetid: 3c1f1913-f168-b8a9-8791-f4a0b1aa8273
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249157(v=office.15)
 ms:contentKeyID: 48544306
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 03462ce181dd3dadade6dc63a6a0d4cc2c06e08c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1eec2b3da623f983f8e16e41c32b0a219ddd7931
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470737"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862151"
 ---
-# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="37ef2-102">Execute, Requery et Clear, méthodes - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="37ef2-102">Execute, Requery, and Clear Methods Example (JScript)</span></span>
+# <a name="execute-requery-and-clear-methods-example-jscript"></a><span data-ttu-id="7b27a-102">Execute, Requery et Clear, méthodes – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="7b27a-102">Execute, Requery, and Clear methods example (JScript)</span></span>
 
 
-<span data-ttu-id="37ef2-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="37ef2-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7b27a-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b27a-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="37ef2-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recordset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). (L'accès à la collection **Errors** est réalisé via l'objet **Connection** de la propriété [ActiveConnection](activeconnection-property-ado.md) de l'objet [Recordset](recordset-object-ado.md).) Nommez le fichier **ExecuteJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="37ef2-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
+<span data-ttu-id="7b27a-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recordset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). (L'accès à la collection **Errors** est réalisé via l'objet **Connection** de la propriété [ActiveConnection](activeconnection-property-ado.md) de l'objet [Recordset](recordset-object-ado.md).) Nommez le fichier **ExecuteJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="7b27a-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. (The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) Name the file **ExecuteJS.asp**.</span></span>
 
 ```javascript 
  
@@ -37,7 +37,7 @@ ms.locfileid: "25470737"
 <html> 
  
 <head> 
-<title>Execute, Requery and Clear Methods Example (JScript)</title> 
+<title>Execute, Requery and Clear methods example (JScript)</title> 
 <style> 
 <!-- 
 BODY { 
@@ -50,7 +50,7 @@ BODY {
 </head> 
  
 <body bgcolor="White"> 
-<h1>Execute, Requery and Clear Methods Example (JScript)</h1> 
+<h1>Execute, Requery and Clear methods example (JScript)</h1> 
 <% 
  if (strLastName.length > 0) 
  { 

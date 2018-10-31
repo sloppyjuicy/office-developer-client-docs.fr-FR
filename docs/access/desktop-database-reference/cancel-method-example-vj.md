@@ -1,24 +1,24 @@
 ---
-title: Cancel, méthode - Exemple (VJ++)
-TOCTitle: Cancel Method Example (VJ++)
+title: Cancel, méthode – Exemple (VJ++)
+TOCTitle: Cancel method example (VJ++)
 ms:assetid: 319a7894-9e79-a55a-0007-bd5a581ea58f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 65439b9e667b8efeaf73b94121399cadaac26c20
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ce7a0429b80cbed0f5abe97dcaa3cbbd0da8be1
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470183"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862503"
 ---
-# <a name="cancel-method-example-vj"></a><span data-ttu-id="fdaaf-102">Cancel, méthode - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fdaaf-102">Cancel Method Example (VJ++)</span></span>
+# <a name="cancel-method-example-vj"></a><span data-ttu-id="8f85d-102">Cancel, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8f85d-102">Cancel method example (VJ++)</span></span>
 
 
-<span data-ttu-id="fdaaf-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fdaaf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8f85d-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8f85d-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="fdaaf-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="fdaaf-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="8f85d-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="8f85d-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```java 
  

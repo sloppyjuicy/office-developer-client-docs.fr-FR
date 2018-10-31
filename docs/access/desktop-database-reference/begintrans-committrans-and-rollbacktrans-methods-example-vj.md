@@ -1,24 +1,24 @@
 ---
-title: BeginTrans, CommitTrans et RollbackTrans, méthodes-exemple (VJ ++)
-TOCTitle: BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)
+title: BeginTrans, CommitTrans et RollbackTrans méthodes-exemple (VJ ++)
+TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 ms:assetid: 8c1ca470-792e-4792-8913-fa7d3b46218f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
 ms:contentKeyID: 48546229
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52a78412201cedfe3dc7fdbaa44e718167356a7e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d78d18bcda7e83d10586f8ec94ff07ec49058adb
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471279"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861954"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="b2e6a-102">BeginTrans, CommitTrans et RollbackTrans, méthodes - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b2e6a-102">BeginTrans, CommitTrans, and RollbackTrans Methods Example (VJ++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vj"></a><span data-ttu-id="ec961-102">BeginTrans, CommitTrans et RollbackTrans, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ec961-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="b2e6a-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2e6a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ec961-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ec961-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="b2e6a-104">Cet exemple montre comment modifier le type de tous les livres de psychologie dans la table ***Titles*** de la base de données.</span><span class="sxs-lookup"><span data-stu-id="b2e6a-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="b2e6a-105">Une fois que la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) démarre une transaction qui isole toutes les modifications apportées à la table ***Titles*** , la méthode [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) enregistre les modifications.</span><span class="sxs-lookup"><span data-stu-id="b2e6a-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="b2e6a-106">Vous pouvez utiliser la méthode [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) pour annuler les modifications que vous avez enregistré à l’aide de la méthode de [mise à jour](update-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="b2e6a-106">You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="ec961-104">Cet exemple montre comment modifier le type de tous les livres de psychologie dans la table ***Titles*** de la base de données.</span><span class="sxs-lookup"><span data-stu-id="ec961-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="ec961-105">Une fois que la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) démarre une transaction qui isole toutes les modifications apportées à la table ***Titles*** , la méthode [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) enregistre les modifications.</span><span class="sxs-lookup"><span data-stu-id="ec961-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="ec961-106">Vous pouvez utiliser la méthode [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) pour annuler les modifications que vous avez enregistré à l’aide de la méthode de [mise à jour](update-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="ec961-106">You can use the [Rollback](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```java 
  

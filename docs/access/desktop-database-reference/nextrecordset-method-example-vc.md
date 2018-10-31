@@ -1,24 +1,24 @@
 ---
-title: NextRecordset, méthode - Exemple (VC++)
-TOCTitle: NextRecordset Method Example (VC++)
+title: NextRecordset, méthode – Exemple (VC++)
+TOCTitle: NextRecordset method example (VC++)
 ms:assetid: e11feba0-07d2-3c6a-c5cd-b8712a02a6a1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7728ffdade45fd48fe46ffc917b58cab0e0cbf3a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 759b855660904f70746abd36bf5f386cb7630944
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471334"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864094"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="73cae-102">NextRecordset, méthode - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="73cae-102">NextRecordset Method Example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="47e3e-102">NextRecordset, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="47e3e-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="73cae-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="73cae-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="47e3e-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="47e3e-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="73cae-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d'un jeu d'enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="73cae-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="47e3e-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d'un jeu d'enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="47e3e-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  

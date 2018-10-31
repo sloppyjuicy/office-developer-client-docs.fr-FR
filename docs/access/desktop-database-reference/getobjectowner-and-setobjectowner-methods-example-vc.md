@@ -1,24 +1,24 @@
 ---
-title: GetObjectOwner et SetObjectOwner, méthodes - Exemples (VC++)
-TOCTitle: GetObjectOwner and SetObjectOwner Methods Example (VC++)
+title: GetObjectOwner et SetObjectOwner, méthodes – Exemples (VC++)
+TOCTitle: GetObjectOwner and SetObjectOwner methods example (VC++)
 ms:assetid: af38cc5c-4475-20fa-edcd-a439e1ffbf99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f1efe20d78c6be737ee32b5b8156a9d311ad654e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 488e4f966bb37dd151eca8ab7231769373cc06e8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471349"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864192"
 ---
-# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="c7ee3-102">GetObjectOwner et SetObjectOwner, méthodes - Exemples (VC++)</span><span class="sxs-lookup"><span data-stu-id="c7ee3-102">GetObjectOwner and SetObjectOwner Methods Example (VC++)</span></span>
+# <a name="getobjectowner-and-setobjectowner-methods-example-vc"></a><span data-ttu-id="1c21e-102">GetObjectOwner et SetObjectOwner, méthodes – Exemples (VC++)</span><span class="sxs-lookup"><span data-stu-id="1c21e-102">GetObjectOwner and SetObjectOwner methods example (VC++)</span></span>
 
 
-<span data-ttu-id="c7ee3-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7ee3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1c21e-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c21e-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c7ee3-p101">Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Ce code suppose l'existence du groupe Accounting (consultez la rubrique [Groups Append, Users Append, ChangePassword, méthodes - Exemple (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) pour savoir comment ajouter ce groupe au système). Le propriétaire de la table Categories est Accounting.</span><span class="sxs-lookup"><span data-stu-id="c7ee3-p101">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword Methods Example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.</span></span>
+<span data-ttu-id="1c21e-104">Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)).</span><span class="sxs-lookup"><span data-stu-id="1c21e-104">This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)) methods.</span></span> <span data-ttu-id="1c21e-105">Ce code suppose l’existence du groupe Accounting (voir les [groupes et Append, Users Append, ChangePassword, méthodes-exemple (VC ++)](groups-and-users-append-changepassword-methods-example-vc.md) pour savoir comment ajouter ce groupe au système).</span><span class="sxs-lookup"><span data-stu-id="1c21e-105">This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VC++)](groups-and-users-append-changepassword-methods-example-vc.md) to see how to add this group to the system).</span></span> <span data-ttu-id="1c21e-106">Le propriétaire de la table Categories est Accounting.</span><span class="sxs-lookup"><span data-stu-id="1c21e-106">The owner of the Categories table is set to Accounting.</span></span>
 
 ```cpp 
  

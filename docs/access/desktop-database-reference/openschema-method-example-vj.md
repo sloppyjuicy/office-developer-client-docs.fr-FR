@@ -1,24 +1,24 @@
 ---
-title: OpenSchema, méthode - Exemple (VJ++)
-TOCTitle: OpenSchema Method Example (VJ++)
+title: OpenSchema, méthode – Exemple (VJ++)
+TOCTitle: OpenSchema method example (VJ++)
 ms:assetid: a76f2c21-d535-a1f5-c541-adaab21c87d0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249773(v=office.15)
 ms:contentKeyID: 48546877
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5e8b326c341f2fb3b91cdfdcd537fa3ea2be16b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a426a7aa0a485817dbab5d865a22a9920b21f0ab
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469992"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25861938"
 ---
-# <a name="openschema-method-example-vj"></a><span data-ttu-id="d7d75-102">OpenSchema, méthode - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d7d75-102">OpenSchema Method Example (VJ++)</span></span>
+# <a name="openschema-method-example-vj"></a><span data-ttu-id="4f9fa-102">OpenSchema, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4f9fa-102">OpenSchema method example (VJ++)</span></span>
 
 
-<span data-ttu-id="d7d75-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7d75-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4f9fa-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f9fa-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="d7d75-104">Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="d7d75-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="4f9fa-104">Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="4f9fa-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```java 
  

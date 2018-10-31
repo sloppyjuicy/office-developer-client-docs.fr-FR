@@ -1,24 +1,24 @@
 ---
-title: AddNew, méthode - Exemple (VJ++)
-TOCTitle: AddNew Method Example (VJ++)
+title: AddNew, méthode – Exemple (VJ++)
+TOCTitle: AddNew method example (VJ++)
 ms:assetid: 25924e0d-8cfb-13c3-0a56-0a6feb2787be
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249023(v=office.15)
 ms:contentKeyID: 48543786
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f58dcf160c8f2480ae4e48992e96903d5d97cf92
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c2d373e22445a064dc467c30e6ba9eb0c45a547d
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469849"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862582"
 ---
-# <a name="addnew-method-example-vj"></a><span data-ttu-id="c1173-102">AddNew, méthode - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c1173-102">AddNew Method Example (VJ++)</span></span>
+# <a name="addnew-method-example-vj"></a><span data-ttu-id="25446-102">AddNew, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="25446-102">AddNew method example (VJ++)</span></span>
 
 
-<span data-ttu-id="c1173-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1173-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="25446-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="25446-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="c1173-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="c1173-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="25446-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="25446-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```java 
  

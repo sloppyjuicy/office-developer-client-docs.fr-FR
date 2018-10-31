@@ -1,24 +1,24 @@
 ---
-title: Move, méthode - Exemple (VB)
-TOCTitle: Move Method Example (VB)
+title: Move, méthode – Exemple (VB)
+TOCTitle: Move method example (VB)
 ms:assetid: e3e837a4-f46d-f8ec-11ba-9b8d66105b13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250161(v=office.15)
 ms:contentKeyID: 48548328
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 120e21c670a3fa2b317d5276f32b8486b6a17a28
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7bf20046b785748dfe1d5949da34b8ef855db991
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470475"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860237"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="860fe-102">Move, méthode - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="860fe-102">Move Method Example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="4667c-102">Move, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="4667c-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="860fe-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="860fe-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4667c-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4667c-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="860fe-104">Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d'enregistrement en fonction de l'entrée de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="860fe-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="4667c-104">Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d'enregistrement en fonction de l'entrée de l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4667c-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

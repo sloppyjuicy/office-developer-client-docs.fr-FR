@@ -1,24 +1,24 @@
 ---
-title: Execute, Requery et Clear, méthodes - Exemple (VJ++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VJ++)
+title: Execute, Requery et Clear, méthodes – Exemple (VJ++)
+TOCTitle: Execute, Requery, and Clear methods example (VJ++)
 ms:assetid: 00210f2e-7454-25c7-a035-68344868fe11
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248774(v=office.15)
 ms:contentKeyID: 48542897
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97123033b4787d9446a09f36fc9f8d5e768c5836
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 4701e390a26fa8a29bf7e7fa490f188f80820876
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470871"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25862524"
 ---
-# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="36ebf-102">Execute, Requery et Clear, méthodes - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="36ebf-102">Execute, Requery, and Clear Methods Example (VJ++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vj"></a><span data-ttu-id="ce0f6-102">Execute, Requery et Clear, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ce0f6-102">Execute, Requery, and Clear methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="36ebf-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="36ebf-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ce0f6-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce0f6-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="36ebf-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet Recordset et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les procédures ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="36ebf-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="ce0f6-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet Recordset et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les procédures ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="ce0f6-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a recordset, and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```java 
  

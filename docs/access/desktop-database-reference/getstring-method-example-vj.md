@@ -1,26 +1,26 @@
 ---
-title: GetString, méthode - Exemple (VJ++)
-TOCTitle: GetString Method Example (VJ++)
+title: GetString, méthode – Exemple (VJ++)
+TOCTitle: GetString method example (VJ++)
 ms:assetid: 83d5ab6d-a092-f8ed-81e7-b93922cda93d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249573(v=office.15)
 ms:contentKeyID: 48546018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47b2d5791fd5c97c4b01848e3ddaaf553f06f98f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c2ae43e86c2d1c2e6c81e1d363ae81f95adfb3a8
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470136"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860468"
 ---
-# <a name="getstring-method-example-vj"></a><span data-ttu-id="bafe3-102">GetString, méthode - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bafe3-102">GetString Method Example (VJ++)</span></span>
+# <a name="getstring-method-example-vj"></a><span data-ttu-id="995b7-102">GetString, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="995b7-102">GetString method example (VJ++)</span></span>
 
 
-<span data-ttu-id="bafe3-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="bafe3-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="995b7-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="995b7-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="bafe3-104">Cet exemple illustre la méthode [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="bafe3-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
+<span data-ttu-id="995b7-104">Cet exemple illustre la méthode [GetString](getstring-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="995b7-104">This example demonstrates the [GetString](getstring-method-ado.md) method.</span></span>
 
-<span data-ttu-id="bafe3-105">Supposons que vous déboguez un problème d'accès aux données et que vous sounaitez un moyen rapide et simple d'imprimer le contenu actuel d'un objet [Recordset](recordset-object-ado.md) de petite taille.</span><span class="sxs-lookup"><span data-stu-id="bafe3-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="995b7-105">Supposons que vous déboguez un problème d'accès aux données et que vous sounaitez un moyen rapide et simple d'imprimer le contenu actuel d'un objet [Recordset](recordset-object-ado.md) de petite taille.</span><span class="sxs-lookup"><span data-stu-id="995b7-105">Assume you are debugging a data access problem and want a quick, simple way of printing the current contents of a small [Recordset](recordset-object-ado.md).</span></span>
 
 ```java 
  

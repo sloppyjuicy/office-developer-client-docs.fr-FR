@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 91355c8b24fcd6e797a6610524076b8850b16f57
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469291"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860349"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="8d067-102">Création et exécution d'une commande simple</span><span class="sxs-lookup"><span data-stu-id="8d067-102">Creating and Executing a Simple Command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="9589b-102">Création et exécution d'une commande simple</span><span class="sxs-lookup"><span data-stu-id="9589b-102">Creating and Executing a Simple Command</span></span>
 
 
-<span data-ttu-id="8d067-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d067-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9589b-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="9589b-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="8d067-p101">Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="8d067-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="9589b-p101">Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="9589b-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -78,13 +78,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="8d067-106">La commande à exécuter est spécifiée à l'aide de la propriété **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="8d067-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="9589b-106">La commande à exécuter est spécifiée à l'aide de la propriété **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="9589b-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="8d067-p102">[!REMARQUE] Plusieurs exemples de cette section appellent une fonction utilitaire appelée GetNewConnection, qui permet d'établir une connexion avec le fournisseur de données. Pour éviter les redondances, elle n'est répertoriée qu'une seule fois, ci-dessous :</span><span class="sxs-lookup"><span data-stu-id="8d067-p102">Several examples in this section call a utility function, GetNewConnection, to establish a connection with the data provider. To avoid redundancy, it is listed only once, here:</span></span></P>
-
-
+> <span data-ttu-id="9589b-107">Plusieurs exemples de cette section appellent d’une fonction utilitaire **GetNewConnection**, pour établir une connexion avec le fournisseur de données.</span><span class="sxs-lookup"><span data-stu-id="9589b-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="9589b-108">Pour éviter la redondance, elle est répertoriée qu’une seule fois :</span><span class="sxs-lookup"><span data-stu-id="9589b-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

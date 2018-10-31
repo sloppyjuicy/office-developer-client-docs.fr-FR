@@ -1,24 +1,24 @@
 ---
-title: AddNew, méthode - Exemple (VB)
-TOCTitle: AddNew Method Example (VB)
+title: AddNew, méthode – Exemple (VB)
+TOCTitle: AddNew method example (VB)
 ms:assetid: 4ba53857-b5ad-d377-98c6-57992f9d69ab
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249238(v=office.15)
 ms:contentKeyID: 48544697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1b2d539c194f11d127e2b43ea33852113aa08f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 51b7aaaed8e09aa537794415ff2fddabfcd6a9b6
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860335"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="0ba15-102">AddNew, méthode - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="0ba15-102">AddNew Method Example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="163f4-102">AddNew, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="163f4-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="0ba15-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ba15-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="163f4-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="163f4-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="0ba15-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="0ba15-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="163f4-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="163f4-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  

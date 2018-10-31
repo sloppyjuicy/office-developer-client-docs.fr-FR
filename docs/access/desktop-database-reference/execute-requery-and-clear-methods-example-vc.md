@@ -1,24 +1,24 @@
 ---
-title: Execute, Requery et Clear, méthodes - Exemple (VC++)
-TOCTitle: Execute, Requery, and Clear Methods Example (VC++)
+title: Execute, Requery et Clear, méthodes – Exemple (VC++)
+TOCTitle: Execute, Requery, and Clear methods example (VC++)
 ms:assetid: ac65f1d8-e185-c00a-9ad6-8b6a22529238
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249803(v=office.15)
 ms:contentKeyID: 48547008
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9d2a973ac975b1835273ac098959097175d50a1c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 037e6f8754d9ff133f55361273089f09c971b4b2
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470318"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25860188"
 ---
-# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="a95b4-102">Execute, Requery et Clear, méthodes - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a95b4-102">Execute, Requery, and Clear Methods Example (VC++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="d49ea-102">Execute, Requery et Clear, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="d49ea-102">Execute, Requery, and Clear methods example (VC++)</span></span>
 
 
-<span data-ttu-id="a95b4-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a95b4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="d49ea-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d49ea-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="a95b4-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recorset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les fonctions ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="a95b4-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
+<span data-ttu-id="d49ea-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recorset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les fonctions ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="d49ea-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
 
 ```cpp 
  

@@ -1,24 +1,24 @@
 ---
-title: Append et CreateParameter, méthodes - Exemple (VJ++)
-TOCTitle: Append and CreateParameter Methods Example (VJ++)
+title: Append et CreateParameter, méthodes – Exemple (VJ++)
+TOCTitle: Append and CreateParameter methods example (VJ++)
 ms:assetid: efd5da94-4fcb-1c05-a3ef-e73a84c91ca8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250220(v=office.15)
 ms:contentKeyID: 48548594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84876b697047aa0518587928eb98ad6f99ea39e0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 42108258e35ecd231d97b57186c15e581cd9e06c
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469106"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25863765"
 ---
-# <a name="append-and-createparameter-methods-example-vj"></a><span data-ttu-id="432dc-102">Append et CreateParameter, méthodes - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="432dc-102">Append and CreateParameter Methods Example (VJ++)</span></span>
+# <a name="append-and-createparameter-methods-example-vj"></a><span data-ttu-id="1cd2b-102">Append et CreateParameter, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="1cd2b-102">Append and CreateParameter methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="432dc-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="432dc-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1cd2b-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="1cd2b-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="432dc-104">Cet exemple fait appel aux méthodes [Append](append-method-ado.md) et [CreateParameter](createparameter-method-ado.md) pour exécuter une procédure stockée avec un paramètre d'entrée.</span><span class="sxs-lookup"><span data-stu-id="432dc-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="1cd2b-104">Cet exemple fait appel aux méthodes [Append](append-method-ado.md) et [CreateParameter](createparameter-method-ado.md) pour exécuter une procédure stockée avec un paramètre d'entrée.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```java 
  

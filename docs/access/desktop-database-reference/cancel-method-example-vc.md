@@ -1,24 +1,24 @@
 ---
-title: Cancel, méthode - Exemple (VC++)
-TOCTitle: Cancel Method Example (VC++)
+title: Cancel, méthode – Exemple (VC++)
+TOCTitle: Cancel method example (VC++)
 ms:assetid: bb5edaeb-0361-3b83-7483-bb43c5cb083f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249900(v=office.15)
 ms:contentKeyID: 48547393
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e3e90f3cd4dcb101142e446f92d435da39e1465e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 502d9f97c30497e5098e51ae8fd002e5fbf628a5
+ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471613"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25864108"
 ---
-# <a name="cancel-method-example-vc"></a><span data-ttu-id="6d8eb-102">Cancel, méthode - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="6d8eb-102">Cancel Method Example (VC++)</span></span>
+# <a name="cancel-method-example-vc"></a><span data-ttu-id="ebadb-102">Cancel, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="ebadb-102">Cancel method example (VC++)</span></span>
 
 
-<span data-ttu-id="6d8eb-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d8eb-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ebadb-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="ebadb-103">**Applies to**: Access 2013 | Office 2013</span></span>
 
-<span data-ttu-id="6d8eb-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="6d8eb-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
+<span data-ttu-id="ebadb-104">Cet exemple fait appel à la méthode [Cancel](cancel-method-ado.md) pour annuler une commande exécutée sur un objet [Connection](connection-object-ado.md) lorsque la connexion est occupée.</span><span class="sxs-lookup"><span data-stu-id="ebadb-104">This example uses the [Cancel](cancel-method-ado.md) method to cancel a command executing on a [Connection](connection-object-ado.md) object if the connection is busy.</span></span>
 
 ```cpp 
  
