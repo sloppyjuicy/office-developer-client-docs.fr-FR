@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Keys Append, méthode, Key Type, RelatedColumn, propriétés-exemple (VC ++) TOCTitle : Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++) === titre : Keys Append, méthode, Key Type, RelatedColumn, propriétés-exemple (VC ++) TOCTitle : Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)
->>>>>>> Master ms:assetid : d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID : ms.date 48547840 : 18/09/2015 mtps_version : v=office.15
+title: Clés de méthode Append, Key Type, RelatedColumn, propriétés-exemple (VC ++)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
+ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
+ms:contentKeyID: 48547840
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890980"
 ---
-
-<<<<<<< Tête
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)
-=======
 # <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a>Clés méthode Append, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le code suivant montre comment créer une clé étrangère. Il suppose l'existence de deux tables (Customers et Orders).
 

@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cba5790ae557f7e5b29e8068d09d6fa7451cfb27
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7d5e6ecf7683a41ddb057467f892155143c33144
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470756"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882433"
 ---
 # <a name="fieldallowzerolength-property-dao"></a>Field.AllowZeroLength Property (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique si une chaîne nulle ("") est un paramètre valide pour la propriété **[Value](field-value-property-dao.md)** de l'objet **[Field](field-object-dao.md)** avec un type de données Texte ou Mémo (espaces de travail Microsoft Access uniquement).
 

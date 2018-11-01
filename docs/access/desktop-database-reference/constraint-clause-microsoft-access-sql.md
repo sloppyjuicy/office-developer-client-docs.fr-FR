@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 87870d824f9e26f601529bc60b737f1e46b12960
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b55bf1897c6b5fc5cd7ee70402e466f2180b7d92
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863002"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890924"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>Clause CONSTRAINT (Microsoft Access SQL)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une contrainte est similaire à un index, bien qu'elle puisse être utilisée pour établir une relation avec une autre table.
 

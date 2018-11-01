@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8ff22b21bfc411f536b780d74a0c2b62a396a4cf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fd70c3fb41b65ae9c21b1651a6af64912b9c3c7c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472594"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890889"
 ---
 # <a name="minimizewindow-macro-action"></a>RéduireFenêtre, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l’action **Réduirefenêtre** pour réduire la fenêtre active à une barre de titre en bas de la fenêtre Access.
 
