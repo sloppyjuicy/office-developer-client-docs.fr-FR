@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="25097-101"><<<<<<< Titre tête : TOCTitle State, propriété-Exemple (VJ ++) : State, propriété-Exemple (VJ ++) === titre : exemple de propriété état (VJ ++) TOCTitle : exemple de propriété état (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="25097-101"><<<<<<< HEAD title: State Property Example (VJ++) TOCTitle: State Property Example (VJ++) ======= title: State property example (VJ++) TOCTitle: State property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="25097-102">Master ms:assetid : 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl : https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID : ms.date 48545869 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="25097-102">master ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15) ms:contentKeyID: 48545869 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: State, propriété – Exemple (VJ++)
+TOCTitle: State property example (VJ++)
+ms:assetid: 7de6b4c1-b761-4060-7d97-6207542c202d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
+ms:contentKeyID: 48545869
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ac8e066e537f86095c31ee975fd27f0f38211c2c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881684"
 ---
-
-<span data-ttu-id="25097-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="25097-103"><<<<<<< HEAD</span></span>
-# <a name="state-property-example-vj"></a><span data-ttu-id="25097-104">State, propriété - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="25097-104">State Property Example (VJ++)</span></span>
-=======
-# <a name="state-property-example-vj"></a><span data-ttu-id="25097-105">State, propriété-Exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="25097-105">State property example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="25097-106">master</span><span class="sxs-lookup"><span data-stu-id="25097-106">master</span></span>
+# <a name="state-property-example-vj"></a><span data-ttu-id="69029-102">State, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="69029-102">State property example (VJ++)</span></span>
 
 
-<span data-ttu-id="25097-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="25097-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="69029-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69029-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="25097-108">Cet exemple utilise la propriété [State](state-property-ado.md) pour afficher un message pendant que des connexions asynchrones s'ouvrent et que des commandes asynchrones s'exécutent.</span><span class="sxs-lookup"><span data-stu-id="25097-108">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
+<span data-ttu-id="69029-104">Cet exemple utilise la propriété [State](state-property-ado.md) pour afficher un message pendant que des connexions asynchrones s'ouvrent et que des commandes asynchrones s'exécutent.</span><span class="sxs-lookup"><span data-stu-id="69029-104">This example uses the [State](state-property-ado.md) property to display a message while asynchronous connections are opening and asynchronous commands are executing.</span></span>
 
 ```java 
  

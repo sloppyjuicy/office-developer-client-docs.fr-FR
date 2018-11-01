@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="546b4-101"><<<<<<< Titre tête : catalogue ActiveConnection, propriété-Exemple (VC ++) TOCTitle : catalogue ActiveConnection, propriété-Exemple (VC ++) === titre : catalogue ActiveConnection, propriété-Exemple (VC ++) TOCTitle : ActiveConnection de catalogue propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="546b4-101"><<<<<<< HEAD title: Catalog ActiveConnection Property Example (VC++) TOCTitle: Catalog ActiveConnection Property Example (VC++) ======= title: Catalog ActiveConnection property example (VC++) TOCTitle: Catalog ActiveConnection property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="546b4-102">Master ms:assetid : 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl : https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID : ms.date 48543246 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="546b4-102">master ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15) ms:contentKeyID: 48543246 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Catalog – ActiveConnection, propriété – Exemple (VC++)
+TOCTitle: Catalog ActiveConnection property example (VC++)
+ms:assetid: 0e72ff1c-b894-a440-67cf-bba091e7cb8b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
+ms:contentKeyID: 48543246
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 55faf280d56b90f6033aaba700d3b9fa7a7e2724
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869189"
 ---
-
-<span data-ttu-id="546b4-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="546b4-103"><<<<<<< HEAD</span></span>
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="546b4-104">Catalog - ActiveConnection, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="546b4-104">Catalog ActiveConnection Property Example (VC++)</span></span>
-=======
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="546b4-105">Catalogue ActiveConnection, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="546b4-105">Catalog ActiveConnection property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="546b4-106">master</span><span class="sxs-lookup"><span data-stu-id="546b4-106">master</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="244df-102">Catalog – ActiveConnection, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="244df-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="546b4-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="546b4-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="244df-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="244df-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="546b4-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="546b4-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="244df-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="244df-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250172(v=office.15)
 ms:contentKeyID: 48548389
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89aa87aa63a3d8bfdeb291f78d6525f51c4262b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: fe85853b013caf8610e7706f3d836551ce8801c7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469057"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871877"
 ---
-# <a name="step-1-specify-a-server-program-rds-tutorial"></a><span data-ttu-id="07245-102">Étape 1 : spécifier un programme serveur (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="07245-102">Step 1: Specify a Server Program (RDS Tutorial)</span></span>
+# <a name="step-1-specify-a-server-program-rds-tutorial"></a><span data-ttu-id="9c519-102">Étape 1 : Spécifier un programme serveur (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="9c519-102">Step 1: Specify a Server Program (RDS Tutorial)</span></span>
 
 
-<span data-ttu-id="07245-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="07245-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="9c519-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c519-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="07245-p101">Dans la plupart des cas, utilisez la méthode [CreateObject](createobject-method-rds.md) de l’objet [RDS.DataSpace](dataspace-object-rds.md) pour spécifier le programme serveur par défaut, [RDSServer.DataFactory](datafactory-object-rdsserver.md), ou votre propre programme serveur personnalisé (objet métier). Un programme serveur est instancié sur le serveur et une référence à ce programme (ou *proxy*) est retournée.</span><span class="sxs-lookup"><span data-stu-id="07245-p101">In the most general case, use the [RDS.DataSpace](dataspace-object-rds.md) object [CreateObject](createobject-method-rds.md) method to specify the default server program, [RDSServer.DataFactory](datafactory-object-rdsserver.md), or your own custom server program (business object). A server program is instantiated on the server, and a reference to the server program, or *proxy*, is returned.</span></span>
+<span data-ttu-id="9c519-p101">Dans la plupart des cas, utilisez la méthode [CreateObject](createobject-method-rds.md) de l’objet [RDS.DataSpace](dataspace-object-rds.md) pour spécifier le programme serveur par défaut, [RDSServer.DataFactory](datafactory-object-rdsserver.md), ou votre propre programme serveur personnalisé (objet métier). Un programme serveur est instancié sur le serveur et une référence à ce programme (ou *proxy*) est retournée.</span><span class="sxs-lookup"><span data-stu-id="9c519-p101">In the most general case, use the [RDS.DataSpace](dataspace-object-rds.md) object [CreateObject](createobject-method-rds.md) method to specify the default server program, [RDSServer.DataFactory](datafactory-object-rdsserver.md), or your own custom server program (business object). A server program is instantiated on the server, and a reference to the server program, or *proxy*, is returned.</span></span>
 
-<span data-ttu-id="07245-106">Ce didacticiel utilise le programme serveur par défaut :</span><span class="sxs-lookup"><span data-stu-id="07245-106">This tutorial uses the default server program:</span></span>
+<span data-ttu-id="9c519-106">Ce didacticiel utilise le programme serveur par défaut :</span><span class="sxs-lookup"><span data-stu-id="9c519-106">This tutorial uses the default server program:</span></span>
 
 ```vb 
  

@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249209(v=office.15)
 ms:contentKeyID: 48544542
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 41fd4a1aabda0887d265e3aa0ec9201b1abbbde7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1c7aaaa556d11fc3c457c89a35edb1240628aa9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472202"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868622"
 ---
-# <a name="step-4-server-returns-the-recordset-rds-tutorial"></a><span data-ttu-id="329a5-102">Étape 4 : le serveur retourne l'objet Recordset (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="329a5-102">Step 4: Server Returns the Recordset (RDS Tutorial)</span></span>
+# <a name="step-4-server-returns-the-recordset-rds-tutorial"></a><span data-ttu-id="2d71d-102">Étape 4 : Le serveur renvoie le recordset (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="2d71d-102">Step 4: Server Returns the Recordset (RDS Tutorial)</span></span>
 
 
-<span data-ttu-id="329a5-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="329a5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="2d71d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d71d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="329a5-p101">RDS convertit l'objet **Recordset** récupéré dans un format qui peut être renvoyé au client (autrement dit, il *marshale* l'objet **Recordset**). La forme exacte de la conversion et son mode d'envoi varient selon que le serveur réside sur Internet ou sur un intranet, sur un réseau local ou qu'il corresponde à une bibliothèque de liaison dynamique. Toutefois, ce détail n'est pas crucial ; l'important est que RDS renvoie l'objet **Recordset** au client.</span><span class="sxs-lookup"><span data-stu-id="329a5-p101">RDS converts the retrieved **Recordset** object to a form that can be sent back to the client (that is, it *marshals* the **Recordset**). The exact form of the conversion and how it is sent depends on whether the server is on the Internet or an intranet, a local area network, or is a dynamic-link library. However, this detail is not critical; all that matters is that RDS sends the **Recordset** back to the client.</span></span>
+<span data-ttu-id="2d71d-p101">RDS convertit l'objet **Recordset** récupéré dans un format qui peut être renvoyé au client (autrement dit, il *marshale* l'objet **Recordset**). La forme exacte de la conversion et son mode d'envoi varient selon que le serveur réside sur Internet ou sur un intranet, sur un réseau local ou qu'il corresponde à une bibliothèque de liaison dynamique. Toutefois, ce détail n'est pas crucial ; l'important est que RDS renvoie l'objet **Recordset** au client.</span><span class="sxs-lookup"><span data-stu-id="2d71d-p101">RDS converts the retrieved **Recordset** object to a form that can be sent back to the client (that is, it *marshals* the **Recordset**). The exact form of the conversion and how it is sent depends on whether the server is on the Internet or an intranet, a local area network, or is a dynamic-link library. However, this detail is not critical; all that matters is that RDS sends the **Recordset** back to the client.</span></span>
 
-<span data-ttu-id="329a5-107">Côté client, un objet **Recordset** est retourné et affecté à une variable locale.</span><span class="sxs-lookup"><span data-stu-id="329a5-107">On the client side, a **Recordset** object is returned and assigned to a local variable.</span></span>
+<span data-ttu-id="2d71d-107">Côté client, un objet **Recordset** est retourné et affecté à une variable locale.</span><span class="sxs-lookup"><span data-stu-id="2d71d-107">On the client side, a **Recordset** object is returned and assigned to a local variable.</span></span>
 
 ```vb 
  

@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
 ms:contentKeyID: 48545159
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a235367ec8e9f4abe07f076eca51b82e67b343f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d5f714f4fb3e36d0984eef1a91d0c5cc1b6fd621
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469954"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889678"
 ---
-# <a name="connectionname-property-dao"></a><span data-ttu-id="c0462-102">Connection.Name Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="c0462-102">Connection.Name Property (DAO)</span></span>
+# <a name="connectionname-property-dao"></a><span data-ttu-id="8dc8d-102">Connection.Name Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="8dc8d-102">Connection.Name Property (DAO)</span></span>
 
 
-<span data-ttu-id="c0462-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0462-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8dc8d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8dc8d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c0462-104">Renvoie le nom d'un objet **[Connection](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="c0462-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
+<span data-ttu-id="8dc8d-104">Renvoie le nom d'un objet **[Connection](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="8dc8d-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c0462-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c0462-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8dc8d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8dc8d-105">Syntax</span></span>
 
-<span data-ttu-id="c0462-106">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="c0462-106">*expression* .Name</span></span>
+<span data-ttu-id="8dc8d-106">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="8dc8d-106">*expression* .Name</span></span>
 
-<span data-ttu-id="c0462-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="c0462-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="8dc8d-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="8dc8d-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c0462-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0462-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8dc8d-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="8dc8d-108">Remarks</span></span>
 
-<span data-ttu-id="c0462-109">Vous pouvez utiliser la propriété **Name** d'un objet avec l'instruction **Dim** Visual Basic for Applications dans un code pour créer d'autres instances de l'objet.</span><span class="sxs-lookup"><span data-stu-id="c0462-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
+<span data-ttu-id="8dc8d-109">Vous pouvez utiliser la propriété **Name** d'un objet avec l'instruction **Dim** Visual Basic for Applications dans un code pour créer d'autres instances de l'objet.</span><span class="sxs-lookup"><span data-stu-id="8dc8d-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
 

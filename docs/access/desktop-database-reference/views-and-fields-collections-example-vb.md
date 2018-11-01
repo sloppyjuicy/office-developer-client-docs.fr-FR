@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
 ms:contentKeyID: 48545828
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d62adad4a62ed02967c6a279501ede5bc750eaea
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f5d22d4d5be88063524b2a55bb1703deeb173018
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863843"
+ms.locfileid: "25884624"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="6f94f-102">Vues et les Collections Fields-exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="6f94f-102">Views and Fields Collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="49080-102">Vues et les Collections Fields-exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="49080-102">Views and Fields Collections example (VB)</span></span>
 
 
-<span data-ttu-id="6f94f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f94f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="49080-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49080-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6f94f-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) et l'objet [Recordset](recordset-object-ado.md) pour extraire des informations de champ pour la vue.</span><span class="sxs-lookup"><span data-stu-id="6f94f-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="49080-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) et l'objet [Recordset](recordset-object-ado.md) pour extraire des informations de champ pour la vue.</span><span class="sxs-lookup"><span data-stu-id="49080-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

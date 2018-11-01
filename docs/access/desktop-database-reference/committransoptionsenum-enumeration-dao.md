@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836959(v=office.15)
 ms:contentKeyID: 48548790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a90bcf1dbdb75ca291bc46a2fffb600aa3421af
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9cb0c4aab2e50ff34a752efd465cf47b74ac2878
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469070"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881971"
 ---
-# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="58871-102">CommitTransOptionsEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="58871-102">CommitTransOptionsEnum Enumeration (DAO)</span></span>
+# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="b86ff-102">CommitTransOptionsEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="b86ff-102">CommitTransOptionsEnum Enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="58871-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="58871-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="b86ff-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b86ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58871-104">TBD</span><span class="sxs-lookup"><span data-stu-id="58871-104">TBD</span></span>
+<span data-ttu-id="b86ff-104">TBD</span><span class="sxs-lookup"><span data-stu-id="b86ff-104">TBD</span></span>

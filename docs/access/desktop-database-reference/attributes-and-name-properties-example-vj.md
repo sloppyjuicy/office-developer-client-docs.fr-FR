@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="61b9c-101"><<<<<<< Titre tête : attributs et TOCTitle nom, propriétés-exemple (VJ ++) : attributs et nom, propriétés-exemple (VJ ++) === titre : Attributes et Name, propriétés-exemple (VJ ++) TOCTitle : attributs et (exemple) propriétés nom VJ++)</span><span class="sxs-lookup"><span data-stu-id="61b9c-101"><<<<<<< HEAD title: Attributes and Name Properties Example (VJ++) TOCTitle: Attributes and Name Properties Example (VJ++) ======= title: Attributes and Name properties example (VJ++) TOCTitle: Attributes and Name properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="61b9c-102">Master ms:assetid : ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID : ms.date 48547035 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="61b9c-102">master ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15) ms:contentKeyID: 48547035 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Attributes et Name, propriétés – Exemple (VJ++)
+TOCTitle: Attributes and Name properties example (VJ++)
+ms:assetid: ad3fe113-ad14-2df3-ec41-c24e6d2b1b21
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249812(v=office.15)
+ms:contentKeyID: 48547035
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 68690d89e6b747c38647a3c8b49318aa577838fd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878745"
 ---
-
-<span data-ttu-id="61b9c-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="61b9c-103"><<<<<<< HEAD</span></span>
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="61b9c-104">Attributes et Name, propriétés - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="61b9c-104">Attributes and Name Properties Example (VJ++)</span></span>
-=======
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="61b9c-105">Attributs et nom, propriétés-exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="61b9c-105">Attributes and Name properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="61b9c-106">master</span><span class="sxs-lookup"><span data-stu-id="61b9c-106">master</span></span>
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="3adc0-102">Attributes et Name, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3adc0-102">Attributes and Name properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="61b9c-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="61b9c-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3adc0-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3adc0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61b9c-p101">Cet exemple affiche la valeur de la propriété [Attributes](attributes-property-ado.md) des objets [Connection](connection-object-ado.md), [Field](field-object-ado.md) et [Property](property-object-ado.md). Il utilise la propriété [Name](name-property-ado.md) pour afficher le nom de chaque objet **Field** et **Property**.</span><span class="sxs-lookup"><span data-stu-id="61b9c-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="3adc0-p101">Cet exemple affiche la valeur de la propriété [Attributes](attributes-property-ado.md) des objets [Connection](connection-object-ado.md), [Field](field-object-ado.md) et [Property](property-object-ado.md). Il utilise la propriété [Name](name-property-ado.md) pour afficher le nom de chaque objet **Field** et **Property**.</span><span class="sxs-lookup"><span data-stu-id="3adc0-p101">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects. It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```java 
  

@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249211(v=office.15)
 ms:contentKeyID: 48544549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edd9f8561e6275e3b8eb33e86be745345d7c797a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 53ad3306bf9e175566f0a3d02b1454872264d4b6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472118"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885478"
 ---
-# <a name="step-2-invoke-the-server-program-rds-tutorial"></a><span data-ttu-id="6b70a-102">Étape 2 : appeler le programme serveur (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="6b70a-102">Step 2: Invoke the Server Program (RDS Tutorial)</span></span>
+# <a name="step-2-invoke-the-server-program-rds-tutorial"></a><span data-ttu-id="f4047-102">Étape 2 : Appeler le programme serveur (didacticiel RDS)</span><span class="sxs-lookup"><span data-stu-id="f4047-102">Step 2: Invoke the Server Program (RDS Tutorial)</span></span>
 
 
-<span data-ttu-id="6b70a-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b70a-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="f4047-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f4047-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6b70a-p101">Lorsque vous appelez une méthode sur le *proxy* client, c'est le programme serveur qui exécute cette méthode. Au cours de cette étape, vous allez exécuter une requête sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="6b70a-p101">When you invoke a method on the client *proxy*, the actual program on the server executes the method. In this step, you'll execute a query on the server.</span></span>
+<span data-ttu-id="f4047-p101">Lorsque vous appelez une méthode sur le *proxy* client, c'est le programme serveur qui exécute cette méthode. Au cours de cette étape, vous allez exécuter une requête sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="f4047-p101">When you invoke a method on the client *proxy*, the actual program on the server executes the method. In this step, you'll execute a query on the server.</span></span>
 
-<span data-ttu-id="6b70a-106">**Partie A** Si vous n’utilisiez [RDSServer.DataFactory](datafactory-object-rdsserver.md) dans ce didacticiel, le moyen le plus pratique pour effectuer cette étape consisterait à utiliser le [RDS. DataControl](datacontrol-object-rds.md) objet.</span><span class="sxs-lookup"><span data-stu-id="6b70a-106">**Part A**If you weren't using [RDSServer.DataFactory](datafactory-object-rdsserver.md) in this tutorial, the most convenient way to perform this step would be to use the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span> <span data-ttu-id="6b70a-107">**RDS.DataControl** combine l'étape précédente de création d'un proxy, et celle-ci, qui consiste à émettre une requête.</span><span class="sxs-lookup"><span data-stu-id="6b70a-107">The **RDS.DataControl** combines the previous step of creating a proxy, with this step, issuing the query.</span></span>
+<span data-ttu-id="f4047-106">**Partie A** Si vous n’utilisiez [RDSServer.DataFactory](datafactory-object-rdsserver.md) dans ce didacticiel, le moyen le plus pratique pour effectuer cette étape consisterait à utiliser le [RDS. DataControl](datacontrol-object-rds.md) objet.</span><span class="sxs-lookup"><span data-stu-id="f4047-106">**Part A**If you weren't using [RDSServer.DataFactory](datafactory-object-rdsserver.md) in this tutorial, the most convenient way to perform this step would be to use the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span> <span data-ttu-id="f4047-107">**RDS.DataControl** combine l'étape précédente de création d'un proxy, et celle-ci, qui consiste à émettre une requête.</span><span class="sxs-lookup"><span data-stu-id="f4047-107">The **RDS.DataControl** combines the previous step of creating a proxy, with this step, issuing the query.</span></span>
 
-<span data-ttu-id="6b70a-p103">Définissez la propriété **Server** de l'objet [RDS.DataControl](server-property-rds.md) pour déterminer l'emplacement au niveau duquel le programme serveur doit être instancié, la propriété [Connect](connect-property-rds.md) pour spécifier la chaîne de connexion permettant d'accéder à la source de données et la propriété [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) pour spécifier le texte de la commande de requête. Exécutez ensuite la méthode [Refresh](refresh-method-rds.md) pour forcer le programme serveur à se connecter à la source de données, récupérer les lignes spécifiées par la requête et retourner un objet **Recordset** au client.</span><span class="sxs-lookup"><span data-stu-id="6b70a-p103">Set the **RDS.DataControl** object [Server](server-property-rds.md) property to identify where the server program should be instantiated; the [Connect](connect-property-rds.md) property to specify the connect string to access the data source; and the [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) property to specify the query command text. Then issue the [Refresh](refresh-method-rds.md) method to cause the server program to connect to the data source, retrieve rows specified by the query, and return a **Recordset** object to the client.</span></span>
+<span data-ttu-id="f4047-p103">Définissez la propriété **Server** de l'objet [RDS.DataControl](server-property-rds.md) pour déterminer l'emplacement au niveau duquel le programme serveur doit être instancié, la propriété [Connect](connect-property-rds.md) pour spécifier la chaîne de connexion permettant d'accéder à la source de données et la propriété [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) pour spécifier le texte de la commande de requête. Exécutez ensuite la méthode [Refresh](refresh-method-rds.md) pour forcer le programme serveur à se connecter à la source de données, récupérer les lignes spécifiées par la requête et retourner un objet **Recordset** au client.</span><span class="sxs-lookup"><span data-stu-id="f4047-p103">Set the **RDS.DataControl** object [Server](server-property-rds.md) property to identify where the server program should be instantiated; the [Connect](connect-property-rds.md) property to specify the connect string to access the data source; and the [SQL](https://msdn.microsoft.com/library/jj248989\(v=office.15\)) property to specify the query command text. Then issue the [Refresh](refresh-method-rds.md) method to cause the server program to connect to the data source, retrieve rows specified by the query, and return a **Recordset** object to the client.</span></span>
 
-<span data-ttu-id="6b70a-110">Ce didacticiel n'utilise pas l'objet **RDS.DataControl**, mais, si c'était le cas, le code ressemblerait à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="6b70a-110">This tutorial does not use the **RDS.DataControl**, but this is how it would look if it did:</span></span>
+<span data-ttu-id="f4047-110">Ce didacticiel n'utilise pas l'objet **RDS.DataControl**, mais, si c'était le cas, le code ressemblerait à ce qui suit :</span><span class="sxs-lookup"><span data-stu-id="f4047-110">This tutorial does not use the **RDS.DataControl**, but this is how it would look if it did:</span></span>
 
 ```vb 
  
@@ -37,7 +37,7 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-<span data-ttu-id="6b70a-111">De même, le didacticiel n'appelle pas RDS avec les objets ADO, mais voici comment se présenterait le code dans le cas contraire :</span><span class="sxs-lookup"><span data-stu-id="6b70a-111">Nor does the tutorial invoke RDS with ADO objects, but this is how it would look if it did:</span></span>
+<span data-ttu-id="f4047-111">De même, le didacticiel n'appelle pas RDS avec les objets ADO, mais voici comment se présenterait le code dans le cas contraire :</span><span class="sxs-lookup"><span data-stu-id="f4047-111">Nor does the tutorial invoke RDS with ADO objects, but this is how it would look if it did:</span></span>
 
 ```vb 
  
@@ -46,9 +46,9 @@ rs.Open "SELECT * FROM Authors","Provider=MS Remote;Data Source=Pubs;" & _
 "Remote Server=https://yourServer;Remote Provider=SQLOLEDB;" 
 ```
 
-<span data-ttu-id="6b70a-112">**Partie B** La méthode générale d’effectuer cette étape consiste à appeler la méthode [Query](query-method-rds.md) de l’objet **RDSServer.DataFactory** .</span><span class="sxs-lookup"><span data-stu-id="6b70a-112">**Part B**The general method of performing this step is to invoke the **RDSServer.DataFactory** object [Query](query-method-rds.md) method.</span></span> <span data-ttu-id="6b70a-113">Cette méthode prend une chaîne de connexion, utilisée pour établir la connexion à une source de données, et un texte de commande, pour spécifier les lignes à retourner par la source de données.</span><span class="sxs-lookup"><span data-stu-id="6b70a-113">That method takes a connect string, which is used to connect to a data source, and a command text, which is used to specify the rows to be returned from the data source.</span></span>
+<span data-ttu-id="f4047-112">**Partie B** La méthode générale d’effectuer cette étape consiste à appeler la méthode [Query](query-method-rds.md) de l’objet **RDSServer.DataFactory** .</span><span class="sxs-lookup"><span data-stu-id="f4047-112">**Part B**The general method of performing this step is to invoke the **RDSServer.DataFactory** object [Query](query-method-rds.md) method.</span></span> <span data-ttu-id="f4047-113">Cette méthode prend une chaîne de connexion, utilisée pour établir la connexion à une source de données, et un texte de commande, pour spécifier les lignes à retourner par la source de données.</span><span class="sxs-lookup"><span data-stu-id="f4047-113">That method takes a connect string, which is used to connect to a data source, and a command text, which is used to specify the rows to be returned from the data source.</span></span>
 
-<span data-ttu-id="6b70a-114">Ce didacticiel utilise la méthode **Query** de l'objet **DataFactory**:</span><span class="sxs-lookup"><span data-stu-id="6b70a-114">This tutorial uses the **DataFactory** object **Query** method:</span></span>
+<span data-ttu-id="f4047-114">Ce didacticiel utilise la méthode **Query** de l'objet **DataFactory**:</span><span class="sxs-lookup"><span data-stu-id="f4047-114">This tutorial uses the **DataFactory** object **Query** method:</span></span>
 
 ```vb 
  

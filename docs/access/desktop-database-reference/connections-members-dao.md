@@ -6,24 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
 ms:contentKeyID: 48548361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b8766c7291c04344a13267e81617750c3cb95add
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6ffd7ca7055ed659fa108a8bc25288ad81f1cac3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860524"
+ms.locfileid: "25886878"
 ---
-# <a name="connections-members-dao"></a><span data-ttu-id="af04e-102">Connections Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="af04e-102">Connections Members (DAO)</span></span>
+# <a name="connections-members-dao"></a><span data-ttu-id="e7202-102">Connections Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="e7202-102">Connections Members (DAO)</span></span>
 
 
-<span data-ttu-id="af04e-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="af04e-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e7202-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e7202-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="af04e-104">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="af04e-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="af04e-105">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="af04e-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="af04e-106">Une collection Connections contient les objets de connexion en cours d’un objet Workspace (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="af04e-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
+> <span data-ttu-id="e7202-104">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="e7202-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="e7202-105">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="e7202-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="e7202-106">Une collection Connections contient les objets de connexion en cours d’un objet Workspace (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="e7202-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
 
 
 
-## <a name="methods"></a><span data-ttu-id="af04e-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="af04e-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="e7202-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="e7202-107">Methods</span></span>
 
 <table>
 <colgroup>
@@ -32,20 +32,20 @@ ms.locfileid: "25860524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="af04e-108">Nom</span><span class="sxs-lookup"><span data-stu-id="af04e-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="af04e-109">Description</span><span class="sxs-lookup"><span data-stu-id="af04e-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="e7202-108">Nom</span><span class="sxs-lookup"><span data-stu-id="e7202-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="e7202-109">Description</span><span class="sxs-lookup"><span data-stu-id="e7202-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="af04e-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="af04e-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="af04e-111">Non prise en charge pour la collection <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="af04e-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="e7202-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="e7202-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="e7202-111">Non prise en charge pour la collection <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="e7202-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="af04e-112">Propriétés</span><span class="sxs-lookup"><span data-stu-id="af04e-112">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="e7202-112">Propriétés</span><span class="sxs-lookup"><span data-stu-id="e7202-112">Properties</span></span>
 
 <table>
 <colgroup>
@@ -54,14 +54,14 @@ ms.locfileid: "25860524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="af04e-113">Nom</span><span class="sxs-lookup"><span data-stu-id="af04e-113">Name</span></span></p></th>
-<th><p><span data-ttu-id="af04e-114">Description</span><span class="sxs-lookup"><span data-stu-id="af04e-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="e7202-113">Nom</span><span class="sxs-lookup"><span data-stu-id="e7202-113">Name</span></span></p></th>
+<th><p><span data-ttu-id="e7202-114">Description</span><span class="sxs-lookup"><span data-stu-id="e7202-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="af04e-115"><strong><a href="connections-count-property-dao.md">Nombre</a></strong></span><span class="sxs-lookup"><span data-stu-id="af04e-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="af04e-116">Renvoie le nombre d'objets <strong><a href="connection-object-dao.md">Connection</a></strong> dans la collection <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="af04e-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="e7202-115"><strong><a href="connections-count-property-dao.md">Nombre</a></strong></span><span class="sxs-lookup"><span data-stu-id="e7202-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="e7202-116">Renvoie le nombre d'objets <strong><a href="connection-object-dao.md">Connection</a></strong> dans la collection <strong><a href="connections-collection-dao.md">Connections</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="e7202-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>

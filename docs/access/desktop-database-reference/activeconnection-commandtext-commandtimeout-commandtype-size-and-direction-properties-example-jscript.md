@@ -1,18 +1,23 @@
 ---
-<span data-ttu-id="8c8be-101"><<<<<<< Titre tête : ActiveConnection, CommandText, CommandTimeout, propriétés-exemple (JScript) TOCTitle : ActiveConnection, CommandText, CommandTimeout, CommandType, la taille et Direction, propriétés-exemple (JScript) ms:assetid : 2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID : ms.date 48543909 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="8c8be-101"><<<<<<< HEAD title: ActiveConnection, CommandText, CommandTimeout Properties Example (JScript) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (JScript) ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: 48543909 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ActiveConnection, CommandText, CommandTimeout propriétés-exemple (JScript)
+TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript)
+ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
+ms:contentKeyID: 48543909
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 71df0230e9f1ddd99f29c28c33260f43244f62e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880067"
 ---
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="02bb9-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="02bb9-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
 
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="8c8be-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="8c8be-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction Properties Example (JScript)</span></span>
+<span data-ttu-id="02bb9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="02bb9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8c8be-103">=== titre : ActiveConnection, CommandText, CommandTimeout, propriétés-exemple (JScript) TOCTitle : ms:assetid de example(JScript) Propriétés ActiveConnection, CommandText, CommandTimeout, CommandType, taille et orientation : 2a79222c-4dba-9C5A-fff7-c8dd2711801f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID : ms.date 48543909 : 17/10/2018 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="8c8be-103">======= title: ActiveConnection, CommandText, CommandTimeout properties example (JScript) TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript) ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15) ms:contentKeyID: 48543909 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript"></a><span data-ttu-id="8c8be-104">ActiveConnection, CommandText, CommandTimeout, CommandType, la taille et Direction, propriétés-exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="8c8be-104">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (JScript)</span></span>
->>>>>>> <span data-ttu-id="8c8be-105">master</span><span class="sxs-lookup"><span data-stu-id="8c8be-105">master</span></span>
-
-<span data-ttu-id="8c8be-106">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="8c8be-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="8c8be-p101">Cet exemple utilise les propriétés [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) et [Direction](direction-property-ado.md) pour exécuter une procédure stockée. Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="8c8be-p101">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
+<span data-ttu-id="02bb9-p101">Cet exemple utilise les propriétés [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) et [Direction](direction-property-ado.md) pour exécuter une procédure stockée. Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveConnectionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="02bb9-p101">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveConnectionJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveConnectionJS --> 

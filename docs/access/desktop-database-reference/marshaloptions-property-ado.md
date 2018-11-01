@@ -1,28 +1,32 @@
 ---
-<span data-ttu-id="55f54-101"><<<<<<< Titre tête : MarshalOptions propriété (ADO) TOCTitle : MarshalOptions propriété (ADO) === titre : MarshalOptions, propriété (ADO) TOCTitle : MarshalOptions, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="55f54-101"><<<<<<< HEAD title: MarshalOptions Property (ADO) TOCTitle: MarshalOptions Property (ADO) ======= title: MarshalOptions property (ADO) TOCTitle: MarshalOptions property (ADO)</span></span>
->>>>>>> <span data-ttu-id="55f54-102">Master ms:assetid : dc9c4e94-0725-210d-8251-079054541142 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250118(v=office.15) ms:contentKeyID : ms.date 48548143 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="55f54-102">master ms:assetid: dc9c4e94-0725-210d-8251-079054541142 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15) ms:contentKeyID: 48548143 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: MarshalOptions, propriété (ADO)
+TOCTitle: MarshalOptions property (ADO)
+ms:assetid: dc9c4e94-0725-210d-8251-079054541142
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
+ms:contentKeyID: 48548143
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f5983b7794677b5cc584c541289069acf282d9f9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883210"
 ---
-
-<span data-ttu-id="55f54-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="55f54-103"><<<<<<< HEAD</span></span>
-# <a name="marshaloptions-property-ado"></a><span data-ttu-id="55f54-104">MarshalOptions, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="55f54-104">MarshalOptions Property (ADO)</span></span>
-=======
-# <a name="marshaloptions-property-ado"></a><span data-ttu-id="55f54-105">MarshalOptions, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="55f54-105">MarshalOptions property (ADO)</span></span>
->>>>>>> <span data-ttu-id="55f54-106">master</span><span class="sxs-lookup"><span data-stu-id="55f54-106">master</span></span>
+# <a name="marshaloptions-property-ado"></a><span data-ttu-id="e042c-102">MarshalOptions, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="e042c-102">MarshalOptions property (ADO)</span></span>
 
 
-<span data-ttu-id="55f54-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="55f54-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="e042c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e042c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="55f54-108">Indique les enregistrements dont les paramètres doivent être convertis avant d'être renvoyés vers le serveur.</span><span class="sxs-lookup"><span data-stu-id="55f54-108">Indicates which records are to be marshaled back to the server.</span></span>
+<span data-ttu-id="e042c-104">Indique les enregistrements dont les paramètres doivent être convertis avant d'être renvoyés vers le serveur.</span><span class="sxs-lookup"><span data-stu-id="e042c-104">Indicates which records are to be marshaled back to the server.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="55f54-109">Paramètres et valeurs renvoyées</span><span class="sxs-lookup"><span data-stu-id="55f54-109">Settings And Return Values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="e042c-105">Paramètres et valeurs renvoyées</span><span class="sxs-lookup"><span data-stu-id="e042c-105">Settings And Return Values</span></span>
 
-<span data-ttu-id="55f54-p101">Définit ou renvoie une valeur [MarshalOptions](marshaloptionsenum.md). La valeur par défaut est **adMarshalAll**.</span><span class="sxs-lookup"><span data-stu-id="55f54-p101">Sets or returns a [MarshalOptionsEnum](marshaloptionsenum.md) value. The default value is **adMarshalAll**.</span></span>
+<span data-ttu-id="e042c-p101">Définit ou renvoie une valeur [MarshalOptions](marshaloptionsenum.md). La valeur par défaut est **adMarshalAll**.</span><span class="sxs-lookup"><span data-stu-id="e042c-p101">Sets or returns a [MarshalOptionsEnum](marshaloptionsenum.md) value. The default value is **adMarshalAll**.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="55f54-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="55f54-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e042c-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="e042c-108">Remarks</span></span>
 
-<span data-ttu-id="55f54-113"><<<<<<< Tête lors de l’utilisation d’un [jeu d’enregistrements](recordset-object-ado.md)du côté client, les enregistrements qui ont été modifiés sur le client sont réécrits au niveau intermédiaire ou au serveur Web via une technique appelée marshaling, le processus d’empaquetage et de l’envoi d’interface paramètres de méthode au-delà des limites de thread ou un processus.</span><span class="sxs-lookup"><span data-stu-id="55f54-113"><<<<<<< HEAD When using a client-side [Recordset](recordset-object-ado.md), records that have been modified on the client are written back to the middle tier or Web server through a technique called marshaling, the process of packaging and sending interface method parameters across thread or process boundaries.</span></span> <span data-ttu-id="55f54-114">La définition de la propriété **MarshalOptions** peut améliorer les performances lorsque les paramètres des données distantes modifiées sont convertis pour être mis à jour sur le niveau intermédiaire ou le serveur Web.</span><span class="sxs-lookup"><span data-stu-id="55f54-114">Setting the **MarshalOptions** property can improve performance when modified remote data is marshaled for updating back to the middle tier or Web server.</span></span>
-<span data-ttu-id="55f54-115">=== Lorsque vous utilisez un [jeu d’enregistrements](recordset-object-ado.md)du côté client, les enregistrements qui ont été modifiés sur le client sont réécrits au niveau intermédiaire ou au serveur web via une technique appelée marshaling, le processus d’empaquetage et d’envoi des paramètres de méthode d’interface entre limites de thread ou un processus.</span><span class="sxs-lookup"><span data-stu-id="55f54-115">======= When using a client-side [Recordset](recordset-object-ado.md), records that have been modified on the client are written back to the middle tier or web server through a technique called marshaling, the process of packaging and sending interface method parameters across thread or process boundaries.</span></span> <span data-ttu-id="55f54-116">Définition de la propriété **MarshalOptions** peut améliorer les performances lors du marshaling de données distantes modifiées pour mettre à jour au niveau intermédiaire ou au serveur web.</span><span class="sxs-lookup"><span data-stu-id="55f54-116">Setting the **MarshalOptions** property can improve performance when modified remote data is marshaled for updating back to the middle tier or web server.</span></span>
->>>>>>> <span data-ttu-id="55f54-117">master</span><span class="sxs-lookup"><span data-stu-id="55f54-117">master</span></span>
+<span data-ttu-id="e042c-109">Lorsque vous utilisez un [jeu d’enregistrements](recordset-object-ado.md)du côté client, les enregistrements qui ont été modifiés sur le client sont réécrits au niveau intermédiaire ou au serveur web via une technique appelée marshaling, le processus d’empaquetage et d’envoi des paramètres de méthode d’interface entre les threads ou limites de processus.</span><span class="sxs-lookup"><span data-stu-id="e042c-109">When using a client-side [Recordset](recordset-object-ado.md), records that have been modified on the client are written back to the middle tier or web server through a technique called marshaling, the process of packaging and sending interface method parameters across thread or process boundaries.</span></span> <span data-ttu-id="e042c-110">Définition de la propriété **MarshalOptions** peut améliorer les performances lors du marshaling de données distantes modifiées pour mettre à jour au niveau intermédiaire ou au serveur web.</span><span class="sxs-lookup"><span data-stu-id="e042c-110">Setting the **MarshalOptions** property can improve performance when modified remote data is marshaled for updating back to the middle tier or web server.</span></span>
 
-<span data-ttu-id="55f54-118">**L’utilisation du Service de données à distance** Cette propriété est utilisée uniquement sur un **jeu d’enregistrements**du côté client.</span><span class="sxs-lookup"><span data-stu-id="55f54-118">**Remote Data Service Usage**This property is used only on a client-side **Recordset**.</span></span>
+<span data-ttu-id="e042c-111">**L’utilisation du Service de données à distance** Cette propriété est utilisée uniquement sur un **jeu d’enregistrements**du côté client.</span><span class="sxs-lookup"><span data-stu-id="e042c-111">**Remote Data Service Usage**This property is used only on a client-side **Recordset**.</span></span>
 

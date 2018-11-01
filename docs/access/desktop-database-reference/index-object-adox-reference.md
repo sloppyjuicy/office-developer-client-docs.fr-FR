@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248803(v=office.15)
 ms:contentKeyID: 48542991
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8e12a9b41130737f244caa758e00496639723e35
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea2b129c3ad444a7aff31661fd49045fcf5a5324
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471323"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886591"
 ---
-# <a name="index-object-adox-reference"></a><span data-ttu-id="800e1-102">Index Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="800e1-102">Index Object (ADOX) Reference</span></span>
+# <a name="index-object-adox-reference"></a><span data-ttu-id="40ba6-102">Index Object (ADOX) Reference</span><span class="sxs-lookup"><span data-stu-id="40ba6-102">Index Object (ADOX) Reference</span></span>
 
 
-<span data-ttu-id="800e1-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="800e1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="40ba6-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="40ba6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="800e1-104">Index, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="800e1-104">Index Object (ADOX)</span></span>](index-object-adox.md)
+  - [<span data-ttu-id="40ba6-104">Index, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="40ba6-104">Index Object (ADOX)</span></span>](index-object-adox.md)
 
-  - [<span data-ttu-id="800e1-105">Index Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="800e1-105">Index Properties, Methods, and Events (ADOX)</span></span>](index-properties-methods-and-events-adox.md)
+  - [<span data-ttu-id="40ba6-105">Index Properties, Methods, and Events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="40ba6-105">Index Properties, Methods, and Events (ADOX)</span></span>](index-properties-methods-and-events-adox.md)
 

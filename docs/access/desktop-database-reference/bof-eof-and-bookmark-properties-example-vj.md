@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="432d2-101"><<<<<<< Titre tête : BOF, EOF et Bookmark, propriétés-exemple (VJ ++) TOCTitle : BOF, EOF et Bookmark, propriétés-exemple (VJ ++) === titre : BOF, EOF et Bookmark, propriétés-exemple (VJ ++) TOCTitle : BOF, EOF et Bookmark, propriétés exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="432d2-101"><<<<<<< HEAD title: BOF, EOF, and Bookmark Properties Example (VJ++) TOCTitle: BOF, EOF, and Bookmark Properties Example (VJ++) ======= title: BOF, EOF, and Bookmark properties example (VJ++) TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="432d2-102">Master ms:assetid : 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl : https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID : ms.date 48545400 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="432d2-102">master ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15) ms:contentKeyID: 48545400 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: BOF, EOF et Bookmark, propriétés – Exemple (VJ++)
+TOCTitle: BOF, EOF, and Bookmark properties example (VJ++)
+ms:assetid: 68e6fcc5-506a-9064-3e7c-9ce3d64371aa
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249412(v=office.15)
+ms:contentKeyID: 48545400
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bc00c8a4102287fb2488d8ffa99607521a91021b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870428"
 ---
-
-<span data-ttu-id="432d2-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="432d2-103"><<<<<<< HEAD</span></span>
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="432d2-104">BOF, EOF et Bookmark, propriétés - Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="432d2-104">BOF, EOF, and Bookmark Properties Example (VJ++)</span></span>
-=======
-# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="432d2-105">BOF, EOF et Bookmark, propriétés-exemple (VJ ++)</span><span class="sxs-lookup"><span data-stu-id="432d2-105">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
->>>>>>> <span data-ttu-id="432d2-106">master</span><span class="sxs-lookup"><span data-stu-id="432d2-106">master</span></span>
+# <a name="bof-eof-and-bookmark-properties-example-vj"></a><span data-ttu-id="7fd61-102">BOF, EOF et Bookmark, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="7fd61-102">BOF, EOF, and Bookmark properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="432d2-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="432d2-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7fd61-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7fd61-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="432d2-p101">Cet exemple utilise les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) pour afficher un message si un utilisateur tente d'aller au-delà du premier ou du dernier enregistrement d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [Bookmark](bookmark-property-ado.md) pour permettre à l'utilisateur de marquer un enregistrement dans un objet **Recordset** et d'y revenir ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="432d2-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
+<span data-ttu-id="7fd61-p101">Cet exemple utilise les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) pour afficher un message si un utilisateur tente d'aller au-delà du premier ou du dernier enregistrement d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [Bookmark](bookmark-property-ado.md) pour permettre à l'utilisateur de marquer un enregistrement dans un objet **Recordset** et d'y revenir ultérieurement.</span><span class="sxs-lookup"><span data-stu-id="7fd61-p101">This example uses the [BOF](bof-eof-properties-ado.md) and [EOF](bof-eof-properties-ado.md) properties to display a message if a user tries to move past the first or last record of a [Recordset](recordset-object-ado.md). It uses the [Bookmark](bookmark-property-ado.md) property to let the user flag a record in a **Recordset** and return to it later.</span></span>
 
 ```java 
  

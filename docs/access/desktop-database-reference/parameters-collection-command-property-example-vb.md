@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="3d1b4-101"><<<<<<< Titre tête : Parameters, Collection, commande propriété-Exemple (VB) TOCTitle : Collection de paramètres, la commande Propriétés-exemple (VB) === titre : Parameters, Collection, exemple de propriété Command (VB) TOCTitle : paramètres Collection, exemple de propriété Command (VB)</span><span class="sxs-lookup"><span data-stu-id="3d1b4-101"><<<<<<< HEAD title: Parameters Collection, Command Property Example (VB) TOCTitle: Parameters Collection, Command Property Example (VB) ======= title: Parameters Collection, Command property example (VB) TOCTitle: Parameters Collection, Command property example (VB)</span></span>
->>>>>>> <span data-ttu-id="3d1b4-102">Master ms:assetid : 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a ms:mtpsurl : https://msdn.microsoft.com/library/JJ249151(v=office.15) ms:contentKeyID : ms.date 48544290 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="3d1b4-102">master ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15) ms:contentKeyID: 48544290 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Parameters, Collection, exemple de propriété Command (VB)
+TOCTitle: Parameters Collection, Command property example (VB)
+ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
+ms:contentKeyID: 48544290
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 2b7b34d06acd2e58950d238cefccbc2ba0a24974
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878450"
 ---
-
-<span data-ttu-id="3d1b4-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="3d1b4-103"><<<<<<< HEAD</span></span>
-# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="3d1b4-104">Parameters, collection - Exemple de propriété Command (VB)</span><span class="sxs-lookup"><span data-stu-id="3d1b4-104">Parameters Collection, Command Property Example (VB)</span></span>
-=======
-# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="3d1b4-105">Parameters, Collection, exemple de propriété Command (VB)</span><span class="sxs-lookup"><span data-stu-id="3d1b4-105">Parameters Collection, Command property example (VB)</span></span>
->>>>>>> <span data-ttu-id="3d1b4-106">master</span><span class="sxs-lookup"><span data-stu-id="3d1b4-106">master</span></span>
+# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="84620-102">Parameters, Collection, exemple de propriété Command (VB)</span><span class="sxs-lookup"><span data-stu-id="84620-102">Parameters Collection, Command property example (VB)</span></span>
 
 
-<span data-ttu-id="3d1b4-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="3d1b4-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="84620-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84620-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3d1b4-108">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) avec l'objet [Command](command-object-ado.md) afin d'extraire les données de paramètres pour la procédure.</span><span class="sxs-lookup"><span data-stu-id="3d1b4-108">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="84620-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) avec l'objet [Command](command-object-ado.md) afin d'extraire les données de paramètres pour la procédure.</span><span class="sxs-lookup"><span data-stu-id="84620-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```vb 
  
