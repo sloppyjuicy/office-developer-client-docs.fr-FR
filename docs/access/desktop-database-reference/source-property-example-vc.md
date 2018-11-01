@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="7fc3d-101"><<<<<<< Titre tête : TOCTitle Source, propriété-Exemple (VC ++) : Source, propriété-Exemple (VC ++) === titre : exemple de propriété Source (VC ++) TOCTitle : exemple de propriété Source (VC ++)</span><span class="sxs-lookup"><span data-stu-id="7fc3d-101"><<<<<<< HEAD title: Source Property Example (VC++) TOCTitle: Source Property Example (VC++) ======= title: Source property example (VC++) TOCTitle: Source property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="7fc3d-102">Master ms:assetid : 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl : https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID : ms.date 48543949 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="7fc3d-102">master ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15) ms:contentKeyID: 48543949 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Source, propriété – Exemple (VC++)
+TOCTitle: Source property example (VC++)
+ms:assetid: 2c539e8b-04a8-2fc3-052e-a0776682e16c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249067(v=office.15)
+ms:contentKeyID: 48543949
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d977f962e08ba8497392582fb26cfbf1d8691a28
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881201"
 ---
-
-<span data-ttu-id="7fc3d-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="7fc3d-103"><<<<<<< HEAD</span></span>
-# <a name="source-property-example-vc"></a><span data-ttu-id="7fc3d-104">Source, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="7fc3d-104">Source Property Example (VC++)</span></span>
-=======
-# <a name="source-property-example-vc"></a><span data-ttu-id="7fc3d-105">Exemple de propriété source (VC ++)</span><span class="sxs-lookup"><span data-stu-id="7fc3d-105">Source property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="7fc3d-106">master</span><span class="sxs-lookup"><span data-stu-id="7fc3d-106">master</span></span>
+# <a name="source-property-example-vc"></a><span data-ttu-id="c03e4-102">Source, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="c03e4-102">Source property example (VC++)</span></span>
 
 
-<span data-ttu-id="7fc3d-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7fc3d-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="c03e4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c03e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7fc3d-108">Cet exemple illustre la propriété [Source](source-property-ado-recordset.md) en ouvrant trois objets [Recordset](recordset-object-ado.md) faisant référence à différentes sources de données.</span><span class="sxs-lookup"><span data-stu-id="7fc3d-108">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="c03e4-104">Cet exemple illustre la propriété [Source](source-property-ado-recordset.md) en ouvrant trois objets [Recordset](recordset-object-ado.md) faisant référence à différentes sources de données.</span><span class="sxs-lookup"><span data-stu-id="c03e4-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```cpp 
  

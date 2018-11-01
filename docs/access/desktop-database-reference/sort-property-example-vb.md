@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="cff03-101"><<<<<<< Titre tête : TOCTitle tri propriété-Exemple (VB) : tri propriété-Exemple (VB) === titre : tri, propriété-Exemple (VB) TOCTitle : tri, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="cff03-101"><<<<<<< HEAD title: Sort Property Example (VB) TOCTitle: Sort Property Example (VB) ======= title: Sort property example (VB) TOCTitle: Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="cff03-102">Master ms:assetid : 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID : ms.date 48545539 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="cff03-102">master ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID: 48545539 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Sort, propriété – Exemple (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891253"
 ---
-
-<span data-ttu-id="cff03-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="cff03-103"><<<<<<< HEAD</span></span>
-# <a name="sort-property-example-vb"></a><span data-ttu-id="cff03-104">Sort, propriété - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="cff03-104">Sort Property Example (VB)</span></span>
-=======
-# <a name="sort-property-example-vb"></a><span data-ttu-id="cff03-105">Sort, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="cff03-105">Sort property example (VB)</span></span>
->>>>>>> <span data-ttu-id="cff03-106">master</span><span class="sxs-lookup"><span data-stu-id="cff03-106">master</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="84047-102">Sort, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="84047-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="cff03-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="cff03-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="84047-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84047-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cff03-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="cff03-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="84047-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="84047-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -94,7 +100,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="cff03-110">Voici la routine utilitaire secondaire qui imprime le titre donné et le contenu du **Recordset** spécifié.</span><span class="sxs-lookup"><span data-stu-id="cff03-110">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="84047-106">Voici la routine utilitaire secondaire qui imprime le titre donné et le contenu du **Recordset** spécifié.</span><span class="sxs-lookup"><span data-stu-id="84047-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  
