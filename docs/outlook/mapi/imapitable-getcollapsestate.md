@@ -23,7 +23,7 @@ ms.locfileid: "22589664"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne les données nécessaires à la recréation en cours réduit ou développé état d’une table, voir.
   
@@ -59,7 +59,7 @@ LPBYTE FAR * lppbCollapseState
   
 > [out] Pointeur vers un pointeur vers les structures qui contiennent des données qui décrit l’affichage tableau actuel.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -85,7 +85,7 @@ La méthode **IMAPITable::GetCollapseState** fonctionne avec la méthode [IMAPIT
     
 Pour plus d’informations sur les tables, voir, consultez [tri et catégorisation](sorting-and-categorization.md).
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Stocker l’état actuel de tous les nœuds d’un tableau dans le paramètre _lppbCollapseState_ . 
   

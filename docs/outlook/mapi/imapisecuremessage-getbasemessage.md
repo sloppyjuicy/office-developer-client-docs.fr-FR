@@ -23,7 +23,7 @@ ms.locfileid: "22594837"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère l’objet sous-jacent [IMessage : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) est encapsulation. 
   
@@ -39,7 +39,7 @@ HRESULT GetBaseMessage(
   
 > [out] Un objet de message sécurisé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

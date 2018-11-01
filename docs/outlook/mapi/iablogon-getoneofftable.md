@@ -23,7 +23,7 @@ ms.locfileid: "22583679"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau des modèles uniques pour la création de destinataires à ajouter à la liste des destinataires d’un message sortant.
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la table unique.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

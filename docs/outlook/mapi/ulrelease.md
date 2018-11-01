@@ -23,15 +23,15 @@ ms.locfileid: "22582300"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet également d’appeler la méthode OLE **IUnknown::Release**. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 ULONG UlRelease(
@@ -45,7 +45,7 @@ ULONG UlRelease(
   
 > [in] Pointeur vers une interface dérivé de l’interface **IUnknown** , en d’autres termes n’importe quelle interface MAPI. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

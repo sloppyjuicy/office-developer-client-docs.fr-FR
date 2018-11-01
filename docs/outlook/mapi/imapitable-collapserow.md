@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b4dd7e9715c2d3c99eda44f7eed0b3360a2e33be
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22595299"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Réduire une catégorie de table étendue, supprimant tous les titres de niveau inférieur et les lignes de feuilles appartenant à la catégorie à partir de l’affichage tableau.
   
@@ -54,7 +54,7 @@ ULONG FAR * lpulRowCount
   
 > [out] Pointeur vers le nombre total de lignes qui sont supprimés de l’affichage tableau.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -78,9 +78,9 @@ Lorsqu’une ligne est définie par un signet est réduite en dehors de l’affi
   
 Pour plus d’informations sur les tables, voir, consultez [tri et catégorisation](sorting-and-categorization.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

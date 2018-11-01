@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c4ea6feeec4c8d4189b80354e41a01de61da4e30
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5ded11512def101bc27dfb843d2315f9f4105fb5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471485"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891225"
 ---
 # <a name="importexporttext-macro-action"></a>ImporterExporterTexte, action de macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'action **ImporterExporterTexte** permet d'importer ou d'exporter du texte entre la base de données Microsoft Access (.mdb ou .accdb) ou le projet Access (.adp) actif et un fichier texte. Vous pouvez également lier les données figurant dans un fichier texte dans la base de données Access active. Avec un fichier texte lié, vous pouvez afficher les données de texte dans Access tout en garantissant l'accès à ces données à partir du programme de traitement de texte. Vous pouvez également importer à partir de, exporter vers et lier une table ou une liste dans un fichier HTML (\*.html).
 

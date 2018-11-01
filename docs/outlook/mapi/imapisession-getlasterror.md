@@ -23,7 +23,7 @@ ms.locfileid: "22574102"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de session précédente. 
   
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, composant et le contexte de l’erreur. Le paramètre _lppMAPIError_ peut être défini sur la valeur NULL si MAPI ne peut pas fournir les informations appropriées pour une structure **MAPIERROR** . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

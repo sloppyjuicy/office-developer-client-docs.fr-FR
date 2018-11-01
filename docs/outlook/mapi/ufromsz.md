@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7513e361f4c1c1bcc93cc420f3a1987e0d817c54
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22580501"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Convertit une chaîne de chiffres décimaux en entier non signé. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 UINT UFromSz(
@@ -45,7 +45,7 @@ UINT UFromSz(
   
 > [in] Pointeur vers la chaîne à convertir. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
  **UFromSz** renvoie un entier non signé. Si la chaîne ne commence pas par au moins un chiffre, zéro est renvoyé. 
   

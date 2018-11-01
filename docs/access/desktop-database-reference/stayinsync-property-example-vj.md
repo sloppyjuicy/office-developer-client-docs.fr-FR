@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle StayInSync, propriété-Exemple (VJ ++) : StayInSync, propriété-Exemple (VJ ++) === titre : StayInSync, propriété-Exemple (VJ ++) TOCTitle : StayInSync, propriété-Exemple (VJ ++)
->>>>>>> Master ms:assetid : e9e0fcc7-07b6-c433-7c4c-478fc69eacaf ms:mtpsurl : https://msdn.microsoft.com/library/JJ250184(v=office.15) ms:contentKeyID : ms.date 48548448 : 18/09/2015 mtps_version : v=office.15
+title: StayInSync, propriété – Exemple (VJ++)
+TOCTitle: StayInSync property example (VJ++)
+ms:assetid: e9e0fcc7-07b6-c433-7c4c-478fc69eacaf
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250184(v=office.15)
+ms:contentKeyID: 48548448
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 53e1ce8eb6c92d139821bdefd1bed64834b379d6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891148"
 ---
-
-<<<<<<< Tête
-# <a name="stayinsync-property-example-vj"></a>StayInSync, propriété - Exemple (VJ++)
-=======
-# <a name="stayinsync-property-example-vj"></a>StayInSync, propriété-Exemple (VJ ++)
->>>>>>> master
+# <a name="stayinsync-property-example-vj"></a>StayInSync, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.
 

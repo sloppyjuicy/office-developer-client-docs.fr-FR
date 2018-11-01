@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4843a52d7441de1e1ab545e80346db8dd308c4bf
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22590203"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournit des implémentations pour les tâches qui sont généralement effectuées par les fournisseurs de services et fonctions de point d’entrée message service. Fournisseurs de services s’affiche un pointeur vers l’objet de prise en charge MAPI appelle la méthode d’ouverture de session de l’objet de leur fournisseur. Services de messagerie reçoivent le pointeur d’objet de prise en charge dans l’appel de fonction de leur point d’entrée.
   
@@ -31,8 +31,8 @@ Fournit des implémentations pour les tâches qui sont généralement effectuée
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
 |Exposés par :  <br/> |Prise en charge des objets  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IMAPISup  <br/> |
 |Type de pointeur :  <br/> |LPMAPISUP  <br/> |
    

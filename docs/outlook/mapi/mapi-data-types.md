@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 85b31361ad39370cf4c935363b341c8378f85e19
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22572739"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les entrées suivantes alphabétique contiennent documentation pour les types de données utilisés dans les méthodes, les fonctions et les structures de MAPI. 
   

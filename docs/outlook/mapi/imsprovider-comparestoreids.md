@@ -23,7 +23,7 @@ ms.locfileid: "22585989"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Compare deux messages magasin identificateurs d’entrée pour déterminer si elles font référence au même objet store.
   
@@ -64,7 +64,7 @@ HRESULT CompareStoreIDs(
   
 > [out] Pointeur vers le résultat de la comparaison retourné. TRUE si les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0f917989d9bac403f2bea5b2d6699b7a1caf2008
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22573011"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une section de profil du profil actuel et retourne un pointeur [IProfSect](iprofsectimapiprop.md) pour davantage d’accès. 
   
@@ -66,7 +66,7 @@ MAPI_FORCE_ACCESS
   
 > [out] Pointeur vers un pointeur vers la section de profil.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -94,9 +94,9 @@ Si vous avez demandé qui **OpenProfileSection** ouvrir une section de profil in
   
 Si vous avez demandé que **OpenProfileSection** ouvrir une section inexistante disposant d’une autorisation en lecture seule, elle renvoie MAPI_E_NOT_FOUND. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

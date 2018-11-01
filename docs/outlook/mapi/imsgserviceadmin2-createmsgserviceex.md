@@ -23,7 +23,7 @@ ms.locfileid: "22574775"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute un service de message pour le profil actuel et des retours nouvellement ajouté UID de service.
   
@@ -75,7 +75,7 @@ SERVICE_UI_ALWAYS
   
 > [out] Pointeur vers l’UID du service de message ajouté.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   

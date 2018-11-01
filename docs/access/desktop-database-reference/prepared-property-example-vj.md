@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle préparé, propriété-Exemple (VJ ++) : préparé, propriété-Exemple (VJ ++) === titre : Prepared, propriété-Exemple (VJ ++) TOCTitle : Prepared, propriété-Exemple (VJ ++)
->>>>>>> Master ms:assetid : 4b8402c2-9604-aaba-ba75-43161a8df9c8 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249237(v=office.15) ms:contentKeyID : ms.date 48544693 : 18/09/2015 mtps_version : v=office.15
+title: Prepared, propriété – Exemple (VJ++)
+TOCTitle: Prepared property example (VJ++)
+ms:assetid: 4b8402c2-9604-aaba-ba75-43161a8df9c8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249237(v=office.15)
+ms:contentKeyID: 48544693
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4f275585d784845c3292901bbacabdcc1c4ab931
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878443"
 ---
-
-<<<<<<< Tête
-# <a name="prepared-property-example-vj"></a>Prepared, propriété - Exemple (VJ++)
-=======
-# <a name="prepared-property-example-vj"></a>Prepared, propriété-Exemple (VJ ++)
->>>>>>> master
+# <a name="prepared-property-example-vj"></a>Prepared, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l'ouverture de deux objets [Command](command-object-ado.md) : l'un préparé et l'autre non préparé.
 

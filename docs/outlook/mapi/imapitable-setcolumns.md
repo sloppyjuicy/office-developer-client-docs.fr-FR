@@ -23,7 +23,7 @@ ms.locfileid: "22587907"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit les propriétés et l’ordre des propriétés apparaissent sous forme de colonnes dans le tableau.
   
@@ -52,7 +52,7 @@ TBL_BATCH
   
 > Permet à la table de différer l’opération de définition de colonne jusqu'à ce que les données sont réellement nécessaires.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -68,7 +68,7 @@ L’ensemble de colonnes d’une table est le groupe de propriétés qui constit
   
 La réussite de l’opération **SetColumns** n’apparaît qu’après qu’un appel suivant a été effectué pour récupérer les données de la table. Il est alors que les erreurs détectées. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Certains fournisseurs permettent à un appel **SetColumns** trier uniquement les colonnes de tableau qui font partie des colonnes disponibles pour un affichage de tableau. Autres fournisseurs d’autorisent un appel **SetColumns** trier toutes les colonnes du tableau, y compris ceux qui contiennent des propriétés pas dans l’ensemble de colonnes d’origine. 
   
@@ -107,9 +107,9 @@ Si un appel à la **méthode SetColumns** renvoie MAPI_E_BUSY, indiquant qu’un
   
 Vous pouvez également appeler [HrAddColumnsEx](hraddcolumnsex.md) pour modifier un ensemble de colonnes. La différence entre **HrAddColumnsEx** et **IMAPITable::SetColumns** est **HrAddColumnsEx** moins de souplesse ; Il ne peut ajouter des colonnes. Les colonnes supplémentaires sont placés au début de l’ensemble de colonnes ; toutes les colonnes existantes apparaissent après ces colonnes. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

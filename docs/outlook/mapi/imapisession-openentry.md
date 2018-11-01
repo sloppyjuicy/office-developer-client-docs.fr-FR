@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6234fc737857a7e35f562703802f81ff154b3ee6
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22591014"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre un objet et retourne un pointeur d’interface pour l’accès supplémentaire.
   
@@ -92,7 +92,7 @@ SHOW_SOFT_DELETES
   
 > [out] Pointeur vers un pointeur vers l’objet ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -127,9 +127,9 @@ Appel de **IMAPISession::OpenEntry** et le paramètre _lpEntryID_ pour pointer v
   
 Vérifiez la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer si le type d’objet retourné est attendue. Si le type d’objet n’est pas le type escomptés, convertir le pointeur à partir du paramètre _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrez un dossier, un cast _lppUnk_ à un pointeur du type LPMAPIFOLDER. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

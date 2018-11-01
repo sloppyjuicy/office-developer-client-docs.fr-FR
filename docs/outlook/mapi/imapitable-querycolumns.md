@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 86dfaa8fbc9ff24d38472f1339a22534086d890b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22593745"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie une liste de colonnes pour la table.
   
@@ -48,7 +48,7 @@ TBL_ALL_COLUMNS
   
 > [out] Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant les balises de propriété pour la colonne valeur. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -76,9 +76,9 @@ Si vous définissez l’indicateur TBL_ALL_COLUMNS, **QueryColumns** renvoie tou
   
 Libérer de la mémoire pour le tableau de balise de propriété indiqué par le paramètre _lpPropTagArray_ en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

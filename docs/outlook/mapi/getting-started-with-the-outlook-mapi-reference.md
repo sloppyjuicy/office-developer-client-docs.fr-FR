@@ -15,7 +15,7 @@ ms.locfileid: "22577085"
 ---
 # <a name="getting-started-with-the-outlook-mapi-reference"></a>Mise en route avec la référence MAPI Outlook
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La référence de Microsoft Outlook MAPI (Messaging API) explique comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Outlook 2016. Cette section décrit comment trouver les différents référence et conceptuels ressources dans la référence MAPI Outlook.
   

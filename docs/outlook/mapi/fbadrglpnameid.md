@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22588145"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Valide un tableau de structures qui décrivent les propriétés nommées et vérifie leur affectation. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
 ```cpp
 BOOL FBadRglpNameID(
@@ -50,7 +50,7 @@ BOOL FBadRglpNameID(
   
 > [in] Nombre de structures de propriété nommée dans le tableau indiqué par le paramètre _lppNameId_ . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22575832"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente. 
   
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la structure **MAPIERROR** qui contient les informations de version, composant et le contexte de l’erreur. Le paramètre _lppMAPIError_ peut être défini sur NULL s’il n’existe aucune information d’erreur à renvoyer. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -69,7 +69,7 @@ La méthode **IMAPIProp::GetLastError** fournit des informations sur un appel de
   
 Toutes les implémentations de **GetLastError** fourni par MAPI sont mises en œuvre ANSI, à l’exception de l’implémentation de [IAddrBook](iaddrbookimapiprop.md) . La méthode **GetLastError** incluse avec **IAddrBook** prend en charge Unicode. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Les détails d’une distance de transport du fournisseur d’implémentation de cette méthode et quels sont les messages, que cette méthode retourne le fournisseur de transport, étant donné que les conditions d’erreur spécifique qui mènent à des différentes valeurs HRESULT sera différentes pour le transport différents fournisseurs.
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: d052e7590ee502b55f2076d698587ab68820ca56
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22576700"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Répond à une notification en effectuant une ou plusieurs tâches. Les tâches exécutées varient selon le type d’événement et l’objet qui génère la notification. 
   
@@ -44,7 +44,7 @@ ULONG OnNotify(
   
 > [in] Pointeur vers une ou plusieurs structures **NOTIFICATION** qui fournissent des informations sur les événements qui se sont produites. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -77,7 +77,7 @@ Pour plus d’informations sur la façon de configurer et d’arrêter les notif
   
 Pour obtenir des informations générales sur le processus de notification, voir [Notification d’événement MAPI](event-notification-in-mapi.md). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Votre implémentation **OnNotify** consiste à un ou plusieurs blocs de code pour chaque type de notification que vous souhaitez recevoir. Dans ces blocs de code, effectuez toutes les tâches que vous prenez en compte nécessaire en réponse à la notification. Par exemple, supposons que vous inscrivez pour recevoir des notifications **fnevObjectModified** dans un dossier qui est inclus dans l’affichage d’une boîte de dialogue. Dans le bloc de code que vous incluez dans votre méthode **OnNotify** pour gérer les notifications **fnevObjectModified** , vous pouvez envoyer un message Windows à la boîte de dialogue pour demander un affichage mis à jour. 
   
@@ -89,9 +89,9 @@ En cas de modifications apportées à plusieurs objets, vous pouvez signaler un 
   
 Pour plus d’informations sur la façon et le moment générer des notifications, voir [Notification d’événement MAPI](event-notification-in-mapi.md) et [Prenant en charge les notifications](supporting-event-notification.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

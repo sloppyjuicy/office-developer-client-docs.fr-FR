@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3afd550364836602271f66837265c38b6153ace8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 915a733d59d938e77f32a051b267b5e26bddf6a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470124"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877120"
 ---
 # <a name="field2-members-dao"></a>Field2 Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet Field2 représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.
 
@@ -117,7 +117,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <td><p>Renvoie une valeur <strong>Boolean</strong> qui indique si le champ défini est un type de données à plusieurs valeurs. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="field2-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

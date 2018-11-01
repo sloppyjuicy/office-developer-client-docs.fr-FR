@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e9e0ad958acc40dd28f3d9aab9996c1b7a36f38a
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22591484"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche un formulaire.
   
@@ -97,7 +97,7 @@ MAPI_POST_MESSAGE
   
 > [in] Pointeur vers la classe de message de message affiché dans le formulaire, copié à partir de la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -117,9 +117,9 @@ Vous devez disposer d’une seule référence au message passé dans _lpMessage_
   
 Sachez que les implémentations de formulaire peuvent renvoyer des valeurs d’erreur autres que ceux documentés par MAPI. Si vous pouvez utiliser ces valeurs d’erreur pour déterminer plus précise de la condition d’erreur, faites-le. Dans le cas contraire, gérer ces erreurs comme vous le feriez MAPI_E_CALL_FAILED. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e76ad936cb8dc99897bc1c74d3a47b0d2aa4be46
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22590049"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Initialise un fournisseur de carnet d’adresses pour l’opération. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de carnet d’adresses  <br/> |
-|Appelée par :  <br/> |MAPI  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de carnet d’adresses  <br/> |
+|Appelé par :  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT ABProviderInit(
@@ -87,7 +87,7 @@ MAPI_NT_SERVICE
   
 > [out] Pointeur vers un pointeur vers l’objet de fournisseur de carnet d’adresses initialisé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -101,7 +101,7 @@ MAPI_E_VERSION
 
 MAPI appelle la fonction de point d’entrée **ABProviderInit** d’initialisation d’un fournisseur de carnet d’adresses après une ouverture de session client. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Un fournisseur de carnet d’adresses doit implémenter **ABProviderInit** en tant que fonction d’un point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **ABPROVIDERINIT** , également spécifié dans MAPISPI. H. MAPI définit **ABPROVIDERINIT** pour utiliser le type appel de l’initialisation de MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **ABProviderInit** à suivre la convention d’appel CDECL. 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22594725"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de contrôle de bouton précédent. 
   
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers une structure **MAPIERROR** qui contient les informations de version, composant et le contexte de l’erreur. Le paramètre _lppMAPIError_ peut être défini sur la valeur NULL si le fournisseur ne peut pas fournir une structure **MAPIERROR** avec les informations appropriées. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -67,7 +67,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Fournisseurs de services implémentent la méthode **IMAPIControl::GetLastError** pour fournir des informations relatives à un appel de méthode antérieurs ayant échoué. MAPI peut fournir des utilisateurs des informations détaillées sur l’erreur en affichant les données à partir de la structure **MAPIERROR** dans une zone de message ou de la boîte de dialogue. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Il est inutile de disposer d’informations à inclure dans la structure **MAPIERROR** pour chaque erreur. Il peut être pas possible de déterminer quel est l’erreur précédente. Si vous disposez des informations, renvoie S_OK et les données appropriées dans la structure **MAPIERROR** . Si aucune information n’est disponible, renvoie S_OK et un pointeur null pour le paramètre _lppMAPIError_ . 
   

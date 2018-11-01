@@ -23,7 +23,7 @@ ms.locfileid: "22572086"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déplace le curseur à une position en fraction approximative dans le tableau. 
   
@@ -44,7 +44,7 @@ ULONG ulDenominator
   
 > [in] Pointeur vers le dénominateur de la fraction qui représente la position de la table. Le paramètre _ulDenominator_ ne peut pas être égal à zéro. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

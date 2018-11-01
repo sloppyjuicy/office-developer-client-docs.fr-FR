@@ -21,7 +21,7 @@ ms.locfileid: "22589741"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Prépare une liste de destinataires pour une utilisation ultérieure par le système de messagerie.
   
@@ -49,7 +49,7 @@ _lpRecipList_
   
 > [in] Pointeur vers une structure [ADRLIST](adrlist.md) qui contenue la liste des destinataires. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -59,7 +59,7 @@ MAPI_E_NOT_FOUND
   
 > Une ou plusieurs des destinataires dans le paramètre _lpRecipList_ n’existent pas. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Un client appelle la méthode MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) pour modifier ou réorganiser un ensemble de propriétés pour un ou plusieurs destinataires. Les destinataires peuvent ou ne peuvent pas faire partie de la liste des destinataires d’un message sortant. MAPI transfère cet appel à la méthode de **IABLogon::PrepareRecips** d’un fournisseur de carnet d’adresses. 
   
@@ -75,7 +75,7 @@ Un client appelle la méthode MAPI [IAddrBook::PrepareRecips](iaddrbook-preparer
     
 La structure **ADRENTRY** dans le paramètre _lpRecipList_ contient une structure **ADRENTRY** pour chaque destinataire. Chaque structure **ADRENTRY** contient un tableau de structures [SPropValue](spropvalue.md) pour décrire les propriétés du destinataire. **IABLogon::PrepareRecips** retourne le tableau de structure **SPropValue** pour chaque destinataire inclut les propriétés de l' _lpPropTagArray_ suivi par les autres propriétés pour le destinataire. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 L’implémentation **IABLogon::PrepareRecips** implique l’assignation de propriétés dans un ordre spécifique, extraction de valeurs de propriété et la conversion des identificateurs d’entrée à court terme pour les identificateurs d’entrée à long terme. Les propriétés qui sont demandées dans le paramètre _lpPropTagArray_ doivent être au début du tableau de valeur de propriété associé à **ADRENTRY** structure chaque destinataire dans le paramètre _lpRecipList_ . Si les valeurs de ces propriétés n’existent pas, ouvrez la liste associée d’utilisateur ou de distribution de messagerie à l’aide de son identificateur d’entrée et récupérer les valeurs de propriété manquantes. 
   

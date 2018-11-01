@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 23b4ed78f4b65a5af4c2f3e11fa770030fe4eeee
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22590161"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Valide une ligne dans une table.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
 ```cpp
 ULONG FBadRow(
@@ -45,7 +45,7 @@ ULONG FBadRow(
   
 > [in] Pointeur vers une structure [SRow](srow.md) qui identifie la ligne à valider. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   

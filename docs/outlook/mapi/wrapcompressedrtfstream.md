@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a7095907a1fb437e225922d0bef08b4ad79a4b6f
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22594592"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un flux de texte dans décompressé texte enrichi (RTF) au format compressé utilisée dans la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
    
 ```cpp
 HRESULT WrapCompressedRTFStream(
@@ -63,7 +63,7 @@ STORE_UNCOMPRESSED_RTF
   
 > [out] Pointeur vers l’emplacement où **WrapCompressedRTFStream** renvoie un flux de données pour le format RTF décompressé. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

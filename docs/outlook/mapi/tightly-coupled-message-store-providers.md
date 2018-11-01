@@ -19,7 +19,7 @@ ms.locfileid: "22590294"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins de message peuvent être étroitement avec un fournisseur de transport. Associant étroitement les moyens de fournisseurs de service MAPI implémenter les deux fournisseurs tels que le fournisseur de magasin et le fournisseur de transport peuvent communiquer pour faciliter le processus d’envoi et réception de messages plus efficaces. L’avantage de cette approche est qu’améliorations des performances peuvent se produire lorsque deux fournisseurs de services peuvent interagir les uns avec les autres directement plutôt que prenait spouleur MAPI. Pour associer étroitement un fournisseur de banque de messages à un fournisseur de transport, le fournisseur de transport doit placer l’identificateur d’entrée du fournisseur de banque de messages dans la propriété **PR_OWN_STORE_ENTRYID** ([PidTagOwnStoreEntryId](pidtagownstoreentryid-canonical-property.md)) dans du fournisseur transport ligne dans la table d’état MAPI. Cela permet de spouleur MAPI pour se connecter au fournisseur de magasin pour le fournisseur de transport.
   
@@ -35,5 +35,5 @@ En règle générale, il n’y a aucune précises modalités d’associant étro
 
 
 
-[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

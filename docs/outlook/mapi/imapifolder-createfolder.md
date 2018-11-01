@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 694f7ec5715a7348c9bd90c28d14f30d43d19974
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22581782"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un sous-dossier.
   
@@ -84,7 +84,7 @@ OPEN_IF_EXISTS
   
 > [out] Pointeur vers un pointeur vers le nouveau dossier.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -112,9 +112,9 @@ La plupart des fournisseurs de banque de messages nécessitent le nom du nouveau
   
 Pour déterminer l’identificateur d’entrée du dossier nouvellement créé, appelez la méthode de **IMAPIProp::GetProps** du nouveau dossier pour récupérer la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

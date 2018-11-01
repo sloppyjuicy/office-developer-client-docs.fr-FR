@@ -1,22 +1,22 @@
 ---
-title: ShowAllRecords Macro Action
+title: Action de Macro ShowAllRecords
 TOCTitle: ShowAllRecords Macro Action
 ms:assetid: 6f9741ad-0440-4b8d-abea-009063c111f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 40221ce69a03f619bd15a5a89af9018c66c52791
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1b6482bcd34562e13e1783f8e0702718eeaed0b0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472055"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881733"
 ---
-# <a name="showallrecords-macro-action"></a>ShowAllRecords Macro Action
+# <a name="showallrecords-macro-action"></a>Action de Macro ShowAllRecords
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Vous pouvez utiliser l’action **AfficherTousEnreg** pour supprimer n’importe quel filtre appliqué à la table active, le jeu de résultats de requête ou le formulaire et afficher tous les enregistrements dans l’ensemble de la table ou les résultats ou tous les enregistrements dans la table sous-jacente du formulaire ou de la requête.

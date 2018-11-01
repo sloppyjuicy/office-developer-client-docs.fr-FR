@@ -23,7 +23,7 @@ ms.locfileid: "22580697"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie une liste triée des identificateurs d’entrée des conteneurs à inclure dans le processus de résolution de noms initié par la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) . 
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers une liste triée des identificateurs d’entrée de conteneur. **GetSearchPath** stocke la liste dans une structure [SRowSet](srowset.md) . S’il n’y a aucun conteneur dans la hiérarchie de carnets d’adresses, zéro est retournée dans la structure **SRowSet** . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

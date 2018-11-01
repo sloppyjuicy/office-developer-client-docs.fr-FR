@@ -19,15 +19,15 @@ ms.locfileid: "22580732"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute ou déplacer des colonnes au début d’une table existante.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et des fournisseurs de services.  <br/> |
    
 ```cpp
 HRESULT HrAddColumns(
@@ -56,7 +56,7 @@ HRESULT HrAddColumns(
   
 > [in] Pointeur vers la fonction **MAPIFreeBuffer** . Utilisé pour libérer de la mémoire. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
  **S_OK**
   

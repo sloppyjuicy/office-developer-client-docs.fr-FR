@@ -23,7 +23,7 @@ ms.locfileid: "22588005"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère la valeur de propriété d’une ou plusieurs propriétés d’un objet.
   
@@ -58,7 +58,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers les valeurs des propriétés récupérées.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -100,7 +100,7 @@ Si le paramètre _lpPropTagArray_ est défini sur NULL pour récupérer toutes l
     
  **GetProps** ne doit pas retourner de propriétés à plusieurs valeurs avec **cValues** défini sur 0. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Appelez la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) pour allouer de la mémoire à l’origine de la structure [SPropValue](spropvalue.md) désignée par _lpPropTagArray_; Appelez [MAPIAllocateMore](mapiallocatemore.md) pour allouer de mémoire supplémentaire nécessaire pour les membres de la structure. 
   
@@ -164,9 +164,9 @@ Pour vérifier si un fichier PST est un fichier PST SharePoint, montez le fichie
   
 Pour plus d’informations sur l’utilisation de **GetProps** pour accéder aux propriétés, voir [Extraction des propriétés MAPI](retrieving-mapi-properties.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -193,9 +193,9 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [Récupération des propriétés MAPI](retrieving-mapi-properties.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

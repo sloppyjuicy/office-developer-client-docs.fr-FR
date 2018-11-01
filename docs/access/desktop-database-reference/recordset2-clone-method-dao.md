@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836567(v=office.15)
 ms:contentKeyID: 48548614
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 47aa31bf6b32b674d7701b6572cc411eb88cc301
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 95d02f56a7c1e916bd0b6181a7a22b3cebb9d9b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603286"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875027"
 ---
 # <a name="recordset2clone-method-dao"></a>Recordset2.Clone Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Crée un objet **[Recordset](recordset-object-dao.md)** en double qui fait référence à l'objet **Recordset2** d'origine.
 
@@ -26,11 +26,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** en double qui fait réf�
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Recordset
 

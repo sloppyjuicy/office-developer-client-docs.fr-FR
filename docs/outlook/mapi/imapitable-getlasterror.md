@@ -23,7 +23,7 @@ ms.locfileid: "22593815"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne une structure [MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente dans le tableau. 
   
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la structure **MAPIERROR** retournée contenant des informations de version, composant et le contexte de l’erreur. Le paramètre _lppMAPIError_ peut être défini sur NULL si une structure **MAPIERROR** avec les informations appropriées ne peut pas être fournie. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

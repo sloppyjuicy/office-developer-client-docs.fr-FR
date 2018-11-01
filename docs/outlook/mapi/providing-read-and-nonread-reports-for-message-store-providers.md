@@ -19,7 +19,7 @@ ms.locfileid: "22594438"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Si un fournisseur de magasin de message peut recevoir des messages, il est requis pour prendre en charge la lecture des rapports et nonread de messages reçus par le fournisseur de banque de messages. Si un message reçu contient la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) et la valeur de cette propriété a la valeur TRUE, la banque de messages doit envoyer un message de notification à l’expéditeur lorsque l’utilisateur ouvre le message, indiquant que le message a été lu. De même, si l’utilisateur supprime le message avant de l’ouvrir, la banque de messages doit émettre une réponse à l’expéditeur indiquant que le message n’a pas été lu.
   

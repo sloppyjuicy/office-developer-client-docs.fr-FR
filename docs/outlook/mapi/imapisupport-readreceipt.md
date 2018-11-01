@@ -23,7 +23,7 @@ ms.locfileid: "22588621"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Génère un rapport nonread pour un message ou en lecture.
   
@@ -53,7 +53,7 @@ MAPI_NON_READ
   
 > [entrée, sortie] À l’entrée _lppEmptyMessage_ pointe vers un pointeur vers un message vide. Dans la sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message d’état. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

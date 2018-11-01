@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4e2d4f76fe436fd18b439bbbb558b1169094b438
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22589461"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Établissement d’un dossier comme destination pour les messages entrants d’une classe de message particulier.
   
@@ -58,7 +58,7 @@ MAPI_UNICODE
   
 > [in] Pointeur vers l’identificateur d’entrée du dossier à établir en tant que le dossier de réception. Si le paramètre _lpEntryID_ est défini sur NULL, **SetReceiveFolder** remplace actuel recevoir de dossier par défaut de la banque de messages. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -72,9 +72,9 @@ Si une erreur se produit pendant l’appel à **SetReceiveFolder**, le paramètr
   
 Si **SetReceiveFolder** modifie le paramètre de dossier de réception avec _lpEntryID_ valeur NULL, indiquant que le dossier de réception par défaut doit être défini, **SetReceiveFolder** renvoie S_OK même si aucun paramètre existant pour le texte indiqué s’est produite classe de message. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

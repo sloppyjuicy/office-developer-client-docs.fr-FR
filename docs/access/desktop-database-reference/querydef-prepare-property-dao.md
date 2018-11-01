@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cec1fde6bc76438da2292ae30545337eaeea6cf4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1328dbbfe37ac1876d2839e08295a98068f52384
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470548"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889972"
 ---
 # <a name="querydefprepare-property-dao"></a>QueryDef.Prepare Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 

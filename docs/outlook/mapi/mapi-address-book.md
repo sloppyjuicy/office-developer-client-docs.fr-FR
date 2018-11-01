@@ -19,7 +19,7 @@ ms.locfileid: "22587921"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Le carnet d'adresses int�gr� est un objet qui impl�mente la MAPI pour fournir l'acc�s � une collection int�gr�e d'informations sur les adresses de tous les fournisseurs de carnet d'adresses dans le profil. Avec le carnet d'adresses, les fournisseurs de services et les applications clientes n'ont pas faire la distinction entre les mod�les d'adressage uniques des syst�mes de messagerie. Au lieu de cela, ils peuvent consulter les adresses des destinataires dans n'importe quel syst�me de messagerie, dans la mesure o� le fournisseur de carnet d'adresses pour le syst�me de messagerie est install�.
   

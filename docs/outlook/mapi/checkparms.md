@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5732dd3c1587c127cf153ebcadd9b791e6abb9ea
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22582034"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Appelle une fonction interne pour valider les paramètres de débogage sur les méthodes de fournisseur de service appelées par MAPI. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapival.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT CheckParms(
@@ -50,7 +50,7 @@ HRESULT CheckParms(
   
 > [in] Pointeur vers le premier argument dans la pile.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22595047"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie une ou plusieurs lignes d’une table, en commençant à l’emplacement du curseur.
   
@@ -53,7 +53,7 @@ TBL_NOADVANCE
   
 > [out] Pointeur vers un pointeur vers une structure [SRowSet](srowset.md) contenant les lignes du tableau. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -93,7 +93,7 @@ Si aucun de ces appels a été effectué, **QueryRows** renvoie toutes les ligne
   
 Lorsque l’ensemble de colonnes d’établir un appel à [IMAPITable::SetColumns](imapitable-setcolumns.md) comprend les colonnes PR_NULL, tableau [SPropValue](spropvalue.md) dans le jeu de lignes retourné dans _lppRows_ contiendra des emplacements vides. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez autoriser un appelant demander une colonne à inclure dans l’ensemble de colonnes non pris en charge. Lorsque cela se produit, placez PT_ERROR dans la partie de type de propriété de la balise de propriété et MAPI_E_NOT_FOUND dans la valeur de propriété pour la colonne non pris en charge. 
   
@@ -111,9 +111,9 @@ Lors de l’appel **QueryRows**, n’oubliez pas que la synchronisation des noti
   
 Pour plus d’informations sur la récupération des lignes à partir des tables, voir [Récupération de données à partir des lignes de tableau](retrieving-data-from-table-rows.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

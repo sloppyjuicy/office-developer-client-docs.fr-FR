@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9fa7c7226c4ddb5acf5c6b73f55c46829d959eef
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22572304"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Demandes d’enregistrer le message en cours.
   
@@ -35,7 +35,7 @@ HRESULT SaveMessage( void );
 
 Aucun.
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -47,9 +47,9 @@ Formulaires appeler la méthode **IMAPIMessageSite::SaveMessage** pour demander 
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -62,7 +62,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
 

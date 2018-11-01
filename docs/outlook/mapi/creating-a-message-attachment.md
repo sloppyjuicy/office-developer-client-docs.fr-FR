@@ -1,5 +1,5 @@
 ---
-title: Création d’une pièce jointe
+title: Création d’une pièce jointe de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22577099"
 ---
-# <a name="creating-a-message-attachment"></a>Création d’une pièce jointe
+# <a name="creating-a-message-attachment"></a>Création d’une pièce jointe de message
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Une pièce jointe du message est certaines données supplémentaires, comme un fichier, un autre message ou un objet OLE, que vous pouvez envoyer ou enregistrer avec un message. Chaque pièce jointe est une collection de propriétés qui identifie et décrit le type et la façon dont il s’affiche. Comme destinataires, pièces jointes des messages uniquement accessible via le message auquel ils appartiennent. Par conséquent, pour une pièce jointe utilisable, son message doit être ouvert.
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ee004bdfb8d13537fd8823225f155223ebc76ca7
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22583350"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Détermine la taille, en octets, d’un tableau de valeurs de propriété et valide la mémoire associée au tableau. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScCountProps(
@@ -55,7 +55,7 @@ SCODE ScCountProps(
   
 > [out] Pointeur facultatif à la taille, en octets, du tableau de la propriété.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

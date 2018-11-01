@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 101e74f3e35e3664dd29e59f166b2f0af6e1dcba
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22592037"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction de rappel de processus raccourcis dans une boîte de dialogue non modale adresse téléchargeable. 
   
@@ -48,7 +48,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
   
 > [in] Pointeur vers un message Windows.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Une fonction avec le prototype **ACCELERATEABSDI** renvoie la valeur TRUE si elle gère le message. 
   

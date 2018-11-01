@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6b07d794a8f54477c6706cb70af60f7f7ef57d49
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22595341"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La fonction **MAPICrashRecovery** vérifie que l’état du fichier de dossiers personnels (PST) ou le fichier de dossiers en mode hors connexion (OST) de mémoire partagée. Si la mémoire est dans un état cohérent, la fonction **MAPICrashRecovery** déplace les données sur le disque et empêche plu accès en lecture ou écriture jusqu'à ce que le processus est terminé. 
   
@@ -30,8 +30,8 @@ La fonction **MAPICrashRecovery** vérifie que l’état du fichier de dossiers 
 |||
 |:-----|:-----|
 |Exportés par :  <br/> |olmapi32.dll  <br/> |
-|Appelée par :  <br/> |Client  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Client  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
    
 ```cpp
 void MAPICrashRecovery(ULONG ulFlags);

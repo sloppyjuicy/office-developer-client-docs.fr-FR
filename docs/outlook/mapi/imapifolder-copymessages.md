@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e253aa6a701d565fbc61e8a0e0a6388f7199c000
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22593262"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace un ou plusieurs messages.
   
@@ -76,7 +76,7 @@ MESSAGE_MOVE
   
 > L’ou les messages doivent être déplacés et non copiés. Si MESSAGE_MOVE n’est pas définie, les messages sont copiés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -96,7 +96,7 @@ La méthode **IMAPIFolder::CopyMessages** copie ou déplace les messages vers un
   
 Les messages qui sont ouvertes avec en lecture/écriture autorisation peut être déplacée ou copiée. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si vous copiez les messages vers une autre banque de messages sans utiliser la méthode [IMAPISupport::CopyMessages](imapisupport-copymessages.md) , vous devez d’abord appeler [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) avec l’indicateur GENERATE_RECEIPT_ONLY. La banque de message de réception n’est pas responsable de la génération de rapports de lecture pour les messages copiés ou déplacées. Si vous appelez **IMAPISupport::CopyMessages** pour mettre en œuvre **IMAPIFolder::CopyMessages**, n’appelez pas **SetReadFlags**; MAPI est l’appeler. 
   

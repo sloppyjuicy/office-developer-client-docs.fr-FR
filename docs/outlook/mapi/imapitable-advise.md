@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: cd6b119bd88fccf80bf2488592a24b3398e6e8af
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22594242"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Inscrit un objet de récepteur advise pour recevoir une notification d’événements spécifiés affectant la table.
   
@@ -51,7 +51,7 @@ ULONG_PTR FAR * lpulConnection
   
 > [out] Pointeur vers une valeur différente de zéro qui représente l’enregistrement de notification réussie.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -75,9 +75,9 @@ En raison du comportement de notification asynchrone, implémentations de modifi
   
 Pour plus d’informations sur le processus de notification, voir [Notification d’événement MAPI](event-notification-in-mapi.md). Pour obtenir des informations spécifiques sur la notification de la table, voir [Sur les Notifications de Table](about-table-notifications.md). Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Prise en charge de Notification d’événement](supporting-event-notification.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

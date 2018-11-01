@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249405(v=office.15)
 ms:contentKeyID: 48545376
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 175023f12d1efa23422afb15e693d44976421cc0
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1f164e2671fb27a8e8a8721010bdad518f2d199e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469919"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879041"
 ---
 # <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Service de curseur Microsoft pour OLE DB (composant du service ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le service de curseur Microsoft pour OLE DB complète les fonctions de prise en charge du curseur des fournisseurs de données. L'utilisateur a ainsi une perception relativement uniforme des fonctionnalités des différents fournisseurs de données.
 

@@ -23,7 +23,7 @@ ms.locfileid: "22587871"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche une boîte de dialogue qui affiche des informations sur une entrée de carnet d’adresses particulière.
   
@@ -91,7 +91,7 @@ MAPI_UNICODE
   
 > Les chaînes passée sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f55902190aa22694d89abd4d118a04d62a3c0d5b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22581915"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Il existe de nombreux types de tables, chaque type identifié par les informations affichées. Tables activer les applications clientes et des fournisseurs de services pour accéder rapidement et de manipuler les propriétés importantes de nombreux types d’objets. 
   

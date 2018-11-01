@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : élément propriété-Exemple (VB) TOCTitle : élément propriété-Exemple (VB) === titre : élément, propriété-Exemple (VB) TOCTitle : élément, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : e8d17560-8a0d-7045-d8dc-728a85037c0d ms:mtpsurl : https://msdn.microsoft.com/library/JJ250179(v=office.15) ms:contentKeyID : ms.date 48548430 : 18/09/2015 mtps_version : v=office.15
+title: Item, propriété – Exemple (VB)
+TOCTitle: Item property example (VB)
+ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
+ms:contentKeyID: 48548430
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5601363e072585e731af58d117c219b363271f0e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881551"
 ---
-
-<<<<<<< Tête
-# <a name="item-property-example-vb"></a>Item, propriété - Exemple (VB)
-=======
-# <a name="item-property-example-vb"></a>Item, propriété-Exemple (VB)
->>>>>>> master
+# <a name="item-property-example-vb"></a>Item, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  ***Pubs *** avec une commande paramétrée.
 

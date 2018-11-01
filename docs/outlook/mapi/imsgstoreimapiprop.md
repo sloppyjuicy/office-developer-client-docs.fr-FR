@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 4ed17fd7f826432da9460fe01e5aa76802726bad
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22584631"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet d’accéder aux informations de banque de messages et aux messages et des dossiers.
   
@@ -31,8 +31,8 @@ Permet d’accéder aux informations de banque de messages et aux messages et de
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposés par :  <br/> |Objet store de message  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de banque de messages  <br/> |
-|Appelée par :  <br/> |Applications clientes, le spouleur MAPI et MAPI  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de banque de messages  <br/> |
+|Appelé par :  <br/> |Applications clientes, le spouleur MAPI et MAPI  <br/> |
 |Identificateur de l’interface :  <br/> |IID_IMsgStore  <br/> |
 |Type de pointeur :  <br/> |IPMDB  <br/> |
 |Modèle de transaction :  <br/> |Nontransacted  <br/> |

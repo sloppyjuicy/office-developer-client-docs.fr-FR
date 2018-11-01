@@ -23,7 +23,7 @@ ms.locfileid: "22582468"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Informe le fournisseur de transport que le spouleur MAPI terminé son traitement d’un message sortant.
   
@@ -56,7 +56,7 @@ END_RESEND_NOW
   
 > Le fournisseur de transport doit redémarrer le message passé dans un appel de la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

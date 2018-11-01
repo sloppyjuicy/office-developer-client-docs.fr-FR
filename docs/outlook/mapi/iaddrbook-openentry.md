@@ -21,7 +21,7 @@ ms.locfileid: "22576868"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une entrée de carnet d’adresses et retourne un pointeur vers une interface qui peut servir à accéder à l’entrée.
   
@@ -89,7 +89,7 @@ _lppUnk_
   
 > [out] Pointeur vers un pointeur vers l’entrée ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

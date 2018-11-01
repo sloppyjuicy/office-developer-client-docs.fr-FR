@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
 ms:contentKeyID: 48547216
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 76286fcd09e5b92f19d8dbf0e8d0419ad4c600df
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7ba09a0b741483713dfa019062309344eecdb139
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861889"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891120"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Spécifie si un séparateur de ligne est ajouté à la chaîne écrite dans un objet [Stream](stream-object-ado.md).
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)
 ms:contentKeyID: 48545561
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2d39433ca567f6a088c9f4b51cfcaf1b3b5ba1fa
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: aa925ff5b9fef77b91e4c019ed85d17eb75cd107
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472222"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876497"
 ---
 # <a name="adox-api-reference"></a>Référence des API ADOX
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cette section de la documentation ADOX contient des rubriques pour chaque objet, collection, méthode et propriété ADOX, ainsi qu'un exemple de code, le cas échéant. Pour plus d'informations, recherchez une rubrique spécifique dans l'index ou reportez-vous aux rubriques suivantes :
 

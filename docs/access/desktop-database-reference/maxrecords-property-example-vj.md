@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle MaxRecords, propriété-Exemple (VJ ++) : MaxRecords, propriété-Exemple (VJ ++) === titre : MaxRecords, propriété-Exemple (VJ ++) TOCTitle : MaxRecords, propriété-Exemple (VJ ++)
->>>>>>> Master ms:assetid : db8c1187-5e15-2c8a-6308-3468c113d962 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250107(v=office.15) ms:contentKeyID : ms.date 48548106 : 18/09/2015 mtps_version : v=office.15
+title: MaxRecords, propriété – Exemple (VJ++)
+TOCTitle: MaxRecords property example (VJ++)
+ms:assetid: db8c1187-5e15-2c8a-6308-3468c113d962
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250107(v=office.15)
+ms:contentKeyID: 48548106
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 57a0aa8b065df622cfc89153c41b3ef31f08eca9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877876"
 ---
-
-<<<<<<< Tête
-# <a name="maxrecords-property-example-vj"></a>MaxRecords, propriété - Exemple (VJ++)
-=======
-# <a name="maxrecords-property-example-vj"></a>MaxRecords, propriété-Exemple (VJ ++)
->>>>>>> master
+# <a name="maxrecords-property-example-vj"></a>MaxRecords, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [MaxRecords](maxrecords-property-ado.md) pour ouvrir un [Recordset](recordset-object-ado.md) contenant les 10 titres les plus coûteux de la table ***Titles***.
 

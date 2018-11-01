@@ -23,7 +23,7 @@ ms.locfileid: "22590420"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.
   
@@ -39,7 +39,7 @@ HRESULT OpenFormContainer(
   
 > [out] Pointeur vers un pointeur vers l’objet conteneur de formulaire renvoyé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

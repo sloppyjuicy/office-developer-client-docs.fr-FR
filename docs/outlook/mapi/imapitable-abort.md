@@ -23,7 +23,7 @@ ms.locfileid: "22574005"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Arrête toutes les opérations asynchrones en cours pour la table.
   
@@ -35,7 +35,7 @@ HRESULT Abort( void );
 
 Aucune
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

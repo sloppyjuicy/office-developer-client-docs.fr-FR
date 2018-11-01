@@ -23,7 +23,7 @@ ms.locfileid: "22584729"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Demande que le fournisseur de transport remettre immédiatement tous les messages entrants ou sortants en attente.
   
@@ -70,7 +70,7 @@ FLUSH_UPLOAD
   
 > La file d’attente de messages sortants ou les files d’attente doivent être vidés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
