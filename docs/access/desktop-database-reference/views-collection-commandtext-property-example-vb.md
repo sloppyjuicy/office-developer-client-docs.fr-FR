@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="a4c3b-101"><<<<<<< Titre tête : Views, Collection, exemple de propriété CommandText (VB) TOCTitle : Views, Collection, exemple de propriété CommandText (VB) === titre : Collection Views, CommandText, propriété-Exemple (VB) TOCTitle : Views, Collection CommandText, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a4c3b-101"><<<<<<< HEAD title: Views Collection, CommandText Property Example (VB) TOCTitle: Views Collection, CommandText Property Example (VB) ======= title: Views Collection, CommandText property example (VB) TOCTitle: Views Collection, CommandText property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a4c3b-102">Master ms:assetid : 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID : ms.date 48545120 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="a4c3b-102">master ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID: 48545120 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Views, Collection CommandText, propriété-Exemple (VB)
+TOCTitle: Views Collection, CommandText property example (VB)
+ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
+ms:contentKeyID: 48545120
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab1d5013e0371273fdcec3b2ba75a30a8dc18393
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870540"
 ---
-
-<span data-ttu-id="a4c3b-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="a4c3b-103"><<<<<<< HEAD</span></span>
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="a4c3b-104">Views, collection - Exemple de propriété CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="a4c3b-104">Views Collection, CommandText Property Example (VB)</span></span>
-=======
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="a4c3b-105">Views, Collection CommandText, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a4c3b-105">Views Collection, CommandText property example (VB)</span></span>
->>>>>>> <span data-ttu-id="a4c3b-106">master</span><span class="sxs-lookup"><span data-stu-id="a4c3b-106">master</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="8b823-102">Views, Collection CommandText, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="8b823-102">Views Collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="a4c3b-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4c3b-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="8b823-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b823-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a4c3b-108">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une vue.</span><span class="sxs-lookup"><span data-stu-id="a4c3b-108">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="8b823-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une vue.</span><span class="sxs-lookup"><span data-stu-id="8b823-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

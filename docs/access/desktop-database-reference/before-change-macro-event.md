@@ -12,27 +12,27 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f54a1e7619022fc08b96066e85ccf49a298bae88
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472280"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887858"
 ---
-# <a name="before-change-macro-event"></a><span data-ttu-id="a9e7f-102">Avant la modification, événement de macro</span><span class="sxs-lookup"><span data-stu-id="a9e7f-102">Before Change Macro Event</span></span>
+# <a name="before-change-macro-event"></a><span data-ttu-id="fc924-102">Avant la modification, événement de macro</span><span class="sxs-lookup"><span data-stu-id="fc924-102">Before Change Macro Event</span></span>
 
-<span data-ttu-id="a9e7f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9e7f-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="fc924-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc924-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a9e7f-104">L'événement **Avant la modification** se produit lorsqu'un enregistrement change, mais avant la validation de la modification.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-104">The **Before Change** event occurs when a record changes, but before the change is committed.</span></span>
+<span data-ttu-id="fc924-104">L'événement **Avant la modification** se produit lorsqu'un enregistrement change, mais avant la validation de la modification.</span><span class="sxs-lookup"><span data-stu-id="fc924-104">The **Before Change** event occurs when a record changes, but before the change is committed.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a9e7f-105">[!REMARQUE] L'événement **Avant la modification** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-105">The **Before Change** event is available only in Data Macros.</span></span>
+> <span data-ttu-id="fc924-105">[!REMARQUE] L'événement **Avant la modification** est disponible uniquement dans les macros de données.</span><span class="sxs-lookup"><span data-stu-id="fc924-105">The **Before Change** event is available only in Data Macros.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a9e7f-106">Notes</span><span class="sxs-lookup"><span data-stu-id="a9e7f-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc924-106">Notes</span><span class="sxs-lookup"><span data-stu-id="fc924-106">Remarks</span></span>
 
-<span data-ttu-id="a9e7f-p101">Utilisez l'événement **Avant la modification** pour effectuer toute action souhaitée avant qu'un enregistrement soit modifié. **Avant la modification** s'utilise couramment pour effectuer une validation et pour déclencher des messages d'erreur personnalisés.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-p101">Use the **Before Change** event to perform any actions that you want to occur before a record is changed. The **Before Change** is commonly used to perform validation and to raise custom error messages.</span></span>
+<span data-ttu-id="fc924-p101">Utilisez l'événement **Avant la modification** pour effectuer toute action souhaitée avant qu'un enregistrement soit modifié. **Avant la modification** s'utilise couramment pour effectuer une validation et pour déclencher des messages d'erreur personnalisés.</span><span class="sxs-lookup"><span data-stu-id="fc924-p101">Use the **Before Change** event to perform any actions that you want to occur before a record is changed. The **Before Change** is commonly used to perform validation and to raise custom error messages.</span></span>
 
-<span data-ttu-id="a9e7f-109">Vous pouvez utiliser la fonction de **mise à jour («*Nom de champ*»)** pour déterminer si un champ a été modifié.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-109">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="a9e7f-110">L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-110">The following code example shows how to use an **If** statement to determine whether the PaidInFull field has been changed.</span></span>
+<span data-ttu-id="fc924-109">Vous pouvez utiliser la fonction de **mise à jour («*Nom de champ*»)** pour déterminer si un champ a été modifié.</span><span class="sxs-lookup"><span data-stu-id="fc924-109">You can use the **Updated("*Field Name*")** function to determine whether a field has changed.</span></span> <span data-ttu-id="fc924-110">L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.</span><span class="sxs-lookup"><span data-stu-id="fc924-110">The following code example shows how to use an **If** statement to determine whether the PaidInFull field has been changed.</span></span>
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -42,9 +42,9 @@ ms.locfileid: "25472280"
     End If 
 ```
 
-<span data-ttu-id="a9e7f-p103">Utilisez la propriété **EstInsertion** pour déterminer si l'événement **Avant la modification** a été déclenché par la création d'un enregistrement ou par la modification d'un enregistrement existant. La propriété **EstInsertion** a la valeur **True** si l'événement a été déclenché par un nouvel enregistrement, **False** si l'événement a été déclenché par la modification d'un enregistrement existant.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-p103">Use the **IsInsert** property to determine whether the **Before Change** event was triggered by a new record being created or a change to an existing record. They **IsInsert** property contains **True** if the event was triggered by a new record, **False** if the event was triggered by a change to en existing record.</span></span>
+<span data-ttu-id="fc924-p103">Utilisez la propriété **EstInsertion** pour déterminer si l'événement **Avant la modification** a été déclenché par la création d'un enregistrement ou par la modification d'un enregistrement existant. La propriété **EstInsertion** a la valeur **True** si l'événement a été déclenché par un nouvel enregistrement, **False** si l'événement a été déclenché par la modification d'un enregistrement existant.</span><span class="sxs-lookup"><span data-stu-id="fc924-p103">Use the **IsInsert** property to determine whether the **Before Change** event was triggered by a new record being created or a change to an existing record. They **IsInsert** property contains **True** if the event was triggered by a new record, **False** if the event was triggered by a change to en existing record.</span></span>
 
-<span data-ttu-id="a9e7f-113">L'exemple de code suivant illustre la syntaxe d'utilisation de la propriété **EstInsertion**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-113">The following code example shows the syntax for using the **IsInsert** property.</span></span>
+<span data-ttu-id="fc924-113">L'exemple de code suivant illustre la syntaxe d'utilisation de la propriété **EstInsertion**.</span><span class="sxs-lookup"><span data-stu-id="fc924-113">The following code example shows the syntax for using the **IsInsert** property.</span></span>
 
 ```vb
     If   [IsInsert] = True   Then 
@@ -58,23 +58,23 @@ ms.locfileid: "25472280"
     End If
 ```
 
-<span data-ttu-id="a9e7f-114">Vous pouvez accéder à la valeur précédente dans un champ en utilisant la syntaxe suivante.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-114">You can use access a the previous value in a field by using the following syntax.</span></span>
+<span data-ttu-id="fc924-114">Vous pouvez accéder à la valeur précédente dans un champ en utilisant la syntaxe suivante.</span><span class="sxs-lookup"><span data-stu-id="fc924-114">You can use access a the previous value in a field by using the following syntax.</span></span>
 
 ```vb
     [Old].[Field Name]
 ```
 
-<span data-ttu-id="a9e7f-115">Par exemple, pour accéder à la valeur précédente du champ QuantityInStock, utilisez la syntaxe suivante.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-115">For example, to access the previous value of the QuantityInStock field, use the following syntax.</span></span>
+<span data-ttu-id="fc924-115">Par exemple, pour accéder à la valeur précédente du champ QuantityInStock, utilisez la syntaxe suivante.</span><span class="sxs-lookup"><span data-stu-id="fc924-115">For example, to access the previous value of the QuantityInStock field, use the following syntax.</span></span>
 
 ```vb
     [Old].[QuantityInStock]
 ```
 
-<span data-ttu-id="a9e7f-116">Les valeurs précédentes sont supprimées de manière définitive lorsque l'événement **Avant la modification** se termine.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-116">The previous values are deleted permanently when the **Before Change** event ends.</span></span>
+<span data-ttu-id="fc924-116">Les valeurs précédentes sont supprimées de manière définitive lorsque l'événement **Avant la modification** se termine.</span><span class="sxs-lookup"><span data-stu-id="fc924-116">The previous values are deleted permanently when the **Before Change** event ends.</span></span>
 
-<span data-ttu-id="a9e7f-p104">Vous pouvez annuler l'événement **Avant la modification** à l'aide de l'action **DéclencherErreur**. Lorsqu'une erreur est levée, les modifications contenues dans l'événement **Avant la modification** sont ignorées.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-p104">You can cancel the **Before Change** event by using the **RaiseError** action. When an error is raised the changes contained in the **Before Change** event are discarded.</span></span>
+<span data-ttu-id="fc924-p104">Vous pouvez annuler l'événement **Avant la modification** à l'aide de l'action **DéclencherErreur**. Lorsqu'une erreur est levée, les modifications contenues dans l'événement **Avant la modification** sont ignorées.</span><span class="sxs-lookup"><span data-stu-id="fc924-p104">You can cancel the **Before Change** event by using the **RaiseError** action. When an error is raised the changes contained in the **Before Change** event are discarded.</span></span>
 
-<span data-ttu-id="a9e7f-119">Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l’événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-119">The following table lists macro commands that can be used in the**Before Change** event.</span></span>
+<span data-ttu-id="fc924-119">Le tableau suivant répertorie les commandes de macros qui peuvent être utilisées dans l’événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="fc924-119">The following table lists macro commands that can be used in the**Before Change** event.</span></span>
 
 <table>
 <colgroup>
@@ -83,66 +83,66 @@ ms.locfileid: "25472280"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a9e7f-120">Type de commande</span><span class="sxs-lookup"><span data-stu-id="a9e7f-120">Command Type</span></span></p></th>
-<th><p><span data-ttu-id="a9e7f-121">Commande</span><span class="sxs-lookup"><span data-stu-id="a9e7f-121">Command</span></span></p></th>
+<th><p><span data-ttu-id="fc924-120">Type de commande</span><span class="sxs-lookup"><span data-stu-id="fc924-120">Command Type</span></span></p></th>
+<th><p><span data-ttu-id="fc924-121">Commande</span><span class="sxs-lookup"><span data-stu-id="fc924-121">Command</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a9e7f-122">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="a9e7f-122">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-123"><a href="comment-macro-statement.md">Comment, instruction de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-123"><a href="comment-macro-statement.md">Comment Macro Statement</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-122">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="fc924-122">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="fc924-123"><a href="comment-macro-statement.md">Instruction de Macro commentaire</a></span><span class="sxs-lookup"><span data-stu-id="fc924-123"><a href="comment-macro-statement.md">Comment Macro Statement</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9e7f-124">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="a9e7f-124">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-125"><a href="group-macro-statement.md">Group, instruction de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-125"><a href="group-macro-statement.md">Group Macro Statement</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-124">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="fc924-124">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="fc924-125"><a href="group-macro-statement.md">Group, instruction de Macro</a></span><span class="sxs-lookup"><span data-stu-id="fc924-125"><a href="group-macro-statement.md">Group Macro Statement</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9e7f-126">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="a9e7f-126">Program Flow</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-127"><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-127"><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-126">Déroulement de programme</span><span class="sxs-lookup"><span data-stu-id="fc924-126">Program Flow</span></span></p></td>
+<td><p><span data-ttu-id="fc924-127"><a href="if-then-else-macro-block.md">If... Procédez comme suit... Autre bloc de Macro</a></span><span class="sxs-lookup"><span data-stu-id="fc924-127"><a href="if-then-else-macro-block.md">If...Then...Else Macro Block</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9e7f-128">Bloc de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-128">Data Block</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-129"><a href="lookuprecord-data-block.md">Action de Macro RechercherEnregistrement</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-129"><a href="lookuprecord-data-block.md">LookupRecord Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-128">Bloc de données</span><span class="sxs-lookup"><span data-stu-id="fc924-128">Data Block</span></span></p></td>
+<td><p><span data-ttu-id="fc924-129"><a href="lookuprecord-data-block.md">Action de Macro RechercherEnregistrement</a></span><span class="sxs-lookup"><span data-stu-id="fc924-129"><a href="lookuprecord-data-block.md">LookupRecord Macro Action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9e7f-130">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-130">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-131"><a href="clearmacroerror-macro-action.md">EffacerMacroErreur, action de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-131"><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-130">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-130">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-131"><a href="clearmacroerror-macro-action.md">Action de Macro EffacerMacroErreur</a></span><span class="sxs-lookup"><span data-stu-id="fc924-131"><a href="clearmacroerror-macro-action.md">ClearMacroError Macro Action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9e7f-132">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-132">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-133"><a href="onerror-macro-action.md">SurErreur, action de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-133"><a href="onerror-macro-action.md">OnError Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-132">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-132">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-133"><a href="onerror-macro-action.md">Action de Macro SurErreur</a></span><span class="sxs-lookup"><span data-stu-id="fc924-133"><a href="onerror-macro-action.md">OnError Macro Action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9e7f-134">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-134">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-135"><a href="raiseerror-macro-action.md">DéclencherErreur, action de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-135"><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-134">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-134">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-135"><a href="raiseerror-macro-action.md">Action de Macro Déclenchererreur</a></span><span class="sxs-lookup"><span data-stu-id="fc924-135"><a href="raiseerror-macro-action.md">RaiseError Macro Action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9e7f-136">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-136">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-137"><a href="setfield-macro-action.md">DéfinirChamp, action de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-137"><a href="setfield-macro-action.md">SetField Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-136">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-136">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-137"><a href="setfield-macro-action.md">Action de Macro SetField</a></span><span class="sxs-lookup"><span data-stu-id="fc924-137"><a href="setfield-macro-action.md">SetField Macro Action</a></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a9e7f-138">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-138">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-139"><a href="setlocalvar-macro-action.md">DéfinirVarLocale, action de macro</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-139"><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-138">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-138">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-139"><a href="setlocalvar-macro-action.md">Action de Macro DéfinirVarLocale</a></span><span class="sxs-lookup"><span data-stu-id="fc924-139"><a href="setlocalvar-macro-action.md">SetLocalVar Macro Action</a></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a9e7f-140">Action de données</span><span class="sxs-lookup"><span data-stu-id="a9e7f-140">Data Action</span></span></p></td>
-<td><p><span data-ttu-id="a9e7f-141"><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></span><span class="sxs-lookup"><span data-stu-id="a9e7f-141"><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></span></span></p></td>
+<td><p><span data-ttu-id="fc924-140">Action de données</span><span class="sxs-lookup"><span data-stu-id="fc924-140">Data Action</span></span></p></td>
+<td><p><span data-ttu-id="fc924-141"><a href="stopmacro-macro-action.md">Action de Macro ArrêtMacro</a></span><span class="sxs-lookup"><span data-stu-id="fc924-141"><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a9e7f-142">Pour créer une macro de données qui capture l'événement **Avant la modification**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="a9e7f-142">To create a Data Macro that captures the **Before Change** event, use the following steps:</span></span>
+<span data-ttu-id="fc924-142">Pour créer une macro de données qui capture l'événement **Avant la modification**, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="fc924-142">To create a Data Macro that captures the **Before Change** event, use the following steps:</span></span>
 
-1.  <span data-ttu-id="a9e7f-143">Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-143">Open the table for which you want to capture the **Before Change** event.</span></span>
+1.  <span data-ttu-id="fc924-143">Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="fc924-143">Open the table for which you want to capture the **Before Change** event.</span></span>
 
-2.  <span data-ttu-id="a9e7f-144">Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-144">On the **Table** tab, in the **Before Events** group, click **Before Change**.</span></span>
+2.  <span data-ttu-id="fc924-144">Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="fc924-144">On the **Table** tab, in the **Before Events** group, click **Before Change**.</span></span>
 
-<span data-ttu-id="a9e7f-145">Une macro de données vide s'affiche dans le concepteur de macros</span><span class="sxs-lookup"><span data-stu-id="a9e7f-145">An empty data macro is displayed in the macro designer.</span></span>
+<span data-ttu-id="fc924-145">Une macro de données vide s'affiche dans le concepteur de macros</span><span class="sxs-lookup"><span data-stu-id="fc924-145">An empty data macro is displayed in the macro designer.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a9e7f-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="a9e7f-146">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fc924-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="fc924-146">Example</span></span>
 
-<span data-ttu-id="a9e7f-147">L’exemple de code suivant utilise l’événement **Avant la modification** pour valider les champs de statut.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-147">The following code example uses the **Before Change** event to validate the Status fields.</span></span> <span data-ttu-id="a9e7f-148">Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-148">An error is raised if an inappropriate value is contained in the Resolution field.</span></span>
+<span data-ttu-id="fc924-147">L’exemple de code suivant utilise l’événement **Avant la modification** pour valider les champs de statut.</span><span class="sxs-lookup"><span data-stu-id="fc924-147">The following code example uses the **Before Change** event to validate the Status fields.</span></span> <span data-ttu-id="fc924-148">Une erreur est levée si une valeur incorrecte est stockée dans le champ Resolution.</span><span class="sxs-lookup"><span data-stu-id="fc924-148">An error is raised if an inappropriate value is contained in the Resolution field.</span></span>
 
 ```vb 
  
@@ -171,15 +171,15 @@ End If
  
 ```
 
-<span data-ttu-id="a9e7f-149">Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-149">To view this example in the macro designer, use the following steps.</span></span>
+<span data-ttu-id="fc924-149">Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="fc924-149">To view this example in the macro designer, use the following steps.</span></span>
 
-1.  <span data-ttu-id="a9e7f-150">Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-150">Open the table for which you want to capture the **Before Change** event.</span></span>
+1.  <span data-ttu-id="fc924-150">Ouvrez la table pour laquelle vous souhaitez capturer l'événement **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="fc924-150">Open the table for which you want to capture the **Before Change** event.</span></span>
 
-2.  <span data-ttu-id="a9e7f-151">Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-151">On the **Table** tab, in the **Before Events** group, click **Before Change**.</span></span>
+2.  <span data-ttu-id="fc924-151">Sous l'onglet **Table**, dans le groupe **Événements Avant**, cliquez sur **Avant la modification**.</span><span class="sxs-lookup"><span data-stu-id="fc924-151">On the **Table** tab, in the **Before Events** group, click **Before Change**.</span></span>
 
-3.  <span data-ttu-id="a9e7f-152">Sélectionnez le code dans l’exemple de code suivant et appuyez sur **CTRL + C** pour le copier dans le Presse-papiers.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-152">Select the code in the following code example and then press **CTRL+C** to copy it to the Clipboard.</span></span>
+3.  <span data-ttu-id="fc924-152">Sélectionnez le code dans l’exemple de code suivant et appuyez sur **CTRL + C** pour le copier dans le Presse-papiers.</span><span class="sxs-lookup"><span data-stu-id="fc924-152">Select the code in the following code example and then press **CTRL+C** to copy it to the Clipboard.</span></span>
 
-4.  <span data-ttu-id="a9e7f-153">Activer la fenêtre du Concepteur de macros, puis appuyez sur **CTRL + V**.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-153">Activate the macro designer window and then press **CTRL+V**.</span></span>
+4.  <span data-ttu-id="fc924-153">Activer la fenêtre du Concepteur de macros, puis appuyez sur **CTRL + V**.</span><span class="sxs-lookup"><span data-stu-id="fc924-153">Activate the macro designer window and then press **CTRL+V**.</span></span>
 
 
 
@@ -227,9 +227,9 @@ End If
 </DataMacros>
 ```
 
-<span data-ttu-id="a9e7f-154">L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro de données avant la modification.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-154">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="a9e7f-155">Lorsque le champ AssignedTo est mis à jour, un bloc de données RechercherEnregistrement permet de déterminer si le technicien affecté est actuellement affecté à une demande de service en cours.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-155">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="a9e7f-156">Si cela est vrai, puis l’événement avant la modification est annulée et l’enregistrement n’est pas mis à jour.</span><span class="sxs-lookup"><span data-stu-id="a9e7f-156">If this is true, then the Before Change event is cancelled and the record is not updated.</span></span>
+<span data-ttu-id="fc924-154">L’exemple suivant montre comment utiliser l’action Déclenchererreur pour annuler l’événement de macro de données avant la modification.</span><span class="sxs-lookup"><span data-stu-id="fc924-154">The following example shows how to use the RaiseError action to cancel the Before Change data macro event.</span></span> <span data-ttu-id="fc924-155">Lorsque le champ AssignedTo est mis à jour, un bloc de données RechercherEnregistrement permet de déterminer si le technicien affecté est actuellement affecté à une demande de service en cours.</span><span class="sxs-lookup"><span data-stu-id="fc924-155">When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request.</span></span> <span data-ttu-id="fc924-156">Si cela est vrai, puis l’événement avant la modification est annulée et l’enregistrement n’est pas mis à jour.</span><span class="sxs-lookup"><span data-stu-id="fc924-156">If this is true, then the Before Change event is cancelled and the record is not updated.</span></span>
 
-<span data-ttu-id="a9e7f-157">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="a9e7f-157">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="fc924-157">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="fc924-157">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     /* Get the name of the technician  */

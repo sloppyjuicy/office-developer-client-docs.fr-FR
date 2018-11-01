@@ -1,18 +1,23 @@
 ---
-<span data-ttu-id="c22ca-101"><<<<<<< Titre tête : TOCTitle ActiveCommand, propriété-Exemple (JScript) : ActiveCommand, propriété-Exemple (JScript) ms:assetid : ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID : ms.date 48547070 : 09/18 / mtps_version 2015 : v=office.15</span><span class="sxs-lookup"><span data-stu-id="c22ca-101"><<<<<<< HEAD title: ActiveCommand Property Example (JScript) TOCTitle: ActiveCommand Property Example (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ActiveCommand, propriété – Exemple (JScript)
+TOCTitle: ActiveCommand property example (JScript)
+ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
+ms:contentKeyID: 48547070
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 62e3e8404cb517472dd94d27a899531dde7f076f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887984"
 ---
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="7a4d8-102">ActiveCommand, propriété – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="7a4d8-102">ActiveCommand property example (JScript)</span></span>
 
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="c22ca-102">ActiveCommand, propriété - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="c22ca-102">ActiveCommand Property Example (JScript)</span></span>
+<span data-ttu-id="7a4d8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a4d8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c22ca-103">=== titre : ActiveCommand, propriété-Exemple (JScript) TOCTitle : ActiveCommand propriété-Exemple (JScript) ms:assetid : ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID : ms.date 48547070 : mtps_version 17/10/2018 : v = Office.15</span><span class="sxs-lookup"><span data-stu-id="c22ca-103">======= title: ActiveCommand property example (JScript) TOCTitle: ActiveCommand property example (JScript) ms:assetid: ae67b69c-23d9-8c88-763a-a9a63499be32 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15) ms:contentKeyID: 48547070 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="c22ca-104">ActiveCommand, propriété-Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="c22ca-104">ActiveCommand property example (JScript)</span></span>
->>>>>>> <span data-ttu-id="c22ca-105">master</span><span class="sxs-lookup"><span data-stu-id="c22ca-105">master</span></span>
-
-<span data-ttu-id="c22ca-106">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c22ca-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="c22ca-p101">Cet exemple illustre la propriété [ActiveCommand](activecommand-property-ado.md). Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="c22ca-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+<span data-ttu-id="7a4d8-p101">Cet exemple illustre la propriété [ActiveCommand](activecommand-property-ado.md). Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="7a4d8-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 
@@ -28,11 +33,7 @@
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>ActiveCommand Property Example (JScript)</title> 
-=======
 <title>ActiveCommand property example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -46,11 +47,7 @@ BODY {
  
 <body bgcolor="White"> 
  
-<<<<<<< HEAD
-<h1>ActiveCommand Property Example (JScript)</h1> 
-=======
 <h1>ActiveCommand property example (JScript)</h1> 
->>>>>>> master
  
 <% 
 if (strName.length > 0) 

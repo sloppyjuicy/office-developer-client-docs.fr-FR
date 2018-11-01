@@ -1,22 +1,23 @@
 ---
-<span data-ttu-id="7a56f-101"><<<<<<< Titre tête : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) TOCTitle : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) ms:assetid : 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID : ms.date 48545506 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="7a56f-101"><<<<<<< HEAD title: AbsolutePage, PageCount, and PageSize Properties Example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize Properties Example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: AbsolutePage, PageCount et PageSize, propriétés – Exemple (JScript)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (JScript)
+ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15)
+ms:contentKeyID: 48545506
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 2ddb330670b1453dcdeff975a81ba72832b0ed9d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888362"
 ---
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="a5829-102">AbsolutePage, PageCount et PageSize, propriétés – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="a5829-102">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
 
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="7a56f-102">AbsolutePage, PageCount et PageSize, propriétés - Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="7a56f-102">AbsolutePage, PageCount, and PageSize Properties Example (JScript)</span></span>
+<span data-ttu-id="a5829-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5829-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7a56f-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a56f-103">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<a name="this-example-demonstrates-the-absolutepage-pagecount-and-pagesize-properties-cut-and-paste-the-following-code-to-notepad-or-another-text-editor-and-save-it-as-absolutepagejsasp"></a><span data-ttu-id="7a56f-104">Cet exemple illustre les propriétés AbsolutePage, PageCount et PageSize.</span><span class="sxs-lookup"><span data-stu-id="7a56f-104">This example demonstrates the AbsolutePage, PageCount, and PageSize properties.</span></span> <span data-ttu-id="7a56f-105">Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="7a56f-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
-=======
-<span data-ttu-id="7a56f-106">titre : AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript) TOCTitle : ms:assetid d’exemple (JScript) propriétés AbsolutePage, PageCount et PageSize : 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID : ms.date 48545506 : 17/10/2018 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="7a56f-106">title: AbsolutePage, PageCount, and PageSize properties example (JScript) TOCTitle: AbsolutePage, PageCount, and PageSize properties example (JScript) ms:assetid: 6df29022-16f2-c7d8-d45b-b9998e929030 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249434(v=office.15) ms:contentKeyID: 48545506 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-jscript"></a><span data-ttu-id="7a56f-107">AbsolutePage, PageCount et PageSize, propriétés-exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="7a56f-107">AbsolutePage, PageCount, and PageSize properties example (JScript)</span></span>
-
-<span data-ttu-id="7a56f-108">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7a56f-108">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="7a56f-109">Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche à partir de la table ***Employees***, cinq enregistrements à la fois.</span><span class="sxs-lookup"><span data-stu-id="7a56f-109">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="7a56f-110">Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="7a56f-110">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
->>>>>>> <span data-ttu-id="7a56f-111">master</span><span class="sxs-lookup"><span data-stu-id="7a56f-111">master</span></span>
+<span data-ttu-id="a5829-104">Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche à partir de la table ***Employees***, cinq enregistrements à la fois.</span><span class="sxs-lookup"><span data-stu-id="a5829-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employees*** table, five records at a time.</span></span> <span data-ttu-id="a5829-105">Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePageJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="a5829-105">Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePageJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAbsolutePageJS --> 

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249767(v=office.15)
 ms:contentKeyID: 48546825
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 504fd40af96e5351539995bb76750b56c9815d73
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 05e4f565faa4a63bd63dabd00f6c4a3042ec1905
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862001"
+ms.locfileid: "25888117"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="623db-102">AppendChunk et GetChunk, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="623db-102">AppendChunk and GetChunk methods example (VC++)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="7066e-102">AppendChunk et GetChunk, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="7066e-102">AppendChunk and GetChunk methods example (VC++)</span></span>
 
 
-<span data-ttu-id="623db-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="623db-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="7066e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7066e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="623db-104">Cet exemple utilise les méthodes [AppendChunk](appendchunk-method-ado.md) et [GetChunk](getchunk-method-ado.md) pour remplir un champ image avec des données issues d'un autre enregistrement.</span><span class="sxs-lookup"><span data-stu-id="623db-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="7066e-104">Cet exemple utilise les méthodes [AppendChunk](appendchunk-method-ado.md) et [GetChunk](getchunk-method-ado.md) pour remplir un champ image avec des données issues d'un autre enregistrement.</span><span class="sxs-lookup"><span data-stu-id="7066e-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```cpp 
  
@@ -293,7 +293,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendChunkCpp 
 ```
 
-<span data-ttu-id="623db-105">**AppendChunkX.h**</span><span class="sxs-lookup"><span data-stu-id="623db-105">**AppendChunkX.h**</span></span>
+<span data-ttu-id="7066e-105">**AppendChunkX.h**</span><span class="sxs-lookup"><span data-stu-id="7066e-105">**AppendChunkX.h**</span></span>
 
 ```cpp 
  

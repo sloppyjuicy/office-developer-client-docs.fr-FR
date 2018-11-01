@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250034(v=office.15)
 ms:contentKeyID: 48547817
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f9d28202ce20b68171f3de93078fd818007028a9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 341158e15ec06525fa88eddecf778bb0bb78c3f0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860489"
+ms.locfileid: "25884776"
 ---
-# <a name="getrows-method-example-vc"></a><span data-ttu-id="7ffad-102">GetRows, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="7ffad-102">GetRows method example (VC++)</span></span>
+# <a name="getrows-method-example-vc"></a><span data-ttu-id="6b50a-102">GetRows, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="6b50a-102">GetRows method example (VC++)</span></span>
 
 
-<span data-ttu-id="7ffad-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ffad-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="6b50a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b50a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7ffad-p101">Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer le nombre de lignes souhaité d'un objet [Recordset](recordset-object-ado.md) et remplir un tableau avec les données récupérées. La méthode **GetRows** retourne un nombre inférieur de lignes dans deux cas : si la fin du fichier ( [EOF](bof-eof-properties-ado.md)) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement supprimé par un autre utilisateur. La fonction retourne **False** uniquement dans le second cas. La fonction GetRowsOK est requise pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="7ffad-p101">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data. The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
+<span data-ttu-id="6b50a-p101">Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer le nombre de lignes souhaité d'un objet [Recordset](recordset-object-ado.md) et remplir un tableau avec les données récupérées. La méthode **GetRows** retourne un nombre inférieur de lignes dans deux cas : si la fin du fichier ( [EOF](bof-eof-properties-ado.md)) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement supprimé par un autre utilisateur. La fonction retourne **False** uniquement dans le second cas. La fonction GetRowsOK est requise pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="6b50a-p101">This example uses the [GetRows](getrows-method-ado.md) method to retrieve a specified number of rows from a [Recordset](recordset-object-ado.md) and to fill an array with the resulting data. The **GetRows** method will return less than the desired number of rows in two cases: either if [EOF](bof-eof-properties-ado.md) has been reached, or if **GetRows** tried to retrieve a record that was deleted by another user. The function returns **False** only if the second case occurs. The GetRowsOK function is required for this procedure to run.</span></span>
 
 ```cpp 
  
