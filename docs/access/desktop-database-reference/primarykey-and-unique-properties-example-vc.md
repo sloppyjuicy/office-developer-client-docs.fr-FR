@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : PrimaryKey et Unique, propriétés-exemple (VC ++) TOCTitle : PrimaryKey et Unique, propriétés-exemple (VC ++) === titre : PrimaryKey et Unique, propriétés-exemple (VC ++) TOCTitle : propriétés PrimaryKey et Unique -exemple (VC ++)
->>>>>>> Master ms:assetid : 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb ms:mtpsurl : https://msdn.microsoft.com/library/JJ248838(v=office.15) ms:contentKeyID : ms.date 48543158 : 18/09/2015 mtps_version : v=office.15
+title: PrimaryKey et Unique, propriétés – Exemples (VC++)
+TOCTitle: PrimaryKey and Unique properties example (VC++)
+ms:assetid: 0aa3faf6-5165-911a-8167-4a7bdd1c7ceb
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
+ms:contentKeyID: 48543158
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883406"
 ---
-
-<<<<<<< Tête
-# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey et Unique, propriétés - Exemples (VC++)
-=======
-# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey et Unique, propriétés-exemple (VC ++)
->>>>>>> master
+# <a name="primarykey-and-unique-properties-example-vc"></a>PrimaryKey et Unique, propriétés – Exemples (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre les propriétés [PrimaryKey](primarykey-property-adox.md) et [Unique](unique-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée une table de deux colonnes. Les propriétés **PrimaryKey** et **Unique** servent à définir une colonne en tant que clé primaire pour laquelle les doublons ne sont pas autorisés.
 

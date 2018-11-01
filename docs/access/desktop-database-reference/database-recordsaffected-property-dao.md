@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
 ms:contentKeyID: 48543567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8f0fb54773b6ab28a871b4a550e91dda5516c97c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 346e01359b3ffef50a15ad3a9c3502b1104d6e0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471979"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888998"
 ---
 # <a name="databaserecordsaffected-property-dao"></a>Database.RecordsAffected Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](connection-execute-method-dao.md)**.
 

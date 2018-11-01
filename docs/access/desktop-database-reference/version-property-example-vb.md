@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle Version propriété-Exemple (VB) : Version propriété-Exemple (VB) === titre : Version, propriété-Exemple (VB) TOCTitle : Version, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : ffb7b04a-55b9-fa2f-41ec-44af225bd15f ms:mtpsurl : https://msdn.microsoft.com/library/JJ250315(v=office.15) ms:contentKeyID : ms.date 48548968 : 18/09/2015 mtps_version : v=office.15
+title: Version, propriété – Exemple (VB)
+TOCTitle: Version property example (VB)
+ms:assetid: ffb7b04a-55b9-fa2f-41ec-44af225bd15f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250315(v=office.15)
+ms:contentKeyID: 48548968
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 67d7dcbf7a4663a1898fa516b359cf6aed6d128d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868678"
 ---
-
-<<<<<<< Tête
-# <a name="version-property-example-vb"></a>Version, propriété - Exemple (VB)
-=======
-# <a name="version-property-example-vb"></a>Version, propriété-Exemple (VB)
->>>>>>> master
+# <a name="version-property-example-vb"></a>Version, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [Version](version-property-ado.md) d'un objet [Connection](connection-object-ado.md) pour afficher la version ADO actuelle. Il utilise aussi plusieurs propriétés dynamiques pour afficher :
 

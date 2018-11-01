@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d47d7bb4d8e9243d48daf4ad7947cef2416d4004
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 65fda92e28aab278fde4dafba4e94c576827370a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471530"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881747"
 ---
 # <a name="streams-and-persistence"></a>Flux et persistance
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 La méthode [Save](save-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) stocke, ou *persiste*, un objet **Recordset** dans un fichier. La méthode [Open](open-method-ado-recordset.md) restaure, quant à elle, l’objet **Recordset** à partir de ce fichier.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
 ms:contentKeyID: 48547415
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 318fc1c5f93edc032aaf83a4f557e496e747743b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d9a45ce03c68b310042a1abd6673fb7811fa21d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470812"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883812"
 ---
 # <a name="parameterscount-property-dao"></a>Parameters.Count Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.
 

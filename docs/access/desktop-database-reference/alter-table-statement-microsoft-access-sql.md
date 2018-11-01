@@ -12,16 +12,16 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 83ba764fa23c972c93156d418bffcde6f3239145
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863694"
+ms.locfileid: "25889629"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instruction ALTER TABLE (Microsoft Access SQL)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Modifie la structure d'une table après qu'elle a été créée avec l'instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
@@ -97,12 +97,13 @@ L'instruction ALTER TABLE est composée des arguments suivants :
   ```sql
     ALTER TABLE Employees ALTER COLUMN ZipCode TEXT(10)
   ```
-  
+
 - Utilisez ADD CONSTRAINT pour ajouter un index de plusieurs champs. Pour plus d’informations sur les index de plusieurs champs, voir la [clause CONSTRAINT](constraint-clause-microsoft-access-sql.md).
 
 - Utilisez DROP COLUMN pour supprimer un champ. Vous ne devez pour cela spécifier que le nom du champ.
 
 - Utilisez DROP CONSTRAINT pour supprimer un index de plusieurs champs. Vous ne devez pour cela spécifier que le nom de l'index suivant le mot réservé CONSTRAINT.
+
 
 > [!NOTE] 
 > - [!REMARQUE] Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.

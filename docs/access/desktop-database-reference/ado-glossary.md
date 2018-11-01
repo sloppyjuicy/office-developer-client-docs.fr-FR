@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d991da62a8820db3506059e81d136208cca73db3
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607059"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869966"
 ---
 # <a name="ado-glossary"></a>Glossaire ADO
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="a"></a>A
 
@@ -259,17 +259,13 @@ Le processus de conditionnement et envoi par-delà interface des paramètres de 
 
 **niveau intermédiaire**
 
-<<<<<<< La couche logique d’en-tête dans un système distribué entre une interface utilisateur ou un client Web et la base de données. Il s’agit généralement où les objets métiers sont instanciés. La couche intermédiaire est une collection de règles métier et des fonctions qui génèrent et à utilisent lors de la réception d’informations. Ils cela par le biais de règles métier, qui peuvent changer fréquemment et sont par conséquent encapsulés dans des composants physiquement distincts de la logique d’application. Également appelé *niveau serveur d’applications*. Voir aussi **application distribuée**, **niveau client**, **niveau source de données**.
-=== La couche logique dans un système distribué entre un client web ou d’interface de l’utilisateur et la base de données. Il s’agit généralement où les objets métiers sont instanciés. La couche intermédiaire est une collection de règles métier et des fonctions qui génèrent et à utilisent lors de la réception d’informations. Ils cela par le biais de règles métier, qui peuvent changer fréquemment et sont par conséquent encapsulés dans des composants physiquement distincts de la logique d’application. Également appelé *niveau serveur d’applications*. Voir aussi **application distribuée**, **niveau client**, **niveau source de données**.
->>>>>>> master
+La couche logique dans un système distribué entre un client web ou d’interface de l’utilisateur et la base de données. Il s’agit généralement où les objets métiers sont instanciés. La couche intermédiaire est une collection de règles métier et des fonctions qui génèrent et à utilisent lors de la réception d’informations. Ils cela par le biais de règles métier, qui peuvent changer fréquemment et sont par conséquent encapsulés dans des composants physiquement distincts de la logique d’application. Également appelé *niveau serveur d’applications*. Voir aussi **application distribuée**, **niveau client**, **niveau source de données**.
 
 **MIME (multi-purpose Internet Mail Extension)**
 
 Protocole Internet développé à l’origine pour permettre l’échange de messages électroniques au contenu enrichi entre les environnements de messagerie, l’ordinateur et réseau hétérogène. En pratique, MIME a été également adopté et étendu par des applications extérieurs à la messagerie.
 
-<<<<<<< En-tête MIME est une norme qui permet de publier et de lire sur Internet des données binaires. L’en-tête d’un fichier contenant des données binaires contient le type MIME des données ; Cela informe les programmes clients (navigateurs Web et programmes de messagerie, par exemple) qu’ils doivent gérer les données d’une autre manière qu’ils gèrent le texte brut. Par exemple, l’en-tête d’un document Web incluant un graphisme JPEG contient le type MIME spécifique au format de fichier JPEG. Cela permet à un navigateur afficher le fichier avec sa visionneuse JPEG, s’il est présent.
-=== MIME est une norme qui permet de publier et de lire sur Internet des données binaires. L’en-tête d’un fichier contenant des données binaires contient le type MIME des données ; Cela informe les programmes clients (navigateurs web et programmes de messagerie, par exemple) qu’ils doivent gérer les données d’une autre manière qu’ils gèrent le texte brut. Par exemple, l’en-tête d’un document web incluant un graphisme JPEG contient le type MIME spécifique au format de fichier JPEG. Cela permet à un navigateur afficher le fichier avec sa visionneuse JPEG, s’il est présent.
->>>>>>> master
+MIME est une norme qui permet de publier et de lire sur Internet des données binaires. L’en-tête d’un fichier contenant des données binaires contient le type MIME des données ; Cela informe les programmes clients (navigateurs web et programmes de messagerie, par exemple) qu’ils doivent gérer les données d’une autre manière qu’ils gèrent le texte brut. Par exemple, l’en-tête d’un document web incluant un graphisme JPEG contient le type MIME spécifique au format de fichier JPEG. Cela permet à un navigateur afficher le fichier avec sa visionneuse JPEG, s’il est présent.
 
 Retour au début
 
@@ -431,14 +427,9 @@ file://Server/Share/file.doc
 
 Voir aussi **URL absolue** et **URL relative**.
 
-<<<<<<< Tête **serveur Web**
-
-<a name="a-computer-that-provides-web-services-and-pages-to-intranet-and-internet-users"></a>Un ordinateur qui fournit des services Web et des pages pour les utilisateurs intranet et Internet.
-=======
 **serveur Web**
 
 Un ordinateur qui fournit des services web et des pages pour les utilisateurs intranet et Internet.
->>>>>>> master
 
 Retour au début
 

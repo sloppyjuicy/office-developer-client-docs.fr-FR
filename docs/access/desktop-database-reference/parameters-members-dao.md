@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
 ms:contentKeyID: 48543863
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 655251d79c72f5d9b509162d8d11f347f1a27a82
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 80ee5425a98a5a66840c280ebfe568d64efdf08a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469417"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878401"
 ---
 # <a name="parameters-members-dao"></a>Parameters Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une collection Parameters contient tous les objets Parameter d'un objet QueryDef.
 

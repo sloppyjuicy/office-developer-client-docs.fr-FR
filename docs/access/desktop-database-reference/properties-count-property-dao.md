@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3da01c5690e4785b979cba38f85fc7446c58cd33
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 178570b527071347e0f8935e6ab9df7440f7f886
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469870"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889734"
 ---
 # <a name="propertiescount-property-dao"></a>Properties.Count Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser la propriété **Count** pour déterminer le nombre d'éléments dans une collection spécifique. Type **Long** en lecture seule.
 

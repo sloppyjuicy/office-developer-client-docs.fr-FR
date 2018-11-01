@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053033
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7efc05d2ea5d7f94f2f67307f5d26676fc1a6e16
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 38503a579f41c333d4e8023984d6f5a2ef16ff69
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469896"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868580"
 ---
 # <a name="databasetabledefs-property-dao"></a>Database.TableDefs Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie une collection **TableDefs** qui contient tous les objets **TableDef** enregistrés dans la base de données spécifiée. Valeur en lecture seule.
 

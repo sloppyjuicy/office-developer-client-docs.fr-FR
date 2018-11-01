@@ -1,44 +1,44 @@
 ---
-title: Filtre/recherche
+title: Filter/Query/Search
 TOCTitle: Filter/Query/Search
 ms:assetid: 383df639-4a9b-4741-add2-e6e36e1bdde5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1999aaa93bac1e63b50445085757876a1718a9ac
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cb8a84b46ab33ff5a8931f1cd149ece6e25fc616
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469882"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883007"
 ---
-# <a name="filterquerysearch"></a>Filtre/recherche
+# <a name="filterquerysearch"></a>Filter/Query/Search
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
-  - [AppliquerFiltre, action de macro](applyfilter-macro-action.md)
+  - [Action de Macro AppliquerFiltre](applyfilter-macro-action.md)
 
-  - [RechercherEnregistrementSuivant, action de macro](findnextrecord-macro-action.md)
+  - [Action de Macro Rechercherenregistrementsuivant](findnextrecord-macro-action.md)
 
-  - [TrouverEnregistrement, action de macro](findrecord-macro-action.md)
+  - [Action de Macro TrouverEnregistrement](findrecord-macro-action.md)
 
-  - [OuvrirRequête, action de macro](openquery-macro-action.md)
+  - [Action de Macro OuvrirRequête](openquery-macro-action.md)
 
-  - [ActualiserEnregistrement, action de macro](refreshrecord-macro-action.md)
+  - [Action de Macro Actualiserenregistrement](refreshrecord-macro-action.md)
 
-  - [Actualiser, action de macro](requery-macro-action.md)
+  - [Actualiser l’Action de Macro](requery-macro-action.md)
 
-  - [ExécuterSQL, action de macro](runsql-macro-action.md)
+  - [Action de Macro ExécuterSQL](runsql-macro-action.md)
 
-  - [RechercherEnregistrement, action de macro](searchforrecord-macro-action.md)
+  - [Action de Macro RechercherEnregistrement](searchforrecord-macro-action.md)
 
-  - [AppliquerFiltre, action de macro](setfilter-macro-action.md)
+  - [Action de Macro AppliquerFiltre](setfilter-macro-action.md)
 
-  - [DéfinirOrdrePar, action de Macro](setorderby-macro-action.md)
+  - [Action de Macro SetOrderBy](setorderby-macro-action.md)
 
-  - [ShowAllRecords Macro Action](showallrecords-macro-action.md)
+  - [Action de Macro ShowAllRecords](showallrecords-macro-action.md)
 

@@ -6,47 +6,47 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f4e8737d002391e257e07f2a6d49506aab336c35
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf17bfee937cad94678a8e5f0d5b209105623450
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470820"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870652"
 ---
 # <a name="macro-commands"></a>Commandes de macros
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
-  - [AnnulerEvénement, action de macro](cancelevent-macro-action.md)
+  - [Action de Macro AnnulerEvénement](cancelevent-macro-action.md)
 
-  - [Echo Macro Action](echo-macro-action.md)
+  - [Action de Macro écho](echo-macro-action.md)
 
-  - [OuvrirModuleVisualBasic, action de macro](openvisualbasicmodule-macro-action.md)
+  - [Action de Macro Ouvrirmodulevisualbasic](openvisualbasicmodule-macro-action.md)
 
-  - [SupprimerToutesVarTemp, action de macro](removealltempvars-macro-action.md)
+  - [Action de Macro SupprimerToutesVarTemp](removealltempvars-macro-action.md)
 
-  - [SupprimerVarTemp, action de macro](removetempvar-macro-action.md)
+  - [Action de Macro RemoveTempVar](removetempvar-macro-action.md)
 
-  - [ExécuterCode, action de macro](runcode-macro-action.md)
+  - [Action de Macro ExécuterCode](runcode-macro-action.md)
 
-  - [ExécuterMacroDonnées, action de macro](rundatamacro-macro-action.md)
+  - [Action de Macro ExécuterMacroDonnées](rundatamacro-macro-action.md)
 
-  - [ExécuterMacro, action de macro](runmacro-macro-action.md)
+  - [Action de Macro ExécuterMacro](runmacro-macro-action.md)
 
-  - [ExécuterCommandeMenu, action de macro](runmenucommand-macro-action.md)
+  - [Action de Macro Exécutercommandemenu](runmenucommand-macro-action.md)
 
-  - [DéfinirVarTemp, action de macro](settempvar-macro-action.md)
+  - [Action de Macro DéfinirVarTemp](settempvar-macro-action.md)
 
-  - [PasAPas, action de macro](singlestep-macro-action.md)
+  - [Action de Macro PasAPas](singlestep-macro-action.md)
 
-  - [DémarrerNouveauFluxTravail, action de macro](startnewworkflow-macro-action.md)
+  - [Action de Macro DémarrerNouveauFluxTravail](startnewworkflow-macro-action.md)
 
-  - [ArrêtToutesMacros, action de macro](stopallmacros-macro-action.md)
+  - [Action de Macro ArrêtToutesMacros](stopallmacros-macro-action.md)
 
-  - [StopMacro Macro Action](stopmacro-macro-action.md)
+  - [Action de Macro ArrêtMacro](stopmacro-macro-action.md)
 
   - [TâchesFluxTravail, action de macro](workflowtasks-macro-action.md)
 

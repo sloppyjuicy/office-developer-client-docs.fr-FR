@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d87dc84217b716505302464825a1857fecf67669
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 449a752d4ab9e1680a3cf318e73802d39d7033fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606821"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884198"
 ---
 # <a name="rds-tutorial-vbscript"></a>Didacticiel RDS (VBScript)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Il s'agit du didacticiel RDS, écrit en Microsoft Visual Basic Scripting Edition. Pour plus d'informations sur la finalité de ce didacticiel, consultez [Didacticiel RDS](chapter-12-rds-tutorial.md).
 
@@ -43,8 +43,7 @@ Dans ce didacticiel, [RDS. DataControl](datacontrol-object-rds.md) et [RDS. Data
 
 **Étape 1 : spécifier un programme serveur**
 
-<<<<<<< Tête VBScript peut détecter le nom du serveur Web IIS exécute en accédant à la méthode VBScript **Request.ServerVariables** disponible pour les Pages ASP : === VBScript peut détecter le nom du site web IIS serveur sur lequel il s’exécute en accédant à la méthode VBScript **Request.ServerVariables** disponible pour les Pages ASP :
->>>>>>> master
+VBScript peut détecter le nom du serveur web IIS qu'exécute en accédant à la méthode VBScript **Request.ServerVariables** disponible pour les Pages ASP :
 
 ```vb 
  

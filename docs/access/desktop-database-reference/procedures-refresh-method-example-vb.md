@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250300(v=office.15)
 ms:contentKeyID: 48548916
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef872fbb5fed4c981f127c3fc98ea4656f0dab98
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b75b7de4e63c9083dff550c5362e48bf171ee5e2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863016"
+ms.locfileid: "25887565"
 ---
 # <a name="procedures-refresh-method-example-vb"></a>Procedures Refresh, méthode – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le code suivant montre comment actualiser la collection [Procedures](procedures-collection-adox.md) d'un objet [Catalog](catalog-object-adox.md). Cette opération est requise afin de pouvoir accéder aux objets [Procedure](procedure-object-adox.md) de l'objet **Catalog**.
 

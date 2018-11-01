@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250073(v=office.15)
 ms:contentKeyID: 48547960
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2ac2bee2bf3f1036583bd195edc0c3da9e052f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 119e4bc607296d1a68aef6f85d44f15718940b42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472407"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25866984"
 ---
 # <a name="minimizing-log-file-space-usage"></a>Limitation de l'espace utilisé dans le fichier journal
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un fichier journal peut rapidement arriver à saturation (et par là même arrêter le serveur) si une base de données SQL Server est fortement sollicitée. Vous pouvez faire en sorte que le fichier journal soit **vidé au point de contrôle** pour allonger de manière significative la durée de vie du fichier journal d'une base de données.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ba0314fff63014b36565b178f97950660ffec14f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 140ac927089a89fa5c77034c9e33d4cd1519e41c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472106"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870260"
 ---
 # <a name="openform-macro-action"></a>Action de macro OuvrirFormulaire
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Faites appel à l'action **OuvrirFormulaire** pour ouvrir un formulaire en mode Formulaire, Création, Aperçu avant impression ou Feuille de données. Vous pouvez sélectionner des modes d'affichage et de saisie des données pour le formulaire et limiter les enregistrements affichés par celui-ci.

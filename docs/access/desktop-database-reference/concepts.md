@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Mt346017(v=office.15)
 ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 782440478c7fd9c3e38890fafadc6a51bb0f116f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e75bdf0528c371e0e036fcabf8fb4b4cd1f25dbf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471333"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883504"
 ---
 # <a name="concepts"></a>Concepts
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cette section décrit les principaux concepts relatifs au développement de solutions Access personnalisées.
 
@@ -25,7 +25,7 @@ Si vous visualisez le contenu sur docs.microsoft.com, vous pouvez utiliser la ta
 - [Conversion](conversion.md)
 - [Ruban](ribbon.md)
 - [Utilisation d’autres applications](working-with-other-applications-access.md)
-- [Jeu de propriétés de formulaire, rapport et contrôle](set-form-report-and-control-properties.md)
+- [Définir des propriétés de formulaire, d'état et de contrôle](set-form-report-and-control-properties.md)
 
 ## <a name="see-also"></a>Voir aussi
 

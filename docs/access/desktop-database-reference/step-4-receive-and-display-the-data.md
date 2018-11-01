@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249749(v=office.15)
 ms:contentKeyID: 48546764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d2a447b68b8c0eeb18d18050ba8dbbb6f09786ab
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 03a089e600799e1ac5fa85886ee6a16e1dd86026
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471783"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869077"
 ---
 # <a name="step-4-receive-and-display-the-data"></a>Étape 4 : recevoir et afficher les données
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
-## <a name="step-4-receive-and-display-the-data"></a>Étape 4 : recevoir et afficher les données
+## <a name="step-4-receive-and-display-the-data"></a>Étape 4 : Recevoir et afficher des données
 
 Cette étape consiste à créer un fichier HTML avec un objet [RDS.DataControl](datacontrol-object-rds.md) incorporé pointant vers le fichier XMLResponse.asp pour obtenir l'objet **Recordset**. Ouvrez le fichier default.htm avec un éditeur de texte, tel que le Bloc-notes de Windows, puis ajoutez le code ci-dessous. Remplacez « sqlserver » dans l'URL par le nom de votre serveur.
 

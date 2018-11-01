@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125230(v=office.15)
 ms:contentKeyID: 52073354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb88ca3d5d77dbe13adb283e5582fdb4d0f4639c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1d72b9302b19fb0f176e46f83436a25d36018cc4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469434"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868925"
 ---
 # <a name="data-blocks"></a>Blocs de données
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
-  - [CréerEnregistrement, bloc de données](createrecord-data-block.md)
+  - [CreateRecord, bloc de données](createrecord-data-block.md)
 
-  - [ModifierEnregistrement, bloc de données](editrecord-data-block.md)
+  - [EditRecord, bloc de données](editrecord-data-block.md)
 
-  - [PourChaqueEnregistrement, bloc de données](foreachrecord-data-block.md)
+  - [ForEachRecord, bloc de données](foreachrecord-data-block.md)
 
   - [RechercherEnregistrement, bloc de données](lookuprecord-data-block.md)
 

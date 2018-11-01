@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++) TOCTitle : ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++) === titre : ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++) TOCTitle : ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++)
->>>>>>> Master ms:assetid : 88b3f95e-0e46-7cbb-8086-d583319a6628 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249599(v=office.15) ms:contentKeyID : ms.date 48546141 : 18/09/2015 mtps_version : v=office.15
+title: ConnectionString, ConnectionTimeout et State, propriétés – Exemple (VJ++)
+TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VJ++)
+ms:assetid: 88b3f95e-0e46-7cbb-8086-d583319a6628
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249599(v=office.15)
+ms:contentKeyID: 48546141
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6ad29def518f86eaee14ca3fd901e881223753d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887837"
 ---
-
-<<<<<<< Tête
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>ConnectionString, ConnectionTimeout et State, propriétés - Exemple (VJ++)
-=======
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>ConnectionString, ConnectionTimeout et State, propriétés-exemple (VJ ++)
->>>>>>> master
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vj"></a>ConnectionString, ConnectionTimeout et State, propriétés – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre les différentes façons d'utiliser la propriété [ConnectionString](connectionstring-property-ado.md) pour ouvrir un objet [Connection](connection-object-ado.md). Elle utilise également la propriété [ConnectionTimeout](connectiontimeout-property-ado.md) pour définir un délai d'expiration de la connexion et la propriété [State](state-property-ado.md) pour vérifier l'état des connexions. La fonction GetState est nécessaire à l'exécution de cette procédure.
 
