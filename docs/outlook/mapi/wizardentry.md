@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3d78b4e6a4a0cc3363edefc84e7ae80dbe72c510
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22590357"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction de point d’entrée de service fournisseur qui appelle de l’Assistant profil pour récupérer suffisamment d’informations pour afficher les feuilles de propriétés de configuration du fournisseur. 
   
@@ -65,7 +65,7 @@ ULONG WIZARDENTRY(
   
 > [in] Pointeur vers l’objet de prise en charge MAPI applicable à cette session.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -79,7 +79,7 @@ MAPI_E_CALL_FAILED
 
 L’Assistant profil appelle la fonction **WIZARDENTRY** en fonction de lorsque celle-ci est prête afficher l’interface utilisateur de configuration du fournisseur de services. Lorsque l’Assistant profil est terminé de configurer tous les fournisseurs, il écrit les propriétés de configuration dans le profil en appelant [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le nom de la fonction **WIZARDENTRY** en fonction de doit être placé dans l’entrée WIZARD_ENTRY_NAME MAPISVC.INF. 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 050a26f4b4e6c353881189f8c7b71c2e4c378d03
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22577211"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La plupart des fournisseurs de carnet d’adresses prend en charge au moins un conteneur, certains d'entre eux modifiable. Conteneurs de carnet d’adresses peuvent fournir de contenu et tables de hiérarchie, des fonctions de recherche et la résolution de nom. Conteneurs modifiables autoriser la suppression des entrées telles que la messagerie des utilisateurs, des listes de distribution, ou autres conteneurs et l’ajout des entrées à partir d’entrées dans d’autres conteneurs ou à partir de modèles uniques.
   

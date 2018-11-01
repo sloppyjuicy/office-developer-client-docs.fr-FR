@@ -21,7 +21,7 @@ ms.locfileid: "22589685"
 ---
 # <a name="ixplogontransportnotify"></a>IXPLogon::TransportNotify
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique l’occurrence d’un événement demandé une notification sur lequel le fournisseur de transport.
   
@@ -82,7 +82,7 @@ NOTIFY_END_OUTBOUND_FLUSH
   
 > [out] Pointeur vers un pointeur vers les données spécifiques à l’événement. Pour plus d’informations sur les _lppvData_ Spécifie, voir la description pour le paramètre _lpulFlags_ . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -94,7 +94,7 @@ Le spouleur MAPI appelle la méthode **IXPLogon::TransportNotify** pour signaler
   
 Lorsque l’utilisateur tente d’annuler un message indiquant que le fournisseur de transport a différé précédemment, le spouleur MAPI appelle **TransportNotify**, en passant les indicateurs NOTIFY_CANCEL_MESSAGE et NOTIFY_ABORT_DEFERRED dans _ulFlags_. Si le spouleur MAPI se déconnecte et a encore des messages dans la file d’attente, il passe uniquement NOTIFY_ABORT_DEFERRED _ulFlags_ lorsqu’il appelle **TransportNotify**.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le fournisseur doit synchroniser l’accès à ses données à cet appel, car le spouleur MAPI peut appeler cette méthode à partir d’un autre thread d’exécution ou d’une procédure d’une autre fenêtre. Cela se produira probablement lorsque le spouleur MAPI signale l’annulation d’un message que le fournisseur de transport a commencé à envoyer.
   

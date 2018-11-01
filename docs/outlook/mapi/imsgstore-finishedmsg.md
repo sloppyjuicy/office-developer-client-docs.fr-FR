@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 8b15f12c9a7ac2041c895b935098f9681e4b3a3c
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22589951"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Active le fournisseur de banque de messages effectuer le traitement sur un message envoyé. Cette m�thode est appel�e uniquement par le spouleur MAPI.
   
@@ -49,7 +49,7 @@ HRESULT FinishedMsg(
   
 > [in] Pointeur vers l’identificateur d’entrée du message à traiter.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -63,7 +63,7 @@ MAPI_E_NO_SUPPORT
 
 La méthode **IMsgStore::FinishedMsg** effectue un traitement dans un message envoyé. Ce traitement peut impliquer la suppression du message, son déplacement vers un autre dossier, ou les deux actions. Le type de traitement dépend si les **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) et les propriétés de **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) sont définies. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Dans votre implémentation de **FinishedMsg**, déverrouiller le message identifié par _lpEntryID_ et effectuer le traitement approprié. Le message cible doit toujours être verrouillé ; le spouleur MAPI passe jamais l’identificateur d’entrée pour un message déverrouillé à **FinishedMsg**.
   

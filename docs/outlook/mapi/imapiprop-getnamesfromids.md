@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 186afd6a80d0ae3ae0a767456e60b2ebaaa579b9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22574383"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournit les noms des propriétés qui correspondent à un ou plusieurs identificateurs de propriété.
   
@@ -67,7 +67,7 @@ MAPI_NO_STRINGS
   
 > [out] Pointeur vers un tableau de pointeurs vers des structures [MAPINAMEID](mapinameid.md) qui contient les noms de propriété. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -113,7 +113,7 @@ Lorsqu’il n’y a aucun nom à renvoyer, par exemple, car il n’existe aucune
     
 - Définit le contenu de _lpppPropNames_ sur NULL. 
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si _lpPropSetGuid_ points à un jeu de propriétés valide et un _lppPropTags_ est NULL, le résultat est indéfini. Vous pouvez utiliser une des stratégies suivantes : 
   
@@ -133,9 +133,9 @@ Lorsque vous avez terminé avec les noms de propriété, vérifiez le contenu du
   
 Pour plus d’informations sur les propriétés nommées, voir [Les propriétés MAPI nommée](mapi-named-properties.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -160,9 +160,9 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [MAPI des propri�t�s nomm�e](mapi-named-properties.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

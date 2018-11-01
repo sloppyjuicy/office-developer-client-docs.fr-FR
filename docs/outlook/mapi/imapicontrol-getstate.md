@@ -23,7 +23,7 @@ ms.locfileid: "22581852"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère une valeur qui indique si le contrôle bouton est activé ou désactivé.
   
@@ -52,7 +52,7 @@ MAPI_ENABLED
   
 > Le contrôle bouton est activé et peut être sélectionné.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

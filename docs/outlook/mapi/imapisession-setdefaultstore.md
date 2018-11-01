@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: c7eda7089515942cb38a941bab863b3adf971bdc
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22587844"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Établissement d’une banque de messages comme banque de messages par défaut pour la session.
   
@@ -69,7 +69,7 @@ MAPI_SIMPLE_STORE_TEMPORARY
   
 > [in] Pointeur vers l’identificateur d’entrée de la banque de messages est destiné à la valeur par défaut. Si un client passe _lpEntryID_NULL, aucune banque de messages n’est activée par défaut.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -105,9 +105,9 @@ Chaque fois qu’une modification est apportée à la valeur par défaut de banq
     
 - Une notification interne est émise au spouleur MAPI. Déjà en cours sont effectuées sans modification ; nouvelles opérations qui impliquent la banque de messages par défaut, telles que le téléchargement de message, sont traitées de la nouvelle banque par défaut.
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

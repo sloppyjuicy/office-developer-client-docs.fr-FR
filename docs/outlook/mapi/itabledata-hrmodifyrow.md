@@ -23,7 +23,7 @@ ms.locfileid: "22574831"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Insérer une nouvelle ligne de tableau, en remplaçant éventuellement une ligne existante.
   
@@ -39,7 +39,7 @@ HRESULT HrModifyRow(
   
 > [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à ajouter ou pour remplacer une ligne existante. Une des structures de valeur de propriété vers laquelle pointés le membre **lpProps** de la structure **SRow** doit contenir la colonne d’index, la même valeur que celle qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [Create table ](createtable.md)fonction. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

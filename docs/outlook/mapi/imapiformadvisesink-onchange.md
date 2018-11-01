@@ -23,7 +23,7 @@ ms.locfileid: "22576679"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique qu’une modification s’est produite dans l’état de la visionneuse de formulaire. 
   
@@ -67,7 +67,7 @@ VCSTATUS_UNREAD
   
 > Il existe un message non lu suivant ou précédent dans la visionneuse de formulaire.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -79,7 +79,7 @@ Visionneuses de formulaire appeler la méthode **IMAPIFormAdviseSink::OnChange**
   
 Impossible de modifier les paramètres de VCSTATUS_MODAL et VCSTATUS_INTERACTIVE dans un contexte de vue après que qu’elle a été créée.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 L’implémentation de cette méthode est complètement varie selon les caractéristiques du formulaire. La plupart des objets de formulaire utiliser cette méthode pour modifier leur interface utilisateur (par exemple, pour activer ou désactiver les commandes de menu ou les boutons pour correspondre au paramètre d’indicateurs de statut visionneuse).
   

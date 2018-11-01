@@ -23,7 +23,7 @@ ms.locfileid: "22592968"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Avertit la visionneuse de formulaire fermeture d’un formulaire.
   
@@ -35,7 +35,7 @@ HRESULT OnShutdown( void );
 
 Aucune
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

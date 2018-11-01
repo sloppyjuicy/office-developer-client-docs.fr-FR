@@ -21,7 +21,7 @@ ms.locfileid: "22587620"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre les fichiers de dossiers personnels (.pst) pour le déverrouillage automatique, en évitant les appels supplémentaires à la HrTrustedPSTOverrideHandlerCallback.
   
@@ -44,7 +44,7 @@ _pmval_
 > [!NOTE]
 > Le SPropValue est stocké dans une propriété MAPI dans une plage interne du fichier PST. Cette propriété n’est pas accessible pour les applications MAPI ordinaires. 
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

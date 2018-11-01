@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 704a556b97f5fd90989641a17afe5a11d127e51b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22577169"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Inscrit pour recevoir des notifications d’événements spécifiques qui affectent la session.
   
@@ -95,7 +95,7 @@ fnevSearchComplete
   
 > [out] Un pointeur vers un nombre différent de zéro qui représente la connexion entre l’appelant de notification objet récepteur et la session.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -133,9 +133,9 @@ Pour une vue d’ensemble du processus de notification, voir la [Notification d�
   
 Pour plus d’informations sur la gestion des notifications, voir [Gestion des Notifications](handling-notifications.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -156,7 +156,7 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Notification d’événement dans MAPI](event-notification-in-mapi.md)
+[Notification d’événement MAPI](event-notification-in-mapi.md)
 

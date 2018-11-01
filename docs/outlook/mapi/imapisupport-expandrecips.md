@@ -23,7 +23,7 @@ ms.locfileid: "22591009"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Termine la liste des destinataires d’un message, développer des listes de distribution particulier.
   
@@ -52,7 +52,7 @@ NEEDS_SPOOLER
   
 > Le spouleur MAPI (plutôt que le fournisseur de transport dans lequel l’appelant est étroitement) doit envoyer le message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

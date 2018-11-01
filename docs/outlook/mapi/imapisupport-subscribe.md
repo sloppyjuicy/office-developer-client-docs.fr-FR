@@ -23,7 +23,7 @@ ms.locfileid: "22590119"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre un récepteur de notifications pour recevoir des notifications par le biais de MAPI.
   
@@ -99,7 +99,7 @@ NOTIFY_SYNC
   
 > [out] Pointeur vers un numéro de connexion différente de zéro qui représente l’enregistrement.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

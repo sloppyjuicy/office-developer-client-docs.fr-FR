@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle Attributes, propriété-Exemple (VC ++) : Attributes, propriété-Exemple (VC ++) === titre : exemple de propriété attributs (VC ++) TOCTitle :, propriété-exemple attributs (VC ++)
->>>>>>> Master ms:assetid : 031e063b-8fe6-85d8-05a7-e801ceeffa04 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248799(v=office.15) ms:contentKeyID : ms.date 48542976 : 18/09/2015 mtps_version : v=office.15
+title: Attributes, propriété – Exemple (VC++)
+TOCTitle: Attributes property example (VC++)
+ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
+ms:contentKeyID: 48542976
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891261"
 ---
-
-<<<<<<< Tête
-# <a name="attributes-property-example-vc"></a>Attributes, propriété - Exemple (VC++)
-=======
-# <a name="attributes-property-example-vc"></a>Attributs, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="attributes-property-example-vc"></a>Attributes, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.
 

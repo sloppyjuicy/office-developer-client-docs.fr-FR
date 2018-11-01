@@ -23,7 +23,7 @@ ms.locfileid: "22576889"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre un dossier ou un objet de message et retourne un pointeur vers l’objet pour fournir un accès plus. 
   
@@ -76,7 +76,7 @@ N'
   
 > [out] Pointeur vers le pointeur vers l’objet ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

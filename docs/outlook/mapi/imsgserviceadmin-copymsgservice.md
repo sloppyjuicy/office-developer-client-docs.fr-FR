@@ -23,7 +23,7 @@ ms.locfileid: "22593731"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie un service de message dans un profil. 
   
@@ -73,7 +73,7 @@ SERVICE_UI_ALWAYS
   
 > Demande que le service de message toujours affiche une feuille de propriétés de configuration.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

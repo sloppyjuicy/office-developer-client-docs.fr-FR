@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 48df5362106e849f061b0797736fad82fafa6584
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22588712"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une pièce jointe. 
   
@@ -66,7 +66,7 @@ N'
   
 > [out] Pointeur vers un pointeur vers la pièce jointe ouverte.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -84,9 +84,9 @@ N’essayez pas d’ouvrir une pièce jointe à plusieurs reprises ; les résul
   
 Vous pouvez demander que la pièce jointe s’ouvre en mode lecture/écriture, au lieu du mode par défaut en lecture seule. Toutefois, si la pièce jointe sera réellement ouvert en mode lecture/écriture est le fournisseur de magasin de message. Vous pouvez modifier la pièce jointe, essayez préparation gérer la défaillance ou vérifier le niveau d’accès qui a été accordé en récupérant la propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de la pièce jointe, si elle est disponible. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

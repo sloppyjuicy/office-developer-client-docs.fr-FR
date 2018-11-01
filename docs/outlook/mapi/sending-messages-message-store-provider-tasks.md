@@ -17,7 +17,7 @@ ms.locfileid: "22587613"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Envoi de Messages : T�ches de fournisseur de banque de messages
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 A message store provider gets involved with the message sending process when a client calls the message's [IMessage::SubmitMessage](imessage-submitmessage.md) method. If multiple messages are to be sent, the message store must send them in the same order that the client used for its **SubmitMessage** calls. 
   

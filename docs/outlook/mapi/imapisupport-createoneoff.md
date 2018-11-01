@@ -23,7 +23,7 @@ ms.locfileid: "22594942"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un identificateur d’entrée pour une adresse unique.
   
@@ -72,7 +72,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée pour le destinataire unique.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a2837e5470729ae3cdd0b83e17d0342620c986e8
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22592114"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Notifie le spouleur MAPI d’un changement de statut ou une demande de service. 
   
@@ -82,7 +82,7 @@ NOTIFY_SENTDEFERRED
 |NOTIFY_NEWMAIL_RECEIVED  <br/> |Une structure **NEWMAIL_NOTIFICATION** qui contient des informations sur le message nouvellement remis.  <br/> |
 |NOTIFY_SENTDEFERRED  <br/> |Une structure **SBinary** qui contient l’identificateur d’entrée du message différé.  <br/> |
    
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

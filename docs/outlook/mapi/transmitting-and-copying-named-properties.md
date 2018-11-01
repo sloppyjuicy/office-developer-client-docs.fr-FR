@@ -19,7 +19,7 @@ ms.locfileid: "22587515"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Envoi d’une propriété nommée, déplacé ou copié, le nom reste constant, mais l’identificateur doit changer pour respecter le mappage de l’objet de destination. La seule exception à cette règle est lors de la source et destination ont la même signature de mappage, rendant remappage inutile.
   

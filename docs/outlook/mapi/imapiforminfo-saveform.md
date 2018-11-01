@@ -23,7 +23,7 @@ ms.locfileid: "22593472"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre une description d’un formulaire particulier dans un fichier de configuration.
   
@@ -39,7 +39,7 @@ HRESULT SaveForm(
   
 > [in] Chaîne qui nomme le fichier de message de description du formulaire où sa description est enregistrée. Ce nom de fichier doit avoir l’extension .fdm.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

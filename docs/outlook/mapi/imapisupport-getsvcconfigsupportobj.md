@@ -23,7 +23,7 @@ ms.locfileid: "22595159"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un objet de prise en charge de service de message.
   
@@ -44,7 +44,7 @@ HRESULT GetSvcConfigSupportObj(
   
 > [out] Pointeur vers un pointeur vers le nouvel objet de prise en charge de service de message.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

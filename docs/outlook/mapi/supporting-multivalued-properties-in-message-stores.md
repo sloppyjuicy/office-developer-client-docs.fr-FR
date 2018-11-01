@@ -19,7 +19,7 @@ ms.locfileid: "22595215"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 The requirements for supporting properties that have multiple values are documented in [Vue d'ensemble de la propri�t� MAPI](mapi-property-overview.md). Multiple-value property support is not required for message store providers, but it is recommended, particularly for default message store providers. Some other features, such as folder form libraries, do require multiple-value property support.
   
@@ -27,5 +27,5 @@ The requirements for supporting properties that have multiple values are documen
 
 
 
-[L'impl�mentation des Messages dans les banques de messages](implementing-messages-in-message-stores.md)
+[Implémentation des messages dans les banques de messages](implementing-messages-in-message-stores.md)
 

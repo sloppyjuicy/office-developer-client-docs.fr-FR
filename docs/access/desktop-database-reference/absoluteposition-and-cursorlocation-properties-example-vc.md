@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : AbsolutePosition et CursorLocation, propriétés-exemple (VC ++) TOCTitle : AbsolutePosition et CursorLocation, propriétés-exemple (VC ++) ms:assetid : a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249745(v=office.15) MS:contentKeyID : ms.date 48546739 : 18/09/2015 mtps_version : v=office.15
+title: AbsolutePosition et CursorLocation, propriétés – Exemple (VC++)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VC++)
+ms:assetid: a1ae63dd-296b-09b0-a898-091b855e3141
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
+ms:contentKeyID: 48546739
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 4928fe6bc24dc3192809dd6ebfd3b106c0ca9572
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891050"
 ---
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>AbsolutePosition et CursorLocation, propriétés - Exemple (VC++)
-=== titre : AbsolutePosition et CursorLocation, propriétés-exemple (VC ++) TOCTitle : ms:assetid d’exemple (VC ++) les propriétés AbsolutePosition et CursorLocation : a1ae63dd-296b-09b0-a898-091b855e3141 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249745(v=office.15) ms:contentKeyID : 48546739 MS.date : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>AbsolutePosition et CursorLocation, propriétés-exemple (VC ++)
->>>>>>> master
+# <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>AbsolutePosition et CursorLocation, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-property-ado.md) peut effectuer un suivi de la progression d'une boucle qui énumère tous les enregistrements d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [CursorLocation](cursorlocation-property-ado.md) pour activer la propriété **AbsolutePosition** en définissant le curseur sur un curseur client.
 

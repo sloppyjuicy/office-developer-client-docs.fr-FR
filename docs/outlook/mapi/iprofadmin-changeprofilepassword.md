@@ -23,7 +23,7 @@ ms.locfileid: "22572997"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Déconseillé. Modifie le mot de passe pour un profil.
   
@@ -58,7 +58,7 @@ MAPI_UNICODE
   
 > Le nom de profil et les mots de passe sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, ces chaînes sont au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

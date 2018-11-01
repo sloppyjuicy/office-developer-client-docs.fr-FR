@@ -23,7 +23,7 @@ ms.locfileid: "22595061"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Il prépare un message pour son envoi au spouleur MAPI.
   
@@ -44,7 +44,7 @@ ULONG FAR * lpulFlags
   
 > [entrée, sortie] À l’entrée, le paramètre _lpulFlags_ est réservé et doit être égal à zéro. Dans la sortie, _lpulFlags_ doit être NULL. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 992d51526c45334f6db3738e36994f4bb9c07c6e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22572255"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère l’état actuel de la visionneuse. 
   
@@ -71,7 +71,7 @@ VCSTATUS_UNREAD
   
 > Il existe un message non lu suivant ou précédent dans l’affichage.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -85,9 +85,9 @@ En règle générale, formulaires désactiver les commandes de menu et les bouto
   
 L’indicateur VCSTATUS_MODAL est défini si le formulaire doit être modal à la fenêtre dont le descripteur est transmis dans l’appel [IMAPIForm::DoVerb](imapiform-doverb.md) antérieur. Si VCSTATUS_MODAL est défini, le formulaire peut utiliser le thread sur lequel l’appel de **DoVerb** a été effectué jusqu'à ce que le formulaire se ferme. Si VCSTATUS_MODAL n’est pas défini, le formulaire ne doit pas être modal dans cette fenêtre et ne doit pas utiliser le thread. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

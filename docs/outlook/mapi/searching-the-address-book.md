@@ -17,7 +17,7 @@ ms.locfileid: "22595124"
 ---
 # <a name="searching-the-address-book"></a>Recherche dans le carnet d’adresses
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI permet de fournisseurs de carnet d'adresses d'impl�menter deux niveaux de la fonctionnalit� de recherche :
   

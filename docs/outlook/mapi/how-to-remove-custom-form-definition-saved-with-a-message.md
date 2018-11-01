@@ -1,11 +1,11 @@
 ---
-title: Supprimer la définition du formulaire personnalisé enregistrée avec un message
+title: Suppression de la définition de formulaire personnalisé enregistrée avec un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -13,9 +13,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22594452"
 ---
-# <a name="remove-custom-form-definition-saved-with-a-message"></a>Supprimer la définition du formulaire personnalisé enregistrée avec un message
+# <a name="remove-custom-form-definition-saved-with-a-message"></a>Suppression de la définition de formulaire personnalisé enregistrée avec un message
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique présente un exemple de code en langage C++ qui convertit un message qui a été enregistré avec une définition de formulaire personnalisé à un message régulière sans la définition du formulaire.
   
@@ -25,13 +25,13 @@ Les formulaires contenant des pages de formulaire peuvent être personnalisés a
   
 Pour convertir un message est enregistré dans une définition de formulaire personnalisé à l’autre sans, vous devez supprimer les quatre propriétés nommées :
   
-- [Propri�t� canonique PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Propriété canonique PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [Propri�t� canonique PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Propriété canonique PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [Propri�t� canonique PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Propriété canonique PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [Propri�t� canonique PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Propriété canonique PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
 En outre, vous devez également supprimer la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) qui contient les définitions de propriétés personnalisées enregistrées avec ce message. Un effet secondaire de la suppression de cette propriété est que les modèles d’objet Outlook 2010 ou Outlook 2013 et l’interface utilisateur Outlook 2010 ou Outlook 2013 ne sera plus en mesure d’accéder aux propriétés utilisateur ont été définies sur le message. Vous ne pouvez toujours accéder à ces propriétés et leurs valeurs par le biais de MAPI. Notez que si vous ne supprimez pas cette propriété et le message est enregistré avec une autre définition du formulaire, la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) est partiellement remplacé avec les nouvelles données et l’intégrité des données ne sont pas garantie. 
   

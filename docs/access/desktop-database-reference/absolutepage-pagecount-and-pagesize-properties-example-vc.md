@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : AbsolutePage, PageCount et PageSize, propriétés-exemple (VC ++) TOCTitle : AbsolutePage, PageCount et PageSize, propriétés-exemple (VC ++) ms:assetid : 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl : https://msdn.microsoft.com/library/JJ249595(v=office.15) MS:contentKeyID : ms.date 48546133 : 18/09/2015 mtps_version : v=office.15
+title: AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
+ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
+ms:contentKeyID: 48546133
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891266"
 ---
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés - Exemple (VC++)
-=== titre : AbsolutePage, PageCount et PageSize, propriétés-exemple (VC ++) TOCTitle : ms:assetid d’exemple (VC ++) propriétés AbsolutePage, PageCount et PageSize : 884d9405-646c-6ab1-14c1-3c0fe64e2ebe ms:mtpsurl : https://msdn.microsoft.com/library/JJ249595(v=office.15) ms:contentKeyID : ms.date 48546133 : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés-exemple (VC ++)
->>>>>>> master
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche issus de la table ***Employee***, cinq enregistrements à la fois.
 

@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 043437a893eaba53ff89e7e77c018b19ebd38b5c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ea371a29a37e4d8ffb235f08b1a7f9b2abb42418
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472010"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880333"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Recordset.RecordsetType Property (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 La propriété **RecordsetType** permet de spécifier le genre de jeu d'enregistrement disponible pour un formulaire. Type de données **Byte** en lecture-écriture.
 

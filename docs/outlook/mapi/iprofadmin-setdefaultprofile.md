@@ -23,7 +23,7 @@ ms.locfileid: "22587704"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Active ou désactive le profil par défaut d’un client.
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > Le nom de profil est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le nom de profil est au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

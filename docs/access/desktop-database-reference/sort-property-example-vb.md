@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle tri propriété-Exemple (VB) : tri propriété-Exemple (VB) === titre : tri, propriété-Exemple (VB) TOCTitle : tri, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 6f981e5e-7ee8-e1e7-bea9-7c2081400391 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249440(v=office.15) ms:contentKeyID : ms.date 48545539 : 18/09/2015 mtps_version : v=office.15
+title: Sort, propriété – Exemple (VB)
+TOCTitle: Sort property example (VB)
+ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
+ms:contentKeyID: 48545539
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 6bd5f0f894928032e975e8eebe33b18427c5dae1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25891253"
 ---
-
-<<<<<<< Tête
-# <a name="sort-property-example-vb"></a>Sort, propriété - Exemple (VB)
-=======
-# <a name="sort-property-example-vb"></a>Sort, propriété-Exemple (VB)
->>>>>>> master
+# <a name="sort-property-example-vb"></a>Sort, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.
 

@@ -19,7 +19,7 @@ ms.locfileid: "22587508"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Alors que les notifications sont facultatives, ils sont un composant essentiel d’un fournisseur de magasin de message bonne. Les applications clientes et le spouleur MAPI s’appuient sur les notifications à partir du fournisseur de banque de messages pour obtenir de bonnes performances lors de l’envoi de messages sortants ou la réception de messages entrants. Clients et le spouleur MAPI peuvent fonctionner sans recevoir des notifications à partir du fournisseur de banque de messages, mais ils ne seront pas en mesure d’informer les utilisateurs des modifications dans la banque de messages sans les. En règle générale, cela signifie que les utilisateurs ne pourront pas savoir qu’un nouveau message est arrivé jusqu'à ce que le client suivant pour ouvrir la banque de messages reçoivent dossier.
   
