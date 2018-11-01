@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22573137"
 ---
-# <a name="imapiformcontainergetdisplay"></a><span data-ttu-id="7cd0b-103">IMAPIFormContainer::GetDisplay</span><span class="sxs-lookup"><span data-stu-id="7cd0b-103">IMAPIFormContainer::GetDisplay</span></span>
+# <a name="imapiformcontainergetdisplay"></a><span data-ttu-id="d86a0-103">IMAPIFormContainer::GetDisplay</span><span class="sxs-lookup"><span data-stu-id="d86a0-103">IMAPIFormContainer::GetDisplay</span></span>
 
   
   
-<span data-ttu-id="7cd0b-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7cd0b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d86a0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d86a0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7cd0b-105">Renvoie le nom complet d’un conteneur de formulaire.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-105">Returns the display name of a form container.</span></span>
+<span data-ttu-id="d86a0-105">Renvoie le nom complet d’un conteneur de formulaire.</span><span class="sxs-lookup"><span data-stu-id="d86a0-105">Returns the display name of a form container.</span></span>
   
 ```cpp
 HRESULT GetDisplay(
@@ -34,40 +34,40 @@ HRESULT GetDisplay(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7cd0b-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="7cd0b-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d86a0-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="d86a0-106">Parameters</span></span>
 
- <span data-ttu-id="7cd0b-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="7cd0b-107">_ulFlags_</span></span>
+ <span data-ttu-id="d86a0-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="d86a0-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="7cd0b-108">[in] Masque de bits d’indicateurs qui contrôle le type de la chaîne retournée.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-108">[in] A bitmask of flags that controls the type of the returned string.</span></span> <span data-ttu-id="7cd0b-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="7cd0b-109">The following flag can be set:</span></span>
+> <span data-ttu-id="d86a0-108">[in] Masque de bits d’indicateurs qui contrôle le type de la chaîne retournée.</span><span class="sxs-lookup"><span data-stu-id="d86a0-108">[in] A bitmask of flags that controls the type of the returned string.</span></span> <span data-ttu-id="d86a0-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="d86a0-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="7cd0b-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7cd0b-110">MAPI_UNICODE</span></span> 
+<span data-ttu-id="d86a0-110">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="d86a0-110">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="7cd0b-111">La chaîne retournée est au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-111">The returned string is in Unicode format.</span></span> <span data-ttu-id="7cd0b-112">Si l’indicateur MAPI_UNICODE n’est pas définie, la chaîne est au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-112">If the MAPI_UNICODE flag is not set, the string is in ANSI format.</span></span>
+> <span data-ttu-id="d86a0-111">La chaîne retournée est au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="d86a0-111">The returned string is in Unicode format.</span></span> <span data-ttu-id="d86a0-112">Si l’indicateur MAPI_UNICODE n’est pas définie, la chaîne est au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="d86a0-112">If the MAPI_UNICODE flag is not set, the string is in ANSI format.</span></span>
     
- <span data-ttu-id="7cd0b-113">_pszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="7cd0b-113">_pszDisplayName_</span></span>
+ <span data-ttu-id="d86a0-113">_pszDisplayName_</span><span class="sxs-lookup"><span data-stu-id="d86a0-113">_pszDisplayName_</span></span>
   
-> <span data-ttu-id="7cd0b-114">[out] Pointeur vers une chaîne qui contient le nom complet du conteneur de formulaire.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-114">[out] A pointer to a string that contains the display name of the form container.</span></span>
+> <span data-ttu-id="d86a0-114">[out] Pointeur vers une chaîne qui contient le nom complet du conteneur de formulaire.</span><span class="sxs-lookup"><span data-stu-id="d86a0-114">[out] A pointer to a string that contains the display name of the form container.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="7cd0b-115">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="7cd0b-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d86a0-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d86a0-115">Return value</span></span>
 
-<span data-ttu-id="7cd0b-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="7cd0b-116">S_OK</span></span> 
+<span data-ttu-id="d86a0-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="d86a0-116">S_OK</span></span> 
   
-> <span data-ttu-id="7cd0b-117">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-117">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="d86a0-117">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="d86a0-117">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="7cd0b-118">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="7cd0b-118">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="d86a0-118">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="d86a0-118">MFCMAPI reference</span></span>
 
-<span data-ttu-id="7cd0b-119">Pour des exemples de code MFCMAPI, voir le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-119">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="d86a0-119">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="d86a0-119">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="7cd0b-120">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="7cd0b-120">**File**</span></span>|<span data-ttu-id="7cd0b-121">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="7cd0b-121">**Function**</span></span>|<span data-ttu-id="7cd0b-122">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="7cd0b-122">**Comment**</span></span>|
+|<span data-ttu-id="d86a0-120">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="d86a0-120">**File**</span></span>|<span data-ttu-id="d86a0-121">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="d86a0-121">**Function**</span></span>|<span data-ttu-id="d86a0-122">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="d86a0-122">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="7cd0b-123">FormContainerDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="7cd0b-123">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="7cd0b-124">CFormContainerDlg::CFormContainerDlg</span><span class="sxs-lookup"><span data-stu-id="7cd0b-124">CFormContainerDlg::CFormContainerDlg</span></span>  <br/> |<span data-ttu-id="7cd0b-125">MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du formulaire conteneur lors du rendu CFormContainerDlg.</span><span class="sxs-lookup"><span data-stu-id="7cd0b-125">MFCMAPI uses the **IMAPIFormContainer::GetDisplay** method to get the name of the form container when it renders CFormContainerDlg.</span></span>  <br/> |
+|<span data-ttu-id="d86a0-123">FormContainerDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="d86a0-123">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="d86a0-124">CFormContainerDlg::CFormContainerDlg</span><span class="sxs-lookup"><span data-stu-id="d86a0-124">CFormContainerDlg::CFormContainerDlg</span></span>  <br/> |<span data-ttu-id="d86a0-125">MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du formulaire conteneur lors du rendu CFormContainerDlg.</span><span class="sxs-lookup"><span data-stu-id="d86a0-125">MFCMAPI uses the **IMAPIFormContainer::GetDisplay** method to get the name of the form container when it renders CFormContainerDlg.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7cd0b-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7cd0b-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d86a0-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d86a0-126">See also</span></span>
 
 
 
-[<span data-ttu-id="7cd0b-127">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="7cd0b-127">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
+[<span data-ttu-id="d86a0-127">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d86a0-127">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
 
 
-[<span data-ttu-id="7cd0b-128">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="7cd0b-128">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="d86a0-128">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="d86a0-128">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

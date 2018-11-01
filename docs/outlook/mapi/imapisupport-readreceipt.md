@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22588621"
 ---
-# <a name="imapisupportreadreceipt"></a><span data-ttu-id="94f2e-103">IMAPISupport::ReadReceipt</span><span class="sxs-lookup"><span data-stu-id="94f2e-103">IMAPISupport::ReadReceipt</span></span>
+# <a name="imapisupportreadreceipt"></a><span data-ttu-id="03f9f-103">IMAPISupport::ReadReceipt</span><span class="sxs-lookup"><span data-stu-id="03f9f-103">IMAPISupport::ReadReceipt</span></span>
 
   
   
-<span data-ttu-id="94f2e-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="94f2e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="03f9f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="03f9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="94f2e-105">Génère un rapport nonread pour un message ou en lecture.</span><span class="sxs-lookup"><span data-stu-id="94f2e-105">Generates a read or nonread report for a message.</span></span>
+<span data-ttu-id="03f9f-105">Génère un rapport nonread pour un message ou en lecture.</span><span class="sxs-lookup"><span data-stu-id="03f9f-105">Generates a read or nonread report for a message.</span></span>
   
 ```cpp
 HRESULT ReadReceipt(
@@ -35,65 +35,65 @@ LPMESSAGE FAR * lppEmptyMessage
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="94f2e-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="94f2e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="03f9f-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="03f9f-106">Parameters</span></span>
 
- <span data-ttu-id="94f2e-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="94f2e-107">_ulFlags_</span></span>
+ <span data-ttu-id="03f9f-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="03f9f-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="94f2e-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont la lecture ou l’état nonread est généré.</span><span class="sxs-lookup"><span data-stu-id="94f2e-108">[in] A bitmask of flags that controls how the read or nonread report is generated.</span></span> <span data-ttu-id="94f2e-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="94f2e-109">The following flag can be set:</span></span>
+> <span data-ttu-id="03f9f-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont la lecture ou l’état nonread est généré.</span><span class="sxs-lookup"><span data-stu-id="03f9f-108">[in] A bitmask of flags that controls how the read or nonread report is generated.</span></span> <span data-ttu-id="03f9f-109">Vous pouvez définir l’indicateur suivant :</span><span class="sxs-lookup"><span data-stu-id="03f9f-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="94f2e-110">MAPI_NON_READ</span><span class="sxs-lookup"><span data-stu-id="94f2e-110">MAPI_NON_READ</span></span> 
+<span data-ttu-id="03f9f-110">MAPI_NON_READ</span><span class="sxs-lookup"><span data-stu-id="03f9f-110">MAPI_NON_READ</span></span> 
   
-> <span data-ttu-id="94f2e-111">Un rapport nonread est généré.</span><span class="sxs-lookup"><span data-stu-id="94f2e-111">A nonread report is generated.</span></span> <span data-ttu-id="94f2e-112">Si MAPI_NON_READ n’est pas définie, un rapport de lecture est généré.</span><span class="sxs-lookup"><span data-stu-id="94f2e-112">If MAPI_NON_READ is not set, a read report is generated.</span></span>
+> <span data-ttu-id="03f9f-111">Un rapport nonread est généré.</span><span class="sxs-lookup"><span data-stu-id="03f9f-111">A nonread report is generated.</span></span> <span data-ttu-id="03f9f-112">Si MAPI_NON_READ n’est pas définie, un rapport de lecture est généré.</span><span class="sxs-lookup"><span data-stu-id="03f9f-112">If MAPI_NON_READ is not set, a read report is generated.</span></span>
     
- <span data-ttu-id="94f2e-113">_lpReadMessage_</span><span class="sxs-lookup"><span data-stu-id="94f2e-113">_lpReadMessage_</span></span>
+ <span data-ttu-id="03f9f-113">_lpReadMessage_</span><span class="sxs-lookup"><span data-stu-id="03f9f-113">_lpReadMessage_</span></span>
   
-> <span data-ttu-id="94f2e-114">[in] Pointeur vers le message sur lequel le rapport doit être généré.</span><span class="sxs-lookup"><span data-stu-id="94f2e-114">[in] A pointer to the message about which the report should be generated.</span></span>
+> <span data-ttu-id="03f9f-114">[in] Pointeur vers le message sur lequel le rapport doit être généré.</span><span class="sxs-lookup"><span data-stu-id="03f9f-114">[in] A pointer to the message about which the report should be generated.</span></span>
     
- <span data-ttu-id="94f2e-115">_lppEmptyMessage_</span><span class="sxs-lookup"><span data-stu-id="94f2e-115">_lppEmptyMessage_</span></span>
+ <span data-ttu-id="03f9f-115">_lppEmptyMessage_</span><span class="sxs-lookup"><span data-stu-id="03f9f-115">_lppEmptyMessage_</span></span>
   
-> <span data-ttu-id="94f2e-116">[entrée, sortie] À l’entrée _lppEmptyMessage_ pointe vers un pointeur vers un message vide.</span><span class="sxs-lookup"><span data-stu-id="94f2e-116">[in, out] On input,  _lppEmptyMessage_ points to a pointer to an empty message.</span></span> <span data-ttu-id="94f2e-117">Dans la sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message d’état.</span><span class="sxs-lookup"><span data-stu-id="94f2e-117">On output,  _lppEmptyMessage_ points to a pointer to the report message.</span></span> 
+> <span data-ttu-id="03f9f-116">[entrée, sortie] À l’entrée _lppEmptyMessage_ pointe vers un pointeur vers un message vide.</span><span class="sxs-lookup"><span data-stu-id="03f9f-116">[in, out] On input,  _lppEmptyMessage_ points to a pointer to an empty message.</span></span> <span data-ttu-id="03f9f-117">Dans la sortie, _lppEmptyMessage_ pointe vers un pointeur vers le message d’état.</span><span class="sxs-lookup"><span data-stu-id="03f9f-117">On output,  _lppEmptyMessage_ points to a pointer to the report message.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="94f2e-118">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="94f2e-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="03f9f-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="03f9f-118">Return value</span></span>
 
-<span data-ttu-id="94f2e-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="94f2e-119">S_OK</span></span> 
+<span data-ttu-id="03f9f-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="03f9f-119">S_OK</span></span> 
   
-> <span data-ttu-id="94f2e-120">Le rapport a été généré.</span><span class="sxs-lookup"><span data-stu-id="94f2e-120">The report was successfully generated.</span></span>
+> <span data-ttu-id="03f9f-120">Le rapport a été généré.</span><span class="sxs-lookup"><span data-stu-id="03f9f-120">The report was successfully generated.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="94f2e-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="94f2e-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="03f9f-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="03f9f-121">Remarks</span></span>
 
-<span data-ttu-id="94f2e-122">La méthode **IMAPISupport::ReadReceipt** est implémentée uniquement pour les objets de prise en charge de fournisseur de magasin de message.</span><span class="sxs-lookup"><span data-stu-id="94f2e-122">The **IMAPISupport::ReadReceipt** method is implemented only for message store provider support objects.</span></span> <span data-ttu-id="94f2e-123">Fournisseurs de magasins message appellent **ReadReceipt** pour indiquer à MAPI pour générer un rapport nonread pour le message vers laquelle pointé le paramètre _lpReadMessage_ ou en lecture.</span><span class="sxs-lookup"><span data-stu-id="94f2e-123">Message store providers call **ReadReceipt** to instruct MAPI to generate a read or nonread report for the message pointed to by the  _lpReadMessage_ parameter.</span></span> 
+<span data-ttu-id="03f9f-122">La méthode **IMAPISupport::ReadReceipt** est implémentée uniquement pour les objets de prise en charge de fournisseur de magasin de message.</span><span class="sxs-lookup"><span data-stu-id="03f9f-122">The **IMAPISupport::ReadReceipt** method is implemented only for message store provider support objects.</span></span> <span data-ttu-id="03f9f-123">Fournisseurs de magasins message appellent **ReadReceipt** pour indiquer à MAPI pour générer un rapport nonread pour le message vers laquelle pointé le paramètre _lpReadMessage_ ou en lecture.</span><span class="sxs-lookup"><span data-stu-id="03f9f-123">Message store providers call **ReadReceipt** to instruct MAPI to generate a read or nonread report for the message pointed to by the  _lpReadMessage_ parameter.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="94f2e-124">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="94f2e-124">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="03f9f-124">Notes aux appelants</span><span class="sxs-lookup"><span data-stu-id="03f9f-124">Notes to callers</span></span>
 
-<span data-ttu-id="94f2e-125">Appel **ReadReceipt** lorsque la valeur de la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) et une des conditions suivantes est vraie :</span><span class="sxs-lookup"><span data-stu-id="94f2e-125">Call **ReadReceipt** when the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set and one of the following conditions is true:</span></span>
+<span data-ttu-id="03f9f-125">Appel **ReadReceipt** lorsque la valeur de la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) et une des conditions suivantes est vraie :</span><span class="sxs-lookup"><span data-stu-id="03f9f-125">Call **ReadReceipt** when the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set and one of the following conditions is true:</span></span>
   
-- <span data-ttu-id="94f2e-126">Le message a été lu.</span><span class="sxs-lookup"><span data-stu-id="94f2e-126">The message has been read.</span></span>
+- <span data-ttu-id="03f9f-126">Le message a été lu.</span><span class="sxs-lookup"><span data-stu-id="03f9f-126">The message has been read.</span></span>
     
-- <span data-ttu-id="94f2e-127">Le message a été déplacé.</span><span class="sxs-lookup"><span data-stu-id="94f2e-127">The message has been moved.</span></span>
+- <span data-ttu-id="03f9f-127">Le message a été déplacé.</span><span class="sxs-lookup"><span data-stu-id="03f9f-127">The message has been moved.</span></span>
     
-- <span data-ttu-id="94f2e-128">Le message a été copié.</span><span class="sxs-lookup"><span data-stu-id="94f2e-128">The message has been copied.</span></span>
+- <span data-ttu-id="03f9f-128">Le message a été copié.</span><span class="sxs-lookup"><span data-stu-id="03f9f-128">The message has been copied.</span></span>
     
-- <span data-ttu-id="94f2e-129">Méthode de [IMessage::SetReadFlag](imessage-setreadflag.md) du message a été appelée.</span><span class="sxs-lookup"><span data-stu-id="94f2e-129">The message's [IMessage::SetReadFlag](imessage-setreadflag.md) method has been called.</span></span> 
+- <span data-ttu-id="03f9f-129">Méthode de [IMessage::SetReadFlag](imessage-setreadflag.md) du message a été appelée.</span><span class="sxs-lookup"><span data-stu-id="03f9f-129">The message's [IMessage::SetReadFlag](imessage-setreadflag.md) method has been called.</span></span> 
     
-<span data-ttu-id="94f2e-130">N’appelez pas **ReadReceipt** lorsqu’un message est supprimé.</span><span class="sxs-lookup"><span data-stu-id="94f2e-130">Do not call **ReadReceipt** when a message is deleted.</span></span> 
+<span data-ttu-id="03f9f-130">N’appelez pas **ReadReceipt** lorsqu’un message est supprimé.</span><span class="sxs-lookup"><span data-stu-id="03f9f-130">Do not call **ReadReceipt** when a message is deleted.</span></span> 
   
-<span data-ttu-id="94f2e-131">Un rapport nonread ou en lecture doit être envoyé qu’une seule fois pour un message.</span><span class="sxs-lookup"><span data-stu-id="94f2e-131">A read or nonread report should be sent only once for a message.</span></span> <span data-ttu-id="94f2e-132">Garder une trace des état de lecture d’un message et ne pas envoyer de rapports multiples pour un seul message.</span><span class="sxs-lookup"><span data-stu-id="94f2e-132">Keep track of a message's read status and do not send multiple reports for a single message.</span></span>
+<span data-ttu-id="03f9f-131">Un rapport nonread ou en lecture doit être envoyé qu’une seule fois pour un message.</span><span class="sxs-lookup"><span data-stu-id="03f9f-131">A read or nonread report should be sent only once for a message.</span></span> <span data-ttu-id="03f9f-132">Garder une trace des état de lecture d’un message et ne pas envoyer de rapports multiples pour un seul message.</span><span class="sxs-lookup"><span data-stu-id="03f9f-132">Keep track of a message's read status and do not send multiple reports for a single message.</span></span>
   
-<span data-ttu-id="94f2e-133">Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide MAPI retourne à partir de **ReadReceipt**, appelez la méthode de [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message et puis relâchez le pointeur en appelant son **IUnknown:s:Release **méthode.</span><span class="sxs-lookup"><span data-stu-id="94f2e-133">If the  _lppEmptyMessage_ parameter points to a valid report message when MAPI returns from **ReadReceipt**, call the [IMessage::SubmitMessage](imessage-submitmessage.md) method to send the message and then release the pointer by calling its **IUnknown:s:Release** method.</span></span> 
+<span data-ttu-id="03f9f-133">Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide MAPI retourne à partir de **ReadReceipt**, appelez la méthode de [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message et puis relâchez le pointeur en appelant son \*\*IUnknown:s:Release \*\*méthode.</span><span class="sxs-lookup"><span data-stu-id="03f9f-133">If the  _lppEmptyMessage_ parameter points to a valid report message when MAPI returns from **ReadReceipt**, call the [IMessage::SubmitMessage](imessage-submitmessage.md) method to send the message and then release the pointer by calling its **IUnknown:s:Release** method.</span></span> 
   
-<span data-ttu-id="94f2e-134">Si **ReadReceipt** échoue, le message doit être libéré sans soumis.</span><span class="sxs-lookup"><span data-stu-id="94f2e-134">If **ReadReceipt** fails, the message should be released without being submitted.</span></span> <span data-ttu-id="94f2e-135">Si vous stockez état de lecture du message, vous pouvez tenter de générer le lire ou nonread à une date ultérieure.</span><span class="sxs-lookup"><span data-stu-id="94f2e-135">If you store the message's read status, you can attempt to generate the read or nonread report at a later time.</span></span> 
+<span data-ttu-id="03f9f-134">Si **ReadReceipt** échoue, le message doit être libéré sans soumis.</span><span class="sxs-lookup"><span data-stu-id="03f9f-134">If **ReadReceipt** fails, the message should be released without being submitted.</span></span> <span data-ttu-id="03f9f-135">Si vous stockez état de lecture du message, vous pouvez tenter de générer le lire ou nonread à une date ultérieure.</span><span class="sxs-lookup"><span data-stu-id="03f9f-135">If you store the message's read status, you can attempt to generate the read or nonread report at a later time.</span></span> 
   
-<span data-ttu-id="94f2e-136">Vous pouvez masquer ou afficher des rapports de lecture et nonread générés par magasins dans vos dossiers.</span><span class="sxs-lookup"><span data-stu-id="94f2e-136">You can either hide or display read and nonread reports generated by stores in your folders.</span></span> <span data-ttu-id="94f2e-137">Stockage des rapports de lecture et nonread dans des dossiers cachés vous permet d’implémenter une sécurité accrue.</span><span class="sxs-lookup"><span data-stu-id="94f2e-137">Storing read and nonread reports in hidden folders enables you to implement tighter security.</span></span>
+<span data-ttu-id="03f9f-136">Vous pouvez masquer ou afficher des rapports de lecture et nonread générés par magasins dans vos dossiers.</span><span class="sxs-lookup"><span data-stu-id="03f9f-136">You can either hide or display read and nonread reports generated by stores in your folders.</span></span> <span data-ttu-id="03f9f-137">Stockage des rapports de lecture et nonread dans des dossiers cachés vous permet d’implémenter une sécurité accrue.</span><span class="sxs-lookup"><span data-stu-id="03f9f-137">Storing read and nonread reports in hidden folders enables you to implement tighter security.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="94f2e-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="94f2e-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="03f9f-138">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="03f9f-138">See also</span></span>
 
 
 
-[<span data-ttu-id="94f2e-139">IMAPIFolder::DeleteMessages</span><span class="sxs-lookup"><span data-stu-id="94f2e-139">IMAPIFolder::DeleteMessages</span></span>](imapifolder-deletemessages.md)
+[<span data-ttu-id="03f9f-139">IMAPIFolder::DeleteMessages</span><span class="sxs-lookup"><span data-stu-id="03f9f-139">IMAPIFolder::DeleteMessages</span></span>](imapifolder-deletemessages.md)
   
-[<span data-ttu-id="94f2e-140">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="94f2e-140">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
+[<span data-ttu-id="03f9f-140">IMessage::SubmitMessage</span><span class="sxs-lookup"><span data-stu-id="03f9f-140">IMessage::SubmitMessage</span></span>](imessage-submitmessage.md)
   
-[<span data-ttu-id="94f2e-141">Propriété canonique PidTagReadReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="94f2e-141">PidTagReadReceiptRequested Canonical Property</span></span>](pidtagreadreceiptrequested-canonical-property.md)
+[<span data-ttu-id="03f9f-141">Propriété canonique PidTagReadReceiptRequested</span><span class="sxs-lookup"><span data-stu-id="03f9f-141">PidTagReadReceiptRequested Canonical Property</span></span>](pidtagreadreceiptrequested-canonical-property.md)
   
-[<span data-ttu-id="94f2e-142">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="94f2e-142">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="03f9f-142">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="03f9f-142">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
