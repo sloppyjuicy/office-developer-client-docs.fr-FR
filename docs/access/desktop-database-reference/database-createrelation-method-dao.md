@@ -10,26 +10,26 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e1e3919cbb47ca00d6fe9f399cba0c77e91417e7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fb530cc31756205e736422f28e7ece3f4cd79440
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606814"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885786"
 ---
-# <a name="databasecreaterelation-method-dao"></a><span data-ttu-id="4f303-102">Database.CreateRelation Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f303-102">Database.CreateRelation Method (DAO)</span></span>
+# <a name="databasecreaterelation-method-dao"></a><span data-ttu-id="deef3-102">Database.CreateRelation Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="deef3-102">Database.CreateRelation Method (DAO)</span></span>
 
-<span data-ttu-id="4f303-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f303-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="deef3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="deef3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4f303-p101">Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="4f303-p101">Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="deef3-p101">Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="deef3-p101">Creates a new **[Relation](relation-object-dao.md)** object (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4f303-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4f303-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="deef3-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="deef3-106">Syntax</span></span>
 
-<span data-ttu-id="4f303-107">*expression* . CreateRelation (***nom de*** ***Table***, ***ForeignTable***, ***attributs***)</span><span class="sxs-lookup"><span data-stu-id="4f303-107">*expression* .CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)</span></span>
+<span data-ttu-id="deef3-107">*expression* . CreateRelation (***nom de*** ***Table***, ***ForeignTable***, ***attributs***)</span><span class="sxs-lookup"><span data-stu-id="deef3-107">*expression* .CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)</span></span>
 
-<span data-ttu-id="4f303-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="4f303-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="deef3-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="deef3-108">*expression* A variable that represents a **Database** object.</span></span>
 
-### <a name="parameters"></a><span data-ttu-id="4f303-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4f303-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="deef3-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="deef3-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -40,66 +40,62 @@ ms.locfileid: "25606814"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4f303-110">Name</span><span class="sxs-lookup"><span data-stu-id="4f303-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="4f303-111">Obligatoire/Facultatif</span><span class="sxs-lookup"><span data-stu-id="4f303-111">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="4f303-112">Type de données</span><span class="sxs-lookup"><span data-stu-id="4f303-112">Data Type</span></span></p></th>
-<th><p><span data-ttu-id="4f303-113">Description</span><span class="sxs-lookup"><span data-stu-id="4f303-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="deef3-110">Name</span><span class="sxs-lookup"><span data-stu-id="deef3-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="deef3-111">Obligatoire/Facultatif</span><span class="sxs-lookup"><span data-stu-id="deef3-111">Required/Optional</span></span></p></th>
+<th><p><span data-ttu-id="deef3-112">Type de données</span><span class="sxs-lookup"><span data-stu-id="deef3-112">Data Type</span></span></p></th>
+<th><p><span data-ttu-id="deef3-113">Description</span><span class="sxs-lookup"><span data-stu-id="deef3-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4f303-114">Name</span><span class="sxs-lookup"><span data-stu-id="4f303-114">Name</span></span></p></td>
-<td><p><span data-ttu-id="4f303-115">Facultatif</span><span class="sxs-lookup"><span data-stu-id="4f303-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="4f303-116"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="4f303-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="4f303-p102"><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</span><span class="sxs-lookup"><span data-stu-id="4f303-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>Relation</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Relation</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="deef3-114">Name</span><span class="sxs-lookup"><span data-stu-id="deef3-114">Name</span></span></p></td>
+<td><p><span data-ttu-id="deef3-115">Facultatif</span><span class="sxs-lookup"><span data-stu-id="deef3-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="deef3-116"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="deef3-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="deef3-p102"><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</span><span class="sxs-lookup"><span data-stu-id="deef3-p102">A <strong>Variant</strong> (<strong>String</strong> subtype) that uniquely names the new <strong>Relation</strong> object. See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for details on valid <strong>Relation</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f303-119">Table</span><span class="sxs-lookup"><span data-stu-id="4f303-119">Table</span></span></p></td>
-<td><p><span data-ttu-id="4f303-120">Facultatif</span><span class="sxs-lookup"><span data-stu-id="4f303-120">Optional</span></span></p></td>
-<td><p><span data-ttu-id="4f303-121"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="4f303-121"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="4f303-p103"><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</span><span class="sxs-lookup"><span data-stu-id="4f303-p103">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the primary table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="deef3-119">Table</span><span class="sxs-lookup"><span data-stu-id="deef3-119">Table</span></span></p></td>
+<td><p><span data-ttu-id="deef3-120">Facultatif</span><span class="sxs-lookup"><span data-stu-id="deef3-120">Optional</span></span></p></td>
+<td><p><span data-ttu-id="deef3-121"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="deef3-121"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="deef3-p103"><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</span><span class="sxs-lookup"><span data-stu-id="deef3-p103">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the primary table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4f303-124">ForeignTable</span><span class="sxs-lookup"><span data-stu-id="4f303-124">ForeignTable</span></span></p></td>
-<td><p><span data-ttu-id="4f303-125">Facultatif</span><span class="sxs-lookup"><span data-stu-id="4f303-125">Optional</span></span></p></td>
-<td><p><span data-ttu-id="4f303-126"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="4f303-126"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="4f303-p104"><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table étrangère dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</span><span class="sxs-lookup"><span data-stu-id="4f303-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the foreign table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="deef3-124">ForeignTable</span><span class="sxs-lookup"><span data-stu-id="deef3-124">ForeignTable</span></span></p></td>
+<td><p><span data-ttu-id="deef3-125">Facultatif</span><span class="sxs-lookup"><span data-stu-id="deef3-125">Optional</span></span></p></td>
+<td><p><span data-ttu-id="deef3-126"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="deef3-126"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="deef3-p104"><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table étrangère dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</span><span class="sxs-lookup"><span data-stu-id="deef3-p104">A <strong>Variant</strong> (<strong>String</strong> subtype) that names the foreign table in the relation. If the table doesn't exist before you append the <strong>Relation</strong> object, a run-time error occurs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4f303-129">Attributs</span><span class="sxs-lookup"><span data-stu-id="4f303-129">Attributes</span></span></p></td>
-<td><p><span data-ttu-id="4f303-130">Facultatif</span><span class="sxs-lookup"><span data-stu-id="4f303-130">Optional</span></span></p></td>
-<td><p><span data-ttu-id="4f303-131"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="4f303-131"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="4f303-p105">Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus d’informations, consultez la propriété <strong><a href="field-attributes-property-dao.md">Attributes</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="4f303-p105">A constant or combination of constants that contains information about the relationship type. See the <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> property for details.</span></span></p></td>
+<td><p><span data-ttu-id="deef3-129">Attributs</span><span class="sxs-lookup"><span data-stu-id="deef3-129">Attributes</span></span></p></td>
+<td><p><span data-ttu-id="deef3-130">Facultatif</span><span class="sxs-lookup"><span data-stu-id="deef3-130">Optional</span></span></p></td>
+<td><p><span data-ttu-id="deef3-131"><strong>Variante</strong></span><span class="sxs-lookup"><span data-stu-id="deef3-131"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="deef3-p105">Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus d’informations, consultez la propriété <strong><a href="field-attributes-property-dao.md">Attributes</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="deef3-p105">A constant or combination of constants that contains information about the relationship type. See the <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> property for details.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="4f303-134"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="4f303-134"><<<<<<< HEAD</span></span>
-### <a name="return-value"></a><span data-ttu-id="4f303-135">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4f303-135">Return Value</span></span>
-=======
-### <a name="return-value"></a><span data-ttu-id="4f303-136">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4f303-136">Return value</span></span>
->>>>>>> <span data-ttu-id="4f303-137">master</span><span class="sxs-lookup"><span data-stu-id="4f303-137">master</span></span>
+### <a name="return-value"></a><span data-ttu-id="deef3-134">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="deef3-134">Return value</span></span>
 
-<span data-ttu-id="4f303-138">Relation</span><span class="sxs-lookup"><span data-stu-id="4f303-138">Relation</span></span>
+<span data-ttu-id="deef3-135">Relation</span><span class="sxs-lookup"><span data-stu-id="deef3-135">Relation</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4f303-139">Remarques</span><span class="sxs-lookup"><span data-stu-id="4f303-139">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="deef3-136">Remarques</span><span class="sxs-lookup"><span data-stu-id="deef3-136">Remarks</span></span>
 
-<span data-ttu-id="4f303-p106">L'objet **Relation** fournit des informations au moteur de base de données Microsoft Access sur la relation entre les champs dans deux objets **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)**. Vous pouvez implémenter l'intégrité référentielle en utilisant la propriété **Attributes**.</span><span class="sxs-lookup"><span data-stu-id="4f303-p106">The **Relation** object provides information to the Microsoft Access database engine about the relationship between fields in two **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** objects. You can implement referential integrity by using the **Attributes** property.</span></span>
+<span data-ttu-id="deef3-p106">L'objet **Relation** fournit des informations au moteur de base de données Microsoft Access sur la relation entre les champs dans deux objets **[TableDef](tabledef-object-dao.md)** ou **[QueryDef](querydef-object-dao.md)**. Vous pouvez implémenter l'intégrité référentielle en utilisant la propriété **Attributes**.</span><span class="sxs-lookup"><span data-stu-id="deef3-p106">The **Relation** object provides information to the Microsoft Access database engine about the relationship between fields in two **[TableDef](tabledef-object-dao.md)** or **[QueryDef](querydef-object-dao.md)** objects. You can implement referential integrity by using the **Attributes** property.</span></span>
 
-<span data-ttu-id="4f303-p107">Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateRelation**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété correspondante avant d'ajouter le nouvel objet à la collection. Après l'ajout de l'objet, il est impossible de modifier les paramètres de ses propriétés. Pour plus d'informations, consultez les rubriques des différentes propriétés.</span><span class="sxs-lookup"><span data-stu-id="4f303-p107">If you omit one or more of the optional parts when you use the **CreateRelation** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can't alter any of its property settings. See the individual property topics for more details.</span></span>
+<span data-ttu-id="deef3-p107">Si vous omettez un ou plusieurs arguments facultatifs avec la méthode **CreateRelation**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété correspondante avant d'ajouter le nouvel objet à la collection. Après l'ajout de l'objet, il est impossible de modifier les paramètres de ses propriétés. Pour plus d'informations, consultez les rubriques des différentes propriétés.</span><span class="sxs-lookup"><span data-stu-id="deef3-p107">If you omit one or more of the optional parts when you use the **CreateRelation** method, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can't alter any of its property settings. See the individual property topics for more details.</span></span>
 
-<span data-ttu-id="4f303-145">Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.</span><span class="sxs-lookup"><span data-stu-id="4f303-145">Before you can use the **[Append](fields-append-method-dao.md)** method on a **Relation** object, you must append the appropriate **[Field](field-object-dao.md)** objects to define the primary and foreign key relationship tables.</span></span>
+<span data-ttu-id="deef3-142">Avant de pouvoir appeler la méthode **[Append](fields-append-method-dao.md)** sur un objet **Relation**, vous devez ajouter les objets **[Field](field-object-dao.md)** appropriés pour définir la relation des tables de clé primaire et étrangère.</span><span class="sxs-lookup"><span data-stu-id="deef3-142">Before you can use the **[Append](fields-append-method-dao.md)** method on a **Relation** object, you must append the appropriate **[Field](field-object-dao.md)** objects to define the primary and foreign key relationship tables.</span></span>
 
-<span data-ttu-id="4f303-146">Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms des objets **champ** fournies dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’exécution se produit lorsque vous utilisez la méthode **Append** .</span><span class="sxs-lookup"><span data-stu-id="4f303-146">If name refers to an object that is already a member of the collection or if the **Field** object names provided in the subordinate **Fields** collection are invalid, a run-time error occurs when you use the **Append** method.</span></span>
+<span data-ttu-id="deef3-143">Si le nom fait référence à un objet qui est déjà membre de la collection ou si les noms des objets **champ** fournies dans la collection **Fields** subordonnée ne sont pas valides, une erreur d’exécution se produit lorsque vous utilisez la méthode **Append** .</span><span class="sxs-lookup"><span data-stu-id="deef3-143">If name refers to an object that is already a member of the collection or if the **Field** object names provided in the subordinate **Fields** collection are invalid, a run-time error occurs when you use the **Append** method.</span></span>
 
-<span data-ttu-id="4f303-147">Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.</span><span class="sxs-lookup"><span data-stu-id="4f303-147">You can't establish or maintain a relationship between a replicated table and a local table.</span></span>
+<span data-ttu-id="deef3-144">Vous ne pouvez ni établir ni conserver de relation entre une table répliquée et une table locale.</span><span class="sxs-lookup"><span data-stu-id="deef3-144">You can't establish or maintain a relationship between a replicated table and a local table.</span></span>
 
-<span data-ttu-id="4f303-148">Pour supprimer un objet **Relation** de la collection **[Relations](relations-collection-dao.md)**, appelez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection.</span><span class="sxs-lookup"><span data-stu-id="4f303-148">To remove a **Relation** object from the **[Relations](relations-collection-dao.md)** collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="deef3-145">Pour supprimer un objet **Relation** de la collection **[Relations](relations-collection-dao.md)**, appelez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection.</span><span class="sxs-lookup"><span data-stu-id="deef3-145">To remove a **Relation** object from the **[Relations](relations-collection-dao.md)** collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4f303-149">Exemple</span><span class="sxs-lookup"><span data-stu-id="4f303-149">Example</span></span>
+## <a name="example"></a><span data-ttu-id="deef3-146">Exemple</span><span class="sxs-lookup"><span data-stu-id="deef3-146">Example</span></span>
 
-<span data-ttu-id="4f303-p108">L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il illustre également comment la création d'un objet **Relation** entraîne celle des objets **Indexes** nécessaires dans la table étrangère (index DepartmentsEmployees de la table Employees).</span><span class="sxs-lookup"><span data-stu-id="4f303-p108">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
+<span data-ttu-id="deef3-p108">L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il illustre également comment la création d'un objet **Relation** entraîne celle des objets **Indexes** nécessaires dans la table étrangère (index DepartmentsEmployees de la table Employees).</span><span class="sxs-lookup"><span data-stu-id="deef3-p108">This example uses the **CreateRelation** method to create a **Relation** between the Employees **TableDef** and a new **TableDef** called Departments. This example also demonstrates how creating a new **Relation** will also create any necessary **Indexes** in the foreign table (the DepartmentsEmployees Index in the Employees table).</span></span>
 
 ```vb
     Sub CreateRelationX() 

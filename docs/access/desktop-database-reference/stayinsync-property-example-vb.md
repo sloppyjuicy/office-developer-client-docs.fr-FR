@@ -1,20 +1,26 @@
 ---
-<span data-ttu-id="fa160-101"><<<<<<< Titre tête : TOCTitle StayInSync propriété-Exemple (VB) : StayInSync propriété-Exemple (VB) === titre : StayInSync, propriété-Exemple (VB) TOCTitle : StayInSync, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="fa160-101"><<<<<<< HEAD title: StayInSync Property Example (VB) TOCTitle: StayInSync Property Example (VB) ======= title: StayInSync property example (VB) TOCTitle: StayInSync property example (VB)</span></span>
->>>>>>> <span data-ttu-id="fa160-102">Master ms:assetid : 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl : https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID : ms.date 48543535 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="fa160-102">master ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15) ms:contentKeyID: 48543535 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: StayInSync, propriété – Exemple (VB)
+TOCTitle: StayInSync property example (VB)
+ms:assetid: 1b35f19a-0104-efd5-5222-55f92e08473b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
+ms:contentKeyID: 48543535
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 63066000e5e5d8ff9ff1f52ea71cb76beaa2dff8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885428"
 ---
-
-<span data-ttu-id="fa160-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="fa160-103"><<<<<<< HEAD</span></span>
-# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="fa160-104">StayInSync, propriété - Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="fa160-104">StayInSync Property Example (VB)</span></span>
-=======
-# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="fa160-105">StayInSync, propriété-Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="fa160-105">StayInSync property example (VB)</span></span>
->>>>>>> <span data-ttu-id="fa160-106">master</span><span class="sxs-lookup"><span data-stu-id="fa160-106">master</span></span>
+# <a name="stayinsync-property-example-vb"></a><span data-ttu-id="3f490-102">StayInSync, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="3f490-102">StayInSync property example (VB)</span></span>
 
 
-<span data-ttu-id="fa160-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa160-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="3f490-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f490-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fa160-108">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="fa160-108">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="3f490-104">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="3f490-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="fa160-p101">La boucle externe affiche le nom et le prénom, l'état et l'identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d'enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="fa160-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="3f490-p101">La boucle externe affiche le nom et le prénom, l'état et l'identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d'enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="3f490-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```vb 
  

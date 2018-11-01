@@ -10,33 +10,33 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9377f61ec334f41b7f8ccba61b87a9d5953b4429
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 63762814d0eb90cccb86402dbd6284fd873aef73
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471397"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887802"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="5e158-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="5e158-102">QueryDef.RecordsAffected Property (DAO)</span></span>
+# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="cedb0-102">QueryDef.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="cedb0-102">QueryDef.RecordsAffected Property (DAO)</span></span>
 
 
-<span data-ttu-id="5e158-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e158-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="cedb0-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cedb0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e158-104">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](querydef-execute-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="5e158-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="cedb0-104">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](querydef-execute-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="cedb0-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5e158-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5e158-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cedb0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cedb0-105">Syntax</span></span>
 
-<span data-ttu-id="5e158-106">*expression* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="5e158-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="cedb0-106">*expression* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="cedb0-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="5e158-107">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="5e158-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="cedb0-107">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="cedb0-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5e158-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="5e158-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cedb0-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="cedb0-108">Remarks</span></span>
 
-<span data-ttu-id="5e158-109">Lorsque vous utilisez la méthode **Execute** pour exécuter une requête Action à partir d'un objet **QueryDef**, la propriété **RecordsAffected** contiendra le nombre d'enregistrements supprimés, mis à jour ou insérés.</span><span class="sxs-lookup"><span data-stu-id="5e158-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
+<span data-ttu-id="cedb0-109">Lorsque vous utilisez la méthode **Execute** pour exécuter une requête Action à partir d'un objet **QueryDef**, la propriété **RecordsAffected** contiendra le nombre d'enregistrements supprimés, mis à jour ou insérés.</span><span class="sxs-lookup"><span data-stu-id="cedb0-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5e158-110">Exemple</span><span class="sxs-lookup"><span data-stu-id="5e158-110">Example</span></span>
+## <a name="example"></a><span data-ttu-id="cedb0-110">Exemple</span><span class="sxs-lookup"><span data-stu-id="cedb0-110">Example</span></span>
 
-<span data-ttu-id="5e158-p101">Cet exemple utilise la propriété **RecordsAffected** avec des requêtes action exécutées à partir d'un objet **[Database](database-object-dao.md)** et d'un objet **QueryDef**. La fonction RecordsAffectedOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="5e158-p101">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="cedb0-p101">Cet exemple utilise la propriété **RecordsAffected** avec des requêtes action exécutées à partir d'un objet **[Database](database-object-dao.md)** et d'un objet **QueryDef**. La fonction RecordsAffectedOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="cedb0-p101">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object. The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

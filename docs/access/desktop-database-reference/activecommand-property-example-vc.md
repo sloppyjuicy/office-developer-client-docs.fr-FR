@@ -1,20 +1,25 @@
 ---
-<span data-ttu-id="c358b-101"><<<<<<< Titre tête : TOCTitle ActiveCommand, propriété-Exemple (VC ++) : ActiveCommand, propriété-Exemple (VC ++) ms:assetid : 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl : https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID : ms.date 48544157 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="c358b-101"><<<<<<< HEAD title: ActiveCommand Property Example (VC++) TOCTitle: ActiveCommand Property Example (VC++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: ActiveCommand, propriété – Exemple (VC++)
+TOCTitle: ActiveCommand property example (VC++)
+ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
+ms:contentKeyID: 48544157
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 8db00f46c657dd2b296963b7be50269b4699d171
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882622"
 ---
+# <a name="activecommand-property-example-vc"></a><span data-ttu-id="a082a-102">ActiveCommand, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a082a-102">ActiveCommand property example (VC++)</span></span>
 
-# <a name="activecommand-property-example-vc"></a><span data-ttu-id="c358b-102">ActiveCommand, propriété - Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="c358b-102">ActiveCommand Property Example (VC++)</span></span>
+<span data-ttu-id="a082a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a082a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c358b-103">=== titre : ActiveCommand, propriété-Exemple (VC ++) TOCTitle : ActiveCommand propriété-Exemple (VC ++) ms:assetid : 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl : https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID : ms.date 48544157 : 17/10/2018 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="c358b-103">======= title: ActiveCommand property example (VC++) TOCTitle: ActiveCommand property example (VC++) ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15) ms:contentKeyID: 48544157 ms.date: 10/17/2018 mtps_version: v=office.15</span></span>
----
+<span data-ttu-id="a082a-104">Cet exemple illustre la propriété [ActiveCommand ](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a082a-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-# <a name="activecommand-property-example-vc"></a><span data-ttu-id="c358b-104">ActiveCommand, propriété-Exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="c358b-104">ActiveCommand property example (VC++)</span></span>
->>>>>>> <span data-ttu-id="c358b-105">master</span><span class="sxs-lookup"><span data-stu-id="c358b-105">master</span></span>
-
-<span data-ttu-id="c358b-106">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c358b-106">**Applies to**: Access 2013 | Office 2013</span></span>
-
-<span data-ttu-id="c358b-107">Cet exemple illustre la propriété [ActiveCommand ](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c358b-107">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
-
-<span data-ttu-id="c358b-108">Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d'afficher le texte et le paramètre de la commande, qui ont servi à créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c358b-108">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="a082a-105">Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d'afficher le texte et le paramètre de la commande, qui ont servi à créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a082a-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```cpp 
  
