@@ -7,69 +7,69 @@ ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.openlocfilehash: 2e0ad3f70f1bfe2aa8128e0bd2f504c200546a9a
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862883"
+ms.locfileid: "25883637"
 ---
-# <a name="ado-programmers-guide"></a><span data-ttu-id="1ec7c-102">Guide du programmeur ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-102">ADO Programmer's Guide</span></span>
+# <a name="ado-programmers-guide"></a><span data-ttu-id="b6bf8-102">Guide du programmeur ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-102">ADO Programmer's Guide</span></span>
 
-<span data-ttu-id="1ec7c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ec7c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b6bf8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b6bf8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1ec7c-p101">Le Guide du programmeur ADO a été créé dans le but d'aider les développeurs qui découvrent ADO en leur donnant une présentation détaillée de la technologie. Ce guide décrit les bibliothèques de la famille ADO et utilise des exemples de code dans divers langages pour expliquer comment utiliser les bibliothèques, les meilleurs pratiques d'utilisation de ces bibliothèques, ainsi que des conseils et astuces pour tirer pleinement parti des performances de votre application ADO.</span><span class="sxs-lookup"><span data-stu-id="1ec7c-p101">The ADO Programmer's Guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology. This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.</span></span>
+<span data-ttu-id="b6bf8-p101">Le Guide du programmeur ADO a été créé dans le but d'aider les développeurs qui découvrent ADO en leur donnant une présentation détaillée de la technologie. Ce guide décrit les bibliothèques de la famille ADO et utilise des exemples de code dans divers langages pour expliquer comment utiliser les bibliothèques, les meilleurs pratiques d'utilisation de ces bibliothèques, ainsi que des conseils et astuces pour tirer pleinement parti des performances de votre application ADO.</span><span class="sxs-lookup"><span data-stu-id="b6bf8-p101">The ADO Programmer's Guide has been created to assist developers who are new to ADO by giving them a thorough introduction to the technology. This guide describes the libraries of the ADO family and uses sample code in a variety of languages to explain how to use the libraries, best practices for using the libraries, and tips and tricks for maximizing the performance of your ADO application.</span></span>
 
-<span data-ttu-id="1ec7c-106">Le Guide du programmeur ADO est composé des sections et chapitres suivants :</span><span class="sxs-lookup"><span data-stu-id="1ec7c-106">The ADO Programmer's Guide contains the following sections and chapters:</span></span>
+<span data-ttu-id="b6bf8-106">Le Guide du programmeur ADO est composé des sections et chapitres suivants :</span><span class="sxs-lookup"><span data-stu-id="b6bf8-106">The ADO Programmer's Guide contains the following sections and chapters:</span></span>
 
-- [<span data-ttu-id="1ec7c-107">Introduction</span><span class="sxs-lookup"><span data-stu-id="1ec7c-107">Introduction</span></span>](introduction-to-ado-programming.md)
+- [<span data-ttu-id="b6bf8-107">Introduction</span><span class="sxs-lookup"><span data-stu-id="b6bf8-107">Introduction</span></span>](introduction-to-ado-programming.md)
   
-- [<span data-ttu-id="1ec7c-108">Section I : ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="1ec7c-108">Section I: ActiveX Data Objects (ADO)</span></span>](section-i-activex-data-objects.md)
+- [<span data-ttu-id="b6bf8-108">Section I : ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="b6bf8-108">Section I: ActiveX Data Objects (ADO)</span></span>](section-i-activex-data-objects.md)
     
-    - [<span data-ttu-id="1ec7c-109">Chapitre 1 : Notions de base des objets ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-109">Chapter 1: ADO Fundamentals</span></span>](chapter-1-ado-fundamentals.md)
+    - [<span data-ttu-id="b6bf8-109">Chapitre 1 : Notions de base des objets ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-109">Chapter 1: ADO Fundamentals</span></span>](chapter-1-ado-fundamentals.md)
     
-    - [<span data-ttu-id="1ec7c-110">Chapitre 2 : Extraction des données</span><span class="sxs-lookup"><span data-stu-id="1ec7c-110">Chapter 2: Getting Data</span></span>](chapter-2-getting-data.md)
+    - [<span data-ttu-id="b6bf8-110">Chapitre 2 : Extraction des données</span><span class="sxs-lookup"><span data-stu-id="b6bf8-110">Chapter 2: Getting Data</span></span>](chapter-2-getting-data.md)
     
-    - [<span data-ttu-id="1ec7c-111">Chapitre 3 : Examen des données</span><span class="sxs-lookup"><span data-stu-id="1ec7c-111">Chapter 3: Examining Data</span></span>](chapter-3-examining-data.md)
+    - [<span data-ttu-id="b6bf8-111">Chapitre 3 : Examen des données</span><span class="sxs-lookup"><span data-stu-id="b6bf8-111">Chapter 3: Examining Data</span></span>](chapter-3-examining-data.md)
     
-    - [<span data-ttu-id="1ec7c-112">Chapitre 4 : Modification des données</span><span class="sxs-lookup"><span data-stu-id="1ec7c-112">Chapter 4: Editing Data</span></span>](chapter-4-editing-data.md)
+    - [<span data-ttu-id="b6bf8-112">Chapitre 4 : Modification des données</span><span class="sxs-lookup"><span data-stu-id="b6bf8-112">Chapter 4: Editing Data</span></span>](chapter-4-editing-data.md)
     
-    - [<span data-ttu-id="1ec7c-113">Chapitre 5 : Mise à jour et persistance des données</span><span class="sxs-lookup"><span data-stu-id="1ec7c-113">Chapter 5: Updating and Persisting Data</span></span>](chapter-5-updating-and-persisting-data.md)
+    - [<span data-ttu-id="b6bf8-113">Chapitre 5 : Mise à jour et persistance des données</span><span class="sxs-lookup"><span data-stu-id="b6bf8-113">Chapter 5: Updating and Persisting Data</span></span>](chapter-5-updating-and-persisting-data.md)
     
-    - [<span data-ttu-id="1ec7c-114">Chapitre 6 : Gestion des erreurs</span><span class="sxs-lookup"><span data-stu-id="1ec7c-114">Chapter 6: Error Handling</span></span>](chapter-6-error-handling.md)
+    - [<span data-ttu-id="b6bf8-114">Chapitre 6 : Gestion des erreurs</span><span class="sxs-lookup"><span data-stu-id="b6bf8-114">Chapter 6: Error Handling</span></span>](chapter-6-error-handling.md)
     
-    - [<span data-ttu-id="1ec7c-115">Chapitre 7 : Gestion des événements ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-115">Chapter 7: Handling ADO Events</span></span>](chapter-7-handling-ado-events.md)
+    - [<span data-ttu-id="b6bf8-115">Chapitre 7 : Gestion des événements ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-115">Chapter 7: Handling ADO Events</span></span>](chapter-7-handling-ado-events.md)
     
-    - [<span data-ttu-id="1ec7c-116">Chapitre 8 : Présentation des curseurs et des verrous</span><span class="sxs-lookup"><span data-stu-id="1ec7c-116">Chapter 8: Understanding Cursors and Locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
+    - [<span data-ttu-id="b6bf8-116">Chapitre 8 : Présentation des curseurs et des verrous</span><span class="sxs-lookup"><span data-stu-id="b6bf8-116">Chapter 8: Understanding Cursors and Locks</span></span>](chapter-8-understanding-cursors-and-locks.md)
     
-    - [<span data-ttu-id="1ec7c-117">Chapitre 9 : Mise en forme des données</span><span class="sxs-lookup"><span data-stu-id="1ec7c-117">Chapter 9: Data Shaping</span></span>](chapter-9-data-shaping.md)
+    - [<span data-ttu-id="b6bf8-117">Chapitre 9 : Mise en forme des données</span><span class="sxs-lookup"><span data-stu-id="b6bf8-117">Chapter 9: Data Shaping</span></span>](chapter-9-data-shaping.md)
     
-    - [<span data-ttu-id="1ec7c-118">Chapitre 10 : Enregistrements et flux</span><span class="sxs-lookup"><span data-stu-id="1ec7c-118">Chapter 10: Records and Streams</span></span>](chapter-10-records-and-streams.md)
+    - [<span data-ttu-id="b6bf8-118">Chapitre 10 : Enregistrements et flux</span><span class="sxs-lookup"><span data-stu-id="b6bf8-118">Chapter 10: Records and Streams</span></span>](chapter-10-records-and-streams.md)
 
-- [<span data-ttu-id="1ec7c-119">Section II : Remote Data Service (RDS)</span><span class="sxs-lookup"><span data-stu-id="1ec7c-119">Section II: Remote Data Service (RDS)</span></span>](section-ii-remote-data-service.md)
+- [<span data-ttu-id="b6bf8-119">Section II : Remote Data Service (RDS)</span><span class="sxs-lookup"><span data-stu-id="b6bf8-119">Section II: Remote Data Service (RDS)</span></span>](section-ii-remote-data-service.md)
     
-    - [<span data-ttu-id="1ec7c-120">Chapitre 11 : Notions de base relatives à RDS</span><span class="sxs-lookup"><span data-stu-id="1ec7c-120">Chapter 11: RDS Fundamentals</span></span>](chapter-11-rds-fundamentals.md)
+    - [<span data-ttu-id="b6bf8-120">Chapitre 11 : Notions de base relatives à RDS</span><span class="sxs-lookup"><span data-stu-id="b6bf8-120">Chapter 11: RDS Fundamentals</span></span>](chapter-11-rds-fundamentals.md)
     
-    - [<span data-ttu-id="1ec7c-121">Chapitre 12 : Didacticiel RDS</span><span class="sxs-lookup"><span data-stu-id="1ec7c-121">Chapter 12: RDS Tutorial</span></span>](chapter-12-rds-tutorial.md)
+    - [<span data-ttu-id="b6bf8-121">Chapitre 12 : Didacticiel RDS</span><span class="sxs-lookup"><span data-stu-id="b6bf8-121">Chapter 12: RDS Tutorial</span></span>](chapter-12-rds-tutorial.md)
     
-    - [<span data-ttu-id="1ec7c-122">Chapitre 13 : Utilisation et sécurité de RDS</span><span class="sxs-lookup"><span data-stu-id="1ec7c-122">Chapter 13: RDS Usage and Security</span></span>](chapter-13-rds-usage-and-security.md)
+    - [<span data-ttu-id="b6bf8-122">Chapitre 13 : Utilisation et sécurité de RDS</span><span class="sxs-lookup"><span data-stu-id="b6bf8-122">Chapter 13: RDS Usage and Security</span></span>](chapter-13-rds-usage-and-security.md)
 
-- [<span data-ttu-id="1ec7c-123">Section III : ActiveX Data Objects (Multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1ec7c-123">Section III: ActiveX Data Objects (Multidimensional) (ADOMD)</span></span>](section-iii-ado-multidimensional-ado-md.md)
+- [<span data-ttu-id="b6bf8-123">Section III : ActiveX Data Objects (Multidimensional) (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b6bf8-123">Section III: ActiveX Data Objects (Multidimensional) (ADOMD)</span></span>](section-iii-ado-multidimensional-ado-md.md)
     
-    - [<span data-ttu-id="1ec7c-124">Chapitre 14 : Principes fondamentaux d'ADO MD</span><span class="sxs-lookup"><span data-stu-id="1ec7c-124">Chapter 14: ADO MD Fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
+    - [<span data-ttu-id="b6bf8-124">Chapitre 14 : Principes fondamentaux d'ADO MD</span><span class="sxs-lookup"><span data-stu-id="b6bf8-124">Chapter 14: ADO MD Fundamentals</span></span>](chapter-14-ado-md-fundamentals.md)
 
-- [<span data-ttu-id="1ec7c-125">Section IV : ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span><span class="sxs-lookup"><span data-stu-id="1ec7c-125">Section IV: ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span></span>](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+- [<span data-ttu-id="b6bf8-125">Section IV : ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b6bf8-125">Section IV: ActiveX Data Objects Extensions for Data Definition Language and Security (ADOX)</span></span>](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
     
-    - [<span data-ttu-id="1ec7c-126">Chapitre 15 : Principes fondamentaux d'ADOX</span><span class="sxs-lookup"><span data-stu-id="1ec7c-126">Chapter 15: ADOX Fundamentals</span></span>](chapter-15-adox-fundamentals.md)
+    - [<span data-ttu-id="b6bf8-126">Chapitre 15 : Principes fondamentaux d'ADOX</span><span class="sxs-lookup"><span data-stu-id="b6bf8-126">Chapter 15: ADOX Fundamentals</span></span>](chapter-15-adox-fundamentals.md)
 
-- [<span data-ttu-id="1ec7c-127">Section V : Annexes</span><span class="sxs-lookup"><span data-stu-id="1ec7c-127">Section V: Appendixes</span></span>](section-v-appendixes.md)
+- [<span data-ttu-id="b6bf8-127">Section V : Annexes</span><span class="sxs-lookup"><span data-stu-id="b6bf8-127">Section V: Appendixes</span></span>](section-v-appendixes.md)
     
-    - [<span data-ttu-id="1ec7c-128">Annexe A : Fournisseurs</span><span class="sxs-lookup"><span data-stu-id="1ec7c-128">Appendix A: Providers</span></span>](appendix-a-providers.md)
+    - [<span data-ttu-id="b6bf8-128">Annexe A : Fournisseurs</span><span class="sxs-lookup"><span data-stu-id="b6bf8-128">Appendix A: Providers</span></span>](appendix-a-providers.md)
     
-    - [<span data-ttu-id="1ec7c-129">Annexe B : Erreurs ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-129">Appendix B: ADO Errors</span></span>](appendix-b-ado-errors.md)
+    - [<span data-ttu-id="b6bf8-129">Annexe B : Erreurs ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-129">Appendix B: ADO Errors</span></span>](appendix-b-ado-errors.md)
     
-    - [<span data-ttu-id="1ec7c-130">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-130">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
+    - [<span data-ttu-id="b6bf8-130">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-130">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
     
-    - [<span data-ttu-id="1ec7c-131">Annexe D : Exemples ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-131">Appendix D: ADO Samples</span></span>](appendix-d-ado-samples.md)
+    - [<span data-ttu-id="b6bf8-131">Annexe D : Exemples ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-131">Appendix D: ADO Samples</span></span>](appendix-d-ado-samples.md)
 
-- [<span data-ttu-id="1ec7c-132">Glossaire ADO</span><span class="sxs-lookup"><span data-stu-id="1ec7c-132">ADO Glossary</span></span>](ado-glossary.md)
+- [<span data-ttu-id="b6bf8-132">Glossaire ADO</span><span class="sxs-lookup"><span data-stu-id="b6bf8-132">ADO Glossary</span></span>](ado-glossary.md)
 

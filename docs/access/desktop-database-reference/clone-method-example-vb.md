@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249324(v=office.15)
 ms:contentKeyID: 48545085
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6b745425b817f86a3207d8e5279e11014bc3fb9
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 51b6d5ed6570ece56c03fd1d2514a47650ed1908
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862232"
+ms.locfileid: "25877393"
 ---
-# <a name="clone-method-example-vb"></a><span data-ttu-id="e33d5-102">Clone, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="e33d5-102">Clone method example (VB)</span></span>
+# <a name="clone-method-example-vb"></a><span data-ttu-id="92558-102">Clone, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="92558-102">Clone method example (VB)</span></span>
 
 
-<span data-ttu-id="e33d5-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="e33d5-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="92558-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92558-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e33d5-104">Cet exemple utilise la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis permet à l'utilisateur de positionner le pointeur d'enregistrement de chaque copie indépendamment des autres.</span><span class="sxs-lookup"><span data-stu-id="e33d5-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="92558-104">Cet exemple utilise la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis permet à l'utilisateur de positionner le pointeur d'enregistrement de chaque copie indépendamment des autres.</span><span class="sxs-lookup"><span data-stu-id="92558-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb 
  

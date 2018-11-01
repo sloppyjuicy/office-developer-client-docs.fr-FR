@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249073(v=office.15)
 ms:contentKeyID: 48543975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8b8428bca32cffec6d916e0f386b944d3aa0f6dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9f5dd4bbb8f7c539d8d0de50e62463c607351425
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469287"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875958"
 ---
-# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="08fce-102">Cell Object (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="08fce-102">Cell Object (ADO MD Reference)</span></span>
+# <a name="cell-object-ado-md-reference"></a><span data-ttu-id="ba9b9-102">Cell Object (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="ba9b9-102">Cell Object (ADO MD Reference)</span></span>
 
 
-<span data-ttu-id="08fce-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="08fce-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="ba9b9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba9b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="08fce-104">Cell, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="08fce-104">Cell Object (ADO MD)</span></span>](cell-object-ado-md.md)
+  - [<span data-ttu-id="ba9b9-104">Cellule, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ba9b9-104">Cell Object (ADO MD)</span></span>](cell-object-ado-md.md)
 
-  - [<span data-ttu-id="08fce-105">Cell Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="08fce-105">Cell Properties, Methods, and Events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
+  - [<span data-ttu-id="ba9b9-105">Cell Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ba9b9-105">Cell Properties, Methods, and Events (ADO MD)</span></span>](cell-properties-methods-and-events-ado-md.md)
 

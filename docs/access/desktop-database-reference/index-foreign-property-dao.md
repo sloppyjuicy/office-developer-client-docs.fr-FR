@@ -10,36 +10,36 @@ f1_keywords:
 - dao360.chm1052974
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 410629c3e5ebec47dd8acefd852379ee74568832
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9eaf15cda7819ec6b98608cdad052a112229906b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470816"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881558"
 ---
-# <a name="indexforeign-property-dao"></a><span data-ttu-id="d7bab-102">Index.Foreign Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7bab-102">Index.Foreign Property (DAO)</span></span>
+# <a name="indexforeign-property-dao"></a><span data-ttu-id="4718e-102">Index.Foreign Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="4718e-102">Index.Foreign Property (DAO)</span></span>
 
-<span data-ttu-id="d7bab-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7bab-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4718e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4718e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7bab-p101">Renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente une clé étrangère d'une table (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="d7bab-p101">Returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a foreign key in a table (Microsoft Access workspaces only). .</span></span>
+<span data-ttu-id="4718e-p101">Renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente une clé étrangère d'une table (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="4718e-p101">Returns a value that indicates whether an **[Index](index-object-dao.md)** object represents a foreign key in a table (Microsoft Access workspaces only). .</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d7bab-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d7bab-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4718e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4718e-106">Syntax</span></span>
 
-<span data-ttu-id="d7bab-107">*expression* . Étrangère</span><span class="sxs-lookup"><span data-stu-id="d7bab-107">*expression* .Foreign</span></span>
+<span data-ttu-id="4718e-107">*expression* . Étrangère</span><span class="sxs-lookup"><span data-stu-id="4718e-107">*expression* .Foreign</span></span>
 
-<span data-ttu-id="d7bab-108">*expression* Variable qui représente un objet **Index** .</span><span class="sxs-lookup"><span data-stu-id="d7bab-108">*expression* A variable that represents an **Index** object.</span></span>
+<span data-ttu-id="4718e-108">*expression* Variable qui représente un objet **Index** .</span><span class="sxs-lookup"><span data-stu-id="4718e-108">*expression* A variable that represents an **Index** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d7bab-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="d7bab-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4718e-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="4718e-109">Remarks</span></span>
 
-<span data-ttu-id="d7bab-110">La valeur de retour est une donnée de type **Boolean** qui renvoie **True** si l'objet **Index** représente un clé étrangère.</span><span class="sxs-lookup"><span data-stu-id="d7bab-110">The return value is a **Boolean** data type that returns **True** if the **Index** object represents a foreign key.</span></span>
+<span data-ttu-id="4718e-110">La valeur de retour est une donnée de type **Boolean** qui renvoie **True** si l'objet **Index** représente un clé étrangère.</span><span class="sxs-lookup"><span data-stu-id="4718e-110">The return value is a **Boolean** data type that returns **True** if the **Index** object represents a foreign key.</span></span>
 
-<span data-ttu-id="d7bab-111">Une clé étrangère consiste en un ou plusieurs champs d'une table étrangère qui identifient de manière unique toutes les lignes d'une table primaire.</span><span class="sxs-lookup"><span data-stu-id="d7bab-111">A foreign key consists of one or more fields in a foreign table that uniquely identify all rows in a primary table.</span></span>
+<span data-ttu-id="4718e-111">Une clé étrangère consiste en un ou plusieurs champs d'une table étrangère qui identifient de manière unique toutes les lignes d'une table primaire.</span><span class="sxs-lookup"><span data-stu-id="4718e-111">A foreign key consists of one or more fields in a foreign table that uniquely identify all rows in a primary table.</span></span>
 
-<span data-ttu-id="d7bab-112">Le moteur de base de données Microsoft Access crée un objet **Index** pour la table étrangère et définit la propriété **Foreign** lorsque vous créez une relation qui impose l'intégrité référentielle.</span><span class="sxs-lookup"><span data-stu-id="d7bab-112">The Microsoft Access database engine creates an **Index** object for the foreign table and sets the **Foreign** property when you create a relationship that enforces referential integrity.</span></span>
+<span data-ttu-id="4718e-112">Le moteur de base de données Microsoft Access crée un objet **Index** pour la table étrangère et définit la propriété **Foreign** lorsque vous créez une relation qui impose l'intégrité référentielle.</span><span class="sxs-lookup"><span data-stu-id="4718e-112">The Microsoft Access database engine creates an **Index** object for the foreign table and sets the **Foreign** property when you create a relationship that enforces referential integrity.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d7bab-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="d7bab-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4718e-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="4718e-113">Example</span></span>
 
-<span data-ttu-id="d7bab-p102">Cet exemple illustre comment la propriété **Foreign** permet d'identifier les objets **Index** d'une **TableDef** faisant office d'index de clé. Ces derniers sont créés par le moteur de base de données Microsoft Access lors de la création d'une **Relation**. Le nom par défaut des index de clés étrangères est le nom de la table primaire suivi de celui de la table étrangère. La fonction ForeignOutput est indispensable pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="d7bab-p102">This example shows how the **Foreign** property can indicate which **Index** objects in a **TableDef** are foreign key indexes. Such indexes are created by the Microsoft Access database engine when a **Relation** is created. The default name for the foreign key indexes is the name of the primary table plus the name of the foreign table. The ForeignOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="4718e-p102">Cet exemple illustre comment la propriété **Foreign** permet d'identifier les objets **Index** d'une **TableDef** faisant office d'index de clé. Ces derniers sont créés par le moteur de base de données Microsoft Access lors de la création d'une **Relation**. Le nom par défaut des index de clés étrangères est le nom de la table primaire suivi de celui de la table étrangère. La fonction ForeignOutput est indispensable pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="4718e-p102">This example shows how the **Foreign** property can indicate which **Index** objects in a **TableDef** are foreign key indexes. Such indexes are created by the Microsoft Access database engine when a **Relation** is created. The default name for the foreign key indexes is the name of the primary table plus the name of the foreign table. The ForeignOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub ForeignX() 

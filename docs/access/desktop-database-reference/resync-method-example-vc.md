@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249229(v=office.15)
 ms:contentKeyID: 48544665
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 021b7d92c97a343e74068c41cae29acbb059855b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: e87035c751bf5542a13ab7e750415a990a14adf7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862502"
+ms.locfileid: "25885366"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="c54d0-102">Resync, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="c54d0-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="1edf3-102">Resync, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="1edf3-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="c54d0-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="c54d0-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="1edf3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1edf3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c54d0-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="c54d0-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="1edf3-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="1edf3-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

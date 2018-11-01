@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249589(v=office.15)
 ms:contentKeyID: 48546116
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd7c6f5321f124fb40e8b2037569ac4dd63a408b
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 21d123d61c18f28adc8380f1eb45bbadc585ee9d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862106"
+ms.locfileid: "25877309"
 ---
-# <a name="find-method-example-jscript"></a><span data-ttu-id="69453-102">Find, méthode – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="69453-102">Find method example (JScript)</span></span>
+# <a name="find-method-example-jscript"></a><span data-ttu-id="a2ce5-102">Find, méthode – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="a2ce5-102">Find method example (JScript)</span></span>
 
 
-<span data-ttu-id="69453-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="69453-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="a2ce5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2ce5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69453-104">Cet exemple utilise la méthode [Find](find-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour localiser et afficher les sociétés de la base de données ***Northwind*** dont le nom commence par la lettre G. Coupez et collez le code suivant dans le bloc-notes ou un autre éditeur de texte et enregistrez-le sous \*\* FindJS.asp\*\*.</span><span class="sxs-lookup"><span data-stu-id="69453-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
+<span data-ttu-id="a2ce5-104">Cet exemple utilise la méthode [Find](find-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour localiser et afficher les sociétés de la base de données ***Northwind*** dont le nom commence par la lettre G. Coupez et collez le code suivant dans le bloc-notes ou un autre éditeur de texte et enregistrez-le sous \*\* FindJS.asp\*\*.</span><span class="sxs-lookup"><span data-stu-id="a2ce5-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and display the companies in the ***Northwind*** database whose name begins with the letter G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.</span></span>
 
 ```javascript 
  

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
 ms:contentKeyID: 52071209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed3272b4b8e309dd48de66ce9e791156b8e0da68
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e480add8172a94976404ad04eeb7d3f23e79227
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469740"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871457"
 ---
-# <a name="querydefs-properties-dao"></a><span data-ttu-id="821b1-102">QueryDefs Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="821b1-102">QueryDefs Properties (DAO)</span></span>
+# <a name="querydefs-properties-dao"></a><span data-ttu-id="4a694-102">QueryDefs Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="4a694-102">QueryDefs Properties (DAO)</span></span>
 
 
-<span data-ttu-id="821b1-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="821b1-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="4a694-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a694-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="821b1-104">QueryDefs.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="821b1-104">QueryDefs.Count Property (DAO)</span></span>](querydefs-count-property-dao.md)
+  - [<span data-ttu-id="4a694-104">QueryDefs.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="4a694-104">QueryDefs.Count Property (DAO)</span></span>](querydefs-count-property-dao.md)
 

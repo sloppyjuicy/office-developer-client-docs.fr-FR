@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250302(v=office.15)
 ms:contentKeyID: 48548918
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aba5cd48caa791817c6d8c4083d8a340aba55283
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7ceef55e583df5c824e74ddeef3f2cafd78cde54
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863359"
+ms.locfileid: "25884890"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="d7ac4-102">Indexes Append, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="d7ac4-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="0d7a9-102">Indexes Append, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="0d7a9-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="d7ac4-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7ac4-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="0d7a9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0d7a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7ac4-p101">Le code suivant illustre la création d'un index. Celui-ci porte sur deux colonnes de la table.</span><span class="sxs-lookup"><span data-stu-id="d7ac4-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="0d7a9-p101">Le code suivant illustre la création d'un index. Celui-ci porte sur deux colonnes de la table.</span><span class="sxs-lookup"><span data-stu-id="0d7a9-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

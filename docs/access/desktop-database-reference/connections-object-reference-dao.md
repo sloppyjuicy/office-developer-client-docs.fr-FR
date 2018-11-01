@@ -6,25 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125639(v=office.15)
 ms:contentKeyID: 52074513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aabc138c229af4c00244dc82b6d3161e6e61e3d9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 614914141a10d4120f0a61f86175ac63a718e06c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472140"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886871"
 ---
-# <a name="connections-object-reference-dao"></a><span data-ttu-id="fa928-102">Connections Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa928-102">Connections Object Reference (DAO)</span></span>
+# <a name="connections-object-reference-dao"></a><span data-ttu-id="266d1-102">Connections Object Reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="266d1-102">Connections Object Reference (DAO)</span></span>
 
 
-<span data-ttu-id="fa928-103">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa928-103">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="266d1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="266d1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="fa928-104">Connections Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa928-104">Connections Collection (DAO)</span></span>](connections-collection-dao.md)
+  - [<span data-ttu-id="266d1-104">Connections Collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="266d1-104">Connections Collection (DAO)</span></span>](connections-collection-dao.md)
 
-  - [<span data-ttu-id="fa928-105">Connections Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa928-105">Connections Members (DAO)</span></span>](connections-members-dao.md)
+  - [<span data-ttu-id="266d1-105">Connections Members (DAO)</span><span class="sxs-lookup"><span data-stu-id="266d1-105">Connections Members (DAO)</span></span>](connections-members-dao.md)
 
-  - [<span data-ttu-id="fa928-106">Propriétés de connexion (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa928-106">Connections Properties (DAO)</span></span>](connections-properties-dao.md)
+  - [<span data-ttu-id="266d1-106">Propriétés de connexion (DAO)</span><span class="sxs-lookup"><span data-stu-id="266d1-106">Connections Properties (DAO)</span></span>](connections-properties-dao.md)
 
-  - [<span data-ttu-id="fa928-107">Méthodes de connexion (DAO)</span><span class="sxs-lookup"><span data-stu-id="fa928-107">Connections Methods (DAO)</span></span>](connections-methods-dao.md)
+  - [<span data-ttu-id="266d1-107">Méthodes de connexion (DAO)</span><span class="sxs-lookup"><span data-stu-id="266d1-107">Connections Methods (DAO)</span></span>](connections-methods-dao.md)
 
