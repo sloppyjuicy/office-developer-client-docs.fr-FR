@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249671(v=office.15)
 ms:contentKeyID: 48546457
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb55812de85b9db7273cc6d3be0e6f9bd6545a13
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: b5a9474c2415b986ff7008a67133ba1557a56fc2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605267"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869364"
 ---
 # <a name="command-property-adox"></a>Command, propriété (ADOX)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Spécifie un objet [Command](command-object-ado.md) ADO qui peut servir à créer ou à exécuter la procédure.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie un objet **Command** ADO valide.
 

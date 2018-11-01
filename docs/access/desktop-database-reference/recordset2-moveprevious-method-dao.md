@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197336(v=office.15)
 ms:contentKeyID: 48546235
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3d437fe3bb271cc50c187b185bcd3078b523a73a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cdc6173a419881b64b89b8fd898f1c11a4b2f64b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469306"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875657"
 ---
 # <a name="recordset2moveprevious-method-dao"></a>Recordset2.MovePrevious Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Atteint l'enregistrement précédent d'un objet **Recordset** spécifié et en fait l'enregistrement actif.
 

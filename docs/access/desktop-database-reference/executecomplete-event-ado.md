@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 231cfcf42cead3074996870971488dadb60583ae
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: e29db2848d7ec7b229831156ee64815a152a4bfc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605419"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887900"
 ---
 # <a name="executecomplete-event-ado"></a>ExecuteComplete, événement (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
@@ -56,7 +56,5 @@ ExecuteComplete*RecordsAffected* *pError*, *adStatus*, *pCommand*, *Connection*,
 
 ## <a name="remarks"></a>Notes
 
-<<<<<<< Tête un événement **ExecuteComplete** peut se produire suite à la **connexion.** [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)), **commande.** [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)), **Recordset.** [Open](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md), ou **Recordset.** Méthodes [NextRecordset](nextrecordset-method-ado.md) .
-=== Un événement **ExecuteComplete** peut se produire suite à la **connexion.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **commande.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Open](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md), ou **Recordset.** Méthodes [NextRecordset](nextrecordset-method-ado.md) .
->>>>>>> master
+Un événement **ExecuteComplete** peut se produire avec les méthodes **Connection.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Command.**[Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.**[Open](open-method-ado-recordset.md), **Recordset.**[Requery](requery-method-ado.md) ou **Recordset.**[NextRecordset](nextrecordset-method-ado.md).
 

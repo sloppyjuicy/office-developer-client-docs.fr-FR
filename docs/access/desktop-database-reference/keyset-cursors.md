@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249236(v=office.15)
 ms:contentKeyID: 48544690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7bdb03b4a205e1b4954e86368c3af4aa62f773b2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 66e6b5ff69d22fa50d9765eb2087c373613bdb7d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469058"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886941"
 ---
 # <a name="keyset-cursors"></a>Curseurs de jeu de clés
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Sa capacité à détecter les modifications place le curseur de jeu de clés entre le curseur statique et le curseur dynamique. À l'instar du curseur statique, il ne détecte pas toujours les changements apportés à l'appartenance et à l'ordre du jeu de résultats. À l'instar du curseur dynamique, il détecte les changements apportés aux valeurs des lignes du jeu de résultats.
 

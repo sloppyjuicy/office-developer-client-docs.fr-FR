@@ -1,21 +1,21 @@
 ---
-title: Référence de Microsoft ActiveX Data Objects
+title: Référence des objets ADO (ActiveX Data Objects) Microsoft
 TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a774dc4ee20e1f97e2b77d8835abb0524881e465
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 54d605beb0f6653695dafcd4a9ffffeb2f097d5b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606758"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871429"
 ---
-# <a name="microsoft-activex-data-objects-reference"></a>Référence de Microsoft ActiveX Data Objects
+# <a name="microsoft-activex-data-objects-reference"></a>Référence des objets ADO (ActiveX Data Objects) Microsoft
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="purpose"></a>Utilité
 
@@ -23,9 +23,7 @@ Microsoft ActiveX Data Objects (ADO) permet à vos applications clientes d'accé
 
 ## <a name="rds"></a>RDS
 
-<<<<<<< Tête ADO comprend également le Service RDS (Remote Data), à laquelle vous pouvez déplacer des données d’un serveur à une application cliente ou une page Web, manipuler les données sur le client et renvoyer les mises à jour sur le serveur dans un seul aller-retour.
-=== ADO comprend également le Service RDS (Remote Data), à laquelle vous pouvez déplacer des données d’un serveur à une application cliente ou une page Web, manipuler les données sur le client et renvoyer les mises à jour sur le serveur dans un seul aller-retour.
->>>>>>> master
+ADO comprend également le Service RDS (Remote Data), à laquelle vous pouvez déplacer des données d’un serveur à une application cliente ou une page Web, manipuler les données sur le client et renvoyer les mises à jour sur le serveur dans un seul aller-retour.
 
 ## <a name="ado-md"></a>ADO MD
 

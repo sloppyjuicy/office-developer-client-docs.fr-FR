@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d62c80c18ffd091d71c88fc64c9bd5c60c580101
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 60f0b30574bd97572739664ca37c44e69258d544
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472537"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881348"
 ---
 # <a name="findrecord-macro-action"></a>TrouverEnregistrement, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l’action **TrouverEnregistrement** pour rechercher la première instance de données qui répondent aux critères spécifiés par les arguments **TrouverEnregistrement** . Ces données peuvent être dans l’enregistrement actif, dans un enregistrement suivant ou précédent ou dans le premier enregistrement. Vous pouvez rechercher des enregistrements dans la table active feuille de données, requête, formulaire ou formulaire.
 

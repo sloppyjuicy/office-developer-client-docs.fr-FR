@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Item, propriété-Exemple (VC ++) TOCTitle : Item, propriété-Exemple (VC ++) === titre : élément, propriété-Exemple (VC ++) TOCTitle : élément, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248928(v=office.15) ms:contentKeyID : ms.date 48543452 : 18/09/2015 mtps_version : v=office.15
+title: Item, propriété – Exemple (VC++)
+TOCTitle: Item property example (VC++)
+ms:assetid: 17bfcb84-e0f7-7a24-6fc4-ab1dacd2766a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
+ms:contentKeyID: 48543452
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ae4ffe7f1d600fe89788c3084a9e9dc409fc00f1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882496"
 ---
-
-<<<<<<< Tête
-# <a name="item-property-example-vc"></a>Item, propriété - Exemple (VC++)
-=======
-# <a name="item-property-example-vc"></a>Item, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="item-property-example-vc"></a>Item, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  ***Pubs *** avec une commande paramétrée.
 

@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7863f8500a81014f3c70b5547fb363c46803f4f1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 0ee4878a742454eb1b02f4b9a45c14ad79097c46
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471336"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876259"
 ---
 # <a name="before-delete-macro-event"></a>Avant la suppression, événement de macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'événement **Avant la suppression** se produit lorsqu'un enregistrement est supprimé, mais avant la validation de la modification.
 
@@ -58,15 +58,15 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <tbody>
 <tr class="odd">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instruction de Macro commentaire</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
+<td><p><a href="group-macro-statement.md">Group, instruction de Macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Autre bloc de Macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
@@ -74,23 +74,23 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">EffacerMacroErreur, action de macro</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Action de Macro EffacerMacroErreur</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
-<td><p><a href="onerror-macro-action.md">SurErreur, action de macro</a></p></td>
+<td><p><a href="onerror-macro-action.md">Action de Macro SurErreur</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="raiseerror-macro-action.md">DéclencherErreur, action de macro</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Action de Macro Déclenchererreur</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
-<td><p><a href="setlocalvar-macro-action.md">DéfinirVarLocale, action de macro</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Action de Macro DéfinirVarLocale</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="stopmacro-macro-action.md">StopMacro Macro Action</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Action de Macro ArrêtMacro</a></p></td>
 </tr>
 </tbody>
 </table>

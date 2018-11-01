@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle de la propriété DefinedSize (ADO) : propriété DefinedSize (ADO) === titre : DefinedSize, propriété (ADO) TOCTitle : DefinedSize, propriété (ADO)
->>>>>>> Master ms:assetid : 8d6db4c9-fbdc-9fcd-63f0-bd677c5ebcf6 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249619(v=office.15) ms:contentKeyID : ms.date 48546257 : 18/09/2015 mtps_version : v=office.15
+title: DefinedSize, propriété (ADO)
+TOCTitle: DefinedSize property (ADO)
+ms:assetid: 8d6db4c9-fbdc-9fcd-63f0-bd677c5ebcf6
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249619(v=office.15)
+ms:contentKeyID: 48546257
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0a0e67cfdbe60ebf2c49cb3e726311d2fa61bd3e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868853"
 ---
-
-<<<<<<< Tête
 # <a name="definedsize-property-ado"></a>DefinedSize, propriété (ADO)
-=======
-# <a name="definedsize-property-ado"></a>DefinedSize, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique la capacité en données d'un objet [Field](field-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie une valeur de type **Long** qui reflète la taille définie pour un champ sous la forme d'un nombre d'octets.
 

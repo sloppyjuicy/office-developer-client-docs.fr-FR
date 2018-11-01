@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6d3af3026052954ec74b10026e0cf288a6aa5249
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca4d8d2fd8797ffb5ae0861e86dfa02faf7bb62c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469471"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875776"
 ---
 # <a name="dealing-with-failed-updates"></a>Traitement des mises à jour échouées
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
-## <a name="dealing-with-failed-updates"></a>Traitement des mises à jour échouées
+## <a name="dealing-with-failed-updates"></a>Traitement des échecs de mise à jour
 
 Lorsqu'une mise à jour se solde par un échec, la résolution des erreurs dépend de leur nature, de leur sévérité et de la logique de votre application. Toutefois, si la base de données est partagée avec d'autres utilisateurs, une erreur commune consiste à ce qu'une autre personne modifie le champ avant vous. Ce type d'erreur est appelé un *conflit*. ADO détecte cette situation et signale une erreur.
 

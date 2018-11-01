@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e1fd3d9ad8dd8dc16587a59a0a24b57543c92288
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470331"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878422"
 ---
 # <a name="recordset2-members-dao"></a>Recordset2 Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet Recordset2 représente les enregistrements d'une table de base ou les enregistrements générés suite à l'exécution d'une requête.
 
@@ -65,7 +65,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Renvoie un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> qui est une copie de l' <strong>objet QueryDef</strong> utilisé pour créer l’objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-delete-method-dao.md">Supprimer</a></strong></p></td>
+<td><p><strong><a href="recordset2-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Méthode non prise en charge pour cet objet.</p></td>
 </tr>
 <tr class="even">
@@ -241,7 +241,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-filter-property-dao.md">Filtre</a></strong></p></td>
+<td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet <strong>Recordset</strong> ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
@@ -261,7 +261,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">

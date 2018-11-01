@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26c83c9770ce7372338a054090025c67c32a9c36
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469654"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868692"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>Configuration d'une DLL pour son exécution sur DCOM
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Les étapes suivantes expliquent dans les grandes lignes comment configurer des bibliothèques de liens dynamiques d'un objet métier pour utiliser DCOM et Microsoft® Internet Information Services (protocole HTTP) via les services de composants.
 

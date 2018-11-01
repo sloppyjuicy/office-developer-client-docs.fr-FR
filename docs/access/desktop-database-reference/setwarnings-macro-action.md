@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 573f9c2e4a458c6f48c517c59162ba3473aa8d81
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1a1081ac8778c143270e4e2536c53bb47982af92
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469821"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885513"
 ---
 # <a name="setwarnings-macro-action"></a>Avertissements, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'action **Avertissements** permet d'activer ou de désactiver les messages système.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : DeleteRule, propriété-Exemple (VC ++) TOCTitle : DeleteRule, propriété-Exemple (VC ++) === titre : DeleteRule, propriété-Exemple (VC ++) TOCTitle : DeleteRule, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : 364efee7-d579-57df-aeb0-fa352a72d704 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249122(v=office.15) ms:contentKeyID : ms.date 48544164 : 18/09/2015 mtps_version : v=office.15
+title: DeleteRule, propriété – Exemple (VC++)
+TOCTitle: DeleteRule property example (VC++)
+ms:assetid: 364efee7-d579-57df-aeb0-fa352a72d704
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249122(v=office.15)
+ms:contentKeyID: 48544164
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 97e2e1d9a9c801fc7982ec9bdd84e060a03ceccf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875482"
 ---
-
-<<<<<<< Tête
-# <a name="deleterule-property-example-vc"></a>DeleteRule, propriété - Exemple (VC++)
-=======
-# <a name="deleterule-property-example-vc"></a>DeleteRule, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="deleterule-property-example-vc"></a>DeleteRule, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [DeleteRule](deleterule-property-adox.md) d'un objet [Key](key-object-adox.md). Le code ajoute un nouvel objet [Table](table-object-adox.md), puis définit une nouvelle clé primaire en attribuant la valeur **adRICascade** à la propriété **DeleteRule**.
 

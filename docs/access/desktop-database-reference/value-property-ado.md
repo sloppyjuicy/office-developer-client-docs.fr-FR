@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : valeur propriété (ADO) TOCTitle : valeur de propriété (ADO) === titre : Value, propriété (ADO) TOCTitle : Value, propriété (ADO)
->>>>>>> Master ms:assetid : ff21d122-98e3-2b48-d92f-e696b8079fc5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250310(v=office.15) ms:contentKeyID : ms.date 48548958 : 18/09/2015 mtps_version : v=office.15
+title: Value, propriété (ADO)
+TOCTitle: Value property (ADO)
+ms:assetid: ff21d122-98e3-2b48-d92f-e696b8079fc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
+ms:contentKeyID: 48548958
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 856f145c195c189775355fef662ea082ec629fd0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883938"
 ---
-
-<<<<<<< Tête
 # <a name="value-property-ado"></a>Value, propriété (ADO)
-=======
-# <a name="value-property-ado"></a>Value, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique la valeur attribuée à un objet [Field](field-object-ado.md), [Parameter](parameter-object-ado.md) ou [Property](property-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur **Variant** qui indique la valeur de l'objet. La valeur par défaut dépend de la propriété [Type](type-property-ado.md).
 

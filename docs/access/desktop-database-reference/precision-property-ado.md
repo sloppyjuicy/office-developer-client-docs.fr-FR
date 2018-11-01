@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle précision propriété (ADO) : précision propriété (ADO) === titre :, propriété (ADO) de la précision TOCTitle : propriété précision (ADO)
->>>>>>> Master ms:assetid : c9d54d78-d5a5-caf8-d635-259d1fcc0595 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249983(v=office.15) ms:contentKeyID : ms.date 48547685 : 18/09/2015 mtps_version : v=office.15
+title: Precision, propriété (ADO)
+TOCTitle: Precision property (ADO)
+ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
+ms:contentKeyID: 48547685
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: db2000c2db48215df42b5cd81fb35be0f0c4be9b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869959"
 ---
-
-<<<<<<< Tête
 # <a name="precision-property-ado"></a>Precision, propriété (ADO)
-=======
-# <a name="precision-property-ado"></a>Precision, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le degré de précision des valeurs numériques d'un objet [Parameter](parameter-object-ado.md) ou d'un objet [Field](field-object-ado.md) numérique.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur de type **Byte** qui indique le nombre maximal de chiffres utilisés pour représenter les valeurs.
 

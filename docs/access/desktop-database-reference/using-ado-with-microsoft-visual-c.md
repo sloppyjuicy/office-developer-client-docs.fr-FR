@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249548(v=office.15)
 ms:contentKeyID: 48545930
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d31f5720d1b6835b92aae69498df031329a5b414
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0ddacbdb45521078db5e047f82002c89cb7f17c0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861112"
+ms.locfileid: "25886927"
 ---
 # <a name="using-ado-with-microsoft-visual-c"></a>Utilisation d’ADO avec Microsoft Visual C++
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Pour plus d'informations sur l'utilisation d'ADO avec Visual C++, consultez les sections suivantes :
 

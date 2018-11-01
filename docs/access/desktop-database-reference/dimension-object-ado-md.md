@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 15ae89905c9ca82c4c41701c4ed713c02722e322
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e3581f9bce5e2e56b341928df3415a1b9b223beb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469132"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872885"
 ---
 # <a name="dimension-object-ado-md"></a>Dimension, objet (ADO MD)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Représente une des dimensions d'un cube multidimensionnel, contenant une ou plusieurs hiérarchies de membres.
 

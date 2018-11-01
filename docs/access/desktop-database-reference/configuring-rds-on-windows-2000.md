@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 80ce29ed129035dcb6799844a4b78509b976f0ee
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2a02db4af012bb7eb0b297d93ef35ba3fc0bd90c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862939"
+ms.locfileid: "25883595"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>Configuration de RDS sur Windows 2000
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Si vous rencontrez des difficultés pour faire fonctionner RDS correctement après avoir effectué une mise à niveau vers Windows 2000, suivez les étapes ci-dessous pour tenter de résoudre le problème.
 
@@ -31,11 +31,7 @@ Si vous rencontrez des difficultés pour faire fonctionner RDS correctement apr�
 
 4.  À l’aide de l’utilitaire RegEdit, accédez à dans le registre » HKEY\_LOCAL\_ordinateur\\système\\CurrentControlSet\\Services\\W3SVC\\paramètres\\ADCLaunch » et vérifiez qu’il existe une clé **appelé RDSServer.Datafactory**. Dans le cas contraire, créez-la.
 
-<<<<<<< EN-TÊTE
-5.  En utilisant le gestionnaire des services Internet, accédez au Site Web par défaut et affichez les propriétés de la racine virtuelle MSADC. Examinez l'onglet Sécurité de répertoire au niveau de la section « Restrictions par adresse IP et nom de domaine ». Si la case à cocher « Accès refusé » est activée, sélectionnez « Accès autorisé ».
-=======
 5.  À l’aide du Gestionnaire des Services Internet, accédez au site Web par défaut et afficher les propriétés de la racine virtuelle MSADC. Examinez l'onglet Sécurité de répertoire au niveau de la section « Restrictions par adresse IP et nom de domaine ». Si la case à cocher « Accès refusé » est activée, sélectionnez « Accès autorisé ».
->>>>>>> master
 
 Essayez de redémarrer le serveur si ces modifications ne semblent pas résoudre le problème.
 

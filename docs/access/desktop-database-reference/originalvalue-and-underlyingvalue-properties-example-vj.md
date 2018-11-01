@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++) TOCTitle : OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++) === titre : OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++) TOCTitle : OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++)
->>>>>>> Master ms:assetid : 622d0356-e33d-4378-df5e-8f15fa91d260 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249368(v=office.15) ms:contentKeyID : ms.date 48545233 : 18/09/2015 mtps_version : v=office.15
+title: OriginalValue et UnderlyingValue, propriétés – Exemple (VJ++)
+TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)
+ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
+ms:contentKeyID: 48545233
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b6af489106c582afc862ff93d8d1263accdbff47
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880277"
 ---
-
-<<<<<<< Tête
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue et UnderlyingValue, propriétés - Exemple (VJ++)
-=======
-# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue et UnderlyingValue, propriétés-exemple (VJ ++)
->>>>>>> master
+# <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue et UnderlyingValue, propriétés – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre les propriétés [OriginalValue](originalvalue-property-ado.md) et [UnderlyingValue](underlyingvalue-property-ado.md) en affichant un message si les données sous-jacentes d'un enregistrement ont été modifiées lors d'une mise à jour par lot d'un [Recordset](recordset-object-ado.md).
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193209(v=office.15)
 ms:contentKeyID: 48544594
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c7de1a67b973948d37bbdb558a6f2059dae61558
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78a6bf0f0b170a69635837d8e2b40a8e1cf5f6d7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471429"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883525"
 ---
 # <a name="comment-macro-statement"></a>Comment, instruction de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'instruction **Comment** peut être utilisée pour fournir des notes explicatives dans une macro.
 

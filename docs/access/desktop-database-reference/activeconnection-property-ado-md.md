@@ -1,24 +1,25 @@
 ---
-<<<<<<< Titre tête : TOCTitle ActiveConnection, propriété (ADO MD) : ActiveConnection, propriété (ADO MD) ms:assetid : d09f0f91-5e1d-01ed-4d83-eaf58ff718a2 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250043(v=office.15) ms:contentKeyID : ms.date 48547845 : mtps_ 18/09/2015 version : v=office.15
+title: ActiveConnection, propriété (ADO MD)
+TOCTitle: ActiveConnection property (ADO MD)
+ms:assetid: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15)
+ms:contentKeyID: 48547845
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 2d2ed71f938089d3238eddee91f0c533bba266c4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880010"
 ---
-
 # <a name="activeconnection-property-ado-md"></a>ActiveConnection, propriété (ADO MD)
 
-=== titre : ActiveConnection, propriété (ADO MD) TOCTitle : ActiveConnection, propriété (ADO MD) ms:assetid : d09f0f91-5e1d-01ed-4d83-eaf58ff718a2 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250043(v=office.15) ms:contentKeyID : ms.date 48547845 : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="activeconnection-property-ado-md"></a>ActiveConnection, propriété (ADO MD)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique à quel objet [Connection](connection-object-ado.md) ADO l'ensemble de cellules ou le catalogue actif appartient actuellement.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur de type **Variant** qui contient une chaîne définissant une connexion ou un objet **Connection**. La valeur par défaut est vide.
 
@@ -34,16 +35,8 @@ La modification de la base de données par défaut de la connexion référencée
 
 Une erreur se produit si vous tentez de modifier la propriété **ActiveConnection** d'un objet **Cellset** ouvert.
 
-<<<<<<< Tête
-
-> [!NOTE]
-> <P>Dans Visual Basic, pensez à utiliser le mot clé <STRONG>Set</STRONG> lors de la définition de la propriété <STRONG>ActiveConnection</STRONG> sur un objet <STRONG>Connection</STRONG> . Si vous omettez le mot clé <STRONG>Set</STRONG> , que vous ne définissez la propriété <STRONG>ActiveConnection</STRONG> égale à la propriété par défaut de l’objet <STRONG>Connection</STRONG> , <STRONG>ConnectionString</STRONG>. Le code fonctionne ; Toutefois, vous allez créer une connexion supplémentaire à la source de données, qui peut avoir une incidence sur les performances.</P>
-
-
-=======
 > [!NOTE]
 > Dans Visual Basic, pensez à utiliser le mot clé **Set** lors de la définition de la propriété **ActiveConnection** sur un objet **Connection** . Si vous omettez le mot clé **Set** , que vous ne définissez la propriété **ActiveConnection** égale à la propriété par défaut de l’objet **Connection** , **ConnectionString**. Le code fonctionne ; Toutefois, vous allez créer une connexion supplémentaire à la source de données, qui peut avoir une incidence sur les performances.
->>>>>>> master
 
 Lorsque vous utilisez le fournisseur de données MSOLAP, définissez comme source de données d'une chaîne de connexion un nom de serveur et affectez au catalogue initial le nom d'un catalogue de la source de données. Pour vous connecter à un fichier de cube déconnecté d'un serveur, affectez comme valeur d'emplacement le chemin d'accès complet au fichier .CUB. Dans tous les cas, attribuez au fournisseur le nom du fournisseur. Par exemple, la chaîne suivante se connecte à un catalogue intitulé « Bobs Video Store » sur un serveur dénommé « Servername » avec le fournisseur MSOLAP :
 

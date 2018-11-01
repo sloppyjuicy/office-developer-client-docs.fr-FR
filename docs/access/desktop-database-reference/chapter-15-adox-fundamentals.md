@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249673(v=office.15)
 ms:contentKeyID: 48546464
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 362fd0784ee596852af7b16fae5636330a52ed59
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 72152a67a9846adacbc6b200a3517c7e65b9fc4c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863744"
+ms.locfileid: "25881908"
 ---
 # <a name="chapter-15-adox-fundamentals"></a>Chapitre 15 : Principes de base ADOX
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Microsoft® ActiveX® Data Objects Extensions for Data Definition Language and Security (ADOX) est une extension des objets et du modèle de programmation ADO. ADOX inclut des objets destinés à créer et modifier des schémas ou encore à gérer la sécurité. Comme il s'agit d'une approche orientée objet de la manipulation de schémas, elle permet d'écrire un code fonctionnant sur diverses sources de données, indépendamment des différences que présentent les syntaxes natives.
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249226(v=office.15)
 ms:contentKeyID: 48544643
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9db8da66ab2c7bae1f28271ae37573f06ca222d7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 201ea2b46ad2bb08e631882cebd5419b6b301179
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470873"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867747"
 ---
 # <a name="xml-persistence-format"></a>Format de persistance XML
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="xml-persistence-format"></a>Format de persistance XML
 

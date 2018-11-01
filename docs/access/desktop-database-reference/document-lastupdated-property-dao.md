@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
 ms:contentKeyID: 48546388
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8192dc32554b29c9fe024f34f08757cb512aa5b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ad5a84dcc1765cc90fdfb08adfb6610be7057401
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472337"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879647"
 ---
 # <a name="documentlastupdated-property-dao"></a>Document.LastUpdated Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données **Variant** en lecture seule.
 

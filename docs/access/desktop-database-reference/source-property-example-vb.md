@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle Source propriété-Exemple (VB) : Source de propriété-Exemple (VB) === titre : Source, propriété-Exemple (VB) TOCTitle : Source, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 7ebc5028-8a2c-51ab-a397-8a50642fabd5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249532(v=office.15) ms:contentKeyID : ms.date 48545885 : 18/09/2015 mtps_version : v=office.15
+title: Source, propriété – Exemple (VB)
+TOCTitle: Source property example (VB)
+ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
+ms:contentKeyID: 48545885
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 98d5af89d911f6bbc442427dbb15ccb172f73c0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889664"
 ---
-
-<<<<<<< Tête
-# <a name="source-property-example-vb"></a>Source, propriété - Exemple (VB)
-=======
-# <a name="source-property-example-vb"></a>Source, propriété-Exemple (VB)
->>>>>>> master
+# <a name="source-property-example-vb"></a>Source, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Source](source-property-ado-recordset.md) en ouvrant trois objets [Recordset](recordset-object-ado.md) faisant référence à différentes sources de données.
 

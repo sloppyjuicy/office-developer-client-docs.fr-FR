@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Type, propriété-Exemple (objet Field) (VC ++) TOCTitle : Type, propriété-Exemple (objet Field) (VC ++) === titre : Type, propriété-Exemple (objet Field) (VC ++) TOCTitle : Type, propriété-Exemple (objet Field) (VC ++)
->>>>>>> Master ms:assetid : d157407d-e7c9-897e-a0d1-e6396fb78690 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250045(v=office.15) ms:contentKeyID : ms.date 48547858 : 18/09/2015 mtps_version : v=office.15
+title: Type, propriété – Exemple (Field) (VC++)
+TOCTitle: Type property example (Field) (VC++)
+ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
+ms:contentKeyID: 48547858
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: bf9a00e4fafeccf5e284599ec55f9252e8bde568
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884506"
 ---
-
-<<<<<<< Tête
-# <a name="type-property-example-field-vc"></a>Type, propriété - Exemple (objet Field) (VC++)
-=======
-# <a name="type-property-example-field-vc"></a>Type, propriété-Exemple (objet Field) (VC ++)
->>>>>>> master
+# <a name="type-property-example-field-vc"></a>Type, propriété – Exemple (Field) (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété **Type** de tous les objets [Field](field-object-ado.md), dans la table ***Employees***. La fonction FieldType est nécessaire pour que cette procédure s’exécute.
 

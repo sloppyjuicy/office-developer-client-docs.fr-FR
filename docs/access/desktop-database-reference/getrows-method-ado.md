@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0f7f38e44e26238e5a55feaaad302bbf427d678
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 99988383c40b84e1993582ad0d1c07491de82933
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606149"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879878"
 ---
 # <a name="getrows-method-ado"></a>GetRows, méthode (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Récupère plusieurs enregistrements d'un objet [Recordset](recordset-object-ado.md) dans un tableau.
@@ -25,11 +25,7 @@ Récupère plusieurs enregistrements d'un objet [Recordset](recordset-object-ado
 
 *tableau* = *jeu d’enregistrements*. GetRows (*lignes*, *Démarrez*, *champs* )
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Retourne une valeur de type **Variant** qui représente un tableau à deux dimensions.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249007(v=office.15)
 ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee7f29fa12b7158f2886f908666fa485ddf291cd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35cab114da6536ea1a0123e0da2541dd69125824
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470523"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877883"
 ---
 # <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Fournisseur de persistance Microsoft OLE DB (fournisseur de service ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013 
 
 Le fournisseur de persistance Microsoft OLE DB vous permet d’enregistrer un objet [Recordset](recordset-object-ado.md) dans un fichier ultérieurement restaurer cet objet **Recordset** à partir du fichier. Informations de schéma, les données et les modifications en attente sont conservés.
 

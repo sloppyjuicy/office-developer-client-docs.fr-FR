@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Filter et RecordCount propriétés-exemple (VB) TOCTitle : Filter et RecordCount propriétés-exemple (VB) === titre : Filter et RecordCount, propriétés-exemple (VB) TOCTitle : propriétés Filter et RecordCount exemple (VB)
->>>>>>> Master ms:assetid : 3da4623e-03e7-27ac-7351-3b22415be0b9 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249167(v=office.15) ms:contentKeyID : ms.date 48544354 : 18/09/2015 mtps_version : v=office.15
+title: Filter et RecordCount, propriétés – Exemple (VB)
+TOCTitle: Filter and RecordCount properties example (VB)
+ms:assetid: 3da4623e-03e7-27ac-7351-3b22415be0b9
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
+ms:contentKeyID: 48544354
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3fe5065c75408e7093fbd2b39e7a84400d648e99
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873165"
 ---
-
-<<<<<<< Tête
-# <a name="filter-and-recordcount-properties-example-vb"></a>Filter et RecordCount, propriétés - Exemple (VB)
-=======
-# <a name="filter-and-recordcount-properties-example-vb"></a>Filter et RecordCount, propriétés-exemple (VB)
->>>>>>> master
+# <a name="filter-and-recordcount-properties-example-vb"></a>Filter et RecordCount, propriétés – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment ouvrir un **jeu d’enregistrements** de la table éditeurs dans la base de données ***Pubs*** . Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d'enregistrements visibles aux éditeurs d'une région ou d'un pays donné. La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d'enregistrements filtrés et non filtrés.
 

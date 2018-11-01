@@ -8,16 +8,16 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 573ec86a573697ebe52886535f8544bbaab61d7d
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 2cd84f6e84d35cb24b2fd9b74146f3d401bbaba6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861462"
+ms.locfileid: "25869441"
 ---
 # <a name="create-procedure-statement-microsoft-access-sql"></a>Instruction CREATE PROCEDURE (Microsoft Access SQL)
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013 
 
 Crée une procédure stockée.
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 07763e32e0f8687816dc39298f91733ca814d275
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c4d5a5a1565aeda41e5a52127e9f82b5304e686
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469119"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876882"
 ---
 # <a name="editrecord-data-block"></a>ModifierEnregistrement, bloc de données
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifier les valeurs contenues dans un enregistrement existant.
 
@@ -56,22 +56,22 @@ Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">AnnulerModificationEnregistrement, action de macro</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Action de Macro AnnulerModificationEnregistrement</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
+<td><p><a href="comment-macro-statement.md">Instruction de Macro commentaire</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
+<td><p><a href="group-macro-statement.md">Group, instruction de Macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Else, instruction de Macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">DéfinirChamp, action de macro</a></p></td>
+<td><p><a href="setfield-macro-action.md">Action de Macro SetField</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">DéfinirVarLocale, action de macro</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Action de Macro DéfinirVarLocale</a></p></td>
 </tr>
 </tbody>
 </table>

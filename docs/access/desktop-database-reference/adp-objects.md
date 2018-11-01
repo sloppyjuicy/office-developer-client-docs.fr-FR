@@ -6,28 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)
 ms:contentKeyID: 52071277
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb23156ec26ac4302e77b2abe6127605c7fcf204
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 52c60e3ad564307985e9322bbf470d5113a595bf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470731"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884589"
 ---
-# <a name="adp-objects"></a>ADP Objects
+# <a name="adp-objects"></a>Objets ADP
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
-  - [CopierFichierBaseDeDonnées, action de macro](copydatabasefile-macro-action.md)
+  - [Action de Macro CopierFichierBaseDeDonnées](copydatabasefile-macro-action.md)
 
-  - [OuvrirSchéma, action de macro](opendiagram-macro-action.md)
+  - [Action de Macro OuvrirSchéma](opendiagram-macro-action.md)
 
-  - [OuvrirFonction, action de macro](openfunction-macro-action.md)
+  - [Action de Macro OuvrirFonction](openfunction-macro-action.md)
 
-  - [OuvrirProcédureStockée, action de macro](openstoredprocedure-macro-action.md)
+  - [Action de Macro OuvrirProcédureStockée](openstoredprocedure-macro-action.md)
 
-  - [OuvrirVue, action de macro](openview-macro-action.md)
+  - [Action de Macro OuvrirVue](openview-macro-action.md)
 
   - [TransférerBaseDeDonnéesSQL, action de macro](transfersqldatabase-macro-action.md)
 

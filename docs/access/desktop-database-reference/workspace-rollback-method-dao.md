@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845335(v=office.15)
 ms:contentKeyID: 48543294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ef95f7c891c59239df82913e3235eef2d5f9545
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 04ff03ea173c7b319c9c61902d3700739dd1c7ff
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471872"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868069"
 ---
 # <a name="workspacerollback-method-dao"></a>Workspace.Rollback Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Met fin à transaction en cours et restaure les bases de données dans l'objet **Workspace** à l'état dans lequel elles se trouvaient au début de la transaction actuelle.
 

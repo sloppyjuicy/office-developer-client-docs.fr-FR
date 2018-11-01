@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle Source, propriété-Exemple (VJ ++) : Source, propriété-Exemple (VJ ++) === titre : exemple de propriété Source (VJ ++) TOCTitle : exemple de propriété Source (VJ ++)
->>>>>>> Master ms:assetid : cfe6293f-19b7-cc57-c53a-611f841273a5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250036(v=office.15) ms:contentKeyID : ms.date 48547821 : 18/09/2015 mtps_version : v=office.15
+title: Source, propriété – Exemple (VJ++)
+TOCTitle: Source property example (VJ++)
+ms:assetid: cfe6293f-19b7-cc57-c53a-611f841273a5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250036(v=office.15)
+ms:contentKeyID: 48547821
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 032a6804d2976ac6eca1c4fc24cff0555aa949cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875708"
 ---
-
-<<<<<<< Tête
-# <a name="source-property-example-vj"></a>Source, propriété - Exemple (VJ++)
-=======
-# <a name="source-property-example-vj"></a>Exemple de propriété source (VJ ++)
->>>>>>> master
+# <a name="source-property-example-vj"></a>Source, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Source](source-property-ado-recordset.md) en ouvrant trois objets [Recordset](recordset-object-ado.md) faisant référence à différentes sources de données.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c68af31fec00178cf4f2a78cd64980ac0b262206
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fe14fd74f30a4d686dca517acd84d89a3df82555
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604448"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871926"
 ---
 # <a name="rds-programming-model-in-detail"></a>Présentation détaillée du modèle de programmation RDS
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
@@ -46,9 +46,7 @@ RDS fournit un programme serveur par défaut capable d'exécuter des requêtes S
 
 Le modèle objet RDS fournit cette fonctionnalité grâce à l'objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).
 
-<<<<<<< Tête outre, cet objet possède une méthode pour la création d’un objet **Recordset** vide que vous pouvez remplir par programme ([CreateRecordset](createrecordset-method-rds.md)) et une autre méthode pour convertir un objet **Recordset** dans un texte chaîne pour créer une page Web ([ConvertToString](converttostring-method-rds.md)).
-=== En outre, cet objet possède une méthode pour la création d’un objet **Recordset** vide que vous pouvez remplir par programme ([CreateRecordset](createrecordset-method-rds.md)) et une autre méthode pour convertir un objet **Recordset** en chaîne de texte pour créer une page Web () [ConvertToString](converttostring-method-rds.md)).
->>>>>>> master
+En outre, cet objet possède une méthode pour la création d’un objet **Recordset** vide que vous pouvez remplir par programme ([CreateRecordset](createrecordset-method-rds.md)) et une autre méthode pour convertir un objet **Recordset** en chaîne de texte pour créer une page Web ([ ConvertToString](converttostring-method-rds.md)).
 
 ADO vous permet de remplacer une partie du comportement de commande et de connexion standard de **RDSServer.DataFactory** grâce à un gestionnaire **DataFactory** et à un fichier de personnalisation qui contient les paramètres de connexion, de commande et de sécurité.
 
@@ -62,9 +60,7 @@ Le modèle objet RDS fournit ces fonctionnalités grâce à l'objet [RDS.DataCon
 
 L'objet **RDS.DataControl** présente deux aspects. Le premier porte sur la source de données. Si vous définissez les informations de connexion et de commande à l'aide des propriétés **Connect** et **SQL** de l'objet **RDS.DataControl**, la source de données utilise automatiquement l'objet **RDS.DataSpace** pour créer une référence à l'objet **RDSServer.DataFactory** par défaut. Puis, l'objet **RDSServer.DataFactory** utilise la valeur de la propriété **Connect** pour établir la connexion à la source de données et la valeur de la propriété **SQL** pour obtenir un objet **Recordset** à partir de la source de données et retourne l'objet **Recordset** à l'objet **RDS.DataControl**.
 
-<<<<<<< Tête le second aspect porte sur l’affichage des a renvoyé une information **Recordset** dans un contrôle visuel. Vous pouvez associer un contrôle visuel à l'objet **RDS.DataControl** (dans un processus appelé liaison) et accéder aux informations contenues dans l'objet **Recordset** associé, en affichant les résultats de la requête dans une page Web à l'aide de Microsoft® Internet Explorer. Chaque objet **RDS.DataControl** lie un objet **Recordset**, représentant les résultats d'une seule requête, à un ou plusieurs contrôles visuels (par exemple, une zone de texte, une zone de liste déroulante, un contrôle Grid, etc.). Une page peut comporter plusieurs objets **RDS.DataControl**. Chaque objet **RDS.DataControl** peut être connecté à une source de données différente et contenir les résultats d'une requête distincte.
-=== Le second aspect porte sur l’affichage des informations de **Recordset** retournées dans un contrôle visuel. Vous pouvez associer un contrôle visuel à la **RDS. DataControl** (dans un processus appelé liaison) et accéder aux informations de l’objet **Recordset** associé, en affichant les résultats de requête dans une page Web dans Microsoft® Internet Explorer. Chaque objet **RDS.DataControl** lie un objet **Recordset**, représentant les résultats d'une seule requête, à un ou plusieurs contrôles visuels (par exemple, une zone de texte, une zone de liste déroulante, un contrôle Grid, etc.). Une page peut comporter plusieurs objets **RDS.DataControl**. Chaque objet **RDS.DataControl** peut être connecté à une source de données différente et contenir les résultats d'une requête distincte.
->>>>>>> master
+Le second aspect porte sur l'affichage des informations de l'objet **Recordset** retournées dans un contrôle visuel. Vous pouvez associer un contrôle visuel à la **RDS. DataControl** (dans un processus appelé liaison) et accéder aux informations de l’objet **Recordset** associé, en affichant les résultats de requête dans une page Web dans Microsoft® Internet Explorer. Chaque objet **RDS.DataControl** lie un objet **Recordset**, représentant les résultats d'une seule requête, à un ou plusieurs contrôles visuels (par exemple, une zone de texte, une zone de liste déroulante, un contrôle Grid, etc.). Une page peut comporter plusieurs objets **RDS.DataControl**. Chaque objet **RDS.DataControl** peut être connecté à une source de données différente et contenir les résultats d'une requête distincte.
 
 L'objet **RDS.DataControl** comporte ses propres méthodes de navigation, de tri et de filtrage des lignes de l'objet **Recordset** associé. Ces méthodes, bien que similaires à celles de l'objet **Recordset** ADO, présentent quelques différences.
 

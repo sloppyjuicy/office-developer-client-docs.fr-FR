@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++) === titre : MarshalOptions, propriété-Exemple (VC ++) TOCTitle : MarshalOptions, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : 8c47eb55-f86d-e4c0-9617-d2ac3c91199f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249617(v=office.15) ms:contentKeyID : ms.date 48546236 : 18/09/2015 mtps_version : v=office.15
+title: MarshalOptions, propriété – Exemple (VC++)
+TOCTitle: MarshalOptions property example (VC++)
+ms:assetid: 8c47eb55-f86d-e4c0-9617-d2ac3c91199f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249617(v=office.15)
+ms:contentKeyID: 48546236
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3d5043e104b9fd424cd1c13b641dc69cc32b6c91
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881523"
 ---
-
-<<<<<<< Tête
-# <a name="marshaloptions-property-example-vc"></a>MarshalOptions, propriété - Exemple (VC++)
-=======
-# <a name="marshaloptions-property-example-vc"></a>MarshalOptions, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="marshaloptions-property-example-vc"></a>MarshalOptions, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [MarshalOptions](marshaloptions-property-ado.md) pour spécifier les lignes renvoyées au serveur : toutes les lignes ou uniquement les lignes modifiées.
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84e2e9873e076128c42e9fa7ae46d902f47865c7
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 0ac5e65356e7ee66cda864bffc983ae1d394825b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606023"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879605"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount, propriété (ADO MD)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le nombre de membres dont l'objet [Member](member-object-ado-md.md) actif est le parent dans une hiérarchie.
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-=======
 ## <a name="return-values"></a>Valeurs de retour
->>>>>>> master
 
 Renvoie un nombre entier de type **Long** et est en lecture seule.
 

@@ -1,16 +1,21 @@
 ---
-<<<<<<< Titre tête : AbsolutePosition et CursorLocation, propriétés-exemple (JScript) TOCTitle : AbsolutePosition et CursorLocation, propriétés-exemple (JScript) ms:assetid : dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID : ms.date 48548142 : 18/09/2015 mtps_version : v=office.15
+title: AbsolutePosition et CursorLocation, propriétés – Exemple (JScript)
+TOCTitle: AbsolutePosition and CursorLocation properties example (JScript)
+ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
+ms:contentKeyID: 48548142
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 85dbd90fcf70b9c98414e1e2d496a51c356d096d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885604"
 ---
+# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition et CursorLocation, propriétés – Exemple (JScript)
 
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition et CursorLocation, propriétés - Exemple (JScript)
-
-=== titre : AbsolutePosition et CursorLocation, propriétés-exemple (JScript) TOCTitle : ms:assetid d’exemple (JScript) les propriétés AbsolutePosition et CursorLocation : dc98dbcc-ad00-91cb-1cf0-ee6c9150a391 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250117(v=office.15) ms:contentKeyID : ms.date 48548142 : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a>AbsolutePosition et CursorLocation, propriétés-exemple (JScript)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-property-ado.md) peut effectuer un suivi de la progression d'une boucle qui énumère tous les enregistrements d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [CursorLocation](cursorlocation-property-ado.md) pour activer la propriété **AbsolutePosition** en définissant le curseur sur un curseur client. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePositionJS.asp**.
 
@@ -23,11 +28,7 @@ Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-pr
 <html> 
  
 <head> 
-<<<<<<< HEAD
-<title>AbsolutePosition and CursorLocation Properties Example (JScript)</title> 
-=======
 <title>AbsolutePosition and CursorLocation properties example (JScript)</title> 
->>>>>>> master
 <style> 
 <!-- 
 BODY { 
@@ -52,11 +53,7 @@ BODY {
 </head> 
  
 <body> 
-<<<<<<< HEAD
-<h1>AbsolutePosition and CursorLocation Properties Example (JScript)</h1> 
-=======
 <h1>AbsolutePosition and CursorLocation properties example (JScript)</h1> 
->>>>>>> master
 <% 
  // connection and recordset variables 
  var strCnxn = "Provider='sqloledb';Data Source=" + Request.ServerVariables("SERVER_NAME") + ";" + 

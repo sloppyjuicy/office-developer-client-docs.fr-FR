@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249596(v=office.15)
 ms:contentKeyID: 48546135
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c9ad5387bed374cfd14eb860ee01c805e128710
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 34880d0b45ab3d5d12a65b7ea2ffcdb953af8d7d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860916"
+ms.locfileid: "25889398"
 ---
 # <a name="using-ado-with-microsoft-visual-j"></a>Utilisation d’ADO avec Microsoft Visual J++
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez implémenter ADO à l'aide de Visual J++ des façons suivantes :
 

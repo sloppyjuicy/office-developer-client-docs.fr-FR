@@ -6,21 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e41633ddb2730af66ddeee400ad035d5a17ed90d
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ac8225430d35d18df224dcfe42e59181a76407cf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25607052"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871534"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Fournisseur Microsoft OLE DB pour le service d'indexation Microsoft
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
-<<<<<<< Tête le fournisseur Microsoft OLE DB pour le Service d’indexation Microsoft fournit l’accès en lecture seule par programme à un système de fichiers et des données Web indexées par le Service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
-=== Le fournisseur Microsoft OLE DB pour le Service d’indexation Microsoft fournit l’accès en lecture seule par programme aux données de web et le système de fichiers indexés par le Service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
->>>>>>> master
+Le fournisseur Microsoft OLE DB pour le Service d’indexation Microsoft fournit l’accès en lecture seule par programme aux données de web et le système de fichiers indexés par le Service d’indexation Microsoft. Les applications ADO peuvent émettre des requêtes SQL pour extraire du contenu et des informations sur les propriétés des fichiers.
 
 Le fournisseur est libre de thread et utilise Unicode.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249318(v=office.15)
 ms:contentKeyID: 48545073
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ac089fdc934596370ad3357694de1e5bbf4abaf
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ebf993ceab98d61a09b8ec47bc9d8947498b086a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469599"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873116"
 ---
 # <a name="ado-events-reference"></a>ADO Events Reference
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
   - [Événements ADO](ado-events.md)
 

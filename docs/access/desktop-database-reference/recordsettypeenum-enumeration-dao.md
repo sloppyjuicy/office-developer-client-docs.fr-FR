@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195231(v=office.15)
 ms:contentKeyID: 48545357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 951894e15b9dfe416c8d0af1b3c6e8965f1477b7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3fe1901e559317521b96890501ee4495a78a3540
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471338"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869875"
 ---
 # <a name="recordsettypeenum-enumeration-dao"></a>Énumération RecordsetTypeEnum (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisé avec la propriété **Type** pour spécifier le type d'objet **Recordset**.
 

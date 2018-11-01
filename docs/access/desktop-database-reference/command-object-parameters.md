@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249862(v=office.15)
 ms:contentKeyID: 48547218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 16e292c5700c653300e5493cbd613326621266c1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b3ce61f514e174595a458f66ea0a6c671ce5a9dc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469552"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880172"
 ---
 # <a name="command-object-parameters"></a>Paramètres de l'objet Command
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'exemple suivant illustre une utilisation plus intéressante de l'objet **Command**. En effet, le texte de la commande SQL y a été modifié pour le rendre paramétrable. Il est donc possible de réutiliser la commande, en passant une autre valeur pour le paramètre à chaque nouvelle opération. Étant donné que la propriété **Prepared** de l'objet **Command** est égale à **True**, ADO exige du fournisseur qu'il compile la commande spécifiée dans **CommandText** avant sa première exécution. Il conserve également la commande compilée en mémoire. La première exécution de la commande est légèrement ralentie en raison de la charge de traitement imposée par sa préparation. Toutefois, les performances sont améliorées par la suite, à chaque nouvel appel de la commande. En d'autres termes, les commandes doivent être préparées uniquement si vous comptez les utiliser plusieurs fois.
 

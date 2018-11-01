@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249651(v=office.15)
 ms:contentKeyID: 48546395
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f45bb8e148fe2ba252b2620d41685006302cfdb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a3e1799e5e40ffa3ffcd6698900b8678b309696e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469897"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885156"
 ---
 # <a name="operation-of-non-parameterized-commands"></a>Fonctionnement des commandes non paramétrées
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Pour les commandes non paramétrées, toutes les commandes du fournisseur sont exécutées et les **jeux d'enregistrements** sont créés pendant l'exécution de la commande. Si cette dernière est exécutée de manière synchrone, tous les **jeux d'enregistrements** sont entièrement renseignés. Si une exécution asynchrone a été sélectionnée, le degré de remplissage des **jeux d'enregistrements** dépend du mode de remplissage et de la taille des **jeux d'enregistrements**.
 

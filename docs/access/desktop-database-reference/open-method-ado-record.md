@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f29f707f02ed8adbf2b1881b0721ce912b278353
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 5965cc557c3533475fc97051b163462d994e0430
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605827"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886808"
 ---
 # <a name="open-method-ado-record"></a>Open, méthode (objet Record ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Ouvre un objet [Record](record-object-ado.md) existant ou crée un nouvel élément représenté par l'objet **Record** (tel qu'un fichier ou un répertoire).
@@ -73,10 +73,6 @@ Si l'objet **Record** représente une entité à laquelle il n'est pas possible 
 
 
 > [!NOTE]
-<<<<<<< Tête
-> <P>[!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le <A href="microsoft-ole-db-provider-for-internet-publishing.md">fournisseur Microsoft OLE DB pour la publication Internet</A>. Pour plus d'informations, consultez <A href="absolute-and-relative-urls.md">URL absolues et relatives</A>.</P>
-=======
 > [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
->>>>>>> master
 
 

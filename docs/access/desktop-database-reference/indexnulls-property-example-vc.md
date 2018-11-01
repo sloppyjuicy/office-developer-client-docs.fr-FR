@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : IndexNulls, propriété-Exemple (VC ++) TOCTitle : IndexNulls, propriété-Exemple (VC ++) === titre : IndexNulls, propriété-Exemple (VC ++) TOCTitle : IndexNulls, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248813(v=office.15) ms:contentKeyID : ms.date 48543039 : 18/09/2015 mtps_version : v=office.15
+title: IndexNulls, propriété – Exemple (VC++)
+TOCTitle: IndexNulls property example (VC++)
+ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
+ms:contentKeyID: 48543039
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 8f91883349a39a5674459328d5335cc892e0bb79
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877239"
 ---
-
-<<<<<<< Tête
-# <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété - Exemple (VC++)
-=======
-# <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l'entrée utilisateur. Ensuite, l' **Index** est ajouté au [tableau](table-object-adox.md) **employés** dans le [catalogue](catalog-object-adox.md)de *Northwind* . Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
 

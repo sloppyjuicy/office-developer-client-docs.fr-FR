@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192697(v=office.15)
 ms:contentKeyID: 48544329
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d7c4f6c97e124f5c3019d5ba2f56ea5594ecb8a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7445538d1e9aaa27f9cefcd17f085e2e0f26ec23
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470592"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871352"
 ---
 # <a name="recordseteditmode-property-dao"></a>Recordset.EditMode Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie une valeur qui indique l'état de modification de l'enregistrement actif.
 

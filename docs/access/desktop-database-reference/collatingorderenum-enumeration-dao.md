@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
 ms:contentKeyID: 48544667
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89454a48ed97241637d4d92de519d13a84dc3fe8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cef7ce48cecaea4fceadc536afa3e97faa6ac119
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472493"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879654"
 ---
 # <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum Enumeration (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Spécifie l'ordre de tri du texte pour les comparaisons de chaînes ou les tris.
 

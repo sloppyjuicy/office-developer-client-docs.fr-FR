@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834805(v=office.15)
 ms:contentKeyID: 48547929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9091d2c767bf7910a99d30cd0ffa7cbe122a1be0
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: debc3554fb63ab379bbc94bc8d44e2239eb32dd4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864066"
+ms.locfileid: "25885751"
 ---
 # <a name="errors-collection-dao"></a>Errors Collection (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une collection **Errors** contient tous les objets **Error** stockés, chacun se rapportant à une opération unique impliquant DAO.
 
