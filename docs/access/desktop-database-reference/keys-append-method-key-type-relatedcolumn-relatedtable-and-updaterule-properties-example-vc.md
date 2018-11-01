@@ -1,18 +1,24 @@
 ---
-<span data-ttu-id="12dbc-101"><<<<<<< Titre tête : Keys Append, méthode, Key Type, RelatedColumn, propriétés-exemple (VC ++) TOCTitle : Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++) === titre : Keys Append, méthode, Key Type, RelatedColumn, propriétés-exemple (VC ++) TOCTitle : Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="12dbc-101"><<<<<<< HEAD title: Keys Append Method, Key Type, RelatedColumn Properties Example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++) ======= title: Keys Append Method, Key Type, RelatedColumn properties example (VC++) TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="12dbc-102">Master ms:assetid : d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID : ms.date 48547840 : 18/09/2015 mtps_version : v=office.15</span><span class="sxs-lookup"><span data-stu-id="12dbc-102">master ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15) ms:contentKeyID: 48547840 ms.date: 09/18/2015 mtps_version: v=office.15</span></span>
+title: Clés de méthode Append, Key Type, RelatedColumn, propriétés-exemple (VC ++)
+TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
+ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
+ms:contentKeyID: 48547840
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9fed89b0ac9600cf5866bfcfac3497c735ca6929
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "25890980"
 ---
-
-<span data-ttu-id="12dbc-103"><<<<<<< Tête</span><span class="sxs-lookup"><span data-stu-id="12dbc-103"><<<<<<< HEAD</span></span>
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="12dbc-104">Keys Append, méthode - Exemple de propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="12dbc-104">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule Properties Example (VC++)</span></span>
-=======
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="12dbc-105">Clés méthode Append, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="12dbc-105">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
->>>>>>> <span data-ttu-id="12dbc-106">master</span><span class="sxs-lookup"><span data-stu-id="12dbc-106">master</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc"></a><span data-ttu-id="dacee-102">Clés méthode Append, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)</span><span class="sxs-lookup"><span data-stu-id="dacee-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)</span></span>
 
 
-<span data-ttu-id="12dbc-107">**S’applique à**: Access 2013 | Office 2013</span><span class="sxs-lookup"><span data-stu-id="12dbc-107">**Applies to**: Access 2013 | Office 2013</span></span>
+<span data-ttu-id="dacee-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dacee-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="12dbc-p101">Le code suivant montre comment créer une clé étrangère. Il suppose l'existence de deux tables (Customers et Orders).</span><span class="sxs-lookup"><span data-stu-id="12dbc-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
+<span data-ttu-id="dacee-p101">Le code suivant montre comment créer une clé étrangère. Il suppose l'existence de deux tables (Customers et Orders).</span><span class="sxs-lookup"><span data-stu-id="dacee-p101">The following code demonstrates how to create a new foreign key. It assumes two tables (Customers and Orders) exist.</span></span>
 
 ```cpp 
  
