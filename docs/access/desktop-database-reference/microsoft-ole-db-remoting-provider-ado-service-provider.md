@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 907686e0dcd1be8ef24747d9ff655a7ff0f7f91f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8e9e6e655198cba28ece0951414af85ec14f26f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470949"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878058"
 ---
 # <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a>Fournisseur Microsoft OLE DB d'accès à distance (fournisseur de service ADO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le fournisseur Microsoft OLE DB d'accès à distance permet à l'utilisateur local d'un ordinateur client d'appeler des fournisseurs de données sur un ordinateur distant. Spécifiez les paramètres du fournisseur de données pour l'ordinateur distant comme vous le feriez si vous étiez un utilisateur local de cet ordinateur. Spécifiez ensuite les paramètres utilisés par le fournisseur d'accès à distance pour accéder à l'ordinateur distant. Vous accéderez ainsi à l'ordinateur distant comme si vous étiez un utilisateur local.
 

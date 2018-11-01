@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle DefinedSize propriété-Exemple (VB) : DefinedSize propriété-Exemple (VB) === titre : DefinedSize, propriété-Exemple (VB) TOCTitle : DefinedSize, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 1bad5efa-dd23-b70d-c078-85a3be0729f1 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248957(v=office.15) ms:contentKeyID : ms.date 48543551 : 18/09/2015 mtps_version : v=office.15
+title: DefinedSize, propriété – Exemple (VB)
+TOCTitle: DefinedSize property example (VB)
+ms:assetid: 1bad5efa-dd23-b70d-c078-85a3be0729f1
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248957(v=office.15)
+ms:contentKeyID: 48543551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 365d9ec4328164798e0499bcd85555cd0d56d740
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868370"
 ---
-
-<<<<<<< Tête
-# <a name="definedsize-property-example-vb"></a>DefinedSize, propriété - Exemple (VB)
-=======
-# <a name="definedsize-property-example-vb"></a>DefinedSize, propriété-Exemple (VB)
->>>>>>> master
+# <a name="definedsize-property-example-vb"></a>DefinedSize, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [DefinedSize](definedsize-property-adox.md) d'un objet [Column](column-object-adox.md). Le code redéfinit la taille de la colonne FirstName de la table **Employees** de la base de données *Northwind* . Les nouvelles valeurs du [champ](field-object-ado.md) FirstName d'un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** s'affichent ensuite. Notez que, par défaut, le champ FirstName se remplit d'espaces après que vous avez redéfini la propriété **DefinedSize**.
 

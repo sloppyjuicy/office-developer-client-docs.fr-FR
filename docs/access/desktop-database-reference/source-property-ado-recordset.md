@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249269(v=office.15)
 ms:contentKeyID: 48544843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db44459bf3629f6cedfbee023b0be9161ed3bb14
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 32d3d44094e9e5922b7c5e0cfa59ccd1f344ef0f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605260"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879136"
 ---
 # <a name="source-property-ado-recordset"></a>Source, propriété (objet Recordset ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique la source de données d'un objet [Recordset](recordset-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit une valeur **String** ou une référence à un objet [Command](command-object-ado.md) ; renvoie uniquement une valeur **String** qui indique la source du **Recordset**.
 

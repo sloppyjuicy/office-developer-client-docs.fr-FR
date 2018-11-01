@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 51acfc5f349d6096028ef86aac480ce81c9b26bf
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 16d043f1906744988af35708a954e9224256f8f7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860496"
+ms.locfileid: "25867992"
 ---
 # <a name="errorsource-property-dao"></a>Error.Source Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Renvoie le nom de l'objet ou de l'application à l'origine de l'erreur.

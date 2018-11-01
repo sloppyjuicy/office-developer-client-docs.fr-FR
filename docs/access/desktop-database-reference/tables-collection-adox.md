@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248821(v=office.15)
 ms:contentKeyID: 48543082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 43ca716cf03579c5c4cacf3f6b83a56d549b1433
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e59de5fc777d08f12b1030812a6260378924f286
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470937"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869266"
 ---
 # <a name="tables-collection-adox"></a>Tables, collection (ADOX)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Contient tous les objets [Table](table-object-adox.md) d'un catalogue.
 

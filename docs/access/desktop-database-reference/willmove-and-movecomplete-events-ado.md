@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
 ms:contentKeyID: 48548937
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 875b9825b1482bbd33808cafc6df626b2e78b81b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3b1a0e119d857947b78eb6adcfc9a5b1ba87e055
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469856"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868832"
 ---
 # <a name="willmove-and-movecomplete-events-ado"></a>WillMove et MoveComplete, événements (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'événement **WillMove** est appelé avant qu'une opération en attente modifie la position active dans l'objet [Recordset](recordset-object-ado.md). À l'inverse, l'événement **MoveComplete** est appelé après la modification de la position active dans l'objet **Recordset**.
 

@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6c4e854e13527f0c20551950aa49dde30cdae9ab
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: ab9f9ef75c5db8ce1307bcd466a5c898e84ca870
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862260"
+ms.locfileid: "25869861"
 ---
 # <a name="after-update-macro-event"></a>Après MAJ, événement de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'événement **Après MAJ** se produit après la modification d'un enregistrement.
 

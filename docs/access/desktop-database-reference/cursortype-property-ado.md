@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : propriété CursorType (ADO) TOCTitle : propriété CursorType (ADO) === titre : CursorType, propriété (ADO) TOCTitle : CursorType, propriété (ADO)
->>>>>>> Master ms:assetid : f42ded8f-9f92-ef03-a198-ffb892324611 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250239(v=office.15) ms:contentKeyID : ms.date 48548682 : 18/09/2015 mtps_version : v=office.15
+title: CursorType, propriété (ADO)
+TOCTitle: CursorType property (ADO)
+ms:assetid: f42ded8f-9f92-ef03-a198-ffb892324611
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250239(v=office.15)
+ms:contentKeyID: 48548682
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1d9560ad975d545015a02bb0e594777ced3cc8d3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886654"
 ---
-
-<<<<<<< EN-TÊTE
 # <a name="cursortype-property-ado"></a>CursorType, propriété (ADO)
-=======
-# <a name="cursortype-property-ado"></a>CursorType, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le type de curseur utilisé dans un objet [Recordset](recordset-object-ado.md).
 
-<<<<<<< EN-TÊTE
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou retourne une valeur de [CursorTypeEnum](cursortypeenum.md). La valeur par défaut est **adOpenForwardOnly**.
 

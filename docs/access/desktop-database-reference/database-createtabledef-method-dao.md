@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 99bccffb11dfb9813d52fed721a51b5417ef6be0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: c5da4e34697599852283dbde51bb4bdc8ace96a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602817"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872808"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef, méthode (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
@@ -75,11 +75,7 @@ Crée un objet **[TableDef](tabledef-object-dao.md)** (espaces de travail Micros
 </table>
 
 
-<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 TableDef
 

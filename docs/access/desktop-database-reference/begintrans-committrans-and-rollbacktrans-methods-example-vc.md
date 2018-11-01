@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
 ms:contentKeyID: 48547182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29c0a3fe2f39b6ab3d384f05a52e99e6c1d520d1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 26af6aecc64f1f716b49631b50e0c89ce400b0db
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862988"
+ms.locfileid: "25879486"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a>BeginTrans, CommitTrans et RollbackTrans, méthodes – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment modifier le type de tous les livres de psychologie dans la table ***Titles*** de la base de données. Une fois que la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) démarre une transaction qui isole toutes les modifications apportées à la table ***Titles*** , la méthode [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) enregistre les modifications. Vous pouvez utiliser la méthode [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) pour annuler les modifications que vous avez enregistré à l’aide de la méthode de [mise à jour](update-method-ado.md) .
 

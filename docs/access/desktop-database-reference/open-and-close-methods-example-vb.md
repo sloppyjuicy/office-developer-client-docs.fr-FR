@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249319(v=office.15)
 ms:contentKeyID: 48545078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30723e912fa6807136d37e4cbbf4077b22f1d615
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39458143d1332ad42929fa8b01cc3695f08d4d8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862190"
+ms.locfileid: "25880935"
 ---
 # <a name="open-and-close-methods-example-vb"></a>Open et Close, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise les méthodes **Open** et [Close](close-method-ado.md) sur des objets [Recordset](recordset-object-ado.md) et [Connection](connection-object-ado.md) qui ont été ouverts.
 

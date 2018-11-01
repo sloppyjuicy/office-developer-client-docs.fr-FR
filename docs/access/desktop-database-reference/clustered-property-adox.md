@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
 ms:contentKeyID: 48545192
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 31ab063c46e016207600bf1b3b0a9834b12f7eac
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: a012b751164b16ff5bb8f48f5d106ec4befad09e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605407"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870134"
 ---
 # <a name="clustered-property-adox"></a>Clustered, propriété (ADOX)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique s'il s'agit d'un index cluster.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit et renvoie une valeur de type **Boolean**.
 

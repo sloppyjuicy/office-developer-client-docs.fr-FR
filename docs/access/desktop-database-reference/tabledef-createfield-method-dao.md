@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1fd66910a3630d8968f75c5a59bb535520419994
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 8fa642eb5351129f1763a5b3f24424ae95df073f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606982"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873928"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Méthode TableDef.CreateField (DAO)
 
@@ -69,11 +69,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 </table>
 
 
-<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Champ
 

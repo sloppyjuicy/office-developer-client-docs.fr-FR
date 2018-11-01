@@ -1,23 +1,25 @@
 ---
-<<<<<<< Titre tête : TOCTitle DataMember propriété (ADO) : DataMember propriété (ADO) === titre : DataMember, propriété (ADO) TOCTitle : DataMember, propriété (ADO)
->>>>>>> Master ms:assetid : f89e1d42-7993-764b-4e8a-2f449903f792 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250263(v=office.15) ms:contentKeyID : ms.date 48548787 : 18/09/2015 mtps_version : v=office.15
+title: DataMember, propriété (ADO)
+TOCTitle: DataMember property (ADO)
+ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
+ms:contentKeyID: 48548787
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: eebd4e485c358ed141e6bcb5dc84c82d41fd88ed
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870148"
 ---
-
-<<<<<<< Tête
 # <a name="datamember-property-ado"></a>DataMember, propriété (ADO)
-=======
-# <a name="datamember-property-ado"></a>DataMember, propriété (ADO)
->>>>>>> master
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le nom du membre de données qui sera extrait de l'objet référencé par la propriété [DataSource](datasource-property-ado.md).
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur de type **String**. Le nom ne respecte pas la casse.
 

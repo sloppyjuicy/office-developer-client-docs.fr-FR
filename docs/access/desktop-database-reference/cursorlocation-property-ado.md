@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle de la propriété CursorLocation (ADO) : CursorLocation propriété (ADO) === titre : CursorLocation, propriété (ADO) TOCTitle : CursorLocation, propriété (ADO)
->>>>>>> Master ms:assetid : 8a048bd4-ae25-a555-1c07-14364b7e6560 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249606(v=office.15) ms:contentKeyID : ms.date 48546182 : 18/09/2015 mtps_version : v=office.15
+title: CursorLocation, propriété (ADO)
+TOCTitle: CursorLocation property (ADO)
+ms:assetid: 8a048bd4-ae25-a555-1c07-14364b7e6560
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
+ms:contentKeyID: 48546182
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870162"
 ---
-
-<<<<<<< Tête
 # <a name="cursorlocation-property-ado"></a>CursorLocation, propriété (ADO)
-=======
-# <a name="cursorlocation-property-ado"></a>CursorLocation, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique l'emplacement du service de curseur.
 

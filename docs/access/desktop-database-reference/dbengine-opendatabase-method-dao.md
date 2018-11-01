@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 311481a83c25df29a26610a979a67ceb38124470
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 45075a612b5d8dc6fabd4a91cc1efdacf37874a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860419"
+ms.locfileid: "25878940"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Méthode DBEngine.OpenDatabase (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Ouvre une base de données spécifiée et renvoie une référence à l'objet **[Database](database-object-dao.md)** qui la représente.
 
@@ -76,11 +76,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 </table>
 
 
-<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Base de données
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
 ms:contentKeyID: 48543017
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08995df69f49ba2f1f097ec93a7202f821681a3b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c8bac777a3a93ad2243b86569261cecc96da53ae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469661"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871541"
 ---
 # <a name="properties-members-dao"></a>Properties Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une collection Properties contient tous les objets **[Property](property-object-dao.md)** d’une instance spécifique d’un objet.
 
@@ -39,7 +39,7 @@ Une collection Properties contient tous les objets **[Property](property-object-
 <td><p>Ajoute un nouvel objet <strong>Property</strong> à la collection <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="properties-delete-method-dao.md">Supprimer</a></strong></p></td>
+<td><p><strong><a href="properties-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Supprime l'objet <strong>Property</strong> spécifié de la collection <strong>Properties</strong>.</p></td>
 </tr>
 <tr class="odd">

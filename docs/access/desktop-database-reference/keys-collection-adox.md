@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248854(v=office.15)
 ms:contentKeyID: 48543215
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 837a81058a7d5ba871069a5d8534e870194ba92f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: be9ef56f298ccdc4c1b2d261beaf1a9c73a0e93f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469488"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874782"
 ---
 # <a name="keys-collection-adox"></a>Keys, collection (ADOX)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Contient tous les objets [Key](key-object-adox.md) d'une table.
 

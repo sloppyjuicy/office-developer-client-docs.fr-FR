@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 691b4d0b18b31c4c4a40f73e232a1829101913f1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: c2a308fc5cf33c4d94e4ee2911596ea80c4ec494
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863275"
+ms.locfileid: "25886528"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Field.GetChunk Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-object-dao.md) ou **Long Binary** appartenant à la collection **[Fields](fields-collection-dao.md)** d'un objet **[Recordset](recordset-object-dao.md)**.
 
@@ -64,13 +64,9 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 </table>
 
 
-<<<<<<< EN-TÊTE
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
-Variante
+Variant
 
 ## <a name="remarks"></a>Remarques
 

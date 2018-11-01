@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0e067fbc90a0e05d31611d7284a735cf1cfe6aa1
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: fa85626b0de3a907d5a7ebf79cf333f76f42426e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606779"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867978"
 ---
 # <a name="ordinal-property-ado-md-cell"></a>Ordinal, propriété (Cellule ADO MD)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Identifie de manière unique une cellule au sein d'un ensemble de cellules.
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-=======
 ## <a name="return-values"></a>Valeurs de retour
->>>>>>> master
 
 Renvoie un nombre entier de type **Long** et est en lecture seule.
 

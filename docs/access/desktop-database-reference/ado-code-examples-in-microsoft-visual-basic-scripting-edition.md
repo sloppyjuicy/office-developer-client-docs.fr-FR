@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249575(v=office.15)
 ms:contentKeyID: 48546024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1dc148a0de15bfe565293eefd7b97475202d0cb1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f4e50fe72023d5e9bb2f62735d3a8ac975f726f5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862617"
+ms.locfileid: "25873991"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a>Exemples de code ADO dans Microsoft Visual Basic Scripting Edition
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes ADO lorsque vous écrivez du code en Visual Basic Scripting Edition (VBScript).
 

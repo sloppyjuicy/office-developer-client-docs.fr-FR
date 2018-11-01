@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823038(v=office.15)
 ms:contentKeyID: 48547569
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0140fc9895ae879296236161aee6776f9dbd850c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c13dc234fc70d8cf5e9b14958b5336c39a6a4d7a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469308"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886507"
 ---
 # <a name="recordsetabsoluteposition-property-dao"></a>Recordset.AbsolutePosition Property (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie le numéro d’enregistrement relatif de l’enregistrement actif d’un objet **Recordset**.
 

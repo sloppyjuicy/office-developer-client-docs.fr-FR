@@ -10,17 +10,17 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 153f59ebbcfae89f6358fe0d707791aab8a8cdd7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 557eafe6e8c8ea2265fdaf8a5c4bae8856bb4476
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864073"
+ms.locfileid: "25867530"
 ---
 # <a name="command-object-ado"></a>Command, objet (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.
 
@@ -34,11 +34,7 @@ Les collections, les méthodes et les propriétés d'un objet **Command** vous p
 
   - Définir des requêtes paramétrées ou des arguments de procédure stockée à l'aide des objets [Parameter](parameter-object-ado.md) et de la collection [Parameters](parameters-collection-ado.md).
 
-<<<<<<< EN-TÊTE
-  - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://msdn.microsoft.com/library/jj248785\(v=office.15\)) ;
-=======
   - exécuter une commande et renvoyer le cas échéant un objet **Recordset** avec la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) ;
->>>>>>> master
 
   - spécifier le type de commande avec la propriété [CommandType](commandtype-property-ado.md) avant exécution afin d'optimiser les performances ;
 

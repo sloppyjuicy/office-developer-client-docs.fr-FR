@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249134(v=office.15)
 ms:contentKeyID: 48544212
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d3a5e876dd98e26c2eb9169a21a8dcd5e532e2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f4e0d9e9f5db8741cb04fd4d576ea67408285aac
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471337"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881761"
 ---
 # <a name="visual-c-extensions-for-ado"></a>Extensions Visual C++ pour ADO
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 À l’aide de la méthode préférée de programmation ADO avec Visual C++ est la ** \#importer** directive, comme indiqué dans la [Programmation ADO Visual C++](visual-c-ado-programming.md). Toutefois, les versions précédentes d’ADO fourni avec une autre méthode de programmation à l’aide de Visual C++ : les Extensions Visual C++. Cette section décrit cette fonctionnalité pour les utilisateurs qui doivent conserver Extensions Visual C++, mais le nouveau code ADO doit être écrite à l’aide de \# **Importer**.
 

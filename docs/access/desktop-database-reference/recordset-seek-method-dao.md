@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 86d8769749ec4733398c3b89aa12fc4077a14ed1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: abe4bef73eb0deba721295917b9e13496c0c6733
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472264"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875202"
 ---
 # <a name="recordsetseek-method-dao"></a>Méthode Recordset.Seek (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Localise l'enregistrement dans un objet **Recordset** de type table indexée en fonction des critères spécifiés pour l'index actuel et en fait l'enregistrement actif (espaces de travail Microsoft Access uniquement).
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 931434288cbc14da5d3d9d9d53cd250555c7a767
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 233e1a9e6237500b3d13e3234e7c6ddf4d556abc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472221"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884134"
 ---
 # <a name="using-the-java-type-library-wizard"></a>Utilisation de l'Assistant Bibliothèque de types Java
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'Assistant Bibliothèque de types Java est une fonctionnalité de Visual J++ 1.x intégrée au menu **Outils** de l'environnement de développement. Il sert à effectuer des recherches dans une bibliothèque de types et à créer une interface Java qui permet d'accéder aux objets COM. Dans Visual J++ 6.0, l'Assistant Bibliothèque de types Java a été remplacé par [ADO pour Windows Foundation Classes](ado-wfc-programming.md).
 

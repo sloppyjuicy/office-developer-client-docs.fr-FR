@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249019(v=office.15)
 ms:contentKeyID: 48543764
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e94f4d313a9c43d08c9786c6f27fd49624709249
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7e91eedbb790eabd49cfacc83b37a9db8cfad720
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863065"
+ms.locfileid: "25867670"
 ---
 # <a name="vbscript-ado-programming"></a>Programmation ADO en VBScript
 
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013 
 
 ## <a name="creating-an-ado-project"></a>Création d'un projet ADO
 

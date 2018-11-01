@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: adeadcf4c467aabad7b486bd43c12e26d67ce302
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: dd8a2df4462d9f877d1b4451744fc51215227153
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603863"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875104"
 ---
 # <a name="source-property-ado-error"></a>Source, propriété (objet Erreur ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le nom de l'objet ou de l'application à l'origine d'une erreur.
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie une valeur **String** qui indique le nom d'un objet ou d'une application.
 

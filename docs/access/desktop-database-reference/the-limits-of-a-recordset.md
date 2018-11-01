@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e13e907c27fa6f764aae6ee499f0bd2854f9640b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 953e6c030c8ca4155b17603c03921e97fe3748e0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469367"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887284"
 ---
 # <a name="the-limits-of-a-recordset"></a>Limites d'un jeu d'enregistrements
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Recordset** contient des enregistrements ou si vous avez dépassé les limites d'un objet **Recordset** en vous déplaçant d'un enregistrement à l'autre. Considérez les propriétés **BOF** et **EOF** comme des enregistrements « fantômes » placés au début et à la fin de l'objet **Recordset**. En se basant sur l'exemple d'objet **Recordset** présenté dans [Examen des données](chapter-3-examining-data.md), on obtient les résultats suivants :
 

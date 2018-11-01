@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249154(v=office.15)
 ms:contentKeyID: 48544297
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0260954f9183e3d29b87369c17582c4cb6f9238f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 67f16c9c4dd27fdbd57a2c082580ead0606298e9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469442"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874873"
 ---
 # <a name="the-fields-collection"></a>Fields, collection
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 La collection **Fields** est une des collections intrinsèques d'ADO. Une collection est un ensemble hiérarchique d'éléments qui peuvent être référencés en tant qu'unité.
 

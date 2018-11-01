@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845211(v=office.15)
 ms:contentKeyID: 48543225
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5ccc0b9073dd0df2f2562995356c194bd91286ac
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 09a5e37bf9874888ca37935db38c98773cb03806
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469935"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867300"
 ---
 # <a name="propertyname-property-dao"></a>Property.Name Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie ou définit le nom de l'objet spécifié. Type **String** en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type **String** en lecture seule si l'objet a été ajouté à une collection.
 

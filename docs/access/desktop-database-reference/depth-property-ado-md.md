@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250219(v=office.15)
 ms:contentKeyID: 48548593
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6baf5ad34f34f66ec9a751090c6007cf05e6a4e0
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: ae284f7dc348693ceacf7f329450529c38e61958
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605415"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869686"
 ---
 # <a name="depth-property-ado-md"></a>Depth, propriété (ADO MD)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le nombre de niveaux entre l'objet [Level](level-object-ado-md.md) et la racine de la hiérarchie.
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-=======
 ## <a name="return-values"></a>Valeurs de retour
->>>>>>> master
 
 Retourne un entier et est en lecture seule.
 

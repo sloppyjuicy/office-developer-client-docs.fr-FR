@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249351(v=office.15)
 ms:contentKeyID: 48545181
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f608cd8ed36b621847c58dd523cfa052c5f501a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5276dd011ec8b7c6190ab35f5417009510875e15
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471473"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877169"
 ---
 # <a name="hierarchical-recordsets-in-xml"></a>Jeux d'enregistrements hiérarchiques dans XML
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
-## <a name="hierarchical-recordsets-in-xml"></a>Jeux d'enregistrements hiérarchiques dans XML
+## <a name="hierarchical-recordsets-in-xml"></a>Recordsets hiérarchiques au format XML
 
 ADO autorise la persistance des objets **Recordset** hiérarchiques au format XML. Avec les objets **Recordset** hiérarchiques, la valeur d’un champ dans **l’objet Recordset** parent est un autre **jeu d’enregistrements**. Ces champs sont représentées comme éléments enfants dans le flux XML plutôt qu’un attribut. L’exemple suivant illustre ce cas :
 

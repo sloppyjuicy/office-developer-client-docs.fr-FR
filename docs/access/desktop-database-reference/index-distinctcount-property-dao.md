@@ -10,16 +10,16 @@ f1_keywords:
 - dao360.chm1053119
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2028334a2fc1d63262d9f109cb6f76c624b64e3a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2e609090e66a9bfd5b4b37d8e8e8a5546cc8469a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471290"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876889"
 ---
 # <a name="indexdistinctcount-property-dao"></a>Index.DistinctCount Property (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie une valeur indiquant le nombre de valeurs uniques pour l'objet **[Index](index-object-dao.md)** inclus dans la table associée (espaces de travail Microsoft Access uniquement).
 

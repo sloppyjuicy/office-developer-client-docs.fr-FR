@@ -1,32 +1,29 @@
 ---
-<<<<<<< Titre tête : HelpContext, HelpFile propriétés (ADO) TOCTitle : HelpContext, HelpFile propriétés (ADO) ms:assetid : 8a79f994-f17c-2983-0593-095801be762e ms:mtpsurl : https://msdn.microsoft.com/library/JJ249608(v=office.15) ms:contentKeyID : ms.date 48546194 : 09/18 / 2015 mtps_version : v=office.15
+title: HelpContext, HelpFile, propriétés (ADO)
+TOCTitle: HelpContext, HelpFile properties (ADO)
+ms:assetid: 8a79f994-f17c-2983-0593-095801be762e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
+ms:contentKeyID: 48546194
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: a9ad8c700b0b0ae293683f7b79062a0edf7775f9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881369"
 ---
-
 # <a name="helpcontext-helpfile-properties-ado"></a>HelpContext, HelpFile, propriétés (ADO)
 
-=== titre : HelpContext, HelpFile, propriétés (ADO) TOCTitle : HelpContext, HelpFile propriétés (ADO) ms:assetid : 8a79f994-f17c-2983-0593-095801be762e ms:mtpsurl : https://msdn.microsoft.com/library/JJ249608(v=office.15) ms:contentKeyID : ms.date 48546194 : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="helpcontext-helpfile-properties-ado"></a>HelpContext, HelpFile, propriétés (ADO)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le fichier d'aide et la rubrique associés à un objet [Error](error-object-ado.md).
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-
-  - **HelpContextID**: renvoie un ID de contexte pour une rubrique de fichier d'aide sous forme de valeur **Long**.
-
-  - **HelpFile**: renvoie une valeur **String** qui correspond à un chemin d'accès à un fichier d'aide entièrement résolu.
-=======
 ## <a name="return-values"></a>Valeurs de retour
 
 - **HelpContextID**: renvoie un ID de contexte pour une rubrique de fichier d'aide sous forme de valeur **Long**.
 
 - **HelpFile**: renvoie une valeur **String** qui correspond à un chemin d'accès à un fichier d'aide entièrement résolu.
->>>>>>> master
 
 ## <a name="remarks"></a>Remarques
 

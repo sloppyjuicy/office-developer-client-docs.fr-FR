@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d5c9f83299ec297a351f6489d35ea42765ff9f4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 23502ec1bc4ebd0bcdbca17763c2e9dd467d8793
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469939"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884519"
 ---
 # <a name="the-role-of-ado-in-microsoft-data-access"></a>Rôle d'ADO dans Microsoft Data Access
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 MDAC (Microsoft Data Access Component) offre un accès aux données indépendant des magasins de données, outils et langages. Ce composant est constitué de deux éléments : une interface conviviale de haut niveau et une interface hautes performances, de bas niveau, permettant d'accéder à pratiquement tous les magasins de données disponibles. Cette souplesse permet d'intégrer des magasins de données divers et d'utiliser votre sélection d'outils, d'applications et de services de plate-forme pour créer des solutions adaptées à vos besoins. Ces technologies constituent la structure sous-jacente de l'accès aux données à usage général dans les systèmes d'exploitation de Microsoft Windows.
 

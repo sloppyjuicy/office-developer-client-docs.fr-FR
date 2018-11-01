@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Connection Close, méthode, exemple de propriété Table Type (VC ++) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VC ++) === titre : Connection Close, méthode, exemple de propriété Table Type (VC ++) TOCTitle : Connection Close, méthode, exemple de propriété Table Type (VC ++)
->>>>>>> Master ms:assetid : d75fac58-4b25-c446-8c8e-4afcf1efecc5 ms:mtpsurl : https://msdn.microsoft.com/library/JJ250082(v=office.15) ms:contentKeyID : ms.date 48548006 : 18/09/2015 mtps_version : v=office.15
+title: Connection Close, méthode, exemple de propriété Table Type (VC ++)
+TOCTitle: Connection Close Method, Table Type property example (VC++)
+ms:assetid: d75fac58-4b25-c446-8c8e-4afcf1efecc5
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
+ms:contentKeyID: 48548006
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 595877a88a250d69cd4b9401bb30a0d63cfcb3b5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874432"
 ---
-
-<<<<<<< Tête
-# <a name="connection-close-method-table-type-property-example-vc"></a>Connection Close, méthode - Exemple de propriété Table Type (VC++)
-=======
 # <a name="connection-close-method-table-type-property-example-vc"></a>Connection Close, méthode, exemple de propriété Table Type (VC ++)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.
 

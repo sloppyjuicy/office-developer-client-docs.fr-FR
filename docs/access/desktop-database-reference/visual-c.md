@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
 ms:contentKeyID: 48544062
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e6f0e020373db9bf0fe7acc1b1c7bfeab210329
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 5e0285fd190ade398d4e5c834296313edf9ef7b3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861420"
+ms.locfileid: "25870939"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Voir [l’exemple de modèle d’événements ADO (VC ++)](ado-events-model-example-vc.md) pour une description complète.
 

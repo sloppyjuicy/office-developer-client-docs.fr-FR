@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a64d7c44afd1531e0abf90a0372d39c742cff946
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d7d6c719c535dabbf4fea1267d8ce7cf9ced9326
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471280"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882097"
 ---
 # <a name="openfunction-macro-action"></a>OuvrirFonction, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirFonction** pour ouvrir une fonction définie par l'utilisateur en mode Feuille de données, une fonction en ligne en mode Création, l'Éditeur de texte SQL (pour une fonction scalaire ou une fonction tabulaire définie par l'utilisateur) ou un Aperçu avant impression. Cette action exécute la fonction définie par l'utilisateur lorsqu'elle est ouverte en mode Feuille de données. Vous pouvez également sélectionner le mode de saisie de données pour la fonction définie par l'utilisateur et limiter les enregistrements que celle-ci affiche.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250183(v=office.15)
 ms:contentKeyID: 48548445
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c3e7b14ecb6995836d5abff4ff3000af0d4a0fe
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: d3213fd05d8556755adfc52d7a09a91d7f9ed597
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863310"
+ms.locfileid: "25882002"
 ---
 # <a name="groups-and-users-append-changepassword-methods-example-vb"></a>Groups Append, Users Append, ChangePassword, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la méthode [Append](append-method-adox-groups.md) de la collection [Groups](groups-collection-adox.md), ainsi que la méthode [Append](append-method-adox-users.md) de la collection [Users](users-collection-adox.md) en ajoutant un nouvel objet [Group](group-object-adox.md) et un nouvel objet [User](user-object-adox.md) au système. Le nouvel objet **Group** est ajouté à la collection **Groups** du nouvel objet **User**. Par conséquent, le nouvel objet **User** est ajouté à l'objet **Group**. Par ailleurs, la méthode [ChangePassword](changepassword-method-adox.md) est utilisée pour spécifier le mot de passe de l'objet **User**.
 

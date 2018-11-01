@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1255bd4aca0660cb6cb7baece5c569baa5bc1371
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3f55107988002cf5718eac5eb445529f5c4e3e98
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472239"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867775"
 ---
 # <a name="recordset2edit-method-dao"></a>Recordset2.Edit Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Copie l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md)** modifiable vers la mémoire tampon de copie pour modification ultérieure.
 

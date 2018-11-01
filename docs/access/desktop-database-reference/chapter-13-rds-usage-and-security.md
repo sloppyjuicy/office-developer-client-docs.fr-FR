@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 439225d1307e37ea367f0ac5121fdd138f54e2ec
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 4250235d433572944d311611c909c060d2e69da9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860315"
+ms.locfileid: "25876105"
 ---
 # <a name="chapter-13-rds-usage-and-security"></a>Chapitre 13 : Utilisation et sécurité RDS
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Les informations contenues dans ce chapitre vous seront utiles pour configurer votre serveur et exploiter rapidement RDS. Vous y trouverez des procédures de configuration spécifiques qui vous aideront à implémenter RDS, des descriptions de certaines relations clés entre RDS et d'autres technologies, ainsi que des solutions aux problèmes que vous êtes susceptible de rencontrer lors de l'installation d'une solution RDS.
 

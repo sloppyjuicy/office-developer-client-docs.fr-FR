@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052988
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6993baffbff17da762932c137693ae53c169135d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2f928d3f10645f6bfca89d097bbbacf51c924110
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469744"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871296"
 ---
 # <a name="fielddataupdatable-property-dao"></a>Field.DataUpdatable Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Renvoie une valeur qui indique si les données du champ représenté par un objet **[Field](field-object-dao.md)** peuvent être modifiées.

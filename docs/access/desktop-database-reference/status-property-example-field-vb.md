@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Status, propriété-Exemple (objet Field) (VB) TOCTitle : Status, propriété-Exemple (objet Field) (VB) === titre : statut, propriété-Exemple (objet Field) (VB) TOCTitle : statut, propriété-Exemple (objet Field) (VB)
->>>>>>> Master ms:assetid : 1dc2807f-f469-de97-1280-4b1984b271b4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248969(v=office.15) ms:contentKeyID : ms.date 48543601 : 18/09/2015 mtps_version : v=office.15
+title: Status, propriété – Exemple (objet Field) (VB)
+TOCTitle: Status property example (Field) (VB)
+ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
+ms:contentKeyID: 48543601
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 680df8832bea713155435b6a315a008dae7e3309
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873473"
 ---
-
-<<<<<<< Tête
-# <a name="status-property-example-field-vb"></a>Status, propriété - Exemple (objet Field) (VB)
-=======
-# <a name="status-property-example-field-vb"></a>État, propriété-Exemple (objet Field) (VB)
->>>>>>> master
+# <a name="status-property-example-field-vb"></a>Status, propriété – Exemple (objet Field) (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'exemple suivant ouvre un document provenant d'un dossier accessible en lecture et en écriture en utilisant [Internet Publishing Provider](microsoft-ole-db-provider-for-internet-publishing.md). La propriété [Status](status-property-ado-field.md) d'un objet [Field](field-object-ado.md) du [Record](record-object-ado.md) aura tout d'abord la valeur **adFieldPendingInsert**, qui sera mise à jour pour devenir **adFieldOk**.
 

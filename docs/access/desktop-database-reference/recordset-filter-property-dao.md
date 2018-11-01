@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
 ms:contentKeyID: 48548953
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 906c3bd9e437ca5fc64067530ecbcaa033ea52d6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 35ae33c9b7979e6dd98d94652a61c8737397c7a3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470481"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884302"
 ---
 # <a name="recordsetfilter-property-dao"></a>Propriété Recordset.Filter (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet **Recordset** ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
 

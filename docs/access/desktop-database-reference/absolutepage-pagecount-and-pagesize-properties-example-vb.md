@@ -1,22 +1,25 @@
 ---
-<<<<<<< Titre tête : AbsolutePage, PageCount et PageSize propriétés-exemple (VB) TOCTitle : AbsolutePage, PageCount et PageSize propriétés-exemple (VB) ms:assetid : bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl : https://msdn.microsoft.com/library/JJ249911(v=office.15) MS:contentKeyID : ms.date 48547426 : 18/09/2015 mtps_version : v=office.15
+title: AbsolutePage, PageCount et PageSize, propriétés – Exemple (VB)
+TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VB)
+ms:assetid: bd13fb6c-8ee4-7475-ef2d-9067e30918de
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249911(v=office.15)
+ms:contentKeyID: 48547426
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 0b98557f4c5906c5d1952f635c9967e3b280cbae
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885072"
 ---
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>AbsolutePage, PageCount et PageSize, propriétés - Exemple (VB)
-=== titre : AbsolutePage, PageCount et PageSize, propriétés-exemple (VB) TOCTitle : ms:assetid d’exemple (VB) propriétés AbsolutePage, PageCount et PageSize : bd13fb6c-8ee4-7475-ef2d-9067e30918de ms:mtpsurl : https://msdn.microsoft.com/library/JJ249911(v=office.15) ms:contentKeyID : 48547426 MS.date : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>AbsolutePage, PageCount et PageSize, propriétés-exemple (VB)
->>>>>>> master
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vb"></a>AbsolutePage, PageCount et PageSize, propriétés – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
-<a name="-head"></a><<<<<<< Tête
-=======
 Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche à partir de la table ***Employees***, cinq enregistrements à la fois.
 
->>>>>>> master
 ```vb 
  
 'BeginAbsolutePageVB 

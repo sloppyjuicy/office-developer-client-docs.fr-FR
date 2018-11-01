@@ -6,45 +6,45 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)
 ms:contentKeyID: 52072968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8305f030028e99d8352f67a0929ee94fe45f67ef
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 43e2c580ddaef0a5b16316e56822e912d5b7077e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470015"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868209"
 ---
 # <a name="database-objects"></a>Objets de base de données
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 
-  - [CopierObjet, action de macro](copyobject-macro-action.md)
+  - [Action de Macro CopierObjet](copyobject-macro-action.md)
 
-  - [SupprimerObjet, action de macro](deleteobject-macro-action.md)
+  - [Action de Macro SupprimerObjet](deleteobject-macro-action.md)
 
-  - [GoToControl Macro Action](gotocontrol-macro-action.md)
+  - [Action de Macro AtteindreContrôle](gotocontrol-macro-action.md)
 
-  - [AtteindrePage, action de macro](gotopage-macro-action.md)
+  - [Action de Macro AtteindrePage](gotopage-macro-action.md)
 
-  - [AtteindreEnregistrement, action de macro](gotorecord-macro-action.md)
+  - [Action de Macro AtteindreEnregistrement](gotorecord-macro-action.md)
 
-  - [Action de macro OuvrirFormulaire](openform-macro-action.md)
+  - [Action de Macro OuvrirFormulaire](openform-macro-action.md)
 
-  - [OuvrirEtat, action de macro](openreport-macro-action.md)
+  - [Action de Macro OuvrirEtat](openreport-macro-action.md)
 
-  - [OuvrirTable, action de macro](opentable-macro-action.md)
+  - [Action de Macro OuvrirTable](opentable-macro-action.md)
 
-  - [RenommerObjet, action de macro](renameobject-macro-action.md)
+  - [Action de Macro Renommerobjet](renameobject-macro-action.md)
 
-  - [EnregistrerObjet, action de macro](saveobject-macro-action.md)
+  - [Action de Macro Enregistrerobjet](saveobject-macro-action.md)
 
-  - [SélectionnerObjet, action de macro](selectobject-macro-action.md)
+  - [Action de Macro SelectObject](selectobject-macro-action.md)
 
-  - [DéfinirPropriété, action de macro](setproperty-macro-action.md)
+  - [Action de Macro DéfinirPropriété](setproperty-macro-action.md)
 
-  - [RedessinerObjet, action de macro](repaintobject-macro-action.md)
+  - [Action de Macro RepaintObject](repaintobject-macro-action.md)
 
   - [SetValue, action de macro](setvalue-macro-action.md)
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250311(v=office.15)
 ms:contentKeyID: 48548959
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c05e1a8b31523b9dd225c062caf2b602df1b222e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c44afce969af77696e52cea3bc194d73eb2ddd25
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469088"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877253"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>Commandes paramétrées avec des commandes COMPUTE intermédiaires
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une commande APPEND de mise en forme paramétrée contient généralement une clause qui crée un objet **Recordset** parent à l'aide d'une commande de requête et une autre clause qui crée un objet **Recordset** enfant également au moyen d'une commande de requête paramétrée  c'est-à-dire, une commande contenant un espace réservé de paramètre (un point d'interrogation, « ? »). L'objet **Recordset** mis en forme qui en résulte présente deux niveaux : un niveau supérieur occupé par le parent, et un niveau inférieur occupé par l'enfant.
 

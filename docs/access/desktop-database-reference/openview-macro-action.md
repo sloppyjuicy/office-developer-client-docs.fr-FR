@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ad607f852f5af21bc2979bd635286b86d18489a5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ee0a46e909c86534693638de98f42980bccfebba
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470345"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870169"
 ---
 # <a name="openview-macro-action"></a>OuvrirVue, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirVue** pour ouvrir une vue en mode Feuille de données, Création ou Aperçu avant impression. Cette action exécute la vue nommée lorsqu'elle est ouverte en mode Feuille de données. Vous pouvez choisir le mode de saisie des données voulu pour la vue et limiter les enregistrements que celle-ci affiche.
 

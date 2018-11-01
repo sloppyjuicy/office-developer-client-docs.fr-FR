@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249930(v=office.15)
 ms:contentKeyID: 48547482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1979ad721a01ef72c08da1531a8826ec320915e5
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: c053ec9f84de4aa56513081144e23f044c72effc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25604616"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876630"
 ---
 # <a name="status-property-ado-recordset"></a>Status, propriété (objet Recordset ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique l'état de l'enregistrement actuel en ce qui concerne des mises à jour par lots ou autres opérations en bloc.
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie la somme d'une ou de plusieurs valeurs [RecordStatusEnum](recordstatusenum.md).
 

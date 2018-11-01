@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dfa95c05ac87648c4d69e3d781614d9cd553bc02
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 7852a929f08c46feea002913a1f64d8144572080
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471273"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877554"
 ---
 # <a name="address-book-data-binding-object"></a>Objet de liaison de données du Carnet d'adresses
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'application Carnet d'adresses utilise l'objet [RDS.DataControl](datacontrol-object-rds.md) pour lier les données de la base de données SQL Server à un objet visuel (dans le cas présent, un tableau DHTML) dans la page HTML cliente de l'application. La logique de programmation événementielle de VBScript utilise l'objet [RDS.DataControl](datacontrol-object-rds.md) pour :
 

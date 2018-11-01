@@ -10,17 +10,17 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60ba53f7e1c0756c47c9b59140f41e62aae175dd
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 57acba0c3c375bd9161748d3cc6e4410c143ecfe
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472614"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888712"
 ---
 # <a name="sql-reserved-words"></a>Mots réservés SQL
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 La liste suivante répertorie tous les mots réservés par le moteur de base de données Microsoft Access qui sont utilisés dans les instructions SQL. Les mots dans la liste qui ne sont pas entièrement en majuscules sont également réservés par d'autres applications. Par conséquent, les rubriques d'aide pour ces mots ne donnent qu'une description générale sans préciser l'utilisation de ces mots dans les instructions SQL.
 

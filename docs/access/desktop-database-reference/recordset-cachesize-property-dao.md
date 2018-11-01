@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196807(v=office.15)
 ms:contentKeyID: 48546079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9dde35e7b47b267920218540223ee8deec0ec590
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 1fb120323859dcabfb5b2baa6cf3e0756c152f32
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472214"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25877708"
 ---
 # <a name="recordsetcachesize-property-dao"></a>Recordset.CacheSize Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur **Long** en lecture-écriture.
 

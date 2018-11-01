@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249199(v=office.15)
 ms:contentKeyID: 48544490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 38a89767de9fca317b3ed25fd81c7bf016a8ba46
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3908a4b882a78360d3fd30ede0d4b9e406d03be5
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470301"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873879"
 ---
 # <a name="errors"></a>Erreurs
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs de fournisseur. Lorsqu'une erreur survient, un ou plusieurs objets **Error** sont placés dans la collection **Errors** de l'objet **Connection**. Pour en savoir plus sur la gestion des avertissements et des erreurs dans votre application ADO, reportez-vous au [chapitre 6 : Gestion des erreurs](chapter-6-error-handling.md).
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: e5ac9c60be702841a4e45628ba609bdc63e14477
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862135"
+ms.locfileid: "25882734"
 ---
 # <a name="absolute-and-relative-urls"></a>URL absolues et relatives
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013    
 
 Une URL spécifie l’emplacement d’une cible sur un ordinateur local ou en réseau, telles qu’un fichier, répertoire, HTML page, image, programme et ainsi de suite. Dans cette discussion, une *URL absolue* est du formulaire :
 
@@ -81,5 +81,4 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 La première partie d’une URL complète est le *schéma* utilisé pour accéder à la ressource identifiée par le reste de l’URL. Par exemple, HTTP (HyperText Transfer Protocol) et FTP (File Transfer Protocol).
 
 ADO prend en charge les fournisseurs OLE DB qui reconnaissent leurs propres schémas d’URL. Par exemple, le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md), qui accède aux fichiers Windows 2000 « publiés », reconnaît le modèle HTTP existant.
-
 

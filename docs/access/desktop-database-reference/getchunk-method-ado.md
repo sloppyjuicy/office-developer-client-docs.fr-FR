@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ae3cc867c00930c71d379e8ce5bb139075d229d8
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 77726a20decd8029d4ced8198ac1bb622a1c6b11
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25602502"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881516"
 ---
 # <a name="getchunk-method-ado"></a>GetChunk, méthode (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado.md) volumineux contenant du texte ou des données binaires.
@@ -25,11 +25,7 @@ Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado
 
 *variable* = *champ*. GetChunk (*taille* )
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Retourne une valeur de type **Variant**.
 

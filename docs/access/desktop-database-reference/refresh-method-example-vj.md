@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250259(v=office.15)
 ms:contentKeyID: 48548767
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3cdd5de133bc3d3452837821b1a2c56bf14c13a6
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 1c39d4d917a2bb442c471156121884221c8c43a6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860880"
+ms.locfileid: "25878142"
 ---
 # <a name="refresh-method-example-vj"></a>Refresh, méthode – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment utiliser la méthode [Refresh](refresh-method-ado.md) pour actualiser la collection [Parameters](parameters-collection-ado.md) d'un objet [Command](command-object-ado.md) de procédure stockée.
 

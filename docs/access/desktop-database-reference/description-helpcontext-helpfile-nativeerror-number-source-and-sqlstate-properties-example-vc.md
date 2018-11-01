@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Description, HelpContext, HelpFile, propriétés-exemple (VC ++) TOCTitle : Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple (VC ++) === titre : Description, HelpContext, HelpFile, propriétés-exemple (VC ++) TOCTitle : Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple (VC ++)
->>>>>>> Master ms:assetid : 1375a0e6-c61b-aba5-4d7c-5db597ef873e ms:mtpsurl : https://msdn.microsoft.com/library/JJ248908(v=office.15) ms:contentKeyID : ms.date 48543369 : 18/09/2015 mtps_version : v=office.15
+title: Description, HelpContext, HelpFile, propriétés-exemple (VC ++)
+TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
+ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
+ms:contentKeyID: 48543369
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 1b6c0a1788d4a8eb8f3b3f0c3cf67303a8506089
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878849"
 ---
-
-<<<<<<< Tête
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description, HelpContext, HelpFile, NativeError, Number, Source et SQLState, propriétés - Exemple (VC++)
-=======
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple (VC ++)
->>>>>>> master
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc"></a>Description, HelpContext, HelpFile, NativeError, Number, Source et SQLState, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple déclenche une erreur, l'intercepte et affiche les propriétés [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md) et [SQLState](sqlstate-property-ado.md) de l'objet [Error](error-object-ado.md) qui en résulte.
 

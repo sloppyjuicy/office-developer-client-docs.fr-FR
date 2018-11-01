@@ -1,16 +1,21 @@
 ---
-<<<<<<< Titre tête : ActualSize et DefinedSize, propriétés-exemple (VJ ++) TOCTitle : ActualSize et DefinedSize, propriétés-exemple (VJ ++) ms:assetid : 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID : ms.date 48544261 : 18/09/2015 mtps_version : v=office.15
+title: ActualSize et DefinedSize, propriétés – Exemple (VJ++)
+TOCTitle: ActualSize and DefinedSize properties example (VJ++)
+ms:assetid: 3a25d3b7-df53-66c1-6141-d51cd57aca96
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249145(v=office.15)
+ms:contentKeyID: 48544261
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: 7a7742f3afe544e775de294e3e955142e646b213
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885037"
 ---
+# <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize et DefinedSize, propriétés – Exemple (VJ++)
 
-# <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize et DefinedSize, propriétés - Exemple (VJ++)
-
-=== titre : ActualSize et DefinedSize, propriétés-exemple (VJ ++) TOCTitle : ms:assetid d’exemple (VJ ++) propriétés ActualSize et DefinedSize : 3a25d3b7-df53-66c1-6141-d51cd57aca96 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249145(v=office.15) ms:contentKeyID : ms.date 48544261 : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="actualsize-and-definedsize-properties-example-vj"></a>ActualSize et DefinedSize, propriétés-exemple (VJ ++)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise les propriétés [ActualSize](actualsize-property-ado.md) et [DefinedSize](definedsize-property-ado.md) pour afficher la taille définie et la taille réelle d'un champ.
 

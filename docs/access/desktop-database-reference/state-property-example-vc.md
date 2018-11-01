@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle State, propriété-Exemple (VC ++) : State, propriété-Exemple (VC ++) === titre : exemple de propriété état (VC ++) TOCTitle : exemple de propriété état (VC ++)
->>>>>>> Master ms:assetid : aedc50d8-81cd-1acd-6d57-48af71369da8 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249830(v=office.15) ms:contentKeyID : ms.date 48547085 : 18/09/2015 mtps_version : v=office.15
+title: State, propriété – Exemple (VC++)
+TOCTitle: State property example (VC++)
+ms:assetid: aedc50d8-81cd-1acd-6d57-48af71369da8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249830(v=office.15)
+ms:contentKeyID: 48547085
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 06d91a9e2103fa56025230ae5326cda2d0bfb85f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886913"
 ---
-
-<<<<<<< Tête
-# <a name="state-property-example-vc"></a>State, propriété - Exemple (VC++)
-=======
-# <a name="state-property-example-vc"></a>State, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="state-property-example-vc"></a>State, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [State](state-property-ado.md) pour afficher un message pendant que des connexions asynchrones s'ouvrent et que des commandes asynchrones s'exécutent.
 

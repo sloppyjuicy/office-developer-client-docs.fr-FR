@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : taille de la propriété (ADO) TOCTitle : taille de la propriété (ADO) === titre : Size, propriété (ADO) TOCTitle : Size, propriété (ADO)
->>>>>>> Master ms:assetid : 24596b5c-b1cc-e97e-68b6-8ff53baf150b ms:mtpsurl : https://msdn.microsoft.com/library/JJ249017(v=office.15) ms:contentKeyID : ms.date 48543753 : 18/09/2015 mtps_version : v=office.15
+title: Size, propriété (ADO)
+TOCTitle: Size property (ADO)
+ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
+ms:contentKeyID: 48543753
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 03434b0227c5110ac3a1f36512aaaebd5c23c97a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25876406"
 ---
-
-<<<<<<< Tête
 # <a name="size-property-ado"></a>Size, propriété (ADO)
-=======
-# <a name="size-property-ado"></a>Size, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique la taille maximale, en octets ou en caractères, d'un objet [Parameter](parameter-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou retourne une valeur de type **Long** qui indique la taille maximale, en octets ou en caractères, d'une valeur dans un objet **Parameter**.
 

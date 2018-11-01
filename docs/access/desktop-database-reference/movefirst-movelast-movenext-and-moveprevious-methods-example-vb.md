@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249364(v=office.15)
 ms:contentKeyID: 48545226
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78525612215c4959cf77cc5e986c5724f7e26310
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b3b27f6deba6c17da3eb613da28cdfd18997e7c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862686"
+ms.locfileid: "25869252"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vb"></a>MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise les méthodes [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) et [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) pour déplacer le pointeur d'un enregistrement d'un objet [Recordset](recordset-object-ado.md) selon la commande fournie. La procédure MoveAny est nécessaire à l'exécution de cet exemple.
 

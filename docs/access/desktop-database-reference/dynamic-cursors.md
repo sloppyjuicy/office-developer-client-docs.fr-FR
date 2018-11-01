@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c324923f0e702ad59ac120ea5de2eebcccd260e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2c0cb4c9e4c8dd17098f6d94d83793fbcbc28cef
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469076"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869826"
 ---
 # <a name="dynamic-cursors"></a>Curseurs dynamiques
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Les curseurs dynamiques détectent toutes les modifications apportées aux lignes du jeu de résultats, qu'elles soient effectuées à l'intérieur du curseur ou par d'autres utilisateurs en dehors du curseur. Le curseur vous permet de voir toutes les instructions d'insertion, de mise à jour et de suppression, exécutées par tous les utilisateurs. Une fois le curseur ouvert, le curseur dynamique peut détecter les modifications apportées aux lignes, à l'ordre de tri et aux valeurs du jeu de résultats. Les mises à jour effectuées en dehors du curseur ne sont pas visibles tant qu'elles n'ont pas été validées (à moins que le niveau d'isolation de la transaction du curseur ait une valeur « non validé »).
 

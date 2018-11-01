@@ -1,15 +1,21 @@
 ---
-<<<<<<< Titre tête : SortOrder propriété-Exemple (VB) TOCTitle : SortOrder propriété-Exemple (VB) === titre : SortOrder, propriété-Exemple (VB) TOCTitle : SortOrder, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad ms:mtpsurl : https://msdn.microsoft.com/library/JJ249675(v=office.15) ms:contentKeyID : ms.date 48546472 : 18/09/2015 mtps_version : v=office.15
+title: SortOrder, propriété – Exemple (VB)
+TOCTitle: SortOrder property example (VB)
+ms:assetid: 97937644-e3ef-06dc-d8ba-55ecaf7ac1ad
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249675(v=office.15)
+ms:contentKeyID: 48546472
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 051f0ce18cf12ef2d3450dbf9ecc27ebb36134a0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874236"
 ---
+# <a name="sortorder-property-example-vb"></a>SortOrder, propriété – Exemple (VB)
 
-<<<<<<< Tête
-# <a name="sortorder-property-example-vb"></a>SortOrder, propriété - Exemple (VB)
-=======
-# <a name="sortorder-property-example-vb"></a>SortOrder, propriété-Exemple (VB)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [SortOrder](sortorder-property-adox.md) d'un objet [Column](column-object-adox.md) qui a été ajouté à la collection [Columns](columns-collection-adox.md) d'un objet [Index](index-object-adox.md). Ce code ajoute un index croissant à la colonne Country dans la table **Employees**, puis affiche les enregistrements. Il ajoute ensuite un index décroissant à la colonne Country dans la table **Employees** et affiche de nouveau les enregistrements. La différence entre les index croissant et décroissant apparaît ainsi clairement.
 

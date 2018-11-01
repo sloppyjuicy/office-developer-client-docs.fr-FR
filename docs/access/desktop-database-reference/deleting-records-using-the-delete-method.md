@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249003(v=office.15)
 ms:contentKeyID: 48543708
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22ed36c0015df458b9f0577350f5f05a03561515
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ca39f78a69c31d45ecab57b297d8b6eaf9031d92
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471934"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875363"
 ---
 # <a name="deleting-records-using-the-delete-method"></a>Suppression des enregistrements à l'aide de la méthode Delete
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'utilisation de la méthode **Delete** marque l'enregistrement actif ou un groupe d'enregistrements d'un objet **Recordset** pour suppression. Si l'objet **Recordset** interdit la suppression des enregistrements, une erreur se produit. Si vous êtes en mode de mise à jour immédiate, les suppressions sont effectuées immédiatement dans la base de données. Si la suppression d'un enregistrement échoue (suite à des violations d'intégrité relatives à la base de données, par exemple), l'enregistrement reste en mode de modification après l'appel de la méthode **Update**. En d'autres termes, vous devez annuler la mise à jour à l'aide de la méthode [CancelUpdate](cancelupdate-method-ado.md) avant de quitter l'enregistrement actif (par exemple, en utilisant [Close](close-method-ado.md), [Move](move-method-ado.md) ou [NextRecordset](nextrecordset-method-ado.md)).
 

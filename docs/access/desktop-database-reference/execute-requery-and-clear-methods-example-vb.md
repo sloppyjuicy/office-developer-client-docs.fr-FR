@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249432(v=office.15)
 ms:contentKeyID: 48545491
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8d6c1a24bd20835ed96842d995a3c1568ae7139
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6737496cffb31fd4a3666ba57a604f8730c79c6c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25863023"
+ms.locfileid: "25886241"
 ---
 # <a name="execute-requery-and-clear-methods-example-vb"></a>Execute, Requery et Clear, méthodes – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recordset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). (L'accès à la collection **Errors** est réalisé via l'objet **Connection** de la propriété [ActiveConnection](activeconnection-property-ado.md) de l'objet [Recordset](recordset-object-ado.md).) Les procédures ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cette procédure.
 

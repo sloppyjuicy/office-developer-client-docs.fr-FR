@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : colonnes et Tables Append, méthodes TOCTitle nom, propriété-Exemple (VC ++) : colonnes et Tables Append méthodes, nom, propriété-Exemple (VC ++) === titre : colonnes et Tables Append méthodes, exemple de propriété Name (VC ++) TOCTitle : Colonnes et Tables Append méthodes, exemple de propriété Name (VC ++)
->>>>>>> Master ms:assetid : 6586aaed-2556-1d33-c1ab-135a598f7d13 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249392(v=office.15) ms:contentKeyID : ms.date 48545322 : 18/09/2015 mtps_version : v=office.15
+title: Colonnes et Tables Append méthodes, exemple de propriété Name (VC ++)
+TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
+ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
+ms:contentKeyID: 48545322
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f592b4015d073c05fcd050350bec4ebafdb6eb54
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882202"
 ---
-
-<<<<<<< Tête
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns Append et Tables Append, méthodes - Exemple de propriété Name (VC++)
-=======
 # <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Colonnes et Tables Append méthodes, exemple de propriété Name (VC ++)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le code suivant illustre la création d'une table.
 

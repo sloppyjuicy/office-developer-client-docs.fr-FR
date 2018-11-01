@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle Charset propriété (ADO) : propriété Charset (ADO) === titre : Charset, propriété (ADO) TOCTitle : Charset, propriété (ADO)
->>>>>>> Master ms:assetid : 454f664e-6d62-eec9-487d-882c2f9503b0 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249213(v=office.15) ms:contentKeyID : ms.date 48544551 : 18/09/2015 mtps_version : v=office.15
+title: Charset, propriété (ADO)
+TOCTitle: Charset property (ADO)
+ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
+ms:contentKeyID: 48544551
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 46d9016e84b507526fa36202169f532e9ee7d738
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887788"
 ---
-
-<<<<<<< Tête
 # <a name="charset-property-ado"></a>Charset, propriété (ADO)
-=======
-# <a name="charset-property-ado"></a>CharSet, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le jeu de caractères dans lequel le contenu d'un objet [Stream](stream-object-ado.md) de type texte doit être converti pour être stocké dans la mémoire tampon interne des objets Stream.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur de type **String** qui spécifie le jeu de caractères dans lequel le contenu de l'objet **Stream** est converti. La valeur par défaut est « Unicode ». Les valeurs admises sont des chaînes classiques transmises via l'interface sous forme de chaînes de jeu de caractères Internet (par exemple, « ISO-8859-1 », « Windows-1252 », etc.). Pour obtenir la liste des chaînes de jeu de caractères qui est appelée par un système, voir les sous-clés de HKEY\_CLASSES\_racine\\MIME\\base de données\\jeu de caractères dans le Registre Windows.
 

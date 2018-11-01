@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249046(v=office.15)
 ms:contentKeyID: 48543868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c73a4aaeefd88710dab611c740e834694b0d3da
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: d054b30854f8fcf94b78a243ed676ce2993bcfec
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605253"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882573"
 ---
 # <a name="primarykey-property-adox"></a>PrimaryKey, propriété (ADOX)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique si l'index représente la clé primaire de la table.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit et renvoie une valeur de type **Boolean**.
 

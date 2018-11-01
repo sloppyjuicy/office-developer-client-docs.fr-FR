@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle préparé, propriété-Exemple (VC ++) : préparé, propriété-Exemple (VC ++) === titre : Prepared, propriété-Exemple (VC ++) TOCTitle : Prepared, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : 9b2d8037-e74d-5fbd-c56c-18187236b1b2 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249704(v=office.15) ms:contentKeyID : ms.date 48546562 : 18/09/2015 mtps_version : v=office.15
+title: Prepared, propriété – Exemple (VC++)
+TOCTitle: Prepared property example (VC++)
+ms:assetid: 9b2d8037-e74d-5fbd-c56c-18187236b1b2
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249704(v=office.15)
+ms:contentKeyID: 48546562
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: f0c3f6f48418b6b8df95b423b9baba3a9c84c21b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885814"
 ---
-
-<<<<<<< Tête
-# <a name="prepared-property-example-vc"></a>Prepared, propriété - Exemple (VC++)
-=======
-# <a name="prepared-property-example-vc"></a>Prepared, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="prepared-property-example-vc"></a>Prepared, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l'ouverture de deux objets [Command](command-object-ado.md) : l'un préparé et l'autre non préparé.
 

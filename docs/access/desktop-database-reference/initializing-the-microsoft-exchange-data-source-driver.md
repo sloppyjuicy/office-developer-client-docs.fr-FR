@@ -10,16 +10,16 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f711e9814e32742c89c37ae3357111143ca18b6e
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c1ba74f754ef0c998a14f7421914bd4bcd7c9cf9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469178"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870197"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source de données Microsoft Exchange
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Lorsque vous installez le pilote de source de données Microsoft® Exchange, le programme d'installation écrit un ensemble de valeurs par défaut dans les sous-clé Engines et ISAM Formats du registre Microsoft Windows®. Vous ne devez pas modifier directement ces paramètres. Utilisez le programme d'installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l'initialisation et les paramètres de format ISAM pour le pilote de source de données Microsoft Exchange.
 

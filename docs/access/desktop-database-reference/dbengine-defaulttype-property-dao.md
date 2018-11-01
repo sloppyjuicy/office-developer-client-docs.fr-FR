@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef2c8a4844d02c55db6cea80e0767b4b7f75d114
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: f0fa2fb5ba12b1537994a4d6df88406db38bfec4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861447"
+ms.locfileid: "25870924"
 ---
 # <a name="dbenginedefaulttype-property-dao"></a>DBEngine.DefaultType Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique le type d'espace de travail qui sera utilisé par le prochain objet **[Workspace](workspace-object-dao.md)** créé.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 357e419f27efdcc7b6b46004cd340c100114a72a
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 34a6086fb7ae5f84e4360ab47f330fd884b061d1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470285"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887298"
 ---
 # <a name="querydef-members-dao"></a>QueryDef Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet QueryDef est une définition stockée d'une requête dans une base de données du moteur de base de données Microsoft Access.
 
@@ -103,7 +103,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">

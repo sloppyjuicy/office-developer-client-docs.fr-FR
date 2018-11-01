@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2989159683b668c798181c2e99d58fade8fba467
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d0bf59a8be000d01dc6f514112265b640384e549
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471520"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869378"
 ---
 # <a name="recordset-members-dao"></a>Recordset Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet Recordset représente les enregistrements dans une table de base ou les enregistrements obtenus par l'exécution d'une requête.
 
@@ -65,7 +65,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 <td><p>Renvoie un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> qui est une copie de l' <strong>objet QueryDef</strong> utilisé pour créer l’objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement). .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-delete-method-dao.md">Supprimer</a></strong></p></td>
+<td><p><strong><a href="recordset-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Méthode non prise en charge pour cet objet.</p></td>
 </tr>
 <tr class="even">
@@ -241,7 +241,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-filter-property-dao.md">Filtre</a></strong></p></td>
+<td><p><strong><a href="recordset-filter-property-dao.md">Filter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet <strong>Recordset</strong> ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
@@ -261,7 +261,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 <td><p>Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="recordset-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">

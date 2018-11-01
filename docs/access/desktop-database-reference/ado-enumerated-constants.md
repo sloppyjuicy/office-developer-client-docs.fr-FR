@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ecefa3973d2995a69feb9abe82355aae7df63d1
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471727"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882307"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes énumérées ADO
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Pour faciliter le débogage, les énumérations ADO comportent une valeur pour chaque constante. Cependant, cette valeur est fournie uniquement à titre indicatif et peut changer d'une version d'ADO à une autre. Votre code doit dépendre uniquement du nom et non de la valeur réelle de chaque constante énumérée.
 
@@ -143,7 +143,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 <td><p>Spécifie le type de verrouillage appliqué aux enregistrements pendant l'édition.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="marshaloptionsenum.md">MarshalOptions</a></p></td>
+<td><p><a href="marshaloptionsenum.md">MarshalOptionsEnum</a></p></td>
 <td><p>Spécifie les enregistrements qui doivent être renvoyés au serveur.</p></td>
 </tr>
 <tr class="odd">

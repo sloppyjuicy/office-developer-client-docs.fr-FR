@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79ab3111d7ca390101a3742ba2b1120e924b946f
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 6dabf37ae7f175108a0244b24208f7da19d9954b
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25864136"
+ms.locfileid: "25877358"
 ---
 # <a name="ado-technology-table"></a>Tableau des technologies ADO
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le tableau suivant répertorie les produits, outils et technologies Microsoft présentées dans le manuel *ADO Programmer's Guide* (en anglais). Il fournit également les liens disponibles vers les rubriques de ce guide traitant du sujet.
 

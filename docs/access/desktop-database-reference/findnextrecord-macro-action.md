@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b58478a67468fa7d00c348066459672bc31c52a7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 05dec445360d5c42636880982e27e0abd46d048e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471673"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883651"
 ---
 # <a name="findnextrecord-macro-action"></a>RechercherEnregistrementSuivant, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **RechercherEnregistrementSuivant** pour trouver l'enregistrement suivant qui répond aux critères spécifiés par l'action **TrouverEnregistrement** précédente ou par la valeur de la boîte de dialogue **Rechercher et remplacer** (sous l'onglet **Accueil**, cliquez sur **Rechercher**). Vous pouvez également utiliser l'action **RechercherEnregistrementSuivant** pour rechercher un à un des enregistrements, par exemple des enregistrements relatifs à un client spécifique.
 

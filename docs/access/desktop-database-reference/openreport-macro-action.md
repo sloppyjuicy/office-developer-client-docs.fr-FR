@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 06828474aee961dd6df02f29c7d046805a1c764c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ef2a1f5afd4b8828fdc39744e92d0a4e92ca7bd6
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470223"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25871492"
 ---
 # <a name="openreport-macro-action"></a>OuvrirEtat, action de macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Faites appel à l'action **OuvrirEtat** pour ouvrir un état en mode Création ou Aperçu avant impression ou pour envoyer l'état directement à l'imprimante. Vous pouvez également limiter les enregistrements qui sont imprimés dans l'état.
 

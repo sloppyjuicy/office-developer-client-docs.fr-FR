@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0098e646ea48656f44bd3ccd380ae41efc94ffba
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 66ef27165e6f5823cc97a295643dfc2ae5c205c2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606937"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883182"
 ---
 # <a name="microsoft-ole-db-provider-for-odbc"></a>Fournisseur Microsoft OLE DB pour ODBC
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Pour un programmeur ADO ou RDS, l'idéal serait que chaque source de données expose une interface OLE DB pour qu'ADO puisse effectuer les appels directement dans la source de données. Même si les fournisseurs de bases de données sont de plus en plus nombreux à implémenter les interfaces OLE DB, certaines sources de données ne sont pas encore exposées de cette façon. Toutefois, tous les systèmes SGBD utilisés aujourd'hui sont en principe accessibles via ODBC.
 
@@ -79,11 +79,7 @@ La chaîne est composée des mots clé suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>URL</strong></p></td>
-<<<<<<< Tête
-<td><p>Spécifie l'URL d'un fichier ou d'un répertoire publié dans un dossier Web.</p></td>
-=======
 <td><p>Spécifie l’URL d’un fichier ou un répertoire publié dans un dossier web.</p></td>
->>>>>>>forme de base
 </tr>
 </tbody>
 </table>

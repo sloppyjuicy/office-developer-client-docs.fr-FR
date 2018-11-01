@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249436(v=office.15)
 ms:contentKeyID: 48545511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 526c333f774aaf77079279932f8d9adf39915984
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 9f18ae0a218adb65d453c3f54eb7af43af68097c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861490"
+ms.locfileid: "25870722"
 ---
 # <a name="microsoft-data-shaping-service-for-ole-db-ado-service-provider"></a>Microsoft Data Shaping Service pour OLE DB (fournisseur de services ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Microsoft Data Shaping Service pour le fournisseur de services OLE DB prend en charge la construction d'objets [Recordset](recordset-object-ado.md) hiérarchiques (mis en forme) provenant d'un fournisseur de données.
 

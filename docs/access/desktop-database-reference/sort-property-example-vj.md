@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle tri, propriété-Exemple (VJ ++) : Sort, propriété-Exemple (VJ ++) === titre : exemple de propriété Sort (VJ ++) TOCTitle : exemple de propriété Sort (VJ ++)
->>>>>>> Master ms:assetid : 29f34b9d-a75a-baa3-2505-ebd70e71950f ms:mtpsurl : https://msdn.microsoft.com/library/JJ249051(v=office.15) ms:contentKeyID : ms.date 48543896 : 18/09/2015 mtps_version : v=office.15
+title: Sort, propriété – Exemple (VJ++)
+TOCTitle: Sort property example (VJ++)
+ms:assetid: 29f34b9d-a75a-baa3-2505-ebd70e71950f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
+ms:contentKeyID: 48543896
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 9ea7dd3ee87b3e7ff2d06a6f6cf14d9195216f42
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872080"
 ---
-
-<<<<<<< Tête
-# <a name="sort-property-example-vj"></a>Sort, propriété - Exemple (VJ++)
-=======
-# <a name="sort-property-example-vj"></a>Trier, propriété-Exemple (VJ ++)
->>>>>>> master
+# <a name="sort-property-example-vj"></a>Sort, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.
 

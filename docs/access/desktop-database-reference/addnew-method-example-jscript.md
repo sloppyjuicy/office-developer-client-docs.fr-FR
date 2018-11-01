@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249882(v=office.15)
 ms:contentKeyID: 48547290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 73706fc5e3e95b83e9e2c8e485364afdc4f141cd
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 7d7e3455612952c386898a00bbc1a7629113acc9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25859915"
+ms.locfileid: "25869343"
 ---
 # <a name="addnew-method-example-jscript"></a>AddNew, méthode – Exemple (JScript)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **AddNewJS.asp**.
 

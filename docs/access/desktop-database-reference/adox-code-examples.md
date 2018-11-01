@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
 ms:contentKeyID: 48545557
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c3b862e67bb4029c7fbec032e1a1930f0e0f84c
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 875d179305d6dd008954921049b4c9ab369a03b9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471962"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887662"
 ---
 # <a name="adox-code-examples"></a>Exemples de code ADOX
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez les exemples de code suivants pour savoir comment utiliser les objets, méthodes, propriétés et événements ADOX.
 

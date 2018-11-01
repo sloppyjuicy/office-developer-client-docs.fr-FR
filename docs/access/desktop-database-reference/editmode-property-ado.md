@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle de la propriété EditMode (ADO) : EditMode propriété (ADO) === titre : EditMode, propriété (ADO) TOCTitle : EditMode, propriété (ADO)
->>>>>>> Master ms:assetid : 28ca8f14-abee-ad20-9c16-11bb36b487e4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249045(v=office.15) ms:contentKeyID : ms.date 48543867 : 18/09/2015 mtps_version : v=office.15
+title: EditMode, propriété (ADO)
+TOCTitle: EditMode property (ADO)
+ms:assetid: 28ca8f14-abee-ad20-9c16-11bb36b487e4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249045(v=office.15)
+ms:contentKeyID: 48543867
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 4c859d85dc62e09a1fd21af11deaca5d0f2e8b85
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25867348"
 ---
-
-<<<<<<< EN-TÊTE
 # <a name="editmode-property-ado"></a>EditMode, propriété (ADO)
-=======
-# <a name="editmode-property-ado"></a>EditMode, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique l'état d'édition de l'enregistrement actuel.
 
-<<<<<<< EN-TÊTE
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie la valeur [EditModeEnum](editmodeenum.md).
 

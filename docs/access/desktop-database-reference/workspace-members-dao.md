@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 04dd82fcdb3bd9be0581ea5172429960769b31af
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: ec5e11a8bdc33923ca92f96833605338e9f19566
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472370"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889993"
 ---
 # <a name="workspace-members-dao"></a>Workspace Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet Workspace définit une session nommée pour un utilisateur. Il contient des bases de données ouvertes et fournit les mécanismes destinés aux transactions simultanées, ainsi que la prise en charge des groupes de travail sécurisés dans les espaces de travail Microsoft Access.
 
@@ -113,7 +113,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="workspace-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

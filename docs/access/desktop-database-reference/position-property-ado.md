@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle Position propriété (ADO) : Position propriété (ADO) === titre : Position, propriété (ADO) TOCTitle : Position, propriété (ADO)
->>>>>>> Master ms:assetid : a07c9197-673b-ddf2-fca9-b0b54fbd67b4 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249738(v=office.15) ms:contentKeyID : ms.date 48546709 : 18/09/2015 mtps_version : v=office.15
+title: Position, propriété (ADO)
+TOCTitle: Position property (ADO)
+ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
+ms:contentKeyID: 48546709
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab1111cdbc0e5a319f1f3431477854c6d38eff20
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875405"
 ---
-
-<<<<<<< Tête
 # <a name="position-property-ado"></a>Position, propriété (ADO)
-=======
-# <a name="position-property-ado"></a>Position, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique la position actuelle dans un objet [Stream](stream-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou retourne une valeur de type **Long** qui spécifie le décalage, en nombre d'octets, de la position actuelle par rapport au début du flux. La valeur par défaut est 0 ; elle représente le premier octet du flux.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Command et CommandText, propriétés-exemple (VC ++) TOCTitle : commande et CommandText, propriétés-exemple (VC ++) === titre : Command et CommandText, propriétés-exemple (VC ++) TOCTitle : Command et CommandText propriétés-exemple (VC ++)
->>>>>>> Master ms:assetid : 99eac61e-22fe-0e2c-542a-7f6ad14f3d60 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249692(v=office.15) ms:contentKeyID : ms.date 48546525 : 18/09/2015 mtps_version : v=office.15
+title: Command et CommandText, propriétés – Exemple (VC++)
+TOCTitle: Command and CommandText properties example (VC++)
+ms:assetid: 99eac61e-22fe-0e2c-542a-7f6ad14f3d60
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249692(v=office.15)
+ms:contentKeyID: 48546525
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 0d329fb08604f0b3f9cf9336108696778ff26df0
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879248"
 ---
-
-<<<<<<< Tête
-# <a name="command-and-commandtext-properties-example-vc"></a>Command et CommandText, propriétés - Exemple (VC++)
-=======
-# <a name="command-and-commandtext-properties-example-vc"></a>Command et CommandText, propriétés-exemple (VC ++)
->>>>>>> master
+# <a name="command-and-commandtext-properties-example-vc"></a>Command et CommandText, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une procédure.
 

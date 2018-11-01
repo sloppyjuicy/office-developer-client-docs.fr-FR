@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37fd3745966c9267006e6f67c85406d54b350dad
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 1edf78ef487f95738de06e34cd72561a1c969ee4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606926"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884897"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
@@ -72,11 +72,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 </table>
 
 
-<<<<<<< Tête
 ### <a name="return-value"></a>Valeur renvoyée
-=======
-### <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Propriété
 

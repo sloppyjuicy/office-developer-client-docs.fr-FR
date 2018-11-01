@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249560(v=office.15)
 ms:contentKeyID: 48545961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b9bca4035917f4376ccf69201d79894a0273ceb9
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 01330eeed2645a0bd76f6ac51e96542068b245e7
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471123"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878975"
 ---
 # <a name="adding-multiple-fields"></a>Ajout de plusieurs champs
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Il est parfois plus efficace de passer un tableau de champs et leurs valeurs correspondantes à la méthode **AddNew** au lieu de définir plusieurs fois **Value** pour chaque nouveau champ. Si *FieldList* est un tableau, les *valeurs* doivent être également un tableau avec le même nombre de membres ; dans le cas contraire, une erreur se produit. L'ordre des noms de champs doit correspondre à l'ordre des valeurs de champs dans chaque tableau. Le code suivant passe un tableau de champs et un tableau de valeurs à la méthode **AddNew**.
 

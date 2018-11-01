@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9c57bb28de25ebc540c4e4eb3804a714969e2ac6
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: bfb2238bf81215acef7026bb878dca9d1dbceb61
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472122"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869882"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OuvrirModuleVisualBasic, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic pour Applications (VBA) spécifique à une certaine procédure. Il peut s'agir d'une procédure Sub, d'une procédure Function ou d'une procédure événementielle.
 

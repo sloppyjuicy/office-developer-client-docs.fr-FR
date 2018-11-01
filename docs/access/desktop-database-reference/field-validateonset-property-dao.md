@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e4b1297fe7c41efd49a457f3382f72c480f85363
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9a7f89277b51ef0edb5603c4482d4547201673fb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471343"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25884772"
 ---
 # <a name="fieldvalidateonset-property-dao"></a>Field.ValidateOnSet Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui spécifie si la valeur d'un objet **[Field](field-object-dao.md)** est immédiatement validée quand la propriété **[Value](field-value-property-dao.md)** de l'objet est définie (espaces de travail Microsoft Access uniquement).
 

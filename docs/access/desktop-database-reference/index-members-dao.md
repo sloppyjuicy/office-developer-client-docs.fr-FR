@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 18f885dadb5ef86f78ed0a19ca9b2a5feb424b34
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5389b4c3d297e5d820955f2586faafc31811b034
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472492"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883756"
 ---
 # <a name="index-members-dao"></a>Index Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Les objets Index déterminent l'ordre des enregistrements accessibles depuis les tables de base de données et indiquent si les enregistrements en double sont acceptés ou pas, ce qui optimise l'accès aux données. Dans le cas d'une base de données externe, les objets Index décrivent les index définis pour les tables externes (espaces de travail Microsoft Access uniquement).
 
@@ -81,7 +81,7 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 <td><p>Définit ou renvoie une valeur qui indique si les enregistrements ayant des valeurs nulles dans leurs champs d'index ont des entrées d'index (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="index-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

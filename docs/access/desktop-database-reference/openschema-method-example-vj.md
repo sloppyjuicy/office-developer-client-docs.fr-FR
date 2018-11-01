@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249773(v=office.15)
 ms:contentKeyID: 48546877
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a426a7aa0a485817dbab5d865a22a9920b21f0ab
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: b82c01ef5084bf9d40b03279640693490f4eb652
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861938"
+ms.locfileid: "25887410"
 ---
 # <a name="openschema-method-example-vj"></a>OpenSchema, méthode – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.
 

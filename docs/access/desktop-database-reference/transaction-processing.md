@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a598b2842638b0c58e72ef2b802c8214f5c72b8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cf12c224de0593fa3202ab74cdd0c5346c9570a8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470323"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874194"
 ---
 # <a name="transaction-processing"></a>Traitement des transactions
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ADO fournit les méthodes suivantes pour le contrôle des transactions : **BeginTrans**, **CommitTrans** et **RollbackTrans**. Utilisez ces méthodes avec un objet **Connection** pour enregistrer ou annuler en bloc une série de modifications apportées à la source de données. Par exemple, pour un transfert financier entre deux comptes, vous devez soustraire un montant de l'un et ajouter ce même montant à l'autre. Si l'une des deux mises à jour échoue, les comptes ne sont pas équilibrés. Si ces modifications sont effectuées par l'intermédiaire d'une transaction ouverte, vous êtes assuré de l'échec ou de la réussite de toutes les modifications.
 

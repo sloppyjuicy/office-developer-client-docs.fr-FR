@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4693cbe643ab34431f7920564e704808c1b0f73b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 78819ba2a82bf2fc9ab5c39300d06c1acdda80bc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469711"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875804"
 ---
 # <a name="importexportspreadsheet-macro-action"></a>ImporterExporterFeuilleDeCalcul, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'action **ImporterExporterFeuilleDeCalcul** permet d'importer ou d'exporter des données entre la base de données Access (.mdb ou .accdb) ou le projet Access (.adp) actif et un fichier de feuille de calcul. Vous pouvez également lier les données figurant dans une feuille de calcul Microsoft Excel dans la base de données Access active. Avec une feuille de calcul attachée, vous pouvez afficher et modifier les données de la feuille dans Access, tout en garantissant l'accès aux données à partir de la feuille de calcul Excel. Vous pouvez aussi attacher les données d'un fichier de feuille de calcul Lotus 1-2-3, mais elles seront en lecture seule dans Access.
 

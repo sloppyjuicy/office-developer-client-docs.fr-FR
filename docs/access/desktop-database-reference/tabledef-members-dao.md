@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 405bf207fc29106f9b80944d0d2bbee8907d3070
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: c597bc75f629e2f34302ecd30f3ef589ad4d4561
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471009"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885506"
 ---
 # <a name="tabledef-members-dao"></a>TableDef Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Un objet TableDef représente la définition stockée d'une table de base ou d'une table liée (espaces de travail Microsoft Access uniquement).
 
@@ -101,7 +101,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Nom</a></strong></p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">

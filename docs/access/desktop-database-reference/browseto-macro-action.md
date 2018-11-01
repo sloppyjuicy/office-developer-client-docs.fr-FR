@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 15009ca039d5df06bc732f4b58c066ad8f8d67c9
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 242041627a909b1c16d956dbbb94a3bf173d544a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25603762"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878933"
 ---
 # <a name="browseto-macro-action"></a>Parcourir, action de Macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **Parcourir** pour naviguer parmi des objets en place. Vous pouvez également modifier l'objet source d'un contrôle de sous-formulaire en spécifiant l'argument Chemin d'accès au contrôle de sous-formulaire. Utilisez **Parcourir** pour naviguer de formulaire1 à formulaire2 sans ouvrir de nouvelle fenêtre.
 
@@ -57,11 +57,7 @@ L'action **Parcourir** utilise l'argument suivant :
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<<<<<<< Tête
-<td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est réservé au Web.</p></td>
-=======
 <td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est web uniquement.</p></td>
->>>>>>>forme de base
 </tr>
 <tr class="even">
 <td><p>Mode Données</p></td>

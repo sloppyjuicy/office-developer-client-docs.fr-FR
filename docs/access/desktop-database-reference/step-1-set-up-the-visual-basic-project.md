@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248954(v=office.15)
 ms:contentKeyID: 48543544
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f608d0dadb44a6ddea7a60123d2d6950bc9627cb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 31b81c762f192f8a56e56baf0c5e0ae5b6b6fadf
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469953"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25868650"
 ---
 # <a name="step-1-set-up-the-visual-basic-project"></a>Étape 1 : configurer le projet Visual Basic
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="step-1-set-up-the-visual-basic-project"></a>Étape 1 : configurer le projet Visual Basic
 

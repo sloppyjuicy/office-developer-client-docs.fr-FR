@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ab78043392801f04a85a80c103c7afad6091b30b
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470339"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883686"
 ---
 # <a name="working-with-recordsets"></a>Utilisation des jeux d'enregistrements
 
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013 
 
 L'objet **Recordset** possède des fonctionnalités intégrées permettant de réorganiser l'ordre des données dans le jeu de résultats, ce qui permet, d'une part, de rechercher des enregistrements spécifiques sur base de critères définis et, d'autre part, d'optimiser ces opérations de recherche à l'aide d'index. La disponibilité de ces fonctionnalités dépend du fournisseur et, dans certains cas, notamment celui de la propriété [Index](index-property-ado.md), de la structure même de la source de données.
 

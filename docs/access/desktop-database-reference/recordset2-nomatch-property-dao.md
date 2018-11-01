@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e8da60617e3076d5670218ca3a1cbe6df13ddbb
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: dbc35b696f74aa0da64ec24ce38c2f8ad8cfab4d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471141"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879090"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Recordset2.NoMatch Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique si un enregistrement donné a été localisé à l'aide de la méthode **[Seek](recordset2-seek-method-dao.md)** ou de l'une des méthodes **[Find](recordset2-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
 

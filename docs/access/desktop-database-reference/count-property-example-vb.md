@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle Count propriété-Exemple (VB) : nombre de propriété-Exemple (VB) === titre : Count, propriété-Exemple (VB) TOCTitle : Count, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 9fea66f7-a4ed-fe2e-c199-672b910fef47 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249734(v=office.15) ms:contentKeyID : ms.date 48546695 : 18/09/2015 mtps_version : v=office.15
+title: Count, propriété – Exemple (VB)
+TOCTitle: Count property example (VB)
+ms:assetid: 9fea66f7-a4ed-fe2e-c199-672b910fef47
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249734(v=office.15)
+ms:contentKeyID: 48546695
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c47436a5c701abb9bff29fea718fa7119594cd1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873620"
 ---
-
-<<<<<<< Tête
-# <a name="count-property-example-vb"></a>Count, propriété - Exemple (VB)
-=======
-# <a name="count-property-example-vb"></a>Count, propriété-Exemple (VB)
->>>>>>> master
+# <a name="count-property-example-vb"></a>Count, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***des employés*** . La propriété obtient le nombre d'objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre manière pour énumérer ces collections sans utiliser la propriété **Count** consisterait à utiliser des instructions.
 

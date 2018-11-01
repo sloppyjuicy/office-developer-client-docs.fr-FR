@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle tri propriété (ADO) : tri propriété (ADO) === titre : trier, propriété (ADO) TOCTitle : trier, propriété (ADO)
->>>>>>> Master ms:assetid : f2a39b7f-8b96-cd1a-8248-71f8b867454a ms:mtpsurl : https://msdn.microsoft.com/library/JJ250230(v=office.15) ms:contentKeyID : ms.date 48548652 : 18/09/2015 mtps_version : v=office.15
+title: Sort, propriété (ADO)
+TOCTitle: Sort property (ADO)
+ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
+ms:contentKeyID: 48548652
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ebd515d2812ce453711c2b6519b1875250911d1a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886605"
 ---
-
-<<<<<<< Tête
 # <a name="sort-property-ado"></a>Sort, propriété (ADO)
-=======
-# <a name="sort-property-ado"></a>Sort, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique un ou plusieurs noms de champs selon lesquels le [Recordset](recordset-object-ado.md) est trié ; indique en outre si les valeurs des champs sont triés en ordre croissant ou décroissant.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur **String** qui indique les noms des champs du **Recorset** selon lesquels le tri est réalisé. Les noms sont séparés par des virgules et éventuellement suivis d'un espace puis du mot clé **ASC** (si les valeurs du champ sont triées en ordre croissant) ou **DESC** (si les valeurs du champ sont triées en ordre décroissant). Si aucun mot clé n'est spécifié, les valeurs du champ sont par défaut triées en ordre croissant.
 

@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c66e6d3297359b3f3584932d8a1faa5dbee0fd7
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e72de1f266b1dc24267b1c7f3c43be489d92fb5e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469573"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889594"
 ---
 # <a name="databaseexecute-method-dao"></a>Méthode Database.Execute (DAO)
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 

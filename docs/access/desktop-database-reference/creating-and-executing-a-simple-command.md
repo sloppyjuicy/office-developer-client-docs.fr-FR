@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249699(v=office.15)
 ms:contentKeyID: 48546547
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 88463cf79ace0007cac8e5ebd1694ee7a080f329
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 0446654a6ad39246289690c95f160bd77dcde19d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860349"
+ms.locfileid: "25886262"
 ---
 # <a name="creating-and-executing-a-simple-command"></a>Création et exécution d'une commande simple
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.
 

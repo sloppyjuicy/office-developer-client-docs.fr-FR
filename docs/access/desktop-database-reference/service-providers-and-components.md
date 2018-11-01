@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250163(v=office.15)
 ms:contentKeyID: 48548333
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e7b099b7fda71f09e9e2a1bb3596c23106771fb3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: d215c7c66c489e54d513941604b1c66c0e9094c1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472205"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881208"
 ---
 # <a name="service-providers-and-components"></a>Fournisseurs et composants de services
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Les fournisseurs de services sont des composants qui étendent les fonctionnalités des fournisseurs de données par l'implémentation d'interfaces qui ne sont pas prises en charge en mode natif par le magasin de données.
 

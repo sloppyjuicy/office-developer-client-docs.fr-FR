@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250135(v=office.15)
 ms:contentKeyID: 48548222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85af8f8840cdc74494f29d169cbccb3ce38cc6b4
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: bc7f915b32c9a6bec79afe5de554bf7863030c03
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862211"
+ms.locfileid: "25869798"
 ---
 # <a name="handling-errors-in-vbscript"></a>Gestion des erreurs dans VBScript
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Il y a peu de différences entre les méthodes Visual Basic et VBScript. La principale différence réside dans le fait que VBScript ne prend pas en charge le concept de gestion des erreurs en continuant l'exécution au niveau d'une étiquette. En d'autres termes, vous ne pouvez pas utiliser On Error GoTo dans VBScript. À la place, utilisez-le dans VBScript. Au lieu de cela, utilisez On Error Resume Next et vérifiez à la fois **Err.Number** et la propriété **Count** de la collection **Errors** , comme illustré dans l’exemple suivant :
 

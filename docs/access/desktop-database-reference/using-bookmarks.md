@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250306(v=office.15)
 ms:contentKeyID: 48548935
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3c5d05c958a30f1ec5782a5dce0dd66ccd5dad4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 9c362e87f3e962586c2bd821bd6facb35966a77f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469429"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25886836"
 ---
-# <a name="using-bookmarks"></a>Utilisation des signets
+# <a name="using-bookmarks"></a>Utilisation de signets
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Il est souvent utile de pouvoir revenir directement à un enregistrement spécifique après vous être déplacé dans l'objet **Recordset**, sans devoir faire défiler tous les enregistrements et comparer leurs valeurs. Si, par exemple, vous recherchez un enregistrement à l'aide de la méthode **Find** mais que la recherche ne renvoie aucun enregistrement, vous revenez automatiquement à l'une des deux extrémités de l'objet **Recordset**. Si votre fournisseur les prend en charge, des signets peuvent être utilisés pour marquer votre position avant d'utiliser la méthode **Find**, afin de pouvoir revenir à votre emplacement d'origine. Un signet est une valeur de type **Variant** qui permet l'identification individuelle des enregistrements dans un objet **Recordset**.
 

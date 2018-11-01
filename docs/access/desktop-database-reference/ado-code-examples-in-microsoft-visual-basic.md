@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a1ceec153a1717485bac87cbf5fdb764f546cab7
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 405e866d87d296869536ca952f45782080809853
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862113"
+ms.locfileid: "25873893"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Exemples de code ADO dans Microsoft Visual Basic
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes, propriétés et événements ADO lorsque vous écrivez du code en Visual Basic.
 
@@ -59,11 +59,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
   - [GetString, méthode - Exemple](getstring-method-example-vb.md)
 
-<<<<<<< EN-TÊTE
   - [SkipLine, méthode, EOS et LineSeparator, propriétés-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
-=======
-  - [SkipLine, méthode, EOS et LineSeparator, propriétés-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
->>>>>>> master
 
   - [Move, méthode - Exemple](move-method-example-vb.md)
 
@@ -83,11 +79,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
   - [Save et Open, méthodes - Exemple](save-and-open-methods-example-vb.md)
 
-<<<<<<< EN-TÊTE
   - [Seek (méthode) et Index, propriété-exemple](seek-method-and-index-property-example-vb.md)
-=======
-  - [Seek (méthode) et Index, propriété-exemple](seek-method-and-index-property-example-vb.md)
->>>>>>> master
 
   - [Supports, méthode - Exemple](supports-method-example-vb.md)
 
@@ -97,71 +89,6 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 
 **Propriétés**
 
-<<<<<<< EN-TÊTE
-  - [AbsolutePage, PageCount et PageSize, propriétés - Exemple](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
-
-  - [AbsolutePosition et CursorLocation, propriétés - Exemple](absoluteposition-and-cursorlocation-properties-example-vb.md)
-
-  - [ActiveCommand, propriété - Exemple](activecommand-property-example-vb.md)
-
-  - [ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés - Exemple](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
-
-  - [ActualSize et DefinedSize, propriétés - Exemple](actualsize-and-definedsize-properties-example-vb.md)
-
-  - [Attributes et Name, propriétés - Exemple](attributes-and-name-properties-example-vb.md)
-
-  - [BOF, EOF et Bookmark, propriétés - Exemple](bof-eof-and-bookmark-properties-example-vb.md)
-
-  - [CacheSize, propriété - Exemple](cachesize-property-example-vb.md)
-
-  - [ConnectionString, ConnectionTimeout et State, propriétés - Exemple](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
-
-  - [Count, propriété - Exemple](count-property-example-vb.md)
-
-  - [CursorType, LockType et EditMode, propriétés - Exemple](cursortype-locktype-and-editmode-properties-example-vb.md)
-
-  - [Description, HelpContext, HelpFile, NativeError, Number, Source et SQLState, propriétés - Exemple](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
-
-  - [EOS et LineSeparator (propriétés), SkipLine (méthode) - Exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
-
-  - [Filter et RecordCount, propriétés - Exemple](filter-and-recordcount-properties-example-vb.md)
-
-  - [IsolationLevel et Mode, propriétés - Exemple](isolationlevel-and-mode-properties-example-vb.md)
-
-  - [Item, propriété - Exemple](item-property-example-vb.md)
-
-  - [MarshalOptions, propriété - Exemple](marshaloptions-property-example-vb.md)
-
-  - [MaxRecords, propriété - Exemple](maxrecords-property-example-vb.md)
-
-  - [NumericScale et Precision, propriétés - Exemple](ado-numericscale-and-precision-properties-example-vb.md)
-
-  - [Optimize, propriété - Exemple](optimize-property-example-vb.md)
-
-  - [OriginalValue et UnderlyingValue, propriétés - Exemple](originalvalue-and-underlyingvalue-properties-example-vb.md)
-
-  - [Prepared, propriété - Exemple](prepared-property-example-vb.md)
-
-  - [Provider et DefaultDatabase, propriétés - Exemple](provider-and-defaultdatabase-properties-example-vb.md)
-
-  - [Sort, propriété - Exemple](sort-property-example-vb.md)
-
-  - [Source, propriété - Exemple](source-property-example-vb.md)
-
-  - [State, propriété - Exemple](state-property-example-vb.md)
-
-  - [Status, propriété - Exemple](status-property-example-recordset-vb.md)
-
-  - [StayInSync, propriété - Exemple](stayinsync-property-example-vb.md)
-
-  - [Type, propriété - Exemple (objet Field)](type-property-example-field-vb.md)
-
-  - [Type, propriété - Exemple (objet Property)](type-property-example-property-vb.md)
-
-  - [Value, propriété - Exemple](value-property-example-vb.md)
-
-  - [Version, propriété-exemple](version-property-example-vb.md)
-=======
   - [AbsolutePage, PageCount et PageSize, propriétés-exemple](absolutepage-pagecount-and-pagesize-properties-example-vb.md)
 
   - [AbsolutePosition et CursorLocation, propriétés-exemple](absoluteposition-and-cursorlocation-properties-example-vb.md)
@@ -225,5 +152,4 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
   - [Exemple de valeur de propriété](value-property-example-vb.md)
 
   - [Exemple de propriété version](version-property-example-vb.md)
->>>>>>> master
 

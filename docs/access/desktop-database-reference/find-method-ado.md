@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc78503008daa733e747923697f21917ada8c106
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 929e4ac695ff65c3576f2ffb8ad1baf8ab1d1137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470392"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870624"
 ---
 # <a name="find-method-ado"></a>Find, méthode (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Recherche un objet [Recordset](recordset-object-ado.md) pour la ligne qui répond aux critères spécifiés. Il est éventuellement possible de spécifier des paramètres facultatifs, tels que la direction de la recherche, la ligne de début et un décalage par rapport à la ligne de début. Si les critères sont satisfaits, la position de ligne actuelle est définie sur l'enregistrement identifié ; sinon la position est définie à la fin (ou au début) de l'objet **Recordset**.

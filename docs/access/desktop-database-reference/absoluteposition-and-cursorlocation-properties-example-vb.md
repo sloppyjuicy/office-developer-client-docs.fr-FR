@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : AbsolutePosition et CursorLocation propriétés-exemple (VB) TOCTitle : ms:assetid AbsolutePosition et CursorLocation propriétés-exemple (VB) : 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249293(v=office.15) ms : contentKeyID : ms.date 48544966 : 18/09/2015 mtps_version : v=office.15
+title: AbsolutePosition et CursorLocation, propriétés – Exemple (VB)
+TOCTitle: AbsolutePosition and CursorLocation properties example (VB)
+ms:assetid: 572c1a51-b7f4-5861-cfb9-960219e0a831
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249293(v=office.15)
+ms:contentKeyID: 48544966
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.openlocfilehash: b1fb72b167ad24d2d5ef7acd1472d435381428c8
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869644"
 ---
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition et CursorLocation, propriétés - Exemple (VB)
-=== titre : AbsolutePosition et CursorLocation, propriétés-exemple (VB) TOCTitle : ms:assetid d’exemple (VB) les propriétés AbsolutePosition et CursorLocation : 572c1a51-b7f4-5861-cfb9-960219e0a831 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249293(v=office.15) ms:contentKeyID : 48544966 MS.date : 17/10/2018 mtps_version : v=office.15
----
-
-# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition et CursorLocation, propriétés-exemple (VB)
->>>>>>> master
+# <a name="absoluteposition-and-cursorlocation-properties-example-vb"></a>AbsolutePosition et CursorLocation, propriétés – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-property-ado.md) peut effectuer un suivi de la progression d'une boucle qui énumère tous les enregistrements d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [CursorLocation](cursorlocation-property-ado.md) pour activer la propriété **AbsolutePosition** en définissant le curseur sur un curseur client.
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249400(v=office.15)
 ms:contentKeyID: 48545352
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbbae74ce8ce22255e97403fc3906dd50f36b38b
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 57049e0e68e4620664687cd261881af953de189f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25605050"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25875209"
 ---
 # <a name="children-property-ado-md"></a>Children, propriété (ADO MD)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Renvoie une collection d'objets [Member](members-collection-ado-md.md) dont l'objet [Member](member-object-ado-md.md) actif est le parent dans la hiérarchie.
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-=======
 ## <a name="return-values"></a>Valeurs de retour
->>>>>>> master
 
 Retourne la collection **Members** et est en lecture seule.
 

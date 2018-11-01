@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194105(v=office.15)
 ms:contentKeyID: 48544896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc2e2bee3a459c2f2b25b26bba4ca2fadd7fb945
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 006c9ce982aa98f28187d04fced12992d61548d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470205"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25880053"
 ---
 # <a name="field2validationrule-property-dao"></a>Field2.ValidationRule Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui valide les données d'un champ pendant sa modification ou son ajout à une table (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
 

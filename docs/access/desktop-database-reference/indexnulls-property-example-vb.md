@@ -1,15 +1,21 @@
 ---
-<<<<<<< Titre tête : IndexNulls propriété-Exemple (VB) TOCTitle : IndexNulls propriété-Exemple (VB) === titre : IndexNulls, propriété-Exemple (VB) TOCTitle : IndexNulls, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 69b5661c-931e-3a1c-d60e-96a0f93b9494 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249414(v=office.15) ms:contentKeyID : ms.date 48545417 : 18/09/2015 mtps_version : v=office.15
+title: IndexNulls, propriété – Exemple (VB)
+TOCTitle: IndexNulls property example (VB)
+ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
+ms:contentKeyID: 48545417
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: c1baa2169b2d953f7a390dee44f9841a4c7ecfa4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869847"
 ---
+# <a name="indexnulls-property-example-vb"></a>IndexNulls, propriété – Exemple (VB)
 
-<<<<<<< Tête
-# <a name="indexnulls-property-example-vb"></a>IndexNulls, propriété - Exemple (VB)
-=======
-# <a name="indexnulls-property-example-vb"></a>IndexNulls, propriété-Exemple (VB)
->>>>>>> master
-
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l'entrée utilisateur (dans une zone de liste appelée List1). Ensuite, l' **Index** est ajouté au [tableau](table-object-adox.md) **employés** dans le [catalogue](catalog-object-adox.md)de *Northwind* . Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
 
