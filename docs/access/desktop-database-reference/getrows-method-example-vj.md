@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249355(v=office.15)
 ms:contentKeyID: 48545194
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 312c56aee8f0901c3817a5f81e22e436a841dca5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 8749d1796b850bd571e06ad16318dba48d90d4ab
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862897"
+ms.locfileid: "25881404"
 ---
 # <a name="getrows-method-example-vj"></a>GetRows, méthode – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer le nombre de lignes souhaité d'un objet [Recordset](recordset-object-ado.md) et remplir un tableau avec les données récupérées. La méthode **GetRows** retourne un nombre inférieur de lignes dans deux cas : si la fin du fichier ( [EOF](bof-eof-properties-ado.md)) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement supprimé par un autre utilisateur. La fonction retourne **False** uniquement dans le second cas. La fonction GetRowsOK est requise pour l'exécution de cette procédure.
 

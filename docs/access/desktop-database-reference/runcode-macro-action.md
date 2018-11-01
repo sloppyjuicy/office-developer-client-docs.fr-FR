@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c13f6fed20bebb40f4a8cacc3deedd7467ff55e4
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: e06d3ebb014cc38b19e37098b217bd072af4434a
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469144"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870960"
 ---
 # <a name="runcode-macro-action"></a>ExécuterCode, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **ExécuterCode** pour appeler une procédure Function Visual Basic pour Applications (VBA).
 

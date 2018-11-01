@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250039(v=office.15)
 ms:contentKeyID: 48547836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42e8768b933afa4efdae0e8f2480f5b5af877dfe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: a6b74bdb432c327306b9edafd44f8abad9831afc
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471897"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878716"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-ado"></a>MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Accède au premier, au dernier ou à l'enregistrement suivant d'un objet [Recordset](recordset-object-ado.md) spécifié et fait de celui-ci l'enregistrement actif.
 

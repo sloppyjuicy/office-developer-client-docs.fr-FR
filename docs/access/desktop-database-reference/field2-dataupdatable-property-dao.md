@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
 ms:contentKeyID: 48548377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7360e5ddf45275983521ddf7e1140321cc19630
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 5f961bf727c016a025e5ebe7107c5082b1b63deb
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469735"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885835"
 ---
 # <a name="field2dataupdatable-property-dao"></a>Field2.DataUpdatable Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 
 Renvoie une donnée indiquant si la donnée du champ représenté par un objet **Field2** peut être mise à jour.

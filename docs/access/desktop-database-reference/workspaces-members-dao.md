@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
 ms:contentKeyID: 48545141
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb288b7aafd1661bdc64825e3360d20f9896b55f
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 89fef6b29293dd40133a9db7852b47edadba420d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470865"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883609"
 ---
 # <a name="workspaces-members-dao"></a>Workspaces Members (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Une collection Workspaces contient tous les objets Workspace actifs et non masqués de l'objet DBEngine. (Les objets Workspace masqués ne sont ni ajoutés à la collection ni référencés par la variable à laquelle ils sont affectés.)
 
@@ -39,7 +39,7 @@ Une collection Workspaces contient tous les objets Workspace actifs et non masqu
 <td><p>Ajoute un nouvel objet <strong>Workspace</strong> à la collection <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspaces-delete-method-dao.md">Supprimer</a></strong></p></td>
+<td><p><strong><a href="workspaces-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Supprime le formulaire <strong>Workspace</strong> dans la collection <strong>Workspaces</strong>.</p></td>
 </tr>
 <tr class="odd">

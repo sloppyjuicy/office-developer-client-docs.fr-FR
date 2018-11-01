@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle en cluster propriété Exemple (VB) : exemple de propriété en cluster (VB) === titre : Clustered, propriété-Exemple (VB) TOCTitle : Clustered, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 1065622d-9473-209a-95be-c4b0ab5b687a ms:mtpsurl : https://msdn.microsoft.com/library/JJ248872(v=office.15) ms:contentKeyID : ms.date 48543293 : 18/09/2015 mtps_version : v=office.15
+title: Clustered, propriété – Exemple (VB)
+TOCTitle: Clustered property example (VB)
+ms:assetid: 1065622d-9473-209a-95be-c4b0ab5b687a
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248872(v=office.15)
+ms:contentKeyID: 48543293
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 3f1ebd893418cde5b499be9d34c7d50aadff78f3
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872759"
 ---
-
-<<<<<<< Tête
-# <a name="clustered-property-example-vb"></a>Clustered, propriété - Exemple (VB)
-=======
-# <a name="clustered-property-example-vb"></a>Clustered, propriété-Exemple (VB)
->>>>>>> master
+# <a name="clustered-property-example-vb"></a>Clustered, propriété – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Clustered](clustered-property-adox.md) d’un [Index](index-object-adox.md). Notez que les bases de données Microsoft Jet ne prennent pas charge les index cluster, cet exemple retourne la **valeur False** pour la propriété **Clustered** de tous les index de la base de données *Northwind* .
 

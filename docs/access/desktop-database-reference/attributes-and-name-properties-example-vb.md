@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : attributs et TOCTitle nom propriétés-exemple (VB) : attributs et nom propriétés-exemple (VB) === titre : attributs et Name, propriétés-exemple (VB) TOCTitle : Attributes et Name, propriétés-exemple (VB)
->>>>>>> Master ms:assetid : b049c03c-9add-48b7-6a0a-51d2507c8e33 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249840(v=office.15) ms:contentKeyID : ms.date 48547120 : 18/09/2015 mtps_version : v=office.15
+title: Attributes et Name, propriétés – Exemple (VB)
+TOCTitle: Attributes and Name properties example (VB)
+ms:assetid: b049c03c-9add-48b7-6a0a-51d2507c8e33
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249840(v=office.15)
+ms:contentKeyID: 48547120
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: b4120f175e96d42ec77e748438fd0d369396320c
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887844"
 ---
-
-<<<<<<< Tête
-# <a name="attributes-and-name-properties-example-vb"></a>Attributes et Name, propriétés - Exemple (VB)
-=======
-# <a name="attributes-and-name-properties-example-vb"></a>Attributs et nom, propriétés-exemple (VB)
->>>>>>> master
+# <a name="attributes-and-name-properties-example-vb"></a>Attributes et Name, propriétés – Exemple (VB)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple affiche la valeur de la propriété [Attributes](attributes-property-ado.md) des objets [Connection](connection-object-ado.md), [Field](field-object-ado.md) et [Property](property-object-ado.md). Il utilise la propriété [Name](name-property-ado.md) pour afficher le nom de chaque objet **Field** et **Property**.
 

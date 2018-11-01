@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle tri, propriété-Exemple (VC ++) : Sort, propriété-Exemple (VC ++) === titre : exemple de propriété Sort (VC ++) TOCTitle : exemple de propriété Sort (VC ++)
->>>>>>> Master ms:assetid : 0f32b7ac-1902-1753-0c03-b38ba8c10c9c ms:mtpsurl : https://msdn.microsoft.com/library/JJ248862(v=office.15) ms:contentKeyID : ms.date 48543259 : 18/09/2015 mtps_version : v=office.15
+title: Sort, propriété – Exemple (VC++)
+TOCTitle: Sort property example (VC++)
+ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
+ms:contentKeyID: 48543259
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 37b5d08ab9c4e42e0f1c4097c5d905c4e45ff547
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25881215"
 ---
-
-<<<<<<< Tête
-# <a name="sort-property-example-vc"></a>Sort, propriété - Exemple (VC++)
-=======
-# <a name="sort-property-example-vc"></a>Trier, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="sort-property-example-vc"></a>Sort, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données **Pubs**. Une routine utilitaire secondaire imprime chaque ligne.
 

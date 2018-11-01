@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle nombre propriété (ADO) : numéro de propriété (ADO) === titre : Number, propriété (ADO) TOCTitle : Number, propriété (ADO)
->>>>>>> Master ms:assetid : b5103af5-356b-ec74-cd62-86e59467d491 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249868(v=office.15) ms:contentKeyID : ms.date 48547243 : 18/09/2015 mtps_version : v=office.15
+title: Number, propriété (ADO)
+TOCTitle: Number property (ADO)
+ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
+ms:contentKeyID: 48547243
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 72afba54062a3f103fe75939502c9f52eef4c44d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887196"
 ---
-
-<<<<<<< Tête
 # <a name="number-property-ado"></a>Number, propriété (ADO)
-=======
-# <a name="number-property-ado"></a>Number, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le numéro qui identifie de manière unique un objet [Error](error-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie une valeur de type **Long** pouvant correspondre à l'une des constantes [ErrorValueEnum](errorvalueenum.md).
 

@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1053083
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a2696dfabe609042c920b33b2a0f5fd696d9833
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 197bf35c796fe1e34122b7d4214043e9217fb3d9
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469112"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25878541"
 ---
 # <a name="workspaceisolateodbctrans-property-dao"></a>Workspace.IsolateODBCTrans Property (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique si plusieurs transactions impliquant la même source de données ODBC connectée au moteur de base de données Microsoft Access sont isolées (espaces de travail Microsoft Access uniquement).
 

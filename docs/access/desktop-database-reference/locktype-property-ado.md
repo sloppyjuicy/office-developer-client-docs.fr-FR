@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle de la propriété LockType (ADO) : propriété LockType (ADO) === titre : LockType, propriété (ADO) TOCTitle : LockType, propriété (ADO)
->>>>>>> Master ms:assetid : 1d2622dc-6cab-1b7f-98a8-97a41d5c047f ms:mtpsurl : https://msdn.microsoft.com/library/JJ248965(v=office.15) ms:contentKeyID : ms.date 48543589 : 18/09/2015 mtps_version : v=office.15
+title: LockType, propriété (ADO)
+TOCTitle: LockType property (ADO)
+ms:assetid: 1d2622dc-6cab-1b7f-98a8-97a41d5c047f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248965(v=office.15)
+ms:contentKeyID: 48543589
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 88657361d6ce5ac168f21f5709bdaf68eeb23b6d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25879056"
 ---
-
-<<<<<<< Tête
 # <a name="locktype-property-ado"></a>LockType, propriété (ADO)
-=======
-# <a name="locktype-property-ado"></a>LockType, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique le type des verrous placés sur les enregistrements pendant leur modification.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une valeur [LockTypeEnum](locktypeenum.md). La valeur par défaut est **adLockReadOnly**.
 

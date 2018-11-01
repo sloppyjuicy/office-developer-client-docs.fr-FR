@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : optimiser, propriété-Exemple (VC ++) TOCTitle : optimiser, propriété-Exemple (VC ++) === titre : optimiser, propriété-Exemple (VC ++) TOCTitle : optimiser, propriété-Exemple (VC ++)
->>>>>>> Master ms:assetid : f9e83365-93b2-3eb6-0347-8f8aec703d6f ms:mtpsurl : https://msdn.microsoft.com/library/JJ250273(v=office.15) ms:contentKeyID : ms.date 48548825 : 18/09/2015 mtps_version : v=office.15
+title: Optimize, propriété – Exemple (VC++)
+TOCTitle: Optimize property example (VC++)
+ms:assetid: f9e83365-93b2-3eb6-0347-8f8aec703d6f
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250273(v=office.15)
+ms:contentKeyID: 48548825
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 7e4e595aea68b35ec6fec1515c5d80e5b721b891
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25885065"
 ---
-
-<<<<<<< Tête
-# <a name="optimize-property-example-vc"></a>Optimize, propriété - Exemple (VC++)
-=======
-# <a name="optimize-property-example-vc"></a>Optimiser, propriété-Exemple (VC ++)
->>>>>>> master
+# <a name="optimize-property-example-vc"></a>Optimize, propriété – Exemple (VC++)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Cet exemple illustre la propriété dynamique Optimize des objets [Field](field-object-ado.md). Le champ ***zip*** de la table ***Authors*** de la base de données ***Pubs*** n’est pas indexé. Définition de la propriété [Optimize](optimize-property-dynamic-ado.md) sur **True** dans le champ ***zip*** autorise ADO pour créer un index qui améliore les performances de la méthode [Find](find-method-ado.md) .
 

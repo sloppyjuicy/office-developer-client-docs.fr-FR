@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250210(v=office.15)
 ms:contentKeyID: 48548567
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b3cb4d5caedb6e73bf0819639c1feac12b9d3a8
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 2fe6ac64417c5758d25872a7b67be7cb9f12ac6d
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469501"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874508"
 ---
 # <a name="property-object-ado"></a>Property, objet (ADO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Représente une caractéristique dynamique d'un objet ADO défini par le fournisseur.
 

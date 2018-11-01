@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249710(v=office.15)
 ms:contentKeyID: 48546592
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74d5381298f58c00c66ee4fb72504ce44f5dd7b5
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 18d226ff8ff270705d8e30425f83eabc289383b1
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471780"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25883245"
 ---
 # <a name="provider-errors"></a>Erreurs de fournisseur
 
 
-**S’applique à**: Access 2013 | Office 2013 
+**S’applique à**: Access 2013, Office 2013 
 
 Lorsqu'une erreur de fournisseur survient, une erreur d'exécution -2147467259 est renvoyée. Lorsque vous recevez cette erreur, vérifiez la collection **Errors** de l'objet **Connection**, qui contient une ou plusieurs erreurs décrivant ce qu'il s'est passé.
 

@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : TOCTitle chapitre propriété (ADO) : chapitre propriété (ADO) === titre : Chapter, propriété (ADO) TOCTitle : Chapter, propriété (ADO)
->>>>>>> Master ms:assetid : d7c9478e-487f-7023-1dd8-5313433dbc5e ms:mtpsurl : https://msdn.microsoft.com/library/JJ250085(v=office.15) ms:contentKeyID : ms.date 48548014 : 18/09/2015 mtps_version : v=office.15
+title: Chapter, propriété (ADO)
+TOCTitle: Chapter property (ADO)
+ms:assetid: d7c9478e-487f-7023-1dd8-5313433dbc5e
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
+ms:contentKeyID: 48548014
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: 5eeb3c6e2e8c7b7f1c0f6e733c1b86545a5e954f
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25887823"
 ---
-
-<<<<<<< Tête
 # <a name="chapter-property-ado"></a>Chapter, propriété (ADO)
-=======
-# <a name="chapter-property-ado"></a>Chapter, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
  
 
 Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **put\_chapitre** pour définir l’objet **Chapter** , un sous-ensemble de lignes est transformé en un objet **Recordset** . Cette opération définit le chapitre actif de l'objet **Rowset**. En lecture/écriture.
@@ -31,11 +37,7 @@ Placer HRESULT\_chapitre (\[dans\] lChapter long) ;
 
   - Descripteur d'un chapitre.
 
-<<<<<<< Tête
-## <a name="return-values"></a>Valeurs renvoyées
-=======
 ## <a name="return-values"></a>Valeurs de retour
->>>>>>> master
 
 Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
 

@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle Description propriété (ADO) : Description propriété (ADO) === titre : Description, propriété (ADO) TOCTitle : Description, propriété (ADO)
->>>>>>> Master ms:assetid : 31df5e36-641c-d213-31fc-6244e2983327 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249092(v=office.15) ms:contentKeyID : ms.date 48544064 : 18/09/2015 mtps_version : v=office.15
+title: Description, propriété (ADO)
+TOCTitle: Description property (ADO)
+ms:assetid: 31df5e36-641c-d213-31fc-6244e2983327
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249092(v=office.15)
+ms:contentKeyID: 48544064
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: fc2a7706afbf69d9949e8b04122b144c6826ec40
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882937"
 ---
-
-<<<<<<< Tête
 # <a name="description-property-ado"></a>Description, propriété (ADO)
-=======
-# <a name="description-property-ado"></a>Description, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Décrit un objet [Error](error-object-ado.md).
 
-<<<<<<< Tête
 ## <a name="return-value"></a>Valeur renvoyée
-=======
-## <a name="return-value"></a>Valeur renvoyée
->>>>>>> master
 
 Renvoie une valeur de type **String** qui contient une description de l'erreur.
 

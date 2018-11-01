@@ -1,24 +1,26 @@
 ---
-<<<<<<< Titre tête : TOCTitle signet propriété (ADO) : signet propriété (ADO) === titre : Bookmark, propriété (ADO) TOCTitle : Bookmark, propriété (ADO)
->>>>>>> Master ms:assetid : 101b2ce1-21d8-aa79-e530-20f9d1c73fc8 ms:mtpsurl : https://msdn.microsoft.com/library/JJ248870(v=office.15) ms:contentKeyID : ms.date 48543287 : 18/09/2015 mtps_version : v=office.15
+title: Bookmark, propriété (ADO)
+TOCTitle: Bookmark property (ADO)
+ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
+ms:contentKeyID: 48543287
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: d5052b25325007a5daca76baccf7414e0c7a43cd
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25889120"
 ---
-
-<<<<<<< Tête
 # <a name="bookmark-property-ado"></a>Bookmark, propriété (ADO)
-=======
-# <a name="bookmark-property-ado"></a>Bookmark, propriété (ADO)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Indique un signet qui identifie de manière unique l'enregistrement actif d'un objet [Recordset](recordset-object-ado.md) ou définit comme enregistrement actif d'un objet **Recordset** l'enregistrement identifié par un signet valide.
 
-<<<<<<< Tête
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
-=======
-## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
->>>>>>> master
 
 Définit ou renvoie une expression de type **Variant** qui correspond à un signet valide.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
 ms:contentKeyID: 48547106
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 554cb3eee0eb7019cef13758e4d9382bcdb5a5f3
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: f1afd4c3f627b6860fa2954496f5818a6b458ab4
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471891"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25888796"
 ---
-# <a name="configuring-rds"></a>Configuration de RDS
+# <a name="configuring-rds"></a>Configuration RDS
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Pour implémenter RDS de façon efficace, familiarisez-vous avec les différentes configurations disponibles. Cette section inclut des informations importantes sur la sécurité et l'évolutivité de l'implémentation de RDS. Consultez les rubriques suivantes pour obtenir plus d'informations sur la configuration d'ordinateurs destinés à utiliser RDS.
 

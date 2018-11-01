@@ -10,17 +10,17 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4371ce5482b775ad9c022eeda8202c4b2e0f800d
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 431baa0e98d0ae3a636cb93fd799c3bdf4450816
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25471007"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25882608"
 ---
 # <a name="repaintobject-macro-action"></a>RedessinerObjet, action de macro
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **RedessinerObjet** pour effectuer les mises à jour d'écran en attente pour l'objet de base de données spécifié ou pour celui actif si aucun objet n'est spécifié. Ces mises à jour englobent les nouveaux calculs en attente des contrôles de l'objet.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a48e3c767d2a65745fd587bccdead7a1ed2ef0c2
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: cbddefcdfa17326f922cad49c774e8ade06e5137
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25470245"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25873676"
 ---
 # <a name="ado-collections"></a>Collections ADO
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Chaque collection peut contenir son objet correspondant. Une collection [Errors](error-object-ado.md) peut, par exemple, contenir un objet [Error](errors-collection-ado.md). Pour plus d'informations sur les objets, consultez [Objets ADO](ado-objects-and-interfaces.md) ou la rubrique traitant d'un objet spécifique.
 

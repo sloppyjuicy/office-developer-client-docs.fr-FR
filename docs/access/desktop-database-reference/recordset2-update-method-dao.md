@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052882
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 47c97e7f38f05e14bcae457a66c92b87d50844fe
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 223846a50dd06cfe1b47f954e1dc55a40b9cc083
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472446"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25869315"
 ---
 # <a name="recordset2update-method-dao"></a>Recordset2.Update Method (DAO)
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Syntaxe
 

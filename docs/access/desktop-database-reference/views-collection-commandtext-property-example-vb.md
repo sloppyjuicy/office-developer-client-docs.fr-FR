@@ -1,16 +1,22 @@
 ---
-<<<<<<< Titre tête : Views, Collection, exemple de propriété CommandText (VB) TOCTitle : Views, Collection, exemple de propriété CommandText (VB) === titre : Collection Views, CommandText, propriété-Exemple (VB) TOCTitle : Views, Collection CommandText, propriété-Exemple (VB)
->>>>>>> Master ms:assetid : 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09 ms:mtpsurl : https://msdn.microsoft.com/library/JJ249331(v=office.15) ms:contentKeyID : ms.date 48545120 : 18/09/2015 mtps_version : v=office.15
+title: Views, Collection CommandText, propriété-Exemple (VB)
+TOCTitle: Views Collection, CommandText property example (VB)
+ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
+ms:contentKeyID: 48545120
+ms.date: 09/18/2015
+mtps_version: v=office.15
+ms.openlocfilehash: ab1d5013e0371273fdcec3b2ba75a30a8dc18393
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25870540"
 ---
-
-<<<<<<< Tête
-# <a name="views-collection-commandtext-property-example-vb"></a>Views, collection - Exemple de propriété CommandText (VB)
-=======
 # <a name="views-collection-commandtext-property-example-vb"></a>Views, Collection CommandText, propriété-Exemple (VB)
->>>>>>> master
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une vue.
 

@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249039(v=office.15)
 ms:contentKeyID: 48543842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc621f620a7d55571aa55296a4d294fff9566bf5
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 667e1934c9095cda209f1ac46206e10cf3432aa2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25862239"
+ms.locfileid: "25867600"
 ---
 # <a name="moverecordoptionsenum"></a>MoveRecordOptionsEnum
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Spécifie le fonctionnement de la méthode [MoveRecord](record-object-ado.md) de l'objet [Record](moverecord-method-ado.md) .
 

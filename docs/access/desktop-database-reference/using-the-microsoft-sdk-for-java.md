@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249116(v=office.15)
 ms:contentKeyID: 48544152
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dbcae50b0fdecc441bab40894899a75d04ee5f72
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: 8b34f02d01b5f119d9311e290f354ccbc71182d2
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25469116"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25872549"
 ---
 # <a name="using-the-microsoft-sdk-for-java"></a>Utilisation du Kit de développement Microsoft pour Java SDK
 
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Le Kit de développement Microsoft pour Java SDK est un kit conçu pour l'environnement Microsoft Internet Explorer. Des outils, des informations et des exemples sont fournis pour vous aider à développer des programmes et des applets Java basés sur JDK 1.1 et la machine virtuelle Microsoft Win32 (Microsoft VM). Le Kit de développement Microsoft pour Java SDK n'est pas lié à Microsoft Visual J++.
 

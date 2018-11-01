@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c03811716e776663601fb9c2f9590e644417e3c1
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+ms.openlocfilehash: 62a496867852afb89d5b556f6be793f3f8c3739e
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860848"
+ms.locfileid: "25887781"
 ---
 # <a name="importexportdata-macro-action"></a>ImporterExporterDonnées, action de macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 L'action **ImporterExporterDonnées** permet d'importer ou d'exporter des données entre la base de données Access (.mdb ou .accdb) active, ou le projet Access (.adp) actif et une autre base de données. Pour les bases de données Microsoft Access, vous pouvez également attacher une table à la base de données Access active, à partir d'une autre base de données. Avec une table attachée, vous pouvez accéder aux données de la table sans déplacer celle-ci de l'autre base de données.
 

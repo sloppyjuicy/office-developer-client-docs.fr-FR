@@ -10,16 +10,16 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4fe2bceb53b835d4c8adab1a1550185c3a7a122a
-ms.sourcegitcommit: a49b77f4c8cec69f90656a86f0872cf34c35968e
+ms.openlocfilehash: 4292ded0638e8dbe3ad56aa835caa9c6541f0432
+ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/17/2018
-ms.locfileid: "25606394"
+ms.lasthandoff: 10/31/2018
+ms.locfileid: "25874313"
 ---
 # <a name="setfilter-macro-action"></a>AppliquerFiltre, action de macro
 
-**S’applique à**: Access 2013 | Office 2013
+**S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **AppliquerFiltre** pour appliquer un filtre aux enregistrements de la feuille de données, de l'état, de la table ou du formulaire actif.
 
@@ -41,19 +41,11 @@ L'action **AppliquerFiltre** utilise les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<<<<<<< Tête
-<td><p>S'il est fourni, le nom d'une requête ou d'un filtre enregistré en tant que requête. Cet argument ou l’argument WhereCondition est nécessaire dans une base de données client. Dans une base de données Web, cet argument n’est pas disponible.</p></td>
-</tr>
-<tr class="even">
-<td><p>Condition Where</p></td>
-<td><p>Si spécifié, il s’agit d’une clause SQL WHERE qui restreint les enregistrements dans la feuille de données, le formulaire, l’état ou la table. Dans une base de données Web, cet argument est obligatoire.</p></td>
-=======
 <td><p>S'il est fourni, le nom d'une requête ou d'un filtre enregistré en tant que requête. Cet argument ou l’argument WhereCondition est nécessaire dans une base de données client. Dans une base de données web, cet argument n’est pas disponible.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>
 <td><p>S'il est fourni, une clause WHERE SQL qui limite les enregistrements d'une feuille de données, d'un formulaire, d'un état ou d'une table. Dans une base de données web, cet argument est obligatoire.</p></td>
->>>>>>>forme de base
 </tr>
 <tr class="odd">
 <td><p>Nom du contrôle :</p></td>
