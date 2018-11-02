@@ -1,34 +1,34 @@
 ---
-title: Parameters.Count Property (DAO)
+title: Propriété Parameters.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: bc8c814b-da55-22b7-431f-a0f7e6cac994
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
 ms:contentKeyID: 48547415
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9a45ce03c68b310042a1abd6673fb7811fa21d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b021eaa165ec1ac32e8c241f3ebf59450a473422
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883812"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923458"
 ---
-# <a name="parameterscount-property-dao"></a><span data-ttu-id="2ca2e-102">Parameters.Count Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2ca2e-102">Parameters.Count Property (DAO)</span></span>
+# <a name="parameterscount-property-dao"></a><span data-ttu-id="9f4e4-102">Propriété Parameters.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="9f4e4-102">Parameters.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="2ca2e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ca2e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9f4e4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f4e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2ca2e-p101">Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="2ca2e-p101">Returns the number of objects in the specified collection. Read-only.</span></span>
+<span data-ttu-id="9f4e4-p101">Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9f4e4-p101">Returns the number of objects in the specified collection. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2ca2e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2ca2e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9f4e4-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9f4e4-106">Syntax</span></span>
 
-<span data-ttu-id="2ca2e-107">*expression* . Nombre</span><span class="sxs-lookup"><span data-stu-id="2ca2e-107">*expression* .Count</span></span>
+<span data-ttu-id="9f4e4-107">*expression* . Nombre</span><span class="sxs-lookup"><span data-stu-id="9f4e4-107">*expression* .Count</span></span>
 
-<span data-ttu-id="2ca2e-108">*expression* Variable qui représente un objet **Parameters** .</span><span class="sxs-lookup"><span data-stu-id="2ca2e-108">*expression* A variable that represents a **Parameters** object.</span></span>
+<span data-ttu-id="9f4e4-108">*expression* Variable qui représente un objet **Parameters** .</span><span class="sxs-lookup"><span data-stu-id="9f4e4-108">*expression* A variable that represents a **Parameters** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2ca2e-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="2ca2e-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9f4e4-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="9f4e4-109">Remarks</span></span>
 
-<span data-ttu-id="2ca2e-p102">Étant donné que les membres d'une collection commencent par 0, vous avez toujours intérêt à coder les boucles en commençant par le membre 0 et en finissant par la valeur de la propriété **Count** moins 1. Si vous voulez effectuer une boucle sur tous les membres d'une collection sans vérifier la propriété **Count**, vous pouvez utiliser la commande **For Each...Next**.</span><span class="sxs-lookup"><span data-stu-id="2ca2e-p102">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1. If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
+<span data-ttu-id="9f4e4-p102">Étant donné que les membres d'une collection commencent par 0, vous avez toujours intérêt à coder les boucles en commençant par le membre 0 et en finissant par la valeur de la propriété **Count** moins 1. Si vous voulez effectuer une boucle sur tous les membres d'une collection sans vérifier la propriété **Count**, vous pouvez utiliser la commande **For Each...Next**.</span><span class="sxs-lookup"><span data-stu-id="9f4e4-p102">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1. If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
 
-<span data-ttu-id="2ca2e-p103">La valeur de la propriété **Count** n'est jamais Null. Si sa valeur est égale à 0, cela signifie qu'il n'y a pas d'objet dans la collection.</span><span class="sxs-lookup"><span data-stu-id="2ca2e-p103">The **Count** property setting is never Null. If its value is 0, there are no objects in the collection.</span></span>
+<span data-ttu-id="9f4e4-p103">La valeur de la propriété **Count** n'est jamais Null. Si sa valeur est égale à 0, cela signifie qu'il n'y a pas d'objet dans la collection.</span><span class="sxs-lookup"><span data-stu-id="9f4e4-p103">The **Count** property setting is never Null. If its value is 0, there are no objects in the collection.</span></span>
 

@@ -1,28 +1,28 @@
 ---
-title: Connection.RecordsAffected Property (DAO)
+title: Propriété Connection.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: abce8e96-9ed4-b162-207f-52605d7af8ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821486(v=office.15)
 ms:contentKeyID: 48546983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 64cd85a98d4a5dab2e3e3177ea33afddc1a5c88c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fa87104744c8fb435bc8727396901991e41cbd5d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887851"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923664"
 ---
-# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="2d915-102">Connection.RecordsAffected Property (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d915-102">Connection.RecordsAffected Property (DAO)</span></span>
+# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="796e3-102">Propriété Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="796e3-102">Connection.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="2d915-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d915-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="796e3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="796e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d915-104">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](connection-execute-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2d915-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="796e3-104">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode **[Execute](connection-execute-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="796e3-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2d915-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2d915-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="796e3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="796e3-105">Syntax</span></span>
 
-<span data-ttu-id="2d915-106">*expression* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="2d915-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="796e3-106">*expression* . RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="796e3-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="2d915-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="2d915-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="796e3-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="796e3-107">*expression* A variable that represents a **Connection** object.</span></span>
 

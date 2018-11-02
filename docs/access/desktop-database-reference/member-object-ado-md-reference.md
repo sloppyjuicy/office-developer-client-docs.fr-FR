@@ -1,26 +1,22 @@
 ---
-title: Member Object (ADO MD Reference)
-TOCTitle: Member Object (ADO MD)
+title: Member, objet (référence ADO MD)
+TOCTitle: Member object (ADO MD)
 ms:assetid: 933be014-9cb2-416a-8290-6dece686fc41
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249650(v=office.15)
 ms:contentKeyID: 48546393
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a17b52a2b15aee5bae82e86944a0cf6d64d7f2a9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 28e1b6bf24f55e9e4ad52730f223509542e22f58
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885114"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920892"
 ---
-# <a name="member-object-ado-md-reference"></a><span data-ttu-id="002a3-102">Member Object (ADO MD Reference)</span><span class="sxs-lookup"><span data-stu-id="002a3-102">Member Object (ADO MD Reference)</span></span>
+# <a name="member-object-ado-md-reference"></a><span data-ttu-id="8acd8-102">Member, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8acd8-102">Member object (ADO MD reference)</span></span>
 
+<span data-ttu-id="8acd8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8acd8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="002a3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="002a3-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="002a3-104">Member, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="002a3-104">Member Object (ADO MD)</span></span>](member-object-ado-md.md)
-
-  - [<span data-ttu-id="002a3-105">Member Properties, Methods, and Events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="002a3-105">Member Properties, Methods, and Events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="8acd8-104">Member, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8acd8-104">Member object (ADO MD)</span></span>](member-object-ado-md.md)
+- [<span data-ttu-id="8acd8-105">Les propriétés de membre, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8acd8-105">Member properties, methods, and events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
 

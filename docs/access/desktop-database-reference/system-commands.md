@@ -1,38 +1,28 @@
 ---
 title: Commandes du système (référence de base de données du bureau Access)
-TOCTitle: System Commands
+TOCTitle: System commands
 ms:assetid: b85d04eb-c30f-47c3-9aa2-ed2f8d12afad
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179887(v=office.15)
 ms:contentKeyID: 52074096
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c37d97121948f3f119056fb678cbd6b59a0140b5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b504c1641bc9c1d44c5725f2672585449c45f5f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872623"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924840"
 ---
-# <a name="system-commands"></a><span data-ttu-id="260bf-102">Commandes du système</span><span class="sxs-lookup"><span data-stu-id="260bf-102">System Commands</span></span>
+# <a name="system-commands"></a><span data-ttu-id="2155d-102">Commandes système</span><span class="sxs-lookup"><span data-stu-id="2155d-102">System commands</span></span>
 
+<span data-ttu-id="2155d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2155d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="260bf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="260bf-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="260bf-104">Action de Macro bip</span><span class="sxs-lookup"><span data-stu-id="260bf-104">Beep Macro Action</span></span>](beep-macro-action.md)
-
-  - [<span data-ttu-id="260bf-105">Action de Macro CloseDatabase</span><span class="sxs-lookup"><span data-stu-id="260bf-105">CloseDatabase Macro Action</span></span>](closedatabase-macro-action.md)
-
-  - [<span data-ttu-id="260bf-106">Action de Macro Afficherpointeursablier</span><span class="sxs-lookup"><span data-stu-id="260bf-106">DisplayHourglassPointer Macro Action</span></span>](displayhourglasspointer-macro-action.md)
-
-  - [<span data-ttu-id="260bf-107">Action de Macro imprimer</span><span class="sxs-lookup"><span data-stu-id="260bf-107">PrintOut Macro Action</span></span>](printout-macro-action.md)
-
-  - [<span data-ttu-id="260bf-108">Action de Macro Quitteraccess</span><span class="sxs-lookup"><span data-stu-id="260bf-108">QuitAccess Macro Action</span></span>](quitaccess-macro-action.md)
-
-  - [<span data-ttu-id="260bf-109">Action de Macro ExécuterApplication</span><span class="sxs-lookup"><span data-stu-id="260bf-109">RunApplication Macro Action</span></span>](runapplication-macro-action.md)
-
-  - [<span data-ttu-id="260bf-110">Action de Macro SendKeys</span><span class="sxs-lookup"><span data-stu-id="260bf-110">SendKeys Macro Action</span></span>](sendkeys-macro-action.md)
-
-  - [<span data-ttu-id="260bf-111">Avertissements, action de macro</span><span class="sxs-lookup"><span data-stu-id="260bf-111">SetWarnings Macro Action</span></span>](setwarnings-macro-action.md)
+- [<span data-ttu-id="2155d-104">Beep, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-104">Beep macro action</span></span>](beep-macro-action.md)
+- [<span data-ttu-id="2155d-105">CloseDatabase, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-105">CloseDatabase macro action</span></span>](closedatabase-macro-action.md)
+- [<span data-ttu-id="2155d-106">DisplayHourglassPointer, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-106">DisplayHourglassPointer macro action</span></span>](displayhourglasspointer-macro-action.md)
+- [<span data-ttu-id="2155d-107">PrintOut, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-107">PrintOut macro action</span></span>](printout-macro-action.md)
+- [<span data-ttu-id="2155d-108">QuitAccess, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-108">QuitAccess macro action</span></span>](quitaccess-macro-action.md)
+- [<span data-ttu-id="2155d-109">RunApplication, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-109">RunApplication macro action</span></span>](runapplication-macro-action.md)
+- [<span data-ttu-id="2155d-110">SendKeys, action de macro</span><span class="sxs-lookup"><span data-stu-id="2155d-110">SendKeys macro action</span></span>](sendkeys-macro-action.md)
+- [<span data-ttu-id="2155d-111">Action de macro avertissements</span><span class="sxs-lookup"><span data-stu-id="2155d-111">SetWarnings macro action</span></span>](setwarnings-macro-action.md)
 

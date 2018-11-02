@@ -1,24 +1,24 @@
 ---
-title: Documents Methods (DAO)
+title: Méthodes de documents (DAO)
 TOCTitle: Methods
 ms:assetid: f14bb7b0-f8c5-49cb-ae06-b7c721d62673
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180031(v=office.15)
 ms:contentKeyID: 52074981
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ff2d718b82f8f0f974a4a882258ecda2efc72947
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 05c54378fb3cfd2d9a1e0ef91391cbd111c4af28
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878625"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923958"
 ---
-# <a name="documents-methods-dao"></a><span data-ttu-id="6edc3-102">Documents Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="6edc3-102">Documents Methods (DAO)</span></span>
+# <a name="documents-methods-dao"></a><span data-ttu-id="4320a-102">Méthodes de documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="4320a-102">Documents methods (DAO)</span></span>
 
 
-<span data-ttu-id="6edc3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6edc3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4320a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4320a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-  - [<span data-ttu-id="6edc3-104">Documents.Refresh Method (DAO)</span><span class="sxs-lookup"><span data-stu-id="6edc3-104">Documents.Refresh Method (DAO)</span></span>](documents-refresh-method-dao.md)
+  - [<span data-ttu-id="4320a-104">Méthode Documents.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="4320a-104">Documents.Refresh method (DAO)</span></span>](documents-refresh-method-dao.md)
 

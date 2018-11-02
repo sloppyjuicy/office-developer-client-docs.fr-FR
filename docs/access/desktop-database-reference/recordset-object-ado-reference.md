@@ -1,26 +1,22 @@
 ---
-title: Recordset Object (ADO) Reference
-TOCTitle: Recordset Object (ADO)
+title: Référence de Recordset, objet (ADO)
+TOCTitle: Recordset object (ADO)
 ms:assetid: 276c0dcb-2327-4035-b604-ef181a1490cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249037(v=office.15)
 ms:contentKeyID: 48543837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42c3c9fff4f4270546ef5139b9c569f9fcea4254
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7a6ecf2304f198363e6122532f77ae36053b00d9
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887998"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921928"
 ---
-# <a name="recordset-object-ado-reference"></a><span data-ttu-id="3c5ed-102">Recordset Object (ADO) Reference</span><span class="sxs-lookup"><span data-stu-id="3c5ed-102">Recordset Object (ADO) Reference</span></span>
+# <a name="recordset-object-ado-reference"></a><span data-ttu-id="c7ec3-102">Référence de Recordset, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="c7ec3-102">Recordset object (ADO) reference</span></span>
 
+<span data-ttu-id="c7ec3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7ec3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3c5ed-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c5ed-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="3c5ed-104">Objet Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="3c5ed-104">Recordset Object (ADO)</span></span>](recordset-object-ado.md)
-
-  - [<span data-ttu-id="3c5ed-105">Recordset Properties, Methods, and Events (ADO)</span><span class="sxs-lookup"><span data-stu-id="3c5ed-105">Recordset Properties, Methods, and Events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="c7ec3-104">Recordset, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="c7ec3-104">Recordset object (ADO)</span></span>](recordset-object-ado.md)
+- [<span data-ttu-id="c7ec3-105">Propriétés de l’objet Recordset, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="c7ec3-105">Recordset properties, methods, and events (ADO)</span></span>](recordset-properties-methods-and-events-ado.md)
 
