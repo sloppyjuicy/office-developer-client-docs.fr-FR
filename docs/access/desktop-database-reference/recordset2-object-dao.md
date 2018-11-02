@@ -1,33 +1,33 @@
 ---
-title: Recordset2 Object (DAO)
+title: Objet Recordset2 (DAO)
 TOCTitle: Recordset2 Object
 ms:assetid: 964f9961-807c-e4f3-5919-74e25f6e9069
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39b7df1856588875f88735ec01f05cf0e1a4a1d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7e4ab089af54a53889afac054598cbca57028353
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885268"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924679"
 ---
-# <a name="recordset2-object-dao"></a><span data-ttu-id="cf185-102">Recordset2 Object (DAO)</span><span class="sxs-lookup"><span data-stu-id="cf185-102">Recordset2 Object (DAO)</span></span>
+# <a name="recordset2-object-dao"></a><span data-ttu-id="9f4af-102">Objet Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="9f4af-102">Recordset2 object (DAO)</span></span>
 
-<span data-ttu-id="cf185-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf185-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9f4af-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f4af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cf185-104">Un objet **Recordset2** représente les enregistrements d'une table de base ou les enregistrements générés suite à l'exécution d'une requête.</span><span class="sxs-lookup"><span data-stu-id="cf185-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="9f4af-104">Un objet **Recordset2** représente les enregistrements d'une table de base ou les enregistrements générés suite à l'exécution d'une requête.</span><span class="sxs-lookup"><span data-stu-id="9f4af-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cf185-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="cf185-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9f4af-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="9f4af-105">Remarks</span></span>
 
-<span data-ttu-id="cf185-p101">Un objet **Recordset2** contient les mêmes propriétés et méthodes que l'objet **[Recordset](recordset-object-dao.md)**. L'objet **Recordset2** contient une nouvelle propriété, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prend en charge les types de champ à plusieurs valeurs.</span><span class="sxs-lookup"><span data-stu-id="cf185-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
+<span data-ttu-id="9f4af-p101">Un objet **Recordset2** contient les mêmes propriétés et méthodes que l'objet **[Recordset](recordset-object-dao.md)**. L'objet **Recordset2** contient une nouvelle propriété, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prend en charge les types de champ à plusieurs valeurs.</span><span class="sxs-lookup"><span data-stu-id="9f4af-p101">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object. The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
 
-## <a name="example"></a><span data-ttu-id="cf185-108">Exemple</span><span class="sxs-lookup"><span data-stu-id="cf185-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9f4af-108">Exemple</span><span class="sxs-lookup"><span data-stu-id="9f4af-108">Example</span></span>
 
-<span data-ttu-id="cf185-109">L’exemple suivant montre comment naviguer dans un jeu d’enregistrements contenant un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="cf185-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="9f4af-109">L’exemple suivant montre comment naviguer dans un jeu d’enregistrements contenant un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="9f4af-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="cf185-110">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="cf185-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="9f4af-110">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="9f4af-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -91,7 +91,7 @@ ms.locfileid: "25885268"
 
 <br/>
 
-<span data-ttu-id="cf185-111">L’exemple suivant montre comment parcourir les fichiers dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="cf185-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="cf185-112">Le type de fichier et le nom de chaque pièce jointe est imprimé dans la fenêtre exécution.</span><span class="sxs-lookup"><span data-stu-id="cf185-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="9f4af-111">L’exemple suivant montre comment parcourir les fichiers dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="9f4af-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="9f4af-112">Le type de fichier et le nom de chaque pièce jointe est imprimé dans la fenêtre exécution.</span><span class="sxs-lookup"><span data-stu-id="9f4af-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -141,7 +141,7 @@ ms.locfileid: "25885268"
 
 <br/>
 
-<span data-ttu-id="cf185-113">L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès du dossier spécifié à un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="cf185-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="9f4af-113">L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès du dossier spécifié à un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="9f4af-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -198,7 +198,7 @@ ms.locfileid: "25885268"
 
 <br/>
 
-<span data-ttu-id="cf185-114">L’exemple suivant montre comment enregistrer les fichiers stockés dans un champ de pièce jointe sur le chemin d’accès du dossier spécifié.</span><span class="sxs-lookup"><span data-stu-id="cf185-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="9f4af-114">L’exemple suivant montre comment enregistrer les fichiers stockés dans un champ de pièce jointe sur le chemin d’accès du dossier spécifié.</span><span class="sxs-lookup"><span data-stu-id="9f4af-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -254,7 +254,7 @@ ms.locfileid: "25885268"
 
 <br/>
 
-<span data-ttu-id="cf185-115">L’exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="cf185-115">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="9f4af-115">L’exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="9f4af-115">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long
