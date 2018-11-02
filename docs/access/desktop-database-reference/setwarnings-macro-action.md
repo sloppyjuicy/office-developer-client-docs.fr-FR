@@ -1,6 +1,6 @@
 ---
-title: Avertissements, action de macro
-TOCTitle: SetWarnings Macro Action
+title: SetWarnings, action de macro
+TOCTitle: SetWarnings macro action
 ms:assetid: ff95b919-b1ee-c0a0-851d-71894851bb1d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837313(v=office.15)
 ms:contentKeyID: 48548965
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a1081ac8778c143270e4e2536c53bb47982af92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d72a594a09196f5061ede52b4fbcbbc2cf96253c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885513"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923160"
 ---
-# <a name="setwarnings-macro-action"></a>Avertissements, action de macro
+# <a name="setwarnings-macro-action"></a>SetWarnings, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

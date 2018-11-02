@@ -1,19 +1,19 @@
 ---
-title: Recordset Methods (DAO)
+title: Méthodes de l’objet Recordset (DAO)
 TOCTitle: Methods
 ms:assetid: 8b713eda-b076-4190-b2f5-ff1ce522e2bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125237(v=office.15)
 ms:contentKeyID: 52073361
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac41f8f0db13e4972ffa5a787e5d63fa0bb1af59
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 696d3fe0d1b9bf67df3f12608f4bd7ba560d0dae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880361"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920752"
 ---
-# <a name="recordset-methods-dao"></a>Recordset Methods (DAO)
+# <a name="recordset-methods-dao"></a>Méthodes de l’objet Recordset (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013
@@ -22,29 +22,29 @@ ms.locfileid: "25880361"
 
   - [Méthode Recordset.AddNew (DAO)](recordset-addnew-method-dao.md)
 
-  - [Recordset.Cancel Method (DAO)](recordset-cancel-method-dao.md)
+  - [Méthode Recordset.Cancel (DAO)](recordset-cancel-method-dao.md)
 
-  - [Recordset.CancelUpdate Method (DAO)](recordset-cancelupdate-method-dao.md)
+  - [Méthode Recordset.CancelUpdate (DAO)](recordset-cancelupdate-method-dao.md)
 
-  - [Recordset.Clone Method (DAO)](recordset-clone-method-dao.md)
+  - [Méthode Recordset.Clone (DAO)](recordset-clone-method-dao.md)
 
-  - [Recordset.Close Method (DAO)](recordset-close-method-dao.md)
+  - [Méthode Recordset.Close (DAO)](recordset-close-method-dao.md)
 
-  - [Recordset.CopyQueryDef Method (DAO)](recordset-copyquerydef-method-dao.md)
+  - [Méthode Recordset.CopyQueryDef (DAO)](recordset-copyquerydef-method-dao.md)
 
-  - [Recordset.Delete Method (DAO)](recordset-delete-method-dao.md)
+  - [Méthode Recordset.Delete (DAO)](recordset-delete-method-dao.md)
 
   - [Méthode Recordset.Edit (DAO)](recordset-edit-method-dao.md)
 
-  - [Recordset.FillCache Method (DAO)](recordset-fillcache-method-dao.md)
+  - [Méthode Recordset.FillCache (DAO)](recordset-fillcache-method-dao.md)
 
   - [Méthode Recordset.FindFirst (DAO)](recordset-findfirst-method-dao.md)
 
-  - [Recordset.FindLast Method (DAO)](recordset-findlast-method-dao.md)
+  - [Méthode Recordset.FindLast (DAO)](recordset-findlast-method-dao.md)
 
-  - [Recordset.FindNext Method (DAO)](recordset-findnext-method-dao.md)
+  - [Méthode Recordset.FindNext (DAO)](recordset-findnext-method-dao.md)
 
-  - [Recordset.FindPrevious, méthode (DAO)](recordset-findprevious-method-dao.md)
+  - [Méthode Recordset.FindPrevious (DAO)](recordset-findprevious-method-dao.md)
 
   - [Méthode Recordset.GetRows (DAO)](recordset-getrows-method-dao.md)
 
@@ -52,17 +52,17 @@ ms.locfileid: "25880361"
 
   - [Méthode Recordset.MoveFirst (DAO)](recordset-movefirst-method-dao.md)
 
-  - [Recordset.MoveLast Method (DAO)](recordset-movelast-method-dao.md)
+  - [Méthode Recordset.MoveLast (DAO)](recordset-movelast-method-dao.md)
 
-  - [Recordset.MoveNext Method (DAO)](recordset-movenext-method-dao.md)
+  - [Méthode Recordset.MoveNext (DAO)](recordset-movenext-method-dao.md)
 
-  - [Recordset.MovePrevious Method (DAO)](recordset-moveprevious-method-dao.md)
+  - [Méthode Recordset.MovePrevious (DAO)](recordset-moveprevious-method-dao.md)
 
-  - [Recordset.NextRecordset Method (DAO)](recordset-nextrecordset-method-dao.md)
+  - [Méthode Recordset.NextRecordset (DAO)](recordset-nextrecordset-method-dao.md)
 
-  - [Recordset.OpenRecordset, méthode (DAO)](recordset-openrecordset-method-dao.md)
+  - [Méthode Recordset.OpenRecordset (DAO)](recordset-openrecordset-method-dao.md)
 
-  - [Recordset.Requery Method (DAO)](recordset-requery-method-dao.md)
+  - [Méthode Recordset.Requery (DAO)](recordset-requery-method-dao.md)
 
   - [Méthode Recordset.Seek (DAO)](recordset-seek-method-dao.md)
 

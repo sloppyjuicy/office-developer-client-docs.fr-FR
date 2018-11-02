@@ -1,6 +1,6 @@
 ---
-title: AccéderA, action de macro
-TOCTitle: NavigateTo Macro Action
+title: NavigateTo, action de macro
+TOCTitle: NavigateTo macro action
 ms:assetid: 6594d614-3ea6-7851-b70e-1661d24f8ba0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195165(v=office.15)
 ms:contentKeyID: 48545324
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6cb9505eaf4a2002b0a4ae73ce4917ac250cda12
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876056"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920808"
 ---
-# <a name="navigateto-macro-action"></a>AccéderA, action de macro
+# <a name="navigateto-macro-action"></a>NavigateTo, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

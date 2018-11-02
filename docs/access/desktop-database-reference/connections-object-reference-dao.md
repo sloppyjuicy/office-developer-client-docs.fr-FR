@@ -1,30 +1,24 @@
 ---
-title: Connections Object Reference (DAO)
+title: Référence d’objet connexions (DAO)
 TOCTitle: Connections Object
 ms:assetid: d4c80fe4-747a-44fe-9089-6cd76e89b770
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125639(v=office.15)
 ms:contentKeyID: 52074513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 614914141a10d4120f0a61f86175ac63a718e06c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 636a6b33b30fb248c9c26fc35f24f241b7e16237
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886871"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926023"
 ---
-# <a name="connections-object-reference-dao"></a>Connections Object Reference (DAO)
-
+# <a name="connections-object-reference-dao"></a>Référence d’objet connexions (DAO)
 
 **S’applique à**: Access 2013, Office 2013
 
-
-
-  - [Connections Collection (DAO)](connections-collection-dao.md)
-
-  - [Connections Members (DAO)](connections-members-dao.md)
-
-  - [Propriétés de connexion (DAO)](connections-properties-dao.md)
-
-  - [Méthodes de connexion (DAO)](connections-methods-dao.md)
+- [Collection Connections (DAO)](connections-collection-dao.md)
+- [Membres de connexions (DAO)](connections-members-dao.md)
+- [Propriétés de connexion (DAO)](connections-properties-dao.md)
+- [Méthodes de connexion (DAO)](connections-methods-dao.md)
 

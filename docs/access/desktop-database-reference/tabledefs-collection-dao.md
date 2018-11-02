@@ -1,19 +1,19 @@
 ---
-title: TableDefs, collection (DAO)
+title: Collection TableDefs (DAO)
 TOCTitle: TableDefs Collection
 ms:assetid: a2986b02-0437-d6ac-7bbb-c43f5225c3fc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820997(v=office.15)
 ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 084e11bf892a63d6b526e5f584de1ae450264c75
-ms.sourcegitcommit: 19aca09c5812cfb98b68b5d4604dcaa814479df7
+ms.openlocfilehash: b265063d1912b81aa852505b756e58e7a643d4ae
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25472032"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922943"
 ---
-# <a name="tabledefs-collection-dao"></a>TableDefs, collection (DAO)
+# <a name="tabledefs-collection-dao"></a>Collection TableDefs (DAO)
 
 **S’applique à :** Access 2013 | Office 2013
 

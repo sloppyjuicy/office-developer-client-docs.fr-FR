@@ -1,6 +1,6 @@
 ---
-title: ExporterAvecMiseEnForme, action de macro
-TOCTitle: ExportWithFormatting Macro Action
+title: ExportWithFormatting, action de macro
+TOCTitle: ExportWithFormatting macro action
 ms:assetid: 8926dfa3-bf11-30ab-0f85-46f0a4961784
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197066(v=office.15)
 ms:contentKeyID: 48546152
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm159503
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8a0ca9d2dde2ae5d39fb9159655f37b5140eee3e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ae03262489b707257a4aee93e4380aa70329856a
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868017"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25924434"
 ---
-# <a name="exportwithformatting-macro-action"></a>ExporterAvecMiseEnForme, action de macro
+# <a name="exportwithformatting-macro-action"></a>ExportWithFormatting, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

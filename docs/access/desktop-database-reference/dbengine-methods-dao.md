@@ -1,44 +1,44 @@
 ---
-title: DBEngine Methods (DAO)
+title: DBEngine, méthodes (DAO)
 TOCTitle: Methods
 ms:assetid: 8a32c55b-2b72-45be-b907-2efb345677f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125212(v=office.15)
 ms:contentKeyID: 52073337
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4f2fc45d2b62de4f0220a10c6eb720973d077fb5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8ce4170c6acd39072db0b6ae6e63ee57fb0be782
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878709"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25922663"
 ---
-# <a name="dbengine-methods-dao"></a>DBEngine Methods (DAO)
+# <a name="dbengine-methods-dao"></a>DBEngine, méthodes (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013
 
 
 
-  - [DBEngine.BeginTrans Method (DAO)](dbengine-begintrans-method-dao.md)
+  - [Méthode DBEngine.BeginTrans (DAO)](dbengine-begintrans-method-dao.md)
 
-  - [DBEngine.CommitTrans Method (DAO)](dbengine-committrans-method-dao.md)
+  - [Méthode DBEngine.CommitTrans (DAO)](dbengine-committrans-method-dao.md)
 
-  - [DBEngine.CompactDatabase Method (DAO)](dbengine-compactdatabase-method-dao.md)
+  - [Méthode DBEngine.CompactDatabase (DAO)](dbengine-compactdatabase-method-dao.md)
 
-  - [DBEngine.CreateDatabase Method (DAO)](dbengine-createdatabase-method-dao.md)
+  - [Méthode DBEngine.CreateDatabase (DAO)](dbengine-createdatabase-method-dao.md)
 
-  - [DBEngine.CreateWorkspace Method (DAO)](dbengine-createworkspace-method-dao.md)
+  - [Méthode DBEngine.CreateWorkspace (DAO)](dbengine-createworkspace-method-dao.md)
 
-  - [DBEngine.Idle Method (DAO)](dbengine-idle-method-dao.md)
+  - [Méthode DBEngine.Idle (DAO)](dbengine-idle-method-dao.md)
 
-  - [DBEngine.OpenConnection Method (DAO)](dbengine-openconnection-method-dao.md)
+  - [Méthode DBEngine.OpenConnection (DAO)](dbengine-openconnection-method-dao.md)
 
   - [Méthode DBEngine.OpenDatabase (DAO)](dbengine-opendatabase-method-dao.md)
 
-  - [DBEngine.RegisterDatabase Method (DAO)](dbengine-registerdatabase-method-dao.md)
+  - [Méthode DBEngine.RegisterDatabase (DAO)](dbengine-registerdatabase-method-dao.md)
 
-  - [DBEngine.Rollback Method (DAO)](dbengine-rollback-method-dao.md)
+  - [Méthode DBEngine.Rollback (DAO)](dbengine-rollback-method-dao.md)
 
-  - [DBEngine.SetOption Method (DAO)](dbengine-setoption-method-dao.md)
+  - [Méthode DBEngine.SetOption (DAO)](dbengine-setoption-method-dao.md)
 

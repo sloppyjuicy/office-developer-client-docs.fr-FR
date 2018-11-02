@@ -1,6 +1,6 @@
 ---
-title: AfficherPointeurSablier, action de macro
-TOCTitle: DisplayHourglassPointer Macro Action
+title: DisplayHourglassPointer, action de macro
+TOCTitle: DisplayHourglassPointer macro action
 ms:assetid: 2c93039a-f75c-abeb-1dfa-e632a5bdf6f2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192103(v=office.15)
 ms:contentKeyID: 48543957
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4d9f370fdc1ea2100178a489ad1c81225cd05199
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 159e9f1b4cf7beab96a463ff476b4edf577e1371
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874614"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926933"
 ---
-# <a name="displayhourglasspointer-macro-action"></a>AfficherPointeurSablier, action de macro
+# <a name="displayhourglasspointer-macro-action"></a>DisplayHourglassPointer, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

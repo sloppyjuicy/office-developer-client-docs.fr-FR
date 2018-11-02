@@ -1,6 +1,6 @@
 ---
-title: AjouterMenu, action de macro
-TOCTitle: AddMenu Macro Action
+title: AddMenu, action de macro
+TOCTitle: AddMenu macro action
 ms:assetid: 4eb2afa0-ed1f-41b1-d27f-b3ce7a73d2bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193760(v=office.15)
 ms:contentKeyID: 48544762
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d14005bffa1374e7d8256938824876d6a577f317
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: badfb4468c8f485d52535b33c644b88b5fae531d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880046"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923167"
 ---
-# <a name="addmenu-macro-action"></a>AjouterMenu, action de macro
+# <a name="addmenu-macro-action"></a>AddMenu, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

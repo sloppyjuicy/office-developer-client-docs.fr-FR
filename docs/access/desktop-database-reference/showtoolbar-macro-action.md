@@ -1,6 +1,6 @@
 ---
-title: AfficherBarreOutils, action de macro
-TOCTitle: ShowToolbar Macro Action
+title: ShowToolbar, action de macro
+TOCTitle: ShowToolbar macro action
 ms:assetid: 9e53009b-1e5e-1bee-3bcc-f82dc1b0dc48
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198288(v=office.15)
 ms:contentKeyID: 48546649
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84eff76b29697df46c7159c442865bd00ce051e0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 254a54b4b672ba9e40253e3bd95283eec655d3dc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879122"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920507"
 ---
-# <a name="showtoolbar-macro-action"></a>AfficherBarreOutils, action de macro
+# <a name="showtoolbar-macro-action"></a>ShowToolbar, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013
