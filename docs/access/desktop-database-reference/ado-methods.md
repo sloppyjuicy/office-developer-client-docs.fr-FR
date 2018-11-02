@@ -1,22 +1,23 @@
 ---
-title: Méthodes d’ActiveX Data Objects (ADO)
-TOCTitle: ADO Methods
+title: Méthodes ActiveX Data Objects (ADO)
+TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ef05e7f322b769102ce25aab7dfc26a75b0aa22
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879332"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910802"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
-
 **S’applique à**: Access 2013, Office 2013
+
+<br/>
 
 <table>
 <colgroup>
@@ -24,6 +25,10 @@ ms.locfileid: "25879332"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Méthode</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="addnew-method-ado.md">AddNew</a></p></td>
 <td><p>Crée un enregistrement pour un objet <strong>Recordset</strong> actualisable.</p></td>
@@ -38,8 +43,9 @@ ms.locfileid: "25879332"
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans et RollbackTrans</a></p></td>
-<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit : <strong>BeginTrans</strong> : lance une nouvelle transaction.<br />
-<strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br />
+<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :
+<br/><br/><strong>BeginTrans</strong>: lance une nouvelle transaction.<br/><br/>
+<strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br/><br/>
 <strong>RollbackTrans</strong> : annule les modifications et met fin à transaction en cours. Lance aussi parfois une nouvelle transaction.</p></td>
 </tr>
 <tr class="odd">
@@ -237,3 +243,4 @@ ms.locfileid: "25879332"
 </tbody>
 </table>
 
+<br/>

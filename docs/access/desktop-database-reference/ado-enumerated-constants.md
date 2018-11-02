@@ -1,24 +1,25 @@
 ---
 title: Constantes énumérées ADO
-TOCTitle: ADO Enumerated Constants
+TOCTitle: ADO enumerated constants
 ms:assetid: 7c983acd-8b38-dc3c-6704-46e649ebb7d6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249522(v=office.15)
 ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e9944138dcdca49f33ca293a9bdf41d88d86e9e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0e6a6dee6d2882b1d7d1c277584ca8ba46d6db28
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882307"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910949"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes énumérées ADO
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Pour faciliter le débogage, les énumérations ADO comportent une valeur pour chaque constante. Cependant, cette valeur est fournie uniquement à titre indicatif et peut changer d'une version d'ADO à une autre. Votre code doit dépendre uniquement du nom et non de la valeur réelle de chaque constante énumérée.
+
+<br/>
 
 <table>
 <colgroup>
@@ -26,6 +27,10 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Constante énumérée</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
 <td><p>Pour un objet <strong>Recordset</strong> RDS, spécifie la priorité d'exécution du thème asynchrone qui recherche des données.</p></td>

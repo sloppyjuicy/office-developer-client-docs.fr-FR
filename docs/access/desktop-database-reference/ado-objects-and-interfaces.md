@@ -1,26 +1,27 @@
 ---
 title: Objets et interfaces ADO
-TOCTitle: ADO Objects and Interfaces
+TOCTitle: ADO objects and interfaces
 ms:assetid: bebf4a80-8b6e-c43c-4138-897055cc60d3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efab7ce2980393282ee1f96295206e712fcbd15f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fa301974b4b417d09b0439b3970ee366eeb5d06e
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882181"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910726"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
-
 **S’applique à**: Access 2013, Office 2013
 
-Les relations entre ces objets sont représentées dans le modèle objet ADO.
+Les relations entre ces objets sont représentées dans le modèle d’objet ActiveX Data Objects (ADO).
 
-Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d'informations, consultez [Collections ADO](ado-collections.md) ou une rubrique spécifique à une collection.
+Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d’informations, consultez [collections ADO](ado-collections.md) ou une rubrique à une collection spécifique.
+
+<br/>
 
 <table>
 <colgroup>
@@ -28,6 +29,10 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th>Objet</th>
+<th>Description</th>
+</tr>
 <tr class="odd">
 <td><p><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></p></td>
 <td><p>Crée un objet <strong>Record</strong> ADO à partir d'un objet <strong>Row</strong> OLE DB dans une application C/C++.</p></td>
@@ -35,6 +40,14 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <tr class="even">
 <td><p><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></p></td>
 <td><p>Crée un objet <strong>Recordset</strong> ADO à partir d'un objet <strong>Rowset</strong> OLE DB dans une application C/C++.</p></td>
+</tr>
+<tr class="odd">
+<td><p><a href="error-object-ado.md">Command</a></p></td>
+<td><p>Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.</p></td>
+</tr>
+<tr class="even">
+<td><p><a href="field-object-ado.md">Objet Connection</a></p></td>
+<td><p>Représente une connexion ouverte à une source de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="error-object-ado.md">Erreur</a></p></td>
@@ -66,4 +79,6 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 </tr>
 </tbody>
 </table>
+
+<br/>
 

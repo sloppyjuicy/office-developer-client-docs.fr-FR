@@ -6,23 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
 ms:contentKeyID: 48543804
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 79730a420066d0ea8f03ffe06163878fe4cc8ae2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5dc3f307ba1cab0696a63743eed0ee1460ae1cf3
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873424"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910719"
 ---
 # <a name="ado-programmers-reference-topics"></a>Rubriques de référence du programmeur ADO
 
-
 **S’applique à**: Access 2013, Office 2013
 
-  - [ADO API Reference Topics](ado-api-reference-topics.md)
-
-  - [RDS API Reference Topics](rds-api-reference-topics.md)
-
-  - [ADO MD API Reference Topics](ado-md-api-reference-topics.md)
-
-  - [ADOX API Reference Topics](adox-api-reference-topics.md)
+- [Rubriques de référence des API ADO](ado-api-reference-topics.md)
+- [Rubriques de référence des API RDS](rds-api-reference-topics.md)
+- [Rubriques de référence des API ADO MD](ado-md-api-reference-topics.md)
+- [Rubriques de référence des API ADOX](adox-api-reference-topics.md)
 
