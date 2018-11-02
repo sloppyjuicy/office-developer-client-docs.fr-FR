@@ -23,7 +23,7 @@ ms.locfileid: "22565549"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Modifie le mot de passe d’un fournisseur de services sans afficher l’interface utilisateur. Cette méthode est également pris en charge dans les objets qui implémentent des fournisseurs de services d’état.
   
@@ -53,7 +53,7 @@ MAPI_UNICODE
   
 > Les mots de passe sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les mots de passe sont au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -73,7 +73,7 @@ Pas de tous les objets d’état prend en charge la méthode **IMAPIStatus::Chan
   
  **ChangePassword** modifie un mot de passe par programmation, sans intervention de l’utilisateur. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Fournisseurs de transport à distance implémentent **ChangePassword** comme indiqué ici. Il n’existe pas de considérations particulières. 
   

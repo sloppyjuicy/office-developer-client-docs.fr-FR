@@ -23,7 +23,7 @@ ms.locfileid: "22575874"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique qu’un message pour le fournisseur de transport fournir le spouleur MAPI.
   
@@ -58,7 +58,7 @@ BEGIN_DEFERRED
   
 > [out] Pointeur vers une variable qui correspond à la valeur d’erreur MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR retournée par **SubmitMessage**.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

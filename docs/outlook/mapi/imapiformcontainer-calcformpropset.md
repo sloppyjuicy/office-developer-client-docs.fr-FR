@@ -23,7 +23,7 @@ ms.locfileid: "22576581"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie un tableau de propriétés utilisées par tous les formulaires installés dans un conteneur de formulaire.
   
@@ -56,7 +56,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers la structure [SMAPIFormPropArray](smapiformproparray.md) retournée. Cette structure contient toutes les propriétés utilisées par les formulaires installés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -70,7 +70,7 @@ MAPI_E_BAD_CHARWIDTH
 
 Applications clientes appellent la méthode **IMAPIFormContainer::CalcFormPropSet** pour obtenir un tableau de propriétés utilisés par tous les formulaires installés dans un conteneur de formulaire. **IMAPIFormContainer::CalcFormPropSet** fonctionne comme la méthode [IMAPIFormMgr::CalcFormPropSet](imapiformmgr-calcformpropset.md) , sauf qu’elle fonctionne dans tous les formulaires enregistrés dans un conteneur spécifique. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé.
   

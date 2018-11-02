@@ -19,7 +19,7 @@ ms.locfileid: "22590189"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournisseurs de banque de messages n’ont pas prendre en charge les envois de messages entrants (autrement dit, prennent en charge la possibilité pour les fournisseurs de transport et le spouleur MAPI à utiliser le message d’un fournisseur de magasins comme point de remise des messages). Toutefois, si votre fournisseur de banque de messages n’accepte pas les envois de messages entrants, il ne peut être utilisé en tant que la banque de messages par défaut.
   

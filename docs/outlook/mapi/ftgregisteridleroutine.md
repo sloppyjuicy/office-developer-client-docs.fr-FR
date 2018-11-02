@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1775e5ea79fc71ac64a4536d3866b9a75ed96a6b
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22566272"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute une routine [FNIDLE](fnidle.md) fonction inactive au système MAPI. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 FTG FtgRegisterIdleRoutine(
@@ -91,7 +91,7 @@ _iroIdle_
     
   > L’heure spécifiée par le paramètre _csecIdle_ est la durée minimale d’inaction utilisateur qui doit s’écouler avant que le moteur d’inactivité MAPI appelle la routine inactive pour la première fois. Une fois ce délai, le moteur d’inactivité peut appeler la routine inactive aussi souvent que nécessaire. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 La fonction **FtgRegisterIdleRoutine** renvoie une balise de fonction qui identifie la routine d’inactivité qui a été ajoutée au système MAPI. Si **FtgRegisterIdleRoutine** ne peut pas enregistrer la routine d’inactivité pour l’application cliente ou d’un fournisseur de services, par exemple en raison de problèmes de mémoire, elle renvoie la valeur NULL. 
   

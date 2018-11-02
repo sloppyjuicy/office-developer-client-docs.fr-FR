@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 566a9d23c46ec717eb5eed711fff801b15d49fc1
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22564233"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute ou déplacer des colonnes au début d’une table existante. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT HrAddColumnsEx(
@@ -70,7 +70,7 @@ HRESULT HrAddColumnsEx(
   
 > [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient le tableau des balises de propriété existant déjà dans la table avant de propriétés sont ajoutées ou déplacées vers le début. Passe **HrAddColumnsEx** ce pointeur en tant que paramètre à la fonction de rappel désigné par _lpfnFilterColumns_.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

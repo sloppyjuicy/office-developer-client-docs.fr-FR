@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 1a1d11db538d9b5368d80962e44b9eab38b490d2
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22575650"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime un formulaire particulier à partir d’un conteneur de formulaire.
   
@@ -39,7 +39,7 @@ HRESULT RemoveForm(
   
 > [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Noms de classe de message sont toujours des chaînes ANSI, Unicode jamais.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -49,9 +49,9 @@ MAPI_E_NOT_FOUND
   
 > La classe de message transmise dans le paramètre _szMessageClass_ ne correspond pas à la classe de message de n’importe quel formulaire dans le conteneur du formulaire. 
     
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

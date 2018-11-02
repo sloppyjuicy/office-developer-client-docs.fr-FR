@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ea72a6fd2a22fe87ad63bb9c8fa6c1416d876b66
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22564247"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Enregistre l’appelant pour recevoir des notifications d’événements spécifiques qui affectent un conteneur, utilisateur ou liste de distribution de messagerie.
   
@@ -68,7 +68,7 @@ HRESULT Advise(
   
 > [out] Pointeur vers une valeur différente de zéro qui représente l’enregistrement de notification.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -94,7 +94,7 @@ Généralement, les clients appeler la méthode [IAddrBook::Advise](iaddrbook-ad
   
 Lorsqu’une modification est apportée à l’objet du type représenté dans _ulEventMask_indiqué, un appel est effectué à la méthode **OnNotify** du récepteur advise désigné par _lpAdviseSink_. Données transmises dans la structure de **NOTIFICATION** à la routine **OnNotify** décrivent l’événement. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez prendre en charge notification avec ou sans l’aide de MAPI. MAPI a trois méthodes d’objet de prise en charge pour aider les fournisseurs de services à implémenter la notification :
   

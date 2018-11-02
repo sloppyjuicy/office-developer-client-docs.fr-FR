@@ -23,7 +23,7 @@ ms.locfileid: "22585856"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute un destinataire à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.
   
@@ -78,7 +78,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée du nouveau destinataire.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

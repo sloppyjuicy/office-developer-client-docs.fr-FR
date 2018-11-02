@@ -23,7 +23,7 @@ ms.locfileid: "22592933"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique la visionneuse de formulaire à une nouvelle ou un message existant a été chargé dans un formulaire.
   
@@ -35,7 +35,7 @@ HRESULT OnNewMessage( void );
 
 Aucune
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -45,7 +45,7 @@ S_OK
 
 Objets de formulaire appeler la méthode de **IMAPIViewAdviseSink::OnNewMessage** lorsqu’un message est chargé dans un formulaire à l’aide de la méthode le [IPersistMessage::InitNew](ipersistmessage-initnew.md) ou [IPersistMessage::Load](ipersistmessage-load.md) . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Libérer le pointeur actif à l’objet de formulaire, car il ne pointe plus vers le message que votre Observateur a été précédemment affichage. 
   

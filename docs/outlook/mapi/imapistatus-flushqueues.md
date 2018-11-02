@@ -23,7 +23,7 @@ ms.locfileid: "22592198"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Force tous les messages en attente d’être envoyés ou reçus pour être immédiatement téléchargé ou téléchargé. Les objets de statut qui implémentent des fournisseurs de transport et de l’objet état spouleur MAPI prennent en charge cette méthode.
   
@@ -74,7 +74,7 @@ FLUSH_UPLOAD
   
 > Les files d’attente de messages sortants doivent être vidés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -96,7 +96,7 @@ MAPI_E_BUSY doit être retournée pour les demandes asynchrones afin que les cli
   
 Par défaut, **FlushQueues** est une opération synchrone ; contrôle ne retourne pas à l’appelant jusqu'à ce que le vidage est terminée. Uniquement l’opération de vidage effectuée par le spouleur MAPI peut être asynchrone ; les clients demandent ce comportement en définissant l’indicateur FLUSH_ASYNC_OK. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Implémentation d’un fournisseur de transport à distance de **FlushQueues** définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) dans la ligne d’état de l’objet d’ouverture de session pour contrôler la façon dont les files d’attente sont vidés. Si l’indicateur FLUSH_UPLOAD passe une visionneuse à distance, la méthode **FlushQueues** doit définir les bits STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE. Si l’indicateur FLUSH_DOWNLOAD passe une visionneuse à distance, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE. **FlushQueues** doit renvoyer puis S_OK. Le spouleur MAPI lance les actions appropriées pour charger et télécharger des messages. 
   

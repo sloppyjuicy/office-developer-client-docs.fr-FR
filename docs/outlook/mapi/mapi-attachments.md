@@ -19,7 +19,7 @@ ms.locfileid: "22585877"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Certains fournisseurs de banque de messages permettent aux clients d'associer l'ajout d'informations sous la forme de fichiers, des objets OLE, des messages ou des donn�es binaires avec des messages. Ajout d'informations est appel� une pi�ce jointe d'un message. �tant donn� que les pi�ces jointes sont cr��s, g�r�s et accessibles uniquement par le biais de leurs messages, ils sont consid�r�s comme message sous-objets. Au lieu d'avoir un identificateur d'entr�e pour l'acc�s, les pi�ces jointes ont un autre num�ro s�quentiel comme un num�ro de pi�ce jointe. Ce num�ro identifie de mani�re unique la pi�ce jointe au sein de son message, mais pas n�cessairement au sein de la banque de messages. Deux messages diff�rents peuvent avoir diff�rentes pi�ces jointes ayant le m�me nombre de pi�ces jointes. Les numéros de pièce jointe ne sont valides que tant que le message est ouvert et sont stockés dans la propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)).
   

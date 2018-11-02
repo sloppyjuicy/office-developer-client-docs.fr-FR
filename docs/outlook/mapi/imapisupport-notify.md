@@ -21,7 +21,7 @@ ms.locfileid: "22572038"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Envoie une notification d’un événement spécifié à une source d’advise initialement enregistré pour la notification par le biais de la méthode [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
   
@@ -62,7 +62,7 @@ _lpulFlags_
     
     > Une fonction de rappel annulé une notification synchrone.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

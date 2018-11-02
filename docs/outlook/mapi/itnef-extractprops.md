@@ -23,7 +23,7 @@ ms.locfileid: "22571345"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Extrait les propriétés d’une encapsulation TNEF. 
   
@@ -57,7 +57,7 @@ TNEF_PROP_INCLUDE
   
 > [out] Pointeur vers un pointeur vers une structure [STnefProblemArray](stnefproblemarray.md) renvoyée. La structure **STnefProblemArray** indique les propriétés, le cas échéant, ont été pas codées correctement. Si NULL est indiqué dans le paramètre _lpProblems_ , aucun tableau de problème de propriété n’est renvoyé. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

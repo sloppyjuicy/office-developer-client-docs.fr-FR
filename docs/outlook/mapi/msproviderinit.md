@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 33adef7a8248e137869912afc2026583828b087e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,15 +23,15 @@ ms.locfileid: "22570169"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Initialise un fournisseur de magasin de message pour l’opération.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de banque de messages  <br/> |
-|Appelée par :  <br/> |MAPI  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de banque de messages  <br/> |
+|Appelé par :  <br/> |MAPI  <br/> |
    
 ```cpp
 HRESULT MSProviderInit(
@@ -89,7 +89,7 @@ MAPI_NT_SERVICE
   
 > [out] Pointeur vers un pointeur vers l’objet de fournisseur de magasin de message initialisé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -103,7 +103,7 @@ MAPI_E_VERSION
 
 MAPI appelle la fonction de point d’entrée **MSProviderInit** d’initialisation d’un fournisseur de magasins message après une ouverture de session client. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Un fournisseur de magasin de message doit implémenter **MSProviderInit** en tant que fonction d’un point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **MSPROVIDERINIT** , également spécifié dans MAPISPI. H. MAPI définit **MSPROVIDERINIT** pour utiliser le type appel de l’initialisation de MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **MSProviderInit** à suivre la convention d’appel CDECL. L’avantage de CDECL est que les appels peuvent être tentés, même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
   

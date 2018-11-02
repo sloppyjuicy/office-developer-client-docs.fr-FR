@@ -23,7 +23,7 @@ ms.locfileid: "22594984"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournit des informations qui sont affichent dans la boîte de dialogue d’envoi/réception. Si vous rencontrez des erreurs lors de la synchronisation, le fournisseur de banque appelle cette fonction.
   
@@ -44,7 +44,7 @@ HRESULT Error(
   
 > Pointeur vers la chaîne associée à l’erreur s’affiche.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

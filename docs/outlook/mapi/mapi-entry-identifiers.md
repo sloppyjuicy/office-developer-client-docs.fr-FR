@@ -19,7 +19,7 @@ ms.locfileid: "22567859"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Identificateurs d’entrée sont des éléments de données binaires stockées dans une structure [ENTRYID](entryid.md) qui servent à identifier et ouvrir un objet MAPI de manière unique. La plupart des objets MAPI ont des identificateurs d’entrée. Identificateurs d’entrée pour les objets sont similaires aux noms des fichiers. Toutefois, elles ne sont pas transmissible et ne peut pas être utilisés sur les systèmes autres que le système qu'ils provient. 
   

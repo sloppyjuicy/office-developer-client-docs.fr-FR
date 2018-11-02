@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22565395"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les entrées suivantes alphabétiques contiennent documentation pour les fonctions MAPI, les rappels et les macros. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 6ffbf74496d4b61357a0fb473b82deedf39ee576
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22570673"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie ou déplace un dossier à partir de son dossier parent en cours vers un autre dossier parent.
   
@@ -100,7 +100,7 @@ MAPI_UNICODE
   
 > Le nom du dossier est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, le nom du dossier est au format ANSI.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

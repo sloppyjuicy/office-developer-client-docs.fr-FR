@@ -23,7 +23,7 @@ ms.locfileid: "22576056"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Convertit un identificateur d’entrée dans le format standard MAPI identificateur d’entrée interne d’une banque de messages.
   
@@ -54,7 +54,7 @@ LPENTRYID FAR * lppWrappedEntry
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée justifiés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -23,7 +23,7 @@ ms.locfileid: "22588593"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ajoute un nouveau destinataire directement à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.
   
@@ -74,7 +74,7 @@ HRESULT NewEntry(
   
 > [out] Pointeur vers un pointeur vers l’identificateur d’entrée de l’entrée nouvellement créée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

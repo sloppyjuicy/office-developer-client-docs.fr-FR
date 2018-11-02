@@ -23,7 +23,7 @@ ms.locfileid: "22570127"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une icône à partir d’une des propriétés d’icône d’un formulaire.
   
@@ -44,7 +44,7 @@ HRESULT MakeIconFromBinary(
   
 > [out] Pointeur vers l’icône renvoyée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

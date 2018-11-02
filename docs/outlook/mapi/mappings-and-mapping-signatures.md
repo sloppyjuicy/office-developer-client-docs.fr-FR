@@ -19,7 +19,7 @@ ms.locfileid: "22566186"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lorsqu’un fournisseur de services prend en charge les propriétés nommées, chaque jeu de paires identificateur et le nom est appelé un mappage. Fournisseurs de services peuvent prendre en charge un mappage ou plusieurs. Qui est un fournisseur de banque de messages, par exemple, peut implémenter les méthodes **GetIDsFromNames** et **GetNamesFromIDs** pour toutes ses messages, dossier et objets de banque de messages pour fonctionner avec une seule liste de noms et de leurs identificateurs correspondants. Un autre fournisseur de banque de messages peut-être avoir une liste de tous les dossiers et les messages qu’il contient ou implémenter une liste unique pour chaque message et chaque dossier. Les fournisseurs de magasins de message qui utilisent un mappage unique pour chaque message ne doivent pas autoriser les propriétés nommées apparaissent dans les tables de contenu de dossier, car un nom de propriété donné, l’identificateur de la propriété sera différent à partir du message à. MAPI recommande que les fournisseurs de simplicité et fonctionnent avec une seule liste pour tous les objets, y compris les tables. 
   

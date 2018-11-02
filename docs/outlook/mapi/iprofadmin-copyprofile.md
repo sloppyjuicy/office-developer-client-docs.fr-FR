@@ -23,7 +23,7 @@ ms.locfileid: "22571205"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie d’un profil.
   
@@ -63,7 +63,7 @@ MAPI_DIALOG
   
 > Affiche une boîte de dialogue qui invite l’utilisateur pour le mot de passe du profil à copier. Si cet indicateur n’est pas défini, aucune boîte de dialogue ne s’affiche.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

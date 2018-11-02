@@ -19,7 +19,7 @@ ms.locfileid: "25399654"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Détermine la page de codes pour un flux de Transport-Neutral Encapsulation Format (TNEF).
   

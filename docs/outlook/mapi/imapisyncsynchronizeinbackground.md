@@ -23,7 +23,7 @@ ms.locfileid: "22568776"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
  Déclenche une synchronisation. Cette méthode est appelée par Microsoft Outlook 2010 et Microsoft Outlook 2013 et implémentée par les fournisseurs de banque de messages. 
   
@@ -39,7 +39,7 @@ HRESULT SynchronizeInBackground (
   
 > Informe le fournisseur de ce qui sera synchronisé et donne accès aux interfaces qui peuvent être utilisés lors de la synchronisation. Il est une structure [MAPISIB](mapisib.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -1,5 +1,5 @@
 ---
-title: Fournisseurs de magasin de génération et l’utilisation d’identificateurs d’entrée dans un message
+title: Génération et utilisation d’identificateurs d’entrées dans les fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22565451"
 ---
-# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Fournisseurs de magasin de génération et l’utilisation d’identificateurs d’entrée dans un message
+# <a name="generating-and-using-entry-identifiers-in-message-store-providers"></a>Génération et utilisation d’identificateurs d’entrées dans les fournisseurs de banques de messages
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lorsqu’un nouveau dossier ou un message est créé dans une banque de messages, le fournisseur de banque de message doit affecter à cet objet un identificateur d’entrée afin que les applications clientes peuvent faire. Fournisseurs de banque de message pouvant réutiliser les anciens identificateurs d’entrée à long terme d’objets supprimés ou créer de nouveaux identificateurs. Il y a aucun moyen d’une ou l’autre pour les fournisseurs de banque de messages ; Toutefois, s’il est possible, un fournisseur de magasin de message doit toujours générer nouveaux identificateurs d’entrée à long terme pour les nouveaux objets plutôt que d’anciens réutilisation. Il convient de réutiliser les identificateurs d’entrée à court terme lorsqu’ils se rapportent aux objets sont supprimés.
   

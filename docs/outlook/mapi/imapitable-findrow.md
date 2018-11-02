@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2a50a5f536e337e5ca37e61f17d4dfd40aa9c51e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22565332"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Trouve la ligne suivante dans une table qui correspond aux critères de recherche spécifiques et place le curseur sur cette ligne.
   
@@ -65,7 +65,7 @@ DIR_BACKWARD
   
 > Recherche en arrière à partir de la ligne identifiée par le signet.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -95,7 +95,7 @@ Si le signet passé _BkOrigin_ est BOOKMARK_BEGINNING ou BOOKMARK_END, **FindRow
   
 La colonne de la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) est requise pour toutes les tables, et toutes les implémentations de **FindRow** sont nécessaires pour prendre en charge des appels qui recherchent une ligne basée sur PR_INSTANCE_KEY. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le type de préfixe recherche effectuée par **FindRow** n’est utile lors de la recherche suit le même sens que l’organisation de la table. Pour obtenir le comportement requis, la fonction de comparaison impliquée par le **RELOP_GE** passé dans la structure de restriction de propriété doit être la même fonction de comparaison sur laquelle repose l’ordre de tri du tableau. 
   
@@ -109,9 +109,9 @@ Une restriction permet de rechercher un préfixe de chaîne pour le défilement 
   
 Pour plus d’informations sur l’utilisation des structures de restriction pour spécifier un filtre, voir [à propos des Restrictions](about-restrictions.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

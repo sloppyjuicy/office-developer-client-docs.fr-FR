@@ -23,7 +23,7 @@ ms.locfileid: "22571436"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Envoie une notification pour une ligne de tableau.
   
@@ -49,7 +49,7 @@ HRESULT HrNotify(
   
 > [in] Pointeur vers une structure **SPropValue** qui décrit les valeurs des colonnes de la ligne cible. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

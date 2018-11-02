@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: e740e86fc25307457119aabf6e2aa0c42a9d69b9
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22568223"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un nouveau message.
   
@@ -61,7 +61,7 @@ MAPI_DEFERRED_ERRORS
   
 > [out] Pointeur vers un pointeur vers le message nouvellement créé.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -71,7 +71,7 @@ S_OK
 
 La méthode **IMAPIFolder::CreateMessage** crée un nouveau message avec du contenu générique ou associé et affecte un identificateur d’entrée. L’identificateur d’entrée se compose d’une partie qui représente le fournisseur de banque de messages et un composant qui représente le message individuel. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous pouvez choisir s’il faut définir toutes les propriétés de message requis dans **CreateMessage** ou dans la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) du message. Il est inutile de rendre ces propriétés disponible jusqu'à ce qu’une sauvegarde réussie a eu lieu. 
   
@@ -87,9 +87,9 @@ Pour créer un message sortant, appelez la méthode de **IMAPIFolder::CreateMess
   
 Si vous supprimez un dossier qui contient un nouveau message avant du message est enregistré, les résultats ne sont pas définis.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

@@ -23,7 +23,7 @@ ms.locfileid: "22565290"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet d’accéder à la table fournisseurs, une liste des fournisseurs de services dans le profil.
   
@@ -44,7 +44,7 @@ HRESULT GetProviderTable(
   
 > [out] Pointeur vers un pointeur vers la table des fournisseurs.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

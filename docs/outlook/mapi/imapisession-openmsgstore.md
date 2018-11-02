@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: fdf75787153f9a85e6a7bcddff44cf2c468a7975
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "22595033"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre une banque de messages et retourne un pointeur [IMsgStore](imsgstoreimapiprop.md) pour davantage d’accès. 
   
@@ -66,7 +66,7 @@ _ulFlags_
       
   - MDB\_NO_MAIL : la banque de messages ne doit pas être utilisée pour envoyer ou recevoir de courrier. Lorsque cet indicateur est défini, MAPI ne notifie pas les le spouleur MAPI que cette banque de messages est en cours d’ouverture.
       
-  - MDB\_en ligne : en Mode Exchange mis en cache, un client ou fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la base de messages locale et ouvrez le magasin sur le serveur distant. Impossible d’ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mis en cache, vous devez soit fermer le magasin avant d’ouvrir avec cet indicateur ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d’informations Exchange sur le serveur distant à l’aide de cet indicateur.
+  - MDB\_en ligne : en Mode Exchange mis en cache, un client ou fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la base de messages locale et ouvrez le magasin sur le serveur distant. Impossible d’ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
       
   - MDB_TEMPORARY : Demande à MAPI que la banque de messages n’est pas définitive et ne doit pas être ajoutée à la table. Cet indicateur est utilisé pour vous connecter à la banque de messages afin que les informations peuvent être récupérées par programme dans la section de profil. 
       
@@ -76,7 +76,7 @@ _lppMDB_
   
 > [out] Pointeur vers un pointeur de la banque de messages.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -142,9 +142,9 @@ Si vous appelez **OpenMsgStore** pour ouvrir une banque de messages avec une aut
     
   - [IMAPIProp::CopyTo](imapiprop-copyto.md)
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -157,6 +157,6 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
 - [IMAPIProp::OpenProperty](imapiprop-openproperty.md)
 - [IMAPISession : IUnknown](imapisessioniunknown.md)
-- [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
-- [Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+- [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
+- [Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

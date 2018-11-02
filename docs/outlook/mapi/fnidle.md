@@ -21,7 +21,7 @@ ms.locfileid: "22575636"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une routine d’inactive le moteur inactif MAPI appelle régulièrement en fonction de la priorité. 
   
@@ -44,7 +44,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
   
 > [in] Pointeur vers un bloc de mémoire que MAPI passe à la routine inactive chaque fois qu’il l’appelle. Ce pointeur est passé au moteur MAPI inactif dans le paramètre _pvIdleParam_ par [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). Les données dans le bloc de mémoire peuvent fournir le contexte de l’appel de la routine d’inactivité, tels que les objets à utiliser, ou l’état actuel d’une longue opération.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 FALSE 
   

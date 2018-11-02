@@ -23,7 +23,7 @@ ms.locfileid: "22567901"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Reconstruit l’état actuel de développés ou réduit d’une table, voir l’aide de données qui a été enregistrées par un appel antérieur à la méthode [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) . 
   
@@ -54,7 +54,7 @@ BOOKMARK FAR * lpbkLocation
   
 > [out] Pointeur vers un signet qui identifie la ligne dans la table à laquelle l’état réduit ou développé doit être reconstruite. Ce signet et la clé d’instance passé dans le paramètre _lpbInstanceKey_ dans l’appel à [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifient la même ligne. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -80,7 +80,7 @@ La méthode **IMAPITable::SetCollapseState** rétablit l’état développé ou 
     
 Pour plus d’informations sur les tables, voir, consultez [tri et catégorisation](sorting-and-categorization.md). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Vous êtes responsable de vérifier que l’ordre de tri et les restrictions sont exactement les mêmes qu’elles étaient au moment de l’appel **GetCollapseState** . Si une modification a été apportée, **SetCollapseState** ne doit pas être appelée, car le résultat est imprévisible. Cela peut se produire si, par exemple, un client appelle **GetCollapseState** , puis **SortTable** pour modifier la clé de tri avant d’appeler **SetCollapseState**. Pour plus de sécurité, vérifiez que les données enregistrées sont toujours valides avant de procéder à la restauration. 
   

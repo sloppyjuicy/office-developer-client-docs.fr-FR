@@ -19,7 +19,7 @@ ms.locfileid: "22569007"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Un dossier de r�ception conserve les messages entrants d'une classe de message particulier. Recevoir le dossier associations peuvent �tre �tablies par les clients, par le fournisseur de banque de messages ou MAPI. MAPI a deux par d�faut � recevoir des dossiers : le dossier racine de la banque de messages et le dossier bo�te de r�ception de la sous-arborescence message interpersonnel (IPM). Le dossier racine de la banque de messages est le dossier pour tous les messages de communication interprocessus (IPC) de r�ception de la valeur par d�faut.
   

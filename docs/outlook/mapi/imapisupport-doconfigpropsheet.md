@@ -23,7 +23,7 @@ ms.locfileid: "22586395"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche une feuille de propriétés de configuration.
   
@@ -64,7 +64,7 @@ HRESULT DoConfigPropsheet(
   
 > [in] Index de base zéro à la page principale par défaut de la feuille de propriétés.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

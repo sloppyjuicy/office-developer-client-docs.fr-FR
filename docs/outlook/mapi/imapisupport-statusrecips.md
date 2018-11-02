@@ -23,7 +23,7 @@ ms.locfileid: "22563841"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Génère des rapports de remise et de non-remise.
   
@@ -44,7 +44,7 @@ LPADRLIST lpRecipList
   
 > [in] Un pointeur vers une structure [ADRLIST](adrlist.md) qui décrit les destinataires du message indiqué par _lpMessage_.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

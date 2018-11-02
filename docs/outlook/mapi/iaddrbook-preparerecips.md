@@ -23,7 +23,7 @@ ms.locfileid: "22563876"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Prépare une liste de destinataires pour une utilisation ultérieure par le système de messagerie. 
   
@@ -53,7 +53,7 @@ MAPI_CACHE_ONLY
   
 > [in] Pointeur vers une structure [ADRLIST](adrlist.md) qui contient la liste des destinataires. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: a94d1230f4f26d080976fd15768bdfeb6ea04748
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22576098"
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Votre fournisseur de magasin de message n’a pas besoin prendre en charge les pièces jointes des messages. Toutefois, de nombreuses applications clientes prévoient être en mesure d’ajouter des pièces jointes aux messages. Si votre banque de messages doit être utilisée pour créer ou stocker IPM. Remarque Les messages, puis vous devez prendre en charge des pièces jointes des messages. Fournisseurs de banque de message par défaut doivent prennent également en charge les pièces jointes des messages. Pour plus d’informations, consultez [Classes de Message MAPI](mapi-message-classes.md)et [Banques de Message par défaut](default-message-stores.md).
   

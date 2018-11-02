@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: b651a913855e99e2f26dfd99fb725cc332201932
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22565185"
 ---
 # <a name="opentnefstreamex"></a>OpenTnefStreamEx
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un objet de Transport-Neutral Encapsulation Format (TNEF) qui peut servir à coder ou décoder un objet de message dans un flux de données TNEF pour une utilisation par les transports ou des passerelles et des banques de messages. Il s’agit du point d’entrée pour l’accès TNEF. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |TNEF.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs de transport  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs de transport  <br/> |
    
 ```cpp
 HRESULT OpenTnefStreamEx(
@@ -101,7 +101,7 @@ _lppTNEF_
   
 > [out] Pointeur vers le nouvel objet TNEF.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -117,9 +117,9 @@ Un objet TNEF créé ultérieurement par la fonction **OpenTnefStreamEx** appell
   
 La valeur de base pour le paramètre _wKeyVal_ ne doit pas être zéro et ne doit pas être la même pour chaque appel à **OpenTnefStreamEx**. Au lieu de cela, utilisez des nombres aléatoires en fonction de l’heure système à partir du Générateur de nombres aléatoires de la bibliothèque d’exécution.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

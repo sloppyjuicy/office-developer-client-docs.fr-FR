@@ -23,7 +23,7 @@ ms.locfileid: "22575601"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une nouvelle entrée, qui peut être un utilisateur de messagerie, une liste de distribution ou un autre conteneur.
   
@@ -66,7 +66,7 @@ CREATE_REPLACE
   
 > [out] Pointeur vers un pointeur vers l’entrée nouvellement créée.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -76,7 +76,7 @@ S_OK
 
 La méthode **IABContainer::CreateEntry** crée une nouvelle entrée d’un type particulier dans le conteneur spécifié, qui retourne un pointeur vers une implémentation de l’interface pour l’accès à l’entrée. La nouvelle entrée est créée à l’aide d’un modèle qui a été sélectionné à partir de la liste du conteneur des modèles disponibles publié dans sa table unique. Les appelants accéder table uniques d’un conteneur en appelant la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) et demande la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Tous les conteneurs qui prennent en charge la méthode **IABContainer::CreateEntry** doivent être modifiables. Définir l’indicateur AB_MODIFIABLE de votre conteneur dans sa propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) pour indiquer qu’il est modifiable. 
   

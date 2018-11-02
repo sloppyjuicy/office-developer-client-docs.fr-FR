@@ -23,7 +23,7 @@ ms.locfileid: "22592142"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Modifie la table d’état en ajoutant une nouvelle ligne ou de modification d’une ligne existante.
   
@@ -53,7 +53,7 @@ STATUSROW_UPDATE
   
 > Indique à MAPI pour fusionner les propriétés incluses dans le tableau vers lequel pointe _lpColumnVals_ avec une ligne de tableau d’état existante, plutôt que dans une nouvelle ligne. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

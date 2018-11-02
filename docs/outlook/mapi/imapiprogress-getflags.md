@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9a5e4205a808c7a6e469d2e9cb0a1b3c17a92d21
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22573543"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 L’indicateur renvoie les paramètres de l’objet de l’avancement du niveau de l’opération sur lequel les informations d’avancement sont calculées.
   
@@ -43,7 +43,7 @@ MAPI_TOP_LEVEL
   
 > Progression est calculée pour l’objet de niveau supérieur, l’objet qui est appelée par le client doit commencer l’opération. Par exemple, l’objet de niveau supérieur dans une opération de copie du dossier est le dossier en cours de copie. Lorsque MAPI_TOP_LEVEL n’est pas défini, l’avancement est calculé pour un objet de niveau inférieur ou sous-objet. Dans l’opération de copie de dossier, un objet de niveau inférieur est un des sous-dossiers dans le dossier en cours de copie.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -55,7 +55,7 @@ MAPI permet aux prestataires de faire la distinction entre les objets de niveau 
   
 La valeur renvoyée par **GetFlags** est initialement définie par l’implémentation et par la suite par le fournisseur de services via un appel à la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) . 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Toujours initialiser l’indicateur MAPI_TOP_LEVEL, puis ils s’appuient sur les fournisseurs de services pour la désactiver le cas échéant. Fournisseurs de services peuvent supprimer et réinitialiser l’indicateur en appelant la méthode **IMAPIProgress::SetLimits** . Pour plus d’informations sur la façon d’implémenter **GetFlags** et les autres méthodes **IMAPIProgress** , consultez [l’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md).
   
@@ -63,9 +63,9 @@ Toujours initialiser l’indicateur MAPI_TOP_LEVEL, puis ils s’appuient sur le
 
 Lorsque vous affichez un indicateur de progression, appelez votre premier appel un **IMAPIProgress::GetFlags**. La valeur renvoyée doit être MAPI_TOP_LEVEL, car toutes les implémentations initialiser le contenu du paramètre _lpulFlags_ à cette valeur. Pour plus d’informations sur la séquence d’appels à un objet de l’avancement, voir [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -77,12 +77,12 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
+[Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md)
   
 [Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

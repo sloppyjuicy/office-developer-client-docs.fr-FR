@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 17b038fea2dd1614f94f005e32b9e6ba4423dbda
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22566263"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction de rappel appels MAPI pour envoyer une notification d’événement. Cette fonction de rappel peut être utilisée uniquement lorsqu’encapsulé dans un objet de récepteur advise créé en appelant la fonction [HrAllocAdviseSink](hrallocadvisesink.md) . 
   
@@ -55,7 +55,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
   
 > [out] Pointeur vers l’emplacement où cette fonction écrit un tableau de structures [NOTIFICATION](notification.md) qui contient les notifications d’événements. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 L’ensemble de valeurs de retour valides pour le prototype de fonction **NOTIFCALLBACK** dépend si la fonction est implémentée par une application cliente ou d’un fournisseur de services. Les clients doivent toujours retourner S_OK. Fournisseurs peuvent renvoyer S_OK ou CALLBACK_DISCONTINUE. 
   

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 88b6f220f812f419b3f881aaa7f70a22186b589e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22563799"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Retourne un pointeur vers la table de hiérarchie du conteneur.
   
@@ -60,7 +60,7 @@ SHOW_SOFT_DELETES
   
 > [out] Pointeur vers un pointeur vers la table de hiérarchie.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -84,7 +84,7 @@ Lorsque l’indicateur CONVENIENT_DEPTH est défini, chaque ligne dans la table 
   
 Pour une liste complète des colonnes obligatoires et facultatifs dans les tables de hiérarchie, voir les [Tables de hiérarchie](hierarchy-tables.md).
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si vous prenez en charge une table de hiérarchie de votre conteneur, vous devez également procédez comme suit :
   
@@ -98,9 +98,9 @@ Colonnes de tableau contenu chaîne et binaires peuvent être tronqués. En règ
   
 Selon l’implémentation du fournisseur, les restrictions et les opérations de tri peuvent appliquer à la chaîne entière ou à la version tronquée de cette chaîne. En outre, les fournisseurs de magasins ne sont pas nécessairement de respecter l’ensemble d’ordre de tri [que ssortorderset](ssortorderset.md) spécifiée pour les tables de hiérarchie. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

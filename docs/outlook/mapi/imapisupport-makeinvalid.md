@@ -23,7 +23,7 @@ ms.locfileid: "22570736"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Marque un objet comme étant inutilisable.
   
@@ -54,7 +54,7 @@ ULONG cMethods
   
 > [in] Le nombre des méthodes dans vtable de l’objet.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

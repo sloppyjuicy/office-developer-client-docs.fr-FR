@@ -19,7 +19,7 @@ ms.locfileid: "22564219"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Il est possible pour plusieurs applications clientes ouvrir un message donn� simultan�ment. Fournisseurs de banque de messages n'ont pas � suivre toutes les r�gles de gouvernance de ce type d'acc�s particuliers. Toutefois, si les applications clientes modifier le message et enregistrement leurs modifications, le fournisseur de magasins doit respecter les avec les r�gles suivantes :
   
@@ -35,5 +35,5 @@ Sinon, le fournisseur de banque de messages peut d�tecter le conflit et pr�s
 
 
 
-[L'impl�mentation des Messages dans les banques de messages](implementing-messages-in-message-stores.md)
+[Implémentation des messages dans les banques de messages](implementing-messages-in-message-stores.md)
 

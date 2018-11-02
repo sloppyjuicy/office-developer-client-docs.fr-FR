@@ -19,7 +19,7 @@ ms.locfileid: "22564086"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Les dossiers sont des objets MAPI qui servent � l'unit� d'organisation pour les messages de base. Structure hi�rarchique, les dossiers peuvent contenir des messages et autres dossiers. Dossiers rendent plus facile � trouver et travailler avec des messages.
   

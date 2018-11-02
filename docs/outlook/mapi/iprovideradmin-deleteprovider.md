@@ -23,7 +23,7 @@ ms.locfileid: "22590084"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime un fournisseur de services à partir du service de message.
   
@@ -39,7 +39,7 @@ HRESULT DeleteProvider(
   
 > [entrée, sortie] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique qui représente le fournisseur à supprimer. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

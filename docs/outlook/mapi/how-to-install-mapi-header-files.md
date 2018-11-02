@@ -1,5 +1,5 @@
 ---
-title: Installer les fichiers d’en-tête MAPI
+title: Installation des fichiers d’en-tête MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25399717"
 ---
-# <a name="install-mapi-header-files"></a>Installer les fichiers d’en-tête MAPI
+# <a name="install-mapi-header-files"></a>Installation des fichiers d’en-tête MAPI
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique décrit comment obtenir et installer les fichiers d’en-tête MAPI et les fichiers de la bibliothèque.
 
@@ -28,6 +28,6 @@ Pour obtenir la liste des fichiers d’en-tête MAPI, consultez [Les fichiers d�
 ## <a name="see-also"></a>Voir aussi
 
 - [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md) 
-- [Lien vers les fonctions MAPI](how-to-link-to-mapi-functions.md)
+- [Lien vers des fonctions MAPI](how-to-link-to-mapi-functions.md)
 - [Utilis�e couramment des fichiers d'en-t�te](commonly-used-header-files.md)
 

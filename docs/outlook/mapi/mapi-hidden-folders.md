@@ -19,7 +19,7 @@ ms.locfileid: "22589104"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Dossiers cach�s sont les dossiers g�n�riques clients cr�ent dans le dossier racine de la banque de messages, plut�t que dans le dossier racine d'une sous-arborescence message interpersonnel (IPM). �tant donn� que ces dossiers ne sont pas plac�s dans la sous-arborescence IPM, ils sont g�n�ralement masqu�s � partir de l'affichage de l'utilisateur par le fournisseur de banque de messages. Dossiers cach�s contient g�n�ralement des informations qui sont pertinentes pour la banque de messages, mais non pertinents pour l'utilisateur. Clients cr�er les dossiers cach�s pour stocker, par exemple, des informations suppl�mentaires � enregistrer avec le reste de la hi�rarchie de dossiers.
   

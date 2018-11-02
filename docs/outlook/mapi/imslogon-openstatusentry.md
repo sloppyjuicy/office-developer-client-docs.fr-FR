@@ -23,7 +23,7 @@ ms.locfileid: "22571198"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ouvre un objet d’état.
   
@@ -58,7 +58,7 @@ N'
   
 > [out] Pointeur vers le pointeur vers l’objet ouvert.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

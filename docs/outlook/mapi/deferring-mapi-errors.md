@@ -19,7 +19,7 @@ ms.locfileid: "22569861"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Quelques m�thodes d'interface acceptent l'indicateur MAPI_DEFERRED_ERRORS comme param�tre d'entr�e. Lorsque cet indicateur est d�fini, la m�thode n'a pas renvoy�e imm�diatement avec une valeur ; elle peut informer l'appelant le r�sultat de l'appel � un moment ult�rieur.
   

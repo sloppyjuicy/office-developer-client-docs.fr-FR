@@ -23,7 +23,7 @@ ms.locfileid: "22571758"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit un nouveau chemin d’accès de la recherche dans le profil qui est utilisé pour le processus de résolution de nom. 
   
@@ -44,7 +44,7 @@ HRESULT SetSearchPath(
   
 > [in] Pointeur vers la structure [SRowSet](srowset.md) utilisée pour contenir le chemin de recherche. La première propriété de chaque membre **: UGAL** dans **SRowSet** doit être **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

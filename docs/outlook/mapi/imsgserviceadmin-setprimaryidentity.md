@@ -23,7 +23,7 @@ ms.locfileid: "22564667"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Désigne un service de message pour être le fournisseur de l’identité principale pour le profil.
   
@@ -44,7 +44,7 @@ HRESULT SetPrimaryIdentity(
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

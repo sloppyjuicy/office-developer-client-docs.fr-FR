@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3fc72f008d1c2610de3c74762aabc6231dabbfbd
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22589055"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Met à jour l’indicateur de progression avec un affichage de la progression qu’elle est réalisée vers la fin de l’opération. 
   
@@ -49,13 +49,13 @@ HRESULT Progress(
   
 > [in] Nombre total d’éléments à être traités au cours de l’opération.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
 > L’indicateur de progression a été correctement mis à jour.
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Le paramètre _ulValue_ est égal à la valeur minimale globale uniquement au début de l’opération et à la valeur maximale globale uniquement à la fin de l’opération. 
   
@@ -69,11 +69,11 @@ Trois pas tous les paramètres **IMAPIProgress::Progress** sont requis. Le seul 
   
 Si vous copiez tous les messages dans un dossier unique, définissez _ulTotal_ et le nombre total de messages en cours de copie. Si vous copiez un dossier, définissez _ulTotal_ au nombre de sous-dossiers dans le dossier. Si le dossier à copier ne contient aucun uniquement les messages et les sous-dossiers, _ulTotal_ la valeur 1. 
   
-Pour plus d’informations sur la façon et le moment pour effectuer des appels à un objet de l’avancement, voir [Afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
+Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -85,12 +85,12 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 
 [IMAPIProgress::SetLimits](imapiprogress-setlimits.md)
   
-[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
+[IMAPIProgress : IUnknown](imapiprogressiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Afficher un indicateur de progression](how-to-display-a-progress-indicator.md)
+[Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md)
   
 [Implémentation d’un indicateur de progression](implementing-a-progress-indicator.md)
 

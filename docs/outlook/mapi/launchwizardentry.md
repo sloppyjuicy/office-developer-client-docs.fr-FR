@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: f2cc9a6f97fa51a255f8c24c2bb52c912aef7718
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22566249"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit une fonction qui démarre l’application Assistant profil en vue d’ajouter un ou plusieurs services de messagerie à un profil. 
   
@@ -85,7 +85,7 @@ MAPI_PW_PROVIDER_UI_ONLY
   
 > [out] Pointeur vers un tampon de chaîne dans laquelle la fonction **LAUNCHWIZARDENTRY** renvoie le nom du profil créé. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

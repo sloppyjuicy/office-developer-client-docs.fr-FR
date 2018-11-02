@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 7f7c243995c633389ab8fa80a26dddd152347276
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22565360"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriété.
   
@@ -58,7 +58,7 @@ MAPI_CREATE
   
 > [out] Pointeur vers un pointeur vers un tableau de balises de propriété qui contient les identificateurs de propriété existant ou nouvellement affecté. Les types de propriétés pour les balises de propriété dans ce tableau sont définis sur **PT_UNSPECIFIED**.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -96,7 +96,7 @@ S’il existe une erreur qui renvoie un identificateur pour un nom donné, **Get
   
 Mappage de nom à identificateur est représenté par la propriété **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) d’un objet. **PR_MAPPING_SIGNATURE** contient une structure [MAPIUID](mapiuid.md) qui indique le responsable de l’objet de fournisseur de services. Si la propriété **PR_MAPPING_SIGNATURE** est le même pour les deux objets, supposent que ces objets utilisent le même mappage à-identificateur de nom. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Les identificateurs que vous passez dans le tableau de balise de propriété indiqué par le paramètre _lppPropNames_ doivent être dans la plage 0 x 8000 à 0xFFFE. Les entrées de ce tableau doivent être dans le même ordre que les noms transmis dans le tableau de la propriété nom désignées par _lppPropNames_. 
   
@@ -112,9 +112,9 @@ Certains objets ont une limite pour le nombre d’identificateurs de propriété
   
 Pour plus d’informations, voir [Les propriétés MAPI nommée](mapi-named-properties.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
@@ -135,9 +135,9 @@ Pour des exemples de code MFCMAPI, voir le tableau suivant.
 [IMAPIProp : IUnknown](imapipropiunknown.md)
 
 
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
 [MAPI des propri�t�s nomm�e](mapi-named-properties.md)
   
-[Utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md)
+[Utilisation de Macros pour la gestion des erreurs](using-macros-for-error-handling.md)
 

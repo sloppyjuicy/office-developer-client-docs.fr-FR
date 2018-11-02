@@ -23,7 +23,7 @@ ms.locfileid: "22571688"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée une nouvelle structure [MAPIUID](mapiuid.md) pour être utilisé comme un identificateur unique. 
   
@@ -39,7 +39,7 @@ LPMAPIUID lpMuid
   
 > Pointeur vers la nouvelle structure **MAPIUID** . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

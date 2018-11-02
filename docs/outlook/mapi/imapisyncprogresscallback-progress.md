@@ -23,7 +23,7 @@ ms.locfileid: "22592128"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Met à jour l’état dans la boîte de dialogue d’envoi/réception. Le fournisseur de banque appelle régulièrement cette fonction.
   
@@ -49,7 +49,7 @@ HRESULT Progress(
   
 > L’index indiquant la progression complète.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

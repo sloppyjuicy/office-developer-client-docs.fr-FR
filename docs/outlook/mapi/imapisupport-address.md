@@ -23,7 +23,7 @@ ms.locfileid: "22586801"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche la boîte de dialogue adresses. 
   
@@ -49,7 +49,7 @@ HRESULT Address(
   
 > [entrée, sortie] Pointeur vers un pointeur vers une liste d’adresses. À l’entrée, cette liste est la liste actuelle des destinataires d’un message ou valeur NULL, si aucune liste de ce type n’existe. Dans la sortie, _lppAdrList_ pointe vers une liste mise à jour de destinataires du message. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -130,5 +130,5 @@ Si **l’adresse** doit renvoyer une plus grande structure **ADRLIST** , ou si v
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[Gestion de la mémoire pour les structures ADRLIST et SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
+[Gestion de la mémoire ADRLIST des Structures SRowSet](managing-memory-for-adrlist-and-srowset-structures.md)
 

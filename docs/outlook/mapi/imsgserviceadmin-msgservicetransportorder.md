@@ -23,7 +23,7 @@ ms.locfileid: "22570792"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit l’ordre dans les transports fournisseurs sont appelées pour remettre un message.
   
@@ -49,7 +49,7 @@ HRESULT MsgServiceTransportOrder(
   
 > [in] R�serv� ; doit �tre �gal � z�ro.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

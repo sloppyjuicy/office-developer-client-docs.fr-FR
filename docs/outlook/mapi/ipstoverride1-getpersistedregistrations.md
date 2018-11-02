@@ -23,7 +23,7 @@ ms.locfileid: "22575867"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère la liste des enregistrements pour le fichier de dossiers personnels (.pst).
   
@@ -40,7 +40,7 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 > [!NOTE]
 > prise en charge .pst ANSI n’est pas implémenté. 
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

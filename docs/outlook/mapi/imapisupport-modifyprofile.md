@@ -23,7 +23,7 @@ ms.locfileid: "22591988"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Modifie un message stocker la section profil définitive.
   
@@ -43,7 +43,7 @@ MDB_TEMPORARY
   
 > La banque de messages est temporaire et ne doit pas être ajoutée à la table. Lorsque la valeur MDB_TEMPORARY, **ModifyProfile** renvoie S_OK immédiatement. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

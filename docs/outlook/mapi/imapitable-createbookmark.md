@@ -23,7 +23,7 @@ ms.locfileid: "22563848"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un signet à la position actuelle de la table.
   
@@ -39,7 +39,7 @@ BOOKMARK FAR * lpbkPosition
   
 > [out] Pointeur vers la valeur renvoyée signet 32 bits. Ce signet peut ensuite être passé dans un appel à la méthode [IMAPITable::SeekRow](imapitable-seekrow.md) . 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -55,7 +55,7 @@ La méthode **IMAPITable::CreateBookmark** marque une position de la table en cr
   
 Les signets ne sont pas pris en charge sur les tables des pièces jointes et les implémentations de tableau de pièce jointe de **CreateBookmark** retourner MAPI_E_NO_SUPPORT. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 En raison de la note de frais mémoire de maintenance de positions de curseur avec les signets, limiter le nombre de signets que vous pouvez créer. Lorsque ce nombre est atteint, renvoyer MAPI_E_UNABLE_TO_COMPLETE à partir de tous les appels suivants à **CreateBookmark**.
   

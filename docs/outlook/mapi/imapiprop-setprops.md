@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 93bfcce9c45a4c6fd4d57be8c1222be286e0a945
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22592030"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Met à jour une ou plusieurs propriétés.
   
@@ -49,7 +49,7 @@ HRESULT SetProps(
   
 > [entrée, sortie] À l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, NULL, indiquant ainsi pas besoin d’informations sur l’erreur. Si _lppProblems_ est un pointeur valid en entrée, **SetProps** renvoie des informations détaillées sur les erreurs dans une ou plusieurs propriétés de mise à jour. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -81,7 +81,7 @@ MAPI_E_UNEXPECTED_TYPE
   
 > Le type de propriété n’est pas le type attendu par l’implémentation d’appel.
     
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Ignorer la balise de propriété **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) et toutes les propriétés de type **PT_ERROR**. N’apportez les modifications ou signaler les problèmes dans la structure **SPropProblemArray** . 
   
@@ -103,9 +103,9 @@ Lors de la mise à jour des propriétés de grande taille, **SetProps** peut éc
   
 Appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer de la structure **SPropProblemArray** . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

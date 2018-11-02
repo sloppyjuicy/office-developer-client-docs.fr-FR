@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 56e663ced33da933b4276911b609f2fae1c5d78e
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -21,15 +21,15 @@ ms.locfileid: "22563963"
 ---
 # <a name="openimsgonistg"></a>OpenIMsgOnIStg
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée un nouvel objet [IMessage](imessageimapiprop.md) par-dessus un objet OLE **IStorage** existant, à l’intérieur d’une session de messagerie. 
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
    
 ```cpp
 SCODE OpenIMsgOnIStg(
@@ -104,7 +104,7 @@ _lppMsg_
   
 > [out] Pointeur vers un pointeur vers l’objet **IMessage** ouvert. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -134,9 +134,9 @@ MAPI ne définit pas le comportement de plusieurs opérations d’ouverture exé
   
 La procédure correcte pour placer un message dans une pièce jointe est d’appeler la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec un identificateur d’interface de IID_IMessage. **OpenProperty** actuellement prend également en charge la création de pièces jointes des messages disponibles directement sur l’interface OLE **IStorage** , autrement dit, à l’aide de l’identificateur d’interface IID_IStorage. **IStorage** access est pris en charge pour autoriser un moyen facile placer un document Microsoft Word en pièce jointe sans le convertir vers ou à partir de l’interface OLE **IStream** . Toutefois, **IMessage** peut se comporter prévisible si **OpenIMsgOnIStg** est passé un pointeur **IStorage** pour les données de pièce jointe et les objets sont distribuées dans le bon ordre. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

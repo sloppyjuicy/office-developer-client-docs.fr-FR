@@ -19,7 +19,7 @@ ms.locfileid: "22568489"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Acc�s d�l�gu� fait r�f�rence � la capacit� de l'utilisateur pour envoyer un message sous la forme d'un autre utilisateur ou de recevoir un message pour un autre utilisateur. Acc�s d�l�gu� est une fonctionnalit� d'ind�pendant du fournisseur de service de MAPI prises en charge par les fournisseurs de transport s'ils le souhaitent. Toutefois, aucun fournisseur n'est requis pour effectuer cette op�ration. Acc�s d�l�gu� est utile lorsqu'il est n�cessaire pour un utilisateur d'envoyer des messages en tant qu'ou filtrer les messages entrants pour un autre utilisateur ou lorsqu'un utilisateur doit acc�der banque de messages d'un autre utilisateur. Avant d'autoriser un utilisateur d�l�gu� pour se connecter au magasin d'un autre utilisateur, le fournisseur de banque de messages doit v�rifier que l'utilisateur d�l�gu� dispose de l'autorit� appropri�e. 
   

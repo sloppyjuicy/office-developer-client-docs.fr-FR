@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 5417853dbb1fa87d2beead2f73ca57329e17b044
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22571121"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Renvoie les balises de propriété pour toutes les propriétés. 
   
@@ -48,7 +48,7 @@ MAPI_UNICODE
   
 > [out] Pointeur vers un pointeur vers le tableau de balise de propriété qui contient des balises pour toutes les propriétés de l’objet.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -66,7 +66,7 @@ La portée des propriétés retournées par **GetPropList** varie d’un fournis
   
 Si l’objet ne prend pas en charge Unicode, **GetPropList** renvoie MAPI_E_BAD_CHARWIDTH, même si aucune propriété de chaîne définis pour l’objet. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Fournisseurs de transport à distance implémentent **GetPropList** exactement comme indiqué ici. Il n’existe aucune problèmes spéciaux. Votre implémentation doit retourner bien sûr, la même liste des propriétés de prise en charge par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . 
   
@@ -74,9 +74,9 @@ Fournisseurs de transport à distance implémentent **GetPropList** exactement c
 
 Appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de balise de propriété désigné par _lppPropTagArray_. 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

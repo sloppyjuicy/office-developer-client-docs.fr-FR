@@ -19,7 +19,7 @@ ms.locfileid: "22592926"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournisseurs de magasins de message sont requis pour implémenter une interface qui permet à l’utilisateur de configurer le fournisseur de banque de messages à exécuter sur l’ordinateur de l’utilisateur. En règle générale, le fournisseur de banque de messages est configuré lorsque le fournisseur de banque de message est ajouté à un profil utilisateur. Interface de configuration du fournisseur de banque de messages gère généralement les tâches telles que la définition des noms d’utilisateur et mots de passe pour les magasins de message protégé, choix des chemins d’accès aux fichiers nécessaires, et création de mécanisme de stockage sous-jacent qu’il utilise, si nécessaire.
   

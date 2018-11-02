@@ -23,7 +23,7 @@ ms.locfileid: "22566550"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Permet la déconnexion ordonnée de la banque de messages.
   
@@ -73,7 +73,7 @@ LOGOFF_OUTBOUND_QUEUE
   
 > Les messages sortants sont en attente (autrement dit, ils sont dans la boîte d’envoi).
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -83,7 +83,7 @@ S_OK
 
 La méthode **IMsgStore::StoreLogoff** exerce de contrôle sur l’interaction du message stocker et fournisseurs de transport au cours du processus de fermeture de session. L’appel **StoreLogoff** est valide uniquement pour les banques de messages qui sont utilisés uniquement par l’appelant. Par exemple, lorsque deux clients utilisent le même magasin de message et un d'entre eux appelle **StoreLogoff**, la banque de messages est immédiatement publiée et le contrôle est retourné au client appelant.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Enregistrez les indicateurs qui sont passés à **StoreLogoff** et transmettez-les lorsque vous appelez la méthode [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) . N’appelez pas **StoreLogoffTransports** jusqu'à ce que le décompte de références de la banque de messages tombe à zéro. Plusieurs appels à **StoreLogoffTransports** remplacent simplement les indicateurs enregistrés. 
   

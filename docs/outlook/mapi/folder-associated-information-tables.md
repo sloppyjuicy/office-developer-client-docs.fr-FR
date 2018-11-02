@@ -19,7 +19,7 @@ ms.locfileid: "22564646"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI définit l’indicateur MAPI_ASSOCIATED pour divers composants MAPI à utiliser lorsque vous travaillez avec des tables des informations associées. Chaque dossier dans une banque de messages doit avoir une table de contenu associé avec sa table de contenu standard. Applications clientes stockent des messages spéciaux dans le tableau de contenu associé d’un dossier pour contenir les formulaires et les vues. En fait, pour prendre en charge les formulaires et les vues, votre fournisseur de magasin de message doit implémenter les tables de contenu associée.
   

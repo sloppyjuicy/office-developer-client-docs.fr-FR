@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a599a6fe5093e52e50d33a1761df5689b7335138
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22568293"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 RECONFIGURE un service de message.
   
@@ -75,7 +75,7 @@ SERVICE_UI_ALWAYS
   
 > [in] Pointeur vers un tableau de valeurs de propriété qui décrivent les propriétés à afficher dans la feuille des propriétés. Le paramètre _lpProps_ ne doit pas être NULL si le service de message doit être configuré sans interface utilisateur. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -111,9 +111,9 @@ Vous pouvez configurer un service de message sans afficher une feuille de propri
   
 Si vous recevez tout ou partie des informations de configuration de l’utilisateur par une feuille de propriétés, définissez SERVICE_UI_ALLOWED dans _ulFlags_. Si vous utilisez les informations de propriété existantes uniquement établir des paramètres par défaut et l’utilisateur est en mesure de modifier les paramètres, définissez SERVICE_UI_ALWAYS dans _ulFlags_.
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

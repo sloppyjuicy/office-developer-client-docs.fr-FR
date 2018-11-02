@@ -19,7 +19,7 @@ ms.locfileid: "22587312"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Clés d’enregistrement et clés de recherche sont les identificateurs binaires qui sont affectés à de nombreux objets MAPI. À la différence d’identificateur d’entrée d’un objet, sa clé d’enregistrement ou de la recherche est directement comparables ainsi transmissible. 
   

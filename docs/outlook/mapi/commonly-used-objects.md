@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: 72911e58a0295c0f6c61c877882e4e1731e2d552
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "22567726"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Informations sur les objets sont documentées dans différentes sections de la référence de MAPI Microsoft Outlook 2013. Étant donné que presque tous les objets MAPI exposent une seule interface MAPI, l’approche consiste à traite les objets et les interfaces exposées comme des synonymes.
   
@@ -57,11 +57,11 @@ Vous trouverez plus d’informations sur les objets et interfaces dans les secti
     
   - Destinataires
     
-  - Objets d’état
+  - Objets de statut
     
   - Objets de service de profil et le message
     
-- [Développement d’une application cliente MAPI](developing-a-mapi-client-application.md)
+- [Développement d’une Application de Client MAPI](developing-a-mapi-client-application.md)
     
     Décrit comment utiliser des objets pour implémenter une application cliente MAPI.
     
@@ -73,15 +73,15 @@ Vous trouverez plus d’informations sur les objets et interfaces dans les secti
     
     Décrit comment implémenter les objets d’ouverture de session et le fournisseur du livre adresse, adresse de conteneurs de livre, messagerie des utilisateurs, des listes de distribution et les tables liées.
     
-- [Développement d’un fournisseur de transport MAPI](developing-a-mapi-transport-provider.md)
+- [Développement d’un fournisseur de Transport MAPI](developing-a-mapi-transport-provider.md)
     
     Décrit comment implémenter l’ouverture de session de transport et objets du fournisseur, objet status, objet Neutral Encapsulation Format TNEF (Transport) et dossiers.
     
-- [D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+- [Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
     
     Décrit comment implémenter les objets d’ouverture de session et le fournisseur de banque de messages, banques de messages, dossiers, messages, pièces jointes, destinataires et les tables liées.
     
-- [Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
+- [Développez serveurs de formulaire MAPI](developing-mapi-form-servers.md)
     
     Décrit comment implémenter des objets de formulaire.
     

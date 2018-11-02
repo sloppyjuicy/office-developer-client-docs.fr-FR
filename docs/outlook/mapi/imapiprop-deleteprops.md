@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: a0d86b9b0342beea6b33db0219cb5889d2e63f03
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22592072"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime une ou plusieurs propriétés d’un objet. 
   
@@ -44,7 +44,7 @@ HRESULT DeleteProps(
   
 > [entrée, sortie] À l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, la valeur NULL, ce qui indique qu’il n’est pas nécessaire pour les informations d’erreur. Si _lppProblems_ est un pointeur valid en entrée, **DeleteProps** renvoie des informations détaillées sur les erreurs lors de la suppression d’une ou plusieurs propriétés. 
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -58,7 +58,7 @@ MAPI_E_NO_ACCESS
 
 La méthode **IMAPIProp::DeleteProps** supprime une ou plusieurs propriétés de l’objet actif. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Il est inutile que les propriétés doivent être supprimés de tous les objets. Si l’objet n’est pas modifiable, renvoyer MAPI_E_NO_ACCESS à partir de la méthode **DeleteProps** . 
   
@@ -72,9 +72,9 @@ La structure vers laquelle pointée _lppProblems_ est valide uniquement si **Del
   
 Libérez de la structure **SPropProblemArray** retournée en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|

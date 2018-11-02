@@ -23,7 +23,7 @@ ms.locfileid: "22568573"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Récupère un flux de données à utiliser pour l’enregistrement du message en cours.
   
@@ -61,7 +61,7 @@ SAVE_FORMAT_TEXT
   
 > [out] Pointeur vers un pointeur vers le flux qui contiendra le message enregistré.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   

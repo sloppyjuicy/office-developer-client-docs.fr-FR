@@ -23,7 +23,7 @@ ms.locfileid: "22566704"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Affiche une feuille de propriétés qui permet à l’utilisateur de modifier la configuration d’un fournisseur de services que cette méthode n’est pas pris en charge dans les objets état implémentés par MAPI.
   
@@ -48,7 +48,7 @@ UI_READONLY
   
 > Indique que le fournisseur ne doit pas activer aux utilisateurs de modifier les propriétés de configuration. Cet indicateur n’est qu’une suggestion ; Il peut être ignoré.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -62,7 +62,7 @@ MAPI_E_NO_SUPPORT
 
 La méthode **IMAPIStatus::SettingsDialog** affiche une feuille de propriétés de configuration. Tous les fournisseurs de services doivent prendre en charge la méthode **dialogue** , mais il n’est pas nécessaire. Fournisseurs de service peuvent implémenter leurs propres feuilles de propriétés ou utilisez l’implémentation fournie dans la méthode [IMAPISupport::DoConfigPropsheet](imapisupport-doconfigpropsheet.md) de l’objet de la prise en charge. **DoConfigPropsheet** génère une feuille de propriétés en lecture-écriture. 
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Si un fournisseur de transport à distance possède des paramètres, il doit procédez comme suit :
   

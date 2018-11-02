@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: Dernière modification le 09 mars 2015
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 93fb82c6274a1703376d7a9e15f37088e132dc23
 ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "22585891"
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Définit les critères de recherche pour le conteneur.
   
@@ -77,7 +77,7 @@ STOP_SEARCH
   
 > La recherche doit être arrêtée. Cet indicateur ne peut pas être défini en même temps que l’indicateur RESTART_SEARCH.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -95,7 +95,7 @@ Une opération de recherche fonctionne uniquement sur ce tableau contenu fusionn
   
 Contrôle est renvoyé au client lors de la recherche est terminée.
   
-## <a name="notes-to-implementers"></a>Remarques destinées aux responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
 
 Conteneurs de carnet d’adresses établissent des critères de recherche en appliquant des restrictions à leurs tables de contenu. Pour plus d’informations sur les critères de recherche et les conteneurs de carnet d’adresses, voir [Implémentation de la recherche avancée](implementing-advanced-searching.md).
   
@@ -115,9 +115,9 @@ Lorsque vous êtes à l’aide d’un dossier de résultats de recherche, vous p
   
 Pour plus d’informations sur les dossiers des résultats de recherche, voir [Dossiers de recherche MAPI](mapi-search-folders.md). 
   
-## <a name="mfcmapi-reference"></a>Référence MFCMAPI
+## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
-Pour des exemples de code MFCMAPI, voir le tableau suivant.
+Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
