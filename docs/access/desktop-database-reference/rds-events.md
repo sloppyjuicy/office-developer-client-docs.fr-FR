@@ -1,22 +1,23 @@
 ---
 title: Événements RDS (référence de base de données du bureau Access)
-TOCTitle: RDS Events
+TOCTitle: RDS events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)
 ms:contentKeyID: 48547803
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b157c47756dac48c7c42ee4e654ef0d46cfb54cd
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 5f8236635f557c3de1e512c08b9b439a028c60d6
+ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872220"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25910691"
 ---
-# <a name="rds-events"></a><span data-ttu-id="86baf-102">Événements RDS</span><span class="sxs-lookup"><span data-stu-id="86baf-102">RDS Events</span></span>
+# <a name="rds-events"></a><span data-ttu-id="b99f6-102">Événements RDS</span><span class="sxs-lookup"><span data-stu-id="b99f6-102">RDS events</span></span>
 
+<span data-ttu-id="b99f6-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b99f6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="86baf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86baf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<br/>
 
 <table>
 <colgroup>
@@ -24,14 +25,19 @@ ms.locfileid: "25872220"
 <col style="width: 50%" />
 </colgroup>
 <tbody>
+<tr class="even">
+<th><span data-ttu-id="b99f6-104">Événement</span><span class="sxs-lookup"><span data-stu-id="b99f6-104">Event</span></span></th>
+<th><span data-ttu-id="b99f6-105">Description</span><span class="sxs-lookup"><span data-stu-id="b99f6-105">Description</span></span></th>
+</tr>
 <tr class="odd">
-<td><p><span data-ttu-id="86baf-104"><a href="onerror-event-rds.md">onError (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="86baf-104"><a href="onerror-event-rds.md">onError (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="86baf-105">Appelé lorsqu'une erreur se produit au cours d'une opération.</span><span class="sxs-lookup"><span data-stu-id="86baf-105">Called whenever an error occurs during an operation.</span></span></p></td>
+<td><p><span data-ttu-id="b99f6-106"><a href="onerror-event-rds.md">onError</a></span><span class="sxs-lookup"><span data-stu-id="b99f6-106"><a href="onerror-event-rds.md">onError</a></span></span></p></td>
+<td><p><span data-ttu-id="b99f6-107">Appelé lorsqu'une erreur se produit au cours d'une opération.</span><span class="sxs-lookup"><span data-stu-id="b99f6-107">Called whenever an error occurs during an operation.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="86baf-106"><a href="onreadystatechange-event-rds.md">onReadyStateChange (RDS)</a></span><span class="sxs-lookup"><span data-stu-id="86baf-106"><a href="onreadystatechange-event-rds.md">onReadyStateChange (RDS)</a></span></span></p></td>
-<td><p><span data-ttu-id="86baf-107">Appelé lorsque la valeur de la propriété <strong>ReadyState</strong> change.</span><span class="sxs-lookup"><span data-stu-id="86baf-107">Called whenever the value of the <strong>ReadyState</strong> property changes.</span></span></p></td>
+<td><p><span data-ttu-id="b99f6-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span><span class="sxs-lookup"><span data-stu-id="b99f6-108"><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></span></span></p></td>
+<td><p><span data-ttu-id="b99f6-109">Appelé lorsque la valeur de la propriété <strong>ReadyState</strong> change.</span><span class="sxs-lookup"><span data-stu-id="b99f6-109">Called whenever the value of the <strong>ReadyState</strong> property changes.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
