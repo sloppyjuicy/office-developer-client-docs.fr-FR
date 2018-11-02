@@ -1,19 +1,19 @@
 ---
-title: ModifierEnregistrement, bloc de données
-TOCTitle: EditRecord Data Block
+title: Bloc de données ModifierEnregistrement
+TOCTitle: EditRecord data block
 ms:assetid: fe9f55eb-d7ed-1914-65a9-fa2fcb332b98
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9c4d5a5a1565aeda41e5a52127e9f82b5304e686
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c2b3499d7b2a779739dc965e6f0ca35ebab369ea
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876882"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25930881"
 ---
-# <a name="editrecord-data-block"></a>ModifierEnregistrement, bloc de données
+# <a name="editrecord-data-block"></a>Bloc de données ModifierEnregistrement
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -56,22 +56,22 @@ Après l'instruction **ModifierEnregistrement**, vous pouvez insérer un bloc de
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">Action de Macro AnnulerModificationEnregistrement</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">CancelRecordChange, action de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Instruction de Macro commentaire</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Group, instruction de Macro</a></p></td>
+<td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Else, instruction de Macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Else, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">Action de Macro SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">Action de Macro DéfinirVarLocale</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">SetLocalVar, action de macro</a></p></td>
 </tr>
 </tbody>
 </table>

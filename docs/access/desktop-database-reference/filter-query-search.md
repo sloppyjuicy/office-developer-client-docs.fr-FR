@@ -6,39 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124363(v=office.15)
 ms:contentKeyID: 52071997
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb8a84b46ab33ff5a8931f1cd149ece6e25fc616
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f41de73248c4bc2fc5d4cdc84931ef2c155278dc
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883007"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926982"
 ---
 # <a name="filterquerysearch"></a>Filter/Query/Search
 
-
 **S’applique à**: Access 2013, Office 2013
 
+- [ApplyFilter, action de macro](applyfilter-macro-action.md)
+- [FindNextRecord, action de macro](findnextrecord-macro-action.md)
+- [FindRecord, action de macro](findrecord-macro-action.md)
+- [OpenQuery, action de macro](openquery-macro-action.md)
+- [RefreshRecord, action de macro](refreshrecord-macro-action.md)
+- [Requery, action de macro](requery-macro-action.md)
+- [RunSQL, action de macro](runsql-macro-action.md)
+- [SearchForRecord, action de macro](searchforrecord-macro-action.md)
+- [SetFilter, action de macro](setfilter-macro-action.md)
+- [SetOrderBy, action de macro](setorderby-macro-action.md)
+- [ShowAllRecords, action de macro](showallrecords-macro-action.md)
 
-
-  - [Action de Macro AppliquerFiltre](applyfilter-macro-action.md)
-
-  - [Action de Macro Rechercherenregistrementsuivant](findnextrecord-macro-action.md)
-
-  - [Action de Macro TrouverEnregistrement](findrecord-macro-action.md)
-
-  - [Action de Macro OuvrirRequête](openquery-macro-action.md)
-
-  - [Action de Macro Actualiserenregistrement](refreshrecord-macro-action.md)
-
-  - [Actualiser l’Action de Macro](requery-macro-action.md)
-
-  - [Action de Macro ExécuterSQL](runsql-macro-action.md)
-
-  - [Action de Macro RechercherEnregistrement](searchforrecord-macro-action.md)
-
-  - [Action de Macro AppliquerFiltre](setfilter-macro-action.md)
-
-  - [Action de Macro SetOrderBy](setorderby-macro-action.md)
-
-  - [Action de Macro ShowAllRecords](showallrecords-macro-action.md)
 

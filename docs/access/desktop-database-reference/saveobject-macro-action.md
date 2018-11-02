@@ -1,6 +1,6 @@
 ---
-title: EnregistrerObjet, action de macro
-TOCTitle: SaveObject Macro Action
+title: SaveObject, action de macro
+TOCTitle: SaveObject macro action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196789(v=office.15)
 ms:contentKeyID: 48546060
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f5cbb47c8c4b1ecc4990ca53835f8ae9f7ed4d1b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 77fc87ac989d34f5a4e774555c54955cf0bd805e
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886570"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931350"
 ---
-# <a name="saveobject-macro-action"></a>EnregistrerObjet, action de macro
+# <a name="saveobject-macro-action"></a>SaveObject, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

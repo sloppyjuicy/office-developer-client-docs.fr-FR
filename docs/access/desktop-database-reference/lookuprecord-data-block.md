@@ -1,19 +1,19 @@
 ---
-title: RechercherEnregistrement, bloc de données
-TOCTitle: LookupRecord Data Block
+title: Bloc de données RechercherEnregistrement
+TOCTitle: LookupRecord data block
 ms:assetid: 750dc8ca-3bab-c3d1-c91d-2196f9c0604d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bd9a687d7f74b99dc20ee079f970c37ba627f31
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877687"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928592"
 ---
-# <a name="lookuprecord-data-block"></a>RechercherEnregistrement, bloc de données
+# <a name="lookuprecord-data-block"></a>Bloc de données RechercherEnregistrement
 
 **S’applique à**: Access 2013, Office 2013
 

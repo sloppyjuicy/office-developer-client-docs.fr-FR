@@ -1,19 +1,19 @@
 ---
-title: CopierFichierBaseDeDonnées, action de macro
-TOCTitle: CopyDatabaseFile Macro Action
+title: CopyDatabaseFile, action de macro
+TOCTitle: CopyDatabaseFile macro action
 ms:assetid: e6320b55-946b-9efc-9b64-b86513801a37
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74441e4a13e2cbe6b812b18b2c4ecab1a66dceaf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0f2034bb4d8d1fbf3f1a0a37bf6adc7c8b8001bb
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882769"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25925204"
 ---
-# <a name="copydatabasefile-macro-action"></a>CopierFichierBaseDeDonnées, action de macro
+# <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

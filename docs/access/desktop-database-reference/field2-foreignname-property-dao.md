@@ -1,5 +1,5 @@
 ---
-title: Field2.ForeignName Property (DAO)
+title: Propriété Field2.ForeignName (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196027(v=office.15)
@@ -10,14 +10,14 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eff81bf8d2e7f7f040611ffc1aafdedff1e35ddf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f95839ac7b8832e22f69b31914f42de4f4adad06
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874047"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25929235"
 ---
-# <a name="field2foreignname-property-dao"></a>Field2.ForeignName Property (DAO)
+# <a name="field2foreignname-property-dao"></a>Propriété Field2.ForeignName (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013

@@ -1,6 +1,6 @@
 ---
-title: ExécuterMacroDonnées, action de macro
-TOCTitle: RunDataMacro Macro Action
+title: RunDataMacro, action de macro
+TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837269(v=office.15)
 ms:contentKeyID: 48548933
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6777ae05d2ab7455016df834d17abb3406a2d710
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c1d540b909a2ac5741719470f5632e34205806ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889923"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927983"
 ---
-# <a name="rundatamacro-macro-action"></a>ExécuterMacroDonnées, action de macro
+# <a name="rundatamacro-macro-action"></a>RunDataMacro, action de macro
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -49,7 +49,7 @@ L'action **ExécuterMacroDonnées** utilise l'argument suivant.
 
 ## <a name="remarks"></a>Notes
 
-Vous pouvez utiliser l'action **ExécuterMacroDonnées** dans des macros, des macros de données nommées et les événements de macros suivants : **[Événement de macro Après suppression](after-delete-macro-event.md)**, **[Événement de macro Après insertion](after-insert-macro-event.md)** et **[Événement de macro Après MAJ](after-update-macro-event.md)**.
+Vous pouvez utiliser l’action **ExécuterMacroDonnées** dans les macros, nommé macros de données et les événements de macros suivants : **[événement de macro après suppression](after-delete-macro-event.md)**, **[événement de macro après insertion](after-insert-macro-event.md)** et **[événement de macro après la mise à jour](after-update-macro-event.md)**.
 
 Le nom de la macro de données doit inclure la table à laquelle elle est attachée (par exemple **Comments.AddComment**, pas seulement **AddComment**).
 

@@ -1,19 +1,19 @@
 ---
-title: Recordset2 Members (DAO)
+title: Membres de l’objet Recordset2 (DAO)
 TOCTitle: Recordset2 Members
 ms:assetid: 6ef57191-9da4-7904-d55c-60b59b895a50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3281e0fb94e8b332ee165f5c8d1000bd0fc7ef9b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c68379b5672246f738bdecdb1e3a3bb32df2f1c4
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878422"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25921669"
 ---
-# <a name="recordset2-members-dao"></a>Recordset2 Members (DAO)
+# <a name="recordset2-members-dao"></a>Membres de l’objet Recordset2 (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013

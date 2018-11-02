@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8fa642eb5351129f1763a5b3f24424ae95df073f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873928"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928767"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Méthode TableDef.CreateField (DAO)
 

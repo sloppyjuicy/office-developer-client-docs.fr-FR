@@ -1,6 +1,6 @@
 ---
-title: ExécuterImportationExportationSauvegardée, action de macro
-TOCTitle: RunSavedImportExport Macro Action
+title: RunSavedImportExport, action de macro
+TOCTitle: RunSavedImportExport macro action
 ms:assetid: b2449c51-ee20-6e50-87f3-a45adc0b0dde
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822018(v=office.15)
 ms:contentKeyID: 48547165
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 48e808fa27e468dd7cb651cb5784627d5064fea0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 70fda733ae05a94af856a76fba231e6a1da001d1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870932"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928228"
 ---
-# <a name="runsavedimportexport-macro-action"></a>ExécuterImportationExportationSauvegardée, action de macro
+# <a name="runsavedimportexport-macro-action"></a>RunSavedImportExport, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

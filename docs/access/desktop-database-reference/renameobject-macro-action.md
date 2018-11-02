@@ -1,6 +1,6 @@
 ---
-title: RenommerObjet, action de macro
-TOCTitle: RenameObject Macro Action
+title: RenameObject, action de macro
+TOCTitle: RenameObject macro action
 ms:assetid: fee04eb0-23c0-5d57-b903-e1ae54f2d25e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837293(v=office.15)
 ms:contentKeyID: 48548948
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0590b586e2640df629cfeacbb28caca6f87ccb34
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 88009020fb320c823f9ca4c1688a0f2bfdecbd44
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878912"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25931007"
 ---
-# <a name="renameobject-macro-action"></a>RenommerObjet, action de macro
+# <a name="renameobject-macro-action"></a>RenameObject, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013

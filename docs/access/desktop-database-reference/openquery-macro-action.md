@@ -1,6 +1,6 @@
 ---
-title: OuvrirRequête, action de macro
-TOCTitle: OpenQuery Macro Action
+title: OpenQuery, action de macro
+TOCTitle: OpenQuery macro action
 ms:assetid: 64bfce73-aeaf-9a78-895c-492e5da43ded
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195094(v=office.15)
 ms:contentKeyID: 48545298
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 3a718355f8305c7182ba2bc1196e0099205f6da1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1e5e031b0dc89626a40934cb42f8f54a0eb8d057
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880270"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25928109"
 ---
-# <a name="openquery-macro-action"></a>OuvrirRequête, action de macro
+# <a name="openquery-macro-action"></a>OpenQuery, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013
