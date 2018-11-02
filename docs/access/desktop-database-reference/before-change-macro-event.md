@@ -1,6 +1,6 @@
 ---
-title: Avant la modification, événement de macro
-TOCTitle: Before Change Macro Event
+title: Before Change, événement de macro
+TOCTitle: Before Change macro event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835322(v=office.15)
 ms:contentKeyID: 48548077
@@ -12,14 +12,14 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 09188378ff75944f6dc8acccc64b621ea2bca1f6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fb513c83e3956a37da019d762c5fd1e0c92da755
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887858"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926562"
 ---
-# <a name="before-change-macro-event"></a>Avant la modification, événement de macro
+# <a name="before-change-macro-event"></a>Before Change, événement de macro
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -90,43 +90,43 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <tbody>
 <tr class="odd">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="comment-macro-statement.md">Instruction de Macro commentaire</a></p></td>
+<td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="group-macro-statement.md">Group, instruction de Macro</a></p></td>
+<td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Déroulement de programme</p></td>
-<td><p><a href="if-then-else-macro-block.md">If... Procédez comme suit... Autre bloc de Macro</a></p></td>
+<td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Bloc de données</p></td>
-<td><p><a href="lookuprecord-data-block.md">Action de Macro RechercherEnregistrement</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Action de macro RechercherEnregistrement</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Action de Macro EffacerMacroErreur</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">ClearMacroError, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
-<td><p><a href="onerror-macro-action.md">Action de Macro SurErreur</a></p></td>
+<td><p><a href="onerror-macro-action.md">OnError, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="raiseerror-macro-action.md">Action de Macro Déclenchererreur</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">RaiseError, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
-<td><p><a href="setfield-macro-action.md">Action de Macro SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">SetField, action de macro</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Action de données</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Action de Macro DéfinirVarLocale</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">SetLocalVar, action de macro</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Action de données</p></td>
-<td><p><a href="stopmacro-macro-action.md">Action de Macro ArrêtMacro</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">StopMacro, action de macro</a></p></td>
 </tr>
 </tbody>
 </table>

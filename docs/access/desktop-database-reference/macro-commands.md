@@ -1,52 +1,35 @@
 ---
 title: Commandes de macros (référence de base de données du bureau Access)
-TOCTitle: Macro Commands
+TOCTitle: Macro commands
 ms:assetid: 24e7f34d-7902-4644-bb67-33689d9895c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124057(v=office.15)
 ms:contentKeyID: 52071694
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf17bfee937cad94678a8e5f0d5b209105623450
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d37d107848808ed7a97b836c4d2be90c6d346c62
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870652"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926415"
 ---
-# <a name="macro-commands"></a>Commandes de macros
-
+# <a name="macro-commands"></a>Commandes macro
 
 **S’applique à**: Access 2013, Office 2013
 
-
-
-  - [Action de Macro AnnulerEvénement](cancelevent-macro-action.md)
-
-  - [Action de Macro écho](echo-macro-action.md)
-
-  - [Action de Macro Ouvrirmodulevisualbasic](openvisualbasicmodule-macro-action.md)
-
-  - [Action de Macro SupprimerToutesVarTemp](removealltempvars-macro-action.md)
-
-  - [Action de Macro RemoveTempVar](removetempvar-macro-action.md)
-
-  - [Action de Macro ExécuterCode](runcode-macro-action.md)
-
-  - [Action de Macro ExécuterMacroDonnées](rundatamacro-macro-action.md)
-
-  - [Action de Macro ExécuterMacro](runmacro-macro-action.md)
-
-  - [Action de Macro Exécutercommandemenu](runmenucommand-macro-action.md)
-
-  - [Action de Macro DéfinirVarTemp](settempvar-macro-action.md)
-
-  - [Action de Macro PasAPas](singlestep-macro-action.md)
-
-  - [Action de Macro DémarrerNouveauFluxTravail](startnewworkflow-macro-action.md)
-
-  - [Action de Macro ArrêtToutesMacros](stopallmacros-macro-action.md)
-
-  - [Action de Macro ArrêtMacro](stopmacro-macro-action.md)
-
-  - [TâchesFluxTravail, action de macro](workflowtasks-macro-action.md)
+- [CancelEvent, action de macro](cancelevent-macro-action.md)
+- [Echo, action de macro](echo-macro-action.md)
+- [OpenVisualBasicModule, action de macro](openvisualbasicmodule-macro-action.md)
+- [RemoveAllTempVars, action de macro](removealltempvars-macro-action.md)
+- [RemoveTempVar, action de macro](removetempvar-macro-action.md)
+- [RunCode, action de macro](runcode-macro-action.md)
+- [RunDataMacro, action de macro](rundatamacro-macro-action.md)
+- [RunMacro, action de macro](runmacro-macro-action.md)
+- [RunMenuCommand, action de macro](runmenucommand-macro-action.md)
+- [SetTempVar, action de macro](settempvar-macro-action.md)
+- [SingleStep, action de macro](singlestep-macro-action.md)
+- [StartNewWorkflow, action de macro](startnewworkflow-macro-action.md)
+- [StopAllMacros, action de macro](stopallmacros-macro-action.md)
+- [StopMacro, action de macro](stopmacro-macro-action.md)
+- [Action TâchesFluxTravail macro](workflowtasks-macro-action.md)
 

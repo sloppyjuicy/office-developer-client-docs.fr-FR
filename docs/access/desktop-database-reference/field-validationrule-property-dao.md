@@ -1,19 +1,19 @@
 ---
-title: Field.ValidationRule Property (DAO)
+title: Propriété Field.ValidationRule (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: b07e644d-54d3-7199-6f99-178774e54398
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821784(v=office.15)
 ms:contentKeyID: 48547123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a737f19b33777ea9c3acaf3bc6a9de5144a4db6a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 12ae37f9c2d730455e6110ee39695756a686937d
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874075"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25926282"
 ---
-# <a name="fieldvalidationrule-property-dao"></a>Field.ValidationRule Property (DAO)
+# <a name="fieldvalidationrule-property-dao"></a>Propriété Field.ValidationRule (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013

@@ -1,19 +1,19 @@
 ---
-title: Recordset2.MoveLast Method (DAO)
+title: Recordset2.MoveLast method (DAO)
 TOCTitle: MoveLast Method
 ms:assetid: 32717786-c59c-ec22-666b-fc78e4265c5a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e48e4816be8342165dba17d7ab4d478d53962114
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 0d5e636bf5ecae615df458754d6c4e08f00065ff
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874593"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25923608"
 ---
-# <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast Method (DAO)
+# <a name="recordset2movelast-method-dao"></a>Méthode Recordset2.MoveLast (DAO)
 
 
 **S’applique à**: Access 2013, Office 2013
@@ -64,7 +64,7 @@ Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif 
 
 Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l'enregistrement actif ne change pas.
 
-Si le jeu d’enregistrements fait référence à un **objet Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l’index actuel. Vous pouvez définir l'index actif à l'aide de la propriété **Index**. Si vous ne définissez pas l'index actuel, l'ordre des enregistrements renvoyés est indéfini.
+If recordset refers to a table-type **Recordset** (Microsoft Access workspaces only), movement follows the current index. Vous pouvez définir l'index actif à l'aide de la propriété **Index**. Si vous ne définissez pas l'index actuel, l'ordre des enregistrements renvoyés est indéfini.
 
 
 > [!NOTE]

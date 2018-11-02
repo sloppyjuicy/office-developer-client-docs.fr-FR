@@ -1,6 +1,6 @@
 ---
-title: Actualiser, action de macro
-TOCTitle: Requery Macro Action
+title: Requery, action de macro
+TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195544(v=office.15)
 ms:contentKeyID: 48545499
@@ -10,14 +10,14 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e8e5a25b8770f3542fade53d206ff20400ebf350
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885940"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25920031"
 ---
-# <a name="requery-macro-action"></a>Actualiser, action de macro
+# <a name="requery-macro-action"></a>Requery, action de macro
 
 
 **S’applique à**: Access 2013, Office 2013
@@ -82,5 +82,5 @@ Si vous laissez l'argument **Nom du contrôle** vide, l'action **Actualiser** é
 
 
 
-Pour actualiser un contrôle qui ne figure pas dans l'objet actif, vous devez utiliser la méthode **Requery** dans un module Visual Basic pour Applications (VBA), et non l'action **Actualiser** ou sa méthode **Requery** correspondante de l'objet **DoCmd**. La méthode **Requery** dans VBA est plus rapide que l'action **Actualiser** ou la méthode **DoCmd.Requery**. En outre, lorsque vous utilisez l'action **Actualiser** ou la méthode **DoCmd.Requery**, Microsoft Access ferme la requête et la recharge à partir de la base de données tandis qu'avec la méthode **Requery**, réexécute la requête sans la fermer ni la charger. Notez que la méthode **Requery** ADO (ActiveX Data Object) fonctionne de la même manière que la méthode **Requery** d'Access.
+Pour actualiser un contrôle qui ne figure pas dans l'objet actif, vous devez utiliser la méthode **Requery** dans un module Visual Basic pour Applications (VBA), et non l'action **Actualiser** ou sa méthode **Requery** correspondante de l'objet **DoCmd**. La méthode **Requery** dans VBA est plus rapide que l'action **Actualiser** ou la méthode **DoCmd.Requery**. En outre, lorsque vous utilisez l'action **Actualiser** ou la méthode **DoCmd.Requery**, Microsoft Access ferme la requête et la recharge à partir de la base de données tandis qu'avec la méthode **Requery**, réexécute la requête sans la fermer ni la charger. Notez que l’objet de données ActiveX (ADO) **Actualiser** la méthode fonctionne de la même façon que la méthode **Requery** d’Access.
 
