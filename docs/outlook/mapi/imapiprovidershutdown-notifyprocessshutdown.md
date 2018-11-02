@@ -19,30 +19,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 08/23/2018
 ms.locfileid: "22592051"
 ---
-# <a name="imapiprovidershutdownnotifyprocessshutdown"></a><span data-ttu-id="14cbd-103">IMAPIProviderShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="14cbd-103">IMAPIProviderShutdown::NotifyProcessShutdown</span></span>
+# <a name="imapiprovidershutdownnotifyprocessshutdown"></a><span data-ttu-id="797b5-103">IMAPIProviderShutdown::NotifyProcessShutdown</span><span class="sxs-lookup"><span data-stu-id="797b5-103">IMAPIProviderShutdown::NotifyProcessShutdown</span></span>
 
   
   
-<span data-ttu-id="14cbd-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="14cbd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="797b5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="797b5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="14cbd-105">Indique au fournisseur MAPI qu’un client MAPI sur le point d’effectuer un arrêt rapide, afin que le fournisseur peut prendre des mesures pour éviter toute perte de données.</span><span class="sxs-lookup"><span data-stu-id="14cbd-105">Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.</span></span>
+<span data-ttu-id="797b5-105">Indique au fournisseur MAPI qu’un client MAPI sur le point d’effectuer un arrêt rapide, afin que le fournisseur peut prendre des mesures pour éviter toute perte de données.</span><span class="sxs-lookup"><span data-stu-id="797b5-105">Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.</span></span>
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="14cbd-106">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="14cbd-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="797b5-106">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="797b5-106">Return value</span></span>
 
-<span data-ttu-id="14cbd-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="14cbd-107">S_OK</span></span>
+<span data-ttu-id="797b5-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="797b5-107">S_OK</span></span>
   
-> <span data-ttu-id="14cbd-108">Le fournisseur MAPI est en cours d’actions pour éviter toute perte de données lorsque le client MAPI s’arrête.</span><span class="sxs-lookup"><span data-stu-id="14cbd-108">The MAPI provider is taking actions to prevent data loss when the MAPI client shuts down.</span></span>
+> <span data-ttu-id="797b5-108">Le fournisseur MAPI est en cours d’actions pour éviter toute perte de données lorsque le client MAPI s’arrête.</span><span class="sxs-lookup"><span data-stu-id="797b5-108">The MAPI provider is taking actions to prevent data loss when the MAPI client shuts down.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="14cbd-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="14cbd-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="797b5-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="797b5-109">See also</span></span>
 
 
 
-[<span data-ttu-id="14cbd-110">IMAPIProviderShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="14cbd-110">IMAPIProviderShutdown : IUnknown</span></span>](imapiprovidershutdowniunknown.md)
+[<span data-ttu-id="797b5-110">IMAPIProviderShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="797b5-110">IMAPIProviderShutdown : IUnknown</span></span>](imapiprovidershutdowniunknown.md)
 
 
-[<span data-ttu-id="14cbd-111">Arrêt du client dans MAPI</span><span class="sxs-lookup"><span data-stu-id="14cbd-111">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
+[<span data-ttu-id="797b5-111">Arrêt du client dans MAPI</span><span class="sxs-lookup"><span data-stu-id="797b5-111">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
 
