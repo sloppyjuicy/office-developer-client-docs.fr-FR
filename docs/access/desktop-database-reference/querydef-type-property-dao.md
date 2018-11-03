@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
 ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 43e6e450021269a704650c686dea27a1d38d37f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 42bd391cea721176973ce4dd30c9ddc7d15471b8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929509"
+ms.locfileid: "25937021"
 ---
 # <a name="querydeftype-property-dao"></a>Propriété QueryDef.Type (DAO)
 
@@ -75,7 +75,7 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 <td><p>Procédure (espaces de travail ODBCDirect uniquement)</p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 
 <p></p></td>

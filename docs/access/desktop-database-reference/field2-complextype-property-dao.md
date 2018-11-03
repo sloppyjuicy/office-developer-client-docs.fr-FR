@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd1d48926440ac47a204becfbb4c68c5a827d74f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 588019a058f44c53967370f609ae10dda5737d59
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927563"
+ms.locfileid: "25936244"
 ---
 # <a name="field2complextype-property-dao"></a>Propriété Field2.complexType (DAO)
 
@@ -26,7 +26,7 @@ Renvoie un objet **[ComplexType](complextype-object-dao.md)** qui représente un
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Access 2007
+Version ajoutée : Access 2007
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -10,18 +10,16 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7999d2acd19fd1f6aa4d7dd9dccd88b7ffea88a7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b0b8d7cb1a224b7f9c4d587d5c8941977dab2f66
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925326"
+ms.locfileid: "25937126"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Vous pouvez utiliser l’action **AnnulerEvénement** pour annuler l’événement qui a provoqué l’accès exécuter la macro contenant cette action. Le nom de la macro est le paramètre d'une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
 
@@ -76,8 +74,6 @@ Les événements suivants peuvent être annulés par l'action **AnnulerEvénemen
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser l'action **AnnulerEvénement** avec l'événement **SourisAppuyée** uniquement pour annuler l'événement qui est déclenché lorsque vous cliquez avec le bouton droit sur un objet.

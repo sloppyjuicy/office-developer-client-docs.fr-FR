@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
 ms:contentKeyID: 48546205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5869c381c7b449502cc2d28de8eeb214bbfb03d0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c03310159915fd7bbb0804582d8f3967d40fb9b2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928655"
+ms.locfileid: "25937651"
 ---
 # <a name="field2expression-property-dao"></a>Propriété Field2.Expression (DAO)
 
@@ -21,8 +21,7 @@ Obtient ou définit une expression qui représente la formule pour un champ calc
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Access 2010
-
+Version ajoutée : Access 2010
 
 ## <a name="syntax"></a>Syntaxe
 

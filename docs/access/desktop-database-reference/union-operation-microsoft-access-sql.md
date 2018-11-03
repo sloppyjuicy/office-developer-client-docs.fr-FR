@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 068496332479d25dfc4f20bdc683330ee462ce78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927668"
+ms.locfileid: "25937420"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION, opération (Microsoft Access SQL)
 
@@ -81,9 +81,7 @@ N'utilisez des alias que dans la première instruction SELECT ; ils seront ignor
 
 ## <a name="example"></a>Exemple
 
-Dans cet exemple, le nom et la ville de tous les fournisseurs et clients du Brésil sont extraits.
-
-La procédure EnumFields (que vous pouvez trouver dans l'exemple d'instruction SELECT) est appelée dans cet exemple.
+Dans cet exemple, le nom et la ville de tous les fournisseurs et clients du Brésil sont extraits. Il appelle la procédure EnumFields que vous pouvez trouver dans l’exemple d’instruction SELECT.
 
 ```vb
     Sub UnionX() 

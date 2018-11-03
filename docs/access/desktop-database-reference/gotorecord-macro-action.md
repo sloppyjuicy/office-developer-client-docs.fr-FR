@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 90d50ce1f1435d38fdfe1ed11e76b49c212b87b3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922453"
+ms.locfileid: "25937728"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord, action de macro
 
@@ -61,7 +61,7 @@ L'action **AtteindreEnregistrement** possède les arguments suivants.
 </ul>
 
 > [!NOTE]
-> <P>Si vous utilisez le paramètre <STRONG>Premier</STRONG>, <STRONG>Dernier</STRONG> ou <STRONG>Nouveau</STRONG> pour l’argument <STRONG>Enregistrement</STRONG>, Access ignore l’argument <STRONG>Référence</STRONG>. Si vous entrez une valeur trop élevée pour l’argument <STRONG>Référence</STRONG>, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument <STRONG>Référence</STRONG>.</P>
+> Si vous utilisez le paramètre **Premier**, **Dernier** ou **Nouveau** pour l’argument **Enregistrement**, Access ignore l’argument **Référence**. Si vous entrez une valeur trop élevée pour l’argument **Référence**, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument **Référence**.
 
 
 <p></p>

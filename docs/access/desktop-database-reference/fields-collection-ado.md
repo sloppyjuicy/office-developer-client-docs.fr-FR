@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 27741f8b1a07e4fae49818b72a7239d13d069cca
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 39c801e223eba83a8de6aa7dacda6d8296e77588
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931203"
+ms.locfileid: "25936972"
 ---
 # <a name="fields-collection-ado"></a>Fields, collection (ADO)
 
@@ -24,11 +24,8 @@ Contient tous les objets [Field](field-object-ado.md) d'un objet [Recordset](rec
 
 Un objet **Recordset** possède une collection **Fields** composée d'objets **Field**. Chaque objet **Field** correspond à une colonne du **Recordset**. Vous pouvez remplir la collection **Fields** avant d'ouvrir l'objet **Recordset** en appelant la méthode [Refresh](refresh-method-ado.md) sur cette collection.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Pour plus d'informations sur l'utilisation des objets <STRONG>Field</STRONG>, voir la rubrique traitant de l'objet <STRONG>Field</STRONG>.</P>
-
-
+> [!REMARQUE] Pour plus d'informations sur l'utilisation des objets **Field**, voir la rubrique traitant de l'objet **Field**.
 
 La collection **Fields** possède une méthode [Append](append-method-ado.md), qui crée et ajoute provisoirement un objet **Field** à la collection, ainsi qu'une méthode **Update**, qui finalise les ajouts et les suppressions.
 

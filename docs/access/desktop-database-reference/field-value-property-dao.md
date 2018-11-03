@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
 ms:contentKeyID: 48545465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fafe0212fb0051d780c3a8f12dbc0d5fe319dc1f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b7ed259b1af80f4bd5c51b833462318b6e4696ae
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928242"
+ms.locfileid: "25936188"
 ---
 # <a name="fieldvalue-property-dao"></a>Propriété valeur.champ (DAO)
 
@@ -38,6 +38,6 @@ Si vous essayez de définir ou de renvoyer la propriété **Value** dans un cont
 
 
 > [!NOTE]
-> <P>Lorsque vous lisez des valeurs décimales depuis une base de données Microsoft SQL Server, elle sont mises en forme à l'aide d'une notation scientifique via un espace de travail Microsoft Access, mais elles s'affichent sous forme de valeurs décimales normales via un espace de travail ODBCDirect.</P>
+> Lorsque vous lisez des valeurs décimales depuis une base de données Microsoft SQL Server, elle sont mises en forme à l'aide d'une notation scientifique via un espace de travail Microsoft Access, mais elles s'affichent sous forme de valeurs décimales normales via un espace de travail ODBCDirect.
 
 

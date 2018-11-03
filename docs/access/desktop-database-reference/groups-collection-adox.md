@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249702(v=office.15)
 ms:contentKeyID: 48546553
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b75f6277695c00c251352e0ae2bdcc44f2c86d34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b7bd2519af3ea3c35d8cc32ef1ec31ea4f9efa1e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929152"
+ms.locfileid: "25936671"
 ---
 # <a name="groups-collection-adox"></a>Groups, collection (ADOX)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,20 +25,19 @@ La collection **Groups** d'un [catalogue](catalog-object-adox.md) représente to
 
 La méthode [Append](append-method-adox-groups.md) d'une collection **Groups** est unique pour ADOX. Vous pouvez :
 
-  - Ajouter un nouveau groupe de sécurité à la collection à l'aide de la méthode **Append**.
+- Ajouter un nouveau groupe de sécurité à la collection à l'aide de la méthode **Append**.
 
 Les propriétés et méthodes restantes sont des collections ADO standard. Vous pouvez :
 
-  - Accéder à un groupe de la collection à l'aide de la propriété [Item](item-property-ado.md).
+- Accéder à un groupe de la collection à l'aide de la propriété [Item](item-property-ado.md).
 
-  - Renvoyer le nombre de groupes de la collection à l'aide de la propriété [Count](count-property-ado.md).
+- Renvoyer le nombre de groupes de la collection à l'aide de la propriété [Count](count-property-ado.md).
 
-  - Supprimer un groupe de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
+- Supprimer un groupe de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
 
-  - Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
-
+- Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
 
 > [!NOTE]
-> <P>[!REMARQUE] Avant d'ajouter un objet <STRONG>Group</STRONG> à la collection <STRONG>Groups</STRONG> d'un objet <STRONG>User</STRONG>, un objet <STRONG>Group</STRONG> avec le même <A href="name-property-adox.md">nom</A> que celui à ajouter doit déjà exister dans la collection <STRONG>Groups</STRONG> du <STRONG>catalogue</STRONG>.</P>
+> [!REMARQUE] Avant d'ajouter un objet **Group** à la collection **Groups** d'un objet **User**, un objet **Group** avec le même [nom](name-property-adox.md) que celui à ajouter doit déjà exister dans la collection **Groups** du **catalogue**.
 
 

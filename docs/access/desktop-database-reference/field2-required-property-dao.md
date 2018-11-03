@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196390(v=office.15)
 ms:contentKeyID: 48545848
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb7735bf2c19da3cf82ffcb10d3d5b99b1a01c1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cf5e459773cd0fa0976704834b1b73467fc75294
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928788"
+ms.locfileid: "25937406"
 ---
 # <a name="field2required-property-dao"></a>Propriété Field2.Required (DAO)
 
@@ -73,7 +73,7 @@ Vous pouvez utiliser la propriété **Required** avec les propriétés **AllowZe
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Lorsque vous définissez cette propriété pour un objet <STRONG>Index</STRONG> ou <STRONG>Field2</STRONG>, définissez-la pour l'objet <STRONG>Field2</STRONG>. La validité du paramètre de propriété d'un objet <STRONG>Field2</STRONG> est vérifiée avant celle d'un objet <STRONG>Index</STRONG>.</P>
+> [!REMARQUE] Lorsque vous définissez cette propriété pour un objet **Index** ou **Field2**, définissez-la pour l'objet **Field2**. La validité du paramètre de propriété d'un objet **Field2** est vérifiée avant celle d'un objet **Index**.
 
 
 

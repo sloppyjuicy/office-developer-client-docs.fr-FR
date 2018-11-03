@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1672c893994c1257a3898304042816d859e83314
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 600fe2855ba10e1ab36413f6395d3455bb7bd00b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927318"
+ms.locfileid: "25937056"
 ---
 # <a name="field2ordinalposition-property-dao"></a>Propriété Field2.OrdinalPosition (DAO)
 
@@ -88,7 +88,7 @@ Vous pouvez spécifier un nombre supérieur au nombre de champs moins 1. Le cham
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Même si la collection <STRONG>Fields</STRONG> d'un objet <STRONG><A href="tabledef-object-dao.md">TableDef</A></STRONG> n'a pas été rafraîchie, l'ordre des champs dans un objet <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> ouvert à partir de l'objet <STRONG>TableDef</STRONG> reflète les données <STRONG>OrdinalPosition</STRONG> de l'objet <STRONG>TableDef</STRONG>. Un objet <STRONG>Recordset</STRONG> de type table a les mêmes données <STRONG>OrdinalPosition</STRONG> en tant que table sous-jacente, mais tout autre type d'objet <STRONG>Recordset</STRONG> a des nouvelles données <STRONG>OrdinalPosition</STRONG> (commençant par 0) qui suivent l'ordre déterminé par les données <STRONG>OrdinalPosition</STRONG> de l'objet <STRONG>TableDef</STRONG>.</P>
+> Même si la collection **Fields** d’un objet **[TableDef](tabledef-object-dao.md)** n’a pas été actualisée, l’ordre des champs dans un **[objet Recordset](recordset-object-dao.md)** ouvert à partir de l' **objet TableDef** reflète les données **OrdinalPosition** de l’objet **TableDef** . Un objet **Recordset** de type table a les mêmes données **OrdinalPosition** en tant que table sous-jacente, mais tout autre type d'objet **Recordset** a des nouvelles données **OrdinalPosition** (commençant par 0) qui suivent l'ordre déterminé par les données **OrdinalPosition** de l'objet **TableDef**.
 
 
 

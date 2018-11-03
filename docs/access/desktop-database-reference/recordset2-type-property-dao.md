@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 57c433594a22a78615aa689cccd0b7477bb32e91
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ca75e1b21e017dfbbbc5028d06a4799a9afd50f3
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930657"
+ms.locfileid: "25936594"
 ---
 # <a name="recordset2type-property-dao"></a>Propriété Recordset2.Type (DAO)
 
@@ -53,12 +53,7 @@ Pour un objet **Recordset**, les paramètres et valeurs de retour possibles sont
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
 <td><p>Dynamique (espaces de travail ODBCDirect uniquement)</p>
-
-> [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
-
-
-<p></p></td>
+<p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>

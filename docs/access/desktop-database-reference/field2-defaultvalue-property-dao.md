@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c0edef512eb6b4c099362e737a760624dcfc0b69
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 683255f8bc425ba5d8d2cdf4c66bc2ff16eec43c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928474"
+ms.locfileid: "25937672"
 ---
 # <a name="field2defaultvalue-property-dao"></a>Propriété Field2.DefaultValue (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Définit ou renvoie la valeur par défaut d'un objet **Field2**. Pour un objet **Field2** pas encore ajouté à la collection **[Fields](fields-collection-dao.md)**, cette propriété est en lecture-écriture (espaces de travail Microsoft Access uniquement).
 
@@ -35,11 +33,8 @@ Définit ou renvoie la valeur par défaut d'un objet **Field2**. Pour un objet *
 
 Le paramètre ou la valeur de retour est une donnée de type **String** pouvant contenir 255 caractères maximum. Il peut s'agir de texte ou d'une expression. Dans ce dernier cas, le paramètre ne peut contenir ni fonction personnalisée, ni fonctions d'agrégation du moteur SQL de base de données Microsoft Access, ni référence à aucune requête, aucun formulaire ou tout autre objet **Field2**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez également définir la propriété <STRONG>DefaultValue</STRONG> d'un objet <STRONG>Field2</STRONG> d'un objet <STRONG>TableDef</STRONG> sur une valeur spéciale appelée "GenUniqueID( )". Ce faisant, un nombre aléatoire est affecté à ce champ dès qu'un nouvel enregistrement est ajouté ou créé, créant ainsi un identificateur unique pour chaque enregistrement. La propriété <STRONG>Type</STRONG> du champ doit être <STRONG>Long</STRONG>.</P>
-
-
+> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field2** d'un objet **TableDef** sur une valeur spéciale appelée "GenUniqueID( )". Ce faisant, un nombre aléatoire est affecté à ce champ dès qu'un nouvel enregistrement est ajouté ou créé, créant ainsi un identificateur unique pour chaque enregistrement. La propriété **Type** du champ doit être **Long**.
 
 La disponibilité de la propriété **DefaultValue** dépend de l'objet contenant la collection **Fields**, comme illustré dans le tableau suivant.
 
