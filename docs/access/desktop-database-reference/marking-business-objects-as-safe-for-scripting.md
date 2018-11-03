@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 195e9fc25e3aa8871233ebe60441d29909b31a48
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f638ae278835841ebf297f2472c04235c6a325b4
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878310"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936650"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>Objets métier reconnus sûrs pour l'écriture de scripts
 
@@ -32,7 +32,7 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 où \< *MyActiveXGUID* \> correspond au numéro GUID hexadécimal de votre objet métier. Enregistrer et fusionner dans votre Registre à l’aide de l’Éditeur du Registre ou en double-cliquant sur le fichier .reg dans l’Explorateur Windows.
 
-Les objets métier créés dans Microsoft® Visual Basic peuvent être automatiquement marqués comme étant « sûrs pour l'écriture de scripts » par l'intermédiaire de l'Assistant Deployment Package Wizard. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
+Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sûrs pour l’écriture de scripts » avec l’Assistant Empaquetage et déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
 
 En dernier lieu, l'Assistant Configuration de l'application crée un fichier .htm et un fichier .cab. Vous pouvez copier ces deux fichiers sur l'ordinateur cible et double-cliquer sur le fichier .htm pour charger la page et enregistrer correctement le serveur.
 

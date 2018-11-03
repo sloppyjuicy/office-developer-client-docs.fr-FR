@@ -6,29 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9fafa3ea40b492baf8b49dd240c6f7767ffad655
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926653"
+ms.locfileid: "25937630"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Vous pouvez utiliser l’action **GoToControl** pour placer le focus sur le champ spécifié ou le contrôle de l’enregistrement actif du formulaire ouvert, formulaire, feuille de données de table ou feuille de données de requête. Vous pouvez utiliser cette action lorsque vous souhaitez mettre le focus sur un champ ou un contrôle particulier. Ce champ ou le contrôle puis utilisable pour des comparaisons ou des actions **TrouverEnregistrement**. Vous pouvez également utiliser cette action pour naviguer dans un formulaire sous certaines conditions. Par exemple, si l'utilisateur saisit non dans un contrôle conjoint sur un formulaire d'assurance maladie, le focus peut automatiquement passer le contrôle nom du conjoint/partenaire et déplacer vers le contrôle suivant.
 
 ## <a name="setting"></a>Paramètre
 
-
 > [!NOTE]
-> <P>Cette action n’est pas disponible pour une utilisation avec des pages d’accès aux données.</P>
-
-
+> Cette action n’est pas disponible pour une utilisation avec des pages d’accès aux données.
 
 L’action **AtteindreContrôle** possède l’argument suivant.
 
@@ -49,7 +43,7 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 <td><p>Nom du champ ou du contrôle dans lequel vous souhaitez déplacer le focus. Entrez le nom de champ ou un contrôle dans la zone <strong>Nom du contrôle</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro. Cet argument est obligatoire.</p>
 
 > [!NOTE]
-> <P>Entrez uniquement le nom du champ ou du contrôle dans l’argument <STRONG>Nom du contrôle</STRONG> , pas l’identificateur complet, tels que des formulaires ! Produits ! [ID produit].</P>
+> Entrez uniquement le nom du champ ou du contrôle dans l’argument **Nom du contrôle** , pas l’identificateur complet, tels que des formulaires ! Produits ! [ID produit].
 
 
 <p></p></td>
@@ -62,11 +56,8 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 
 Vous ne pouvez pas utiliser l’action **AtteindreContrôle** pour déplacer le focus vers un contrôle sur un formulaire masqué.
 
-
 > [!TIP]
-> <P>Vous pouvez utiliser l’action <STRONG>AtteindreContrôle</STRONG> pour déplacer un sous-formulaire, qui est un type de contrôle. Vous pouvez ensuite utiliser l’action <STRONG>AtteindreEnregistrement</STRONG> pour déplacer vers un enregistrement particulier du sous-formulaire. Vous pouvez également déplacer un contrôle dans un sous-formulaire à l’aide de l’action <STRONG>AtteindreContrôle</STRONG> pour accéder d’abord le sous-formulaire, puis le contrôle de sous-formulaire.</P>
-
-
+> Vous pouvez utiliser l’action **AtteindreContrôle** pour déplacer un sous-formulaire, qui est un type de contrôle. Vous pouvez ensuite utiliser l’action **AtteindreEnregistrement** pour déplacer vers un enregistrement particulier du sous-formulaire. Vous pouvez également déplacer un contrôle dans un sous-formulaire à l’aide de l’action **AtteindreContrôle** pour accéder d’abord le sous-formulaire, puis le contrôle de sous-formulaire.
 
 Pour exécuter l’action **AtteindreContrôle** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **GoToControl** de l’objet **DoCmd** . Vous pouvez également utiliser la méthode **SetFocus** pour placer le focus sur un contrôle dans un formulaire ou un de ses sous-formulaires, ou à un champ dans une table ouverte, une requête ou une feuille de données de formulaire.
 

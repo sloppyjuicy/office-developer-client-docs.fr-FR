@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: eec27b3bbd8d23fef05ab8bfe4da0209acf80ac1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d52020deecce9235db12f749b9d6913653157034
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875160"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937770"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Initialisation du pilote de source de données de texte
 
@@ -25,7 +25,7 @@ ms.locfileid: "25875160"
 
 Le même pilote de base de données est utilisé pour les sources de type Données de texte et HTML.
 
-Lorsque vous installez le pilote de base de données Text Data Source, le programme d'installation écrit un ensemble de valeurs par défaut dans les sous-clé Engines et ISAM Formats du registre Microsoft® Windows®. Vous ne devez pas modifier directement ces paramètres. Utilisez le programme d'installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l'initialisation et les paramètres de format ISAM pour le pilote de base de données Text Data Source.
+Lorsque vous installez le pilote de base de données de Source de données texte, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Microsoft Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données de Source de données de texte.
 
 ## <a name="text-data-source-initialization-settings"></a>Paramètres d'initialisation de source de données de texte
 

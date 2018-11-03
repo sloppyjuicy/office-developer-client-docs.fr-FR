@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: cac58601277079f6843df6ac9ac7bcae7824b18a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed13aab8d1f6851dd05ea2d79877e34c14665a3f
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869525"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937161"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
 
 
 **S’applique à**: Access 2013, Office 2013
 
-Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalents SQL du moteur de base de données Microsoft Access et leurs synonymes valides. Il répertorie également les types de données Microsoft® SQL Server équivalents.
+Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalents SQL du moteur de base de données Microsoft Access et leurs synonymes valides. Il indique également les types de données Microsoft SQL Server™ équivalentes.
 
 <table>
 <colgroup>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
 ms:contentKeyID: 48546153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78fdc7fc236a3e366cc97d466deb1e31cc030ac7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc8fa9bb24035e344ddb8e15179d4edd128abf7d
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919471"
+ms.locfileid: "25936846"
 ---
 # <a name="relations-collection-dao"></a>Collection Relations (DAO)
 
@@ -95,7 +95,7 @@ L'exemple ci-dessous indique comment un objet **Relation** existant peut déterm
 
 <br/>
 
-L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il illustre également comment la création d'un objet **Relation** entraîne celle des objets **Indexes** nécessaires dans la table étrangère (index DepartmentsEmployees de la table Employees).
+L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il montre également comment créer une **Relation** crée également nécessaires **index** dans la table étrangère (DepartmentsEmployees Index de la table Employees).
 
 ```vb
     Sub CreateRelationX() 

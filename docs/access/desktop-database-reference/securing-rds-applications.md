@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be6c210ef75b6a9e96b8733d12f3aa598d158df7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4240ca118adfcc122ebe346cb60f8b9a0b6efd9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881257"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937490"
 ---
 # <a name="securing-rds-applications"></a>Sécurisation des applications RDS
 
@@ -19,7 +19,7 @@ ms.locfileid: "25881257"
 
 ## <a name="microsoft-internet-explorer-security-issues"></a>Problèmes de sécurité dans Microsoft Internet Explorer
 
-Avec les nouvelles améliorations de sécurité ajoutées à Microsoft® Internet Explorer, certains objets ADO et RDS sont limités à une exécution en « mode sans échec ». Vous devez avoir connaissance de ces problèmes, notamment de ceux liés aux différentes zones, aux niveaux de sécurité, au comportement restrictif, aux opérations potentiellement dangereuses et aux paramètres de sécurité personnalisés.
+Avec les nouvelles améliorations de sécurité ajoutées à Microsoft Internet Explorer, certains objets ADO et RDS sont limités à l’exécution uniquement dans un environnement en mode « approuvés ». Vous devez avoir connaissance de ces problèmes, notamment de ceux liés aux différentes zones, aux niveaux de sécurité, au comportement restrictif, aux opérations potentiellement dangereuses et aux paramètres de sécurité personnalisés.
 
 Pour plus d'informations sur ces problèmes, consultez l'article consacré aux problèmes de sécurité ADO et RDS dans Microsoft Internet Explorer dans les articles techniques ADO (ActiveX Data Objects).
 

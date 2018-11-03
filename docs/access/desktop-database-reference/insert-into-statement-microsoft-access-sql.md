@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1635ff8ad43af45a62cd2223be853cefb5b6e999
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c20701e9863d72a9308679965425b74c9f9818ac
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870799"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937637"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -25,11 +25,11 @@ Ajoute un ou plusieurs enregistrements à une table. Cette opération est une re
 
 ## <a name="syntax"></a>Syntaxe
 
-**Requête Ajout de plusieurs enregistrements**:
+### <a name="multiple-record-append-query"></a>Requête Ajout de plusieurs enregistrements
 
 INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] \[IN *basededonnéesexterne* \] sélectionnez \[ *source*. \] *champ1*\[, *champ2*\[,... \] FROM *expressiontable*
 
-**Requête Ajout de seul enregistrement**:
+### <a name="single-record-append-query"></a>Requête Ajout de seul enregistrement
 
 INSERT INTO *cible* \[(*champ1*\[, *champ2*\[,... \] \])\] Valeurs (*valeur1*\[, *valeur2*\[,... \])
 

@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0309a72040751aaab994225159fdca6698a189cc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 426bf296345c47abe58e3e6e5057a43a0d43aa21
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920731"
+ms.locfileid: "25936629"
 ---
 # <a name="findnextrecord-macro-action"></a>FindNextRecord, action de macro
 
@@ -34,17 +34,11 @@ Pour définir les critères de recherche, utilisez l'action **TrouverEnregistrem
 
 Cette action équivaut à utiliser le bouton **Suivant** dans la boîte de dialogue **Rechercher et remplacer**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Bien que l'action <STRONG>TrouverEnregistrement</STRONG> corresponde à la commande <STRONG>Rechercher</STRONG> de l'onglet <STRONG>Accueil</STRONG> pour les tables, requêtes et formulaires, elle ne correspond pas à la commande <STRONG>Rechercher</STRONG> du menu <STRONG>Edition</STRONG> dans la fenêtre Code. Vous ne pouvez pas utiliser l'action <STRONG>TrouverEnregistrement</STRONG> ni l'action <STRONG>RechercherEnregistrementSuivant</STRONG> pour rechercher du texte dans des modules.</P>
-
-
-
+> [!REMARQUE] Bien que l'action **TrouverEnregistrement** corresponde à la commande **Rechercher** de l'onglet **Accueil** pour les tables, requêtes et formulaires, elle ne correspond pas à la commande **Rechercher** du menu **Edition** dans la fenêtre Code. Vous ne pouvez pas utiliser l'action **TrouverEnregistrement** ni l'action **RechercherEnregistrementSuivant** pour rechercher du texte dans des modules.
 
 > [!TIP]
-> <P>[!CONSEIL] Si vous avez défini l'argument <STRONG>Champ actif uniquement</STRONG> de l'action <STRONG>TrouverEnregistrement</STRONG> sur <STRONG>Oui</STRONG>, vous devrez peut-être utiliser l'action <STRONG>AtteindreContrôle</STRONG> pour déplacer le focus sur le contrôle contenant les données que vous recherchez avant d'utiliser l'action <STRONG>RechercherEnregistrementSuivant</STRONG>.</P>
-
-
+> [!CONSEIL] Si vous avez défini l'argument **Champ actif uniquement** de l'action **TrouverEnregistrement** sur **Oui**, vous devrez peut-être utiliser l'action **AtteindreContrôle** pour déplacer le focus sur le contrôle contenant les données que vous recherchez avant d'utiliser l'action **RechercherEnregistrementSuivant**.
 
 Si le texte actuellement sélectionné correspond au texte recherché au moment de l'exécution de l'action de macro **RechercherEnregistrementSuivant**, la recherche commence immédiatement après la sélection, dans le même champ que la sélection et dans le même enregistrement. Sinon, la recherche commence au début de l'enregistrement actif. Cela vous permet de rechercher plusieurs instances des mêmes critères de recherche dans un même enregistrement.
 

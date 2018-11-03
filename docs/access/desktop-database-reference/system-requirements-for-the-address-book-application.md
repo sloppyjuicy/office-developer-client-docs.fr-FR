@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: edfdd66ea1651f71e74e5f98c6f2a3ac2bf36207
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: fc1e9c951ea87869d2e3e2fb047793a06778f249
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885961"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937462"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Configuration système requise pour l'application Carnet d'adresses
 
@@ -24,7 +24,7 @@ Pour configurer l'application exemple Carnet d'adresses, la configuration logici
 
 La configuration logicielle requise de l’ordinateur serveur pour l’exécution de cette application web est les suivantes :
 
-  - Microsoft Windows NT® Server 4.0 avec Service Pack 3 ou ultérieur, ou Microsoft Windows® 2000 Server
+  - Microsoft Windows NT Server 4.0 avec Service Pack 3 ou version ultérieure, ou Microsoft Windows 2000 Server.
 
   - Microsoft Internet Information Services (IIS) 3.0 ou ultérieur avec Active Server Pages
 
@@ -38,7 +38,7 @@ La configuration logicielle requise de l’ordinateur client pour l’exécution
 
 Pour exécuter cet exemple, vous devez disposer des éléments suivants :
 
-  - un serveur de base de données Microsoft® SQL Server 6.5 ou ultérieur opérationnel ;
+  - Un serveur opérationnel Microsoft SQL Server version 6.5 ou version ultérieure de la base de données.
 
   - des privilèges suffisants pour créer la base de données et la remplir des données exemples ;
 

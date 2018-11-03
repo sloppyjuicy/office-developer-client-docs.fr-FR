@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c6f610c329057156875065e149db1e914a282e4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3e38df07831e21a92afdf8106b6d8eb3844396cc
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920451"
+ms.locfileid: "25936755"
 ---
 # <a name="indexes-collection-dao"></a>Indexes, collection (DAO)
 
@@ -34,7 +34,7 @@ Après avoir créé un nouvel objet **Index**, il convient d'utiliser la méthod
 
 
 > [!IMPORTANT]
-> <P>[!IMPORTANTE] Vérifiez que vos données sont conformes aux attributs de votre nouvel index. Si ce dernier exige des valeurs uniques, vérifiez que les enregistrements de données existants n'ont aucun doublon. S'il en existe, le moteur de base de données Microsoft Access ne peut pas créer l'index ; une erreur capturable survient alors lorsque vous tentez d'utiliser la méthode Append sur le nouvel index.</P>
+> [!IMPORTANTE] Vérifiez que vos données sont conformes aux attributs de votre nouvel index. Si ce dernier exige des valeurs uniques, vérifiez que les enregistrements de données existants n'ont aucun doublon. S'il en existe, le moteur de base de données Microsoft Access ne peut pas créer l'index ; une erreur capturable survient alors lorsque vous tentez d'utiliser la méthode Append sur le nouvel index.
 
 
 

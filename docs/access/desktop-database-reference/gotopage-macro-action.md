@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dd38a7f4973195fdd758934ceec787d623c3353c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923265"
+ms.locfileid: "25936678"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage, action de macro
 
@@ -55,12 +55,8 @@ L'action **AtteindrePage** possède les arguments suivants.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!REMARQUE] Les arguments <STRONG>Droite</STRONG> et <STRONG>Bas</STRONG> sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.</P>
-
-
+> >[!REMARQUE] Les arguments **Droite** et **Bas** sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.
 
 ## <a name="remarks"></a>Remarques
 

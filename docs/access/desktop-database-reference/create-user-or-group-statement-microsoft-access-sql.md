@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cd33755800d0ed820a9690a6910f3edf064c3c82
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 52d376b05c195ed0ea4707e849c5ae395c2b5590
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872192"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936825"
 ---
 # <a name="create-user-or-group-statement-microsoft-access-sql"></a>Instruction CREATE USER ou GROUP (Microsoft Access SQL)
 
@@ -21,11 +21,11 @@ Crée un ou plusieurs nouveaux utilisateurs ou groupes.
 
 ## <a name="syntax"></a>Syntaxe
 
-**Créer un utilisateur**:
+### <a name="create-a-user"></a>Créer un utilisateur
 
 CREATE USER *utilisateur* *le mot de passe identifiant personnel* \[, *utilisateur* *le mot de passe identifiant personnel*,...\]
 
-**Créer un groupe**:
+### <a name="create-a-group"></a>Créer un groupe
 
 CREATE GROUP *groupe* *identifiant personnel*\[, *groupe* *identifiant personnel*,...\]
 

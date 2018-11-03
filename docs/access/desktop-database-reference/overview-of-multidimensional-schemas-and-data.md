@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249784(v=office.15)
 ms:contentKeyID: 48546923
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 376d80bc79af772cfd09b6f5b8759321ed4431ee
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 67bdcdbaa525039f544a7d45cb4411faeee297e8
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887165"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937028"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Présentation des schémas et données multidimensionnels
 
@@ -80,17 +80,14 @@ Chaque niveau est constitué de membres, comme suit :
 
 Les membres inférieurs d'une hiérarchie n'ont pas d'enfants et les membres supérieurs n'ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l'arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
 
-  - {All} (parent) {Europe, Amérique du Nord}
-
-  - {Amérique du Nord} (parent) {Canada, USA}
-
-  - {USA} (parent) {USA-NE, USA-NW, USA-SE, USA-SW}
-
-  - {USA-NW} (parent) {Seattle, Boise}
+- {All} (parent) {Europe, Amérique du Nord}
+- {Amérique du Nord} (parent) {Canada, USA}
+- {USA} (parent) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (parent) {Seattle, Boise}
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Année-Semaine n'apparaissent dans aucun niveau de la hiérarchie Année-Trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau semaine de la hiérarchie année-semaine n’apparaissent pas dans n’importe quel niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 
 ## <a name="understanding-multidimensional-schemas"></a>Présentation des schémas multidimensionnels
 
@@ -164,5 +161,5 @@ Les membres inférieurs d'une hiérarchie n'ont pas d'enfants et les membres sup
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Année-Semaine n'apparaissent dans aucun niveau de la hiérarchie Année-Trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau semaine de la hiérarchie année-semaine n’apparaissent pas dans n’importe quel niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 

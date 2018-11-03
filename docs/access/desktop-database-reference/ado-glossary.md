@@ -1,17 +1,17 @@
 ---
-title: Objets de données ActiveX (ADO) glossaire
+title: Glossaire ActiveX Data Objects (ADO)
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 809431c51b7fab9e56d492b44610d607e4da3b06
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e7085edf0d7f30c70868d308130b3f438347ad4b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869966"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937819"
 ---
 # <a name="ado-glossary"></a>Glossaire ADO
 
@@ -419,11 +419,11 @@ Structure représentant une relation hiérarchique entre les éléments (nœuds)
 
 Spécifie l’emplacement d’une ressource résidant sur Internet ou un intranet. Une URL complète se compose d’un schéma (tels que FTP, HTTP, mailto, fichiers et ainsi de suite), suivi par un signe deux-points, un nom de serveur et le chemin d’accès complet d’une ressource (comme un document, image ou autre fichier). Quelques exemples d’URL sont les suivants :  
   
-https://www.domain.com/default.html  
-FTP://FTP.Server.somewhere/FTP.file  
+- https://www.domain.com/default.html  
+- FTP://FTP.Server.somewhere/FTP.file  
   
-FTP://FTP.Server.somewhere/FTP.file  
-file://Server/Share/file.doc
+- FTP://FTP.Server.somewhere/FTP.file  
+- file://Server/Share/file.doc
 
 Voir aussi **URL absolue** et **URL relative**.
 
@@ -431,5 +431,5 @@ Voir aussi **URL absolue** et **URL relative**.
 
 Un ordinateur qui fournit des services web et des pages pour les utilisateurs intranet et Internet.
 
-Retour au début
+
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
 ms:contentKeyID: 48543404
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 9725a0e4af6ac6d25140739d6604abae6b76dcb6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 3c31b42d7b496762e74ffcf8d62e4927d5420374
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879444"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937665"
 ---
 # <a name="affectenum"></a>AffectEnum
 
@@ -39,8 +39,7 @@ Indique les enregistrements affectés par une opération.
 <td><p><strong>adAffectAll</strong></p></td>
 <td><p>3</p></td>
 <td><p>Si aucun <a href="filter-property-ado.md">filtre</a> n’est appliqué au <strong>Recordset</strong>, affecte tous les enregistrements.
- Si la propriété <strong>Filter</strong> définit un critère de chaîne (tel que &quot;auteur = 'Martin'&quot;), l’opération affecte les enregistrements visibles dans le chapitre actif. Si la propriété <strong>Filter</strong> définit un membre de <a href="filtergroupenum.md">FilterGroupEnum</a> ou un tableau de signets, l’opération affectera toutes les lignes du <strong>jeu d’enregistrements</strong>.</p>
-<p><strong>Remarque</strong>: adAffectAll est caché dans l’Explorateur d’objets Visual Basic.</p>
+ Si la propriété <strong>Filter</strong> définit un critère de chaîne (tel que &quot;auteur = 'Martin'&quot;), l’opération affecte les enregistrements visibles dans le chapitre actif. Si la propriété <strong>Filter</strong> définit un membre de <a href="filtergroupenum.md">FilterGroupEnum</a> ou un tableau de signets, l’opération affectera toutes les lignes du <strong>jeu d’enregistrements</strong>.</p><p><strong>Remarque</strong>: adAffectAll est caché dans l’Explorateur d’objets Visual Basic.</p>
 </td>
 </tr>
 <tr class="even">

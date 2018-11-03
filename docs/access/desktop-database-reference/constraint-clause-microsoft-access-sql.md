@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b55bf1897c6b5fc5cd7ee70402e466f2180b7d92
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 26d2b4b6281dd762e95113d5ca022e7c0d136755
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890924"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937042"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>Clause CONSTRAINT (Microsoft Access SQL)
 
@@ -32,11 +32,11 @@ Utilisez la clause CONSTRAINT dans les instructions [ALTER TABLE](alter-table-st
 
 ## <a name="syntax"></a>Syntaxe
 
-**Contrainte sur un seul champ**:
+### <a name="single-field-constraint"></a>Contrainte sur un seul champ
 
 CONSTRAINT *nom* {PRIMARY KEY | UNIQUE | NON NULL | REFERENCES *tableétrangère* \[(*champétranger1, champétranger2*)\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
 
-**Contrainte sur plusieurs champs**:
+### <a name="multiple-field-constraint"></a>Contrainte sur plusieurs champs
 
 CONSTRAINT *nom* {PRIMARY KEY (*primaire1*\[, *primaire2* \[,... \]\]) | UNIQUE (*unique1*\[, *unique2* \[,... \]\]) | NON NULL (*nonnulle1*\[, *nonnulle2* \[,... \]\]) | CLÉ étrangère \[aucun INDEX\] (*réf1*\[, *réf2* \[,... \] \]) REFERENCES *tableétrangère* \[(*champétranger1* \[, *champétranger2* \[,... \] \])\] \[ON UPDATE CASCADE | La valeur NULL\] \[ON DELETE CASCADE | La valeur NULL\]}
 

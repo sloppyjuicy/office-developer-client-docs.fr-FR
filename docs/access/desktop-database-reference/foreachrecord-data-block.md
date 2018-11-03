@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd16b91bb3d6ca0d206be0a63bb73e6f9176da8e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921025"
+ms.locfileid: "25937525"
 ---
 # <a name="foreachrecord-data-block"></a>Bloc de données PourChaqueEnregistrement
 
@@ -20,11 +20,8 @@ ms.locfileid: "25921025"
 
 Un bloc de données **PourChaqueEnregistrement** répète un ensemble d’instructions pour chaque enregistrement dans un domaine.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Le bloc de données <STRONG>PourChaqueEnregistrement</STRONG> est disponible uniquement dans les macros de données.</P>
-
-
+> [!REMARQUE] Le bloc de données **PourChaqueEnregistrement** est disponible uniquement dans les macros de données.
 
 ## <a name="setting"></a>Paramètre
 
@@ -50,7 +47,7 @@ L'action **PourChaqueEnregistrement** utilise les arguments suivants.
 <td><p>Une chaîne qui identifie le domaine d’enregistrements de fonctionner sur. L’argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p>
 
 > [!NOTE]
-> <P>Le domaine spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.</P>
+> Le domaine spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.
 
 
 <p></p></td>

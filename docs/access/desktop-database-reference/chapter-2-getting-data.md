@@ -1,20 +1,19 @@
 ---
-title: 'Chapitre 2 : Obtention de données'
-TOCTitle: 'Chapter 2: Getting Data'
+title: 'Chapitre 2 : Extraction de données'
+TOCTitle: 'Chapter 2: Getting data'
 ms:assetid: 72d097e1-9284-cc27-fd48-e6bbb6a2a543
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249465(v=office.15)
 ms:contentKeyID: 48545619
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7b045676cad97ffa1dc60f7370ec5013d4c30bdf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 729d7a74c8e1ead84810e82d608e4e9b37268a6b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888075"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937000"
 ---
-# <a name="chapter-2-getting-data"></a>Chapitre 2 : Obtention de données
-
+# <a name="chapter-2-getting-data"></a>Chapitre 2 : Extraction de données
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,20 +25,17 @@ Pour extraire les données, votre application doit être en communication avec u
 
 Le modèle d'objet ADO représente le concept d'une connexion avec l'objet **Connection**: la clé de voûte d'une grande partie de la fonctionnalité ADO. La finalité d'un objet **Connection** est la suivante :
 
-  - Déterminer les informations qu'ADO doit communiquer aux sources de données et créer des sessions.
+- Déterminer les informations qu'ADO doit communiquer aux sources de données et créer des sessions.
 
-  - Déterminer les capacités transactionnelles de la session.
+- Déterminer les capacités transactionnelles de la session.
 
-  - Vous permettre de créer et d'exécuter des commandes sur la source de données.
+- Vous permettre de créer et d'exécuter des commandes sur la source de données.
 
-  - Fournir des informations sur la conception de la source de données sous-jacente sous la forme d'ensembles de lignes schématiques. Pour en savoir plus sur ces derniers, reportez-vous à la rubrique [OpenSchema, méthode](openschema-method-ado.md).
+- Fournir des informations sur la conception de la source de données sous-jacente sous la forme d'ensembles de lignes schématiques. Pour en savoir plus sur ces derniers, reportez-vous à la rubrique [OpenSchema, méthode](openschema-method-ado.md).
 
 Ce chapitre présente les rubriques suivantes :
 
-  - [Connexion](making-a-connection.md)
-
-  - [Using the Connection Object Reference (ADO)](using-the-connection-object-access.md)
-
-  - [Using the Command Object Reference (ADO)](using-the-command-object-access.md)
-
-  - [Adding Data to a Recordset (ADO)](adding-data-to-a-recordset.md)
+- [Établissement d’une connexion](making-a-connection.md)
+- [À l’aide de la référence d’objet connection (ADO)](using-the-connection-object-access.md)
+- [À l’aide de la référence d’objet commande (ADO)](using-the-command-object-access.md)
+- [Ajout de données à un jeu d’enregistrements (ADO)](adding-data-to-a-recordset.md)

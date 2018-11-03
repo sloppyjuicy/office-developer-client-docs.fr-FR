@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 72d9d9d27ac128ec587621231b5c899bc89c2752
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b2a7bdadeb700bdbc6bf18dda2e73401afb7df86
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925947"
+ms.locfileid: "25937350"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Sous-requêtes SQL (Microsoft Access SQL)
 
@@ -111,9 +111,7 @@ Certaines sous-requêtes sont autorisées dans les requêtes Analyse croisée ma
 
 ## <a name="example"></a>Exemple
 
-Dans cet exemple, le nom et le contact de chaque client, qui a passé une commande dans le second trimestre de 1995, sont fournis.
-
-La procédure EnumFields (que vous pouvez trouver dans l'exemple d'instruction SELECT) est appelée dans cet exemple.
+Dans cet exemple, le nom et le contact de chaque client, qui a passé une commande dans le second trimestre de 1995, sont fournis. Il appelle la procédure EnumFields que vous pouvez trouver dans l’exemple d’instruction SELECT.
 
 ```vb
     Sub SubQueryX() 

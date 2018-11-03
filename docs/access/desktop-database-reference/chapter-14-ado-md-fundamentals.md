@@ -1,20 +1,19 @@
 ---
-title: 'Chapitre 14 : Principes de base ADO MD'
-TOCTitle: 'Chapter 14: ADO MD Fundamentals'
+title: 'Chapitre 14 : Principes fondamentaux de la ADO MD'
+TOCTitle: 'Chapter 14: ADO MD fundamentals'
 ms:assetid: 129baa54-0bc1-985d-4bfd-25a1c1c3018e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9e89673dcb5cce124747d914f63d1a38353aebe
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8079851a59e8fe0d077dcbeed5b354e924aca6a2
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885744"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936732"
 ---
-# <a name="chapter-14-ado-md-fundamentals"></a>Chapitre 14 : Principes de base ADO MD
-
+# <a name="chapter-14-ado-md-fundamentals"></a>Chapitre 14 : Principes fondamentaux de la ADO MD
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -22,14 +21,11 @@ Microsoft ActiveX Data Objects (Multidimensional) (ADO MD) permet d'accéder fac
 
 À l'instar d'ADO, ADO MD utilise un fournisseur OLE DB sous-jacent pour accéder aux données. Pour utiliser ADO MD, le fournisseur doit être un fournisseur de données multidimensionnelles (MDP), tel qu'il est défini par OLE DB pour la spécification OLAP. Les fournisseurs de données multidimensionnelles présentent les données dans des vues multidimensionnelles, contrairement aux fournisseurs de données tabulaires (TDP), qui présentent les données dans des vues tabulaires. Consultez la documentation de votre fournisseur OLAP OLE DB pour des informations détaillées sur la syntaxe et le comportement spécifiques pris en charge par votre fournisseur.
 
-Ce document suppose une connaissance pratique du langage de programmation Visual Basic et une connaissance générale d'ADO et d'OLAP. Pour plus d'informations, consultez [Guide du programmeur ADO](ado-programmer-s-guide.md) et « OLE DB for OLAP Programmer's Reference ». 
+Ce document suppose une connaissance pratique du langage de programmation Visual Basic et une connaissance générale d'ADO et d'OLAP. Pour plus d’informations, voir le [guide du programmeur ADO](ado-programmer-s-guide.md) et OLE DB pour guide OLAP. 
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Présentation des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md)
-
+- [Vue d’ensemble des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md)
 - [Utilisation de données multidimensionnelles](working-with-multidimensional-data.md)
-
 - [Utilisation d'ADO avec ADO MD](using-ado-with-ado-md.md)
-
 - [Programmation avec ADO MD](programming-with-ado-md.md)

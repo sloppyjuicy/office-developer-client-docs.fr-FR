@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f0e12f8d60ee3147eb456df302122a5b7eac684d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 771ce7a5a7f0a6721703953029b7bc8de9f0f251
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879927"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936573"
 ---
 # <a name="locktypeenum-enumeration-dao"></a>LockTypeEnum Enumeration (DAO)
 
@@ -50,7 +50,7 @@ Spécifie le type de verrouillage des enregistrements utilisé lors de l'ouvertu
 <td><p>Accès concurrentiel optimiste basé sur les valeurs d'enregistrement. Le curseur compare les valeurs des données dans l'ancien et le nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement (espaces de travail ODBCDirect uniquement).</p>
 
 > [!NOTE]
-> <P>[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</P>
+> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 
 </td>

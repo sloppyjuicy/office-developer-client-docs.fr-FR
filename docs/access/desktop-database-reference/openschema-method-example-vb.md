@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248797(v=office.15)
 ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5fccddd2f9566e0cb864a7a1cb4ccddb340fd0c5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d5de504f851bfa228bfaddad8923d7365e25492b
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873459"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936531"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema, méthode – Exemple (VB)
 
@@ -74,6 +74,8 @@ ErrorHandler:
 End Sub 
 'EndOpenSchemaVB 
 ```
+
+<br/>
 
 Cet exemple spécifie un tableau\_contrainte de requête de TYPE dans la méthode **OpenSchema** argument ***critère*** . Par conséquent, seules les informations de schéma des affichages spécifiés dans la base de données ***Pubs*** sont renvoyés. L'exemple affiche ensuite le nom et le type des différentes tables.
 

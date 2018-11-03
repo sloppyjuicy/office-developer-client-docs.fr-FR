@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249801(v=office.15)
 ms:contentKeyID: 48547001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8cb71c5e51e56447636b25639dae0733a729bdb1
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 2d4b622cd65cfaf71c45ac7ae8c77bdb596ebd3a
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910865"
+ms.locfileid: "25937805"
 ---
 # <a name="datacontrol-object-rds"></a>DataControl, objet (RDS)
 
@@ -92,7 +92,7 @@ Lorsque vous définissez la **RDS. DataControl** d’objets sur une page Web, ut
 
 Les composants clients Remote Data Service sont déjà inclus dans Internet Explorer 4.0 ; vous n'avez donc pas besoin d'inclure un paramètre CODEBASE dans votre balise d'objet **RDS.DataControl**.
 
-Avec Internet Explorer 4.0 ou version ultérieure, vous pouvez effectuer une liaison à des données à l'aide de contrôles HTML et ActiveX® uniquement s'ils sont identifiés comme des contrôles de modèle cloisonné.
+Avec Internet Explorer 4.0 ou version ultérieure, vous pouvez lier aux données à l’aide de contrôles HTML et les contrôles ActiveX uniquement s’ils sont marqués comme des contrôles de modèle apartment.
 
 **Utilisateurs de Microsoft Visual Basic** **RDS. DataControl** est utilisé uniquement dans les applications Web. Les applications clientes Visual Basic n'en ont pas besoin.
 

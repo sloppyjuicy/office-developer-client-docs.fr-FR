@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193192(v=office.15)
 ms:contentKeyID: 48544575
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 43c9d5ba4cd07e4ca388863fd79fb9b198a841af
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f9662c4f0cb691136a556faa32cb0d5a1c775268
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874103"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936832"
 ---
 # <a name="drop-user-or-group-statement-microsoft-access-sql"></a>Instruction DROP USER ou GROUP (Microsoft Access SQL)
 
@@ -21,11 +21,11 @@ Supprime un ou plusieurs *utilisateurs* ou *groupes*, ou un ou plusieurs *utilis
 
 ## <a name="syntax"></a>Syntaxe
 
-**Supprimer un ou plusieurs _utilisateurs_ ou supprimer un ou plusieurs _utilisateurs_ d’un _groupe_**:
+### <a name="delete-one-or-more-users-or-remove-one-or-more-users-from-a-group"></a>Supprimer un ou plusieurs utilisateurs ou supprimer un ou plusieurs utilisateurs d’un groupe
 
 DROP USER *utilisateur*\[, *utilisateur*,... \] \[De *groupe*\]
 
-**Supprimer un ou plusieurs _groupes_**:
+### <a name="delete-one-or-more-groups"></a>Supprimer un ou plusieurs groupes
 
 DROP GROUP *groupe*\[, *groupe*,...\]
 

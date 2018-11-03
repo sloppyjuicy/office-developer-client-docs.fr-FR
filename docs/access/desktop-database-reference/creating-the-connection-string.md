@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248853(v=office.15)
 ms:contentKeyID: 48543214
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd4bafd29195e2ff9898973351cd7d13262c3cec
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b346cd5c53ee101809237896acc0806bbf4e4624
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869679"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936930"
 ---
 # <a name="creating-the-connection-string"></a>Création de la chaîne de connexion
 
@@ -50,7 +50,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 </tr>
 <tr class="odd">
 <td><p><em>Serveur distant</em></p></td>
-<td><p>Spécifie le nom de chemin du serveur à utiliser pour les connexions côté client. (Remote Data Service uniquement.)</p></td>
+<td><p>Spécifie le nom du chemin d'accès du serveur à utiliser lors de l'ouverture d'une connexion côté client (RDS uniquement).</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 
 
 > [!NOTE]
-> Dans les exemples suivants ainsi que dans l'ensemble du guide du programmeur ADO, l'ID d'utilisateur « MyId » associé au mot de passe « 123aBc » est utilisé pour l'authentification auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
+> Dans les exemples suivants et dans le guide du programmeur ADO, l’id utilisateur « MyId » avec un mot de passe de « 123aBc » est utilisé pour authentifier auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
 
 Dans le chapitre 1, l'application HelloData a utilisé la chaîne de connexion suivante :
 

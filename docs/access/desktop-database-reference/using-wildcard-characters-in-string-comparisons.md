@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3c26b5e0a7e5448340cded61717ad27fb68aa827
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8fbc57c0a07777d62e5af82048e373e98678a8c1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869623"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936965"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Utilisation de caractères génériques dans les comparaisons de chaînes
 
@@ -60,7 +60,7 @@ Vous pouvez utiliser un groupe d’un ou plusieurs caractères (*argument charli
 
 Outre une simple liste de caractères placés entourés crochets, *charlist* peut spécifier une plage de caractères à l’aide d’un trait d’union (-) pour séparer les deux et les limites inférieures de la plage. Par exemple, à l’aide de \[A-Z\] dans *pattern, une correspondance si la position du caractère correspondant dans *expression* contient une lettre majuscule dans la plage de A à Z* . Vous pouvez inclure plusieurs plages entre les crochets sans les délimiter. Par exemple, \[a-zA-Z0-9\] correspond à n’importe quel caractère alphanumérique.
 
-Il est important de noter que les caractères génériques SQL ANSI (%) et (\_) sont uniquement disponibles avec Microsoft® Jet version 4.X et le fournisseur Microsoft OLE DB pour Jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
+Il est important de noter que les caractères génériques SQL ANSI (%) et (\_) sont uniquement disponibles avec Microsoft Jet version 4.X et le fournisseur Microsoft OLE DB pour Jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
 
 Les autres règles importantes en matière de correspondance de chaîne sont les suivantes :
 

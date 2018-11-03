@@ -1,6 +1,6 @@
 ---
 title: Propriété QueryDef.SQL (DAO)
-TOCTitle: SQL Property
+TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845522(v=office.15)
 ms:contentKeyID: 48543429
@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 25921f9bcd320c2ccc5d703b95e3ac818125d300
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 43acce256d3a46fd7b01122a8502e0af502eb3e9
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920745"
+ms.locfileid: "25937679"
 ---
 # <a name="querydefsql-property-dao"></a>Propriété QueryDef.SQL (DAO)
 
@@ -40,7 +40,7 @@ Si l'instruction SQL inclut des paramètres pour la requête, vous devez défini
 Dans un espace de travail Microsoft Access, c'est l'objet **QueryDef** qui est généralement utilisé pour exécuter des requêtes SQL directes sur les sources de données ODBC connectées au moteur de base de données Microsoft Access. En définissant la propriété **[Connect](querydef-connect-property-dao.md)** de l’objet **QueryDef** sur une source de données ODBC, vous pouvez utiliser SQL non – Microsoft – – base de données Access dans la requête à transmettre au serveur externe. Vous pouvez, par exemple utiliser des instructions TRANSACT SQL (avec des bases de données Microsoft SQL Server ou Sybase SQL Server), qui, sinon, ne seraient pas traitées par le moteur de base de données Microsoft Access.
 
 > [!NOTE]
-> Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous Essayez d’exécuter l’objet **QueryDef** dans une base de données de moteur de base de données Microsoft Access. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
+> Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), une erreur se produit lorsque vous essayez d’exécuter l’objet **QueryDef** dans Microsoft Base de données du moteur de base de données Access. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
 
 ## <a name="example"></a>Exemple
 
@@ -121,9 +121,13 @@ Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un obje
        End With 
      
     End Function 
+```
+
+<br/>
+
+Cet exemple illustre une utilisation possible de CopyQueryNew(). 
      
-    This example shows a possible use of CopyQueryNew(). 
-     
+```vb
     Sub CopyQueryDefX() 
      
        Dim dbsNorthwind As Database 

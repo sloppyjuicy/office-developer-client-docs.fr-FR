@@ -1,25 +1,25 @@
 ---
 title: Guide du programmeur ADO
-TOCTitle: ADO Programmer's Guide
+TOCTitle: ADO programmer's guide
 ms:assetid: b68a982e-17b6-7dd6-ca9d-3a5960d815da
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e0ad3f70f1bfe2aa8128e0bd2f504c200546a9a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ed490a6260e6cf15f98ef00f32bde2a100854a38
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883637"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937686"
 ---
 # <a name="ado-programmers-guide"></a>Guide du programmeur ADO
 
 **S’applique à**: Access 2013, Office 2013
 
-Le Guide du programmeur ADO a été créé dans le but d'aider les développeurs qui découvrent ADO en leur donnant une présentation détaillée de la technologie. Ce guide décrit les bibliothèques de la famille ADO et utilise des exemples de code dans divers langages pour expliquer comment utiliser les bibliothèques, les meilleurs pratiques d'utilisation de ces bibliothèques, ainsi que des conseils et astuces pour tirer pleinement parti des performances de votre application ADO.
+Guide du programmeur ADO a été créé pour aider les développeurs qui sont Nouveautés dans ADO en leur donnant une présentation détaillée de la technologie. Ce guide décrit les bibliothèques de la famille ADO et utilise des exemples de code dans divers langages pour expliquer comment utiliser les bibliothèques, les meilleurs pratiques d'utilisation de ces bibliothèques, ainsi que des conseils et astuces pour tirer pleinement parti des performances de votre application ADO.
 
-Le Guide du programmeur ADO est composé des sections et chapitres suivants :
+Guide du programmeur ADO contient les sections et chapitres suivants :
 
 - [Introduction](introduction-to-ado-programming.md)
   

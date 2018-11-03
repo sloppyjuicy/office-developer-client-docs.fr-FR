@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8c6e9b7a77a71acdb50536e21d9f6278dd127d75
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888663"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937133"
 ---
 # <a name="filter-property-ado"></a>Filter, propriété (ADO)
 
@@ -44,7 +44,7 @@ La chaîne de critères est composée de clauses de *Type NomChamp-Opérateur-va
     
 
     > [!NOTE]
-    > <P>[!REMARQUE] Pour insérer des guillemets simples (') dans la valeur Value du filtre, utilisez deux guillemets simples pour en représenter un. Par exemple, pour créer un filtre O'Malley, la chaîne de critères doit être « col1 = 'O''Malley' ». Pour insérer des guillemets simples au début et à la fin de la valeur du filtre, placez un signe dièse (#) devant et derrière la chaîne. Par exemple, pour filtrer la valeur '1', la chaîne de critères doit apparaître ainsi « col1 = #'1'# ».</P>
+    > [!REMARQUE] Pour insérer des guillemets simples (') dans la valeur Value du filtre, utilisez deux guillemets simples pour en représenter un. Par exemple, pour créer un filtre O'Malley, la chaîne de critères doit être « col1 = 'O''Malley' ». Pour insérer des guillemets simples au début et à la fin de la valeur du filtre, placez un signe dièse (#) devant et derrière la chaîne. Par exemple, pour filtrer la valeur '1', la chaîne de critères doit apparaître ainsi « col1 = #'1'# ».
 
 
 
@@ -66,19 +66,12 @@ Pour plus d'explications sur les valeurs de signets à partir desquelles vous po
 
 Seuls les **filtres** sous la forme de chaînes de critères (P.ex \> ' 12/31/1999 ') affectent le contenu du **jeu d’enregistrements**persistant. Les **filtres** créés avec un tableau de **signets** ou en utilisant une valeur provenant de **FilterGroupEnum** ne modifient pas le contenu du jeu d'enregistrements persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Lorsque vous appliquez l'indicateur <STRONG>adFilterPendingRecords</STRONG> à un <STRONG>jeu d'enregistrements</STRONG> filtré et modifié lors d'une mise à jour par lot, le <STRONG>jeu d'enregistrements</STRONG> résultant est vide si le filtrage portait sur le champ clé d'une table à clé unique et si la modification a été apportée sur les valeurs de ce champ clé. Le <STRONG>jeu d'enregistrements</STRONG> résultant n'est pas vide si l'une des affirmations suivantes est vraie :</P>
-
-
-
-  - Le filtrage portait sur des champs non-clé d'une table à clé unique.
-
-  - Le filtrage portait sur l'un des champs d'une table à clés multiples.
-
-  - Les modifications ont été apportées sur des champs non-clés d'une table à clé unique.
-
-  - Les modifications ont été apportées sur l'un des champs d'une table à clés multiples.
+> [!REMARQUE] Lorsque vous appliquez l'indicateur **adFilterPendingRecords** à un **jeu d'enregistrements** filtré et modifié lors d'une mise à jour par lot, le **jeu d'enregistrements** résultant est vide si le filtrage portait sur le champ clé d'une table à clé unique et si la modification a été apportée sur les valeurs de ce champ clé. Le **jeu d'enregistrements** résultant n'est pas vide si l'une des affirmations suivantes est vraie :
+> - Le filtrage portait sur des champs non-clé d'une table à clé unique.
+> - Le filtrage portait sur l'un des champs d'une table à clés multiples.
+> - Les modifications ont été apportées sur des champs non-clés d'une table à clé unique.
+> - Les modifications ont été apportées sur l'un des champs d'une table à clés multiples.
 
 Le tableau suivant résume les effets d' **adFilterPendingRecords** dans différentes combinaisons de filtrage et de modifications. La colonne de gauche indique les modifications possibles ; les modifications peuvent être apportées sur tous les champs non-clés, sur le champ clé d'une table à clé unique ou l'un des champs clé d'une table à clés multiples. La ligne supérieure indique le critère de filtrage ; le filtrage peut porter sur l'un des champs non-clés, sur le champ clé d'une table à clé unique ou sur n'importe lequel des champs clé d'une table à clés multiples. Les cellules qui se recoupent présentent les résultats : + signifie que l'application de **adFilterPendingRecords** donne un **Recordset** non vide ; **-** indique un **Recordset** vide.
 

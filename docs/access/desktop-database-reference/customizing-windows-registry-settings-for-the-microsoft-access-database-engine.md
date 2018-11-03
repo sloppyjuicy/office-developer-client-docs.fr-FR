@@ -10,19 +10,18 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a44226e8ea90a8be96de35cdc923349eded17cb4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4127178f0158e2ab6deb177402f13d3edc6ac9e
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886997"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937721"
 ---
 # <a name="customizing-windows-registry-settings-for-the-microsoft-access-database-engine"></a>Personnalisation des paramètres du registre Windows pour le moteur de base de données Microsoft Access
 
-
 **S’applique à**: Access 2013, Office 2013
 
-Si votre application ne fonctionne pas correctement avec la fonctionnalité par défaut du moteur de base de données Microsoft Access, vous devrez peut-être modifier les paramètres dans le registre Microsoft® Windows® en fonction de vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
+Si votre application ne fonctionne pas correctement avec la fonctionnalité par défaut du moteur de base de données Microsoft Access, vous devrez modifier les paramètres dans le Registre Microsoft Windows pour répondre à vos besoins. Le registre Windows peut aussi être utilisé pour ajuster le fonctionnement du pilote ISAM et ODBC pouvant être installé.
 
 Vous pouvez personnaliser les paramètres du registre Windows de quatre manières différentes :
 

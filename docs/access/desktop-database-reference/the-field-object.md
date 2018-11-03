@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0b01232e7afd4f32411a53dec6ae233c786c1c08
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b6841eb674aac04b979623a65b27ca84a8bc927c
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873403"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937146"
 ---
 # <a name="field-object"></a>Field, objet
 
@@ -46,7 +46,7 @@ Les rubriques suivantes abordent les propriétés de l'objet [Field](field-objec
 
 ## <a name="discovering-the-data-type"></a>Recherche du type de données
 
-La propriété **Type** indique le type de données du champ. Les constantes énumérées du type de données prises en charge par ADO sont décrites dans [DataTypeEnum](datatypeenum.md) du *guide de référence du programmeur ADO*.
+La propriété **Type** indique le type de données du champ. Les constantes de type énuméré de données qui sont prises en charge par ADO sont décrites dans la *référence du programmeur ADO* [DataTypeEnum](datatypeenum.md) .
 
 Pour les types numériques en virgule flottante comme **adNumeric**, vous pouvez obtenir plus d'informations. La propriété **NumericScale** indique le nombre de chiffres à droite du point décimal utilisé pour représenter les valeurs du **champ**. La propriété **Precision** spécifie le nombre maximal de chiffres utilisé pour représenter les valeurs du **champ**.
 
@@ -125,5 +125,5 @@ Si la section **adFldLong** de la propriété **Attributes** d'un objet **Field*
 
 S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** ou **AppendChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement actif) survient.
 
-Pour consulter un exemple de l’utilisation de ces méthodes pour manipuler des données binaires, reportez-vous aux exemples [AppendChunk, méthode](appendchunk-method-ado.md) et [GetChunk, méthode](getchunk-method-ado.md) dans le *guide de référence du programmeur ADO*.
+Pour obtenir un exemple d’utilisation de ces méthodes pour manipuler des données binaires, consultez les exemples [AppendChunk, méthode](appendchunk-method-ado.md) et [GetChunk, méthode](getchunk-method-ado.md) dans la *référence du programmeur ADO*.
 

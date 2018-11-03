@@ -12,12 +12,12 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f7dfaa7a8c3d6b3e41b2443bcca621d083c3a167
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 8481102d587480577c0ba73d2da46385359a92c6
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889629"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937338"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>Instruction ALTER TABLE (Microsoft Access SQL)
 
@@ -26,7 +26,7 @@ ms.locfileid: "25889629"
 Modifie la structure d'une table après qu'elle a été créée avec l'instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
 > [!NOTE]
-> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge ALTER TABLE, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes **Create DAO** à la place.
+> [!REMARQUE] Le moteur de base de données Microsoft Access ne prend pas en charge ALTER TABLE, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez les méthodes DAO **créer** à la place.
 
 ## <a name="syntax"></a>Syntaxe
 

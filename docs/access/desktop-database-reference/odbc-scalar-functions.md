@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 21e6000e8620011f5f6f0c2481bb9c03fd71bab5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: f4a519f1853c0779777d59e6e6c314cbaaf60621
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887956"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937455"
 ---
 # <a name="odbc-scalar-functions"></a>Fonctions scalaires ODBC
 
 
 **S’applique à**: Access 2013, Office 2013
 
-Microsoft® Access SQL prend en charge l'utilisation de la syntaxe définie par ODBC pour les fonctions scalaires. Par exemple, la requête :
+Microsoft Access SQL prend en charge l’utilisation de la syntaxe définie par ODBC pour les fonctions scalaires. Par exemple, la requête :
 
 SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} \> 5
 

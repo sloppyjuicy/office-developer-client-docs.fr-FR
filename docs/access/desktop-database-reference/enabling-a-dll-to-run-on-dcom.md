@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 750848ce0e787506085899f4717730e1ca0a8f13
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eeec1109d2e352d43eaaa66a7e081123d7f388ee
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868692"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25937714"
 ---
 # <a name="enabling-a-dll-to-run-on-dcom"></a>Configuration d'une DLL pour son exécution sur DCOM
 
 
 **S’applique à**: Access 2013, Office 2013
 
-Les étapes suivantes expliquent dans les grandes lignes comment configurer des bibliothèques de liens dynamiques d'un objet métier pour utiliser DCOM et Microsoft® Internet Information Services (protocole HTTP) via les services de composants.
+Les étapes suivantes décrivent comment activer une bibliothèques de liens dynamiques objet métier utiliser DCOM et Microsoft Internet Information Services (protocole HTTP) via les Services de composants.
 
 1.  Créez un package vide dans le composant logiciel enfichable MMC Services de composants. Vous devez utiliser le composant logiciel enfichable MMC Services de composants pour créer un package et pour y ajouter la DLL. Cette opération rend le fichier.dll accessible via DCOM mais supprime en revanche l'accessibilité via IIS. (Si vous recherchez la DLL dans le Registre, vous constaterez que la clé **Inproc** est vide. La définition de l'attribut Activation ajoute une valeur à la clé **Inproc**. Ce dernier point est expliqué plus loin dans cette rubrique.)
 

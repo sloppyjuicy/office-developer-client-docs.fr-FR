@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09660c472a6fd799c111214dafe3266cdec9eced
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926646"
+ms.locfileid: "25937448"
 ---
 # <a name="field2getchunk-method-dao"></a>Méthode Field2.GetChunk (DAO)
 
@@ -72,11 +72,8 @@ Si le décalage est égal à 0, **GetChunk** commence la copie à partir du prem
 
 Si la valeur du paramètre NbOctets est supérieur au nombre d’octets dans le champ, **GetChunk** renvoie le nombre réel d’octets restant dans le champ.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Utilisez un champ de type <STRONG>Memo</STRONG> pour du texte et placez les données binaires uniquement dans des champs de type <STRONG>Long Binary</STRONG>. Sinon, vous n'obtiendrez pas les résultats escomptés.</P>
-
-
+> [!REMARQUE] Utilisez un champ de type **Memo** pour du texte et placez les données binaires uniquement dans des champs de type **Long Binary**. Sinon, vous n'obtiendrez pas les résultats escomptés.
 
 ## <a name="example"></a>Exemple
 

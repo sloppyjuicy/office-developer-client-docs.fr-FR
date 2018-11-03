@@ -1,20 +1,19 @@
 ---
-title: 'Chapitre 3 : Examen de données'
-TOCTitle: 'Chapter 3: Examining Data'
+title: 'Chapitre 3 : Examen des données'
+TOCTitle: 'Chapter 3: Examining data'
 ms:assetid: 73c69134-3127-3344-d5c3-5ecb9e0e958b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249474(v=office.15)
 ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b5542b465cc6fc31949f2ceb5ed8bda408b1e653
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4b489400536675fccced8f87aae515b019b87123
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25875930"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936860"
 ---
-# <a name="chapter-3-examining-data"></a>Chapitre 3 : Examen de données
-
+# <a name="chapter-3-examining-data"></a>Chapitre 3 : Examen des données
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -54,6 +53,8 @@ ErrHandler:
 End Sub 
 'EndRsTour 
 ```
+
+<br/>
 
 Cette requête SQL renvoie un **jeu d'enregistrements** constitué de cinq lignes (enregistrements) et de trois colonnes (champs). Les valeurs de chaque ligne sont indiquées dans le tableau suivant.
 
@@ -107,8 +108,6 @@ La section suivante explique comment trouver la position actuelle du curseur dan
 
 Ce chapitre présente les rubriques suivantes :
 
-  - [Locating the Current Record (ADO)](locating-the-current-record.md)
-
-  - [Navigating Through the Data (ADO)](navigating-through-the-data.md)
-
-  - [Understanding Recordset Structure (ADO)](understanding-recordset-structure.md)
+- [Localisation de l’enregistrement actif (ADO)](locating-the-current-record.md)
+- [Naviguer dans les données (ADO)](navigating-through-the-data.md)
+- [Présentation de la structure de l’objet Recordset (ADO)](understanding-recordset-structure.md)

@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250215(v=office.15)
 ms:contentKeyID: 48548576
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc70603c9b3dc48090558662b775725017062411
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9b359e75d67a4ed9e3ad4ef1df23a1adc1279751
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880221"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936321"
 ---
 # <a name="ole-db-providers"></a>Fournisseurs OLE DB
 
 
 **S’applique à**: Access 2013, Office 2013
 
-L'introduction du manuel [ADO Programmer's Guide](introduction-to-ado-programming.md) (en anglais) présente la relation entre ADO et le reste de l'architecture Microsoft Data Access. OLE DB définit un ensemble d'interfaces COM qui fournissent aux applications un accès uniforme à des données stockées dans plusieurs sources d'informations. Cette approche permet aux sources de données de partager leurs données via plusieurs interfaces qui prennent en charge les fonctionnalités SGBD appropriées pour ces sources de données. L'architecture hautement performante d'OLE DB est conçue pour utiliser un modèle de services d'une grande souplesse, basée sur des composants. Au lieu d'avoir un nombre défini de couches intermédiaires entre l'application et les données, OLE DB n'utilise que le nombre de composants strictement nécessaires à la réalisation d'une tâche précise.
+Guide du programmeur ADO [Introduction](introduction-to-ado-programming.md) présente la relation entre ADO et le reste de l’architecture Microsoft Data Access. OLE DB définit un ensemble d'interfaces COM qui fournissent aux applications un accès uniforme à des données stockées dans plusieurs sources d'informations. Cette approche permet aux sources de données de partager leurs données via plusieurs interfaces qui prennent en charge les fonctionnalités SGBD appropriées pour ces sources de données. L'architecture hautement performante d'OLE DB est conçue pour utiliser un modèle de services d'une grande souplesse, basée sur des composants. Au lieu d'avoir un nombre défini de couches intermédiaires entre l'application et les données, OLE DB n'utilise que le nombre de composants strictement nécessaires à la réalisation d'une tâche précise.
 
 Supposons, par exemple, qu'un utilisateur souhaite exécuter une requête. Plusieurs scénarios sont envisageables :
 
