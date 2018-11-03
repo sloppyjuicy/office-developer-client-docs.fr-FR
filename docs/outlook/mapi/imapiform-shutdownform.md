@@ -23,7 +23,7 @@ ms.locfileid: "25384835"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Ferme le formulaire.
   

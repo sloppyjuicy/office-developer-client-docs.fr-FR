@@ -23,7 +23,7 @@ ms.locfileid: "25383526"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Date lorsque l’utilisateur souhaite commencer la tâche.
   
@@ -63,16 +63,16 @@ Mapidefs.h
 
 
 
-[Propri�t� canonique PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
+[Propriété canonique PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)
   
-[Propri�t� canonique PidLidCommonStart](pidlidcommonstart-canonical-property.md)
+[Propriété canonique PidLidCommonStart](pidlidcommonstart-canonical-property.md)
 
 
 [Propriétés MAPI](mapi-properties.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
 

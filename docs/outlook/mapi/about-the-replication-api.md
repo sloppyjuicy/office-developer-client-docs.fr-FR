@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
-description: 'Derni�re modification�: lundi 25 juin 2012'
+description: 'Dernière modification : 25 juin 2012'
 ms.openlocfilehash: 532c01d6885e72753067b2d30bf2bd5f88207176
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25396056"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 L’API de réplication fournit les fonctionnalités pour un fournisseur de magasin de message MAPI synchroniser des éléments Microsoft Outlook 2013 ou Microsoft Outlook 2010 entre un serveur et un magasin local privé basée sur .pst est créé pour ce fournisseur. 
   

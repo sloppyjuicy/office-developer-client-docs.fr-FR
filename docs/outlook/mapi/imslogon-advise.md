@@ -23,7 +23,7 @@ ms.locfileid: "25382756"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Inscrit un objet avec un fournisseur de magasin de message pour les notifications sur les modifications dans la banque de messages. La banque de messages envoie ensuite les notifications sur les modifications apportées à l’objet inscrit.
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: 'Derni�re modification�: jeudi 5 juillet 2012'
+description: 'Dernière modification : 05 juillet 2012'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "25393382"
 ---
 # <a name="upmov"></a>UPMOV
  
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Informations de téléchargement des éléments qui ont été déplacés. Ces informations sont utilisées lors du [téléchargement supprimer l’état](upload-delete-status-state.md) et [Télécharger l’état de la table](upload-table-state.md).
   
@@ -39,7 +39,7 @@ struct UPMOV
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
@@ -59,11 +59,11 @@ _ulFlags_
     
 _Conservés_
   
->  [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pstmReserved_
   
->  [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pszName_
   
@@ -86,7 +86,7 @@ _pxicc_
     
 _dwReserved_
   
->  [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+>  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pupmovNext_
   

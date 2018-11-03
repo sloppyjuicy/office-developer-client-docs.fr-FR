@@ -23,7 +23,7 @@ ms.locfileid: "25385563"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Répartition des forces de toutes les notifications en file d’attente. 
   

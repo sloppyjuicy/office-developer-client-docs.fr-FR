@@ -19,7 +19,7 @@ ms.locfileid: "25391654"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Le nom de chaque propriété nommée comporte deux parties :
   

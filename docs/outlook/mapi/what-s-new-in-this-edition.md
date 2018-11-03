@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: 23a8b84af50cc8a046206ab37144d84c4c9b6d56
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25392885"
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 La référence Microsoft Outlook 2013 MAPI a été mis à jour pour inclure la documentation pour différentes nouvelles fonctionnalités. 
   
@@ -47,11 +47,11 @@ Le contenu a été ajouté pour les fonctionnalités suivantes :
     
 - **Propriétés**— la **PR_CONVERSATION_KEY** nommé rubrique de la propriété ([Propriété canonique PidTagConversationKey](pidtagconversationkey-canonical-property.md)) a été ajoutée et se rapporte à **IPM. MessageManager** uniquement les messages dans Outlook MAPI. Les rubriques suivantes concernant la documentation de flux de Transport-Neutral Encapsulation Format (TNEF) et ont été révisées : 
     
-  - [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+  - [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
     
-  - [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+  - [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
     
-  - [Mappage d’attributs TNEF aux propriétés MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
+  - [Mappage d’attributs TNEF sur des propriétés MAPI](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID et attParentID](attconversationid-and-attparentid.md)
     

@@ -23,7 +23,7 @@ ms.locfileid: "25398842"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Rend permanentes toutes les modifications qui ont été apportées à un objet depuis la dernière opération d’enregistrement. 
   
@@ -61,7 +61,7 @@ MAPI_DEFERRED_ERRORS
     
 SPAMFILTER_ONSAVE
   
-> Permet de courrier indésirable de filtrage d’un message est enregistré. Prise en charge de filtrage du courrier indésirable est disponible uniquement si le type d’adresse de messagerie de l’expéditeur est SMTP Simple Mail Transfer Protocol (), et le message est enregistré dans un magasin d’un fichier de dossiers personnels (PST).
+> Permet de courrier indésirable de filtrage d’un message est enregistré. La prise en charge du filtrage du courrier indésirable n’est disponible que si le type d’adresse e-mail de l’expéditeur suit le protocole SMTP et que le message est enregistré dans une banque pour un fichier de dossiers personnels (PST).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
