@@ -1,27 +1,27 @@
 ---
 title: Submacro, instruction de macro
-TOCTitle: Submacro Macro Statement
+TOCTitle: Submacro macro statement
 ms:assetid: fb580c19-52cd-c0bd-9117-4fa721eead6b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837173(v=office.15)
 ms:contentKeyID: 48548867
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 379680fc527b3c5165ae5df99dd354b37dfb9322
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: b514d0896be25e11436cd7d7ac9f924fdf7eb3f1
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910795"
+ms.locfileid: "25924980"
 ---
-# <a name="submacro-macro-statement"></a><span data-ttu-id="5e0b8-102">Submacro, instruction de macro</span><span class="sxs-lookup"><span data-stu-id="5e0b8-102">Submacro Macro Statement</span></span>
+# <a name="submacro-macro-statement"></a><span data-ttu-id="c0e0c-102">Submacro, instruction de macro</span><span class="sxs-lookup"><span data-stu-id="c0e0c-102">Submacro macro statement</span></span>
 
-<span data-ttu-id="5e0b8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5e0b8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c0e0c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0e0c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5e0b8-104">L’instruction **Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-104">The **Submacro** statement defines a separate macro in the Macro Designer window.</span></span>
+<span data-ttu-id="c0e0c-104">L’instruction **Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-104">The **Submacro** statement defines a separate macro in the Macro Designer window.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="5e0b8-105">Paramètre</span><span class="sxs-lookup"><span data-stu-id="5e0b8-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="c0e0c-105">Paramètre</span><span class="sxs-lookup"><span data-stu-id="c0e0c-105">Setting</span></span>
 
-<span data-ttu-id="5e0b8-106">L'instruction **Submacro** utilise les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-106">The **Submacro** action has the following arguments.</span></span>
+<span data-ttu-id="c0e0c-106">L'instruction **Submacro** utilise les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-106">The **Submacro** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -31,26 +31,26 @@ ms.locfileid: "25910795"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="5e0b8-107">Argument</span><span class="sxs-lookup"><span data-stu-id="5e0b8-107">Argument</span></span></p></th>
-<th><p><span data-ttu-id="5e0b8-108">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="5e0b8-108">Required</span></span></p></th>
-<th><p><span data-ttu-id="5e0b8-109">Description</span><span class="sxs-lookup"><span data-stu-id="5e0b8-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="c0e0c-107">Argument</span><span class="sxs-lookup"><span data-stu-id="c0e0c-107">Argument</span></span></p></th>
+<th><p><span data-ttu-id="c0e0c-108">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="c0e0c-108">Required</span></span></p></th>
+<th><p><span data-ttu-id="c0e0c-109">Description</span><span class="sxs-lookup"><span data-stu-id="c0e0c-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5e0b8-110">Name</span><span class="sxs-lookup"><span data-stu-id="5e0b8-110">Name</span></span></p></td>
-<td><p><span data-ttu-id="5e0b8-111">Oui</span><span class="sxs-lookup"><span data-stu-id="5e0b8-111">Yes</span></span></p></td>
-<td><p><span data-ttu-id="5e0b8-112">Chaîne qui apparaît comme nom de la macro.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-112">A string that appears as the name of the macro.</span></span></p></td>
+<td><p><span data-ttu-id="c0e0c-110">Name</span><span class="sxs-lookup"><span data-stu-id="c0e0c-110">Name</span></span></p></td>
+<td><p><span data-ttu-id="c0e0c-111">Oui</span><span class="sxs-lookup"><span data-stu-id="c0e0c-111">Yes</span></span></p></td>
+<td><p><span data-ttu-id="c0e0c-112">Chaîne qui apparaît comme nom de la macro.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-112">A string that appears as the name of the macro.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="example"></a><span data-ttu-id="5e0b8-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="5e0b8-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c0e0c-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="c0e0c-113">Example</span></span>
 
-<span data-ttu-id="5e0b8-114">La macro suivante illustre l'utilisation de l'action **SurErreur**.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-114">The following macro demonstrates the use of the **OnError** action.</span></span> <span data-ttu-id="5e0b8-115">Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-115">In this example, the **OnError** action specifies that Access run a custom error handling macro named ErrorHandler when an error occurs.</span></span> <span data-ttu-id="5e0b8-116">Lorsqu’une erreur se produit, le submacro CatchErrors est appelée.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-116">When an error occurs, the CatchErrors submacro is called.</span></span> <span data-ttu-id="5e0b8-117">Si le numéro d’erreur est 2102, un message s’affiche et l’exécution de la macro est interrompue.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-117">If the error number is 2102, a specific message is displayed and macro execution is halted.</span></span> <span data-ttu-id="5e0b8-118">Sinon, un message décrivant l’erreur s’affiche et la macro est interrompue de sorte que vous pouvez effectuer des opérations de dépannage.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-118">Otherwise, a message describing the error is displayed and the macro is paused so that you can perform additional troubleshooting.</span></span> <span data-ttu-id="5e0b8-119">Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.</span><span class="sxs-lookup"><span data-stu-id="5e0b8-119">The ErrorHandler macro displays a message box that refers to the **MacroError** object to display information about the error.</span></span>
+<span data-ttu-id="c0e0c-114">La macro suivante illustre l'utilisation de l'action **SurErreur**.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-114">The following macro demonstrates the use of the **OnError** action.</span></span> <span data-ttu-id="c0e0c-115">Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-115">In this example, the **OnError** action specifies that Access run a custom error handling macro named ErrorHandler when an error occurs.</span></span> <span data-ttu-id="c0e0c-116">Lorsqu’une erreur se produit, le submacro CatchErrors est appelée.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-116">When an error occurs, the CatchErrors submacro is called.</span></span> <span data-ttu-id="c0e0c-117">Si le numéro d’erreur est 2102, un message s’affiche et l’exécution de la macro est interrompue.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-117">If the error number is 2102, a specific message is displayed and macro execution is halted.</span></span> <span data-ttu-id="c0e0c-118">Sinon, un message décrivant l’erreur s’affiche et la macro est interrompue de sorte que vous pouvez effectuer des opérations de dépannage.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-118">Otherwise, a message describing the error is displayed and the macro is paused so that you can perform additional troubleshooting.</span></span> <span data-ttu-id="c0e0c-119">Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.</span><span class="sxs-lookup"><span data-stu-id="c0e0c-119">The ErrorHandler macro displays a message box that refers to the **MacroError** object to display information about the error.</span></span>
 
-<span data-ttu-id="5e0b8-120">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="5e0b8-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="c0e0c-120">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="c0e0c-120">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

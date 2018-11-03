@@ -6,21 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f73e01c11f62b8c9eaff874dc315be083474532a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919737"
+ms.locfileid: "25937616"
 ---
-# <a name="querydef-members-dao"></a><span data-ttu-id="64a1a-102">Membres de l’objet QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="64a1a-102">QueryDef members (DAO)</span></span>
+# <a name="querydef-members-dao"></a><span data-ttu-id="9117f-102">Membres de l’objet QueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="9117f-102">QueryDef members (DAO)</span></span>
 
 
-<span data-ttu-id="64a1a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64a1a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9117f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9117f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64a1a-104">Un objet QueryDef est une définition stockée d'une requête dans une base de données du moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="64a1a-104">A QueryDef object is a stored definition of a query in a Microsoft Access database engine database.</span></span>
+<span data-ttu-id="9117f-104">Un objet QueryDef est une définition stockée d'une requête dans une base de données du moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9117f-104">A QueryDef object is a stored definition of a query in a Microsoft Access database engine database.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="64a1a-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="64a1a-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="9117f-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="9117f-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -29,42 +29,42 @@ ms.locfileid: "25919737"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="64a1a-106">Nom</span><span class="sxs-lookup"><span data-stu-id="64a1a-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="64a1a-107">Description</span><span class="sxs-lookup"><span data-stu-id="64a1a-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="9117f-106">Nom</span><span class="sxs-lookup"><span data-stu-id="9117f-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="9117f-107">Description</span><span class="sxs-lookup"><span data-stu-id="9117f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-108"><strong><a href="querydef-cancel-method-dao.md">Annuler</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-108"><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-108"><strong><a href="querydef-cancel-method-dao.md">Annuler</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-108"><strong><a href="querydef-cancel-method-dao.md">Cancel</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="64a1a-p101">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <span data-ttu-id="9117f-p101">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9117f-p101">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
-<p><span data-ttu-id="64a1a-111">Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="64a1a-111">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="9117f-111">Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="9117f-111">Cancels execution of a pending asynchronous method call (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-112"><strong><a href="querydef-close-method-dao.md">Close</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-112"><strong><a href="querydef-close-method-dao.md">Close</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-113">Ferme un objet <strong>QueryDef</strong> ouvert.</span><span class="sxs-lookup"><span data-stu-id="64a1a-113">Closes an open <strong>QueryDef</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-112"><strong><a href="querydef-close-method-dao.md">Close</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-112"><strong><a href="querydef-close-method-dao.md">Close</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-113">Ferme un objet <strong>QueryDef</strong> ouvert.</span><span class="sxs-lookup"><span data-stu-id="9117f-113">Closes an open <strong>QueryDef</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-114"><strong><a href="querydef-createproperty-method-dao.md">CreateProperty</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-114"><strong><a href="querydef-createproperty-method-dao.md">CreateProperty</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-115">Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="64a1a-115">Creates a new user-defined <strong><a href="property-object-dao.md">Property</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="9117f-114"><strong><a href="querydef-createproperty-method-dao.md">CreateProperty</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-114"><strong><a href="querydef-createproperty-method-dao.md">CreateProperty</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-115">Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="9117f-115">Creates a new user-defined <strong><a href="property-object-dao.md">Property</a></strong> object (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-116"><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-116"><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-117">Exécute une instruction SQL au niveau de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="64a1a-117">Executes an SQL statement on the specified object.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-116"><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-116"><strong><a href="querydef-execute-method-dao.md">Execute</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-117">Exécute une instruction SQL au niveau de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="9117f-117">Executes an SQL statement on the specified object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-118"><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-118"><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-119">Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l'ajoute à la collection <strong>Recordsets</strong>.</span><span class="sxs-lookup"><span data-stu-id="64a1a-119">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-118"><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-118"><strong><a href="querydef-openrecordset-method-dao.md">OpenRecordset</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-119">Crée un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> et l'ajoute à la collection <strong>Recordsets</strong>.</span><span class="sxs-lookup"><span data-stu-id="9117f-119">Creates a new <strong><a href="recordset-object-dao.md">Recordset</a></strong> object and appends it to the <strong>Recordsets</strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="64a1a-120">Propriétés</span><span class="sxs-lookup"><span data-stu-id="64a1a-120">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="9117f-120">Propriétés</span><span class="sxs-lookup"><span data-stu-id="9117f-120">Properties</span></span>
 
 <table>
 <colgroup>
@@ -73,90 +73,90 @@ ms.locfileid: "25919737"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="64a1a-121">Nom</span><span class="sxs-lookup"><span data-stu-id="64a1a-121">Name</span></span></p></th>
-<th><p><span data-ttu-id="64a1a-122">Description</span><span class="sxs-lookup"><span data-stu-id="64a1a-122">Description</span></span></p></th>
+<th><p><span data-ttu-id="9117f-121">Nom</span><span class="sxs-lookup"><span data-stu-id="9117f-121">Name</span></span></p></th>
+<th><p><span data-ttu-id="9117f-122">Description</span><span class="sxs-lookup"><span data-stu-id="9117f-122">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-123"><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-123"><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p102">Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p102">Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write <strong>Long</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-123"><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-123"><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p102">Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="9117f-p102">Sets or returns the number of records retrieved from an ODBC data source that will be cached locally. Read/write <strong>Long</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-126"><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-126"><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p103">Définit ou renvoie une valeur qui fournit des informations sur la source de base de données dans une requête SQL directe. Type <strong>String</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p103">Sets or returns a value that provides information about the source of database used in a pass-through query. Read-only <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-126"><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-126"><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p103">Définit ou renvoie une valeur qui fournit des informations sur la source de base de données dans une requête SQL directe. Type <strong>String</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p103">Sets or returns a value that provides information about the source of database used in a pass-through query. Read-only <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-129"><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-129"><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p104">Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p104">Returns the date and time that an object was created (Microsoft Access workspaces only). Read-only <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-129"><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-129"><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p104">Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p104">Returns the date and time that an object was created (Microsoft Access workspaces only). Read-only <strong>Variant</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-132"><strong><a href="querydef-fields-property-dao.md">Champs</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-132"><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p105">Renvoie une collection <strong><a href="fields-collection-dao.md">Fields</a></strong> qui représente tous les objets <strong><a href="field-object-dao.md">Field</a></strong> stockés pour l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p105">Returns a <strong><a href="fields-collection-dao.md">Fields</a></strong> collection that represents all stored <strong><a href="field-object-dao.md">Field</a></strong> objects for the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-132"><strong><a href="querydef-fields-property-dao.md">Champs</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-132"><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p105">Renvoie une collection <strong><a href="fields-collection-dao.md">Fields</a></strong> qui représente tous les objets <strong><a href="field-object-dao.md">Field</a></strong> stockés pour l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p105">Returns a <strong><a href="fields-collection-dao.md">Fields</a></strong> collection that represents all stored <strong><a href="field-object-dao.md">Field</a></strong> objects for the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-135"><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-135"><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p106">Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p106">Returns the date and time of the most recent change made to an object. Read-only <strong>Variant</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-135"><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-135"><strong><a href="querydef-lastupdated-property-dao.md">LastUpdated</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p106">Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p106">Returns the date and time of the most recent change made to an object. Read-only <strong>Variant</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-138"><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-138"><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-139">Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="64a1a-139">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-138"><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-138"><strong><a href="querydef-maxrecords-property-dao.md">MaxRecords</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-139">Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="9117f-139">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-140"><strong><a href="querydef-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-140"><strong><a href="querydef-name-property-dao.md">Name</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p107">Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p107">Returns or sets the name of the specified object. Read/write <strong>String</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-140"><strong><a href="querydef-name-property-dao.md">Name</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-140"><strong><a href="querydef-name-property-dao.md">Name</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p107">Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="9117f-p107">Returns or sets the name of the specified object. Read/write <strong>String</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-143"><strong><a href="querydef-odbctimeout-property-dao.md">ODBCTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-143"><strong><a href="querydef-odbctimeout-property-dao.md">ODBCTimeout</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-144">Indique le nombre de secondes d'attente avant que ne survienne une erreur d'expiration lors de l'exécution d'un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> sur une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="64a1a-144">Indicates the number of seconds to wait before a timeout error occurs when a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> is executed on an ODBC database.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-143"><strong><a href="querydef-odbctimeout-property-dao.md">ODBCTimeout</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-143"><strong><a href="querydef-odbctimeout-property-dao.md">ODBCTimeout</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-144">Indique le nombre de secondes d'attente avant que ne survienne une erreur d'expiration lors de l'exécution d'un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> sur une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="9117f-144">Indicates the number of seconds to wait before a timeout error occurs when a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> is executed on an ODBC database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-145"><strong><a href="querydef-parameters-property-dao.md">Paramètres</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-145"><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p108">Renvoie une collection <strong><a href="parameters-collection-dao.md">Parameters</a></strong> qui contient tous les objets <strong><a href="parameter-object-dao.md">Parameter</a></strong> de l'objet <strong>QueryDef</strong> spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p108">Returns a <strong><a href="parameters-collection-dao.md">Parameters</a></strong> collection that contains all of the <strong><a href="parameter-object-dao.md">Parameter</a></strong> objects of the specified <strong>QueryDef</strong>. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-145"><strong><a href="querydef-parameters-property-dao.md">Paramètres</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-145"><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p108">Renvoie une collection <strong><a href="parameters-collection-dao.md">Parameters</a></strong> qui contient tous les objets <strong><a href="parameter-object-dao.md">Parameter</a></strong> de l'objet <strong>QueryDef</strong> spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p108">Returns a <strong><a href="parameters-collection-dao.md">Parameters</a></strong> collection that contains all of the <strong><a href="parameter-object-dao.md">Parameter</a></strong> objects of the specified <strong>QueryDef</strong>. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-148"><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-148"><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-148"><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-148"><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="64a1a-p109">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p109">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <span data-ttu-id="9117f-p109">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9117f-p109">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
-<p><span data-ttu-id="64a1a-p110">Définit ou renvoie une valeur qui indique si la requête doit être préparée sur le serveur comme procédure stockée temporaire à l'aide d'une fonction API <strong>SQLPrepare</strong> ODBC avant l'exécution, ou juste exécutée à l'aide de la fonction API <strong>SQLExecDirect</strong> ODBC (espaces de travail ODBCDirect uniquement). En lecture/écriture <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p110">Sets or returns a value that indicates whether the query should be prepared on the server as a temporary stored procedure, using the ODBC <strong>SQLPrepare</strong> API function, prior to execution, or just executed using the ODBC <strong>SQLExecDirect</strong> API function (ODBCDirect workspaces only). Read/Write <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</span></span></p></td>
+<p><span data-ttu-id="9117f-p110">Définit ou renvoie une valeur qui indique si la requête doit être préparée sur le serveur comme procédure stockée temporaire à l'aide d'une fonction API <strong>SQLPrepare</strong> ODBC avant l'exécution, ou juste exécutée à l'aide de la fonction API <strong>SQLExecDirect</strong> ODBC (espaces de travail ODBCDirect uniquement). En lecture/écriture <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="9117f-p110">Sets or returns a value that indicates whether the query should be prepared on the server as a temporary stored procedure, using the ODBC <strong>SQLPrepare</strong> API function, prior to execution, or just executed using the ODBC <strong>SQLExecDirect</strong> API function (ODBCDirect workspaces only). Read/Write <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-153"><strong><a href="querydef-properties-property-dao.md">Propriétés</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-153"><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p111">Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p111">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-153"><strong><a href="querydef-properties-property-dao.md">Propriétés</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-153"><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p111">Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p111">Returns the <strong><a href="properties-collection-dao.md">Properties</a></strong> collection of the specified object. Read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-156"><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-156"><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-157">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode <strong><a href="querydef-execute-method-dao.md">Execute</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="64a1a-157">Returns the number of records affected by the most recently invoked <strong><a href="querydef-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-156"><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-156"><strong><a href="querydef-recordsaffected-property-dao.md">RecordsAffected</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-157">Renvoie le nombre d'enregistrements affectés par le dernier appel de la méthode <strong><a href="querydef-execute-method-dao.md">Execute</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="9117f-157">Returns the number of records affected by the most recently invoked <strong><a href="querydef-execute-method-dao.md">Execute</a></strong> method.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-158"><strong><a href="querydef-returnsrecords-property-dao.md">ReturnsRecords</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-158"><strong><a href="querydef-returnsrecords-property-dao.md">ReturnsRecords</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-159">Définit ou renvoie une valeur indiquant si une requête SQL directe sur une base de données externe renvoie des enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="64a1a-159">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="9117f-158"><strong><a href="querydef-returnsrecords-property-dao.md">ReturnsRecords</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-158"><strong><a href="querydef-returnsrecords-property-dao.md">ReturnsRecords</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-159">Définit ou renvoie une valeur indiquant si une requête SQL directe sur une base de données externe renvoie des enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="9117f-159">Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-160"><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-160"><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-161">Définit ou renvoie l'instruction SQL qui définit la requête exécutée par un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="64a1a-161">Sets or returns the SQL statement that defines the query executed by a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-160"><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-160"><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-161">Définit ou renvoie l'instruction SQL qui définit la requête exécutée par un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="9117f-161">Sets or returns the SQL statement that defines the query executed by a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-162"><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-162"><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-162"><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-162"><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></span></span></p></td>
 <td><p></p>
 
 > [!NOTE]
-> <P><span data-ttu-id="64a1a-p112">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p112">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></P>
+> <span data-ttu-id="9117f-p112">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="9117f-p112">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
-<p><span data-ttu-id="64a1a-165">Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) est terminée (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="64a1a-165">Indicates whether or not an asynchronous operation (that is, a method called with the <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
+<p><span data-ttu-id="9117f-165">Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) est terminée (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="9117f-165">Indicates whether or not an asynchronous operation (that is, a method called with the <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a> option) has finished executing (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="64a1a-166"><strong><a href="querydef-type-property-dao.md">Type</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-166"><strong><a href="querydef-type-property-dao.md">Type</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-167">Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet.</span><span class="sxs-lookup"><span data-stu-id="64a1a-167">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="64a1a-168">En lecture seule<strong>entier</strong>.</span><span class="sxs-lookup"><span data-stu-id="64a1a-168">Read-only<strong>Integer</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-166"><strong><a href="querydef-type-property-dao.md">Type</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-166"><strong><a href="querydef-type-property-dao.md">Type</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-167">Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet.</span><span class="sxs-lookup"><span data-stu-id="9117f-167">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="9117f-168">En lecture seule<strong>entier</strong>.</span><span class="sxs-lookup"><span data-stu-id="9117f-168">Read-only<strong>Integer</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="64a1a-169"><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="64a1a-169"><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="64a1a-p114">Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type <strong>Boolean</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="64a1a-p114">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="9117f-169"><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></span><span class="sxs-lookup"><span data-stu-id="9117f-169"><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="9117f-p114">Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type <strong>Boolean</strong> en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="9117f-p114">Returns a value that indicates whether you can change a DAO object. Read-only <strong>Boolean</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>

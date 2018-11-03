@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249551(v=office.15)
 ms:contentKeyID: 48545940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9360b2b1126856ea92bbada183ffc67b16b2554e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b3656764b1183efc53375665d570e1f1bb8958b1
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25884022"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25936643"
 ---
-# <a name="updating-joined-results-unique-table"></a><span data-ttu-id="2a207-102">Mise à jour des résultats d'une opération JOIN : Unique Table</span><span class="sxs-lookup"><span data-stu-id="2a207-102">Updating JOINed Results: Unique Table</span></span>
+# <a name="updating-joined-results-unique-table"></a><span data-ttu-id="94248-102">Mise à jour des résultats d'une opération JOIN : Unique Table</span><span class="sxs-lookup"><span data-stu-id="94248-102">Updating JOINed Results: Unique Table</span></span>
 
 
-<span data-ttu-id="2a207-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a207-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94248-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94248-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="updating-joined-results-unique-table"></a><span data-ttu-id="2a207-104">Mise à jour des résultats joints : tableau unique</span><span class="sxs-lookup"><span data-stu-id="2a207-104">Updating JOINed Results: Unique Table</span></span>
+## <a name="updating-joined-results-unique-table"></a><span data-ttu-id="94248-104">Mise à jour des résultats joints : tableau unique</span><span class="sxs-lookup"><span data-stu-id="94248-104">Updating JOINed Results: Unique Table</span></span>
 
-<span data-ttu-id="2a207-p101">ADO permet un contrôle précis des modifications apportées à une table de base de données dans un objet **Recordset** formé à la suite d'une opération JOIN sur plusieurs tables de bases de données à l'aide de la propriété dynamique **Unique Table**. Pour plus d'informations sur l'utilisation de la propriété **Unique Table**, reportez-vous au manuel ADO Programmer's Reference (en anglais) et consultez les rubriques consacrées aux propriétés dynamiques **Unique Table** et **Update Resynch**.</span><span class="sxs-lookup"><span data-stu-id="2a207-p101">ADO enables you to closely control modifications to a particular base table in a **Recordset** that was formed by a JOIN operation on multiple base tables using the **Unique Table** dynamic property. For details on using **Unique Table**, refer to the ADO Programmer's Reference topics on the **Unique Table** and **Update Resynch** dynamic properties.</span></span>
+<span data-ttu-id="94248-105">ADO permet un contrôle précis des modifications apportées à une table de base de données dans un objet **Recordset** formé à la suite d'une opération JOIN sur plusieurs tables de bases de données à l'aide de la propriété dynamique **Unique Table**.</span><span class="sxs-lookup"><span data-stu-id="94248-105">ADO enables you to closely control modifications to a particular base table in a **Recordset** that was formed by a JOIN operation on multiple base tables using the **Unique Table** dynamic property.</span></span> <span data-ttu-id="94248-106">Pour plus d’informations sur l’utilisation **Unique Table**, reportez-vous aux rubriques de référence du programmeur ADO sur les propriétés dynamiques **Unique Table** et **Resynchronisation de mise à jour** .</span><span class="sxs-lookup"><span data-stu-id="94248-106">For details on using **Unique Table**, refer to the ADO programmer's reference topics on the **Unique Table** and **Update Resynch** dynamic properties.</span></span>
 

@@ -6,39 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180179(v=office.15)
 ms:contentKeyID: 52075128
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 51d64fd070347806f41674b90f5293434e0e1db4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ba5d3e4afdcac75dfcfc27fc298a983d852af0da
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926695"
+ms.locfileid: "25937581"
 ---
-# <a name="database-methods-dao"></a><span data-ttu-id="61d65-102">Méthodes de base de données (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-102">Database methods (DAO)</span></span>
+# <a name="database-methods-dao"></a><span data-ttu-id="38a32-102">Méthodes de base de données (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-102">Database methods (DAO)</span></span>
 
+<span data-ttu-id="38a32-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38a32-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61d65-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61d65-103">**Applies to**: Access 2013, Office 2013</span></span>
+- [<span data-ttu-id="38a32-104">Méthode Database.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-104">Database.Close method (DAO)</span></span>](database-close-method-dao.md)
+- [<span data-ttu-id="38a32-105">Méthode Database.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-105">Database.CreateProperty method (DAO)</span></span>](database-createproperty-method-dao.md)
+- [<span data-ttu-id="38a32-106">Méthode Database.CreateQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-106">Database.CreateQueryDef method (DAO)</span></span>](database-createquerydef-method-dao.md)
+- [<span data-ttu-id="38a32-107">Méthode Database.CreateRelation (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-107">Database.CreateRelation method (DAO)</span></span>](database-createrelation-method-dao.md)
+- [<span data-ttu-id="38a32-108">Méthode Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-108">Database.CreateTableDef method (DAO)</span></span>](database-createtabledef-method-dao.md)
+- [<span data-ttu-id="38a32-109">Méthode Database.Execute (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-109">Database.Execute method (DAO)</span></span>](database-execute-method-dao.md)
+- [<span data-ttu-id="38a32-110">Méthode Database.MakeReplica (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-110">Database.MakeReplica method (DAO)</span></span>](database-makereplica-method-dao.md)
+- [<span data-ttu-id="38a32-111">Méthode Database.NewPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-111">Database.NewPassword method (DAO)</span></span>](database-newpassword-method-dao.md)
+- [<span data-ttu-id="38a32-112">Méthode Database.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-112">Database.OpenRecordset method (DAO)</span></span>](database-openrecordset-method-dao.md)
+- [<span data-ttu-id="38a32-113">Méthode Database.PopulatePartial (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-113">Database.PopulatePartial method (DAO)</span></span>](database-populatepartial-method-dao.md)
+- [<span data-ttu-id="38a32-114">Méthode Database.Synchronize (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a32-114">Database.Synchronize method (DAO)</span></span>](database-synchronize-method-dao.md)
 
-
-
-  - [<span data-ttu-id="61d65-104">Méthode Database.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-104">Database.Close method (DAO)</span></span>](database-close-method-dao.md)
-
-  - [<span data-ttu-id="61d65-105">Méthode Database.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-105">Database.CreateProperty method (DAO)</span></span>](database-createproperty-method-dao.md)
-
-  - [<span data-ttu-id="61d65-106">Méthode Database.CreateQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-106">Database.CreateQueryDef method (DAO)</span></span>](database-createquerydef-method-dao.md)
-
-  - [<span data-ttu-id="61d65-107">Méthode Database.CreateRelation (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-107">Database.CreateRelation method (DAO)</span></span>](database-createrelation-method-dao.md)
-
-  - [<span data-ttu-id="61d65-108">Méthode Database.CreateTableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-108">Database.CreateTableDef method (DAO)</span></span>](database-createtabledef-method-dao.md)
-
-  - [<span data-ttu-id="61d65-109">Méthode Database.Execute (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-109">Database.Execute method (DAO)</span></span>](database-execute-method-dao.md)
-
-  - [<span data-ttu-id="61d65-110">Méthode Database.MakeReplica (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-110">Database.MakeReplica method (DAO)</span></span>](database-makereplica-method-dao.md)
-
-  - [<span data-ttu-id="61d65-111">Méthode Database.NewPassword (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-111">Database.NewPassword method (DAO)</span></span>](database-newpassword-method-dao.md)
-
-  - [<span data-ttu-id="61d65-112">Méthode Database.OpenRecordset (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-112">Database.OpenRecordset method (DAO)</span></span>](database-openrecordset-method-dao.md)
-
-  - [<span data-ttu-id="61d65-113">Méthode Database.PopulatePartial (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-113">Database.PopulatePartial method (DAO)</span></span>](database-populatepartial-method-dao.md)
-
-  - [<span data-ttu-id="61d65-114">Méthode Database.Synchronize (DAO)</span><span class="sxs-lookup"><span data-stu-id="61d65-114">Database.Synchronize method (DAO)</span></span>](database-synchronize-method-dao.md)
 

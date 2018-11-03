@@ -1,38 +1,28 @@
 ---
-title: Commandes de l’Interface utilisateur
-TOCTitle: User Interface Commands
+title: Commandes d’interface utilisateur
+TOCTitle: User interface commands
 ms:assetid: e52bac01-4784-4c20-b387-d18228008104
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125921(v=office.15)
 ms:contentKeyID: 52074792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588409ff32369a9733bb35ce3800461d116ba764
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 728f1b27632908006d7492f946b3172612dbc55c
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867397"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927640"
 ---
-# <a name="user-interface-commands"></a><span data-ttu-id="933ac-102">Commandes de l’Interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="933ac-102">User Interface Commands</span></span>
+# <a name="user-interface-commands"></a><span data-ttu-id="aec59-102">Commandes d’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="aec59-102">User interface commands</span></span>
 
+<span data-ttu-id="aec59-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aec59-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="933ac-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="933ac-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="933ac-104">Action de Macro AjouterMenu</span><span class="sxs-lookup"><span data-stu-id="933ac-104">AddMenu Macro Action</span></span>](addmenu-macro-action.md)
-
-  - [<span data-ttu-id="933ac-105">Action de Macro Parcourir</span><span class="sxs-lookup"><span data-stu-id="933ac-105">BrowseTo Macro Action</span></span>](browseto-macro-action.md)
-
-  - [<span data-ttu-id="933ac-106">Action de Macro LockNavigationPane</span><span class="sxs-lookup"><span data-stu-id="933ac-106">LockNavigationPane Macro Action</span></span>](locknavigationpane-macro-action.md)
-
-  - [<span data-ttu-id="933ac-107">Action de Macro contrôle zonemessage.</span><span class="sxs-lookup"><span data-stu-id="933ac-107">MessageBox Macro Action</span></span>](messagebox-macro-action.md)
-
-  - [<span data-ttu-id="933ac-108">Action de Macro accédera</span><span class="sxs-lookup"><span data-stu-id="933ac-108">NavigateTo Macro Action</span></span>](navigateto-macro-action.md)
-
-  - [<span data-ttu-id="933ac-109">Action de Macro DéfinirCatégoriesAffichées</span><span class="sxs-lookup"><span data-stu-id="933ac-109">SetDisplayedCategories Macro Action</span></span>](setdisplayedcategories-macro-action.md)
-
-  - [<span data-ttu-id="933ac-110">Action de Macro DéfinirElémentMenu</span><span class="sxs-lookup"><span data-stu-id="933ac-110">SetMenuItem Macro Action</span></span>](setmenuitem-macro-action.md)
-
-  - [<span data-ttu-id="933ac-111">AfficherBarreOutils, action de macro</span><span class="sxs-lookup"><span data-stu-id="933ac-111">ShowToolbar Macro Action</span></span>](showtoolbar-macro-action.md)
+- [<span data-ttu-id="aec59-104">AddMenu, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-104">AddMenu macro action</span></span>](addmenu-macro-action.md)
+- [<span data-ttu-id="aec59-105">BrowseTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-105">BrowseTo macro action</span></span>](browseto-macro-action.md)
+- [<span data-ttu-id="aec59-106">LockNavigationPane, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-106">LockNavigationPane macro action</span></span>](locknavigationpane-macro-action.md)
+- [<span data-ttu-id="aec59-107">MessageBox, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-107">MessageBox macro action</span></span>](messagebox-macro-action.md)
+- [<span data-ttu-id="aec59-108">NavigateTo, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-108">NavigateTo macro action</span></span>](navigateto-macro-action.md)
+- [<span data-ttu-id="aec59-109">SetDisplayedCategories, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-109">SetDisplayedCategories macro action</span></span>](setdisplayedcategories-macro-action.md)
+- [<span data-ttu-id="aec59-110">SetMenuItem, action de macro</span><span class="sxs-lookup"><span data-stu-id="aec59-110">SetMenuItem macro action</span></span>](setmenuitem-macro-action.md)
+- [<span data-ttu-id="aec59-111">Action de macro ShowToolbar</span><span class="sxs-lookup"><span data-stu-id="aec59-111">ShowToolbar macro action</span></span>](showtoolbar-macro-action.md)
 

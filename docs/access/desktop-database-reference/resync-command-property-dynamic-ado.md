@@ -1,37 +1,37 @@
 ---
 title: Resync Command, propriété dynamique (ADO)
-TOCTitle: Resync Command Property--Dynamic (ADO)
+TOCTitle: Resync Command dynamic property (ADO)
 ms:assetid: 5c0c0819-620a-6eb0-a217-69113ec8d094
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249322(v=office.15)
 ms:contentKeyID: 48545081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 30707140284c4c4fda157e276e62666f0344ad14
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 23d03c5c346b377333387a3be1c0f15bc091d235
+ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872003"
+ms.lasthandoff: 11/02/2018
+ms.locfileid: "25927941"
 ---
-# <a name="resync-command-property--dynamic-ado"></a><span data-ttu-id="06bf9-102">Resync Command, propriété dynamique (ADO)</span><span class="sxs-lookup"><span data-stu-id="06bf9-102">Resync Command Property--Dynamic (ADO)</span></span>
+# <a name="resync-command-dynamic-property-ado"></a><span data-ttu-id="db61d-102">Resync Command, propriété dynamique (ADO)</span><span class="sxs-lookup"><span data-stu-id="db61d-102">Resync Command dynamic property (ADO)</span></span>
 
-<span data-ttu-id="06bf9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="06bf9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db61d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db61d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="06bf9-104">Spécifie une chaîne de commande fournie par l'utilisateur, que la méthode [Resync](resync-method-ado.md) émet pour actualiser les données de la table nommée dans la propriété dynamique [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md).</span><span class="sxs-lookup"><span data-stu-id="06bf9-104">Specifies a user-supplied command string that the [Resync](resync-method-ado.md) method issues to refresh the data in the table named in the [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) dynamic property.</span></span>
+<span data-ttu-id="db61d-104">Spécifie une chaîne de commande fournie par l'utilisateur, que la méthode [Resync](resync-method-ado.md) émet pour actualiser les données de la table nommée dans la propriété dynamique [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md).</span><span class="sxs-lookup"><span data-stu-id="db61d-104">Specifies a user-supplied command string that the [Resync](resync-method-ado.md) method issues to refresh the data in the table named in the [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) dynamic property.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="06bf9-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="06bf9-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="db61d-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="db61d-105">Settings and return values</span></span>
 
-<span data-ttu-id="06bf9-106">Définit ou renvoie une valeur de type **String** qui représente une chaîne de commande.</span><span class="sxs-lookup"><span data-stu-id="06bf9-106">Sets or returns a **String** value which is a command string.</span></span>
+<span data-ttu-id="db61d-106">Définit ou renvoie une valeur de type **String** qui représente une chaîne de commande.</span><span class="sxs-lookup"><span data-stu-id="db61d-106">Sets or returns a **String** value which is a command string.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="06bf9-107">Notes</span><span class="sxs-lookup"><span data-stu-id="06bf9-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="db61d-107">Notes</span><span class="sxs-lookup"><span data-stu-id="db61d-107">Remarks</span></span>
 
-<span data-ttu-id="06bf9-108">L'objet [Recordset](recordset-object-ado.md) est le résultat d'une opération JOIN exécutée sur plusieurs tables de base.</span><span class="sxs-lookup"><span data-stu-id="06bf9-108">The [Recordset](recordset-object-ado.md) object is the result of a JOIN operation executed on multiple base tables.</span></span> <span data-ttu-id="06bf9-109">Les lignes affectées dépendent du paramètre *AffectRecords* de la méthode [Resync](resync-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="06bf9-109">The rows affected depend on the *AffectRecords* parameter of the [Resync](resync-method-ado.md) method.</span></span> <span data-ttu-id="06bf9-110">La méthode **Resync** est exécutée si les propriétés [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) et **Resync Command** ne sont pas définies.</span><span class="sxs-lookup"><span data-stu-id="06bf9-110">The standard **Resync** method is executed if the [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) and **Resync Command** properties are not set.</span></span>
+<span data-ttu-id="db61d-108">L'objet [Recordset](recordset-object-ado.md) est le résultat d'une opération JOIN exécutée sur plusieurs tables de base.</span><span class="sxs-lookup"><span data-stu-id="db61d-108">The [Recordset](recordset-object-ado.md) object is the result of a JOIN operation executed on multiple base tables.</span></span> <span data-ttu-id="db61d-109">Les lignes affectées dépendent du paramètre *AffectRecords* de la méthode [Resync](resync-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="db61d-109">The rows affected depend on the *AffectRecords* parameter of the [Resync](resync-method-ado.md) method.</span></span> <span data-ttu-id="db61d-110">La méthode **Resync** est exécutée si les propriétés [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) et **Resync Command** ne sont pas définies.</span><span class="sxs-lookup"><span data-stu-id="db61d-110">The standard **Resync** method is executed if the [Unique Table](unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md) and **Resync Command** properties are not set.</span></span>
 
-<span data-ttu-id="06bf9-p102">La chaîne de commande de la propriété **Resync Command** est une commande paramétrée ou une procédure stockée, qui identifie de manière unique la ligne actualisée, et renvoie une ligne unique avec un nombre et un ordre de colonnes identiques à celles de la ligne à actualiser. La chaîne de commande doit contenir un paramètre pour chaque colonne de clé primaire dans la propriété **Unique Table** sans quoi une erreur d'exécution est renvoyée. Les paramètres sont remplis automatiquement avec les valeurs de clé primaire dans la ligne à actualiser.</span><span class="sxs-lookup"><span data-stu-id="06bf9-p102">The command string of the **Resync Command** property is a parameterized command or stored procedure that uniquely identifies the row being refreshed, and returns a single row containing the same number and order of columns as the row to be refreshed. The command string contains a parameter for each primary key column in the **Unique Table**; otherwise, a run-time error is returned. The parameters are automatically filled in with primary key values from the row to be refreshed.</span></span>
+<span data-ttu-id="db61d-p102">La chaîne de commande de la propriété **Resync Command** est une commande paramétrée ou une procédure stockée, qui identifie de manière unique la ligne actualisée, et renvoie une ligne unique avec un nombre et un ordre de colonnes identiques à celles de la ligne à actualiser. La chaîne de commande doit contenir un paramètre pour chaque colonne de clé primaire dans la propriété **Unique Table** sans quoi une erreur d'exécution est renvoyée. Les paramètres sont remplis automatiquement avec les valeurs de clé primaire dans la ligne à actualiser.</span><span class="sxs-lookup"><span data-stu-id="db61d-p102">The command string of the **Resync Command** property is a parameterized command or stored procedure that uniquely identifies the row being refreshed, and returns a single row containing the same number and order of columns as the row to be refreshed. The command string contains a parameter for each primary key column in the **Unique Table**; otherwise, a run-time error is returned. The parameters are automatically filled in with primary key values from the row to be refreshed.</span></span>
 
-<span data-ttu-id="06bf9-114">Voici deux exemples basés sur le langage SQL :</span><span class="sxs-lookup"><span data-stu-id="06bf9-114">Here are two examples based on SQL:</span></span>
+<span data-ttu-id="db61d-114">Voici deux exemples basés sur le langage SQL :</span><span class="sxs-lookup"><span data-stu-id="db61d-114">Here are two examples based on SQL:</span></span>
 
-1.  <span data-ttu-id="06bf9-115">L'objet **Recordset** est défini par une commande :</span><span class="sxs-lookup"><span data-stu-id="06bf9-115">The **Recordset** is defined by a command:</span></span>
+1.  <span data-ttu-id="db61d-115">L'objet **Recordset** est défini par une commande :</span><span class="sxs-lookup"><span data-stu-id="db61d-115">The **Recordset** is defined by a command:</span></span>
 
     ```sql
         SELECT * FROM Customers JOIN Orders ON 
@@ -40,7 +40,7 @@ ms.locfileid: "25872003"
         ORDER BY CustomerID
     ```
 
-    <span data-ttu-id="06bf9-116">La propriété **Resync Command** est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="06bf9-116">The **Resync Command** property is set to:</span></span>
+    <span data-ttu-id="db61d-116">La propriété **Resync Command** est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="db61d-116">The **Resync Command** property is set to:</span></span>
 
     ```sql
      SELECT * FROM 
@@ -50,9 +50,9 @@ ms.locfileid: "25872003"
      WHERE Orders.OrderID = ?"
     ```
 
-    <span data-ttu-id="06bf9-p103">La propriété **Unique Table** a la valeur *Orders* et sa clé primaire, *OrderID*, est paramétrée. L'instruction Select secondaire permet de garantir, par programme, le retour du même nombre de colonnes dans un ordre identique à celles renvoyées par la commande d'origine.</span><span class="sxs-lookup"><span data-stu-id="06bf9-p103">The **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized. The sub-select provides a simple way to programmatically ensure that the same number and order of columns are returned as by the original command.</span></span>
+    <span data-ttu-id="db61d-p103">La propriété **Unique Table** a la valeur *Orders* et sa clé primaire, *OrderID*, est paramétrée. L'instruction Select secondaire permet de garantir, par programme, le retour du même nombre de colonnes dans un ordre identique à celles renvoyées par la commande d'origine.</span><span class="sxs-lookup"><span data-stu-id="db61d-p103">The **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized. The sub-select provides a simple way to programmatically ensure that the same number and order of columns are returned as by the original command.</span></span>
 
-2. <span data-ttu-id="06bf9-119">L'objet **Recordset** est défini par une procédure stockée :</span><span class="sxs-lookup"><span data-stu-id="06bf9-119">The **Recordset** is defined by a stored procedure:</span></span>
+2. <span data-ttu-id="db61d-119">L'objet **Recordset** est défini par une procédure stockée :</span><span class="sxs-lookup"><span data-stu-id="db61d-119">The **Recordset** is defined by a stored procedure:</span></span>
 
     ```sql
         CREATE PROC Custorders @CustomerID char(5) AS 
@@ -61,7 +61,7 @@ ms.locfileid: "25872003"
         WHERE Customers.CustomerID = @CustomerID
     ```
 
-    <span data-ttu-id="06bf9-120">La méthode **Resync** doit exécuter la procédure stockée suivante :</span><span class="sxs-lookup"><span data-stu-id="06bf9-120">The **Resync** method should execute the following stored procedure:</span></span>
+    <span data-ttu-id="db61d-120">La méthode **Resync** doit exécuter la procédure stockée suivante :</span><span class="sxs-lookup"><span data-stu-id="db61d-120">The **Resync** method should execute the following stored procedure:</span></span>
 
     ```sql
         CREATE PROC CustordersResync @ordid int AS 
@@ -70,11 +70,11 @@ ms.locfileid: "25872003"
         WHERE Orders.ordid  = @ordid
     ```
 
-    <span data-ttu-id="06bf9-121">La propriété **Resync Command** est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="06bf9-121">The **Resync Command** property is set to:</span></span>
+    <span data-ttu-id="db61d-121">La propriété **Resync Command** est définie comme suit :</span><span class="sxs-lookup"><span data-stu-id="db61d-121">The **Resync Command** property is set to:</span></span>
 
     `"{call CustordersResync (?)}"`
 
-<span data-ttu-id="06bf9-122">Une fois encore, la propriété **Unique Table** a la valeur *Orders* et sa clé primaire, *OrderID*, est paramétrée.</span><span class="sxs-lookup"><span data-stu-id="06bf9-122">Once again, the **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized.</span></span>
+<span data-ttu-id="db61d-122">Une fois encore, la propriété **Unique Table** a la valeur *Orders* et sa clé primaire, *OrderID*, est paramétrée.</span><span class="sxs-lookup"><span data-stu-id="db61d-122">Once again, the **Unique Table** is *Orders* and its primary key, *OrderID*, is parameterized.</span></span>
 
-<span data-ttu-id="06bf9-123">La propriété **Resync Command** est une propriété dynamique ajoutée à la collection **Properties** de l'objet [Recordset](properties-collection-ado.md) lorsque la propriété [CursorLocation](cursorlocation-property-ado.md) a la valeur **adUseClient**.</span><span class="sxs-lookup"><span data-stu-id="06bf9-123">**Resync Command** is a dynamic property appended to the **Recordset** object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
+<span data-ttu-id="db61d-123">La propriété **Resync Command** est une propriété dynamique ajoutée à la collection **Properties** de l'objet [Recordset](properties-collection-ado.md) lorsque la propriété [CursorLocation](cursorlocation-property-ado.md) a la valeur **adUseClient**.</span><span class="sxs-lookup"><span data-stu-id="db61d-123">**Resync Command** is a dynamic property appended to the **Recordset** object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
 

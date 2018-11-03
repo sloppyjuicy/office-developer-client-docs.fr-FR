@@ -6,49 +6,49 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248979(v=office.15)
 ms:contentKeyID: 48543629
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a61130db9bd4564523688adc4e045f665e7310e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ea7346c8c1b97ef16af71f56aafbbf777635d906
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919009"
+ms.locfileid: "25937784"
 ---
-# <a name="getchunk-method-ado"></a><span data-ttu-id="466af-102">GetChunk, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="466af-102">GetChunk method (ADO)</span></span>
+# <a name="getchunk-method-ado"></a><span data-ttu-id="c1936-102">GetChunk, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="c1936-102">GetChunk method (ADO)</span></span>
 
 
-<span data-ttu-id="466af-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="466af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c1936-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1936-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="466af-104">Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado.md) volumineux contenant du texte ou des données binaires.</span><span class="sxs-lookup"><span data-stu-id="466af-104">Returns all, or a portion, of the contents of a large text or binary data [Field](field-object-ado.md) object.</span></span>
+<span data-ttu-id="c1936-104">Retourne l'ensemble ou une partie du contenu d'un objet [Field](field-object-ado.md) volumineux contenant du texte ou des données binaires.</span><span class="sxs-lookup"><span data-stu-id="c1936-104">Returns all, or a portion, of the contents of a large text or binary data [Field](field-object-ado.md) object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="466af-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="466af-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c1936-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c1936-105">Syntax</span></span>
 
-<span data-ttu-id="466af-106">*variable* = *champ*. GetChunk (*taille* )</span><span class="sxs-lookup"><span data-stu-id="466af-106">*variable* = *field*.GetChunk(*Size* )</span></span>
+<span data-ttu-id="c1936-106">*variable* = *champ*. GetChunk (*taille* )</span><span class="sxs-lookup"><span data-stu-id="c1936-106">*variable* = *field*.GetChunk(*Size* )</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="466af-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="466af-107">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c1936-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c1936-107">Return value</span></span>
 
-<span data-ttu-id="466af-108">Retourne une valeur de type **Variant**.</span><span class="sxs-lookup"><span data-stu-id="466af-108">Returns a **Variant**.</span></span>
+<span data-ttu-id="c1936-108">Retourne une valeur de type **Variant**.</span><span class="sxs-lookup"><span data-stu-id="c1936-108">Returns a **Variant**.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="466af-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="466af-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c1936-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c1936-109">Parameters</span></span>
 
-  - <span data-ttu-id="466af-110">*Taille*</span><span class="sxs-lookup"><span data-stu-id="466af-110">*Size*</span></span>
+  - <span data-ttu-id="c1936-110">*Taille*</span><span class="sxs-lookup"><span data-stu-id="c1936-110">*Size*</span></span>
 
-  - <span data-ttu-id="466af-111">Expression de type **Long** égale au nombre d'octets ou de caractères que vous souhaitez récupérer.</span><span class="sxs-lookup"><span data-stu-id="466af-111">A **Long** expression that is equal to the number of bytes or characters that you want to retrieve.</span></span>
+  - <span data-ttu-id="c1936-111">Expression de type **Long** égale au nombre d'octets ou de caractères que vous souhaitez récupérer.</span><span class="sxs-lookup"><span data-stu-id="c1936-111">A **Long** expression that is equal to the number of bytes or characters that you want to retrieve.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="466af-112">Notes</span><span class="sxs-lookup"><span data-stu-id="466af-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c1936-112">Notes</span><span class="sxs-lookup"><span data-stu-id="c1936-112">Remarks</span></span>
 
-<span data-ttu-id="466af-p101">Utilisez la méthode **GetChunk** sur un objet **Field** pour récupérer une partie ou l'ensemble de ses données binaires ou de caractères de type long. Dans les cas où la mémoire système est limitée, vous pouvez utiliser la méthode **GetChunk** pour manipuler des parties de données de type long par partie au lieu de l'intégralité de ces données.</span><span class="sxs-lookup"><span data-stu-id="466af-p101">Use the **GetChunk** method on a **Field** object to retrieve part or all of its long binary or character data. In situations where system memory is limited, you can use the **GetChunk** method to manipulate long values in portions, rather than in their entirety.</span></span>
+<span data-ttu-id="c1936-p101">Utilisez la méthode **GetChunk** sur un objet **Field** pour récupérer une partie ou l'ensemble de ses données binaires ou de caractères de type long. Dans les cas où la mémoire système est limitée, vous pouvez utiliser la méthode **GetChunk** pour manipuler des parties de données de type long par partie au lieu de l'intégralité de ces données.</span><span class="sxs-lookup"><span data-stu-id="c1936-p101">Use the **GetChunk** method on a **Field** object to retrieve part or all of its long binary or character data. In situations where system memory is limited, you can use the **GetChunk** method to manipulate long values in portions, rather than in their entirety.</span></span>
 
-<span data-ttu-id="466af-p102">Les données renvoyées par une invocation **GetChunk** sont affectées à *variable*. Si la *taille* est supérieure aux données restantes, la méthode **GetChunk** renvoie uniquement les données restantes sans compléter les *variables* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur nulle.</span><span class="sxs-lookup"><span data-stu-id="466af-p102">The data that a **GetChunk** call returns is assigned to *variable*. If *Size* is greater than the remaining data, the **GetChunk** method returns only the remaining data without padding *variable* with empty spaces. If the field is empty, the **GetChunk** method returns a null value.</span></span>
+<span data-ttu-id="c1936-p102">Les données renvoyées par une invocation **GetChunk** sont affectées à *variable*. Si la *taille* est supérieure aux données restantes, la méthode **GetChunk** renvoie uniquement les données restantes sans compléter les *variables* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur nulle.</span><span class="sxs-lookup"><span data-stu-id="c1936-p102">The data that a **GetChunk** call returns is assigned to *variable*. If *Size* is greater than the remaining data, the **GetChunk** method returns only the remaining data without padding *variable* with empty spaces. If the field is empty, the **GetChunk** method returns a null value.</span></span>
 
-<span data-ttu-id="466af-p103">Chaque appel à **GetChunk** ultérieur récupère les données à partir de l'emplacement où l'appel à **GetChunk** précédent s'est arrêté. Toutefois, si vous récupérez des données d'un champ et qu'ensuite vous définissez ou lisez la valeur d'un autre champ dans l'enregistrement actif, ADO suppose que vous avez terminé de récupérer les données du premier champ. Si vous appelez de nouveau la méthode **GetChunk** sur le premier champ, ADO interprète l'appel comme une nouvelle opération **GetChunk** et recommence sa lecture à partir du début des données. L'accès à d'autres champs d'objets [Recordset](recordset-object-ado.md) qui ne sont pas des clones du premier objet **Recordset** ne perturbent pas les opérations **GetChunk**.</span><span class="sxs-lookup"><span data-stu-id="466af-p103">Each subsequent **GetChunk** call retrieves data starting from where the previous **GetChunk** call left off. However, if you are retrieving data from one field and then you set or read the value of another field in the current record, ADO assumes you have finished retrieving data from the first field. If you call the **GetChunk** method on the first field again, ADO interprets the call as a new **GetChunk** operation and starts reading from the beginning of the data. Accessing fields in other [Recordset](recordset-object-ado.md) objects that are not clones of the first **Recordset** object will not disrupt **GetChunk** operations.</span></span>
+<span data-ttu-id="c1936-p103">Chaque appel à **GetChunk** ultérieur récupère les données à partir de l'emplacement où l'appel à **GetChunk** précédent s'est arrêté. Toutefois, si vous récupérez des données d'un champ et qu'ensuite vous définissez ou lisez la valeur d'un autre champ dans l'enregistrement actif, ADO suppose que vous avez terminé de récupérer les données du premier champ. Si vous appelez de nouveau la méthode **GetChunk** sur le premier champ, ADO interprète l'appel comme une nouvelle opération **GetChunk** et recommence sa lecture à partir du début des données. L'accès à d'autres champs d'objets [Recordset](recordset-object-ado.md) qui ne sont pas des clones du premier objet **Recordset** ne perturbent pas les opérations **GetChunk**.</span><span class="sxs-lookup"><span data-stu-id="c1936-p103">Each subsequent **GetChunk** call retrieves data starting from where the previous **GetChunk** call left off. However, if you are retrieving data from one field and then you set or read the value of another field in the current record, ADO assumes you have finished retrieving data from the first field. If you call the **GetChunk** method on the first field again, ADO interprets the call as a new **GetChunk** operation and starts reading from the beginning of the data. Accessing fields in other [Recordset](recordset-object-ado.md) objects that are not clones of the first **Recordset** object will not disrupt **GetChunk** operations.</span></span>
 
-<span data-ttu-id="466af-122">Si le bit **adFldLong** de la propriété [Attributes](attributes-property-ado.md) d'un objet **Field** a la valeur **True**, vous pouvez utiliser la méthode **GetChunk** pour ce champ.</span><span class="sxs-lookup"><span data-stu-id="466af-122">If the **adFldLong** bit in the [Attributes](attributes-property-ado.md) property of a **Field** object is set to **True**, you can use the **GetChunk** method for that field.</span></span>
+<span data-ttu-id="c1936-122">Si le bit **adFldLong** de la propriété [Attributes](attributes-property-ado.md) d'un objet **Field** a la valeur **True**, vous pouvez utiliser la méthode **GetChunk** pour ce champ.</span><span class="sxs-lookup"><span data-stu-id="c1936-122">If the **adFldLong** bit in the [Attributes](attributes-property-ado.md) property of a **Field** object is set to **True**, you can use the **GetChunk** method for that field.</span></span>
 
-<span data-ttu-id="466af-123">S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement en cours) se produit.</span><span class="sxs-lookup"><span data-stu-id="466af-123">If there is no current record when you use the **GetChunk** method on a **Field** object, error 3021 (no current record) occurs.</span></span>
+<span data-ttu-id="c1936-123">S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement en cours) se produit.</span><span class="sxs-lookup"><span data-stu-id="c1936-123">If there is no current record when you use the **GetChunk** method on a **Field** object, error 3021 (no current record) occurs.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="466af-p104">[!REMARQUE] La méthode <STRONG>GetChunk</STRONG> ne fonctionne pas sur les objets <STRONG>Field</STRONG> d'un objet <A href="record-object-ado.md">Record</A>. Elle n'exécute aucune opération et génère une erreur d'exécution.</span><span class="sxs-lookup"><span data-stu-id="466af-p104">The <STRONG>GetChunk</STRONG> method does not operate on <STRONG>Field</STRONG> objects of a <A href="record-object-ado.md">Record</A> object. It does not perform any operation and will produce a run-time error.</span></span></P>
+> <span data-ttu-id="c1936-p104">[!REMARQUE] La méthode **GetChunk** ne fonctionne pas sur les objets **Field** d'un objet [Record](record-object-ado.md). Elle n'exécute aucune opération et génère une erreur d'exécution.</span><span class="sxs-lookup"><span data-stu-id="c1936-p104">The **GetChunk** method does not operate on **Field** objects of a [Record](record-object-ado.md) object. It does not perform any operation and will produce a run-time error.</span></span>
 
 
