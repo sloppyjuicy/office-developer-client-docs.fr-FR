@@ -1,23 +1,23 @@
 ---
-title: Connection Close, méthode, exemple de propriété Table Type (VB)
-TOCTitle: Connection Close Method, Table Type property example (VB)
+title: Connection Close, méthode – Exemple de propriété Table Type (VB)
+TOCTitle: Connection Close method, Table Type property example (VB)
 ms:assetid: cd0bb6ad-af7b-fb9c-d45c-5d4b62459c03
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250019(v=office.15)
 ms:contentKeyID: 48547754
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 388e601d7267eabd01843640ab795fd0ea914a05
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: a4587cec98d6e1bd272c79428955ca422bb3eec0
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868313"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947741"
 ---
-# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="42980-102">Connection Close, méthode, exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="42980-102">Connection Close Method, Table Type property example (VB)</span></span>
+# <a name="connection-close-method-table-type-property-example-vb"></a><span data-ttu-id="b7837-102">Connection Close, méthode – Exemple de propriété Table Type (VB)</span><span class="sxs-lookup"><span data-stu-id="b7837-102">Connection Close method, Table Type property example (VB)</span></span>
 
-<span data-ttu-id="42980-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42980-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7837-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7837-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="42980-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="42980-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="b7837-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="b7837-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```vb 
  
@@ -64,7 +64,7 @@ ms.locfileid: "25868313"
 
 <br/>
 
-<span data-ttu-id="42980-108">La fermeture d'un objet [Connection](connection-object-ado.md) utilisé pour « ouvrir » le catalogue équivaut normalement à attribuer la valeur **Nothing** à la propriété **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="42980-108">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
+<span data-ttu-id="b7837-108">La fermeture d'un objet [Connection](connection-object-ado.md) utilisé pour « ouvrir » le catalogue équivaut normalement à attribuer la valeur **Nothing** à la propriété **ActiveConnection**.</span><span class="sxs-lookup"><span data-stu-id="b7837-108">Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.</span></span>
 
 ```vb
     Sub CloseConnection() 

@@ -1,24 +1,24 @@
 ---
 title: Commandes nommées
-TOCTitle: Named Commands
+TOCTitle: Named commands
 ms:assetid: 1a4d77e0-1736-83ea-a3c6-f5398c0b01e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248948(v=office.15)
 ms:contentKeyID: 48543518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c13a91495d283c6ce0f76c93d0ecae3e44d5f56f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 45609ba0db81cf9ab807d2ea97c146a32028b884
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878338"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947832"
 ---
-# <a name="named-commands"></a><span data-ttu-id="00b60-102">Commandes nommées</span><span class="sxs-lookup"><span data-stu-id="00b60-102">Named Commands</span></span>
+# <a name="named-commands"></a><span data-ttu-id="84363-102">Commandes nommées</span><span class="sxs-lookup"><span data-stu-id="84363-102">Named commands</span></span>
 
 
-<span data-ttu-id="00b60-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00b60-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="84363-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84363-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="00b60-p101">Vous pouvez définir la propriété **Name** d'un objet **Command**, puis exécuter la commande en l'invoquant comme s'il s'agissait d'une méthode de la propriété **ActiveConnection** de l'objet **Command**. Ce cas de figure est illustré dans l'exemple qui suit, où la commande est appelée *GetCustomers*. Notez que le code transfère un objet **Recordset** déclaré et instancié à la « méthode » GetCustomers. Vous pouvez également transférer des paramètres à la « méthode » s'ils sont requis par la **commande**.</span><span class="sxs-lookup"><span data-stu-id="00b60-p101">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property. This is illustrated in the following example, in which the command is named *GetCustomers*. Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method." You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
+<span data-ttu-id="84363-p101">Vous pouvez définir la propriété **Name** d'un objet **Command**, puis exécuter la commande en l'invoquant comme s'il s'agissait d'une méthode de la propriété **ActiveConnection** de l'objet **Command**. Ce cas de figure est illustré dans l'exemple qui suit, où la commande est appelée *GetCustomers*. Notez que le code transfère un objet **Recordset** déclaré et instancié à la « méthode » GetCustomers. Vous pouvez également transférer des paramètres à la « méthode » s'ils sont requis par la **commande**.</span><span class="sxs-lookup"><span data-stu-id="84363-p101">You can set the **Name** property on a **Command** object and then execute the command by calling it as if it were a method on the **Command** object **ActiveConnection** property. This is illustrated in the following example, in which the command is named *GetCustomers*. Notice that the code passes in a declared and instantiated **Recordset** object to the GetCustomers "method." You can also pass in parameters to the "method" if they are required by the **Command**.</span></span>
 
 ```vb 
  

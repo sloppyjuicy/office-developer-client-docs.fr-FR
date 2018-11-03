@@ -6,49 +6,49 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be66e8cf4179965f761db5873f4a2ac5de20c49d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 02fd4c5dc5c44e15d8318653bbef9755899d61f6
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874495"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947790"
 ---
-# <a name="what-you-can-do-with-ado"></a><span data-ttu-id="b3ace-102">Avantages et possibilités d'ADO</span><span class="sxs-lookup"><span data-stu-id="b3ace-102">What You Can Do With ADO</span></span>
+# <a name="what-you-can-do-with-ado"></a><span data-ttu-id="889fb-102">Ce que vous pouvez faire avec ADO</span><span class="sxs-lookup"><span data-stu-id="889fb-102">What you can do with ADO</span></span>
 
 
-<span data-ttu-id="b3ace-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3ace-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="889fb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="889fb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3ace-p101">ADO fournit aux développeurs un modèle objet d'une puissance et d'une logique remarquables. Il permet d'accéder, de modifier et de mettre à jour par programme un grand nombre de sources de données via les interfaces système OLE DB. L'utilisation la plus fréquente d'ADO consiste à exécuter des requêtes sur une ou plusieurs tables d'une base de données relationnelle, à extraire et à afficher les résultats dans une application et, le cas échéant, à permettre aux utilisateurs de modifier les données et d'enregistrer ces modifications. Mais ADO permet également d'effectuer d'autres opérations par programme :</span><span class="sxs-lookup"><span data-stu-id="b3ace-p101">ADO is designed to provide developers with a powerful, logical object model for programmatically accessing, editing, and updating a wide variety of data sources through OLE DB system interfaces. The most common usage of ADO is to query a table or tables in a relational database, retrieve and display the results in an application, and perhaps allow users to make and save changes to the data. Other things that can be done programmatically with ADO include:</span></span>
+<span data-ttu-id="889fb-p101">ADO fournit aux développeurs un modèle objet d'une puissance et d'une logique remarquables. Il permet d'accéder, de modifier et de mettre à jour par programme un grand nombre de sources de données via les interfaces système OLE DB. L'utilisation la plus fréquente d'ADO consiste à exécuter des requêtes sur une ou plusieurs tables d'une base de données relationnelle, à extraire et à afficher les résultats dans une application et, le cas échéant, à permettre aux utilisateurs de modifier les données et d'enregistrer ces modifications. Mais ADO permet également d'effectuer d'autres opérations par programme :</span><span class="sxs-lookup"><span data-stu-id="889fb-p101">ADO is designed to provide developers with a powerful, logical object model for programmatically accessing, editing, and updating a wide variety of data sources through OLE DB system interfaces. The most common usage of ADO is to query a table or tables in a relational database, retrieve and display the results in an application, and perhaps allow users to make and save changes to the data. Other things that can be done programmatically with ADO include:</span></span>
 
-  - <span data-ttu-id="b3ace-107">Exécuter des requêtes SQL dans une base de données, et afficher les résultats correspondants</span><span class="sxs-lookup"><span data-stu-id="b3ace-107">Querying a database using SQL and displaying the results.</span></span>
+  - <span data-ttu-id="889fb-107">Exécuter des requêtes SQL dans une base de données, et afficher les résultats correspondants</span><span class="sxs-lookup"><span data-stu-id="889fb-107">Querying a database using SQL and displaying the results.</span></span>
 
-  - <span data-ttu-id="b3ace-108">Accéder à des informations d'un magasin de fichiers sur Internet</span><span class="sxs-lookup"><span data-stu-id="b3ace-108">Accessing information in a file store over the Internet.</span></span>
+  - <span data-ttu-id="889fb-108">Accéder à des informations d'un magasin de fichiers sur Internet</span><span class="sxs-lookup"><span data-stu-id="889fb-108">Accessing information in a file store over the Internet.</span></span>
 
-  - <span data-ttu-id="b3ace-109">Manipuler les messages et les dossiers d'un système de messagerie électronique</span><span class="sxs-lookup"><span data-stu-id="b3ace-109">Manipulating messages and folders in an e-mail system.</span></span>
+  - <span data-ttu-id="889fb-109">Manipuler les messages et les dossiers d'un système de messagerie électronique</span><span class="sxs-lookup"><span data-stu-id="889fb-109">Manipulating messages and folders in an e-mail system.</span></span>
 
-  - <span data-ttu-id="b3ace-110">Enregistrer des données d'une base de données dans un fichier XML</span><span class="sxs-lookup"><span data-stu-id="b3ace-110">Saving data from a database into an XML file.</span></span>
+  - <span data-ttu-id="889fb-110">Enregistrer des données d'une base de données dans un fichier XML</span><span class="sxs-lookup"><span data-stu-id="889fb-110">Saving data from a database into an XML file.</span></span>
 
-  - <span data-ttu-id="b3ace-111">Permettre aux utilisateurs d'examiner et de modifier les données dans des tables de bases de données</span><span class="sxs-lookup"><span data-stu-id="b3ace-111">Allowing a user to review and make changes to data in database tables.</span></span>
+  - <span data-ttu-id="889fb-111">Permettre aux utilisateurs d'examiner et de modifier les données dans des tables de bases de données</span><span class="sxs-lookup"><span data-stu-id="889fb-111">Allowing a user to review and make changes to data in database tables.</span></span>
 
-  - <span data-ttu-id="b3ace-112">Créer et réutiliser des commandes de base de données paramétrées</span><span class="sxs-lookup"><span data-stu-id="b3ace-112">Creating and reusing parameterized database commands.</span></span>
+  - <span data-ttu-id="889fb-112">Créer et réutiliser des commandes de base de données paramétrées</span><span class="sxs-lookup"><span data-stu-id="889fb-112">Creating and reusing parameterized database commands.</span></span>
 
-  - <span data-ttu-id="b3ace-113">Exécuter des procédures stockées</span><span class="sxs-lookup"><span data-stu-id="b3ace-113">Executing stored procedures.</span></span>
+  - <span data-ttu-id="889fb-113">Exécuter des procédures stockées</span><span class="sxs-lookup"><span data-stu-id="889fb-113">Executing stored procedures.</span></span>
 
-  - <span data-ttu-id="b3ace-114">Créer dynamiquement une structure flexible appelée **jeu d'enregistrements** pour le stockage, la navigation et la manipulation des données</span><span class="sxs-lookup"><span data-stu-id="b3ace-114">Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.</span></span>
+  - <span data-ttu-id="889fb-114">Créer dynamiquement une structure flexible appelée **jeu d'enregistrements** pour le stockage, la navigation et la manipulation des données</span><span class="sxs-lookup"><span data-stu-id="889fb-114">Dynamically creating a flexible structure, called a **Recordset**, to hold, navigate, and manipulate data.</span></span>
 
-  - <span data-ttu-id="b3ace-115">Effectuer des opérations de base de données transactionnelle</span><span class="sxs-lookup"><span data-stu-id="b3ace-115">Performing transactional database operations.</span></span>
+  - <span data-ttu-id="889fb-115">Effectuer des opérations de base de données transactionnelle</span><span class="sxs-lookup"><span data-stu-id="889fb-115">Performing transactional database operations.</span></span>
 
-  - <span data-ttu-id="b3ace-116">Filtrer et trier des copies locales d'informations de base de données selon des critères d'exécution</span><span class="sxs-lookup"><span data-stu-id="b3ace-116">Filtering and sorting local copies of database information based on run-time criteria.</span></span>
+  - <span data-ttu-id="889fb-116">Filtrer et trier des copies locales d'informations de base de données selon des critères d'exécution</span><span class="sxs-lookup"><span data-stu-id="889fb-116">Filtering and sorting local copies of database information based on run-time criteria.</span></span>
 
-  - <span data-ttu-id="b3ace-117">Créer et manipuler des résultats hiérarchiques de bases de données</span><span class="sxs-lookup"><span data-stu-id="b3ace-117">Creating and manipulating hierarchical results from databases.</span></span>
+  - <span data-ttu-id="889fb-117">Créer et manipuler des résultats hiérarchiques de bases de données</span><span class="sxs-lookup"><span data-stu-id="889fb-117">Creating and manipulating hierarchical results from databases.</span></span>
 
-  - <span data-ttu-id="b3ace-118">Lier des champs de base de données à des composants liés aux bases de données</span><span class="sxs-lookup"><span data-stu-id="b3ace-118">Binding database fields to data-aware components.</span></span>
+  - <span data-ttu-id="889fb-118">Lier des champs de base de données à des composants liés aux bases de données</span><span class="sxs-lookup"><span data-stu-id="889fb-118">Binding database fields to data-aware components.</span></span>
 
-  - <span data-ttu-id="b3ace-119">Créer des **jeux d'enregistrements** distants et non connectés</span><span class="sxs-lookup"><span data-stu-id="b3ace-119">Creating remote, disconnected **Recordsets**.</span></span>
+  - <span data-ttu-id="889fb-119">Créer des **jeux d'enregistrements** distants et non connectés</span><span class="sxs-lookup"><span data-stu-id="889fb-119">Creating remote, disconnected **Recordsets**.</span></span>
 
-<span data-ttu-id="b3ace-p102">ADO doit exposer une grande variété d'options et de paramètres pour offrir une telle flexibilité. Par conséquent, il est essentiel d'adopter une approche méthodique de l'utilisation d'ADO dans une application, et de structurer vos objectifs en les scindant en éléments gérables.</span><span class="sxs-lookup"><span data-stu-id="b3ace-p102">ADO must expose a wide variety of options and settings in order to provide such flexibility. Therefore it's important to take a methodical approach to learning how to use ADO in an application, breaking down each of your goals into manageable pieces.</span></span>
+<span data-ttu-id="889fb-p102">ADO doit exposer une grande variété d'options et de paramètres pour offrir une telle flexibilité. Par conséquent, il est essentiel d'adopter une approche méthodique de l'utilisation d'ADO dans une application, et de structurer vos objectifs en les scindant en éléments gérables.</span><span class="sxs-lookup"><span data-stu-id="889fb-p102">ADO must expose a wide variety of options and settings in order to provide such flexibility. Therefore it's important to take a methodical approach to learning how to use ADO in an application, breaking down each of your goals into manageable pieces.</span></span>
 
-<span data-ttu-id="b3ace-p103">Les programmes ADO impliquent quatre opérations essentielles : l'accès, l'analyse, la modification et la mise à jour des données. Ces quatre opérations sont présentées en détail dans les quatre chapitres suivants.</span><span class="sxs-lookup"><span data-stu-id="b3ace-p103">Four primary operations are involved in most ADO programs: getting data, examining data, editing data, and updating data. The next four chapters examine each of these operations in more detail.</span></span>
+<span data-ttu-id="889fb-p103">Les programmes ADO impliquent quatre opérations essentielles : l'accès, l'analyse, la modification et la mise à jour des données. Ces quatre opérations sont présentées en détail dans les quatre chapitres suivants.</span><span class="sxs-lookup"><span data-stu-id="889fb-p103">Four primary operations are involved in most ADO programs: getting data, examining data, editing data, and updating data. The next four chapters examine each of these operations in more detail.</span></span>
 
-<span data-ttu-id="b3ace-p104">Avant de commencer, familiarisez-vous avec les objets du modèle objet ADO. Passez ensuite à la rubrique [HelloData : une application ADO simple](hellodata-a-simple-ado-application.md). Cette application est écrite en Visual Basic et permet l'exécution des quatre principales opérations d'ADO.</span><span class="sxs-lookup"><span data-stu-id="b3ace-p104">Before proceeding, familiarize yourself with the objects in the ADO Object Model. Then review [HelloData: A Simple ADO Application](hellodata-a-simple-ado-application.md). This application is written in Visual Basic and performs each of the four primary ADO operations.</span></span>
+<span data-ttu-id="889fb-p104">Avant de commencer, familiarisez-vous avec les objets du modèle objet ADO. Passez ensuite à la rubrique [HelloData : une application ADO simple](hellodata-a-simple-ado-application.md). Cette application est écrite en Visual Basic et permet l'exécution des quatre principales opérations d'ADO.</span><span class="sxs-lookup"><span data-stu-id="889fb-p104">Before proceeding, familiarize yourself with the objects in the ADO Object Model. Then review [HelloData: A Simple ADO Application](hellodata-a-simple-ado-application.md). This application is written in Visual Basic and performs each of the four primary ADO operations.</span></span>
 
