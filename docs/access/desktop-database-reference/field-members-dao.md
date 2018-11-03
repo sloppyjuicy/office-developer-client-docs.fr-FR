@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 497c0375496310c27c134792e01bd17e5533a452
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922201"
+ms.locfileid: "25937119"
 ---
 # <a name="field-members-dao"></a>Membres du champ (DAO)
 
@@ -102,12 +102,8 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p>Une des valeurs de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie la valeur d'un objet <strong>Field</strong> de la base de données qui existait au moment du lancement de la dernière mise à jour en lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -152,12 +148,8 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p>Une des valeurs de <strong><a href="workspacetypeenum-enumeration-dao.md">WorkspaceTypeEnum</a></strong> .</p>
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie une valeur actuellement dans la base de données et qui est plus récente que celle de la propriété <strong>OriginalValue</strong>, ainsi que le révèle un conflit de mise à jour par lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 </tbody>

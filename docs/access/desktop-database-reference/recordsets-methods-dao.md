@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
 ms:contentKeyID: 52074551
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7f73deb714e9e38f207d0fec5a64dd650bfa51c3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d2325ded82ee4ce052ad9a8bfdfb6987c3df3166
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921984"
+ms.locfileid: "25937511"
 ---
 # <a name="recordsets-methods-dao"></a>Méthodes de jeux d’enregistrements (DAO Data)
 
-
 **S’applique à**: Access 2013, Office 2013
 
-
-
-  - [Méthode Recordsets.Refresh (DAO)](recordsets-refresh-method-dao.md)
+- [Méthode Recordsets.Refresh (DAO)](recordsets-refresh-method-dao.md)
 

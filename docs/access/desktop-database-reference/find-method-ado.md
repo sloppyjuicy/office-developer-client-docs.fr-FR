@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b37f5930f9a9a36603700a1d27458527f128ad34
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4ff66a39de070759e0ad31b441e4be5735d87516
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922033"
+ms.locfileid: "25936609"
 ---
 # <a name="find-method-ado"></a>Find, méthode (ADO)
 
@@ -57,12 +57,9 @@ Les astérisques peuvent uniquement être utilisés à la fin d'une chaîne de c
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Une erreur se produit si la position de ligne actuelle n'est pas définie avant d'appeler <STRONG>Find</STRONG>. Toute méthode qui définit la position de ligne, par exemple <A href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</A>, doit être appelée avant la méthode <STRONG>Find</STRONG>.</P>
-
-
-
+> [!REMARQUE] Une erreur se produit si la position de ligne actuelle n'est pas définie avant d'appeler **Find**. Toute méthode qui définit la position de ligne, par exemple [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), doit être appelée avant la méthode **Find**.
 
 > [!NOTE]
-> <P>[!REMARQUE] Si vous appelez la méthode <STRONG>Find</STRONG> sur un jeu d'enregistrements et que la position actuelle dans le jeu d'enregistrements correspond au dernier enregistrement ou à la fin du fichier (EOF), votre recherche ne donne aucun résultat. Vous devez appeler la méthode <STRONG>MoveFirst</STRONG> pour définir la position/le curseur actuel au début du jeu d'enregistrements.</P>
+> [!REMARQUE] Si vous appelez la méthode **Find** sur un jeu d'enregistrements et que la position actuelle dans le jeu d'enregistrements correspond au dernier enregistrement ou à la fin du fichier (EOF), votre recherche ne donne aucun résultat. Vous devez appeler la méthode **MoveFirst** pour définir la position/le curseur actuel au début du jeu d'enregistrements.
 
 
