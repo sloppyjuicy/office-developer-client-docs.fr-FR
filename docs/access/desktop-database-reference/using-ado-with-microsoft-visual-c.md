@@ -6,29 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249548(v=office.15)
 ms:contentKeyID: 48545930
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0ddacbdb45521078db5e047f82002c89cb7f17c0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e21a282166dd9376275a24f41674d240bd23c4f7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886927"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947951"
 ---
 # <a name="using-ado-with-microsoft-visual-c"></a>Utilisation d’ADO avec Microsoft Visual C++
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Pour plus d'informations sur l'utilisation d'ADO avec Visual C++, consultez les sections suivantes :
 
-- [Programmation ADO Visual C++](visual-c-ado-programming.md)
-
+- [Programmation ADO C++ visuelle](visual-c-ado-programming.md)
 - [Extensions Visual C++ pour ADO](visual-c-extensions-for-ado.md)
-
-- [Utilisation d’extensions Visual C++](using-visual-c-extensions.md)
-
-- [En-tête d'extensions Visual C++](visual-c-extensions-header.md)
-
-- [Exemple d’Extensions Visual C++](visual-c-extensions-example.md)
+- [Utilisation des extensions Visual C++](using-visual-c-extensions.md)
+- [En-tête d’extensions Visual C++](visual-c-extensions-header.md)
+- [Exemple d’extensions Visual C++](visual-c-extensions-example.md)
 
 
 ## <a name="see-also"></a>Voir aussi

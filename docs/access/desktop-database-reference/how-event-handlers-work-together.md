@@ -1,24 +1,21 @@
 ---
-title: Présentation du fonctionnement conjoint des gestionnaires d'événements
-TOCTitle: How Event Handlers Work Together
+title: Fonctionnement conjoint des gestionnaires d’événements
+TOCTitle: How event handlers work together
 ms:assetid: 02122824-881e-0bb8-cba1-c963024790ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248788(v=office.15)
 ms:contentKeyID: 48542951
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 19f60c196c110787eb7baf57646a9d5d4996fdf0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 7a926bed97cf3f21e81fbf01eae554aaec45406a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877827"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947783"
 ---
-# <a name="how-event-handlers-work-together"></a>Présentation du fonctionnement conjoint des gestionnaires d'événements
-
+# <a name="how-event-handlers-work-together"></a>Fonctionnement conjoint des gestionnaires d’événements
 
 **S’applique à**: Access 2013, Office 2013
-
-
 
 À moins que vous ne programmiez en Visual Basic, tous les gestionnaires des événements **Connection** et **Recordset** doivent être implémentés, que vous décidiez de traiter ou non tous les événements. La charge de travail qu'implique cette implémentation dépend de votre langage de programmation. Pour plus d'informations, consultez [Instanciation des événements ADO par langage](https://msdn.microsoft.com/library/jj250244\(v=office.15\)).
 

@@ -1,6 +1,6 @@
 ---
-title: Initialisation du pilote de source de données Microsoft Exchange
-TOCTitle: Initializing the Microsoft Exchange Data Source Driver
+title: Initialisation du pilote de Source de données Microsoft Exchange
+TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
 ms:contentKeyID: 48547810
@@ -10,14 +10,14 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6e1d61d2f61050118745347441cba1f27c35c41f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937742"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947853"
 ---
-# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source de données Microsoft Exchange
+# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de Source de données Microsoft Exchange
 
 **S’applique à**: Access 2013, Office 2013
 
