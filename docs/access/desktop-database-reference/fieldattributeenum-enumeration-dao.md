@@ -1,22 +1,22 @@
 ---
-title: FieldAttributeEnum Enumeration (DAO)
+title: FieldAttributeEnum, énumération (DAO)
 TOCTitle: FieldAttributeEnum Enumeration
 ms:assetid: 2dc6697c-d3e1-ce76-1b8b-fc60dc6f16a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192118(v=office.15)
 ms:contentKeyID: 48543977
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 399f2d1c8f32fb1fcbe180a04968894caa8162d9
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: e5239980bc78a3ab26efe8d7b129f853dfa773a3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874229"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946845"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="d4a7c-102">FieldAttributeEnum Enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4a7c-102">FieldAttributeEnum Enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="47abd-102">FieldAttributeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="47abd-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="d4a7c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4a7c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="47abd-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47abd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4a7c-104">TBD</span><span class="sxs-lookup"><span data-stu-id="d4a7c-104">TBD</span></span>
+<span data-ttu-id="47abd-104">TBD</span><span class="sxs-lookup"><span data-stu-id="47abd-104">TBD</span></span>
 

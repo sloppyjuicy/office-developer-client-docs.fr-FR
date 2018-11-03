@@ -1,30 +1,29 @@
 ---
-title: Boutons de navigation dans le Carnet d'adresses
-TOCTitle: Address Book Navigation Buttons
+title: Boutons de navigation de carnet d’adresses
+TOCTitle: Address Book navigation buttons
 ms:assetid: 4ec32c08-5b35-8dce-23ec-0daa4db551cf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d0a6409bcdeca211c3badb1ca7918d3d34bc3f1f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d1a8caae94bf56532b45dcfa3e647ba092552795
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869021"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947552"
 ---
-# <a name="address-book-navigation-buttons"></a><span data-ttu-id="6fb12-102">Boutons de navigation dans le Carnet d'adresses</span><span class="sxs-lookup"><span data-stu-id="6fb12-102">Address Book Navigation Buttons</span></span>
+# <a name="address-book-navigation-buttons"></a><span data-ttu-id="bad07-102">Boutons de navigation de carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="bad07-102">Address Book navigation buttons</span></span>
 
+<span data-ttu-id="bad07-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bad07-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6fb12-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6fb12-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bad07-104">L’application Carnet d’adresses affiche les boutons de navigation au bas de la page Web.</span><span class="sxs-lookup"><span data-stu-id="bad07-104">The Address Book application displays the navigation buttons at the bottom of the webpage.</span></span> <span data-ttu-id="bad07-105">Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="bad07-105">You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.</span></span>
 
-<span data-ttu-id="6fb12-104">L’application Carnet d’adresses affiche les boutons de navigation au bas de la page Web.</span><span class="sxs-lookup"><span data-stu-id="6fb12-104">The Address Book application displays the navigation buttons at the bottom of the webpage.</span></span> <span data-ttu-id="6fb12-105">Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="6fb12-105">You can use the navigation buttons to navigate through the data in the HTML grid display by selecting either the first or last row of data, or rows adjacent to the current selection.</span></span>
+## <a name="navigation-sub-procedures"></a><span data-ttu-id="bad07-106">Sous-procédures de navigation</span><span class="sxs-lookup"><span data-stu-id="bad07-106">Navigation Sub Procedures</span></span>
 
-## <a name="navigation-sub-procedures"></a><span data-ttu-id="6fb12-106">Sous-procédures de navigation</span><span class="sxs-lookup"><span data-stu-id="6fb12-106">Navigation Sub Procedures</span></span>
+<span data-ttu-id="bad07-107">L'application Carnet d'adresses intègre plusieurs procédures qui permettent aux utilisateurs de parcourir les données en cliquant sur les boutons **Première**, **Suivante**, **Précédente** et **Dernière**.</span><span class="sxs-lookup"><span data-stu-id="bad07-107">The Address Book application contains several procedures that allow users to click the **First**, **Next**, **Previous**, and **Last** buttons to move around the data.</span></span>
 
-<span data-ttu-id="6fb12-107">L'application Carnet d'adresses intègre plusieurs procédures qui permettent aux utilisateurs de parcourir les données en cliquant sur les boutons **Première**, **Suivante**, **Précédente** et **Dernière**.</span><span class="sxs-lookup"><span data-stu-id="6fb12-107">The Address Book application contains several procedures that allow users to click the **First**, **Next**, **Previous**, and **Last** buttons to move around the data.</span></span>
-
-<span data-ttu-id="6fb12-108">Par exemple, le **premier** bouton permet d’activer le premier VBScript\_procédure OnClick Sub.</span><span class="sxs-lookup"><span data-stu-id="6fb12-108">For example, clicking the **First** button activates the VBScript First\_OnClick Sub procedure.</span></span> <span data-ttu-id="6fb12-109">Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="6fb12-109">The procedure executes a [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, which makes the first row of data the current selection.</span></span> <span data-ttu-id="6fb12-110">En cliquant sur **le bouton** Active la dernière\_procédure OnClick Sub, qui appelle la méthode [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , qui fait la dernière ligne de données la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="6fb12-110">Clicking the **Last** button activates the Last\_OnClick Sub procedure, which invokes the [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, making the last row of data the current selection.</span></span> <span data-ttu-id="6fb12-111">Les autres boutons de navigation fonctionnent de la même façon.</span><span class="sxs-lookup"><span data-stu-id="6fb12-111">The remaining navigation buttons work in a similar fashion.</span></span>
+<span data-ttu-id="bad07-108">Par exemple, le **premier** bouton permet d’activer le premier VBScript\_procédure OnClick Sub.</span><span class="sxs-lookup"><span data-stu-id="bad07-108">For example, clicking the **First** button activates the VBScript First\_OnClick Sub procedure.</span></span> <span data-ttu-id="bad07-109">Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="bad07-109">The procedure executes a [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, which makes the first row of data the current selection.</span></span> <span data-ttu-id="bad07-110">En cliquant sur **le bouton** Active la dernière\_procédure OnClick Sub, qui appelle la méthode [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , qui fait la dernière ligne de données la sélection actuelle.</span><span class="sxs-lookup"><span data-stu-id="bad07-110">Clicking the **Last** button activates the Last\_OnClick Sub procedure, which invokes the [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) method, making the last row of data the current selection.</span></span> <span data-ttu-id="bad07-111">Les autres boutons de navigation fonctionnent de la même façon.</span><span class="sxs-lookup"><span data-stu-id="bad07-111">The remaining navigation buttons work in a similar fashion.</span></span>
 
 ```vb 
  

@@ -6,21 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249929(v=office.15)
 ms:contentKeyID: 48547480
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc062640b564f2e7f9760d15c47ac80616c444f2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b2a8a839edaa3da4f2efed747b3e86cae113ee21
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925505"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946110"
 ---
-# <a name="fields-collection-ado-reference"></a><span data-ttu-id="fe0f2-102">Référence des champs, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="fe0f2-102">Fields collection (ADO) reference</span></span>
+# <a name="fields-collection-ado-reference"></a><span data-ttu-id="78d68-102">Référence des champs, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="78d68-102">Fields collection (ADO) reference</span></span>
 
+<span data-ttu-id="78d68-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="78d68-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fe0f2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fe0f2-103">**Applies to**: Access 2013, Office 2013</span></span>
-
-
-
-  - [<span data-ttu-id="fe0f2-104">Fields, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="fe0f2-104">Fields collection (ADO)</span></span>](fields-collection-ado.md)
-
-  - [<span data-ttu-id="fe0f2-105">Champs, collection-propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="fe0f2-105">Fields collection properties, methods, and events</span></span>](fields-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="78d68-104">Fields, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="78d68-104">Fields collection (ADO)</span></span>](fields-collection-ado.md)
+- [<span data-ttu-id="78d68-105">Champs, collection-propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="78d68-105">Fields collection properties, methods, and events</span></span>](fields-collection-properties-methods-and-events.md)
 

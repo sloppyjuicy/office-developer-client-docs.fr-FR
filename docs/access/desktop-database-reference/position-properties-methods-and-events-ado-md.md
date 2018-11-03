@@ -6,29 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249848(v=office.15)
 ms:contentKeyID: 48547155
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5a59fa3897d810b5827368e09ff55b209d427d80
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4cbf9fb93fa381e3195f9536b0686bd760018333
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924210"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947349"
 ---
-# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="e6d16-102">Position propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e6d16-102">Position properties, methods, and events (ADO MD)</span></span>
+# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="41913-102">Position propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="41913-102">Position properties, methods, and events (ADO MD)</span></span>
 
+<span data-ttu-id="41913-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41913-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e6d16-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6d16-103">**Applies to**: Access 2013, Office 2013</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="41913-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="41913-104">Properties/Collections</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="e6d16-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="e6d16-104">Properties/Collections</span></span>
+- [<span data-ttu-id="41913-105">Members, collection</span><span class="sxs-lookup"><span data-stu-id="41913-105">Members collection</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="41913-106">Ordinal, propriété (Position)</span><span class="sxs-lookup"><span data-stu-id="41913-106">Ordinal property (Position)</span></span>](ordinal-property-ado-md-position.md)
 
-- [<span data-ttu-id="e6d16-105">Members, collection</span><span class="sxs-lookup"><span data-stu-id="e6d16-105">Members Collection</span></span>](members-collection-ado-md.md)
+## <a name="methods"></a><span data-ttu-id="41913-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="41913-107">Methods</span></span>
 
-- [<span data-ttu-id="e6d16-106">Ordinal, propriété (Position)</span><span class="sxs-lookup"><span data-stu-id="e6d16-106">Ordinal Property (Position)</span></span>](ordinal-property-ado-md-position.md)
+<span data-ttu-id="41913-108">Aucune.</span><span class="sxs-lookup"><span data-stu-id="41913-108">None.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="e6d16-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="e6d16-107">Methods</span></span>
+## <a name="events"></a><span data-ttu-id="41913-109">Événements</span><span class="sxs-lookup"><span data-stu-id="41913-109">Events</span></span>
 
-<span data-ttu-id="e6d16-108">Aucune.</span><span class="sxs-lookup"><span data-stu-id="e6d16-108">None.</span></span>
-
-## <a name="events"></a><span data-ttu-id="e6d16-109">Événements</span><span class="sxs-lookup"><span data-stu-id="e6d16-109">Events</span></span>
-
-<span data-ttu-id="e6d16-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="e6d16-110">None.</span></span>
+<span data-ttu-id="41913-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="41913-110">None.</span></span>
 

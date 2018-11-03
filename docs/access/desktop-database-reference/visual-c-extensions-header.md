@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef7ca4a9dabb92bc2d13bd0b589180d7d4ca2958
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b866e9cecc31c4826b0b0fb52b5b8a2524b4bb00
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871471"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946453"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="1aac3-102">En-tête d'extensions Visual C++</span><span class="sxs-lookup"><span data-stu-id="1aac3-102">Visual C++ Extensions Header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="a9c94-102">En-tête d’Extensions C++ Visual</span><span class="sxs-lookup"><span data-stu-id="a9c94-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="1aac3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1aac3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a9c94-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9c94-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1aac3-p101">L'en-tête **icrsint.h** décrit l'interface qui permet aux clients d'extraire des champs d'un objet **Recordset** dans des variables définies dans une classe dérivée de **CADORecordBinding**. Vous devez spécifier une macro de liaison ADO pour chacun des champs auxquels vous avez l'intention d'accéder.</span><span class="sxs-lookup"><span data-stu-id="1aac3-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="a9c94-p101">L'en-tête **icrsint.h** décrit l'interface qui permet aux clients d'extraire des champs d'un objet **Recordset** dans des variables définies dans une classe dérivée de **CADORecordBinding**. Vous devez spécifier une macro de liaison ADO pour chacun des champs auxquels vous avez l'intention d'accéder.</span><span class="sxs-lookup"><span data-stu-id="a9c94-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  
