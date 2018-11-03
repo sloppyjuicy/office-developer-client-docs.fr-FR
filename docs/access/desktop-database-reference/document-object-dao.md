@@ -6,23 +6,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17dfd7d1a6f5a0c7ec6bd985d75d201202a71ff7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 44dacdab7dc13855426bf366bda2801ddee8c022
+ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922313"
+ms.locfileid: "25936692"
 ---
-# <a name="document-object-dao"></a><span data-ttu-id="d2010-102">Objet de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="d2010-102">Document object (DAO)</span></span>
+# <a name="document-object-dao"></a><span data-ttu-id="50178-102">Objet de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="50178-102">Document object (DAO)</span></span>
 
 
-<span data-ttu-id="d2010-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2010-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50178-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50178-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2010-p101">Un objet **Document** inclut des informations sur une instance d'un objet. L'objet peut être une base de données, une table enregistrée, une requête ou une relation (bases de données de moteur de base de données Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="d2010-p101">A **Document** object includes information about one instance of an object. The object can be a database, saved table, query, or relationship (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="50178-p101">Un objet **Document** inclut des informations sur une instance d'un objet. L'objet peut être une base de données, une table enregistrée, une requête ou une relation (bases de données de moteur de base de données Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="50178-p101">A **Document** object includes information about one instance of an object. The object can be a database, saved table, query, or relationship (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d2010-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="d2010-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50178-106">Remarques</span><span class="sxs-lookup"><span data-stu-id="50178-106">Remarks</span></span>
 
-<span data-ttu-id="d2010-p102">Chaque objet **Container** comporte une collection **Documents** qui contient des objets **Document** qui décrivent des instances d'objets intégrés du type spécifié par l'objet **Container**. Le tableau ci-dessous répertorie le type d'objet que chaque objet **Document** décrit, le nom de son objet **Container** et le type d'informations contenues dans l'objet **Document**.</span><span class="sxs-lookup"><span data-stu-id="d2010-p102">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**. The following table lists the type of object each **Document** describes, the name of its **Container** object, and what type of information **Document** contains.</span></span>
+<span data-ttu-id="50178-p102">Chaque objet **Container** comporte une collection **Documents** qui contient des objets **Document** qui décrivent des instances d'objets intégrés du type spécifié par l'objet **Container**. Le tableau ci-dessous répertorie le type d'objet que chaque objet **Document** décrit, le nom de son objet **Container** et le type d'informations contenues dans l'objet **Document**.</span><span class="sxs-lookup"><span data-stu-id="50178-p102">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**. The following table lists the type of object each **Document** describes, the name of its **Container** object, and what type of information **Document** contains.</span></span>
 
 <table>
 <colgroup>
@@ -32,58 +32,58 @@ ms.locfileid: "25922313"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d2010-109">Document</span><span class="sxs-lookup"><span data-stu-id="d2010-109">Document</span></span></p></th>
-<th><p><span data-ttu-id="d2010-110">Conteneur</span><span class="sxs-lookup"><span data-stu-id="d2010-110">Container</span></span></p></th>
-<th><p><span data-ttu-id="d2010-111">Contient des informations sur</span><span class="sxs-lookup"><span data-stu-id="d2010-111">Contains information about</span></span></p></th>
+<th><p><span data-ttu-id="50178-109">Document</span><span class="sxs-lookup"><span data-stu-id="50178-109">Document</span></span></p></th>
+<th><p><span data-ttu-id="50178-110">Conteneur</span><span class="sxs-lookup"><span data-stu-id="50178-110">Container</span></span></p></th>
+<th><p><span data-ttu-id="50178-111">Contient des informations sur</span><span class="sxs-lookup"><span data-stu-id="50178-111">Contains information about</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d2010-112">Base de données</span><span class="sxs-lookup"><span data-stu-id="d2010-112">Database</span></span></p></td>
-<td><p><span data-ttu-id="d2010-113">Bases de données</span><span class="sxs-lookup"><span data-stu-id="d2010-113">Databases</span></span></p></td>
-<td><p><span data-ttu-id="d2010-114">Base de données enregistrée</span><span class="sxs-lookup"><span data-stu-id="d2010-114">Saved database</span></span></p></td>
+<td><p><span data-ttu-id="50178-112">Base de données</span><span class="sxs-lookup"><span data-stu-id="50178-112">Database</span></span></p></td>
+<td><p><span data-ttu-id="50178-113">Bases de données</span><span class="sxs-lookup"><span data-stu-id="50178-113">Databases</span></span></p></td>
+<td><p><span data-ttu-id="50178-114">Base de données enregistrée</span><span class="sxs-lookup"><span data-stu-id="50178-114">Saved database</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d2010-115">Table ou requête</span><span class="sxs-lookup"><span data-stu-id="d2010-115">Table or query</span></span></p></td>
-<td><p><span data-ttu-id="d2010-116">Tables</span><span class="sxs-lookup"><span data-stu-id="d2010-116">Tables</span></span></p></td>
-<td><p><span data-ttu-id="d2010-117">Table ou requête enregistrée</span><span class="sxs-lookup"><span data-stu-id="d2010-117">Saved table or query</span></span></p></td>
+<td><p><span data-ttu-id="50178-115">Table ou requête</span><span class="sxs-lookup"><span data-stu-id="50178-115">Table or query</span></span></p></td>
+<td><p><span data-ttu-id="50178-116">Tables</span><span class="sxs-lookup"><span data-stu-id="50178-116">Tables</span></span></p></td>
+<td><p><span data-ttu-id="50178-117">Table ou requête enregistrée</span><span class="sxs-lookup"><span data-stu-id="50178-117">Saved table or query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d2010-118">Relation</span><span class="sxs-lookup"><span data-stu-id="d2010-118">Relationship</span></span></p></td>
-<td><p><span data-ttu-id="d2010-119">Relations</span><span class="sxs-lookup"><span data-stu-id="d2010-119">Relations</span></span></p></td>
-<td><p><span data-ttu-id="d2010-120">Relation enregistrée</span><span class="sxs-lookup"><span data-stu-id="d2010-120">Saved relationship</span></span></p></td>
+<td><p><span data-ttu-id="50178-118">Relation</span><span class="sxs-lookup"><span data-stu-id="50178-118">Relationship</span></span></p></td>
+<td><p><span data-ttu-id="50178-119">Relations</span><span class="sxs-lookup"><span data-stu-id="50178-119">Relations</span></span></p></td>
+<td><p><span data-ttu-id="50178-120">Relation enregistrée</span><span class="sxs-lookup"><span data-stu-id="50178-120">Saved relationship</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="d2010-p103">[!REMARQUE] Ne confondez pas les objets **Container** répertoriés dans le tableau précédent avec les collections du même nom. L'objet **Container** des bases de données renvoie à tous les objets de base de données enregistrés, mais la collection **Databases** renvoie uniquement aux objets de base de données ouverts dans un espace de travail déterminé.</span><span class="sxs-lookup"><span data-stu-id="d2010-p103">Don't confuse the **Container** objects listed in the preceding table with the collections of the same name. The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.</span></span>
+> <span data-ttu-id="50178-p103">[!REMARQUE] Ne confondez pas les objets **Container** répertoriés dans le tableau précédent avec les collections du même nom. L'objet **Container** des bases de données renvoie à tous les objets de base de données enregistrés, mais la collection **Databases** renvoie uniquement aux objets de base de données ouverts dans un espace de travail déterminé.</span><span class="sxs-lookup"><span data-stu-id="50178-p103">Don't confuse the **Container** objects listed in the preceding table with the collections of the same name. The Databases **Container** object refers to all saved database objects, but the **Databases** collection refers only to database objects that are open in a particular workspace.</span></span>
 
 
 
-<span data-ttu-id="d2010-123">Avec un objet **Document**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="d2010-123">With a **Document** object, you can:</span></span>
+<span data-ttu-id="50178-123">Avec un objet **Document**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="50178-123">With a **Document** object, you can:</span></span>
 
-  - <span data-ttu-id="d2010-124">Utiliser la propriété **Name** pour renvoyer le nom qu'un utilisateur ou le moteur de base de données Microsoft Access a donné à l'objet lorsqu'il a été créé.</span><span class="sxs-lookup"><span data-stu-id="d2010-124">Use the **Name** property to return the name that a user or the Microsoft Access database engine gave to the object when it was created.</span></span>
+  - <span data-ttu-id="50178-124">Utiliser la propriété **Name** pour renvoyer le nom qu'un utilisateur ou le moteur de base de données Microsoft Access a donné à l'objet lorsqu'il a été créé.</span><span class="sxs-lookup"><span data-stu-id="50178-124">Use the **Name** property to return the name that a user or the Microsoft Access database engine gave to the object when it was created.</span></span>
 
-  - <span data-ttu-id="d2010-125">Utiliser la propriété **Container** pour renvoyer le nom de l'objet **Container** qui contient l'objet **Document**.</span><span class="sxs-lookup"><span data-stu-id="d2010-125">Use the **Container** property to return the name of the **Container** object that contains the **Document** object.</span></span>
+  - <span data-ttu-id="50178-125">Utiliser la propriété **Container** pour renvoyer le nom de l'objet **Container** qui contient l'objet **Document**.</span><span class="sxs-lookup"><span data-stu-id="50178-125">Use the **Container** property to return the name of the **Container** object that contains the **Document** object.</span></span>
 
-  - <span data-ttu-id="d2010-p104">Utiliser la propriété **Owner** pour définir ou renvoyer le propriétaire de l'objet. Pour définir la propriété **Owner**, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété sur le nom d'un objet **User** ou **Group** existant.</span><span class="sxs-lookup"><span data-stu-id="d2010-p104">Use the **Owner** property to set or return the owner of the object. To set the **Owner** property, you must have write permission for the **Document** object, and you must set the property to the name of an existing **User** or **Group** object.</span></span>
+  - <span data-ttu-id="50178-p104">Utiliser la propriété **Owner** pour définir ou renvoyer le propriétaire de l'objet. Pour définir la propriété **Owner**, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété sur le nom d'un objet **User** ou **Group** existant.</span><span class="sxs-lookup"><span data-stu-id="50178-p104">Use the **Owner** property to set or return the owner of the object. To set the **Owner** property, you must have write permission for the **Document** object, and you must set the property to the name of an existing **User** or **Group** object.</span></span>
 
-  - <span data-ttu-id="d2010-p105">Utiliser les propriétés **UserName** ou **Permissions** pour définir ou renvoyer les autorisations d'accès d'un utilisateur ou d'un groupe pour l'objet. Pour définir ces propriétés, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété **UserName** sur le nom d'un objet **User** ou **Group** existant.</span><span class="sxs-lookup"><span data-stu-id="d2010-p105">Use the **UserName** or **Permissions** properties to set or return the access permissions of a user or group for the object. To set these properties, you must have write permission for the **Document** object, and you must set the **UserName** property to the name of an existing **User** or **Group** object.</span></span>
+  - <span data-ttu-id="50178-p105">Utiliser les propriétés **UserName** ou **Permissions** pour définir ou renvoyer les autorisations d'accès d'un utilisateur ou d'un groupe pour l'objet. Pour définir ces propriétés, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété **UserName** sur le nom d'un objet **User** ou **Group** existant.</span><span class="sxs-lookup"><span data-stu-id="50178-p105">Use the **UserName** or **Permissions** properties to set or return the access permissions of a user or group for the object. To set these properties, you must have write permission for the **Document** object, and you must set the **UserName** property to the name of an existing **User** or **Group** object.</span></span>
 
-  - <span data-ttu-id="d2010-130">Utiliser les propriétés **DateCreated** et **LastUpdated** pour renvoyer la date et l'heure auxquelles l'objet **Document** a été créé et modifié pour la dernière fois.</span><span class="sxs-lookup"><span data-stu-id="d2010-130">Use the **DateCreated** and **LastUpdated** properties to return the date and time when the **Document** object was created and last modified.</span></span>
+  - <span data-ttu-id="50178-130">Utiliser les propriétés **DateCreated** et **LastUpdated** pour renvoyer la date et l'heure auxquelles l'objet **Document** a été créé et modifié pour la dernière fois.</span><span class="sxs-lookup"><span data-stu-id="50178-130">Use the **DateCreated** and **LastUpdated** properties to return the date and time when the **Document** object was created and last modified.</span></span>
 
-<span data-ttu-id="d2010-p106">Dans la mesure où un objet **Document** correspond à un objet existant, vous ne pouvez pas créer d'objet **Document** ou supprimer des objets existants. Pour faire référence à un objet **Document** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="d2010-p106">Because a **Document** object corresponds to an existing object, you can't create new **Document** objects or delete existing ones. To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="50178-p106">Dans la mesure où un objet **Document** correspond à un objet existant, vous ne pouvez pas créer d'objet **Document** ou supprimer des objets existants. Pour faire référence à un objet **Document** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="50178-p106">Because a **Document** object corresponds to an existing object, you can't create new **Document** objects or delete existing ones. To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-  - <span data-ttu-id="d2010-133">**Documents**(0)</span><span class="sxs-lookup"><span data-stu-id="d2010-133">**Documents**(0)</span></span>
+  - <span data-ttu-id="50178-133">**Documents**(0)</span><span class="sxs-lookup"><span data-stu-id="50178-133">**Documents**(0)</span></span>
 
-  - <span data-ttu-id="d2010-134">**Documents** («*nom*»)</span><span class="sxs-lookup"><span data-stu-id="d2010-134">**Documents**("*name*")</span></span>
+  - <span data-ttu-id="50178-134">**Documents** («*nom*»)</span><span class="sxs-lookup"><span data-stu-id="50178-134">**Documents**("*name*")</span></span>
 
-  - <span data-ttu-id="d2010-135">**Documents**\!\[*nom*\]</span><span class="sxs-lookup"><span data-stu-id="d2010-135">**Documents**\!\[*name*\]</span></span>
+  - <span data-ttu-id="50178-135">**Documents**\!\[*nom*\]</span><span class="sxs-lookup"><span data-stu-id="50178-135">**Documents**\!\[*name*\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="d2010-136">Exemple</span><span class="sxs-lookup"><span data-stu-id="d2010-136">Example</span></span>
+## <a name="example"></a><span data-ttu-id="50178-136">Exemple</span><span class="sxs-lookup"><span data-stu-id="50178-136">Example</span></span>
 
-<span data-ttu-id="d2010-137">Cet exemple énumère la collection **Documents** du conteneur Tables, puis la collection **Properties** du premier objet **Document** de la collection.</span><span class="sxs-lookup"><span data-stu-id="d2010-137">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
+<span data-ttu-id="50178-137">Cet exemple énumère la collection **Documents** du conteneur Tables, puis la collection **Properties** du premier objet **Document** de la collection.</span><span class="sxs-lookup"><span data-stu-id="50178-137">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
 
 ```vb 
 Sub DocumentX() 
@@ -120,7 +120,9 @@ End Sub
  
 ```
 
-<span data-ttu-id="d2010-138">Cet exemple utilise les propriétés **Owner** et **SystemDB** pour afficher les propriétaires de différents objets **Document**.</span><span class="sxs-lookup"><span data-stu-id="d2010-138">This example uses the **Owner** and **SystemDB** properties to show the owners of a variety of **Document** objects.</span></span>
+<br/>
+
+<span data-ttu-id="50178-138">Cet exemple utilise les propriétés **Owner** et **SystemDB** pour afficher les propriétaires de différents objets **Document**.</span><span class="sxs-lookup"><span data-stu-id="50178-138">This example uses the **Owner** and **SystemDB** properties to show the owners of a variety of **Document** objects.</span></span>
 
 ```vb 
 Sub OwnerX() 
