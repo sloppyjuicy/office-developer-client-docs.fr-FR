@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 972a367d18613fd8c8935ded60223e78ee0dc4d7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9f4ef26113d81910fa989196a0b58865e1ca62f3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887431"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945752"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemple de modèle d’événements ADO (VC ++)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -22,27 +21,27 @@ La section Visual C++ de la rubrique [Instanciation des événements ADO par lan
 
 Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, certains détails de la description générale changent légèrement suite à l’aide de la ** \#importer** directive :
 
-  - Le ** \#importer** directive résout **typedef**du et les types de données de signatures de méthodes et les modificateurs leur forme fondamentale.
+- Le ** \#importer** directive résout **typedef**du et les types de données de signatures de méthodes et les modificateurs leur forme fondamentale.
 
-  - Les méthodes virtuelles pures qui doivent être écrasées portent toutes le préfixe par «**brutes\_**».
+- Les méthodes virtuelles pures qui doivent être écrasées portent toutes le préfixe par «**brutes\_**».
 
 Une partie du code reflète simplement un style de codage.
 
-  - Le pointeur vers **IUnknown** utilisé par la méthode **Advise** est obtenu par un appel explicite à **QueryInterface**.
+- Le pointeur vers **IUnknown** utilisé par la méthode **Advise** est obtenu par un appel explicite à **QueryInterface**.
 
-  - Il n'est pas nécessaire de coder explicitement un destructeur dans les définitions de classe.
+- Il n'est pas nécessaire de coder explicitement un destructeur dans les définitions de classe.
 
-  - Il peut s'avérer judicieux de coder des implémentations plus fiables de QueryInterface, AddRef et Release.
+- Il peut s'avérer judicieux de coder des implémentations plus fiables de QueryInterface, AddRef et Release.
 
-  - Le ** \_ \_uuidof()** directive est utilisée pour obtenir l’ID d’interface.
+- Le ** \_ \_uuidof()** directive est utilisée pour obtenir l’ID d’interface.
 
 Enfin, l'exemple contient des parties de code exploitables.
 
-  - L'exemple est écrit en tant qu'application console.
+- L'exemple est écrit en tant qu'application console.
 
-  - Vous devez insérer votre propre code sous le commentaire « / / effectuent ».
+- Vous devez insérer votre propre code sous le commentaire « / / effectuent ».
 
-  - Par défaut, tous les gestionnaires d'événements ne font rien et annulent toute notification ultérieure. Vous devez insérer le code approprié à votre application et autoriser l'envoi de notifications si besoin est.
+- Par défaut, tous les gestionnaires d'événements ne font rien et annulent toute notification ultérieure. Vous devez insérer le code approprié à votre application et autoriser l'envoi de notifications si besoin est.
 
 <!-- end list -->
 

@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249308(v=office.15)
 ms:contentKeyID: 48545032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ef7ca4a9dabb92bc2d13bd0b589180d7d4ca2958
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: b866e9cecc31c4826b0b0fb52b5b8a2524b4bb00
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871471"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946453"
 ---
-# <a name="visual-c-extensions-header"></a>En-tête d'extensions Visual C++
+# <a name="visual-c-extensions-header"></a>En-tête d’Extensions C++ Visual
 
 
 **S’applique à**: Access 2013, Office 2013

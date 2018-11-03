@@ -6,20 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f501b5884a8149850df7c1d16a141f345da90e52
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925428"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944514"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
-
 
 Vous pouvez utiliser l’action de **contrôle zonemessage** pour afficher une boîte de message contenant un avertissement ou un message d’information. Par exemple, vous pouvez utiliser l’action de **contrôle zonemessage** avec des macros de validation. Lorsqu’un contrôle ou un enregistrement échoue une condition de validation de la macro, une boîte de message peut afficher un message d’erreur et fournissent des instructions sur le type de données qui doivent être saisies.
 

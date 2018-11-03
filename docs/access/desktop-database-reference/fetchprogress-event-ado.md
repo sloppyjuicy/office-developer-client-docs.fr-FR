@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
 ms:contentKeyID: 48543114
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 929202df2d85ba2a4625a94506f8515eaba9fb39
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 44e41c3e9d46c9d26f5aed18755c158a5dc68ba7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923685"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946390"
 ---
 # <a name="fetchprogress-event-ado"></a>FetchProgress, événement (ADO)
 
@@ -27,19 +27,19 @@ FetchProgress*progression*, *MaxProgress*, *adStatus*, *Connection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Progress*
+- *Progress*
 
   - Valeur de type **Long** indiquant le nombre d'enregistrements déjà extraits par l'opération d'extraction.
 
-  - *MaxProgress*
+- *MaxProgress*
 
   - Valeur de type **Long** indiquant le nombre maximal prévu d'enregistrements à récupérer.
 
-  - *adStatus*
+- *adStatus*
 
   - Valeur d'état [EventStatusEnum](eventstatusenum.md).
 
-  - *Connection*
+- *Connection*
 
   - Objet **Recordset** représentant le jeu duquel les enregistrements sont extraits.
 

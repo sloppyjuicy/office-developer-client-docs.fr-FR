@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 17284fd61c44fe17f1c2661eff204c8827bf8e80
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922341"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944437"
 ---
 # <a name="clone-method-ado"></a>Clone, méthode (ADO)
 
@@ -32,15 +32,15 @@ Retourne une référence d'objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
-  - *rstDuplicate*
+- *rstDuplicate*
 
   - Variable objet qui identifie la copie de l'objet **Recordset** à créer.
 
-  - *rstOriginal*
+- *rstOriginal*
 
   - Variable objet qui identifie l'objet **Recordset** à dupliquer.
 
-  - *LockType*
+- *LockType*
 
   - Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.
 

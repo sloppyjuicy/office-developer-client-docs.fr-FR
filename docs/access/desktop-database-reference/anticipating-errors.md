@@ -1,17 +1,17 @@
 ---
 title: Anticipation des erreurs
-TOCTitle: Anticipating Errors
+TOCTitle: Anticipating errors
 ms:assetid: f2368a03-d446-ab42-b505-d5f5a214c000
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250229(v=office.15)
 ms:contentKeyID: 48548645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2ea388f44dbe9bdc572d439f5f0d00d6de7a06b1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: eec7480698676c5da6ea14d1754fc15e42995fe3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876567"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944647"
 ---
 # <a name="anticipating-errors"></a>Anticipation des erreurs
 
@@ -22,7 +22,7 @@ La prévention des erreurs est tout aussi importante que leur gestion. Cette der
 
 Vérifiez l'état des objets en contrôlant la valeur de la propriété **State** avant d'exécuter une opération avec ces objets. Par exemple, si votre application utilise un objet **Connection** global, vérifiez sa propriété **State** pour savoir s'il est déjà ouvert avant d'appeler la méthode **Open**.
 
-  - Tout programme qui accepte des données d'un utilisateur doit inclure du code visant à valider les données avant de les envoyer au magasin de données. Vous ne pouvez pas compter sur le magasin de données, le fournisseur, ADO ou même votre langage de programmation pour signaler des problèmes. Vous devez vérifier chaque octet entré par vos utilisateurs et vous assurer que les données des champs sont correctes et que les champs obligatoires ne sont pas vides.
+- Tout programme qui accepte des données d'un utilisateur doit inclure du code visant à valider les données avant de les envoyer au magasin de données. Vous ne pouvez pas compter sur le magasin de données, le fournisseur, ADO ou même votre langage de programmation pour signaler des problèmes. Vous devez vérifier chaque octet entré par vos utilisateurs et vous assurer que les données des champs sont correctes et que les champs obligatoires ne sont pas vides.
 
 Vérifiez les données avant d'essayer de les inscrire dans un magasin de données. Pour ce faire, la méthode la plus simple consiste à gérer les événements **WillMove** ou **WillUpdateRecordset**. Pour une explication plus complète de la gestion des événements ADO, consultez le [chapitre 7 : Gestion des événements ADO](chapter-7-handling-ado-events.md).
 

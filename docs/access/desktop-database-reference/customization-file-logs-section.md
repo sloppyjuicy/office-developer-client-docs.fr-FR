@@ -1,19 +1,19 @@
 ---
-title: Section Logs du fichier de personnalisation
-TOCTitle: Customization File Logs Section
+title: Section des fichiers journaux de personnalisation
+TOCTitle: Customization File Logs section
 ms:assetid: de331a97-c9cd-5f02-692b-d7afd9e9342a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250124(v=office.15)
 ms:contentKeyID: 48548178
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28132ee681d941eda3f7c1a9b072135a2d47b12b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c9a8b9c2255825b135fbc181900a73b3686c64c7
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882832"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946147"
 ---
-# <a name="customization-file-logs-section"></a>Section Logs du fichier de personnalisation
+# <a name="customization-file-logs-section"></a>Section des fichiers journaux de personnalisation
 
 **S’applique à**: Access 2013, Office 2013
 

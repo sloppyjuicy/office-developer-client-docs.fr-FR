@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248794(v=office.15)
 ms:contentKeyID: 48542970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d9202a81617f253477c9788055738eaa64e73322
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 70ca34183d135c6907a185984b02b394776bfda4
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880480"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944220"
 ---
 # <a name="updating-data"></a>Mise à jour des données
 
@@ -29,8 +29,6 @@ L'enregistrement actif reste actif après l'appel des méthodes **Update** ou **
 Cette section comprend les rubriques suivantes :
 
 - [Mode immédiat](immediate-mode.md)
-
-- [Traitement de transactions](transaction-processing.md)
-
-- [Batch Mode (ADO)](batch-mode.md)
+- [Traitement des transactions](transaction-processing.md)
+- [Mode de traitement par lots (ADO)](batch-mode.md)
 

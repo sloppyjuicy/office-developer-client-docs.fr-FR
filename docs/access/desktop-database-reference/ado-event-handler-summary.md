@@ -1,28 +1,28 @@
 ---
-title: Résumé du gestionnaire d'événements ADO
-TOCTitle: ADO Event Handler Summary
+title: Gestionnaire d’événements ADO résumé
+TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e47cf076c213707857285757d936d58bd153e7c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880599"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945361"
 ---
-# <a name="ado-event-handler-summary"></a>Résumé du gestionnaire d'événements ADO
+# <a name="ado-event-handler-summary"></a>Résumé du gestionnaire d’événements ADO
 
 
 **S’applique à**: Access 2013, Office 2013
 
 Deux objets ADO peuvent déclencher des événements : l'objet [Connection](connection-object-ado.md) et l'objet [Recordset](recordset-object-ado.md). La famille **ConnectionEvent** est liée aux opérations sur l'objet **Connection** et la famille **RecordsetEvent** aux opérations sur l'objet **Recordset**.
 
-  - **Événements Connection**: événements déclenchés lorsqu'une transaction sur une connexion est exécutée, validée ou annulée, lorsqu'un objet [Command](command-object-ado.md) est exécuté, lorsqu'un avertissement est émis au cours d'une opération sur un **événement Connection** ou lorsqu'un objet **Connection** est établi ou fermé.
+- **Événements Connection**: événements déclenchés lorsqu'une transaction sur une connexion est exécutée, validée ou annulée, lorsqu'un objet [Command](command-object-ado.md) est exécuté, lorsqu'un avertissement est émis au cours d'une opération sur un **événement Connection** ou lorsqu'un objet **Connection** est établi ou fermé.
 
-  - **Événements Recordset**: événements sont émises autour des opérations d’extraction asynchrone, ainsi que lorsque vous naviguez dans les lignes d’un objet **Recordset** , modifiez un champ dans une ligne d’un **jeu d’enregistrements**, modifier une ligne dans un **jeu d’enregistrements**, ouvrez un ** Jeu d’enregistrements** avec un curseur côté serveur, fermer un **jeu d’enregistrements**ou modifier une quelconque dans le **jeu d’enregistrements**.
+- **Événements Recordset**: événements sont émises autour des opérations d’extraction asynchrone, ainsi que lorsque vous naviguez dans les lignes d’un objet **Recordset** , modifiez un champ dans une ligne d’un **jeu d’enregistrements**, modifier une ligne dans un **jeu d’enregistrements**, ouvrez un ** Jeu d’enregistrements** avec un curseur côté serveur, fermer un **jeu d’enregistrements**ou modifier une quelconque dans le **jeu d’enregistrements**.
 
 Les tableaux suivants présentent et décrivent les événements.
 

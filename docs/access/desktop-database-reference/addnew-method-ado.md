@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 379aa71ad875213ab8c1ae022f7c8af3350b2662
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5c4ac833f2ff7681e3a4abe77ff53928fc3f4fe2
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927745"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944563"
 ---
 # <a name="addnew-method-ado"></a>AddNew, méthode (ADO)
 
@@ -26,17 +26,11 @@ Crée un enregistrement pour un objet [Recordset](recordset-object-ado.md) actua
 
 ## <a name="parameters"></a>Paramètres
 
-  - *recordset*
-
-  - Objet **Recordset**.
-
-  - *Liste de champs*
-
-  - Facultatif. Nom unique ou tableau de noms ou de positions ordinales des champs dans le nouvel enregistrement.
-
-  - *Values*
-
-  - Facultatif. Valeur unique ou tableau de valeurs des champs dans le nouvel enregistrement. Si *Fieldlist* est un tableau, les *valeurs* doivent être également un tableau avec le même nombre de membres ; dans le cas contraire, une erreur se produit. L'ordre des noms de champs doit correspondre à celui des valeurs de ces champs dans chaque tableau.
+|Paramètre|Description|
+|:--------|:----------|
+|*recordset* |Objet **Recordset**.|
+|*Liste de champs* |Facultatif. Nom unique ou tableau de noms ou de positions ordinales des champs dans le nouvel enregistrement.|
+|*Values* |Facultatif. Valeur unique ou tableau de valeurs des champs dans le nouvel enregistrement. Si *Fieldlist* est un tableau, les *valeurs* doivent être également un tableau avec le même nombre de membres ; dans le cas contraire, une erreur se produit. L'ordre des noms de champs doit correspondre à celui des valeurs de ces champs dans chaque tableau.|
 
 ## <a name="remarks"></a>Notes
 

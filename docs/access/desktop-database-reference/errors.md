@@ -6,19 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249199(v=office.15)
 ms:contentKeyID: 48544490
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3908a4b882a78360d3fd30ede0d4b9e406d03be5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 4f8514fddb5523b670e2dff2b9b55981cab52f72
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25873879"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946985"
 ---
 # <a name="errors"></a>Erreurs
 
-
 **S’applique à**: Access 2013, Office 2013
 
-Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs de fournisseur. Lorsqu'une erreur survient, un ou plusieurs objets **Error** sont placés dans la collection **Errors** de l'objet **Connection**. Pour en savoir plus sur la gestion des avertissements et des erreurs dans votre application ADO, reportez-vous au [chapitre 6 : Gestion des erreurs](chapter-6-error-handling.md).
+Toute opération impliquant des objets ADO peut générer une ou plusieurs erreurs de fournisseur. Lorsqu'une erreur survient, un ou plusieurs objets **Error** sont placés dans la collection **Errors** de l'objet **Connection**. Pour plus d’informations sur la gestion des avertissements et des erreurs dans votre application ADO, consultez la rubrique [chapitre 6 : gestion des erreurs](chapter-6-error-handling.md).
 
 Des erreurs d'application peuvent être déclenchées par un mécanisme distinct. Par exemple, dans Visual Basic, l'objet **Err** contient des erreurs de niveau application.
 

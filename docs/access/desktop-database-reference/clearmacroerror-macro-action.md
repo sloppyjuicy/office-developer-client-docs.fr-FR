@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f27e195181e6035c133c1f52c1dadc329496614b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cbf672ea3dde9725916128593e18d4289fd89057
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925253"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945382"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError, action de macro
 
@@ -31,15 +31,15 @@ L'action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-  - Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n’avez pas utilisé l’action **[SurErreur](onerror-macro-action.md)** pour supprimer les messages d’erreur, la macro s’arrête et les informations d’erreur s’affiche dans un message d’erreur standard. Toutefois, si vous avez utilisé l’action **SurErreur** pour supprimer les messages d’erreur, vous souhaitez utiliser les informations stockées dans l’objet **MacroError** dans une condition ou dans un message d’erreur personnalisé.
+- Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n’avez pas utilisé l’action **[SurErreur](onerror-macro-action.md)** pour supprimer les messages d’erreur, la macro s’arrête et les informations d’erreur s’affiche dans un message d’erreur standard. Toutefois, si vous avez utilisé l’action **SurErreur** pour supprimer les messages d’erreur, vous souhaitez utiliser les informations stockées dans l’objet **MacroError** dans une condition ou dans un message d’erreur personnalisé.
     
-    Lorsqu'une erreur a été gérée, les informations stockées dans l'objet **MacroError** deviennent obsolètes. Il est alors conseillé d'effacer l'objet à l'aide de l'action **EffacerMacroErreur**, ce qui permet de réinitialiser à 0 le numéro d'erreur dans l'objet **MacroError** et de supprimer toutes les autres informations sur l'erreur, telles que sa description, le nom de la macro, ainsi que le nom, la condition et les arguments de l'action. Ainsi, vous pourrez réexaminer ultérieurement l'objet **MacroError** pour déterminer si une autre erreur s'est produite.
+  Lorsqu'une erreur a été gérée, les informations stockées dans l'objet **MacroError** deviennent obsolètes. Il est alors conseillé d'effacer l'objet à l'aide de l'action **EffacerMacroErreur**, ce qui permet de réinitialiser à 0 le numéro d'erreur dans l'objet **MacroError** et de supprimer toutes les autres informations sur l'erreur, telles que sa description, le nom de la macro, ainsi que le nom, la condition et les arguments de l'action. Ainsi, vous pourrez réexaminer ultérieurement l'objet **MacroError** pour déterminer si une autre erreur s'est produite.
 
-  - L'objet **MacroError** est automatiquement effacé à l'issue d'une macro. Il n'est donc pas nécessaire d'utiliser l'action **EffacerMacroErreur** à la fin d'une macro.
+- L'objet **MacroError** est automatiquement effacé à l'issue d'une macro. Il n'est donc pas nécessaire d'utiliser l'action **EffacerMacroErreur** à la fin d'une macro.
 
-  - L'objet **MacroError** ne contient des informations que sur une seule erreur à la fois. Si plusieurs erreurs se sont produites dans une macro, l'objet **MacroError** ne contient des informations que sur la dernière erreur.
+- L'objet **MacroError** ne contient des informations que sur une seule erreur à la fois. Si plusieurs erreurs se sont produites dans une macro, l'objet **MacroError** ne contient des informations que sur la dernière erreur.
 
-  - Pour exécuter l'action **EffacerMacroErreur** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ClearMacroError** de l'objet **DoCmd**.
+- Pour exécuter l'action **EffacerMacroErreur** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ClearMacroError** de l'objet **DoCmd**.
 
 ## <a name="example"></a>Exemple
 

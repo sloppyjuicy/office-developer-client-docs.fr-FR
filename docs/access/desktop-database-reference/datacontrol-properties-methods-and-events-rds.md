@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 406380b0c935e94b8478e0b135bf5f92180faaca
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: de0d78a0387c783e18aaa34ce81cf7edab846055
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928323"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946887"
 ---
 # <a name="datacontrol-properties-methods-and-events-rds"></a>DataControl propriétés, méthodes et événements (RDS)
 
@@ -20,54 +20,35 @@ ms.locfileid: "25928323"
 ## <a name="properties"></a>Propriétés
 
 - [Connect, propriété (RDS)](connect-property-rds.md)
-
 - [ExecuteOptions, propriété (RDS)](executeoptions-property-rds.md)
-
 - [FetchOptions, propriété (RDS)](fetchoptions-property-rds.md)
-
 - [FilterColumn, propriété (RDS)](filtercolumn-property-rds.md)
-
 - [FilterCriterion, propriété (RDS)](filtercriterion-property-rds.md)
-
 - [FilterValue, propriété (RDS)](filtervalue-property-rds.md)
-
 - [Handler, propriété (RDS)](handler-property-rds.md)
-
 - [InternetTimeout, propriété (RDS)](internettimeout-property-rds.md)
-
 - [ReadyState, propriété (RDS)](readystate-property-rds.md)
-
 - [Recordset, SourceRecordset, propriétés (RDS)](recordset-sourcerecordset-properties-rds.md)
-
 - [Server, propriété (RDS)](server-property-rds.md)
-
 - [SortColumn, propriété (RDS)](sortcolumn-property-rds.md)
-
 - [SortDirection, propriété (RDS)](sortdirection-property-rds.md)
-
 - [SQL, propriété (RDS)](https://msdn.microsoft.com/library/jj248989\(v=office.15\))
-
 - [URL, propriété (RDS)](url-property-rds.md)
+
 
 ## <a name="methods"></a>Méthodes
 
 - [Cancel, méthode (RDS)](cancel-method-rds.md)
-
 - [CancelUpdate, méthode (RDS)](cancelupdate-method-rds.md)
-
 - [CreateRecordset, méthode (RDS)](createrecordset-method-rds.md)
-
 - [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes (RDS)](movefirst-movelast-movenext-and-moveprevious-methods-rds.md)
-
 - [Refresh, méthode (RDS)](refresh-method-rds.md)
-
 - [Reset, méthode (RDS)](reset-method-rds.md)
-
 - [SubmitChanges, méthode (RDS)](submitchanges-method-rds.md)
+
 
 ## <a name="events"></a>Événements
 
 - [OnError, événement](onerror-event-rds.md)
-
-- [OnReadyStateChange, événement](onreadystatechange-event-rds.md)
+- [Événement OnReadyStateChange](onreadystatechange-event-rds.md)
 

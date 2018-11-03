@@ -1,19 +1,19 @@
 ---
-title: Configuration système requise pour l'application Carnet d'adresses
-TOCTitle: System Requirements for the Address Book Application
+title: Configuration système requise pour l’application Carnet d’adresses
+TOCTitle: System requirements for the Address Book application
 ms:assetid: 4e9dac80-1e9c-d06e-2836-3194c77af192
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fc1e9c951ea87869d2e3e2fb047793a06778f249
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: d5c9d7e5bd7cd326a28499f1307f4abed04ae4f3
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937462"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945516"
 ---
-# <a name="system-requirements-for-the-address-book-application"></a>Configuration système requise pour l'application Carnet d'adresses
+# <a name="system-requirements-for-the-address-book-application"></a>Configuration système requise pour l’application Carnet d’adresses
 
 
 **S’applique à**: Access 2013, Office 2013

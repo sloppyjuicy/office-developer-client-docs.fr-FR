@@ -6,23 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249966(v=office.15)
 ms:contentKeyID: 48547615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 525d4e8380e2a57b1c77c65c30106407f6ae8082
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95f4735b3b827ff4e4bd706e2e33fe0dfad5bd33
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920360"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943794"
 ---
 # <a name="dimensions-collection-properties-methods-and-events-ado-md"></a>Dimensions, collection-propriétés, méthodes et événements (ADO MD)
 
 
 **S’applique à**: Access 2013, Office 2013
 
-
 ## <a name="properties"></a>Propriétés
 
 - [Count, propriété](count-property-ado.md)
-
 - [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes

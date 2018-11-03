@@ -1,19 +1,19 @@
 ---
-title: Personnalisation de l'objet DataFactory
-TOCTitle: DataFactory Customization
+title: Personnalisation de l’objet DataFactory
+TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a7ddd728908212716256eaa65adc925548e739e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9de748b85e4bf6076c37f49e9d9bc7ff3b0bfe62
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25879703"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947569"
 ---
-# <a name="datafactory-customization"></a>Personnalisation DataFactory
+# <a name="datafactory-customization"></a>Personnalisation de l’objet DataFactory
 
 
 **S’applique à**: Access 2013, Office 2013
@@ -30,16 +30,10 @@ Les paramètres utilisés par le gestionnaire pour modifier les paramètres et l
 
 Consultez les rubriques suivantes pour plus d'informations sur la personnalisation de l'objet **DataFactory**:
 
-  - [Présentation du fichier de personnalisation](understanding-the-customization-file.md)
-
-  - [Section Connect du fichier de personnalisation](customization-file-connect-section.md)
-
-  - [Section SQL du fichier de personnalisation](customization-file-sql-section.md)
-
-  - [Section UserList du fichier de personnalisation](customization-file-userlist-section.md)
-
-  - [Section Logs du fichier de personnalisation](customization-file-logs-section.md)
-
-  - [Paramètres clients requis](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-
-  - [Création d'un gestionnaire personnalisé](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Présentation du fichier de personnalisation](understanding-the-customization-file.md)
+- [Section Connect du fichier de personnalisation](customization-file-connect-section.md)
+- [Section SQL du fichier de personnalisation](customization-file-sql-section.md)
+- [Section UserList du fichier de personnalisation](customization-file-userlist-section.md)
+- [Section des fichiers journaux de personnalisation](customization-file-logs-section.md)
+- [Paramètres clients requis](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Écrire votre propre gestionnaire personnalisé](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

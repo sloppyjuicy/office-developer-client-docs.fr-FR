@@ -1,34 +1,28 @@
 ---
-title: Présentation détaillée du modèle de programmation RDS
-TOCTitle: RDS Programming Model in Detail
+title: Modèle de programmation RDS en détail
+TOCTitle: RDS programming model in detail
 ms:assetid: 133fc059-9b51-52e2-2e61-339716d8d965
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248906(v=office.15)
 ms:contentKeyID: 48543364
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8a34321df27b5270bd35844eaf28b0b335b0294e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: b152715c104c9c3a4d503254d0dc36622e29006c
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937476"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943828"
 ---
-# <a name="rds-programming-model-in-detail"></a>Présentation détaillée du modèle de programmation RDS
-
+# <a name="rds-programming-model-in-detail"></a>Modèle de programmation RDS en détail
 
 **S’applique à**: Access 2013, Office 2013
 
-
-
 La liste ci-dessous répertorie les éléments-clés du modèle de programmation RDS :
 
-  - RDS. DataSpace
-
-  - RDSServer.DataFactory
-
-  - RDS. DataControl
-
-  - Événements
+- RDS. DataSpace
+- RDSServer.DataFactory
+- RDS. DataControl
+- Événements
 
 ## <a name="rdsdataspace"></a>RDS. DataSpace
 

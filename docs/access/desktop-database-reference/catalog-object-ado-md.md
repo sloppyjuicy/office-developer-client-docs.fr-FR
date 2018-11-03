@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b977db2faf07a47c2e9234cec4a7828def5e6188
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1dd402a27164b5fb40bab10d7809f042846e37b5
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926737"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943730"
 ---
 # <a name="catalog-object-ado-md"></a>Catalog, objet (ADO MD)
 
@@ -24,9 +24,9 @@ Contient les informations de schéma multidimensionnel (en d'autres termes, les 
 
 Avec les collections et propriétés d'un objet **Catalog**, vous pouvez :
 
-  - Ouvrir le catalogue en définissant la propriété [ActiveConnection](activeconnection-property-ado-md.md) sur un objet ADO [Connection](connection-object-ado.md) standard ou une chaîne de connexion valide.
+- Ouvrir le catalogue en définissant la propriété [ActiveConnection](activeconnection-property-ado-md.md) sur un objet ADO [Connection](connection-object-ado.md) standard ou une chaîne de connexion valide.
 
-  - Identifier le **catalogue** à l'aide de la propriété [Name](name-property-ado-md.md).
+- Identifier le **catalogue** à l'aide de la propriété [Name](name-property-ado-md.md).
 
-  - Parcourir les cubes d'un catalogue à l'aide de la collection [CubeDefs](cubedefs-collection-ado-md.md).
+- Parcourir les cubes d'un catalogue à l'aide de la collection [CubeDefs](cubedefs-collection-ado-md.md).
 

@@ -1,17 +1,17 @@
 ---
-title: Recherche de l'enregistrement actif
-TOCTitle: Locating the Current Record
+title: Localisation de l’enregistrement actif
+TOCTitle: Locating the current record
 ms:assetid: b47fa9d6-0381-3d95-fb85-6bf1dd1071c9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 26dbeab9930ddb3abf77aa9c8f10b79a03480b6e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: cc495c5171788862ad7873e21ad3ddaef113445b
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883658"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947685"
 ---
 # <a name="locating-the-current-record"></a>Localisation de l’enregistrement actif
 
@@ -21,6 +21,5 @@ La position actuelle du curseur dans le **jeu d'enregistrements** délimite la p
 
 Cette section comprend les rubriques suivantes :
 
-- [Décompte des lignes](counting-rows.md)
-
-- [Limites d'un jeu d'enregistrements](the-limits-of-a-recordset.md)
+- [Comptage des lignes](counting-rows.md)
+- [Les limites d’un jeu d’enregistrements](the-limits-of-a-recordset.md)

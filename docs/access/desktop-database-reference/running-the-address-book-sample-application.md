@@ -1,20 +1,19 @@
 ---
-title: Exécution de l'exemple d'application Carnet d'adresses
-TOCTitle: Running the Address Book Sample Application
+title: L’exemple d’application Carnet d’adresses en cours d’exécution
+TOCTitle: Running the Address Book sample application
 ms:assetid: 5080e601-0aac-93c8-58fe-3ff6b1f6f12c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249260(v=office.15)
 ms:contentKeyID: 48544798
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 422e6539ac782a3269adebbc28634feda0057695
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 1cbebeab95f862cfab6b8e40d9dc5dfde7c65bee
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25888390"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945480"
 ---
-# <a name="running-the-address-book-sample-application"></a>Exécution de l'exemple d'application Carnet d'adresses
-
+# <a name="running-the-address-book-sample-application"></a>L’exemple d’application Carnet d’adresses en cours d’exécution
 
 **S’applique à**: Access 2013, Office 2013
 

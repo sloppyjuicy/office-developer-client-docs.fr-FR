@@ -6,14 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248970(v=office.15)
 ms:contentKeyID: 48543602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a6cfe882c8ad1c07aabfae323a1467be753b462b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 79bd4ed656da49e61ea70ace3b11f09c19382b03
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25890959"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943639"
 ---
-# <a name="using-addnew-in-immediate-and-batch-modes"></a>Utilisation de la méthode AddNew en mode de mise à jour immédiate et par lot
+# <a name="using-addnew-in-immediate-and-batch-modes"></a>Avec la méthode AddNew en mode exécution et par lot
 
 
 **S’applique à**: Access 2013, Office 2013

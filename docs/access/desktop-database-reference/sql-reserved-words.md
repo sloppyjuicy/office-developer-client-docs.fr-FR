@@ -1,6 +1,6 @@
 ---
 title: Mots réservés SQL (référence de base de données du bureau Access)
-TOCTitle: SQL Reserved Words
+TOCTitle: SQL reserved words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845663(v=office.15)
 ms:contentKeyID: 48543512
@@ -10,15 +10,14 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ade0aa43f84bfb8088281a2d5458b157ea7658a9
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: c43987be9e07a92c4276d13f1f2b51e3242312db
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937189"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947167"
 ---
 # <a name="sql-reserved-words"></a>Mots réservés SQL
-
 
 **S’applique à**: Access 2013, Office 2013
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
 ms:contentKeyID: 48544621
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ae09ff9bfcd694214a63fb630de52260ea7ac31
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: edb2eefd36aea9f037ea4ad6afc51e0da18b76db
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925225"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945634"
 ---
 # <a name="fetchcomplete-event-ado"></a>FetchComplete, événement (ADO)
 
@@ -27,17 +27,17 @@ FetchComplete*pError*, *adStatus*, *Connection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *pError*
+- *pError*
 
   - Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si **adStatus** a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.
 
-  - *adStatus*
+- *adStatus*
 
   - [EventStatusEnum](eventstatusenum.md)
     
     Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.
 
-  - *Connection*
+- *Connection*
 
   - Objet **Recordset** représentant le jeu duquel les enregistrements ont été extraits.
 

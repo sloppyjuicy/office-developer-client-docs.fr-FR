@@ -1,19 +1,19 @@
 ---
-title: Fournisseurs et composants de services
+title: Fournisseurs de services et composants
 TOCTitle: Service Providers and Components
 ms:assetid: e42d9c84-525a-4aca-01b2-88e3f2b0717f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250163(v=office.15)
 ms:contentKeyID: 48548333
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d215c7c66c489e54d513941604b1c66c0e9094c1
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: bd75314cc3f1fbdb110b6c5647894887e400ca1e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881208"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25947629"
 ---
-# <a name="service-providers-and-components"></a>Fournisseurs et composants de services
+# <a name="service-providers-and-components"></a>Fournisseurs de services et composants
 
 
 **S’applique à**: Access 2013, Office 2013

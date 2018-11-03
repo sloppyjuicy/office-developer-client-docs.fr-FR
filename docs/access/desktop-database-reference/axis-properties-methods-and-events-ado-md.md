@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249433(v=office.15)
 ms:contentKeyID: 48545498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ba8878747668e1f59c8cafe04f8b807bbe51f30
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3d6a0e64ed68d85b87c6d6949492894e98a8e6bc
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920472"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945651"
 ---
 # <a name="axis-properties-methods-and-events-ado-md"></a>Propriétés de l’axe, méthodes et événements (ADO MD)
 
@@ -22,11 +22,8 @@ ms.locfileid: "25920472"
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
 - [DimensionCount, propriété](dimensioncount-property-ado-md.md)
-
 - [Name, propriété](name-property-ado-md.md)
-
 - [Positions, collection](positions-collection-ado-md.md)
-
 - [Properties, collection](properties-collection-ado.md)
 
 ## <a name="methods"></a>Méthodes

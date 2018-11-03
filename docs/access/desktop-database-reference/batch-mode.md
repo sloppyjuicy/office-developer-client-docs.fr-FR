@@ -1,20 +1,19 @@
 ---
 title: Mode de traitement par lots (référence de base de données du bureau Access)
-TOCTitle: Batch Mode
+TOCTitle: Batch mode
 ms:assetid: b73921f6-5a12-9b26-ea65-99b32dd763f6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3ee4805f89d6a6a9d114c4347d808be61683efe6
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880613"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25945788"
 ---
-# <a name="batch-mode"></a>Mode Batch
-
+# <a name="batch-mode"></a>Mode de traitement par lots
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -24,15 +23,10 @@ La méthode **UpdateBatch** est utilisée pour envoyer les modifications de l'ob
 
 Cette section comprend les rubriques suivantes :
 
-- [Envoi des mises à jour : UpdateBatch](sending-the-updates-updatebatch.md)
-
+- [Envoyer les mises à jour : UpdateBatch](sending-the-updates-updatebatch.md)
 - [Filtrage des enregistrements mis à jour](filtering-for-updated-records.md)
-
-- [Traitement des échecs de mise à jour](dealing-with-failed-updates.md)
-
+- [Gérer les mises à jour échouées](dealing-with-failed-updates.md)
 - [Détection et résolution des conflits](detecting-and-resolving-conflicts.md)
-
-- [Déconnexion et reconnexion du recordset](disconnecting-and-reconnecting-the-recordset.md)
-
-- [Mise à jour des résultats d'une opération JOIN  : Unique Table](updating-joined-results-unique-table.md)
+- [Déconnexion et reconnexion de l’objet Recordset](disconnecting-and-reconnecting-the-recordset.md)
+- [Mise à jour des résultats de la jonction : Unique Table](updating-joined-results-unique-table.md)
 

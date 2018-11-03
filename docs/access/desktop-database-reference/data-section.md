@@ -1,23 +1,21 @@
 ---
 title: Section de données (référence de base de données du bureau Access)
-TOCTitle: Data Section
+TOCTitle: Data section
 ms:assetid: fd8d31aa-af13-a52f-5e91-20225b8df175
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 74406232a6f7d458eebb242f3f341bd4e3ccc583
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 98215394af89df30a95fcb9c5a757368cb64d4f1
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882853"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25946376"
 ---
-# <a name="data-section"></a>Section Données
+# <a name="data-section"></a>Section des données
 
 **S’applique à**: Access 2013, Office 2013
- 
-## <a name="data-section"></a>Section des données
 
 La section des données définit les données du groupe de lignes ainsi que toutes les mises à jour, insertions ou suppressions en attente. Elle peut contenir zéro ou plusieurs lignes. Elle peut uniquement contenir des données d'un seul groupe de lignes, la ligne étant définie par le schéma. En outre, comme mentionné précédemment, les colonnes dépourvues de données peuvent être ignorées. Si un attribut ou un sous-élément est utilisé dans la section des données et que cette construction a été définie dans la section du schéma, il est ignoré de façon silencieuse.
 

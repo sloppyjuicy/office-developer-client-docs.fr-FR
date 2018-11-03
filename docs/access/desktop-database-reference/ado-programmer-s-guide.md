@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249876(v=office.15)
 ms:contentKeyID: 48547278
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ed490a6260e6cf15f98ef00f32bde2a100854a38
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: df937a4b0d7252cf94ebf96fe261068c801b9f3e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937686"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944318"
 ---
 # <a name="ado-programmers-guide"></a>Guide du programmeur ADO
 
@@ -26,31 +26,20 @@ Guide du programmeur ADO contient les sections et chapitres suivants :
 - [Section I : ActiveX Data Objects (ADO)](section-i-activex-data-objects.md)
     
     - [Chapitre 1 : Notions de base des objets ADO](chapter-1-ado-fundamentals.md)
-    
     - [Chapitre 2 : Extraction des données](chapter-2-getting-data.md)
-    
     - [Chapitre 3 : Examen des données](chapter-3-examining-data.md)
-    
     - [Chapitre 4 : Modification des données](chapter-4-editing-data.md)
-    
     - [Chapitre 5 : Mise à jour et persistance des données](chapter-5-updating-and-persisting-data.md)
-    
     - [Chapitre 6 : Gestion des erreurs](chapter-6-error-handling.md)
-    
     - [Chapitre 7 : Gestion des événements ADO](chapter-7-handling-ado-events.md)
-    
     - [Chapitre 8 : Présentation des curseurs et des verrous](chapter-8-understanding-cursors-and-locks.md)
-    
     - [Chapitre 9 : Mise en forme des données](chapter-9-data-shaping.md)
-    
     - [Chapitre 10 : Enregistrements et flux](chapter-10-records-and-streams.md)
 
 - [Section II : Remote Data Service (RDS)](section-ii-remote-data-service.md)
     
     - [Chapitre 11 : Notions de base relatives à RDS](chapter-11-rds-fundamentals.md)
-    
     - [Chapitre 12 : Didacticiel RDS](chapter-12-rds-tutorial.md)
-    
     - [Chapitre 13 : Utilisation et sécurité de RDS](chapter-13-rds-usage-and-security.md)
 
 - [Section III : ActiveX Data Objects (Multidimensional) (ADO MD)](section-iii-ado-multidimensional-ado-md.md)
@@ -64,11 +53,8 @@ Guide du programmeur ADO contient les sections et chapitres suivants :
 - [Section V : Annexes](section-v-appendixes.md)
     
     - [Annexe A : Fournisseurs](appendix-a-providers.md)
-    
     - [Annexe B : Erreurs ADO](appendix-b-ado-errors.md)
-    
     - [Annexe C : Programmation avec ADO](appendix-c-programming-with-ado.md)
-    
     - [Annexe D : Exemples ADO](appendix-d-ado-samples.md)
 
 - [Glossaire ADO](ado-glossary.md)

@@ -1,19 +1,19 @@
 ---
-title: Déconnexion et reconnexion de l'objet Recordset
-TOCTitle: Disconnecting and Reconnecting the Recordset
+title: Déconnexion et reconnexion de l’objet Recordset
+TOCTitle: Disconnecting and reconnecting the Recordset
 ms:assetid: d608d95d-9a4e-17a1-107a-b88b77f3774c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250077(v=office.15)
 ms:contentKeyID: 48547975
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 094c68fbf5b62a7a1b3af16b826bf9c2c26a2af4
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ac1bc4c9c9d6d149faeb18d73f17539e63a4147e
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882419"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25943940"
 ---
-# <a name="disconnecting-and-reconnecting-the-recordset"></a>Déconnexion et reconnexion de l'objet Recordset
+# <a name="disconnecting-and-reconnecting-the-recordset"></a>Déconnexion et reconnexion de l’objet Recordset
 
 
 **S’applique à**: Access 2013, Office 2013

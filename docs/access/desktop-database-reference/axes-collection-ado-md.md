@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c88bf27f406a439d051112afb9abf94697a13b12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b7e7c9b82a1613f9f3d17a1da3e637f9f9382693
+ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922230"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25944339"
 ---
 # <a name="axes-collection-ado-md"></a>Axes, collection (ADO MD)
 
@@ -32,9 +32,9 @@ Un objet [Cellset](cellset-object-ado-md.md) contient une collection **Axes**. U
 
 **Axes** est une collection ADO standard. Avec les propriétés et méthodes d'une collection, vous pouvez :
 
-  - Obtenir le nombre d'objets d'une collection à l'aide de la propriété [Count](count-property-ado.md).
+- Obtenir le nombre d'objets d'une collection à l'aide de la propriété [Count](count-property-ado.md).
 
-  - Renvoyer un objet de la collection à l'aide de la propriété [Item](item-property-ado.md) par défaut.
+- Renvoyer un objet de la collection à l'aide de la propriété [Item](item-property-ado.md) par défaut.
 
-  - Mettre à jour les objets de la collection à partir du fournisseur à l'aide de la méthode [Refresh](refresh-method-ado.md).
+- Mettre à jour les objets de la collection à partir du fournisseur à l'aide de la méthode [Refresh](refresh-method-ado.md).
 
