@@ -19,7 +19,7 @@ ms.locfileid: "25398604"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Conversation suivi collecte des r�ponses � un message. Les clients doivent d�finir deux propri�t�s qui vous aident dans les conversations de suivi :
   

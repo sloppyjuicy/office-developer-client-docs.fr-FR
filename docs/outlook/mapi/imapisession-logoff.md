@@ -23,7 +23,7 @@ ms.locfileid: "25399647"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Met fin à une session MAPI.
   
@@ -93,5 +93,5 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Fermeture d’une session MAPI](ending-a-mapi-session.md)
+[Mettre fin à une Session MAPI](ending-a-mapi-session.md)
 

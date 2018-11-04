@@ -23,7 +23,7 @@ ms.locfileid: "25399234"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fournisseur de magasins de journaux d’un message. 
   

@@ -23,7 +23,7 @@ ms.locfileid: "25389056"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Tenir à jour un serveur de formulaire ouvert en mémoire.
   

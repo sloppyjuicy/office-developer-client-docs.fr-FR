@@ -23,7 +23,7 @@ ms.locfileid: "25384954"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Indique si les instances futures de tâches périodiques doivent rappels, même si **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) a la valeur FALSE.
   
@@ -67,14 +67,14 @@ Mapidefs.h
 
 
 
-[Propri�t� canonique PidLidReminderSet](pidlidreminderset-canonical-property.md)
+[Propriété canonique PidLidReminderSet](pidlidreminderset-canonical-property.md)
 
 
 [Propriétés MAPI](mapi-properties.md)
   
 [Propriétés canoniques MAPI](mapi-canonical-properties.md)
   
-[Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md)
+[Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md)
 

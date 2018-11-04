@@ -19,7 +19,7 @@ ms.locfileid: "25398394"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lorsqu’une application cliente ouvre une banque de messages, MAPI charge DLL du fournisseur de banque de messages en mémoire. Une fois que MAPI charge la DLL, une séquence spécifique d’appels de méthode se produit entre le fournisseur de banque de messages et MAPI. Séquence d’appel de cette méthode permet de MAPI obtenir un niveau supérieur [IMSProvider : IUnknown](imsprovideriunknown.md), [IMSLogon : IUnknown](imslogoniunknown.md), et [IMsgStore : IMAPIProp](imsgstoreimapiprop.md) interfaces et permet au fournisseur de banque de messages obtenir un objet de prise en charge MAPI. Après la séquence d’appel, le fournisseur de banque de message doit être prêt à accepter les connexions à partir de clients. 
   
@@ -50,5 +50,5 @@ La séquence d’appel lorsqu’un fournisseur de message que DLL est chargée e
 
 
 
-[D�veloppement d'un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
+[Développement d’un fournisseur de banque de messages MAPI](developing-a-mapi-message-store-provider.md)
 

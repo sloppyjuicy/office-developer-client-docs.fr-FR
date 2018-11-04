@@ -17,7 +17,7 @@ ms.locfileid: "25398590"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Microsoft Outlook 2010 et Microsoft Outlook 2013 prend en charge l’intégration avec plusieurs comptes de messagerie exchange. Dans Outlook 2010 ou Outlook�2013, un utilisateur peut ajouter deux comptes exchange sur le m�me profil et quand m�me profiter de riches fonctionnalit�s Exchange telles que la liste d'adresses globale publi� (LAG), la configuration de Exchange d'absence et le partage des dossiers.
   

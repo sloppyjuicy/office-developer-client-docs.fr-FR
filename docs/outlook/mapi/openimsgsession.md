@@ -23,7 +23,7 @@ ms.locfileid: "25389623"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Crée et ouvre une session de messagerie qui regroupe les messages créés qu’il contient. 
   

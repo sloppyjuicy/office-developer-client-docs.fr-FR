@@ -23,7 +23,7 @@ ms.locfileid: "25396490"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime le message en cours.
   
@@ -105,5 +105,5 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 
 [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
   
-[Interfaces de formulaires MAPI](mapi-form-interfaces.md)
+[Interfaces de formulaire MAPI](mapi-form-interfaces.md)
 

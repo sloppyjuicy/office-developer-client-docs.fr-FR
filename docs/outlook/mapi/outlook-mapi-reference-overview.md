@@ -17,7 +17,7 @@ ms.locfileid: "25387999"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Vue d’ensemble de la référence MAPI Outlook
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique fournit des informations générales sur la documentation de référence de MAPI pour Outlook 2013.
   
