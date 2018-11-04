@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 10/04/2018
 ms.locfileid: "25389056"
 ---
-# <a name="imapiformfactorylockserver"></a><span data-ttu-id="556d1-103">IMAPIFormFactory::LockServer</span><span class="sxs-lookup"><span data-stu-id="556d1-103">IMAPIFormFactory::LockServer</span></span>
+# <a name="imapiformfactorylockserver"></a><span data-ttu-id="ec7dc-103">IMAPIFormFactory::LockServer</span><span class="sxs-lookup"><span data-stu-id="ec7dc-103">IMAPIFormFactory::LockServer</span></span>
 
   
   
-<span data-ttu-id="556d1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="556d1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ec7dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ec7dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="556d1-105">Tenir à jour un serveur de formulaire ouvert en mémoire.</span><span class="sxs-lookup"><span data-stu-id="556d1-105">Keeps an open form server in memory.</span></span>
+<span data-ttu-id="ec7dc-105">Tenir à jour un serveur de formulaire ouvert en mémoire.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-105">Keeps an open form server in memory.</span></span>
   
 ```cpp
 HRESULT LockServer(
@@ -34,33 +34,33 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="556d1-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="556d1-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ec7dc-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="ec7dc-106">Parameters</span></span>
 
- <span data-ttu-id="556d1-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="556d1-107">_ulFlags_</span></span>
+ <span data-ttu-id="ec7dc-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="ec7dc-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="556d1-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="556d1-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="ec7dc-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="556d1-109">_fLockServer_</span><span class="sxs-lookup"><span data-stu-id="556d1-109">_fLockServer_</span></span>
+ <span data-ttu-id="ec7dc-109">_fLockServer_</span><span class="sxs-lookup"><span data-stu-id="ec7dc-109">_fLockServer_</span></span>
   
-> <span data-ttu-id="556d1-110">[in] **true** pour augmenter le nombre de verrous ; Sinon, **false**.</span><span class="sxs-lookup"><span data-stu-id="556d1-110">[in] **true** to increment the lock count; otherwise, **false**.</span></span>
+> <span data-ttu-id="ec7dc-110">[in] **true** pour augmenter le nombre de verrous ; Sinon, **false**.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-110">[in] **true** to increment the lock count; otherwise, **false**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="556d1-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="556d1-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ec7dc-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ec7dc-111">Return value</span></span>
 
-<span data-ttu-id="556d1-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="556d1-112">S_OK</span></span> 
+<span data-ttu-id="ec7dc-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="ec7dc-112">S_OK</span></span> 
   
-> <span data-ttu-id="556d1-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="556d1-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="ec7dc-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="556d1-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="556d1-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec7dc-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ec7dc-114">Remarks</span></span>
 
-<span data-ttu-id="556d1-115">Visionneuses de formulaire appeler la méthode **IMAPIFormFactory::LockServer** pour conserver une application de serveur de formulaire ouvert en mémoire.</span><span class="sxs-lookup"><span data-stu-id="556d1-115">Form viewers call the **IMAPIFormFactory::LockServer** method to keep an open form server application in memory.</span></span> <span data-ttu-id="556d1-116">Conserver le serveur du formulaire en mémoire améliore ses performances lorsque les formulaires sont souvent créés et publiés.</span><span class="sxs-lookup"><span data-stu-id="556d1-116">Keeping the form server in memory improves its performance when forms are frequently created and released.</span></span> 
+<span data-ttu-id="ec7dc-115">Visionneuses de formulaire appeler la méthode **IMAPIFormFactory::LockServer** pour conserver une application de serveur de formulaire ouvert en mémoire.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-115">Form viewers call the **IMAPIFormFactory::LockServer** method to keep an open form server application in memory.</span></span> <span data-ttu-id="ec7dc-116">Conserver le serveur du formulaire en mémoire améliore ses performances lorsque les formulaires sont souvent créés et publiés.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-116">Keeping the form server in memory improves its performance when forms are frequently created and released.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="556d1-117">Remarques à l’attention des responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="556d1-117">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="ec7dc-117">Remarques à l’attention des responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="ec7dc-117">Notes to implementers</span></span>
 
-<span data-ttu-id="556d1-118">La méthode **IMAPIFormFactory::LockServer** est très similaire à la méthode [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="556d1-118">The **IMAPIFormFactory::LockServer** method is very similar to the [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="556d1-119">En fait, la méthode **IMAPIFormFactory::LockServer** gère un décompte de combien de fois qu’il a été appelé ; dans la mesure où ce nombre est supérieur à 0, la méthode empêche le serveur de formulaire déchargé de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="556d1-119">Essentially, the **IMAPIFormFactory::LockServer** method maintains a count of how many times it has been called; as long as that count is greater than 0, the method prevents the form server from being unloaded from memory.</span></span> <span data-ttu-id="556d1-120">Vous pouvez utiliser la fonction [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) pour mettre en place.</span><span class="sxs-lookup"><span data-stu-id="556d1-120">You can use the [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) function to implement this.</span></span> 
+<span data-ttu-id="ec7dc-118">La méthode **IMAPIFormFactory::LockServer** est très similaire à la méthode [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="ec7dc-118">The **IMAPIFormFactory::LockServer** method is very similar to the [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="ec7dc-119">En fait, la méthode **IMAPIFormFactory::LockServer** gère un décompte de combien de fois qu’il a été appelé ; dans la mesure où ce nombre est supérieur à 0, la méthode empêche le serveur de formulaire déchargé de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-119">Essentially, the **IMAPIFormFactory::LockServer** method maintains a count of how many times it has been called; as long as that count is greater than 0, the method prevents the form server from being unloaded from memory.</span></span> <span data-ttu-id="ec7dc-120">Vous pouvez utiliser la fonction [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) pour mettre en place.</span><span class="sxs-lookup"><span data-stu-id="ec7dc-120">You can use the [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) function to implement this.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="556d1-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="556d1-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ec7dc-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ec7dc-121">See also</span></span>
 
 
 
-[<span data-ttu-id="556d1-122">IMAPIFormFactory : IUnknown</span><span class="sxs-lookup"><span data-stu-id="556d1-122">IMAPIFormFactory : IUnknown</span></span>](imapiformfactoryiunknown.md)
+[<span data-ttu-id="ec7dc-122">IMAPIFormFactory : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ec7dc-122">IMAPIFormFactory : IUnknown</span></span>](imapiformfactoryiunknown.md)
 

@@ -6,34 +6,32 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01f45adaf5bdd15841be86bfea62cca58e21a9d9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 866faae5d8c99258075a81f504fa9ce069f4690a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925513"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949375"
 ---
-# <a name="create-method-adox"></a><span data-ttu-id="88eed-102">Create, méthode (ADOX)</span><span class="sxs-lookup"><span data-stu-id="88eed-102">Create method (ADOX)</span></span>
+# <a name="create-method-adox"></a><span data-ttu-id="1e6eb-102">Create, méthode (ADOX)</span><span class="sxs-lookup"><span data-stu-id="1e6eb-102">Create method (ADOX)</span></span>
 
+<span data-ttu-id="1e6eb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e6eb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="88eed-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88eed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1e6eb-104">Crée un catalogue.</span><span class="sxs-lookup"><span data-stu-id="1e6eb-104">Creates a new catalog.</span></span>
 
+## <a name="syntax"></a><span data-ttu-id="1e6eb-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1e6eb-105">Syntax</span></span>
 
-<span data-ttu-id="88eed-104">Crée un catalogue.</span><span class="sxs-lookup"><span data-stu-id="88eed-104">Creates a new catalog.</span></span>
+<span data-ttu-id="1e6eb-106">*Catalogue*. Créer*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="1e6eb-106">*Catalog*.Create*ConnectString*</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="88eed-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="88eed-105">Syntax</span></span>
+## <a name="parameters"></a><span data-ttu-id="1e6eb-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1e6eb-107">Parameters</span></span>
 
-<span data-ttu-id="88eed-106">*Catalogue*. Créer*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="88eed-106">*Catalog*.Create*ConnectString*</span></span>
+|<span data-ttu-id="1e6eb-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="1e6eb-108">Parameter</span></span>|<span data-ttu-id="1e6eb-109">Description</span><span class="sxs-lookup"><span data-stu-id="1e6eb-109">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="1e6eb-110">*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="1e6eb-110">*ConnectString*</span></span> |<span data-ttu-id="1e6eb-111">Valeur de type **String** utilisée pour se connecter à la source de données.</span><span class="sxs-lookup"><span data-stu-id="1e6eb-111">A **String** value used to connect to the data source.</span></span>|
 
-## <a name="parameters"></a><span data-ttu-id="88eed-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="88eed-107">Parameters</span></span>
+## <a name="remarks"></a><span data-ttu-id="1e6eb-112">Notes</span><span class="sxs-lookup"><span data-stu-id="1e6eb-112">Remarks</span></span>
 
-  - <span data-ttu-id="88eed-108">*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="88eed-108">*ConnectString*</span></span>
+<span data-ttu-id="1e6eb-p101">La méthode **Create** crée et ouvre un nouvel objet ADO [Connection](connection-object-ado.md) à la source de données spécifiée dans le paramètre *ConnectString*. En cas de réussite, le nouvel objet **Connection** est affecté à la propriété [ActiveConnection](activeconnection-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="1e6eb-p101">The **Create** method creates and opens a new ADO [Connection](connection-object-ado.md) to the data source specified in *ConnectString*. If successful, the new **Connection** object is assigned to the [ActiveConnection](activeconnection-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="88eed-109">Valeur de type **String** utilisée pour se connecter à la source de données.</span><span class="sxs-lookup"><span data-stu-id="88eed-109">A **String** value used to connect to the data source.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="88eed-110">Notes</span><span class="sxs-lookup"><span data-stu-id="88eed-110">Remarks</span></span>
-
-<span data-ttu-id="88eed-p101">La méthode **Create** crée et ouvre un nouvel objet ADO [Connection](connection-object-ado.md) à la source de données spécifiée dans le paramètre *ConnectString*. En cas de réussite, le nouvel objet **Connection** est affecté à la propriété [ActiveConnection](activeconnection-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="88eed-p101">The **Create** method creates and opens a new ADO [Connection](connection-object-ado.md) to the data source specified in *ConnectString*. If successful, the new **Connection** object is assigned to the [ActiveConnection](activeconnection-property-adox.md) property.</span></span>
-
-<span data-ttu-id="88eed-113">Une erreur se produit si le fournisseur ne prend pas en charge la création de catalogues.</span><span class="sxs-lookup"><span data-stu-id="88eed-113">An error will occur if the provider does not support creating new catalogs.</span></span>
+<span data-ttu-id="1e6eb-115">Une erreur se produit si le fournisseur ne prend pas en charge la création de catalogues.</span><span class="sxs-lookup"><span data-stu-id="1e6eb-115">An error will occur if the provider does not support creating new catalogs.</span></span>
 

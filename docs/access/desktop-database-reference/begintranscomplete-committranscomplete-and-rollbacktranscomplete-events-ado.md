@@ -6,58 +6,45 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
 ms:contentKeyID: 48546615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6a49b08c1b4f7879d50f9dd1d29cfcf89ded50c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86bb76b4feacc1b4a06d6cbbb8a436f5f9c55bd5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928077"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949489"
 ---
-# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a><span data-ttu-id="61cc4-102">BeginTransComplete, CommitTransComplete et RollbackTransComplete, événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="61cc4-102">BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)</span></span>
+# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a><span data-ttu-id="a97e2-102">BeginTransComplete, CommitTransComplete et RollbackTransComplete, événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="a97e2-102">BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)</span></span>
 
+<span data-ttu-id="a97e2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a97e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61cc4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61cc4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a97e2-104">Ces événements sont appelés une fois l'opération associée à l'objet [Connection](connection-object-ado.md) terminée.</span><span class="sxs-lookup"><span data-stu-id="a97e2-104">These events will be called after the associated operation on the [Connection](connection-object-ado.md) object finishes executing.</span></span>
 
+- <span data-ttu-id="a97e2-105">**BeginTransComplete** est appelé après l'opération [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a97e2-105">**BeginTransComplete** is called after the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
 
-<span data-ttu-id="61cc4-104">Ces événements sont appelés une fois l'opération associée à l'objet [Connection](connection-object-ado.md) terminée.</span><span class="sxs-lookup"><span data-stu-id="61cc4-104">These events will be called after the associated operation on the [Connection](connection-object-ado.md) object finishes executing.</span></span>
+- <span data-ttu-id="a97e2-106">**CommitTransComplete** est appelé après l'opération [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a97e2-106">**CommitTransComplete** is called after the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
 
-  - <span data-ttu-id="61cc4-105">**BeginTransComplete** est appelé après l'opération [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="61cc4-105">**BeginTransComplete** is called after the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
+- <span data-ttu-id="a97e2-107">**RollbackTransComplete** est appelé après l'opération [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a97e2-107">**RollbackTransComplete** is called after the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
 
-  - <span data-ttu-id="61cc4-106">**CommitTransComplete** est appelé après l'opération [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="61cc4-106">**CommitTransComplete** is called after the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
+## <a name="syntax"></a><span data-ttu-id="a97e2-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a97e2-108">Syntax</span></span>
 
-  - <span data-ttu-id="61cc4-107">**RollbackTransComplete** est appelé après l'opération [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).</span><span class="sxs-lookup"><span data-stu-id="61cc4-107">**RollbackTransComplete** is called after the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) operation.</span></span>
+<span data-ttu-id="a97e2-109">De le BeginTransComplete*TransactionLevel*, *pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="a97e2-109">BeginTransComplete*TransactionLevel*, *pError*, *adStatus*, *pConnection*</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="61cc4-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="61cc4-108">Syntax</span></span>
+<span data-ttu-id="a97e2-110">CommitTransComplete*pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="a97e2-110">CommitTransComplete*pError*, *adStatus*, *pConnection*</span></span>
 
-<span data-ttu-id="61cc4-109">De le BeginTransComplete*TransactionLevel*, *pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="61cc4-109">BeginTransComplete*TransactionLevel*, *pError*, *adStatus*, *pConnection*</span></span>
+<span data-ttu-id="a97e2-111">RollbackTransComplete*pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="a97e2-111">RollbackTransComplete*pError*, *adStatus*, *pConnection*</span></span>
 
-<span data-ttu-id="61cc4-110">CommitTransComplete*pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="61cc4-110">CommitTransComplete*pError*, *adStatus*, *pConnection*</span></span>
+## <a name="parameters"></a><span data-ttu-id="a97e2-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a97e2-112">Parameters</span></span>
 
-<span data-ttu-id="61cc4-111">RollbackTransComplete*pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="61cc4-111">RollbackTransComplete*pError*, *adStatus*, *pConnection*</span></span>
+|<span data-ttu-id="a97e2-113">Paramètre</span><span class="sxs-lookup"><span data-stu-id="a97e2-113">Parameter</span></span>|<span data-ttu-id="a97e2-114">Description</span><span class="sxs-lookup"><span data-stu-id="a97e2-114">Description</span></span>|
+|:--------|:----------|
+|<span data-ttu-id="a97e2-115">*TransactionLevel*</span><span class="sxs-lookup"><span data-stu-id="a97e2-115">*TransactionLevel*</span></span> |<span data-ttu-id="a97e2-116">Valeur de type **Long** contenant le nouveau niveau de transaction de l'événement **BeginTrans** qui a provoqué l'événement.</span><span class="sxs-lookup"><span data-stu-id="a97e2-116">A **Long** value that contains the new transaction level of the **BeginTrans** that caused this event.</span></span>|
+|<span data-ttu-id="a97e2-117">*pError*</span><span class="sxs-lookup"><span data-stu-id="a97e2-117">*pError*</span></span> |<span data-ttu-id="a97e2-118">Objet [Error](error-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a97e2-118">An [Error](error-object-ado.md) object.</span></span> <span data-ttu-id="a97e2-119">Il décrit l’erreur qui s’est produite si la valeur de EventStatusEnum est **adStatusErrorsOccurred**; dans le cas contraire, il n’est pas définie.</span><span class="sxs-lookup"><span data-stu-id="a97e2-119">It describes the error that occurred if the value of EventStatusEnum is **adStatusErrorsOccurred**; otherwise, it is not set.</span></span>|
+|<span data-ttu-id="a97e2-120">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="a97e2-120">*adStatus*</span></span> |<span data-ttu-id="a97e2-121">[EventStatusEnum](eventstatusenum.md).</span><span class="sxs-lookup"><span data-stu-id="a97e2-121">[EventStatusEnum](eventstatusenum.md).</span></span> <span data-ttu-id="a97e2-122">Ces événements peuvent empêcher la génération de notifications ultérieures en définissant ce paramètre à **adStatusUnwantedEvent** avant que l'événement soit retourné.</span><span class="sxs-lookup"><span data-stu-id="a97e2-122">These events can prevent subsequent notifications by setting this parameter to **adStatusUnwantedEvent** before the event returns.</span></span>|
+|<span data-ttu-id="a97e2-123">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="a97e2-123">*pConnection*</span></span> |<span data-ttu-id="a97e2-124">Objet **Connection** pour lequel l'événement s'est produit.</span><span class="sxs-lookup"><span data-stu-id="a97e2-124">The **Connection** object for which this event occurred.</span></span>|
 
-## <a name="parameters"></a><span data-ttu-id="61cc4-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="61cc4-112">Parameters</span></span>
+## <a name="remarks"></a><span data-ttu-id="a97e2-125">Notes</span><span class="sxs-lookup"><span data-stu-id="a97e2-125">Remarks</span></span>
 
-  - <span data-ttu-id="61cc4-113">*TransactionLevel*</span><span class="sxs-lookup"><span data-stu-id="61cc4-113">*TransactionLevel*</span></span>
+<span data-ttu-id="a97e2-p103">En Visual C++, plusieurs objets **Connection** peuvent partager la même méthode de gestion des événements. Celle-ci utilise l'objet **Connection** retourné pour identifier l'objet à l'origine de l'événement.</span><span class="sxs-lookup"><span data-stu-id="a97e2-p103">In Visual C++, multiple **Connections** can share the same event handling method. The method uses the returned **Connection** object to determine which object caused the event.</span></span>
 
-  - <span data-ttu-id="61cc4-114">Valeur de type **Long** contenant le nouveau niveau de transaction de l'événement **BeginTrans** qui a provoqué l'événement.</span><span class="sxs-lookup"><span data-stu-id="61cc4-114">A **Long** value that contains the new transaction level of the **BeginTrans** that caused this event.</span></span>
-
-  - <span data-ttu-id="61cc4-115">*pError*</span><span class="sxs-lookup"><span data-stu-id="61cc4-115">*pError*</span></span>
-
-  - <span data-ttu-id="61cc4-p101">Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si EventStatusEnum a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.</span><span class="sxs-lookup"><span data-stu-id="61cc4-p101">An [Error](error-object-ado.md) object. It describes the error that occurred if the value of EventStatusEnum is **adStatusErrorsOccurred**; otherwise it is not set.</span></span>
-
-  - <span data-ttu-id="61cc4-118">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="61cc4-118">*adStatus*</span></span>
-
-  - [<span data-ttu-id="61cc4-119">EventStatusEnum</span><span class="sxs-lookup"><span data-stu-id="61cc4-119">EventStatusEnum</span></span>](eventstatusenum.md)
-    
-    <span data-ttu-id="61cc4-120">Ces événements peuvent empêcher la génération de notifications ultérieures en définissant ce paramètre à **adStatusUnwantedEvent** avant que l'événement soit retourné.</span><span class="sxs-lookup"><span data-stu-id="61cc4-120">These events can prevent subsequent notifications by setting this parameter to **adStatusUnwantedEvent** before the event returns.</span></span>
-
-  - <span data-ttu-id="61cc4-121">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="61cc4-121">*pConnection*</span></span>
-
-  - <span data-ttu-id="61cc4-122">Objet **Connection** pour lequel l'événement s'est produit.</span><span class="sxs-lookup"><span data-stu-id="61cc4-122">The **Connection** object for which this event occurred.</span></span>
-
-## <a name="remarks"></a><span data-ttu-id="61cc4-123">Notes</span><span class="sxs-lookup"><span data-stu-id="61cc4-123">Remarks</span></span>
-
-<span data-ttu-id="61cc4-p102">En Visual C++, plusieurs objets **Connection** peuvent partager la même méthode de gestion des événements. Celle-ci utilise l'objet **Connection** retourné pour identifier l'objet à l'origine de l'événement.</span><span class="sxs-lookup"><span data-stu-id="61cc4-p102">In Visual C++, multiple **Connections** can share the same event handling method. The method uses the returned **Connection** object to determine which object caused the event.</span></span>
-
-<span data-ttu-id="61cc4-p103">Si la propriété [Attributes](attributes-property-ado.md) a la valeur **adXactCommitRetaining** ou **adXactAbortRetaining**, une nouvelle transaction est lancée après la validation ou la restauration d'une transaction. Utilisez l'événement **BeginTransComplete** pour ignorer tous les événements de début de transaction à l'exception du premier.</span><span class="sxs-lookup"><span data-stu-id="61cc4-p103">If the [Attributes](attributes-property-ado.md) property is set to **adXactCommitRetaining** or **adXactAbortRetaining**, a new transaction starts after committing or rolling back a transaction. Use the **BeginTransComplete** event to ignore all but the first transaction start event.</span></span>
+<span data-ttu-id="a97e2-p104">Si la propriété [Attributes](attributes-property-ado.md) a la valeur **adXactCommitRetaining** ou **adXactAbortRetaining**, une nouvelle transaction est lancée après la validation ou la restauration d'une transaction. Utilisez l'événement **BeginTransComplete** pour ignorer tous les événements de début de transaction à l'exception du premier.</span><span class="sxs-lookup"><span data-stu-id="a97e2-p104">If the [Attributes](attributes-property-ado.md) property is set to **adXactCommitRetaining** or **adXactAbortRetaining**, a new transaction starts after committing or rolling back a transaction. Use the **BeginTransComplete** event to ignore all but the first transaction start event.</span></span>
 
