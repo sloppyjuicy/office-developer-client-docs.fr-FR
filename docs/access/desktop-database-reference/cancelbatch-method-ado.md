@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249925(v=office.15)
 ms:contentKeyID: 48547463
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: eefe1042404c24040aef204a1ceca0ce583847e8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 88bf83cad220056d9ee21f300e5543030e5d18cd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926954"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950076"
 ---
 # <a name="cancelbatch-method-ado"></a>CancelBatch, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Annule une mise à jour par lot en attente.
 
@@ -27,9 +25,9 @@ Annule une mise à jour par lot en attente.
 
 ## <a name="parameters"></a>Paramètres
 
-  - *AffectRecords*
-
-  - Facultatif. Valeur [AffectEnum](affectenum.md) qui indique le nombre d'enregistrements affectés par la méthode **CancelBatch**.
+|Paramètre|Description|
+|:--------|:----------|
+|*AffectRecords* |Facultatif. Valeur [AffectEnum](affectenum.md) qui indique le nombre d'enregistrements affectés par la méthode **CancelBatch**. |
 
 ## <a name="remarks"></a>Notes
 

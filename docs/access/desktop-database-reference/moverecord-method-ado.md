@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5aab77571b0b12c6b26cd15af386c9ee89162681
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 296232b05041c1e059b5134fdde11fceac4e3d43
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930013"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949893"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
  
-
 Déplace l'entité représentée par un objet [Record](record-object-ado.md) vers un autre emplacement.
 
 ## <a name="syntax"></a>Syntaxe
@@ -27,29 +25,14 @@ Déplace l'entité représentée par un objet [Record](record-object-ado.md) ver
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Source*
-
-  - Facultatif. Valeur de type **String** qui contient une URL identifiant l'objet **Record** à déplacer. Si *Source* est omis ou spécifie une chaîne vide, l'objet représenté par cet **enregistrement** est déplacé. Par exemple si l'objet **Record** représente un fichier, le contenu du fichier est déplacé vers l'emplacement spécifié par le paramètre *Destination*.
-
-  - *Destination*
-
-  - Facultatif. Une valeur de **type String** qui contient une URL spécifiant l’emplacement où seront déplacées *Source* .
-
-  - *Nom d’utilisateur*
-
-  - Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Destination*.
-
-  - *MotDePasse*
-
-  - Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.
-
-  - *Options*
-
-  - Facultatif. Valeur [MoveRecordOptionsEnum](moverecordoptionsenum.md) dont la valeur par défaut est **adMoveUnspecified**. Spécifie le comportement de cette méthode.
-
-  - *Async*
-
-  - Facultatif. Valeur de type **Boolean** qui, lorsqu'elle correspond à **True**, indique que cette opération doit être asynchrone.
+|Paramètre|Description|
+|:--------|:----------|
+|*Source* |Facultatif. Valeur de type **String** qui contient une URL identifiant l'objet **Record** à déplacer. Si *Source* est omis ou spécifie une chaîne vide, l'objet représenté par cet **enregistrement** est déplacé. Par exemple si l'objet **Record** représente un fichier, le contenu du fichier est déplacé vers l'emplacement spécifié par le paramètre *Destination*.|
+|*Destination* |Facultatif. Une valeur de **type String** qui contient une URL spécifiant l’emplacement où seront déplacées *Source* .|
+|*Nom d’utilisateur* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Destination*.|
+|*MotDePasse* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
+|*Options* |Facultatif. Valeur [MoveRecordOptionsEnum](moverecordoptionsenum.md) dont la valeur par défaut est **adMoveUnspecified**. Spécifie le comportement de cette méthode.|
+|*Async* |Facultatif. **Boolean** valeur de **la valeur True**, spécifie cette opération doit être asynchrone.|
 
 ## <a name="return-value"></a>Valeur renvoyée
 

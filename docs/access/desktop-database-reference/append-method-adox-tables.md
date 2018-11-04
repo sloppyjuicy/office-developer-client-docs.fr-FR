@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249726(v=office.15)
 ms:contentKeyID: 48546664
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b1bdfa895c00354064437406424fa0a5211d42a5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8e43f8fe5537ded015b5b8d79bb32f811e73368c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926632"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949347"
 ---
 # <a name="append-method-adox-tables"></a>Append, méthode (Tables ADOX)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Ajoute un nouvel objet [Table](table-object-adox.md) à la collection [Tables](tables-collection-adox.md).
 
@@ -27,9 +25,9 @@ Ajoute un nouvel objet [Table](table-object-adox.md) à la collection [Tables](t
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Table*
-
-  - Valeur de type **Variant** qui contient une référence à la **table** à ajouter ou au nom de la table à créer et à ajouter.
+|Paramètre|Description|
+|:--------|:----------|
+|*Table* | Valeur de type **Variant** qui contient une référence à la **table** à ajouter ou au nom de la table à créer et à ajouter.|
 
 ## <a name="remarks"></a>Notes
 

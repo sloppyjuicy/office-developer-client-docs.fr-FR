@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2bb9444091611fbd051da9fa649b5d3efdb92ee6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 98aeb3a56203fd5adbeb5b58a1298a7b1df98439
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923580"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950131"
 ---
 # <a name="handler-property-rds"></a>Handler, propriété (RDS)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Indique le nom d’un programme de personnalisation coté serveur (gestionnaire) qui étend la fonctionnalité de [RDSServer.DataFactory](datafactory-object-rdsserver.md) et tous les paramètres utilisés par le *gestionnaire (handler)*.
 
@@ -27,13 +25,10 @@ Indique le nom d’un programme de personnalisation coté serveur (gestionnaire)
 
 ## <a name="parameters"></a>Paramètres
 
-  - *DataControl*
-
-  - Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).
-
-  - *String*
-
-  - Une valeur de **type String** qui contient le nom du gestionnaire et des paramètres, séparés par des virgules (par exemple, « handlerName, parm1, parm2,..., parm *N*»).
+|Paramètre|Description|
+|:--------|:----------|
+|*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
+|*String* |Une valeur de **type String** qui contient le nom du gestionnaire et des paramètres, séparés par des virgules (par exemple, « handlerName, parm1, parm2,..., parm *N*»).|
 
 ## <a name="remarks"></a>Remarques
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5e0282d95a77f302103414df1ee904d300a0330e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2d6d40d88051e708944dadfabb984d44cc8c5cbc
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922950"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949886"
 ---
 # <a name="dbenginesetoption-method-dao"></a>Méthode DBEngine.SetOption (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Remplace temporairement les valeurs des clés du moteur de base de données Micr
 
 *expression* Expression qui renvoie un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ Remplace temporairement les valeurs des clés du moteur de base de données Micr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Option</p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Constante décrite dans les Notes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Valeur</p></td>
+<td><p><em>Valeur</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>La valeur que vous souhaitez définir l’option.</p></td>

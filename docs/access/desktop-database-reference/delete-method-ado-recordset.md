@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 324366ef1fb399bf4a6b31113a288fa1abdc6b2b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3a7ab998052cc08aa57320d05e46542b84282e6c
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947279"
+ms.locfileid: "25949508"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete, méthode (Recordset ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Supprime l'enregistrement actif ou un groupe d'enregistrements.
 
@@ -28,10 +25,9 @@ Supprime l'enregistrement actif ou un groupe d'enregistrements.
 
 ## <a name="parameters"></a>Paramètres
 
-- *AffectRecords*
-
-  - Valeur [AffectEnum](affectenum.md) qui détermine le nombre d'enregistrements concernés par la méthode **Delete**. La valeur par défaut est **adAffectCurrent**.
-
+|Paramètre|Description|
+|:--------|:----------|
+|*AffectRecords* |Valeur [AffectEnum](affectenum.md) qui détermine le nombre d'enregistrements concernés par la méthode **Delete**. La valeur par défaut est **adAffectCurrent**.|
 
 > [!NOTE]
 > [!REMARQUE] **adAffectAll** et **adAffectAllChapters** ne sont pas des arguments valides de la méthode **Delete**.

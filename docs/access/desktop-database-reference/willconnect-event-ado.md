@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4148baa827b42f34d9b4d15f2f94df2667959b0c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c8ac4ab83062d9297483b7ee4883ab0b289af227
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928312"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949830"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect, événement (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 L'événement **WillConnect** est appelé avant le début d'une connexion.
 
@@ -27,33 +25,14 @@ WillConnect*ConnectionString*, *UserID*, *le mot de passe*, *Options*, *adStatus
 
 ## <a name="parameters"></a>Paramètres
 
-  - *ConnectionString*
-
-  - Valeur de type **String** contenant les informations de la connexion en attente.
-
-  - *Nom d’utilisateur*
-
-  - Valeur de type **String** reprenant le nom de l'utilisateur de la connexion en attente.
-
-  - *Password*
-
-  - Valeur de type **String** contenant un mot de passe pour la connexion en attente.
-
-  - *Options*
-
-  - Valeur de type **Long** indiquant la méthode d'évaluation du paramètre *ConnectionString* par le fournisseur. La seule option possible est **adAsyncOpen**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Lorsque cet événement est appelé, ce paramètre est défini à **adStatusOK** par défaut. Il est défini à **adStatusCantDeny** si l'événement ne peut pas demander l'annulation de l'opération en attente.
-    
-    Avant que cet événement soit retourné, affectez au paramètre la valeur **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou la valeur **adStatusCancel** pour demander l'opération de connexion provoquant l'annulation de cette notification.
-
-  - *pConnection*
-
-  - Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique. Les modifications apportées aux paramètres de l'objet **Connection** par le gestionnaire d'événements **WillConnect** n'ont aucun effet sur l'objet **Connection**.
+|Paramètre|Description|
+|:--------|:----------|
+|*ConnectionString* |Valeur de type **String** contenant les informations de la connexion en attente.|
+|*Nom d’utilisateur* |Valeur de type **String** reprenant le nom de l'utilisateur de la connexion en attente.|
+|*Password* |Valeur de type **String** contenant un mot de passe pour la connexion en attente.|
+|*Options* |Valeur de type **Long** indiquant la méthode d'évaluation du paramètre *ConnectionString* par le fournisseur. La seule option possible est **adAsyncOpen**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque cet événement est appelé, ce paramètre est défini à **adStatusOK** par défaut. Il est défini à **adStatusCantDeny** si l'événement ne peut pas demander l'annulation de l'opération en attente.<br/><br/>Avant que cet événement soit retourné, affectez au paramètre la valeur **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou la valeur **adStatusCancel** pour demander l'opération de connexion provoquant l'annulation de cette notification.|
+|*pConnection* |Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique. Les modifications apportées aux paramètres de l'objet **Connection** par le gestionnaire d'événements **WillConnect** n'ont aucun effet sur l'objet **Connection**.|
 
 ## <a name="remarks"></a>Notes
 

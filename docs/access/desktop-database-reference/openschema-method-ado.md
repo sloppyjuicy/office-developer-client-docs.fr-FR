@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 846d1c0f73ba4a17f166fffc7c1bb4682ad31d49
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921165"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949998"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Obtient du fournisseur les informations du schéma de base de données.
 
@@ -31,17 +29,11 @@ Retourne un objet [Recordset](recordset-object-ado.md) qui contient les informat
 
 ## <a name="parameters"></a>Paramètres
 
-  - *QueryType*
-
-  - Valeur [SchemaEnum](schemaenum.md) qui représente le type de requête de schéma à exécuter.
-
-  - *Critères*
-
-  - Facultatif. Tableau de contraintes de requête pour chaque option *QueryType* , répertoriée dans **SchemaEnum**.
-
-  - *Si IDSchéma*
-
-  - GUID d'une requête d'un schéma de fournisseur non définie par la spécification OLE DB. Ce paramètre est requis si *QueryType* a la valeur **adSchemaProviderSpecific**; dans le cas contraire, il n’est pas utilisé.
+|Paramètre|Description|
+|:--------|:----------|
+|*QueryType* |Valeur [SchemaEnum](schemaenum.md) qui représente le type de requête de schéma à exécuter.|
+|*Critères* |Facultatif. Tableau de contraintes de requête pour chaque option *QueryType* , répertoriée dans **SchemaEnum**.|
+|*Si IDSchéma* |GUID d'une requête d'un schéma de fournisseur non définie par la spécification OLE DB. Ce paramètre est requis si *QueryType* a la valeur **adSchemaProviderSpecific**; dans le cas contraire, il n’est pas utilisé.|
 
 ## <a name="remarks"></a>Notes
 

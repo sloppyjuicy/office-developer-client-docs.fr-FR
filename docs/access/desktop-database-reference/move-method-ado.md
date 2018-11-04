@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248982(v=office.15)
 ms:contentKeyID: 48543645
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 55439f14cd2a498ec2592c533dd308f82798b1e8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 30feb9aabeb84c577b415b2872ce407cf3fc0f44
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929446"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950005"
 ---
 # <a name="move-method-ado"></a>Move, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Déplace la position de l'enregistrement actif dans un objet [Recordset](recordset-object-ado.md).
 
@@ -28,13 +25,10 @@ Déplace la position de l'enregistrement actif dans un objet [Recordset](records
 
 ## <a name="parameters"></a>Paramètres
 
-  - *NbEnregistrements*
-
-  - Expression de type **Long** signée qui spécifie le nombre d'enregistrements dont la position de l'enregistrement actif sera déplacée.
-
-  - *Début*
-
-  - Facultatif. Valeur de type **String** ou **Variant** qui correspond à un signet. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).
+|Paramètre|Description|
+|:--------|:----------|
+|*NbEnregistrements* |Expression de type **Long** signée qui spécifie le nombre d'enregistrements dont la position de l'enregistrement actif sera déplacée.|
+|*Début* |Facultatif. Valeur de type **String** ou **Variant** qui correspond à un signet. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).|
 
 ## <a name="remarks"></a>Notes
 

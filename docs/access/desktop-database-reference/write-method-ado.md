@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
 ms:contentKeyID: 48547697
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a04825a59f19b6b54fbb10652a1bba2fd0479588
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 93336294380ffa207f47adbcad630be3fdd1a8b8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920962"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950215"
 ---
 # <a name="write-method-ado"></a>Write, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Écrit des données binaires dans un objet [Stream](stream-object-ado.md).
 
@@ -27,9 +25,9 @@ ms.locfileid: "25920962"
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Buffer*
-
-  - Valeur de type **Variant** contenant un tableau d'octets à écrire.
+|Paramètre|Description|
+|:--------|:----------|
+|*Buffer* |Valeur de type **Variant** contenant un tableau d'octets à écrire.|
 
 ## <a name="remarks"></a>Notes
 
@@ -39,8 +37,6 @@ La propriété [Position](position-property-ado.md) actuelle est définie par l'
 
 Si vous écrivez après la position [EOS](eos-property-ado.md) actuelle, la valeur de la propriété [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) de l'objet **Stream** augmente pour contenir les nouveaux octets éventuels et **EOS** est déplacé au nouveau dernier octet de l'objet **Stream**.
 
-
 > [!NOTE]
-> <P>La méthode <STRONG>Write</STRONG> est utilisée avec des flux binaires (<A href="type-property-ado-stream.md">Type</A> a la valeur <STRONG>adTypeBinary</STRONG>). Pour les flux de texte (<STRONG>Type</STRONG> a la valeur <STRONG>adTypeText</STRONG>), utilisez la méthode <A href="writetext-method-ado.md">WriteText</A>.</P>
-
+> La méthode **Write** est utilisée avec des flux binaires ([Type](type-property-ado-stream.md) a la valeur **adTypeBinary**). Pour les flux de texte (**Type** a la valeur **adTypeText**), utilisez la méthode [WriteText](writetext-method-ado.md).
 

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2d90d82db89060894eda1e58442cb6f9d52f124e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fc089ded79e9a25da566f44b668bf788d97fc4be
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919491"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949977"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Méthode Database.PopulatePartial (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Synchronise les modifications d'un réplica partiel avec le réplica complet, efface tous les enregistrements du réplica partiel, puis remplit à nouveau ce dernier en fonction des filtres de réplica actifs. (Bases de données du moteur de base de données Microsoft Access uniquement.)
 
@@ -31,7 +29,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 
 *expression* Variable qui représente un objet de **base de données** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NomCheminBaseDeDonnées</p></td>
+<td><p><em>NomCheminBaseDeDonnées</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Chemin d'accès et nom du réplica complet à partir duquel les enregistrements sont remplis.</p></td>

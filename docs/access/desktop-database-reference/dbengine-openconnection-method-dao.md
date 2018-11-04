@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f958081ee73e64ca6c895217c8aa3e821617b283
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 08e26c4a32e8648eb1833dc493b4e121030d1f1a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927192"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950033"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>Méthode DBEngine.OpenConnection (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,7 +27,7 @@ ms.locfileid: "25927192"
 
 *expression* Variable qui représente un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -47,25 +46,25 @@ ms.locfileid: "25927192"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Expression sous forme de chaîne. Reportez-vous à la section sous Notes.</p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Définit différentes options pour la connexion, selon les indications dans les notes. En fonction de cette valeur, le gestionnaire de pilotes ODBC invite l'utilisateur à indiquer les informations de connexion comme le nom de la source de données (DSN), le nom d'utilisateur et le mot de passe.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>True</strong> si la connexion doit être ouverte pour un accès en lecture seule et <strong>False</strong> si la connexion doit être ouverte pour un accès en lecture/écriture (valeur par défaut).</p></td>
 </tr>
 <tr class="even">
-<td><p>Connexion</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Une chaîne de connexion ODBC. Voir la propriété <strong><a href="connection-connect-property-dao.md">Connect</a></strong> pour des éléments spécifiques et la syntaxe de cette chaîne. Un ajoutant au début &quot;ODBC ; &quot; est requis.</p></td>
@@ -74,7 +73,7 @@ ms.locfileid: "25927192"
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Connection
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d721102039a0fffbc8bbdc4696712bc530967fd8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936853"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949515"
 ---
 # <a name="databasenewpassword-method-dao"></a>Méthode Database.NewPassword (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 
 *expression* Expression qui renvoie un objet de **base de données** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -49,17 +48,17 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>chaînes bstrAncien</p></td>
+<td><p><em>chaînes bstrAncien</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Définition actuelle de la propriété <strong>Password</strong> de l'objet <strong>Database</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>bstrNouveau</p></td>
+<td><p><em>bstrNouveau</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Le nouveau paramètre de la propriété de <strong>mot de passe</strong> de l’objet de <strong>base de données</strong> .</p>
-<p><strong>Remarque</strong> Utilisez des mots de passe forts combinant des majuscules et minuscules, nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
+<p><strong>Remarque</strong>: utilisez des mots de passe forts combinant des majuscules et minuscules, nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
 </td>
 </tr>
 </tbody>

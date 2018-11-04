@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248958(v=office.15)
 ms:contentKeyID: 48543558
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a17e74e1e3483b7ad2a70c5444503234cff5be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a27d8e98d6768ace36d7c66c95191b0d1484e86a
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920248"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949900"
 ---
 # <a name="copyto-method-ado"></a>CopyTo, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Copie le nombre de caractères ou d'octets spécifié (selon la propriété [Type](type-property-ado-stream.md)) d'un objet [Stream](stream-object-ado.md) vers un autre objet **Stream**.
 
@@ -27,18 +25,12 @@ Copie le nombre de caractères ou d'octets spécifié (selon la propriété [Typ
 
 ## <a name="parameters"></a>Paramètres
 
-  - *DestStream*
+|Paramètre|Description|
+|:--------|:----------|
+|*DestStream* |Valeur de variable objet contenant une référence à un objet **Stream** ouvert. L'objet **Stream** actif est copié dans l'objet **Stream** de destination spécifié par *DestStream*. L'objet **Stream** de destination doit être déjà ouvert sans quoi une erreur d'exécution est générée.
 
-  - Valeur de variable objet contenant une référence à un objet **Stream** ouvert. L'objet **Stream** actif est copié dans l'objet **Stream** de destination spécifié par *DestStream*. L'objet **Stream** de destination doit être déjà ouvert sans quoi une erreur d'exécution est générée.
-
-   
-
-    > [!NOTE]
-    > Le paramètre *DestStream* ne peut pas être un proxy de l’objet **Stream** parce que ceci exige l’accès à une interface privée sur l’objet **Stream** qui ne peuvent pas être transférée vers le client.
-
-  - *NumChars*
-
-  - Facultatif. Valeur de type **Integer** qui spécifie le nombre d'octets ou de caractères à copier de la position actuelle dans l'objet **Stream** source vers l'objet **Stream** de destination. La valeur par défaut est – 1, ce qui spécifie que tous les caractères ou octets sont copiés à partir de la position actuelle vers [EOS](eos-property-ado.md).
+<br/><br/>**Remarque**: le paramètre *DestStream* ne peut pas être un proxy de l’objet **Stream** parce que ceci exige l’accès à une interface privée sur l’objet **Stream** qui ne peuvent pas être transférée vers le client.|
+|*NumChars* |Facultatif. Valeur de type **Integer** qui spécifie le nombre d'octets ou de caractères à copier de la position actuelle dans l'objet **Stream** source vers l'objet **Stream** de destination. La valeur par défaut est – 1, ce qui spécifie que tous les caractères ou octets sont copiés à partir de la position actuelle vers [EOS](eos-property-ado.md).|
 
 ## <a name="remarks"></a>Notes
 

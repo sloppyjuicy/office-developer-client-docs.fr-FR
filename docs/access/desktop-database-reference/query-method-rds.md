@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
 ms:contentKeyID: 48547658
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 06b9372a15082a76503654dde9261db941a492f8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1e7f9dfc3ce5cb0d757951f13c1078ab44d04760
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924000"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949424"
 ---
 # <a name="query-method-rds"></a>Query, méthode (RDS)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Utilise une chaîne de requête SQL valide qui retourne un objet [Recordset](recordset-object-ado.md).
 
@@ -27,21 +25,12 @@ Définir le*jeu d’enregistrements* = *DataFactory*. Requête (*connexion*, *re
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Recordset*
-
-  - Une variable objet qui représente un objet **Recordset**
-
-  - *DataFactory*
-
-  - Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).
-
-  - *Connexion*
-
-  - Valeur de type **String** qui contient les informations de connexion de serveur. Ce paramètre est similaire à la propriété [Connect](connect-property-rds.md).
-
-  - *Requête*
-
-  - Valeur de type **String** qui contient la requête SQL.
+|Paramètre|Description|
+|:--------|:----------|
+|*Recordset* |Une variable objet qui représente un objet **Recordset**|
+|*DataFactory* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md).|
+|*Connexion* |Valeur de type **String** qui contient les informations de connexion de serveur. Ce paramètre est similaire à la propriété [Connect](connect-property-rds.md).|
+|*Requête* |Valeur de type **String** qui contient la requête SQL.|
 
 ## <a name="remarks"></a>Notes
 

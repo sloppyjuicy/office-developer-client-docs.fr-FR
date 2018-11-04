@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 857a007d1b3bfe2665eea1284bc41cc9c67ccd46
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944437"
+ms.locfileid: "25950257"
 ---
 # <a name="clone-method-ado"></a>Clone, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un objet **Recordset** existant. Spécifie éventuellement que le clone doit être en lecture seule.
 
@@ -32,17 +29,11 @@ Retourne une référence d'objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
-- *rstDuplicate*
-
-  - Variable objet qui identifie la copie de l'objet **Recordset** à créer.
-
-- *rstOriginal*
-
-  - Variable objet qui identifie l'objet **Recordset** à dupliquer.
-
-- *LockType*
-
-  - Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.
+|Paramètre|Description|
+|:--------|:----------|
+|*rstDuplicate* |Variable objet qui identifie la copie de l'objet **Recordset** à créer.|
+|*rstOriginal* |Variable objet qui identifie l'objet **Recordset** à dupliquer.|
+|*LockType* |Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.|
 
 ## <a name="remarks"></a>Notes
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ca7c63e0c310535ecdf84a11c656d00ff436627f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f6e797865889bcf52c6f13e4411e945a72b978e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945921"
+ms.locfileid: "25949991"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-ado"></a>BeginTrans, CommitTrans et RollbackTrans, méthodes (ADO)
 
@@ -41,16 +41,16 @@ Ces méthodes de transaction gèrent le traitement des transactions dans un obje
 
 ## <a name="parameters"></a>Paramètres
 
-- *object*
-
-  - Objet **Connection**.
+|Paramètre|Description|
+|:--------|:----------|
+|*object* |Objet **Connection**.|
 
 ### <a name="connection"></a>Connection
 
 Utilisez ces méthodes avec un objet **Connection** lorsque vous voulez enregistrer ou annuler en bloc une série de modifications apportées aux données source. Par exemple, pour transférer de l'argent entre des comptes, vous soustrayez le montant transféré d'un compte et vous ajoutez ce même montant à l'autre compte. Si l'opération échoue d'un côté, les comptes ne seront plus équilibrés. Lorsque vous effectuez des modifications de ce type dans une transaction ouverte, vous êtes assuré que toutes les modifications ou aucune d'elles sont validées.
 
 > [!NOTE]
-> Tous les fournisseurs ne prennent pas en charge les transactions. Vérifiez que la propriété « **Transaction DDL** », définie par le fournisseur, apparaît dans la collection [Properties](properties-collection-ado.md) de l’objet **Connection** ; elle indique que le fournisseur prend en charge les transactions. Si ce n’est pas le cas, l’appel de l’une de ces méthodes retourne une erreur.
+> [!REMARQUE] Les transactions ne sont pas prises en charge par tous les fournisseurs. Vérifiez que la propriété défini par le fournisseur **Transaction DDL** apparaît dans la collection [Properties](properties-collection-ado.md) de l’objet **Connection** , indiquant que le fournisseur prend en charge les transactions. Si le fournisseur ne prend pas les transactions en charge, l'appel de l'une ou l'autre de ces méthodes génère une erreur.
 
 Une fois que vous appelez la méthode **BeginTrans**, le fournisseur ne valide plus instantanément les modifications que vous apportez jusqu'à ce que vous appeliez **CommitTrans** ou **RollbackTrans** pour mettre fin à la transaction.
 

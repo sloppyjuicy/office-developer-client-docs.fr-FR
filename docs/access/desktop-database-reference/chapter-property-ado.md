@@ -6,19 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250085(v=office.15)
 ms:contentKeyID: 48548014
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 95ed1b9b7c048353950b2481c7fefe2211b2799b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 3d7523a930feed7431bf8be0bbb7222a4b305483
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944276"
+ms.locfileid: "25949396"
 ---
 # <a name="chapter-property-ado"></a>Chapter, propriété (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
  
-
 Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **put\_chapitre** pour définir l’objet **Chapter** , un sous-ensemble de lignes est transformé en un objet **Recordset** . Cette opération définit le chapitre actif de l'objet **Rowset**. En lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
@@ -29,13 +27,10 @@ Placer HRESULT\_chapitre (\[dans\] lChapter long) ;
 
 ## <a name="parameters"></a>Paramètres
 
-- *plChapter*
-
-  - Pointeur vers le descripteur d'un chapitre.
-
-- *LChapter*
-
-  - Descripteur d'un chapitre.
+|Paramètre|Description|
+|:--------|:----------|
+|*plChapter* |Pointeur vers le descripteur d'un chapitre.|
+|*LChapter* |Descripteur d'un chapitre.|
 
 ## <a name="return-values"></a>Valeurs de retour
 

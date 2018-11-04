@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7478a06df491f4c2254f8c72f0eacf9c4b19d49e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e988eec4b3997bb24bf3a9aa0bb7faed1629b1f1
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927507"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950103"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>Méthode DBEngine.CreateDatabase (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 *expression* Variable qui représente un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -49,13 +48,13 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Une chaîne ne pouvant dépasser 255 caractères qui est le nom du fichier de base de données que vous créez. Il peut être le nom de fichier et chemin d’accès complet. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1&quot;. Vous pouvez uniquement créer des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
-<td><p>Locale</p></td>
+<td><p><em>Paramètres régionaux</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><ul>
@@ -68,7 +67,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Option</p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Constante ou combinaison de constantes qui indique une ou plusieurs options, comme spécifié dans la section Remarques. Vous pouvez combiner des options en associant les constantes correspondantes.</p></td>

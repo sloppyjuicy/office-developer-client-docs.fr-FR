@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc0f12e05e65dd24b73dfcf5702fbe09169ba397
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944836"
+ms.locfileid: "25949823"
 ---
 # <a name="open-method-ado-stream"></a>Open, méthode (flux ADO)
 
@@ -27,25 +27,13 @@ Ouvre un objet [Stream](stream-object-ado.md) pour manipuler des flux de donnée
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Source*
-
-  - Facultatif. Valeur de type **Variant** qui spécifie la source de données de l'objet **Stream**. *Source* peut contenir une chaîne d’URL absolue qui pointe vers un nœud existant dans une arborescence connue, comme un système de fichiers ou de messagerie. Une URL doit être spécifiée à l’aide du mot clé URL (« URL =*schéma*://*server*/*dossier*»). *Source* peut également contenir une référence à un objet [Record](record-object-ado.md) déjà ouvert, qui ouvre le flux par défaut associé à l' **enregistrement**. Si la *Source* n’est pas spécifié, un **flux de données** est instancié et ouvert, associé à aucune source sous-jacente par défaut. Pour plus d'informations sur les schémas d'URL et les fournisseurs qui leur sont associés, voir [URL absolues et relatives](absolute-and-relative-urls.md).
-
-  - *Mode*
-
-  - Facultatif. Valeur [ConnectModeEnum](connectmodeenum.md) qui spécifie le mode d'accès de l'objet **Stream** résultant (par exemple, lecture/écriture ou en lecture seule). La valeur par défaut est **adModeUnknown**. Pour plus d'informations sur les modes d'accès, consultez la propriété [Mode](mode-property-ado.md). Si *Mode* n’est pas spécifié, il est hérité de l’objet source. Par exemple, si l'objet **Record** source est ouvert en lecture seule, l'objet **Stream** sera également ouvert en lecture seule par défaut.
-
-  - *Si OptionsOuverture a*
-
-  - Facultatif. Valeur [StreamOpenOptionsEnum](streamopenoptionsenum.md). La valeur par défaut est **adOpenStreamUnspecified**.
-
-  - *Nom d’utilisateur*
-
-  - Facultatif. Valeur de type **String** contenant l'ID utilisateur qui, le cas échéant, accède à l'objet **Stream**.
-
-  - *MotDePasse*
-
-  - Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, accède à l'objet **Stream**.
+|Paramètre|Description|
+|:--------|:----------|
+|*Source* |Facultatif. Valeur de type **Variant** qui spécifie la source de données de l'objet **Stream**. *Source* peut contenir une chaîne d’URL absolue qui pointe vers un nœud existant dans une arborescence connue, comme un système de fichiers ou de messagerie. Une URL doit être spécifiée à l’aide du mot clé URL (« URL =*schéma*://*server*/*dossier*»). *Source* peut également contenir une référence à un objet [Record](record-object-ado.md) déjà ouvert, qui ouvre le flux par défaut associé à l' **enregistrement**. Si la *Source* n’est pas spécifié, un **flux de données** est instancié et ouvert, associé à aucune source sous-jacente par défaut. Pour plus d’informations sur les schémas d’URL et leurs fournisseurs associés, consultez [URL absolues et relatives](absolute-and-relative-urls.md).|
+|*Mode* |Facultatif. Valeur [ConnectModeEnum](connectmodeenum.md) qui spécifie le mode d'accès de l'objet **Stream** résultant (par exemple, lecture/écriture ou en lecture seule). La valeur par défaut est **adModeUnknown**. Pour plus d'informations sur les modes d'accès, consultez la propriété [Mode](mode-property-ado.md). Si *Mode* n’est pas spécifié, il est hérité de l’objet source. Par exemple, si l'objet **Record** source est ouvert en lecture seule, l'objet **Stream** sera également ouvert en lecture seule par défaut.|
+|*Si OptionsOuverture a* |Facultatif. Valeur [StreamOpenOptionsEnum](streamopenoptionsenum.md). La valeur par défaut est **adOpenStreamUnspecified**.|
+|*Nom d’utilisateur* |Facultatif. Valeur de type **String** contenant l'ID utilisateur qui, le cas échéant, accède à l'objet **Stream**.|
+|*MotDePasse* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, accède à l'objet **Stream**.|
 
 ## <a name="remarks"></a>Notes
 

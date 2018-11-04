@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
 ms:contentKeyID: 48546167
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 89ca397c4e95dd6f18de41862e9383f77fe14aa8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 36babff0c6de48e0539375caaad367698906e3fd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928837"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950187"
 ---
 # <a name="endofrecordset-event-ado"></a>EndOfRecordset, événement (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 L'événement **EndOfRecordset** est appelé lors d'une tentative de positionnement sur une ligne au-delà de la fin d'un objet [Recordset](recordset-object-ado.md).
 
@@ -28,21 +25,11 @@ EndOfRecordset*fMoreData*, *adStatus*, *Connection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *fMoreData*
-
-  - A **VARIANT\_BOOL** valeur de la valeur de type VARIANT\_la valeur TRUE, indique plus de lignes qui ont été ajoutés au **jeu d’enregistrements**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Lorsque **EndOfRecordset** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement et à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en question.
-    
-    Avant que **EndOfRecordset** ne soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre afin d'empêcher toute notification ultérieure.
-
-  - *Connection*
-
-  - Objet **Recordset**. Le **jeu d’enregistrements** pour laquelle cet événement se produit.
+|Paramètre|Description|
+|:--------|:----------|
+|*fMoreData* |A **VARIANT\_BOOL** valeur de la valeur de type VARIANT\_la valeur TRUE, indique plus de lignes qui ont été ajoutés au **jeu d’enregistrements**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque **EndOfRecordset** est appelé, ce paramètre a la valeur **adStatusOK** si l’opération qui a provoqué l’événement a réussi. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l’annulation de l’opération qui a provoqué l’événement.<br/><br/>Avant que **EndOfRecordset** ne soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre afin d'empêcher toute notification ultérieure.|
+|*Connection* | Objet **Recordset**. Le **jeu d’enregistrements** pour laquelle cet événement se produit.|
 
 ## <a name="remarks"></a>Notes
 

@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d750bd39835a8bb69d195663b72254d3f53cd635
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 68c0e6d246370f9c4f0c241195fb19c241ca49e5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926079"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949718"
 ---
 # <a name="dbengineidle-method-dao"></a>Méthode DBEngine.Idle (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Suspend le traitement des données, ce qui permet au moteur de base de données Microsoft Access de terminer les tâches en cours, telles que l'optimisation de la mémoire ou les expirations de délai des pages (espaces de travail Microsoft Access uniquement).
 
@@ -31,7 +29,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 
 *expression* Variable qui représente un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -50,7 +48,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Opération</p></td>
+<td><p><em>Action</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Spécifie l’action à effectuer. Il peut s’agir de l’une des constantes <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong>.</p></td>

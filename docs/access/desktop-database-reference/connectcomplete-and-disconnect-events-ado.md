@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249629(v=office.15)
 ms:contentKeyID: 48546293
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2799feebc3d2c2c4599249f0af310cf4020dcb49
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: f49bbffc2cfbaec77bf1b0d6aa692412c45254ae
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945510"
+ms.locfileid: "25949682"
 ---
 # <a name="connectcomplete-and-disconnect-events-ado"></a>ConnectComplete et Disconnect, événements (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,19 +27,9 @@ Déconnecter*adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Paramètres
 
-- *pError*
-
-  - Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.
-
-- *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Lorsque **ConnectComplete** est appelé, ce paramètre est défini à **adStatusCancel** si un événement **WillConnect** a demandé l'annulation de la connexion en attente.
-    
-    Avant qu'un de ces événements soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure. Notez toutefois que ces événements sont à nouveau générés si vous fermez et rouvrez l'objet [Connection](connection-object-ado.md).
-
-- *pConnection*
-
-  - Objet **Connection** auquel l'événement se rapporte.
+|Paramètre|Description|
+|:--------|:----------|
+|*pError* |Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque **ConnectComplete** est appelé, ce paramètre est défini à **adStatusCancel** si un événement **WillConnect** a demandé l'annulation de la connexion en attente.<br/><br/>Avant qu'un de ces événements soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure. Notez toutefois que ces événements sont à nouveau générés si vous fermez et rouvrez l'objet [Connection](connection-object-ado.md).|
+|*pConnection* |Objet **Connection** auquel l'événement se rapporte.|
 

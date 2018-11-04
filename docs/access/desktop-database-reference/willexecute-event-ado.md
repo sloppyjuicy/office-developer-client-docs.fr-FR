@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249732(v=office.15)
 ms:contentKeyID: 48546686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e4025645e5f8b12325ba20497ca6ef2b70175df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2ea43f565199f346287abf8fd134dec494d37cf5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919450"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949970"
 ---
 # <a name="willexecute-event-ado"></a>WillExecute, événement (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 L'événement **WillExecute** est appelé juste avant l'exécution d'une commande en attente sur une connexion.
 
@@ -27,39 +25,16 @@ WillExecute*Source*, *CursorType*, *LockType*, *Options*, *adStatus*, *pCommand*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Source*
-
-  - Valeur de type **String** reprenant le nom d'une commande SQL ou d'une procédure stockée.
-
-  - *CursorType*
-
-  - Valeur [CursorTypeEnum](cursortypeenum.md) contenant le type de curseur pour l'objet **Recordset** qui sera ouvert. Avec ce paramètre, vous pouvez modifier le curseur à n’importe quel type pendant une opération [d’ouverture](open-method-ado-recordset.md) de **jeu d’enregistrements** . *CursorType* est ignorée pour tout autre opération.
-
-  - *LockType*
-
-  - Valeur [LockTypeEnum](locktypeenum.md) contenant le type de verrouillage de l'objet **Recordset** qui sera ouvert. Ce paramètre permet de changer le type de verrouillage pendant l'exécution d'une opération **Open** sur un objet **Recordset** ). *LockType* est ignorée pour tout autre opération.
-
-  - *Options*
-
-  - Valeur de type **Long** indiquant les options qui peuvent être utilisées pour exécuter la commande ou ouvrir l'objet **Recordset**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Avant que cet événement soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou à **adStatusCancel** pour demander l'annulation de l'opération à l'origine de l'événement.
-
-  - *pCommand*
-
-  - Objet [Command](command-object-ado.md) auquel cette notification d'événement s'applique.
-
-  - *Connection*
-
-  - Objet [Recordset](recordset-object-ado.md) auquel cette notification d'événement s'applique.
-
-  - *pConnection*
-
-  - Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique.
+|Paramètre|Description|
+|:--------|:----------|
+|*Source* |Valeur de type **String** reprenant le nom d'une commande SQL ou d'une procédure stockée.|
+|*CursorType* |Valeur [CursorTypeEnum](cursortypeenum.md) contenant le type de curseur pour l'objet **Recordset** qui sera ouvert. Avec ce paramètre, vous pouvez modifier le curseur à n’importe quel type pendant une opération [d’ouverture](open-method-ado-recordset.md) de **jeu d’enregistrements** . *CursorType* est ignorée pour tout autre opération.|
+|*LockType* |Valeur [LockTypeEnum](locktypeenum.md) contenant le type de verrouillage de l'objet **Recordset** qui sera ouvert. Ce paramètre permet de changer le type de verrouillage pendant l'exécution d'une opération **Open** sur un objet **Recordset** ). *LockType* est ignorée pour tout autre opération.|
+|*Options* |Valeur de type **Long** indiquant les options qui peuvent être utilisées pour exécuter la commande ou ouvrir l'objet **Recordset**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou à **adStatusCancel** pour demander l'annulation de l'opération à l'origine de l'événement.|
+|*pCommand* |Objet [Command](command-object-ado.md) auquel cette notification d'événement s'applique.|
+|*Connection* |Objet [Recordset](recordset-object-ado.md) auquel cette notification d'événement s'applique.|
+|*pConnection* |Objet [Connection](connection-object-ado.md) auquel cette notification d'événement s'applique.|
 
 ## <a name="remarks"></a>Notes
 

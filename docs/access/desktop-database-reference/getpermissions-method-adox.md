@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249683(v=office.15)
 ms:contentKeyID: 48546496
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14cba54742a71a8b319f80b6fd1a910a85debcec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b0860606bd0ee6036ea8a760c76662a778eb0175
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926723"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949326"
 ---
 # <a name="getpermissions-method-adox"></a>GetPermissions, méthode (ADOX)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Renvoie les autorisations d'un groupe ou d'un utilisateur sur un objet ou un conteneur d'objets.
 
@@ -31,15 +29,9 @@ Renvoie une valeur de type **Long** qui spécifie un masque de bits contenant le
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Name*
-
-  - Valeur de type **Variant** qui spécifie le nom de l'objet dont il faut définir les autorisations. Définir le *nom* à une valeur null si vous souhaitez obtenir des autorisations pour le conteneur d’objet.
-
-  - *ObjectType*
-
-  - Valeur de type **Long** qui peut être l'une des constantes [ObjectTypeEnum](objecttypeenum.md), spécifiant le type d'objet dont il faut obtenir les autorisations.
-
-  - *ObjectTypeId*
-
-  - Facultatif. Une valeur de **type Variant** qui spécifie le GUID pour un type d’objet fournisseur non défini par la spécification OLE DB. Ce paramètre est requis si *ObjectType* a la valeur **adPermObjProviderSpecific**. dans le cas contraire, il n’est pas utilisé.
+|Paramètre|Description|
+|:--------|:----------|
+|*Name* |Valeur de type **Variant** qui spécifie le nom de l'objet dont il faut définir les autorisations. Définir le *nom* à une valeur null si vous souhaitez obtenir des autorisations pour le conteneur d’objet.|
+|*ObjectType* |Valeur de type **Long** qui peut être l'une des constantes [ObjectTypeEnum](objecttypeenum.md), spécifiant le type d'objet dont il faut obtenir les autorisations.|
+|*ObjectTypeId* |Facultatif. Une valeur de **type Variant** qui spécifie le GUID pour un type d’objet fournisseur non défini par la spécification OLE DB. Ce paramètre est requis si *ObjectType* a la valeur **adPermObjProviderSpecific**. dans le cas contraire, il n’est pas utilisé.|
 

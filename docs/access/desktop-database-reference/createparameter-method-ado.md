@@ -10,18 +10,16 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88a5d62cc94aa707c2e90467d74dc07d80a0af02
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d3b36d04345df4c1d556d0607c70b3425f0047e6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928942"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949956"
 ---
 # <a name="createparameter-method-ado"></a>CreateParameter, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Crée un objet [Parameter](parameter-object-ado.md) avec les propriétés spécifiées.
 
@@ -35,25 +33,13 @@ Retourne un objet **Parameter**.
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Name*
-
-  - Facultatif. Valeur de type **String** contenant le nom de l'objet **Parameter**.
-
-  - *Type*
-
-  - Facultatif. Valeur [DataTypeEnum](datatypeenum.md) qui spécifie le type de données de l'objet **Parameter**.
-
-  - *Direction*
-
-  - Facultatif. Valeur [ParameterDirectionEnum](parameterdirectionenum.md) qui spécifie le type de l'objet **Parameter**.
-
-  - *Size*
-
-  - Facultatif. Valeur de type **Long** qui spécifie la longueur maximale de la valeur du paramètre en caractères ou en octets.
-
-  - *Value*
-
-  - Facultatif. **Variant** qui spécifie la valeur de l'objet **Parameter**.
+|Paramètre|Description|
+|:--------|:----------|
+|*Name* |Facultatif. Valeur de type **String** contenant le nom de l'objet **Parameter**.|
+|*Type* |Facultatif. Valeur [DataTypeEnum](datatypeenum.md) qui spécifie le type de données de l'objet **Parameter**.|
+|*Direction* |Facultatif. Valeur [ParameterDirectionEnum](parameterdirectionenum.md) qui spécifie le type de l'objet **Parameter**.|
+|*Size* |Facultatif. Valeur de type **Long** qui spécifie la longueur maximale de la valeur du paramètre en caractères ou en octets.|
+|*Value* |Facultatif. **Variant** qui spécifie la valeur de l'objet **Parameter**.|
 
 ## <a name="remarks"></a>Notes
 

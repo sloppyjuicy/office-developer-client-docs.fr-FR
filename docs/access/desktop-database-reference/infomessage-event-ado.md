@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3850d57bfcbf61cd5e17456f86dd30812dfde4e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1db793ec99dd0248eacc527bd76068ceec025a58
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921753"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949431"
 ---
 # <a name="infomessage-event-ado"></a>InfoMessage, événement (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,17 +25,9 @@ InfoMessage*pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *pError*
-
-  - Objet [Error](error-object-ado.md). Ce paramètre contient toutes les erreurs générées lors de l'opération. Si plusieurs erreurs sont retournées, énumérez la collection **Errors** pour les identifier.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.
-
-  - *pConnection*
-
-  - Objet [Connection](connection-object-ado.md). Connexion pour laquelle l'avertissement a été émis. Par exemple, des avertissements peuvent être générés lors de l'ouverture d'un objet **Connection** ou pendant l'exécution d'un objet [Command](command-object-ado.md) sur un objet **Connection**.
+|Paramètre|Description|
+|:--------|:----------|
+|*pError* |Objet [Error](error-object-ado.md). Ce paramètre contient toutes les erreurs générées lors de l'opération. Si plusieurs erreurs sont retournées, énumérez la collection **Errors** pour les identifier.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.|
+|*pConnection* |Objet [Connection](connection-object-ado.md). Connexion pour laquelle l'avertissement a été émis. Par exemple, des avertissements peuvent être générés lors de l'ouverture d'un objet **Connection** ou pendant l'exécution d'un objet [Command](command-object-ado.md) sur un objet **Connection**.|
 

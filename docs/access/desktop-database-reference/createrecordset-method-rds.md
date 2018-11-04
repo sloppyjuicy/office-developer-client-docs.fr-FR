@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248940(v=office.15)
 ms:contentKeyID: 48543497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42a5bf11e2ed287ac683f634d3953739b2501f60
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0b4d68ac2dfca344cb98885846f2cd09fafd0ea0
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922803"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950236"
 ---
 # <a name="createrecordset-method-rds"></a>CreateRecordset, méthode (RDS)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Crée un objet [Recordset](recordset-object-ado.md) vide et déconnecté.
 
@@ -27,50 +25,20 @@ Crée un objet [Recordset](recordset-object-ado.md) vide et déconnecté.
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Object*
+|Paramètre|Description|
+|:--------|:----------|
+|*Object* |Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).|
+|*ColumnsInfos* |Tableau de type **Variant** qui contient des attributs et définit chaque colonne de l'objet **Recordset** créé. Chaque définition de colonne contient un tableau de quatre attributs obligatoires et un attribut facultatif. Le jeu de tableaux de colonnes est ensuite regroupé dans un tableau qui définit l'objet **Recordset**. Pour obtenir la liste des attributs, voir le tableau suivant.|
 
-  - Variable objet représentant un objet [RDSServer.DataFactory](datafactory-object-rdsserver.md) ou [RDS.DataControl](datacontrol-object-rds.md).
+### <a name="variant-array-attributes"></a>Attributs de tableau de type Variant
 
-  - *ColumnsInfos*
-
-  - Tableau de type **Variant** qui contient des attributs et définit chaque colonne de l'objet **Recordset** créé. Chaque définition de colonne contient un tableau de quatre attributs obligatoires et un attribut facultatif. Le jeu de tableaux de colonnes est ensuite regroupé dans un tableau qui définit l'objet **Recordset**.
-    
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Attribut</p></th>
-    <th><p>Description</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Name</p></td>
-    <td><p>Nom de l'en-tête de colonne.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Type</p></td>
-    <td><p>Entier du type de données.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Size</p></td>
-    <td><p>Entier de la largeur en caractères, quel que soit le type de données.</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Nullability</p></td>
-    <td><p>Valeur de type Boolean.</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Scale (Échelle)<br />
-(Facultatif)</p></td>
-    <td><p>Cet attribut facultatif définit l'échelle des champs numériques. Si cette valeur n'est pas spécifiée, les valeurs numériques sont tronquées à une échelle de trois. La précision n'est pas affectée, mais le nombre de chiffres après la virgule est tronqué après trois.</p></td>
-    </tr>
-    </tbody>
-    </table>
-
+|Attribut|Description|
+|:--------|:----------|
+|Name |Nom de l'en-tête de colonne.|
+|Type |Entier du type de données.|
+|Size |Entier de la largeur en caractères, quel que soit le type de données.|
+|Nullability |Valeur de type Boolean.|
+|Scale (facultatif) |Cet attribut facultatif définit l'échelle des champs numériques. Si cette valeur n'est pas spécifiée, les valeurs numériques sont tronquées à une échelle de trois. La précision n'est pas affectée, mais le nombre de chiffres après la virgule est tronqué après trois.|
 
 ## <a name="remarks"></a>Notes
 

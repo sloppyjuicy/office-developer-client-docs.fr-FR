@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249971(v=office.15)
 ms:contentKeyID: 48547638
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28f0d1c7dbc0e062ff133b9f9997f1a737c3262e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 06bb1110dfa7e7a055fa6cd863dcd2cc17f3f585
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872129"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950147"
 ---
 # <a name="parentrow-property-ado"></a>ParentRow, propriété (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Indique que le conteneur d'un objet **Row** OLE DB est un objet **ADORecordConstruction**, ce qui indique que le parent de la ligne devient un objet **Record** ADO.
 
@@ -29,15 +27,15 @@ Placer HRESULT\_ligne parente (\[dans\] IUnknown\* pParent) ;
 
 ## <a name="parameters"></a>Paramètres
 
-  - *pParent*
-
-  - Le conteneur d'une ligne.
+|Paramètre|Description|
+|:--------|:----------|
+|*pParent* |Le conteneur d'une ligne.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
 Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
 
-## <a name="applies-to"></a>Champ d'application
+## <a name="applies-to"></a>S’applique à
 
 [ADORecordConstruction](adorecordconstruction-interface-ado.md)
 

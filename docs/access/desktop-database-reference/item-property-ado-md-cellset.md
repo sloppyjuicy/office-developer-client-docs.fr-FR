@@ -1,17 +1,17 @@
 ---
 title: Item, propriété (Ensemble de cellules ADO MD)
-TOCTitle: Item Property (ADO MD Cellset)
+TOCTitle: Item property (ADO MD Cellset)
 ms:assetid: 47510643-47af-0bfd-dc1f-ab984057bcd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53912b9c1b84b88929a00f9e74caf4c138a1410
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946614"
+ms.locfileid: "25949606"
 ---
 # <a name="item-property-ado-md-cellset"></a>Item, propriété (Ensemble de cellules ADO MD)
 
@@ -25,15 +25,9 @@ Définir la*cellule* = *ensemble de cellules*. Élément (*Positions*)
 
 ## <a name="parameters"></a>Paramètres
 
-- *Positions*
-
-- Un **tableau** **variable** de valeurs qui spécifient une cellule de manière unique. *Positions* peut être une des options suivantes :
-    
-  - Un tableau de numéros de positions
-    
-  - Un tableau de noms de membres
-    
-  - La position ordinale
+|Paramètre|Description|
+|:--------|:----------|
+|*Positions* |Un **tableau de type Variant** de valeurs qui spécifient une cellule de manière unique. *Positions* peut être une des options suivantes :<br/><br/>-Un tableau de numéros de positions<br/>-Un tableau de noms de membres<br/>-La position ordinale |
 
 ## <a name="remarks"></a>Remarques
 

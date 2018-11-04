@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248793(v=office.15)
 ms:contentKeyID: 48542968
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d779fc5cff955ca669635ca827456dafb8927d8a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86d164a133538379a15c80f7fb5f2f4ba71267bf
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919681"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950208"
 ---
 # <a name="save-method-ado"></a>Save, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ Enregistre l'objet [Recordset](recordset-object-ado.md) dans un fichier ou un ob
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Destination*
-
-  - Facultatif. Valeur de type **Variant** qui représente le nom de chemin d'accès complet du fichier dans lequel l'objet **Recordset** doit être enregistré ou une référence à l'objet **Stream**.
-
-  - *PersistFormat*
-
-  - Facultatif. Valeur [PersistFormatEnum](persistformatenum.md) qui spécifie le format d'enregistrement de l'objet **Recordset** (XML ou ADTG). La valeur par défaut est **adPersistADTG**.
+|Paramètre|Description|
+|:--------|:----------|
+|*Destination* |Facultatif. Valeur de type **Variant** qui représente le nom de chemin d'accès complet du fichier dans lequel l'objet **Recordset** doit être enregistré ou une référence à l'objet **Stream**.|
+|*PersistFormat* |Facultatif. Valeur [PersistFormatEnum](persistformatenum.md) qui spécifie le format d'enregistrement de l'objet **Recordset** (XML ou ADTG). La valeur par défaut est **adPersistADTG**.|
 
 ## <a name="remarks"></a>Notes
 
@@ -56,11 +52,8 @@ Pour obtenir de meilleurs résultats, affectez à la propriété [CursorLocation
 
 Lorsqu'un objet **Recordset** est conservé avec la propriété **CursorLocation** affectée de la valeur **adUseServer**, les fonctionnalités de mise à jour de l'objet **Recordset** sont limitées. En général, seules les mises à jour, les insertions et les suppressions de table unique sont autorisées (selon les fonctionnalités du fournisseur). La méthode [Resync](resync-method-ado.md) n'est pas non plus disponible avec une telle configuration.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'enregistrement d'un objet <STRONG>Recordset</STRONG> avec des <STRONG>champs</STRONG> de type <STRONG>adVariant</STRONG>, <STRONG>adIDispatch</STRONG> ou <STRONG>adIUnknown</STRONG> n'est pas pris en charge par ADO et peut avoir des résultats imprévisibles.</P>
-
-
+> [!REMARQUE] L'enregistrement d'un objet **Recordset** avec des **champs** de type **adVariant**, **adIDispatch** ou **adIUnknown** n'est pas pris en charge par ADO et peut avoir des résultats imprévisibles.
 
 Seuls les **filtres** sous la forme de chaînes de critères (P.ex \> ' 12/31/1999 ') affectent le contenu du **jeu d’enregistrements**persistant. Les filtres créés avec un tableau de **signets** ou en utilisant une valeur provenant de **FilterGroupEnum** n’affectent pas le contenu du **jeu d’enregistrements**persistant. Ces règles s'appliquent aux **jeux d'enregistrements** créés avec des curseurs côté client ou côté serveur.
 
@@ -68,11 +61,8 @@ Seuls les **filtres** sous la forme de chaînes de critères (P.ex \> ' 12/31/19
 
 Vous pouvez également enregistrer un objet **Recordset** au format XML dans une instance d'un objet DOM MSXML, comme l'illustre le code Visual Basic suivant :
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'enregistrement des objets <STRONG>Recordset</STRONG> hiérarchiques (formes de données) au format XML est assorti de deux limitations. Vous ne pouvez pas enregistrer au format XML si l'objet <STRONG>Recordset</STRONG> hiérarchique contient des mises à jour en attente et vous ne pouvez pas enregistrer un objet <STRONG>Recordset</STRONG> hiérarchique paramétré.</P>
-
-
+> [!REMARQUE] L'enregistrement des objets **Recordset** hiérarchiques (formes de données) au format XML est assorti de deux limitations. Vous ne pouvez pas enregistrer au format XML si l'objet **Recordset** hiérarchique contient des mises à jour en attente et vous ne pouvez pas enregistrer un objet **Recordset** hiérarchique paramétré.
 
 Un jeu d'enregistrements enregistré au format XML est enregistré à l'aide du format UTF-8. Lorsque ce type de fichier est chargé dans un flux ADO, l'objet Stream ne tente pas d'ouvrir l'objet Recordset à partir du flux sauf si la propriété Charset du flux a la valeur appropriée pour le format UTF-8.
 

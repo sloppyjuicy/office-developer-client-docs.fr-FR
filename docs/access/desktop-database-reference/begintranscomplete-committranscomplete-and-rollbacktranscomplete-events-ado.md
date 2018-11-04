@@ -6,26 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
 ms:contentKeyID: 48546615
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c6a49b08c1b4f7879d50f9dd1d29cfcf89ded50c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 86bb76b4feacc1b4a06d6cbbb8a436f5f9c55bd5
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928077"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949489"
 ---
 # <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>BeginTransComplete, CommitTransComplete et RollbackTransComplete, événements (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Ces événements sont appelés une fois l'opération associée à l'objet [Connection](connection-object-ado.md) terminée.
 
-  - **BeginTransComplete** est appelé après l'opération [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
+- **BeginTransComplete** est appelé après l'opération [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
 
-  - **CommitTransComplete** est appelé après l'opération [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
+- **CommitTransComplete** est appelé après l'opération [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
 
-  - **RollbackTransComplete** est appelé après l'opération [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
+- **RollbackTransComplete** est appelé après l'opération [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -37,23 +35,12 @@ RollbackTransComplete*pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *TransactionLevel*
-
-  - Valeur de type **Long** contenant le nouveau niveau de transaction de l'événement **BeginTrans** qui a provoqué l'événement.
-
-  - *pError*
-
-  - Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si EventStatusEnum a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Ces événements peuvent empêcher la génération de notifications ultérieures en définissant ce paramètre à **adStatusUnwantedEvent** avant que l'événement soit retourné.
-
-  - *pConnection*
-
-  - Objet **Connection** pour lequel l'événement s'est produit.
+|Paramètre|Description|
+|:--------|:----------|
+|*TransactionLevel* |Valeur de type **Long** contenant le nouveau niveau de transaction de l'événement **BeginTrans** qui a provoqué l'événement.|
+|*pError* |Objet [Error](error-object-ado.md). Il décrit l’erreur qui s’est produite si la valeur de EventStatusEnum est **adStatusErrorsOccurred**; dans le cas contraire, il n’est pas définie.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Ces événements peuvent empêcher la génération de notifications ultérieures en définissant ce paramètre à **adStatusUnwantedEvent** avant que l'événement soit retourné.|
+|*pConnection* |Objet **Connection** pour lequel l'événement s'est produit.|
 
 ## <a name="remarks"></a>Notes
 

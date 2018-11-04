@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
 ms:contentKeyID: 48544993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 310f6e8961faed0a60b686bc9aeb9e7f8bcf5deb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1c71d92af9c833fd532aed2d436cb186412fe0e8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926891"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950019"
 ---
 # <a name="connectionopenrecordset-method-dao"></a>Méthode Connection.OpenRecordset (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 
 *expression* Variable qui représente un objet **Connection** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -45,52 +44,37 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Source des enregistrements du nouveau <strong>Recordset</strong>. La source peut être un nom de table, un nom de requête ou une instruction SQL qui renvoie des enregistrements. Pour les objets <strong>Recordset</strong> de type table dans les bases de données du moteur de base de données Microsoft Access, la source peut uniquement être un nom de table.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
-<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p>
-
-> [!NOTE]
-> Si vous ouvrez un **Recordset** dans un espace de travail Microsoft Access et que vous n’indiquez aucun type, **OpenRecordset** crée un **Recordset** de type table, si possible. Si vous spécifiez une table liée ou une requête, **OpenRecordset** crée un **Recordset** de type feuille de réponse dynamique.
-
-
+<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>Remarque</strong>: Si vous ouvrez un <strong>objet Recordset</strong> dans un espace de travail Microsoft Access et que vous ne spécifiez pas un type, <strong>OpenRecordset</strong> crée un <strong>objet Recordset</strong>de type table, si possible. Si vous spécifiez une table liée ou une requête, <strong>OpenRecordset</strong> crée un <strong>jeu d’enregistrements</strong>de type feuille de réponse dynamique.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement, et les deux entraîne une erreur. Fournir un argument de lockedits lorsque des options d’utiliser les constantes **peut entraîner** génère également une erreur.
-
-
+<td><p>Combinaison de constantes <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> qui indiquent les caractéristiques du nouveau <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: l’une des constantes <strong>dbConsistent</strong> et <strong>dbInconsistent</strong> s’excluent mutuellement, et les deux entraîne une erreur. Fournir un argument de lockedits lorsque des options d’utiliser les constantes <strong>peut entraîner</strong> génère également une erreur.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p>VerrouillerModification</p></td>
+<td><p><em>VerrouillerModification</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p>
-
-> [!NOTE]
-> Vous pouvez utiliser **dbReadOnly** dans l’argument options ou l’argument lockededits, mais pas dans les deux. Si vous l’utilisez pour les deux arguments, une erreur d’exécution se produit.
-
-
+<td><p>Constante <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> qui détermine le verrouillage du <strong>Recordset</strong>.</p><p><strong>Remarque</strong>: vous pouvez utiliser <strong>peut entraîner</strong> dans l’argument options ou l’argument lockedits, mais pas les deux. Si vous l’utilisez pour les deux arguments, une erreur d’exécution se produit.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Recordset
 
@@ -103,7 +87,6 @@ Par ailleurs, il est recommandé d'utiliser la constante **dbSeeChanges** si vou
 L'ouverture de plusieurs objets **Recordset** dans une source de données ODBC peut entraîner un échec car la connexion est occupée par un appel d'objet **OpenRecordset** préalable. Pour contourner ce problème, vous pouvez renseigner totalement l'objet **Recordset** à l'aide de la méthode **MoveLast** dès que l'objet **Recordset** est ouvert.
 
 Le fait de fermer un objet **Recordset** par le biais de la méthode **[Close](connection-close-method-dao.md)** entraîne sa suppression automatique au niveau de la collection **Recordsets**.
-
 
 > [!NOTE]
 > Si *la source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le **jeu d’enregistrements**. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut de votre système, et SQL n'accepte que les caractères décimaux usités aux États-Unis.

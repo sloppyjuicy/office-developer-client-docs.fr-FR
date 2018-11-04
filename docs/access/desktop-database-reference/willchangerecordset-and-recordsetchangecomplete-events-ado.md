@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
 ms:contentKeyID: 48543963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac85cd672a07d65b19578daa8ca737af584972a2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 47d2c4a870151e8c917e7d00eca3e3d152bbfb8b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919142"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950201"
 ---
 # <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>WillChangeRecordset et RecordsetChangeComplete, événements (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 L'événement **WillChangeRecordset** est appelé avant qu'une opération en attente modifie l'objet [Recordset](recordset-object-ado.md). À l'inverse, l'événement **RecordsetChangeComplete** est appelé après cette modification de l'objet **Recordset**.
 
@@ -29,29 +27,12 @@ RecordsetChangeComplete*adReason*, *pError*, *adStatus*, *Connection*
 
 ## <a name="parameters"></a>Paramètres
 
-  - *adReason*
-
-  - Valeur [EventReasonEnum](eventreasonenum.md) indiquant la raison de cet événement. Les valeurs possibles sont **adRsnRequery**, **adRsnResynch**, **adRsnClose** et **adRsnOpen**.
-
-  - *adStatus*
-
-  - [EventStatusEnum](eventstatusenum.md)
-    
-    Lorsque **WillChangeRecordset** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en attente.
-    
-    Lorsque **RecordsetChangeComplete** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement, à **adStatusErrorsOccurred** si cette dernière a échoué ou encore à **adStatusCancel** si l'opération associée à l'événement **WillChangeRecordset** précédemment accepté a été annulée
-    
-    Avant que **WillChangeRecordset** soit retourné, définissez ce paramètre à **adStatusCancel** pour demander l'annulation de l'opération en attente ou à adStatusUnwantedEvent pour éviter toute notification ultérieure.
-    
-    Avant que **WillChangeRecordset** ou que **RecordsetChangeComplete** soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure.
-
-  - *pError*
-
-  - Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.
-
-  - *Connection*
-
-  - Objet **Recordset**. Le **jeu d’enregistrements** pour laquelle cet événement se produit.
+|Paramètre|Description|
+|:--------|:----------|
+|*adReason* |Valeur [EventReasonEnum](eventreasonenum.md) indiquant la raison de cet événement. Les valeurs possibles sont **adRsnRequery**, **adRsnResynch**, **adRsnClose** et **adRsnOpen**.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque **WillChangeRecordset** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement. Il est défini à **adStatusCantDeny** si cet événement ne peut pas demander l'annulation de l'opération en attente. <br/><br/>Lorsque **RecordsetChangeComplete** est appelé, ce paramètre est défini à **adStatusOK** si l'opération à l'origine de l'événement s'est déroulée correctement, à **adStatusErrorsOccurred** si cette dernière a échoué ou encore à **adStatusCancel** si l'opération associée à l'événement **WillChangeRecordset** précédemment accepté a été annulée <br/><br/>Avant que **WillChangeRecordset** soit retourné, définissez ce paramètre à **adStatusCancel** pour demander l'annulation de l'opération en attente ou à adStatusUnwantedEvent pour éviter toute notification ultérieure. <br/><br/>Avant que **WillChangeRecordset** ou que **RecordsetChangeComplete** soit retourné, définissez ce paramètre à **adStatusUnwantedEvent** pour éviter toute notification ultérieure.|
+|*pError* |Objet [Error](error-object-ado.md), décrivant l'erreur qui s'est produite si *adStatus* a la valeur **adStatusErrorsOccurred**. Dans le cas contraire, il n'est pas défini.|
+|*Connection* |Objet **Recordset**. Le **jeu d’enregistrements** pour laquelle cet événement se produit.|
 
 ## <a name="remarks"></a>Notes
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5c0c4668141c0da6e5faddee009d2548f1ee2c53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6aecdbee544d3b30a6f6386c98d3083bb1167539
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926996"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949802"
 ---
 # <a name="writetext-method-ado"></a>WriteText, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,13 +25,10 @@ ms.locfileid: "25926996"
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Data*
-
-  - Valeur de type **String** contenant les caractères du texte à écrire.
-
-  - *Options*
-
-  - Facultatif. Valeur [StreamWriteEnum](streamwriteenum.md) spécifiant si un séparateur de ligne doit être écrit à la fin de la chaîne spécifiée.
+|Paramètre|Description|
+|:--------|:----------|
+|*Data* |Valeur de type **String** contenant les caractères du texte à écrire.|
+|*Options* |Facultatif. Valeur [StreamWriteEnum](streamwriteenum.md) spécifiant si un séparateur de ligne doit être écrit à la fin de la chaîne spécifiée.|
 
 ## <a name="remarks"></a>Notes
 
@@ -42,8 +38,7 @@ La propriété [Position](position-property-ado.md) actuelle est définie sur le
 
 Si vous écrivez après la position [EOS](eos-property-ado.md) actuelle, la valeur de la propriété [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) de l'objet **Stream** augmente pour contenir les nouveaux caractères éventuels et **EOS** est déplacé au nouveau dernier octet de l'objet **Stream**.
 
-
 > [!NOTE]
-> <P>La méthode <STRONG>WriteText</STRONG> est utilisée avec des flux de texte (<A href="type-property-ado-stream.md">Type</A> a la valeur <STRONG>adTypeText</STRONG>). Pour les flux binaires (<STRONG>Type</STRONG> a la valeur <STRONG>adTypeBinary</STRONG>), utilisez la méthode <A href="write-method-ado.md">Write</A>.</P>
+> La méthode **WriteText** est utilisée avec des flux de texte ([Type](type-property-ado-stream.md) a la valeur **adTypeText**). Pour les flux binaires (**Type** a la valeur **adTypeBinary**), utilisez la méthode [Write](write-method-ado.md).
 
 

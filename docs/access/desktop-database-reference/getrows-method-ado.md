@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249292(v=office.15)
 ms:contentKeyID: 48544963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b472f8e2cb7d95a3aa79194e7704a877864c1339
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 853f971f68bb0ec4069ba58e04b7cf9d231c6467
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920276"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949858"
 ---
 # <a name="getrows-method-ado"></a>GetRows, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Récupère plusieurs enregistrements d'un objet [Recordset](recordset-object-ado.md) dans un tableau.
 
@@ -31,17 +29,11 @@ Retourne une valeur de type **Variant** qui représente un tableau à deux dimen
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Lignes*
-
-  - Facultatif. Valeur [GetRowsOptionEnum](getrowsoptionenum.md) qui indique le nombre d'enregistrements à récupérer. La valeur par défaut est **adGetRowsRest**.
-
-  - *Début*
-
-  - Facultatif. Valeur de type **String** ou **Variant** qui correspond au signet de l'enregistrement à partir duquel l'opération **GetRows** doit commencer. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).
-
-  - *Champs*
-
-  - Facultatif. **Variant** qui représente un seul nom de champ ou position ordinale, ou un tableau de noms de champs ou de positions ordinales. ADO retourne uniquement les données de ces champs.
+|Paramètre|Description|
+|:--------|:----------|
+|*Lignes* |Facultatif. Valeur [GetRowsOptionEnum](getrowsoptionenum.md) qui indique le nombre d'enregistrements à récupérer. La valeur par défaut est **adGetRowsRest**.|
+|*Début* |Facultatif. Valeur de type **String** ou **Variant** qui correspond au signet de l'enregistrement à partir duquel l'opération **GetRows** doit commencer. Vous pouvez également utiliser une valeur [BookmarkEnum](bookmarkenum.md).|
+|*Champs* |Facultatif. **Variant** qui représente un seul nom de champ ou position ordinale, ou un tableau de noms de champs ou de positions ordinales. ADO retourne uniquement les données de ces champs.|
 
 ## <a name="remarks"></a>Notes
 

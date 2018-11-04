@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 23357443eeb479a6bdba2a3cc994de226290118a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: eb3f6795ba2e64ebd6be1b04d6aa6aecccef781b
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922621"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950089"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Méthode DBEngine.OpenDatabase (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 
 *expression* Variable qui représente un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -49,25 +48,25 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Nom d'un fichier de base de données Microsoft Access existant ou nom de source de données (DSN) d'une source de données ODBC. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour obtenir plus d'informations sur la définition de cette valeur.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Définit différentes options pour la base de données, selon les indications dans les notes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>True</strong> si vous souhaitez ouvrir la base de données avec un accès en lecture seule, ou <strong>False</strong> (valeur par défaut) si vous souhaitez ouvrir la base de données avec un accès en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connexion</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Spécifie les différentes informations de connexion, dont les mots de passe.</p></td>
@@ -76,7 +75,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Base de données
 
@@ -112,14 +111,13 @@ Lorsque vous ouvrez une base de données, elle est automatiquement ajoutée à l
 
 Certaines considérations s’appliquent lorsque vous utilisez NomBaseDonnées :
 
-  - S'il s'agit d'une base de données déjà ouverte pour un accès par un autre utilisateur, une erreur se produit.
+- S'il s'agit d'une base de données déjà ouverte pour un accès par un autre utilisateur, une erreur se produit.
 
-  - S'il ne s'agit pas d'une base de données existante ou d'un nom de source de données ODBC valide, une erreur se produit.
+- S'il ne s'agit pas d'une base de données existante ou d'un nom de source de données ODBC valide, une erreur se produit.
 
-  - S’il s’agit d’une chaîne de longueur nulle (« ») et *vous connecter* est « ODBC ; », une boîte de dialogue répertoriant les noms de source de données ODBC tous enregistrés s’affiche afin que l’utilisateur peut sélectionner une base de données.
+- S’il s’agit d’une chaîne de longueur nulle (« ») et *vous connecter* est « ODBC ; », une boîte de dialogue répertoriant les noms de source de données ODBC tous enregistrés s’affiche afin que l’utilisateur peut sélectionner une base de données.
 
 Pour fermer une base de données, et ainsi supprimer l'objet **Database** de la collection **Databases**, utilisez la méthode **[Close](connection-close-method-dao.md)** dans l'objet.
-
 
 > [!NOTE]
 > [!REMARQUE] Lorsque vous accédez à une source de données ODBC connectée au moteur de base de données Microsoft Access, vous pouvez améliorer les performances de votre application en ouvrant un objet **Database** connecté à la source de données ODBC, ce qui vous évite de lier des objets [TableDef](tabledef-object-dao.md) individuels à des tables spécifiques dans la source de données ODBC.

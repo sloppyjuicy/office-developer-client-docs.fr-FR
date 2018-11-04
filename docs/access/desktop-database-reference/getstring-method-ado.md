@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250242(v=office.15)
 ms:contentKeyID: 48548693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c6524c52ad3c4821d5b7987415f8a9c2dcb1b1d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2b4926b3568d6c7289ca9d3158a8723e016ed344
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919023"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949672"
 ---
 # <a name="getstring-method-ado"></a>GetString, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Retourne l'objet [Recordset](recordset-object-ado.md) sous la forme d'une chaîne.
 
@@ -31,25 +29,13 @@ Retourne l'objet **Recordset** sous la forme d'un type **Variant** avec une vale
 
 ## <a name="parameters"></a>Paramètres
 
-  - *StringFormat*
-
-  - Valeur [StringFormatEnum](stringformatenum.md) qui spécifie comment l’objet **Recordset** doit être converti en chaîne. Les paramètres  *DélimiteurLigne*, *DélimiteurColonne* et *ExprNull* sont utilisés uniquement avec un paramètre *FormatChaîne * affecté de la valeur **adClipString**.
-
-  - *NumRows*
-
-  - Facultatif. Nombre de lignes à convertir dans l'objet **RecordSet**. Si *NumRows* n’est pas spécifié, ou si elle est supérieure au nombre total de lignes dans le **jeu d’enregistrements**, toutes les lignes dans le **jeu d’enregistrements** sont convertis.
-
-  - *ColumnDelimiter*
-
-  - Facultatif. Délimiteur utilisé entre les colonnes, s'il est spécifié ; sinon, le caractère de tabulation.
-
-  - *RowDelimiter*
-
-  - Facultatif. Délimiteur utilisé entre les lignes, s'il est spécifié ; sinon, le caractère de retour chariot.
-
-  - *NullExpr*
-
-  - Facultatif. Expression utilisée à la place d'une valeur NULL, si elle est spécifiée ; sinon, la chaîne vide.
+|Paramètre|Description|
+|:--------|:----------|
+|*StringFormat* |Valeur [StringFormatEnum](stringformatenum.md) qui spécifie comment l’objet **Recordset** doit être converti en chaîne. Les paramètres  *DélimiteurLigne*, *DélimiteurColonne* et *ExprNull* sont utilisés uniquement avec un paramètre *FormatChaîne * affecté de la valeur **adClipString**.|
+|*NumRows* |Facultatif. Nombre de lignes à convertir dans l'objet **RecordSet**. Si *NumRows* n’est pas spécifié, ou si elle est supérieure au nombre total de lignes dans le **jeu d’enregistrements**, toutes les lignes dans le **jeu d’enregistrements** sont convertis.|
+|*ColumnDelimiter* |Facultatif. Délimiteur utilisé entre les colonnes, s'il est spécifié ; sinon, le caractère de tabulation.|
+|*RowDelimiter* |Facultatif. Délimiteur utilisé entre les lignes, s'il est spécifié ; sinon, le caractère de retour chariot.|
+|*NullExpr* |Facultatif. Expression utilisée à la place d'une valeur NULL, si elle est spécifiée ; sinon, la chaîne vide.|
 
 ## <a name="remarks"></a>Notes
 

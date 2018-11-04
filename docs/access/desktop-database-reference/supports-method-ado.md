@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249059(v=office.15)
 ms:contentKeyID: 48543924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6ac3d3e1be9ff703a0e11435b776eabeb15b30eb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4aa04cf3d04b71e0a84279bfc5340e7ee326de48
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920626"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949625"
 ---
 # <a name="supports-method-ado"></a>Supports, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,9 +29,9 @@ Renvoie une valeur de **type Boolean** qui indique si toutes les fonctionnalité
 
 ## <a name="parameters"></a>Paramètres
 
-  - *CursorOptions*
-
-  - Expression de type **Long** comportant une ou plusieurs valeurs [CursorOptionEnum](cursoroptionenum.md).
+|Paramètre|Description|
+|:--------|:----------|
+|*CursorOptions* |Expression de type **Long** comportant une ou plusieurs valeurs [CursorOptionEnum](cursoroptionenum.md).|
 
 ## <a name="remarks"></a>Notes
 
@@ -40,6 +39,6 @@ Utilisez la méthode **Supports** pour déterminer les types de fonctionnalités
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Même si la méthode <STRONG>Supports</STRONG> peut retourner la valeur <STRONG>True</STRONG> pour une fonctionnalité déterminée, cela ne signifie pas pour autant que le fournisseur peut rendre la fonctionnalité disponible en toutes circonstances. La méthode <STRONG>Supports</STRONG> indique simplement si le fournisseur peut prendre en charge la fonctionnalité spécifiée, en partant du principe que certaines conditions sont remplies. Par exemple, la méthode <STRONG>Supports</STRONG> peut indiquer qu'un objet <STRONG>Recordset</STRONG> prend en charge les mises à jour même si le curseur est basé sur une jointure de plusieurs tables, dont certaines colonnes ne peuvent pas être mises à jour.</P>
+> [!REMARQUE] Même si la méthode **Supports** peut retourner la valeur **True** pour une fonctionnalité déterminée, cela ne signifie pas pour autant que le fournisseur peut rendre la fonctionnalité disponible en toutes circonstances. La méthode **Supports** indique simplement si le fournisseur peut prendre en charge la fonctionnalité spécifiée, en partant du principe que certaines conditions sont remplies. Par exemple, la méthode **Supports** peut indiquer qu'un objet **Recordset** prend en charge les mises à jour même si le curseur est basé sur une jointure de plusieurs tables, dont certaines colonnes ne peuvent pas être mises à jour.
 
 

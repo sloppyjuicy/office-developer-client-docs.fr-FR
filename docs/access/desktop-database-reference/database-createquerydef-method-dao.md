@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7e6a6fe546f862f2452ac992c140a63959e48a6b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1c4aaf826785a7c8033077ee76aed4d232e3a2a0
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919744"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950243"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Méthode Database.CreateQueryDef (DAO)
 
@@ -25,7 +25,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 *expression* Variable qui représente un objet de **base de données** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -44,13 +44,13 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>SQLText</p></td>
+<td><p><em>SQLText</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui représente une instruction SQL définissant l’objet <strong>QueryDef</strong>. Si vous ne spécifiez pas cet argument, vous pouvez définir l’objet <strong>QueryDef</strong> en paramétrant sa propriété <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> avant ou après son ajout à une collection.</p></td>
@@ -59,7 +59,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Objet QueryDef
 

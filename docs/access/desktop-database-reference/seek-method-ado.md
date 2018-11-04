@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee2dbaf7dd3a15cf6cd415af208ec10a14fc9c9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923377"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949711"
 ---
 # <a name="seek-method-ado"></a>Seek, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Effectue une recherche dans l'index d'un objet [Recordset](recordset-object-ado.md) pour retrouver rapidement la ligne qui correspond aux valeurs spécifiées et faire de cette ligne la position de ligne active.
 
@@ -28,13 +25,10 @@ Effectue une recherche dans l'index d'un objet [Recordset](recordset-object-ado.
 
 ## <a name="parameters"></a>Paramètres
 
-  - *KeyValues*
-
-  - Tableau de valeurs de type **Variant**. Un index se compose d'une ou plusieurs colonnes et le tableau contient une valeur à comparer à chaque colonne correspondante.
-
-  - *SeekOption*
-
-  - Valeur [SeekEnum](seekenum.md) qui spécifie le type de comparaison à effectuer entre les colonnes de l’index et les *ValeursClés* correspondantes.
+|Paramètre|Description|
+|:--------|:----------|
+|*KeyValues* |Tableau de valeurs de type **Variant**. Un index se compose d'une ou plusieurs colonnes et le tableau contient une valeur à comparer à chaque colonne correspondante.|
+|*SeekOption* |Valeur [SeekEnum](seekenum.md) qui spécifie le type de comparaison à effectuer entre les colonnes de l’index et les *ValeursClés* correspondantes.|
 
 ## <a name="remarks"></a>Notes
 

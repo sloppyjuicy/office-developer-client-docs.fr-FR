@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e898a089843774792b1ed48cea65086331a94ec6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: df7533376bf6f6d3c5387173a90c7d5e1a5013cd
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931217"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950046"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Méthode DBEngine.CompactDatabase (DAO)
 
@@ -32,7 +32,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 
 *expression* Expression qui renvoie un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -51,19 +51,19 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NomSource</p></td>
+<td><p><em>NomSource</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Identifie une base de données existante et fermée. Il peut être un chemin d’accès complet et le nom de fichier, tel que &quot;C:\db1.mdb&quot;. Si le nom de fichier doté d’une extension, vous devez le spécifier. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p>NomDest</p></td>
+<td><p><em>NomDest</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>nom de fichier (et chemin d’accès) de la base de données compactée que vous créez. Vous pouvez également spécifier un chemin d’accès réseau. Vous ne pouvez pas utiliser cet argument pour spécifier le même fichier de base de données que NomSource.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ParamètresRégionauxDst</p></td>
+<td><p><em>ParamètresRégionauxDst</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Expression de chaîne qui indique un ordre de classement pour la création de NomDest, de la façon décrite dans la section Remarques.</p>
@@ -74,21 +74,16 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Facultatif. Constante ou combinaison de constantes qui indique une ou plusieurs options, comme indiqué dans la section Remarques. Vous pouvez combiner des options en associant les constantes correspondantes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>password</p></td>
+<td><p><em>mot de passe</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
-<td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p>
-
-> [!NOTE]
-> Cela est le paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.
-
-
+<td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p><p><strong>Remarque</strong>: il s’agit du paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
 </td>
 </tr>
 </tbody>

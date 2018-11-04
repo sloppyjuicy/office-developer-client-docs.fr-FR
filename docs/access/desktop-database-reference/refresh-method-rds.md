@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
 ms:contentKeyID: 48546450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b52d6a4250f19709dd72dbedd516c9a88c0522c7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d49b91f129a0661c5c81243bb405de9088b1e06d
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926289"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950117"
 ---
 # <a name="refresh-method-rds"></a>Refresh, méthode (RDS)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,9 +25,9 @@ Interroge à nouveau la source de données spécifiée dans la propriété [Conn
 
 ## <a name="parameters"></a>Paramètres
 
-  - *DataControl*
-
-  - Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).
+|Paramètre|Description|
+|:--------|:----------|
+|*DataControl* |Une variable objet qui représente un objet [RDS.DataControl](datacontrol-object-rds.md).|
 
 ## <a name="remarks"></a>Notes
 

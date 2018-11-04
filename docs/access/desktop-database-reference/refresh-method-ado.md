@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4bbc44dbb9cdfeaac0904ed5296db206016211d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d7548a31518f225c15dbf0e9a6de2b82c66c72af
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922761"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950138"
 ---
 # <a name="refresh-method-ado"></a>Refresh, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -36,17 +35,14 @@ Affectez un objet [Connection](activeconnection-property-ado.md) valide à la pr
 
 Si vous accédez à la collection **Parameters** avant d'appeler la méthode **Refresh**, ADO appelle automatiquement cette méthode et remplit la collection.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si vous utilisez la méthode <STRONG>Refresh</STRONG> pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets <A href="parameter-object-ado.md">Parameter</A> qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété <A href="size-property-ado.md">Size</A> de ces paramètres avant d'appeler la méthode <A href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute</A>.</P>
+> [!REMARQUE] Si vous utilisez la méthode **Refresh** pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets [Parameter](parameter-object-ado.md) qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété [Size](size-property-ado.md) de ces paramètres avant d'appeler la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
-
-
-Collection **Fields**
+### <a name="fields"></a>Fields
 
 L'application de la méthode **Refresh** à la collection **Fields** ne produit aucun effet visible. Pour extraire des modifications de la structure de base de données sous-jacente , vous devez utiliser la méthode [Requery](requery-method-ado.md) ou, si l'objet [Recordset](recordset-object-ado.md) ne prend pas en charge les signets, la méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md).
 
-Collection **Properties**
+### <a name="properties"></a>Propriétés
 
 L'application de la méthode **Refresh** à la collection **Properties** de certains objets remplit cette collection de propriétés dynamiques exposées par le fournisseur. Ces propriétés fournissent des informations sur les fonctionnalités propres au fournisseur, au-delà des propriétés intégrées prises en charge par ADO.
 

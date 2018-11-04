@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d08b596afb24fff430c6c662a557da1880addefa
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921179"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950080"
 ---
 # <a name="createobject-method-rds"></a>CreateObject, méthode (RDS)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Crée le proxy pour l'objet métier cible et retourne un pointeur vers ce proxy. Le proxy procède à l'empaquetage des données et à leur marshaling sur le stub côté serveur afin d'autoriser les communications avec l'objet métier et d'envoyer des requêtes et des données sur Internet. Pour les objets de composant in-process, aucun proxy n'est utilisé, seul un pointeur vers l'objet est fourni.
 
@@ -59,21 +57,12 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Object*
-
-  - Variable objet correspondant à un objet du type spécifié dans *ProgID*.
-
-  - *DataSpace*
-
-  - Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.
-
-  - *ProgID*
-
-  - Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.
-
-  - *awebsrvr* ou *computername*
-
-  - Une valeur de **type String** qui représente une URL qui identifie le serveur web Internet Information Services (IIS) où une instance de l’objet métier du serveur est créée.
+|Paramètre|Description|
+|:--------|:----------|
+|*Objet* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
+|*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
+|*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
+|*awebsrvr* ou *computername* |Une valeur de **type String** qui représente une URL qui identifie le serveur web Internet Information Services (IIS) où une instance de l’objet métier du serveur est créée.|
 
 ## <a name="remarks"></a>Remarques
 

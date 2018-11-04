@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249416(v=office.15)
 ms:contentKeyID: 48545420
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2e998bb49fab57927a8bb233d9eeb3245a1a3876
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ce946d3354f6bbf05ac3819efc5f96c436fa174
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929936"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25950124"
 ---
 # <a name="updatebatch-method-ado"></a>UpdateBatch, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,9 +25,9 @@ ms.locfileid: "25929936"
 
 ## <a name="parameters"></a>Paramètres
 
-  - *AffectRecords*
-
-  - Facultatif. Valeur [AffectEnum](affectenum.md) indiquant le nombre d'enregistrements affectés par la méthode **UpdateBatch**.
+|Paramètre|Description|
+|:--------|:----------|
+|*AffectRecords* |Facultatif. Valeur [AffectEnum](affectenum.md) indiquant le nombre d'enregistrements affectés par la méthode **UpdateBatch**.|
 
 ## <a name="remarks"></a>Notes
 
@@ -36,11 +35,8 @@ Utilisez la méthode **UpdateBatch** lorsque vous modifiez un objet **Recordset*
 
 Si l'objet **Recordset** prend en charge la mise à jour par lot, vous pouvez mettre localement en cache plusieurs modifications apportées à un ou plusieurs enregistrements, jusqu'à ce que vous appeliez la méthode **UpdateBatch**. Si vous modifiez l'enregistrement actif ou si vous ajoutez un nouvel enregistrement lorsque vous appelez la méthode **UpdateBatch**, ADO appelle automatiquement la méthode [Update](update-method-ado.md) pour enregistrer les modifications en attente apportées à l'enregistrement actif avant de transmettre les modifications par lot au fournisseur. Vous ne devez utiliser la mise à jour par lot qu'avec un curseur statique ou jeu de clés.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si vous spécifiez <STRONG>adAffectGroup</STRONG> comme valeur de ce paramètre, une erreur est générée lorsqu'il n'y a pas d'enregistrement visible dans l'objet <STRONG>Recordset</STRONG> actif (par exemple, un filtre qui ne donne aucun enregistrement correspondant).</P>
-
-
+> [!REMARQUE] Si vous spécifiez **adAffectGroup** comme valeur de ce paramètre, une erreur est générée lorsqu'il n'y a pas d'enregistrement visible dans l'objet **Recordset** actif (par exemple, un filtre qui ne donne aucun enregistrement correspondant).
 
 Si la transmission des modifications échoue pour un ou tous les enregistrements en raison d’un conflit avec les données sous-jacentes (par exemple, un enregistrement déjà supprimé par un autre utilisateur), le fournisseur renvoie des avertissements dans la collection [Errors](errors-collection-ado.md) et une erreur d’exécution est générée. Utilisez les propriétés [Filter](filter-property-ado.md) (**adFilterAffectedRecords**) et [Status](status-property-ado-recordset.md) pour rechercher les enregistrements à l’origine de conflits.
 

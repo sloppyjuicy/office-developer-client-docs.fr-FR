@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 062a4a319073ccf8f2810205973c11a845e2cc6f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 492602d7150f3080df329d30a38e3af51755cf0f
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925232"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949501"
 ---
 # <a name="server-property-rds"></a>Server, propriété (RDS)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -42,17 +41,11 @@ Vous pouvez définir la propriété **Server** à la conception dans les balises
 
 ## <a name="parameters"></a>Paramètres
 
-*awebsrvr* ou *computername*
-
-- Une valeur **String** qui contient un chemin d'accès Internet ou intranet, un nom d'ordinateur (si le serveur se trouve sur un ordinateur distant) ou une chaîne vide si le serveur se trouve sur l'ordinateur local.
-
-*port*
-
-- Facultatif. Un port utilisé pour se connecter à un serveur IIS. Le numéro du port est défini dans Internet Explorer (dans le menu **Outils**, cliquez sur **Options Internet** et sélectionnez l'onglet **Connexion** ) ou dans IIS.
-
-*DataControl*
-
-- Une variable objet qui représente un objet **RDS.DataControl**.
+|Paramètre|Description|
+|:--------|:----------|
+|*awebsrvr* ou *computername* |Une valeur **String** qui contient un chemin d'accès Internet ou intranet, un nom d'ordinateur (si le serveur se trouve sur un ordinateur distant) ou une chaîne vide si le serveur se trouve sur l'ordinateur local.|
+|*port* |Facultatif. Un port utilisé pour se connecter à un serveur IIS. Le numéro du port est défini dans Internet Explorer (dans le menu **Outils**, cliquez sur **Options Internet** et sélectionnez l'onglet **Connexion** ) ou dans IIS.|
+|*DataControl* |Une variable objet qui représente un objet **RDS.DataControl**.|
 
 ## <a name="remarks"></a>Remarques
 

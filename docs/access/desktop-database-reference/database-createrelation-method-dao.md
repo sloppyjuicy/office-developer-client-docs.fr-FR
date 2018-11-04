@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 45d2835f4745a26d60c57c950ca1a48a9b47cd77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2a1ad7798fc6236f95d31c18cd864fe64e7a3fd8
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927004"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949925"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Méthode Database.CreateRelation (DAO)
 
@@ -29,7 +29,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 
 *expression* Variable qui représente un objet de **base de données** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -48,25 +48,25 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</p></td>
 </tr>
 <tr class="even">
-<td><p>Table</p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ForeignTable</p></td>
+<td><p><em>ForeignTable</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table étrangère dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributs</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Constante ou combinaison de constantes contenant des informations sur le type de relation. Pour plus d’informations, consultez la propriété <strong><a href="field-attributes-property-dao.md">Attributes</a></strong>.</p></td>
@@ -75,7 +75,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Relation
 

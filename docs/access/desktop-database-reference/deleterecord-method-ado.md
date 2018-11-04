@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249895(v=office.15)
 ms:contentKeyID: 48547370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69cd8a265688db56d3685c1b2e03bc1c1db6a785
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5f63828a5c1f507ed33b66e905f49163f6b9995
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922796"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949922"
 ---
 # <a name="deleterecord-method-ado"></a>DeleteRecord, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Supprime une entité représentée par un objet [Record](record-object-ado.md).
 
@@ -28,20 +25,16 @@ Supprime une entité représentée par un objet [Record](record-object-ado.md).
 
 ## <a name="parameters"></a>Paramètres
 
-  - *Source*
-
-  - Facultatif. Valeur de type **String** contenant l’URL qui identifie l’entité (par exemple, le fichier ou le répertoire) à supprimer. Si le paramètre *Source* est omis ou spécifie une chaîne vide, l’entité représentée par l’objet [Record](record-object-ado.md) actif est supprimée. Si l’objet Record est un enregistrement de collection (propriété [RecordType](recordtype-property-ado.md) avec la valeur **adCollectionRecord**, tel qu’un répertoire) tous les enfants (par exemple les sous-répertoires) seront également supprimés.
-
-  - *Async*
-
-  - Facultatif. Valeur de type **Boolean**. Si sa valeur est **True**, spécifie que l'opération de suppression est asynchrone.
+|Paramètre|Description|
+|:--------|:----------|
+|*Source* |Facultatif. Valeur de type **String** contenant l’URL qui identifie l’entité (par exemple, le fichier ou le répertoire) à supprimer. Si le paramètre *Source* est omis ou spécifie une chaîne vide, l’entité représentée par l’objet [Record](record-object-ado.md) actif est supprimée. Si l’objet Record est un enregistrement de collection (propriété [RecordType](recordtype-property-ado.md) avec la valeur **adCollectionRecord**, tel qu’un répertoire) tous les enfants (par exemple les sous-répertoires) seront également supprimés.|
+|*Async* |Facultatif. Valeur de type **Boolean**. Si sa valeur est **True**, spécifie que l'opération de suppression est asynchrone.|
 
 ## <a name="remarks"></a>Notes
 
 Opérations sur l’objet représenté par cet **enregistrement** peuvent échouer une fois cette méthode terminée. Après avoir appelé **DeleteRecord**, l' **enregistrement** doit être fermé car le comportement de l' **enregistrement** peut devenir imprévisible selon le moment où le fournisseur met à jour l' **enregistrement** de la source de données.
 
 Si cet **enregistrement** a été obtenue à partir d’un [jeu d’enregistrements](recordset-object-ado.md), puis les résultats de cette opération ne seront pas reflétées immédiatement dans le **jeu d’enregistrements**. Actualiser le **jeu d’enregistrements** en fermant et en ouvrant de nouveau ou en exécutant les méthodes **Recordset** [Requery](requery-method-ado.md)ou [Update](update-method-ado.md) et [Resync](resync-method-ado.md) .
-
 
 > [!NOTE]
 > [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).

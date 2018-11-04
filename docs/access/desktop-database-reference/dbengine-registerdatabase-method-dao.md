@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 767bd146de7a5568d7441024adb9ad6816cb806e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8310f695bdcf229e61e09bce6c0846f9520c0fc6
+ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923510"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "25949865"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>Méthode DBEngine.RegisterDatabase (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Entre les informations de connexion pour une source de données ODBC dans le Registre Windows. Le pilote ODBC a besoin des informations de connexion lorsque la source de données ODBC est ouverte au cours d'une session.
 
@@ -31,7 +29,7 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 
 *expression* Variable qui représente un objet **DBEngine** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -50,25 +48,25 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DSN</p></td>
+<td><p><em>DSN</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Nom utilisé dans la méthode <strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong>. Il désigne un bloc d’informations descriptives se rapportant à la source de données. Par exemple, si la source de données est une base de données distante ODBC, il peut s’agir du nom du serveur.</p></td>
 </tr>
 <tr class="even">
-<td><p>Pilote</p></td>
+<td><p><em>Pilote</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Nom du pilote ODBC. Il ne s'agit pas du fichier DLL du pilote ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>En mode silencieux</p></td>
+<td><p><em>En mode silencieux</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Boolean</strong></p></td>
 <td><p><strong>True</strong> si vous ne souhaitez pas afficher les boîtes de dialogue de pilote ODBC qui demandent des informations spécifiques au pilote ; ou <strong>False</strong> si vous souhaitez afficher les boîtes de dialogue du pilote ODBC. Si en mode silencieux a la <strong>valeur True</strong>, les attributs doivent contenir toutes les informations spécifiques au pilote nécessaires ou les boîtes de dialogue sont affichées.</p></td>
 </tr>
 <tr class="even">
-<td><p>Attributs</p></td>
+<td><p><em>Attributes</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Liste de mots clés à ajouter au registre Windows. Les mots clés se trouvent dans une chaîne délimitée par des retours chariot.</p></td>
