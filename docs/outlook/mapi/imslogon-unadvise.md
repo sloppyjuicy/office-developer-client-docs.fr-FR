@@ -23,7 +23,7 @@ ms.locfileid: "25387633"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Supprime l’inscription d’un objet pour la notification des modifications de banque de messages précédemment établie à l’aide d’un appel à la méthode [IMSLogon::Advise](imslogon-advise.md) . 
   
