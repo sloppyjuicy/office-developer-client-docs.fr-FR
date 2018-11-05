@@ -23,7 +23,7 @@ ms.locfileid: "25386564"
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Journaux MAPI sur une instance d’un fournisseur de magasin de message.
   

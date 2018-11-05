@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: 41d953db8e00ff52cd09a27e2f7550f9f1879321
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25386221"
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Lorsque MAPI ou le spouleur MAPI est terminée à l’aide d’un objet de connexion de transport :
   

@@ -21,7 +21,7 @@ ms.locfileid: "25400116"
 # <a name="iconvertersessionmapitomimestm"></a>IConverterSession::MAPIToMIMEStm
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Convertit un message MAPI à un flux de données MIME.
   
@@ -128,7 +128,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 [Propriété canonique PidTagMessageEditorFormat](pidtagmessageeditorformat-canonical-property.md)
   
-[Propri�t� canonique PidLidUseTnef](pidlidusetnef-canonical-property.md)
+[Propriété canonique PidLidUseTnef](pidlidusetnef-canonical-property.md)
 
 
 [Constantes MAPI](mapi-constants.md)
