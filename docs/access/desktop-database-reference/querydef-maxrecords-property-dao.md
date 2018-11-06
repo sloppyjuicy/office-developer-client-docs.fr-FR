@@ -10,42 +10,37 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0156983a455c72e4046424def188e41b94705087
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927119"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998224"
 ---
-# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="38a3c-102">Propriété QueryDef.MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="38a3c-102">QueryDef.MaxRecords property (DAO)</span></span>
+# <a name="querydefmaxrecords-property-dao"></a><span data-ttu-id="c3b4a-102">Propriété QueryDef.MaxRecords (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3b4a-102">QueryDef.MaxRecords property (DAO)</span></span>
 
+<span data-ttu-id="c3b4a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3b4a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="38a3c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="38a3c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c3b4a-104">Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="c3b4a-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
 
+## <a name="syntax"></a><span data-ttu-id="c3b4a-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c3b4a-105">Syntax</span></span>
 
-<span data-ttu-id="38a3c-104">Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="38a3c-104">Sets or returns the maximum number of records to return from a query against an ODBC data source.</span></span>
+<span data-ttu-id="c3b4a-106">*expression* . MaxRecords</span><span class="sxs-lookup"><span data-stu-id="c3b4a-106">*expression* .MaxRecords</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="38a3c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="38a3c-105">Syntax</span></span>
+<span data-ttu-id="c3b4a-107">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="c3b4a-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-<span data-ttu-id="38a3c-106">*expression* . MaxRecords</span><span class="sxs-lookup"><span data-stu-id="38a3c-106">*expression* .MaxRecords</span></span>
+## <a name="remarks"></a><span data-ttu-id="c3b4a-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="c3b4a-108">Remarks</span></span>
 
-<span data-ttu-id="38a3c-107">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="38a3c-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="c3b4a-109">La valeur par défaut est 0, indiquant que le nombre d'enregistrements renvoyés est illimité.</span><span class="sxs-lookup"><span data-stu-id="c3b4a-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="38a3c-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="38a3c-108">Remarks</span></span>
-
-<span data-ttu-id="38a3c-109">La valeur par défaut est 0, indiquant que le nombre d'enregistrements renvoyés est illimité.</span><span class="sxs-lookup"><span data-stu-id="38a3c-109">The default value is 0, indicating no limit on the number of records returned.</span></span>
-
-<span data-ttu-id="38a3c-p101">Une fois que le nombre de lignes spécifié par **MaxRecords** est renvoyé à votre application dans un objet **[Recordset](recordset-object-dao.md)**, le gestionnaire de requêtes arrête son traitement même si d'autres enregistrements pourraient être inclus dans l'objet **Recordset**. Cette propriété est utile dans les cas où les ressources client limitées empêchent la gestion de grandes quantités d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="38a3c-p101">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**. This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
-
+<span data-ttu-id="c3b4a-p101">Une fois que le nombre de lignes spécifié par **MaxRecords** est renvoyé à votre application dans un objet **[Recordset](recordset-object-dao.md)**, le gestionnaire de requêtes arrête son traitement même si d'autres enregistrements pourraient être inclus dans l'objet **Recordset**. Cette propriété est utile dans les cas où les ressources client limitées empêchent la gestion de grandes quantités d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="c3b4a-p101">Once the number of rows specified by **MaxRecords** is returned to your application in a **[Recordset](recordset-object-dao.md)**, the query processor will stop returning additional records even if more records would qualify for inclusion in the **Recordset**. This property is useful in situations where limited client resources prohibit management of large numbers of records.</span></span>
 
 > [!NOTE]
-> <P><span data-ttu-id="38a3c-112">[!REMARQUE] La propriété <STRONG>MaxRecords</STRONG> est compatible uniquement avec une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="38a3c-112">The <STRONG>MaxRecords</STRONG> property can only be used with an ODBC data source.</span></span></P>
+> <span data-ttu-id="c3b4a-112">[!REMARQUE] La propriété **MaxRecords** est compatible uniquement avec une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="c3b4a-112">The **MaxRecords** property can only be used with an ODBC data source.</span></span>
 
+## <a name="example"></a><span data-ttu-id="c3b4a-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="c3b4a-113">Example</span></span>
 
-
-## <a name="example"></a><span data-ttu-id="38a3c-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="38a3c-113">Example</span></span>
-
-<span data-ttu-id="38a3c-114">Cet exemple utilise la propriété **MaxRecords** pour limiter le nombre maximal des enregistrements renvoyés par une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="38a3c-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
+<span data-ttu-id="c3b4a-114">Cet exemple utilise la propriété **MaxRecords** pour limiter le nombre maximal des enregistrements renvoyés par une requête sur une source de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="c3b4a-114">This example uses the **MaxRecords** property to set a limit on how many records are returned by a query on an ODBC data source.</span></span>
 
 ```vb 
 Sub MaxRecordsX() 
