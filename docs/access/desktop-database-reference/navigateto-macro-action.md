@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9d8747c5c4fd1a32a36841f648017bc0cab3de8f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7da3eb87e775a6b02694910cd017c9535fde1df7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920808"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998279"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -52,52 +51,50 @@ L'action **AccéderA** possède les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
-  - Cette action équivaut à sélectionner des catégories et des groupes dans la barre de titre du volet de navigation.
+- Cette action équivaut à sélectionner des catégories et des groupes dans la barre de titre du volet de navigation.
 
-  - La validité des arguments **Groupe** dépend de l'argument **Catégorie** utilisé. Si vous entrez un argument **Groupe** non valide, un message d'erreur s'affiche.Le tableau ci-dessous contient des exemples d'arguments **Groupe** valides pour chaque argument **Catégorie**.
+- La validité des arguments **Groupe** dépend de l'argument **Catégorie** utilisé. Si vous entrez un argument **Groupe** non valide, un message d'erreur s'affiche.Le tableau ci-dessous contient des exemples d'arguments **Groupe** valides pour chaque argument **Catégorie**.
     
-    <table>
-    <colgroup>
-    <col style="width: 50%" />
-    <col style="width: 50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><p>Argument Catégorie</p></th>
-    <th><p>Exemples d’arguments Groupe</p></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><p>Type d'objet</p></td>
-    <td><p>Tables, Formulaires, Requêtes, Pages, Macros, Modules</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Tables et affichages</p></td>
-    <td><p>Noms de tables donnés dans la base de données</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Modifié le</p></td>
-    <td><p>Aujourd'hui, Hier, Le mois dernier, Avant le mois dernier</p></td>
-    </tr>
-    <tr class="even">
-    <td><p>Créé le</p></td>
-    <td><p>Aujourd’hui, Hier, Le mois dernier, Avant le mois dernier</p></td>
-    </tr>
-    <tr class="odd">
-    <td><p>Catégorie personnalisée</p></td>
-    <td><p>Noms des groupes que vous avez créés pour la catégorie personnalisée spécifiée</p></td>
-    </tr>
-    </tbody>
-    </table>
+  <table>
+  <colgroup>
+  <col style="width: 50%" />
+  <col style="width: 50%" />
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th><p>Argument Catégorie</p></th>
+  <th><p>Exemples d’arguments Groupe</p></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td><p>Type d'objet</p></td>
+  <td><p>Tables, Formulaires, Requêtes, Pages, Macros, Modules</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Tables et affichages</p></td>
+  <td><p>Noms de tables donnés dans la base de données</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Modifié le</p></td>
+  <td><p>Aujourd'hui, Hier, Le mois dernier, Avant le mois dernier</p></td>
+  </tr>
+  <tr class="even">
+  <td><p>Créé le</p></td>
+  <td><p>Aujourd’hui, Hier, Le mois dernier, Avant le mois dernier</p></td>
+  </tr>
+  <tr class="odd">
+  <td><p>Catégorie personnalisée</p></td>
+  <td><p>Noms des groupes que vous avez créés pour la catégorie personnalisée spécifiée</p></td>
+  </tr>
+  </tbody>
+  </table>
 
-
-  - Pour exécuter l'action **AccéderA** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **NavigateTo** de l'objet **DoCmd**.
-
+- Pour exécuter l'action **AccéderA** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **NavigateTo** de l'objet **DoCmd**.
 
 > [!NOTE]
-> <P>[!REMARQUE] Pour accéder au niveau supérieur d'une catégorie ( <STRONG>Toutes les tables</STRONG>, <STRONG>Tous les objets Access</STRONG> ou <STRONG>Toutes les dates</STRONG>, par exemple), vous devez laisser l'argument Groupe vide. Par exemple, lorsque l'argument <STRONG>Catégorie</STRONG> est défini sur <STRONG>Type d'objet</STRONG>, choisir <STRONG>Tous les objets Access</STRONG> en tant qu'argument <STRONG>Groupe</STRONG> génère une erreur.</P>
+> [!REMARQUE] Pour accéder au niveau supérieur d'une catégorie ( **Toutes les tables**, **Tous les objets Access** ou **Toutes les dates**, par exemple), vous devez laisser l'argument Groupe vide. Par exemple, lorsque l'argument **Catégorie** est défini sur **Type d'objet**, choisir **Tous les objets Access** en tant qu'argument **Groupe** génère une erreur.
 
 

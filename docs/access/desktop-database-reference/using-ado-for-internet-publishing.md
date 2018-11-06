@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248975(v=office.15)
 ms:contentKeyID: 48543622
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 22f89b4fb22e7625f73eb938aa011beb42c6b99c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: e63e765461eec1c89f3e3dc04d35f1bf88a3c578
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944346"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997622"
 ---
 # <a name="using-ado-for-internet-publishing"></a>Utilisation d’ADO pour la publication Internet
 
@@ -20,7 +20,7 @@ ms.locfileid: "25944346"
 
 
 
-Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Bien que les exemples de cette section sont spécifiques à l'utilisation d'un fournisseur pour la publication sur Internet, les principes démontrés sont généralement similaires si vous utilisez ADO avec d'autres fournisseurs de données hétérogènes, tels qu'un fournisseur de magasin de messages électroniques.
+Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Tandis que les exemples de cette section sont spécifiques à l’aide du fournisseur de publication Internet, les principes démontrés doivent être semblables lors de l’utilisation d’ADO avec d’autres fournisseurs de données hétérogènes, par exemple un fournisseur à un magasin de courrier électronique.
 
 ## <a name="urls"></a>URL
 

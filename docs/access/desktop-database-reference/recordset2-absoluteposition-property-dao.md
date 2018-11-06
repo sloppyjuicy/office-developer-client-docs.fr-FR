@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 6adf3e5ec2ec36163d4818411a1abc07e940b209
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 76137608ed5de0fbd2b841fba3101d70209c7a6d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922684"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998754"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Propriété Recordset2.AbsolutePosition (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -40,15 +39,9 @@ Si aucun enregistrement actif, en tant que lorsqu’il n’y a aucun enregistrem
 
 Vous ne devez pas utiliser cette propriété comme numéro d'enregistrement de substitution. La meilleure façon de conserver et revenir à une position donnée consiste à utiliser les signets. Ils constituent la seule possibilité de positionner l'enregistrement actif dans tous les types d'objets **Recordset2**. La position d'un enregistrement varie lorsqu'un ou plusieurs enregistrements qui le précèdent sont supprimés. Il n'existe aucune assurance qu'un enregistrement conservera la même position absolue si l'objet **Recordset2** est recréé car l'ordre des enregistrements individuels dans un objet **Recordset** n'est jamais garanti sauf s'il est créé avec une instruction SQL comportant une clause ORDER BY.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Si vous affectez une valeur supérieure à zéro à la propriété <STRONG>AbsolutePosition</STRONG> d'un objet <STRONG>Recordset2</STRONG> récemment ouvert mais toujours vide, une erreur piégeable se produit. Remplissez d'abord l'objet <STRONG>Recordset2</STRONG> avec la méthode <STRONG>MoveLast</STRONG>.</P>
-> <LI>
-> <P>La propriété <STRONG>AbsolutePosition</STRONG> n’est pas disponible sur les objets <STRONG>Recordset2</STRONG> de type avant uniquement ou les objets <STRONG>Recordset2</STRONG> ouverts à partir de requêtes directes sur des bases de données ODBC connectées au moteur de base de données Microsoft Access.</P></LI></UL>
-
-
+> - Si vous affectez une valeur supérieure à zéro à la propriété **AbsolutePosition** d'un objet **Recordset2** récemment ouvert mais toujours vide, une erreur piégeable se produit. Remplissez d'abord l'objet **Recordset2** avec la méthode **MoveLast**.
+> - La propriété **AbsolutePosition** n’est pas disponible sur les objets **Recordset2** de type avant uniquement ou les objets **Recordset2** ouverts à partir de requêtes directes sur des bases de données ODBC connectées au moteur de base de données Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

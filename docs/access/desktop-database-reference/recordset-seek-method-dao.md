@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b86713870efb2ed5974f462197cadc95df43fcb3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5df9c972095d61ff17fa2a405a6786c08dad74fc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920773"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997776"
 ---
 # <a name="recordsetseek-method-dao"></a>Méthode Recordset.Seek (DAO)
 
@@ -29,7 +29,7 @@ Localise l'enregistrement dans un objet **Recordset** de type table indexée en 
 
 *expression* Variable qui représente un objet **Recordset** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -41,20 +41,20 @@ Localise l'enregistrement dans un objet **Recordset** de type table indexée en 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Comparison</p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>L'une des expressions de chaîne suivantes : &lt;, &lt;=, =, &gt;= ou &gt;.</p></td>
 </tr>
 <tr class="even">
-<td><p>Key1, Key2...Key13</p></td>
+<td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser les arguments clés jusqu'à 13.</p></td>

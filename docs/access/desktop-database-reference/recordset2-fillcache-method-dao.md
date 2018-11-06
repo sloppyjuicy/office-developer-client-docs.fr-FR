@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 308d388b023b2697d1e7af52b47218eeb3d023f2
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: ef0f4ad298e316cbae295bcf4f6c4c5349b18655
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949529"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998531"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Méthode Recordset2.FillCache (DAO)
 
@@ -29,7 +29,7 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -41,20 +41,20 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lignes</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de la propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p>Signetdébut</p></td>
+<td><p><em>Signetdébut</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous ne spécifiez pas cet argument, le cache est rempli à partir de l’enregistrement indiqué par la propriété <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
@@ -75,15 +75,9 @@ Si les lignes et signetdébut créent une plage d’enregistrements qui sont par
 
 Si **FillCache** demande davantage d'enregistrements que le nombre encore présent dans la source de données distante, le moteur de base de données Microsoft Access extrait uniquement les enregistrements restants et aucune erreur n'est générée.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Les enregistrements extraits du cache ne reflètent pas les modifications simultanées effectuées par d'autres utilisateurs aux données de la source.</P>
-> <LI>
-> <P><STRONG>FillCache</STRONG> extrait uniquement les enregistrements qui ne sont pas encore mis en cache. Pour forcer la mise à jour de toutes les données en cache, affectez la valeur 0 à la propriété <STRONG>CacheSize</STRONG> de l'objet <STRONG>Recordset</STRONG>, réinitialisez le cache à la taille initialement demandée puis utilisez la méthode <STRONG>FillCache</STRONG>.</P></LI></UL>
-
-
+> - Les enregistrements extraits du cache ne reflètent pas les modifications simultanées effectuées par d'autres utilisateurs aux données de la source.
+> - **FillCache** extrait uniquement les enregistrements qui ne sont pas encore mis en cache. Pour forcer la mise à jour de toutes les données en cache, affectez la valeur 0 à la propriété **CacheSize** de l'objet **Recordset**, réinitialisez le cache à la taille initialement demandée puis utilisez la méthode **FillCache**.
 
 ## <a name="example"></a>Exemple
 

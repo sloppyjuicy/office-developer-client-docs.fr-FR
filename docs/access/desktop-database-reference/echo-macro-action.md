@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192516(v=office.15)
 ms:contentKeyID: 48544227
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 947e3569d52558cc154ea751ecce204d02cbf7ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 03eeab3884e093b7c22f8fd23d5471d1dc620bc8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921543"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997454"
 ---
 # <a name="echo-macro-action"></a>Echo, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -22,11 +21,8 @@ Vous pouvez utiliser l’action **écho** pour spécifier si l’écho est activ
 
 ## <a name="setting"></a>Paramètre
 
-
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.
 
 L’action **écho** possède les arguments suivants.
 
@@ -54,7 +50,7 @@ L’action **écho** possède les arguments suivants.
 </table>
 
 
-S’exécute une macro, la mise à jour souvent affiche des informations pas indispensable au fonctionnement de la macro. Lorsque vous définissez l’argument **Écho actif** sur **non**, la macro s’exécute sans mise à jour de l’écran. Une fois la macro terminée, Access automatiquement activer l’écho et redessine la fenêtre. Le paramètre **non** de l’argument **Écho actif** n’affecte pas la fonctionnalité de la macro ni ses résultats.
+Lors de l’exécution d’une macro, la mise à jour de l’écran affiche souvent des informations qui ne sont pas indispensables pour le fonctionnement de la macro. Lorsque vous définissez l’argument **Écho actif** sur **non**, la macro s’exécute sans mise à jour de l’écran. Une fois la macro terminée, Access automatiquement activer l’écho et redessine la fenêtre. Le paramètre **non** de l’argument **Écho actif** n’affecte pas la fonctionnalité de la macro ni ses résultats.
 
 L’action **écho** ne supprime pas l’affichage des boîtes de dialogue modales, telles que des formulaires indépendants, tels que des feuilles de propriétés ou des messages d’erreur. Vous pouvez utiliser les boîtes de dialogue et formulaires indépendants pour rassembler ou afficher plus d’informations, même si l’écho est désactivé. Pour supprimer toutes les boîtes de message ou, à l’exception des boîtes de dialogue qui exigent que l’utilisateur à entrer des informations et des boîtes de message d’erreur, utilisez l’action **avertissements** .
 
@@ -66,7 +62,7 @@ Pour exécuter l’action **écho** dans un module Visual Basic pour Application
 
 ## <a name="examples"></a>Exemples
 
-**Définissez la valeur d'un contrôle en utilisant une macro**
+### <a name="set-the-value-of-a-control-by-using-a-macro"></a>Définissez la valeur d'un contrôle en utilisant une macro
 
 La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton dans le formulaire Fournisseurs. Elle présente l'utilisation des actions **Écho**, **FermerFenêtre**, **OuvrirFormulaire**, **DéfinirValeur** et **AtteindreContrôle**. L'action **DéfinirValeur** définit le contrôle N° fournisseur dans le formulaire Produits sur le fournisseur actif dans le formulaire Fournisseurs. L'action **AtteindreContrôle** déplace ensuite le focus vers le champ N° catégorie, où vous pouvez commencer à entrer des données pour le nouveau produit. Cette macro doit être associée au bouton Ajouter des produits dans le formulaire Fournisseurs.
 
@@ -113,7 +109,7 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 </table>
 
 
-**Synchroniser des formulaires à l'aide d'une macro**
+### <a name="synchronize-forms-by-using-a-macro"></a>Synchroniser des formulaires à l'aide d'une macro
 
 La macro suivante ouvre le formulaire liste des produits dans le coin inférieur droit du formulaire fournisseurs, affichant les produits du fournisseur actif. Elle présente l'utilisation des actions **Écho**, **ZoneMessage**, **AtteindreContrôle**, **ArrêtMacro**, **OuvrirFormulaire** et **DéplacerEtDimensionnerFenêtre**. Elle décrit également l'utilisation d'une expression conditionnelle avec les actions **ZoneMessage**, **AtteindreContrôle**, et **ArrêtMacro**. Cette macro doit être associée au bouton Consulter les produits dans le formulaire Fournisseurs.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b44b7b858adca5672266eb1898213d8f28429f2e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b3d91af56dc37cf8719a241a35046d663f7c9d57
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931133"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998068"
 ---
 # <a name="users-collection-adox"></a>Users, collection (ADOX)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,20 +25,18 @@ La collection **Users** d'un [catalogue](catalog-object-adox.md) représente tou
 
 La méthode [Append](append-method-adox-users.md) d'une collection **Users** est unique pour ADOX. Vous pouvez :
 
-  - Ajouter un nouvel utilisateur à la collection à l'aide de la méthode **Append**.
+- Ajouter un nouvel utilisateur à la collection à l'aide de la méthode **Append**.
 
 Les propriétés et méthodes restantes sont des collections ADO standard. Vous pouvez :
 
-  - Accéder à un utilisateur de la collection à l'aide de la propriété [Item](item-property-ado.md).
+- Accéder à un utilisateur de la collection à l'aide de la propriété [Item](item-property-ado.md).
 
-  - Renvoyer le nombre d'utilisateurs de la collection à l'aide de la propriété [Count](count-property-ado.md).
+- Renvoyer le nombre d'utilisateurs de la collection à l'aide de la propriété [Count](count-property-ado.md).
 
-  - Supprimer un utilisateur de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
+- Supprimer un utilisateur de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
 
-  - Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
-
+- Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
 
 > [!NOTE]
-> <P>[!REMARQUE] Avant d'ajouter un objet <STRONG>User</STRONG> à la collection <STRONG>Users</STRONG> d'un objet <STRONG>Group</STRONG>, un objet <STRONG>User</STRONG> avec le même <A href="name-property-adox.md">nom</A> que celui à ajouter doit déjà exister dans la collection <STRONG>Users</STRONG> du <STRONG>catalogue</STRONG>.</P>
-
+> [!REMARQUE] Avant d'ajouter un objet **User** à la collection **Users** d'un objet **Group**, un objet **User** avec le même [nom](name-property-adox.md) que celui à ajouter doit déjà exister dans la collection **Users** du **catalogue**.
 

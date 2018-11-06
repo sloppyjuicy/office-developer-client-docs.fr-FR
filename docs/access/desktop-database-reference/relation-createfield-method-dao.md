@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 564cbae4669a0405a0e33d0e9770bbaa8f6c9dfb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8de2072e96ec00cab96dac19bd1af5889acd883a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929481"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999035"
 ---
 # <a name="relationcreatefield-method-dao"></a>Méthode Relation.CreateField (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 
 *expression* Variable qui représente un objet **Relation** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,26 +37,26 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Chaîne qui identifie de manière unique le nouvel objet <strong>Field</strong>. Reportez-vous à la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms valides pour l'objet <strong>Field</strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Argument non pris en charge pour cet objet.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Taille</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Argument non pris en charge pour cet objet.</p></td>
@@ -66,7 +65,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Champ
 

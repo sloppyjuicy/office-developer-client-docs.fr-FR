@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 165a2703b3b3715ace7326df31477f1f9293be12
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926212"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997391"
 ---
 # <a name="querydefexecute-method-dao"></a>Méthode QueryDef.Execute (DAO)
 
@@ -29,7 +29,7 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 
 *expression* Variable qui représente un objet **QueryDef** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -41,14 +41,14 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p></p></td>

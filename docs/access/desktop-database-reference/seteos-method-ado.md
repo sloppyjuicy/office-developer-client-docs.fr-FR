@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8eda32f026c0fb706f15da3760c3dba879aae9d6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b45e716844b3e616dfe5b8f94d69f29d6b0f1042
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928324"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997510"
 ---
 # <a name="seteos-method-ado"></a>SetEOS, méthode (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,8 +29,5 @@ Définit la position qui représente la fin du flux.
 
 Dans la mesure où les méthodes [Write](write-method-ado.md), [WriteText](writetext-method-ado.md) et [CopyTo](copyto-method-ado.md) ne tronquent aucune valeur supplémentaire dans les objets **Stream** existants, vous pouvez tronquer ces octets ou caractères en définissant la nouvelle position de fin de flux avec **SetEOS**.
 
-
 > [!WARNING]
-> <P>Si vous attribuez à la propriété <STRONG>EOS</STRONG> une position qui précède la fin du flux, vous perdrez toutes les données situées après la nouvelle position <STRONG>EOS</STRONG>.</P>
-
-
+> Si vous attribuez à la propriété **EOS** une position qui précède la fin du flux, vous perdrez toutes les données situées après la nouvelle position **EOS**.

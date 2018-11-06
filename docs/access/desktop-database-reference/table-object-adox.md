@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 78f1248042c540df94c6f993d2498d46c8ca593f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8984c799779f0024ff50e2814a5993119eb6205f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923244"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996796"
 ---
 # <a name="table-object-adox"></a>Table, objet (ADOX)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,27 +27,25 @@ Le code suivant permet de créer une nouvelle **table**:
 
 Avec les propriétés et collections d'un objet **Table**, vous pouvez :
 
-  - Identifier la table à l'aide de la propriété [Name](name-property-adox.md).
+- Identifier la table à l'aide de la propriété [Name](name-property-adox.md).
 
-  - Déterminer le type de la table à l'aide de la propriété [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)).
+- Déterminer le type de la table à l'aide de la propriété [Type](https://msdn.microsoft.com/library/jj250042\(v=office.15\)).
 
-  - Accéder aux colonnes de base de données de la table à l'aide de la collection [Columns](columns-collection-adox.md).
+- Accéder aux colonnes de base de données de la table à l'aide de la collection [Columns](columns-collection-adox.md).
 
-  - Accéder aux index de la table à l'aide de la collection [Indexes](indexes-collection-adox.md).
+- Accéder aux index de la table à l'aide de la collection [Indexes](indexes-collection-adox.md).
 
-  - Accéder aux clés de la table à l'aide de la collection [Keys](keys-collection-adox.md).
+- Accéder aux clés de la table à l'aide de la collection [Keys](keys-collection-adox.md).
 
-  - Spécifier le [catalogue](catalog-object-adox.md) auquel appartient la table à l'aide de la propriété [ParentCatalog](parentcatalog-property-adox.md).
+- Spécifier le [catalogue](catalog-object-adox.md) auquel appartient la table à l'aide de la propriété [ParentCatalog](parentcatalog-property-adox.md).
 
-  - Renvoyer des informations de date à l'aide des propriétés [DateCreated](datecreated-property-adox.md) et [DateModified](datemodified-property-adox.md).
+- Renvoyer des informations de date à l'aide des propriétés [DateCreated](datecreated-property-adox.md) et [DateModified](datemodified-property-adox.md).
 
-  - Accéder aux propriétés de table spécifiques au fournisseur à l'aide de la collection [Properties](properties-collection-ado.md).
+- Accéder aux propriétés de table spécifiques au fournisseur à l'aide de la collection [Properties](properties-collection-ado.md).
 
 
 > [!NOTE]
-> <P>[!REMARQUE] Votre fournisseur de données peut ne pas prendre en charge toutes les propriétés de l'objet <STRONG>Table</STRONG>. Une erreur survient si vous avez défini une valeur pour une propriété non prise en charge par le fournisseur. Pour les nouveaux objets <STRONG>Table</STRONG>, l'erreur survient lorsque l'objet est ajouté à la collection. Pour les objets existants, elle survient au moment de la définition de la propriété.</P>
-
-
+> [!REMARQUE] Votre fournisseur de données peut ne pas prendre en charge toutes les propriétés de l'objet **Table**. Une erreur survient si vous avez défini une valeur pour une propriété non prise en charge par le fournisseur. Pour les nouveaux objets **Table**, l'erreur survient lorsque l'objet est ajouté à la collection. Pour les objets existants, elle survient au moment de la définition de la propriété.
 
 Lors de la création des objets **Table**, l'existence d'une valeur par défaut appropriée pour une propriété facultative ne garantit pas que votre fournisseur prend en charge la propriété. Pour plus d'informations sur les propriétés prises en charge par votre fournisseur, reportez-vous à sa documentation.
 

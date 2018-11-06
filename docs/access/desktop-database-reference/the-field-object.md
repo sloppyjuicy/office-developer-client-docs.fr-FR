@@ -1,20 +1,19 @@
 ---
 title: L’objet Field (référence de base de données du bureau Access)
-TOCTitle: The Field Object
+TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cf5e5de6c45cd3b8cc8827a794f5c2ce394d8f43
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: d7a8dad03bee863ec53f2731f9e3c99287a70442
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947293"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997426"
 ---
 # <a name="field-object"></a>Field, objet
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -24,33 +23,33 @@ Utilisez la propriété **Value** des objets **Field** pour définir ou renvoyer
 
 Avec les collections, méthodes et propriétés d'un objet **Field**, vous pouvez effectuer les opérations suivantes :
 
-  - Retourner le nom d'un champ à l'aide de la propriété **Name**.
+- Retourner le nom d'un champ à l'aide de la propriété **Name**.
 
-  - Afficher ou modifier les données d'un champ à l'aide de la propriété **Value**. **Value** est la propriété par défaut de l'objet **Field**.
+- Afficher ou modifier les données d'un champ à l'aide de la propriété **Value**. **Value** est la propriété par défaut de l'objet **Field**.
 
-  - Retourner les caractéristiques de base d'un champ à l'aide des propriétés **Type**, **Precision** et **NumericScale**.
+- Retourner les caractéristiques de base d'un champ à l'aide des propriétés **Type**, **Precision** et **NumericScale**.
 
-  - Renvoyer la taille déclarée d'un champ à l'aide de la propriété **DefinedSize**.
+- Renvoyer la taille déclarée d'un champ à l'aide de la propriété **DefinedSize**.
 
-  - Renvoyer la taille réelle des données d'un champ précis à l'aide de la propriété **ActualSize**.
+- Renvoyer la taille réelle des données d'un champ précis à l'aide de la propriété **ActualSize**.
 
-  - Déterminer les types de fonctionnalité pris en charge par un champ donné à l'aide de la propriété **Attributes** et de la collection **Properties**.
+- Déterminer les types de fonctionnalité pris en charge par un champ donné à l'aide de la propriété **Attributes** et de la collection **Properties**.
 
-  - Manipuler les valeurs des champs contenant des données binaires longues ou de caractères longs à l'aide des méthodes **AppendChunk** et **GetChunk**.
+- Manipuler les valeurs des champs contenant des données binaires longues ou de caractères longs à l'aide des méthodes **AppendChunk** et **GetChunk**.
 
-Résoudre les incohérences des valeurs de champs au cours d'une mise à jour en lot à l'aide des propriétés **OriginalValue** et **UnderlyingValue**, si le fournisseur prend en charge les mises à jour en lot.
+- Résoudre les incohérences des valeurs de champs au cours d'une mise à jour en lot à l'aide des propriétés **OriginalValue** et **UnderlyingValue**, si le fournisseur prend en charge les mises à jour en lot.
 
-## <a name="describing-a-field"></a>Description d'un champ
+## <a name="describing-a-field"></a>Description d’un champ
 
 Les rubriques suivantes abordent les propriétés de l'objet [Field](field-object-ado.md) qui représentent les informations décrivant l'objet **Field** lui-même  autrement dit, les métadonnées du champ. Ces informations permettent de déterminer une bonne partie du schéma du **jeu d'enregistrements**. Ces propriétés sont **Type**, **DefinedSize**, **ActualSize**, **Name**, **NumericScale** et **Precision**.
 
-## <a name="discovering-the-data-type"></a>Recherche du type de données
+## <a name="discovering-the-data-type"></a>Détection du type de données
 
 La propriété **Type** indique le type de données du champ. Les constantes de type énuméré de données qui sont prises en charge par ADO sont décrites dans la *référence du programmeur ADO* [DataTypeEnum](datatypeenum.md) .
 
 Pour les types numériques en virgule flottante comme **adNumeric**, vous pouvez obtenir plus d'informations. La propriété **NumericScale** indique le nombre de chiffres à droite du point décimal utilisé pour représenter les valeurs du **champ**. La propriété **Precision** spécifie le nombre maximal de chiffres utilisé pour représenter les valeurs du **champ**.
 
-## <a name="determining-field-size"></a>Définition de la taille du champ
+## <a name="determining-field-size"></a>Détermination de la taille de champ
 
 Utilisez la propriété **DefinedSize** pour déterminer la capacité de données d'un objet **Field**.
 
@@ -58,19 +57,16 @@ Utilisez la propriété **ActualSize** pour renvoyer la longueur réelle de la v
 
 Les propriétés **DefinedSize** et **ActualSize** ont des finalités différentes. Prenez l'exemple d'un objet **Field** avec un type déclaré de **adVarChar** et une valeur de propriété **DefinedSize** de 50 contenant un seul caractère. La valeur de propriété **ActualSize** retournée est la longueur en octets du caractère unique.
 
-## <a name="determining-field-contents"></a>Définition du contenu du champ
+## <a name="determining-field-contents"></a>Déterminer le contenu du champ
 
 L'identificateur de la colonne de la source de données est représenté par la propriété **Name** du **champ**. La propriété **Value** de l'objet **Field** renvoie ou définit le contenu de données réel du champ. Il s'agit de la propriété par défaut.
 
 Pour modifier les données d'un champ, attribuez à la propriété **Value** une valeur correspondant au type correct. Votre type de curseur doit prendre en charge les mises à jour pour pouvoir modifier le contenu d'un champ. Dans ce cas précis, la validation de la base de données n'est pas effectué par lot ; il vous faut donc vérifier les erreurs lorsque vous invoquez **UpdateBatch**. Certains fournisseurs prennent également en charge les propriétés **OriginalValue** et **UnderlyingValue** de l'objet **Field** pour vous aider à résoudre les conflits lorsque vous réalisez des mises à jour en lot. Pour en savoir plus sur la résolution de ces conflits, reportez-vous au [chapitre 4 : Modification des données](chapter-4-editing-data.md).
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne pouvez pas définir les valeurs <STRONG>Recordset Field</STRONG> lorsque vous ajoutez de nouveaux <STRONG>champs</STRONG> à un <STRONG>jeu d'enregistrements</STRONG>. Vous pouvez en revanche ajouter de nouveaux <STRONG>champs</STRONG> à un <STRONG>jeu d'enregistrements</STRONG> fermé. Vous devez ensuite ouvrir le <STRONG>jeu d'enregistrements</STRONG> pour pouvoir affecter des valeurs à ces <STRONG>champs</STRONG>.</P>
+> [!REMARQUE] Vous ne pouvez pas définir les valeurs **Recordset Field** lorsque vous ajoutez de nouveaux **champs** à un **jeu d'enregistrements**. Vous pouvez en revanche ajouter de nouveaux **champs** à un **jeu d'enregistrements** fermé. Vous devez ensuite ouvrir le **jeu d'enregistrements** pour pouvoir affecter des valeurs à ces **champs**.
 
-
-
-## <a name="getting-more-field-information"></a>Obtention d'informations supplémentaires sur les champs
+## <a name="getting-more-field-information"></a>Obtenir plus d’informations sur les champs
 
 Les objets ADO possèdent deux types de propriétés : intégré et dynamique. À ce stade, seules les propriétés intégrées de l'objet **Field** on été abordées.
 
@@ -82,13 +78,13 @@ Vous ne pouvez supprimer l'une ou l'autre propriété.
 
 Un objet **Property** dynamique comporte quatre propriétés intégrées :
 
-  - La propriété **Name** est une chaîne qui identifie la propriété.
+- La propriété **Name** est une chaîne qui identifie la propriété.
 
-  - La propriété **Type** est un entier qui spécifie le type de données de la propriété.
+- La propriété **Type** est un entier qui spécifie le type de données de la propriété.
 
-  - La propriété **Value** est une variante qui contient le paramètre de la propriété. **Value** est la propriété par défaut d'un objet **Property**.
+- La propriété **Value** est une variante qui contient le paramètre de la propriété. **Value** est la propriété par défaut d'un objet **Property**.
 
-  - La propriété **Attributes** est une valeur **Long** qui indique les caractéristiques de la propriété propre au fournisseur.
+- La propriété **Attributes** est une valeur **Long** qui indique les caractéristiques de la propriété propre au fournisseur.
 
 La collection **Properties** de l'objet **Field** contient des métadonnées supplémentaires relatives au champ. Le contenu de cette collection varie en fonction du fournisseur. L'exemple de code suivant examine la collection **Properties** de l'exemple de **jeu d'enregistrements** présenté au début de ce chapitre. Il étudie d'abord le contenu de la collection. Ce code utilise le [fournisseur OLE DB pour SQL Server](microsoft-ole-db-provider-for-sql-server.md). La collection **Properties** renferme donc les informations propres à ce fournisseur.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b07717a209fdb0152964bcd33d228d17cecd4eec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b9a9a5624697779bb7231626b7440d8db9c40244
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922348"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996817"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Méthode Recordset.AddNew (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -36,33 +35,24 @@ Utilisez la méthode **AddNew** pour créer et ajouter un nouvel enregistrement 
 
 Après avoir modifié le nouvel enregistrement, utilisez la méthode **[Update](recordset-update-method-dao.md)** pour enregistrer les modifications et ajouter l'enregistrement à l'objet **Recordset**. Aucune modification n'est implémentée dans la base de données tant que vous n'avez pas utilisé la méthode **Update**.
 
+> [!NOTE]
+> [!REMARQUE] Si vous exécutez une méthode **AddNew**, puis que vous accédez à un autre enregistrement à la suite d'une autre opération sans avoir préalablement appelé la méthode **Update**, vous perdez toutes vos modifications sans avertissement. En outre, si vous fermez l'objet **Recordset** ou mettez un terme à la procédure qui déclare l'objet **Recordset** ou son objet **[Database](database-object-dao.md)**, le nouvel enregistrement est supprimé sans avertissement.
 
 > [!NOTE]
-> <P>[!REMARQUE] Si vous exécutez une méthode <STRONG>AddNew</STRONG>, puis que vous accédez à un autre enregistrement à la suite d'une autre opération sans avoir préalablement appelé la méthode <STRONG>Update</STRONG>, vous perdez toutes vos modifications sans avertissement. En outre, si vous fermez l'objet <STRONG>Recordset</STRONG> ou mettez un terme à la procédure qui déclare l'objet <STRONG>Recordset</STRONG> ou son objet <STRONG><A href="database-object-dao.md">Database</A></STRONG>, le nouvel enregistrement est supprimé sans avertissement.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!REMARQUE] Lorsque vous utilisez <STRONG>AddNew</STRONG> dans un espace de travail Microsoft Access et que le moteur de base de données doit créer une nouvelle page pour conserver l'enregistrement actif, le verrouillage de page est de type pessimiste. Si le nouvel enregistrement est ajouté à une page existante, le verrouillage de page est de type optimiste.</P>
-
-
+> [!REMARQUE] Lorsque vous utilisez **AddNew** dans un espace de travail Microsoft Access et que le moteur de base de données doit créer une nouvelle page pour conserver l'enregistrement actif, le verrouillage de page est de type pessimiste. Si le nouvel enregistrement est ajouté à une page existante, le verrouillage de page est de type optimiste.
 
 Si vous n'avez pas accédé au dernier enregistrement de votre objet **Recordset**, les enregistrements ajoutés aux tables de base par d'autres processus peuvent être inclus s'ils sont placés après l'enregistrement actif. Toutefois, si vous ajoutez un enregistrement à votre propre objet **Recordset**, l'enregistrement est visible dans l'objet **Recordset** et inclus dans la table sous-jacente, où il sera visible pour tout nouvel objet **Recordset**.
 
 La position du nouvel enregistrement dépend du type de l'objet **Recordset**:
 
-  - Dans un objet **Recordset** de type feuille de réponse dynamique, les enregistrements sont insérés à la fin de l'objet **Recordset**, indépendamment des règles de tri ou d'ordre en vigueur lors de l'ouverture de l'objet **Recordset**.
+- Dans un objet **Recordset** de type feuille de réponse dynamique, les enregistrements sont insérés à la fin de l'objet **Recordset**, indépendamment des règles de tri ou d'ordre en vigueur lors de l'ouverture de l'objet **Recordset**.
 
-  - Dans un objet **Recordset** de type table dont la propriété **[Index](recordset-index-property-dao.md)** a été définie, les enregistrements sont renvoyés à l'emplacement adéquat en fonction de l'ordre de tri. Si vous n'avez pas défini la propriété **Index**, les nouveaux enregistrements sont renvoyés à la fin de l'objet **Recordset**.
+- Dans un objet **Recordset** de type table dont la propriété **[Index](recordset-index-property-dao.md)** a été définie, les enregistrements sont renvoyés à l'emplacement adéquat en fonction de l'ordre de tri. Si vous n'avez pas défini la propriété **Index**, les nouveaux enregistrements sont renvoyés à la fin de l'objet **Recordset**.
 
 L'enregistrement qui était actif avant d'utiliser **AddNew** le reste. Si vous souhaitez faire du nouvel enregistrement l'enregistrement actif, vous pouvez affecter à la propriété **[Bookmark](recordset-bookmark-property-dao.md)** la valeur du signet identifié par le paramètre de la propriété **[LastModified](recordset-lastmodified-property-dao.md)**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode <STRONG>AddNew</STRONG>, <STRONG>Delete</STRONG> ou <STRONG>Edit</STRONG> dans un espace de travail Microsoft Access.</P>
-
-
+> [!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode **AddNew**, **Delete** ou **Edit** dans un espace de travail Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

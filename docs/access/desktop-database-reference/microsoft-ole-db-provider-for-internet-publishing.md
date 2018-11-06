@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249327(v=office.15)
 ms:contentKeyID: 48545100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bb0bb40d0f12bd9d5a6c8b29af1d4e27d806db87
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: c6f1c7c65d0ac1dd2a6d3ea132a31955f175bc7f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882083"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997482"
 ---
 # <a name="microsoft-ole-db-provider-for-internet-publishing"></a>Fournisseur Microsoft OLE DB pour la publication Internet
 
@@ -19,7 +19,7 @@ ms.locfileid: "25882083"
 
 Le fournisseur Microsoft OLE DB pour la publication Internet permet à ADO d'accéder aux ressources générées par Microsoft FrontPage ou Microsoft Internet Information Server. Les ressources incluent des fichiers source Web tels que des fichiers HTML ou des dossier Web Windows 2000.
 
-## <a name="connection-string-parameters"></a>Paramètres de la chaîne de connexion
+## <a name="connection-string-parameters"></a>Paramètres de chaîne de connexion
 
 Pour vous connecter à ce fournisseur, définissez l'argument *Provider* de la propriété [ConnectionString](connectionstring-property-ado.md) sur :
 
@@ -82,8 +82,6 @@ La chaîne est composée des mots clé suivants :
 
 Si vous définissez le paramètre *ResourceURL* dans la chaîne de connexion « URL= » sur une valeur non valide, le fournisseur pour la publication Internet déclenche une boîte de dialogue vous invitant à entrer une valeur valide. Ce comportement n'est pas souhaitable pour un composant de niveau intermédiaire d'une application car il interrompt l'exécution du programme jusqu'à fermeture de la boîte de dialogue et le client se fige car il n'a pas reçu de réponse du composant.
 
-
 > [!NOTE]
-> <P>Si MSDAIPP. DSO est explicitement spécifié comme valeur du fournisseur, soit avec le mot clé string de <EM>fournisseur de</EM> connexion ou de la propriété <STRONG>Provider</STRONG> , vous ne pouvez pas utiliser « URL = » dans la chaîne de connexion. Cela générerait une erreur. Vous devez simplement spécifier l'URL comme expliqué sous la rubrique <A href="the-ole-db-provider-for-internet-publishing.md">Fournisseur OLE DB pour la publication Internet</A>.</P>
-
+> Si MSDAIPP. DSO est explicitement spécifié comme valeur du fournisseur, soit avec le mot clé string de *fournisseur de* connexion ou de la propriété **Provider** , vous ne pouvez pas utiliser « URL = » dans la chaîne de connexion. Cela générerait une erreur. Vous devez simplement spécifier l'URL comme expliqué sous la rubrique [Fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md).
 

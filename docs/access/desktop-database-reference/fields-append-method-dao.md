@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820791(v=office.15)
 ms:contentKeyID: 48546719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70fa0aba5385157453a1e9b009a167f036dc874b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 576928e6538ea704bf6f10d0826c0e6bbb359bf1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929117"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998237"
 ---
 # <a name="fieldsappend-method-dao"></a>Méthode Fields.Append (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Ajoute un objet **[Field](field-object-dao.md)** dans la collection **[Fields](fields-collection-dao.md)**.
 
@@ -27,7 +25,7 @@ Ajoute un objet **[Field](field-object-dao.md)** dans la collection **[Fields](f
 
 *expression* Variable qui représente un objet **Fields** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -39,14 +37,14 @@ Ajoute un objet **[Field](field-object-dao.md)** dans la collection **[Fields](f
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objet</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>Variable d'objet représentant le champ qui est ajouté à la collection.</p></td>

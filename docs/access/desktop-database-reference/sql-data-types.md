@@ -10,12 +10,12 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bd5deb6d14aaf5911cd87c4d562dbec74e7ad1f2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: ef5a794014f1397202483e008d164cb5de0b5179
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944486"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997811"
 ---
 # <a name="sql-data-types"></a>Types de données SQL
 
@@ -112,13 +112,6 @@ Le tableau suivant répertorie les principaux types de données. Les synonymes s
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>La valeur de départ et la valeur incrémentielle peuvent être modifiées à l'aide d'une <A href="alter-table-statement-microsoft-access-sql.md">instruction ALTER TABLE</A>. Les nouvelles lignes insérées dans la table comportent des valeurs basées sur la nouvelle valeur de départ et la nouvelle valeur incrémentielle qui sont automatiquement générées pour la colonne. Si ces nouvelles valeurs peuvent produire des valeurs qui correspondent à celles générées à partir de la valeur de départ et de la valeur incrémentielle d'origine, des valeurs en double sont générées. Si la colonne est une clé primaire, l'insertion de nouvelles lignes peut produire des erreurs lorsque des valeurs en double sont générées.</P>
-> <LI>
-> <P>Pour rechercher la dernière valeur qui a été utilisée pour une colonne incrémentée automatiquement, vous pouvez utiliser l'instruction suivante : SELECT @@IDENTITY. En revanche, vous ne pouvez pas spécifier le nom d'une table. La valeur renvoyée provient de la dernière table contenant une colonne incrémentée automatiquement qui a été dupliquée.</P></LI></UL>
-
-
+> - La valeur de départ et la valeur incrémentielle peuvent être modifiées à l'aide d'une [instruction ALTER TABLE](alter-table-statement-microsoft-access-sql.md). Les nouvelles lignes insérées dans la table comportent des valeurs basées sur la nouvelle valeur de départ et la nouvelle valeur incrémentielle qui sont automatiquement générées pour la colonne. Si ces nouvelles valeurs peuvent produire des valeurs qui correspondent à celles générées à partir de la valeur de départ et de la valeur incrémentielle d'origine, des valeurs en double sont générées. Si la colonne est une clé primaire, l'insertion de nouvelles lignes peut produire des erreurs lorsque des valeurs en double sont générées.
+> - Pour rechercher la dernière valeur qui a été utilisée pour une colonne incrémentée automatiquement, vous pouvez utiliser l'instruction suivante : SELECT @@IDENTITY. En revanche, vous ne pouvez pas spécifier le nom d'une table. La valeur renvoyée provient de la dernière table contenant une colonne incrémentée automatiquement qui a été dupliquée.

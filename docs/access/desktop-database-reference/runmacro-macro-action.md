@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7aace8618e9ca5cdd540c15d04869dbce8c3a891
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4682af5c4583b99104acf96b9cd0a4f311e6cb90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926114"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997545"
 ---
 # <a name="runmacro-macro-action"></a>RunMacro, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,11 +25,11 @@ Vous pouvez utiliser l'action **ExécuterMacro** pour exécuter une macro. La ma
 
 Vous pouvez utiliser cette action dans les cas suivants :
 
-  - Pour exécuter une macro à partir d'une autre macro.
+- Pour exécuter une macro à partir d'une autre macro.
 
-  - Pour exécuter une macro en fonction d'une condition définie.
+- Pour exécuter une macro en fonction d'une condition définie.
 
-  - Pour attacher une macro à une commande de menu personnalisée.
+- Pour attacher une macro à une commande de menu personnalisée.
 
 ## <a name="setting"></a>Valeur
 
@@ -63,38 +62,24 @@ L'action **ExécuterMacro** accepte les arguments suivants.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Notes
 
 Si vous entrez le nom d'un groupe de macros dans l'argument **Nom de macro**, Access exécute la première macro du groupe.
 
 Pour l'essentiel, cette action équivaut à cliquer sur le bouton **Exécuter une macro** dans l'onglet **Outils de base de données**, à sélectionner une macro, puis à cliquer sur **OK**. Toutefois, cette commande n'exécute la macro qu'une seule fois tandis que l'action **ExécuterMacro** permet d'exécuter une macro autant de fois que vous le souhaitez.
 
-
 > [!TIP]
-> <P>[!CONSEIL] Vous pouvez utiliser les arguments <STRONG>Nombre de répétitions</STRONG> et <STRONG>Expression de répétition</STRONG> pour déterminer le nombre de fois que la macro doit s'exécuter :</P>
-
-
-
-  - Si vous laissez les deux arguments vides, la macro s'exécute une seule fois.
-
-  - Si vous entrez un nombre dans la zone de l'argument **Répéter compte** et que vous ne spécifiez rien pour l'argument **Répéter expression**, la macro s'exécute le nombre de fois spécifié.
-
-  - Si vous ne spécifiez rien pour **Répéter compte** et que vous entrez une expression dans la zone **Répéter expression**, la macro s'exécute jusqu'à ce que l'expression corresponde à **Faux**.
-
-  - Si vous spécifiez des valeurs pour les deux arguments, la macro s'exécute le nombre de fois spécifié dans **Répéter compte** ou jusqu'à ce que **Répéter expression** corresponde à **Faux**, selon la valeur atteinte en premier.
+> [!CONSEIL] Vous pouvez utiliser les arguments **Nombre de répétitions** et **Expression de répétition** pour déterminer le nombre de fois que la macro doit s'exécuter :
+> - Si vous laissez les deux arguments vides, la macro s'exécute une seule fois.
+> - Si vous entrez un nombre dans la zone de l'argument **Répéter compte** et que vous ne spécifiez rien pour l'argument **Répéter expression**, la macro s'exécute le nombre de fois spécifié.
+> - Si vous ne spécifiez rien pour **Répéter compte** et que vous entrez une expression dans la zone **Répéter expression**, la macro s'exécute jusqu'à ce que l'expression corresponde à **Faux**.
+> - Si vous spécifiez des valeurs pour les deux arguments, la macro s'exécute le nombre de fois spécifié dans **Répéter compte** ou jusqu'à ce que **Répéter expression** corresponde à **Faux**, selon la valeur atteinte en premier.
 
 Lorsque vous exécutez une macro contenant l'action **ExécuterMacro** et qu'elle atteint l'action **ExécuterMacro**, Access exécute la macro appelée. Lorsque la macro appelée a terminé de s'exécuter, Access retourne à la macro d'origine et exécute l'action suivante.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous pouvez appeler une macro du même groupe de macros ou d'un autre groupe de macros.</P>
-> <LI>
-> <P>Vous pouvez imbriquer les macros. En d'autres termes, vous pouvez exécuter la macro A qui appelle à son tour la macro B, et ainsi de suite. Dans chaque cas, lorsque la macro appelée est terminée, Access retourne à la macro qui l'a appelée et exécute l'action suivante dans la macro.</P></LI></UL>
-
-
+> - Vous pouvez appeler une macro du même groupe de macros ou d'un autre groupe de macros.
+> - Vous pouvez imbriquer les macros. En d'autres termes, vous pouvez exécuter la macro A qui appelle à son tour la macro B, et ainsi de suite. Dans chaque cas, lorsque la macro appelée est terminée, Access retourne à la macro qui l'a appelée et exécute l'action suivante dans la macro.
 
 Pour exécuter l'action **ExécuterMacro** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **RunMacro** de l'objet **DoCmd**.
 

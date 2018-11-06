@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 66905394b0bf7127e952c9fe17860e84a151a3b0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a651e017b77e01a3fc6e810f58c00c94ece123ad
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937602"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997769"
 ---
 # <a name="querydefreturnsrecords-property-dao"></a>Propriété QueryDef.ReturnsRecords (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Définit ou renvoie une valeur indiquant si une requête SQL directe sur une base de données externe renvoie des enregistrements (espaces de travail Microsoft Access uniquement).
 
@@ -35,11 +33,8 @@ Définit ou renvoie une valeur indiquant si une requête SQL directe sur une bas
 
 Les requêtes SQL directes envoyées à des bases de données externes ne peuvent pas toutes renvoyer des enregistrements. Par exemple, une instruction SQL UPDATE met à jour des enregistrements sans en renvoyer tandis qu'une instruction SQL SELECT en renvoie. Si la requête renvoie des enregistrements, affectez à la propriété **ReturnsRecords** la valeur **True**; dans le cas contraire, affectez à **ReturnsRecords** la valeur **False**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous devez définir la propriété <STRONG><A href="querydef-connect-property-dao.md">Connect</A></STRONG> avant la propriété <STRONG>ReturnsRecords</STRONG>.</P>
-
-
+> [!REMARQUE] Vous devez définir la propriété **[Connect](querydef-connect-property-dao.md)** avant la propriété **ReturnsRecords**.
 
 ## <a name="example"></a>Exemple
 

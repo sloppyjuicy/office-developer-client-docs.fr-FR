@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
 ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a0956efd8082363c4d00acf491bcb0b990cdf0e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 034fd349f140e931d1a5f654dfb275854aa2b78d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920402"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998979"
 ---
 # <a name="recordset2index-property-dao"></a>Propriété Recordset2.index (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -38,21 +37,12 @@ Vous pouvez créer un nouvel index pour la table en créant un nouvel objet **In
 
 Les enregistrements renvoyés d'un objet **Recordset** de type table peuvent être classés uniquement par les index définis pour l'objet **TableDef** sous-jacent. Pour trier les enregistrements d’une autre façon, vous pouvez ouvrir un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique à l’aide d’une instruction SQL avec une clause ORDER BY.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous n'avez pas à créer d'index pour les tables. Avec des grandes tables non indexées, l'accès à un enregistrement spécifique ou la création d'un objet <STRONG>Recordset</STRONG> peut prendre du temps. Toutefois, la création d'un nombre trop important d'index ralentit les opérations de mise à jour, d'ajout et de suppression car tous les index sont automatiquement mis à jour.</P>
-> <LI>
-> <P>Les enregistrements lus à partir des tables non indexées sont retournés sans ordre particulier.</P>
-> <LI>
-> <P>La propriété <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de chaque objet <STRONG><A href="field-object-dao.md">Field</A></STRONG> de l'objet <STRONG>Index</STRONG> détermine l'ordre des enregistrements et, par conséquent, les techniques d'accès à utiliser pour cet index.</P>
-> <LI>
-> <P>Un index unique permet d'optimiser la recherche d'enregistrements.</P>
-> <LI>
-> <P>Les index n'affectent pas l'ordre physique d'une table de base, ils affectent uniquement la manière dont l'objet <STRONG>Recordset</STRONG> de type table accède aux enregistrements lorsqu'un index spécifique est choisi ou lorsque l'objet <STRONG>Recordset</STRONG> est ouvert.</P></LI></UL>
-
-
+> - Vous n'avez pas à créer d'index pour les tables. Avec des grandes tables non indexées, l'accès à un enregistrement spécifique ou la création d'un objet **Recordset** peut prendre du temps. Toutefois, la création d'un nombre trop important d'index ralentit les opérations de mise à jour, d'ajout et de suppression car tous les index sont automatiquement mis à jour.
+> - Les enregistrements lus à partir des tables non indexées sont retournés sans ordre particulier.
+> - La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** de l'objet **Index** détermine l'ordre des enregistrements et, par conséquent, les techniques d'accès à utiliser pour cet index.
+> - Un index unique permet d'optimiser la recherche d'enregistrements.
+> - Les index n'affectent pas l'ordre physique d'une table de base, ils affectent uniquement la manière dont l'objet **Recordset** de type table accède aux enregistrements lorsqu'un index spécifique est choisi ou lorsque l'objet **Recordset** est ouvert.
 
 ## <a name="example"></a>Exemple
 

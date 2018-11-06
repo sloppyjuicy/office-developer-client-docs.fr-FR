@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
 ms:contentKeyID: 48543972
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 083e76ea4e2a0800153d50fa0c61d5acb7a29645
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6975a438e4e724a6fc1f72be92088f0d07a5b44
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922180"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996705"
 ---
 # <a name="recordset2nomatch-property-dao"></a>Propriété Recordset2.NoMatch (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -34,11 +33,8 @@ Pour rechercher un enregistrement, utilisez la méthode **Seek** sur un objet **
 
 Si la méthode **Seek** ou **Find** ne donne aucun résultat et que la propriété **NoMatch** a la valeur **True**, l'enregistrement actif ne sera plus valide. Veillez à obtenir le signet de l'enregistrement actif avant d'utiliser la méthode **Seek** ou l'une des méthodes **Find** si vous devez revenir à cet enregistrement.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'appel de l'une des méthodes <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> sur un objet <STRONG>Recordset</STRONG> n'a aucune incidence sur le paramètre de la propriété <STRONG>NoMatch</STRONG>.</P>
-
-
+> [!REMARQUE] L'appel de l'une des méthodes **[Move](recordset-movefirst-method-dao.md)** sur un objet **Recordset** n'a aucune incidence sur le paramètre de la propriété **NoMatch**.
 
 ## <a name="example"></a>Exemple
 

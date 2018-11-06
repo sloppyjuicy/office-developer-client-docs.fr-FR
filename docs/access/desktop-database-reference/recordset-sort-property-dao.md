@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 18547162e7a0d64cc0ac7b0cdb2f0afa79185985
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b8dc3c551c9aa75da205717fef682f0abed7a54b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926261"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998727"
 ---
 # <a name="recordsetsort-property-dao"></a>Propriété Recordset.Sort (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -40,11 +39,8 @@ Par défaut, l'ordre de tri est croissant (A à Z ou 0 à 100).
 
 La propriété **Sort** ne s’applique aux objets **Recordset** de type table ou avant uniquement. Pour trier un objet **Recordset** de type table, utilisez la propriété **[Index](recordset-index-property-dao.md)** .
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Dans la plupart des cas, il est plus rapide d'ouvrir un nouvel objet <STRONG>Recordset</STRONG> à l'aide d'une instruction SQL qui comprend les critères de tri.</P>
-
-
+> [!REMARQUE] Dans la plupart des cas, il est plus rapide d'ouvrir un nouvel objet **Recordset** à l'aide d'une instruction SQL qui comprend les critères de tri.
 
 ## <a name="example"></a>Exemple
 

@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa783dcc7ad02cc36b14ef9ef97436cb1ad88e4a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a5016500b62a465f21ecab93a6fb66c9e6d514e1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924686"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998839"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
 
-L'action **EnvoyerMessage** envoie un message électronique.
-
+L’action **EnvoyerMessage** envoie un message électronique.
 
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>EnvoyerMessage</STRONG> est disponible uniquement dans les macros de données.</P>
-
-
+> [!REMARQUE] L'action **EnvoyerMessage** est disponible uniquement dans les macros de données.
 
 ## <a name="setting"></a>Paramètre
 

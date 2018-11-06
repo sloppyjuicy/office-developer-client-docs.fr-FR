@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249825(v=office.15)
 ms:contentKeyID: 48547072
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c03a6495b6d95723469d14dc1c3d9d2972760865
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ef617f91aa6f36969932a4d8f2914df2de935787
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937168"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998160"
 ---
 # <a name="solutions-for-remote-data-access"></a>Solutions pour l'accès à distance aux données
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,11 +27,8 @@ Par exemple, votre page Web intranet contient une application écrite en Microso
 
 Dans cet exemple, votre application ne se connecte jamais directement à la source de données ; c'est IIS qui s'y connecte et accède aux données par l'intermédiaire d'ADO.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'application client/serveur ne doit pas nécessairement être basée sur Internet ou un intranet (application de type Web) ; elle peut se composer uniquement des programmes compilés sur un réseau local. Cependant, il s'agit généralement d'une application de type Web.</P>
-
-
+> L’application client/serveur ne doit pas basée sur Internet ou un intranet (autrement dit, basée sur le web), elle peut se composer uniquement des programmes compilés sur un réseau local. Toutefois, le cas classique est une application web.
 
 Dans la mesure où certains contrôles visuels, tels que les grilles, les cases à cocher ou les listes, sont susceptibles d'utiliser les informations retournées, ils doivent être en mesure de les manipuler facilement.
 
@@ -40,5 +36,5 @@ Si vous voulez une interface de programmation d'application simple et efficace, 
 
 ## <a name="the-solution"></a>La solution
 
-RDS définit un modèle de programmation, à savoir la séquence d'activités requise pour accéder à la source de données et la mettre à jour, qui permet d'accéder aux données via un intermédiaire, par exemple Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
+RDS définit un modèle de programmation, la séquence d’activités requise pour accéder à et mettre à jour une source de données, pour pouvoir accéder aux données via un intermédiaire, tels que Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
 

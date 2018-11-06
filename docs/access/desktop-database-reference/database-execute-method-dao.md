@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 424fa55f90c0968d70c47b0d5fa3ff8c704f2ac9
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 13568f689d9e5b4e4533969192de7af65ea1f8ec
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950148"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997825"
 ---
 # <a name="databaseexecute-method-dao"></a>Méthode Database.Execute (DAO)
 
@@ -37,7 +37,7 @@ Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

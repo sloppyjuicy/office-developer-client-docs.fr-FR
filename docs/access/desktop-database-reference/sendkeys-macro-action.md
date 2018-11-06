@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: aa029e3a81670746cdc467ddf7578c5900b58b29
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 206c12d324b2b9c11b22357a3262a343bba3c122
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929033"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998804"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -37,14 +36,10 @@ ms.locfileid: "25929033"
 </tbody>
 </table>
 
-
 Vous pouvez utiliser l'action **EnvoiTouches** pour envoyer directement une séquence de touches à Microsoft Access ou à une application Windows active.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 
@@ -80,23 +75,14 @@ Access traite la séquence de touches qu'il reçoit via l'action **EnvoiTouches*
 
 Pour spécifier la séquence de touches, utilisez la même syntaxe que celle utilisée dans l'instruction **EnvoiTouches**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Une erreur peut se produire si l'argument <STRONG>Touches</STRONG> contient une syntaxe incorrecte, du texte mal orthographié ou des valeurs non appropriées pour la fenêtre à laquelle la séquence de touches est envoyée.</P>
-
-
+> [!REMARQUE] Une erreur peut se produire si l'argument **Touches** contient une syntaxe incorrecte, du texte mal orthographié ou des valeurs non appropriées pour la fenêtre à laquelle la séquence de touches est envoyée.
 
 Vous pouvez utiliser cette action pour entrer des informations dans une boîte de dialogue, notamment si vous ne voulez pas interrompre la macro pour répondre manuellement à la boîte de dialogue. Certaines actions Access, telles que **Imprimer** et **TrouverEnregistrement**, sélectionnent automatiquement les options de certaines boîtes de dialogue souvent utilisées. Vous pouvez utiliser l'action **EnvoiTouches** pour sélectionner des options de boîte de dialogue moins utilisées.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Dans la mesure où la boîte de dialogue interrompt la macro, vous devez placer l'action <STRONG>EnvoiTouches</STRONG> avant l'action qui entraîne l'ouverture de la boîte de dialogue et définir l'argument <STRONG>Attendre</STRONG> la valeur sur <STRONG>Non</STRONG>.</P>
-> <LI>
-> <P>Il est parfois difficile d'estimer le temps qu'il faudra à la séquence de touches pour atteindre Access ou une autre application. En conséquence, lorsqu'il existe une autre méthode (telle que l'action <STRONG>TrouverEnregistrement</STRONG> ) pour effectuer la tâche souhaitée, il est conseillé d'utiliser cette méthode au lieu de l'action <STRONG>EnvoiTouches</STRONG> pour compléter les options d'une boîte de dialogue.</P></LI></UL>
-
-
+> - Dans la mesure où la boîte de dialogue interrompt la macro, vous devez placer l'action **EnvoiTouches** avant l'action qui entraîne l'ouverture de la boîte de dialogue et définir l'argument **Attendre** la valeur sur **Non**.
+> - Il est parfois difficile d'estimer le temps qu'il faudra à la séquence de touches pour atteindre Access ou une autre application. En conséquence, lorsqu'il existe une autre méthode (telle que l'action **TrouverEnregistrement** ) pour effectuer la tâche souhaitée, il est conseillé d'utiliser cette méthode au lieu de l'action **EnvoiTouches** pour compléter les options d'une boîte de dialogue.
 
 Si vous voulez envoyer plus de 255 caractères à Access ou à une autre application Windows, vous pouvez utiliser successivement plusieurs actions **EnvoiTouches** dans une macro.
 

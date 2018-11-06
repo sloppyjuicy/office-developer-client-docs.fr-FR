@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef8c2399ec8a2ddedde47197388698c2b83c57c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926667"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997286"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Méthode Workspace.OpenDatabase (DAO)
 
@@ -25,7 +25,7 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 
 *expression* Variable qui représente un objet **Workspace** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -37,32 +37,32 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Nom d'un fichier de base de données de moteur de base de données Microsoft Access existant, ou nom de la source de données (DSN) d'une source de données ODBC. Pour plus d'informations sur la définition de cette valeur, reportez-vous à la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Définit différentes options pour la base de données, selon les indications dans les notes.</p></td>
 </tr>
 <tr class="odd">
-<td><p>ReadOnly</p></td>
+<td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p><strong>True</strong> si vous souhaitez ouvrir la base de données avec un accès en lecture seule, ou <strong>False</strong> (valeur par défaut) si vous souhaitez ouvrir la base de données avec un accès en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connexion</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Spécifie les différentes informations de connexion, dont les mots de passe.</p></td>
@@ -71,7 +71,7 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Base de données
 
@@ -102,6 +102,7 @@ Vous pouvez utiliser les valeurs ci-dessous pour l'argument options.
 </tbody>
 </table>
 
+<br/>
 
 Lorsque vous ouvrez une base de données, elle est automatiquement ajoutée à la collection **Databases**.
 

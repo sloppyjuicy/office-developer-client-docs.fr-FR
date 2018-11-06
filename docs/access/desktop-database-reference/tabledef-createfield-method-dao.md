@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fafccd704e1528ece69a86a5955bcb040dc24cbf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928767"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997006"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Méthode TableDef.CreateField (DAO)
 
@@ -29,7 +29,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 
 *expression* Variable qui représente un objet **TableDef** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -41,26 +41,26 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Chaîne qui identifie de manière unique le nouvel objet <strong>Field</strong>. Reportez-vous à la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d'informations sur les noms valides pour l'objet <strong>Field</strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Type</p></td>
+<td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Constante qui détermine le type de données du nouvel objet <strong>Field</strong>. Pour connaître les types de données valides, reportez-vous à la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.  </p></td>
 </tr>
 <tr class="odd">
-<td><p>Size</p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Integer qui indique la taille maximale, en octets, d'un objet <strong>Field</strong> qui contient du texte. Voir la propriété <strong><a href="field-size-property-dao.md">Size</a></strong> pour les valeurs de taille valide. Cet argument est ignoré pour les champs numériques et de longueur fixe.</p></td>
@@ -69,7 +69,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Champ
 

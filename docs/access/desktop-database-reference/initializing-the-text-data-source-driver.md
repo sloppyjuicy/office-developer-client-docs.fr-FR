@@ -10,24 +10,22 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f87c8e45cbc719ee50c017abd45a8950dc6ec7ed
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945445"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997468"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Initialisation du pilote de Source de données texte
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Le même pilote de base de données est utilisé pour les sources de type Données de texte et HTML.
 
 Lorsque vous installez le pilote de base de données de Source de données texte, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Microsoft Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données de Source de données de texte.
 
-## <a name="text-data-source-initialization-settings"></a>Paramètres d'initialisation de source de données de texte
+## <a name="text-data-source-initialization-settings"></a>Paramètres d’initialisation de source de données texte
 
 Le **Access Connectivity Engine\\Formats ISAM\\dossier texte** inclut les paramètres d’initialisation du pilote Acetxt.dll, utilisé pour l’accès externe aux fichiers de données de texte. L'exemple ci-dessous montre des paramètres par défaut pour les entrées de ce dossier.
 
@@ -102,7 +100,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier T
 </table>
 
 
-## <a name="text-data-source-isam-formats"></a>Formats ISAM de source de données Texte
+## <a name="text-data-source-isam-formats"></a>Formats ISAM de source de données texte
 
 Le **Access Connectivity Engine\\Formats ISAM\\texte** dossier contient les entrées suivantes.
 
@@ -184,13 +182,10 @@ Le **Access Connectivity Engine\\Formats ISAM\\texte** dossier contient les entr
 </table>
 
 
-
 > [!NOTE]
-> <P>Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.</P>
+> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
-
-
-## <a name="html-import-isam-formats"></a>Formats ISAM d'importation HTML
+## <a name="html-import-isam-formats"></a>Formats ISAM d’importation HTML
 
 Le **Access Connectivity Engine\\Formats ISAM\\importation HTML** dossier contient les entrées suivantes.
 
@@ -261,14 +256,10 @@ Le **Access Connectivity Engine\\Formats ISAM\\importation HTML** dossier contie
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.</P>
+> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
-
-
-## <a name="html-export-isam-formats"></a>Formats ISAM d'exportation HTML
+## <a name="html-export-isam-formats"></a>Formats ISAM d’exportation HTML
 
 Le **Access Connectivity Engine\\Formats ISAM\\exportation HTML** dossier contient les entrées suivantes.
 
@@ -334,14 +325,10 @@ Le **Access Connectivity Engine\\Formats ISAM\\exportation HTML** dossier contie
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.</P>
+> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
-
-
-## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personnalisation du fichier schema.ini pour données Texte et HTML
+## <a name="customizing-the-schemaini-file-for-text-and-html-data"></a>Personnalisation du fichier Schema.ini pour le texte et des données HTML
 
 Pour lire, importer ou exporter des données de texte et des données HTML, vous devez créer un fichier Schema.ini en plus d'inclure les informations ISAM de texte dans le fichier .ini. Le fichier Schema.ini contient les paramètres spécifiques d'une source de données : mise en forme du fichier de texte, lecture du fichier lors de l'importation et format d'exportation par défaut des fichiers. Les exemple suivants montrent la disposition pour un fichier de largeur fixe, Filename.txt :
 
@@ -368,6 +355,8 @@ Pour lire, importer ou exporter des données de texte et des données HTML, vous
     Col5=columnname9 LongChar Width 10
 ```
 
+<br/>
+
 De même, la mise en forme d'un fichier délimité est définie comme suit :
 
 ```text
@@ -385,6 +374,8 @@ De même, la mise en forme d'un fichier délimité est définie comme suit :
     
     Col2=dateofbirth Date width 9
 ```
+
+<br/>
 
 Si vous exportez des données dans un fichier de texte délimité, définissez également la mise en forme de ce fichier :
 
@@ -421,6 +412,8 @@ Si vous exportez des données dans un fichier de texte délimité, définissez �
     
     TextDelimeter="
 ```
+
+<br/>
 
 L'exemple My Special Export fait référence à une option d'exportation spécifique ; vous pouvez combiner d'autres options d'exportation au moment de la connexion. Ce dernier exemple correspond à un nom de source de données (DSN) pouvant être passé au moment de la connexion (facultatif). Les trois sections de format peuvent être incluses dans le même fichier .ini..
 
@@ -510,8 +503,6 @@ Le moteur de base de données Microsoft Access utilise les entrées du fichier S
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > [!REMARQUE] Lorsque vous modifiez des paramètres Schema.ini, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.

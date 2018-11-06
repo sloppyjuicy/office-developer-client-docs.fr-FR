@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bd5b694906e8c0ac1f15329f4342586793e114ec
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1623b32a5ec52acd086bf028a5c1775daae989e8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946149"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997048"
 ---
 # <a name="operation-of-parameterized-commands"></a>Fonctionnement des commandes paramétrées
 
@@ -34,11 +34,8 @@ SHAPE {SELECT * FROM customer}
 
 Les tables parent et enfant ont un nom de colonne dans des clients communs,\_id *.* La *commande-enfant* possède un espace réservé « ? », à laquelle fait référence la clause associer (autrement dit, »... PARAMÈTRE DE 0").
 
-
 > [!NOTE]
-> <P>[!REMARQUE] La clause PARAMETER appartient uniquement à la syntaxe de commande de mise en forme. Elle n'est associée ni à l'objet <A href="parameter-object-ado.md">Parameter</A>, ni à la collection <A href="parameters-collection-ado.md">Parameters</A> ADO.</P>
-
-
+> [!REMARQUE] La clause PARAMETER appartient uniquement à la syntaxe de commande de mise en forme. Elle n'est associée ni à l'objet [Parameter](parameter-object-ado.md), ni à la collection [Parameters](parameters-collection-ado.md) ADO.
 
 Lors de l'exécution de la commande de mise en forme paramétrée, l'opération suivante se produit :
 
@@ -56,8 +53,7 @@ Lors de l'exécution de la commande de mise en forme paramétrée, l'opération 
 
 La propriété dynamique **Cache Child Rows** est définie sur **True** par défaut. Le comportement de mise en cache varie en fonction des valeurs de paramètre de la requête. Dans une requête à paramètre unique, le **jeu d'enregistrements** enfant d'une valeur de paramètre donnée est mis en cache entre les requêtes pour un enfant avec la même valeur. Ceci est illustré dans le code suivant :
 
-```vb 
- 
+```vb
 ... 
 SCmd = "SHAPE {select * from customer} " & _ 
  "APPEND({select * from orders where cust_id = ?} " & _ 

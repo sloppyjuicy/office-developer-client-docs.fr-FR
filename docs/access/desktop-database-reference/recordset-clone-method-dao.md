@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7bce54b0cf7e589641eff35c3cbed2bd54dbe3d2
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: aa5a04ec08136dda637aabff15d89f81be6ecde8
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922999"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998573"
 ---
 # <a name="recordsetclone-method-dao"></a>Méthode Recordset.Clone (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** dupliqué qui fait réf�
 
 *expression* Variable qui représente un objet **Recordset** .
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Recordset
 
@@ -42,15 +41,9 @@ Vous pouvez avoir recours à la méthode **Clone** lorsque vous souhaitez effect
 
 L'emploi de la méthode **[Close](connection-close-method-dao.md)** sur l'objet original ou dupliqué n'a aucune incidence sur l'autre objet. Ainsi, l'appel de la méthode **Close** sur l'objet **Recordset** d'origine ne ferme pas le clone.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Le fait de fermer un jeu d'enregistrements clone pendant une transaction en attente entraîne une opération <STRONG>Rollback</STRONG> implicite.</P>
-> <LI>
-> <P>Lorsque vous clonez un objet <STRONG>Recordset</STRONG> de type table dans un espace de travail Microsoft Access, la définition de la propriété <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> n'est pas clonée dans la nouvelle copie du jeu d'enregistrements. Vous devez copier la définition de la propriété <STRONG>Index</STRONG> manuellement.</P></LI></UL>
-
-
+> - Le fait de fermer un jeu d'enregistrements clone pendant une transaction en attente entraîne une opération **Rollback** implicite.
+> - Lorsque vous clonez un objet **Recordset** de type table dans un espace de travail Microsoft Access, la définition de la propriété **[Index](recordset2-index-property-dao.md)** n'est pas clonée dans la nouvelle copie du jeu d'enregistrements. Vous devez copier la définition de la propriété **Index** manuellement.
 
 ## <a name="example"></a>Exemple
 

@@ -1,6 +1,6 @@
 ---
 title: Méthode Recordset.GetRows (DAO)
-TOCTitle: GetRows Method
+TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194427(v=office.15)
 ms:contentKeyID: 48545031
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1b0df2371ec9da675346cc24fd53d602cf69a170
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ec7947fd5d8d15eee92a033a47a8574f2933e73b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931238"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998384"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Méthode Recordset.GetRows (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Récupère plusieurs lignes d'un objet **[Recordset](recordset-object-dao.md)**.
 
 *expression* Variable qui représente un objet **Recordset** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Récupère plusieurs lignes d'un objet **[Recordset](recordset-object-dao.md)**.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NumRows</p></td>
+<td><p><em>NumRows</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Nombre de lignes à récupérer.</p></td>
@@ -58,29 +57,29 @@ Récupère plusieurs lignes d'un objet **[Recordset](recordset-object-dao.md)**.
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Variant
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **GetRows** pour copier des enregistrements d'un objet **Recordset**. **GetRows** renvoie un tableau à deux dimensions. Le premier indice identifie le champ, tandis que le second identifie le numéro de ligne. Par exemple, intField représente le champ et intRecord identifie le numéro de ligne :
+Utilisez la méthode **GetRows** pour copier des enregistrements à partir d'un objet **Recordset**. La méthode **GetRows** renvoie un tableau à deux dimensions. Le premier sous-script identifie le champ et le deuxième identifie le numéro de ligne. Par exemple, `intField` représente le champ, et `intRecord` identifie le numéro de ligne :
 
-avarRecords se transforme (intField, intRecord)
+`avarRecords(intField, intRecord)`
 
 Pour obtenir la valeur du premier champ dans la deuxième ligne renvoyée, utilisez un code semblable à celui-ci :
 
-Champ1 = avarRecords(0,1)
+`field1 = avarRecords(0,1)`
 
 Pour obtenir la valeur du deuxième champ dans la première ligne, utilisez un code semblable à celui-ci :
 
-Field2 = avarRecords(1,0)
+`field2 = avarRecords(1,0)`
 
 La variable avarRecords se transforme automatiquement en tableau à deux dimensions lorsque **GetRows** renvoie les données.
 
 Si vous demandez plus de lignes que ce qui est disponible, **GetRows** renvoie uniquement le nombre de lignes disponibles. Vous pouvez utiliser la fonction **UBound** de Visual Basic pour Applications pour déterminer le nombre de lignes réellement récupérées par **GetRows**, car la taille du tableau est définie pour correspondre au nombre de lignes renvoyées. Par exemple, si vous avez renvoyé les résultats dans un **Variant** appelé varA, vous pourriez utiliser le code suivant pour déterminer le nombre de lignes réellement renvoyé :
 
-numReturned = UBound(varA,2) + 1
+`numReturned = UBound(varA,2) + 1`
 
 Vous devez utiliser « +1 », car la première ligne renvoyée se trouve dans l'élément 0 du tableau. Le nombre de lignes que vous pouvez extraire est limité par la quantité de mémoire disponible. Vous ne devez pas utiliser **GetRows** pour extraire une table entière dans un tableau si celle-ci est volumineuse.
 

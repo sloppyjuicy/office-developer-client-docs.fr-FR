@@ -1,20 +1,19 @@
 ---
 title: Properties, collection (DAO)
-TOCTitle: Properties Collection
+TOCTitle: Properties collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 05379dee652732bc0839abb056cc15962e3683b0
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0cd2198d0578c6ec42e4bf800d95e1d7afe22786
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926940"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998342"
 ---
 # <a name="properties-collection-dao"></a>Properties, collection (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,29 +27,23 @@ Outre les propriétés intégrées, vous pouvez également créer et ajouter vos
 
 Vous pouvez utiliser la méthode **Delete** pour supprimer des propriétés personnalisées de la collection **Properties** mais vous ne pouvez pas supprimer les propriétés intégrées.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Un objet <STRONG>Property</STRONG> défini par l'utilisateur est associé uniquement à l'instance spécifique d'un objet. La propriété n'est pas définie pour toutes les instances d'objets du type sélectionné.</P>
-
-
+> [!REMARQUE] Un objet **Property** défini par l'utilisateur est associé uniquement à l'instance spécifique d'un objet. La propriété n'est pas définie pour toutes les instances d'objets du type sélectionné.
 
 Pour faire référence à un objet **Property** intégré d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-objet. **Propriétés** (0)
+- objet. **Propriétés** (0)
 
-objet. **Propriétés** (« nom »)
+- objet. **Propriétés** (« nom »)
 
-objet. **Propriétés** \! \[nom\]
+- objet. **Propriétés** \! \[nom\]
 
 Pour une propriété intégrée, vous pouvez également utiliser la syntaxe suivante :
 
-objet.Name
-
+- objet.Name
 
 > [!NOTE]
-> <P>Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. <STRONG>Propriétés</STRONG> syntaxe (« nom »).</P>
-
-
+> Pour une propriété définie par l’utilisateur, vous devez utiliser l’objet complet. **Propriétés** syntaxe (« nom »).
 
 Avec les mêmes formes de syntaxe, vous pouvez également faire référence à la propriété **Value** d'un objet **Property**. Le contexte de la référence déterminera si vous faites référence à l'objet **Property** lui-même ou à la propriété **Value** de l'objet **Property**.
 

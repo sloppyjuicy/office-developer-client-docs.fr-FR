@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6eec9f6be18bbf059660c804313918c480631e0b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 50134e8271ec5bb89a35eb3114b8b8e63267450a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927818"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997524"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Propriété sur Recordset.RecordCount (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,11 +29,8 @@ Renvoie le nombre d'enregistrements accédés dans un objet **[Recordset](record
 
 Utilisez la propriété **RecordCount** pour déterminer le nombre d'enregistrements accédés dans un objet **Recordset** ou **TableDef**. La propriété **RecordCount** n’indique pas le nombre d’enregistrements contenu dans un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique jusqu'à ce que tous les enregistrements ont accédé. Après avoir accédé au dernier enregistrement, la propriété **RecordCount** indique le nombre total d'enregistrements non supprimés dans l'objet **Recordset** ou **TableDef**. Pour forcer l'accès au dernier enregistrement, appelez la méthode **[MoveLast](recordset-movelast-method-dao.md)** sur l'objet **Recordset**. Vous pouvez également utiliser une fonction SQL **Count** pour déterminer le nombre approximatif d'enregistrements renvoyés par votre requête.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'utilisation de la méthode <STRONG>MoveLast</STRONG> pour remplir un objet <STRONG>Recordset</STRONG> récemment ouvert affecte les performances. Sauf s'il est indispensable de connaître précisément la valeur de la propriété <STRONG>RecordCount</STRONG> dès l'ouverture d'un objet <STRONG>Recordset</STRONG>, il est préférable d'attendre que l'objet <STRONG>Recordset</STRONG> soit rempli avec d'autres sections de code avant de vérifier la valeur de la propriété <STRONG>RecordCount</STRONG>.</P>
-
-
+> [!REMARQUE] L'utilisation de la méthode **MoveLast** pour remplir un objet **Recordset** récemment ouvert affecte les performances. Sauf s'il est indispensable de connaître précisément la valeur de la propriété **RecordCount** dès l'ouverture d'un objet **Recordset**, il est préférable d'attendre que l'objet **Recordset** soit rempli avec d'autres sections de code avant de vérifier la valeur de la propriété **RecordCount**.
 
 À mesure que votre application supprime des enregistrements dans un objet **Recordset** de type feuille de réponse dynamique, la valeur de la propriété **RecordCount** diminue. Toutefois, les enregistrements supprimés par d'autres utilisateurs ne sont pas répercutés dans la propriété **RecordCount** tant que l'enregistrement actif est positionné sur un enregistrement supprimé. Si vous exécutez une transaction qui affecte la valeur de la propriété **RecordCount** et que vous annulez par la suite la transaction, la propriété **RecordCount** ne reflètera pas le nombre réel d'enregistrements restants.
 

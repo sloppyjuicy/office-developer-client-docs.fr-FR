@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: be5497b7f1dbed4d32f25f2a675c3f996ed47c9f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 10c4c4cb4d0e63f0610c753363b208990e6faae7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925449"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999084"
 ---
 # <a name="importexporttext-macro-action"></a>ImportExportText, action de macro
 
@@ -24,9 +24,7 @@ ms.locfileid: "25925449"
 L'action **ImporterExporterTexte** permet d'importer ou d'exporter du texte entre la base de données Microsoft Access (.mdb ou .accdb) ou le projet Access (.adp) actif et un fichier texte. Vous pouvez également lier les données figurant dans un fichier texte dans la base de données Access active. Avec un fichier texte lié, vous pouvez afficher les données de texte dans Access tout en garantissant l'accès à ces données à partir du programme de traitement de texte. Vous pouvez également importer à partir de, exporter vers et lier une table ou une liste dans un fichier HTML (\*.html).
 
 > [!NOTE]
-> [!REMARQUE] Si la liaison de données s'effectue dans un fichier texte ou dans un fichier HTML, les données seront en lecture seule dans Access.
-> 
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> [!REMARQUE] Si la liaison de données s'effectue dans un fichier texte ou dans un fichier HTML, les données seront en lecture seule dans Access. [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 
@@ -46,13 +44,7 @@ L'action **ImporterExporterTexte** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Type de transfert</strong></p></td>
-<td><p>Type de transfert à effectuer. Vous pouvez importer des données de, exporter des données dans, ou lier des données à des fichiers textes délimités ou à des fichiers textes de longueur fixe ou des fichiers HTML. Vous pouvez également exporter des données dans un fichier de publipostage Microsoft Word, que vous pourrez ensuite utiliser avec la fonction de publipostage de Microsoft Word pour créer des documents fusionnés tels que des lettres types et des étiquettes de publipostage. Sélectionnez <strong>Importation texte (délimité)</strong>, <strong>Importation texte (longueur fixe)</strong>, <strong>Importation HTML</strong>, <strong>Exportation texte (délimité)</strong>, <strong>Exportation texte (longueur fixe)</strong>, <strong>Exportation HTML</strong>, <strong>Fusion avec Word pour Windows</strong>, <strong>Liaison texte (délimité)</strong>, <strong>Liaison texte (longueur fixe)</strong> ou <strong>Liaison HTML</strong> dans la zone <strong>Type de transfert</strong> dans la section <strong>Arguments de l'action</strong> du volet Générateur de macro. La valeur par défaut est <strong>Importation texte (délimité)</strong>.  </p>
-
-> [!NOTE]
-> <P>Seuls les types de transfert <STRONG>Importation texte (délimité)</STRONG>, <STRONG>Importation texte (longueur fixe)</STRONG>, <STRONG>Exportation texte (délimité)</STRONG>, <STRONG>Exportation texte (longueur fixe)</STRONG>, ou <STRONG>Fusion avec Word pour Windows</STRONG> sont pris en charge dans un projet Access (.adp).</P>
-
-
-<p></p></td>
+<td><p>Type de transfert à effectuer. Vous pouvez importer des données de, exporter des données dans, ou lier des données à des fichiers textes délimités ou à des fichiers textes de longueur fixe ou des fichiers HTML. Vous pouvez également exporter des données dans un fichier de publipostage Microsoft Word, que vous pourrez ensuite utiliser avec la fonction de publipostage de Microsoft Word pour créer des documents fusionnés tels que des lettres types et des étiquettes de publipostage. Sélectionnez <strong>Importation texte (délimité)</strong>, <strong>Importation texte (longueur fixe)</strong>, <strong>Importation HTML</strong>, <strong>Exportation texte (délimité)</strong>, <strong>Exportation texte (longueur fixe)</strong>, <strong>Exportation HTML</strong>, <strong>Fusion avec Word pour Windows</strong>, <strong>Liaison texte (délimité)</strong>, <strong>Liaison texte (longueur fixe)</strong> ou <strong>Liaison HTML</strong> dans la zone <strong>Type de transfert</strong> dans la section <strong>Arguments de l'action</strong> du volet Générateur de macro. La valeur par défaut est <strong>Importation texte (délimité)</strong>.  </p><p><strong>Remarque</strong>: un projet Access (.adp) sont prend en charge uniquement les types de transfert <STRONG>Importation délimité par</STRONG>, <STRONG>Importation (longueur fixe)</STRONG>, <STRONG>Exportation délimité par des</STRONG>, <STRONG>Exporter (longueur fixe)</STRONG>ou <STRONG>Fusion avec Word pour Windows</STRONG> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Format</strong></p></td>
@@ -80,11 +72,15 @@ L'action **ImporterExporterTexte** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Contient les noms de champs</strong></p></td>
-<td><p>Spécifie si la première ligne du fichier texte contient les noms des champs. Si vous sélectionnez <strong>Oui</strong>, Access utilise les noms figurant sur cette ligne comme noms de champs dans la table Access lorsque vous importez ou liez les données texte. Si vous sélectionnez <strong>Non</strong>, Access traite la première ligne comme une ligne de données normale. La valeur par défaut est <strong>Non</strong>. Access ignore cet argument pour les fichiers de publipostage Word pour Windows, car la première ligne doit contenir les noms de champs. Lorsque vous exportez une table Access ou une requête sélectionnée vers un fichier texte délimité ou de longueur fixe, Access insère les noms de champs de votre table ou requête sélectionnée dans la première ligne du fichier texte si vous avez sélectionné <strong>Oui</strong> pour cet argument. Si vous importez ou liez un fichier texte de longueur fixe et sélectionnez <strong>Oui</strong> dans cette zone, la première ligne contenant les noms de champs doit utiliser le séparateur de champ défini dans la spécification d'importation/exportation pour séparer les noms de champs. Si vous exportez des données vers un fichier texte de longueur fixe et sélectionnez <strong>Oui</strong> pour cet argument, Access insère les noms de champs dans la première ligne du fichier texte avec ce séparateur.  </p></td>
+<td><p>Spécifie si la première ligne du fichier texte contient les noms de champs. Si vous sélectionnez <strong>Oui</strong>, Access utilise les noms de cette ligne en tant que noms de champs dans la table Access lors de l’importation ou de la liaison des données de texte. Si vous sélectionnez <strong>Non</strong>, Access considérera la première ligne comme une ligne de données normale. La valeur par défaut est <strong>Non</strong>. 
+
+<br/><br/>Access ignore cet argument pour les fichiers de publipostage Word pour Windows, car la première ligne doit contenir les noms de champs. Lorsque vous exportez une table Access ou une requête sélectionnée vers un fichier texte délimité ou de longueur fixe, Access insère les noms de champs de votre table ou requête sélectionnée dans la première ligne du fichier texte si vous avez sélectionné <strong>Oui</strong> pour cet argument.<br/><br/>Si vous importez ou attachez un fichier texte de longueur fixe et que la valeur <strong>Oui</strong> est activée dans cette zone, la première ligne contenant les noms de champs doit utiliser le délimiteur de champ défini dans la spécification d’importation ou d’exportation pour séparer les noms de champs. Si l’exportation s’effectue vers un fichier texte de longueur fixe et si la valeur <strong>Oui</strong> est activée pour cet argument, Access insère les noms de champs dans la première ligne du fichier texte en utilisant ce délimiteur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la table HTML</strong></p></td>
-<td><p>Nom de la table ou de liste dans le fichier HTML que vous souhaitez importer ou lier. Cet argument est ignoré à moins que l’argument <strong>Type de transfert</strong> est défini sur importation HTML ou liaison HTML. Si vous ne renseignez pas cet argument, la première table ou liste du fichier HTML est importée ou associée. Le nom de table ou de liste dans le fichier HTML est déterminé par le texte spécifié par le &lt;légende&gt; balise, s’il existe un &lt;légende&gt; balise. S’il n’y a aucune balise &lt;CAPTION&gt;, le nom est déterminé selon le texte spécifié par la balise &lt;TITLE&gt;. Si plus d’une table ou une liste a le même nom, Access les distingue en ajoutant un numéro à la fin de chaque nom ; par exemple, Employés1 et Employés2.</p></td>
+<td><p>Nom de la table ou de la liste dans le fichier HTML à importer ou à attacher. Cet argument est ignoré, sauf si l’argument <strong>Type de transfert</strong> est défini sur Importation HTML ou Liaison HTML. Si vous laissez cet argument vierge, c’est la première table ou la première liste du fichier HTML qui sera importée ou attachée. 
+
+<br/><br/>Le nom de table ou de liste dans le fichier HTML est déterminé par le texte spécifié par le &lt;légende&gt; balise, s’il existe un &lt;légende&gt; balise. S’il n’y a aucune balise &lt;CAPTION&gt;, le nom est déterminé selon le texte spécifié par la balise &lt;TITLE&gt;. Si plus d’une table ou une liste a le même nom, Access les distingue en ajoutant un numéro à la fin de chaque nom ; par exemple, Employés1 et Employés2.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Page de codes</strong></p></td>

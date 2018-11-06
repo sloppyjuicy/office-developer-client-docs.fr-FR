@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
 ms:contentKeyID: 48543358
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 122f30e5f6310bc180dd43582a6e1e05cc970d4b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 2d511155f7a5fe1e6b83092e2065302bab99765b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926492"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999007"
 ---
 # <a name="tabledefsdelete-method-dao"></a>Méthode TableDefs.Delete (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Supprime l'objet **TableDef** spécifié de la collection **TableDefs**.
 
 *expression* Variable qui représente un objet **TableDef** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,14 +37,14 @@ Supprime l'objet **TableDef** spécifié de la collection **TableDefs**.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Nom de l'objet TableDef à supprimer.</p></td>

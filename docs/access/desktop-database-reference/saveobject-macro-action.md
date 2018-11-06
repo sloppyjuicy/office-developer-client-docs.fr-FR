@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 77fc87ac989d34f5a4e774555c54955cf0bd805e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 33180aa296fc40c05a3fc50da697aadbf6ada77e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931350"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997160"
 ---
 # <a name="saveobject-macro-action"></a>SaveObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **EnregistrerObjet** pour enregistrer un objet Access spécifié ou l'objet actif si aucun n'est spécifié. Vous pouvez également enregistrer l'objet actif sous un nouveau nom dans certains cas (cela équivaut à utiliser la commande **Enregistrer sous** dans la **barre d'outils Accès rapide**).
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 
@@ -62,27 +58,16 @@ L'action **EnregistrerObjet** utilise les arguments suivants :
 
 L'action **EnregistrerObjet** s'applique à tous les objets de base de données que l'utilisateur peut explicitement ouvrir et enregistrer. L'objet spécifié doit être ouvert pour que l'action **EnregistrerObjet** puisse être appliquée à celui-ci. Cette action équivaut à sélectionner un objet puis à l'enregistrer en cliquant sur **Enregistrer** dans la **barre d'outils Accès rapide**. En laissant l'argument **Type d'objet** vide et en spécifiant un nouveau nom dans l'argument **Nom de l'objet**, vous obtenez le même résultat qu'en cliquant sur **Enregistrer sous** dans la **barre d'outils Accès rapide** et en indiquant un nouveau nom pour l'objet actif. L'utilisation de l'action **EnregistrerObjet** vous permet de spécifier un objet à enregistrer et d'exécuter une commande **Enregistrer sous** à partir d'une macro.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne pouvez pas utiliser l'action <STRONG>EnregistrerObjet</STRONG> pour enregistrer un des éléments suivants sous un nouveau nom :</P>
-
-
-
-  - Un formulaire en mode Formulaire ou en mode Feuille de données.
-
-  - Un état en mode Aperçu avant impression.
-
-  - Un module.
-
-  - Une vue serveur en mode Feuille de données ou Aperçu avant impression.
-
-  - Une page d'accès aux données en mode Page.
-
-  - Une table en mode Feuille de données ou Aperçu avant impression.
-
-  - Une requête en mode Feuille de données ou Aperçu avant impression.
-
-  - Une procédure stockée en mode Feuille de données ou Aperçu avant impression.
+> [!REMARQUE] Vous ne pouvez pas utiliser l'action **EnregistrerObjet** pour enregistrer un des éléments suivants sous un nouveau nom :
+> - Un formulaire en mode formulaire ou mode feuille de données
+> - Un état en mode Aperçu avant impression
+> - Un module
+> - Une vue serveur en mode feuille de données ou Aperçu avant impression
+> - Page en mode Page d’accès aux données
+> - Une table en mode feuille de données ou Aperçu avant impression
+> - Une requête en mode feuille de données ou Aperçu avant impression
+> - Une procédure stockée en mode feuille de données ou Aperçu avant impression
 
 L'action **EnregistrerObjet** enregistre toujours l'objet spécifié ou l'objet actif dans la base de données qui a servi à créer l'objet, que cette action soit effectuée dans une macro exécutée dans la base de données active ou une base de données bibliothèque.
 

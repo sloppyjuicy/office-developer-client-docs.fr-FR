@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4e7bd39d3329c83ec2a26fbef11e3a3b4e51e760
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 95b12df62fe47779c1867a291018726ada299390
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921301"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998930"
 ---
 # <a name="indexclustered-property-dao"></a>Propriété Index.Clustered (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -38,12 +37,8 @@ Certains formats de base de données de bureau IISAM utilisent les index cluster
 
 La propriété **Clustered** est en lecture/écriture pour un nouvel objet **Index** qui n'a pas encore été ajouté à une collection et en lecture seule pour un objet **Index** existant d'une collection **Indexes**.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Les bases de données du moteur de base de données Microsoft Access ignorent la propriété <STRONG>Clustered</STRONG> car ce moteur ne prend pas en charge les index cluster.</P>
-> <LI>
-> <P>En ce qui concerne les sources de données ODBC, la propriété <STRONG>Clustered</STRONG> renvoie toujours la valeur <STRONG>False</STRONG>. Elle ne détecte pas si la source de données ODBC possède un index cluster.</P></LI></UL>
+> - Les bases de données du moteur de base de données Microsoft Access ignorent la propriété **Clustered** car ce moteur ne prend pas en charge les index cluster.
+> - Pour les sources de données ODBC, la propriété **Clustered** renvoie toujours **False**; Il ne détecte pas si la source de données ODBC a un index cluster.
 
 

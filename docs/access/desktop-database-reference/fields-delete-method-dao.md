@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4faa23fa2b7bdedc85bba5151c04a804a560155e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ffeb9594dda7a041758659fd1a88ee6adfa02403
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923671"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997601"
 ---
 # <a name="fieldsdelete-method-dao"></a>Méthode Fields.Delete (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Supprime un objet **[Field](field-object-dao.md)** de la collection **[Fields](f
 
 *expression* Variable qui représente un objet **Fields** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Supprime un objet **[Field](field-object-dao.md)** de la collection **[Fields](f
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Champ à supprimer.</p></td>

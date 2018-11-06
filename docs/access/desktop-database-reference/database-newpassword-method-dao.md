@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 567a8901b06bf73a57addc8907e2eb5517e5c2e4
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e72d879482c3ed69b262f2f4d0f07a4e11f8fa4c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949515"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998937"
 ---
 # <a name="databasenewpassword-method-dao"></a>Méthode Database.NewPassword (DAO)
 
@@ -41,7 +41,7 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

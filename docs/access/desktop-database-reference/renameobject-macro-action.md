@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 88009020fb320c823f9ca4c1688a0f2bfdecbd44
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7d47a59bc82cb6f603fc52d45c675eb8e2877f91
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931007"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998965"
 ---
 # <a name="renameobject-macro-action"></a>RenameObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **RenommerObjet** pour renommer un objet de base de données spécifique.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.
 
 ## <a name="setting"></a>Valeur
 
@@ -58,13 +54,7 @@ L'action **RenommerObjet** utilise les arguments suivants :
 <td><p><strong>Ancien nom</strong></p></td>
 <td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide. 
 
-</p>
-
-> [!NOTE]
-> <P>Si vous exécutez une macro contenant l’action <STRONG>Renommer</STRONG> dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet de ce nom dans la base de données bibliothèque, puis dans la base de données active.</P>
-
-
-<p></p></td>
+</p><p><strong>Remarque</strong>: Si vous exécutez une macro contenant l’action <STRONG>Renommer</STRONG> dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet portant ce nom dans la base de données bibliothèque, puis dans la base de données en cours.</p></td>
 </tr>
 </tbody>
 </table>

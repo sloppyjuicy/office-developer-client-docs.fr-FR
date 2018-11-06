@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a226cca2c37a6e404275c246f2e506b500a58d2b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 79f4e59309a4f224498421f2407df187d3b9e728
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919625"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998065"
 ---
 # <a name="copyobject-macro-action"></a>CopyObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **CopierObjet** pour copier l'objet de base de données spécifié dans une autre base de données Access ou dans la même base ou projet Access mais sous un nouveau nom. Par exemple, vous pouvez copier ou enregistrer un objet existant dans une autre base de données ou créer rapidement un objet similaire en n'apportant que quelques modifications.
 
-
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 
@@ -50,12 +46,7 @@ L'action **CopierObjet** possède les arguments suivants.
 <td><p><strong>Base de données de destination</strong></p></td>
 <td><p>Chemin d’accès valide et nom de fichier de la base de données de destination. Entrez le chemin d’accès et le nom de fichier dans la zone <strong>Base de données de destination</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide si vous souhaitez sélectionner la base de données active. 
 
-</p>
-
-> [!NOTE]
-> Cet argument n’est disponible que dans l’environnement de base de données Access. Si cette action est utilisée dans un environnement de projet Access (.adp), l’argument Base de données de destination doit être vide.
-
-
+</p><p><strong>Remarque</strong>: cet argument n’est disponible dans l’environnement de base de données Access. Lorsque vous utilisez cette action dans un environnement de projet Access (.adp), l’argument de base de données de Destination doit être vide.</p>
 <p>Si vous exécutez une macro contenant l’action <strong>CopierObjet</strong> dans une base de données bibliothèque et que vous laissez cet argument vide, Microsoft Office Access 2007 copie l’objet dans la base de données bibliothèque.</p></td>
 </tr>
 <tr class="even">
@@ -82,17 +73,14 @@ Si vous laissez les arguments **Type d'objet source** et **Nom de l'objet source
 
 L'action **CopierObjet** équivaut à réaliser les étapes suivantes manuellement :
 
-1.  Sélectionnez un objet dans le volet de navigation.
+1. Sélectionnez un objet dans le volet de navigation.
 
-2.  Sous l'onglet Home, dans le groupe Clipboard, cliquez sur Copy.
+2. Sous l'onglet Home, dans le groupe Clipboard, cliquez sur Copy.
 
-3.  Sous le même onglet, cliquez sur **Coller**.La boîte de dialogue **Coller sous** s'affiche afin que vous puissiez donner un nouveau nom à l'objet. L'action **CopierObjet** effectue toutes ces étapes automatiquement.
-
+3. Sous le même onglet, cliquez sur **Coller**.La boîte de dialogue **Coller sous** s'affiche afin que vous puissiez donner un nouveau nom à l'objet. L'action **CopierObjet** effectue toutes ces étapes automatiquement.
 
 > [!NOTE]
 > [!REMARQUE] Lors de la copie des pages d'accès aux données, l'action **CopierObjet** copie uniquement le lien vers le fichier .htm associé, pas le fichier lui-même.
-
-
 
 Le chemin d'accès et le nom de fichier de la base de données de destination doivent exister préalablement à l'exécution de l'action **CopierObjet** par la macro. S'ils n'existent pas, Access affiche un message d'erreur.
 
@@ -102,11 +90,11 @@ Vous pouvez également copier manuellement un objet sélectionné dans le volet 
 
 Pour copier manuellement un objet dans une base de données Access différente :
 
-1.  Sous l'onglet **Données externes**, dans le groupe **Exporter**, cliquez sur **Autres**, puis cliquez sur **Base de données Access**.
+1. Sous l'onglet **Données externes**, dans le groupe **Exporter**, cliquez sur **Autres**, puis cliquez sur **Base de données Access**.
 
-2.  Dans la boîte de dialogue **Exportation - Base de données Access**, entrez le nom de fichier de la base de données de destination.- ou -Cliquez sur **Parcourir** pour afficher la boîte de dialogue **Enregistrer**, recherchez la base de données de destination, puis cliquez sur **Enregistrer**.
+2. Dans la boîte de dialogue **Exportation - Base de données Access**, entrez le nom de fichier de la base de données de destination.- ou -Cliquez sur **Parcourir** pour afficher la boîte de dialogue **Enregistrer**, recherchez la base de données de destination, puis cliquez sur **Enregistrer**.
 
-3.  Dans la boîte de dialogue **Exportation - Base de données Access**, cliquez sur **OK**. La boîte de dialogue **Exporter** s'affiche.
+3. Dans la boîte de dialogue **Exportation - Base de données Access**, cliquez sur **OK**. La boîte de dialogue **Exporter** s'affiche.
 
-4.  Dans la boîte de dialogue **Exporter**, entrez le nom de l'objet dans la base de données de destination. Choisissez les options appropriées, comme **Définition et données** ou **Définition uniquement** pour les tables. Lorsque vous avez terminé, cliquez sur **OK**.
+4. Dans la boîte de dialogue **Exporter**, entrez le nom de l'objet dans la base de données de destination. Choisissez les options appropriées, comme **Définition et données** ou **Définition uniquement** pour les tables. Lorsque vous avez terminé, cliquez sur **OK**.
 

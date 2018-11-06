@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
 ms:contentKeyID: 48548638
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b746ba3d8acfd8f32b20ed41f8f7bffe1b4d3b12
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 27d4650dcbb8b286e5f07c9e4e2418f4ec7e2b0a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950194"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997839"
 ---
 # <a name="databasecreateproperty-method-dao"></a>Méthode Database.CreateProperty (DAO)
 
@@ -37,7 +37,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

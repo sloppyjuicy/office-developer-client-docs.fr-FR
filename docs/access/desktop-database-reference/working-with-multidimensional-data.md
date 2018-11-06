@@ -1,20 +1,19 @@
 ---
 title: Utilisation de données multidimensionnelles
-TOCTitle: Working with Multidimensional Data
+TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2210799fe46a0993a917a85a0e06a1a806b04548
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1fc86aa61b9dda9db2246b7b5720eed31a595ea0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945823"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998692"
 ---
 # <a name="working-with-multidimensional-data"></a>Utilisation de données multidimensionnelles
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -28,35 +27,27 @@ Une *cellule* est un objet placé à l’intersection des coordonnées des axes.
 
 Par exemple, un cube contient les six dimensions suivantes (notez que ce schéma de cube est légèrement différent de celui donné dans la rubrique [Présentation des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md)) :
 
-  - Vendeur
-
-  - Géographie (hiérarchie naturelle)  Continents, Pays, États, etc.
-
-  - Trimestres  Trimestres, Mois, Jours
-
-  - Années
-
-  - Mesures  Ventes, ChangementPourcentage, VentesBudget
-
-  - Produits
-
+- Vendeur
+- Géographie (hiérarchie naturelle)  Continents, Pays, États, etc.
+- Trimestres  Trimestres, Mois, Jours
+- Années
+- Mesures  Ventes, ChangementPourcentage, VentesBudget
+- Produits
 
 > [!NOTE]
-> <P>[!REMARQUE] Les valeurs de cellule de l'exemple peuvent être affichées sous forme de paires classées de valeurs ordinales de position sur les axes où le premier chiffre représente la position sur l'axe des x et le second la position sur l'axe des y.</P>
-
-
+> [!REMARQUE] Les valeurs de cellule de l'exemple peuvent être affichées sous forme de paires classées de valeurs ordinales de position sur les axes où le premier chiffre représente la position sur l'axe des x et le second la position sur l'axe des y.
 
 Cet ensemble de cellules présente les caractéristiques suivantes :
 
-  - Dimensions des axes : Trimestres, Vendeur, Géographie
+- Dimensions des axes : Trimestres, Vendeur, Géographie
 
-  - Dimensions de filtrage : Mesures, Années, Produits
+- Dimensions de filtrage : Mesures, Années, Produits
 
-  - Deux axes : COLONNE (x ou Axe 0) et LIGNE (y ou Axe 1)
+- Deux axes : COLONNE (x ou Axe 0) et LIGNE (y ou Axe 1)
 
-  - axe des x : deux dimensions imbriquées, Vendeur et Géographie
+- axe des x : deux dimensions imbriquées, Vendeur et Géographie
 
-  - axe des y : dimension Trimestres
+- axe des y : dimension Trimestres
 
 L'axe des x comprend deux dimensions imbriquées : Vendeur et Géographie. Quatre membres de la dimension Géographie sont sélectionnés : Seattle, Boston, USA-South et Japan. Deux membres de la dimension Vendeur sont sélectionnés : Valentine et Nash. Ceci produit un total de huit positions sur cet axe (8 = 4\*2).
 

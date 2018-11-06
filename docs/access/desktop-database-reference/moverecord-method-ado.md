@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250217(v=office.15)
 ms:contentKeyID: 48548588
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 296232b05041c1e059b5134fdde11fceac4e3d43
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 022db96a00253793505df6e89603070a6d429a8d
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949893"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998867"
 ---
 # <a name="moverecord-method-ado"></a>MoveRecord, méthode (ADO)
 
@@ -44,16 +44,12 @@ Les valeurs de la *Source* et de *Destination* ne doivent pas être identiques 
 
 Pour les fichiers déplacés à l'aide du fournisseur de la publication Internet, cette méthode met à jour tous les liens hypertexte dans les fichiers déplacés sauf indication contraire précisée dans *Options*. Cette méthode échoue si *Destination* identifie un objet existant (fichier ou répertoire, par exemple), à moins que **adMoveOverWrite** soit spécifié.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Soyez prudent lorsque vous utilisez l'option <STRONG>adMoveOverWrite</STRONG>. Si, par exemple, vous spécifiez cette option lorsque vous déplacez un fichier vers un répertoire, le répertoire est supprimé et remplacé par le fichier.</P>
-
-
+> [!REMARQUE] Soyez prudent lorsque vous utilisez l'option **adMoveOverWrite**. Si, par exemple, vous spécifiez cette option lorsque vous déplacez un fichier vers un répertoire, le répertoire est supprimé et remplacé par le fichier.
 
 Certains attributs de l’objet **Record** , telles que la propriété [ParentURL](parenturl-property-ado.md) , ne seront pas mis à jour une fois cette opération terminée. Actualiser les propriétés de l’objet **Record** en fermant l' **enregistrement**, puis rouvrir avec l’URL de l’emplacement où le fichier ou répertoire a été déplacé.
 
 Si l'objet **Record** a été obtenu d'un objet [Recordset](recordset-object-ado.md), le nouvel emplacement du fichier ou répertoire déplacé n'est pas directement reflété dans l'objet **Recordset**. Actualisez l'objet **Recordset** en le fermant puis en le rouvrant.
-
 
 > [!NOTE]
 > [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).

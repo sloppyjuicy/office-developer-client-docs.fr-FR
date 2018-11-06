@@ -10,23 +10,21 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 65072fcc418e6a75ea1684c6830f3acfc4875aee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3ed8580d95128dae475a6d5fe3963f7daaad53f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921942"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997258"
 ---
 # <a name="deleteobject-macro-action"></a>DeleteObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **SupprimerObjet** pour supprimer un objet de base de données spécifique.
 
-
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 
@@ -55,12 +53,8 @@ L'action **SupprimerObjet** possède les arguments suivants.
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > [!ATTENTION] Si vous laissez les zones **Type d'objet** et **Nom de l'objet** vides, Access supprime l'objet sélectionné dans le volet de navigation sans afficher de message d'avertissement lorsqu'il rencontre l'action **SupprimerObjet**.
-
-
 
 ## <a name="remarks"></a>Remarques
 

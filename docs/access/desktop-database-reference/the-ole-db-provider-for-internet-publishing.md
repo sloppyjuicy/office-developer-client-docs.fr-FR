@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 536acebd305927cffe50e742245be97a48242796
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 7315df5a20cf032fc256f03893531f58857d470a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945746"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998664"
 ---
 # <a name="ole-db-provider-for-internet-publishing"></a>Fournisseur OLE DB pour la publication Internet
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -48,11 +47,8 @@ Il existe trois façons de connecter ADO au fournisseur de publication Internet 
     objConn.Open "https://servername" 
   ```
 
-
 > [!NOTE]
-> <P>Si Msdaipp.dso est explicitement spécifié comme valeur du fournisseur, avec le mot clé string de <EM>fournisseur de</EM> connexion ou de la propriété <STRONG>Provider</STRONG> , vous ne pouvez pas utiliser « URL = » dans la chaîne de connexion. Cela générerait une erreur. Au lieu de cela, spécifiez simplement l’URL comme indiqué ci-dessus.</P>
-
-
+> Si Msdaipp.dso est explicitement spécifié comme valeur du fournisseur, avec le mot clé string de *fournisseur de* connexion ou de la propriété **Provider** , vous ne pouvez pas utiliser « URL = » dans la chaîne de connexion. Cela générerait une erreur. Au lieu de cela, spécifiez simplement l’URL comme indiqué précédemment dans cette rubrique.
 
 Pour plus d'informations sur le fournisseur de publication Internet, consultez [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md) ou la documentation du composant accompagnant l'application source avec laquelle le fournisseur OLE DB pour la publication Internet a été installé : Windows 2000, Office 2000 ou Internet Explorer 5.0.
 

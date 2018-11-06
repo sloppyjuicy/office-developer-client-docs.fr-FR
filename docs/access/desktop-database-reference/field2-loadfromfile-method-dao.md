@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ba28bc092a09bc4a2899923957a54670abf30d58
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936612"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996929"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
 
@@ -33,7 +33,7 @@ Version ajoutée : Access 2007
 
 *expression* Variable qui représente un objet **Field2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -45,14 +45,14 @@ Version ajoutée : Access 2007
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>FileName</p></td>
+<td><p><em>FileName</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Chemin d'accès complet du fichier à charger.</p></td>

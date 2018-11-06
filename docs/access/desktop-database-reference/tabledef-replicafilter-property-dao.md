@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dbd8ecc670742d6b9f88dd9c608d2304e26a8d09
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dc8f9103cffb4df4a4db327da9c8ff36e3ec2555
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929663"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997804"
 ---
 # <a name="tabledefreplicafilter-property-dao"></a>Propriété TableDef.ReplicaFilter (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -78,11 +77,8 @@ Si votre application modifie les filtres de réplica, procédez comme suit :
 
 Pour supprimer un filtre, affectez à la propriété **ReplicaFilter** la valeur **False**. Si vous supprimez tous les filtres et que vous appelez la méthode **PopulatePartial**, aucun enregistrement n'apparaîtra dans les tables répliquées du réplica partiel.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si un filtre de réplica a été modifié et que la méthode <STRONG>Synchronize</STRONG> est exécutée sans avoir préalablement appelé la méthode <STRONG>PopulatePartial</STRONG>, une erreur piégeable se produit.</P>
-
-
+> [!REMARQUE] Si un filtre de réplica a été modifié et que la méthode **Synchronize** est exécutée sans avoir préalablement appelé la méthode **PopulatePartial**, une erreur piégeable se produit.
 
 ## <a name="example"></a>Exemple
 

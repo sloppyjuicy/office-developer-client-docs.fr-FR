@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c284c39c69a337a940ea09d396328bd8a01d01dd
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 62229a06405c1c7dabc9826b8b03823df5cc1f05
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928795"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996628"
 ---
 # <a name="readystate-property-rds"></a>ReadyState, propriété (RDS)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -52,12 +51,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!REMARQUE] Chaque fichier exécutable côté client utilisant ces constantes doit fournir les déclarations correspondantes. Vous pouvez couper et coller les déclarations de constante dont vous avez besoin dans le fichier Adcvbs.inc placé dans le dossier C:\Program Files\Common Files\System\MSADC.</P>
-
-
+> [!REMARQUE] Chaque fichier exécutable côté client utilisant ces constantes doit fournir les déclarations correspondantes. Vous pouvez couper et coller les déclarations de constante dont vous avez besoin dans le fichier Adcvbs.inc placé dans le dossier C:\Program Files\Common Files\System\MSADC.
 
 ## <a name="remarks"></a>Remarques
 

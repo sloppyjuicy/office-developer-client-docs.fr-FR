@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 7d3d2d5f76e087e428bc9211805c524ebe5247d9
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 274ec88483066b4e8dd4032501ecfcc6a662b134
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930447"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998139"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic pour Applications (VBA) spécifique à une certaine procédure. Il peut s'agir d'une procédure Sub, d'une procédure Function ou d'une procédure événementielle.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
@@ -57,11 +53,8 @@ L'action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous devez entrer un nom valide dans l'argument <STRONG>Nom du module</STRONG> ou <STRONG>Nom de la procédure</STRONG>.</P>
-
+> [!REMARQUE] Vous devez entrer un nom valide dans l'argument **Nom du module** ou **Nom de la procédure**.
 
 
 ## <a name="remarks"></a>Notes
@@ -74,11 +67,8 @@ Pour ouvrir une procédure privée, le module qui la contient doit être ouvert.
 
 Cette action revient à cliquer avec le bouton droit sur un module dans le volet de navigation et à cliquer ensuite sur **Mode Création**. Cette action vous permet également de spécifier un nom de procédure et de rechercher les modules standard dans une base de données de procédures.
 
-
 > [!TIP]
-> <P>[!CONSEIL] Vous pouvez sélectionner un module dans le volet de navigation et le faire glisser vers une ligne d'action de macro. Ceci crée automatiquement une action <STRONG>OuvrirModuleVisualBasic</STRONG> qui ouvre le module dans la section Déclarations.</P>
-
-
+> [!CONSEIL] Vous pouvez sélectionner un module dans le volet de navigation et le faire glisser vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirModuleVisualBasic** qui ouvre le module dans la section Déclarations.
 
 Pour exécuter l'action **OuvrirModuleVisualBasic** dans un module VBA, utilisez la méthode **OpenModule** de l'objet **DoCmd**.
 

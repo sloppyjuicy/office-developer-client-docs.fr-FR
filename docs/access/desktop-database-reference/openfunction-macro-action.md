@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2a9a96b22669889cf4dc51984fc3d3c9f7623428
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: a3a1ed5b08c9bf0b318baeebb7190868b90682f0
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930223"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998860"
 ---
 # <a name="openfunction-macro-action"></a>OpenFunction, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirFonction** pour ouvrir une fonction définie par l'utilisateur en mode Feuille de données, une fonction en ligne en mode Création, l'Éditeur de texte SQL (pour une fonction scalaire ou une fonction tabulaire définie par l'utilisateur) ou un Aperçu avant impression. Cette action exécute la fonction définie par l'utilisateur lorsqu'elle est ouverte en mode Feuille de données. Vous pouvez également sélectionner le mode de saisie de données pour la fonction définie par l'utilisateur et limiter les enregistrements que celle-ci affiche.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
@@ -68,11 +64,9 @@ Cette action équivaut à double-cliquer sur une fonction définie par l'utilisa
 
 Basculer en mode Création lorsque la fonction définie par l'utilisateur est ouverte supprime le paramètre de l'argument **Mode Données** de la fonction. Ce paramètre n'est pas actif, même si l'utilisateur revient en mode Feuille de données.
 
-**Conseils**
-
-  - Vous pouvez sélectionner une fonction définie par l'utilisateur dans le volet de navigation et la faire glisser vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirFonction** qui ouvre la fonction définie par l'utilisateur en mode Feuille de données.
-
-  - Si vous ne voulez pas afficher les messages système qui s'affichent normalement lorsqu'une fonction définie par l'utilisateur est exécutée (indiquant qu'il s'agit d'une fonction définie par l'utilisateur et affichant le nombre d'enregistrements concernés), vous pouvez faire appel à l'action **Avertissements** pour supprimer l'affichage de ces messages.
+> [!TIP]
+> - Vous pouvez sélectionner une fonction définie par l'utilisateur dans le volet de navigation et la faire glisser vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirFonction** qui ouvre la fonction définie par l'utilisateur en mode Feuille de données.
+> - Si vous ne voulez pas afficher les messages système qui s'affichent normalement lorsqu'une fonction définie par l'utilisateur est exécutée (indiquant qu'il s'agit d'une fonction définie par l'utilisateur et affichant le nombre d'enregistrements concernés), vous pouvez faire appel à l'action **Avertissements** pour supprimer l'affichage de ces messages.
 
 Pour exécuter l'action **OuvrirFonction** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **OpenFunction** de l'objet **DoCmd**.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 228c7d64d67b93a5f057c8d27c0f7a4fcc7d9064
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f8d245223549d51c49e769eedd0b92bb335357cf
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921550"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996992"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Méthode Field.GetChunk (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 
 *expression* Variable qui représente un objet **Field** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -42,20 +41,20 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets à ignorer avant que la copie ne commence.</p></td>
 </tr>
 <tr class="even">
-<td><p>Octets</p></td>
+<td><p><em>Octets</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets que vous souhaitez renvoyer.</p></td>
@@ -64,7 +63,7 @@ Renvoie tout ou partie du contenu d'un objet ****Field**** de type [Memo](field-
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Variant
 
@@ -76,11 +75,8 @@ Si le décalage est égal à 0, **GetChunk** commence la copie à partir du prem
 
 Si la valeur du paramètre NbOctets est supérieur au nombre d’octets dans le champ, **GetChunk** renvoie le nombre réel d’octets restant dans le champ.
 
-
 > [!NOTE]
 > [!REMARQUE] Utilisez un champ de type **Memo** pour du texte et placez les données binaires uniquement dans des champs de type **Long Binary**. Sinon, vous n'obtiendrez pas les résultats escomptés.
-
-
 
 ## <a name="example"></a>Exemple
 

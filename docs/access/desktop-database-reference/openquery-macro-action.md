@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1e5e031b0dc89626a40934cb42f8f54a0eb8d057
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: fe08f6c6ab0eba46f7fff2713403f56e82983357
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928109"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999063"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Faites appel à l'action **OuvrirRequête** pour ouvrir une requête Sélection ou Analyse croisée en mode Feuille de données, Création ou Aperçu avant impression. Cette action exécute une requête Action. Vous pouvez également sélectionner le mode de saisie des données voulu pour la requête.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action n'est disponible que dans l'environnement de base de données Access (.mdb ou .accdb). Reportez-vous aux actions <STRONG>OuvrirVue</STRONG>, <STRONG>OuvrirProcédureStockée</STRONG> ou <STRONG>OuvrirFonction</STRONG> si vous utilisez l'environnement de projet Access (.adp).</P>
-
-
+> [!REMARQUE] Cette action n'est disponible que dans l'environnement de base de données Access (.mdb ou .accdb). Reportez-vous aux actions **OuvrirVue**, **OuvrirProcédureStockée** ou **OuvrirFonction** si vous utilisez l'environnement de projet Access (.adp).
 
 ## <a name="setting"></a>Paramètre
 
@@ -68,11 +64,9 @@ Si l'argument **Affichage** a la valeur **Feuille de données**, Access affiche 
 
 L'action **OuvrirRequête** équivaut à double-cliquer sur la requête dans le volet de navigation ou à cliquer avec le bouton droit sur la requête dans le volet de navigation et à choisir un affichage. Cette action vous permet de sélectionner des options supplémentaires.
 
-**Conseils**
-
-  - Vous pouvez faire glisser une requête depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirRequête** qui ouvre la requête en mode Feuille de données. Basculer en mode Création lorsque la requête est ouverte supprime le paramètre de l'argument **Mode Données** de la requête. Ce paramètre n'est pas actif, même si l'utilisateur revient en mode Feuille de données.
-
-  - Si vous ne voulez pas afficher les messages système qui s'affichent normalement lorsqu'une requête d'action est exécutée (indiquant qu'il s'agit d'une requête d'action et affichant le nombre d'enregistrements concernés), vous pouvez faire appel à l'action **Avertissements** pour supprimer l'affichage de ces messages.
+> [!TIP]
+> - Vous pouvez faire glisser une requête depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirRequête** qui ouvre la requête en mode Feuille de données. Basculer en mode Création lorsque la requête est ouverte supprime le paramètre de l'argument **Mode Données** de la requête. Ce paramètre n'est pas actif, même si l'utilisateur revient en mode Feuille de données.
+> - Si vous ne voulez pas afficher les messages système qui s'affichent normalement lorsqu'une requête d'action est exécutée (indiquant qu'il s'agit d'une requête d'action et affichant le nombre d'enregistrements concernés), vous pouvez faire appel à l'action **Avertissements** pour supprimer l'affichage de ces messages.
 
 Pour exécuter l'action **OuvrirRequête** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **OpenQuery** de l'objet **DoCmd**.
 

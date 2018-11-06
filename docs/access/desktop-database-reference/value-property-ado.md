@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250310(v=office.15)
 ms:contentKeyID: 48548958
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 856f145c195c189775355fef662ea082ec629fd0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 6a61803648a0efa5f226b222fb54ce96c8aadbfe
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883938"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999056"
 ---
 # <a name="value-property-ado"></a>Value, propriété (ADO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,11 +29,8 @@ Utilisez la propriété **Valeur** pour définir ou renvoyer des données d'obje
 
 ADO permet de définir et de renvoyer des données binaires longues avec la propriété **Value**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Pour les objets <STRONG>Parameter</STRONG>, ADO lit la propriété <STRONG>Value</STRONG> une seule fois à partir du fournisseur. Si une commande contient un objet <STRONG>Parameter</STRONG> dont la propriété <STRONG>Value</STRONG> est vide et que vous créez un <A href="recordset-object-ado.md">Recordset</A> à partir de la commande, veillez à fermer le <STRONG>Recordset</STRONG> avant d'extraire la propriété <STRONG>Value</STRONG>. Sinon, pour certains fournisseurs, la propriété <STRONG>Value</STRONG> risque d'être vide ou de ne pas contenir la bonne valeur.</P>
-
-
+> [!REMARQUE] Pour les objets **Parameter**, ADO lit la propriété **Value** une seule fois à partir du fournisseur. Si une commande contient un objet **Parameter** dont la propriété **Value** est vide et que vous créez un [Recordset](recordset-object-ado.md) à partir de la commande, veillez à fermer le **Recordset** avant d'extraire la propriété **Value**. Sinon, pour certains fournisseurs, la propriété **Value** risque d'être vide ou de ne pas contenir la bonne valeur.
 
 Pour les nouveaux objets **Field** ajoutés à la collection [Fields](fields-collection-ado.md) d'un objet [Record](record-object-ado.md), la propriété **Value** doit être définie avant les propriétés **Field**. Il faut d'abord attribuer une valeur spécifique à la propriété **Value** et appeler [Update](update-method-ado.md) sur la collection **Fields**. Il sera alors possible d'accéder aux autres propriétés comme [Type](type-property-ado.md) ou [Attributes](attributes-property-ado.md).
 

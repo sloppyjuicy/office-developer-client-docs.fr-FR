@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f0c0ba73274d6f27a9e2a857aea1061416168f3a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922915"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997447"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject, action de macro
 
@@ -24,7 +24,7 @@ ms.locfileid: "25922915"
 Vous pouvez utiliser l'action **EnvoyerObjetBaseDeDonnées** pour inclure une feuille de données, un formulaire, un état, un module ou une page d'accès aux données Microsoft Access spécifié dans un message électronique, dans lequel il peut être affiché ou transféré.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="settings"></a>Paramètres
 
@@ -112,7 +112,7 @@ Pour exécuter l'action **EnvoyerObjetBaseDeDonnées** dans un module Visual Bas
 
 **Lien fourni par** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), le fondateur et président de FMS, Inc., des principaux fournisseurs de solutions de base de données personnalisée et des outils de développement.
 
-  - [Fonctionnalités et limites d’utilisation de la méthode SendObject pour envoyer](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [Fonctionnalités et limites d’utilisation de la méthode SendObject pour envoyer](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

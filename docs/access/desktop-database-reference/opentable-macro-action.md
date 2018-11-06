@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 451d27f97c0b4f5fc4707d3947e262ba84b9a40e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d80065c976a014ccf379bdc2016b0324cb02b269
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926100"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998146"
 ---
 # <a name="opentable-macro-action"></a>OpenTable, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -55,16 +54,12 @@ L'action **OuvrirTable** possède les arguments suivants.
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Notes
 
 Cette action équivaut à double-cliquer sur la table dans le volet de navigation ou à cliquer dessus avec le bouton droit dans le volet de navigation, puis à choisir un affichage.
 
-
 > [!TIP]
-> <P>[!CONSEIL] Vous pouvez faire glisser une table depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action <STRONG>OuvrirTable</STRONG> qui ouvre la table en mode Feuille de données.</P>
-
-
+> [!CONSEIL] Vous pouvez faire glisser une table depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirTable** qui ouvre la table en mode Feuille de données.
 
 Pour exécuter l'action **OuvrirTable** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **OpenTable** de l'objet **DoCmd**.
 

@@ -1,6 +1,6 @@
 ---
 title: Propriété Index.Primary (DAO)
-TOCTitle: Primary Property
+TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197416(v=office.15)
 ms:contentKeyID: 48546336
@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2ef796ca15ea551010ebf3605a6662bf66d83131
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ff99f60fce41c7fa7de604a5109e68f6f744e68a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921879"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997643"
 ---
 # <a name="indexprimary-property-dao"></a>Propriété Index.Primary (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Définit ou renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente un index de clé primaire pour une table (espaces de travail Microsoft Access uniquement).
 
@@ -37,11 +35,8 @@ Le paramètre de propriété **Primary** est en lecture/écriture pour un nouvel
 
 Un index de clé primaire consiste en un ou plusieurs champs qui identifient de manière unique tous les enregistrements d'une table dans un ordre prédéfini. Étant donné que le champ d'index doit être unique, la propriété **[Unique](index-unique-property-dao.md)** de l'objet **Index** est définie sur **True**. Si l'index de clé primaire est constitué de plusieurs champs, chaque champ peut contenir des valeurs dupliquées, mais chaque combinaison de valeurs de tous les champs indexés doit être unique. Un index de clé primaire est constitué d'une clé pour la table et renferme généralement les mêmes champs que la clé primaire.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] La création d'index n'est pas obligatoire pour les tables, mais l'accès à un enregistrement spécifique dans des grandes tables non indexées peut prendre beaucoup de temps. La propriété <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de chaque objet <STRONG><A href="field-object-dao.md">Field</A></STRONG> de l'objet <STRONG>Index</STRONG> détermine l'ordre des enregistrements et, par conséquent, les techniques d'accès à utiliser pour cet index. Lorsque vous créez une nouvelle table dans votre base de données, il est recommandé de créer un index sur un ou plusieurs champs qui identifie chaque enregistrement de manière unique, puis de définir la propriété <STRONG>Primary</STRONG> de l'objet <STRONG>Index</STRONG> sur <STRONG>True</STRONG>.</P>
-
-
+> [!REMARQUE] La création d'index n'est pas obligatoire pour les tables, mais l'accès à un enregistrement spécifique dans des grandes tables non indexées peut prendre beaucoup de temps. La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** de l'objet **Index** détermine l'ordre des enregistrements et, par conséquent, les techniques d'accès à utiliser pour cet index. Lorsque vous créez une nouvelle table dans votre base de données, il est recommandé de créer un index sur un ou plusieurs champs qui identifie chaque enregistrement de manière unique, puis de définir la propriété **Primary** de l'objet **Index** sur **True**.
 
 Lorsque vous définissez une clé primaire pour une table, la clé primaire est automatiquement définie comme index de clé primaire de la table.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: df7533376bf6f6d3c5387173a90c7d5e1a5013cd
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950046"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998720"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Méthode DBEngine.CompactDatabase (DAO)
 
@@ -44,7 +44,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

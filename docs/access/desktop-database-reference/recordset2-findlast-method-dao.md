@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195400(v=office.15)
 ms:contentKeyID: 48545428
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c780a3a379e94ec5a166428afee0a01e001718a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: cf0b964de6e9bbf529faa0ef1391ddcd5deafc05
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920052"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997188"
 ---
 # <a name="recordset2findlast-method-dao"></a>Méthode Recordset2.FindLast (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,14 +37,14 @@ Recherche le dernier enregistrement dans un objet **[Recordset](recordset-object
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Critères</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Données de type String utilisées pour localiser l'enregistrement. S'apparente à la clause WHERE d'une instruction SQL sans toutefois le mot WHERE.</p></td>
@@ -117,14 +116,11 @@ rstEmployees.FindFirst "HireDate > #" _
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si l’argument critères se compose d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix \> » & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez de Appelez la méthode. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
-
+> [!NOTE]
+> Si l’argument critères se compose d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix \> » & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez de Appelez la méthode. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Pour optimiser les performances, les <EM>critères</EM> doivent être dans un le formulaire «<EM>champ</EM> = <EM>valeur</EM>» où <EM>champ</EM> représente un champ indexé dans la table de base sous-jacente, ou «<EM>champ</EM> LIKE <EM>préfixe » où <EM>le champ</EM> est</EM>un les champs indexés dans la table de base sous-jacente et le <EM>préfixe</EM> est une chaîne de recherche de préfixe (par exemple, « ART * »).</P>
-> <LI>
-> <P>En règle générale, pour des types de recherches équivalents, la méthode <STRONG>Seek</STRONG> offre de meilleures performances que la méthode <STRONG>Find</STRONG>. Cela suppose que les objets <STRONG>Recordset</STRONG> de type table peuvent à eux seuls répondre à vos besoins.</P></LI></UL>
+> - Pour optimiser les performances, les *critères** doit être soit le formulaire «*champ* = *valeur*» où *champ* représente un champ indexé dans la table de base sous-jacente, ou «*champ* LIKE *préfixe » où *le champ* est*un les champs indexés dans la table de base sous-jacente et le *préfixe* est une chaîne de recherche de préfixe (par exemple, « ART * »).
+> - En règle générale, pour des types de recherches équivalents, la méthode **Seek** offre de meilleures performances que la méthode **Find**. Cela suppose que les objets **Recordset** de type table peuvent à eux seuls répondre à vos besoins.
 
 

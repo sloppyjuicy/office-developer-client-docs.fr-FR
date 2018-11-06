@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5774eb4c9965cad7679d37754fd9a1f431ddaa48
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3bb08ff90bb6a9981ef0d25c3beb1652a9415a34
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923412"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996894"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Méthode Workspace.CreateDatabase (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 *expression* Variable qui représente un objet **Workspace** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Une chaîne ne pouvant dépasser 255 caractères qui est le nom du fichier de base de données que vous créez. Il peut être le nom de fichier et chemin d’accès complet. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1&quot;. Vous pouvez uniquement créer des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
-<td><p>Connexion</p></td>
+<td><p><em>Connect</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><ul>
@@ -64,7 +63,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>Option</p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Constante ou combinaison de constantes qui indique une ou plusieurs options, comme spécifié dans la section Remarques. Vous pouvez combiner des options en associant les constantes correspondantes.</p></td>
@@ -176,6 +175,7 @@ Vous pouvez utiliser l’une des constantes suivantes pour l’argument Paramèt
 </tbody>
 </table>
 
+<br/>
 
 Vous pouvez utiliser une ou plusieurs des constantes suivantes dans l'argument options pour indiquer la version du format de données et préciser s'il faut chiffrer ou non la base de données.
 
@@ -222,6 +222,7 @@ Vous pouvez utiliser une ou plusieurs des constantes suivantes dans l'argument o
 </tbody>
 </table>
 
+<br/>
 
 Si vous omettez la constante de chiffrement, **CreateDatabase** crée une base de données non chiffrée.
 

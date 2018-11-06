@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3bde47da0bea38ac6ce71ae88a95b756fce6aa2f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 75e0422b6c6fcd2f893777884d35bade81a793f6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929376"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997041"
 ---
 # <a name="stream-object-ado"></a>Stream, objet (ADO)
 
@@ -22,7 +22,7 @@ Représente un flux de données binaires ou de texte.
 
 ## <a name="remarks"></a>Notes
 
-Dans les hiérarchies en arborescence comme un système de fichiers ou un système de courrier électronique, un objet [Record](record-object-ado.md) peut être associé à un flux de bits binaire par défaut, qui contient le fichier ou le message électronique. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
+Dans l’arborescence de hiérarchies comme un système de fichiers ou un système de messagerie, un [enregistrement](record-object-ado.md) peut être un par défaut binaire flux de bits associé qui renferme le contenu du fichier ou le courrier électronique. Un objet **Stream** peut être utilisé pour manipuler des champs ou des enregistrements contenant ces flux de données. Un objet **Stream** peut être obtenu de différentes façons :
 
   - À partir d'une URL pointant sur un objet (en général, un fichier) contenant des données binaires ou texte. Cet objet peut être un simple document, un objet **Record** représentant un document structuré ou un dossier.
 

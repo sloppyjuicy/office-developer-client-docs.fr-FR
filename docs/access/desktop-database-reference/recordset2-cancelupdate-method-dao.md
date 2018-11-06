@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13516830ddb9cb22e8e50872b51743ea5d54ab98
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e9679a39a8509bb73e9d788e776e208f3c899d3c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921487"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998405"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Méthode Recordset2.CancelUpdate (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Annule toutes les mises à jour en attente d'un objet **[Recordset](recordset-ob
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,22 +37,17 @@ Annule toutes les mises à jour en attente d'un objet **[Recordset](recordset-ob
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UpdateType</p></td>
+<td><p><em>UpdateType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Entier long</strong></p></td>
-<td><p>Affectez une des valeurs de <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p>
-
-> [!NOTE]
-> <P>Les <EM>valeurs de dbUpdateRegular</EM> et <EM>dbUpdateBatch ne</EM> sont valides uniquement si la mise à jour par lot est activée.</P>
-
-
+<td><p>Affectez une des valeurs de <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Remarque</strong>: les <EM>valeurs de dbUpdateRegular</EM> et <EM>dbUpdateBatch ne</EM> sont valides que si la mise à jour par lot est activée.</p>
 </td>
 </tr>
 </tbody>
@@ -66,11 +60,8 @@ Vous pouvez utiliser la méthode **CancelUpdate** pour annuler toutes les mises 
 
 Vérifiez la propriété **[EditMode](recordset2-editmode-property-dao.md)** de l'objet **Recordset** pour déterminer s'il existe une opération en attente qui peut être annulée.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'utilisation de la méthode <STRONG>CancelUpdate</STRONG> revient à accéder à un autre enregistrement sans utiliser la méthode <STRONG><A href="recordset2-update-method-dao.md">Update</A></STRONG>, à cette différence près que l'enregistrement actif ne change pas et que plusieurs propriétés, dont <STRONG><A href="recordset2-bof-property-dao.md">BOF</A></STRONG> et <STRONG><A href="recordset2-eof-property-dao.md">EOF</A></STRONG>, ne sont pas mises à jour.</P>
-
-
+> [!REMARQUE] L'utilisation de la méthode **CancelUpdate** revient à accéder à un autre enregistrement sans utiliser la méthode **[Update](recordset2-update-method-dao.md)**, à cette différence près que l'enregistrement actif ne change pas et que plusieurs propriétés, dont **[BOF](recordset2-bof-property-dao.md)** et **[EOF](recordset2-eof-property-dao.md)**, ne sont pas mises à jour.
 
 ## <a name="example"></a>Exemple
 

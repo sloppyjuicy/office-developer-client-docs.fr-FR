@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9b6986ca4baeda6adad4154538304c31e023390
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c69c04f5ef87a487f7e14ccb6f68bb487226df96
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925484"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997895"
 ---
 # <a name="recordset2requery-method-dao"></a>Méthode Recordset2.Requery (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -30,7 +29,7 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Défnouvellerequête</p></td>
+<td><p><em>Défnouvellerequête</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Représente la valeur de la propriété <strong>Name</strong> d’un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong></p></td>

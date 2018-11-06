@@ -12,15 +12,14 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 1a61512c58ccbde82072fa4d8105c82b9f145ebc
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ed31f0105d8381667e1398fc5d91577d40998d81
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937420"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998818"
 ---
 # <a name="union-operation-microsoft-access-sql"></a>UNION, opération (Microsoft Access SQL)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -69,15 +68,9 @@ Toutes les requêtes impliquées dans une opération UNION doivent interroger le
 
 N'utilisez des alias que dans la première instruction SELECT ; ils seront ignorés dans toutes les autres. Dans la clause ORDER BY, faites référence aux champs par leurs noms tels qu'ils sont spécifiés dans la première instruction SELECT.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous pouvez utiliser une clause <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> ou <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> dans chaque argument <EM>requête</EM> pour regrouper les données renvoyées.</P>
-> <LI>
-> <P>Vous pouvez utiliser une clause <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> à la fin du dernier argument <EM>requête</EM> pour afficher les données renvoyées selon un ordre déterminé.</P></LI></UL>
-
-
+> - Vous pouvez utiliser une clause [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) ou [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) dans chaque argument *requête* pour regrouper les données renvoyées.
+> - Vous pouvez utiliser une clause [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) à la fin du dernier argument *requête* pour afficher les données renvoyées selon un ordre déterminé.
 
 ## <a name="example"></a>Exemple
 

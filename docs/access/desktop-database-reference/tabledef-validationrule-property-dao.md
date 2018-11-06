@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a4b44545453d9ed92ae09c1d7722ae24ea35fd78
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 47dbb798a0b293f1651308de9aa2064e1c421a07
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926345"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996859"
 ---
 # <a name="tabledefvalidationrule-property-dao"></a>Propriété TableDef.ValidationRule (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -44,8 +43,5 @@ La propriété **ValidationRule** d'un objet **Recordset** ou **TableDef** peut 
 
 Pour un objet **TableDef** basé sur une table liée, la propriété **ValidationRule** hérite de la valeur de la propriété **ValidationRule** de la table de base sous-jacente. Si celle table ne prend pas en charge la validation, la valeur de cette propriété est une chaîne nulle ("").
 
-
 > [!NOTE]
-> <P>Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strRule = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque votre code tente de valider des données. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.</P>
-
-
+> Si vous définissez la propriété une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strRule = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque votre code tente de valider des données. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.

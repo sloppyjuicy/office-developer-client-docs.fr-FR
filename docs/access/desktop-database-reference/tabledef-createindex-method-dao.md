@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 73b6fb5c5a4b0b91904c92a1b445ddc41cb7c73e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931343"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997475"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Méthode TableDef.CreateIndex (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013 
 
@@ -30,7 +29,7 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 
 *expression* Variable qui représente un objet **TableDef** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -42,14 +41,14 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Type <strong>String</strong> qui identifie de façon unique le nouvel objet <strong>Index</strong>. Consultez la propriété <strong>Name</strong> pour plus d'informations sur les noms d'objets <strong>Index</strong> valides.</p></td>
@@ -58,7 +57,7 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Index
 

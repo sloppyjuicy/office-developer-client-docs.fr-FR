@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8ca2315a9a84000aa29b88043e4edea05ffb0ea
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 66dfe95aaa335e14b0148d2fcd610abc30556e3a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922824"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997496"
 ---
 # <a name="setfield-macro-action"></a>SetField, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un champ.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>DéfinirChamp</STRONG> est disponible uniquement dans les macros de données.</P>
-
-
+> [!REMARQUE] L'action **DéfinirChamp** est disponible uniquement dans les macros de données.
 
 ## <a name="setting"></a>Paramètre
 

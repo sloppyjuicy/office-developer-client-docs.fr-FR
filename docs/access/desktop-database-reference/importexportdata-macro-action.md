@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 847f23c429b06fee51b42aa211d672b051accb7c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 363945386233fd992390f1fbc4b6115e272dc923
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920395"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997615"
 ---
 # <a name="importexportdata-macro-action"></a>ImportExportData, action de macro
 
@@ -24,7 +24,7 @@ ms.locfileid: "25920395"
 L'action **ImporterExporterDonnées** permet d'importer ou d'exporter des données entre la base de données Access (.mdb ou .accdb) active, ou le projet Access (.adp) actif et une autre base de données. Pour les bases de données Microsoft Access, vous pouvez également attacher une table à la base de données Access active, à partir d'une autre base de données. Avec une table attachée, vous pouvez accéder aux données de la table sans déplacer celle-ci de l'autre base de données.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="settings"></a>Paramètres
 
@@ -44,13 +44,7 @@ L'action **ImporterExporterDonnées** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Type de transfert</strong></p></td>
-<td><p>Type de transfert à effectuer. Sélectionnez <strong>Importation</strong>, <strong>Exportation</strong>, ou <strong>Attache</strong> dans la zone <strong>Type de transfert</strong> de la section <strong>Arguments de l'action</strong> du Générateur de macro. La valeur par défaut est <strong>Importation</strong>.  </p>
-
-> [!NOTE]
-> Le type de transfert **Attache** n’est pas pris en charge dans les projets Access (.adp).
-
-
-<p></p></td>
+<td><p>Type de transfert à effectuer. Sélectionnez <strong>Importation</strong>, <strong>Exportation</strong>, ou <strong>Attache</strong> dans la zone <strong>Type de transfert</strong> de la section <strong>Arguments de l'action</strong> du Générateur de macro. La valeur par défaut est <strong>Importation</strong>.  </p><p><strong>Remarque</strong>: le type de transfert <strong>lien</strong> n’est pas pris en charge pour les projets Access (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Type de base de données</strong></p></td>

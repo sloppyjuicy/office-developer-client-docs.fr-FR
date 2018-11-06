@@ -6,19 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248871(v=office.15)
 ms:contentKeyID: 48543292
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 588f99d495716ca3c40376ce323d7c1557da9319
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0105fb67c095355e607c6c73fc73fc4c6b1050ed
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925799"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998189"
 ---
 # <a name="requery-method-ado"></a>Requery, méthode (ADO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
-
 
 Cette méthode met à jour les données d'un objet [Recordset](recordset-object-ado.md) en réexécutant la requête sur laquelle l'objet est basé.
 
@@ -26,17 +23,14 @@ Cette méthode met à jour les données d'un objet [Recordset](recordset-object-
 
 *jeu d’enregistrements*. Actualiser les *Options*
 
-## <a name="parameter"></a>Paramètre
+## <a name="parameters"></a>Paramètres
 
-  - *Options*
-
-  - Facultatif. Masque de bits contenant des valeurs [ExecuteOptionEnum](executeoptionenum.md) et [CommandTypeEnum](commandtypeenum.md) affectant cette opération.
-
+|Name |Description|
+|:----|:----------|
+|*Options* |Facultatif. Masque de bits contenant des valeurs [ExecuteOptionEnum](executeoptionenum.md) et [CommandTypeEnum](commandtypeenum.md) affectant cette opération.|
 
 > [!NOTE]
-> <P>Si <EM>Options</EM> a la valeur <STRONG>adAsyncExecute</STRONG>, cette opération est exécutée de façon asynchrone et un événement <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> est déclenché lorsqu’elle est terminée.</P>
-
-
+> Si *Options* a la valeur **adAsyncExecute**, cette opération est exécutée de façon asynchrone et un événement [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) est déclenché lorsqu’elle est terminée.
 
 Les valeurs **adExecuteNoRecords** ou **adExecuteStream** de l'énumération **ExecuteOpenEnum** ne doivent pas être utilisées avec **Requery**.
 

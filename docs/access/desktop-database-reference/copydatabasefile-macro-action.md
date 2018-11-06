@@ -6,24 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835963(v=office.15)
 ms:contentKeyID: 48548373
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0f2034bb4d8d1fbf3f1a0a37bf6adc7c8b8001bb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 330ae78b86c678b675cfd44afa75f72348ac582f
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925204"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998909"
 ---
 # <a name="copydatabasefile-macro-action"></a>CopyDatabaseFile, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Utilisez l'action **CopierFichierBaseDeDonnées** pour créer une copie de la base de données Microsoft SQL Server 7.0 (ou version supérieure) active attachée à votre projet Access. Access détache la base de données active, puis l’attache au serveur de destination. Pour plus d'informations sur les procédures permettant de détacher et d'attacher une base de données, voir la documentation de SQL Server.
 
-
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 
 ## <a name="setting"></a>Valeur
@@ -54,13 +51,7 @@ L'action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 <td><p><strong>Déconnecter tous les utilisateurs</strong></p></td>
 <td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>. 
 
-</p>
-
-> [!WARNING]
-> Si les utilisateurs sont déconnectés d’une base de données sans avertissement adéquat, des données risquent d’être perdues.
-
-
-<p></p></td>
+</p><p><strong>Avertissement</strong>: déconnexion des utilisateurs à partir d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,19 +65,17 @@ L'action **CopierFichierBaseDeDonnées** non seulement copie les données, les d
 
 Conditions requises pour la copie d'une base de données :
 
-  - vous devez déconnecter toutes les applications et tous les utilisateurs avant de copier le fichier de base de données ;
+- vous devez déconnecter toutes les applications et tous les utilisateurs avant de copier le fichier de base de données ;
 
-  - tous les objets et toutes les vues, à l'exception du volet de navigation, doivent être fermés ;
+- tous les objets et toutes les vues, à l'exception du volet de navigation, doivent être fermés ;
 
-  - la base de données active ne doit pas être répliquée ;
+- la base de données active ne doit pas être répliquée ;
 
-  - la base de données serveur source doit être une base de données Microsoft SQL Server 7.0 ou version supérieure ou une base de données SQL Server 2000 Desktop Engine exécutée sur un ordinateur local ;
+- la base de données serveur source doit être une base de données Microsoft SQL Server 7.0 ou version supérieure ou une base de données SQL Server 2000 Desktop Engine exécutée sur un ordinateur local ;
 
-<!-- end list -->
+- la base de données SQL Server sur le serveur source doit être un base de données à fichier unique ;
 
-  - la base de données SQL Server sur le serveur source doit être un base de données à fichier unique ;
-
-  - vous devez être membre du rôle sysadmin sur les ordinateurs SQL Server source et de destination.
+- vous devez être membre du rôle sysadmin sur les ordinateurs SQL Server source et de destination.
 
 Pour exécuter l'action **CopierFichierBaseDeDonnées** dans un module Visual Basic pour Applications, utilisez la méthode **CopyDatabaseFile** de l'objet **DoCmd**.
 

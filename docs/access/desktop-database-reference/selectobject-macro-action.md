@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f134a43aaa56a1b206330175658f92e5076a4a14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b34deff80157b3de63038251a649794587dacc85
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919289"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997412"
 ---
 # <a name="selectobject-macro-action"></a>SelectObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -46,13 +45,7 @@ L'action **SélectionnerObjet** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Nom de l'objet</strong></p></td>
-<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p>
-
-> [!NOTE]
-> <P>Les noms des objets <STRONG>Vue serveur</STRONG>, <STRONG>Schéma</STRONG> ou <STRONG>Procédure stockée</STRONG> ne sont pas affichés dans la zone <STRONG>Nom de l’objet</STRONG> d’un projet Access (.adp).</P>
-
-
-<p></p></td>
+<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>Remarque</strong>: les noms d’objets pour les objets <STRONG>Vue serveur</STRONG>, <STRONG>schéma</STRONG>ou <STRONG>Procédure stockée</STRONG> ne sont pas affichés dans la zone <STRONG>Nom de l’objet</STRONG> d’un projet Access (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dans le volet de navigation</strong></p></td>

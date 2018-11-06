@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb857e7eda7860150feb7af07babcc2574c3972f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dfd7877ff1db960afcbf864f1e72ff01b12e8f09
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929047"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998951"
 ---
 # <a name="restorewindow-macro-action"></a>RestoreWindow, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **RestaurerFenêtre** pour rétablir la taille initiale d'une fenêtre agrandie ou réduite.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété <STRONG>WindowState</STRONG>.</P>
-
-
+> [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.
 
 ## <a name="setting"></a>Paramètre
 

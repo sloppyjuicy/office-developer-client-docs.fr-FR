@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a458bc98ecfa2a88d1548449b9f555c3ddad3ab
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 3b54800ac8bd95a4bb4b93d395ddb12b51bc241a
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925575"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997216"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Méthode Recordset.FindNext (DAO)
 
@@ -25,7 +25,7 @@ Recherche l’enregistrement suivant dans un objet **[Recordset](recordset-objec
 
 *expression* Variable qui représente un objet **Recordset** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -37,14 +37,14 @@ Recherche l’enregistrement suivant dans un objet **[Recordset](recordset-objec
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Critères</p></td>
+<td><p><em>Criteria</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Chaîne</strong></p></td>
 <td><p>Données de type String utilisées pour localiser l'enregistrement. S'apparente à la clause WHERE d'une instruction SQL sans toutefois le mot WHERE.</p></td>

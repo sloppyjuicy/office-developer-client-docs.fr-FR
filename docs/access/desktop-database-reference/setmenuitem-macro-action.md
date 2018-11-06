@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ecdfcb638a471a91cc6249636748c02b341151b8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 342b4c38b6a48ad36dc6d62ee34900e6f2057d42
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922551"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996866"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **DéfinirElémentMenu** pour définir l'état des éléments de menu (activé, désactivé, sélectionné ou non sélectionné) dans les menus globaux ou personnalisés de l'onglet **Compléments**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>DéfinirElémentMenu</STRONG> fonctionne uniquement avec les menus personnalisés et globaux générés à l'aide de macros de menu. L'action <STRONG>DéfinirElémentMenu</STRONG> est incluse dans Microsoft Access à la seule fin de compatibilité avec les versions antérieures. Il ne fonctionne pas avec les fonctionnalités de la barre de commandes. Vous pouvez toutefois utiliser les propriétés <STRONG>Enabled</STRONG> et <STRONG>State</STRONG> dans un module Visual Basic pour Applications (VBA) afin de désactiver, d'activer, de sélectionner ou de désélectionner des éléments des menus contextuels ou des menus personnalisés ou globaux.</P>
-
-
+> [!REMARQUE] L'action **DéfinirElémentMenu** fonctionne uniquement avec les menus personnalisés et globaux générés à l'aide de macros de menu. L'action **DéfinirElémentMenu** est incluse dans Microsoft Access à la seule fin de compatibilité avec les versions antérieures. Il ne fonctionne pas avec les fonctionnalités de la barre de commandes. Vous pouvez toutefois utiliser les propriétés **Enabled** et **State** dans un module Visual Basic pour Applications (VBA) afin de désactiver, d'activer, de sélectionner ou de désélectionner des éléments des menus contextuels ou des menus personnalisés ou globaux.
 
 ## <a name="setting"></a>Valeur
 

@@ -1,20 +1,19 @@
 ---
-title: Programmation ADO Visual C++
-TOCTitle: Visual C++ ADO Programming
+title: Programmation ADO C++ visuelle
+TOCTitle: Visual C++ ADO programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7478a90e3c6242c68a1325b08e998f4c76a62f3d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 5278a998363359f4bd2aad14881865505ce45633
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944661"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998412"
 ---
 # <a name="visual-c-ado-programming"></a>Programmation ADO C++ visuelle
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ ADO est implémenté avec les interfaces COM (Component Object Model). Toutefois
 
 Les sections suivantes résument les détails pour les programmeurs C et C++ à l’aide d’ADO et ** \#importer** directive. Elle porte sur les types de données spécifiques à COM (**Variant**, **BSTR**et **SafeArray**) et gestion des erreurs (\_com\_erreur).
 
-## <a name="using-the-import-compiler-directive"></a>À l’aide de la \#importer la Directive du compilateur
+## <a name="using-the-import-compiler-directive"></a>À l’aide de la \#importer la directive du compilateur
 
 Le ** \#importer** directive du compilateur Visual C++ simplifie l’utilisation avec les méthodes et propriétés ADO. La directive extrait le nom d'un fichier contenant une bibliothèque de types, telle que le fichier .dll ADO (Msado15.dll), et génère des fichiers d'en-tête contenant des déclarations typedef, des pointeurs intelligents pour les interfaces, ainsi que des constantes énumérées. Chaque interface est encapsulée dans une classe.
 
@@ -43,7 +42,7 @@ objectPtr->PutProperty(value); // set property value
 objectPtr->PutRefProperty(&value); // set property with object pointer 
 ```
 
-## <a name="using-property-directives"></a>Utilisation des directives de propriété
+## <a name="using-property-directives"></a>À l’aide des directives de propriété
 
 Le ** \_ \_declspec(property...)** directive du compilateur est une extension du langage C spécifique à Microsoft qui déclare une fonction utilisée en tant que propriété avec une syntaxe alternative. Par conséquent, vous pouvez définir ou obtenir les valeurs d'une propriété d'une façon similaire à Visual Basic. Par exemple, vous pouvez définir et obtenir une propriété comme suit :
 
@@ -69,7 +68,7 @@ Seules deux déclarations sont possibles avec cette directive ; Toutefois, chaq
 
 Par exemple, la propriété **ActiveConnection** de l’objet **Command** est déclarée avec une syntaxe alternative pour **obtenir *** ActiveConnection* et **PutRef *** ActiveConnection*. **PutRef**- syntaxe est un choix judicieux car en pratique, vous devez généralement placer un objet **Connection** ouvert (c'est-à-dire, un pointeur d’objet **Connection** ) dans cette propriété. En revanche, l’objet **Recordset** a **Get**-, **Put**-, et **PutRef *** ActiveConnection* opérations, mais pas de syntaxe alternative.
 
-## <a name="collections-the-getitem-method-and-the-item-property"></a>Collections, méthode GetItem et propriété Item
+## <a name="collections-the-getitem-method-and-the-item-property"></a>Collections, méthode GetItem et la propriété Item
 
 ADO définit plusieurs collections, notamment **Fields**, **Parameters**, **Properties** et **Errors**. En Visual C++, la méthode **GetItem(***index***)** retourne un membre de la collection. *Index* est une valeur de type **Variant**, qui représente soit un index numérique du membre de la collection, soit une chaîne contenant le nom du membre.
 
@@ -114,7 +113,7 @@ En règle générale, les types de données Visual Basic que vous rencontrez dan
 
 Les exceptions à cette règle sont les types de données spécifiques à COM : **Variant**, **BSTR** et **SafeArray**.
 
-## <a name="variant"></a>Variant
+### <a name="variant"></a>Variant
 
 Un **Variant** est un type de données structurées qui contient un membre de valeur et un membre de type de données. Un **Variant** peut contenir un large éventail d’autres types de données, y compris un autre type Variant, BSTR, Boolean, IDispatch ou IUnknown pointeur, devise, date et ainsi de suite. COM fournit également des méthodes qui permettent de convertissent un type de données vers un autre.
 
@@ -124,7 +123,7 @@ Lors de la référence des API ADO indique qu’une méthode ou opérande propri
 
 Cette règle est explicitement vraie lorsque la section **Parameters** des rubriques de la documentation Référence de l'API ADO indique qu'un opérande est de type **Variant**. Des exceptions sont possibles, notamment lorsque la documentation précise explicitement que l'opérande correspond à un type de données standard, tel que **Long** ou **Byte**, ou encore lorsque l'opérande correspond à un type de données **String**.
 
-## <a name="bstr"></a>BSTR
+### <a name="bstr"></a>BSTR
 
 **BSTR** (**B**asic **STR**ing) est un type de données structuré qui contient une chaîne de caractères ainsi que la longueur de celle-ci. COM fournit des méthodes permettant d'allouer, manipuler et libérer un type **BSTR**.
 
@@ -132,7 +131,7 @@ Le ** \_bstr\_t** classe encapsule et gère le type de données **BSTR** .
 
 Lorsque la référence des API ADO indique qu’une méthode ou une propriété prend une valeur de **type String** , cela signifie que de la valeur est sous la forme d’un ** \_bstr\_t**.
 
-## <a name="casting-variantt-and-bstrt-classes"></a>Cast \_variant\_t et \_bstr\_Classes t
+#### <a name="casting-variantt-and-bstrt-classes"></a>Cast \_variant\_t et \_bstr\_classes t
 
 Fréquence à laquelle il n’est pas nécessaire de code explicitement une ** \_variante\_t** ou ** \_bstr\_t** dans un argument d’une opération. Si le ** \_variante\_t** ou ** \_bstr\_t** possède un constructeur correspondant au type de données de l’argument, puis le compilateur génère le ** \_variante\_t** ou ** \_ BSTR\_t**.
 
@@ -160,7 +159,7 @@ Bien qu'il s'agisse d'un fait rarement mentionné, il est essentiel de rappeler 
 
 Le dernier cas codes explicitement le deuxième argument booléen du constructeur avec sa valeur par défaut facultative de la valeur true. Cet argument conduit le constructeur **Variant** à appeler la méthode () **AddRef**, qui pour ADO appeler automatiquement le ** \_variante\_t::Release**méthode () lors de l’appel de méthode ou la propriété ADO.
 
-## <a name="safearray"></a>SafeArray
+### <a name="safearray"></a>SafeArray
 
 **SafeArray** est un type de données structuré qui contient un tableau d'autres types de données. **SafeArray** est appelée *sans échec* car il contient des informations sur les limites de chaque dimension du tableau et limite l’accès aux éléments du tableau dans ces limites.
 
@@ -210,11 +209,11 @@ Rappelez-vous qu'il s'agit d'erreurs ADO : elles sont le résultat de l'échec d
 
 Le ** \#importer** directive crée des erreurs que les routines de gestion pour les méthodes et propriétés déclarées dans le fichier .dll ADO. Toutefois, vous pouvez tirer parti de ce même mécanisme de gestion des erreurs en écrivant votre propre fonction inline ou macro de détection d'erreurs. Vous trouverez des exemples dans la rubrique [Extensions Visual C++ pour ADO](visual-c-extensions-for-ado.md), ou le code présenté dans les sections suivantes.
 
-## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Équivalents Visual C++ des conventions Visual Basic
+## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Visual équivalents C++ des conventions Visual Basic
 
 Vous trouverez ci-dessous un récapitulatif de plusieurs conventions décrites dans la documentation ADO, codées en Visual Basic, ainsi que leurs équivalents en Visual C++.
 
-## <a name="declaring-an-ado-object"></a>Déclaration d'un objet ADO
+### <a name="declaring-an-ado-object"></a>Déclaration d’un objet ADO
 
 En langage Visual Basic, une variable d'objet ADO (en l'occurrence, un objet **Recordset** ) est déclarée comme suit :
 
@@ -279,7 +278,9 @@ Notez que dans certains cas, la «. » opérateur est utilisé comme si la vari
 
 Une variable peut être utilisée de deux façons, car le «-\>» est surchargé pour permettre à une instance d’une classe de se comporter comme un pointeur vers une interface. Un membre de classe privée de la variable d’instance contient un pointeur vers le ** \_Recordset** interface ; la «-\>« opérateur retourne ce pointeur ; et le pointeur retourné accède aux membres de le ** \_Recordset** objet.
 
-## <a name="coding-a-missing-parameter"></a>Codage d'un paramètre manquant
+### <a name="coding-a-missing-parameter"></a>Codage d’un paramètre manquant
+
+#### <a name="string"></a>String
 
 Lorsque vous devez coder un opérande **String** manquant en Visual Basic, il vous suffit de l'omettre. En Visual C++, vous devez spécifier l'opérande. Code un ** \_bstr\_t** qui est une chaîne vide en tant que valeur.
 
@@ -288,7 +289,7 @@ Lorsque vous devez coder un opérande **String** manquant en Visual Basic, il vo
 _bstr_t strMissing(L""); 
 ```
 
-## <a name="coding-a-missing-parameter"></a>Codage d'un paramètre manquant
+#### <a name="variant"></a>Variante
 
 Lorsque vous devez coder un opérande **Variant** manquant en Visual Basic, il vous suffit de l'omettre. En Visual C++, vous devez spécifier tous les opérandes. Codez un paramètre **Variant** manquant avec un ** \_variante\_t** la valeur spéciale, ED\_E\_VT PARAMNOTFOUND et le type\_erreur. Vous pouvez également spécifier **vtMissing**, qui est un équivalent constante prédéfini fournis par le ** \#importer** directive.
 
@@ -304,7 +305,7 @@ _variant_t vtMissingYours(DISP_E_PARAMNOTFOUND, VT_ERROR);
 ...vtMissing...; 
 ```
 
-## <a name="declaring-a-variant"></a>Déclaration d'un Variant
+### <a name="declaring-a-variant"></a>Déclaration d’un variant
 
 En Visual Basic, un **Variant** est déclaré avec l'instruction **Dim** comme suit :
 
@@ -315,11 +316,8 @@ Dim VariableName As Variant
 
 Dans Visual C++, déclarez une variable en tant que type ** \_variante\_t**. Schéma quelques ** \_variante\_t** déclarations sont présentées ci-dessous.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Ces déclarations donnent simplement une idée globale du codage que vous effectueriez dans votre propre programme. Pour plus d'informations, consultez les exemples ci-dessous, ainsi que la documentation Visual C++.</P>
-
-
+> [!REMARQUE] Ces déclarations donnent simplement une idée globale du codage que vous effectueriez dans votre propre programme. Pour plus d'informations, consultez les exemples ci-dessous, ainsi que la documentation Visual C++.
 
 ```cpp 
  
@@ -329,7 +327,7 @@ _variant_t VariableName(value, VT_DATATYPE);
 _variant_t VariableName(interface * value, bool fAddRef = true); 
 ```
 
-## <a name="using-arrays-of-variants"></a>Utilisation de tableaux de valeurs Variant
+### <a name="using-arrays-of-variants"></a>Utilisation de tableaux de variants
 
 En langage Visual Basic, les tableaux de valeurs **Variant** peuvent être codés à l'aide de l'instruction **Dim**. Vous pouvez également utiliser la fonction **Array**, comme illustré dans l'exemple de code suivant :
 
@@ -353,100 +351,96 @@ End Sub
 
 L’exemple Visual C++ suivant illustre l’utilisation de **SafeArray** utilisé avec un ** \_variante\_t**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.</P>
+> [!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.
 
+1. À nouveau, la fonction inline TESTHR() est définie pour tirer parti d'un mécanisme de gestion des erreurs existant.
 
-
-1.  À nouveau, la fonction inline TESTHR() est définie pour tirer parti d'un mécanisme de gestion des erreurs existant.
-
-2.  Vous avez seulement besoin d'un tableau unidimensionnel pour pouvoir utiliser **SafeArrayCreateVector** à la place de la déclaration **SAFEARRAYBOUND** et de la fonction **SafeArrayCreate** à usage général. Voici comment se présenterait le code si vous utilisiez **SafeArrayCreate**:
+2. Vous avez seulement besoin d'un tableau unidimensionnel pour pouvoir utiliser **SafeArrayCreateVector** à la place de la déclaration **SAFEARRAYBOUND** et de la fonction **SafeArrayCreate** à usage général. Voici comment se présenterait le code si vous utilisiez **SafeArrayCreate**:
     
-    ```cpp 
+   ```cpp 
      
      SAFEARRAYBOUND sabound[1]; 
      sabound[0].lLbound = 0; 
      sabound[0].cElements = 4; 
      pSa = SafeArrayCreate(VT_VARIANT, 1, sabound); 
-    ```
+   ```
 
-3.  Le schéma identifié par la constante énumérée **adSchemaColumns**est associé à quatre colonnes de contrainte : tableau\_catalogue, TABLE\_schéma, TABLE\_nom et la colonne\_nom. Par conséquent, un tableau de valeurs **Variant** à quatre éléments est créé. Puis une valeur de contrainte qui correspond à la troisième colonne, TABLE\_nom est spécifié. Le **jeu d’enregistrements** renvoyé se compose de plusieurs colonnes, un sous-ensemble des colonnes de contrainte. Les valeurs des colonnes de contrainte pour chaque ligne renvoyée doivent être la même que les valeurs de contrainte correspondantes.
+3. Le schéma identifié par la constante énumérée **adSchemaColumns**est associé à quatre colonnes de contrainte : tableau\_catalogue, TABLE\_schéma, TABLE\_nom et la colonne\_nom. Par conséquent, un tableau de valeurs **Variant** à quatre éléments est créé. Puis une valeur de contrainte qui correspond à la troisième colonne, TABLE\_nom est spécifié. Le **jeu d’enregistrements** renvoyé se compose de plusieurs colonnes, un sous-ensemble des colonnes de contrainte. Les valeurs des colonnes de contrainte pour chaque ligne renvoyée doivent être la même que les valeurs de contrainte correspondantes.
 
-4.  Ceux qui connaissent **SAFEARRAY** peuvent être surpris que **SafeArrayDestroy**() n’est pas appelé avant la sortie. En fait, appel **SafeArrayDestroy**() dans ce cas entraînerait une exception d’exécution. Parce que l’appel de destructeur SafeArrayDestroy **_variant_t**lors de la ** \_variante\_t** est hors de portée, ce qui libère **SafeArray**. L’appel de **SafeArrayDestroy**, sans suppression manuelle de la ** \_variant\_t**, provoque le destructeur tenter d’effacer un pointeur **SafeArray** non valide. Si **SafeArrayDestroy** était appelé, le code se présente comme suit :
+4. Ceux qui connaissent **SAFEARRAY** peuvent être surpris que **SafeArrayDestroy**() n’est pas appelé avant la sortie. En fait, appel **SafeArrayDestroy**() dans ce cas entraînerait une exception d’exécution. Parce que l’appel de destructeur SafeArrayDestroy **_variant_t**lors de la ** \_variante\_t** est hors de portée, ce qui libère **SafeArray**. L’appel de **SafeArrayDestroy**, sans suppression manuelle de la ** \_variant\_t**, provoque le destructeur tenter d’effacer un pointeur **SafeArray** non valide. Si **SafeArrayDestroy** était appelé, le code se présente comme suit :
     
-    ```cpp 
+   ```cpp 
      
      TESTHR(SafeArrayDestroy(pSa)); 
      vtCriteria.vt = VT_EMPTY; 
      vtCriteria.parray = NULL; 
-    ```
+   ```
     
-    Toutefois, il est beaucoup plus simple de laisser la ** \_variante\_t** gérer le **tableau SafeArray**.
+   Toutefois, il est beaucoup plus simple de laisser la ** \_variante\_t** gérer le **tableau SafeArray**.
 
-<!-- end list -->
 
 ```cpp 
  
-#import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
-#include <stdio.h> 
- 
-// Note 1 
-inline void TESTHR( HRESULT _hr ) 
- { if FAILED(_hr) _com_issue_error(_hr); } 
- 
-void main(void) 
-{ 
- CoInitialize(NULL); 
- try 
- { 
- _RecordsetPtr pRs("ADODB.Recordset"); 
- _ConnectionPtr pCn("ADODB.Connection"); 
- _variant_t vtTableName("authors"), 
- vtCriteria; 
- long ix[1]; 
- SAFEARRAY *pSa = NULL; 
- 
- pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
- adConnectUnspecified); 
-// Note 2, Note 3 
- pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
- if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
- 
-// Specify TABLE_NAME in the third array element (index of 2). 
- 
- ix[0] = 2; 
- TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
- 
-// There is no Variant constructor for a SafeArray, so manually set the 
-// type (SafeArray of Variant) and value (pointer to a SafeArray). 
- 
- vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
- vtCriteria.parray = pSa; 
- 
- pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
- 
- long limit = pRs->GetFields()->Count; 
- for (long x = 0; x < limit; x++) 
- printf("%d: %s\n", x+1, 
- ((char*) pRs->GetFields()->Item[x]->Name)); 
-// Note 4 
- pRs->Close(); 
- pCn->Close(); 
- } 
- catch (_com_error &e) 
- { 
- printf("Error:\n"); 
- printf("Code = %08lx\n", e.Error()); 
- printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
- printf("Source = %s\n", (char*) e.Source()); 
- printf("Description = %s\n", (char*) e.Description()); 
- } 
- CoUninitialize(); 
-} 
+    #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
+    #include <stdio.h> 
+    
+    // Note 1 
+    inline void TESTHR( HRESULT _hr ) 
+    { if FAILED(_hr) _com_issue_error(_hr); } 
+    
+    void main(void) 
+    { 
+    CoInitialize(NULL); 
+    try 
+    { 
+    _RecordsetPtr pRs("ADODB.Recordset"); 
+    _ConnectionPtr pCn("ADODB.Connection"); 
+    _variant_t vtTableName("authors"), 
+    vtCriteria; 
+    long ix[1]; 
+    SAFEARRAY *pSa = NULL; 
+    
+    pCn->Open("DSN=pubs;User ID=MyUserId;pwd=MyPassword;Provider=MSDASQL;", "", "", 
+    adConnectUnspecified); 
+    // Note 2, Note 3 
+    pSa = SafeArrayCreateVector(VT_VARIANT, 1, 4); 
+    if (!pSa) _com_issue_error(E_OUTOFMEMORY); 
+    
+    // Specify TABLE_NAME in the third array element (index of 2). 
+    
+    ix[0] = 2; 
+    TESTHR(SafeArrayPutElement(pSa, ix, &vtTableName)); 
+    
+    // There is no Variant constructor for a SafeArray, so manually set the 
+    // type (SafeArray of Variant) and value (pointer to a SafeArray). 
+    
+    vtCriteria.vt = VT_ARRAY | VT_VARIANT; 
+    vtCriteria.parray = pSa; 
+    
+    pRs = pCn->OpenSchema(adSchemaColumns, vtCriteria, vtMissing); 
+    
+    long limit = pRs->GetFields()->Count; 
+    for (long x = 0; x < limit; x++) 
+    printf("%d: %s\n", x+1, 
+    ((char*) pRs->GetFields()->Item[x]->Name)); 
+    // Note 4 
+    pRs->Close(); 
+    pCn->Close(); 
+    } 
+    catch (_com_error &e) 
+    { 
+    printf("Error:\n"); 
+    printf("Code = %08lx\n", e.Error()); 
+    printf("Code meaning = %s\n", (char*) e.ErrorMessage()); 
+    printf("Source = %s\n", (char*) e.Source()); 
+    printf("Description = %s\n", (char*) e.Description()); 
+    } 
+    CoUninitialize(); 
+    } 
 ```
 
-## <a name="using-property-getputputref"></a>Utilisation d'une propriété Get/Put/PutRef
+### <a name="using-property-getputputref"></a>À l’aide de la propriété Get/Put/PutRef
 
 En langage Visual Basic, le fait que le nom d'une propriété soit récupéré, attribué ou qu'une référence lui soit attribuée ne suffit pas à le qualifier.
 
@@ -469,17 +463,14 @@ En langage Visual Basic, le fait que le nom d'une propriété soit récupéré, 
 
 Cet exemple Visual C++ illustre l' **obtenir**/**Put**/**PutRef *** propriété*.
 
-
 > [!NOTE]
 > [!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.
 
+1. Cet exemple utilise deux formes d’un argument de chaîne manquante : une constante explicite, **strMissing**et une chaîne que le compilateur utilisera pour créer un fichier temporaire ** \_bstr\_t** qui existent pour l’étendue de la méthode **Open** .
 
-
-1.  Cet exemple utilise deux formes d’un argument de chaîne manquante : une constante explicite, **strMissing**et une chaîne que le compilateur utilisera pour créer un fichier temporaire ** \_bstr\_t** qui existent pour l’étendue de la méthode **Open** .
-
-2.  Il n’est pas nécessaire d’effectuer un cast de l’opérande de rs -\>PutRefActiveConnection (CN) à (IDispatch \*), car le type de l’opérande est déjà (IDispatch \*).
+2. Il n’est pas nécessaire d’effectuer un cast de l’opérande de rs -\>PutRefActiveConnection (CN) à (IDispatch \*), car le type de l’opérande est déjà (IDispatch \*).
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -524,9 +515,9 @@ Cet exemple Visual C++ illustre l' **obtenir**/**Put**/**PutRef *** propriété*
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="using-getitemx-and-itemx"></a>À l’aide de GetItem (x) et un élément\[x\]
+### <a name="using-getitemx-and-itemx"></a>À l’aide de GetItem (x) et un élément\[x\]
 
 Cet exemple Visual Basic illustre la syntaxe standard et alternative de **Item**().
 
@@ -551,15 +542,12 @@ End Sub
 
 Cet exemple Visual C++ illustre **Item**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] La remarque suivante correspond aux sections commentées dans l'exemple de code.</P>
+> [!REMARQUE] La remarque suivante correspond aux sections commentées dans l'exemple de code.
 
-
-
-1.  Lorsque l'accès à la collection s'effectue avec **Item**, l'index **2** doit être casté en **long** pour permettre l'appel d'un constructeur approprié.
+1. Lorsque l'accès à la collection s'effectue avec **Item**, l'index **2** doit être casté en **long** pour permettre l'appel d'un constructeur approprié.
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
     #include <stdio.h> 
@@ -600,23 +588,20 @@ Cet exemple Visual C++ illustre **Item**.
      } 
      ::CoUninitialize(); 
     } 
-    ```
+   ```
 
-## <a name="casting-ado-object-pointers-with-idispatch-"></a>Conversion de pointeurs d'objet ADO à l'aide de (IDispatch \*)
+### <a name="casting-ado-object-pointers-with-idispatch-"></a>Conversion de pointeurs d'objet ADO à l'aide de (IDispatch \*)
 
 L'exemple Visual C++ suivant illustre l'utilisation de (IDispatch \*) pour effectuer un cast des pointeurs d'objet ADO.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.</P>
+> [!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.
 
+1. Spécifiez un objet **Connection** ouvert dans un **Variant** explicitement codé. Effectuer un cast avec (IDispatch \*) afin que le constructeur approprié est appelé. En outre, définir explicitement la seconde ** \_variante\_t** sur la valeur par défaut de **la valeur true**, afin que le décompte de références d’objet soit correct lors de l’opération **Recordset::Open** .
 
-
-1.  Spécifiez un objet **Connection** ouvert dans un **Variant** explicitement codé. Effectuer un cast avec (IDispatch \*) afin que le constructeur approprié est appelé. En outre, définir explicitement la seconde ** \_variante\_t** sur la valeur par défaut de **la valeur true**, afin que le décompte de références d’objet soit correct lors de l’opération **Recordset::Open** .
-
-2.  L’expression, (\_bstr\_t), n’est pas un cast, mais un ** \_variante\_t** opérateur qui extrait une ** \_bstr\_t** chaîne de **type Variant** retourné par **valeur**. L’expression (char\*), n’est pas un cast, mais un ** \_bstr\_t** opérateur qui extrait un pointeur vers la chaîne encapsulé dans un ** \_bstr\_t** objet. Cette section de code illustre certains comportements utiles de ** \_variante\_t** et ** \_bstr\_t** opérateurs.
+2. L’expression, (\_bstr\_t), n’est pas un cast, mais un ** \_variante\_t** opérateur qui extrait une ** \_bstr\_t** chaîne de **type Variant** retourné par **valeur**. L’expression (char\*), n’est pas un cast, mais un ** \_bstr\_t** opérateur qui extrait un pointeur vers la chaîne encapsulé dans un ** \_bstr\_t** objet. Cette section de code illustre certains comportements utiles de ** \_variante\_t** et ** \_bstr\_t** opérateurs.
     
-    ```cpp 
+   ```cpp 
      
     #import "c:\Program Files\Common Files\System\ADO\msado15.dll" no_namespace rename("EOF", "EndOfFile") 
      
@@ -655,5 +640,5 @@ L'exemple Visual C++ suivant illustre l'utilisation de (IDispatch \*) pour effec
      } 
     ::CoUninitialize(); 
     } 
-    ```
+   ```
 

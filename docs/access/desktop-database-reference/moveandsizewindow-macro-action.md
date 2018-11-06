@@ -6,18 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197001(v=office.15)
 ms:contentKeyID: 48546090
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fd5bbe18af823e2b36772ef209db18ba6cb4b1d4
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 8737de80c38626b72933eb15a59e08ab0452ce74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925267"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998811"
 ---
 # <a name="moveandsizewindow-macro-action"></a>MoveAndSizeWindow, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Si vous avez défini votre document options de la fenêtre à utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l’action **Déplaceretdimensionnerfenêtre** pour déplacer ou redimensionner la fenêtre active. Pour plus d’informations sur la façon de définir les options de fenêtre de document, voir la section Remarques.
 
@@ -61,17 +59,14 @@ Si vous laissez un argument vierge, Microsoft Access utilise la valeur actuelle 
 
 Vous devez entrer une valeur pour au moins un argument.
 
-
 > [!NOTE]
-> <P>Chaque mesure est exprimée en pouces ou en centimètres, selon les paramètres régionaux du Panneau de configuration Windows.</P>
-
-
+> Chaque mesure est exprimée en pouces ou en centimètres, selon les paramètres régionaux du Panneau de configuration Windows.
 
 ## <a name="remarks"></a>Remarques
 
 Pour configurer une application pour utiliser des fenêtres superposées au lieu des documents à onglets, utilisez la procédure suivante :
 
-1.  puis sur **Options**
+1.  Cliquez sur **Options**
 
 2.  Cliquez sur **base de données Active**.
 
@@ -83,11 +78,9 @@ Cette action équivaut à cliquer sur **déplacer** ou **taille** sur le **contr
 
 Vous pouvez utiliser cette action sur n’importe quelle fenêtre, dans n’importe quel mode.
 
-**Conseils**
-
-  - Pour déplacer une fenêtre sans la dimensionner, entrez des valeurs pour la **droite** et **bas** arguments, mais laissez les arguments **largeur** et **hauteur** vide.
-
-  - Pour redimensionner une fenêtre sans la déplacer, entrez des valeurs pour la **largeur** et la **hauteur** arguments, mais laissez les arguments **droite** et **bas** vide.
+> [!TIP]
+> - Pour déplacer une fenêtre sans la dimensionner, entrez des valeurs pour la **droite** et **bas** arguments, mais laissez les arguments **largeur** et **hauteur** vide.
+> - Pour redimensionner une fenêtre sans la déplacer, entrez des valeurs pour la **largeur** et la **hauteur** arguments, mais laissez les arguments **droite** et **bas** vide.
 
 Pour exécuter l’action **Déplaceretdimensionnerfenêtre** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **MoveSize** de l’objet **DoCmd** .
 

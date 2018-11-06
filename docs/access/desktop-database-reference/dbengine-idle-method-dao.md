@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 68c0e6d246370f9c4f0c241195fb19c241ca49e5
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: f94d869cd04dc0b16e0b428abaf60e4be32dacb7
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949718"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998055"
 ---
 # <a name="dbengineidle-method-dao"></a>Méthode DBEngine.Idle (DAO)
 
@@ -41,7 +41,7 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>

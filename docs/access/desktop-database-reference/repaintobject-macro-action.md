@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 369c518ab0ab213975bb7da3c96b6e5844bad9ee
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 69429aa0c623be06eae93a5e62fa06f1f0687007
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919415"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996460"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -56,19 +55,13 @@ L'action **RedessinerObjet** accepte les arguments suivants.
 
 Pour achever des mises à jour d'écran en attente, Microsoft Office Access attend d'avoir terminé d'autres tâches en attente. Avec cette action, vous pouvez faire en sorte que tous les contrôles de l'objet spécifié soient immédiatement redessinés. Vous pouvez utiliser cette action dans les cas suivants :
 
-  - Lorsque vous utilisez l'action **DéfinirValeur** pour modifier des valeurs dans une série de contrôles. Access n'affiche pas toujours immédiatement les modifications, surtout si d'autres contrôles (tels que des contrôles calculés) dépendent des valeurs des contrôles modifiés.
+- Lorsque vous utilisez l'action **DéfinirValeur** pour modifier des valeurs dans une série de contrôles. Access n'affiche pas toujours immédiatement les modifications, surtout si d'autres contrôles (tels que des contrôles calculés) dépendent des valeurs des contrôles modifiés.
 
-  - Lorsque vous voulez être certain que le formulaire affiché montre les données de tous ses contrôles. Par exemple, des contrôles contenant des objets OLE n'affichent pas immédiatement leurs données après que vous avez ouvert un formulaire.
-
+- Lorsque vous voulez être certain que le formulaire affiché montre les données de tous ses contrôles. Par exemple, des contrôles contenant des objets OLE n'affichent pas immédiatement leurs données après que vous avez ouvert un formulaire.
 
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Dans la mesure où cette action n'entraîne pas de réactualisation de la base de données, elle n'affiche pas les enregistrements nouveaux et modifiés pas plus qu'elle ne supprime les enregistrements supprimés de la table ou requête sous-jacente de l'objet. Utilisez l'action <STRONG>Actualiser</STRONG> pour actualiser la source de l'objet ou l'un de ses contrôles. Utilisez l'action <STRONG>AfficherTousEnreg</STRONG> pour afficher les enregistrements les plus récents et supprimer tous les filtres.</P>
-> <LI>
-> <P>L'action <STRONG>RedessinerObjet</STRONG> n'a pas le même effet que l'option <STRONG>Actualiser</STRONG> dans le groupe <STRONG>Enregistrements</STRONG> de l'onglet <STRONG>Accueil</STRONG>, laquelle affiche toutes les modifications que vous ou d'autres utilisateurs avez apportées aux enregistrements actuellement affichés dans des formulaires et des feuilles de données.</P></LI></UL>
-
-
+> - Dans la mesure où cette action n'entraîne pas de réactualisation de la base de données, elle n'affiche pas les enregistrements nouveaux et modifiés pas plus qu'elle ne supprime les enregistrements supprimés de la table ou requête sous-jacente de l'objet. Utilisez l'action **Actualiser** pour actualiser la source de l'objet ou l'un de ses contrôles. Utilisez l'action **AfficherTousEnreg** pour afficher les enregistrements les plus récents et supprimer tous les filtres.
+> - L'action **RedessinerObjet** n'a pas le même effet que l'option **Actualiser** dans le groupe **Enregistrements** de l'onglet **Accueil**, laquelle affiche toutes les modifications que vous ou d'autres utilisateurs avez apportées aux enregistrements actuellement affichés dans des formulaires et des feuilles de données.
 
 Pour exécuter l'action **RedessinerObjet** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **RepaintObject** de l'objet **DoCmd**.
 

@@ -1,6 +1,6 @@
 ---
 title: Méthode Recordset2.Edit (DAO)
-TOCTitle: Edit Method
+TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
 ms:contentKeyID: 48544137
@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 8fbbbe147c4c943044123b711ffb3361af5284cf
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1ab4577c9bfc487d7ce8d3c271b6a5c8edb37028
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928235"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997195"
 ---
 # <a name="recordset2edit-method-dao"></a>Méthode Recordset2.Edit (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -36,31 +35,25 @@ Dès que vous utilisez la méthode **Edit**, les modifications apportées aux ch
 
 L'enregistrement qui était actif le reste après avoir utilisé **Edit**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si vous modifiez un enregistrement et que vous effectuez ensuite une opération qui atteint un autre enregistrement sans avoir préalablement utilisé <STRONG>Update</STRONG>, vos modifications sont perdues sans avertissement. En outre, si vous fermez l’objet recordset ou mettre fin à la procédure qui déclare le <STRONG>jeu d’enregistrements</STRONG> ou l’objet parent de <STRONG><A href="database-object-dao.md">base de données</A></STRONG> ou de <STRONG><A href="connection-object-dao.md">connexion</A></STRONG> , votre enregistrement modifié est ignoré sans avertissement.</P>
-
-
+> [!REMARQUE] Si vous modifiez un enregistrement et que vous effectuez ensuite une opération qui atteint un autre enregistrement sans avoir préalablement utilisé **Update**, vos modifications sont perdues sans avertissement. En outre, si vous fermez l’objet recordset ou mettre fin à la procédure qui déclare le **jeu d’enregistrements** ou l’objet parent de **[base de données](database-object-dao.md)** ou de **[connexion](connection-object-dao.md)** , votre enregistrement modifié est ignoré sans avertissement.
 
 L'utilisation de la méthode **Edit** génère une erreur dans les cas suivants :
 
-  - Il n'existe pas d'enregistrement actif.
+- Il n'existe pas d'enregistrement actif.
 
-  - L'objet **Connection**, **Database** ou **Recordset** a été ouvert en lecture seule.
+- L'objet **Connection**, **Database** ou **Recordset** a été ouvert en lecture seule.
 
-  - Aucun champ de l'enregistrement n'est modifiable.
+- Aucun champ de l'enregistrement n'est modifiable.
 
-  - L'objet **Database** ou **Recordset** a été ouvert en mode exclusif par un autre utilisateur (espace de travail Microsoft Access).
+- L'objet **Database** ou **Recordset** a été ouvert en mode exclusif par un autre utilisateur (espace de travail Microsoft Access).
 
-  - Un autre utilisateur a verrouillé la page contenant votre enregistrement (espace de travail Microsoft Access).
+- Un autre utilisateur a verrouillé la page contenant votre enregistrement (espace de travail Microsoft Access).
 
 Dans un espace de travail Microsoft Access, lorsque le paramètre de la propriété [**LockEdits**](recordset2-lockedits-property-dao.md) de l'objet **Recordset** a la valeur **True** (verrouillage pessimiste) dans un environnement multi-utilisateur, l'enregistrement reste verrouillé entre le moment de l'appel de la méthode **Edit** et la fin de la mise à jour. Si le paramètre de la propriété **LockEdits** a la valeur **False** (verrouillage optimiste), l'enregistrement est verrouillé et comparé à l'enregistrement prémodifié juste avant sa mise à jour dans la base de données. Si l'enregistrement a été modifié depuis l'appel de la méthode **Edit**, l'opération **Update** échoue avec une erreur d'exécution si vous utilisez la méthode **OpenRecordset** sans spécifier **dbSeeChanges**. Par défaut, les bases de données ISAM installables et ODBC connectées au moteur de base de données Microsoft Access utilisent toujours le verrouillage optimiste.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode <STRONG><A href="recordset2-addnew-method-dao.md">AddNew</A></STRONG>, <STRONG><A href="fields-delete-method-dao.md">Delete</A></STRONG> ou <STRONG>Edit</STRONG> dans un espace de travail Microsoft Access.</P>
-
-
+> [!REMARQUE] Pour ajouter, modifier ou supprimer un enregistrement, ce dernier doit être affecté d'un index unique dans la source de données sous-jacente. Si ce n'est pas le cas, une erreur « Autorisation refusée » se produira lors d'un appel à la méthode **[AddNew](recordset2-addnew-method-dao.md)**, **[Delete](fields-delete-method-dao.md)** ou **Edit** dans un espace de travail Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01fc72a620e5c08a6f98b4b69a8eb8da7b98bbb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 27fc0c38ec0f3ec98c2709a96b6dedcce17db693
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925673"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996810"
 ---
 # <a name="runmenucommand-macro-action"></a>RunMenuCommand, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -47,18 +46,14 @@ L'action **ExécuterCommandeMenu** utilise l'argument d'action suivant :
 </tbody>
 </table>
 
-
 ## <a name="remarks"></a>Notes
 
 Vous pouvez utiliser l'action **ExécuterCommandeMenu** pour exécuter une commande Access à partir d'une barre de menus personnalisée, d'une barre de menus globale, d'un menu contextuel personnalisé ou d'un menu contextuel global.
 
 Vous pouvez utiliser l'action **ExécuterCommandeMenu** dans une macro avec des expressions conditionnelles pour exécuter une commande en fonction de certaines conditions.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Si vous cliquez sur l'onglet <STRONG>Fichier</STRONG>, puis sur <STRONG>Récent</STRONG>, les bases de données récemment utilisées s'affichent. Vous pouvez cliquer sur l'une de ces bases de données au lieu de cliquer sur <STRONG>Ouvrir</STRONG>. Ces éléments de base de données ne s'affichent pas dans la zone de liste déroulante de l'argument <STRONG>Commande</STRONG> et ne sont pas disponibles lorsque vous utilisez l'action <STRONG>ExécuterCommandeMenu</STRONG> dans une macro.</P>
-
-
+> [!REMARQUE] Si vous cliquez sur l'onglet **Fichier**, puis sur **Récent**, les bases de données récemment utilisées s'affichent. Vous pouvez cliquer sur l'une de ces bases de données au lieu de cliquer sur **Ouvrir**. Ces éléments de base de données ne s'affichent pas dans la zone de liste déroulante de l'argument **Commande** et ne sont pas disponibles lorsque vous utilisez l'action **ExécuterCommandeMenu** dans une macro.
 
 Il se peut que certaines commandes ne soient plus disponibles lorsque vous convertissez une base de données créée avec une version précédente d'Access. Une commande peut avoir été renommée, transférée vers un autre menu ou n'existe peut-être plus dans Access. Les actions **ExécuterElémentMenu** pour de telles commandes ne peuvent pas être converties en actions **ExécuterCommandeMenu**. Lorsque vous ouvrez la macro, Access affichera une action **ExécuterCommandeMenu** avec un argument **Commande** vide pour ces commandes. Vous devez modifier la macro et entrer un argument Commande valide ou supprimer l'action **ExécuterCommandeMenu**.
 

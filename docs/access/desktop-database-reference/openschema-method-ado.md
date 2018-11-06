@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a204f6e86a1c50be49400430f53dd99468668a9e
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: e9e7fb19504e606fed9960a3982c0f98f9081325
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949998"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997560"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema, méthode (ADO)
 
@@ -49,8 +49,7 @@ Les fournisseurs ne doivent pas obligatoirement prendre en charge toutes les req
 
 **L’utilisation du Service de données à distance** La méthode **OpenSchema** n’est pas disponible sur un objet de [connexion](connection-object-ado.md) côté client.
 
-
 > [!NOTE]
-> <P>Dans Visual Basic, les colonnes qui possèdent un entier non signé de quatre octets (DBTYPE UI4) dans l'objet <STRONG>Recordset</STRONG> retourné par la méthode <STRONG>OpenSchema</STRONG> de l'objet <STRONG>Connection</STRONG> ne peuvent pas être comparées à d'autres variables. Pour plus d'informations sur les types de données OLE DB, consultez le chapitre 13 et l'Annexe A du <EM>Guide de référence du programmeur Microsoft OLE DB</EM>.</P>
+> Dans Visual Basic, les colonnes qui possèdent un entier non signé de quatre octets (DBTYPE UI4) dans l'objet **Recordset** retourné par la méthode **OpenSchema** de l'objet **Connection** ne peuvent pas être comparées à d'autres variables. Pour plus d'informations sur les types de données OLE DB, consultez le chapitre 13 et l'Annexe A du *Guide de référence du programmeur Microsoft OLE DB*.
 
 

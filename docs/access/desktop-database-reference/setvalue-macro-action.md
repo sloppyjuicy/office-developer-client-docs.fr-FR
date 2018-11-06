@@ -6,32 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f407c5da2ca669025d5aec47685e6eb9732c72c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927101"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998874"
 ---
 # <a name="setvalue-macro-action"></a>SetValue, action de macro
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Vous pouvez utiliser l'action **DéfinirValeur** pour définir la valeur d'un champ, d'un contrôle ou d'une propriété Microsoft Access dans un formulaire, un formulaire feuille de données ou un état.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne pouvez pas utiliser l'action <STRONG>DéfinirValeur</STRONG> pour définir la valeur d'une propriété Access qui renvoie un objet.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> - [!REMARQUE] Vous ne pouvez pas utiliser l'action **DéfinirValeur** pour définir la valeur d'une propriété Access qui renvoie un objet.
+> - [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
@@ -55,23 +45,14 @@ L'action **DéfinirValeur** utilise les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p>
-
-> [!NOTE]
-> <P>Vous ne devez pas utiliser un signe égal (<STRONG>=</STRONG>) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut produire des résultats inattendus si l’expression est une chaîne.</P>
-
-
+<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p><p><strong>Remarque</strong>: n’utilisez pas un signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut produire des résultats inattendus si l’expression est une chaîne.</p>
 <p>Par exemple, si vous tapez <strong> = &quot;chaîne1&quot; </strong> à cet argument, Access évalue l’expression comme chaîne1 d’abord. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou la propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
 </tr>
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>[!REMARQUE] Dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton <STRONG>Générer</STRONG> pour utiliser le Générateur d'expression et créer une expression pour l'un de ces arguments.</P>
-
-
+> [!REMARQUE] Dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton **Générer** pour utiliser le Générateur d'expression et créer une expression pour l'un de ces arguments.
 
 ## <a name="remarks"></a>Remarques
 
@@ -83,22 +64,13 @@ Si vous définissez la valeur d'un contrôle dans un formulaire, l'action **Déf
 
 Pour modifier la valeur d'un contrôle, vous pouvez utiliser l'action **DéfinirValeur** dans une macro spécifiée par la propriété de type événement **AfterUpdate** du contrôle. Toutefois, vous ne pouvez pas utiliser l'action **DéfinirValeur** dans une macro spécifiée par la propriété de type événement **BeforeUpdate** d'un contrôle pour modifier la valeur du contrôle (bien que vous puissiez utiliser l'action **DéfinirValeur** pour modifier la valeur d'autres contrôles). Vous pouvez également utiliser l'action **DéfinirValeur** dans une macro spécifiée par la propriété **AvantMAJ** ou **AprèsMAJ** d'un formulaire pour modifier la valeur de tous les contrôles de l'enregistrement actif.
 
-
 > [!NOTE]
-> <P>Vous ne pouvez pas utiliser l’action <STRONG>DéfinirValeur</STRONG> pour définir la valeur des contrôles suivants :</P>
-> <UL>
-> <LI>
-> <P>Les contrôles dépendants et les contrôles calculés dans des états.</P>
-> <LI>
-> <P>Les contrôles calculés dans des formulaires.</P></LI></UL>
-
-
-
+> Vous ne pouvez pas utiliser l’action **DéfinirValeur** pour définir la valeur des contrôles suivants :
+> - Les contrôles dépendants et les contrôles calculés dans des états.
+> - Les contrôles calculés dans des formulaires.
 
 > [!TIP]
-> <P>Vous pouvez utiliser l’action <STRONG>DéfinirValeur</STRONG> pour masquer ou afficher un formulaire en mode Formulaire. Entrez <STRONG>Forms</STRONG>!<EM>nom_formulaire</EM><STRONG>.Visible</STRONG> dans la zone <STRONG>Élément</STRONG>, et <STRONG>Non</STRONG> ou <STRONG>Oui</STRONG> dans la zone <STRONG>Expression</STRONG>. La définition de la propriété <STRONG>Visible</STRONG> d’un formulaire modal sur <STRONG>Non</STRONG> masque le formulaire et le rend non modal. La définition de la propriété sur <STRONG>Oui</STRONG> affiche le formulaire et le rend à nouveau modal.</P>
-
-
+> [!CONSEIL] Vous pouvez utiliser l'action **DéfinirValeur** pour masquer ou afficher un formulaire en mode Formulaire. Entrez **formulaires**! formname ****. Visible** dans la zone de **l’élément** et **non** ou **Oui** dans la zone **Expression** . La définition de la propriété **Visible** d'un formulaire modal sur **Non** masque le formulaire et le rend non modal. La définition de la propriété sur **Oui** affiche le formulaire et le rend à nouveau modal.
 
 La modification de la valeur ou l'ajout des nouvelles données dans un contrôle à l'aide de l'action **DéfinirValeur** dans une macro ne déclenche pas des événements tels que **AvantMAJ**, **AvantInsertion** ou **Modifier** qui se produisent lorsque vous modifiez ou entrez des données dans ces contrôles dans l'interface utilisateur. Ces événements ne se produisent pas non plus si vous définissez la valeur du contrôle à l'aide d'un module Visual Basic pour Applications (VBA).
 

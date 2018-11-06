@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d57f05905aa0f79c1a72638e70ede8bdabf73b8f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 241d9470d518893312daaa8101a5517706ea1e50
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883686"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998356"
 ---
 # <a name="working-with-recordsets"></a>Utilisation des jeux d'enregistrements
-
 
 **S’applique à**: Access 2013, Office 2013 
 
@@ -38,7 +37,7 @@ Aucun champ référencé dans une chaîne de critères de tri ne peut être nomm
 
 Pour plus d'informations sur le filtrage des objets **Recordset**, consultez la section Filtrage des résultats, plus loin dans cette rubrique.
 
-## <a name="finding-a-specific-record"></a>Recherche d'un enregistrement spécifique
+## <a name="finding-a-specific-record"></a>Rechercher un enregistrement spécifique
 
 Les méthodes ADO [Find](find-method-ado.md) et [Seek](seek-method-ado.md) permettent de localiser un enregistrement spécifique dans un objet **Recordset**. La méthode **Find** est prise en charge par un grand nombre de fournisseurs, mais est limitée à un seul critère de recherche. La méthode **Seek** permet une recherche basée sur plusieurs critères, mais n'est pas prise en charge par tous les fournisseurs.
 
@@ -48,7 +47,7 @@ La méthode **Find** permet de localiser rapidement une valeur dans une colonne 
 
 La méthode **Find** limite votre recherche au contenu d'un seul champ. Quant à la méthode **Seek**, elle requiert la présence d'un index et présente également d'autres limitations. Si vous devez lancer une recherche sur plusieurs champs non indexés ou si votre fournisseur ne prend pas les index en charge, vous pouvez limiter les résultats en utilisant la propriété **Filter** de l'objet **Recordset**.
 
-## <a name="find"></a>Find
+### <a name="find"></a>Find
 
 La méthode **Find** recherche, dans un objet **Recordset**, une ligne répondant à un critère spécifié. Le cas échéant, il est également possible de définir la direction de la recherche, la ligne de départ et le décalage depuis la ligne de début. Si une ligne correspond au critère défini, la position de la ligne active est définie sur l'enregistrement trouvé. Dans le cas contraire, la position active est définie sur la fin (ou le début) de l'objet **Recordset**, selon la direction de la recherche.
 
@@ -62,7 +61,7 @@ Si l'opérateur de comparaison est « like », la valeur de la chaîne peut cont
 
 Les astérisques ne peuvent être utilisés qu'à la fin d'une chaîne de critère ou au début et à la fin d'une chaîne de critère, comme nous l'avons vu dans les exemples précédents. L'utilisation d'un astérisque comme caractère générique de début ('\*str') ou comme caractère générique incorporé ('s\*r') provoque une erreur.
 
-## <a name="seek-and-index"></a>Seek et Index
+### <a name="seek-and-index"></a>Seek et Index
 
 Il est conseillé d’utiliser conjointement la méthode **Seek** avec la propriété **Index** si le fournisseur sous-jacent prend les index en charge sur l’objet **Recordset**. La méthode [Supports](supports-method-ado.md)**(adSeek)** permet de déterminer si le fournisseur sous-jacent prend **Seek** en charge, et la méthode **Supports(adIndex)** de déterminer si les index sont pris en charge par le fournisseur. (Par exemple, le [fournisseur OLE DB pour Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) prend **Seek** et **Index** en charge.)
 
@@ -80,29 +79,25 @@ La propriété **Filtre** permet d'effectuer une recherche sélective d'enregist
 
 La propriété **Filter** prend un argument de type Variant. Cette valeur représente l'une des trois méthodes d'utilisation de la propriété **Filter**: une chaîne de critères, une constante **FilterGroupEnum** ou un tableau de signets. Pour plus d'informations, consultez les sections Filtrage à l'aide d'une chaîne de critères, Filtrage avec une constante et Filtrage avec des signets, plus loin dans cette rubrique.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Lorsque vous connaissez les données à sélectionner, il est généralement plus efficace d'ouvrir un <STRONG>Recordset</STRONG> avec une instruction SQL capable de filtrer efficacement le jeu de résultats au lieu d'utiliser la propriété <STRONG>Filter</STRONG>.</P>
-
-
+> [!REMARQUE] Lorsque vous connaissez les données à sélectionner, il est généralement plus efficace d'ouvrir un **Recordset** avec une instruction SQL capable de filtrer efficacement le jeu de résultats au lieu d'utiliser la propriété **Filter**.
 
 Pour supprimer un filtre d'un **Recordset**, utilisez la constante **adFilterNone**. En définissant une chaîne vide ("") comme valeur de la propriété **Filter**, vous obtenez le même résultat qu'en utilisant la constante **adFilterNone**.
 
-## <a name="filtering-with-a-criteria-string"></a>Filtrage avec une chaîne de critères
+### <a name="filtering-with-a-criteria-string"></a>Filtrage avec une chaîne de critères
 
 La chaîne de critères est composée de clauses de type *NomChamp Opérateur valeur* (par exemple, « LastName = 'Martin' »). Vous pouvez créer des clauses composées en concaténant des clauses avec AND (par exemple, « LastName = 'Martin' AND FirstName = 'John' ») et OR (par exemple,). Vous pouvez créer des clauses composées en concaténant des clauses avec et (par exemple, « LastName = 'Martin' AND FirstName = 'John' ») et ou (par exemple, « LastName = 'Martin' OR LastName = 'Jones' »). Lorsque vous utilisez des chaînes de critères, gardez les points suivants à l'esprit :
 
-  - *FieldName* doit être un nom de champ valide du **jeu d’enregistrements**. Si le nom de champ contient des espaces, vous devez le mettre entre crochets.
+- *FieldName* doit être un nom de champ valide du **jeu d’enregistrements**. Si le nom de champ contient des espaces, vous devez le mettre entre crochets.
 
-  - *Opérateur* doit être une des opérations suivantes : \<, \>, \<= \>=, \< \>, = ou LIKE.
+- *Opérateur* doit être une des opérations suivantes : \<, \>, \<= \>=, \< \>, = ou LIKE.
 
-  - *Valeur* est la valeur à laquelle vous comparez les valeurs de champ (par exemple, « Smith », \#24/8/95\#, 12.345 ou $50.00). Utilisez des guillemets simples (') avec des chaînes et les signes dièse (\#) avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si *l’opérateur* est LIKE, *valeur* peut utiliser des caractères génériques. Uniquement l’astérisque (\*) et le signe de pourcentage (%) des caractères génériques sont autorisés, et ils doivent être le dernier caractère de la chaîne. *Valeur* ne peut pas être null.
+- *Valeur* est la valeur à laquelle vous comparez les valeurs de champ (par exemple, « Smith », \#24/8/95\#, 12.345 ou $50.00). Utilisez des guillemets simples (') avec des chaînes et les signes dièse (\#) avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si *l’opérateur* est LIKE, *valeur* peut utiliser des caractères génériques. Uniquement l’astérisque (\*) et le signe de pourcentage (%) des caractères génériques sont autorisés, et ils doivent être le dernier caractère de la chaîne. *Valeur* ne peut pas être null.
     
-
-    > [!NOTE]
-    > <P>Pour inclure des guillemets simples (') dans la <EM>valeur</EM>de filtre, utilisez deux guillemets simples pour représenter un. Par exemple, pour filtrer sur <EM>Malley</EM>, la chaîne de critères doit être « col1 = ' O'' Malley' ». Pour inclure des guillemets simples au début et à la fin de la valeur du filtre, placez des signes dièse (#) de part et d'autre de la chaîne. Par exemple, pour filtrer sur <EM>'1'</EM>, la chaîne de critères doit être « col1 = #' 1' # ».</P>
-
-
+  > [!NOTE]
+  > Pour inclure des guillemets simples (') dans la *valeur*de filtre, utilisez deux guillemets simples pour représenter un. Par exemple, pour filtrer sur *Malley*, la chaîne de critères doit être « col1 = ' O'' Malley' ». 
+  > 
+  > Pour inclure des guillemets simples au début et à la fin de la valeur du filtre, placez des signes dièse (#) de part et d'autre de la chaîne. Par exemple, pour filtrer sur *'1'*, la chaîne de critères doit être « col1 = #' 1' # ».
 
 Il n'existe pas de priorité entre AND et OR. Les clauses peuvent être regroupées dans des parenthèses. Notez toutefois que vous ne pouvez pas regrouper des clauses jointes par OR, puis associer le groupe à une autre clause avec AND, comme ceci :
 
@@ -120,7 +115,7 @@ Le filtre doit être construit comme suit :
 
 Dans une clause LIKE, vous pouvez utiliser un caractère générique au début et fin de la chaîne (par exemple, LastName Like '\*mit\*') ou uniquement à la fin de la chaîne (par exemple), ou uniquement à la fin de la chaîne (par exemple, LastName Like ' Smit\*»).
 
-## <a name="filtering-with-a-constant"></a>Filtrage avec une constante
+### <a name="filtering-with-a-constant"></a>Filtrage avec une constante
 
 Les constantes suivantes sont disponibles pour le filtrage des objets **Recordset**.
 
@@ -159,6 +154,7 @@ Les constantes suivantes sont disponibles pour le filtrage des objets **Recordse
 </tbody>
 </table>
 
+<br/>
 
 Les constantes de filtre simplifient la résolution des conflits d'enregistrements individuels pendant le mode de mise à jour par lot en vous permettant de n'afficher, par exemple, que les enregistrements affectés par le dernier appel de la méthode **UpdateBatch**, comme illustré dans l'exemple suivant :
 
@@ -193,7 +189,7 @@ Les constantes de filtre simplifient la résolution des conflits d'enregistremen
 'EndDeleteGroup 
 ```
 
-## <a name="filtering-with-bookmarks"></a>Filtrage avec les signets
+### <a name="filtering-with-bookmarks"></a>Filtrage avec les signets
 
 Enfin, vous pouvez transmettre un tableau de signets de type Variant à la propriété **Filter**. Le curseur résultant contiendra uniquement les enregistrements dont le signet a été transmis à la propriété. L’exemple de code suivant crée un tableau de signets à partir des enregistrements dans un **jeu d’enregistrements** qui ont un « B » dans le champ *ProductName* . Il passe ensuite le tableau à la propriété **Filter** et affiche les informations de l'objet **Recordset** filtré qui en résulte.
 
@@ -228,7 +224,7 @@ Enfin, vous pouvez transmettre un tableau de signets de type Variant à la propr
     'EndFilterBkmk 
 ```
 
-## <a name="creating-a-clone-of-a-recordset"></a>Création d'un clone d'un jeu d'enregistrements
+## <a name="creating-a-clone-of-a-recordset"></a>Création d’un clone d’un objet Recordset
 
 Utilisez la méthode **Clone** pour créer plusieurs objets **Recordset** dupliqués, notamment dans le cas où vous souhaitez conserver plusieurs enregistrements actifs dans un jeu d'enregistrements donné. La méthode **Clone** est plus efficace que la technique qui consiste à créer et ouvrir un nouvel objet **Recordset** avec une définition identique à celle de l'original.
 

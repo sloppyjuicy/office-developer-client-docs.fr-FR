@@ -10,31 +10,22 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 254a54b4b672ba9e40253e3bd95283eec655d3dc
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: ed69a84f9b1774b7c33711a0bb8e80da54e656cc
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920507"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997929"
 ---
 # <a name="showtoolbar-macro-action"></a>ShowToolbar, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 L'action **AfficherBarreOutils** permet d'afficher ou de masquer un groupe de commandes sous l'onglet **Compléments**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>AfficherBarreOutils</STRONG> n'affecte pas les menus contextuels.</P>
-
-
-
-
-> [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> - [!REMARQUE] L'action **AfficherBarreOutils** n'affecte pas les menus contextuels.
+> - [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Valeur
 

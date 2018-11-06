@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
 ms:contentKeyID: 48544609
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c3cc60a1f3a3b7114b3996f70c5bfe4541d60bb7
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 97b39c44e529ae6c360ddf69ac9b45b0c340d500
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928522"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997034"
 ---
 # <a name="propertiesappend-method-dao"></a>Méthode Properties.Append (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Ajoute un nouvel objet **Property** à la collection **Properties**.
 
 *expression* Variable qui représente un objet **Properties** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,14 +37,14 @@ Ajoute un nouvel objet **Property** à la collection **Properties**.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Objet</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>Variable d'objet représentant le champ qui est ajouté à la collection.</p></td>

@@ -1,20 +1,19 @@
 ---
 title: Méthode Field2.GetChunk (DAO)
-TOCTitle: GetChunk Method
+TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d3bf59549a37e728d26da2e5986e852235d6f77
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: fae8e5f0331f3c59aad482b827140ecd6366f2f1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937448"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996432"
 ---
 # <a name="field2getchunk-method-dao"></a>Méthode Field2.GetChunk (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Renvoie tout ou partie du contenu d’un objet de **type Memo** ou **Long Binary
 
 *expression* Variable qui représente un objet **Field2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Renvoie tout ou partie du contenu d’un objet de **type Memo** ou **Long Binary
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets à ignorer avant que la copie ne commence.</p></td>
 </tr>
 <tr class="even">
-<td><p>Octets</p></td>
+<td><p><em>Octets</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre d'octets que vous souhaitez renvoyer.</p></td>
@@ -60,7 +59,7 @@ Renvoie tout ou partie du contenu d’un objet de **type Memo** ou **Long Binary
 </table>
 
 
-### <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur renvoyée
 
 Variant
 

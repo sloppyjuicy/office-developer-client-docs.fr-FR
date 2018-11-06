@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 322b59c6556b73186fe4034e64c75d9104d29560
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d5ce90c362d6d8cddcbf04326b5443b2c1dda2ae
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926898"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996789"
 ---
 # <a name="tabledefconnect-property-dao"></a>Propriété TableDef.Connect (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -159,12 +158,6 @@ Pour les données dans Microsoft Exchange, la clé MAPILEVEL obligatoire doit ê
 
 Pour les tables de base d'une base de données Microsoft Access, la valeur de la propriété **Connect** est une chaîne nulle ("").
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous devez définir la propriété <STRONG>Connect</STRONG> avant de définir la propriété <STRONG>ReturnsRecords</STRONG>.</P>
-> <LI>
-> <P>Vous devez disposer des autorisations d'accès à l'ordinateur sur lequel se trouve le serveur de base de données auquel vous essayez d'accéder.</P></LI></UL>
-
-
+> - Vous devez définir la propriété **Connect** avant de définir la propriété **ReturnsRecords**.
+> - Vous devez disposer des autorisations d'accès à l'ordinateur sur lequel se trouve le serveur de base de données auquel vous essayez d'accéder.

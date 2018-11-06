@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249506(v=office.15)
 ms:contentKeyID: 48545792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1c6b42d9560a30b45fb777bb4fd1de4351830a4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 996c0adf8c883de5c73174d726cf5bd11fc42457
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936293"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996880"
 ---
 # <a name="rds-tutorial-vbscript"></a>Didacticiel RDS (VBScript)
 
@@ -54,7 +54,7 @@ VBScript peut détecter le nom du serveur web IIS qu'exécute en accédant à la
 Toutefois, dans ce didacticiel, utilisez le serveur fictif « yourServer ».
 
 > [!NOTE]
-> <P>[!REMARQUE] Soyez attentif au type de données des arguments <STRONG>ByRef</STRONG>. VBScript ne vous autorisant pas à spécifier le type de variable, vous devez toujours transmettre un type Variant. Si vous utilisez HTTP, RDS vous autorise à transmettre un type Variant à une méthode qui n'attend pas ce type de données si vous l'appelez avec la méthode <STRONG>CreateObject</STRONG> de l'objet <A href="createobject-method-rds.md">RDS.DataSpace</A>. Si vous utilisez DCOM ou un serveur in-process, faites en sorte que les types de paramètres côté client et côté serveur correspondent sans quoi vous obtiendrez une erreur « Incompatibilité de type ».</P>
+> [!REMARQUE] Soyez attentif au type de données des arguments **ByRef**. VBScript ne vous autorisant pas à spécifier le type de variable, vous devez toujours transmettre un type Variant. Si vous utilisez HTTP, RDS vous autorise à transmettre un type Variant à une méthode qui n'attend pas ce type de données si vous l'appelez avec la méthode **CreateObject** de l'objet [RDS.DataSpace](createobject-method-rds.md). Si vous utilisez DCOM ou un serveur in-process, faites en sorte que les types de paramètres côté client et côté serveur correspondent sans quoi vous obtiendrez une erreur « Incompatibilité de type ».
 
 ```vb
  

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 30b23b424b8c76f0681d0128348590c1558e81ec
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 11f8017c01cec9af2da26bedaf689d69554e554c
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929383"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998186"
 ---
 # <a name="relationpartialreplica-property-dao"></a>Propriété Relation.PartialReplica (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -46,6 +45,10 @@ Pour répliquer toutes les commandes de la région Californie, vous devez indiqu
     
 
 > [!NOTE]
-> <P>Lorsque vous définissez un filtre ou une relation de réplica, notez que les enregistrements du réplica partiel ne répondant pas aux critères de restriction seront supprimés du réplica partiel mais pas du réplica complet. Supposez par exemple que vous définissez la propriété <STRONG>ReplicaFilter</STRONG> au niveau de l'objet <STRONG>TableDef</STRONG> Customers du réplica partiel sur "Region = 'CA'" et que vous remplissez une nouvelle fois la base de données. Cette opération va entraîner l'ajout ou la mise à jour de tous les enregistrements relatifs aux clients basés en Californie. Si vous redéfinissez ensuite la propriété <STRONG>ReplicaFilter</STRONG> sur "Region = 'FL'" et remplissez une nouvelle fois la base de données, tous les enregistrements de la région Californie du réplica partiel sont supprimés et tous ceux de la région Floride sont insérés à partir du réplica complet. Aucun enregistrement du réplica complet n'est supprimé. Avant de définir la propriété <STRONG>ReplicaFilter</STRONG> ou <STRONG>PartialReplica</STRONG>, il convient de synchroniser le réplica partiel dans lequel vous définissez ces propriétés avec le réplica complet. Vous garantissez ainsi que les modifications en cours du réplica partiel sont fusionnées dans ce dernier avant que tout enregistrement ne soit supprimé.</P>
+> [!REMARQUE] Lorsque vous définissez un filtre ou une relation de réplica, notez que les enregistrements du réplica partiel ne répondant pas aux critères de restriction seront supprimés du réplica partiel mais pas du réplica complet. Par exemple, supposons que vous définissez la propriété **ReplicaFilter** sur les clients **TableDef** dans le réplica partiel à « Region = 'CA' » et vous puis remplir la base de données. Cette opération va entraîner l'ajout ou la mise à jour de tous les enregistrements relatifs aux clients basés en Californie. 
+> 
+> Si vous rétablissez la propriété **ReplicaFilter** pour « Region = 'FL' » et remplir la base de données, tous les enregistrements de la région Californie du réplica partiel seront supprimées et tous les enregistrements de Floride seront insérées à partir du réplica complet. Aucun enregistrement du réplica complet n'est supprimé. 
+>
+> Avant de définir la propriété **ReplicaFilter** ou **PartialReplica**, il convient de synchroniser le réplica partiel dans lequel vous définissez ces propriétés avec le réplica complet. Vous garantissez ainsi que les modifications en cours du réplica partiel sont fusionnées dans ce dernier avant que tout enregistrement ne soit supprimé.
 
 

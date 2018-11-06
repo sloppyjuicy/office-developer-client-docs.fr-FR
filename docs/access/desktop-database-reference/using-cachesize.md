@@ -6,25 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249846(v=office.15)
 ms:contentKeyID: 48547148
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: aa624c545d17ef0d56a076b3d30326bacd2c6edf
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: edf413cbfac35aa20b09508c3af5069f18d5076e
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871961"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997433"
 ---
 # <a name="using-cachesize"></a>Utilisation de CacheSize
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Utilisez la propriété **CacheSize** pour contrôler le nombre d'enregistrements à récupérer simultanément à partir du fournisseur pour les insérer dans la mémoire locale. Par exemple, si **CacheSize** a pour valeur 10, après la première ouverture de l'objet **Recordset**, le fournisseur extrait les dix premiers enregistrements pour les insérer dans la mémoire locale. À mesure que vous parcourez l'objet **Recordset**, le fournisseur retourne les données du tampon de mémoire local. Dès que vous avez dépassé le dernier enregistrement du cache, le fournisseur récupère les dix enregistrements suivants de la source de données pour les insérer dans le cache.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] <STRONG>CacheSize</STRONG> dépend de la propriété <STRONG>Maximum Open Rows</STRONG> spécifique au fournisseur (dans la collection <STRONG>Properties</STRONG> de l'objet <STRONG>Recordset</STRONG> ). Vous ne pouvez pas attribuer à <STRONG>CacheSize</STRONG> une valeur supérieure à celle de <STRONG>Maximum Open Rows</STRONG>. Pour modifier le nombre de lignes que le fournisseur peut ouvrir, définissez la valeur de <STRONG>Maximum Open Rows</STRONG>.</P>
-
-
+> [!REMARQUE] **CacheSize** dépend de la propriété **Maximum Open Rows** spécifique au fournisseur (dans la collection **Properties** de l'objet **Recordset** ). Vous ne pouvez pas attribuer à **CacheSize** une valeur supérieure à celle de **Maximum Open Rows**. Pour modifier le nombre de lignes que le fournisseur peut ouvrir, définissez la valeur de **Maximum Open Rows**.
 
 La valeur de **CacheSize** peut être modifiée pendant la durée de vie de l'objet **Recordset** mais sa modification affecte uniquement le nombre d'enregistrements dans le cache après des extractions successives de la source des données. La modification de la seule valeur de la propriété ne suffira pas à modifier le contenu actuel du cache.
 

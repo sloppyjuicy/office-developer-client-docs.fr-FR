@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052973
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 316dd9e8b430ba0dbb741bc1af81517749d84f77
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7cf5a0e0a9d0cf3d3cd5ce2b89dc287b41c72f74
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921886"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998796"
 ---
 # <a name="recordset2percentposition-property-dao"></a>Propriété Recordset2.PercentPosition (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -34,11 +33,8 @@ Définit ou renvoie une valeur indiquant l'emplacement approximatif de l'enregis
 
 Pour indiquer ou modifier la position approximative de l'enregistrement actif dans un objet **Recordset**, vous pouvez vérifier ou définir la propriété **PercentPosition**. Lorsque vous manipulez un objet **Recordset** de type feuille de réponse dynamique ou instantané, ouvert directement à partir d'une table de base, commencez par remplir l'objet **Recordset** en accédant au dernier enregistrement avant de définir ou vérifier la propriété **PercentPosition**. Si vous utilisez la propriété **PercentPosition** avant d'avoir entièrement rempli l'objet **Recordset**, le volume de déplacements est relatif au nombre d'enregistrements accédés, tel qu'il est spécifié dans le paramètre de la propriété **[RecordCount](recordset2-recordcount-property-dao.md)**. Vous pouvez accéder au dernier enregistrement à l'aide de la méthode **[MoveLast](recordset2-movelast-method-dao.md)**.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Il est déconseillé d'utiliser la propriété <STRONG>PercentPosition</STRONG> si votre intention est de faire d'un enregistrement spécifique de l'objet <STRONG>Recordset</STRONG> l'enregistrement actif. La propriété <STRONG><A href="recordset2-bookmark-property-dao.md">Bookmark</A></STRONG> est plus adaptée pour cela.</P>
-
-
+> L’utilisation de la propriété **PercentPosition** pour déplacer l’enregistrement actif vers un enregistrement spécifique dans un objet **Recordset** n’est pas recommandée. La propriété **[Bookmark](recordset2-bookmark-property-dao.md)** convient mieux pour cette tâche.
 
 Dès que vous définissez une valeur pour la propriété **PercentPosition**, l'enregistrement qui occupe la position approximative correspondant à cette valeur devient l'enregistrement actif et la propriété **PercentPosition** est réinitialisée avec une valeur qui reflète la position approximative de l'enregistrement actif. Par exemple, si votre objet **Recordset** contient seulement cinq enregistrements et que vous définissez la valeur 77 pour la propriété **PercentPosition**, la valeur renvoyée par la propriété **PercentPosition** sera vraisemblablement 80 et non 77.
 

@@ -10,15 +10,14 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 41260e801be8ebd43d89f9f495f236ff60582a56
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 4eb1a961a91bf32a69154a1f0e7b734dd00f24b6
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930062"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998895"
 ---
 # <a name="propertyvalue-property-dao"></a>Propriété Property.Value (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -40,8 +39,7 @@ La propriété **Value** est la propriété par défaut des objets **Field**, **
 
 Si vous essayez de définir ou de renvoyer la propriété **Value** dans un contexte inapproprié (par exemple, la propriété **Value** d'un objet **Field** dans la collection **Fields** d'un objet **TableDef**), vous obtenez une erreur interceptable.
 
-
 > [!NOTE]
-> <P>Lorsque vous lisez des valeurs décimales depuis une base de données Microsoft SQL Server, elle sont mises en forme à l'aide d'une notation scientifique via un espace de travail Microsoft Access, mais elles s'affichent sous forme de valeurs décimales normales via un espace de travail ODBCDirect.</P>
+> Lorsque vous lisez des valeurs décimales depuis une base de données Microsoft SQL Server, elle sont mises en forme à l'aide d'une notation scientifique via un espace de travail Microsoft Access, mais elles s'affichent sous forme de valeurs décimales normales via un espace de travail ODBCDirect.
 
 

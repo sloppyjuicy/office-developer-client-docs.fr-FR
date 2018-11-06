@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248955(v=office.15)
 ms:contentKeyID: 48543546
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5116adbf68e4e98c7fbda8285348e00638465742
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: bf4c442ecd7cbce740df69d60b5ec3e1e405a412
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946271"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997853"
 ---
 # <a name="recordset-positioning"></a>Positionnement du jeu d’enregistrements
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -24,8 +23,7 @@ La propriété **AbsolutePosition** permet d'accéder à un enregistrement donn�
 
 Lorsque vous définissez la propriété **AbsolutePosition**, même si elle s'applique à un enregistrement stocké dans le cache actuel, ADO recharge le cache avec un nouveau groupe d'enregistrements, en commençant par l'enregistrement spécifié. La propriété **CacheSize** détermine, quant à elle, la taille de ce groupe.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne pouvez pas utiliser la propriété <STRONG>AbsolutePosition</STRONG> en tant que numéro d'enregistrement de substitution. En effet, la position d'un enregistrement change lorsque vous supprimez l'enregistrement précédent et rien ne garantit que la valeur de la propriété <STRONG>AbsolutePosition</STRONG> restera identique si l'objet <STRONG>Recordset</STRONG> est rouvert ou fait l'objet d'une nouvelle requête. L'utilisation des signets est recommandée pour conserver ou revenir à une position donnée. En outre, ils constituent le seul moyen de se positionner dans tous les types d'objets <STRONG>Recordset</STRONG>.</P>
+> [!REMARQUE] Vous ne pouvez pas utiliser la propriété **AbsolutePosition** en tant que numéro d'enregistrement de substitution. En effet, la position d'un enregistrement change lorsque vous supprimez l'enregistrement précédent et rien ne garantit que la valeur de la propriété **AbsolutePosition** restera identique si l'objet **Recordset** est rouvert ou fait l'objet d'une nouvelle requête. L'utilisation des signets est recommandée pour conserver ou revenir à une position donnée. En outre, ils constituent le seul moyen de se positionner dans tous les types d'objets **Recordset**.
 
 

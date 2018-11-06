@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a0f951c69939e8265bab64193e594eed32149c38
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e59a1f5ce676ceaa1b0b346a38b4487b3233e514
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920031"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997377"
 ---
 # <a name="requery-macro-action"></a>Requery, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -52,35 +51,29 @@ L'action **Actualiser** accepte l'argument suivant.
 
 L'action **Actualiser** effectue l'une des actions suivantes :
 
-  - Réexécute la requête sur laquelle est basé le contrôle ou l'objet.
+- Réexécute la requête sur laquelle est basé le contrôle ou l'objet.
 
-  - Affiche les enregistrements nouveaux ou modifiés et enlève les éventuels enregistrements supprimés de la table sur laquelle est basé le contrôle ou l'objet.
-
+- Affiche les enregistrements nouveaux ou modifiés et enlève les éventuels enregistrements supprimés de la table sur laquelle est basé le contrôle ou l'objet.
 
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>Actualiser</STRONG> n'affecte pas la position du pointeur d'enregistrement.</P>
-
-
+> [!REMARQUE] L'action **Actualiser** n'affecte pas la position du pointeur d'enregistrement.
 
 Les contrôles basés sur une requête ou une table comprennent :
 
-  - des zones de liste et des zones de liste déroulante ;
+- des zones de liste et des zones de liste déroulante ;
 
-  - des contrôles sous-formulaires ;
+- des contrôles sous-formulaires ;
 
-  - des objets OLE, tels que des graphiques ;
+- des objets OLE, tels que des graphiques ;
 
-  - des contrôles contenant des fonctions de domaine, telles que **DSum**.
+- des contrôles contenant des fonctions de domaine, telles que **DSum**.
 
 Si le contrôle spécifié n'est pas basé sur une requête ou une table, cette action force un recalcul du contrôle.
 
 Si vous laissez l'argument **Nom du contrôle** vide, l'action **Actualiser** équivaut à appuyer sur Maj+F9 lorsque l'objet a le focus. Si un contrôle sous-formulaire a le focus, cette action actualise seulement la source du sous-formulaire (comme lorsque vous appuyez sur les touches Maj+F9).
 
-
 > [!NOTE]
-> <P>[!REMARQUE] L'action <STRONG>Actualiser</STRONG> actualise la source du contrôle ou de l'objet. En revanche, l'action <STRONG>Redessiner</STRONG> redessine les contrôles dans l'objet spécifié mais n'actualise pas la base de données et n'affiche pas les nouveaux enregistrements. L'action <STRONG>AfficherTousEnreg</STRONG> actualise non seulement l'objet actif mais supprime également tous les filtres appliqués, ce que ne fait pas l'action <STRONG>Actualiser</STRONG>.</P>
-
-
+> [!REMARQUE] L'action **Actualiser** actualise la source du contrôle ou de l'objet. En revanche, l'action **Redessiner** redessine les contrôles dans l'objet spécifié mais n'actualise pas la base de données et n'affiche pas les nouveaux enregistrements. L'action **AfficherTousEnreg** actualise non seulement l'objet actif mais supprime également tous les filtres appliqués, ce que ne fait pas l'action **Actualiser**.
 
 Pour actualiser un contrôle qui ne figure pas dans l'objet actif, vous devez utiliser la méthode **Requery** dans un module Visual Basic pour Applications (VBA), et non l'action **Actualiser** ou sa méthode **Requery** correspondante de l'objet **DoCmd**. La méthode **Requery** dans VBA est plus rapide que l'action **Actualiser** ou la méthode **DoCmd.Requery**. En outre, lorsque vous utilisez l'action **Actualiser** ou la méthode **DoCmd.Requery**, Microsoft Access ferme la requête et la recharge à partir de la base de données tandis qu'avec la méthode **Requery**, réexécute la requête sans la fermer ni la charger. Notez que l’objet de données ActiveX (ADO) **Actualiser** la méthode fonctionne de la même façon que la méthode **Requery** d’Access.
 

@@ -1,17 +1,17 @@
 ---
-title: Objet index - accès aux données (DAO) des objets
-TOCTitle: Index Object
+title: Objet index - Data Access Objects (DAO)
+TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
 ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cc849e22da654bd384065e4c169b3fd5540c6061
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6646a3121bc353c8e8d74e3698ae688272656769
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928963"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997398"
 ---
 # <a name="index-object-dao"></a>Objet index (DAO)
 
@@ -34,14 +34,14 @@ Le moteur de base de données Microsoft Access gère automatiquement tous les in
 Lorsque vous accédez à un objet **Recordset** de type table, vous indiquez l'ordre des enregistrements à l'aide de la propriété **Index** de l'objet. Définissez cette propriété sur le paramètre **Name** d'un objet **Index** existant dans la collection **Indexes**. Cette collection figure dans l'objet **[TableDef](tabledef-object-dao.md)** sous-jacent à l'objet **Recordset** que vous remplissez.
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne devez pas créer d'index pour une table. Toutefois, dans le cas d'une table volumineuse non indexée, l'accès à un enregistrement spécifique ou le traitement de jointures peuvent durer longtemps. Inversement, la présence d'un nombre d'index trop important peut ralentir la mise à jour de la base de données lors de la modification de chaque index de table.</P>
+> [!REMARQUE] Vous ne devez pas créer d'index pour une table. Toutefois, dans le cas d'une table volumineuse non indexée, l'accès à un enregistrement spécifique ou le traitement de jointures peuvent durer longtemps. Inversement, la présence d'un nombre d'index trop important peut ralentir la mise à jour de la base de données lors de la modification de chaque index de table.
 
 La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **Field** de l'index détermine l'ordre des enregistrements renvoyés ainsi que les techniques d'accès à utiliser pour cet index.
 
 Chaque objet **Field** de la collection **Fields** d'un objet **Index** constitue un composant de l'index. Pour définir un nouvel objet **Index**, paramétrez ses propriétés avant de l'ajouter à une collection. L'objet **Index** pourra ainsi être utilisé ultérieurement.
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous ne pouvez modifier le paramètre de propriété <STRONG>Name</STRONG> d'un objet <STRONG>Index</STRONG> que si le paramètre <STRONG><A href="connection-updatable-property-dao.md">Updatable</A></STRONG> de l'objet conteneur <STRONG>TableDef</STRONG> a la valeur <STRONG>True</STRONG>.</P>
+> [!REMARQUE] Vous ne pouvez modifier le paramètre de propriété **Name** d'un objet **Index** que si le paramètre **[Updatable](connection-updatable-property-dao.md)** de l'objet conteneur **TableDef** a la valeur **True**.
 
 Si vous indiquez une clé primaire pour une table, le moteur de base de données Microsoft Access la définit automatiquement comme index primaire. Il s'agit d'un ou plusieurs champs qui identifient de manière unique tous les enregistrements d'une table dans un ordre prédéfini. Le champ d'index primaire devant être unique, le moteur de base de données Microsoft Access attribue automatiquement la valeur **True** à la propriété **Unique** de l'objet **Index**. Si l'index primaire comprend plusieurs champs, chaque champ peut contenir des valeurs en double, mais la combinaison de valeurs de tous les champs indexés doit être unique. Un index primaire est constitué d'une clé correspondant à la table et comprend toujours les mêmes champs que la clé primaire.
 
@@ -59,12 +59,9 @@ Lors de la création d'une relation qui applique l'intégrité référentielle, 
 4.  Ajoutez l'objet **Field** à la collection **Fields**.
 
 5.  Ajoutez l'objet **Index** à la collection **Indexes**.
-    
 
     > [!NOTE]
-    > <P>[!REMARQUE] La propriété <STRONG>Clustered</STRONG> est ignorée pour les bases de données qui utilisent le moteur de base de données Microsoft Access, qui ne prend pas en charge les index cluster.</P>
-
-
+    > [!REMARQUE] La propriété **Clustered** est ignorée pour les bases de données qui utilisent le moteur de base de données Microsoft Access, qui ne prend pas en charge les index cluster.
 
 ## <a name="example"></a>Exemple
 

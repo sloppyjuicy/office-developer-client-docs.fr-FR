@@ -1,20 +1,19 @@
 ---
 title: Méthode Recordset.MoveLast (DAO)
-TOCTitle: MoveLast Method
+TOCTitle: MoveLast method
 ms:assetid: fc0f7a33-1f55-9f5b-b00d-1b81f49b1c3e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
 ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44b38825ad2757be1cb17bfc7f7a6721bc073968
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 22c028601024df79f5ca75c8845decae31935dc3
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920094"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998776"
 ---
 # <a name="recordsetmovelast-method-dao"></a>Méthode Recordset.MoveLast (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Atteint le dernier enregistrement d'un objet **Recordset** spécifié et en fait
 
 *expression* Variable qui représente un objet **Recordset** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,14 +37,14 @@ Atteint le dernier enregistrement d'un objet **Recordset** spécifié et en fait
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Options</p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Associez ce paramètre à la constante <strong>dbRunAsync</strong> pour obtenir une exécution asynchrone de l'appel de <strong>MoveLast</strong></p></td>
@@ -64,13 +63,12 @@ Lorsque vous ouvrez un objet **Recordset**, le premier enregistrement est actif 
 
 Si le premier ou le dernier enregistrement est déjà actif lorsque vous utilisez la méthode **MoveFirst** ou **MoveLast**, l'enregistrement actif ne change pas.
 
-If recordset refers to a table-type **Recordset** (Microsoft Access workspaces only), movement follows the current index. Vous pouvez définir l'index actif à l'aide de la propriété **Index**. Si vous ne définissez pas l'index actuel, l'ordre des enregistrements renvoyés est indéfini.
-
+Si le jeu d’enregistrements fait référence à un **objet Recordset** de type table (espaces de travail Microsoft Access uniquement), le déplacement suit l’index actuel. Vous pouvez définir l'index actif à l'aide de la propriété **Index**. Si vous ne définissez pas l'index actuel, l'ordre des enregistrements renvoyés est indéfini.
 
 > [!NOTE]
-> <P>[!REMARQUE] Vous pouvez utiliser la méthode <STRONG>MoveLast</STRONG> pour remplir entièrement un objet <STRONG>Recordset</STRONG> de type feuille de réponse dynamique ou instantané en vue de fournir le nombre actuel d'enregistrements présents dans l'objet <STRONG>Recordset</STRONG>. Toutefois, si vous utilisez <STRONG>MoveLast</STRONG> de cette manière, vous risquez de ralentir l'exécution de votre application. Il n'est conseillé d'utiliser la méthode <STRONG>MoveLast</STRONG> qu'en cas de nécessité absolue d'obtenir un décompte précis des enregistrements présents dans un objet <STRONG>Recordset</STRONG> récemment ouvert. Si vous utilisez la constante <STRONG>dbRunAsync</STRONG> avec <STRONG>MoveLast</STRONG>, l'appel de la méthode est asynchrone. Vous pouvez utiliser la propriété <STRONG>StillExecuting</STRONG> pour déterminer à quel moment l'enregistrement <STRONG>Recordset</STRONG> est rempli entièrement, de même que vous pouvez utiliser la méthode <STRONG>Cancel</STRONG> pour terminer l'exécution de l'appel asynchrone de la méthode <STRONG>MoveLast</STRONG>.</P>
-
-
+> [!REMARQUE] Vous pouvez utiliser la méthode **MoveLast** pour remplir entièrement un objet **Recordset** de type feuille de réponse dynamique ou instantané en vue de fournir le nombre actuel d'enregistrements présents dans l'objet **Recordset**. Toutefois, si vous utilisez **MoveLast** de cette manière, vous risquez de ralentir l'exécution de votre application. Il n'est conseillé d'utiliser la méthode **MoveLast** qu'en cas de nécessité absolue d'obtenir un décompte précis des enregistrements présents dans un objet **Recordset** récemment ouvert. 
+> 
+> Si vous utilisez la constante **dbRunAsync** avec **MoveLast**, l'appel de la méthode est asynchrone. Vous pouvez utiliser la propriété **StillExecuting** pour déterminer à quel moment l'enregistrement **Recordset** est rempli entièrement, de même que vous pouvez utiliser la méthode **Cancel** pour terminer l'exécution de l'appel asynchrone de la méthode **MoveLast**.
 
 Vous ne pouvez pas utiliser les méthodes **MoveFirst**, **MoveLast**et **MovePrevious** sur un objet **Recordset** de type avant uniquement.
 

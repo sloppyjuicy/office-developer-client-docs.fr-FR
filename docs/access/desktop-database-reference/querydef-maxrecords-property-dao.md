@@ -10,18 +10,16 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5893dd0c6538a1812dc9b19aede2b9114899d68c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 0156983a455c72e4046424def188e41b94705087
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927119"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998224"
 ---
 # <a name="querydefmaxrecords-property-dao"></a>Propriété QueryDef.MaxRecords (DAO)
 
-
 **S’applique à**: Access 2013, Office 2013
-
 
 Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.
 
@@ -37,11 +35,8 @@ La valeur par défaut est 0, indiquant que le nombre d'enregistrements renvoyés
 
 Une fois que le nombre de lignes spécifié par **MaxRecords** est renvoyé à votre application dans un objet **[Recordset](recordset-object-dao.md)**, le gestionnaire de requêtes arrête son traitement même si d'autres enregistrements pourraient être inclus dans l'objet **Recordset**. Cette propriété est utile dans les cas où les ressources client limitées empêchent la gestion de grandes quantités d'enregistrements.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] La propriété <STRONG>MaxRecords</STRONG> est compatible uniquement avec une source de données ODBC.</P>
-
-
+> [!REMARQUE] La propriété **MaxRecords** est compatible uniquement avec une source de données ODBC.
 
 ## <a name="example"></a>Exemple
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 950edd8ce1cd0e5081d569b1b11a02a14fe94d99
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 232af159c669968c9c3b4d3d65acbc181f958689
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937700"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998902"
 ---
 # <a name="whats-new-in-ado"></a>Nouveautés dans ADO
 
@@ -23,7 +23,7 @@ La version ADO 2.5 propose les nouvelles fonctionnalités suivantes ainsi qu'une
 
 - **[Enregistrements et flux](chapter-10-records-and-streams.md)**
 
-  Cette nouvelle version d'ADO introduit l'objet [Record](record-object-ado.md), qui peut représenter et gérer des éléments comme les répertoires et fichiers d'un système de fichiers et les dossiers et messages d'un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
+  Cette version d’ADO introduit l’objet [Record](record-object-ado.md) , qui peut représenter et gérer des éléments comme les répertoires et fichiers d’un système de fichiers et dossiers et messages d’un système de messagerie. L'objet **Record** peut également représenter une ligne d'un [Recordset](recordset-object-ado.md), bien que les objets **Record** et **Recordset** aient des méthodes et des propriétés différentes.
 
   Le nouvel objet [Stream](stream-object-ado.md) fournit les moyens de lire, d'écrire et de gérer le flux binaire d'octets ou de texte qui compose un flux de message ou de fichier.
 

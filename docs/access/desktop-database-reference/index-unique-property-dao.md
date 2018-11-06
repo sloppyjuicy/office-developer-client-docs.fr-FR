@@ -10,12 +10,12 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 85d0ceec1cea782a8e43a2bebd6779841c2a56ff
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dd3bd047afed2e547be0fb7b6999c16dd0b12cc1
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926107"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25996474"
 ---
 # <a name="indexunique-property-dao"></a>Propriété Index.Unique (DAO)
 
@@ -37,21 +37,12 @@ Un index unique est constitué d'un ou de plusieurs champs qui organisent de man
 
 Si les propriétés **Unique** et **[Primary](index-primary-property-dao.md)** d'un objet **Index** ont toutes les deux la valeur **True**, l'index est unique et primaire : il identifie de manière unique tous les enregistrements de la table dans un ordre logique et prédéfini. Si la propriété **Primary** a la valeur **False**, l'index est de type secondaire. Les index secondaires (clés et non clés) organisent les enregistrements de manière logique dans un ordre prédéfini sans servir d'identificateur pour les enregistrements de la table.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Vous n'êtes pas obligé de créer des index pour les tables mais sachez que, dans les grandes tables non indexées, l'accès à un enregistrement spécifique risque de prendre beaucoup de temps.</P>
-> <LI>
-> <P>Les enregistrements extraits de tables non indexées sont renvoyés sans ordre particulier.</P>
-> <LI>
-> <P>La propriété <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> de chaque objet <STRONG><A href="field-object-dao.md">Field</A></STRONG> dans l'objet <STRONG>Index</STRONG> détermine l'ordre des enregistrements et donc les techniques d'accès à utiliser pour cet objet <STRONG>Index</STRONG>.</P>
-> <LI>
-> <P>Un index unique facilite la recherche des enregistrements.</P>
-> <LI>
-> <P>Les index ne modifient pas l'ordre physique d'une table de base, seulement la manière dont l'objet <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> de la table accède aux enregistrements lorsqu'un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets <STRONG>Recordset</STRONG>.</P></LI></UL>
-
-
+> - Vous n'êtes pas obligé de créer des index pour les tables mais sachez que, dans les grandes tables non indexées, l'accès à un enregistrement spécifique risque de prendre beaucoup de temps.
+> - Les enregistrements extraits de tables non indexées sont renvoyés sans ordre particulier.
+> - La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** dans l'objet **Index** détermine l'ordre des enregistrements et donc les techniques d'accès à utiliser pour cet objet **Index**.
+> - Un index unique facilite la recherche des enregistrements.
+> - Index n’affectent pas l’ordre physique d’une table de base ; index affecte uniquement la manière dont les enregistrements sont accessibles par l’objet **[Recordset](recordset-object-dao.md)** de type table lorsqu’un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets **Recordset** .
 
 ## <a name="example"></a>Exemple
 

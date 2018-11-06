@@ -10,25 +10,21 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 125aa2a4d289db64d21859b6bd12b703c44aff6c
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c2e5b3e2cdfb743df8a098d3978ccd3d6eb66d90
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926751"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25999028"
 ---
 # <a name="printout-macro-action"></a>PrintOut, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
 Faites appel à l'action **Imprimer** pour imprimer l'objet actif dans la base de données ouverte. Vous pouvez imprimer des feuilles de données, des états, des formulaires, des pages d'accès aux données et des modules.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. Pour plus d'informations sur l'activation des macros, voir les liens dans la section See Alsode cet article.</P>
-
-
+> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
@@ -78,11 +74,8 @@ L'action **Imprimer** possède les arguments suivants.
 
 Cette action équivaut à sélectionner un objet, à cliquer sur l'onglet **Fichier**, puis à cliquer sur **Imprimer**. Toutefois, avec cette action, aucune boîte de dialogue **Imprimer** ne s'ouvre.
 
-
 > [!TIP]
-> <P>[!CONSEIL] Si vous utilisez fréquemment des paramètres d'impression spécifiques, créez une macro contenant une action <STRONG>Imprimer</STRONG> reprenant ces paramètres dans ses arguments.</P>
-
-
+> [!CONSEIL] Si vous utilisez fréquemment des paramètres d'impression spécifiques, créez une macro contenant une action **Imprimer** reprenant ces paramètres dans ses arguments.
 
 Les arguments à spécifier pour cette action correspondent aux options de la boîte de dialogue **Imprimer**. Toutefois, à la différence de l'action **TrouverEnregistrement** et la boîte de dialogue **Rechercher et remplacer**, les paramètres des arguments ne sont pas partagés avec les options de la boîte de dialogue **Imprimer**.
 

@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d8ed9eb021df9d4c82473f1924a539787680f76a
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: d2231e94703b49fd14fb89d7642c0144c1dda532
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928802"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998594"
 ---
 # <a name="recordset2move-method-dao"></a>Méthode Recordset2.Move (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -26,7 +25,7 @@ Déplace l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md
 
 *expression* Variable qui représente un objet **Recordset2** .
 
-### <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -38,20 +37,20 @@ Déplace l'enregistrement actif d'un objet **[Recordset](recordset-object-dao.md
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Obligatoire/Facultatif</p></th>
+<th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Lignes</p></td>
+<td><p><em>Rows</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Entier long</strong></p></td>
 <td><p>Nombre de lignes en fonction duquel l'enregistrement est déplacé. Si l'argument rows a une valeur supérieure à 0, l'enregistrement avance (vers la fin du fichier). Si l'argument rows a une valeur inférieure à 0, l'enregistrement recule (vers le début du fichier).</p></td>
 </tr>
 <tr class="even">
-<td><p>Signetdébut</p></td>
+<td><p><em>Signetdébut</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variante</strong></p></td>
 <td><p>Valeur identifiant un signet. Si vous spécifiez l'argument startbookmark, le déplacement s'opère par rapport à ce signet. Sinon, l'opération Move part de l'enregistrement actif.</p></td>
@@ -68,16 +67,10 @@ Si vous utilisez **Move** pour positionner le pointeur d'enregistrement actif ap
 
 Si la propriété **BOF** ou **EOF** a la valeur **True** et que vous tentez d'utiliser la méthode **Move** sans un signet valide, une erreur d'exécution se produit.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Lorsque vous appliquez la méthode <STRONG>Move</STRONG> à un objet <STRONG>Recordset</STRONG> de type avant uniquement, la valeur de l'argument « rows » doit être un entier positif et les signets ne sont pas autorisés. Cela signifie que vous pouvez uniquement faire avancer un enregistrement.</P>
-> <LI>
-> <P>Pour faire de l'enregistrement actif le premier enregistrement, le dernier, le suivant ou le précédent dans un objet <STRONG>Recordset</STRONG>, utilisez la méthode <STRONG>MoveFirst</STRONG>, <STRONG>MoveLast</STRONG>, <STRONG>MoveNext</STRONG> ou <STRONG>MovePrevious</STRONG>.</P>
-> <LI>
-> <P>Le fait d'utiliser la méthode <STRONG>Move</STRONG> en attribuant la valeur 0 à l'argument « rows » permet d'extraire facilement les données sous-jacentes de l'enregistrement actif. Cela peut vous être utile si vous souhaitez vous assurer que l'enregistrement actif comporte les données les plus récentes des tables de base. Cela permet également d'annuler les appels <STRONG><A href="recordset2-edit-method-dao.md">Edit</A></STRONG> ou <STRONG><A href="recordset-addnew-method-dao.md">AddNew</A></STRONG> en cours.</P></LI></UL>
-
+> - Lorsque vous appliquez la méthode **Move** à un objet **Recordset** de type avant uniquement, la valeur de l'argument « rows » doit être un entier positif et les signets ne sont pas autorisés. Cela signifie que vous pouvez uniquement faire avancer un enregistrement.
+> - Pour faire de l'enregistrement actif le premier enregistrement, le dernier, le suivant ou le précédent dans un objet **Recordset**, utilisez la méthode **MoveFirst**, **MoveLast**, **MoveNext** ou **MovePrevious**.
+> - Le fait d'utiliser la méthode **Move** en attribuant la valeur 0 à l'argument « rows » permet d'extraire facilement les données sous-jacentes de l'enregistrement actif. Cela peut vous être utile si vous souhaitez vous assurer que l'enregistrement actif comporte les données les plus récentes des tables de base. Cela permet également d'annuler les appels **[Edit](recordset2-edit-method-dao.md)** ou **[AddNew](recordset-addnew-method-dao.md)** en cours.
 
 
 ## <a name="example"></a>Exemple

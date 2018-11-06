@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 29d3485526b4adb5084b7dd8277b0c93d664af47
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 359816f828191a8643941a21ac520ba7b3231e6b
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944654"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25998202"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData : Une application ADO simple
 
@@ -33,11 +33,8 @@ L'application interroge la base de données exemple Northwind incluse dans Micro
 
 5.  Enfin, copiez le code figurant dans le [HelloData Code](hellodata-code.md) et collez-le dans la fenêtre de l’éditeur de code du formulaire. Appuyez sur **F5** pour exécuter le code.
 
-
 > [!NOTE]
-> <P>[!REMARQUE] Dans l'exemple suivant, et dans ce guide, l'utilisateur « MyId » et le mot de passe « 123aBc » sont utilisés pour l'authentification auprès du serveur. Vous devrez remplacer ces valeurs par des informations d'authentification de connexion réelles pour votre serveur. Remplacez également la valeur « MyServer » par le nom de votre serveur.</P>
-
-
+> [!REMARQUE] Dans l'exemple suivant, et dans ce guide, l'utilisateur « MyId » et le mot de passe « 123aBc » sont utilisés pour l'authentification auprès du serveur. Vous devrez remplacer ces valeurs par des informations d'authentification de connexion réelles pour votre serveur. Remplacez également la valeur « MyServer » par le nom de votre serveur.
 
 Pour obtenir une description détaillée du code, voir les [Informations détaillées sur HelloData](hellodata-details.md).
 

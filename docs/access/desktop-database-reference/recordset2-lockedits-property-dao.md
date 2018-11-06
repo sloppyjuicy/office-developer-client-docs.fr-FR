@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
 ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f93924c579dc32e0841177eeb1068df64e12ab9b
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: dfb24f1fd183dd917b1eeb4033fe53a3310d5a12
+ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931084"
+ms.lasthandoff: 11/06/2018
+ms.locfileid: "25997013"
 ---
 # <a name="recordset2lockedits-property-dao"></a>Propriété Recordset2.LockEdits (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -62,11 +61,8 @@ Si vous définissez la propriété **LockEdits** sur **False** et utilisez ensui
 
 Lorsque vous utilisez des sources de données ODBC connectées à un moteur de base de données Microsoft Access, la propriété **LockEdits** est toujours définie sur **False** ou verrouillage optimiste. Le moteur de base de données Microsoft Access ne contrôle pas les mécanismes de verrouillage utilisés par les serveurs de base de données externes.
 
-
 > [!NOTE]
-> <P>Vous pouvez prédéfinir la valeur de <STRONG>LockEdits</STRONG> lorsque vous ouvrez pour la première fois le <STRONG>jeu d’enregistrements</STRONG> en définissant l’argument lockedits de la méthode <STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG> . Si l’argument lockedits <STRONG>dbPessimistic</STRONG> définit la propriété <STRONG>LockEdits</STRONG> sur <STRONG>True</STRONG>et lockedits paramètre pour toute autre valeur définit la propriété <STRONG>LockEdits</STRONG> sur <STRONG>False</STRONG>.</P>
-
-
+> Vous pouvez prédéfinir la valeur de **LockEdits** lorsque vous ouvrez pour la première fois le **jeu d’enregistrements** en définissant l’argument lockedits de la méthode **[OpenRecordset](connection-openrecordset-method-dao.md)** . Si l’argument lockedits **dbPessimistic** définit la propriété **LockEdits** sur **True**et lockedits paramètre pour toute autre valeur définit la propriété **LockEdits** sur **False**.
 
 ## <a name="example"></a>Exemple
 
