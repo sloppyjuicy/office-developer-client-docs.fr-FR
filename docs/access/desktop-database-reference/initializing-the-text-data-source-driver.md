@@ -10,18 +10,18 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4248adc507a93284a15725bbda0255a3518e90a9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997468"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026462"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Initialisation du pilote de Source de données texte
 
 **S’applique à**: Access 2013, Office 2013
 
-Le même pilote de base de données est utilisé pour les sources de type Données de texte et HTML.
+Le même pilote de base de données est utilisé pour les sources de données texte et sources de données HTML.
 
 Lorsque vous installez le pilote de base de données de Source de données texte, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Microsoft Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données de Source de données de texte.
 
@@ -44,6 +44,8 @@ Le **Access Connectivity Engine\\Formats ISAM\\dossier texte** inclut les param�
     
     ExportCurrencySymbols=Yes
 ```
+
+<br/>
 
 Le moteur de base de données Microsoft Access utilise les entrées de dossier Text suivantes.
 

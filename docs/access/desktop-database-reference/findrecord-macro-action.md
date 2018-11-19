@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 19b6c80af2bcee9ca3dbe51bbbcf56343f33d550
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4c115a5f7c2d13e918e891e80997a7327885669d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937609"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026273"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord, action de macro
 
@@ -58,11 +58,7 @@ L'action **TrouverEnregistrement** possède les arguments suivants.
 <tr class="odd">
 <td><p><strong>Avec mise en forme</strong></p></td>
 <td><p>Spécifie si la recherche inclut les données mises en forme. Cliquez sur <strong>Oui</strong> (Microsoft Office Access 2007 recherche les données qu’il est mis en forme et affiché dans le champ) ou sur <strong>non</strong> (Access recherche les données qu’il est stocké dans la base de données, ce qui n’est pas toujours les mêmes tel qu’il est affiché). La valeur par défaut est <strong>Non</strong>. Vous pouvez utiliser cette fonctionnalité pour limiter la recherche à des données dans un format particulier. Par exemple, cliquez sur <strong>Oui</strong> , tapez <strong>1 234</strong> dans l’argument <strong>Rechercher</strong> pour trouver la valeur 1 234 dans un champ formaté afin d’inclure des virgules. Cliquez sur <strong>non</strong> si vous souhaitez entrer <strong>1234</strong> pour rechercher des données dans ce champ. Pour rechercher des dates, cliquez sur <strong>Oui</strong> pour rechercher une date exactement comme elle est formatée, comme 08-juillet-2003. Si vous cliquez sur <strong>non</strong>, entrez la date pour l’argument <strong>Rechercher</strong> dans le format défini dans les paramètres régionaux du Panneau de configuration Windows. Ce format est indiqué dans la zone <strong>format de date court</strong> de l’onglet <strong>Date</strong> dans les paramètres régionaux. Par exemple, si la zone <strong>format de date court</strong> est définie sur <strong>jj/aa</strong>, vous pouvez entrer 7/8/03, et Access trouve toutes les entrées dans un champ Date correspondant au 8 juillet 2003, quelle que soit la façon dont ce champ est mis en forme.</p>
-
-> [!NOTE]
-> L’argument **Avec mise en forme** est appliqué uniquement si le champ actif est un contrôle dépendant, si l’argument **Où** est défini sur **Champ entier**, si l’argument **Champ actif uniquement** est défini sur **Oui** et si l’argument **Respecter la casse** est défini sur **Non**.
-
-
+<p><strong>Remarque</strong>: l’argument <strong>Comme formaté</strong> prend effet uniquement si le champ actif est un contrôle lié, l’argument <strong>où</strong> est défini pour le <strong>Champ entier</strong>, l’argument <strong>Champ actif uniquement</strong> est définie sur <strong>Oui</strong>et la correspondance <strong> Cas</strong> argument est définie sur <strong>non</strong>.</p>
 <p>Si vous définissez <strong>Respecter la casse</strong> sur <strong>Oui</strong> ou <strong>Champ actif uniquement</strong> sur <strong>Non</strong>, vous devez également définir <strong>Avec mise en forme</strong> sur <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="even">

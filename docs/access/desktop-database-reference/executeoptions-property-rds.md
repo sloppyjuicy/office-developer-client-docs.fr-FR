@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250285(v=office.15)
 ms:contentKeyID: 48548864
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4868cc92bdb6313c581ede7442ce8f6af9fd960d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 6db51927182008314da045021f81e6547d5d78be
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921627"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026140"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions, propriété (RDS)
 
@@ -47,12 +47,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!REMARQUE] Chaque fichier exécutable côté client utilisant ces constantes doit fournir les déclarations correspondantes. Vous pouvez couper et coller les déclarations de constante dont vous avez besoin dans le fichier Adcvbs.inc placé dans le dossier C:\Program Files\Common Files\System\MSADC.
-
-
 
 ## <a name="remarks"></a>Remarques
 

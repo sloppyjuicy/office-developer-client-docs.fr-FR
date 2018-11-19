@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192517(v=office.15)
 ms:contentKeyID: 48544228
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cd6f2621b65a0584d79ef72bbba0341b8391ccf1
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: e62125ee61598d6be125f9edb01f2aa4531043b9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937595"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026070"
 ---
 # <a name="parameter-members-dao"></a>Membres de paramètre (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -36,16 +35,11 @@ Un objet Parameter représente une valeur fournie à une requête. Le paramètre
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoit une valeur qui indique si un objet <strong><a href="parameter-object-dao.md">Parameter</a></strong> représente un paramètre d'entrée, de sortie, ou les deux, ou la valeur de retour de la procédure (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="parameter-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="parameter-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">

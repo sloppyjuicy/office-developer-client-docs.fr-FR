@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250304(v=office.15)
 ms:contentKeyID: 48548929
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7cc27964bed572431f3482e0834868690f3b77df
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5bc2eeaf4d26c957abb67780fe2f5d0df8f73049
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921900"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026175"
 ---
 # <a name="index-object-adox"></a>Index, objet (ADOX)
 
@@ -27,19 +27,19 @@ Le code suivant permet de créer un nouvel **index**:
 
 Avec les propriétés et collections d'un objet **Index**, vous pouvez :
 
-  - Identifier l'index à l'aide de la propriété [Name](name-property-adox.md).
+- Identifier l'index à l'aide de la propriété [Name](name-property-adox.md).
 
-  - Accéder aux colonnes de base de données de l'index à l'aide de la collection [Columns](columns-collection-adox.md).
+- Accéder aux colonnes de base de données de l'index à l'aide de la collection [Columns](columns-collection-adox.md).
 
-  - Spécifier si les clés d'index doivent être uniques à l'aide de la propriété [Unique](unique-property-adox.md).
+- Spécifier si les clés d'index doivent être uniques à l'aide de la propriété [Unique](unique-property-adox.md).
 
-  - Spécifier si l'index est la clé primaire d'une table à l'aide de la propriété [PrimaryKey](primarykey-property-adox.md).
+- Spécifier si l'index est la clé primaire d'une table à l'aide de la propriété [PrimaryKey](primarykey-property-adox.md).
 
-  - Spécifier si les enregistrements dont les champs d'index contiennent des valeurs nulles ont des entrées d'index à l'aide de la propriété [IndexNulls](indexnulls-property-adox.md).
+- Spécifier si les enregistrements dont les champs d'index contiennent des valeurs nulles ont des entrées d'index à l'aide de la propriété [IndexNulls](indexnulls-property-adox.md).
 
-  - Spécifier si l'index est organisé en clusters à l'aide de la propriété [Clustered](clustered-property-adox.md).
+- Spécifier si l'index est organisé en clusters à l'aide de la propriété [Clustered](clustered-property-adox.md).
 
-  - Accéder aux propriétés d'index spécifiques au fournisseur à l'aide de la collection [Properties](properties-collection-ado.md).
+- Accéder aux propriétés d'index spécifiques au fournisseur à l'aide de la collection [Properties](properties-collection-ado.md).
 
 
 > [!NOTE]

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249567(v=office.15)
 ms:contentKeyID: 48545989
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52c1d64d6c6e9c2e7413f7e31dde73ebdf306ae1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 57dbb8d6cf526f51999c22b0cb0fffc84d34f3e3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946565"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025804"
 ---
 # <a name="catalog-properties-methods-and-events-adox"></a>Catalog, propriétés, méthodes et événements (ADOX)
 
@@ -30,7 +30,7 @@ ms.locfileid: "25946565"
 
 - [CREATE, méthode](create-method-adox.md)
 - [GetObjectOwner, méthode](getobjectowner-method-adox.md)
-- [SetObjectOwner, méthode](https://msdn.microsoft.com/library/jj249006\(v=office.15\))
+- [SetObjectOwner, méthode](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
 ## <a name="events"></a>Événements
 

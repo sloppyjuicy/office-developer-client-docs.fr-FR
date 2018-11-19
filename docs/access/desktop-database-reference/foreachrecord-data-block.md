@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 09a09a80773adecf760ae4610df30bbd5f36f3d6
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a627804676ad4e61c5eef050c5bc12c36b9e6d1a
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937525"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026231"
 ---
 # <a name="foreachrecord-data-block"></a>Bloc de données PourChaqueEnregistrement
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -44,13 +43,7 @@ L'action **PourChaqueEnregistrement** utilise les arguments suivants.
 <tr class="odd">
 <td><p><strong>In</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Une chaîne qui identifie le domaine d’enregistrements de fonctionner sur. L’argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p>
-
-> [!NOTE]
-> Le domaine spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.
-
-
-<p></p></td>
+<td><p>Une chaîne qui identifie le domaine d’enregistrements de fonctionner sur. L’argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p><p><strong>Remarque</strong>: le domaine spécifié ne peut pas inclure les données stockées dans une table liée ou d’une source de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Where Condition</strong></p></td>

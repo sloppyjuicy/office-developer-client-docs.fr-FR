@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
 ms:contentKeyID: 48542993
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 42bd391cea721176973ce4dd30c9ddc7d15471b8
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: bd958c4b2123c727c3bc0a14a067fcb719ec86b3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937021"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026385"
 ---
 # <a name="querydeftype-property-dao"></a>Propriété QueryDef.Type (DAO)
 
@@ -72,13 +72,7 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Procédure (espaces de travail ODBCDirect uniquement)</p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
-<p></p></td>
+<td><p>Procédure (espaces de travail ODBCDirect uniquement)</p><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>

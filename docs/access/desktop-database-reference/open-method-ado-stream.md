@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2c45c10ae75688eb1965307ba8b2fb67c752f81f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: b20a68f1707e496b92ba8acbf8bc7ed8d8a2b058
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949823"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026413"
 ---
 # <a name="open-method-ado-stream"></a>Open, méthode (flux ADO)
 
@@ -37,7 +37,7 @@ Ouvre un objet [Stream](stream-object-ado.md) pour manipuler des flux de donnée
 
 ## <a name="remarks"></a>Notes
 
-Lorsqu’un objet **Record** est passé comme paramètre source, le *nom d’utilisateur* et les paramètres de *mot de passe* ne permettent pas, car l’accès à l’objet **Record** est déjà disponible. De même, le [Mode](mode-property-ado.md) de l’objet **Record** est transféré vers l’objet **Stream** . Lors de la *Source* n’est pas spécifié, le **flux** ouvert ne contient aucune donnée et possède une [taille](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) de zéro (0). Pour éviter de perdre des données qui sont écrites dans ce **flux** lorsque le **flux** est fermé, enregistrez le **flux de données** avec les méthodes [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) , ou enregistrez-le dans un autre emplacement de la mémoire.
+Lorsqu’un objet **Record** est passé comme paramètre source, le *nom d’utilisateur* et les paramètres de *mot de passe* ne permettent pas, car l’accès à l’objet **Record** est déjà disponible. De même, le [Mode](mode-property-ado.md) de l’objet **Record** est transféré vers l’objet **Stream** . Lors de la *Source* n’est pas spécifié, le **flux** ouvert ne contient aucune donnée et possède une [taille](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) de zéro (0). Pour éviter de perdre des données qui sont écrites dans ce **flux** lorsque le **flux** est fermé, enregistrez le **flux de données** avec les méthodes [CopyTo](copyto-method-ado.md) ou [SaveToFile](savetofile-method-ado.md) , ou enregistrez-le dans un autre emplacement de la mémoire.
 
 Une valeur *Si OptionsOuverture a* **adOpenStreamFromRecord** identifie le contenu du paramètre *Source* est un objet **Record** déjà ouvert. Le comportement par défaut consiste à traiter *Source* comme une URL qui pointe directement vers un nœud dans une arborescence, tel qu’un fichier. Le flux par défaut associé à ce nœud est ouvert.
 

@@ -10,12 +10,12 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 39cad98bc6f14509491e78ac4057d6488528f0b4
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: c64f28769d88c2684485ba537bdbdf22afd30ac5
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947853"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026049"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de Source de données Microsoft Exchange
 
@@ -23,7 +23,7 @@ ms.locfileid: "25947853"
 
 Lorsque vous installez le pilote de Source de données Microsoft Exchange, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Microsoft Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de Source de données Microsoft Exchange.
 
-## <a name="microsoft-exchange-data-source-initialization-settings"></a>Paramètres d'initialisation de source de données Microsoft Exchange
+## <a name="microsoft-exchange-data-source-initialization-settings"></a>Paramètres d’initialisation de source de données Microsoft Exchange
 
 Le **Access Connectivity Engine\\moteurs\\Exchange** dossier contient des paramètres d’initialisation du pilote Aceexch.dll, utilisé pour l’accès externe aux dossiers Microsoft Outlook et Microsoft Exchange. L'unique entrée dans ce dossier est la suivante :
 
@@ -97,7 +97,7 @@ Le **Access Connectivity Engine\\Formats ISAM\\Outlook 9.0** dossier contient le
 
 
 > [!NOTE]
-> Si vous modifiez les paramètres du Registre Windows, vous devez quitter puis redémarrer le moteur de base de données pour que les nouveaux paramètres soient appliqués.
+> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
 
 
@@ -165,11 +165,11 @@ Le **Access Connectivity Engine\\Formats ISAM\\Exchange 4.0** dossier contient l
 
 
 > [!NOTE]
-> Si vous modifiez les paramètres du Registre Windows, vous devez quitter puis redémarrer le moteur de base de données afin que les nouveaux paramètres prennent effet.
+> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personnalisation du fichier schema.ini pour les données Outlook et Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personnalisation du fichier Schema.ini pour données Outlook et Exchange
 
 Le fichier Schema.ini est utilisé par le format ISAM Outlook et le format ISAM Exchange pratiquement de la même manière que par le format ISAM texte. Le fichier Schema.ini contient les paramètres spécifiques d'une source de données : mise en fome des données, noms des colonnes auxquelles accéder.
 

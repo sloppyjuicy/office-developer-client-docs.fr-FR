@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e521c4de48f45d080a3b201ac431b2d7da14bc22
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: e4babfce754ec0e9c4744142570054c0249936f8
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923223"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026210"
 ---
 # <a name="recordsetrecordsettype-property-dao"></a>Propriété Recordset.RecordsetType (DAO)
 
@@ -65,12 +65,8 @@ La propriété **RecordsetType** utilise les paramètres suivants dans une base 
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!REMARQUE] Si vous ne voulez pas que les données des contrôles dépendants soient modifiées quand un formulaire est en mode Formulaire ou en mode Feuille de données, vous pouvez définir la propriété **RecordsetType** sur 2.
-
-
 
 Dans un projet Microsoft Access (.adp), la propriété **RecordsetType** utilise les paramètres suivants :
 
@@ -101,12 +97,8 @@ Dans un projet Microsoft Access (.adp), la propriété **RecordsetType** utilise
 </tbody>
 </table>
 
-
-
 > [!NOTE]
 > [!REMARQUE] Toute modification de la propriété **RecordsetType** d'un état ou d'un formulaire ouvert entraîne la recréation automatique d'un jeu d'enregistrements.
-
-
 
 Vous pouvez créer des formulaires basés sur des tables sous-jacentes multiples avec des champs correspondants à des contrôles dans les formulaires. En fonction du paramètre de la propriété **RecordsetType**, vous pouvez choisir lesquels de ces contrôles dépendants pourront être édités.
 

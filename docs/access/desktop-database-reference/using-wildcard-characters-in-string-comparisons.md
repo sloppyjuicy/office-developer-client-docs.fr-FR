@@ -1,20 +1,19 @@
 ---
 title: Utilisation de caractères génériques dans les comparaisons de chaînes
-TOCTitle: Using Wildcard Characters in String Comparisons
+TOCTitle: Using wildcard characters in string comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc45b71f1b70f1a36a9456f3ab83612933af11f6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 9fb6c63d5d2db1db54d52a03fef41e44a29f42c9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946705"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026162"
 ---
-# <a name="using-wildcard-characters-in-string-comparisons"></a>Utiliser des caractères génériques dans les comparaisons de chaînes
-
+# <a name="using-wildcard-characters-in-string-comparisons"></a>Utilisation de caractères génériques dans les comparaisons de chaînes
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -64,11 +63,11 @@ Il est important de noter que les caractères génériques SQL ANSI (%) et (\_) 
 
 Les autres règles importantes en matière de correspondance de chaîne sont les suivantes :
 
-  - Un point d’exclamation (\!) au début de *charlist* signifie que la correspondance est établie si tout caractère sauf ceux présents dans *listecar* sont trouve dans *expression*. Utilisé hors des crochets, le point d'exclamation se recherche lui-même..
+- Un point d’exclamation (\!) au début de *charlist* signifie que la correspondance est établie si tout caractère sauf ceux présents dans *listecar* sont trouve dans *expression*. Utilisé hors des crochets, le point d'exclamation se recherche lui-même..
 
-  - Vous pouvez utiliser le trait d’union (-) au début (après un point d’exclamation si elle est utilisée) ou à la fin de *l’argument charlist* pour correspondre à lui-même. Placé à tout autre endroit, le tiret sert à identifier une plage de caractères ANSI
+- Vous pouvez utiliser le trait d’union (-) au début (après un point d’exclamation si elle est utilisée) ou à la fin de *l’argument charlist* pour correspondre à lui-même. Placé à tout autre endroit, le tiret sert à identifier une plage de caractères ANSI
 
-  - Lorsque vous spécifiez une plage de caractères, ces derniers doivent apparaître en ordre ascendant (A-Z ou 0-100). \[A-Z\] est un modèle valide, mais \[Z-A\] n’est pas.
+- Lorsque vous spécifiez une plage de caractères, ces derniers doivent apparaître en ordre ascendant (A-Z ou 0-100). \[A-Z\] est un modèle valide, mais \[Z-A\] n’est pas.
 
-  - La séquence de caractères \[ \] est ignorée ; elle est considérée comme une chaîne de longueur nulle ( » »).
+- La séquence de caractères \[ \] est ignorée ; elle est considérée comme une chaîne de longueur nulle ( » »).
 

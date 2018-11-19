@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249606(v=office.15)
 ms:contentKeyID: 48546182
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7716e6de9fbda6ffab8071d5d794465efb6a51c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: 874662585292b9d9a9b2bc53f5b6fe5178e3517b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870162"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025846"
 ---
 # <a name="cursorlocation-property-ado"></a>CursorLocation, propriété (ADO)
 
@@ -30,7 +30,7 @@ Cette propriété permet de choisir l'une des différentes bibliothèques de cur
 
 Le paramètre de cette propriété n'affecte que les connexions établies après que la définition de la propriété. La modification de la propriété **CursorLocation** n'a aucun effet sur les connexions existantes.
 
-Les curseurs renvoyés par la méthode [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) héritent de ce paramètre. Les objets **Recordset** héritent automatiquement ce paramètre de leurs connexions associées.
+Les curseurs renvoyés par la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) héritent de ce paramètre. Les objets **Recordset** héritent automatiquement ce paramètre de leurs connexions associées.
 
 Cette propriété est en lecture/écriture dans un objet [Connection](connection-object-ado.md) ou un objet [Recordset](recordset-object-ado.md) fermé, et en lecture seule dans un objet **Recordset** ouvert.
 

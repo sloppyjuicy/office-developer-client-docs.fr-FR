@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248833(v=office.15)
 ms:contentKeyID: 48543146
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 67b970f50ab6928e94741cf70be30aa88fddfdae
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+ms.openlocfilehash: ec71ee93a0c513b9a613c9f1c1a8a6b7d39a6d4e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887452"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025888"
 ---
 # <a name="getobjectowner-and-setobjectowner-methods-example-vb"></a>GetObjectOwner et SetObjectOwner, méthodes – Exemple (VB)
 
 
 **S’applique à**: Access 2013, Office 2013
 
-Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](https://msdn.microsoft.com/library/jj249006\(v=office.15\)). Ce code suppose l’existence du groupe Accounting (voir les [groupes et Append, Users Append, ChangePassword, méthodes-exemple (VB)](groups-and-users-append-changepassword-methods-example-vb.md) pour savoir comment ajouter ce groupe au système). Le propriétaire de la table Categories est Accounting.
+Cet exemple illustre les méthodes [GetObjectOwner](getobjectowner-method-adox.md) et [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox). Ce code suppose l’existence du groupe Accounting (voir les [groupes et Append, Users Append, ChangePassword, méthodes-exemple (VB)](groups-and-users-append-changepassword-methods-example-vb.md) pour savoir comment ajouter ce groupe au système). Le propriétaire de la table Categories est Accounting.
 
 ```vb 
  

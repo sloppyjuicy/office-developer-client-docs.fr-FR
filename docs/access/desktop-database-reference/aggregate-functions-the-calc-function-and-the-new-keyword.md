@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: db726ea0b51a345e0e40c9814cef100b90b1350f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947888"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025986"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Des fonctions d’agrégation, fonction CALC et mot clé NEW
 
@@ -20,7 +20,7 @@ ms.locfileid: "25947888"
 
 La mise en forme des données prend en charge les fonctions suivantes. Le nom attribué au chapitre contenant la colonne à manipuler est *alias-chapitre*.
 
-Un alias-chapitre peut être complètement qualifié et se composer de chaque nom de colonne de chapitre menant au chapitre contenant le *nom-colonne,*, le tout séparé par des points. Par exemple si le chapitre parent, chap1, contient un chapitre enfant, chap2, avec une colonne de montant, mnt, le nom qualifié sera chap1.chap2.mnt.
+Un alias-chapitre peut être complet, constitué de chaque nom de colonne de chapitre menant au chapitre contenant le *nom de la colonne,* toutes les séparés par des virgules. Par exemple si le chapitre parent, chap1, contient un chapitre enfant, chap2, avec une colonne de montant, mnt, le nom qualifié sera chap1.chap2.mnt.
 
 <table>
 <colgroup>
@@ -29,7 +29,7 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Fonctions d'agrégation</p></th>
+<th><p>Fonctions d’agrégation</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -61,17 +61,12 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 <tr class="odd">
 <td><p>TOUT (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
 <td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.
-</p>
-
-> [!NOTE]
-> Si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE retourne de façon arbitraire une des valeurs pour l'utiliser dans la fonction ANY.
-
-
-<p></p></td>
+</p><p><strong>Remarque</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes dans le chapitre, la commande SHAPE retourne arbitrairement l’une des valeurs à la valeur de la fonction ANY.</p></td>
 </tr>
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -92,6 +87,7 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </tbody>
 </table>
 
+<br/>
 
 <table>
 <colgroup>
@@ -112,6 +108,7 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </tbody>
 </table>
 
+<br/>
 
 Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un des suivants :
 

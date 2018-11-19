@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 782445e9d0bb12054d41ac780c86d5d6f1a32972
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: f6f0511a1358e8d9b0d0ee820e83cf59d2400345
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25926660"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025966"
 ---
 # <a name="applyfilter-macro-action"></a>ApplyFilter, action de macro
 
@@ -44,13 +44,7 @@ L'action **AppliquerFiltre** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p>Nom du filtre</p></td>
-<td><p>Le nom d’un filtre ou une requête qui limite ou trie les enregistrements de la table, formulaire ou état. Vous pouvez entrer le nom d’une requête existante ou un filtre qui a été enregistré en tant que requête dans la zone <strong>Nom du filtre</strong> dans la section <strong>Arguments de l’Action</strong> du volet <strong>Générateur de Macro</strong> .</p>
-
-> [!NOTE]
-> Quand vous utilisez cette action pour appliquer un filtre serveur, l’argument Nom du filtre doit être vide.
-
-
-<p></p></td>
+<td><p>Le nom d’un filtre ou une requête qui limite ou trie les enregistrements de la table, formulaire ou état. Vous pouvez entrer le nom d’une requête existante ou un filtre qui a été enregistré en tant que requête dans la zone <strong>Nom du filtre</strong> dans la section <strong>Arguments de l’Action</strong> du volet <strong>Générateur de Macro</strong> .</p><p><strong>Remarque</strong>: lorsque vous utilisez cette action pour appliquer un filtre serveur, l’argument nom du filtre doit être vide.</p></td>
 </tr>
 <tr class="even">
 <td><p>Where Condition</p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834683(v=office.15)
 ms:contentKeyID: 48547815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 70593fdcab32602ba6b0e4597368f64371d8f116
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: ab0a04fd7282c983bd200a16108babf5e40d240c
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937364"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026308"
 ---
 # <a name="recordset-members-dao"></a>Membres de l’objet Recordset (DAO)
 
@@ -40,12 +40,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-cancel-method-dao.md">Annuler</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -118,12 +113,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-nextrecordset-method-dao.md">NextRecordset</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Obtient le jeu d'enregistrements suivant, le cas échéant, qui est renvoyé par une requête Sélection à parties multiples dans le cadre d'un appel <strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong>, et renvoie une valeur de type <strong>Boolean</strong> indiquant si un ou plusieurs enregistrements supplémentaires sont en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -140,12 +130,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-update-method-dao.md">Update</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Enregistre le contenu de la mémoire tampon de la copie dans un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> modifiable.</p></td>
 </tr>
 </tbody>
@@ -172,32 +157,17 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie le nombre d'enregistrements dont la dernière mise à jour par lot n'a pas été exécutée (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-batchcollisions-property-dao.md">BatchCollisions</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie un tableau de signets indiquant les lignes qui ont généré des collisions lors de la dernière mise à jour par lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-batchsize-property-dao.md">BatchSize</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie le nombre d'instructions renvoyées au serveur dans chaque lot (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -241,7 +211,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset-filter-property-dao.md">Filter</a></strong></p></td>
+<td><p><strong><a href="recordset-filter-property-dao.md">Filtre</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet <strong>Recordset</strong> ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
@@ -261,7 +231,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 <td><p>Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="recordset-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -282,12 +252,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset-recordstatus-property-dao.md">RecordStatus</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Renvoie un valeur indiquant l'état de mise à jour de l'enregistrement actif s'il fait partie d'une mise à jour par lot (espaces de travail ODBCDirect uniquement). Type <strong><a href="recordstatusenum-enumeration-dao.md">RecordStatusEnum</a></strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -300,12 +265,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <strong>dbRunAsync</strong>) est terminée (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">
@@ -322,12 +282,7 @@ Un objet Recordset représente les enregistrements dans une table de base ou les
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset-updateoptions-property-dao.md">UpdateOptions (OptionsMAJ)</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie une valeur qui indique la manière dont est construite la clause WHERE pour chaque enregistrement pendant une mise à jour par lot, et si cette dernière doit utiliser une instruction UPDATE ou DELETE suivie d'un INSERT (espaces de travail ODBCDirect uniquement). Type de données <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong>. En lecture/écriture.</p></td>
 </tr>
 <tr class="odd">

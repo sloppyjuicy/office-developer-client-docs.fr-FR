@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4b7ec534579b070d342fe2efd80af44e2ea921ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 5e842ed4898f98f0d3c51955c3fb66010ef02853
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927269"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026196"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord, action de macro
 
@@ -32,7 +32,7 @@ Le comportement de cette action de macro varie selon que vous l'appelez dans une
 
 ## <a name="client-database"></a>Base de données cliente
 
-Dans une base de données cliente, vous pouvez utiliser l'action **ActualiserEnregistrement** pour mettre à jour la source d'enregistrement sous-jacente de la feuille de données ou du formulaire actif de façon à refléter les modifications apportées aux données dans le jeu actuel. Les modifications comprennent celles apportées par l'utilisateur actuel ou par d'autres utilisateurs dans un environnement multi-utilisateur. Elle équivaut à la méthode **[Actualiser](https://msdn.microsoft.com/library/ff836021\(v=office.15\))**.
+Dans une base de données cliente, vous pouvez utiliser l'action **ActualiserEnregistrement** pour mettre à jour la source d'enregistrement sous-jacente de la feuille de données ou du formulaire actif de façon à refléter les modifications apportées aux données dans le jeu actuel. Les modifications comprennent celles apportées par l'utilisateur actuel ou par d'autres utilisateurs dans un environnement multi-utilisateur. Elle équivaut à la méthode **[Actualiser](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)**.
 
 L'action de macro **ActualiserEnregistrement** effectue les opérations suivantes dans une base de données cliente :
 

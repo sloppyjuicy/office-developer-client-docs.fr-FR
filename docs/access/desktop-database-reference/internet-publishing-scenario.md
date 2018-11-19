@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249024(v=office.15)
 ms:contentKeyID: 48543790
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7d502c95b985d83f5c19f68d3477a678c5471c54
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 1f481c4bc5cf11f9345458b3859c099b40a79885
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945872"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026448"
 ---
 # <a name="internet-publishing-scenario"></a>Scénario de publication Internet
 
@@ -36,7 +36,7 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
 
 2.  Dans le menu **Projet**, choisissez **Références**.
 
-3.  Sélectionnez **" Microsoft ActiveX Data Objects 2.5**" et cliquez sur**OK**.
+3.  Sélectionnez **Microsoft ActiveX Data Objects 2.5 Library**, puis cliquez sur **OK**.
 
 ### <a name="insert-controls-on-the-main-form"></a>Insérer des contrôles dans le formulaire principal
 

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7a6f7ac26c3089a973a68e07acbe0f6f3e4029df
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+ms.openlocfilehash: 12e79802587874aacb5b47a56387e331b8148069
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949438"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026371"
 ---
 # <a name="append-method-adox-columns"></a>Append, méthode (Colonnes ADOX)
 
@@ -28,7 +28,7 @@ Ajoute un nouvel objet [Column](column-object-adox.md) à la collection [Columns
 |Paramètre|Description|
 |:--------|:----------|
 |*Column* |Objet **Column** à ajouter ou nom de la colonne à créer et à ajouter.|
-|*Type* |Facultatif. Valeur de type **long** qui spécifie le type de données de la colonne. Le paramètre *Type* correspond à la propriété [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) d’un objet **Column** .|
+|*Type* |Facultatif. Valeur de type **long** qui spécifie le type de données de la colonne. Le paramètre *Type* correspond à la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) d’un objet **Column** .|
 |*DefinedSize* |Facultatif. Valeur de type **long** qui spécifie la taille de la colonne. Le paramètre *DefinedSize* correspond à la propriété [DefinedSize](definedsize-property-adox.md) d’un objet **Column** .|
 
 

@@ -10,21 +10,24 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc481a699ad0703075e7c7c4f97dffb147cd0280
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998944"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026399"
 ---
 # <a name="sql-reserved-words"></a>Mots réservés SQL
 
 **S’applique à**: Access 2013, Office 2013
 
-La liste suivante répertorie tous les mots réservés par le moteur de base de données Microsoft Access qui sont utilisés dans les instructions SQL. Les mots dans la liste qui ne sont pas entièrement en majuscules sont également réservés par d'autres applications. Par conséquent, les rubriques d'aide pour ces mots ne donnent qu'une description générale sans préciser l'utilisation de ces mots dans les instructions SQL.
+La liste suivante répertorie tous les mots réservés par le moteur de base de données Microsoft Access qui sont utilisés dans les instructions SQL. 
 
-> [!NOTE]
-> Mots suivis par un astérisque (*) sont réservés mais n’ont aucune signification dans le contexte d’une instruction Microsoft Access SQL (par exemple, **niveau** et **TableID**). D'autre part, aucune explication n'est fournie pour les mots qui ne sont pas soulignés.
+- Les mots dans la liste qui ne sont pas entièrement en majuscules sont également réservés par d'autres applications. Par conséquent, les rubriques d'aide pour ces mots ne donnent qu'une description générale sans préciser l'utilisation de ces mots dans les instructions SQL.
+
+- Mots suivis par un astérisque (*) sont réservés mais n’ont aucune signification dans le contexte d’une instruction Microsoft Access SQL (par exemple, **niveau** et **TableID**). 
+
+- D'autre part, aucune explication n'est fournie pour les mots qui ne sont pas soulignés.
 
 ## <a name="a"></a>A
 

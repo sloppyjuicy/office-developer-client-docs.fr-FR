@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4ccaffdbc39634f42f4af680786b5dc8b3957475
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937630"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026245"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl, action de macro
 
@@ -41,12 +41,7 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 <tr class="odd">
 <td><p><strong>Nom du contrôle</strong> :</p></td>
 <td><p>Nom du champ ou du contrôle dans lequel vous souhaitez déplacer le focus. Entrez le nom de champ ou un contrôle dans la zone <strong>Nom du contrôle</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro. Cet argument est obligatoire.</p>
-
-> [!NOTE]
-> Entrez uniquement le nom du champ ou du contrôle dans l’argument **Nom du contrôle** , pas l’identificateur complet, tels que des formulaires ! Produits ! [ID produit].
-
-
-<p></p></td>
+<p><strong>Remarque</strong>: entrer uniquement le nom du champ ou du contrôle dans l’argument <strong>Nom du contrôle</strong> , pas l’identificateur complet, tels que des formulaires ! Produits ! [ID produit].</p></td>
 </tr>
 </tbody>
 </table>

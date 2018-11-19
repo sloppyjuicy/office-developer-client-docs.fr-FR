@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
 ms:contentKeyID: 48543339
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a66e7f62f47e4237d827d5799bf864132321531
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 4d846f1dff8002dd00735e6c77205b458ccea9b0
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943548"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026035"
 ---
 # <a name="stream-properties-methods-and-events-ado"></a>Propriétés de flux, méthodes et événements (ADO)
 
@@ -24,7 +24,7 @@ ms.locfileid: "25943548"
 - [LineSeparator, propriété](lineseparator-property-ado.md)
 - [Mode, propriété](mode-property-ado.md)
 - [Position, propriété](position-property-ado.md)
-- [Size, propriété (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
+- [Size, propriété (ADO Stream)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State, propriété](state-property-ado.md)
 - [Type, propriété (ADO Stream)](type-property-ado-stream.md)
 

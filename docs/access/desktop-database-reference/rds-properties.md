@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
 ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7413b8b8f30e432f29fbee495fcc67e72439ad76
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 02e5fe6f323840fe89ce64983e028bc05604f849
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910705"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026252"
 ---
 # <a name="rds-properties"></a>Propriétés RDS
 
@@ -82,7 +82,7 @@ ms.locfileid: "25910705"
 <td><p>Indique si l'ordre de tri est croissant ou décroissant.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Indique la chaîne de requête utilisée pour extraire le <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

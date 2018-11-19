@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 944efc31c02f0ecbc15ae0929c1dd592a36e5093
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 6489e221d52e23fa3daa94f0ec3ec200baca3144
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937301"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025916"
 ---
 # <a name="ado-technology-table"></a>Tableau des technologies ADO
 
@@ -89,15 +89,15 @@ Le tableau suivant répertorie les produits Microsoft, les outils et les technol
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">Erreurs ADO</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a><br/><br/><a href="visual-basic-for-applications-functions.md">Fonctions Visual Basic pour Applications</a><br/><br/><a href="chapter-12-rds-tutorial.md">Chapitre 12 : Didacticiel RDS</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Utilisation d'ADO avec Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Exemples de code ADO dans Microsoft Visual Basic</a><br/><br/></p></td>
+<td><p><a href="errors.md">Errors</a><br/><br/><a href="ado-errors.md">Erreurs ADO</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Instanciation des événements ADO par langage</a><br/><br/><a href="visual-basic-for-applications-functions.md">Fonctions Visual Basic pour Applications</a><br/><br/><a href="chapter-12-rds-tutorial.md">Chapitre 12 : Didacticiel RDS</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Utilisation d'ADO avec Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Exemples de code ADO dans Microsoft Visual Basic</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">Utilisation d'ADO avec Microsoft Visual C++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Exemples de code ADO dans Microsoft Visual C++</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Instanciation des événements ADO par langage</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">Utilisation d'ADO avec Microsoft Visual C++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Exemples de code ADO dans Microsoft Visual C++</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a><br/><br/><a href="https://msdn.microsoft.com/library/jj250244(v=office.15)">Instanciation des événements ADO par langage</a><br/><br/><a href="rds-tutorial-visual-j.md">Didacticiel RDS (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">Utilisation d'ADO avec Microsoft Visual J++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Exemples de code ADO en Microsoft Visual J++</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Gestion des erreurs dans d’autres langues</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Instanciation des événements ADO par langage</a><br/><br/><a href="rds-tutorial-visual-j.md">Didacticiel RDS (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">Utilisation d'ADO avec Microsoft Visual J++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Exemples de code ADO en Microsoft Visual J++</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>
@@ -105,7 +105,7 @@ Le tableau suivant répertorie les produits Microsoft, les outils et les technol
 </tr>
 <tr class="odd">
 <td><p>Windows 2000</p></td>
-<td><p><a href="system-requirements-for-the-address-book-application.md">Configuration système requise pour l’application Carnet d’adresses</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Octroi de privilèges Invité à un serveur Web</a><br/><br/><a href="https://msdn.microsoft.com/library/ff836389(v=office.15)">Enregistrement d'un objet métier personnalisé</a><br/><br/><a href="securing-rds-applications.md">Sécurisation des applications RDS</a><br/><br/><a href="configuring-rds-on-windows-2000.md">Configuration de RDS sur Windows 2000</a><br/><br/></p></td>
+<td><p><a href="system-requirements-for-the-address-book-application.md">Configuration système requise pour l’application Carnet d’adresses</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Octroi de privilèges Invité à un serveur Web</a><br/><br/><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object">Enregistrement d'un objet métier personnalisé</a><br/><br/><a href="securing-rds-applications.md">Sécurisation des applications RDS</a><br/><br/><a href="configuring-rds-on-windows-2000.md">Configuration de RDS sur Windows 2000</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>XML</p></td>

@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195882(v=office.15)
 ms:contentKeyID: 48545671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d53bb8b6e4520810b98bfe81c9d35186a2392904
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: c93f312dd9b43a3235f049b9e6d3f95d08eba87f
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928592"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025594"
 ---
 # <a name="lookuprecord-data-block"></a>Bloc de données RechercherEnregistrement
 
@@ -43,13 +43,7 @@ L'action **DéfinirChamp** utilise les arguments suivants.
 <tr class="odd">
 <td><p>Dans le paramètre</p></td>
 <td><p>Oui</p></td>
-<td><p>Une chaîne qui identifie l’enregistrement à utiliser. L’argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p>
-
-> [!NOTE]
-> L’enregistrement spécifié ne peut pas inclure de données stockées dans une table liée ou une source de données ODBC.
-
-
-<p></p></td>
+<td><p>Une chaîne qui identifie l’enregistrement à utiliser. L’argument <em>dans</em> peut contenir le nom de la table, une requête sélection ou une instruction SQL.</p><p><strong>Remarque</strong>: l’enregistrement spécifié ne peut pas inclure les données stockées dans une table liée ou d’une source de données ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>

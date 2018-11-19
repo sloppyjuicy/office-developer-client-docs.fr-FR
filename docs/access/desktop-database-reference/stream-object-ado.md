@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250065(v=office.15)
 ms:contentKeyID: 48547945
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 75e0422b6c6fcd2f893777884d35bade81a793f6
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 6255acb0d9b7678fd8a8105bb7d0dcbdbd453d39
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997041"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025783"
 ---
 # <a name="stream-object-ado"></a>Stream, objet (ADO)
 
@@ -54,7 +54,7 @@ Les méthodes et les propriétés d'un objet **Stream** vous permettent d'effect
 
   - arrêter une opération **Stream** asynchrone à l'aide de la méthode [Cancel](cancel-method-ado.md) ;
 
-  - déterminer le nombre d'octets d'un **Stream** à l'aide de la propriété [Size](https://msdn.microsoft.com/library/jj250128\(v=office.15\)) ;
+  - déterminer le nombre d'octets d'un **Stream** à l'aide de la propriété [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) ;
 
   - contrôler la position actuelle au sein d'un **Stream** à l'aide de la propriété [Position](position-property-ado.md) ;
 

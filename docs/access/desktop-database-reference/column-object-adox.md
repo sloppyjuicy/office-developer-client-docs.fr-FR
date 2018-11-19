@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249811(v=office.15)
 ms:contentKeyID: 48547034
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac4416dce7d3f9fa52c4b948b1e8d3e0167c2751
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: b1b7ebd312727e1dc5071964cf1125d1c76bec4d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930629"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026007"
 ---
 # <a name="column-object-adox"></a>Column, objet (ADOX)
 
@@ -30,7 +30,7 @@ Avec les propriétés et collections d'un objet **Column**, vous pouvez :
 
   - Identifier la colonne à l'aide de la propriété [Name](name-property-adox.md).
 
-  - Spécifier le type de données de la colonne à l'aide de la propriété [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)).
+  - Spécifier le type de données de la colonne à l'aide de la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox).
 
   - Déterminer si la colonne est à longueur fixe ou si elle peut contenir des valeurs nulles à l'aide de la propriété [Attributes](attributes-property-adox.md).
 

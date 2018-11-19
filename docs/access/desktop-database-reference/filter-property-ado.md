@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d067d26120e694975c662c3d018443e325e75119
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 193cf5db350fdf0b30fe19da9a61026d1cd39aa9
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937133"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026469"
 ---
 # <a name="filter-property-ado"></a>Filter, propriété (ADO)
 
@@ -41,12 +41,9 @@ La chaîne de critères est composée de clauses de *Type NomChamp-Opérateur-va
   - *Opérateur* doit être une des opérations suivantes : \<, \>, \<= \>=, \< \>, = ou **LIKE**.
 
   - *Valeur* est la valeur à laquelle vous comparez les valeurs de champ (par exemple, « Smith », \#24/8/95\#, 12.345 ou $50.00). Utilisez des guillemets simples avec les chaînes et les signes dièse (\#) avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si *l’opérateur* est **semblable**, *valeur* peut utiliser des caractères génériques. Uniquement l’astérisque (\*) et le signe de pourcentage (%) les caractères génériques sont autorisés, et ils doivent être le dernier caractère de la chaîne. *Valeur* ne peut pas être null.
-    
 
     > [!NOTE]
     > [!REMARQUE] Pour insérer des guillemets simples (') dans la valeur Value du filtre, utilisez deux guillemets simples pour en représenter un. Par exemple, pour créer un filtre O'Malley, la chaîne de critères doit être « col1 = 'O''Malley' ». Pour insérer des guillemets simples au début et à la fin de la valeur du filtre, placez un signe dièse (#) devant et derrière la chaîne. Par exemple, pour filtrer la valeur '1', la chaîne de critères doit apparaître ainsi « col1 = #'1'# ».
-
-
 
   - Il n'y a aucune priorité entre **AND** et **OR**. Les clauses peuvent être regroupées entre parenthèses. Vous ne pouvez toutefois pas regrouper les clauses liées par un **OR** puis joindre le groupe à une autre clause avec un **AND**:
 

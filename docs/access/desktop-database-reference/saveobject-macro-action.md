@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 33180aa296fc40c05a3fc50da697aadbf6ada77e
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+ms.openlocfilehash: 253067d61a496073692ea4e462b9b0a67f0e26cd
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997160"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026294"
 ---
 # <a name="saveobject-macro-action"></a>SaveObject, action de macro
 
@@ -56,7 +56,9 @@ L'action **EnregistrerObjet** utilise les arguments suivants :
 
 ## <a name="remarks"></a>Notes
 
-L'action **EnregistrerObjet** s'applique à tous les objets de base de données que l'utilisateur peut explicitement ouvrir et enregistrer. L'objet spécifié doit être ouvert pour que l'action **EnregistrerObjet** puisse être appliquée à celui-ci. Cette action équivaut à sélectionner un objet puis à l'enregistrer en cliquant sur **Enregistrer** dans la **barre d'outils Accès rapide**. En laissant l'argument **Type d'objet** vide et en spécifiant un nouveau nom dans l'argument **Nom de l'objet**, vous obtenez le même résultat qu'en cliquant sur **Enregistrer sous** dans la **barre d'outils Accès rapide** et en indiquant un nouveau nom pour l'objet actif. L'utilisation de l'action **EnregistrerObjet** vous permet de spécifier un objet à enregistrer et d'exécuter une commande **Enregistrer sous** à partir d'une macro.
+L'action **EnregistrerObjet** s'applique à tous les objets de base de données que l'utilisateur peut explicitement ouvrir et enregistrer. L'objet spécifié doit être ouvert pour que l'action **EnregistrerObjet** puisse être appliquée à celui-ci. Cette action équivaut à sélectionner un objet puis à l'enregistrer en cliquant sur **Enregistrer** dans la **barre d'outils Accès rapide**. 
+
+En laissant l'argument **Type d'objet** vide et en spécifiant un nouveau nom dans l'argument **Nom de l'objet**, vous obtenez le même résultat qu'en cliquant sur **Enregistrer sous** dans la **barre d'outils Accès rapide** et en indiquant un nouveau nom pour l'objet actif. L'utilisation de l'action **EnregistrerObjet** vous permet de spécifier un objet à enregistrer et d'exécuter une commande **Enregistrer sous** à partir d'une macro.
 
 > [!NOTE]
 > [!REMARQUE] Vous ne pouvez pas utiliser l'action **EnregistrerObjet** pour enregistrer un des éléments suivants sous un nouveau nom :

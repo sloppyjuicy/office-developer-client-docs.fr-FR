@@ -10,12 +10,12 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 5986b8e891b42ce37cb68d8ce06e7f33feba1b8f
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 3840576f343492724c6f30860ceab8b82c9e2b9e
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937728"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026000"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord, action de macro
 
@@ -57,18 +57,12 @@ L'action **AtteindreEnregistrement** possède les arguments suivants.
 <td><p>Entier ou expression qui correspond à un entier. Une expression doit être précédée d’un signe égal (<strong>=</strong>). Cet argument spécifie l’enregistrement à activer l’enregistrement actif. Vous pouvez utiliser l’argument <strong>décalage</strong> de deux manières :</p>
 <ul>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
-<li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p></li>
-</ul>
-
-> [!NOTE]
-> Si vous utilisez le paramètre **Premier**, **Dernier** ou **Nouveau** pour l’argument **Enregistrement**, Access ignore l’argument **Référence**. Si vous entrez une valeur trop élevée pour l’argument **Référence**, Access affiche un message d’erreur. Vous ne pouvez pas entrer de nombres négatifs pour l’argument **Référence**.
-
-
-<p></p>
-<ul>
+<li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p>
+<p><strong>Remarque</strong>: Si vous utilisez le <strong>premier</strong>, <strong>dernier</strong>ou <strong>Nouveau</strong> paramètre pour l’argument <strong>enregistrement</strong> , Access ignore l’argument <strong>décalage</strong> . Si vous entrez un argument <strong>décalage</strong> trop grande, Access affiche un message d’erreur. Vous ne pouvez pas entrer les nombres négatifs pour l’argument <strong>décalage</strong> .</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> a la valeur <strong>Suivant</strong> ou <strong>Précédent</strong>, Microsoft Office Access 2007 avance ou recule du nombre d’enregistrements spécifié dans l’argument <strong>Référence</strong>.</p></li>
 <li><p>Lorsque l’argument <strong>Enregistrement</strong> est défini sur <strong>Atteindre</strong>, Access accède à l’enregistrement dont le numéro est égal à la valeur de l’argument <strong>Référence</strong>. Le numéro de l’enregistrement est indiqué dans la zone de numéro d’enregistrement en bas de la fenêtre.</p></li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>

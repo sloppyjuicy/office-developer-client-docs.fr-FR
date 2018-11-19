@@ -10,12 +10,12 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d7f35c2f76ec8cf2fd671f5ef9eefb42f8555237
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 87df4d1597661dc599c08b0f0b45b8e129484a2d
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931385"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025930"
 ---
 # <a name="connection-object-ado"></a>Connection, objet (ADO)
 
@@ -41,9 +41,8 @@ Les collections, les méthodes et les propriétés d'un objet **Connection** vou
 
   - établir (et ultérieurement rompre) la connexion physique à la source de données avec les méthodes [Open](open-method-ado-connection.md) et [Close](close-method-ado.md) ;
 
-  - exécuter une commande sur la connexion avec la méthode [Execute](https://msdn.microsoft.com/library/jj249832\(v=office.15\)) et configurer l'exécution avec la propriété [CommandTimeout](commandtimeout-property-ado.md) ;
+  - exécuter une commande sur la connexion avec la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) et configurer l'exécution avec la propriété [CommandTimeout](commandtimeout-property-ado.md) ;
     
-
     > [!NOTE]
     > [!REMARQUE] Pour exécuter une requête sans utiliser d'objet Command, passez une chaîne de requête à la méthode **Execute** d'un objet **Connection**. Toutefois, un objet [Command](command-object-ado.md) est nécessaire si vous voulez rendre persistant le texte de commande et l'exécuter de nouveau, ou utiliser des paramètres de requête.
 

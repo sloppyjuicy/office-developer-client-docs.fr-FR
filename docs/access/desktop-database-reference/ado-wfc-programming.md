@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 58ec04f92bf4d1eaaa8ea36c5937cae0bab3729f
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: 659e9dfe0e19b4ddb14513042f26fc80b11a00c3
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943821"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026063"
 ---
 # <a name="adowfc-programming"></a>Programmation ADO/WFC
 
@@ -21,7 +21,7 @@ ADO a été étendu pour Microsoft Visual J++ 6.0 afin de fonctionner avec Windo
 
 ADO pour Windows Foundation Classes (ADO/WFC) prend en charge toutes les méthodes et propriétés ainsi que tous les objets et événements ADO standard. En revanche, les opérations qui requièrent un variant en tant que paramètre et sont très performantes dans Microsoft Visual Basic, sont moins performantes dans un langage tel que Visual J++. Pour cette raison, ADO/WFC comporte également des fonctions d'accesseur sur l'objet [Field](field-object-ado.md) qui prennent les types de données Java natifs plutôt que les types de données variant.
 
-Pour des informations plus détaillées dans la documentation ADO sur les packages ADO/WFC, consultez [Index de la syntaxe ADO/WFC](https://msdn.microsoft.com/library/jj250066\(v=office.15\)).
+Pour des informations plus détaillées dans la documentation ADO sur les packages ADO/WFC, consultez [Index de la syntaxe ADO/WFC](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index).
 
 ## <a name="referencing-the-library"></a>Référence de la bibliothèque
 

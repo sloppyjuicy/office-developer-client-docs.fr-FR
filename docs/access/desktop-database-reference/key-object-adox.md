@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249461(v=office.15)
 ms:contentKeyID: 48545608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 11bd05c4959ba1f3e1819e482ce311fc798bf0e6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
+ms.openlocfilehash: 7722130c76516eaa7dcaf0598a5e1c040e21ba25
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929831"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025944"
 ---
 # <a name="key-object-adox"></a>Key, objet (ADOX)
 
@@ -30,7 +30,7 @@ Avec les propriétés et collections d'un objet **Key**, vous pouvez :
 
 - Identifier la clé à l'aide de la propriété [Name](name-property-adox.md).
 
-- Déterminer si la clé est primaire, étrangère ou unique à l'aide de la propriété [Type](https://msdn.microsoft.com/library/jj248879\(v=office.15\)).
+- Déterminer si la clé est primaire, étrangère ou unique à l'aide de la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox).
 
 - Accéder aux colonnes de base de données de la clé à l'aide de la collection [Columns](columns-collection-adox.md).
 

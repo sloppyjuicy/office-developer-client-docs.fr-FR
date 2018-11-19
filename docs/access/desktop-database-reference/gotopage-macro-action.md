@@ -10,15 +10,14 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f754cb913918a757c91f8b87e00ef88fb0674684
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 179ee840370cef98c70e947cef555401408bbe12
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936678"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026222"
 ---
 # <a name="gotopage-macro-action"></a>GoToPage, action de macro
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -56,7 +55,7 @@ L'action **AtteindrePage** possède les arguments suivants.
 </table>
 
 > [!NOTE]
-> >[!REMARQUE] Les arguments **Droite** et **Bas** sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.
+> [!REMARQUE] Les arguments **Droite** et **Bas** sont mesurés en pouces ou en centimètres, selon les paramètres régionaux définis dans le Panneau de configuration de Windows.
 
 ## <a name="remarks"></a>Remarques
 
@@ -66,9 +65,9 @@ Vous pouvez utiliser les arguments **droite** et **bas** pour les formulaires av
 
 Vous pouvez utiliser l'action **AtteindrePage** dans les cas suivants :
 
-  - pour placer le focus sur une page dans un formulaire masqué ;
+- pour placer le focus sur une page dans un formulaire masqué ;
 
-  - pour placer le focus sur une autre page dans le contrôle Onglet.
+- pour placer le focus sur une autre page dans le contrôle Onglet.
 
 Pour exécuter l'action **AtteindrePage** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **GoToPage** de l'objet **DoCmd**.
 

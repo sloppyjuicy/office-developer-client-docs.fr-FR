@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 84f8be8360996eb209462347dc18b118cf460442
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: a6e62d302dc1164e70d83dcbb06ac56c21898b82
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937616"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026259"
 ---
 # <a name="querydef-members-dao"></a>Membres de l’objet QueryDef (DAO)
 
@@ -36,12 +36,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cancel-method-dao.md">Annuler</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">
@@ -103,7 +98,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Définit ou renvoie le nombre maximum d'enregistrements à renvoyer pour une requête sur une source de données ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="querydef-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
@@ -116,12 +111,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Prepare</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie une valeur qui indique si la requête doit être préparée sur le serveur comme procédure stockée temporaire à l'aide d'une fonction API <strong>SQLPrepare</strong> ODBC avant l'exécution, ou juste exécutée à l'aide de la fonction API <strong>SQLExecDirect</strong> ODBC (espaces de travail ODBCDirect uniquement). En lecture/écriture <strong><a href="querydefstateenum-enumeration-dao.md">QueryDefStateEnum</a></strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -142,12 +132,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> [!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
-
-
+<td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Indique si l'exécution d'une opération asynchrone (c.-à-d. une méthode appelée avec l'option <a href="recordsetoptionenum-enumeration-dao.md">dbRunAsync</a>) est terminée (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="even">

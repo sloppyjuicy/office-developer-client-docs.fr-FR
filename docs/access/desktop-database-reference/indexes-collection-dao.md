@@ -6,12 +6,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
 ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 21609d6299caf6de5e2fe0b777796033b69d9f87
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: a809afb8e38cf23faf43d5eb49c5edadaf70b2b1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946691"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26025832"
 ---
 # <a name="indexes-collection-dao"></a>Indexes, collection (DAO)
 
@@ -23,17 +23,13 @@ Une collection **Indexes** contient tous les objets **Index** stockés d'un obje
 
 Lorsque vous accédez à un objet Recordset de type table, la propriété **Index** de l'objet permet de spécifier l'ordre des enregistrements. Affectez-lui comme valeur le paramètre de propriété **Name** d'un objet **Index** existant dans la collection **Indexes** de l'objet **[TableDef](tabledef-object-dao.md)** sous-jacent à l'objet **[Recordset](recordset-object-dao.md)**.
 
-
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser la méthode **Append** ou **Delete** sur une collection **Indexes** uniquement si le paramètre de propriété **[Updatable](connection-updatable-property-dao.md)** de l'objet **TableDef** contenant est défini sur **True**.
 
 Après avoir créé un nouvel objet **Index**, il convient d'utiliser la méthode **Append** pour l'ajouter à la collection **Indexes** de l'objet **TableDef**.
 
-
 > [!IMPORTANT]
 > [!IMPORTANTE] Vérifiez que vos données sont conformes aux attributs de votre nouvel index. Si ce dernier exige des valeurs uniques, vérifiez que les enregistrements de données existants n'ont aucun doublon. S'il en existe, le moteur de base de données Microsoft Access ne peut pas créer l'index ; une erreur capturable survient alors lorsque vous tentez d'utiliser la méthode Append sur le nouvel index.
-
-
 
 ## <a name="example"></a>Exemple
 

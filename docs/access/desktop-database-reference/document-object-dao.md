@@ -6,15 +6,14 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 44dacdab7dc13855426bf366bda2801ddee8c022
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+ms.openlocfilehash: 4dbd7de05a3bb2402d436e4bbac59f1ca4687317
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936692"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026329"
 ---
 # <a name="document-object-dao"></a>Objet de document (DAO)
-
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -59,27 +58,25 @@ Chaque objet **Container** comporte une collection **Documents** qui contient de
 > [!NOTE]
 > [!REMARQUE] Ne confondez pas les objets **Container** répertoriés dans le tableau précédent avec les collections du même nom. L'objet **Container** des bases de données renvoie à tous les objets de base de données enregistrés, mais la collection **Databases** renvoie uniquement aux objets de base de données ouverts dans un espace de travail déterminé.
 
-
-
 Avec un objet **Document**, vous pouvez :
 
-  - Utiliser la propriété **Name** pour renvoyer le nom qu'un utilisateur ou le moteur de base de données Microsoft Access a donné à l'objet lorsqu'il a été créé.
+- Utiliser la propriété **Name** pour renvoyer le nom qu'un utilisateur ou le moteur de base de données Microsoft Access a donné à l'objet lorsqu'il a été créé.
 
-  - Utiliser la propriété **Container** pour renvoyer le nom de l'objet **Container** qui contient l'objet **Document**.
+- Utiliser la propriété **Container** pour renvoyer le nom de l'objet **Container** qui contient l'objet **Document**.
 
-  - Utiliser la propriété **Owner** pour définir ou renvoyer le propriétaire de l'objet. Pour définir la propriété **Owner**, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété sur le nom d'un objet **User** ou **Group** existant.
+- Utiliser la propriété **Owner** pour définir ou renvoyer le propriétaire de l'objet. Pour définir la propriété **Owner**, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété sur le nom d'un objet **User** ou **Group** existant.
 
-  - Utiliser les propriétés **UserName** ou **Permissions** pour définir ou renvoyer les autorisations d'accès d'un utilisateur ou d'un groupe pour l'objet. Pour définir ces propriétés, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété **UserName** sur le nom d'un objet **User** ou **Group** existant.
+- Utiliser les propriétés **UserName** ou **Permissions** pour définir ou renvoyer les autorisations d'accès d'un utilisateur ou d'un groupe pour l'objet. Pour définir ces propriétés, vous devez disposer de l'autorisation d'écrire pour l'objet **Document**, et vous devez définir la propriété **UserName** sur le nom d'un objet **User** ou **Group** existant.
 
-  - Utiliser les propriétés **DateCreated** et **LastUpdated** pour renvoyer la date et l'heure auxquelles l'objet **Document** a été créé et modifié pour la dernière fois.
+- Utiliser les propriétés **DateCreated** et **LastUpdated** pour renvoyer la date et l'heure auxquelles l'objet **Document** a été créé et modifié pour la dernière fois.
 
 Dans la mesure où un objet **Document** correspond à un objet existant, vous ne pouvez pas créer d'objet **Document** ou supprimer des objets existants. Pour faire référence à un objet **Document** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :
 
-  - **Documents**(0)
+- **Documents**(0)
 
-  - **Documents** («*nom*»)
+- **Documents** («*nom*»)
 
-  - **Documents**\!\[*nom*\]
+- **Documents**\!\[*nom*\]
 
 ## <a name="example"></a>Exemple
 
