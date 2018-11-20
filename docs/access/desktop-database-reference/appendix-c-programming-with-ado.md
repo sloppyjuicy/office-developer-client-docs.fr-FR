@@ -6,27 +6,27 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 37263bc21eb46489027a10fd1e97f7a9fd90205d
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+ms.openlocfilehash: b92333406b6b08dd543d503edf6857f9a7a73b74
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943905"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026165"
 ---
-# <a name="appendix-c-programming-with-ado"></a><span data-ttu-id="16720-102">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="16720-102">Appendix C: Programming with ADO</span></span>
+# <a name="appendix-c-programming-with-ado"></a><span data-ttu-id="3b7b2-102">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="3b7b2-102">Appendix C: Programming with ADO</span></span>
 
-<span data-ttu-id="16720-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16720-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3b7b2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b7b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16720-p101">ADO est un composant d'interface d'automation COM qui peut être utilisé avec de nombreux langages de programmation, notamment Microsoft Visual Basic, VBScript, JScript, Visual C++ et Visual J++. Une version d'ADO est installée avec chacun de ces outils et avec d'autres applications, telles que Microsoft Office et Microsoft SQL Server. Visitez le [Centre Accès aux Données et Stockage](https://msdn.microsoft.com/data/default.aspx) pour plus d'informations.</span><span class="sxs-lookup"><span data-stu-id="16720-p101">ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx) for more information.</span></span>
+<span data-ttu-id="3b7b2-p101">ADO est un composant d'interface d'automation COM qui peut être utilisé avec de nombreux langages de programmation, notamment Microsoft Visual Basic, VBScript, JScript, Visual C++ et Visual J++. Une version d'ADO est installée avec chacun de ces outils et avec d'autres applications, telles que Microsoft Office et Microsoft SQL Server. Visitez le [Centre Accès aux Données et Stockage](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) pour plus d'informations.</span><span class="sxs-lookup"><span data-stu-id="3b7b2-p101">ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) for more information.</span></span>
 
-<span data-ttu-id="16720-107">La bibliothèque d'ADO est msado15.dll et le préfixe de l'ID de programme (ProgID) est « ADODB ».</span><span class="sxs-lookup"><span data-stu-id="16720-107">The library for ADO is msado15.dll and the program ID (ProgID) prefix is "ADODB."</span></span> <span data-ttu-id="16720-108">Par exemple, pour faire référence explicitement à un objet ADO [Recordset](recordset-object-ado.md), utilisez.</span><span class="sxs-lookup"><span data-stu-id="16720-108">For example, to explicitly refer to an ADO [Recordset](recordset-object-ado.md), use .</span></span>
+<span data-ttu-id="3b7b2-107">La bibliothèque d'ADO est msado15.dll et le préfixe de l'ID de programme (ProgID) est « ADODB ».</span><span class="sxs-lookup"><span data-stu-id="3b7b2-107">The library for ADO is msado15.dll and the program ID (ProgID) prefix is "ADODB."</span></span> <span data-ttu-id="3b7b2-108">Par exemple, pour faire référence explicitement à un objet ADO [Recordset](recordset-object-ado.md), utilisez.</span><span class="sxs-lookup"><span data-stu-id="3b7b2-108">For example, to explicitly refer to an ADO [Recordset](recordset-object-ado.md), use .</span></span>
 
-<span data-ttu-id="16720-109">Pour plus d'informations sur la programmation avec ADO dans divers environnements de développement, consultez les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="16720-109">For more information about programming with ADO in various development environments, see the following topics:</span></span>
+<span data-ttu-id="3b7b2-109">Pour plus d'informations sur la programmation avec ADO dans divers environnements de développement, consultez les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="3b7b2-109">For more information about programming with ADO in various development environments, see the following topics:</span></span>
 
-- [<span data-ttu-id="16720-110">Utilisation d'ADO avec Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="16720-110">Using ADO with Microsoft Visual Basic</span></span>](using-ado-with-microsoft-visual-basic.md)
-- [<span data-ttu-id="16720-111">Utilisation d’ADO avec des langages de script</span><span class="sxs-lookup"><span data-stu-id="16720-111">Using ADO with scripting languages</span></span>](using-ado-with-scripting-languages.md)
-- [<span data-ttu-id="16720-112">Utilisation d'ADO avec Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="16720-112">Using ADO with Microsoft Visual C++</span></span>](using-ado-with-microsoft-visual-c.md)
-- [<span data-ttu-id="16720-113">Utilisation d'ADO avec Microsoft Visual J++</span><span class="sxs-lookup"><span data-stu-id="16720-113">Using ADO with Microsoft Visual J++</span></span>](using-ado-with-microsoft-visual-j.md)
+- [<span data-ttu-id="3b7b2-110">Utilisation d'ADO avec Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="3b7b2-110">Using ADO with Microsoft Visual Basic</span></span>](using-ado-with-microsoft-visual-basic.md)
+- [<span data-ttu-id="3b7b2-111">Utilisation d’ADO avec des langages de script</span><span class="sxs-lookup"><span data-stu-id="3b7b2-111">Using ADO with scripting languages</span></span>](using-ado-with-scripting-languages.md)
+- [<span data-ttu-id="3b7b2-112">Utilisation d'ADO avec Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="3b7b2-112">Using ADO with Microsoft Visual C++</span></span>](using-ado-with-microsoft-visual-c.md)
+- [<span data-ttu-id="3b7b2-113">Utilisation d'ADO avec Microsoft Visual J++</span><span class="sxs-lookup"><span data-stu-id="3b7b2-113">Using ADO with Microsoft Visual J++</span></span>](using-ado-with-microsoft-visual-j.md)
 
 
 

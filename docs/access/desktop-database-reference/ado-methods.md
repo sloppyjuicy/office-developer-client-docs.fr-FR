@@ -6,16 +6,16 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3649a7146c0d6ab70bc5f785404f03269df1540b
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910802"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "26026378"
 ---
-# <a name="ado-methods"></a><span data-ttu-id="85029-102">Méthodes ADO</span><span class="sxs-lookup"><span data-stu-id="85029-102">ADO methods</span></span>
+# <a name="ado-methods"></a><span data-ttu-id="2baf7-102">Méthodes ADO</span><span class="sxs-lookup"><span data-stu-id="2baf7-102">ADO methods</span></span>
 
-<span data-ttu-id="85029-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85029-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2baf7-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2baf7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -26,221 +26,221 @@ ms.locfileid: "25910802"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="85029-104">Méthode</span><span class="sxs-lookup"><span data-stu-id="85029-104">Method</span></span></th>
-<th><span data-ttu-id="85029-105">Description</span><span class="sxs-lookup"><span data-stu-id="85029-105">Description</span></span></th>
+<th><span data-ttu-id="2baf7-104">Méthode</span><span class="sxs-lookup"><span data-stu-id="2baf7-104">Method</span></span></th>
+<th><span data-ttu-id="2baf7-105">Description</span><span class="sxs-lookup"><span data-stu-id="2baf7-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-106"><a href="addnew-method-ado.md">AddNew</a></span><span class="sxs-lookup"><span data-stu-id="85029-106"><a href="addnew-method-ado.md">AddNew</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-107">Crée un enregistrement pour un objet <strong>Recordset</strong> actualisable.</span><span class="sxs-lookup"><span data-stu-id="85029-107">Creates a new record for an updatable <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-106"><a href="addnew-method-ado.md">AddNew</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-106"><a href="addnew-method-ado.md">AddNew</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-107">Crée un enregistrement pour un objet <strong>Recordset</strong> actualisable.</span><span class="sxs-lookup"><span data-stu-id="2baf7-107">Creates a new record for an updatable <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-108"><a href="append-method-ado.md">Append</a></span><span class="sxs-lookup"><span data-stu-id="85029-108"><a href="append-method-ado.md">Append</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-p101">Ajoute un objet à une collection. S'il s'agit de la collection <strong>Fields</strong>, un nouvel objet <strong>Field</strong> peut être créé avant d'être ajouté à la collection.</span><span class="sxs-lookup"><span data-stu-id="85029-p101">Appends an object to a collection. If the collection is <strong>Fields</strong>, a new <strong>Field</strong> object may be created before it is appended to the collection.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-108"><a href="append-method-ado.md">Append</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-108"><a href="append-method-ado.md">Append</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-p101">Ajoute un objet à une collection. S'il s'agit de la collection <strong>Fields</strong>, un nouvel objet <strong>Field</strong> peut être créé avant d'être ajouté à la collection.</span><span class="sxs-lookup"><span data-stu-id="2baf7-p101">Appends an object to a collection. If the collection is <strong>Fields</strong>, a new <strong>Field</strong> object may be created before it is appended to the collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-111"><a href="appendchunk-method-ado.md">AppendChunk</a></span><span class="sxs-lookup"><span data-stu-id="85029-111"><a href="appendchunk-method-ado.md">AppendChunk</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-112">Cette méthode ajoute des données à un objet <strong>Field</strong> de données binaires ou de texte volumineux ou à un objet <strong>Parameter</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-112">Appends data to a large text or binary data <strong>Field</strong>, or to a <strong>Parameter</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-111"><a href="appendchunk-method-ado.md">AppendChunk</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-111"><a href="appendchunk-method-ado.md">AppendChunk</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-112">Cette méthode ajoute des données à un objet <strong>Field</strong> de données binaires ou de texte volumineux ou à un objet <strong>Parameter</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-112">Appends data to a large text or binary data <strong>Field</strong>, or to a <strong>Parameter</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-113"><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans et RollbackTrans</a></span><span class="sxs-lookup"><span data-stu-id="85029-113"><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans, and RollbackTrans</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-114">Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :
-</span><span class="sxs-lookup"><span data-stu-id="85029-114">Manages transaction processing within a <strong>Connection</strong> object as follows:</span></span><br/><br/><span data-ttu-id="85029-115"><strong>BeginTrans</strong>: lance une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="85029-115"><strong>BeginTrans</strong> — Begins a new transaction.</span></span><br/><br/><span data-ttu-id="85029-p102">
-<strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="85029-p102">
-<strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.</span></span><br/><br/><span data-ttu-id="85029-118">
-<strong>RollbackTrans</strong> : annule les modifications et met fin à transaction en cours.</span><span class="sxs-lookup"><span data-stu-id="85029-118">
-<strong>RollbackTrans</strong> — Cancels any changes and ends the current transaction.</span></span> <span data-ttu-id="85029-119">Lance aussi parfois une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="85029-119">It may also start a new transaction.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-113"><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans et RollbackTrans</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-113"><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans, and RollbackTrans</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-114">Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :
+</span><span class="sxs-lookup"><span data-stu-id="2baf7-114">Manages transaction processing within a <strong>Connection</strong> object as follows:</span></span><br/><br/><span data-ttu-id="2baf7-115"><strong>BeginTrans</strong>: lance une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="2baf7-115"><strong>BeginTrans</strong> — Begins a new transaction.</span></span><br/><br/><span data-ttu-id="2baf7-p102">
+<strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="2baf7-p102">
+<strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.</span></span><br/><br/><span data-ttu-id="2baf7-118">
+<strong>RollbackTrans</strong> : annule les modifications et met fin à transaction en cours.</span><span class="sxs-lookup"><span data-stu-id="2baf7-118">
+<strong>RollbackTrans</strong> — Cancels any changes and ends the current transaction.</span></span> <span data-ttu-id="2baf7-119">Lance aussi parfois une nouvelle transaction.</span><span class="sxs-lookup"><span data-stu-id="2baf7-119">It may also start a new transaction.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-120"><a href="cancel-method-ado.md">Cancel</a></span><span class="sxs-lookup"><span data-stu-id="85029-120"><a href="cancel-method-ado.md">Cancel</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-121">Annule l'exécution d'un appel de méthode asynchrone en attente.</span><span class="sxs-lookup"><span data-stu-id="85029-121">Cancels execution of a pending, asynchronous method call.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-120"><a href="cancel-method-ado.md">Cancel</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-120"><a href="cancel-method-ado.md">Cancel</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-121">Annule l'exécution d'un appel de méthode asynchrone en attente.</span><span class="sxs-lookup"><span data-stu-id="2baf7-121">Cancels execution of a pending, asynchronous method call.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-122"><a href="cancelbatch-method-ado.md">CancelBatch</a></span><span class="sxs-lookup"><span data-stu-id="85029-122"><a href="cancelbatch-method-ado.md">CancelBatch</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-123">Annule une mise à jour par lot en attente.</span><span class="sxs-lookup"><span data-stu-id="85029-123">Cancels a pending batch update.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-122"><a href="cancelbatch-method-ado.md">CancelBatch</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-122"><a href="cancelbatch-method-ado.md">CancelBatch</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-123">Annule une mise à jour par lot en attente.</span><span class="sxs-lookup"><span data-stu-id="2baf7-123">Cancels a pending batch update.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-124"><a href="cancelupdate-method-ado.md">CancelUpdate</a></span><span class="sxs-lookup"><span data-stu-id="85029-124"><a href="cancelupdate-method-ado.md">CancelUpdate</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-125">Annule toutes les modifications apportées à la ligne active ou à une nouvelle ligne d'un objet <strong>Recordset</strong> ou dans la collection <strong>Fields</strong> d'un objet <strong>Record</strong> avant que la méthode <strong>Update</strong> soit appelée.</span><span class="sxs-lookup"><span data-stu-id="85029-125">Cancels any changes made to the current or new row of a <strong>Recordset</strong> object, or the <strong>Fields</strong> collection of a <strong>Record</strong> object, before calling the <strong>Update</strong> method.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-124"><a href="cancelupdate-method-ado.md">CancelUpdate</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-124"><a href="cancelupdate-method-ado.md">CancelUpdate</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-125">Annule toutes les modifications apportées à la ligne active ou à une nouvelle ligne d'un objet <strong>Recordset</strong> ou dans la collection <strong>Fields</strong> d'un objet <strong>Record</strong> avant que la méthode <strong>Update</strong> soit appelée.</span><span class="sxs-lookup"><span data-stu-id="2baf7-125">Cancels any changes made to the current or new row of a <strong>Recordset</strong> object, or the <strong>Fields</strong> collection of a <strong>Record</strong> object, before calling the <strong>Update</strong> method.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-126"><a href="clear-method-ado.md">Clear</a></span><span class="sxs-lookup"><span data-stu-id="85029-126"><a href="clear-method-ado.md">Clear</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-127">Supprime tous les objets <strong>Error</strong> de la collection <strong>Errors</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-127">Removes all the <strong>Error</strong> objects from the <strong>Errors</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-126"><a href="clear-method-ado.md">Clear</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-126"><a href="clear-method-ado.md">Clear</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-127">Supprime tous les objets <strong>Error</strong> de la collection <strong>Errors</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-127">Removes all the <strong>Error</strong> objects from the <strong>Errors</strong> collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-128"><a href="clone-method-ado.md">Clone</a></span><span class="sxs-lookup"><span data-stu-id="85029-128"><a href="clone-method-ado.md">Clone</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-p104">Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Spécifie éventuellement que le clone doit être en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="85029-p104">Creates a duplicate <strong>Recordset</strong> object from an existing <strong>Recordset</strong> object. Optionally, specifies that the clone be read-only.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-128"><a href="clone-method-ado.md">Clone</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-128"><a href="clone-method-ado.md">Clone</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-p104">Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Spécifie éventuellement que le clone doit être en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="2baf7-p104">Creates a duplicate <strong>Recordset</strong> object from an existing <strong>Recordset</strong> object. Optionally, specifies that the clone be read-only.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-131"><a href="close-method-ado.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="85029-131"><a href="close-method-ado.md">Close</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-132">Ferme un objet ouvert, ainsi que tous les objets qui en dépendent.</span><span class="sxs-lookup"><span data-stu-id="85029-132">Closes an open object and any dependent objects.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-131"><a href="close-method-ado.md">Close</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-131"><a href="close-method-ado.md">Close</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-132">Ferme un objet ouvert, ainsi que tous les objets qui en dépendent.</span><span class="sxs-lookup"><span data-stu-id="2baf7-132">Closes an open object and any dependent objects.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-133"><a href="comparebookmarks-method-ado.md">CompareBookmarks</a></span><span class="sxs-lookup"><span data-stu-id="85029-133"><a href="comparebookmarks-method-ado.md">CompareBookmarks</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-134">Compare deux signets et retourne une indication de leurs valeurs relatives.</span><span class="sxs-lookup"><span data-stu-id="85029-134">Compares two bookmarks and returns an indication of their relative values.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-133"><a href="comparebookmarks-method-ado.md">CompareBookmarks</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-133"><a href="comparebookmarks-method-ado.md">CompareBookmarks</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-134">Compare deux signets et retourne une indication de leurs valeurs relatives.</span><span class="sxs-lookup"><span data-stu-id="2baf7-134">Compares two bookmarks and returns an indication of their relative values.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-135"><a href="copyrecord-method-ado.md">CopyRecord</a></span><span class="sxs-lookup"><span data-stu-id="85029-135"><a href="copyrecord-method-ado.md">CopyRecord</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-136">Copie un fichier ou un répertoire, avec tout son contenu, dans un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="85029-136">Copies a file or directory, and its contents, to another location.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-135"><a href="copyrecord-method-ado.md">CopyRecord</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-135"><a href="copyrecord-method-ado.md">CopyRecord</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-136">Copie un fichier ou un répertoire, avec tout son contenu, dans un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="2baf7-136">Copies a file or directory, and its contents, to another location.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-137"><a href="copyto-method-ado.md">CopyTo</a></span><span class="sxs-lookup"><span data-stu-id="85029-137"><a href="copyto-method-ado.md">CopyTo</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-138">Copie le nombre de caractères ou d'octets spécifié (selon la propriété <strong>Type</strong>) d'un objet <strong>Stream</strong> vers un autre objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-138">Copies the specified number of characters or bytes (depending on <strong>Type</strong>) in the <strong>Stream</strong> to another <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-137"><a href="copyto-method-ado.md">CopyTo</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-137"><a href="copyto-method-ado.md">CopyTo</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-138">Copie le nombre de caractères ou d'octets spécifié (selon la propriété <strong>Type</strong>) d'un objet <strong>Stream</strong> vers un autre objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-138">Copies the specified number of characters or bytes (depending on <strong>Type</strong>) in the <strong>Stream</strong> to another <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-139"><a href="createparameter-method-ado.md">CreateParameter</a></span><span class="sxs-lookup"><span data-stu-id="85029-139"><a href="createparameter-method-ado.md">CreateParameter</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-140">Crée un objet <strong>Parameter</strong> avec les propriétés spécifiées.</span><span class="sxs-lookup"><span data-stu-id="85029-140">Creates a new <strong>Parameter</strong> object with the specified properties.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-139"><a href="createparameter-method-ado.md">CreateParameter</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-139"><a href="createparameter-method-ado.md">CreateParameter</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-140">Crée un objet <strong>Parameter</strong> avec les propriétés spécifiées.</span><span class="sxs-lookup"><span data-stu-id="2baf7-140">Creates a new <strong>Parameter</strong> object with the specified properties.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-141"><a href="delete-method-ado-parameters-collection.md">Supprimer (Collection de paramètres ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-141"><a href="delete-method-ado-parameters-collection.md">Delete (ADO Parameters Collection)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-142">Supprime un objet de la collection <strong>Parameters</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-142">Deletes an object from the <strong>Parameters</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-141"><a href="delete-method-ado-parameters-collection.md">Supprimer (Collection de paramètres ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-141"><a href="delete-method-ado-parameters-collection.md">Delete (ADO Parameters Collection)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-142">Supprime un objet de la collection <strong>Parameters</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-142">Deletes an object from the <strong>Parameters</strong> collection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-143"><a href="delete-method-ado-fields-collection.md">Supprimer (Collection de champs ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-143"><a href="delete-method-ado-fields-collection.md">Delete (ADO Fields Collection)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-144">Supprime un objet de la collection <strong>Fields</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-144">Deletes an object from the <strong>Fields</strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-143"><a href="delete-method-ado-fields-collection.md">Supprimer (Collection de champs ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-143"><a href="delete-method-ado-fields-collection.md">Delete (ADO Fields Collection)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-144">Supprime un objet de la collection <strong>Fields</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-144">Deletes an object from the <strong>Fields</strong> collection.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-145"><a href="delete-method-ado-recordset.md">Supprimer (objet Recordset ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-145"><a href="delete-method-ado-recordset.md">Delete (ADO Recordset)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-146">Supprime l'enregistrement actif ou un groupe d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="85029-146">Deletes the current record or a group of records.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-145"><a href="delete-method-ado-recordset.md">Supprimer (objet Recordset ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-145"><a href="delete-method-ado-recordset.md">Delete (ADO Recordset)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-146">Supprime l'enregistrement actif ou un groupe d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="2baf7-146">Deletes the current record or a group of records.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-147"><a href="deleterecord-method-ado.md">DeleteRecord</a></span><span class="sxs-lookup"><span data-stu-id="85029-147"><a href="deleterecord-method-ado.md">DeleteRecord</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-148">Supprime un fichier ou un répertoire avec tous ses sous-répertoires.</span><span class="sxs-lookup"><span data-stu-id="85029-148">Deletes a file or directory, and all its subdirectories.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-147"><a href="deleterecord-method-ado.md">DeleteRecord</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-147"><a href="deleterecord-method-ado.md">DeleteRecord</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-148">Supprime un fichier ou un répertoire avec tous ses sous-répertoires.</span><span class="sxs-lookup"><span data-stu-id="2baf7-148">Deletes a file or directory, and all its subdirectories.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-149"><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Exécuter (commande ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-149"><a href="https://msdn.microsoft.com/library/jj248785(v=office.15)">Execute (ADO Command)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-150">Exécute la requête, l'instruction SQL ou la procédure stockée spécifiée dans la propriété <strong>CommandText</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-150">Executes the query, SQL statement, or stored procedure specified in the <strong>CommandText</strong> property.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-149"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Exécuter (commande ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-149"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute (ADO Command)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-150">Exécute la requête, l'instruction SQL ou la procédure stockée spécifiée dans la propriété <strong>CommandText</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-150">Executes the query, SQL statement, or stored procedure specified in the <strong>CommandText</strong> property.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-151"><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Exécuter (ADO Connection)</a></span><span class="sxs-lookup"><span data-stu-id="85029-151"><a href="https://msdn.microsoft.com/library/jj249832(v=office.15)">Execute (ADO Connection)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-152">Exécute la requête, l’instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</span><span class="sxs-lookup"><span data-stu-id="85029-152">Executes the specified query, SQL statement, stored procedure, or provider-specific text.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-151"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Exécuter (ADO Connection)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-151"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (ADO Connection)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-152">Exécute la requête, l’instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</span><span class="sxs-lookup"><span data-stu-id="2baf7-152">Executes the specified query, SQL statement, stored procedure, or provider-specific text.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-153"><a href="find-method-ado.md">Find</a></span><span class="sxs-lookup"><span data-stu-id="85029-153"><a href="find-method-ado.md">Find</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-154">Recherche un objet <strong>Recordset</strong> pour la ligne qui répond aux critères spécifiés.</span><span class="sxs-lookup"><span data-stu-id="85029-154">Searches a <strong>Recordset</strong> for the row that satisfies the specified criteria.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-153"><a href="find-method-ado.md">Find</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-153"><a href="find-method-ado.md">Find</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-154">Recherche un objet <strong>Recordset</strong> pour la ligne qui répond aux critères spécifiés.</span><span class="sxs-lookup"><span data-stu-id="2baf7-154">Searches a <strong>Recordset</strong> for the row that satisfies the specified criteria.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-155"><a href="flush-method-ado.md">Vider</a></span><span class="sxs-lookup"><span data-stu-id="85029-155"><a href="flush-method-ado.md">Flush</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-156">Force l'envoi de l'objet <strong>Stream</strong> conservé dans la mémoire tampon ADO vers l'objet sous-jacent auquel cet objet <strong>Stream</strong> est associé.</span><span class="sxs-lookup"><span data-stu-id="85029-156">Forces the contents of the <strong>Stream</strong> remaining in the ADO buffer to the underlying object with which the <strong>Stream</strong> is associated.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-155"><a href="flush-method-ado.md">Vider</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-155"><a href="flush-method-ado.md">Flush</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-156">Force l'envoi de l'objet <strong>Stream</strong> conservé dans la mémoire tampon ADO vers l'objet sous-jacent auquel cet objet <strong>Stream</strong> est associé.</span><span class="sxs-lookup"><span data-stu-id="2baf7-156">Forces the contents of the <strong>Stream</strong> remaining in the ADO buffer to the underlying object with which the <strong>Stream</strong> is associated.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-157"><a href="getchildren-method-ado.md">GetChildren</a></span><span class="sxs-lookup"><span data-stu-id="85029-157"><a href="getchildren-method-ado.md">GetChildren</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-158">Renvoie un <strong>objet Recordset</strong> dont les lignes représentent les fichiers et sous-répertoires du répertoire représenté par cet <strong>enregistrement</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-158">Returns a <strong>Recordset</strong> whose rows represent the files and subdirectories in the directory represented by this <strong>Record</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-157"><a href="getchildren-method-ado.md">GetChildren</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-157"><a href="getchildren-method-ado.md">GetChildren</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-158">Renvoie un <strong>objet Recordset</strong> dont les lignes représentent les fichiers et sous-répertoires du répertoire représenté par cet <strong>enregistrement</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-158">Returns a <strong>Recordset</strong> whose rows represent the files and subdirectories in the directory represented by this <strong>Record</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-159"><a href="getchunk-method-ado.md">GetChunk</a></span><span class="sxs-lookup"><span data-stu-id="85029-159"><a href="getchunk-method-ado.md">GetChunk</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-160">Renvoie tout ou une partie du contenu d’un objet de <strong>champ</strong> de données binaires ou de texte de grande taille.</span><span class="sxs-lookup"><span data-stu-id="85029-160">Returns all, or a portion of, the contents of a large text or binary data <strong>Field</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-159"><a href="getchunk-method-ado.md">GetChunk</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-159"><a href="getchunk-method-ado.md">GetChunk</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-160">Renvoie tout ou une partie du contenu d’un objet de <strong>champ</strong> de données binaires ou de texte de grande taille.</span><span class="sxs-lookup"><span data-stu-id="2baf7-160">Returns all, or a portion of, the contents of a large text or binary data <strong>Field</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-161"><a href="getrows-method-ado.md">GetRows</a></span><span class="sxs-lookup"><span data-stu-id="85029-161"><a href="getrows-method-ado.md">GetRows</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-162">Récupère plusieurs enregistrements d'un objet <strong>Recordset</strong> dans un tableau.</span><span class="sxs-lookup"><span data-stu-id="85029-162">Retrieves multiple records of a <strong>Recordset</strong> object into an array.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-161"><a href="getrows-method-ado.md">GetRows</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-161"><a href="getrows-method-ado.md">GetRows</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-162">Récupère plusieurs enregistrements d'un objet <strong>Recordset</strong> dans un tableau.</span><span class="sxs-lookup"><span data-stu-id="2baf7-162">Retrieves multiple records of a <strong>Recordset</strong> object into an array.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-163"><a href="getstring-method-ado.md">GetString</a></span><span class="sxs-lookup"><span data-stu-id="85029-163"><a href="getstring-method-ado.md">GetString</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-164">Retourne l'objet <strong>Recordset</strong> sous la forme d'une chaîne.</span><span class="sxs-lookup"><span data-stu-id="85029-164">Returns the <strong>Recordset</strong> as a string.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-163"><a href="getstring-method-ado.md">GetString</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-163"><a href="getstring-method-ado.md">GetString</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-164">Retourne l'objet <strong>Recordset</strong> sous la forme d'une chaîne.</span><span class="sxs-lookup"><span data-stu-id="2baf7-164">Returns the <strong>Recordset</strong> as a string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-165"><a href="loadfromfile-method-ado.md">La méthode LoadFromFile</a></span><span class="sxs-lookup"><span data-stu-id="85029-165"><a href="loadfromfile-method-ado.md">LoadFromFile</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-166">Charge le contenu d'un fichier existant dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-166">Loads the contents of an existing file into a <strong>Stream</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-165"><a href="loadfromfile-method-ado.md">La méthode LoadFromFile</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-165"><a href="loadfromfile-method-ado.md">LoadFromFile</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-166">Charge le contenu d'un fichier existant dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-166">Loads the contents of an existing file into a <strong>Stream</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-167"><a href="move-method-ado.md">Déplacer</a></span><span class="sxs-lookup"><span data-stu-id="85029-167"><a href="move-method-ado.md">Move</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-168">Déplace la position de l'enregistrement actif dans un objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-168">Moves the position of the current record in a <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-167"><a href="move-method-ado.md">Déplacer</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-167"><a href="move-method-ado.md">Move</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-168">Déplace la position de l'enregistrement actif dans un objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-168">Moves the position of the current record in a <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-169"><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst, MoveLast, MoveNext et MovePrevious</a></span><span class="sxs-lookup"><span data-stu-id="85029-169"><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst, MoveLast, MoveNext, and MovePrevious</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-170">Accède au premier, au dernier ou à l'enregistrement suivant d'un objet <strong>Recordset</strong> spécifié et fait de celui-ci l'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="85029-170">Moves to the first, last, next, or previous record in a specified <strong>Recordset</strong> object and makes that record the current record.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-169"><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst, MoveLast, MoveNext et MovePrevious</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-169"><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst, MoveLast, MoveNext, and MovePrevious</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-170">Accède au premier, au dernier ou à l'enregistrement suivant d'un objet <strong>Recordset</strong> spécifié et fait de celui-ci l'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="2baf7-170">Moves to the first, last, next, or previous record in a specified <strong>Recordset</strong> object and makes that record the current record.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-171"><a href="moverecord-method-ado.md">MoveRecord</a></span><span class="sxs-lookup"><span data-stu-id="85029-171"><a href="moverecord-method-ado.md">MoveRecord</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-172">Déplace un fichier ou un répertoire, avec tout son contenu, vers un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="85029-172">Moves a file, or a directory and its contents, to another location.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-171"><a href="moverecord-method-ado.md">MoveRecord</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-171"><a href="moverecord-method-ado.md">MoveRecord</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-172">Déplace un fichier ou un répertoire, avec tout son contenu, vers un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="2baf7-172">Moves a file, or a directory and its contents, to another location.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-173"><a href="nextrecordset-method-ado.md">NextRecordset</a></span><span class="sxs-lookup"><span data-stu-id="85029-173"><a href="nextrecordset-method-ado.md">NextRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-174">Efface l'objet <strong>Recordset</strong> actif et retourne l'objet <strong>Recordset</strong> suivant en exécutant une série de commandes.</span><span class="sxs-lookup"><span data-stu-id="85029-174">Clears the current <strong>Recordset</strong> object and returns the next <strong>Recordset</strong> by advancing through a series of commands.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-173"><a href="nextrecordset-method-ado.md">NextRecordset</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-173"><a href="nextrecordset-method-ado.md">NextRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-174">Efface l'objet <strong>Recordset</strong> actif et retourne l'objet <strong>Recordset</strong> suivant en exécutant une série de commandes.</span><span class="sxs-lookup"><span data-stu-id="2baf7-174">Clears the current <strong>Recordset</strong> object and returns the next <strong>Recordset</strong> by advancing through a series of commands.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-175"><a href="open-method-ado-connection.md">Open (objet Connection ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-175"><a href="open-method-ado-connection.md">Open (ADO Connection)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-176">Ouvre une connexion à une source de données.</span><span class="sxs-lookup"><span data-stu-id="85029-176">Opens a connection to a data source.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-175"><a href="open-method-ado-connection.md">Open (objet Connection ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-175"><a href="open-method-ado-connection.md">Open (ADO Connection)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-176">Ouvre une connexion à une source de données.</span><span class="sxs-lookup"><span data-stu-id="2baf7-176">Opens a connection to a data source.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-177"><a href="open-method-ado-record.md">Open (objet Record ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-177"><a href="open-method-ado-record.md">Open (ADO Record)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-178">Ouvre un objet <strong>Record</strong> existant ou crée un fichier ou un répertoire.</span><span class="sxs-lookup"><span data-stu-id="85029-178">Opens an existing <strong>Record</strong> object, or creates a new file or directory.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-177"><a href="open-method-ado-record.md">Open (objet Record ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-177"><a href="open-method-ado-record.md">Open (ADO Record)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-178">Ouvre un objet <strong>Record</strong> existant ou crée un fichier ou un répertoire.</span><span class="sxs-lookup"><span data-stu-id="2baf7-178">Opens an existing <strong>Record</strong> object, or creates a new file or directory.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-179"><a href="open-method-ado-recordset.md">Ouvrir (objet Recordset ADO)</a></span><span class="sxs-lookup"><span data-stu-id="85029-179"><a href="open-method-ado-recordset.md">Open (ADO Recordset)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-180">Ouvre un curseur.</span><span class="sxs-lookup"><span data-stu-id="85029-180">Opens a cursor.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-179"><a href="open-method-ado-recordset.md">Ouvrir (objet Recordset ADO)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-179"><a href="open-method-ado-recordset.md">Open (ADO Recordset)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-180">Ouvre un curseur.</span><span class="sxs-lookup"><span data-stu-id="2baf7-180">Opens a cursor.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-181"><a href="open-method-ado-stream.md">Ouvrez (ADO Stream)</a></span><span class="sxs-lookup"><span data-stu-id="85029-181"><a href="open-method-ado-stream.md">Open (ADO Stream)</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-182">Ouvre un objet <strong>Stream</strong> pour manipuler des flux de données binaires ou de texte.</span><span class="sxs-lookup"><span data-stu-id="85029-182">Opens a <strong>Stream</strong> object to manipulate streams of binary or text data.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-181"><a href="open-method-ado-stream.md">Ouvrez (ADO Stream)</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-181"><a href="open-method-ado-stream.md">Open (ADO Stream)</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-182">Ouvre un objet <strong>Stream</strong> pour manipuler des flux de données binaires ou de texte.</span><span class="sxs-lookup"><span data-stu-id="2baf7-182">Opens a <strong>Stream</strong> object to manipulate streams of binary or text data.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-183"><a href="openschema-method-ado.md">OpenSchema</a></span><span class="sxs-lookup"><span data-stu-id="85029-183"><a href="openschema-method-ado.md">OpenSchema</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-184">Obtient du fournisseur les informations du schéma de base de données.</span><span class="sxs-lookup"><span data-stu-id="85029-184">Obtains database schema information from the provider.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-183"><a href="openschema-method-ado.md">OpenSchema</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-183"><a href="openschema-method-ado.md">OpenSchema</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-184">Obtient du fournisseur les informations du schéma de base de données.</span><span class="sxs-lookup"><span data-stu-id="2baf7-184">Obtains database schema information from the provider.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-185"><a href="read-method-ado.md">Read</a></span><span class="sxs-lookup"><span data-stu-id="85029-185"><a href="read-method-ado.md">Read</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-186">Lit un nombre spécifique d'octets dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-186">Reads a specified number of bytes from a <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-185"><a href="read-method-ado.md">Read</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-185"><a href="read-method-ado.md">Read</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-186">Lit un nombre spécifique d'octets dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-186">Reads a specified number of bytes from a <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-187"><a href="readtext-method-ado.md">ReadText</a></span><span class="sxs-lookup"><span data-stu-id="85029-187"><a href="readtext-method-ado.md">ReadText</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-188">Lit un nombre spécifique de caractères dans un objet <strong>Stream</strong> textuel.</span><span class="sxs-lookup"><span data-stu-id="85029-188">Reads a specified number of characters from a text <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-187"><a href="readtext-method-ado.md">ReadText</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-187"><a href="readtext-method-ado.md">ReadText</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-188">Lit un nombre spécifique de caractères dans un objet <strong>Stream</strong> textuel.</span><span class="sxs-lookup"><span data-stu-id="2baf7-188">Reads a specified number of characters from a text <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-189"><a href="refresh-method-ado.md">Refresh</a></span><span class="sxs-lookup"><span data-stu-id="85029-189"><a href="refresh-method-ado.md">Refresh</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-190">Met à jour les objets d'une collection pour qu'ils reflètent les objets disponibles ou spécifiques au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="85029-190">Updates the objects in a collection to reflect objects available from, and specific to, the provider.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-189"><a href="refresh-method-ado.md">Refresh</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-189"><a href="refresh-method-ado.md">Refresh</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-190">Met à jour les objets d'une collection pour qu'ils reflètent les objets disponibles ou spécifiques au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="2baf7-190">Updates the objects in a collection to reflect objects available from, and specific to, the provider.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-191"><a href="requery-method-ado.md">Actualiser</a></span><span class="sxs-lookup"><span data-stu-id="85029-191"><a href="requery-method-ado.md">Requery</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-192">Cette méthode met à jour les données d'un objet <strong>Recordset</strong> en réexécutant la requête sur laquelle l'objet est basé.</span><span class="sxs-lookup"><span data-stu-id="85029-192">Updates the data in a <strong>Recordset</strong> object by re-executing the query on which the object is based.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-191"><a href="requery-method-ado.md">Actualiser</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-191"><a href="requery-method-ado.md">Requery</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-192">Cette méthode met à jour les données d'un objet <strong>Recordset</strong> en réexécutant la requête sur laquelle l'objet est basé.</span><span class="sxs-lookup"><span data-stu-id="2baf7-192">Updates the data in a <strong>Recordset</strong> object by re-executing the query on which the object is based.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-193"><a href="resync-method-ado.md">Resync</a></span><span class="sxs-lookup"><span data-stu-id="85029-193"><a href="resync-method-ado.md">Resync</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-194">Cette méthode actualise les données de l'objet <strong>Recordset</strong> actif ou la collection <strong>Fields</strong> d'un objet <strong>Record</strong> à partir de la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="85029-194">Refreshes the data in the current <strong>Recordset</strong> object, or <strong>Fields</strong> collection of a <strong>Record</strong> object, from the underlying database.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-193"><a href="resync-method-ado.md">Resync</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-193"><a href="resync-method-ado.md">Resync</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-194">Cette méthode actualise les données de l'objet <strong>Recordset</strong> actif ou la collection <strong>Fields</strong> d'un objet <strong>Record</strong> à partir de la base de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="2baf7-194">Refreshes the data in the current <strong>Recordset</strong> object, or <strong>Fields</strong> collection of a <strong>Record</strong> object, from the underlying database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-195"><a href="save-method-ado.md">Save</a></span><span class="sxs-lookup"><span data-stu-id="85029-195"><a href="save-method-ado.md">Save</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-196">Enregistre l'objet <strong>Recordset</strong> dans un fichier ou un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-196">Saves the <strong>Recordset</strong> in a file or <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-195"><a href="save-method-ado.md">Save</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-195"><a href="save-method-ado.md">Save</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-196">Enregistre l'objet <strong>Recordset</strong> dans un fichier ou un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-196">Saves the <strong>Recordset</strong> in a file or <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-197"><a href="savetofile-method-ado.md">Méthode SaveToFile</a></span><span class="sxs-lookup"><span data-stu-id="85029-197"><a href="savetofile-method-ado.md">SaveToFile</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-198">Enregistre le contenu binaire d'un objet <strong>Stream</strong> dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="85029-198">Saves the binary contents of a <strong>Stream</strong> to a file.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-197"><a href="savetofile-method-ado.md">Méthode SaveToFile</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-197"><a href="savetofile-method-ado.md">SaveToFile</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-198">Enregistre le contenu binaire d'un objet <strong>Stream</strong> dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="2baf7-198">Saves the binary contents of a <strong>Stream</strong> to a file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-199"><a href="seek-method-ado.md">Seek</a></span><span class="sxs-lookup"><span data-stu-id="85029-199"><a href="seek-method-ado.md">Seek</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-200">Effectue une recherche dans l'index d'un objet <strong>Recordset</strong> pour retrouver rapidement la ligne qui correspond aux valeurs spécifiées et faire de cette ligne la position de ligne active.</span><span class="sxs-lookup"><span data-stu-id="85029-200">Searches the index of a <strong>Recordset</strong> to quickly locate the row that matches the specified values, and changes the current row position to that row.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-199"><a href="seek-method-ado.md">Seek</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-199"><a href="seek-method-ado.md">Seek</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-200">Effectue une recherche dans l'index d'un objet <strong>Recordset</strong> pour retrouver rapidement la ligne qui correspond aux valeurs spécifiées et faire de cette ligne la position de ligne active.</span><span class="sxs-lookup"><span data-stu-id="2baf7-200">Searches the index of a <strong>Recordset</strong> to quickly locate the row that matches the specified values, and changes the current row position to that row.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-201"><a href="seteos-method-ado.md">SetEOS</a></span><span class="sxs-lookup"><span data-stu-id="85029-201"><a href="seteos-method-ado.md">SetEOS</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-202">Définit la position qui représente la fin du flux.</span><span class="sxs-lookup"><span data-stu-id="85029-202">Sets the position that is the end of the stream.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-201"><a href="seteos-method-ado.md">SetEOS</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-201"><a href="seteos-method-ado.md">SetEOS</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-202">Définit la position qui représente la fin du flux.</span><span class="sxs-lookup"><span data-stu-id="2baf7-202">Sets the position that is the end of the stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-203"><a href="skipline-method-ado.md">SkipLine</a></span><span class="sxs-lookup"><span data-stu-id="85029-203"><a href="skipline-method-ado.md">SkipLine</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-204">Saute une ligne complète lors de la lecture d'un flux de texte.</span><span class="sxs-lookup"><span data-stu-id="85029-204">Skips one entire line when reading a text stream.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-203"><a href="skipline-method-ado.md">SkipLine</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-203"><a href="skipline-method-ado.md">SkipLine</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-204">Saute une ligne complète lors de la lecture d'un flux de texte.</span><span class="sxs-lookup"><span data-stu-id="2baf7-204">Skips one entire line when reading a text stream.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-205"><a href="stat-method-ado.md">Stat</a></span><span class="sxs-lookup"><span data-stu-id="85029-205"><a href="stat-method-ado.md">Stat</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-206">Fournit les statistiques sur un flux ouvert.</span><span class="sxs-lookup"><span data-stu-id="85029-206">Gets statistical information about an open stream.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-205"><a href="stat-method-ado.md">Stat</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-205"><a href="stat-method-ado.md">Stat</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-206">Fournit les statistiques sur un flux ouvert.</span><span class="sxs-lookup"><span data-stu-id="2baf7-206">Gets statistical information about an open stream.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-207"><a href="supports-method-ado.md">Prend en charge</a></span><span class="sxs-lookup"><span data-stu-id="85029-207"><a href="supports-method-ado.md">Supports</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-208">Détermine si un objet <strong>Recordset</strong> spécifié prend en charge un type de fonctionnalité particulier.</span><span class="sxs-lookup"><span data-stu-id="85029-208">Determines whether a specified <strong>Recordset</strong> object supports a particular type of functionality.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-207"><a href="supports-method-ado.md">Prend en charge</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-207"><a href="supports-method-ado.md">Supports</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-208">Détermine si un objet <strong>Recordset</strong> spécifié prend en charge un type de fonctionnalité particulier.</span><span class="sxs-lookup"><span data-stu-id="2baf7-208">Determines whether a specified <strong>Recordset</strong> object supports a particular type of functionality.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-209"><a href="update-method-ado.md">Mettre à jour</a></span><span class="sxs-lookup"><span data-stu-id="85029-209"><a href="update-method-ado.md">Update</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-210">Enregistre les modifications apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-210">Saves any changes you make to the current row of a <strong>Recordset</strong> object, or the <strong>Fields</strong> collection of a <strong>Record</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-209"><a href="update-method-ado.md">Mettre à jour</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-209"><a href="update-method-ado.md">Update</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-210">Enregistre les modifications apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-210">Saves any changes you make to the current row of a <strong>Recordset</strong> object, or the <strong>Fields</strong> collection of a <strong>Record</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-211"><a href="updatebatch-method-ado.md">UpdateBatch</a></span><span class="sxs-lookup"><span data-stu-id="85029-211"><a href="updatebatch-method-ado.md">UpdateBatch</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-212">Écrit toutes les mises à jour par lot en attente sur le disque.</span><span class="sxs-lookup"><span data-stu-id="85029-212">Writes all pending batch updates to disk.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-211"><a href="updatebatch-method-ado.md">UpdateBatch</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-211"><a href="updatebatch-method-ado.md">UpdateBatch</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-212">Écrit toutes les mises à jour par lot en attente sur le disque.</span><span class="sxs-lookup"><span data-stu-id="2baf7-212">Writes all pending batch updates to disk.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85029-213"><a href="write-method-ado.md">Write</a></span><span class="sxs-lookup"><span data-stu-id="85029-213"><a href="write-method-ado.md">Write</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-214">Écrit des données binaires dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-214">Writes binary data to a <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-213"><a href="write-method-ado.md">Write</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-213"><a href="write-method-ado.md">Write</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-214">Écrit des données binaires dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-214">Writes binary data to a <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85029-215"><a href="writetext-method-ado.md">WriteText</a></span><span class="sxs-lookup"><span data-stu-id="85029-215"><a href="writetext-method-ado.md">WriteText</a></span></span></p></td>
-<td><p><span data-ttu-id="85029-216">Écrit une chaîne de texte spécifiée dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="85029-216">Writes a specified text string to a <strong>Stream</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="2baf7-215"><a href="writetext-method-ado.md">WriteText</a></span><span class="sxs-lookup"><span data-stu-id="2baf7-215"><a href="writetext-method-ado.md">WriteText</a></span></span></p></td>
+<td><p><span data-ttu-id="2baf7-216">Écrit une chaîne de texte spécifiée dans un objet <strong>Stream</strong>.</span><span class="sxs-lookup"><span data-stu-id="2baf7-216">Writes a specified text string to a <strong>Stream</strong> object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
