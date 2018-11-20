@@ -7,7 +7,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da318b6f-128a-44b5-8357-a130022030a1
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+description: 'Dernière modification : 07 décembre 2015'
 ms.openlocfilehash: f9d154b26319f5ed72b1abd6aeef307d07a63bda
 ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "25388566"
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Pour personnaliser le traitement des pièces jointes lors de l’envoi d’un message :
   
