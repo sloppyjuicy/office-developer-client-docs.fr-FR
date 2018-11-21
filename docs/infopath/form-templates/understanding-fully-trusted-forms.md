@@ -6,11 +6,11 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath offre la possibilité de créer des formulaires entièrement fiables, c'est-à-dire des formulaires qui disposent des autorisations de sécurité supérieure et peuvent accéder à des ressources système et autres composants sur l’ordinateur d’un utilisateur. Cet article décrit la procédure est un formulaire entièrement fiable, et pourquoi il est utilisé et créer un formulaire entièrement fiable en convertissant manuellement et d’inscription d’un formulaire standard, ou à la signature numérique d’un formulaire standard.
-ms.openlocfilehash: b410d5bee0080aae5e0af9687999595655b42edf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
+ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 11/20/2018
 ms.locfileid: "19782464"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Présentation des formulaires entièrement fiables
@@ -19,9 +19,9 @@ InfoPath offre la possibilité de créer des formulaires entièrement fiables, c
 
 Les modèles de formulaire InfoPath peuvent être déployés avec des niveaux de sécurité variables. Le niveau utilisé dépend du niveau d'accès aux ressources externes que vous voulez donner à un formulaire. Par défaut, les modèles de formulaire InfoPath ne peuvent pas accéder aux ressources système, ni utiliser de composant logiciel non marqué comme sécurisé pour l'exécution de script.
   
-Pour qu'un formulaire soit utilisable, InfoPath doit pouvoir accéder au modèle de formulaire qui lui sert de base. Lorsque vous créez un modèle de formulaire, InfoPath crée une entrée dans le fichier de définition du formulaire (.xsf) qui contient l'URL de l'emplacement du modèle de formulaire. Un formulaire basé sur une URL est dit *en bac à sable*. Lorsqu'un utilisateur le remplit, le formulaire est ajouté à un cache local et n'a pas accès aux ressources système. Ce type de formulaire hérite ses autorisations du domaine dans lequel il est ouvert. 
+Pour qu'un formulaire soit utilisable, InfoPath doit pouvoir accéder au modèle de formulaire qui lui sert de base. Lorsque vous créez un modèle de formulaire, InfoPath crée une entrée dans le fichier de définition du formulaire (.xsf) qui contient l'URL de l'emplacement du modèle de formulaire. Un formulaire basé sur une URL est qualifié de *sandbox*. Lorsqu'un utilisateur le remplit, le formulaire est ajouté à un cache local et n'a pas accès aux ressources système. Ce type de formulaire hérite ses autorisations du domaine dans lequel il est ouvert. 
   
-Cependant, vous pouvez modifier un formulaire afin qu'il soit basé sur un nom URN (Uniform Resource Name), ce qui lui autorise l'accès aux ressources système. Formulaires de ce type sont appelés à être *entièrement fiable*. 
+Cependant, vous pouvez modifier un formulaire afin qu'il soit basé sur un nom URN (Uniform Resource Name), ce qui lui autorise l'accès aux ressources système. Les formulaires de ce type sont qualifiés d'*entièrement fiable*. 
   
 ## <a name="why-use-a-fully-trusted-form"></a>Pourquoi utiliser un formulaire entièrement fiable ?
 
