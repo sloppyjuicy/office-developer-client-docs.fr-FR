@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: Remplace une partie d’une chaîne de texte avec une autre chaîne de texte.
-ms.openlocfilehash: 2c33d8aafbd68054ac39d14bb4fb3cf857fb367e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789839"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643212"
 ---
-# <a name="substitute-function"></a>SUBSTITUTE, fonction
+# <a name="substitute-function"></a>Fonction SUBSTITUTE
 
 Remplace une partie d’une chaîne de texte avec une autre chaîne de texte. 
   
@@ -28,15 +28,16 @@ Remplace une partie d’une chaîne de texte avec une autre chaîne de texte.
 
 |**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Texte ou référence à une cellule contenant le texte dont vous souhaitez substituer des caractères.  <br/> |
-| _old_text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Le texte que vous souhaitez remplacer.  <br/> |
-| _new_text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Le texte que vous souhaitez utiliser pour remplacer _old_text_.  <br/> |
-| _num_début_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Indique quelles occurrences de old_text remplacer.  <br/> |
+| _text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte ou référence à une cellule contenant le texte dont vous souhaitez substituer des caractères.  <br/> |
+| _old_text_ <br/> |Obligatoire  <br/> |**String** <br/> | Texte à remplacer.
+  <br/> |
+| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> | Le texte que vous souhaitez utiliser pour remplacer _old_text_.  <br/> |
+| _num_début_opt_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Spécifie les occurrences d’old_text à remplacer.  <br/> |
 | _ignorer_casse_opt_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Valeur FALSE si la casse est respectée ; sinon, valeur TRUE. La valeur par défaut est FALSE.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Chaîne
+String
   
 ## <a name="remarks"></a>Remarques
 

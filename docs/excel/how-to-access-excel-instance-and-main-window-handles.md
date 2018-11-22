@@ -1,5 +1,5 @@
 ---
-title: Instance d’Excel Access et les poignées de la fenêtre principale
+title: Accès à l’instance Excel et aux handles de fenêtres principales
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,15 +8,15 @@ keywords:
 - accès aux poignées, poignées [Excel 2007], accédez à, Excel instances, accédez à, handles de fenêtre [Excel 2007], l’accès à d’excel
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 035cd2a8423e3ab14f4b2ca4b73fbc39641e54d6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
+ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782143"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "26643177"
 ---
-# <a name="access-excel-instance-and-main-window-handles"></a>Instance d’Excel Access et les poignées de la fenêtre principale
+# <a name="access-excel-instance-and-main-window-handles"></a>Accès à l’instance Excel et aux handles de fenêtres principales
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -63,7 +63,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {
@@ -89,5 +89,5 @@ BOOL GetHwnd(HWND * pHwnd)
   
 [Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[D�veloppement de XLL de Excel 2013](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 
