@@ -8,13 +8,13 @@ keywords:
 - problèmes connus [excel 2007]
 localization_priority: Normal
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 9cdbb10ea68723bd7e1cd9289e8592a7cc087c46
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+ms.openlocfilehash: 34784f6895386efe7e6c3ca7ec213c7d71931058
+ms.sourcegitcommit: f139451a43598b59da22775333779df691df460a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782133"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "26685178"
 ---
 # <a name="known-issues-in-excel-xll-development"></a>Problèmes connus concernant le développement de XLL Excel
 
@@ -28,7 +28,7 @@ Lorsqu’un XLL enregistre une commande ou une fonction, Excel crée un nouveau 
   
 ## <a name="argument-description-string-truncation-in-the-function-wizard"></a>Troncation de chaîne argument Description dans l’Assistant fonction
 
-Le paramètre *pxArgumentHelp1* et tous les paramètres suivants de la fonction **xlfRegister** sont facultatifs chaînes qui correspondent aux arguments de la fonction XLL. L’Assistant fonction affiche ces pour fournir plus d’informations sur la boîte de dialogue construction argument. Parfois, Excel tronque la chaîne qui correspond à l’argument final d’un ou deux caractères lors de son affichage dans la boîte de dialogue. Vous pouvez éviter cela en ajoutant un ou deux espaces à la fin de la chaîne finale. 
+Le paramètre *pxArgumentHelp1* et tous les paramètres suivants de la fonction **xlfRegister** sont facultatifs chaînes qui correspondent aux arguments de la fonction XLL. L’Assistant fonction affiche ces pour fournir plus d’informations sur la boîte de dialogue construction argument. Parfois, Excel tronque la chaîne qui correspond à l’argument final d’un ou deux caractères lors de son affichage dans la boîte de dialogue. Vous pouvez éviter cela en ajoutant une « chaîne vide » supplémentaire en tant que le dernier paramètre « aide argument » de l’enregistrement de fonction.
   
 ## <a name="binary-name-scope-limitation"></a>Limitation d’étendue nom binaire
 
@@ -61,9 +61,9 @@ Pour plus d�informations, voir [Gestion de la m�moire dans Excel](memory-man
 [XLOper12ToXLOper](xloper12toxloper.md)
 
 
-[D�veloppement de XLL de Excel 2013](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
   
-[R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
   
-[Gestion de la m�moire dans Excel](memory-management-in-excel.md)
+[Gestion de la mémoire dans Excel](memory-management-in-excel.md)
 
