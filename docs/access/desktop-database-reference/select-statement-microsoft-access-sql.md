@@ -8,12 +8,13 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-ms.openlocfilehash: 2b03834914c352a0e9c462c50bee48ac992276e3
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25860580"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718783"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
@@ -113,7 +114,7 @@ AS HeadCount FROM Employees;
 
 Vous pouvez utiliser les autres clauses d'une instruction SELECT pour limiter et organiser plus encore les données renvoyées. Pour plus d'informations, consultez la rubrique d'aide relative à la clause que vous utilisez.
 
-**Liens fournis par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
+**Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Formateur SQL vers VBA](https://www.utteraccess.com/forum/sql-vba-formatter-t1165308.html)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834370(v=office.15)
 ms:contentKeyID: 48547705
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3e5318652430f6cb9564fb1bb02832cc120b080b
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c056f2b0922402ea7cde7cf767969b73f912f572
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026245"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715199"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl, action de macro
 
@@ -19,7 +20,7 @@ ms.locfileid: "26026245"
 
 Vous pouvez utiliser l’action **GoToControl** pour placer le focus sur le champ spécifié ou le contrôle de l’enregistrement actif du formulaire ouvert, formulaire, feuille de données de table ou feuille de données de requête. Vous pouvez utiliser cette action lorsque vous souhaitez mettre le focus sur un champ ou un contrôle particulier. Ce champ ou le contrôle puis utilisable pour des comparaisons ou des actions **TrouverEnregistrement**. Vous pouvez également utiliser cette action pour naviguer dans un formulaire sous certaines conditions. Par exemple, si l'utilisateur saisit non dans un contrôle conjoint sur un formulaire d'assurance maladie, le focus peut automatiquement passer le contrôle nom du conjoint/partenaire et déplacer vers le contrôle suivant.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 > [!NOTE]
 > Cette action n’est pas disponible pour une utilisation avec des pages d’accès aux données.
@@ -87,17 +88,17 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 <td><p>Fermer le formulaire liste des produits.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nom du formulaire</strong>: <strong>affichage</strong>des produits : <strong>Mode FormData</strong>: <strong>Mode fenêtre Ajouter</strong>: <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Produits.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DéfinirValeur</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Élément</strong>: [Forms]![Produits]![N° fournisseur] <strong>Expression</strong>: N° fournisseur</p></td>
 <td><p>Définissez le contrôle N° fournisseur sur le fournisseur actuel dans le formulaire Fournisseurs.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AtteindreContrôle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: N° catégorie</p></td>
 <td><p>Accéder au contrôle N° catégorie.</p></td>
 </tr>

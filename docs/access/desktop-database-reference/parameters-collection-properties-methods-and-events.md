@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249064(v=office.15)
 ms:contentKeyID: 48543936
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1f6e5d60d2b1afce3fbee470d558a29e7abcb8fd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1de2000ec2b1db2c05bc6da8e097ea45f504084e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946523"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719203"
 ---
 # <a name="parameters-collection-properties-methods-and-events"></a>Parameters, collection – Propriétés, méthodes et événements
 
@@ -19,7 +20,7 @@ ms.locfileid: "25946523"
 
 ## <a name="properties"></a>Propriétés
 
-- [Count, propriété](count-property-ado.md)
+- [Propriété Count](count-property-ado.md)
 - [Item, propriété](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
 ms:contentKeyID: 48548360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ee43d82b269d472ac850f53d865a5b4bbfb954de
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 249dabfa13bac6973cea4bd69e0867292c4a6967
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929243"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718209"
 ---
 # <a name="fieldsourcefield-property-dao"></a>Propriété Field.SourceField (DAO)
 
@@ -47,7 +48,7 @@ Pour un objet **Field**, l'utilisation des propriétés **SourceField** et **Sou
 <td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Objet QueryDef</strong></p></td>
+<td><p><strong>QueryDef</strong></p></td>
 <td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">

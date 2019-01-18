@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bcfde7e343a37d65356e1f9ed8d879030913f5ed
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25868783"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713778"
 ---
 # <a name="using-visual-c-extensions"></a>Utilisation des extensions Visual C++
 
@@ -117,7 +118,7 @@ _**Fin d’entrées de liaison**_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Class</em></p></td>
+<td><p><em>Classe</em></p></td>
 <td><p>Classe dans laquelle sont définies les entrées de liaison et les variables C/C++.</p></td>
 </tr>
 <tr class="even">
@@ -133,7 +134,7 @@ _**Fin d’entrées de liaison**_
 <td><p>Nom de la variable C/C++ dans laquelle le champ de l'objet <strong>Recordset</strong> va être stocké.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Taille</em></p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Taille maximale, en octets, du paramètre <em>Mémoire tampon</em>. Si le paramètre <em>Mémoire tampon</em> contient une chaîne de longueur variable, prévoyez de l'espace pour un zéro de fin.</p></td>
 </tr>
 <tr class="even">
@@ -142,7 +143,7 @@ _**Fin d’entrées de liaison**_
  Les deux valeurs les plus importantes de cette variable sont <strong>adFldOK</strong>, qui indique que la conversion s'est correctement déroulée, et <strong>adFldNull</strong>, qui indique que la valeur du champ est un VARIANT de type VT_NULL et que ce champ n'est pas simplement vide. Les valeurs possibles pour <em>l’état</em> sont répertoriées dans le tableau suivant, &quot;valeurs d’état.&quot;</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Modifier</em></p></td>
+<td><p><em>Modify</em></p></td>
 <td><p>Indicateur booléen. S'il a la valeur TRUE, il indique qu'ADO est autorisé à mettre à jour l'objet <strong>Recordset</strong> correspondant avec la valeur contenue dans le paramètre <em>Mémoire tampon</em>.
  Affectez la valeur TRUE au paramètre <em>modifier</em> booléen pour permettre à ADO de mettre à jour le champ lié et la valeur FALSE si vous voulez examiner le champ sans le modifier.</p></td>
 </tr>
@@ -176,7 +177,7 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

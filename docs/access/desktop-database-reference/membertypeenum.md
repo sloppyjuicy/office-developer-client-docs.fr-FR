@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
 ms:contentKeyID: 48544286
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 955415df5e8ea2fb68afe16c82a7087e3424dc68
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 82d507457d9242daa92cc0218c87bae4d82759a3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871310"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718503"
 ---
 # <a name="membertypeenum"></a>MemberTypeEnum
 
@@ -29,7 +30,7 @@ Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d'un
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

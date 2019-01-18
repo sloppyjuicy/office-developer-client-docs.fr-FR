@@ -1,19 +1,20 @@
 ---
-title: Enregistrements persistants au format XML
+title: Persistance des enregistrements au format XML
 TOCTitle: Persisting records in XML format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1d859835ec0f80d2a1d908eb40ec7cffaa1effb2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946306"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714723"
 ---
-# <a name="persisting-records-in-xml-format"></a>Enregistrements persistants au format XML
+# <a name="persisting-records-in-xml-format"></a>Persistance des enregistrements au format XML
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -70,9 +71,9 @@ Cette section comprend les rubriques suivantes :
 
 - [Namespaces](namespaces.md)
 
-- [Section Schéma](schema-section.md)
+- [Section de schéma](schema-section.md)
 
-- [Section Données](data-section.md)
+- [Section des données](data-section.md)
 
 - [Recordsets hiérarchiques au format XML](hierarchical-recordsets-in-xml.md)
 
@@ -82,6 +83,6 @@ Cette section comprend les rubriques suivantes :
 
 - [Enregistrement dans un objet XML DOM](saving-to-the-xml-dom-object.md)
 
-- [Considérations relatives à la sécurité XML](xml-security-considerations.md)
+- [Considérations de sécurité XML](xml-security-considerations.md)
 
 - [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

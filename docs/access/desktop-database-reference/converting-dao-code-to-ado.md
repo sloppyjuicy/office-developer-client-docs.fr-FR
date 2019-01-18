@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm5267115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 60baeabfce93c2987cb9621c7cc877a7525a954c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25876742"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720337"
 ---
 # <a name="convert-dao-code-to-ado"></a>Convertir le code DAO en code ADO
 
@@ -42,12 +43,12 @@ ms.locfileid: "25876742"
 <tbody>
 <tr class="odd">
 <td><p>DBEngine</p></td>
-<td><p>Aucune</p></td>
+<td><p>Aucun</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Workspace</p></td>
-<td><p>Aucune</p></td>
+<td><p>Aucun</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
@@ -128,7 +129,7 @@ ms.locfileid: "25876742"
 
 ### <a name="about-the-contributors"></a>À propos des collaborateurs
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
+**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Choix entre DAO et ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 

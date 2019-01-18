@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231032
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2e817b4310fa1f08d69265691814ac314158e60c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 791803bb8935ffab24e5aed7e4e6a77360e82b65
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026126"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713232"
 ---
 # <a name="cancel-method-ado"></a>Cancel, méthode (ADO)
 
@@ -52,7 +53,7 @@ S'il s'agit d'un <em>objet</em></p></th>
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connection-object-ado.md">Objet Connection</a></p></td>
+<td><p><a href="connection-object-ado.md">Connection</a></p></td>
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> ou <a href="open-method-ado-connection.md">Open</a></p></td>
 </tr>
 <tr class="odd">

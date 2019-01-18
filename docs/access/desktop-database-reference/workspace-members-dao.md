@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 525b261f5184f520d6f24c81f3d446fee8aa800e
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936958"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719232"
 ---
 # <a name="workspace-members-dao"></a>Membres de l’espace de travail (DAO)
 
@@ -51,7 +52,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-openconnection-method-dao.md">Méthode OpenConnection</a></strong></p></td>
+<td><p><strong><a href="workspace-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
 <td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Ouvre un objet <strong><a href="connection-object-dao.md">Connection</a></strong> dans une source de données ODBC (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
@@ -103,7 +104,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="workspace-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

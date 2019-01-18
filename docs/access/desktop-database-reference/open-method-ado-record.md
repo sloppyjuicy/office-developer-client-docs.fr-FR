@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 32d719235953f83d0fc28a45b04f50e64c268480
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: db8953cafc5ad266c81c51e59cbf92787d07cdfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950068"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713477"
 ---
 # <a name="open-method-ado-record"></a>Open, méthode (enregistrement ADO)
 
@@ -23,7 +24,7 @@ Ouvre un objet [Record](record-object-ado.md) existant ou crée un nouvel élém
 
 Ouvrir la *Source*, *ActiveConnection*, *Mode*, *CreateOptions*, *Options*, *nom d’utilisateur*, *mot de passe*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
@@ -32,8 +33,8 @@ Ouvrir la *Source*, *ActiveConnection*, *Mode*, *CreateOptions*, *Options*, *nom
 |*Mode* |Facultatif. Valeur [ConnectModeEnum](connectmodeenum.md) dont la valeur par défaut est **adModeUnknown**, qui spécifie le mode d'accès à l'objet **Record** résultant.|
 |*CreateOptions* |Facultatif. Valeur [RecordCreateOptionsEnum](recordcreateoptionsenum.md) dont la valeur par défaut est **adFailIfNotExists**, qui spécifie si un fichier ou un répertoire existant doit être ouvert ou s'il faut créer un nouveau fichier ou répertoire. Si la valeur par défaut est définie, le mode d'accès est obtenu de la propriété [Mode](mode-property-ado.md). Ce paramètre est ignoré lorsque le paramètre *Source* ne contient pas une URL.|
 |*Options* |Facultatif. Valeur [RecordOpenOptionsEnum](recordopenoptionsenum.md) dont la valeur par défaut est **adOpenRecordUnspecified**, qui spécifie des options pour ouvrir l'objet **Record**. Il est possible de combiner ces valeurs.|
-|*Nom d’utilisateur* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Source*.|
-|*MotDePasse* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
+|*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Source*.|
+|*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
 
 ## <a name="remarks"></a>Remarques
 

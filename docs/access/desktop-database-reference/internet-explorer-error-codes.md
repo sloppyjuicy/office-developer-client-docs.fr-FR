@@ -1,19 +1,20 @@
 ---
-title: Codes d’erreur Internet Explorer
+title: Codes d’erreur Internet Explorer
 TOCTitle: Internet Explorer error codes
 ms:assetid: 776580d5-05fc-aa7a-d066-530d887a2a64
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f3520216bd6f7994826fc6cf035931068f532250
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b68d550137e1523cb929aaaaa97e62231331c439
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943814"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714891"
 ---
-# <a name="internet-explorer-error-codes"></a>Codes d’erreur Internet Explorer
+# <a name="internet-explorer-error-codes"></a>Codes d’erreur Internet Explorer
 
 **S’applique à**: Access 2013, Office 2013
 

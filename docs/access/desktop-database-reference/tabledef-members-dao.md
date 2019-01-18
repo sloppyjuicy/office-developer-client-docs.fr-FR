@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c9fe82c2d3edd5127ef6e2944f10d496a558d1fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920521"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721079"
 ---
 # <a name="tabledef-members-dao"></a>Membres de l’objet TableDef (DAO)
 
@@ -101,7 +102,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="tabledef-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">

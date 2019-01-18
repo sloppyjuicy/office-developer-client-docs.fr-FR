@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
 ms:contentKeyID: 48543562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1882486de2a2dfe61b98d4461abeea9cbcc23363
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949312"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715003"
 ---
 # <a name="row-property-ado"></a>Row, propriété (ADO)
 
 **S’applique à**: Access 2013, Office 2013
 
-Extrait ou définit un objet **Row** OLE DB à partir de ou sur un objet **ADORecordConstruction**. Lorsque vous utilisez **put\_ligne** pour définir un objet **Row** , une ligne est transformée en objet ADO **Record** . Lecture/écriture.
+Extrait ou définit un objet **Row** OLE DB à partir de ou sur un objet **ADORecordConstruction**. Lorsque vous utilisez **put\_ligne** pour définir un objet **Row** , une ligne est transformée en objet ADO **Record** . Lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -25,7 +26,7 @@ Get HRESULT\_ligne (\[out, retval\] IUnknown\* \* ppRow) ;
 
 Placer HRESULT\_ligne (\[dans\] IUnknown\* pRow) ;
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

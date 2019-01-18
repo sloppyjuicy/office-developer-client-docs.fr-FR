@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
 ms:contentKeyID: 48544609
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 97b39c44e529ae6c360ddf69ac9b45b0c340d500
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 528809495ebefd15a8895b15a9d51f84e6892980
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997034"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722745"
 ---
 # <a name="propertiesappend-method-dao"></a>Méthode Properties.Append (DAO)
 
@@ -36,7 +37,7 @@ Ajoute un nouvel objet **Property** à la collection **Properties**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>

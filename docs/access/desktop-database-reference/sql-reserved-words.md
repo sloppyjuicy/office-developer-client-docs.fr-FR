@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e3de2ba6696ac9abc065c6d4588d362f79fba273
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 43fa81fa2f175c7b67c5de4cfda5158cc067bbac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026399"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718251"
 ---
 # <a name="sql-reserved-words"></a>Mots réservés SQL
 
@@ -47,10 +48,10 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="odd">
 <td><p>ADMINDB</p></td>
-<td><p><a href="select-statement-microsoft-access-sql.md">EN TANT QUE</a></p></td>
+<td><p><a href="select-statement-microsoft-access-sql.md">AS</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">TOUS LES</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff845430(v=office.15)">ALL</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">ASC</a></p></td>
 </tr>
 <tr class="odd">
@@ -70,7 +71,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff822755(v=office.15)">Avg</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">EN TANT QUE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197723(v=office.15)">AS</a></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -114,8 +115,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><a href="constraint-clause-microsoft-access-sql.md">CONTRAINTE, CONTRAINTES</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">PAR</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTENEUR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822010(v=office.15)">BY</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836657(v=office.15)">CONTAINER</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sql-data-types.md">OCTET</a></p></td>
@@ -135,11 +136,11 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHAR_LENGTH</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CRÉER</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192473(v=office.15)">CREATE</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">CHARACTER_LENGTH</a></p></td>
-<td><p><a href="sql-data-types.md">CURRENCY</a></p></td>
+<td><p><a href="sql-data-types.md">DEVISE</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>CHECK</p></td>
@@ -198,8 +199,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><a href="sql-data-types.md">DOUBLE</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">SUPPRIMER</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DÉPÔT</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192454(v=office.15)">DELETE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836857(v=office.15)">DROP</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://msdn.microsoft.com/library/ff193772(v=office.15)">DESC</a></p></td>
@@ -223,7 +224,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="even">
 <td><p>EXCLUSIVECONNECT</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">De</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821771(v=office.15)">FROM</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>EXEC, EXECUTE</p></td>
@@ -246,8 +247,8 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><a href="sql-data-types.md">GUID</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">PREMIER</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">AVOIR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff821754(v=office.15)">FIRST</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">FLOAT, FLOAT8</a> — Voir DOUBLE</p></td>
@@ -279,7 +280,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">IEEESINGLE</a> — Voir SINGLE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSÉRER</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837307(v=office.15)">INSERT</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="create-index-statement-microsoft-access-sql.md">IGNORER</a></p></td>
@@ -298,12 +299,12 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTEGER2</a> — Voir SHORT</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">DANS</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197682(v=office.15)">IN</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">INTERVALLE</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://msdn.microsoft.com/library/ff836851(v=office.15)">INDEX</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">DANS</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff837051(v=office.15)">INTO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>INDEXCREATEDB</p></td>
@@ -326,7 +327,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOINTURE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff196141(v=office.15)">JOIN</a></p></td>
 <td><p><a href="sql-data-types.md">LONGTEXT</a></p></td>
 </tr>
 <tr class="even">
@@ -338,7 +339,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p>MATCH</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">DERNIÈRE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195256(v=office.15)">LAST</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff194490(v=office.15)">Max</a></strong></p></td>
 </tr>
 <tr class="odd">
@@ -426,7 +427,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p>PRECISION</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">SUITE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835051(v=office.15)">ON</a></p></td>
 <td><p>PREPARE</p></td>
 </tr>
 <tr class="odd">
@@ -482,7 +483,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p>SQL</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHÉMA</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff835037(v=office.15)">SCHEMA</a></p></td>
 <td><p>SQLCODE, SQLERROR, SQLSTATE</p></td>
 </tr>
 <tr class="even">
@@ -490,7 +491,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDev</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SÉLECTIONNEZ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff822042(v=office.15)">SELECT</a></p></td>
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff197043(v=office.15)">StDevP</a></strong></p></td>
 </tr>
 <tr class="even">
@@ -530,7 +531,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLEAU</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192734(v=office.15)">TABLE</a></p></td>
 <td><p><a href="https://msdn.microsoft.com/library/ff193874(v=office.15)">UPDATEOWNER</a></p></td>
 </tr>
 <tr class="even">
@@ -547,7 +548,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="odd">
 <td><p><a href="equivalent-ansi-sql-data-types.md">TIME</a> — Voir DATETIME</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">UTILISATEUR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff197645(v=office.15)">USER</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="equivalent-ansi-sql-data-types.md">HORODATAGE</a></p></td>
@@ -566,7 +567,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><strong><a href="https://msdn.microsoft.com/library/ff192105(v=office.15)">Var</a></strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">À</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff191822(v=office.15)">TO</a></p></td>
 <td><p><a href="equivalent-ansi-sql-data-types.md">VARBINARY</a> — Voir BINARY</p></td>
 </tr>
 <tr class="odd">
@@ -583,7 +584,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="even">
 <td><p><a href="transform-statement-microsoft-access-sql.md">TRANSFORMATION</a></p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">AFFICHAGE</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836065(v=office.15)">VIEW</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>TRANSLATE</p></td>
@@ -595,11 +596,11 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 </tr>
 <tr class="odd">
 <td><p>TRIM</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">OÙ</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff195245(v=office.15)">WHERE</a></p></td>
 </tr>
 <tr class="even">
 <td><p>TRUE</p></td>
-<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">AVEC</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff192721(v=office.15)">WITH</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="union-operation-microsoft-access-sql.md">UNION</a></p></td>
@@ -618,7 +619,7 @@ La liste suivante répertorie tous les mots réservés par le moteur de base de 
 <td><p><a href="equivalent-ansi-sql-data-types.md">YESNO</a> — Voir BIT</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">MISE À JOUR</a></p></td>
+<td><p><a href="https://msdn.microsoft.com/library/ff836602(v=office.15)">UPDATE</a></p></td>
 <td><p>ZONE</p></td>
 </tr>
 <tr class="even">

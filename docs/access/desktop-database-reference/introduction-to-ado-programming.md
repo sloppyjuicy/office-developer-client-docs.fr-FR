@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249181(v=office.15)
 ms:contentKeyID: 48544423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b568139a7e24446dd629afbfdc740a7bd02c409c
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: eab6794bb6aaf44ed0bca84165295ffd8c417058
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946138"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718321"
 ---
 # <a name="introduction-to-ado-programming"></a>Introduction à la programmation ADO
 
@@ -23,8 +24,8 @@ Pour une introduction au Guide du Programmeur Microsoft ActiveX Data Objects (AD
 - [Prerequisites (ADO Introduction)](prerequisites-ado-introduction.md)
 - [La famille de bibliothèques ADO](the-ado-family-of-libraries.md)
 - [Le rôle d’ADO dans Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
-- [Tableau des tâches ADO](ado-task-table.md)
-- [Tableau des technologies ADO](ado-technology-table.md)
+- [Tableau de tâches ADO](ado-task-table.md)
+- [Tableau de technologie ADO](ado-technology-table.md)
 - [Glossaire ADO](ado-glossary.md)
 
 ## <a name="next-steps"></a>Étapes suivantes

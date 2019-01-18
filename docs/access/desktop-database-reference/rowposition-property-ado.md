@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249887(v=office.15)
 ms:contentKeyID: 48547325
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0adb1cdf9ce7b096d7b80b86a89a819d5789b60b
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84d3ad7cc5b3d43b15ac1113f6fa00932678ebc3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949382"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720960"
 ---
 # <a name="rowposition-property-ado"></a>RowPosition, propriété (ADO)
 
@@ -19,7 +20,7 @@ ms.locfileid: "25949382"
 
 Récupère ou définit un objet **RowPosition** OLE DB à partir de/sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **put\_RowPosition** pour définir l’objet **RowPosition** , l’objet **Recordset** résultant utilise l’objet **RowPosition** pour déterminer la ligne active.
 
-Lecture/écriture.
+Lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -27,7 +28,7 @@ Get HRESULT\_RowPosition (\[out, retval\] IUnknown\* \* ppRowPos) ;
 
 Placer HRESULT\_RowPosition (\[dans\] IUnknown\* pRowPos) ;
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
