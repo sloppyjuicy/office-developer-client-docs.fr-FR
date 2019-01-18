@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6f33b9f594404a96553825b04f86e94f2aa6c150
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 86fc5698cd6463c7236ab4f82a2f4f74374d664e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870071"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698427"
 ---
-# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="8d8bf-102">AddNew, méthode – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8d8bf-102">AddNew method example (VBScript)</span></span>
+# <a name="addnew-method-example-vbscript"></a><span data-ttu-id="084a2-102">AddNew, méthode – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="084a2-102">AddNew method example (VBScript)</span></span>
 
 
-<span data-ttu-id="8d8bf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d8bf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="084a2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="084a2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8d8bf-104">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="8d8bf-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="084a2-104">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="084a2-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
-<span data-ttu-id="8d8bf-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AddNewVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur.</span><span class="sxs-lookup"><span data-stu-id="8d8bf-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="084a2-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AddNewVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur.</span><span class="sxs-lookup"><span data-stu-id="084a2-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="8d8bf-p102">Pour mettre cet exemple en pratique, ajoutez un nouvel enregistrement au format HTML. Cliquez sur **Ajouter nouveau**. Pour savoir comment supprimer des enregistrements indésirables, consultez [Delete, méthode - Exemple](delete-method-example-vbscript.md).</span><span class="sxs-lookup"><span data-stu-id="8d8bf-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
+<span data-ttu-id="084a2-p102">Pour mettre cet exemple en pratique, ajoutez un nouvel enregistrement au format HTML. Cliquez sur **Ajouter nouveau**. Pour savoir comment supprimer des enregistrements indésirables, consultez [Delete, méthode - Exemple](delete-method-example-vbscript.md).</span><span class="sxs-lookup"><span data-stu-id="084a2-p102">To exercise the example, add a new record in the HTML form. Click **Add New**. See the [Delete Method Example](delete-method-example-vbscript.md) to remove unwanted records.</span></span>
 
 ```vb
  

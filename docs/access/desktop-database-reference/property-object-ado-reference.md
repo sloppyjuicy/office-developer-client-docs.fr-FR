@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249303(v=office.15)
 ms:contentKeyID: 48545016
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2330d5036a3b8fc96c516b327e70cd0ff2784183
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cb445252bcced6e363c12908daa0178e0e297acd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923678"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720393"
 ---
-# <a name="property-object-ado-reference"></a><span data-ttu-id="2dbaf-102">Référence des propriétés de l’objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="2dbaf-102">Property object (ADO) reference</span></span>
+# <a name="property-object-ado-reference"></a><span data-ttu-id="b9af1-102">Référence des propriétés de l’objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9af1-102">Property object (ADO) reference</span></span>
 
-<span data-ttu-id="2dbaf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2dbaf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9af1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9af1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2dbaf-104">Property, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="2dbaf-104">Property object (ADO)</span></span>](property-object-ado.md)
-- [<span data-ttu-id="2dbaf-105">Propriétés, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="2dbaf-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="b9af1-104">Property, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9af1-104">Property object (ADO)</span></span>](property-object-ado.md)
+- [<span data-ttu-id="b9af1-105">Propriétés, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="b9af1-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
 

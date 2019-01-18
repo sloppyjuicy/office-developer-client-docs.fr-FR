@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn126013(v=office.15)
 ms:contentKeyID: 52074882
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: cb90b55d0d6d07c19511a4fd9487c142ade228a3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6aaba4ab42b32033123cd1723108017dfbedeecf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929670"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716949"
 ---
-# <a name="workspaces-object-reference-dao"></a><span data-ttu-id="d5d37-102">Référence d’objet espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5d37-102">Workspaces object reference (DAO)</span></span>
+# <a name="workspaces-object-reference-dao"></a><span data-ttu-id="3389a-102">Référence d’objet espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="3389a-102">Workspaces object reference (DAO)</span></span>
 
-<span data-ttu-id="d5d37-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5d37-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3389a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3389a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d5d37-104">Collection d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5d37-104">Workspaces collection (DAO)</span></span>](workspaces-collection-dao.md)
-- [<span data-ttu-id="d5d37-105">Membres d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5d37-105">Workspaces members (DAO)</span></span>](workspaces-members-dao.md)
-- [<span data-ttu-id="d5d37-106">Propriétés d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5d37-106">Workspaces properties (DAO)</span></span>](workspaces-properties-dao.md)
-- [<span data-ttu-id="d5d37-107">Méthodes d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="d5d37-107">Workspaces methods (DAO)</span></span>](workspaces-methods-dao.md)
+- [<span data-ttu-id="3389a-104">Collection d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="3389a-104">Workspaces collection (DAO)</span></span>](workspaces-collection-dao.md)
+- [<span data-ttu-id="3389a-105">Membres d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="3389a-105">Workspaces members (DAO)</span></span>](workspaces-members-dao.md)
+- [<span data-ttu-id="3389a-106">Propriétés d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="3389a-106">Workspaces properties (DAO)</span></span>](workspaces-properties-dao.md)
+- [<span data-ttu-id="3389a-107">Méthodes d’espaces de travail (DAO)</span><span class="sxs-lookup"><span data-stu-id="3389a-107">Workspaces methods (DAO)</span></span>](workspaces-methods-dao.md)
 

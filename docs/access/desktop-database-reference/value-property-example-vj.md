@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
 ms:contentKeyID: 48543474
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7117c9d48269ea9ae2eedf7af83aedab01b77d50
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 816d421d4181f78e0e0e83c2b575b330a3625f4e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871947"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722486"
 ---
-# <a name="value-property-example-vj"></a><span data-ttu-id="fec54-102">Value, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="fec54-102">Value property example (VJ++)</span></span>
+# <a name="value-property-example-vj"></a><span data-ttu-id="ff2ca-102">Value, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ff2ca-102">Value property example (VJ++)</span></span>
 
 
-<span data-ttu-id="fec54-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fec54-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ff2ca-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ff2ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fec54-104">Cet exemple illustre la propriété [Value](value-property-ado.md) avec les objets [Field](field-object-ado.md) et [Property](property-object-ado.md) en affichant les valeurs de champ et de propriété de la table ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="fec54-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
+<span data-ttu-id="ff2ca-104">Cet exemple illustre la propriété [Value](value-property-ado.md) avec les objets [Field](field-object-ado.md) et [Property](property-object-ado.md) en affichant les valeurs de champ et de propriété de la table ***Employees***.</span><span class="sxs-lookup"><span data-stu-id="ff2ca-104">This example demonstrates the [Value](value-property-ado.md) property with [Field](field-object-ado.md) and [Property](property-object-ado.md) objects by displaying field and property values for the ***Employees*** table.</span></span>
 
 ```java 
  

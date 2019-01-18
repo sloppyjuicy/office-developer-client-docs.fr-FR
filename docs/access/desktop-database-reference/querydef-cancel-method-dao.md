@@ -10,25 +10,26 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ab28f1b976144c40eb8be639bb7c7a1adc3e4450
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 56a4ba804dba25eb0b4722bcf5396229ee003f43
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920227"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720554"
 ---
-# <a name="querydefcancel-method-dao"></a><span data-ttu-id="f7c87-102">Méthode QueryDef.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7c87-102">QueryDef.Cancel method (DAO)</span></span>
+# <a name="querydefcancel-method-dao"></a><span data-ttu-id="d7dc9-102">Méthode QueryDef.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="d7dc9-102">QueryDef.Cancel method (DAO)</span></span>
 
 
-<span data-ttu-id="f7c87-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7c87-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d7dc9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7dc9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f7c87-104">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f7c87-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d7dc9-104">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d7dc9-104">Syntax</span></span>
 
-<span data-ttu-id="f7c87-105">*expression* . Annuler</span><span class="sxs-lookup"><span data-stu-id="f7c87-105">*expression* .Cancel</span></span>
+<span data-ttu-id="d7dc9-105">*expression* . Annuler</span><span class="sxs-lookup"><span data-stu-id="d7dc9-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="f7c87-106">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="f7c87-106">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="d7dc9-106">*expression* Variable qui représente un objet **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="d7dc9-106">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f7c87-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="f7c87-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d7dc9-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="d7dc9-107">Remarks</span></span>
 
-<span data-ttu-id="f7c87-108">Utilisez la méthode **Cancel** pour mettre fin à l’exécution d’un appel de méthode **Execute** ou **OpenConnection** asynchrone (autrement dit, la méthode a été appelée avec l’option dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="f7c87-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="f7c87-109">**Annuler** renvoie une erreur d’exécution si dbRunAsync n’a pas été utilisé dans la méthode que vous essayez d’interrompre.</span><span class="sxs-lookup"><span data-stu-id="f7c87-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="d7dc9-108">Utilisez la méthode **Cancel** pour mettre fin à l’exécution d’un appel de méthode **Execute** ou **OpenConnection** asynchrone (autrement dit, la méthode a été appelée avec l’option dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="d7dc9-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="d7dc9-109">**Annuler** renvoie une erreur d’exécution si dbRunAsync n’a pas été utilisé dans la méthode que vous essayez d’interrompre.</span><span class="sxs-lookup"><span data-stu-id="d7dc9-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 

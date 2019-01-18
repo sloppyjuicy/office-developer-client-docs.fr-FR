@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
 ms:contentKeyID: 48547461
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 672eb8582f5e412a026be68cd9c56ddd603d2ac0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9a3aa155505e8d6376c0a741f932d59906083965
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889657"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720372"
 ---
-# <a name="item-property-example-vj"></a><span data-ttu-id="58734-102">Item, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="58734-102">Item property example (VJ++)</span></span>
+# <a name="item-property-example-vj"></a><span data-ttu-id="6588b-102">Item, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6588b-102">Item property example (VJ++)</span></span>
 
 
-<span data-ttu-id="58734-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58734-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6588b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6588b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58734-p101">Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  \*\*\*Pubs \*\*\* avec une commande paramétrée.</span><span class="sxs-lookup"><span data-stu-id="58734-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
+<span data-ttu-id="6588b-p101">Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  \*\*\*Pubs \*\*\* avec une commande paramétrée.</span><span class="sxs-lookup"><span data-stu-id="6588b-p101">This example demonstrates how the [Item](item-property-ado.md) property accesses members of a collection. The example opens the ***Authors*** table of the ***Pubs*** database with a parameterized command.</span></span>
 
-<span data-ttu-id="58734-p102">Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](command-object-ado.md) de l'objet [Command](parameters-collection-ado.md) par index et par nom. Les champs de l'objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.</span><span class="sxs-lookup"><span data-stu-id="58734-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
+<span data-ttu-id="6588b-p102">Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](command-object-ado.md) de l'objet [Command](parameters-collection-ado.md) par index et par nom. Les champs de l'objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.</span><span class="sxs-lookup"><span data-stu-id="6588b-p102">The parameter in the command issued against the database is accessed from the [Command](command-object-ado.md) object's [Parameters](parameters-collection-ado.md) collection by index and name. Then the fields of the returned [Recordset](recordset-object-ado.md) are accessed from that object's [Fields](fields-collection-ado.md) collection by index and name.</span></span>
 
 ```java 
  

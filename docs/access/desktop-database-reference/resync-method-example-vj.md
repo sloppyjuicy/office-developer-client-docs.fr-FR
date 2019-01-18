@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250261(v=office.15)
 ms:contentKeyID: 48548780
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ff006cb92bea0d82a84dbe062b3f29509a517c58
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1cd3d1bec0848255179d37af481e57685ff5322c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885422"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720870"
 ---
-# <a name="resync-method-example-vj"></a><span data-ttu-id="439c5-102">Resync, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="439c5-102">Resync method example (VJ++)</span></span>
+# <a name="resync-method-example-vj"></a><span data-ttu-id="aa9d3-102">Resync, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="aa9d3-102">Resync method example (VJ++)</span></span>
 
 
-<span data-ttu-id="439c5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="439c5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aa9d3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa9d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="439c5-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="439c5-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="aa9d3-104">Cet exemple montre comment utiliser la méthode [Resync](resync-method-ado.md) pour actualiser les données d'un jeu d'enregistrements statique.</span><span class="sxs-lookup"><span data-stu-id="aa9d3-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```java 
  

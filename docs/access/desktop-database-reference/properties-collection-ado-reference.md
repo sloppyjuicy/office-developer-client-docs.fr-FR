@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249684(v=office.15)
 ms:contentKeyID: 48546497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 557e1337b8743ad8ca80841225cb6216c0e3d190
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8efca4f18f68cbbf14beeea11c4f395afd12621f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947286"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700429"
 ---
-# <a name="properties-collection-ado-reference"></a><span data-ttu-id="b062c-102">Référence des propriétés de collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="b062c-102">Properties collection (ADO) reference</span></span>
+# <a name="properties-collection-ado-reference"></a><span data-ttu-id="9cb34-102">Référence des propriétés de collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="9cb34-102">Properties collection (ADO) reference</span></span>
 
-<span data-ttu-id="b062c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b062c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9cb34-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cb34-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b062c-104">Properties, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="b062c-104">Properties collection (ADO)</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="b062c-105">Collection-propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="b062c-105">Properties collection properties, methods, and events</span></span>](properties-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="9cb34-104">Properties, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="9cb34-104">Properties collection (ADO)</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="9cb34-105">Collection-propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="9cb34-105">Properties collection properties, methods, and events</span></span>](properties-collection-properties-methods-and-events.md)
 

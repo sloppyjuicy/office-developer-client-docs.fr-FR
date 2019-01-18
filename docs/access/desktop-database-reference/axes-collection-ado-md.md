@@ -6,35 +6,36 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
 ms:contentKeyID: 48545836
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7e7c9b82a1613f9f3d17a1da3e637f9f9382693
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8183b0bad1dcbaba33088dffcf21959f5b9fd993
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944339"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721478"
 ---
-# <a name="axes-collection-ado-md"></a><span data-ttu-id="75563-102">Axes, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="75563-102">Axes collection (ADO MD)</span></span>
+# <a name="axes-collection-ado-md"></a><span data-ttu-id="70710-102">Axes, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="70710-102">Axes collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="75563-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75563-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="70710-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70710-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="75563-104">Contient les objets [Axis](axis-object-ado-md.md) qui définissent un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="75563-104">Contains the [Axis](axis-object-ado-md.md) objects that define a cellset.</span></span>
+<span data-ttu-id="70710-104">Contient les objets [Axis](axis-object-ado-md.md) qui définissent un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="70710-104">Contains the [Axis](axis-object-ado-md.md) objects that define a cellset.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="75563-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="75563-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="70710-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="70710-105">Remarks</span></span>
 
-<span data-ttu-id="75563-p101">Un objet [Cellset](cellset-object-ado-md.md) contient une collection **Axes**. Une fois l' **ensemble de cellules** ouvert, cette collection renferme au moins un **axe**. Reportez-vous à la rubrique consacrée à l'objet [Axis](axis-object-ado-md.md) pour une explication plus détaillée de l'utilisation des objets **Axis**.</span><span class="sxs-lookup"><span data-stu-id="75563-p101">A [Cellset](cellset-object-ado-md.md) object contains an **Axes** collection. Once the **Cellset** is opened, this collection will contain at least one **Axis**. See the [Axis](axis-object-ado-md.md) object for a more detailed explanation of how to use **Axis** objects.</span></span>
+<span data-ttu-id="70710-p101">Un objet [Cellset](cellset-object-ado-md.md) contient une collection **Axes**. Une fois l' **ensemble de cellules** ouvert, cette collection renferme au moins un **axe**. Reportez-vous à la rubrique consacrée à l'objet [Axis](axis-object-ado-md.md) pour une explication plus détaillée de l'utilisation des objets **Axis**.</span><span class="sxs-lookup"><span data-stu-id="70710-p101">A [Cellset](cellset-object-ado-md.md) object contains an **Axes** collection. Once the **Cellset** is opened, this collection will contain at least one **Axis**. See the [Axis](axis-object-ado-md.md) object for a more detailed explanation of how to use **Axis** objects.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="75563-p102">[!REMARQUE] L'axe de filtrage d'un **ensemble de cellules** ne figure pas dans la collection **Axes**. Reportez-vous à la rubrique consacrée à la propriété [FilterAxis](filteraxis-property-ado-md.md) pour plus d'informations.</span><span class="sxs-lookup"><span data-stu-id="75563-p102">The filter axis of a **Cellset** is not contained in the **Axes** collection. See the [FilterAxis](filteraxis-property-ado-md.md) property for more information.</span></span>
+> <span data-ttu-id="70710-p102">[!REMARQUE] L'axe de filtrage d'un **ensemble de cellules** ne figure pas dans la collection **Axes**. Reportez-vous à la rubrique consacrée à la propriété [FilterAxis](filteraxis-property-ado-md.md) pour plus d'informations.</span><span class="sxs-lookup"><span data-stu-id="70710-p102">The filter axis of a **Cellset** is not contained in the **Axes** collection. See the [FilterAxis](filteraxis-property-ado-md.md) property for more information.</span></span>
 
 
 
-<span data-ttu-id="75563-p103">**Axes** est une collection ADO standard. Avec les propriétés et méthodes d'une collection, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="75563-p103">**Axes** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="70710-p103">**Axes** est une collection ADO standard. Avec les propriétés et méthodes d'une collection, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="70710-p103">**Axes** is a standard ADO collection. With the properties and methods of a collection, you can do the following:</span></span>
 
-- <span data-ttu-id="75563-113">Obtenir le nombre d'objets d'une collection à l'aide de la propriété [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="75563-113">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+- <span data-ttu-id="70710-113">Obtenir le nombre d'objets d'une collection à l'aide de la propriété [Count](count-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="70710-113">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="75563-114">Renvoyer un objet de la collection à l'aide de la propriété [Item](item-property-ado.md) par défaut.</span><span class="sxs-lookup"><span data-stu-id="75563-114">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+- <span data-ttu-id="70710-114">Renvoyer un objet de la collection à l'aide de la propriété [Item](item-property-ado.md) par défaut.</span><span class="sxs-lookup"><span data-stu-id="70710-114">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="75563-115">Mettre à jour les objets de la collection à partir du fournisseur à l'aide de la méthode [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="75563-115">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+- <span data-ttu-id="70710-115">Mettre à jour les objets de la collection à partir du fournisseur à l'aide de la méthode [Refresh](refresh-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="70710-115">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

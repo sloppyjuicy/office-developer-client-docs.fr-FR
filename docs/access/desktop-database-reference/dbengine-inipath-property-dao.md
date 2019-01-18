@@ -10,33 +10,34 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd744f10d212d8ff0f7c78ca72781869ccdcd57e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f14f9f2d028bb8a9a8e71bc9d7b97ea5672466f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928760"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717628"
 ---
-# <a name="dbengineinipath-property-dao"></a><span data-ttu-id="905a8-102">Propriété DBEngine.IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="905a8-102">DBEngine.IniPath property (DAO)</span></span>
+# <a name="dbengineinipath-property-dao"></a><span data-ttu-id="e07d0-102">Propriété DBEngine.IniPath (DAO)</span><span class="sxs-lookup"><span data-stu-id="e07d0-102">DBEngine.IniPath property (DAO)</span></span>
 
 
-<span data-ttu-id="905a8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="905a8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e07d0-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e07d0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="905a8-104">Définit ou renvoie des informations sur la clé du Registre Windows contenant les valeurs relatives au moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="905a8-104">Sets or returns information about the Windows Registry key that contains values for the Microsoft Access database engine (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="e07d0-104">Définit ou renvoie des informations sur la clé du Registre Windows contenant les valeurs relatives au moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="e07d0-104">Sets or returns information about the Windows Registry key that contains values for the Microsoft Access database engine (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="905a8-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="905a8-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e07d0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e07d0-105">Syntax</span></span>
 
-<span data-ttu-id="905a8-106">*expression* . IniPath</span><span class="sxs-lookup"><span data-stu-id="905a8-106">*expression* .IniPath</span></span>
+<span data-ttu-id="e07d0-106">*expression* . IniPath</span><span class="sxs-lookup"><span data-stu-id="e07d0-106">*expression* .IniPath</span></span>
 
-<span data-ttu-id="905a8-107">*expression* Variable qui représente un objet **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="905a8-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="e07d0-107">*expression* Variable qui représente un objet **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="e07d0-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="905a8-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="905a8-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e07d0-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="e07d0-108">Remarks</span></span>
 
-<span data-ttu-id="905a8-p101">Vous pouvez configurer le moteur de base de données Microsoft Access avec le Registre Windows. Ce dernier permet de définir des options comme les DLL ISAM installables.</span><span class="sxs-lookup"><span data-stu-id="905a8-p101">You can configure the Microsoft Access databse engine with the Windows Registry. You can use the Registry to set options, such as installable ISAM DLLs.</span></span>
+<span data-ttu-id="e07d0-109">Vous pouvez configurer le moteur de base de données Microsoft Access dans le Registre Windows.</span><span class="sxs-lookup"><span data-stu-id="e07d0-109">You can configure the Microsoft Access database engine with the Windows Registry.</span></span> <span data-ttu-id="e07d0-110">Ce dernier permet de définir des options comme les DLL ISAM installables.</span><span class="sxs-lookup"><span data-stu-id="e07d0-110">You can use the Registry to set options, such as installable ISAM DLLs.</span></span>
 
-<span data-ttu-id="905a8-p102">Pour que cette option soit efficace, vous devez définir la propriété **IniPath** avant que votre application n'invoque un autre code DAO. L'étendue de ce paramètre est limitée à votre application et ne peut pas être modifiée sans redémarrer votre application.</span><span class="sxs-lookup"><span data-stu-id="905a8-p102">For this option to have any effect, you must set the **IniPath** property before your application invokes any other DAO code. The scope of this setting is limited to your application and can't be changed without restarting your application.</span></span>
+<span data-ttu-id="e07d0-p102">Pour que cette option soit efficace, vous devez définir la propriété **IniPath** avant que votre application n'invoque un autre code DAO. L'étendue de ce paramètre est limitée à votre application et ne peut pas être modifiée sans redémarrer votre application.</span><span class="sxs-lookup"><span data-stu-id="e07d0-p102">For this option to have any effect, you must set the **IniPath** property before your application invokes any other DAO code. The scope of this setting is limited to your application and can't be changed without restarting your application.</span></span>
 
-<span data-ttu-id="905a8-p103">Le Registre permet de fournir des paramètres d'initialisation pour certains pilotes de base de données ISAM installables. Par exemple, pour utiliser Paradox version 4.0, définissez la propriété **IniPath** sur une partie du Registre qui contient les paramètres appropriés.</span><span class="sxs-lookup"><span data-stu-id="905a8-p103">You also use the Registry to provide initialization parameters for some installable ISAM database drivers. For example, to use Paradox version 4.0, set the **IniPath** property to a part of the Registry containing the appropriate parameters.</span></span>
+<span data-ttu-id="e07d0-p103">Le Registre permet de fournir des paramètres d'initialisation pour certains pilotes de base de données ISAM installables. Par exemple, pour utiliser Paradox version 4.0, définissez la propriété **IniPath** sur une partie du Registre qui contient les paramètres appropriés.</span><span class="sxs-lookup"><span data-stu-id="e07d0-p103">You also use the Registry to provide initialization parameters for some installable ISAM database drivers. For example, to use Paradox version 4.0, set the **IniPath** property to a part of the Registry containing the appropriate parameters.</span></span>
 
-<span data-ttu-id="905a8-115">Cette propriété reconnaît soit HKEY\_LOCAL\_MACHINE ou HKEY\_LOCAL\_utilisateur.</span><span class="sxs-lookup"><span data-stu-id="905a8-115">This property recognizes either HKEY\_LOCAL\_MACHINE or HKEY\_LOCAL\_USER.</span></span> <span data-ttu-id="905a8-116">Si aucune clé racine n’est fourni, la valeur par défaut est HKEY\_LOCAL\_MACHINE.</span><span class="sxs-lookup"><span data-stu-id="905a8-116">If no root key is supplied, the default is HKEY\_LOCAL\_MACHINE.</span></span>
+<span data-ttu-id="e07d0-115">Cette propriété reconnaît soit HKEY\_LOCAL\_MACHINE ou HKEY\_LOCAL\_utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e07d0-115">This property recognizes either HKEY\_LOCAL\_MACHINE or HKEY\_LOCAL\_USER.</span></span> <span data-ttu-id="e07d0-116">Si aucune clé racine n’est fourni, la valeur par défaut est HKEY\_LOCAL\_MACHINE.</span><span class="sxs-lookup"><span data-stu-id="e07d0-116">If no root key is supplied, the default is HKEY\_LOCAL\_MACHINE.</span></span>
 

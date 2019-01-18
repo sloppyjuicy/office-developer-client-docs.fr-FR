@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821031(v=office.15)
 ms:contentKeyID: 48546785
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f5a9e7935e41b7bf237f0ef725dd3e0686f5f00
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a8deafd97e789d3d12b42fc716d38327c03e2ab0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921011"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722423"
 ---
-# <a name="field2properties-property-dao"></a><span data-ttu-id="aa28f-102">Propriété Field2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="aa28f-102">Field2.Properties property (DAO)</span></span>
+# <a name="field2properties-property-dao"></a><span data-ttu-id="be730-102">Propriété Field2.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="be730-102">Field2.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="aa28f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa28f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="be730-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be730-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aa28f-p101">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="aa28f-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
+<span data-ttu-id="be730-p101">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="be730-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="aa28f-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="aa28f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="be730-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="be730-106">Syntax</span></span>
 
-<span data-ttu-id="aa28f-107">*expression* . Propriétés</span><span class="sxs-lookup"><span data-stu-id="aa28f-107">*expression* .Properties</span></span>
+<span data-ttu-id="be730-107">*expression* . Propriétés</span><span class="sxs-lookup"><span data-stu-id="be730-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="aa28f-108">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="aa28f-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="be730-108">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="be730-108">*expression* A variable that represents a **Field2** object.</span></span>
 

@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125813(v=office.15)
 ms:contentKeyID: 52074685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c95759a6d0d8ba1d9039a68707e1d12a76f1e718
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 05b92b6f38c9f97bcf49075a7d0f7df14084211a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936181"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718335"
 ---
-# <a name="document-methods-dao"></a><span data-ttu-id="607bd-102">Méthodes de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="607bd-102">Document methods (DAO)</span></span>
+# <a name="document-methods-dao"></a><span data-ttu-id="7ddb5-102">Méthodes de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ddb5-102">Document methods (DAO)</span></span>
 
 
-<span data-ttu-id="607bd-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="607bd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ddb5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ddb5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="607bd-104">Méthode Document.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="607bd-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
+- [<span data-ttu-id="7ddb5-104">Méthode Document.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ddb5-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
 
