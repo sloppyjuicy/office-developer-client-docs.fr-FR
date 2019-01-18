@@ -10,29 +10,30 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 91669b054cf9075375c4a5457086adc45ba43c70
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e3ff893a16e650fe7eb49b647ae8d67374375a0d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925904"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701927"
 ---
-# <a name="dbenginelogintimeout-property-dao"></a><span data-ttu-id="22ea0-102">Propriété DBEngine.LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="22ea0-102">DBEngine.LoginTimeout property (DAO)</span></span>
+# <a name="dbenginelogintimeout-property-dao"></a><span data-ttu-id="a5388-102">Propriété DBEngine.LoginTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="a5388-102">DBEngine.LoginTimeout property (DAO)</span></span>
 
 
-<span data-ttu-id="22ea0-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22ea0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a5388-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a5388-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22ea0-104">Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="22ea0-104">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span>
+<span data-ttu-id="a5388-104">Définit ou renvoie le nombre de secondes devant s'écouler avant l'apparition d'une erreur lorsque vous essayez de vous connecter à une base de données ODBC.</span><span class="sxs-lookup"><span data-stu-id="a5388-104">Sets or returns the number of seconds before an error occurs when you attempt to log on to an ODBC database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="22ea0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="22ea0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5388-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a5388-105">Syntax</span></span>
 
-<span data-ttu-id="22ea0-106">*expression* . LoginTimeout</span><span class="sxs-lookup"><span data-stu-id="22ea0-106">*expression* .LoginTimeout</span></span>
+<span data-ttu-id="a5388-106">*expression* . LoginTimeout</span><span class="sxs-lookup"><span data-stu-id="a5388-106">*expression* .LoginTimeout</span></span>
 
-<span data-ttu-id="22ea0-107">*expression* Variable qui représente un objet **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="22ea0-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="a5388-107">*expression* Variable qui représente un objet **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="a5388-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="22ea0-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="22ea0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a5388-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="a5388-108">Remarks</span></span>
 
-<span data-ttu-id="22ea0-p101">La valeur de la propriété **LoginTimeout** est de 20 secondes par défaut. Si la propriété **LoginTimeout** a la valeur 0, il n'y a pas de délai imparti pour la connexion.</span><span class="sxs-lookup"><span data-stu-id="22ea0-p101">The default **LoginTimeout** property setting is 20 seconds. When the **LoginTimeout** property is set to 0, no timeout occurs.</span></span>
+<span data-ttu-id="a5388-p101">La valeur de la propriété **LoginTimeout** est de 20 secondes par défaut. Si la propriété **LoginTimeout** a la valeur 0, il n'y a pas de délai imparti pour la connexion.</span><span class="sxs-lookup"><span data-stu-id="a5388-p101">The default **LoginTimeout** property setting is 20 seconds. When the **LoginTimeout** property is set to 0, no timeout occurs.</span></span>
 
-<span data-ttu-id="22ea0-p102">Si vous essayez de vous connecter à une base de données ODBC, comme Microsoft SQL Server, la connexion peut échouer suite à des erreurs réseau ou si le serveur ne fonctionne pas. Plutôt que d'attendre 20 secondes pour vous connecter, vous pouvez spécifier le temps d'attente avant l'apparition d'une erreur. La connexion au serveur s'effectue implicitement parmi une série d'événements, comme l'exécution d'une requête sur une base de données serveur externe.</span><span class="sxs-lookup"><span data-stu-id="22ea0-p102">When you're attempting to log on to an ODBC database, such as Microsoft SQL Server, the connection can fail as a result of network errors or because the server isn't running. Rather than waiting for the default 20 seconds to connect, you can specify how long to wait before raising an error. Logging on to the server happens implicitly as part of a number of different events, such as running a query on an external server database.</span></span>
+<span data-ttu-id="a5388-p102">Si vous essayez de vous connecter à une base de données ODBC, comme Microsoft SQL Server, la connexion peut échouer suite à des erreurs réseau ou si le serveur ne fonctionne pas. Plutôt que d'attendre 20 secondes pour vous connecter, vous pouvez spécifier le temps d'attente avant l'apparition d'une erreur. La connexion au serveur s'effectue implicitement parmi une série d'événements, comme l'exécution d'une requête sur une base de données serveur externe.</span><span class="sxs-lookup"><span data-stu-id="a5388-p102">When you're attempting to log on to an ODBC database, such as Microsoft SQL Server, the connection can fail as a result of network errors or because the server isn't running. Rather than waiting for the default 20 seconds to connect, you can specify how long to wait before raising an error. Logging on to the server happens implicitly as part of a number of different events, such as running a query on an external server database.</span></span>
 

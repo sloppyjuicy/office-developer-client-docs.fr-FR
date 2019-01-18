@@ -6,39 +6,40 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
 ms:contentKeyID: 48544444
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 69c1a25006a0f98963e5e23d9026533b6fe26621
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 62e3ecdc2ab341314902d453ecbf745da4ab4dd3
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943854"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702823"
 ---
-# <a name="field-properties-methods-and-events-ado"></a><span data-ttu-id="cb556-102">Propriétés de champ, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="cb556-102">Field properties, methods, and events (ADO)</span></span>
+# <a name="field-properties-methods-and-events-ado"></a><span data-ttu-id="9b6ae-102">Propriétés de champ, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="9b6ae-102">Field properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="cb556-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb556-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9b6ae-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b6ae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="cb556-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="cb556-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="9b6ae-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="9b6ae-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="cb556-105">ActualSize, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-105">ActualSize property</span></span>](actualsize-property-ado.md)
-- [<span data-ttu-id="cb556-106">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-106">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="cb556-107">DefinedSize, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-107">DefinedSize property</span></span>](definedsize-property-ado.md)
-- [<span data-ttu-id="cb556-108">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-108">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="cb556-109">NumericScale, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-109">NumericScale property</span></span>](numericscale-property-ado.md)
-- [<span data-ttu-id="cb556-110">OriginalValue, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-110">OriginalValue property</span></span>](originalvalue-property-ado.md)
-- [<span data-ttu-id="cb556-111">Precision, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-111">Precision property</span></span>](precision-property-ado.md)
-- [<span data-ttu-id="cb556-112">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="cb556-112">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="cb556-113">Status, propriété (champ ADO)</span><span class="sxs-lookup"><span data-stu-id="cb556-113">Status property (ADO Field)</span></span>](status-property-ado-field.md)
-- [<span data-ttu-id="cb556-114">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-114">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="cb556-115">UnderlyingValue, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-115">UnderlyingValue property</span></span>](underlyingvalue-property-ado.md)
-- [<span data-ttu-id="cb556-116">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="cb556-116">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="9b6ae-105">ActualSize, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-105">ActualSize property</span></span>](actualsize-property-ado.md)
+- [<span data-ttu-id="9b6ae-106">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-106">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="9b6ae-107">DefinedSize, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-107">DefinedSize property</span></span>](definedsize-property-ado.md)
+- [<span data-ttu-id="9b6ae-108">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-108">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="9b6ae-109">NumericScale, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-109">NumericScale property</span></span>](numericscale-property-ado.md)
+- [<span data-ttu-id="9b6ae-110">OriginalValue, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-110">OriginalValue property</span></span>](originalvalue-property-ado.md)
+- [<span data-ttu-id="9b6ae-111">Precision, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-111">Precision property</span></span>](precision-property-ado.md)
+- [<span data-ttu-id="9b6ae-112">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="9b6ae-112">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="9b6ae-113">Status, propriété (champ ADO)</span><span class="sxs-lookup"><span data-stu-id="9b6ae-113">Status property (ADO Field)</span></span>](status-property-ado-field.md)
+- [<span data-ttu-id="9b6ae-114">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-114">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="9b6ae-115">UnderlyingValue, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-115">UnderlyingValue property</span></span>](underlyingvalue-property-ado.md)
+- [<span data-ttu-id="9b6ae-116">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="9b6ae-116">Value property</span></span>](value-property-ado.md)
 
 
-## <a name="methods"></a><span data-ttu-id="cb556-117">Méthodes</span><span class="sxs-lookup"><span data-stu-id="cb556-117">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="9b6ae-117">Méthodes</span><span class="sxs-lookup"><span data-stu-id="9b6ae-117">Methods</span></span>
 
-- [<span data-ttu-id="cb556-118">AppendChunk, méthode</span><span class="sxs-lookup"><span data-stu-id="cb556-118">AppendChunk method</span></span>](appendchunk-method-ado.md)
-- [<span data-ttu-id="cb556-119">GetChunk, méthode</span><span class="sxs-lookup"><span data-stu-id="cb556-119">GetChunk method</span></span>](getchunk-method-ado.md)
+- [<span data-ttu-id="9b6ae-118">AppendChunk, méthode</span><span class="sxs-lookup"><span data-stu-id="9b6ae-118">AppendChunk method</span></span>](appendchunk-method-ado.md)
+- [<span data-ttu-id="9b6ae-119">GetChunk, méthode</span><span class="sxs-lookup"><span data-stu-id="9b6ae-119">GetChunk method</span></span>](getchunk-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="cb556-120">Événements</span><span class="sxs-lookup"><span data-stu-id="cb556-120">Events</span></span>
+## <a name="events"></a><span data-ttu-id="9b6ae-120">Événements</span><span class="sxs-lookup"><span data-stu-id="9b6ae-120">Events</span></span>
 
-<span data-ttu-id="cb556-121">Aucun.</span><span class="sxs-lookup"><span data-stu-id="cb556-121">None.</span></span>
+<span data-ttu-id="9b6ae-121">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9b6ae-121">None.</span></span>
 

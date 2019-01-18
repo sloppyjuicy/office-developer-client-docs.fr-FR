@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249556(v=office.15)
 ms:contentKeyID: 48545950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5bffa139add42eb8037664e824cff4aa03ae21c3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9024d2e226b4b30e2dce3b12e41f87b84127361c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919590"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699617"
 ---
-# <a name="connection-object-ado-reference"></a><span data-ttu-id="1fca1-102">Référence de connexion, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="1fca1-102">Connection object (ADO) reference</span></span>
+# <a name="connection-object-ado-reference"></a><span data-ttu-id="0aad5-102">Référence de connexion, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-102">Connection object (ADO) reference</span></span>
 
-<span data-ttu-id="1fca1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fca1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0aad5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0aad5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1fca1-104">Connection, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="1fca1-104">Connection object (ADO)</span></span>](connection-object-ado.md)
-- [<span data-ttu-id="1fca1-105">Propriétés de connexion, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="1fca1-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="0aad5-104">Connection, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-104">Connection object (ADO)</span></span>](connection-object-ado.md)
+- [<span data-ttu-id="0aad5-105">Propriétés de connexion, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="0aad5-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
 
