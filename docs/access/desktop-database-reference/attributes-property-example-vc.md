@@ -1,24 +1,25 @@
 ---
-title: Attributes, propriété – Exemple (VC++)
+title: Attributes, propriété — Exemple (VC++)
 TOCTitle: Attributes property example (VC++)
 ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6c68c163b08c3d7b2be66e072daa2f3895ffef0e
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891261"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720176"
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="9dad1-102">Attributes, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="9dad1-102">Attributes property example (VC++)</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="4955a-102">Attributes, propriété — Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="4955a-102">Attributes property example (VC++)</span></span>
 
 
-<span data-ttu-id="9dad1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9dad1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4955a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4955a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9dad1-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="9dad1-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="4955a-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="4955a-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -221,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="9dad1-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="9dad1-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="4955a-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="4955a-107">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

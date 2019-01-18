@@ -6,40 +6,41 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c4ea531de8c5b99c9ff85eacddcc79a596caebd5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922040"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721058"
 ---
-# <a name="showallrecords-macro-action"></a><span data-ttu-id="977a2-102">ShowAllRecords, action de macro</span><span class="sxs-lookup"><span data-stu-id="977a2-102">ShowAllRecords macro action</span></span>
+# <a name="showallrecords-macro-action"></a><span data-ttu-id="1d466-102">ShowAllRecords, action de macro</span><span class="sxs-lookup"><span data-stu-id="1d466-102">ShowAllRecords macro action</span></span>
 
 
-<span data-ttu-id="977a2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="977a2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1d466-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d466-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="977a2-104">Vous pouvez utiliser l’action **AfficherTousEnreg** pour supprimer n’importe quel filtre appliqué à la table active, le jeu de résultats de requête ou le formulaire et afficher tous les enregistrements dans l’ensemble de la table ou les résultats ou tous les enregistrements dans la table sous-jacente du formulaire ou de la requête.</span><span class="sxs-lookup"><span data-stu-id="977a2-104">You can use the **ShowAllRecords** action to remove any applied filter from the active table, query result set, or form, and display all records in the table or result set or all records in the form's underlying table or query.</span></span>
+<span data-ttu-id="1d466-104">Vous pouvez utiliser l’action **AfficherTousEnreg** pour supprimer n’importe quel filtre appliqué à la table active, le jeu de résultats de requête ou le formulaire et afficher tous les enregistrements dans l’ensemble de la table ou les résultats ou tous les enregistrements dans la table sous-jacente du formulaire ou de la requête.</span><span class="sxs-lookup"><span data-stu-id="1d466-104">You can use the **ShowAllRecords** action to remove any applied filter from the active table, query result set, or form, and display all records in the table or result set or all records in the form's underlying table or query.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="977a2-105">Paramètre</span><span class="sxs-lookup"><span data-stu-id="977a2-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="1d466-105">Setting</span><span class="sxs-lookup"><span data-stu-id="1d466-105">Setting</span></span>
 
-<span data-ttu-id="977a2-106">L’action **AfficherTousEnreg** ne possède aucun argument.</span><span class="sxs-lookup"><span data-stu-id="977a2-106">The **ShowAllRecords** action doesn't have any arguments.</span></span>
+<span data-ttu-id="1d466-106">L’action **AfficherTousEnreg** ne possède aucun argument.</span><span class="sxs-lookup"><span data-stu-id="1d466-106">The **ShowAllRecords** action doesn't have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="977a2-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="977a2-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d466-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="1d466-107">Remarks</span></span>
 
-<span data-ttu-id="977a2-108">Vous pouvez utiliser cette action pour vous assurer que tous les enregistrements (y compris les enregistrements modifiés ou nouveaux) d’une table, un jeu de résultats de requête ou un formulaire sont affichés.</span><span class="sxs-lookup"><span data-stu-id="977a2-108">You can use this action to ensure that all records (including any changed or new records) are displayed for a table, query result set, or form.</span></span> <span data-ttu-id="977a2-109">Cette action entraîne une actualisation des enregistrements pour un formulaire ou un sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="977a2-109">This action causes a requery of the records for a form or subform.</span></span>
+<span data-ttu-id="1d466-108">Vous pouvez utiliser cette action pour vous assurer que tous les enregistrements (y compris les enregistrements modifiés ou nouveaux) d’une table, un jeu de résultats de requête ou un formulaire sont affichés.</span><span class="sxs-lookup"><span data-stu-id="1d466-108">You can use this action to ensure that all records (including any changed or new records) are displayed for a table, query result set, or form.</span></span> <span data-ttu-id="1d466-109">Cette action entraîne une actualisation des enregistrements pour un formulaire ou un sous-formulaire.</span><span class="sxs-lookup"><span data-stu-id="1d466-109">This action causes a requery of the records for a form or subform.</span></span>
 
-<span data-ttu-id="977a2-110">Vous pouvez également utiliser cette action pour supprimer n’importe quel filtre appliqué avec l’action **AppliquerFiltre** , la commande **filtrer** sous l’onglet **accueil** , ou le **Nom du filtre** ou l’argument **Condition Where** de l’action **OuvrirFormulaire** .</span><span class="sxs-lookup"><span data-stu-id="977a2-110">You can also use this action to remove any filter that was applied with the **ApplyFilter** action, the **Filter** command on the **Home** tab, or the **Filter Name** or **Where Condition** argument of the **OpenForm** action.</span></span>
+<span data-ttu-id="1d466-110">Vous pouvez également utiliser cette action pour supprimer n’importe quel filtre appliqué avec l’action **AppliquerFiltre** , la commande **filtrer** sous l’onglet **accueil** , ou le **Nom du filtre** ou l’argument **Condition Where** de l’action **OuvrirFormulaire** .</span><span class="sxs-lookup"><span data-stu-id="1d466-110">You can also use this action to remove any filter that was applied with the **ApplyFilter** action, the **Filter** command on the **Home** tab, or the **Filter Name** or **Where Condition** argument of the **OpenForm** action.</span></span>
 
-<span data-ttu-id="977a2-111">Cette action a le même effet qu’en cliquant sur **Basculer le filtre** sous l’onglet **accueil** , ou cliquez sur le champ filtré et cliquez sur **Effacer le filtre de...** en mode formulaire, en mode ou mode feuille de données.</span><span class="sxs-lookup"><span data-stu-id="977a2-111">This action has the same effect as clicking **Toggle Filter** on the **Home** tab, or right-clicking the filtered field and clicking **Clear filter from...** in Form view, Layout view, or Datasheet view.</span></span>
+<span data-ttu-id="1d466-111">Cette action a le même effet qu’en cliquant sur **Basculer le filtre** sous l’onglet **accueil** , ou cliquez sur le champ filtré et cliquez sur **Effacer le filtre de...** en mode formulaire, en mode ou mode feuille de données.</span><span class="sxs-lookup"><span data-stu-id="1d466-111">This action has the same effect as clicking **Toggle Filter** on the **Home** tab, or right-clicking the filtered field and clicking **Clear filter from...** in Form view, Layout view, or Datasheet view.</span></span>
 
-<span data-ttu-id="977a2-112">Pour exécuter l’action **AfficherTousEnreg** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ShowAllRecords** de l’objet **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="977a2-112">To run the **ShowAllRecords** action in a Visual Basic for Applications (VBA) module, use the **ShowAllRecords** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="1d466-112">Pour exécuter l’action **AfficherTousEnreg** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ShowAllRecords** de l’objet **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="1d466-112">To run the **ShowAllRecords** action in a Visual Basic for Applications (VBA) module, use the **ShowAllRecords** method of the **DoCmd** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="977a2-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="977a2-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1d466-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="1d466-113">Example</span></span>
 
-<span data-ttu-id="977a2-114">**Appliquer un filtre à l'aide d'une macro**</span><span class="sxs-lookup"><span data-stu-id="977a2-114">**Apply a filter by using a macro**</span></span>
+<span data-ttu-id="1d466-114">**Appliquer un filtre à l'aide d'une macro**</span><span class="sxs-lookup"><span data-stu-id="1d466-114">**Apply a filter by using a macro**</span></span>
 
-<span data-ttu-id="977a2-p102">La macro suivante contient un ensemble d'actions, chacune filtrant les enregistrements d'un formulaire Répertoire téléphonique clients. Elle illustre l'utilisation des actions **AppliquerFiltre**, **AfficherTousEnreg** et **AtteindreContrôle**. Elle montre également l'utilisation de conditions pour déterminer quel bouton bascule d'un groupe d'options a été sélectionné sur le formulaire. Chaque ligne d'action est associée à un bouton bascule qui sélectionne le jeu d'enregistrements commençant par A, B, C, etc., ou tous les enregistrements. Cette macro doit être attachée à l'événement **AprèsMAJ** du groupe d'options FiltresNomsSociétés.</span><span class="sxs-lookup"><span data-stu-id="977a2-p102">The following macro contains a set of actions, each of which filters the records for a Customer Phone List form. It shows the use of the **ApplyFilter**, **ShowAllRecords**, and **GoToControl** actions. It also shows the use of conditions to determine which toggle button in an option group has been selected on the form. Each action row is associated with a toggle button that selects the set of records starting with A, B, C, and so on, or all records. This macro should be attached to the **AfterUpdate** event of the CompanyNameFilter option group.</span></span>
+<span data-ttu-id="1d466-p102">La macro suivante contient un ensemble d'actions, chacune filtrant les enregistrements d'un formulaire Répertoire téléphonique clients. Elle illustre l'utilisation des actions **AppliquerFiltre**, **AfficherTousEnreg** et **AtteindreContrôle**. Elle montre également l'utilisation de conditions pour déterminer quel bouton bascule d'un groupe d'options a été sélectionné sur le formulaire. Chaque ligne d'action est associée à un bouton bascule qui sélectionne le jeu d'enregistrements commençant par A, B, C, etc., ou tous les enregistrements. Cette macro doit être attachée à l'événement **AprèsMAJ** du groupe d'options FiltresNomsSociétés.</span><span class="sxs-lookup"><span data-stu-id="1d466-p102">The following macro contains a set of actions, each of which filters the records for a Customer Phone List form. It shows the use of the **ApplyFilter**, **ShowAllRecords**, and **GoToControl** actions. It also shows the use of conditions to determine which toggle button in an option group has been selected on the form. Each action row is associated with a toggle button that selects the set of records starting with A, B, C, and so on, or all records. This macro should be attached to the **AfterUpdate** event of the CompanyNameFilter option group.</span></span>
 
 <table>
 <colgroup>
@@ -50,54 +51,54 @@ ms.locfileid: "25922040"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="977a2-120">Condition</span><span class="sxs-lookup"><span data-stu-id="977a2-120">Condition</span></span></p></th>
-<th><p><span data-ttu-id="977a2-121">Action</span><span class="sxs-lookup"><span data-stu-id="977a2-121">Action</span></span></p></th>
-<th><p><span data-ttu-id="977a2-122">Arguments : Paramètre</span><span class="sxs-lookup"><span data-stu-id="977a2-122">Arguments: Setting</span></span></p></th>
-<th><p><span data-ttu-id="977a2-123">Commentaire</span><span class="sxs-lookup"><span data-stu-id="977a2-123">Comment</span></span></p></th>
+<th><p><span data-ttu-id="1d466-120">Condition</span><span class="sxs-lookup"><span data-stu-id="1d466-120">Condition</span></span></p></th>
+<th><p><span data-ttu-id="1d466-121">Action</span><span class="sxs-lookup"><span data-stu-id="1d466-121">Action</span></span></p></th>
+<th><p><span data-ttu-id="1d466-122">Arguments : Paramètre</span><span class="sxs-lookup"><span data-stu-id="1d466-122">Arguments: Setting</span></span></p></th>
+<th><p><span data-ttu-id="1d466-123">Commentaire</span><span class="sxs-lookup"><span data-stu-id="1d466-123">Comment</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="977a2-124">[Filtres nom société] = 1</span><span class="sxs-lookup"><span data-stu-id="977a2-124">[Company Name Filters] =1</span></span></p></td>
-<td><p><span data-ttu-id="977a2-125"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-125"><strong>ApplyFilter</strong></span></span></p></td>
-<td><p><span data-ttu-id="977a2-126"><strong>Condition Where</strong>: [nom de société] comme &quot;[AÀÁÂÃÄ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="977a2-126"><strong>Where Condition</strong>: [Company Name] Like &quot;[AÀÁÂÃÄ]\*&quot;</span></span></p></td>
-<td><p><span data-ttu-id="977a2-127">Filtre les noms de sociétés commençant par A, À, Á, Â, Ã ou Ä.</span><span class="sxs-lookup"><span data-stu-id="977a2-127">Filter for company names that start with A, À, Á, Â, Ã, or Ä.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-124">[Filtres nom société] = 1</span><span class="sxs-lookup"><span data-stu-id="1d466-124">[Company Name Filters] =1</span></span></p></td>
+<td><p><span data-ttu-id="1d466-125"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-125"><strong>ApplyFilter</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-126"><strong>Condition Where</strong>: [nom de société] comme &quot;[AÀÁÂÃÄ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="1d466-126"><strong>Where Condition</strong>: [Company Name] Like &quot;[AÀÁÂÃÄ]\*&quot;</span></span></p></td>
+<td><p><span data-ttu-id="1d466-127">Filtre les noms de sociétés commençant par A, À, Á, Â, Ã ou Ä.</span><span class="sxs-lookup"><span data-stu-id="1d466-127">Filter for company names that start with A, À, Á, Â, Ã, or Ä.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="977a2-128">[Filtres nom société] = 2</span><span class="sxs-lookup"><span data-stu-id="977a2-128">[Company Name Filters] =2</span></span></p></td>
-<td><p><span data-ttu-id="977a2-129"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-129"><strong>ApplyFilter</strong></span></span></p></td>
-<td><p><span data-ttu-id="977a2-130"><strong>Condition Where</strong>: [nom de société] comme &quot;B \*&quot;</span><span class="sxs-lookup"><span data-stu-id="977a2-130"><strong>Where Condition</strong>: [Company Name] Like &quot;B\*&quot;</span></span></p></td>
-<td><p><span data-ttu-id="977a2-131">Filtre les noms de sociétés commençant par B.</span><span class="sxs-lookup"><span data-stu-id="977a2-131">Filter for company names that start with B.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-128">[Filtres nom société] = 2</span><span class="sxs-lookup"><span data-stu-id="1d466-128">[Company Name Filters] =2</span></span></p></td>
+<td><p><span data-ttu-id="1d466-129"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-129"><strong>ApplyFilter</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-130"><strong>Condition Where</strong>: [nom de société] comme &quot;B \*&quot;</span><span class="sxs-lookup"><span data-stu-id="1d466-130"><strong>Where Condition</strong>: [Company Name] Like &quot;B\*&quot;</span></span></p></td>
+<td><p><span data-ttu-id="1d466-131">Filtre les noms de sociétés commençant par B.</span><span class="sxs-lookup"><span data-stu-id="1d466-131">Filter for company names that start with B.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="977a2-132">[Filtres nom société] = 3</span><span class="sxs-lookup"><span data-stu-id="977a2-132">[Company Name Filters] =3</span></span></p></td>
-<td><p><span data-ttu-id="977a2-133"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-133"><strong>ApplyFilter</strong></span></span></p></td>
-<td><p><span data-ttu-id="977a2-134"><strong>Condition Where</strong>: [nom de société] comme &quot;[CÇ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="977a2-134"><strong>Where Condition</strong>: [Company Name] Like &quot;[CÇ]\*&quot;</span></span></p></td>
-<td><p><span data-ttu-id="977a2-135">Filtre les noms de sociétés commençant par C ou Ç.</span><span class="sxs-lookup"><span data-stu-id="977a2-135">Filter for company names that start with C or Ç.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-132">[Filtres nom société] = 3</span><span class="sxs-lookup"><span data-stu-id="1d466-132">[Company Name Filters] =3</span></span></p></td>
+<td><p><span data-ttu-id="1d466-133"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-133"><strong>ApplyFilter</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-134"><strong>Condition Where</strong>: [nom de société] comme &quot;[CÇ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="1d466-134"><strong>Where Condition</strong>: [Company Name] Like &quot;[CÇ]\*&quot;</span></span></p></td>
+<td><p><span data-ttu-id="1d466-135">Filtre les noms de sociétés commençant par C ou Ç.</span><span class="sxs-lookup"><span data-stu-id="1d466-135">Filter for company names that start with C or Ç.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="977a2-136">... Les lignes d’action pour les lettres D à Y ont le même format que pour les lettres A à C ...</span><span class="sxs-lookup"><span data-stu-id="977a2-136">... Action rows for D through Y have the same format as A through C ...</span></span></p></td>
+<td><p><span data-ttu-id="1d466-136">... Les lignes d’action pour les lettres D à Y ont le même format que pour les lettres A à C ...</span><span class="sxs-lookup"><span data-stu-id="1d466-136">... Action rows for D through Y have the same format as A through C ...</span></span></p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="977a2-137">[Filtres nom société] = 26</span><span class="sxs-lookup"><span data-stu-id="977a2-137">[Company Name Filters] =26</span></span></p></td>
-<td><p><span data-ttu-id="977a2-138"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-138"><strong>ApplyFilter</strong></span></span></p></td>
-<td><p><span data-ttu-id="977a2-139"><strong>Condition Where</strong>: [nom de société] comme &quot;[ZÆØÅ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="977a2-139"><strong>Where Condition</strong>: [Company Name] Like &quot;[ZÆØÅ]\*&quot;</span></span></p></td>
-<td><p><span data-ttu-id="977a2-140">Filtre les noms de sociétés commençant par Z, Æ, Ø ou Å.</span><span class="sxs-lookup"><span data-stu-id="977a2-140">Filter for company names that start with Z, Æ, Ø, or Å.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-137">[Filtres nom société] = 26</span><span class="sxs-lookup"><span data-stu-id="1d466-137">[Company Name Filters] =26</span></span></p></td>
+<td><p><span data-ttu-id="1d466-138"><strong>ApplyFilter</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-138"><strong>ApplyFilter</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-139"><strong>Condition Where</strong>: [nom de société] comme &quot;[ZÆØÅ] \*&quot;</span><span class="sxs-lookup"><span data-stu-id="1d466-139"><strong>Where Condition</strong>: [Company Name] Like &quot;[ZÆØÅ]\*&quot;</span></span></p></td>
+<td><p><span data-ttu-id="1d466-140">Filtre les noms de sociétés commençant par Z, Æ, Ø ou Å.</span><span class="sxs-lookup"><span data-stu-id="1d466-140">Filter for company names that start with Z, Æ, Ø, or Å.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="977a2-141">[Filtres nom société] = 27</span><span class="sxs-lookup"><span data-stu-id="977a2-141">[Company Name Filters] =27</span></span></p></td>
-<td><p><span data-ttu-id="977a2-142"><strong>ShowAllRecords</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-142"><strong>ShowAllRecords</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-141">[Filtres nom société] = 27</span><span class="sxs-lookup"><span data-stu-id="1d466-141">[Company Name Filters] =27</span></span></p></td>
+<td><p><span data-ttu-id="1d466-142"><strong>ShowAllRecords</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-142"><strong>ShowAllRecords</strong></span></span></p></td>
 <td><p></p></td>
-<td><p><span data-ttu-id="977a2-143">Affiche tous les enregistrements</span><span class="sxs-lookup"><span data-stu-id="977a2-143">Show all records.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-143">Affiche tous les enregistrements</span><span class="sxs-lookup"><span data-stu-id="1d466-143">Show all records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="977a2-144">[RecordsetClone]. [RecordCount] &gt;0</span><span class="sxs-lookup"><span data-stu-id="977a2-144">[RecordsetClone].[RecordCount]&gt;0</span></span></p></td>
-<td><p><span data-ttu-id="977a2-145"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="977a2-145"><strong>GoToControl</strong></span></span></p></td>
-<td><p><span data-ttu-id="977a2-146"><strong>Nom du contrôle</strong>: NomSociété</span><span class="sxs-lookup"><span data-stu-id="977a2-146"><strong>Control Name</strong>: CompanyName</span></span></p></td>
-<td><p><span data-ttu-id="977a2-147">Si des enregistrements sont renvoyés pour la lettre sélectionnée, déplace le focus sur le contrôle NomSociété.</span><span class="sxs-lookup"><span data-stu-id="977a2-147">If records are returned for the selected letter, move focus to the CompanyName control.</span></span></p></td>
+<td><p><span data-ttu-id="1d466-144">[RecordsetClone]. [RecordCount] &gt;0</span><span class="sxs-lookup"><span data-stu-id="1d466-144">[RecordsetClone].[RecordCount]&gt;0</span></span></p></td>
+<td><p><span data-ttu-id="1d466-145"><strong>GoToControl</strong></span><span class="sxs-lookup"><span data-stu-id="1d466-145"><strong>GoToControl</strong></span></span></p></td>
+<td><p><span data-ttu-id="1d466-146"><strong>Nom du contrôle</strong>: NomSociété</span><span class="sxs-lookup"><span data-stu-id="1d466-146"><strong>Control Name</strong>: CompanyName</span></span></p></td>
+<td><p><span data-ttu-id="1d466-147">Si des enregistrements sont renvoyés pour la lettre sélectionnée, déplace le focus sur le contrôle NomSociété.</span><span class="sxs-lookup"><span data-stu-id="1d466-147">If records are returned for the selected letter, move focus to the CompanyName control.</span></span></p></td>
 </tr>
 </tbody>
 </table>

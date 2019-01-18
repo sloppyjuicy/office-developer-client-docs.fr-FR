@@ -6,16 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0323ba7adb617bd68ed5c97098c93be9f990ac70
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910928"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716221"
 ---
-# <a name="ado-md-properties"></a><span data-ttu-id="1491b-102">Propriétés ADO MD</span><span class="sxs-lookup"><span data-stu-id="1491b-102">ADO MD properties</span></span>
+# <a name="ado-md-properties"></a><span data-ttu-id="62d60-102">Propriétés ADO MD</span><span class="sxs-lookup"><span data-stu-id="62d60-102">ADO MD properties</span></span>
 
-<span data-ttu-id="1491b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1491b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="62d60-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62d60-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -26,108 +27,108 @@ ms.locfileid: "25910928"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="1491b-104">Propriété</span><span class="sxs-lookup"><span data-stu-id="1491b-104">Property</span></span></th>
-<th><span data-ttu-id="1491b-105">Description</span><span class="sxs-lookup"><span data-stu-id="1491b-105">Description</span></span></th>
+<th><span data-ttu-id="62d60-104">Propriété</span><span class="sxs-lookup"><span data-stu-id="62d60-104">Property</span></span></th>
+<th><span data-ttu-id="62d60-105">Description</span><span class="sxs-lookup"><span data-stu-id="62d60-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span><span class="sxs-lookup"><span data-stu-id="1491b-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-107">Indique à quel objet <strong>Connection</strong> ADO l'ensemble de cellules ou le catalogue actif appartient actuellement.</span><span class="sxs-lookup"><span data-stu-id="1491b-107">Indicates to which ADO <strong>Connection</strong> object the current cellset or catalog currently belongs.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span><span class="sxs-lookup"><span data-stu-id="62d60-106"><a href="activeconnection-property-ado-md.md">ActiveConnection</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-107">Indique à quel objet <strong>Connection</strong> ADO l'ensemble de cellules ou le catalogue actif appartient actuellement.</span><span class="sxs-lookup"><span data-stu-id="62d60-107">Indicates to which ADO <strong>Connection</strong> object the current cellset or catalog currently belongs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-108"><a href="caption-property-ado-md.md">Caption</a></span><span class="sxs-lookup"><span data-stu-id="1491b-108"><a href="caption-property-ado-md.md">Caption</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-109">Indique la légende de texte à utiliser lors de l'affichage d'un objet <strong>Level</strong> ou <strong>Member</strong>.</span><span class="sxs-lookup"><span data-stu-id="1491b-109">Indicates the text caption to use when displaying a <strong>Level</strong> or <strong>Member</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-108"><a href="caption-property-ado-md.md">Caption</a></span><span class="sxs-lookup"><span data-stu-id="62d60-108"><a href="caption-property-ado-md.md">Caption</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-109">Indique la légende de texte à utiliser lors de l'affichage d'un objet <strong>Level</strong> ou <strong>Member</strong>.</span><span class="sxs-lookup"><span data-stu-id="62d60-109">Indicates the text caption to use when displaying a <strong>Level</strong> or <strong>Member</strong> object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-110"><a href="childcount-property-ado-md.md">ChildCount</a></span><span class="sxs-lookup"><span data-stu-id="1491b-110"><a href="childcount-property-ado-md.md">ChildCount</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-111">Indique le nombre de membres dont l'objet <strong>Member</strong> actif est le parent dans une hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="1491b-111">Indicates the number of members for which the current <strong>Member</strong> object is the parent in a hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-110"><a href="childcount-property-ado-md.md">ChildCount</a></span><span class="sxs-lookup"><span data-stu-id="62d60-110"><a href="childcount-property-ado-md.md">ChildCount</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-111">Indique le nombre de membres dont l'objet <strong>Member</strong> actif est le parent dans une hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="62d60-111">Indicates the number of members for which the current <strong>Member</strong> object is the parent in a hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-112"><a href="children-property-ado-md.md">Enfants</a></span><span class="sxs-lookup"><span data-stu-id="1491b-112"><a href="children-property-ado-md.md">Children</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-113">Renvoie une collection d'objets <strong>Member</strong> dont l'objet <strong>Member</strong> actif est le parent dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="1491b-113">Returns a collection of <strong>Members</strong> for which the current <strong>Member</strong> is the parent in the hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-112"><a href="children-property-ado-md.md">Enfants</a></span><span class="sxs-lookup"><span data-stu-id="62d60-112"><a href="children-property-ado-md.md">Children</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-113">Renvoie une collection d'objets <strong>Member</strong> dont l'objet <strong>Member</strong> actif est le parent dans la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="62d60-113">Returns a collection of <strong>Members</strong> for which the current <strong>Member</strong> is the parent in the hierarchy.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-114"><a href="count-property-ado.md">Count</a></span><span class="sxs-lookup"><span data-stu-id="1491b-114"><a href="count-property-ado.md">Count</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-115">Indique le nombre d'objets d'une collection.</span><span class="sxs-lookup"><span data-stu-id="1491b-115">Indicates the number of objects in a collection.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-114"><a href="count-property-ado.md">Count</a></span><span class="sxs-lookup"><span data-stu-id="62d60-114"><a href="count-property-ado.md">Count</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-115">Indique le nombre d'objets d'une collection.</span><span class="sxs-lookup"><span data-stu-id="62d60-115">Indicates the number of objects in a collection.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-116"><a href="depth-property-ado-md.md">Depth</a></span><span class="sxs-lookup"><span data-stu-id="1491b-116"><a href="depth-property-ado-md.md">Depth</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-117">Indique le nombre de niveaux entre l'objet <strong>Level</strong> et la racine de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="1491b-117">Indicates the number of levels between the <strong>Level</strong> and the root of the hierarchy level.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-116"><a href="depth-property-ado-md.md">Depth</a></span><span class="sxs-lookup"><span data-stu-id="62d60-116"><a href="depth-property-ado-md.md">Depth</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-117">Indique le nombre de niveaux entre l'objet <strong>Level</strong> et la racine de la hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="62d60-117">Indicates the number of levels between the <strong>Level</strong> and the root of the hierarchy level.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-118"><a href="description-property-ado-md.md">Description</a></span><span class="sxs-lookup"><span data-stu-id="1491b-118"><a href="description-property-ado-md.md">Description</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-119">Retourne une explication textuelle de l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="1491b-119">Returns a text explanation of the current object.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-118"><a href="description-property-ado-md.md">Description</a></span><span class="sxs-lookup"><span data-stu-id="62d60-118"><a href="description-property-ado-md.md">Description</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-119">Retourne une explication textuelle de l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="62d60-119">Returns a text explanation of the current object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span><span class="sxs-lookup"><span data-stu-id="1491b-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-121">Indique le nombre de dimensions sur un axe.</span><span class="sxs-lookup"><span data-stu-id="1491b-121">Indicates the number of dimensions on an axis.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span><span class="sxs-lookup"><span data-stu-id="62d60-120"><a href="dimensioncount-property-ado-md.md">DimensionCount</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-121">Indique le nombre de dimensions sur un axe.</span><span class="sxs-lookup"><span data-stu-id="62d60-121">Indicates the number of dimensions on an axis.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span><span class="sxs-lookup"><span data-stu-id="1491b-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-123">Indique si aucun enfant ne suit immédiatement le membre sur un axe.</span><span class="sxs-lookup"><span data-stu-id="1491b-123">Indicates whether no children immediately follow the member on the axis.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span><span class="sxs-lookup"><span data-stu-id="62d60-122"><a href="drilleddown-property-ado-md.md">DrilledDown</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-123">Indique si aucun enfant ne suit immédiatement le membre sur un axe.</span><span class="sxs-lookup"><span data-stu-id="62d60-123">Indicates whether no children immediately follow the member on the axis.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span><span class="sxs-lookup"><span data-stu-id="1491b-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-125">Indique les informations de filtre pour l'ensemble de cellules actif.</span><span class="sxs-lookup"><span data-stu-id="1491b-125">Indicates filter information for the current cellset.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span><span class="sxs-lookup"><span data-stu-id="62d60-124"><a href="filteraxis-property-ado-md.md">FilterAxis</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-125">Indique les informations de filtre pour l'ensemble de cellules actif.</span><span class="sxs-lookup"><span data-stu-id="62d60-125">Indicates filter information for the current cellset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-126"><a href="item-property-ado-md-cellset.md">Item</a></span><span class="sxs-lookup"><span data-stu-id="1491b-126"><a href="item-property-ado-md-cellset.md">Item</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-127">Permet d'extraire une cellule d'un ensemble de cellules à l'aide de ses coordonnées.</span><span class="sxs-lookup"><span data-stu-id="1491b-127">Retrieves a cell from a cellset using its coordinates.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-126"><a href="item-property-ado-md-cellset.md">Élément</a></span><span class="sxs-lookup"><span data-stu-id="62d60-126"><a href="item-property-ado-md-cellset.md">Item</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-127">Permet d'extraire une cellule d'un ensemble de cellules à l'aide de ses coordonnées.</span><span class="sxs-lookup"><span data-stu-id="62d60-127">Retrieves a cell from a cellset using its coordinates.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-128"><a href="item-property-ado.md">Item</a></span><span class="sxs-lookup"><span data-stu-id="1491b-128"><a href="item-property-ado.md">Item</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-129">Renvoie un membre spécifique d’une collection d’après son nom ou son numéro ordinal.</span><span class="sxs-lookup"><span data-stu-id="1491b-129">Returns a specific member of a collection by name or ordinal number.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-128"><a href="item-property-ado.md">Élément</a></span><span class="sxs-lookup"><span data-stu-id="62d60-128"><a href="item-property-ado.md">Item</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-129">Renvoie un membre spécifique d’une collection d’après son nom ou son numéro ordinal.</span><span class="sxs-lookup"><span data-stu-id="62d60-129">Returns a specific member of a collection by name or ordinal number.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span><span class="sxs-lookup"><span data-stu-id="1491b-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-131">Indique l'affichage mis en forme d'une valeur de cellule.</span><span class="sxs-lookup"><span data-stu-id="1491b-131">Indicates the formatted display of a cell value.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span><span class="sxs-lookup"><span data-stu-id="62d60-130"><a href="formattedvalue-property-ado-md.md">FormattedValue</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-131">Indique l'affichage mis en forme d'une valeur de cellule.</span><span class="sxs-lookup"><span data-stu-id="62d60-131">Indicates the formatted display of a cell value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span><span class="sxs-lookup"><span data-stu-id="1491b-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-133">Indique le nombre de niveaux entre la racine de la hiérarchie et un membre.</span><span class="sxs-lookup"><span data-stu-id="1491b-133">Indicates the number of levels between the root of the hierarchy and a member.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span><span class="sxs-lookup"><span data-stu-id="62d60-132"><a href="leveldepth-property-ado-md.md">LevelDepth</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-133">Indique le nombre de niveaux entre la racine de la hiérarchie et un membre.</span><span class="sxs-lookup"><span data-stu-id="62d60-133">Indicates the number of levels between the root of the hierarchy and a member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-134"><a href="levelname-property-ado-md.md">LevelName</a></span><span class="sxs-lookup"><span data-stu-id="1491b-134"><a href="levelname-property-ado-md.md">LevelName</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-135">Indique le nom du niveau d'un membre.</span><span class="sxs-lookup"><span data-stu-id="1491b-135">Indicates the name of the level of a member.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-134"><a href="levelname-property-ado-md.md">LevelName</a></span><span class="sxs-lookup"><span data-stu-id="62d60-134"><a href="levelname-property-ado-md.md">LevelName</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-135">Indique le nom du niveau d'un membre.</span><span class="sxs-lookup"><span data-stu-id="62d60-135">Indicates the name of the level of a member.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-136"><a href="name-property-ado-md.md">Name</a></span><span class="sxs-lookup"><span data-stu-id="1491b-136"><a href="name-property-ado-md.md">Name</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-137">Indique le nom d'un objet.</span><span class="sxs-lookup"><span data-stu-id="1491b-137">Indicates the name of an object.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-136"><a href="name-property-ado-md.md">Nom</a></span><span class="sxs-lookup"><span data-stu-id="62d60-136"><a href="name-property-ado-md.md">Name</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-137">Indique le nom d'un objet.</span><span class="sxs-lookup"><span data-stu-id="62d60-137">Indicates the name of an object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (cellule)</a></span><span class="sxs-lookup"><span data-stu-id="1491b-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-139">Identifie de manière unique une cellule au sein d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="1491b-139">Uniquely identifies a cell by its position within a cellset.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (cellule)</a></span><span class="sxs-lookup"><span data-stu-id="62d60-138"><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-139">Identifie de manière unique une cellule au sein d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="62d60-139">Uniquely identifies a cell by its position within a cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span><span class="sxs-lookup"><span data-stu-id="1491b-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-141">Identifie de façon unique une position le long d'un axe.</span><span class="sxs-lookup"><span data-stu-id="1491b-141">Uniquely identifies a position along an axis.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span><span class="sxs-lookup"><span data-stu-id="62d60-140"><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-141">Identifie de façon unique une position le long d'un axe.</span><span class="sxs-lookup"><span data-stu-id="62d60-141">Uniquely identifies a position along an axis.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-142"><a href="parent-property-ado-md.md">Parent</a></span><span class="sxs-lookup"><span data-stu-id="1491b-142"><a href="parent-property-ado-md.md">Parent</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-143">Indique le membre qui est le parent du membre actif dans une hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="1491b-143">Indicates the member that is the parent of the current member in a hierarchy.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-142"><a href="parent-property-ado-md.md">Parent</a></span><span class="sxs-lookup"><span data-stu-id="62d60-142"><a href="parent-property-ado-md.md">Parent</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-143">Indique le membre qui est le parent du membre actif dans une hiérarchie.</span><span class="sxs-lookup"><span data-stu-id="62d60-143">Indicates the member that is the parent of the current member in a hierarchy.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span><span class="sxs-lookup"><span data-stu-id="1491b-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-145">Indique si le parent de ce membre de position est le même que le parent du membre qui le précède immédiatement.</span><span class="sxs-lookup"><span data-stu-id="1491b-145">Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span><span class="sxs-lookup"><span data-stu-id="62d60-144"><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-145">Indique si le parent de ce membre de position est le même que le parent du membre qui le précède immédiatement.</span><span class="sxs-lookup"><span data-stu-id="62d60-145">Indicates whether the parent of this position member is the same as the parent of the immediately preceding member.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-146"><a href="source-property-ado-md.md">Source</a></span><span class="sxs-lookup"><span data-stu-id="1491b-146"><a href="source-property-ado-md.md">Source</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-147">Indique la source des données dans l'ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="1491b-147">Indicates the source for the data in the cellset.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-146"><a href="source-property-ado-md.md">Source</a></span><span class="sxs-lookup"><span data-stu-id="62d60-146"><a href="source-property-ado-md.md">Source</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-147">Indique la source des données dans l'ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="62d60-147">Indicates the source for the data in the cellset.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-148"><a href="state-property-ado-md.md">State</a></span><span class="sxs-lookup"><span data-stu-id="1491b-148"><a href="state-property-ado-md.md">State</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-149">Indique l'état actuel de l'ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="1491b-149">Indicates the current state of the cellset.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-148"><a href="state-property-ado-md.md">State</a></span><span class="sxs-lookup"><span data-stu-id="62d60-148"><a href="state-property-ado-md.md">State</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-149">Indique l'état actuel de l'ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="62d60-149">Indicates the current state of the cellset.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-150"><a href="type-property-ado-md.md">Type</a></span><span class="sxs-lookup"><span data-stu-id="1491b-150"><a href="type-property-ado-md.md">Type</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-151">Indique le type du membre actuel.</span><span class="sxs-lookup"><span data-stu-id="1491b-151">Indicates the type of the current member.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-150"><a href="type-property-ado-md.md">Type</a></span><span class="sxs-lookup"><span data-stu-id="62d60-150"><a href="type-property-ado-md.md">Type</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-151">Indique le type du membre actuel.</span><span class="sxs-lookup"><span data-stu-id="62d60-151">Indicates the type of the current member.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1491b-152"><a href="uniquename-property-ado-md.md">Nom unique</a></span><span class="sxs-lookup"><span data-stu-id="1491b-152"><a href="uniquename-property-ado-md.md">UniqueName</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-153">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="1491b-153">Indicates an unambiguous name for the current object.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-152"><a href="uniquename-property-ado-md.md">Nom unique</a></span><span class="sxs-lookup"><span data-stu-id="62d60-152"><a href="uniquename-property-ado-md.md">UniqueName</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-153">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="62d60-153">Indicates an unambiguous name for the current object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="1491b-154"><a href="value-property-ado-md.md">Valeur</a></span><span class="sxs-lookup"><span data-stu-id="1491b-154"><a href="value-property-ado-md.md">Value</a></span></span></p></td>
-<td><p><span data-ttu-id="1491b-155">Indique la valeur de la cellule active.</span><span class="sxs-lookup"><span data-stu-id="1491b-155">Indicates the value of the current cell.</span></span></p></td>
+<td><p><span data-ttu-id="62d60-154"><a href="value-property-ado-md.md">Valeur</a></span><span class="sxs-lookup"><span data-stu-id="62d60-154"><a href="value-property-ado-md.md">Value</a></span></span></p></td>
+<td><p><span data-ttu-id="62d60-155">Indique la valeur de la cellule active.</span><span class="sxs-lookup"><span data-stu-id="62d60-155">Indicates the value of the current cell.</span></span></p></td>
 </tr>
 </tbody>
 </table>

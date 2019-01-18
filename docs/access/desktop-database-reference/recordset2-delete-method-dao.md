@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
 ms:contentKeyID: 48542947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5e1bfddde74c0bd9c3cd4a7839a66350ed33d9b1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 17e9c89323eec9ebe1d95e514e62e835febebf61
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927423"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714513"
 ---
-# <a name="recordset2delete-method-dao"></a><span data-ttu-id="bf1f1-102">Méthode Recordset2.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf1f1-102">Recordset2.Delete method (DAO)</span></span>
+# <a name="recordset2delete-method-dao"></a><span data-ttu-id="80ecf-102">Méthode Recordset2.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="80ecf-102">Recordset2.Delete method (DAO)</span></span>
 
 
-<span data-ttu-id="bf1f1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf1f1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="80ecf-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80ecf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bf1f1-104">Méthode non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="bf1f1-104">Not supported for this object.</span></span>
+<span data-ttu-id="80ecf-104">Méthode non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="80ecf-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bf1f1-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bf1f1-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="80ecf-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="80ecf-105">Syntax</span></span>
 
-<span data-ttu-id="bf1f1-106">*expression* . Supprimer</span><span class="sxs-lookup"><span data-stu-id="bf1f1-106">*expression* .Delete</span></span>
+<span data-ttu-id="80ecf-106">*expression* . Supprimer</span><span class="sxs-lookup"><span data-stu-id="80ecf-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="bf1f1-107">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="bf1f1-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="80ecf-107">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="80ecf-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 

@@ -10,31 +10,32 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d04c98da0ecef1c2323930c74588b7a6a07c2e29
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026266"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699155"
 ---
-# <a name="addmenu-macro-action"></a><span data-ttu-id="d5a08-102">AddMenu, action de macro</span><span class="sxs-lookup"><span data-stu-id="d5a08-102">AddMenu macro action</span></span>
+# <a name="addmenu-macro-action"></a><span data-ttu-id="40f8f-102">AddMenu, action de macro</span><span class="sxs-lookup"><span data-stu-id="40f8f-102">AddMenu macro action</span></span>
 
 
-<span data-ttu-id="d5a08-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5a08-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="40f8f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="40f8f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d5a08-104">Cet article décrit le fonctionnement de base de l'action de macro **AjouterMenu**.</span><span class="sxs-lookup"><span data-stu-id="d5a08-104">This article describes the basic operation of the **AddMenu** macro action.</span></span>
+<span data-ttu-id="40f8f-104">Cet article décrit le fonctionnement de base de l'action de macro **AjouterMenu**.</span><span class="sxs-lookup"><span data-stu-id="40f8f-104">This article describes the basic operation of the **AddMenu** macro action.</span></span>
 
-<span data-ttu-id="d5a08-105">Vous pouvez utiliser l'action **AjouterMenu** pour créer les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="d5a08-105">You can use the **AddMenu** action to create:</span></span>
+<span data-ttu-id="40f8f-105">Vous pouvez utiliser l'action **AjouterMenu** pour créer les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="40f8f-105">You can use the **AddMenu** action to create:</span></span>
 
-- <span data-ttu-id="d5a08-106">des menus personnalisés sous l'onglet **Compléments** d'un formulaire ou d'un état particulier ;</span><span class="sxs-lookup"><span data-stu-id="d5a08-106">Custom menus on the **Add-Ins** tab for a particular form or report.</span></span>
+- <span data-ttu-id="40f8f-106">des menus personnalisés sous l'onglet **Compléments** d'un formulaire ou d'un état particulier ;</span><span class="sxs-lookup"><span data-stu-id="40f8f-106">Custom menus on the **Add-Ins** tab for a particular form or report.</span></span>
 
-- <span data-ttu-id="d5a08-p101">un menu contextuel personnalisé pour un formulaire, un état ou un contrôle. Le menu contextuel personnalisé remplace le menu contextuel intégré pour le formulaire, l'état ou le contrôle ;</span><span class="sxs-lookup"><span data-stu-id="d5a08-p101">A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.</span></span>
+- <span data-ttu-id="40f8f-p101">un menu contextuel personnalisé pour un formulaire, un état ou un contrôle. Le menu contextuel personnalisé remplace le menu contextuel intégré pour le formulaire, l'état ou le contrôle ;</span><span class="sxs-lookup"><span data-stu-id="40f8f-p101">A custom shortcut menu for a form, report, or control. The custom shortcut menu replaces the built-in shortcut menu for the form, report, or control.</span></span>
 
-- <span data-ttu-id="d5a08-p102">un menu contextuel global. Le menu contextuel global remplace le menu contextuel intégré pour les champs des feuilles de données de table et de requête, des formulaires et des états, sauf là où vous avez ajouté un menu contextuel personnalisé pour un formulaire, un état ou un contrôle.</span><span class="sxs-lookup"><span data-stu-id="d5a08-p102">A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.</span></span>
+- <span data-ttu-id="40f8f-p102">un menu contextuel global. Le menu contextuel global remplace le menu contextuel intégré pour les champs des feuilles de données de table et de requête, des formulaires et des états, sauf là où vous avez ajouté un menu contextuel personnalisé pour un formulaire, un état ou un contrôle.</span><span class="sxs-lookup"><span data-stu-id="40f8f-p102">A global shortcut menu. The global shortcut menu replaces the built-in shortcut menu for fields in table and query datasheets, forms, and reports, except where you've added a custom shortcut menu for a form, report, or control.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="d5a08-111">Valeur</span><span class="sxs-lookup"><span data-stu-id="d5a08-111">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="40f8f-111">Valeur</span><span class="sxs-lookup"><span data-stu-id="40f8f-111">Setting</span></span>
 
-<span data-ttu-id="d5a08-112">L'action **AjouterMenu** possède les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="d5a08-112">The **AddMenu** action has the following arguments.</span></span>
+<span data-ttu-id="40f8f-112">L'action **AjouterMenu** possède les arguments suivants.</span><span class="sxs-lookup"><span data-stu-id="40f8f-112">The **AddMenu** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -43,31 +44,31 @@ ms.locfileid: "26026266"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d5a08-113">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="d5a08-113">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="d5a08-114">Description</span><span class="sxs-lookup"><span data-stu-id="d5a08-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="40f8f-113">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="40f8f-113">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="40f8f-114">Description</span><span class="sxs-lookup"><span data-stu-id="40f8f-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d5a08-115"><strong>Nom du menu</strong></span><span class="sxs-lookup"><span data-stu-id="d5a08-115"><strong>Menu Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5a08-116">Le nom du menu, par exemple, &quot;rapport commandes&quot; ou &quot;outils&quot;.</span><span class="sxs-lookup"><span data-stu-id="d5a08-116">The name of the menu, for example, &quot;Report Commands&quot; or &quot;Tools&quot;.</span></span> <span data-ttu-id="d5a08-117">Pour créer une touche d’accès afin que vous puissiez utiliser le clavier pour choisir le menu, tapez un « et commercial » (<strong>&amp;</strong>) avant la lettre que vous voulez être la touche d’accès.</span><span class="sxs-lookup"><span data-stu-id="d5a08-117">To create an access key so that you can use the keyboard to choose the menu, type an ampersand (<strong>&amp;</strong>) before the letter you want to be the access key.</span></span> <span data-ttu-id="d5a08-118">Cette lettre sera soulignée dans le nom du menu dans l’onglet <strong>Compléments</strong> .</span><span class="sxs-lookup"><span data-stu-id="d5a08-118">This letter will be underlined in the menu name on the <strong>Add-Ins</strong> tab.</span></span></p></td>
+<td><p><span data-ttu-id="40f8f-115"><strong>Nom du menu</strong></span><span class="sxs-lookup"><span data-stu-id="40f8f-115"><strong>Menu Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="40f8f-116">Le nom du menu, par exemple, &quot;rapport commandes&quot; ou &quot;outils&quot;.</span><span class="sxs-lookup"><span data-stu-id="40f8f-116">The name of the menu, for example, &quot;Report Commands&quot; or &quot;Tools&quot;.</span></span> <span data-ttu-id="40f8f-117">Pour créer une touche d’accès afin que vous puissiez utiliser le clavier pour choisir le menu, tapez un « et commercial » (<strong>&amp;</strong>) avant la lettre que vous voulez être la touche d’accès.</span><span class="sxs-lookup"><span data-stu-id="40f8f-117">To create an access key so that you can use the keyboard to choose the menu, type an ampersand (<strong>&amp;</strong>) before the letter you want to be the access key.</span></span> <span data-ttu-id="40f8f-118">Cette lettre sera soulignée dans le nom du menu dans l’onglet <strong>Compléments</strong> .</span><span class="sxs-lookup"><span data-stu-id="40f8f-118">This letter will be underlined in the menu name on the <strong>Add-Ins</strong> tab.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d5a08-119"><strong>Nom de la macro de menu</strong></span><span class="sxs-lookup"><span data-stu-id="d5a08-119"><strong>Menu Macro Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5a08-p104">Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire. 
+<td><p><span data-ttu-id="40f8f-119"><strong>Nom de la macro de menu</strong></span><span class="sxs-lookup"><span data-stu-id="40f8f-119"><strong>Menu Macro Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="40f8f-p104">Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire. 
 
-</span><span class="sxs-lookup"><span data-stu-id="d5a08-p104">The name of the macro group that contains the macros for the menu's commands. This is a required argument.</span></span></p>
-<p><span data-ttu-id="d5a08-122"><strong>Remarque</strong>: Si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche le groupe de macros portant ce nom dans la base de données en cours uniquement.</span><span class="sxs-lookup"><span data-stu-id="d5a08-122"><strong>NOTE</strong>: If you run a macro containing the <strong>AddMenu</strong> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</span></span></p></td>
+</span><span class="sxs-lookup"><span data-stu-id="40f8f-p104">The name of the macro group that contains the macros for the menu's commands. This is a required argument.</span></span></p>
+<p><span data-ttu-id="40f8f-122"><strong>Remarque</strong>: Si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche le groupe de macros portant ce nom dans la base de données en cours uniquement.</span><span class="sxs-lookup"><span data-stu-id="40f8f-122"><strong>NOTE</strong>: If you run a macro containing the <strong>AddMenu</strong> action in a library database, Microsoft Office Access 2007 looks for the macro group with this name in the current database only.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d5a08-123"><strong>Texte de la barre d’état</strong></span><span class="sxs-lookup"><span data-stu-id="d5a08-123"><strong>Status Bar Text</strong></span></span></p></td>
-<td><p><span data-ttu-id="d5a08-p105">Texte à afficher dans la barre d’état lorsque le menu est sélectionné. Cet argument est ignoré pour les menus contextuels</span><span class="sxs-lookup"><span data-stu-id="d5a08-p105">The text to display in the status bar when the menu is selected. This argument is ignored for shortcut menus.</span></span></p></td>
+<td><p><span data-ttu-id="40f8f-123"><strong>Texte de la barre d’état</strong></span><span class="sxs-lookup"><span data-stu-id="40f8f-123"><strong>Status Bar Text</strong></span></span></p></td>
+<td><p><span data-ttu-id="40f8f-p105">Texte à afficher dans la barre d’état lorsque le menu est sélectionné. Cet argument est ignoré pour les menus contextuels</span><span class="sxs-lookup"><span data-stu-id="40f8f-p105">The text to display in the status bar when the menu is selected. This argument is ignored for shortcut menus.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d5a08-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="d5a08-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40f8f-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="40f8f-126">Remarks</span></span>
 
-<span data-ttu-id="d5a08-p106">Pour exécuter l'action **AjouterMenu** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **AddMenu** de l'objet **DoCmd**. Vous pouvez également définir la propriété **MenuBar** ou **ShortcutMenuBar** dans VBA pour créer un menu contextuel sous l'onglet **Compléments** ou pour attacher un menu contextuel personnalisé à un formulaire, un rapport ou un contrôle. Vous pouvez définir la propriété **ShortcutMenuBar** de l'objet **Application** pour créer un menu contextuel global.</span><span class="sxs-lookup"><span data-stu-id="d5a08-p106">To run the **AddMenu** action in a Visual Basic for Applications (VBA) module, use the **AddMenu** method of the **DoCmd** object. You can also set the **MenuBar** or **ShortcutMenuBar** property in VBA to create a custom menu on the **Add-Ins** tab or to attach a custom shortcut menu to a form, report, or control. You can set the **ShortcutMenuBar** property of the **Application** object to create a global shortcut menu.</span></span>
+<span data-ttu-id="40f8f-p106">Pour exécuter l'action **AjouterMenu** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **AddMenu** de l'objet **DoCmd**. Vous pouvez également définir la propriété **MenuBar** ou **ShortcutMenuBar** dans VBA pour créer un menu contextuel sous l'onglet **Compléments** ou pour attacher un menu contextuel personnalisé à un formulaire, un rapport ou un contrôle. Vous pouvez définir la propriété **ShortcutMenuBar** de l'objet **Application** pour créer un menu contextuel global.</span><span class="sxs-lookup"><span data-stu-id="40f8f-p106">To run the **AddMenu** action in a Visual Basic for Applications (VBA) module, use the **AddMenu** method of the **DoCmd** object. You can also set the **MenuBar** or **ShortcutMenuBar** property in VBA to create a custom menu on the **Add-Ins** tab or to attach a custom shortcut menu to a form, report, or control. You can set the **ShortcutMenuBar** property of the **Application** object to create a global shortcut menu.</span></span>
 

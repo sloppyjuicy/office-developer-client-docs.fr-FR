@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834802(v=office.15)
 ms:contentKeyID: 48547925
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec7095df2f2f050171a45fe3639f179eab40e8e1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c2d355e2a16df632d6952802914c1f921b5e9719
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943898"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719525"
 ---
-# <a name="locktypeenum-enumeration-dao"></a><span data-ttu-id="06957-102">LockTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="06957-102">LockTypeEnum enumeration (DAO)</span></span>
+# <a name="locktypeenum-enumeration-dao"></a><span data-ttu-id="65d23-102">LockTypeEnum, énumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="65d23-102">LockTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="06957-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="06957-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65d23-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65d23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="06957-104">Spécifie le type de verrouillage des enregistrements utilisé lors de l'ouverture d'un jeu d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="06957-104">Specifies the type of record locking used when opening a recordset.</span></span>
+<span data-ttu-id="65d23-104">Spécifie le type de verrouillage des enregistrements utilisé lors de l'ouverture d'un jeu d'enregistrements.</span><span class="sxs-lookup"><span data-stu-id="65d23-104">Specifies the type of record locking used when opening a recordset.</span></span>
 
 <table>
 <colgroup>
@@ -28,37 +29,37 @@ ms.locfileid: "25943898"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="06957-105">Nom</span><span class="sxs-lookup"><span data-stu-id="06957-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="06957-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="06957-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="06957-107">Description</span><span class="sxs-lookup"><span data-stu-id="06957-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="65d23-105">Nom</span><span class="sxs-lookup"><span data-stu-id="65d23-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="65d23-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="65d23-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="65d23-107">Description</span><span class="sxs-lookup"><span data-stu-id="65d23-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06957-108">dbOptimistic</span><span class="sxs-lookup"><span data-stu-id="06957-108">dbOptimistic</span></span></p></td>
-<td><p><span data-ttu-id="06957-109">3</span><span class="sxs-lookup"><span data-stu-id="06957-109">3</span></span></p></td>
-<td><p><span data-ttu-id="06957-p101">Accès concurrentiel optimiste basé sur l'ID d'enregistrement. Le curseur compare l'ID d'enregistrement de l'ancien et du nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="06957-p101">Optimistic concurrency based on record ID. Cursor compares record ID in old and new records to determine if changes have been made since the record was last accessed.</span></span></p></td>
+<td><p><span data-ttu-id="65d23-108">dbOptimistic</span><span class="sxs-lookup"><span data-stu-id="65d23-108">dbOptimistic</span></span></p></td>
+<td><p><span data-ttu-id="65d23-109">3</span><span class="sxs-lookup"><span data-stu-id="65d23-109">3</span></span></p></td>
+<td><p><span data-ttu-id="65d23-p101">Accès concurrentiel optimiste basé sur l'ID d'enregistrement. Le curseur compare l'ID d'enregistrement de l'ancien et du nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="65d23-p101">Optimistic concurrency based on record ID. Cursor compares record ID in old and new records to determine if changes have been made since the record was last accessed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06957-112">dbOptimisticBatch</span><span class="sxs-lookup"><span data-stu-id="06957-112">dbOptimisticBatch</span></span></p></td>
-<td><p><span data-ttu-id="06957-113">5</span><span class="sxs-lookup"><span data-stu-id="06957-113">5</span></span></p></td>
-<td><p><span data-ttu-id="06957-114">Permet des mises à jour par lot optimistes (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="06957-114">Enables batch optimistic updates (ODBCDirect workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="65d23-112">dbOptimisticBatch</span><span class="sxs-lookup"><span data-stu-id="65d23-112">dbOptimisticBatch</span></span></p></td>
+<td><p><span data-ttu-id="65d23-113">5</span><span class="sxs-lookup"><span data-stu-id="65d23-113">5</span></span></p></td>
+<td><p><span data-ttu-id="65d23-114">Permet des mises à jour par lot optimistes (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="65d23-114">Enables batch optimistic updates (ODBCDirect workspaces only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="06957-115">dbOptimisticValue</span><span class="sxs-lookup"><span data-stu-id="06957-115">dbOptimisticValue</span></span></p></td>
-<td><p><span data-ttu-id="06957-116">1</span><span class="sxs-lookup"><span data-stu-id="06957-116">1</span></span></p></td>
-<td><p><span data-ttu-id="06957-p102">Accès concurrentiel optimiste basé sur les valeurs d'enregistrement. Le curseur compare les valeurs des données dans l'ancien et le nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="06957-p102">Optimistic concurrency based on record values. Cursor compares data values in old and new records to determine if changes have been made since the record was last accessed (ODBCDirect workspaces only).</span></span></p>
+<td><p><span data-ttu-id="65d23-115">dbOptimisticValue</span><span class="sxs-lookup"><span data-stu-id="65d23-115">dbOptimisticValue</span></span></p></td>
+<td><p><span data-ttu-id="65d23-116">1</span><span class="sxs-lookup"><span data-stu-id="65d23-116">1</span></span></p></td>
+<td><p><span data-ttu-id="65d23-p102">Accès concurrentiel optimiste basé sur les valeurs d'enregistrement. Le curseur compare les valeurs des données dans l'ancien et le nouvel enregistrement pour déterminer si des modifications ont été apportées depuis le dernier accès à l'enregistrement (espaces de travail ODBCDirect uniquement).</span><span class="sxs-lookup"><span data-stu-id="65d23-p102">Optimistic concurrency based on record values. Cursor compares data values in old and new records to determine if changes have been made since the record was last accessed (ODBCDirect workspaces only).</span></span></p>
 
 > [!NOTE]
-> <span data-ttu-id="06957-p103">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="06957-p103">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="65d23-p103">[!REMARQUE] Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="65d23-p103">ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
 
 </td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="06957-121">dbPessimistic</span><span class="sxs-lookup"><span data-stu-id="06957-121">dbPessimistic</span></span></p></td>
-<td><p><span data-ttu-id="06957-122">2</span><span class="sxs-lookup"><span data-stu-id="06957-122">2</span></span></p></td>
-<td><p><span data-ttu-id="06957-p104">Accès concurrentiel pessimiste. Le curseur utilise le niveau de verrouillage le plus bas qui permet de garantir la mise à jour de l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="06957-p104">Pessimistic concurrency. Cursor uses the lowest level of locking sufficient to ensure that the record can be updated.</span></span></p></td>
+<td><p><span data-ttu-id="65d23-121">dbPessimistic</span><span class="sxs-lookup"><span data-stu-id="65d23-121">dbPessimistic</span></span></p></td>
+<td><p><span data-ttu-id="65d23-122">2</span><span class="sxs-lookup"><span data-stu-id="65d23-122">2</span></span></p></td>
+<td><p><span data-ttu-id="65d23-p104">Accès concurrentiel pessimiste. Le curseur utilise le niveau de verrouillage le plus bas qui permet de garantir la mise à jour de l'enregistrement.</span><span class="sxs-lookup"><span data-stu-id="65d23-p104">Pessimistic concurrency. Cursor uses the lowest level of locking sufficient to ensure that the record can be updated.</span></span></p></td>
 </tr>
 </tbody>
 </table>

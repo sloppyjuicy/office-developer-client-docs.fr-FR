@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250236(v=office.15)
 ms:contentKeyID: 48548671
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f8e1236e1092b6b6c1d5e6afc0c64917d66ce813
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7f9a5b0e31381d36d523c23290076e0d9b07a01c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25880122"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718587"
 ---
-# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="8318c-102">CompareBookmarks, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="8318c-102">CompareBookmarks method example (VJ++)</span></span>
+# <a name="comparebookmarks-method-example-vj"></a><span data-ttu-id="9d5ad-102">CompareBookmarks, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9d5ad-102">CompareBookmarks method example (VJ++)</span></span>
 
 
-<span data-ttu-id="8318c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8318c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9d5ad-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9d5ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8318c-p101">Cet exemple illustre le fonctionnement de la méthode [CompareBookmarks](comparebookmarks-method-ado.md). La valeur relative des signets est rarement requise sauf si un signet particulier présente une caractéristique spéciale.</span><span class="sxs-lookup"><span data-stu-id="8318c-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
+<span data-ttu-id="9d5ad-p101">Cet exemple illustre le fonctionnement de la méthode [CompareBookmarks](comparebookmarks-method-ado.md). La valeur relative des signets est rarement requise sauf si un signet particulier présente une caractéristique spéciale.</span><span class="sxs-lookup"><span data-stu-id="9d5ad-p101">This example demonstrates the [CompareBookmarks](comparebookmarks-method-ado.md) method. The relative value of bookmarks is seldom needed unless a particular bookmark is somehow special.</span></span>
 
-<span data-ttu-id="8318c-p102">Désignez une ligne aléatoire d’un objet [Recordset](recordset-object-ado.md) dérivé de la table ***Authors*** comme cible d’une recherche. Affichez ensuite la position de chaque ligne par rapport à cette cible.</span><span class="sxs-lookup"><span data-stu-id="8318c-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
+<span data-ttu-id="9d5ad-p102">Désignez une ligne aléatoire d’un objet [Recordset](recordset-object-ado.md) dérivé de la table ***Authors*** comme cible d’une recherche. Affichez ensuite la position de chaque ligne par rapport à cette cible.</span><span class="sxs-lookup"><span data-stu-id="9d5ad-p102">Designate a random row of a [Recordset](recordset-object-ado.md) derived from the ***Authors*** table as the target of a search. Then display the position of each row relative to that target.</span></span>
 
 ```java 
  

@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 515bde2cf4c25aff7c0e6ee709b8a7795e217488
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2f1c45d6c051a0ef7dc8fe878cb0f0764a224949
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25925988"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716592"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="916ca-102">Propriété Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="916ca-102">Database.Transactions property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="bb4b1-102">Propriété Database.Transactions (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb4b1-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="916ca-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="916ca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bb4b1-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb4b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="916ca-p101">Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur **Boolean** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="916ca-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
+<span data-ttu-id="bb4b1-p101">Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur **Boolean** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="bb4b1-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="916ca-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="916ca-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb4b1-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bb4b1-106">Syntax</span></span>
 
-<span data-ttu-id="916ca-107">*expression* . Transactions</span><span class="sxs-lookup"><span data-stu-id="916ca-107">*expression* .Transactions</span></span>
+<span data-ttu-id="bb4b1-107">*expression* . Transactions</span><span class="sxs-lookup"><span data-stu-id="bb4b1-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="916ca-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="916ca-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="bb4b1-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="bb4b1-108">*expression* A variable that represents a **Database** object.</span></span>
 
