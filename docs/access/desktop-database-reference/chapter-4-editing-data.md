@@ -1,19 +1,20 @@
 ---
-title: 'Chapitre 4 : Modification des données'
+title: 'Chapitre 4 : Modification des données'
 TOCTitle: 'Chapter 4: Editing data'
 ms:assetid: 822b7365-0926-6411-6fb4-30de032570f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249563(v=office.15)
 ms:contentKeyID: 48545974
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28103cebeea517395ce2507402677fcde8114bb0
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b954cf8b730a74fb7e630fbafb96c046491c6f46
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936587"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701143"
 ---
-# <a name="chapter-4-editing-data"></a>Chapitre 4 : Modification des données
+# <a name="chapter-4-editing-data"></a>Chapitre 4 : Modification des données
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -73,7 +74,7 @@ End Function
 Ce chapitre présente les rubriques suivantes :
 
 - [Modification d’enregistrements existants](editing-existing-records.md)
-- [Déterminer ce qui est pris en charge](determining-what-is-supported.md)
-- [Suppression d’enregistrements à l’aide de la méthode Delete](deleting-records-using-the-delete-method.md)
+- [Identification des éléments pris en charge](determining-what-is-supported.md)
+- [Suppression des enregistrements à l’aide de la méthode Delete](deleting-records-using-the-delete-method.md)
 - [Alternatives : utilisation des instructions SQL](alternatives-using-sql-statements.md)
 - [Ajout d’enregistrements (ADO)](adding-records.md)

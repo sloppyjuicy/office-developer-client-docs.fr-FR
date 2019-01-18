@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ce8e5b8d442ba81120056219ee06753e08332354
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910907"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704258"
 ---
 # <a name="ado-properties"></a>Propriétés ADO
 
@@ -50,7 +51,7 @@ ms.locfileid: "25910907"
 <td><p>Indique la longueur réelle de la valeur d'un champ.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-ado.md">Attributes</a></p></td>
+<td><p><a href="attributes-property-ado.md">Attributs</a></p></td>
 <td><p>Indique une ou plusieurs caractéristiques d'un objet.</p></td>
 </tr>
 <tr class="odd">
@@ -70,7 +71,7 @@ ms.locfileid: "25910907"
 <td><p>Extrait ou définit un objet <strong>Chapter</strong> OLE DB à partir de ou sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="charset-property-ado.md">Jeu de caractères</a></p></td>
+<td><p><a href="charset-property-ado.md">CharSet</a></p></td>
 <td><p>Indique le jeu de caractères dans lequel le contenu d'un objet <strong>Stream</strong> de type texte doit être traduit.</p></td>
 </tr>
 <tr class="even">
@@ -154,7 +155,7 @@ ms.locfileid: "25910907"
 <td><p>Indique le niveau d'isolation d'un objet <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Élément</a></p></td>
 <td><p>Indique membre spécifique d'une collection, par son nom ou son nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -178,7 +179,7 @@ ms.locfileid: "25910907"
 <td><p>Indique les autorisations disponibles pour la modification des données d'un objet <strong>Connection</strong>, <strong>Enregistrement</strong> ou <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Name</a></p></td>
+<td><p><a href="name-property-ado.md">Nom</a></p></td>
 <td><p>Indique le nom d'un objet.</p></td>
 </tr>
 <tr class="odd">
@@ -206,7 +207,7 @@ ms.locfileid: "25910907"
 <td><p>Indique combien d'enregistrements constituent une page dans le <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parentrow-property-ado.md">Ligne parente</a></p></td>
+<td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
 <td><p>Indique que le conteneur d'un objet <strong>Row</strong> OLE DB est un objet <strong>ADORecordConstruction</strong>, ce qui indique que le parent de la ligne devient un objet <strong>Record</strong> ADO.</p></td>
 </tr>
 <tr class="even">
@@ -238,7 +239,7 @@ ms.locfileid: "25910907"
 <td><p>Indique le type de l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
+<td><p><a href="row-property-ado.md">Ligne</a></p></td>
 <td><p>Extrait ou définit un objet <strong>Row</strong> OLE DB à partir de ou sur un objet <strong>ADORecordConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -250,7 +251,7 @@ ms.locfileid: "25910907"
 <td><p>Récupère ou définit un objet <strong>Rowset</strong> OLE DB sur un objet <strong>ADORecordsetConstruction</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Taille</a></p></td>
+<td><p><a href="size-property-ado.md">Size</a></p></td>
 <td><p>Indique la taille maximale, en octets ou en caractères, d'un objet <strong>Parameter</strong>.</p></td>
 </tr>
 <tr class="odd">

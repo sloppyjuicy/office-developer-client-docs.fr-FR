@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 84d5b9c5f65e032523be8c646cdea18890744367
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997447"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699918"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject, action de macro
 
@@ -55,7 +56,7 @@ L'action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 <td><p>Le type de format à utiliser pour l’objet inclus. La liste des formats que vous pouvez choisir parmi varie selon que vous sélectionnez pour l’argument <strong>Type d’objet</strong> . Formats disponibles peuvent inclure de <strong>classeur Excel 97 - Excel 2003 (*.xls)</strong>, <strong>Classeur Excel binaire (*.xlsb)</strong>, <strong>Le classeur Excel (*.xlsx)</strong>, <strong>HTML (*.htm, * .html)</strong>, <strong>Classeur Microsoft Excel 5.0/95 (*.xls)</strong>, <strong>au Format PDF </strong>, <strong>La mise en forme de texte enrichi (*.rtf)</strong>, <strong>fichiers texte (*.txt)</strong>ou <strong>Format XPS (*.xps)</strong>. dans la zone <strong>Format de sortie</strong> . Modules peuvent être envoyés uniquement au format texte. Pages d’accès aux données peuvent uniquement être envoyés au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Pour</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Les destinataires du message dont les noms doivent figurer sur la ligne <strong>à</strong> du message électronique. Si vous laissez cet argument vide, Access vous invite à fournir les noms des destinataires. Séparez les noms des destinataires spécifiés dans cet argument (et dans les arguments <strong>Cc</strong> et <strong>Cci</strong> ) par un point-virgule ( ;) ou avec le séparateur de liste défini sous l’onglet <strong>nombre</strong> de la boîte de dialogue <strong>Propriétés de paramètres régionaux</strong> dans Microsoft <strong>Le panneau de configuration</strong>de Windows. Si l’application de messagerie ne peut pas identifier les noms des destinataires, le message n’est pas envoyé et une erreur se produit.</p></td>
 </tr>
 <tr class="odd">
@@ -63,7 +64,7 @@ L'action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 <td><p>Destinataires du message dont les noms doivent figurer sur la <strong>Cc</strong> (&quot;copie carbone&quot;) ligne dans le message électronique. Si vous laissez cet argument vide, la ligne <strong>Cc</strong> du message électronique est vide.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cci</strong></p></td>
+<td><p><strong>Bcc</strong></p></td>
 <td><p>Destinataires du message dont les noms doivent figurer sur la <strong>Cci</strong> (&quot;copie carbone invisible&quot;) ligne dans le message électronique. Si vous laissez cet argument vide, la ligne <strong>Cci</strong> du message électronique est vide.</p></td>
 </tr>
 <tr class="odd">

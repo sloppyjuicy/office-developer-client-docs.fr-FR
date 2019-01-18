@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c8ac4ab83062d9297483b7ee4883ab0b289af227
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6e62a01d274752b33f7bf3f6f4af6171e7efb16b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949830"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703432"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect, événement (ADO)
 
@@ -23,12 +24,12 @@ L'événement **WillConnect** est appelé avant le début d'une connexion.
 
 WillConnect*ConnectionString*, *UserID*, *le mot de passe*, *Options*, *adStatus*, *pConnection*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
 |*ConnectionString* |Valeur de type **String** contenant les informations de la connexion en attente.|
-|*Nom d’utilisateur* |Valeur de type **String** reprenant le nom de l'utilisateur de la connexion en attente.|
+|*UserID* |Valeur de type **String** reprenant le nom de l'utilisateur de la connexion en attente.|
 |*Password* |Valeur de type **String** contenant un mot de passe pour la connexion en attente.|
 |*Options* |Valeur de type **Long** indiquant la méthode d'évaluation du paramètre *ConnectionString* par le fournisseur. La seule option possible est **adAsyncOpen**.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Lorsque cet événement est appelé, ce paramètre est défini à **adStatusOK** par défaut. Il est défini à **adStatusCantDeny** si l'événement ne peut pas demander l'annulation de l'opération en attente.<br/><br/>Avant que cet événement soit retourné, affectez au paramètre la valeur **adStatusUnwantedEvent** pour éviter toute notification ultérieure ou la valeur **adStatusCancel** pour demander l'opération de connexion provoquant l'annulation de cette notification.|

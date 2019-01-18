@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
 ms:contentKeyID: 52074194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cea75ba4f6af4e2a319457e0d7d4466a61c0c1b6
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ccf94d51160aebcae8644def4433ace4f369b205
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944857"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705247"
 ---
 # <a name="access-macro-actions-access-developer-reference"></a>Actions des macros Access (référence du développeur Access)
 
@@ -24,7 +25,7 @@ ms.locfileid: "25944857"
 - [Importation/exportation de données](data-import-export.md)
 - [Événements de macro de données](data-macro-events.md)
 - [Objets de base de données](database-objects.md)
-- [Filtre/recherche](filter-query-search.md)
+- [Filtre/Requête/Recherche](filter-query-search.md)
 - [Commandes macro](macro-commands.md)
 - [Flux de programme](program-flow.md)
 - [Commandes système](system-commands.md)

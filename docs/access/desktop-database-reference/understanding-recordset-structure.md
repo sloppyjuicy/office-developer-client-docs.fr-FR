@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249027(v=office.15)
 ms:contentKeyID: 48543808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4a8372f2c1762e29e4291b00e126ecd2a53618cd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5e291650b99146a8fee22de4651cdfd174e2e48a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945067"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701815"
 ---
-# <a name="understanding-recordset-structure"></a>Présentation de la structure du jeu d’enregistrements
+# <a name="understanding-recordset-structure"></a>Présentation de la structure du recordset
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -22,6 +23,6 @@ Chaque objet **Recordset** possède une collection **Fields** constituée d'un o
 Les rubriques suivantes expliquent comment naviguer dans la collection **Fields** et obtenir des informations sur chaque champ. Ils abordent puis quel type d’informations est disponible par le biais de l’objet **Field** et comment l’utiliser.
 
 - [Fields, collection](the-fields-collection.md)
-- [Field, objet](the-field-object.md)
+- [Field (objet)](the-field-object.md)
 - [Utilisation des jeux d'enregistrements](working-with-recordsets.md)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249100(v=office.15)
 ms:contentKeyID: 48544091
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bdd9ca9a2274f03f1592f73c3da5a6837101fda2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a92ffe9b4b713518330d9dbfd9979d904a5abe8e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25947825"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703509"
 ---
 # <a name="provider-support-for-adox"></a>Prise en charge du fournisseur pour ADOX
 
@@ -51,7 +52,7 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 <td><p>Les méthodes <strong>Append</strong> et <strong>Delete</strong> ne sont pas prises en charge.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Objet <strong>Procedure</strong></p></td>
+<td><p><strong>Procedure</strong> , objet</p></td>
 <td><p>La propriété <strong>Command</strong> n'est pas prise en charge.</p></td>
 </tr>
 <tr class="even">
@@ -98,7 +99,7 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 <td><p>Les méthodes <strong>Append</strong> et <strong>Delete</strong> ne sont pas prises en charge.</p></td>
 </tr>
 <tr class="even">
-<td><p>Objet <strong>Procedure</strong></p></td>
+<td><p><strong>Procedure</strong> , objet</p></td>
 <td><p>La propriété <strong>Command</strong> n'est pas prise en charge.</p></td>
 </tr>
 <tr class="odd">
@@ -157,7 +158,7 @@ Selon votre fournisseur de données OLE DB, certaines fonctionnalités d'ADOX ne
 <td><p>Les méthodes <strong>Append</strong> et <strong>Delete</strong> ne sont pas prises en charge.</p></td>
 </tr>
 <tr class="even">
-<td><p>Objet <strong>Procedure</strong></p></td>
+<td><p><strong>Procedure</strong> , objet</p></td>
 <td><p>La propriété <strong>Command</strong> n'est pas prise en charge.</p></td>
 </tr>
 <tr class="odd">
