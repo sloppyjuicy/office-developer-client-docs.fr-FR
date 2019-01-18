@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 26a0a9fe66fb726bb728872ee31771d12b262864
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923699"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702109"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord, action de macro
 
@@ -139,11 +140,11 @@ La macro suivante ouvre d'abord la table Catégories en utilisant l'action **Ouv
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>OuvrirTable</strong></p></td>
+<td><p><strong>OpenTable</strong></p></td>
 <td><p><strong>Nom de la table</strong>: catégories<strong>affichage</strong>: <strong>Mode DatasheetData</strong>: <strong>Modifier</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>RechercherEnregistrement</strong></p></td>
+<td><p><strong>SearchForRecord</strong></p></td>
 <td><p><strong>Type d’objet</strong>: <strong>TableObject nom</strong>: catégories<strong>enregistrement</strong>: <strong>Condition FirstWhere</strong>: Description = &quot;boissons&quot;</p></td>
 </tr>
 </tbody>

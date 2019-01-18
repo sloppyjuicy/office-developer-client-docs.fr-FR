@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c4f799d9e0e3ea2ffddbf981adf9332cca672ee
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997286"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700954"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Méthode Workspace.OpenDatabase (DAO)
 
@@ -36,7 +37,7 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -52,19 +53,19 @@ Ouvre une base de données spécifiée dans un objet **[Workspace](workspace-obj
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Définit différentes options pour la base de données, selon les indications dans les notes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> si vous souhaitez ouvrir la base de données avec un accès en lecture seule, ou <strong>False</strong> (valeur par défaut) si vous souhaitez ouvrir la base de données avec un accès en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Spécifie les différentes informations de connexion, dont les mots de passe.</p></td>
 </tr>
 </tbody>
