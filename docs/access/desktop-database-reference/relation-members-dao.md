@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198338(v=office.15)
 ms:contentKeyID: 48546670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8d4b1b1a3a06d0605793667f8c9258ea5b6336f5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 84e18afe4a11e53d68397efad71ac6136c779143
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923727"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722724"
 ---
 # <a name="relation-members-dao"></a>Membres de relation (DAO)
 
@@ -69,7 +70,7 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 <td><p>Définit ou renvoie le nom de la table étrangère d'une relation (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="relation-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
@@ -81,7 +82,7 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 <td><p>Renvoie la collection <strong><a href="properties-collection-dao.md">Properties</a></strong> de l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-table-property-dao.md">Tableau</a></strong></p></td>
+<td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>
 <td><p>Indique le nom d'une table primaire d'un objet <strong><a href="relation-object-dao.md">Relation</a></strong>. Ce nom doit correspondre à la valeur de la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> d'un objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> ou <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 </tbody>

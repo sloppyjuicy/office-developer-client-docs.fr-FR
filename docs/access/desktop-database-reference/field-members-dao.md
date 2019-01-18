@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193511(v=office.15)
 ms:contentKeyID: 48544689
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 549559756a2929e6b2daad01c4a0542a973a8bca
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a0e448662384572163fca074e554a5e30be30a7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937119"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703600"
 ---
 # <a name="field-members-dao"></a>Membres du champ (DAO)
 
@@ -93,7 +94,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 <td><p>Définit ou renvoie une valeur qui spécifie le nom de l'objet <strong><a href="field-object-dao.md">Field</a></strong> d'une table étrangère correspondant à un champ d'une table primaire d'une relation (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="field-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
@@ -115,7 +116,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong><a href="field-object-dao.md">Field</a></strong> requiert une valeur non Null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">Taille</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
 <td><p>Renvoie le nombre d'octets utilisés dans la base de données (plutôt que la mémoire) d'un objet <strong><a href="field-object-dao.md">Field</a></strong> de type Mémo ou Binaire long de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">

@@ -1,19 +1,20 @@
 ---
-title: Des fonctions d’agrégation, fonction CALC et mot clé NEW
+title: Fonctions d’agrégation, fonction CALC et mot-clé NEW
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fb3e667a23d5bfd1d3dda5b4eb8dbd60a47e36ba
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 25f52489430465235a928fff3c38469ec6ba83ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025986"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718048"
 ---
-# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Des fonctions d’agrégation, fonction CALC et mot clé NEW
+# <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Fonctions d’agrégation, fonction CALC et mot-clé NEW
 
 
 **S’applique à**: Access 2013, Office 2013

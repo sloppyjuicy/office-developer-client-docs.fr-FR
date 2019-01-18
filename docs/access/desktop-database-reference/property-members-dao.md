@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
 ms:contentKeyID: 48544076
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 874ac5f6e5b26a5d7e3aa4b34d85e8ee548040b6
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe60c12a85eff0dd8f796f9affeef71979dac580
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922929"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699141"
 ---
 # <a name="property-members-dao"></a>Membres de la propriété (DAO Data)
 
@@ -39,7 +40,7 @@ Un objet Property représente une caractéristique prédéfinie ou définie par 
 <td><p>Renvoie une valeur qui indique si un objet <strong><a href="property-object-dao.md">Property</a></strong> est hérité d'un objet sous-jacent.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="property-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">

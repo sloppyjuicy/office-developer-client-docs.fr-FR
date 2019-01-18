@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
 ms:contentKeyID: 48543498
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ac8e1c9624932bf24fb47cd8a038f60b5933dad7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 11d721d58301d2adb33b2e381d88d7245531ff06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997650"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718882"
 ---
 # <a name="workspacesappend-method-dao"></a>Méthode Workspaces.Append (DAO)
 
@@ -36,7 +37,7 @@ Ajoute un nouvel objet **Workspace** à la collection **Workspaces**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>

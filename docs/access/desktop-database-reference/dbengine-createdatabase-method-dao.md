@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9c77eabfc0689c6696c4ea6c8b4998b6b345458
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998349"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701920"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>Méthode DBEngine.CreateDatabase (DAO)
 
@@ -40,7 +41,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,13 +51,13 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Une chaîne ne pouvant dépasser 255 caractères qui est le nom du fichier de base de données que vous créez. Il peut être le nom de fichier et chemin d’accès complet. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1&quot;. Vous pouvez uniquement créer des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Paramètres régionaux</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
 <li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concaténant la chaîne de mot de passe (commençant par &quot;; pwd =&quot; ) avec une constante dans l’argument <em>locale</em> , comme suit :</p></li>
@@ -69,7 +70,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <tr class="odd">
 <td><p><em>Option</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Constante ou combinaison de constantes qui indique une ou plusieurs options, comme spécifié dans la section Remarques. Vous pouvez combiner des options en associant les constantes correspondantes.</p></td>
 </tr>
 </tbody>
@@ -189,7 +190,7 @@ Vous pouvez utiliser une ou plusieurs des constantes suivantes dans l'argument o
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

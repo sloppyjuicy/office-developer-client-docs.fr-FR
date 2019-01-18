@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
 ms:contentKeyID: 48543926
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8ab9723d3acc698aa36210e26e370c0edfa67728
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924231"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701277"
 ---
 # <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction, interface (ADO)
 
@@ -32,17 +33,17 @@ Cette interface prend en charge les propriétés ci-après :
 <tbody>
 <tr class="odd">
 <td><p><a href="chapter-property-ado.md">Chapitre</a></p></td>
-<td><p>En lecture-écriture.<br />
+<td><p>Lecture/écriture.<br />
 Obtient ou définit un objet OLE DB <strong>chapitre</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
-<td><p>En lecture-écriture.<br />
+<td><p>Lecture/écriture.<br />
 Obtient ou définit un objet OLE DB <strong>RowPosition</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="rowset-property-ado.md">Ensemble de lignes</a></p></td>
-<td><p>En lecture-écriture.<br />
+<td><p>Lecture/écriture.<br />
 Obtient ou définit un objet OLE DB <strong>Rowset</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
 </tr>
 </tbody>
@@ -55,7 +56,7 @@ Aucune.
 
 ## <a name="events"></a>Événements
 
-Aucune.
+Aucun.
 
 ## <a name="remarks"></a>Remarques
 

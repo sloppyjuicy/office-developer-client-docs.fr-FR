@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fd744f10d212d8ff0f7c78ca72781869ccdcd57e
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f14f9f2d028bb8a9a8e71bc9d7b97ea5672466f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928760"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717628"
 ---
 # <a name="dbengineinipath-property-dao"></a>Propriété DBEngine.IniPath (DAO)
 
@@ -32,7 +33,7 @@ Définit ou renvoie des informations sur la clé du Registre Windows contenant l
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez configurer le moteur de base de données Microsoft Access avec le Registre Windows. Ce dernier permet de définir des options comme les DLL ISAM installables.
+Vous pouvez configurer le moteur de base de données Microsoft Access dans le Registre Windows. Ce dernier permet de définir des options comme les DLL ISAM installables.
 
 Pour que cette option soit efficace, vous devez définir la propriété **IniPath** avant que votre application n'invoque un autre code DAO. L'étendue de ce paramètre est limitée à votre application et ne peut pas être modifiée sans redémarrer votre application.
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8de2072e96ec00cab96dac19bd1af5889acd883a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ae322277dd1d357aceb3f9129110dded705f9eca
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999035"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716284"
 ---
 # <a name="relationcreatefield-method-dao"></a>Méthode Relation.CreateField (DAO)
 
@@ -36,7 +37,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -52,13 +53,13 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Argument non pris en charge pour cet objet.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Taille</em></p></td>
+<td><p><em>Size</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Argument non pris en charge pour cet objet.</p></td>
 </tr>
 </tbody>

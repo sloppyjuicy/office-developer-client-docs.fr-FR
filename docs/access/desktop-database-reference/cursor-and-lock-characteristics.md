@@ -1,19 +1,20 @@
 ---
-title: Caractéristiques de curseur et de verrou
+title: Caractéristiques du curseur et du verrou
 TOCTitle: Cursor and lock characteristics
 ms:assetid: 5f8b6700-14f6-d342-42f6-cc8e89c71a1a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249347(v=office.15)
 ms:contentKeyID: 48545164
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2b3d518ccd82ae2dbc3f280954848d58d8e617cd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 41a42aa3b0c49a5d871fa7b079a26c7d8076116a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944990"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704615"
 ---
-# <a name="cursor-and-lock-characteristics"></a>Caractéristiques de curseur et de verrou
+# <a name="cursor-and-lock-characteristics"></a>Caractéristiques du curseur et du verrou
 
 **S’applique à**: Access 2013, Office 2013
 

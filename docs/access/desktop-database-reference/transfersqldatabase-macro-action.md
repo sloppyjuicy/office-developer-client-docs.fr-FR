@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ff903c459a351f69b272224ca29f9cc717498f0a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 5ed20555726d0a6f63f0e48fb154cedb411ef8cd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996852"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711489"
 ---
 # <a name="transfersqldatabase-macro-action"></a>TransferSQLDatabase, action de macro
 
@@ -47,7 +48,7 @@ L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 <td><p>Nom du serveur de base de données SQL Server 7.0, ou version ultérieure, vers lequel la copie est effectuée.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Database</strong></p></td>
+<td><p><strong>Base de données</strong></p></td>
 <td><p>Nom de la nouvelle base de données créée sur le serveur de destination.</p></td>
 </tr>
 <tr class="odd">
@@ -59,7 +60,7 @@ L'action **TransférerBaseDeDonnéesSQL** utilise les arguments suivants :
 <td><p>Identificateur de connexion au serveur de destination.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MotDePasse</strong></p></td>
+<td><p><strong>Password</strong></p></td>
 <td><p>Mot de passe de l’argument <strong>Connexion</strong>. Ce mot de passe est stocké sous forme de texte dans le projet Access, mais il est masqué durant l’opération de transfert de base de données.</p></td>
 </tr>
 <tr class="even">

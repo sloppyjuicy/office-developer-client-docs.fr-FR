@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195248(v=office.15)
 ms:contentKeyID: 48545377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 294d61ba964958d7933a68919df940cb7501ec0d
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 208d0a5097b8473fef60b94f972f2c8579150fc7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927031"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699694"
 ---
 # <a name="parametertype-property-dao"></a>Propriété Parameter.Type (DAO)
 
@@ -39,7 +40,7 @@ Pour un objet **Parameter**, les paramètres et valeurs de retour possibles sont
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

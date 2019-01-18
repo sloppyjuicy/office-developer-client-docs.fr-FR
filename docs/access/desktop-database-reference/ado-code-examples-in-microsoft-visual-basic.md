@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249342(v=office.15)
 ms:contentKeyID: 48545145
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 184100c09c2b5e34f98bf29711bf9f176fa034a8
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8237e9f846bb012c593bf4d94c83bac835daf28d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910914"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702403"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic"></a>Exemples de code ADO dans Microsoft Visual Basic
 
@@ -41,7 +42,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 - [GetRows, méthode-exemple](getrows-method-example-vb.md)
 - [GetString, méthode-exemple](getstring-method-example-vb.md)
 - [SkipLine, méthode, EOS et LineSeparator, propriétés-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
-- [Move, méthode-exemple](move-method-example-vb.md)
+- [Move (méthode) – Exemple](move-method-example-vb.md)
 - [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes-exemple](movefirst-movelast-movenext-and-moveprevious-methods-example-vb.md)
 - [NextRecordset, méthode-exemple](nextrecordset-method-example-vb.md)
 - [Open et Close, méthodes-exemple](open-and-close-methods-example-vb.md)
@@ -66,7 +67,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 - [BOF, EOF et Bookmark, propriétés-exemple](bof-eof-and-bookmark-properties-example-vb.md)
 - [CacheSize, propriété-exemple](cachesize-property-example-vb.md)
 - [ConnectionString, ConnectionTimeout et State, propriétés-exemple](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
-- [Count, propriété-exemple](count-property-example-vb.md)
+- [Count (propriété) – Exemple](count-property-example-vb.md)
 - [CursorType, LockType et EditMode, propriétés-exemple](cursortype-locktype-and-editmode-properties-example-vb.md)
 - [Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
 - [Propriétés EOS et LineSeparator, SkipLine, méthode-exemple](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
@@ -87,6 +88,6 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 - [StayInSync, propriété-exemple](stayinsync-property-example-vb.md)
 - [Type, propriété-Exemple (objet Field)](type-property-example-field-vb.md)
 - [Type, propriété-Exemple (propriété)](type-property-example-property-vb.md)
-- [Exemple de valeur de propriété](value-property-example-vb.md)
+- [Value (propriété) – Exemple](value-property-example-vb.md)
 - [Exemple de propriété version](version-property-example-vb.md)
 

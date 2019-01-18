@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249899(v=office.15)
 ms:contentKeyID: 48547384
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 54217fdfe40bd8fea9b94ac78f1e05d2d94daa71
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f733c574ba7927587c6fcb6305a361ca1070de0f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949984"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703306"
 ---
 # <a name="addnew-method-ado"></a>AddNew, méthode (ADO)
 
@@ -23,7 +24,7 @@ Crée un enregistrement pour un objet [Recordset](recordset-object-ado.md) actua
 
 *jeu d’enregistrements*. De AddNew *FieldList*, groupes de *valeurs*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
 ms:contentKeyID: 48543078
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3fa1474b12665b38c0e2e60dde953eb6082d9430
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 68a4583fd96682622476f523e6e5d6129b3be575
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997992"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701381"
 ---
 # <a name="workspacesdelete-method-dao"></a>Méthode Workspaces.Delete (DAO)
 
@@ -36,7 +37,7 @@ Supprime le formulaire **Workspace** dans la collection **Workspaces**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -46,7 +47,7 @@ Supprime le formulaire **Workspace** dans la collection **Workspaces**.
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Nom de l'espace de travail à supprimer.</p></td>
 </tr>
 </tbody>

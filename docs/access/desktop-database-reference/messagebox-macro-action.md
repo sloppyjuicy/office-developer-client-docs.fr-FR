@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192304(v=office.15)
 ms:contentKeyID: 48544077
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 14f3cd56323b68f54228e01413f984542c7f3c1a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944514"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722927"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox, action de macro
 
@@ -19,7 +20,7 @@ ms.locfileid: "25944514"
 
 Vous pouvez utiliser l’action de **contrôle zonemessage** pour afficher une boîte de message contenant un avertissement ou un message d’information. Par exemple, vous pouvez utiliser l’action de **contrôle zonemessage** avec des macros de validation. Lorsqu’un contrôle ou un enregistrement échoue une condition de validation de la macro, une boîte de message peut afficher un message d’erreur et fournissent des instructions sur le type de données qui doivent être saisies.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action de **contrôle zonemessage** possède les arguments suivants.
 
@@ -103,7 +104,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>AtteindreContrôle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: NomSociété</p></td>
 <td><p>Déplacer le focus sur le contrôle NomSociété.</p></td>
 </tr>
@@ -115,7 +116,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nom du formulaire</strong>: produit liste <strong>affichage</strong>: <strong>DatasheetFilter nom</strong>: <strong>Condition Where</strong>: [n° fournisseur] = [Forms] ! [Fournisseurs] ! [N° fournisseur] <strong>Mode données</strong>: <strong>Le Mode lecture OnlyWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>

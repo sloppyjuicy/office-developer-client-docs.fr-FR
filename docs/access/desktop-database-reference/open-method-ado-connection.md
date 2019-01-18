@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248951(v=office.15)
 ms:contentKeyID: 48543525
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66a62128a8ad8828c501cdaf899448edd9f1d37f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b3b83eb87b181320c86e1aea91ede70cd173a5ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949872"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717565"
 ---
 # <a name="open-method-ado-connection"></a>Open, méthode (connexion ADO)
 
@@ -23,12 +24,12 @@ Ouvre une connexion à une source de données.
 
 *connexion*. Ouvrez*ConnectionString*, *UserID*, *le mot de passe*, *Options*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
 |*ConnectionString* |Facultatif. Valeur de type **String** contenant des informations de connexion. Consultez la propriété [ConnectionString](connectionstring-property-ado.md) pour en savoir plus sur les paramètres valides.|
-|*Nom d’utilisateur* |Facultatif. Valeur de type **String** contenant le nom d'utilisateur à employer lors de l'établissement de la connexion.|
+|*UserID* |Facultatif. Valeur de type **String** contenant le nom d'utilisateur à employer lors de l'établissement de la connexion.|
 |*Password* |Facultatif. Valeur de type **String** contenant le mot de passe à employer lors de l'établissement de la connexion.|
 |*Options* |Facultatif. Valeur [ConnectOptionEnum](connectoptionenum.md) qui détermine si cette méthode doit être exécutée après l'établissement de la connexion (de façon synchrone) ou avant (de façon asynchrone).|
 

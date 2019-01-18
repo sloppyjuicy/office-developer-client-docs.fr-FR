@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
 ms:contentKeyID: 48544303
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 9dda0ef3b268c164e1bb1f8fbad91f96328c30c2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7443e0cb29954fae9dfc193ffc6aa8dee9886089
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25881985"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701066"
 ---
 # <a name="cursoroptionenum"></a>CursorOptionEnum
 
@@ -29,7 +30,7 @@ Spécifie la fonctionnalité que la méthode [Supports](supports-method-ado.md) 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

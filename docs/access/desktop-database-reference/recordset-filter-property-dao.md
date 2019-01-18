@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
 ms:contentKeyID: 48548953
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 94bb24fcd6df83f06a704c8569a1a6391638ad91
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7ab090dd6cf0b6e2676cf05907ac77c438f22652
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923531"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711706"
 ---
 # <a name="recordsetfilter-property-dao"></a>Propriété Recordset.Filter (DAO)
 
@@ -33,7 +34,7 @@ Utilisez la propriété **Filter** pour appliquer un filtre à un objet **Record
 
 La propriété **Filter** permet de limiter le nombre d'enregistrements renvoyés à partir d'un objet existant lorsqu'un nouvel objet **Recordset** est ouvert sur la base d'un objet **Recordset** existant.
 
-Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous n’utilisez pas la version de moteur de base de données Microsoft Access (dans ce cas, vous devez assembler les dates en concaténant des chaînes, par exemple strMonth & «- » & strDay & «- » & strYear). Sinon, il est possible que le filtrage des données ne donne pas les résultats escomptés.
+Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous n’utilisez pas la version de moteur de base de données Microsoft Access (dans ce cas, vous devez assembler les dates en concaténant des chaînes, par exemple, strMonth & «- » _ aMP_ strDay & «- » & strYear). Sinon, il est possible que le filtrage des données ne donne pas les résultats escomptés.
 
 Dans la plupart des cas, il est plus rapide d'ouvrir un nouvel objet **Recordset** à l'aide d'une instruction SQL qui inclut une clause WHERE.
 

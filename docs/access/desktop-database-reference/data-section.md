@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 98215394af89df30a95fcb9c5a757368cb64d4f1
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1b8e3baf4d147edcc739e59933da4697c08cdef0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946376"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700772"
 ---
-# <a name="data-section"></a>Section des données
+# <a name="data-section"></a>Section Données
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -34,6 +35,7 @@ Les caractères suivants sont réservés dans XML et doivent être remplacés pa
 Les données binaires sont codées en type de données bin.hex (c'est-à-dire qu'un octet correspond à deux caractères, un caractère par quartet).
 
 ## <a name="datetime"></a>DateTime
+
 
 La variante VT\_format de DATE n’est pas directement pris en charge par les types de données XML-Data. Le format correct des dates avec un composant à la fois une date et l’heure est aaaa-mm-jj**T**hh.
 

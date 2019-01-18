@@ -10,12 +10,13 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 9b240dbf55d2907b24b47349ee56e492f7d5e08d
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2e76cc7d6b5254f2347e2264b0588ee1df643d05
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026462"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709137"
 ---
 # <a name="initializing-the-text-data-source-driver"></a>Initialisation du pilote de Source de données texte
 
@@ -501,7 +502,7 @@ Le moteur de base de données Microsoft Access utilise les entrées du fichier S
 <tr class="odd">
 <td><p>DélimiteurTexte</p></td>
 <td><p>Peut être tout caractère utilisé pour délimiter les chaînes qui contiennent un des autres caractères spéciaux.
- Ex. : &quot;ABC&quot;,&quot;xyz, pqr&quot;,&quot;hij&quot; si cette entrée n’est pas présente le séparateur par défaut est un guillemet double. Si cette entrée est la chaîne &quot;aucun&quot; puis aucun des caractères ne sont considérés comme des séparateurs.</p></td>
+ Par exemple, &quot;ABC&quot;,&quot;xyz, pqr&quot;,&quot;hij&quot; si cette entrée n’est pas présente le séparateur par défaut est un guillemet double. Si cette entrée est la chaîne &quot;aucun&quot; puis aucun des caractères ne sont considérés comme des séparateurs.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,19 +1,20 @@
 ---
-title: Section Connect du fichier de personnalisation
+title: Section de connexion du fichier de personnalisation
 TOCTitle: Customization File Connect section
 ms:assetid: 037abfb4-798d-4b09-6133-356969aee95c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248802(v=office.15)
 ms:contentKeyID: 48542985
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 49e2d6cc8579f064df3e752268fce5b47c9b1ada
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8652aa2c028350aab79cdf101cba189026b9a5ae
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944185"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702851"
 ---
-# <a name="customization-file-connect-section"></a>Section Connect du fichier de personnalisation
+# <a name="customization-file-connect-section"></a>Section de connexion du fichier de personnalisation
 
 **S’applique à**: Access 2013, Office 2013
 

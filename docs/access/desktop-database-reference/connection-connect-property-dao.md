@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
 ms:contentKeyID: 48545001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3a6c20ca3329edb64b79aa92c7598237c393bed5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e44ce5b4acf58f3f9d9e887d0136baed64c8e227
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25931070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720190"
 ---
 # <a name="connectionconnect-property-dao"></a>Propriété Connection.Connect (DAO)
 
@@ -140,7 +141,7 @@ Le tableau suivant indique les types de bases de données possibles, ainsi que l
 <tr class="even">
 <td><p>ODBC</p></td>
 <td><p>ODBC ; Base de données = base de données ; UID = utilisateur ; PWD = mot de passe ; DSN = NomSourceDonnées ; [LOGINTIMEOUT = secondes ;]</p></td>
-<td><p>Aucune</p></td>
+<td><p>Aucun</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Exchange</p></td>
