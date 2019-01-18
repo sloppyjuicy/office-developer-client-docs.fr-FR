@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249989(v=office.15)
 ms:contentKeyID: 48547711
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 85a43312db4861cd4c39742eff2cc39be6f1950f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 783897154347cebf997dd41e4ea2e0a4d6deb442
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886689"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703159"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="d1500-102">IsolationLevel et Mode, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d1500-102">IsolationLevel and Mode properties example (VJ++)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="cdd7a-102">IsolationLevel et Mode, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="cdd7a-102">IsolationLevel and Mode properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="d1500-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1500-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cdd7a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cdd7a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d1500-104">Cet exemple utilise la propriété [Mode](mode-property-ado.md) pour ouvrir une connexion exclusive et la propriété [IsolationLevel](isolationlevel-property-ado.md) pour ouvrir une transaction effectuée indépendamment des autres transactions.</span><span class="sxs-lookup"><span data-stu-id="d1500-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="cdd7a-104">Cet exemple utilise la propriété [Mode](mode-property-ado.md) pour ouvrir une connexion exclusive et la propriété [IsolationLevel](isolationlevel-property-ado.md) pour ouvrir une transaction effectuée indépendamment des autres transactions.</span><span class="sxs-lookup"><span data-stu-id="cdd7a-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```java 
  
