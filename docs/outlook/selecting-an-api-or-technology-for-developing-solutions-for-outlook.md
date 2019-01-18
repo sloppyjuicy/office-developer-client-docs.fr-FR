@@ -3,15 +3,15 @@ title: Sélection d’une API ou d’une technologie pour le développement de s
 manager: soliver
 ms.date: 10/21/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
-ms.openlocfilehash: 1ff4a7b315966348b4638f2c3075fc6d2149ff21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: c744fcd834c01bd2835f88843d4be67e6122ac15
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399227"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723102"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -542,7 +542,7 @@ Les ressources suivantes fournissent plus d'informations sur l'utilisation du mo
 
 - [Joindre un fichier à un élément de courrier](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Types de pièces jointes limités par Outlook 2010](https://technet.microsoft.com/fr-FR/library/cc179163.aspx)
+- [Types de pièces jointes limités par Outlook 2010](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - Objet [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
@@ -728,7 +728,7 @@ Consultez les propriétés suivantes liées aux tâches dans certains objets d'�
     
 - [Modifications de l'arrêt d'Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Types de fichiers de pièces jointes restreints par Outlook 2010](https://technet.microsoft.com/fr-FR/library/cc179163.aspx)
+- [Types de fichiers de pièces jointes restreints par Outlook 2010](https://technet.microsoft.com/en-us/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     

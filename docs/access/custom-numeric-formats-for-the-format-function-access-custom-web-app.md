@@ -3,22 +3,22 @@ title: Formats numériques personnalisés pour la fonction Format (application w
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
-ms.openlocfilehash: fac128ce13edf89105fbee7319533e1a3f346d05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781847"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706253"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Formats numériques personnalisés pour la fonction Format (application web personnalisée Access)
 
 Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
 Vous pouvez modifier l'affichage d'un nombre en créant un format numérique défini par l'utilisateur. Un format numérique défini par l'utilisateur peut comporter entre une et trois sections séparées par des points-virgules (;). Si l'argument Style de la fonction [Fonction de format (application web personnalisé de l'accès)](format-function-access-custom-web-app.md) contient l'un des formats numériques prédéfinis, une seule section est autorisée. 
   

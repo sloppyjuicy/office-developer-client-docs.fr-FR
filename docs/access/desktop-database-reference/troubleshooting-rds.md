@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28bc66cb521030a9f0b1fca79bd0ccb4babe407b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943786"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726196"
 ---
 # <a name="troubleshooting-rds"></a>Résolution des problèmes RDS
 
@@ -21,9 +22,9 @@ Reportez-vous à cette section pour les solutions à des erreurs spécifiques ou
 
 - [Configuration de RDS sur Windows 2000](configuring-rds-on-windows-2000.md)
 - [Blocages avec niveau d’isolation récurrent lecture](deadlocks-with-read-repeatable-isolation-level.md)
-- [Espace TempDB suffisant](ensuring-sufficient-tempdb-space.md)
+- [Garantie d’espace TempDB suffisant](ensuring-sufficient-tempdb-space.md)
 - [Erreur du serveur Internet : accès refusé](internet-server-error-access-denied.md)
-- [Minimiser l’utilisation de l’espace de fichier journal](minimizing-log-file-space-usage.md)
+- [Minimisation de l’espace occupé par le fichier journal](minimizing-log-file-space-usage.md)
 - [RDS renvoie l’erreur « Flux non lu »](rds-returns-stream-not-read-error.md)
 
 

@@ -3,15 +3,15 @@ title: Intégration des applications de messagerie instantanée à Office
 manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
-ms.openlocfilehash: fbb3c68126b16e04cd00e950828fc67d16fc7669
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401734"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700709"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 

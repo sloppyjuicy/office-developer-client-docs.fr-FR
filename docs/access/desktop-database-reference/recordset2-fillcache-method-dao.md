@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: ef0f4ad298e316cbae295bcf4f6c4c5349b18655
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998531"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726112"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Méthode Recordset2.FillCache (DAO)
 
@@ -40,7 +41,7 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,13 +51,13 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 <tr class="odd">
 <td><p><em>Rows</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de la propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Signetdébut</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous ne spécifiez pas cet argument, le cache est rempli à partir de l’enregistrement indiqué par la propriété <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
 </tr>
 </tbody>

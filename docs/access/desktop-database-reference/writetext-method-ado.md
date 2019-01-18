@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9f2a65373add9263bac97ca20a9f29de4307599f
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
+localization_priority: Normal
+ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025839"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726245"
 ---
 # <a name="writetext-method-ado"></a>WriteText, méthode (ADO)
 
@@ -23,11 +24,11 @@ ms.locfileid: "26025839"
 
 *Flux de données*. WriteText les*données*, *Options*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
-|*Data* |Valeur de type **String** contenant les caractères du texte à écrire.|
+|*Données* |Valeur de type **String** contenant les caractères du texte à écrire.|
 |*Options* |Facultatif. Valeur [StreamWriteEnum](streamwriteenum.md) spécifiant si un séparateur de ligne doit être écrit à la fin de la chaîne spécifiée.|
 
 ## <a name="remarks"></a>Notes

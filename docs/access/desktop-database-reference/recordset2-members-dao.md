@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5f7011edaf7cbeb145ea30af64f7ba6bd85945f4
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
+localization_priority: Normal
+ms.openlocfilehash: 29d1472e8cd02d8968ba84dbc1c1cf99be7ee858
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937707"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726280"
 ---
 # <a name="recordset2-members-dao"></a>Membres de l’objet Recordset2 (DAO)
 
@@ -39,7 +40,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Crée un enregistrement pour un objet <strong>Recordset2</strong> modifiable.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-cancel-method-dao.md">Annuler</a></strong></p></td>
+<td><p><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></p></td>
 <td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Annule l'exécution d'un appel asynchrone de méthode en attente (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
@@ -92,7 +93,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Récupère plusieurs lignes d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-move-method-dao.md">Déplacer</a></strong></p></td>
+<td><p><strong><a href="recordset2-move-method-dao.md">Move</a></strong></p></td>
 <td><p>Déplace l'enregistrement actif d'un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -175,7 +176,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Renvoie une valeur qui indique si la position de l'enregistrement actif est située avant le premier enregistrement dans un objet <strong>Recordset</strong>. Valeur de type <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-bookmark-property-dao.md">Signet</a></strong></p></td>
+<td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
 <td><p>Définit ou renvoie un signet qui identifie de façon unique l'enregistrement actif dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -231,7 +232,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="recordset2-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -285,7 +286,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 <td><p>Renvoie une valeur indiquant si vous pouvez modifier un objet DAO. Type <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions (OptionsMAJ)</a></strong></p></td>
+<td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>
 <td><p><strong>Remarque</strong>: les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</p>
 <p>Définit ou renvoie une valeur qui indique la manière dont est construite la clause WHERE pour chaque enregistrement pendant une mise à jour par lot, et si cette dernière doit utiliser une instruction UPDATE ou DELETE suivie d'un INSERT (espaces de travail ODBCDirect uniquement). Type de données <strong><a href="updatecriteriaenum-enumeration-dao.md">UpdateCriteriaEnum</a></strong>. En lecture/écriture.</p></td>
 </tr>

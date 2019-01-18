@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
 ms:contentKeyID: 48548121
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 39d338a902e9f7bf1c5396b579f64b14284aa901
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: d5526c571e53021c1b27aad8f3c18d7ebdc9ecb6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998440"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726308"
 ---
 # <a name="recordset2findnext-method-dao"></a>Méthode Recordset2.FindNext (DAO)
 
@@ -36,7 +37,7 @@ Recherche l'enregistrement suivant dans un objet **[Recordset](recordset-object-
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>

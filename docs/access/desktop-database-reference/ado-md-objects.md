@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fca73b9e8a77e102ad694dde8fd9759b20c1fcaf
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
+localization_priority: Normal
+ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910837"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726210"
 ---
 # <a name="ado-md-objects"></a>Objets ADO MD
 
@@ -30,11 +31,11 @@ ms.locfileid: "25910837"
 <th>Description</th>
 </tr>
 <tr class="odd">
-<td><p><a href="axis-object-ado-md.md">Axe</a></p></td>
+<td><p><a href="axis-object-ado-md.md">Axis</a></p></td>
 <td><p>Représente un axe de position ou de filtrage d'un ensemble de cellules, contenant des membres sélectionnés d'une ou plusieurs dimensions.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="catalog-object-ado-md.md">Catalogue</a></p></td>
+<td><p><a href="catalog-object-ado-md.md">Catalog</a></p></td>
 <td><p>Contient les informations de schéma multidimensionnel (en d'autres termes, les cubes et dimensions sous-jacentes, les hiérarchies, les niveaux et les membres) spécifiques à un fournisseur de données multidimensionnelles (MDP).</p></td>
 </tr>
 <tr class="odd">
@@ -42,7 +43,7 @@ ms.locfileid: "25910837"
 <td><p>Représente les données situées à l'intersection des coordonnées et contenues dans un ensemble de cellules.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="cellset-object-ado-md.md">Ensemble de cellules</a></p></td>
+<td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
 <td><p>Représente les résultats d'une requête multidimensionnelle. Il s'agit d'une collection de cellules sélectionnées dans des cubes ou d'autres ensembles de cellules.</p></td>
 </tr>
 <tr class="odd">
@@ -54,7 +55,7 @@ ms.locfileid: "25910837"
 <td><p>Représente une des dimensions d'un cube multidimensionnel, contenant une ou plusieurs hiérarchies de membres.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="hierarchy-object-ado-md.md">Hiérarchie</a></p></td>
+<td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
 <td><p>Représente un mode qui les membres d’une dimension peuvent être regroupés ou &quot;reportées. &quot; Une dimension peut être agrégée selon une ou plusieurs hiérarchies.</p></td>
 </tr>
 <tr class="even">
@@ -91,7 +92,7 @@ En outre, l'objet **Catalog** est lié à un objet ADO **Connection**, qui est i
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="connection-object-ado.md">Objet Connection</a></p></td>
+<td><p><a href="connection-object-ado.md">Connection</a></p></td>
 <td><p>Représente une connexion ouverte à une source de données.</p></td>
 </tr>
 </tbody>

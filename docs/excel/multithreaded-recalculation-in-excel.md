@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - thread-safe cells [excel 2007],multithreading in Excel,concurrent tasks [Excel 2007],thread-safe functions [Excel 2007],multithreaded recalculation [Excel 2007],MTR [Excel 2007],XLL functions [Excel 2007], registering as thread safe,recalculation [Excel 2007], multithreaded,memory contention [Excel 2007],registering XLL functions as thread safe [Excel 2007],unsafe functions [Excel 2007]
-localization_priority: Normal
 ms.assetid: c6c831f1-4be1-4dcc-a0fa-c26052ec53c9
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 010a1029e0bf5ba1a36b324ebd402f6e90603fb9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: f0b6f3d7310cac6d141fc74652a3333f70bda8e9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782179"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720708"
 ---
 # <a name="multithreaded-recalculation-in-excel"></a>Recalcul multithread dans Excel
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
 ms:contentKeyID: 48547802
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: be8127ea3f298a8f137012615b1f4de656a6ea1f
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
+localization_priority: Normal
+ms.openlocfilehash: 321040a39b02f31f0265df6e91748df13c05032c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949711"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726301"
 ---
 # <a name="seek-method-ado"></a>Seek, méthode (ADO)
 
@@ -23,7 +24,7 @@ Effectue une recherche dans l'index d'un objet [Recordset](recordset-object-ado.
 
 *jeu d’enregistrements*. Seek*KeyValues*, *SeekOption*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

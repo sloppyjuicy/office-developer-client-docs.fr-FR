@@ -3,14 +3,14 @@ title: Access
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Access.
 ms.date: 10/16/2018
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
-ms.openlocfilehash: ff4b96b06b57de1fdf394e93d213a4262dcafc0e
-ms.sourcegitcommit: 801b1b54786f7b0e5b0d35466e7ae8d1e840b26f
+localization_priority: Priority
+ms.openlocfilehash: c32fec61ead1433581f528ebefff7b0f4b59df62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25861539"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706113"
 ---
 # <a name="access"></a>Access
 

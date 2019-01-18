@@ -3,15 +3,15 @@ title: Intégration à Office
 manager: soliver
 ms.date: 07/29/2015
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: Vous pouvez effectuer une intégration à Office pour iOS, Office pour Android, Office Online, Excel, PowerPoint ou Word Mobile à partir de vos applications et expériences web, ce qui permet à vos utilisateurs de passer sans problème aux applications Office à partir de solutions tierces.
-ms.openlocfilehash: 3656e458857124430949a515f2f517fca7cad23b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Priority
+ms.openlocfilehash: 332f61f2b7a551516e55e7c966c649a6ee5f7f80
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388286"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719343"
 ---
 # <a name="integrate-with-office"></a>Intégration à Office
 

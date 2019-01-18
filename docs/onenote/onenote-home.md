@@ -3,15 +3,15 @@ title: OneNote
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: Recherchez des procédures, des articles techniques, du contenu de référence et des billets de blog pour découvrir des solutions de développement et de personnalisation des applications clientes de bureau OneNote.
-ms.openlocfilehash: db81109cd4d56bddb90ce70467070a94e12c9029
-ms.sourcegitcommit: 6a314fdfde4349591ed899019695c36537f45924
+localization_priority: Priority
+ms.openlocfilehash: 1b07c330d029c164b918be2e91423ff53c2893d5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "25454480"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717992"
 ---
 # <a name="onenote"></a>OneNote
 

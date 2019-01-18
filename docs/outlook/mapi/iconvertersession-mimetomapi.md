@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d71dd44d2dfc39124c5300d2597f5d8ed1e95ebb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: 356f4470be26ae3803a53af1cec34b3ac6eb0cc9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395412"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28723032"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Convertit un flux de données MIME à un message MAPI.
   
@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pstm_
   
@@ -69,6 +69,9 @@ CCSF_INCLUDE_BCC
 CCSF_USE_RTF
   
 > Le corps HTML de l’objet stream MIME doivent être converti au Format RTF (RICH Text Format) dans le message MAPI.
+
+CCSF_GLOBAL_MESSAGE
+> Le convertisseur doit gérer le flux MIME sous forme de message international (EAI/RFC6530). Non pris en charge dans Outlook 2013.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - accès aux fichiers dlls [Excel 2007], DLLs [Excel 2007], accès dans Excel
-localization_priority: Normal
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: bfb562b6bbe824124c6b5a691745d076720ee004
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+localization_priority: Priority
+ms.openlocfilehash: fac4ad30048aa1bf3879009bc97ea46a112a9ce5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782130"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701374"
 ---
 # <a name="access-dlls-in-excel"></a>Accès aux fichiers DLL dans Excel
 
