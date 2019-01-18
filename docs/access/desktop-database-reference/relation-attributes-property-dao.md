@@ -6,33 +6,34 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
 ms:contentKeyID: 48548098
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 01b9a49b5b8ec9b702b3fd5beb8b03e3b2365788
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2dc6bd5ccc607854ab59de51bdb96d9ceebe1acf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919828"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708885"
 ---
-# <a name="relationattributes-property-dao"></a><span data-ttu-id="4d5fb-102">Propriété Relation.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d5fb-102">Relation.Attributes property (DAO)</span></span>
+# <a name="relationattributes-property-dao"></a><span data-ttu-id="b5f55-102">Propriété Relation.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="b5f55-102">Relation.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="4d5fb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d5fb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5f55-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5f55-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d5fb-p101">Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. Type **Long** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="4d5fb-p101">Sets or returns a value that indicates one or more characteristics of a **Relation** object. Read/write **Long**.</span></span>
+<span data-ttu-id="b5f55-p101">Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. Type **Long** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="b5f55-p101">Sets or returns a value that indicates one or more characteristics of a **Relation** object. Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d5fb-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4d5fb-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5f55-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b5f55-106">Syntax</span></span>
 
-<span data-ttu-id="4d5fb-107">*expression* . Attributs</span><span class="sxs-lookup"><span data-stu-id="4d5fb-107">*expression* .Attributes</span></span>
+<span data-ttu-id="b5f55-107">*expression* . Attributs</span><span class="sxs-lookup"><span data-stu-id="b5f55-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="4d5fb-108">*expression* Variable qui représente un objet **Relation** .</span><span class="sxs-lookup"><span data-stu-id="4d5fb-108">*expression* A variable that represents a **Relation** object.</span></span>
+<span data-ttu-id="b5f55-108">*expression* Variable qui représente un objet **Relation** .</span><span class="sxs-lookup"><span data-stu-id="b5f55-108">*expression* A variable that represents a **Relation** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4d5fb-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="4d5fb-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5f55-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="b5f55-109">Remarks</span></span>
 
-<span data-ttu-id="4d5fb-110">Cette propriété est en lecture/écriture pour les objets non encore ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="4d5fb-110">For an object not yet appended to a collection, this property is read/write.</span></span>
+<span data-ttu-id="b5f55-110">Cette propriété est en lecture/écriture pour les objets non encore ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="b5f55-110">For an object not yet appended to a collection, this property is read/write.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4d5fb-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="4d5fb-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b5f55-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="b5f55-111">Example</span></span>
 
-<span data-ttu-id="4d5fb-112">Cet exemple affiche la propriété **Attributes** des objets **Field**, **Relation** et **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="4d5fb-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+<span data-ttu-id="b5f55-112">Cet exemple affiche la propriété **Attributes** des objets **Field**, **Relation** et **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="b5f55-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

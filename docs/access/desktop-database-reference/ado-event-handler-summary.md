@@ -1,30 +1,31 @@
 ---
-title: Gestionnaire d’événements ADO résumé
+title: Résumé du gestionnaire d’événements ADO
 TOCTitle: ADO event handler summary
 ms:assetid: f50b9eb4-df6e-7b9d-0b3d-dca8945167a2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250247(v=office.15)
 ms:contentKeyID: 48548701
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d18414793d6a28450dea349e03624ad7aa2537f9
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945361"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710208"
 ---
-# <a name="ado-event-handler-summary"></a><span data-ttu-id="b450f-102">Résumé du gestionnaire d’événements ADO</span><span class="sxs-lookup"><span data-stu-id="b450f-102">ADO Event Handler Summary</span></span>
+# <a name="ado-event-handler-summary"></a><span data-ttu-id="7e7b4-102">Résumé du gestionnaire d’événements ADO</span><span class="sxs-lookup"><span data-stu-id="7e7b4-102">ADO Event Handler Summary</span></span>
 
 
-<span data-ttu-id="b450f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b450f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7e7b4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e7b4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b450f-p101">Deux objets ADO peuvent déclencher des événements : l'objet [Connection](connection-object-ado.md) et l'objet [Recordset](recordset-object-ado.md). La famille **ConnectionEvent** est liée aux opérations sur l'objet **Connection** et la famille **RecordsetEvent** aux opérations sur l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="b450f-p101">Two ADO objects can raise events: the [Connection](connection-object-ado.md) object and the [Recordset](recordset-object-ado.md) object. The **ConnectionEvent** family pertains to operations on the **Connection** object, and the **RecordsetEvent** family pertains to operations on the **Recordset** object.</span></span>
+<span data-ttu-id="7e7b4-p101">Deux objets ADO peuvent déclencher des événements : l'objet [Connection](connection-object-ado.md) et l'objet [Recordset](recordset-object-ado.md). La famille **ConnectionEvent** est liée aux opérations sur l'objet **Connection** et la famille **RecordsetEvent** aux opérations sur l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-p101">Two ADO objects can raise events: the [Connection](connection-object-ado.md) object and the [Recordset](recordset-object-ado.md) object. The **ConnectionEvent** family pertains to operations on the **Connection** object, and the **RecordsetEvent** family pertains to operations on the **Recordset** object.</span></span>
 
-- <span data-ttu-id="b450f-106">**Événements Connection**: événements déclenchés lorsqu'une transaction sur une connexion est exécutée, validée ou annulée, lorsqu'un objet [Command](command-object-ado.md) est exécuté, lorsqu'un avertissement est émis au cours d'une opération sur un **événement Connection** ou lorsqu'un objet **Connection** est établi ou fermé.</span><span class="sxs-lookup"><span data-stu-id="b450f-106">**Connection Events**: Events are issued when a transaction on a connection begins, is committed, or is rolled back; when a [Command](command-object-ado.md) executes; when a warning occurs during a **Connection Event** operation; or when a **Connection** starts or ends.</span></span>
+- <span data-ttu-id="7e7b4-106">**Événements Connection**: événements déclenchés lorsqu'une transaction sur une connexion est exécutée, validée ou annulée, lorsqu'un objet [Command](command-object-ado.md) est exécuté, lorsqu'un avertissement est émis au cours d'une opération sur un **événement Connection** ou lorsqu'un objet **Connection** est établi ou fermé.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-106">**Connection Events**: Events are issued when a transaction on a connection begins, is committed, or is rolled back; when a [Command](command-object-ado.md) executes; when a warning occurs during a **Connection Event** operation; or when a **Connection** starts or ends.</span></span>
 
-- <span data-ttu-id="b450f-107">**Événements Recordset**: événements sont émises autour des opérations d’extraction asynchrone, ainsi que lorsque vous naviguez dans les lignes d’un objet **Recordset** , modifiez un champ dans une ligne d’un **jeu d’enregistrements**, modifier une ligne dans un **jeu d’enregistrements**, ouvrez un \*\* Jeu d’enregistrements\*\* avec un curseur côté serveur, fermer un **jeu d’enregistrements**ou modifier une quelconque dans le **jeu d’enregistrements**.</span><span class="sxs-lookup"><span data-stu-id="b450f-107">**Recordset Events**: Events are issued around asynchronous fetch operations as well as when you navigate through the rows of a **Recordset** object, change a field in a row of a **Recordset**, change a row in a **Recordset**, open a **Recordset** with a server-side cursor, close a **Recordset**, or make any change whatsoever in the **Recordset**.</span></span>
+- <span data-ttu-id="7e7b4-107">**Événements Recordset**: événements sont émises autour des opérations d’extraction asynchrone, ainsi que lorsque vous naviguez dans les lignes d’un objet **Recordset** , modifiez un champ dans une ligne d’un **jeu d’enregistrements**, modifier une ligne dans un **jeu d’enregistrements**, ouvrez un \*\* Jeu d’enregistrements\*\* avec un curseur côté serveur, fermer un **jeu d’enregistrements**ou modifier une quelconque dans le **jeu d’enregistrements**.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-107">**Recordset Events**: Events are issued around asynchronous fetch operations as well as when you navigate through the rows of a **Recordset** object, change a field in a row of a **Recordset**, change a row in a **Recordset**, open a **Recordset** with a server-side cursor, close a **Recordset**, or make any change whatsoever in the **Recordset**.</span></span>
 
-<span data-ttu-id="b450f-108">Les tableaux suivants présentent et décrivent les événements.</span><span class="sxs-lookup"><span data-stu-id="b450f-108">The following tables summarize the events and their descriptions.</span></span>
+<span data-ttu-id="7e7b4-108">Les tableaux suivants présentent et décrivent les événements.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-108">The following tables summarize the events and their descriptions.</span></span>
 
 <table>
 <colgroup>
@@ -33,26 +34,26 @@ ms.locfileid: "25945361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b450f-109">ConnectionEvent</span><span class="sxs-lookup"><span data-stu-id="b450f-109">ConnectionEvent</span></span></p></th>
-<th><p><span data-ttu-id="b450f-110">Description</span><span class="sxs-lookup"><span data-stu-id="b450f-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="7e7b4-109">ConnectionEvent</span><span class="sxs-lookup"><span data-stu-id="7e7b4-109">ConnectionEvent</span></span></p></th>
+<th><p><span data-ttu-id="7e7b4-110">Description</span><span class="sxs-lookup"><span data-stu-id="7e7b4-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b450f-111"><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</span><span class="sxs-lookup"><span data-stu-id="b450f-111"><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</span></span></p></td>
-<td><p><span data-ttu-id="b450f-112"><strong>Gestion des transactions</strong>  : notification signalant que la transaction active sur la connexion a été lancée, validée ou annulée.</span><span class="sxs-lookup"><span data-stu-id="b450f-112"><strong>Transaction Management</strong> — Notification that the current transaction on the connection has started, committed, or rolled back.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-111"><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</span><span class="sxs-lookup"><span data-stu-id="7e7b4-111"><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-112"><strong>Gestion des transactions</strong>  : notification signalant que la transaction active sur la connexion a été lancée, validée ou annulée.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-112"><strong>Transaction Management</strong> — Notification that the current transaction on the connection has started, committed, or rolled back.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b450f-113"><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, déconnecter</a></span><span class="sxs-lookup"><span data-stu-id="b450f-113"><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, Disconnect</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-114"><strong>Gestion des connexions</strong>  : notification signalant que la connexion active va être établie, qu'elle est établie ou qu'elle est terminée.</span><span class="sxs-lookup"><span data-stu-id="b450f-114"><strong>Connection Management</strong> — Notification that the current connection will start, has started, or has ended.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-113"><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, déconnecter</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-113"><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, Disconnect</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-114"><strong>Gestion des connexions</strong>  : notification signalant que la connexion active va être établie, qu'elle est établie ou qu'elle est terminée.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-114"><strong>Connection Management</strong> — Notification that the current connection will start, has started, or has ended.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b450f-115"><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></span><span class="sxs-lookup"><span data-stu-id="b450f-115"><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-116"><strong>Gestion de l'exécution des commandes</strong>  : notification signalant que l'exécution de la commande active sur la connexion va être effectuée ou qu'elle est terminée.</span><span class="sxs-lookup"><span data-stu-id="b450f-116"><strong>Command Execution Management</strong> — Notification that the execution of the current command on the connection will start or has ended.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-115"><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-115"><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-116"><strong>Gestion de l'exécution des commandes</strong>  : notification signalant que l'exécution de la commande active sur la connexion va être effectuée ou qu'elle est terminée.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-116"><strong>Command Execution Management</strong> — Notification that the execution of the current command on the connection will start or has ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b450f-117"><a href="infomessage-event-ado.md">InfoMessage</a></span><span class="sxs-lookup"><span data-stu-id="b450f-117"><a href="infomessage-event-ado.md">InfoMessage</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-118"><strong>Informatif</strong>  : notification signalant que des informations supplémentaires sont disponibles concernant l'opération active.</span><span class="sxs-lookup"><span data-stu-id="b450f-118"><strong>Informational</strong> — Notification that there is additional information about the current operation.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-117"><a href="infomessage-event-ado.md">InfoMessage</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-117"><a href="infomessage-event-ado.md">InfoMessage</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-118"><strong>Informatif</strong>  : notification signalant que des informations supplémentaires sont disponibles concernant l'opération active.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-118"><strong>Informational</strong> — Notification that there is additional information about the current operation.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -65,30 +66,30 @@ ms.locfileid: "25945361"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b450f-119">RecordsetEvent</span><span class="sxs-lookup"><span data-stu-id="b450f-119">RecordsetEvent</span></span></p></th>
-<th><p><span data-ttu-id="b450f-120">Description</span><span class="sxs-lookup"><span data-stu-id="b450f-120">Description</span></span></p></th>
+<th><p><span data-ttu-id="7e7b4-119">RecordsetEvent</span><span class="sxs-lookup"><span data-stu-id="7e7b4-119">RecordsetEvent</span></span></p></th>
+<th><p><span data-ttu-id="7e7b4-120">Description</span><span class="sxs-lookup"><span data-stu-id="7e7b4-120">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b450f-121"><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">événement FetchComplete</a></span><span class="sxs-lookup"><span data-stu-id="b450f-121"><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">FetchComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-p102"><strong>État d'extraction</strong>  : notification de la progression d'une opération d'extraction de données ou de la fin d'une opération d'extraction. Ces événements ne sont déclenchés que si l'objet <strong>Recordset</strong> a été ouvert à l'aide d'un curseur côté client.</span><span class="sxs-lookup"><span data-stu-id="b450f-p102"><strong>Retrieval Status</strong> — Notification of the progress of a data retrieval operation, or that the retrieval operation has completed. These events are only available if the <strong>Recordset</strong> was opened using a client-side cursor.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-121"><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">événement FetchComplete</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-121"><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">FetchComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-p102"><strong>État d'extraction</strong>  : notification de la progression d'une opération d'extraction de données ou de la fin d'une opération d'extraction. Ces événements ne sont déclenchés que si l'objet <strong>Recordset</strong> a été ouvert à l'aide d'un curseur côté client.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-p102"><strong>Retrieval Status</strong> — Notification of the progress of a data retrieval operation, or that the retrieval operation has completed. These events are only available if the <strong>Recordset</strong> was opened using a client-side cursor.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b450f-124"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField, FieldChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="b450f-124"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField, FieldChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-125"><strong>Gestion des modifications des champs</strong>  : notification signalant que la valeur du champ actif va changer ou qu'elle a changé.</span><span class="sxs-lookup"><span data-stu-id="b450f-125"><strong>Field Change Management</strong> — Notification that the value of the current field will change, or has changed.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-124"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField, FieldChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-124"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField, FieldChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-125"><strong>Gestion des modifications des champs</strong>  : notification signalant que la valeur du champ actif va changer ou qu'elle a changé.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-125"><strong>Field Change Management</strong> — Notification that the value of the current field will change, or has changed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b450f-126"><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">événement EndOfRecordset</a></span><span class="sxs-lookup"><span data-stu-id="b450f-126"><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">EndOfRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-127"><strong>Gestion de la navigation</strong>  : notification signalant que la position de la ligne active dans un objet <strong>Recordset</strong> va changer, qu'elle a changé ou qu'elle a atteint la fin de l'objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="b450f-127"><strong>Navigation Management</strong> — Notification that the current row position in a <strong>Recordset</strong> will change, has changed, or has reached the end of the <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-126"><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">événement EndOfRecordset</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-126"><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">EndOfRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-127"><strong>Gestion de la navigation</strong>  : notification signalant que la position de la ligne active dans un objet <strong>Recordset</strong> va changer, qu'elle a changé ou qu'elle a atteint la fin de l'objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-127"><strong>Navigation Management</strong> — Notification that the current row position in a <strong>Recordset</strong> will change, has changed, or has reached the end of the <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b450f-128"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord, RecordChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="b450f-128"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord, RecordChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-129"><strong>Gestion des modifications des lignes</strong>  : notification signalant qu'un élément de la ligne active de l'objet <strong>Recordset</strong> va changer ou a changé.</span><span class="sxs-lookup"><span data-stu-id="b450f-129"><strong>Row Change Management</strong> — Notification that something in the current row of the <strong>Recordset</strong> will change, or has changed.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-128"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord, RecordChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-128"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord, RecordChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-129"><strong>Gestion des modifications des lignes</strong>  : notification signalant qu'un élément de la ligne active de l'objet <strong>Recordset</strong> va changer ou a changé.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-129"><strong>Row Change Management</strong> — Notification that something in the current row of the <strong>Recordset</strong> will change, or has changed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b450f-130"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset, RecordsetChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="b450f-130"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset, RecordsetChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="b450f-131"><strong>Gestion des modifications de l'objet Recordset</strong>  : notification signalant qu'un élément de l'objet <strong>Recordset</strong> actif va changer ou a changé.</span><span class="sxs-lookup"><span data-stu-id="b450f-131"><strong>Recordset Change Management</strong> — Notification that something in the current <strong>Recordset</strong> will change, or has changed.</span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-130"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset, RecordsetChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="7e7b4-130"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset, RecordsetChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="7e7b4-131"><strong>Gestion des modifications de l'objet Recordset</strong>  : notification signalant qu'un élément de l'objet <strong>Recordset</strong> actif va changer ou a changé.</span><span class="sxs-lookup"><span data-stu-id="7e7b4-131"><strong>Recordset Change Management</strong> — Notification that something in the current <strong>Recordset</strong> will change, or has changed.</span></span></p></td>
 </tr>
 </tbody>
 </table>

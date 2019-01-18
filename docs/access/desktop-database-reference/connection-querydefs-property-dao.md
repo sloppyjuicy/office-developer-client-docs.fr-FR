@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
 ms:contentKeyID: 48547304
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 914cf546d055e37589dbb03b56956c6d6a49f6c3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6da6014365f1fbd09820039558228fadd8bd1827
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921935"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718370"
 ---
-# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="3fd0e-102">Propriété Connection.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="3fd0e-102">Connection.QueryDefs property (DAO)</span></span>
+# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="7c235-102">Propriété Connection.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7c235-102">Connection.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="3fd0e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fd0e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7c235-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c235-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3fd0e-p101">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="3fd0e-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection. Read-only.</span></span>
+<span data-ttu-id="7c235-p101">Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="7c235-p101">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3fd0e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3fd0e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7c235-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7c235-106">Syntax</span></span>
 
-<span data-ttu-id="3fd0e-107">*expression* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="3fd0e-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="7c235-107">*expression* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="7c235-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="3fd0e-108">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="3fd0e-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="7c235-108">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="7c235-108">*expression* A variable that represents a **Connection** object.</span></span>
 

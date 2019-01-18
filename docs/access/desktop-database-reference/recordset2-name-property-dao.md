@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821731(v=office.15)
 ms:contentKeyID: 48547048
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c324ae4bb4547752947890f04cba0be3f76afe14
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 89ac6756ced96cf360c9d5920c48088e750383b4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922838"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711804"
 ---
-# <a name="recordset2name-property-dao"></a><span data-ttu-id="f5406-102">Propriété Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="f5406-102">Recordset2.Name property (DAO)</span></span>
+# <a name="recordset2name-property-dao"></a><span data-ttu-id="fda87-102">Propriété Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="fda87-102">Recordset2.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="f5406-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5406-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fda87-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fda87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f5406-p101">Renvoie le nom de l'objet spécifié. Type **String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f5406-p101">Returns the name of the specified object. Read-only **String**.</span></span>
+<span data-ttu-id="fda87-p101">Renvoie le nom de l'objet spécifié. Type **String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="fda87-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f5406-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f5406-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fda87-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fda87-106">Syntax</span></span>
 
-<span data-ttu-id="f5406-107">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="f5406-107">*expression* .Name</span></span>
+<span data-ttu-id="fda87-107">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="fda87-107">*expression* .Name</span></span>
 
-<span data-ttu-id="f5406-108">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="f5406-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="fda87-108">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="fda87-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f5406-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="f5406-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fda87-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="fda87-109">Remarks</span></span>
 
-<span data-ttu-id="f5406-110">La propriété **Name** d'un objet **Recordset** ouvert à l'aide d'une instruction SQL représente les 256 premiers caractères de l'instruction.</span><span class="sxs-lookup"><span data-stu-id="f5406-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
+<span data-ttu-id="fda87-110">La propriété **Name** d'un objet **Recordset** ouvert à l'aide d'une instruction SQL représente les 256 premiers caractères de l'instruction.</span><span class="sxs-lookup"><span data-stu-id="fda87-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
 

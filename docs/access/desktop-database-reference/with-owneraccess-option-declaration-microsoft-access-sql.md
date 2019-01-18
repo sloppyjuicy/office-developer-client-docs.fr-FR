@@ -12,29 +12,30 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 0eca4738d07c54b049073aaf5d4b802864761fa5
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 0882f143f13f6bd6d66c894f242a9cd50ebf9489
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920598"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718867"
 ---
-# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a><span data-ttu-id="c110c-102">DÉCLARATION OWNERACCESS OPTION (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="c110c-102">WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)</span></span>
+# <a name="with-owneraccess-option-declaration-microsoft-access-sql"></a><span data-ttu-id="ca224-102">DÉCLARATION OWNERACCESS OPTION (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ca224-102">WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="c110c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c110c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca224-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca224-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c110c-104">Dans un environnement multi-utilisateurs doté d'un groupe de travail sécurisé, utilisez cette déclaration avec une requête pour octroyer à l'utilisateur exécutant la requête les mêmes autorisations que le propriétaire de la requête.</span><span class="sxs-lookup"><span data-stu-id="c110c-104">In a multiuser environment with a secure workgroup, use this declaration with a query to give the user who runs the query the same permissions as the query's owner.</span></span>
+<span data-ttu-id="ca224-104">Dans un environnement multi-utilisateurs doté d'un groupe de travail sécurisé, utilisez cette déclaration avec une requête pour octroyer à l'utilisateur exécutant la requête les mêmes autorisations que le propriétaire de la requête.</span><span class="sxs-lookup"><span data-stu-id="ca224-104">In a multiuser environment with a secure workgroup, use this declaration with a query to give the user who runs the query the same permissions as the query's owner.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c110c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c110c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ca224-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ca224-105">Syntax</span></span>
 
-<span data-ttu-id="c110c-106">*InstructionSQL* AVEC OWNERACCESS OPTION</span><span class="sxs-lookup"><span data-stu-id="c110c-106">*sqlstatement* WITH OWNERACCESS OPTION</span></span>
+<span data-ttu-id="ca224-106">*InstructionSQL* AVEC OWNERACCESS OPTION</span><span class="sxs-lookup"><span data-stu-id="ca224-106">*sqlstatement* WITH OWNERACCESS OPTION</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c110c-107">Notes</span><span class="sxs-lookup"><span data-stu-id="c110c-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca224-107">Notes</span><span class="sxs-lookup"><span data-stu-id="ca224-107">Remarks</span></span>
 
-<span data-ttu-id="c110c-108">La déclaration WITH OWNERACCESS OPTION est facultative.</span><span class="sxs-lookup"><span data-stu-id="c110c-108">The WITH OWNERACCESS OPTION declaration is optional.</span></span>
+<span data-ttu-id="ca224-108">La déclaration WITH OWNERACCESS OPTION est facultative.</span><span class="sxs-lookup"><span data-stu-id="ca224-108">The WITH OWNERACCESS OPTION declaration is optional.</span></span>
 
-<span data-ttu-id="c110c-109">Dans l'exemple suivant, l'utilisateur a la possibilité de visualiser les informations relatives aux salaires (même si par ailleurs il n'a pas l'autorisation requise pour visualiser la table Payroll ), sous réserve que le propriétaire de la requête ait bien cette autorisation :</span><span class="sxs-lookup"><span data-stu-id="c110c-109">The following example enables the user to view salary information (even if the user does not otherwise have permission to view the Payroll table), provided that the query's owner does have that permission:</span></span>
+<span data-ttu-id="ca224-109">Dans l'exemple suivant, l'utilisateur a la possibilité de visualiser les informations relatives aux salaires (même si par ailleurs il n'a pas l'autorisation requise pour visualiser la table Payroll ), sous réserve que le propriétaire de la requête ait bien cette autorisation :</span><span class="sxs-lookup"><span data-stu-id="ca224-109">The following example enables the user to view salary information (even if the user does not otherwise have permission to view the Payroll table), provided that the query's owner does have that permission:</span></span>
 
 ``` sql
 SELECT LastName, 
@@ -44,9 +45,9 @@ ORDER BY LastName
 WITH OWNERACCESS OPTION;
 ```
 
-<span data-ttu-id="c110c-110">Si un utilisateur n'a pas l'autorisation de créer une table ou d'y ajouter des données, vous pouvez utiliser WITH OWNERACCESS OPTION pour permettre à cet utilisateur d'exécuter une requête Création de table ou une requête Ajout.</span><span class="sxs-lookup"><span data-stu-id="c110c-110">If a user is otherwise prevented from creating or adding to a table, you can use WITH OWNERACCESS OPTION to enable the user to run a make-table or append query.</span></span>
+<span data-ttu-id="ca224-110">Si un utilisateur n'a pas l'autorisation de créer une table ou d'y ajouter des données, vous pouvez utiliser WITH OWNERACCESS OPTION pour permettre à cet utilisateur d'exécuter une requête Création de table ou une requête Ajout.</span><span class="sxs-lookup"><span data-stu-id="ca224-110">If a user is otherwise prevented from creating or adding to a table, you can use WITH OWNERACCESS OPTION to enable the user to run a make-table or append query.</span></span>
 
-<span data-ttu-id="c110c-111">Si vous désirez appliquer les paramètres de sécurité du groupe de travail et les autorisations des utilisateurs, n'utilisez pas la déclaration WITH OWNERACCESS OPTION.</span><span class="sxs-lookup"><span data-stu-id="c110c-111">If you want to enforce workgroup security settings and users' permissions, do not include the WITH OWNERACCESS OPTION declaration.</span></span>
+<span data-ttu-id="ca224-111">Si vous désirez appliquer les paramètres de sécurité du groupe de travail et les autorisations des utilisateurs, n'utilisez pas la déclaration WITH OWNERACCESS OPTION.</span><span class="sxs-lookup"><span data-stu-id="ca224-111">If you want to enforce workgroup security settings and users' permissions, do not include the WITH OWNERACCESS OPTION declaration.</span></span>
 
-<span data-ttu-id="c110c-p101">Cette option nécessite que vous ayez accès au fichier System.mdw associé à la base de données. Elle n'est utile que dans le contexte d'une configuration multi-utilisateur sécurisée.</span><span class="sxs-lookup"><span data-stu-id="c110c-p101">This option requires you to have access to the System.mdw file associated with the database. It is useful only in secured multiuser implementations.</span></span>
+<span data-ttu-id="ca224-p101">Cette option nécessite que vous ayez accès au fichier System.mdw associé à la base de données. Elle n'est utile que dans le contexte d'une configuration multi-utilisateur sécurisée.</span><span class="sxs-lookup"><span data-stu-id="ca224-p101">This option requires you to have access to the System.mdw file associated with the database. It is useful only in secured multiuser implementations.</span></span>
 

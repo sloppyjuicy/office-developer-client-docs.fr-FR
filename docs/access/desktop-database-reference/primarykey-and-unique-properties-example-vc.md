@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248838(v=office.15)
 ms:contentKeyID: 48543158
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: ec71b8aec6990fbd0f05312fecf751c568773a3d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b931dd869281dcc880f39b3585c257d9308b0734
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25883406"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709193"
 ---
-# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="ad4bc-102">PrimaryKey et Unique, propriétés – Exemples (VC++)</span><span class="sxs-lookup"><span data-stu-id="ad4bc-102">PrimaryKey and Unique properties example (VC++)</span></span>
+# <a name="primarykey-and-unique-properties-example-vc"></a><span data-ttu-id="1952c-102">PrimaryKey et Unique, propriétés – Exemples (VC++)</span><span class="sxs-lookup"><span data-stu-id="1952c-102">PrimaryKey and Unique properties example (VC++)</span></span>
 
 
-<span data-ttu-id="ad4bc-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad4bc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1952c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1952c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad4bc-p101">Cet exemple illustre les propriétés [PrimaryKey](primarykey-property-adox.md) et [Unique](unique-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée une table de deux colonnes. Les propriétés **PrimaryKey** et **Unique** servent à définir une colonne en tant que clé primaire pour laquelle les doublons ne sont pas autorisés.</span><span class="sxs-lookup"><span data-stu-id="ad4bc-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
+<span data-ttu-id="1952c-p101">Cet exemple illustre les propriétés [PrimaryKey](primarykey-property-adox.md) et [Unique](unique-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée une table de deux colonnes. Les propriétés **PrimaryKey** et **Unique** servent à définir une colonne en tant que clé primaire pour laquelle les doublons ne sont pas autorisés.</span><span class="sxs-lookup"><span data-stu-id="1952c-p101">This example demonstrates the [PrimaryKey](primarykey-property-adox.md) and [Unique](unique-property-adox.md) properties of an [Index](index-object-adox.md). The code creates a new table with two columns. The **PrimaryKey** and **Unique** properties are used to make one column the primary key for which duplicate values are not allowed.</span></span>
 
 ```cpp 
  

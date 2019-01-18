@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
 ms:contentKeyID: 48545150
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 128a938af23b6aba1f69045bcbcdba202bd416ef
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7f8531d2135dd19e672c1f9533afc4ef6494b904
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25928886"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709144"
 ---
-# <a name="complextype-members-dao"></a><span data-ttu-id="bf9dc-102">Type complexe membres (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf9dc-102">ComplexType members (DAO)</span></span>
+# <a name="complextype-members-dao"></a><span data-ttu-id="5dc91-102">Type complexe membres (DAO)</span><span class="sxs-lookup"><span data-stu-id="5dc91-102">ComplexType members (DAO)</span></span>
 
 
-<span data-ttu-id="bf9dc-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf9dc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5dc91-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5dc91-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bf9dc-104">Représente un champ à valeur multiple.</span><span class="sxs-lookup"><span data-stu-id="bf9dc-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="5dc91-104">Représente un champ à valeur multiple.</span><span class="sxs-lookup"><span data-stu-id="5dc91-104">Represents a multi-valued field.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="bf9dc-105">Propriétés</span><span class="sxs-lookup"><span data-stu-id="bf9dc-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="5dc91-105">Propriétés</span><span class="sxs-lookup"><span data-stu-id="5dc91-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -29,14 +30,14 @@ ms.locfileid: "25928886"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bf9dc-106">Nom</span><span class="sxs-lookup"><span data-stu-id="bf9dc-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="bf9dc-107">Description</span><span class="sxs-lookup"><span data-stu-id="bf9dc-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="5dc91-106">Nom</span><span class="sxs-lookup"><span data-stu-id="5dc91-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="5dc91-107">Description</span><span class="sxs-lookup"><span data-stu-id="5dc91-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bf9dc-108"><strong><a href="complextype-fields-property-dao.md">Champs</a></strong></span><span class="sxs-lookup"><span data-stu-id="bf9dc-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="bf9dc-p101">Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="bf9dc-p101">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="5dc91-108"><strong><a href="complextype-fields-property-dao.md">Champs</a></strong></span><span class="sxs-lookup"><span data-stu-id="5dc91-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="5dc91-p101">Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="5dc91-p101">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object. Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

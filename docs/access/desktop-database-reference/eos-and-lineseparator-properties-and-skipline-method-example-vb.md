@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9a48792379f91e7cdc02653898ee880caa429fe5
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2241d61f66ea8599b60bd83a044f2073664f4bbf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869210"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718237"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="9cd7f-102">EOS et LineSeparator, propriétés et SkipLine, méthode-exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="9cd7f-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="d0f12-102">EOS et LineSeparator, propriétés et SkipLine, méthode-exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="d0f12-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
 
 
-<span data-ttu-id="9cd7f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9cd7f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d0f12-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0f12-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9cd7f-p101">Cet exemple illustre comment manipuler des flux de texte ligne par ligne. Il montre ce qu'implique le fait de remplacer le séparateur de ligne par défaut, retour/saut à la ligne (**adCRLF**) par un saut à la ligne (**adLF**) ou un retour chariot (**adCR**) simple.</span><span class="sxs-lookup"><span data-stu-id="9cd7f-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
+<span data-ttu-id="d0f12-p101">Cet exemple illustre comment manipuler des flux de texte ligne par ligne. Il montre ce qu'implique le fait de remplacer le séparateur de ligne par défaut, retour/saut à la ligne (**adCRLF**) par un saut à la ligne (**adLF**) ou un retour chariot (**adCR**) simple.</span><span class="sxs-lookup"><span data-stu-id="d0f12-p101">This example demonstrates how to manipulate text streams one line at a time. The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
 
 ```vb 
  

@@ -6,25 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249662(v=office.15)
 ms:contentKeyID: 48546421
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9731682b547c6ad6cbfa7174638c15cde6fdcfd8
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8238bb0f732189d35de3327fcef42b89f8217ef8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920423"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715738"
 ---
-# <a name="levelname-property-ado-md"></a><span data-ttu-id="8cc04-102">LevelName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="8cc04-102">LevelName property (ADO MD)</span></span>
+# <a name="levelname-property-ado-md"></a><span data-ttu-id="d230c-102">LevelName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d230c-102">LevelName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="8cc04-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8cc04-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d230c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d230c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8cc04-104">Indique le nom du niveau d'un membre.</span><span class="sxs-lookup"><span data-stu-id="8cc04-104">Indicates the name of the level of a member.</span></span>
+<span data-ttu-id="d230c-104">Indique le nom du niveau d'un membre.</span><span class="sxs-lookup"><span data-stu-id="d230c-104">Indicates the name of the level of a member.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8cc04-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="8cc04-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d230c-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="d230c-105">Return values</span></span>
 
-<span data-ttu-id="8cc04-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8cc04-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="d230c-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="d230c-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8cc04-107">Notes</span><span class="sxs-lookup"><span data-stu-id="8cc04-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d230c-107">Notes</span><span class="sxs-lookup"><span data-stu-id="d230c-107">Remarks</span></span>
 
-<span data-ttu-id="8cc04-p101">Utilisez la propriété **LevelName** pour extraire le nom du niveau auquel appartient un membre. Elle correspond à la propriété [Name](name-property-ado-md.md) d'un objet [Level](level-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="8cc04-p101">Use the **LevelName** property to retrieve the name of the level to which a member belongs. This corresponds to the [Name](name-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
+<span data-ttu-id="d230c-p101">Utilisez la propriété **LevelName** pour extraire le nom du niveau auquel appartient un membre. Elle correspond à la propriété [Name](name-property-ado-md.md) d'un objet [Level](level-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="d230c-p101">Use the **LevelName** property to retrieve the name of the level to which a member belongs. This corresponds to the [Name](name-property-ado-md.md) property of a [Level](level-object-ado-md.md) object.</span></span>
 

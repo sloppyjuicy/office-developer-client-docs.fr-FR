@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
 ms:contentKeyID: 48543804
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5dc3f307ba1cab0696a63743eed0ee1460ae1cf3
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b71692ebebe1d16c4d1c3e202c52c39d11b83dcc
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910719"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713260"
 ---
-# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="7884e-102">Rubriques de référence du programmeur ADO</span><span class="sxs-lookup"><span data-stu-id="7884e-102">ADO programmer's reference topics</span></span>
+# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="d0467-102">Rubriques de référence du programmeur ADO</span><span class="sxs-lookup"><span data-stu-id="d0467-102">ADO programmer's reference topics</span></span>
 
-<span data-ttu-id="7884e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7884e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d0467-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d0467-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7884e-104">Rubriques de référence des API ADO</span><span class="sxs-lookup"><span data-stu-id="7884e-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
-- [<span data-ttu-id="7884e-105">Rubriques de référence des API RDS</span><span class="sxs-lookup"><span data-stu-id="7884e-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
-- [<span data-ttu-id="7884e-106">Rubriques de référence des API ADO MD</span><span class="sxs-lookup"><span data-stu-id="7884e-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
-- [<span data-ttu-id="7884e-107">Rubriques de référence des API ADOX</span><span class="sxs-lookup"><span data-stu-id="7884e-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
+- [<span data-ttu-id="d0467-104">Rubriques de référence des API ADO</span><span class="sxs-lookup"><span data-stu-id="d0467-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
+- [<span data-ttu-id="d0467-105">Rubriques de référence des API RDS</span><span class="sxs-lookup"><span data-stu-id="d0467-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
+- [<span data-ttu-id="d0467-106">Rubriques de référence des API ADO MD</span><span class="sxs-lookup"><span data-stu-id="d0467-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
+- [<span data-ttu-id="d0467-107">Rubriques de référence des API ADOX</span><span class="sxs-lookup"><span data-stu-id="d0467-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
 

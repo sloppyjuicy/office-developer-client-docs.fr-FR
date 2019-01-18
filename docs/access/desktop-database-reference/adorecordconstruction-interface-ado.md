@@ -6,23 +6,24 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924588"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712007"
 ---
-# <a name="adorecordconstruction-interface-ado"></a><span data-ttu-id="93759-102">Interface ADORecordConstruction (ADO)</span><span class="sxs-lookup"><span data-stu-id="93759-102">ADORecordConstruction interface (ADO)</span></span>
+# <a name="adorecordconstruction-interface-ado"></a><span data-ttu-id="70aed-102">Interface ADORecordConstruction (ADO)</span><span class="sxs-lookup"><span data-stu-id="70aed-102">ADORecordConstruction interface (ADO)</span></span>
 
 
-<span data-ttu-id="93759-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93759-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="70aed-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70aed-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="93759-104">L'interface **ADORecordConstruction** permet de créer un objet **Record** ADO à partir d'un objet **Row** OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="93759-104">The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.</span></span>
+<span data-ttu-id="70aed-104">L'interface **ADORecordConstruction** permet de créer un objet **Record** ADO à partir d'un objet **Row** OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="70aed-104">The **ADORecordConstruction** interface is used to construct an ADO **Record** object from an OLE DB **Row** object in a C/C++ application.</span></span>
 
-<span data-ttu-id="93759-105">Cette interface prend en charge les propriétés ci-après :</span><span class="sxs-lookup"><span data-stu-id="93759-105">This interface supports the following properties:</span></span>
+<span data-ttu-id="70aed-105">Cette interface prend en charge les propriétés ci-après :</span><span class="sxs-lookup"><span data-stu-id="70aed-105">This interface supports the following properties:</span></span>
 
-## <a name="properties"></a><span data-ttu-id="93759-106">Propriétés</span><span class="sxs-lookup"><span data-stu-id="93759-106">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="70aed-106">Propriétés</span><span class="sxs-lookup"><span data-stu-id="70aed-106">Properties</span></span>
 
 <table>
 <colgroup>
@@ -31,39 +32,39 @@ ms.locfileid: "25924588"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="93759-107"><a href="parentrow-property-ado.md">Ligne parente</a></span><span class="sxs-lookup"><span data-stu-id="93759-107"><a href="parentrow-property-ado.md">ParentRow</a></span></span></p></td>
-<td><p><span data-ttu-id="93759-108">En écriture seule.</span><span class="sxs-lookup"><span data-stu-id="93759-108">Write-only.</span></span><br />
-<span data-ttu-id="93759-109">Définit le conteneur d’un objet OLE DB <strong>Row</strong> sur cet objet ADO <strong>Record</strong> .</span><span class="sxs-lookup"><span data-stu-id="93759-109">Sets the container of an OLE DB <strong>Row</strong> object on this ADO <strong>Record</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="70aed-107"><a href="parentrow-property-ado.md">ParentRow</a></span><span class="sxs-lookup"><span data-stu-id="70aed-107"><a href="parentrow-property-ado.md">ParentRow</a></span></span></p></td>
+<td><p><span data-ttu-id="70aed-108">En écriture seule.</span><span class="sxs-lookup"><span data-stu-id="70aed-108">Write-only.</span></span><br />
+<span data-ttu-id="70aed-109">Définit le conteneur d’un objet OLE DB <strong>Row</strong> sur cet objet ADO <strong>Record</strong> .</span><span class="sxs-lookup"><span data-stu-id="70aed-109">Sets the container of an OLE DB <strong>Row</strong> object on this ADO <strong>Record</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="93759-110"><a href="row-property-ado.md">Row</a></span><span class="sxs-lookup"><span data-stu-id="93759-110"><a href="row-property-ado.md">Row</a></span></span></p></td>
-<td><p><span data-ttu-id="93759-111">En lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="93759-111">Read/Write.</span></span><br />
-<span data-ttu-id="93759-112">Obtient ou définit un objet OLE DB <strong>Row</strong> à partir de/sur cet objet ADO <strong>Record</strong> .</span><span class="sxs-lookup"><span data-stu-id="93759-112">Gets/sets an OLE DB <strong>Row</strong> object from/on this ADO <strong>Record</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="70aed-110"><a href="row-property-ado.md">Ligne</a></span><span class="sxs-lookup"><span data-stu-id="70aed-110"><a href="row-property-ado.md">Row</a></span></span></p></td>
+<td><p><span data-ttu-id="70aed-111">Lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="70aed-111">Read/Write.</span></span><br />
+<span data-ttu-id="70aed-112">Obtient ou définit un objet OLE DB <strong>Row</strong> à partir de/sur cet objet ADO <strong>Record</strong> .</span><span class="sxs-lookup"><span data-stu-id="70aed-112">Gets/sets an OLE DB <strong>Row</strong> object from/on this ADO <strong>Record</strong> object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="methods"></a><span data-ttu-id="93759-113">Méthodes</span><span class="sxs-lookup"><span data-stu-id="93759-113">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="70aed-113">Méthodes</span><span class="sxs-lookup"><span data-stu-id="70aed-113">Methods</span></span>
 
-<span data-ttu-id="93759-114">Aucune.</span><span class="sxs-lookup"><span data-stu-id="93759-114">None.</span></span>
+<span data-ttu-id="70aed-114">Aucune.</span><span class="sxs-lookup"><span data-stu-id="70aed-114">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="93759-115">Événements</span><span class="sxs-lookup"><span data-stu-id="93759-115">Events</span></span>
+## <a name="events"></a><span data-ttu-id="70aed-115">Événements</span><span class="sxs-lookup"><span data-stu-id="70aed-115">Events</span></span>
 
-<span data-ttu-id="93759-116">Aucune.</span><span class="sxs-lookup"><span data-stu-id="93759-116">None.</span></span>
+<span data-ttu-id="70aed-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="70aed-116">None.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="93759-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="93759-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="70aed-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="70aed-117">Remarks</span></span>
 
-<span data-ttu-id="93759-118">Étant donné un objet OLE DB **Row** (pRow), la construction d’un objet de ADO **Record** (), la construction d’un objet ADO **Record** (adoR), les chiffres à trois opérations ci-après :</span><span class="sxs-lookup"><span data-stu-id="93759-118">Given an OLE DB **Row** object (pRow), the construction of an ADO **Record** object (), the construction of an ADO **Record** object (adoR), amounts to the following three basic operations:</span></span>
+<span data-ttu-id="70aed-118">Étant donné un objet OLE DB **Row** (pRow), la construction d’un objet de ADO **Record** (), la construction d’un objet ADO **Record** (adoR), les chiffres à trois opérations ci-après :</span><span class="sxs-lookup"><span data-stu-id="70aed-118">Given an OLE DB **Row** object (pRow), the construction of an ADO **Record** object (), the construction of an ADO **Record** object (adoR), amounts to the following three basic operations:</span></span>
 
-1.  <span data-ttu-id="93759-119">Créez un objet ADO **Record**:</span><span class="sxs-lookup"><span data-stu-id="93759-119">Create an ADO **Record** object:</span></span>
+1.  <span data-ttu-id="70aed-119">Créez un objet ADO **Record**:</span><span class="sxs-lookup"><span data-stu-id="70aed-119">Create an ADO **Record** object:</span></span>
     
     ```vb
         _RecordPtr adoR;
         adoRs.CreateInstance(__uuidof(_Record));
     ```
 
-2.  <span data-ttu-id="93759-120">Interrogez l'interface **IADORecordConstruction** sur l'objet **Record**:</span><span class="sxs-lookup"><span data-stu-id="93759-120">Query the **IADORecordConstruction** interface on the **Record** object:</span></span>
+2.  <span data-ttu-id="70aed-120">Interrogez l'interface **IADORecordConstruction** sur l'objet **Record**:</span><span class="sxs-lookup"><span data-stu-id="70aed-120">Query the **IADORecordConstruction** interface on the **Record** object:</span></span>
     
     ```vb
         adoRecordConstructionPtr adoRConstruct=NULL;
@@ -71,7 +72,7 @@ ms.locfileid: "25924588"
                             (void**)&adoRConstruct);
     ```
 
-3.  <span data-ttu-id="93759-121">Appelez le **IADORecordConstruction::put\_ligne** méthode de la propriété pour définir l’objet OLE DB **Row** dans l’objet ADO **Record** :</span><span class="sxs-lookup"><span data-stu-id="93759-121">Call the **IADORecordConstruction::put\_Row** property method to set the OLE DB **Row** object on the ADO **Record** object:</span></span>
+3.  <span data-ttu-id="70aed-121">Appelez le **IADORecordConstruction::put\_ligne** méthode de la propriété pour définir l’objet OLE DB **Row** dans l’objet ADO **Record** :</span><span class="sxs-lookup"><span data-stu-id="70aed-121">Call the **IADORecordConstruction::put\_Row** property method to set the OLE DB **Row** object on the ADO **Record** object:</span></span>
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -79,15 +80,15 @@ ms.locfileid: "25924588"
         adoRConstruct->put_Row(pUnk);
     ```
     
-<span data-ttu-id="93759-122">L'objet **adoR** qui en résulte représente maintenant l'objet **Record** ADO créé à partir de l'objet **Row** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="93759-122">The resultant **adoR** object now represents the ADO **Record** object constructed from the OLE DB **Row** object.</span></span>
+<span data-ttu-id="70aed-122">L'objet **adoR** qui en résulte représente maintenant l'objet **Record** ADO créé à partir de l'objet **Row** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="70aed-122">The resultant **adoR** object now represents the ADO **Record** object constructed from the OLE DB **Row** object.</span></span>
 
-<span data-ttu-id="93759-123">Un objet **Record** ADO peut également être créé à partir du conteneur d'un objet **Row** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="93759-123">An ADO **Record** object can also be constructed from the container of an OLE DB **Row** object.</span></span>
+<span data-ttu-id="70aed-123">Un objet **Record** ADO peut également être créé à partir du conteneur d'un objet **Row** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="70aed-123">An ADO **Record** object can also be constructed from the container of an OLE DB **Row** object.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="93759-124">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="93759-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="70aed-124">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="70aed-124">Requirements</span></span>
 
-<span data-ttu-id="93759-125">**Version :** ADO 2.0 et supérieure</span><span class="sxs-lookup"><span data-stu-id="93759-125">**Version:** ADO 2.0 and later</span></span>
+<span data-ttu-id="70aed-125">**Version :** ADO 2.0 et supérieure</span><span class="sxs-lookup"><span data-stu-id="70aed-125">**Version:** ADO 2.0 and later</span></span>
 
-<span data-ttu-id="93759-126">**Bibliothèque :** msado15.dll</span><span class="sxs-lookup"><span data-stu-id="93759-126">**Library:** msado15.dll</span></span>
+<span data-ttu-id="70aed-126">**Bibliothèque :** msado15.dll</span><span class="sxs-lookup"><span data-stu-id="70aed-126">**Library:** msado15.dll</span></span>
 
-<span data-ttu-id="93759-127">**UUID :** 00000567-0000-0010-8000-00AA006D2EA4</span><span class="sxs-lookup"><span data-stu-id="93759-127">**UUID:** 00000567-0000-0010-8000-00AA006D2EA4</span></span>
+<span data-ttu-id="70aed-127">**UUID :** 00000567-0000-0010-8000-00AA006D2EA4</span><span class="sxs-lookup"><span data-stu-id="70aed-127">**UUID:** 00000567-0000-0010-8000-00AA006D2EA4</span></span>
 

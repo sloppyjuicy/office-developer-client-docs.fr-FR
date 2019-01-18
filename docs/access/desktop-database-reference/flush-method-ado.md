@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249941(v=office.15)
 ms:contentKeyID: 48547529
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b52bb3d595c21ccc682e5af182b794065bcd1b13
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e2a55eb66c454d510d53083c495326548eda08af
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920444"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708031"
 ---
-# <a name="flush-method-ado"></a><span data-ttu-id="9f66b-102">Flush, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="9f66b-102">Flush method (ADO)</span></span>
+# <a name="flush-method-ado"></a><span data-ttu-id="83e51-102">Flush, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="83e51-102">Flush method (ADO)</span></span>
 
 
-<span data-ttu-id="9f66b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f66b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="83e51-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83e51-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9f66b-104">Force l'envoi de l'objet [Stream](stream-object-ado.md) conservé dans la mémoire tampon ADO vers l'objet sous-jacent auquel cet objet **Stream** est associé.</span><span class="sxs-lookup"><span data-stu-id="9f66b-104">Forces the contents of the [Stream](stream-object-ado.md) remaining in the ADO buffer to the underlying object with which the **Stream** is associated.</span></span>
+<span data-ttu-id="83e51-104">Force l'envoi de l'objet [Stream](stream-object-ado.md) conservé dans la mémoire tampon ADO vers l'objet sous-jacent auquel cet objet **Stream** est associé.</span><span class="sxs-lookup"><span data-stu-id="83e51-104">Forces the contents of the [Stream](stream-object-ado.md) remaining in the ADO buffer to the underlying object with which the **Stream** is associated.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9f66b-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9f66b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="83e51-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="83e51-105">Syntax</span></span>
 
-<span data-ttu-id="9f66b-106">*Flux de données*. Vider</span><span class="sxs-lookup"><span data-stu-id="9f66b-106">*Stream*.Flush</span></span>
+<span data-ttu-id="83e51-106">*Flux de données*. Vider</span><span class="sxs-lookup"><span data-stu-id="83e51-106">*Stream*.Flush</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9f66b-107">Notes</span><span class="sxs-lookup"><span data-stu-id="9f66b-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="83e51-107">Notes</span><span class="sxs-lookup"><span data-stu-id="83e51-107">Remarks</span></span>
 
-<span data-ttu-id="9f66b-p101">Cette méthode peut servir à envoyer le contenu de la mémoire tampon du flux vers l'objet sous-jacent (par exemple, le nœud ou le fichier représenté par l'URL qui est la source de l'objet **Stream** ). Cette méthode doit être appelée lorsque vous souhaitez vous assurer que toutes les modifications apportées à un objet **Stream** ont été écrites. Toutefois, il n'est généralement pas nécessaire d'appeler la méthode **Flush** avec ADO, dans la mesure où ADO vide continuellement sa mémoire tampon en arrière-plan dans la mesure du possible. Les modifications apportées à un objet **Stream** sont effectuées automatiquement et ne sont pas mises en cache jusqu'à l'appel de la méthode **Flush**.</span><span class="sxs-lookup"><span data-stu-id="9f66b-p101">This method may be used to send the contents of the stream buffer to the underlying object (for example, the node or file represented by the URL that is the source of the **Stream** object). This method should be called when you want to ensure that all changes made to the contents of a **Stream** have been written. However, with ADO it is not usually necessary to call **Flush**, as ADO continuously flushes its buffer as much as possible in the background. Changes to the content of a **Stream** are made automatically, not cached until **Flush** is called.</span></span>
+<span data-ttu-id="83e51-p101">Cette méthode peut servir à envoyer le contenu de la mémoire tampon du flux vers l'objet sous-jacent (par exemple, le nœud ou le fichier représenté par l'URL qui est la source de l'objet **Stream** ). Cette méthode doit être appelée lorsque vous souhaitez vous assurer que toutes les modifications apportées à un objet **Stream** ont été écrites. Toutefois, il n'est généralement pas nécessaire d'appeler la méthode **Flush** avec ADO, dans la mesure où ADO vide continuellement sa mémoire tampon en arrière-plan dans la mesure du possible. Les modifications apportées à un objet **Stream** sont effectuées automatiquement et ne sont pas mises en cache jusqu'à l'appel de la méthode **Flush**.</span><span class="sxs-lookup"><span data-stu-id="83e51-p101">This method may be used to send the contents of the stream buffer to the underlying object (for example, the node or file represented by the URL that is the source of the **Stream** object). This method should be called when you want to ensure that all changes made to the contents of a **Stream** have been written. However, with ADO it is not usually necessary to call **Flush**, as ADO continuously flushes its buffer as much as possible in the background. Changes to the content of a **Stream** are made automatically, not cached until **Flush** is called.</span></span>
 
-<span data-ttu-id="9f66b-112">La fermeture d'un objet **Stream** avec la méthode [Close](close-method-ado.md) vide automatiquement le contenu d'un objet **Stream**; il n'est pas nécessaire d'appeler explicitement la méthode **Flush** immédiatement avant l'appel de la méthode **Close**.</span><span class="sxs-lookup"><span data-stu-id="9f66b-112">Closing a **Stream** with the [Close](close-method-ado.md) method flushes the contents of a **Stream** automatically; there is no need to explicitly call **Flush** immediately before **Close**.</span></span>
+<span data-ttu-id="83e51-112">La fermeture d'un objet **Stream** avec la méthode [Close](close-method-ado.md) vide automatiquement le contenu d'un objet **Stream**; il n'est pas nécessaire d'appeler explicitement la méthode **Flush** immédiatement avant l'appel de la méthode **Close**.</span><span class="sxs-lookup"><span data-stu-id="83e51-112">Closing a **Stream** with the [Close](close-method-ado.md) method flushes the contents of a **Stream** automatically; there is no need to explicitly call **Flush** immediately before **Close**.</span></span>
 

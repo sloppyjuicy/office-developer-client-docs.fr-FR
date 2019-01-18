@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)
 ms:contentKeyID: 48547132
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 45a812e5d67a9324d5b07c5666e9cfe2940df580
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6e3b470c8c0d0c3f04b59bd382b66117bd79c188
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871289"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711832"
 ---
-# <a name="objecttypeenum"></a><span data-ttu-id="feecd-102">ObjectTypeEnum</span><span class="sxs-lookup"><span data-stu-id="feecd-102">ObjectTypeEnum</span></span>
+# <a name="objecttypeenum"></a><span data-ttu-id="704b3-102">ObjectTypeEnum</span><span class="sxs-lookup"><span data-stu-id="704b3-102">ObjectTypeEnum</span></span>
 
-<span data-ttu-id="feecd-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="feecd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="704b3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="704b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="feecd-104">Indique le type d'objet de base de données dont il faut définir les autorisations ou le propriétaire.</span><span class="sxs-lookup"><span data-stu-id="feecd-104">Specifies the type of database object for which to set permissions or ownership.</span></span>
+<span data-ttu-id="704b3-104">Indique le type d'objet de base de données dont il faut définir les autorisations ou le propriétaire.</span><span class="sxs-lookup"><span data-stu-id="704b3-104">Specifies the type of database object for which to set permissions or ownership.</span></span>
 
 <br/>
 
@@ -29,41 +30,41 @@ ms.locfileid: "25871289"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="feecd-105">Constante</span><span class="sxs-lookup"><span data-stu-id="feecd-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="feecd-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="feecd-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="feecd-107">Description</span><span class="sxs-lookup"><span data-stu-id="feecd-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="704b3-105">Constante</span><span class="sxs-lookup"><span data-stu-id="704b3-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="704b3-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="704b3-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="704b3-107">Description</span><span class="sxs-lookup"><span data-stu-id="704b3-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="feecd-108"><strong>adPermObjColumn</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-108"><strong>adPermObjColumn</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-109">2</span><span class="sxs-lookup"><span data-stu-id="feecd-109">2</span></span></p></td>
-<td><p><span data-ttu-id="feecd-110">L'objet est une colonne.</span><span class="sxs-lookup"><span data-stu-id="feecd-110">The object is a column.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-108"><strong>adPermObjColumn</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-108"><strong>adPermObjColumn</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-109">2</span><span class="sxs-lookup"><span data-stu-id="704b3-109">2</span></span></p></td>
+<td><p><span data-ttu-id="704b3-110">L'objet est une colonne.</span><span class="sxs-lookup"><span data-stu-id="704b3-110">The object is a column.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="feecd-111"><strong>adPermObjDatabase</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-111"><strong>adPermObjDatabase</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-112">3</span><span class="sxs-lookup"><span data-stu-id="feecd-112">3</span></span></p></td>
-<td><p><span data-ttu-id="feecd-113">L'objet est une base de données.</span><span class="sxs-lookup"><span data-stu-id="feecd-113">The object is a database.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-111"><strong>adPermObjDatabase</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-111"><strong>adPermObjDatabase</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-112">3</span><span class="sxs-lookup"><span data-stu-id="704b3-112">3</span></span></p></td>
+<td><p><span data-ttu-id="704b3-113">L'objet est une base de données.</span><span class="sxs-lookup"><span data-stu-id="704b3-113">The object is a database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="feecd-114"><strong>adPermObjProcedure</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-114"><strong>adPermObjProcedure</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-115">4</span><span class="sxs-lookup"><span data-stu-id="feecd-115">4</span></span></p></td>
-<td><p><span data-ttu-id="feecd-116">L'objet est une procédure.</span><span class="sxs-lookup"><span data-stu-id="feecd-116">The object is a procedure.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-114"><strong>adPermObjProcedure</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-114"><strong>adPermObjProcedure</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-115">4</span><span class="sxs-lookup"><span data-stu-id="704b3-115">4</span></span></p></td>
+<td><p><span data-ttu-id="704b3-116">L'objet est une procédure.</span><span class="sxs-lookup"><span data-stu-id="704b3-116">The object is a procedure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="feecd-117"><strong>adPermObjProviderSpecific</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-117"><strong>adPermObjProviderSpecific</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-118">-1</span><span class="sxs-lookup"><span data-stu-id="feecd-118">-1</span></span></p></td>
-<td><p><span data-ttu-id="feecd-p101">L’objet est un type défini par le fournisseur. Une erreur se produit lorsque le paramètre <em>TypeObjet</em> a la valeur <strong>adPermObjProviderSpecific</strong> et que le paramètre<em>IdTypeObjet</em> n’est pas fourni.</span><span class="sxs-lookup"><span data-stu-id="feecd-p101">The object is a type defined by the provider. An error will occur if the <em>ObjectType</em> parameter is <strong>adPermObjProviderSpecific</strong> and an <em>ObjectTypeId</em> is not supplied.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-117"><strong>adPermObjProviderSpecific</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-117"><strong>adPermObjProviderSpecific</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-118">-1</span><span class="sxs-lookup"><span data-stu-id="704b3-118">-1</span></span></p></td>
+<td><p><span data-ttu-id="704b3-p101">L’objet est un type défini par le fournisseur. Une erreur se produit lorsque le paramètre <em>TypeObjet</em> a la valeur <strong>adPermObjProviderSpecific</strong> et que le paramètre<em>IdTypeObjet</em> n’est pas fourni.</span><span class="sxs-lookup"><span data-stu-id="704b3-p101">The object is a type defined by the provider. An error will occur if the <em>ObjectType</em> parameter is <strong>adPermObjProviderSpecific</strong> and an <em>ObjectTypeId</em> is not supplied.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="feecd-121"><strong>adPermObjTable</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-121"><strong>adPermObjTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-122">1</span><span class="sxs-lookup"><span data-stu-id="feecd-122">1</span></span></p></td>
-<td><p><span data-ttu-id="feecd-123">L'objet est une table.</span><span class="sxs-lookup"><span data-stu-id="feecd-123">The object is a table.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-121"><strong>adPermObjTable</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-121"><strong>adPermObjTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-122">1</span><span class="sxs-lookup"><span data-stu-id="704b3-122">1</span></span></p></td>
+<td><p><span data-ttu-id="704b3-123">L'objet est une table.</span><span class="sxs-lookup"><span data-stu-id="704b3-123">The object is a table.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="feecd-124"><strong>adPermObjView</strong></span><span class="sxs-lookup"><span data-stu-id="feecd-124"><strong>adPermObjView</strong></span></span></p></td>
-<td><p><span data-ttu-id="feecd-125">5</span><span class="sxs-lookup"><span data-stu-id="feecd-125">5</span></span></p></td>
-<td><p><span data-ttu-id="feecd-126">L'objet est une vue.</span><span class="sxs-lookup"><span data-stu-id="feecd-126">The object is a view.</span></span></p></td>
+<td><p><span data-ttu-id="704b3-124"><strong>adPermObjView</strong></span><span class="sxs-lookup"><span data-stu-id="704b3-124"><strong>adPermObjView</strong></span></span></p></td>
+<td><p><span data-ttu-id="704b3-125">5</span><span class="sxs-lookup"><span data-stu-id="704b3-125">5</span></span></p></td>
+<td><p><span data-ttu-id="704b3-126">L'objet est une vue.</span><span class="sxs-lookup"><span data-stu-id="704b3-126">The object is a view.</span></span></p></td>
 </tr>
 </tbody>
 </table>

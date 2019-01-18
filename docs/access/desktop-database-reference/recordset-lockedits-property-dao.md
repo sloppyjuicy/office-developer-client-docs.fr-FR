@@ -10,28 +10,29 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 81c7b3e2474ee6cbcd8e45b61369e22f20440587
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 54f91dea98f4f47057eb673a0fae08c8ac2b6f1c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996754"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707709"
 ---
-# <a name="recordsetlockedits-property-dao"></a><span data-ttu-id="e49c6-102">Propriété Recordset.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="e49c6-102">Recordset.LockEdits property (DAO)</span></span>
+# <a name="recordsetlockedits-property-dao"></a><span data-ttu-id="c7542-102">Propriété Recordset.LockEdits (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7542-102">Recordset.LockEdits property (DAO)</span></span>
 
-<span data-ttu-id="e49c6-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e49c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c7542-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7542-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e49c6-104">Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</span><span class="sxs-lookup"><span data-stu-id="e49c6-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
+<span data-ttu-id="c7542-104">Définit ou renvoie une valeur indiquant le type de verrouillage utilisé lors de l'édition.</span><span class="sxs-lookup"><span data-stu-id="c7542-104">Sets or returns a value indicating the type of locking that is in effect while editing.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e49c6-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e49c6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c7542-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c7542-105">Syntax</span></span>
 
-<span data-ttu-id="e49c6-106">*expression* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="e49c6-106">*expression* .LockEdits</span></span>
+<span data-ttu-id="c7542-106">*expression* . LockEdits</span><span class="sxs-lookup"><span data-stu-id="c7542-106">*expression* .LockEdits</span></span>
 
-<span data-ttu-id="e49c6-107">*expression* Variable qui représente un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="e49c6-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="c7542-107">*expression* Variable qui représente un objet **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="c7542-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e49c6-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="e49c6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c7542-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="c7542-108">Remarks</span></span>
 
-<span data-ttu-id="e49c6-109">Le paramètre ou la valeur de retour indique le type de verrouillage, comme spécifié dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="e49c6-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
+<span data-ttu-id="c7542-109">Le paramètre ou la valeur de retour indique le type de verrouillage, comme spécifié dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="c7542-109">The setting or return value indicates the type of locking, as specified in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -40,37 +41,37 @@ ms.locfileid: "25996754"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e49c6-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="e49c6-110">Value</span></span></p></th>
-<th><p><span data-ttu-id="e49c6-111">Description</span><span class="sxs-lookup"><span data-stu-id="e49c6-111">Description</span></span></p></th>
+<th><p><span data-ttu-id="c7542-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="c7542-110">Value</span></span></p></th>
+<th><p><span data-ttu-id="c7542-111">Description</span><span class="sxs-lookup"><span data-stu-id="c7542-111">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e49c6-112">True</span><span class="sxs-lookup"><span data-stu-id="e49c6-112">True</span></span></p></td>
-<td><p><span data-ttu-id="e49c6-p101">Par défaut. Le verrouillage pessimiste est activé. La page contenant l’enregistrement que vous modifiez est verrouillée dès que vous invoquez la méthode Edit.</span><span class="sxs-lookup"><span data-stu-id="e49c6-p101">Default. Pessimistic locking is in effect. The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
+<td><p><span data-ttu-id="c7542-112">True</span><span class="sxs-lookup"><span data-stu-id="c7542-112">True</span></span></p></td>
+<td><p><span data-ttu-id="c7542-p101">Par défaut. Le verrouillage pessimiste est activé. La page contenant l’enregistrement que vous modifiez est verrouillée dès que vous invoquez la méthode Edit.</span><span class="sxs-lookup"><span data-stu-id="c7542-p101">Default. Pessimistic locking is in effect. The page containing the record you're editing is locked as soon as you call the Edit method.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e49c6-116">False</span><span class="sxs-lookup"><span data-stu-id="e49c6-116">False</span></span></p></td>
-<td><p><span data-ttu-id="e49c6-117">Verrouillage optimiste est activé pour modification.</span><span class="sxs-lookup"><span data-stu-id="e49c6-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="e49c6-118">La page contenant l’enregistrement n’est pas verrouillée jusqu'à ce que la méthode de mise à jour est exécutée.</span><span class="sxs-lookup"><span data-stu-id="e49c6-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
+<td><p><span data-ttu-id="c7542-116">False</span><span class="sxs-lookup"><span data-stu-id="c7542-116">False</span></span></p></td>
+<td><p><span data-ttu-id="c7542-117">Verrouillage optimiste est activé pour modification.</span><span class="sxs-lookup"><span data-stu-id="c7542-117">Optimistic locking is in effect for editing.</span></span> <span data-ttu-id="c7542-118">La page contenant l’enregistrement n’est pas verrouillée jusqu'à ce que la méthode de mise à jour est exécutée.</span><span class="sxs-lookup"><span data-stu-id="c7542-118">The page containing the record is not locked until the Update method is executed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e49c6-119">Vous pouvez utiliser la propriété **LockEdits** avec des objets **[Recordset](recordset-object-dao.md)** pouvant être mis à jour.</span><span class="sxs-lookup"><span data-stu-id="e49c6-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
+<span data-ttu-id="c7542-119">Vous pouvez utiliser la propriété **LockEdits** avec des objets **[Recordset](recordset-object-dao.md)** pouvant être mis à jour.</span><span class="sxs-lookup"><span data-stu-id="c7542-119">You can use the **LockEdits** property with updatable **[Recordset](recordset-object-dao.md)** objects.</span></span>
 
-<span data-ttu-id="e49c6-p103">Si une page est verrouillée, aucun autre utilisateur ne peut modifier les enregistrements sur la même page. Si vous définissez **LockEdits** sur **True** et qu'un autre utilisateur a déjà verrouillé la page, une erreur survient lorsque vous utilisez la méthode **Edit**. Les autres utilisateurs peuvent lire les données des pages verrouillées.</span><span class="sxs-lookup"><span data-stu-id="e49c6-p103">If a page is locked, no other user can edit records on the same page. If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method. Other users can read data from locked pages.</span></span>
+<span data-ttu-id="c7542-p103">Si une page est verrouillée, aucun autre utilisateur ne peut modifier les enregistrements sur la même page. Si vous définissez **LockEdits** sur **True** et qu'un autre utilisateur a déjà verrouillé la page, une erreur survient lorsque vous utilisez la méthode **Edit**. Les autres utilisateurs peuvent lire les données des pages verrouillées.</span><span class="sxs-lookup"><span data-stu-id="c7542-p103">If a page is locked, no other user can edit records on the same page. If you set **LockEdits** to **True** and another user already has the page locked, an error occurs when you use the **Edit** method. Other users can read data from locked pages.</span></span>
 
-<span data-ttu-id="e49c6-p104">Si vous définissez la propriété **LockEdits** sur **False** et utilisez ensuite la méthode **Update** alors qu'un autre utilisateur a verrouillé la page, une erreur survient. Pour voir les modifications apportées à votre enregistrement par un autre utilisateur, utilisez la méthode **[Move](recordset-move-method-dao.md)** avec 0 comme argument ; ce faisant, vous perdez toutefois vos modifications.</span><span class="sxs-lookup"><span data-stu-id="e49c6-p104">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs. To see the changes made to your record by another user, use the **[Move](recordset-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
+<span data-ttu-id="c7542-p104">Si vous définissez la propriété **LockEdits** sur **False** et utilisez ensuite la méthode **Update** alors qu'un autre utilisateur a verrouillé la page, une erreur survient. Pour voir les modifications apportées à votre enregistrement par un autre utilisateur, utilisez la méthode **[Move](recordset-move-method-dao.md)** avec 0 comme argument ; ce faisant, vous perdez toutefois vos modifications.</span><span class="sxs-lookup"><span data-stu-id="c7542-p104">If you set the **LockEdits** property to **False** and later use the **Update** method while another user has the page locked, an error occurs. To see the changes made to your record by another user, use the **[Move](recordset-move-method-dao.md)** method with 0 as the argument; however, if you do this, you will lose your changes.</span></span>
 
-<span data-ttu-id="e49c6-p105">Lorsque vous utilisez des sources de données ODBC connectées à un moteur de base de données Microsoft Access, la propriété **LockEdits** est toujours définie sur **False** ou verrouillage optimiste. Le moteur de base de données Microsoft Access ne contrôle pas les mécanismes de verrouillage utilisés par les serveurs de base de données externes.</span><span class="sxs-lookup"><span data-stu-id="e49c6-p105">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking. The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
+<span data-ttu-id="c7542-p105">Lorsque vous utilisez des sources de données ODBC connectées à un moteur de base de données Microsoft Access, la propriété **LockEdits** est toujours définie sur **False** ou verrouillage optimiste. Le moteur de base de données Microsoft Access ne contrôle pas les mécanismes de verrouillage utilisés par les serveurs de base de données externes.</span><span class="sxs-lookup"><span data-stu-id="c7542-p105">When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking. The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e49c6-127">Vous pouvez prédéfinir la valeur de **LockEdits** lorsque vous ouvrez pour la première fois le **jeu d’enregistrements** en définissant l’argument lockedits de la méthode **[OpenRecordset](connection-openrecordset-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="e49c6-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="e49c6-128">Si l’argument lockedits **dbPessimistic** définit la propriété **LockEdits** sur **True**et lockedits paramètre pour toute autre valeur définit la propriété **LockEdits** sur **False**.</span><span class="sxs-lookup"><span data-stu-id="e49c6-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
+> <span data-ttu-id="c7542-127">Vous pouvez prédéfinir la valeur de **LockEdits** lorsque vous ouvrez pour la première fois le **jeu d’enregistrements** en définissant l’argument lockedits de la méthode **[OpenRecordset](connection-openrecordset-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="c7542-127">You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method.</span></span> <span data-ttu-id="c7542-128">Si l’argument lockedits **dbPessimistic** définit la propriété **LockEdits** sur **True**et lockedits paramètre pour toute autre valeur définit la propriété **LockEdits** sur **False**.</span><span class="sxs-lookup"><span data-stu-id="c7542-128">Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e49c6-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="e49c6-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c7542-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="c7542-129">Example</span></span>
 
-<span data-ttu-id="e49c6-p107">Cet exemple illustre le verrouillage pessimiste en définissant la propriété **LockEdits** sur **True**, puis le verrouillage optimiste en définissant la propriété **LockEdits** sur False. Il illustre également le type de gestion des erreurs requis dans un environnement de base de données multi-utilisateurs dans le cadre de la modification d'un champ. Les fonctions PessimisticLock et OptimisticLock sont indispensables pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="e49c6-p107">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False. It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field. The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
+<span data-ttu-id="c7542-p107">Cet exemple illustre le verrouillage pessimiste en définissant la propriété **LockEdits** sur **True**, puis le verrouillage optimiste en définissant la propriété **LockEdits** sur False. Il illustre également le type de gestion des erreurs requis dans un environnement de base de données multi-utilisateurs dans le cadre de la modification d'un champ. Les fonctions PessimisticLock et OptimisticLock sont indispensables pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="c7542-p107">This example demonstrates pessimistic locking by setting the **LockEdits** property to **True**, and then demonstrates optimistic locking by setting the **LockEdits** property to False. It also demonstrates what kind of error handling is required in a multiuser database environment in order to modify a field. The PessimisticLock and OptimisticLock functions are required for this procedure to run.</span></span>
 
 ```vb
     Sub LockEditsX() 

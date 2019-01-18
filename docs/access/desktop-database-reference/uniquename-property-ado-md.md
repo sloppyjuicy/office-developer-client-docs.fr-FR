@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249403(v=office.15)
 ms:contentKeyID: 48545366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ef82debbfc32fb382dcbe104d591503858e667f
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ed413f6881e60e926e5eeeac3c395e23b01ed01f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921893"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716480"
 ---
-# <a name="uniquename-property-ado-md"></a><span data-ttu-id="f8c17-102">UniqueName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8c17-102">UniqueName property (ADO MD)</span></span>
+# <a name="uniquename-property-ado-md"></a><span data-ttu-id="7f1f8-102">UniqueName, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7f1f8-102">UniqueName property (ADO MD)</span></span>
 
 
-<span data-ttu-id="f8c17-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8c17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f1f8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f1f8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f8c17-104">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="f8c17-104">Indicates an unambiguous name for the current object.</span></span>
+<span data-ttu-id="7f1f8-104">Indique un nom non ambigu pour l'objet actif.</span><span class="sxs-lookup"><span data-stu-id="7f1f8-104">Indicates an unambiguous name for the current object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="f8c17-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="f8c17-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="7f1f8-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="7f1f8-105">Return values</span></span>
 
-<span data-ttu-id="f8c17-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f8c17-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="7f1f8-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="7f1f8-106">Returns a **String** and is read-only.</span></span>
 

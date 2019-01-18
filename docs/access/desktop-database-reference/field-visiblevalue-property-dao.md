@@ -6,25 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835776(v=office.15)
 ms:contentKeyID: 48548332
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 461b8c43bf9000e5ecde3a3676cebf54be8e4166
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1b3e1b6ec6cd34112f0ba1d84101390bbd400f82
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927570"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712455"
 ---
-# <a name="fieldvisiblevalue-property-dao"></a><span data-ttu-id="57a37-102">Propriété Field.VisibleValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="57a37-102">Field.VisibleValue property (DAO)</span></span>
+# <a name="fieldvisiblevalue-property-dao"></a><span data-ttu-id="68627-102">Propriété Field.VisibleValue (DAO)</span><span class="sxs-lookup"><span data-stu-id="68627-102">Field.VisibleValue property (DAO)</span></span>
 
 
-<span data-ttu-id="57a37-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57a37-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="68627-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68627-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="57a37-104">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="57a37-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="68627-104">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="68627-104">Syntax</span></span>
 
-<span data-ttu-id="57a37-105">*expression* . VisibleValue</span><span class="sxs-lookup"><span data-stu-id="57a37-105">*expression* .VisibleValue</span></span>
+<span data-ttu-id="68627-105">*expression* . VisibleValue</span><span class="sxs-lookup"><span data-stu-id="68627-105">*expression* .VisibleValue</span></span>
 
-<span data-ttu-id="57a37-106">*expression* Variable qui représente un objet **Field** .</span><span class="sxs-lookup"><span data-stu-id="57a37-106">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="68627-106">*expression* Variable qui représente un objet **Field** .</span><span class="sxs-lookup"><span data-stu-id="68627-106">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="57a37-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="57a37-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="68627-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="68627-107">Remarks</span></span>
 
-<span data-ttu-id="57a37-p101">Cette propriété contient la valeur du champ se trouvant actuellement dans la base de données sur le serveur. Pendant une mise à jour par lot optimiste, une collision peut se produire, si un deuxième client a modifié le même champ et enregistrement entre le moment où le premier client a récupéré les données et la première tentative de mise à jour par le premier client. Lorsque cela se produit, la valeur définie par le deuxième client est accessible grâce à cette propriété.</span><span class="sxs-lookup"><span data-stu-id="57a37-p101">This property contains the value of the field that is currently in the database on the server. During an optimistic batch update, a collision may occur where a second client modified the same field and record in between the time the first client retrieved the data and the first client's update attempt. When this happens, the value that the second client set will be accessible through this property.</span></span>
+<span data-ttu-id="68627-p101">Cette propriété contient la valeur du champ se trouvant actuellement dans la base de données sur le serveur. Pendant une mise à jour par lot optimiste, une collision peut se produire, si un deuxième client a modifié le même champ et enregistrement entre le moment où le premier client a récupéré les données et la première tentative de mise à jour par le premier client. Lorsque cela se produit, la valeur définie par le deuxième client est accessible grâce à cette propriété.</span><span class="sxs-lookup"><span data-stu-id="68627-p101">This property contains the value of the field that is currently in the database on the server. During an optimistic batch update, a collision may occur where a second client modified the same field and record in between the time the first client retrieved the data and the first client's update attempt. When this happens, the value that the second client set will be accessible through this property.</span></span>
 

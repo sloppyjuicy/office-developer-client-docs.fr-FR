@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249963(v=office.15)
 ms:contentKeyID: 48547600
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 185321327ed1718784fe6227f259347c0f8bb17d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 6613836a4d924d66902d4da4e7c25d1df1acd8ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25889776"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713009"
 ---
-# <a name="version-property-example-vj"></a><span data-ttu-id="b4e7d-102">Version, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="b4e7d-102">Version property example (VJ++)</span></span>
+# <a name="version-property-example-vj"></a><span data-ttu-id="09b79-102">Version, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="09b79-102">Version property example (VJ++)</span></span>
 
 
-<span data-ttu-id="b4e7d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4e7d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="09b79-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="09b79-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b4e7d-p101">Cet exemple utilise la propriété [Version](version-property-ado.md) d'un objet [Connection](connection-object-ado.md) pour afficher la version ADO actuelle. Il utilise aussi plusieurs propriétés dynamiques pour afficher :</span><span class="sxs-lookup"><span data-stu-id="b4e7d-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="09b79-p101">Cet exemple utilise la propriété [Version](version-property-ado.md) d'un objet [Connection](connection-object-ado.md) pour afficher la version ADO actuelle. Il utilise aussi plusieurs propriétés dynamiques pour afficher :</span><span class="sxs-lookup"><span data-stu-id="09b79-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="b4e7d-106">le nom et la version du SGBD,</span><span class="sxs-lookup"><span data-stu-id="b4e7d-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="09b79-106">le nom et la version du SGBD,</span><span class="sxs-lookup"><span data-stu-id="09b79-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="b4e7d-107">la version d'OLE DB,</span><span class="sxs-lookup"><span data-stu-id="b4e7d-107">OLE DB version.</span></span>
+  - <span data-ttu-id="09b79-107">la version d'OLE DB,</span><span class="sxs-lookup"><span data-stu-id="09b79-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="b4e7d-108">le nom et la version du fournisseur,</span><span class="sxs-lookup"><span data-stu-id="b4e7d-108">provider name and version.</span></span>
+  - <span data-ttu-id="09b79-108">le nom et la version du fournisseur,</span><span class="sxs-lookup"><span data-stu-id="09b79-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="b4e7d-109">la version d'ODBC,</span><span class="sxs-lookup"><span data-stu-id="b4e7d-109">ODBC version.</span></span>
+  - <span data-ttu-id="09b79-109">la version d'ODBC,</span><span class="sxs-lookup"><span data-stu-id="09b79-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="b4e7d-110">le nom et la version du pilote ODBC.</span><span class="sxs-lookup"><span data-stu-id="b4e7d-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="09b79-110">le nom et la version du pilote ODBC.</span><span class="sxs-lookup"><span data-stu-id="09b79-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

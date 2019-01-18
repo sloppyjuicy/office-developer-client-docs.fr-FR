@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249197(v=office.15)
 ms:contentKeyID: 48544485
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1c8816e7883cbccb23425ddb057e0c811338b2bc
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c8eeafa97b2b27f157136674372061d3074e5f01
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867418"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708171"
 ---
-# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="e36ce-102">StayInSync, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="e36ce-102">StayInSync property example (VC++)</span></span>
+# <a name="stayinsync-property-example-vc"></a><span data-ttu-id="f403f-102">StayInSync, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="f403f-102">StayInSync property example (VC++)</span></span>
 
 
-<span data-ttu-id="e36ce-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e36ce-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f403f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f403f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e36ce-104">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="e36ce-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="f403f-104">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="f403f-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="e36ce-p101">La boucle externe affiche le nom et le prénom, l'état et l'identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d'enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="e36ce-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="f403f-p101">La boucle externe affiche le nom et le prénom, l'état et l'identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d'enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="f403f-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```cpp 
  

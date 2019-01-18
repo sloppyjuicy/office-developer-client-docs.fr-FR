@@ -6,17 +6,18 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250101(v=office.15)
 ms:contentKeyID: 48548087
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a37acc9019b75dc1863c8040b1dcc7e8cb985000
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d9e0189a4c0ffe016fc8c9a69272f706f537a483
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927934"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717383"
 ---
-# <a name="parameter-object-ado-reference"></a><span data-ttu-id="f81b3-102">Référence d’objet (ADO) paramètre</span><span class="sxs-lookup"><span data-stu-id="f81b3-102">Parameter object (ADO) reference</span></span>
+# <a name="parameter-object-ado-reference"></a><span data-ttu-id="c7f5d-102">Référence d’objet (ADO) paramètre</span><span class="sxs-lookup"><span data-stu-id="c7f5d-102">Parameter object (ADO) reference</span></span>
 
-<span data-ttu-id="f81b3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f81b3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c7f5d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7f5d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f81b3-104">Parameter, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="f81b3-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
-- [<span data-ttu-id="f81b3-105">Propriétés de paramètre, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="f81b3-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="c7f5d-104">Parameter, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="c7f5d-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
+- [<span data-ttu-id="c7f5d-105">Propriétés de paramètre, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="c7f5d-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
 

@@ -6,34 +6,35 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249007(v=office.15)
 ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 35cab114da6536ea1a0123e0da2541dd69125824
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25877883"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715507"
 ---
-# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a><span data-ttu-id="aaa62-102">Fournisseur de persistance Microsoft OLE DB (fournisseur de service ADO)</span><span class="sxs-lookup"><span data-stu-id="aaa62-102">Microsoft OLE DB Persistence Provider (ADO Service Provider)</span></span>
+# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a><span data-ttu-id="2b658-102">Fournisseur de persistance Microsoft OLE DB (fournisseur de service ADO)</span><span class="sxs-lookup"><span data-stu-id="2b658-102">Microsoft OLE DB Persistence Provider (ADO Service Provider)</span></span>
 
 
-<span data-ttu-id="aaa62-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aaa62-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="2b658-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b658-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="aaa62-104">Le fournisseur de persistance Microsoft OLE DB vous permet d’enregistrer un objet [Recordset](recordset-object-ado.md) dans un fichier ultérieurement restaurer cet objet **Recordset** à partir du fichier.</span><span class="sxs-lookup"><span data-stu-id="aaa62-104">The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file.</span></span> <span data-ttu-id="aaa62-105">Informations de schéma, les données et les modifications en attente sont conservés.</span><span class="sxs-lookup"><span data-stu-id="aaa62-105">Schema information, data, and pending changes are preserved.</span></span>
+<span data-ttu-id="2b658-104">Le fournisseur de persistance Microsoft OLE DB vous permet d’enregistrer un objet [Recordset](recordset-object-ado.md) dans un fichier ultérieurement restaurer cet objet **Recordset** à partir du fichier.</span><span class="sxs-lookup"><span data-stu-id="2b658-104">The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file.</span></span> <span data-ttu-id="2b658-105">Informations de schéma, les données et les modifications en attente sont conservés.</span><span class="sxs-lookup"><span data-stu-id="2b658-105">Schema information, data, and pending changes are preserved.</span></span>
 
-<span data-ttu-id="aaa62-106">Vous pouvez enregistrer le **Recordset** au format ADTG (Advanced Data Table Gram) ou au format XML ouvert (Extensible Markup Language).</span><span class="sxs-lookup"><span data-stu-id="aaa62-106">You can save the **Recordset** in either the proprietary Advanced Data Table Gram (ADTG) format, or the open Extensible Markup Language (XML) format.</span></span>
+<span data-ttu-id="2b658-106">Vous pouvez enregistrer le **Recordset** au format ADTG (Advanced Data Table Gram) ou au format XML ouvert (Extensible Markup Language).</span><span class="sxs-lookup"><span data-stu-id="2b658-106">You can save the **Recordset** in either the proprietary Advanced Data Table Gram (ADTG) format, or the open Extensible Markup Language (XML) format.</span></span>
 
-## <a name="provider-keyword"></a><span data-ttu-id="aaa62-107">Mot clé du fournisseur</span><span class="sxs-lookup"><span data-stu-id="aaa62-107">Provider Keyword</span></span>
+## <a name="provider-keyword"></a><span data-ttu-id="2b658-107">Mot clé du fournisseur</span><span class="sxs-lookup"><span data-stu-id="2b658-107">Provider Keyword</span></span>
 
-<span data-ttu-id="aaa62-108">Pour appeler ce fournisseur, spécifiez le mot clé et la valeur suivants dans la chaîne de connexion.</span><span class="sxs-lookup"><span data-stu-id="aaa62-108">To invoke this provider, specify the following keyword and value in the connection string.</span></span>
+<span data-ttu-id="2b658-108">Pour appeler ce fournisseur, spécifiez le mot clé et la valeur suivants dans la chaîne de connexion.</span><span class="sxs-lookup"><span data-stu-id="2b658-108">To invoke this provider, specify the following keyword and value in the connection string.</span></span>
 
 ```vb 
  
 "Provider=MSPersist" 
 ```
 
-## <a name="errors"></a><span data-ttu-id="aaa62-109">Erreurs</span><span class="sxs-lookup"><span data-stu-id="aaa62-109">Errors</span></span>
+## <a name="errors"></a><span data-ttu-id="2b658-109">Erreurs</span><span class="sxs-lookup"><span data-stu-id="2b658-109">Errors</span></span>
 
-<span data-ttu-id="aaa62-110">Les erreurs suivantes émises par ce fournisseur peuvent être détectées dans votre application.</span><span class="sxs-lookup"><span data-stu-id="aaa62-110">The following errors issued by this provider can be detected in your application.</span></span>
+<span data-ttu-id="2b658-110">Les erreurs suivantes émises par ce fournisseur peuvent être détectées dans votre application.</span><span class="sxs-lookup"><span data-stu-id="2b658-110">The following errors issued by this provider can be detected in your application.</span></span>
 
 <table>
 <colgroup>
@@ -42,30 +43,30 @@ ms.locfileid: "25877883"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="aaa62-111">Constante</span><span class="sxs-lookup"><span data-stu-id="aaa62-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="aaa62-112">Description</span><span class="sxs-lookup"><span data-stu-id="aaa62-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="2b658-111">Constante</span><span class="sxs-lookup"><span data-stu-id="2b658-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2b658-112">Description</span><span class="sxs-lookup"><span data-stu-id="2b658-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aaa62-113">E_BADSTREAM</span><span class="sxs-lookup"><span data-stu-id="aaa62-113">E_BADSTREAM</span></span></p></td>
-<td><p><span data-ttu-id="aaa62-114">Le fichier ouvert n'a pas un format valide (c'est-à-dire que son format n'est ni ADTG, ni XML ).</span><span class="sxs-lookup"><span data-stu-id="aaa62-114">The file opened does not have a valid format (that is, the format is not ADTG or XML).</span></span></p></td>
+<td><p><span data-ttu-id="2b658-113">E_BADSTREAM</span><span class="sxs-lookup"><span data-stu-id="2b658-113">E_BADSTREAM</span></span></p></td>
+<td><p><span data-ttu-id="2b658-114">Le fichier ouvert n'a pas un format valide (c'est-à-dire que son format n'est ni ADTG, ni XML ).</span><span class="sxs-lookup"><span data-stu-id="2b658-114">The file opened does not have a valid format (that is, the format is not ADTG or XML).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aaa62-115">E_CANTPERSISTROWSET</span><span class="sxs-lookup"><span data-stu-id="aaa62-115">E_CANTPERSISTROWSET</span></span></p></td>
-<td><p><span data-ttu-id="aaa62-116">L'objet <strong>Recordset</strong> enregistré présente des caractéristiques qui l'empêchent d'être stocké.</span><span class="sxs-lookup"><span data-stu-id="aaa62-116">The <strong>Recordset</strong> object saved has characteristics that prevent it from being stored.</span></span></p></td>
+<td><p><span data-ttu-id="2b658-115">E_CANTPERSISTROWSET</span><span class="sxs-lookup"><span data-stu-id="2b658-115">E_CANTPERSISTROWSET</span></span></p></td>
+<td><p><span data-ttu-id="2b658-116">L'objet <strong>Recordset</strong> enregistré présente des caractéristiques qui l'empêchent d'être stocké.</span><span class="sxs-lookup"><span data-stu-id="2b658-116">The <strong>Recordset</strong> object saved has characteristics that prevent it from being stored.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="aaa62-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="aaa62-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2b658-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="2b658-117">Remarks</span></span>
 
-<span data-ttu-id="aaa62-118">Le fournisseur de persistance Microsoft OLE DB n'expose pas de propriétés dynamiques.</span><span class="sxs-lookup"><span data-stu-id="aaa62-118">The Microsoft OLE DB Persistence Provider exposes no dynamic properties.</span></span>
+<span data-ttu-id="2b658-118">Le fournisseur de persistance Microsoft OLE DB n'expose pas de propriétés dynamiques.</span><span class="sxs-lookup"><span data-stu-id="2b658-118">The Microsoft OLE DB Persistence Provider exposes no dynamic properties.</span></span>
 
-<span data-ttu-id="aaa62-119">Actuellement, seuls les objets **Recordset** hiérarchiques paramétrés ne peuvent pas être enregistrés.</span><span class="sxs-lookup"><span data-stu-id="aaa62-119">Currently, only parameterized hierarchical **Recordset** objects cannot be saved.</span></span>
+<span data-ttu-id="2b658-119">Actuellement, seuls les objets **Recordset** hiérarchiques paramétrés ne peuvent pas être enregistrés.</span><span class="sxs-lookup"><span data-stu-id="2b658-119">Currently, only parameterized hierarchical **Recordset** objects cannot be saved.</span></span>
 
-<span data-ttu-id="aaa62-120">Pour plus d'informations sur le stockage persistant des objets **Recordset**, consultez la rubrique [Informations complémentaires sur la persistance des objets Recordset](more-about-recordset-persistence.md).</span><span class="sxs-lookup"><span data-stu-id="aaa62-120">For more information about persistently storing **Recordset** objects, see [Recordset Persistence](more-about-recordset-persistence.md).</span></span>
+<span data-ttu-id="2b658-120">Pour plus d'informations sur le stockage persistant des objets **Recordset**, consultez la rubrique [Informations complémentaires sur la persistance des objets Recordset](more-about-recordset-persistence.md).</span><span class="sxs-lookup"><span data-stu-id="2b658-120">For more information about persistently storing **Recordset** objects, see [Recordset Persistence](more-about-recordset-persistence.md).</span></span>
 
-<span data-ttu-id="aaa62-121">Lorsqu’un flux est utilisé pour ouvrir un **Recordset**, il doit y avoir aucun paramètre spécifié le paramètre *Source* de la méthode **Open** .</span><span class="sxs-lookup"><span data-stu-id="aaa62-121">When a stream is used to open a **Recordset**, there should be no parameters specified other than the *Source* parameter of the **Open** method.</span></span>
+<span data-ttu-id="2b658-121">Lorsqu’un flux est utilisé pour ouvrir un **Recordset**, il doit y avoir aucun paramètre spécifié le paramètre *Source* de la méthode **Open** .</span><span class="sxs-lookup"><span data-stu-id="2b658-121">When a stream is used to open a **Recordset**, there should be no parameters specified other than the *Source* parameter of the **Open** method.</span></span>
 

@@ -1,24 +1,25 @@
 ---
-title: AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)
+title: AbsolutePage, PageCount et PageSize, propriétés — Exemple (VC++)
 TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
 ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
 ms:contentKeyID: 48546133
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5e48222b376971f2d79194eee066f2edda0c95c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891266"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706834"
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="1a2d3-102">AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="1a2d3-102">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a><span data-ttu-id="efe7e-102">AbsolutePage, PageCount et PageSize, propriétés — Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="efe7e-102">AbsolutePage, PageCount, and PageSize properties example (VC++)</span></span>
 
 
-<span data-ttu-id="1a2d3-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1a2d3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="efe7e-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="efe7e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1a2d3-104">Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche issus de la table ***Employee***, cinq enregistrements à la fois.</span><span class="sxs-lookup"><span data-stu-id="1a2d3-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
+<span data-ttu-id="efe7e-104">Cet exemple utilise les propriétés [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md) et [PageSize](pagesize-property-ado.md) pour afficher des noms et des dates d’embauche issus de la table ***Employee***, cinq enregistrements à la fois.</span><span class="sxs-lookup"><span data-stu-id="efe7e-104">This example uses the [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md), and [PageSize](pagesize-property-ado.md) properties to display names and hire dates from the ***Employee*** table, five records at a time.</span></span>
 
 ```cpp
 // BeginAbsolutePageCpp 
@@ -197,7 +198,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="1a2d3-105">**AbsolutePageX.h**</span><span class="sxs-lookup"><span data-stu-id="1a2d3-105">**AbsolutePageX.h**</span></span>
+<span data-ttu-id="efe7e-105">**AbsolutePageX.h**</span><span class="sxs-lookup"><span data-stu-id="efe7e-105">**AbsolutePageX.h**</span></span>
 
 ```cpp 
  
