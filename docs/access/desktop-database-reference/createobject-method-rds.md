@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248905(v=office.15)
 ms:contentKeyID: 48543360
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f622ee94fa6e37c2f618b038aea746791e58e9b8
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 47ad61495bcc96b3099af6273796626e9442cbf0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950080"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702844"
 ---
 # <a name="createobject-method-rds"></a>CreateObject, méthode (RDS)
 
@@ -55,11 +56,11 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 </table>
 
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
-|*Objet* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
+|*Object* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
 |*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
 |*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
 |*awebsrvr* ou *computername* |Une valeur de **type String** qui représente une URL qui identifie le serveur web Internet Information Services (IIS) où une instance de l’objet métier du serveur est créée.|

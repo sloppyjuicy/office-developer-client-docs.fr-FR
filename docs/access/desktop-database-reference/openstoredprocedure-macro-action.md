@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dba3d57a1b9ce890898ac2f5b76b916b848c5a9b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b972174e4fe7f3c0384b7483e17eb5ceb9e8bc15
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997517"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698770"
 ---
 # <a name="openstoredprocedure-macro-action"></a>OpenStoredProcedure, action de macro
 
@@ -26,7 +27,7 @@ Dans un projet Access, vous pouvez utiliser l’action **OuvrirProcédureStocké
 > [!NOTE]
 > [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **OuvrirProcédureStockée** possède les arguments suivants.
 

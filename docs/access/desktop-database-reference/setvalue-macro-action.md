@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1ec96fd588e4b20b6c2ebe0ef25f488841aa4d70
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998874"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722689"
 ---
 # <a name="setvalue-macro-action"></a>SetValue, action de macro
 
@@ -107,17 +108,17 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 <td><p>Fermer le formulaire Liste des produits.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nom du formulaire</strong>: <strong>affichage</strong>des produits : <strong>Mode FormData</strong>: <strong>Mode fenêtre Ajouter</strong>: <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Produits.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DéfinirValeur</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Élément</strong>: [Forms]![Produits]! [N° fournisseur] <strong>Expression</strong>: N° fournisseur  </p></td>
 <td><p>Définissez le contrôle N° fournisseur sur le fournisseur actuel dans le formulaire Fournisseurs.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AtteindreContrôle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: N° catégorie</p></td>
 <td><p>Accédez au contrôle N° catégorie.</p></td>
 </tr>

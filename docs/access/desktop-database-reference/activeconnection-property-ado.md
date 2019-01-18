@@ -10,12 +10,13 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: d3f2a3cf85f51ac4a0d358fcc26e992d61fedca2
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 037ae753f427c42f147972170dbb2e645b260623
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886024"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703201"
 ---
 # <a name="activeconnection-property-ado"></a>ActiveConnection, propriété (ADO)
 
@@ -31,7 +32,7 @@ Définit ou renvoie une valeur de type **String** contenant la définition d'une
 
 Utilisez la propriété **ActiveConnection** pour déterminer l'objet **Connection** sur lequel l'objet **Command** est exécuté ou sur lequel l'objet **Recordset** spécifié est ouvert.
 
-### <a name="command"></a>Commande
+### <a name="command"></a>Command
 
 Pour les objets **Command**, la propriété **ActiveConnection** est en lecture/écriture.
 
@@ -55,7 +56,7 @@ Si vous affectez à la propriété **Source** de l'objet **Recordset** une varia
 
 **Utilisation de Service de données à distance**: lorsqu’elle est utilisée sur un objet Recordset de côté client, cette propriété peut être définie qu’une chaîne de connexion ou (dans Microsoft Visual Basic ou Visual Basic, Scripting Edition) *Nothing*.
 
-### <a name="record"></a>Rappel
+### <a name="record"></a>Record
 
 Cette propriété est en lecture/écriture lorsque l'objet **Record** est fermé et peut contenir une chaîne de connexion ou une référence à un objet **Connection** ouvert. Cette propriété est en lecture seule lorsque l'objet **Record** est ouvert et qu'il contient une référence à un objet **Connection** ouvert.
 

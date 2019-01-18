@@ -1,5 +1,5 @@
 ---
-title: Définir des propriétés de formulaire, d'état et de contrôle
+title: Définir des propriétés de formulaire, d’état et de contrôle
 TOCTitle: Set form, report, and control properties
 description: Chaque formulaire, état, section et contrôle possèdent des paramètres de propriété que vous pouvez définir pour modifier l’apparence ou le comportement d’un élément particulier dans Access 2013.
 ms:assetid: 03349d86-f107-9e49-89df-62f55f3a0735
@@ -11,14 +11,15 @@ f1_keywords:
 - vbaac10.chm12286
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2ffb02f78bbf9d9f4c5d5b07c1ee08e3f19453b7
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: bacbdc100d147be8bf4327a5a775b199c79347bb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25874603"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701689"
 ---
-# <a name="set-form-report-and-control-properties"></a>Définir des propriétés de formulaire, d'état et de contrôle
+# <a name="set-form-report-and-control-properties"></a>Définir des propriétés de formulaire, d’état et de contrôle
 
 **S’applique à**: Access 2013, Office 2013
 

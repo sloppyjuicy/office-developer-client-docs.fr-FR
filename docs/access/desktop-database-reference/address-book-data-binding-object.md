@@ -1,19 +1,20 @@
 ---
-title: Objet de liaison de données du carnet d'adresses
+title: Objet de liaison de données du carnet d’adresses
 TOCTitle: Address Book Data-Binding object
 ms:assetid: cf43f645-1ee1-8655-eb70-86d601e9f3f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250030(v=office.15)
 ms:contentKeyID: 48547807
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: bc8fe1fa2addab5338d7c330d90e8616f0af9b5c
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025712"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704300"
 ---
-# <a name="address-book-data-binding-object"></a>Objet de liaison de données du carnet d'adresses
+# <a name="address-book-data-binding-object"></a>Objet de liaison de données du carnet d’adresses
 
 
 **S’applique à**: Access 2013, Office 2013

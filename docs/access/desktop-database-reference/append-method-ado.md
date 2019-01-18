@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250014(v=office.15)
 ms:contentKeyID: 48547742
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 0c4610fca129d9256e99d9dcd7deb1acce3e97c2
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a85faf900860dabb809a10a92985559b7a7cf2ef
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945932"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706078"
 ---
 # <a name="append-method-ado"></a>Append, méthode (ADO)
 
@@ -25,7 +26,7 @@ la *collection*. Ajouter *l’objet*
 
 *champs*. Ajouter le *nom*, *Type*, *DefinedSize*, *attributs*, *FieldValue*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
@@ -65,7 +66,7 @@ Si vous ne définissez pas la propriété [CursorLocation](cursorlocation-proper
 
 Vous obtenez une erreur d'exécution lorsque la méthode **Append** est appelée sur la collection **Fields** d'un objet **Recordset** ouvert ou d'un objet **Recordset** dont la propriété [ActiveConnection](activeconnection-property-ado.md) a été définie. Vous ne pouvez ajouter des champs qu'à un objet **Recordset** qui est fermé et qui n'a pas encore été connecté à une source de données. Ceci se produit, en principe, lorsqu'un objet **Recordset** est créé à l'aide d'une méthode [CreateRecordset](createrecordset-method-rds.md) ou qu'il est assigné à une variable objet.
 
-### <a name="record"></a>Rappel
+### <a name="record"></a>Record
 
 Vous n'obtenez pas d'erreur d'exécution lorsque la méthode **Append** est appelée sur la collection **Fields** d'un objet **Record** ouvert. Le nouveau champ est ajouté à la collection **Fields** de l'objet **Record**. Si l'objet **Record** est dérivé d'un objet **Recordset**, le nouveau champ n'apparaît pas dans la collection **Fields** de l'objet **Recordset**.
 

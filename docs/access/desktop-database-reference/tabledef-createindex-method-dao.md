@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 429b64ae3909e320433b34d1426e396926fafba7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: baa82b659cc2260d4a003c644b2d03d6c897fd21
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997475"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706233"
 ---
 # <a name="tabledefcreateindex-method-dao"></a>Méthode TableDef.CreateIndex (DAO)
 
@@ -40,7 +41,7 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,7 +51,7 @@ Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Micro
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Type <strong>String</strong> qui identifie de façon unique le nouvel objet <strong>Index</strong>. Consultez la propriété <strong>Name</strong> pour plus d'informations sur les noms d'objets <strong>Index</strong> valides.</p></td>
 </tr>
 </tbody>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249179(v=office.15)
 ms:contentKeyID: 48544405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 260fe01066e14578655089d397b0e76a705b9802
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 89a75ebe8a3fe704c4f755a0f744eac4d068ec0a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996845"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702928"
 ---
 # <a name="appendchunk-method-ado"></a>AppendChunk, méthode (ADO)
 
@@ -23,7 +24,7 @@ Cette méthode ajoute des données à un objet [Field](field-object-ado.md) de d
 
 *objet.* AppendChunk *données*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
@@ -45,7 +46,7 @@ S'il n'existe pas d'enregistrement actif lorsque vous appelez la méthode **Appe
 > [!NOTE]
 > [!REMARQUE] La méthode **AppendChunk** ne fonctionne pas sur les objets **Field** d'un objet [Record](record-object-ado.md) ; elle n'exécute aucune opération et génère une erreur d'exécution.
 
-### <a name="parameters"></a>Paramètres
+### <a name="parameters"></a>Parameters
 
 Si le bit **adParamLong** de la propriété **Attributes** d'un objet **Parameter** a la valeur true, vous pouvez utiliser la méthode **AppendChunk** pour ce paramètre.
 

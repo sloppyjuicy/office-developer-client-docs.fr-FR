@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
 ms:contentKeyID: 48548811
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a0f38d883b39b96eae654fac567fa25b0629e750
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 31eca3f4ca5993a401bd85a4b04299a8697c16e2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998958"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702788"
 ---
 # <a name="tabledefsappend-method-dao"></a>Méthode TableDefs.Append (DAO)
 
@@ -36,7 +37,7 @@ Ajoute un nouvel objet **TableDef** à la collection **TableDefs**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>

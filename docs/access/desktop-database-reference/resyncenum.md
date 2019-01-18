@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
 ms:contentKeyID: 48544337
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: d75ae42d5d3b63e1eea56153ef8e2dd2fb366a30
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ff09d69a9cf36246b3367202531a011c4e1aba12
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870064"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703768"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 
@@ -29,7 +30,7 @@ Spécifie si les valeurs sous-jacentes sont remplacées par un appel à [Resync]
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

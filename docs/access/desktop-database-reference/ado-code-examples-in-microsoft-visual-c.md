@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3653099bc19bde7c1dd349c8b7984a7f988a8e11
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a3ffa94797d14e392b52e32022a225489a9d7b2b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910774"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703334"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Exemples de code ADO dans Microsoft Visual C++
 
@@ -59,7 +60,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 - [BOF, EOF et Bookmark, propriétés-exemple](bof-eof-and-bookmark-properties-example-vc.md)
 - [CacheSize, propriété-exemple](cachesize-property-example-vc.md)
 - [ConnectionString, ConnectionTimeout et State, propriétés-exemple](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
-- [Count, propriété-exemple](count-property-example-vc.md)
+- [Count (propriété) – Exemple](count-property-example-vc.md)
 - [CursorType, LockType et EditMode, propriétés-exemple](cursortype-locktype-and-editmode-properties-example-vc.md)
 - [Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
 - [Filter et RecordCount, propriétés-exemple](filter-and-recordcount-properties-example-vc.md)
@@ -80,7 +81,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes,
 - [StayInSync, propriété-exemple](stayinsync-property-example-vc.md)
 - [Type, propriété-Exemple (champs)](type-property-example-field-vc.md)
 - [Type, propriété-Exemple (propriété)](type-property-example-property-vc.md)
-- [Exemple de valeur de propriété](value-property-example-vc.md)
+- [Value (propriété) – Exemple](value-property-example-vc.md)
 - [Exemple de propriété version](version-property-example-vc.md)
 
 ## <a name="events"></a>Événements

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c69c04f5ef87a487f7e14ccb6f68bb487226df96
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44f573d179c26677fc801dac82e0deecc3874fb1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997895"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698539"
 ---
 # <a name="recordset2requery-method-dao"></a>Méthode Recordset2.Requery (DAO)
 
@@ -40,7 +41,7 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,7 +51,7 @@ Met à jour les données d'un objet **[Recordset](recordset-object-dao.md)** en 
 <tr class="odd">
 <td><p><em>Défnouvellerequête</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Représente la valeur de la propriété <strong>Name</strong> d’un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong></p></td>
 </tr>
 </tbody>

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196780(v=office.15)
 ms:contentKeyID: 48546046
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a5016500b62a465f21ecab93a6fb66c9e6d514e1
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c0fa220b3088cde46b0e82631c06520afd839c64
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998839"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701668"
 ---
 # <a name="sendemail-macro-action"></a>SendEmail, action de macro
 
@@ -41,7 +42,7 @@ L'action **EnvoyerMessage** utilise les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pour</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Oui</p></td>
 <td><p>Les destinataires du message dont les noms doivent figurer sur la ligne <strong>à</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>Cc</em> et <em>Cci</em> ) par un point-virgule ( ;).</p></td>
 </tr>
@@ -51,7 +52,7 @@ L'action **EnvoyerMessage** utilise les arguments suivants.
 <td><p>Destinataires du message dont les noms doivent figurer sur la liste Cc (&quot;copie carbone&quot;) ligne du message.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Cci</strong></p></td>
+<td><p><strong>Bcc</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Destinataires du message dont les noms doivent figurer dans le champ Cci (&quot;copie carbone invisible&quot;) ligne du message.</p></td>
 </tr>
@@ -61,7 +62,7 @@ L'action **EnvoyerMessage** utilise les arguments suivants.
 <td><p>Objet du message. Ce texte apparaît sur la ligne <strong>Objet</strong> du message.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Body</strong></p></td>
+<td><p><strong>Corps</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Texte que vous souhaitez inclure dans le corps du message électronique. Si vous laissez cet argument vide, aucun texte supplémentaire n’est inclus dans le message.</p></td>
 </tr>

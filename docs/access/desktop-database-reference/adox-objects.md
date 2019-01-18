@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6053792912d701fd844b44835721fc0497d23ee4
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910893"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704783"
 ---
 # <a name="adox-objects"></a>Objets ADOX
 
@@ -34,15 +35,15 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="catalog-object-adox.md">Catalogue</a></p></td>
+<td><p><a href="catalog-object-adox.md">Catalog</a></p></td>
 <td><p>Contient les collections qui décrivent le catalogue de schémas d'une source de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Column</a></p></td>
+<td><p><a href="column-object-adox.md">Colonne</a></p></td>
 <td><p>Représente une colonne dans une table, un index ou une clé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">Group</a></p></td>
+<td><p><a href="group-object-adox.md">Groupe</a></p></td>
 <td><p>Représente un compte de groupe disposant des autorisations d'accès à une base de données sécurisée.</p></td>
 </tr>
 <tr class="even">
@@ -50,7 +51,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 <td><p>Représente un index d'une table de base de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Clé</a></p></td>
+<td><p><a href="key-object-adox.md">Key</a></p></td>
 <td><p>Représente un champ de clé primaire, étrangère ou unique d'une table de base de données.</p></td>
 </tr>
 <tr class="even">

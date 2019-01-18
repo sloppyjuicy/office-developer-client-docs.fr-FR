@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249097(v=office.15)
 ms:contentKeyID: 48544075
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 56bd90daef7b7571d8f0c6adca239ef24955f65a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ca0f54d8fdc7e37d0ee01f1ffd29c84a6a8ae799
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944626"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703754"
 ---
 # <a name="rds-returns-stream-not-read-error"></a>RDS renvoie \"flux non lu\" erreur
 

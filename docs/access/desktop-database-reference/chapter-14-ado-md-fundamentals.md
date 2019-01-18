@@ -1,19 +1,20 @@
 ---
-title: 'Chapitre 14 : Principes fondamentaux de la ADO MD'
+title: 'Chapitre 14 : Principes de base ADO MD'
 TOCTitle: 'Chapter 14: ADO MD fundamentals'
 ms:assetid: 129baa54-0bc1-985d-4bfd-25a1c1c3018e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 8079851a59e8fe0d077dcbeed5b354e924aca6a2
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 44a4e666fb615f7d3870acfbd986e93971606d5b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936732"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701136"
 ---
-# <a name="chapter-14-ado-md-fundamentals"></a>Chapitre 14 : Principes fondamentaux de la ADO MD
+# <a name="chapter-14-ado-md-fundamentals"></a>Chapitre 14 : Principes de base ADO MD
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -25,7 +26,7 @@ Ce document suppose une connaissance pratique du langage de programmation Visual
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Vue d’ensemble des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md)
+- [Vue d’ensemble des données et des schémas multidimensionnels](overview-of-multidimensional-schemas-and-data.md)
 - [Utilisation de données multidimensionnelles](working-with-multidimensional-data.md)
 - [Utilisation d'ADO avec ADO MD](using-ado-with-ado-md.md)
 - [Programmation avec ADO MD](programming-with-ado-md.md)

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1b6a050a57afa1e579fba7a3c9185d69cbf27e63
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fe319e0f7a811d3bcd3b2fc18c4a3d951187fbe8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25929558"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704433"
 ---
 # <a name="stopmacro-macro-action"></a>StopMacro, action de macro
 
@@ -19,7 +20,7 @@ ms.locfileid: "25929558"
 
 Vous pouvez utiliser l’action **ArrêtMacro** pour arrêter la macro en cours d’exécution.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
 L’action **ArrêtMacro** ne possède aucun argument.
 

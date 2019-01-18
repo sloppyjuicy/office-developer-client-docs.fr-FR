@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
 ms:contentKeyID: 48546270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d21151b2a30ec44b717031f2b0b8a8f506f22193
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cd50ec72113b0615849ff6b8b2e8d73c0e61c3ce
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25930419"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720008"
 ---
 # <a name="document-members-dao"></a>Membres de document (DAO)
 
@@ -69,7 +70,7 @@ Un objet Document inclut des informations sur une instance d'un objet. L'objet p
 <td><p>Renvoie la date et l'heure de la dernière modification apportée à un objet. Type de données <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="document-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie le nom de l'objet spécifié. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">

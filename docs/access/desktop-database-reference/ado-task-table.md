@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
 ms:contentKeyID: 48544245
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b7da083471149316c39595913aec26053e5ad718
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ffb9ece91d674e3447f43ae17e2ea9415e2339ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25936748"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700177"
 ---
-# <a name="ado-task-table"></a>Tableau des tâches ADO
+# <a name="ado-task-table"></a>Tableau de tâches ADO
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -33,7 +34,7 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 <tbody>
 <tr class="odd">
 <td><p>Connexion à un fournisseur de données</p></td>
-<td><p><a href="making-a-connection.md">Connexion</a></p></td>
+<td><p><a href="making-a-connection.md">Établissement d’une connexion</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Exécution de commandes ou appel de procédures stockées</p></td>
@@ -49,7 +50,7 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="odd">
 <td><p>Accès à un enregistrement spécifique</p></td>
-<td><p><a href="navigating-through-the-data.md">Navigation dans les données</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Naviguer dans les données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Accès à des valeurs de colonne</p></td>
@@ -77,11 +78,11 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="even">
 <td><p>Exécution, validation et annulation de transactions</p></td>
-<td><p><a href="transaction-processing.md">Traitement de transactions</a></p></td>
+<td><p><a href="transaction-processing.md">Traitement des transactions</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Enregistrement des enregistrements dans un fichier (XML ou binaire)</p></td>
-<td><p><a href="persisting-data.md">Persistance des données</a></p></td>
+<td><p><a href="persisting-data.md">Données persistantes</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gestion des erreurs</p></td>

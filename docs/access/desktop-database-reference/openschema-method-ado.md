@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249294(v=office.15)
 ms:contentKeyID: 48544970
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: e9e7fb19504e606fed9960a3982c0f98f9081325
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 43ca69b9d761629d42138780517f8de806ed7e8c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997560"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701010"
 ---
 # <a name="openschema-method-ado"></a>OpenSchema, méthode (ADO)
 
@@ -27,7 +28,7 @@ Obtient du fournisseur les informations du schéma de base de données.
 
 Retourne un objet [Recordset](recordset-object-ado.md) qui contient les informations de schéma. L'objet **Recordset** est ouvert en tant que curseur statique, en lecture seule. Le *QueryType* détermine les colonnes qui apparaissent dans le **jeu d’enregistrements**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

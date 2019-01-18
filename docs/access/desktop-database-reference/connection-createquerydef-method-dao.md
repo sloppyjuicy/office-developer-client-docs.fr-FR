@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 681da274ab1f709da2eb614df038e6aa492a224a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997251"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705931"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Méthode Connection.CreateQueryDef (DAO)
 
@@ -40,7 +41,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,13 +51,13 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>SQLText</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui représente une instruction SQL définissant l’objet <strong>QueryDef</strong>. Si vous ne spécifiez pas cet argument, vous pouvez définir l’objet <strong>QueryDef</strong> en paramétrant sa propriété <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> avant ou après son ajout à une collection.</p></td>
 </tr>
 </tbody>
@@ -65,7 +66,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Objet QueryDef
+QueryDef
 
 ## <a name="remarks"></a>Remarques
 

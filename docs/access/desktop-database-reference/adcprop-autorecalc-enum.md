@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249502(v=office.15)
 ms:contentKeyID: 48545779
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: d8f8a8f3ea27ff40c059ceada6d7f6df65b79664
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e385df5029238106b51aa62949d5e4e94f065657
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25867173"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705399"
 ---
 # <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_ENUM
 
@@ -31,7 +32,7 @@ Ces constantes ne sont utilisées avec le fournisseur **MSDataShape** et la prop
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

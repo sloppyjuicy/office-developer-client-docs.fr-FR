@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
 ms:contentKeyID: 48543032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 867f964dab4967bf6f545083e1f53a1419e877d1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920416"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699785"
 ---
 # <a name="field2type-property-dao"></a>Propriété Field2.Type (DAO)
 
@@ -39,7 +40,7 @@ Pour un objet **Field2**, les paramètres et valeurs de retour possibles sont pr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
