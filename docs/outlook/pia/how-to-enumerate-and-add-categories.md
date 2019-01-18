@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 27fc8630c8e2eb0b491dbb5075f4c58aacec7f93
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25406245"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717754"
 ---
 # <a name="enumerate-and-add-categories"></a>Énumérer et ajouter des catégories
 
@@ -40,7 +41,7 @@ Pour exposer la fonctionnalité des catégories, le modèle objet Outlook fourni
 
 Ces propriétés renvoient une valeur **OLE\_COLOR** qui dépend de la propriété **Color** de l'objet **Category**.
 
-Les éléments Outlook sont présentés en fonction du nom de la catégorie. Chaque élément objet possède une propriété **Category** qui stocke une chaîne séparée par des virgules représentant les noms de catégorie. (Par exemple, pour l'objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)), il convient d'utiliser la propriété **MailItem**[Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\))). Cela vous permet d’ajouter une catégorie à l’élément, même si la catégorie n’apparaît pas dans la liste principale de catégories.
+Les éléments Outlook sont affichés en fonction du nom de la catégorie. Chaque objet d'élément a une propriété **Categories** qui stocke une chaîne délimitée par des virgules qui représente les noms des catégories. Par exemple, pour l'objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , il convient d'utiliser la propriété **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) . Cela vous permet d'ajouter une catégorie à l'élément, même si la catégorie ne figure pas dans la liste principale des catégories.
 
 
 > [!NOTE]

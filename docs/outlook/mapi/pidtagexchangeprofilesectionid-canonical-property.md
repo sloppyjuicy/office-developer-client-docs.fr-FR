@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7843a31094d2564f30000f21ee888e525f39f960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.openlocfilehash: ce823159047410a8cea13b7eff5566cd8abaa5b9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397183"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28699512"
 ---
 # <a name="pidtagexchangeprofilesectionid-canonical-property"></a>Propriété canonique PidTagExchangeProfileSectionId
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un GUID généré de manière dynamique permet de déterminer un compte lorsque vous utilisez plusieurs comptes Microsoft Exchange Server.
   
@@ -36,7 +36,7 @@ Contient un GUID généré de manière dynamique permet de déterminer un compte
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Outlook 2010 et Microsoft Outlook 2013 prend en charge plusieurs comptes Exchange au lieu d’un seul compte Exchange. Pour prendre en charge plusieurs comptes Exchange, la mise en page de profil MAPI a été modifié. Dans Microsoft Office Outlook 2007 et versions antérieures, profils contenu dans une section de profil fixe dédiée aux paramètres Exchange comme nom du serveur, nom d’utilisateur et le fichier de dossier en mode hors connexion (.ost). emplacement. Ces paramètres ont été identifiés à l’aide d’un identificateur unique de la propriété **pbGlobalProfileSectionGuid** . La section utilisée pour les paramètres Exchange est appelée la Section globale Exchange. Pour plus d’informations sur le profil Global Exchange dans Outlook 2007, voir [comment ouvrir la Section profil Global](https://support.microsoft.com/kb/188482).
+Microsoft Outlook 2010 et Microsoft Outlook 2013 prend en charge plusieurs comptes Exchange au lieu d’un seul compte Exchange. Pour prendre en charge plusieurs comptes Exchange, la mise en page de profil MAPI a été modifié. Dans Microsoft Office Outlook 2007 et versions antérieures, profils contenu dans une section de profil fixe dédiée aux paramètres Exchange comme nom du serveur, nom d’utilisateur et le fichier de dossier en mode hors connexion (.ost). emplacement. Ces paramètres ont été identifiés à l’aide d’un identificateur unique de la propriété **pbGlobalProfileSectionGuid** . La section utilisée pour les paramètres Exchange est appelée la Section globale Exchange. 
   
 Un emplacement de la section profil fixe n’est plus suffisant pour prendre en charge plusieurs comptes Exchange. Au lieu de cela, pour chaque compte Exchange dans votre profil, il existe une section consacrée aux paramètres de ce compte. La nouvelle section utilisée pour les paramètres Exchange est identifiée par l' identificateur unique **emsmdbUID**.
   

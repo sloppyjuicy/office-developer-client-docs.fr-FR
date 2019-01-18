@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184637(v=office.15)
 ms:contentKeyID: 55119841
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 19b282a3b3e756814aa2add07cda4be7609206ac
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: f37338209ea468d0143dfd1063c3c57216bc13ea
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25407134"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721758"
 ---
 # <a name="create-a-distribution-list"></a>Création d’une liste de distribution
 
@@ -26,7 +27,7 @@ Cet exemple montre comment créer une liste de distribution et la présenter à 
 Dans l’exemple de code suivant, CreateDistributionList crée une liste de distribution en appelant la méthode [CreateItem(OlItemType)](https://msdn.microsoft.com/library/bb610587\(v=office.15\)) pour créer un objet [DistListItem](https://msdn.microsoft.com/library/bb645382\(v=office.15\)). Il crée ensuite un objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) et appelle la méthode [GetTable(Object, Object)](https://msdn.microsoft.com/library/bb612189\(v=office.15\)) pour rechercher dans le dossier Contacts par défaut tous les contacts dont la valeur de la propriété [Subject](https://msdn.microsoft.com/library/bb624088\(v=office.15\)) est « Top Customer » et dont la valeur de la propriété [Email1Address](https://msdn.microsoft.com/library/bb609902\(v=office.15\)) n’est pas vide. Une fois tous les contacts identifiés, le nom **Email1Address** est ajouté sous forme de colonne dans l’objet **Table**. CreateDistributionList crée ensuite un objet [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) en utilisant la méthode [CreateRecipient(String)](https://msdn.microsoft.com/library/bb609962\(v=office.15\)) de l’objet [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)). CreateDistributionList affiche enfin la liste de distribution « Top Customers » à l’utilisateur.
 
 > [!NOTE] 
-> Nous vous recommandons de transmettre un objet **Recipient** résolu en tant que paramètre à la méthode [AddMember(Recipient)](https://msdn.microsoft.com/library/bb612290(v=office.15)) de l’objet [DistListItem](https://msdn.microsoft.com/library/bb645382\(v=office.15\)). Pour résoudre un objet **Recipient**, utilisez la méthode [Resolve()](https://msdn.microsoft.com/library/bb624165(v=office.15)).
+> Nous vous recommandons de transmettre un objet **Recipient** résolu en tant que paramètre à la méthode [AddMember(Recipient)](https://msdn.microsoft.com/library/bb612290(v=office.15)) de l’objet [DistListItem](https://msdn.microsoft.com/library/bb645382(v=office.15)). Pour résoudre un objet **Recipient**, utilisez la méthode [Resolve()](https://msdn.microsoft.com/library/bb624165(v=office.15)).
 
 Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
 
