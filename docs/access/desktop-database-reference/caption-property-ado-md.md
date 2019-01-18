@@ -6,21 +6,22 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249980(v=office.15)
 ms:contentKeyID: 48547675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c23cc653f07702c983b8419e9029c12d837638a1
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 479669b5c6e6c9ca69a5c0e78f5469b14d72a47c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25919969"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720862"
 ---
-# <a name="caption-property-ado-md"></a><span data-ttu-id="5c5bb-102">Caption, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5c5bb-102">Caption property (ADO MD)</span></span>
+# <a name="caption-property-ado-md"></a><span data-ttu-id="371aa-102">Caption, propriété (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="371aa-102">Caption property (ADO MD)</span></span>
 
 
-<span data-ttu-id="5c5bb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c5bb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="371aa-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="371aa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5c5bb-104">Indique la légende de texte à utiliser lors de l'affichage d'un objet [Level](level-object-ado-md.md) ou [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="5c5bb-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
+<span data-ttu-id="371aa-104">Indique la légende de texte à utiliser lors de l'affichage d'un objet [Level](level-object-ado-md.md) ou [Member](member-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="371aa-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="5c5bb-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="5c5bb-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="371aa-105">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="371aa-105">Return values</span></span>
 
-<span data-ttu-id="5c5bb-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="5c5bb-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="371aa-106">Retourne une valeur de type **String** et est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="371aa-106">Returns a **String** and is read-only.</span></span>
 

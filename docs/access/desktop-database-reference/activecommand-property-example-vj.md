@@ -6,20 +6,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
 ms:contentKeyID: 48548415
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: d7ef113a3d167d94d1b3e262b84d68197a08cd9f
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 80e13c2ad871adf330fb4c607679d542c024a266
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878611"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698217"
 ---
-# <a name="activecommand-property-example-vj"></a><span data-ttu-id="ccfa9-102">ActiveCommand, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ccfa9-102">ActiveCommand property example (VJ++)</span></span>
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="e5c57-102">ActiveCommand, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e5c57-102">ActiveCommand property example (VJ++)</span></span>
 
-<span data-ttu-id="ccfa9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccfa9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5c57-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5c57-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ccfa9-104">Cet exemple illustre la propriété [ActiveCommand ](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="ccfa9-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="e5c57-104">Cet exemple illustre la propriété [ActiveCommand ](activecommand-property-ado.md).</span><span class="sxs-lookup"><span data-stu-id="e5c57-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="ccfa9-105">Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d'afficher le texte et le paramètre de la commande, qui ont servi à créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="ccfa9-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="e5c57-105">Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d'afficher le texte et le paramètre de la commande, qui ont servi à créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="e5c57-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```java 
  

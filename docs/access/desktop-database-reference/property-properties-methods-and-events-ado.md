@@ -6,29 +6,30 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249503(v=office.15)
 ms:contentKeyID: 48545782
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b6c0cb5afb784eacbe190feb2bbe2c82f9db131
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 02610b60dcfefcb5d302a23d989ef78383bd5440
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945641"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698175"
 ---
-# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="81776-102">Propriétés, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="81776-102">Property properties, methods, and events (ADO)</span></span>
+# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="02a8b-102">Propriétés, méthodes et événements (ADO)</span><span class="sxs-lookup"><span data-stu-id="02a8b-102">Property properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="81776-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81776-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="02a8b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="02a8b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="81776-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="81776-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="02a8b-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="02a8b-104">Properties</span></span>
 
-- [<span data-ttu-id="81776-105">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="81776-105">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="81776-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="81776-106">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="81776-107">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="81776-107">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="81776-108">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="81776-108">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="02a8b-105">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="02a8b-105">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="02a8b-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="02a8b-106">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="02a8b-107">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="02a8b-107">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="02a8b-108">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="02a8b-108">Value property</span></span>](value-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="81776-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="81776-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="02a8b-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="02a8b-109">Methods</span></span>
 
-<span data-ttu-id="81776-110">Aucune.</span><span class="sxs-lookup"><span data-stu-id="81776-110">None.</span></span>
+<span data-ttu-id="02a8b-110">Aucune.</span><span class="sxs-lookup"><span data-stu-id="02a8b-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="81776-111">Événements</span><span class="sxs-lookup"><span data-stu-id="81776-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="02a8b-111">Événements</span><span class="sxs-lookup"><span data-stu-id="02a8b-111">Events</span></span>
 
-<span data-ttu-id="81776-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="81776-112">None.</span></span>
+<span data-ttu-id="02a8b-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="02a8b-112">None.</span></span>
 

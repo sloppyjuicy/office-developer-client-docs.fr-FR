@@ -10,76 +10,31 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 2456fb3741cfe5871b46e7937619b060fd350b09
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a655cfa5c6f0427b1a26a01f01e991564ab8e387
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25922398"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700716"
 ---
-# <a name="field2attributes-property-dao"></a><span data-ttu-id="97cba-102">Propriété Field2.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="97cba-102">Field2.Attributes property (DAO)</span></span>
+# <a name="field2attributes-property-dao"></a><span data-ttu-id="c655d-102">Propriété Field2.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="c655d-102">Field2.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="97cba-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="97cba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c655d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c655d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="97cba-p101">Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. Type de données **Long** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="97cba-p101">Sets or returns a value that indicates one or more characteristics of a **Field2** object. Read/write **Long**.</span></span>
+<span data-ttu-id="c655d-p101">Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. Type de données **Long** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="c655d-p101">Sets or returns a value that indicates one or more characteristics of a **Field2** object. Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="97cba-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="97cba-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c655d-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c655d-106">Syntax</span></span>
 
-<span data-ttu-id="97cba-107">*expression* . Attributs</span><span class="sxs-lookup"><span data-stu-id="97cba-107">*expression* .Attributes</span></span>
+<span data-ttu-id="c655d-107">*expression* . Attributs</span><span class="sxs-lookup"><span data-stu-id="c655d-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="97cba-108">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="97cba-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="c655d-108">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="c655d-108">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="97cba-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="97cba-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c655d-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="c655d-109">Remarks</span></span>
 
-<span data-ttu-id="97cba-110">La valeur spécifie les caractéristiques du champ représenté par l'objet **Field2** et peut être une combinaison de ces constantes.</span><span class="sxs-lookup"><span data-stu-id="97cba-110">The value specifies characteristics of the field represented by the **Field2** object and can be a combination of these constants.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="97cba-111">Constant</span><span class="sxs-lookup"><span data-stu-id="97cba-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="97cba-112">Description</span><span class="sxs-lookup"><span data-stu-id="97cba-112">Description</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="97cba-113"><strong>dbAutoIncrField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-113"><strong>dbAutoIncrField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-114">La valeur de champ des nouveaux enregistrements est automatiquement incrémentée d’un entier long unique non modifiable (dans un espace de travail Microsoft Access, pris en charge uniquement par les tables de bases de données de moteur de base de données Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="97cba-114">The field value for new records is automatically incremented to a unique Long integer that can't be changed (in a Microsoft Access workspace, supported only for Microsoft Access database engine database tables).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="97cba-115"><strong>dbDescending</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-115"><strong>dbDescending</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-p102">Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié dans l’ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement)..</span><span class="sxs-lookup"><span data-stu-id="97cba-p102">The field is sorted in descending (Z to A or 100 to 0) order; this option applies only to a <strong>Field2</strong> object in a <strong>Fields</strong> collection of an <strong>Index</strong> object. If you omit this constant, the field is sorted in ascending (A to Z or 0 to 100) order. This is the default value for <strong>Index</strong> and <strong>TableDef</strong> fields (Microsoft Access workspaces only)..</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="97cba-119"><strong>dbFixedField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-119"><strong>dbFixedField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-120">La taille du champ est fixe (par défaut pour les champs numériques).</span><span class="sxs-lookup"><span data-stu-id="97cba-120">The field size is fixed (default for Numeric fields).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="97cba-121"><strong>dbHyperlinkField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-121"><strong>dbHyperlinkField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-122">Le champ contient un lien hypertexte (champs Mémo uniquement).</span><span class="sxs-lookup"><span data-stu-id="97cba-122">The field contains hyperlink information (Memo fields only).</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="97cba-123"><strong>dbSystemField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-123"><strong>dbSystemField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-124">Le champ stocke des informations de réplication pour les réplicas ; vous ne pouvez pas supprimer ce type de champ (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="97cba-124">The field stores replication information for replicas; you can't delete this type of field (Microsoft Access workspaces only).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="97cba-125"><strong>dbUpdatableField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-125"><strong>dbUpdatableField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-126">La valeur du champ peut être modifiée.</span><span class="sxs-lookup"><span data-stu-id="97cba-126">The field value can be changed.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="97cba-127"><strong>dbVariableField</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-127"><strong>dbVariableField</strong></span></span></p></td>
-<td><p><span data-ttu-id="97cba-128">La taille du champ est variable (champs Texte uniquement).</span><span class="sxs-lookup"><span data-stu-id="97cba-128">The field size is variable (Text fields only).</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-<span data-ttu-id="97cba-p103">Pour un objet pas encore ajouté à une collection, cette propriété est en lecture/écriture. Pour un objet **Field2** ajouté, la disponibilité de la propriété **Attributes** dépend de l'objet contenant la collection **Fields**.</span><span class="sxs-lookup"><span data-stu-id="97cba-p103">For an object not yet appended to a collection, this property is read/write. For an appended **Field2** object, the availability of the **Attributes** property depends on the object that contains the **Fields** collection.</span></span>
+<span data-ttu-id="c655d-110">La valeur spécifie les caractéristiques du champ représenté par l'objet **Field2** et peut être une combinaison de ces constantes.</span><span class="sxs-lookup"><span data-stu-id="c655d-110">The value specifies characteristics of the field represented by the **Field2** object and can be a combination of these constants.</span></span>
 
 <table>
 <colgroup>
@@ -88,40 +43,86 @@ ms.locfileid: "25922398"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="97cba-131">Si l'objet Field appartient à un</span><span class="sxs-lookup"><span data-stu-id="97cba-131">If the Field object belongs to an</span></span></p></th>
-<th><p><span data-ttu-id="97cba-132">La propriété Attributes est</span><span class="sxs-lookup"><span data-stu-id="97cba-132">Then Attributes is</span></span></p></th>
+<th><p><span data-ttu-id="c655d-111">Constante</span><span class="sxs-lookup"><span data-stu-id="c655d-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="c655d-112">Description</span><span class="sxs-lookup"><span data-stu-id="c655d-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="97cba-133">objet <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-133"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="97cba-134">En lecture/écriture jusqu'à ce que l'objet <strong>TableDef</strong> auquel l'objet <strong>Index</strong> est ajouté soit ajouté à un objet <strong>Database</strong>. La propriété est alors en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="97cba-134">Read/write until the <strong>TableDef</strong> object that the <strong>Index</strong> object is appended to is appended to a <strong>Database</strong> object; then the property is read-only.</span></span></p></td>
+<td><p><span data-ttu-id="c655d-113"><strong>dbAutoIncrField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-113"><strong>dbAutoIncrField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-114">La valeur de champ des nouveaux enregistrements est automatiquement incrémentée d’un entier long unique non modifiable (dans un espace de travail Microsoft Access, pris en charge uniquement par les tables de bases de données de moteur de base de données Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c655d-114">The field value for new records is automatically incremented to a unique Long integer that can't be changed (in a Microsoft Access workspace, supported only for Microsoft Access database engine database tables).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cba-135">							objet <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-135"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="97cba-136">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="97cba-136">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="c655d-115"><strong>dbDescending</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-115"><strong>dbDescending</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-p102">Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié dans l’ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement)..</span><span class="sxs-lookup"><span data-stu-id="c655d-p102">The field is sorted in descending (Z to A or 100 to 0) order; this option applies only to a <strong>Field2</strong> object in a <strong>Fields</strong> collection of an <strong>Index</strong> object. If you omit this constant, the field is sorted in ascending (A to Z or 0 to 100) order. This is the default value for <strong>Index</strong> and <strong>TableDef</strong> fields (Microsoft Access workspaces only)..</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cba-137">							objet <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-137"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="97cba-138">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="97cba-138">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="c655d-119"><strong>dbFixedField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-119"><strong>dbFixedField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-120">La taille du champ est fixe (par défaut pour les champs numériques).</span><span class="sxs-lookup"><span data-stu-id="c655d-120">The field size is fixed (default for Numeric fields).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="97cba-139">							objet <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-139"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="97cba-140">Non pris en charge</span><span class="sxs-lookup"><span data-stu-id="97cba-140">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="c655d-121"><strong>dbHyperlinkField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-121"><strong>dbHyperlinkField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-122">Le champ contient un lien hypertexte (champs Mémo uniquement).</span><span class="sxs-lookup"><span data-stu-id="c655d-122">The field contains hyperlink information (Memo fields only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="97cba-141">							objet <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="97cba-141"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="97cba-142">En lecture/écriture</span><span class="sxs-lookup"><span data-stu-id="97cba-142">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="c655d-123"><strong>dbSystemField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-123"><strong>dbSystemField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-124">Le champ stocke des informations de réplication pour les réplicas ; vous ne pouvez pas supprimer ce type de champ (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="c655d-124">The field stores replication information for replicas; you can't delete this type of field (Microsoft Access workspaces only).</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c655d-125"><strong>dbUpdatableField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-125"><strong>dbUpdatableField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-126">La valeur du champ peut être modifiée.</span><span class="sxs-lookup"><span data-stu-id="c655d-126">The field value can be changed.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c655d-127"><strong>dbVariableField</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-127"><strong>dbVariableField</strong></span></span></p></td>
+<td><p><span data-ttu-id="c655d-128">La taille du champ est variable (champs Texte uniquement).</span><span class="sxs-lookup"><span data-stu-id="c655d-128">The field size is variable (Text fields only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="97cba-p104">Lorsque vous définissez plusieurs attributs, vous pouvez les combiner en additionnant les constantes appropriées. Toute valeur non valide est ignorée sans provoquer d'erreur.</span><span class="sxs-lookup"><span data-stu-id="97cba-p104">When you set multiple attributes, you can combine them by summing the appropriate constants. Any invalid values are ignored without producing an error.</span></span>
+<span data-ttu-id="c655d-p103">Pour un objet pas encore ajouté à une collection, cette propriété est en lecture/écriture. Pour un objet **Field2** ajouté, la disponibilité de la propriété **Attributes** dépend de l'objet contenant la collection **Fields**.</span><span class="sxs-lookup"><span data-stu-id="c655d-p103">For an object not yet appended to a collection, this property is read/write. For an appended **Field2** object, the availability of the **Attributes** property depends on the object that contains the **Fields** collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="97cba-145">Exemple</span><span class="sxs-lookup"><span data-stu-id="97cba-145">Example</span></span>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="c655d-131">Si l'objet Field appartient à un</span><span class="sxs-lookup"><span data-stu-id="c655d-131">If the Field object belongs to an</span></span></p></th>
+<th><p><span data-ttu-id="c655d-132">La propriété Attributes est</span><span class="sxs-lookup"><span data-stu-id="c655d-132">Then Attributes is</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="c655d-133">objet <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-133"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c655d-134">En lecture/écriture jusqu'à ce que l'objet <strong>TableDef</strong> auquel l'objet <strong>Index</strong> est ajouté soit ajouté à un objet <strong>Database</strong>. La propriété est alors en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c655d-134">Read/write until the <strong>TableDef</strong> object that the <strong>Index</strong> object is appended to is appended to a <strong>Database</strong> object; then the property is read-only.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c655d-135">							objet <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-135"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c655d-136">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="c655d-136">Read-only</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c655d-137">							objet <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-137"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c655d-138">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="c655d-138">Read-only</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="c655d-139">							objet <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-139"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c655d-140">Non pris en charge</span><span class="sxs-lookup"><span data-stu-id="c655d-140">Not supported</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="c655d-141">							objet <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="c655d-141"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="c655d-142">En lecture/écriture</span><span class="sxs-lookup"><span data-stu-id="c655d-142">Read/write</span></span></p></td>
+</tr>
+</tbody>
+</table>
 
-<span data-ttu-id="97cba-146">Cet exemple illustre la propriété **Attributes** pour les objets **Field2**, **Relation** et **TableDef** de la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="97cba-146">This example displays the **Attributes** property for **Field2**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+
+<span data-ttu-id="c655d-p104">Lorsque vous définissez plusieurs attributs, vous pouvez les combiner en additionnant les constantes appropriées. Toute valeur non valide est ignorée sans provoquer d'erreur.</span><span class="sxs-lookup"><span data-stu-id="c655d-p104">When you set multiple attributes, you can combine them by summing the appropriate constants. Any invalid values are ignored without producing an error.</span></span>
+
+## <a name="example"></a><span data-ttu-id="c655d-145">Exemple</span><span class="sxs-lookup"><span data-stu-id="c655d-145">Example</span></span>
+
+<span data-ttu-id="c655d-146">Cet exemple illustre la propriété **Attributes** pour les objets **Field2**, **Relation** et **TableDef** de la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="c655d-146">This example displays the **Attributes** property for **Field2**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

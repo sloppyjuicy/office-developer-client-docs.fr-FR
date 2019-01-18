@@ -6,54 +6,55 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249984(v=office.15)
 ms:contentKeyID: 48547693
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c72902c4ed1d1d2657bfa6e2b4c5f84d76dfefa3
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 095191bbfe55f2c38529cb1c260979c48dd2d5f1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950257"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28702963"
 ---
-# <a name="clone-method-ado"></a><span data-ttu-id="47647-102">Clone, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="47647-102">Clone method (ADO)</span></span>
+# <a name="clone-method-ado"></a><span data-ttu-id="af2c8-102">Clone, méthode (ADO)</span><span class="sxs-lookup"><span data-stu-id="af2c8-102">Clone method (ADO)</span></span>
 
-<span data-ttu-id="47647-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47647-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="af2c8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af2c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="47647-p101">Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un objet **Recordset** existant. Spécifie éventuellement que le clone doit être en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="47647-p101">Creates a duplicate [Recordset](recordset-object-ado.md) object from an existing **Recordset** object. Optionally, specifies that the clone be read-only.</span></span>
+<span data-ttu-id="af2c8-p101">Crée une copie de l'objet [Recordset](recordset-object-ado.md) à partir d'un objet **Recordset** existant. Spécifie éventuellement que le clone doit être en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="af2c8-p101">Creates a duplicate [Recordset](recordset-object-ado.md) object from an existing **Recordset** object. Optionally, specifies that the clone be read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="47647-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="47647-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="af2c8-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="af2c8-106">Syntax</span></span>
 
-<span data-ttu-id="47647-107">**La valeur** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)</span><span class="sxs-lookup"><span data-stu-id="47647-107">**Set** *rstDuplicate* = *rstOriginal*.Clone (*LockType*)</span></span>
+<span data-ttu-id="af2c8-107">**La valeur** *rstDuplicate*  =  *rstOriginal*. Clone (*LockType*)</span><span class="sxs-lookup"><span data-stu-id="af2c8-107">**Set** *rstDuplicate* = *rstOriginal*.Clone (*LockType*)</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="47647-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="47647-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="af2c8-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="af2c8-108">Return value</span></span>
 
-<span data-ttu-id="47647-109">Retourne une référence d'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="47647-109">Returns a **Recordset** object reference.</span></span>
+<span data-ttu-id="af2c8-109">Retourne une référence d'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="af2c8-109">Returns a **Recordset** object reference.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="47647-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="47647-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="af2c8-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="af2c8-110">Parameters</span></span>
 
-|<span data-ttu-id="47647-111">Paramètre</span><span class="sxs-lookup"><span data-stu-id="47647-111">Parameter</span></span>|<span data-ttu-id="47647-112">Description</span><span class="sxs-lookup"><span data-stu-id="47647-112">Description</span></span>|
+|<span data-ttu-id="af2c8-111">Paramètre</span><span class="sxs-lookup"><span data-stu-id="af2c8-111">Parameter</span></span>|<span data-ttu-id="af2c8-112">Description</span><span class="sxs-lookup"><span data-stu-id="af2c8-112">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="47647-113">*rstDuplicate*</span><span class="sxs-lookup"><span data-stu-id="47647-113">*rstDuplicate*</span></span> |<span data-ttu-id="47647-114">Variable objet qui identifie la copie de l'objet **Recordset** à créer.</span><span class="sxs-lookup"><span data-stu-id="47647-114">An object variable that identifies the duplicate **Recordset** object to be created.</span></span>|
-|<span data-ttu-id="47647-115">*rstOriginal*</span><span class="sxs-lookup"><span data-stu-id="47647-115">*rstOriginal*</span></span> |<span data-ttu-id="47647-116">Variable objet qui identifie l'objet **Recordset** à dupliquer.</span><span class="sxs-lookup"><span data-stu-id="47647-116">An object variable that identifies the **Recordset** object to be duplicated.</span></span>|
-|<span data-ttu-id="47647-117">*LockType*</span><span class="sxs-lookup"><span data-stu-id="47647-117">*LockType*</span></span> |<span data-ttu-id="47647-p102">Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.</span><span class="sxs-lookup"><span data-stu-id="47647-p102">Optional. A [LockTypeEnum](locktypeenum.md) value that specifies either the lock type of the original **Recordset**, or a read-only **Recordset**. Valid values are **adLockUnspecified** or **adLockReadOnly**.</span></span>|
+|<span data-ttu-id="af2c8-113">*rstDuplicate*</span><span class="sxs-lookup"><span data-stu-id="af2c8-113">*rstDuplicate*</span></span> |<span data-ttu-id="af2c8-114">Variable objet qui identifie la copie de l'objet **Recordset** à créer.</span><span class="sxs-lookup"><span data-stu-id="af2c8-114">An object variable that identifies the duplicate **Recordset** object to be created.</span></span>|
+|<span data-ttu-id="af2c8-115">*rstOriginal*</span><span class="sxs-lookup"><span data-stu-id="af2c8-115">*rstOriginal*</span></span> |<span data-ttu-id="af2c8-116">Variable objet qui identifie l'objet **Recordset** à dupliquer.</span><span class="sxs-lookup"><span data-stu-id="af2c8-116">An object variable that identifies the **Recordset** object to be duplicated.</span></span>|
+|<span data-ttu-id="af2c8-117">*LockType*</span><span class="sxs-lookup"><span data-stu-id="af2c8-117">*LockType*</span></span> |<span data-ttu-id="af2c8-p102">Facultatif. Valeur [LockTypeEnum](locktypeenum.md) qui spécifie le type de verrou de l'objet **Recordset** d'origine ou un objet **Recordset** en lecture seule. Les valeurs valides sont **adLockUnspecified** ou **adLockReadOnly**.</span><span class="sxs-lookup"><span data-stu-id="af2c8-p102">Optional. A [LockTypeEnum](locktypeenum.md) value that specifies either the lock type of the original **Recordset**, or a read-only **Recordset**. Valid values are **adLockUnspecified** or **adLockReadOnly**.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="47647-121">Notes</span><span class="sxs-lookup"><span data-stu-id="47647-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="af2c8-121">Notes</span><span class="sxs-lookup"><span data-stu-id="af2c8-121">Remarks</span></span>
 
-<span data-ttu-id="47647-p103">Faites appel à la méthode **Clone** pour créer plusieurs copies de l'objet **Recordset**, notamment si vous voulez conserver plusieurs enregistrements actifs dans un jeu d'enregistrements donné. L'utilisation de la méthode **Clone** est plus efficace que la création et l'ouverture d'un nouvel objet **Recordset** avec la même définition que l'original.</span><span class="sxs-lookup"><span data-stu-id="47647-p103">Use the **Clone** method to create multiple, duplicate **Recordset** objects, particularly if you want to maintain more than one current record in a given set of records. Using the **Clone** method is more efficient than creating and opening a new **Recordset** object with the same definition as the original.</span></span>
+<span data-ttu-id="af2c8-p103">Faites appel à la méthode **Clone** pour créer plusieurs copies de l'objet **Recordset**, notamment si vous voulez conserver plusieurs enregistrements actifs dans un jeu d'enregistrements donné. L'utilisation de la méthode **Clone** est plus efficace que la création et l'ouverture d'un nouvel objet **Recordset** avec la même définition que l'original.</span><span class="sxs-lookup"><span data-stu-id="af2c8-p103">Use the **Clone** method to create multiple, duplicate **Recordset** objects, particularly if you want to maintain more than one current record in a given set of records. Using the **Clone** method is more efficient than creating and opening a new **Recordset** object with the same definition as the original.</span></span>
 
-<span data-ttu-id="47647-p104">Si elle existe, la propriété [Filter](filter-property-ado.md) de l'objet **Recordset** d'origine, n'est pas appliquée au clone. Définissez la propriété **Filter** du nouvel objet **Recordset** afin de filtrer les résultats. Le moyen le plus simple de copier une valeur **Filter** existante consiste à l'affecter directement de cette façon :</span><span class="sxs-lookup"><span data-stu-id="47647-p104">The [Filter](filter-property-ado.md) property of the original **Recordset**, if any, will not be applied to the clone. Set the **Filter** property of the new **Recordset** in order to filter the results. The simplest way to copy any existing **Filter** value is to assign it directly, like this:</span></span>
+<span data-ttu-id="af2c8-p104">Si elle existe, la propriété [Filter](filter-property-ado.md) de l'objet **Recordset** d'origine, n'est pas appliquée au clone. Définissez la propriété **Filter** du nouvel objet **Recordset** afin de filtrer les résultats. Le moyen le plus simple de copier une valeur **Filter** existante consiste à l'affecter directement de cette façon :</span><span class="sxs-lookup"><span data-stu-id="af2c8-p104">The [Filter](filter-property-ado.md) property of the original **Recordset**, if any, will not be applied to the clone. Set the **Filter** property of the new **Recordset** in order to filter the results. The simplest way to copy any existing **Filter** value is to assign it directly, like this:</span></span>
 
-<span data-ttu-id="47647-127">L'enregistrement actif du clone que vous venez de créer correspond au premier enregistrement.</span><span class="sxs-lookup"><span data-stu-id="47647-127">The current record of a newly created clone is set to the first record.</span></span>
+<span data-ttu-id="af2c8-127">L'enregistrement actif du clone que vous venez de créer correspond au premier enregistrement.</span><span class="sxs-lookup"><span data-stu-id="af2c8-127">The current record of a newly created clone is set to the first record.</span></span>
 
-<span data-ttu-id="47647-p105">Les modifications apportées à un objet **Recordset** apparaissent dans tous ses clones, quel que soit le type de curseur utilisé. Toutefois, après l'exécution de la méthode [Requery](requery-method-ado.md) sur l'objet **Recordset** d'origine, les clones ne sont plus synchronisés avec l'original.</span><span class="sxs-lookup"><span data-stu-id="47647-p105">Changes you make to one **Recordset** object are visible in all of its clones regardless of cursor type. However, after you execute [Requery](requery-method-ado.md) on the original **Recordset**, the clones will no longer be synchronized to the original.</span></span>
+<span data-ttu-id="af2c8-p105">Les modifications apportées à un objet **Recordset** apparaissent dans tous ses clones, quel que soit le type de curseur utilisé. Toutefois, après l'exécution de la méthode [Requery](requery-method-ado.md) sur l'objet **Recordset** d'origine, les clones ne sont plus synchronisés avec l'original.</span><span class="sxs-lookup"><span data-stu-id="af2c8-p105">Changes you make to one **Recordset** object are visible in all of its clones regardless of cursor type. However, after you execute [Requery](requery-method-ado.md) on the original **Recordset**, the clones will no longer be synchronized to the original.</span></span>
 
-<span data-ttu-id="47647-130">De même que la fermeture de l'objet **Recordset** d'origine ne ferme pas ses clones, la fermeture d'un clone ne ferme pas l'original ni aucune autre copie.</span><span class="sxs-lookup"><span data-stu-id="47647-130">Closing the original **Recordset** does not close its copies, nor does closing a copy close the original or any of the other copies.</span></span>
+<span data-ttu-id="af2c8-130">De même que la fermeture de l'objet **Recordset** d'origine ne ferme pas ses clones, la fermeture d'un clone ne ferme pas l'original ni aucune autre copie.</span><span class="sxs-lookup"><span data-stu-id="af2c8-130">Closing the original **Recordset** does not close its copies, nor does closing a copy close the original or any of the other copies.</span></span>
 
-<span data-ttu-id="47647-p106">Vous ne pouvez cloner qu'un objet **Recordset** prenant en charge les signets. Les valeurs de signet sont interchangeables ; cela signifie qu'une référence de signet d'un objet **Recordset** renvoie au même enregistrement dans l'un de ses clones.</span><span class="sxs-lookup"><span data-stu-id="47647-p106">You can only clone a **Recordset** object that supports bookmarks. Bookmark values are interchangeable; that is, a bookmark reference from one **Recordset** object refers to the same record in any of its clones.</span></span>
+<span data-ttu-id="af2c8-p106">Vous ne pouvez cloner qu'un objet **Recordset** prenant en charge les signets. Les valeurs de signet sont interchangeables ; cela signifie qu'une référence de signet d'un objet **Recordset** renvoie au même enregistrement dans l'un de ses clones.</span><span class="sxs-lookup"><span data-stu-id="af2c8-p106">You can only clone a **Recordset** object that supports bookmarks. Bookmark values are interchangeable; that is, a bookmark reference from one **Recordset** object refers to the same record in any of its clones.</span></span>
 
-<span data-ttu-id="47647-133">Certains événements **Recordset** qui sont déclenchées déclenche également dans tous les clones de **l’objet Recordset** .</span><span class="sxs-lookup"><span data-stu-id="47647-133">Some **Recordset** events that are triggered will also fire in all **Recordset** clones.</span></span> <span data-ttu-id="47647-134">Toutefois, étant donné que l’enregistrement actif peut différer entre clonée **jeux d’enregistrements**, les événements peut-être pas valides pour le clone.</span><span class="sxs-lookup"><span data-stu-id="47647-134">However, because the current record can differ between cloned **Recordsets**, the events may not be valid for the clone.</span></span>
+<span data-ttu-id="af2c8-133">Certains événements **Recordset** qui sont déclenchées déclenche également dans tous les clones de **l’objet Recordset** .</span><span class="sxs-lookup"><span data-stu-id="af2c8-133">Some **Recordset** events that are triggered will also fire in all **Recordset** clones.</span></span> <span data-ttu-id="af2c8-134">Toutefois, étant donné que l’enregistrement actif peut différer entre clonée **jeux d’enregistrements**, les événements peut-être pas valides pour le clone.</span><span class="sxs-lookup"><span data-stu-id="af2c8-134">However, because the current record can differ between cloned **Recordsets**, the events may not be valid for the clone.</span></span>
 
-<span data-ttu-id="47647-135">Par exemple, si vous modifiez la valeur d'un champ, un événement [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) est déclenché au niveau de l'objet **Recordset** modifié et de tous ses clones.</span><span class="sxs-lookup"><span data-stu-id="47647-135">For example, if you change a value of a field, a [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) event will occur in the changed **Recordset** and in all clones.</span></span> <span data-ttu-id="47647-136">Le paramètre *Fields* de l’événement **WillChangeField** d’un **jeu d’enregistrements** d' clonée (où la modification a été apportée pas) système simplement faire référence aux champs de l’enregistrement actif du clone, qui peut être un enregistrement différent de celui en cours Enregistrer de la **objet Recordset** d’origine où la modification s’est produite.</span><span class="sxs-lookup"><span data-stu-id="47647-136">The *Fields* parameter of the **WillChangeField** event of a cloned **Recordset** (where the change was not made) will simply refer to the fields of the current record of the clone, which may be a different record than the current record of the original **Recordset** where the change occurred.</span></span>
+<span data-ttu-id="af2c8-135">Par exemple, si vous modifiez la valeur d'un champ, un événement [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) est déclenché au niveau de l'objet **Recordset** modifié et de tous ses clones.</span><span class="sxs-lookup"><span data-stu-id="af2c8-135">For example, if you change a value of a field, a [WillChangeField](willchangefield-and-fieldchangecomplete-events-ado.md) event will occur in the changed **Recordset** and in all clones.</span></span> <span data-ttu-id="af2c8-136">Le paramètre *Fields* de l’événement **WillChangeField** d’un **jeu d’enregistrements** d' clonée (où la modification a été apportée pas) système simplement faire référence aux champs de l’enregistrement actif du clone, qui peut être un enregistrement différent de celui en cours Enregistrer de la **objet Recordset** d’origine où la modification s’est produite.</span><span class="sxs-lookup"><span data-stu-id="af2c8-136">The *Fields* parameter of the **WillChangeField** event of a cloned **Recordset** (where the change was not made) will simply refer to the fields of the current record of the clone, which may be a different record than the current record of the original **Recordset** where the change occurred.</span></span>
 
-<span data-ttu-id="47647-137">Le tableau suivant répertorie tous les événements **Recordset** et indique s'ils sont valides et s'ils sont déclenchés pour tous les clones de l'objet Recordset générés à l'aide de la méthode **Clone**.</span><span class="sxs-lookup"><span data-stu-id="47647-137">The following table provided a full listing of all **Recordset** events and indicates whether they are valid and triggered for any recordset clones generated using the **Clone** method.</span></span>
+<span data-ttu-id="af2c8-137">Le tableau suivant répertorie tous les événements **Recordset** et indique s'ils sont valides et s'ils sont déclenchés pour tous les clones de l'objet Recordset générés à l'aide de la méthode **Clone**.</span><span class="sxs-lookup"><span data-stu-id="af2c8-137">The following table provided a full listing of all **Recordset** events and indicates whether they are valid and triggered for any recordset clones generated using the **Clone** method.</span></span>
 
 <table>
 <colgroup>
@@ -62,54 +63,54 @@ ms.locfileid: "25950257"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="47647-138">Événement</span><span class="sxs-lookup"><span data-stu-id="47647-138">Event</span></span></p></th>
-<th><p><span data-ttu-id="47647-139">Déclenché au niveau des clones ?</span><span class="sxs-lookup"><span data-stu-id="47647-139">Triggered in clones?</span></span></p></th>
+<th><p><span data-ttu-id="af2c8-138">Événement</span><span class="sxs-lookup"><span data-stu-id="af2c8-138">Event</span></span></p></th>
+<th><p><span data-ttu-id="af2c8-139">Déclenché au niveau des clones ?</span><span class="sxs-lookup"><span data-stu-id="af2c8-139">Triggered in clones?</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-140"><a href="endofrecordset-event-ado.md">EndOfRecordset</a></span><span class="sxs-lookup"><span data-stu-id="47647-140"><a href="endofrecordset-event-ado.md">EndOfRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-141">Non</span><span class="sxs-lookup"><span data-stu-id="47647-141">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-140"><a href="endofrecordset-event-ado.md">EndOfRecordset</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-140"><a href="endofrecordset-event-ado.md">EndOfRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-141">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-141">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="47647-142"><a href="fetchcomplete-event-ado.md">FetchComplete</a></span><span class="sxs-lookup"><span data-stu-id="47647-142"><a href="fetchcomplete-event-ado.md">FetchComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-143">Non</span><span class="sxs-lookup"><span data-stu-id="47647-143">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-142"><a href="fetchcomplete-event-ado.md">FetchComplete</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-142"><a href="fetchcomplete-event-ado.md">FetchComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-143">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-143">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-144"><a href="fetchprogress-event-ado.md">FetchProgress</a></span><span class="sxs-lookup"><span data-stu-id="47647-144"><a href="fetchprogress-event-ado.md">FetchProgress</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-145">Non</span><span class="sxs-lookup"><span data-stu-id="47647-145">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-144"><a href="fetchprogress-event-ado.md">FetchProgress</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-144"><a href="fetchprogress-event-ado.md">FetchProgress</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-145">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-145">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="47647-146"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">FieldChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="47647-146"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">FieldChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-147">Oui</span><span class="sxs-lookup"><span data-stu-id="47647-147">Yes</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-146"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">FieldChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-146"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">FieldChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-147">Oui</span><span class="sxs-lookup"><span data-stu-id="af2c8-147">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-148"><a href="willmove-and-movecomplete-events-ado.md">MoveComplete</a></span><span class="sxs-lookup"><span data-stu-id="47647-148"><a href="willmove-and-movecomplete-events-ado.md">MoveComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-149">Non</span><span class="sxs-lookup"><span data-stu-id="47647-149">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-148"><a href="willmove-and-movecomplete-events-ado.md">MoveComplete</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-148"><a href="willmove-and-movecomplete-events-ado.md">MoveComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-149">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-149">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="47647-150"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">RecordChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="47647-150"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">RecordChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-151">Oui</span><span class="sxs-lookup"><span data-stu-id="47647-151">Yes</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-150"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">RecordChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-150"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">RecordChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-151">Oui</span><span class="sxs-lookup"><span data-stu-id="af2c8-151">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-152"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="47647-152"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-153">Non</span><span class="sxs-lookup"><span data-stu-id="47647-153">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-152"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-152"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-153">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-153">No</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="47647-154"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField</a></span><span class="sxs-lookup"><span data-stu-id="47647-154"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-155">Oui</span><span class="sxs-lookup"><span data-stu-id="47647-155">Yes</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-154"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-154"><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-155">Oui</span><span class="sxs-lookup"><span data-stu-id="af2c8-155">Yes</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-156"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord</a></span><span class="sxs-lookup"><span data-stu-id="47647-156"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-157">Oui</span><span class="sxs-lookup"><span data-stu-id="47647-157">Yes</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-156"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-156"><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-157">Oui</span><span class="sxs-lookup"><span data-stu-id="af2c8-157">Yes</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="47647-158"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></span><span class="sxs-lookup"><span data-stu-id="47647-158"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-159">Non</span><span class="sxs-lookup"><span data-stu-id="47647-159">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-158"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-158"><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-159">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-159">No</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="47647-160"><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></span><span class="sxs-lookup"><span data-stu-id="47647-160"><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></span></span></p></td>
-<td><p><span data-ttu-id="47647-161">Non</span><span class="sxs-lookup"><span data-stu-id="47647-161">No</span></span></p></td>
+<td><p><span data-ttu-id="af2c8-160"><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></span><span class="sxs-lookup"><span data-stu-id="af2c8-160"><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></span></span></p></td>
+<td><p><span data-ttu-id="af2c8-161">Non</span><span class="sxs-lookup"><span data-stu-id="af2c8-161">No</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
 ms:contentKeyID: 48545159
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f305cf78e85bf91db39ff1df5ffe8f1618f4c936
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2698f00d68451870b06c1b5e9ed0b849e3950f11
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924714"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704027"
 ---
-# <a name="connectionname-property-dao"></a><span data-ttu-id="94e7d-102">Propriété Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="94e7d-102">Connection.Name property (DAO)</span></span>
+# <a name="connectionname-property-dao"></a><span data-ttu-id="4be0c-102">Propriété Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="4be0c-102">Connection.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="94e7d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94e7d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4be0c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4be0c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="94e7d-104">Renvoie le nom d'un objet **[Connection](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="94e7d-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
+<span data-ttu-id="4be0c-104">Renvoie le nom d'un objet **[Connection](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="4be0c-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="94e7d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="94e7d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4be0c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4be0c-105">Syntax</span></span>
 
-<span data-ttu-id="94e7d-106">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="94e7d-106">*expression* .Name</span></span>
+<span data-ttu-id="4be0c-106">*expression* . Nom</span><span class="sxs-lookup"><span data-stu-id="4be0c-106">*expression* .Name</span></span>
 
-<span data-ttu-id="94e7d-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="94e7d-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="4be0c-107">*expression* Variable qui représente un objet **Connection** .</span><span class="sxs-lookup"><span data-stu-id="4be0c-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="94e7d-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="94e7d-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4be0c-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="4be0c-108">Remarks</span></span>
 
-<span data-ttu-id="94e7d-109">Vous pouvez utiliser la propriété **Name** d'un objet avec l'instruction **Dim** Visual Basic for Applications dans un code pour créer d'autres instances de l'objet.</span><span class="sxs-lookup"><span data-stu-id="94e7d-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
+<span data-ttu-id="4be0c-109">Vous pouvez utiliser la propriété **Name** d'un objet avec l'instruction **Dim** Visual Basic for Applications dans un code pour créer d'autres instances de l'objet.</span><span class="sxs-lookup"><span data-stu-id="4be0c-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
 

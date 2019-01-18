@@ -6,27 +6,28 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
 ms:contentKeyID: 48545192
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1b43e057247157d3e4b71754f106d9f7c571e02
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f305cd5a9af2c4baae16c783996257fe59067032
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25921403"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701150"
 ---
-# <a name="clustered-property-adox"></a><span data-ttu-id="9e476-102">Clustered, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9e476-102">Clustered property (ADOX)</span></span>
+# <a name="clustered-property-adox"></a><span data-ttu-id="a0a43-102">Clustered, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a0a43-102">Clustered property (ADOX)</span></span>
 
 
-<span data-ttu-id="9e476-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e476-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0a43-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0a43-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9e476-104">Indique s'il s'agit d'un index cluster.</span><span class="sxs-lookup"><span data-stu-id="9e476-104">Indicates whether the index is clustered.</span></span>
+<span data-ttu-id="a0a43-104">Indique s'il s'agit d'un index cluster.</span><span class="sxs-lookup"><span data-stu-id="a0a43-104">Indicates whether the index is clustered.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="9e476-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="9e476-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="a0a43-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="a0a43-105">Settings and return values</span></span>
 
-<span data-ttu-id="9e476-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="9e476-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="a0a43-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="a0a43-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9e476-107">Notes</span><span class="sxs-lookup"><span data-stu-id="9e476-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a0a43-107">Notes</span><span class="sxs-lookup"><span data-stu-id="a0a43-107">Remarks</span></span>
 
-<span data-ttu-id="9e476-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="9e476-108">The default value is **False**.</span></span>
+<span data-ttu-id="a0a43-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="a0a43-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="9e476-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="9e476-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="a0a43-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="a0a43-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

@@ -10,41 +10,42 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 70bdcddaaeb82b022fd9e6f49d13333017b5aaf9
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8a643dae0b67cf4f2a2a0148619d9a8f4df7e6f0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999000"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703488"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a><span data-ttu-id="a2e58-102">Méthode Recordset2.CopyQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2e58-102">Recordset2.CopyQueryDef method (DAO)</span></span>
+# <a name="recordset2copyquerydef-method-dao"></a><span data-ttu-id="d6b2a-102">Méthode Recordset2.CopyQueryDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6b2a-102">Recordset2.CopyQueryDef method (DAO)</span></span>
 
 
-<span data-ttu-id="a2e58-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2e58-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="d6b2a-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6b2a-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="a2e58-104">Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l' **objet QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="a2e58-104">Returns a **[QueryDef](querydef-object-dao.md)** object that is a copy of the **QueryDef** used to create the **[Recordset](recordset-object-dao.md)** object represented by the recordset placeholder (Microsoft Access workspaces only).</span></span> <span data-ttu-id="a2e58-105">.</span><span class="sxs-lookup"><span data-stu-id="a2e58-105"></span></span>
+<span data-ttu-id="d6b2a-104">Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l' **objet QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé du jeu d’enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="d6b2a-104">Returns a **[QueryDef](querydef-object-dao.md)** object that is a copy of the **QueryDef** used to create the **[Recordset](recordset-object-dao.md)** object represented by the recordset placeholder (Microsoft Access workspaces only).</span></span> <span data-ttu-id="d6b2a-105">.</span><span class="sxs-lookup"><span data-stu-id="d6b2a-105"></span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a2e58-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a2e58-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d6b2a-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d6b2a-106">Syntax</span></span>
 
-<span data-ttu-id="a2e58-107">*expression* . CopyQueryDef</span><span class="sxs-lookup"><span data-stu-id="a2e58-107">*expression* .CopyQueryDef</span></span>
+<span data-ttu-id="d6b2a-107">*expression* . CopyQueryDef</span><span class="sxs-lookup"><span data-stu-id="d6b2a-107">*expression* .CopyQueryDef</span></span>
 
-<span data-ttu-id="a2e58-108">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="a2e58-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="d6b2a-108">*expression* Variable qui représente un objet **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="d6b2a-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="a2e58-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a2e58-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d6b2a-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d6b2a-109">Return value</span></span>
 
-<span data-ttu-id="a2e58-110">Objet QueryDef</span><span class="sxs-lookup"><span data-stu-id="a2e58-110">QueryDef</span></span>
+<span data-ttu-id="d6b2a-110">QueryDef</span><span class="sxs-lookup"><span data-stu-id="d6b2a-110">QueryDef</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a2e58-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="a2e58-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d6b2a-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="d6b2a-111">Remarks</span></span>
 
-<span data-ttu-id="a2e58-112">Vous pouvez utiliser la méthode **CopyQueryDef** pour créer un nouvel objet **QueryDef** qui est un doublon de l'objet **QueryDef** utilisé pour créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="a2e58-112">You can use the **CopyQueryDef** method to create a new **QueryDef** that is a duplicate of the **QueryDef** used to create the **Recordset**.</span></span>
+<span data-ttu-id="d6b2a-112">Vous pouvez utiliser la méthode **CopyQueryDef** pour créer un nouvel objet **QueryDef** qui est un doublon de l'objet **QueryDef** utilisé pour créer l'objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="d6b2a-112">You can use the **CopyQueryDef** method to create a new **QueryDef** that is a duplicate of the **QueryDef** used to create the **Recordset**.</span></span>
 
-<span data-ttu-id="a2e58-p102">Si vous n'avez pas utilisé un objet **QueryDef** pour créer cet objet **Recordset**, une erreur se produit. Vous devez d'abord ouvrir un objet **Recordset** avec la méthode **OpenRecordset** avant d'utiliser la méthode **CopyQueryDef**.</span><span class="sxs-lookup"><span data-stu-id="a2e58-p102">If a **QueryDef** wasn't used to create this **Recordset**, an error occurs. You must first open a **Recordset** with the **OpenRecordset** method before using the **CopyQueryDef** method.</span></span>
+<span data-ttu-id="d6b2a-p102">Si vous n'avez pas utilisé un objet **QueryDef** pour créer cet objet **Recordset**, une erreur se produit. Vous devez d'abord ouvrir un objet **Recordset** avec la méthode **OpenRecordset** avant d'utiliser la méthode **CopyQueryDef**.</span><span class="sxs-lookup"><span data-stu-id="d6b2a-p102">If a **QueryDef** wasn't used to create this **Recordset**, an error occurs. You must first open a **Recordset** with the **OpenRecordset** method before using the **CopyQueryDef** method.</span></span>
 
-<span data-ttu-id="a2e58-115">Cette méthode est utile lorsque vous créez un objet **Recordset** à partir d'un objet **QueryDef**, que vous passez l'objet **Recordset** à une fonction et que la fonction doit recréer l'équivalent SQL de la requête, par exemple pour la modifier.</span><span class="sxs-lookup"><span data-stu-id="a2e58-115">This method is useful when you create a **Recordset** object from a **QueryDef**, and pass the **Recordset** to a function, and the function must re-create the SQL equivalent of the query, for example, to modify it in some way.</span></span>
+<span data-ttu-id="d6b2a-115">Cette méthode est utile lorsque vous créez un objet **Recordset** à partir d'un objet **QueryDef**, que vous passez l'objet **Recordset** à une fonction et que la fonction doit recréer l'équivalent SQL de la requête, par exemple pour la modifier.</span><span class="sxs-lookup"><span data-stu-id="d6b2a-115">This method is useful when you create a **Recordset** object from a **QueryDef**, and pass the **Recordset** to a function, and the function must re-create the SQL equivalent of the query, for example, to modify it in some way.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a2e58-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="a2e58-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d6b2a-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="d6b2a-116">Example</span></span>
 
-<span data-ttu-id="a2e58-p103">Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un objet **QueryDef** à partir d'un objet **Recordset** existant et modifie la copie en ajoutant une clause à la propriété SQL. Lorsque vous créez un objet **QueryDef** permanent, les espaces, les points-virgules ou les sauts de ligne peuvent être ajoutés à la propriété SQL ; ces caractères supplémentaires doivent être supprimés avant de pouvoir attacher de nouvelles clauses à l'instruction SQL.</span><span class="sxs-lookup"><span data-stu-id="a2e58-p103">This example uses the **CopyQueryDef** method to create a copy of a **QueryDef** from an existing **Recordset** and modifies the copy by adding a clause to the SQL property. When you create a permanent **QueryDef**, spaces, semicolons, or linefeeds may be added to the SQL property; these extra characters must be stripped before any new clauses can be attached to the SQL statement.</span></span>
+<span data-ttu-id="d6b2a-p103">Cet exemple utilise la méthode **CopyQueryDef** pour créer une copie d'un objet **QueryDef** à partir d'un objet **Recordset** existant et modifie la copie en ajoutant une clause à la propriété SQL. Lorsque vous créez un objet **QueryDef** permanent, les espaces, les points-virgules ou les sauts de ligne peuvent être ajoutés à la propriété SQL ; ces caractères supplémentaires doivent être supprimés avant de pouvoir attacher de nouvelles clauses à l'instruction SQL.</span><span class="sxs-lookup"><span data-stu-id="d6b2a-p103">This example uses the **CopyQueryDef** method to create a copy of a **QueryDef** from an existing **Recordset** and modifies the copy by adding a clause to the SQL property. When you create a permanent **QueryDef**, spaces, semicolons, or linefeeds may be added to the SQL property; these extra characters must be stripped before any new clauses can be attached to the SQL statement.</span></span>
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -71,7 +72,7 @@ ms.locfileid: "25999000"
 
 <br/>
 
-<span data-ttu-id="a2e58-119">Cet exemple illustre une utilisation possible de CopyQueryNew().</span><span class="sxs-lookup"><span data-stu-id="a2e58-119">This example shows a possible use of CopyQueryNew().</span></span>
+<span data-ttu-id="d6b2a-119">Cet exemple illustre une utilisation possible de CopyQueryNew().</span><span class="sxs-lookup"><span data-stu-id="d6b2a-119">This example shows a possible use of CopyQueryNew().</span></span>
 
 ```vb
 Sub CopyQueryDefX() 

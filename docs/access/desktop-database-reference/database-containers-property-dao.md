@@ -10,23 +10,24 @@ f1_keywords:
 - dao360.chm1053173
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e9a84557509125f50b6c8a0810bded19c6206758
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 01fec649391f8c0cda6d9b6b4718b8b630373c81
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920605"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28703971"
 ---
-# <a name="databasecontainers-property-dao"></a><span data-ttu-id="8e5e9-102">Propriété Database.Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="8e5e9-102">Database.Containers property (DAO)</span></span>
+# <a name="databasecontainers-property-dao"></a><span data-ttu-id="6feec-102">Propriété Database.Containers (DAO)</span><span class="sxs-lookup"><span data-stu-id="6feec-102">Database.Containers property (DAO)</span></span>
 
 
-<span data-ttu-id="8e5e9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e5e9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6feec-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6feec-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8e5e9-p101">Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8e5e9-p101">Returns a **Containers** collection that represents all of the **Container** objects in the specifed database. Read-only.</span></span>
+<span data-ttu-id="6feec-p101">Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="6feec-p101">Returns a **Containers** collection that represents all of the **Container** objects in the specifed database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8e5e9-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8e5e9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6feec-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6feec-106">Syntax</span></span>
 
-<span data-ttu-id="8e5e9-107">*expression* . Conteneurs</span><span class="sxs-lookup"><span data-stu-id="8e5e9-107">*expression* .Containers</span></span>
+<span data-ttu-id="6feec-107">*expression* . Conteneurs</span><span class="sxs-lookup"><span data-stu-id="6feec-107">*expression* .Containers</span></span>
 
-<span data-ttu-id="8e5e9-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="8e5e9-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="6feec-108">*expression* Variable qui représente un objet de **base de données** .</span><span class="sxs-lookup"><span data-stu-id="6feec-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250082(v=office.15)
 ms:contentKeyID: 48548006
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: dcae0898ea0ce84f334711b9d2a1f2b941f6e684
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: b8e817557c882a28365677a8f5e5ae7f677f4fc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946901"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720911"
 ---
-# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="58b40-102">Connection Close, méthode – Exemple de propriété Table Type (VC++)</span><span class="sxs-lookup"><span data-stu-id="58b40-102">Connection Close method, Table Type property example (VC++)</span></span>
+# <a name="connection-close-method-table-type-property-example-vc"></a><span data-ttu-id="d6ea9-102">Connection Close, méthode – Exemple de propriété Table Type (VC++)</span><span class="sxs-lookup"><span data-stu-id="d6ea9-102">Connection Close method, Table Type property example (VC++)</span></span>
 
 
-<span data-ttu-id="58b40-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58b40-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6ea9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6ea9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58b40-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="58b40-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
+<span data-ttu-id="d6ea9-p101">L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la propriété **ActiveConnection** doit « fermer » le catalogue. Les collections associées seront vides. Les objets créés à partir d'objets de schéma du catalogue deviendront orphelins. Les propriétés des objets mis en cache seront toujours disponibles mais toute tentative de lecture de propriétés exigeant un appel au fournisseur échouera.</span><span class="sxs-lookup"><span data-stu-id="d6ea9-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to **Nothing** should "close" the catalog. Associated collections will be empty. Any objects that were created from schema objects in the catalog will be orphaned. Any properties on those objects that have been cached will still be available, but attempting to read properties that require a call to the provider will fail.</span></span>
 
 ```cpp 
  

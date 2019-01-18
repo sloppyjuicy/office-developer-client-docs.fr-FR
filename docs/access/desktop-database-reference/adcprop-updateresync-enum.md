@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 2407e412fe63b2cd8dc73927e2adfcd958a67a98
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1952d473b51048a271a689498ae844cee761b001
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869399"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28698336"
 ---
-# <a name="adcpropupdateresyncenum"></a><span data-ttu-id="cb839-102">ADCPROP\_UPDATERESYNC\_ENUM</span><span class="sxs-lookup"><span data-stu-id="cb839-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
+# <a name="adcpropupdateresyncenum"></a><span data-ttu-id="c2c13-102">ADCPROP\_UPDATERESYNC\_ENUM</span><span class="sxs-lookup"><span data-stu-id="c2c13-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
 
-<span data-ttu-id="cb839-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb839-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c2c13-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2c13-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cb839-104">Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d'une opération implicite de la méthode [Resync](resync-method-ado.md) et, dans ce cas, la portée de cette opération.</span><span class="sxs-lookup"><span data-stu-id="cb839-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
+<span data-ttu-id="c2c13-104">Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d'une opération implicite de la méthode [Resync](resync-method-ado.md) et, dans ce cas, la portée de cette opération.</span><span class="sxs-lookup"><span data-stu-id="c2c13-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
 
 <br/>
 
@@ -29,41 +30,41 @@ ms.locfileid: "25869399"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cb839-105">Constant</span><span class="sxs-lookup"><span data-stu-id="cb839-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="cb839-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="cb839-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="cb839-107">Description</span><span class="sxs-lookup"><span data-stu-id="cb839-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="c2c13-105">Constante</span><span class="sxs-lookup"><span data-stu-id="c2c13-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="c2c13-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="c2c13-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="c2c13-107">Description</span><span class="sxs-lookup"><span data-stu-id="c2c13-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cb839-108"><strong>adResyncAll</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-108"><strong>adResyncAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-109">15</span><span class="sxs-lookup"><span data-stu-id="cb839-109">15</span></span></p></td>
-<td><p><span data-ttu-id="cb839-110">Appelle <strong>Resync</strong> avec la valeur combinée de tous les autres membes ADCPROP_UPDATERESYNC_ENUM.</span><span class="sxs-lookup"><span data-stu-id="cb839-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-108"><strong>adResyncAll</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-108"><strong>adResyncAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-109">15</span><span class="sxs-lookup"><span data-stu-id="c2c13-109">15</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-110">Appelle <strong>Resync</strong> avec la valeur combinée de tous les autres membes ADCPROP_UPDATERESYNC_ENUM.</span><span class="sxs-lookup"><span data-stu-id="c2c13-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb839-111"><strong>adResyncAutoIncrement</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-112">1</span><span class="sxs-lookup"><span data-stu-id="cb839-112">1</span></span></p></td>
-<td><p><span data-ttu-id="cb839-p101">Par défaut. Recherche la nouvelle valeur d'identité des colonnes automatiquement incrémentées ou générées par la source des données, comme les champs Microsoft Jet AutoNumber ou les colonnes Microsoft SQL Server Identity.</span><span class="sxs-lookup"><span data-stu-id="cb839-p101">Default. Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-111"><strong>adResyncAutoIncrement</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-112">1</span><span class="sxs-lookup"><span data-stu-id="c2c13-112">1</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-p101">Par défaut. Recherche la nouvelle valeur d'identité des colonnes automatiquement incrémentées ou générées par la source des données, comme les champs Microsoft Jet AutoNumber ou les colonnes Microsoft SQL Server Identity.</span><span class="sxs-lookup"><span data-stu-id="c2c13-p101">Default. Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb839-115"><strong>adResyncConflicts</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-115"><strong>adResyncConflicts</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-116">2</span><span class="sxs-lookup"><span data-stu-id="cb839-116">2</span></span></p></td>
-<td><p><span data-ttu-id="cb839-117">Appelle <strong>Resync</strong> pour toutes les lignes dans lesquelles l'opération de mise à jour ou de suppression a échoué en raison d'un conflit de concurrence.</span><span class="sxs-lookup"><span data-stu-id="cb839-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-115"><strong>adResyncConflicts</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-115"><strong>adResyncConflicts</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-116">2</span><span class="sxs-lookup"><span data-stu-id="c2c13-116">2</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-117">Appelle <strong>Resync</strong> pour toutes les lignes dans lesquelles l'opération de mise à jour ou de suppression a échoué en raison d'un conflit de concurrence.</span><span class="sxs-lookup"><span data-stu-id="c2c13-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb839-118"><strong>adResyncInserts</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-118"><strong>adResyncInserts</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-119">8</span><span class="sxs-lookup"><span data-stu-id="cb839-119">8</span></span></p></td>
-<td><p><span data-ttu-id="cb839-120">Appelle <strong>Resync</strong> pour toutes les lignes insérées avec succès.</span><span class="sxs-lookup"><span data-stu-id="cb839-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="cb839-121">Toutefois, les valeurs de colonnes AutoIncrement ne sont pas resynchronisés.</span><span class="sxs-lookup"><span data-stu-id="cb839-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="cb839-122">Au lieu de cela, le contenu des nouvelles lignes insérées est a resynchronisé en fonction de la valeur de clé primaire existante.</span><span class="sxs-lookup"><span data-stu-id="cb839-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="cb839-123">Si la clé primaire est une valeur AutoIncrement, <strong>Resync</strong> ne récupérer le contenu de la ligne concernée.</span><span class="sxs-lookup"><span data-stu-id="cb839-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="cb839-124">Pour incrémenter automatiquement les valeurs de clé primaire AutoIncrement, appelez <strong>UpdateBatch</strong> avec <strong>adResyncAutoIncrement</strong> de valeur combinée + <strong>adResyncInserts</strong>.</span><span class="sxs-lookup"><span data-stu-id="cb839-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-118"><strong>adResyncInserts</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-118"><strong>adResyncInserts</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-119">8</span><span class="sxs-lookup"><span data-stu-id="c2c13-119">8</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-120">Appelle <strong>Resync</strong> pour toutes les lignes insérées avec succès.</span><span class="sxs-lookup"><span data-stu-id="c2c13-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="c2c13-121">Toutefois, les valeurs de colonnes AutoIncrement ne sont pas resynchronisés.</span><span class="sxs-lookup"><span data-stu-id="c2c13-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="c2c13-122">Au lieu de cela, le contenu des nouvelles lignes insérées est a resynchronisé en fonction de la valeur de clé primaire existante.</span><span class="sxs-lookup"><span data-stu-id="c2c13-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="c2c13-123">Si la clé primaire est une valeur AutoIncrement, <strong>Resync</strong> ne récupérer le contenu de la ligne concernée.</span><span class="sxs-lookup"><span data-stu-id="c2c13-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="c2c13-124">Pour incrémenter automatiquement les valeurs de clé primaire AutoIncrement, appelez <strong>UpdateBatch</strong> avec <strong>adResyncAutoIncrement</strong> de valeur combinée + <strong>adResyncInserts</strong>.</span><span class="sxs-lookup"><span data-stu-id="c2c13-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="cb839-125"><strong>adResyncNone</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-125"><strong>adResyncNone</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-126">0</span><span class="sxs-lookup"><span data-stu-id="cb839-126">0</span></span></p></td>
-<td><p><span data-ttu-id="cb839-127">N'appelle pas <strong>Resync</strong>.</span><span class="sxs-lookup"><span data-stu-id="cb839-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-125"><strong>adResyncNone</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-125"><strong>adResyncNone</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-126">0</span><span class="sxs-lookup"><span data-stu-id="c2c13-126">0</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-127">N'appelle pas <strong>Resync</strong>.</span><span class="sxs-lookup"><span data-stu-id="c2c13-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="cb839-128"><strong>adResyncUpdates</strong></span><span class="sxs-lookup"><span data-stu-id="cb839-128"><strong>adResyncUpdates</strong></span></span></p></td>
-<td><p><span data-ttu-id="cb839-129">4</span><span class="sxs-lookup"><span data-stu-id="cb839-129">4</span></span></p></td>
-<td><p><span data-ttu-id="cb839-130">Appelle <strong>Resync</strong> pour toutes les lignes mises à jour avec succès.</span><span class="sxs-lookup"><span data-stu-id="cb839-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-128"><strong>adResyncUpdates</strong></span><span class="sxs-lookup"><span data-stu-id="c2c13-128"><strong>adResyncUpdates</strong></span></span></p></td>
+<td><p><span data-ttu-id="c2c13-129">4</span><span class="sxs-lookup"><span data-stu-id="c2c13-129">4</span></span></p></td>
+<td><p><span data-ttu-id="c2c13-130">Appelle <strong>Resync</strong> pour toutes les lignes mises à jour avec succès.</span><span class="sxs-lookup"><span data-stu-id="c2c13-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
 </tr>
 </tbody>
 </table>

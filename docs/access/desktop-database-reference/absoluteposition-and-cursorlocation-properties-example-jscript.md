@@ -6,18 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
 ms:contentKeyID: 48548142
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 85dbd90fcf70b9c98414e1e2d496a51c356d096d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 675ed4e6f96af8ac069bcff593a1277244e60380
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885604"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28704251"
 ---
-# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a><span data-ttu-id="2dfc5-102">AbsolutePosition et CursorLocation, propriétés – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="2dfc5-102">AbsolutePosition and CursorLocation properties example (JScript)</span></span>
+# <a name="absoluteposition-and-cursorlocation-properties-example-jscript"></a><span data-ttu-id="faf0b-102">AbsolutePosition et CursorLocation, propriétés – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="faf0b-102">AbsolutePosition and CursorLocation properties example (JScript)</span></span>
 
-<span data-ttu-id="2dfc5-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2dfc5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="faf0b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="faf0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2dfc5-p101">Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-property-ado.md) peut effectuer un suivi de la progression d'une boucle qui énumère tous les enregistrements d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [CursorLocation](cursorlocation-property-ado.md) pour activer la propriété **AbsolutePosition** en définissant le curseur sur un curseur client. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePositionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="2dfc5-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePositionJS.asp**.</span></span>
+<span data-ttu-id="faf0b-p101">Cet exemple montre comment la propriété [AbsolutePosition](absoluteposition-property-ado.md) peut effectuer un suivi de la progression d'une boucle qui énumère tous les enregistrements d'un objet [Recordset](recordset-object-ado.md). Il utilise la propriété [CursorLocation](cursorlocation-property-ado.md) pour activer la propriété **AbsolutePosition** en définissant le curseur sur un curseur client. Coupez et collez le code ci-après dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **AbsolutePositionJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="faf0b-p101">This example demonstrates how the [AbsolutePosition](absoluteposition-property-ado.md) property can track the progress of a loop that enumerates all the records of a [Recordset](recordset-object-ado.md). It uses the [CursorLocation](cursorlocation-property-ado.md) property to enable the **AbsolutePosition** property by setting the cursor to a client cursor. Cut and paste the following code to Notepad or another text editor, and save it as **AbsolutePositionJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAbsolutePositionJS --> 

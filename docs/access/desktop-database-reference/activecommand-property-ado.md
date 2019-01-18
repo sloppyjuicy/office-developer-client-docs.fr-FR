@@ -6,28 +6,29 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249190(v=office.15)
 ms:contentKeyID: 48544459
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 473a0b99310d2eb5e050ed50f1e331cb65174ae8
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 18fa38176f7174f27b46604c6182dfbdaa422f06
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25869560"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705294"
 ---
-# <a name="activecommand-property-ado"></a><span data-ttu-id="75cb4-102">ActiveCommand, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="75cb4-102">ActiveCommand property (ADO)</span></span>
+# <a name="activecommand-property-ado"></a><span data-ttu-id="052b9-102">ActiveCommand, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="052b9-102">ActiveCommand property (ADO)</span></span>
 
-<span data-ttu-id="75cb4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75cb4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="052b9-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="052b9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="75cb4-104">Indique l'objet [Command](command-object-ado.md) qui a créé l'objet [Recordset](recordset-object-ado.md) associé.</span><span class="sxs-lookup"><span data-stu-id="75cb4-104">Indicates the [Command](command-object-ado.md) object that created the associated [Recordset](recordset-object-ado.md) object.</span></span>
+<span data-ttu-id="052b9-104">Indique l'objet [Command](command-object-ado.md) qui a créé l'objet [Recordset](recordset-object-ado.md) associé.</span><span class="sxs-lookup"><span data-stu-id="052b9-104">Indicates the [Command](command-object-ado.md) object that created the associated [Recordset](recordset-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="75cb4-105">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="75cb4-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="052b9-105">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="052b9-105">Return value</span></span>
 
-<span data-ttu-id="75cb4-p101">Renvoie une valeur de type **Variant** qui contient un objet **Command**. La valeur par défaut est une référence d'objet Null.</span><span class="sxs-lookup"><span data-stu-id="75cb4-p101">Returns a **Variant** that contains a **Command** object. Default is a null object reference.</span></span>
+<span data-ttu-id="052b9-p101">Renvoie une valeur de type **Variant** qui contient un objet **Command**. La valeur par défaut est une référence d'objet Null.</span><span class="sxs-lookup"><span data-stu-id="052b9-p101">Returns a **Variant** that contains a **Command** object. Default is a null object reference.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="75cb4-108">Notes</span><span class="sxs-lookup"><span data-stu-id="75cb4-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="052b9-108">Notes</span><span class="sxs-lookup"><span data-stu-id="052b9-108">Remarks</span></span>
 
-<span data-ttu-id="75cb4-109">La propriété **ActiveCommand** est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="75cb4-109">The **ActiveCommand** property is read-only.</span></span>
+<span data-ttu-id="052b9-109">La propriété **ActiveCommand** est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="052b9-109">The **ActiveCommand** property is read-only.</span></span>
 
-<span data-ttu-id="75cb4-110">Si un objet **Command** n’était utilisé pour créer l' **objet Recordset**actif, une référence d’objet **Null** est renvoyée.</span><span class="sxs-lookup"><span data-stu-id="75cb4-110">If a **Command** object was not used to create the current **Recordset**, a **Null** object reference is returned.</span></span>
+<span data-ttu-id="052b9-110">Si un objet **Command** n’était utilisé pour créer l' **objet Recordset**actif, une référence d’objet **Null** est renvoyée.</span><span class="sxs-lookup"><span data-stu-id="052b9-110">If a **Command** object was not used to create the current **Recordset**, a **Null** object reference is returned.</span></span>
 
-<span data-ttu-id="75cb4-111">Utilisez cette propriété pour rechercher l'objet **Command** associé lorsque vous ne recevez que l'objet **Recordset** qui en résulte.</span><span class="sxs-lookup"><span data-stu-id="75cb4-111">Use this property to find the associated **Command** object when you are given only the resulting **Recordset** object.</span></span>
+<span data-ttu-id="052b9-111">Utilisez cette propriété pour rechercher l'objet **Command** associé lorsque vous ne recevez que l'objet **Recordset** qui en résulte.</span><span class="sxs-lookup"><span data-stu-id="052b9-111">Use this property to find the associated **Command** object when you are given only the resulting **Recordset** object.</span></span>
 

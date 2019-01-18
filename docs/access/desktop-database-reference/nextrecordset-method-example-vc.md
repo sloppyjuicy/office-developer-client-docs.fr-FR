@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 63cd81b6df6da840e4c1ee3ad40a7a2d9c3f398a
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fb51b22dd07c40c55a3e773cc186b14e527bd98c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25878198"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28701171"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="16c6f-102">NextRecordset, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="16c6f-102">NextRecordset method example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="437e7-102">NextRecordset, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="437e7-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="16c6f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16c6f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="437e7-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="437e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="16c6f-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d'un jeu d'enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="16c6f-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="437e7-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d'un jeu d'enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="437e7-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  
