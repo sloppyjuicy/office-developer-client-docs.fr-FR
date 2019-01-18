@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 4c115a5f7c2d13e918e891e80997a7327885669d
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 086993095daef3ff4ad87aed9f572a09124a9d31
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026273"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709970"
 ---
 # <a name="findrecord-macro-action"></a>FindRecord, action de macro
 
@@ -52,7 +53,7 @@ L'action **TrouverEnregistrement** possède les arguments suivants.
 <td><p>Indique si la recherche respecte la casse. Cliquez sur <strong>Oui</strong> (effectuer une recherche qui respecte la casse) ou sur <strong>Non</strong> (effectuer la recherche sans respecter les majuscules et les minuscules). La valeur par défaut est <strong>Non</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Rechercher</strong></p></td>
+<td><p><strong>Search</strong></p></td>
 <td><p>Spécifie si la recherche part de l’enregistrement actif et remonte jusqu’au début des enregistrements (<strong>Haut</strong>), descend jusqu’à la fin des enregistrements (<strong>Bas</strong>) ou descend jusqu’à la fin des enregistrements, puis repart du début des enregistrements jusqu’à l’enregistrement actif afin que tous les enregistrements soient inclus dans la recherche (<strong>Tous</strong>). La valeur par défaut est <strong>Tous</strong>.</p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250287(v=office.15)
 ms:contentKeyID: 48548868
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1af06abc634d0ef1984d325722aac814214b28d
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: d29c591c88de4b53535c26430bf369cbd3f53284
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949459"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711783"
 ---
 # <a name="filtercolumn-property-rds"></a>FilterColumn, propriété (RDS)
 
@@ -23,7 +24,7 @@ Indique la colonne sur laquelle portent les critères de filtre.
 
 *DataControl*. FilterColumn = *chaîne*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

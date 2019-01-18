@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249220(v=office.15)
 ms:contentKeyID: 48544595
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: fdf405ab5cd59e7ab4268e2fea870272836fb164
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 99f381ad2f38dc7d2c467ed1e40e4084032006d1
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949606"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707016"
 ---
 # <a name="item-property-ado-md-cellset"></a>Item, propriété (Ensemble de cellules ADO MD)
 
@@ -23,7 +24,7 @@ Permet d'extraire une cellule d'un ensemble de cellules à l'aide de ses coordon
 
 Définir la*cellule* = *ensemble de cellules*. Élément (*Positions*)
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

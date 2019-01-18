@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b719c6314fb2c68a0a343a800da35ee944654df3
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25924588"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712007"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Interface ADORecordConstruction (ADO)
 
@@ -31,13 +32,13 @@ Cette interface prend en charge les propriétés ci-après :
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="parentrow-property-ado.md">Ligne parente</a></p></td>
+<td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
 <td><p>En écriture seule.<br />
 Définit le conteneur d’un objet OLE DB <strong>Row</strong> sur cet objet ADO <strong>Record</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="row-property-ado.md">Row</a></p></td>
-<td><p>En lecture-écriture.<br />
+<td><p><a href="row-property-ado.md">Ligne</a></p></td>
+<td><p>Lecture/écriture.<br />
 Obtient ou définit un objet OLE DB <strong>Row</strong> à partir de/sur cet objet ADO <strong>Record</strong> .</p></td>
 </tr>
 </tbody>
@@ -50,7 +51,7 @@ Aucune.
 
 ## <a name="events"></a>Événements
 
-Aucune.
+Aucun.
 
 ## <a name="remarks"></a>Remarques
 

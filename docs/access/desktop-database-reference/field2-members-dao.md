@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191913(v=office.15)
 ms:contentKeyID: 48543839
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: f7d368077e94a24dfd7b3d20dcdaafb0ee7d3c84
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf3deac487f1e114bea2a69d5423a210a51a5944
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937791"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707142"
 ---
 # <a name="field2-members-dao"></a>Membres de l’objet Field2 (DAO)
 
@@ -47,11 +48,11 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <td><p>Renvoie tout ou partie du contenu d’un objet de <strong>type Memo</strong> ou <strong>Long BinaryField2</strong> de la collection <strong><a href="fields-collection-dao.md">Fields</a></strong> d’un objet <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-loadfromfile-method-dao.md">La méthode LoadFromFile</a></strong></p></td>
+<td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
 <td><p>Charge le fichier de disque désigné.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-savetofile-method-dao.md">Méthode SaveToFile</a></strong></p></td>
+<td><p><strong><a href="field2-savetofile-method-dao.md">SaveToFile</a></strong></p></td>
 <td><p>Enregistre la pièce jointe sur le disque.</p></td>
 </tr>
 </tbody>
@@ -117,7 +118,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <td><p>Renvoie une valeur <strong>Boolean</strong> qui indique si le champ défini est un type de données à plusieurs valeurs. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-name-property-dao.md">Name</a></strong></p></td>
+<td><p><strong><a href="field2-name-property-dao.md">Nom</a></strong></p></td>
 <td><p>Renvoie ou définit le nom de l'objet spécifié. Type <strong>String</strong> en lecture-écriture si l'objet n'a pas été ajouté à une collection. Type <strong>String</strong> en lecture seule si l'objet a été ajouté à une collection.</p></td>
 </tr>
 <tr class="odd">
@@ -139,7 +140,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 <td><p>Définit ou renvoie une valeur qui indique si un objet <strong>Field2</strong> requiert une valeur non nulle.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-size-property-dao.md">Taille</a></strong></p></td>
+<td><p><strong><a href="field2-size-property-dao.md">Size</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui indique la taille maximale, en octets, d'un objet <strong>Field2</strong>.</p></td>
 </tr>
 <tr class="even">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
 ms:contentKeyID: 48543805
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: efcc6095d25920287820925eed29be7444e993fb
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1d334c42aa2ddb9658fc860dfcebbac2b0ae80ac
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923090"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716525"
 ---
 # <a name="databases-members-dao"></a>Membres de bases de données (DAO)
 
@@ -57,7 +58,7 @@ Une collection Databases contient tous les objets Database ouverts ou créés da
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="databases-count-property-dao.md">Nombre</a></strong></p></td>
+<td><p><strong><a href="databases-count-property-dao.md">Count</a></strong></p></td>
 <td><p>Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</p></td>
 </tr>
 </tbody>

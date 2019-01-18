@@ -1,19 +1,20 @@
 ---
-title: Les commandes Shape en général
+title: Commandes de mise en forme en général
 TOCTitle: Shape commands in general
 ms:assetid: ad555aa7-bc64-b495-a98d-e927061a5809
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a670c5c6d266da390528810935016d8c1e4aaae
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 399836158084f07b30b06a9fb099da74527d0cb0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943947"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721863"
 ---
-# <a name="shape-commands-in-general"></a>Les commandes Shape en général
+# <a name="shape-commands-in-general"></a>Commandes de mise en forme en général
 
 **S’applique à**: Access 2013, Office 2013
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
 ms:contentKeyID: 48545723
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 1a2cfb8f95cf8ebd66055043f33c988c29f7330e
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8cb1c2774d7dc408eef85fd1303ea31f942cb3bf
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943891"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717131"
 ---
 # <a name="cellset-properties-methods-and-events-ado-md"></a>Ensemble de cellules propriétés, méthodes et événements (ADO MD)
 
@@ -20,7 +21,7 @@ ms.locfileid: "25943891"
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
 - [ActiveConnection, propriété](activeconnection-property-ado-md.md)
-- [Axes, collection](axes-collection-ado-md.md)
+- [Axes (collection)](axes-collection-ado-md.md)
 - [FilterAxis, propriété](filteraxis-property-ado-md.md)
 - [Item, propriété (objet Cellset)](item-property-ado-md-cellset.md)
 - [Properties, collection](properties-collection-ado.md)

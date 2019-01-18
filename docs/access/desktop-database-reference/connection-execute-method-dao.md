@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 488fca77f09ae683232ccbd3e88a5b42d1faa1c3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 8140dbe9bc0c68d467c011d77bc0c00cec7ad560
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998566"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709928"
 ---
 # <a name="connectionexecute-method-dao"></a>Méthode Connection.Execute (DAO)
 
@@ -36,7 +37,7 @@ Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -46,13 +47,13 @@ Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 <tr class="odd">
 <td><p><em>Query</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Type <strong>String</strong> qui représente une instruction SQL ou la valeur de la propriété <strong>Name</strong> d'un objet <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Constante ou combinaison de constantes déterminant les caractéristiques d'intégrité des données de la requêtes, comme indiqué dans la section Remarques.</p></td>
 </tr>
 </tbody>
@@ -70,7 +71,7 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

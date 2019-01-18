@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
 ms:contentKeyID: 48547423
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 893890e43725d8c667ee5f72b396d3ec8947f395
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 54c67848d321125af44d9f5bf50f3aa582b043bb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25949368"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708633"
 ---
 # <a name="delete-method-adox-collections"></a>DELETE, méthode (Collections ADOX)
 
@@ -23,7 +24,7 @@ Supprime un objet d'une collection.
 
 La *collection*. Supprimer le*nom*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|

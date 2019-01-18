@@ -1,19 +1,20 @@
 ---
-title: AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)
+title: AbsolutePage, PageCount et PageSize, propriétés — Exemple (VC++)
 TOCTitle: AbsolutePage, PageCount, and PageSize properties example (VC++)
 ms:assetid: 884d9405-646c-6ab1-14c1-3c0fe64e2ebe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249595(v=office.15)
 ms:contentKeyID: 48546133
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 70415069254edf731734dcd742d8d7bfd36f74d0
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: c5e48222b376971f2d79194eee066f2edda0c95c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "25891266"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706834"
 ---
-# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés – Exemple (VC++)
+# <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés — Exemple (VC++)
 
 
 **S’applique à**: Access 2013, Office 2013

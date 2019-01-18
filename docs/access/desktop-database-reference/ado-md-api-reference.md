@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249602(v=office.15)
 ms:contentKeyID: 48546163
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 08705feb0d0b609537e895e2c4c0d44fcc16ce16
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: fa3221814839200117bbc5bc824812437d68281f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910641"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711327"
 ---
 # <a name="ado-md-api-reference"></a>Référence des API ADO MD
 
@@ -23,6 +24,6 @@ Cette section de la documentation ActiveX Data Objects (ADO) MD contient des rub
 - [Collections ADO MD](ado-md-collections.md)
 - [Propriétés ADO MD](ado-md-properties.md)
 - [Méthodes ADO MD](ado-md-methods.md)
-- [Constantes énumérées ADO MD](ado-md-enumerated-constants.md)
+- [Constantes énumérées MD ADO](ado-md-enumerated-constants.md)
 - [Exemples ADO MD](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-md-code-examples)
 

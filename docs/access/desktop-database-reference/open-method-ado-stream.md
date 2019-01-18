@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250275(v=office.15)
 ms:contentKeyID: 48548833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b20a68f1707e496b92ba8acbf8bc7ed8d8a2b058
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3a943209ce329d59fb4846ed18fd008bc45803da
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026413"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28715542"
 ---
 # <a name="open-method-ado-stream"></a>Open, méthode (flux ADO)
 
@@ -25,14 +26,14 @@ Ouvre un objet [Stream](stream-object-ado.md) pour manipuler des flux de donnée
 
 *Flux de données*. Ouvrir la *Source*, le *Mode*, *Si OptionsOuverture a*, *nom d’utilisateur*, *mot de passe*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
 |*Source* |Facultatif. Valeur de type **Variant** qui spécifie la source de données de l'objet **Stream**. *Source* peut contenir une chaîne d’URL absolue qui pointe vers un nœud existant dans une arborescence connue, comme un système de fichiers ou de messagerie. Une URL doit être spécifiée à l’aide du mot clé URL (« URL =*schéma*://*server*/*dossier*»). *Source* peut également contenir une référence à un objet [Record](record-object-ado.md) déjà ouvert, qui ouvre le flux par défaut associé à l' **enregistrement**. Si la *Source* n’est pas spécifié, un **flux de données** est instancié et ouvert, associé à aucune source sous-jacente par défaut. Pour plus d’informations sur les schémas d’URL et leurs fournisseurs associés, consultez [URL absolues et relatives](absolute-and-relative-urls.md).|
 |*Mode* |Facultatif. Valeur [ConnectModeEnum](connectmodeenum.md) qui spécifie le mode d'accès de l'objet **Stream** résultant (par exemple, lecture/écriture ou en lecture seule). La valeur par défaut est **adModeUnknown**. Pour plus d'informations sur les modes d'accès, consultez la propriété [Mode](mode-property-ado.md). Si *Mode* n’est pas spécifié, il est hérité de l’objet source. Par exemple, si l'objet **Record** source est ouvert en lecture seule, l'objet **Stream** sera également ouvert en lecture seule par défaut.|
 |*Si OptionsOuverture a* |Facultatif. Valeur [StreamOpenOptionsEnum](streamopenoptionsenum.md). La valeur par défaut est **adOpenStreamUnspecified**.|
-|*Nom d’utilisateur* |Facultatif. Valeur de type **String** contenant l'ID utilisateur qui, le cas échéant, accède à l'objet **Stream**.|
+|*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur qui, le cas échéant, accède à l'objet **Stream**.|
 |*MotDePasse* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, accède à l'objet **Stream**.|
 
 ## <a name="remarks"></a>Notes

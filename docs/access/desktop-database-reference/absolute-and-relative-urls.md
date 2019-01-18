@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
 ms:contentKeyID: 48545774
 ms.date: 10/17/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 39286a3b94712c15628e6163c12ee7c8d2d3e502
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: a488617dc7ba0d7d1f7e38391f8382fa1e7ed247
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25882734"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710327"
 ---
 # <a name="absolute-and-relative-urls"></a>URL absolues et relatives
 
@@ -26,9 +27,9 @@ où :
 |Nom |Description|
 |:----|:----------|
 |*modèle*|Spécifie comment la *ressource* est accessible.|
-|*serveur*|Spécifie le nom de l’ordinateur où se trouve la *ressource* .|
+|*Serveur*|Spécifie le nom de l’ordinateur où se trouve la *ressource* .|
 |*chemin d'accès*|Indique la séquence de répertoires menant à la cible. Si la *ressource* est omise, la cible est le dernier répertoire figurant dans le *chemin d'accès*.|
-|*ressource*|S’il est inclus, la *ressource* est la cible et est généralement le nom d’un fichier. Il peut être un *fichier simple*contenant un flux binaire d’octets ou un *document structuré*contenant un ou plusieurs stockages et flux binaires d’octets.|
+|*resource*|S’il est inclus, la *ressource* est la cible et est généralement le nom d’un fichier. Il peut être un *fichier simple*contenant un flux binaire d’octets ou un *document structuré*contenant un ou plusieurs stockages et flux binaires d’octets.|
 
 Une *URL absolue* contient toutes les informations nécessaires pour localiser une ressource.
 

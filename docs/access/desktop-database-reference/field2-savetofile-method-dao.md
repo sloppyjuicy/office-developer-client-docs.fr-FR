@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 14021d3f16987b40af24491ff72abdfb95052045
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 78b08575b1fde304dc47b8219c1143cda265baf8
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998762"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706981"
 ---
 # <a name="field2savetofile-method-dao"></a>Méthode Field2.SaveToFile (DAO)
 
@@ -44,7 +45,7 @@ Version ajoutée : Access 2007
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -54,7 +55,7 @@ Version ajoutée : Access 2007
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès complet du fichier à charger.</p></td>
 </tr>
 </tbody>

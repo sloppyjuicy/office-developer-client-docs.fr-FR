@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 55a3f8a345ffa6669ef721395be4cb1286f2696b
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997391"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709536"
 ---
 # <a name="querydefexecute-method-dao"></a>Méthode QueryDef.Execute (DAO)
 
@@ -40,7 +41,7 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,7 +51,7 @@ Exécute une instruction SQL au niveau de l'objet spécifié.
 <tr class="odd">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -68,7 +69,7 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

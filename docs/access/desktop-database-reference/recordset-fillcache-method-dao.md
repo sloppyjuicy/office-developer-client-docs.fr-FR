@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7fc8843e2d36179ec8a0168b0c44c6cdf3e866c4
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4ef268a821d65732e0a54776872387f62c67e999
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998496"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28706589"
 ---
 # <a name="recordsetfillcache-method-dao"></a>Méthode Recordset.FillCache (DAO)
 
@@ -36,7 +37,7 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -46,13 +47,13 @@ Remplit une partie ou l'ensemble d'un cache local pour un objet **Recordset** qu
 <tr class="odd">
 <td><p><em>Rows</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de la propriété <strong><a href="recordset-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Signetdébut</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous ne spécifiez pas cet argument, le cache est rempli à partir de l’enregistrement indiqué par la propriété <strong><a href="recordset-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
 </tr>
 </tbody>

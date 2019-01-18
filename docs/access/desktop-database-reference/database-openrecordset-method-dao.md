@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 00b39fc81e929ad32a19ef81d3dc9fa5633308f7
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 73bb48db5b47ff1824e962ac44324a17ae0636ad
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997266"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707681"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Méthode Database.OpenRecordset (DAO)
 
@@ -40,7 +41,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,13 +51,13 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l'ajoute à la collec
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Source des enregistrements du nouveau <strong>Recordset</strong>. La source peut être un nom de table, un nom de requête ou une instruction SQL qui renvoie des enregistrements. Pour les objets <strong>Recordset</strong> de type table dans les bases de données du moteur de base de données Microsoft Access, la source peut uniquement être un nom de table.  </p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>Remarque</strong>: Si vous ouvrez un <strong>objet Recordset</strong> dans un espace de travail Microsoft Access et que vous ne spécifiez pas un type, <strong>OpenRecordset</strong> crée un <strong>objet Recordset</strong>de type table, si possible. Si vous spécifiez une table liée ou une requête, <strong>OpenRecordset</strong> crée un <strong>jeu d’enregistrements</strong>de type feuille de réponse dynamique.</p>
 </td>
 </tr>
@@ -96,7 +97,7 @@ Le fait de fermer un objet **Recordset** par le biais de la méthode **[Close](c
 > [!NOTE]
 > Si *la source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal américain comme une virgule (par exemple, strSQL = « prix &gt; » &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le **jeu d’enregistrements**. Cela est dû au fait que pendant la concaténation, le nombre est converti en chaîne en utilisant le caractère décimal par défaut de votre système, et SQL n'accepte que les caractères décimaux usités aux États-Unis.
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
+**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Transférer des données d'Access vers Excel](https://www.utteraccess.com/forum/transfer-data-access-ex-t1672619.html)
 

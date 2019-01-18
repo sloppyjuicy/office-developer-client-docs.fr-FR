@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: cb8873a7ddfc62429847b561736df4bfa91d429d
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25872844"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707183"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
@@ -29,7 +30,7 @@ Spécifie le niveau d'isolement de transaction d'un objet [Connection](connectio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

@@ -10,12 +10,13 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: c20701e9863d72a9308679965425b74c9f9818ac
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937637"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710803"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
@@ -99,7 +100,7 @@ Une requête Ajout copie des enregistrements à partir d'une ou plusieurs tables
 
 Au lieu d'ajouter des enregistrements existants à partir d'une autre table, vous pouvez spécifier la valeur de chaque champ dans un nouvel enregistrement unique à l'aide de la clause VALUES. Si vous omettez la liste de champs, la clause VALUES doit inclure une valeur pour chaque champ de la table. Sinon, l'opération INSERT échoue. Utilisez une instruction INSERT INTO supplémentaire avec une clause VALUES pour chaque enregistrement supplémentaire que vous souhaitez créer.
 
-**Liens fournis par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
+**Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Générer des numéros séquentiels pour les instructions INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a0394b95b392bf26f68dc64f64ad70ada09e8d86
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e190791fe5be0cc4a8242cba4f711bf00837b366
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025762"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712192"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-j"></a>Exemples de code ADO en Microsoft Visual J++
 
@@ -58,7 +59,7 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes 
 - [BOF, EOF et Bookmark, propriétés-exemple](bof-eof-and-bookmark-properties-example-vj.md)
 - [CacheSize, propriété-exemple](cachesize-property-example-vj.md)
 - [ConnectionString, ConnectionTimeout et State, propriétés-exemple](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
-- [Count, propriété-exemple](count-property-example-vj.md)
+- [Count (propriété) – Exemple](count-property-example-vj.md)
 - [CursorType, LockType et EditMode, propriétés-exemple](cursortype-locktype-and-editmode-properties-example-vj.md)
 - [Description, HelpContext, HelpFile, NativeError, nombre, Source et SQLState, propriétés-exemple](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj.md)
 - [Filter et RecordCount, propriétés-exemple](filter-and-recordcount-properties-example-vj.md)
@@ -78,6 +79,6 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes 
 - [StayInSync, propriété-exemple](stayinsync-property-example-vj.md)
 - [Type, propriété-Exemple (champs)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
 - [Type, propriété-Exemple (propriété)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
-- [Exemple de valeur de propriété](value-property-example-vj.md)
+- [Value (propriété) – Exemple](value-property-example-vj.md)
 - [Exemple de propriété version](version-property-example-vj.md)
 

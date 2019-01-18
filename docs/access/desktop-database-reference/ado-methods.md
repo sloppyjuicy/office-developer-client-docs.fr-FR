@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5d5b08478b714a9b70e5cb08daff6e04b8883071
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26026378"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716179"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
@@ -113,7 +114,7 @@ ms.locfileid: "26026378"
 <td><p>Exécute la requête, l’instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">Chercher</a></p></td>
 <td><p>Recherche un objet <strong>Recordset</strong> pour la ligne qui répond aux critères spécifiés.</p></td>
 </tr>
 <tr class="even">
@@ -137,11 +138,11 @@ ms.locfileid: "26026378"
 <td><p>Retourne l'objet <strong>Recordset</strong> sous la forme d'une chaîne.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="loadfromfile-method-ado.md">La méthode LoadFromFile</a></p></td>
+<td><p><a href="loadfromfile-method-ado.md">LoadFromFile</a></p></td>
 <td><p>Charge le contenu d'un fichier existant dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="move-method-ado.md">Déplacer</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Déplace la position de l'enregistrement actif dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -201,7 +202,7 @@ ms.locfileid: "26026378"
 <td><p>Enregistre l'objet <strong>Recordset</strong> dans un fichier ou un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="savetofile-method-ado.md">Méthode SaveToFile</a></p></td>
+<td><p><a href="savetofile-method-ado.md">SaveToFile</a></p></td>
 <td><p>Enregistre le contenu binaire d'un objet <strong>Stream</strong> dans un fichier.</p></td>
 </tr>
 <tr class="even">
@@ -225,7 +226,7 @@ ms.locfileid: "26026378"
 <td><p>Détermine si un objet <strong>Recordset</strong> spécifié prend en charge un type de fonctionnalité particulier.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Enregistre les modifications apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

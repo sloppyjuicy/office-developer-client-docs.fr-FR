@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: c7f9f9e52f2220a384ba73a64d96dd93fec2cd91
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: aa70f275de164716b5b3975b56588e9dc4aec1a5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25871282"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718825"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
@@ -40,7 +41,7 @@ ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 <th><p>Contraintes de colonne</p></th>

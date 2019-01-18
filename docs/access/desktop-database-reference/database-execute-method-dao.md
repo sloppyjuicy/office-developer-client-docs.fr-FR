@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197654(v=office.15)
 ms:contentKeyID: 48546378
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 13568f689d9e5b4e4533969192de7af65ea1f8ec
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 5a2ebbb549e309349695d93618f4522a2dbf7a7a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997825"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714506"
 ---
 # <a name="databaseexecute-method-dao"></a>Méthode Database.Execute (DAO)
 
@@ -36,7 +37,7 @@ Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -52,7 +53,7 @@ Exécute une requête Action ou une instruction SQL sur l'objet spécifié.
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -70,7 +71,7 @@ Vous pouvez utiliser l’une des constantes **[RecordsetOptionEnum](recordsetopt
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

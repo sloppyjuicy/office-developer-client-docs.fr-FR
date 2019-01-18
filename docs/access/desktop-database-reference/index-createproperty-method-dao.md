@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: b0b5365ece2a3df00a898348a603732e38ff8165
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 1d7fcaa959c0fa5f8d42d9b00a920e987ca2f126
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997279"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710103"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Méthode Index.CreateProperty (DAO)
 
@@ -36,7 +37,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -46,25 +47,25 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Type <strong>String</strong> qui identifie de façon unique le nouvel objet <strong>Property</strong>. Consultez la propriété <strong>Name</strong> pour plus d'informations sur les noms d'objets <strong>Property</strong> valides.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Constante qui définit le type de données du nouvel objet <strong>Property</strong>. Pour plus d’informations sur les types de données valides, consultez la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Value</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> contenant la valeur de propriété initiale. Pour plus d’informations, consultez la propriété <strong><a href="field-value-property-dao.md">Value</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DDL</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type<strong>Boolean</strong> ) qui indique si la <strong>propriété</strong> est un objet DDL. La valeur par défaut est <strong>False</strong>. Est <strong>True</strong>, les utilisateurs ne peuvent pas modifier ou supprimer cet objet <strong>Property</strong> sauf si la <strong>valeur par défaut</strong> .</p></td>
 </tr>
 </tbody>

@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm20026
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: 985630f65508f7fca37de24f93649c8cf6047180
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f08b9a8980fc6f08a9f91366d38f65e4365a037e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25920318"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711419"
 ---
 # <a name="setdisplayedcategories-macro-action"></a>SetDisplayedCategories, action de macro
 

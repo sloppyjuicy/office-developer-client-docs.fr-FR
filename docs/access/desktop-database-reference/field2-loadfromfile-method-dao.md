@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: bb073dfbdbf4ad9d87314c04a0ae2f97e7cfddc3
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bdb1ba92c4a0f4fbee7204b2f4fee8a96c87cc1b
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996929"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710628"
 ---
 # <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
 
@@ -44,7 +45,7 @@ Version ajoutée : Access 2007
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -54,7 +55,7 @@ Version ajoutée : Access 2007
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès complet du fichier à charger.</p></td>
 </tr>
 </tbody>

@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: b19cf0819353dbe4d6cdb017faf0e38b3bfb7757
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 713f2530369a824a6d7204655ded4333f7fe2765
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997006"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710432"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>Méthode TableDef.CreateField (DAO)
 
@@ -40,7 +41,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -62,7 +63,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft Ac
 <tr class="odd">
 <td><p><em>Size</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Integer qui indique la taille maximale, en octets, d'un objet <strong>Field</strong> qui contient du texte. Voir la propriété <strong><a href="field-size-property-dao.md">Size</a></strong> pour les valeurs de taille valide. Cet argument est ignoré pour les champs numériques et de longueur fixe.</p></td>
 </tr>
 </tbody>
@@ -83,7 +84,7 @@ Si le nom fait référence à un objet qui est déjà membre de la collection, u
 
 Pour supprimer un objet **Field** d'une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d'un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
 
-**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est le premier forum d'aide et wiki de Microsoft Access.
+**Lien fourni par** la Communauté [UtterAccess](https://www.utteraccess.com) . UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Ajout d'un champ lien hypertexte à une table existante avec DAO](https://www.utteraccess.com/wiki/index.php/adding_a_hyperlink_field_to_an_existing_table_with_dao)
 

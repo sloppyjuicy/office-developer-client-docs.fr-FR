@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195966(v=office.15)
 ms:contentKeyID: 48545686
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 52be8f652c8cf9e39d36efccc86d35187129df4f
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28711111"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Méthode Database.CreateQueryDef (DAO)
 
@@ -36,7 +37,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -46,13 +47,13 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>SQLText</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui représente une instruction SQL définissant l’objet <strong>QueryDef</strong>. Si vous ne spécifiez pas cet argument, vous pouvez définir l’objet <strong>QueryDef</strong> en paramétrant sa propriété <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> avant ou après son ajout à une collection.</p></td>
 </tr>
 </tbody>
@@ -61,7 +62,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Objet QueryDef
+QueryDef
 
 ## <a name="remarks"></a>Remarques
 

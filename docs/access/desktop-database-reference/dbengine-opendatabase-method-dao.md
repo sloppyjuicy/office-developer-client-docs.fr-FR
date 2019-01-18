@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a00c61ce4cbb9cb9d6088d521f0c2bdb3cf7f573
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 1cd4188931999284a6454064a0906b64cf1f519a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998070"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708528"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>Méthode DBEngine.OpenDatabase (DAO)
 
@@ -40,7 +41,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -56,19 +57,19 @@ Ouvre une base de données spécifiée et renvoie une référence à l'objet **[
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Définit différentes options pour la base de données, selon les indications dans les notes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> si vous souhaitez ouvrir la base de données avec un accès en lecture seule, ou <strong>False</strong> (valeur par défaut) si vous souhaitez ouvrir la base de données avec un accès en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Spécifie les différentes informations de connexion, dont les mots de passe.</p></td>
 </tr>
 </tbody>

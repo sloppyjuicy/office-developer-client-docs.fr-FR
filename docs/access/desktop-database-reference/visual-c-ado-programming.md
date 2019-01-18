@@ -1,19 +1,20 @@
 ---
-title: Programmation ADO C++ visuelle
+title: Programmation ADO Visual C++
 TOCTitle: Visual C++ ADO programming
 ms:assetid: 117c4fad-8c11-5e3a-ea0c-18811e87475f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5278a998363359f4bd2aad14881865505ce45633
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 2a890b4906fb9f207f12ff17ef0d3ccf1a97a44d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998412"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28721289"
 ---
-# <a name="visual-c-ado-programming"></a>Programmation ADO C++ visuelle
+# <a name="visual-c-ado-programming"></a>Programmation ADO Visual C++
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -280,7 +281,7 @@ Une variable peut être utilisée de deux façons, car le «-\>» est surchargé
 
 ### <a name="coding-a-missing-parameter"></a>Codage d’un paramètre manquant
 
-#### <a name="string"></a>String
+#### <a name="string"></a>Chaîne
 
 Lorsque vous devez coder un opérande **String** manquant en Visual Basic, il vous suffit de l'omettre. En Visual C++, vous devez spécifier l'opérande. Code un ** \_bstr\_t** qui est une chaîne vide en tant que valeur.
 
@@ -289,7 +290,7 @@ Lorsque vous devez coder un opérande **String** manquant en Visual Basic, il vo
 _bstr_t strMissing(L""); 
 ```
 
-#### <a name="variant"></a>Variante
+#### <a name="variant"></a>Variant
 
 Lorsque vous devez coder un opérande **Variant** manquant en Visual Basic, il vous suffit de l'omettre. En Visual C++, vous devez spécifier tous les opérandes. Codez un paramètre **Variant** manquant avec un ** \_variante\_t** la valeur spéciale, ED\_E\_VT PARAMNOTFOUND et le type\_erreur. Vous pouvez également spécifier **vtMissing**, qui est un équivalent constante prédéfini fournis par le ** \#importer** directive.
 

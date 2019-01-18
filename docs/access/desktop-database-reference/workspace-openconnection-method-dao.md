@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198249(v=office.15)
 ms:contentKeyID: 48546628
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 6a2c7e64d691564eca90c1cf80d57766e04637bb
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 70bdded6c149aa7aff405c769ba4462a46c20dfd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998881"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714961"
 ---
 # <a name="workspaceopenconnection-method-dao"></a>Méthode Workspace.OpenConnection (DAO)
 
@@ -34,7 +35,7 @@ ms.locfileid: "25998881"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -44,25 +45,25 @@ ms.locfileid: "25998881"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Expression sous forme de chaîne. Reportez-vous à la section sous Notes.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Définit différentes options pour la connexion, selon les indications dans les notes. En fonction de cette valeur, le gestionnaire de pilotes ODBC invite l'utilisateur à indiquer les informations de connexion comme le nom de la source de données (DSN), le nom d'utilisateur et le mot de passe.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ReadOnly</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p><strong>True</strong> si la connexion doit être ouverte pour un accès en lecture seule et <strong>False</strong> si la connexion doit être ouverte pour un accès en lecture/écriture (valeur par défaut).</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Une chaîne de connexion ODBC. Voir la propriété <strong><a href="connection-connect-property-dao.md">Connect</a></strong> pour des éléments spécifiques et la syntaxe de cette chaîne. Un ajoutant au début &quot;ODBC ; &quot; est requis.</p></td>
 </tr>
 </tbody>
@@ -88,7 +89,7 @@ L'argument options détermine si l'utilisateur doit être invité à établir la
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

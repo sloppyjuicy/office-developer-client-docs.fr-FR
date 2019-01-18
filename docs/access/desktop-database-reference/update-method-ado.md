@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250294(v=office.15)
 ms:contentKeyID: 48548893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 7501f7607dbee558a67dd0e11d7f2498874f8870
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950229"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710635"
 ---
 # <a name="update-method-ado"></a>Update, méthode (ADO)
 
@@ -25,7 +26,7 @@ Enregistre les modifications apportées à la ligne active d'un objet [Recordset
 
 *enregistrement*. *Champs*. Mise à jour
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Paramètre|Description|
 |:--------|:----------|
@@ -54,7 +55,7 @@ Si vous quittez l'enregistrement ajouté ou modifié avant d'appeler la méthode
 
 L'enregistrement actif reste actif après avoir appelé la méthode **Update**.
 
-### <a name="record"></a>Rappel
+### <a name="record"></a>Record
 
 La méthode **Update** finalise les ajouts, suppressions et mises à jour des champs de la collection [Fields](fields-collection-ado.md) d'un objet **Record**.
 

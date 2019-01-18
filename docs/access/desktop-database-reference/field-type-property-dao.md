@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
 ms:contentKeyID: 48543345
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 3f532897ca20dda7b8ca82d831398e20cfa6b9da
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: c8f212c5e1f10f4270987c9453802575d88cebfa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25923153"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709480"
 ---
 # <a name="fieldtype-property-dao"></a>Propriété Field.Type (DAO)
 
@@ -39,7 +40,7 @@ Pour un objet **Field**, les valeurs des paramètres et de retour possibles sont
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

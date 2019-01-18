@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836294(v=office.15)
 ms:contentKeyID: 48548509
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 24984909510a54125c2dcdb62a02d16b289e9ccf
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9cf53526f9643737c7236bb2c98589e74f3f2eb5
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998169"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712112"
 ---
 # <a name="recordset2findprevious-method-dao"></a>Méthode Recordset2.FindPrevious (DAO)
 
@@ -36,7 +37,7 @@ Recherche l'enregistrement précédent dans un objet **[Recordset](recordset-obj
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>

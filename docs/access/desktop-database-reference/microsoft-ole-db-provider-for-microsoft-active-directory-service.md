@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1555883ef8305225d6ddd1969d98de082288a6b
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25887536"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28712035"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Fournisseur Microsoft OLE DB pour le service Microsoft Active Directory
 
@@ -62,7 +63,7 @@ La chaîne est composée des mots clé suivants :
 <td><p>Spécifie le nom de l'utilisateur. Si ce mot clé n'est pas spécifié, les paramètres de connexion actuels sont utilisés.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MotDePasse</strong></p></td>
+<td><p><strong>Password</strong></p></td>
 <td><p>Spécifie le mot de passe de l'utilisateur. Si ce mot clé n'est pas spécifié, les paramètres de connexion actuels sont utilisés.</p></td>
 </tr>
 </tbody>
@@ -96,11 +97,11 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 <td><p>Indique le filtre de recherche au format RFC 1960.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Attributes</em></p></td>
+<td><p><em>Attributs</em></p></td>
 <td><p>Indique une liste délimitée par des virgules d'attributs à renvoyer.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Scope</em></p></td>
+<td><p><em>Étendue</em></p></td>
 <td><p>Facultatif. <strong>Chaîne</strong> qui spécifie l’étendue de la recherche. Peut être une des opérations suivantes : Base — recherche uniquement l’objet de base (racine de la recherche).<br />
 Un niveau — Recherche uniquement un niveau.<br />
 Sous-arborescence — Recherche toute la sous-arborescence.</p></td>
@@ -277,7 +278,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="move-method-ado.md">Déplacer</a></p></td>
+<td><p><a href="move-method-ado.md">Move</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
@@ -317,7 +318,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Update</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

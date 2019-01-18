@@ -1,19 +1,20 @@
 ---
-title: Informations d’erreurs liées au jeu d’enregistrements
+title: Informations sur les erreurs en lien avec le recordset
 TOCTitle: Recordset-related error information
 ms:assetid: 388308c7-e121-bd12-228a-312c897b8c55
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249136(v=office.15)
 ms:contentKeyID: 48544222
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 5b0dc56ba591263cd834e26ca4e89a371f272d5a
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 12a67657d5543aac22a49690256b0410a2b901bd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25946467"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708899"
 ---
-# <a name="recordset-related-error-information"></a>Informations d’erreurs liées au jeu d’enregistrements
+# <a name="recordset-related-error-information"></a>Informations sur les erreurs en lien avec le recordset
 
 **S’applique à**: Access 2013, Office 2013
 

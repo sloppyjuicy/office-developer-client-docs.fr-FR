@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 66dfe95aaa335e14b0148d2fcd610abc30556e3a
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 4fbf7252729c7b376da6ebe67f59941c1caf924d
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997496"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722318"
 ---
 # <a name="setfield-macro-action"></a>SetField, action de macro
 

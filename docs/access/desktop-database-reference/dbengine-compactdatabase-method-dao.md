@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: fb3deeb6e2f90c6ddbe7cdc90c5e599349ebfb10
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: b50cb0453df1fa357fbd0b089af2e74fdd4b4c1e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998720"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714058"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>Méthode DBEngine.CompactDatabase (DAO)
 
@@ -43,7 +44,7 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -53,19 +54,19 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <tr class="odd">
 <td><p><em>NomSource</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Identifie une base de données existante et fermée. Il peut être un chemin d’accès complet et le nom de fichier, tel que &quot;C:\db1.mdb&quot;. Si le nom de fichier doté d’une extension, vous devez le spécifier. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1.mdb&quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><em>NomDest</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>nom de fichier (et chemin d’accès) de la base de données compactée que vous créez. Vous pouvez également spécifier un chemin d’accès réseau. Vous ne pouvez pas utiliser cet argument pour spécifier le même fichier de base de données que NomSource.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>ParamètresRégionauxDst</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Expression de chaîne qui indique un ordre de classement pour la création de NomDest, de la façon décrite dans la section Remarques.</p>
 <ul>
 <li><p>Si vous omettez cet argument, les paramètres régionaux de NomDest et NomSource seront identiques.</p></li>
@@ -76,14 +77,14 @@ Copie et compacte une base de données fermée et vous donne la possibilité de 
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Facultatif. Constante ou combinaison de constantes qui indique une ou plusieurs options, comme indiqué dans la section Remarques. Vous pouvez combiner des options en associant les constantes correspondantes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>mot de passe</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
-<td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p><p><strong>Remarque</strong>: il s’agit du paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. [!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
+<td><p><strong>Variant</strong></p></td>
+<td><p>Expression chaîne contenant une clé de chiffrement, si la base de données est chiffrée. La chaîne &quot;; pwd =&quot; doivent précéder le mot de passe. Si vous incluez un paramètre de mot de passe dans ParamètresRégionauxDst, ce paramètre est ignoré.</p><p><strong>Remarque</strong>: il s’agit du paramètre désapprouvé et n’est pas pris en charge. Format de fichier ACCDB. Pour chiffrer une. Fichier ACCDB, utilisez le « pwd = « chaîne d’option. Il est recommandé d'utiliser des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des signes. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +208,7 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -236,7 +237,7 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

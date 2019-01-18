@@ -10,12 +10,13 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: a6166f8da8597e5b0672ba0d5fdfdd3745cfd159
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cff57a185d226328792bef79072dfc46c6134f98
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927766"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707240"
 ---
 # <a name="openreport-macro-action"></a>OpenReport, action de macro
 
@@ -44,7 +45,7 @@ L'action **OuvrirEtat** possède les arguments suivants.
 <td><p>Nom de l'état à ouvrir. La zone <strong>Nom de l'état</strong> de la section <strong>Arguments de l'action</strong> du volet <strong>Générateur de macro</strong> présente tous les états dans la base de données actuelle. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action OpenReport dans une base de données bibliothèque, Microsoft Access recherche d'abord l'état portant ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Vue</p></td>
+<td><p>View</p></td>
 <td><p>Affichage dans lequel s'ouvre l'état. Cliquez sur <strong>Imprimer</strong> (imprime l'état immédiatement), <strong>Création</strong> ou <strong>Aperçu avant impression</strong> dans la zone <strong>Affichage</strong>. La valeur par défaut est <strong>Imprimer</strong>.  </p></td>
 </tr>
 <tr class="odd">

@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
-ms.openlocfilehash: 28b81c45921120b8a3cd8768d22559355d8ff623
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: e79a6143c65637660b2d59b7c7efb6a21e8935bd
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25870491"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718552"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
 
@@ -29,7 +30,7 @@ Spécifie les attributs de transaction d'un objet [Connection](connection-object
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constant</p></th>
+<th><p>Constante</p></th>
 <th><p>Valeur</p></th>
 <th><p>Description</p></th>
 </tr>

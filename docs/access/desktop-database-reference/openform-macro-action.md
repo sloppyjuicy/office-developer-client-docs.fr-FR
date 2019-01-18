@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823095(v=office.15)
 ms:contentKeyID: 48547604
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: c1813a80c43eb77f8fb90442ecd6e0336b636191
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: cf89b61a65c11f09d5a07e52caeee5ad416c118a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998972"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28707625"
 ---
 # <a name="openform-macro-action"></a>OpenForm, action de macro
 
@@ -118,17 +119,17 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 <td><p>Fermer le formulaire Liste des produits.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nom du formulaire</strong>: <strong>affichage</strong>des produits : <strong>Mode FormData</strong>: <strong>Mode fenêtre Ajouter</strong>: <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Produits.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DéfinirValeur</strong></p></td>
+<td><p><strong>SetValue</strong></p></td>
 <td><p><strong>Élément</strong>: [Forms]![Produits]![N° fournisseur] <strong>Expression</strong>: N° fournisseur</p></td>
 <td><p>Définissez le contrôle N° fournisseur sur le fournisseur actuel dans le formulaire Fournisseurs.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AtteindreContrôle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: N° catégorie</p></td>
 <td><p>Accéder au contrôle N° catégorie.</p></td>
 </tr>
@@ -170,7 +171,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
-<td><p><strong>AtteindreContrôle</strong></p></td>
+<td><p><strong>GoToControl</strong></p></td>
 <td><p><strong>Nom du contrôle</strong>: NomSociété</p></td>
 <td><p>Déplacer le focus sur le contrôle NomSociété.</p></td>
 </tr>
@@ -182,7 +183,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>OuvrirFormulaire</strong></p></td>
+<td><p><strong>OpenForm</strong></p></td>
 <td><p><strong>Nom du formulaire</strong>: produit liste <strong>affichage</strong>: <strong>DatasheetFilter nom</strong>: <strong>Condition Where</strong>: [n° fournisseur] = [Forms] ! [Fournisseurs] ! [N° fournisseur] <strong>Mode données</strong>: <strong>Le Mode lecture OnlyWindow</strong>: <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>

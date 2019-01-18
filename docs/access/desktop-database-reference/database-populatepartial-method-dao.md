@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: e73724e8e27a622bbf96f4d9cc96bf4128dca42d
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 9e0f77c356e0a13c2a1a83986a92c2b25029ecb4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25998132"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709921"
 ---
 # <a name="databasepopulatepartial-method-dao"></a>Méthode Database.PopulatePartial (DAO)
 
@@ -40,7 +41,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -50,7 +51,7 @@ Synchronise les modifications d'un réplica partiel avec le réplica complet, ef
 <tr class="odd">
 <td><p><em>NomCheminBaseDeDonnées</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès et nom du réplica complet à partir duquel les enregistrements sont remplis.</p></td>
 </tr>
 </tbody>

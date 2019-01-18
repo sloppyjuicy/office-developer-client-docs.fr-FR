@@ -1,19 +1,20 @@
 ---
-title: 'Chapitre 6 : Gestion d’erreur'
+title: 'Chapitre 6 : Gérer des erreurs'
 TOCTitle: 'Chapter 6: Error handling'
 ms:assetid: 6ae7343b-b9e0-c4c3-f65c-110f903e573e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249420(v=office.15)
 ms:contentKeyID: 48545440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 4c6e4f4e4218992b89a3370375bb322adfcdd57c
-ms.sourcegitcommit: 38d0db57580cc5f4a0231c27b1643f8db5431ca3
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 14d3dc4b291d96a47e0fb67c0e7d837463cd4bf2
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25937182"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708871"
 ---
-# <a name="chapter-6-error-handling"></a>Chapitre 6 : Gestion d’erreur
+# <a name="chapter-6-error-handling"></a>Chapitre 6 : Gérer des erreurs
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -39,8 +40,8 @@ Les sections ci-après décrivent plus en détail chacune de ces méthodes de no
 
 - [Erreurs ADO](ado-errors.md)
 - [Référence des erreurs ADO](ado-error-reference.md)
-- [Erreurs du fournisseur](provider-errors.md)
-- [Informations sur les erreurs relatives aux champs](field-related-error-information.md)
-- [Informations d’erreurs liées au jeu d’enregistrements](recordset-related-error-information.md)
+- [Erreurs de fournisseur](provider-errors.md)
+- [Informations sur les erreurs en lien avec le champ](field-related-error-information.md)
+- [Informations sur les erreurs en lien avec le recordset](recordset-related-error-information.md)
 - [Anticipation des erreurs](anticipating-errors.md)
 - [Gestion des erreurs dans d’autres langues (ADO)](handling-errors-in-other-languages.md)

@@ -6,14 +6,15 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249883(v=office.15)
 ms:contentKeyID: 48547294
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9541e8b7888f5fb5f16bcfb343d545cf304b1afd
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ac5f14d035a4e11cce67f01ca6636f3ebd39963e
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25945788"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28717810"
 ---
-# <a name="batch-mode"></a>Mode de traitement par lots
+# <a name="batch-mode"></a>Mode Batch
 
 **S’applique à**: Access 2013, Office 2013
 
@@ -23,10 +24,10 @@ La méthode **UpdateBatch** est utilisée pour envoyer les modifications de l'ob
 
 Cette section comprend les rubriques suivantes :
 
-- [Envoyer les mises à jour : UpdateBatch](sending-the-updates-updatebatch.md)
+- [Envoi des mises à jour : UpdateBatch](sending-the-updates-updatebatch.md)
 - [Filtrage des enregistrements mis à jour](filtering-for-updated-records.md)
-- [Gérer les mises à jour échouées](dealing-with-failed-updates.md)
+- [Traitement des échecs de mise à jour](dealing-with-failed-updates.md)
 - [Détection et résolution des conflits](detecting-and-resolving-conflicts.md)
-- [Déconnexion et reconnexion de l’objet Recordset](disconnecting-and-reconnecting-the-recordset.md)
+- [Déconnexion et reconnexion du recordset](disconnecting-and-reconnecting-the-recordset.md)
 - [Mise à jour des résultats de la jonction : Unique Table](updating-joined-results-unique-table.md)
 

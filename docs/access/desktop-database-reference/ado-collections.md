@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9a9510ce1e8c9dcb1e46f7cfdc4e45e71f779910
-ms.sourcegitcommit: 48bfe5ab15b11105f4f52937b886c92bdc26525a
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: ddaab78582429e201e563c01bb3195f585216cbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25910858"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708164"
 ---
 # <a name="ado-collections"></a>Collections ADO
 
@@ -32,11 +33,11 @@ Chaque collection peut contenir son objet correspondant. Une collection [Errors]
 <th>Description</th>
 </tr>
 <tr class="odd">
-<td><p><a href="errors-collection-ado.md">Errors</a></p></td>
+<td><p><a href="errors-collection-ado.md">Erreurs</a></p></td>
 <td><p>Contient tous les objets <strong>Error</strong> créés en réponse à une erreur liée au fournisseur.</p></td>
 </tr>
 <tr class="even">
-<td><p>Collection <a href="fields-collection-ado.md">Fields</a></p></td>
+<td><p><a href="fields-collection-ado.md">Fields</a></p></td>
 <td><p>Contient tous les objets <strong>Field</strong> d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

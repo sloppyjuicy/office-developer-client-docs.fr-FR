@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: a36695e0d858a630ba91b954bfc9a46136e26403
-ms.sourcegitcommit: 45feafb3b55de0402dddf5548c0c1c43a0eabafd
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 593daf08da1b4ce435d17f2a6deedfa3e89dbd32
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "26025971"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28713631"
 ---
 # <a name="whats-new-in-ado"></a>Nouveautés dans ADO
 
@@ -84,7 +85,7 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 <td><p>Indique le type de l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Taille</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size</a></p></td>
 <td><p>Indique la taille du flux en nombre d'octets.</p></td>
 </tr>
 <tr class="odd">
@@ -139,7 +140,7 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 <td><p>Retourne un objet <strong>Recordset</strong> dont les lignes représentent les fichiers et sous-répertoires du répertoire représenté par cet objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="loadfromfile-method-ado.md">La méthode LoadFromFile</a></p></td>
+<td><p><a href="loadfromfile-method-ado.md">LoadFromFile</a></p></td>
 <td><p>Charge le contenu d'un fichier existant dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -163,7 +164,7 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 <td><p>Lit un nombre spécifié de caractères dans un objet <strong>Stream</strong> de texte.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="savetofile-method-ado.md">Méthode SaveToFile</a></p></td>
+<td><p><a href="savetofile-method-ado.md">SaveToFile</a></p></td>
 <td><p>Enregistre le contenu binaire d'un objet <strong>Stream</strong> dans un fichier.</p></td>
 </tr>
 <tr class="odd">

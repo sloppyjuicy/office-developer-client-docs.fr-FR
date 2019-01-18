@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d7548a31518f225c15dbf0e9a6de2b82c66c72af
-ms.sourcegitcommit: 980a96cf444882d3d34cecb5faac8f8a7b7c4b57
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: bd7c47e7c3e41a7b42571043cfafc9e4e909a9f9
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25950138"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710586"
 ---
 # <a name="refresh-method-ado"></a>Refresh, méthode (ADO)
 
@@ -38,7 +39,7 @@ Si vous accédez à la collection **Parameters** avant d'appeler la méthode **R
 > [!NOTE]
 > [!REMARQUE] Si vous utilisez la méthode **Refresh** pour obtenir des paramètres du fournisseur et que cette méthode retourne un ou plusieurs objets [Parameter](parameter-object-ado.md) qui possèdent un type de données de longueur variable, ADO peut allouer de la mémoire à ces paramètres en fonction de leur taille maximale potentielle, ce qui entraîne une erreur lors de l'exécution. Pour éviter ces erreurs, vous devez définir explicitement la propriété [Size](size-property-ado.md) de ces paramètres avant d'appeler la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command).
 
-### <a name="fields"></a>Fields
+### <a name="fields"></a>Champs
 
 L'application de la méthode **Refresh** à la collection **Fields** ne produit aucun effet visible. Pour extraire des modifications de la structure de base de données sous-jacente , vous devez utiliser la méthode [Requery](requery-method-ado.md) ou, si l'objet [Recordset](recordset-object-ado.md) ne prend pas en charge les signets, la méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md).
 

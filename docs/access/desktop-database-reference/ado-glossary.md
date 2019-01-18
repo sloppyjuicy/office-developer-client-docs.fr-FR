@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 9b9fd656aeda727cc829ab47ea4cb9fab8f2a169
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 7ecb6208a8c970f037cb0ac699c947544eb8f547
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25997790"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28720841"
 ---
 # <a name="ado-glossary"></a>Glossaire ADO
 
@@ -64,7 +65,7 @@ Par exemple, les valeurs de ADO **FieldAttributeEnum** peuvent être utilisées 
 
 Si le résultat est TRUE, le champ est modifiable.
 
-**Signet**
+**bookmark**
 
 Marqueur qui identifie de manière unique une ligne dans un ensemble de lignes afin qu’un utilisateur peut y accéder rapidement.
 
@@ -128,7 +129,7 @@ Un opérateur qui compare deux expressions et renvoie une valeur de type Boolean
 
 Un paramètre de critères peut être exprimé sous la forme «\>« (supérieur à), »\<« (inférieur à), « = » (égal à), »\>= » (supérieur ou égal à), «\<= » (inférieur ou égal à), «\<\>» (différent de), ou « like » (correspondance).
 
-**component**
+**composant**
 
 Objet qui encapsule des données et le code et fournit un ensemble précis de services disponibles publiquement.
 

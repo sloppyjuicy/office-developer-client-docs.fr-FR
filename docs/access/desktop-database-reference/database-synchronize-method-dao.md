@@ -10,12 +10,13 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: dc32087ad924a81eea5290d84ffb63dc4ad5e1ff
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
-ms.translationtype: MT
+localization_priority: Normal
+ms.openlocfilehash: 411948f3c0ac4d6c353cd2722136dffb6a25fb17
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: Auto
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25999049"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28709886"
 ---
 # <a name="databasesynchronize-method-dao"></a>Méthode Database.Synchronize (DAO)
 
@@ -41,7 +42,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Name</p></th>
+<th><p>Nom</p></th>
 <th><p>Requis/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
@@ -51,13 +52,13 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 <tr class="odd">
 <td><p><em>NomCheminBaseDeDonnées</em></p></td>
 <td><p>Obligatoire</p></td>
-<td><p><strong>Chaîne</strong></p></td>
+<td><p><strong>String</strong></p></td>
 <td><p>Chemin d'accès au réplica cible, avec lequel la base de données est synchronisée.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>ExchangeType</em></p></td>
 <td><p>Facultatif</p></td>
-<td><p><strong>Variante</strong></p></td>
+<td><p><strong>Variant</strong></p></td>
 <td><p>Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indiquant la direction dans laquelle synchroniser les modifications entre deux bases de données.</p></td>
 </tr>
 </tbody>
