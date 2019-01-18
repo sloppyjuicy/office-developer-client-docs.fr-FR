@@ -6,19 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249438(v=office.15)
 ms:contentKeyID: 48545518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 306dc8e2a6f0ea89b25a178dde3b879a86fa623c
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 5dc6035569abd42cd6a5f4ce44fcf0da550bf809
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25886080"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726322"
 ---
-# <a name="supports-method-example-vb"></a><span data-ttu-id="3cf09-102">Supports, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="3cf09-102">Supports method example (VB)</span></span>
+# <a name="supports-method-example-vb"></a><span data-ttu-id="83416-102">Supports, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="83416-102">Supports method example (VB)</span></span>
 
 
-<span data-ttu-id="3cf09-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3cf09-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="83416-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83416-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3cf09-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La procédure DisplaySupport est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="3cf09-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="83416-p101">Cet exemple utilise la méthode [Supports](supports-method-ado.md) pour afficher les options prises en charge par un jeu d'enregistrements ouvert avec différents types de curseurs. La procédure DisplaySupport est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="83416-p101">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types. The DisplaySupport procedure is required for this procedure to run.</span></span>
 
 ```vb 
  

@@ -6,24 +6,25 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249938(v=office.15)
 ms:contentKeyID: 48547518
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 28bc66cb521030a9f0b1fca79bd0ccb4babe407b
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25943786"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726196"
 ---
-# <a name="troubleshooting-rds"></a><span data-ttu-id="aabb4-102">Résolution des problèmes RDS</span><span class="sxs-lookup"><span data-stu-id="aabb4-102">Troubleshooting RDS</span></span>
+# <a name="troubleshooting-rds"></a><span data-ttu-id="c71eb-102">Résolution des problèmes RDS</span><span class="sxs-lookup"><span data-stu-id="c71eb-102">Troubleshooting RDS</span></span>
 
-<span data-ttu-id="aabb4-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aabb4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c71eb-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c71eb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aabb4-104">Reportez-vous à cette section pour les solutions à des erreurs spécifiques ou des problèmes liés à RDS :</span><span class="sxs-lookup"><span data-stu-id="aabb4-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
+<span data-ttu-id="c71eb-104">Reportez-vous à cette section pour les solutions à des erreurs spécifiques ou des problèmes liés à RDS :</span><span class="sxs-lookup"><span data-stu-id="c71eb-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
 
-- [<span data-ttu-id="aabb4-105">Configuration de RDS sur Windows 2000</span><span class="sxs-lookup"><span data-stu-id="aabb4-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
-- [<span data-ttu-id="aabb4-106">Blocages avec niveau d’isolation récurrent lecture</span><span class="sxs-lookup"><span data-stu-id="aabb4-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
-- [<span data-ttu-id="aabb4-107">Espace TempDB suffisant</span><span class="sxs-lookup"><span data-stu-id="aabb4-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
-- [<span data-ttu-id="aabb4-108">Erreur du serveur Internet : accès refusé</span><span class="sxs-lookup"><span data-stu-id="aabb4-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
-- [<span data-ttu-id="aabb4-109">Minimiser l’utilisation de l’espace de fichier journal</span><span class="sxs-lookup"><span data-stu-id="aabb4-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
-- [<span data-ttu-id="aabb4-110">RDS renvoie l’erreur « Flux non lu »</span><span class="sxs-lookup"><span data-stu-id="aabb4-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
+- [<span data-ttu-id="c71eb-105">Configuration de RDS sur Windows 2000</span><span class="sxs-lookup"><span data-stu-id="c71eb-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
+- [<span data-ttu-id="c71eb-106">Blocages avec niveau d’isolation récurrent lecture</span><span class="sxs-lookup"><span data-stu-id="c71eb-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
+- [<span data-ttu-id="c71eb-107">Garantie d’espace TempDB suffisant</span><span class="sxs-lookup"><span data-stu-id="c71eb-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
+- [<span data-ttu-id="c71eb-108">Erreur du serveur Internet : accès refusé</span><span class="sxs-lookup"><span data-stu-id="c71eb-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
+- [<span data-ttu-id="c71eb-109">Minimisation de l’espace occupé par le fichier journal</span><span class="sxs-lookup"><span data-stu-id="c71eb-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
+- [<span data-ttu-id="c71eb-110">RDS renvoie l’erreur « Flux non lu »</span><span class="sxs-lookup"><span data-stu-id="c71eb-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
 
 

@@ -6,37 +6,38 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
 ms:contentKeyID: 48547356
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d1d34409b170f2747ee5652210379087015f83dc
-ms.sourcegitcommit: 558d09fad81f8d80b5ad0edd21934fc09c098f2c
+localization_priority: Normal
+ms.openlocfilehash: 7bb2a479789a8c5bd1825b6cb04e602e0b829dfb
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "25944081"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28725986"
 ---
-# <a name="cell-object-ado-md"></a><span data-ttu-id="b3c89-102">Cell, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3c89-102">Cell object (ADO MD)</span></span>
+# <a name="cell-object-ado-md"></a><span data-ttu-id="f9769-102">Cell, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f9769-102">Cell object (ADO MD)</span></span>
 
 
-<span data-ttu-id="b3c89-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3c89-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f9769-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9769-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b3c89-104">Représente les données à l'intersection des coordonnées des axes d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="b3c89-104">Represents the data at the intersection of axis coordinates contained in a cellset.</span></span>
+<span data-ttu-id="f9769-104">Représente les données à l'intersection des coordonnées des axes d'un ensemble de cellules.</span><span class="sxs-lookup"><span data-stu-id="f9769-104">Represents the data at the intersection of axis coordinates contained in a cellset.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b3c89-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="b3c89-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f9769-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="f9769-105">Remarks</span></span>
 
-<span data-ttu-id="b3c89-106">Un objet **Cell** est renvoyé par la propriété [Item](item-property-ado-md-cellset.md) d'un objet [Cellset](cellset-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="b3c89-106">A **Cell** object is returned by the [Item](item-property-ado-md-cellset.md) property of a [Cellset](cellset-object-ado-md.md) object.</span></span>
+<span data-ttu-id="f9769-106">Un objet **Cell** est renvoyé par la propriété [Item](item-property-ado-md-cellset.md) d'un objet [Cellset](cellset-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f9769-106">A **Cell** object is returned by the [Item](item-property-ado-md-cellset.md) property of a [Cellset](cellset-object-ado-md.md) object.</span></span>
 
-<span data-ttu-id="b3c89-107">Avec les collections et propriétés d'un objet **Cell**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="b3c89-107">With the collections and properties of a **Cell** object, you can do the following:</span></span>
+<span data-ttu-id="f9769-107">Avec les collections et propriétés d'un objet **Cell**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="f9769-107">With the collections and properties of a **Cell** object, you can do the following:</span></span>
 
-- <span data-ttu-id="b3c89-108">Renvoyer les données de la **cellule** à l'aide de la propriété [Value](value-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="b3c89-108">Return the data in the **Cell** with the [Value](value-property-ado-md.md) property.</span></span>
+- <span data-ttu-id="f9769-108">Renvoyer les données de la **cellule** à l'aide de la propriété [Value](value-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f9769-108">Return the data in the **Cell** with the [Value](value-property-ado-md.md) property.</span></span>
 
-- <span data-ttu-id="b3c89-109">Renvoyer la chaîne représentant l'affichage mis en forme de la propriété **Value** à l'aide de la propriété [FormattedValue](formattedvalue-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="b3c89-109">Return the string representing the formatted display of the **Value** property with the [FormattedValue](formattedvalue-property-ado-md.md) property.</span></span>
+- <span data-ttu-id="f9769-109">Renvoyer la chaîne représentant l'affichage mis en forme de la propriété **Value** à l'aide de la propriété [FormattedValue](formattedvalue-property-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f9769-109">Return the string representing the formatted display of the **Value** property with the [FormattedValue](formattedvalue-property-ado-md.md) property.</span></span>
 
-- <span data-ttu-id="b3c89-110">Renvoyer la valeur ordinale de la **cellule** au sein de l' **ensemble de cellules** à l'aide de la propriété [Ordinal](ordinal-property-ado-md-cell.md).</span><span class="sxs-lookup"><span data-stu-id="b3c89-110">Return the ordinal value of the **Cell** within the **Cellset** with the [Ordinal](ordinal-property-ado-md-cell.md) property.</span></span>
+- <span data-ttu-id="f9769-110">Renvoyer la valeur ordinale de la **cellule** au sein de l' **ensemble de cellules** à l'aide de la propriété [Ordinal](ordinal-property-ado-md-cell.md).</span><span class="sxs-lookup"><span data-stu-id="f9769-110">Return the ordinal value of the **Cell** within the **Cellset** with the [Ordinal](ordinal-property-ado-md-cell.md) property.</span></span>
 
-- <span data-ttu-id="b3c89-111">Déterminer la position de la **cellule** au sein de l'objet [CubeDef](cubedef-object-ado-md.md) à l'aide de la collection [Positions](positions-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="b3c89-111">Determine the position of the **Cell** within the [CubeDef](cubedef-object-ado-md.md) with the [Positions](positions-collection-ado-md.md) collection.</span></span>
+- <span data-ttu-id="f9769-111">Déterminer la position de la **cellule** au sein de l'objet [CubeDef](cubedef-object-ado-md.md) à l'aide de la collection [Positions](positions-collection-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="f9769-111">Determine the position of the **Cell** within the [CubeDef](cubedef-object-ado-md.md) with the [Positions](positions-collection-ado-md.md) collection.</span></span>
 
-- <span data-ttu-id="b3c89-112">Extraire d'autres informations relatives à la **cellule** à l'aide de la collection ADO [Properties](properties-collection-ado.md) standard.</span><span class="sxs-lookup"><span data-stu-id="b3c89-112">Retrieve other information about the **Cell** with the standard ADO [Properties](properties-collection-ado.md) collection.</span></span>
+- <span data-ttu-id="f9769-112">Extraire d'autres informations relatives à la **cellule** à l'aide de la collection ADO [Properties](properties-collection-ado.md) standard.</span><span class="sxs-lookup"><span data-stu-id="f9769-112">Retrieve other information about the **Cell** with the standard ADO [Properties](properties-collection-ado.md) collection.</span></span>
 
-<span data-ttu-id="b3c89-p101">La collection **Properties** renferme les propriétés fournies par le fournisseur. Le tableau suivant dresse la liste des propriétés potentiellement disponibles. La liste réelle des propriétés peut varier en fonction de la mise en œuvre du fournisseur. Reportez-vous à la documentation de votre fournisseur pour une liste plus complète des propriétés disponibles.</span><span class="sxs-lookup"><span data-stu-id="b3c89-p101">The **Properties** collection contains provider-supplied properties. The following table lists properties that might be available. The actual property list may differ depending upon the implementation of the provider. See the documentation for your provider for a more complete list of available properties.</span></span>
+<span data-ttu-id="f9769-p101">La collection **Properties** renferme les propriétés fournies par le fournisseur. Le tableau suivant dresse la liste des propriétés potentiellement disponibles. La liste réelle des propriétés peut varier en fonction de la mise en œuvre du fournisseur. Reportez-vous à la documentation de votre fournisseur pour une liste plus complète des propriétés disponibles.</span><span class="sxs-lookup"><span data-stu-id="f9769-p101">The **Properties** collection contains provider-supplied properties. The following table lists properties that might be available. The actual property list may differ depending upon the implementation of the provider. See the documentation for your provider for a more complete list of available properties.</span></span>
 
 <table>
 <colgroup>
@@ -45,34 +46,34 @@ ms.locfileid: "25944081"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b3c89-117">Nom</span><span class="sxs-lookup"><span data-stu-id="b3c89-117">Name</span></span></p></th>
-<th><p><span data-ttu-id="b3c89-118">Description</span><span class="sxs-lookup"><span data-stu-id="b3c89-118">Description</span></span></p></th>
+<th><p><span data-ttu-id="f9769-117">Nom</span><span class="sxs-lookup"><span data-stu-id="f9769-117">Name</span></span></p></th>
+<th><p><span data-ttu-id="f9769-118">Description</span><span class="sxs-lookup"><span data-stu-id="f9769-118">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b3c89-119">BackColor</span><span class="sxs-lookup"><span data-stu-id="b3c89-119">BackColor</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-120">Couleur de fond utilisée pour l'affichage de la cellule.</span><span class="sxs-lookup"><span data-stu-id="b3c89-120">Background color used when displaying the cell.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-119">BackColor</span><span class="sxs-lookup"><span data-stu-id="f9769-119">BackColor</span></span></p></td>
+<td><p><span data-ttu-id="f9769-120">Couleur de fond utilisée pour l'affichage de la cellule.</span><span class="sxs-lookup"><span data-stu-id="f9769-120">Background color used when displaying the cell.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b3c89-121">FontFlags</span><span class="sxs-lookup"><span data-stu-id="b3c89-121">FontFlags</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-122">Masque binaire détaillant les effets de la police.</span><span class="sxs-lookup"><span data-stu-id="b3c89-122">Bitmask detailing effects on the font.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-121">FontFlags</span><span class="sxs-lookup"><span data-stu-id="f9769-121">FontFlags</span></span></p></td>
+<td><p><span data-ttu-id="f9769-122">Masque binaire détaillant les effets de la police.</span><span class="sxs-lookup"><span data-stu-id="f9769-122">Bitmask detailing effects on the font.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b3c89-123">FontName</span><span class="sxs-lookup"><span data-stu-id="b3c89-123">FontName</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-124">Police utilisée pour afficher la valeur de la cellule.</span><span class="sxs-lookup"><span data-stu-id="b3c89-124">Font used to display the cell value.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-123">FontName</span><span class="sxs-lookup"><span data-stu-id="f9769-123">FontName</span></span></p></td>
+<td><p><span data-ttu-id="f9769-124">Police utilisée pour afficher la valeur de la cellule.</span><span class="sxs-lookup"><span data-stu-id="f9769-124">Font used to display the cell value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b3c89-125">FontSize</span><span class="sxs-lookup"><span data-stu-id="b3c89-125">FontSize</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-126">Taille de police utilisée pour afficher la valeur de la cellule.</span><span class="sxs-lookup"><span data-stu-id="b3c89-126">Font size used to display the cell value.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-125">FontSize</span><span class="sxs-lookup"><span data-stu-id="f9769-125">FontSize</span></span></p></td>
+<td><p><span data-ttu-id="f9769-126">Taille de police utilisée pour afficher la valeur de la cellule.</span><span class="sxs-lookup"><span data-stu-id="f9769-126">Font size used to display the cell value.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b3c89-127">ForeColor</span><span class="sxs-lookup"><span data-stu-id="b3c89-127">ForeColor</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-128">Couleur de premier plan utilisée pour l'affichage de la cellule.</span><span class="sxs-lookup"><span data-stu-id="b3c89-128">Foreground color used when displaying the cell.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-127">ForeColor</span><span class="sxs-lookup"><span data-stu-id="f9769-127">ForeColor</span></span></p></td>
+<td><p><span data-ttu-id="f9769-128">Couleur de premier plan utilisée pour l'affichage de la cellule.</span><span class="sxs-lookup"><span data-stu-id="f9769-128">Foreground color used when displaying the cell.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b3c89-129">FormatString</span><span class="sxs-lookup"><span data-stu-id="b3c89-129">FormatString</span></span></p></td>
-<td><p><span data-ttu-id="b3c89-130">Valeur dans une chaîne mise en forme.</span><span class="sxs-lookup"><span data-stu-id="b3c89-130">Value in a formatted string.</span></span></p></td>
+<td><p><span data-ttu-id="f9769-129">FormatString</span><span class="sxs-lookup"><span data-stu-id="f9769-129">FormatString</span></span></p></td>
+<td><p><span data-ttu-id="f9769-130">Valeur dans une chaîne mise en forme.</span><span class="sxs-lookup"><span data-stu-id="f9769-130">Value in a formatted string.</span></span></p></td>
 </tr>
 </tbody>
 </table>

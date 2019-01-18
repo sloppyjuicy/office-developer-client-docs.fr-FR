@@ -6,25 +6,26 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249788(v=office.15)
 ms:contentKeyID: 48546947
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: d6b7c98df9e241d7136901223e8d427b84687f18
-ms.sourcegitcommit: c557bbcccf37a6011f89aae1ddd399dfe549d087
+localization_priority: Normal
+ms.openlocfilehash: 26c259452e23bed8d2937f9d86c78d4d52be2993
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/31/2018
-ms.locfileid: "25885772"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726189"
 ---
-# <a name="delete-method-example-vbscript"></a><span data-ttu-id="069a2-102">Delete, méthode – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="069a2-102">Delete method example (VBScript)</span></span>
+# <a name="delete-method-example-vbscript"></a><span data-ttu-id="f7a5c-102">Delete, méthode – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="f7a5c-102">Delete method example (VBScript)</span></span>
 
 
-<span data-ttu-id="069a2-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="069a2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f7a5c-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7a5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="069a2-104">Cet exemple utilise la méthode [Delete](delete-method-ado-recordset.md) pour supprimer un enregistrement spécifié d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="069a2-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="f7a5c-104">Cet exemple utilise la méthode [Delete](delete-method-ado-recordset.md) pour supprimer un enregistrement spécifié d'un objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="f7a5c-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="069a2-105">Utilisez l'exemple suivant dans une page ASP (Active Server Page).</span><span class="sxs-lookup"><span data-stu-id="069a2-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="f7a5c-105">Utilisez l'exemple suivant dans une page ASP (Active Server Page).</span><span class="sxs-lookup"><span data-stu-id="f7a5c-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="069a2-p101">Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **DeleteVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur client.</span><span class="sxs-lookup"><span data-stu-id="069a2-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
+<span data-ttu-id="f7a5c-p101">Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **DeleteVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur client.</span><span class="sxs-lookup"><span data-stu-id="f7a5c-p101">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **DeleteVBS.asp**. You can view the result in any client browser.</span></span>
 
-<span data-ttu-id="069a2-p102">Pour exécuter cet exemple, commencez par utiliser l'exemple [AddNew](addnew-method-example-vbscript.md) pour ajouter quelques enregistrements. Ensuite, essayez de les supprimer. Consultez le résultat dans un navigateur client quelconque.</span><span class="sxs-lookup"><span data-stu-id="069a2-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
+<span data-ttu-id="f7a5c-p102">Pour exécuter cet exemple, commencez par utiliser l'exemple [AddNew](addnew-method-example-vbscript.md) pour ajouter quelques enregistrements. Ensuite, essayez de les supprimer. Consultez le résultat dans un navigateur client quelconque.</span><span class="sxs-lookup"><span data-stu-id="f7a5c-p102">To exercise the example, try using the [AddNew](addnew-method-example-vbscript.md) example first to add some records. Then you can try to delete them. View the result in any client browser.</span></span>
 
 ```vb 
  

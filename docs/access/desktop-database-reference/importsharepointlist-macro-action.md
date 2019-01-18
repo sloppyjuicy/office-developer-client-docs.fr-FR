@@ -10,25 +10,26 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
-ms.openlocfilehash: f01899833b4cf0537a4437a643f2aeedf99e586c
-ms.sourcegitcommit: 1dd744993ecb4bed241ace874ad26edaef1778b8
+localization_priority: Normal
+ms.openlocfilehash: df77d2375b66df907832b6ff2717427ae54a35a4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "25996915"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726203"
 ---
-# <a name="importsharepointlist-macro-action"></a><span data-ttu-id="b1795-102">ImportSharePointList, action de macro</span><span class="sxs-lookup"><span data-stu-id="b1795-102">ImportSharePointList macro action</span></span>
+# <a name="importsharepointlist-macro-action"></a><span data-ttu-id="57c0d-102">ImportSharePointList, action de macro</span><span class="sxs-lookup"><span data-stu-id="57c0d-102">ImportSharePointList macro action</span></span>
 
-<span data-ttu-id="b1795-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1795-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="57c0d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57c0d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1795-104">L'action **ImporterListeSharePoint** permet d'importer ou de lier des données à partir d'un site Microsoft SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="b1795-104">You can use the **ImportSharePointList** action to import or link data from a Microsoft SharePoint Foundation site.</span></span>
+<span data-ttu-id="57c0d-104">L'action **ImporterListeSharePoint** permet d'importer ou de lier des données à partir d'un site Microsoft SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="57c0d-104">You can use the **ImportSharePointList** action to import or link data from a Microsoft SharePoint Foundation site.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b1795-105">[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.</span><span class="sxs-lookup"><span data-stu-id="b1795-105">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="57c0d-105">[!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée.</span><span class="sxs-lookup"><span data-stu-id="57c0d-105">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="b1795-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="b1795-106">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="57c0d-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="57c0d-106">Setting</span></span>
 
-<span data-ttu-id="b1795-107">L'action **ImporterListeSharePoint** utilise les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="b1795-107">The **ImportSharePointList** action has the following arguments.</span></span>
+<span data-ttu-id="57c0d-107">L'action **ImporterListeSharePoint** utilise les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="57c0d-107">The **ImportSharePointList** action has the following arguments.</span></span>
 
 <table>
 <colgroup>
@@ -37,65 +38,65 @@ ms.locfileid: "25996915"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b1795-108">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="b1795-108">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="b1795-109">Description</span><span class="sxs-lookup"><span data-stu-id="b1795-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="57c0d-108">Argument de l’action</span><span class="sxs-lookup"><span data-stu-id="57c0d-108">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="57c0d-109">Description</span><span class="sxs-lookup"><span data-stu-id="57c0d-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b1795-110"><strong>Type de transfert</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-110"><strong>Transfer Type</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-111">Sélectionnez le type de transfert.</span><span class="sxs-lookup"><span data-stu-id="b1795-111">Select the type of transfer.</span></span></p>
+<td><p><span data-ttu-id="57c0d-110"><strong>Type de transfert</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-110"><strong>Transfer Type</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-111">Sélectionnez le type de transfert.</span><span class="sxs-lookup"><span data-stu-id="57c0d-111">Select the type of transfer.</span></span></p>
 <ul>
-<li><p><span data-ttu-id="b1795-112">Sélectionnez <strong>Importer</strong> pour copier les données Windows SharePoint Services dans une table Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="b1795-112">Select <strong>Import</strong> to copy the SharePoint Foundation data into a table in Microsoft Access.</span></span> <span data-ttu-id="b1795-113">Mises à jour les données dans Access n’affectent pas les données dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="b1795-113">Updates to the data in Access do not affect the data in SharePoint Foundation.</span></span> <span data-ttu-id="b1795-114">De même, les mises à jour les données dans Windows SharePoint Services n’affectent pas les données dans Access.</span><span class="sxs-lookup"><span data-stu-id="b1795-114">Likewise, updates to the data in SharePoint Foundation do not affect the data in Access.</span></span></p></li>
-<li><p><span data-ttu-id="b1795-115">Sélectionnez le <strong>lien</strong> pour créer une table attachée dans Access liée aux données dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="b1795-115">Select <strong>Link</strong> to create a linked table in Access that links to the data in SharePoint Foundation.</span></span> <span data-ttu-id="b1795-116">Mises à jour les données dans Access sont reflétées dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="b1795-116">Updates to the data in Access are reflected in SharePoint Foundation.</span></span> <span data-ttu-id="b1795-117">De même, les mises à jour les données dans Windows SharePoint Services sont répercutées dans Access.</span><span class="sxs-lookup"><span data-stu-id="b1795-117">Likewise, updates to the data in SharePoint Foundation are reflected in Access.</span></span></p></li>
+<li><p><span data-ttu-id="57c0d-112">Sélectionnez <strong>Importer</strong> pour copier les données Windows SharePoint Services dans une table Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="57c0d-112">Select <strong>Import</strong> to copy the SharePoint Foundation data into a table in Microsoft Access.</span></span> <span data-ttu-id="57c0d-113">Mises à jour les données dans Access n’affectent pas les données dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="57c0d-113">Updates to the data in Access do not affect the data in SharePoint Foundation.</span></span> <span data-ttu-id="57c0d-114">De même, les mises à jour les données dans Windows SharePoint Services n’affectent pas les données dans Access.</span><span class="sxs-lookup"><span data-stu-id="57c0d-114">Likewise, updates to the data in SharePoint Foundation do not affect the data in Access.</span></span></p></li>
+<li><p><span data-ttu-id="57c0d-115">Sélectionnez le <strong>lien</strong> pour créer une table attachée dans Access liée aux données dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="57c0d-115">Select <strong>Link</strong> to create a linked table in Access that links to the data in SharePoint Foundation.</span></span> <span data-ttu-id="57c0d-116">Mises à jour les données dans Access sont reflétées dans Windows SharePoint Services.</span><span class="sxs-lookup"><span data-stu-id="57c0d-116">Updates to the data in Access are reflected in SharePoint Foundation.</span></span> <span data-ttu-id="57c0d-117">De même, les mises à jour les données dans Windows SharePoint Services sont répercutées dans Access.</span><span class="sxs-lookup"><span data-stu-id="57c0d-117">Likewise, updates to the data in SharePoint Foundation are reflected in Access.</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b1795-118"><strong>Adresse du site</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-118"><strong>Site Address</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-119">Entrez le chemin d’accès complet au site SharePoint.</span><span class="sxs-lookup"><span data-stu-id="b1795-119">Enter the full path of the SharePoint site.</span></span></p></td>
+<td><p><span data-ttu-id="57c0d-118"><strong>Adresse du site</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-118"><strong>Site Address</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-119">Entrez le chemin d’accès complet au site SharePoint.</span><span class="sxs-lookup"><span data-stu-id="57c0d-119">Enter the full path of the SharePoint site.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b1795-120"><strong>ID de liste</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-120"><strong>List ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-p103">Entrez le nom ou GUID de la liste à transférer. Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="b1795-p103">Enter the name or GUID of the list to be transferred. Required argument.</span></span></p></td>
+<td><p><span data-ttu-id="57c0d-120"><strong>ID de liste</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-120"><strong>List ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-p103">Entrez le nom ou GUID de la liste à transférer. Cet argument est obligatoire.</span><span class="sxs-lookup"><span data-stu-id="57c0d-p103">Enter the name or GUID of the list to be transferred. Required argument.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b1795-123"><strong>ID de vue</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-123"><strong>View ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-p104">Entrez le GUID de l’affichage de la liste que vous souhaitez utiliser. Omettez cet argument pour transférer toutes les lignes et colonnes de la liste.</span><span class="sxs-lookup"><span data-stu-id="b1795-p104">Enter the GUID of the view for the list you want to use. Leave this argument blank to transfer all rows and columns in the list.</span></span></p></td>
+<td><p><span data-ttu-id="57c0d-123"><strong>ID de vue</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-123"><strong>View ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-p104">Entrez le GUID de l’affichage de la liste que vous souhaitez utiliser. Omettez cet argument pour transférer toutes les lignes et colonnes de la liste.</span><span class="sxs-lookup"><span data-stu-id="57c0d-p104">Enter the GUID of the view for the list you want to use. Leave this argument blank to transfer all rows and columns in the list.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b1795-126"><strong>Nom de la table</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-126"><strong>Table Name</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-127">Entrez le nom à afficher pour la table ou la table attachée dans Access.</span><span class="sxs-lookup"><span data-stu-id="b1795-127">Enter the name you want displayed for the table or linked table in Access.</span></span></p></td>
+<td><p><span data-ttu-id="57c0d-126"><strong>Nom de la table</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-126"><strong>Table Name</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-127">Entrez le nom à afficher pour la table ou la table attachée dans Access.</span><span class="sxs-lookup"><span data-stu-id="57c0d-127">Enter the name you want displayed for the table or linked table in Access.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b1795-128"><strong>Valeurs d’affichage Liste de choix</strong></span><span class="sxs-lookup"><span data-stu-id="b1795-128"><strong>Get Lookup Display Values</strong></span></span></p></td>
-<td><p><span data-ttu-id="b1795-129">Cliquez sur <strong>Oui</strong> si les valeurs d’affichage des champs de recherche doivent être transférées à la place de l’identificateur utilisé pour effectuer la recherche.</span><span class="sxs-lookup"><span data-stu-id="b1795-129">Select <strong>Yes</strong> to transfer display values for Lookup fields instead of the ID used to perform the lookup.</span></span></p></td>
+<td><p><span data-ttu-id="57c0d-128"><strong>Valeurs d’affichage Liste de choix</strong></span><span class="sxs-lookup"><span data-stu-id="57c0d-128"><strong>Get Lookup Display Values</strong></span></span></p></td>
+<td><p><span data-ttu-id="57c0d-129">Cliquez sur <strong>Oui</strong> si les valeurs d’affichage des champs de recherche doivent être transférées à la place de l’identificateur utilisé pour effectuer la recherche.</span><span class="sxs-lookup"><span data-stu-id="57c0d-129">Select <strong>Yes</strong> to transfer display values for Lookup fields instead of the ID used to perform the lookup.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="b1795-130">Remarques</span><span class="sxs-lookup"><span data-stu-id="b1795-130">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="57c0d-130">Remarques</span><span class="sxs-lookup"><span data-stu-id="57c0d-130">Remarks</span></span>
 
-- <span data-ttu-id="b1795-131">L'exécution de cette action équivaut à cliquer sur **Liste SharePoint** dans le groupe **Importer** de l'onglet **Données externes**. Les arguments utilisés pour l'action correspondent à vos choix dans l'Assistant Données externes.</span><span class="sxs-lookup"><span data-stu-id="b1795-131">This action has the same effect as clicking **SharePoint List** in the **Import** group on the **External Data** tab. The arguments for the action correspond to the choices you make in the Get External Data Wizard.</span></span>
+- <span data-ttu-id="57c0d-131">L'exécution de cette action équivaut à cliquer sur **Liste SharePoint** dans le groupe **Importer** de l'onglet **Données externes**. Les arguments utilisés pour l'action correspondent à vos choix dans l'Assistant Données externes.</span><span class="sxs-lookup"><span data-stu-id="57c0d-131">This action has the same effect as clicking **SharePoint List** in the **Import** group on the **External Data** tab. The arguments for the action correspond to the choices you make in the Get External Data Wizard.</span></span>
 
-- <span data-ttu-id="b1795-132">Pour exécuter l'action **ImporterListeSharePoint** dans un module VBA, utilisez la méthode **TransferSharePointList** de l'objet **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="b1795-132">To run the **ImportSharePointList** action in a VBA module, use the **TransferSharePointList** method of the **DoCmd** object.</span></span>
+- <span data-ttu-id="57c0d-132">Pour exécuter l'action **ImporterListeSharePoint** dans un module VBA, utilisez la méthode **TransferSharePointList** de l'objet **DoCmd**.</span><span class="sxs-lookup"><span data-stu-id="57c0d-132">To run the **ImportSharePointList** action in a VBA module, use the **TransferSharePointList** method of the **DoCmd** object.</span></span>
 
-- <span data-ttu-id="b1795-133">Si vous spécifiez une liste ou un affichage qui n'existe pas, aucune erreur ne se produit, mais aucune donnée n'est transférée.</span><span class="sxs-lookup"><span data-stu-id="b1795-133">If you specify a nonexistent list or view, no error occurs, and no data is transferred.</span></span>
+- <span data-ttu-id="57c0d-133">Si vous spécifiez une liste ou un affichage qui n'existe pas, aucune erreur ne se produit, mais aucune donnée n'est transférée.</span><span class="sxs-lookup"><span data-stu-id="57c0d-133">If you specify a nonexistent list or view, no error occurs, and no data is transferred.</span></span>
 
-- <span data-ttu-id="b1795-p105">Le GUID d'une liste ou d'un affichage est un identificateur unique hexadécimal qui identifie cette liste ou cet affichage. Le GUID doit respecter le format suivant, où chaque « F » est un nombre hexadécimal (de 0 à 9 ou de A à F).</span><span class="sxs-lookup"><span data-stu-id="b1795-p105">A GUID is a unique hexadecimal identifier for a list or a view. A GUID must be entered in the following format, where each "F" is a hexadecimal number (0 through 9 or A through F).</span></span>
+- <span data-ttu-id="57c0d-p105">Le GUID d'une liste ou d'un affichage est un identificateur unique hexadécimal qui identifie cette liste ou cet affichage. Le GUID doit respecter le format suivant, où chaque « F » est un nombre hexadécimal (de 0 à 9 ou de A à F).</span><span class="sxs-lookup"><span data-stu-id="57c0d-p105">A GUID is a unique hexadecimal identifier for a list or a view. A GUID must be entered in the following format, where each "F" is a hexadecimal number (0 through 9 or A through F).</span></span>
     
   `{FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF}`
     
-  <span data-ttu-id="b1795-136">Pour obtenir le GUID d'une liste ou d'un affichage à partir du site SharePoint, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="b1795-136">You can obtain the GUID for a list or view from the SharePoint site by using the following procedure:</span></span>
+  <span data-ttu-id="57c0d-136">Pour obtenir le GUID d'une liste ou d'un affichage à partir du site SharePoint, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="57c0d-136">You can obtain the GUID for a list or view from the SharePoint site by using the following procedure:</span></span>
     
-  1. <span data-ttu-id="b1795-137">Ouvrez la liste dans SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="b1795-137">Open the list in SharePoint Foundation.</span></span>
+  1. <span data-ttu-id="57c0d-137">Ouvrez la liste dans SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="57c0d-137">Open the list in SharePoint Foundation.</span></span>
     
-  2. <span data-ttu-id="b1795-138">Si l'affichage que vous recherchez n'est pas dans la liste, cliquez sur la flèche de la liste déroulante **Affichage** et sélectionnez l'affichage voulu.</span><span class="sxs-lookup"><span data-stu-id="b1795-138">If the view you want is not displayed, click the **View** drop-down arrow and then select the view you want.</span></span>
+  2. <span data-ttu-id="57c0d-138">Si l'affichage que vous recherchez n'est pas dans la liste, cliquez sur la flèche de la liste déroulante **Affichage** et sélectionnez l'affichage voulu.</span><span class="sxs-lookup"><span data-stu-id="57c0d-138">If the view you want is not displayed, click the **View** drop-down arrow and then select the view you want.</span></span>
     
-  3. <span data-ttu-id="b1795-139">Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage.</span><span class="sxs-lookup"><span data-stu-id="b1795-139">Click the **View** drop-down arrow and then select **Modify this View**.The address in the browser's address bar contains the GUIDs for both the list and the view.</span></span> <span data-ttu-id="b1795-140">Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**.</span><span class="sxs-lookup"><span data-stu-id="b1795-140">The GUID for the list follows **List=**, and the GUID for the view follows **View=**.</span></span> <span data-ttu-id="b1795-141">Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**.</span><span class="sxs-lookup"><span data-stu-id="b1795-141">However, in the address, each **{** (left brace) character is represented by the string **%7B**, each **-** (hyphen) character is represented by the string **%2D**, and each **}** (right brace) character is represented by the string **%7D**.</span></span> <span data-ttu-id="b1795-142">Par exemple :</span><span class="sxs-lookup"><span data-stu-id="b1795-142">For example:</span></span>
+  3. <span data-ttu-id="57c0d-139">Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage.</span><span class="sxs-lookup"><span data-stu-id="57c0d-139">Click the **View** drop-down arrow and then select **Modify this View**.The address in the browser's address bar contains the GUIDs for both the list and the view.</span></span> <span data-ttu-id="57c0d-140">Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**.</span><span class="sxs-lookup"><span data-stu-id="57c0d-140">The GUID for the list follows **List=**, and the GUID for the view follows **View=**.</span></span> <span data-ttu-id="57c0d-141">Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**.</span><span class="sxs-lookup"><span data-stu-id="57c0d-141">However, in the address, each **{** (left brace) character is represented by the string **%7B**, each **-** (hyphen) character is represented by the string **%2D**, and each **}** (right brace) character is represented by the string **%7D**.</span></span> <span data-ttu-id="57c0d-142">Par exemple:</span><span class="sxs-lookup"><span data-stu-id="57c0d-142">For example:</span></span>
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         
-  <span data-ttu-id="b1795-143">Avant de pouvoir utiliser le GUID de l’adresse en tant qu’arguments dans cette action de macro, vous devez remplacer chaque chaîne **7 b %** avec le caractère **{** , remplacer chaque **% 2D** chaîne avec la **-** de caractères et remplacez chaque chaîne **% 7 D** avec le caractère **}** .</span><span class="sxs-lookup"><span data-stu-id="b1795-143">Before you can use the GUIDs from the address as arguments in this macro action, you must replace each **%7B** string with the **{** character, replace each **%2D** string with the **-** character, and replace each **%7D** string with the **}** character.</span></span> <span data-ttu-id="b1795-144">N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.</span><span class="sxs-lookup"><span data-stu-id="b1795-144">Do not include the **&** (ampersand) character that follows the **%7D** string in the list GUID.</span></span>
+  <span data-ttu-id="57c0d-143">Avant de pouvoir utiliser le GUID de l’adresse en tant qu’arguments dans cette action de macro, vous devez remplacer chaque chaîne **7 b %** avec le caractère **{** , remplacer chaque **% 2D** chaîne avec la **-** de caractères et remplacez chaque chaîne **% 7 D** avec le caractère **}** .</span><span class="sxs-lookup"><span data-stu-id="57c0d-143">Before you can use the GUIDs from the address as arguments in this macro action, you must replace each **%7B** string with the **{** character, replace each **%2D** string with the **-** character, and replace each **%7D** string with the **}** character.</span></span> <span data-ttu-id="57c0d-144">N'incluez pas le caractère **&** (et commercial) qui suit la chaîne **%7D** dans le GUID de la liste.</span><span class="sxs-lookup"><span data-stu-id="57c0d-144">Do not include the **&** (ampersand) character that follows the **%7D** string in the list GUID.</span></span>
 
