@@ -6,78 +6,79 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927367"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726343"
 ---
-# <a name="tabledef-object-dao"></a><span data-ttu-id="c2646-102">Objet TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="c2646-102">TableDef object (DAO)</span></span>
+# <a name="tabledef-object-dao"></a><span data-ttu-id="3b5c3-102">Objet TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b5c3-102">TableDef Object (DAO)</span></span>
 
-<span data-ttu-id="c2646-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2646-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3b5c3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b5c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c2646-104">Un objet **TableDef** représente la définition stockée d'une table de base ou d'une table liée (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="c2646-104">A **TableDef** object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="3b5c3-104">Un objet **TableDef** représente la définition stockée d’une table de base ou d’une table liée (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="3b5c3-104">A **TableDef** object represents the stored definition of a base table or a linked table (Microsoft Access workspaces only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c2646-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="c2646-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3b5c3-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="3b5c3-105">Remarks</span></span>
 
-<span data-ttu-id="c2646-p101">Vous manipulez une définition de table à l'aide d'un objet **TableDef**, de ses méthodes et de ses propriétés. Par exemple, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="c2646-p101">You manipulate a table definition using a **TableDef** object and its methods and properties. For example, you can:</span></span>
+<span data-ttu-id="3b5c3-p101">Vous manipulez une définition de table à l’aide d’un objet **TableDef**, de ses méthodes et de ses propriétés. Par exemple, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="3b5c3-p101">You manipulate a table definition using a **TableDef** object and its methods and properties. For example, you can:</span></span>
 
-- <span data-ttu-id="c2646-108">Examiner la structure de champ et d'index d'une table locale, liée ou externe dans une base de données.</span><span class="sxs-lookup"><span data-stu-id="c2646-108">Examine the field and index structure of any local, linked, or external table in a database.</span></span>
+- <span data-ttu-id="3b5c3-108">Examiner la structure de champ et d’index d’une table locale, liée ou externe dans une base de données.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-108">Examine the field and index structure of any local, linked, or external table in a database.</span></span>
 
-- <span data-ttu-id="c2646-109">Utiliser les propriétés **Connect** et **SourceTableName** pour définir ou renvoyer des informations sur les tables liées et utiliser la méthode **RefreshLink** pour mettre à jour les connexions aux tables liées.</span><span class="sxs-lookup"><span data-stu-id="c2646-109">Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.</span></span>
+- <span data-ttu-id="3b5c3-109">Utiliser les propriétés **Connect** et **SourceTableName** pour définir ou renvoyer des informations sur les tables liées et utiliser la méthode **RefreshLink** pour mettre à jour les connexions aux tables liées.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-109">Use the **Connect** and **SourceTableName** properties to set or return information about linked tables, and use the **RefreshLink** method to update connections to linked tables.</span></span>
 
-- <span data-ttu-id="c2646-110">Utiliser les propriétés **ValidationRule** et **ValidationText** pour définir ou renvoyer les conditions de validation.</span><span class="sxs-lookup"><span data-stu-id="c2646-110">Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.</span></span>
+- <span data-ttu-id="3b5c3-110">Utiliser les propriétés **ValidationRule** et **ValidationText** pour définir ou renvoyer les conditions de validation.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-110">Use the **ValidationRule** and **ValidationText** properties to set or return validation conditions.</span></span>
 
-- <span data-ttu-id="c2646-111">Utilisez la méthode **OpenRecordset** pour créer une table, feuille de réponse dynamique, dynamique, instantané ou objet **Recordset** de type avant uniquement, en fonction de la définition de table.</span><span class="sxs-lookup"><span data-stu-id="c2646-111">Use the **OpenRecordset** method to create a table–, dynaset–, dynamic–, snapshot–, or forward–only–type **Recordset** object, based on the table definition.</span></span>
+- <span data-ttu-id="3b5c3-111">Utiliser la méthode **OpenRecordset** pour créer un objet **Recordset** de type table, feuille à réponse dynamique, capture instantanée ou transfert uniquement en fonction de la définition de table.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-111">Use the **OpenRecordset** method to create a table-, dynaset-, dynamic-, snapshot-, or forward-only-type **Recordset** object, based on the table definition.</span></span>
 
-<span data-ttu-id="c2646-112">Pour les tables de base, la propriété **RecordCount** contient le nombre d'enregistrements dans la table de base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c2646-112">For base tables, the **RecordCount** property contains the number of records in the specified database table.</span></span> <span data-ttu-id="c2646-113">Tables liées, **la propriété RecordCount** est toujours -1.</span><span class="sxs-lookup"><span data-stu-id="c2646-113">For linked tables, the **RecordCount** property setting is always –1.</span></span>
+<span data-ttu-id="3b5c3-112">Pour les tables de base, la propriété **RecordCount** contient le nombre d’enregistrements de la table de base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-112">For base tables, the **RecordCount** property contains the number of records in the specified database table.</span></span> <span data-ttu-id="3b5c3-113">Pour les tables liées, le paramètre de la propriété **RecordCount** est toujours –1.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-113">For linked tables, the **RecordCount** property setting is always -1.</span></span>
 
-<span data-ttu-id="c2646-114">Pour créer un objet **TableDef**, utilisez la méthode **[CreateTableDef](database-createtabledef-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="c2646-114">To create a new **TableDef** object, use the **[CreateTableDef](database-createtabledef-method-dao.md)** method.</span></span>
+<span data-ttu-id="3b5c3-114">Pour créer un objet **TableDef**, utilisez la méthode **[CreateTableDef](database-createtabledef-method-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-114">To create a new **TableDef** object, use the **[CreateTableDef](database-createtabledef-method-dao.md)** method.</span></span>
 
-### <a name="to-add-a-field-to-a-table"></a><span data-ttu-id="c2646-115">Pour ajouter un champ à une table</span><span class="sxs-lookup"><span data-stu-id="c2646-115">To add a field to a table</span></span>
+### <a name="to-add-a-field-to-a-table"></a><span data-ttu-id="3b5c3-115">Pour ajouter un champ à une table</span><span class="sxs-lookup"><span data-stu-id="3b5c3-115">To add a field to a table</span></span>
 
-1.  <span data-ttu-id="c2646-116">Assurez-vous que les objets **[Recordset](recordset-object-dao.md)** basés sur la table sont tous fermés.</span><span class="sxs-lookup"><span data-stu-id="c2646-116">Make sure any **[Recordset](recordset-object-dao.md)** objects based on the table are all closed.</span></span>
+1.  <span data-ttu-id="3b5c3-116">Assurez-vous que les objets **[Recordset](recordset-object-dao.md)** basés sur la table sont tous fermés.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-116">Make sure any **[Recordset](recordset-object-dao.md)** objects based on the table are all closed.</span></span>
 
-2.  <span data-ttu-id="c2646-117">Utilisez la méthode **CreateField** pour créer une variable d'objet **Field** et définir ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="c2646-117">Use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
+2.  <span data-ttu-id="3b5c3-117">Utilisez la méthode **CreateField** pour créer une variable d’objet **Field** et définir ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-117">Use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
 
-3.  <span data-ttu-id="c2646-118">Utilisez la méthode **Append** pour ajouter l'objet **Field** à la collection **Fields** de l'objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-118">Use the **Append** method to add the **Field** object to the **Fields** collection of the **TableDef** object.</span></span>
+3.  <span data-ttu-id="3b5c3-118">Utilisez la méthode **Append** pour ajouter l’objet **Field** à la collection **Fields** de l’objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-118">Use the **Append** method to add the **Field** object to the **Fields** collection of the **TableDef** object.</span></span>
 
-<span data-ttu-id="c2646-119">Vous pouvez supprimer un objet **Field** à partir d'une collection **TableDefs** si aucun index ne lui est attribué, mais vous perdrez les données du champ.</span><span class="sxs-lookup"><span data-stu-id="c2646-119">You can delete a **Field** object from a **TableDefs** collection if it doesn't have any indexes assigned to it, but you will lose the field's data.</span></span>
+<span data-ttu-id="3b5c3-119">Vous pouvez supprimer un objet **Field** à partir d’une collection **TableDefs** si aucun index ne lui est attribué, mais vous perdrez les données du champ.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-119">You can delete a **Field** object from a **TableDefs** collection if it doesn't have any indexes assigned to it, but you will lose the field's data.</span></span>
 
-### <a name="to-create-a-table-that-is-ready-for-new-records-in-a-database"></a><span data-ttu-id="c2646-120">Pour créer une table prête pour de nouveaux enregistrements dans une base de données</span><span class="sxs-lookup"><span data-stu-id="c2646-120">To create a table that is ready for new records in a database</span></span>
+### <a name="to-create-a-table-that-is-ready-for-new-records-in-a-database"></a><span data-ttu-id="3b5c3-120">Pour créer une table prête pour de nouveaux enregistrements dans une base de données</span><span class="sxs-lookup"><span data-stu-id="3b5c3-120">To create a table that is ready for new records in a database</span></span>
 
-1.  <span data-ttu-id="c2646-121">Utilisez la méthode **CreateTableDef** pour créer un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-121">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
+1.  <span data-ttu-id="3b5c3-121">Utilisez la méthode **CreateTableDef** pour créer un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-121">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
 
-2.  <span data-ttu-id="c2646-122">Définissez ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="c2646-122">Set its properties.</span></span>
+2.  <span data-ttu-id="3b5c3-122">Définissez ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-122">Set its properties.</span></span>
 
-3.  <span data-ttu-id="c2646-123">Pour chaque champ de la table, utilisez la méthode **CreateField** pour créer une variable d'objet **Field** et définir ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="c2646-123">For each field in the table, use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
+3.  <span data-ttu-id="3b5c3-123">Pour chaque champ de la table, utilisez la méthode **CreateField** pour créer une variable d’objet **Field** et définir ses propriétés.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-123">For each field in the table, use the **CreateField** method to create a **Field** object variable and set its properties.</span></span>
 
-4.  <span data-ttu-id="c2646-124">Utilisez la méthode **Append** pour ajouter les champs à la collection **Fields** de l'objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-124">Use the **Append** method to add the fields to the **Fields** collection of the **TableDef** object.</span></span>
+4.  <span data-ttu-id="3b5c3-124">Utilisez la méthode **Append** pour ajouter les champs à la collection **Fields** de l’objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-124">Use the **Append** method to add the fields to the **Fields** collection of the **TableDef** object.</span></span>
 
-5.  <span data-ttu-id="c2646-125">Utilisez la méthode **Append** pour ajouter le nouvel objet **TableDef** à la collection **TableDefs** de l'objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="c2646-125">Use the **Append** method to add the new **TableDef** object to the **TableDefs** collection of the **Database** object.</span></span>
+5.  <span data-ttu-id="3b5c3-125">Utilisez la méthode **Append** pour ajouter le nouvel objet **TableDef** à la collection **TableDefs** de l’objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-125">Use the **Append** method to add the new **TableDef** object to the **TableDefs** collection of the **Database** object.</span></span>
 
-<span data-ttu-id="c2646-126">Une table liée est connectée à la base de données via les propriétés **SourceTableName** et **Connect** de l'objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-126">A linked table is connected to the database by the **SourceTableName** and **Connect** properties of the **TableDef** object.</span></span>
+<span data-ttu-id="3b5c3-126">Une table liée est connectée à la base de données via les propriétés **SourceTableName** et **Connect** de l’objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-126">A linked table is connected to the database by the **SourceTableName** and **Connect** properties of the **TableDef** object.</span></span>
 
-### <a name="to-link-a-table-to-a-database"></a><span data-ttu-id="c2646-127">Pour lier une table à une base de données</span><span class="sxs-lookup"><span data-stu-id="c2646-127">To link a table to a database</span></span>
+### <a name="to-link-a-table-to-a-database"></a><span data-ttu-id="3b5c3-127">Pour lier une table à une base de données</span><span class="sxs-lookup"><span data-stu-id="3b5c3-127">To link a table to a database</span></span>
 
-1.  <span data-ttu-id="c2646-128">Utilisez la méthode **CreateTableDef** pour créer un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-128">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
+1.  <span data-ttu-id="3b5c3-128">Utilisez la méthode **CreateTableDef** pour créer un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-128">Use the **CreateTableDef** method to create a **TableDef** object.</span></span>
 
-2.  <span data-ttu-id="c2646-129">Définissez les propriétés **Connect** et **SourceTableName** (et éventuellement, la propriété **Attributes** ).</span><span class="sxs-lookup"><span data-stu-id="c2646-129">Set its **Connect** and **SourceTableName** properties (and optionally, its **Attributes** property).</span></span>
+2.  <span data-ttu-id="3b5c3-129">Définissez les propriétés **Connect** et **SourceTableName** (et éventuellement, la propriété **Attributes**).</span><span class="sxs-lookup"><span data-stu-id="3b5c3-129">Set its **Connect** and **SourceTableName** properties (and optionally, its **Attributes** property).</span></span>
 
-3.  <span data-ttu-id="c2646-130">Utilisez la méthode **Append** pour ajouter cet objet à la collection **TableDefs** d'un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="c2646-130">Use the **Append** method to add it to the **TableDefs** collection of a **Database**.</span></span>
+3.  <span data-ttu-id="3b5c3-130">Utilisez la méthode **Append** pour ajouter cet objet à la collection **TableDefs** d’un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-130">Use the **Append** method to add it to the **TableDefs** collection of a **Database**.</span></span>
 
-<span data-ttu-id="c2646-131">Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="c2646-131">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="3b5c3-131">Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :</span><span class="sxs-lookup"><span data-stu-id="3b5c3-131">To refer to a **TableDef** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-<span data-ttu-id="c2646-132">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="c2646-132">**TableDefs**(0)</span></span>
+<span data-ttu-id="3b5c3-132">**TableDefs**(0)</span><span class="sxs-lookup"><span data-stu-id="3b5c3-132">**TableDefs**(0)</span></span>
 
-<span data-ttu-id="c2646-133">**TableDefs** (« nom »)</span><span class="sxs-lookup"><span data-stu-id="c2646-133">**TableDefs**("name")</span></span>
+<span data-ttu-id="3b5c3-133">**TableDefs**("nom")</span><span class="sxs-lookup"><span data-stu-id="3b5c3-133">TableDefs![name]</span></span>
 
-<span data-ttu-id="c2646-134">**TableDefs**\!\[nom\]</span><span class="sxs-lookup"><span data-stu-id="c2646-134">**TableDefs**\!\[name\]</span></span>
+<span data-ttu-id="3b5c3-134">**TableDefs**\!\[nom\]</span><span class="sxs-lookup"><span data-stu-id="3b5c3-134">**TableDefs**![\!name\]]</span></span>
 
-## <a name="example"></a><span data-ttu-id="c2646-135">Exemple</span><span class="sxs-lookup"><span data-stu-id="c2646-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3b5c3-135">Exemple</span><span class="sxs-lookup"><span data-stu-id="3b5c3-135">Example</span></span>
 
-<span data-ttu-id="c2646-p103">Cet exemple crée un objet **TableDef** et l'ajoute à la collection **TableDefs** de l'objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="c2646-p103">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
+<span data-ttu-id="3b5c3-p103">Cet exemple crée un objet **TableDef** et l’ajoute à la collection **TableDefs** de l’objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-p103">This example creates a new **TableDef** object and appends it to the **TableDefs** collection of the Northwind Database object. It then enumerates the **TableDefs** collection and the **Properties** collection of the new **TableDef**.</span></span>
 
 ```vb
     Sub TableDefX() 
@@ -130,7 +131,7 @@ ms.locfileid: "25927367"
 
 <br/>
 
-<span data-ttu-id="c2646-138">Cet exemple crée un objet **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="c2646-138">This example creates a new **TableDef** object in the Northwind database.</span></span>
+<span data-ttu-id="3b5c3-138">Cet exemple crée un objet **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-138">This example creates a new **TableDef** object in the Northwind database.</span></span>
 
 ```vb 
 Sub CreateTableDefX() 
@@ -193,9 +194,9 @@ Sub CreateTableDefX()
 
 <br/>
 
-<span data-ttu-id="c2646-p104">L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.</span><span class="sxs-lookup"><span data-stu-id="c2646-p104">The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.</span></span>
+<span data-ttu-id="3b5c3-p104">L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.</span><span class="sxs-lookup"><span data-stu-id="3b5c3-p104">The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.</span></span>
 
-<span data-ttu-id="c2646-142">**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="c2646-142">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="3b5c3-142">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="3b5c3-142">**Sample code provided by:** The [Microsoft Access 2010 Programmer's Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125)</span></span>
 
 ```vb
     Sub CreateCalculatedField()
