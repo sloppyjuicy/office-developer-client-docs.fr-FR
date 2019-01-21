@@ -6,32 +6,33 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
-ms.openlocfilehash: 2670dadade6e934a1696251867d8ea67e8bbfc53
-ms.sourcegitcommit: d7248f803002b31cf7fc561b03530199a9b0a8fd
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 6e1182427c688e7c8b5ca53c1f5f4bb208b3609a
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/02/2018
-ms.locfileid: "25927367"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726343"
 ---
 # <a name="tabledef-object-dao"></a>Objet TableDef (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Un objet **TableDef** représente la définition stockée d'une table de base ou d'une table liée (espaces de travail Microsoft Access uniquement).
+Un objet **TableDef** représente la définition stockée d’une table de base ou d’une table liée (espaces de travail Microsoft Access uniquement).
 
 ## <a name="remarks"></a>Remarques
 
-Vous manipulez une définition de table à l'aide d'un objet **TableDef**, de ses méthodes et de ses propriétés. Par exemple, vous pouvez :
+Vous manipulez une définition de table à l’aide d’un objet **TableDef**, de ses méthodes et de ses propriétés. Par exemple, vous pouvez :
 
-- Examiner la structure de champ et d'index d'une table locale, liée ou externe dans une base de données.
+- Examiner la structure de champ et d’index d’une table locale, liée ou externe dans une base de données.
 
 - Utiliser les propriétés **Connect** et **SourceTableName** pour définir ou renvoyer des informations sur les tables liées et utiliser la méthode **RefreshLink** pour mettre à jour les connexions aux tables liées.
 
 - Utiliser les propriétés **ValidationRule** et **ValidationText** pour définir ou renvoyer les conditions de validation.
 
-- Utilisez la méthode **OpenRecordset** pour créer une table, feuille de réponse dynamique, dynamique, instantané ou objet **Recordset** de type avant uniquement, en fonction de la définition de table.
+- Utiliser la méthode **OpenRecordset** pour créer un objet **Recordset** de type table, feuille à réponse dynamique, capture instantanée ou transfert uniquement en fonction de la définition de table.
 
-Pour les tables de base, la propriété **RecordCount** contient le nombre d'enregistrements dans la table de base de données spécifiée. Tables liées, **la propriété RecordCount** est toujours -1.
+Pour les tables de base, la propriété **RecordCount** contient le nombre d’enregistrements de la table de base de données spécifiée. Pour les tables liées, le paramètre de la propriété **RecordCount** est toujours –1.
 
 Pour créer un objet **TableDef**, utilisez la méthode **[CreateTableDef](database-createtabledef-method-dao.md)**.
 
@@ -39,11 +40,11 @@ Pour créer un objet **TableDef**, utilisez la méthode **[CreateTableDef](datab
 
 1.  Assurez-vous que les objets **[Recordset](recordset-object-dao.md)** basés sur la table sont tous fermés.
 
-2.  Utilisez la méthode **CreateField** pour créer une variable d'objet **Field** et définir ses propriétés.
+2.  Utilisez la méthode **CreateField** pour créer une variable d’objet **Field** et définir ses propriétés.
 
-3.  Utilisez la méthode **Append** pour ajouter l'objet **Field** à la collection **Fields** de l'objet **TableDef**.
+3.  Utilisez la méthode **Append** pour ajouter l’objet **Field** à la collection **Fields** de l’objet **TableDef**.
 
-Vous pouvez supprimer un objet **Field** à partir d'une collection **TableDefs** si aucun index ne lui est attribué, mais vous perdrez les données du champ.
+Vous pouvez supprimer un objet **Field** à partir d’une collection **TableDefs** si aucun index ne lui est attribué, mais vous perdrez les données du champ.
 
 ### <a name="to-create-a-table-that-is-ready-for-new-records-in-a-database"></a>Pour créer une table prête pour de nouveaux enregistrements dans une base de données
 
@@ -51,33 +52,33 @@ Vous pouvez supprimer un objet **Field** à partir d'une collection **TableDefs*
 
 2.  Définissez ses propriétés.
 
-3.  Pour chaque champ de la table, utilisez la méthode **CreateField** pour créer une variable d'objet **Field** et définir ses propriétés.
+3.  Pour chaque champ de la table, utilisez la méthode **CreateField** pour créer une variable d’objet **Field** et définir ses propriétés.
 
-4.  Utilisez la méthode **Append** pour ajouter les champs à la collection **Fields** de l'objet **TableDef**.
+4.  Utilisez la méthode **Append** pour ajouter les champs à la collection **Fields** de l’objet **TableDef**.
 
-5.  Utilisez la méthode **Append** pour ajouter le nouvel objet **TableDef** à la collection **TableDefs** de l'objet **Database**.
+5.  Utilisez la méthode **Append** pour ajouter le nouvel objet **TableDef** à la collection **TableDefs** de l’objet **Database**.
 
-Une table liée est connectée à la base de données via les propriétés **SourceTableName** et **Connect** de l'objet **TableDef**.
+Une table liée est connectée à la base de données via les propriétés **SourceTableName** et **Connect** de l’objet **TableDef**.
 
 ### <a name="to-link-a-table-to-a-database"></a>Pour lier une table à une base de données
 
 1.  Utilisez la méthode **CreateTableDef** pour créer un objet **TableDef**.
 
-2.  Définissez les propriétés **Connect** et **SourceTableName** (et éventuellement, la propriété **Attributes** ).
+2.  Définissez les propriétés **Connect** et **SourceTableName** (et éventuellement, la propriété **Attributes**).
 
-3.  Utilisez la méthode **Append** pour ajouter cet objet à la collection **TableDefs** d'un objet **Database**.
+3.  Utilisez la méthode **Append** pour ajouter cet objet à la collection **TableDefs** d’un objet **Database**.
 
-Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
+Pour faire référence à un objet **TableDef** dans une collection par son nombre ordinal ou par son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
 **TableDefs**(0)
 
-**TableDefs** (« nom »)
+**TableDefs**("nom")
 
 **TableDefs**\!\[nom\]
 
 ## <a name="example"></a>Exemple
 
-Cet exemple crée un objet **TableDef** et l'ajoute à la collection **TableDefs** de l'objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.
+Cet exemple crée un objet **TableDef** et l’ajoute à la collection **TableDefs** de l’objet de la base de données Northwind. Il énumère ensuite les collections **TableDefs** et **Properties** du nouvel objet **TableDef**.
 
 ```vb
     Sub TableDefX() 
@@ -195,7 +196,7 @@ Sub CreateTableDefX()
 
 L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()
