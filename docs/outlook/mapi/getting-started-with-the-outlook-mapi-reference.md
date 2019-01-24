@@ -1,44 +1,44 @@
 ---
-title: Mise en route avec la référence MAPI Outlook
+title: Mise en route avec la référence MAPI pour Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
-description: La référence de Microsoft Outlook MAPI (Messaging API) explique comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Outlook 2016.
-ms.openlocfilehash: f8603c2aff1d2647ff3b02cafc4760aa7f00392c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: La référence Messaging API (MAPI) Microsoft Outlook décrit comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Microsoft Outlook 2016.
+localization_priority: Priority
+ms.openlocfilehash: 879495949423de7ebfe01ba584adc91ce387ef97
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577085"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28718265"
 ---
-# <a name="getting-started-with-the-outlook-mapi-reference"></a>Mise en route avec la référence MAPI Outlook
+# <a name="getting-started-with-the-outlook-mapi-reference"></a>Mise en route avec la référence MAPI pour Outlook
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La référence de Microsoft Outlook MAPI (Messaging API) explique comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Outlook 2016. Cette section décrit comment trouver les différents référence et conceptuels ressources dans la référence MAPI Outlook.
+La référence Messaging API (MAPI) Microsoft Outlook décrit comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Microsoft Outlook 2016. Cette section explique comment rechercher la référence et les ressources conceptuelles différentes dans la référence MAPI Outlook.
   
 Si vous débutez en tant que développeur de solutions pour Outlook, consultez [Sélection d'une API ou d'une technologie pour développer des solutions pour Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) pour identifier les API et technologies les plus adaptées à vos besoins. 
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Vue d’ensemble de référence Outlook MAPI](outlook-mapi-reference-overview.md): fournit des informations générales sur la référence MAPI Outlook.
+- [Vue d’ensemble de la référence MAPI Outlook](outlook-mapi-reference-overview.md) : fournit des informations générales sur la référence MAPI Outlook.
     
-- [Nouveautés de cette édition](what-s-new-in-this-edition.md): décrit les mises à jour dans la version d’Outlook 2013 de la référence de MAPI.
+- [Nouveautés de cette édition](what-s-new-in-this-edition.md) : décrit les mises à jour dans la version Outlook 2013 de la référence MAPI.
     
-- [Les fichiers d’en-tête utilisé](commonly-used-header-files.md): fournit une liste des fichiers d’en-tête MAPI qui utilisent couramment des développeurs.
+- [Fichiers d’en-tête couramment utilisés](commonly-used-header-files.md) : fournit une liste des fichiers d’en-tête MAPI que les développeurs utilisent couramment.
     
-- [Les propriétés couramment utilisés](commonly-used-properties.md): décrit où trouver la documentation pour les propriétés obligatoires et facultatifs.
+- [Propriétés couramment utilisées](commonly-used-properties.md) : décrit où trouver la documentation pour les propriétés obligatoires et facultatives.
     
-- [Objets couramment utilisés](commonly-used-objects.md): explique comment trouver des informations sur les interfaces et les objets MAPI.
+- [Objets couramment utilisés](commonly-used-objects.md) : explique comment trouver des informations sur les interfaces et les objets MAPI.
     
-- [API éléments déconseillée dans cette édition](api-elements-deprecated-in-this-edition.md): décrit les propriétés qui ne doivent pas être utilisées dans la version actuelle de MAPI.
+- [Éléments d’API obsolètes dans cette édition](api-elements-deprecated-in-this-edition.md) : décrit les propriétés qui ne doivent pas être utilisées dans la version actuelle de MAPI.
     
-## <a name="related-sections"></a>Sections associ�es
+## <a name="related-sections"></a>Sections connexes
 
 - [Exemples MAPI (en anglais)](mapi-samples.md) 
-- [Concepts MAPI (en anglais)](mapi-concepts.md)
-- [R�f�rence MAPI (en anglais)](mapi-reference.md)
+- [Concepts MAPI](mapi-concepts.md)
+- [Référence MAPI](mapi-reference.md)
   
 

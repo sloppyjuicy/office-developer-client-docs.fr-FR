@@ -1,52 +1,52 @@
 ---
-title: Format de fichier du fichier MapiSvc.inf
+title: Format de fichier de MapiSvc.inf
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 726d424b6cf8d3141b36c3b61a38a6928277ec2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567173"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28700384"
 ---
-# <a name="file-format-of-mapisvcinf"></a>Format de fichier du fichier MapiSvc.inf
+# <a name="file-format-of-mapisvcinf"></a>Format de fichier de MapiSvc.inf
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La base de données centrale pour les informations de configuration de service de message MAPI joue le rôle du fichier MapiSvc.inf. MapiSvc.inf contient des informations sur chacun des services message installés sur la station de travail, plus d’informations sur les fournisseurs de services qui appartiennent à chaque service de message et des informations sur le sous-système MAPI. MapiSvc.inf est la source principale des informations de profils. Autrement dit, lors de la génération d’un nouveau profil ou un modifié, les informations pertinentes pour chaque service de message ou fournisseur de services est copié à partir du fichier MapiSvc.inf. 
+Le fichier MapiSvc.inf agit comme la base de données centrale pour les informations de configuration du service de messagerie MAPI. MapiSvc.inf contient des informations sur chacun des services de messagerie installés sur les stations de travail, les informations sur les fournisseurs de services appartenant à chaque service de messagerie et les informations sur le sous-système MAPI. MapiSvc.inf est la source principale d’informations pour les profils. Autrement dit, quand un nouveau profil est créé ou qu’un profil existant est modifié, des informations pertinentes pour chaque service de messagerie ou fournisseur de services sont copiées à partir de MapiSvc.inf. 
   
-MapiSvc.inf est divisée en sections hiérarchiques liées :
+MapiSvc.inf est divisé en sections hiérarchiques liées :
   
-1. Section contenant des informations qui s’applique à tous les profils. Cette section comporte trois parties :
+1. Section contenant des informations qui s’applique à tous les profils. Cette section se compose de trois parties :
     
-   - Section **[services]** , fournissant des liens vers chaque le message suivant sections de service. 
+   - Section **[Services]** fournissant des liens vers chacune des sections de service de messagerie suivantes. 
     
-   - **[Help File Mappings]** section, contenant des informations sur. Fichiers HLP fournis par les services de messagerie. 
+   - Section **[Help File Mappings] ** contenant des informations relatives aux fichiers .HLP fournis par les services de messagerie. 
     
-   - Section **[Services par défaut]** , répertoriant les services de messagerie qui composent une installation par défaut. 
+   - Section **[Default Services] ** répertoriant les services de messagerie qui composent une installation par défaut. 
     
-2. Section contenant des informations qui s’applique aux services de messagerie spécifique. Entrées dans les sections suivantes fournissent des liens vers des sections de fournisseur de service suivantes.
+2. Section contenant des informations qui s’appliquent aux services de messagerie individuels. Les entrées de ces sections fournissent des liens vers les sections de fournisseur de services suivantes.
     
-3. Section contenant des informations qui s’applique aux fournisseurs de services individuels dans un service de message.
+3. Section contenant des informations qui s’appliquent aux fournisseurs de services individuels dans un service de messagerie.
     
-L’illustration suivante montre l’organisation du fichier MapiSvc.inf classique. Il existe trois services de messagerie : AB, MsgService et MS. Le nom sur le côté droit du signe égal pour chaque service de message est le nom d’affichage du service. Chaque service de message possède sa propre section ailleurs dans le fichier qui est lié à une ou plusieurs sections de fournisseur de service. Il existe une section de fournisseur de service pour chaque fournisseur de service qui appartient au service de message. Les carnet d’adresses et MS message services sont fournisseur unique tandis que les trois fournisseurs de services appartiennent au service MsgService.
+L’illustration suivante montre l’organisation d’un fichier MapiSvc.inf classique. Il existe trois services de messagerie : AB, MsgService et MS. Le nom situé à droite du signe égal pour chaque service de messagerie est le nom d’affichage du service. Chaque service de messagerie possède sa propre section quelque part dans le fichier qui est liée à une ou plusieurs sections de fournisseur de services. Il existe une section de fournisseur de service pour chaque fournisseur de services lié au service de messagerie. Les services de messagerie AB et MS sont des services de fournisseur unique tandis que le service MsgService comprend trois fournisseurs de services.
   
 **Organisation du fichier MapiSvc.inf**
   
-![Organisation du fichier MapiSvc.inf] (media/amapi_30.gif "Organisation du fichier MapiSvc.inf")
+![Organisation des fichiers MapiSvc.inf](media/amapi_30.gif "organisation fichier MapiSvc.inf")
   
-MAPI fournit une version de base du fichier MapiSvc.inf qui contient les entrées pour le sous-système MAPI. Chaque implémentation de service de message ajoute des entrées qui conviennent à la fois pour leur service et les fournisseurs de services qui appartiennent à leur service. Certaines entrées sont requis pendant que d’autres sont facultatifs. Par exemple, MAPI nécessite que vous spécifiez le nom et le chemin d’accès de chacun des fournisseurs de services dans votre service de message. Sans ces informations, ils ne peuvent pas être chargés.
+MAPI fournit une version squelette du fichier MapiSvc.inf contenant les entrées du sous-système MAPI. Chaque intervenant du service de messagerie ajoute des entrées adaptées à la fois pour leur service et les fournisseurs de services appartenant à leur service. Certaines des entrées sont requises alors que d’autres sont facultatives. Par exemple, MAPI nécessite que vous spécifiiez le nom et le chemin d’accès de chacun des fournisseurs de services dans votre service de messagerie. Sans ces informations, les fournisseurs de services ne peuvent pas être chargés.
   
-Vous pouvez ajouter des informations obligatoires et facultatifs dans la section de votre service de message et/ou les sections de fournisseur de service. Où placer les informations de votre service de message dépend du nombre de fournisseurs de services dans le service. Étant donné que ces informations s’appliquent à chaque fournisseur de services dans le service, vous devez le rendre accessible à tous les fournisseurs. Stocker dans la section service de message, l’option par défaut, ou dans toutes les sections de fournisseur de service. Stocker les informations une fois pour éviter les réplications inutiles et la nécessité de conserver plusieurs copies synchronisés.
+Vous pouvez ajouter des informations obligatoires et facultatives dans la section de votre service de messagerie ou les sections de fournisseur de services. L’emplacement de stockage des informations décrivant votre service de messagerie dépend du nombre de fournisseurs de services existants dans le service. Étant donné que ces informations s’appliquent à chaque fournisseur de services existants dans le service, vous devez les rendre accessibles à tous les fournisseurs. Stockez-les dans la section de service de messagerie, l’option par défaut, ou dans toutes les sections de fournisseur de services. Stockez les informations une fois pour éviter toute duplication inutile et ne pas conserver des copies multiples synchronisées.
   
-Si votre service de message est un service de fournisseur unique, stocker toutes les informations de service de message dans la section pour le fournisseur de services plutôt que dans la section pour le service. Accès à la section fournisseur de service est plus rapide et plus directe que l’accès à la section service de message. 
+Si votre service de messagerie est un service de fournisseur unique, stockez toutes les informations de service de messagerie dans la section du fournisseur de services plutôt que dans la section du service. Accéder à la section du fournisseur de services est plus rapide et plus direct qu’accéder à la section du service de messagerie. 
   
-Stocker uniquement les données de configuration public dans le fichier MapiSvc.inf. Informations privé ou requiert une protection supplémentaire, tels que les mots de passe ou d’autres informations d’identification, ne doivent pas être incluses dans ce fichier. Adhésion au lieu de cela, pas pour stocker les informations de ce type tout ou conserver dans le profil en tant que propriétés sécurisées. Propriétés sécurisées ont des fonctionnalités de protection intégrés tels que le chiffrement.
+Dans le fichier MapiSvc.inf, ne stockez que les données de configuration publiques. Les informations privées ou qui nécessitent une protection supplémentaire, comme les mots de passe ou d’autres informations d’identification, ne devraient pas être incluses dans ce fichier. Au lieu de cela, choisissez de ne pas stocker les informations de ce type ou de les conserver dans le profil en tant que propriétés sécurisées. Les propriétés sécurisées offrent des fonctionnalités de protection intégrées telles que le chiffrement.
   
 

@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
-description: 'Dernière modification : 12 mars 2013'
-ms.openlocfilehash: 8550963a50ea2475a3f5a6869264eb714eef6b5a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: Dernière modification le 12 mars 2013
+localization_priority: Priority
+ms.openlocfilehash: d08e0526035010d5eaf272dfa9b3311c7aeda6c0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585401"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719310"
 ---
 # <a name="mapi-properties"></a>Propriétés MAPI
 
@@ -23,13 +23,13 @@ ms.locfileid: "22585401"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette section contient des propriétés canoniques qui sont prises en charge par Microsoft Outlook MAPI (Messaging API). Chaque propriété canonique correspond à une ou plusieurs propriétés MAPI associées. Pour plus d’informations sur les propriétés canoniques, voir [Propriétés canonique MAPI](mapi-canonical-properties.md). Pour obtenir une explication générale du fonctionne de MAPI avec les propriétés et une liste des propriétés disponibles pour chaque objet, voir [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md). Pour plus d’informations sur les macros associées aux propriétés, voir la page de référence de la structure [SPropValue](spropvalue.md) . Pour une liste complète des propriétés MAPI et leurs mappages de noms de propriété canonique, voir [Mappage de noms MAPI pour les noms de propriété canonique](mapping-mapi-names-to-canonical-property-names.md) et le [Mappage de noms de propriété canonique aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md). 
+Cette section contient les propriétés canoniques prises en charge par Messaging API (MAPI) Microsoft Outlook. Chaque propriété canonique correspond à une ou plusieurs propriétés MAPI associées. Pour plus d’informations sur les propriétés canoniques, consultez l’article [Propriétés canoniques MAPI](mapi-canonical-properties.md). Pour obtenir une explication générale du fonctionnement de MAPI avec les propriétés et connaître la liste des propriétés disponibles pour chaque objet, consultez l’article [Vue d’ensemble des propriétés MAPI](mapi-property-overview.md). Pour plus d’informations sur les macros liées aux propriétés, consultez la page de référence pour la structure [SPropValue](spropvalue.md). Pour obtenir la liste complète des propriétés MAPI et le mappage de leurs noms aux noms de propriétés canoniques, consultez les articles [Mappage des noms MAPI aux noms de propriétés canoniques](mapping-mapi-names-to-canonical-property-names.md) et [Mappage des noms de propriétés canoniques aux noms MAPI](mapping-canonical-property-names-to-mapi-names.md). 
   
-Remarque : Contrairement aux membres de tableaux variants OLE, tous les membres d’un tableau de la propriété à valeurs multiples MAPI sont du même type. 
+Remarque : contrairement aux membres des tableaux de variantes OLE, tous les membres d’un tableau de propriétés à valeurs multiples MAPI sont du même type. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[R�f�rence MAPI (en anglais)](mapi-reference.md)
+[Référence MAPI](mapi-reference.md)
 

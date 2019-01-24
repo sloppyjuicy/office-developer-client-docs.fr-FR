@@ -5,29 +5,29 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
-description: Documente l’éléments de programmation de MAPI.
-ms.openlocfilehash: a3f489754eb06792c64cc271a5f1dc8e43c842a3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: MT
+description: Décrit les éléments de programmation MAPI.
+localization_priority: Priority
+ms.openlocfilehash: 9489343e1ea88aa51bdf09ee5b705a9cfa59fafa
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585912"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28714234"
 ---
 # <a name="mapi-reference"></a>Référence MAPI
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette section décrit l’éléments de programmation de MAPI.
+Cette section décrit les éléments de programmation MAPI.
   
 ## <a name="in-this-section"></a>Dans cette section
 
 - [Interfaces MAPI](mapi-interfaces.md)
     
-- [Fonctions MAPI, les rappels et les Macros](mapi-functions-callbacks-and-macros.md)
+- [Fonctions, rappels et macros MAPI](mapi-functions-callbacks-and-macros.md)
     
 - [Propriétés MAPI](mapi-properties.md)
     
@@ -37,11 +37,11 @@ Cette section décrit l’éléments de programmation de MAPI.
     
 - [Types de données MAPI](mapi-data-types.md)
     
-## <a name="related-sections"></a>Sections associées
+## <a name="related-sections"></a>Sections connexes
 
 - [Référence MAPI Outlook](outlook-mapi-reference.md) 
 - [Mise en route avec la référence de MAPI pour Outlook 2013](getting-started-with-the-outlook-mapi-reference.md)
 - [Exemples MAPI (en anglais)](mapi-samples.md)
-- [Concepts MAPI (en anglais)](mapi-concepts.md)
+- [Concepts MAPI](mapi-concepts.md)
   
 

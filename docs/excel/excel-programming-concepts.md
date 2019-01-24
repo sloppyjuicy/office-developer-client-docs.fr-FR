@@ -1,34 +1,34 @@
 ---
-title: Concepts de la programmation Excel
+title: Concepts de programmation Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- concepts d’Excel, de programmation d’Excel
-localization_priority: Normal
+- Programmation Excel, concepts Excel
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 9a8598aeaf92a3f6950b6baa809cdcc071516bce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+localization_priority: Priority
+ms.openlocfilehash: 13f99e3d4154516071fe42dcb27beb944ce384f4
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782053"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28719651"
 ---
-# <a name="excel-programming-concepts"></a>Concepts de la programmation Excel
+# <a name="excel-programming-concepts"></a>Concepts de programmation Excel
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cette section fournit des informations sur Excel commandes et les fonctions, les États Excel, feuille de calcul et expression d’évaluation, active ou la feuille de calcul active et des références de feuille de calcul.
+Cette section fournit des informations sur les commandes et les fonctions Excel, les états Excel, la feuille de calcul et l’évaluation des expressions, la feuille de calcul active ou actuelle et les références de feuille de calcul.
   
 ## <a name="in-this-section"></a>Dans cette section
 
-[Commandes, fonctions et états Excel](excel-commands-functions-and-states.md)
+[États, fonctions et commandes Excel](excel-commands-functions-and-states.md)
   
 > 
     
-[Feuille de calcul Excel et d’évaluation d’Expression](excel-worksheet-and-expression-evaluation.md)
+[Feuille de calcul et évaluation des expressions Excel](excel-worksheet-and-expression-evaluation.md)
   
 > 
     
@@ -36,7 +36,7 @@ Cette section fournit des informations sur Excel commandes et les fonctions, les
   
 > 
     
-[Types de donn�es utilis�es par Excel](data-types-used-by-excel.md)
+[Types de données utilisées par Excel](data-types-used-by-excel.md)
   
 > 
     
@@ -46,7 +46,7 @@ Cette section fournit des informations sur Excel commandes et les fonctions, les
     
 ## <a name="related-sections"></a>Sections connexes
 
-[R�f�rence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
   
 > 
     
