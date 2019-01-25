@@ -5,96 +5,96 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- accès au code xll [excel 2007], XLL [Excel 2007], accès au code, commandes [Excel 2007], inscription, fonctions [Excel 2007], l’enregistrement, l’appel XLL à partir d’Excel, inscription commandes [Excel 2007], enregistrement de fonctions [Excel 2007]
-localization_priority: Normal
+- accéder au code xll [Excel 2007], XLL [Excel 2007] accéder au code, commandes [Excel 2007], inscription, fonctions [Excel 2007], inscription, appel des XLL à partir d’Excel, inscription de commandes [Excel 2007], inscription de fonctions [Excel 2007]
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 1523f9e8213cb955f1bfd995c42f921b001299fe
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+localization_priority: Priority
+ms.openlocfilehash: d1332b0dffc052404c75c4ec51d94879457c3da0
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782014"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28705280"
 ---
 # <a name="accessing-xll-code-in-excel"></a>Accès au code XLL dans Excel
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pour être accessibles dans Microsoft Excel, les fonctions et les commandes qui contient un XLL :
+Pour être accessibles dans Microsoft Excel, les fonctions et les commandes contenues dans un XLL :
   
-- Doivent être exportées par la XLL.
+- doivent être exportées par le XLL ;
     
-- Doit être enregistré avec Excel.
+- doivent être inscrites avec Excel.
     
-## <a name="registering-functions-and-commands-with-excel"></a>Inscription des fonctions et les commandes dans Excel
+## <a name="registering-functions-and-commands-with-excel"></a>Inscription de fonctions et de commandes avec Excel
 
-Enregistrement indique à Excel ce qui suit sur un point d’entrée DLL :
+L’inscription indique à Excel les points suivants concernant un point d’entrée DLL :
   
-- Si elle est masquée ou, si une fonction, si elle est visible dans l’Assistant fonction.
+- S’il est masqué ou, s’il s’agit d’une fonction, si elle est visible dans l’Assistant Fonction.
     
-- Il est ou non être appelée uniquement à partir d’une feuille de macro XLM ou à partir d’une feuille de calcul.
+- S’il peut être appelé uniquement à partir d’une feuille macro XLM ou à partir d’une feuille de calcul également.
     
-- Si une commande, si elle est une fonction de feuille de calcul ou une fonction équivalents de feuille macro.
+- S’il s’agit d’une commande, si c’est une fonction de feuille de calcul ou une fonction équivalente à une feuille macro.
     
-- Quel est son nom d’exportation DLL ou XLL et le nom que vous souhaitez utiliser.
+- Son nom d’exportation XLL/DLL et le nom qu’Excel doit utiliser.
     
 - S’il s’agit d’une fonction :
     
-  - Quelles données types de retours et prend comme arguments.
+  - Quels types de données elle renvoie et prend comme arguments.
     
   - Si elle renvoie son résultat en modifiant un argument en place.
     
   - Si elle est volatile.
     
-  - Si elle est thread-safe (commençant pris en charge dans Excel 2007).
+  - Si elle est thread-safe (pris en charge à partir d’Excel 2007).
     
-  - Quel éditeur de saisie semi-automatique et de l’Assistant fonction Coller de texte doivent s’afficher pour contribuer à l’appel de la fonction.
+  - Le texte que l’Assistant Coller une fonction et l’éditeur de saisie semi-automatique doivent afficher pour appeler la fonction.
     
-  - Fonction catégorie, qu'elle doit être répertoriée sous.
+  - Sous quelle catégorie de fonction elle doit être répertoriée.
     
-Tout cela à l’aide de l’API C fonction [xlfRegister](xlfregister-form-1.md), équivalente à la fonction XLM **inscrire**.
+Tout ceci est réalisé à l’aide de la fonction API C [xlfRegister](xlfregister-form-1.md), équivalente à la fonction XLM **REGISTER**.
   
-## <a name="calling-xll-functions-directly-from-excel"></a>Appel de fonctions XLL directement à partir d’Excel
+## <a name="calling-xll-functions-directly-from-excel"></a>Appel des fonctions XLL directement à partir d’Excel
 
-Une fois qu’ils sont enregistrés, fonctions de feuille de macro et de feuille de calcul XLL peuvent être appelées à partir de n’importe où de qu'une fonction intégrée peut être appelée à partir :
+Une fois qu’elles sont inscrites, les fonctions de feuille de calcul et de feuille macro XLL peuvent être appelées de tout emplacement d’où une fonction intégrée peut être appelée :
   
-- Une formule de cellule unique ou un tableau dans une feuille de calcul.
+- Une formule à cellule unique ou de tableau sur une feuille de calcul.
     
-- Une formule de cellule unique ou un tableau dans une feuille macro.
+- Une formule à cellule unique ou de tableau sur une feuille macro.
     
 - La définition d’un nom défini.
     
-- Les champs condition et limite dans une boîte de dialogue Mise en forme conditionnelle.
+- Les champs de condition et de limite dans une boîte de dialogue de mise en forme conditionnelle.
     
-- À partir d’un autre complément par le biais de l’API C fonctionner [xlUDF](xludf.md).
+- À partir d’un autre complément via la fonction API C [xlUDF](xludf.md).
     
-- À partir de Visual Basic pour Applications (VBA) via la méthode **application.Run appropriée** . 
+- À partir de Visual Basic for Applications (VBA) via la méthode **Application.Run**. 
     
-Vous pouvez obtenir une référence à la cellule ou plage de cellules appelant au sein de votre fonction à l’aide de la fonction de API C **xlfCaller**. Si la fonction a été appelée à partir de l’expression de mise en forme conditionnelle de la cellule, vous revenez toujours une référence à la cellule associée ou les cellules, afin que vous ne pouvez pas supposer que la formule de cellule contient la fonction XLL. Si la fonction a été appelée à partir d’une fonction définie par l’utilisateur VBA (UDF), **xlfCaller** renvoie à nouveau l’adresse des cellules qui a appelé la fonction VBA. Pour plus d’informations, voir [xlfCaller](xlfcaller.md).
+Vous pouvez obtenir une référence à la cellule ou à la plage de cellules d’appel dans votre fonction à l’aide de la fonction API C **xlfCaller**. Si la fonction a été appelée à partir de l’expression de mise en forme conditionnelle de la cellule, une référence à la cellule ou aux cellules associée(s) vous est renvoyée, donc vous ne pouvez pas considérer que la formule de la cellule contient la fonction XLL. Si votre fonction a été appelée à partir d’une fonction VBA définie par l’utilisateur (UDF), **xlfCaller** renvoie l’adresse des cellules qui ont appelé la fonction VBA. Pour plus d'informations, consultez [xlfCaller](xlfcaller.md).
   
 > [!NOTE]
-> Excel appelle également le code de la fonction XLL dans les boîtes de dialogue **Assistant fonction de collage** et **Remplacer** . Vous devrez peut-être restreindre de votre code normal en cours d’exécution dans le cas de la boîte de dialogue **Arguments de la fonction Coller** , en particulier où votre fonction peut prendre beaucoup de temps à exécuter. Pour détecter si votre fonction est appelée à partir d’une de ces boîtes de dialogue, vous devez implémenter du code dans votre projet qui parcourt toutes les fenêtres ouvertes pour déterminer si la fenêtre frontal est une de ces boîtes de dialogue et, le cas échéant, laquelle. 
+> Excel appelle également le code de fonction XLL à partir de l’**Assistant Coller une fonction** et des boîtes de dialogue **Remplacer**. Vous devrez peut-être restreindre l’exécution normale de votre code dans le cas de la boîte de dialogue des **arguments Coller une fonction**, notamment lorsque l’exécution de votre fonction peut être longue. Pour détecter si votre fonction est appelée à partir de ces boîtes de dialogue, vous devez implémenter du code dans votre projet qui se reproduit dans toutes les fenêtres ouvertes pour déterminer si la première fenêtre est l’une de ces boîtes de dialogue et, si c’est le cas, laquelle. 
   
-## <a name="calling-xll-commands-directly-from-excel"></a>Appeler des commandes XLL directement à partir d’Excel
+## <a name="calling-xll-commands-directly-from-excel"></a>Appel de commandes XLL directement à partir d’Excel
 
-Une fois qu’ils sont enregistrés, commandes XLL peuvent être appelées dans toutes les méthodes que les autres macros définies par l’utilisateur peuvent être appelées :
+Une fois qu’elles sont inscrites, les commandes XLL peuvent être appelées à l’aide de toutes les autres méthodes utilisées pour appeler d’autres macros définies par l’utilisateur :
   
-- Par associé à un objet de contrôle incorporé dans une feuille de calcul.
+- En les associant à un objet de contrôle incorporé sur une feuille de calcul.
     
-- Dans la boîte de dialogue Exécuter une Macro.
+- À partir de la boîte de dialogue Exécuter une macro.
     
-- À partir d’une macro VBA définies par l’utilisateur à l’aide de la méthode **Application.Run** . 
+- À partir d’une macro définie par l’utilisateur VBA à l’aide la méthode **Application.Run**. 
     
-- À partir d’un élément de menu personnalisé ou une barre d’outils.
+- À partir d’un élément de menu personnalisé ou de la barre d’outils.
     
-- À l’aide d’une séquence de touches de raccourci définie lors de l’inscription de la commande.
+- À l’aide d’une combinaison de touches de définie lors de l’inscription de la commande.
     
-- La commande à exécuter lorsqu’un événement spécifié est interceptée.
+- En tant que commande à exécuter lorsqu’un événement spécifié est bloqué.
     
 > [!NOTE]
-> Commandes XLL sont masquées en ce sens qu’ils n’apparaissent pas dans la liste des macros disponibles dans les boîtes de dialogue Excel. Mais ils peuvent être entrés manuellement dans le champ nom de macro. Excel suppose que le nom enregistré en tant que ces boîtes de dialogue, pas le nom d’exportation de la DLL. 
+> Les commandes XLL sont masquées dans le sens où elles n’apparaissent pas dans la liste des macros disponibles dans les boîtes de dialogue Excel. Cependant, elles peuvent être entrées manuellement dans le champ du nom de la macro. Dans Excel, le nom sous lequel la commande a été inscrite doit être entré dans ces boîtes de dialogue, et non le nom d’exportation DLL. 
   
-Toutes les commandes XLL auprès d’Excel sont utilisés par Microsoft Excel pour être sous la forme suivante :
+Toutes les commandes XLL inscrites avec Excel sont considérées par Excel comme étant de la forme suivante :
   
 ```cs
 short WINAPI xll_cmd_name(void)
@@ -105,18 +105,18 @@ short WINAPI xll_cmd_name(void)
 
 ```
 
-[!REMARQUE] Excel ignore la valeur de renvoi, sauf si elle est appel�e � partir d�une feuille macro XLM, auquel cas la valeur de retour est convertie en **TRUE** ou **FALSE**. Vous devez par cons�quent renvoyer 1 si votre commande a �t� ex�cut�e correctement, et 0 si elle a �chou� ou a �t� annul�e par l�utilisateur.
+Excel ignore la valeur de renvoi, sauf si elle est appel�e � partir d�une feuille macro XLM, auquel cas la valeur de retour est convertie en **TRUE** ou **FALSE**. Vous devez par cons�quent renvoyer 1 si votre commande a �t� ex�cut�e correctement, et 0 si elle a �chou� ou a �t� annul�e par l�utilisateur.
   
-Vous pouvez obtenir des informations sur la façon dont votre commande a été appelée à l’aide de l’API C fonctionner **xlfCaller**. Pour plus d’informations, voir [xlfCaller](xlfcaller.md).
+Vous pouvez obtenir des informations sur la manière dont votre commande a été appelée à l’aide de la fonction API C **xlfCaller**. Pour plus d'informations, consultez [xlfCaller](xlfcaller.md).
   
-À compter d’interface utilisateur d’Excel 2007 est très différent des versions antérieures. Les fonctions API C qui autorisent l’ajout et la suppression des barres de menus, menus, sous-menus, éléments de menu, barres d’outils personnalisées et des boutons de barre d’outils sont toujours pris en charge la plupart des cas. Toutefois, ils peuvent toujours faites pas l’élément ajouté disponibles d’une manière qui connaissent vos utilisateurs. Vous devez vérifier avec soin que toute fonctionnalité ajoutée est toujours accessible ou implémenter une personnalisation spécifique à la version. Démarrage de l’interface utilisateur dans Excel 2007 mieux personnalisé à l’aide d’un module de code managé qui peut ensuite être étroitement à vos commandes XLL.
+À partir d’Excel 2007, l’interface utilisateur est très différente des versions antérieures. Les fonctions API C qui autorisent l’ajout et la suppression de barres de menus, menus, sous-menus, éléments de menu, barres d’outils et boutons de barre d’outils personnalisés sont toujours prises en charge dans la plupart des cas. Toutefois, il se peut qu’elles ne rendent pas toujours disponible l’élément ajouté de la même façon que ce à quoi vos utilisateurs sont habitués. Vous devez vérifier soigneusement que toute fonction ajoutée est toujours accessible, ou implémenter une personnalisation propre à la version. À partir d’Excel 2007, l’interface utilisateur est mieux personnalisée à l’aide d’un module de code managé qui peut être étroitement associé à vos commandes XLL.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Cr�ation de XLL](creating-xlls.md)
-- [Appel des fonctions XLL à partir de l’Assistant fonction ou remplacer des boîtes de dialogue](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
-- [Gestionnaire de compléments et les fonctions de l’Interface XLL](add-in-manager-and-xll-interface-functions.md)
-- [D�veloppement de XLL de Excel 2013](developing-excel-xlls.md)
+- [Création de XLL](creating-xlls.md)
+- [Appel des fonctions XLL à partir de l’Assistant Fonction ou des boîtes de dialogue Remplacer](how-to-call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes.md)
+- [Fonctions du Gestionnaire de compléments et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)
+- [Développement de XLL de Excel](developing-excel-xlls.md)
 
 
 

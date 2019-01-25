@@ -1,114 +1,114 @@
 ---
-title: Commandes, fonctions et états Excel
+title: États, fonctions et commandes Excel
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- États [excel 2007], [Excel 2007] de commandes, fonctions de feuille de calcul [Excel 2007], les fonctions de feuille macro [Excel 2007], États Excel
-localization_priority: Normal
+- états [Excel 2007], commandes [Excel 2007], fonctions de feuille de calcul [Excel 2007], fonctions de feuille macro [Excel 2007], états Excel
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
-description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 60977216663fb2492f425a9b7c855b77815f0e7b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: MT
+description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
+localization_priority: Priority
+ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782048"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28716235"
 ---
-# <a name="excel-commands-functions-and-states"></a>Commandes, fonctions et états Excel
+# <a name="excel-commands-functions-and-states"></a>États, fonctions et commandes Excel
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Microsoft Excel reconnaît deux types de nouvelles fonctionnalités très différents : les fonctions et les commandes.
+Microsoft Excel reconnaît deux types de fonctionnalités ajoutées très différents : les commandes et les fonctions.
   
 ## <a name="commands"></a>Commandes
 
-Dans Excel, les commandes ont les caractéristiques suivantes :
+Dans Excel, les commandes présentent les caractéristiques suivantes :
   
-- Ils permettent d’actions de la même manière que les utilisateurs.
+- Elles effectuent des actions de la même façon que les utilisateurs.
     
-- Ils peuvent faire tout ce qu’un utilisateur peut faire (sujet aux limites de l’interface utilisée), telles que la modification des paramètres d’Excel, l’ouverture, fermeture et modifier des documents, lancement recalculs et ainsi de suite.
+- Elles peuvent faire tout ce qu’un utilisateur peut faire (dans les limites de l’interface utilisée) : changer des paramètres Excel, ouvrir, fermer et modifier des documents, démarrer des recalculs, etc.
     
-- Elles peuvent être définies à appeler lorsque certains événements interceptées se produisent.
+- Elles peuvent être configurées pour être appelées lorsque certains événements bloqués se produisent.
     
-- Ils peuvent afficher des boîtes de dialogue et interagir avec l’utilisateur.
+- Elles peuvent afficher des boîtes de dialogue et interagir avec l’utilisateur.
     
-- Ils peuvent être liés pour contrôler des objets afin qu’ils sont appelées lors de certaines actions sur cet objet, telles que clic gauche.
+- Elles peuvent être liées pour contrôler des objets afin d’être appelées lorsqu’une action est effectuée sur cet objet (clic gauche, par exemple).
     
-- Ils ne sont jamais appelés par Excel pendant le recalcul.
+- Elles ne sont jamais appelés par Excel lors d’un recalcul.
     
-- Elles ne peut pas être appelées par les fonctions pendant un nouveau calcul.
+- Elle ne peuvent pas être appelées par des fonctions lors d’un recalcul.
     
 ## <a name="functions"></a>Fonctions
 
-Fonctions d’Excel procédez comme suit :
+Les fonctions dans Excel présentent les caractéristiques suivantes :
   
-- Ils prennent généralement des arguments et renvoient toujours un résultat.
+- Elles prennent généralement des arguments et renvoient toujours un résultat.
     
-- Ils peuvent être saisis dans une ou plusieurs cellules en tant que partie d’une formule Excel.
+- Elles peuvent être entrées dans une ou plusieurs cellules dans une formule Excel.
     
-- Ils peuvent être utilisés dans les définitions de nom défini.
+- Elles peuvent être utilisées dans des définitions de nom défini.
     
-- Ils peuvent être utilisés dans la limite de mise en forme conditionnelle et d’expressions de seuil.
+- Elles peuvent être utilisées dans la limite de mise en forme conditionnelle et les expressions de seuil.
     
-- Ils peuvent être appelées par les commandes.
+- Elles peuvent être appelées par des commandes.
     
-- Ils ne peuvent pas appeler des commandes.
+- Elles ne peuvent pas appeler de commandes.
     
-Excel établit une distinction supplémentaire entre les fonctions de feuille de calcul défini par l’utilisateur et des fonctions définies par l’utilisateur sont conçues pour fonctionner dans des feuilles macro. Excel ne limite pas les fonctions de feuille macro définie par l’utilisateur uniquement à utilisé dans les feuilles de macro : ces fonctions peuvent être utilisées n’importe où une fonction de feuille de calcul normale peut être utilisée.
+Excel fait une distinction supplémentaire entre les fonctions de feuille de calcul définies par l’utilisateur et les fonctions définies par l’utilisateur qui sont conçues pour fonctionner sur des feuilles macro. Excel ne limite pas les fonctions de feuille macro définies par l’utilisateur uniquement à une utilisation sur des feuilles macro : ces fonctions peuvent être utilisées partout où une fonction de feuille de calcul normale peut être utilisée.
   
-### <a name="worksheet-functions"></a>Objet Worksheet Functions
+### <a name="worksheet-functions"></a>Fonctions de feuille de calcul
 
-Vous trouverez ci-dessous des fonctions de feuille de calcul Excel :
+Les fonctions de feuille de calcul Excel présentent les caractéristiques suivantes :
   
-- Ils ne peut pas accéder aux fonctions d’information de feuille de macro.
+- Elles ne peuvent pas accéder aux fonctions d’informations de feuille macro.
     
-- Ils ne peuvent pas obtenir les valeurs des cellules non calculées.
+- Elles ne peuvent pas obtenir les valeurs de cellules non calculées.
     
-- Ils peuvent être écrites et enregistrés en tant que thread-safe à compter d’Excel 2007.
+- Elles peuvent être écrites et inscrites comme thread-safe à partir d’Excel 2007.
     
 ### <a name="macro-sheet-functions"></a>Fonctions de feuille macro
 
-Vous trouverez ci-dessous des fonctions de feuille macro Excel :
+Les fonctions de feuille macro Excel présentent les caractéristiques suivantes :
   
-- Ils peuvent accéder des fonctions d’information feuille macro.
+- Elles peuvent accéder aux fonctions d’informations de feuille macro.
     
-- Ils peuvent obtenir les valeurs des cellules non calculées, y compris les valeurs des cellules d’appel.
+- Elles peuvent obtenir les valeurs de cellules non calculées, y compris les valeurs des cellules d’appel.
     
-- Ils ne sont pas considérées thread fiables à compter d’Excel 2007.
+- Elles ne sont pas considérées comme thread-safe à partir d’Excel 2007.
     
-Comment Excel traite une fonction définie par l’utilisateur (UDF), ce qui permet la fonction faire et comment il recalcule la fonction sont déterminés tout lorsque vous enregistrez la fonction. Si une fonction est enregistrée comme une fonction de feuille de calcul mais tente de faire quelque chose que seule une fonction de feuille macro, l’opération échoue. À compter d’Excel 2007, si une fonction de feuille de calcul enregistrée en tant que thread-safe tente d’appeler une fonction de feuille macro, là encore, l’opération échoue.
+C’est au moment où vous inscrivez la fonction que sont déterminés tous les éléments suivants : comment Excel traite une fonction définie par l’utilisateur (UDF), ce qu’il autorise la fonction à faire et comment il recalcule la fonction. Si une fonction est inscrite comme fonction de feuille de calcul mais qu’elle tente de faire quelque chose que seule une feuille macro peut faire, l’opération échoue. À partir d’Excel 2007, si une fonction de feuille de calcul inscrite comme thread-safe tente d’appeler une fonction de feuille macro, là encore, l’opération échoue.
   
-Excel traite Microsoft Visual Basic pour Applications (VBA) UDF en tant que fonctions équivalent de la feuille de macro, dans la mesure où ils peuvent accéder aux informations de l’espace de travail et la valeur de cellules non calculées, et ils ne sont pas considérées comme thread fiables à compter d’Excel 2007.
+Excel traite les fonctions définies par l’utilisateur Microsoft Visual Basic for Applications (VBA) comme des fonctions équivalentes aux fonctions de feuilles macro. En effet, elles peuvent accéder aux informations d’espace de travail et à la valeur de cellules non calculées, et ne sont pas considérées comme thread-safe à partir d’Excel 2007.
   
 ## <a name="excel-states"></a>États Excel
 
-Excel peut être dans un des différents États à un moment donné en fonction des actions de l’utilisateur, un processus externe, un événement interceptée exécutant une macro ou un événement de maintenance Excel chronométré comme **enregistrement automatique**.
+Excel peut être dans de nombreux états à un moment donné, selon les actions de l’utilisateur, un processus externe, un événement bloqué exécutant une macro ou un événement de maintenance interne Excel chronométré comme **Autosave**.
   
-Les états possibles d’une expérience de l’utilisateur sont les suivantes :
+Les états de l’utilisateur sont les suivants :
   
-- **Prêt état :** Aucun commandes ou des macros ne sont en cours d’exécution. Aucune boîte de dialogue n’est affichés. Aucune cellule n’est en cours de modification et l’utilisateur n’est pas au milieu d’une opération de couper/copier et coller. Aucun objet incorporé n’a le focus. 
+- **Prêt :** Aucune commande ni macro n’est en cours d’exécution. Aucune boîte de dialogue n’est affichée. Aucune cellule n’est en cours de modification et l’utilisateur n’est pas au milieu d’une opération couper/copier et coller. Aucun objet incorporé n’est utilisé. 
     
-- **En mode édition :** L’utilisateur a commencé à taper les caractères d’entrée valides dans une cellule déverrouillée ou non protégée, ou a appuyé sur **F2** sur une ou plusieurs cellules déverrouillées ou non protégées. 
+- **Mode Édition :** L’utilisateur a commencé à taper des caractères d’entrée valides dans une cellule déverrouillée ou non protégée ou a utilisé la touche **F2** sur une ou plusieurs cellules déverrouillées ou non protégées. 
     
-- **Mode Couper/copier et coller :** L’utilisateur a Couper ou copier une cellule ou plage de cellules et n’a pas encore collé les ou a collée à l’aide de la boîte de dialogue Collage spécial qui permet à plusieurs opérations de collage. 
+- **Mode Couper/copier et coller :** L’utilisateur a coupé ou copié une cellule ou une plage de cellules et ne l’a pas encore collée ou l’a collée en utilisant la boîte de dialogue Collage spécial, qui permet plusieurs opérations de collage. 
     
-- **En mode point :** L’utilisateur modifie une formule et sélectionne les cellules dont les adresses sont ajoutés à la formule en cours de modification. 
+- **Mode Pointer :** L’utilisateur modifie une formule et sélectionne des cellules dont les adresses sont ajoutées à la formule en cours de modification. 
     
-L’utilisateur peut désactiver le mode édition, point et couper/copier en appuyant sur la touche **ÉCHAP** , ce qui rétablit l’état prêt Excel. Autres événements peuvent désactiver ces États, telles que les suivantes : 
+L’utilisateur peut effacer les modes Édition, Pointer et Couper/copier en appuyant sur la touche **Échap**. Excel revient dans l’état Prêt. D’autres événements peuvent effacer ces états, tels que : 
   
-- L’utilisateur ouvre une boîte de dialogue intégrée.
+- L’utilisateur ouvre une boîte de dialogue prédéfinie.
     
-- L’utilisateur lance un nouveau calcul.
+- L’utilisateur lance un recalcul.
     
 - L’utilisateur exécute une commande.
     
-- Excel effectue une opération **d’enregistrement** . 
+- Excel effectue une opération **Autosave** (enregistrement automatique). 
     
-- Un événement de minuterie est intercepté.
+- Un événement de minuteur est bloqué.
     
-L’exemple précédent est important pour complément aux développeurs. Vous devez tenir compte l’impact de l’utilisation d’Excel où événement timer fréquents intercepte normale est définie et exécutée. Lorsqu’il s’agit d’une part importante de la fonctionnalité de votre complément, vous devez fournir aux utilisateurs un moyen de suspension, afin qu’ils puissent couper/copier et coller normalement lorsqu’ils ont besoin de facilement accessible.
+Le dernier exemple est important pour les développeurs de compléments. Vous devez tenir compte de l’impact de l’utilisation d’Excel normale lorsque des captures d’événement de minuteur fréquentes sont définies et exécutées. Lorsqu’il s’agit d’une partie importante des fonctionnalités de votre complément, vous devez fournir aux utilisateurs un moyen facilement accessible de l’interrompre pour qu’ils puissent couper/copier et coller normalement lorsqu’ils en ont besoin.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -116,5 +116,5 @@ L’exemple précédent est important pour complément aux développeurs. Vous d
 
 [Concepts de programmation Excel](excel-programming-concepts.md)
   
-[Autorisation utilisateur sauts dans les opérations de longue durée](permitting-user-breaks-in-lengthy-operations.md)
+[Autorisation des interruptions utilisateur lors des opérations très longues](permitting-user-breaks-in-lengthy-operations.md)
 

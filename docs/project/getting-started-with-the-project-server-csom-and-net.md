@@ -3,38 +3,38 @@ title: Prise en main du modèle CSOM Project Server et de .NET
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
-description: Vous pouvez utiliser le modèle objet côté client de Project Server 2013 (CSOM) pour développer des solutions Project Online et sur site avec le .NET Framework 4. Cet article explique comment créer une application console qui utilise le modèle pour créer et publier des projets. Après la publication d’un projet, l’application attend que le Service de file d’attente de Project Server terminer l’action de publication, puis répertorie les projets publiés.
-ms.openlocfilehash: f4e40cb3165bb2b3caf05b01736d90c21b6ac881
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Utilisez le modèle objet côté client (CSOM) Project Server 2013 pour développer Project Online et des solutions locales avec .NET Framework 4. Cet article décrit comment créer une application de console qui utilise CSOM pour créer et publier des projets. Après la publication d’un projet, l’application attend que le service de File d’attente de Project Server se termine avec l’action de publication, puis répertorie les projets publiés.
+localization_priority: Priority
+ms.openlocfilehash: b53587ca1959faefdc1b40f08c4adfda4ee11d70
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401739"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28710460"
 ---
 # <a name="getting-started-with-the-project-server-csom-and-net"></a>Prise en main du modèle CSOM Project Server et de .NET
 
-Vous pouvez utiliser le modèle objet côté client de Project Server 2013 (CSOM) pour développer des solutions Project Online et sur site avec le .NET Framework 4. Cet article explique comment créer une application console qui utilise le modèle pour créer et publier des projets. Après la publication d’un projet, l’application attend que le Service de file d’attente de Project Server terminer l’action de publication, puis répertorie les projets publiés.
+Utilisez le modèle objet côté client (CSOM) Project Server 2013 pour développer Project Online et des solutions locales avec .NET Framework 4. Cet article décrit comment créer une application de console qui utilise CSOM pour créer et publier des projets. Après la publication d’un projet, l’application attend que le service de File d’attente de Project Server se termine avec l’action de publication, puis répertorie les projets publiés.
   
-Pour une présentation générale de Project Server CSOM, voir [mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md). Les rubriques de référence dans l’espace de noms CSOM, voir [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+Pour obtenir une présentation générale de CSOM pour Project Server, consultez la rubrique sur les [mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md). Pour les rubriques de référence dans l’espace de noms CSOM, consultez [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
 ## <a name="creating-a-csom-project-in-visual-studio"></a>Création d’un projet CSOM dans Visual Studio
 <a name="pj15_GettingStartedCSOM_CreatingVSProject"> </a>
 
-Vous pouvez utiliser Visual Studio 2010 ou Visual Studio 2012 pour développer des solutions qui utilisent le Project Server CSOM. Project Server CSOM inclut trois assemblys pour le développement d’applications clientes, des applications Microsoft Silverlight et des applications Windows Phone 8 à l’aide de .NET Framework 4. Le modèle CSOM inclut également un fichier JavaScript pour le développement d’applications web, comme décrit dans [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) . 
+Vous pouvez utiliser Visual Studio 2010 ou Visual Studio 2012 pour développer des solutions qui utilisent le modèle CSOM Project Server. Le modèle CSOM Project Server comprend trois assemblys pour le développement d’applications clientes, d’applications Microsoft Silverlight et d’applications Windows Phone 8 à l’aide de .NET Framework 4. Le modèle CSOM comprend également un fichier JavaScript pour le développement d’applications web, comme décrit dans [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
-Vous pouvez copier l’assembly CSOM dont vous avez besoin de l’ordinateur Project Server ou à partir du téléchargement du Kit de développement Project 2013 sur un ordinateur de développement à distance. L’application de console **QueueCreateProject** qui est décrite dans cette rubrique n’est pas une application Silverlight ou une application Windows Phone 8, vous devez l’assembly Microsoft.ProjectServer.Client.dll. Étant donné que le modèle est indépendant de la basées sur ASMX ou WCF Project Server Interface (PSI), il est inutile définir des références de service de l’interface PSI ou utiliser l’espace de noms **Microsoft.Office.Project.Server.Library** . 
+Vous pouvez copier l’assembly CSOM dont vous avez besoin pour l’ordinateur Project Server ou pour le téléchargement de Kit de développement logiciel (SDK) Project 2013 vers un ordinateur de développement distant. L’application console **QueueCreateProject** décrite dans cette rubrique n’est pas une application Silverlight ou une application Windows Phone 8. Vous avez donc besoin de l’assembly Microsoft.ProjectServer.Client.dll. Comme le modèle CSOM est indépendant de l’interface PSI (Project Server Interface) WCF ou ASMX, vous ne devez pas définir de références de service pour l’interface PSI ni utiliser l’espace de noms **Microsoft.Office.Project.Server.Library**. 
   
 L’application **QueueCreateProject** utilise des arguments de ligne de commande pour le nom du projet à créer et pour le délai d’expiration de la file d’attente. Dans la procédure 1, vous créez l’application console de base, ajoutez une routine pour analyser la ligne de commande et ajoutez un message d’utilisation s’il existe des erreurs dans la ligne de commande. 
   
 ### <a name="procedure-1-to-create-a-csom-project-in-visual-studio"></a>Procédure 1. Pour créer un projet SCOM dans Visual Studio
 
-1. Copiez l’assembly Microsoft.ProjectServer.Client.dll à partir de la `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\` dossier sur votre ordinateur de développement. Copiez l’assembly dans un dossier pour les autres Project Server et les assemblys de référence SharePoint que vous utiliserez, tel que `C:\Project\Assemblies`.
+1. Copiez l’assembly Microsoft.ProjectServer.Client.dll du dossier `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\` vers votre ordinateur de développement. Copiez l’assembly dans un dossier pratique pour les autres assemblys de référence Project Server et SharePoint que vous utiliserez, tel que `C:\Project\Assemblies`.
     
 2. Copiez l’assembly Microsoft.SharePoint.Client.dll et l’assembly Microsoft.SharePoint.Client.Runtime.dll du même dossier source vers votre ordinateur de développement. L’assembly Microsoft.ProjectServer.Client.dll possède des dépendances sur les assemblys SharePoint associés.
     
-3. Dans Visual Studio, créez une application de console Windows et définir le framework cible sur .NET Framework 4. Par exemple, nom de l’application QueueCreateProject.
+3. Dans Visual Studio, créez une application console Windows et définissez l’infrastructure cible sur .NET Framework 4. Par exemple, nommez l’application QueueCreateProject.
     
    > [!NOTE]
    > Si vous oubliez de définir la cible correcte, une fois que Visual Studio crée le projet, ouvrez **QueueCreateProject propriétés** dans le menu **Projet**. Sous l’onglet **Application**, dans la liste déroulante **Framework cible**, choisissez **.NET Framework 4**. N’utilisez pas le **profil client .NET Framework 4**. 
@@ -45,7 +45,7 @@ L’application **QueueCreateProject** utilise des arguments de ligne de command
    - Microsoft.SharePoint.Client.dll
    - Microsoft.SharePoint.Client.Runtime.dll
     
-5. Dans le fichier Program.cs, modifiez le `using` instructions, comme suit. 
+5. Dans le fichier Program.cs, modifiez les instructions `using`, comme suit. 
     
    ```cs
     using System;
@@ -130,11 +130,11 @@ L’application **QueueCreateProject** utilise des arguments de ligne de command
 ## <a name="getting-the-project-context"></a>Obtenir le contexte de projet
 <a name="pj15_GettingStartedCSOM_GettingContext"> </a>
 
-Développement de CSOM nécessite l’objet **ProjectContext** pour être initialisé avec l’URL Project Web App. Le code de procédure 2 utilise la constante **pwaPath** . Si vous prévoyez d’utiliser l’application de plusieurs instances de Project Web App, vous pouvez rendre **pwaPath** une variable et ajouter un autre argument de ligne de commande. 
+Le développement CSOM nécessite l’objet **ProjectContext** à initialiser avec l’URL Project Web App. Le code de la procédure 2 utilise la constante **pwaPath**. Si vous prévoyez d’utiliser l’application pour plusieurs instances de Project Web App, vous pouvez définir une variable **pwaPath** et ajouter un autre argument de ligne de commande. 
   
 ### <a name="procedure-2-to-get-the-project-context"></a>Procédure 2. Pour obtenir le contexte de projet
 
-1. Ajouter des variables qui utilise l’application **QueueCreateProject** et les constantes de classe de **programme** . Outre l’URL Project Web App, l’application utilise le nom du type de projet d’entreprise par défaut (TPE), le nom du projet pour créer et un délai d’expiration maximal de file d’attente en secondes. Dans ce cas, la variable **timeoutSeconds** vous permet de tester l’application d’affecter des valeurs différentes pour le délai d’attente. L’objet **ProjectContext** est l’objet principal pour l’accès aux CSOM. 
+1. Ajoutez les variables et constantes de classe **Program** que l’application **QueueCreateProject** utilise. Outre l’URL Project Web App, l’application utilise le nom du type de projet d’entreprise par défaut (EPT), le nom du projet à créer et un délai d’expiration de la file d’attente maximal (qui est de quelques secondes). Dans ce cas, la variable **timeoutSeconds** vous permet de tester la manière dont différentes valeurs du délai d’expiration affectent l’application. L’objet **ProjectContext** est l’objet principal pour l’accès au modèle CSOM. 
     
    ```cs
     private const string pwaPath = "https://ServerName /pwa/"; // Change the path to your Project Web App instance.
@@ -144,7 +144,7 @@ Développement de CSOM nécessite l’objet **ProjectContext** pour être initia
     private static ProjectContext projContext;
    ```
 
-2. Remplacez le `/* Add calls to methods here to get the project context and create a project. */` commentaire par le code suivant. L’objet **Microsoft.ProjectServer.Client.ProjectContext** est initialisée avec l’URL Project Web App. La méthode **CreateTestProject** et la méthode **ListPublishedProjects** sont indiqués dans la procédure 4 et 5 de la procédure. 
+2. Remplacez le commentaire `/* Add calls to methods here to get the project context and create a project. */` par le code suivant. L’objet **Microsoft.ProjectServer.Client.ProjectContext** est initialisé avec l’URL Project Web App. La méthode **CreateTestProject** et la méthode **ListPublishedProjects** sont illustrées dans la procédure 4 et la procédure 5. 
     
    ```cs
     projContext = new ProjectContext(pwaPath);
@@ -252,7 +252,7 @@ Après avoir défini les nouvelles propriétés de projet, la méthode **Project
     }
    ```
 
-2. Remplacez le `/* Add code here to wait for the queue. */` commentaire par le code suivant pour attendre le travail en file d’attente. La routine attend un maximum de nombre de secondes spécifié **timeoutSeconds** ou se poursuit si le travail en file d’attente soit terminée avant le délai d’attente. Pour les États de travail de file d’attente possibles, voir [Microsoft.ProjectServer.Client.JobState](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.JobState.aspx) . 
+2. Remplacez le commentaire `/* Add code here to wait for the queue. */` par le code suivant pour attendre le travail de file d’attente. La routine attend au maximum le nombre **timeoutSeconds** spécifié de secondes ou continue si le travail de file d’attente se termine avant le délai d’expiration. Pour consulter les états éventuels du travail de file d’attente, reportez-vous à [Microsoft.ProjectServer.Client.JobState](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.JobState.aspx). 
     
    L’appel de la méthode **Load** et de la méthode **ExecuteQuery** pour l’objet **QueueJob** est facultatif. Si l’objet **QueueJob** n’est pas initialisé lorsque vous appelez la méthode **WaitForQueue**, Project Server l’initialise. 
     
@@ -279,7 +279,7 @@ Après avoir défini les nouvelles propriétés de projet, la méthode **Project
 ## <a name="listing-the-published-projects"></a>Liste des projets publiés
 <a name="pj15_GettingStartedCSOM_ListingPublished"> </a>
 
-La méthode **ListPublishedProjects** Obtient la collection de tous les projets sont publiés dans Project Web App. Si le travail en file d’attente qui crée un projet dans la procédure 4 ne se termine pas correctement ou arrive à expiration, le nouveau projet n’est pas inclus dans la collection de **projets** . 
+La méthode **ListPublishedProjects** obtient la collection de tous les projets publiés dans Project Web App. Si le travail de file d’attente qui crée un projet dans la procédure 4 ne se termine pas correctement ou expire, le nouveau projet ne figure pas dans la collection **Projects**. 
   
 ### <a name="procedure-5-to-list-the-published-projects"></a>Procédure 5. Pour répertorier les projets publiés
 
@@ -301,18 +301,18 @@ La méthode **ListPublishedProjects** Obtient la collection de tous les projets 
     }
    ```
 
-2. Définir la valeur correcte pour votre URL Project Web App, compilez l’application **QueueCreateProject** , puis tester l’application, comme dans les 6 de la procédure. 
+2. Définissez la valeur correcte de votre URL Project Web App, compilez l’application **QueueCreateProject**, puis testez l’application comme dans la procédure 6. 
     
 ## <a name="testing-the-queuecreateproject-application"></a>Test de l’application QueueCreateProject
 <a name="pj15_GettingStartedCSOM_Testing"> </a>
 
-Lors de la première exécution de l’application **QueueCreateProject** sur une instance de test de Project Web App, surtout si Project Server est installé sur un ordinateur virtuel, l’application peut nécessiter plus de temps à exécuter que le délai d’attente de la file d’attente par défaut de dix secondes. 
+Lorsque vous exécutez l’application **QueueCreateProject** sur une instance de test Project Web App, en particulier si Project Server est installé sur un ordinateur virtuel, l’exécution de l’application peut nécessiter plus de temps que le délai d’expiration de file d’attente par défaut qui est de dix secondes. 
   
 ### <a name="procedure-6-to-test-the-queuecreateproject-application"></a>Procédure 6. Pour tester l’application QueueCreateProject
 
-1. Ouvrir la fenêtre **Propriétés QueueCreateProject** , sélectionnez l’onglet **Déboguer** , puis ajoutez les arguments de ligne de commande suivantes dans la section **Options de démarrage** :`-n "Test proj 1" -t 20`
+1. Ouvrez la fenêtre **Propriétés QueueCreateProject**, sélectionnez l’onglet **Déboguer**, puis ajoutez les arguments de ligne de commande suivants dans la section **Options de démarrage** : `-n "Test proj 1" -t 20`
     
-   Exécuter l’application (par exemple, appuyez sur **F5**). Si la valeur du délai d’attente est assez long, l’application affiche la sortie suivante (en présence d’autres projets publiés dans votre instance Project Web App, elles sont également être affichées) :
+   Exécutez l’application (par exemple, en appuyant sur la touche **F5**). Si la valeur du délai d’expiration est assez longue, l’application affiche le résultat suivant (s’il existe d’autres projets publiés dans votre instance Project Web App, ils sont également affichés) :
     
    ```MS-DOS
     Creating project: Test proj 1 ...
@@ -322,7 +322,7 @@ Lors de la première exécution de l’application **QueueCreateProject** sur un
     Press any key to exit...
    ```
 
-2. Exécutez le test d’une autre avec les arguments de ligne de commande suivants, pour utiliser le délai d’attente de la file d’attente de 10 secondes par défaut :`-n "Test proj 1"`
+2. Exécutez un autre test avec les arguments de ligne de commande suivants pour utiliser le délai d’expiration de file d’attente de 10 secondes par défaut : `-n "Test proj 1"`
     
    Étant donné que le projet de test 1 existe déjà, l’application affiche le résultat suivant.
     
@@ -335,11 +335,11 @@ Lors de la première exécution de l’application **QueueCreateProject** sur un
     Press any key to exit...
    ```
 
-3. Exécutez le test d’une autre avec les arguments de ligne de commande suivants, pour utiliser le délai d’attente de la file d’attente de 10 secondes par défaut :`-n "Test proj 2"`
+3. Exécutez un autre test avec les arguments de ligne de commande suivants pour utiliser le délai d’expiration de file d’attente de 10 secondes par défaut : `-n "Test proj 2"`
     
    L’application **QueueCreateProject** crée et publie le projet nommé Projet de test 2. 
     
-4. Exécutez un autre test avec les arguments de ligne de commande suivants et définir le délai d’attente pour être trop court pour le travail de file d’attente à la fin :`-n "Test proj 3" -t 1`
+4. Exécutez un autre test avec les arguments de ligne de commande suivants, puis définissez un délai d’expiration trop court pour que le travail de file d’attente puisse se terminer : `-n "Test proj 3" -t 1`
     
    Étant donné que le délai d’expiration de file d’attente est trop court, le projet n’est pas créé. L’application affiche le résultat suivant.
     
@@ -351,7 +351,7 @@ Lors de la première exécution de l’application **QueueCreateProject** sur un
     Press any key to exit...
    ```
 
-5. Modifier le code afin que l’application n’attend pas le travail en file d’attente. Par exemple, commentez le code qui attend que la file d’attente, à l’exception de la `projCreated = true` de ligne, comme suit. 
+5. Modifiez le code afin que l’application n’attende pas le travail de file d’attente. Par exemple, commentez le code qui attend la file d’attente, à l’exception de la ligne `projCreated = true`, comme suit. 
     
    ```cs
     //JobState jobState = projContext.WaitForQueue(qJob, timeoutSeconds);
@@ -370,7 +370,7 @@ Lors de la première exécution de l’application **QueueCreateProject** sur un
     
    ```
 
-6. Recompiler l’application et exécutez une autre test avec les arguments de ligne de commande suivants :`-n "Test proj 4"`
+6. Recompilez l’application et exécutez un autre test avec les arguments de ligne de commande suivants : `-n "Test proj 4"`
     
    Étant donné que la routine **WaitForQueue** est commentée, l’application n’utilise pas la valeur de délai d’expiration par défaut. Bien que l’application n’attende pas la file d’attente, elle peut afficher Projet de test 4 si l’action de publication dans Project Server est suffisamment rapide. 
     
@@ -386,18 +386,18 @@ Lors de la première exécution de l’application **QueueCreateProject** sur un
     Press any key to exit...
    ```
 
-Actualisez la page Centre de projets dans Project Web App (`https://ServerName/ProjectServerName/Projects.aspx`), pour afficher les projets publiés. La figure suivante montre que les projets de test sont publiés.
+Actualisez la page Centre de projets dans Project Web App (`https://ServerName/ProjectServerName/Projects.aspx`) pour afficher les projets publiés. La figure suivante indique que les projets de test sont publiés.
 
 **Vérification des projets publiés dans Project Web App**
 
-![Vérification des projets publiés dans Project Web App] (media/pj15_GetStartedCSOMNET_pwa.gif "Vérification des projets publiés dans Project Web App")
+![Vérification des projets publiés dans Project Web App](media/pj15_GetStartedCSOMNET_pwa.gif "Vérification des projets publiés dans Project Web App")
   
-L’exemple d’application **QueueCreateProject** présente un exemple typique de création d’une entité de projet avec le modèle à l’aide de la classe **ProjectCreationInformation** , comment ajouter le projet à la collection publiée, l’attente d’un travail de file d’attente par à l’aide de la méthode **WaitForQueue** et comment énumérer la collection de projets publiés. 
+L’exemple d’application **QueueCreateProject** montre un exemple classique de création d’une entité de projet avec le modèle CSOM à l’aide de la classe **ProjectCreationInformation**, d’ajout du projet à la collection publiée, d’attente d’un travail de file d’attente à l’aide de la méthode **WaitForQueue** et d’énumération de la collection de projets publiés. 
   
 ## <a name="complete-code-example"></a>Exemple de code complet
 <a name="pj15_GettingStartedCSOM_CompleteCode"> </a>
 
-Voici le code complet de l’exemple d’application **QueueCreateProject** . La référence de classe [Microsoft.ProjectServer.Client.ProjectCreationInformation](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectCreationInformation.aspx) inclut également le code dans cette rubrique. 
+Voici le code complet de l’exemple d’application **QueueCreateProject**. La référence de classe [Microsoft.ProjectServer.Client.ProjectCreationInformation](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectCreationInformation.aspx) inclut également le code dans cette rubrique. 
   
 ```cs
 using System;
@@ -578,7 +578,7 @@ namespace QueueCreateProject
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Mises à jour pour les développeurs Project 2013](updates-for-developers-in-project-2013.md) 
+- [Mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md) 
 - [Modèle objet côté client (CSOM) pour Project 2013](client-side-object-model-csom-for-project-2013.md)
     
 

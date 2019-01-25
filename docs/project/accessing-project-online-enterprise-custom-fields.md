@@ -3,54 +3,54 @@ title: Accès aux champs personnalisés d’entreprise Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
-description: 'Project Online est un service Office 365 les entreprises peuvent étendre pour répondre aux besoins de l’entreprise. Une zone d’extension est des champs personnalisés d’entreprise (ECFs). ECFs sont des champs de valeur typée qui peuvent être ajoutés à des projets, des ressources et des tâches. Le tableau suivant répertorie les ECFs associer à des projets, des ressources et des tâches et fournit un exemple d’une valeur d’une instance de ce ECF :'
-ms.openlocfilehash: 978fdfbf4ba75382ad85b9f92f8ac4df5c7f97c8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
+localization_priority: Priority
+ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401152"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28708304"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
-Project Online est un service Office 365 les entreprises peuvent étendre pour répondre aux besoins de l’entreprise. Une zone d’extension est des champs personnalisés d’entreprise (ECFs). ECFs sont des champs de valeur typée qui peuvent être ajoutés à des projets, des ressources et des tâches. Le tableau suivant répertorie les ECFs associer à des projets, des ressources et des tâches et fournit un exemple d’une valeur d’une instance de ce ECF :
+Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :
   
-|Nom ECF|Type ECF|Association|Exemple de valeur|
+|Nom du champ personnalisé d’entreprise|Type de champ personnalisé d’entreprise|Association|Exemple de valeur|
 |:-----|:-----|:-----|:-----|
-|Justification  <br/> |TEXT  <br/> |Projet  <br/> |Un utilisateur final peut enregistrer les statistiques essentielles et des données d’intégrité, avec des résultats qui comprennent une évaluation de l’intégrité et d’une action personnalisée plan vers une meilleure santé.  <br/> |
-|Évaluation des risques  <br/> |TEXT  <br/> |Projet  <br/> |Low  <br/> |
-|RETOUR SUR INVESTISSEMENT  <br/> |NOMBRE  <br/> |Projet  <br/> |2,10  <br/> |
-|Coût total  <br/> |COÛT  <br/> |Projet  <br/> |$1,031,514  <br/> |
-|Lancement de l’équipe  <br/> |TEXT  <br/> |Ressources  <br/> |Oui  <br/> |
-|Rôle de position  <br/> |TEXT  <br/> |Resources  <br/> |Testeur  <br/> |
-|État de l’indicateur  <br/> |INDICATEUR  <br/> |Task  <br/> |Non  <br/> |
-|Santé  <br/> |TEXT  <br/> |Task  <br/> |Non spécifié  <br/> |
+|Justification  <br/> |TEXT  <br/> |Projet  <br/> |Un utilisateur final peut enregistrer des statistiques vitales et des données de santé, avec des résultats qui incluent une évaluation de santé et un plan d’action individualisé vers une meilleure santé.  <br/> |
+|Évaluation du risque  <br/> |TEXT  <br/> |Projet  <br/> |Faible  <br/> |
+|RETOUR SUR INVESTISSEMENT  <br/> |NUMBER  <br/> |Projet  <br/> |2,10  <br/> |
+|Coût total  <br/> |COST  <br/> |Projet  <br/> |1 031 514 $  <br/> |
+|Équipe de lancement  <br/> |TEXT  <br/> |Ressources  <br/> |Oui  <br/> |
+|Rôle  <br/> |TEXT  <br/> |Ressources  <br/> |Testeur  <br/> |
+|État de l’indicateur  <br/> |FLAG  <br/> |Tâche  <br/> |Non  <br/> |
+|Intégrité  <br/> |TEXT  <br/> |Tâche  <br/> |Non précisé  <br/> |
    
-ECFs sont définies au niveau de l’instance Project Web Application (PWA), externe à partir de n’importe quel projet, ressource ou tâche. Ils peuvent encore associés à un projet, la ressource ou la tâche. Cet article fournit un aperçu des champs personnalisés à l’aide d’un exemple d’application d’introduction et se concentre sur la récupération des valeurs ECF. 
+Les champs personnalisés d’entreprise sont définis au niveau de l’instance Project Web Application (PWA), qui ne fait pas partie d’un projet, d’une ressource ni d’une tâche. Pourtant, ils peuvent être associés à un projet, une ressource ou une tâche. Cet article donne une vue d’ensemble des champs personnalisés à l’aide d’un exemple d’application et porte notamment sur l’extraction de valeurs de champs personnalisés d’entreprise. 
   
-Vous pouvez télécharger l’exemple complet à https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
+Vous pouvez télécharger l’exemple complet dans https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
   
-En outre, Project Online prend en charge les champs personnalisés locaux en tant qu’en lecture seule des entités spécifiques pour le projet spécifique, la ressource ou la tâche. Pour plus d’informations sur les champs personnalisés locaux, consultez l’exemple https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
+En outre, Project Online prend en charge les champs personnalisés locaux comme des entités en lecture seule propres au projet, à la ressource ou à la tâche donnée. Pour plus d’informations sur les champs personnalisés locaux, consultez l’exemple en accédant à https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
   
-## <a name="background-materials"></a>Documents d’arrière-plan
+## <a name="background-materials"></a>Documents de référence
 
-Un article précédent, le [développement d’une application Project Online à l’aide du modèle objet côté client](developing-a-project-online-application-using-the-client-side-object-model.md), fournit d’arrière-plan et l’orientation initiale pour le développement d’applications à l’aide de CSOM. Consultez cet article pour les éléments suivants :
+Un article précédent relatif au [développement d’une application Project Online à l’aide du modèle objet côté client](developing-a-project-online-application-using-the-client-side-object-model.md) fournit des informations de base et l’orientation initiale pour le développement d’applications à l’aide du modèle objet côté client (CSOM). Consultez cet article pour les éléments suivants :
   
-- Informations générales sur Project, éditions autonomes et en nuage 
+- Informations de base sur Project, éditions autonomes et basées sur le cloud 
     
-- Environnement de développement (éditions de Visual Studio et les bibliothèques de logiciels)
+- Environnement de développement (éditions Visual Studio et bibliothèques de logiciels)
     
-- Programme d’installation de Visual Studio project pour une application .NET à l’aide de la bibliothèque de CSOM
+- Configuration du projet Visual Studio pour une application .NET à l’aide de la bibliothèque CSOM
     
-- Connexion au service Project Online
+- Connexion au service Project Online
     
-## <a name="preliminaries-class-level-declarations"></a>Étapes préliminaires (déclarations au niveau de la classe)
+## <a name="preliminaries-class-level-declarations"></a>Déclarations préliminaires (déclarations au niveau de la classe)
 
 La classe pour cette application définit deux éléments de données : le contexte du projet et le dictionnaire pwaECF.
   
-L’objet de contexte de projet fait partie du modèle de projet et connecte l’application et l’instance de PWA. Toutes les demandes au service utilisent le contexte du projet.
+L’objet du contexte du projet fait partie du CSOM du projet et connecte l’application et l’instance PWA. Toutes les demandes au service utilisent le contexte du projet.
   
 ```cs
 private static ProjectContext projContext = 
@@ -58,9 +58,9 @@ private static ProjectContext projContext =
 
 ```
 
-Le contexte nécessite que le point de terminaison de connexion pour créer une instance d’une application. Le point de terminaison de connexion est l’URL de votre instance de PWA. 
+Le contexte exige que le point de terminaison de connexion crée une instance dans une application. Le point de terminaison de connexion est l’URL de votre instance PWA. 
   
-Le dictionnaire pwaECF stocke le projet ECFs définis au niveau de PWA. Le dictionnaire utilise la ECF. InternalName en tant que la clé et de l’objet CustomField comme valeur. Le dictionnaire est renseigné dans la méthode ListPWACustomFields et ensuite utilisé comme une référence dans la méthode Main. 
+Le dictionnaire pwaECF stocke les champs personnalisés d’entreprise du projet définis au niveau de l’instance PWA. Le dictionnaire utilise l’élément ECF.InternalName comme clé et l’objet CustomField comme valeur. Le dictionnaire est renseigné dans la méthode ListPWACustomFields, puis utilisé comme référence dans la méthode Main. 
   
 ```cs
     //Dictionary of ECFs
@@ -68,23 +68,23 @@ Le dictionnaire pwaECF stocke le projet ECFs définis au niveau de PWA. Le dicti
 
 ```
 
-## <a name="main-method"></a>Méthode principale
+## <a name="main-method"></a>Méthode Main
 
-La méthode Main gère le flux de l’application. Comme avec d’autres applications qui utilisent le Project Online CSOM principal initialise le contexte du projet. 
+La méthode Main gère le flux de l’application. Comme avec d’autres applications qui utilisent le CSOM Project Online, Main initialise le contexte du projet. 
   
-1. Récupérer et répertorier les ECFs dans l’instance de PWA Project Online.
+1. Récupérer et répertorier les champs personnalisés d’entreprise dans l’instance PWA Project Online.
     
    Cette fonctionnalité est implémentée dans la méthode ListPWACustomFields.
     
-2. Récupérer les projets avec des champs personnalisés et les champs non personnalisés.
+2. Récupérer les projets avec des champs personnalisés et des champs non personnalisés.
     
-   Lors de l’extraction des projets avec ECFs, la demande de requête au service Project Online doit inclure les éléments suivants : 
+   Lors de la récupération des projets avec des champs personnalisés d’entreprise, la demande de requête au service Project Online doit inclure les éléments suivants : 
     
-   - **IncludeCustomFields** &ndash; Cet élément demande le service pour retourner une collection de PublishedProjects dont chaque projet publié inclut une extension qui prend en charge les champs personnalisés. Sauf si cet élément est spécifié, Project Online retourne des objets PublishedProject qui ne contiennent pas de données de champ personnalisé.
+   - **IncludeCustomFields** &ndash; Cet élément demande au service de renvoyer une collection d’objets PublishedProject où chaque projet publié comporte une extension qui prend en charge les champs personnalisés. Sauf si cet élément est spécifié, Project Online renvoie les objets PublishedProject qui ne comprennent pas de données de champs personnalisés.
     
-   - **IncludeCustomFields.CustomFields** &ndash; cet élément demande le service pour remplir les objets PublishedProject avec des données CustomFields.
+   - **IncludeCustomFields.CustomFields** &ndash; Cet élément demande au service de renseigner les objets PublishedProject avec des données CustomFields.
     
-   La requête suivante spécifie l’Id de projet ainsi que le nom, ainsi que l’extension de l’objet pour les champs personnalisés et les valeurs de champ personnalisé.
+   La demande suivante spécifie le nom et l’ID du projet, ainsi que l’extension de l’objet pour les champs personnalisés et les valeurs de champ personnalisé.
     
    ```cs
         var projBlk = projContext.LoadQuery(
@@ -99,32 +99,32 @@ La méthode Main gère le flux de l’application. Comme avec d’autres applica
 
 3. Examiner chaque projet.
     
-   Les objets de projet utilisées dans cette application sont le type PublishedProject, car les valeurs sont récupérées et affichées. 
+   Les objets du projet utilisés dans cette application sont le type PublishedProject, car les valeurs sont récupérées et affichées. 
     
-   Si vous devez mettre à jour les valeurs de données dans un ou plusieurs projets, le projet en cours de la mise à jour doit être extrait et l’application doit utiliser un objet DraftProject pour récupérer les valeurs et mettre à jour le projet.
+   Si vous devez mettre à jour des valeurs de données dans un ou plusieurs projets, le projet en cours de mise à jour sera extrait et l’application utilisera un objet DraftProject pour récupérer les valeurs et mettre à jour le projet.
     
-4. Accès aux entrées ECF pour un projet
+4. Accéder aux entrées de champs personnalisés d’entreprise pour un projet
     
-   Chaque instance ECF sépare le reste des informations ECF la valeur du champ. La valeur du champ est stockée dans le cadre d’une paire clé/valeur. Le reste des informations est stocké dans un objet CustomField.
+   Chaque instance de champ personnalisé d’entreprise sépare la valeur du champ du reste des informations de champ personnalisé d’entreprise. La valeur du champ est stockée dans le cadre d’une paire clé/valeur. Le reste des informations est stocké dans un objet CustomField.
     
-   Accès aux valeurs ECF dans un projet se compose de deux parties :
+   L’accès aux valeurs de champ personnalisé d’entreprise dans un projet est constitué de deux parties :
     
    - Parcourir la collection CustomFields
     
-   - Accès à l’entrée appropriée à l’aide de deux constructions.
+   - Accéder à l’entrée appropriée en utilisant deux constructions.
     
-   Chaque projet stocke les entrées ECF associées à deux endroits, une collection CustomFields énumérable et et les valeurs de champ dans le cadre de paires clé/valeur. Dans les paires clé/valeur, internalName est la clé et la valeur du champ est la valeur. Utilisation d’un dictionnaire pour maintenir et accéder aux valeurs de champ. 
+   Chaque projet stocke les entrées de champ personnalisé d’entreprise associées à deux endroits : une collection CustomFields énumérable et les valeurs du champ dans le cadre de paires clé/valeur. Dans les paires clé/valeur, internalName est la clé et la valeur du champ est la valeur. Utilisez un dictionnaire pour conserver les valeurs du champ et y accéder. 
     
-   Les propriétés ECF, autre que les valeurs de champ, sont stockées dans les objets CustomField, un seul objet par projet. Une collection CustomFields permet d’accéder aux ECFs associés à un projet individuel. 
+   Les propriétés de champ personnalisé d’entreprise autres que les valeurs du champ sont stockées dans des objets CustomField (un objet par projet). Utilisez une collection CustomFields pour accéder aux champs personnalisés d’entreprise associés à un projet individuel. 
     
-5. Chaque projet stocke les ECFs associés à une collection où chaque entrée ECF se compose d’une clé--le nom interne de l’ECF--et un objet qui conserve la valeur de l’ECF. Transfert de la collection à un dictionnaire pour accéder aux entrées individuelles. La déclaration suivante.
+5. Chaque projet stocke les champs personnalisés d’entreprise associés dans une collection où chaque champ personnalisé d’entreprise est constitué d’une clé (le nom interne du champ personnalisé d’entreprise) et d’un objet qui conserve la valeur du champ personnalisé d’entreprise. Transférez la collection vers un dictionnaire pour accéder à des entrées individuelles. La déclaration suit.
     
    ```cs
     Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
     
    ```
 
-   La valeur dans une entrée de dictionnaire correspond au type de données de l’ECF. L’objet pour chaque ECF correspond à l’un des différents types de. La plupart des ECFs utilisent les types simples qui entrent dans les variables standards. Le fragment suivant montre que le traitement minimal est impliqué pour plusieurs types de :
+   La valeur dans une entrée de dictionnaire correspond au type de données du champ personnalisé d’entreprise. L’objet pour chaque champ personnalisé d’entreprise effectue un mappage vers un type parmi d’autres. La plupart des champs personnalisés d’entreprise utilisent des types simples qui s’intègrent dans des variables standard. Le fragment suivant montre qu’un traitement minimal est impliqué pour plusieurs types :
     
    ```cs
     switch (cf.FieldType)
@@ -157,7 +157,7 @@ La méthode Main gère le flux de l’application. Comme avec d’autres applica
     
    ```
 
-   La table de choix de valeurs de texte, toutefois, requiert un traitement supplémentaire. L’application extrait la table de choix approprié du service et renvoie l’instance ECF (avec des valeurs uniques ou multiples) en parcourant la table de choix. Le fragment de code suivant illustre le traitement de texte ECFs, y compris ceux avec des valeurs simples et ceux qui utilisent des tables de choix : 
+   Toutefois, la table de choix des valeurs TEXT requiert un traitement supplémentaire. L’application récupère la table de choix appropriée du service et génère l’instance de champ personnalisé d’entreprise (avec une ou plusieurs valeurs) en navigant dans la table de choix. Le fragment de code suivant montre un traitement de champs personnalisés d’entreprise TEXT, y compris ceux ayant des valeurs simples et ceux utilisant des tables de choix : 
     
    ```cs
     case CustomFieldType.TEXT:
@@ -184,11 +184,11 @@ La méthode Main gère le flux de l’application. Comme avec d’autres applica
     
    ```
 
-   Cette application renvoie simplement la valeur (s) ; Toutefois, il est possible d’obtenir davantage de signification dans les valeurs de données.
+   Cette application génère simplement les valeurs. Toutefois, il est possible de savoir plus en détail ce que les valeurs de données signifient.
     
 ## <a name="listpwacustomfields"></a>ListPWACustomFields
 
-La méthode ListPWACustomFields récupère et répertorie les ECFs associés aux projets. Cette méthode répertorie les ECFs inscrits sur l’instance de PWA qui peut être associé à des projets individuels. Le point d’entrée pour accéder aux ECFs utilise l’élément CustomFields du contexte du projet, comme illustré à la demande de requête suivante :
+La méthode ListPWACustomFields récupère et répertorie les champs personnalisés d’entreprise associés à des projets. Cette méthode répertorie les champs personnalisés d’entreprise inscrits sur l’instance PWA qui peuvent être associés à des projets individuels. Le point d’entrée pour accéder aux champs personnalisés d’entreprise utilise l’élément CustomFields du contexte du projet, comme dans la demande de requête suivante :
   
 ```cs
 // Project ECFs
@@ -201,13 +201,14 @@ La méthode ListPWACustomFields récupère et répertorie les ECFs associés aux
 
 ```
 
-La méthode ne vérifie pas si un projet utilise un ECF spécifique.
+La méthode ne vérifie pas si un projet utilise un champ personnalisé d’entreprise spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Portail de développement Project](https://developer.microsoft.com/en-us/project)
-- [Vue d’ensemble : Tables de choix et champs personnalisés d’entreprise](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
-- [Local et champs personnalisés d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
-- [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
+- [Portail de développement Project](https://developer.microsoft.com/fr-FR/project)
+- 
+  [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Champs personnalisés locaux et d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
+- [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     
 
