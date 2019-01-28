@@ -4,52 +4,52 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: ''
-ms.openlocfilehash: 39f31293e99d46f33e9e9a071bd489dd461a1553
-ms.sourcegitcommit: 4590b7ed906d008693a58abe63f089ed8a380b34
-ms.translationtype: MT
+localization_priority: Priority
+ms.openlocfilehash: 7184bcc7656fc98b2deb3677e0c94291897d0914
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26643226"
+ms.lasthandoff: 01/17/2019
+ms.locfileid: "28722899"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipuler le format de fichier Visio par programmation
 
 ![Rubrique de procédure](media/mod_icon_howto.png)
   
-Découvrez comment créer une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionnez composants dans le package, modifiez les données dans un composant et ajouter de nouveaux composants au package.
+Découvrez comment créer une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionner des composants du package, modifier les données d’un composant et ajouter de nouveaux composants au package.
   
 |||
 |:-----|:-----|
-|**Dans cet article** [Essentials de manipulation de format de fichier Visio](#vis15_ManipulateFF_Essentials) [Créer un fichier .vsdx et une nouvelle solution Visual Studio](#vis15_ManipulateFF_CreateFile) [Ouvrir un fichier Visio 2013 sous forme de package](#vis15_ManipulateFF_OpenPackage) [Sélectionnez et lire des parties de package à partir d’un package](#vis15_ManipulateFF_SelectPart) [Sélectionnez et modifiez les données XML dans un composant de package](#vis15_ManipulateFF_ChangeXML) [Recalculer des données dans le fichier](#vis15_ManipulateFF_Recalculate) [Ajouter un nouveau composant de package vers un package](#vis15_ManipulateFF_AddNewPart) [Accusés de réception](#vis15_ManipulateFF_Ackn) [Ressources supplémentaires](#vis15_ManipulateFF_Additional)                                                                                         ||
+|**Dans cet article**         [Principes essentiels de manipulation du format de fichier Visio](#vis15_ManipulateFF_Essentials)          [Créer un fichier .vsdx et une nouvelle solution Visual Studio](#vis15_ManipulateFF_CreateFile)          [Ouvrir un fichier Visio 2013 sous forme de package](#vis15_ManipulateFF_OpenPackage)          [Sélectionner et lire des composants d’un package](#vis15_ManipulateFF_SelectPart)          [Sélectionner et modifier des données XML dans un composant de package](#vis15_ManipulateFF_ChangeXML)          [Recalculer des données dans le fichier](#vis15_ManipulateFF_Recalculate)          [Ajouter un nouveau composant à un package](#vis15_ManipulateFF_AddNewPart)          [Remerciements](#vis15_ManipulateFF_Ackn)          [Ressources supplémentaires](#vis15_ManipulateFF_Additional)||
    
 ## <a name="visio-file-format-manipulation-essentials"></a>Principes essentiels de manipulation du format de fichier Visio
 <a name="vis15_ManipulateFF_Essentials"> </a>
 
-Les versions précédentes de Visio enregistrement les fichiers dans un format de fichier binaire propriétaire (.vsd) ou un format de fichier de dessin de Visio XML (.vdx) monodocument. Visio 2013 introduit un nouveau format de fichier (.vsdx), qui repose sur les technologies d’archivage XML et ZIP. Comme dans les versions précédentes de Visio, les fichiers sont enregistrés dans un conteneur unique. Contrairement aux fichiers hérités, toutefois, le nouveau format de fichier peut être ouvert, lire, mis à jour, modifié et construit sans l’automatisation de l’application Visio 2013. Les développeurs qui sont familiarisés avec la manipulation du XML ou l’utilisation de l’espace de noms [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) peuvent rapidement commencer à utiliser avec le nouveau format de fichier par programme. Les développeurs qui ont travaillé avec le format de dessin de Visio XML à partir de versions précédentes trouverez que la plupart des structures de ce format ont été conservées dans le nouveau format de fichier. 
+Les versions précédentes de Visio enregistraient les fichiers dans un format de fichier binaire propriétaire (.vsd) ou dans un format de fichier de dessin Visio XML (.vdx) de document unique. Visio 2013 propose un nouveau format de fichier (.vsdx) qui est basé sur les technologies d’archive XML et ZIP. Comme dans les versions précédentes de Visio, les fichiers sont enregistrés dans un seul conteneur. Toutefois, contrairement aux fichiers hérités, le nouveau format de fichier peut être ouvert, lu, mis à jour, modifié et créé sans automatiser l’application Visio 2013. Les développeurs qui sont habitués à manipuler le code XML ou l’espace de noms [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) peuvent rapidement commencer à utiliser le nouveau format de fichier par programmation. Les développeurs ayant travaillé avec le format de dessin Visio XML des versions précédentes s’apercevront que bon nombre des structures de ce format ont été conservées dans le nouveau format de fichier. 
   
-Dans cet article, nous analysons comment travailler avec le format de fichier Visio 2013 par programmation, à l’aide du Microsoft .NET Framework 4.5, c# ou Visual Basic et Visual Studio 2012. Vous pouvez voir comment ouvrir un fichier Visio 2013, sélectionnez parties de document dans le fichier, modifier des données dans des composants WebPart et créer un nouveau composant de document.
+Dans cet article, nous expliquons comment utiliser le format de fichier Visio 2013 par programmation, à l’aide de Microsoft .NET Framework 4.5, C# ou Visual Basic et Visual Studio 2012. Vous découvrirez comment ouvrir un fichier Visio 2013, sélectionner des composants de document dans ce fichier, modifier des données dans les composants et créer un composant de document.
   
 > [!NOTE]
-> Les exemples de code dans cet article supposent que vous avez une connaissance élémentaire des classes dans les espaces de noms [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) et [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . > Cet article part également du principe que vous maîtrisez les concepts et la terminologie de l’Open Packaging Conventions. Vous devez disposer de se familiariser avec les concepts de relations ou parties de packages, packages et parties de document. Pour plus d’informations, voir [OPC : une nouvelle norme pour l’empaquetage de vos données](https://msdn.microsoft.com/magazine/cc163372.aspx). > Le code montre comment créer des requêtes LINQ (Language-Integrated Query) pour sélectionner XML. La plupart des exemples de code utilisent la syntaxe de requête pour la création de requêtes LINQ. Vous pouvez réécrire une des requêtes LINQ fournies dans le code à l’aide de la syntaxe de la méthode LINQ, si nécessaire. Pour plus d’informations sur la syntaxe de requête LINQ et la syntaxe de la méthode, voir [La syntaxe de requête LINQ et syntaxe de méthode (c#)](https://msdn.microsoft.com/library/bb397947.aspx)> le tableau 1 présente les rubriques essentielles que vous devez maîtriser avant tout au long de cet article. 
+> Les exemples de code présentés dans cet article supposent que vous disposiez d’une connaissance rudimentaire des classes dans les espaces de noms [System.Xml.Linq](https://msdn.microsoft.com/library/System.Xml.Linq.aspx) et [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx). > Cet article repose également sur l’hypothèse selon laquelle vous comprenez les concepts et la terminologie des OPC (Open Packaging Conventions). Vous devez être familier avec les concepts de packages, les composants de document ou les composants de package et les relations. Pour plus d’informations, voir [OPC : une nouvelle norme pour les packages de données](https://msdn.microsoft.com/magazine/cc163372.aspx). > Le code montre comment créer des requêtes LINQ (Language Integrated Query) pour sélectionner XML. La plupart des exemples de code utilisent la syntaxe de la requête pour créer des requêtes LINQ. Vous pouvez réécrire n’importe quelle requête LINQ fournie dans le code à l’aide de la syntaxe de la méthode LINQ, le cas échéant. Pour plus d’informations sur la syntaxe de la requête LINQ et la syntaxe de la méthode, voir [Comparaisons entre la syntaxe de la requête LINQ et la syntaxe de la méthode (C#)](https://msdn.microsoft.com/library/bb397947.aspx)> Le Tableau 1 indique les rubriques essentielles que vous devez connaître avant de parcourir cet article. 
   
 **Tableau 1. Principes de base pour la manipulation du format de fichier Visio 2013**
 
 |**Titre d’article**|**Description**|
 |:-----|:-----|
-|[Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Cette vue d’ensemble décrit quelques-unes des principales fonctionnalités du format de fichier Visio 2013. Il présente Open Packaging Conventions (OPC) comme ils ont été appliqués au format de fichier Visio 2013. Il indique également les différences entre le format de fichier Visio 2013 et le format de fichier de dessin de Visio XML (.vdx) précédent.  <br/> |
-|[OPC : Une nouvelle norme pour l’empaquetage de vos données](https://msdn.microsoft.com/magazine/cc163372.aspx) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept.  <br/> |
-|[Notions essentielles de l’Open Packaging Conventions](https://msdn.microsoft.com/library/ee361919.aspx) <br/> [Présentation des Formats de fichier Open XML Office (2007)](https://msdn.microsoft.com/library/aa338205.aspx) <br/> |Ces deux articles décrivent comment Open Packaging Conventions ont été appliquées aux fichiers Microsoft Office. Elles contiennent les descriptions de fonctionnement relations dans un package et comprennent également des exemples de code.  <br/> |
+|[Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Cette vue d’ensemble de haut niveau décrit quelques-unes des principales fonctionnalités du format de fichier Visio 2013. Elle traite des OPC (Open Packaging Conventions) qui ont été appliqués au format de fichier Visio 2013. Elle répertorie également quelques différences entre le format de fichier Visio 2013 et le format de fichier de dessin Visio XML précédent (.vdx).  <br/> |
+|[OPC : une nouvelle norme pour les packages de données](https://msdn.microsoft.com/magazine/cc163372.aspx) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept.  <br/> |
+|[Éléments fondamentaux des OPC (Open Packaging Conventions)](https://msdn.microsoft.com/library/ee361919.aspx) <br/> [Présentation des formats de fichier Office (2007) Open XML](https://msdn.microsoft.com/library/aa338205.aspx) <br/> |Ces deux articles traitent de la manière dont les spécifications des normes Open Packaging Conventions ont été appliquées aux fichiers Microsoft Office. Ils contiennent des descriptions sur le fonctionnement des relations dans un package, et incluent également quelques exemples de code.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Créer un fichier .vsdx et une nouvelle solution Visual Studio
 <a name="vis15_ManipulateFF_CreateFile"> </a>
 
-Avant de pouvoir commencer à travailler dans les procédures dans cet article, vous devez créer un fichier Visio 2013 pour ouvrir et manipuler. Le dessin utilisé dans les exemples de code de cet article contient une seule page avec deux formes connectées sur celui-ci, une des formes en cours d’une forme « Début/fin » à partir du modèle « Organigramme de base ».
+Avant de commencer à parcourir les procédures décrites dans cet article, vous devez créer un fichier Visio 2013 à ouvrir et manipuler. Le dessin utilisé dans les exemples de code au fil de cet article contient une seule page avec deux formes liées. L’une d’elles est une forme « Début/fin » du modèle « Diagramme de flux simple ».
   
-Utilisez la procédure suivante pour créer un nouveau fichier Visio 2013 à utiliser dans le reste des procédures dans cet article.
+Utilisez la procédure suivante pour créer un fichier Visio 2013 à utiliser dans les autres procédures de cet article.
   
-### <a name="to-create-new-file-in-visio-2013"></a>Pour créer un nouveau fichier dans Visio 2013
+### <a name="to-create-new-file-in-visio-2013"></a>Pour créer un fichier Visio 2013
 
 1. Ouvrez Visio 2013.
     
@@ -65,20 +65,20 @@ Utilisez la procédure suivante pour créer un nouveau fichier Visio 2013 à uti
     
 7. Dans le menu contextuel de la forme Début/fin, sélectionnez **Ajouter un connecteur à la page**, puis tracez un connecteur entre les formes Processus et Début/fin sur la zone de dessin, comme illustré dans la figure 1.
     
-    **La figure 1. Simple dessin Visio 2013**
+    **Figure 1. Dessin Visio 2013 simple**
     
      ![Forme de début/fin liée à une forme de processus](media/vis15_SimpleFlowchart.png)
   
 8. Enregistrez le fichier sur votre bureau au format .vsdx en sélectionnant **Fichier**, **Enregistrer sous**, **Ordinateur**, **Bureau**.
     
-    Dans la boîte de dialogue **Enregistrer sous** , entrez Visio Package dans la zone **nom de fichier** » », sélectionnez **dessin Visio (\*.vsdx)** dans l' **Enregistrer en tant que type** de liste, puis cliquez sur le bouton **Enregistrer** . 
+    Dans la boîte de dialogue **Enregistrer sous**, entrez Package Visio dans la zone **Nom de fichier**, sélectionnez **Dessin Visio (\*.vsdx)** dans la liste **Type de fichier**, puis cliquez sur le bouton **Enregistrer**. 
     
 9. Fermez le fichier, puis fermez Visio 2013.
     
 > [!TIP]
-> Parfois Visio ouvre un fichier correctement même s’il existe des problèmes avec le fichier. Pour vous assurer que Visio vous avertit d’éventuels problèmes de fichier, vous devez activer les avertissements Ouvrir fichier lors du test de solutions qui manipulent des fichiers Visio au niveau du package de fichiers. > Pour activer des avertissements de fichier ouvert, dans Visio 2013, choisissez **fichier**, **Options**, **Options avancées**. Sous **Enregistrer/Ouvrir**, sélectionnez **Afficher les avertissements ouvrir de fichier**. 
+> Parfois Visio ouvre un fichier avec succès même s’il existe des problèmes avec ce fichier. Pour vous assurer que Visio vous avertit de tous les problèmes de fichier, vous devez activer les avertissements à l’ouverture des fichiers lors du test des solutions qui manipulent les fichiers Visio au niveau du package de fichiers. > Pour activer les avertissements lors de l’ouverture des fichiers, dans Visio 2013, sélectionnez **Fichier**, **Options**, **Avancé**. Sous **Enregistrer/Ouvrir**, sélectionnez **Afficher les avertissements lors de l’ouverture des fichiers**. 
   
-Ces procédures utilisent une application console Windows pour manipuler les fichiers de « Visio Package.vsdx ». Utilisez la procédure suivante pour créer et configurer une nouvelle application de console Windows dans Visual Studio 2012.
+Les procédures suivantes utilisent une application console Windows pour manipuler le fichier « Visio Package.vsdx ». La procédure suivante permet de créer et de configurer une nouvelle application console Windows dans Visual Studio 2012.
   
 ### <a name="to-create-a-new-solution-in-visual-studio-2012"></a>Pour créer une nouvelle solution dans Visual Studio 2012
 
@@ -86,13 +86,13 @@ Ces procédures utilisent une application console Windows pour manipuler les fic
     
 2. Dans la boîte de dialogue **Nouveau projet**, développez **Visual C#** ou **Visual Basic**, puis choisissez **Windows**, **Application console**.
     
-    Dans la zone **nom** , entrez 'VisioFileAccessor', sélectionnez un emplacement pour le projet, puis cliquez sur le bouton **OK** . 
+    Dans la zone **Nom**, entrez « VisioFileAccessor », sélectionnez un emplacement pour le projet, puis sélectionnez le bouton **OK**. 
     
-3. Dans le menu **projet**, choisissez **Ajouter une référence**. 
+3. Dans le menu **Projet**, choisissez **Ajouter une référence**. 
     
     Dans la boîte de dialogue **Gestionnaire de références**, sous **Montages**, choisissez **Framework**, puis ajoutez une référence aux composants **System.Xml ** et **WindowsBase**. 
     
-4. Dans le fichier Program.cs ou Module1.vb du projet, ajoutez les directives **using** suivantes (instructions **Imports** dans Visual Basic) : 
+4. Dans le fichier Program.cs ou Module1.vb du projet, ajoutez les directives **using** suivantes (instructions **imports** dans Visual Basic) : 
     
   ```cs
   using System.Xml;
@@ -132,12 +132,12 @@ Ces procédures utilisent une application console Windows pour manipuler les fic
 ## <a name="open-a-visio-2013-file-as-a-package"></a>Ouvrir un fichier Visio 2013 sous forme de package
 <a name="vis15_ManipulateFF_OpenPackage"> </a>
 
-Avant de pouvoir manipuler des données dans le fichier, vous devez d’abord ouvrir le fichier dans un objet de [Package](https://msdn.microsoft.com/library/System.IO.Packaging.Package.aspx) , qui est contenu dans l’espace de noms [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx) . L’objet **Package** représente le fichier de Visio dans sa globalité. Il expose des membres qui vous permettent de sélectionner des parties de document individuel dans le package de fichier. En particulier, la classe de **Package** expose la méthode [Open (String, FileMode, FileAccess)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.Open.aspx) statique qui vous permet d’ouvrir un fichier en tant que package. Il expose également une méthode [Close()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.Close.aspx) pour fermer le package une fois que vous avez terminé avec lui. 
+Avant de manipuler les données dans le fichier, vous devez tout d’abord ouvrir le fichier dans un objet [Package](https://msdn.microsoft.com/library/System.IO.Packaging.Package.aspx) qui est contenu dans l’espace de noms [System.IO.Packaging](https://msdn.microsoft.com/library/System.IO.Packaging.aspx). L’objet **Package** représente le fichier Visio dans son ensemble. Il présente les membres qui vous permettent de sélectionner des composants de documents individuels dans le package de fichiers. En particulier, la classe **Package** présente la méthode [Open(String, FileMode, FileAccess)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.Open.aspx) statique que vous utilisez pour ouvrir un fichier sous forme de package. Il présente également une méthode [Close()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.Close.aspx) pour fermer le package une fois l’opération terminée. 
   
 > [!TIP]
-> Meilleure pratique, utilisez un bloc **à l’aide** pour ouvrir le fichier de Visio dans l’objet **Package** afin que vous n’avez pas besoin de fermer explicitement le package du fichier lorsque vous avez terminé avec lui. Vous pouvez également appeler explicitement la méthode **Package.Close** dans le bloc **finally** d’une construction **try/catch/finally** . 
+> Il est recommandé d’utiliser un bloc **using** pour ouvrir le fichier Visio dans l’objet **Package** pour ne pas être obligé de fermer explicitement le package de fichiers une fois l’opération terminée.  Vous pouvez également appeler explicitement la méthode **Package.Close** dans le bloc **finally** d’une construction **try/catch/finally**. 
   
-Utilisez le code suivant pour obtenir le chemin d’accès complet pour le fichier « Visio Package.vsdx » à l’aide d’un objet [FileInfo](https://msdn.microsoft.com/library/System.IO.FileInfo.aspx) et transmettre le chemin d’accès en tant qu’argument à la méthode **Package.Open** , retourne un objet de **Package** pour le code d’appel. 
+Utilisez le code suivant pour obtenir le chemin d’accès complet du fichier « Visio Package.vsdx » à l’aide d’un objet [FileInfo](https://msdn.microsoft.com/library/System.IO.FileInfo.aspx), transmettez le chemin d’accès comme un argument vers la méthode **Package.Open**, puis renvoyez un objet **Package** au code appelant. 
   
 ### <a name="to-open-a-vsdx-file-as-a-package"></a>Pour ouvrir un fichier .vsdx sous forme de package
 
@@ -220,13 +220,13 @@ Utilisez le code suivant pour obtenir le chemin d’accès complet pour le fichi
 ## <a name="select-and-read-package-parts-from-a-package"></a>Sélectionner et lire des composants d’un package
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-Une fois le fichier Visio 2013 ouvert en tant que package, vous pouvez accéder les parties de document qu’il contient à l’aide de la classe [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluse dans l’espace de noms **System.IO.Packaging** . Objets **PackagePart** peuvent être instanciés individuellement ou en tant que collection. La classe de **Package** expose une méthode [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) et une méthode [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) pour obtenir des objets **PackagePart** hors du **Package**. La méthode **Package.GetParts** retourne une instance de la classe [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) , vous pouvez interagir avec comme n’importe quelle autre collection qui implémente le [IEnumerator\<T\> ](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) interface. 
+Une fois que le fichier Visio 2013 est ouvert sous forme de package, vous pouvez accéder aux composants de documents qu’il contient à l’aide de la classe [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluse dans l’espace de noms **System.IO.Packaging**. Les objets **PackagePart** peuvent être instanciés individuellement ou comme un ensemble. La classe **Package** présente une méthode [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) et une méthode [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) pour extraire les objets **PackagePart** du ** Package**. La méthode **Package.GetParts** renvoie une instance de la classe [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx), avec laquelle vous pouvez interagir comme toute autre collection qui implémente l’interface [IEnumerator \<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2). 
   
 Utilisez le code de la procédure suivante pour obtenir un objet **PackagePartCollection** du **Package** sous forme de collection, effectuez une itération dans les objets **PackagePart** de la collection et écrivez l’URI et le type de contenu de chaque **PackagePart** dans la console. 
   
 ### <a name="to-iterate-through-the-package-parts-in-a-package"></a>Pour effectuer une itération dans les composants d’un package
 
-1. Après le `OpenPackage` méthode dans la classe de **programme** (ou le **Module1** dans Visual Basic), ajoutez le code suivant. 
+1. Après la méthode `OpenPackage` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez le code suivant. 
     
   ```cs
   private static void IteratePackageParts(Package filePackage)
@@ -305,20 +305,20 @@ L’application console produit une sortie semblable à la suivante (un composan
   
  `Press any key to continue …`
   
-Plus souvent non, vous devez sélectionner un **PackagePart** sans avoir à parcourir tous les. Vous pouvez obtenir un objet **PackagePart** à partir d’un **Package** à l’aide de sa relation avec le **Package** ou une autre **PackagePart**. Une relation dans le format de fichier est une entité discrète qui décrit la relation entre un composant de document Visio 2013 du package de fichier ou comment deux parties de document par rapport à l’autre. Par exemple, le package de fichier Visio 2013 lui-même a une relation avec son composant Visio Document et le composant Visio Document a une relation avec le composant Windows. Ces relations sont représentées par des instances des classes [PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) ou [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx) . 
+Bien souvent, vous devez sélectionner un objet **PackagePart** sans avoir à effectuer d’itération dans tous les composants. Vous pouvez obtenir un objet **PackagePart** à partir d’un **Package** à l’aide de sa relation avec un **Package** ou un autre **PackagePart**. Une relation dans le format de fichier Visio 2013 est une entité discrète qui décrit comment un composant de document est lié au package de fichiers ou comment deux composants de document sont liés entre eux. Par exemple, le package de fichiers Visio 2013 a lui-même une relation avec son composant de document Visio et le composant de document Visio a une relation avec le composant Windows. Ces relations sont représentées par des instances des classes [PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) ou [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx). 
   
-La classe de **Package** expose plusieurs méthodes pour obtenir les relations qu’il contient en tant qu’objets **PackageRelationship** ou **PackageRelationshipCollection** . Vous pouvez utiliser la méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) pour instancier un objet **PackageRelationshipCollection** qui contient les objets **PackageRelationship** d’un type spécifique unique. Bien sûr, à l’aide de la méthode **Package.GetRelationshipsByType** nécessite que vous connaissez le type de relation dont vous avez besoin. Types de relation sont des chaînes au format d’espace de noms XML. Par exemple, le type de relation du composant Visio Document est https://schemas.microsoft.com/visio/2010/relationships/document. 
+La classe **Package** présente plusieurs méthodes pour obtenir les relations qu’elle contient en tant qu’objet **PackageRelationship** ou **PackageRelationshipCollection**. Vous pouvez utiliser la méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) pour instancier un objet **PackageRelationshipCollection** qui contient les objets **PackageRelationship** d’un type spécifique. Bien entendu, l’utilisation de la méthode **Package.GetRelationshipsByType** nécessite que vous connaissiez déjà le type de relation dont vous avez besoin. Les types de relations sont des chaînes au format d’espace de noms XML. Par exemple, le type de relation du composant de document Visio est https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Une fois que vous connaissez la relation entre un **PackagePart** et un **Package** ou un autre **PackagePart** (autrement dit, lorsque vous avez un objet **PackageRelationship** qui fait référence au **PackagePart** de votre choix), vous pouvez utiliser cette relation pour obtenir l’URI de ce **PackagePart**. Vous devez ensuite transmettre l’URI à la méthode **Package.GetPart** pour renvoyer le **PackagePart**.
   
 > [!NOTE]
-> Vous pouvez également obtenir une référence à une spécifique **PackagePart** en utilisant simplement la méthode **Package.GetPart** et l’URI du **PackagePart**, sans passer par l’étape où vous procurer le package de relations du composant. Cependant, certaines parties de package dans le package de fichier Visio peuvent être enregistrés à des emplacements autres que de leurs emplacements par défaut dans un package. Vous ne pouvez pas partent du principe qu’un composant de package se trouve toujours sur le même URI pour chaque fichier. > Au lieu de cela, il est recommandé d’utiliser des relations pour accéder aux objets **PackagePart** individuels. 
+> Vous pouvez également obtenir une référence à un **PackagePart** spécifique à l’aide de la méthode **Package.GetPart** et de l’URI du **PackagePart**, sans passer par l’étape d’obtention des relations du composant de package. Toutefois, certains composants de package dans le package de fichiers Visio peuvent être enregistrés à un emplacement différent de leur emplacement par défaut dans un package. Vous ne pouvez pas partir du principe qu’un composant de package se trouve toujours dans le même URI pour chaque fichier. > Il est plutôt recommandé d’utiliser les relations pour accéder à des objets **PackagePart** individuels. 
   
 Utilisez la procédure suivante pour obtenir un **PackagePart** (le composant de document Visio) à l’aide de l’élément **PackageRelationship** à partir du **Package** qui fait référence au composant. 
   
 ### <a name="to-select-a-specific-package-part-in-the-package-by-relationship"></a>Pour sélectionner un composant du package spécifique dans le package par relation
 
-1. Après le `IteratePackageParts` méthode dans la classe de **programme** (ou le **Module1** dans Visual Basic), ajoutez la méthode suivante. 
+1. Après la méthode `IteratePackageParts` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
     
   ```cs
   private static PackagePart GetPackagePart(Package filePackage, 
@@ -381,15 +381,15 @@ Utilisez la procédure suivante pour obtenir un **PackagePart** (le composant de
   
   ```
 
-Comme mentionné précédemment, vous pouvez également obtenir **PackagePart** objets à l’aide de leur relation avec les autres objets **PackagePart** . Ceci est important car, pour un document Visio complexe, la plupart des objets **PackagePart** ne disposent d’une relation vers le **Package**. Par exemple, une partie du contenu de Page individuelle dans le package de fichiers (c'est-à-dire, /visio/pages/page1.xml) a une relation pour le composant d’Index de la Page (c'est-à-dire, /visio/pages/pages.xml) mais pas pour le package du fichier lui-même. Si vous ne disposez pas l’URI exact de la page individuelle dans le package, vous pouvez utiliser sa relation avec le composant d’Index de la Page pour obtenir une référence à celui-ci.
+Comme mentionné précédemment, vous pouvez également obtenir des objets **PackagePart** à l’aide de leur relation avec les autres objets **PackagePart**. Cet aspect est très important, car, pour un document Visio de n’importe quelle complexité, la plupart des objets **PackagePart** n’ont pas de relation avec le **Package**. Par exemple, un composant du contenu de la page individuelle dans le package de fichiers (c’est-à-dire, /visio/pages/page1.xml) a une relation avec le composant d’index de la page (c’est-à-dire, /visio/pages/pages.xml) mais pas avec le package de fichiers lui-même. Si vous n’avez pas l’URI exact de la page individuelle dans le package, vous pouvez utiliser sa relation avec le composant d’index de la page pour obtenir une référence à celui-ci.
   
-La classe **PackagePart** expose une méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.GetRelationshipsByType.aspx) que vous pouvez utiliser pour renvoyer un objet **PackageRelationshipCollection** qui contient le seul type d’objet **PackageRelationship** . Une fois la **PackageRelationshipCollection**, vous pouvez sélectionner **PackageRelationship** que vous avez besoin de la collection et ensuite référencez l’objet **PackagePart** . 
+La classe **PackagePart** présente une méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.GetRelationshipsByType.aspx) qui vous permet de renvoyer un objet **PackageRelationshipCollection** qui contient un seul type d’objet **PackageRelationship**. Une fois l’objet **PackageRelationshipCollection** obtenu, vous pouvez sélectionner l’objet **PackageRelationship** dont vous avez besoin à partir de la collection, puis référencer l’objet **PackagePart**. 
   
-Utilisez le code suivant pour obtenir un objet **PackagePart** du **Package** à l’aide de ses relations avec (obtention d’un objet **PackageRelationship** à partir de) un autre objet **PackagePart**.
+Utilisez le code suivant pour obtenir un objet **PackagePart** à partir du **Package** à l’aide de sa relation avec (obtention d’un objet **PackageRelationship** à partir de) un autre objet **PackagePart**.
   
 ### <a name="to-select-a-specific-package-part-through-its-relationship-to-another-package-part"></a>Pour sélectionner un composant du package spécifique via sa relation avec un autre composant du package
 
-1. Après le `GetPackagePart` méthode dans la classe de **programme** (ou le **Module1** dans Visual Basic), ajoutez la méthode suivante de la surcharge. 
+1. Après la méthode `GetPackagePart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode de surcharge suivante. 
     
   ```cs
   private static PackagePart GetPackagePart(Package filePackage, 
@@ -457,7 +457,7 @@ Utilisez le code suivant pour obtenir un objet **PackagePart** du **Package** à
       "https://schemas.microsoft.com/visio/2010/relationships/page") 
   ```
 
-Avant que vous pouvez modifier le code XML inclus dans un composant de document, vous devez d’abord charger le document XML dans un objet qui vous permet de lire le code XML, à l’aide de la classe [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) ou la classe [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx) . Les deux classes exposent des méthodes pour des tâches telles que la sélection d’éléments XML contenus dans les documents XML ; Création, lecture et écriture des attributs ; et insertion de nouveaux éléments XML dans un document. 
+Avant de pouvoir apporter des modifications au code XML inclus dans un composant de document, vous devez tout d’abord charger le document XML dans un objet qui permet de lire le code XML à l’aide de la classe [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) ou de la classe [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx). Les deux classes présentent les méthodes relatives aux tâches comme la sélection des éléments XML inclus dans les documents XML, la création, la lecture et l’écriture d’attributs et l’insertion de nouveaux éléments XML dans un document. 
   
 La classe **XDocument** vous permet d’interroger le code XML à l’aide de LINQ. Avec LINQ, vous pouvez facilement sélectionner des éléments individuels à partir d’un document XML en créant des requêtes, plutôt que via une itération sur tous les éléments d’une collection et plutôt qu’un test effectué sur les éléments nécessaires. Pour cela, les procédures suivantes dans cet article utilisent la classe **XDocument** et les autres classes de l’espace de noms **System.Xml.Linq** pour utiliser le langage XML. 
   
@@ -465,7 +465,7 @@ Utilisez la procédure suivante pour ouvrir un **PackagePart** sous forme de doc
   
 ### <a name="to-read-the-xml-in-a-package-part"></a>Pour lire le code XML dans un composant de package
 
-1. Après la dernière surcharge pour le `GetPackagePart` méthode dans la classe de **programme** (ou le **Module1** dans Visual Basic), ajoutez la méthode suivante. 
+1. Après la dernière surcharge pour la méthode `GetPackagePart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
     
   ```cs
   private static XDocument GetXMLFromPart(PackagePart packagePart)
@@ -507,13 +507,13 @@ Utilisez la procédure suivante pour ouvrir un **PackagePart** sous forme de doc
 
 Une fois que vous avez chargé un composant de document dans un objet **XDocument**, vous pouvez utiliser LINQ pour sélectionner des éléments XML et apporter des modifications au document XML. Vous pouvez modifier les données XML, ajouter ou supprimer des données, puis enregistrer le document XML sur le composant du document. 
   
-Les tâches élémentaires permettant de manipuler le format de fichier Visio consiste à sélectionner des éléments XML spécifiques ou des collections d’éléments dans le document. L’espace de noms **System.Xml.Linq** inclut la classe [XElement](https://msdn.microsoft.com/library/System.Xml.Linq.XElement.aspx) , qui représente un élément XML. La classe **XElement** vous donne accès aux données contenues dans le fichier Visio à un niveau granulaire, des éléments individuels de **forme** aux éléments **ValidationRule** (en tant qu’exemples). 
+La tâche la plus courante pour manipuler le format de fichier Visio consiste à choisir des éléments XML spécifiques ou des ensembles d’éléments dans le document. L’espace de noms **System.Xml.Linq** inclut la classe [XElement](https://msdn.microsoft.com/library/System.Xml.Linq.XElement.aspx), qui représente un élément XML. La classe **XElement** permet d’accéder aux données figurant dans le fichier Visio à un niveau précis, des éléments **Shape** individuels aux éléments **ValidationRule** (en tant qu’exemples). 
   
 Utilisez le code suivant pour sélectionner les éléments **Shape** à partir d’un **XDocument** (contenant un composant du contenu de la page), puis pour sélectionner un élément **Shape** spécifique. 
   
 ### <a name="to-select-a-specific-element-in-a-package-part"></a>Pour sélectionner un élément spécifique dans un composant de package
 
-1. Après le `GetXMLFromPart` méthode dans la classe de **programme** (ou le **Module1** dans Visual Basic), ajoutez la méthode suivante. 
+1. Après la méthode `GetXMLFromPart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
     
   ```cs
   private static IEnumerable<XElement> GetXElementsByName(
@@ -544,7 +544,7 @@ Utilisez le code suivant pour sélectionner les éléments **Shape** à partir d
   End Function
   ```
 
-2. Après le `GetXElementsByName` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de l’étape précédente, ajoutez la méthode suivante. 
+2. Après la méthode `GetXElementsByName` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static XElement GetXElementByAttribute(IEnumerable<XElement> elements,
@@ -606,7 +606,7 @@ Utilisez le code suivant pour sélectionner les éléments **Shape** à partir d
       shapesXML, "NameU", "Start/End")
   ```
 
-Une fois que vous avez obtenu une référence à un objet **XElement** contenue dans un objet **XDocument** , vous pouvez manipuler comme toutes les données XML et, par conséquent, de modifier les données contenues dans le fichier Visio. Par exemple, si une forme comporte du texte lorsqu’il est ouvert dans Visio, l’élément correspondant de la **forme** contient au moins un élément de **texte** . Si vous modifiez la valeur de cet élément de **texte** , la forme est modifié lorsque le fichier est visualisé dans Visio. 
+Une fois que vous avez obtenu une référence à un objet **XElement** inclus dans un objet **XDocument**, vous pouvez la manipuler comme les autres données XML et, par conséquent, modifier les données figurant dans le fichier Visio. Par exemple, si une forme comporte du texte lors de son ouverture dans Visio, l’élément **Shape** correspondant contient au moins un élément **Text**. Si vous modifiez la valeur de cet élément **Text**, le texte de la forme est modifié lorsque le fichier est affiché dans Visio. 
   
 Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic), pour modifier le texte de la forme Début/fin : « Commencer le processus » devient « Démarrer le processus ». 
   
@@ -636,17 +636,17 @@ textElement.LastNode.ReplaceWith("Start process")
 ```
 
 > [!CAUTION]
-> Dans l’exemple de code précédent, le texte de la forme existante et la chaîne utilisée pour remplacer ont le même nombre de caractères. Notez également que la requête LINQ ne change la valeur du dernier nœud enfant de l’élément retourné (c'est-à-dire, dans ce cas, un nœud de texte). Cette opération est effectuée pour éviter de modifier les paramètres de l’élément **cp** qui est un enfant de l’élément de **texte** . > Il est possible d’instabilité fichier si vous modifiez texte de la forme en remplaçant tous les enfants de l’élément de **texte** par programme. Comme dans l’exemple ci-dessus, le texte de la mise en forme est représenté par les éléments **cp** sous l’élément de **texte** dans le fichier. La définition de la mise en forme est stockée dans l’élément de la **Section** parent. Si ces deux éléments d’information incohérents, le fichier ne peut pas se comporter comme prévu. Visio heals incohérences de nombreuses, mais il est préférable de vous assurer que toutes les modifications par programme sont cohérentes afin que vous contrôlez le comportement du fichier final. 
+> Dans l’exemple de code précédent, le texte de la forme existant et la chaîne utilisée pour le remplacer ont le même nombre de caractères. Notez également que la requête LINQ modifie la valeur du dernier nœud enfant de l’élément renvoyé (dans ce cas, un nœud de texte). Cette opération est effectuée pour éviter de modifier les paramètres de l’élément **cp** qui est un enfant de l’élément **Text**. > Vous risquez d’engendrer l’instabilité du fichier si vous modifiez le texte de la forme par programme en remplaçant tous les enfants de l’élément **Text**. Comme dans l’exemple ci-dessus, la mise en forme du texte est représentée par les éléments **cp** sous l’élément **Text** dans le fichier. La définition de la mise en forme est stockée dans l’élément **Section** parent. Si ces deux informations sont incohérentes, le fichier ne peut pas se comporter comme prévu. Visio règle un grand nombre d’incohérences, mais il est préférable de vous assurer que toute modification apportée par programme est cohérente afin que vous contrôliez le comportement final du fichier. 
   
 Lorsque vous modifiez le code XML d’un composant de document, ces modifications existent seulement en mémoire. Pour rendre ces modifications persistantes dans le fichier, vous devez enregistrer le fichier XML dans le composant du document.
   
-Le code suivant utilise la classe [XmlWriter](https://msdn.microsoft.com/library/System.Xml.XmlWriter.aspx) et classe [XmlWriterSettings](https://msdn.microsoft.com/library/System.Xml.XmlWriterSettings.aspx) pour écrire le code XML dans le composant de package. Bien que vous pouvez utiliser la méthode [Save()](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.Save.aspx) pour enregistrer le code XML dans le composant, **XmlWriter** et classes **XmlWriterSettings** permettent de mieux contrôler la sortie, notamment en spécifiant le type de codage. La classe **XDocument** expose une méthode [WriteTo(XmlWriter)](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.WriteTo.aspx) qui prend un objet **XmlWriter** et écrit XML dans un flux de données. 
+Le code suivant utilise la classe [XmlWriter](https://msdn.microsoft.com/library/System.Xml.XmlWriter.aspx) et la classe [XmlWriterSettings](https://msdn.microsoft.com/library/System.Xml.XmlWriterSettings.aspx) pour réécrire le code XML dans le composant de package. Même si vous utilisez la méthode [Save()](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.Save.aspx) pour réenregistrer le code XML dans le composant, les classes **XmlWriter** et **XmlWriterSettings** vous permettent de mieux contrôler la sortie, y compris la spécification du type de codage. La classe **XDocument** présente une méthode [WriteTo(XmlWriter)](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.WriteTo.aspx) qui prend un objet **XmlWriter** et réécrit le code XML dans un flux de données. 
   
-Utilisez la procédure suivante pour enregistrer le code XML à partir de la page Visio dans le composant de contenu de la Page.
+Utilisez la procédure suivante pour enregistrer le code XML à partir de la page Visio sur le composant du contenu de la page.
   
 ### <a name="to-save-the-changed-xml-back-to-the-package"></a>Pour enregistrer à nouveau le code XML modifié dans le package
 
-1. Après le `GetXElementByAttribute` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de l’étape précédente, ajoutez la méthode suivante. 
+1. Après la méthode `GetXElementByAttribute` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static void SaveXDocumentToPart(PackagePart packagePart, 
@@ -708,23 +708,23 @@ La forme Début/fin doit contenir le texte « Démarrer le processus ».
 ## <a name="recalculate-data-in-the-file"></a>Recalculer des données dans le fichier
 <a name="vis15_ManipulateFF_Recalculate"> </a>
 
-Certaines modifications apportées aux données dans un fichier peuvent nécessiter Visio recalcule le document lorsqu’il ouvre le fichier. Visio fournit de nombreuses logique d’un diagramme, en particulier pour les relations entre les formes (autrement dit, lorsqu’une forme dépend d’un autre) et liaison des formes. Si aucune des données qui utilise la logique personnalisée est modifiée, Visio doit propager les modifications apportées à toutes les données calculées dans le fichier concernées. 
+Certaines modifications apportées aux données dans un fichier peuvent exiger de Visio qu’il recalcule le document lors de l’ouverture du fichier. Visio propose un grand nombre de logiques pour un diagramme, en particulier pour les relations de la forme (c’est-à-dire, lorsqu’une forme dépend d’une autre) et la connexion des formes. Si des données sur lesquelles repose la logique personnalisée sont modifiées, Visio doit propager les modifications à toutes les données calculées concernées dans le fichier. 
   
-Le format de fichier Visio 2013 inclut plusieurs techniques que vous pouvez utiliser pour recalculer des données dans le fichier. Il existe trois types de scénarios qui vous devez tenir compte lorsque vous décidez si vous avez besoin recalculer le fichier Visio et comment procéder :
+Le format de fichier Visio 2013 inclut quelques techniques que vous pouvez utiliser pour recalculer des données dans le fichier. Vous devez prendre en compte 3 types de scénarios lorsque vous décidez si vous souhaitez recalculer le fichier Visio et décidez de la façon de procéder :
   
-- Les modifications apportées aux données n’affectent pas toutes les autres valeurs dans le format de fichier. Vous n’avez pas besoin ajouter des instructions supplémentaires à Visio recalcule le document. Comme indiqué précédemment, vous pouvez souvent modifier le texte d’une forme sans devoir recalculer le document.
+- Les modifications apportées aux données n’affectent pas les autres valeurs dans le format de fichier. Vous n’avez pas besoin d’ajouter des instructions supplémentaires à Visio pour recalculer le document. Comme indiqué précédemment, vous pouvez très souvent modifier le texte d’une forme sans avoir à recalculer le document.
     
-- Les modifications apportées aux données sont limitées à la modification des valeurs des cellules ShapeSheet dans le code XML, et il existe d’autres valeurs de la feuille ShapeSheet qui dépendent de ces données. Dans ce cas, vous devez ajouter un instruction (à l’aide de la classe [XProcessingInstruction](https://msdn.microsoft.com/library/System.Xml.Linq.XProcessingInstruction.aspx) ) à l’élément de **cellule** qui a été modifiée de traitement du XML. Par exemple, la cellule **ThemeIndex** d’une forme affecte les valeurs de plusieurs autres cellules ShapeSheet contenues dans la forme. Si vous modifiez la cellule **ThemeIndex** dans le fichier proprement dit (par exemple, l’élément de **cellule** avec une valeur **N** « ThemeIndex »), vous devez ajouter une instruction de traitement pour l’élément de **cellule** afin que les valeurs dépendantes sont mises à jour . 
+- Les modifications apportées aux données sont limitées à la modification des valeurs des cellules ShapeSheet dans le fichier XML, et d’autres valeurs ShapeSheet dépendent de ces données. Dans ce cas, vous devez ajouter une instruction de traitement XML (à l’aide de la classe [XProcessingInstruction](https://msdn.microsoft.com/library/System.Xml.Linq.XProcessingInstruction.aspx)) à l’élément **Cell** qui a été modifié. Par exemple, la cellule **ThemeIndex** pour une forme affecte les valeurs de plusieurs autres cellules ShapeSheet contenues dans la forme. Si vous modifiez la cellule **ThemeIndex** dans le fichier lui-même (par exemple, l’élément **Cell** avec une valeur **N** « ThemeIndex »), vous devez ajouter une instruction de traitement à l’élément **Cell** afin que les valeurs dépendantes soient mises à jour. 
     
-- Les modifications apportées aux données affectent l’emplacement d’un connecteur ou connection points. Une autre situation est lorsque plusieurs modifications sont apportées aux données de la feuille ShapeSheet et que vous souhaitez recalculer l’intégralité du document avec une instruction (plutôt que d’ajouter des instructions de traitement individuel pour chaque modification). Dans ce cas, vous pouvez demander à Visio recalcule l’intégralité du document lors de son ouverture. Pour ce faire, ajout d’une propriété **RecalcDocument** au composant Propriétés de fichier personnalisées (/ docProps /) du package de Visio. Le réglage de la position ou la taille des formes dans un diagramme connecté est un exemple de ce type de scénario. 
+- Les modifications apportées aux données affectent l’emplacement d’un connecteur ou des points de connexion. Vous pouvez également rencontrer le cas où de nombreuses modifications sont apportées aux données ShapeSheet et vous voulez recalculer l’ensemble du document avec une instruction (au lieu d’ajouter des instructions de traitement individuelles pour chaque modification). Dans ce cas, vous pouvez demander à Visio de recalculer la totalité du document lorsqu’il sera ouvert. Pour ce faire, ajoutez une propriété **RecalcDocument** au composant Propriétés de fichier personnalisées (/docProps/custom.xml) du package Visio. L’ajustement de la position ou de la taille des formes dans un diagramme lié est un exemple de ce type de scénario. 
     
     N’oubliez pas qu’il s’agit de l’option la plus coûteuse en matière de performances.
     
-Utilisez la procédure suivante pour insérer un élément de **cellule** dans un élément de la **forme** , où d’autres éléments de **cellule** dans la même **forme** doivent être recalculées en raison de la nouvelle valeur. Le nouvel élément de **cellule** contient une instruction de traitement comme un élément enfant, pour informer les Visio qui lui sont nécessaires pour effectuer certaines recalcul local. 
+Utilisez la procédure suivante pour insérer un élément **Cell** dans un élément **Shape**, où d’autres éléments **Cell** dans le même élément **Shape** doivent être recalculés en raison de la nouvelle valeur. Le nouvel élément **Cell** inclut une instruction de traitement en tant qu’élément enfant pour informer Visio qu’il doit effectuer un recalcul local. 
   
 ### <a name="to-recalculate-values-for-a-single-shape"></a>Pour recalculer les valeurs d’une forme unique
 
-1. Remplacez le code dans les deux exemples précédents (modification du texte de la forme et de l’appel vers `SaveXDocumentToPart`) dans le bloc **à l’aide** de la méthode **Main** de la classe de **programme** (le bloc de **à l’aide** de la méthode **Main** dans **Module1** dans Visual Basic) avec le code suivant. 
+1. Remplacez le code dans les deux exemples précédents (modification du texte de la forme et de l’appel par `SaveXDocumentToPart`) dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** Visual Basic) par le code suivant. 
     
   ```cs
   // Insert a new Cell element in the Start/End shape that adds an arbitrary
@@ -756,18 +756,18 @@ Utilisez la procédure suivante pour insérer un élément de **cellule** dans u
     
 3. Ouvrez le fichier Visio Package.vsdx dans Visio 2013. La forme Début/fin doit maintenant avoir une couleur de remplissage différente.
     
-Couleur de la forme s’appuie sur la valeur de la cellule **ThemeIndex** — il détermine qui hérite de la forme des thèmes actives. Dans l’exemple précédent, la forme est définie à hériter d’un thème différent (la cellule **ThemeIndex** est définie sur une valeur de « 25 »). Si vous n’utilisez pas une instruction de traitement, couleur du texte de la forme, qui est également affecté par la cellule **ThemeIndex** — n’est pas recalculée. Couleur de remplissage de la forme changerait blanc, mais son texte reste blanc, en laissant le texte illisible. En outre, sans l’instruction de traitement, il est possible que Visio peut mettre à jour la forme à une date ultérieure, en laissant le fichier dans un état instable, où les valeurs de mise en forme de la forme peuvent être mis à jour imprévisible. 
+La couleur de la forme s’appuie sur la valeur de la cellule **ThemeIndex**. Elle détermine les thèmes actifs dont hérite la forme. Dans l’exemple précédent, la forme est définie pour hériter d’un thème différent (la cellule **ThemeIndex** est définie sur une valeur de « 25 »). Si vous n’utilisez pas d’instruction de traitement, la couleur du texte de la forme, qui est également affectée par la cellule **ThemeIndex**, n’est pas recalculée. La couleur de remplissage de la forme devient blanc, mais étant donné que son texte reste blanc, le texte est illisible. En outre, sans l’instruction de traitement, Visio risque de mettre à jour la forme ultérieurement, ce qui place le fichier dans un état instable, dans lequel les valeurs de mise en forme de la forme peuvent être mises à jour de manière imprévisible. 
   
-Si vous modifiez les données dans le fichier qui nécessite que Visio recalcule le document (par exemple, modification de la position d’une forme connecté et, par conséquent, forçant les connecteurs pour rediriger les), vous devez ajouter une instruction de recalcul dans le fichier Visio. L’instruction est créée en ajoutant un élément de **propriété** avec une valeur d’attribut de **nom** de « RecalcDocument » pour le code XML du composant Propriétés de fichier personnalisées du package de fichier Visio. Meilleure pratique, il convient de vérifier le composant Propriétés de fichier personnalisées pour vous assurer qu’une instruction « RecalcDocument » n’a pas déjà été enregistrée dans le fichier. 
+Si vous modifiez des données dans le fichier et que cette action nécessite que Visio recalcule le document (par exemple, la modification de la position d’une forme liée, entraînant par conséquent une obligation de reroutage des connecteurs), vous devez ajouter une instruction de recalcul au fichier Visio. L’instruction est créée en ajoutant un élément **property** avec une valeur d’attribut **name** de « RecalcDocument » au fichier XML du composant Propriétés de fichier personnalisées du package de fichiers Visio. Pour obtenir les meilleurs résultats, vous devez vérifier le composant Propriétés de fichier personnalisées pour vous assurer qu’une instruction « RecalcDocument » n’a pas déjà été enregistrée dans le fichier. 
   
-Utilisez le code suivant pour modifier la valeur de la cellule **PinY** de la forme Début/fin des exemples précédents. Le code sélectionne l’élément de **cellule** qui contient les données de la cellule **PinY** en tant qu’objet **XElement** à l’aide de la valeur de son attribut **N** . Le code ajoute ensuite une instruction recalcul au composant Propriétés de fichier personnalisées du fichier Visio. 
+Utilisez le code suivant pour modifier la valeur de la cellule **PinY** de la forme de début/fin des exemples précédents. Le code sélectionne l’élément **Cell** qui contient les données de la cellule **PinY** en tant qu’objet **XElement** à l’aide de la valeur de son attribut **N**. Le code ajoute ensuite une instruction de recalcul au composant Propriétés de fichier personnalisées du fichier Visio. 
   
 > [!NOTE]
-> Ce code s’appuie sur la `GetPackagePart` et `SaveXDocumentToPart` méthodes créés précédemment. 
+> Ce code repose sur les méthodes `GetPackagePart` et `SaveXDocumentToPart` créées précédemment. 
   
 ### <a name="to-recalculate-the-entire-document-when-it-is-opened"></a>Pour recalculer l’intégralité du document lorsque celui-ci est ouvert
 
-1. Après le `SaveXDocumentToPart` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de l’étape précédente, ajoutez la méthode suivante. 
+1. Après la méthode `SaveXDocumentToPart` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static void RecalcDocument(Package filePackage)
@@ -851,7 +851,7 @@ Utilisez le code suivant pour modifier la valeur de la cellule **PinY** de la fo
       End Sub
   ```
 
-2. Après le `RecalcDocument` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de l’étape précédente, ajoutez la méthode suivante. 
+2. Après la méthode `RecalcDocument` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static int CheckForRecalc(XDocument customPropsXDoc) 
@@ -985,7 +985,7 @@ La forme Début/fin doit maintenant être à 2 pouces du bord inférieur du des
 ## <a name="add-a-new-package-part-to-a-package"></a>Ajouter un nouveau composant à un package
 <a name="vis15_ManipulateFF_AddNewPart"> </a>
 
-Un des scénarios plus courants pour la modification d’un package de fichiers ajoute un nouveau composant de document vers le package. Par exemple, si vous souhaitez ajouter une page de dessin en ajoutant le contenu vers le package de Visio, vous devez ajouter un composant de contenu de la Page vers le package. 
+L’un des scénarios les plus courants pour modifier un package de fichiers est d’ajouter un nouveau composant de document au package. Par exemple, si vous voulez ajouter une page au dessin Visio en ajoutant du contenu au package, vous devez ajouter un composant du contenu de la page au package. 
   
 Le processus d’ajout d’un nouveau composant au package est simple : 
   
@@ -997,11 +997,11 @@ Le processus d’ajout d’un nouveau composant au package est simple :
     
 4. Vous mettez à jour des composants existants qui doivent faire référence au nouveau composant. Par exemple, si vous ajoutez un nouveau composant de contenu de la page (une nouvelle page) dans le fichier, vous devez également mettre à jour le composant d’index de la page (fichier /visio/pages/pages.xml) pour inclure les informations correctes à propos de la nouvelle page.
     
-Utilisez la procédure suivante pour créer un nouveau composant d’extensibilité du ruban dans le fichier Visio. Le nouveau composant d’extensibilité du ruban ajoute au ruban un nouvel onglet avec un seul groupe qui contient un bouton unique.
+La procédure suivante permet de créer un composant d’extensibilité du ruban dans le fichier Visio. Le nouveau composant d’extensibilité du ruban ajoute au ruban un nouvel onglet avec un seul groupe contenant un seul bouton.
   
 ### <a name="to-create-a-new-package-part"></a>Pour créer un composant de package
 
-1. Après le `CheckForRecalc` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de la procédure précédente, ajoutez la méthode suivante. 
+1. Après la méthode `CheckForRecalc` dans la classe **Program** (ou **Module1** dans Visual Basic) de la procédure précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static XDocument CreateCustomUI()
@@ -1072,7 +1072,7 @@ Utilisez la procédure suivante pour créer un nouveau composant d’extensibili
   End Function
   ```
 
-2. Après le `CreateCustomUI` méthode dans la classe de **programme** (ou **Module1** dans Visual Basic) à partir de l’étape précédente, ajoutez la méthode suivante. 
+2. Après la méthode `CreateCustomUI` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
   ```cs
   private static void CreateNewPackagePart(Package filePackage, 
@@ -1150,15 +1150,15 @@ Utilisez la procédure suivante pour créer un nouveau composant d’extensibili
 
 4. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
-5. Ouvrez le fichier Visio Package.vsdx dans Visio 2013, puis cliquez sur l’onglet **personnalisé** . 
+5. Ouvrez le fichier Visio Package.vsdx dans Visio 2013, puis choisissez l’onglet **PERSONNALISÉ**. 
     
-Le ruban personnalisé ressemble à la Figure 2 lorsque le fichier est ouvert dans Visio 2013.
+Le ruban personnalisé ressemble à la figure 2 lorsque le fichier est ouvert dans Visio 2013.
   
- **La figure 2. Taquet de tabulation personnalisé du ruban Visio 2013**
+ **Figure 2. Onglet Personnalisé dans le ruban de Visio 2013**
   
-![Onglet personnalisé dans le ruban](media/vis15_CustomRibbonTab.PNG)
+![Onglet Personnalisé dans le ruban](media/vis15_CustomRibbonTab.PNG)
   
-Le fichier XML créé par le `CreateCustomUI` méthode ressemble à ce qui suit. 
+Le fichier XML créé par la méthode `CreateCustomUI` se présente comme suit. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -1179,27 +1179,27 @@ Le fichier XML créé par le `CreateCustomUI` méthode ressemble à ce qui suit.
 ## <a name="acknowledgements"></a>Remerciements
 <a name="vis15_ManipulateFF_Ackn"> </a>
 
-Nous souhaitons reconnaître la contribution et la saisie de Visio MVP **L’Edlund** pour créer les exemples de code contenues dans cet article technique. Al est un expert reconnu en manipulant le format de fichier Visio, y compris le format de dessin de Visio XML (.vdx) et le nouveau format de fichier Visio (.vsdx). A1 a créé les projets que vous explorez les formats de fichier Visio par programme et expose les structures à l’intérieur. 
+Nous aimerions saluer la contribution et les apports de Visio MVP **Al Edlund** pour la création d’exemples de code contenus dans cet article technique. Al est un expert reconnu dans la manipulation du format de fichier Visio, y compris le format de dessin Visio XML (.vdx) et le nouveau format de fichier Visio (.vsdx). Al a créé des projets qui permettent d’explorer les formats de fichier Visio par programme et présente les structures à l’intérieur. 
   
-Pour plus d’informations sur le travail de Al avec le format de fichier Visio, consultez les liens dans la section ressources supplémentaires qui suit.
+Pour plus d’informations sur son travail avec le format de fichier Visio, consultez les liens dans la section Ressources supplémentaires ci-dessous.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="vis15_ManipulateFF_Additional"> </a>
 
 - Par Al Edlund :
     
-  - projet [pkgVisio - manipulation Visio 2013 XML](https://pkgvisio.codeplex.com/documentation) sur CodePlex. 
+  - [pkgVisio - Manipulation du code XML dans Visio 2013](https://pkgvisio.codeplex.com/documentation) projet sur CodePlex. 
     
-  - [pkgVisio_pt1](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) vidéo sur YouTube. 
+  - [pkgVisio_pt1 ](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) vidéo sur YouTube. 
     
-  - [pkgVisio_pt2](https://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) vidéo sur YouTube. 
+  - [pkgVisio_pt2 ](https://www.youtube.com/watch?v=ZIWSXhNSkG8&amp;feature=youtu.be) vidéo sur YouTube. 
     
 - [Centre de développement Visio](https://msdn.microsoft.com/office/aa905478.aspx)
     
-- [Manipuler des Documents au format Office Open XML](https://msdn.microsoft.com/library/aa982683%28v=office.12%29.aspx)
+- [Manipuler des documents au format Open Office XML](https://msdn.microsoft.com/library/aa982683%28v=office.12%29.aspx)
     
-- [Créer un Document avec des espaces de noms (c#) (LINQ to XML)](https://msdn.microsoft.com/library/bb387075.aspx)
+- [Créer un document avec des espaces de noms (C#) (LINQ vers XML)](https://msdn.microsoft.com/library/bb387075.aspx)
     
-- [Ajouter des parties XML personnalisées à des Documents sans démarrer Microsoft Office](https://msdn.microsoft.com/library/bb608597%28VS.90%29.aspx)
+- [Ajouter des composants XML personnalisés à des documents sans démarrer Microsoft Office](https://msdn.microsoft.com/library/bb608597%28VS.90%29.aspx)
     
 
