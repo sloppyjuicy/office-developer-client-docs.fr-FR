@@ -4,268 +4,268 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
-description: Apprenez à filtrer une vue dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
-ms.openlocfilehash: 7ce65ef0c04fe91334d00649810c608cdab2f310
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: MT
+description: Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
+localization_priority: Priority
+ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
+ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390407"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "28726399"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 
-Apprenez à filtrer une vue dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
+Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
-L’affichage de liste par défaut dans une application Access vous permet de filtrer les problèmes sur les valeurs contenues dans les champs. Il peut arriver dans lequel vous souhaitez filtrer une vue basée sur un ensemble de conditions plutôt qu’en correspondance d’une valeur. Pour faire que vous devez créer une macro. Cet article vous montre comment créer une macro qui filtrer une vue pour afficher les tâches qui ont dépassé une échéance ou d’échéance dans les 7 prochains jours.
+L’affichage de liste par défaut dans une application Access vous permet de filtrer les problèmes sur les valeurs contenues dans les champs. Vous voudrez peut-être filtrer un affichage en fonction d’un ensemble de conditions au lieu de la mise en correspondance d’une valeur. Pour ce faire, vous devez créer une macro. Cet article vous explique comment créer une macro qui filtre un affichage afin de présenter les tâches dont l’échéance est passée ou arrive dans les 7 prochains jours.
   
-## <a name="prerequisites-for-building-an-app-with-access"></a>Conditions requises pour la création d’une application avec Access
+## <a name="prerequisites-for-building-an-app-with-access"></a>Conditions préalables à la création d’une application avec Access
 <a name="Access2013FilterViewByUsingMacro_Prerequisites"> </a>
 
-Pour suivre les étapes décrites dans cet exemple, vous devez :
+Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants :
   
-- Access 2013
+- Access 2013
 - Un environnement de développement SharePoint 2013
     
 > [!NOTE]
 > Pour plus d'informations sur la configuration de votre environnement de développement SharePoint, consultez [Configurer un environnement de développement général pour SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx). Pour plus d'informations sur l'obtention de Access 2013 et SharePoint 2013, consultez [Téléchargements](https://msdn.microsoft.com/office/apps/fp123627). 
   
-## <a name="create-the-app"></a>Création de l'application
+## <a name="create-the-app"></a>Création de l’application
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
 
-Supposons que vous souhaitez créer une application Access qui effectue le suivi des tâches de votre entreprise. Avant de commencer la création de tables et l’affichage, vous devez rechercher un modèle de schéma.
+Supposons que vous vouliez créer une application Access qui assure le suivi des tâches pour votre entreprise. Avant de commencer à créer les tables et affichages, vous devriez rechercher un modèle de schéma.
   
-### <a name="to-create-the-task-tracking-app"></a>Pour créer l’application de suivi de tâches
+### <a name="to-create-the-task-tracking-app"></a>Créer l’application de suivi des tâches
 
 1. Ouvrez Access, puis sélectionnez **Application web personnalisée**.
     
 2. Entrez un nom et un emplacement web pour votre application. Vous pouvez également sélectionner un emplacement dans la liste **Emplacements**, puis sélectionner **Créer**.
     
-3. Tapez **tâches** dans la zone **Rechercher** , puis appuyez sur ENTRÉE. 
+3. Saisissez les **tâches** dans la zone **Recherche**, puis appuyez sur ENTRÉE. 
     
-    Une liste de modèles qui peuvent être utiles pour le suivi des tâches s’affiche dans la Figure 1.
+    La figure 1 présente la liste des modèles pouvant être utiles pour le suivi des tâches.
     
-   **La figure 1. Modèles correspondant à la recherche de tâches**
+   **Figure 1. Modèles appropriés pour la recherche des tâches**
 
    ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles appropriés pour la recherche des problèmes")
   
-4. Cliquez sur **tâches**.
+4. Sélectionnez **Tâches**.
     
-Access crée un ensemble de tables et d'affichages.
+Access crée un ensemble de tables et d’affichages.
   
-Entrez plusieurs exemples de tâches et employés dans votre application. Pour ce faire, choisissez **Lancer l’application** pour ouvrir l’application dans votre navigateur web. Entrez une valeur dans le champ **Date d’échéance** pour chaque tâche. Lorsque vous avez terminé, retournez dans Access. 
+Saisissez plusieurs exemples de tâches et d’employés dans votre application. À cette fin, cliquez sur **Lancer l’application** pour ouvrir l’application dans votre navigateur web. Saisissez une valeur dans le champ **Date d’échéance** pour chaque tâche. Revenez à Access lorsque vous avez terminé. 
   
 ## <a name="plan-the-customizations"></a>Planifier les personnalisations
 <a name="Access2013FilterViewByUsingMacro_PlanCustomizations"> </a>
 
-Vous avez maintenant une application qui contient plusieurs tâches. L’affichage par défaut permet de rechercher les tâches à l’aide des éléments qui sont stockés dans les champs affichés dans l’affichage. Par exemple, vous pouvez rechercher pour les problèmes de haute priorité ou en cours. Supposons que vous souhaitez définir la priorité de votre travail, en affichant les problèmes actifs qui arrive à échéance dans la semaine à venir. Pour ce faire, vous devez créer une macro de l’interface utilisateur.
+Vous avez désormais une application qui contient plusieurs tâches. L’affichage par défaut vous permet de rechercher les tâches utilisant des éléments stockés dans les champs présentés dans l’affichage. Par exemple, vous pouvez rechercher les problèmes hautement prioritaires ou les problèmes en cours. Supposons que vous vouliez hiérarchiser votre travail en affichant les problèmes actifs qui arrivent à échéance la semaine prochaine. Pour ce faire, vous devez créer une macro d’interface utilisateur (IU).
   
-La commande de macro d’interface utilisateur que vous pouvez utiliser pour filtrer l’affichage est l' [Action de Macro RequeryRecords (accès web personnalisé application)](requeryrecords-macro-action-access-custom-web-app.md). L’action de macro **RequeryRecords** filtre l’affichage en fonction de l’argument *où* , qui est fourni sous la forme d’une clause WHERE SQL. Pour filtrer l’affichage, vous devez fournir plusieurs faits dans un format spécifique pour filtrer l’affichage. 
+La commande de macro d’interface utilisateur que vous pouvez utiliser pour filtrer l’affichage est [RequeryRecords Macro Action (application web personnalisée Access)](requeryrecords-macro-action-access-custom-web-app.md). L’action de macro **RequeryRecords** permet de filtrer l’affichage basé sur l’argument *where*, fourni sous la forme d’une clause SQL WHERE. Pour filtrer l’affichage, vous devez fournir plusieurs faits dans un format spécifique pour filtrer l’affichage. 
   
-Les faits pertinents sont les suivants :
+Les faits pertinents sont :
   
-- L’ou les champs à comparer
+- Le ou les champs à comparer
     
 - Comment faire référence à la date du jour
     
-- Comment faire référence à un jour donné par rapport à la date du jour
+- Comment faire référence à un jour spécifique par rapport à la date du jour
     
-- Comment déterminer lequel des tâches sont en cours
+- Comment identifier les tâches en cours
     
-Le champ **Date d’échéance** fournit des informations sur lorsqu’une tâche est due. Le champ **état** fournit des informations d’état relatives à chaque tâche. Pour faire référence à un champ dans une macro, utilisez le format **[*TableName*]. [ *FieldName*]**. Utilisez **[tâches]. [ Date d’échéance]** pour faire référence au champ **Date d’échéance** et **[tâches]. [ État]** pour faire référence au champ **d’état** . 
+Le champ **Date d’échéance** fournit des informations sur l’échéance d’une tâche. Le champ **État** fournit des informations d’état des tâches. Pour faire référence à un champ dans une macro, utilisez le format **[*TableName*].[*FieldName*]**. Utilisez **[Tasks].[Due Date]** pour faire référence au champ **Date d’échéance** et **[Tasks].[Status]** pour faire référence au champ **État**. 
   
-La fonction de la [Fonction aujourd'hui (accès personnalisé web app)](today-function-access-custom-web-app.md) renvoie la date du jour. La fonction [DateAdd (accès personnalisé web app)](dateadd-function-access-custom-web-app.md) peut servir à calculer une date est un certain nombre de jours après la date spécifiée. 
+La fonction [Fonction Today (application web personnalisée Access)](today-function-access-custom-web-app.md) renvoie la date du jour. La fonction [Fonction DateAdd (application web personnalisée Access)](dateadd-function-access-custom-web-app.md) peut être utilisée pour calculer une date qui correspond à un certain nombre de jours après une date spécifiée. 
   
-Le champ **état** contient plusieurs valeurs possibles. Une valeur **terminé** indique que la tâche n’est plus active. 
+Le champ **État** contient plusieurs valeurs possibles. Une valeur **Terminée** indique que la tâche n’est plus active. 
   
-Ces éléments peuvent être combinés dans la clause WHERE SQL suivante.
+Ces faits peuvent être regroupés dans la clause suivante SQL WHERE.
   
 ```sql
 [Tasks].[Due Date]<DateAdd(Day,7,Today()) AND [Tasks].[Status]<>"Completed"
 ```
 
-Cette clause SQL WHERE permet de filtrer l’affichage pour afficher les problèmes actifs qui arrive à échéance dans les 7 prochains jours ou retard dans la macro.
+Cette clause SQL WHERE est utilisée dans la macro pour filtrer l’affichage afin de présenter les problèmes actifs dont l’échéance est passée ou arrive dans les 7 prochains jours.
   
-Pour exécuter la macro d’interface utilisateur, il doit être joint à un élément ou d’un événement qui se produit dans l’affichage. La **Barre d’Action** est un emplacement pratique pour ajouter une commande personnalisée à l’affichage. La **Barre d’Action** est une barre d’outils personnalisable qui s’affiche en haut de chaque mode d’affichage. Par défaut, la **Barre d’Action** contient des boutons pour ajouter, modifier, enregistrer, supprimer et annuler les modifications. Vous pouvez ajouter des boutons qui exécutent des actions personnalisées, telles que le filtrage de la vue. 
+Pour exécuter la macro d’interface utilisateur, elle doit être liée à un élément ou à un événement qui survient dans l’affichage. La **barre d’action** est un endroit pratique pour ajouter une commande personnalisée à l’affichage. La **barre d’action** est une barre d’outils personnalisable qui s’affiche en haut de chaque affichage. Par défaut, la **barre d’action** contient des boutons pour ajouter, modifier, enregistrer, supprimer et annuler des modifications. Vous pouvez ajouter des boutons qui effectuent des actions personnalisées, telles que le filtrage de l’affichage. 
   
-Si l’affichage contient les enregistrements qui répondent aux critères spécifiés, **RequeryRecords** filtre l’affichage. Toutefois, si l’affichage ne contient pas tous les enregistrements qui répondent aux critères, à un nouvel enregistrement vide s’affiche. Si vous ne souhaitez pas un enregistrement vide s’affiche si aucune tâche n’est due la semaine suivante, vous devez trouver une méthode pour vérifier les tâches avant d’appeler l’action de macro **RequeryRecords** . Pour ce faire, créez une macro de données pour vérifier les enregistrements qui répondent aux critères. 
+Si l’affichage contient des enregistrements répondant aux critères spécifiés, **RequeryRecords** filtre alors l’affichage. Cependant, si l’affichage ne contient pas d’enregistrements qui répondent aux critères, un nouvel enregistrement vide s’affiche. Si vous ne souhaitez pas afficher un enregistrement vide si aucune des tâches n’arrive à échéance la semaine suivante, vous devez trouver une méthode pour vérifier les tâches avant d’appeler l’action de macro **RequeryRecords**. Pour ce faire, créez une macro de données pour rechercher les enregistrements qui répondent aux critères. 
   
-La macro d’interface utilisateur appelle la macro de données, qui tente de trouver une tâche due la semaine prochaine. Si la macro de données détecte la tâche, puis personnaliser l’application.
+La macro d’interface utilisateur va appeler la macro de données, qui va tenter de trouver une tâche dont l’échéance arrive la semaine suivante. Si la macro de données trouve la tâche, personnalisez ensuite l’application.
   
-## <a name="customize-the-app"></a>Personnalisation de l'application
+## <a name="customize-the-app"></a>Personnalisation de l’application
 <a name="Access2013FilterViewByUsingMacro_CustomizeApp"> </a>
 
-Maintenant que vous avez déterminé les personnalisations, les implémenter. La macro de données doit être créée en premier. Certaines macros de données sont connectées directement à des tables. Toutefois, cette macro de données est une macro de données autonome.
+À présent que vous avez déterminé les personnalisations, implémentez-les. Vous devriez créer la macro de données en premier. Certaines macros de données sont liées directement aux tables. Cependant, cette macro de données est une macro de données autonome.
   
-### <a name="to-create-the-data-macro"></a>Pour créer la macro de données
+### <a name="to-create-the-data-macro"></a>Créer la macro de données
 
-1. Ouvrez l'application dans Access.
+1. Ouvrez l’application dans Access.
     
 2. Dans le groupe **Créer**, sélectionnez **Avancé**, puis **Macro de données**.
     
-    Une macro de données vide s’ouvre en mode Création de macro.
+    Une macro de données vide s’ouvre dans l’affichage Création de macros.
     
-3. Dans la zone de liste **Ajouter une nouvelle Action** , sélectionnez **RechercherEnregistrement**.
+3. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **LookupRecord**.
     
-4. Dans la zone de liste **Rechercher un enregistrement dans** , sélectionnez **tâches**.
+4. Dans la zone de liste **Rechercher un enregistrement**, sélectionnez **Tâches**.
     
-5. Dans la zone **Condition Where** , entrez **[tâches]. [ Date d’échéance]\<DateAdd(Day,7,Today()) et [tâches]. [État] \< \>« Completed »**. 
+5. Dans la zone **Condition Where**, saisissez **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
     
-6. Dans la liste déroulante **Ajouter une nouvelle Action** , sélectionnez **SetReturnVar** . 
+6. Dans la zone de liste **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**. 
     
     > [!NOTE]
-    > Vous verrez deux zones de liste **Ajouter une nouvelle Action** , un dans le bloc **RechercherEnregistrement** et l’autre en dehors du bloc **RechercherEnregistrement** . Vous devez choisir la zone de liste **Ajouter une nouvelle Action** dans le bloc **RechercherEnregistrement** , comme le montre la Figure 1. 
+    > Vous verrez deux zones de liste **Ajouter une nouvelle action** : une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la zone de liste **Ajouter une nouvelle action** dans le bloc **LookupRecord**, comme illustré dans la Figure 1. 
   
-   **La figure 1. Ajouter la zone de liste d’une nouvelle Action**
+   **Figure 1. Zone de liste Ajouter une nouvelle action**
 
    ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Liste déroulante Ajouter une nouvelle action")
   
-7. Dans la zone **nom** , entrez **TaskFound**. 
+7. Dans la zone **Nom**, saisissez **TaskFound**. 
     
-8. Dans la zone **Expression** , entrez **« Oui »**. 
+8. Dans la zone **Expression**, saisissez **« Yes »**. 
     
-9. Cliquez sur **Enregistrer**. Entrez **TasksDueSoon** dans la zone **Nom de la Macro** , puis choisissez **OK**.
+9. Cliquez sur **Enregistrer**. Dans la zone **Nom de macro**, saisissez **TasksDueSoon**, puis sélectionnez **OK**.
     
-    La macro doit ressembler celle illustrée à la Figure 2.
+    La macro doit ressembler à celle illustrée à la figure 2.
     
-   **La figure 2. Macro de données TasksDueSoon**
+   **Figure 2. Macro de données TasksDueSoon**
 
-   ![Macro de données TasksDueSoon] (media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "Macro de données TasksDueSoon")
+   ![Macro de données TasksDueSoon](media/odc_Access2013_FilterFormByUsingMacro_Figure02.jpg "Macro de données TasksDueSoon")
   
-10. Fermez l'affichage Création de macros.
+10. Fermez l’affichage Création de macros.
     
-À présent, nous sommes prêts à ajouter un bouton personnalisé à la barre d’Action.
+À présent, nous sommes prêts à ajouter un bouton personnalisé à la barre d’action.
   
-### <a name="to-add-a-custom-button-to-the-action-bar"></a>Pour ajouter un bouton personnalisé à la barre d’Action
+### <a name="to-add-a-custom-button-to-the-action-bar"></a>Ajouter un bouton personnalisé à la barre d’action
 
-1. Choisissez le tableau des **tâches** . Il choisit le formulaire de liste de tâches. 
+1. Sélectionnez la table **Tâches**. Cette action choisit le formulaire Liste de tâches. 
     
-2. Dans le sélecteur d'affichage, sélectionnez **Liste**, l'icône **Paramètres/Action**, puis **Modifier**.
+2. Dans le sélecteur d’affichage, sélectionnez **Liste**, l’icône **Paramètres/Action**, puis **Modifier**.
     
     L’affichage est ouvert en mode Création.
     
-3. À présent, nous sommes prêts à ajouter un bouton personnalisé à la barre d’Action. Pour ce faire, choisissez **Ajouter une action personnalisée** , comme indiqué dans la Figure 3. 
+3. À présent, nous sommes prêts à ajouter un bouton personnalisé à la barre d’action. Pour ce faire, sélectionnez **Ajouter une action personnalisée** comme illustré dans la Figure 3. 
     
-   **La figure 3. Ajouter le bouton d’action personnalisée**
+   **Figure 3. Bouton Ajouter une action personnalisée**
 
-   ![Bouton Ajoutez une action personnalisée] (media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "Bouton Ajoutez une action personnalisée")
+   ![Bouton Ajouter une action personnalisée](media/odc_Access2013_FilterFormByUsingMacro_Figure03.jpg "Bouton Ajouter une action personnalisée")
   
-    La nouvelle action est affichée comme un bouton avec une icône en étoile, comme le montre la Figure 4.
+    La nouvelle action est représentée par un bouton en forme étoile comme illustré dans la Figure 4.
     
-   **La figure 4. Nouveau bouton de barre d’Action**
+   **Figure 4. Nouveau bouton de la barre d’action**
 
-   ![Bouton nouvelle barre d’Action] (media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "Bouton nouvelle barre d’Action")
+   ![Nouveau bouton de la barre d’action](media/odc_Access2013_FilterFormByUsingMacro_Figure04.jpg "Nouveau bouton de la barre d’action")
   
-4. Cliquez sur le bouton de barre d’Action personnalisée, puis cliquez sur l’icône de **données** . 
+4. Sélectionnez le bouton de barre d’action personnalisé, puis sélectionnez l’icône **Données**. 
     
-    La boîte de dialogue **données** s’affiche. 
+    La boîte de dialogue **Données** apparaît. 
     
-5. Dans la zone **Nom du contrôle** , entrez **FilterTasks**. 
+5. Dans la zone **Nom du contrôle**, saisissez **FilterTasks**. 
     
-6. Dans la zone **info-bulle** , entrez **l’affichage tâches au-delà d’échéance ou d’échéance de la semaine suivante**. 
+6. Dans la zone **Info-bulle**, saisissez **Afficher les tâches dont l’échéance est passée ou arrive la semaine suivante**. 
     
-À présent, nous sommes prêts à créer la macro d’interface utilisateur qui filtre l’affichage.
+À présent, nous sommes prêts à créer la macro d’interface utilisateur qui va filtrer l’affichage.
   
-### <a name="to-create-the-ui-macro-to-filter-the-view"></a>Pour créer la macro d’interface utilisateur pour filtrer l’affichage
+### <a name="to-create-the-ui-macro-to-filter-the-view"></a>Créer la macro d’interface utilisateur pour filtrer l’affichage
 
-1. Dans la boîte de dialogue **données** , choisissez **En cliquant sur** comme indiqué dans la Figure 5. 
+1. Dans la boîte de dialogue **Données**, choisissez **Sur clic** comme illustré dans la Figure 5. 
     
-   **La figure 5. Boîte de dialogue données**
+   **Figure 5. Boîte de dialogue Données**
 
-   ![Boîte de dialogue données] (media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "Boîte de dialogue données")
+   ![Boîte de dialogue Données](media/odc_Access2013_FilterFormByUsingMacro_Figure05.jpg "Boîte de dialogue Données")
   
-    Une macro d’interface utilisateur vide est ouvert en mode Création de macro.
+    Une macro d’interface utilisateur vide s’ouvre dans l’affichage Création de macros.
     
-2. Dans la liste **Ajouter une nouvelle Action** , sélectionnez **ExécuterMacroDonnées**. 
+2. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **RunDataMacro**. 
     
-3. Dans la zone Nom de la Macro, entrez **TasksDueSoon**. 
+3. Dans la zone Nom de Macro, saisissez **TasksDueSoon**. 
     
-    Dans le champ **DéfinirVarLocale** , entrez **FilterRecords**. 
+    Dans la zone **SetLocalVar**, saisissez **FilterRecords**. 
     
-    L’action **ExécuterMacroDonnées** appelle la macro de données **TasksDueSoon** créés précédemment et stocke le résultat dans une variable nommée **FilterRecords**. 
+    L’action **RunDataMacro** appelle la macro de données **TasksDueSoon** que nous avons créée précédemment et enregistre son résultat dans une variable nommée **FilterRecords**. 
     
-4. Dans la zone de liste **Ajouter une nouvelle Action** , choisissez **Si**. 
+4. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **If**. 
     
-5. Dans la zone **Si** , entrez **[FilterRecords] = « Yes »**. 
+5. Dans la zone **If**, saisissez **[FilterRecords]="Yes"**. 
     
-6. Dans la zone de liste **Ajouter une nouvelle Action** , choisissez **RequeryRecords**. 
+6. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **RequeryRecords**. 
     
     > [!NOTE]
-    > Vous verrez deux zones de liste **Ajouter une nouvelle Action** , un dans le bloc **If** et une autre à l’extérieur du bloc **If** . Vous devez choisir la zone de liste **Ajouter une nouvelle Action** dans le bloc **If** , comme le montre la Figure 6. 
+    > Vous verrez deux zones de liste **Ajouter une nouvelle action** : une au sein du bloc **If** et une autre extérieure au bloc **If**. Vous devez sélectionner la zone de liste **Ajouter une nouvelle action** dans le bloc **If**, comme illustré dans la Figure 6. 
   
-   **La figure 6. Ajouter la zone de liste d’une nouvelle Action**
+   **Figure 6. Zone de liste Ajouter une nouvelle action**
 
    ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Liste déroulante Ajouter une nouvelle action")
   
-7. Dans la zone **où** , entrez **[tâches]. [ Date d’échéance]\<DateAdd(Day,7,Today()) et [tâches]. [État] \< \>« Completed »**. 
+7. Dans la zone **Where**, saisissez ** [Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
     
-8. Dans la zone **Order By** , entrez **[Date d’échéance]**. 
+8. Dans la zone **Trier par**, saisissez **[Date d’échéance]**. 
     
-9. Cliquez sur le lien **Ajouter un autre** qui s’affiche à droite de la zone **Ajouter une nouvelle Action** , comme le montre la Figure 7. 
+9. Sélectionnez le lien **Ajouter Sinon** qui apparaît en regard de la zone **Ajouter une nouvelle action** comme illustré dans la Figure 7. 
     
-   **La figure 7. Lien Ajouter Sinon**
+   **Figure 7. Lien Ajouter sinon**
 
-   ![Ajouter un autre lien] (media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Ajouter un autre lien")
+   ![Lien Ajouter sinon](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Lien Ajouter sinon")
   
-    Une clause Else est ajoutée au si bloc.
+    Une clause Else est ajoutée au bloc If.
     
-10. Dans la zone de liste **Ajouter une nouvelle Action** , choisissez **contrôle zonemessage.**. 
+10. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **MessageBox**. 
     
-11. Dans la boîte de **Message** , entrez **aucune tâche n’est en retard ou arrivant à échéance dans les 7 prochains jours !**. 
+11. Dans la zone **Message**, saisissez **Aucune tâche dont l’échéance est passée ou qui arrive dans les 7 prochains jours !**. 
     
 12. Cliquez sur **Enregistrer**.
     
     La macro doit ressembler celle illustrée à la figure 8.
     
-    **La figure 8. Macro d’interface utilisateur pour filtrer l’affichage**
+    **Figure 8. Macro d’interface utilisateur pour filtrer l’affichage**
 
-    ![Macro d’interface utilisateur pour filtrer l’affichage] (media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "Macro d’interface utilisateur pour filtrer l’affichage")
+    ![Macro d’interface utilisateur pour filtrer l’affichage](media/odc_Access2013_FilterFormByUsingMacro_Figure08.jpg "Macro d’interface utilisateur pour filtrer l’affichage")
   
-13. Fermez l'affichage Création de macros.
+13. Fermez l’affichage Création de macros.
     
-À ce stade, nous avons créé la macro d’interface utilisateur qui permet de filtrer l’affichage de liste de tâches pour afficher les tâches urgentes. Il n’est pas poli laisser l’affichage dans un état filtré sans fournir une méthode pour supprimer le filtre. Pour ce faire, ajoutez un autre bouton de barre d’Action et Macro d’interface utilisateur.
+À ce stade, nous avons créé la macro d’interface utilisateur qui permet de filtrer l’affichage Liste des tâches afin de présenter les tâches urgentes. Il serait déplacé de laisser l’affichage dans un état filtré sans fournir de méthode pour supprimer le filtre. Pour ce faire, ajoutez un autre bouton de barre d’action et une macro d’interface utilisateur.
   
-### <a name="to-add-an-action-bar-button-to-remove-the-filter"></a>Pour ajouter un bouton de barre d’Action pour supprimer le filtre
+### <a name="to-add-an-action-bar-button-to-remove-the-filter"></a>Ajouter un bouton de barre d’action pour supprimer le filtre
 
-1. Choisissez **Ajouter une action personnalisée**.
+1. Sélectionnez **Ajouter une action personnalisée**.
     
-    La nouvelle action est affichée comme un bouton avec une icône en étoile
+    La nouvelle action est représentée par un bouton en forme étoile.
     
-2. Cliquez sur le bouton de barre d’Action personnalisé, puis cliquez sur l’icône de **données** . 
+2. Sélectionnez le bouton de barre d’action personnalisé, puis l’icône **Données**. 
     
-    La boîte de dialogue **données** s’affiche. 
+    La boîte de dialogue **Données** apparaît. 
     
-3. Dans la zone **Nom du contrôle** , entrez **RemoveFilter**. 
+3. Dans la zone **Nom du contrôle**, saisissez **RemoveFilter**. 
     
-4. Dans la zone **info-bulle** , entrez **Supprimer tous les filtres appliqués à l’affichage**. 
+4. Dans la zone **Info-bulle**, saisissez **Supprimer tous les filtres appliqués à l’affichage**. 
     
-À présent, nous sommes prêts à créer la macro d’interface utilisateur qui permet de supprimer le filtre l’affichage.
+À présent, nous sommes prêts à créer la macro d’interface utilisateur qui va supprimer le filtre de l’affichage.
   
-### <a name="to-create-the-ui-macro-to-remove-the-filter-from-the-view"></a>Pour créer la macro d’interface utilisateur pour supprimer le filtre de l’affichage
+### <a name="to-create-the-ui-macro-to-remove-the-filter-from-the-view"></a>Créer la macro d’interface utilisateur pour supprimer le filtre de l’affichage
 
-1. Dans la boîte de dialogue **données** , choisissez **En cliquant sur**.
+1. Dans la boîte de dialogue **Données**, choisissez **Sur clic**.
     
-    Une macro d’interface utilisateur vide est ouvert en mode Création de macro.
+    Une macro d’interface utilisateur vide s’ouvre dans l’affichage Création de macros.
     
-2. Dans la zone de liste **Ajouter une nouvelle Action** , choisissez **RequeryRecords**. 
+2. Dans la zone de liste **Ajouter une nouvelle action**, sélectionnez **RequeryRecords**. 
     
-    Cette fois-ci, nous allons laissez les zones **où** et **Order By** vide. L’action **RequeryRecords** est appelée sans aucun paramètre, tous les filtres sont supprimés de l’affichage. 
+    Cette fois, laissez les zones **Where** et **Trier par** vides. L’action **RequeryRecords** est ainsi appelée sans paramètres ; tous les filtres sont supprimés de l’affichage. 
     
 3. Cliquez sur **Enregistrer**.
     
-4. Fermez l'affichage Création de macros.
+4. Fermez l’affichage Création de macros.
     
-5. Fermez l’affichage de liste de tâches. Lorsque vous êtes invité à enregistrer vos modifications, sélectionnez **Oui**. 
+5. Fermez l’affichage Liste des problèmes. Lorsque vous êtes invité à enregistrer vos modifications, sélectionnez **Oui**. 
     
-À présent, nous sommes prêts à la personnalisation de texte. Choisissez **Lancer l’application** à ouvrir l’application dans votre navigateur web, puis choisissez le bouton de barre d’Action FilterTasks personnalisé. Toutes les tâches après l’échéance ou arrivant à échéance dans les 7 prochains jours sont affichés. Un message s’affiche si l’application ne contient aucune tâche urgents. 
+À présent, nous sommes prêts pour la personnalisation du texte. Sélectionnez **Lancer l’application** pour ouvrir l’application dans votre navigateur web, puis le bouton de barre d’action personnalisé FilterTasks. Les tâches dont l’échéance est passée ou arrive dans les 7 prochains jours sont affichées. Un message s’affiche si l’application ne contient aucune tâche urgente. 
   
 ## <a name="conclusion"></a>Conclusion
 
-Vous pouvez utiliser l’action de macro **RequeryRecords** dans une macro d’interface utilisateur pour filtrer l’affichage en fonction des critères que vous choisissez. Selon le comportement que vous le souhaitez, vous souhaiterez peut-être créer une macro de données pour vérifier qu’un enregistrement répond aux critères avant d’utiliser l’action de macro **RequeryRecords** . 
+Vous pouvez utiliser l’action de macro **RequeryRecords** dans une macro d’interface utilisateur pour filtrer l’affichage en fonction des critères de votre choix. En fonction du comportement recherché, vous pouvez être amené à créer une macro de données pour vérifier qu’un enregistrement répond aux critères avant d’utiliser l’action de macro **RequeryRecords**. 
   
 ## <a name="see-also"></a>Voir aussi
 
