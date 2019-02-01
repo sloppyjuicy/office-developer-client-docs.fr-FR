@@ -1,30 +1,29 @@
 ---
-title: Comment... (Référence PIA Outlook 2013)
+title: Comment... (Référence PIA Outlook 2013)
 TOCTitle: How do I...
 ms:assetid: ff647d52-bd32-4945-afa4-5b97d9a0d7dd
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb612741(v=office.15)
 ms:contentKeyID: 55119792
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0bc4e19271e2747f5ffa8586b9f2ab226d6658b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: f05f6e9199cd474a47d36ff92e255dea92a4d5cc
+ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711720"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "25407554"
 ---
-# <a name="how-do-i-outlook-2013-pia-reference"></a>Comment... (Référence PIA Outlook 2013)
+# <a name="how-do-i-outlook-2013-pia-reference"></a>Comment... (Référence PIA Outlook 2013)
 
-Cette section contient des rubriques de tâches procédurales et des exemples de code en Visual Basic et en C\# qui montrent comment effectuer certaines tâches courantes dans Outlook.
+Cette section contient des rubriques de tâches procédurales et des exemples de code en Visual Basic et en C\# qui expliquent comment effectuer certaines tâches courantes dans Outlook.
 
-Pour exécuter ces exemples de code, vous devez avoir installé Outlook 2010 et Visual Studio 2008 ou une version ultérieure de ces produits.
+Pour exécuter ces exemples de code, vous devez avoir installé Outlook 2010 et Visual Studio 2008 ou une version ultérieure de ces produits.
 
-Les exemples de code dans cette section ne nécessitent pas que vous ayez installé les outils de développement Office pour Visual Studio. Toutefois, vous pouvez vous référer au portail [Prise en main du développement Office](https://developer.microsoft.com/office/docs) pour plus d’informations sur l’utilisation des outils et consulter [Solutions Outlook](https://docs.microsoft.com/visualstudio/vsto/outlook-solutions?view=vs-2017) pour certaines tâches procédurales de base écrites en code managé.
+Vous pouvez utiliser les exemples de codes de cette section sans installer les outils de développement Office pour Visual Studio. Si vous avez besoin d’informations supplémentaires sur l’utilisation des outils, n’hésitez pas à consulter le portail [Prise en main du développement Office](https://developer.microsoft.com/office/docs). Par ailleurs, la page [Solutions Outlook](https://docs.microsoft.com/visualstudio/vsto/outlook-solutions?view=vs-2017) propose d’autres tâches procédurales simples, rédigées en code managé.
 
-Les exemples de code de cette section vont des niveaux « débutant » à « intermédiaire », et certains d’entre eux sont adaptés de l’ouvrage [Programmation d’applications pour Microsoft Office Outlook 2007 (Programming Applications for Microsoft Office Outlook 2007)](https://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493).
+Les exemples de code de cette section s’adressent à différents niveaux, du débutant à l’intermédiaire. Certains d’entre eux sont inspirés de l’ouvrage [ Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493) (Programmation d’applications pour Microsoft Office Outlook 2007).
 
-L’équipe Documentation du développeur Office vous invite à communiquer vos idées et vos échantillons de code. Si nous utilisons vos exemples de code dans du contenu Outlook, nous identifierons votre travail à l’aide d’une signature et d’un lien vers votre site Web. Pour plus d’informations, veuillez nous contacter à docthis@microsoft.com.
+L’équipe Documentation du développeur Office vous invite à communiquer vos idées et vos échantillons de code. Si nous utilisons vos exemples de code dans du contenu Outlook, nous identifierons votre travail à l’aide d’une signature et d’un lien vers votre site Web. Pour plus d’informations, veuillez nous écrire à l’adresse docthis@microsoft.com.
 
 ## <a name="in-this-section"></a>Dans cette section 
 
@@ -34,7 +33,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 - [Créer un élément à envoyer pour un compte spécifique basé sur le dossier actif](how-to-create-a-sendable-item-for-a-specific-account-based-on-the-current-folder.md)
 - [Obtenir le compte lié à un dossier](how-to-get-the-account-for-a-folder.md)
 - [Obtenir des informations sur plusieurs comptes](how-to-get-information-about-multiple-accounts.md)
-- [Envoyer un élément de courrier électronique à l’aide d’un compte Hotmail](how-to-send-a-mail-item-by-using-a-hotmail-account.md)
+- [Envoyer un élément de courrier électronique à l’aide d’un compte Windows Live Hotmail](how-to-send-a-mail-item-by-using-a-hotmail-account.md)
 
 [Administration des compléments](add-in-administration.md)
 
@@ -45,7 +44,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 - [Afficher le carnet d’adresses correspondant à un dossier de Contacts dans la boîte de dialogue Sélectionner des noms](how-to-display-in-the-select-names-dialog-box-the-address-book-corresponding-to-a-contacts-folder.md)
 - [Identifier la liste d’adresses globale ou un ensemble de listes d’adresses pour un magasin](how-to-get-the-global-address-list-or-a-set-of-address-lists-for-a-store.md)
-- [Énumérer les entrées de la liste d'adresses globale](how-to-enumerate-the-entries-in-the-global-address-list.md)
+- [Énumérer les entrées de la liste d’adresses globale](how-to-enumerate-the-entries-in-the-global-address-list.md)
 - [Afficher les listes d’adresses pour un profil](how-to-display-the-address-lists-for-a-profile.md)
 
 [Rendez-vous](appointments.md)
@@ -64,10 +63,10 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 [Pièces jointes](attachments.md)
 
 - [Joindre un fichier à un élément de courrier](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
-- [Attacher un élément de Contact Outlook dans un message électronique](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
-- [Limiter la taille d'une pièce jointe à un message de courrier électronique Outlook](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
-- [Modifier une pièce jointe d’un message électronique Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
-- [Supprimer par programme les pièces jointes de niveau 2 de sécurité contenues dans les messages et les enregistrer sur le disque](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
+- [Attacher un élément de Contact Outlook dans un courrier électronique](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
+- [Limiter la taille d’une pièce jointe à un courrier électronique Outlook](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
+- [Modifier une pièce jointe d’un courrier électronique Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
+- [Supprimer par programme les pièces jointes de niveau 2 de sécurité contenues dans les messages et les enregistrer sur le disque](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
 
 [Calendrier](calendar.md)
 
@@ -100,7 +99,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 [Utilisateurs Exchange](exchange-users.md)
 
-- [Informations sur l'utilisateur actuel](how-to-get-information-about-the-current-user.md)
+- [Informations sur l’utilisateur actuel](how-to-get-information-about-the-current-user.md)
 - [Obtenir des informations sur toutes les listes de distribution dont l’utilisateur actuel est membre](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)
 - [Créer une liste de distribution](how-to-create-a-distribution-list.md)
 - [Obtenir les membres d’une liste de distribution Exchange](how-to-get-members-of-an-exchange-distribution-list.md)
@@ -122,7 +121,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 [Éléments Outlook généraux](general-outlook-items.md)
 
-- [Créer une classe d’assistance pour accéder aux membres d’un élément courant Outlook](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
+- [Créer une classe d’assistance pour accéder aux membres d’un élément Outlook courant](how-to-create-a-helper-class-to-access-common-outlook-item-members.md)
 - [Afficher les éléments sélectionnés dans l’Explorateur actif](how-to-display-selected-items-in-the-active-explorer.md)
 
 [Partage de groupe](group-sharing.md)
@@ -134,7 +133,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 - [Créer un élément de courrier à l’aide d’un modèle de message](how-to-create-a-mail-item-by-using-a-message-template.md)
 - [Créer un élément de courrier, joindre un rapport et envoyer l’élément de courrier au gestionnaire de l’utilisateur](how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md)
-- [Envoyer un message électronique d’après l’adresse SMTP d’un compte](how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md)
+- [Envoyer un courrier électronique d’après l’adresse SMTP d’un compte](how-to-send-an-e-mail-given-the-smtp-address-of-an-account.md)
 - [Ajouter des options de vote à un élément de courrier](how-to-add-voting-options-to-a-mail-item.md)
 - [Ajouter une action personnalisée en guise de réponse à un élément de courrier](how-to-add-a-custom-action-as-a-response-to-a-mail-item.md)
 - [Obtenir l’adresse SMTP de l’expéditeur d’un élément de courrier](how-to-get-the-smtp-address-of-the-sender-of-a-mail-item.md)
@@ -153,7 +152,7 @@ L’équipe Documentation du développeur Office vous invite à communiquer vos 
 
 - [Afficher la boîte de dialogue Sélectionner des noms pour résoudre des destinataires](how-to-display-the-select-names-dialog-box-to-resolve-recipients.md)
 - [Utiliser la boîte de dialogue Sélectionner des noms pour obtenir et attribuer des destinataires à un rendez-vous](how-to-use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment.md)
-- [Obtenir l'adresse de messagerie électronique d’un destinataire](how-to-get-the-e-mail-address-of-a-recipient.md)
+- [Obtenir l’adresse de courrier électronique d’un destinataire](how-to-get-the-e-mail-address-of-a-recipient.md)
 
 [Règles](rules.md)
 
