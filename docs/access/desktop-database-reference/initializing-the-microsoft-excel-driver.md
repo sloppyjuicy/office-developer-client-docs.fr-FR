@@ -11,22 +11,22 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 12fb79f459024ed113007e6f764945ca9564cb3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.openlocfilehash: cec7890385e5730831cea9241278511d88b6f3a1
+ms.sourcegitcommit: 8ead5b5501f59c108cf02969070be21f7fc52467
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712931"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30135746"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
-**S’applique à**: Access 2013 | Office 2013
+**S'applique à**: Access 2013 | Office 2013
 
-Lorsque vous installez le pilote Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans les sous-clés et ISAM Formats du Registre Windows. Vous ne devez pas modifier ces paramètres directement. Utilisez le programme d’installation pour votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de Format ISAM pour le pilote de base de données Microsoft Excel.
+Lorsque vous installez le pilote Excel, le programme d'installation écrit un ensemble de valeurs par défaut dans le Registre Windows dans les sous-clés Engines et ISAM formats. Vous ne devez pas modifier ces paramètres directement; Utilisez le programme d'installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent les paramètres d'initialisation et de format ISAM pour le pilote de base de données Microsoft Excel.
 
-## <a name="excel-initialization-settings"></a>Paramètres d’initialisation de Excel
+## <a name="excel-initialization-settings"></a>Paramètres d'initialisation Excel
 
-Le **Access Connectivity Engine\\moteurs\\Excel** dossier contient des paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe aux feuilles de calcul Microsoft Excel. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
+Le dossier **Excel des\\moteurs\\de connectivité Access** inclut des paramètres d'initialisation pour le pilote Aceexcl. dll, utilisés pour l'accès externe aux feuilles de calcul Microsoft Excel. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -60,14 +60,14 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 </tr>
 <tr class="even">
 <td><p>TypeGuessRows</p></td>
-<td><p>Le nombre de lignes à vérifier pour le type de données. Le type de données est déterminé étant donné le nombre maximal de types de données trouvés. S’il existe un lien, le type de données est déterminé dans l’ordre suivant : nombre, devise, Date, texte, booléen. Si les données rencontrées qui ne correspond pas au type de données estimé pour la colonne, elle est renvoyée comme une valeur <strong>Null</strong> . À l’importation, si une colonne est une combinaison de types de données, la colonne entière sera convertie en fonction du paramètre ImportMixedTypes. Le nombre de lignes à vérifier par défaut est 8. Les valeurs sont de type REG_DWORD.</p></td>
+<td><p>Nombre de lignes à vérifier pour le type de données. Le type de données est déterminé en fonction du nombre maximal de types de données trouvé. S'il y a un lien, le type de données est déterminé dans l'ordre suivant: Number, Currency, date, text, Boolean. Si des données ne correspondent pas au type de données deviné pour la colonne, elles sont renvoyées sous la forme d'une valeur <strong>null</strong> . Lors de l'importation, si une colonne contient des types de données mixtes, la colonne entière est castée en fonction du paramètre ImportMixedTypes. Le nombre par défaut de lignes à vérifier est 8. Les valeurs sont de type REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
 <td><p>Peut être défini avec la valeur MajorityType ou Text. Avec MajorityType, les colonnes de types de données mélangés sont mises en forme en fonction du type de données prédominant à l'importation. Avec Text, elles seront mises en forme selon le type de données texte à l'importation. La valeur par défaut est Text. Les values sont de type REG_SZ.</p></td>
 </tr>
 <tr class="even">
-<td><p>AppendBlankRows possède</p></td>
+<td><p>AppendBlankRows</p></td>
 <td><p>Nombre de lignes vides devant être ajouté à la fin d'une feuille de calcul version 3.5 ou 4.0, avant l'ajout de nouvelles données. Par exemple, si AppendBlankRows possède la valeur 4, Microsoft Jet ajoutera 4 lignes vides à la fin de la feuille de calcul avant d'ajouter les lignes qui contiennent des données. Les valeurs entières pour ce paramètre peuvent être comprises entre 0 entre 16 ; la valeur par défaut est 01 (une ligne supplémentaire). Les valeurs sont de type REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
@@ -79,7 +79,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 
 <br/>
 
-Le **Access Connectivity Engine\\moteurs\\Excel 8.0** dossier contient les entrées suivantes, qui s’appliquent à Microsoft Excel 97.
+Le dossier **\\Excel 8,0\\engines de moteur de connectivité** contient les entrées suivantes, qui s'appliquent à Microsoft Excel 97.
 
 <table>
 <colgroup>
@@ -108,27 +108,27 @@ Le **Access Connectivity Engine\\moteurs\\Excel 8.0** dossier contient les entr�
 <tr class="odd">
 <td><p>CanLink</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0102</p></td>
 </tr>
 <tr class="even">
 <td><p>OneTablePerFile</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>2,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
+<td><p>2,00</p></td>
 </tr>
 <tr class="odd">
 <td><p>CreateDBOnExport</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0102</p></td>
 </tr>
 <tr class="even">
 <td><p>ResultTextExport</p></td>
@@ -138,16 +138,96 @@ Le **Access Connectivity Engine\\moteurs\\Excel 8.0** dossier contient les entr�
 <tr class="odd">
 <td><p>SupportsLongNames</p></td>
 <td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
+<td><p>0102</p></td>
 </tr>
 </tbody>
 </table>
 
+## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour le pilote Excel
+Lorsque vous utilisez le pilote Microsoft Excel, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La valeur **TypeGuessRows** se trouve sous la sous-clé de Registre suivante:
 
+# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
 
+Pour une installation MSI d'Office
+
+- Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
+    
+  **Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access**
+
+- Pour Office 32 bits sur les Windows 64 bits:
+
+  **Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access**
+    
+Pour une installation «démarrer en un clic» d'Office
+
+- Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
+    
+  **Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access**
+
+- Pour Office 32 bits sur les Windows 64 bits:
+    
+  **Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access**
+
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), le pilote Excel vérifie les premières lignes de 16 384 pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur qui est basée sur la plage de votre choix. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+ 
+Le type de données est déterminé par le nombre maximal de types de données qui sont trouvés. En cas de lien, le type de données est déterminé dans l'ordre suivant:
+
+- Nombre
+- Devise
+- Date
+- Texte
+- Booléen
+
+Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
+
+# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+
+Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
+
+**Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access**
+
+Pour Office 32 bits sur les Windows 64 bits:
+
+**Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access**
+
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), le pilote Excel vérifie les premières lignes de 16 384 pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur qui est basée sur la plage de votre choix. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+ 
+Le type de données est déterminé par le nombre maximal de types de données qui sont trouvés. En cas de lien, le type de données est déterminé dans l'ordre suivant:
+
+- Nombre
+- Devise
+- Date
+- Texte
+- Booléen
+
+Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
+
+# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+
+Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
+
+**Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access**
+
+Pour Office 32 bits sur les Windows 64 bits:
+
+**Engine\Engines\Excel de connectivité HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access**
+
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), le pilote Excel vérifie les premières lignes de 16 384 pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur qui est basée sur la plage de votre choix. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+ 
+Le type de données est déterminé par le nombre maximal de types de données qui sont trouvés. En cas de lien, le type de données est déterminé dans l'ordre suivant:
+
+- Nombre
+- Devise
+- Date
+- Texte
+- Booléen
+
+Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
+
+---
 > [!NOTE]
-> Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
+> [!REMARQUE] Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À l’aide du paramètre TypeGuessRows pour pilote Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Utilisation du paramètre TypeGuessRows pour le pilote Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
