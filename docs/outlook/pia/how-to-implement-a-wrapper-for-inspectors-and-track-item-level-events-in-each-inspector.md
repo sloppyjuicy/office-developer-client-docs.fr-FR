@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184620(v=office.15)
 ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: d5fee97e27b616232f2f45eb42faf659eee52cda
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: a70aedf9a8803a2c990f07a77d4fc730f7263aae
+ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405769"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30413965"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur
 
@@ -24,7 +25,7 @@ Cette rubrique contient deux exemples de code qui montrent comment implémenter 
 
 Les exemples de deux codes suivants implémentent les classes Connect et OutlookInspector. Le premier met en œuvre des méthodes et des gestionnaires d'événements que vous incluez dans la classe Connect afin d'implémenter un wrapper pour une collection **Inspecteurs**. Le second met en œuvre une implémentation simple de la classe **OutlookInspector**.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -107,7 +108,7 @@ class OutlookInspector
     // wrapped ContactItem
     private Outlook.ContactItem m_Contact;
     // wrapped TaskItem      
-    private Outlook.ContactItem m_Task;             
+    private Outlook.TaskItem m_Task;             
 
     // OutlookInspector constructor
     public OutlookInspector(Outlook.Inspector inspector)
