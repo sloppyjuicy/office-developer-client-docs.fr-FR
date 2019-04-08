@@ -11,16 +11,16 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: 2fe59f34c04314f70117b3bc7f08d78c2d23ae6d
-ms.sourcegitcommit: 62228a65109a9543cd223dfbf326dbf1af256748
+ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
+ms.sourcegitcommit: e59070b67358b3700ca677149a849768c144c1a3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30179662"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31518130"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
-**S'applique à**: Access 2013 | Office 2013
+**S'applique à**: Excel 2016 | Access 2016 | Access 2013 | Office 2013 | Excel 2013 | Office pour l'accès professionnel 2013 | Excel 2010 | Access 2010
 
 Lorsque vous installez le pilote Excel, le programme d'installation écrit un ensemble de valeurs par défaut dans le Registre Windows dans les sous-clés Engines et ISAM formats. Vous ne devez pas modifier ces paramètres directement; Utilisez le programme d'installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent les paramètres d'initialisation et de format ISAM pour le pilote de base de données Microsoft Excel.
 
@@ -49,7 +49,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Entrée</p></th>
+<th><p>Rubrique</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -60,7 +60,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 </tr>
 <tr class="even">
 <td><p>TypeGuessRows</p></td>
-<td><p>Nombre de lignes à vérifier pour le type de données. Le type de données est déterminé en fonction du nombre maximal de types de données trouvé. S'il y a un lien, le type de données est déterminé dans l'ordre suivant: Number, Currency, date, text, Boolean. Si des données ne correspondent pas au type de données deviné pour la colonne, elles sont renvoyées sous la forme d'une valeur <strong>null</strong> . Lors de l'importation, si une colonne contient des types de données mixtes, la colonne entière est castée en fonction du paramètre ImportMixedTypes. Le nombre par défaut de lignes à vérifier est 8. Les valeurs sont de type REG_DWORD.</p></td>
+<td><p>Nombre de lignes à vérifier pour le type de données. Celui-ci est déterminé en fonction du nombre maximal de types de données trouvés. En cas d'égalité, le type de données est déterminé dans l'ordre suivant : Numérique, Monétaire, Date, Texte, Booléen. Si les données rencontrées ne correspondent pas au type de données déterminé pour la colonne, une valeur  <strong>Null </strong> est renvoyée. Lors de l'importation, si une colonne a mélangé des type de données, la colonne entière sera mise en forme en fonction du paramètre ImportMixedTypes. Le nombre de lignes par défaut à vérifier est de 8. Les valeurs sont de type REG_DWORD.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ImportMixedTypes</p></td>
@@ -96,7 +96,7 @@ Le dossier **\\Excel 8,0\\engines de moteur de connectivité** contient les entr
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Engine</p></td>
+<td><p>Moteur</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Excel</p></td>
 </tr>
@@ -143,10 +143,11 @@ Le dossier **\\Excel 8,0\\engines de moteur de connectivité** contient les entr
 </tbody>
 </table>
 
+
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour le pilote Excel
 Lorsque vous utilisez le pilote Microsoft Excel, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La valeur **TypeGuessRows** se trouve sous la sous-clé de Registre suivante:
 
-# <a name="office-2016taboffice-2016"></a>[Office 2016](#tab/office-2016)
+# [<a name="office-2016"></a>Office 2016](#tab/office-2016)
 
 Pour une installation MSI d'Office
 
@@ -175,12 +176,12 @@ Le type de données est déterminé par le nombre maximal de types de données q
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Boolean
 
 Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
 
-# <a name="office-2013taboffice-2013"></a>[Office 2013](#tab/office-2013)
+# [<a name="office-2013"></a>Office 2013](#tab/office-2013)
 
 Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
 
@@ -197,12 +198,12 @@ Le type de données est déterminé par le nombre maximal de types de données q
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Boolean
 
 Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
 
-# <a name="office-2010taboffice-2010"></a>[Office 2010](#tab/office-2010)
+# [<a name="office-2010"></a>Office 2010](#tab/office-2010)
 
 Pour Office 32 bits sur 32 bits Windows ou 64 bits sur Windows, procédez comme suit:
 
@@ -219,12 +220,16 @@ Le type de données est déterminé par le nombre maximal de types de données q
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Boolean
 
 Si des données ne correspondent pas au type de données devinées pour la colonne, ces données sont renvoyées sous la forme d'une valeur **null** . Lors d'une importation, si une colonne possède des types de données mixtes, la colonne entière est convertie en un type de données défini par le paramètre **ImportMixedTypes** .
 
 ---
 > [!NOTE]
 > [!REMARQUE] Lorsque vous modifiez des paramètres de registre Windows, vous devez redémarrer le moteur de base de données pour que les nouveaux paramètres entrent en vigueur.
+
+## <a name="see-also"></a>Voir aussi
+
+- [Utilisation du paramètre TypeGuessRows pour le pilote Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 
