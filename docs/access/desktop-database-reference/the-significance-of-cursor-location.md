@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3ae9cc65d61416767140572b32d3f2e1b8e4d8eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313978"
 ---
 # <a name="significance-of-cursor-location"></a>Importance de l’emplacement du curseur
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Chaque curseur utilise des ressources temporaires pour contenir ses données. Ces ressources peuvent correspondre à la mémoire, à un fichier de pagination disque, à des fichiers disque temporaires ou même à un stockage temporaire dans la base de données. Le curseur est appelé un curseur *côté client* lorsque ces ressources sont hébergées sur l’ordinateur client. Le curseur est appelé un curseur *côté serveur* lorsque ces ressources sont situés sur le serveur.
+Chaque curseur utilise des ressources temporaires pour contenir ses données. Ces ressources peuvent correspondre à la mémoire, à un fichier de pagination disque, à des fichiers disque temporaires ou même à un stockage temporaire dans la base de données. Le curseur est appelé curseur *côté client* lorsque ces ressources résident sur l'ordinateur client. Le curseur est appelé curseur *côté serveur* lorsque ces ressources sont hébergées sur le serveur.
 
 ## <a name="client-side-cursors"></a>Curseurs côté client
 

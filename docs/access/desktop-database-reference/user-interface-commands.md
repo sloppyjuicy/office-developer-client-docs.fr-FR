@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9218f04e587cb9daea9ccb5ad7cce2cbbb9733e3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313152"
 ---
 # <a name="user-interface-commands"></a>Commandes d’interface utilisateur
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [AddMenu, action de macro](addmenu-macro-action.md)
 - [BrowseTo, action de macro](browseto-macro-action.md)
@@ -25,5 +25,5 @@ ms.locfileid: "28726182"
 - [NavigateTo, action de macro](navigateto-macro-action.md)
 - [SetDisplayedCategories, action de macro](setdisplayedcategories-macro-action.md)
 - [SetMenuItem, action de macro](setmenuitem-macro-action.md)
-- [Action de macro ShowToolbar](showtoolbar-macro-action.md)
+- [ShowToolbar, action de macro](showtoolbar-macro-action.md)
 

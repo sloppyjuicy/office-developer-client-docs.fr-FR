@@ -1,5 +1,5 @@
 ---
-title: TableDefs, propriétés (DAO)
+title: Propriétés TableDefs (DAO)
 TOCTitle: Properties
 ms:assetid: a565e9c7-36ef-47b7-a476-56333cc7f2a2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142529(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ed9d244fb79d1a3fc485f6675a10e7b680a2cc9f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726175"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314118"
 ---
-# <a name="tabledefs-properties-dao"></a>TableDefs, propriétés (DAO)
+# <a name="tabledefs-properties-dao"></a>Propriétés TableDefs (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Propriété TableDefs.Count (DAO)](tabledefs-count-property-dao.md)
+- [TableDefs. Count, propriété (DAO)](tabledefs-count-property-dao.md)
 
