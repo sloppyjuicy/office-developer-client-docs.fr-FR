@@ -3,12 +3,12 @@ title: Gérer une résolution élevée et redimensionner la résolution dans vot
 description: Mettre à jour votre solution Office tels que les volets de tâches personnalisés, ou les contrôles ActiveX, pour prendre en charge des moniteurs à haute résolution.
 ms.date: 03/09/2019
 localization_priority: Normal
-ms.openlocfilehash: 7092b77a6c7cf56e3dafa0a4c893566778abf00b
-ms.sourcegitcommit: c9720dd639f5c969f3cf6a324b84fadc57199370
+ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30517401"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980466"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Gérer une résolution élevée et redimensionner la résolution dans votre solution Office
 
@@ -36,14 +36,14 @@ Les types suivants de solutions Office peuvent être affectés par la mise à l�
 
 ## <a name="windows-dpi-awareness-modes"></a>Modes de présence PPP Windows
 
-Dans cet article, nous allons faire référence aux modes de sensibilisation PPP que Windows prend en charge. Chaque mode de présence PPP prend en charge différentes fonctionnalités, comme décrit dans le tableau suivant. Il s’agit d’une description simplifiée des modes afin d’expliquer comment les solutions Office les prennent en charge. Pour plus d’informations sur les modes de présence PPP, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+Dans cet article, nous allons faire référence aux modes de sensibilisation PPP que Windows prend en charge. Chaque mode de présence PPP prend en charge différentes fonctionnalités, comme décrit dans le tableau suivant. Il s’agit d’une description simplifiée des modes afin d’expliquer comment les solutions Office les prennent en charge. Pour plus d’informations sur les modes de présence PPP, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 |Mode  |Description  |Lorsque la résolution change  |
 |---------|---------|---------|
-|Système PPP ignoré     |    L’application s’affiche toujours comme si elle est sur une résolution de valeur 96.     |    L’application est étirée bitmap à la taille attendue sur l’affichage principal et secondaire.    |
-|Système PPP pris en compte     |   L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d’informations, voir la section[Configurer Windows pour corriger les applications floues](#Configure-Windows-to-fix-blurry-apps) de cet article.      |     L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
-|Par moniteur PPP pris en compte     |    L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.     |    Windows envoie des notifications PPP aux fenêtres de niveau supérieur dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution.     |
-|Par moniteur v2     |   L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.      |        Windows envoie des notifications PPP aux fenêtres de niveau supérieur et aux fenêtres enfants dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution. |
+|Système PPP ignoré |  L’application s’affiche toujours comme si elle est sur une résolution de valeur 96. |  L’application est étirée bitmap à la taille attendue sur l’affichage principal et secondaire.    |
+|Système PPP pris en compte |  L’application détecte la résolution du moniteur principal connecté à Windows, mais ne peut pas répondre aux modifications PPP. Pour plus d'informations, reportez-vous à la section [configurer Windows pour corriger les applications floues](#configure-windows-to-fix-blurry-apps) de cet article.  | L’application est étirée bitmap lorsqu’elle est déplacée vers un nouvel affichage avec une résolution différente.    |
+|Par moniteur PPP pris en compte |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution.     |
+|Par moniteur v2 |  L’application est capable de s’afficher correctement d’elle-même lorsque le PPP change.  |   Windows envoie des notifications PPP aux fenêtres de niveau supérieur et aux fenêtres enfants dans l’application, de sorte qu’elle peut ajuster son affichage en cas de modification de la résolution. |
 
 ## <a name="how-office-supports-dpi-scaling"></a>Comment Office prend en charge la mise à l’échelle PPP
 
@@ -63,13 +63,13 @@ Lorsque l’application Office hôte démarre, son thread principal est exécut�
 
 ### <a name="creating-new-threads-with-the-correct-dpi-context"></a>Création de nouveaux threads avec le contexte PPP correct
 
-Si votre solution crée des threads supplémentaires, Office obligent les threads à utiliser un contexte Par moniteur PPP pris en compte. Si votre code attend un contexte différent, vous devez utiliser la fonction [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) pour définir la présence de thread PPP prévue. 
+Si votre solution crée des threads supplémentaires, Office obligent les threads à utiliser un contexte Par moniteur PPP pris en compte. Si votre code attend un contexte différent, vous devez utiliser la fonction [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) pour définir la présence de thread PPP prévue. 
 
 ### <a name="build-a-context-block-for-incoming-thread-calls"></a>Créer un bloc de contexte pour les appels thread entrants 
 
 ![Diagramme montrant le bloc de contexte dans l’application Office passant le thread à un contexte Système pris en compte sur les appels à votre fenêtre de niveau supérieur.](./media/thread-dpi-awareness-context-block.png)
 
-Votre solution interagit avec son application Office hôte, donc vous aurez des appels entrants pour votre solution à partir d’Office, tels que des rappels d’événement. Lorsque Office appelle votre solution, celui-ci comporte un bloc de contexte qui force le contexte de thread en contexte Système PPP pris en compte. Vous devez modifier le contexte du thread pour qu’il soit conforme à la présence de résolution de la fenêtre. Vous pouvez implémenter un bloc de contexte similaire pour basculer le contexte du thread sur les appels entrants. Utilisez la fonction [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) pour modifier le contexte pour correspondre au contexte de votre fenêtre. 
+Votre solution interagit avec son application Office hôte, donc vous aurez des appels entrants pour votre solution à partir d’Office, tels que des rappels d’événement. Lorsque Office appelle votre solution, celui-ci comporte un bloc de contexte qui force le contexte de thread en contexte Système PPP pris en compte. Vous devez modifier le contexte du thread pour qu’il soit conforme à la présence de résolution de la fenêtre. Vous pouvez implémenter un bloc de contexte similaire pour basculer le contexte du thread sur les appels entrants. Utilisez la fonction [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) pour modifier le contexte pour correspondre au contexte de votre fenêtre. 
 
 > [!NOTE]
 > Votre bloc de contexte doit restaurer le contexte du thread PPP d’origine avant d’appeler d’autres composants en dehors de votre code de solution.
@@ -87,6 +87,7 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 this.value = value;
             }
+
             public static implicit operator DPI_AWARENESS_CONTEXT(IntPtr value)
             {
                 return new DPI_AWARENESS_CONTEXT(value);
@@ -97,28 +98,11 @@ public struct DPI_AWARENESS_CONTEXT
                 return context.value;
             }
 
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, long value)
-            {
-                return (IntPtr)(context.value.ToInt64() - value);
-            }
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, int value)
-            {
-                return (IntPtr)(context.value.ToInt32() - value);
-            }
-
-            public static bool operator ==(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value == context2;
-            }
-            public static bool operator !=(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value != context2;
-            }
-
             public static bool operator ==(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return AreDpiAwarenessContextsEqual(context1, context2);
             }
+
             public static bool operator !=(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return !AreDpiAwarenessContextsEqual(context1, context2);
@@ -133,36 +117,15 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 return base.GetHashCode();
             }
-
-            public override string ToString()
-            {
-                if (this.value == DPI_AWARENESS_CONTEXT_UNAWARE)
-                {
-                    return "Unaware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)
-                {
-                    return "System Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)
-                {
-                    return "Per Monitor Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)
-                {
-                    return "Per Monitor Aware V2";
-                }
-                return "Unknown";
-            }
         }
 
         private static DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_HANDLE = IntPtr.Zero;
 
         public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_INVALID = IntPtr.Zero;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = DPI_AWARENESS_CONTEXT_HANDLE - 1;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 2;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 3;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = DPI_AWARENESS_CONTEXT_HANDLE - 4;
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = new IntPtr(-1);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = new IntPtr(-2);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = new IntPtr(-3);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = new IntPtr(-4);
 
         public static DPI_AWARENESS_CONTEXT[] DpiAwarenessContexts =
         {
@@ -246,11 +209,12 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
       SetThreadDpiAwarenessContext(m_contextReversalType);
 }
 ```
+
 <h2 id="top-level-window-management">Gestion de fenêtre de niveau supérieur</h2>
 
-Lors du démarrage des applications Office, un appel est effectué à [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) comme DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. Dans ce contexte, les modifications PPP sont envoyées à HWND de n’importe quelle fenêtre de niveau supérieur dans le processus en cours d’exécution avec moniteur PPP pris en compte. Les fenêtres de niveau supérieur sont les fenêtres d’application Office, et toute autre fenêtre de niveau supérieur créée par votre solution. Lorsqu’une application Office est déplacée vers un nouvel affichage, elle reçoit une notification afin qu’elle puisse se mettre à l’échelle dynamiquement et s’afficher correctement dans la résolution du nouvel affichage. Votre solution Office pouvez créer des fenêtres de niveau supérieur qui se trouvent dans n’importe quel mode de présence PPP. Vos fenêtres de niveau supérieur peuvent également répondre aux modifications PPP en écoutant les messages Windows pour les modifications.
+Lors du démarrage des applications Office, un appel est effectué à [SetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) comme DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. Dans ce contexte, les modifications PPP sont envoyées à HWND de n’importe quelle fenêtre de niveau supérieur dans le processus en cours d’exécution avec moniteur PPP pris en compte. Les fenêtres de niveau supérieur sont les fenêtres d’application Office, et toute autre fenêtre de niveau supérieur créée par votre solution. Lorsqu’une application Office est déplacée vers un nouvel affichage, elle reçoit une notification afin qu’elle puisse se mettre à l’échelle dynamiquement et s’afficher correctement dans la résolution du nouvel affichage. Votre solution Office pouvez créer des fenêtres de niveau supérieur qui se trouvent dans n’importe quel mode de présence PPP. Vos fenêtres de niveau supérieur peuvent également répondre aux modifications PPP en écoutant les messages Windows pour les modifications.
 
-Si vous créez des fenêtres enfants apparentées à votre fenêtre de niveau supérieur, vous pouvez également les définir sur n’importe quel mode de présence PPP. Toutefois, si vous utilisez le mode Par moniteur PPP pris en compte, vos fenêtres enfant ne recevront pas les notifications de modification PPP.  Pour plus d’informations sur les modes de présence PPP Windows, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
+Si vous créez des fenêtres enfants apparentées à votre fenêtre de niveau supérieur, vous pouvez également les définir sur n’importe quel mode de présence PPP. Toutefois, si vous utilisez le mode Par moniteur PPP pris en compte, vos fenêtres enfant ne recevront pas les notifications de modification PPP.  Pour plus d’informations sur les modes de présence PPP Windows, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows).
 
 ## <a name="child-window-management"></a>Gestion de fenêtre enfant
 
@@ -273,10 +237,10 @@ Avec la mise à jour Windows avril 2018 (1803) et versions ultérieures, le comp
 
 ![Diagramme montrant les fenêtres enfants en cours d’exécution dans un contexte Par système PPP pris en compte sur Windows mise à jour avril 2018 (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
 
-Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction[GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la résolution de présence de la fenêtre parent. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Lorsque vous créez nouveau fenêtre enfant, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction[GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la résolution de présence de la fenêtre parent. Pour plus d’informations sur la cohérence de présence PPP, voir la section « Réinitialisation forcée de présence à l’échelle de processus PPP » dans [Développement d’applications bureau pour haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 > [!NOTE]
-> Vous ne pouvez pas dépendre de la présence de processus PPP car cela peut renvoyer [PROCESS_SYSTEM_DPI_AWARE](https://msdn.microsoft.com/en-us/library/windows/desktop/dn280512(v=vs.85).aspx) même lorsque le contexte de présence du thread principal PPP de l’application est [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context). Utilisez la fonction [GetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) pour obtenir le contexte de présence du thread PPP.
+> Vous ne pouvez pas dépendre de la présence de processus PPP car cela peut renvoyer [PROCESS_SYSTEM_DPI_AWARE](https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness) même lorsque le contexte de présence du thread principal PPP de l’application est [DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context). Utilisez la fonction [GetThreadDpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getthreaddpiawarenesscontext) pour obtenir le contexte de présence du thread PPP.
 
 ## <a name="office-and-windows-dpi-compatibility-settings"></a>Paramètres de compatibilité Office et Windows PPP
 
@@ -372,9 +336,9 @@ Certaines solutions peuvent recevoir et répondre aux modifications PPP. Certain
 
 <h3 id="vsto-add-ins">Complément VSTO</h3>
 
-Si votre complément VSTO crée des fenêtres enfant apparentées à n’importe quelle fenêtre Office, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction[GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la résolution de présence de la fenêtre parent. Vos fenêtres enfants ne recevront pas les notifications de modification PPP. Si votre solution n’est pas affichée correctement, les utilisateurs doivent configurer Office en mode de compatibilité.
+Si votre complément VSTO crée des fenêtres enfant apparentées à n’importe quelle fenêtre Office, assurez-vous qu’elles correspondent à la résolution de présence de leur fenêtre parent. Vous pouvez utiliser la fonction[GetWindowdpiAwarenessContext](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) pour obtenir la résolution de présence de la fenêtre parent. Vos fenêtres enfants ne recevront pas les notifications de modification PPP. Si votre solution n’est pas affichée correctement, les utilisateurs doivent configurer Office en mode de compatibilité.
 
-Pour n’importe quelle fenêtre de niveau supérieur que votre complément VSTO crée, vous pouvez les définir sur n’importe quel mode de présence PPP. L’exemple de code suivant explique comment configurer la présence de PPP souhaitée et comment répondre aux modifications PPP. Vous devrez également ajuster votre app.config, comme décrit dans l’article [Prise en charge de la haute résolution dans Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
+Pour n’importe quelle fenêtre de niveau supérieur que votre complément VSTO crée, vous pouvez les définir sur n’importe quel mode de présence PPP. L’exemple de code suivant explique comment configurer la présence de PPP souhaitée et comment répondre aux modifications PPP. Vous devrez également ajuster votre app.config, comme décrit dans l’article [Prise en charge de la haute résolution dans Windows Forms](https://docs.microsoft.com/dotnet/framework/winforms/high-dpi-support-in-windows-forms). 
 
 ```csharp
 using System;
@@ -495,15 +459,15 @@ namespace SharedModule
 Un volet de tâches personnalisé est créé comme fenêtre enfant par Office. Lors de l’exécution sur Windows Fall Creators Update (1709), votre volet Office personnalisé s’exécute en utilisant le même mode de présence PPP qu’Office. Lors de l’exécution sur la mise à jour avril 2018 Windows (1803) et versions ultérieures, votre volet de tâches personnalisé s’exécutera sur le mode de présence système PPP. 
 
 Comme les volets de tâches personnalisés sont des fenêtres enfants, ils ne peuvent pas recevoir de notifications PPP. S’ils sont affichés incorrectement, l’utilisateur devra utiliser le[mode de compatibilité Office PPP](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
-Si votre volet de tâches personnalisé crée des fenêtres de niveau supérieur, ces fenêtres peuvent s’exécuter dans n’importe quel mode de présence PPP et recevoir des notifications de modification PPP. Pour plus d’informations, voir la section [Gestion de la fenêtre de niveau supérieur](#Top-level-window-management) de cet article.
+Si votre volet de tâches personnalisé crée des fenêtres de niveau supérieur, ces fenêtres peuvent s’exécuter dans n’importe quel mode de présence PPP et recevoir des notifications de modification PPP. Pour plus d’informations, voir la section [Gestion de la fenêtre de niveau supérieur](#top-level-window-management) de cet article.
 
 <h3 id="com-add-ins">Compléments COM</h3>
 
-Les compléments COM qui créent des fenêtres de niveau supérieur peuvent recevoir des notifications PPP. Vous devez créer un [bloc de contexte](#Build-a-context-block-for-incoming-thread-calls) pour définir le thread à la présence PPP souhaitée pour la fenêtre, puis créer la fenêtre. Il y a beaucoup à gagner à gérer les notifications PPP correctement, veillez donc à lire [Développement d’applications bureau à haute résolution sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) pour plus d’informations.
+Les compléments COM qui créent des fenêtres de niveau supérieur peuvent recevoir des notifications PPP. Vous devez créer un [bloc de contexte](#build-a-context-block-for-incoming-thread-calls) pour définir le thread à la présence PPP souhaitée pour la fenêtre, puis créer la fenêtre. Il y a beaucoup à gagner à gérer les notifications PPP correctement, veillez donc à lire [Développement d’applications bureau à haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) pour plus d’informations.
 
-Le message [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) est envoyé lorsque le PPP pour une fenêtre a changé.  Dans le code non géré, ce message est géré par la [Procédure de fenêtre](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633570(v=vs.85).aspx) pour le HWND.  Un exemple de code de modification du gestionnaire PPP est accessible dans l’article [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx). 
+Le message [WM_DPICHANGED](https://docs.microsoft.com/windows/desktop/hidpi/wm-dpichanged) est envoyé lorsque le PPP pour une fenêtre a changé.  Dans le code non géré, ce message est géré par la [Procédure de fenêtre](https://docs.microsoft.com/windows/desktop/winmsg/using-window-procedures) pour le HWND.  Un exemple de code de modification du gestionnaire PPP est accessible dans l’article WM_DPICHANGED. 
 
-Les compléments COM qui montrent les fenêtres enfants apparentées à une fenêtre dans Office ne peuvent pas recevoir de notifications PPP. S’ils sont affichés incorrectement, l’utilisateur devra utiliser le[mode de compatibilité Office PPP](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Les compléments COM qui montrent les fenêtres enfants apparentées à une fenêtre dans Office ne peuvent pas recevoir de notifications PPP. S’ils sont affichés incorrectement, l’utilisateur devra utiliser le[mode de compatibilité Office PPP](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="activex-controls">Contrôles ActiveX</h3>
 
@@ -511,7 +475,7 @@ Comment prendre en charge la mise à l’échelle PPP dans les contrôles Active
 
 #### <a name="windowed-activex-controls"></a>Contrôles ActiveX dans une fenêtre
 
-Les contrôles ActiveX dans une fenêtre reçoivent un message WM_SIZE chaque fois que le contrôle est redimensionné.  Lorsque cet événement est déclenché, le code gestionnaire d’événements peut d’appeler la fonction [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) utilisant HWND du contrôle pour obtenir le PPP, calculer les différences de facteur échelle et ajuster en conséquence. 
+Les contrôles ActiveX dans une fenêtre reçoivent un message WM_SIZE chaque fois que le contrôle est redimensionné.  Lorsque cet événement est déclenché, le code gestionnaire d’événements peut d’appeler la fonction [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) utilisant HWND du contrôle pour obtenir le PPP, calculer les différences de facteur échelle et ajuster en conséquence. 
 
 L’exemple suivant permet au contrôle ActiveX basé sur MFC de répondre à l’événement **OnSize**. 
 
@@ -570,15 +534,15 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 Les contrôles ActiveX ne sont pas garantis d’avoir un HWND.  Quand un contrôle ActiveX est inséré sur une zone de document, il placé en mode Création.  Dans les applications Office, le conteneur d’hébergement renvoie 0 pour l’appel à hDC -> GetWindow() dans le :: OnDraw événement lorsque le contrôle est en mode Création.  Un PPP fiable ne peut pas être récupéré dans ce cas. 
 
-Toutefois, lorsque le contrôle est en mode d’exécution, Office renverra HWND où le contrôle doit être affiché.  Dans ce cas, le développeur de contrôle peut appeler [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) afin de recevoir les polices, l’échelle, contrôles PPP actuels et ainsi de suite. 
+Toutefois, lorsque le contrôle est en mode d’exécution, Office renverra HWND où le contrôle doit être affiché.  Dans ce cas, le développeur de contrôle peut appeler [GetDpiForWindow](https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) afin de recevoir les polices, l’échelle, contrôles PPP actuels et ainsi de suite. 
 
 <h3 id="ribbon-extensibility">Extensibilité du ruban </h3>
 
-Les rappels Office pour les contrôles de ruban personnalisés sont également une présence thread PPP de système PPP pris en compte.  Si votre solution attend une présence de thread PPP différente, vous devez implémenter un bloc de contexte pour configurer la présence de thread attendue. Pour plus d’informations, voir [Créer un bloc de contexte](#Build-a-context-block-for-incoming-thread-calls).
+Les rappels Office pour les contrôles de ruban personnalisés sont également une présence thread PPP de système PPP pris en compte.  Si votre solution attend une présence de thread PPP différente, vous devez implémenter un bloc de contexte pour configurer la présence de thread attendue. Pour plus d’informations, voir [Créer un bloc de contexte](#build-a-context-block-for-incoming-thread-calls).
 
 <h3 id="ole">Serveurs et clients OLE</h3>
 
-Lorsqu’un serveur OLE est hébergé dans un conteneur de client OLE, vous ne pouvez pas fournir d’informations PPP actuelles ni prises en charge. Cela peut provoquer des problèmes, car certaines combinaisons de modes mixtes de fenêtre parent à fenêtre enfant ne sont pas pris en charge par l’architecture actuelle de Windows. Si Word ou Excel détecte qu’il existe plusieurs moniteurs avec différentes échelles PPP, ils ne prennent pas en charge l’activation sur place. Votre serveur OLE s’activera en externe. Si vous rencontrez des problèmes avec les interactions de serveur OLE, l’utilisateur devra utiliser le [mode de compatibilité Office PPP](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Lorsqu’un serveur OLE est hébergé dans un conteneur de client OLE, vous ne pouvez pas fournir d’informations PPP actuelles ni prises en charge. Cela peut provoquer des problèmes, car certaines combinaisons de modes mixtes de fenêtre parent à fenêtre enfant ne sont pas pris en charge par l’architecture actuelle de Windows. Si Word ou Excel détecte qu’il existe plusieurs moniteurs avec différentes échelles PPP, ils ne prennent pas en charge l’activation sur place. Votre serveur OLE s’activera en externe. Si vous rencontrez des problèmes avec les interactions de serveur OLE, l’utilisateur devra utiliser le [mode de compatibilité Office PPP](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 <h3 id="web-add-ins">Compléments Office web</h3>
 
@@ -586,7 +550,7 @@ Les compléments Office créés à l’aide de l’API JavaScript Office s’ex�
 
 ## <a name="verify-that-your-solution-supports-dpi-scaling"></a>Vérifier que votre solution prend en charge la mise à l’échelle PPP
 
-Une fois que vous avez mis à jour votre application pour prendre en charge la mise à l’échelle PPP, vous devez valider vos modifications dans un environnement mixte PPP. Vérifiez que votre code d’interface utilisateur répond correctement aux modifications PPP quand les fenêtres de votre solution sont déplacées d’un affichage à un autre ayant des valeurs PPP différentes. Pour plus d’informations sur les techniques de test de redimensionnement PPP, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
+Une fois que vous avez mis à jour votre application pour prendre en charge la mise à l’échelle PPP, vous devez valider vos modifications dans un environnement mixte PPP. Vérifiez que votre code d’interface utilisateur répond correctement aux modifications PPP quand les fenêtres de votre solution sont déplacées d’un affichage à un autre ayant des valeurs PPP différentes. Pour plus d’informations sur les techniques de test de redimensionnement PPP, voir [Développement d’applications bureau haute résolution sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics).
 
 Vous pouvez également trouver ces techniques supplémentaires utiles :
 
@@ -600,15 +564,14 @@ Vous pouvez également trouver ces techniques supplémentaires utiles :
 
 ### <a name="articles"></a>Articles
 
+- Le [développement d'une application WPF PPP compatible par moniteur](https://docs.microsoft.com/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) fournit une vue d'ensemble et un guide pour l'écriture d'applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
 - 
-  [Écrire un bureau PPP pris en compte et Applications Win32](https://msdn.microsoft.com/en-us/library/windows/desktop/dn469266(v=vs.85).aspx) fournit une vue d’ensemble et un guide pour écrire des applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
-- 
-  [Mise à l’échelle PPP mode mixte et API PPP pris en compte](https://msdn.microsoft.com/en-us/library/windows/desktop/mt744321(v=vs.85).aspx) a une liste d’API connexes à PPP.
+  [Mise à l’échelle PPP mode mixte et API PPP pris en compte](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) a une liste d’API connexes à PPP.
 - [Guie de développeur - Par moniteur PPP - Aperçu WPF](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) couvre le guide de développement d’application WPF pour créer des applications WPF PPP pris en compte.
-- [Support technique Office pour l’affichage haute définition](https://support.office.com/en-us/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fournit des informations sur la manière dont un utilisateur peut définir Office afin d’optimiser pour assurer la compatibilité si votre solution Office n’est pas prise en charge correctement lorsque le PPP change.
+- [Support technique Office pour l’affichage haute définition](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fournit des informations sur la manière dont un utilisateur peut définir Office afin d’optimiser pour assurer la compatibilité si votre solution Office n’est pas prise en charge correctement lorsque le PPP change.
 - [Afficher les modifications de mise à l’échelle pour la Mise à jour anniversaire Windows 10](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) est un billet de blog qui présente les modifications introduites avec la mise à jour anniversaire Windows 10. 
-- [Gérer DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/en-us/windows/desktop/hidpi/dpi-awareness-context) contient les détails de programme sur les valeurs et définitions de DPI_AWARENESS_CONTEXT.
-- [Développement d’applications bureau PPP élevée sur Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) inclut des informations sur le test dans la section Testez vos modifications.
+- [Gérer DPI_AWARENESS_CONTEXT](https://docs.microsoft.com/windows/desktop/hidpi/dpi-awareness-context) contient les détails de programme sur les valeurs et définitions de DPI_AWARENESS_CONTEXT.
+- [Développement d’applications bureau PPP élevée sur Windows](https://docs.microsoft.com/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) inclut des informations sur le test dans la section Testez vos modifications.
 
 ### <a name="code-samples"></a>Exemples de code
 

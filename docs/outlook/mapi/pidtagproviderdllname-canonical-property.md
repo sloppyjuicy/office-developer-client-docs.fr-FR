@@ -11,46 +11,46 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3bf6347102fc0865b081847a0b66763ba2654665
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 57fdc754ed4be29dbdd50a198707d8f39a14b3d4
+ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589482"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31980458"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>Propriété canonique PidTagProviderDllName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom de fichier de base de la bibliothèque de liens dynamiques fournisseur MAPI service (DLL).
+Contient le nom de fichier de base de la bibliothèque de liens dynamiques (DLL) du fournisseur de services MAPI.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROVIDER_DLL_NAME, PR_PROVIDER_DLL_NAME_A, PR_PROVIDER_DLL_NAME_W  <br/> |
 |Identificateur :  <br/> |0x300A  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise une convention d’affectation de noms de fichier DLL. Nom de base contient les caractères jusqu'à six identifient de manière unique la DLL. MAPI ajoute la chaîne 32 sur le nom DLL de base pour identifier la version qui s’exécute sur les plateformes 32 bits. Par exemple, lorsque le nom MAPI. DLL est spécifié, MAPI construit le nom du fichier MAPI32. DLL pour représenter la version 32 bits correspondante de la DLL.
+MAPI utilise une convention d'affectation de noms de fichiers DLL. Il ajoute la chaîne 32 au nom de la DLL de base pour identifier la version qui s'exécute sur les plateformes 32 bits. Par exemple, lorsque le nom MAPI. DLL est spécifié, MAPI construit le nom MAPI32. DLL pour représenter la version 32 bits correspondante de la DLL.
   
-Ces propriétés doivent spécifier le nom de base. MAPI ajoute la chaîne 32 comme il convient. Dans le cadre de cette propriété entraîne une erreur, y compris la chaîne 32.
+Ces propriétés doivent spécifier le nom de base. MAPI ajoute la chaîne 32 comme il convient. L'inclusion de la chaîne 32 dans cette propriété génère une erreur.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 
