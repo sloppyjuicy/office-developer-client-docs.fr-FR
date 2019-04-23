@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c66c16e8e110fd9565b9417c70e98247f2abc24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288328"
 ---
-# <a name="openschema-method-example-vj"></a><span data-ttu-id="813df-102">OpenSchema, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="813df-102">OpenSchema method example (VJ++)</span></span>
+# <a name="openschema-method-example-vj"></a><span data-ttu-id="9e1e3-102">OpenSchema, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9e1e3-102">OpenSchema method example (VJ++)</span></span>
 
 
-<span data-ttu-id="813df-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="813df-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e1e3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e1e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="813df-104">Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="813df-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="9e1e3-104">Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="9e1e3-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```java 
  

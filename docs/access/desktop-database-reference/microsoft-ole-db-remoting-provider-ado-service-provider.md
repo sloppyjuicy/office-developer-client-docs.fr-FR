@@ -8,54 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 54ea659aa5392dd4404ffb591eba06f1f9c2910b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288903"
 ---
-# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a><span data-ttu-id="66d55-102">Fournisseur Microsoft OLE DB d'accès à distance (fournisseur de service ADO)</span><span class="sxs-lookup"><span data-stu-id="66d55-102">Microsoft OLE DB Remoting Provider (ADO Service Provider)</span></span>
+# <a name="microsoft-ole-db-remoting-provider-ado-service-provider"></a><span data-ttu-id="25c5d-102">Fournisseur d’accès à distance Microsoft OLE DB (fournisseur de services ADO)</span><span class="sxs-lookup"><span data-stu-id="25c5d-102">Microsoft OLE DB Remoting Provider (ADO Service Provider)</span></span>
 
-<span data-ttu-id="66d55-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66d55-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25c5d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25c5d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="66d55-p101">Le fournisseur Microsoft OLE DB d'accès à distance permet à l'utilisateur local d'un ordinateur client d'appeler des fournisseurs de données sur un ordinateur distant. Spécifiez les paramètres du fournisseur de données pour l'ordinateur distant comme vous le feriez si vous étiez un utilisateur local de cet ordinateur. Spécifiez ensuite les paramètres utilisés par le fournisseur d'accès à distance pour accéder à l'ordinateur distant. Vous accéderez ainsi à l'ordinateur distant comme si vous étiez un utilisateur local.</span><span class="sxs-lookup"><span data-stu-id="66d55-p101">The Microsoft OLE DB Remoting Provider enables a local user on a client machine to invoke data providers on a remote machine. Specify the data provider parameters for the remote machine as you would if you were a local user on the remote machine. Then specify the parameters used by the Remoting Provider to access the remote machine. The resulting effect is that you will access the remote machine as if you were a local user.</span></span>
+<span data-ttu-id="25c5d-p101">Le fournisseur Microsoft OLE DB d'accès à distance permet à l'utilisateur local d'un ordinateur client d'appeler des fournisseurs de données sur un ordinateur distant. Spécifiez les paramètres du fournisseur de données pour l'ordinateur distant comme vous le feriez si vous étiez un utilisateur local de cet ordinateur. Spécifiez ensuite les paramètres utilisés par le fournisseur d'accès à distance pour accéder à l'ordinateur distant. Vous accéderez ainsi à l'ordinateur distant comme si vous étiez un utilisateur local.</span><span class="sxs-lookup"><span data-stu-id="25c5d-p101">The Microsoft OLE DB Remoting Provider enables a local user on a client machine to invoke data providers on a remote machine. Specify the data provider parameters for the remote machine as you would if you were a local user on the remote machine. Then specify the parameters used by the Remoting Provider to access the remote machine. The resulting effect is that you will access the remote machine as if you were a local user.</span></span>
 
-## <a name="provider-keyword"></a><span data-ttu-id="66d55-108">Mot clé du fournisseur</span><span class="sxs-lookup"><span data-stu-id="66d55-108">Provider Keyword</span></span>
+## <a name="provider-keyword"></a><span data-ttu-id="25c5d-108">Mot clé du fournisseur</span><span class="sxs-lookup"><span data-stu-id="25c5d-108">Provider Keyword</span></span>
 
-<span data-ttu-id="66d55-p102">Pour appeler le fournisseur Microsoft OLE DB d'accès à distance, spécifiez le mot clé et la valeur suivants dans la chaîne de connexion. (Vous remarquerez que le nom du fournisseur contient un espace.)</span><span class="sxs-lookup"><span data-stu-id="66d55-p102">To invoke the OLE DB Remoting Provider, specify the following keyword and value in the connection string. (Note the blank space in the provider name.)</span></span>
+<span data-ttu-id="25c5d-p102">Pour appeler le fournisseur Microsoft OLE DB d'accès à distance, spécifiez le mot clé et la valeur suivants dans la chaîne de connexion. (Vous remarquerez que le nom du fournisseur contient un espace.)</span><span class="sxs-lookup"><span data-stu-id="25c5d-p102">To invoke the OLE DB Remoting Provider, specify the following keyword and value in the connection string. (Note the blank space in the provider name.)</span></span>
 
 ```sql 
  
 "Provider=MS Remote" 
 ```
 
-## <a name="additional-keywords"></a><span data-ttu-id="66d55-111">Mots clé supplémentaires</span><span class="sxs-lookup"><span data-stu-id="66d55-111">Additional Keywords</span></span>
+## <a name="additional-keywords"></a><span data-ttu-id="25c5d-111">Mots clé supplémentaires</span><span class="sxs-lookup"><span data-stu-id="25c5d-111">Additional Keywords</span></span>
 
-<span data-ttu-id="66d55-112">Lorsque ce fournisseur de services est appelé, les mots clés supplémentaires suivants sont pertinents.</span><span class="sxs-lookup"><span data-stu-id="66d55-112">When this service provider is invoked, the following additional keywords are relevant.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="66d55-113">Mot clé</span><span class="sxs-lookup"><span data-stu-id="66d55-113">Keyword</span></span></p></th>
-<th><p><span data-ttu-id="66d55-114">Description</span><span class="sxs-lookup"><span data-stu-id="66d55-114">Description</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="66d55-115"><strong>Data Source</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-115"><strong>Data Source</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-116">Spécifie le nom de la source de données à distance.</span><span class="sxs-lookup"><span data-stu-id="66d55-116">Specifies the name of the remote data source.</span></span> <span data-ttu-id="66d55-117">Il est passé pour le fournisseur OLE DB d’accès à distance pour le traitement.</span><span class="sxs-lookup"><span data-stu-id="66d55-117">It is passed to the OLE DB Remoting Provider for processing.</span></span> <span data-ttu-id="66d55-118">Ce mot clé est équivalent à la propriété <a href="connect-property-rds.md">Connect</a> de l’objet <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</span><span class="sxs-lookup"><span data-stu-id="66d55-118">This keyword is equivalent to the <a href="datacontrol-object-rds.md">RDS.DataControl</a> object's <a href="connect-property-rds.md">Connect</a> property.</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-## <a name="dynamic-properties"></a><span data-ttu-id="66d55-119">Propriétés dynamiques</span><span class="sxs-lookup"><span data-stu-id="66d55-119">Dynamic Properties</span></span>
-
-<span data-ttu-id="66d55-120">Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suivantes sont ajoutées à la collection [Properties](connection-object-ado.md) de l'objet [Connection](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="66d55-120">When this service provider is invoked, the following dynamic properties are added to the [Connection](connection-object-ado.md) object's [Properties](properties-collection-ado.md) collection.</span></span>
+<span data-ttu-id="25c5d-112">Lorsque ce fournisseur de services est appelé, les mots clés supplémentaires suivants sont pertinents.</span><span class="sxs-lookup"><span data-stu-id="25c5d-112">When this service provider is invoked, the following additional keywords are relevant.</span></span>
 
 <table>
 <colgroup>
@@ -64,81 +40,103 @@ ms.locfileid: "28701899"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="66d55-121">Nom de la propriété dynamique</span><span class="sxs-lookup"><span data-stu-id="66d55-121">Dynamic Property Name</span></span></p></th>
-<th><p><span data-ttu-id="66d55-122">Description</span><span class="sxs-lookup"><span data-stu-id="66d55-122">Description</span></span></p></th>
+<th><p><span data-ttu-id="25c5d-113">Mot clé</span><span class="sxs-lookup"><span data-stu-id="25c5d-113">Keyword</span></span></p></th>
+<th><p><span data-ttu-id="25c5d-114">Description</span><span class="sxs-lookup"><span data-stu-id="25c5d-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="66d55-123"><strong>DFMode</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-123"><strong>DFMode</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-124">Indique le Mode DataFactory.</span><span class="sxs-lookup"><span data-stu-id="66d55-124">Indicates the DataFactory Mode.</span></span> <span data-ttu-id="66d55-125">Chaîne qui spécifie la version souhaitée de l’objet <a href="datafactory-object-rdsserver.md">DataFactory</a> sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="66d55-125">A string that specifies the desired version of the <a href="datafactory-object-rdsserver.md">DataFactory</a> object on the server.</span></span> <span data-ttu-id="66d55-126">Définir cette propriété avant d’ouvrir une connexion pour demander une version spécifique de l' <strong>objet DataFactory</strong>.</span><span class="sxs-lookup"><span data-stu-id="66d55-126">Set this property before opening a connection to request a particular version of the <strong>DataFactory</strong>.</span></span> <span data-ttu-id="66d55-127">Si la version demandée n’est pas disponible, s’être tenté d’utiliser la version précédente.</span><span class="sxs-lookup"><span data-stu-id="66d55-127">If the requested version is not available, an attempt will be made to use the preceding version.</span></span> <span data-ttu-id="66d55-128">S’il n’existe aucune version précédente, une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="66d55-128">If there is no preceding version, an error will occur.</span></span> <span data-ttu-id="66d55-129">Si la <strong>valeur de DFMode</strong> est inférieure à la version disponible, une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="66d55-129">If <strong>DFMode</strong> is less than the available version, an error will occur.</span></span> <span data-ttu-id="66d55-130">Cette propriété est en lecture seule après qu’une connexion est établie.</span><span class="sxs-lookup"><span data-stu-id="66d55-130">This property is read-only after a connection is made.</span></span> <span data-ttu-id="66d55-131">Les valeurs valides sont les valeurs de chaîne suivantes :</span><span class="sxs-lookup"><span data-stu-id="66d55-131">Can be one of the following valid string values:</span></span></p>
-<p></p>
-<ul>
-<li><p><span data-ttu-id="66d55-132">&quot;25&quot; — version 2.5 (valeur par défaut)</span><span class="sxs-lookup"><span data-stu-id="66d55-132">&quot;25&quot; — Version 2.5 (Default)</span></span></p></li>
-<li><p><span data-ttu-id="66d55-133">&quot;21&quot; — version 2.1</span><span class="sxs-lookup"><span data-stu-id="66d55-133">&quot;21&quot; — Version 2.1</span></span></p></li>
-<li><p><span data-ttu-id="66d55-134">&quot;20&quot; — version 2.0</span><span class="sxs-lookup"><span data-stu-id="66d55-134">&quot;20&quot; — Version 2.0</span></span></p></li>
-<li><p><span data-ttu-id="66d55-135">&quot;15&quot; — version 1.5</span><span class="sxs-lookup"><span data-stu-id="66d55-135">&quot;15&quot; — Version 1.5</span></span></p></li>
-</ul>
-<p></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="66d55-136"><strong>Command Properties</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-136"><strong>Command Properties</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-p105">Indique les valeurs qui seront ajoutées à la chaîne de propriétés de commande (ensemble de lignes) envoyées au serveur par le fournisseur MS d'accès à distance.
-
-La valeur par défaut pour cette chaîne est vt_empty.</span><span class="sxs-lookup"><span data-stu-id="66d55-p105">Indicates values that will be added to the string of command (rowset) properties sent to the server by the MS Remote provider. The default value for this string is vt_empty.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="66d55-139"><strong>Current DFMode</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-139"><strong>Current DFMode</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-140">Indique le numéro de version réel du <strong>DataFactory</strong> sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="66d55-140">Indicates the actual version number of the <strong>DataFactory</strong> on the server.</span></span> <span data-ttu-id="66d55-141">Vérifier cette propriété pour vérifier si la version demandée dans la propriété <strong>DFMode</strong> a été respectée.</span><span class="sxs-lookup"><span data-stu-id="66d55-141">Check this property to see if the version requested in the <strong>DFMode</strong> property was honored.</span></span> <span data-ttu-id="66d55-142">Les valeurs valides sont les entiers longs suivants :</span><span class="sxs-lookup"><span data-stu-id="66d55-142">Can be one of the following valid Long integer values:</span></span></p>
-<p></p>
-<ul>
-<li><p><span data-ttu-id="66d55-143">25 — Version 2.5 (valeur par défaut)</span><span class="sxs-lookup"><span data-stu-id="66d55-143">25 — Version 2.5 (Default)</span></span></p></li>
-<li><p><span data-ttu-id="66d55-144">21 — Version 2.1</span><span class="sxs-lookup"><span data-stu-id="66d55-144">21 — Version 2.1</span></span></p></li>
-<li><p><span data-ttu-id="66d55-145">20 — Version 2.0</span><span class="sxs-lookup"><span data-stu-id="66d55-145">20 — Version 2.0</span></span></p></li>
-<li><p><span data-ttu-id="66d55-146">15 — Version 1.5</span><span class="sxs-lookup"><span data-stu-id="66d55-146">15 — Version 1.5</span></span></p></li>
-</ul>
-<p></p>
-<p><span data-ttu-id="66d55-147">Ajout de &quot;DFMode = 20 ; &quot; à votre connexion de chaîne lorsque vous utilisez le fournisseur <strong>MSRemote, vous</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données.</span><span class="sxs-lookup"><span data-stu-id="66d55-147">Adding &quot;DFMode=20;&quot; to your connection string when using the <strong>MSRemote</strong> provider can improve your server's performance when updating data.</span></span> <span data-ttu-id="66d55-148">Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur.</span><span class="sxs-lookup"><span data-stu-id="66d55-148">With this setting, the <strong>RDSServer.DataFactory</strong> object on the server uses a less resource-intensive mode.</span></span> <span data-ttu-id="66d55-149">Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</span><span class="sxs-lookup"><span data-stu-id="66d55-149">However, the following features are not available in this configuration:</span></span></p>
-<p></p>
-<ul>
-<li><p><span data-ttu-id="66d55-150">utilisation de requêtes paramétrées ;</span><span class="sxs-lookup"><span data-stu-id="66d55-150">Using parameterized queries.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-151">obtention d'informations de paramètres et de colonnes avant l'appel de la méthode <strong>Execute</strong>;</span><span class="sxs-lookup"><span data-stu-id="66d55-151">Getting parameter or column information before calling the <strong>Execute</strong> method.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-152">affectation de la valeur <strong>True</strong> à <strong>Transact Updates</strong>;</span><span class="sxs-lookup"><span data-stu-id="66d55-152">Setting <strong>Transact Updates</strong> to <strong>True</strong>.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-153">obtention de l'état des lignes ;</span><span class="sxs-lookup"><span data-stu-id="66d55-153">Getting row status.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-154">appel de la méthode <strong>Resync</strong> ;</span><span class="sxs-lookup"><span data-stu-id="66d55-154">Calling the <strong>Resync</strong> method.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-155">actualisation (explicite ou automatique) via la propriété <strong>Update Resync</strong> ;</span><span class="sxs-lookup"><span data-stu-id="66d55-155">Refreshing (explicitly or automatically) via the <strong>Update Resync</strong> property.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-156">définition des propriétés <strong>Command</strong> ou <strong>Recordset</strong> ;</span><span class="sxs-lookup"><span data-stu-id="66d55-156">Setting <strong>Command</strong> or <strong>Recordset</strong> properties.</span></span></p></li>
-<li><p><span data-ttu-id="66d55-157">utilisation d' <strong>adCmdTableDirect</strong>.</span><span class="sxs-lookup"><span data-stu-id="66d55-157">Using <strong>adCmdTableDirect</strong>.</span></span></p></li>
-</ul>
-<p></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="66d55-158"><strong>Gestionnaire</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-158"><strong>Handler</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-159">Indique le nom d’un programme de personnalisation coté serveur (gestionnaire) qui étend les fonctionnalités de <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>et tous les paramètres utilisés par le gestionnaire<em>,</em> tous les séparées par des virgules (&quot;,&quot;).</span><span class="sxs-lookup"><span data-stu-id="66d55-159">Indicates the name of a server-side customization program (or handler) that extends the functionality of the <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>, and any parameters used by the handler<em>,</em> all separated by commas (&quot;,&quot;).</span></span> <span data-ttu-id="66d55-160">Valeur de type <strong>String</strong>.</span><span class="sxs-lookup"><span data-stu-id="66d55-160">A <strong>String</strong> value.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="66d55-161"><strong>Internet Timeout</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-161"><strong>Internet Timeout</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-p109">Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur.
-
-(La valeur par défaut est de 5 minutes).</span><span class="sxs-lookup"><span data-stu-id="66d55-p109">Indicates the maximum number of milliseconds to wait for a request to travel to and from the server. (The default is 5 minutes.)</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="66d55-164"><strong>Remote Provider</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-164"><strong>Remote Provider</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-165">Indique le nom du fournisseur de données à utiliser sur le serveur distant.</span><span class="sxs-lookup"><span data-stu-id="66d55-165">Indicates the name of the data provider to be used on the remote server.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="66d55-166"><strong>Remote Server</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-166"><strong>Remote Server</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-p110">Indique le nom du serveur et le protocole de communication à utiliser pour cette connexion. Cette propriété équivaut à la propriété <a href="server-property-rds.md">Server</a> de l’objet <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</span><span class="sxs-lookup"><span data-stu-id="66d55-p110">Indicates the server name and communication protocol to be used by this connection. This property is equivalent to the <a href="datacontrol-object-rds.md">RDS.DataControl</a> object <a href="server-property-rds.md">Server</a> property.</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="66d55-169"><strong>Transact Updates</strong></span><span class="sxs-lookup"><span data-stu-id="66d55-169"><strong>Transact Updates</strong></span></span></p></td>
-<td><p><span data-ttu-id="66d55-p111">Le fait de définir cette valeur sur True indique que lorsque la méthode <a href="updatebatch-method-ado.md">UpdateBatch</a> est exécutée sur le serveur, cette opération s’effectue dans une transaction. La valeur par défaut de cette propriété dynamique booléenne est False.</span><span class="sxs-lookup"><span data-stu-id="66d55-p111">When set to True, this value indicates that when <a href="updatebatch-method-ado.md">UpdateBatch</a> is performed on the server, it will be done inside a transaction. The default value for this Boolean dynamic property is False.</span></span></p></td>
+<td><p><span data-ttu-id="25c5d-115"><strong>Data Source</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-115"><strong>Data Source</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-116">Spécifie le nom de la source de données distante.</span><span class="sxs-lookup"><span data-stu-id="25c5d-116">Specifies the name of the remote data source.</span></span> <span data-ttu-id="25c5d-117">Il est transmis au fournisseur OLE DB d'accès à distance pour le traitement.</span><span class="sxs-lookup"><span data-stu-id="25c5d-117">It is passed to the OLE DB Remoting Provider for processing.</span></span> <span data-ttu-id="25c5d-118">Ce mot clé est équivalent à la propriété <a href="connect-property-rds.md">Connect</a> de l’objet <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</span><span class="sxs-lookup"><span data-stu-id="25c5d-118">This keyword is equivalent to the <a href="datacontrol-object-rds.md">RDS.DataControl</a> object's <a href="connect-property-rds.md">Connect</a> property.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="66d55-p112">Vous pouvez aussi définir des propriétés dynamiques en écriture en spécifiant leurs noms en tant que mots clé dans la chaîne de connexion. Par exemple définissez la propriété dynamique **Internet Timeout** sur cinq secondes en spécifiant :</span><span class="sxs-lookup"><span data-stu-id="66d55-p112">You may also set writable dynamic properties by specifying their names as keywords in the connection string. For example, set the **Internet Timeout** dynamic property to five seconds by specifying:</span></span>
+## <a name="dynamic-properties"></a><span data-ttu-id="25c5d-119">Propriétés dynamiques</span><span class="sxs-lookup"><span data-stu-id="25c5d-119">Dynamic Properties</span></span>
+
+<span data-ttu-id="25c5d-120">Lorsque ce fournisseur de services est appelé, les propriétés dynamiques suivantes sont ajoutées à la collection [Properties](connection-object-ado.md) de l'objet [Connection](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="25c5d-120">When this service provider is invoked, the following dynamic properties are added to the [Connection](connection-object-ado.md) object's [Properties](properties-collection-ado.md) collection.</span></span>
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="25c5d-121">Nom de la propriété dynamique</span><span class="sxs-lookup"><span data-stu-id="25c5d-121">Dynamic Property Name</span></span></p></th>
+<th><p><span data-ttu-id="25c5d-122">Description</span><span class="sxs-lookup"><span data-stu-id="25c5d-122">Description</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="25c5d-123"><strong>DFMode</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-123"><strong>DFMode</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-124">Indique le mode DataFactory.</span><span class="sxs-lookup"><span data-stu-id="25c5d-124">Indicates the DataFactory Mode.</span></span> <span data-ttu-id="25c5d-125">Chaîne qui spécifie la version souhaitée de l’objet <a href="datafactory-object-rdsserver.md">DataFactory</a> sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="25c5d-125">A string that specifies the desired version of the <a href="datafactory-object-rdsserver.md">DataFactory</a> object on the server.</span></span> <span data-ttu-id="25c5d-126">Définissez cette propriété avant d’ouvrir une connexion pour demander une version particulière du <strong>DataFactory</strong>.</span><span class="sxs-lookup"><span data-stu-id="25c5d-126">Set this property before opening a connection to request a particular version of the <strong>DataFactory</strong>.</span></span> <span data-ttu-id="25c5d-127">Si la version souhaitée n’est pas disponible, une tentative d’utilisation d’une version précédente est effectuée.</span><span class="sxs-lookup"><span data-stu-id="25c5d-127">If the requested version is not available, an attempt will be made to use the preceding version.</span></span> <span data-ttu-id="25c5d-128">S’il n’existe pas de version précédente, une erreur est générée.</span><span class="sxs-lookup"><span data-stu-id="25c5d-128">If there is no preceding version, an error will occur.</span></span> <span data-ttu-id="25c5d-129">Si la valeur de <strong>DFMode</strong> est inférieure à la version disponible, une erreur est générée.</span><span class="sxs-lookup"><span data-stu-id="25c5d-129">If <strong>DFMode</strong> is less than the available version, an error will occur.</span></span> <span data-ttu-id="25c5d-130">Cette propriété passe en lecture seule une fois la connexion établie.</span><span class="sxs-lookup"><span data-stu-id="25c5d-130">This property is read-only after a connection is made.</span></span> <span data-ttu-id="25c5d-131">Les valeurs valides sont les valeurs de chaîne suivantes :</span><span class="sxs-lookup"><span data-stu-id="25c5d-131">Can be one of the following valid string values:</span></span></p>
+<p></p>
+<ul>
+<li><p><span data-ttu-id="25c5d-132">&quot;25&quot; — version 2,5 (par défaut)</span><span class="sxs-lookup"><span data-stu-id="25c5d-132">&quot;25&quot; — Version 2.5 (Default)</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-133">&quot;21&quot; — version 2,1</span><span class="sxs-lookup"><span data-stu-id="25c5d-133">&quot;21&quot; — Version 2.1</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-134">&quot;20&quot; — version 2,0</span><span class="sxs-lookup"><span data-stu-id="25c5d-134">&quot;20&quot; — Version 2.0</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-135">&quot;15&quot; — version 1,5</span><span class="sxs-lookup"><span data-stu-id="25c5d-135">&quot;15&quot; — Version 1.5</span></span></p></li>
+</ul>
+<p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="25c5d-136"><strong>Command Properties</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-136"><strong>Command Properties</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-p105">Indique les valeurs qui seront ajoutées à la chaîne de propriétés de commande (ensemble de lignes) envoyées au serveur par le fournisseur MS d'accès à distance.
+
+La valeur par défaut pour cette chaîne est vt_empty.</span><span class="sxs-lookup"><span data-stu-id="25c5d-p105">Indicates values that will be added to the string of command (rowset) properties sent to the server by the MS Remote provider. The default value for this string is vt_empty.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="25c5d-139"><strong>Current DFMode</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-139"><strong>Current DFMode</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-140">Indique le numéro de version réel du <strong>DataFactory</strong> sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="25c5d-140">Indicates the actual version number of the <strong>DataFactory</strong> on the server.</span></span> <span data-ttu-id="25c5d-141">Consultez cette propriété pour vérifier si la version demandée dans la propriété <strong>DFMode</strong> a été respectée.</span><span class="sxs-lookup"><span data-stu-id="25c5d-141">Check this property to see if the version requested in the <strong>DFMode</strong> property was honored.</span></span> <span data-ttu-id="25c5d-142">Les valeurs valides sont les entiers longs suivants :</span><span class="sxs-lookup"><span data-stu-id="25c5d-142">Can be one of the following valid Long integer values:</span></span></p>
+<p></p>
+<ul>
+<li><p><span data-ttu-id="25c5d-143">25 — Version 2.5 (valeur par défaut)</span><span class="sxs-lookup"><span data-stu-id="25c5d-143">25 — Version 2.5 (Default)</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-144">21 — Version 2.1</span><span class="sxs-lookup"><span data-stu-id="25c5d-144">21 — Version 2.1</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-145">20 — Version 2.0</span><span class="sxs-lookup"><span data-stu-id="25c5d-145">20 — Version 2.0</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-146">15 — Version 1.5</span><span class="sxs-lookup"><span data-stu-id="25c5d-146">15 — Version 1.5</span></span></p></li>
+</ul>
+<p></p>
+<p><span data-ttu-id="25c5d-147">Ajout &quot;de DFMode = 20; &quot; à votre chaîne de connexion lorsque vous utilisez le fournisseur <strong>MSRemote</strong> peut améliorer les performances de votre serveur lors de la mise à jour des données.</span><span class="sxs-lookup"><span data-stu-id="25c5d-147">Adding &quot;DFMode=20;&quot; to your connection string when using the <strong>MSRemote</strong> provider can improve your server's performance when updating data.</span></span> <span data-ttu-id="25c5d-148">Avec ce paramètre, l'objet <strong>RDSServer.DataFactory</strong> utilise moins de ressources au niveau du serveur.</span><span class="sxs-lookup"><span data-stu-id="25c5d-148">With this setting, the <strong>RDSServer.DataFactory</strong> object on the server uses a less resource-intensive mode.</span></span> <span data-ttu-id="25c5d-149">Toutefois, les fonctions suivantes ne sont pas disponibles dans cette configuration :</span><span class="sxs-lookup"><span data-stu-id="25c5d-149">However, the following features are not available in this configuration:</span></span></p>
+<p></p>
+<ul>
+<li><p><span data-ttu-id="25c5d-150">utilisation de requêtes paramétrées ;</span><span class="sxs-lookup"><span data-stu-id="25c5d-150">Using parameterized queries.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-151">obtention d'informations de paramètres et de colonnes avant l'appel de la méthode <strong>Execute</strong>;</span><span class="sxs-lookup"><span data-stu-id="25c5d-151">Getting parameter or column information before calling the <strong>Execute</strong> method.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-152">affectation de la valeur <strong>True</strong> à <strong>Transact Updates</strong>;</span><span class="sxs-lookup"><span data-stu-id="25c5d-152">Setting <strong>Transact Updates</strong> to <strong>True</strong>.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-153">obtention de l'état des lignes ;</span><span class="sxs-lookup"><span data-stu-id="25c5d-153">Getting row status.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-154">appel de la méthode <strong>Resync</strong> ;</span><span class="sxs-lookup"><span data-stu-id="25c5d-154">Calling the <strong>Resync</strong> method.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-155">actualisation (explicite ou automatique) via la propriété <strong>Update Resync</strong> ;</span><span class="sxs-lookup"><span data-stu-id="25c5d-155">Refreshing (explicitly or automatically) via the <strong>Update Resync</strong> property.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-156">définition des propriétés <strong>Command</strong> ou <strong>Recordset</strong> ;</span><span class="sxs-lookup"><span data-stu-id="25c5d-156">Setting <strong>Command</strong> or <strong>Recordset</strong> properties.</span></span></p></li>
+<li><p><span data-ttu-id="25c5d-157">Utilisation d'<strong>adCmdTableDirect</strong>.</span><span class="sxs-lookup"><span data-stu-id="25c5d-157">Using <strong>adCmdTableDirect</strong>.</span></span></p></li>
+</ul>
+<p></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="25c5d-158"><strong>D</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-158"><strong>Handler</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-159">Indique le nom d'un programme de personnalisation (ou gestionnaire) côté serveur qui étend la fonctionnalité de <a href="datafactory-object-rdsserver.md">RDSServer. DataFactory</a>et tous les paramètres utilisés par le gestionnaire<em>,</em> tous séparés par des virgules (&quot;,&quot;).</span><span class="sxs-lookup"><span data-stu-id="25c5d-159">Indicates the name of a server-side customization program (or handler) that extends the functionality of the <a href="datafactory-object-rdsserver.md">RDSServer.DataFactory</a>, and any parameters used by the handler<em>,</em> all separated by commas (&quot;,&quot;).</span></span> <span data-ttu-id="25c5d-160">Valeur <strong>String</strong>.</span><span class="sxs-lookup"><span data-stu-id="25c5d-160">A <strong>String</strong> value.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="25c5d-161"><strong>Internet Timeout</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-161"><strong>Internet Timeout</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-162">Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur.</span><span class="sxs-lookup"><span data-stu-id="25c5d-162">Indicates the maximum number of milliseconds to wait for a request to travel to and from the server.</span></span> <span data-ttu-id="25c5d-163">(La valeur par défaut est de 5 minutes).</span><span class="sxs-lookup"><span data-stu-id="25c5d-163">(The default is 5 minutes.)</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="25c5d-164"><strong>Remote Provider</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-164"><strong>Remote Provider</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-165">Indique le nom du fournisseur de données à utiliser sur le serveur distant.</span><span class="sxs-lookup"><span data-stu-id="25c5d-165">Indicates the name of the data provider to be used on the remote server.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="25c5d-166"><strong>Remote Server</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-166"><strong>Remote Server</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-p110">Indique le nom du serveur et le protocole de communication à utiliser pour cette connexion. Cette propriété équivaut à la propriété <a href="server-property-rds.md">Server</a> de l’objet <a href="datacontrol-object-rds.md">RDS.DataControl</a>.</span><span class="sxs-lookup"><span data-stu-id="25c5d-p110">Indicates the server name and communication protocol to be used by this connection. This property is equivalent to the <a href="datacontrol-object-rds.md">RDS.DataControl</a> object <a href="server-property-rds.md">Server</a> property.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="25c5d-169"><strong>Transact Updates</strong></span><span class="sxs-lookup"><span data-stu-id="25c5d-169"><strong>Transact Updates</strong></span></span></p></td>
+<td><p><span data-ttu-id="25c5d-p111">Le fait de définir cette valeur sur True indique que lorsque la méthode <a href="updatebatch-method-ado.md">UpdateBatch</a> est exécutée sur le serveur, cette opération s’effectue dans une transaction. La valeur par défaut de cette propriété dynamique booléenne est False.</span><span class="sxs-lookup"><span data-stu-id="25c5d-p111">When set to True, this value indicates that when <a href="updatebatch-method-ado.md">UpdateBatch</a> is performed on the server, it will be done inside a transaction. The default value for this Boolean dynamic property is False.</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="25c5d-p112">Vous pouvez aussi définir des propriétés dynamiques en écriture en spécifiant leurs noms en tant que mots clé dans la chaîne de connexion. Par exemple définissez la propriété dynamique **Internet Timeout** sur cinq secondes en spécifiant :</span><span class="sxs-lookup"><span data-stu-id="25c5d-p112">You may also set writable dynamic properties by specifying their names as keywords in the connection string. For example, set the **Internet Timeout** dynamic property to five seconds by specifying:</span></span>
 
 ```sql 
  
@@ -146,7 +144,7 @@ Dim cn as New ADODB.Connection
 cn.Open "Provider=MS Remote;Internet Timeout=5000" 
 ```
 
-<span data-ttu-id="66d55-p113">Vous pouvez également définir ou extraire une propriété dynamique en spécifiant son nom en tant qu'index de la propriété **Properties**. Par exemple, vous pouvez obtenir et imprimer la valeur actuelle de la propriété dynamique **Internet Timeout**, puis définir une nouvelle valeur de la façon suivante :</span><span class="sxs-lookup"><span data-stu-id="66d55-p113">You may also set or retrieve a dynamic property by specifying its name as the index to the **Properties** property. For example, get and print the current value of the **Internet Timeout** dynamic property, and then set a new value, like this:</span></span>
+<span data-ttu-id="25c5d-p113">Vous pouvez également définir ou extraire une propriété dynamique en spécifiant son nom en tant qu'index de la propriété **Properties**. Par exemple, vous pouvez obtenir et imprimer la valeur actuelle de la propriété dynamique **Internet Timeout**, puis définir une nouvelle valeur de la façon suivante :</span><span class="sxs-lookup"><span data-stu-id="25c5d-p113">You may also set or retrieve a dynamic property by specifying its name as the index to the **Properties** property. For example, get and print the current value of the **Internet Timeout** dynamic property, and then set a new value, like this:</span></span>
 
 ```sql 
  
@@ -154,17 +152,17 @@ Debug.Print cn.Properties("Internet Timeout")
 cn.Properties("Internet Timeout") = 5000 
 ```
 
-## <a name="remarks"></a><span data-ttu-id="66d55-176">Remarques</span><span class="sxs-lookup"><span data-stu-id="66d55-176">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25c5d-176">Remarques</span><span class="sxs-lookup"><span data-stu-id="25c5d-176">Remarks</span></span>
 
-<span data-ttu-id="66d55-177">Dans ADO 2.0, le fournisseur OLE DB d’accès à distance ne pouvait être spécifié dans le paramètre *ActiveConnection* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="66d55-177">In ADO 2.0, the OLE DB Remoting Provider could only be specified in the *ActiveConnection* parameter of the [Recordset](recordset-object-ado.md) object **Open** method.</span></span> <span data-ttu-id="66d55-178">À partir d’ADO 2.1, le fournisseur peut également être spécifié dans le paramètre *ConnectionString* de la méthode **Open** de l’objet [Connection](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="66d55-178">Starting with ADO 2.1, the provider may also be specified in the *ConnectionString* parameter of the [Connection](connection-object-ado.md) object **Open** method.</span></span>
+<span data-ttu-id="25c5d-p114">Dans ADO 2.0, le fournisseur OLE DB d’accès à distance ne pouvait être spécifié que dans le paramètre *ActiveConnection* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md). À partir d’ADO 2.1, le fournisseur peut également être spécifié dans le paramètre *ConnectionString* de la méthode **Open** de l’objet [Connection](connection-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="25c5d-p114">In ADO 2.0, the OLE DB Remoting Provider could only be specified in the *ActiveConnection* parameter of the [Recordset](recordset-object-ado.md) object **Open** method. Starting with ADO 2.1, the provider may also be specified in the *ConnectionString* parameter of the [Connection](connection-object-ado.md) object **Open** method.</span></span>
 
-<span data-ttu-id="66d55-179">L'équivalent de la propriété **SQL** de l'objet [RDS.DataControl](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) n'est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="66d55-179">The equivalent of the **RDS.DataControl** object [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) property is not available.</span></span> <span data-ttu-id="66d55-180">L’argument *Source de* la méthode **Open** d’objet [Recordset](recordset-object-ado.md) est utilisé à la place.</span><span class="sxs-lookup"><span data-stu-id="66d55-180">The [Recordset](recordset-object-ado.md) object **Open** method *Source* argument is used instead.</span></span>
+<span data-ttu-id="25c5d-179">L’équivalent de la propriété [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) de l’objet **RDS.DataControl** n’est pas disponible.</span><span class="sxs-lookup"><span data-stu-id="25c5d-179">The equivalent of the **RDS.DataControl** object [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) property is not available.</span></span> <span data-ttu-id="25c5d-180">On utilise à la place l’argument *Source* de la méthode **Open** de l’objet [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="25c5d-180">The [Recordset](recordset-object-ado.md) object **Open** method *Source* argument is used instead.</span></span>
 
-<span data-ttu-id="66d55-181">Le fait de spécifier « ...;Remote Provider=MS Remote;... » génère un scénario à quatre niveaux. Les scénarios de plus de trois niveaux n'ont pas été testés et ne sont en principe pas nécessaires.</span><span class="sxs-lookup"><span data-stu-id="66d55-181">Specifying "...;Remote Provider=MS Remote;..." would create a four-tier scenario.Scenarios beyond three tiers have not been tested and should not be needed.</span></span>
+<span data-ttu-id="25c5d-181">Le fait de spécifier « ...;Remote Provider=MS Remote;... » génère un scénario à quatre niveaux. Les scénarios de plus de trois niveaux n'ont pas été testés et ne sont en principe pas nécessaires.</span><span class="sxs-lookup"><span data-stu-id="25c5d-181">Specifying "...;Remote Provider=MS Remote;..." would create a four-tier scenario.Scenarios beyond three tiers have not been tested and should not be needed.</span></span>
 
-## <a name="example"></a><span data-ttu-id="66d55-182">Exemple</span><span class="sxs-lookup"><span data-stu-id="66d55-182">Example</span></span>
+## <a name="example"></a><span data-ttu-id="25c5d-182">Exemple</span><span class="sxs-lookup"><span data-stu-id="25c5d-182">Example</span></span>
 
-<span data-ttu-id="66d55-p116">Cet exemple adresse une requête à la table **authors** de la base de données **pubs** sur un serveur appelé *YourServer*. Les noms de la source de données et du serveur distants sont fournis dans la méthode [Open](open-method-ado-connection.md) de l’objet [Connection](connection-object-ado.md) ; la requête SQL est spécifiée dans la méthode [Open](open-method-ado-recordset.md) de l’objet [Recordset](recordset-object-ado.md). Un objet **Recordset** est renvoyé, modifié et utilisé pour mettre à jour la source de données.</span><span class="sxs-lookup"><span data-stu-id="66d55-p116">This example performs a query on the **authors** table of the **pubs** database on a server named, *YourServer*. The names of the remote data source and remote server are provided in the [Connection](connection-object-ado.md) object [Open](open-method-ado-connection.md) method, and the SQL query is specified in the [Recordset](recordset-object-ado.md) object [Open](open-method-ado-recordset.md) method. A **Recordset** object is returned, edited, and used to update the data source.</span></span>
+<span data-ttu-id="25c5d-p116">Cet exemple adresse une requête à la table **authors** de la base de données **pubs** sur un serveur appelé *YourServer*. Les noms de la source de données et du serveur distants sont fournis dans la méthode [Open](open-method-ado-connection.md) de l’objet [Connection](connection-object-ado.md) ; la requête SQL est spécifiée dans la méthode [Open](open-method-ado-recordset.md) de l’objet [Recordset](recordset-object-ado.md). Un objet **Recordset** est renvoyé, modifié et utilisé pour mettre à jour la source de données.</span><span class="sxs-lookup"><span data-stu-id="25c5d-p116">This example performs a query on the **authors** table of the **pubs** database on a server named, *YourServer*. The names of the remote data source and remote server are provided in the [Connection](connection-object-ado.md) object [Open](open-method-ado-connection.md) method, and the SQL query is specified in the [Recordset](recordset-object-ado.md) object [Open](open-method-ado-recordset.md) method. A **Recordset** object is returned, edited, and used to update the data source.</span></span>
 
 ```vb 
  

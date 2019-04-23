@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bc9822f2055e7cdfd9a2ef5fe9d2312fc5622ac7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280587"
 ---
-# <a name="adding-multiple-fields"></a><span data-ttu-id="b9313-102">Ajout de plusieurs champs</span><span class="sxs-lookup"><span data-stu-id="b9313-102">Adding multiple fields</span></span>
+# <a name="adding-multiple-fields"></a><span data-ttu-id="2c13a-102">Ajout de plusieurs champs</span><span class="sxs-lookup"><span data-stu-id="2c13a-102">Adding multiple fields</span></span>
 
-<span data-ttu-id="b9313-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9313-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c13a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c13a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b9313-104">Il est parfois plus efficace de passer un tableau de champs et leurs valeurs correspondantes à la méthode **AddNew** au lieu de définir plusieurs fois **Value** pour chaque nouveau champ.</span><span class="sxs-lookup"><span data-stu-id="b9313-104">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field.</span></span> <span data-ttu-id="b9313-105">Si *FieldList* est un tableau, les *valeurs* doivent être également un tableau avec le même nombre de membres ; dans le cas contraire, une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="b9313-105">If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs.</span></span> <span data-ttu-id="b9313-106">L'ordre des noms de champs doit correspondre à l'ordre des valeurs de champs dans chaque tableau.</span><span class="sxs-lookup"><span data-stu-id="b9313-106">The order of field names must match the order of field values in each array.</span></span> <span data-ttu-id="b9313-107">Le code suivant passe un tableau de champs et un tableau de valeurs à la méthode **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="b9313-107">The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
+<span data-ttu-id="2c13a-p101">Il est parfois plus efficace de passer un tableau de champs et leurs valeurs correspondantes à la méthode **AddNew** au lieu de définir plusieurs fois **Value** pour chaque nouveau champ. Si l'argument *FieldList* est un tableau, l'argument *Values* doit également représenter un tableau comptant le même nombre de membres, sans quoi une erreur se produit. L'ordre des noms de champs doit correspondre à l'ordre des valeurs de champs dans chaque tableau. Le code suivant passe un tableau de champs et un tableau de valeurs à la méthode **AddNew**.</span><span class="sxs-lookup"><span data-stu-id="2c13a-p101">Occasionally, it might be more efficient to pass in an array of fields and their corresponding values to the **AddNew** method, rather than setting **Value** multiple times for each new field. If *FieldList* is an array, *Values* must also be an array with the same number of members; otherwise, an error occurs. The order of field names must match the order of field values in each array. The following code passes an array of fields and an array of values to the **AddNew** method.</span></span>
 
 ```vb 
  
