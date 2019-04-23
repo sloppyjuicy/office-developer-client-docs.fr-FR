@@ -1,28 +1,24 @@
 ---
 title: Manipuler le format de fichier Visio par programmation
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 04/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
-description: ''
+description: Créez une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionner des composants du package, modifier les données d’un composant et ajouter de nouveaux composants au package.
 localization_priority: Priority
-ms.openlocfilehash: 7184bcc7656fc98b2deb3677e0c94291897d0914
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.openlocfilehash: 7239180f6e8ecf013577bff787b7c3f784971efc
+ms.sourcegitcommit: b9814794fcc929f53892417f2b788f2a7931da87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722899"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31903795"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipuler le format de fichier Visio par programmation
 
 ![Rubrique de procédure](media/mod_icon_howto.png)
   
 Découvrez comment créer une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionner des composants du package, modifier les données d’un composant et ajouter de nouveaux composants au package.
-  
-|||
-|:-----|:-----|
-|**Dans cet article**         [Principes essentiels de manipulation du format de fichier Visio](#vis15_ManipulateFF_Essentials)          [Créer un fichier .vsdx et une nouvelle solution Visual Studio](#vis15_ManipulateFF_CreateFile)          [Ouvrir un fichier Visio 2013 sous forme de package](#vis15_ManipulateFF_OpenPackage)          [Sélectionner et lire des composants d’un package](#vis15_ManipulateFF_SelectPart)          [Sélectionner et modifier des données XML dans un composant de package](#vis15_ManipulateFF_ChangeXML)          [Recalculer des données dans le fichier](#vis15_ManipulateFF_Recalculate)          [Ajouter un nouveau composant à un package](#vis15_ManipulateFF_AddNewPart)          [Remerciements](#vis15_ManipulateFF_Ackn)          [Ressources supplémentaires](#vis15_ManipulateFF_Additional)||
    
 ## <a name="visio-file-format-manipulation-essentials"></a>Principes essentiels de manipulation du format de fichier Visio
 <a name="vis15_ManipulateFF_Essentials"> </a>
@@ -94,40 +90,40 @@ Les procédures suivantes utilisent une application console Windows pour manipul
     
 4. Dans le fichier Program.cs ou Module1.vb du projet, ajoutez les directives **using** suivantes (instructions **imports** dans Visual Basic) : 
     
-  ```cs
-  using System.Xml;
-  using System.Xml.Linq;
-  using System.IO;
-  using System.IO.Packaging;
-  using System.Text;
-  
-  ```
+    ```cs
+    using System.Xml;
+    using System.Xml.Linq;
+    using System.IO;
+    using System.IO.Packaging;
+    using System.Text;
+    
+    ```
 
-  ```vb
-  Imports System.Xml
-  Imports System.Xml.Linq
-  Imports System.IO
-  Imports System.IO.Packaging
-  Imports System.Text
-  
-  ```
+    ```vb
+    Imports System.Xml
+    Imports System.Xml.Linq
+    Imports System.IO
+    Imports System.IO.Packaging
+    Imports System.Text
+    
+    ```
 
 5. De même, dans le fichier Program.cs ou Module1.vb, avant la fin de la méthode **Main** de la classe **Program** (**Module1** dans Visual Basic), ajoutez le code suivant qui arrête l’exécution de l’application console jusqu’à ce que l’utilisateur appuie sur une touche. 
     
-  ```cs
-  // This code stops the execution of the console application
-  // so you can read the output.
-  Console.WriteLine("Press any key to continue ...");
-  Console.ReadKey();
-  
-  ```
+    ```cs
+    // This code stops the execution of the console application
+    // so you can read the output.
+    Console.WriteLine("Press any key to continue ...");
+    Console.ReadKey();
+    
+    ```
 
-  ```vb
-  ' This code stops the execution of the console application
-  ' so you can read the output.
-  Console.WriteLine("Press any key to continue ...")
-  Console.ReadKey()
-  ```
+    ```vb
+    ' This code stops the execution of the console application
+    ' so you can read the output.
+    Console.WriteLine("Press any key to continue ...")
+    Console.ReadKey()
+    ```
 
 ## <a name="open-a-visio-2013-file-as-a-package"></a>Ouvrir un fichier Visio 2013 sous forme de package
 <a name="vis15_ManipulateFF_OpenPackage"> </a>
@@ -143,79 +139,79 @@ Utilisez le code suivant pour obtenir le chemin d’accès complet du fichier «
 
 1. Après la méthode **Main** dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez le code suivant. 
     
-  ```cs
-  private static Package OpenPackage(string fileName, 
-      Environment.SpecialFolder folder)
-  {
-      Package visioPackage = null;
-      // Get a reference to the location 
-      // where the Visio file is stored.
-      string directoryPath = System.Environment.GetFolderPath(
-          folder);
-      DirectoryInfo dirInfo = new DirectoryInfo(directoryPath);
-      // Get the Visio file from the location.
-      FileInfo[] fileInfos = dirInfo.GetFiles(fileName);
-      if (fileInfos.Count() > 0)
-      {
-          FileInfo fileInfo = fileInfos[0];
-          string filePathName = fileInfo.FullName;
-          // Open the Visio file as a package with
-          // read/write file access.
-          visioPackage = Package.Open(
-              filePathName,
-              FileMode.Open,
-              FileAccess.ReadWrite);
-          }
-          // Return the Visio file as a package.
-          return visioPackage;
-  }
-  ```
+    ```cs
+    private static Package OpenPackage(string fileName, 
+        Environment.SpecialFolder folder)
+    {
+        Package visioPackage = null;
+        // Get a reference to the location 
+        // where the Visio file is stored.
+        string directoryPath = System.Environment.GetFolderPath(
+            folder);
+        DirectoryInfo dirInfo = new DirectoryInfo(directoryPath);
+        // Get the Visio file from the location.
+        FileInfo[] fileInfos = dirInfo.GetFiles(fileName);
+        if (fileInfos.Count() > 0)
+        {
+            FileInfo fileInfo = fileInfos[0];
+            string filePathName = fileInfo.FullName;
+            // Open the Visio file as a package with
+            // read/write file access.
+            visioPackage = Package.Open(
+                filePathName,
+                FileMode.Open,
+                FileAccess.ReadWrite);
+            }
+            // Return the Visio file as a package.
+            return visioPackage;
+    }
+    ```
 
-  ```vb
-  Private Function OpenPackage(fileName As String, _
-      folder As Environment.SpecialFolder) As Package
-      Dim visioPackage As Package = Nothing
-      ' Get a reference to the location
-      ' where the Visio file is stored.
-      Dim directoryPath As String = System.Environment.GetFolderPath( _
-          folder)
-      Dim dirInfo As DirectoryInfo = New DirectoryInfo(directoryPath)
-      ' Get the Visio file from the location.
-      Dim fileInfos As FileInfo() = dirInfo.GetFiles(fileName)
-      If (fileInfos.Count() > 0) Then
-          Dim fileInfo As FileInfo = fileInfos(0)
-          Dim filePathName As String = fileInfo.FullName
-          ' Open the Visio file as a package 
-          ' with read/write access.
-          visioPackage = Package.Open( _
-              filePathName,
-              FileMode.Open,
-              FileAccess.ReadWrite)
-          End If
-      ' Return the Visio file as a package.
-      Return visioPackage
-  End Function
-  
-  ```
+    ```vb
+    Private Function OpenPackage(fileName As String, _
+        folder As Environment.SpecialFolder) As Package
+        Dim visioPackage As Package = Nothing
+        ' Get a reference to the location
+        ' where the Visio file is stored.
+        Dim directoryPath As String = System.Environment.GetFolderPath( _
+            folder)
+        Dim dirInfo As DirectoryInfo = New DirectoryInfo(directoryPath)
+        ' Get the Visio file from the location.
+        Dim fileInfos As FileInfo() = dirInfo.GetFiles(fileName)
+        If (fileInfos.Count() > 0) Then
+            Dim fileInfo As FileInfo = fileInfos(0)
+            Dim filePathName As String = fileInfo.FullName
+            ' Open the Visio file as a package 
+            ' with read/write access.
+            visioPackage = Package.Open( _
+                filePathName,
+                FileMode.Open,
+                FileAccess.ReadWrite)
+            End If
+        ' Return the Visio file as a package.
+        Return visioPackage
+    End Function
+    
+    ```
 
 2. Dans la méthode **Main** de la classe **Program** (ou **Module1** dans Visual Basic), ajoutez le code suivant. 
     
-  ```cs
-  // Open the Visio file in a Package object.
-  using (Package visioPackage = OpenPackage("Visio Package.vsdx", 
-      Environment.SpecialFolder.Desktop))
-  {
-  }
-  
-  ```
+    ```cs
+    // Open the Visio file in a Package object.
+    using (Package visioPackage = OpenPackage("Visio Package.vsdx", 
+        Environment.SpecialFolder.Desktop))
+    {
+    }
+    
+    ```
 
-  ```vb
-  ' Open the Visio file in a Package object.
-  Using visioPackage As Package = OpenPackage("Visio Package.vsdx", _
-      Environment.SpecialFolder.Desktop)
-  End Using
-  
-  ```
+    ```vb
+    ' Open the Visio file in a Package object.
+    Using visioPackage As Package = OpenPackage("Visio Package.vsdx", _
+        Environment.SpecialFolder.Desktop)
+    End Using
+    
+    ```
 
 ## <a name="select-and-read-package-parts-from-a-package"></a>Sélectionner et lire des composants d’un package
 <a name="vis15_ManipulateFF_SelectPart"> </a>
@@ -228,48 +224,48 @@ Utilisez le code de la procédure suivante pour obtenir un objet **PackagePartCo
 
 1. Après la méthode `OpenPackage` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez le code suivant. 
     
-  ```cs
-  private static void IteratePackageParts(Package filePackage)
-  {
-      
-      // Get all of the package parts contained in the package
-      // and then write the URI and content type of each one to the console.
-      PackagePartCollection packageParts = filePackage.GetParts();
-      foreach (PackagePart part in packageParts)
-      {
-          Console.WriteLine("Package part URI: {0}", part.Uri);
-          Console.WriteLine("Content type: {0}", part.ContentType.ToString());
-      }
-  }
-  
-  ```
+    ```cs
+    private static void IteratePackageParts(Package filePackage)
+    {
+        
+        // Get all of the package parts contained in the package
+        // and then write the URI and content type of each one to the console.
+        PackagePartCollection packageParts = filePackage.GetParts();
+        foreach (PackagePart part in packageParts)
+        {
+            Console.WriteLine("Package part URI: {0}", part.Uri);
+            Console.WriteLine("Content type: {0}", part.ContentType.ToString());
+        }
+    }
+    
+    ```
 
-  ```vb
-  Private Sub IteratePackageParts(filePackage As Package)
-      ' Get all of the package parts contained in the package
-      ' and then write the URI and content type of each one to the console.
-      Dim packageParts As PackagePartCollection = filePackage.GetParts()
-      For Each part In packageParts
-          Console.WriteLine("Package part: {0}", part.Uri)
-          Console.WriteLine("Content type: {0}", part.ContentType.ToString())
-      Next
-  End Sub 
-  
-  ```
+    ```vb
+    Private Sub IteratePackageParts(filePackage As Package)
+        ' Get all of the package parts contained in the package
+        ' and then write the URI and content type of each one to the console.
+        Dim packageParts As PackagePartCollection = filePackage.GetParts()
+        For Each part In packageParts
+            Console.WriteLine("Package part: {0}", part.Uri)
+            Console.WriteLine("Content type: {0}", part.ContentType.ToString())
+        Next
+    End Sub 
+    
+    ```
 
 2. Ajoutez le code suivant dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic) : 
     
-  ```cs
-  // Write the URI and content type of each package part to the console.
-  IteratePackageParts(visioPackage);
-  
-  ```
+    ```cs
+    // Write the URI and content type of each package part to the console.
+    IteratePackageParts(visioPackage);
+    
+    ```
 
-  ```vb
-  ' Write the URI and content type of each package part to the console.
-  IteratePackageParts(visioPackage)
-  
-  ```
+    ```vb
+    ' Write the URI and content type of each package part to the console.
+    IteratePackageParts(visioPackage)
+    
+    ```
 
 3. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
@@ -320,66 +316,66 @@ Utilisez la procédure suivante pour obtenir un **PackagePart** (le composant de
 
 1. Après la méthode `IteratePackageParts` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
     
-  ```cs
-  private static PackagePart GetPackagePart(Package filePackage, 
-      string relationship)
-  {
-      
-      // Use the namespace that describes the relationship 
-      // to get the relationship.
-      PackageRelationship packageRel = 
-          filePackage.GetRelationshipsByType(relationship).FirstOrDefault();
-      PackagePart part = null;
-      // If the Visio file package contains this type of relationship with 
-      // one of its parts, return that part.
-      if (packageRel != null)
-      {
-          // Clean up the URI using a helper class and then get the part.
-          Uri docUri = PackUriHelper.ResolvePartUri(
-              new Uri("/", UriKind.Relative), packageRel.TargetUri);
-          part = filePackage.GetPart(docUri);
-      }
-      return part;
-  }
-  
-  ```
+    ```cs
+    private static PackagePart GetPackagePart(Package filePackage, 
+        string relationship)
+    {
+        
+        // Use the namespace that describes the relationship 
+        // to get the relationship.
+        PackageRelationship packageRel = 
+            filePackage.GetRelationshipsByType(relationship).FirstOrDefault();
+        PackagePart part = null;
+        // If the Visio file package contains this type of relationship with 
+        // one of its parts, return that part.
+        if (packageRel != null)
+        {
+            // Clean up the URI using a helper class and then get the part.
+            Uri docUri = PackUriHelper.ResolvePartUri(
+                new Uri("/", UriKind.Relative), packageRel.TargetUri);
+            part = filePackage.GetPart(docUri);
+        }
+        return part;
+    }
+    
+    ```
 
-  ```vb
-  Private Function GetPackagePart(filePackage As Package, relationship As String) _
-      As PackagePart
-      ' Use the namespace that describes the relationship 
-      ' to get the relationship.
-      Dim packageRel As PackageRelationship = 
-          filePackage.GetRelationshipsByType(relationship).FirstOrDefault()
-      Dim part As PackagePart = Nothing
-      ' If the Visio file package contains this type of relationship with 
-      ' one of its parts, return that part.
-      If Not IsNothing(packageRel) Then
-          ' Clean up the URI using a helper class and then get the part.
-          Dim docUri = PackUriHelper.ResolvePartUri( _
-              New Uri("/", UriKind.Relative), packageRel.TargetUri)
-          part = filePackage.GetPart(docUri)
-      End If
-      Return part
-  End Function
-  
-  ```
+    ```vb
+    Private Function GetPackagePart(filePackage As Package, relationship As String) _
+        As PackagePart
+        ' Use the namespace that describes the relationship 
+        ' to get the relationship.
+        Dim packageRel As PackageRelationship = 
+            filePackage.GetRelationshipsByType(relationship).FirstOrDefault()
+        Dim part As PackagePart = Nothing
+        ' If the Visio file package contains this type of relationship with 
+        ' one of its parts, return that part.
+        If Not IsNothing(packageRel) Then
+            ' Clean up the URI using a helper class and then get the part.
+            Dim docUri = PackUriHelper.ResolvePartUri( _
+                New Uri("/", UriKind.Relative), packageRel.TargetUri)
+            part = filePackage.GetPart(docUri)
+        End If
+        Return part
+    End Function
+    
+    ```
 
 2. Remplacez le code dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic) par le code suivant. 
     
-  ```cs
-  // Get a reference to the Visio Document part contained in the file package.
-  PackagePart documentPart = GetPackagePart(visioPackage, 
-      "https://schemas.microsoft.com/visio/2010/relationships/document");
-  
-  ```
+    ```cs
+    // Get a reference to the Visio Document part contained in the file package.
+    PackagePart documentPart = GetPackagePart(visioPackage, 
+        "https://schemas.microsoft.com/visio/2010/relationships/document");
+    
+    ```
 
-  ```vb
-  ' Get a reference to the Visio Document part contained in the file package.
-  Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-      "https://schemas.microsoft.com/visio/2010/relationships/document")
-  
-  ```
+    ```vb
+    ' Get a reference to the Visio Document part contained in the file package.
+    Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
+        "https://schemas.microsoft.com/visio/2010/relationships/document")
+    
+    ```
 
 Comme mentionné précédemment, vous pouvez également obtenir des objets **PackagePart** à l’aide de leur relation avec les autres objets **PackagePart**. Cet aspect est très important, car, pour un document Visio de n’importe quelle complexité, la plupart des objets **PackagePart** n’ont pas de relation avec le **Package**. Par exemple, un composant du contenu de la page individuelle dans le package de fichiers (c’est-à-dire, /visio/pages/page1.xml) a une relation avec le composant d’index de la page (c’est-à-dire, /visio/pages/pages.xml) mais pas avec le package de fichiers lui-même. Si vous n’avez pas l’URI exact de la page individuelle dans le package, vous pouvez utiliser sa relation avec le composant d’index de la page pour obtenir une référence à celui-ci.
   
@@ -391,71 +387,71 @@ Utilisez le code suivant pour obtenir un objet **PackagePart** à partir du **Pa
 
 1. Après la méthode `GetPackagePart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode de surcharge suivante. 
     
-  ```cs
-  private static PackagePart GetPackagePart(Package filePackage, 
-      PackagePart sourcePart, string relationship)
-  {
-      // This gets only the first PackagePart that shares the relationship
-      // with the PackagePart passed in as an argument. You can modify the code
-      // here to return a different PackageRelationship from the collection.
-      PackageRelationship packageRel = 
-          sourcePart.GetRelationshipsByType(relationship).FirstOrDefault();
-      PackagePart relatedPart = null;
-      if (packageRel != null)
-      {
-          // Use the PackUriHelper class to determine the URI of PackagePart
-          // that has the specified relationship to the PackagePart passed in
-          // as an argument.
-          Uri partUri = PackUriHelper.ResolvePartUri(
-              sourcePart.Uri, packageRel.TargetUri);
-          relatedPart = filePackage.GetPart(partUri);
-      }
-      return relatedPart;
-  }
-  
-  ```
+    ```cs
+    private static PackagePart GetPackagePart(Package filePackage, 
+        PackagePart sourcePart, string relationship)
+    {
+        // This gets only the first PackagePart that shares the relationship
+        // with the PackagePart passed in as an argument. You can modify the code
+        // here to return a different PackageRelationship from the collection.
+        PackageRelationship packageRel = 
+            sourcePart.GetRelationshipsByType(relationship).FirstOrDefault();
+        PackagePart relatedPart = null;
+        if (packageRel != null)
+        {
+            // Use the PackUriHelper class to determine the URI of PackagePart
+            // that has the specified relationship to the PackagePart passed in
+            // as an argument.
+            Uri partUri = PackUriHelper.ResolvePartUri(
+                sourcePart.Uri, packageRel.TargetUri);
+            relatedPart = filePackage.GetPart(partUri);
+        }
+        return relatedPart;
+    }
+    
+    ```
 
-  ```vb
-  Private Function GetPackagePart(filePackage As Package, 
-      sourcePart As PackagePart, relationship As String) As PackagePart
-      ' This gets only the first PackagePart that shares the relationship
-      ' with the PackagePart passed in as an argument. You can modify the
-      ' code to return a different PackageRelationship from the collection.
-      Dim packageRel As PackageRelationship = sourcePart. _
-          GetRelationshipsByType(relationship).FirstOrDefault()
-      Dim relatedPart As PackagePart = Nothing
-      If Not IsNothing(packageRel) Then
-          ' Use the PackUriHelper class to determine the URI of the 
-          ' PackagePart that has the specified relationship to the 
-          ' PackagePart passed in as an argument.
-          Dim partUri As Uri = PackUriHelper.ResolvePartUri( _
-              sourcePart.Uri, packageRel.TargetUri)
-          relatedPart = filePackage.GetPart(partUri)
-      End If
-      Return relatedPart
-  End Function
-  ```
+    ```vb
+    Private Function GetPackagePart(filePackage As Package, 
+        sourcePart As PackagePart, relationship As String) As PackagePart
+        ' This gets only the first PackagePart that shares the relationship
+        ' with the PackagePart passed in as an argument. You can modify the
+        ' code to return a different PackageRelationship from the collection.
+        Dim packageRel As PackageRelationship = sourcePart. _
+            GetRelationshipsByType(relationship).FirstOrDefault()
+        Dim relatedPart As PackagePart = Nothing
+        If Not IsNothing(packageRel) Then
+            ' Use the PackUriHelper class to determine the URI of the 
+            ' PackagePart that has the specified relationship to the 
+            ' PackagePart passed in as an argument.
+            Dim partUri As Uri = PackUriHelper.ResolvePartUri( _
+                sourcePart.Uri, packageRel.TargetUri)
+            relatedPart = filePackage.GetPart(partUri)
+        End If
+        Return relatedPart
+    End Function
+    ```
 
 2. Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic), sous le code de la procédure précédente. (Ne supprimez pas le code ajouté dans la procédure précédente.) 
     
-  ```cs
-  // Get a reference to the collection of pages in the document, 
-  // and then to the first page in the document.
-  PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-      "https://schemas.microsoft.com/visio/2010/relationships/pages");
-  PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-      "https://schemas.microsoft.com/visio/2010/relationships/page");
-  
-  ```
+    ```cs
+    // Get a reference to the collection of pages in the document, 
+    // and then to the first page in the document.
+    PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
+        "https://schemas.microsoft.com/visio/2010/relationships/pages");
+    PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
+        "https://schemas.microsoft.com/visio/2010/relationships/page");
+    
+    ```
 
-  ```vb
-  ' Get a reference to the collection of pages in the document,
-  ' and then to the first page in the document.
-  Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-      "https://schemas.microsoft.com/visio/2010/relationships/pages") 
-  Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-      "https://schemas.microsoft.com/visio/2010/relationships/page") 
-  ```
+    ```vb
+    ' Get a reference to the collection of pages in the document,
+    ' and then to the first page in the document.
+    Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
+        "https://schemas.microsoft.com/visio/2010/relationships/pages") 
+    Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
+        "https://schemas.microsoft.com/visio/2010/relationships/page") 
+    ```
 
 Avant de pouvoir apporter des modifications au code XML inclus dans un composant de document, vous devez tout d’abord charger le document XML dans un objet qui permet de lire le code XML à l’aide de la classe [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) ou de la classe [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx). Les deux classes présentent les méthodes relatives aux tâches comme la sélection des éléments XML inclus dans les documents XML, la création, la lecture et l’écriture d’attributs et l’insertion de nouveaux éléments XML dans un document. 
   
@@ -467,40 +463,40 @@ Utilisez la procédure suivante pour ouvrir un **PackagePart** sous forme de doc
 
 1. Après la dernière surcharge pour la méthode `GetPackagePart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
     
-  ```cs
-  private static XDocument GetXMLFromPart(PackagePart packagePart)
-  {
-      XDocument partXml = null;
-      // Open the packagePart as a stream and then 
-      // open the stream in an XDocument object.
-      Stream partStream = packagePart.GetStream();
-      partXml = XDocument.Load(partStream);
-      return partXml;
-  }
-  ```
+    ```cs
+    private static XDocument GetXMLFromPart(PackagePart packagePart)
+    {
+        XDocument partXml = null;
+        // Open the packagePart as a stream and then 
+        // open the stream in an XDocument object.
+        Stream partStream = packagePart.GetStream();
+        partXml = XDocument.Load(partStream);
+        return partXml;
+    }
+    ```
 
-  ```vb
-  Private Function GetXMLFromPart(packagePart As PackagePart) As XDocument
-      Dim partXml As XDocument = Nothing
-      ' Open the packagePart as a stream and then
-      ' open the stream in an an XDocument object.
-      Dim partStream As Stream = packagePart.GetStream()
-      partXml = XDocument.Load(partStream)
-      Return partXml
-  End Function
-  ```
+    ```vb
+    Private Function GetXMLFromPart(packagePart As PackagePart) As XDocument
+        Dim partXml As XDocument = Nothing
+        ' Open the packagePart as a stream and then
+        ' open the stream in an an XDocument object.
+        Dim partStream As Stream = packagePart.GetStream()
+        partXml = XDocument.Load(partStream)
+        Return partXml
+    End Function
+    ```
 
 2. Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic), sous le code de la procédure précédente. 
     
-  ```cs
-  // Open the XML from the Page Contents part.
-  XDocument pageXML = GetXMLFromPart(pagePart);
-  ```
+    ```cs
+    // Open the XML from the Page Contents part.
+    XDocument pageXML = GetXMLFromPart(pagePart);
+    ```
 
-  ```vb
-  ' Open the XML from the Page Contents part.
-  Dim pageXML As XDocument = GetXMLFromPart(pagePart)
-  ```
+    ```vb
+    ' Open the XML from the Page Contents part.
+    Dim pageXML As XDocument = GetXMLFromPart(pagePart)
+    ```
 
 ## <a name="select-and-change-xml-data-in-a-package-part"></a>Sélectionner et modifier des données XML dans un composant de package
 <a name="vis15_ManipulateFF_ChangeXML"> </a>
@@ -514,97 +510,97 @@ Utilisez le code suivant pour sélectionner les éléments **Shape** à partir d
 ### <a name="to-select-a-specific-element-in-a-package-part"></a>Pour sélectionner un élément spécifique dans un composant de package
 
 1. Après la méthode `GetXMLFromPart` dans la classe **Program** (ou **Module1** dans Visual Basic), ajoutez la méthode suivante. 
+        
+    ```cs
+    private static IEnumerable<XElement> GetXElementsByName(
+        XDocument packagePart, string elementType)
+    {
+        // Construct a LINQ query that selects elements by their element type.
+        IEnumerable<XElement> elements = 
+            from element in packagePart.Descendants() 
+            where element.Name.LocalName == elementType 
+            select element;
+        // Return the selected elements to the calling code.
+        return elements.DefaultIfEmpty(null);
+    }
     
-  ```cs
-  private static IEnumerable<XElement> GetXElementsByName(
-      XDocument packagePart, string elementType)
-  {
-      // Construct a LINQ query that selects elements by their element type.
-      IEnumerable<XElement> elements = 
-          from element in packagePart.Descendants() 
-          where element.Name.LocalName == elementType 
-          select element;
-      // Return the selected elements to the calling code.
-      return elements.DefaultIfEmpty(null);
-  }
-  
-  ```
+    ```
 
-  ```vb
-  Private Function GetXElementsByName(partXML As XDocument, _
-      elementType As String) As IEnumerable(Of XElement)
-      ' Construct a LINQ query that selects elements by their element type.
-      Dim elements As IEnumerable(Of XElement) =
-          From element In partXML.Descendants()
-          Where element.Name.LocalName = elementType
-          Select element
-      ' If there aren't any elements of the specified type
-      ' in the document, return Nothing to the calling code.
-      Return elements.DefaultIfEmpty(Nothing)
-  End Function
-  ```
+    ```vb
+    Private Function GetXElementsByName(partXML As XDocument, _
+        elementType As String) As IEnumerable(Of XElement)
+        ' Construct a LINQ query that selects elements by their element type.
+        Dim elements As IEnumerable(Of XElement) =
+            From element In partXML.Descendants()
+            Where element.Name.LocalName = elementType
+            Select element
+        ' If there aren't any elements of the specified type
+        ' in the document, return Nothing to the calling code.
+        Return elements.DefaultIfEmpty(Nothing)
+    End Function
+    ```
 
 2. Après la méthode `GetXElementsByName` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static XElement GetXElementByAttribute(IEnumerable<XElement> elements,
-      string attributeName, string attributeValue) 
-  {
-      // Construct a LINQ query that selects elements from a group
-      // of elements by the value of a specific attribute.
-      IEnumerable<XElement> selectedElements = 
-          from el in elements
-          where el.Attribute(attributeName).Value == attributeValue
-          select el;
-      // If there aren't any elements of the specified type
-      // with the specified attribute value in the document,
-      // return null to the calling code.
-      return selectedElements.DefaultIfEmpty(null).FirstOrDefault();
-  }
-  ```
+    ```cs
+    private static XElement GetXElementByAttribute(IEnumerable<XElement> elements,
+        string attributeName, string attributeValue) 
+    {
+        // Construct a LINQ query that selects elements from a group
+        // of elements by the value of a specific attribute.
+        IEnumerable<XElement> selectedElements = 
+            from el in elements
+            where el.Attribute(attributeName).Value == attributeValue
+            select el;
+        // If there aren't any elements of the specified type
+        // with the specified attribute value in the document,
+        // return null to the calling code.
+        return selectedElements.DefaultIfEmpty(null).FirstOrDefault();
+    }
+    ```
 
-  ```vb
-  Private Function GetXElementByAttribute(elements As IEnumerable(Of XElement), _
-      attributeName As String, attributeValue As String) As XElement
-      ' Construct a LINQ query that selects elements from a group
-      ' of elements by the value of a specific attribute.
-      Dim selectedElements As IEnumerable(Of XElement) =
-          From el In elements
-          Where el.Attribute(attributeName).Value = attributeValue
-          Select el
-      ' If there aren't any elements of the specified type 
-      ' with the specified attribute value in the document,
-      ' return Nothing to the calling code.
-      Return selectedElements.DefaultIfEmpty(Nothing).FirstOrDefault()
-  End Function
-  
-  ```
+    ```vb
+    Private Function GetXElementByAttribute(elements As IEnumerable(Of XElement), _
+        attributeName As String, attributeValue As String) As XElement
+        ' Construct a LINQ query that selects elements from a group
+        ' of elements by the value of a specific attribute.
+        Dim selectedElements As IEnumerable(Of XElement) =
+            From el In elements
+            Where el.Attribute(attributeName).Value = attributeValue
+            Select el
+        ' If there aren't any elements of the specified type 
+        ' with the specified attribute value in the document,
+        ' return Nothing to the calling code.
+        Return selectedElements.DefaultIfEmpty(Nothing).FirstOrDefault()
+    End Function
+    
+    ```
 
 3. Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic), sous le code de la procédure précédente. 
     
-  ```cs
-  // Get all of the shapes from the page by getting
-  // all of the Shape elements from the pageXML document.
-  IEnumerable<XElement> shapesXML = GetXElementsByName(pageXML, "Shape");
-  // Select a Shape element from the shapes on the page by 
-  // its name. You can modify this code to select elements
-  // by other attributes and their values.
-  XElement startEndShapeXML = 
-      GetXElementByAttribute(shapesXML, "NameU", "Start/End");
-  
-  ```
+    ```cs
+    // Get all of the shapes from the page by getting
+    // all of the Shape elements from the pageXML document.
+    IEnumerable<XElement> shapesXML = GetXElementsByName(pageXML, "Shape");
+    // Select a Shape element from the shapes on the page by 
+    // its name. You can modify this code to select elements
+    // by other attributes and their values.
+    XElement startEndShapeXML = 
+        GetXElementByAttribute(shapesXML, "NameU", "Start/End");
+    
+    ```
 
-  ```vb
-  ' Get all of the shapes from the page by getting
-  ' all of the Shape elements from the pageXML document.
-  Dim shapesXML As IEnumerable(Of XElement) = GetXElementsByName( _
-      pageXML, "Shape")
-  ' Select a Shape element from the shapes on the page by
-  ' its name. You can modify this code to select elements
-  ' by other attributes and their values.
-  Dim startEndShapeXML As XElement = GetXElementByAttribute( _
-      shapesXML, "NameU", "Start/End")
-  ```
+    ```vb
+    ' Get all of the shapes from the page by getting
+    ' all of the Shape elements from the pageXML document.
+    Dim shapesXML As IEnumerable(Of XElement) = GetXElementsByName( _
+        pageXML, "Shape")
+    ' Select a Shape element from the shapes on the page by
+    ' its name. You can modify this code to select elements
+    ' by other attributes and their values.
+    Dim startEndShapeXML As XElement = GetXElementByAttribute( _
+        shapesXML, "NameU", "Start/End")
+    ```
 
 Une fois que vous avez obtenu une référence à un objet **XElement** inclus dans un objet **XDocument**, vous pouvez la manipuler comme les autres données XML et, par conséquent, modifier les données figurant dans le fichier Visio. Par exemple, si une forme comporte du texte lors de son ouverture dans Visio, l’élément **Shape** correspondant contient au moins un élément **Text**. Si vous modifiez la valeur de cet élément **Text**, le texte de la forme est modifié lorsque le fichier est affiché dans Visio. 
   
@@ -614,7 +610,7 @@ Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe
 // Query the XML for the shape to get the Text element, and
 // return the first Text element node.
 IEnumerable<XElement> textElements = from element in startEndShapeXML.Elements()
-                               where element.Name.LocalName = "Text"
+                               where element.Name.LocalName == "Text"
                                select element;
 XElement textElement = textElements.ElementAt(0);
 // Change the shape text, leaving the <cp> element alone.
@@ -627,7 +623,7 @@ textElement.LastNode.ReplaceWith("Start process");
 ' return the first Text element node.
 Dim textElements As IEnumerable(Of XElement) =
     From element In startEndShapeXML.Elements()
-    Where element.Name.LocalName = "Text"
+    Where element.Name.LocalName == "Text"
     Select element
 Dim textElement As XElement = textElements.ElementAt(0)
 ' Change the shape text, leaving the <cp> element alone.
@@ -648,56 +644,56 @@ Utilisez la procédure suivante pour enregistrer le code XML à partir de la pag
 
 1. Après la méthode `GetXElementByAttribute` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static void SaveXDocumentToPart(PackagePart packagePart, 
-      XDocument partXML)
-  {
-      
-      // Create a new XmlWriterSettings object to 
-      // define the characteristics for the XmlWriter
-      XmlWriterSettings partWriterSettings = new XmlWriterSettings();
-      partWriterSettings.Encoding = Encoding.UTF8;
-      // Create a new XmlWriter and then write the XML
-      // back to the document part.
-      XmlWriter partWriter = XmlWriter.Create(packagePart.GetStream(),
-          partWriterSettings);
-      partXML.WriteTo(partWriter);
-      // Flush and close the XmlWriter.
-      partWriter.Flush();
-      partWriter.Close();
-  }
-  ```
+    ```cs
+    private static void SaveXDocumentToPart(PackagePart packagePart, 
+        XDocument partXML)
+    {
+        
+        // Create a new XmlWriterSettings object to 
+        // define the characteristics for the XmlWriter
+        XmlWriterSettings partWriterSettings = new XmlWriterSettings();
+        partWriterSettings.Encoding = Encoding.UTF8;
+        // Create a new XmlWriter and then write the XML
+        // back to the document part.
+        XmlWriter partWriter = XmlWriter.Create(packagePart.GetStream(),
+            partWriterSettings);
+        partXML.WriteTo(partWriter);
+        // Flush and close the XmlWriter.
+        partWriter.Flush();
+        partWriter.Close();
+    }
+    ```
 
-  ```vb
-  Private Sub SaveXDocumentToPart(packagePart As PackagePart, _
-      partXML As XDocument)
-      ' Create a new XmlWriterSettings object to 
-      ' define the characteristics for the XmlWriter.
-      Dim partWriterSettings As XmlWriterSettings = New XmlWriterSettings()
-      partWriterSettings.Encoding = Encoding.UTF8
-      ' Create a new XmlWriter and then write the XML
-      ' back to the document part.
-      Dim partWriter As XmlWriter = XmlWriter.Create(packagePart.GetStream())
-      partXML.WriteTo(partWriter)
-      ' Flush and close the XmlWriter.
-      partWriter.Flush()
-      partWriter.Close()
-  End Sub
-  ```
+    ```vb
+    Private Sub SaveXDocumentToPart(packagePart As PackagePart, _
+        partXML As XDocument)
+        ' Create a new XmlWriterSettings object to 
+        ' define the characteristics for the XmlWriter.
+        Dim partWriterSettings As XmlWriterSettings = New XmlWriterSettings()
+        partWriterSettings.Encoding = Encoding.UTF8
+        ' Create a new XmlWriter and then write the XML
+        ' back to the document part.
+        Dim partWriter As XmlWriter = XmlWriter.Create(packagePart.GetStream())
+        partXML.WriteTo(partWriter)
+        ' Flush and close the XmlWriter.
+        partWriter.Flush()
+        partWriter.Close()
+    End Sub
+    ```
 
 2. Ajoutez le code suivant au bloc **using** dans la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic), sous le code de la procédure précédente. 
     
-  ```cs
-  // Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML);
-  
-  ```
+    ```cs
+    // Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML);
+    
+    ```
 
-  ```vb
-  ' Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML)
-  
-  ```
+    ```vb
+    ' Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML)
+    
+    ```
 
 3. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
@@ -726,31 +722,31 @@ Utilisez la procédure suivante pour insérer un élément **Cell** dans un él�
 
 1. Remplacez le code dans les deux exemples précédents (modification du texte de la forme et de l’appel par `SaveXDocumentToPart`) dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** Visual Basic) par le code suivant. 
     
-  ```cs
-  // Insert a new Cell element in the Start/End shape that adds an arbitrary
-  // local ThemeIndex value. This code assumes that the shape does not 
-  // already have a local ThemeIndex cell.
-  startEndShapeXML.Add(new XElement("Cell",
-      new XAttribute("N", "ThemeIndex"),
-      new XAttribute("V", "25"),
-      new XProcessingInstruction("NewValue", "V")));
-  // Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML);
-  
-  ```
+    ```cs
+    // Insert a new Cell element in the Start/End shape that adds an arbitrary
+    // local ThemeIndex value. This code assumes that the shape does not 
+    // already have a local ThemeIndex cell.
+    startEndShapeXML.Add(new XElement("Cell",
+        new XAttribute("N", "ThemeIndex"),
+        new XAttribute("V", "25"),
+        new XProcessingInstruction("NewValue", "V")));
+    // Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML);
+    
+    ```
 
-  ```vb
-  ' Insert a new Cell element in the shape that adds an arbitrary local
-  ' ThemeIndex value. This code assumes that the shape does not
-  ' already have a local ThemeIndex cell.
-  startEndShapeXML.Add(New XElement("Cell", _
-      New XAttribute("N", "ThemeIndex"),
-      New XAttribute("V", "25"),
-      New XProcessingInstruction("NewValue", "V")))
-  ' Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML)
-  
-  ```
+    ```vb
+    ' Insert a new Cell element in the shape that adds an arbitrary local
+    ' ThemeIndex value. This code assumes that the shape does not
+    ' already have a local ThemeIndex cell.
+    startEndShapeXML.Add(New XElement("Cell", _
+        New XAttribute("N", "ThemeIndex"),
+        New XAttribute("V", "25"),
+        New XProcessingInstruction("NewValue", "V")))
+    ' Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML)
+    
+    ```
 
 2. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
@@ -769,212 +765,212 @@ Utilisez le code suivant pour modifier la valeur de la cellule **PinY** de la fo
 
 1. Après la méthode `SaveXDocumentToPart` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static void RecalcDocument(Package filePackage)
-  {
-      // Get the Custom File Properties part from the package and
-      // and then extract the XML from it.
-      PackagePart customPart = GetPackagePart(filePackage, 
-          "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
-          "custom-properties");
-      XDocument customPartXML = GetXMLFromPart(customPart);
-      // Check to see whether document recalculation has already been 
-      // set for this document. If it hasn't, use the integer
-      // value returned by CheckForRecalc as the property ID.
-      int pidValue = CheckForRecalc(customPartXML);
-      if (pidValue > -1)
-      {
-          XElement customPartRoot = customPartXML.Elements().ElementAt(0);
-          // Two XML namespaces are needed to add XML data to this 
-          // document. Here, we're using the GetNamespaceOfPrefix and 
-          // GetDefaultNamespace methods to get the namespaces that 
-          // we need. You can specify the exact strings for the 
-          // namespaces, but that is not recommended.
-          XNamespace customVTypesNS = customPartRoot.GetNamespaceOfPrefix("vt");
-          XNamespace customPropsSchemaNS = customPartRoot.GetDefaultNamespace();
-          // Construct the XML for the new property in the XDocument.Add method.
-          // This ensures that the XNamespace objects will resolve properly, 
-          // apply the correct prefix, and will not default to an empty namespace.
-          customPartRoot.Add(
-              new XElement(customPropsSchemaNS + "property",
-                  new XAttribute("pid", pidValue.ToString()),
-                  new XAttribute("name", "RecalcDocument"),
-                  new XAttribute("fmtid", 
-                      "{D5CDD505-2E9C-101B-9397-08002B2CF9AE}"),
-                  new XElement(customVTypesNS + "bool", "true")
-              ));
-      }
-      // Save the Custom Properties package part back to the package.
-      SaveXDocumentToPart(customPart, customPartXML);
-  }
-  ```
+    ```cs
+    private static void RecalcDocument(Package filePackage)
+    {
+        // Get the Custom File Properties part from the package and
+        // and then extract the XML from it.
+        PackagePart customPart = GetPackagePart(filePackage, 
+            "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+            "custom-properties");
+        XDocument customPartXML = GetXMLFromPart(customPart);
+        // Check to see whether document recalculation has already been 
+        // set for this document. If it hasn't, use the integer
+        // value returned by CheckForRecalc as the property ID.
+        int pidValue = CheckForRecalc(customPartXML);
+        if (pidValue > -1)
+        {
+            XElement customPartRoot = customPartXML.Elements().ElementAt(0);
+            // Two XML namespaces are needed to add XML data to this 
+            // document. Here, we're using the GetNamespaceOfPrefix and 
+            // GetDefaultNamespace methods to get the namespaces that 
+            // we need. You can specify the exact strings for the 
+            // namespaces, but that is not recommended.
+            XNamespace customVTypesNS = customPartRoot.GetNamespaceOfPrefix("vt");
+            XNamespace customPropsSchemaNS = customPartRoot.GetDefaultNamespace();
+            // Construct the XML for the new property in the XDocument.Add method.
+            // This ensures that the XNamespace objects will resolve properly, 
+            // apply the correct prefix, and will not default to an empty namespace.
+            customPartRoot.Add(
+                new XElement(customPropsSchemaNS + "property",
+                    new XAttribute("pid", pidValue.ToString()),
+                    new XAttribute("name", "RecalcDocument"),
+                    new XAttribute("fmtid", 
+                        "{D5CDD505-2E9C-101B-9397-08002B2CF9AE}"),
+                    new XElement(customVTypesNS + "bool", "true")
+                ));
+        }
+        // Save the Custom Properties package part back to the package.
+        SaveXDocumentToPart(customPart, customPartXML);
+    }
+    ```
 
-  ```vb
-  Private Sub RecalcDocument(filePackage As Package)
-          ' Get the Custom File Properties part from the package and
-          ' then extract the XML from it.
-          Dim customPart As PackagePart = GetPackagePart(filePackage, _
-              "https://schemas.openxmlformats.org/officeDocument/2006/" + _
-              "relationships/custom-properties")
-          Dim customPartXML As XDocument = GetXMLFromPart(customPart)
-          ' Check to see whether document recalculation has already been
-          ' set for this document. If it hasn't, use the integer
-          ' value returned by CheckForRecalc as the property ID.
-          Dim pidValue As Integer = CheckForRecalc(customPartXML)
-          If (pidValue > 1) Then
-              Dim customPartRoot As XElement = _
-                  customPartXML.Elements().ElementAt(0)
-              ' Two XML namespaces are needed to add XML data to this 
-              ' document. Here, we're using the GetNamespaceOfPrefix and
-              ' GetDefaultNamespace methods to get the namespaces that
-              ' we need. You can specify the exact strings for the 
-              ' namespaces, but that is not recommended.
-              Dim customVTypesNS As XNamespace = _
-                  customPartRoot.GetNamespaceOfPrefix("vt")
-              Dim customPropsSchemaNS As XNamespace = _
-                  customPartRoot.GetDefaultNamespace()
-              ' Contruct the XML for the new property in the XDocument.Add
-              ' method. This ensures that the XML namespaces resolve 
-              ' properly, apply the correct prefix, and do not default to 
-              ' an empty namespace.
-              customPartRoot.Add( _
-                  New XElement(customPropsSchemaNS + "property", _
-                      New XAttribute("pid", pidValue.ToString()), _
-                      New XAttribute("name", "RecalcDocument"), _
-                      New XAttribute("fmtid", _
-                          "{D5CDD505-2E9C-101B-9397-08002B2CF9AE}"), _
-                      New XElement(customVTypesNS + "bool", "true") _
-              ))
-          ' Save the Custom Properties package part back to the package.
-          SaveXDocumentToPart(customPart, customPartXML)
-          End If
-      End Sub
-  ```
+    ```vb
+    Private Sub RecalcDocument(filePackage As Package)
+            ' Get the Custom File Properties part from the package and
+            ' then extract the XML from it.
+            Dim customPart As PackagePart = GetPackagePart(filePackage, _
+                "https://schemas.openxmlformats.org/officeDocument/2006/" + _
+                "relationships/custom-properties")
+            Dim customPartXML As XDocument = GetXMLFromPart(customPart)
+            ' Check to see whether document recalculation has already been
+            ' set for this document. If it hasn't, use the integer
+            ' value returned by CheckForRecalc as the property ID.
+            Dim pidValue As Integer = CheckForRecalc(customPartXML)
+            If (pidValue > 1) Then
+                Dim customPartRoot As XElement = _
+                    customPartXML.Elements().ElementAt(0)
+                ' Two XML namespaces are needed to add XML data to this 
+                ' document. Here, we're using the GetNamespaceOfPrefix and
+                ' GetDefaultNamespace methods to get the namespaces that
+                ' we need. You can specify the exact strings for the 
+                ' namespaces, but that is not recommended.
+                Dim customVTypesNS As XNamespace = _
+                    customPartRoot.GetNamespaceOfPrefix("vt")
+                Dim customPropsSchemaNS As XNamespace = _
+                    customPartRoot.GetDefaultNamespace()
+                ' Contruct the XML for the new property in the XDocument.Add
+                ' method. This ensures that the XML namespaces resolve 
+                ' properly, apply the correct prefix, and do not default to 
+                ' an empty namespace.
+                customPartRoot.Add( _
+                    New XElement(customPropsSchemaNS + "property", _
+                        New XAttribute("pid", pidValue.ToString()), _
+                        New XAttribute("name", "RecalcDocument"), _
+                        New XAttribute("fmtid", _
+                            "{D5CDD505-2E9C-101B-9397-08002B2CF9AE}"), _
+                        New XElement(customVTypesNS + "bool", "true") _
+                ))
+            ' Save the Custom Properties package part back to the package.
+            SaveXDocumentToPart(customPart, customPartXML)
+            End If
+        End Sub
+    ```
 
 2. Après la méthode `RecalcDocument` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static int CheckForRecalc(XDocument customPropsXDoc) 
-  {
-      
-      // Set the inital pidValue to -1, which is not an allowed value.
-      // The calling code tests to see whether the pidValue is 
-      // greater than -1.
-      int pidValue = -1;
-      // Get all of the property elements from the document. 
-      IEnumerable<XElement> props = GetXElementsByName(
-          customPropsXDoc, "property");
-      // Get the RecalcDocument property from the document if it exists already.
-      XElement recalcProp = GetXElementByAttribute(props, 
-          "name", "RecalcDocument");
-      // If there is already a RecalcDocument instruction in the 
-      // Custom File Properties part, then we don't need to add another one. 
-      // Otherwise, we need to create a unique pid value.
-      if (recalcProp != null)
-      {
-          return pidValue;
-      }
-      else
-      {
-          // Get all of the pid values of the property elements and then
-          // convert the IEnumerable object into an array.
-          IEnumerable<string> propIDs = 
-              from prop in props
-              where prop.Name.LocalName == "property"
-              select prop.Attribute("pid").Value;
-          string[] propIDArray = propIDs.ToArray();
-          // Increment this id value until a unique value is found.
-          // This starts at 2, because 0 and 1 are not valid pid values.
-          int id = 2;
-          while (pidValue == -1)
-          {
-              if (propIDArray.Contains(id.ToString()))
-              {
-                  id++;
-              }
-              else
-              {
-                  pidValue = id;
-              }
-          }
-      }
-      return pidValue;
-  }
-  
-  ```
+    ```cs
+    private static int CheckForRecalc(XDocument customPropsXDoc) 
+    {
+        
+        // Set the inital pidValue to -1, which is not an allowed value.
+        // The calling code tests to see whether the pidValue is 
+        // greater than -1.
+        int pidValue = -1;
+        // Get all of the property elements from the document. 
+        IEnumerable<XElement> props = GetXElementsByName(
+            customPropsXDoc, "property");
+        // Get the RecalcDocument property from the document if it exists already.
+        XElement recalcProp = GetXElementByAttribute(props, 
+            "name", "RecalcDocument");
+        // If there is already a RecalcDocument instruction in the 
+        // Custom File Properties part, then we don't need to add another one. 
+        // Otherwise, we need to create a unique pid value.
+        if (recalcProp != null)
+        {
+            return pidValue;
+        }
+        else
+        {
+            // Get all of the pid values of the property elements and then
+            // convert the IEnumerable object into an array.
+            IEnumerable<string> propIDs = 
+                from prop in props
+                where prop.Name.LocalName == "property"
+                select prop.Attribute("pid").Value;
+            string[] propIDArray = propIDs.ToArray();
+            // Increment this id value until a unique value is found.
+            // This starts at 2, because 0 and 1 are not valid pid values.
+            int id = 2;
+            while (pidValue == -1)
+            {
+                if (propIDArray.Contains(id.ToString()))
+                {
+                    id++;
+                }
+                else
+                {
+                    pidValue = id;
+                }
+            }
+        }
+        return pidValue;
+    }
+    
+    ```
 
-  ```vb
-  Private Function CheckForRecalc(customPropsXDoc As XDocument) As Integer
-      ' Set the initial pidValue to -1, which is not an allowed value. 
-      ' The calling code test to see whether the pidValue is
-      ' greater than -1.
-      Dim pidValue As Integer = -1
-      ' Get all of the property elements from the document.
-      Dim props As IEnumerable(Of XElement) = GetXElementsByName( _
-          customPropsXDoc, "property")
-      ' Get the RecalcDocument property from the document if 
-      ' it exists already.
-      Dim recalcProp As XElement = GetXElementByAttribute(props, _
-          "name", "RecalcDocument")
-      ' If there is already a RecalcDocument instruction in the 
-      ' Custom File Properties part, then we don't need another one.
-      ' Otherwise, we need to create a unique pid value.
-      If Not IsNothing(recalcProp) Then
-          Return pidValue
-      Else
-          ' Get all of the pid values of the proeprty elements and then
-          ' convert the IEnumerable object into an array.
-          Dim propIDs As IEnumerable(Of String) = _
-          From prop In props
-          Where prop.Name.LocalName = "property"
-          Select prop.Attribute("pid").Value
-          Dim propIDArray As String() = propIDs.ToArray()
-          ' Increment this id value until a unique value is found.
-          ' This starts at 2, because 0 and 1 are not valid pid values.
-          Dim id As Integer = 2
-          While (pidValue = -1)
-              If (propIDArray.Contains(id.ToString())) Then
-                  id = id + 1
-              Else
-                  pidValue = id
-              End If
-          End While
-      End If
-      Return pidValue
-  End Function
-  ```
+    ```vb
+    Private Function CheckForRecalc(customPropsXDoc As XDocument) As Integer
+        ' Set the initial pidValue to -1, which is not an allowed value. 
+        ' The calling code test to see whether the pidValue is
+        ' greater than -1.
+        Dim pidValue As Integer = -1
+        ' Get all of the property elements from the document.
+        Dim props As IEnumerable(Of XElement) = GetXElementsByName( _
+            customPropsXDoc, "property")
+        ' Get the RecalcDocument property from the document if 
+        ' it exists already.
+        Dim recalcProp As XElement = GetXElementByAttribute(props, _
+            "name", "RecalcDocument")
+        ' If there is already a RecalcDocument instruction in the 
+        ' Custom File Properties part, then we don't need another one.
+        ' Otherwise, we need to create a unique pid value.
+        If Not IsNothing(recalcProp) Then
+            Return pidValue
+        Else
+            ' Get all of the pid values of the proeprty elements and then
+            ' convert the IEnumerable object into an array.
+            Dim propIDs As IEnumerable(Of String) = _
+            From prop In props
+            Where prop.Name.LocalName = "property"
+            Select prop.Attribute("pid").Value
+            Dim propIDArray As String() = propIDs.ToArray()
+            ' Increment this id value until a unique value is found.
+            ' This starts at 2, because 0 and 1 are not valid pid values.
+            Dim id As Integer = 2
+            While (pidValue = -1)
+                If (propIDArray.Contains(id.ToString())) Then
+                    id = id + 1
+                Else
+                    pidValue = id
+                End If
+            End While
+        End If
+        Return pidValue
+    End Function
+    ```
 
 3. Remplacez le code de l’exemple précédent dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic) par le code suivant. 
     
-  ```cs
-  // Change the shape's horizontal position on the page 
-  // by getting a reference to the Cell element for the PinY 
-  // ShapeSheet cell and changing the value of its V attribute.
-  XElement pinYCellXML = GetXElementByAttribute(
-      startEndShapeXML.Elements(), "N", "PinY");
-  pinYCellXML.SetAttributeValue("V", "2");
-  // Add instructions to Visio to recalculate the entire document
-  // when it is next opened.
-  RecalcDocument(visioPackage);
-  // Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML);
-  
-  ```
+    ```cs
+    // Change the shape's horizontal position on the page 
+    // by getting a reference to the Cell element for the PinY 
+    // ShapeSheet cell and changing the value of its V attribute.
+    XElement pinYCellXML = GetXElementByAttribute(
+        startEndShapeXML.Elements(), "N", "PinY");
+    pinYCellXML.SetAttributeValue("V", "2");
+    // Add instructions to Visio to recalculate the entire document
+    // when it is next opened.
+    RecalcDocument(visioPackage);
+    // Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML);
+    
+    ```
 
-  ```vb
-  ' Change the shape's horizontal position on the page
-  ' by getting a reference to the Cell element for the PinY
-  ' ShapeSheet cell and changing the value of its V attribute.
-  Dim pinYCellXML As XElement = GetXElementByAttribute(
-      startEndShapeXML.Elements(), "N", "PinY")
-  pinYCellXML.SetAttributeValue("V", "2")
-  ' Add instructions to Visio to recalculate the entire document
-  ' when it is next opened.
-  RecalcDocument(visioPackage)
-  ' Save the XML back to the Page Contents part.
-  SaveXDocumentToPart(pagePart, pageXML)
-  
-  ```
+    ```vb
+    ' Change the shape's horizontal position on the page
+    ' by getting a reference to the Cell element for the PinY
+    ' ShapeSheet cell and changing the value of its V attribute.
+    Dim pinYCellXML As XElement = GetXElementByAttribute(
+        startEndShapeXML.Elements(), "N", "PinY")
+    pinYCellXML.SetAttributeValue("V", "2")
+    ' Add instructions to Visio to recalculate the entire document
+    ' when it is next opened.
+    RecalcDocument(visioPackage)
+    ' Save the XML back to the Page Contents part.
+    SaveXDocumentToPart(pagePart, pageXML)
+    
+    ```
 
 4. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
@@ -1003,150 +999,150 @@ La procédure suivante permet de créer un composant d’extensibilité du ruban
 
 1. Après la méthode `CheckForRecalc` dans la classe **Program** (ou **Module1** dans Visual Basic) de la procédure précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static XDocument CreateCustomUI()
-  {
-      // Add a new Custom User Interface document part to the package.
-      // This code adds a new CUSTOM tab to the ribbon for this
-      // document. The tab has one group that contains one button.
-      XNamespace customUINS = 
-          "https://schemas.microsoft.com/office/2006/01/customui";
-      XDocument customUIXDoc = new XDocument(
-          new XDeclaration("1.0", "utf-8", "true"),
-          new XElement(customUINS + "customUI",
-              new XElement(customUINS + "ribbon",
-                  new XElement(customUINS + "tabs",
-                      new XElement(customUINS + "tab",
-                          new XAttribute("id", "customTab"),
-                          new XAttribute("label", "CUSTOM"),
-                          new XElement(customUINS + "group",
-                              new XAttribute("id", "customGroup"),
-                              new XAttribute("label", "Custom Group"),
-                              new XElement(customUINS + "button",
-                                  new XAttribute("id", "customButton"),
-                                  new XAttribute("label", "Custom Button"),
-                                  new XAttribute("size", "large"),
-                                  new XAttribute("imageMso", "HappyFace")
-                              )
-                          )
-                      )
-                  )
-              )
-          )
-      );
-      return customUIXDoc;
-  }
-  ```
+    ```cs
+    private static XDocument CreateCustomUI()
+    {
+        // Add a new Custom User Interface document part to the package.
+        // This code adds a new CUSTOM tab to the ribbon for this
+        // document. The tab has one group that contains one button.
+        XNamespace customUINS = 
+            "https://schemas.microsoft.com/office/2006/01/customui";
+        XDocument customUIXDoc = new XDocument(
+            new XDeclaration("1.0", "utf-8", "true"),
+            new XElement(customUINS + "customUI",
+                new XElement(customUINS + "ribbon",
+                    new XElement(customUINS + "tabs",
+                        new XElement(customUINS + "tab",
+                            new XAttribute("id", "customTab"),
+                            new XAttribute("label", "CUSTOM"),
+                            new XElement(customUINS + "group",
+                                new XAttribute("id", "customGroup"),
+                                new XAttribute("label", "Custom Group"),
+                                new XElement(customUINS + "button",
+                                    new XAttribute("id", "customButton"),
+                                    new XAttribute("label", "Custom Button"),
+                                    new XAttribute("size", "large"),
+                                    new XAttribute("imageMso", "HappyFace")
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        );
+        return customUIXDoc;
+    }
+    ```
 
-  ```vb
-  Private Function CreateCustomUI() As XDocument
-      ' Add a new Custom User Interface document part to the package.
-      ' This code adds a new CUSTOM tab to the ribbon for this
-      ' document. The tab has one group that contains one button.
-      Dim customUINS As XNamespace = _
-          "https://schemas.microsoft.com/office/2006/01/customui"
-      Dim customUIXML = New XDocument( _
-          New XDeclaration("1.0", "utf-8", "true"), _
-          New XElement(customUINS + "customUI", _
-              New XElement(customUINS + "ribbon",
-                  New XElement(customUINS + "tabs",
-                      New XElement(customUINS + "tab",
-                          New XAttribute("id", "customTab"),
-                          New XAttribute("label", "CUSTOM"),
-                          New XElement(customUINS + "group",
-                              New XAttribute("id", "customGroup"),
-                              New XAttribute("label", "Custom Group"),
-                              New XElement(customUINS + "button",
-                                  New XAttribute("id", "customButton"),
-                                  New XAttribute("label", "Custom Button"),
-                                  New XAttribute("size", "large"),
-                                  New XAttribute("imageMso", "HappyFace")
-                              )
-                          )
-                      )
-                  )
-              )
-          )
-      )
-      Return customUIXML
-  End Function
-  ```
+    ```vb
+    Private Function CreateCustomUI() As XDocument
+        ' Add a new Custom User Interface document part to the package.
+        ' This code adds a new CUSTOM tab to the ribbon for this
+        ' document. The tab has one group that contains one button.
+        Dim customUINS As XNamespace = _
+            "https://schemas.microsoft.com/office/2006/01/customui"
+        Dim customUIXML = New XDocument( _
+            New XDeclaration("1.0", "utf-8", "true"), _
+            New XElement(customUINS + "customUI", _
+                New XElement(customUINS + "ribbon",
+                    New XElement(customUINS + "tabs",
+                        New XElement(customUINS + "tab",
+                            New XAttribute("id", "customTab"),
+                            New XAttribute("label", "CUSTOM"),
+                            New XElement(customUINS + "group",
+                                New XAttribute("id", "customGroup"),
+                                New XAttribute("label", "Custom Group"),
+                                New XElement(customUINS + "button",
+                                    New XAttribute("id", "customButton"),
+                                    New XAttribute("label", "Custom Button"),
+                                    New XAttribute("size", "large"),
+                                    New XAttribute("imageMso", "HappyFace")
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        )
+        Return customUIXML
+    End Function
+    ```
 
 2. Après la méthode `CreateCustomUI` dans la classe **Program** (ou **Module1** dans Visual Basic) de l’étape précédente, ajoutez la méthode suivante. 
     
-  ```cs
-  private static void CreateNewPackagePart(Package filePackage, 
-      XDocument partXML, Uri packageLocation, string contentType, 
-      string relationship)
-  {
-      // Need to check first to see whether the part exists already.
-      if (!filePackage.PartExists(packageLocation))
-      {
-          // Create a new blank package part at the specified URI 
-          // of the specified content type.
-          PackagePart newPackagePart = filePackage.CreatePart(packageLocation,
-              contentType);
-          // Create a stream from the package part and save the 
-          // XML document to the package part.
-          using (Stream partStream = newPackagePart.GetStream(FileMode.Create,
-              FileAccess.ReadWrite))
-          {
-              partXML.Save(partStream);
-          }
-      }
-      // Add a relationship from the file package to this
-      // package part. You can also create relationships
-      // between an existing package part and a new part.
-      filePackage.CreateRelationship(packageLocation,
-          TargetMode.Internal,
-          relationship);
-  }
-  ```
+    ```cs
+    private static void CreateNewPackagePart(Package filePackage, 
+        XDocument partXML, Uri packageLocation, string contentType, 
+        string relationship)
+    {
+        // Need to check first to see whether the part exists already.
+        if (!filePackage.PartExists(packageLocation))
+        {
+            // Create a new blank package part at the specified URI 
+            // of the specified content type.
+            PackagePart newPackagePart = filePackage.CreatePart(packageLocation,
+                contentType);
+            // Create a stream from the package part and save the 
+            // XML document to the package part.
+            using (Stream partStream = newPackagePart.GetStream(FileMode.Create,
+                FileAccess.ReadWrite))
+            {
+                partXML.Save(partStream);
+            }
+        }
+        // Add a relationship from the file package to this
+        // package part. You can also create relationships
+        // between an existing package part and a new part.
+        filePackage.CreateRelationship(packageLocation,
+            TargetMode.Internal,
+            relationship);
+    }
+    ```
 
-  ```vb
-  Private Sub CreateNewPackagePart(filePackage As Package, _
-      partXML As XDocument, packageLocation As Uri, contentType As String, _
-      relationship As String)
-      ' Need to check first to see whether the part exists already.
-      If Not (filePackage.PartExists(packageLocation)) Then
-          ' Create a new blank package part at the specified URI
-          ' of the specified content type.
-          Dim newPart As PackagePart = filePackage.CreatePart(packageLocation, _
-              contentType)
-          ' Create a stream from the package part and save the
-          ' XML document to the package part.
-          Using partStream As Stream = newPart.GetStream(FileMode.Create, _
-              FileAccess.ReadWrite)
-              partXML.Save(partStream)
-          End Using
-          ' Add a relationship from the file package to this
-          ' package part. You can also create relationships
-          ' between an existing package part and a new part.
-          filePackage.CreateRelationship(packageLocation, _
-              TargetMode.Internal, relationship)
-      End If
-  End Sub
-  ```
+    ```vb
+    Private Sub CreateNewPackagePart(filePackage As Package, _
+        partXML As XDocument, packageLocation As Uri, contentType As String, _
+        relationship As String)
+        ' Need to check first to see whether the part exists already.
+        If Not (filePackage.PartExists(packageLocation)) Then
+            ' Create a new blank package part at the specified URI
+            ' of the specified content type.
+            Dim newPart As PackagePart = filePackage.CreatePart(packageLocation, _
+                contentType)
+            ' Create a stream from the package part and save the
+            ' XML document to the package part.
+            Using partStream As Stream = newPart.GetStream(FileMode.Create, _
+                FileAccess.ReadWrite)
+                partXML.Save(partStream)
+            End Using
+            ' Add a relationship from the file package to this
+            ' package part. You can also create relationships
+            ' between an existing package part and a new part.
+            filePackage.CreateRelationship(packageLocation, _
+                TargetMode.Internal, relationship)
+        End If
+    End Sub
+    ```
 
 3. Remplacez tout le code dans le bloc **using** de la méthode **Main** de la classe **Program** (le bloc **Using** de la méthode **Main** dans **Module1** dans Visual Basic) par le code suivant. 
     
-  ```cs
-  // Create a new Ribbon Extensibility part and add it to the file.
-  XDocument customUIXML = CreateCustomUI();
-  CreateNewPackagePart(visioPackage, customUIXML, 
-      new Uri("/customUI/customUI1.xml", UriKind.Relative),
-      "application/xml",
-      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
-  ```
+    ```cs
+    // Create a new Ribbon Extensibility part and add it to the file.
+    XDocument customUIXML = CreateCustomUI();
+    CreateNewPackagePart(visioPackage, customUIXML, 
+        new Uri("/customUI/customUI1.xml", UriKind.Relative),
+        "application/xml",
+        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+    ```
 
-  ```vb
-  ' Create a new Ribbon Extensibility part and add it to the file.
-  Dim customUIXML As XDocument = CreateCustomUI()
-  CreateNewPackagePart(visioPackage, customUIXML, _
-      New Uri("/customUI/customUI1.xml", UriKind.Relative), _
-      "application/xml", _
-      "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
-  ```
+    ```vb
+    ' Create a new Ribbon Extensibility part and add it to the file.
+    Dim customUIXML As XDocument = CreateCustomUI()
+    CreateNewPackagePart(visioPackage, customUIXML, _
+        New Uri("/customUI/customUI1.xml", UriKind.Relative), _
+        "application/xml", _
+        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+    ```
 
 4. Appuyez sur la touche F5 pour déboguer la solution. Lorsque le programme est terminé, appuyez sur une touche pour le quitter.
     
