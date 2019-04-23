@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a47cc394cf0bb1c6f5a3d707c1885d0abef0f0e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287523"
 ---
 # <a name="position-property-ado"></a>Position, propriété (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique la position actuelle dans un objet [Stream](stream-object-ado.md).
 
@@ -33,5 +33,5 @@ La position actuelle peut être définie au-delà de la fin du flux. Dans ce cas
 
 Il est impossible d'utiliser des valeurs négatives pour modifier la position actuelle dans un **Stream**. La propriété **Position** n'accepte que les chiffres positifs.
 
-Pour les objets **Stream** en lecture seule, ADO ne renvoie pas une erreur si la **Position** est définie sur une valeur supérieure à la **taille** du **flux de données**. Cela ne pas modifier la taille du **flux**ou **son contenu** . Toutefois, cette opération doit être évitée, car elle génère une valeur de **Position** sans signification.
+For read-only **Stream** objects, ADO will not return an error if **Position** is set to a value greater than the **Size** of the **Stream**. This does not change the size of the **Stream**, or alter the **Stream** contents in any way. However, doing this should be avoided because it results in a meaningless **Position** value.
 

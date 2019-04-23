@@ -1,5 +1,5 @@
 ---
-title: PositionEnum (référence de base de données du bureau Access)
+title: PositionEnum (référence de base de données de bureau Access)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4c791cbd31e346eef5ab8503cb55b0dec5e9fbbc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287502"
 ---
 # <a name="positionenum"></a>PositionEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Spécifie la position en cours du pointeur de l'enregistrement dans un objet [Recordset](recordset-object-ado.md).
+Spécifie la position en cours du pointeur de l’enregistrement dans un objet [Recordset](recordset-object-ado.md).
 
 <br/>
 
@@ -70,13 +70,13 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Position.BOF</p></td>
+<td><p>AdoEnums. position. BOF</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Position.EOF</p></td>
+<td><p>AdoEnums. position. EOF</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Position.UNKNOWN</p></td>
+<td><p>AdoEnums. position. unKNOWn</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e7c87acd433df4a303c1e6a15a60184cadf994c3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282463"
 ---
 # <a name="address-book-navigation-buttons"></a>Boutons de navigation de Carnet d’adresses
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L’application Carnet d’adresses affiche les boutons de navigation au bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
+L'application Carnet d'adresses affiche les boutons de navigation en bas de la page Web. Vous pouvez utiliser ces boutons pour parcourir les données dans la grille HTML en sélectionnant la première ou la dernière ligne de données, ou les lignes adjacentes à la sélection actuelle.
 
 ## <a name="navigation-sub-procedures"></a>Sous-procédures de navigation
 
 L'application Carnet d'adresses intègre plusieurs procédures qui permettent aux utilisateurs de parcourir les données en cliquant sur les boutons **Première**, **Suivante**, **Précédente** et **Dernière**.
 
-Par exemple, le **premier** bouton permet d’activer le premier VBScript\_procédure OnClick Sub. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. En cliquant sur **le bouton** Active la dernière\_procédure OnClick Sub, qui appelle la méthode [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , qui fait la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
+Par exemple, un clic sur le **premier** bouton active la première\_procédure de la sous-routine OnClick de VBScript. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. Le fait de cliquer sur le **dernier** bouton\_active la dernière procédure OnClick Sub, qui appelle la méthode [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) , qui fait de la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
 
 ```vb 
  

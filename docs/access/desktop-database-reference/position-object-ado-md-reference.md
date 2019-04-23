@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4e0fc5caea6b7535a16da88b8b348f5c2dee2c18
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287558"
 ---
 # <a name="position-object-ado-md-reference"></a>Position, objet (référence ADO MD)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Position, objet (ADO MD)](position-object-ado-md.md)
-- [Position propriétés, méthodes et événements (ADO MD)](position-properties-methods-and-events-ado-md.md)
+- [Objet position (ADO MD)](position-object-ado-md.md)
+- [Propriétés de position, méthodes et événements (ADO MD)](position-properties-methods-and-events-ado-md.md)
 

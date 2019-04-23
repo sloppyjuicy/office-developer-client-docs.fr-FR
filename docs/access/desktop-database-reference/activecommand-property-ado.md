@@ -8,15 +8,15 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 18fa38176f7174f27b46604c6182dfbdaa422f06
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281928"
 ---
 # <a name="activecommand-property-ado"></a>ActiveCommand, propriété (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique l'objet [Command](command-object-ado.md) qui a créé l'objet [Recordset](recordset-object-ado.md) associé.
 
@@ -24,11 +24,11 @@ Indique l'objet [Command](command-object-ado.md) qui a créé l'objet [Recordset
 
 Renvoie une valeur de type **Variant** qui contient un objet **Command**. La valeur par défaut est une référence d'objet Null.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La propriété **ActiveCommand** est en lecture seule.
+La propriété  **ActiveCommand ** est en lecture seule.
 
-Si un objet **Command** n’était utilisé pour créer l' **objet Recordset**actif, une référence d’objet **Null** est renvoyée.
+Si un objet **Command** n'a pas été utilisé pour créer l'objet **Recordset**actif, une référence d'objet **null** est renvoyée.
 
 Utilisez cette propriété pour rechercher l'objet **Command** associé lorsque vous ne recevez que l'objet **Recordset** qui en résulte.
 

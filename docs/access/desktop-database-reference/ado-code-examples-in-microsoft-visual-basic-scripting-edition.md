@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8be48c74dbf17062388866d3ab982b6a24643f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704930"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281838"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a>Exemples de code ADO dans Microsoft Visual Basic Scripting Edition
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes ADO lorsque vous écrivez du code en Visual Basic Scripting Edition (VBScript).
 
@@ -26,8 +26,8 @@ Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes 
 ## <a name="methods"></a>Méthodes
 
 - [AddNew, méthode-exemple](addnew-method-example-vbscript.md)
-- [Exemple de méthode clone](clone-method-example-vbscript.md)
-- [Exemple de méthode Delete](delete-method-example-vbscript.md)
+- [Clone, méthode-exemple](clone-method-example-vbscript.md)
+- [Delete, méthode-exemple](delete-method-example-vbscript.md)
 - [Execute, Requery et Clear, méthodes-exemple](execute-requery-and-clear-methods-example-vbscript.md)
 - [Move (méthode) – Exemple](move-method-example-vbscript.md)
 - [MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes-exemple](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)

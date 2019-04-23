@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 194dcf3826409c91f8d046b39b9009b43aee5477
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288847"
 ---
 # <a name="more-about-recordset-persistence"></a>En savoir plus sur la persistance du recordset
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'objet Recordset ADO prend en charge le stockage du contenu d'un objet **Recordset** dans un fichier à l'aide de la méthode [Save](save-method-ado.md). Le fichier stocké avec persistance peut-être exister sur un lecteur local, serveur réseau, ou en tant qu’URL sur un site Web. Par la suite, le fichier peut être restauré soit avec la méthode **Open** de l'objet [Recordset](open-method-ado-recordset.md), soit avec la méthode [Execute](connection-object-ado.md) de l'objet [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
+L'objet Recordset ADO prend en charge le stockage du contenu d'un objet **Recordset** dans un fichier à l'aide de la méthode [Save](save-method-ado.md). Le fichier stocké de façon persistante peut se trouver sur un lecteur local, un serveur réseau ou en tant qu'URL sur un site Web. Par la suite, le fichier peut être restauré soit avec la méthode **Open** de l'objet [Recordset](open-method-ado-recordset.md), soit avec la méthode [Execute](connection-object-ado.md) de l'objet [Connection](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection).
 
 En outre, la méthode [GetString](getstring-method-ado.md) convertit un objet **Recordset** dans un format où les lignes et les colonnes sont délimitées par des caractères que vous spécifiez.
 
 Pour rendre un objet **Recordset** persistant, commencez par le convertir dans un format qui lui permet d'être stocké dans un fichier. Les objets **Recordset** peuvent être stockés au format ADTG (Advanced Data TableGram) propriétaire ou au format XML (Extensible Markup Language) ouvert. Des exemples utilisant ADTG sont présentés ci-dessous. Pour plus d'informations sur la persistance XML, consultez [Persistance des enregistrements au format XML](persisting-records-in-xml-format.md).
 
-Enregistrez les modifications en attente dans le fichier persisté. Cela vous permet d’émettre une requête qui renvoie un objet **Recordset** , modifie le **jeu d’enregistrements**, enregistre ainsi que les modifications en attente, restaure l' **objet Recordset**et met à jour la source de données avec les modifications en attente.
+Save any pending changes in the persisted file. Doing this allows you to issue a query that returns a **Recordset** object, edits the **Recordset**, saves it and the pending changes, later restores the **Recordset**, and then updates the data source with the saved pending changes.
 
 Pour plus d'informations sur le stockage persistant des objets **Stream**, consultez [Flux et persistance](streams-and-persistence.md) au chapitre 10.
 
-Pour obtenir un exemple de persistance d'un objet **Recordset**, consultez [Scénario de persistance des objets Recordset XML](xml-recordset-persistence-scenario.md).
+Pour obtenir un exemple de persistance d’un objet **Recordset** , consultez  [Scénario de persistance des objets Recordset XML](xml-recordset-persistence-scenario.md).
 
 ## <a name="example"></a>Exemple
 

@@ -8,23 +8,23 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 372dac11500647af75881ae6b4aee22a391a32c9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280528"
 ---
 # <a name="activeconnection-property-ado-md"></a>ActiveConnection, propriété (ADO MD)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Indique à quel objet [Connection](connection-object-ado.md) ADO l'ensemble de cellules ou le catalogue actif appartient actuellement.
+Indique à quel objet [Connection](connection-object-ado.md) ADO l’ensemble de cellules ou le catalogue actif appartient actuellement.
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
 Définit ou renvoie une valeur de type **Variant** qui contient une chaîne définissant une connexion ou un objet **Connection**. La valeur par défaut est vide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez affecter à cette propriété un objet **Connection** ADO valide ou une chaîne de connexion valide. Dans ce dernier cas, le fournisseur crée un nouvel objet **Connection** à l'aide de cette définition et ouvre la connexion.
 
@@ -37,13 +37,13 @@ La modification de la base de données par défaut de la connexion référencée
 Une erreur se produit si vous tentez de modifier la propriété **ActiveConnection** d'un objet **Cellset** ouvert.
 
 > [!NOTE]
-> Dans Visual Basic, pensez à utiliser le mot clé **Set** lors de la définition de la propriété **ActiveConnection** sur un objet **Connection** . Si vous omettez le mot clé **Set** , que vous ne définissez la propriété **ActiveConnection** égale à la propriété par défaut de l’objet **Connection** , **ConnectionString**. Le code fonctionne ; Toutefois, vous allez créer une connexion supplémentaire à la source de données, qui peut avoir une incidence sur les performances.
+> In Visual Basic, remember to use the **Set** keyword when setting the **ActiveConnection** property to a **Connection** object. If you omit the **Set** keyword, you will actually be setting the **ActiveConnection** property equal to the **Connection** object's default property, **ConnectionString**. The code will work; however, you will create an additional connection to the data source, which may have negative performance implications.
 
-Lorsque vous utilisez le fournisseur de données MSOLAP, définissez comme source de données d'une chaîne de connexion un nom de serveur et affectez au catalogue initial le nom d'un catalogue de la source de données. Pour vous connecter à un fichier de cube déconnecté d'un serveur, affectez comme valeur d'emplacement le chemin d'accès complet au fichier .CUB. Dans tous les cas, attribuez au fournisseur le nom du fournisseur. Par exemple, la chaîne suivante se connecte à un catalogue intitulé « Bobs Video Store » sur un serveur dénommé « Servername » avec le fournisseur MSOLAP :
+Lorsque vous utilisez le fournisseur de données MSOLAP, définissez comme source de données d’une chaîne de connexion un nom de serveur et affectez au catalogue initial le nom d’un catalogue de la source de données. Pour vous connecter à un fichier de cube déconnecté d’un serveur, affectez comme valeur d’emplacement le chemin d’accès complet au fichier .CUB. Dans tous les cas, attribuez au fournisseur le nom du fournisseur. Par exemple, la chaîne suivante se connecte à un catalogue intitulé « Bobs Video Store » sur un serveur dénommé « Servername » avec le fournisseur MSOLAP :
 
 `"Data Source=Servername;Initial Catalog=Bobs Video Store;Provider=msolap"`
 
-La chaîne suivante se connecte à un fichier de cube local situé à l’emplacement c :\\MSDASDK\\exemples\\oledb\\olap\\données\\bobsvid.cub :
+La chaîne suivante se connecte à un fichier de cube local situé à\\l'\\emplacement\\C\\:\\MSDASDK\\Samples OLEDB OLAP Data bobsvid. CUB:
 
 `"Location=C:\MSDASDK\samples\oledb\olap\data\bobsvid.cub;Provider=msolap"`
 

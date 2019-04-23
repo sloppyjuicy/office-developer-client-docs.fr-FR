@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d65378bf964ad8c6e81a08cb653f09bf00a8431c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288153"
 ---
 # <a name="overview-of-multidimensional-schemas-and-data"></a>Vue d’ensemble des données et des schémas multidimensionnels
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="understanding-multidimensional-schemas"></a>Présentation des schémas multidimensionnels
 
 Dans ADO MD, l'objet de métadonnées central est le *cube*, qui consiste en un ensemble structuré de dimensions, hiérarchies, niveaux et membres connexes.
 
-Une *dimension* est une catégorie indépendante de données à partir de votre base de données multidimensionnelle sur vos entités professionnelles. En règle générale, une dimension contient les éléments à utiliser comme critères de requête pour les mesures de la base de données.
+Une *dimension* est une catégorie indépendante de données de votre base de données multidimensionnelle basée sur vos entités professionnelles. En règle générale, une dimension contient les éléments à utiliser comme critères de requête pour les mesures de la base de données.
 
 Une *hiérarchie* est un chemin d’agrégation dans une dimension. Une dimension peut avoir plusieurs niveaux de granularité dotés de relations parent-enfant. Une hiérarchie permet de définir les relations entre ces niveaux.
 
-Un *niveau* est une étape d’agrégation dans une hiérarchie. Pour les dimensions dotées de plusieurs couches d'informations, chaque couche constitue un niveau.
+Un *niveau* est une étape d'agrégation dans une hiérarchie. Pour les dimensions dotées de plusieurs couches d'informations, chaque couche constitue un niveau.
 
 Un *membre* est un élément de données dans une dimension. En règle générale, vous créez une légende ou décrivez une mesure de la base de données à l'aide de membres.
 
@@ -51,11 +51,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Hiérarchies
+## <a name="hierarchies"></a>Hierarchies
 
 Les hiérarchies définissent les manières de regrouper ou de reporter les niveaux d'une dimension. Une dimension peut compter plusieurs hiérarchies.
 
-## <a name="levels"></a>Niveaux
+## <a name="levels"></a>Levels
 
 Dans l'exemple de la dimension Géographie de l'illustration précédente, chaque zone représente un niveau de la hiérarchie.
 
@@ -64,40 +64,36 @@ Chaque niveau est constitué de membres, comme suit :
   - Monde = {All}
 
 
-  - Continents = {North America, Europe}
-
+  - Continents = {Amérique du Nord, Europe}
 
   - Pays = {Canada, USA, UK, Germany}
 
+  - Régions = {Canada-East, Canada-West, USA-ne, USA-NW, USA-SE, USA-SW, Angleterre, Irlande, Écosse, pays de Galles, Allemagne-Nord, Allemagne-sud}
 
-  - Régions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
+  - Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Édimbourg, Cardiff, Pembroke, Belfast, Berlin, Hambourg, Munich, Stuttgart}
 
+## <a name="members"></a>Members
 
-  - Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
+Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membres supérieurs n’ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l’arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
 
-
-## <a name="members"></a>Membres
-
-Les membres inférieurs d'une hiérarchie n'ont pas d'enfants et les membres supérieurs n'ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l'arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
-
-- {All} (parent) {Europe, Amérique du Nord}
-- {Amérique du Nord} (parent) {Canada, USA}
-- {USA} (parent) {USA-NE, USA-NW, USA-SE, USA-SW}
-- {USA-NW} (parent) {Seattle, Boise}
+- Tous les (parent de) {Europe, Amérique du Nord}
+- {Amérique du Nord} (parent de) {Canada, USA}
+- USA (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
+- {USA-NW} (parent de) {Boise, Seattle}
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau semaine de la hiérarchie année-semaine n’apparaissent pas dans n’importe quel niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique: certains membres du niveau semaine de la hiérarchie année-semaine n'apparaissent dans aucun niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 
 ## <a name="understanding-multidimensional-schemas"></a>Présentation des schémas multidimensionnels
 
 Dans ADO MD, l'objet de métadonnées central est le *cube*, qui consiste en un ensemble structuré de dimensions, hiérarchies, niveaux et membres connexes.
 
-Une *dimension* est une catégorie indépendante de données à partir de votre base de données multidimensionnelle sur vos entités professionnelles. En règle générale, une dimension contient les éléments à utiliser comme critères de requête pour les mesures de la base de données.
+Une *dimension* est une catégorie indépendante de données de votre base de données multidimensionnelle basée sur vos entités professionnelles. En règle générale, une dimension contient les éléments à utiliser comme critères de requête pour les mesures de la base de données.
 
 Une *hiérarchie* est un chemin d’agrégation dans une dimension. Une dimension peut avoir plusieurs niveaux de granularité dotés de relations parent-enfant. Une hiérarchie permet de définir les relations entre ces niveaux.
 
-Un *niveau* est une étape d’agrégation dans une hiérarchie. Pour les dimensions dotées de plusieurs couches d'informations, chaque couche constitue un niveau.
+Un *niveau* est une étape d'agrégation dans une hiérarchie. Pour les dimensions dotées de plusieurs couches d'informations, chaque couche constitue un niveau.
 
 Un *membre* est un élément de données dans une dimension. En règle générale, vous créez une légende ou décrivez une mesure de la base de données à l'aide de membres.
 
@@ -122,11 +118,11 @@ Edinburgh, Cardiff, Pembroke, Belfast, Berlin,
 Hamburg, Munich, Stuttgart} 
 ```
 
-## <a name="hierarchies"></a>Hiérarchies
+## <a name="hierarchies"></a>Hierarchies
 
 Les hiérarchies définissent les manières de regrouper ou de reporter les niveaux d'une dimension. Une dimension peut compter plusieurs hiérarchies.
 
-## <a name="levels"></a>Niveaux
+## <a name="levels"></a>Levels
 
 Dans l'exemple de la dimension Géographie de l'illustration précédente, chaque zone représente un niveau de la hiérarchie.
 
@@ -135,31 +131,27 @@ Chaque niveau est constitué de membres, comme suit :
 - Monde = {All}
 
 
-- Continents = {North America, Europe}
-
+- Continents = {Amérique du Nord, Europe}
 
 - Pays = {Canada, USA, UK, Germany}
 
+- Régions = {Canada-East, Canada-West, USA-ne, USA-NW, USA-SE, USA-SW, Angleterre, Irlande, Écosse, pays de Galles, Allemagne-Nord, Allemagne-sud}
 
-- Régions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
+- Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, Londres, Dover, Glasgow, Édimbourg, Cardiff, Pembroke, Belfast, Berlin, Hambourg, Munich, Stuttgart}
 
+## <a name="members"></a>Members
 
-- Villes = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
+Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membres supérieurs n’ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l’arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
 
+- Tous les (parent de) {Europe, Amérique du Nord}
 
-## <a name="members"></a>Membres
+- {Amérique du Nord} (parent de) {Canada, USA}
 
-Les membres inférieurs d'une hiérarchie n'ont pas d'enfants et les membres supérieurs n'ont pas de parents. Tous les autres membres ont au moins un parent et un enfant. Par exemple, une coupure transversale de l'arborescence hiérarchique de la dimension Géographie donne les relations parent-enfant suivantes :
+- USA (parent de) {USA-NE, USA-NW, USA-SE, USA-SW}
 
-- {All} (parent) {Europe, Amérique du Nord}
-
-- {Amérique du Nord} (parent) {Canada, USA}
-
-- {USA} (parent) {USA-NE, USA-NW, USA-SE, USA-SW}
-
-- {USA-NW} (parent) {Seattle, Boise}
+- {USA-NW} (parent de) {Boise, Seattle}
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau semaine de la hiérarchie année-semaine n’apparaissent pas dans n’importe quel niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique: certains membres du niveau semaine de la hiérarchie année-semaine n'apparaissent dans aucun niveau de la hiérarchie année-trimestre. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 

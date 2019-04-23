@@ -12,19 +12,19 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 33443fda474b3785d34d457719e49f5e358bb254
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718034"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288510"
 ---
 # <a name="odbc-scalar-functions"></a>Fonctions scalaires ODBC
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Microsoft Access SQL prend en charge l’utilisation de la syntaxe définie par ODBC pour les fonctions scalaires. 
+Microsoft Access SQL prend en charge l'utilisation de la syntaxe définie par ODBC pour les fonctions scalaires. 
 
-Par exemple, la requête `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` renverrait toutes les lignes où la valeur absolue de la modification du prix d’une action serait supérieure à cinq.
+Par exemple, la requête `SELECT DAILYCLOSE, DAILYCHANGE FROM DAILYQUOTE WHERE {fn ABS(DAILYCHANGE)} > 5` renvoie toutes les lignes où la valeur absolue de la modification du prix d'une action était supérieure à cinq.
 
 Un sous-ensemble des fonctions scalaires ODBC est pris en charge. La tableau suivant répertorie les fonctions prises en charge.
 
@@ -41,26 +41,26 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 <tbody>
 <tr class="odd">
 <td><p>ASCII</p></td>
-<td><p>LENGTH</p></td>
+<td><p>LAPS</p></td>
 <td><p>RTRIM</p></td>
 </tr>
 <tr class="even">
-<td><p>CHAR</p></td>
-<td><p>LOCATE</p></td>
-<td><p>SPACE</p></td>
+<td><p>ÉCHELLE</p></td>
+<td><p>REPÉRER</p></td>
+<td><p>ESPACE</p></td>
 </tr>
 <tr class="odd">
 <td><p>CONCAT</p></td>
 <td><p>LTRIM</p></td>
-<td><p>SUBSTRING</p></td>
+<td><p>SOUS-chaîne</p></td>
 </tr>
 <tr class="even">
 <td><p>LCASE</p></td>
-<td><p>RIGHT</p></td>
+<td><p>Oui</p></td>
 <td><p>UCASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>LEFT</p></td>
+<td><p>RENSEIGNÉ</p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>
@@ -79,34 +79,34 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 <tbody>
 <tr class="odd">
 <td><p>ABS</p></td>
-<td><p>FLOOR</p></td>
-<td><p>SIN</p></td>
+<td><p>CHAUSSÉE</p></td>
+<td><p>SINE</p></td>
 </tr>
 <tr class="even">
 <td><p>ATAN</p></td>
-<td><p>LOG</p></td>
-<td><p>SQRT</p></td>
+<td><p>ROUVRIR</p></td>
+<td><p>COMPLEXE</p></td>
 </tr>
 <tr class="odd">
-<td><p>CEILING</p></td>
-<td><p>POWER</p></td>
+<td><p>ENCASTRE</p></td>
+<td><p>CONSOMMATION</p></td>
 <td><p>TAN</p></td>
 </tr>
 <tr class="even">
-<td><p>COS</p></td>
-<td><p>RAND</p></td>
-<td><p>MOD</p></td>
+<td><p>SINU</p></td>
+<td><p>VÉRIFICATIONS</p></td>
+<td><p>MSSQL</p></td>
 </tr>
 <tr class="odd">
-<td><p>EXP</p></td>
-<td><p>SIGN</p></td>
+<td><p>PRÉVU</p></td>
+<td><p>INSCRIV</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="time--date-functions"></a>Fonctions de Date &
+## <a name="time--date-functions"></a>Fonctions de date et d'heure &
 
 <table>
 <colgroup>
@@ -116,28 +116,28 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>CURDATE</p></td>
+<td><p>CAILLÉ</p></td>
 <td><p>DAYOFYEAR</p></td>
-<td><p>MONTH</p></td>
+<td><p>SEMESTRIELLE</p></td>
 </tr>
 <tr class="even">
 <td><p>CURTIME</p></td>
-<td><p>YEAR</p></td>
-<td><p>WEEK</p></td>
+<td><p>AUTRE</p></td>
+<td><p>MENSUEL</p></td>
 </tr>
 <tr class="odd">
-<td><p>NOW</p></td>
-<td><p>HOUR</p></td>
-<td><p>QUARTER</p></td>
+<td><p>F1</p></td>
+<td><p>H/24</p></td>
+<td><p>TRIMESTRE</p></td>
 </tr>
 <tr class="even">
 <td><p>DAYOFMONTH</p></td>
-<td><p>MINUTE</p></td>
+<td><p>PRÉCÉDENTE</p></td>
 <td><p>MONTHNAME</p></td>
 </tr>
 <tr class="odd">
 <td><p>DAYOFWEEK</p></td>
-<td><p>SECOND</p></td>
+<td><p>SECONDE</p></td>
 <td><p>DAYNAME</p></td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>CONVERT</p></td>
+<td><p>REMPLACER</p></td>
 <td><p>Les littéraux de chaîne peuvent être convertis dans les types de données suivants : SQL_FLOAT, SQL_DOUBLE, SQL_NUMERIC, SQL_INTEGER, SQL_REAL, SQL_SMALLINT, SQL_VARCHAR et SQL_DATETIME.</p></td>
 </tr>
 </tbody>

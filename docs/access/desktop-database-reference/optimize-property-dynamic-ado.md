@@ -1,5 +1,5 @@
 ---
-title: Optimize, propriété dynamique (ADO)
+title: Optimiser la propriété dynamique (ADO)
 TOCTitle: Optimize dynamic property (ADO)
 ms:assetid: 2253b052-2d8a-f6f0-f8b8-f56e79d243de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249001(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11bb7872514a828fdd97fb404f5366c35ff9a883
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709410"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288251"
 ---
-# <a name="optimize-dynamic-property-ado"></a>Optimize, propriété dynamique (ADO)
+# <a name="optimize-dynamic-property-ado"></a>Optimiser la propriété dynamique (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique s'il est nécessaire de créer un index sur un champ.
 

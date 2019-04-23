@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c37c1257ad3f3cb046f7faf82ffcb93f067b1ff5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283372"
 ---
 # <a name="ado-event-handler-summary"></a>Résumé du gestionnaire d’événements ADO
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Deux objets ADO peuvent déclencher des événements : l'objet [Connection](connection-object-ado.md) et l'objet [Recordset](recordset-object-ado.md). La famille **ConnectionEvent** est liée aux opérations sur l'objet **Connection** et la famille **RecordsetEvent** aux opérations sur l'objet **Recordset**.
 
 - **Événements Connection**: événements déclenchés lorsqu'une transaction sur une connexion est exécutée, validée ou annulée, lorsqu'un objet [Command](command-object-ado.md) est exécuté, lorsqu'un avertissement est émis au cours d'une opération sur un **événement Connection** ou lorsqu'un objet **Connection** est établi ou fermé.
 
-- **Événements Recordset**: événements sont émises autour des opérations d’extraction asynchrone, ainsi que lorsque vous naviguez dans les lignes d’un objet **Recordset** , modifiez un champ dans une ligne d’un **jeu d’enregistrements**, modifier une ligne dans un **jeu d’enregistrements**, ouvrez un ** Jeu d’enregistrements** avec un curseur côté serveur, fermer un **jeu d’enregistrements**ou modifier une quelconque dans le **jeu d’enregistrements**.
+- **Recordset Events**: Events are issued around asynchronous fetch operations as well as when you navigate through the rows of a **Recordset** object, change a field in a row of a **Recordset**, change a row in a **Recordset**, open a **Recordset** with a server-side cursor, close a **Recordset**, or make any change whatsoever in the **Recordset**.
 
 Les tableaux suivants présentent et décrivent les événements.
 
@@ -40,19 +40,19 @@ Les tableaux suivants présentent et décrivent les événements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete</p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">BeginTransComplete</a>, CommitTransComplete, RollbackTransComplete,</p></td>
 <td><p><strong>Gestion des transactions</strong>  : notification signalant que la transaction active sur la connexion a été lancée, validée ou annulée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, déconnecter</a></p></td>
+<td><p><a href="willconnect-event-ado.md">WillConnect</a>, <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete, Disconnect</a></p></td>
 <td><p><strong>Gestion des connexions</strong>  : notification signalant que la connexion active va être établie, qu'elle est établie ou qu'elle est terminée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willexecute-event-ado.md">WillExecute</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
+<td><p><a href="willexecute-event-ado.md">WillExecute,</a>, <a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
 <td><p><strong>Gestion de l'exécution des commandes</strong>  : notification signalant que l'exécution de la commande active sur la connexion va être effectuée ou qu'elle est terminée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="infomessage-event-ado.md">InfoMessage</a></p></td>
+<td><p><a href="infomessage-event-ado.md">InfoMessage,</a></p></td>
 <td><p><strong>Informatif</strong>  : notification signalant que des informations supplémentaires sont disponibles concernant l'opération active.</p></td>
 </tr>
 </tbody>
@@ -72,7 +72,7 @@ Les tableaux suivants présentent et décrivent les événements.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a>, <a href="fetchcomplete-event-ado.md">événement FetchComplete</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a>, <a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
 <td><p><strong>État d'extraction</strong>  : notification de la progression d'une opération d'extraction de données ou de la fin d'une opération d'extraction. Ces événements ne sont déclenchés que si l'objet <strong>Recordset</strong> a été ouvert à l'aide d'un curseur côté client.</p></td>
 </tr>
 <tr class="even">
@@ -80,7 +80,7 @@ Les tableaux suivants présentent et décrivent les événements.
 <td><p><strong>Gestion des modifications des champs</strong>  : notification signalant que la valeur du champ actif va changer ou qu'elle a changé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">événement EndOfRecordset</a></p></td>
+<td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove, MoveComplete</a>, <a href="endofrecordset-event-ado.md">EndOfRecordset</a></p></td>
 <td><p><strong>Gestion de la navigation</strong>  : notification signalant que la position de la ligne active dans un objet <strong>Recordset</strong> va changer, qu'elle a changé ou qu'elle a atteint la fin de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">

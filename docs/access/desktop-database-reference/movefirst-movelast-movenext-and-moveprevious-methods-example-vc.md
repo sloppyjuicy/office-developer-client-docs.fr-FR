@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d8da02821ccb6d1066288b69d2698971aeb00e2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288756"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-example-vc"></a>MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise les méthodes [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) et [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) pour déplacer le pointeur d'un enregistrement d'un objet [Recordset](recordset-object-ado.md) selon la commande fournie. La fonction MoveAny est nécessaire à l'exécution de cet exemple.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 40ce95c5879f5da9615c66d132d6c4847fae1569
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288643"
 ---
 # <a name="named-commands"></a>Commandes nommées
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez définir la propriété **Name** d'un objet **Command**, puis exécuter la commande en l'invoquant comme s'il s'agissait d'une méthode de la propriété **ActiveConnection** de l'objet **Command**. Ce cas de figure est illustré dans l'exemple qui suit, où la commande est appelée *GetCustomers*. Notez que le code transfère un objet **Recordset** déclaré et instancié à la « méthode » GetCustomers. Vous pouvez également transférer des paramètres à la « méthode » s'ils sont requis par la **commande**.
 

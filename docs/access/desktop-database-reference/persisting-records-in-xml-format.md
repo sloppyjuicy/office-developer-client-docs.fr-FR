@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 10a5651c74580950810211c4f71e19fc80a16a95
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287565"
 ---
 # <a name="persisting-records-in-xml-format"></a>Persistance des enregistrements au format XML
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 À l'instar du format ADTG, la persistance des **jeux d'enregistrements** au format XML est mise en œuvre par le Microsoft OLE DB Persistence Provider. Ce fournisseur génère un jeu de lignes à défilement vers l'avant uniquement et en lecture seule à partir d'un fichier ou flux XML contenant les informations de schéma générées par ADO. De la même manière, il prend un **jeu d'enregistrements** ADO, génère un code XML et l'enregistre dans un fichier ou tout objet implémentant l'interface COM **IStream**. (En fait, un fichier est juste un autre exemple d'objet prenant en charge **IStream**.) Pour les versions 2.5 et ultérieures, ADO repose sur le parseur Microsoft XML (MSXML) pour charger le code XML dans le **jeu d'enregistrements**; par conséquent msxml.dll est indispensable. Pour la version 2.5, MSXML est fourni avec Internet Explorer 5. Pour la version 2.6, MSXML est fourni avec SQL Server 2000.
 
@@ -55,7 +55,7 @@ rs.Open "titles.sav",,,,adCmdFile
 rs2.open s 
 ```
 
-ADO conserve toujours l’ensemble de l’objet **Recordset** . Si vous souhaitez conserver uniquement un sous-ensemble de lignes de l’objet **Recordset** , utilisez la méthode **Filter** pour cibler les lignes ou modifier la clause de sélection. Toutefois, vous devez ouvrir un objet **Recordset** avec un curseur côté client (**CursorLocation** = **adUseClient**) d’utiliser la méthode de **filtre** pour l’enregistrement d’un sous-ensemble de lignes. Par exemple, pour extraire des titres commençant par la lettre « b », vous pouvez appliquer un filtre à un objet **Recordset** ouvert :
+ADO always persists the entire **Recordset** object. If you wish to only persist a subset of rows of the **Recordset** object, use the **Filter** method to narrow down the rows or change your selection clause. Toutefois, vous devez ouvrir un **** objet Recordset avec un curseur côté client (**CursorLocation** = **adUseClient**) pour utiliser la méthode **Filter** pour enregistrer un sous-ensemble de lignes. For example, to retrieve titles that start with the letter "b," you can apply a filter to an open **Recordset** object:
 
 ```vb 
  
@@ -65,24 +65,24 @@ rs.Save "btitles.sav", adPersistXML
 
 ADO utilise toujours le jeu de lignes du moteur du curseur client pour générer un objet **Recordset** avec défilement et signet en plus des données à défilement vers l'avant uniquement générées par le Fournisseur de persistance.
 
-Cette section comprend les rubriques suivantes :
+Cette section contient les rubriques suivantes :
 
-- [Format de persistance XML](xml-persistence-format.md)
+- [XML Persistence Format](xml-persistence-format.md)
 
 - [Namespaces](namespaces.md)
 
-- [Section de schéma](schema-section.md)
+- [Schema Section](schema-section.md)
 
-- [Section des données](data-section.md)
+- [Data Section](data-section.md)
 
-- [Recordsets hiérarchiques au format XML](hierarchical-recordsets-in-xml.md)
+- [Hierarchical Recordsets in XML](hierarchical-recordsets-in-xml.md)
 
-- [Propriétés dynamiques du jeu d’enregistrements au format XML](recordset-dynamic-properties-in-xml.md)
+- [Recordset Dynamic Properties in XML](recordset-dynamic-properties-in-xml.md)
 
-- [Transformations XSLT](xslt-transformations.md)
+- [XSLT Transformations](xslt-transformations.md)
 
-- [Enregistrement dans un objet XML DOM](saving-to-the-xml-dom-object.md)
+- [Saving to the XML DOM Object](saving-to-the-xml-dom-object.md)
 
-- [Considérations de sécurité XML](xml-security-considerations.md)
+- [XML Security Considerations](xml-security-considerations.md)
 
 - [XML Recordset Persistence Scenario Topics](xml-recordset-persistence-scenario.md)

@@ -8,19 +8,19 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 11e7cecc48ea8908b3784796416dfc3a4af95cdf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280676"
 ---
 # <a name="activecommand-property-example-vc"></a>ActiveCommand, propriété – Exemple (VC++)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [ActiveCommand ](activecommand-property-ado.md).
+Cet exemple illustre la propriété  [ActiveCommand ](activecommand-property-ado.md).
 
-Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d'afficher le texte et le paramètre de la commande, qui ont servi à créer l'objet **Recordset**.
+Une sous-routine comprend un objet [Recordset](recordset-object-ado.md) dont la propriété **ActiveCommand** permet d’afficher le texte et le paramètre de la commande, qui ont servi à créer l’objet **Recordset**.
 
 ```cpp 
  

@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 55af2ce884b26b4c3df219e7d1986e7dc2e4c8ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288279"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic pour Applications (VBA) spécifique à une certaine procédure. Il peut s'agir d'une procédure Sub, d'une procédure Function ou d'une procédure événementielle.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
-L'action **OuvrirModuleVisualBasic** utilise les arguments suivants :
+L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom du module</strong></p></td>
-<td><p>Le nom du module que vous souhaitez ouvrir. Vous pouvez laisser cet argument vide si vous souhaitez rechercher tous les modules standard dans la base de données pour une procédure et ouvrez le module approprié dans cette procédure. Si vous exécutez une macro contenant l’action <strong>OuvrirModuleVisualBasic</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord le module portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom du module à ouvrir. Vous pouvez laisser cet argument vide pour rechercher tous les modules standard dans la base de données pour une procédure et ouvrir le module approprié celle-ci. Si vous exécutez une macro contenant l’action <strong>OuvrirModuleVisualBasic</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord le module portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la procédure</strong></p></td>
@@ -55,12 +55,12 @@ L'action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Vous devez entrer un nom valide dans l'argument **Nom du module** ou **Nom de la procédure**.
+> Vous devez entrer un nom valide dans l’argument **Nom du module** ou **Nom de la procédure**.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour ouvrir la procédure d’événement **Click** du bouton ImpressionFacture du formulaire commandes, définissez l’argument **Nom du Module** sur **formulaire.commandes** et définissez l’argument **Nom de la procédure** à **ImprimerFacture\_cliquez sur**. Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
+Vous pouvez utiliser cette action pour ouvrir une procédure événementielle en spécifiant les arguments **Nom du module** et **Nom de la procédure**. Par exemple, pour ouvrir la procédure événementielle **Click** du bouton PrintInvoice du formulaire commandes, définissez l'argument **nom du module** sur **formulaire. Orders** et définissez l'argument nom de la **procédure** sur **PrintInvoice\_**. Pour afficher la procédure événementielle d'un formulaire ou d'un état, celui-ci doit être ouvert.
 
 De même, pour ouvrir une procédure dans un module de classe, vous devez spécifier le nom du module, bien que celui-ci ne doit pas être ouvert.
 

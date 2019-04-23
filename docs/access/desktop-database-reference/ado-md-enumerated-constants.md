@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 02a31dd9a3e2aa14e9e77de75aa600ff876a5ac7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704888"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283302"
 ---
 # <a name="ado-md-enumerated-constants"></a>Constantes énumérées MD ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Pour faciliter le débogage, les constantes énumérées ADO MD répertorient une valeur pour chaque constante. Cependant, cette valeur est purement indicative et peut changer d'une version d'ADO MD à l'autre. Votre code doit uniquement dépendre du nom, et non de la valeur réelle, des constantes énumérées.
 
-L’énumération suivante est définie :
+L'énumération suivante est définie:
 
 - [MemberTypeEnum](membertypeenum.md)
 

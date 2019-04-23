@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1d4f4777d904cd9078217e179bcebb31b7b6a1d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288321"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema, méthode – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple utilise la méthode [OpenSchema](openschema-method-ado.md) pour afficher le nom et le type de chaque table de la base de données ***Pubs***.
 
@@ -78,7 +78,7 @@ End Sub
 
 <br/>
 
-Cet exemple spécifie un tableau\_contrainte de requête de TYPE dans la méthode **OpenSchema** argument ***critère*** . Par conséquent, seules les informations de schéma des affichages spécifiés dans la base de données ***Pubs*** sont renvoyés. L'exemple affiche ensuite le nom et le type des différentes tables.
+Cet exemple spécifie une\_contrainte de requête de type table dans l'argument ***critère*** de la méthode **OpenSchema** . Seules les informations de schéma des affichages spécifiés dans la base de données  ***Pubs *** sont affichées. L'exemple affiche ensuite le nom et le type des différentes tables.
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: MemberTypeEnum (référence de base de données du bureau Access)
+title: MemberTypeEnum (référence de base de données de bureau Access)
 TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 82d507457d9242daa92cc0218c87bae4d82759a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289202"
 ---
 # <a name="membertypeenum"></a>MemberTypeEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d'un objet [Member](member-object-ado-md.md).
+Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d’un objet [Member](member-object-ado-md.md).
 
 <br/>
 
@@ -48,12 +48,12 @@ Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d'un
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberMeasure</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Indique que l'objet <strong>Member</strong> appartient à la dimension Measures et représente un attribut quantitatif.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMemberRegular</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Valeur par défaut. Indique que l'objet <strong>Member</strong> représente une instance d'une entité métier.</p></td>
 </tr>
 <tr class="odd">

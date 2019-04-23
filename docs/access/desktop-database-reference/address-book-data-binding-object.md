@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7fb5302d1c2b8e4eebb6dbe1a5906459834b8e41
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281866"
 ---
 # <a name="address-book-data-binding-object"></a>Objet de liaison de données du carnet d’adresses
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'application Carnet d'adresses utilise l'objet [RDS.DataControl](datacontrol-object-rds.md) pour lier les données de la base de données SQL Server à un objet visuel (dans le cas présent, un tableau DHTML) dans la page HTML cliente de l'application. La logique de programmation événementielle de VBScript utilise l'objet [RDS.DataControl](datacontrol-object-rds.md) pour :
 
@@ -54,17 +54,17 @@ Le tableau suivant décrit les paramètres associés à la balise OBJECT.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><em>CLASSID</em></strong></p></td>
+<td><p><strong><em>DHCPv6</em></strong></p></td>
 <td><p>Nombre 128 bits unique qui permet au système d’identifier le type d’objet incorporé. Cet identificateur est conservé dans le Registre système de l’ordinateur local. (Pour en savoir plus sur les ID de classe de l’objet <strong>RDS.DataControl</strong>, consultez <a href="datacontrol-object-rds.md">RDS.DataControl, objet</a>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><em>ID</em></strong></p></td>
+<td><p><strong><em>Réf</em></strong></p></td>
 <td><p>Définit un identificateur de niveau document permettant d'identifier l'objet incorporé dans le code.</p></td>
 </tr>
 </tbody>
@@ -73,7 +73,7 @@ Le tableau suivant décrit les paramètres associés à la balise OBJECT.
 
 ## <a name="rdsdatacontrol-tag-parameters"></a>Paramètres de la balise RDS.DataControl
 
-Le tableau suivant décrit les paramètres spécifiques à l'objet **RDS.DataControl**. (Pour obtenir une liste complète des paramètres de l'objet **RDS.DataControl** et savoir quand les implémenter, consultez [RDS.DataControl, objet](datacontrol-object-rds.md)).
+Le tableau suivant décrit les paramètres spécifiques à l’objet **RDS.DataControl**. (Pour obtenir une liste complète des paramètres de l’objet **RDS.DataControl** et savoir quand les implémenter, consultez [RDS.DataControl, objet](datacontrol-object-rds.md)).
 
 <table>
 <colgroup>
@@ -82,17 +82,17 @@ Le tableau suivant décrit les paramètres spécifiques à l'objet **RDS.DataCon
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">SERVEUR</a></p></td>
-<td><p>Si vous utilisez HTTP, la valeur est le nom de l’ordinateur serveur précédé par https://.</p></td>
+<td><p><a href="server-property-rds.md">SERVEURS</a></p></td>
+<td><p>Si vous utilisez le protocole HTTP, la valeur est le nom de l'ordinateur serveur précédé par https://.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="connect-property-rds.md">SE CONNECTER</a></p></td>
+<td><p><a href="connect-property-rds.md">CONNEXIONS</a></p></td>
 <td><p>Fournit les informations de connexion nécessaires pour la connexion de l'objet <strong>RDS.DataControl</strong> à SQL Server.</p></td>
 </tr>
 <tr class="odd">

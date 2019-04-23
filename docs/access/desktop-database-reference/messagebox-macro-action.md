@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1175e3903e54fd3420be43dfd9e3652d9990468b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289155"
 ---
 # <a name="messagebox-macro-action"></a>MessageBox, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l’action de **contrôle zonemessage** pour afficher une boîte de message contenant un avertissement ou un message d’information. Par exemple, vous pouvez utiliser l’action de **contrôle zonemessage** avec des macros de validation. Lorsqu’un contrôle ou un enregistrement échoue une condition de validation de la macro, une boîte de message peut afficher un message d’erreur et fournissent des instructions sur le type de données qui doivent être saisies.
+Vous pouvez utiliser l'action **MessageBox** pour afficher un message contenant un avertissement ou un message d'information. Par exemple, vous pouvez utiliser l'action **MessageBox** avec des macros de validation. Lorsqu'un contrôle ou un enregistrement ne remplit pas une condition de validation dans la macro, une boîte de message peut afficher un message d'erreur et fournir des instructions sur le type de données à entrer.
 
 ## <a name="setting"></a>Setting
 
-L’action de **contrôle zonemessage** possède les arguments suivants.
+L'action **MessageBox** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -38,19 +38,19 @@ L’action de **contrôle zonemessage** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Message</strong></p></td>
-<td><p>Le texte dans la boîte de message. Entrez le texte du message dans la boîte de <strong>Message</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro. Vous pouvez taper jusqu'à 255 caractères ou entrer une expression (précédée d’un signe égal).</p></td>
+<td><p>Texte de la zone de message. Entrez le texte du message dans la zone de <strong>message</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro. Vous pouvez taper jusqu'à 255 caractères ou entrer une expression (précédée d'un signe égal).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Beep</strong></p></td>
-<td><p>Spécifie si le haut-parleur de votre ordinateur émet un signal sonore lorsque le message s’affiche. Cliquez sur <strong>Oui</strong> (pour émettre un bip sonore) ou <strong>non</strong> (ne pas émettre le signal sonore). La valeur par défaut est <strong>Oui</strong>.</p></td>
+<td><p>Indique si le haut-parleur de votre ordinateur émet une tonalité lorsque le message s'affiche. Cliquez sur <strong>Oui</strong> (émettre un signal sonore) ou sur <strong>non</strong> (ne pas émettre de signal sonore). La valeur par défaut est <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Type</strong></p></td>
-<td><p>Le type de boîte de message. Chaque type a une autre icône. Cliquez sur <strong>Aucun</strong>, <strong>critique</strong>, <strong>Avertissement ?</strong>, <strong>Avertissement !</strong>, ou les <strong>informations</strong>. La valeur par défaut est <strong>None</strong>.</p></td>
+<td><p>Type de boîte de message. Chaque type possède une icône différente. Cliquez sur <strong>aucun</strong>, <strong>critique</strong>, <strong>Avertissement?</strong>, <strong>Avertissement!</strong>ou <strong>informations</strong>. La valeur par défaut est <strong>aucun</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Titre</strong></p></td>
-<td><p>Le texte affiché dans la barre de titre de boîte de message. Par exemple, vous pouvez avoir l’affichage de barre de titre &quot;Validation du code client&quot;. Si vous laissez cet argument vide, &quot;Microsoft Access&quot; s’affiche.</p></td>
+<td><p>Texte affiché dans la barre de titre de la zone de message. Par exemple, vous pouvez faire en sorte que la &quot;barre de titre&quot;affiche la validation de l'ID client. Si vous laissez cet argument vide, &quot;Microsoft Access&quot; s'affiche.</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,15 +58,15 @@ L’action de **contrôle zonemessage** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l’action de **contrôle zonemessage** pour créer un message d’erreur formaté semblable aux messages d’erreur intégrés affichés par Microsoft Access. L’action de **contrôle zonemessage** vous permet de fournir un message en trois sections pour l’argument Message. Séparez les sections avec le « @ » caractères.
+Vous pouvez utiliser l'action **MessageBox** pour créer un message d'erreur mis en forme de la même manière que les messages d'erreur intégrés affichés par Microsoft Access. L'action **MessageBox** vous permet de fournir un message dans trois sections pour l'argument message. Vous séparez les sections avec le caractère «@».
 
-L’exemple suivant affiche un message mis en forme avec un message en plusieurs parties. La première section de texte dans le message s’affiche sous forme de titre en gras. La deuxième section s’affiche sous forme de texte brut sous cet en-tête. La troisième section s’affiche en texte simple sous la seconde section, avec une ligne vide entre eux.
+L'exemple suivant affiche une boîte de message mise en forme avec un message de section. La première section du texte du message est affichée sous la forme d'un en-tête en gras. La deuxième section est affichée sous forme de texte brut sous cet en-tête. La troisième section est affichée sous forme de texte brut sous la deuxième section, avec une ligne vide entre elles.
 
-Tapez la chaîne suivante dans l’argument **Message** :
+Tapez la chaîne suivante dans l'argument **message** :
 
-**Mauvais bouton\!@This bouton ne work.@Try une autre.**
+**Bouton\!incorrect @This bouton ne fonctionne pas. @Try un autre.**
 
-Vous ne pouvez pas exécuter l’action de **contrôle zonemessage** dans un module Visual Basic pour Applications (VBA). Utilisez la fonction **MsgBox** .
+Vous ne pouvez pas exécuter l'action **MessageBox** dans un module Visual Basic pour applications (VBA). Utilisez la fonction **MsgBox** à la place.
 
 ## <a name="examples"></a>Exemples
 
@@ -97,9 +97,9 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 <td><p>Arrêter l'actualisation de l'écran pendant l'exécution de la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p>IsNull([N° fournisseur])</p></td>
-<td><p><strong>ZoneMessage</strong></p></td>
-<td><p><strong>Message</strong>: Passez à l'enregistrement du fournisseur dont vous voulez voir les produits, puis cliquez à nouveau sur le bouton Consulter les produits. <strong>Bip</strong>: <strong>YesType</strong>: <strong>NoneTitle</strong>: sélectionnez un fournisseur</p></td>
+<td><p>IsNull ([n ° fournisseur])</p></td>
+<td><p><strong>MessageBox</strong></p></td>
+<td><p><strong>Message</strong>: Passez à l'enregistrement du fournisseur dont vous voulez voir les produits, puis cliquez à nouveau sur le bouton Consulter les produits. <strong>Bip</strong>: <strong>YesType</strong>: <strong>aucuntitre</strong>: sélectionnez un fournisseur</p></td>
 <td><p>S'il n'existe aucun fournisseur actif dans le formulaire Fournisseurs, afficher un message.</p></td>
 </tr>
 <tr class="odd">
@@ -110,20 +110,20 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 </tr>
 <tr class="even">
 <td><p>...</p></td>
-<td><p><strong>ArrêtMacro</strong></p></td>
+<td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
 <td><p>Arrêter la macro.</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: produit liste <strong>affichage</strong>: <strong>DatasheetFilter nom</strong>: <strong>Condition Where</strong>: [n° fournisseur] = [Forms] ! [Fournisseurs] ! [N° fournisseur] <strong>Mode données</strong>: <strong>Le Mode lecture OnlyWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: liste des produits <strong>affichage</strong>: <strong>nom donnéesnom du filtre</strong>: <strong>condition WHERE</strong>: [n ° fournisseur] = [Forms]! [Fournisseurs]! Fournisseur <strong>Mode données</strong>: <strong>mode lecture seulemode fenêtre</strong>: <strong>normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>
 <tr class="even">
 <td><p></p></td>
-<td><p><strong>DéplacerEtDimensionnerFenêtre</strong></p></td>
-<td><p><strong>Droite</strong>: 0.7799&quot; <strong>vers le bas</strong>: 1,8&quot;</p></td>
+<td><p><strong>Déplaceretdimensionnerfenêtre</strong></p></td>
+<td><p><strong>droite</strong>: 0,7799&quot; <strong>bas</strong>: 1,8&quot;</p></td>
 <td><p>Positionnez le formulaire Liste de produits dans le coin inférieur droit du formulaire Fournisseurs.</p></td>
 </tr>
 </tbody>
@@ -132,7 +132,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 
 **Valider des données à l’aide d’une macro**
 
-La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l'utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n’est pas dans le format approprié pour le pays/région, la macro affiche une boîte de message et annule l’enregistrement. Elle vous renvoie ensuite au contrôle de code postal, où vous pouvez corriger l’erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
+La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l’utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n'est pas au format approprié pour le pays/la région, la macro affiche une zone de message et annule l'enregistrement de l'enregistrement. Elle vous renvoie ensuite au contrôle CodePostal, dans lequel vous pouvez corriger l'erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
 
 <table>
 <colgroup>
@@ -151,15 +151,15 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([CountryRegion])</p></td>
+<td><p>IsNull ([PaysRégion])</p></td>
 <td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
-<td><p>Si PaysRégion est <strong>Null</strong>, le code postal ne peut pas être validé.</p></td>
+<td><p>Si PaysRégion a la <strong>valeur null</strong>, le code postal ne peut pas être validé.</p></td>
 </tr>
 <tr class="even">
-<td><p>[PaysRégion] Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et Len([PostalCode]) &lt; &gt; 5</p></td>
+<td><p>Région In (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et Len ([CodePostal]) &lt; &gt; 5</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: le code postal doit contenir 5 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
+<td><p><strong>Message</strong>: le code postal doit comporter 5 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
 <td><p>Si le code postal ne contient pas 5 caractères, affiche un message.</p></td>
 </tr>
 <tr class="odd">
@@ -171,13 +171,13 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nom du contrôle</strong>: CodePostal</p></td>
+<td><p><strong>Nom du contrôle</strong>: PostalCode</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[PaysRégion] Dans (&quot;Australie&quot;,&quot;Singapour&quot;) et Len([PostalCode]) &lt; &gt; 4</p></td>
+<td><p>Région En (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([CodePostal]) &lt; &gt; 4</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: le code postal doit contenir 4 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
+<td><p><strong>Message</strong>: le code postal doit contenir 4 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
 <td><p>Si le code postal ne contient pas 4 caractères, affiche un message.</p></td>
 </tr>
 <tr class="even">
@@ -189,13 +189,13 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nom du contrôle</strong>: CodePostal</p></td>
+<td><p><strong>Nom du contrôle</strong>: PostalCode</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([code postal] pas comme&quot;[A-Z] [0-9] [A-Z] [0-9] [A-Z] [0-9]&quot;)</p></td>
+<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([CodePostal] non comme&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: le code postal n’est pas valide. Exemple de code canadien : H1J 1C3 <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
+<td><p><strong>Message</strong>: le code postal n'est pas valide. Exemple de code canadien: H1J 1C3 <strong>bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
 <td><p>Si le code postal n’est pas correct pour le Canada, affiche un message. (Exemple de code postal canadien : H1J 1C3.)</p></td>
 </tr>
 <tr class="odd">

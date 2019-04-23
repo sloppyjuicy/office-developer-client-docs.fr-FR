@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f4273d6858ad98b723d66ba32fe3b9aa7c902d31
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288356"
 ---
 # <a name="opendiagram-macro-action"></a>OpenDiagram, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirSchéma** pour ouvrir un schéma de base de données en mode Création.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
-L'action **OuvrirSchéma** possède l'argument suivant.
+L’action **OuvrirSchéma** possède l’argument suivant.
 
 <table>
 <colgroup>
@@ -45,12 +45,12 @@ L'action **OuvrirSchéma** possède l'argument suivant.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom du schéma</strong></p></td>
-<td><p>Le nom du schéma de base de données à ouvrir. La zone <strong>Nom du schéma</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche tous les schémas de base de données dans la base de données en cours. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirSchéma</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord le schéma portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom du schéma de base de données à ouvrir. La zone <strong>Nom du schéma</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche tous les schémas de base de données de la base de données active. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirSchéma</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord le schéma portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action équivaut à double-cliquer sur un schéma de base de données dans le volet de navigation ou à cliquer avec le bouton droit sur le schéma de base de données dans le volet de navigation, puis à cliquer sur **Mode Création**.
 

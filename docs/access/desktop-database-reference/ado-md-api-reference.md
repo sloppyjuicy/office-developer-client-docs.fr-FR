@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fa3221814839200117bbc5bc824812437d68281f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283309"
 ---
 # <a name="ado-md-api-reference"></a>Référence des API ADO MD
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cette section de la documentation ActiveX Data Objects (ADO) MD contient des rubriques pour chaque objet, collection, méthode et propriété ADO MD, ainsi qu’un exemple de code si nécessaire. Pour plus d'informations, recherchez une rubrique spécifique dans l'index ou reportez-vous aux rubriques suivantes :
+Cette section de la documentation ADO (ActiveX Data Objects) MD contient des rubriques pour chaque objet, collection, méthode et propriété ADO MD, ainsi qu'un exemple de code, le cas échéant. Pour plus d'informations, recherchez une rubrique précise dans l'index ou consultez les rubriques suivantes :
 
 - [Objets ADO MD](ado-md-objects.md)
 - [Collections ADO MD](ado-md-collections.md)

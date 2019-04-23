@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 05e5d3a77dc7db5ef5a0d81a3f13d5fc5987f5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283407"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes énumérées ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Pour faciliter le débogage, les énumérations ADO comportent une valeur pour chaque constante. Cependant, cette valeur est fournie uniquement à titre indicatif et peut changer d'une version d'ADO à une autre. Votre code doit dépendre uniquement du nom et non de la valeur réelle de chaque constante énumérée.
 
@@ -34,11 +34,11 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
-<td><p>Pour un objet <strong>Recordset</strong> RDS, spécifie la priorité d'exécution du thème asynchrone qui recherche des données.</p></td>
+<td><p>Pour un objet <strong>Recordset</strong> RDS, spécifie la priorité d'exécution du thread asynchrone qui extrait les données.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-autorecalc-enum.md">ADCPROP_AUTORECALC_ENUM</a></p></td>
-<td><p>Indique quand le fournisseur <strong>MSDataShape</strong> recalcule les colonnes regroupées et calculées dans un <strong>jeu d’enregistrements</strong>hiérarchique.</p></td>
+<td><p>Indique quand le fournisseur <strong>MSDataShape</strong> recalcule les colonnes regroupées et calculées dans un objet <strong>Recordset</strong> hiérarchique.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-updatecriteria-enum.md">ADCPROP_UPDATECRITERIA_ENUM</a></p></td>
@@ -46,7 +46,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-updateresync-enum.md">ADCPROP_UPDATERESYNC_ENUM</a></p></td>
-<td><p>Indique si la méthode <strong>UpdateBatch</strong> est suivie d'une opération implicite de la méthode <strong>Resync</strong> et, dans ce cas, la portée de cette opération.</p></td>
+<td><p>Indique si la méthode <strong>UpdateBatch</strong> est suivie par une opération implicite de la méthode <strong>Resync</strong> et, si c'est le cas, la portée de cette opération.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="affectenum.md">AffectEnum</a></p></td>
@@ -54,19 +54,19 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="bookmarkenum.md">BookmarkEnum</a></p></td>
-<td><p>Spécifie un signet indiquant où doit commencer l'opération.</p></td>
+<td><p>Spécifie un signet indiquant où l'opération doit commencer.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="commandtypeenum.md">CommandTypeEnum</a></p></td>
-<td><p>Spécifie comment interpréter un argument de commande.</p></td>
+<td><p>Indique comment un argument de commande doit être interprété.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="compareenum.md">CompareEnum</a></p></td>
-<td><p>Spécifie la position relative de deux enregistrements représentés par leurs signets.</p></td>
+<td><p>Indique la position relative de deux enregistrements représentés par leurs signets.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="connectmodeenum.md">ConnectModeEnum</a></p></td>
-<td><p>Spécifie les autorisations disponibles pour modifier les données dans une <strong>Connexion</strong>, en ouvrant un <strong>Enregistrement</strong>, ou en spécifiant des valeurs pour la propriété <strong>Mode</strong> de l' <strong>Enregistrement</strong> et des objets <strong>Stream</strong>.</p></td>
+<td><p>Spécifie les autorisations disponibles pour modifier les données dans un objet <strong>Connection</strong>, ouvrir un objet <strong>Record</strong> ou spécifier des valeurs pour la propriété <strong>Mode</strong> des objets <strong>Record</strong> et <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connectoptionenum.md">ConnectOptionEnum</a></p></td>
@@ -78,7 +78,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="copyrecordoptionsenum.md">CopyRecordOptionsEnum</a></p></td>
-<td><p>Spécifie le fonctionnement de la méthode <strong>CopyRecord</strong>.</p></td>
+<td><p>Spécifie le comportement de la méthode <strong>CopyRecord</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocationenum.md">CursorLocationEnum</a></p></td>
@@ -86,7 +86,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="cursoroptionenum.md">CursorOptionEnum</a></p></td>
-<td><p>Spécifie la fonctionnalité que la méthode <strong>Supports</strong> doit tester.</p></td>
+<td><p>Spécifie la fonctionnalité pour laquelle la méthode <strong>Supports</strong> doit effectuer un test.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursortypeenum.md">CursorTypeEnum</a></p></td>
@@ -94,11 +94,11 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="datatypeenum.md">DataTypeEnum</a></p></td>
-<td><p>Spécifie le type de données d'un <strong>Champ</strong>, d'un <strong>Paramètre</strong> ou d'une <strong>Propriété</strong>.</p></td>
+<td><p>Spécifie le type de données d'un objet <strong>Field</strong>, <strong>Parameter</strong> ou <strong>Property</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmodeenum.md">EditModeEnum</a></p></td>
-<td><p>Spécifie l'état d'édition d'un enregistrement.</p></td>
+<td><p>Spécifie l'état de modification d'un enregistrement.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="errorvalueenum.md">ErrorValueEnum</a></p></td>
@@ -106,19 +106,19 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="odd">
 <td><p><a href="eventreasonenum.md">EventReasonEnum</a></p></td>
-<td><p>Spécifie la cause à l'origine d'un événement.</p></td>
+<td><p>Indique la raison qui a déclenché un événement.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="eventstatusenum.md">EventStatusEnum</a></p></td>
-<td><p>Spécifie l'état en cours de l'exécution d'un événement.</p></td>
+<td><p>Spécifie l'état actuel de l'exécution d'un événement.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="executeoptionenum.md">ExecuteOptionEnum</a></p></td>
-<td><p>Spécifie la manière dont un fournisseur doit exécuter une commande.</p></td>
+<td><p>Indique comment un fournisseur doit exécuter une commande.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="fieldenum.md">FieldEnum</a></p></td>
-<td><p>Spécifie les champs spéciaux référencés dans une collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
+<td><p>Spécifie les champs spéciaux référencés dans la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="fieldattributeenum.md">FieldAttributeEnum</a></p></td>
@@ -130,31 +130,31 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="odd">
 <td><p><a href="filtergroupenum.md">FilterGroupEnum</a></p></td>
-<td><p>Spécifie le groupe d'enregistrements à filtrer depuis un objet <strong>Recordset</strong>.</p></td>
+<td><p>Spécifie le groupe d'enregistrements à filtrer à partir d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="getrowsoptionenum.md">GetRowsOptionEnum</a></p></td>
-<td><p>Spécifie le nombre d'enregistrements à extraire depuis un objet <strong>Recordset</strong>.</p></td>
+<td><p>Spécifie le nombre d'enregistrements à extraire d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="isolationlevelenum.md">IsolationLevelEnum</a></p></td>
-<td><p>Spécifie le niveau d'isolement de transaction d'un objet <strong>Connection</strong>.</p></td>
+<td><p>Spécifie le niveau d'isolation des transactions d'un objet <strong>Connection </strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lineseparatorsenum.md">LineSeparatorsEnum</a></p></td>
-<td><p>Spécifie le caractère utilisé comme séparateur de ligne dans les objets texte <strong>Stream</strong>.</p></td>
+<td><p>Spécifie le caractère utilisé comme séparateur de ligne dans les objets <strong>Stream</strong> de type texte.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="locktypeenum.md">LockTypeEnum</a></p></td>
-<td><p>Spécifie le type de verrouillage appliqué aux enregistrements pendant l'édition.</p></td>
+<td><p>Spécifie le type de verrou appliqué aux enregistrements pendant l'édition.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="marshaloptionsenum.md">MarshalOptionsEnum</a></p></td>
-<td><p>Spécifie les enregistrements qui doivent être renvoyés au serveur.</p></td>
+<td><p>Spécifie les enregistrements qui doivent être retournés au serveur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="moverecordoptionsenum.md">MoveRecordOptionsEnum</a></p></td>
-<td><p>Spécifie le fonctionnement de la méthode <strong>MoveRecord</strong> de l'objet <strong>Record</strong> .</p></td>
+<td><p>Spécifie le comportement de la méthode <strong>MoveRecord</strong> de l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="objectstateenum.md">ObjectStateEnum</a></p></td>
@@ -162,7 +162,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="odd">
 <td><p><a href="parameterattributesenum.md">ParameterAttributesEnum</a></p></td>
-<td><p>Spécifie les attributs d'un objet <strong>Parameter</strong>.</p></td>
+<td><p>Spécifie les attributs d'un objet <strong>Parameter </strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="parameterdirectionenum.md">ParameterDirectionEnum</a></p></td>
@@ -170,11 +170,11 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="odd">
 <td><p><a href="persistformatenum.md">PersistFormatEnum</a></p></td>
-<td><p>Spécifie le format dans lequel enregistrer un objet <strong>Recordset</strong>.</p></td>
+<td><p>Spécifie le format dans lequel un objet <strong>Recordset</strong> doit être enregistré.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="positionenum.md">PositionEnum</a></p></td>
-<td><p>Spécifie la position en cours du pointeur de l'enregistrement dans un objet <strong>Recordset</strong>.</p></td>
+<td><p>Spécifie la position actuelle du pointeur d'enregistrement dans un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="propertyattributesenum.md">PropertyAttributesEnum</a></p></td>
@@ -190,7 +190,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="recordstatusenum.md">RecordStatusEnum</a></p></td>
-<td><p>Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres opérations globales de ce type.</p></td>
+<td><p>Spécifie l'état d'un enregistrement concernant les mises à jour par lot et tout autre opération en bloc.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordtypeenum.md">RecordTypeEnum</a></p></td>
@@ -198,7 +198,7 @@ Pour faciliter le débogage, les énumérations ADO comportent une valeur pour c
 </tr>
 <tr class="even">
 <td><p><a href="resyncenum.md">ResyncEnum</a></p></td>
-<td><p>Spécifie si les valeurs sous-jacentes sont remplacées par un appel à <strong>Resync</strong>.</p></td>
+<td><p>Indique si des valeurs sous-jacentes sont remplacées par un appel à la méthode <strong>Resync</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="saveoptionsenum.md">SaveOptionsEnum</a></p></td>

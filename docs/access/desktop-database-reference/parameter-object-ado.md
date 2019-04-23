@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d6f3acd4af280f30706e35eb7ecda1dee11aa7d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288076"
 ---
 # <a name="parameter-object-ado"></a>Parameter, objet (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un paramètre ou un argument associé à un objet [Command](command-object-ado.md) basé sur une requête paramétrée ou sur une procédure stockée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 De nombreux fournisseurs prennent en charge les commandes paramétrées. Ces dernières sont des commandes dans lesquelles l'action désirée est définie une fois, mais qui comportent des variables (ou paramètres) permettant d'en modifier certains aspects. Par exemple, une instruction SQL SELECT peut utiliser un paramètre pour définir les critères de correspondance d'une clause WHERE, et un autre définissant le nom de colonne pour une clause SORT BY.
 

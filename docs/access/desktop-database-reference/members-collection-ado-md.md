@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: adc8ed771bcba6a4b6532b33b27980f8aab695c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289240"
 ---
 # <a name="members-collection-ado-md"></a>Members, collection (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient les objets [Member](member-object-ado-md.md) d'un niveau ou d'une position le long d'un axe.
+Contient les objets [Member](member-object-ado-md.md) d’un niveau ou d’une position le long d’un axe.
 
 ## <a name="remarks"></a>Remarques
 
-Une collection **Members** permet de contenir les types de membres suivants :
+Une collection **Members** permet de contenir les types de membres suivants :
 
   - Les membres constituant un niveau dans un cube. Ils figurent dans la collection **Members** d'un objet [Level](level-object-ado-md.md). Par exemple, dans le cadre de l'exemple de la rubrique [Présentation des schémas et données multidimensionnels](overview-of-multidimensional-schemas-and-data.md), les quatre membres du niveau Pays sont Canada, USA, UK et Germany.
 

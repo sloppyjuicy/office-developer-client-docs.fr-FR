@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6a7f756af1422588d99fcffe1ae1413422131b70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283393"
 ---
 # <a name="ado-error-reference"></a>Référence des erreurs ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obtenir le listing complet de ces constantes énumérées, notamment les valeurs, consultez l' [Annexe B : Erreurs ADO](appendix-b-ado-errors.md). Cette section analyse les erreurs les plus intéressantes et explique certaines situations susceptibles de les déclencher ou des solutions pour les résoudre. La constante **ErrorValueEnum** et le nombre décimal positif court sont tous deux répertoriés.
 
@@ -28,7 +28,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Numéro</p></th>
+<th><p>Nombre</p></th>
 <th><p>Constante ErrorValueEnum</p></th>
 <th><p>Description/causes possibles</p></th>
 </tr>
@@ -37,7 +37,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="odd">
 <td><p><strong>3000</strong></p></td>
 <td><p><strong>adErrProviderFailed</strong></p></td>
-<td><p>Le fournisseur n'a pas réussi à effectuer l'opération demandée.</p></td>
+<td><p>Le fournisseur n'a pas pu effectuer l'opération demandée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3001</strong></p></td>
@@ -62,17 +62,17 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3021</strong></p></td>
 <td><p><strong>adErrNoCurrentRecord</strong></p></td>
-<td><p><strong>BOF</strong> ou <strong>EOF</strong> a la valeur True ou l’enregistrement actif a été supprimé. L’opération demandée nécessite un enregistrement actif. Une tentative a été effectuée pour mettre à jour des enregistrements à l’aide de <strong>Find</strong> ou <strong>Seek</strong> pour déplacer le pointeur d’enregistrement à l’enregistrement de votre choix. Si l’enregistrement est introuvable, <strong>EOF</strong> aura la valeur True. Cette erreur peut également se produire après l’échec de <strong>AddNew</strong> ou <strong>Supprimer</strong> car il n’existe aucun enregistrement actif lors de l’échouent de ces méthodes.</p></td>
+<td><p><strong>BOF</strong> ou <strong>EOF</strong> est égal à True ou l'enregistrement actuel a été supprimé. L'opération demandée nécessite un enregistrement actuel. Une mise à jour des enregistrements a été tentée à l'aide de la méthode <strong>Find</strong> ou <strong>Seek</strong> pour déplacer le pointeur sur l'enregistrement souhaité. Si l'enregistrement est introuvable, <strong>EOF</strong> aura la valeur True. Cette erreur peut se produire après l'échec de <strong>AddNew</strong> ou <strong>Delete</strong> car il n'y a pas d'enregistrement actif en cas d'échec de ces méthodes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3219</strong></p></td>
 <td><p><strong>adErrIllegalOperation</strong></p></td>
-<td><p>L'opération n'est pas autorisée dans ce contexte.</p></td>
+<td><p>L'opération est interdite dans ce contexte.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3220</strong></p></td>
 <td><p><strong>adErrCantChangeProvider</strong></p></td>
-<td><p>Le fournisseur indiqué est différent de celui utilisé.</p></td>
+<td><p>Le fournisseur proposé est différent du fournisseur en cours d'utilisation.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3246</strong></p></td>
@@ -92,7 +92,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3367</strong></p></td>
 <td><p><strong>adErrObjectInCollection</strong></p></td>
-<td><p>L'objet appartient déjà à la collection. Impossible de l'ajouter. Vous ne pouvez pas ajouter deux fois le même objet à la même collection.</p></td>
+<td><p>L'objet est déjà dans la collection. Impossible de l'ajouter. Vous ne pouvez pas ajouter deux fois le même objet à la même collection.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3420</strong></p></td>
@@ -117,7 +117,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="odd">
 <td><p><strong>3706</strong></p></td>
 <td><p><strong>adErrProviderNotFound</strong></p></td>
-<td><p>Impossible de trouver un fournisseur. Il ne peut pas être correctement installé. Il est possible que le nom du fournisseur spécifié soit incorrect, qu'il ne soit pas installé sur l'ordinateur exécutant votre code ou que l'installation ait été endommagée.</p></td>
+<td><p>Fournisseur introuvable. Son installation est peut-être incorrecte. Il est possible que le nom du fournisseur spécifié soit incorrect, qu'il ne soit pas installé sur l'ordinateur exécutant votre code ou que l'installation ait été endommagée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3707</strong></p></td>
@@ -132,7 +132,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3709</strong></p></td>
 <td><p><strong>adErrInvalidConnection</strong></p></td>
-<td><p>Cette opération ne peut utiliser la connexion. Dans ce contexte, elle est soit fermée, soit non valide.</p></td>
+<td><p>Cette opération ne peut utiliser la connexion. Elle est soit fermée, soit non valide dans ce contexte.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3710</strong></p></td>
@@ -142,7 +142,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3711</strong></p></td>
 <td><p><strong>adErrStillExecuting</strong></p></td>
-<td><p>Opération impossible avec une exécution asynchrone.</p></td>
+<td><p>L'opération est impossible lors d'une exécution asynchrone.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3712</strong></p></td>
@@ -157,27 +157,27 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="odd">
 <td><p><strong>3714</strong></p></td>
 <td><p><strong>adErrInvalidTransaction</strong></p></td>
-<td><p>La transaction de coordination n'est pas valide ou n'a pas été lancée.</p></td>
+<td><p>La transaction de coordination n'est pas valide ou elle n'a pas démarré.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3715</strong></p></td>
 <td><p><strong>adErrNotExecuting</strong></p></td>
-<td><p>L'opération ne peut s'effectuer que si elle est en cours d'exécution.</p></td>
+<td><p>L'opération est impossible sans exécution.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3716</strong></p></td>
 <td><p><strong>adErrUnsafeOperation</strong></p></td>
-<td><p>Les paramètres de sécurité de cet ordinateur interdisent l'accès à une source de données située sur un autre domaine.</p></td>
+<td><p>Les paramètres de sécurité de cet ordinateur empêchent d'accéder à une source de données d'un autre domaine.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3717</strong></p></td>
 <td><p><strong>adWrnSecurityDialog</strong></p></td>
-<td><p>Pour usage interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
+<td><p>Utilisation interne uniquement. Ne pas utiliser. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3718</strong></p></td>
 <td><p><strong>adWrnSecurityDialogHeader</strong></p></td>
-<td><p>Pour usage interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
+<td><p>Utilisation interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3719</strong></p></td>
@@ -202,17 +202,17 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3723</strong></p></td>
 <td><p><strong>adErrSignMismatch</strong></p></td>
-<td><p>La conversion a échoué car la valeur de donnée était signée alors que le type de données du champ utilisé par le fournisseur ne l'était pas.</p></td>
+<td><p>La conversion a échoué car la valeur des données a été signée, à la différence du type de données de champ utilisé par le fournisseur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3724</strong></p></td>
 <td><p><strong>adErrCantConvertvalue</strong></p></td>
-<td><p>La valeur de donnée ne peut être convertie pour des raisons autres qu'une incompatibilité de signes ou un débordement de données. Par exemple, la conversion aurait tronqué les données.</p></td>
+<td><p>La valeur de donnée ne peut être convertie pour des raisons autres qu'une incompatibilité de signes ou un débordement de données. La conversion peut entraîner, par exemple, la troncation des données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3725</strong></p></td>
 <td><p><strong>adErrCantCreate</strong></p></td>
-<td><p>La valeur de donnée ne peut être définie ou extraite car le type de données du champ était inconnu, ou le fournisseur ne disposait pas des ressources nécessaires pour effectuer l'opération.</p></td>
+<td><p>La valeur des données ne peut pas être définie ou extraite car le type des données de champ est inconnu ou le fournisseur manque de ressources pour effectuer l'opération.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3726</strong></p></td>
@@ -222,7 +222,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3727</strong></p></td>
 <td><p><strong>adErrURLDoesNotExist</strong></p></td>
-<td><p>L'URL source ou le parent de l'URL de destination n'existe pas. Il existe une erreur typographique dans URL source ou de destination. Vous devrez peut-être https://mysite/photo/myphoto.jpg lorsque vous au lieu de https://mysite/photos/myphoto.jpg à la place. L’erreur typographique dans l’URL parent (dans ce cas, la <em>photo</em> au lieu de <em>photos</em>) a provoqué l’erreur.</p></td>
+<td><p>L’URL source ou le parent de l’URL de destination n’existent pas. Un erreur typographique figure dans l’URL source ou l’URL de destination. Vous pouvez avoir https://mysite/photo/myphoto.jpg à la https://mysite/photos/myphoto.jpg place si vous le souhaitez. L’erreur typographique dans l’URL parent (dans ce cas, il s’agit de <em>photo</em> au lieu de <em>photos</em>) est à l’origine de l’erreur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3728</strong></p></td>
@@ -262,7 +262,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3735</strong></p></td>
 <td><p><strong>adErrResourceOutOfScope</strong></p></td>
-<td><p>L'URL source ou de destination est en dehors de l'étendue de l'enregistrement en cours.</p></td>
+<td><p>L'URL source ou l'URL de destination ne fait pas partie de l'étendue de l'enregistrement actif.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3736</strong></p></td>
@@ -282,7 +282,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3747</strong></p></td>
 <td><p><strong>adErrCatalogNotSet</strong></p></td>
-<td><p>L'opération requiert un <strong>ParentCatalog</strong> valide.</p></td>
+<td><p>L'opération exige un objet <strong>ParentCatalog</strong> valide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3748</strong></p></td>
@@ -292,7 +292,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3749</strong></p></td>
 <td><p><strong>adErrFieldsUpdateFailed</strong></p></td>
-<td><p>Échec de la mise à jour des champs. Pour plus d’informations, examinez la propriété <strong>Status</strong> des objets field individuels. Cette erreur peut se produire dans deux cas : lorsque vous modifiez la valeur d’un objet <strong>Field</strong> en cours de modification ou ajout d’un enregistrement à la base de données ; et lorsque vous modifiez les propriétés de l’objet <strong>Field</strong> lui-même. La mise à jour de l’objet <strong>Record</strong> ou <strong>Recordset</strong> a échoué en raison d’un problème avec l’un des champs de l’enregistrement actif. Énumérer la collection <strong>Fields</strong> et vérifiez la propriété <strong>Status</strong> de chaque champ pour déterminer la cause du problème.</p></td>
+<td><p>Échec de la mise à jour des champs. Pour plus d'informations, examinez la propriété <strong>Status</strong> des objets Field individuels. Cette erreur peut se produire dans deux cas : premièrement, lors de la modification d'une valeur d'un objet <strong>Field</strong> au cours de la modification ou de l'ajout d'un enregistrement dans la base de données ; deuxièmement, lors de la modification des propriétés de l'objet <strong>Field</strong> lui-même. La mise à jour de l'objet <strong>Record</strong> ou <strong>Recordset</strong> a échoué à cause d'un problème lié à un des champs dans l'enregistrement actif. Énumérez la collection <strong>Fields</strong> et vérifiez la propriété <strong>Status</strong> de chaque champ pour déterminer la cause du problème.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3750</strong></p></td>

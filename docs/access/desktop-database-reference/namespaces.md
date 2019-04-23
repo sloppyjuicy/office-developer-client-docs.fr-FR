@@ -1,5 +1,5 @@
 ---
-title: Espaces de noms (référence de base de données du bureau Access)
+title: Espaces de noms (référence de base de données de bureau Access)
 TOCTitle: Namespaces
 ms:assetid: e39f003c-3d16-1fae-48c5-304593c41f2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250158(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 905edba502fcc2994be6f6b8e50a7200b66a82b8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288624"
 ---
 # <a name="namespaces"></a>Espaces de noms
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le format XML de persistance dans ADO utilise les quatre espaces de noms suivants.
 
@@ -34,14 +34,14 @@ Le format XML de persistance dans ADO utilise les quatre espaces de noms suivant
 <tbody>
 <tr class="odd">
 <td><p>s</p></td>
-<td><p>Fait référence à la &quot;XML-Data&quot; espace de noms contenant les éléments et attributs qui définissent le schéma du <strong>jeu d’enregistrements</strong>en cours.</p></td>
+<td><p>Fait référence à &quot;l'espace de&quot; noms XML-Data contenant les éléments et les attributs qui définissent le schéma de l' <strong>objet Recordset</strong>actif.</p></td>
 </tr>
 <tr class="even">
-<td><p>dt</p></td>
+<td><p>couche</p></td>
 <td><p>Fait référence à la spécification des définitions du type de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>rs</p></td>
+<td><p>RS</p></td>
 <td><p>Fait référence à l'espace de nom contenant les éléments et les attributs spécifiques aux propriétés et attributs d'un <strong>jeu d'enregistrements</strong> ADO.</p></td>
 </tr>
 <tr class="even">

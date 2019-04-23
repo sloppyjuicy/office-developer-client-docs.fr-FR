@@ -1,5 +1,5 @@
 ---
-title: Precision, propriété (ADO)
+title: PreCision, propriété (ADO)
 TOCTitle: Precision property (ADO)
 ms:assetid: c9d54d78-d5a5-caf8-d635-259d1fcc0595
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249983(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 662e5e9287da1ccfb81c727f5d5e5dfedce2969b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287474"
 ---
-# <a name="precision-property-ado"></a>Precision, propriété (ADO)
+# <a name="precision-property-ado"></a>PreCision, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le degré de précision des valeurs numériques d'un objet [Parameter](parameter-object-ado.md) ou d'un objet [Field](field-object-ado.md) numérique.
 

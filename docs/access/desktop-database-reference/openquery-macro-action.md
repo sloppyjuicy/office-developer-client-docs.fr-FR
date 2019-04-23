@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288342"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Faites appel à l'action **OuvrirRequête** pour ouvrir une requête Sélection ou Analyse croisée en mode Feuille de données, Création ou Aperçu avant impression. Cette action exécute une requête Action. Vous pouvez également sélectionner le mode de saisie des données voulu pour la requête.
 
 > [!NOTE]
 > [!REMARQUE] Cette action n'est disponible que dans l'environnement de base de données Access (.mdb ou .accdb). Reportez-vous aux actions **OuvrirVue**, **OuvrirProcédureStockée** ou **OuvrirFonction** si vous utilisez l'environnement de projet Access (.adp).
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **OuvrirRequête** possède les arguments suivants.
+L’action **OuvrirRequête** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **OuvrirRequête** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la requête</strong></p></td>
-<td><p>Nom de la requête à ouvrir. La zone <strong>Nom de la requête</strong> , dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche toutes les requêtes dans la base de données en cours. Il s’agit d’un argument obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirRequête</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la requête portant ce nom dans la base de données bibliothèque, puis dans la base de données en cours.</p></td>
+<td><p>Nom de la requête à ouvrir. La zone nom de la <strong>requête</strong> dans la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les requêtes de la base de données active. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action <strong>OuvrirRequête</strong> dans une base de données bibliothèque, Microsoft Access recherche d'abord la requête portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -59,9 +59,9 @@ L'action **OuvrirRequête** possède les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si l'argument **Affichage** a la valeur **Feuille de données**, Access affiche le jeu de résultats si la requête est une requête Sélection, Analyse croisée, Union ou SQL direct dont la propriété **RenvoieSur** a la valeur **Oui**; et renvoie la requête s'il s'agit d'une requête Action, Définition des données ou SQL direct dont la propriété **RenvoieSur** a la valeur **Non**.
+Si l’argument **Affichage** a la valeur **Feuille de données**, Access affiche le jeu de résultats si la requête est une requête Sélection, Analyse croisée, Union ou SQL direct dont la propriété **RenvoieSur** a la valeur **Oui** ; et renvoie la requête s’il s’agit d’une requête Action, Définition des données ou SQL direct dont la propriété **RenvoieSur** a la valeur **Non**.
 
 L'action **OuvrirRequête** équivaut à double-cliquer sur la requête dans le volet de navigation ou à cliquer avec le bouton droit sur la requête dans le volet de navigation et à choisir un affichage. Cette action vous permet de sélectionner des options supplémentaires.
 

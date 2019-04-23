@@ -1,5 +1,5 @@
 ---
-title: ADORecordsetConstruction, interface (ADO)
+title: ADORecordsetConstruction interface (ADO)
 TOCTitle: ADORecordsetConstruction interface (ADO)
 ms:assetid: 2b53aa6e-3b6f-a996-3967-534215fd586c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249060(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98342d5456c545e6da8539c11f616c08fd52a932
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281632"
 ---
-# <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction, interface (ADO)
+# <a name="adorecordsetconstruction-interface-ado"></a>ADORecordsetConstruction interface (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'interface **ADORecordsetConstruction** permet de créer un objet **Recordset** ADO à partir d'un objet **Rowset** OLE DB dans une application C/C++.
 
@@ -32,19 +32,19 @@ Cette interface prend en charge les propriétés ci-après :
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Chapitre</a></p></td>
+<td><p><a href="chapter-property-ado.md">Ch</a></p></td>
 <td><p>Lecture/écriture.<br />
-Obtient ou définit un objet OLE DB <strong>chapitre</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
+ Extrait/définit un objet <strong>Chapter</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
 <td><p>Lecture/écriture.<br />
-Obtient ou définit un objet OLE DB <strong>RowPosition</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
+ Extrait/définit un objet <strong>RowPosition</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Ensemble de lignes</a></p></td>
+<td><p><a href="rowset-property-ado.md">DSO</a></p></td>
 <td><p>Lecture/écriture.<br />
-Obtient ou définit un objet OLE DB <strong>Rowset</strong> à partir de/sur cet objet ADO <strong>Recordset</strong> .</p></td>
+ Extrait/définit un objet <strong>Rowset</strong> OLE DB de/sur cet objet <strong>Recordset</strong> ADO.</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@ Obtient ou définit un objet OLE DB <strong>Rowset</strong> à partir de/sur cet
 
 ## <a name="methods"></a>Méthodes
 
-Aucune.
+Aucun.
 
 ## <a name="events"></a>Événements
 
@@ -60,7 +60,7 @@ Aucun.
 
 ## <a name="remarks"></a>Remarques
 
-Étant donné un objet OLE DB **Rowset** (pRowset), la construction d’un objet de ADO **Recordset** (), la construction d’un objet **Recordset** ADO les chiffres d’objet (adoRs) pour les trois opérations ci-après :
+Étant donné un objet **rowsET** OLE DB (pRowset), la construction d' **** un objet Recordset ADO (), la construction d'un objet **Recordset** ADO (adoRS) se résume aux trois opérations de base suivantes:
 
 1. Créez un objet **Recordset** ADO :
     
@@ -76,14 +76,14 @@ Aucun.
          (void**)&adoRsConstruct);
    ```
 
-3. Appelez le IADORecordsetConstruction::put\_méthode de la propriété Rowset pour définir l’objet Rowset OLE DB sur l’objet Recordset ADO :
+3. Appelez la méthode de propriété IADORecordsetConstruction\_::p ut pour définir l'objet Rowset OLE DB sur l'objet Recordset ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-L’objet qui en résulte représente maintenant l’objet de l’objet **Recordset** ADO construit à partir de l’objet OLE DB **Rowset** .
+L'objet qui en résulte représente maintenant **** l'objet Recordset ADO construit à partir de l'objet **rowset** OLE DB.
 
 Vous pouvez également créer un objet **Recordset** ADO à partir d'un objet **Chapter** ou **RowPosition** OLE DB.
 

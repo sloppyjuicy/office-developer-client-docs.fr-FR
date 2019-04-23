@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4172fba2d9fc08d3cf9f588fe9ace65da7997b19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287978"
 ---
 # <a name="parameterized-commands-with-intervening-compute-commands"></a>Commandes paramétrées avec l’intervention de commandes COMPUTE
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Une commande APPEND de mise en forme paramétrée contient généralement une clause qui crée un objet **Recordset** parent à l'aide d'une commande de requête et une autre clause qui crée un objet **Recordset** enfant également au moyen d'une commande de requête paramétrée  c'est-à-dire, une commande contenant un espace réservé de paramètre (un point d'interrogation, « ? »). L'objet **Recordset** mis en forme qui en résulte présente deux niveaux : un niveau supérieur occupé par le parent, et un niveau inférieur occupé par l'enfant.
+Une commande APPEND de mise en forme paramétrée contient généralement une clause qui crée un objet **Recordset** parent à l'aide d'une commande de requête et une autre clause qui crée un objet **Recordset** enfant également au moyen d'une commande de requête paramétrée — c'est-à-dire, une commande contenant un espace réservé de paramètre (un point d'interrogation, « ? »). L'objet **Recordset** mis en forme qui en résulte présente deux niveaux : un niveau supérieur occupé par le parent, et un niveau inférieur occupé par l'enfant.
 
 La clause qui crée l'objet **Recordset** enfant peut désormais représenter un nombre arbitraire de commandes  de mise en forme imbriquées, la commande la plus profondément imbriquée contenant la requête paramétrée. L'objet **Recordset** mis en forme résultant présente plusieurs niveaux. Le parent occupe le niveau supérieur et l'enfant le niveau inférieur, et un nombre arbitraire d'objets **Recordset** générés par les commandes COMPUTE de mise en forme occupent les niveaux intermédiaires.
 

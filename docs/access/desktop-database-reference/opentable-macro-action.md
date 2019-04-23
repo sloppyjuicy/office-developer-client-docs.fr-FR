@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 48a3797c2008f261eda8acc3391b39561fec05f3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288293"
 ---
 # <a name="opentable-macro-action"></a>OpenTable, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Faites appel à l'action **OuvrirTable** pour ouvrir une table en mode Feuille de données, Création ou Aperçu avant impression. Vous pouvez également sélectionner le mode de saisie des données voulu pour la table.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **OuvrirTable** possède les arguments suivants.
+L’action **OuvrirTable** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ L'action **OuvrirTable** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la table</strong></p></td>
-<td><p>Le nom de la table à ouvrir. La zone <strong>Nom de la Table</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche toutes les tables dans la base de données en cours. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirTable</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la table portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la table à ouvrir. La zone <strong>Nom de la table</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les tables de la base de données active. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirTable</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la table portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -55,7 +55,7 @@ L'action **OuvrirTable** possède les arguments suivants.
 </tbody>
 </table>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action équivaut à double-cliquer sur la table dans le volet de navigation ou à cliquer dessus avec le bouton droit dans le volet de navigation, puis à choisir un affichage.
 

@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718860"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283260"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Les relations entre ces objets sont représentées dans le modèle d’objet ActiveX Data Objects (ADO).
+Les relations entre ces objets sont représentées dans le modèle objet ADO (ActiveX Data Objects).
 
-Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d’informations, consultez [collections ADO](ado-collections.md) ou une rubrique à une collection spécifique.
+Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d'informations, reportez-vous à [Collections ADO](ado-collections.md) ou à une rubrique de collection spécifique.
 
 <br/>
 
@@ -52,19 +52,19 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 </tr>
 <tr class="odd">
 <td><p><a href="error-object-ado.md">Error</a></p></td>
-<td><p>Contient des détails sur les erreurs d'accès aux données relatives à une seule opération impliquant le fournisseur.</p></td>
+<td><p>Contient le détail des erreurs d'accès aux données concernant une même opération liée au fournisseur.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="field-object-ado.md">Champ</a></p></td>
+<td><p><a href="field-object-ado.md">Field</a></p></td>
 <td><p>Représente une colonne de données avec un type de données commun.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameter-object-ado.md">Paramètre</a></p></td>
-<td><p>Représente un paramètre ou un argument associé à un objet <strong>Command</strong> basé sur une requête paramétrée ou sur une procédure stockée.</p></td>
+<td><p><a href="parameter-object-ado.md">Parameter</a></p></td>
+<td><p>Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Propriété</a></p></td>
-<td><p>Représente une caractéristique dynamique d'un objet ADO défini par le fournisseur.</p></td>
+<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p>Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>

@@ -1,5 +1,5 @@
 ---
-title: Table des tâches ActiveX Data Objects (ADO)
+title: Tableau de tâches ADO (ActiveX Data Objects)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ffb9ece91d674e3447f43ae17e2ea9415e2339ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283246"
 ---
 # <a name="ado-task-table"></a>Tableau de tâches ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant répertorie les tâches de programmation contenues dans le *guide du programmeur ADO* et fournit des références pour chaque tâche. Ces références peuvent être des descriptions ou des exemples de code contenant des informations sur la fonctionnalité ADO qui exécute cette tâche.
+Le tableau suivant répertorie les tâches de programmation contenues dans le *Guide du programmeUr ADO* et fournit des références pour chaque tâche. Ces références peuvent être des descriptions ou des exemples de code contenant des informations sur la fonctionnalité ADO qui exécute cette tâche.
 
 <table>
 <colgroup>
@@ -38,11 +38,11 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="even">
 <td><p>Exécution de commandes ou appel de procédures stockées</p></td>
-<td><p><a href="using-the-command-object-access.md">À l’aide de l’objet Command</a></p></td>
+<td><p><a href="using-the-command-object-access.md">Utilisation de l’objet Command</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Ouverture d'un objet <strong>Recordset</strong></p></td>
-<td><p><a href="open-method-ado-recordset.md">Méthode Open de l'objet Recordset</a></p></td>
+<td><p><a href="open-method-ado-recordset.md">Méthode Open de l’objet Recordset</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Identification de la taille d'un objet <strong>Recordset</strong></p></td>
@@ -50,15 +50,15 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="odd">
 <td><p>Accès à un enregistrement spécifique</p></td>
-<td><p><a href="navigating-through-the-data.md">Naviguer dans les données</a></p></td>
+<td><p><a href="navigating-through-the-data.md">Navigation dans les données</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Accès à des valeurs de colonne</p></td>
-<td><p><a href="the-fields-collection.md">Fields, collection</a></p></td>
+<td><p><a href="the-fields-collection.md">Fields, collection </a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Recherche de données</p></td>
-<td><p><a href="working-with-recordsets.md">Utilisation des jeux d'enregistrements</a></p></td>
+<td><p><a href="working-with-recordsets.md">Utilisation des jeux d’enregistrements</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Modification des données et des valeurs</p></td>
@@ -70,7 +70,7 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="even">
 <td><p>Suppression de données</p></td>
-<td><p><a href="deleting-records-using-the-delete-method.md">Suppression d’enregistrements à l’aide de la méthode Delete</a></p></td>
+<td><p><a href="deleting-records-using-the-delete-method.md">Suppression d’enregistrements avec la méthode Delete</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Publication des modifications dans la source de données</p></td>
@@ -78,11 +78,11 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="even">
 <td><p>Exécution, validation et annulation de transactions</p></td>
-<td><p><a href="transaction-processing.md">Traitement des transactions</a></p></td>
+<td><p><a href="transaction-processing.md">Traitement des transactions </a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Enregistrement des enregistrements dans un fichier (XML ou binaire)</p></td>
-<td><p><a href="persisting-data.md">Données persistantes</a></p></td>
+<td><p><a href="persisting-data.md">Données persistantes </a></p></td>
 </tr>
 <tr class="even">
 <td><p>Gestion des erreurs</p></td>
@@ -90,11 +90,11 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="odd">
 <td><p>Gestion des événements, programmation asynchrone</p></td>
-<td><p><a href="ado-event-handler-summary.md">Résumé du gestionnaire d'événements ADO</a></p></td>
+<td><p><a href="ado-event-handler-summary.md">Résumé du gestionnaire d’événements ADO</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Choix de l'emplacement et du type de curseur</p></td>
-<td><p><a href="types-of-cursors.md">Types de curseurs</a></p></td>
+<td><p><a href="types-of-cursors.md">Types de curseurs </a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Choix des types de verrous</p></td>
@@ -110,7 +110,7 @@ Le tableau suivant répertorie les tâches de programmation contenues dans le *g
 </tr>
 <tr class="even">
 <td><p>Publication dans IIS</p></td>
-<td><p><a href="using-ado-for-internet-publishing.md">Utilisation d'ADO pour la publication Internet</a></p></td>
+<td><p><a href="using-ado-for-internet-publishing.md">Utilisation d’ADO pour la publication Internet</a></p></td>
 </tr>
 </tbody>
 </table>

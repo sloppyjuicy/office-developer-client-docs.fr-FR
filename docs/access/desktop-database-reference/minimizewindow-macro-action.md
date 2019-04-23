@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9f7c4ab535010dc0329673fd04721615f6eb3cd8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288882"
 ---
 # <a name="minimizewindow-macro-action"></a>MinimizeWindow, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l’action **Réduirefenêtre** pour réduire la fenêtre active à une barre de titre en bas de la fenêtre Access.
+Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l'action **réduirefenêtre** pour réduire la fenêtre active à la taille d'une petite barre de titre située en bas de la fenêtre Access.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne peut être appliquée aux fenêtres de code dans Visual Basic Editor. Pour plus d'informations sur la façon d'affecter des fenêtres de code, reportez-vous à la rubrique relative à la propriété **WindowState**.
+> [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **RéduireFenêtre** ne possède aucun argument.
+L’action **RéduireFenêtre** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser cette action pour supprimer une fenêtre de l'écran tout en laissant l'objet ouvert ou pour ouvrir un objet sans afficher sa fenêtre. Pour afficher l'objet, utilisez l'action **SélectionnerObjet** avec l'action **AgrandirFenêtre** ou **RestaurerFenêtre**. L'action **RestaurerFenêtre** rétablit la taille initiale d'une fenêtre réduite.
+Vous pouvez utiliser cette action pour supprimer une fenêtre de l’écran tout en laissant l’objet ouvert ou pour ouvrir un objet sans afficher sa fenêtre. Pour afficher l’objet, utilisez l’action **SélectionnerObjet** avec l’action **AgrandirFenêtre** ou **RestaurerFenêtre**. L’action **RestaurerFenêtre** rétablit la taille initiale d’une fenêtre réduite.
 
 L'action **RéduireFenêtre** équivaut à cliquer sur le bouton **Réduire** dans le coin supérieur droit de la fenêtre ou à cliquer sur **Réduire** dans le menu **Contrôle** de la fenêtre.
 

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d79d060922c6e7f28209242ebe82821c2ba97bfd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288987"
 ---
-# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Service de curseur Microsoft pour OLE DB (composant du service ADO)
+# <a name="microsoft-cursor-service-for-ole-db-ado-service-component"></a>Service de curseur Microsoft pour OLE DB (composant de service ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le service de curseur Microsoft pour OLE DB complète les fonctions de prise en charge du curseur des fournisseurs de données. L'utilisateur a ainsi une perception relativement uniforme des fonctionnalités des différents fournisseurs de données.
 
@@ -27,15 +27,15 @@ Dans tous les cas, le service de curseur prend en charge la mise à jour en lot.
 
 ## <a name="keyword"></a>Mot clé
 
-Pour appeler ce composant de service, définissez la propriété [CursorLocation](recordset-object-ado.md) de l'objet [Recordset](connection-object-ado.md) ou [Connection](cursorlocation-property-ado.md) sur **adUseClient**.
+Pour appeler ce composant de service, définissez la propriété [CursorLocation](cursorlocation-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) ou [Connection](connection-object-ado.md) sur **adUseClient **.
 
 `connection.CursorLocation=adUseClientrecordset.CursorLocation=adUseClient`
 
 ## <a name="dynamic-properties"></a>Propriétés dynamiques
 
-Lorsque le service de curseur pour OLE DB est appelé, les propriétés dynamiques suivantes sont ajoutées à la collection **Properties** de l'objet [Recordset](properties-collection-ado.md). La liste complète des propriétés dynamiques des objets **Connection** et **Recordset** apparaît dans l' [Index des propriétés dynamiques ADO](ado-dynamic-property-index.md). Les noms de propriété OLE DB associés sont, le cas échéant, insérés entre parenthèses après le nom de propriété ADO.
+Lorsque le service de curseur pour OLE DB est appelé, les propriétés dynamiques suivantes sont ajoutées à la collection [Properties](properties-collection-ado.md) de l’objet **Recordset**. La liste complète des propriétés dynamiques des objets **Connection** et **Recordset** apparaît dans l’[Index des propriétés dynamiques ADO](ado-dynamic-property-index.md). Les noms de propriété OLE DB associés sont, le cas échéant, insérés entre parenthèses après le nom de propriété ADO.
 
-Après l'appel du service de curseur, les modifications apportées à certaines propriétés dynamiques sont invisibles pour la source de données sous-jacente. Par exemple, la définition de la propriété *Command Time out* sur un **objet Recordset** pas sera visible par le fournisseur de données sous-jacent.
+Après l'appel du service de curseur, les modifications apportées à certaines propriétés dynamiques sont invisibles pour la source de données sous-jacente. Par exemple, la définition de la propriété *Command Time out* sur un **Recordset** reste invisible pour le fournisseur de données sous-jacent.
 
 ```vb 
 ... 
@@ -52,7 +52,7 @@ Recordset1.Properties.Item("Command Time out") = 50
 Si votre application nécessite le service de curseur et que vous avez besoin de définir des propriétés dynamiques sur le fournisseur sous-jacent, définissez ces propriétés avant d'invoquer le service de curseur. Les paramètres de propriété d'objet de commande sont toujours transmis au fournisseur de données sous-jacent quel que soit l'emplacement du curseur. Par conséquent, vous pouvez également utiliser un objet de commande pour définir à tout moment les propriétés.
 
 > [!NOTE]
-> La propriété dynamique DBPROP_SERVERDATAONINSERT n'est pas prise en charge par le service de curseur, même si elle est prise en charge par le fournisseur de données sous-jacent.
+> [!REMARQUE] La propriété dynamique DBPROP_SERVERDATAONINSERT n'est pas prise en charge par le service de curseur, même si elle est prise en charge par le fournisseur de données sous-jacent.
 
 
 
@@ -94,7 +94,7 @@ Si votre application nécessite le service de curseur et que vous avez besoin de
 <td><p>Indique le texte de la commande à utiliser pour resynchroniser une ou plusieurs lignes dans une jointure de plusieurs tables.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="optimize-property-dynamic-ado.md">Optimiser</a></p></td>
+<td><p><a href="optimize-property-dynamic-ado.md">Vos</a></p></td>
 <td><p>Indique s'il faut créer un index. Si cette propriété est définie sur <strong>True</strong>, la création temporaire d'index est autorisée pour améliorer l'exécution de certaines opérations.</p></td>
 </tr>
 <tr class="odd">
@@ -130,7 +130,7 @@ Si votre application nécessite le service de curseur et que vous avez besoin de
 </table>
 
 
-Vous pouvez également définir ou extraire une propriété dynamique en spécifiant son nom en tant qu'index de la collection **Properties**. Par exemple, vous pouvez obtenir et imprimer la valeur actuelle de la propriété dynamique [Optimize](optimize-property-dynamic-ado.md), puis définir une nouvelle valeur de la façon suivante :
+Vous pouvez également définir ou extraire une propriété dynamique en spécifiant son nom en tant qu’index de la collection **Properties**. Par exemple, vous pouvez obtenir et imprimer la valeur actuelle de la propriété dynamique [Optimize](optimize-property-dynamic-ado.md), puis définir une nouvelle valeur de la façon suivante :
 
 ```vb 
  
@@ -172,5 +172,5 @@ Le service de curseur pour OLE DB affecte également le comportement de certaine
 
 ## <a name="method-behavior"></a>Comportement des méthodes
 
-Le service de curseur pour OLE DB active ou affecte le comportement de la méthode [Append](field-object-ado.md) de l'objet [Field](append-method-ado.md) et des méthodes **Open**, [Resync](open-method-ado-recordset.md), [UpdateBatch](resync-method-ado.md) et [Save](updatebatch-method-ado.md) de l'objet [Recordset](save-method-ado.md).
+Le service de curseur pour OLE DB active ou affecte le comportement de la méthode [Append](append-method-ado.md) de l’objet [Field](field-object-ado.md) et des méthodes [Open](open-method-ado-recordset.md), [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md) et [Save](save-method-ado.md) de l’objet **Recordset**.
 

@@ -1,5 +1,5 @@
 ---
-title: Objets ADOX (référence de base de données du bureau Access)
+title: Objets ADOX (référence de base de données de bureau Access)
 TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280300"
 ---
 # <a name="adox-objects"></a>Objets ADOX
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d’informations, consultez [collections ADOX](adox-collections.md) ou une rubrique à une collection spécifique.
+Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d'informations, consultez la rubrique [Collections ADOX](adox-collections.md) ou une rubrique de collection spécifique.
 
 <br/>
 
@@ -40,22 +40,22 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 </tr>
 <tr class="even">
 <td><p><a href="column-object-adox.md">Colonne</a></p></td>
-<td><p>Représente une colonne dans une table, un index ou une clé.</p></td>
+<td><p>Représente une colonne d'une table, d'un index ou d'une clé.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="group-object-adox.md">Groupe</a></p></td>
-<td><p>Représente un compte de groupe disposant des autorisations d'accès à une base de données sécurisée.</p></td>
+<td><p>Représente un compte de groupe qui dispose d'autorisations d'accès dans une base de données sécurisée.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="index-object-adox.md">Index</a></p></td>
-<td><p>Représente un index d'une table de base de données.</p></td>
+<td><p>Représente un index dans une table de base de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="key-object-adox.md">Key</a></p></td>
-<td><p>Représente un champ de clé primaire, étrangère ou unique d'une table de base de données.</p></td>
+<td><p>Représente un champ de clé primaire, étrangère ou unique dans une table de base de données.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="procedure-object-adox.md">Procedure</a></p></td>
+<td><p><a href="procedure-object-adox.md">Procédure</a></p></td>
 <td><p>Représente une procédure stockée.</p></td>
 </tr>
 <tr class="odd">
@@ -64,7 +64,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 </tr>
 <tr class="even">
 <td><p><a href="user-object-adox.md">User</a></p></td>
-<td><p>Représente un compte d'utilisateur qui dispose d'autorisations d'accès à une base de données sécurisée.</p></td>
+<td><p>Représente un compte d'utilisateur qui dispose d'autorisations d'accès dans une base de données sécurisée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="view-object-adox.md">View</a></p></td>

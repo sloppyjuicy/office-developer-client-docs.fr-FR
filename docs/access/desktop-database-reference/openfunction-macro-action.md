@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b13d21ef1bd8a95587eb78cd448f19f9fd0c24c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288363"
 ---
 # <a name="openfunction-macro-action"></a>OpenFunction, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirFonction** pour ouvrir une fonction définie par l'utilisateur en mode Feuille de données, une fonction en ligne en mode Création, l'Éditeur de texte SQL (pour une fonction scalaire ou une fonction tabulaire définie par l'utilisateur) ou un Aperçu avant impression. Cette action exécute la fonction définie par l'utilisateur lorsqu'elle est ouverte en mode Feuille de données. Vous pouvez également sélectionner le mode de saisie de données pour la fonction définie par l'utilisateur et limiter les enregistrements que celle-ci affiche.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
-L'action **OuvrirFonction** possède les arguments suivants.
+L’action **OuvrirFonction** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **OuvrirFonction** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la fonction</strong></p></td>
-<td><p>Nom de la fonction définie par l’utilisateur à ouvrir. La zone <strong>Nom de la fonction</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche toutes les fonctions définies par l’utilisateur dans la base de données en cours. Il s’agit d’un argument obligatoire. Si vous exécutez une macro contenant l’action <strong>fonction</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la fonction portant ce nom dans la base de données bibliothèque, puis dans la base de données en cours.</p></td>
+<td><p>Nom de la fonction définie par l’utilisateur à ouvrir. La zone <strong>Nom de la fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro affiche toutes les fonctions définies par l’utilisateur dans la base de données active. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action <strong>fonction</strong> dans une base de données bibliothèque, Microsoft Access recherche d'abord la fonction portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -59,9 +59,9 @@ L'action **OuvrirFonction** possède les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette action équivaut à double-cliquer sur une fonction définie par l'utilisateur dans le volet de navigation ou à cliquer avec le bouton droit sur la fonction dans le volet de navigation et à choisir un affichage.
+Cette action équivaut à double-cliquer sur une fonction définie par l’utilisateur dans le volet de navigation ou à cliquer avec le bouton droit sur la fonction dans le volet de navigation et à choisir un affichage.
 
 Basculer en mode Création lorsque la fonction définie par l'utilisateur est ouverte supprime le paramètre de l'argument **Mode Données** de la fonction. Ce paramètre n'est pas actif, même si l'utilisateur revient en mode Feuille de données.
 

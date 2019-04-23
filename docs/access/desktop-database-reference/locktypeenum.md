@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (référence de base de données du bureau Access)
+title: LockTypeEnum (référence de base de données de bureau Access)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289863"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie le type de verrouillage appliqué aux enregistrements pendant l'édition.
 
@@ -46,12 +46,12 @@ Spécifie le type de verrouillage appliqué aux enregistrements pendant l'éditi
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Indique un verrouillage pessimiste, enregistrement par enregistrement. Le fournisseur fait en sorte que l'édition des enregistrements réussisse, en général en verrouillant les enregistrements à la source de données immédiatement après édition.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Indique des enregistrements en lecture seule. Vous ne pouvez pas modifier les données.</p></td>
 </tr>
 <tr class="odd">
@@ -78,19 +78,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. BATCHOPTIMISTIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
+<td><p>AdoEnums. LockType. OPTIMISTic</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.PESSIMISTIC</p></td>
+<td><p>AdoEnums. LockType. pessimiste</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.LockType.READONLY</p></td>
+<td><p>AdoEnums. LockType. READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
+<td><p>AdoEnums. LockType. unSPÉCIFIÉ</p></td>
 </tr>
 </tbody>
 </table>

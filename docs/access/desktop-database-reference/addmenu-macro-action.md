@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280272"
 ---
 # <a name="addmenu-macro-action"></a>AddMenu, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet article décrit le fonctionnement de base de l'action de macro **AjouterMenu**.
+Cet article décrit le fonctionnement de base de l’action de macro **AjouterMenu**.
 
-Vous pouvez utiliser l'action **AjouterMenu** pour créer les éléments suivants :
+Vous pouvez utiliser l’action **AjouterMenu** pour créer les éléments suivants :
 
 - des menus personnalisés sous l'onglet **Compléments** d'un formulaire ou d'un état particulier ;
 
@@ -33,9 +33,9 @@ Vous pouvez utiliser l'action **AjouterMenu** pour créer les éléments suivant
 
 - un menu contextuel global. Le menu contextuel global remplace le menu contextuel intégré pour les champs des feuilles de données de table et de requête, des formulaires et des états, sauf là où vous avez ajouté un menu contextuel personnalisé pour un formulaire, un état ou un contrôle.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AjouterMenu** possède les arguments suivants.
+L’action **AjouterMenu** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -44,21 +44,19 @@ L'action **AjouterMenu** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom du menu</strong></p></td>
-<td><p>Le nom du menu, par exemple, &quot;rapport commandes&quot; ou &quot;outils&quot;. Pour créer une touche d’accès afin que vous puissiez utiliser le clavier pour choisir le menu, tapez un « et commercial » (<strong>&amp;</strong>) avant la lettre que vous voulez être la touche d’accès. Cette lettre sera soulignée dans le nom du menu dans l’onglet <strong>Compléments</strong> .</p></td>
+<td><p>Nom du menu, par exemple &quot;, commandes&quot; ou &quot;outils&quot;d'État. Pour créer une touche d'accès afin de pouvoir utiliser le clavier pour choisir le menu, tapez un signe «<strong>&amp;</strong>et commercial» () avant la lettre que vous souhaitez définir comme touche d'accès. Cette lettre sera soulignée dans le nom de menu sous l’onglet <strong>Compléments</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la macro de menu</strong></p></td>
-<td><p>Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire. 
-
-</p>
-<p><strong>Remarque</strong>: Si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche le groupe de macros portant ce nom dans la base de données en cours uniquement.</p></td>
+<td><p>Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire.</p>
+<p><strong>Remarque</strong>: Si vous exécutez une macro contenant l'action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche le groupe de macros portant ce nom uniquement dans la base de données active.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Texte de la barre d’état</strong></p></td>

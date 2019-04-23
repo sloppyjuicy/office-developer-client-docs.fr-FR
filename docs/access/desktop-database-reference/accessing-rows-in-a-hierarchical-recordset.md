@@ -8,17 +8,17 @@ ms.date: 10/17/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281955"
 ---
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Accès à des lignes dans un recordset hiérarchique
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-L'exemple suivant illustre les étapes nécessaires pour accéder aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique :
+L’exemple suivant illustre les étapes nécessaires pour accéder aux lignes d’un objet [Recordset](recordset-object-ado.md) hiérarchique :
 
 1. Les objets **Recordset** provenant des tables authors et titleauthor sont liés par l'ID d'auteur.
 
@@ -29,7 +29,7 @@ L'exemple suivant illustre les étapes nécessaires pour accéder aux lignes d'u
 4. La boucle interne affiche quatre champs de chaque ligne dans l'objet **Recordset** ajouté.
 
 > [!NOTE] 
-> La propriété [StayInSync](stayinsync-property-ado.md) est définie sur FALSE à des fins d’illustration, vous pouvez voir le chapitre changer de manière explicite dans chaque itération de la boucle externe. Toutefois, l’exemple sera plus efficace si l’affectation à l’étape 3 est placée avant la première ligne à l’étape 2, afin que l’affectation est effectuée qu’une seule fois. Valeur TRUE, la propriété **StayInSync** afin que *rstTitleAuthor* implicitement et automatiquement devient le chapitre correspondant *effectuée* qu’une nouvelle ligne.
+> La propriété [StayInSync](stayinsync-property-ado.md) est définie sur false à des fins d'illustration, afin que vous puissiez voir le changement de chapitre de manière explicite dans chaque itération de la boucle externe. Toutefois, l'exemple sera plus efficace si l'affectation à l'étape 3 est déplacée avant la première ligne de l'étape 2, afin que l'affectation ne soit effectuée qu'une seule fois. Affectez à la propriété **StayInSync** la valeur true, afin que *rstTitleAuthor* passe implicitement et automatiquement le chapitre correspondant dès que *RST* se déplace vers une nouvelle ligne.
 
 **Exemple**
 

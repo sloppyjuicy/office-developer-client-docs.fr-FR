@@ -1,5 +1,5 @@
 ---
-title: Propriétés de paramètre (DAO)
+title: Propriétés des paramètres (DAO)
 TOCTitle: Properties
 ms:assetid: 036746ac-c914-48ee-9a5c-f8597e0d4c58
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123518(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cf40a993a3fc9a8ab9dfe01b8d07c0aae780a141
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288041"
 ---
-# <a name="parameter-properties-dao"></a>Propriétés de paramètre (DAO)
+# <a name="parameter-properties-dao"></a>Propriétés des paramètres (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Propriété Parameter.Direction (DAO)](parameter-direction-property-dao.md)
+- [Parameter. direction, propriété (DAO)](parameter-direction-property-dao.md)
 - [Propriété Parameter.Name (DAO)](parameter-name-property-dao.md)
-- [Propriété Parameter.Properties (DAO)](parameter-properties-property-dao.md)
-- [Propriété Parameter.Type (DAO)](parameter-type-property-dao.md)
-- [Propriété Parameter.Value (DAO)](parameter-value-property-dao.md)
+- [Parameter. Properties, propriété (DAO)](parameter-properties-property-dao.md)
+- [Parameter. type, propriété (DAO)](parameter-type-property-dao.md)
+- [Parameter. Value, propriété (DAO)](parameter-value-property-dao.md)
 

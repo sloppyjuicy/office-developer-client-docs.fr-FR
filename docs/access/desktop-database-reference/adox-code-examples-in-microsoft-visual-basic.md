@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6d48b780a6b9561d5636eea5f2ed393002ec6a1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282809"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-basic"></a>Exemples de code ADOX dans Microsoft Visual Basic
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ces rubriques fournissent des exemples de code pour vous aider à comprendre comment utiliser ADOX. Tous les exemples de code sont écrits en langage Microsoft Visual Basic.
 
@@ -32,7 +32,7 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 - [GetPermissions et SetPermissions, méthodes – Exemple (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
 - [Groups Append, Users Append, ChangePassword, méthodes – Exemple (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
 - [Indexes Append, méthode – Exemple (VB)](indexes-append-method-example-vb.md)
-- [Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule propriétés-exemple (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 - [Procedures Append, méthode – Exemple (VB)](procedures-append-method-example-vb.md)
 - [Procedures Delete, méthode – Exemple (VB)](procedures-delete-method-example-vb.md)
 - [Procedures Refresh, méthode – Exemple (VB)](procedures-refresh-method-example-vb.md)
@@ -46,23 +46,23 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 - [Propriété ActiveConnection de l’objet Catalog – Exemple (VB)](catalog-activeconnection-property-example-vb.md)
 - [Clustered, propriété – Exemple (VB)](clustered-property-example-vb.md)
 - [Command et CommandText, propriétés – Exemple (VB)](command-and-commandtext-properties-example-vb.md)
-- [Propriété Command, paramètres collection-exemple (VB)](parameters-collection-command-property-example-vb.md)
-- [Propriété CommandText, vues collection-exemple (VB)](views-collection-commandtext-property-example-vb.md)
+- [Command, propriété, paraMeters, collection-exemple (VB)](parameters-collection-command-property-example-vb.md)
+- [CommandText, propriété, views, collection-exemple (VB)](views-collection-commandtext-property-example-vb.md)
 - [DateCreated et DateModified, propriétés – Exemple (VB)](datecreated-and-datemodified-properties-example-vb.md)
 - [DefinedSize, propriété – Exemple (VB)](definedsize-property-example-vb.md)
 - [DeleteRule, propriété – Exemple (VB)](deleterule-property-example-vb.md)
 - [IndexNulls, propriété – Exemple (VB)](indexnulls-property-example-vb.md)
-- [Propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule, Keys Append, méthode-exemple (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
-- [Nom de propriété, les colonnes et Tables Append, méthodes-exemple (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
+- [Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Propriété Name, Columns et tables Append, méthodes-exemple (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 - [NumericScale et Precision, propriétés – Exemple (VB)](numericscale-and-precision-properties-example-vb.md)
 - [ParentCatalog, propriété – Exemple (VB)](parentcatalog-property-example-vb.md)
 - [PrimaryKey et Unique, propriétés – Exemples (VB)](primarykey-and-unique-properties-example-vb.md)
 - [SortOrder, propriété – Exemple (VB)](sortorder-property-example-vb.md)
-- [Table, propriété Type, Connection Close, méthode-exemple (VB)](connection-close-method-table-type-property-example-vb.md)
+- [Propriété de type table, Connection Close, méthode-exemple (VB)](connection-close-method-table-type-property-example-vb.md)
 
 ## <a name="collections"></a>Collections
 
 - [Parameters, collection – Exemple de propriété Command (VB)](parameters-collection-command-property-example-vb.md)
 - [Views et Fields, collections – Exemple (VB)](views-and-fields-collections-example-vb.md)
-- [Views, collection CommandText, propriété-Exemple (VB)](views-collection-commandtext-property-example-vb.md)
+- [Views, collection – Exemple de propriété CommandText (VB)](views-collection-commandtext-property-example-vb.md)
 

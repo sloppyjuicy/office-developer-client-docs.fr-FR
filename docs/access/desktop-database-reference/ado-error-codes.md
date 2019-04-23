@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d3d51fa745f17fb07f6a46064ba8ffc626cbb3e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283386"
 ---
 # <a name="ado-error-codes"></a>Codes d’erreur ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO peut renvoyer des erreurs au mécanisme de gestion des exceptions de votre environnement d'exécution en plus des erreurs de fournisseur renvoyées dans les objets [Error](error-object-ado.md) de la collection [Errors](errors-collection-ado.md). Pour capturer les erreurs ADO, utilisez le mécanisme de recouvrement des erreurs de votre langage de programmation, c'est-à-dire l'instruction **OnError** dans Microsoft Visual Basic ou le bloc **try-catch** dans Microsoft Visual C++ et Microsoft Visual J++.
 

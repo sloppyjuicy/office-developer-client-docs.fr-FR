@@ -1,5 +1,5 @@
 ---
-title: Événements ActiveX Data Objects (ADO)
+title: Événements ADO (ActiveX Data Objects)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cc2ef73798dca18e00c42768fde78da2abdb56a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283337"
 ---
 # <a name="ado-events"></a>Événements ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 <br/>
 
@@ -55,11 +55,11 @@ ms.locfileid: "28706043"
 <td><p>Appelé à la fin de l'exécution d'une commande.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
+<td><p><a href="fetchcomplete-event-ado.md">FetchComplete,</a></p></td>
 <td><p>Appelé après que tous les enregistrements d'une opération asynchrone de longue durée ont été récupérés dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="fetchprogress-event-ado.md">FetchProgress</a></p></td>
+<td><p><a href="fetchprogress-event-ado.md">FetchProgress,</a></p></td>
 <td><p>Appelé régulièrement au cours d'une opération asynchrone de longue durée pour indiquer le nombre de lignes récupérées jusque là dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -67,7 +67,7 @@ ms.locfileid: "28706043"
 <td><p>Appelé après que la valeur d'un ou plusieurs objets <strong>Field</strong> a changé.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="infomessage-event-ado.md">InfoMessage</a></p></td>
+<td><p><a href="infomessage-event-ado.md">InfoMessage,</a></p></td>
 <td><p>Appelé lorsqu'un avertissement se produit au cours d'une opération <strong>ConnectionEvent</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -83,7 +83,7 @@ ms.locfileid: "28706043"
 <td><p>Appelé après la modification de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete</a></p></td>
+<td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete,</a></p></td>
 <td><p>Appelé après l'opération <strong>RollbackTrans</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -103,12 +103,12 @@ ms.locfileid: "28706043"
 <td><p>Appelé avant le début d'une connexion.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="willexecute-event-ado.md">WillExecute</a></p></td>
+<td><p><a href="willexecute-event-ado.md">WillExecute,</a></p></td>
 <td><p>Appelé juste avant qu'une commande en attente ne s'exécute sur cette connexion pour permettre à l'utilisateur d'examiner et de modifier les paramètres de la commande.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></p></td>
-<td><p>L’événement <strong>WillMove</strong> est appelé <em>avant</em> une opération en attente modifie la position actuelle dans le <strong>jeu d’enregistrements</strong>.</p></td>
+<td><p>L'événement <strong>WillMove</strong> est appelé <em>avant</em> qu'une opération en attente ne change la position actuelle dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23e1cab32fee6103a046219a7cda8c90f02d9f79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288938"
 ---
-# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Fournisseur Microsoft OLE DB pour le service Microsoft Active Directory
+# <a name="microsoft-ole-db-provider-for-microsoft-active-directory-service"></a>Fournisseur Microsoft OLE DB pour Microsoft Active Directory Service
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le fournisseur ADSI (Microsoft Active Directory Service Interfaces) permet à ADO de se connecter à des services d'annuaire hétérogènes via ADSI. Les applications ADO bénéficient ainsi d'un accès en lecture seule aux services d'annuaire de Microsoft Windows NT 4.0 et de Microsoft Windows 2000, ainsi qu'aux services d'annuaire Novell ou compatibles avec LDAP. ADSI est basé sur un modèle de fournisseur ; par conséquent, si un nouveau fournisseur donne accès à un autre annuaire, l'application ADO pourra y accéder de façon transparente. Le fournisseur ADSI est libre de thread et utilise Unicode.
 
 ## <a name="connection-string-parameters"></a>Paramètres de la chaîne de connexion
 
-Pour vous connecter à ce fournisseur, définissez l'argument **Provider** de la propriété [ConnectionString](connectionstring-property-ado.md) sur :
+Pour vous connecter à ce fournisseur, définissez l’argument **Provider** de la propriété [ConnectionString](connectionstring-property-ado.md) sur :
 
 ```vb 
  
@@ -33,7 +33,7 @@ La lecture de la propriété [Provider](provider-property-ado.md) renverra égal
 
 ## <a name="typical-connection-string"></a>Chaîne de connexion classique
 
-Voici une chaîne de connexion classique pour ce fournisseur :
+Voici une chaîne de connexion classique pour ce fournisseur :
 
 ```vb 
  
@@ -89,11 +89,11 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Root</em></p></td>
+<td><p><em>Racine</em></p></td>
 <td><p>Indique l'objet <strong>ADsPath</strong> à partir duquel lancer la recherche (c'est-à-dire la racine de la recherche).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Filtre</em></p></td>
 <td><p>Indique le filtre de recherche au format RFC 1960.</p></td>
 </tr>
 <tr class="odd">
@@ -101,10 +101,10 @@ Dans la syntaxe suivante, une chaîne de texte de commande en quatre parties est
 <td><p>Indique une liste délimitée par des virgules d'attributs à renvoyer.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Étendue</em></p></td>
-<td><p>Facultatif. <strong>Chaîne</strong> qui spécifie l’étendue de la recherche. Peut être une des opérations suivantes : Base — recherche uniquement l’objet de base (racine de la recherche).<br />
-Un niveau — Recherche uniquement un niveau.<br />
-Sous-arborescence — Recherche toute la sous-arborescence.</p></td>
+<td><p><em>Scope</em></p></td>
+<td><p>Facultatif. <strong>Chaîne</strong> spécifiant l'étendue de la recherche. Il peut s'agir de l'une des options suivantes: base — recherche uniquement l'objet de base (racine de la recherche).<br />
+OneLevel — Rechercher un seul niveau.<br />
+Subtree: recherche dans l'intégralité de la sous-arborescence.</p></td>
 </tr>
 </tbody>
 </table>
@@ -129,11 +129,11 @@ Le fournisseur n’accepte pas les appels de procédures stockées ni les noms d
 
 ## <a name="recordset-behavior"></a>Comportement des jeux d'enregistrements
 
-Les tableaux suivants répertorient les fonctionnalités disponibles pour un objet [Recordset](recordset-object-ado.md) ouvert avec ce fournisseur. Le type de curseur statique (**adOpenStatic**) est disponible.
+Les tableaux suivants répertorient les fonctionnalités disponibles pour un objet [Recordset](recordset-object-ado.md) ouvert avec ce fournisseur. Seul le type de curseur statique (**adOpenStatic**) est disponible.
 
 Pour obtenir des informations détaillées sur le comportement de l'objet **Recordset** en fonction de la configuration de votre fournisseur, exécutez la méthode [Supports](supports-method-ado.md) et passez en revue la collection [Properties](properties-collection-ado.md) du **Recordset** pour voir s'il existe des propriétés dynamiques spécifiques à ce fournisseur.
 
-Disponibilité des propriétés ADO standard d'un **Recordset**:
+Disponibilité des propriétés ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
@@ -149,27 +149,27 @@ Disponibilité des propriétés ADO standard d'un **Recordset**:
 <tbody>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
@@ -185,53 +185,53 @@ Disponibilité des propriétés ADO standard d'un **Recordset**:
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>non disponible</p></td>
+<td><p><a href="marshaloptions-property-ado.md">MarshalOptions,</a></p></td>
+<td><p>Non disponible</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>Lecture/écriture</p></td>
+<td><p>en lecture/écriture</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
-<td><p>Lecture seule</p></td>
+<td><p>en lecture seule</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Disponibilité des méthodes ADO standard d'un **Recordset**:
+Disponibilité des méthodes ADO standard d'un **Recordset** :
 
 <table>
 <colgroup>
@@ -241,7 +241,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <thead>
 <tr class="header">
 <th><p>Méthode</p></th>
-<th><p>Disponible ?</p></th>
+<th><p>Possibles?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -270,7 +270,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">
@@ -282,7 +282,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a></p></td>
+<td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">Méthodes</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
@@ -314,11 +314,11 @@ Disponibilité des méthodes ADO standard d'un **Recordset**:
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Prend en charge</a></p></td>
+<td><p><a href="supports-method-ado.md">Compatible</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Update</a></p></td>
+<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

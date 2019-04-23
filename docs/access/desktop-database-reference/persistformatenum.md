@@ -1,5 +1,5 @@
 ---
-title: PersistFormatEnum (référence de base de données du bureau Access)
+title: PersistFormatEnum (référence de base de données de bureau Access)
 TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4954c09c3eff67bb6f55dfc9e49464ad58fad5e6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287607"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie le format dans lequel enregistrer un objet [Recordset](recordset-object-ado.md).
 
@@ -43,17 +43,17 @@ Spécifie le format dans lequel enregistrer un objet [Recordset](recordset-objec
 </tr>
 <tr class="even">
 <td><p><strong>adPersistADO</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Indique que le format XML (Extensible Markup Language) propre à ADO sera utilisé. Cette valeur est identique à adPersistXML et autorise la compatibilité ascendante.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPersistXML</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Indique le format XML (Extensible Markup Language).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Indique que le fournisseur maintient <strong>Recordset</strong> à l'aide de son propre format.</p></td>
 </tr>
 </tbody>
@@ -75,10 +75,10 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.PersistFormat.ADTG</p></td>
+<td><p>AdoEnums. PersistFormat. ADTG</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.PersistFormat.XML</p></td>
+<td><p>AdoEnums. PersistFormat. XML</p></td>
 </tr>
 </tbody>
 </table>

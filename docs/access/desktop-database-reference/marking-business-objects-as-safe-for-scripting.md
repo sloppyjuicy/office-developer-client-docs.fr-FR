@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fe5d331b7f3ab4685cb930323076d111a25ec68e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289776"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>Marquage d’objets métiers comme fiables pour l’écriture de scripts
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Pour sécuriser un environnement Internet, vous devez marquer les objets métier instanciés avec la méthode [CreateObject](dataspace-object-rds.md) de l'objet [RDS.DataSpace](createobject-method-rds.md) comme étant « sûrs pour l'écriture de scripts ». Vous devez vérifier qu'ils sont reconnus en tant que tels dans la zone License du Registre système pour pouvoir les utiliser dans DCOM.
 
@@ -30,13 +30,13 @@ Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}]
 Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}] 
 ```
 
-où \< *MyActiveXGUID* \> correspond au numéro GUID hexadécimal de votre objet métier. Enregistrer et fusionner dans votre Registre à l’aide de l’Éditeur du Registre ou en double-cliquant sur le fichier .reg dans l’Explorateur Windows.
+où \< *MyActiveXGUID* \> est le numéro de GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
 
-Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sûrs pour l’écriture de scripts » avec l’Assistant Empaquetage et déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
+Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme étant «sûrs pour l'écriture de scripts» dans l'Assistant emPaquetage et déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
 
 En dernier lieu, l'Assistant Configuration de l'application crée un fichier .htm et un fichier .cab. Vous pouvez copier ces deux fichiers sur l'ordinateur cible et double-cliquer sur le fichier .htm pour charger la page et enregistrer correctement le serveur.
 
-Étant donné que l’objet métier sera installé dans les fenêtres\\System32\\Occache répertoire par défaut, déplacez-le à Windows\\répertoire System32 et modifier la **HKEY\_CLASSES\_racine\\CLSID\\ ** \< *MyActiveXGUID*\>\\clé de Registre**InprocServer32** pour faire correspondre le chemin d’accès correct.
+Étant donné que l'objet métier est installé par défaut\\dans\\le répertoire Windows system32 occache, déplacez-le vers\\le répertoire Windows system32 et modifiez le **CLSID\\\\ racine de la classe\_\_HKEY** . \<Clé de Registre *MyActiveXGUID*\>\\**InprocServer32** correspondant au chemin d'accès correct.
 
 
 > [!NOTE]

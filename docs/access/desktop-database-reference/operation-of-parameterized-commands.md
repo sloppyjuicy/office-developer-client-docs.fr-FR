@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 145a2ee6c3d3c614eb9660350a0bb8a00d44d04c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288286"
 ---
 # <a name="operation-of-parameterized-commands"></a>Fonctionnement des commandes paramétrées
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Si vous utilisez un **jeu d'enregistrements** enfant de taille imposante, notamment par rapport à celle du **jeu d'enregistrements** parent, mais que vous n'avez besoin d'accéder qu'à un nombre réduit de chapitres enfant, nous vous conseillons d'utiliser une commande paramétrée.
 
-Une *commande non paramétrée* extrait l’intégralité du parent et les **jeux d’enregistrements**enfant, ajoute une colonne de chapitre au parent, puis affecte une référence au chapitre enfant associé de chaque ligne parent.
+Une *commande non paramétrée* extrait l'intégralité des **jeux d'enregistrements** enfant et parent, ajoute une colonne de chapitre au parent, puis affecte une référence au chapitre enfant associé de chaque ligne parent.
 
-Une *commande paramétrée* extrait l’intégralité du **jeu d’enregistrements**parent, mais n’extrait le chapitre **Recordset** lorsque la colonne de chapitre est accessible. Cette différence dans la méthode d'extraction apporte des améliorations considérables en matière de performances.
+Une *commande paramétrée* extrait l'intégralité du **jeu d'enregistrements** parent, mais n'extrait le **jeu d'enregistrements** de chapitre que lorsque vous accédez à la colonne de chapitre. Cette différence dans la méthode d'extraction apporte des améliorations considérables en matière de performances.
 
 Vous pouvez par exemple spécifier ce qui suit :
 
@@ -33,20 +33,20 @@ SHAPE {SELECT * FROM customer}
  RELATE cust_id TO PARAMETER 0) 
 ```
 
-Les tables parent et enfant ont un nom de colonne dans des clients communs,\_id *.* La *commande-enfant* possède un espace réservé « ? », à laquelle fait référence la clause associer (autrement dit, »... PARAMÈTRE DE 0").
+Les tables parent et enfant ont un nom de colonne en commun,\_ID client *.* La *commande Child* a un espace réservé «?» auquel la clause relate fait référence (c'est-à-dire, «... PARAMÈTRE 0).
 
 > [!NOTE]
 > [!REMARQUE] La clause PARAMETER appartient uniquement à la syntaxe de commande de mise en forme. Elle n'est associée ni à l'objet [Parameter](parameter-object-ado.md), ni à la collection [Parameters](parameters-collection-ado.md) ADO.
 
 Lors de l'exécution de la commande de mise en forme paramétrée, l'opération suivante se produit :
 
-1.  La *commande-parent* est exécutée et renvoie un **objet Recordset** parent à partir de la table clients.
+1.  La *commande-parent* est exécutée et renvoie un **jeu d'enregistrements** parent de la table Customers.
 
 2.  Une colonne de chapitre est ajoutée au **jeu d'enregistrements** parent.
 
-3.  Lorsque vous accédez à la colonne de chapitre d’une ligne parent, la *commande-enfant* est exécutée à l’aide de la valeur de la customer.cust\_id comme valeur du paramètre.
+3.  Lorsque vous accédez à la colonne de chapitre d'une ligne parente, la *commande Child-Command* est exécutée à l'aide\_de la valeur de l'ID Customer. cust comme valeur du paramètre.
 
-4.  Toutes les lignes du jeu de lignes du fournisseur de données créées à l'étape 3 sont utilisées pour renseigner le **jeu d'enregistrements** enfant. Dans cet exemple, c'est-à-dire toutes les lignes dans la table Orders dans lequel la client\_id est égal à la valeur de customer.cust\_id. Par défaut, les **objets Recordset**enfants sont mis en cache sur le client jusqu'à ce que toutes les références à **l’objet Recordset** parent sont libérées. Pour modifier ce comportement, définissez la [propriété dynamique](ado-dynamic-property-index.md)du **Recordset** **Cache Child Rows** sur **False**.
+4.  Toutes les lignes du jeu de lignes du fournisseur de données créées à l’étape 3 sont utilisées pour renseigner le **jeu d’enregistrements** enfant. Dans cet exemple, il s'agit de toutes les lignes de la table Orders dont\_l'ID cust est égal à la valeur de\_Customer. Customer ID. Par défaut, les **jeux d’enregistrements** enfant sont mis en cache sur le client jusqu’à ce que toutes les références au **jeu d’enregistrements** parent soient extraites. Pour modifier ce comportement, affectez la **valeur false**aux**lignes enfants du cache** de [propriétés dynamiques](ado-dynamic-property-index.md)du **jeu d'enregistrements** .
 
 5.  Une référence aux lignes enfant extraites (c'est-à-dire le chapitre du **jeu d'enregistrements** enfant) est placée dans la colonne de chapitre de la ligne active du **jeu d'enregistrements** parent.
 
@@ -69,11 +69,11 @@ Rst1.MovePrevious ' RstChild now holds cached rs, saving round trip.
 
 Dans une requête avec deux paramètres ou plus, un enfant mis en cache est utilisé uniquement si toutes les valeurs de paramètre correspondent aux valeurs mises en cache.
 
-## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Commandes paramétrées et relations enfant-parent complexes
+## <a name="parameterized-commands-and-complex-parent-child-relations"></a>Commandes paramétrées et relations enfants complexes
 
-Les commandes paramétrées permettent non seulement d'améliorer les performances en terme de hiérarchie de type équi-jointure, mais elles peuvent également être utilisées pour la prise en charge de relations parent-enfant plus complexes. Par exemple, imaginons une base de données Little League avec deux tables : un constitué des équipes (team\_id, l’équipe\_nom) et l’autre des jeux (date, accueil\_équipe, visitez\_équipe).
+Les commandes paramétrées permettent non seulement d'améliorer les performances en terme de hiérarchie de type équi-jointure, mais elles peuvent également être utilisées pour la prise en charge de relations parent-enfant plus complexes. Par exemple, considérez une base de données de la ligue avec deux tables: une qui se\_compose des équipes\_(ID d'équipe, nom de l'équipe) et\_l'autre des\_jeux (date, équipe d'accueil, équipe de visite).
 
-Avec une hiérarchie non paramétrée, vous ne pouvez en aucun cas relier les deux tables de telle sorte que le **jeu d'enregistrements** enfant de chaque équipe contienne l'ensemble de son calendrier. Vous pouvez créer des chapitres contenant le calendrier à domicile ou le calendrier à l'extérieur, mais pas les deux. Ceci s'explique par le fait que la clause RELATE vous limite à des relations parent-enfant de type (pc1=cc1) AND (pc2=pc2). Par conséquent, si votre commande inclut « équipe associer\_accueil d’à id\_équipe, l’équipe\_id à visiter\_équipe », vous obtenez uniquement les jeux où une équipe lu lui-même. Vous souhaitez » (équipe\_id = home\_équipe) ou (équipe\_id = sur le site\_équipe) », mais le fournisseur Shape ne prend pas en charge la clause OR.
+Avec une hiérarchie non paramétrée, vous ne pouvez en aucun cas relier les deux tables de telle sorte que le **jeu d'enregistrements** enfant de chaque équipe contienne l'ensemble de son calendrier. Vous pouvez créer des chapitres contenant le calendrier à domicile ou le calendrier à l'extérieur, mais pas les deux. Ceci s'explique par le fait que la clause RELATE vous limite à des relations parent-enfant de type (pc1=cc1) AND (pc2=pc2). PAR conséquent, si votre commande inclut «associer\_l'ID d'\_équipe à l'\_équipe personnelle,\_l'ID d'équipe à l'équipe de visite», vous n'obtiendrez que les jeux dans lesquels une équipe s'était jouée. Ce que vous souhaitez est «(\_ID d'équipe\_= Accueil Team) ou\_(ID d'\_équipe = équipe de visite)», mais le fournisseur de formes ne prend pas en charge la clause or.
 
 Pour obtenir le résultat souhaité, vous pouvez utiliser une commande paramétrée. Par exemple :
 

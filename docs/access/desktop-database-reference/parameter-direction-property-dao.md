@@ -1,5 +1,5 @@
 ---
-title: Propriété Parameter.Direction (DAO)
+title: Parameter. direction, propriété (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822422(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3260fd3f01e8ca22d5be4f8d14f6376c31e2735a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288090"
 ---
-# <a name="parameterdirection-property-dao"></a>Propriété Parameter.Direction (DAO)
+# <a name="parameterdirection-property-dao"></a>Parameter. direction, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Direction
+*expression* . Directionnel
 
 *expression* Variable qui représente un objet **Parameter** .
 
@@ -36,9 +36,9 @@ Le paramètre ou la valeur de retour est une valeur longue pouvant être défini
 
 La propriété **Direction** permet de déterminer si le paramètre est un paramètre d'entrée, de sortie, ou les deux, ou la valeur de retour de la procédure. Certains pilotes ODBC ne fournissent aucune information sur la direction des paramètres vers une instruction SELECT ou une invocation de procédure. Dans ce cas, il convient de définir la direction avant d'exécuter la requête.
 
-Par exemple, la procédure suivante renvoie une valeur à partir d’une procédure stockée appelée « obtenir\_employés » :
+Par exemple, la procédure suivante renvoie une valeur à partir d'une procédure stockée\_appelée «Get Employees»:
 
-{? = appel get\_employés}
+{? = appeler get\_employés}
 
 Cet appel produit un paramètre : la valeur de retour. Vous devez définir la direction de ce paramètre sur **dbParamOutput** ou **dbParamReturnValue** avant d'exécuter l'objet **[QueryDef](querydef-object-dao.md)**.
 

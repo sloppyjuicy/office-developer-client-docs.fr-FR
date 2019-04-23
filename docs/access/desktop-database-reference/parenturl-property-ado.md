@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e3735147f813d904c206910ff319913f056946e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707814"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287716"
 ---
 # <a name="parenturl-property-ado"></a>ParentURL, propriété (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique la chaîne d'URL absolue qui pointe vers l'objet [Record](record-object-ado.md) parent de l'objet **Record** actif.
 
@@ -26,7 +26,7 @@ Renvoie une valeur **String** qui indique l'URL de l'objet **Record** parent.
 
 ## <a name="remarks"></a>Remarques
 
-La propriété **ParentURL** dépend de la source utilisée pour ouvrir l'objet **Record**. Cet objet **Record** peut par exemple être ouvert avec une source contenant le nom du chemin d'accès relatif à un répertoire référencé par la propriété [ActiveConnection](activeconnection-property-ado.md).
+La propriété **ParentURL** dépend de la source utilisée pour ouvrir l’objet **Record**. Cet objet **Record** peut par exemple être ouvert avec une source contenant le nom du chemin d’accès relatif à un répertoire référencé par la propriété [ActiveConnection](activeconnection-property-ado.md).
 
 Supposons que « second » est un sous-dossier de « first ». Ouvrez l'objet **Record** comme indiqué ci-dessous :
 
@@ -35,13 +35,13 @@ Supposons que « second » est un sous-dossier de « first ». Ouvrez l'objet **
     record.Open "second"
 ```
 
-À présent, la valeur de la propriété **ParentURL** est la propriété **ParentURL** devient «https://first», comme **ActiveConnection**.
+À présent, la valeur de la propriété **ParentURL** est la propriété **ParentURL** est «https://first», à savoir **ActiveConnection**.
 
-La source peut également être une URL absolue, tel que «https://first/second». La propriété **ParentURL** devient alors «https://first», le niveau au-dessus. La propriété **ParentURL** devient alors «https://first», le niveau supérieur « seconde ».
+La source peut également être une URL absolue telle que, "https://first/second". La propriété **ParentURL** est ensuite «https://first», le niveau ci-dessus. La propriété **ParentURL** est ensuite "https://first", le niveau au-dessus de "second".
 
-La valeur de cette propriété peut être nulle si :
+La valeur de cette propriété peut être nulle si :
 
-- L'objet actuel n'a pas de parent ; par exemple si l'objet **Record** est la racine d'un répertoire.
+- L'objet actuel n'a pas de parent ; par exemple si l'objet **Record** est la racine d'un répertoire.
 
 - L'objet **Record** représente une entité qui ne peut pas être spécifiée avec une URL.
 
@@ -49,8 +49,8 @@ Cette propriété est en lecture seule.
 
 
 > [!NOTE]
-> - [!REMARQUE] Cette propriété n'est prise en charge que par les fournisseurs sources des documents, comme le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, voir [Enregistrements et champs spécifiques au fournisseur](records-and-provider-supplied-fields.md).
-> - [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le fournisseur Microsoft OLE DB pour la publication Internet. Pour plus d'informations, voir [URL relatives et absolues](absolute-and-relative-urls.md). 
-> - [!REMARQUE] Si l'enregistrement actuel contient un enregistrement de données provenant d'un **Recordset** ADO, l'accès à la propriété **ParentURL** génère une erreur d'exécution, indiquant qu'aucune URL n'est possible.
+> - Cette propriété n’est prise en charge que par les fournisseurs sources des documents, comme le [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [Enregistrements et champs spécifiques au fournisseur](records-and-provider-supplied-fields.md).
+> - Les URL qui utilisent le schéma http appellent automatiquement le fournisseur Microsoft OLE DB pour la publication Internet. Pour plus d’informations, voir [URL relatives et absolues](absolute-and-relative-urls.md). 
+> - Si l'enregistrement actuel contient un enregistrement de données provenant d'un **Recordset** ADO, l'accès à la propriété **ParentURL** génère une erreur d'exécution, indiquant qu'aucune URL n'est possible.
 
 

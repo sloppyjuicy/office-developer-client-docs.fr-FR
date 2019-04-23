@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 53e51f2386658ee975ec8847f7e5550ac22bbd8e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281900"
 ---
-# <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_ENUM
+# <a name="adcpropasyncthreadpriorityenum"></a>ADCPROP\_ASYNCTHREADPRIORITY\_de l'énumération
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Pour un objet [Recordset](recordset-object-ado.md) RDS, spécifie la priorité d'exécution du thème asynchrone qui recherche des données.
+Pour un objet [Recordset](recordset-object-ado.md) RDS, spécifie la priorité d’exécution du thème asynchrone qui recherche des données.
 
 Utilisez ces constantes avec la propriété dynamique « **Background Thread Priority** » du **Recordset**, qui est référencée dans l’index des propriétés dynamiques ADO et expliquée dans la documentation [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md).
 
@@ -45,17 +45,17 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Définit le niveau de priorité, minimum ou normal.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityHighest</strong></p></td>
-<td><p>5</p></td>
+<td><p>disque</p></td>
 <td><p>Définit le niveau de priorité le plus élevé possible.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Définit le niveau de priorité le plus bas possible.</p></td>
 </tr>
 <tr class="odd">
@@ -81,19 +81,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. ABOVENORMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. BELOWNORMAL</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. HIGHEST</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. minimum</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
+<td><p>AdoEnums. AdcPropAsyncThreadPriority. NORMAL</p></td>
 </tr>
 </tbody>
 </table>

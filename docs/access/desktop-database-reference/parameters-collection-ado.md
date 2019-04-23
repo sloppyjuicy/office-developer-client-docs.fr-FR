@@ -1,5 +1,5 @@
 ---
-title: Parameters, collection (ADO)
+title: ParaMeters, collection (ADO)
 TOCTitle: Parameters collection (ADO)
 ms:assetid: 554387c3-3572-5391-3b24-c7d3443844cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249283(v=office.15)
@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: feb24e0f498e02bae01ef689a2ad62e487e314bc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287943"
 ---
-# <a name="parameters-collection-ado"></a>Parameters, collection (ADO)
+# <a name="parameters-collection-ado"></a>ParaMeters, collection (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient tous les objets [Parameter](parameter-object-ado.md) d'un objet [Command](command-object-ado.md).
+Contient tous les objets [Parameter](parameter-object-ado.md) d’un objet [Command](command-object-ado.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet **Command** possède une collection **Parameters** composée d'objets **Parameter**.
 

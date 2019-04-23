@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b37ccc0c9a61e00b3c2e8f5eb3367831e5ddea43
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288118"
 ---
 # <a name="pagecount-property-ado"></a>PageCount, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nombre de pages de données que contient l'objet [Recordset](recordset-object-ado.md).
 
@@ -27,7 +27,7 @@ Retourne une valeur de type **Long** qui indique le nombre de pages dans le **Re
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la propriété **PageCount** pour déterminer le nombre de pages que contient l'objet **Recordset**. *Les pages* sont des groupes d’enregistrements dont la taille est égale à [la propriété PageSize](pagesize-property-ado.md) . Même si la dernière page est incomplète et que le nombre d'enregistrements qu'elle contient est inférieur à la valeur de **PageSize**, elle est considérée comme une page supplémentaire dans la valeur **PageCount**. Si l'objet **Recordset** ne prend pas en charge cette propriété, la valeur sera -1, pour indiquer que la propriété **PageCount** ne peut pas être déterminée.
+Utilisez la propriété **PageCount** pour déterminer le nombre de pages que contient l’objet **Recordset**. Les *Pages* sont des groupes d’enregistrements dont la taille est égale à la valeur de la propriété [PageSize](pagesize-property-ado.md). Même si la dernière page est incomplète et que le nombre d’enregistrements qu’elle contient est inférieur à la valeur de **PageSize**, elle est considérée comme une page supplémentaire dans la valeur **PageCount**. Si l’objet **Recordset** ne prend pas en charge cette propriété, la valeur sera -1, pour indiquer que la propriété **PageCount** ne peut pas être déterminée.
 
 Pour plus d'informations sur les fonctionnalités relatives aux pages, voir les propriétés **PageSize** et [AbsolutePage](absolutepage-property-ado.md).
 

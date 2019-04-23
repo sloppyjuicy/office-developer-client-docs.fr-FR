@@ -1,5 +1,5 @@
 ---
-title: Exemple de modèle d’événements ADO (VC ++)
+title: Exemple de modèle d'événements ADO (VC + +)
 TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283351"
 ---
-# <a name="ado-events-model-example-vc"></a>Exemple de modèle d’événements ADO (VC ++)
+# <a name="ado-events-model-example-vc"></a>Exemple de modèle d'événements ADO (VC + +)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique de l’instanciation du modèle d’événements dans l’environnement créé par la ** \#importer** directive.
+La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique d'instanciation du modèle d'événement dans l'environnement créé par la ** \#directive import** .
 
-Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, certains détails de la description générale changent légèrement suite à l’aide de la ** \#importer** directive :
+Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, quelques détails de la description générale changent légèrement en raison de l'utilisation de la ** \#directive import** :
 
-- Le ** \#importer** directive résout **typedef**du et les types de données de signatures de méthodes et les modificateurs leur forme fondamentale.
+- La directive ** \#Import** résout les modificateurs et les types de données des signatures **typedef**et de la méthode en leurs formes fondamentales.
 
-- Les méthodes virtuelles pures qui doivent être écrasées portent toutes le préfixe par «**brutes\_**».
+- Les méthodes virtuelles pures qui doivent être remplacées sont toutes précédées du préfixe «**RAW\_**».
 
 Une partie du code reflète simplement un style de codage.
 
@@ -34,13 +34,13 @@ Une partie du code reflète simplement un style de codage.
 
 - Il peut s'avérer judicieux de coder des implémentations plus fiables de QueryInterface, AddRef et Release.
 
-- Le ** \_ \_uuidof()** directive est utilisée pour obtenir l’ID d’interface.
+- La directive ** \_ \_uuidof ()** est très souvent utilisée pour obtenir des ID d'interface.
 
 Enfin, l'exemple contient des parties de code exploitables.
 
 - L'exemple est écrit en tant qu'application console.
 
-- Vous devez insérer votre propre code sous le commentaire « / / effectuent ».
+- Vous devez insérer votre propre code sous le commentaire «//do some Work».
 
 - Par défaut, tous les gestionnaires d'événements ne font rien et annulent toute notification ultérieure. Vous devez insérer le code approprié à votre application et autoriser l'envoi de notifications si besoin est.
 

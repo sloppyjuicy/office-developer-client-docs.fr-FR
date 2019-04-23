@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet paramètres (DAO)
+title: Référence d'objet paraMeters (DAO)
 TOCTitle: Parameters Object
 ms:assetid: c39f8d6f-74c0-46b9-bc2c-853b974a2006
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161302(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4bf4a5069af7603916308daa6d41291023379dfc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287831"
 ---
-# <a name="parameters-object-reference-dao"></a>Référence d’objet paramètres (DAO)
+# <a name="parameters-object-reference-dao"></a>Référence d'objet paraMeters (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Parameters, collection (DAO)](parameters-collection-dao.md)
-- [Membres de paramètres (DAO)](parameters-members-dao.md)
-- [Propriétés des paramètres (DAO)](parameters-properties-dao.md)
-- [Méthodes de paramètres (DAO)](parameters-methods-dao.md)
+- [ParaMeters, collection (DAO)](parameters-collection-dao.md)
+- [ParaMeters, membres (DAO)](parameters-members-dao.md)
+- [Propriétés paraMeters (DAO)](parameters-properties-dao.md)
+- [Méthodes paraMeters (DAO)](parameters-methods-dao.md)
 

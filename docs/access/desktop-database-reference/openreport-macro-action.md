@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: cff57a185d226328792bef79072dfc46c6134f98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288349"
 ---
 # <a name="openreport-macro-action"></a>OpenReport, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Faites appel à l'action **OuvrirEtat** pour ouvrir un état en mode Création ou Aperçu avant impression ou pour envoyer l'état directement à l'imprimante. Vous pouvez également limiter les enregistrements qui sont imprimés dans l'état.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **OuvrirEtat** possède les arguments suivants.
+L’action **OuvrirEtat** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -41,29 +41,29 @@ L'action **OuvrirEtat** possède les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom de l’état</p></td>
-<td><p>Nom de l'état à ouvrir. La zone <strong>Nom de l'état</strong> de la section <strong>Arguments de l'action</strong> du volet <strong>Générateur de macro</strong> présente tous les états dans la base de données actuelle. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action OpenReport dans une base de données bibliothèque, Microsoft Access recherche d'abord l'état portant ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.  </p></td>
+<td><p>Nom du rapport</p></td>
+<td><p>Nom de l'état à ouvrir. La zone <strong>Nom de l'état</strong> de la section <strong>Arguments de l'action</strong> du volet <strong>Générateur de macro</strong> présente tous les états dans la base de données actuelle. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action OpenReport dans une base de données bibliothèque, Microsoft Access recherche d'abord l'état portant ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 <tr class="even">
 <td><p>View</p></td>
 <td><p>Affichage dans lequel s'ouvre l'état. Cliquez sur <strong>Imprimer</strong> (imprime l'état immédiatement), <strong>Création</strong> ou <strong>Aperçu avant impression</strong> dans la zone <strong>Affichage</strong>. La valeur par défaut est <strong>Imprimer</strong>.  </p></td>
 </tr>
 <tr class="odd">
-<td><p>Filter Name</p></td>
+<td><p>Nom du filtre</p></td>
 <td><p>Filtre qui limite les enregistrements de l'état. Vous pouvez entrer le nom d'une requête existante quelconque ou d'un filtre enregistré en tant que requête. La requête doit toutefois inclure tous les champs de l'état que vous ouvrez, ou sa propriété <strong>TousLesChamps</strong> doit avoir la valeur <strong>Oui</strong>.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Where Condition</p></td>
-<td><p>Clause ou expression WHERE SQL valable (sans le mot WHERE) utilisée par Access pour sélectionner des enregistrements dans la table ou requête sous-jacente de l'état. Si vous sélectionnez un filtre avec l’argument nom du filtre, Access applique cette clause WHERE aux résultats du filtre. Pour ouvrir un état et limiter ses enregistrements à ceux spécifiés par la valeur d’un contrôle d’un formulaire, utilisez l’expression suivante :<br />
-<strong>[</strong><em>nomchamp</em><strong>] = Forms![</strong><em>nomformulaire</em><strong>]![</strong><em>nomcontrôle formulaire</em><strong>]</strong><br />
-Remplacez <em>fieldname</em> par le nom d’un champ dans la table ou requête sous-jacente du rapport que vous souhaitez ouvrir. Remplacez <em>formname</em> et <em>NomContrôle formulaire</em> par le nom du formulaire et le contrôle du formulaire qui contient la valeur à laquelle les enregistrements du rapport doivent correspondre.</p>
-<p><b>Remarque</b>: la longueur maximale de l’argument Condition Where est de 255 caractères. Si vous devez entrer une clause SQL WHERE plus complexe et plus longue, utilisez la méthode <b>OpenReport</b> de l’objet <b>DoCmd</b> dans un Visual Basic pour le module d’Applications (VBA) à la place. Vous pouvez entrer des instructions de clause SQL WHERE jusqu'à 32 768 caractères dans VBA.</p>
+<td><p>Condition Where</p></td>
+<td><p>Clause ou expression WHERE SQL valable (sans le mot WHERE) utilisée par Access pour sélectionner des enregistrements dans la table ou requête sous-jacente de l'état. Si vous sélectionnez un filtre avec l'argument Nom du filtre, Access applique cette clause WHERE aux résultats du filtre. Pour ouvrir un rapport et limiter ses enregistrements à ceux spécifiés par la valeur d'un contrôle sur un formulaire, utilisez l'expression suivante:<br />
+<strong>[</strong><em>nom_champ</em><strong>] = formulaires! [</strong><em>NomFormulaire</em><strong>]! [</strong><em>nomcontrôle sur le formulaire</em><strong>]</strong><br />
+Remplacez <em>fieldName</em> par le nom d'un champ dans la table ou la requête sous-jacente de l'état que vous voulez ouvrir. Remplacez <em>nom_formulaire</em> et <em>nom_contrôle dans le formulaire</em> par le nom du formulaire et du contrôle dans le formulaire qui contient la valeur avec laquelle vous souhaitez que les enregistrements de l’état correspondent.</p>
+<p><b>Remarque</b>: la longueur maximale de l'argument condition WHERE est de 255 caractères. If you need to enter a more complex SQL WHERE clause longer than this, use the <b>OpenReport</b> method of the <b>DoCmd</b> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p>Window Mode</p></td>
-<td><p>Mode dans lequel s'ouvre l'état. Cliquez sur <strong>Standard</strong>, <strong>Masqué</strong>, <strong>Icône</strong> ou <strong>Boîte de dialogue</strong> dans la zone <strong>Mode Fenêtre</strong>. La valeur par défaut est <strong>Standard</strong>.  </p>
-<p><b>Remarque</b>: paramètres de l’argument Mode fenêtre certains ne s’appliquent pas à l’aide des documents à onglets. Pour activer des fenêtres superposées :
+<td><p>Mode Fenêtre</p></td>
+<td><p>Mode dans lequel s'ouvre l'état. Cliquez sur <strong>Standard</strong>, <strong>Masqué</strong>, <strong>Icône</strong> ou <strong>Boîte de dialogue</strong> dans la zone <strong>Mode Fenêtre</strong>. La valeur par défaut est <strong>Standard</strong>.</p>
+<p><b>Remarque</b>: certains paramètres de l'argument mode fenêtre ne s'appliquent pas lorsque vous utilisez des documents à onglets. Pour passer à des fenêtres superposées :
 <ol>
 <li><p>Cliquez sur <strong>Options</strong>.</p></li>
 <li><p>Dans la boîte dialogue <strong>Options Access</strong>, cliquez sur <strong>Base de données active</strong>.</p></li>
@@ -85,15 +85,15 @@ Le filtre et la condition WHERE que vous appliquez deviennent le paramètre de l
 L'action **OuvrirEtat** équivaut à double-cliquer sur l'état dans le volet de navigation ou à cliquer avec le bouton droit sur l'état dans le volet de navigation et à choisir un affichage ou la commande **Imprimer**.
 
 > [!TIP] 
-> - Pour imprimer des états similaires pour différentes séries de données, utilisez un filtre ou une clause WHERE pour limiter les enregistrements imprimés dans l'état. Ensuite, modifiez la macro pour appliquer un autre filtre ou modifier l’argument Condition Where.
+> - Pour imprimer des états similaires pour différentes séries de données, utilisez un filtre ou une clause WHERE pour limiter les enregistrements imprimés dans l'état. Ensuite, modifiez la macro pour appliquer un autre filtre ou modifier l'argument condition WHERE.
 > 
 > - Vous pouvez faire glisser un état depuis le volet de navigation vers une ligne d'action de macro. Ceci crée automatiquement une action **OuvrirEtat** qui ouvre l'état en mode État.
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action OpenReport pour transmettre un paramètre qui permet de filtrer un état lorsqu'il est ouvert. Le rapport **rptChapters** affiche les enregistrements de l’auteur spécifié en transmettant l’élément sélectionné dans la zone de liste déroulante **cboAuthors** pour le paramètre SelectedAuthor.
+L'exemple suivant montre comment utiliser l'action OpenReport pour transmettre un paramètre qui permet de filtrer un état lorsqu'il est ouvert. Le rapport **rptChapters** affiche les enregistrements pour l'auteur spécifié en transmettant l'élément sélectionné dans la zone de liste déroulante **CboAuthors** au paramètre SelectedAuthor.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OpenReport

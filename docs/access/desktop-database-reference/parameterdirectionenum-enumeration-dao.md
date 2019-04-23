@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d467f66da41559e607520a4328388c41843bc87
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287987"
 ---
 # <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cette énumération est utilisée avec la propriété **Direction** pour spécifier le type d'un objet **Parameter**.
 
@@ -37,7 +37,7 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 <tbody>
 <tr class="odd">
 <td><p>dbParamInput</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>(Valeur par défaut) Transmet des informations à la procédure.</p></td>
 </tr>
 <tr class="even">
@@ -46,8 +46,8 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 <td><p>Transmet des informations de la procédure et à la procédure.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbParamOutput</p></td>
-<td><p>2</p></td>
+<td><p>Plutôt dbParamOutput</p></td>
+<td><p>n°2</p></td>
 <td><p>Renvoie des informations de la procédure en tant que paramètre de sortie dans SQL.</p></td>
 </tr>
 <tr class="even">

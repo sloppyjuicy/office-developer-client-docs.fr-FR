@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f6fbfbd7008919cc4d784a4d0468d8471d102708
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288664"
 ---
 # <a name="name-property-ado"></a>Name, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nom d'un objet.
 
@@ -35,5 +35,5 @@ Pour un objet **Field**, **Name** est généralement en lecture seule. Toutefois
 
 Pour les objets **Parameter** qui n'ont pas encore été ajoutés à la collection [Parameters](parameters-collection-ado.md), la propriété **Name** est accessible en lecture/écriture. Pour les objets **Parameter** ajoutés et tous les autres objets, la propriété **Name** est en lecture seule. Les noms peuvent exister en double au sein de la même collection.
 
-Vous pouvez récupérer la propriété **Name** d'un objet par référence ordinale, après quoi vous pouvez directement faire référence à l'objet par son nom. Par exemple, si rstMain.Properties (20). Nom de produit de mise à jour, vous pouvez ensuite référencer cette propriété comme mise à jour de produit, vous pouvez ensuite référencer cette propriété en tant que rstMain.Properties("Updatability").
+Vous pouvez retrouver la propriété **Nom** d'un objet par une référence ordinale, après laquelle il est possible de référencer directement le nom de l'objet. Par exemple, si rstMain. Properties (20). Name produit une possibilité de mise à jour, vous pouvez ensuite faire référence à cette propriété comme yield Retention, vous pouvez ensuite faire référence à cette propriété en tant que rstMain. Properties ("Updatable").
 

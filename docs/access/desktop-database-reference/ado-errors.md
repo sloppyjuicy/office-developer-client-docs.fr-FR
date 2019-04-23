@@ -1,5 +1,5 @@
 ---
-title: Erreurs ActiveX Data Objects (ADO)
+title: Erreurs ADO (ActiveX Data Objects)
 TOCTitle: ADO errors
 ms:assetid: 02fcf563-ce2d-9ef7-b8ae-2795f667335a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248796(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a25dc0d1d5e621a610b34ca1875c3fd76ba56eb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283379"
 ---
 # <a name="ado-errors"></a>Erreurs ADO
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Les erreurs ADO sont signalées à votre programme comme des erreurs d'exécution. Vous pouvez utiliser le mécanisme de récupération des erreurs associé à votre langage de programmation pour les récupérer et les gérer. Par exemple, dans Visual Basic, utilisez l'instruction **On Error**. Dans Visual J++, utilisez un bloc **try/catch**. Dans Visual C++, cela dépend de la méthode que vous utilisez pour accéder aux bibliothèques ADO. Avec \#d’importation, utilisez un bloc **try-catch** . Dans les autres cas, les programmateurs C++ doivent extraire l'objet Error explicitement en appelant **GetErrorInfo**. La procédure Sub Visual Basic suivante illustre la récupération d'une erreur ADO :
+Les erreurs ADO sont signalées à votre programme comme des erreurs d'exécution. Vous pouvez utiliser le mécanisme de récupération des erreurs associé à votre langage de programmation pour les récupérer et les gérer. Par exemple, dans Visual Basic, utilisez l'instruction **On Error**. Dans Visual J++, utilisez un bloc **try/catch**. Dans Visual C++, cela dépend de la méthode que vous utilisez pour accéder aux bibliothèques ADO. Avec \#Import, utilisez un bloc **try-catch** . Dans les autres cas, les programmateurs C++ doivent extraire l'objet Error explicitement en appelant **GetErrorInfo**. La procédure Sub Visual Basic suivante illustre la récupération d'une erreur ADO :
 
 ```vb 
  
@@ -77,7 +77,7 @@ End Sub
 ' EndErrorHandlingVB01 
 ```
 
-Cela **formulaire\_charge** procédure événementielle crée intentionnellement une erreur lorsque vous essayez d’ouvrir le même objet **Connection** à deux reprises. Lors du deuxième appel de la méthode **Open**, le gestionnaire d'erreurs est activé. Dans ce cas, l'erreur est de type **adErrObjectOpen** et le gestionnaire d'erreurs affiche alors le message suivant avant de reprendre l'exécution du programme :
+Cette procédure événementielle **Load de formulaire\_** crée intentionnellement une erreur en tentant d'ouvrir le même objet **Connection** à deux reprises. Lors du deuxième appel de la méthode **Open**, le gestionnaire d'erreurs est activé. Dans ce cas, l'erreur est de type **adErrObjectOpen** et le gestionnaire d'erreurs affiche alors le message suivant avant de reprendre l'exécution du programme :
 
 ```vb 
 Error #3705: Operation is not allowed when the object is open. 

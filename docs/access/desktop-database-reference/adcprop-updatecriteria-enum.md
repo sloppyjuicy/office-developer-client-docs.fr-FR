@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8be93b0b7e4b32e3c040e871ff7d97a95f1e247e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704307"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282851"
 ---
-# <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_ENUM
+# <a name="adcpropupdatecriteriaenum"></a>ADCPROP\_UPDATECRITERIA\_de l'énumération
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique les champs qui peuvent être utilisés pour détecter les conflits pendant une mise à jour optimiste d'une ligne de la source de données avec un objet [Recordset](recordset-object-ado.md).
 
@@ -40,7 +40,7 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 <tbody>
 <tr class="odd">
 <td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Détecte des conflits en cas de modification d'une ligne de la source de données.</p></td>
 </tr>
 <tr class="even">
@@ -55,7 +55,7 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaUpdCols</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Détecte des conflits si une des colonnes de la ligne de source de données correspondant aux champs mis à jour du <strong>Recordset</strong> a été modifiée.</p></td>
 </tr>
 </tbody>
@@ -77,16 +77,16 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropUpdateCriteria.ALLCOLS</p></td>
+<td><p>AdoEnums. AdcPropUpdateCriteria. ALLCOLS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropUpdateCriteria.KEY</p></td>
+<td><p>AdoEnums. AdcPropUpdateCriteria. KEY</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.AdcPropUpdateCriteria.TIMESTAMP</p></td>
+<td><p>AdoEnums. AdcPropUpdateCriteria. TIMESTAMP</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.AdcPropUpdateCriteria.UPDCOLS</p></td>
+<td><p>AdoEnums. AdcPropUpdateCriteria. UPDCOLS</p></td>
 </tr>
 </tbody>
 </table>

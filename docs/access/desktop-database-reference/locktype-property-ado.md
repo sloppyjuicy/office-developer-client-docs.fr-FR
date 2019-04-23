@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d12946a90d61a941bf5ef7d479970c8c96e074f9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712476"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289842"
 ---
 # <a name="locktype-property-ado"></a>LockType, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le type des verrous placés sur les enregistrements pendant leur modification.
 
@@ -35,5 +35,5 @@ Le paramètre **adLockPessimistic** n'est pas pris en charge si la valeur de la 
 
 La propriété **LockType** est accessible en lecture et en écriture lorsque le **Recordset** est fermé et en lecture seule lorsqu' il est ouvert.
 
-**L’utilisation du Service de données à distance** Lorsqu’elle est utilisée sur un objet Recordset de côté client, la propriété **LockType** peut uniquement être définie **: adLockBatchOptimistic**.
+**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet Recordset côté client, la propriété **LockType** ne peut prendre qu'une seule valeur: **adLockBatchOptimistic**.
 

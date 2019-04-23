@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2288d64241f3289505a8b0fafb98062830b0e97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711818"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288454"
 ---
 # <a name="onerror-macro-action"></a>OnError, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Utilisez l'action **SurErreur** pour indiquer ce qui doit se passer lorsqu'une erreur se produit dans une macro.
+Utilisez l’action **SurErreur** pour indiquer ce qui doit se passer lorsqu’une erreur se produit dans une macro.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **SurErreur** possède les arguments suivants.
+L’action **SurErreur** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -35,13 +35,13 @@ L'action **SurErreur** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Atteindre</p></td>
+<td><p>Accédez à</p></td>
 <td><p>Spécifie le comportement général lorsqu’une erreur se produit. Cliquez sur la flèche déroulante, puis sur l’un des paramètres suivants :</p>
 <div class="tableSection">
 <table>
@@ -51,7 +51,7 @@ L'action **SurErreur** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Valeur</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -61,11 +61,11 @@ L'action **SurErreur** possède les arguments suivants.
 <td><p>Microsoft Office Access 2007 enregistre les détails de l’erreur dans l’objet <strong>MacroError</strong> mais n’arrête pas la macro. La macro passe à l’action suivante.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom de la macro</strong></p></td>
+<td><p><strong>Nom macro</strong></p></td>
 <td><p>Access arrête l’exécution de la macro active et exécute la macro dont le nom figure dans l’argument <strong>Nom de la macro</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Échec</strong></p></td>
+<td><p><strong>Fonctionner</strong></p></td>
 <td><p>Access arrête l'exécution de la macro active et affiche un message d'erreur.</p></td>
 </tr>
 </tbody>
@@ -74,8 +74,8 @@ L'action **SurErreur** possède les arguments suivants.
 </div></td>
 </tr>
 <tr class="even">
-<td><p>Nom de la macro</p></td>
-<td><p>Si l’argument Atteindre est défini sur le nom de la Macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la colonne <strong>Nom de la Macro</strong> de la macro active. Vous ne pouvez pas entrer le nom d’un autre objet macro. Dans l’exemple ci-dessous, la macro <strong>SurErreur</strong> est contenue dans le même objet de macro que l’action <strong>SurErreur</strong> . Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>suivant</strong> ou <strong>Échec</strong>.</p></td>
+<td><p>Nom macro</p></td>
+<td><p>Si l'argument atteindre est défini sur nom de la macro, tapez le nom de la macro à utiliser pour la gestion des erreurs. Le nom que vous tapez doit correspondre à un nom dans la colonne nom de la <strong>macro</strong> de la macro active; vous ne pouvez pas entrer le nom d'un autre objet de macro. Dans l'exemple ci-dessous, la macro <strong>ErrorHandler</strong> est contenue dans le même objet macro que l'action SurErreur. <strong></strong> Cet argument doit rester vide si l’argument Atteindre est défini sur <strong>Suivant</strong> ou sur <strong>Échec</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -83,15 +83,15 @@ L'action **SurErreur** possède les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-- L'action **SurErreur** est généralement placée au début d'une macro, mais vous pouvez également la placer plus loin dans la macro. Les règles établies par cette action prendront effet dès exécution de l'action.
+- L’action **SurErreur** est généralement placée au début d’une macro, mais vous pouvez également la placer plus loin dans la macro. Les règles établies par cette action prendront effet dès exécution de l’action.
 
 - Si vous définissez l'argument Atteindre sur **Échec**, Access se comporte de la même manière que si la macro ne contenait pas d'action **SurErreur**. Autrement dit, si une erreur se produit, Access arrête la macro et affiche un message d'erreur standard. Le paramètre **Échec** est principalement utilisé pour désactiver la gestion des erreurs établie précédemment dans une macro.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu’une erreur se produit, le submacro CatchErrors est appelée. Si le numéro d’erreur est 2102, un message s’affiche et l’exécution de la macro est interrompue. Sinon, un message décrivant l’erreur s’affiche et la macro est interrompue de sorte que vous pouvez effectuer des opérations de dépannage. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
+La macro suivante illustre l'utilisation de l'action **SurErreur**. Dans cet exemple, l'action **SurErreur** spécifie qu'Access exécute une macro de gestion des erreurs personnalisée nommée GestionnaireErreur lorsqu'une erreur se produit. Lorsqu'une erreur se produit, la sous-macro CatchErrors est appelée. Si le numéro de l'erreur est 2102, un message spécifique s'affiche et l'exécution de la macro est interrompue. Dans le cas contraire, un message décrivant l'erreur s'affiche et la macro est suspendue pour vous permettre d'effectuer des procédures de dépannage supplémentaires. Cette macro affiche une zone de message qui fait référence à l'objet **MacroError** pour afficher des informations sur l'erreur.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     /* MACRO: mcrThrowErrors                                  */

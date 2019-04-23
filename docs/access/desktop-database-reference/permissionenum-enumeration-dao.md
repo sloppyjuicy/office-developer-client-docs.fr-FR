@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8d4f6741bd6203dbdeffb364650b5e3550ea8b1c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287709"
 ---
 # <a name="permissionenum-enumeration-dao"></a>PermissionEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cette énumération est utilisée avec la propriété **Permissions** pour spécifier le type d'autorisations.
 
@@ -37,17 +37,17 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>L'utilisateur peut créer des documents (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8</p></td>
+<td><p>8bits</p></td>
 <td><p>L'utilisateur peut répliquer une base de données et modifier le mot de passe de la base de données (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>L'utilisateur peut créer des bases de données. Cette option est valide uniquement sur le conteneur de bases de données du fichier de groupe de travail (Systen.mdw). Cette constante n'est pas valide pour les objets Document.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>L'utilisateur peut ouvrir la base de données.</p></td>
 </tr>
 <tr class="even">
@@ -102,11 +102,11 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="even">
 <td><p>dbSecRetrieveData</p></td>
-<td><p>20</p></td>
+<td><p>vingtaine</p></td>
 <td><p>L'utilisateur peut récupérer des données de l'objet Document.</p></td>
 </tr>
 <tr class="odd">
-<td><p>valeur par défaut</p></td>
+<td><p>dbSecWriteDef</p></td>
 <td><p>65548</p></td>
 <td><p>L'utilisateur peut modifier ou supprimer la définition de table, notamment les informations d'index et de colonne.</p></td>
 </tr>

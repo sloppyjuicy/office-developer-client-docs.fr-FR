@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 67ddc4d6eab70fa8581021704cc8cc76b32357f4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282816"
 ---
 # <a name="adox-code-examples-in-microsoft-visual-c"></a>Exemples de code ADOX dans Microsoft Visual C++
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Ces rubriques fournissent des exemples de code pour vous aider à comprendre comment utiliser ADOX. Tous les exemples de code sont écrits en langage Microsoft Visual C++.
 
@@ -32,7 +32,7 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 - [GetPermissions et SetPermissions, méthodes – Exemple (VC++)](getpermissions-and-setpermissions-methods-example-vc.md)
 - [Groups Append, Users Append, ChangePassword, méthodes – Exemple (VC++)](groups-and-users-append-changepassword-methods-example-vc.md)
 - [Indexes Append, méthode – Exemple (VC++)](indexes-append-method-example-vc.md)
-- [Keys Append, méthode, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
 
 ## <a name="properties"></a>Propriétés
 
@@ -40,19 +40,19 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 - [Catalog – ActiveConnection, propriété – Exemple (VC++)](catalog-activeconnection-property-example-vc.md)
 - [Clustered, propriété – Exemple (VC++)](clustered-property-example-vc.md)
 - [Command et CommandText, propriétés – Exemple (VC++)](command-and-commandtext-properties-example-vc.md)
-- [Propriété Command, exemple de collection de paramètres (VC ++)](parameters-collection-command-property-example-vc.md)
+- [Command, propriété, paraMeters, collection-exemple (VC + +)](parameters-collection-command-property-example-vc.md)
 - [DateCreated et DateModified, propriétés – Exemple (VC++)](datecreated-and-datemodified-properties-example-vc.md)
 - [DefinedSize, propriété – Exemple (VC++)](definedsize-property-example-vc.md)
 - [DeleteRule, propriété – Exemple (VC++)](deleterule-property-example-vc.md)
 - [IndexNulls, propriété – Exemple (VC++)](indexnulls-property-example-vc.md)
-- [Key Type, RelatedColumn, RelatedTable, propriétés UpdateRule, Keys Append, méthode-exemple (VC ++)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
-- [Nom de propriété, les colonnes et Tables Append, méthodes-exemple (VC ++)](columns-and-tables-append-methods-name-property-example-vc.md)
+- [Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VC + +)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vc.md)
+- [Propriété Name, Columns et tables Append, méthodes-exemple (VC + +)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [NumericScale et Precision, propriétés – Exemple (VC++)](numericscale-and-precision-properties-example-vc.md)
 - [ParentCatalog, propriété – Exemple (VC++)](parentcatalog-property-example-vc.md)
 - [PrimaryKey et Unique, propriétés – Exemples (VC++)](primarykey-and-unique-properties-example-vc.md)
-- [Table, propriété Type, Connection Close, méthode-exemple (VC ++)](connection-close-method-table-type-property-example-vc.md)
+- [Propriété de type table, Connection Close, méthode-exemple (VC + +)](connection-close-method-table-type-property-example-vc.md)
 
 ## <a name="collections"></a>Collections
 
-- [Parameters, collection, exemple de propriété Command (VC ++)](parameters-collection-command-property-example-vc.md)
+- [Parameters, collection – Exemple de propriété Command (VC++)](parameters-collection-command-property-example-vc.md)
 

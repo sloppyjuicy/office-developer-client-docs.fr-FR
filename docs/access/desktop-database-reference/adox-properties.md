@@ -1,5 +1,5 @@
 ---
-title: Propriétés ADOX (référence de base de données du bureau Access)
+title: Propriétés ADOX (référence de base de données de bureau Access)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0056764d80b5cfa19bf8e229d33c2c84c8b08c28
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285250"
 ---
 # <a name="adox-properties"></a>Propriétés ADOX
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 <br/>
 
@@ -34,7 +34,7 @@ ms.locfileid: "28703033"
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>
-<td><p>Indique l’objet ADO <strong>Connection</strong> auquel le catalogue appartient.</p></td>
+<td><p>Indique l'objet ADO <strong>Connection</strong> auquel le catalogue appartient.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="attributes-property-adox.md">Attributs</a></p></td>
@@ -58,7 +58,7 @@ ms.locfileid: "28703033"
 </tr>
 <tr class="odd">
 <td><p><a href="datemodified-property-adox.md">DateModified</a></p></td>
-<td><p>Indique à la date de la dernière modification de l'objet.</p></td>
+<td><p>Indique la date de la dernière modification de l'objet.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="definedsize-property-adox.md">DefinedSize</a></p></td>
@@ -70,14 +70,14 @@ ms.locfileid: "28703033"
 </tr>
 <tr class="even">
 <td><p><a href="indexnulls-property-adox.md">IndexNulls</a></p></td>
-<td><p>Indique si des enregistrements ayant pour valeur Null dans leurs champs d'index ont des entrées d'index.</p></td>
+<td><p>Indique si des enregistrements comprenant des valeurs Null dans leurs champs d'index ont des entrées d'index.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Élément</a></p></td>
-<td><p>Indique membre spécifique d'une collection, par son nom ou son nombre ordinal.</p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p>Indique un membre spécifique d'une collection, par son nom ou nombre ordinal.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Nom</a></p></td>
+<td><p><a href="name-property-adox.md">Name</a></p></td>
 <td><p>Indique le nom de l'objet.</p></td>
 </tr>
 <tr class="odd">
@@ -85,15 +85,15 @@ ms.locfileid: "28703033"
 <td><p>Indique l'échelle d'une valeur numérique de la colonne.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="parentcatalog-property-adox.md">ParentCatalog</a></p></td>
-<td><p>Spécifie le catalogue parent d'une table ou colonne afin de fournir l'accès à des propriétés spécifiques au fournisseur.</p></td>
+<td><p><a href="parentcatalog-property-adox.md">ParentCatalog,</a></p></td>
+<td><p>Spécifie le catalogue parent d'une table ou colonne permettant d'octroyer l'accès à des propriétés spécifiques au fournisseur.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="precision-property-adox.md">Précision</a></p></td>
+<td><p><a href="precision-property-adox.md">Dell</a></p></td>
 <td><p>Indique la précision maximale de valeurs de données de la colonne.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
+<td><p><a href="primarykey-property-adox.md">Primaire</a></p></td>
 <td><p>Indique si l'index représente la clé primaire de la table.</p></td>
 </tr>
 <tr class="odd">
@@ -109,11 +109,11 @@ ms.locfileid: "28703033"
 <td><p>Spécifie la séquence de tri pour la colonne (colonnes d'index uniquement).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (colonne)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
 <td><p>Indique le type de données d'une colonne.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (clé)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
 <td><p>Indique le type de données de la clé.</p></td>
 </tr>
 <tr class="even">
@@ -122,7 +122,7 @@ ms.locfileid: "28703033"
 </tr>
 <tr class="odd">
 <td><p><a href="unique-property-adox.md">Unique</a></p></td>
-<td><p>Indique si les clés d'index doivent être uniques.</p></td>
+<td><p>Spécifie si les clés d'index doivent être uniques.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="updaterule-property-adox.md">UpdateRule</a></p></td>

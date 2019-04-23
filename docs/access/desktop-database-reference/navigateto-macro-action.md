@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288601"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **AccéderA** pour contrôler l'affichage des objets de base de données dans le volet de navigation. Vous pouvez par exemple modifier le classement des objets de base de données et appliquer un filtre aux objets de sorte que seuls certains d'entre eux soient affichés.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AccéderA** possède les arguments suivants.
+L’action **AccéderA** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -35,7 +35,7 @@ L'action **AccéderA** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -46,13 +46,13 @@ L'action **AccéderA** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Groupe</strong></p></td>
-<td><p>Facultatif. L’argument <strong>groupe</strong> limite les objets de la catégorie s’affichent dans le volet de Navigation. Si vous laissez l’argument <strong>groupe</strong> vide, le volet de Navigation affiche tous les objets de base de données, classés selon les critères que vous spécifiez dans l’argument <strong>catégorie</strong> . Des exemples d'arguments  <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
+<td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l'argument <strong>groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, catégorisés par les critères que vous spécifiez dans l'argument <strong>catégorie</strong> . Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 - Cette action équivaut à sélectionner des catégories et des groupes dans la barre de titre du volet de navigation.
 
@@ -66,7 +66,7 @@ L'action **AccéderA** possède les arguments suivants.
   <thead>
   <tr class="header">
   <th><p>Argument Catégorie</p></th>
-  <th><p>Exemples d’arguments Groupe</p></th>
+  <th><p>Exemples d'arguments Groupe</p></th>
   </tr>
   </thead>
   <tbody>
@@ -93,7 +93,7 @@ L'action **AccéderA** possède les arguments suivants.
   </tbody>
   </table>
 
-- Pour exécuter l'action **AccéderA** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **NavigateTo** de l'objet **DoCmd**.
+- Pour exécuter l’action **AccéderA** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **NavigateTo** de l’objet **DoCmd**.
 
 > [!NOTE]
 > [!REMARQUE] Pour accéder au niveau supérieur d'une catégorie ( **Toutes les tables**, **Tous les objets Access** ou **Toutes les dates**, par exemple), vous devez laisser l'argument Groupe vide. Par exemple, lorsque l'argument **Catégorie** est défini sur **Type d'objet**, choisir **Tous les objets Access** en tant qu'argument **Groupe** génère une erreur.

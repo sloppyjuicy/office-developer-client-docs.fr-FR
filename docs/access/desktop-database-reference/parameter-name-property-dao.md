@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0d36657ac471e7ddd707b11f21d4e6b6b8ce329
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288097"
 ---
 # <a name="parametername-property-dao"></a>Propriété Parameter.Name (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de l'objet spécifié. Type **String** en lecture seule.
+Renvoie le nom de l'objet spécifié. Type de données **String** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

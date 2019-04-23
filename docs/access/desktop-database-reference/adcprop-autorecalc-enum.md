@@ -8,19 +8,19 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e385df5029238106b51aa62949d5e4e94f065657
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280521"
 ---
-# <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_ENUM
+# <a name="adcpropautorecalcenum"></a>ADCPROP\_AUTORECALC\_de l'énumération
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique si le fournisseur [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) recalcule les colonnes regroupées et calculées dans un Recordset hiérarchique.
 
-Ces constantes ne sont utilisées avec le fournisseur **MSDataShape** et la propriété dynamique «**Auto Recalc**» du **Recordset** , qui est référencée dans l' [Index des propriétés dynamiques ADO](ado-dynamic-property-index.md) et expliquée dans la [Service de curseur Microsoft pour OLE Base de données](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou la documentation de [Microsoft Data Shaping Service pour OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
+Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et la propriété dynamique «**auto Recalc**» du **Recordset** , qui est référencée dans l'index des [propriétés dynamiques ADO](ado-dynamic-property-index.md) et expliquée dans le [service de curseur Microsoft pour OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou [Microsoft Data Shaping Service pour la documentation OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
 
 <br/>
 
@@ -40,7 +40,7 @@ Ces constantes ne sont utilisées avec le fournisseur **MSDataShape** et la prop
 <tbody>
 <tr class="odd">
 <td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Par défaut. Effectue un nouveau calcul à chaque fois que le fournisseur <strong>MSDataShape</strong> détermine des valeurs modifiées dont dépendent les colonnes calculées.</p></td>
 </tr>
 <tr class="even">

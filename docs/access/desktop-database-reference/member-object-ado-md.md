@@ -8,60 +8,60 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 380fdf6c15f6774e27221e8500100870d22350c4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289421"
 ---
 # <a name="member-object-ado-md"></a>Member, objet (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un membre d'un niveau dans un cube, l'enfant d'un membre d'un niveau ou un membre d'une position le long d'un axe d'un ensemble de cellules.
 
 ## <a name="remarks"></a>Remarques
 
-Les propriétés d'un **membre** dépendent du contexte dans lequel il est utilisé. Un **membre** d'un [niveau](level-object-ado-md.md) dans un [CubeDef](cubedef-object-ado-md.md) a la propriété [Children](children-property-ado-md.md) qui renvoie les **membres** du niveau inférieur suivant dans la hiérarchie du **membre** actif. Pour un **membre** d'une [position](position-object-ado-md.md), la collection **Children** est toujours vide. Par ailleurs, la propriété [Type](type-property-ado-md.md) s'applique uniquement aux **membres** d'un **niveau**.
+Les propriétés d’un **membre** dépendent du contexte dans lequel il est utilisé. Un **membre** d’un [niveau](level-object-ado-md.md) dans un [CubeDef](cubedef-object-ado-md.md) a la propriété [Children](children-property-ado-md.md) qui renvoie les **membres** du niveau inférieur suivant dans la hiérarchie du **membre** actif. Pour un **membre** d’une [position](position-object-ado-md.md), la collection **Children** est toujours vide. Par ailleurs, la propriété [Type](type-property-ado-md.md) s’applique uniquement aux **membres** d’un **niveau**.
 
 Un **membre** d'une **position** a deux propriétés : [DrilledDown](drilleddown-property-ado-md.md) et [ParentSameAsPrev](parentsameasprev-property-ado-md.md), qui permettent d'afficher l'[ensemble de cellules](cellset-object-ado-md.md). Une erreur survient si vous accédez à ces propriétés sur un **membre** d'un **niveau**.
 
 Avec les collections et propriétés d'un objet **Member** d'un **niveau**, vous pouvez :
 
-  - Identifier le **membre** à l'aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
+  - Identifier le **membre** à l’aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
 
-  - Renvoyer une chaîne à utiliser lors de l'affichage du **membre** à l'aide de la propriété [Caption](caption-property-ado-md.md).
+  - Renvoyer une chaîne à utiliser lors de l’affichage du **membre** à l’aide de la propriété [Caption](caption-property-ado-md.md).
 
-  - Renvoyer une chaîne significative décrivant le **membre** d'une mesure ou d'une formule à l'aide de la propriété [Description](description-property-ado-md.md).
+  - Renvoyer une chaîne significative décrivant le **membre** d’une mesure ou d’une formule à l’aide de la propriété [Description](description-property-ado-md.md).
 
-  - Déterminer la nature du **membre** à l'aide de la propriété [Type](type-property-ado-md.md).
+  - Déterminer la nature du **membre** à l’aide de la propriété [Type](type-property-ado-md.md).
 
-  - Obtenir des informations relatives au **niveau** du **membre** à l'aide des propriétés [LevelDepth](leveldepth-property-ado-md.md) et [LevelName](levelname-property-ado-md.md).
+  - Obtenir des informations relatives au **niveau** du **membre** à l’aide des propriétés [LevelDepth](leveldepth-property-ado-md.md) et [LevelName](levelname-property-ado-md.md).
 
-  - Obtenir les **membres** connexes d'une [hiérarchie](hierarchy-object-ado-md.md) à l'aide des propriétés [Parent](parent-property-ado-md.md) et [Children](children-property-ado-md.md).
+  - Obtenir les **membres** connexes d’une [hiérarchie](hierarchy-object-ado-md.md) à l’aide des propriétés [Parent](parent-property-ado-md.md) et [Children](children-property-ado-md.md).
 
-  - Comptabiliser les enfants d'un **membre** à l'aide de la propriété [ChildCount](childcount-property-ado-md.md).
+  - Comptabiliser les enfants d’un **membre** à l’aide de la propriété [ChildCount](childcount-property-ado-md.md).
 
   - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l'objet **Level**.
 
-Avec les collections et propriétés d'un **membre** d'une **position** le long d'un [axe](axis-object-ado-md.md), vous pouvez :
+Avec les collections et propriétés d’un **membre** d’une **position** le long d’un [axe](axis-object-ado-md.md), vous pouvez :
 
-  - Identifier le **membre** à l'aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
+  - Identifier le **membre** à l’aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
 
-  - Renvoyer une chaîne à utiliser lors de l'affichage du **membre** à l'aide de la propriété [Caption](caption-property-ado-md.md).
+  - Renvoyer une chaîne à utiliser lors de l’affichage du **membre** à l’aide de la propriété [Caption](caption-property-ado-md.md).
 
-  - Renvoyer une chaîne significative décrivant le **membre** d'une mesure ou d'une formule à l'aide de la propriété [Description](description-property-ado-md.md).
+  - Renvoyer une chaîne significative décrivant le **membre** d’une mesure ou d’une formule à l’aide de la propriété [Description](description-property-ado-md.md).
 
-  - Obtenir des informations relatives au **niveau** du **membre** à l'aide des propriétés [LevelDepth](leveldepth-property-ado-md.md) et [LevelName](levelname-property-ado-md.md).
+  - Obtenir des informations relatives au **niveau** du **membre** à l’aide des propriétés [LevelDepth](leveldepth-property-ado-md.md) et [LevelName](levelname-property-ado-md.md).
 
-  - Comptabiliser les enfants d'un **membre** à l'aide de la propriété [ChildCount](childcount-property-ado-md.md).
+  - Comptabiliser les enfants d’un **membre** à l’aide de la propriété [ChildCount](childcount-property-ado-md.md).
 
-  - Utiliser la propriété [DrilledDown](drilleddown-property-ado-md.md) pour déterminer si au moins un enfant sur l' **axe** suit immédiatement ce **membre**.
+  - Utiliser la propriété [DrilledDown](drilleddown-property-ado-md.md) pour déterminer si au moins un enfant sur l’**axe** suit immédiatement ce **membre**.
 
   - Utiliser la propriété [ParentSameAsPrev](parentsameasprev-property-ado-md.md) pour déterminer si le parent de ce **membre** est le même que le parent du **membre** précédent.
 
-  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l'objet **Level**.
+  - Utiliser la collection ADO standard [Properties](properties-collection-ado.md) pour obtenir des informations supplémentaires à propos de l’objet **Level**.
 
 La collection **Properties** renferme les propriétés fournies par le fournisseur. Le tableau suivant dresse la liste des propriétés potentiellement disponibles. La liste réelle des propriétés peut varier en fonction de la mise en œuvre du fournisseur. Reportez-vous à la documentation de votre fournisseur pour une liste plus complète des propriétés disponibles.
 
@@ -78,7 +78,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nom de catalogue</p></td>
+<td><p>Nomcatalogue</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le nombre d'enfants de ce membre.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nom du cube</p></td>
+<td><p>CubeName</p></td>
 <td><p>Le nom du cube.</p></td>
 </tr>
 <tr class="even">
@@ -130,7 +130,7 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le type du membre.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nom unique de membre</p></td>
+<td><p>MemberUniqueName</p></td>
 <td><p>Le nom non ambigu du membre.</p></td>
 </tr>
 <tr class="odd">

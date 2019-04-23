@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 88bebab46cd6b76fb101c86c4fe33c5ab86a3e70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288300"
 ---
 # <a name="openview-macro-action"></a>OpenView, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Dans un projet Access, vous pouvez utiliser l'action **OuvrirVue** pour ouvrir une vue en mode Feuille de données, Création ou Aperçu avant impression. Cette action exécute la vue nommée lorsqu'elle est ouverte en mode Feuille de données. Vous pouvez choisir le mode de saisie des données voulu pour la vue et limiter les enregistrements que celle-ci affiche.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
-L'action **OuvrirVue** possède les arguments suivants.
+L’action **OuvrirVue** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ L'action **OuvrirVue** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la vue</strong></p></td>
-<td><p>Nom de la vue à ouvrir. La zone <strong>Nom de l’affichage</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro affiche toutes les vues dans la base de données en cours. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirVue</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la vue portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la vue à ouvrir. La zone nom de l' <strong>affichage</strong> de la section arguments de l' <strong>action</strong> du volet générateur de macro affiche toutes les vues de la base de données active. Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirVue</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la vue portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>
@@ -59,7 +59,7 @@ L'action **OuvrirVue** possède les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action équivaut à double-cliquer sur une vue dans le volet de navigation ou à cliquer avec le bouton droit sur la vue dans le volet de navigation, puis à sélectionner la commande de votre choix.
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4045445120d42f1ca88fce22ce566fc970fce28b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288952"
 ---
-# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Fournisseur de persistance Microsoft OLE DB (fournisseur de service ADO)
+# <a name="microsoft-ole-db-persistence-provider-ado-service-provider"></a>Fournisseur de persistance Microsoft OLE DB (fournisseur de services ADO)
 
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
-Le fournisseur de persistance Microsoft OLE DB vous permet d’enregistrer un objet [Recordset](recordset-object-ado.md) dans un fichier ultérieurement restaurer cet objet **Recordset** à partir du fichier. Informations de schéma, les données et les modifications en attente sont conservés.
+The Microsoft OLE DB Persistence Provider enables you to save a [Recordset](recordset-object-ado.md) object into a file, and later restore that **Recordset** object from the file. Schema information, data, and pending changes are preserved.
 
 Vous pouvez enregistrer le **Recordset** au format ADTG (Advanced Data Table Gram) ou au format XML ouvert (Extensible Markup Language).
 
@@ -62,11 +62,11 @@ Les erreurs suivantes émises par ce fournisseur peuvent être détectées dans 
 
 ## <a name="remarks"></a>Remarques
 
-Le fournisseur de persistance Microsoft OLE DB n'expose pas de propriétés dynamiques.
+Le fournisseur de persistance Microsoft OLE DB n’expose pas de propriétés dynamiques.
 
 Actuellement, seuls les objets **Recordset** hiérarchiques paramétrés ne peuvent pas être enregistrés.
 
-Pour plus d'informations sur le stockage persistant des objets **Recordset**, consultez la rubrique [Informations complémentaires sur la persistance des objets Recordset](more-about-recordset-persistence.md).
+Pour plus d’informations sur le stockage persistant des objets **Recordset**, consultez la rubrique [Informations complémentaires sur la persistance des objets Recordset](more-about-recordset-persistence.md).
 
-Lorsqu’un flux est utilisé pour ouvrir un **Recordset**, il doit y avoir aucun paramètre spécifié le paramètre *Source* de la méthode **Open** .
+Lorsqu'un flux est utilisé pour ouvrir un **Recordset**, seul le paramètre *Source* de la méthode **Open** doit être spécifié.
 

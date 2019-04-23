@@ -1,5 +1,5 @@
 ---
-title: Données persistantes (référence de base de données du bureau Access)
+title: PerSistance des données (référence de base de données de bureau Access)
 TOCTitle: Persisting data
 ms:assetid: cb8a32f7-2cdc-26ed-c6d4-dd93c1ac37ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250010(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f5788216a20e62cfc39fd2081f4f672bc4f9b808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287600"
 ---
 # <a name="persisting-data"></a>Persistance des données
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'informatique nomade, notamment par l'utilisation d'ordinateurs portables, a généré un besoin d'applications capables d'être exécutées à la fois de manière autonome et en réseau. ADO prend désormais en charge ce phénomène en donnant la possibilité au développeur d'enregistrer un **jeu d'enregistrements** de curseur client sur un disque pour le recharger ultérieurement.
 
@@ -49,11 +49,11 @@ La sauvegarde des enregistrements s'effectue à partir de la première ligne du 
 
 Pour obtenir de meilleurs résultats, affectez à la propriété [CursorLocation](cursorlocation-property-ado.md) la valeur **adUseClient** avec la méthode **Save**. Si votre fournisseur ne prend pas en charge toutes les fonctionnalités nécessaires à l'enregistrement des objets **Recordset**, le service de curseur les fournira.
 
-Lorsqu'un objet **Recordset** est conservé avec la propriété **CursorLocation** affectée de la valeur **adUseServer**, les fonctionnalités de mise à jour de l'objet **Recordset** sont limitées. En règle générale, seules les mises à jour de la table unique, des insertions et suppressions sont autorisées (dépendantes de la fonctionnalité du fournisseur). La méthode [Resync](resync-method-ado.md) n'est pas non plus disponible avec une telle configuration.
+When a **Recordset** is persisted with the **CursorLocation** property set to **adUseServer**, the update capability for the **Recordset** is limited. Typically, only single-table updates, insertions, and deletions are allowed (dependent on provider functionality). The [Resync](resync-method-ado.md) method is also unavailable in this configuration.
 
-Étant donné que le paramètre *Destination* accepte tout objet qui prend en charge l’interface OLE DB **IStream** , vous pouvez enregistrer un **objet Recordset** directement dans l’objet ASP **Response** .
+Puisque le paramètre *Destination* accepte tout objet prenant en charge l'interface OLE DB **IStream**, vous pouvez sauvegarder un **jeu d'enregistrements** directement dans l'objet ASP **Response**.
 
-Dans l'exemple suivant, les méthodes **Save** et **Open** sont utilisées pour conserver un **jeu d'enregistrements** et le rouvrir plus tard :
+Dans l'exemple suivant, les méthodes **Save** et **Open** sont utilisées pour conserver un **jeu d'enregistrements** et le rouvrir plus tard :
 
 ```vb 
  
@@ -104,10 +104,10 @@ Dans l'exemple suivant, les méthodes **Save** et **Open** sont utilisées pour 
 'EndPersist 
 ```
 
-Cette section comprend les rubriques suivantes :
+Cette section contient les rubriques suivantes :
 
-- [En savoir plus sur la persistance des objets Recordset](more-about-recordset-persistence.md)
+- [More About Recordset Persistence](more-about-recordset-persistence.md)
 
-- [Conservation des jeux d’enregistrements hiérarchiques et filtrés](persisting-filtered-and-hierarchical-recordsets.md)
+- [Persisting Filtered and Hierarchical Recordsets](persisting-filtered-and-hierarchical-recordsets.md)
 
 - [Persisting Records in XML Format (ADO)](persisting-records-in-xml-format.md)
