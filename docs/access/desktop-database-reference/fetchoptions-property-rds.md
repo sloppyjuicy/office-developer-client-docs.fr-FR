@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ddd2ecf0d7d3df6d1caffd906cf318916a2a8882
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293195"
 ---
 # <a name="fetchoptions-property-rds"></a>FetchOptions, propriété (RDS)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le type d'extraction asynchrone.
 
@@ -38,7 +38,7 @@ Définit ou renvoie l'une des valeurs suivantes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>valeur adcFetchUpFront</strong></p></td>
+<td><p><strong>adcFetchUpFront</strong></p></td>
 <td><p>Tous les enregistrements du <a href="recordset-object-ado.md">Recordset</a> sont extraits avant que le contrôle ne soit renvoyé à l’application. L’objet <strong>Recordset</strong> complet est extrait avant que l’application ne puisse en faire quoi que ce soit.</p></td>
 </tr>
 <tr class="even">
@@ -61,5 +61,5 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 ## <a name="remarks"></a>Remarques
 
-Dans une application web, il est recommandé d’utiliser **adcFetchAsync** (la valeur par défaut), car elle offre de meilleures performances. Dans une application cliente compilée, on utilise généralement **adcFetchBackground**.
+Dans une application Web, vous souhaiterez généralement utiliser **adcFetchAsync** (valeur par défaut), car elle offre de meilleures performances. Dans une application cliente compilée, on utilise généralement **adcFetchBackground**.
 

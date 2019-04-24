@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Expression (DAO)
+title: Field2. expression, propriété (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292817"
 ---
-# <a name="field2expression-property-dao"></a>Propriété Field2.Expression (DAO)
+# <a name="field2expression-property-dao"></a>Field2. expression, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Obtient ou définit une expression qui représente la formule pour un champ calculé. **String** en lecture/écriture.
+Obtient ou définit une expression qui représente la formule d'un champ calculé. **String** en lecture/écriture.
 
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Access 2010
+Version ajoutée: Access 2010
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -32,9 +32,9 @@ Version ajoutée : Access 2010
 
 ## <a name="remarks"></a>Remarques
 
-Dans Access 2013, vous pouvez créer des champs de table calculer des valeurs. Les calculs peuvent inclure des valeurs de champs dans la même table, ainsi que les fonctions intégrées Access.
+Dans Access 2013, vous pouvez créer des champs de table qui calculent des valeurs. Les calculs peuvent inclure des valeurs de champs dans la même table, ainsi que des fonctions Access intégrées.
 
-Le calcul ne peut pas inclure de champs à partir d’autres tables ou les requêtes.
+Le calcul ne peut pas inclure de champs provenant d'autres tables ou requêtes.
 
 Les résultats du calcul sont en lecture seule.
 
@@ -42,7 +42,7 @@ Les résultats du calcul sont en lecture seule.
 
 L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()
