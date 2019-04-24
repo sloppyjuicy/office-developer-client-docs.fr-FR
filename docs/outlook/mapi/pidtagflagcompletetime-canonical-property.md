@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 5dd0d4c19f30e189218b1aeddd333df58e42102a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316288"
 ---
 # <a name="pidtagflagcompletetime-canonical-property"></a>Propriété canonique PidTagFlagCompleteTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l’heure en temps universel coordonné (UTC) que l’objet du message a été marqué comme étant achevée.
+Spécifie la date et l'heure au format UTC (Coordinated Universal Time) auxquelles l'objet message a été marqué comme étant terminé.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Spécifie la date et l’heure en temps universel coordonné (UTC) que l’objet
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est supprimée si l’objet du message n’est pas marqué comme terminé. Résolution la plus faible de l’heure doit être minutes (la valeur doit être un multiple de 600,000,000). Cette propriété ne doit pas exister si l’objet est un objet liées à la réunion, et il ne doit pas exister sur un objet task.
+Cette propriété est supprimée si l'objet message n'est pas marqué comme terminé. La plus petite résolution du temps doit être de minutes (la valeur doit être un multiple de 600 millions). Cette propriété ne doit pas exister si l'objet est un objet lié à la réunion et qu'il ne doit pas exister sur un objet Task.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations liées aux marquage.
+> Spécifie les propriétés et les opérations relatives au marquage.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Définition de la fin d’un tableau
+title: Détermination de la fin d'une table
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,28 +7,28 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: c879e972-05f4-4716-8fc2-db5b22f34ca8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f9979baf144b6106adcec416ee04439404e05d19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 28892e2d351b8dc9aa864c9eff52c94bb0f20e8f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576343"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316715"
 ---
-# <a name="determining-a-tables-end"></a>Définition de la fin d’un tableau
+# <a name="determining-a-tables-end"></a>Détermination de la fin d'une table
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Une erreur fréquente consiste à supposent que la fin de la table a été atteinte lorsque : 
+ Une erreur courante consiste à supposer que la fin de la table a été atteinte dans les cas suivants: 
   
-- [IMAPITable::QueryRows](imapitable-queryrows.md) a été appelée dans une boucle, à la fin de la boucle déterminée par le nombre de lignes renvoyé par [IMAPITable::GetRowCount](imapitable-getrowcount.md). Le nombre **GetRowCount** renvoie ne représente pas toujours le nombre exact de lignes de la table ; Il s’agit d’un nombre approximatif. 
+- [IMAPITable:: QueryRows](imapitable-queryrows.md) a été appelé dans une boucle, avec la fin de la boucle déterminée par le nombre de lignes renvoyé par la méthode [IMAPITable:: GetRowCount](imapitable-getrowcount.md). Le nombre renvoyé par **GetRowCount** ne représente pas toujours le nombre exact de lignes dans le tableau; Il s'agit d'un nombre approximatif. 
     
-- **QueryRows** a été appelée avec un nombre défini de lignes et moins de lignes sont renvoyées. Il est pas **QueryRows** retourne une ligne avec un nombre de lignes égal à zéro qu’il n’y a plus aucune ligne à récupérer. 
+- **QueryRows** a été appelé avec un nombre fixe de lignes et moins de lignes sont renvoyées. Il n'est pas jusqu'à ce que **QueryRows** renvoie un jeu de lignes dont le nombre de lignes est égal à zéro, il n'y a plus de lignes à récupérer. 
     
 > [!IMPORTANT]
-> La seule fois où un appelant peut supposer que le curseur est positionné à la fin de la table pour un nombre positif de lignes ou au début de la table pour un nombre de lignes négatif est lorsque la valeur S_OK et aucune ligne est renvoyés. La valeur MAPI_E_NOT_FOUND n’est jamais retourné. 
+> Le seul moment où un appelant peut supposer que le curseur est positionné à la fin de la table pour un nombre positif de lignes ou au début de la table pour un nombre de lignes négatif est lorsque la valeur S_OK et zéro ligne sont renvoyées. La valeur MAPI_E_NOT_FOUND n'est jamais renvoyée. 
   
 ## <a name="see-also"></a>Voir aussi
 

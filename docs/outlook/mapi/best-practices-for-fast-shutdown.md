@@ -1,5 +1,5 @@
 ---
-title: Meilleures pratiques pour l’arrêt rapide
+title: Meilleures pratiques pour l'arrêt rapide
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,33 +7,33 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c92347ab1a786196e7f0d99b286e8f4134ce7c24
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8c7225427b80d89c6dd8adfa85f7d91885850365
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318143"
 ---
-# <a name="best-practices-for-fast-shutdown"></a>Meilleures pratiques pour l’arrêt rapide
+# <a name="best-practices-for-fast-shutdown"></a>Meilleures pratiques pour l'arrêt rapide
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique recommande les meilleures pratiques pour les administrateurs, les clients MAPI et fournisseurs MAPI à utiliser les paramètres du Registre Windows et les interfaces d’arrêt rapide afin de réduire la perte de données lors de l’arrêt du client.
+Cette rubrique recommande les meilleures pratiques pour les administrateurs, les clients MAPI et les fournisseurs MAPI afin d'utiliser les paramètres du Registre Windows et les interfaces d'arrêt rapide pour réduire la perte de données lors de l'arrêt du client.
   
-- Pour qu’un client MAPI effectuer correctement arrêt rapide afin que le processus de fournisseur n’entraînent pas la perte de données, le client MAPI devez d’abord appeler la méthode [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Le client doit alors avec les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et [IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md) en fonction de la prise en charge du sous-système MAPI pour l’arrêt rapide, comme indiqué par la valeur de retour de ** IMAPIClientShutdown::QueryFastShutdown**. Comme un client MAPI, Microsoft Outlook n’appelle pas **IMAPIClientShutdown::NotifyProcessShutdown** ou **IMAPIClientShutdown::DoFastShutdown** si **IMAPIClientShutdown::QueryFastShutdown** renvoie une erreur. Si l’administrateur a désactivé arrêt rapide dans le Registre Windows, le sous-système MAPI renvoie MAPI_E_NO_SUPPORT à **IMAPIClientShutdown::QueryFastShutdown**. Dans ce cas, le sous-système MAPI informera pas quitter fournisseurs MAPI d’un processus d’exécution client. Par conséquent, si un client MAPI ne tient pas compte de ce code d’erreur, procède à l’arrêt rapide d’et déconnecte tous les références externes, tous les fournisseurs MAPI chargés aura une perte de données. 
+- Pour qu'un client MAPI effectue une arrêt rapide afin que les processus du fournisseur n'engendrent pas de perte de données, le client MAPI doit d'abord appeler la méthode [IMAPIClientShutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Le client doit ensuite procéder aux [IMAPIClientShutdown:: NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et [IMAPIClientShutdown::D ofastshutdown](imapiclientshutdown-dofastshutdown.md) méthodes basées sur la prise en charge du sous-système MAPI pour l'arrêt rapide, comme indiqué par la valeur de retour de ** IMAPIClientShutdown:: QueryFastShutdown**. En tant que client MAPI, Microsoft Outlook n'appelle pas **IMAPIClientShutdown:: NotifyProcessShutdown** ou **IMAPIClientShutdown::D ofastshutdown** si **IMAPIClientShutdown:: QueryFastShutdown** renvoie une erreur. Si l'administrateur a désactivé l'arrêt rapide dans le Registre Windows, le sous-système MAPI renvoie MAPI_E_NO_SUPPORT à **IMAPIClientShutdown:: QueryFastShutdown**. Dans ce cas, le sous-système MAPI n'informe pas les fournisseurs MAPI d'une sortie de processus client immédiate. Par conséquent, si un client MAPI ignore ce code d'erreur, procède à l'arrêt rapide et déconnecte toutes les références externes, tous les fournisseurs MAPI chargés auront une perte de données. 
     
-- Fournisseurs MAPI doivent implémenter la [IMAPIProviderShutdown : IUnknown](imapiprovidershutdowniunknown.md) interface d’effectuer en temps voulu et les mesures nécessaires pour éviter toute perte de données en raison de la déconnexion des références externes avant de quitte le client du client. Un fournisseur doit différer tout est non essentiels pour l’enregistrement de données à la base de données principale. Par exemple, un fournisseur de transport doit différer des opérations en arrière-plan inutiles vérifier de nouveau courrier, qu'un fournisseur de carnet d’adresses doit reporter le téléchargement des modifications récentes apportées à partir de son serveur et un fournisseur de magasins doit différer tels que des tâches de maintenance le compactage ou l’indexation. 
+- Les fournisseurs MAPI doivent implémenter l'interface [IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) pour effectuer les étapes opportunes et nécessaires pour éviter la perte de données, car le client déconnecte les références externes avant la fermeture du client. Un fournisseur doit reporter tous les autres éléments non essentiels pour enregistrer des données dans son magasin de données principal. Par exemple, un fournisseur de transport doit retarder les opérations d'arrière-plan inutiles qui vérifient les nouveaux messages, un fournisseur de carnets d'adresses doit différer le téléchargement des modifications récentes à partir de son serveur, et un fournisseur de banque doit reporter des tâches de maintenance telles que compactage ou indexation. 
     
-- Les utilisateurs qui souhaitent des clients MAPI pour quitter dès qu’ils ferment doivent utiliser le paramètre de Registre par défaut qui permet à l’arrêt rapide, sauf si un fournisseur exclut.
+- Les utilisateurs qui souhaitent que les clients MAPI se ferment dès qu'ils les ferment doivent utiliser le paramètre de Registre par défaut qui active l'arrêt rapide à moins qu'un fournisseur ne le ferme.
     
-- Une fois qu’un client MAPI appelle **IMAPIClientShutdown::DoFastShutdown**, il ne doit pas faire des appels MAPI, y compris la fonction [MAPIUninitialize](mapiuninitialize.md) supplémentaires. Le client ne doit pas utiliser MAPI pour le reste de la durée de vie du processus client. 
+- Une fois qu'un client MAPI appelle **IMAPIClientShutdown::D ofastshutdown**, il ne doit pas effectuer d'appels supplémentaires à MAPI, y compris la fonction [MAPIUninitialize](mapiuninitialize.md) . Le client ne doit pas utiliser MAPI pour le reste de la durée de vie du processus client. 
     
-- Un client MAPI doit appeler jamais directement l’interface de **IMAPIProviderShutdown** d’un fournisseur. Clients MAPI doivent toujours utiliser le [IMAPIClientShutdown : IUnknown](imapiclientshutdowniunknown.md) interface. 
+- Un client MAPI ne doit jamais appeler directement l'interface **IMAPIProviderShutdown** d'un fournisseur. Les clients MAPI doivent toujours utiliser l'interface [IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md) . 
     
-- Si un fournisseur MAPI doit s’assurer qu’un arrêt rapide n’est pas utilisé pendant son chargement, il doit implémenter l’interface **IMAPIProviderShutdown** et MAPI_E_NO_SUPPORT de la méthode **IMAPIProviderShutdown::QueryFastShutdown** . Toutefois, pour les clients MAPI comme Outlook, cela entraînera le client à abandonner arrêt rapide et prendre plus de temps à arrêter. 
+- Si un fournisseur MAPI doit s'assurer que l'arrêt rapide n'est pas utilisé pendant son chargement, il doit implémenter l'interface **IMAPIProviderShutdown** et renvoyer MAPI_E_NO_SUPPORT pour la méthode **IMAPIProviderShutdown:: QueryFastShutdown** . Toutefois, pour les clients MAPI tels qu'Outlook, cela entraînera l'arrêt rapide du client et mettre un moment à s'arrêter. 
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -41,7 +41,7 @@ Cette rubrique recommande les meilleures pratiques pour les administrateurs, les
 
 [Arrêt du client dans MAPI](client-shutdown-in-mapi.md)
   
-[Vue d’ensemble de l’arrêt rapide](fast-shutdown-overview.md)
+[Présentation de l’arrêt rapide](fast-shutdown-overview.md)
   
-[Options utilisateur d’arrêt rapide](fast-shutdown-user-options.md)
+[Options de l'utilisateur à arrêt rapide](fast-shutdown-user-options.md)
 

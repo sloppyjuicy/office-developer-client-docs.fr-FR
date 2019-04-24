@@ -7,11 +7,11 @@ ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: Le modèle objet côté client (CSOM) est un ensemble d’API pour Project Server 2013 conçues pour une utilisation en ligne et locale dans les applications qui peuvent être développées pour les PC, les appareils mobiles et les tablettes. Cet article inclut des cas d’utilisation type du modèle CSOM et répertorie également les limites de ce modèle.
 localization_priority: Priority
 ms.openlocfilehash: 6cdcb72c24e352365b6dcc9268ddf0bd249369af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315224"
 ---
 # <a name="what-the-csom-does-and-does-not-do"></a>Fonctionnalités du modèle CSOM
 
@@ -40,7 +40,7 @@ Voici des exemples de certains types d’applications pris en charge par le CSOM
     
 - **Créer des projets financiers** Créez des projets de capture du temps via la feuille de temps pour les intégrer à un système financier. Créez une hiérarchie de codes financiers qui traduit la structure de répartition des coûts du système financier. Les projets financiers ne nécessitent pas de planification ou de mise à jour de statut. 
     
-- **Intégration avec les systèmes de comptabilité ** Capturez les coûts de ressources et les frais associés aux projets pour alimenter les systèmes financiers et de facturation, et à des fins de comparaison budgétaire. Synchronisez les tâches, les ressources et les affectations entre les systèmes. Capturez les données de feuille de temps dans un seul système pour alimenter l’autre (la feuille de temps utilisée dépend des besoins de l’organisation ou des projets individuels). 
+- **Intégration avec les systèmes de comptabilité ** Capturez les coûts de ressources et les frais associés aux projets pour alimenter les systèmes financiers et de facturation, et à des fins de comparaison budgétaire. Synchronize tasks, resources, and assignments between the systems. Capture timesheet data in one system to feed the other (which timesheet is used depends on the needs of the organization or of individual projects). 
     
 - **Mises à jour automatiques par les membres de l’équipe** Pour les projets qui ne sont pas gérés activement, mettez-les à jour automatiquement sur le serveur concernant la progression et d’autres modifications apportées par les membres de l’équipe du projet. Les projets peuvent être mis à jour et republiés sans examen des résultats ni ajustements de plan par un responsable de projet. 
     

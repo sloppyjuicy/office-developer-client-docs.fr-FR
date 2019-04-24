@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0726ceae42fecdf39512c9095295ea643b138c64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8406df2df40a12f039f4108a849700199eb77319
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315798"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propriété canonique PidTagAbDefaultPab
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée du conteneur de carnet d’adresses à utiliser comme le carnet d’adresses personnel (CAP). 
+Contient l'identificateur d'entrée du conteneur de carnet d'adresses à utiliser comme carnet d'adresses personnel (PAB). 
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ Contient l’identificateur d’entrée du conteneur de carnet d’adresses à u
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

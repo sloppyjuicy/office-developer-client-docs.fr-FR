@@ -7,11 +7,11 @@ ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: Cette référence contient des présentations conceptuelles et des références programmatiques qui vous guideront tout au long du développement de solutions dédiées aux applications clientes de bureau OneNote 2013.
 localization_priority: Priority
 ms.openlocfilehash: d2b401a768e62c4b9712b1590bfaf499c2b022ab
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725923"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317051"
 ---
 # <a name="onenote-developer-reference"></a>Référence du développeur OneNote
 

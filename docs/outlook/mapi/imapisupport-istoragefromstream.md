@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 7200e7d226eb148fef094ab8540990644d2d4c99
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316586"
 ---
 # <a name="imapisupportistoragefromstream"></a>IMAPISupport::IStorageFromStream
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémente un objet de stockage pour accéder à un objet stream.
+Implémente un objet de stockage pour accéder à un flux.
   
 ```cpp
 HRESULT IStorageFromStream(
@@ -40,65 +40,65 @@ HRESULT IStorageFromStream(
 
  _lpUnkIn_
   
-> [in] Pointeur vers un objet stream.
+> dans Pointeur vers un objet Stream.
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au flux désigné par _lpUnkIn_. Une des valeurs suivantes sont valide : IID_IStream, IID_ILockBytes, ou **valeur null**, ce qui indique que l’interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) doit être utilisé pour accéder au flux. 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au flux vers lequel pointe _lpUnkIn_. L'une des valeurs suivantes est valide: IID_IStream, IID_ILockBytes ou **null**, ce qui indique que l'interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) doit être utilisée pour accéder au flux. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet de stockage doit être créé par rapport à l’objet stream. Par défaut, le stockage est créé avec un accès en lecture seule et le flux démarre à la position zéro dans le stockage. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont l'objet de stockage doit être créé par rapport à l'objet Stream. Par défaut, le stockage est créé avec un accès en lecture seule et le flux commence à la position zéro dans le stockage. Les indicateurs suivants peuvent être définis:
     
 STGSTRM_CREATE 
   
-> Un nouvel objet de stockage doit être créé pour l’objet stream.
+> Un nouvel objet de stockage doit être créé pour l'objet Stream.
     
 STGSTRM_CURRENT 
   
-> L’objet de stockage doit commencer à la position actuelle du flux.
+> L'objet de stockage doit commencer à la position actuelle du flux.
     
 STGSTRM_MODIFY 
   
-> L’appelant doit avoir l’autorisation de lecture/écriture à l’objet de stockage renvoyé.
+> L'appelant doit disposer d'une autorisation en lecture/écriture pour l'objet de stockage renvoyé.
     
 STGSTRM_RESET 
   
-> L’objet de stockage doit commencer à la position zéro.
+> L'objet de stockage doit commencer à la position zéro.
     
  _lppStorageOut_
   
-> [out] Pointeur vers un pointeur vers l’objet de stockage.
+> remarquer Pointeur vers un pointeur vers l'objet de stockage.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’objet de stockage a été créé avec succès.
+> L'objet de stockage a été créé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::IStorageFromStream** est implémentée pour tous les objets de prise en charge de fournisseur de service. Fournisseurs de services d’appel **IStorageFromStream** pour créer un objet de stockage à utiliser pour ouvrir les propriétés. Fournisseurs de services qui ont leur propre implémentation de l’interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) est inutile d’appeler **IStorageFromStream**. 
+La méthode **IMAPISupport:: IStorageFromStream** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services appellent **IStorageFromStream** pour créer un objet de stockage à utiliser pour l'ouverture de propriétés particulières. Les fournisseurs de services qui ont leur propre implémentation de l'interface [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) n'ont pas besoin d'appeler **IStorageFromStream**. 
   
-L’objet de stockage créé par **IStorageFromStream** appelle la méthode du flux [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour incrémenter son décompte de références, puis le décrémente le décompte lorsque l’utilisateur relâche le stockage. 
+L'objet de stockage créé par **IStorageFromStream** appelle la méthode [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) de flux pour incrémenter son décompte de références, puis décrémente le nombre lorsque le stockage est libéré. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de l’un de vos objets est appelée à le pour ouverture d’une propriété avec l’interface **IStorage** , effectuez les tâches suivantes : 
+Lorsque la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) de l'un de vos objets est appelée pour ouvrir une propriété avec l'interface **IStorage** , effectuez les tâches suivantes: 
   
-1. Ouvrir un objet stream avec l’autorisation de lecture/écriture de la propriété.
+1. Ouvrir un objet Stream avec une autorisation en lecture/écriture pour la propriété.
     
-2. En interne, sélectionnez le flux de propriétés en tant qu’un objet de stockage.
+2. Marquez en interne le flux de propriétés en tant qu'objet de stockage.
     
 3. Appelez **IStorageFromStream** pour générer un objet de stockage. 
     
-4. Retourne un pointeur vers cet objet de stockage.
+4. Renvoyer un pointeur vers cet objet de stockage.
     
-Si vous implémentez des interfaces supplémentaires qui utilisent l’objet de stockage, créez un objet qui encapsule l’objet de stockage et implémenter un méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de niveau supérieur. 
+Si vous implémentez des interfaces supplémentaires qui utilisent l'objet de stockage, créez un objet qui encapsule l'objet de stockage et implémentez une méthode [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) de niveau supérieur. 
   
-Ne pas autoriser une propriété à ouvrir avec l’interface **IStream** si elle a été créée avec **IStorage**. Inversement, ne pas autoriser une propriété à ouvrir avec l’interface **IStorage** si elle a été créée avec **IStream**. 
+N'autorisez pas l'ouverture d'une propriété avec l'interface **IStream** si elle a été créée avec **IStorage**. À l'inverse, n'autorisez pas l'ouverture d'une propriété avec l'interface **IStorage** si elle a été créée avec **IStream**. 
   
-Avec une exception, il est possible d’utiliser l’interface **IStreamDocfile** pour l’acheminement d’un objet de stockage d’un conteneur à un autre, mais l’identificateur d’interface IID_IStreamDocfile doit être transmis dans _de la méthode **OpenProperty** lpInterface _paramètre. 
+À une exception près, il est acceptable d'utiliser l'interface **IStreamDocfile** pour transmettre un objet de stockage d'un conteneur à un autre, mais l'identificateur d'interface IID_IStreamDocfile doit être transmis dans la lpInterface de la méthode **OpenProperty** _ _paramètre. 
   
 ## <a name="see-also"></a>Voir aussi
 

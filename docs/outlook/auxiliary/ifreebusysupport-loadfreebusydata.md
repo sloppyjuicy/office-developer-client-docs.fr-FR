@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: Renvoie, pour chaque utilisateur spécifié, une interface pour énumérer les informations de disponibilité des blocs de données au sein d’une plage de temps.
-ms.openlocfilehash: 9af5a40da9f0a831de7346b44cee9ca004c02300
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie, pour chaque utilisateur spécifié, une interface permettant d'énumérer les blocs de données de disponibilité au sein d'un intervalle de temps.
+ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319403"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-Renvoie, pour chaque utilisateur spécifié, une interface pour énumérer les informations de disponibilité des blocs de données au sein d’une plage de temps. 
+Renvoie, pour chaque utilisateur spécifié, une interface permettant d'énumérer les blocs de données de disponibilité au sein d'un intervalle de temps. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -36,26 +36,26 @@ HRESULT LoadFreeBusyData(
 
 _cMax_
   
-> [in] Le nombre d’interfaces [IFreeBusyData](ifreebusydata.md) à renvoyer. 
+> dans Nombre d'interfaces [IFreeBusyData](ifreebusydata.md) à renvoyer. 
     
 _rgfbuser_
   
-> [in] Le tableau de disponibilité pour les utilisateurs à récupérer des données pour.
+> dans Tableau des utilisateurs de disponibilité pour lesquels récupérer des données.
     
 _prgfbdata_
   
-> [in] [out] Tableau des interfaces **IFreeBusyData** qui correspondent au tableau de structures [FBUser](fbuser.md) _rgfbuser_ . 
+> dans remarquer Tableau des interfaces **IFreeBusyData** qui correspondent au tableau _Rgfbuser_ des structures [FBUser](fbuser.md) . 
     
    > [!NOTE]
-   > Ce tableau de pointeurs est alloué par l’appelant et libéré par l’appelant. Les interfaces réels vers lequel pointés sont libérées lorsque l’appelant est terminé avec eux. 
+   > Ce tableau de pointeurs est alloué par l'appelant et libéré par l'appelant. Les interfaces réelles pointant vers sont libérées lorsque l'appelant les a réalisées. 
   
 _phrStatus_
   
-> [out] Le tableau de résultats **HRESULT** pour l’extraction de chaque interface **IFreeBusyData** correspondante. La valeur peut être NULL. Un résultat est défini à S_OK si correspondante _prgfbdata_ n’est valide. 
+> remarquer Tableau de résultats **HRESULT** permettant de récupérer chaque interface **IFreeBusyData** correspondante. La valeur peut être NULL. Un résultat est défini sur S_OK si _prgfbdata_ correspondant est valide. 
     
 _pcRead_
   
->  [out] Le nombre d’utilisateurs pour lequel une interface **IFreeBusyData** a été détectée. 
+>  remarquer Nombre réel d'utilisateurs pour lesquels une interface **IFreeBusyData** a été trouvée. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -63,5 +63,5 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md)
+- [Constantes (API de disponibilité)](constants-free-busy-api.md)
 

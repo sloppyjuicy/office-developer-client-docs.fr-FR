@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251453
 localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
-description: 'Renvoie TRUE si la valeur de cellreference est erreur type #VALUE, où un argument dans la formule est de type incorrect. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule.'
-ms.openlocfilehash: 50c501cc404d9c5f80e0bd1261b3d3bcd7087de2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: "Renvoie TRUE si la valeur de cellreference est un type d'erreur #VALUE, où un argument dans la formule est de type incorrect. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule."
+ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317884"
 ---
-# <a name="iserrvalue-function"></a>ISERRVALUE, fonction
+# <a name="iserrvalue-function"></a>Fonction ISERRVALUE
 
-Renvoie TRUE si la valeur de _cellreference_ est erreur type #VALUE, où un argument dans la formule est de type incorrect. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule. 
+Renvoie TRUE si la valeur de _cellreference_ est un type d'erreur #VALUE, où un argument dans la formule est de type incorrect. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule. 
   
 ## <a name="syntax"></a>Syntaxe
 
-ISERRVALUE (** *cellreference* **) 
+ISERRVALUE (* * *cellreference* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les cellules Montage de A à D ne renvoient pas l’erreur #VALEUR! parce que la formule peut contenir des nombres et des lettres dans une même chaîne. Toutefois, les cellules X et Y ne doivent contenir que des nombres. 
   
@@ -38,8 +38,8 @@ Les cellules Montage de A à D ne renvoient pas l’erreur #VALEUR! parce que la
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Scratch.X1  <br/> |="Maison"  <br/> |#VALEUR!  <br/> |
-|Cellule Scratch.A1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |2  <br/> |
+|Scratch. x1  <br/> |="Maison"  <br/> |#VALUE!  <br/> |
+|Scratch. a1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |n°2  <br/> |
    
 Renvoie 2 parce que la valeur renvoyée est une erreur #VALEUR! et l’expression demande à Microsoft Visio de renvoyer un 2 à la place de l’erreur.
   
@@ -47,8 +47,8 @@ Renvoie 2 parce que la valeur renvoyée est une erreur #VALEUR! et l’expressio
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Cellule Scratch.A1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
-|Scratch.B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |
+|Scratch. a1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
+|Scratch. B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |
    
 Renvoie 12 parce que la valeur renvoyée n’est pas une erreur #VALEUR! et l’expression demande à Visio de renvoyer la valeur de la cellule d’origine.
   

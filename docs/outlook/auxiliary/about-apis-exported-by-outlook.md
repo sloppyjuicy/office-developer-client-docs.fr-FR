@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7b251308-70ff-a1ec-e968-9d5993909505
 description: Outlook exporte des définitions, des structures de données, les fonctions suivantes, les interfaces qui ont été initialement conçus pour un usage interne, mais qui sont désormais exposés pour une consommation publique.
 ms.openlocfilehash: 0ed68b6c1b8082ee5cc22deb96333a0bd4d29390
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316981"
 ---
 # <a name="about-apis-exported-by-outlook"></a>À propos de l'API exporté par Outlook
 
@@ -44,7 +44,7 @@ Outlook exporte des définitions, des structures de données, les fonctions suiv
   
 - [IOlkApptRebaser](iolkapptrebaser.md)
     
-### <a name="events"></a>Événements
+### <a name="events"></a>Events
   
 - [Événements disponibles et leur DISPID (Outlook des API exportées)](available-events-and-their-dispids-outlook-exported-apis.md)
     

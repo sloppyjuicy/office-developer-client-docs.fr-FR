@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3c2db9284c0e014101bc3a3d2114a187d7cb3b4b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 302aebd0be78c833acf4f82d2bb815ba46ae6f77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317391"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576625"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur qui s’est produite pour un objet de l’administration de service de message. 
+Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur survenue pour un objet d'administration de service de messagerie. 
   
 ```cpp
 HRESULT GetLastError(
@@ -39,19 +39,19 @@ HRESULT GetLastError(
 
  _hResult_
   
-> [in] Un type de données HRESULT qui contient la valeur d’erreur générée par l’appel de méthode précédent.
+> dans Un type de données HRESULT qui contient la valeur d'erreur générée par l'appel de méthode précédent.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes dans la structure **MAPIERROR** retournée dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR** renvoyées dans le paramètre _lppMAPIError_ sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
-> [out] Pointeur vers un pointeur vers la structure **MAPIERROR** retournée qui contient les informations de version, composant et le contexte de l’erreur. Le paramètre _lppMAPIError_ peut être défini sur la valeur NULL s’il n’existe aucune structure **MAPIERROR** pour renvoyer. 
+> remarquer Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte pour l'erreur. Le paramètre _lppMAPIError_ peut être défini sur null s'il n'existe aucune structure **MAPIERROR** à renvoyer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,17 +61,17 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été défini et que l’objet d’administration de service de message ne prend pas en charge Unicode.
+> L'indicateur MAPI_UNICODE a été défini et l'objet d'administration du service de messagerie ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin::GetLastError** récupère des informations sur la dernière erreur a été renvoyée par un appel de méthode [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Les clients peuvent fournir leurs utilisateurs avec des informations détaillées sur l’erreur en incluant ces informations dans une boîte de dialogue. 
+La méthode **IMsgServiceAdmin:: GetLastError** extrait des informations sur la dernière erreur renvoyée par un appel de la méthode [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Les clients peuvent fournir à leurs utilisateurs des informations détaillées sur l'erreur en incluant ces informations dans une boîte de dialogue. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez vous servir de la **MAPIERROR** structure, si MAPI fournit un, désignés par le paramètre _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Il est parfois MAPI ne peut pas déterminer la dernière erreur a été ou n’a rien de plus de rapport sur l’erreur. Dans ce cas, **GetLastError** retourne un pointeur null dans _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR** , si la fonction MAPI en fournit une, pointée par le paramètre _LppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer quelle est la dernière erreur ou n'a rien d'autre pour signaler l'erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers une valeur null dans _lppMAPIError_ à la place. 
   
-Pour plus d’informations sur la méthode **GetLastError** , voir [Erreurs d’étendue à l’aide](mapi-extended-errors.md).
+Pour plus d'informations sur la méthode **GetLastError** , consultez la rubrique [utilisation d'erreurs étendues](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,18 +7,18 @@ ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
 localization_priority: Priority
 ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282200"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Formats numériques personnalisés pour la fonction Format (application web personnalisée Access)
 
 Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
 Vous pouvez modifier l'affichage d'un nombre en créant un format numérique défini par l'utilisateur. Un format numérique défini par l'utilisateur peut comporter entre une et trois sections séparées par des points-virgules (;). Si l'argument Style de la fonction [Fonction de format (application web personnalisé de l'accès)](format-function-access-custom-web-app.md) contient l'un des formats numériques prédéfinis, une seule section est autorisée. 
   

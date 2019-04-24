@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 40c9b37474391c58b1089694f07ea9e99b418daa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316071"
 ---
 # <a name="pidtaghomeaddresscity-canonical-property"></a>Propriété canonique PidTagHomeAddressCity
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la ville de l’adresse du destinataire d’accueil.
+Contient la ville de l'adresse personnelle du destinataire.
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ Indique la ville de l’adresse du destinataire d’accueil.
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

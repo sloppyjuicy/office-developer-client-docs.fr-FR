@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: be41a9916b6b231d5715cf18fe2b0d804434f2ea
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 069cb41ceac70a2eaaa08440e43745605890f071
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318038"
 ---
 # <a name="bookmark"></a>BOOKMARK
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit les données de signets pour mémoriser une position dans un tableau. 
+Définit les données de signets pour la mémorisation d'une position dans un tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Méthodes associées :  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md) [IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Méthodes connexes:  <br/> |[IMAPITable:: CreateBookmark](imapitable-createbookmark.md) [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -38,7 +38,7 @@ typedef ULONG_PTR BOOKMARK;
 
 ## <a name="remarks"></a>Remarques
 
-MAPI définit trois signets, répertoriés comme suit :
+MAPI définit trois signets, comme suit:
   
 BOOKMARK_BEGINNING 
   
@@ -52,7 +52,7 @@ BOOKMARK_END
   
 > Mémorise la position de fin de la table.
     
-Clients peuvent créer d’autres signets mémorisation des autres positions de tableau. Les signets ne sont valides que si la table est ouverte. Clients doivent libérer tous les signets qu’ils ont créés avant la fermeture de la table associée. 
+Les clients peuvent créer d'autres signets pour mémoriser les autres positions des tables. Les signets ne sont valides que lorsque le tableau est ouvert. Les clients doivent libérer tous les signets qu'ils ont créés avant de fermer le tableau associé. 
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -67,5 +67,5 @@ Clients peuvent créer d’autres signets mémorisation des autres positions de 
 [IMAPITable::SeekRow](imapitable-seekrow.md)
 
 
-[Types de données MAPI](mapi-data-types.md)
+[Types de donn�es MAPI](mapi-data-types.md)
 

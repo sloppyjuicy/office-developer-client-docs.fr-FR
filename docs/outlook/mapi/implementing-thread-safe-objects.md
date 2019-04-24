@@ -1,5 +1,5 @@
 ---
-title: Implémentation des objets thread-safe
+title: Implémentation d'objets thread-safe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,30 +7,30 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3c911694-b953-4d35-9a3a-22c17cfd79bc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2f8235caceec8b27b2b14fac26d51e9e31ce1024
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9160136542c7960bad0be2423872171b17d99fe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310037"
 ---
-# <a name="implementing-thread-safe-objects"></a>Implémentation des objets thread-safe
+# <a name="implementing-thread-safe-objects"></a>Implémentation d'objets thread-safe
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avec les objets retournés par la méthode d’interface appelle directement, il incombe du fournisseur pour garantir la sécurité des threads. Avec les objets de rappel, c’est l’application cliente.
+Avec les objets qui sont renvoyés à partir des appels de méthode d'interface directement, il incombe au fournisseur de s'assurer de la sécurité des threads. Avec les objets callback, il s'agit de la responsabilité de l'application cliente.
   
-Un client peut implémenter un rappel de notification de thread-safe en appelant l’utilitaire MAPI [HrThisThreadAdviseSink](hrthisthreadadvisesink.md). **HrThisThreadAdviseSink** transforme un récepteur de notifications de thread-safe dans un thread-safe. Pour les rappels de progression, il n’existe pas d’utilitaire. Un client peut choisir d’utiliser l’objet de l’avancement du thread-safe MAPI ou en créer une manuellement. 
+Un client peut implémenter un rappel de notification thread-safe en appelant l'utilitaire MAPI [HrThisThreadAdviseSink](hrthisthreadadvisesink.md). **HrThisThreadAdviseSink** transforme un récepteur de conseillers non thread-safe en un récepteur thread-safe. Pour les rappels de progression, il n'existe pas d'utilitaire de ce type. Un client peut choisir d'utiliser l'objet de progression thread-safe MAPI ou d'en créer un manuellement. 
   
-Un objet thread-safe peut ou non également être thread prenant en charge. Un objet prenant en charge les threads gère un contexte distinct pour chaque thread qui est à l’aide. Fournisseurs de services ne sont pas nécessaire pour prendre en charge de thread-sensibilisation dans leurs objets thread-safe, bien que la prise en charge de sensibilisation à la thread peut être utile dans certaines situations. Deux tables MAPI toujours fournissent leur propre contexte par définition. Une table utilisée sur différents threads ne pas et ne doit pas fournir de contexte unique.
+Un objet thread-safe peut également ou non être pris en charge par les threads. Un objet lié à un thread gère un contexte distinct pour chaque thread qui l'utilise. Les fournisseurs de services ne sont pas tenus de prendre en charge la détection des threads dans leurs objets thread-safe, bien que la prise en charge de la détection des threads puisse être utile dans certaines situations. Deux tables MAPI fournissent toujours leur propre contexte par définition. Une table utilisée sur des threads différents ne doit pas fournir de contexte unique.
   
-Un client peut choisir de recevoir des notifications sur le même thread qui a été utilisé pour l' **exécuter MAPIInitialize** appeler, sur le même thread qui a été utilisé pour l’appel **Advise** , soit sur un thread distinct détenus par MAPI. Pour vous assurer que les notifications arrivent sur le même thread qui a servi à **exécuter MAPIInitialize**d’appel, un client appelle [exécuter MAPIInitialize](mapiinitialize.md) et transmet la valeur zéro dans le membre **ulFlags** de la structure [MAPIINIT_0](mapiinit_0.md) . Les notifications sont ensuite remises au cours de la boucle de message principale. 
+Un client peut choisir entre recevoir des notifications sur le même thread que celui utilisé pour l'appel **MAPIInitialize** , sur le même thread que celui utilisé pour l'appel de la fonction Advise ou sur un thread distinct appartenant à MAPI. **** Pour vous assurer que les notifications arrivent sur le même thread que celui utilisé pour appeler **MAPIInitialize**, un client appelle [MAPIInitialize](mapiinitialize.md) et transmet zéro dans le membre **ulFlags** de la structure [MAPIINIT_0](mapiinit_0.md) . Les notifications sont ensuite remises lors de la boucle de message principale. 
   
-Pour recevoir des notifications sur le thread appartenant à MAPI, un client appelle **exécuter MAPIInitialize** avec le membre **ulFlags** de la structure **MAPIINIT_0** défini sur MAPI_MULTITHREAD_NOTIFICATIONS. L’appel **Advise** est effectuée avec objet récepteur plutôt que sur une version encapsulée de notification du client. 
+Pour recevoir des notifications sur le thread appartenant à MAPI, un client appelle **MAPIInitialize** avec le membre **ulFlags** de la structure **MAPIINIT_0** définie sur MAPI_MULTITHREAD_NOTIFICATIONS. L' **** appel de la fonction Advise est effectué avec l'objet de récepteur de notification du client au lieu d'une version enveloppée. 
   
-Pour vous assurer que les notifications arrivent sur le même thread qui a été utilisé pour appeler **Advise**, un client appelle [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) et passe encapsulé nouvellement créé de notification récepteur **Advise** plutôt que le récepteur de notifications d’origine. **Exécuter MAPIInitialize** peut être appelée avec une valeur d’indicateur. 
+Pour vous assurer que les notifications arrivent sur le même thread que celui **** utilisé pour appeler Advise, un client appelle [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) et transmet le récepteur de notifications renvoyées nouvellement créé à des **conseils** au lieu du récepteur de notification d'origine. **MAPIInitialize** peut être appelé avec n'importe quelle valeur d'indicateur. 
   
 

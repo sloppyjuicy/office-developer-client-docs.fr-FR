@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: b62779567a7dbd298fdd313e90b13fb223e4e47e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319270"
 ---
 # <a name="pidlidtimezone-canonical-property"></a>Propriété canonique PidLidTimeZone
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie des informations sur le fuseau horaire d’une réunion périodique.
+Fournit des informations sur le fuseau horaire d'une réunion périodique.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |LID_TIME_ZONE  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Meeting  <br/> |
-|ID de type long (capot) :  <br/> |0x0000000C  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Meeting  <br/> |
+|ID long (couvercle):  <br/> |0x0000000C  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Réunions  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est en lecture uniquement si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n’est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) est TRUE et la **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) la propriété est FALSE. Le mot de poids faible spécifie un index dans un tableau qui contient des informations de fuseau horaire. À partir du mot supérieur, uniquement le bit le plus élevé est en lecture. Si ce bit est activé, puis le fuseau horaire référencé n’observera est suivi de l’heure (heure), sinon les dates de l’heure d’été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Cette propriété est uniquement lue si la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) n'est pas définie, mais si la propriété **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) a la valeur true et la **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) a la valeur false. Le mot de bas indique un index dans une table qui contient des informations sur le fuseau horaire. À partir du mot supérieur, seul le bit le plus élevé est lu. Si ce bit est défini, le fuseau horaire référencé n'observera pas l'heure d'été (DST), sinon les dates d'heure d'été détaillées dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) seront suivies. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

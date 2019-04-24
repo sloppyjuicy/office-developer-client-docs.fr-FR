@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2d05592d1fdcdcd53c8b7879f9cdcd432df1a3f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 49ef9862d5156a1bed242652df32baab9a0123fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317156"
 ---
 # <a name="iostxsynchdrbeg"></a>IOSTX::SyncHdrBeg
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Démarre la synchronisation pour un en-tête de message.
   
@@ -39,19 +39,19 @@ HRESULT SyncHdrBeg(
 
  _cbeid_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée du message.
+> dans Nombre d'octets dans l'ID d'entrée du message.
     
  _lpeid_
   
-> [in] L’identificateur d’entrée du message.
+> dans ID d'entrée du message.
     
  _PPV_
   
->  [in] / [out] pointeur vers la structure **[HDRSYNC](hdrsync.md)** pour l’en-tête du message. 
+>  [in]/[out] pointeur vers la structure **[HDRSYNC](hdrsync.md)** pour l'en-tête de message. 
     
 ## <a name="remarks"></a>Remarques
 
-Lors de l' **IOSTX::SyncHdrBeg**, local stocker des transitions pour l' [état d’en-tête de message du téléchargement](download-message-header-state.md). Outlook initialise pour le client de la structure **HDRSYNC** avec la représentation actuelle de l’en-tête du message dans le magasin et le dossier parent. Le client doit télécharger puis un élément de message complète (comme *pmsgFull* dans **HDRSYNC** ). Si cela a réussi, le client définit également *ulFlags* **HDRSYNC** en tant que **HSF_OK**. Fonction **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, Outlook vérifie le résultat dans **HDRSYNC** et utilise les informations de **HDRSYNC** pour mettre à jour l’en-tête de message local. 
+Sur **IOSTX:: SyncHdrBeg**, le magasin local passe à l' [État d'en-tête du message de téléchargement](download-message-header-state.md). Outlook initialise pour le client la structure **HDRSYNC** avec la représentation actuelle de l'en-tête du message dans le magasin et le dossier parent. Le client doit ensuite télécharger un élément de message complet (en tant que *pmsgFull* dans **HDRSYNC** ). Si cette opération réussit, le client définit également *ulFlags* dans **HDRSYNC** en tant que **HSF_OK**. Sur **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)**, Outlook vérifie le résultat dans **HDRSYNC** et utilise les informations de **HDRSYNC** pour mettre à jour l'en-tête de message local. 
   
 ## <a name="see-also"></a>Voir aussi
 

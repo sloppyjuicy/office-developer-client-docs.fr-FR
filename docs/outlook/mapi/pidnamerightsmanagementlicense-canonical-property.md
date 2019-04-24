@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 889b823a55c39ebc19e52c8cc9a1d078a5732a01
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395545"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315021"
 ---
 # <a name="pidnamerightsmanagementlicense-canonical-property"></a>Propriété canonique PidNameRightsManagementLicense
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met en cache de la licence d’utilisation pour le message électronique géré par des droits.
+Met en cache la licence d'utilisation pour le message électronique géré par des droits.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucune  <br/> |
-|Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |DRMLicense  <br/> |
+|Noms conviviaux:  <br/> |Aucun  <br/> |
+|Jeu de propriétés:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Nom de la propriété:  <br/> |DRMLicense  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
 |Domaine :  <br/> |Messagerie sécurisée  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété est présente dans un message électronique géré par des droits, la première valeur de cette propriété binaire plusieurs doit contenir la licence d’utilisation compressé ZLIB (comme spécifié dans [RFC1950]) pour le message électronique géré par des droits.
+Si la propriété est présente dans un message électronique géré par des droits, la première valeur de cette propriété multiple Binary doit contenir la licence ZLIB (comme spécifié dans [RFC1950]) utilisation compressée pour le message électronique géré par des droits.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés géré par des droits.
+> Spécifie les propriétés des messages codés gérés par des droits.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

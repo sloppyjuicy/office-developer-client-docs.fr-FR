@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d32f5c7c25b2569a23bed77d48257f4d0394cb1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9681a2af2997ad03b73ae07bc7bac05e5f0c780e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315462"
 ---
 # <a name="ipstoverride1overridepstdisablegrow"></a>IPSTOVERRIDE1::OverridePSTDisableGrow
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563344"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déverrouille un fichier de dossiers personnels (.pst) d’une session, en remplacement de la stratégie PSTDisableGrow.
+Déverrouille un fichier de dossiers personnels (. pst) pour une session, en remplaçant la stratégie PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
@@ -35,7 +35,7 @@ HRESULT OverridePSTDisableGrow();
 
 S_OK
   
-> L’appel de fonction a réussi.
+> L'appel de la fonction a réussi.
     
 ## <a name="see-also"></a>Voir aussi
 

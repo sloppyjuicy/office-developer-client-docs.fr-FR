@@ -7,57 +7,57 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309729"
 ---
 # <a name="initializing-mapi"></a>Initialisation de MAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent appeler la fonction **exécuter MAPIInitialize** . Pour plus d’informations, voir [exécuter MAPIInitialize](mapiinitialize.md). **Exécuter MAPIInitialize** initialise les données globales pour la session et prépare les bibliothèques d’accepter les appels MAPI. Il existe quelques indicateurs qui sont importantes pour définir dans certaines situations : 
+Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent appeler la fonction **MAPIInitialize** . Pour plus d'informations, consultez la rubrique [MAPIInitialize](mapiinitialize.md). **MAPIInitialize** initialise les données globales pour la session et prépare les bibliothèques MAPI pour accepter les appels. Certains indicateurs doivent être définis dans certaines situations: 
   
 - MAPI_NT_SERVICE
     
-    Définir l’indicateur MAPI_NT_SERVICE si votre client est implémentée comme un service Windows. Si votre client est un service Windows et vous ne définissez pas cet indicateur, MAPI le reconnaît pas en tant que service. 
+    Définissez l'indicateur MAPI_NT_SERVICE si votre client est implémenté en tant que service Windows. Si votre client est un service Windows et que vous ne définissez pas cet indicateur, MAPI ne le reconnaîtra pas en tant que service. 
     
 - MAPI_MULTITHREAD_NOTIFICATIONS
     
-    L’indicateur MAPI_MULTITHREAD_NOTIFICATIONS se rapporte à comment MAPI gère les notifications. MAPI crée une fenêtre masquée qui reçoit les messages de fenêtre lorsque les modifications sont apportées à un objet de génération de notifications. Les messages de fenêtre sont traités à un moment donné, à l’origine de l’envoi des notifications et les méthodes de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) appropriées à appeler. 
+    L'indicateur MAPI_MULTITHREAD_NOTIFICATIONS est lié à la façon dont MAPI gère les notifications. MAPI crée une fenêtre masquée qui reçoit les messages de fenêtre lorsque des modifications sont apportées à un objet générant des notifications. Les messages de fenêtre sont traités à un certain moment, ce qui entraîne l'envoi des notifications et l'appel des méthodes [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) appropriées. 
     
 - MAPI_NO_COINIT
     
-    Définir l’indicateur MAPI_NO_COINT pour pouvoir **exécuter MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Si une structure **MAPIINIT_0** est passée à **exécuter MAPIInitialize** avec _ulFlags_ défini sur MAPI_NO_COINIT, MAPI part du principe que COM a déjà été initialisé et ignorer l’appel à **CoInitialize**.
+    Définissez l'indicateur MAPI_NO_COINT afin que **MAPIInitialize** n'essaie pas d'initialiser com avec un appel à [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Si une structure **MAPIINIT_0** est transmise à **MAPIInitialize** avec _ULFLAGS_ définie sur MAPI_NO_COINIT, MAPI part du principe que com a déjà été initialisé et ignore l'appel à CoInitialize. ****
     
-Si l’indicateur MAPI_MULTITHREAD_NOTIFICATIONS n’est pas transmise, MAPI crée la fenêtre de notification sur le thread qui a été utilisé pour votre premier appel **exécuter MAPIInitialize** . MAPI crée la fenêtre de notification sur un thread distinct si MAPI_MULTITHREAD_NOTIFICATIONS est passé, un thread dédié à la gestion des notifications. MAPI attend le thread qui est utilisé pour créer la fenêtre de notification masqué : 
+Si l'indicateur MAPI_MULTITHREAD_NOTIFICATIONS n'est pas passé, MAPI crée la fenêtre de notification sur le thread utilisé pour votre premier appel **MAPIInitialize** . MAPI crée la fenêtre de notification sur un thread distinct si MAPI_MULTITHREAD_NOTIFICATIONS est passé, un thread dédié au traitement des notifications. MAPI attend le thread qui est utilisé pour créer la fenêtre de notification masquée pour: 
   
-- Avoir une boucle de message.
+- Disposer d'une boucle de messages.
     
-- Ne pas bloquer pendant toute la durée de la session.
+- Rester débloqué tout au long de la durée de vie de la session.
     
-- Avoir une durée de vie plue que tout autre thread créé par votre client. 
+- La durée de vie est plus longue que celle de n'importe quel autre thread créé par votre client. 
     
-Vous pouvez choisir de thread qui est utilisé en définissant un indicateur dans le premier appel **exécuter MAPIInitialize** . Le risque en autorisant un de vos threads pour gérer les notifications est que si le thread disparaît, la destruction de la fenêtre de notification et les notifications ne peuvent plus être envoyées à n’importe lequel de vos autres threads. En outre, un traitement spécial peut être nécessaire pour contrôler la distribution des messages de notification qui sont publiés dans la file d’attente de messages de la fenêtre masquée. 
+Vous pouvez choisir le thread utilisé en définissant un indicateur dans le premier appel **MAPIInitialize** . Le danger pour l'un de vos threads de gérer les notifications est que si le thread disparaît, la fenêtre de notification est détruite et les notifications ne peuvent plus être envoyées à l'un de vos autres threads. De plus, un traitement spécial peut être nécessaire pour contrôler la distribution des messages de notification qui sont publiés dans la file d'attente de messages de la fenêtre masquée. 
   
-Si vous utilisez une fenêtre séparée pour gérer les notifications, être assuré que les notifications seront affiche au moment opportun sur une thread approprié. Vous n’aurez pas de code spécial pour rechercher et traiter les messages Windows qui sont publiés dans la fenêtre de notification. 
+Si vous utilisez une fenêtre distincte pour gérer les notifications, assurez-vous que les notifications s'affichent à l'heure appropriée sur un thread approprié. Vous n'aurez pas besoin de code spécial pour vérifier et traiter les messages Windows qui sont publiés dans la fenêtre de notification. 
   
-MAPI recommande les types suivants d’applications clientes d’utiliser un thread distinct pour créer la fenêtre masquée pour la prise en charge de la notification :
+MAPI recommande que les types d'applications clientes suivants utilisent un thread distinct pour créer la fenêtre masquée pour la prise en charge des notifications:
   
-- Tous les clients multithreads.
+- Tous les clients multithread.
     
-- Applications de la console Windows services seul thread et Win32.
+- Les services Windows à thread unique et les applications console Win32.
     
-- Un seul thread les clients qui n’ont pas besoin d’utiliser leur thread principale pour notification.
+- Les clients à thread unique qui n'ont pas besoin d'utiliser leur thread principale pour la notification.
     
-Pour utiliser l’approche de thread distinct, appelez **exécuter MAPIInitialize** sur chaque thread, l’indicateur MAPI_MULTITHREAD_NOTIFICATIONS. 
+Pour utiliser l'approche de thread distincte, appelez **MAPIInitialize** sur chaque thread, en définissant l'indicateur MAPI_MULTITHREAD_NOTIFICATIONS. 
   
 > [!NOTE]
-> Uniquement d’un client premier appel à **exécuter MAPIInitialize** provoque une fenêtre masquée à créer pour prendre en charge les notifications. Cause uniquement les appels suivants à incrémenter un décompte de références. 
+> Seul le premier appel d'un client vers **MAPIInitialize** entraîne la création d'une fenêtre masquée pour prendre en charge les notifications. Les appels suivants entraînent uniquement l'incrémentation d'un décompte de référence. 
   
 

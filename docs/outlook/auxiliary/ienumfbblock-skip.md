@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
-description: Ignore un nombre spécifié de blocs de données et de disponibilité.
-ms.openlocfilehash: 63f699d09e143a879702e8dc76beb8a969a77b82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ignore un nombre spécifié de blocs de données de disponibilité.
+ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317548"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
-Ignore un nombre spécifié de blocs de données et de disponibilité.
+Ignore un nombre spécifié de blocs de données de disponibilité.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  [in] Le nombre de blocs de disponibilité à ignorer. 
+>  dans Nombre de blocs de disponibilité à ignorer. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

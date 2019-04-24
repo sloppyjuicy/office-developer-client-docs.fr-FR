@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 9172d4956e78ac31cd15d69e70d05c127a474ca5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317275"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25387633"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime l’inscription d’un objet pour la notification des modifications de banque de messages précédemment établie à l’aide d’un appel à la méthode [IMSLogon::Advise](imslogon-advise.md) . 
+Supprime l'inscription d'un objet pour la notification des modifications de banque de messages précédemment établies à l'aide d'un appel à la méthode [IMSLogon:: Advise](imslogon-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,7 +37,7 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> [in] Le numéro de la connexion d’enregistrement renvoyé par un appel à **IMSLogon::Advise**.
+> dans Numéro de la connexion d'inscription renvoyée par un appel à **IMSLogon:: Advise**.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMSLogon::Unadvise** pour libérer le pointeur vers l’objet de récepteur advise transmis dans le paramètre _lpAdviseSink_ dans l’appel précédent à **IMSLogon::Advise**, annulant ainsi une notification implémentés par les fournisseurs la base de messages inscription. Dans le cadre d’ignorer le pointeur vers l’objet de récepteur advise, la méthode l’objet [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) est appelée. En règle générale, la **version** est appelé pendant l’appel **Unadvise** . Toutefois, si un autre thread est en appelant la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de récepteur advise, l’appel de la **version** est différé jusqu'à ce que la méthode **OnNotify** renvoie. 
+Les fournisseurs de banque de messages implémentent la méthode **IMSLogon::** Unadvise pour libérer le pointeur vers l'objet de récepteur de notifications transmis dans le paramètre _lpAdviseSink_ dans l'appel précédent à **IMSLogon:: Advise**, ce qui a pour effet d'annuler une notification. son. Dans le cadre du rejet du pointeur vers l'objet de récepteur de notification, la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l'objet est appelée. En règle générale, la **publication** est appelée pendant l'appel Unadvise. **** Toutefois, si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet de récepteur de notifications, l'appel de **libération** est retardé jusqu'à ce que la méthode **OnNotify** soit renvoyée. 
   
 ## <a name="see-also"></a>Voir aussi
 

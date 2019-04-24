@@ -7,18 +7,18 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 96cc758074586b180c47afab2ad8f63c11d49df5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 145d054334a2d5a861896a2f5b6610d660000117
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318164"
 ---
 # <a name="attoriginalmessageclass"></a>attOriginalMessageClass
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une classe de message est stockée sous forme de chaîne. La chaîne encodée conserve généralement le nom de la classe de message MAPI spécifié.
+Une classe de message est stockée sous forme de chaîne. La chaîne codée contient généralement le nom spécifié par MAPI de la classe de message.
   
 

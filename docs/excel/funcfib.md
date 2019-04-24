@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - FuncFib
 keywords:
-- fonction funcfib [excel 2007]
+- fonction FuncFib [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 8d1c97ea57e968aaedffca6b37ded3d875e87413
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fb8f0c12c27fb2c95007eb5006c1d8b90970f3ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310835"
 ---
 # <a name="funcfib"></a>FuncFib
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de fonction définie par l’utilisateur la feuille de calcul qui calcule le nombre Fibonacci nième. Lorsque GENERIC.xll est chargé, il enregistre cette fonction afin qu’elle peut être appelée à partir de la feuille de calcul.
+Exemple de fonction de feuille de calcul définie par l'utilisateur qui calcule le nième nombre de Fibonacci. Lorsque GENERIC. xll est chargé, il enregistre cette fonction afin qu'elle puisse être appelée à partir de la feuille de calcul.
   
 ```cs
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
@@ -32,25 +32,25 @@ LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 
  _pxN_ (**LPXLOPER12**)
   
-La valeur de N pour lequel le nombre de Fibonacci nième est nécessaire.
+Valeur de N pour laquelle le nième nombre de Fibonacci est requis.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-(**xltypeNum LPXLOPER12** en cas de réussite ou **xltypeErr** dans le cas contraire) 
+(**XLTYPENUM LPXLOPER12** en cas de réussite ou **xltypeErr** ) 
   
-Le nombre de Fibonacci nième.
+Nième nombre de Fibonacci.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction utilise une variable statique définie dans le bloc de fonction comme valeur de retour **XLOPER12**. Ce n’est pas thread-safe, et cette fonction et une fonction de feuille de calcul qui utilise cette stratégie pour le renvoi **XLOPER**ou **XLOPER12**, ne doivent pas être enregistrées en tant que thread-safe à compter d’Excel 2007.
+La fonction utilise une variable statique définie dans le bloc de fonction comme valeur de retour **XLOPER12**. Cette fonction n'est pas thread-safe et, par conséquent, cette fonction, ainsi que n'importe quelle fonction de feuille de calcul qui utilise cette stratégie pour renvoyer des **XLOPER**s ou **XLOPER12**, ne doit pas être inscrite en tant que thread-safe en commençant dans Excel 2007.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Fonctions de la DLL générique](functions-in-the-generic-dll.md)
+[Fonctions dans le fichier DLL générique](functions-in-the-generic-dll.md)
 

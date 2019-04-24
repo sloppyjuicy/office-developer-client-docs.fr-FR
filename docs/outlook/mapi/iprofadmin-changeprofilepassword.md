@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 41066d4418760a676fbc02241bfc12d83275da9d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: c7124c8e3f2ced66d303321ff7aee8592a723a2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317121"
 ---
 # <a name="iprofadminchangeprofilepassword"></a>IProfAdmin::ChangeProfilePassword
 
@@ -25,7 +25,7 @@ ms.locfileid: "22572997"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déconseillé. Modifie le mot de passe pour un profil.
+Déconseillé. Modifie le mot de passe d'un profil.
   
 ```cpp
 HRESULT ChangeProfilePassword(
@@ -40,33 +40,33 @@ HRESULT ChangeProfilePassword(
 
  _lpszProfileName_
   
-> [in] Pointeur vers le nom du profil associé avec le mot de passe à modifier.
+> dans Pointeur vers le nom du profil associé au mot de passe à modifier.
     
  _lpszOldPassword_
   
-> [in] Pointeur vers le mot de passe actuel.
+> dans Pointeur vers le mot de passe actuel.
     
  _lpszNewPassword_
   
-> [in] Pointeur vers le nouveau mot de passe.
+> dans Pointeur vers le nouveau mot de passe.
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes dans le passé. Vous pouvez définir l’indicateur suivant :
+> dans Masque de bits des indicateurs qui contrôle le type des chaînes transmises. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Le nom de profil et les mots de passe sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas défini, ces chaînes sont au format ANSI.
+> Le nom du profil et les mots de passe sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, ces chaînes sont au format ANSI.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Si cette méthode est appelée, elle renvoie S_OK. Toutefois, aucune action ne sera entreprise.
+> Si cette méthode est appelée, elle renverra S_OK. Toutefois, aucune action n'est effectuée.
     
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette méthode. MAPI ne gère pas les mots de passe pour les profils.
+N'utilisez pas cette méthode. MAPI ne prend pas en charge les mots de passe des profils.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 8d6fa58e61dde30292487c95fb8a74d568a3bbeb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316372"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propriété canonique PidTagExpiryTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure lorsque le système de messagerie peut invalider le contenu d’un message. 
+Contient la date et l'heure auxquelles le système de messagerie peut invalider le contenu d'un message. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient la date et l’heure lorsque le système de messagerie peut invalider l
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour diriger que le système de messagerie dans la gestion des remises de messages. 
+Cette propriété est utilisée pour diriger le système de messagerie afin de gérer les messages interpersonnels remis. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les messages électroniques.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

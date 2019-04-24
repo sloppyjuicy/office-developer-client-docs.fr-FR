@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 89eb6f0b8248fb0113356e60e0b94e4762c2a11a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cda969b43cba9431b986b24ec64ca26f245b7676
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316239"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propriété canonique PidTagFormHidden
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un formulaire doit être supprimé de l’affichage à composer des menus et boîtes de dialogue. 
+Contient la valeur TRUE si un formulaire doit être supprimé de l'affichage par les menus de composition et les boîtes de dialogue. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identificateur :  <br/> |0x3307  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Propriétés relatives aux formulaires sont en lecture seule. 
+Les propriétés liées aux formulaires sont en lecture seule. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

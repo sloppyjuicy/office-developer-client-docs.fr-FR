@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 78edd549-d557-489a-85f5-adfb5c44a7d4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 379fdc47f35fb183dd0bf551e421422abb106c0e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 105219fe430cd8746c3aa6cf5cd90629d5f72080
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316526"
 ---
 # <a name="imapisupportexpandrecips"></a>IMAPISupport::ExpandRecips
 
@@ -25,7 +25,7 @@ ms.locfileid: "22591009"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Termine la liste des destinataires d’un message, développer des listes de distribution particulier.
+Complète la liste de destinataires d'un message, en développant des listes de distribution particulières.
   
 ```cpp
 HRESULT ExpandRecips(
@@ -38,45 +38,45 @@ HRESULT ExpandRecips(
 
  _lpMessage_
   
-> [in] Pointeur vers le message qui contient la liste des destinataires à traiter.
+> dans Pointeur vers le message dont la liste de destinataires doit être traitée.
     
  _lpulFlags_
   
-> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle le type de traitement qui se produit. Les indicateurs suivants peuvent être définis :
+> remarquer Pointeur vers un masque de des indicateurs qui contrôle le type de traitement qui se produit. Les indicateurs suivants peuvent être définis:
     
 NEEDS_PREPROCESSING 
   
-> Le message doit être prétraités avant son envoi.
+> Le message doit être prétraité avant d'être envoyé.
     
 NEEDS_SPOOLER 
   
-> Le spouleur MAPI (plutôt que le fournisseur de transport dans lequel l’appelant est étroitement) doit envoyer le message.
+> Le spouleur MAPI (plutôt que le fournisseur de transport auquel l'appelant est étroitement couplé) doit envoyer le message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Liste des destinataires du message a été correctement traitée.
+> La liste des destinataires du message a été traitée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::ExpandRecips** est implémentée pour les objets de prise en charge de fournisseur de magasin de message. Fournisseurs de magasins message appeler **ExpandRecips** pour demander l’interface MAPI pour effectuer les tâches suivantes : 
+La méthode **IMAPISupport:: ExpandRecips** est implémentée pour les objets de prise en charge du fournisseur de banque de messages. Les fournisseurs de banques de messages appellent **ExpandRecips** pour inviter MAPI à effectuer les tâches suivantes: 
   
-- Développez certaines listes de distribution personnelles aux destinataires d’un composant.
+- Développez certaines listes de distribution personnelle vers leurs destinataires de composants.
     
-- Remplacez tous les noms complets qui ont été modifiées par les noms d’origine.
+- Remplacez tous les noms d'affichage qui ont été modifiés par les noms d'origine.
     
-- Marquer des entrées en double.
+- Marquez toutes les entrées en double.
     
-- Résoudre toutes les adresses uniques. 
+- Résoudre toutes les adresses ponctuelles. 
     
-- Vérifier si le message a besoin de prétraitement et, si c’est le cas, définie l’indicateur désignés par _lpulFlags_ à NEEDS_PREPROCESSING. 
+- Vérifiez si le message doit être prétraité et, si c'est le cas, définissez l'indicateur désigné par _lpulFlags_ sur NEEDS_PREPROCESSING. 
     
- **ExpandRecips** développe des listes de distribution dont le type de MAPIPDL adresse de messagerie. 
+ **ExpandRecips** développe toutes les listes de distribution dont le type d'adresse de messagerie est MAPIPDL. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez toujours **ExpandRecips** dans le cadre de votre processus de message. Émettre un appel à **ExpandRecips** 1 de l’appelle d’abord dans votre implémentation de la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) . 
+Appelez toujours **ExpandRecips** dans le cadre de votre traitement de message. Appelez **ExpandRecips** l'un des premiers appels dans votre implémentation de la méthode [IMessage: SubmitMessage](imessage-submitmessage.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

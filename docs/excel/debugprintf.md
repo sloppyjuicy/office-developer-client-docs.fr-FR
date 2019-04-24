@@ -7,24 +7,24 @@ ms.topic: reference
 f1_keywords:
 - debugPrintf
 keywords:
-- fonction debugprintf [excel 2007]
+- fonction debugPrintf [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 25669cfc705e797b80be0fab590d809e8f1e3b5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311003"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque Framework écrit une chaîne octet se terminant par null dans le débogueur actif via la fonction Windows SDK **OutputDebugStringA**. Si l’application ne possède aucun débogueur, le débogueur système affiche la chaîne. Si l’application ne possède aucun débogueur et le débogueur système n’est pas actif, **debugPrintf** est sans effet. 
+Fonction de bibliothèque d'infrastructure qui écrit une chaîne d'octets terminée par un caractère null vers le débogueur actif via la fonction **OutputDebugStringA**du kit de développement logiciel (SDK) Windows. Si l'application n'a pas de débogueur, le débogueur système affiche la chaîne. Si l'application n'a pas de débogueur et que le débogueur système n'est pas actif, **debugPrintf** n'a aucun effet. 
   
-Cette fonction ne retourne pas une valeur.
+Cette fonction ne renvoie pas de valeur.
   
 ```cs
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
@@ -34,15 +34,15 @@ void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 
  _lpFormat (LPSTR)_
   
-La chaîne de format qui suit la syntaxe et les règles qui est utilisée avec la fonction **sprintf** . 
+La chaîne de mise en forme, qui suit la syntaxe et les règles pour celles utilisées avec la fonction **sprintf** . 
   
  _arguments_
   
-Zéro ou plusieurs arguments pour la correspondance de la chaîne de format.
+Zéro ou plusieurs arguments correspondant à la chaîne de mise en forme.
   
 ## <a name="example"></a>Exemple
 
-Cette fonction imprime une chaîne pour indiquer que le contrôle a été passé à celui-ci. L’indicateur _DEBUG doit être définie avant la compilation, sinon cette fonction n’a aucun effet.
+Cette fonction imprime une chaîne pour indiquer que le contrôle lui a été passé. L'indicateur _ DEBUG doit être défini avant la compilation, sinon cette fonction n'a aucun effet.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

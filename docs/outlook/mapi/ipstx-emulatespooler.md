@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 079b54757cfcd5c9b38365abc5a6d901e2b06724
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580718"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315091"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit un magasin pour émuler le Gestionnaire de protocole Outlook pour mettre en attente des messages sortants vers un serveur local.
+Définit une banque locale pour émuler le gestionnaire de protocoles Outlook afin de spouler les messages sortants vers un serveur.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -35,18 +35,18 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [in] Définissez ce paramètre sur True si la banque locale doit émuler le spouleur ; défini sur False dans le cas contraire. 
+>  dans Définissez ce paramètre sur true si le magasin local doit émuler le spouleur; Définissez-la sur false dans le cas contraire. 
     
 ## <a name="remarks"></a>Remarques
 
-Une banque locale appelle **IPSTX::EmulateSpooler** pour agir comme un gestionnaire de protocole Outlook, les messages en attente dans la file d’attente sortante pour le serveur principal (par exemple, le serveur MSN ou le serveur de AOL) pour le traitement. Le magasin émule un spouleur lors de la synchronisation, puis appelle ces deux méthodes : 
+Un magasin local appelle **IPSTX:: EmulateSpooler** pour agir en tant que gestionnaire de protocoles Outlook, en spoule les messages de la file d'attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour traitement. Émulation d'un spouleur pendant la synchronisation, le magasin appelle les deux méthodes suivantes: 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** pour obtenir la sortant de la file d’attente de messages dans le magasin. Cette méthode fonctionne uniquement si la banque émule le Gestionnaire de protocole Outlook. 
+1. **[IMsgStore:: GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** pour obtenir la file d'attente de messages sortante dans la Banque. Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook. 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** pour sécuriser l’accès exclusif à un message dans la file d’attente sortante juste avant l’envoi au serveur. Cette méthode fonctionne uniquement si la banque émule le Gestionnaire de protocole Outlook. Après avoir envoyé le message, le magasin appelle cette méthode pour libérer un accès exclusif au son. 
+2. **[IMsgStore:: SetLockState](imsgstore-setlockstate.md)** pour sécuriser l'accès exclusif à un message dans la file d'attente sortante juste avant de l'envoyer au serveur. Cette méthode ne réussit que si la Banque émule le gestionnaire de protocoles Outlook. Après l'envoi du message, le magasin appelle de nouveau cette méthode pour lui libérer un accès exclusif. 
     
 > [!NOTE]
-> Depuis Outlook 2002, le Gestionnaire de protocole Outlook remplacé le spouleur MAPI et qu’il est devenu responsable pour les messages sortants en attente pour les serveurs principaux. 
+> Depuis Outlook 2002, le gestionnaire de protocoles Outlook remplace le spouleur MAPI et est devenu responsable de la mise en file d'attente des messages sortants vers les serveurs principaux. 
   
 ## <a name="see-also"></a>Voir aussi
 

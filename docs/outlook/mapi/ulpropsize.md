@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2bfe2841592987c530f6323db94834c1dcb64b2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cc1547ad7d881b707825630f96987d4c40ad4863
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576637"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315301"
 ---
 # <a name="ulpropsize"></a>UlPropSize
 
@@ -25,13 +25,13 @@ ms.locfileid: "22576637"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne la taille d’une seule valeur de propriété. 
+Renvoie la taille d'une seule valeur de propriété. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 ULONG UlPropSize(
@@ -43,7 +43,7 @@ ULONG UlPropSize(
 
  _lpSPropValue_
   
-> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définit la propriété à mesurer. 
+> dans Pointeur vers une structure [SPropValue](spropvalue.md) définissant la propriété à mesurer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,10 +53,10 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d’origine inattendu ou inconnu a empêché l’opération de se terminer.
+> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **UlPropSize** retourne la taille, en octets, de la valeur de propriété pour la propriété spécifiée. Elle ignore la taille du reste de la structure **SPropValue** . 
+La fonction **UlPropSize** renvoie la taille en octets de la valeur de la propriété spécifiée. Il ignore la taille du reste de la structure **SPropValue** . 
   
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 548ec33e39e181aba8a72b5325f3f426b9d51762
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 822b4164737aa6010ccce108b544410104ac023d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315469"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575867"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère la liste des enregistrements pour le fichier de dossiers personnels (.pst).
+Récupère la liste des inscriptions pour le fichier de dossiers personnels (. pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -35,16 +35,16 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> [in] Pointeur vers un pointeur vers une structure [SPropValue](spropvalue.md) . Le membre ulPropTag de cette structure est du type PT_MV_UNICODE, et le membre de la valeur MVszW sera un tableau de chaînes Unicode. Ces chaînes sont des chemins d’accès aux fichiers DLL pour laquelle l’enregistrement a été conservée. 
+> dans Pointeur vers un pointeur vers une structure [SPropValue](spropvalue.md) . Le membre ulPropTag de cette structure est de type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par un caractère null. Ces chaînes sont des chemins d'accès aux dll pour lesquelles l'inscription a été rendue persistante. 
     
 > [!NOTE]
-> prise en charge .pst ANSI n’est pas implémenté. 
+> la prise en charge des fichiers. pst pour ANSI n'est pas implémentée. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel de fonction a réussi.
+> L'appel de la fonction a réussi.
     
 ## <a name="see-also"></a>Voir aussi
 

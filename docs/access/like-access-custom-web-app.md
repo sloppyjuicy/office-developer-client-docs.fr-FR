@@ -1,51 +1,51 @@
 ---
-title: COMME (accès personnalisé web app)
+title: LIKE (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: decdd8fc-2184-4d97-b918-3ef6ab1ab40b
-description: Détermine si une chaîne de caractères spécifique correspond à un modèle spécifié. Un modèle peut inclure des caractères normaux et des caractères génériques. Au cours de critères spéciaux, caractères normaux doivent correspondre exactement les caractères spécifiés dans la chaîne de caractères. Toutefois, les caractères génériques peuvent être associés à des portions aléatoires de la chaîne de caractères. Utilisation de caractères génériques rend l’opérateur LIKE plus flexible que la = et ! = opérateurs de comparaison de chaînes.
-ms.openlocfilehash: d3224647c621b05a08bdc863939d0cccae214463
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine si une chaîne de caractères spécifique correspond à un modèle spécifié. Un modèle peut contenir des caractères normaux et des caractères génériques. Lors de la mise en correspondance des modèles, les caractères normaux doivent correspondre exactement aux caractères spécifiés dans la chaîne de caractères. Toutefois, les caractères génériques peuvent être mis en correspondance avec des fragments arbitraires de la chaîne de caractères. L'utilisation de caractères génériques rend l'opérateur LIKE plus flexible que l'utilisation des opérateurs de comparaison de chaînes = et! =.
+ms.openlocfilehash: 02d1e4f8fc61335e828a1f77579c14b1c7577485
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311080"
 ---
-# <a name="like-access-custom-web-app"></a>COMME (accès personnalisé web app)
+# <a name="like-access-custom-web-app"></a>LIKE (application Web personnalisée Access)
 
-Détermine si une chaîne de caractères spécifique correspond à un modèle spécifié. Un modèle peut inclure des caractères normaux et des caractères génériques. Au cours de critères spéciaux, caractères normaux doivent correspondre exactement les caractères spécifiés dans la chaîne de caractères. Toutefois, les caractères génériques peuvent être associés à des portions aléatoires de la chaîne de caractères. Utilisation de caractères génériques rend l’opérateur **LIKE** plus flexible que la = et ! = opérateurs de comparaison de chaînes. 
+Détermine si une chaîne de caractères spécifique correspond à un modèle spécifié. Un modèle peut contenir des caractères normaux et des caractères génériques. Lors de la mise en correspondance des modèles, les caractères normaux doivent correspondre exactement aux caractères spécifiés dans la chaîne de caractères. Toutefois, les caractères génériques peuvent être mis en correspondance avec des fragments arbitraires de la chaîne de caractères. L'utilisation de caractères génériques rend l'opérateur **Like** plus flexible que l'utilisation des opérateurs de comparaison de chaînes = et! =. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 
- *Expression*  [NOT] **Comme** *Motif*  [ESCAPE *dont* ] 
+ *Expression*  AUCUN **Comme** *Modèle*  [ESCAPE *EscapeChar* ] 
   
-L’opérateur **LIKE** contient les arguments suivants 
+L'opérateur **Like** contient les arguments suivants: 
   
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-| *Expression*  <br/> |Oui  <br/> |Une expression valide.  <br/> |
-| *Motif*  <br/> |Oui  <br/> |La chaîne de caractères à rechercher dans *l’Expression* spécifique. Peut inclure des caractères génériques. Reportez-vous aux remarques pour obtenir la liste des caractères génériques valides.  <br/> |
-| *Dont*  <br/> |Non  <br/> |Un caractère est placé devant le caractère générique pour indiquer que le caractère générique doit être interprété comme un caractère normal et non comme un caractère générique.  *Dont* est une expression de caractères qui n’a aucune valeur par défaut et doit correspondre à un seul caractère.  <br/> |
+| *Expression*  <br/> |Oui  <br/> |Expression valide.  <br/> |
+| *Pattern*  <br/> |Oui  <br/> |Chaîne de caractères spécifique à rechercher dans *expression* . Peut contenir des caractères génériques. RePortez-vous aux remarques pour obtenir la liste des caractères génériques valides.  <br/> |
+| *EscapeChar*  <br/> |Non  <br/> |Caractère placé devant un caractère générique pour indiquer que le caractère générique doit être interprété comme un caractère normal et non comme un caractère générique.  *EscapeChar* est une expression de caractères qui n'a pas de valeur par défaut et doit correspondre à un seul caractère.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant contient les caractères génériques qui sont valides pour une utilisation dans l’argument *Pattern* . 
+Le tableau suivant contient les caractères génériques qui sont valides pour une utilisation dans l'argument *pattern* . 
   
 |**Caractère générique**|**Description**|**Exemple**|
 |:-----|:-----|:-----|
-|%  <br/> |Toute chaîne de zéro ou plusieurs caractères.  <br/> | *Où titre comme « ordinateur % »* recherche tous les titres des ouvrages avec le terme « computer » n’importe où dans le titre du livre.  <br/> |
-|_ (trait de soulignement)  <br/> |Tout caractère unique.  <br/> | *WHERE au_fname LIKE '_ean'* trouve tous les prénoms de quatre lettres se terminant par ean (Olivier, Sean, etc.).  <br/> |
-|[]  <br/> |N’importe quel caractère de la plage spécifiée ([a-f]) ou ensemble ([abcdef]).  <br/> | *WHERE au_lname LIKE '[C-P] arsen'* trouve créer des noms se terminant par « arsen » et commençant par n’importe quel caractère unique compris entre C et P, par exemple Carsen, Larsen, Karsen et ainsi de suite.  <br/> |
-|[^]  <br/> |Tout caractère non au sein de la plage spécifiée ([^ a-f]) ou ([^ abcdef]).  <br/> | *WHERE au_lname LIKE ' Excel [^ l] %'* tous les noms commençant par de et dont la lettre suivante n’est pas l d’auteurs.  <br/> |
+|%  <br/> |Toute chaîne de zéro ou plusieurs caractères.  <br/> | *Où title LIKE'% Computer% '* recherche tous les titres de livre avec le mot «Computer» n'importe où dans le titre du livre.  <br/> |
+|_ (trait de soulignement)  <br/> |Tout caractère unique.  <br/> | *Où AU_FNAME like «_ean»* recherche tous les noms de la première lettre se terminant par EAN (Dean, Jean, etc.).  <br/> |
+|[]  <br/> |Tout caractère compris dans la plage spécifiée ([a-f]) ou défini ([abcdef]).  <br/> | *Où au_lname like' [C-P] faible'* recherche les noms des auteurs dont le nom se termine par «faible» et en commençant par un caractère unique entre C et P, par exemple Carsen, Larsen, Karsen, etc.  <br/> |
+|[^]  <br/> |Tout caractère qui ne se trouve pas dans la plage spécifiée ([^ a-f]) ou Set ([^ abcdef]).  <br/> | *Où au_lname like'de [^ l]% '* tous les noms de famille commençant par de et où la lettre suivante n'est pas l.  <br/> |
    
-Lorsque vous effectuez des comparaisons de chaînes à l’aide de **comme**, tous les caractères de la chaîne de modèle sont conséquents. Cela inclut les espaces de début ou de fin. Si une comparaison dans une requête doit renvoyer toutes les lignes contenant une chaîne **LIKE** « abc » (abc suivi d’un seul espace), une ligne dans laquelle la valeur de cette colonne est (abc sans espace) n’est pas retournée. Toutefois, les espaces, dans l’expression à laquelle le modèle est mis en correspondance, sont ignorés. Si une comparaison dans une requête doit renvoyer toutes les lignes contenant **la chaîne** « abc » (abc sans espace), toutes les lignes qui commencent par abc et zéro ou plusieurs espaces de fin sont renvoyés. 
+Lorsque vous effectuez des comparaisons de chaînes à l'aide de **Like**, tous les caractères de la chaîne de modèle sont significatifs. Cela inclut les espaces de début ou de fin. Si une comparaison dans une requête consiste à renvoyer toutes les lignes contenant une chaîne **Like** «ABC» (ABC suivi d'un seul espace), une ligne dont la valeur est ABC (ABC sans espace) n'est pas renvoyée. Toutefois, les espaces de fin, dans l'expression à laquelle le modèle est mis en correspondance, sont ignorés. Si une comparaison dans une requête consiste à renvoyer toutes les lignes contenant la chaîne **Like** «ABC» (ABC sans espace), toutes les lignes commençant par ABC et ayant zéro, un ou plusieurs espaces de fin sont renvoyés. 
   
-Si l’un des arguments n’est pas un chaîne du type de données, il est converti en un type de données string, s’il est possible.
+Si l'un des arguments n'est pas un type de données String, il est converti en un type de données String, si cela est possible.
   
 

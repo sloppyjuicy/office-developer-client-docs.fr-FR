@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 834b010dc4810e26264bb418de9630bc83b99810
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 1185a35df471fc3f85cbf50fd8ad3baa3927e72b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317380"
 ---
 # <a name="imsgserviceadmingetprovidertable"></a>IMsgServiceAdmin::GetProviderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565290"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table fournisseurs, une liste des fournisseurs de services dans le profil.
+Fournit l'accès à la table du fournisseur, une liste des fournisseurs de services dans le profil.
   
 ```cpp
 HRESULT GetProviderTable(
@@ -34,55 +34,55 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Toujours NULL.
+> dans Toujours NULL.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table des fournisseurs.
+> remarquer Pointeur vers un pointeur vers la table des fournisseurs.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau fournisseur a été renvoyé avec succès.
+> La table du fournisseur a été renvoyée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin::GetProviderTable** permet d’accéder à la table du fournisseur MAPI, un tableau qui répertorie le carnet d’adresses, banque de messages et des fournisseurs de transport actuellement installées dans le profil. 
+La méthode **IMsgServiceAdmin:: GetProviderTable** fournit l'accès à la table du fournisseur MAPI, un tableau qui répertorie tous les carnets d'adresses, les banques de messages et les fournisseurs de transport actuellement installés dans le profil. 
   
-Contrairement à la table fournisseur renvoyée par la méthode [IProviderAdmin::GetProviderTable](iprovideradmin-getprovidertable.md) , la table fournisseur renvoyée par le biais de **IMsgServiceAdmin::GetProviderTable** ne peut pas inclure d’autres lignes qui représentent les informations associées avec un ou plusieurs fournisseurs de services dans le profil. 
+Contrairement à la table du fournisseur renvoyée par la méthode [IProviderAdmin:: GetProviderTable](iprovideradmin-getprovidertable.md) , la table du fournisseur renvoyée via **IMsgServiceAdmin:: GetProviderTable** ne peut pas inclure de lignes supplémentaires qui représentent les informations associées avec un ou plusieurs fournisseurs de services dans le profil. 
   
-Fournisseurs qui ont été supprimés, ou sont en cours d’utilisation, ont été marquées pour suppression, mais ne sont pas inclus dans la table fournisseur. Tables du fournisseur sont statiques, ce qui signifie que les compléments suivantes ou les suppressions du profil ne sont pas reflétées dans le tableau. 
+Les fournisseurs qui ont été supprimés ou qui sont en cours d'utilisation, mais qui ont été marqués pour suppression, ne sont pas inclus dans la table des fournisseurs. Les tables de fournisseur sont statiques, ce qui signifie que les ajouts ou suppressions ultérieurs du profil ne sont pas répercutés dans le tableau. 
   
-Si le profil n’a aucun fournisseur, **GetProviderTable** renvoie un tableau avec des lignes de zéro et la valeur de retour de S_OK. 
+Si le profil n'a pas de fournisseurs, **GetProviderTable** renvoie une table avec zéro ligne et la valeur de retour de S_OK. 
   
-Pour obtenir une liste complète des colonnes de la table fournisseur, voir [Tableau de fournisseur](provider-tables.md). 
+Pour obtenir la liste complète des colonnes de la table des fournisseurs, voir [Provider table](provider-tables.md). 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer les lignes d’une table du fournisseur dans l’ordre de transport, utilisez la procédure suivante :
+Pour récupérer les lignes d'une table de fournisseur dans l'ordre de transport, procédez comme suit:
   
-1. Appelez la méthode [IMAPITable](imapitable-restrict.md) pour imposer une restriction de propriété qui correspond à la propriété **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) avec MAPI_TRANSPORT_PROVIDER.
+1. Appelez la méthode [IMAPITable:: Restrict](imapitable-restrict.md) pour imposer une restriction de propriété qui correspond à la propriété **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) avec MAPI_TRANSPORT_PROVIDER.
     
-2. Appelez la méthode [IMAPITable::SortTable](imapitable-sorttable.md) pour trier le tableau par la colonne **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
+2. Appelez la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) pour trier le tableau à l'aide de la colonne **PR_PROVIDER_ORDINAL** ([PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
     
-3. Appelez la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) pour obtenir les lignes du tableau. 
+3. Appelez la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) pour obtenir les lignes de la table. 
     
-Une alternative à ces appels est pour émettre un appel à la fonction [HrQueryAllRows](hrqueryallrows.md) avec toutes les données appropriées structures passés unique. 
+Une autre solution consiste à effectuer un seul appel à la fonction [HrQueryAllRows](hrqueryallrows.md) avec toutes les structures de données appropriées transmises. 
   
-Si vous récupérez les colonnes **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) de chacune des lignes, vous pouvez utiliser ce tableau de structures **MAPIUID** pour définir l’ordre de transport dans un appel à [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
+Si vous récupérez les colonnes **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) dans chacune des lignes, vous pouvez utiliser ce tableau de structures **MAPIUID** pour définir l'ordre de transport dans un appel à [IMsgServiceAdmin:: MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
   
-Définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ effectue les opérations suivantes : 
+La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ effectue les opérations suivantes: 
   
-- Définit le type de chaîne au format Unicode pour les données renvoyées pour les colonnes actives initiales de la table fournisseur par la méthode [IMAPITable::QueryColumns](imapitable-querycolumns.md) . Les colonnes actives initiales pour une table fournisseur sont les colonnes de que la méthode **QueryColumns** renvoie avant que le fournisseur qui contient la table appelle la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+- Définit le type de chaîne à Unicode pour les données renvoyées pour les colonnes initiales actives de la table du fournisseur à l'aide de la méthode [IMAPITable:: QueryColumns](imapitable-querycolumns.md) . Les colonnes initiales actives d'une table de fournisseurs sont les colonnes renvoyées par la méthode **QueryColumns** avant que le fournisseur qui contient la table appelle la méthode [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
     
-- Définit le type de chaîne au format Unicode pour les données renvoyées pour les lignes actives initiales de la table fournisseur par **QueryRows**. Les lignes actives initiales pour une table du fournisseur sont les lignes **que QueryRows** renvoie avant que le fournisseur qui contient la table appelle **SetColumns**. 
+- Définit le type de chaîne à Unicode pour les données renvoyées pour les lignes initiales actives de la table du fournisseur par **QueryRows**. Les lignes initiales actives d'une table de fournisseurs sont les lignes **QueryRows** renvoyées avant que le fournisseur qui contient la table appelle **SetColumns**. 
     
-- Contrôle les types de propriétés de l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) avant que le client qui contient la table fournisseur appelle la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
+- Contrôle les types de propriétés de l'ordre de tri renvoyé par la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) avant que le client qui contient la table de fournisseurs appelle la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) . 
     
 ## <a name="see-also"></a>Voir aussi
 

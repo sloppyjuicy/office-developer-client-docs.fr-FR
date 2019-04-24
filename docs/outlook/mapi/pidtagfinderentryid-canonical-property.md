@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2ec8b776bddc21d356d6e803f56f6f26738a9747
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 99c94a5afbb6a5011f17443b3d6305be261c9b1d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316323"
 ---
 # <a name="pidtagfinderentryid-canonical-property"></a>Propriété canonique PidTagFinderEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée pour le dossier dans lequel les résultats de la recherche sont généralement créés.
+Contient l'identificateur d'entrée du dossier dans lequel les résultats de la recherche sont généralement créés.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l’identificateur d’entrée pour le dossier dans lequel les résulta
    
 ## <a name="remarks"></a>Remarques
 
-L’identificateur d’entrée contenue dans cette propriété a le même format que la structure [ENTRYID](entryid.md) . 
+L'identificateur d'entrée contenu dans cette propriété a le même format que la structure [EntryID](entryid.md) . 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

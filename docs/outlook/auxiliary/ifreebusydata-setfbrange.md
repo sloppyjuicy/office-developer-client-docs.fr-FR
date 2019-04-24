@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
-description: Définit l’intervalle de temps pour une énumération des blocs de données de disponibilité d’un utilisateur.
-ms.openlocfilehash: 84a25a2dd43f594caa075d90e4f183086452184a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Définit la plage de temps pour une énumération de blocs de données de disponibilité pour un utilisateur.
+ms.openlocfilehash: 4647453acb0e530521aa808f7f017e3e311644bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317478"
 ---
 # <a name="ifreebusydatasetfbrange"></a>IFreeBusyData::SetFBRange
 
-Définit l’intervalle de temps pour une énumération des blocs de données de disponibilité d’un utilisateur.
+Définit la plage de temps pour une énumération de blocs de données de disponibilité pour un utilisateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,23 +33,23 @@ HRESULT SetFBRange(
 
 _rtmStart_
   
-> [in] Une valeur d’heure relative du début de la disponibilité des informations. Cette valeur est le nombre de minutes depuis le 1er janvier 1601.
+> dans Une valeur de temps relative pour le début des informations de disponibilité. Cette valeur correspond au nombre de minutes écoulées depuis le 1er janvier 1601.
     
 _rtmEnd_
   
-> [in] Une valeur d’heure relative à la fin des informations de disponibilité. Cette valeur est le nombre de minutes depuis le 1er janvier 1601.
+> dans Valeur d'heure relative pour la fin des informations de disponibilité. Cette valeur correspond au nombre de minutes écoulées depuis le 1er janvier 1601.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Cette méthode est utilisée pour indiquer la plage de temps des éléments de calendrier pour lequel récupérer les détails. Les valeurs de *ftmStart* et *ftmEnd* sont mis en cache et retournés dans un autre appel de [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+Cette méthode est utilisée pour indiquer la plage horaire des éléments de calendrier pour lesquels récupérer les détails. Les valeurs de *ftmStart* et *ftmEnd* sont mises en cache et renvoyées lors d'un appel ultérieur de [IFreeBusyData:: GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 ## <a name="see-also"></a>Voir aussi
 
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
-- [Utiliser l’heure relative pour accéder aux données et de disponibilité](how-to-use-relative-time-to-access-free-busy-data.md)
+- [Utiliser l’heure relative pour accéder aux données de disponibilité](how-to-use-relative-time-to-access-free-busy-data.md)
 

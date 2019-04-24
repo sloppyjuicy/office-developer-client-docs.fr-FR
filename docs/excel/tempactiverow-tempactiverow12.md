@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveRow
 - TempActiveRow12
 keywords:
-- fonction tempactiverow [excel 2007], fonction TempActiveRow12 [Excel 2007]
+- fonction tempactiverow [Excel 2007], fonction TempActiveRow12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: a406d6e5a8ffa91e103276cb39230058b4840614
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f89c458a521b41e4f172f8a6c53526440bb472b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310415"
 ---
 # <a name="tempactiverowtempactiverow12"></a>TempActiveRow/TempActiveRow12
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonctions de la bibliothèque Framework qui créent un temporaire **XLOPER**/ **XLOPER12** contenant une référence à une ligne entière de la feuille active. 
+Fonctions de la bibliothèque d'infrastructure qui créent une liste **XLOPER**/ **** temporaire contenant une référence externe à une ligne entière dans la feuille active. 
   
 ```cs
 LPXLOPER TempActiveRow(WORD row);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveRow12(ROW row);
 
 ## <a name="parameters"></a>Paramètres
 
- _ligne_
+ _colonne_
   
-La ligne à référencer. Arguments de ligne commencent par zéro afin que la ligne 1 est transmise en tant que 0. Dans Microsoft Office Excel 2003 et les précédentes versions et à compter d’Excel 2007 en cours d’exécution un classeur en mode de compatibilité, la valeur maximale est 65 535 = 2 ^ 16-1 et la valeur maximale qui peut être effectuée par un nombre entier de WORD. À compter d’Excel 2007, un classeur en cours d’exécution, la valeur maximale est de 1 048 575 = 2 ^ 20-1. RW est défini comme un entier signé 32 bits dans XLCALL. H.
+Ligne à référencer. Les arguments de ligne sont basés sur zéro de sorte que la ligne 1 est transmise à 0. Dans Microsoft Office Excel 2003 et les versions antérieures, et en commençant dans Excel 2007 exécutant un classeur en mode de compatibilité, la valeur maximale est 65 535 = 2 ^ 16-1 et représente la valeur maximale pouvant être prise par un entier de mot. À partir d'Excel 2007 exécutant un classeur, la valeur maximale est 1 048 575 = 2 ^ 20-1. RW est défini comme un entier signé 32 bits dans XLCALL. H.
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie une référence externe **xltypeRef** aux cellules de ligne passé. 
+Renvoie une référence externe **xltypeRef** aux cellules de ligne transmises. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la fonction **TempActiveRow12** pour sélectionner ligne 113. 
+Cet exemple utilise la fonction **TempActiveRow12** pour sélectionner la ligne 113. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

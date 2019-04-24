@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2654fad-444b-45bc-976d-3c5cbbc81b84
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 10b6009bc86df4232c995e7c6bca463f45999528
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319669"
 ---
 # <a name="pidlidnonsendcctrackstatus-canonical-property"></a>Propriété canonique PidLidNonSendCcTrackStatus
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur de chaque participant répertoriés dans la propriété **dispidNonSendableCC** ([PidLidNonSendableCc](pidlidnonsendablecc-canonical-property.md)).
+Contient la valeur de chaque participant figurant dans la propriété **dispidNonSendableCC** ([PidLidNonSendableCc](pidlidnonsendablecc-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidNonSendCcTrackStatus  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x00008544  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x00008544  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est requise uniquement lorsque la valeur de la propriété **dispidNonSendableCC** . Le nombre de valeurs dans cette propriété doit correspondre au nombre de valeurs dans **dispidNonSendableCC**. Chaque valeur PT_LONG dans cette propriété correspond au participant de la propriété **dispidNonSendableCC** dans le même index. 
+Cette propriété est requise uniquement lorsque la propriété **dispidNonSendableCC** est définie. Le nombre de valeurs de cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableCC**. Chaque valeur PT_LONG de cette propriété correspond au participant dans la propriété **dispidNonSendableCC** au même index. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

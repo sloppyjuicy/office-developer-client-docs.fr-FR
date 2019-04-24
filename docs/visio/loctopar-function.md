@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
-ms.openlocfilehash: 7d882ec34de93db2828fc751f99d87fc3e961d64
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314846"
 ---
-# <a name="loctopar-function"></a>LOCTOPAR, fonction
+# <a name="loctopar-function"></a>Fonction LOCTOPAR
 
 Renvoie un point transformé en coordonnées parent dans le système de coordonnées de destination.
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCTOPAR (** *pointSrc* **, ** *srcRef* **, ** *dstRef* **) 
+LOCTOPAR (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pointSrc_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
-| _srcRef_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Référence à une cellule de l’objet source  <br/> |
-| _dstRef_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Référence à une cellule de l’objet cible  <br/> |
+| _srcPoint_ <br/> |Obligatoire  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
+| _srcRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet source  <br/> |
+| _dstRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet cible  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   
@@ -40,7 +40,7 @@ Chaîne
 
 La fonction LOCTOPAR convertit un point des coordonnées locales dans une forme source en coordonnées parent de la forme de destination. Vous pouvez utiliser la fonction LOCTOPAR pour définir des coordonnées parent dans les cellules d’une forme, comme PinX, PinY, BeginX et BeginY, en utilisant un point d’un autre système de coordonnées. 
   
-Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement lors de la transformation intermédiaire. 
+Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire. 
   
 Les coordonnées source et cible doivent se trouver sur la même page. 
   

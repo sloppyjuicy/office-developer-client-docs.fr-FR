@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c3ec99e4e284ca2cdc4fba8fcf53a6c5741594cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316558"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
@@ -25,7 +25,7 @@ ms.locfileid: "22577813"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère les adresses des mémoire allocation et libération de fonctions MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).
+Récupère les adresses des fonctions d'allocation et de désallocation de mémoire MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -39,25 +39,25 @@ HRESULT GetMemAllocRoutines(
 
  _lppAllocateBuffer_
   
-> [out] Pointeur vers un pointeur vers la fonction **MAPIAllocateBuffer** . **MAPIAllocateBuffer** alloue de la mémoire. 
+> remarquer Pointeur vers un pointeur vers la fonction **MAPIAllocateBuffer** . **MAPIAllocateBuffer** alloue de la mémoire. 
     
  _lppAllocateMore_
   
-> [out] Pointeur vers un pointeur vers la fonction **MAPIAllocateMore** . **MAPIAllocateMore** alloue de la mémoire supplémentaire pour la mémoire qui était alloué à l’aide de **MAPIAllocateBuffer**.
+> remarquer Pointeur vers un pointeur vers la fonction **MAPIAllocateMore** . **MAPIAllocateMore** alloue de la mémoire supplémentaire pour la mémoire qui a été initialement allouée à l'aide de **MAPIAllocateBuffer**.
     
  _lppFreeBuffer_
   
-> [out] Pointeur vers un pointeur vers la fonction **MAPIFreeBuffer** . **MAPIFreeBuffer** libère de la mémoire. 
+> remarquer Pointeur vers un pointeur vers la fonction **MAPIFreeBuffer** . **MAPIFreeBuffer** libère de la mémoire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les fonction adresses ont été correctement renvoyées.
+> Les adresses de la fonction ont été renvoyées avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge. Fournisseurs de services appellent **GetMemAllocRoutines** pour obtenir les adresses des fonctions d’allocation trois mémoire qui sont transmises à leur fonction d’initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
+La méthode **IMAPISupport:: GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services appellent **GetMemAllocRoutines** pour obtenir les adresses des trois fonctions d'allocation de mémoire qui sont transmises à leur fonction d'initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
   
 ## <a name="see-also"></a>Voir aussi
 

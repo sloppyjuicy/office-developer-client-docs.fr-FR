@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9c3260e51d9a52de13a187110eb50334c601fc86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7e3ee8abcf15c8b7697a29e844d838891fe22310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316260"
 ---
 # <a name="pidtagformclassid-canonical-property"></a>Propriété canonique PidTagFormClassId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le 128 bits Object Linking and Embedding (OLE) identificateur global unique (GUID) d’un formulaire. 
+Contient l'identificateur global unique (GUID, globally unique identifier) d'un formulaire 128-bit Object Linking and Embedding (OLE). 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CLSID  <br/> |
 |Identificateur :  <br/> |0x3302  <br/> |
 |Type de données :  <br/> |PT_CLSID  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La structure [MAPIUID](mapiuid.md) contient la définition de l’identificateur unique. 
+La structure [MAPIUID](mapiuid.md) contient la définition de l'identificateur unique. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

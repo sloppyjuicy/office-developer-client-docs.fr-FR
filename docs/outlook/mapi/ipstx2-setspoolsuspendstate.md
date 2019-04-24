@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b6a36c1e0c3854342b627b6fddd6eb5459211f62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: e988114e8e71ad1f80d20ab0d5a30c37425f5952
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315056"
 ---
 # <a name="ipstx2setspoolsuspendstate"></a>IPSTX2::SetSpoolSuspendState
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l’état suspendu sur le spouleur.
+Définit l'état suspendu sur le spouleur.
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -37,7 +37,7 @@ void SetSpoolSuspendState(
 
  _ulState_
   
-> [in] L’état pour définir le spouleur. Il doit être une des valeurs suivantes :
+> dans État auquel définir le spouleur. Il doit prendre la valeur de l'une des valeurs suivantes:
     
  **SS_ACTIVE**
   

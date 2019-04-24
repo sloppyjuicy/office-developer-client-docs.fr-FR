@@ -8,46 +8,46 @@ f1_keywords:
 - Vis_DSS.chm82251493
 localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
-description: Exécute la chaîne et transmet les arguments de ligne de commande pour le programme sous forme de chaîne.
-ms.openlocfilehash: 7bc05a0cbf32550d1e39bee39bec83101882cf19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Exécute une chaîne et transmet les arguments de ligne de commande au programme sous la forme d'une chaîne.
+ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318948"
 ---
-# <a name="runaddonwargs-function"></a>RUNADDONWARGS, fonction
+# <a name="runaddonwargs-function"></a>Fonction RUNADDONWARGS
 
-Exécute la _chaîne_ et transmet les _arguments_ ligne de commande pour le programme sous forme de chaîne. 
+Exécute une _chaîne_ et transmet les _arguments_ de ligne de commande au programme sous la forme d'une chaîne. 
   
 ## <a name="syntax"></a>Syntaxe
 
-RUNADDONWARGS (« ** *chaîne* ** », » ** *arguments* ** ») 
+RUNADDONWARGS ("* * *chaîne* * *", "* * *arguments* * *") 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Nom d’un module complémentaire  <br/> |
-| _arguments_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Arguments à transmettre à votre programme  <br/> |
+| _string_ <br/> |Obligatoire  <br/> |**String** <br/> | Nom d’un module complémentaire  <br/> |
+| _arguments_ <br/> |Obligatoire  <br/> |**String** <br/> |Arguments à transmettre à votre programme  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-En pratique, _arguments_ doit comporter 50 caractères au maximum. Utilisez la fonction RUNADDONWARGS pour lier un programme, par exemple un module complémentaire, à une cellule, par exemple, à la cellule Action ou Events. 
+En pratique, les _arguments_ doivent être 50 ou moins de caractères. Utilisez la fonction RUNADDONWARGS pour lier un programme, tel qu’un module complémentaire, à une cellule, par exemple à la cellule Action ou Events. 
   
-La fonction RUNADDONWARGS peut uniquement exécuter des modules complémentaires qui sont membres de la collection **Addons** de l’application. Pour être présents dans la collection, un module complémentaire doit être un fichier EXE ou VSL qui est : 
+La fonction RUNADDONWARGS ne peut exécuter que des modules complémentaires membres de la collection **Addons** de l’application. Pour faire partie de cette collection, un module complémentaire doit être un fichier EXE ou VSL qui est : 
   
-- Installé dans le chemin d’accès **Startup** ou **Addons** de l’application. 
+- installé dans le chemin d’accès **Startup** ou **Addons** de l’application ; 
     
-- Ajout par programme à l’aide de la méthode **Add** de la collection **Addons** . 
+- ajouté par programme à l’aide de la méthode **Add** de la collection **Addons**. 
     
-Pour plus d’informations sur l’exécution de code dans Visio, voir [sur les paramètres de sécurité et l’exécution de Code dans Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) dans ce guide de référence de feuille ShapeSheet. 
+Pour plus d’informations sur l’exécution de code dans Visio, reportez-vous à la rubrique [À propos des paramètres de sécurité et de l’exécution de code dans Visio](about-security-settings-and-running-code-in-visio-shapesheet.md) dans la Référence de la feuille ShapeSheet. 
   
 Dans les versions précédentes de Visio, cette fonction s’appelait _RUNADDONWARGS. Les versions de l’application Visio 4.0 et ultérieures acceptent l’un ou l’autre de ces styles.
   
 ## <a name="example"></a>Exemple
 
-RUNADDONWARGS (GRAPHMKR ». EXE », « / GraphMaker = Stack ») 
+RUNADDONWARGS ("GRAPHMKR. EXE ","/GraphMaker = Stack ") 
   
 Lance le module complémentaire Graphmkr.exe et lui transmet l’argument /GraphMaker=Stack. 
   

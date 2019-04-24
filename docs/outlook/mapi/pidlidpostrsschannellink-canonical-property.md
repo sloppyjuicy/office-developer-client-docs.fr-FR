@@ -11,45 +11,45 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ec95ed9-4848-43ac-9b17-8092a37055e9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 06ceac59dc41461c1ee60b012f4bb4470a591e77
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315973"
 ---
 # <a name="pidlidpostrsschannellink-canonical-property"></a>Propriété canonique PidLidPostRssChannelLink
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’URL du flux RSS ou Atom à partir de laquelle provient le fichier XML.
+Contient l'URL du flux RSS ou Atom à partir duquel provient le fichier XML.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidPostRssChannelLink  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_PostRss  <br/> |
-|ID de type long (capot) :  <br/> |0x00008900  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_PostRss  <br/> |
+|ID long (couvercle):  <br/> |0x00008900  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |RSS  <br/> |
+|Domaine :  <br/> |SCR  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
     
 [[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui représentent les éléments RSS.
+> Spécifie les propriétés et les opérations qui représentent des éléments RSS.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

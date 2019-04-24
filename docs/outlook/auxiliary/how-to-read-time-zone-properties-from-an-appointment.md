@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
-description: Cette rubrique présente une fonction, ReadTimeZones, qui appelle les fonctions de deux BinToTZDEFINITION et BinToTZREG, pour lire les propriétés de fuseau horaire, PidLidAppointmentTimeZoneDefinitionStartDisplay et PidLidTimeZoneStruct, à partir d’un rendez-vous.
+description: Cette rubrique présente une fonction, ReadTimeZones, qui appelle les deux fonctions, BinToTZDEFINITION et BinToTZREG, pour lire les propriétés de fuseau horaire, PidLidAppointmentTimeZoneDefinitionStartDisplay et PidLidTimeZoneStruct, à partir d'un rendez-vous.
 ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317618"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Lire les propriétés de fuseau horaire à partir d’un rendez-vous
 
-Cette rubrique présente une fonction, `ReadTimeZones`, qui appelle les deux fonctions `BinToTZDEFINITION` et `BinToTZREG`, pour lire les propriétés de fuseau horaire, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) et [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), à partir d’un rendez-vous.
+Cette rubrique présente une fonction, `ReadTimeZones`, qui appelle les deux `BinToTZDEFINITION` fonctions et `BinToTZREG`, pour lire les propriétés de fuseau horaire, [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) et [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), à partir d'un rendez-vous.
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay** contient un flux qui mappe sur le format persistant d’une structure [TZDEFINITION](tzdefinition.md) et **PidLidTimeZoneStruct** contient un flux de données qui est mappé au format persistant d’un [TZREG](tzreg.md) structure. Pour obtenir les structures exactes **TZDEFINITION** et **TZREG** , `BinToTZDEFINITION` et `BinToTZREG` sont utilisés pour analyser les valeurs de flux de ces propriétés de manière appropriée. Ces deux fonctions sont définies dans [un flux de données à partir d’une propriété binaire à lire la structure TZDEFINITION d’analyser](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) et [analyser un flux de données à partir d’une propriété binaire à lire la structure TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivement. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** contient un flux qui correspond au format persistant d'une structure [TZDEFINITION](tzdefinition.md) et **PidLidTimeZoneStruct** contient un flux qui correspond au format persistant d'un [TZREG](tzreg.md) structure. Pour obtenir les structures **TZDEFINITION** et **TZREG** `BinToTZDEFINITION` exactes `BinToTZREG` , et sont utilisées pour analyser correctement les valeurs de flux de ces propriétés. Ces deux fonctions sont définies dans [analyser un flux à partir d'une propriété binaire pour lire la structure TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) et [analyser un flux à partir d'une propriété binaire pour lire la structure TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md), respectivement. 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 

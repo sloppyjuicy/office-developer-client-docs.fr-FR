@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 559f1c609000608d0eb920a0240ac8848e4bc2a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310002"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570792"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l’ordre dans les transports fournisseurs sont appelées pour remettre un message.
+Définit l'ordre dans lequel les fournisseurs de transport sont appelés pour la remise d'un message.
   
 ```cpp
 HRESULT MsgServiceTransportOrder(
@@ -39,11 +39,11 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> [in] Le nombre des identificateurs uniques dans le paramètre _lpUIDList_ . 
+> dans Nombre d'identificateurs uniques dans le paramètre _lpUIDList_ . 
     
  _lpUIDList_
   
-> [in] Pointeur vers un tableau d’identificateurs uniques qui représentent des fournisseurs de transport. Le tableau contient un identificateur pour chaque fournisseur de transport configurée dans le profil actif.
+> dans Pointeur vers un tableau d'identificateurs uniques qui représentent des fournisseurs de transport. Le tableau contient un identificateur pour chaque fournisseur de transport configuré dans le profil actuel.
     
  _ulFlags_
   
@@ -53,21 +53,21 @@ HRESULT MsgServiceTransportOrder(
 
 S_OK 
   
-> L’ordre de transport a été défini avec succès.
+> L'ordre de transport a été correctement défini.
     
 MAPI_E_BUSY 
   
-> La valeur dans le paramètre _cUID_ est différent du nombre de fournisseurs de transport réellement dans le profil. 
+> La valeur du paramètre _cUID_ diffère du nombre de fournisseurs de transport réellement dans le profil. 
     
 MAPI_E_NOT_FOUND 
   
-> Une ou plusieurs des structures [MAPIUID](mapiuid.md) passés dans le paramètre _lpUIDList_ ne font pas référence à un fournisseur de transport actuellement dans le profil. 
+> Une ou plusieurs des structures [MAPIUID](mapiuid.md) transmises dans le paramètre _lpUIDList_ ne font pas référence à un fournisseur de transport actuellement dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin::MsgServiceTransportOrder** définit l’ordre de remise des fournisseurs de transport dans un profil. Le paramètre _lpUIDList_ doit contenir une liste triée des identificateurs d’entrée-fournisseur de transport obtenu à partir de la propriété **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) du tableau renvoyé par la [IMsgServiceAdmin :: GetProviderTable](imsgserviceadmin-getprovidertable.md) méthode. Une application cliente doit transmettre la liste complète de _lpUIDList_.
+La méthode **IMsgServiceAdmin:: MsgServiceTransportOrder** définit l'ordre de remise des fournisseurs de transport dans un profil. Le paramètre _lpUIDList_ doit contenir une liste triée d'identificateurs d'entrée de fournisseur de transport obtenus à partir de la propriété **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la table renvoyée à partir de l' [IMsgServiceAdmin:: Méthode GetProviderTable](imsgserviceadmin-getprovidertable.md) . Une application cliente doit transmettre la liste complète dans _lpUIDList_.
   
- Les substitutions **SetTransportOrder** transportent préférences fournisseur telles que l’indicateur STATUS_XP_PREFER_LAST défini dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+ **SetTransportOrder** remplace les préférences du fournisseur de transport telles que l'indicateur STATUS_XP_PREFER_LAST défini dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="see-also"></a>Voir aussi
 

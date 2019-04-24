@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d80687df06633b0fd88b0d2c97f06e77c4d5a245
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 73877a146336f40d3c70511fd8caa7797370fab1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316218"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Propriété canonique PidTagFormDesignerName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet de l’objet qui est utilisé pour créer le formulaire. 
+Contient le nom complet de l'objet utilisé pour créer le formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_NAME, PR_FORM_DESIGNER_NAME_A, PR_FORM_DESIGNER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3308  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent l’identificateur unique de l’objet Concepteur de formulaire. 
+Ces propriétés contiennent l'identificateur unique de l'objet concepteur de formulaires. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

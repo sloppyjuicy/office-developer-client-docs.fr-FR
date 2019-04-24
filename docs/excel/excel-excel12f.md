@@ -7,24 +7,24 @@ ms.topic: reference
 f1_keywords:
 - Excel12f
 keywords:
-- fonction Excel [excel 2007], fonction Excel12f [Excel 2007]
+- fonction Excel [Excel 2007], fonction Excel12f [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 56034984852713496465c3d1f79a9989fc47df1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f7ff6afac1737ee869e69fffd3dbed36a908b376
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310912"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonctions de la bibliothèque Framework. **Excel** est un wrapper de la fonction [Excel4](excel4-excel12.md) . **Excel12f** est un wrapper de la fonction [Excel12](excel4-excel12.md) . Chaque vérifie qu’aucun des arguments est zéro, ce qui indique que la création d’un temporaire **XLOPER** **XLOPER12** a échoué. Si une erreur se produit, chacun affiche un message de débogage. Lorsque vous avez terminé, chacun libère toute la mémoire temporaire qui peut ont été créée pour temporaire **XLOPER**et **XLOPER12**.
+Fonctions de la bibliothèque Framework. **Excel** est un wrapper de la fonction [Excel4](excel4-excel12.md) . **Excel12f** est un wrapper de la fonction [Excel12](excel4-excel12.md) . Chaque contrôle vérifie qu'aucun des arguments n'a la valeur zéro, ce qui signifie que la création d'un élément **XLOPER** ou **XLOPER12** temporaire a échoué. Si une erreur se produit, chacune imprime un message de débogage. Lorsque vous avez terminé, chaque opération libère la totalité de la mémoire temporaire qui a pu être créée pour les objets **XLOPER**et **XLOPER12**temporaires.
   
- **Excel12f** peut être appelée uniquement à partir d’une DLL à partir de la bibliothèque d’interface API C Excel 2007. En outre, il seulement fonctionne lors de l’exécution de démarrage d’Excel 2007 et échoue avec **xlretFailed** dans le cas contraire. 
+ **Excel12f** peut uniquement être appelé à partir d'une dll à partir de la bibliothèque d'API C d'Excel 2007. En outre, elle ne fonctionne qu'avec Excel 2007, et échoue avec **xlretFailed** dans le cas contraire. 
   
 ```cs
 int Excel(int iFunction, LPXLOPER pxRes, int iCount, 
@@ -35,29 +35,29 @@ LPXLOPER12 argument1, ...);
 
 ## <a name="parameters"></a>Paramètres
 
- _iFunction_ (**int**)
+ _IFunction_ (**int**)
   
-Un nombre indiquant la commande ou la fonction que vous voulez appeler. Pour plus d’informations, voir [Excel4/Excel12](excel4-excel12.md).
+Nombre indiquant la commande ou la fonction que vous souhaitez appeler. Pour plus d'informations, consultez la rubrique [Excel4/Excel12](excel4-excel12.md).
   
  _pxRes_
   
-Un pointeur vers le résultat de la fonction évaluée. Mémoire vers lequel pointe dans le résultat sera ont été utilisé par Excel et doit être libéré dans un appel à [xlFree](xlfree.md) une fois qu’il n’est plus nécessaire, ou en définissant **xlbitXLFree** si elle de retour dans Excel. 
+Pointeur vers le résultat de la fonction évaluée. Toute mémoire pointée dans le résultat est allouée par Excel et doit être libérée dans un appel à [xlFree](xlfree.md) une fois qu'elle n'est plus nécessaire, ou en définissant **xlbitXLFree** si elle est renvoyée à Excel. 
   
  _iCount_ (**int**)
   
-Le nombre d’arguments qui sera passé à la fonction. À compter d’Excel 2007, la limite est de 255 arguments. Dans les versions antérieures, la limite est de 30.
+Nombre d'arguments qui seront transmis à la fonction. À partir d'Excel 2007, la limite est de 255 arguments. Dans les versions antérieures, la limite est de 30.
   
- _argument1..._
+ _argument1,..._
   
-Les arguments facultatifs à la fonction. Tous les arguments doivent être des pointeurs vers **XLOPER**dans le cas **d’Excel**, ou **XLOPER12**dans le cas **Excel12f**.
+Arguments facultatifs de la fonction. Tous les arguments doivent être des pointeurs vers des objets **XLOPER**dans le cas d' **Excel**ou de **XLOPER12**s dans le cas de **Excel12f**.
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Les deux fonctions renvoient la même erreur et les codes de réussite en tant que **Excel4**, **Excel4v**, **Excel12**et **Excel12v**. Voir [Excel4/Excel12](excel4-excel12.md) pour une description complète de ces codes. En outre, ces fonctions de Framework renvoient **xlretFailed** sans appeler l’API C si un pointeur NULL à un paramètre est détecté. 
+Ces deux fonctions renvoient les mêmes codes d'erreur et de succès que **Excel4**, **Excel4v**, **Excel12**et **Excel12v**. Pour une description complète de ces codes, voir [Excel4/Excel12](excel4-excel12.md) . En outre, ces fonctions d'infrastructure renvoient **xlretFailed** sans appeler l'API C si un pointeur null vers un paramètre est détecté. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple transmet un argument non valide pour la fonction **Excel12f** , qui envoie un message pour le débogueur. 
+Cet exemple transmet un argument incorrect à la fonction **Excel12f** , qui envoie un message au débogueur. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

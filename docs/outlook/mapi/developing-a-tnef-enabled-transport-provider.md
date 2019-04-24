@@ -1,5 +1,5 @@
 ---
-title: Développement d’un fournisseur de transport TNEF
+title: Développement d'un fournisseur de transport compatible TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,36 +7,36 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7525eee1-4016-49b8-9509-5ebbe1db819f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4d4f7ed75bb1144b7cd4a813b0d093246a30cca5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 282b1866699b695c647caedd130ce5abc1bcbc2c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316694"
 ---
-# <a name="developing-a-tnef-enabled-transport-provider"></a>Développement d’un fournisseur de transport TNEF
+# <a name="developing-a-tnef-enabled-transport-provider"></a>Développement d'un fournisseur de transport compatible TNEF
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour promouvoir l’interopérabilité entre les systèmes de messagerie qui prennent en charge différentes fonctionnalités MAPI, MAPI fournit le Transport Neutral Encapsulation Format TNEF () en tant que standard permet de transférer des données. Ce format encapsule des propriétés MAPI non pris en charge par un système de messagerie sous-jacent dans un objet stream binaire qui peut être transféré ainsi que le message lorsque envoie un fournisseur de transport. Le fournisseur de transport qui reçoit le message peut décoder puis le flux binaire pour récupérer toutes les propriétés du message d’origine et les rendre disponibles pour les applications clientes. Le modèle opérationnel pour TNEF est la suivante :
+Pour promouvoir l'interopérabilité entre les systèmes de messagerie qui prennent en charge différents ensembles de fonctionnalités MAPI, MAPI fournit le format TNEF (Transport Neutral Encapsulation Format) comme moyen standard de transfert de données. Ce Format encapsule les propriétés MAPI qui ne sont pas prises en charge par un système de messagerie sous-jacent dans un flux binaire pouvant être transféré avec le message lorsqu'un fournisseur de transport l'envoie. Le fournisseur de transport qui reçoit le message peut ensuite décoder le flux binaire pour récupérer toutes les propriétés du message d'origine et les rendre accessibles aux applications clientes. Le modèle opérationnel pour TNEF est le suivant:
   
-- Clients de messagerie envoyant et recevoir des messages à un transport TNEF comme d’habitude.
+- Les clients de messagerie envoient et reçoivent des messages vers un transport TNEF comme d'habitude.
     
-- Le transport sépare les propriétés sur les messages sortants en deux catégories : celles prenant en charge le système de messagerie sous-jacent et il n’existe pas. Les valeurs des propriétés qui sont prises en charge par le système de messagerie sous-jacent sont converties dans le format requis.
+- Le transport sépare les propriétés des messages sortants en deux catégories: celles que le système de messagerie sous-jacent prend en charge et celles qui ne le sont pas. Les valeurs des propriétés prises en charge par le système de messagerie sous-jacent sont converties dans le format requis.
     
-- Le transport utilise les méthodes de MAPI TNEF pour coder toutes les propriétés non prises en charge dans un flux de données. Le transport puis transforme ce flux de données particulière d’une pièce jointe dans le message sortant, à l’aide du modèle de pièce jointe du système de messagerie sous-jacent, avant d’envoyer le message.
+- Le transport utilise les méthodes TNEF MAPI pour coder les propriétés non prises en charge dans un seul flux de données. Le transport transforme alors ce flux de données en pièce jointe spéciale sur le message sortant, en utilisant le modèle de pièce jointe du système de messagerie sous-jacent, avant d'envoyer le message.
     
-- Un type de transport TNEF activé qui reçoit un message de ce type exécute deux tâches. Tout d’abord, traduit les propriétés du message entrant — ceux pris en charge par le système de messagerie sous-jacent, dans propriétés MAPI. Deuxièmement, si la pièce jointe spéciale n’est présente, il utilise les méthodes de MAPI TNEF pour récupérer les propriétés MAPI supplémentaires à partir de la pièce jointe avant de remettre le message à une application cliente.
+- Un transport activé TNEF qui reçoit ce type de message effectue deux actions. Tout d'abord, il traduit les propriétés du message entrant, c'est-à-dire celles prises en charge par le système de messagerie sous-jacent, dans les propriétés MAPI. Deuxièmement, si la pièce jointe spéciale est présente, elle utilise les méthodes TNEF MAPI pour récupérer des propriétés MAPI supplémentaires à partir de la pièce jointe avant de remettre le message à une application cliente.
     
-MAPI fournit une implémentation de l’interface **ITnef** pour une utilisation par des fournisseurs de transport MAPI lorsque vous travaillez avec des objets TNEF. La fonction [OpenTnefStreamEx](opentnefstreamex.md) est utilisée pour créer des objets TNEF et les associer à un message. Flux TNEF sont basées sur l’interface OLE **IStream** 
+MAPI fournit une implémentation de l'interface **ITnef** pour une utilisation par les fournisseurs de transport MAPI lors de l'utilisation d'objets TNEF. La fonction [OpenTnefStreamEx](opentnefstreamex.md) permet de créer des objets TNEF et de les associer à un message. Les flux TNEF sont créés en plus de l'interface OLE **IStream** . 
   
 > [!NOTE]
-> **OpenTnefStreamEx** vous permet de créer des objets TNEF. La fonction **OpenTnefStream** ancienne toujours pour assurer la compatibilité avec l’ancien code source et ne doit pas être utilisée dans un nouveau. 
+> Vous utilisez **OpenTnefStreamEx** pour créer des objets TNEF. L'ancienne fonction **OpenTnefStream** existe toujours pour des incompatibilités avec le code source ancien et ne doit pas être utilisée dans les nouveautés. 
   
-L’interface **ITnef** fournit les méthodes suivantes : 
+L'interface **ITnef** fournit les méthodes suivantes: 
   
 - [AddProps](itnef-addprops.md)
     
@@ -44,7 +44,7 @@ L’interface **ITnef** fournit les méthodes suivantes :
     
 - [ExtractProps](itnef-extractprops.md)
     
-- [Terminer](itnef-finish.md)
+- [Finish](itnef-finish.md)
     
 - [FinishComponent](itnef-finishcomponent.md)
     
@@ -52,10 +52,10 @@ L’interface **ITnef** fournit les méthodes suivantes :
     
 - [SetProps](itnef-setprops.md)
     
-Le modèle de mise en œuvre MAPI TNEF prend en charge :
+Le modèle d'implémentation MAPI TNEF prend en charge les éléments suivants:
   
-- Toutes les propriétés MAPI sans affecter d’autres propriétés de message. Dans l’ordre pour les messages de survivre transport via un système de messagerie MAPI, toutes les propriétés qui ne peuvent pas être codées en tant que propriétés du système de messagerie doivent être encapsulées. Car il est presque jamais connu au moment où qu'un message est envoyé ou non un client compatible MAPI le message, le jeu d’encapsulation permet à un fournisseur de transport à coder uniquement les propriétés de message MAPI qui n’est pas le cas du système de messagerie prend en charge. Cela signifie que les messages qui utilisent le format TNEF ne sont pas « opaques » pour les systèmes de messagerie qui ne reposent sur MAPI, tel que UNIX basé sur SMTP systèmes de messagerie. Ces systèmes reçoivent les propriétés qu’ils prennent en charge de quelque manière par défaut pour les propriétés et d’autres sont reçues en tant qu’un flux de données codé TNEF. Le fournisseur de transport TNEF est chargé de différenciation entre ces deux jeux de propriétés et de l’envoi de l’ensemble de prise en charge de façon appropriée pour le système de messagerie. TNEF n’émet aucune hypothèse que le niveau de prise en charge offerte par un système de messagerie. Toutefois, dans les exemples d’utilisation du format TNEF inclus dans cette section, l’hypothèse est faite que le système de messagerie prend en charge au moins une seule pièce jointe en plus du message. Dans certains cas, la pièce jointe peut uniquement être pris en charge via un flux UUENCODE et transmise dans le cadre du texte du message. Uniquement dans les cas rares le système de messagerie a peu prise en charge pour les propriétés de message ce codage TNEF complète de toutes les propriétés est nécessaire.
+- Toutes les propriétés MAPI sans affecter les autres propriétés de message. Pour que les messages MAPI survivent le transport via un système de messagerie, toutes les propriétés qui ne peuvent pas être codées en tant que propriétés du système de messagerie doivent être encapsulées. Étant donné qu'il n'est presque jamais connu lors de l'envoi d'un message qu'un client conforme à la norme MAPI reçoit le message, le schéma d'encapsulation permet à un fournisseur de transport de coder uniquement les propriétés de message MAPI non répertoriées par le système de messagerie. prise en charge native. Cela signifie que les messages qui utilisent TNEF ne sont pas «opaques» pour les systèmes de messagerie qui ne sont pas basés sur MAPI, tels que les systèmes de messagerie UNIX SMTP. Ces systèmes reçoivent les propriétés qu'ils prennent en charge de la manière habituelle pour eux, et d'autres propriétés sont reçues sous la forme d'un flux de données encodé TNEF. Le fournisseur de transport TNEF est chargé de différencier ces deux ensembles de propriétés et d'envoyer le jeu pris en charge de la manière appropriée pour le système de messagerie. Le format TNEF ne fait aucune supposition quant au niveau de prise en charge fourni par un système de messagerie. Toutefois, dans les exemples de l'utilisation de TNEF incluse dans cette section, l'hypothèse est que le système de messagerie prend en charge au moins une seule pièce jointe du message. Dans certains cas, la pièce jointe ne peut être prise en charge que par le biais d'un flux UUEncoded et est transmise dans le texte du message. Le système de messagerie est tellement peu pris en charge pour les propriétés de message que le codage TNEF complet de toutes les propriétés est nécessaire.
     
-- Un mécanisme permettant de déterminer si un flux TNEF sur un message entrant appartient au message, selon la propriété MAPI **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Cette propriété doit se trouver dans le flux TNEF et dans un en-tête de message approprié. Si la propriété possède la même valeur aux deux endroits, ou est manquante à cet emplacement, le flux TNEF est supposé appartenant au message. Dans le cas contraire, le flux TNEF est ignoré. Transports TNEF activé sont chargés de choix d’une valeur de cette propriété sur les messages sortants et le codage dans un en-tête de message approprié (par exemple, l’ID de Message : en-tête pour les messages SMTP) et dans le flux TNEF.
+- Mécanisme permettant de déterminer si un flux TNEF sur un message entrant appartient au message, en fonction de la propriété MAPI **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)). Cette propriété doit être trouvée dans le flux TNEF et dans un en-tête de message approprié. Si la propriété a la même valeur aux deux endroits ou manquante à partir de n'importe quel endroit, le flux TNEF est supposé appartenir au message. Dans le cas contraire, le flux TNEF est ignoré. Les transports activés par TNEF sont chargés de choisir une valeur pour cette propriété sur les messages sortants et de l'encoder dans un en-tête de message approprié (par exemple, l'en-tête Message-ID: pour les messages SMTP) et dans le flux TNEF.
     
 

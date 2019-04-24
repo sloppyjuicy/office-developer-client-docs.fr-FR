@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: f5bad81f6317522430b92324ff497754376e0f19
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315924"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Propriété canonique PidLidReferenceEntryId
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la référence [ENTRYID](entryid.md) pour le contact. 
+Spécifie l' [ID](entryid.md) de référence du contact. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidReferenceEID  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x000085BD  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x000085BD  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le cas échéant, cette propriété doit être égale à la valeur de **propriété EntryId** du contact. 
+S'il est présent, cette propriété doit être égale à la valeur **EntryID** du contact. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit une définition de propriété et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit la définition des jeux de propriétés et les références aux spécifications du protocole Exchange Server associé.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

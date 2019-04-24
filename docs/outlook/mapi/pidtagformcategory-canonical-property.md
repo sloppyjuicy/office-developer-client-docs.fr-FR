@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 47978ca84bb6a3f542134b8fba4f8521ed3645bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3b9d1d76be6f61a1b8e60c2553d74424672d1a6f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316274"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>Propriété canonique PidTagFormCategory
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la catégorie d’un formulaire. 
+Contient la catégorie d'un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
 |Identificateur :  <br/> |0x3304  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le nom de catégorie est défini par une application cliente de manière appropriée pour l’application. 
+Le nom de la catégorie est défini par une application cliente de façon appropriée à l'application. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

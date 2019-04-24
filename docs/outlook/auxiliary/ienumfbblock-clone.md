@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
-description: Crée une copie de l’énumérateur, à l’aide de la même restriction mais définissant le curseur au début de l’énumérateur.
-ms.openlocfilehash: 51503be2091fa01da6f636bf6944274068617f05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.
+ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782574"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317597"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
-Crée une copie de l’énumérateur, à l’aide de la même restriction mais définissant le curseur au début de l’énumérateur.
+Crée une copie de l'énumérateur à l'aide de la même restriction temporelle, mais en définissant le curseur au début de l'énumérateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -30,20 +30,20 @@ HRESULT Clone(
 
 ## <a name="parameters"></a>Paramètres
 
-_ppclone_
+_ppClone_
   
-> [out] Un pointeur vers un pointeur vers la copie de l’interface [IEnumFBBlock](ienumfbblock.md) . 
+> remarquer Pointeur vers un pointeur vers la copie de l'interface [IEnumFBBlock](ienumfbblock.md) . 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_OUTOFMEMORY  <br/> |La mémoire est insuffisante pour la copie.  <br/> |
+|STANDARD  <br/> |Mémoire insuffisante pour la copie.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md)
+- [Constantes (API de disponibilité)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  

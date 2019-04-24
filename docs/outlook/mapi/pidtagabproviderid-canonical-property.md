@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f3aad4a5b3ba815d3e4f91e990bb63d75502f94b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 820df61ec23e2dd1459582e5a7bb35ad9525e0b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315819"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Propriété canonique PidTagAbProviderId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la structure [MAPIUID](mapiuid.md) d’un fournisseur de carnet d’adresses. 
+Contient la structure [MAPIUID](mapiuid.md) d'un fournisseur de carnets d'adresses. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la structure [MAPIUID](mapiuid.md) d’un fournisseur de carnet d’adr
    
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPIUID** identifie le fournisseur de carnet d’adresses fournit ce conteneur particulier dans la hiérarchie des conteneurs. La valeur est unique pour chaque fournisseur. 
+La structure **MAPIUID** identifie le fournisseur de carnet d'adresses qui fournit ce conteneur particulier dans la hiérarchie de conteneurs. La valeur est unique pour chaque fournisseur. 
   
-Un fournisseur de carnet d’adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit deux différents conteneurs peut publier dans **PR_AB_PROVIDER_ID** des identificateurs uniques pour chaque conteneur. 
+Un fournisseur de carnets d'adresses peut fournir plusieurs identificateurs. Par exemple, un fournisseur qui fournit deux conteneurs différents peut publier dans **PR_AB_PROVIDER_ID** identificateurs uniques pour chaque conteneur. 
   
- **PR_AB_PROVIDER_ID** correspond à la propriété **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) pour les banques de messages. Les applications de client peuvent utiliser **PR_AB_PROVIDER_ID** pour rechercher des lignes dans une table de hiérarchie adresse téléchargeable. 
+ **PR_AB_PROVIDER_ID** est analogue à la propriété **PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) pour les banques de messages. Les applications clientes peuvent utiliser **PR_AB_PROVIDER_ID** pour rechercher des lignes associées dans une table de hiérarchie de carnets d'adresses. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

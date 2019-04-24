@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5a3cc16a-145f-4a40-bca9-99871a26b0ef
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: b0b444bf209989457216eff59576572e1a2725f1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316106"
 ---
 # <a name="pidtaghome2telephonenumbers-canonical-property"></a>Propriété canonique PidTagHome2TelephoneNumbers
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de numéros de téléphone secondaire d’accueil du destinataire.
+Contient une liste de numéros de téléphone secondaires au domicile du destinataire.
   
 |||
 |:-----|:-----|
@@ -34,27 +34,27 @@ Contient une liste de numéros de téléphone secondaire d’accueil du destinat
 |Type de données :  <br/> |PT_MV_UNICODE8  <br/> |
 |Domaine :  <br/> |Utilisateur de messagerie MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

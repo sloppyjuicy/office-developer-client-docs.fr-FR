@@ -11,54 +11,54 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 3b4a8cb7136eee914dc697d24e0374ccb4b6f8b1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316183"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>Propriété canonique PidTagFreeBusyPublishEnd
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’heure de fin de la plage de publication.
+Contient l'heure de fin de la plage de publication.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Identificateur :  <br/> |0x6848  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété est calculée en ajoutant la valeur de **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) à la date de début de la plage de publication. Cette valeur est exprimée en tant que le nombre de minutes depuis minuit, 1er janvier 1601 en temps universel coordonné (UTC).
+La valeur de cette propriété est calculée en ajoutant la valeur de **PR_FREEBUSY_COUNT_MONTHS** ([PidTagFreeBusyCountMonths](pidtagfreebusycountmonths-canonical-property.md)) à la date de début de la plage de publication. Cette valeur est exprimée en nombre de minutes écoulées depuis minuit, le 1er janvier 1601 en temps universel coordonné (UTC).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> Publie la disponibilité d’un utilisateur ou une ressource.
+> Publie la disponibilité d'un utilisateur ou d'une ressource.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

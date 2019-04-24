@@ -11,56 +11,56 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 70f09d6db5940fcb9b980cc839988113bd3a3e2e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316337"
 ---
 # <a name="pidtagextendedrulemessageactions-canonical-property"></a>Propriété canonique PidTagExtendedRuleMessageActions
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations supplémentaires sur les propriétés nommées utilisée dans un message de dossier associé informations (FAI).
+Contient des informations supplémentaires sur les propriétés nommées utilisées dans un message d'informations associées à un dossier (FAI).
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXTENDED_RULE_MSG_ACTIONS  <br/> |
 |Identificateur :  <br/> |0x0E99  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Rules  <br/> |
+|Domaine :  <br/> |Règles  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie sur un message FAI. Cette propriété remplit la même fonction que **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), mais il contient des informations supplémentaires sur la version de la règle et les propriétés nommées stockées dans l’action de règle, ainsi que des informations sur les actions à effectués par cette règle. Toutes les valeurs de chaîne contenues dans n’importe quelle partie de la mémoire tampon action utilisé pour contenir des actions doivent être au format Unicode.
+Cette propriété doit être définie sur un message FAI. Cette propriété remplit les mêmes fonctions que **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)), mais elle contient des informations supplémentaires sur la version de la règle et les propriétés nommées stockées dans l'action de la règle, ainsi que des informations sur les actions à effectuer effectuée par cette règle. Toutes les valeurs de chaîne contenues dans une partie de la mémoire tampon d'action utilisée pour contenir les actions doivent être au format Unicode.
   
-Pour plus d’informations sur le format de cette propriété binaire, voir [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Pour plus d'informations sur le format de cette propriété Binary, voir [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server connexes...
+> Fournit des références aux spécifications de protocole Exchange Server associées..
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

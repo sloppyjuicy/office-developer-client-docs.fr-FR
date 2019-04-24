@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 71fe758170d1c0c48bab75f7af0a3582a6c3de8c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce membre est un espace réservé et n'est pas pris en charge.
+ms.openlocfilehash: ef07ea8d01c34fe9c1454cee3baa4dbb7d5adc71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317513"
 ---
 # <a name="ifreebusysupportplaceholder1"></a>IFreeBusySupport::Placeholder1
 
-Ce membre est un espace réservé et n’est pas pris en charge.
+Ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,6 +37,6 @@ S_OK
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md)
+- [Constantes (API de disponibilité)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

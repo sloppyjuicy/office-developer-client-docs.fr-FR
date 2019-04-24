@@ -7,30 +7,31 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c0a4f6ce-4c40-c00e-6682-a932ae70d2f2
 description: Renvoie le nombre total de formes dans le conteneur.
-ms.openlocfilehash: fb94ea19a0ddd357b7a1efb258c6daed4809e8d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b2323d9f10af541bdd8ceb9832e54455c4ae99b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318941"
 ---
-# <a name="containermembercount-function"></a>CONTAINERMEMBERCOUNT, fonction
+# <a name="containermembercount-function"></a>Fonction CONTAINERMEMBERCOUNT
 
 Renvoie le nombre total de formes dans le conteneur.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-CONTAINERMEMBERCOUNT()
+CONTAINERMEMBERCOUNT ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
  **Integer**
   
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la forme n’est pas un conteneur, CONTAINERMEMBERCOUNT renvoie -1.
   

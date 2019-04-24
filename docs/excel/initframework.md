@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - InitFramework
 keywords:
-- fonction initframework [excel 2007]
+- fonction InitFramework [Excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 2d7e3286d794d6f21da9ef83ca44d18ec242c063
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 34fe8f4a606956b90a0d005b0bc523cea460153f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310681"
 ---
 # <a name="initframework"></a>InitFramework
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque Framework initialise la bibliothèque Framework qui initialise simplement le temporaire **XLOPER**/ **XLOPER12** mémoire des structures de données libérer toute mémoire qui a déjà été attribuée. 
+Fonction de bibliothèque d'infrastructure qui initialise la bibliothèque d'infrastructure, qui initialise simplement les structures de données de mémoire de la mémoire de la bibliothèque **XLOPER**/ **** temporaire, en libérant toute mémoire déjà allouée. 
   
 ```cs
 short WINAPI InitFramework(void);
@@ -30,11 +30,11 @@ short WINAPI InitFramework(void);
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction prend aucun argument.
+Cette fonction ne prend aucun argument.
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction ne retourne pas une valeur.
+Cette fonction ne renvoie pas de valeur.
   
 ## <a name="example"></a>Exemple
 

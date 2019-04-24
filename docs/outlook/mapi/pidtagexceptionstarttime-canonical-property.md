@@ -11,51 +11,51 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316379"
 ---
 # <a name="pidtagexceptionstarttime-canonical-property"></a>Propriété canonique PidTagExceptionStartTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la date de début et l’heure de l’exception dans le fuseau horaire local de l’ordinateur lorsque l’exception est créée.
+Indique la date et l'heure de début de l'exception dans le fuseau horaire local de l'ordinateur lors de la création de l'exception.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identificateur :  <br/> |0x7FFB  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
-|Domaine :  <br/> |Défini par la classe de message non transmissible  <br/> |
+|Domaine :  <br/> |Non transférable défini par la classe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 > [!NOTE]
-> Cette propriété est une information et ne doit pas être utilisée pour des informations importantes. 
+> Cette propriété est informatif et ne doit pas être fiable pour les informations importantes. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

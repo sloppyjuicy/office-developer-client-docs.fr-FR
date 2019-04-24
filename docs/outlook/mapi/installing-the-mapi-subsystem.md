@@ -9,11 +9,11 @@ ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
 description: Dernière modification le 9 mars 2015
 localization_priority: Priority
 ms.openlocfilehash: 112a683f5967f8740c2d21285eb4ebbc0f455c48
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309638"
 ---
 # <a name="installing-the-mapi-subsystem"></a>Installation du sous-système MAPI
 

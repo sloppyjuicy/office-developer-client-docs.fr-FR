@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Les interfaces Window et Windows sont que des objets OneNote 2013 API qui permet aux utilisateurs de travailler avec les fenêtres OneNote. Ces objets permettent aux utilisateurs d'énumérer l'ensemble des fenêtres OneNote et de modifier certaines propriétés de la fenêtre.
 ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317033"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de fenêtre (OneNote 2013)
 
@@ -30,7 +30,7 @@ La liste suivante indique les modes de quatre affichage que vous pouvez utiliser
     
 - Ancrer sur le bureau  affiche une fenêtre OneNote que vous pouvez ancrer à n'importe quel côté du bureau (similaire à la barre des tâches). Cet affichage réduit la taille du bureau pour s'adapter à la fenêtre. Vous pouvez ancrer qu'une seule fenêtre à tout moment, et la fenêtre est toujours visible sans le blocage du bureau. 
     
-La figure suivante illustre le l’affichage de la Page entière, station d’accueil pour l’affichage du bureau, et notes rapides se présenter comme sur votre bureau.
+La figure suivante montre l'affichage complet de la page, l'ancrage à l'affichage du bureau et les notes rapides ressemblent à votre bureau.
   
 **Affichages OneNote**
 
@@ -40,7 +40,7 @@ La figure suivante illustre le l’affichage de la Page entière, station d’ac
 
 Cette section répertorie les interfaces et les membres que vous pouvez utiliser pour modifier par programme les fenêtres OneNote.
   
-### <a name="windows-interface"></a>Interface de Windows
+### <a name="windows-interface"></a>Interface Windows
 
 L'interface **Windows** permet à l'utilisateur d'accéder à l'ensemble des fenêtres ouvertes de OneNote. Il s'agit d'une propriété de la classe **Application** OneNote, accédée via **Application.Windows**. Ce qui retourne l'ensemble énuméré des fenêtres OneNote. 
   
@@ -87,7 +87,7 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel que https:// ou file://, une boîte de dialogue sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
+|**Description** <br/> |Si passé un lien OneNote (onenote: / /), ouvre la fenêtre OneNote à l'emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel que https://ou file://, une boîte de dialogue de sécurité s'affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
 |**Syntaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
 |**Paramètres** <br/> | _bstrUrl_ l'URL à atteindre.  <br/> |
    

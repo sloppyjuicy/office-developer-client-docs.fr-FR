@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8017094f6af95940aab8352d52cd1160f0b7a827
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ec806ed3ab871d6a36778b0898b2977628ccdcec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316204"
 ---
 # <a name="pidtagformversion-canonical-property"></a>Propriété canonique PidTagFormVersion
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la version d’un formulaire. 
+Contient la version d'un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
 |Identificateur :  <br/> |0x3301  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés indiquent de quelle version de conception est actuellement en effet pour le formulaire. La version est définie et mis à jour par le formulaire du concepteur et n’est pas nécessairement lié à n’importe quelle version de composant MAPI. 
+Ces propriétés indiquent la version de conception actuellement appliquée au formulaire. La version est définie et gérée par le concepteur du formulaire et n'est pas nécessairement liée à une version de composant MAPI. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

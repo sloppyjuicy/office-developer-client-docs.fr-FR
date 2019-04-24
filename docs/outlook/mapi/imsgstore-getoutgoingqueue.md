@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fe722e8723fdc3868cbbc3188f03e13ef3f466f3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8ccb732dd587b2e5107290b2db7c48e85d0145d4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317331"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575335"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table sortant de la file d’attente, une table qui comporte des informations sur tous les messages en file d’attente sortante de la banque de messages. Cette m�thode est appel�e uniquement par le spouleur MAPI.
+Fournit l'accès à la table de file d'attente sortante, une table qui contient des informations sur tous les messages de la file d'attente sortante de la Banque de messages. Cette m�thode est appel�e uniquement par le spouleur MAPI.
   
 ```cpp
 HRESULT GetOutgoingQueue(
@@ -34,7 +34,7 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,25 +42,25 @@ HRESULT GetOutgoingQueue(
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers le tableau sortant de la file d’attente.
+> remarquer Pointeur vers un pointeur vers la table de file d'attente sortante.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau sortant de la file d’attente a été renvoyé avec succès.
+> La table de file d'attente sortante a été correctement renvoyée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore::GetOutgoingQueue** fournit le spouleur MAPI d’accéder à la table qui affiche la file d’attente de la banque de messages de messages sortants. En règle générale, les messages sont placés dans le tableau de file d’attente sortant après que leur méthode [IMessage::SubmitMessage](imessage-submitmessage.md) est appelée. Toutefois, étant donné que l’ordre de soumission affecte l’ordre d’envoi pour le fournisseur de transport et de prétraitement, certains messages qui ont été marquées pour l’envoi n’apparaîtront dans la table de file d’attente sortant immédiatement. 
+La méthode **IMsgStore:: GetOutgoingQueue** fournit au SPOULEur MAPI un accès à la table qui affiche la file d'attente des messages sortants de la Banque de messages. En règle générale, les messages sont placés dans la table de file d'attente sortante après l'appel de la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) . Toutefois, étant donné que l'ordre d'envoi affecte l'ordre de prétraitement et de soumission au fournisseur de transport, certains messages qui ont été marqués pour l'envoi peuvent ne pas apparaître immédiatement dans la table de file d'attente sortante. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Pour obtenir la liste des propriétés qui doit être inclus en tant que colonnes dans votre tableau de file d’attente sortant, voir [Les Tables de file d’attente sortante](outgoing-queue-tables.md). 
+Pour obtenir la liste des propriétés qui doivent être incluses en tant que colonnes dans votre table de file d'attente de messages sortants, consultez la rubrique [tables de file d'attente sortantes](outgoing-queue-tables.md). 
   
-Étant donné que le spouleur MAPI est conçu pour accepter les messages provenant d’une banque de messages dans l’ordre croissant de l’heure d’envoi, soit autoriser le spouleur MAPI trier le tableau sortant de la file d’attente pour correspondre à cette commande ou comme l’ordre de tri par défaut.
+Étant donné que le spouleur MAPI est conçu pour accepter les messages provenant d'une banque de messages dans l'ordre croissant de la durée de dépôt, autorisez le spouleur MAPI à trier la table de file d'attente sortante pour qu'elle corresponde à cette commande ou établissez-la en tant qu'ordre de tri par défaut.
   
-À prendre en charge les notifications de la table de file d’attente de messages sortants, en vous assurant que le spouleur MAPI est averti lorsque le contenu de la file d’attente change. 
+Vous devez prendre en charge les notifications pour la table de file d'attente des messages sortants, en vous assurant que le spouleur MAPI est averti lorsque le contenu de la file d'attente est modifié. 
   
 ## <a name="see-also"></a>Voir aussi
 

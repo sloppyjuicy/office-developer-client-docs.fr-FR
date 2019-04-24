@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0afceb1f-9086-4cc9-8ce4-fb9256a81a9c
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 8e1f15ae354894aede4e8418e6428d0524ccb70d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316482"
 ---
 # <a name="testing-and-debugging"></a>Test et débogage
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tests des stratégies varient selon que vous développez un client ou fournisseur de services. Comme une application cliente requiert un ou plusieurs fournisseurs de services fonctionner, les clients doivent être testés dans un environnement comportant plusieurs ensembles de fournisseurs de services.
+Les stratégies de test varient selon que vous développez un client ou un fournisseur de services. Étant donné qu'une application cliente nécessite un ou plusieurs fournisseurs de services, les clients doivent être testés dans un environnement avec différents groupes de fournisseurs de services.
   
-Toutefois, les fournisseurs de services, doivent être testées de manière isolée avant l’intégration avec d’autres fournisseurs. MAPI fournit des outils qui sont destinées à tester les fonctionnalités d’un fournisseur de service d’un type particulier. L’exemple d’application [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) montre comment tester les fonctionnalités d’un fournisseur de carnet d’adresses et le fournisseur de magasin fonctionne avec un message. 
+Toutefois, les fournisseurs de services doivent être testés séparément avant d'être intégrés à d'autres fournisseurs. MAPI fournit des outils qui sont destinés à tester les fonctionnalités d'un fournisseur de services d'un type particulier. L'exemple d'application [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154) montre comment tester les fonctionnalités d'un fournisseur de carnet d'adresses et fonctionne avec un fournisseur de banque de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
+[Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md)
   
 [MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
 

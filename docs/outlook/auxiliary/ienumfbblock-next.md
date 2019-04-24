@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
-description: Obtient le nombre spécifié suivant de blocs de données et de disponibilité dans une énumération.
-ms.openlocfilehash: ec366cf102d3c75487f9485cfae7764d68695f10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient le prochain nombre spécifié de blocs de données de disponibilité dans une énumération.
+ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782580"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319592"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
-Obtient le nombre spécifié suivant de blocs de données et de disponibilité dans une énumération.
+Obtient le prochain nombre spécifié de blocs de données de disponibilité dans une énumération.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,26 +34,26 @@ HRESULT Next(
 
 _celt_
   
-> [in] Le nombre de données et de disponibilité se bloque dans *pblk* à récupérer. 
+> dans Nombre de blocs de données de disponibilité dans *pblk* à récupérer. 
     
-_PBLK_
+_pblk_
   
-> [in] Pointeur vers un tableau de blocs et de disponibilité. Le tableau est alloué à une taille de *celt* . Les blocs de disponibilité requis sont retournés dans ce tableau. 
+> dans Pointeur vers un tableau de blocs de disponibilité. La taille de la matrice est de *celt* . Les blocs de disponibilité demandés sont renvoyés dans ce tableau. 
     
 _pcfetch_
   
-> [out] Le nombre de blocs de disponibilité retournés dans *pblk* . 
+> remarquer Nombre de blocs de disponibilité réellement retournés dans *pblk* . 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |Le nombre de blocs demandé a été renvoyé.  <br/> |
-|S_FALSE  <br/> |Le nombre de blocs demandé n’a pas été retourné.  <br/> |
+|S_FALSE  <br/> |Le nombre de blocs demandé n'a pas été renvoyé.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md)  
+- [Constantes (API de disponibilité)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  

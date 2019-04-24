@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: baf45fa33ca085f51a6f9c20f72ec1fd1545ad79
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f9e55153830dbe41a2b4a48454157c900d96cf90
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315371"
 ---
 # <a name="uladdref"></a>UlAddRef
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592371"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet également d’appeler la méthode OLE **IUnknown::AddRef**. 
+Offre un autre moyen d'appeler la méthode OLE **IUnknown:: AddRef**. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 ULONG UlAddRef(
@@ -41,9 +41,9 @@ ULONG UlAddRef(
 
 ## <a name="parameters"></a>Paramètres
 
- _pUnk_
+ _Punk_
   
-> [in] Pointeur vers une interface dérivé de l’interface **IUnknown** , en d’autres termes n’importe quelle interface MAPI. 
+> dans Pointeur vers une interface dérivée de l'interface **IUnknown** , en d'autres termes, toute interface MAPI. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,12 +53,12 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d’origine inattendu ou inconnu a empêché l’opération de se terminer.
+> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
     
 ## <a name="remarks"></a>Remarques
 
- **UlAddRef** renvoie la valeur renvoyée par la méthode **IUnknown::AddRef** , qui est la nouvelle valeur du décompte de références pour l’interface. La valeur est différente de zéro. 
+ **UlAddRef** renvoie la valeur retournée par la méthode **IUnknown:: AddRef** , qui est la nouvelle valeur du décompte de références pour l'interface. La valeur est différente de zéro. 
   
-Pour plus d’informations sur **IUnknown::AddRef**, voir [implémentation de l’IUnknown Interface](implementing-the-iunknown-interface.md). 
+Pour plus d'informations sur **IUnknown:: AddRef**, consultez [la rubrique Implementing the IUnknown interface](implementing-the-iunknown-interface.md). 
   
 

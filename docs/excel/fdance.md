@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- fonction fdance [excel 2007]
+- fonction fdance [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: b7a2fbdf723d06dcf9b02789178d7d12d0515884
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a191c07d2a06a1cb6123c235e8fac69d90426758
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311038"
 ---
 # <a name="fdance"></a>fDance
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple définies par l’utilisateur de commande qui modifie des cellules sélectionnées autour de la feuille de calcul active jusqu'à ce que l’utilisateur appuie sur **ÉCHAP**. Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, générique, par le biais de laquelle cette commande est accessible.
+Exemple de commande définie par l'utilisateur qui modifie les cellules sélectionnées de la feuille de calcul active jusqu'à ce que l'utilisateur appuie sur **Échap**. Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.
   
 ```cs
 int WINAPI fDance(void);
@@ -32,21 +32,21 @@ int WINAPI fDance(void);
 
 La fonction ne prend aucun paramètre.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
 La fonction renvoie toujours 1.
   
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’un exemple d’une longue opération. Il appelle la fonction [xlAbort](xlabort.md) occasionnellement. Cela donne le processeur (aident à multitâche coopératif) et vérifie si l’utilisateur a appuyé sur **ÉCHAP** pour annuler l’opération. Dans ce cas, il offre à l’utilisateur d’annuler l’abandon. 
+Il s'agit d'un exemple de longue opération. Il appelle de manière occasionnelle la fonction [xlAbort](xlabort.md) . Cela génère le processeur (aide au multitâche coopératif) et vérifie si l'utilisateur a appuyé sur **Échap** pour annuler l'opération. Si c'est le cas, il offre à l'utilisateur la possibilité d'annuler l'abandon. 
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Fonctions de la DLL générique](functions-in-the-generic-dll.md)
+[Fonctions dans le fichier DLL générique](functions-in-the-generic-dll.md)
 

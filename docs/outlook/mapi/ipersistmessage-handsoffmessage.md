@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309715"
 ---
 # <a name="ipersistmessagehandsoffmessage"></a>IPersistMessage::HandsOffMessage
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le formulaire libérer le message en cours.
+Entraîne la libération du message actuel par le formulaire.
   
 ```cpp
 HRESULT HandsOffMessage( void );
@@ -33,31 +33,31 @@ HRESULT HandsOffMessage( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le message a été publié correctement.
+> Le message a été libéré avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Transition de formulaires dans les deux États HandsOff :
+Transition de formulaires vers deux États HandsOff:
   
 - [HandsOffAfterSave](handsoffaftersave-state.md)
     
 - [HandsOffFromNormal](handsofffromnormal-state.md)
     
-Lorsqu’un formulaire est dans un de ces États, il est en stocké de façon permanente. 
+Lorsqu'un formulaire est dans l'un de ces États, il est en cours de stockage permanent. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Lorsqu’une visionneuse de formulaire appelle la méthode **IPersistMessage::HandsOffMessage** lorsque votre formulaire est dans un état [Normal](normal-state.md) ou [NoScribble](noscribble-state.md) , de manière récursive appel **HandsOffMessage** sur chaque message incorporé dans le message en cours et la [ IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) méthode sur chaque objet OLE incorporé dans le message en cours. Puis relâchez le message actuel et les messages incorporés et les objets OLE. Si votre formulaire a été dans son état Normal, la transition vers l’état HandsOffFromNormal. Si votre formulaire était dans l’état NoScribble, effectuer la transition à l’état HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown::Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) du message et qu’elles retournent S_OK. 
+Lorsqu'une visionneuse de formulaires appelle la méthode **IPersistMessage:: HandsOffMessage** alors que votre formulaire est dans l'état [normal](normal-state.md) ou noscribble, appelez **HandsOffMessage** sur chaque message incorporé dans le message actif et [](noscribble-state.md) le [ IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) méthode sur chaque objet OLE incorporé dans le message actif. Ensuite, relâchez le message en cours, ainsi que tous les messages incorporés et les objets OLE. Si votre formulaire était dans un état normal, passez à l'État HandsOffFromNormal. Si votre formulaire était dans l'État noScribble, passez à l'État HandsOffAfterSave. Après une transition réussie, appelez la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) de message et renvoyez S_OK. 
   
-Lorsqu’un utilisateur du formulaire appelle **HandsOffMessage** votre formulaire est ouvert dans un des États HandsOff, retourner E_UNEXPECTED. 
+Lorsqu'une visionneuse de formulaires appelle **HandsOffMessage** alors que votre formulaire se trouve dans l'un des États HandsOff, renvoie E_UNEXPECTED. 
   
-Pour plus d’informations sur les différents États d’un formulaire, voir [Les États de formulaire](form-states.md). Pour plus d’informations sur l’utilisation de l’état HandsOff des objets de stockage, voir la méthode [IPersistStorage::HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
+Pour plus d'informations sur les différents États d'un formulaire, consultez la rubrique [États de formulaire](form-states.md). Pour plus d'informations sur l'utilisation de l'État HandsOff des objets de stockage, voir la méthode [IPersistStorage:: HandsOffStorage](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58119969-1d56-5b38-57ac-d8adf5097ef0
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 402521f2454cc7a829ce2aac455feab9aeeb657b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce membre est un espace réservé et n'est pas pris en charge.
+ms.openlocfilehash: a7e77846538a03691c134298396cb23c42c47f15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317485"
 ---
 # <a name="ifreebusydataplaceholder4"></a>IFreeBusyData::Placeholder4
 
-Ce membre est un espace réservé et n’est pas pris en charge.
+Ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -38,15 +38,15 @@ HRESULT Placeholder4(
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours S_OK, étant donné que ceci est un espace réservé et n’est pas pris en charge.
+Toujours S_OK, car il s'agit d'un espace réservé et n'est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit renvoyer S_OK.
+Ce membre doit retourner S_OK.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md)
+- [Constantes (API de disponibilité)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)

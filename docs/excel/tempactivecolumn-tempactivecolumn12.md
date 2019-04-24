@@ -8,22 +8,22 @@ f1_keywords:
 - TempActiveColumn
 - TempActiveColumn12
 keywords:
-- fonction tempactivecolumn12 [excel 2007], fonction TempActiveColumn [Excel 2007]
+- fonction TempActiveColumn12 [Excel 2007], fonction TempActiveColumn [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: ac3dbb0bb43527f790e6934d73bee30a33f8555f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d1399a407e3e269b78c7afbde8ff32c126b4b1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310471"
 ---
 # <a name="tempactivecolumntempactivecolumn12"></a>TempActiveColumn/TempActiveColumn12
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonctions de la bibliothèque Framework qui créent un temporaire **XLOPER**/ **XLOPER12** contenant une référence à une colonne entière de la feuille active. 
+Fonctions de la bibliothèque d'infrastructure qui créent une liste **XLOPER**/ **** temporaire contenant une référence externe à une colonne entière sur la feuille active. 
   
 ```cs
 LPXLOPER TempActiveColumn(BYTE col);
@@ -32,17 +32,17 @@ LPXLOPER12 TempActiveColumn12(COL col);
 
 ## <a name="parameters"></a>Paramètres
 
- _col_ (**Octets**)
+ _col_ (**Octet**)
   
-La colonne à référencer. Il s’agit en partant de zéro afin que la colonne A est transmise en tant que 0. Dans Microsoft Office Excel 2003 et les précédentes versions et à compter d’Excel 2007 en cours d’exécution un classeur en mode de compatibilité, la valeur maximale est de 255 = 2 ^ 8-1 et la valeur maximale qui peut être effectuée par un entier. À compter d’Excel 2007, un classeur en cours d’exécution, la valeur maximale est de 16 383 = 2 ^ 14-1. COL est défini comme un entier signé 32 bits dans XLCALL. H.
+Colonne à référencer. Il s'agit d'un type de base zéro de sorte que la colonne A passe à la valeur 0. Dans Microsoft Office Excel 2003 et les versions antérieures, et en commençant dans Excel 2007 exécutant un classeur en mode de compatibilité, la valeur maximale est 255 = 2 ^ 8-1 et représente la valeur maximale pouvant être prise par un nombre entier d'octets. À partir d'Excel 2007 exécutant un classeur, la valeur maximale est 16 383 = 2 ^ 14-1. COL est défini comme un entier signé de 32 bits dans XLCALL. H.
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 Renvoie une référence externe **xltypeRef** à la colonne passée. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant utilise **TempActiveColumn12** pour sélectionner toute la colonne B. 
+L'exemple suivant utilise **TempActiveColumn12** pour sélectionner toute la colonne B. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

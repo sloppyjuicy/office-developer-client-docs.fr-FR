@@ -8,19 +8,19 @@ f1_keywords:
 - Vis_DSS.chm82251819
 localization_priority: Normal
 ms.assetid: 48e143f5-838d-af1d-01c2-3fac4395e03c
-ms.openlocfilehash: 43cd85a3afc71213962e046650dd8a3cbc5f1833
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 83791fde1139670ffbcd21b520aaf2a5779ffc05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319004"
 ---
 # <a name="run-in-developer-mode-display-the-developer-tab"></a>Exécuter en mode développeur (afficher l’onglet Développeur)
 
-- Cliquez sur l’onglet **fichier** , puis cliquez sur **Options**.
+- Cliquez sur l'onglet **fichier** , puis sur **options**.
     
-- Dans la boîte de dialogue **Options Visio** , cliquez sur **Avancé**, puis sous **Général**, sélectionnez **Exécuter en mode développeur**.
+- Dans la boîte de dialogue **options Visio** , cliquez sur **avancé**, puis sous **général**, sélectionnez **exécuter en mode développeur**.
     
-Vous pouvez sélectionner un objet, puis cliquez sur **Afficher la feuille ShapeSheet** pour accéder plus rapidement à la fenêtre feuille ShapeSheet. 
+Vous pouvez ensuite sélectionner un objet et cliquer sur **Afficher la feuille ShapeSheet** pour accéder plus rapidement à la fenêtre de feuille ShapeSheet. 
   
 

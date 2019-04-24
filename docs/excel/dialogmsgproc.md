@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- fonction dialogmsgproc [excel 2007]
+- fonction dialogmsgproc [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 3a69d192babbcf0419850e203f51d8cfd81cdef6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1de1b73f5672067f07518ef3367d77349395a1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310961"
 ---
 # <a name="dialogmsgproc"></a>DIALOGMsgProc
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cette procédure est associée avec la boîte de dialogue Windows native affiche ce [fShowDialog](fshowdialog.md) . Il fournit les routines de service appelées par Windows pour les événements qui se produisent lorsque l’utilisateur fonctionne un des boutons de la boîte de dialogue, les champs d’entrée ou contrôles (messages). 
+Cette procédure est associée à la boîte de dialogue Windows Native affichée par [fShowDialog](fshowdialog.md) . Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l'utilisateur utilise l'un des boutons, champs d'entrée ou contrôles de la boîte de dialogue. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -32,29 +32,29 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
 
  _hWndDlg_ (**HWND**)
   
-Contient un handle HWND Windows de la boîte de dialogue.
+Contient le handle Windows HWND de la boîte de dialogue.
   
- _message_ (**UINT**)
+ _message_ (**Uint**)
   
-Le message pour répondre à.
+Message auquel répondre.
   
- _wParam_ (**WPARAM**)
+ _wParam_ (**WParam**)
   
- _lParam_ (**LPARAM**)
+ _lParam_ (**LParam**)
   
-Arguments transmis par Windows.
+Arguments passés par Windows.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
- **La valeur TRUE** si les messages traités, **FALSE** dans le cas contraire. 
+ **True** si le message a **** été traité, false dans le cas contraire. 
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Fonctions de la DLL générique](functions-in-the-generic-dll.md)
+[Fonctions dans le fichier DLL générique](functions-in-the-generic-dll.md)
 

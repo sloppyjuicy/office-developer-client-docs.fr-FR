@@ -11,19 +11,19 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0abb3cba2b72c18a2bc1a43a07130509ba29b56c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8bfb7e5af2e2e5e1a51225dc1cf20baf897752c1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316211"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Propriété canonique PidTagFormMessageBehavior
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient la valeur TRUE si un message doit être composé dans le dossier actif. 
   
@@ -32,23 +32,23 @@ Contient la valeur TRUE si un message doit être composé dans le dossier actif.
 |Propriétés associées :  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |Identificateur :  <br/> |0x330A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE indique que le message doit être composé comme n’importe quel autre message interpersonnel, autrement dit, dans le dossier boîte d’envoi. 
+La valeur FALSe indique que le message doit être composé de n'importe quel autre message interpersonnel, c'est-à-dire, dans le dossier boîte d'envoi. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

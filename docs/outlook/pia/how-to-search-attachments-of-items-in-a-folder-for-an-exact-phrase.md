@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f237a2268fd287e96959dfc0522103b47e55d37b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316057"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Recherche d’une expression exacte dans les pièces jointes des éléments d’un dossier
 

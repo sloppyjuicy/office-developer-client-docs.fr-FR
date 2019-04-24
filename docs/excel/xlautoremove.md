@@ -7,26 +7,26 @@ ms.topic: reference
 f1_keywords:
 - xlAutoRemove
 keywords:
-- fonction xlautoremove [excel 2007]
+- fonction xlAutoRemove [Excel 2007]
 localization_priority: Normal
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 6e5daac21a6d89472a7d84a25e9aeaea56db1ae1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310282"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Appelée par Microsoft Excel lorsque l’utilisateur désactive le XLL pendant une session Excel à l’aide du Gestionnaire de compléments. Cette fonction n’est pas appelée lorsqu’une session Excel se ferme, normale ou anormale, avec le complément installé.
+Appelé par Microsoft Excel chaque fois que l'utilisateur désactive le XLL au cours d'une session Excel à l'aide du gestionnaire de compléments. Cette fonction n’est pas appelée lors de la fermeture normale ou anormale d’une session Excel lorsque le complément est installé.
   
-Cette fonction peut être utilisée pour afficher une boîte de dialogue personnalisée pour présenter à l’utilisateur que le complément a été désactivé, ou pour lire ou écrire dans le Registre, par exemple.
+Cette fonction permet d'afficher une boîte de dialogue personnalisée indiquant à l'utilisateur que le complément a été désactivé ou de lire ou d'écrire dans le registre, par exemple.
   
-Excel ne nécessite pas un ressource XLL à mettre en œuvre et exporter cette fonction. 
+Excel ne requiert pas de XLL pour implémenter et exporter cette fonction. 
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -34,19 +34,19 @@ int WINAPI xlAutoRemove(void);
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction prend aucun argument.
+Cette fonction ne prend aucun argument.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Votre implémentation de cette fonction doit renvoyer 1 (**int**).
+Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette fonction si votre XLL a besoin effectuer toute tâche lorsqu’elle est supprimée par le Gestionnaire de compléments.
+Utilisez cette fonction si votre XLL doit effectuer une tâche lorsqu'elle est supprimée par le gestionnaire de compléments.
   
 ## <a name="example"></a>Exemple
 
-Consultez les fichiers `\SAMPLES\EXAMPLE\EXAMPLE.C` et `\SAMPLES\GENERIC\GENERIC.C` par exemple les implémentations de cette fonction. Le code suivant présente de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Reportez-vous aux fichiers `\SAMPLES\EXAMPLE\EXAMPLE.C` et `\SAMPLES\GENERIC\GENERIC.C` pour des exemples d’implémentation de cette fonction. Le code suivant provient de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoRemove(void)
@@ -66,5 +66,5 @@ int WINAPI xlAutoRemove(void)
 [xlAutoAdd](xlautoadd.md)
 
 
-[Gestionnaire de compléments et les fonctions de l’Interface XLL](add-in-manager-and-xll-interface-functions.md)
+[Fonctions du Gestionnaire de compléments et de l’interface XLL](add-in-manager-and-xll-interface-functions.md)
 

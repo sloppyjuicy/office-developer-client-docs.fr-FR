@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d8c554c5-89ac-9b32-5561-8d8178d2525a
 description: Un hors connexion carnet d'adresses (OAB) permet aux utilisateurs de Outlook dans un état déconnecté l'accès aux informations d'annuaire à partir de la liste d'adresses globale (LAG) et d'autres carnets d'adresses.
 ms.openlocfilehash: 3374f87cd62d46a80ed823bff0516115a58c155c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392283"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317016"
 ---
 # <a name="about-the-last-update-time-of-an-offline-address-book"></a>À propos de la dernière heure de mise à jour d'un carnet d'adresses en mode hors connexion
 

@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ff63b5b5-fde8-4e5b-a5be-b19e805ac7ed
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d59faeb303806dcc1368eb46f2bcf4bfa893e0e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c900f3a4d16b5a71cdff1973b7fd5b4bc46fd4c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318150"
 ---
 # <a name="attpriority"></a>attPriority
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Priorités de message MAPI sont mappées aux valeurs TNEF pour la compatibilité descendante, comme suit :
+Les priorités des messages MAPI sont mappées aux valeurs TNEF pour la compatibilité descendante comme suit:
   
-|**Priority**|**Valeur MAPI**|**Valeur TNEF**|
+|**Priorité**|**Valeur MAPI**|**Valeur TNEF**|
 |:-----|:-----|:-----|
-|Normale  <br/> |-1  <br/> |3  <br/> |
-|haute  <br/> |0  <br/> |2  <br/> |
-|faible  <br/> |1  <br/> |1  <br/> |
+|anormal  <br/> |-1  <br/> |3  <br/> |
+|important  <br/> |0  <br/> |n°2  <br/> |
+|assez  <br/> |0,1  <br/> |0,1  <br/> |
    
 

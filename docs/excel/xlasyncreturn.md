@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: e7ba37629ff2198339394448410ffd16477d4766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310247"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Utilisé pour renvoyer le résultat d’une fonction définie par l’utilisateur (UDF) asynchrone.
+Permet de renvoyer le résultat d'une fonction définie par l'utilisateur (UDF) asynchrone.
   
 ```cpp
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
@@ -28,23 +28,23 @@ Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
-Handle asynchrone de l’UDF à laquelle le résultat est retourné.
+Handle asynchrone de la FDU vers laquelle le résultat est renvoyé.
   
 _pxFunctionResult_
   
-La valeur de retour de l’UDF.
+Valeur de retour de la FDU.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si l’opération réussit, renvoie **la valeur TRUE** (**xltypeBool**). En cas d’échec, renvoie **FALSE**.
+Si elle réussit, renvoie la **valeur true** (**xltypeBool**). En cas d'échec, renvoie **false**.
   
 ## <a name="remarks"></a>Remarques
 
-**xlAsyncReturn** est le rappel uniquement que permet d’Excel sur des threads non calcul pendant le recalcul. La partie d’une fichier UDF asynchrone asynchrone n’effectuez des rappels autre que **xlAsyncReturn**. La ressource XLL doit libérer de la mémoire allouée pour contenir la valeur de retour.
+**xlAsyncReturn** est le seul rappel qu'Excel autorise sur les threads de non calcul lors du recalcul. La partie asynchrone d'une FDU asynchrone ne doit pas effectuer de rappels autres que **xlAsyncReturn**. Le XLL doit libérer de la mémoire allouée pour conserver la valeur de retour.
   
-Les paramètres _pxAsyncHandle_ et _pxFunctionResult_ peuvent également être de type **xltypeMulti** lorsqu’elle est utilisée pour retourner un tableau de handles et les valeurs correspondantes dans un rappel unique. Lorsque vous utilisez un seul rappel, passez un LPXLOPER12 qui pointe vers les structures XLOPER12 qui contiennent un tableaux multidimensionnels qui contiennent les poignées asynchrones et valeurs de retour. Ces tableaux doivent être dans le même ordre pour Excel correctement correspondre une poignée asynchrone avec sa valeur correspondante. 
+Les paramètres _pxAsyncHandle_ et _pxFunctionResult_ peuvent également être de type **xltypeMulti** lorsqu'ils sont utilisés pour renvoyer un tableau de handles et des valeurs correspondantes dans un seul rappel. Lors de l'utilisation d'un seul rappel, transmettez un LPXLOPER12 qui pointe vers les structures XLOPER12 qui contiennent un tableau de dimensions contenant les handles asynchrones et les valeurs de retour. Ces tableaux doivent être dans le même ordre pour qu'Excel corresponde correctement à un handle asynchrone avec sa valeur correspondante. 
   
-L’exemple suivant montre comment vous pouvez faire appel à l’aide de **xlAsyncReturn**un lot.
+L'exemple suivant montre comment vous pouvez créer un appel en lot à l'aide de **xlAsyncReturn**.
   
 ```cpp
 int batchSize = 10;

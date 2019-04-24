@@ -1,41 +1,41 @@
 ---
-title: RotateGradientWithShape, cellule (Section Propriétés de dégradé)
+title: RotateGradientWithShape Cell (Gradient Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6aada005-3403-4666-9779-7ccb5b83b74a
-description: Détermine si un dégradé de remplissage pivote avec une forme 2D rotation, en tant que valeur de type boolean.
-ms.openlocfilehash: d752f870fd08c1a47dfc7ce193b6976a1bdb2a1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine si un dégradé de remplissage pivote avec une forme dans la rotation 2D, sous la forme d'un type Boolean.
+ms.openlocfilehash: 76a76a4a97128c81710269f75e9e17db90827377
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315658"
 ---
-# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>RotateGradientWithShape, cellule (Section Propriétés de dégradé)
+# <a name="rotategradientwithshape-cell-gradient-properties-section"></a>RotateGradientWithShape Cell (Gradient Properties Section)
 
-Détermine si un dégradé de remplissage pivote avec une forme 2D rotation, en tant que valeur de type boolean.
+Détermine si un dégradé de remplissage pivote avec une forme dans la rotation 2D, sous la forme d'un type Boolean.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Dégradé fait pivoter la forme lorsque vous faites pivoter la forme autour de l’axe de rotation. « Haut » du dégradé est parallèle à la poignée de rotation.  <br/> |
-|FALSE  <br/> |Dégradé ne pivote pas avec la forme lors de la rotation de la forme autour de l’axe de rotation. « Haut » du dégradé est parallèle à la zone de dessin.  <br/> |
+|TRUE  <br/> |Le dégradé pivote avec la forme lorsque la forme pivote autour de la broche de rotation. Le «haut» du dégradé est parallèle à la poignée de rotation.  <br/> |
+|FALSE  <br/> |Le dégradé ne pivote pas avec la forme lorsque la forme pivote autour de la broche de rotation. Le «haut» du dégradé est parallèle à la zone de dessin.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **RotateGradientWithShape** par un nom à partir d’une autre formule, par la valeur de l’attribut **N** d’un élément de **cellule** ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule **RotateGradientWithShape** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | RotateGradientWithShape  <br/> |
+| Nom de cellule :  <br/> | RotateGradientWithShape  <br/> |
    
-Pour obtenir une référence à la cellule **RotateGradientWithShape** par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule **RotateGradientWithShape** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowGradientProperties** <br/> |
 | Index de la cellule :  <br/> |**visRotateGradientWithShape** <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble des applications de Client MAPI
+title: Vue d'ensemble des applications clientes MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ad2e1f2d-57c3-4fb5-9e0f-db51640df84d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 12fb03ed5a165592113f49a202f777b0f301736d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 100d1339ade8e5983c89695afbd85592cc2a4e43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568755"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318969"
 ---
-# <a name="mapi-client-application-overview"></a>Vue d’ensemble des applications de Client MAPI
+# <a name="mapi-client-application-overview"></a>Vue d'ensemble des applications clientes MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une application cliente MAPI est une application qui utilise l’interface de programmation MAPI. Applications clientes implémentent des tâches de messagerie en tant que leur focus principal ou secondaire. Applications client de messagerie, tels que les applications qui envoyer et recevoir du courrier électronique, implémentent le principal objectif de messagerie. Pour les applications clientes de messagerie non, tel que stocks ou les applications de configuration, la messagerie est une fonctionnalité secondaire.
+Une application cliente MAPI est une application qui utilise l'interface de programmation MAPI. Les applications clientes implémentent les tâches de messagerie en tant que sélection principale ou secondaire. Les applications clientes de messagerie, telles que les applications qui envoient et reçoivent des courriers électroniques, implémentent la messagerie comme principal objectif. Pour les applications clientes non de messagerie, telles que l'inventaire ou les applications de configuration, la messagerie est une fonctionnalité secondaire.
   
-Activités de messagerie peuvent inclure, par exemple, une application de traitement de texte qui possède une commande **Envoyer** dans son menu **fichier** pour activer l’envoi des documents, courrier électronique Microsoft Office Outlook, automation de flux de travail programmes et services forum. 
+Les activités de messagerie peuvent inclure, par exemple, une application de traitement de texte disposant d'une commande **Envoyer** dans son menu **fichier** pour permettre l'envoi de documents, de messages électroniques Microsoft Office Outlook, de programmes d'automatisation de flux de travail et de services télématiques. 
   
-Les applications clientes peuvent inclure l’utilisateur pour créer un environnement interactif ou fonctionner sans qu’un utilisateur dans un environnement automatisé. Bien que MAPI fournit un jeu de boîtes de dialogue communes avec son interface utilisateur standard, les applications clientes ne sont pas tenues de présenter une interface utilisateur. En fait, tout le traitement peut être gérés dans l’application, si vous le souhaitez. Un exemple d’une application cliente automatisée serait une application de gestion d’inventaire est programmée pour distribuer les éléments d’un type particulier à des destinataires standards à intervalles réguliers.
+Les applications clientes peuvent soit inclure l'utilisateur pour créer un environnement interactif, soit opérer sans un utilisateur dans un environnement automatisé. Bien que MAPI fournisse un ensemble de boîtes de dialogue communes avec son interface utilisateur standard, les applications clientes ne sont pas requises pour présenter une interface utilisateur. En fait, tout le traitement peut être géré dans l'application, si vous le souhaitez. Un exemple d'application cliente automatisée serait une application de gestion des stocks programmée pour acheminer régulièrement les éléments d'un type particulier vers les destinataires standard.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Architecture et des fonctionnalités MAPI](mapi-features-and-architecture.md)
+[Architecture et fonctionnalités MAPI](mapi-features-and-architecture.md)
 

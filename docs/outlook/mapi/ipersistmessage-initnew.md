@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394880"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317149"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Initialise un nouveau message.
   
@@ -38,39 +38,39 @@ HRESULT InitNew(
 
  _pMessageSite_
   
-> [in] Pointeur vers le site de message qui sera utilisée pour travailler avec le message dans la visionneuse.
+> dans Pointeur vers le site de messagerie que le formulaire utilisera pour fonctionner avec le message dans la visionneuse.
     
  _pMessage_
   
-> [in] Pointeur vers le nouveau message.
+> dans Pointeur vers le nouveau message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le nouveau message a été correctement initialisé.
+> Le nouveau message a été initialisé.
     
 ## <a name="remarks"></a>Remarques
 
-Visionneuses de formulaire appeler la méthode **IPersistMessage::InitNew** lorsque l’utilisateur écrit un nouveau message qui appartient à une classe de message qui gère le formulaire. Si l’objet form possède un pointeur d’interface utilisateur valide, l’interface utilisateur pour l’objet du message doit être affichée. 
+Les visionneuses de formulaires appellent la méthode **IPersistMessage:: InitNew** lorsque l'utilisateur écrit un nouveau message qui appartient à une classe de message gérée par le formulaire. Si l'objet Form est doté d'un pointeur d'interface utilisateur valide, l'interface utilisateur de l'objet message doit être affichée. 
   
- **InitNew** ne doit pas être appelée lorsque le formulaire est dans un état à l’exception de l’état [Uninitialized](uninitialized-state.md) . Si le formulaire est dans un des autres États lorsque **InitNew** est appelée, retourner E_UNEXPECTED. 
+ **InitNew** ne doit pas être appelé lorsque l'état de votre formulaire est différent de l'état [non initialisé](uninitialized-state.md) . Si le formulaire est dans l'un des autres États lorsque **InitNew** est appelé, renvoyer E_UNEXPECTED. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-En règle générale, les messages qui contiennent des propriétés non enregistrées sont marquées comme modifiées afin que le client peut afficher une boîte de dialogue qui demande à l’utilisateur si ces propriétés doivent être enregistrées. Si l’utilisateur indique qu’un message doit être enregistré, enregistrer les données, marquer le message en tant que nouvelle et quitter normalement.
+En règle générale, les messages dont les propriétés ne sont pas enregistrées sont marqués comme étant modifiés afin que le client puisse afficher une boîte de dialogue qui invite l'utilisateur à indiquer si ces propriétés doivent être enregistrées. Si l'utilisateur indique qu'un message doit être enregistré, enregistrez les données, marquez le message comme nettoyé, puis quittez normalement.
   
-Toutefois, si le traitement de vos messages initialisés récemment inclut la définition d’une ou plusieurs des propriétés calculées et il est important pour les propriétés à être enregistrée, ne marquez pas les messages modifié. Calculée propriétés doivent être invisibles pour les utilisateurs, aucune boîte de dialogue ne doit affiché.
+Toutefois, si le traitement de vos messages nouvellement initialisés inclut la définition d'une ou de plusieurs propriétés calculées et qu'il est important que ces propriétés soient enregistrées, ne Marquez pas les messages comme étant modifiés. Étant donné que les propriétés calculées doivent être invisibles pour les utilisateurs, aucune boîte de dialogue ne doit s'afficher.
   
-Si votre formulaire comporte une référence à un site de message actif différent de celui qui est passée dans **InitNew**, version du site d’origine, car il sera ne plus être utilisé. Stocker des pointeurs vers le site de message et le message à partir des paramètres _pMessageSite_ et _pMessage_ et appelez des deux objets [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) pour incrémenter son décompte de références. 
+Si votre formulaire comporte une référence à un site de messagerie actif autre que celui qui est transmis à **InitNew**, libérez le site d'origine car il ne sera plus utilisé. Stockez les pointeurs sur le site de messagerie et le message des paramètres _pMessageSite_ et _pMessage_ et appelez les deux méthodes « [IUnknown:: AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) » pour incrémenter leur nombre de références. 
   
-Définir les propriétés de **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour le nouveau message et le **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) par un nom approprié pour votre classe de message. De nombreuses classes de message, par exemple, définissent **PR_MESSAGE_FLAGS** à MSGFLAG_UNSENT pour les nouveaux messages. 
+Définissez les propriétés **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour le nouveau message à une valeur appropriée pour votre classe de message. De nombreuses classes de message, par exemple, Set **PR_MESSAGE_FLAGS** to MSGFLAG_UNSENT for New messages. 
   
-Avant de retourner, transition du formulaire à l’état [Normal](normal-state.md) si aucune erreur ne se sont produites. Envoyer une notification de nouveau message à tous les utilisateurs inscrits en appelant les méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) et qu’elles retournent S_OK. 
+Avant de retourner, faire basculer le formulaire vers l'état [normal](normal-state.md) si aucune erreur n'est survenue. Envoyez une nouvelle notification par message à toutes les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) et en retournant S_OK. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Après avoir apporté **InitNew**un appel réussi, vous pouvez supposer que les propriétés requises suivantes et aucune autre, ont été définies pour le formulaire :
+Une fois que vous avez effectué un appel réussi à **InitNew**, vous pouvez supposer que les propriétés requises suivantes, et aucune autre, ont été définies pour le formulaire:
   
  **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
@@ -86,7 +86,7 @@ Après avoir apporté **InitNew**un appel réussi, vous pouvez supposer que les 
   
  **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
-Pour plus d’informations sur les États de formulaires, voir [États du formulaire](form-states.md). Pour plus d’informations sur l’initialisation des objets de stockage, voir la méthode [IPersistStorage::InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
+Pour plus d'informations sur les États de formulaires, voir [États de formulaire](form-states.md). Pour plus d'informations sur la façon dont les objets de stockage sont initialisés, consultez la méthode [IPersistStorage:: InitNew](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   
 ## <a name="see-also"></a>Voir aussi
 

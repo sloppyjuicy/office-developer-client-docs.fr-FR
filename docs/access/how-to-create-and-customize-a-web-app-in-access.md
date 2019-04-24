@@ -7,16 +7,16 @@ ms.topic: reference
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
 localization_priority: Priority
 ms.openlocfilehash: d7d27e98189a5b6784e4db48c81a545b85f01fc1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306109"
 ---
 # <a name="create-and-customize-a-web-app-in-access"></a>Création et personnalisation d’une application web dans Access
 
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 Access 2013 propose un nouveau modèle d'application qui permet aux experts de créer rapidement des applications pour le web. Access inclut un ensemble de modèles qui vous permettent de commencer à créer votre application.
 
@@ -153,7 +153,7 @@ Après avoir examiné l'application, vous constatez que l'affichage Liste des pr
 7. Dans la liste déroulante **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**. 
     
     > [!NOTE]
-    > Vous verrez deux listes déroulantes **Ajouter une nouvelle action** : une au sein du bloc **LookupRecord** et une autre extérieure au bloc **LookupRecord**. Vous devez sélectionner la liste déroulante **Ajouter une nouvelle action** dans le bloc **LookupRecord**, comme illustré dans la Figure 7. 
+    > You'll see two **Add New Action** dropdowns, one within the **LookupRecord** block, and another outside the **LookupRecord** block. You should choose the **Add New Action** dropdown within the **LookupRecord** block, as shown in Figure 7. 
   
    **Figure 7. Liste déroulante Ajouter une nouvelle action**
 

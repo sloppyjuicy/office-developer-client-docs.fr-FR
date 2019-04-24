@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 06fe8d33b98d9d2a211dba497bd99ff0ec21bbf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318045"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante. 
+Calcule le nombre d'octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**FLATENTRYLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)

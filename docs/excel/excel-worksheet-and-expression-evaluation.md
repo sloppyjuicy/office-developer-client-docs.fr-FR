@@ -9,12 +9,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 543ff7fcbc88253dafd7fc6e7000bf9657d8c258
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310982"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Feuille de calcul Excel et évaluation d’expression
 
@@ -62,7 +62,7 @@ Notez que certains formats de nombre ont des limites plus �troites que celles-
 
 Toutes les chaînes que l�utilisateur voit dans Excel ont depuis de nombreuses versions �t� stock�es en interne en tant que chaînes�Unicode. Les chaînes Unicode de feuille de calcul peuvent comporter jusqu�� 32�767 caract�res (2<sup>15</sup>-1) et peuvent contenir tout caract�re Unicode valide. 
   
-Lors de la premi�re introduction de l�API C, les chaînes de feuille de calcul �taient des chaînes d�octets limit�es � une longueur de 255�caract�res, et l�API C refl�tait ces limitations. Avec Excel 2007, l�API C est mise � jour pour g�rer les chaînes Unicode longues Excel. Cela signifie que les fonctions�DLL correctement enregistr�es peuvent accepter des arguments Unicode et renvoyer des chaînes Unicode.
+Lors de la premi�re introduction de l�API�C, les cha�nes de feuille de calcul �taient des cha�nes d�octets limit�es � une longueur de 255�caract�res, et l�API�C refl�tait ces limitations. Avec Excel 2007, l�API�C est mise � jour pour g�rer les cha�nes Unicode longues Excel. Cela signifie que les fonctions�DLL correctement enregistr�es peuvent accepter des arguments Unicode et renvoyer des cha�nes Unicode.
   
 > [!NOTE]
 > Les chaînes d�octets sont toujours enti�rement prises en charge dans l�API C pour la compatibilit� descendante. Toutefois, elles ont toujours la m�me limite de 255�caract�res. 
@@ -115,7 +115,7 @@ L�erreur **#N/A** est souvent renvoy�e pour indiquer qu�un r�sultat r�
 
 [Concepts de programmation Excel](excel-programming-concepts.md)
   
-[Programmation avec l�API C dans Excel](programming-with-the-c-api-in-excel.md)
+[Programmation avec l�API�C dans Excel](programming-with-the-c-api-in-excel.md)
   
 [�valuer les noms et les autres Expressions de formule de feuille de calcul](evaluating-names-and-other-worksheet-formula-expressions.md)
   

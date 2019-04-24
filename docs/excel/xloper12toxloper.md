@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - XLOper12ToXLOper
 keywords:
-- fonction xloper12toxloper [excel 2007]
+- fonction XLOper12ToXLOper [Excel 2007]
 localization_priority: Normal
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 2c06102699db8810da803ecc0ddfa30375fcc125
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 148353dcec1cc051aa44d18c0a081b6623e3759a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310072"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Permet de convertir le nouveau **XLOPER12** l' ancienne **XLOPER**routine de conversion.
+Routine de conversion utilisée pour convertir la nouvelle **XLOPER12** en l'ancien **XLOPER**.
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
@@ -36,23 +36,23 @@ Pointeur vers la source **XLOPER12** à convertir.
   
 _pxloper_ (**LPXLOPER**)
   
-Pointeur vers la cible **XLOPER** contenant la valeur convertie. 
+Pointeur vers le **XLOPER** cible pour contenir la valeur convertie. 
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-**TRUE** si la conversion a réussi, **FALSE** dans le cas contraire. 
+**True** si la conversion a réussi **** , false dans le cas contraire. 
   
 ## <a name="remarks"></a>Remarques
 
-Selon le type de la **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties qui pointent sur la cible **XLOPER**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est un succès ; **FreeXLOperT** peut être utilisé, ou elle peut être effectuée directement à l’aide de **libre**.
+Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées dans le **XLOPER**cible. L'appelant est chargé de libérer de la mémoire associée à la copie si la conversion a réussi; **FreeXLOperT** peut être utilisé ou peut être réalisé directement à l'aide de la version **gratuite**.
   
-En cas d’échec de la conversion, l’appelant n’a pas besoin libérer de la mémoire.
+Si la conversion échoue, l'appelant n'a pas besoin de libérer de la mémoire.
   
-Conversion d’un **XLOPER12** vers un **XLOPER** peut échouer lorsque le **XLOPER12** contient un tableau ou référence qui est trop grande ou une chaîne qui est trop longue pour le **XLOPER** contenir. 
+La conversion d'un **XLOPER12** en une structure **XLOPER** peut échouer lorsque la variable **XLOPER12** contient un tableau ou une référence trop grande ou une chaîne trop longue pour l' **XLOPER** à contenir. 
   
-**XLOPER12** Chaînes de caractères larges Unicode sont convertis en chaînes d’octets ASCII **XLOPER** dans un façon dépendant des paramètres régionaux. 
+**XLOPER12** Les chaînes de caractères larges Unicode sont converties en chaînes d'octets **XLOPER** ASCII d'une façon qui dépend des paramètres régionaux. 
   
-Le **XLOPER12** **xltypeInt** est un entier signé 32 bits, alors que le **XLOPER** **xltypeInt** est un nombre entier signé de 16 bits. Lorsqu’un entier **XLOPER12** fourni dépasse la limite d’un nombre entier **XLOPER** , l’entier est converti en un double de 8 octets et renvoyé dans un **XLOPER** de type **xltypeNum**. Il s’agit du seul cas dans lequel cette fonction modifie le type de la convertie **XLOPER**.
+La **** **xltypeInt** XLOPER12 est un entier signé de 32 bits, tandis que le **XLOPER** **xltypeInt** est un entier signé 16 bits. Lorsqu'un entier **XLOPER12** fourni dépasse la limite d'un entier **XLOPER** , l'entier est converti en double de 8 octets et renvoyé dans un **XLOPER** de type **xltypeNum**. Il s'agit du seul cas où cette fonction modifie le type de l' **XLOPER**converti.
   
 ### <a name="example"></a>Exemple
 

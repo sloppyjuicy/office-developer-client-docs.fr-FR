@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5417853dbb1fa87d2beead2f73ca57329e17b044
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316568"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -34,45 +34,45 @@ HRESULT GetPropList(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le format des chaînes dans les balises de propriété renvoyées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le format des chaînes dans les balises de propriété renvoyées. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes retournées sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _lppPropTagArray_
   
-> [out] Pointeur vers un pointeur vers le tableau de balise de propriété qui contient des balises pour toutes les propriétés de l’objet.
+> remarquer Pointeur vers un pointeur vers le tableau de balises de propriété qui contient des balises pour toutes les propriétés de l'objet.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Toutes les balises de propriété ont été renvoyées.
+> Toutes les balises de propriété ont été renvoyées avec succès.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été défini et l’implémentation prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIProp::GetPropList** récupère la balise de propriété pour chaque propriété actuellement pris en charge par un objet. Si l’objet ne prend pas en charge toutes les propriétés, **GetPropList** renvoie un tableau de balise de propriété avec le membre **cValues** défini sur 0. 
+La méthode **IMAPIProp:: GetPropList** extrait la balise de propriété pour chaque propriété actuellement prise en charge par un objet. Si l'objet ne prend actuellement en charge aucune propriété, **GetPropList** renvoie un tableau de balises de propriété avec le membre **cValues** défini sur 0. 
   
-La portée des propriétés retournées par **GetPropList** varie d’un fournisseur. Certains fournisseurs de services excluent les propriétés pour lesquelles l’appelant n’a pas accès. Tous les fournisseurs de renvoient les propriétés de type **PT_OBJECT**.
+L'étendue des propriétés retournées par **GetPropList** varie en fonction du fournisseur et du fournisseur. Certains fournisseurs de services excluent les propriétés pour lesquelles l'appelant n'a pas accès. Tous les fournisseurs renvoient les propriétés de type **PT_OBJECT**.
   
-Si l’objet ne prend pas en charge Unicode, **GetPropList** renvoie MAPI_E_BAD_CHARWIDTH, même si aucune propriété de chaîne définis pour l’objet. 
+Si l'objet ne prend pas en charge le format Unicode, **GetPropList** renvoie MAPI_E_BAD_CHARWIDTH, même s'il n'existe aucune propriété de chaîne définie pour l'objet. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Fournisseurs de transport à distance implémentent **GetPropList** exactement comme indiqué ici. Il n’existe aucune problèmes spéciaux. Votre implémentation doit retourner bien sûr, la même liste des propriétés de prise en charge par la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+Les fournisseurs de transport à distance implémentent **GetPropList** exactement comme spécifié ici. Il n'y a aucune préoccupation particulière. Votre implémentation doit, bien sûr, renvoyer la même liste de propriétés que celle prise en charge par la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de balise de propriété désigné par _lppPropTagArray_. 
+Appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de balises de propriété pointé par _lppPropTagArray_. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -80,7 +80,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetPropList** pour obtenir une liste de propriétés à transmettre à **GetProps**.  <br/> |
+|MAPIFunctions. cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI utilise la méthode **IMAPIProp:: GetPropList** pour obtenir une liste de propriétés à transmettre à **GetProps**.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

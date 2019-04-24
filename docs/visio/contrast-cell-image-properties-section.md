@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0e4c644-c646-9649-c697-82feb02f5e29
 description: Règle le contraste d'une image bitmap. Réduisez le contraste de l'image en entrant une valeur comprise entre 0 et 49 % ou augmentez-le en entrant une valeur comprise entre 51 et 100 %. La valeur par défaut est 50 %.
-ms.openlocfilehash: 74a82fd9be49fcb9126c2b52bfcf25e0deb0e782
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f0a27090ea1ec96bf11726ae641ff918dd581e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319018"
 ---
 # <a name="contrast-cell-image-properties-section"></a>Contrast, cellule (section Image Properties)
 
 Règle le contraste d'une image bitmap. Réduisez le contraste de l'image en entrant une valeur comprise entre 0 et 49 % ou augmentez-le en entrant une valeur comprise entre 51 et 100 %. La valeur par défaut est 50 %.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Contrast par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Contrast par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | Contrast  <br/> |
    
-Pour obtenir une référence à la cellule Contrast par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Contrast à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
 | Index de la cellule :  <br/> |**visImageContrast** <br/> |
    

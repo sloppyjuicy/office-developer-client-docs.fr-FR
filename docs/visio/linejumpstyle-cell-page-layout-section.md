@@ -9,45 +9,45 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: Détermine le style de déviation de tous les connecteurs de la page de dessin n'ayant pas de style de déviation local.
-ms.openlocfilehash: 96941f675b67b38a8575bd712db5ad0eb76cd50f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 066c96f659061290b825684a479432e6d71f518c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316435"
 ---
 # <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle, cellule (section Page Layout)
 
 Détermine le style de déviation de tous les connecteurs de la page de dessin n'ayant pas de style de déviation local.
   
-|**Valeur**|**Style de déviation de trait**|**Constante d’Automation**|
+|**Valeur**|**Style de déviation de trait**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|2  <br/> |Intervalle  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |Carré  <br/> |**visLOJumpStyleSquare** <br/> |
+|0,1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|n°2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
 |4  <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
-|5  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
-|6  <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
-|7  <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
-|8  <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
-|9  <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
+|disque  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
+|6.x  <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
+|7j/7  <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
+|8bits  <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
+|4,9  <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule sous l’onglet **disposition et positionnement** dans la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur la flèche **Mise en Page** , puis cliquez sur **disposition et positionnement**).
+Vous pouvez également définir la valeur de cette cellule dans l’onglet **Disposition et positionnement** dans la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**, puis cliquez sur **Disposition et positionnement**).
   
-Pour obtenir une référence à la cellule LineJumpStyle par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LineJumpStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |LineJumpStyle  <br/> |
    
-Pour obtenir une référence à la cellule LineJumpStyle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LineJumpStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOJumpStyle** <br/> |
    

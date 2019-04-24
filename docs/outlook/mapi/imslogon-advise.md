@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: abe4867b965f05e781f931d2e72920474d007d78
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382756"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317310"
 ---
 # <a name="imslogonadvise"></a>IMSLogon::Advise
 
@@ -25,7 +25,7 @@ ms.locfileid: "25382756"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit un objet avec un fournisseur de magasin de message pour les notifications sur les modifications dans la banque de messages. La banque de messages envoie ensuite les notifications sur les modifications apportées à l’objet inscrit.
+Inscrit un objet auprès d'un fournisseur de banque de messages pour les notifications concernant les modifications apportées à la Banque de messages. La Banque de messages enverra ensuite des notifications sur les modifications apportées à l'objet inscrit.
   
 ```cpp
 HRESULT Advise(
@@ -41,17 +41,17 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in] La taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de l’objet sur lequel les notifications doivent être générées. Cet objet peut être un dossier, un message ou tout autre objet dans la banque de messages. Vous pouvez également si MAPI définit le paramètre _cbEntryID_ à 0 et passe **null** pour _lpEntryID_, le récepteur de notifications des notifications sur les modifications dans le magasin de l’intégralité du message.
+> dans Pointeur vers l'identificateur d'entrée de l'objet sur lequel les notifications doivent être générées. Cet objet peut être un dossier, un message ou tout autre objet dans la Banque de messages. Par ailleurs, si MAPI définit le paramètre _cbEntryID_ sur 0 et passe la **valeur null** pour _lpEntryID_, le récepteur de notifications fournit des notifications sur les modifications apportées à la Banque de messages entière.
     
  _ulEventMask_
   
-> [in] Un masque des types d’événements de notification de l’objet sur lequel MAPI génère des notifications d’événement. Le masque de filtre cas spécifiques. Chaque type d’événement a une structure associée qui contient des informations supplémentaires sur l’événement. Le tableau suivant répertorie les types d’événements possibles ainsi que leurs structures correspondantes.
+> dans Un masque d'événement des types d'événements de notification survenus pour l'objet sur lequel MAPI générera des notifications. Le masque filtre des cas spécifiques. Chaque type d'événement est associé à une structure qui contient des informations supplémentaires sur l'événement. Le tableau suivant répertorie les types d'événement possibles ainsi que les structures correspondantes.
     
-|**Type d’événement notification**|**Structure correspondante**|
+|**Type d'événement de notification**|**Structure correspondante**|
 |:-----|:-----|
 |fnevCriticalError  <br/> |[ERROR_NOTIFICATION](error_notification.md) <br/> |
 |fnevNewMail  <br/> |[NEWMAIL_NOTIFICATION](newmail_notification.md) <br/> |
@@ -65,11 +65,11 @@ HRESULT Advise(
    
  _lpAdviseSink_
   
-> [in] Pointeur vers un objet de récepteur advise appelée lorsqu’un événement se produit pour l’objet session sur lequel la notification a été demandée. Cet objet de récepteur advise doit déjà exister.
+> dans Pointeur vers un objet de récepteur de notification à appeler lorsqu'un événement de l'objet session a été demandé. Cet objet de récepteur de notifications doit déjà exister.
     
  _lpulConnection_
   
-> [out] Pointeur vers une variable qui conserve le numéro de connexion pour l’enregistrement de notification à un retour réussi. Le numéro de connexion doit être différente de zéro.
+> remarquer Un pointeur vers une variable qui, lorsqu'un retour réussi, conserve le numéro de connexion pour l'enregistrement de la notification. Le numéro de connexion doit être différent de zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -79,19 +79,19 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> L’opération n’est pas pris en charge par MAPI ou par un ou plusieurs fournisseurs de services.
+> L'opération n'est pas prise en charge par MAPI ou par un ou plusieurs fournisseurs de services.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de magasins de message implémentent la méthode **IMSLogon::Advise** pour enregistrer un objet pour les rappels de notification. Chaque fois qu’une modification est apportée à l’objet indiqué, le fournisseur vérifie les bits de masque événement a été défini dans le paramètre _ulEventMask_ et, par conséquent, le type de modification s’est produite. Si un bit est défini, le fournisseur appelle la méthode de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de récepteur advise indiqué par le paramètre _lpAdviseSink_ pour signaler l’événement. Données transmises dans la structure de notification à la routine **OnNotify** décrivent l’événement. 
+Les fournisseurs de banque de messages implémentent la méthode **IMSLogon:: Advise** pour enregistrer un objet pour les rappels de notification. Chaque fois qu'une modification est apportée à l'objet indiqué, le fournisseur vérifie le bit de masque d'événement qui a été défini dans le paramètre _ulEventMask_ et, par conséquent, le type de modification qui a eu lieu. Si un bit est défini, le fournisseur appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet de récepteur de notifications indiqué par le paramètre _lpAdviseSink_ pour signaler l'événement. Les données transmises dans la structure de notification à la routine **OnNotify** décrivent l'événement. 
   
-L’appel de **OnNotify** peut se produire lors de l’appel qui modifie l’objet, ou ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d’exécution, l’appel de **OnNotify** peut se produire sur n’importe quel thread. Pour gérer en toute sécurité un appel à **OnNotify** qui peut se produire à un moment peu opportuns, une application cliente doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
+L'appel à **OnNotify** peut se produire pendant l'appel qui modifie l'objet ou ultérieurement. Sur les systèmes qui prennent en charge plusieurs threads d'exécution, l'appel à **OnNotify** peut se produire sur n'importe quel thread. Pour gérer en toute sécurité un appel à **OnNotify** susceptible de se produire à un moment inopportun, une application cliente doit utiliser la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) . 
   
-Pour fournir des notifications, le fournisseur de banque de messages qui implémente **Advise** doit conserver une copie du pointeur pour la _lpAdviseSink_ conseiller objet récepteur ; Pour ce faire, le fournisseur appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour le récepteur de notifications maintenir son pointeur de l’objet jusqu'à ce que l’inscription aux notifications est annulée par un appel à la méthode [IMSLogon::Unadvise](imslogon-unadvise.md) . L’implémentation **Advise** doit affecter un numéro de connexion à l’enregistrement de notification et appelez **AddRef** sur ce numéro de connexion avant de la retourner dans le paramètre _lpulConnection_ . Fournisseurs de services peuvent libérer l’objet de récepteur advise avant l’enregistrement est annulée, mais ils ne doivent libérer le numéro de connexion jusqu'à ce que **Unadvise** a été appelée. 
+Pour fournir des notifications, le fournisseur de banque de messages qui implémente l' **avis** doit conserver une copie du pointeur vers l'objet récepteur _lpAdviseSink_ . pour ce faire, le fournisseur appelle la méthode [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour le récepteur de notifications afin de maintenir son pointeur d'objet jusqu'à ce que l'enregistrement de notification soit annulé avec un appel à la méthode [IMSLogon::](imslogon-unadvise.md) Unadvise. L'implémentation de l' **avis** doit affecter un numéro de connexion à l'enregistrement des notifications et appeler **AddRef** sur ce numéro de connexion avant de le renvoyer dans le paramètre _lpulConnection_ . Les fournisseurs de services peuvent libérer l'objet récepteur de notification avant l'annulation de l'inscription, mais ils ne doivent pas libérer **** le numéro de connexion tant qu'Unadvise n'a pas été appelé. 
   
-Après qu’un appel à **Advise** a réussi et avant **Unadvise** a été appelée, les fournisseurs doivent être préparés pour l’objet de récepteur advise doit être publié. Par conséquent, un fournisseur doit libérer son objet de récepteur advise après **Advise** renvoie, à moins qu’une utilisation à long terme spécifique pour qu’il. 
+Une fois qu'un **** appel à Advise a réussi et avant que Unadvise ait été appelé, les fournisseurs doivent être préparés pour que l'objet de récepteur de notifications soit publié. **** Par conséquent, un fournisseur doit libérer son objet de récepteur **** de notification une fois qu'il a été renvoyé, sauf s'il a une utilisation longue durée spécifique pour lui. 
   
-Pour plus d’informations sur le processus de notification, reportez-vous à la section [Notification d’événement MAPI](event-notification-in-mapi.md). 
+Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

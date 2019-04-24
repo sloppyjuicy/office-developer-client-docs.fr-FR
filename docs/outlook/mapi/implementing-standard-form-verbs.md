@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 46585859e1dde4ecf38262f99cac5e3a9d29e5db
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6360b86dc23a5404b818f76cb1c2cd10747ef3cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317443"
 ---
 # <a name="implementing-standard-form-verbs"></a>Implémentation de verbes de formulaire standard
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI définit un ensemble de verbes standard ou les actions effectuées lorsqu’un utilisateur effectue une sélection de menu ou clique sur un bouton, toutes les visionneuses de formulaire doivent prendre en charge. Chaque verbe possède une constante associée à l’identification, définie dans le EXCHFORM. Fichier d’en-tête H. Le tableau suivant répertorie les verbes formulaire standard et les constantes associées :
+MAPI définit un ensemble de verbes standard, ou actions effectuées lorsqu'un utilisateur effectue une sélection de menu ou clique sur un bouton, que tous les visiteurs de formulaire doivent prendre en charge. Chaque verbe a une constante associée à l'identification, définie dans le EXCHFORM. Fichier d'en-tête H. Le tableau suivant répertorie les verbes de formulaire standard et les constantes qui leur sont associées:
   
-|**Verbe**|**Valeur**|
+|**Verb**|**Valeur**|
 |:-----|:-----|
 |Ouvrir  <br/> |EXCHIVERB_OPEN  <br/> |
 |Répondre  <br/> |EXCHIVERB_REPLYTOSENDER  <br/> |
 |Répondre à tous  <br/> |EXCHIVERB_REPLYTOALL  <br/> |
 |Transférer  <br/> |EXCHIVERB_FORWARD  <br/> |
-|Imprimer  <br/> |EXCHIVERB_PRINT  <br/> |
-|Enregistrer en tant que  <br/> |EXCHIVERB_SAVEAS  <br/> |
+|Print  <br/> |EXCHIVERB_PRINT  <br/> |
+|Enregistrer sous  <br/> |EXCHIVERB_SAVEAS  <br/> |
 |Répondre dans le fichier  <br/> |EXCHIVERB_REPLYTOFOLDER  <br/> |
    
-Lorsqu’un utilisateur choisit un verbe, transmettez la constante dans un appel à la méthode du formulaire [IMAPIForm::DoVerb](imapiform-doverb.md) pour effectuer son action correspondante. 
+Lorsqu'un utilisateur choisit un verbe, transmettez sa constante dans un appel à la méthode [IMAPIForm du formulaire::D overb](imapiform-doverb.md) pour effectuer l'action correspondante. 
   
-En plus de l’accès à des verbes via votre visionneuse de formulaire, les utilisateurs peuvent accéder parfois verbes directement à partir du formulaire. Par exemple, certains objets formulaire autorise l’utilisateur à appeler le verbe **Imprimer** en avec le bouton droit sur le formulaire et en choisissant **Imprimer** dans un menu contextuel. 
+Outre l'accès à des verbes via la visionneuse de formulaire, les utilisateurs peuvent parfois accéder à des verbes directement à partir du formulaire. Par exemple, certains objets Form permettent à l'utilisateur d'appeler le verbe **Print** en cliquant avec le bouton droit sur le formulaire et en sélectionnant **Print** à partir d'un menu contextuel. 
   
 

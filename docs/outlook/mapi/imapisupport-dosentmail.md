@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 82490dbe597ebd3f7198aa7e0c904a10202ecd77
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8289b8dd2e0ab3c760e77a37b821d2fe74e4abe9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315968"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -44,7 +44,7 @@ HRESULT DoSentMail(
   
 > [in] Pointeur vers le message ouvert pour lequel un message doit �tre g�n�r� dans le dossier d�sign� pour contenir les �l�ments envoy�s.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
@@ -56,7 +56,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** effectue les t�ches suivantes : 
   
-- Vérifie le message de la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) déterminer si le message doit être supprimé après son envoi.
+- Vérifie le message pour la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) afin de déterminer si le message doit être supprimé après l'envoi.
     
 - D�termine l'emplacement du dossier �l�ments envoy�s.
     

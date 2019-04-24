@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7c414f9c-a7f2-3404-326e-acd4026c7684
 description: Contient les cellules qui contrôlent la manière dont la page de dessin est mise en forme (apparence) sur la page d'impression.
-ms.openlocfilehash: 37ef70e27d20f9ad9856f51a8cf3b83aeb58ae5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0ec5eabf3f9d03f704e2a9ea03099eba1e09afd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789366"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315210"
 ---
 # <a name="print-properties-section"></a>Print Properties, section
 
@@ -22,8 +22,8 @@ Contient les cellules qui contrôlent la manière dont la page de dessin est mis
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez la section **Print Properties** pour contrôler l’impression au niveau de la page. Ces paramètres sont par page et sont indépendants des paramètres de page de dessin, par exemple, une page de dessin que disposée en orientation paysage peut être imprimée en orientation portrait. En outre, les documents peuvent être imprimés à l’aide d’une combinaison d’orientations. 
+Utilisez la section **propriétés d'impression** pour contrôler l'impression au niveau de la page. Ces paramètres s'appliquent par page et sont indépendants des paramètres de la page de dessin, par exemple, une page de dessin disposée en orientation paysage peut être imprimée en orientation portrait. Les documents peuvent également être imprimés en utilisant une combinaison d'orientations. 
   
-Les paramètres de la section **Print Properties** correspondent aux valeurs définies dans l’onglet **Configuration de l’impression** dans la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur le Lanceur de boîte de dialogue dans le groupe **Mise en Page** ). Voir la section **Propriétés de la Page** des paramètres qui s’appliquent à la page de dessin. 
+Les paramètres de la **section Propriétés d'impression** correspondent aux valeurs définies sous l'onglet Configuration de l' **impression** de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur le lanceur de boîte de dialogue dans le groupe **mise en page** ). Voir la section Propriétés de la **page** pour les paramètres qui s'appliquent à la page de dessin. 
   
 

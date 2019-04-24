@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e22244a2-ac5f-910a-501f-4483ea0667c2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5a0632ffd892c08fdf19de2c9b34607c27534f19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: b9086383b45d40d5839284ac785d72438be60e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317191"
 ---
 # <a name="iostxinitsync"></a>IOSTX::InitSync
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594039"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informe la banque de messages local que la synchronisation est prêt à démarrer.
+Informe la Banque de messages locale que la synchronisation est sur le début.
   
 ```cpp
 HRESULT InitSync( 
@@ -33,11 +33,11 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque état de l’ordinateur d’état de réplication pour déterminer les informations qu’il doit fournir pour le client. Par exemple, si le client transmet **SYNC_ONLY_ASSOCIATED**, Outlook renvoie uniquement les informations relatives aux éléments associés (ou masqués). 
+> dans Indicateurs permettant de déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque État de la machine à États de réplication pour déterminer les informations qu'il doit fournir pour le client. Par exemple, si le client transmet **SYNC_ONLY_ASSOCIATED**, Outlook renverra uniquement les informations relatives aux éléments associés (ou masqués). 
     
 ## <a name="see-also"></a>Voir aussi
 

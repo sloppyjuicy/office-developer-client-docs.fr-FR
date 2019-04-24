@@ -1,24 +1,24 @@
 ---
-title: Constantes (couche de dégradation de données API)
+title: Constantes (API de la couche de dégradation des données)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 541dfe13-0f85-bac6-b302-fc044a75631e
-description: Cette rubrique contient des définitions de constantes de l’API de couche données dégradation.
-ms.openlocfilehash: aaeac8804be96ece41f9d80a6355c51f3b58b1f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique contient des définitions de constantes pour l'API de la couche de déGradation des données.
+ms.openlocfilehash: c2ad2fa7eba374fb7878609943ab63e684d1702c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19782570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319011"
 ---
-# <a name="constants-data-degradation-layer-api"></a>Constantes (couche de dégradation de données API)
+# <a name="constants-data-degradation-layer-api"></a>Constantes (API de la couche de dégradation des données)
 
-Cette rubrique contient des définitions de constantes de l’API de couche données dégradation.
+Cette rubrique contient des définitions de constantes pour l'API de la couche de déGradation des données.
   
-## <a name="constants"></a>Constants
+## <a name="constants"></a>Constantes
 
 |**Constante**|**Définition**|
 |:-----|:-----|

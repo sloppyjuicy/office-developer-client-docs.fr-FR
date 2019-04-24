@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d4dc72309ff090317b2353cab0b4fc2c5be41181
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318213"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indicateurs de message MAPI sont mappés aux indicateurs TNEF pour conserver la compatibilité descendante. Tous les indicateurs sont groupées et codés à un octet. Les mappages sont les suivantes :
+Les indicateurs de message MAPI sont mappés aux indicateurs TNEF pour conserver la compatibilité descendante. Tous les indicateurs sont regroupés et codés en un seul octet. Les mappages sont les suivants:
   
 |**Indicateurs de message MAPI**|**Indicateurs TNEF**|
 |:-----|:-----|
@@ -31,6 +31,6 @@ Indicateurs de message MAPI sont mappés aux indicateurs TNEF pour conserver la 
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Ces indicateurs sont définis dans le format TNEF. Fichier d’en-tête H.
+Ces indicateurs sont définis dans le format TNEF. Fichier d'en-tête H.
   
 

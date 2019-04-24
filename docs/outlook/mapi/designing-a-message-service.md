@@ -1,5 +1,5 @@
 ---
-title: Conception d’un service de message
+title: Conception d’un service de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,37 +7,37 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b572ebcec0a33d2134f4cf19b88e3132cbd47117
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 19a8a939685c440901f3f57d72baf673a579e590
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316722"
 ---
-# <a name="designing-a-message-service"></a>Conception d’un service de message
+# <a name="designing-a-message-service"></a>Conception d’un service de messagerie
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de commencer à écrire du code pour prendre en charge votre service de message, il est important de créer une conception. Résoudre les problèmes dans votre processus de conception suivants :
+Avant de commencer à écrire du code pour prendre en charge votre service de messagerie, il est important de créer une conception. Résolvez les problèmes suivants dans votre processus de conception:
   
-1. Déterminer le nombre de fournisseurs de services doivent être inclus dans le service de message. Inclure uniquement les fournisseurs de service associées (autrement dit, les fournisseurs qui fonctionnent avec le même système de messagerie) dans votre service. Fournisseurs de services indépendant n’appartiennent pas dans le même service de message. Utiliser le profil pour l’intégration de fournisseurs de services indépendants et les services de messagerie.
+1. Déterminez le nombre de fournisseurs de services à inclure dans le service de messagerie. Incluez uniquement les fournisseurs de services associés (c'est-à-dire, les fournisseurs qui fonctionnent avec le même système de messagerie) dans votre service. Les fournisseurs de services non liés n'appartiennent pas au même service de messagerie. Utiliser le profil pour intégrer des services de messagerie et des fournisseurs de services non liés.
     
-2. Déterminer le type de fournisseurs de services doit être inclus dans le service de message. La plupart des services volante inclut un fournisseur de chacun des types courants. Autrement dit, le service de message par défaut a fournisseur de carnet d’adresses d’un fournisseur de magasins d’un message et fournisseur de transport d’un seul.
+2. Déterminez le type de fournisseurs de services à inclure dans le service de messagerie. La plupart des services messge incluent un fournisseur de chacun des types courants. Autrement dit, le service de messagerie type dispose d'un fournisseur de carnet d'adresses, d'un fournisseur de banque de messages et d'un fournisseur de transport.
     
-3. Déterminer le nombre de DLL doit contenir le service de message. Le nombre de DLL qui utilise un service de message dépend des éléments suivants :
+3. Déterminez le nombre de dll qui doivent contenir le service de messagerie. Le nombre de dll qu'un service de messagerie utilise dépend des éléments suivants:
     
-   - Degré de complexité en tant que l’auteur du message du service de message sont prêts à gérer.
+   - Le degré de complexité que vous êtes prêt à prendre en charge par le service de messagerie.
     
-   - Le type de fournisseurs de services dans le service de message.
+   - Le type de fournisseurs de services dans le service de messagerie.
     
-   - La relation dont le service de message avec un autre service de message.
+   - Relation que le service de messagerie peut avoir avec un autre service de messagerie.
     
-   Étant donné que MAPI stocke le point d’une seule entrée pour chaque type de fournisseur, n’incluez pas plusieurs fournisseurs du même type dans une DLL unique. S’il convient d’inclure plusieurs fournisseurs d’un type, les implémenter dans des DLL distinctes ou demandez-leur de partager une fonction de point d’entrée. Une autre option consiste à implémenter des services de messagerie connexes ou message les services qui sont en mesure d’utiliser la même installation et le code de configuration et la même DLL point d’entrée fonction dans une DLL.
+   Étant donné que MAPI ne stocke qu'un seul point d'entrée pour chaque type de fournisseur, n'incluez pas plusieurs fournisseurs du même type dans une seule DLL. S'il est logique d'inclure plusieurs fournisseurs d'un même type, vous devez les implémenter dans des dll distinctes ou les faire partager une fonction de point d'entrée. Une autre option consiste à implémenter des services de message associés ou des services de messagerie qui peuvent utiliser les mêmes code d'installation et de configuration et la même fonction de point d'entrée de DLL dans une DLL.
     
-   Si possible, la simplicité et utiliser une DLL qui contient l’implémentation de tous les fournisseurs de service dans le service de message et tout le code pour installer et configurer le service de message. Si ce n’est pas possible, vous pouvez implémenter une DLL de code de l’installation et la configuration et une DLL unique pour tous les fournisseurs de services ou une DLL pour chaque fournisseur.
+   Si possible, simplifiez-la et utilisez une DLL qui contient l'implémentation de tous les fournisseurs de services dans le service de messagerie et tout le code pour installer et configurer le service de messagerie. Si cela n'est pas possible, vous pouvez implémenter une DLL pour le code d'installation et de configuration et une DLL unique pour tous les fournisseurs de services ou une DLL pour chaque fournisseur.
     
-4. Déterminer un nom pour le service de message DLL ou la DLL. 
+4. Déterminez un nom pour la DLL ou les dll du service de messagerie. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,22 +1,22 @@
 ---
-title: Analyser un flux de données à partir d’une propriété binaire à lire la structure TZDEFINITION
+title: Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
-description: Cette rubrique montre comment lire la structure TZDEFINITION dans le format persistant, stocké dans une propriété binaire.
-ms.openlocfilehash: 1fdd4016d26c95cdbff80e88e34bdfac5aa91f06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette rubrique montre comment lire la structure TZDEFINITION à partir du format persistant stocké dans une propriété binaire.
+ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317646"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Analyser un flux de données à partir d’une propriété binaire à lire la structure TZDEFINITION
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION
 
-Cette rubrique montre comment lire la structure [TZDEFINITION](tzdefinition.md) dans le format persistant, stocké dans une propriété binaire. 
+Cette rubrique montre comment lire la structure [TZDEFINITION](tzdefinition.md) à partir du format persistant stocké dans une propriété binaire. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

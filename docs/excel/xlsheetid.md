@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- fonction xlsheetid [excel 2007]
+- fonction xlSheetId [Excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: e4e184d4e456ffe26292fe31b1b41463834216f9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a2ca1bb478c5c985ad7032e30ed0cfe3aef31406
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782235"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310303"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Recherche de l’ID de feuille d’une feuille nommée afin de construire des références externes.
+Recherche l'ID de feuille d'une feuille nommée afin de construire des références externes.
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
@@ -32,18 +32,18 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 _pxSheetName_ (**xltypeStr**)
   
-(Facultatif). Le nom de l’annuaire et de la feuille que vous souhaitez découvrir. Si tous deux omis, la fonction **xlSheetId** renvoie l’ID de feuille de la feuille active (avant). 
+(Facultatif). Nom du livre et de la feuille à rechercher. Si cet argument est omis, la fonction **xlSheetId** renvoie l'ID de feuille de la feuille (avant) active. 
   
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie l’ID de feuille de _pxRes -\>val.mref.idSheet_. 
+Renvoie l'ID de la feuille dans _pxRes-\>Val. mref. idSheet_. 
   
 > [!NOTE]
-> La _pxRes -\>val.mref.lpmref_ pointeur de tableau a la valeur NULL après cet appel afin qu’il n’est pas nécessaire d’appeler **xlFree** pour libérer de la mémoire contenant ce type normalement, bien qu’il soit entièrement fiable à le faire. 
+> Le pointeur de tableau _pxRes-\>Val. mref. lpmref_ est défini sur null après cet appel de sorte qu'il n'est pas nécessaire d'appeler **xlFree** pour libérer la mémoire que ce type contient normalement, bien qu'il soit entièrement sûr de le faire. 
   
 ## <a name="remarks"></a>Remarques
 
-Le classeur contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n’existe aucun moyen pour construire une référence à un classeur non ouvert à partir d’une DLL. Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire les références, voir [Gestion de la mémoire dans Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef** . 
+Le classeur contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n'existe aucun moyen de créer une référence à un classeur non ouvert à partir d'une DLL. Pour plus d'informations sur l'utilisation de **xlSheetId** pour construire des références, consultez la rubrique gestion de la [mémoire dans Excel](memory-management-in-excel.md) pour obtenir des exemples de construction de **xltypeRef** . 
   
 ## <a name="example"></a>Exemple
 
@@ -65,5 +65,5 @@ short WINAPI xlSheetIdExample(void)
 ## <a name="see-also"></a>Voir aussi
 
 - [xlSheetNm](xlsheetnm.md)
-- [Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

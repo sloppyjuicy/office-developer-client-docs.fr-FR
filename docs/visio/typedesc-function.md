@@ -8,23 +8,23 @@ f1_keywords:
 - Vis_DSS.chm82251572
 localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
-description: Renvoie une chaîne décrivant le type d’un objet interne.
-ms.openlocfilehash: ee00341042e0d36e5f9cd9fde42622f904f4c3ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une chaîne qui décrit le type interne d'un objet.
+ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316414"
 ---
-# <a name="typedesc-function"></a>TYPEDESC, fonction
+# <a name="typedesc-function"></a>Fonction TYPEDESC
 
-Renvoie une chaîne décrivant le type d’un objet interne. 
+Renvoie une chaîne qui décrit le type interne d'un objet. 
   
 ## <a name="syntax"></a>Syntaxe
 
 TYPEDESC ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

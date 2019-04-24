@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 681fd68fc068633912df1cb7f060b8c4111b5de8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 303c2ef855d5cfc1d6614bda92b46c2da97717c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317352"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566536"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table de dossier de réception, une table qui consacrée des informations sur tous les dossiers de réception de la banque de messages.
+Fournit l'accès à la table de dossiers de réception, un tableau qui contient des informations sur tous les dossiers de réception pour la Banque de messages.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -33,43 +33,43 @@ HRESULT GetReceiveFolderTable(
   LPMAPITABLE FAR * lppTable );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs que les contrôles de table access. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle l'accès aux tableaux. Les indicateurs suivants peuvent être définis:
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet de **GetReceiveFolderTable** renvoyer avec succès, éventuellement avant le tableau est entièrement disponible à l’appelant. Si le tableau n’est pas disponible, un appel de la table suivante peut déclencher une erreur. 
+> Permet à **GetReceiveFolderTable** de renvoyer correctement, éventuellement avant que la table soit entièrement disponible pour l'appelant. Si la table n'est pas entièrement disponible, un appel de tableau ultérieur peut déclencher une erreur. 
     
 MAPI_UNICODE 
   
-> Les chaînes retournées sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers le tableau de dossier de réception.
+> remarquer Pointeur vers un pointeur vers le tableau de dossiers de réception.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau de dossier de réception a été renvoyé avec succès.
+> La table de dossiers de réception a été renvoyée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore::GetReceiveFolderTable** permet d’accéder à un tableau qui affiche que les paramètres de propriété pour tous les messages recevoir des dossiers. 
+La méthode **IMsgStore:: GetReceiveFolderTable** fournit l'accès à un tableau qui présente les paramètres de propriété de tous les dossiers de réception de la Banque de messages. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Pour une liste de colonnes dans une table de dossier de réception, voir [S’afficher les Tables de dossier](receive-folder-tables.md). 
+Pour obtenir la liste des colonnes requises dans une table de dossiers de réception, consultez la rubrique [Receive Folder tables](receive-folder-tables.md). 
   
-Mettre en œuvre votre recevoir des tables de dossier pour prendre en charge des restrictions de propriété de paramètre de la propriété **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Cette permet d’accéder facilement aux notamment recevoir des dossiers.
+Implémentez vos tables de dossiers de réception pour prendre en charge la définition de restrictions de propriété sur la propriété **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Cela permet d'accéder facilement à des dossiers de réception spécifiques.
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes retournées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable:: QueryColumns](imapitable-querycolumns.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l'ordre de tri retourné par la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI utilise la méthode **IMsgStore::GetReceiveFolderTable** pour obtenir la table de dossier de réception à afficher.  <br/> |
+|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnDisplayReceiveFolderTable  <br/> |MFCMAPI utilise la méthode **IMsgStore:: GetReceiveFolderTable** pour obtenir la table de dossiers de réception à afficher.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

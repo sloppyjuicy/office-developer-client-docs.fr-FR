@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8aabcec6-f735-41fe-a5f4-61d4635b2c58
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cf4fe916d93d330b43c0acd76be2db44687a4da7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 52d4bdbd7dbd44f2957b3efc20cba393dc0eb2f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316358"
 ---
 # <a name="pidtagexplicitconversion-canonical-property"></a>Propriété canonique PidTagExplicitConversion
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique qu’un expéditeur du message a demandé une conversion de contenu du message pour un destinataire particulier.
+Indique qu'un expéditeur de message a demandé une conversion de contenu de message pour un destinataire particulier.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Indique qu’un expéditeur du message a demandé une conversion de contenu du m
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Développement d’un fournisseur de magasin de message MAPI
+title: Développement d’un fournisseur de banques de messages MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,37 +7,37 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 36233d51f47c53d6a69494c0fcd799a7c83add29
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 76332b57b2957b5682efb415121ea6db42409c30
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316758"
 ---
-# <a name="developing-a-mapi-message-store-provider"></a>Développement d’un fournisseur de magasin de message MAPI
+# <a name="developing-a-mapi-message-store-provider"></a>Développement d’un fournisseur de banques de messages MAPI
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Comme les autres fournisseurs de services MAPI, les banques de messages sont des bibliothèques de liens dynamiques (DLL) qui présentent les services d’un mécanisme de stockage sous-jacent pour les applications clientes MAPI et le spouleur MAPI. Le fournisseur de banque de message présente le mécanisme de stockage sous-jacent comme un ensemble hiérarchique de dossiers et messages utilisable par les clients MAPI et le spouleur MAPI.
+Comme les autres fournisseurs de services MAPI, les banques de messages sont des bibliothèques de liens dynamiques (dll) qui présentent les services d'un mécanisme de stockage sous-jacent aux applications clientes MAPI et au spouleur MAPI. Le fournisseur de banque de messages présente le mécanisme de stockage sous la forme d'un ensemble hiérarchique de dossiers et de messages que les clients MAPI et le spouleur MAPI peuvent utiliser.
   
-L’illustration suivante montre l’architecture de banque de message MAPI base.
+L'illustration suivante montre l'architecture de base des messages MAPI de base.
   
 **Architecture de banque de messages**
   
-![Architecture de banque de messages] (media/storearc.gif "Architecture de banque de messages")
+![Architecture] de la Banque de messages (media/storearc.gif "Architecture") de la Banque de messages
   
-Vous pouvez implémenter un fournisseur de banque de messages à l’aide de n’importe quel type de mécanisme de stockage sous-jacent que. Toutefois, vous devez être conscient des problèmes de performances. En outre, le mécanisme de stockage sous-jacent doit être présenté comme un ensemble hiérarchique d’objets MAPI. Ces exigences signifient que les banques de messages sont généralement implémentés à l’aide d’un produit de base de données existant qui prend en charge le stockage hiérarchique d’objets dans la base de données et qui a une interface de programmation ou une structure de fichier bien définie. Par exemple, les bases de données Microsoft Office Access, SQL et Oracle peuvent servir le mécanisme de stockage sous-jacent. Certains produits de base de données ont des jeux de fonctionnalités qui facilitent la mettre en œuvre des fonctionnalités MAPI, votre choix de la base de données peut-être être affectée par les fonctionnalités de votre fournisseur de magasin de message doit prendre en charge.
+Vous pouvez implémenter un fournisseur de banque de messages à l'aide de n'importe quel type de mécanisme de stockage sous-jacent de votre choix. Toutefois, vous devez tenir compte des problèmes de performances. En outre, le mécanisme de stockage sous-jacent doit être présenté sous la forme d'une collection hiérarchique d'objets MAPI. Ces exigences signifient que les banques de messages sont généralement implémentées à l'aide d'un produit de base de données existant qui prend en charge le stockage hiérarchique des objets dans la base de données et qui possède une interface de programmation ou une structure de fichiers bien définie. Par exemple, les bases de données Microsoft Office Access, SQL et Oracle peuvent être utilisées comme mécanisme de stockage sous-jacent. Certains produits de base de données disposent de jeux de fonctionnalités qui facilitent l'implémentation des fonctionnalités MAPI, de sorte que votre choix de produit de base de données peut être affecté par les fonctionnalités que votre fournisseur de banque de messages doit prendre en charge.
   
-À l’aide d’une base de données en tant que l’enregistre de mécanisme de stockage sous-jacent que vous travaillez, car il est généralement plus facile de présenter les objets de base de données aux clients MAPI en tant qu’objets MAPI que d’implémenter votre propre mécanisme de stockage hiérarchique. Cela vous permet de traiter des opérations MAPI à un niveau supérieur si vous implémentez votre propre mécanisme de stockage hiérarchique. Par exemple, recherche d’un message avec une ligne de sujet particulier est assez simple de construction et soumettre une requête de base de données appropriée, plutôt que l’implémentation de routines complexes pour rechercher votre mécanisme de stockage hiérarchique.
+L'utilisation d'une base de données existante comme mécanisme de stockage sous-jacent vous permet d'économiser du travail, car il est généralement plus facile de présenter des objets de base de données à des clients MAPI que d'implémenter votre propre mécanisme de stockage hiérarchique. Cette opération vous permet de traiter les opérations MAPI à un niveau plus élevé que si vous implémentez votre propre mécanisme de stockage hiérarchique. Par exemple, la recherche d'un message avec une ligne d'objet particulière devient une question assez simple de création et d'envoi d'une requête de base de données appropriée, plutôt que d'implémenter des routines complexes pour effectuer une recherche dans votre mécanisme de stockage hiérarchique.
   
-Fournisseurs de magasins message communiquent avec les clients MAPI et le spouleur MAPI pour effectuer des opérations sur les dossiers et les objets. Le fournisseur de banque de messages traduit ces opérations en opérations de bas niveau sur le mécanisme de stockage sous-jacent. Le spouleur MAPI généralement communique avec le fournisseur de banque de message lors de l’envoi et réception de messages. En règle générale, les clients MAPI communiquent avec des fournisseurs de banque de messages pour manipuler la hiérarchie de dossiers et pour lire, modifier, supprimer et envoyer des messages.
+Les fournisseurs de banques de messages communiquent avec les clients MAPI et le spouleur MAPI pour effectuer des opérations sur des dossiers et des objets. Le fournisseur de banque de messages traduit ces opérations en opérations de niveau inférieur sur le mécanisme de stockage sous-jacent. Le spouleur MAPI communique généralement avec le fournisseur de banque de messages lors de l'envoi et de la réception des messages. Les clients MAPI communiquent généralement avec des fournisseurs de banques de messages pour manipuler la hiérarchie de dossiers et pour lire, modifier, supprimer et envoyer des messages.
   
-Le spouleur MAPI et clients MAPI communiquent avec le fournisseur de banque de messages pour créer de nouveaux messages. Applications clientes cela lorsque l’utilisateur compose un message. Le spouleur MAPI cela lorsqu’il reçoit un message entrant. Dans les deux cas, le nouveau message est généralement créé dans le dossier boîte de réception de la banque de messages, le cas échéant.
+Le spouleur MAPI et les clients MAPI communiquent avec le fournisseur de banque de messages pour créer de nouveaux messages. Les applications clientes effectuent cette opération lorsque les utilisateurs composent un message. Le spouleur MAPI effectue cette opération lorsqu'il reçoit un message entrant. Dans les deux cas, le nouveau message est généralement créé dans le dossier boîte de réception de la Banque de messages, s'il en existe un.
   
-Fournisseurs de banque de message utilisent beaucoup de tables, les dossiers, les messages et les propriétés MAPI. Les détails d’implémentation de ces objets sont documentées dans les [Tableaux MAPI](mapi-tables.md), [Dossiers MAPI](mapi-folders.md), [Messages MAPI](mapi-messages.md)et [Vue d’ensemble de la propriété MAPI](mapi-property-overview.md). Vous devez vous familiariser avec cette documentation avant d’essayer d’implémenter un fournisseur de magasin de message.
+Les fournisseurs de banques de messages utilisent intensivement les tables, les dossiers, les messages et les propriétés MAPI. Les détails de l'implémentation de ces objets sont documentés dans les [tableaux MAPI](mapi-tables.md), les [dossiers MAPI](mapi-folders.md), [les messages MAPI](mapi-messages.md)et la [vue d'ensemble des propriétés MAPI](mapi-property-overview.md). Vous devez vous familiariser avec cette documentation avant de tenter d'implémenter un fournisseur de banque de messages.
   
-Il existe deux types d’importantes de fournisseurs de magasins de message : ceux qui peut agir comme valeur par défaut d’un utilisateur de message store et ceux qui ne peuvent pas. Une banque de messages par défaut est 1 dans laquelle les applications et le spouleur MAPI peuvent effectuer toute tâche de messagerie, tels que la réception de messages ou en créant des dossiers. Un fournisseur de magasins de message par défaut doit prendre en charge plusieurs fonctionnalités plus que le nombre minimal requis pour tous les fournisseurs de banque de messages.
+Il existe deux types importants de fournisseurs de banques de messages: ceux qui peuvent agir comme banque de messages par défaut d'un utilisateur et ceux qui ne le sont pas. Une banque de messages par défaut est une banque dans laquelle les applications clientes et le spouleur MAPI peuvent effectuer n'importe quelle tâche de messagerie, telle que la réception de messages ou la création de dossiers. Un fournisseur de banque de messages par défaut doit prendre en charge plusieurs fonctionnalités supplémentaires par rapport au nombre minimal requis pour tous les fournisseurs de banques de messages.
   
 ## <a name="see-also"></a>Voir aussi
 

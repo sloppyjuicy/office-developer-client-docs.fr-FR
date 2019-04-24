@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: Dernière modification le 09 mars 2015
 ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318080"
 ---
 # <a name="autocomplete-stream"></a>Flux de saisie semi-automatique
 
@@ -85,7 +85,7 @@ De manière générale, la mise en page du flux de saisie semi-automatique est c
 |Ensemble de lignes  <br/> |Variable  <br/> |
 |Nombre d’octets des infos supplémentaires EI  <br/> |4  <br/> |
 |Informations supplémentaires  <br/> |EI   <br/> |
-|Métadonnées  <br/> |8  <br/> |
+|Métadonnées  <br/> |8bits  <br/> |
    
 Lors de la lecture de ce flux, si la version majeure n’est pas la 12, alors ce flux de données ne doit pas être lu ou écrit. La version mineure actuelle du flux de saisie semi-automatique est la 0, pour laquelle le nombre d’octets d’informations supplémentaire est égal à 0. Si la version mineure est différente de 0, il y aura alors des informations supplémentaires qui doivent être lues lors de la lecture du flux de données et conservées lors de la rédaction du flux d’informations. La version mineure doit également être conservée lors de la rédaction du flux de données. Si ces deux éléments ne sont pas conservés, les instances d’Outlook écrites par les informations supplémentaires perdent des données. 
   
@@ -158,7 +158,7 @@ PT_CLSID
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Les octets seront interprétés comme un GUID  <br/> |16  <br/> |
+|Les octets seront interprétés comme un GUID  <br/> |Seiz  <br/> |
 |||
    
 PT_BINARY 

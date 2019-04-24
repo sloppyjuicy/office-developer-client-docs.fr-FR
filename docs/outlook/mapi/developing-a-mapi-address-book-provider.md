@@ -1,5 +1,5 @@
 ---
-title: Développement d’un fournisseur de carnet d’adresses MAPI
+title: Développement d'un fournisseur de carnets d'adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,34 +7,34 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 731ebf6f61db8e9f425d48ab63cb7b81035a41c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 1db3ce53a1da60d946e52a03369c10547676277f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316701"
 ---
-# <a name="developing-a-mapi-address-book-provider"></a>Développement d’un fournisseur de carnet d’adresses MAPI
+# <a name="developing-a-mapi-address-book-provider"></a>Développement d'un fournisseur de carnets d'adresses MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fournisseur de carnet d’adresses fournit des informations de destinataires pour les applications clientes, à la banque de messages et fournisseurs, de transport et MAPI. Informations sur le destinataires sont organisées hiérarchiquement en compartiments de stockage appelés conteneurs. Chaque carnet d’adresses dans le profil contribue à un ou plus niveau supérieur, ou parent, conteneurs MAPI carnet d’adresses, un affichage intégré d’informations sur le destinataires à partir de toutes les adresses du livre fournisseurs dans une session. Il est par le biais du carnet d’adresses MAPI que les clients et autres fournisseurs de services accéder aux données d’un fournisseur de carnet d’adresses.
+Un fournisseur de carnet d'adresses fournit des informations de destinataire aux applications clientes, aux fournisseurs de banques de messages et de transport, ainsi qu'aux MAPI. Les informations sur les destinataires sont organisées de manière hiérarchique en compartiments de stockage connus sous le nom de conteneurs. Chaque carnet d'adresses du profil fournit un ou plusieurs conteneurs de niveau supérieur ou parent au carnet d'adresses MAPI, une vue intégrée des informations sur les destinataires de tous les fournisseurs de carnet d'adresses dans une session. Le carnet d'adresses MAPI permet aux clients et aux autres fournisseurs de services d'accéder aux données d'un fournisseur de carnets d'adresses.
   
-MAPI génère le carnet d’adresses intégré par :
+MAPI crée le carnet d'adresses intégré en:
   
-1. Récupérer les conteneurs de niveau supérieur à partir de chaque fournisseur de carnet d’adresses.
+1. Récupération des conteneurs de niveau supérieur de chaque fournisseur de carnet d'adresses.
     
-2. Extraction de table de hiérarchie de chaque conteneur. 
+2. Extraction de la table de hiérarchie de chaque conteneur. 
     
-3. Copie de chaque table de hiérarchie dans une table de hiérarchie intégré. Il est la table de hiérarchie intégré qui est exposée au client. 
+3. Copie de chaque tableau de hiérarchie dans un tableau de hiérarchie intégré. Il s'agit de la table de hiérarchie intégrée qui est exposée au client. 
     
-MAPI impose certains éléments requis sur les auteurs de fournisseur adresse téléchargeable. La gamme de fonctionnalités possibles que vous pouvez implémenter un enregistreur de carnet d’adresse est variés et flexibles. Par exemple, votre fournisseur peut être limité à fournir une vue en lecture seule d’un type particulier d’informations sur le destinataires ou implémenter un ensemble complet de fonctionnalités, permettant ainsi peut-être des clients ou fournisseurs de faire des ajouts ou modifications aux données destinataires et d’imposer les critères de recherche pour définir des vues personnalisées. 
+MAPI impose quelques exigences sur les auteurs de fournisseurs de carnets d'adresses. La gamme de fonctionnalités possibles que vous pouvez implémenter en tant qu'enregistreur de carnet d'adresses est variable et flexible. Par exemple, votre fournisseur peut être limité à fournir une vue en lecture seule d'un type particulier d'informations de destinataire ou à implémenter un ensemble complet de fonctionnalités, éventuellement permettant aux clients ou aux fournisseurs d'apporter des ajouts ou des modifications aux données du destinataire et d'imposer critères de recherche pour la définition des affichages personnalisés. 
   
-Les données de votre fournisseur peuvent résider localement dans un fichier de base de données ou sur un serveur distant. Certains fournisseurs de carnet d’adresses sont conçus pour fonctionner avec un système de messagerie particulier, fortement couplé à un fournisseur de transport, tandis que d’autres personnes peuvent fonctionner avec tout système de messagerie.
+Les données de votre fournisseur peuvent résider localement dans un fichier ou une base de données ou sur un serveur distant. Certains fournisseurs de carnets d'adresses sont conçus pour fonctionner avec un système de messagerie particulier, étroitement couplé à un fournisseur de transport, tandis que d'autres peuvent fonctionner avec n'importe quel système de messagerie.
   
-MAPI définit un type particulier de fournisseur de carnet d’adresses appelée un carnet d’adresses personnel ou le carnet d’adresses personnel, qui implémente un seul conteneur modifiable et peut contenir des informations sur les destinataires copiées à partir d’autres conteneurs, ainsi que les informations créées directement. Bien que n’importe quel fournisseur de carnet d’adresses peut mettre en œuvre un carnet d’adresses personnel et plusieurs carnets d’adresses personnels peuvent être ajoutés à un profil, un seul de ces fournisseurs peut être désigné pour fonctionner en tant que le carnet d’adresses personnel pendant toute une session. 
+MAPI définit un type spécial de fournisseur de carnet d'adresses appelé carnet d'adresses personnel, ou PAB, qui implémente un seul conteneur modifiable et peut contenir des informations de destinataire copiées à partir d'autres conteneurs, ainsi que des informations créées directement. Bien que tous les fournisseurs de carnets d'adresses puissent implémenter un PAB et que plusieurs carnets d'adresses PAB puissent être ajoutés à un profil, un seul de ces fournisseurs peut être désigné pour fonctionner comme PAB pendant une session. 
   
 

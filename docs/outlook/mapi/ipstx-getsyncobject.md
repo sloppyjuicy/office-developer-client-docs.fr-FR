@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e0e27d86098ec55849fa96cc150c60934ef2810b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 31ef1f5c6af498f042ab766ae90fcfbce805700a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315084"
 ---
 # <a name="ipstxgetsyncobject"></a>IPSTX::GetSyncObject
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Démarre une session de synchronisation et obtient l’interface **[IOSTX](iostxiunknown.md)** associé. 
+Démarre une session de synchronisation et obtient l'interface **[IOSTX](iostxiunknown.md)** associée. 
   
 ```cpp
 HRESULT GetSyncObject( 
@@ -37,11 +37,11 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  [out] Pointeur vers l’interface **IOSTX** à obtenir. 
+>  remarquer Pointeur vers l'interface **IOSTX** à obtenir. 
     
 ## <a name="remarks"></a>Remarques
 
-L’appelant doit s’assurer que le même dossier n’est pas synchronisé en même temps sur plusieurs threads.
+L'appelant doit s'assurer que le même dossier n'est pas synchronisé en même temps sur plusieurs threads.
   
 ## <a name="see-also"></a>Voir aussi
 

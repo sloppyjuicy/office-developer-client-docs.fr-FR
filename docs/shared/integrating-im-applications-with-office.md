@@ -7,11 +7,11 @@ ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 localization_priority: Priority
 ms.openlocfilehash: b3add86f011e016b1b6ea1a74f425f3f1deab002
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270114"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -661,7 +661,7 @@ L'interface **IAutomation** automatise les fonctionnalités de l'application cli
 Le tableau 4 indique les membres qui doivent être implémentés dans la classe qui hérite de **IAutomation**.
   
 > [!NOTE]
-> Tout membre de l’interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
 > 
 > Pour plus d'informations sur l'interface **IAutomation** et ses membres, consultez [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
@@ -698,7 +698,7 @@ L'interface **IContact** représente un utilisateur de l'application cliente de 
 Le tableau 5 indique les membres qui doivent être implémentés dans la classe qui hérite de **IContact**.
   
 > [!NOTE]
-> Tout membre de l’interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur l'interface **IContact** et ses membres, consultez [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
@@ -936,7 +936,7 @@ L'objet **IGroup** représente un ensemble de contacts avec des propriétés sup
 Le tableau 9 affiche les membres qui doivent être implémentés dans les classes qui héritent de **IGroup** et **IGroupCollection** dans le tableau suivant. 
   
 > [!NOTE]
-> Tout membre de l’interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l'interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur les interfaces **IGroup** et **IGroupCollection**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) et [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
@@ -958,7 +958,7 @@ L'interface **IContactSubscription** vous permet de spécifier des contacts dont
 Le tableau 10 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactSubscription**.
   
 > [!NOTE]
-> Tout membre de l’interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactSubscription** et ses membres, consultez [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
@@ -991,7 +991,7 @@ L'interface **IContactEndPoint** représente un numéro de téléphone à partir
 Le tableau 11 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactEndPoint**.
   
 > [!NOTE]
-> Tout membre de l’interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactEndPoint** et ses membres, consultez [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
@@ -1011,7 +1011,7 @@ L'interface **ILocaleString** est une structure de chaîne localisée contenant 
 Le tableau 12 affiche les membres qui doivent être implémentés dans les classes qui héritent de **ILocaleString**.
   
 > [!NOTE]
-> Tout membre de l’interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l'interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur**NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **ILocalString** et ses membres, voir [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   

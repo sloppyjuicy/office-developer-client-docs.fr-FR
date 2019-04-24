@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 57b8438d655b3bc5b708fd7ed6734554a3a23ac4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317268"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585989"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux messages magasin identificateurs d’entrée pour déterminer si elles font référence au même objet store.
+Compare deux identificateurs d'entrée de banque de messages pour déterminer s'ils font référence au même objet Store.
   
 ```cpp
 HRESULT CompareStoreIDs(
@@ -42,19 +42,19 @@ HRESULT CompareStoreIDs(
 
  _cbEntryID1_
   
-> [in] La taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpEntryID1_ _._
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ _._
     
  _lpEntryID1_
   
-> [in] Pointeur vers le premier identificateur d’entrée à comparer.
+> dans Pointeur vers le premier identificateur d'entrée à comparer.
     
  _cbEntryID2_
   
-> [in] La taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpEntryID2_ _._
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ _._
     
  _lpEntryID2_
   
-> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
+> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareStoreIDs(
     
  _lpulResult_
   
-> [out] Pointeur vers le résultat de la comparaison retourné. TRUE si les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
+> remarquer Pointeur vers le résultat renvoyé de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSProvider::CompareStoreIDs** lors du traitement d’un appel à la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** est appelée à ce stade pour déterminer quelle section du profil, le cas échéant, est associé à la banque de messages en cours d’ouverture. Un appel **CompareStoreIDs** peut être effectué lorsque aucune banque de messages n’est ouverts pour un fournisseur de magasin particulier. En outre, MAPI appelle également **CompareStoreIDs** lors du traitement d’un appel du fournisseur de magasin à la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) . 
+MAPI appelle la méthode **IMSProvider:: CompareStoreIDs** lorsqu'il traite un appel à la méthode [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** est appelé à ce stade pour déterminer quelle section de profil, le cas échéant, est associée à la Banque de messages en cours d'ouverture. Un appel **CompareStoreIDs** peut être effectué lorsqu'aucun magasin de messages n'est ouvert pour un fournisseur de banque particulier. De plus, MAPI appelle également **CompareStoreIDs** lorsqu'il traite un appel de fournisseur de banque à la méthode [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) . 
   
-Les identificateurs d’entrée par rapport à **CompareStoreIDs** sont à la fois en cours stockent la bibliothèque de liens dynamiques du fournisseur (DLL) et sont tous deux identificateurs d’entrée non magasin. Pour plus d’informations sur les identificateurs d’entrée de magasin d’habillage, voir [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
+Les identificateurs d'entrée comparés par **CompareStoreIDs** sont tous deux pour la bibliothèque de liens dynamiques (dll) du fournisseur de magasin actuel et sont tous deux des identificateurs d'entrée de magasin non enveloppés. Pour plus d'informations sur les identificateurs d'entrée de magasin de contenu, voir [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-Comparaison des identificateurs d’entrée est utile, car un objet peut avoir plusieurs identificateurs d’entrée valide. Par exemple, cela peut se produire après l’installation d’une nouvelle version d’un fournisseur de magasin de message. 
+La comparaison des identificateurs d'entrée est utile, car un objet peut avoir plusieurs identificateurs d'entrée valides. Cela peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de banque de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

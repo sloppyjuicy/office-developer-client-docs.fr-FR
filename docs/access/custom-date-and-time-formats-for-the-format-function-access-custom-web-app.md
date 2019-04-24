@@ -7,18 +7,18 @@ ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: Découvrez comment contrôler l’affichage d’une date ou d’une heure en créant une mise en forme personnalisée.
 localization_priority: Priority
 ms.openlocfilehash: 76ba7361be4f7902a3ee4a1a8d6e51211ad114bd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282207"
 ---
 # <a name="custom-date-and-time-formats-for-the-format-function-access-custom-web-app"></a>Formats de date et d’heure personnalisés pour la fonction Format (application web personnalisée Access)
 
 Découvrez comment contrôler l’affichage d’une date ou d’une heure en créant une mise en forme personnalisée.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="format-specifications"></a>Spécifications de format
 

@@ -6,25 +6,25 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
-description: Dans cette rubrique, cette période entre le ressort et la baisse est appelée pour la période d’heure d’été.
+description: Dans cette rubrique, cette période entre le printemps et le fléchissement est appelée période d'heure d'été.
 ms.openlocfilehash: 8d9a0ffda89ee9d8847cde59181747588a50e947
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316953"
 ---
 # <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>À propos du changement de base des calendriers par programme pour l’heure d’été
 
-De nombreux pays observer l’heure (heure d’été) en exécutant les horloges afin que l’heure d’été plu soirée. Cette opération est généralement effectuée en définissant l’horloge avance une heure au printemps et réglage de l’horloge d’une heure retour à l’automne. Dans cette rubrique, cette période entre le ressort et la baisse est appelée pour la période d’heure d’été. La plupart des pays ont leur propre réglementation pour lorsque l’heure d’été commence et se termine. Les dates de la période d’heure d’été peuvent modifier l’année à, et les utilisateurs doivent mettre à jour leur calendrier Microsoft Outlook chaque fois que les règles d’heure d’été modifient. 
+De nombreux pays respectent l'heure d'été en faisant avancer les horloges de manière à ce que les soirs bénéficient d'une date d'été plus longue. Cette opération est généralement réalisée en définissant l'horloge une heure à l'avant dans le ressort et en redéfinissant l'horloge une heure dans l'automne. Dans cette rubrique, cette période entre le printemps et le fléchissement est appelée période d'heure d'été. La plupart des pays ont leurs propres réglementations quant à la date de début et de fin de l'heure d'été. Les dates de la période d'heure d'été peuvent changer de l'année en années, et les utilisateurs doivent mettre à jour leur calendrier Microsoft Outlook chaque fois que les réglementations DST changent. 
   
-Si vous utilisez une version de Windows est Windows Vista ou version ultérieure, ou Windows mise à jour automatique est activée, vous ne pouvez pas être affectées par la modification de l’heure d’été. Dans le cas contraire, vous devez installer les mises à jour de l’heure d’été pour Windows. Si les mises à jour sont installés automatiquement à votre place par vous-même ou par un service informatique en tant qu’un utilisateur à domicile, indépendamment de certains rendez-vous existants qui se produisent pendant la période d’heure d’été peuvent afficher des heures incorrectes après l’installent des mises à jour de l’heure d’été pour Windows . Cela est vrai pour les rendez-vous périodiques et uniques. Vous devez mettre à jour ces rendez-vous afin de les afficher correctement dans Outlook, Outlook Web App et dans les applications qui sont basées sur les objets CDO (Collaboration Data). Mise à jour des rendez-vous incorrectement affichés sur les calendriers en raison de l’heure d’été est appelé redéfinir des calendriers.
+Si vous utilisez une version de Windows Vista ou version ultérieure, ou si la mise à jour automatique de Windows est activée, vous n'êtes peut-être pas affecté par la modification de l'heure d'été. Dans le cas contraire, vous devez installer les mises à jour de l'heure d'été pour Windows. Que les mises à jour soient installées automatiquement, en votre nom par un service informatique ou par vous-même en tant qu'utilisateur à domicile, certains rendez-vous existants pendant la période d'heure d'été peuvent afficher des temps incorrects après l'installation des mises à jour de l'heure d'été pour Windows. . Ceci est vrai pour les rendez-vous périodiques et uniques. Vous devez mettre à jour ces rendez-vous pour qu'ils s'affichent correctement dans Outlook Web App et dans les applications basées sur CDO (Collaboration Data Objects). La mise à jour des rendez-vous affichés de manière incorrecte sur des calendriers en raison de la relocalisation des calendriers.
   
-Outlook fournit des outils pour les utilisateurs et Exchange Server fournit des outils pour les administrateurs de calendriers rebase. Outlook fournit l’outil de mise à jour de données de fuseau horaire pour les utilisateurs d’Outlook. Avec cet outil, les utilisateurs peuvent mettre à jour leurs calendriers. Exchange Server fournit l’outil de mise à jour de calendrier Exchange qui permet aux administrateurs pour éviter les problèmes de déploiement de l’outil Outlook largement à tous les utilisateurs et pour vous assurer que chaque utilisateur exécute l’outil Outlook correctement.
+Outlook fournit des outils pour les utilisateurs et Exchange Server fournit aux administrateurs des outils permettant de rebaser les calendriers. Outlook fournit l'outil de mise à jour des données de fuseau horaire pour les utilisateurs d'Outlook. Grâce à cet outil, les utilisateurs peuvent mettre à jour leurs propres calendriers. Exchange Server fournit l'outil de mise à jour de calendrier Exchange qui aide les administrateurs à éviter les difficultés résultant du déploiement de l'outil Outlook de manière étendue pour tous les utilisateurs et pour s'assurer que chaque utilisateur exécute correctement l'outil Outlook.
   
-Outre le recours aux utilisateurs d’exécuter l’outil de mise à jour de données de fuseau horaire ou aux administrateurs d’exécuter l’outil de mise à jour du calendrier Exchange, les développeurs de logiciels tiers MAPI client peuvent télécharger une DLL, Tzmovelib.dll. À l’aide de cet assembly, les développeurs peuvent utiliser les mêmes API Outlook et Exchange Server utilisent dans leur calendrier redéfinition des outils. 
+En plus de faire en sorte que les utilisateurs puissent exécuter l'outil de mise à jour des données de fuseau horaire ou les administrateurs pour exécuter l'outil de mise à jour de calendrier Exchange, les développeurs de logiciels clients MAPI tiers peuvent télécharger un fichier DLL, Tzmovelib. dll. À l'aide de cet assembly, les développeurs peuvent utiliser les mêmes API que celles d'Outlook et d'Exchange Server dans leurs outils de relocalisation de calendrier. 
 
-La liste suivante montre la redéfinition des API de calendrier :
+La liste suivante présente les API de relocalisation du calendrier:
   
 - [HrCreateApptRebaser](hrcreateapptrebaser.md)
     
@@ -56,13 +56,13 @@ La liste suivante montre la redéfinition des API de calendrier :
     
 - [TZRULE](tzrule.md)
     
-Pour écrire un outil de redéfinition rendez-vous à l’aide du calendrier de redéfinition des API, vous pouvez utiliser la procédure suivante :
+Pour écrire un outil de relocalisation de rendez-vous à l'aide des API de relocalisation du calendrier, vous pouvez utiliser la procédure suivante:
   
-1. Utilisez **IOlkApptRebaser::BeginEnumerateAppointments** et **IOlkApptRebaser::EndEnumerateAppointments** pour rechercher les rendez-vous qui sont des candidats pour redéfinir. Si nécessaire, présenter des informations pour permettre à l’utilisateur à décider quels rendez-vous relocaliser. Vous pouvez également utiliser MAPI ou le modèle objet Outlook pour examiner les informations de temps et de périodicité d’un rendez-vous en analysant les **PidLidAppointmentTimeZoneDefinitionStartDisplay**, **PidLidAppointmentTimeZoneDefinitionEndDisplay**, les propriétés **PidLidAppointmentTimeZoneDefinitionRecur** et. 
+1. Utilisez **IOlkApptRebaser:: BeginEnumerateAppointments** et **IOlkApptRebaser:: EndEnumerateAppointments** pour rechercher les rendez-vous qui sont candidats à la relocalisation. Si nécessaire, présentez les informations pour permettre à l'utilisateur de décider des rendez-vous à relocaliser. Vous pouvez également utiliser MAPI ou le modèle objet Outlook pour examiner les informations de temps et de récurrence d'un rendez-vous en analysant **PidLidAppointmentTimeZoneDefinitionStartDisplay**, **PidLidAppointmentTimeZoneDefinitionEndDisplay**, et les propriétés **PidLidAppointmentTimeZoneDefinitionRecur** . 
     
-2. Utilisez **HrCreateApptRebaser**, **IOlkApptRebaser::BeginRebaseAppointments**et **IOlkApptRebaser::EndRebaseAppointments** pour redéfinir le rendez-vous. 
+2. Utilisez **HrCreateApptRebaser**, **IOlkApptRebaser:: BeginRebaseAppointments**et **IOlkApptRebaser:: EndRebaseAppointments** pour rebaser le rendez-vous. 
     
-Pour obtenir l’assembly Tzmovelib.dll, téléchargez le programme d’installation redistribuable OutlookTimeZoneMoveLibRedist.exe et le fichier d’en-tête Tzmovelib.h à [Outlook 2010 : programme d’installation redistribuable auxiliaire référence et fichier d’en-tête pour redéfinir des calendriers](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b) . Ce téléchargement fonctionne pour Outlook 2010 et versions ultérieures d’Outlook. OutlookTimeZoneMoveLibRedist.exe installe le fichier d’assembly Tzmovelib.dll dans C:\Program Files\MsExTmz. Notez que les applications de redéfinition de calendrier tiers peuvent redistribuer uniquement le programme d’installation, OutlookTimeZoneMoveLibRedist.exe et ne doivent pas redistribuer l’assembly, Tzmovelib.dll ou n’importe quelle autre extraites des composants séparément le programme d’installation.
+Pour obtenir l'assembly Tzmovelib. dll, téléchargez le programme d'installation redistribuable de OutlookTimeZoneMoveLibRedist. exe et le fichier d'en-tête Tzmovelib. h sur [Outlook 2010: fichier d'en-tête et programme d'installation redistribuable de référence auxiliaire pour les calendriers de](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b) relocalisation . Ce téléchargement fonctionne pour Outlook 2010 et les versions ultérieures d'Outlook. OutlookTimeZoneMoveLibRedist. exe installe le fichier d'assembly Tzmovelib. dll dans C:\Program Files\MsExTmz. Notez que les applications de relocalisation de calendrier tierces ne peuvent redistribuer que le programme d'installation, OutlookTimeZoneMoveLibRedist. exe, et ne doivent pas redistribuer l'assembly, Tzmovelib. dll ou tout autre composant extrait séparément du programme d'installation.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,7 +70,7 @@ Pour obtenir l’assembly Tzmovelib.dll, téléchargez le programme d’installa
 - [Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
 - [Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
 - [Lire les propriétés de fuseau horaire à partir d’un rendez-vous](how-to-read-time-zone-properties-from-an-appointment.md)
-- [L’heure d’été Centre d’aide et support technique](https://support.microsoft.com/gp/cp_dst)
-- [Comment résoudre l’heure d’été à l’aide de l’outil de mise à jour de calendrier Exchange](https://support.microsoft.com/kb/941018)
-- [Comment résoudre les modifications de fuseau horaire à l’aide de l’outil de mise à jour de données de fuseau horaire pour Microsoft Office Outlook](https://support.microsoft.com/kb/931667)
+- [Centre d'aide et de support pour l'heure d'été](https://support.microsoft.com/gp/cp_dst)
+- [Comment corriger l'heure d'été à l'aide de l'outil de mise à jour de calendrier Exchange](https://support.microsoft.com/kb/941018)
+- [Comment résoudre les changements de fuseau horaire à l'aide de l'outil de mise à jour des données de fuseau horaire pour Microsoft Office Outlook](https://support.microsoft.com/kb/931667)
 

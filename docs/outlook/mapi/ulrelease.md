@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95db96ef-f95f-41da-b216-f717c23bffd2
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46c37dbcf1aa3b0469281b8db99f210bda0918be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 288e34a159db48b1344524b87f02b045259f1565
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582300"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315294"
 ---
 # <a name="ulrelease"></a>UlRelease
 
@@ -25,13 +25,13 @@ ms.locfileid: "22582300"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet également d’appeler la méthode OLE **IUnknown::Release**. 
+Offre un autre moyen d'appeler la méthode OLE **IUnknown:: Release**. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 ULONG UlRelease(
@@ -41,9 +41,9 @@ ULONG UlRelease(
 
 ## <a name="parameters"></a>Paramètres
 
- _pUnk_
+ _Punk_
   
-> [in] Pointeur vers une interface dérivé de l’interface **IUnknown** , en d’autres termes n’importe quelle interface MAPI. 
+> dans Pointeur vers une interface dérivée de l'interface **IUnknown** , en d'autres termes, toute interface MAPI. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,16 +53,16 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d’origine inattendu ou inconnu a empêché l’opération de se terminer.
+> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
     
 ## <a name="remarks"></a>Remarques
 
-Le décompte de références est le nombre de pointeurs existants à l’objet doit être publié. 
+Le nombre de références est le nombre de pointeurs existants vers l'objet à libérer. 
   
-Si le paramètre _punk_ est NULL, la fonction retourne immédiatement sans appeler **IUnknown::Release**
+Si le paramètre _punk_ est null, la fonction renvoie immédiatement sans appeler **IUnknown:: Release**
   
- **UlRelease** renvoie la valeur renvoyée par la méthode **IUnknown::Release** , qui peut être égale au nombre de références de l’objet doit être publié. 
+ **UlRelease** renvoie la valeur retournée par la méthode **IUnknown:: Release** , qui peut être égale au nombre de références pour l'objet à libérer. 
   
-Pour plus d’informations sur **IUnknown::Release**, voir [implémentation de l’IUnknown Interface](implementing-the-iunknown-interface.md). 
+Pour plus d'informations sur **IUnknown:: Release**, consultez [la rubrique Implementing the IUnknown interface](implementing-the-iunknown-interface.md). 
   
 

@@ -1,82 +1,82 @@
 ---
-title: Exemples et des scénarios d’automatisation externe
+title: Exemples et scénarios d’automatisation externe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- automatisation infopath 2007 ajouter par programme des données de formulaires [InfoPath 2007], [InfoPath 2007], l’automatisation externes scénarios
+- automatisation d'InfoPath 2007, de formulaires [InfoPath 2007], ajout de données par programmation, Automation [InfoPath 2007], scénarios externes
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
-description: Les membres fourni par Microsoft Office InfoPath principal assembly d’interopérabilité (Microsoft.Office.Interop.InfoPath.dll) et l’assembly d’interopérabilité XML InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) prend en charge écrire du code managé pour l’automatisation InfoPath.
+description: Les membres fournis par l'assembly PIA Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) et l'assembly XML d'interopérabilité d'InfoPath (Microsoft. Office. Interop. InfoPath. Xml. dll) prennent en charge l'écriture de code managé pour l'automatisation InfoPath.
 ms.openlocfilehash: af8bfbb0322b9d70fb85ba21a757a581ba423a44
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310198"
 ---
-# <a name="external-automation-scenarios-and-examples"></a>Exemples et des scénarios d’automatisation externe
+# <a name="external-automation-scenarios-and-examples"></a>Exemples et scénarios d’automatisation externe
 
-Les membres fourni par Microsoft Office InfoPath principal assembly d’interopérabilité (Microsoft.Office.Interop.InfoPath.dll) et l’assembly d’interopérabilité XML InfoPath (Microsoft.Office.Interop.InfoPath.Xml.dll) prend en charge écrire du code managé pour l’automatisation InfoPath. 
+Les membres fournis par l'assembly PIA Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) et l'assembly XML d'interopérabilité d'InfoPath (Microsoft. Office. Interop. InfoPath. Xml. dll) prennent en charge l'écriture de code managé pour l'automatisation InfoPath. 
   
-## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Création de références aux assemblys PIA de Microsoft Office InfoPath et InfoPath XML Interop
+## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Établissement de références aux assemblys PIA (Primary Interop Assembly) d'InfoPath de Microsoft Office InfoPath
 
-Pour écrire du code managé pour automatiser InfoPath, vous devez établir des références au PIA Microsoft InfoPath et les assemblys PIA XML InfoPath. L’assembly PIA de Microsoft InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par IPEDITOR. DLL à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . L’assembly d’interopérabilité XML InfoPath prend en charge l’interopérabilité avec le modèle d’objet COM exposé par Microsoft XML Core Services (MSXML) à l’aide des membres de l’espace de noms [Microsoft.Office.Interop.InfoPath.Xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
+Pour écrire du code managé pour l'automatisation d'InfoPath, vous devez établir des références à l'interopérabilité principale de Microsoft InfoPath et aux assemblys XML d'interopérabilité d'InfoPath. L'assembly d'interopérabilité de base Microsoft InfoPath fournit une prise en charge de l'interopérabilité avec le modèle objet COM exposé par IPEDITOR. DLL à l'aide des membres de l'espace de noms [Microsoft. Office. Interop. InfoPath](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.aspx) . L'assembly d'interopérabilité XML d'InfoPath offre une prise en charge de l'interopérabilité avec le modèle objet COM exposé par MSXML (Microsoft XML Core Services) à l'aide des membres de l'espace de noms [Microsoft. Office. Interop. InfoPath. xml](https://msdn.microsoft.com/library/microsoft.office.interop.infopath.xml) . 
   
 > [!IMPORTANT]
-> Les utilisateurs des applications de code managé qui automatisent InfoPath doivent avoir l’assembly d’interopérabilité XML InfoPath installé sur leur ordinateur, l’assembly PIA de Microsoft Office InfoPath et InfoPath. L’option de **Prise en charge de la programmabilité .NET** dans le programme d’installation de InfoPath est définie sur **Exécuter à partir du disque dur** pour une installation standard d’InfoPath.
+> Les utilisateurs d'applications avec code managé qui automatisent InfoPath doivent disposer d'InfoPath, de l'assembly PIA Microsoft Office InfoPath et de l'assembly XML d'InfoPath Interop installé sur leur ordinateur. L'option **prise en charge** de la programmabilité .net dans le programme d'installation d'InfoPath est définie sur **exécuter à partir du disque dur** pour une installation par défaut d'InfoPath.
 >  
-> Par conséquent, que pendant la durée du .NET Framework 1.1 Redistributable ou Kit de développement logiciel (SDK) .NET Framework 1.1 ou version ultérieure est installé, ces assemblys PIA être installés par défaut. Si ces assemblys PIA ne sont pas disponibles sur l’ordinateur d’un utilisateur, vous devez vérifier que le .NET Framework version 1.1 ou ultérieure est installé et puis exécutez des **programmes et fonctionnalités** dans le **Panneau de configuration** pour modifier le programme d’installation et de définir la **la programmabilité .NET Prise en charge** option d’InfoPath pour **Exécuter à partir du disque dur**. 
+> Par conséquent, dans la mesure où le kit de développement logiciel (SDK) .NET Framework 1,1 ou version ultérieure est installé, ces assemblys d'interopérabilité seront également installés par défaut. Si ces assemblys d'interopérabilité ne sont pas disponibles sur l'ordinateur d'un utilisateur, vous devez vérifier que .NET Framework 1,1 ou une version ultérieure est installé, puis exécuter des **programmes et des fonctionnalités** à partir du **panneau** de configuration pour modifier l'installation et définir la **Programmabilité .net Option de prise en charge** d'InfoPath à **exécuter à partir du disque dur**. 
   
-Les procédures suivantes décrivent comment définir des assemblys PIA références pour le PIA de Microsoft Office InfoPath et InfoPath XML dans un projet Visual Studio.
+Les procédures suivantes décrivent comment définir des références aux assemblys PIA de Microsoft Office InfoPath et InfoPath XML Interop dans un projet Visual Studio.
   
-Pour définir une référence à l’assembly PIA Microsoft.Office.Interop.InfoPath, définissez une référence à la **Bibliothèque de types Microsoft InfoPath 3.0** sur l’onglet **COM** de la boîte de dialogue **Ajouter une référence** . Même si vous définissez une référence à partir de l’onglet **COM** , une référence est établie à l’assembly PIA Microsoft.Office.Interop.InfoPath.dll qui est installé dans le Global Assembly Cache (GAC) par le programme d’installation InfoPath. 
+Pour définir une référence à l'assembly PIA Microsoft. Office. Interop. InfoPath, définissez une référence à la **bibliothèque de types Microsoft InfoPath 3,0** sous l'onglet **com** de la boîte de dialogue **Ajouter une référence** . Même si vous définissez une référence à partir de l'onglet **com** , une référence est établie à l'assembly PIA Microsoft. Office. Interop. InfoPath. dll qui est installé dans le global assembly cache (GAC) par le programme d'installation d'InfoPath. 
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Définir une référence à l’assembly PIA Microsoft.Office.Interop.InfoPath
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopath-primary-interop-assembly"></a>Définition d'une référence à l'assembly PIA Microsoft. Office. Interop. InfoPath
 
-1. Ouvrez un projet de code managé de Visual Studio.
+1. Ouvrez un projet de code managé Visual Studio.
     
-2. Dans **L’Explorateur de solutions**, cliquez sur **références**, puis cliquez sur **Ajouter une référence**.
+2. Dans l’**Explorateur de solutions**, cliquez avec le bouton droit sur **Références**, puis cliquez sur **Ajouter une référence**.
     
-3. Sous l’onglet **COM** , double-cliquez sur la **Bibliothèque de Type Microsoft InfoPath 3.0**, puis cliquez sur **OK**.
+3. Dans l'onglet **com** , double-cliquez sur **bibliothèque de types Microsoft InfoPath 3,0**, puis cliquez sur **OK**.
     
-Pour définir une référence à l’assembly d’interopérabilité Microsoft.Office.Interop.InfoPath.Xml, recherchez le fichier Microsoft.Office.Interop.InfoPath.Xml.dll qui est installé par défaut dans le < _lecteur_> : \Program Files\Microsoft Office\OFFICE14 dossier . Même si vous spécifiez la copie de l’assembly dans le système de fichiers local, cette procédure établit une référence à l’assembly Microsoft.Office.Interop.InfoPath.Xml.dll qui est installé dans le Global Assembly Cache (GAC) par le programme d’installation InfoPath.
+Pour définir une référence à l'assembly d'interopérabilité Microsoft. Office. Interop. InfoPath. xml, accédez au fichier Microsoft. Office. Interop. InfoPath. Xml. dll qui est installé par défaut dans le _lecteur_<: \Program Files\Microsoft Office\Office14 . Même si vous spécifiez la copie de l'assembly dans le système de fichiers local, cette procédure établit une référence à l'assembly Microsoft. Office. Interop. InfoPath. Xml. dll qui est installé dans le global assembly cache (GAC) par le programme d'installation d'InfoPath.
   
-### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Définir une référence à l’assembly d’interopérabilité Microsoft.Office.Interop.InfoPath.Xml
+### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Définir une référence à l'assembly d'interopérabilité Microsoft. Office. Interop. InfoPath. Xml
 
-1. Ouvrez ou créez un projet de code managé Visual Studio, par exemple une **Application de Console** ou une **Application Windows**.
+1. Ouvrez ou créez un projet de code managé Visual Studio, tel qu'une **application console** ou une **application Windows**.
     
-2. Dans **L’Explorateur de solutions**, cliquez sur **références**, puis cliquez sur **Ajouter une référence**.
+2. Dans l’**Explorateur de solutions**, cliquez avec le bouton droit sur **Références**, puis cliquez sur **Ajouter une référence**.
     
-3. Sous l’onglet **.NET** , cliquez sur **Parcourir**, accédez au < _lecteur_> : \Program Files\Microsoft Office\OFFICE14 dossier, puis cliquez sur Microsoft.Office.Interop.InfoPath.Xml.dll.
+3. Sous l'onglet **.net** , cliquez sur **Parcourir**, accédez au dossier < _Drive_>: \Program Files\Microsoft Office\Office14, puis cliquez sur Microsoft. Office. Interop. InfoPath. Xml. dll.
     
 4. Cliquez sur **OK**.
     
-## <a name="automate-changing-the-value-of-a-field"></a>Automatiser la modification de la valeur d’un champ
+## <a name="automate-changing-the-value-of-a-field"></a>Automatiser la modification de la valeur d'un champ
 
-Supposons qu’un des clients de l’utilisateur d’un modèle de formulaire InfoPath rapport des ventes récemment changé son nom à partir de « Société A » à « société b ». Un développeur est invité à écrire du code qui met automatiquement à jour les formulaires de rapport des ventes enregistrés à partir de ce modèle de formulaire afin de refléter le changement de nom. Le scénario suivant suppose un formulaire contenant une zone de texte qui est liée à un champ nommé nom client.
+Supposons que l'un des clients de l'utilisateur d'un modèle de formulaire de rapport de ventes InfoPath a récemment changé son nom de «société A» en «société B». Un développeur est invité à écrire du code qui met à jour automatiquement les formulaires de rapport des ventes enregistrés à partir de ce modèle de formulaire pour refléter le changement de nom. Le scénario suivant suppose un formulaire qui contient une zone de texte liée à un champ nommé customerName.
   
-### <a name="create-the-sample-form-template-and-form"></a>Créer l’exemple de modèle de formulaire et le formulaire
+### <a name="create-the-sample-form-template-and-form"></a>Créer l'exemple de modèle de formulaire et de formulaire
 
-1. Ouvrez InfoPath et créer un modèle de formulaire vierge.
+1. Ouvrez InfoPath et créez un modèle de formulaire vierge.
     
-2. Ajouter un contrôle de **Zone de texte** au formulaire et nommez le champ lié au contrôle engage.
+2. Ajoutez un contrôle de **zone de texte** au formulaire, puis nommez le champ lié au contrôle CustomerName.
     
-3. Dans le volet Office **champs** , cliquez sur le dossier **mesChamps** , puis cliquez sur **Propriétés**.
+3. Dans le volet Office **champs** , cliquez avec le bouton droit sur le dossier **mesChamps** , puis cliquez sur **Propriétés**.
     
-4. Sous l’onglet **Détails** , sélectionnez et copiez la valeur **Namespace :** et le coller dans le bloc-notes ou un autre emplacement où vous pouvez le récupérer. Ultérieurement, vous devrez cette valeur pour définir la valeur de la propriété **SelectionNamespaces** dans votre code. 
+4. Sous l'onglet **Détails** , sélectionnez et copiez la valeur suivante **:**, puis collez-la dans le bloc-notes ou dans un autre emplacement où vous pouvez la récupérer. Vous aurez besoin de cette valeur ultérieurement pour définir la valeur de la propriété **SelectionNamespaces** dans votre code. 
     
-5. Publier le modèle de formulaire dans un dossier nommé C:\Test et acceptez le nom par défaut, Modèle1. 
+5. Publiez le modèle de formulaire dans un dossier nommé C:\Test et acceptez le nom par défaut, Template1. 
     
-6. Ouvrez le modèle de formulaire, ajoutez le nom « Société A » à la zone de texte liée au champ Nom client, puis enregistrez le formulaire en tant que « Formulaire1 ». 
+6. Ouvrez le modèle de formulaire, ajoutez le nom «Company A» à la zone de texte liée au champ customerName, puis enregistrez le formulaire sous le nom «Form1». 
     
-### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Créer une application console de code managé pour modifier le nom à partir de « Société A » à « Société B »
+### <a name="create-a-managed-code-console-application-to-change-the-name-from-company-a-to-company-b"></a>Créer une application console de code managé pour remplacer le nom «Company A» par «Company B»
 
-1. Ouvrez Visual Studio et créez un nouveau Visual c# ou Visual Basic Application Console nommée UpdateCustomer.
+1. Ouvrez Visual Studio et créez une application de console Visual C# ou Visual Basic nommée UpdateCustomer.
     
-2. Établir des références aux assemblys PIA XML InfoPath et PIA de Microsoft Office InfoPath comme indiqué ci-dessus.
+2. Établissez des références aux assemblys PIA de Microsoft Office InfoPath et InfoPath XML Interop, comme décrit ci-dessus.
     
-3. Ajoutez le code suivant dans le fichier Program.cs ou Module1.vb, en veillant à mettre à jour la valeur de l’espace de noms dans le paramètre de la propriété **SelectionNamespaces** avec la valeur que vous avez copié lors de la création de l’exemple de formulaire. 
+3. Ajoutez le code suivant au fichier Program.cs ou Module1. vb, en veillant à mettre à jour la valeur de l'espace de noms dans le paramètre de la propriété **SelectionNamespaces** avec la valeur que vous avez copiée lors de la création de l'exemple de formulaire. 
     
    ```cs
     using System;
@@ -188,35 +188,35 @@ Supposons qu’un des clients de l’utilisateur d’un modèle de formulaire In
     
    ```
 
-4. Dans le menu **Déboguer** pour compiler et exécuter l’application de console, cliquez sur **Démarrer le débogage** . 
+4. Cliquez sur **Démarrer** le débogage dans le menu Déboguer pour compiler et exécuter l'application console. **** 
     
-   L’application s’ouvre le formulaire enregistré en tant que Form1.xml et effectue une boucle sur tous les éléments nom client qui contiennent la valeur de la société A et modifie cette valeur à la société B. Une fois l’opération terminée, une nouvelle copie du formulaire est enregistrée en tant que Form2.xml dans le dossier C:\Test. 
+   L'application ouvre le formulaire enregistré sous la forme Form1. xml et effectue une boucle dans tous les éléments customerName qui contiennent la valeur Company A et modifie cette valeur en Company B. Une fois l'opération terminée, une nouvelle copie du formulaire est enregistrée en tant que Form2. xml dans le dossier C:\Test. 
     
-## <a name="automate-opening-a-form-and-populating-field-values"></a>Automatiser l’ouverture d’un formulaire et le remplissage des valeurs de champ
+## <a name="automate-opening-a-form-and-populating-field-values"></a>Automatiser l'ouverture d'un formulaire et le remplissage des valeurs de champ
 
-L’exemple suivant automatise l’ouverture d’un formulaire vierge et remplissage prénom, nom de famille, les champs d’adresse dans l’écran. Ce scénario suppose un formulaire qui contient trois zones de texte qui sont liés à des champs nommés FirstName, LastName et l’adresse.
+L'exemple suivant automatise l'ouverture d'un formulaire vierge et le remplissage des champs prénom, nom et adresse dans le formulaire. Ce scénario suppose un formulaire qui contient trois zones de texte liées à des champs nommés FirstName, LastName et Address.
   
-### <a name="create-the-sample-form-template-and-form"></a>Créer l’exemple de modèle de formulaire et le formulaire
+### <a name="create-the-sample-form-template-and-form"></a>Créer l'exemple de modèle de formulaire et de formulaire
 
 1. Ouvrez InfoPath et créez un formulaire vierge.
     
-2. Ajouter trois contrôles de zone de texte au formulaire et les champs liés aux contrôles de nom : prénom, nom et adresse. Ajoutez tous les champs que vous souhaitez.
+2. Ajoutez trois contrôles de zone de texte au formulaire, puis nommez les champs liés aux contrôles: FirstName, LastName et Address. Ajoutez les autres champs souhaités.
     
-3. Dans le volet Office **champs** , cliquez sur le dossier **mesChamps** , puis cliquez sur **Propriétés**.
+3. Dans le volet Office **champs** , cliquez avec le bouton droit sur le dossier **mesChamps** , puis cliquez sur **Propriétés**.
     
-4. Sous l’onglet **Détails** , sélectionnez et copiez la valeur **Namespace :** et le coller dans le bloc-notes ou un autre emplacement où vous pouvez le récupérer. Ultérieurement, vous devrez cette valeur pour définir la valeur de la propriété **SelectionNamespaces** dans votre code. 
+4. Sous l'onglet **Détails** , sélectionnez et copiez la valeur suivante **:**, puis collez-la dans le bloc-notes ou dans un autre emplacement où vous pouvez la récupérer. Vous aurez besoin de cette valeur ultérieurement pour définir la valeur de la propriété **SelectionNamespaces** dans votre code. 
     
-5. Publier le modèle de formulaire dans un dossier nommé C:\Temp et acceptez le nom par défaut, Modèle1.
+5. Publiez le modèle de formulaire dans un dossier nommé C:\Temp et acceptez le nom par défaut, Template1.
     
-6. Ouvrez le modèle de formulaire et enregistrer un formulaire vierge en tant que « Formulaire1 » sur C:\Temp.
+6. Ouvrez le modèle de formulaire et enregistrez un formulaire vierge en tant que «Form1» dans C:\Temp.
     
-### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>Créer une application de console de code managé pour ouvrir le formulaire et remplissez les champs
+### <a name="create-a-managed-code-console-application-to-open-the-form-and-populate-the-fields"></a>Créer une application console de code managé pour ouvrir le formulaire et remplir les champs
 
-1. Ouvrez Visual Studio et créez un nouveau Visual c# ou Visual Basic Application Console nommée OpenForm.
+1. Ouvrez Visual Studio et créez une application de console Visual C# ou Visual Basic nommée OpenForm.
     
-2. Établir des références aux assemblys PIA XML InfoPath et PIA de Microsoft Office InfoPath comme indiqué ci-dessus.
+2. Établissez des références aux assemblys PIA de Microsoft Office InfoPath et InfoPath XML Interop, comme décrit ci-dessus.
     
-3. Ajoutez le code suivant dans le fichier Program.cs ou Module1.vb, en veillant à mettre à jour la valeur de l’espace de noms dans le paramètre de la propriété **SelectionNamespaces** avec la valeur que vous avez copié lors de la création de l’exemple de formulaire. 
+3. Ajoutez le code suivant au fichier Program.cs ou Module1. vb, en veillant à mettre à jour la valeur de l'espace de noms dans le paramètre de la propriété **SelectionNamespaces** avec la valeur que vous avez copiée lors de la création de l'exemple de formulaire. 
     
    ```cs
     using System;
@@ -292,9 +292,9 @@ L’exemple suivant automatise l’ouverture d’un formulaire vierge et remplis
     
    ```
 
-4. Dans le menu **Déboguer** , cliquez sur **Démarrer le débogage** pour compiler et exécuter l’application console. 
+4. Dans le **** menu Débogage, cliquez sur Démarrer le débogage pour compiler et exécuter l'application console. **** 
     
-   L’application sera ouvrir le formulaire enregistré en tant que Form1.xml et renseignez les champs FirstName, LastName et adresse avec les valeurs spécifiées dans le code, puis enregistrez le formulaire InfoPath étant ouverte. 
+   L'application ouvrira le formulaire enregistré sous le nom Form1. xml et renseignez les champs FirstName, LastName et Address avec les valeurs spécifiées dans le code, puis enregistrez le formulaire, en laissant InfoPath Open. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,32 +1,32 @@
 ---
-title: Action de Macro ArrêtMacro (accès personnalisé web app)
+title: ArrêtMacro, action de macro (application Web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: af28534b-6f0d-43ee-ae89-ee2f85da1af1
-description: Vous pouvez utiliser l’action ArrêtMacro pour arrêter la macro en cours d’exécution.
-ms.openlocfilehash: 54501b65eb1847287e810ae43742a2e6e5384264
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Vous pouvez utiliser l'action ArrêtMacro pour arrêter la macro en cours d'exécution.
+ms.openlocfilehash: 8b80422a297647d556fb4b20cc15fb93e8853466
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311017"
 ---
-# <a name="stopmacro-macro-action-access-custom-web-app"></a>Action de Macro ArrêtMacro (accès personnalisé web app)
+# <a name="stopmacro-macro-action-access-custom-web-app"></a>ArrêtMacro, action de macro (application Web personnalisée Access)
 
-Vous pouvez utiliser l’action **ArrêtMacro** pour arrêter la macro en cours d’exécution. 
+Vous pouvez utiliser l'action **ArrêtMacro** pour arrêter la macro en cours d'exécution. 
   
 > [!IMPORTANT]
-> [!IMPORTANTE] Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Paramètre
 
-L’action **ArrêtMacro** ne possède aucun argument. 
+L'action **ArrêtMacro** ne possède aucun argument. 
   
 ## <a name="remarks"></a>Remarques
 
-Vous utilisez généralement cette action quand une condition rend nécessaire pour arrêter la macro. Par exemple, vous pouvez créer une macro de l’interface utilisateur qui ouvre une vue affichant les totaux de la commande tous les jours à la date entrée dans la vue actuelle. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle de Date de la commande dans la boîte de dialogue contient une date valide. Le cas contraire, l’action de **contrôle zonemessage** peut afficher un message d’erreur et l’action **ArrêtMacro** arrêter la macro d’interface utilisateur. 
+Cette action est généralement utilisée lorsqu'une condition nécessite l'arrêt de la macro. Par exemple, vous pouvez créer une macro d'interface utilisateur qui ouvre une vue illustrant le nombre total quotidien de commandes pour la date entrée dans l'affichage actuel. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle Date commande dans la boîte de dialogue contient une date valide. Si ce n'est pas le cas, l'action **MessageBox** peut afficher un message d'erreur et l'action **ArrêtMacro** peut arrêter la macro de l'interface utilisateur. 
   
 

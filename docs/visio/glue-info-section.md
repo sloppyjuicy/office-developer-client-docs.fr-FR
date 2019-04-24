@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a1ed2846-a358-5515-a34d-66e0cc6e56d3
 description: Contient les formules générées pour une forme 1D lorsqu'elle est collée à d'autres formes.
-ms.openlocfilehash: b2d58235a0494546a8742bcf147159d80aba2306
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c8591b7ce7c91ad53b0b3b7411402e5ebd09e490
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317940"
 ---
-# <a name="glue-info-section"></a>Glue Info, section
+# <a name="glue-info-section"></a>Glue Info Section
 
 Contient les formules générées pour une forme 1D lorsqu'elle est collée à d'autres formes.
   

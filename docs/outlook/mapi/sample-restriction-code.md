@@ -7,21 +7,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 9b82097c-dbd6-4ba0-a6cb-292301f9402b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dab13577e503a063ed1ebb48a3d6a5c531179b21
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: cafcb20cbce3019d7623d330721005a674eca36e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314944"
 ---
 # <a name="sample-restriction-code"></a>Exemple de code de restriction
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot « volleyball » dans la ligne d’objet et n’ont pas été envoyés à Sue SAM. Une arborescence des structures [SRestriction](srestriction.md) est requise, avec le nœud supérieur en cours d’une restriction **et** implémentée avec une structure [SAndRestriction](sandrestriction.md) . Les trois restrictions qui sont joints à **l’opération** sont une restriction sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre restriction **et** recherche des messages qui disposent d’un objet contient « volleyball. » Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n’est pas une propriété obligatoire, une restriction **existent** doit être incluse. 
+L'exemple de code suivant montre comment créer une restriction qui filtre tous les messages qui ne contiennent pas le mot «Volleyball» dans la ligne d'objet et qui n'ont pas été envoyés à Sue à partir de Sam. Une arborescence de structures [SRestriction](srestriction.md) est requise, dont le nœud supérieur est une restriction **et** est implémentée avec une structure [SAndRestriction](sandrestriction.md) . Les trois restrictions qui sont jointes par l'opération **and** sont une restriction de sous-objet qui recherche des messages envoyés à Sue, une restriction de contenu qui recherche des messages à partir de Sam et une autre **et** une restriction qui recherche les messages. dont l'objet contient «volleyball». Étant donné que **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) n'est pas une propriété requise, une restriction **Exists** doit être incluse. 
   
-Ce code utilise l’allocation dynamique et l’initialisation ; Il est possible d’allouer et initialiser statiquement ainsi. Dans un souci de concision, la vérification des erreurs qui doivent se produire en suivant les appels d’allocation ne figure pas dans l’exemple. 
+Ce code utilise l'allocation et l'initialisation dynamiques; Il est possible de les allouer et de les initialiser de façon statique. Dans un souci de concision, la vérification des erreurs qui doit avoir lieu après les appels d'allocation n'est pas incluse dans l'exemple. 
   
 ```cpp
 HRESULT BuildRestriction (LPSTR pszSent, LPSTR pszFrom,

@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 3592584a08bf14725c0289831740e91fb8f1a5b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 08 08, 2011'
+ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315476"
 ---
 # <a name="ipstoverride1setpersistedregistrations"></a>IPSTOVERRIDE1::SetPersistedRegistrations
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre les fichiers de dossiers personnels (.pst) pour le déverrouillage automatique, en évitant les appels supplémentaires à la HrTrustedPSTOverrideHandlerCallback.
+Enregistre les fichiers de dossiers personnels (. pst) pour le déverrouillage automatique, en évitant d'autres appels à HrTrustedPSTOverrideHandlerCallback.
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -35,27 +35,27 @@ HRESULT SetPersistedRegistrations(
 
 _pmval_
   
-> [in] Contient un pointeur vers le chemin d’accès de la bibliothèque de liens dynamiques (DLL) pour inscrire une structure [SPropValue](spropvalue.md) . La structure présente les caractéristiques suivantes : 
+> dans Une structure [SPropValue](spropvalue.md) qui contient un pointeur vers le chemin d'accès de la bibliothèque de liens dynamiques (dll) à enregistrer. La structure présente les caractéristiques suivantes: 
     
-   - Un ulPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
+   - UlPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
     
-   - Une propriété de valeur MVszW qui est définie sur un tableau de chaînes de caractères Unicode terminée par null. Pour plus d’informations, consultez la rubrique [SWStringArray](swstringarray.md) . 
+   - Propriété de valeur MVszW définie sur un tableau de chaînes de caractères Unicode terminées par un caractère null. Pour plus d'informations, consultez la rubrique [SWStringArray](swstringarray.md) . 
     
 > [!NOTE]
-> Le SPropValue est stocké dans une propriété MAPI dans une plage interne du fichier PST. Cette propriété n’est pas accessible pour les applications MAPI ordinaires. 
+> Le SPropValue est stocké dans une propriété MAPI dans la plage interne du PST. Cette propriété n'est pas accessible aux applications MAPI ordinaires. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel de fonction a réussi.
+> L'appel de la fonction a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-Les enregistrements persistants peuvent affecter les performances des applications, tels qu’Outlook et Windows Desktop Search, ouvrez les fichiers pst. Prendre en compte l’impact sur les performances lors de l’aide ou développer l’utilisation des enregistrements persistants.
+Les enregistrements rendus persistants peuvent avoir un impact négatif sur les performances des applications, telles que Outlook et Windows Desktop Search, qui ouvrent des fichiers PST. Tenez compte de l'impact sur les performances lors de l'utilisation ou du développement de l'utilisation des enregistrements rendus persistants.
   
 > [!IMPORTANT]
-> Cette méthode est implémentée uniquement pour le format Unicode. En outre, il façon préventive échoue si un des chemins d’accès dans le tableau n’ont pas une extension de nom de fichier du fichier .dll. 
+> Cette méthode est implémentée uniquement pour Unicode. De plus, il échouera de manière préventive si l'un des chemins d'accès dans le tableau n'a pas d'extension de nom de fichier. dll. 
   
 ## <a name="see-also"></a>Voir aussi
 

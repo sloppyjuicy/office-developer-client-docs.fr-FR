@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9088da5f2deb4b3d4ccb1c2bc5409e0ff280ed24
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316088"
 ---
 # <a name="search-and-obtain-appointments-in-a-time-range"></a>Effectuer des recherches et obtenir des rendez-vous dans un intervalle de temps
 
@@ -63,7 +63,7 @@ string filter = "[Start] <= '"
     + startTime.ToString("g") + "'";
 ```
 
-Le code suivant montre l’exemple complet. Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l'importation et l'affectation dans Visual Basic et dans C\#.
+Le code suivant montre l’exemple complet. Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

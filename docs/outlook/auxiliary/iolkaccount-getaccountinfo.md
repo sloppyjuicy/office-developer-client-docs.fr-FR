@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
-description: Obtient les informations de type et les catégories pour le compte spécifié.
-ms.openlocfilehash: 85f27d1d5f47a372090b208821b52656a56559ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient les informations de type et de catégorie pour le compte spécifié.
+ms.openlocfilehash: 88021537cc7ff4c55759081e6f3619c2a9f10ea3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782645"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318185"
 ---
 # <a name="iolkaccountgetaccountinfo"></a>IOlkAccount::GetAccountInfo
 
-Obtient les informations de type et les catégories pour le compte spécifié.
+Obtient les informations de type et de catégorie pour le compte spécifié.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,7 +35,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 _pclsidType_
   
-> [out] L’identificateur de classe pour le type de compte. La valeur doit être une des opérations suivantes :
+> remarquer Identificateur de classe du type de compte. La valeur doit être une des opérations suivantes :
     
    - CLSID_OlkPOP3Account 
     
@@ -49,11 +49,11 @@ _pclsidType_
     
 _pcCategories_
   
-> [out] Le nombre de catégories dans _prgclsidCategory_.
+> remarquer Nombre de catégories dans _prgclsidCategory_.
     
 _prgclsidCategory_
   
-> [out] Tableau des catégories qui est associé à ce compte. Le tableau est de taille * _pcCategories_. La valeur de chaque catégorie dans le tableau doit être une des options suivantes :
+> remarquer Tableau de catégories auquel ce compte est associé. Le tableau est de taille * _pcCategories_. La valeur de chaque catégorie dans le tableau doit être l'une des valeurs suivantes:
     
    - CLSID_OlkMail
     
@@ -65,11 +65,11 @@ _prgclsidCategory_
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Une fois cette méthode renvoie, vous devez libérer *prgclsidCategory* à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Une fois cette méthode retournée, vous devez libérer *prgclsidCategory* à l'aide de [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** ne prend pas en charge la catégorie de carnet d’adresses d’un compte Exchange. Si le compte est un échange compte (*pclsidType* **CLSID_OlkMAPIAccount** ) et le compte implémente le carnet d’adresses, appel **IOlkAccount::GetAccountInfo** ne renvoie pas **CLSID_OlkAddressBook** comme une catégorie de * prgclsidCategory* . 
+**IOlkAccount:: GetAccountInfo** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ) et que le compte implémente le carnet d'adresses, l'appel de **IOlkAccount:: GetAccountInfo** ne renverra pas **CLSID_OlkAddressBook** sous forme de catégorie dans * prgclsidCategory* . 
   
 ## <a name="see-also"></a>Voir aussi
 

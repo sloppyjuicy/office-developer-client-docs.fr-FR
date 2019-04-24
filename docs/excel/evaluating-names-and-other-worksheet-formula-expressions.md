@@ -1,26 +1,26 @@
 ---
-title: Évaluer les noms et les autres expressions de formule de feuille de calcul
+title: Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- évaluation de l’expression [excel 2007], feuilles de calcul [Excel 2007], d’évaluation de nom, évaluation des expressions [Excel 2007], l’évaluation de feuille de calcul des noms [Excel 2007], [Excel 2007], évaluation des noms [Excel 2007], évaluation, nom d’évaluation [Excel 2007] , chaînes [Excel 2007], convertissez les valeurs, fonction xlfEvaluate [Excel 2007], feuilles de calcul [Excel 2007], évaluation d’expression
+- évaluation d'expression [Excel 2007], feuilles de calcul [Excel 2007], évaluation de nom, expressions d'évaluation [Excel 2007], évaluation des noms de feuilles de calcul [Excel 2007], expressions [Excel 2007], évaluation, noms [Excel 2007], évaluation, évaluation de nom [Excel 2007] , chaînes [Excel 2007], conversion en valeurs, fonction xlfEvaluate [Excel 2007], feuilles de calcul [Excel 2007], évaluation de l'expression
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 9d726d89c859e2f7428b459971d5d13586f144e9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 97328cbc57a9144a133524774e3be10a84a96bf4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311115"
 ---
-# <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Évaluer les noms et les autres expressions de formule de feuille de calcul
+# <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Une des fonctionnalités plus importantes Excel expose par le biais de l’API C est la possibilité de convertir une formule de chaîne qui peut être légalement entrée dans une feuille de calcul à une valeur ou un tableau de valeurs. Il est essentiel pour les fonctions XLL et commandes qui doivent lire le contenu de noms définis, par exemple. Cette capacité est exposée par le biais de la [fonction xlfEvaluate](xlfevaluate.md), comme illustré dans cet exemple.
+L'une des fonctionnalités les plus importantes qu'Excel expose via l'API C est la possibilité de convertir toute formule de chaîne pouvant être légalement entrée dans une feuille de calcul en une valeur ou un tableau de valeurs. Ceci est essentiel pour les fonctions et commandes XLL qui doivent lire le contenu de noms définis, par exemple. Cette fonctionnalité est exposée par le biais de la [fonction xlfEvaluate](xlfevaluate.md), comme illustré dans cet exemple.
   
 ```C
 int WINAPI evaluate_name_example(void)
@@ -41,25 +41,25 @@ int WINAPI evaluate_name_example(void)
 }
 ```
 
-Notez que lorsque vous évaluez un nom de feuille de calcul, sur son propre ou dans une formule, vous devez faire précéder le nom « ! », au moins. Dans le cas contraire, Excel tente de trouver le nom dans un espace de noms masqué réservé pour les DLL. Vous pouvez créer et supprimer des noms DLL masqués à l’aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n’importe quel nom défini, qu’il s’agisse d’un nom DLL masqué ou une feuille de calcul, à l’aide de la fonction **xlfGetDef** . 
+Notez que lorsque vous évaluez le nom d'une feuille de calcul, qu'il s'agisse de sa part ou d'une formule, vous devez faire précéder le nom de «!», au minimum. Dans le cas contraire, Excel essaie de trouver le nom dans un espace de noms masqué réservé pour les dll. Vous pouvez créer et supprimer des noms de DLL masqués à l'aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n'importe quel nom défini, qu'il s'agisse d'un nom de DLL masqué ou d'un nom de feuille de calcul, à l'aide de la fonction **xlfGetDef** . 
   
-La spécification d’un nom de feuille de calcul complet prend la forme suivante :
+La spécification complète d'un nom de feuille de calcul prend la forme suivante:
   
 `='C:\example folder\[Book1.xls]Sheet1'!Name`
   
-Notez qu’Excel 2007 introduit un certain nombre de nouvelles extensions de fichier. Vous pouvez omettre le chemin d’accès, le nom du classeur et le nom de la feuille où il n’y a aucune ambiguïté entre les classeurs ouverts dans cette session d’Excel. 
+Notez qu'Excel 2007 a introduit un certain nombre de nouvelles extensions de fichiers. Vous pouvez omettre le chemin d'accès, le nom du classeur et le nom de la feuille où il n'y a aucune ambiguïté entre les classeurs ouverts dans cette session Excel. 
   
-L’exemple suivant calcule la formule `COUNT(A1:IV65536)` pour la feuille de calcul active et comment afficher le résultat. Notez la nécessité de préfixe avec l’adresse de la plage « ! », qui est conforme à la convention de référence de plage dans des feuilles macro XLM. Le XLM API C suit cette convention : 
+L'exemple suivant évalue la formule `COUNT(A1:IV65536)` de la feuille de calcul active et affiche le résultat. Remarque la nécessité de préfixer l'adresse de la plage avec «!», qui est cohérente avec la Convention de référence de plage sur les feuilles macro XLM. L'API C XLM suit la Convention suivante: 
   
-- `=A1`Une référence à la cellule A1 de la feuille macro en cours. (Non définies pour XLL). 
+- `=A1`Référence à la cellule a1 de la feuille macro active. (Non défini pour les XLL). 
   
-- `=!A1`Une référence à la cellule A1 de la feuille active (ce qui peut être une feuille de calcul ou une feuille macro) 
+- `=!A1`Référence à la cellule a1 de la feuille active (qui peut être une feuille de calcul ou une feuille macro) 
   
-- `=Sheet1!A1`Une référence à la cellule A1 de la feuille spécifiée, la feuille Sheet1 dans ce cas. 
+- `=Sheet1!A1`Référence à la cellule a1 de la feuille spécifiée, Sheet1 dans ce cas. 
   
-- `=[Book1.xls]Sheet1!A1`Une référence à la cellule A1 dans la feuille spécifiée dans le classeur spécifié. 
+- `=[Book1.xls]Sheet1!A1`Référence à la cellule a1 de la feuille spécifiée dans le classeur spécifié. 
   
-Dans un XLL, une référence sans point d’exclamation principaux (**!**) ne peut pas être convertie en une valeur. Il n’a aucune signification car il n’existe aucune feuille macro en cours. Notez qu’un signe égal (**=**) est facultatif et est omis dans l’exemple suivant.
+Dans une XLL, une référence sans point d'exclamation de début (**!**) ne peut pas être convertie en valeur. Elle n'a aucune signification, car il n'existe pas de feuille macro active. Notez qu'un signe égal à gauche (**=**) est facultatif et n'est pas pris en compte dans l'exemple suivant.
   
 ```C
 int WINAPI evaluate_expression_example(void)
@@ -80,14 +80,14 @@ int WINAPI evaluate_expression_example(void)
 }
 ```
 
-Vous pouvez également utiliser la fonction **xlfEvaluate** pour récupérer l’ID de l’enregistrement d’une fonction XLL à partir de son nom enregistré, qui peut ensuite être utilisé pour appeler cette fonction à l’aide de la [fonction xlUDF](xludf.md).
+Vous pouvez également utiliser la fonction **xlfEvaluate** pour récupérer l'ID d'enregistrement d'une fonction XLL à partir de son nom enregistré, qui peut ensuite être utilisé pour appeler cette fonction à l'aide de la [fonction xlUDF](xludf.md).
   
 > [!NOTE]
-> Le nom enregistré peut être passé directement à la fonction **xlUDF** . Cela signifie que vous pouvez éviter d’avoir à évaluer le nom pour obtenir l’ID avant d’appeler **xlUDF**. Toutefois, si la fonction est d’appeler plusieurs fois, appeler à l’aide de l’enregistrement QU'ID est plus rapide. 
+> Le nom enregistré peut être passé directement à la fonction **xlUDF** . Cela signifie que vous pouvez éviter d'avoir à évaluer le nom pour obtenir l'ID avant d'appeler **xlUDF**. Toutefois, si la fonction doit être appelée plusieurs fois, son appel à l'aide de l'ID d'inscription est plus rapide. 
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Feuille de calcul Excel et d’évaluation d’Expression](excel-worksheet-and-expression-evaluation.md)
-- [Autorisation utilisateur sauts dans les opérations de longue durée](permitting-user-breaks-in-lengthy-operations.md)
+- [Feuille de calcul et évaluation des expressions Excel](excel-worksheet-and-expression-evaluation.md)
+- [Autorisation des interruptions utilisateur lors des opérations très longues](permitting-user-breaks-in-lengthy-operations.md)
 - [Mise en route avec le Kit de d�veloppement logiciel XLL Excel 2013](getting-started-with-the-excel-xll-sdk.md)
 

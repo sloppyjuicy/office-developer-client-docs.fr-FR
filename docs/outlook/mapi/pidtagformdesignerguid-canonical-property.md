@@ -11,46 +11,46 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 30c8f31c104be52da2900eb81c7b7c29dfa55015
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586528"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316232"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propriété canonique PidTagFormDesignerGuid
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur unique de l’objet qui est utilisé pour créer un formulaire.
+Contient l'identificateur unique de l'objet utilisé pour créer un formulaire.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identificateur :  <br/> |0x3309  <br/> |
 |Type de données :  <br/> |PT_GUID  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Généralement, cette propriété contient l’identificateur global unique (GUID) du programme de conception qui est utilisé pour créer le formulaire. Cette propriété peut être vide. 
+Cette propriété contient généralement l'identificateur global unique (GUID) du programme de conception utilisé pour créer le formulaire. Cette propriété peut être vide. 
   
-La structure [MAPIUID](mapiuid.md) contient la définition de l’identificateur unique. 
+La structure [MAPIUID](mapiuid.md) contient la définition de l'identificateur unique. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

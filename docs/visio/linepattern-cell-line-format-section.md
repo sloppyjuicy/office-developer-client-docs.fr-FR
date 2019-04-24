@@ -9,40 +9,40 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
-ms.openlocfilehash: cccc6028de21299942e62c53aba48622baa95f98
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316442"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern, cellule (section Line Format)
 
 Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun motif de trait  <br/> |
-|1  <br/> |Uni  <br/> |
+|0,1  <br/> |Solid  <br/> |
 |2 - 23  <br/> |Motifs de trait assortis  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez afficher l’ensemble des motifs de trait dans la boîte de dialogue **trait** (sous l’onglet **accueil** , dans le groupe **forme** , cliquez sur **trait**, pointez sur **tirets**, puis cliquez sur **Autres traits**).
+Vous pouvez afficher l’ensemble des motifs de trait dans la boîte de dialogue **Trait** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Trait**, pointez sur **Tirets**, puis cliquez sur **Autres traits**).
   
 Pour choisir un motif de trait personnalisé, utilisez la fonction USE dans cette cellule.
   
-Pour obtenir une référence à la cellule LinePattern par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LinePattern par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |LinePattern  <br/> |
    
-Pour obtenir une référence à la cellule LinePattern par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LinePattern à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowLine** <br/> |
 |Index de la cellule :  <br/> |**visLinePattern** <br/> |
    

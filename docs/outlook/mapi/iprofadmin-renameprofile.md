@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4453465c04d7a5a3de79f2ae34d13095863487cf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 162f20485fc21cf8523b6d4a653e52c35f4b3d9a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569504"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317079"
 ---
 # <a name="iprofadminrenameprofile"></a>IProfAdmin::RenameProfile
 
@@ -41,23 +41,23 @@ HRESULT RenameProfile(
 
  _lpszOldProfileName_
   
-> [in] Pointeur vers le nom actuel du profil à renommer.
+> dans Pointeur vers le nom actuel du profil à renommer.
     
  _lpszOldPassword_
   
-> [in] Toujours NULL.
+> dans Toujours NULL.
     
  _lpszNewProfileName_
   
-> [in] Pointeur vers le nouveau nom du profil à renommer.
+> dans Pointeur vers le nouveau nom du profil à renommer.
     
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou windows qui affiche cette méthode. 
+> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche. 
     
  _ulFlags_
   
-> [in] Toujours NULL.
+> dans Toujours NULL.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -67,23 +67,23 @@ S_OK
     
 MAPI_E_LOGON_FAILED 
   
-> Le mot de passe de profil est incorrecte.
+> Le mot de passe du profil est incorrect.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin::RenameProfile** attribue un nouveau nom à un profil, le cas échéant. Si le profil pour renommer est en cours d’utilisation par un client lorsque **RenameProfile** est appelée, **RenameProfile** marque le profil et renvoie S_OK au lieu d’essayer de l’opération de changement alors que le profil est en cours d’utilisation. Lorsque le profil est n’est plus utilisé, **RenameProfile** assigne le nouveau nom. 
+La méthode **IProfAdmin:: RenameProfile** affecte un nouveau nom à un profil, s'il en a un. Si le profil à renommer est utilisé par un client lors de l'appel de **RenameProfile** , **RenameProfile** marque le profil et renvoie S_OK au lieu de tenter l'opération de changement de nom pendant l'utilisation du profil. Lorsque le profil n'est plus utilisé, **RenameProfile** lui attribue le nouveau nom. 
   
-Les noms anciens et nouveaux du profil peuvent contenir jusqu'à 64 caractères et peuvent inclure les caractères suivants :
+L'ancien et le nouveau nom du profil peuvent contenir jusqu'à 64 caractères et peuvent inclure les caractères suivants:
   
-- Tous les caractères alphanumériques, y compris les caractères d’accentuation et le caractère de soulignement.
+- Tous les caractères alphanumériques, y compris les caractères d'accentuation et le trait de soulignement.
     
-- Des espaces, mais pas espaces à gauche ou.
+- Espaces incorporés, mais pas d'espaces de début ou de fin.
     
-Le _lpszPassword_ doit toujours être NULL ou un pointeur vers une chaîne de longueur nulle. 
+L' _lpszPassword_ doit toujours être null ou un pointeur vers une chaîne de longueur nulle. 
   
 ## <a name="see-also"></a>Voir aussi
 

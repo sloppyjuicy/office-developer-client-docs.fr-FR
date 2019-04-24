@@ -11,25 +11,25 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 706c628241e519642209a271dce62d21b16938e8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316478"
 ---
 # <a name="rtfsync"></a>RTFSync
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet de s’assurer que le texte du message RTF (RICH Text Format) correspond à la version en texte brut. Il est nécessaire d’appeler cette fonction avant de lire la version RTF et après avoir modifié la version RTF. 
+Garantit que le texte du message au format RTF (Rich Text Format) correspond à la version en texte brut. Il est nécessaire d'appeler cette fonction avant de lire la version RTF et après avoir modifié la version RTF. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Fournisseurs de magasin de message et les applications clientes compatibles RTF  <br/> |
+|Appelé par :  <br/> |Applications clientes compatibles RTF et fournisseurs de banques de messages  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -43,21 +43,21 @@ HRESULT RTFSync(
 
 _lpMessage_
   
-> [in] Pointeur vers le message à mettre à jour.
+> dans Pointeur vers le message à mettre à jour.
     
 _ulFlags_
   
-> [in] Masque de bits d’indicateurs utilisés pour indiquer la version du message en texte brut ou RTF a changé. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs utilisé pour indiquer que la version au format RTF ou texte brut du message a changé. Les indicateurs suivants peuvent être définis:
     
-  - RTF_SYNC_BODY_CHANGED : La version en texte brut du message a été modifiée.
+  - RTF_SYNC_BODY_CHANGED: la version en texte brut du message a changé.
       
-  - RTF_SYNC_RTF_CHANGED : La version RTF du message a été modifiée.
+  - RTF_SYNC_RTF_CHANGED: la version RTF du message a changé.
     
-  Tous les autres bits dans le paramètre _ulFlags_ sont réservés pour une utilisation future. 
+  Tous les autres bits dans le paramètre _ulFlags_ sont réservés à une utilisation ultérieure. 
     
 _lpfMessageUpdated_
   
-> [out] Pointeur vers une variable qui indique s’il existe un message mis à jour. TRUE si un message mis à jour, FALSE dans le cas contraire.
+> remarquer Pointeur vers une variable qui indique s'il existe un message mis à jour. TRUE s'il existe un message mis à jour, FALSe dans le cas contraire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -67,17 +67,17 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est introuvable ou est FALSE, avant de lire la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) la fonction **RTFSync** doit être appelée avec le RTF_SYNC_BODY_ MODIFIER l’indicateur. 
+Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est manquANTE ou a la valeur false, avant de lire la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la fonction **RTFSync** doit être appelée avec le RTF_SYNC_BODY_ Indicateur modifié. 
   
-Si l’indicateur STORE_RTF_OK n’est pas définie dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), cette fonction doit être appelée avec l’indicateur RTF_SYNC_RTF_CHANGED après avoir modifié **PR_RTF_COMPRESSED**. 
+Si l'indicateur STORE_RTF_OK n'est pas défini dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), cette fonction doit être appelée avec l'indicateur RTF_SYNC_RTF_CHANGED défini après la modification de **PR_RTF_COMPRESSED**. 
   
 Si **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiés, la fonction **RTFSync** doit être appelée avec les deux indicateurs définis. 
   
-Si la valeur du paramètre _lpfMessageUpdated_ est définie sur TRUE, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) doit être appelée pour le message. Si **SaveChanges** n’est pas appelée, les modifications ne seront pas enregistrées dans le message. 
+Si la valeur du paramètre _lpfMessageUpdated_ est définie sur true, la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) doit être appelée pour le message. Si **SaveChanges** n'est pas appelé, les modifications ne seront pas enregistrées dans le message. 
   
-Fournisseurs de magasins message permet de conserver les propriétés **PR_BODY** et **PR_RTF_COMPRESSED** synchronisées **RTFSync** . 
+Les fournisseurs de banques de messages peuvent utiliser **RTFSync** pour synchroniser les propriétés **PR_BODY** et **PR_RTF_COMPRESSED** . 
   
-Pour plus d’informations, voir [Prise en charge de texte RTF pour les fournisseurs de banque de messages](supporting-rtf-text-for-message-store-providers.md). 
+Pour plus d'informations, consultez la rubrique [prise en charge de texte RTF pour les fournisseurs de banque de messages](supporting-rtf-text-for-message-store-providers.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

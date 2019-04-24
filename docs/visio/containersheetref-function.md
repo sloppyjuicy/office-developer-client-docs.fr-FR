@@ -7,47 +7,48 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: Renvoie une référence de feuille au conteneur spécifié contenant la forme.
-ms.openlocfilehash: 6392b4c1a2652f1a831dc585c0be0f430a5ffe0e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318983"
 ---
-# <a name="containersheetref-function"></a>CONTAINERSHEETREF, fonction
+# <a name="containersheetref-function"></a>Fonction CONTAINERSHEETREF
 
 Renvoie une référence de feuille au conteneur spécifié contenant la forme.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-CONTAINERSHEETREF (** *index* ** ** *[, catégorie]* **) 
+CONTAINERSHEETREF (* * *index* * * * * *[, Category]* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Obligatoire  <br/> |**Integer** <br/> |Index de base 1 du conteneur. Voir la section Remarques pour plus d’informations.  <br/> |
-| _category_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Catégorie du conteneur. Voir la section Remarques pour plus d’informations.  <br/> |
+| _index_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Index de base 1 du conteneur. Voir la section Remarques pour plus d'informations.  <br/> |
+| _catégories_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Catégorie du conteneur. Voir la section Remarques pour plus d’informations.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Référence ShapeSheet
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 L’index d’un conteneur est calculé en fonction de l’ordre de plan des conteneurs d’avant en arrière.
   
- *Les catégories* sont des chaînes définies par l’utilisateur que vous pouvez utiliser pour classer les formes. Vous pouvez définir des catégories dans la cellule User.msvShapeCategories dans la feuille ShapeSheet d’une forme. Vous pouvez définir plusieurs catégories d’une forme en séparant les catégories par des points-virgules. 
+ Les *catégories* sont des chaînes définies par l'utilisateur que vous pouvez utiliser pour catégoriser les formes. Vous pouvez définir les catégories dans la cellule User.msvShapeCategories dans la feuille ShapeSheet d’une forme. Vous pouvez définir plusieurs catégories pour une forme en les séparant par des points-virgules. 
   
 Si la forme n’est pas membre d’un conteneur, ou si aucun conteneur ne correspond à l’index spécifié et à la catégorie, CONTAINERSHEETREF renvoie #REF!.
   
 ## <a name="example"></a>Exemple
 
-CONTAINERSHEETREF(1)!Height 
+CONTAINERSHEETREF (1)! Standard 
   
 Renvoie la valeur de la cellule Height du conteneur le plus en avant sur la page à laquelle appartient la forme. 
   

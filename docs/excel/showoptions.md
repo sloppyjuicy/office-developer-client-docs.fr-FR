@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: dbf6f0f50e9f7fa988e83f3b58012e9deac13eac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5b58b71dc4f2441448eb3e0dac2c3c5763675927
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310426"
 ---
 # <a name="showoptions"></a>ShowOptions
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Affiche la boîte de dialogue modale pour collecter des informations à partir de l’utilisateur. Ce point d’entrée est appelé lorsqu’un utilisateur clique sur le bouton **Options** en regard de la zone **type de Cluster** pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie **Avancé** , dans la section **formules** ). Connecteurs de cluster sont responsables de leur propre interface de la boîte de dialogue options de mise en œuvre et de stockage des données connexes dans le Registre ou un autre emplacement. Les options sont des utilisateurs internes pour le connecteur de cluster. Excel n’a pas connaissance d’eux. 
+Affiche une boîte de dialogue modale pour collecter des informations auprès de l'utilisateur. Ce point d'entrée est appelé lorsqu'un utilisateur clique sur le bouton **options** en regard de la zone **type de cluster** pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie **avancé** , sous la section **formules** ). Les connecteurs de cluster sont chargés d'implémenter leur propre interface de boîte de dialogue Options et de stocker les données associées dans le registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les prend pas en compte. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -28,17 +28,17 @@ int ShowOptions(HWND hWndParent)
 
 _hWndParent_
   
-> Un handle vers la fenêtre Excel.
+> Handle de la fenêtre Excel.
     
-## <a name="return-value"></a>Valeur renvoy�e
+## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess** si la boîte de dialogue a été affichée ; **xlHpcRetCallFailed** si elle n’était pas affichée. 
+**xlHpcRetSuccess** si la boîte de dialogue a été affichée; **xlHpcRetCallFailed** si elle n'a pas été affichée. 
   
 ## <a name="remarks"></a>Remarques
 
-Connecteurs de cluster peuvent utiliser cette boîte de dialogue pour obtenir des informations, telles que le serveur de cluster à utiliser, à partir de l’utilisateur.
+Les connecteurs de cluster peuvent utiliser cette boîte de dialogue pour obtenir des informations, telles que le serveur de cluster à utiliser, de l'utilisateur.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Fonctions du connecteur de Cluster Excel](excel-cluster-connector-functions.md)
+- [Fonctions du connecteur de cluster Excel](excel-cluster-connector-functions.md)
 

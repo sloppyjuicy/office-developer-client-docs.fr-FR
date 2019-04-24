@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 37d37d6402b165ea57626fe4791cfb1a4bcf76cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ae4497295328155780fc5208d1699169698e02d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565115"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317170"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prépare le magasin local de la synchronisation dans un état particulier et récupère les informations nécessaires pour répliquer.
+Prépare le magasin local à la synchronisation dans un état particulier et récupère les informations nécessaires à répliquer.
   
 ```cpp
 HRESULT SyncBeg( 
@@ -38,7 +38,7 @@ HRESULT SyncBeg(
 
  _uiSync_
   
->  [in] Entrez le magasin local de l’état. Voici une liste d’identificateurs d’état : 
+>  dans État que le magasin local entrera. Voici une liste d'identificateurs d'État: 
     
 LR_SYNC_IDLE
   
@@ -86,7 +86,7 @@ LR_SYNC_DOWNLOAD_TABLE
     
  _PPV_
   
->  [in] / [out] pointeur vers la structure de données correspondant à l’état d’entrer. 
+>  [in]/[out] pointeur vers la structure de données correspondant à l'État à entrer. 
     
 [DNHIER](dnhier.md)
   
@@ -100,7 +100,7 @@ LR_SYNC_DOWNLOAD_TABLE
   
 > 
     
-[SYNC](sync.md)
+[SYNCHRONI](sync.md)
   
 > 
     
@@ -150,9 +150,9 @@ LR_SYNC_DOWNLOAD_TABLE
     
 ## <a name="remarks"></a>Remarques
 
-Le client appelle **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** pour définir le résultat de la synchronisation et appelle ensuite **[IOSTX::SyncEnd](iostx-syncend.md)** pour mettre fin à cet état. Le client doit appeler **[IOSTX::SyncEnd](iostx-syncend.md)** pour chaque appel à **IOSTX::SyncBeg** afin de déterminer si l’état a été répliqué avec succès. Une fois que cela a été déterminée, Outlook peut commencer à nettoyer son état interne. 
+Le client appelle **[IOSTX:: SetSyncResult](iostx-setsyncresult.md)** pour définir le résultat de la synchronisation, puis appelle **[IOSTX:: SyncEnd,](iostx-syncend.md)** pour mettre fin à cet État. Le client doit appeler **[IOSTX:: SyncEnd,](iostx-syncend.md)** pour chaque appel à **IOSTX:: SyncBeg** afin de déterminer si l'État a été répliqué avec succès. Une fois cette opération effectuée, Outlook peut commencer à nettoyer son état interne. 
   
-La plupart de ces structures contiennent [out] / [in] informations Outlook transmettre des informations sur le client et le client pour transmettre les informations à Outlook. Lorsque le client appelle **IOSTX::SyncBeg**, Outlook alloue de la structure de données pour un état donné et initialise avec les informations pour cet état. Ce sont les informations [out]. Dans un état, le client met à jour la structure de données correspondant pour cet état. Il s’agit du [in] informations. 
+La plupart de ces structures contiennent des informations [out]/[in], ce qui permet à Outlook de transmettre des informations au client et au client de transmettre des informations à Outlook. Lorsque le client appelle **IOSTX:: SyncBeg**, Outlook alloue la structure de données pour un État donné et l'initialise avec les informations pour cet État. Il s'agit des informations [out]. Lorsqu'il est dans un État, le client met à jour la structure de données correspondante pour cet État. Il s'agit des informations [in]. 
   
 ## <a name="see-also"></a>Voir aussi
 

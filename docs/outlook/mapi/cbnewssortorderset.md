@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2fb67e0-ccdb-4eb0-9f8c-75213442159f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b54823ad1de68bd8fd708b69b7c7e3e448cda0fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a9d01d3b8d414032d0d4f05fe5f966640a181ba1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317954"
 ---
 # <a name="cbnewssortorderset"></a>CbNewSSortOrderSet
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d’ordres de tri représentées par des structures [SSortOrder](ssortorder.md) . 
+Calcule le nombre d'octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d'ordres de tri représentés par des structures [SSortOrder](ssortorder.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Structure associée:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbNewSSortOrderSet (_csort)

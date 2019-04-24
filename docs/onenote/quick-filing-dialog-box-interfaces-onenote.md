@@ -7,18 +7,18 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: Cette rubrique décrit les interfaces que vous pouvez utiliser pour personnaliser par programme la boîte de dialogue classement rapide dans OneNote 2013.
-ms.openlocfilehash: d2647ed4d7b9f4487c033260eba8df1e4281c6ef
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317096"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Rapides interfaces boîte de dialogue remplissage (OneNote 2013)
 
 Cette rubrique décrit les interfaces que vous pouvez utiliser pour personnaliser par programme la boîte de dialogue classement rapide dans OneNote 2013.
   
-## <a name="quick-filing-dialog-box"></a>Boîte de dialogue Remplissage rapide
+## <a name="quick-filing-dialog-box"></a>Boîte de dialogue classement rapide
 
 La boîte de dialogue classement rapide dans OneNote 2013 est une boîte de dialogue personnalisable qui permet aux utilisateurs de sélectionner un emplacement au sein de la structure de la hiérarchie OneNote. Emplacements sélectionnables incluent les ordinateurs portables, les groupes de sections, sections, pages et des sous-pages. La boîte de dialogue est utilisée au sein de l'application OneNote et par des applications externes par le biais de l'API OneNote 2013. La figure 1 montre la boîte de dialogue classement rapide dans son état par défaut.
   
@@ -58,7 +58,7 @@ Cette interface autorise l'utilisateur à personnaliser et exécuter la boîte d
 |:-----|:-----|
 |**Description** <br/> |Définit quelle liste résultats récents s'affichera dans la boîte de dialogue classement rapide et indique s'il faut inclure certains emplacements spéciaux classement dans la liste. Les utilisateurs peuvent sélectionner une liste de résultats récents à partir de l'énumération [RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType) . Les utilisateurs peuvent également choisir d'ajouter les options suivantes à la liste : Section en cours, Page en cours ou Notes non classées. Si **RecentResultType.rrtNone** est sélectionné, aucune liste de résultats récents n'est indiqué.  <br/> |
 |**Syntaxe** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
-|**Paramètres** <br/> | _recentResults_ &ndash; Un objet de type **RecentResultType** indiquant quelle liste résultats récents, le cas échéant, doit apparaître. Si **rrtNone** est sélectionné, aucune liste de résultats récents n'apparaît dans la boîte de dialogue.<br/><br/>  _fShowCurrentSection_ &ndash; Valeur de type Boolean qui indique si la section en cours doit être incluse dans la liste des résultats récents.<br/><br/>  _fShowCurrentPage_ &ndash; Valeur de type Boolean qui indique si la page en cours doit être incluse dans la liste des résultats récents.<br/><br/>  _fShowUnfiledNotes_ &ndash; Valeur de type Boolean qui indique si cette section doit être incluse dans la liste des résultats récents.  <br/> |
+|**Paramètres** <br/> | _recentResults_ &ndash; Objet de type **RecentResultType** qui indique quelle liste de résultats récents, le cas échéant, doit apparaître. Si **rrtNone** est sélectionné, aucune liste de résultats récents n'apparaît dans la boîte de dialogue.<br/><br/>  _fShowCurrentSection_ &ndash; Une valeur de type Boolean qui indique si la section active doit être incluse dans la liste des résultats récents.<br/><br/>  _fShowCurrentPage_ &ndash; Une valeur de type Boolean qui indique si la page active doit être incluse dans la liste des résultats récents.<br/><br/>  _fShowUnfiledNotes_ &ndash; Une valeur de type Boolean qui indique si la section Notes non classés doit être incluse dans la liste des résultats récents.  <br/> |
    
 > [!NOTE]
 > [!REMARQUE] Si un emplacement de la classification spéciaux ne peuvent pas être sélectionné à l'aide d'un des boutons dans la boîte de dialogue, il n'est pas affiché dans la liste. Si aucun élément sélectionnable dans la liste des résultats récents n'est trouvée, aucune liste de résultats récents ne s'affiche. 
@@ -87,7 +87,7 @@ L'exemple suivant utilise la méthode **SetRecentResults** pour afficher la sect
 |:-----|:-----|
 |**Description** <br/> |Permet aux utilisateurs d'ajouter et personnaliser des boutons dans la boîte de dialogue. Les utilisateurs peuvent spécifier le texte sur les boutons et les éléments de la hiérarchie de OneNote peuvent être sélectionnés par chaque bouton.  <br/> |
 |**Syntaxe** <br/> | `HRESULT AddButton (`<br/>`[in]BSTR bstrText,`<br/>`[in]HierarchyElement allowedElements,`<br/>`[in]HierarchyElement allowedReadOnlyElements,`<br/>`[in]VARIANT_BOOL fDefault);` <br/> |
-|**Paramètres** <br/> | _bstrText_ &ndash; Une chaîne qui spécifie le texte qui doit apparaître sur le bouton. Pour personnaliser le bouton **OK** par défaut, passez une valeur null en tant que **bstrText**.  <br/><br/>_allowedElements_ &ndash; Un **HierarchyElement** qui indique les éléments de hiérarchie OneNote non en lecture seule avec un utilisateur est autorisé à sélectionner en utilisant le bouton. Pour sélectionner plusieurs éléments, l'utilisateur doit passer l'opérateur **OR** pour toutes les valeurs d'équivalente uint des types **HierarchyElement** autorisés comme un **HierarchyElement**.<br/><br/>  _allowedReadOnlyElements_ &ndash; Un **HierarchyElement** qui indique les éléments de la hiérarchie en lecture seule OneNote un utilisateur est autorisé à sélectionner en utilisant le bouton. Pour sélectionner plusieurs éléments, l'utilisateur doit passer l'opérateur **OR** pour toutes les valeurs d'équivalents **uint** des types **HierarchyElement** autorisés comme un **HierarchyElement**.<br/><br/>  _fDefault_ &ndash; Valeur de type Boolean qui indique si ce bouton doit être le bouton par défaut. Si plusieurs boutons sont définis en tant que valeur par défaut, le bouton dernier spécifié devienne le bouton par défaut.  <br/> |
+|**Paramètres** <br/> | _bstrText_ &ndash; Valeur de type String qui spécifie le texte qui doit apparaître sur le bouton. Pour personnaliser le bouton **OK** par défaut, passez une valeur null en tant que **bstrText**.  <br/><br/>_allowedElements_ &ndash; **HierarchyElement** qui indique quels éléments de hiérarchie OneNote non en lecture seule qu'un utilisateur est autorisé à sélectionner à l'aide du bouton. Pour sélectionner plusieurs éléments, l'utilisateur doit passer l'opérateur **OR** pour toutes les valeurs d'équivalente uint des types **HierarchyElement** autorisés comme un **HierarchyElement**.<br/><br/>  _allowedReadOnlyElements_ &ndash; **HierarchyElement** qui indique quels éléments de hiérarchie en lecture seule OneNote qu'un utilisateur est autorisé à sélectionner à l'aide du bouton. Pour sélectionner plusieurs éléments, l'utilisateur doit passer l'opérateur **OR** pour toutes les valeurs d'équivalents **uint** des types **HierarchyElement** autorisés comme un **HierarchyElement**.<br/><br/>  _fDefault_ &ndash; Valeur booléenne indiquant si ce bouton doit être le bouton par défaut. Si plusieurs boutons sont définis en tant que valeur par défaut, le bouton dernier spécifié devienne le bouton par défaut.  <br/> |
    
 L'exemple suivant ajoute trois boutons à la boîte de dialogue classement rapide. La première condition, **ensemble**, peut être sélectionnée par tous les éléments dans l'arborescence de la hiérarchie OneNote. Les autres, **les ordinateurs portables** et les **Pages**, peuvent être sélectionnés uniquement si leurs éléments correspondants, les ordinateurs portables et les Pages, sont sélectionnés.
   
@@ -121,7 +121,7 @@ L'exemple suivant ajoute trois boutons à la boîte de dialogue classement rapid
 |:-----|:-----|
 |**Description** <br/> |Affiche la boîte de dialogue classement rapide à partir d'un thread. Elle accepte une référence à l'interface **IQuickFilingDialogCallback**, dont la méthode **OnDialogClosed** sera appelée une fois que la boîte de dialogue se ferme.  <br/> |
 |**Syntaxe** <br/> | `HRESULT Run (`<br/>`[in]IQuickFilingDialogCallback piCallback);` <br/> |
-|**Paramètres** <br/> | _piCallback_ &ndash; Une référence à l’interface **IQuickFilingDialogCallback** qui sera instanciée une fois que la boîte de dialogue se ferme.  <br/> |
+|**Paramètres** <br/> | _piCallback_ &ndash; Une référence à l'interface **IQuickFilingDialogCallback** qui sera instanciée une fois la boîte de dialogue fermée.  <br/> |
    
 L'exemple suivant utilise la méthode **Run** pour afficher la boîte de dialogue classement rapide à partir d'un thread. 
   
@@ -207,7 +207,7 @@ La section suivante décrit les méthodes associées aux interfaces détaillées
 |:-----|:-----|
 |**Description** <br/> |Permet aux utilisateurs d'ajouter des fonctionnalités permettant de capturer et utiliser la sélection de l'utilisateur à partir de la boîte de dialogue. Cette méthode est appelée après la fermeture de la boîte de dialogue classement rapide. Cette méthode est une fonction dont les interfaces **IQuickFilingDialogCallback** à définir.  <br/> |
 |**Syntaxe** <br/> | `HRESULT OnDialogClosed (`<br/>`[in]IQuickFilingDialog dialog);` <br/> |
-|**Paramètres** <br/> | _boîte de dialogue_ &ndash; L’objet **IQuickFilingDialog** qui a appelé la méthode **OnDialogClose** .  <br/> |
+|**Paramètres** <br/> | _boîte de dialogue_ &ndash; Objet **IQuickFilingDialog** qui a appelé la méthode **OnDialogClose** .  <br/> |
    
 L'exemple suivant est un exemple d'interface **IQuickFilingDialogCallback**. La méthode **OnDialogClose** imprime la sélection de l'utilisateur à partir de la boîte de dialogue classement rapide sur la console. 
   

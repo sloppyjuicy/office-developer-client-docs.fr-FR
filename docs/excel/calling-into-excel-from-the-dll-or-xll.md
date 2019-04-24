@@ -10,11 +10,11 @@ ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: 8f2b63ba84b0a78bbf317c284913a8ec0986436f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304157"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -113,7 +113,7 @@ Toutes les fonctions de commande figurent dans la plage de nombres décimaux ent
   
 ### <a name="invoking-excel-commands-that-use-dialog-boxes"></a>Appel de commandes Excel qui utilisent des boîtes de dialogue
 
-Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
+Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
   
 L�exemple suivant supprime les fichiers dans le r�pertoire actif correspondant au masque my_data\*.bak. Une bo�te de dialogue s�affiche uniquement si l�argument est vrai.
   

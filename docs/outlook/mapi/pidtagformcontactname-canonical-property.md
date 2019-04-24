@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: aa57c042291b5ab71eb48c3f9f9b67fc1686b0a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316253"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Propriété canonique PidTagFormContactName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’un contact pour plus d’informations sur un formulaire. 
+Contient le nom d'un contact pour obtenir des informations sur un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CONTACT_NAME, PR_FORM_CONTACT_NAME_A, PR_FORM_CONTACT_NAME_W  <br/> |
 |Identificateur :  <br/> |0x3303  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI courantes  <br/> |
+|Domaine :  <br/> |MAPI commun  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Le contact contient généralement le nom d’une personne ou un alias qui est responsable de la maintenance du formulaire. 
+En règle générale, le contact contient le nom d'une personne ou d'un alias responsable de la gestion du formulaire. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

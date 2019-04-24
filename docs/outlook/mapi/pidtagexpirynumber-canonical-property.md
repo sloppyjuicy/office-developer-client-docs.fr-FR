@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: da90347f5aacdb2fcac8547eddd5b89a0a44820d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316365"
 ---
 # <a name="pidtagexpirynumber-canonical-property"></a>Propriété canonique PidTagExpiryNumber
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit le délai d’expiration envoi conjointement avec la propriété **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Définit l'heure d'envoi en conjonction avec la propriété **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Définit le délai d’expiration envoi conjointement avec la propriété **PR_E
    
 ## <a name="remarks"></a>Remarques
 
-Valeur de cette propriété doit être définie entre 0 et 999 inclus, s’il est présent.
+La valeur de cette propriété doit être comprise entre 0 et 999 inclus, si elle est présente.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

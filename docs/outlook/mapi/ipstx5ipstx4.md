@@ -11,32 +11,32 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43052e57-4712-410a-eb07-2a7c5bc124bd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5f80b67caa803c5e89de6cd74baaebd3a9f2b2a5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 387a7bdf2939f9ec618b0e86eeb00f3fddc9caa2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309687"
 ---
 # <a name="ipstx5--ipstx4"></a>IPSTX5 : IPSTX4
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d’assistance lors de l’exécution de la réplication via l’interface IOSTX.
+Cette interface fournit des fonctionnalités d'assistance lors de l'exécution de la réplication via l'interface IOSTX.
   
 |||
 |:-----|:-----|
-|Auteur  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
-|Identificateur de l’interface :  <br/> |IID_IPSTX5  <br/> |
+|Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Identificateur de l'interface:  <br/> |IID_IPSTX5  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-| *Membres de l’espace réservé*  <br/> | *Non pris en charge ou documentés.*  <br/> |
+| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b5a2cd09942559167300d8a921987864b8c5e48f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dccb6b19af72d0f748a3a513b7f3d78904ebc789
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315133"
 ---
 # <a name="currency"></a>CURRENCY
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un entier signé de 64 bits représentant une valeur monétaire. 
+Contient un entier 64 bits signé représentant une valeur monétaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct tagCY
@@ -42,19 +42,19 @@ typedef struct tagCY
 
 ## <a name="members"></a>Members
 
- **LO**
+ **Count**
   
-> Poids faible 32 bits de la valeur monétaire. 
+> Ordre bas 32 bits de la valeur monétaire. 
     
  **Salut**
   
-> Ordre haut 32 bits de la valeur monétaire.
+> Ordre 32 bits de poids fort de la valeur monétaire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure de **devise** est une représentation sous forme d’entier à l’échelle d’un nombre décimal avec quatre chiffres à droite du séparateur décimal. Par exemple, une valeur stockée de 327500 doit être interprété comme représentant une valeur de devise de 32.7500. 
+La structure **monétaire** est une représentation entière à l'horizontale d'un nombre décimal à quatre chiffres à droite de la virgule. Par exemple, une valeur stockée de 327500 doit être interprétée comme représentant une valeur monétaire de 32,7500. 
   
-La structure de la **devise** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d’informations sur les types de propriété, voir [Vue d’ensemble des types de propriété MAPI](mapi-property-type-overview.md).
+La structure **Currency** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d'informations sur les types de propriétés, voir [MAPI Property type Overview](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>Voir aussi
 

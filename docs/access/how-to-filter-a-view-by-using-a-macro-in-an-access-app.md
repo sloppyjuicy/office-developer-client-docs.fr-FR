@@ -8,11 +8,11 @@ ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
 localization_priority: Priority
 ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302672"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 

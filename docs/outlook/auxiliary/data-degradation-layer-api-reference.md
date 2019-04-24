@@ -1,26 +1,26 @@
 ---
-title: Référence des données dégradation de la couche API
+title: Référence de l'API de la couche de dégradation des données
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: c6c6bfda-5525-4618-b08c-bf85440b7415
-description: Contenu de référence de l’API de couche données dégradation, qui permet de masquer le format natif sous-jacent d’un objet Outlook.
-ms.openlocfilehash: 5cc4d84b59dae9f38e7780b1c992693e830c188f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contenu de référence pour l'API de la couche de déGradation des données, qui permet de masquer le format de caractère natif sous-jacent d'un objet Outlook.
+ms.openlocfilehash: 4edbf09ce2b123425a271f090a466fdad770fb0b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317709"
 ---
-# <a name="data-degradation-layer-api-reference"></a>Référence des données dégradation de la couche API
+# <a name="data-degradation-layer-api-reference"></a>Référence de l'API de la couche de dégradation des données
 
-Cette section fournit du contenu de référence pour la dégradation de la couche API de données, qui permet de masquer le format natif sous-jacent d’un objet Outlook, permettre à un client pour accéder à l’objet dans un format de caractères préféré plutôt que dans le format natif de l’objet.
+Cette section fournit du contenu de référence pour l'API de la couche de déGradation des données, qui permet de masquer le format de caractère natif sous-jacent d'un objet Outlook, ce qui permet à un client d'accéder à l'objet dans un format de caractères préféré plutôt que dans le format de caractère natif de l'objet.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Constantes](constants-data-degradation-layer-api.md)
+- [Constants](constants-data-degradation-layer-api.md)
     
 - [Functions](functions-data-degradation-layer-api.md)
     

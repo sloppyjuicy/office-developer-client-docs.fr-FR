@@ -1,33 +1,33 @@
 ---
-title: L’initialisation d’un fournisseur de magasins PST encapsulé
+title: Initialisation d’un fournisseur d’archive PST encapsulée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: 'Dernière modification : 05 octobre 2012'
-ms.openlocfilehash: c39f66917ecc080785b3a3e91506d3994427ca62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 1er octobre 2012'
+ms.openlocfilehash: 31114e4082fbc5e4c57da95eb6b32339822b1645
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317240"
 ---
-# <a name="initializing-a-wrapped-pst-store-provider"></a>L’initialisation d’un fournisseur de magasins PST encapsulé
+# <a name="initializing-a-wrapped-pst-store-provider"></a>Initialisation d’un fournisseur d’archive PST encapsulée
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour implémenter un fournisseur de magasin de dossiers personnels (PST) de fichier encapsulé, vous devez initialiser le fournisseur de banque PST encapsulé à l’aide de la fonction **[MSProviderInit](msproviderinit.md)** comme point d’entrée. Une fois que la DLL du fournisseur est initialisée, la fonction **[MSGSERVICEENTRY](msgserviceentry.md)** configure le fournisseur de banque PST justifié. 
+Pour implémenter un fournisseur de magasins de fichiers de dossiers personnels (PST), vous devez initialiser le fournisseur de magasins PST encapsulé à l'aide de la fonction **[MSProviderInit](msproviderinit.md)** comme point d'entrée. Après l'initialisation de la DLL du fournisseur, la fonction **[MSGSERVICEENTRY](msgserviceentry.md)** configure le fournisseur de magasins PST encapsulé. 
   
-Dans cette rubrique, la fonction **MSProviderInit** et la fonction **MSGSERVICEENTRY** sont illustrées à l’aide des exemples de code à partir du fournisseur de magasin exemple encapsulé PST. L’exemple implémente un fournisseur PST renvoyé à la ligne qui est destiné à être utilisé conjointement avec l’API de réplication. Pour plus d’informations sur le téléchargement et l’installation du fournisseur de magasin exemple encapsulé PST, voir [installer le fournisseur de banque exemple encapsulé PST](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d’informations sur l’API de réplication, consultez la rubrique [Sur l’API de réplication](about-the-replication-api.md).
+Dans cette rubrique, la fonction **MSProviderInit** et la fonction **MSGSERVICEENTRY** sont démontrées à l'aide d'exemples de code issus de l'exemple de fournisseur de magasins PST encapsulé. L'exemple implémente un fournisseur PST encapsulé destiné à être utilisé conjointement avec l'API de réPlication. Pour plus d'informations sur le téléchargement et l'installation de l'exemple de fournisseur de magasins PST encapsulé, consultez [la rubrique installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d'informations sur l'API de réPlication, voir [à propos de l'API](about-the-replication-api.md)de réplication.
   
-Une fois que vous avez initialisé un fournisseur de magasins PST encapsulé, vous devez implémenter les fonctions afin que MAPI et le spouleur MAPI peuvent ouvrir une session sur le fournisseur de banque de messages. Pour plus d’informations, consultez [Ouverture de session à un fournisseur de magasin PST encapsulé](logging-on-to-a-wrapped-pst-store-provider.md).
+Une fois que vous avez initialisé un fournisseur de magasins PST encapsulé, vous devez implémenter des fonctions afin que MAPI et le spouleur MAPI puissent se connecter au fournisseur de banque de messages. Pour plus d'informations, consultez [la rubrique connexion à un fournisseur de magasins PST encapsulé](logging-on-to-a-wrapped-pst-store-provider.md).
   
-## <a name="initialization-routine"></a>Routine d’initialisation
+## <a name="initialization-routine"></a>Routine d'initialisation
 
-Tous les fournisseurs de magasins PST encapsulés doivent implémenter la fonction **[MSProviderInit](msproviderinit.md)** en tant que point d’entrée pour initialiser la DLL du fournisseur. **MSProviderInit** vérifie si le numéro de version de l’interface de fournisseur de service, `ulMAPIVer`, est compatible avec le numéro de version actuelle, `CURRENT_SPI_VERSION`. La fonction enregistre la mémoire MAPI routines de gestion dans le `g_lpAllocateBuffer`, `g_lpAllocateMore`, et `g_lpFreeBuffer` paramètres. Ces routines de gestion de mémoire doivent être utilisées dans l’implémentation du stockage PST encapsulée pour libération et l’allocation de mémoire. 
+Tous les fournisseurs de magasins PST encapsulés doivent implémenter la fonction **[MSProviderInit](msproviderinit.md)** en tant que point d'entrée pour initialiser la dll du fournisseur. **MSProviderInit** vérifie si le numéro de version de l'interface du fournisseur de services `ulMAPIVer`,, est compatible avec le numéro de version `CURRENT_SPI_VERSION`actuel,. La fonction enregistre les routines de gestion de la mémoire `g_lpAllocateBuffer`MAPI `g_lpAllocateMore`dans les `g_lpFreeBuffer` paramètres, et. Ces routines de gestion de la mémoire doivent être utilisées tout au long de l'implémentation de la Banque PST encapsulée pour l'allocation et la désallocation de la mémoire. 
   
-### <a name="msproviderinit-example"></a>Exemple MSProviderInit()
+### <a name="msproviderinit-example"></a>Exemple de MSProviderInit ()
 
 ```cpp
 STDINITMETHODIMP MSProviderInit ( 
@@ -106,9 +106,9 @@ STDINITMETHODIMP MSProviderInit (
 }
 ```
 
-### <a name="wrapped-pst-and-unicode-paths"></a>Chemins d’accès des fichiers PST et Unicode encapsulés
+### <a name="wrapped-pst-and-unicode-paths"></a>Chemins d'accès PST et Unicode encapsulés
 
-Pour adapter l’exemple d’origine préparé dans Microsoft Visual Studio 2008 à utiliser des chemins d’accès Unicode NST pour prenant en charge Unicode Microsoft Outlook 2010 et Outlook 2013, utilisez la routine **CreateStoreEntryID** , ce qui génère l’identificateur d’entrée, un format pour les chemins d’accès ASCII et l’autre pour les chemins d’accès Unicode. Ils sont représentés sous forme de structures dans l’exemple suivant. 
+Pour répartir l'exemple d'origine préparé dans Microsoft Visual Studio 2008 afin d'utiliser des chemins d'accès Unicode pour NST afin de l'utiliser dans Microsoft Outlook 2010 et Outlook 2013, la routine **CreateStoreEntryID** , qui génère l'identificateur d'entrée, doit utiliser un format pour les chemins d'accès ASCII et un autre pour les chemins d'accès Unicode. Celles-ci sont représentées en tant que structures dans l'exemple suivant. 
   
 ```cpp
 typedef struct                              // short format
@@ -131,13 +131,13 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> Les différences entre ces structures sont deux octets NULL avant un chemin d’accès Unicode. Si vous devez interpréter l’identificateur d’entrée dans le « Service entrée Routine » qui suit, pour déterminer si tel est le cas ou non serait d’effectuer un cast comme EIDMS tout d’abord, puis vérifiez si le szPath [0] est NULL. S’il s’agit, convertissez-le en tant que EIDMSW à la place. 
+> Les différences entre ces structures sont deux octets nuls avant un chemin d'accès Unicode. Si vous devez interpréter l'identificateur d'entrée dans la «routine de saisie de service» qui suit, une façon de déterminer si c'est le cas ou non est d'abord d'effectuer un cast en tant que EIDMS, puis de vérifier si la valeur de szPath [0] est NULL. Si c'est le cas, convertissez-le en tant que EIDMSW à la place. 
   
-## <a name="service-entry-routine"></a>Routine d’entrée de service
+## <a name="service-entry-routine"></a>Routine de saisie de service
 
-La fonction **[MSGSERVICEENTRY](msgserviceentry.md)** est le point d’entrée de service message où le fournisseur de banque PST encapsulé est configuré. Les appels de fonction `GetMemAllocRoutines()` pour obtenir des routines de gestion de la mémoire MAPI. La fonction utilise le `lpProviderAdmin` paramètre pour rechercher la section profil pour le fournisseur et définit les propriétés du profil. 
+La fonction **[MSGSERVICEENTRY](msgserviceentry.md)** est le point d'entrée du service de messagerie où le fournisseur de magasins PST encapsulé est configuré. La fonction appelle `GetMemAllocRoutines()` pour obtenir les routines de gestion de la mémoire MAPI. La fonction utilise le `lpProviderAdmin` paramètre pour localiser la section de profil du fournisseur et définit les propriétés dans le profil. 
   
-### <a name="serviceentry-example"></a>Exemple ServiceEntry()
+### <a name="serviceentry-example"></a>Exemple de ServiceEntry ()
 
 ```cpp
 HRESULT STDAPICALLTYPE ServiceEntry ( 
@@ -243,9 +243,9 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l’exemple de fournisseur d’archive PST encapsulée](about-the-sample-wrapped-pst-store-provider.md)
-- [Installation de l’exemple de fournisseur d’archive PST encapsulée](installing-the-sample-wrapped-pst-store-provider.md)
-- [Connexion à un fournisseur d’archive PST encapsulée](logging-on-to-a-wrapped-pst-store-provider.md)
-- [Utilisation d’un fournisseur d’archive PST encapsulée](using-a-wrapped-pst-store-provider.md)
-- [Arrêt d’un fournisseur d’archive PST encapsulée](shutting-down-a-wrapped-pst-store-provider.md)
+- [À propos de l'exemple de fournisseur de banque d'informations PST encapsulé](about-the-sample-wrapped-pst-store-provider.md)
+- [Installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md)
+- [Connexion à un fournisseur de magasins PST encapsulé](logging-on-to-a-wrapped-pst-store-provider.md)
+- [Utilisation d'un fournisseur de magasins PST encapsulé](using-a-wrapped-pst-store-provider.md)
+- [Arrêt d'un fournisseur de magasins PST encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
 

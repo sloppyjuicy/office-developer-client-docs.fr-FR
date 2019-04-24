@@ -9,25 +9,25 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f9d4ee2d-c7da-d969-4457-e37384768ac5
 description: Décode une chaîne encodée base64 et la stocke sous la forme de données binaires.
-ms.openlocfilehash: b94b2c9934cb1522ec22d4503ff2590c671217da
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3dedbbe80f1ffab04ef6dd2b2cacf79da374a6ae
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788147"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317961"
 ---
-# <a name="blob-function"></a>BLOB, fonction
+# <a name="blob-function"></a>Fonction BLOB
 
 Décode une chaîne encodée base64 et la stocke sous la forme de données binaires. 
   
 ## <a name="syntax"></a>Syntaxe
 
-BLOB (** *bintext* **) 
+BLOB (* * *bintext* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _bintext_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Chaîne codée en base64.  <br/> |
+| _bintext_ <br/> |Obligatoire  <br/> |**String** <br/> | Chaîne codée en base64.  <br/> |
    
 

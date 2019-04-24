@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - ConvertXLRef12ToXLRef
 keywords:
-- fonction convertxlref12toxlref [excel 2007]
+- fonction ConvertXLRef12ToXLRef [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 826428edb57eba9e17d601164aa8b4b797fc8929
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0a12052a93d030088feb548449955129ff5bdc0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782016"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311052"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Tente de convertir un **XLREF12** un **XLREF**.
+Tente de convertir un **XLREF12** en **XLREF**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
@@ -36,15 +36,15 @@ Pointeur vers la structure de référence source.
   
  _pxRef_ (**LPXLREF**)
   
-Pointeur vers la structure de référence cible dans lequel la valeur convertie doit être placé.
+Pointeur vers la structure de référence cible dans laquelle la valeur convertie doit être placée.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
- **TRUE** si la conversion a réussi, **FALSE** dans le cas contraire. 
+ **True** si la conversion a réussi **** , false dans le cas contraire. 
   
 ## <a name="remarks"></a>Remarques
 
-La conversion de **XLREF12** en **XLREF** échoue si la référence fournie fait référence à la partie d’une feuille de calcul Excel 2007 qui n’est pas pris en charge dans les versions antérieures. 
+La conversion de **XLREF12** vers **XLREF** échoue si la référence fournie fait référence à une partie d'une feuille de calcul Excel 2007 qui n'est pas prise en charge dans les versions antérieures. 
   
 ## <a name="example"></a>Exemple
 

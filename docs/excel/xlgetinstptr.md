@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a166f39c-f10b-4e56-8b5d-e6a54ee08c8f
 description: 'S�applique �: Excel 2013�| Office 2013�| Visual Studio'
-ms.openlocfilehash: 7cc07093e5db335d01fe85527746594d34d4d938
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fd4b4ad5bf52f29384ef7e0ba738c350189f471e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310051"
 ---
 # <a name="xlgetinstptr"></a>xlGetInstPtr
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le descripteur d’instances de l’instance de Microsoft Excel en appelant une DLL.
+Renvoie le descripteur d'instance de l'instance de Microsoft Excel qui appelle actuellement une DLL.
   
 ```cs
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
@@ -26,23 +26,23 @@ Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction ne comporte aucun argument.
+Cette fonction n'a pas d'argument.
   
-## <a name="property-valuereturn-value"></a>Propriété valeur/valeur de retour
+## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Le descripteur d’instances (**xltypeBigData**) est inclus dans le champ **val.bigdata.h.hdata** . 
+Le handle d'instance (**xltypeBigData**) se trouve dans le champ **Val. bigdata. h. hdata** . 
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances en cours d’exécution de Microsoft Excel qui appellent la DLL.
+Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d'Excel en cours d'exécution qui appellent la DLL.
   
-Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits de Microsoft Excel. Elle a été introduite dans Excel 2010 comme une extension à la fonction [xlGetInst](xlgetinst.md) , qui fonctionne uniquement avec les versions 32 bits de Microsoft Excel. 
+Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits d'Excel. Elle a été introduite dans Excel 2010 en tant qu'extension de la fonction [xlGetInst](xlgetinst.md) , qui fonctionne correctement uniquement avec les versions 32 bits d'Excel. 
   
-Cette fonction fonctionne correctement lorsqu’elle est appelée à l’aide de ces deux types de fonctions de rappel API, [Excel4 et Excel12](excel4-excel12.md) car **XLOPER** et **XLOPER12** ont la même structure qui prend en charge la valeur **xltypeBigData** tapez. 
+Cette fonction fonctionne correctement lorsqu'elle est appelée à l'aide des variétés [Excel4 et Excel12](excel4-excel12.md) des fonctions de rappel de l'API, car **XLOPER** et **XLOPER12** ont la même structure qui prend en charge la valeur **xltypeBigData** entrer. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant compare l’instance de la dernière copie d’Excel qui l’a appelé à la copie active de Microsoft Excel qui l’a appelé. Si elles sont les mêmes, elle renvoie la valeur 1 ; dans le cas contraire, elle renvoie la valeur 0 ; Si la fonction échoue, elle renvoie -1. Cet exemple fonctionne avec les versions 32 bits et 64 bits de Microsoft Excel.
+L'exemple suivant compare l'instance de la dernière copie d'Excel qui a été appelée à la copie actuelle d'Excel qui l'a appelée. Si elles sont identiques, elle renvoie 1; Si ce n'est pas le cas, il renvoie 0; Si la fonction échoue, elle renvoie-1. Cet exemple fonctionne avec les versions 32 bits et 64 bits d'Excel.
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -72,5 +72,5 @@ short WINAPI xlGetInstPtrExample(void)
 
 - [xlGetHwnd](xlgethwnd.md)
 - [xlGetInst](xlgetinst.md)
-- [Fonctions de l’API C qui peuvent être appelées uniquement à partir d’une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

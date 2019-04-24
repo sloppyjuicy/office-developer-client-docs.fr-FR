@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f35780540f42fd4d3777b9fdd89c6795c97d98fe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: becb058fc6434765c238421f59a8775fb76c2d2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32315441"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propriété canonique PidLidIsInterpersonalFax
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l’élément est un élément de télécopie internet.
+Indique si l'élément est un élément de télécopie Internet.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidIsIPFax  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
-|ID de type long (capot) :  <br/> |0x0000859B  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
+|ID long (couvercle):  <br/> |0x0000859B  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

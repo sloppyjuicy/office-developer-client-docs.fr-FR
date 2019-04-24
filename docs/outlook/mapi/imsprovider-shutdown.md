@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 342b87a3a8f0349631e64600e294d4f19ab1099c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317261"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22589090"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ferme un fournisseur de magasin de message de manière ordonnée.
+Ferme un fournisseur de banque de messages de manière ordonnée.
   
 ```cpp
 HRESULT Shutdown(
@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> [in] Réservé ; doit être un pointeur vers zéro.
+> dans MSR doit être un pointeur vers zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSProvider::Shutdown** juste avant de libérer l’objet de fournisseur de magasin de message. MAPI libère tous les objets d’ouverture de session pour un fournisseur avant l’appel de **l’arrêt** de ce fournisseur. 
+MAPI appelle la méthode **IMSProvider:: Shutdown** juste avant de libérer l'objet fournisseur de la Banque de messages. MAPI libère tous les objets d'ouverture de session pour un fournisseur avant d'appeler l' **arrêt** pour ce fournisseur. 
   
 ## <a name="see-also"></a>Voir aussi
 
