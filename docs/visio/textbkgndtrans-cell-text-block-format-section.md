@@ -9,39 +9,39 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.
-ms.openlocfilehash: d9fee430cb2ccd19e8d6069e7561a8fef409a62e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332321"
 ---
-# <a name="textbkgndtrans-cell-text-block-format-section"></a><span data-ttu-id="fd159-103">TextBkgndTrans, cellule (section Text Block Format)</span><span class="sxs-lookup"><span data-stu-id="fd159-103">TextBkgndTrans Cell (Text Block Format Section)</span></span>
+# <a name="textbkgndtrans-cell-text-block-format-section"></a><span data-ttu-id="0c2df-103">TextBkgndTrans, cellule (section Text Block Format)</span><span class="sxs-lookup"><span data-stu-id="0c2df-103">TextBkgndTrans Cell (Text Block Format Section)</span></span>
 
-<span data-ttu-id="fd159-104">Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.</span><span class="sxs-lookup"><span data-stu-id="fd159-104">Determines the transparency level for the background color of the shape's text block.</span></span>
+<span data-ttu-id="0c2df-104">Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.</span><span class="sxs-lookup"><span data-stu-id="0c2df-104">Determines the transparency level for the background color of the shape's text block.</span></span>
   
-|<span data-ttu-id="fd159-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="fd159-105">**Value**</span></span>|<span data-ttu-id="fd159-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="fd159-106">**Description**</span></span>|
+|<span data-ttu-id="0c2df-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="0c2df-105">**Value**</span></span>|<span data-ttu-id="0c2df-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="0c2df-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fd159-107">0 - 100</span><span class="sxs-lookup"><span data-stu-id="fd159-107">0 - 100</span></span>  <br/> |<span data-ttu-id="fd159-p101">Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).</span><span class="sxs-lookup"><span data-stu-id="fd159-p101">Represents the percentage of transparency. The default is 0% (completely opaque).</span></span>  <br/> |
+|<span data-ttu-id="0c2df-107">0 - 100</span><span class="sxs-lookup"><span data-stu-id="0c2df-107">0 - 100</span></span>  <br/> |<span data-ttu-id="0c2df-p101">Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).</span><span class="sxs-lookup"><span data-stu-id="0c2df-p101">Represents the percentage of transparency. The default is 0% (completely opaque).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fd159-110">Note</span><span class="sxs-lookup"><span data-stu-id="fd159-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c2df-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="0c2df-110">Remarks</span></span>
 
-<span data-ttu-id="fd159-p102">Les valeurs sont arrondies au pourcentage le plus proche. Une valeur de 100 % correspond à une transparence totale. Même si une forme dont l’arrière-plan de texte est entièrement transparent apparaît identique sur la page de dessin à une forme dépourvue d’arrière-plan de texte, elle interagit avec les autres objets de la page de la même façon que si elle avait une transparence de 0 %.</span><span class="sxs-lookup"><span data-stu-id="fd159-p102">Values are rounded to the nearest half percent. A value of 100% is completely transparent. Although a shape that has a completely transparent text background appears the same on the drawing page as a shape that has no text background, it interacts with other objects on the page in the same way as if its transparency were 0%.</span></span>
+<span data-ttu-id="0c2df-p102">Les valeurs sont arrondies au pourcentage le plus proche. Une valeur de 100 % correspond à une transparence totale. Même si une forme dont l’arrière-plan de texte est entièrement transparent apparaît identique sur la page de dessin à une forme dépourvue d’arrière-plan de texte, elle interagit avec les autres objets de la page de la même façon que si elle avait une transparence de 0 %.</span><span class="sxs-lookup"><span data-stu-id="0c2df-p102">Values are rounded to the nearest half percent. A value of 100% is completely transparent. Although a shape that has a completely transparent text background appears the same on the drawing page as a shape that has no text background, it interacts with other objects on the page in the same way as if its transparency were 0%.</span></span>
   
-<span data-ttu-id="fd159-114">Vous pouvez également définir cette valeur à l’aide du curseur sous l’onglet **police** de la boîte de dialogue **texte** (sous l’onglet **accueil** , cliquez sur la flèche **police** ).</span><span class="sxs-lookup"><span data-stu-id="fd159-114">You can also set this value using the slider control on the **Font** tab of the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
+<span data-ttu-id="0c2df-114">Vous pouvez également définir cette valeur à l’aide du curseur sous l’onglet **Police** de la boîte de dialogue **Texte** (sous l’onglet **Accueil**, cliquez sur la flèche **Police**).</span><span class="sxs-lookup"><span data-stu-id="0c2df-114">You can also set this value using the slider control on the **Font** tab of the **Text** dialog box (on the **Home** tab, click the **Font** arrow).</span></span> 
   
-<span data-ttu-id="fd159-115">Pour obtenir une référence à la cellule TextBkgndTrans par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez :</span><span class="sxs-lookup"><span data-stu-id="fd159-115">To get a reference to the TextBkgndTrans cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="0c2df-115">Pour obtenir une référence à la cellule TextBkgndTrans par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="0c2df-115">To get a reference to the TextBkgndTrans cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fd159-116">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="fd159-116">Cell name:</span></span>  <br/> |<span data-ttu-id="fd159-117">TextBkgndTrans</span><span class="sxs-lookup"><span data-stu-id="fd159-117">TextBkgndTrans</span></span>  <br/> |
+|<span data-ttu-id="0c2df-116">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="0c2df-116">Cell name:</span></span>  <br/> |<span data-ttu-id="0c2df-117">TextBkgndTrans</span><span class="sxs-lookup"><span data-stu-id="0c2df-117">TextBkgndTrans</span></span>  <br/> |
    
-<span data-ttu-id="fd159-118">Pour obtenir une référence à la cellule TextBkgndTrans par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="fd159-118">To get a reference to the TextBkgndTrans cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="0c2df-118">Pour obtenir une référence à la cellule TextBkgndTrans par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="0c2df-118">To get a reference to the TextBkgndTrans cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fd159-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="fd159-119">Section index:</span></span>  <br/> |<span data-ttu-id="fd159-120">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fd159-120">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="fd159-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="fd159-121">Row index:</span></span>  <br/> |<span data-ttu-id="fd159-122">**visRowText**</span><span class="sxs-lookup"><span data-stu-id="fd159-122">**visRowText**</span></span> <br/> |
-|<span data-ttu-id="fd159-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="fd159-123">Cell index:</span></span>  <br/> |<span data-ttu-id="fd159-124">**visTxtBlkBkgndTrans**</span><span class="sxs-lookup"><span data-stu-id="fd159-124">**visTxtBlkBkgndTrans**</span></span> <br/> |
+|<span data-ttu-id="0c2df-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="0c2df-119">Section index:</span></span>  <br/> |<span data-ttu-id="0c2df-120">**Définis**</span><span class="sxs-lookup"><span data-stu-id="0c2df-120">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="0c2df-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="0c2df-121">Row index:</span></span>  <br/> |<span data-ttu-id="0c2df-122">**visRowText**</span><span class="sxs-lookup"><span data-stu-id="0c2df-122">**visRowText**</span></span> <br/> |
+|<span data-ttu-id="0c2df-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="0c2df-123">Cell index:</span></span>  <br/> |<span data-ttu-id="0c2df-124">**visTxtBlkBkgndTrans**</span><span class="sxs-lookup"><span data-stu-id="0c2df-124">**visTxtBlkBkgndTrans**</span></span> <br/> |
    
 

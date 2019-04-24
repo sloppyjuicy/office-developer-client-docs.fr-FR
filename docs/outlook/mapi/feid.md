@@ -7,23 +7,23 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Dernière modification : 02 juillet 2012'
-ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification le: 02 juillet 2012'
+ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588306"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334838"
 ---
-# <a name="feid"></a><span data-ttu-id="a8494-103">FEID</span><span class="sxs-lookup"><span data-stu-id="a8494-103">FEID</span></span>
+# <a name="feid"></a><span data-ttu-id="27a9e-103">FEID</span><span class="sxs-lookup"><span data-stu-id="27a9e-103">FEID</span></span>
 
  
   
-<span data-ttu-id="a8494-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a8494-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="27a9e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="27a9e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a8494-105">Identificateur d’un dossier.</span><span class="sxs-lookup"><span data-stu-id="a8494-105">Identifier for a folder.</span></span> <span data-ttu-id="a8494-106">Il contient un identificateur d’entrée et d’autres informations pertinentes.</span><span class="sxs-lookup"><span data-stu-id="a8494-106">It contains an entry identifier and other relevant information.</span></span>
+<span data-ttu-id="27a9e-105">Identificateur d'un dossier.</span><span class="sxs-lookup"><span data-stu-id="27a9e-105">Identifier for a folder.</span></span> <span data-ttu-id="27a9e-106">Il contient un identificateur d'entrée et d'autres informations pertinentes.</span><span class="sxs-lookup"><span data-stu-id="27a9e-106">It contains an entry identifier and other relevant information.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a8494-107">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="a8494-107">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="27a9e-107">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="27a9e-107">Quick info</span></span>
 
 ```cpp
 struct FEID 
@@ -35,35 +35,35 @@ struct FEID
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="a8494-108">Members</span><span class="sxs-lookup"><span data-stu-id="a8494-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="27a9e-108">Membres</span><span class="sxs-lookup"><span data-stu-id="27a9e-108">Members</span></span>
 
- <span data-ttu-id="a8494-109">_abFlags_</span><span class="sxs-lookup"><span data-stu-id="a8494-109">_abFlags_</span></span>
+ <span data-ttu-id="27a9e-109">_abFlags_</span><span class="sxs-lookup"><span data-stu-id="27a9e-109">_abFlags_</span></span>
   
-> <span data-ttu-id="a8494-110">identificateur d’entrée de 4 octets pour le dossier.</span><span class="sxs-lookup"><span data-stu-id="a8494-110">4-byte entry identifier for the folder.</span></span> <span data-ttu-id="a8494-111">Pour plus d’informations sur les identificateurs d’entrée MAPI, voir **[ENTRYID](entryid.md)**.</span><span class="sxs-lookup"><span data-stu-id="a8494-111">For more information about MAPI entry identifiers, see **[ENTRYID](entryid.md)**.</span></span> 
+> <span data-ttu-id="27a9e-110">identificateur d'entrée sur 4 octets pour le dossier.</span><span class="sxs-lookup"><span data-stu-id="27a9e-110">4-byte entry identifier for the folder.</span></span> <span data-ttu-id="27a9e-111">Pour plus d'informations sur les identificateurs d'entrée MAPI, voir **[EntryID](entryid.md)**.</span><span class="sxs-lookup"><span data-stu-id="27a9e-111">For more information about MAPI entry identifiers, see **[ENTRYID](entryid.md)**.</span></span> 
     
- <span data-ttu-id="a8494-112">_muid_</span><span class="sxs-lookup"><span data-stu-id="a8494-112">_muid_</span></span>
+ <span data-ttu-id="27a9e-112">_muid_</span><span class="sxs-lookup"><span data-stu-id="27a9e-112">_muid_</span></span>
   
-> <span data-ttu-id="a8494-113">GUID qui identifie le fournisseur de banque.</span><span class="sxs-lookup"><span data-stu-id="a8494-113">GUID that identifies the store provider.</span></span> <span data-ttu-id="a8494-114">Voir mapidefs.h pour la définition du type de **MAPIUID**.</span><span class="sxs-lookup"><span data-stu-id="a8494-114">See mapidefs.h for the type definition of **MAPIUID**.</span></span> 
+> <span data-ttu-id="27a9e-113">GUID qui identifie le fournisseur de banque.</span><span class="sxs-lookup"><span data-stu-id="27a9e-113">GUID that identifies the store provider.</span></span> <span data-ttu-id="27a9e-114">Voir mapidefs. h pour la définition de type de **MAPIUID**.</span><span class="sxs-lookup"><span data-stu-id="27a9e-114">See mapidefs.h for the type definition of **MAPIUID**.</span></span> 
     
- <span data-ttu-id="a8494-115">_espace réservé_</span><span class="sxs-lookup"><span data-stu-id="a8494-115">_placeholder_</span></span>
+ <span data-ttu-id="27a9e-115">_espace réservé_</span><span class="sxs-lookup"><span data-stu-id="27a9e-115">_placeholder_</span></span>
   
-> <span data-ttu-id="a8494-116">Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="a8494-116">This member is reserved for the internal use of Outlook and is not supported.</span></span>
+> <span data-ttu-id="27a9e-116">Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="27a9e-116">This member is reserved for the internal use of Outlook and is not supported.</span></span>
     
- <span data-ttu-id="a8494-117">_ltid_</span><span class="sxs-lookup"><span data-stu-id="a8494-117">_ltid_</span></span>
+ <span data-ttu-id="27a9e-117">_LTID_</span><span class="sxs-lookup"><span data-stu-id="27a9e-117">_ltid_</span></span>
   
-> <span data-ttu-id="a8494-118">ID à long terme du dossier.</span><span class="sxs-lookup"><span data-stu-id="a8494-118">Long-term ID of the folder.</span></span>
+> <span data-ttu-id="27a9e-118">ID à long terme du dossier.</span><span class="sxs-lookup"><span data-stu-id="27a9e-118">Long-term ID of the folder.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a8494-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a8494-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="27a9e-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="27a9e-119">See also</span></span>
 
 
 
-[<span data-ttu-id="a8494-120">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="a8494-120">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="27a9e-120">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="27a9e-120">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="a8494-121">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="a8494-121">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="27a9e-121">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="27a9e-121">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="a8494-122">LTID</span><span class="sxs-lookup"><span data-stu-id="a8494-122">LTID</span></span>](ltid.md)
+[<span data-ttu-id="27a9e-122">LTID</span><span class="sxs-lookup"><span data-stu-id="27a9e-122">LTID</span></span>](ltid.md)
   
-[<span data-ttu-id="a8494-123">UPFLD</span><span class="sxs-lookup"><span data-stu-id="a8494-123">UPFLD</span></span>](upfld.md)
+[<span data-ttu-id="27a9e-123">UPFLD</span><span class="sxs-lookup"><span data-stu-id="27a9e-123">UPFLD</span></span>](upfld.md)
   
-[<span data-ttu-id="a8494-124">SYNC</span><span class="sxs-lookup"><span data-stu-id="a8494-124">SYNC</span></span>](sync.md)
+[<span data-ttu-id="27a9e-124">SYNCHRONI</span><span class="sxs-lookup"><span data-stu-id="27a9e-124">SYNC</span></span>](sync.md)
 

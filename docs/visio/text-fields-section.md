@@ -8,22 +8,22 @@ f1_keywords:
 - Vis_DSS.chm2155
 localization_priority: Normal
 ms.assetid: f743e4ee-343d-0edd-4a6d-5f104781a524
-description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue champ.
-ms.openlocfilehash: 9fa5dcf9fa54a979fb00eb3fb678d0dd3ca9fd77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
+ms.openlocfilehash: ce6a658a553182e360eaa978254fc59b5bd5b59b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789868"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332311"
 ---
-# <a name="text-fields-section"></a><span data-ttu-id="926b5-103">Text Fields, section</span><span class="sxs-lookup"><span data-stu-id="926b5-103">Text Fields Section</span></span>
+# <a name="text-fields-section"></a><span data-ttu-id="e9992-103">Text Fields Section</span><span class="sxs-lookup"><span data-stu-id="e9992-103">Text Fields Section</span></span>
 
-<span data-ttu-id="926b5-104">Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue **champ** .</span><span class="sxs-lookup"><span data-stu-id="926b5-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
+<span data-ttu-id="e9992-104">Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue **Champ**.</span><span class="sxs-lookup"><span data-stu-id="e9992-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="926b5-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="926b5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e9992-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="e9992-105">Remarks</span></span>
 
-<span data-ttu-id="926b5-106">La seule façon d’ajouter cette section consiste à insérer un champ dans une forme à l’aide de la boîte de dialogue **champ** (onglet**Insertion** ).</span><span class="sxs-lookup"><span data-stu-id="926b5-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
+<span data-ttu-id="e9992-106">La seule manière d’ajouter cette section consiste à insérer un champ dans une forme à l’aide de la boîte de dialogue **Champ** (onglet **Insertion**).</span><span class="sxs-lookup"><span data-stu-id="e9992-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
   
-<span data-ttu-id="926b5-p101">Chaque champ de texte d'un bloc de texte est associé à une ligne dans la fenêtre Feuille ShapeSheet. Le nom de la ligne représente le nombre de caractères que contient le champ.</span><span class="sxs-lookup"><span data-stu-id="926b5-p101">Each text field in a text block has a corresponding row in the ShapeSheet window. The name of the row represents the number of characters the field contains.</span></span>
+<span data-ttu-id="e9992-p101">Chaque champ de texte d'un bloc de texte est associé à une ligne dans la fenêtre Feuille ShapeSheet. Le nom de la ligne représente le nombre de caractères que contient le champ.</span><span class="sxs-lookup"><span data-stu-id="e9992-p101">Each text field in a text block has a corresponding row in the ShapeSheet window. The name of the row represents the number of characters the field contains.</span></span>
   
 

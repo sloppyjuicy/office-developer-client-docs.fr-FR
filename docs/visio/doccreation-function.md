@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251604
 localization_priority: Normal
 ms.assetid: dcbc240a-e36d-b27f-02c3-fd1eac04114a
-description: Renvoie la date et l’heure de que création d’un document, sous forme de valeur sérielle.
-ms.openlocfilehash: b9d94cf53895b0b4b9fcf84eb32e441c8a2a0196
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la date et l'heure de création d'un document, sous la forme d'une valeur sérielle.
+ms.openlocfilehash: a1f66a8fe2561578a2b37deefcfa6556f10455a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332724"
 ---
-# <a name="doccreation-function"></a><span data-ttu-id="fd56d-103">DOCCREATION, fonction</span><span class="sxs-lookup"><span data-stu-id="fd56d-103">DOCCREATION Function</span></span>
+# <a name="doccreation-function"></a><span data-ttu-id="70d8d-103">Fonction DOCCREATION</span><span class="sxs-lookup"><span data-stu-id="70d8d-103">DOCCREATION Function</span></span>
 
-<span data-ttu-id="fd56d-104">Renvoie la date et l’heure de que création d’un document, sous forme de valeur sérielle.</span><span class="sxs-lookup"><span data-stu-id="fd56d-104">Returns the date and time a document was created, as a serial value.</span></span>
+<span data-ttu-id="70d8d-104">Renvoie la date et l'heure de création d'un document, sous la forme d'une valeur sérielle.</span><span class="sxs-lookup"><span data-stu-id="70d8d-104">Returns the date and time a document was created, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="fd56d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fd56d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="70d8d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="70d8d-105">Syntax</span></span>
 
-<span data-ttu-id="fd56d-106">DOCCREATION ()</span><span class="sxs-lookup"><span data-stu-id="fd56d-106">DOCCREATION ()</span></span>
+<span data-ttu-id="70d8d-106">DOCCREATION ()</span><span class="sxs-lookup"><span data-stu-id="70d8d-106">DOCCREATION ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="fd56d-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="fd56d-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="70d8d-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="70d8d-107">Remarks</span></span>
 
-<span data-ttu-id="fd56d-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="fd56d-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="70d8d-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="70d8d-108">Use the FORMAT function to format the value.</span></span> 
   
 
