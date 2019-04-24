@@ -1,5 +1,5 @@
 ---
-title: Objets du fournisseur de magasin de message MAPI
+title: Objets du fournisseur de banque de messages MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d2df6dcb2e20cf1750d78f2e0b3200026b51f712
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 55220927206692822593fefb1502a3101b777ccc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567425"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345900"
 ---
-# <a name="mapi-message-store-provider-objects"></a><span data-ttu-id="73a98-103">Objets du fournisseur de magasin de message MAPI</span><span class="sxs-lookup"><span data-stu-id="73a98-103">MAPI message store provider objects</span></span>
+# <a name="mapi-message-store-provider-objects"></a><span data-ttu-id="46a39-103">Objets du fournisseur de banque de messages MAPI</span><span class="sxs-lookup"><span data-stu-id="46a39-103">MAPI message store provider objects</span></span>
   
-<span data-ttu-id="73a98-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73a98-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="46a39-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="46a39-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="73a98-105">Fournisseurs de magasins message implémentent fournisseur et objets d’ouverture de session, comme les fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="73a98-105">Message store providers implement provider and logon objects, as do all service providers.</span></span> <span data-ttu-id="73a98-106">Elles implémentent également un objet de banque de messages, les dossiers, messages, les pièces jointes et tables.</span><span class="sxs-lookup"><span data-stu-id="73a98-106">They also implement a message store object, folders, messages, attachments, and tables.</span></span> <span data-ttu-id="73a98-107">En tant qu’option, certains fournisseurs de banque de messages implémentent les objets d’état.</span><span class="sxs-lookup"><span data-stu-id="73a98-107">As an option, some message store providers implement status objects.</span></span>
+<span data-ttu-id="46a39-105">Les fournisseurs de banque de messages implémentent le fournisseur et les objets d'ouverture de session, comme tous les fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="46a39-105">Message store providers implement provider and logon objects, as do all service providers.</span></span> <span data-ttu-id="46a39-106">Ils implémentent également un objet de banque de messages, des dossiers, des messages, des pièces jointes et des tables.</span><span class="sxs-lookup"><span data-stu-id="46a39-106">They also implement a message store object, folders, messages, attachments, and tables.</span></span> <span data-ttu-id="46a39-107">En guise d'option, certains fournisseurs de banques de messages implémentent des objets d'État.</span><span class="sxs-lookup"><span data-stu-id="46a39-107">As an option, some message store providers implement status objects.</span></span>
   
-<span data-ttu-id="73a98-108">L’illustration suivante montre chaque objet de banque de messages avec son interface correspondante et le composant MAPI qui l’utilise.</span><span class="sxs-lookup"><span data-stu-id="73a98-108">The following illustration shows each message store object with its corresponding interface and the MAPI component that uses it.</span></span>
+<span data-ttu-id="46a39-108">L'illustration suivante montre chaque objet de banque de messages avec son interface correspondante et le composant MAPI qui l'utilise.</span><span class="sxs-lookup"><span data-stu-id="46a39-108">The following illustration shows each message store object with its corresponding interface and the MAPI component that uses it.</span></span>
   
-<span data-ttu-id="73a98-109">![Objets implémentés par les fournisseurs de banque de messages] (media/amapi_63.gif "Objets implémentés par les fournisseurs de banque de messages")</span><span class="sxs-lookup"><span data-stu-id="73a98-109">![Objects that message store providers implement](media/amapi_63.gif "Objects that message store providers implement")</span></span>
+<span data-ttu-id="46a39-109">![Objets implémentés par les fournisseurs de banques de messages] (media/amapi_63.gif "Objets implémentés par les fournisseurs de banques de messages")</span><span class="sxs-lookup"><span data-stu-id="46a39-109">![Objects that message store providers implement](media/amapi_63.gif "Objects that message store providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="73a98-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="73a98-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="46a39-110">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="46a39-110">See also</span></span>
 
-- [<span data-ttu-id="73a98-111">Objets du fournisseur de services MAPI</span><span class="sxs-lookup"><span data-stu-id="73a98-111">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="46a39-111">Objets du fournisseur de services MAPI</span><span class="sxs-lookup"><span data-stu-id="46a39-111">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

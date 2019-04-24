@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 25c9f817-d22b-28c9-1339-dc9f27d0dd41
 description: Fait référence à une cellule et ne recalcule pas la formule lorsque la cellule référencée change.
-ms.openlocfilehash: 454314b1f156f560c237f22a45492978ca3c31ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38f3c8b4f34ed2b3d3711be5faed6b0d317e907a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356497"
 ---
-# <a name="getref-function"></a><span data-ttu-id="3f154-103">GETREF, fonction</span><span class="sxs-lookup"><span data-stu-id="3f154-103">GETREF Function</span></span>
+# <a name="getref-function"></a><span data-ttu-id="91cee-103">Fonction GETREF</span><span class="sxs-lookup"><span data-stu-id="91cee-103">GETREF Function</span></span>
 
-<span data-ttu-id="3f154-104">Fait référence à une cellule et ne recalcule pas la formule lorsque la cellule référencée change.</span><span class="sxs-lookup"><span data-stu-id="3f154-104">References a cell and doesn't recalculate the formula when the referenced cell changes.</span></span>
+<span data-ttu-id="91cee-104">Fait référence à une cellule et ne recalcule pas la formule lorsque la cellule référencée change.</span><span class="sxs-lookup"><span data-stu-id="91cee-104">References a cell and doesn't recalculate the formula when the referenced cell changes.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3f154-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3f154-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="91cee-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="91cee-105">Syntax</span></span>
 
-<span data-ttu-id="3f154-106">GETREF (** *cellname* **)</span><span class="sxs-lookup"><span data-stu-id="3f154-106">GETREF(** *cellname* ** )</span></span> 
+<span data-ttu-id="91cee-106">GETREF (\* \* *cellName* \* \*)</span><span class="sxs-lookup"><span data-stu-id="91cee-106">GETREF(\*\* *cellname* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="3f154-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3f154-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="91cee-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="91cee-107">Parameters</span></span>
 
-|<span data-ttu-id="3f154-108">**Name**</span><span class="sxs-lookup"><span data-stu-id="3f154-108">**Name**</span></span>|<span data-ttu-id="3f154-109">**Obligatoire/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="3f154-109">**Required/Optional**</span></span>|<span data-ttu-id="3f154-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="3f154-110">**Data Type**</span></span>|<span data-ttu-id="3f154-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="3f154-111">**Description**</span></span>|
+|<span data-ttu-id="91cee-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="91cee-108">**Name**</span></span>|<span data-ttu-id="91cee-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="91cee-109">**Required/Optional**</span></span>|<span data-ttu-id="91cee-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="91cee-110">**Data Type**</span></span>|<span data-ttu-id="91cee-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="91cee-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="3f154-112">_cellName_</span><span class="sxs-lookup"><span data-stu-id="3f154-112">_cellname_</span></span> <br/> |<span data-ttu-id="3f154-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="3f154-113">Required</span></span>  <br/> |<span data-ttu-id="3f154-114">**Chaîne**</span><span class="sxs-lookup"><span data-stu-id="3f154-114">**String**</span></span> <br/> |<span data-ttu-id="3f154-115">Le nom de la cellule pour obtenir une référence à.</span><span class="sxs-lookup"><span data-stu-id="3f154-115">The name of the cell to get a reference to.</span></span>  <br/> |
+| <span data-ttu-id="91cee-112">_cellName_</span><span class="sxs-lookup"><span data-stu-id="91cee-112">_cellname_</span></span> <br/> |<span data-ttu-id="91cee-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="91cee-113">Required</span></span>  <br/> |<span data-ttu-id="91cee-114">**String**</span><span class="sxs-lookup"><span data-stu-id="91cee-114">**String**</span></span> <br/> |<span data-ttu-id="91cee-115">Nom de la cellule pour laquelle obtenir une référence.</span><span class="sxs-lookup"><span data-stu-id="91cee-115">The name of the cell to get a reference to.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="3f154-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="3f154-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="91cee-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="91cee-116">Example</span></span>
 
-<span data-ttu-id="3f154-117">SETF(GETREF(PinX),5.1)</span><span class="sxs-lookup"><span data-stu-id="3f154-117">SETF(GETREF(PinX),5.1)</span></span> 
+<span data-ttu-id="91cee-117">SETF (GETREF (PinX), 5.1)</span><span class="sxs-lookup"><span data-stu-id="91cee-117">SETF(GETREF(PinX),5.1)</span></span> 
   
-<span data-ttu-id="3f154-118">Donne à la formule de la cellule PinX la valeur 5,1.</span><span class="sxs-lookup"><span data-stu-id="3f154-118">Sets the formula of the PinX cell to 5.1.</span></span> 
+<span data-ttu-id="91cee-118">Donne à la formule de la cellule PinX la valeur 5,1.</span><span class="sxs-lookup"><span data-stu-id="91cee-118">Sets the formula of the PinX cell to 5.1.</span></span> 
   
 

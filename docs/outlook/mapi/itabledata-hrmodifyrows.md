@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348670"
 ---
-# <a name="itabledatahrmodifyrows"></a><span data-ttu-id="c5a97-103">ITableData::HrModifyRows</span><span class="sxs-lookup"><span data-stu-id="c5a97-103">ITableData::HrModifyRows</span></span>
+# <a name="itabledatahrmodifyrows"></a><span data-ttu-id="fc6b7-103">ITableData::HrModifyRows</span><span class="sxs-lookup"><span data-stu-id="fc6b7-103">ITableData::HrModifyRows</span></span>
 
   
   
-<span data-ttu-id="c5a97-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c5a97-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fc6b7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fc6b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c5a97-105">Insère plusieurs lignes de tableau, remplaçant éventuellement les lignes existantes.</span><span class="sxs-lookup"><span data-stu-id="c5a97-105">Inserts multiple table rows, possibly replacing existing rows.</span></span>
+<span data-ttu-id="fc6b7-105">Insère plusieurs lignes de tableau, susceptibles de remplacer des lignes existantes.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-105">Inserts multiple table rows, possibly replacing existing rows.</span></span>
   
 ```cpp
 HRESULT HrModifyRows(
@@ -34,41 +34,41 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c5a97-106">Param�tres</span><span class="sxs-lookup"><span data-stu-id="c5a97-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fc6b7-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="fc6b7-106">Parameters</span></span>
 
- <span data-ttu-id="c5a97-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c5a97-107">_ulFlags_</span></span>
+ <span data-ttu-id="fc6b7-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="fc6b7-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="c5a97-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="c5a97-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="fc6b7-108">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="c5a97-109">_lpSRowSet_</span><span class="sxs-lookup"><span data-stu-id="c5a97-109">_lpSRowSet_</span></span>
+ <span data-ttu-id="fc6b7-109">_lpSRowSet_</span><span class="sxs-lookup"><span data-stu-id="fc6b7-109">_lpSRowSet_</span></span>
   
-> <span data-ttu-id="c5a97-110">[in] Un pointeur vers une structure [SRowSet](srowset.md) qui contient l’ensemble de lignes à ajouter, en remplaçant les lignes existantes, si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="c5a97-110">[in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary.</span></span> <span data-ttu-id="c5a97-111">Une des structures de valeur de propriété pointés pour définir les par le membre **lpProps** de chaque structure [SRow](srow.md) dans la ligne doit contenir la colonne d’index, la même valeur que celle qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [ CREATE TABLE](createtable.md) fonction.</span><span class="sxs-lookup"><span data-stu-id="c5a97-111">One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function.</span></span> 
+> <span data-ttu-id="fc6b7-110">dans Pointeur vers une structure [SRowSet](srowset.md) qui contient l'ensemble de lignes à ajouter, en remplaçant les lignes existantes si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-110">[in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary.</span></span> <span data-ttu-id="fc6b7-111">L'une des structures de valeur de propriété auxquelles pointe le membre **lpProps** de chaque structure [SRow](srow.md) dans l'ensemble de lignes doit contenir la colonne d'index, la valeur qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la [ Fonction CreateTable](createtable.md) .</span><span class="sxs-lookup"><span data-stu-id="fc6b7-111">One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c5a97-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c5a97-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="fc6b7-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="fc6b7-112">Return value</span></span>
 
-<span data-ttu-id="c5a97-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="c5a97-113">S_OK</span></span> 
+<span data-ttu-id="fc6b7-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="fc6b7-113">S_OK</span></span> 
   
-> <span data-ttu-id="c5a97-114">Les lignes insérées ou modifiées avec succès.</span><span class="sxs-lookup"><span data-stu-id="c5a97-114">The rows were successfully inserted or modified.</span></span>
+> <span data-ttu-id="fc6b7-114">Les lignes ont été correctement insérées ou modifiées.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-114">The rows were successfully inserted or modified.</span></span>
     
-<span data-ttu-id="c5a97-115">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="c5a97-115">MAPI_E_INVALID_PARAMETER</span></span> 
+<span data-ttu-id="fc6b7-115">MAPI_E_INVALID_PARAMETER</span><span class="sxs-lookup"><span data-stu-id="fc6b7-115">MAPI_E_INVALID_PARAMETER</span></span> 
   
-> <span data-ttu-id="c5a97-116">Un ou plusieurs des lignes dans le passé ne dispose pas d’une colonne d’index.</span><span class="sxs-lookup"><span data-stu-id="c5a97-116">One or more of the passed-in rows does not have an index column.</span></span> <span data-ttu-id="c5a97-117">Si cette erreur est renvoyée, aucune ligne n’est modifiés.</span><span class="sxs-lookup"><span data-stu-id="c5a97-117">If this error is returned, no rows are changed.</span></span>
+> <span data-ttu-id="fc6b7-116">Une ou plusieurs lignes transmises ne possèdent pas de colonne d'index.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-116">One or more of the passed-in rows does not have an index column.</span></span> <span data-ttu-id="fc6b7-117">Si cette erreur est renvoyée, aucune ligne n'est modifiée.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-117">If this error is returned, no rows are changed.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c5a97-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="c5a97-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc6b7-118">Remarques</span><span class="sxs-lookup"><span data-stu-id="fc6b7-118">Remarks</span></span>
 
-<span data-ttu-id="c5a97-119">La méthode **ITableData::HrModifyRows** insère les lignes décrites par la structure [SRowSet](srowset.md) désignée par le paramètre _lpSRowSet_ .</span><span class="sxs-lookup"><span data-stu-id="c5a97-119">The **ITableData::HrModifyRows** method inserts the rows described by the [SRowSet](srowset.md) structure pointed to by the  _lpSRowSet_ parameter.</span></span> <span data-ttu-id="c5a97-120">Si la valeur de colonne d’index d’une ligne dans le jeu de lignes correspond à la valeur d’une ligne existante dans le tableau, la ligne existante est remplacée.</span><span class="sxs-lookup"><span data-stu-id="c5a97-120">If the index column value of a row in the row set matches the value for an existing row in the table, the existing row is replaced.</span></span> <span data-ttu-id="c5a97-121">Si aucune ligne n’existe qui correspond à celui qui est inclus dans la structure **SRowSet** , **HrModifyRows** ajoute la ligne à la fin de la table.</span><span class="sxs-lookup"><span data-stu-id="c5a97-121">If no row exists that matches the one included in the **SRowSet** structure, **HrModifyRows** adds the row to the end of the table.</span></span> 
+<span data-ttu-id="fc6b7-119">La méthode **ITableData:: HrModifyRows** insère les lignes décrites par la structure [SRowSet](srowset.md) vers laquelle pointe le paramètre _lpSRowSet_ .</span><span class="sxs-lookup"><span data-stu-id="fc6b7-119">The **ITableData::HrModifyRows** method inserts the rows described by the [SRowSet](srowset.md) structure pointed to by the  _lpSRowSet_ parameter.</span></span> <span data-ttu-id="fc6b7-120">Si la valeur de la colonne d'index d'une ligne dans l'ensemble de lignes correspond à la valeur d'une ligne existante dans le tableau, la ligne existante est remplacée.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-120">If the index column value of a row in the row set matches the value for an existing row in the table, the existing row is replaced.</span></span> <span data-ttu-id="fc6b7-121">S'il n'existe aucune ligne correspondant à celle incluse dans la structure **SRowSet** , **HrModifyRows** ajoute la ligne à la fin du tableau.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-121">If no row exists that matches the one included in the **SRowSet** structure, **HrModifyRows** adds the row to the end of the table.</span></span> 
   
-<span data-ttu-id="c5a97-122">Toutes les vues de la table sont modifiées pour inclure les lignes désignés par _lpSRowSet_.</span><span class="sxs-lookup"><span data-stu-id="c5a97-122">All views of the table are modified to include the rows pointed to by  _lpSRowSet_.</span></span> <span data-ttu-id="c5a97-123">Toutefois, si un affichage a une restriction place excluant une ligne, il peut être pas visible à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="c5a97-123">However, if a view has a restriction in place that excludes a row, it may not be visible to the user.</span></span> 
+<span data-ttu-id="fc6b7-122">Toutes les vues de la table sont modifiées de façon à inclure les lignes vers lesquelles pointe _lpSRowSet_.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-122">All views of the table are modified to include the rows pointed to by  _lpSRowSet_.</span></span> <span data-ttu-id="fc6b7-123">Toutefois, si une vue a une restriction en place qui exclut une ligne, elle peut ne pas être visible par l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-123">However, if a view has a restriction in place that excludes a row, it may not be visible to the user.</span></span> 
   
-<span data-ttu-id="c5a97-124">Les colonnes dans les lignes désignés par _lpSRowSet_ n’ont pas à se trouver dans le même ordre que les colonnes dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="c5a97-124">The columns in the rows pointed to by  _lpSRowSet_ do not have to be in the same order as the columns in the table.</span></span> <span data-ttu-id="c5a97-125">L’appelant peut également inclure en tant que propriétés de colonnes qui ne sont pas actuellement dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="c5a97-125">The caller can also include as columns properties that are not currently in the table.</span></span> <span data-ttu-id="c5a97-126">Pour des vues existantes, **HrModifyRows** rend ces nouvelles colonnes disponibles, mais n’inclut pas les dans la colonne en cours.</span><span class="sxs-lookup"><span data-stu-id="c5a97-126">For existing views, **HrModifyRows** makes these new columns available but does not include them in the current column set.</span></span> <span data-ttu-id="c5a97-127">Pour les affichages futures, **HrModifyRows** inclut les nouvelles colonnes dans la colonne.</span><span class="sxs-lookup"><span data-stu-id="c5a97-127">For future views, **HrModifyRows** includes the new columns in the column set.</span></span> 
+<span data-ttu-id="fc6b7-124">Les colonnes des lignes vers lesquelles pointe _lpSRowSet_ n'ont pas besoin d'être dans le même ordre que les colonnes du tableau.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-124">The columns in the rows pointed to by  _lpSRowSet_ do not have to be in the same order as the columns in the table.</span></span> <span data-ttu-id="fc6b7-125">L'appelant peut également inclure en tant que propriétés de colonnes qui ne se trouvent pas actuellement dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-125">The caller can also include as columns properties that are not currently in the table.</span></span> <span data-ttu-id="fc6b7-126">Pour les affichages existants, **HrModifyRows** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-126">For existing views, **HrModifyRows** makes these new columns available but does not include them in the current column set.</span></span> <span data-ttu-id="fc6b7-127">Pour les futures vues, **HrModifyRows** inclut les nouvelles colonnes dans l'ensemble de colonnes.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-127">For future views, **HrModifyRows** includes the new columns in the column set.</span></span> 
   
-<span data-ttu-id="c5a97-128">Une fois que **HrModifyRows** a ajouté les lignes, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode la table [IMAPITable::Advise](imapitable-advise.md) pour inscrire les notifications.</span><span class="sxs-lookup"><span data-stu-id="c5a97-128">After **HrModifyRows** has added the rows, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> <span data-ttu-id="c5a97-129">MAPI envoie des notifications TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED pour chaque ligne, jusqu'à huit lignes.</span><span class="sxs-lookup"><span data-stu-id="c5a97-129">MAPI sends TABLE_ROW_ADDED or TABLE_ROW_MODIFIED notifications for each row, up to eight rows.</span></span> <span data-ttu-id="c5a97-130">Si plus de huit lignes sont affectées par l’appel **HrModifyRows** , MAPI envoie une notification TABLE_CHANGED unique à la place.</span><span class="sxs-lookup"><span data-stu-id="c5a97-130">If more than eight rows are affected by the **HrModifyRows** call, MAPI sends a single TABLE_CHANGED notification instead.</span></span> 
+<span data-ttu-id="fc6b7-128">Une fois que **HrModifyRows** a ajouté les lignes, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-128">After **HrModifyRows** has added the rows, notifications are sent to all clients or service providers that have a view of the table and that have called the table's [IMAPITable::Advise](imapitable-advise.md) method to register for notifications.</span></span> <span data-ttu-id="fc6b7-129">MAPI envoie des notifications TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED pour chaque ligne, jusqu'à huit lignes.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-129">MAPI sends TABLE_ROW_ADDED or TABLE_ROW_MODIFIED notifications for each row, up to eight rows.</span></span> <span data-ttu-id="fc6b7-130">Si plus de huit lignes sont affectées par l'appel **HrModifyRows** , MAPI envoie à la place une seule notification TABLE_CHANGED.</span><span class="sxs-lookup"><span data-stu-id="fc6b7-130">If more than eight rows are affected by the **HrModifyRows** call, MAPI sends a single TABLE_CHANGED notification instead.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c5a97-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c5a97-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fc6b7-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fc6b7-131">See also</span></span>
 
 
 
-[<span data-ttu-id="c5a97-132">SRowSet</span><span class="sxs-lookup"><span data-stu-id="c5a97-132">SRowSet</span></span>](srowset.md)
+[<span data-ttu-id="fc6b7-132">SRowSet</span><span class="sxs-lookup"><span data-stu-id="fc6b7-132">SRowSet</span></span>](srowset.md)
   
-[<span data-ttu-id="c5a97-133">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c5a97-133">ITableData : IUnknown</span></span>](itabledataiunknown.md)
+[<span data-ttu-id="fc6b7-133">ITableData : IUnknown</span><span class="sxs-lookup"><span data-stu-id="fc6b7-133">ITableData : IUnknown</span></span>](itabledataiunknown.md)
 

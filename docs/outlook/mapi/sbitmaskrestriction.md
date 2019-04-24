@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c9197201388530bd7755eb1987ecc863220e3847
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: afac8c352ad0a07fcb1cd98683b6a5c87940ab4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357525"
 ---
-# <a name="sbitmaskrestriction"></a><span data-ttu-id="713e9-103">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="713e9-103">SBitMaskRestriction</span></span>
+# <a name="sbitmaskrestriction"></a><span data-ttu-id="c61fd-103">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="c61fd-103">SBitMaskRestriction</span></span>
 
   
   
-<span data-ttu-id="713e9-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="713e9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c61fd-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c61fd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="713e9-105">Décrit une restriction de masque de bits, qui est utilisée pour effectuer une opération de bits **AND** et tester le résultat.</span><span class="sxs-lookup"><span data-stu-id="713e9-105">Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result.</span></span> 
+<span data-ttu-id="c61fd-105">Décrit une restriction de masque de bits, qui est utilisée pour \*\*\*\* effectuer une opération and au niveau du bit et tester le résultat.</span><span class="sxs-lookup"><span data-stu-id="c61fd-105">Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="713e9-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="713e9-106">Header file:</span></span>  <br/> |<span data-ttu-id="713e9-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="713e9-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="c61fd-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c61fd-106">Header file:</span></span>  <br/> |<span data-ttu-id="c61fd-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="c61fd-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SBitMaskRestriction
@@ -41,40 +41,40 @@ typedef struct _SBitMaskRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="713e9-108">Members</span><span class="sxs-lookup"><span data-stu-id="713e9-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c61fd-108">Members</span><span class="sxs-lookup"><span data-stu-id="c61fd-108">Members</span></span>
 
- <span data-ttu-id="713e9-109">**relBMR**</span><span class="sxs-lookup"><span data-stu-id="713e9-109">**relBMR**</span></span>
+ <span data-ttu-id="c61fd-109">**relBMR**</span><span class="sxs-lookup"><span data-stu-id="c61fd-109">**relBMR**</span></span>
   
-> <span data-ttu-id="713e9-110">Opérateur de relation qui décrit comment le masque spécifié dans le membre **ulMask** doit être appliqué à la balise de propriété.</span><span class="sxs-lookup"><span data-stu-id="713e9-110">Relational operator that describes how the mask specified in the **ulMask** member should be applied to the property tag.</span></span> <span data-ttu-id="713e9-111">Les valeurs possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="713e9-111">Possible values are as follows:</span></span> 
+> <span data-ttu-id="c61fd-110">Opérateur relationnel qui décrit comment le masque spécifié dans le membre **ulMask** doit être appliqué à la balise de propriété.</span><span class="sxs-lookup"><span data-stu-id="c61fd-110">Relational operator that describes how the mask specified in the **ulMask** member should be applied to the property tag.</span></span> <span data-ttu-id="c61fd-111">Les valeurs possibles sont les suivantes:</span><span class="sxs-lookup"><span data-stu-id="c61fd-111">Possible values are as follows:</span></span> 
     
-<span data-ttu-id="713e9-112">BMR_EQZ</span><span class="sxs-lookup"><span data-stu-id="713e9-112">BMR_EQZ</span></span> 
+<span data-ttu-id="c61fd-112">BMR_EQZ</span><span class="sxs-lookup"><span data-stu-id="c61fd-112">BMR_EQZ</span></span> 
   
-> <span data-ttu-id="713e9-113">Effectuer une opération de bits **AND** du masque dans le membre **ulMask** avec la propriété représentée par les membres **ulPropTag** et le test pour être égale à zéro.</span><span class="sxs-lookup"><span data-stu-id="713e9-113">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being equal to zero.</span></span> 
+> <span data-ttu-id="c61fd-113">Effectuer une opération \*\*\*\* and au niveau du bit du masque dans le membre **ulMask** avec la propriété représentée par le membre **ulPropTag** et vérifier qu'il est égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="c61fd-113">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being equal to zero.</span></span> 
     
-<span data-ttu-id="713e9-114">BMR_NEZ</span><span class="sxs-lookup"><span data-stu-id="713e9-114">BMR_NEZ</span></span> 
+<span data-ttu-id="c61fd-114">BMR_NEZ</span><span class="sxs-lookup"><span data-stu-id="c61fd-114">BMR_NEZ</span></span> 
   
-> <span data-ttu-id="713e9-115">Exécuter une opération **et** du masque dans le membre **ulMask** avec la propriété représentée par le membre **ulPropTag** et testez n’étant ne pas égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="713e9-115">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being not equal to zero.</span></span> 
+> <span data-ttu-id="c61fd-115">Effectuer une opération \*\*\*\* and au niveau du bit du masque dans le membre **ulMask** avec la propriété représentée par le membre **ulPropTag** et vérifier qu'elle n'est pas égale à zéro.</span><span class="sxs-lookup"><span data-stu-id="c61fd-115">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being not equal to zero.</span></span> 
     
- <span data-ttu-id="713e9-116">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="713e9-116">**ulPropTag**</span></span>
+ <span data-ttu-id="c61fd-116">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="c61fd-116">**ulPropTag**</span></span>
   
-> <span data-ttu-id="713e9-117">Balise de propriété de la propriété à laquelle s’applique le masque de bits.</span><span class="sxs-lookup"><span data-stu-id="713e9-117">Property tag of the property to which the bitmask is applied.</span></span>
+> <span data-ttu-id="c61fd-117">Balise de propriété de la propriété à laquelle le masque de masque est appliqué.</span><span class="sxs-lookup"><span data-stu-id="c61fd-117">Property tag of the property to which the bitmask is applied.</span></span>
     
- <span data-ttu-id="713e9-118">**ulMask**</span><span class="sxs-lookup"><span data-stu-id="713e9-118">**ulMask**</span></span>
+ <span data-ttu-id="c61fd-118">**ulMask**</span><span class="sxs-lookup"><span data-stu-id="c61fd-118">**ulMask**</span></span>
   
-> <span data-ttu-id="713e9-119">Masque de bits à appliquer à la propriété identifiée par **ulPropTag**.</span><span class="sxs-lookup"><span data-stu-id="713e9-119">Bitmask to apply to the property identified by **ulPropTag**.</span></span>
+> <span data-ttu-id="c61fd-119">Masque de à appliquer à la propriété identifiée par **ulPropTag**.</span><span class="sxs-lookup"><span data-stu-id="c61fd-119">Bitmask to apply to the property identified by **ulPropTag**.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="713e9-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="713e9-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c61fd-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="c61fd-120">Remarks</span></span>
 
-<span data-ttu-id="713e9-121">La structure **SBitMaskRestriction** effectue une opération de bits **AND** à l’aide de masque de bits décrite dans le membre **ulMask** et la valeur de la propriété définie par le membre **ulPropTag** .</span><span class="sxs-lookup"><span data-stu-id="713e9-121">The **SBitMaskRestriction** structure performs a bitwise **AND** operation using the bitmask described in the **ulMask** member and the value of the property described by the **ulPropTag** member.</span></span> <span data-ttu-id="713e9-122">Si le résultat est égale à zéro, BMR_EQZ est remplie.</span><span class="sxs-lookup"><span data-stu-id="713e9-122">If the result is zero, BMR_EQZ is satisfied.</span></span> <span data-ttu-id="713e9-123">Si elle est différente de zéro, autrement dit, si la valeur de propriété comporte au moins un des bits même définir en tant **ulMask**, puis BMR_NEZ est satisfaite.</span><span class="sxs-lookup"><span data-stu-id="713e9-123">If it is nonzero, that is, if the property value has at least one of the same bits set as **ulMask**, then BMR_NEZ is satisfied.</span></span>
+<span data-ttu-id="c61fd-121">La structure **SBitMaskRestriction** effectue une opération de bits **and** à l'aide du masque de bits décrit dans le membre **ulMask** et de la valeur de la propriété décrite par le membre **ulPropTag** .</span><span class="sxs-lookup"><span data-stu-id="c61fd-121">The **SBitMaskRestriction** structure performs a bitwise **AND** operation using the bitmask described in the **ulMask** member and the value of the property described by the **ulPropTag** member.</span></span> <span data-ttu-id="c61fd-122">Si le résultat est égal à zéro, BMR_EQZ est satisfait.</span><span class="sxs-lookup"><span data-stu-id="c61fd-122">If the result is zero, BMR_EQZ is satisfied.</span></span> <span data-ttu-id="c61fd-123">S'il est différent de zéro, autrement dit, si la valeur de la propriété a au moins un des mêmes bits défini comme **ulMask**, BMR_NEZ est satisfait.</span><span class="sxs-lookup"><span data-stu-id="c61fd-123">If it is nonzero, that is, if the property value has at least one of the same bits set as **ulMask**, then BMR_NEZ is satisfied.</span></span>
   
-<span data-ttu-id="713e9-124">Pour plus d’informations sur les restrictions de structure **SBitMaskRestriction** en général, voir [à propos des Restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="713e9-124">For more information about the **SBitMaskRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
+<span data-ttu-id="c61fd-124">Pour plus d'informations sur la structure **SBitMaskRestriction** et les restrictions en général, consultez la rubrique [à propos des restrictions](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="c61fd-124">For more information about the **SBitMaskRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="713e9-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="713e9-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c61fd-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c61fd-125">See also</span></span>
 
 
 
-[<span data-ttu-id="713e9-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="713e9-126">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="c61fd-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="c61fd-126">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="713e9-127">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="713e9-127">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="c61fd-127">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="c61fd-127">MAPI Structures</span></span>](mapi-structures.md)
 

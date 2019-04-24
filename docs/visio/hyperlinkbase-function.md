@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251589
 localization_priority: Normal
 ms.assetid: 4877620c-7df0-da5a-2138-d2c19dce36f9
-description: Renvoie le texte du champ répertoire Web des propriétés d’un document.
-ms.openlocfilehash: 512df30155e7c53fbc1bc7dfc276194296749578
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le texte du champ de base de lien hypertexte des propriétés d'un document.
+ms.openlocfilehash: 3bd65b3bde2c4005639aa0b60e6a8370c0383735
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344778"
 ---
-# <a name="hyperlinkbase-function"></a><span data-ttu-id="4f632-103">HYPERLINKBASE, fonction</span><span class="sxs-lookup"><span data-stu-id="4f632-103">HYPERLINKBASE Function</span></span>
+# <a name="hyperlinkbase-function"></a><span data-ttu-id="cfb3f-103">Fonction HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="cfb3f-103">HYPERLINKBASE Function</span></span>
 
-<span data-ttu-id="4f632-104">Renvoie le texte du champ **répertoire Web** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="4f632-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
+<span data-ttu-id="cfb3f-104">Renvoie le texte du champ de **base de lien hypertexte** des propriétés d'un document.</span><span class="sxs-lookup"><span data-stu-id="cfb3f-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="4f632-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4f632-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cfb3f-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cfb3f-105">Syntax</span></span>
 
-<span data-ttu-id="4f632-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="4f632-106">HYPERLINKBASE ()</span></span>
+<span data-ttu-id="cfb3f-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="cfb3f-106">HYPERLINKBASE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="4f632-107">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="4f632-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="cfb3f-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="cfb3f-107">Return value</span></span>
 
-<span data-ttu-id="4f632-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="4f632-108">String</span></span>
+<span data-ttu-id="cfb3f-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="cfb3f-108">String</span></span>
   
 

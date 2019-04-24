@@ -9,36 +9,36 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: Active ou désactive l'affichage des poignées de sélection de la forme sélectionnée.
-ms.openlocfilehash: 8f812c2087870529cb65aa2e7d705171a5d4ca32
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789193"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357238"
 ---
-# <a name="noobjhandles-cell-miscellaneous-section"></a><span data-ttu-id="a8f47-103">NoObjHandles, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="a8f47-103">NoObjHandles Cell (Miscellaneous Section)</span></span>
+# <a name="noobjhandles-cell-miscellaneous-section"></a><span data-ttu-id="a9c31-103">NoObjHandles, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="a9c31-103">NoObjHandles Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="a8f47-104">Active ou désactive l'affichage des poignées de sélection de la forme sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8f47-104">Switches the display of selection handles on and off for the selected shape.</span></span>
+<span data-ttu-id="a9c31-104">Active ou désactive l'affichage des poignées de sélection de la forme sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a9c31-104">Switches the display of selection handles on and off for the selected shape.</span></span>
   
-|<span data-ttu-id="a8f47-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="a8f47-105">**Value**</span></span>|<span data-ttu-id="a8f47-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="a8f47-106">**Description**</span></span>|
+|<span data-ttu-id="a9c31-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="a9c31-105">**Value**</span></span>|<span data-ttu-id="a9c31-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="a9c31-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="a8f47-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="a8f47-107">TRUE</span></span>  <br/> | <span data-ttu-id="a8f47-108">Les poignées de sélection ne sont pas affichées lorsqu'une forme est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8f47-108">Selection handles are not displayed when a shape is selected.</span></span>  <br/> |
-| <span data-ttu-id="a8f47-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="a8f47-109">FALSE</span></span>  <br/> | <span data-ttu-id="a8f47-110">Les poignées de sélection sont affichées lorsqu'une forme est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a8f47-110">Selection handles are displayed when a shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="a9c31-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="a9c31-107">TRUE</span></span>  <br/> | <span data-ttu-id="a9c31-108">Les poignées de sélection ne sont pas affichées lorsqu'une forme est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a9c31-108">Selection handles are not displayed when a shape is selected.</span></span>  <br/> |
+| <span data-ttu-id="a9c31-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="a9c31-109">FALSE</span></span>  <br/> | <span data-ttu-id="a9c31-110">Les poignées de sélection sont affichées lorsqu'une forme est sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="a9c31-110">Selection handles are displayed when a shape is selected.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a8f47-111">Notes</span><span class="sxs-lookup"><span data-stu-id="a8f47-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9c31-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="a9c31-111">Remarks</span></span>
 
-<span data-ttu-id="a8f47-112">Pour obtenir une référence à la cellule NoObjHandles par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez :</span><span class="sxs-lookup"><span data-stu-id="a8f47-112">To get a reference to the NoObjHandles cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="a9c31-112">Pour obtenir une référence à la cellule NoObjHandles par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="a9c31-112">To get a reference to the NoObjHandles cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a8f47-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a8f47-113">Cell name:</span></span>  <br/> | <span data-ttu-id="a8f47-114">NoObjHandles</span><span class="sxs-lookup"><span data-stu-id="a8f47-114">NoObjHandles</span></span>  <br/> |
+| <span data-ttu-id="a9c31-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a9c31-113">Cell name:</span></span>  <br/> | <span data-ttu-id="a9c31-114">NoObjHandles</span><span class="sxs-lookup"><span data-stu-id="a9c31-114">NoObjHandles</span></span>  <br/> |
    
-<span data-ttu-id="a8f47-115">Pour obtenir une référence à la cellule NoObjHandles par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="a8f47-115">To get a reference to the NoObjHandles cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="a9c31-115">Pour obtenir une référence à la cellule NoObjHandles à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="a9c31-115">To get a reference to the NoObjHandles cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a8f47-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="a8f47-116">Section index:</span></span>  <br/> |<span data-ttu-id="a8f47-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a8f47-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a8f47-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="a8f47-118">Row index:</span></span>  <br/> |<span data-ttu-id="a8f47-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="a8f47-119">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="a8f47-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a8f47-120">Cell index:</span></span>  <br/> |<span data-ttu-id="a8f47-121">**visNoObjHandles**</span><span class="sxs-lookup"><span data-stu-id="a8f47-121">**visNoObjHandles**</span></span> <br/> |
+| <span data-ttu-id="a9c31-116">Index de la section  :</span><span class="sxs-lookup"><span data-stu-id="a9c31-116">Section index:</span></span>  <br/> |<span data-ttu-id="a9c31-117">**Définis**</span><span class="sxs-lookup"><span data-stu-id="a9c31-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="a9c31-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="a9c31-118">Row index:</span></span>  <br/> |<span data-ttu-id="a9c31-119">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="a9c31-119">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="a9c31-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a9c31-120">Cell index:</span></span>  <br/> |<span data-ttu-id="a9c31-121">**visNoObjHandles**</span><span class="sxs-lookup"><span data-stu-id="a9c31-121">**visNoObjHandles**</span></span> <br/> |
    
 
