@@ -1,34 +1,34 @@
 ---
-title: '- (Soustraire) (Accès personnalisé web app)'
+title: '- Tranche (Application Web personnalisée Access)'
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6c893bfa-c2ca-48fa-8a3e-fd5ba3681a18
-description: Soustrait deux nombres. Cet opérateur arithmétique de soustraction peut également soustraire un nombre, en jours, à partir d’une date.
-ms.openlocfilehash: 71218cedbfc7421e262bf825427428fd4990d9b4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Soustrait deux nombres. Cet opérateur de soustraction arithmétique peut également soustraire un nombre, en jours, d'une date.
+ms.openlocfilehash: 07f0f555f19e20179066443eba5f16dd747beae1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19781994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307867"
 ---
-# <a name="--subtract-access-custom-web-app"></a><span data-ttu-id="265f6-104">-(Soustraction) (accès personnalisé web app)</span><span class="sxs-lookup"><span data-stu-id="265f6-104">- (Subtract) (Access custom web app)</span></span>
+# <a name="--subtract-access-custom-web-app"></a><span data-ttu-id="1c372-104">-(Soustraire) (application Web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="1c372-104">- (Subtract) (Access custom web app)</span></span>
 
-<span data-ttu-id="265f6-105">Soustrait deux nombres.</span><span class="sxs-lookup"><span data-stu-id="265f6-105">Subtracts two numbers.</span></span> <span data-ttu-id="265f6-106">Cet opérateur arithmétique de soustraction peut également soustraire un nombre, en jours, à partir d’une date.</span><span class="sxs-lookup"><span data-stu-id="265f6-106">This arithmetic subtraction operator can also subtract a number, in days, from a date.</span></span>
+<span data-ttu-id="1c372-105">Soustrait deux nombres.</span><span class="sxs-lookup"><span data-stu-id="1c372-105">Subtracts two numbers.</span></span> <span data-ttu-id="1c372-106">Cet opérateur de soustraction arithmétique peut également soustraire un nombre, en jours, d'une date.</span><span class="sxs-lookup"><span data-stu-id="1c372-106">This arithmetic subtraction operator can also subtract a number, in days, from a date.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="265f6-p103">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="265f6-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/fr-fr/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="1c372-p103">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="1c372-p103">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="265f6-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="265f6-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c372-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1c372-109">Syntax</span></span>
 
- <span data-ttu-id="265f6-110">*expression*  -  *expression*</span><span class="sxs-lookup"><span data-stu-id="265f6-110">*expression*  -  *expression*</span></span> 
+ <span data-ttu-id="1c372-110">*expression*  -  *expression*</span><span class="sxs-lookup"><span data-stu-id="1c372-110">*expression*  -  *expression*</span></span> 
   
- <span data-ttu-id="265f6-111">*expression*  Toute expression valide de l’un des types de données de catégorie numérique, à l’exception du type de données **bit** .</span><span class="sxs-lookup"><span data-stu-id="265f6-111">*expression*  Any valid expression of any one of the data types in the numeric category except the **bit** data type.</span></span> <span data-ttu-id="265f6-112">Ne peut pas être utilisé avec les types de données date ou heure.</span><span class="sxs-lookup"><span data-stu-id="265f6-112">Cannot be used with date or time data types.</span></span> 
+ <span data-ttu-id="1c372-111">*expression*  Toute expression valide de l'un des types de données dans la catégorie numérique, à l'exception du type de données **bit** .</span><span class="sxs-lookup"><span data-stu-id="1c372-111">*expression*  Any valid expression of any one of the data types in the numeric category except the **bit** data type.</span></span> <span data-ttu-id="1c372-112">Ne peut pas être utilisé avec des données de type date ou heure.</span><span class="sxs-lookup"><span data-stu-id="1c372-112">Cannot be used with date or time data types.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="265f6-113">Valeur renvoy�e</span><span class="sxs-lookup"><span data-stu-id="265f6-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1c372-113">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1c372-113">Return value</span></span>
 
-<span data-ttu-id="265f6-114">Renvoie le type de données de l’argument avec la priorité la plus élevée.</span><span class="sxs-lookup"><span data-stu-id="265f6-114">Returns the data type of the argument with the higher precedence.</span></span> 
+<span data-ttu-id="1c372-114">Renvoie le type de données de l'argument dont la priorité est la plus élevée.</span><span class="sxs-lookup"><span data-stu-id="1c372-114">Returns the data type of the argument with the higher precedence.</span></span> 
   
 
