@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4326b3edcbdfa9e3dabc4e3d0692290c343c3bd6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295534"
 ---
-# <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a><span data-ttu-id="5eb2b-102">CopyRecord, CopyTo et SaveToFile, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="5eb2b-102">CopyRecord, CopyTo, and SaveToFile methods example (VB)</span></span>
+# <a name="copyrecord-copyto-and-savetofile-methods-example-vb"></a><span data-ttu-id="7df72-102">CopyRecord, CopyTo et SaveToFile, méthodes – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="7df72-102">CopyRecord, CopyTo, and SaveToFile methods example (VB)</span></span>
 
 
-<span data-ttu-id="5eb2b-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5eb2b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7df72-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7df72-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5eb2b-104">Cet exemple montre comment créer des copies d'un fichier à l'aide d'objets [Stream](stream-object-ado.md) ou [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="5eb2b-104">This example demonstrates how to create copies of a file using [Stream](stream-object-ado.md) or [Record](record-object-ado.md) objects.</span></span> <span data-ttu-id="5eb2b-105">Une copie est effectuée dans un dossier web pour la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="5eb2b-105">One copy is made to a web folder for Internet publishing.</span></span> <span data-ttu-id="5eb2b-106">Les autres propriétés et méthodes représentées sont : [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) et [Record Open](open-method-ado-record.md).</span><span class="sxs-lookup"><span data-stu-id="5eb2b-106">Other properties and methods shown include [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md), and [Record Open](open-method-ado-record.md).</span></span>
+<span data-ttu-id="7df72-104">Cet exemple montre comment créer des copies d'un fichier à l'aide d'objets [Stream](stream-object-ado.md) ou [Record](record-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="7df72-104">This example demonstrates how to create copies of a file using [Stream](stream-object-ado.md) or [Record](record-object-ado.md) objects.</span></span> <span data-ttu-id="7df72-105">Une copie est apportée à un dossier Web pour la publication Internet.</span><span class="sxs-lookup"><span data-stu-id="7df72-105">One copy is made to a web folder for Internet publishing.</span></span> <span data-ttu-id="7df72-106">Les autres propriétés et méthodes représentées sont : [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md) et [Record Open](open-method-ado-record.md).</span><span class="sxs-lookup"><span data-stu-id="7df72-106">Other properties and methods shown include [Stream Type](type-property-ado-stream.md), **Open**, [LoadFromFile](loadfromfile-method-ado.md), and [Record Open](open-method-ado-record.md).</span></span>
 
 ```vb 
  

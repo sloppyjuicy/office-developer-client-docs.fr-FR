@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0002f571a2022a7975271c40e9204864824bdb92
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314489"
 ---
-# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="9b9c8-102">StayInSync, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="9b9c8-102">StayInSync property example (VJ++)</span></span>
+# <a name="stayinsync-property-example-vj"></a><span data-ttu-id="56c7f-102">StayInSync, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="56c7f-102">StayInSync property example (VJ++)</span></span>
 
 
-<span data-ttu-id="9b9c8-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b9c8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="56c7f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="56c7f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9b9c8-104">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l'accès aux lignes d'un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="9b9c8-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="56c7f-104">Cet exemple montre comment la propriété [StayInSync](stayinsync-property-ado.md) facilite l’accès aux lignes d’un objet [Recordset](recordset-object-ado.md) hiérarchique.</span><span class="sxs-lookup"><span data-stu-id="56c7f-104">This example demonstrates how the [StayInSync](stayinsync-property-ado.md) property facilitates accessing rows in a hierarchical [Recordset](recordset-object-ado.md).</span></span>
 
-<span data-ttu-id="9b9c8-p101">La boucle externe affiche le nom et le prénom, l'état et l'identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d'enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="9b9c8-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
+<span data-ttu-id="56c7f-p101">La boucle externe affiche le nom et le prénom, l’état et l’identification de chaque auteur. Le **Recordset** ajouté pour chaque ligne est extrait de la collection [Fields](fields-collection-ado.md) et automatiquement attribué à **rstTitleAuthor** par la propriété **StayInSync** chaque fois que le parent **Recordset** change de ligne. La boucle interne affiche quatre champs de chaque ligne dans le jeu d’enregistrements ajouté.</span><span class="sxs-lookup"><span data-stu-id="56c7f-p101">The outer loop displays each author's first and last name, state, and identification. The appended **Recordset** for each row is retrieved from the [Fields](fields-collection-ado.md) collection and automatically assigned to **rstTitleAuthor** by the **StayInSync** property whenever the parent **Recordset** moves to a new row. The inner loop displays four fields from each row in the appended recordset.</span></span>
 
 ```java 
  

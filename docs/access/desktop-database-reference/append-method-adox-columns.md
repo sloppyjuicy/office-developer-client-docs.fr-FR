@@ -8,32 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 48bc100b7b56265a570ce963b80f569f1d827150
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297122"
 ---
-# <a name="append-method-adox-columns"></a><span data-ttu-id="6d88d-102">Append, méthode (Colonnes ADOX)</span><span class="sxs-lookup"><span data-stu-id="6d88d-102">Append method (ADOX Columns)</span></span>
+# <a name="append-method-adox-columns"></a><span data-ttu-id="a0127-102">Append, méthode (Colonnes ADOX)</span><span class="sxs-lookup"><span data-stu-id="a0127-102">Append method (ADOX Columns)</span></span>
 
-<span data-ttu-id="6d88d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d88d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0127-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0127-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d88d-104">Ajoute un nouvel objet [Column](column-object-adox.md) à la collection [Columns](columns-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="6d88d-104">Adds a new [Column](column-object-adox.md) object to the [Columns](columns-collection-adox.md) collection.</span></span>
+<span data-ttu-id="a0127-104">Ajoute un nouvel objet [Column](column-object-adox.md) à la collection [Columns](columns-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a0127-104">Adds a new [Column](column-object-adox.md) object to the [Columns](columns-collection-adox.md) collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6d88d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6d88d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a0127-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a0127-105">Syntax</span></span>
 
-<span data-ttu-id="6d88d-106">*Colonnes*.</span><span class="sxs-lookup"><span data-stu-id="6d88d-106">*Columns*.</span></span> <span data-ttu-id="6d88d-107">Ajouter la*colonne* \[,*Type* \] \[,*DefinedSize*\]</span><span class="sxs-lookup"><span data-stu-id="6d88d-107">Append*Column* \[,*Type*\] \[,*DefinedSize*\]</span></span>
+<span data-ttu-id="a0127-106">*Colonnes*.</span><span class="sxs-lookup"><span data-stu-id="a0127-106">*Columns*.</span></span> <span data-ttu-id="a0127-107">Append,*colonne* \[,*type* \] \[,*DefinedSize*\]</span><span class="sxs-lookup"><span data-stu-id="a0127-107">Append*Column* \[,*Type*\] \[,*DefinedSize*\]</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="6d88d-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="6d88d-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a0127-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a0127-108">Parameters</span></span>
 
-|<span data-ttu-id="6d88d-109">Paramètre</span><span class="sxs-lookup"><span data-stu-id="6d88d-109">Parameter</span></span>|<span data-ttu-id="6d88d-110">Description</span><span class="sxs-lookup"><span data-stu-id="6d88d-110">Description</span></span>|
+|<span data-ttu-id="a0127-109">Parameter</span><span class="sxs-lookup"><span data-stu-id="a0127-109">Parameter</span></span>|<span data-ttu-id="a0127-110">Description</span><span class="sxs-lookup"><span data-stu-id="a0127-110">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="6d88d-111">*Column*</span><span class="sxs-lookup"><span data-stu-id="6d88d-111">*Column*</span></span> |<span data-ttu-id="6d88d-112">Objet **Column** à ajouter ou nom de la colonne à créer et à ajouter.</span><span class="sxs-lookup"><span data-stu-id="6d88d-112">The **Column** object to append or the name of the column to create and append.</span></span>|
-|<span data-ttu-id="6d88d-113">*Type*</span><span class="sxs-lookup"><span data-stu-id="6d88d-113">*Type*</span></span> |<span data-ttu-id="6d88d-114">Facultatif.</span><span class="sxs-lookup"><span data-stu-id="6d88d-114">Optional.</span></span> <span data-ttu-id="6d88d-115">Valeur de type **long** qui spécifie le type de données de la colonne.</span><span class="sxs-lookup"><span data-stu-id="6d88d-115">A **Long** value that specifies the data type of the column.</span></span> <span data-ttu-id="6d88d-116">Le paramètre *Type* correspond à la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) d’un objet **Column** .</span><span class="sxs-lookup"><span data-stu-id="6d88d-116">The *Type* parameter corresponds to the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) property of a **Column** object.</span></span>|
-|<span data-ttu-id="6d88d-117">*DefinedSize*</span><span class="sxs-lookup"><span data-stu-id="6d88d-117">*DefinedSize*</span></span> |<span data-ttu-id="6d88d-118">Facultatif.</span><span class="sxs-lookup"><span data-stu-id="6d88d-118">Optional.</span></span> <span data-ttu-id="6d88d-119">Valeur de type **long** qui spécifie la taille de la colonne.</span><span class="sxs-lookup"><span data-stu-id="6d88d-119">A **Long** value that specifies the size of the column.</span></span> <span data-ttu-id="6d88d-120">Le paramètre *DefinedSize* correspond à la propriété [DefinedSize](definedsize-property-adox.md) d’un objet **Column** .</span><span class="sxs-lookup"><span data-stu-id="6d88d-120">The *DefinedSize* parameter corresponds to the [DefinedSize](definedsize-property-adox.md) property of a **Column** object.</span></span>|
+|<span data-ttu-id="a0127-111">*Column*</span><span class="sxs-lookup"><span data-stu-id="a0127-111">*Column*</span></span> |<span data-ttu-id="a0127-112">Objet **Column** à ajouter ou nom de la colonne à créer et à ajouter.</span><span class="sxs-lookup"><span data-stu-id="a0127-112">The **Column** object to append or the name of the column to create and append.</span></span>|
+|<span data-ttu-id="a0127-113">*Type*</span><span class="sxs-lookup"><span data-stu-id="a0127-113">*Type*</span></span> |<span data-ttu-id="a0127-p102">Facultatif. Valeur de type **long** qui spécifie le type de données de la colonne. Le paramètre *Type* correspond à la propriété [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) d’un objet **Column**.</span><span class="sxs-lookup"><span data-stu-id="a0127-p102">Optional. A **Long** value that specifies the data type of the column. The *Type* parameter corresponds to the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) property of a **Column** object.</span></span>|
+|<span data-ttu-id="a0127-117">*DefinedSize*</span><span class="sxs-lookup"><span data-stu-id="a0127-117">*DefinedSize*</span></span> |<span data-ttu-id="a0127-118">Facultatif.</span><span class="sxs-lookup"><span data-stu-id="a0127-118">Optional.</span></span> <span data-ttu-id="a0127-119">Valeur de type **long** qui spécifie la taille de la colonne.</span><span class="sxs-lookup"><span data-stu-id="a0127-119">A **Long** value that specifies the size of the column.</span></span> <span data-ttu-id="a0127-120">Le paramètre *DefinedSize* correspond à la propriété [DefinedSize](definedsize-property-adox.md) d’
+un objet **Column**.</span><span class="sxs-lookup"><span data-stu-id="a0127-120">The *DefinedSize* parameter corresponds to the [DefinedSize](definedsize-property-adox.md) property of a **Column** object.</span></span>|
 
 
 > [!NOTE]
-> <span data-ttu-id="6d88d-121">[!REMARQUE] Une erreur survient lors de l'ajout d'une **colonne** à la collection **Columns** d'un [index](index-object-adox.md) si la **colonne** n'existe pas dans une [table](table-object-adox.md) déjà ajoutée à la collection [Tables](tables-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="6d88d-121">An error will occur when appending a **Column** to the **Columns** collection of an [Index](index-object-adox.md) if the **Column** does not exist in a [Table](table-object-adox.md) that is already appended to the [Tables](tables-collection-adox.md) collection.</span></span>
+> <span data-ttu-id="a0127-121">Une erreur se produit en cas d’ajout d’un objet **Column** à la collection **Columns** d’un objet [Index](index-object-adox.md) si l’objet **Column** n’existe pas dans un objet [Table](table-object-adox.md) déjà ajouté à la collection [Tables](tables-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="a0127-121">An error will occur when appending a **Column** to the **Columns** collection of an [Index](index-object-adox.md) if the **Column** does not exist in a [Table](table-object-adox.md) that is already appended to the [Tables](tables-collection-adox.md) collection.</span></span>
 
 

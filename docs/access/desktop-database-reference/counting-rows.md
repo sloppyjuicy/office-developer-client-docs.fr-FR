@@ -1,5 +1,5 @@
 ---
-title: Comptage des lignes (référence de base de données du bureau Access)
+title: Comptage des lignes (référence de base de données de bureau Access)
 TOCTitle: Counting rows
 ms:assetid: ff684c5e-7f41-0dae-beea-f5c71f79bd84
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2388978185ac29149f7f15150ccfdbc559cc910f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295414"
 ---
-# <a name="counting-rows"></a><span data-ttu-id="96793-102">Décompte des lignes</span><span class="sxs-lookup"><span data-stu-id="96793-102">Counting rows</span></span>
+# <a name="counting-rows"></a><span data-ttu-id="9e348-102">Décompte des lignes</span><span class="sxs-lookup"><span data-stu-id="9e348-102">Counting rows</span></span>
 
 
-<span data-ttu-id="96793-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="96793-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e348-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e348-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="96793-p101">La propriété **RecordCount** renvoie une valeur de type **Long** qui indique le nombre d'enregistrements de l'objet **Recordset**. Utilisez la propriété **RecordCount** pour déterminer le nombre d'enregistrements d'un objet **Recordset**. La propriété renvoie -1 quand ADO ne peut pas déterminer le nombre d'enregistrements ou si le fournisseur ou le type de curseur ne prennent pas en charge la propriété **RecordCount**. Toute tentative de lecture de la propriété **RecordCount** sur un objet **Recordset** fermé génère une erreur.</span><span class="sxs-lookup"><span data-stu-id="96793-p101">The **RecordCount** property returns a **Long** value that indicates the number of records in the **Recordset**. Use the **RecordCount** property to find out how many records are in a **Recordset** object. The property returns -1 when ADO cannot determine the number of records or if the provider or cursor type does not support **RecordCount**. Reading the **RecordCount** property on a closed **Recordset** causes an error.</span></span>
+<span data-ttu-id="9e348-p101">La propriété **RecordCount** renvoie une valeur de type **Long** qui indique le nombre d'enregistrements de l'objet **Recordset**. Utilisez la propriété **RecordCount** pour déterminer le nombre d'enregistrements d'un objet **Recordset**. La propriété renvoie -1 quand ADO ne peut pas déterminer le nombre d'enregistrements ou si le fournisseur ou le type de curseur ne prennent pas en charge la propriété **RecordCount**. Toute tentative de lecture de la propriété **RecordCount** sur un objet **Recordset** fermé génère une erreur.</span><span class="sxs-lookup"><span data-stu-id="9e348-p101">The **RecordCount** property returns a **Long** value that indicates the number of records in the **Recordset**. Use the **RecordCount** property to find out how many records are in a **Recordset** object. The property returns -1 when ADO cannot determine the number of records or if the provider or cursor type does not support **RecordCount**. Reading the **RecordCount** property on a closed **Recordset** causes an error.</span></span>
 
-<span data-ttu-id="96793-p102">La propriété **RecordCount** dépend des fonctionnalités du fournisseur et du type de curseur. La propriété **RecordCount** retourne -1 pour un curseur avant uniquement, le nombre réel pour un curseur statique ou de type jeu de clés et enfin, soit -1, soit le nombre réel pour un curseur dynamique, selon la source de données.</span><span class="sxs-lookup"><span data-stu-id="96793-p102">The **RecordCount** property depends on the capabilities of the provider and the type of cursor. The **RecordCount** property will return -1 for a forward-only cursor, the actual count for a static or keyset cursor, and either -1 or the actual count for a dynamic cursor, depending on the data source.</span></span>
+<span data-ttu-id="9e348-p102">La propriété **RecordCount** dépend des fonctionnalités du fournisseur et du type de curseur. La propriété **RecordCount** retourne -1 pour un curseur avant uniquement, le nombre réel pour un curseur statique ou de type jeu de clés et enfin, soit -1, soit le nombre réel pour un curseur dynamique, selon la source de données.</span><span class="sxs-lookup"><span data-stu-id="9e348-p102">The **RecordCount** property depends on the capabilities of the provider and the type of cursor. The **RecordCount** property will return -1 for a forward-only cursor, the actual count for a static or keyset cursor, and either -1 or the actual count for a dynamic cursor, depending on the data source.</span></span>
 
-<span data-ttu-id="96793-110">L’exemple de **jeu d’enregistrements** est une nouveauté [d’Examen des données](chapter-3-examining-data.md) retourne – 1, car un curseur avant uniquement a été ouvert.</span><span class="sxs-lookup"><span data-stu-id="96793-110">The sample **Recordset** introduced in [Examining Data](chapter-3-examining-data.md) would return –1 because a forward-only cursor was opened.</span></span> <span data-ttu-id="96793-111">Pour pouvoir utiliser la propriété **RecordCount**, vous devez ouvrir l'objet **Recordset** avec un curseur plus élaboré (statique ou jeu de clés).</span><span class="sxs-lookup"><span data-stu-id="96793-111">In order to use the **RecordCount** property, you would need to open the **Recordset** with a more sophisticated cursor (static or keyset).</span></span>
+<span data-ttu-id="9e348-p103">L’exemple d’objet **Recordset** présenté dans la section [Examen des données](chapter-3-examining-data.md) retourne –1 dans la mesure où un curseur avant uniquement a été ouvert. Pour pouvoir utiliser la propriété **RecordCount**, vous devez ouvrir l’objet **Recordset** avec un curseur plus élaboré (statique ou jeu de clés).</span><span class="sxs-lookup"><span data-stu-id="9e348-p103">The sample **Recordset** introduced in [Examining Data](chapter-3-examining-data.md) would return –1 because a forward-only cursor was opened. In order to use the **RecordCount** property, you would need to open the **Recordset** with a more sophisticated cursor (static or keyset).</span></span>
 
-<span data-ttu-id="96793-p104">Dans certains cas, le fournisseur ou le curseur ne peut fournir la valeur **RecordCount** qu'en procédant au préalable à une extraction de tous les enregistrements à partir de la source de données. Pour forcer ce type d'extraction, il est recommandé d'appeler la méthode **MoveLast** sur l'objet **Recordset** avant d'appeler **RecordCount**.</span><span class="sxs-lookup"><span data-stu-id="96793-p104">In certain cases, your provider or cursor might be unable to provide the **RecordCount** value without first fetching all records from the data source. To force this type of fetch, call the **Recordset** **MoveLast** method before calling **RecordCount**.</span></span>
+<span data-ttu-id="9e348-p104">Dans certains cas, le fournisseur ou le curseur ne peut fournir la valeur **RecordCount** qu'en procédant au préalable à une extraction de tous les enregistrements à partir de la source de données. Pour forcer ce type d'extraction, il est recommandé d'appeler la méthode **MoveLast** sur l'objet **Recordset** avant d'appeler **RecordCount**.</span><span class="sxs-lookup"><span data-stu-id="9e348-p104">In certain cases, your provider or cursor might be unable to provide the **RecordCount** value without first fetching all records from the data source. To force this type of fetch, call the **Recordset** **MoveLast** method before calling **RecordCount**.</span></span>
 
-<span data-ttu-id="96793-114">Si vous remplacez la ligne de code qui appelle la méthode **Open** sur l'objet **Recordset** par les éléments suivants,</span><span class="sxs-lookup"><span data-stu-id="96793-114">If you were to replace the line of code that calls the **Recordset** **Open** method with the following:</span></span>
+<span data-ttu-id="9e348-114">Si vous remplacez la ligne de code qui appelle la méthode **Open** sur l'objet **Recordset** par les éléments suivants,</span><span class="sxs-lookup"><span data-stu-id="9e348-114">If you were to replace the line of code that calls the **Recordset** **Open** method with the following:</span></span>
 
 ```vb 
  
 oRs.Open sSQL, sCnStr, adOpenStatic, adLockOptimistic, adCmdText 
 ```
 
-<span data-ttu-id="96793-p105">vous pouvez utiliser la propriété **RecordCount** dans la mesure où les curseurs statiques et le [fournisseur Microsoft OLE DB pour SQL Server](microsoft-ole-db-provider-for-sql-server.md) prennent en charge la propriété **RecordCount**. À titre d'exemple, le code suivant imprime le nombre d'enregistrements retourné par la commande dans la fenêtre de débogage, en supposant que le curseur prend en charge la propriété **RecordCount**:</span><span class="sxs-lookup"><span data-stu-id="96793-p105">you would be able to use the **RecordCount** property because static cursors with the [Microsoft OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md) support **RecordCount**. For example, the following code would print out the number of records returned by the command to the debug window, assuming the cursor supports the **RecordCount** property:</span></span>
+<span data-ttu-id="9e348-p105">vous pouvez utiliser la propriété **RecordCount** dans la mesure où les curseurs statiques et le [fournisseur Microsoft OLE DB pour SQL Server](microsoft-ole-db-provider-for-sql-server.md) prennent en charge la propriété **RecordCount**. À titre d'exemple, le code suivant imprime le nombre d'enregistrements retourné par la commande dans la fenêtre de débogage, en supposant que le curseur prend en charge la propriété **RecordCount**:</span><span class="sxs-lookup"><span data-stu-id="9e348-p105">you would be able to use the **RecordCount** property because static cursors with the [Microsoft OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md) support **RecordCount**. For example, the following code would print out the number of records returned by the command to the debug window, assuming the cursor supports the **RecordCount** property:</span></span>
 
 ```vb 
  
 Debug.Print oRs.RecordCount ' Output: 4 
 ```
 
-<span data-ttu-id="96793-117">À ce stade, il est supposé que des paramètres de curseurs et verrous de ce type sont utilisés. En effet, ils offrent davantage de fonctionnalités même s'ils sont plus coûteux.</span><span class="sxs-lookup"><span data-stu-id="96793-117">From this point forward, assume that these more capable (but more expensive) cursor and lock type settings are used.</span></span>
+<span data-ttu-id="9e348-117">À ce stade, il est supposé que des paramètres de curseurs et verrous de ce type sont utilisés. En effet, ils offrent davantage de fonctionnalités même s'ils sont plus coûteux.</span><span class="sxs-lookup"><span data-stu-id="9e348-117">From this point forward, assume that these more capable (but more expensive) cursor and lock type settings are used.</span></span>
 

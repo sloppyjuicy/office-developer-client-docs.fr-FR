@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 582acdd8500060cc340bb98d8335346f688f473a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293286"
 ---
-# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="a72bc-102">Execute, Requery et Clear, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a72bc-102">Execute, Requery, and Clear methods example (VC++)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vc"></a><span data-ttu-id="0ffea-102">Execute, Requery et Clear, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="0ffea-102">Execute, Requery, and Clear methods example (VC++)</span></span>
 
 
-<span data-ttu-id="a72bc-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a72bc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0ffea-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ffea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a72bc-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recorset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les fonctions ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="a72bc-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
+<span data-ttu-id="0ffea-p101">Cet exemple illustre la méthode **Execute** lorsqu'elle est exécutée à la fois à partir d'un objet [Command](command-object-ado.md) et d'un objet [Connection](connection-object-ado.md). Elle utilise également la méthode [Requery](requery-method-ado.md) pour récupérer les données actuelles d'un objet [Recorset](recordset-object-ado.md) et la méthode [Clear](clear-method-ado.md) pour effacer le contenu de la collection [Errors](errors-collection-ado.md). Les fonctions ExecuteCommand et PrintOutput sont nécessaires à l'exécution de cet exemple.</span><span class="sxs-lookup"><span data-stu-id="0ffea-p101">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object. It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection. The ExecuteCommand and PrintOutput functions are required for this example to run.</span></span>
 
 ```cpp 
  

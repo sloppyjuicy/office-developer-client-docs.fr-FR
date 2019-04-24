@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 791cbbd16eef7baf95fd51ab8624a04dc687166b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700485"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292397"
 ---
-# <a name="filtering-for-updated-records"></a><span data-ttu-id="842ed-102">Filtrage des enregistrements mis à jour</span><span class="sxs-lookup"><span data-stu-id="842ed-102">Filtering for updated records</span></span>
+# <a name="filtering-for-updated-records"></a><span data-ttu-id="e37f8-102">Filtrage des enregistrements mis à jour</span><span class="sxs-lookup"><span data-stu-id="e37f8-102">Filtering for updated records</span></span>
 
-<span data-ttu-id="842ed-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="842ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e37f8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e37f8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="filtering-for-updated-records"></a><span data-ttu-id="842ed-104">Filtrage des enregistrements mis à jour</span><span class="sxs-lookup"><span data-stu-id="842ed-104">Filtering for Updated Records</span></span>
+## <a name="filtering-for-updated-records"></a><span data-ttu-id="e37f8-104">Filtrage des enregistrements mis à jour</span><span class="sxs-lookup"><span data-stu-id="e37f8-104">Filtering for Updated Records</span></span>
 
-<span data-ttu-id="842ed-p101">Avant d'invoquer **UpdateBatch**, vous pouvez utiliser la propriété **Recordset** **Filter** pour n'afficher que les enregistrements qui ont subi des modifications depuis l'ouverture du **jeu d'enregistrements** ou la dernière invocation de **UpdateBatch**. Pour ce faire, définissez **Filter** sur **adFilterPendingRecords** pour déterminer le nombre d'enregistrements à mettre à jour, comme illustré ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="842ed-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
+<span data-ttu-id="e37f8-p101">Avant d'invoquer **UpdateBatch**, vous pouvez utiliser la propriété **Recordset** **Filter** pour n'afficher que les enregistrements qui ont subi des modifications depuis l'ouverture du **jeu d'enregistrements** ou la dernière invocation de **UpdateBatch**. Pour ce faire, définissez **Filter** sur **adFilterPendingRecords** pour déterminer le nombre d'enregistrements à mettre à jour, comme illustré ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="e37f8-p101">Before you call **UpdateBatch**, you can use the **Recordset** **Filter** property to view only those records which have been changed since the **Recordset** was opened or the last call to **UpdateBatch**. To do this, set **Filter** equal to **adFilterPendingRecords** to determine how many records will be updated, as shown below.</span></span>
 
-<span data-ttu-id="842ed-107">Cet exemple développe l'exemple **UpdateBatch** précédent en filtrant le **jeu d'enregistrements** juste avant d'invoquer la méthode **UpdateBatch**, montrant à l'utilisateur les enregistrements qui seront modifiés et lui permettant d'annuler la mise à jour (via la méthode **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="842ed-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
+<span data-ttu-id="e37f8-107">Cet exemple développe l'exemple **UpdateBatch** précédent en filtrant le **jeu d'enregistrements** juste avant d'invoquer la méthode **UpdateBatch**, montrant à l'utilisateur les enregistrements qui seront modifiés et lui permettant d'annuler la mise à jour (via la méthode **CancelBatch** ).</span><span class="sxs-lookup"><span data-stu-id="e37f8-107">This example extends the previous **UpdateBatch** example by filtering the **Recordset** just before calling the **UpdateBatch**, showing the user which records will change and allowing her to cancel the update (using the **CancelBatch** method).</span></span>
 
 ```vb 
  

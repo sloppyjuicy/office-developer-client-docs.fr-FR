@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.ValidateOnSet (DAO)
+title: Field2. ValidateOnSet, propriété (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 07612730-8dad-4ef0-b19b-f76845973fc3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844969(v=office.15)
@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 427903186cce0f2ce3adf7690682a793fb417873
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292642"
 ---
-# <a name="field2validateonset-property-dao"></a><span data-ttu-id="0b81f-102">Propriété Field2.ValidateOnSet (DAO)</span><span class="sxs-lookup"><span data-stu-id="0b81f-102">Field2.ValidateOnSet property (DAO)</span></span>
+# <a name="field2validateonset-property-dao"></a><span data-ttu-id="f89c8-102">Field2. ValidateOnSet, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="f89c8-102">Field2.ValidateOnSet property (DAO)</span></span>
 
 
-<span data-ttu-id="0b81f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0b81f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f89c8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f89c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="0b81f-104">Définit ou renvoie une valeur qui spécifie si la valeur d'un objet **Field2** est immédiatement validée ou non lorsque la propriété **Value** de l'objet est définie (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="0b81f-104">Sets or returns a value that specifies whether or not the value of a **Field2** object is immediately validated when the object's **Value** property is set (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="f89c8-104">Définit ou renvoie une valeur qui spécifie si la valeur d'un objet **Field2** est immédiatement validée ou non lorsque la propriété **Value** de l'objet est définie (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="f89c8-104">Sets or returns a value that specifies whether or not the value of a **Field2** object is immediately validated when the object's **Value** property is set (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0b81f-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0b81f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f89c8-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f89c8-105">Syntax</span></span>
 
-<span data-ttu-id="0b81f-106">*expression* . ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="0b81f-106">*expression* .ValidateOnSet</span></span>
+<span data-ttu-id="f89c8-106">*expression* . ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="f89c8-106">*expression* .ValidateOnSet</span></span>
 
-<span data-ttu-id="0b81f-107">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="0b81f-107">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="f89c8-107">*expression* Variable qui représente un objet **Field2** .</span><span class="sxs-lookup"><span data-stu-id="f89c8-107">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0b81f-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="0b81f-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f89c8-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="f89c8-108">Remarks</span></span>
 
-<span data-ttu-id="0b81f-109">Seuls les objets **Field2** des objets **Recordset** prennent en charge la propriété **ValidateOnSet** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="0b81f-109">Only **Field2** objects in **Recordset** objects support the **ValidateOnSet** property as read/write.</span></span>
+<span data-ttu-id="f89c8-109">Seuls les objets **Field2** des objets **Recordset** prennent en charge la propriété **ValidateOnSet** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="f89c8-109">Only **Field2** objects in **Recordset** objects support the **ValidateOnSet** property as read/write.</span></span>
 
-<span data-ttu-id="0b81f-p101">La définition de la propriété **ValidateOnSet** sur **True** peut être utile dans les cas où un utilisateur entre des enregistrements qui comprennent de grandes quantités de données Mémo. Le fait d'attendre l'invocation de la méthode **Update** pour valider les données peut entraîner une perte de temps inutile d'écriture des longues données sur la base de données s'il s'avère que les données étaient non valides à cause d'une violation d'une règle de validation dans un autre champ.</span><span class="sxs-lookup"><span data-stu-id="0b81f-p101">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data. Waiting until the **Update** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
+<span data-ttu-id="f89c8-p101">La définition de la propriété **ValidateOnSet** sur **True** peut être utile dans les cas où un utilisateur entre des enregistrements qui comprennent de grandes quantités de données Mémo. Le fait d'attendre l'invocation de la méthode **Update** pour valider les données peut entraîner une perte de temps inutile d'écriture des longues données sur la base de données s'il s'avère que les données étaient non valides à cause d'une violation d'une règle de validation dans un autre champ.</span><span class="sxs-lookup"><span data-stu-id="f89c8-p101">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data. Waiting until the **Update** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0b81f-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="0b81f-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f89c8-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="f89c8-112">Example</span></span>
 
-<span data-ttu-id="0b81f-p102">Cet exemple utilise la propriété **ValidateOnSet** pour montrer comment intercepter des erreurs pendant l'entrée des données. La fonction ValidateData est obligatoire pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="0b81f-p102">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry. The ValidateData function is required for this procedure to run.</span></span>
+<span data-ttu-id="f89c8-p102">Cet exemple utilise la propriété **ValidateOnSet** pour démontrer la manière de capturer les erreurs lors de l'entrée de données. La fonction ValidateData est indispensable pour l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="f89c8-p102">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry. The ValidateData function is required for this procedure to run.</span></span>
 
 ```vb
     Sub ValidateOnSetX() 

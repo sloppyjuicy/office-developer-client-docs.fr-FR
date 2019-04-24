@@ -1,5 +1,5 @@
 ---
-title: Méthodes d’index (DAO)
+title: Méthodes d'index (DAO)
 TOCTitle: Methods
 ms:assetid: 740d56e1-e789-41f0-b2dd-a39b81b68907
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161014(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dca9a133e533b68644b48be743497f7e7c95a6af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291788"
 ---
-# <a name="index-methods-dao"></a><span data-ttu-id="93f01-102">Méthodes d’index (DAO)</span><span class="sxs-lookup"><span data-stu-id="93f01-102">Index methods (DAO)</span></span>
+# <a name="index-methods-dao"></a><span data-ttu-id="3b2dd-102">Méthodes d'index (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b2dd-102">Index methods (DAO)</span></span>
 
-<span data-ttu-id="93f01-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93f01-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3b2dd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b2dd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="93f01-104">Méthode Index.CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="93f01-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
-- [<span data-ttu-id="93f01-105">Méthode Index.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="93f01-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
+- [<span data-ttu-id="3b2dd-104">Index. CreateField, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b2dd-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
+- [<span data-ttu-id="3b2dd-105">Index. CreateProperty, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="3b2dd-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
 
