@@ -1,5 +1,5 @@
 ---
-title: Moteur d’inactivité MAPI
+title: Moteur d'inActivité MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9fdc254053c2d35c83866bd8a076279fd383db02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d8d591c02bb621c16a1d1b46272b19573ea79785
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346808"
 ---
-# <a name="mapi-idle-engine"></a>Moteur d’inactivité MAPI
+# <a name="mapi-idle-engine"></a>Moteur d'inActivité MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI offre plusieurs fonctions qui constituent le moteur inactif. Ces fonctions permettent de clients, fournisseurs de carnet d’adresses et les fournisseurs de banque de messages effectuer diverses tâches pendant les heures de lentes dans la session ou en réponse à un moment lent. Par exemple, clients et fournisseurs de services peuvent différer des opérations lentes ou fermer les fichiers qui sont restés inutilisés pendant une longue période. Généralement, les fournisseurs de transport n’utilisent pas du moteur inactif, car la méthode **IXPLogon::Idle** prend sa place. Pour plus d’informations, voir [IXPLogon::Idle](ixplogon-idle.md).
+MAPI offre plusieurs fonctions, appelées «moteur inactif». Ces fonctions permettent aux clients, aux fournisseurs de carnets d'adresses et aux fournisseurs de banques de messages d'effectuer diverses tâches pendant les temps de ralentissement dans la session ou en réponse à un temps de ralentissement. Par exemple, les clients et les fournisseurs de services peuvent différer les opérations lentes ou fermer des fichiers qui sont restés inutilisés pendant une longue période. En règle générale, les fournisseurs de transport n'utilisent pas le moteur inactif car la méthode **IXPLogon:: Idle** prend sa place. Pour plus d'informations, consultez la rubrique [IXPLogon:: Idle](ixplogon-idle.md).
   
-Pour utiliser le moteur d’inactivité, clients et fournisseurs de services de créer une fonction de rappel qui contient les tâches qui doivent se produire lorsque le sous-système MAPI est inactif. Lorsque MAPI détecte la durée d’inactivité, il appelle cette fonction de rappel. La fonction de rappel suit le prototype **FNIDLE** , défini comme suit : 
+Pour utiliser le moteur inactif, les clients et les fournisseurs de services créent une fonction de rappel qui contient les tâches qui doivent se produire lorsque le sous-système MAPI est inactif. Lorsque MAPI détecte le temps d'inactivité, il appelle cette fonction de rappel. La fonction de rappel suit le prototype **FNIDLE** , défini comme suit: 
   
  `BOOL (STDAPICALLTYPE FNIDLE) (LPVOID lpvContext)`
   
-Pour plus d’informations, voir [FNIDLE](fnidle.md).
+Pour plus d'informations, consultez la rubrique [FNIDLE](fnidle.md).
   
-Les fonctions qui constituent le moteur inactif sont les suivants :
+Les fonctions qui composent le moteur inactif sont les suivantes:
   
 [ChangeIdleRoutine](changeidleroutine.md)
   
@@ -43,22 +43,22 @@ Les fonctions qui constituent le moteur inactif sont les suivants :
   
 [MAPIInitIdle](mapiinitidle.md)
   
-Pour enregistrer une fonction de rappel, clients et fournisseurs de services d’appel la fonction **FtgRegisterIdleRoutine** . Les paramètres d’entrée sont une priorité facultative, un bloc de mémoire est passée à la fonction de rappel comme entrée, un laps de temps à utiliser en aucune manière appropriée, et un ensemble de l’option indicateurs. 
+Pour enregistrer une fonction de rappel, les clients et les fournisseurs de services appellent la fonction **FtgRegisterIdleRoutine** . Les paramètres d'entrée incluent une priorité facultative, un bloc de mémoire qui est transmis à votre fonction de rappel comme entrée, un délai à utiliser en quelque sorte et un ensemble d'indicateurs d'option. 
   
-Clients et fournisseurs de services peuvent spécifier une priorité dans le paramètre _priIdle_ qui contrôle le fonctionne de la fonction inactive ou zéro si la priorité n’est pas un problème. Étant donné que les nombres négatifs représentent une priorité supérieure à zéro ou à des nombres positifs, les opérations de recherche et la compression doivent être affectées à des nombres négatifs. Les tâches qui se produisent une fois doivent être assignées à des nombres positifs. 
+Les clients et les fournisseurs de services peuvent spécifier une priorité dans le paramètre _priIdle_ qui contrôle le mode d'exécution de la fonction Idle ou spécifier zéro si la priorité n'est pas un problème. Étant donné que les nombres négatifs représentent des priorités supérieures à ceux des nombres positifs ou zéro, des nombres négatifs doivent être attribués aux opérations de compression et de recherche. Les tâches qui se produisent une fois doivent recevoir des nombres positifs. 
   
-Pour annuler l’enregistrement d’une fonction de rappel active, clients et fournisseurs de services appellent la fonction **DeregisterIdleRoutine** . **DeregisterIdleRoutine** fonctionne de manière asynchrone, il est possible de la fonction de rappel à appeler à tout moment pendant l’appel d’annuler l’enregistrement et peut-être même une fois que **DeregisterIdleRoutine** a renvoyé. 
+Pour annuler l'inscription d'une fonction de rappel active, les clients et les fournisseurs de services appellent la fonction **DeregisterIdleRoutine** . Étant donné que **DeregisterIdleRoutine** opère de manière asynchrone, il est possible que la fonction de rappel soit appelée à tout moment pendant l'appel de désinscription, voire même après que **DeregisterIdleRoutine** a renvoyé. 
   
-Pour modifier certaines ou toutes les caractéristiques d’une fonction de rappel, clients et fournisseurs de services appellent la fonction **ChangeIdleRoutine** . **ChangeIdleRoutine** apporte les modifications en fonction du paramétrage de du paramètre flags _ircIdle_ ; **ChangeIdleRoutine** peut modifier la fonction elle-même, sa priorité, paramètre de l’heure et paramètre d’entrée. 
+Pour modifier une partie ou la totalité des caractéristiques d'une fonction de rappel, les clients et les fournisseurs de services appellent la fonction **ChangeIdleRoutine** . **ChangeIdleRoutine** apporte des modifications en fonction de la définition du paramètre flags _ircIdle_ ; **ChangeIdleRoutine** peut modifier la fonction elle-même, sa priorité, son paramètre d'heure et son paramètre d'entrée. 
   
-MAPI définit inactif le même que le système d’exploitation, lorsque le système d’exploitation dispose d’une définition. Win32, MAPI crée un thread de priorité classe inactif pour planifier les tâches inactives. Ce thread effectue le suivi de l’heure et publie un message au thread qui doit exécuter la tâche d’inactivité de l’heure de son exécution. Win32 planifie des threads, ne traite pas. Si les tâches qui ont une priorité plus élevée que celle inactif sont produisent sur la station de travail, la tâche d’inactivité ne doit pas obtenir planifiée pour l’exécution tant que les tâches sont terminées. 
+MAPI définit inactif de la même manière que le système d'exploitation, lorsque le système d'exploitation a une définition. Sur Win32, MAPI crée un thread avec une priorité de classe inactive pour planifier les tâches inactives. Cette thread effectue le suivi du temps et publie un message dans le thread qui doit exécuter la tâche inactive lorsque l'heure de son exécution arrive. Win32 planifie les threads, pas les processus. Si les tâches dont la priorité est supérieure à la priorité d'inactivité se produisent sur le poste de travail, la tâche inactive ne doit pas être planifiée pour l'exécution jusqu'à ce que les tâches soient terminées. 
   
-Toutes les tâches inactives exécutées sur le thread qui a appelé **MAPIInitIdle**. MAPI a un thread distinct pour la planification, mais lorsqu’une tâche d’inactivité devient éligible, il publie un message renvoyé sur le thread d’initialisation et de la tâche d’inactivité est exécutée. Les implications des différents types de clients sont les suivants :
+Toutes les tâches inactives s'exécutent sur le thread qui a appelé **MAPIInitIdle**. MAPI dispose d'un thread distinct pour la planification, mais lorsqu'une tâche inactive devient éligible, il publie un message sur le thread d'initialisation et la tâche inactive est exécutée. Les implications pour les différents types de clients sont les suivantes.
   
-|**Modèle de thread**|**Implication**|
+|**Modèle de thread**|**Implique**|
 |:-----|:-----|
-|Un seul thread  <br/> |Pas de problème. Fonctions inactives s’exécuter sur le thread principal de votre client et sont sérialisées par le biais de la boucle de message.  <br/> |
-|Libre de thread  <br/> |Fonctions inactives doivent être thread-safe, mais votre client a déjà l’infrastructure nécessaire. Votre client n’ayez pas du tout le moteur inactif MAPI.  <br/> |
-|Cloisonnement sans thread  <br/> |Fonction inactive doit s’exécuter sur le même thread qui a enregistré s’il souhaite utiliser toutes les autres interfaces COM, OLE ou MAPI. La façon la plus simple consiste à enregistrer une fonction inactive MAPI qui publie un message au thread droite et distribuer la fonction « en » inactive directement à partir de la boucle de message de ce thread.  <br/> |
+|Thread unique  <br/> |Pas de problème. Les fonctions inActives s'exécutent sur le thread principal de votre client et sont sérialisées via la boucle de message.  <br/> |
+|Thread libre  <br/> |Les fonctions inActives doivent être thread-safe, mais votre client dispose déjà de l'infrastructure nécessaire. Il se peut que votre client n'ait pas du tout besoin du moteur inactif MAPI.  <br/> |
+|Thread cloisonné  <br/> |La fonction Idle doit s'exécuter sur le même thread qui l'a inscrite si elle veut utiliser MAPI, OLE ou toute autre interface COM. La méthode la plus simple consiste à enregistrer une fonction inactive avec MAPI qui publie un message vers le thread approprié et de distribuer la fonction inactive «Real» directement à partir de la boucle de message de ce thread.  <br/> |
    
 

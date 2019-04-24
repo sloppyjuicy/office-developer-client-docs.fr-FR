@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Représente le nom d'un cadre à prendre comme destination lorsque l'application est ouverte comme document actif dans une application conteneur. La valeur par défaut est une chaîne vide.
-ms.openlocfilehash: b94e5efd4a3fdf53e01f7518252852214a72c766
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344850"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Frame, cellule (section Hyperlinks)
 
 Représente le nom d'un cadre à prendre comme destination lorsque l'application est ouverte comme document actif dans une application conteneur. La valeur par défaut est une chaîne vide.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Frame par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Frame par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *nom* . Encadrer où un lien hypertexte.  *Name* est le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Lien hypertexte.  *nom* . Frame où hyperLink.  *Name* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule Frame par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Frame à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

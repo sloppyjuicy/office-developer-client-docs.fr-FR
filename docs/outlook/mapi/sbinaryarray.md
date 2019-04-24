@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 12fefbe15491837878608540006e5dd7dc3033ea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586465"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351057"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau de valeurs binaires. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -44,7 +44,7 @@ typedef struct _SBinaryArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpbin** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpbin** . 
     
  **lpbin**
   
@@ -54,7 +54,7 @@ typedef struct _SBinaryArray
 
 La structure **SBinaryArray** est utilisée pour décrire les propriétés de type PT_MV_BINARY. 
   
-Pour plus d’informations sur PT_MV_BINARY, voir la [Liste des Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_BINARY, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

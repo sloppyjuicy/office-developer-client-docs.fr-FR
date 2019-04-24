@@ -5,39 +5,39 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: 'Dernière modification : 25 juin 2012'
-ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 25 juin 2012'
+ms.openlocfilehash: ac162cb73cfdee83bf034de32064c5ed9df3bc02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345933"
 ---
 # <a name="remove-custom-form-definition-saved-with-a-message"></a>Suppression de la définition de formulaire personnalisé enregistrée avec un message
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente un exemple de code en langage C++ qui convertit un message qui a été enregistré avec une définition de formulaire personnalisé à un message régulière sans la définition du formulaire.
+Cette rubrique présente un exemple de code en C++ qui convertit un message qui a été enregistré avec une définition de formulaire personnalisée en un message normal sans la définition du formulaire.
   
-Dans Microsoft Outlook 2010 ou Microsoft Outlook 2013, vous pouvez partager les formulaires contenant des pages de formulaire personnalisées en publiant sur une bibliothèque de formulaires ou l’enregistrement de la définition de formulaire correspondant à un message. Un formulaire personnalisé enregistré avec un message est généralement désigné comme « uniques », dans la mesure où le formulaire est partagé uniquement pour l’affichage de ce message spécifique comme une instance unique. Cela s’effectue généralement lorsque le formulaire n’est pas publié dans une bibliothèque de formulaires, mais que vous souhaitez que le destinataire à utiliser le formulaire personnalisé lors de l’ouverture de l’élément. Vous pouvez spécifier qu'un formulaire est One-Off dans le Concepteur de formulaires en activant la case à cocher **Envoyer la définition du formulaire avec l’élément** dans la page **Propriétés** du formulaire. 
+Dans Microsoft Outlook 2010 ou Microsoft Outlook 2013, vous pouvez partager des formulaires contenant des pages de formulaire personnalisées en les publiant dans une bibliothèque de formulaires ou en enregistrant la définition de formulaire correspondante avec un message. Un formulaire personnalisé enregistré avec un message est communément appelé «formulaire unique», étant donné que le formulaire est partagé uniquement pour afficher ce message spécifique en tant qu'instance isolée. Vous effectuez généralement cette opération lorsque le formulaire n'est pas publié dans une bibliothèque de formulaires, mais que vous souhaitez que le destinataire utilise le formulaire personnalisé lors de l'ouverture de l'élément. Vous pouvez spécifier un formulaire en une seule fois dans le concepteur de formulaires, en activant la case à cocher **Envoyer la définition du formulaire avec l'élément** sur la page **Propriétés** du formulaire. 
   
-Les formulaires contenant des pages de formulaire peuvent être personnalisés avec du code en Visual Basic Scripting Edition (VBScript). Les messages qui sont enregistrés avec les définitions de formulaire sont généralement une plus grand taille. Pour des raisons de stockage et de sécurité, Outlook 2010 et Outlook 2013 ignore les définitions de formulaire enregistrées avec n’importe quel élément.
+Les formulaires contenant des pages de formulaire peuvent être personnalisés avec du code Visual Basic Scripting Edition (VBScript). Les messages enregistrés avec des définitions de formulaire sont généralement plus volumineux. Pour des raisons de sécurité et de stockage, Outlook 2010 et Outlook 2013 ignorent les définitions de formulaire enregistrées avec n'importe quel élément.
   
-Pour convertir un message est enregistré dans une définition de formulaire personnalisé à l’autre sans, vous devez supprimer les quatre propriétés nommées :
+Pour convertir un message enregistré avec une définition de formulaire personnalisé en un message sans, vous devez supprimer quatre propriétés nommées:
   
-- [Propriété canonique PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [Propri�t� canonique PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [Propriété canonique PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [Propri�t� canonique PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [Propriété canonique PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [Propri�t� canonique PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [Propriété canonique PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [Propri�t� canonique PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
-En outre, vous devez également supprimer la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) qui contient les définitions de propriétés personnalisées enregistrées avec ce message. Un effet secondaire de la suppression de cette propriété est que les modèles d’objet Outlook 2010 ou Outlook 2013 et l’interface utilisateur Outlook 2010 ou Outlook 2013 ne sera plus en mesure d’accéder aux propriétés utilisateur ont été définies sur le message. Vous ne pouvez toujours accéder à ces propriétés et leurs valeurs par le biais de MAPI. Notez que si vous ne supprimez pas cette propriété et le message est enregistré avec une autre définition du formulaire, la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) est partiellement remplacé avec les nouvelles données et l’intégrité des données ne sont pas garantie. 
+En outre, vous devez également supprimer la [propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) qui contient les définitions des propriétés personnalisées enregistrées avec ce message. L'un des effets secondaires de la suppression de cette propriété est que les modèles d'objet Outlook 2010 ou Outlook 2013 et l'interface utilisateur d'Outlook 2010 ou Outlook 2013 ne pourront plus accéder aux propriétés de l'utilisateur qui ont été définies sur le message. Vous pouvez toujours accéder à ces propriétés et à leurs valeurs via MAPI. Notez que si vous ne supprimez pas cette propriété et que le message est enregistré avec une autre définition de formulaire, la [propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) est partiellement remplacée par les nouvelles données et l'intégrité des données n'est pas garantie. 
   
-Si vous supprimez la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md), vous devez également supprimer l’indicateur **INSP_PROPDEFINITION** à partir de la [Propriété canonique PidLidCustomFlag](pidlidcustomflag-canonical-property.md).
+Si vous supprimez la [propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md), vous devez également supprimer l'indicateur **INSP_PROPDEFINITION** de la [propriété canonique PidLidCustomFlag](pidlidcustomflag-canonical-property.md).
   
-La fonction suivante, `RemoveOneOff`, accepte comme paramètres d’entrée un pointeur vers un message et un indicateur s’il faut supprimer la [Propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md). À l’aide du pointeur de message, il appelle [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir les identificateurs de propriété appropriée et appelle ensuite [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) pour supprimer les propriétés nommées. Il appelle [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la [Propriété canonique PidLidCustomFlag](pidlidcustomflag-canonical-property.md) et efface également la **INSP\_ONEOFFFLAGS** indicateur et **INSP_PROPDEFINITION** marquer comme il convient à partir de cette propriété, ainsi que Outlook 2010 et Outlook 2013 ne recherche pas de ces propriétés nommées qui ont été supprimées. 
+La fonction suivante, `RemoveOneOff`, accepte comme paramètres d'entrée un pointeur vers un message et un indicateur s'il faut supprimer la [propriété canonique PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md). À l'aide du pointeur de message, il appelle [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir les identificateurs de propriété appropriés, puis appelle [IMAPIProp::D eleteprops](imapiprop-deleteprops.md) pour supprimer les propriétés nommées. Il appelle également [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la [propriété canonique PidLidCustomFlag](pidlidcustomflag-canonical-property.md) et efface l' **indicateur\_INSP ONEOFFFLAGS** et l'indicateur **INSP_PROPDEFINITION** en fonction des besoins de cette propriété, afin qu'Outlook 2010 et Outlook 2013 ne recherche pas les propriétés nommées qui ont été supprimées. 
   
 ```cpp
 ULONG aulOneOffIDs[] = {dispidFormStorage,  

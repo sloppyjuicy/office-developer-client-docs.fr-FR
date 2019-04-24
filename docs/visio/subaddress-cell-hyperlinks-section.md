@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: Indique un emplacement au sein du document cible vers lequel établir un lien.
 ms.openlocfilehash: 092a53bd7c9d5adb77ed35f3e2ef53888bd6ebea
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349321"
 ---
-# <a name="subaddress-cell-hyperlinks-section"></a>Cellule SubAddress (section Liens hypertexte)
+# <a name="subaddress-cell-hyperlinks-section"></a>SubAddress, cellule (section Hyperlinks)
 
 Indique un emplacement au sein du document cible vers lequel établir un lien.
   
 ## <a name="remarks"></a>Remarques
 
-Par exemple, si la cellule Address est « Drawing1.vsdx », la cellule SubAddress peut spécifier un nom de page tel que « Page 3 ». Si la cellule Address est le fichier Microsoft Excel « Samples.xlsx », la valeur de cette cellule peut être une feuille de calcul ou une plage dans une feuille de calcul, tel que « Fonctions de feuille de calcul » ou « Sheet1 ! A1 : D10 ». Si la cellule Address est «https://www.microsoft.com/office/», la valeur de cette cellule peut être un point d’ancrage nommé dans le document, tel que « solutions ».
+Par exemple, si la cellule Address est "drawing1. vsdx", la cellule subAddress peut spécifier un nom de page tel que "page-3". Si la cellule Address est le fichier Microsoft Excel "Samples. xlsx", la valeur de cette cellule peut être une feuille de calcul ou une plage dans une feuille de calcul, telle que «fonctions de feuille de calcul» ou «Sheet1! A1: D10 ". Si la cellule Address est «https://www.microsoft.com/office/», la valeur de cette cellule peut être une ancre nommée dans le document, telle que «solutions».
   
 Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Liens hypertexte** (dans le groupe **Liens** sous l’onglet **Insertion**, cliquez sur **Lien hypertexte**).
   
@@ -30,9 +30,9 @@ Pour obtenir une référence à la cellule SubAddress à l'aide d'un nom à part
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *nom* . SubAddress où le lien hypertexte *.name* est le nom de ligne  <br/> |
+| Nom de cellule :  <br/> | Lien hypertexte.  *nom* . SubAddress, où hyperLink *. nom* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule **SubAddress** par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la **** cellule SubAddress à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
   
 |||
 |:-----|:-----|

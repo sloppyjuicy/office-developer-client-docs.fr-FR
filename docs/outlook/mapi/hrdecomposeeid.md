@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7cae156e29503c8b50755c99023805aa6d14e704
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d3ef8b61b6042d9c3e715168d9131a74facef000
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348068"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Sépare l’identificateur d’entrée composée d’un objet, généralement un message dans une banque de messages, dans l’identificateur d’entrée de cet objet dans le magasin et l’identificateur d’entrée du magasin.
+Sépare l'identificateur d'entrée composé d'un objet, généralement un message dans une banque de messages, dans l'identificateur d'entrée de cet objet dans le magasin et dans l'identificateur d'entrée de la Banque.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
    
 ```cpp
 HrDecomposeEID(
@@ -49,31 +49,31 @@ HrDecomposeEID(
 
  _pSession_
   
-> [in] Pointeur vers la session en cours d’utilisation par l’application cliente. 
+> dans Pointeur vers la session en cours d'utilisation par l'application cliente. 
     
  _cbEID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée composés d’être séparées. 
+> dans Taille, en octets, de l'identificateur d'entrée composée à séparer. 
     
  _pEID_
   
-> [in] Pointeur vers l’identificateur d’entrée composés d’être séparées. 
+> dans Pointeur vers l'identificateur d'entrée composée à séparer. 
     
  _pcbStoreEID_
   
-> [out] Pointeur vers la taille retournée, en octets, de l’identificateur d’entrée de la banque de messages qui contient l’objet. Si le paramètre _pEID_ pointe vers un identificateur d’entrée non composés, le paramètre _pcbStoreEID_ pointe sur une valeur égale à zéro. 
+> remarquer Pointeur vers la taille renvoyée, en octets, de l'identificateur d'entrée de la Banque de messages qui contient l'objet. Si le paramètre _pEID_ pointe vers un identificateur d'entrée non composé, le paramètre _pcbStoreEID_ pointe vers la valeur zéro. 
     
  _ppStoreEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyée de la banque de messages qui contient l’objet. Si le paramètre _pEID_ pointe vers un identificateur d’entrée non composés, NULL est renvoyée dans le paramètre _ppStoreEID_ . 
+> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée retourné de la Banque de messages qui contient l'objet. Si le paramètre _pEID_ pointe vers un identificateur d'entrée non composé, la valeur null est renvoyée dans le paramètre _ppStoreEID_ . 
     
  _pcbMsgEID_
   
-> [out] Pointeur vers la taille retournée, en octets, de l’identificateur d’entrée de l’objet. Si le paramètre _pEID_ pointe vers un identificateur d’entrée non composés, le paramètre _pcbMsgEID_ est égal à la valeur du paramètre _cbEID_ . 
+> remarquer Pointeur vers la taille renvoyée, en octets, de l'identificateur d'entrée de l'objet. Si le paramètre _pEID_ pointe vers un identificateur d'entrée non composé, le paramètre _pcbMsgEID_ est égal à la valeur du paramètre _cbEID_ . 
     
  _ppMsgEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyée de l’objet. Si le paramètre _pEID_ pointe vers un identificateur d’entrée non composés, _ppMsgEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée non composés. 
+> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée retourné de l'objet. Si le paramètre _pEID_ pointe vers un identificateur d'entrée qui n'est pas composé, _ppMsgEID_ pointe vers un pointeur vers une copie de l'identificateur d'entrée incomposé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -81,10 +81,10 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre _pEID_ est composée, elle est divisée en l’identificateur d’entrée de l’objet dans sa banque de messages et l’identificateur d’entrée du magasin. Chaînes identificateur d’entrée non composés sont simplement copiés. L’identificateur composé à être séparée est généralement créée par la fonction [HrComposeEID](hrcomposeeid.md) . 
+Si l'identificateur spécifié par le paramètre _pEID_ est composé, il est scindé en identificateur d'entrée de l'objet au sein de sa banque de messages et de l'identificateur d'entrée de la Banque. Les chaînes d'identificateur d'entrée non composées sont simplement copiées. L'identificateur composé à séparer est généralement un identificateur créé par la fonction [HrComposeEID](hrcomposeeid.md) . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La mémoire qui contient le paramètre _pEID_ est publiée en cas de réussite de cette fonction. Implémentation de l’appelante est chargée de libérer de la mémoire pour les paramètres de sortie. 
+La mémoire qui contient le paramètre _pEID_ est publiée lors de l'exécution correcte de cette fonction. L'implémentation appelante est chargée de libérer de la mémoire pour les paramètres de sortie. 
   
 

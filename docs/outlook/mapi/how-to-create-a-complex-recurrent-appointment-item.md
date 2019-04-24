@@ -1,5 +1,5 @@
 ---
-title: Créer un rendez-vous périodique complexes
+title: Création d’un élément de rendez-vous récurrent complexe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,48 +7,48 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: d44bf5cccd7e846530eae0c03b8d3ff525f3c012
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344533"
 ---
-# <a name="create-a-complex-recurrent-appointment-item"></a>Créer un rendez-vous périodique complexes
+# <a name="create-a-complex-recurrent-appointment-item"></a>Création d’un élément de rendez-vous récurrent complexe
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 MAPI peut être utilisé pour créer des éléments de rendez-vous périodiques.
   
-Pour plus d’informations sur la façon de télécharger, afficher et exécuter le code de l’application de MFCMAPI et d’un projet CreateOutlookItemsAddin référencé dans cette rubrique, consultez [installer les exemples utilisés dans cette Section](how-to-install-the-samples-used-in-this-section.md).
+Pour plus d'informations sur le téléchargement, l'affichage et l'exécution du code à partir de l'application MFCMAPI et du projet CreateOutlookItemsAddin référencé dans cette rubrique, voir [installer les exemples utilisés dans cette section](how-to-install-the-samples-used-in-this-section.md).
 
 ### <a name="to-create-an-appointment-item"></a>Pour créer un élément de rendez-vous
 
-1. Ouvrez une banque de messages. Pour plus d’informations sur l’ouverture d’une banque d’informations, consultez [ouverture d’une banque de messages](opening-a-message-store.md).
+1. Ouvrez une banque de messages. Pour plus d'informations sur l'ouverture d'une banque de messages, voir [ouverture d'une banque de messages](opening-a-message-store.md).
     
-2. Ouvrez un dossier de calendrier dans la banque de messages. Voir **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
+2. Ouvrez un dossier de calendrier dans la Banque de messages. Voir **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
     
-3. Appelez la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) sur le dossier de calendrier pour créer le nouvel élément de rendez-vous. 
+3. Appelez la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) sur le dossier calendrier pour créer le nouvel élément de rendez-vous. 
     
-4. Définissez la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) et autres propriétés requises pour créer un rendez-vous périodique.
+4. Définir la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) et les autres propriétés requises pour créer un rendez-vous récurrent.
     
 5. Enregistrez le nouvel élément de rendez-vous.
     
-Le `AddAppointment` fonction dans le fichier source Appointments.cpp du projet CreateOutlookItemsAddin illustre ces étapes. Le `AddAppointment` fonction prend des paramètres à partir de la boîte de dialogue **Ajouter un rendez-vous** qui s’affiche lorsque vous cliquez sur **Ajouter un rendez-vous** dans le menu **compléments** dans l’exemple d’application MFCMAPI. Le `DisplayAddAppointmentDialog` fonction dans Appointments.cpp affiche la boîte de dialogue et transmet les valeurs à partir de la boîte de dialogue à la `AddAppointment` fonction. Le `DisplayAddAppointmentDialog` fonction n’est pas liée directement à la création d’un élément de rendez-vous à l’aide de MAPI, il n’est pas répertorié ici. 
+La `AddAppointment` fonction dans le fichier source de rendez-vous du projet CreateOutlookItemsAddin illustre ces étapes. La `AddAppointment` fonction prend les paramètres de la boîte de dialogue **Ajouter un rendez-vous** qui s'affiche lorsque vous cliquez sur **Ajouter un rendez-vous** dans le menu **AddIns** dans l'exemple d'application MFCMAPI. La `DisplayAddAppointmentDialog` fonction de rendez-vous. cpp affiche la boîte de dialogue et transmet les valeurs de `AddAppointment` la boîte de dialogue à la fonction. La `DisplayAddAppointmentDialog` fonction n'est pas directement liée à la création d'un élément de rendez-vous à l'aide de MAPI; elle n'est donc pas répertoriée ici. 
   
 > [!IMPORTANT]
-> Le code dans l’application MFCMAPI ne garantit pas que le dossier **calendrier** a été sélectionné lorsque vous cliquez sur la commande **Ajouter un rendez-vous** dans le menu **compléments** . Création d’un élément de rendez-vous dans un dossier autre que le dossier **calendrier** peut provoquer un comportement indéfini. Assurez-vous que vous avez sélectionné le dossier **calendrier** avant d’utiliser la commande **Ajouter un rendez-vous** dans l’application MFCMAPI. 
+> Le code de l'application MFCMAPI ne garantit pas que le dossier **calendrier** a été sélectionné lorsque vous cliquez sur la commande **Ajouter un rendez-vous** dans le menu **AddIns** . La création d'un élément de rendez-vous dans un dossier autre que le dossier **calendrier** peut entraîner un comportement non défini. Assurez-vous que vous avez sélectionné le dossier **calendrier** avant d'utiliser la commande **Ajouter un rendez-vous** dans l'application MFCMAPI. 
   
-Le `AddAppointment` méthode est répertoriée ci-dessous. Notez que le paramètre _lpFolder_ transmis à la `AddAppointment` méthode est un pointeur vers une interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier dans lequel le rendez-vous périodique est créé. Étant donné le paramètre _lpFolder_ qui représente une interface **IMAPIFolder** , le code appelle la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . La méthode **CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface **IMessage** . La plupart de la `AddAppointment` gère le code de la fonction de la spécification des propriétés en vue de l’appel de la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) . Si l’appel à la méthode **SetProps** réussit, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appelée pour valider les modifications dans le magasin et créer un nouvel élément de calendrier. 
+La `AddAppointment` méthode est indiquée ci-dessous. Notez que le paramètre _lpFolder_ transmis à la `AddAppointment` méthode est un pointeur vers une interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier dans lequel le rendez-vous récurrent est créé. Étant donné le paramètre _lpFolder_ qui représente une interface **IMAPIFolder** , le code appelle la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . La méthode **CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface **IMessage** . La plupart du `AddAppointment` code de la fonction gère le travail de spécification des propriétés en vue de l'appel de la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) . Si l'appel à la méthode **SetProps** réussit, la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) est appelée pour valider les modifications apportées au magasin et créer un nouvel élément de calendrier. 
   
-Le `AddAppointment` fonction définit un nombre de propriétés nommées. Pour plus d’informations sur les propriétés nommées et comment ils sont créés, voir [L’aide de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Étant donné que les propriétés nommées utilisées pour les éléments de rendez-vous occupent plusieurs jeux de propriétés, être vigilant lors de la création de paramètres à transmettre à la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . 
+La `AddAppointment` fonction définit un certain nombre de propriétés nommées. Pour plus d'informations sur les propriétés nommées et leur création, consultez la rubrique [utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Étant donné que les propriétés nommées utilisées pour les éléments de rendez-vous occupent plusieurs jeux de propriétés, vous devez prendre garde lors de la création de paramètres à transmettre à la méthode [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . 
   
-Le `AddAppointment` fonction utilise plusieurs fonctions d’assistance pour créer une structure pour différentes propriétés liées à un rendez-vous. Le `BuildTimeZoneStruct` et `BuildTimeZoneDefinition` fonctions d’assistance sont utilisées pour créer une structure qui spécifie les propriétés de temps liés à la zone. Les propriétés de temps liés à la zone sont **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **dispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) et **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), et ils sont abordées dans les sections correspondantes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
+La `AddAppointment` fonction utilise plusieurs fonctions d'assistance pour créer une structure pour différentes propriétés liées à un rendez-vous. Les `BuildTimeZoneStruct` fonctions `BuildTimeZoneDefinition` et sont utilisées pour créer une structure qui spécifie les propriétés relatives aux fuseaux horaires. Les propriétés relatives aux fuseaux horaires sont **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **DispidTimeZoneDesc** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **dispidApptTZDefRecur** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) et **dispidApptTZDefEndDisplay** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), qui sont abordées dans les sections correspondantes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
 
-Le `BuildGlobalObjectID` fonction est utilisée pour créer une structure qui spécifie la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) et des propriétés **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), qui sont décrits dans le sections correspondantes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). La structure qui spécifie la propriété **dispidApptRecur** est générée à l’aide de la `BuildWeeklyAppointmentRecurrencePattern` fonction. 
+La `BuildGlobalObjectID` fonction est utilisée pour créer une structure qui spécifie les propriétés **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) et **dispidCleanGlobalObjId** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), qui sont décrites dans le sections correspondantes de [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). La structure qui spécifie la propriété **dispidApptRecur** est créée à `BuildWeeklyAppointmentRecurrencePattern` l'aide de la fonction. 
 
-Pour plus d’informations sur la structure générée par le `BuildWeeklyAppointmentRecurrencePattern` fonction, voir [La propriété canonique PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Notez que, lors d’une grande variété de périodicités rendez-vous sont possibles, la `BuildWeeklyAppointmentRecurrencePattern` fonction génère uniquement une périodicité hebdomadaire de rendez-vous. Il utilise également plusieurs valeurs codées en dur, telles que le type de calendrier (grégorien), le premier jour de la semaine (dimanche) et nombre de modifiés ou supprimés des instances (aucun). Plus polyvalentes fonction de création de rendez-vous périodicité motif devra accepter ces types de variables en tant que paramètres. 
+Pour plus d'informations sur la structure construite `BuildWeeklyAppointmentRecurrencePattern` par la fonction, voir [propriété canonique PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). Notez que même si un grand nombre de modèles de récurrence de rendez `BuildWeeklyAppointmentRecurrencePattern` -vous est possible, la fonction ne génère qu'une périodicité de rendez-vous hebdomadaire. Il utilise également plusieurs valeurs codées en dur, telles que le type de calendrier (grégorien), le premier jour de la semaine (dimanche) et le nombre d'instances modifiées ou supprimées (aucun). Une fonction de création de modèle de rendez-vous plus générale A besoin d'accepter ces types de variables comme paramètres. 
   
 Voici la liste complète de la `AddAppointment` fonction. 
   

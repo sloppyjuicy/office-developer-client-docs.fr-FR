@@ -11,74 +11,74 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a8152a9cad7623a077cd9df3f678a9ada56e3960
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 99ce944bec94a1e832f77fa8b0916ac1c76f6dc6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344792"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Fonctionne avec les propriétés des objets de section de profil. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIX.h  <br/> |
-|Exposés par :  <br/> |Objets de section de profil  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IProfSect  <br/> |
-|Type de pointeur :  <br/> |LPPROFSECT  <br/> |
-|Modèle de transaction :  <br/> |Nontransacted  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Exposé par:  <br/> |Objets de section de profil  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IProfSect  <br/> |
+|Type de pointeur:  <br/> |LPPROFSECT  <br/> |
+|Modèle de transaction:  <br/> |Pas de transaction  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
-Cette interface n’a pas de méthodes uniques.
+Cette interface n'a pas de méthodes uniques.
   
 |**Propriétés requises**|**Access**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md))  <br/> |Lecture seule  <br/> |
    
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-L’interface **IProfSect** n’a pas de méthodes uniques qui lui est propre, mais vous pouvez appeler le profil de méthodes [IMAPIProp](imapipropiunknown.md) de la section. Il existe certaines différences entre l’implémentation de **IProfSect** et d’autres implémentations de **IMAPIProp**:
+L'interface **IProfSect** ne possède pas de méthodes uniques, mais vous pouvez appeler les méthodes [IMAPIProp](imapipropiunknown.md) de la section profil. Il existe certaines différences entre l'implémentation de **IProfSect** et d'autres implémentations de **IMAPIProp**:
   
 - **IProfSect** ne prend pas en charge un modèle de transaction. 
     
-- **IProfSect** ne prend pas en charge propriétés nommées. 
+- **IProfSect** ne prend pas en charge les propriétés nommées. 
     
-- **IProfSect** réserve de la plage d’identificateurs 0x67F0 à 0x67ff pour les propriétés d’informations sécurisé. 
+- **IProfSect** réserve la plage d'identificateurs 0x67F0 à 0x67ff pour les propriétés sécurisées. 
     
-Ne prend ne pas en charge un modèle de transaction signifie que toutes les modifications qui ont été apportées à un suivante de la section profil des appels à l' [IMAPIProp::CopyProps](imapiprop-copyprops.md) et méthodes [IMAPIProp::CopyTo](imapiprop-copyto.md) se produisent immédiatement. Les appels à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) réussissent, mais n’enregistrement pas réellement de toutes les modifications. 
+Ne pas prendre en charge un modèle de transaction signifie que toutes les modifications apportées à une section de profil suite aux appels aux méthodes [IMAPIProp:: CopyProps](imapiprop-copyprops.md) et [IMAPIProp:: CopyTo](imapiprop-copyto.md) se produisent immédiatement. Les appels à la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) réussissent sans enregistrer les modifications. 
   
-Pour être protégé contre les modifications qui se produisent prématurément, fournisseurs de services besoin d’effectuer des copies de leurs sections profil affichées aux utilisateurs par le biais de feuilles de propriétés. Les feuilles de propriétés devraient fonctionner avec la copie, au lieu de la section profil réel. Lorsque l’utilisateur clique sur le bouton **OK** pour vous assurer que les modifications sont correctes, les modifications peuvent être enregistrées dans la section profil réel. 
+Pour être protégé contre les modifications qui se produisent prématurément, les fournisseurs de services doivent faire des copies de leurs sections de profil affichées aux utilisateurs par le biais de feuilles de propriétés. Les feuilles de propriétés doivent fonctionner avec la copie, au lieu de la section Profil réel. Lorsque l'utilisateur clique sur le bouton **OK** pour vérifier que les modifications sont exactes, celles-ci peuvent être enregistrées dans la section Profil réel. 
   
-Pour implémenter une feuille de propriétés à l’aide d’une section de profil copié, utilisez la procédure suivante :
+Pour implémenter une feuille de propriétés à l'aide d'une section de profil copiée, procédez comme suit:
   
-1. Ouvrez la section profil en appelant la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) ou [IProviderAdmin::OpenProfileSection](iprovideradmin-openprofilesection.md) . 
+1. Ouvrez la section profil en appelant la méthode [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) ou [IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md) . 
     
-2. Appelez la fonction [CreateIProp](createiprop.md) pour récupérer un objet de données de propriété, un objet qui prend en charge l’interface **IPropData** . 
+2. Appelez la fonction [CreateIProp](createiprop.md) pour récupérer un objet de données de propriété, un objet qui prend en charge l'interface **IPropData** . 
     
-3. Appeler la méthode [IMAPIProp::CopyTo](imapiprop-copyto.md) de la section profil pour copier les propriétés qui seront affiche sur la feuille des propriétés de la section de profil à l’objet de données de propriété. 
+3. Appelez la méthode [IMAPIProp:: CopyTo](imapiprop-copyto.md) de la section Profil pour copier les propriétés qui apparaîtront sur la feuille de propriétés à partir de la section Profil vers l'objet de données de propriété. 
     
-4. Appelez la méthode [IMAPISupport::DoConfigPropSheet](imapisupport-doconfigpropsheet.md) pour demander que le fournisseur de services afficher une feuille de propriétés et passer un pointeur vers l’objet de données de propriété dans le paramètre _lpConfigData_ . 
+4. Appelez la méthode [IMAPISupport::D oconfigpropsheet](imapisupport-doconfigpropsheet.md) pour demander à ce que le fournisseur de services affiche une feuille de propriétés, puis transmettez un pointeur à l'objet de données de la propriété dans le paramètre _lpConfigData_ . 
     
-5. Lorsque l’utilisateur enregistre les modifications apportées aux propriétés de configuration dans la feuille des propriétés, appelez la méthode [IMAPIProp::CopyTo](imapiprop-copyto.md) pour copier les propriétés de l’objet de données de propriété à la section de profil. 
+5. Lorsque l'utilisateur enregistre les modifications apportées aux propriétés de configuration dans la feuille des propriétés, appelez la méthode [IMAPIProp:: CopyTo](imapiprop-copyto.md) pour copier les propriétés de l'objet de données de la propriété dans la section profil. 
     
-Sections, contrairement aux autres objets de profil, ne prennent pas en charge les propriétés nommées. Les méthodes [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) retournent MAPI_E_NO_SUPPORT si elles sont appelées sur un objet de section de profil. Si vous utilisez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir les identificateurs de propriété dans la plage supérieure à 0 x 8000, le type de propriété PT_ERROR est retourné. 
+Les sections de profil, contrairement à d'autres objets, ne prennent pas en charge les propriétés nommées. Les méthodes [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp:: GETNAMESFROMIDS](imapiprop-getnamesfromids.md) renvoient MAPI_E_NO_SUPPORT si elles sont appelées sur un objet de section de profil. Si vous utilisez la méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) pour définir des identificateurs de propriété dans la plage au-dessus de 0x8000, le type de propriété PT_ERROR sera retourné. 
   
-Sections profil réservent la plage d’identificateurs 0x67F0 à 0x67FF pour les propriétés d’informations sécurisé. Fournisseurs de services peuvent utiliser cette plage pour stocker les mots de passe et autres informations d’identification spécifiques au fournisseur. Propriétés de cette plage ne sont pas renvoyées dans la liste complète des propriétés lorsque NULL est indiqué dans le paramètre _lpPropTag_ de la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) , ni qu’ils sont retournés dans le paramètre _lppPropTagArray_ de le [ IMAPIProp::GetPropList](imapiprop-getproplist.md) méthode. Propriétés sécurisées doivent être demandées explicitement par leurs identificateurs. 
+Les sections de profil réservent la plage d'identificateur 0x67F0 à 0x67FF pour les propriétés sécurisées. Les fournisseurs de services peuvent utiliser cette plage pour stocker les mots de passe et d'autres informations d'identification propres au fournisseur. Les propriétés de cette plage ne sont pas renvoyées dans la liste complète des propriétés lorsque la valeur NULL est transmise dans le paramètre _lpPropTag_ de la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) , et non dans le paramètre _lppPropTagArray_ de l' [énumération Méthode IMAPIProp:: GetPropList](imapiprop-getproplist.md) . Les propriétés sécurisées doivent être demandées spécifiquement par leurs identificateurs. 
   
-MAPI fournit une section de profil avec le MUID_PROFILE_INSTANCE constante codé en dur son identificateur et **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) en tant que sa propriété unique. MAPI garantit que la valeur de la propriété **clé PR_SEARCH_KEY** unique parmi tous les profils créés. Utilisez **clé PR_SEARCH_KEY** au lieu de **PR_PROFILE_NAME** si l’unicité est importante, car il est possible pour un profil supprimé être suivie d’un autre profil portant le même nom. 
+MAPI fournit une section de profil avec la constante codée en dur MUID_PROFILE_INSTANCE en tant qu'identificateur et **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) comme propriété unique. MAPI garantit que la valeur de la propriété **PR_SEARCH_KEY** sera unique parmi tous les profils créés. Utilisez **PR_SEARCH_KEY** au lieu de **PR_PROFILE_NAME** lorsque l'unicité est importante, car il est possible qu'un profil supprimé soit suivi par un autre profil portant le même nom. 
   
-Pour plus d’informations sur l’utilisation des sections de profil, voir [administration des profils et des Services de messagerie](administering-profiles-and-message-services.md).
+Pour plus d'informations sur l'utilisation des sections de profil, consultez la rubrique adMinistering Profiles [and message services](administering-profiles-and-message-services.md).
   
 ## <a name="see-also"></a>Voir aussi
 

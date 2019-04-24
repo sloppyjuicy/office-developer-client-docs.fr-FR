@@ -9,43 +9,43 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
-ms.openlocfilehash: ed67197e46ee159ba2175b0e86623fe1704992d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788386"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346514"
 ---
 # <a name="d-cell-geometry-section"></a>D, cellule (section Geometry)
 
 Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
   
-|**Row**|**Description**|
+|**Ligne**|**Description**|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Rapport entre l'axe majeur de l'arc et son axe mineur. Contrairement à la signification réelle de ces termes, l'axe « majeur » ne doit pas forcément être plus grand que l'axe « mineur ». Ce rapport peut donc être inférieur à 1. Si cette cellule a une valeur inférieure ou égale à 0, ou supérieure à 1000, les résultats sont imprévisibles.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Rapport entre l’axe majeur de l’arc et son axe mineur. Contrairement à la signification réelle de ces termes, l’axe « majeur » ne doit pas forcément être plus grand que l’axe « mineur ». Ce rapport peut donc être inférieur à 1. Si cette cellule a une valeur inférieure ou égale à 0, ou supérieure à 1000, les résultats sont imprévisibles.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Première épaisseur de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Degré d'une spline (entier compris entre 1 et 25).  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | *Y* -coordonnées d’un point sur une ellipse ; associée à l' *x* -coordonnée représentée par la cellule [C](c-cell-geometry-section.md) .  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Degré d’une spline (entier entre 1 et 25)  <br/> |
+|[Sélection](ellipse-row-geometry-section.md) <br/> | Coordonnée *y* d'un point sur une ellipse; associée à la coordonnée *x* représentée par la cellule [C](c-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule D par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule D par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Géométrie *i* . D *j* où *i* et *j* = < 1 >, 2, 3...  <br/> |
-|| Géométrie *i* . D1 (ligne Ellipse) où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Géométrie *i* . D *j* où *i* et *j* = <1>, 2, 3...  <br/> |
+|| Géométrie *i* . D1 (ligne ellipse) où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule D par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule D à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionFirstComponent** +  *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la ligne :  <br/> |**visRowVertex** +  *j* où *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (Ligne ellipse)  <br/> |
-| Index de la cellule :  <br/> |**visAspectRatio** (Ligne EllipticalArcTo)  <br/> |
-||**visNURBSWeightPrev** (Ligne NURBSTo)  <br/> |
-||**visSplineDegree** (Ligne SplineStart)  <br/> |
-||**visEllipseMinorY** (Ligne ellipse)  <br/> |
+||**visRowVertex** (ligne Ellipse)  <br/> |
+| Index de la cellule :  <br/> |**visAspectRatio** (ligne EllipticalArcTo)  <br/> |
+||**visNURBSWeightPrev** (ligne NURBSTo)  <br/> |
+||**visSplineDegree** (ligne SplineStart)  <br/> |
+||**visEllipseMinorY** (ligne Ellipse)  <br/> |
    
 

@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8426f782eb5fbf8a125833c51b25ccd605acbd64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 522c67b19656c00ea169def98a42ca2b3c1db840
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345240"
 ---
 # <a name="szfindch"></a>SzFindCh
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche la première occurrence d’un caractère dans une chaîne. 
+Recherche la première occurrence d'un caractère dans une chaîne terminée par un caractère null. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -42,18 +42,18 @@ LPSTR SzFindCh(
 
 _lpsz_
   
-> [in] Pointeur vers la chaîne à rechercher. 
+> dans Pointeur vers la chaîne terminée par un caractère null à rechercher. 
     
-_CH_
+_ch_
   
-> [in] Le caractère à rechercher.
+> dans Caractère à rechercher.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**SzFindCh** retourne un pointeur vers la première occurrence du caractère de la chaîne. Si le caractère ne se produit pas n’importe où dans la chaîne, ou si le paramètre _lpsz_ est NULL, une valeur NULL est renvoyée. 
+**SzFindCh** renvoie un pointeur vers la première occurrence du caractère dans la chaîne. Si le caractère ne se produit nulle part dans la chaîne, ou si le paramètre _lpsz_ est null, la valeur null est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **SzFindCh** cherche une correspondance exacte uniquement ; Il est sensible à la casse et différences diacritiques. Recherches dans les formats Unicode et DBCS sont pris en charge. 
+La fonction **SzFindCh** recherche une correspondance exacte uniquement; elle est sensible à la casse et aux différences diacritiques. Les recherches dans les formats Unicode et DBCS sont prises en charge. 
   
 

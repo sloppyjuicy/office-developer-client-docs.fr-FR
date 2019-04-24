@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 366208b8288aeb61bf1bb78f2c9f10b400a3dc26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4020a9161a51994ebe5b7e339d26f7612ad47361
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346416"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Code un identificateur d’entrée en une chaîne ASCII. 
+Encode un identificateur d'entrée dans une chaîne ASCII. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes  <br/> |
    
 ```cpp
 HrSzFromEntryID(
@@ -45,15 +45,15 @@ HrSzFromEntryID(
 
  _cb_
   
-> [in] Taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _pentry_ . 
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _pENTRY_ . 
     
- _pentry_
+ _pENTRY_
   
-> [in] Pointeur vers une structure [ENTRYID](entryid.md) qui contient l’identificateur d’entrée qui doivent être codées. 
+> dans Pointeur vers une structure [EntryID](entryid.md) qui contient l'identificateur d'entrée à coder. 
     
- _psz_
+ _PSZ_
   
-> [out] Pointeur vers la chaîne retournée ASCII.
+> remarquer Pointeur vers la chaîne ASCII renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,10 +61,10 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Les fonctions [HrEntryIDFromSz](hrentryidfromsz.md) et **HrSzFromEntryID** fournissent la conversion entre les formats binaires d’identificateurs d’entrée de chaîne. MAPI, vous devez utiliser les structures des données binaires. 
+Les fonctions [HrEntryIDFromSz](hrentryidfromsz.md) et **HrSzFromEntryID** fournissent une conversion entre les formats de chaîne et binaires des identificateurs d'entrée. Avec MAPI, vous devez utiliser des structures avec des données binaires. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La fonction **HrSzFromEntryID** alloue de la mémoire de la chaîne ASCII à l’aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
+La fonction **HrSzFromEntryID** alloue de la mémoire pour la chaîne ASCII à l'aide de la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) . 
   
 

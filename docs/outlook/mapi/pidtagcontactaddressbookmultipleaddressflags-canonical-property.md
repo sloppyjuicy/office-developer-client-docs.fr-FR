@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b783a624ef5358a69d65dd52785b285db1a70df7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ecd795490d953f1aa237dfbd77585ba79c8b3234
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588670"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357931"
 ---
 # <a name="pidtagcontactaddressbookmultipleaddressflags-canonical-property"></a>Propriété canonique PidTagContactAddressBookMultipleAddressFlags
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des indicateurs qui indique si les fournisseurs prendra en charge plusieurs e-mail addresses par élément de contact.
+Contient des indicateurs qui indiquent si les fournisseurs prendront en charge plusieurs adresses de messagerie par élément de contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_MULTI_ADDR_FLAGS  <br/> |
 |Identificateur :  <br/> |0x6625  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si les indicateurs de cette propriété soient TRUE, le fournisseur n’inclut pas les contacts sans les adresses de messagerie. Uniquement l’adresse de messagerie principale sera respectée. Il s’agit d’une propriété sur une section de profil du carnet d’adresses de contacts.
+Si les indicateurs de cette propriété ont la valeur TRUE, le fournisseur n'inclut pas de contacts sans adresse de messagerie. Seule l'adresse de messagerie principale sera honorée. Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

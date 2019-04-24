@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6de7c6a-f2e7-4248-adea-d354924a8bbf
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd9a91b089bb06e6dfe34a1a144245d404adb270
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b07c40882c0b9974c71eeb03123e7025b948a75e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346654"
 ---
 # <a name="mapiinitidle"></a>MAPIInitIdle
 
@@ -25,13 +25,13 @@ ms.locfileid: "22569224"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Initialise le moteur d’inactivité MAPI pour l’application appelante. 
+Initialise le moteur d'inactivité MAPI pour l'application appelante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 LONG MAPIInitIdle(
@@ -47,25 +47,25 @@ LONG MAPIInitIdle(
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **MAPIInitIdle** renvoie zéro si l’initialisation réussit et 1 dans le cas contraire. Si **MAPIInitIdle** est appelée plusieurs fois, tous les appels supplémentaires réussissent, mais sont ignorés sauf to incrémente le décompte de références. 
+La fonction **MAPIInitIdle** renvoie zéro si l'initialisation réussit et 1 dans le cas contraire. Si **MAPIInitIdle** est appelé plusieurs fois, tous les appels supplémentaires aboutissent, mais sont ignorés, sauf pour incrémenter le nombre de références. 
   
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services doit appeler **MAPIInitIdle** avant d’appeler toute autre fonction moteur inactif. 
+Une application cliente ou un fournisseur de services doit appeler **MAPIInitIdle** avant d'appeler une autre fonction de moteur inactive. 
   
-Chaque appel à **MAPIInitIdle** doit correspondre à un autre appel à [MAPIDeInitIdle](mapideinitidle.md), ou le moteur d’inactivité est de gauche en cours d’exécution pour l’application appelante. 
+Chaque appel à **MAPIInitIdle** doit être mis en correspondance par un appel ultérieur à [MAPIDeInitIdle](mapideinitidle.md), ou le moteur inactif est laissé en cours d'exécution pour l'application appelante. 
   
-Les fonctions suivantes traitent avec le moteur d’inactivité MAPI et routines inactifs basées sur le prototype de fonction [FNIDLE](fnidle.md) : 
+Les fonctions suivantes concernent le moteur inactif MAPI et les routines inactives basées sur le prototype de fonction [FNIDLE](fnidle.md) : 
   
-|**Fonction de routine inactive**|**Utilisation**|
+|**Fonction de routine inactive**|**Usage**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrit.  <br/> |
-|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité inscrit dans le système MAPI.  <br/> |
-|[EnableIdleRoutine](enableidleroutine.md) <br/> |Active ou désactive réactive une routine d’inactivité inscrit sans la supprimer à partir du système MAPI.  <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |
-|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d’inactivité MAPI pour l’application appelante.  <br/> |
-|**MAPIInitIdle** <br/> |Initialise le moteur d’inactivité MAPI pour l’application appelante.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d'une routine inactive enregistrée.  <br/> |
+|[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine inactive inscrite du système MAPI.  <br/> |
+|[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine inactive enregistrée sans la supprimer du système MAPI.  <br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l'activer.  <br/> |
+|[MAPIDeInitIdle](mapideinitidle.md) <br/> |Arrête le moteur d'inactivité MAPI pour l'application appelante.  <br/> |
+|**MAPIInitIdle** <br/> |Initialise le moteur d'inactivité MAPI pour l'application appelante.  <br/> |
    
-Lorsque toutes les tâches de premier plan pour la plateforme sont inactives, le moteur d’inactivité MAPI appelle la routine d’inactivité priorité la plus élevée qui est prête à exécuter. Il n’existe aucune garantie de l’appel de commande entre inactifs routines de même priorité. 
+Lorsque toutes les tâches de premier plan de la plate-forme deviennent inactives, le moteur inactif MAPI appelle la routine inactive de priorité la plus élevée qui est prête à s'exécuter. Il n'existe aucune garantie d'appel de commande entre les routines inactives de la même priorité. 
   
 

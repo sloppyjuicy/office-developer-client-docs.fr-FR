@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 174da93e7682246565b12c4fc4ffa6d1a9de065c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 07a1a0a1953d136da534fbdc6339d326c877bebf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344540"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22575062"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction **pas** , qui est utilisée pour appliquer une opération **NOT** logique à une restriction. 
+Décrit une restriction **not** , utilisée pour appliquer une opération **not** logique à une restriction. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -40,7 +40,7 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a>Membres
+## <a name="members"></a>Members
 
  **ulReserved**
   
@@ -48,11 +48,11 @@ typedef struct _SNotRestriction
     
  **lpRes**
   
-> Pointeur vers une structure [SRestriction](srestriction.md) décrivant la restriction être lié à l’opérateur **NOT** logique. 
+> Pointeur vers une structure [SRestriction](srestriction.md) décrivant la restriction à joindre à l'opérateur logique **not** . 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur la structure **SNotRestriction** , voir [à propos des Restrictions](about-restrictions.md). 
+Pour plus d'informations sur la structure **SNotRestriction** , consultez la rubrique [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

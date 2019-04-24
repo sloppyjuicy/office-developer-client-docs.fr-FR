@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fe87de4466413e317edea5d358c9e4769d0c5593
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348880"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570981"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule les notifications qui ont été précédemment configurées avec un appel à la méthode [IABLogon::Advise](iablogon-advise.md) . 
+Annule les notifications précédemment configurées avec un appel à la méthode [IABLogon:: Advise](iablogon-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -37,23 +37,23 @@ HRESULT Unadvise(
 
  _ulConnection_
   
-> [in] Le numéro de connexion associé à un enregistrement de notification actif. Un appel précédent à **Advise** doit renvoyer la valeur de la _classe ulConnection_.
+> dans Numéro de connexion associé à l'enregistrement de notifications actif. Un appel précédent à **Advise** doit avoir renvoyé la valeur de _ulConnection_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’inscription de notification a été annulée.
+> L'inscription de la notification a été annulée.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **Unadvise** pour annuler un enregistrement de notification pour un conteneur, utilisateur ou objet liste de distribution de messagerie. 
+MAPI appelle la **** méthode Unadvise pour annuler une inscription de notification pour un conteneur, un utilisateur de messagerie ou un objet de liste de distribution. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Votre implémentation de **Unadvise** varient selon que vous prenez en charge la notification manuellement ou à l’aide de MAPI. Si MAPI propose votre prise en charge, appelez la méthode [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) pour annuler l’inscription. Si un autre thread est en cours de l’appel de méthode de [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du récepteur advise, elle peut être retardée jusqu'à ce que **OnNotify** a renvoyé. 
+L'implémentation de **** Unadvise varie selon que vous prenez en charge la notification avec l'aide de MAPI ou manuellement. Si MAPI fournit votre prise en charge, appelez la méthode [IMAPISupport:: unsubscribe](imapisupport-unsubscribe.md) pour annuler l'inscription. Si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) du récepteur de notification, il peut être retardé jusqu'à ce que **OnNotify** ait renvoyé. 
   
-Pour plus d’informations sur le processus de notification, reportez-vous à la section [Notification d’événement MAPI](event-notification-in-mapi.md). Pour plus d’informations sur l’utilisation de la [IMAPISupport : IUnknown](imapisupportiunknown.md) méthodes pour prendre en charge la notification, consultez [Prise en charge de Notification d’événement](supporting-event-notification.md).
+Pour plus d'informations sur le processus de notification, consultez la rubrique [notifications d'événements dans MAPI](event-notification-in-mapi.md). Pour plus d'informations sur l'utilisation des méthodes [IMAPISupport: IUnknown](imapisupportiunknown.md) pour prendre en charge la notification, consultez la rubrique [notification d'événement de prise en](supporting-event-notification.md)charge.
   
 ## <a name="see-also"></a>Voir aussi
 

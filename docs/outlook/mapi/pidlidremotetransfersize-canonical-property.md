@@ -11,41 +11,41 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ca2f1c1dba52127808468ffaa505d0ef71c10d89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1b29a37920d65eff32bc84446f421ddb4c2fc0ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358481"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriété canonique PidLidRemoteTransferSize
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la taille de transfert, en octets, pour un élément à distance.
+Indique la taille de transfert, en octets, d'un élément à distance.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteXferSize  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
-|ID de type long (capot) :  <br/> |0x00008F05  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Remote  <br/> |
+|ID long (couvercle):  <br/> |0x00008F05  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Message à distance  <br/> |
+|Domaine :  <br/> |Message distant  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

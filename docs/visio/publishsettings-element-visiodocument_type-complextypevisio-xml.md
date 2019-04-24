@@ -1,31 +1,31 @@
 ---
-title: Élément PublishSettings (VisioDocument_Type, complexType) (« Visio XML »)
+title: Élément PublishSettings (complexType VisioDocument_Type) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
-description: Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
+description: Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l'aide de Visio Services dans Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 7e926021180d0f32c5e8754fd856081908f4925d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345457"
 ---
-# <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>Élément PublishSettings (VisioDocument_Type, complexType) (« Visio XML »)
+# <a name="publishsettings-element-visiodocumenttype-complextype-visio-xml"></a>Élément PublishSettings (complexType VisioDocument_Type) ('Visio XML')
 
-Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
+Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à l'aide de Visio Services dans Microsoft SharePoint Server 2013.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |document.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |document. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,20 +36,20 @@ Spécifie les paramètres qui sont utilisés lorsque le diagramme est ouvert à 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’un dessin.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d'un dessin.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Indique si une page de dessin est visible dans le navigateur à l’aide de Visio Services.  <br/> |
-|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Indique si un objet recordset actualisable à l’aide de Visio Services.  <br/> |
+|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Indique si une page de dessin est affichable dans le navigateur à l'aide de Visio Services.  <br/> |
+|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Indique si un objet Recordset est actualisable à l'aide de Visio Services.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

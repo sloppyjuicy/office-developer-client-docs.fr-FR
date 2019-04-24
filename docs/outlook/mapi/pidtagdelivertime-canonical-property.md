@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 198e388f5cfb6ab0431e7b7a78b9a0be3d103597
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3e9318e396bf195ad701b92372a3136dee7fd0d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357721"
 ---
 # <a name="pidtagdelivertime-canonical-property"></a>Propriété canonique PidTagDeliverTime
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure lorsque le message d’origine a été remis. 
+Contient la date et l'heure auxquelles le message d'origine a été remis. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la date et l’heure lorsque le message d’origine a été remis.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une propriété par destinataire sur un rapport de remise qui indique le temps que le message d’origine a été remis à l’utilisateur de messagerie pour lequel le rapport de remise est généré.
+Cette propriété est une propriété par destinataire dans un rapport de remise qui indique l'heure à laquelle le message d'origine a été remis à l'utilisateur de messagerie pour lequel le rapport de remise est généré.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

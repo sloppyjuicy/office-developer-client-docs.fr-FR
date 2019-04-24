@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9f8da0902ea4c4a862d279ee80ba566c0473c44e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: da35c9c72f4cf3f076715a7a35a3e3514c672ceb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592324"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344659"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction **AND** , qui est utilisée pour participer à un groupe de restrictions à l’aide d’une opération **AND** logique. 
+Décrit une restriction **et** , utilisée pour joindre un groupe de restrictions à l'aide d'une opération **and** logique. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -44,17 +44,17 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> Nombre de restrictions de recherche dans le tableau indiqué par le membre **lpRes** . 
+> Nombre de restrictions de recherche dans le tableau vers lequel pointe le membre **lpRes** . 
     
  **lpRes**
   
-> Pointeur vers un tableau de structures [SRestriction](srestriction.md) vont être combinées avec une opération **AND** logique. 
+> Pointeur vers un tableau de structures [SRestriction](srestriction.md) qui seront combinées avec une opération **and** logique. 
     
 ## <a name="remarks"></a>Remarques
 
-Le résultat de la **SAndRestriction** a la valeur TRUE si toutes les restrictions de ses enfants ont la valeur TRUE. Elle a la valeur FALSE si aucune restriction enfant a la valeur FALSE. 
+Le résultat de l' **SAndRestriction** est true si toutes ses restrictions enfants ont la valeur true. Elle a la valeur FALSe si une restriction enfant prend la valeur FALSe. 
   
-Pour obtenir une description des types de restrictions, comment les créer et exemple de code, voir [à propos des Restrictions](about-restrictions.md).
+Pour obtenir une description des types de restrictions, de leur création et de l'exemple de code, reportez-vous à la rubrique [à propos des restrictions](about-restrictions.md).
   
 ## <a name="see-also"></a>Voir aussi
 

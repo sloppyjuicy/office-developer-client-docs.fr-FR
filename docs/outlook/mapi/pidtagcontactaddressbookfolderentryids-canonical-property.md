@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bb95b639-e5de-44f8-82f2-dff3b00dd3d1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a9753d190ee20284b717ee31e719e03656117b75
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4d388bee615e89d5ef3231e9f4643b8c9d70587d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344904"
 ---
 # <a name="pidtagcontactaddressbookfolderentryids-canonical-property"></a>Propriété canonique PidTagContactAddressBookFolderEntryIds
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les identificateurs pour les dossiers de Contacts dans les magasins de message où les utilisateurs de messagerie sont conservés.
+Contient les identificateurs des dossiers de contacts dans les banques de messages où les utilisateurs de messagerie sont conservés.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_FOLDER_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x6620  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’une propriété sur une section de profil du carnet d’adresses de contacts.
+Il s'agit d'une propriété dans la section profil de carnet d'adresses de contacts.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

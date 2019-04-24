@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1f5f31c480f31b01e53fec9651c8154765b581a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349496"
 ---
 # <a name="create-a-reminder-for-an-appointment-item"></a>Création d’un rappel pour un élément de rendez-vous
 
@@ -28,7 +28,7 @@ Outlook permet de définir facilement un rappel pour un rendez-vous à l’aide 
 
 Dans l’exemple de code suivant, ReminderExample crée un rappel sur un rendez-vous privé pour une dégustation de vin à Napa, Californie et définit le rappel pour qu’il se déclenche deux heures avant le début du rendez-vous. Tout d’abord, ReminderExample crée un objet **AppointmentItem** Outlook. Il définit ensuite la propriété [sensibilité](https://msdn.microsoft.com/library/bb623503\(v=office.15\)) de l’élément sur [olPrivate](https://msdn.microsoft.com/library/bb645125\(v=office.15\)). Ceci indique que le rendez-vous est un rendez-vous privé. Une fois que les autres propriétés du rendez-vous sont définies, telles que les heures de [début](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) et de [fin](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), ReminderExample définit la propriété [ReminderMinutesBeforeStart](https://msdn.microsoft.com/library/bb644528\(v=office.15\)) pour indiquer le nombre de minutes au bout desquelles le rappel doit apparaître avant le début du rendez-vous. Dans ce cas, ReminderMinutesBeforeStart est défini sur 120 minutes (deux heures).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

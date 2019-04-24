@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 546b45deaa856bbfa002797e491d9b47be0dd34a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: c84665077f9c8e02647a4d348042515366b0c090
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581586"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348446"
 ---
 # <a name="personal-form-libraries"></a>Bibliothèques de formulaires personnels
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Comme son nom l’indique, les bibliothèques de formulaires personnels contiennent des formulaires d’intérêt pour un utilisateur particulier. Bibliothèque des formulaires personnels d’un utilisateur est la bibliothèque de formulaires associée à la banque de messages par défaut identifiée dans le profil de l’utilisateur ; chaque profil installé sur une station de travail peut utiliser un magasin distinct par défaut et par conséquent, une bibliothèque de formulaires personnels distincts. Une bibliothèque de formulaires personnels peut contenir les copies des formulaires qui figurent également dans les autres bibliothèques de formulaires en plus des autres formes.
+Comme son nom l'indique, les bibliothèques de formulaires personnels contiennent des formulaires intéressants pour un utilisateur particulier. La bibliothèque de formulaires personnels d'un utilisateur est la bibliothèque de formulaires associée à la Banque de messages par défaut identifiée dans le profil de l'utilisateur; chaque profil installé sur une station de travail peut utiliser une banque par défaut distincte et, par conséquent, une bibliothèque de formulaires personnels distincte. Une bibliothèque de formulaires personnels peut contenir des copies de formulaires qui sont également contenus dans d'autres bibliothèques de formulaires en plus d'autres formulaires.
   
-Une bibliothèque de formulaires personnels est implémentée dans le tableau contenu associé du dossier racine de la banque de messages par défaut d’un utilisateur — si qui réside sur un serveur ou localement sur le poste de travail est non significatifs. Si la banque de messages par défaut de l’utilisateur est stockée sur le poste de travail, bibliothèques de formulaires personnels offrent des performances améliorées en permettant aux applications d’accéder aux formulaires local au lieu de via le réseau. Il est également formulaires disponible pour les utilisateurs qui travaillent en mode hors connexion, qui peuvent se produire lorsque les utilisateurs souhaitent prendre leurs formulaires avec eux sur des ordinateurs portables et sont sans accès à un réseau.
+Une bibliothèque de formulaires personnels est implémentée dans la table des contenus associés du dossier racine de la Banque de messages par défaut d'un utilisateur (qu'elle réside sur un serveur ou localement sur la station de travail de l'utilisateur). Si la Banque de messages par défaut de l'utilisateur est stockée sur la station de travail de l'utilisateur, les bibliothèques de formulaires personnels offrent des performances améliorées en permettant aux applications d'accéder aux formulaires localement plutôt qu'au réseau. Il met également les formulaires à la disposition des utilisateurs qui travaillent en mode hors connexion, ce qui peut se produire lorsque les utilisateurs souhaitent prendre leur forme sur des ordinateurs portables et s'ils ne disposent pas d'un accès à un réseau.
   
-Les propriétés et l’implémentation sous-jacente des entrées de la bibliothèque des formulaires personnels incluent une propriété de « ID conteneur » qui identifie le conteneur principal qui l’entrée locale doit être synchronisée avec. Cela peut être l’identificateur d’un dossier arbitraire qui contienne les formulaires. Cette option est utile si vous utilisez un gestionnaire de formulaire personnalisé qui prend en charge un type de bibliothèque de formulaires de l’organisation ; le Gestionnaire de formulaire se chargera de synchroniser les formulaires stockés dans la bibliothèque de formulaires personnels et la bibliothèque de formulaires de l’organisation. Cela probablement se produit lorsque le Gestionnaire de formulaire a été chargé, mais il peut se produire théoriquement à tout moment.
+Les propriétés et l'implémentation sous-jacente d'entrées de bibliothèque de formulaires personnelles incluent une propriété «ID de conteneur» qui identifie un conteneur maître avec lequel l'entrée locale doit être synchronisée. Il peut s'agir de l'identificateur d'un dossier arbitraire qui contient des formulaires. Cette fonctionnalité est utile si vous utilisez un gestionnaire de formulaires personnalisés qui prend en charge un type de bibliothèque de formulaires à l'échelle de l'Organisation; le gestionnaire de formulaires s'occupe de synchroniser les formulaires stockés dans la bibliothèque de formulaires personnels et la bibliothèque de formulaires à l'échelle de l'organisation. Cela se produit probablement lorsque le gestionnaire de formulaire a été chargé, mais peut théoriquement se produire à tout moment.
   
 ## <a name="see-also"></a>Voir aussi
 

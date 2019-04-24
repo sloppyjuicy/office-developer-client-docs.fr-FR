@@ -11,49 +11,49 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 8ce9df6290fe6e50e52c632f0a14f226c4d715d7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345394"
 ---
 # <a name="pidlidappointmentduration-canonical-property"></a>Propriété canonique PidLidAppointmentDuration
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente la durée, en minutes, quand il est prévu un rendez-vous.
+Représente la durée, en minutes, de planification d'un rendez-vous.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptDuration  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
-|ID de type long (capot) :  <br/> |0x00008213  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
+|ID long (couvercle):  <br/> |0x00008213  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur doit être le nombre de minutes entre la valeur de la **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) et les propriétés **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
+La valeur doit être le nombre de minutes entre la valeur des propriétés **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) et **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

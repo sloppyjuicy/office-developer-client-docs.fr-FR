@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 70aeda8789665a3f35bf75f83f32a92dbeedc8de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9f9daa2169a087cf962d09a7c135e2829c7cd1ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346745"
 ---
 # <a name="mapi-hidden-folders"></a>Dossiers MAPI masqu�
 

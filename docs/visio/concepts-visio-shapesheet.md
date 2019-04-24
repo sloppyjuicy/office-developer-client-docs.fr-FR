@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 'Cette page de navigation contient des liens vers des rubriques de vue d’ensemble sur la programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utiliser la table des matières pour naviguer vers les rubriques suivantes :'
-ms.openlocfilehash: b385eb3228b015a1dca3df9defa5579e3d7da533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Cette page de navigation contient des liens vers des présentations de rubrique sur le programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :'
+ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358617"
 ---
 # <a name="concepts-visio-shapesheet"></a>Concepts (Visio ShapeSheet)
 
-Cette page de navigation contient des liens vers des rubriques de vue d’ensemble sur la programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utiliser la table des matières pour naviguer vers les rubriques suivantes :
+Cette page de navigation contient des liens vers des présentations de rubrique sur le programmabilité dans Visio. Cliquez sur les liens ci-dessous ou utilisez le sommaire pour accéder aux rubriques suivantes :
   
 - [À propos des références de cellule](about-cell-references.md)
     
 - [À propos des constantes de devise](about-currency-constants.md)
     
-- [À propos de la Date, heure et les valeurs de durée](about-date-time-and-duration-values.md)
+- [À propos des valeurs Date, Heure et Durée](about-date-time-and-duration-values.md)
     
 - [À propos des valeurs d’erreur](about-error-values.md)
     
-- [À propos des images de Format](about-format-pictures.md)
+- [À propos des images de format](about-format-pictures.md)
     
 - [À propos des formules](about-formulas.md)
     
@@ -34,7 +34,7 @@ Cette page de navigation contient des liens vers des rubriques de vue d’ensemb
     
 - [À propos des opérateurs](about-operators.md)
     
-- [À propos des paramètres de sécurité et du code d’exécution dans Visio](about-security-settings-and-running-code-in-visio-shapesheet.md)
+- [À propos des paramètres de sécurité et du code d’exécution dans Visio](about-security-settings-and-running-code-in-visio-shapesheet.md)
     
 - [À propos des chaînes](about-strings.md)
     

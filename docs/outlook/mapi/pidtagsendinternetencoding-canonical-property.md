@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae408b4f-dee3-484b-a19c-f472cfa95996
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: e157fa640026d13362084b30ad73cdb66a0b35b5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342671"
 ---
 # <a name="pidtagsendinternetencoding-canonical-property"></a>Propriété canonique PidTagSendInternetEncoding
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des préférences de codage. 
+Contient un masque de masque des préférences de codage. 
   
 |||
 |:-----|:-----|
@@ -36,71 +36,71 @@ Contient un masque binaire composé des préférences de codage.
    
 ## <a name="remarks"></a>Remarques
 
-Définir cette propriété pour indiquer les options de codage utilisées. 
+Définissez cette propriété pour indiquer les options d'encodage utilisées. 
   
-Cette propriété contient les indicateurs suivants :
+Cette propriété contient les indicateurs suivants:
   
 BODY_ENCODING_HTML 
   
-> Coder le texte du message dans le code HTML. Cet indicateur est ignoré à moins que l’indicateur ENCODING_MIME est défini. 
+> Codez le texte du message au format HTML. Cet indicateur est ignoré sauf si l'indicateur ENCODING_MIME est défini. 
     
 BODY_ENCODING_TEXT_AND_HTML 
   
-> Coder le texte du message à l’aide de texte et HTML en tant que solutions à parties multiples Multipurpose Internet Mail Extensions (MIME). Cet indicateur est ignoré à moins que l’indicateur ENCODING_MIME est défini. 
+> Codez le texte du message en utilisant du texte et du code HTML en tant que solutions multifonctions MIME (Multipurpose Internet Mail Extensions) en plusieurs parties. Cet indicateur est ignoré sauf si l'indicateur ENCODING_MIME est défini. 
     
 ENCODING_MIME 
   
-> Coder le message à l’aide de MIME. Si cet indicateur n’est pas défini, MAPI encode le texte du message en texte brut et les pièces jointes dans UUENCODE. 
+> Codez le message en utilisant MIME. Si cet indicateur n'est pas défini, MAPI code le texte du message en texte brut et les pièces jointes dans UUENCODE. 
     
 ENCODING_PREFERENCE 
   
-> Utilisez les autres indicateurs dans ce masque de bits pour déterminer le type de codage. Si cet indicateur n’est pas défini, MAPI laisse au système de messagerie pour prendre des décisions de codage. 
+> Utilisez les autres indicateurs de ce masque pour déterminer le codage. Si cet indicateur n'est pas défini, MAPI le laisse au système de messagerie afin de prendre des décisions de codage. 
     
 MAC_ATTACH_ENCODING_APPLEDOUBLE 
   
-> Coder les pièces jointes de Macintosh en mode double Apple. Cet indicateur est ignoré à moins que l’indicateur ENCODING_MIME est défini. 
+> Coder les pièces jointes Macintosh en mode double de Apple. Cet indicateur est ignoré sauf si l'indicateur ENCODING_MIME est défini. 
     
 MAC_ATTACH_ENCODING_APPLESINGLE 
   
-> Coder les pièces jointes de Macintosh en mode unique Apple. Cet indicateur est ignoré à moins que l’indicateur ENCODING_MIME est défini. 
+> Coder les pièces jointes Macintosh en mode simple Apple. Cet indicateur est ignoré sauf si l'indicateur ENCODING_MIME est défini. 
     
 MAC_ATTACH_ENCODING_UUENCODE 
   
-> Coder les pièces jointes de Macintosh dans UUENCODE. Si l’indicateur ENCODING_MIME est défini, cet indicateur est ignoré et codage BinHex est utilisé à la place. 
+> Coder les pièces jointes Macintosh dans UUENCODE. Si l'indicateur ENCODING_MIME est défini, cet indicateur est ignoré et l'encodage BinHex est utilisé à la place. 
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet aux objets de message.
+> ConVertit des conventions de messagerie standard Internet en objets message.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

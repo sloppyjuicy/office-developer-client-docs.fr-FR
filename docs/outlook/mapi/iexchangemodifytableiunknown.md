@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 51a83e1e28534cc237419d9c4ae475c1d719c5de
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 333e1d5cacc069ee1faef01426a1c0a60ef07f8e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350882"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge l’accès aux objets de table de Microsoft Exchange Server, spécifiquement l’accès système contrôler des objets liste (SACL) du tableau objets de la table des dossiers Microsoft Exchange Server de la règle. Cette interface ressemble à la [IMAPITable : IUnknown](imapitableiunknown.md) interface, mais elle ajoute la prise en charge pour les structures spécifiques à Microsoft Exchange Server qui sont utilisés pour contrôler les règles et SACL. 
+Prend en charge l'accès aux objets de tableau Microsoft Exchange Server, en particulier les objets de table de liste de contrôle d'accès système (SACL) et les objets de tableau de règles sur les dossiers Microsoft Exchange Server. Cette interface ressemble à l'interface [IMAPITable: IUnknown](imapitableiunknown.md) , mais elle ajoute la prise en charge des structures propres à Microsoft Exchange Server utilisées pour contrôler les listes SACL et les règles. 
   
 |||
 |:-----|:-----|
-|Exposés par :  <br/> |Aucun  <br/> |
-|Implémentée par :  <br/> |Objets de table de serveur  <br/> |
-|Appelée par :  <br/> |Applications MAPI et client  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IExchangeModifyTable  <br/> |
-|Type de pointeur :  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
-|Modèle de transaction :  <br/> |Traitées  <br/> |
+|Exposé par:  <br/> |Aucun  <br/> |
+|Implémenté par :  <br/> |Objets table de serveur  <br/> |
+|Appelé par :  <br/> |Applications MAPI et clientes  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IExchangeModifyTable  <br/> |
+|Type de pointeur:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
+|Modèle de transaction:  <br/> |Traitées  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Retourne des informations sur la dernière erreur qui s’est produite dans un objet table.  <br/> |
-|[GetTable](iexchangemodifytable-gettable.md) <br/> |Retourne un pointeur vers une interface pour un objet de table MAPI.  <br/> |
-|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Met à jour un objet de table MAPI.  <br/> |
+|[Généré](iexchangemodifytable-getlasterror.md) <br/> |Renvoie des informations sur la dernière erreur qui s'est produite dans un objet table.  <br/> |
+|[GetTable](iexchangemodifytable-gettable.md) <br/> |Renvoie un pointeur vers une interface pour un objet table MAPI.  <br/> |
+|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Met à jour un objet table MAPI.  <br/> |
    
-|**Propriétés utilisées pour modifier une table de règles**|**Access**|
+|**Propriétés utilisées pour modifier un tableau de règles**|**Access**|
 |:-----|:-----|
 |**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Lecture seule  <br/> |
@@ -66,7 +66,7 @@ Prend en charge l’accès aux objets de table de Microsoft Exchange Server, sp�
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir l’interface **IExchangeModifyTable** , appelez la méthode MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet folder. Lorsque vous appelez la méthode **OpenProperty** , transmettez la valeur **IID_IExchangeModifyTable** dans le paramètre _lpiid_ . 
+Pour obtenir l'interface **IExchangeModifyTable** , appelez la méthode MAPI [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet Folder. Lorsque vous appelez la méthode **OpenProperty** , transmettez la valeur **IID_IExchangeModifyTable** dans le paramètre _lpiid_ . 
   
 ## <a name="see-also"></a>Voir aussi
 

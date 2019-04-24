@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c5b2d7db745cc270c0be7ee2184e86c6a4f97aad
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 4196ed8b949ecb9e23c4bd34380db9cc5a369e23
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348726"
 ---
 # <a name="imslogoncompareentryids"></a>IMSLogon::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594298"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet. MAPI fait référence à cet appel à un fournisseur de services uniquement si les identificateurs uniques (UID) dans les deux identificateurs d’entrée à comparer sont gérés par ce fournisseur.
+Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet. MAPI renvoie cet appel à un fournisseur de services uniquement si les identificateurs uniques (UID) dans les deux identificateurs d'entrée à comparer sont gérés par ce fournisseur.
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] La taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpEntryID1_ _._
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ _._
     
  _lpEntryID1_
   
-> [in] Pointeur vers le premier identificateur d’entrée à comparer.
+> dans Pointeur vers le premier identificateur d'entrée à comparer.
     
  _cbEntryID2_
   
-> [in] La taille, en octets, de l’identificateur d’entrée indiqué par le paramètre _lpEntryID2_ _._
+> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ _._
     
  _lpEntryID2_
   
-> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
+> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Pointeur vers le résultat de la comparaison retourné. TRUE si les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
+> remarquer Pointeur vers le résultat renvoyé de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,9 +72,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de magasins de message implémentent la méthode **IMSLogon::CompareEntryIDs** pour comparer deux identificateurs d’entrée pour une entrée de donnée dans une banque de messages pour déterminer si elles font référence au même objet. Si les identificateurs de deux entrée font référence au même objet, **CompareEntryIDs** définit le paramètre _lpulResult_ sur TRUE. s’ils font référence à des objets différents, **CompareEntryIDs** définit _lpulResult_ sur FALSE. 
+Les fournisseurs de banque de messages implémentent la méthode **IMSLogon:: CompareEntryIDs** pour comparer deux identificateurs d'entrée pour une entrée donnée dans une banque de messages afin de déterminer s'ils font référence au même objet. Si les deux identificateurs d'entrée font référence au même objet, **CompareEntryIDs** définit le paramètre _lpulResult_ sur true; s'ils font référence à des objets différents, **CompareEntryIDs** définit _lpulResult_ sur false. 
   
- **CompareEntryIDs** est utile car un objet peut avoir plusieurs identificateurs d’entrée valide. Par exemple, cela peut se produire après l’installation d’une nouvelle version d’un fournisseur de magasin de message. 
+ **CompareEntryIDs** est utile, car un objet peut avoir plus d'un identificateur d'entrée valide. Cela peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de banque de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

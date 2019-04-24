@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3006d1852dc47b942f87bd6cf3ffcd14f53b6632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 80f15e86d8655e7eae37002f5e322e45944234c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346325"
 ---
 # <a name="pidtagreportingdistributionlistname-canonical-property"></a>Propriété canonique PidTagReportingDistributionListName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet d’une liste de distribution dans lequel le système de messagerie fournit un rapport.
+Contient le nom d'affichage d'une liste de distribution dans laquelle le système de messagerie remet un rapport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORTING_DL_NAME  <br/> |
-|Identificateur :  <br/> |0 x 1003  <br/> |
+|Identificateur :  <br/> |0x1003  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Message MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,55 +11,55 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08239670-3211-420c-99d7-0056ed967cb8
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 504dc4b1cecb9798590e4a15968acc3aa98fe4a6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399899"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345016"
 ---
 # <a name="pidlidappointmenttimezonedefinitionstartdisplay-canonical-property"></a>Propriété canonique PidLidAppointmentTimeZoneDefinitionStartDisplay
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux qui mappe sur le format persistant d’une structure [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , qui stocke la description pour le fuseau horaire qui est utilisé lorsque l’heure de début d’un rendez-vous ou d’une demande de réunion est sélectionné. 
+Contient un flux qui correspond au format persistant d'une structure [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , qui stocke la description du fuseau horaire utilisé lorsque l'heure de début d'une demande de réunion ou de rendez-vous à instance unique est sélectionnée. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidApptTZDefStartDisplay  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
-|ID de type long (capot) :  <br/> |0x0000825E  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
+|ID long (couvercle):  <br/> |0x0000825E  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Microsoft Office Outlook 2003 ou version antérieure et les solutions qui sont basées sur les objets CDO (Collaboration Data) 1.2.1 et qui n’ont pas exécuter l’outil de mise à jour de calendrier pour Outlook ou Microsoft Exchange Server, stockent l’heure de début et heure de fin de l’instance unique rendez-vous et demandes de réunion en temps universel coordonné (UTC). Ces clients ne stockent pas les informations pour le fuseau horaire dans lequel la demande de réunion ou de rendez-vous est créée.
+Microsoft Office Outlook 2003 ou une version antérieure, ainsi que les solutions basées sur CDO (Collaboration Data Objects) 1.2.1 et qui n'ont pas exécuté l'outil de mise à jour de calendrier pour Outlook ou Microsoft Exchange Server, stockent l'heure de début et l'heure de fin d'une instance unique rendez-vous et demandes de réunion au format UTC (Coordinated Universal Time). Ces clients ne stockent aucune information pour le fuseau horaire dans lequel la demande de rendez-vous ou de réunion est créée.
   
-Versions d’Outlook depuis Microsoft Office Outlook 2007 et les solutions basées sur CDO 1.2.1 et que vous ont exécuté l’outil de mise à jour de calendrier Outlook ou Exchange Server, utilisent cette propriété pour stocker le fuseau horaire de l’heure de début. La propriété **dispidApptTZDefStartDisplay** indique le rendez-vous ou la réunion dans le fuseau horaire d’origine qu’il a été planifiée. Il détermine si l’heure de début doit être ajusté si Modifier les règles du fuseau horaire. Si cette propriété est manquante, le fuseau horaire local est supposé. Cette propriété est utilisée uniquement à des fins d’affichage et n’est pas utilisée dans l’extension de périodicité. 
+Les versions d'Outlook depuis Microsoft Office Outlook 2007 et les solutions basées sur CDO 1.2.1 qui exécutent l'outil de mise à jour de calendrier Outlook ou Exchange Server utilisent cette propriété pour stocker le fuseau horaire pour l'heure de début. La propriété **dispidApptTZDefStartDisplay** indique le rendez-vous ou la réunion dans le fuseau horaire d'origine qu'il était planifié. Il détermine si l'heure de début doit être ajustée si les règles du fuseau horaire changent. Si cette propriété est manquante, le fuseau horaire local actuel est utilisé. Cette propriété est utilisée à des fins d'affichage uniquement et n'est pas utilisée dans le développement de périodicité. 
   
-Un analyseur doit être prudent lorsqu’il lit un flux de données obtenu à partir de cette propriété, ou lorsqu’il persiste **TZDEFINITION** à un flux d’engagement à une propriété binaire, tel que **dispidApptTZDefStartDisplay**. Pour plus d’informations, voir [About persistance TZDEFINITION dans un flux de validation dans une propriété binaire](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
+Un analyseur doit être prudent lorsqu'il lit un flux obtenu à partir de cette propriété, ou lorsqu'il rend **TZDEFINITION** à un flux pour engagement à une propriété binaire telle que **dispidApptTZDefStartDisplay**. Pour plus d'informations, consultez la rubrique [about persistING TZDEFINITION to a Stream to commit to a Binary Property](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
   
-Cette propriété spécifie les informations de fuseau horaire pour la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). La valeur de **dispidApptTZDefStartDisplay** est utilisée pour convertir la date de début et l’heure UTC du fuseau horaire local à des fins d’affichage. Pour chaque **TZRULE** spécifié par cette propriété, l’indicateur TZRULE_FLAG_RECUR_CURRENT_TZREG ne doit pas être définie. Par exemple, si la **TZRULE** est la règle effective, la valeur du champ, **TZRULE** doit être « 0 x 0002 » ; dans le cas contraire, elle doit être « 0 x 0000 ». 
+Cette propriété spécifie les informations de fuseau horaire pour la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). La valeur de **dispidApptTZDefStartDisplay** est utilisée pour convertir la date et l'heure de début à partir de l'UTC vers le fuseau horaire local à des fins d'affichage. Pour chaque **TZRULE** spécifié par cette propriété, l'indicateur TZRULE_FLAG_RECUR_CURRENT_TZREG ne doit pas être défini. Par exemple, si **TZRULE** est la règle effective, la valeur du champ, **TZRULE** doit être «0x0002»; Sinon, il doit s'agir de «0x0000». 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes...
+> Fournit des définitions de jeu de propriétés et des références aux spécifications de protocole Exchange Server associées..
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f4adbdfc041ebe5213c384db98343baa82af5b05
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4a0e7325618a38addefe562c8207066dfea620f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342541"
 ---
 # <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipEmailAddress
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’adresse de messagerie du destinataire prévu à l’origine d’un message transféré automatiquement.
+Contient l'adresse de messagerie du destinataire initial d'un message autoforwarded.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient l’adresse de messagerie du destinataire prévu à l’origine d’un 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire du message à l’origine. Il doivent être définies par l’agent automatique qui a transféré le message.
+Ces propriétés sont des exemples de propriétés d'adresse pour le destinataire du message initialement prévu. Elles doivent être définies par l'agent automatique qui a transféré le message.
   
-Ces propriétés correspondent à l’attribut par destinataire du rapport X.400.
+Ces propriétés correspondent à l'attribut par destinataire du rapport X. 400.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

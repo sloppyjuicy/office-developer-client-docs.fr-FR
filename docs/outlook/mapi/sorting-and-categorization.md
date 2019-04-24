@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
-description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 12668cb87f21b56cd398a7b5375f6a4b40c65829
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 08 08, 2011'
+ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581530"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344505"
 ---
 # <a name="sorting-and-categorization"></a>Tri et catégorisation
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tri d’un tableau place les lignes dans un ordre significatif pour la visionneuse. Par exemple, une visionneuse pourrait être préférable de voir la table des matières d’un dossier trié par objet du message, afin que tous les threads d’une conversation ensemble pendant une autre visionneuse souhaiterez les messages triés par le nom de l’expéditeur. Une table nouvellement instanciée n’est pas nécessairement triée selon un ordre particulier. 
+Trier un tableau place les lignes dans un ordre approprié pour la visionneuse. Par exemple, une visionneuse peut préférer consulter la table des matières d'un dossier triée par objet de message de sorte que tous les threads d'une conversation soient réunis tandis qu'une autre peut souhaiter que les messages soient triés en fonction du nom de l'expéditeur. Une table nouvellement instanciée n'est pas nécessairement triée dans un ordre particulier. 
   
-Il existe deux types de tri :
+Il existe deux types de tri:
   
 - Tri standard
     
-- Classés tri 
+- Tri par catégorie 
     
-Tri standard, toutes les lignes sont affichées dans une liste simple à l’aide d’une ou plusieurs colonnes comme clé de tri. Tri par catégorie, les lignes sont affichés hiérarchiquement avec une ou plusieurs colonnes comme clé de tri. Dans chaque catégorie, il est une ligne d’en-tête spécial qui contient les colonnes suivantes.
+Avec le tri standard, toutes les lignes s'affichent dans une liste plate à l'aide d'une ou de plusieurs colonnes en tant que clé de tri. Avec le tri par catégorie, les lignes sont affichées hiérarchiquement avec une ou plusieurs colonnes en tant que clé de tri. Dans chaque catégorie, il existe une ligne d'en-tête spéciale qui contient les colonnes suivantes.
   
-- L’ou les colonnes qui constituent la clé de tri
+- La ou les colonnes qui composent la clé de tri
     
 - **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
@@ -43,17 +43,17 @@ Tri standard, toutes les lignes sont affichées dans une liste simple à l’aid
     
 - **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
-Mis en retrait sous la ligne d’en-tête sont toutes les lignes de la table contenant des colonnes avec des valeurs qui correspondent à la clé de tri. Ces lignes sont appelées les lignes de feuille. Lignes de feuille contient toutes les colonnes dans la colonne valeur moins les colonnes de clés de tri. 
+Le retrait sous la ligne d'en-tête contient toutes les lignes de la table qui contiennent des colonnes avec des valeurs qui correspondent à la clé de tri. Ces lignes sont appelées lignes feuille. Les lignes de feuille contiennent toutes les colonnes de l'ensemble de colonnes moins les colonnes de clés de tri. 
   
-Les tables de contenu des dossiers prennent généralement en charge le tri par catégorie en plus de tri standard. Les tables de contenu des conteneurs de carnet d’adresses prennent généralement en charge uniquement le tri standard. 
+Les tables de contenu des dossiers prennent généralement en charge le tri par catégorie en plus du tri standard. Les tables de contenu des conteneurs du carnet d'adresses prennent généralement en charge uniquement le tri standard. 
   
-Une catégorie peut avoir deux états : réduits et développés. Lorsqu’une catégorie est dans l’état réduit, la ligne d’en-tête est renvoyée à partir de [IMAPITable::QueryRows](imapitable-queryrows.md). Lorsqu’une catégorie est dans l’état développé, toutes les lignes associées à la catégorie sont renvoyés. Cela inclut la ligne d’en-tête et les lignes de feuille. 
+Une catégorie peut avoir deux États: réduite et développée. Lorsqu'une catégorie est réduite, seule la ligne d'en-tête est renvoyée à partir de l'état [IMAPITable:: QueryRows](imapitable-queryrows.md). Lorsqu'une catégorie est dans l'état développé, toutes les lignes associées à la catégorie sont renvoyées. Cela inclut la ligne d'en-tête et les lignes de feuille. 
   
-Chaque catégorie dans un affichage tableau peut être développé ou réduit de manière indépendante. Autrement dit, pas toutes les catégories doivent être dans le même état en même temps ; des catégories peuvent être réduits tandis que d’autres personnes sont développés. 
+Chaque catégorie dans un affichage tableau peut être développée ou réduite indépendamment. Autrement dit, toutes les catégories ne doivent pas être dans le même État en même temps; certaines catégories peuvent être réduites, tandis que d'autres sont développées. 
   
-L’utilisateur d’une table, voir décide comment il est affiché. Une option commune consiste à utiliser un contrôle fourni dans le SDK de Windows appelée le contrôle treeview. Contrôles TreeView sont les zones de liste qui prennent en charge les informations dans une structure d’arborescence. Lignes d’en-tête pour les catégories dans l’état développé sont marqués avec un signe moins, tandis que les lignes d’en-tête pour les catégories dans l’état réduit sont marquées avec un signe plus. Catégories de l’étendue sont affichés avec les lignes de feuille en retrait sous les lignes d’en-tête. 
+L'utilisateur d'un tableau classé détermine son mode d'affichage. Une option commune consiste à utiliser un contrôle fourni dans le kit de développement logiciel (SDK) Windows appelé contrôle TreeView. Les contrôles TreeView sont des zones de liste qui prennent en charge les informations dans une structure arborescente. Les lignes d'en-tête pour les catégories dans l'état développé sont signalées par un signe moins tandis que les lignes de titre pour les catégories dans l'État réduit sont signalées par un signe plus. Les catégories développées sont affichées avec les lignes de feuille mises en retrait sous les lignes d'en-tête. 
   
-Pour réduire et développer une catégorie, une application cliente ou un fournisseur de services utilise les éléments suivants [IMAPITable : IUnknown](imapitableiunknown.md) méthodes : 
+Pour réduire et développer une catégorie, une application cliente ou un fournisseur de services utilise la méthode [IMAPITable suivante: méthodes IUnknown](imapitableiunknown.md) : 
   
 - [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md)
     
@@ -63,7 +63,7 @@ Pour réduire et développer une catégorie, une application cliente ou un fourn
     
 - [IMAPITable::CollapseRow](imapitable-collapserow.md)
     
-Pour plus d’informations sur le tri, les threads d’une conversation voir les rubriques suivantes :
+Pour plus d'informations sur le tri des threads d'une conversation, consultez les rubriques suivantes:
   
 - [SSortOrder](ssortorder.md)
     

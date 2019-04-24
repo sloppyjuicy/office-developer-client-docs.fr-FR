@@ -11,60 +11,60 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 96a0b010a8ba26a0c1b0cb409f1aaabb308a1c01
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356195"
 ---
 # <a name="pidtagmessagetome-canonical-property"></a>Propriété canonique PidTagMessageToMe
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si cet utilisateur de messagerie est nommé spécifiquement comme (destinataire du message à) principale et ne fait pas partie d’une liste de distribution. 
+Contient la valeur TRUE si cet utilisateur de messagerie est spécifiquement nommé comme destinataire principal (à) de ce message et ne fait pas partie d'une liste de distribution. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_TO_ME  <br/> |
 |Identificateur :  <br/> |0x0057  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété fournit un moyen pratique pour déterminer si le nom d’utilisateur apparaît explicitement dans la liste des destinataires principale sans examiner toutes les entrées de la liste. 
+Cette propriété offre un moyen pratique de déterminer si le nom d'utilisateur apparaît explicitement dans la liste de destinataires principale, sans examiner toutes les entrées de la liste. 
   
-Cette propriété permet également de traitement automatisé des messages reçus au moment de la réception. Option du fournisseur de transport, cette propriété contient FALSE ou n’est pas incluse si l’utilisateur de messagerie ne figure pas directement dans la table de destinataires. 
+Cette propriété facilite également la gestion automatisée des messages reçus au moment de l'accusé de réception. À l'option du fournisseur de transport, cette propriété contient soit la valeur FALSe, soit elle n'est pas incluse si l'utilisateur de messagerie n'est pas répertorié directement dans la table des destinataires. 
   
-Remise de messages résultant de l’extension des listes de distribution ou la désignation d’une copie carbone invisible n’entraîne pas cette propriété à définir. Le destinataire doit se nommer explicitement. 
+La remise des messages résultant de l'extension d'une liste de distribution ou d'une désignation de copie carbone invisible n'entraîne pas la définition de cette propriété. Le destinataire doit être nommé explicitement. 
   
-Les messages ne définissent généralement pas cette propriété, **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou le **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)). Si elles sont présentes dans les messages de l’utilisateur peut accéder dans des magasins de messages publique, privé des autres utilisateurs magasins, dans les fichiers sur le disque, ou incorporé à l’intérieur d’autres messages reçus, ils contiennent généralement les valeurs à laquelle ils ont été définies lors de la dernière un fournisseur de transport remis le message. 
+Les messages non envoyés ne définissent généralement pas les **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md)), **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md)) ou cette propriété. S'ils sont présents dans les messages auxquels l'utilisateur peut accéder dans les banques de messages publics, dans les magasins privés des autres utilisateurs, dans les fichiers sur le disque ou dans d'autres messages reçus, ils contiennent généralement les valeurs auxquelles ils ont été définis lors de la dernière utilisation d'un fournisseur de transport. le message a été remis. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées sur les objets de message électronique.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

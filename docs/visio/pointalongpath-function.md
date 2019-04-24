@@ -7,46 +7,47 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7f91e5d9-89b8-5a0d-e01f-aa81fbd5e1fd
 description: Renvoie les coordonnées d’un point du chemin, ou d’un décalage par rapport à ce chemin.
-ms.openlocfilehash: 9ce6f8c171515b46aaff0ce07cbe7da4f1e958d9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ce8b54bbd821cbfa6eb1f2789193ff8d7dda42d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348257"
 ---
-# <a name="pointalongpath-function"></a>POINTALONGPATH, fonction
+# <a name="pointalongpath-function"></a>Fonction POINTALONGPATH
 
 Renvoie les coordonnées d’un point du chemin, ou d’un décalage par rapport à ce chemin.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-POINTALONGPATH (** *section* **, ** *voyage* ** ** *[, décalage]* ** ** *[, segment]* **) 
+POINTALONGPATH (* * *section* * *, * * *voyages* * * * * *[, décalage]* * * * * *[, segment]* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
-| _frais de déplacement_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage du chemin parcouru du point de début au point de fin qui identifie le point. La valeur doit être comprise entre 0 et 1.  <br/> |
-| _décalage_ <br/> |Facultatif  <br/> |**Double** <br/> |Distance dont le point est décalé par rapport au chemin. Voir la section Remarques pour plus d’informations.  <br/> |
+| _section_ <br/> |Obligatoire  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
+| _poche_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage du chemin parcouru du point de début au point de fin qui identifie le point. La valeur doit être comprise entre 0 et 1.  <br/> |
+| _compensé_ <br/> |Facultatif  <br/> |**Double** <br/> |Distance dont le point est décalé par rapport au chemin. Voir la section Remarques pour plus d’informations.  <br/> |
 | _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin sur lequel calculer les coordonnées.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
  **Point**
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Si la _section_ ou _segment_ n’existe pas, Microsoft Visio renvoie #REF !. 
+Si la _section_ ou le _segment_ n'existe pas, Microsoft Visio renvoie #REF!. 
   
-Les valeurs positives *décalage* spécifient des points vers la gauche de la direction de déplacement. 
+Les valeurs de *décalage* positives spécifient les points à gauche du sens de déplacement. 
   
-Les valeurs négatives *décalage* spécifient des points à droite de la direction de déplacement. 
+Les valeurs de *décalage* négatives spécifient les points à droite du sens de déplacement. 
   
-Un **Point** représente une paire classée de coordonnées géométriques (*x, y*) sous la forme d’une valeur unique. 
+Un **Point** représente une paire classée de coordonnées géométriques (*x,y*) sous forme de valeur unique. 
   
 

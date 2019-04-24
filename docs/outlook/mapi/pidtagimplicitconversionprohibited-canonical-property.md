@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346605"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Propriété canonique PidTagImplicitConversionProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message transfert agent d’est interdite d’effectuer des conversions de texte message implicite.
+Contient la valeur TRUE si un agent de transfert des messages (MTA) n'est pas autorisé à créer des conversions de texte de message implicites.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si un message transfert agent d’est interdite d’effe
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur TRUE, le système de messagerie doit effectuent pas de conversion de contenu dans le message, sauf si elle est demandée explicitement sur une base par destinataire avec la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Si cette propriété a la valeur TRUE, le système de messagerie ne doit pas effectuer de conversion de contenu sur le message, sauf s'il est demandé explicitement par un destinataire à l'aide de la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

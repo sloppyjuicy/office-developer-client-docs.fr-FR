@@ -11,46 +11,46 @@ api_name:
 api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 013903f36bf648c4aed194c88104e7dd981b199f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 991e48aa458a58ad2d7d688e81dbb357ef9bda5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348712"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ressources d’accès dans un message stockent objet d’ouverture de session.
+Accède aux ressources d'un objet d'ouverture de session de la Banque de messages.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
-|Exposés par :  <br/> |Objets de message store d’ouverture de session  <br/> |
-|Implémentée par :  <br/> |Fournisseurs de banque de messages  <br/> |
-|Appelée par :  <br/> |MAPI  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMSLogon  <br/> |
-|Type de pointeur :  <br/> |LPMSLOGON  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
+|Exposé par:  <br/> |Objets d'ouverture de session de banque de messages  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Appelé par :  <br/> |MAPI  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMSLogon  <br/> |
+|Type de pointeur:  <br/> |LPMSLOGON  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](imslogon-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur qui s’est produite lors de l’objet de la banque de message.  <br/> |
-|[Logoff](imslogon-logoff.md) <br/> |Fournisseur de magasins de journaux d’un message.  <br/> |
-|[OpenEntry](imslogon-openentry.md) <br/> |Ouvre un dossier ou un objet de message et retourne un pointeur vers l’objet pour fournir un accès plus.  <br/> |
-|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet.  <br/> |
-|[Conseiller](imslogon-advise.md) <br/> |Inscrit un objet avec un fournisseur de magasin de message pour les notifications sur les modifications dans la banque de messages.  <br/> |
-|[L’avertissement](imslogon-unadvise.md) <br/> |Supprime l’inscription d’un objet pour la notification des modifications de banque de messages précédemment établie à l’aide d’un appel à la méthode **IMSLogon::Advise** .  <br/> |
-|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Ouvre un objet d’état.  <br/> |
+|[Généré](imslogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur survenue pour l'objet de banque de messages.  <br/> |
+|[Logoff](imslogon-logoff.md) <br/> |DéConnecte un fournisseur de banque de messages.  <br/> |
+|[OpenEntry](imslogon-openentry.md) <br/> |Ouvre un objet Folder ou message et renvoie un pointeur vers l'objet pour fournir un accès supplémentaire.  <br/> |
+|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.  <br/> |
+|[Recommander](imslogon-advise.md) <br/> |Inscrit un objet auprès d'un fournisseur de banque de messages pour les notifications concernant les modifications apportées à la Banque de messages.  <br/> |
+|[Unadvise](imslogon-unadvise.md) <br/> |Supprime l'inscription d'un objet pour la notification des modifications de banque de messages précédemment établies à l'aide d'un appel à la méthode **IMSLogon:: Advise** .  <br/> |
+|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Ouvre un objet état.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’objet d’ouverture de session du magasin de message est la partie d’un fournisseur de magasins d’ouvrir le message MAPI appelle directement. Il existe une correspondance entre l’objet d’ouverture de session de magasin de message qui stockent des appels MAPI et le message d’objet applications clientes appellent ; Vous pouvez considérer les paramètres de connexion et stocker des objets sous forme d’un objet qui expose les deux interfaces. Les deux objets sont créés, ensemble et libérés ensemble.
+L'objet d'ouverture de session de la Banque de messages est la partie d'un fournisseur de banque de messages ouverte que MAPI appelle directement. Il existe une correspondance un-à-un entre l'objet de connexion de la Banque de messages que MAPI appelle et l'objet de banque de messages que les applications clientes appellent; vous pouvez considérer les objets Logon et Store comme un seul objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble.
   
 ## <a name="see-also"></a>Voir aussi
 

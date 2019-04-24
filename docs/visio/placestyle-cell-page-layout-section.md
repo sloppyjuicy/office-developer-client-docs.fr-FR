@@ -6,33 +6,33 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7dcd5a35-bd3d-447f-e4aa-986091d129de
-description: Détermine comment les formes sont placées sur la page lorsque vous disposez des formes à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe mise en page, cliquez sur Re-mise en Page, puis cliquez sur autres Options de mise en page).
-ms.openlocfilehash: 251bee427c732fe782c85c4991df07a1deb2a4dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Détermine la manière dont sont placées les formes sur la page lorsque vous les disposez à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis sur Autres options de disposition).
+ms.openlocfilehash: b3159b765922d6656d12dd42a377322e4a91fc04
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346864"
 ---
 # <a name="placestyle-cell-page-layout-section"></a>PlaceStyle, cellule (section Page Layout)
 
-Détermine comment les formes sont placées sur la page lorsque vous disposez des formes à l’aide de la boîte de dialogue **Configurer la disposition** (sous l’onglet **Création** , dans le groupe **mise en page** , cliquez sur **Re-mise en Page**, puis cliquez sur **Autres Options de mise en page**).
+Détermine la manière dont sont placées les formes sur la page lorsque vous les disposez à l’aide de la boîte de dialogue **Configurer la disposition** (sous l’onglet **Création**, dans le groupe **Disposition**, cliquez sur **Nouvelle disposition de page**, puis sur **Autres options de disposition**).
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Configurer la disposition** . 
+Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Configurer la disposition**. 
   
-Pour obtenir une référence à la cellule PlaceStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule PlaceStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 |Nom de la cellule :  <br/> |PlaceStyle  <br/> |
    
-Pour obtenir une référence à la cellule PlaceStyle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule PlaceStyle à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOPlaceStyle** <br/> |
    

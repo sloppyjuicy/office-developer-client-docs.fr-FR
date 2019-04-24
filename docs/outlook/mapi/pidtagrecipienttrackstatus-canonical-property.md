@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 074bcf7c051b78bc32caf66502747e7fb1ab6b79
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389889"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355285"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatus
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’état de la réponse renvoyée par le participant.
+Indique l'état de la réponse renvoyée par le participant.
   
 |||
 |:-----|:-----|
@@ -36,40 +36,40 @@ Indique l’état de la réponse renvoyée par le participant.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette valeur n’est pas définie, il doit être supposé pour être respNone. Dans le cas contraire, il doit être une des options suivantes :
+Si cette valeur n'est pas définie, elle doit être supposée être respNone. Sinon, il doit s'agir de l'un des éléments suivants:
   
-|**État de réponse**|**Valeur**|**Description**|
+|**État de la réponse**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |Aucune réponse n’est requise pour cet objet. C’est le cas pour les objets de rendez-vous et des objets de réponse de réunion.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a accepté provisoirement la réunion objet de requête.  <br/> |
-|respAccepted  <br/> |0 x 00000003  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a accepté la réunion objet de requête.  <br/> |
-|respDeclined  <br/> |0 x 00000004  <br/> |Cette valeur sur l’objet de réunion du participant indique que le participant a refusé la réunion objet de requête.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |Aucune réponse n'est requise pour cet objet. C'est le cas des objets de rendez-vous et des objets de réponse aux réunions.  <br/> |
+|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur l'objet Meeting du participant indique que le participant a provisoirement accepté l'objet de la demande de réunion.  <br/> |
+|respAccepted  <br/> |0x00000003  <br/> |Cette valeur sur l'objet Meeting du participant indique que le participant a accepté l'objet de la demande de réunion.  <br/> |
+|respDeclined  <br/> |0x00000004  <br/> |Cette valeur sur l'objet Meeting du participant indique que le participant a refusé l'objet de la demande de réunion.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

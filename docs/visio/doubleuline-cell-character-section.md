@@ -9,35 +9,35 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Détermine si la plage de texte est soulignée ou non d'une ligne double.
-ms.openlocfilehash: d0a07d8c86bd7e9ed3eb14074dda164f82c92475
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788523"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357462"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine, cellule (section Character)
 
 Détermine si la plage de texte est soulignée ou non d'une ligne double.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte est souligné en double.  <br/> |
 |FALSE  <br/> |Le texte n'est pas souligné en double.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La cellule DoubleULine contient des informations de mise en forme qui s'appliquent à une plage du texte de la forme si la section Character contient plusieurs lignes ou à l'ensemble du texte dans le cas contraire.
   
-Vous pouvez également définir la valeur de cette cellule à l’aide de la boîte de dialogue **texte** (cliquez sur la flèche **police** sous l’onglet **accueil** ). 
+Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (cliquez sur la flèche **Police** sous l’onglet **Accueil**). 
   
-Pour obtenir une référence à la cellule DoubleULine par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.DblUnderline [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char. DblUnderline [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule DoubleULine par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

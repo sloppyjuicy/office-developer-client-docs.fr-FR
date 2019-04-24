@@ -5,23 +5,23 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
-description: 'Dernière modification : 25 juin 2012'
-ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 25 juin 2012'
+ms.openlocfilehash: fab09d0c594bac1374973f523abe6ff0b9c09dd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344687"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Obtention de l’adresse e-mail d’un contact
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique montre comment obtenir la valeur d’une propriété nommée qui représente l’adresse de messagerie d’un élément Microsoft Outlook 2010 ou de contacts Microsoft Outlook 2013.
+Cette rubrique montre comment obtenir la valeur d'une propriété nommée qui représente l'adresse de messagerie d'un élément de contact Microsoft Outlook 2010 ou Microsoft Outlook 2013.
   
-Vous pouvez associer jusqu'à trois adresses de messagerie avec un élément de Contact dans Outlook 2010 et Outlook 2013. Chaque adresse de messagerie correspond à une propriété de l’objet Outlook 2010 ou Outlook 2013 **ContactItem** dans les modèles objet Outlook 2010 et Outlook 2013. Interne à Outlook 2010 et Outlook 2013, l’adresse de messagerie correspond à une propriété nommée de MAPI. Par exemple, la première adresse de messagerie d’un contact correspond à la propriété **Email1Address** de **ContactItem** dans les modèles objet Outlook 2010 et Outlook 2013 et le [nommé interne Outlook 2010 et Outlook 2013 Propriété canonique PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
+Vous pouvez associer jusqu'à trois adresses de messagerie à un élément de contact dans Outlook 2010 et Outlook 2013. Chaque adresse de messagerie correspond à une propriété de l'objet Outlook 2010 ou Outlook 2013 **ContactItem** dans les modèles d'objet Outlook 2010 et Outlook 2013. En interne à Outlook 2010 et Outlook 2013, l'adresse de messagerie correspond également à une propriété nommée MAPI. Par exemple, la première adresse de messagerie d'un contact correspond à la propriété **Email1Address** de l'objet **ContactItem** dans les modèles d'objets outlook 2010 et Outlook 2013, et le nom interne outlook 2010 et Outlook 2013 nommé [ Propriété canonique PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
   
-Pour obtenir la valeur d’une adresse de messagerie d’un élément de contact, vous pouvez utiliser l’objet **PropertyAccessor** du modèle objet Outlook 2010 ou Outlook 2013, ou tout d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété de la propriété nommée, puis Spécifiez cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l’appel **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs appropriées pour la structure [MAPINAMEID](mapinameid.md) sur laquelle pointé le paramètre d’entrée _lppPropNames_. L’exemple de code suivant montre comment obtenir la première adresse de messagerie d’un contact spécifique, `lpContact`, à l’aide de **GetIDsFromNames** et **GetProps**. 
+Pour obtenir la valeur d'une adresse de messagerie d'un contact, vous pouvez utiliser l'objet **propertyAccessor** du modèle objet Outlook 2010 ou Outlook 2013, ou utiliser d'abord [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété de la propriété nommée, puis Spécifiez cette balise de propriété dans [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l'appel de **IMAPIProp:: GetIDsFromNames**, spécifiez les valeurs appropriées pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d'entrée _lppPropNames_. L'exemple de code suivant montre comment obtenir la première adresse de messagerie d'un contact spécifié `lpContact`, à l'aide de **GetIDsFromNames** et de **GetProps**. 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

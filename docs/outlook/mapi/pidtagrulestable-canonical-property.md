@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4b4b60084b8cb53a0a245b502b8fe70241fb4eb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e1c670cd566e838104ae3d5480c2297f8632d899
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348558"
 ---
 # <a name="pidtagrulestable-canonical-property"></a>Propriété canonique PidTagRulesTable
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau avec toutes les règles sont appliquées à un dossier.
+Contient un tableau avec toutes les règles appliquées à un dossier.
   
 |||
 |:-----|:-----|
@@ -34,19 +34,19 @@ Contient un tableau avec toutes les règles sont appliquées à un dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est présente sur tous les objets de dossier sur un serveur Exchange qui possèdent des règles. Valeurs inclus dans cette propriété sont utilisées pour la lecture et de modification des règles. Vous pouvez utiliser la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec l’identificateur d’interface **IID_IExchangeModifyTable** pour obtenir un [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) interface à la table de règles dans un dossier. Vous pouvez utiliser cette interface pour lire et modifier les règles. 
+Cette propriété est présente sur tous les objets Folder sur un serveur Exchange qui possèdent des règles. Les valeurs comprises dans cette propriété sont utilisées pour la lecture et la modification des règles. Vous pouvez utiliser la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) avec l'identificateur d'interface **IID_IExchangeModifyTable** pour obtenir une interface [IExchangeModifyTable: IUnknown](iexchangemodifytableiunknown.md) dans la table Rules d'un dossier. Vous pouvez utiliser cette interface pour lire et modifier ces règles. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées. 
+> Contient les définitions des propriétés indiquées en tant que propriétés associées. 
     
 ## <a name="see-also"></a>Voir aussi
 

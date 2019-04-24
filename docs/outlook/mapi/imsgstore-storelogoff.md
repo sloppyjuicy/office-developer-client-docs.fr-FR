@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a55fc361120472473bcba70152c153fb7824fb9e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: be11c536804682d1baec8188b6d7487c71d411e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566550"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348740"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
 
@@ -25,7 +25,7 @@ ms.locfileid: "22566550"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet la déconnexion ordonnée de la banque de messages.
+Active la déconnexion de la Banque de messages de façon ordonnée.
   
 ```cpp
 HRESULT StoreLogoff(
@@ -37,27 +37,27 @@ HRESULT StoreLogoff(
 
  _lpulFlags_
   
-> [entrée, sortie] Masque de bits d’indicateurs qui contrôle la fermeture de session à partir de la banque de messages. À l’entrée, tous les indicateurs de ce paramètre sont mutuellement ; l’appelant doit spécifier qu’un seul indicateur par appel. Les indicateurs suivants sont valides sur ENTRÉE :
+> [in, out] Masque de des indicateurs qui contrôle la fermeture de session à partir de la Banque de messages. Lors de l'entrée, tous les indicateurs définis pour ce paramètre s'excluent mutuellement; un appelant ne doit spécifier qu'un seul indicateur par appel. Les indicateurs suivants sont valides à l'entrée:
     
 LOGOFF_ABORT 
   
-> Toute activité du fournisseur de transport pour cette banque de messages doit être arrêtée avant la fermeture de session. Contrôle est renvoyé à l’appelant une fois que l’activité est arrêtée. Si aucune activité de fournisseur de transport a lieu, la fermeture de session ne se produit pas et aucune modification du comportement des fournisseurs de transport ou spouleur MAPI se produit. Si l’activité de fournisseur de transport est inactive, le spouleur MAPI libère le magasin. 
+> Toute activité de fournisseur de transport pour cette banque de messages doit être arrêtée avant la fermeture de session. Le contrôle est renvoyé à l'appelant une fois l'activité arrêtée. Si une activité de fournisseur de transport est en cours d'exécution, la déconnexion ne se produit pas et aucune modification n'est apportée au comportement du spouleur MAPI ou des fournisseurs de transport. Si l'activité du fournisseur de transport est inactive, le spouleur MAPI libère le magasin. 
     
 LOGOFF_NO_WAIT 
   
-> La banque de messages ne doit pas attendre pour les messages de fournisseurs de transport avant la fermeture. Les messages sortants qui sont prêts à être envoyés sont envoyées. Si ce magasin contient la boîte de réception par défaut, tous les messages en cours sont reçus, puis réception supplémentaire est désactivée. Lorsque toutes les activités sont terminée, le spouleur MAPI libère le magasin et contrôle est immédiatement renvoyé à l’appelant. 
+> La Banque de messages ne doit pas attendre les messages provenant de fournisseurs de transport avant de se fermer. Les messages sortants prêts à être envoyés sont envoyés. Si ce magasin contient la boîte de réception par défaut, tous les messages en cours de traitement sont reçus, puis la réception supplémentaire est désactivée. Une fois toutes les activités terminées, le spouleur MAPI libère le magasin et le contrôle est immédiatement renvoyé à l'appelant. 
     
 LOGOFF_ORDERLY 
   
-> La banque de messages ne doit pas attendre pour plus d’informations à partir des fournisseurs de transport avant de se fermer. Les messages qui sont actuellement en cours de traitement sont terminées, mais aucuns nouveaux messages ne sont traités. Lorsque toutes les activités sont terminée, le spouleur MAPI libère le magasin et contrôle est immédiatement renvoyé au fournisseur de magasin. 
+> La Banque de messages ne doit pas attendre les informations des fournisseurs de transport avant de se fermer. Les messages en cours de traitement sont terminés, mais aucun nouveau message n'est traité. Une fois toutes les activités terminées, le spouleur MAPI libère le magasin et le contrôle est immédiatement renvoyé au fournisseur de banque. 
     
 LOGOFF_PURGE 
   
-> La fermeture de session doit utiliser la même comme si l’indicateur LOGOFF_NO_WAIT est défini, mais la [IXPLogon::FlushQueues](ixplogon-flushqueues.md) [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) méthode ou pour les fournisseurs de transport approprié doit être appelée. L’indicateur LOGOFF_PURGE retourne le contrôle à l’appelant après la fin. 
+> La déconnexion doit fonctionner de la même manière que si l'indicateur LOGOFF_NO_WAIT est défini, mais la méthode [IXPLogon:: FlushQueues](ixplogon-flushqueues.md) ou [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) pour les fournisseurs de transport appropriés doit être appelée. L'indicateur LOGOFF_PURGE renvoie le contrôle à l'appelant une fois l'opération terminée. 
     
 LOGOFF_QUIET 
   
-> Si aucune activité de fournisseur de transport a lieu, la fermeture de session ne doit pas se produire.
+> Si une activité de fournisseur de transport est en cours, la déconnexion ne doit pas avoir lieu.
     
     The following flags are valid on output:
     
@@ -67,27 +67,27 @@ LOGOFF_INBOUND
     
 LOGOFF_OUTBOUND 
   
-> Les messages sortants sont en cours d’envoi.
+> Les messages sortants sont en cours d'envoi.
     
 LOGOFF_OUTBOUND_QUEUE 
   
-> Les messages sortants sont en attente (autrement dit, ils sont dans la boîte d’envoi).
+> Les messages sortants sont en attente (ils se trouvent dans la boîte d'envoi).
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La fermeture de session s’est terminée correctement.
+> La déconnexion s'est déroulée correctement.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore::StoreLogoff** exerce de contrôle sur l’interaction du message stocker et fournisseurs de transport au cours du processus de fermeture de session. L’appel **StoreLogoff** est valide uniquement pour les banques de messages qui sont utilisés uniquement par l’appelant. Par exemple, lorsque deux clients utilisent le même magasin de message et un d'entre eux appelle **StoreLogoff**, la banque de messages est immédiatement publiée et le contrôle est retourné au client appelant.
+La méthode **IMsgStore:: StoreLogoff** exerce un contrôle sur l'interaction de la Banque de messages et des fournisseurs de transport lors du processus de fermeture de session. L'appel de **StoreLogoff** est valide uniquement pour les banques de messages qui sont utilisées uniquement par l'appelant. Par exemple, lorsque deux clients utilisent le même magasin de messages et que l'un d'entre eux appelle **StoreLogoff**, la Banque de messages est immédiatement libérée et le contrôle est renvoyé au client appelant.
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Enregistrez les indicateurs qui sont passés à **StoreLogoff** et transmettez-les lorsque vous appelez la méthode [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) . N’appelez pas **StoreLogoffTransports** jusqu'à ce que le décompte de références de la banque de messages tombe à zéro. Plusieurs appels à **StoreLogoffTransports** remplacent simplement les indicateurs enregistrés. 
+Enregistrez les indicateurs transmis à **StoreLogoff** et transmettez-les lorsque vous appelez la méthode [IMAPISupport:: StoreLogoffTransports](imapisupport-storelogofftransports.md) . N'appelez pas **StoreLogoffTransports** tant que le nombre de références de la Banque de messages n'est pas inférieur à zéro. Plusieurs appels à **StoreLogoffTransports** remplacent simplement les indicateurs enregistrés. 
   
-Si aucun appel n’a été apporté à **StoreLogoff** avant le message décompte de références du magasin est égal à zéro, définir l’indicateur LOGOFF_ABORT dans le paramètre _ulFlags_ que vous passez à **StoreLogoffTransports**.
+Si aucun appel n'a été passé à **StoreLogoff** avant que le nombre de références de la Banque de messages n'atteigne zéro, définissez l'indicateur LOGOFF_ABORT dans le paramètre _ulFlags_ que vous transmettez à **StoreLogoffTransports**.
   
 ## <a name="see-also"></a>Voir aussi
 

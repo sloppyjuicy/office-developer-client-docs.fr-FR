@@ -7,39 +7,40 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: Renvoie la longueur du chemin défini dans la section Geometry spécifiée.
-ms.openlocfilehash: 37cabbde9fc0782bc1fde46f3065d0c945c9dada
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e4f90c2bb886f54164bedab5f8d78fc528758414
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344414"
 ---
-# <a name="pathlength-function"></a>PATHLENGTH, fonction
+# <a name="pathlength-function"></a>Fonction PATHLENGTH
 
 Renvoie la longueur du chemin défini dans la section Geometry spécifiée.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-PATHLENGTH (** *section* ** ** *[, segment]* **) 
+PATHLENGTH (* * *section* * * * *[, segment]* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
+| _section_ <br/> |Obligatoire  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
 | _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin à mesurer.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
  **Double**
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Si la _section_ ou _segment_ n’existe pas, Microsoft Visio renvoie #REF !. 
+Si la _section_ ou le _segment_ n'existe pas, Microsoft Visio renvoie #REF!. 
   
 Si vous incluez une valeur de _segment_ , PATHLENGTH renvoie la longueur de ce segment uniquement. 
   

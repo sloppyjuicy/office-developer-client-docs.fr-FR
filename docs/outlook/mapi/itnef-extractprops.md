@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9169a5be-21dd-4938-8db3-522bea165c92
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0765e46a6f0545682b16e484d08d296ea13e2136
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 5a01c65bbec061248537558257c66d1a90128b5e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348649"
 ---
 # <a name="itnefextractprops"></a>ITnef::ExtractProps
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571345"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait les propriétés d’une encapsulation TNEF. 
+Extrait les propriétés d'une encapsulation TNEF. 
   
 ```cpp
 HRESULT ExtractProps(
@@ -35,11 +35,11 @@ HRESULT ExtractProps(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont les propriétés sont décodées. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont les propriétés sont décodées. Les indicateurs suivants peuvent être définis:
     
 TNEF_PROP_EXCLUDE 
   
@@ -51,40 +51,40 @@ TNEF_PROP_INCLUDE
     
  _lpPropList_
   
-> [in] Pointeur vers la liste des propriétés à inclure ou exclure de l’opération de décodage.
+> dans Pointeur vers la liste des propriétés à inclure dans l'opération de décodage ou à exclure de celle-ci.
     
  _lpProblems_
   
-> [out] Pointeur vers un pointeur vers une structure [STnefProblemArray](stnefproblemarray.md) renvoyée. La structure **STnefProblemArray** indique les propriétés, le cas échéant, ont été pas codées correctement. Si NULL est indiqué dans le paramètre _lpProblems_ , aucun tableau de problème de propriété n’est renvoyé. 
+> remarquer Pointeur vers un pointeur vers une structure [STnefProblemArray](stnefproblemarray.md) renvoyée. La structure **STnefProblemArray** indique les propriétés, le cas échéant, qui n'ont pas été codées correctement. Si NULL est passé dans le paramètre _lpProblems_ , aucun tableau de problèmes de propriété n'est renvoyé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 MAPI_E_CORRUPT_DATA 
   
-> En cours de décodage dans un flux de données sont endommagées.
+> Les données en cours de décodage dans un flux sont endommagées.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de transport, les fournisseurs de banque de message et passerelles appellent la méthode de **ITnef::ExtractProps** pour extraire (qui est, décoder) propriétés à partir de l’encapsulation d’un message ou d’une pièce jointe qui a été passée à la fonction [OpenTnefStream](opentnefstream.md) . La passerelle ou le fournisseur appelant peut spécifier une liste de propriétés à décoder. Fournisseurs et des passerelles peuvent également utiliser **ExtractProps** pour fournir des informations sur aucun traitement spécial pour les pièces jointes. 
+Les fournisseurs de transport, les fournisseurs de banques de messages et les passerelles appellent la méthode **ITnef:: ExtractProps** pour extraire (c'est-à-dire décoder) les propriétés de l'encapsulation d'un message ou d'une pièce jointe qui a été transmise à la fonction [OpenTnefStream](opentnefstream.md) . Le fournisseur ou la passerelle appelant peut spécifier une liste de propriétés à décoder. Les fournisseurs et les passerelles peuvent également utiliser **ExtractProps** pour fournir des informations sur toute gestion spéciale des pièces jointes. 
   
- **ExtractProps** remplit le message d’origine est passé en **OpenTnefStream** avec les propriétés décodées. Les appels suivants **ExtractProps** revenir au message et extrayez la nouvelle liste de propriétés. 
+ **ExtractProps** remplit le message d'origine transmis à **OpenTnefStream** avec les propriétés décodées. Les appels **ExtractProps** suivants renvoient au message et extraient la nouvelle liste de propriétés. 
   
-Contrairement à la méthode [ITnef::AddProps](itnef-addprops.md) , files d’attente demandé actions jusqu'à ce que la méthode **ITnef::Finish** est appelée, la méthode **ExtractProps** décode les propriétés encapsulées immédiatement lorsqu’elle est appelée. Pour cette raison, le message cible de décodage encapsulation doit être relativement vide. Propriétés existantes dans le message cible sont remplacées par les propriétés encapsulées. 
+Contrairement à la méthode [ITnef:: AddProps](itnef-addprops.md) , qui met en file d'attente les actions demandées jusqu'à ce que la méthode **ITnef:: Finish** soit appelée, la méthode **ExtractProps** décode les propriétés encapsulées immédiatement lorsqu'elle est appelée. Pour cette raison, le message cible pour le décodage d'encapsulation doit être relativement vide. Les propriétés existantes dans le message cible sont remplacées par les propriétés encapsulées. 
   
- **ExtractProps** est pris en charge uniquement pour les objets qui sont ouverts avec l’indicateur TNEF_DECODE pour la fonction **OpenTnefStream** ou [OpenTnefStreamEx](opentnefstreamex.md) . 
+ **ExtractProps** est pris en charge uniquement pour les objets ouverts avec l'indicateur TNEF_DECODE pour la fonction **OpenTnefStream** ou [OpenTnefStreamEx](opentnefstreamex.md) . 
   
-L’implémentation TNEF signale des problèmes de codage TNEF flux sans interrompre le processus **ExtractProps** . La structure [STnefProblemArray](stnefproblemarray.md) retournée dans _lpProblems_ indique les attributs TNEF ou des propriétés MAPI, le cas échéant, pas peuvent être traitées. La valeur renvoyée dans le membre **scode** de l’une des structures **STnefProblem** contenues dans **STnefProblemArray** indiquant le problème spécifique. Le fournisseur ou la passerelle peut travailler sur l’hypothèse que toutes les propriétés ou les attributs pour lesquels **ExtractProps** ne renvoie pas un rapport de problème ont été correctement traités. 
+L'implémentation TNEF signale les problèmes de codage de flux TNEF sans arrêter le processus **ExtractProps** . La structure [STnefProblemArray](stnefproblemarray.md) renvoyée dans _lpProblems_ indique les attributs TNEF ou les propriétés MAPI, le cas échéant, qui n'ont pas pu être traités. La valeur renvoyée dans le membre **SCODE** de l'une des structures **STnefProblem** contenues dans **STnefProblemArray** indique le problème spécifique. Le fournisseur ou la passerelle peut fonctionner en supposant que toutes les propriétés ou tous les attributs pour lesquels **ExtractProps** ne renvoie pas un rapport de problème ont été traités avec succès. 
   
 > [!NOTE]
-> Si une propriété dans le bloc d’encapsulation MAPI ne peut pas être traitée et laisse le flux non fiables pendant le décodage d’un flux TNEF, décodage du bloc encapsulation est arrêté et un problème est signalé. Le tableau de problème pour ce type de problème contient 0L du membre **ulPropTag** , `attMAPIProps` ou `attAttachment` pour le membre **ulAttribute** et MAPI_E_UNABLE_TO_COMPLETE du membre **scode** . Notez que le décodage du flux n’est pas interrompu, simplement le décodage du bloc encapsulation MAPI. Le décodage des flux se poursuit avec le bloc d’attributs suivant. 
+> Si une propriété dans le bloc d'encapsulation MAPI ne peut pas être traitée et que le flux n'est pas fiable pendant le décodage d'un flux TNEF, le décodage du bloc d'encapsulation est arrêté et un problème est signalé. Le tableau des problèmes pour ce type de problème contient 0L pour **** le membre ulPropTag `attMAPIProps` , `attAttachment` ou pour le membre **ulAttribute** , et MAPI_E_UNABLE_TO_COMPLETE pour le membre **SCODE** . Notez que le décodage du flux n'est pas interrompu, uniquement le décodage du bloc d'encapsulation MAPI. Le décodage de flux continue avec le prochain bloc d'attributs. 
   
-Si un fournisseur ou une passerelle ne fonctionne pas avec des tableaux de problème, il peut passer NULL dans _lppProblems_; Dans ce cas, aucun tableau de problème n’est renvoyé. 
+Si un fournisseur ou une passerelle ne fonctionne pas avec les tableaux de problèmes, elle peut transmettre la valeur NULL dans _lppProblems_; dans ce cas, aucun tableau de problèmes n'est renvoyé. 
   
-La valeur renvoyée dans _lpProblems_ est valide uniquement si l’appel renvoie S_OK. Lorsque S_OK est retourné, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure **STnefProblemArray** . Si une erreur se produit lors de l’appel, la structure **STnefProblemArray** n’est pas renseignée et la passerelle ou le fournisseur appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit lors de l’appel, la passerelle ou le fournisseur appelant doit libérer de la mémoire de la structure **STnefProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+La valeur renvoyée dans _lpProblems_ est valide uniquement si l'appel retourne S_OK. Lorsque S_OK est renvoyé, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure **STnefProblemArray** . Si une erreur se produit lors de l'appel, la structure **STnefProblemArray** n'est pas renseignée et le fournisseur ou la passerelle appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit lors de l'appel, le fournisseur ou la passerelle d'appel doit libérer la mémoire pour la structure **STnefProblemArray** en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

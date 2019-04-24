@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 06356d60b43d7e5be61d944c07001570bdd5c678
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348670"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571107"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Insère plusieurs lignes de tableau, remplaçant éventuellement les lignes existantes.
+Insère plusieurs lignes de tableau, susceptibles de remplacer des lignes existantes.
   
 ```cpp
 HRESULT HrModifyRows(
@@ -34,7 +34,7 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -42,27 +42,27 @@ HRESULT HrModifyRows(
     
  _lpSRowSet_
   
-> [in] Un pointeur vers une structure [SRowSet](srowset.md) qui contient l’ensemble de lignes à ajouter, en remplaçant les lignes existantes, si nécessaire. Une des structures de valeur de propriété pointés pour définir les par le membre **lpProps** de chaque structure [SRow](srow.md) dans la ligne doit contenir la colonne d’index, la même valeur que celle qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [ CREATE TABLE](createtable.md) fonction. 
+> dans Pointeur vers une structure [SRowSet](srowset.md) qui contient l'ensemble de lignes à ajouter, en remplaçant les lignes existantes si nécessaire. L'une des structures de valeur de propriété auxquelles pointe le membre **lpProps** de chaque structure [SRow](srow.md) dans l'ensemble de lignes doit contenir la colonne d'index, la valeur qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la [ Fonction CreateTable](createtable.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les lignes insérées ou modifiées avec succès.
+> Les lignes ont été correctement insérées ou modifiées.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Un ou plusieurs des lignes dans le passé ne dispose pas d’une colonne d’index. Si cette erreur est renvoyée, aucune ligne n’est modifiés.
+> Une ou plusieurs lignes transmises ne possèdent pas de colonne d'index. Si cette erreur est renvoyée, aucune ligne n'est modifiée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData::HrModifyRows** insère les lignes décrites par la structure [SRowSet](srowset.md) désignée par le paramètre _lpSRowSet_ . Si la valeur de colonne d’index d’une ligne dans le jeu de lignes correspond à la valeur d’une ligne existante dans le tableau, la ligne existante est remplacée. Si aucune ligne n’existe qui correspond à celui qui est inclus dans la structure **SRowSet** , **HrModifyRows** ajoute la ligne à la fin de la table. 
+La méthode **ITableData:: HrModifyRows** insère les lignes décrites par la structure [SRowSet](srowset.md) vers laquelle pointe le paramètre _lpSRowSet_ . Si la valeur de la colonne d'index d'une ligne dans l'ensemble de lignes correspond à la valeur d'une ligne existante dans le tableau, la ligne existante est remplacée. S'il n'existe aucune ligne correspondant à celle incluse dans la structure **SRowSet** , **HrModifyRows** ajoute la ligne à la fin du tableau. 
   
-Toutes les vues de la table sont modifiées pour inclure les lignes désignés par _lpSRowSet_. Toutefois, si un affichage a une restriction place excluant une ligne, il peut être pas visible à l’utilisateur. 
+Toutes les vues de la table sont modifiées de façon à inclure les lignes vers lesquelles pointe _lpSRowSet_. Toutefois, si une vue a une restriction en place qui exclut une ligne, elle peut ne pas être visible par l'utilisateur. 
   
-Les colonnes dans les lignes désignés par _lpSRowSet_ n’ont pas à se trouver dans le même ordre que les colonnes dans le tableau. L’appelant peut également inclure en tant que propriétés de colonnes qui ne sont pas actuellement dans le tableau. Pour des vues existantes, **HrModifyRows** rend ces nouvelles colonnes disponibles, mais n’inclut pas les dans la colonne en cours. Pour les affichages futures, **HrModifyRows** inclut les nouvelles colonnes dans la colonne. 
+Les colonnes des lignes vers lesquelles pointe _lpSRowSet_ n'ont pas besoin d'être dans le même ordre que les colonnes du tableau. L'appelant peut également inclure en tant que propriétés de colonnes qui ne se trouvent pas actuellement dans le tableau. Pour les affichages existants, **HrModifyRows** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les futures vues, **HrModifyRows** inclut les nouvelles colonnes dans l'ensemble de colonnes. 
   
-Une fois que **HrModifyRows** a ajouté les lignes, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode la table [IMAPITable::Advise](imapitable-advise.md) pour inscrire les notifications. MAPI envoie des notifications TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED pour chaque ligne, jusqu'à huit lignes. Si plus de huit lignes sont affectées par l’appel **HrModifyRows** , MAPI envoie une notification TABLE_CHANGED unique à la place. 
+Une fois que **HrModifyRows** a ajouté les lignes, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. MAPI envoie des notifications TABLE_ROW_ADDED ou TABLE_ROW_MODIFIED pour chaque ligne, jusqu'à huit lignes. Si plus de huit lignes sont affectées par l'appel **HrModifyRows** , MAPI envoie à la place une seule notification TABLE_CHANGED. 
   
 ## <a name="see-also"></a>Voir aussi
 

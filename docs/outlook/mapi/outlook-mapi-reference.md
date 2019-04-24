@@ -1,5 +1,5 @@
 ---
-title: Référence MAPI Outlook
+title: R�f�rence MAPI Outlook
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
@@ -7,11 +7,11 @@ ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: MAPI fournit l’architecture de messagerie pour Microsoft Outlook 2013 et Outlook 2016.
 localization_priority: Priority
 ms.openlocfilehash: 7adcf897607a0475699f61f9a771fb642a0b6854
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726441"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348523"
 ---
 # <a name="outlook-mapi-reference"></a>Référence MAPI Outlook
   
@@ -38,6 +38,6 @@ Bienvenue dans la référence Messaging API (MAPI) Microsoft Outlook. MAPI fou
 - [Avis de copyright de référence de l’API de messagerie Outlook (MAPI)](outlook-messaging-api-mapi-reference-copyright-notice.md)
 - [Outlook 2010 : référence MAPI (centre de téléchargement Microsoft)](https://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
 - [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx)
-- [Accessibilité dans Microsoft Office 2010](https://www.microsoft.com/enable/products/office2010/default.aspx)
+- [Accessibilit� dans Microsoft�Office�2010](https://www.microsoft.com/enable/products/office2010/default.aspx)
 - [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
 

@@ -1,5 +1,5 @@
 ---
-title: Éviter les technologies non prises en charge dans les compléments Outlook managés
+title: Technologies non prises en charge dans les compléments managés Outlook
 TOCTitle: Avoiding unsupported technologies in managed Outlook add-ins
 ms:assetid: 365fd319-725f-4c4b-b6e7-575f78ed8bda
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610014(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 99cdfc2447e6bf63078eb87bb9546d8b07ee83e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359057"
 ---
 # <a name="avoiding-unsupported-technologies-in-managed-outlook-add-ins"></a>Éviter les technologies non prises en charge dans les compléments Outlook managés
 

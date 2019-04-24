@@ -1,5 +1,5 @@
 ---
-title: type complexe weatherType (Outlook météo emplacement schéma)
+title: complexType weatherType (schéma d'emplacement météorologique Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
-description: Définit les paramètres sur les conditions météorologiques d’un emplacement.
+description: Définit les paramètres relatifs aux conditions météorologiques d'un emplacement.
 ms.openlocfilehash: c3d640789cb68891878c3dca5210ab9dea280180
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355180"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>type complexe weatherType (Outlook météo emplacement schéma)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (schéma d'emplacement météorologique Outlook)
 
-Définit les paramètres sur les conditions météorologiques d’un emplacement.
+Définit les paramètres relatifs aux conditions météorologiques d'un emplacement.
   
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
-|**Fichier de schéma** <br/> |getweatherlocation.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Fichier de schéma** <br/> |getweatherlocation. xsd  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -39,7 +39,7 @@ Définit les paramètres sur les conditions météorologiques d’un emplacement
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -49,7 +49,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un code qui est associé à l’emplacement pour distinguer plusieurs emplacements portant le même nom.  <br/> |Valeur du type xs : String  <br/> |
-|weatherlocationname  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement.  <br/> |Valeur du type xs : String  <br/> |
+|weatherlocationcode  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie un code associé à l'emplacement pour distinguer plusieurs emplacements portant le même nom.  <br/> |Une valeur du type xs: String  <br/> |
+|weatherlocationname  <br/> |XS: String  <br/> |obligatoire  <br/> |Spécifie le nom de l'emplacement.  <br/> |Une valeur du type xs: String  <br/> |
    
 

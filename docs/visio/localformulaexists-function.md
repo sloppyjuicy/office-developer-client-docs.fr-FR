@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: Indique si la cellule référencée contient une formule locale.
-ms.openlocfilehash: 1b749011de8554cb5b777fe92b20a6bcdb2fcb19
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344463"
 ---
-# <a name="localformulaexists-function"></a>LOCALFORMULAEXISTS, fonction
+# <a name="localformulaexists-function"></a>Fonction LOCALFORMULAEXISTS
 
 Indique si la cellule référencée contient une formule locale. 
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCALFORMULAEXISTS (** *cellref* **) 
+LOCALFORMULAEXISTS (* * *CellRef* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _CellRef_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule.  <br/> |
+| _CellRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Cellule dans laquelle vous voulez vérifier la présence d’une formule.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Booléenne
+Booléen
   
 ## <a name="remarks"></a>Remarques
 

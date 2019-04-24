@@ -1,5 +1,5 @@
 ---
-title: Fonctions MAPI, les rappels et les Macros
+title: Fonctions, rappels et macros MAPI
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Dernière modification : 07 décembre 2015'
-ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 7 d�cembre 2015'
+ms.openlocfilehash: 2474e5b66e9c8147a1e8a554dea21d541c430edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346759"
 ---
-# <a name="mapi-functions-callbacks-and-macros"></a>Fonctions MAPI, les rappels et les Macros
+# <a name="mapi-functions-callbacks-and-macros"></a>Fonctions, rappels et macros MAPI
 
  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées suivantes alphabétiques contiennent documentation pour les fonctions MAPI, les rappels et les macros. 
+Les entrées alphabétiques suivantes contiennent une documentation relative aux fonctions, rappels et macros MAPI. 
   
 |||
 |:-----|:-----|

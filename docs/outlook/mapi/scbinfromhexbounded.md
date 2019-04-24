@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 135db8d690d4d4bd610bd15893c358fedddb4605
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 813fab28e3e865c9f04f85c854b292ce7229dad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357497"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
@@ -25,13 +25,13 @@ ms.locfileid: "22589279"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit la partie spécifiée d’une représentation de chaîne d’un nombre hexadécimal en nombre binaire. 
+ConVertit la partie spécifiée d'une représentation sous forme de chaîne d'un nombre hexadécimal en nombre binaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 SCODE ScBinFromHexBounded(
@@ -43,27 +43,27 @@ SCODE ScBinFromHexBounded(
 
 ## <a name="parameters"></a>Paramètres
 
- _sz_
+ _t_
   
-> [in] Pointeur vers la chaîne à convertir. Caractères valides incluent les caractères hexadécimaux 0 à 9 et les deux caractères majuscules et minuscules d’a à f.
+> dans Pointeur vers la chaîne terminée par un caractère null à convertir. Les caractères valides incluent les caractères hexadécimaux compris entre 0 et 9, ainsi que les caractères majuscules et minuscules a à f.
     
  _pb_
   
-> [out] Pointeur vers le nombre binaire renvoyé.
+> remarquer Pointeur vers le nombre binaire renvoyé.
     
  _cb_
   
-> [in] Taille, en octets, du paramètre _po_ . 
+> dans Taille, en octets, du paramètre _PB_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Conversion a réussi.
+> La conversion a réussi.
     
 MAPI_E_CALL_FAILED
   
-> Caractères non valides se sont produites.
+> Des caractères non valides ont été détectés.
     
 ## <a name="see-also"></a>Voir aussi
 

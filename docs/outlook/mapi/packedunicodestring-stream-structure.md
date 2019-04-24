@@ -5,41 +5,41 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 00791ab47cc3c6bd435d6f581e5ada53ae59d73b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: fc20c259f30ded2f96f3bf314e74207bebcac980
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348474"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Structure de flux PackedUnicodeString
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La structure de flux PackedUnicodeString contient une représentation Unicode (UTF-16) d’une chaîne. Cette chaîne n’est pas terminée par un caractère null. Éléments de données dans ce flux de données sont stockés dans l’ordre de primauté des octets, immédiatement après l’autre dans l’ordre indiqué ci-dessous. Les éléments de données réelles qui existent dépendent de la longueur de la chaîne de représentation UTF-16.
+La structure de flux PackedUnicodeString contient une représentation Unicode (UTF-16) d'une chaîne. Cette chaîne n'est pas terminée par un caractère null. Les éléments de données dans ce flux sont stockés dans l'ordre d'octet Little-endian, immédiatement suivant l'ordre indiqué ci-dessous. Les éléments de données réels qui existent dépendent de la longueur de la chaîne dans la représentation UTF-16.
   
-- Une chaîne dont la représentation UTF-16 contient moins de 255 WCHAR, les éléments de données sont les suivantes :
+- Pour une chaîne dont la représentation UTF-16 contient moins de 255 WCHARs, les éléments de données sont les suivants:
     
-  - Durée : Octets (1 octet), la longueur, en nombre de WCHAR, de la représentation de la chaîne UTF-16.
+  - Length: octet (1 octet), longueur, en nombre de WCHARs, de la représentation UTF-16 de la chaîne.
     
-  - Caractères : Tableau de WCHAR. Le nombre de ce tableau est égal à l’élément de données de longueur. Les données dans le tableau sont la représentation de la chaîne UTF-16.
+  - Caractères: tableau de WCHAR. Le décompte de ce tableau est égal à l'élément de données length. Les données dans le tableau sont la représentation UTF-16 de la chaîne.
     
-- Une chaîne dont la représentation UTF-16 contient WCHAR 255 et 65535, les éléments de données sont les suivantes :
+- Pour une chaîne dont la représentation UTF-16 contient 255 à 65535 WCHARs, les éléments de données sont les suivants:
     
-  - Préfixe : Octets (1 octet), la valeur 255 (0xff).
+  - PréFixe: octet (1 octet), valeur de 255 (0xFF).
     
-  - Durée : Mot (2 octets), la longueur, en nombre de WCHAR, de la représentation de la chaîne UTF-16.
+  - Longueur: WORD (2 octets), longueur, en nombre de WCHARs, de la représentation UTF-16 de la chaîne.
     
-  - Caractères : Tableau de WCHAR. Le nombre de ce tableau est égal à l’élément de données de longueur. Les données dans le tableau sont la représentation de la chaîne UTF-16.
+  - Caractères: tableau de WCHAR. Le décompte de ce tableau est égal à l'élément de données length. Les données dans le tableau sont la représentation UTF-16 de la chaîne.
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Champs et éléments Outlook](outlook-items-and-fields.md)
+[Éléments et champs Outlook](outlook-items-and-fields.md)
   
 [Structures de flux](stream-structures.md)
   

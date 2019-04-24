@@ -9,50 +9,50 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9b16cf3b8d0281ba8995058af6b18dbe22dcf592
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3d598337a4a66b6345b2f7c827b62a2ccd8af366
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346360"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>Propriété canonique PidTagReportDispositionMode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la disposition de la réception des messages qui demandent des confirmations. 
+Indique la disposition de l'accusé de réception pour les messages qui demandent des accusés de réception. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_REPORT_DISPOSITION_MODE, PR_REPORT_DISPOSITION_MODE_A, PR_REPORT_DISPOSITION_MODE_W  <br/> |
-|Identificateur :  <br/> |0 x 0081  <br/> |
+|Identificateur :  <br/> |0x0081  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles pour cette propriété sont « manuel-action/MDN-envoyés-automatiquement » et « manuel-action/MDN-envoyés-manuellement ».
+Les valeurs possibles pour cette propriété sont «Manual-action/notification-sent-automatically» et «Manual-action/notification-sent-Manually».
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

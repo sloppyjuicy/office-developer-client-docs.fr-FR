@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c165bcaedfc3dbab0c950d0674228b15dfeee958
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0f09304f21180d9ebc2a1e1dcc54ebadd3622804
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348243"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -25,13 +25,13 @@ ms.locfileid: "22592275"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère toutes les lignes d’une table. 
+Récupère toutes les lignes d'un tableau. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 HRESULT HrQueryAllRows(
@@ -48,44 +48,44 @@ HRESULT HrQueryAllRows(
 
  _pTable_
   
-> [in] Pointeur vers le tableau MAPI à partir de laquelle les lignes sont extraites. 
+> dans Pointeur vers la table MAPI à partir de laquelle les lignes sont extraites. 
     
  _ptaga_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de propriété balises indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le paramètre _ptaga_ est NULL, **HrQueryAllRows** récupère l’ensemble de la colonne entière de l’affichage tableau actuel passé dans le paramètre _ptable_ . 
+> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant des colonnes de tableau. Ces balises sont utilisées pour sélectionner les colonnes spécifiques à récupérer. Si le paramètre _ptaga_ est null, **HrQueryAllRows** récupère le jeu de colonnes entier de la vue de table actuelle passée dans le paramètre _pTable_ . 
     
- _Appuyez_
+ _avance_
   
-> [in] Pointeur vers une structure [SRestriction](srestriction.md) qui contient les restrictions de récupération. Si le paramètre _Appuyez_ est NULL, **HrQueryAllRows** n’apporte aucune restriction. 
+> dans Pointeur vers une structure [SRestriction](srestriction.md) qui contient des restrictions de récupération. Si le paramètre _pres_ est null, **HrQueryAllRows** n'impose aucune restriction. 
     
- _PSO_
+ _PSOS_
   
-> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui identifie l’ordre de tri des colonnes à récupérer. Si le paramètre _PSO_ est NULL, l’ordre de tri par défaut pour la table est utilisée. 
+> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l'ordre de tri des colonnes à récupérer. Si le paramètre _PSOS_ est null, l'ordre de tri par défaut de la table est utilisé. 
     
  _crowsMax_
   
-> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre _crowsMax_ est égale à zéro, aucune limite sur le nombre de lignes extraites n’est définie. 
+> dans Nombre maximal de lignes à récupérer. Si la valeur du paramètre _crowsMax_ est égale à zéro, aucune limite n'est définie pour le nombre de lignes extraites. 
     
  _ppRows_
   
-> [out] Pointeur vers un pointeur vers la structure [SRowSet](srowset.md) retournée qui contient un tableau de pointeurs vers les lignes du tableau récupéré. 
+> remarquer Pointeur vers un pointeur vers la structure [SRowSet](srowset.md) renvoyée qui contient un tableau de pointeurs vers les lignes de tableau récupérées. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel extraire les lignes d’un tableau attendus. 
+> L'appel a extrait les lignes attendues d'un tableau. 
     
 MAPI_E_TABLE_TOO_BIG 
   
-> Le nombre de lignes dans le tableau est supérieur à la valeur transmise au paramètre _crowsMax_ . 
+> Le nombre de lignes dans le tableau est supérieur au nombre passé pour le paramètre _crowsMax_ . 
     
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services ne contrôle pas le nombre de lignes **que HrQueryAllRows** tente de récupérer, autres qu’en imposant une restriction vers laquelle pointe le paramètre _Appuyez_ . Le paramètre _crowsMax_ ne limite pas la récupération à un certain nombre de lignes du tableau, mais plutôt définit une quantité maximale de mémoire disponible pour contenir les lignes récupérées toutes les. La seule protection contre le dépassement de capacité de mémoire RAM très importante est la fonctionnalité provisoires fournie par le paramètre _crowsMax_. L’erreur renvoyée MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour qu’il ait en une seule fois dans la mémoire. 
+Une application cliente ou un fournisseur de services ne contrôle pas le nombre de lignes **HrQueryAllRows** tente de récupérer, à l'exception du fait qu'il impose une restriction vers laquelle pointe le paramètre _pres_ . Le paramètre _crowsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes extraites. La seule protection contre le débordement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _crowsMax_. L'erreur Return MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes à conserver en une seule fois dans la mémoire. 
   
-Tables qui sont généralement petites, par exemple un magasin de la table message ou un fournisseur généralement peuvent être en toute sécurité récupérés par **HrQueryAllRows**. Tables risque d’être très volumineuses, par exemple une table des matières ou même une table de destinataires, doivent être parcourues dans les sous-sections à l’aide de la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) . 
+Les tables généralement petites, comme une table de banque de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables susceptibles d'être très volumineuses, telles qu'une table des matières ou même une table de destinataires, doivent être parcourues dans des sous-sections à l'aide de la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) . 
   
-Si les propriétés du tableau ne sont pas définies lorsque **HrQueryAllRows** est appelée, ils sont retournées avec le type de la propriété PT_NULL et l’identificateur de la propriété PROP_ID_NULL 
+Si les propriétés d'une table ne sont pas définies lors de l'appel de **HrQueryAllRows** , elles sont renvoyées avec le type de propriété PT_NULL et l'identificateur de propriété PROP_ID_NULL 
   
 

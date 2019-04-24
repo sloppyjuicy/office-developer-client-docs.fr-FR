@@ -1,5 +1,5 @@
 ---
-title: Responsabilités de mappage de passerelle
+title: Responsabilités de la passerelle en cas de mappage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,22 +7,22 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 91c1d9293108b96fde43b769c97ec673f82a8cb7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 214d24bb0b0af525d5e2588c556c37cf720364a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342797"
 ---
-# <a name="gateway-mapping-responsibilities"></a>Responsabilités de mappage de passerelle
+# <a name="gateway-mapping-responsibilities"></a>Responsabilités de la passerelle en cas de mappage
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’une passerelle prenant en charge MAPI reçoit un message contenant des propriétés nommées dans un des jeux de propriété spéciale destinée à contenir les propriétés de passerelle-mappables, la passerelle doit être mappé toutes les propriétés du protocole de la destination système de messagerie. Bien que MAPI recommande que passerelles gérer nommées toutes les propriétés dans les jeux de propriétés spéciales, passerelles doivent gérer deux seulement : adresse et le type d’adresse de messagerie. Étant donné que l’adresse de messagerie et les propriétés de type adresse affectent directement la transmission de message, il est fondamental que passerelles prennent en charge le mappage de ces deux propriétés. Étant donné que les clés de recherche se composent de type d’adresse et l’adresse d’un utilisateur, ils doivent également être traduits si possible.
+Lorsqu'une passerelle compatible MAPI reçoit un message contenant des propriétés nommées dans l'un des jeux de propriétés spécifiques désignés pour contenir des propriétés mappées sur la passerelle, la passerelle doit mapper toutes les propriétés au protocole du système de messagerie de destination. Bien que MAPI recommande que les passerelles gèrent toutes les propriétés nommées dans les jeux de propriétés spéciales, les passerelles sont censées gérer uniquement deux: adresse de messagerie et type d'adresse. Étant donné que les propriétés d'adresse de messagerie et de type d'adresse affectent directement la transmission des messages, il est essentiel que les passerelles prennent en charge le mappage de ces deux propriétés. Étant donné que les clés de recherche se composent du type d'adresse et de l'adresse d'un utilisateur, elles doivent également être traduites dans la mesure du possible.
   
-Identificateurs d’entrée ne sont pas censés être traités fréquemment. Pour activer le mappage d’un identificateur d’entrée qui provient d’un système de messagerie à un identificateur d’entrée est utilisable par un autre système de messagerie, la passerelle doit être en mesure d’utiliser le format des deux systèmes. Étant donné que la plupart des passerelles ne sont pas conscients de formats identificateur d’entrée, la traduction d’identificateurs d’entrée est rare.
+Les identificateurs d'entrée ne sont pas censés être gérés fréquemment. Pour activer le mappage d'un identificateur d'entrée provenant d'un système de messagerie à un identificateur d'entrée utilisable par un autre système de messagerie, la passerelle doit être en mesure d'utiliser le format des deux systèmes. Étant donné que la plupart des passerelles ne prennent pas en charge les formats d'identificateur d'entrée, la traduction des identificateurs d'entrée est rare.
   
-Une autre propriété mappable qui n’est pas censée être traduits fréquemment est le nom complet. Passerelles doivent stocker les noms d’affichage et les transmet, mais pas nécessairement les traduire. 
+Le nom complet est une autre propriété mappable qui n'est pas censée être traduite fréquemment. Les passerelles doivent stocker les noms d'affichage et les transmettre, mais pas nécessairement les traduire. 
   
 

@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cefb7948071b37a5a91bb87cb96a29c23ba5f3cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346346"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Propriété canonique PidTagReportDispositionOptions
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Correspond à l’en-tête MIME destruction-Options pour les messages reçus de demande. La valeur de cette propriété doit être une chaîne vide.
+Mappe sur l'en-tête MIME disposition-options pour les messages qui demandent des accusés de réception. La valeur de cette propriété doit être une chaîne vide.
   
 |||
 |:-----|:-----|
@@ -32,23 +32,23 @@ Correspond à l’en-tête MIME destruction-Options pour les messages reçus de 
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Domaine :  <br/> |Enveloppe MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

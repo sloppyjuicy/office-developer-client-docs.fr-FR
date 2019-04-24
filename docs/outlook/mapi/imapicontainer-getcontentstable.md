@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9fb8919287420038b5c9165bb14b7d33d1ad2fe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 28315c5a09eba32816a0b63513cb98d1c30a96bb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349286"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578863"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne un pointeur vers la table des matières du conteneur.
+Renvoie un pointeur vers la table des matières du conteneur.
   
 ```cpp
 HRESULT GetContentsTable(
@@ -34,69 +34,69 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont la table des matières est renvoyée. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont la table des matières est renvoyée. Les indicateurs suivants peuvent être définis:
     
 MAPI_ASSOCIATED 
   
-> Table des matières associée du conteneur doit être retournée au lieu de la table des matières standard. Cet indicateur est utilisé uniquement avec les dossiers. Les messages qui sont inclus dans le tableau contenu associé ont été créés avec l’indicateur MAPI_ASSOCIATED défini dans l’appel à la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . Clients utilisent généralement le tableau contenu associé pour récupérer les formulaires, les vues et les autres messages masqués. 
+> La table des matières associée du conteneur doit être renvoyée à la place de la table des matières standard. Cet indicateur est utilisé uniquement avec les dossiers. Les messages qui sont inclus dans la table des matières associée ont été créés avec l'indicateur MAPI_ASSOCIATED défini dans l'appel à la méthode [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . Les clients utilisent généralement le tableau contenu associé pour récupérer des formulaires, des vues et d'autres messages masqués. 
     
 ACLTABLE_FREEBUSY
   
-> Permet d’accéder aux droits frightsFreeBusySimple et frightsFreeBusyDetailed dans **PR_MEMBER_RIGHTS**.
+> Permet l'accès aux droits frightsFreeBusySimple et frightsFreeBusyDetailed dans **PR_MEMBER_RIGHTS**.
     
 MAPI_DEFERRED_ERRORS 
   
-> **GetContentsTable** peut renvoyer avec succès, probablement que le tableau soit disponible à l’appelant. Si le tableau n’est pas disponible, l’émission d’un appel de la table suivante peut déclencher une erreur. 
+> **GetContentsTable** peut être renvoyé correctement, éventuellement avant que la table soit mise à la disposition de l'appelant. Si la table n'est pas disponible, un appel de tableau ultérieur peut déclencher une erreur. 
     
 MAPI_UNICODE 
   
-> Demandes de renvoyer les colonnes qui contiennent des données de type chaîne au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes doivent être retournées au format ANSI. 
+> Demande que les colonnes qui contiennent des données de chaîne soient renvoyées au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes doivent être renvoyées au format ANSI. 
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments qui sont actuellement marqués comme logicielles supprimés — autrement dit, ils sont dans la rétention des éléments supprimés phase de temps.
+> Affiche les éléments qui sont actuellement marqués comme étant supprimés de manière récupérable, c'est-à-dire qu'ils se trouvent dans la phase de durée de rétention des éléments supprimés.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table des matières.
+> remarquer Pointeur vers un pointeur vers la table des matières.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau contenu a été récupéré correctement.
+> La table de contenu a été récupérée avec succès.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été défini et l’implémentation prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> Le conteneur n’a pas de contenu et ne peuvent pas fournir une table des matières.
+> Le conteneur n'a pas de contenu et ne peut pas fournir de table des matières.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIContainer::GetContentsTable** renvoie un pointeur vers la table des matières d’un conteneur. Une table des matières contient des informations récapitulatives concernant les objets dans le conteneur. 
+La méthode **IMAPIContainer:: GetContentsTable** renvoie un pointeur vers la table de contenu d'un conteneur. Une table des matières contient des informations récapitulatives sur les objets dans le conteneur. 
   
-Tables des matières disposez d’ensembles de colonne longs. Pour obtenir une liste complète des colonnes obligatoires et facultatifs dans les tableaux de contenu, voir [Les Tables de contenu](contents-tables.md). 
+Les tables de contenu comportent des ensembles de colonnes de longue durée. Pour obtenir la liste complète des colonnes obligatoires et facultatives dans les tables de contenu, voir [content tables](contents-tables.md). 
   
-Il est possible pour certains conteneurs de n’avoir aucun contenu. Ces conteneurs renvoient MAPI_E_NO_SUPPORT à partir de leurs implémentations de **GetContentsTable**.
+Il est possible que certains conteneurs n'aient pas de contenu. Ces conteneurs renvoient MAPI_E_NO_SUPPORT à partir de leurs implémentations de **GetContentsTable**.
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si vous prenez en charge une table des matières pour votre conteneur, vous devez également procédez comme suit :
+Si vous prenez en charge une table des matières pour votre conteneur, vous devez également effectuer les opérations suivantes:
   
-- Prend en charge les appels de méthode de [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur pour ouvrir la propriété **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
+- Prendre en charge les appels à la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) du conteneur pour ouvrir la propriété **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)).
     
-- Retourner **PR_CONTAINER_CONTENTS** en réponse à un appel à du conteneur 
+- Renvoyer **PR_CONTAINER_CONTENTS** en réponse à un appel au conteneur 
     
-    Méthodes [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
+    [IMAPIProp:: GetProps](imapiprop-getprops.md) et [IMAPIProp:: GetPropList](imapiprop-getproplist.md) méthodes. 
     
-Implémentation d’un fournisseur de transport à distance de cette méthode doit renvoyer un pointeur vers une [IMAPITable : IUnknown](imapitableiunknown.md) interface dans le paramètre _ppTable_ transmis à la méthode **GetContentsTable** . Si votre fournisseur de transport a une table de contenu existante, il suffit de retourner un pointeur. Si pas, cette méthode doit créer une nouvelle [IMAPITable : IUnknown](imapitableiunknown.md) objet, remplir le tableau avec des en-têtes de message (s’ils sont disponibles) et retourner un pointeur vers la nouvelle table. La méthode [ITableData::HrGetView](itabledata-hrgetview.md) est utile pour la génération d’une valeur de retour et en stockant le pointeur de la table dans le paramètre _ppTable_ . La table des matières doit prendre en charge au moins les colonnes de propriété suivantes : 
+L'implémentation d'un fournisseur de transport distant de cette méthode doit renvoyer un pointeur vers une interface [IMAPITable: IUnknown](imapitableiunknown.md) dans le paramètre _ppTable_ transmis à la méthode **GetContentsTable** . Si votre fournisseur de transport dispose d'un tableau de contenu existant, il suffit de renvoyer un pointeur vers celui-ci. Si ce n'est pas le cas, cette méthode doit créer un nouvel [IMAPITable: objet IUnknown](imapitableiunknown.md) , remplir le tableau avec des en-têtes de message (le cas échéant) et renvoyer un pointeur vers le nouveau tableau. La méthode [ITableData:: HrGetView](itabledata-hrgetview.md) est utile pour générer une valeur de retour et stocker le pointeur de table dans le paramètre _ppTable_ . La table de contenu doit prendre en charge au moins les colonnes de propriétés suivantes: 
   
 - **PR_ENTRYID** ([PidTagEntryID](pidtagentryid-canonical-property.md))
     
@@ -134,11 +134,11 @@ Implémentation d’un fournisseur de transport à distance de cette méthode do
     
 - **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))
     
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Colonnes de tableau contenu chaîne et binaires peuvent être tronqués. En règle générale, les fournisseurs retournent 255 caractères. Car vous ne pouvez pas savoir au préalable si une table inclut des colonnes tronqués, supposons qu’une colonne est tronquée si la longueur de la colonne est 255 ou 510 octets. Vous pouvez toujours récupérer la valeur complète d’une colonne tronquée, si nécessaire, directement à partir de l’objet à l’aide de son identificateur d’entrée pour l’ouvrir, puis en appelant la méthode **IMAPIProp::GetProps** . 
+Les colonnes de table de contenu binaire et de chaîne peuvent être tronquées. En règle générale, les fournisseurs renvoient 255 caractères. Étant donné que vous ne pouvez pas savoir si une table comporte des colonnes tronquées, supposons qu'une colonne est tronquée si sa longueur est de 255 ou 510 octets. Vous pouvez toujours récupérer la valeur complète d'une colonne tronquée, si nécessaire, directement à partir de l'objet à l'aide de son identificateur d'entrée pour l'ouvrir, puis en appelant la méthode **IMAPIProp:: GetProps** . 
   
-Selon l’implémentation du fournisseur, les restrictions et les opérations de tri peuvent s’appliquent à l’ensemble d’une chaîne ou vers la version tronquée de cette chaîne.
+En fonction de l'implémentation du fournisseur, les restrictions et les opérations de tri peuvent s'appliquer à l'ensemble d'une chaîne ou à la version tronquée de cette chaîne.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -146,7 +146,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |La classe **CContentsTableDlg** utilise **GetContentsTable** pour obtenir les entrées dans une table des matières.  <br/> |
+|ContentsTableDialog. cpp  <br/> |CContentsTableDlg:: CContentsTableDlg  <br/> |La classe **CContentsTableDlg** utilise **GetContentsTable** pour obtenir les entrées dans une table des matières.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

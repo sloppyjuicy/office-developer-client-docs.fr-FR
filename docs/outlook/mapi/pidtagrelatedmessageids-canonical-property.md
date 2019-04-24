@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 0c3b200c416a21dab00e1ad31e70b58fbdbf845e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355159"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Propriété canonique PidTagRelatedMessageIds
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs de messages associé à un message.
+Contient une liste d'identificateurs pour les messages auxquels un message est lié.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d’identificateurs de messages associé à un message.
    
 ## <a name="remarks"></a>Remarques
 
-Les identificateurs d’utilisent les mêmes règles de construction spécifique sont utilisés pour la propriété **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Les identificateurs utilisent les mêmes règles de construction spécifiques que celles utilisées pour la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a74a6639023ae6ffddeabd03970b609e7b7babe1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 042216df309e98f35ed0ad71742e46300ebb06da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342580"
 ---
 # <a name="gender"></a>Gender
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les valeurs possibles pour le genre d’un utilisateur de messagerie.
+Spécifie les valeurs possibles pour le sexe d'un utilisateur de messagerie.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,31 +37,31 @@ enum Gender {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  _genderMin_
   
-> Le nombre minimal de différentes valeurs de prise en charge pour le sexe.
+> Nombre minimal de valeurs différentes prises en charge pour le sexe.
     
  _genderUnspecified_
   
-> Le sexe n’est pas spécifié pour l’utilisateur de messagerie.
+> Le sexe n'est pas spécifié pour l'utilisateur de messagerie.
     
  _genderFemale_
   
-> L’utilisateur de messagerie est féminin.
+> L'utilisateur de messagerie est femelle.
     
  _genderMale_
   
-> L’utilisateur de messagerie est masculin.
+> L'utilisateur de messagerie est un homme.
     
  _genderCount_
   
-> Le nombre de valeurs différentes pris en charge pour le sexe.
+> Nombre de valeurs différentes prises en charge pour le sexe.
     
  _genderMax_
   
-> Le nombre maximal de valeurs différentes pris en charge pour le sexe.
+> Nombre maximal de valeurs différentes prises en charge pour le sexe.
     
 ## <a name="see-also"></a>Voir aussi
 

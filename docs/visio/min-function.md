@@ -8,33 +8,33 @@ f1_keywords:
 - Vis_DSS.chm82251463
 localization_priority: Normal
 ms.assetid: b945b7c2-153f-2fc3-b768-1e975254ddf5
-description: Renvoie le plus petit nombre dans une liste. Plus petit moyen le plus proche de l’infini négatif.
-ms.openlocfilehash: a0de95875ea43259d1bd1da19c3e7a4af2ae0f9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la plus petite valeur d'une liste. Le plus petit signifie le plus proche de l'infini négatif.
+ms.openlocfilehash: 7c9eb1a8d4ce30e7ab9253c2864ecd38474e8ff6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360647"
 ---
-# <a name="min-function"></a>MIN, fonction
+# <a name="min-function"></a>Fonction MIN
 
-Renvoie le plus petit nombre dans une liste. Plus petit moyen le plus proche de l’infini négatif.
+Renvoie la plus petite valeur d'une liste. Le plus petit signifie le plus proche de l'infini négatif.
   
 ## <a name="syntax"></a>Syntaxe
 
-MIN (** *Numéro1* **, ** *Numéro2* **,..., ** *numberN* **) 
+MIN (* * *numéro1* * *, * * *numéro2* * *,..., * * *numéron* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _nombre1_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Premier nombre de la liste  <br/> |
-| _nombre2_ <br/> |Facultatif  <br/> |**Varie** <br/> | Deuxième nombre de la liste  <br/> |
-| _numberN_ <br/> |Facultatif  <br/> |**Varie** <br/> |Nième nombre de la liste  <br/> |
+| _number1_ <br/> |Obligatoire  <br/> |**Réelle** <br/> |Premier nombre de la liste  <br/> |
+| _number2_ <br/> |Facultatif  <br/> |**Réelle** <br/> | Deuxième nombre de la liste  <br/> |
+| _Numéro de série_ <br/> |Facultatif  <br/> |**Réelle** <br/> |Nième nombre de la liste  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Variable
+Variables
   
 ## <a name="example"></a>Exemple
 

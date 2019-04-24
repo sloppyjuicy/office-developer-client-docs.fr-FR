@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f23a332ee6778f71ce0809dfae8c0b6a92246a8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 79ef85955f15e0ca829ac6f206dddc17031b0562
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356692"
 ---
 # <a name="pidtagrecipientnumberforadvice-canonical-property"></a>Propriété canonique PidTagRecipientNumberForAdvice
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient le numéro de téléphone du destinataire du message à appeler pour signaler la remise physique d’un message.
+Cette propriété contient le numéro de téléphone du destinataire du message à appeler pour informer de la remise physique d'un message.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Cette propriété contient le numéro de téléphone du destinataire du message 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont destinées à être utilisées conjointement avec la remise vers une destination physique, plutôt qu’une boîte aux lettres électronique, lorsque le destinataire humain n’est pas censé être présent à la remise. Le numéro de téléphone sur une page de garde est un exemple.
+Ces propriétés sont destinées à être utilisées conjointement avec la remise à une destination physique, plutôt qu'une boîte aux lettres électronique, lorsque le destinataire humain n'est pas censé être présent à la remise. Par exemple, le numéro de téléphone d'une page de garde de télécopie.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

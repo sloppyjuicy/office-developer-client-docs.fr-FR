@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.
-ms.openlocfilehash: 444200801ebd984fb735b95de6d58d35e5160d1a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358036"
 ---
-# <a name="loctoloc-function"></a>LOCTOLOC, fonction
+# <a name="loctoloc-function"></a>Fonction LOCTOLOC
 
 Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.
   
 ## <a name="syntax"></a>Syntaxe
 
-LOCTOLOC (** *pointSrc* **, ** *srcRef* **, ** *dstRef* **) 
+LOCTOLOC (* * *srcPoint* * *, * * *srcRef* * *, * * *dstRef* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pointSrc_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
-| _srcRef_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Référence à une cellule de l’objet source  <br/> |
-| _dstRef_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Référence à une cellule de l’objet cible  <br/> |
+| _srcPoint_ <br/> |Obligatoire  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
+| _srcRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet source  <br/> |
+| _dstRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet cible  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   
@@ -40,7 +40,7 @@ Chaîne
 
 La fonction LOCTOLOC convertit un point des coordonnées locales de la forme source en coordonnées locales de la forme de destination. Elle permet, par exemple, de construire une forme en utilisant les points d’un autre système de coordonnées. Elle permet également de transformer un point local en coordonnées de page ou vice-versa.
   
-Vous pouvez l’utiliser même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.
+Cette fonction peut être utilisée même si les formes source et cible sont contenues dans des groupes. Elle effectue également des ajustements de rotation et de retournement dans la transformation intermédiaire.
   
 Les coordonnées source et cible doivent se trouver sur la même page.
   

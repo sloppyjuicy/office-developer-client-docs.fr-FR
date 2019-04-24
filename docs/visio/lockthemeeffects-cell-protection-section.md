@@ -8,20 +8,20 @@ f1_keywords:
 - vis_sdr.chm70002
 localization_priority: Normal
 ms.assetid: 84179718-d7a6-d503-08f2-213571bf108f
-ms.openlocfilehash: 41c9e9c021c5ad954c16599f9e376063655ffa07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d707d4a87371dc457deae168a84d968f165f4fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348306"
 ---
 # <a name="lockthemeeffects-cell-protection-section"></a>LockThemeEffects, cellule (section Protection)
 
-Empêche l’application d’effets de thème à la forme. 
+Empêche l'application d'effets de thème à la forme. 
   
-Correspond au paramètre **d’effets de thème** case à cocher dans la boîte de dialogue **Protection** . 
+Correspond au paramètre de la case à cocher **à partir des effets du thème** de la boîte de dialogue **protection** . 
   
-Pour faire référence à la cellule LockThemeColors par un nom à partir d’une autre formule ou d’un programme, utilisez la propriété **CellsU** , utilisez : 
+Pour faire référence à la cellule LockThemeEffects par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ Pour faire référence à la cellule LockThemeEffects par index dans un programm
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**visSectionObject** <br/> |
+|Index de la section :  <br/> |**Définis** <br/> |
 |Index de la ligne :  <br/> |**visRowLock** <br/> |
 |Index de la cellule :  <br/> |**visLockThemeEffects** <br/> |
    

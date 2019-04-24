@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348621"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -25,7 +25,7 @@ ms.locfileid: "25396315"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à l’appelant fournisseur de services ou la passerelle ajouter des propriétés à l’encapsulation d’un message ou d’une pièce jointe. 
+Permet au fournisseur de services d'appel ou à la passerelle d'ajouter des propriétés à l'encapsulation d'un message ou d'une pièce jointe. 
   
 ```cpp
 HRESULT AddProps(
@@ -36,47 +36,47 @@ HRESULT AddProps(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont les propriétés sont incluses ou exclues d’encapsulation. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle la manière dont les propriétés sont incluses ou exclues de l'encapsulation. Les indicateurs suivants peuvent être définis:
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> Encode les propriétés dans le paramètre _lpPropList_ qui font partie des pièces jointes dans le message. 
+> Code uniquement les propriétés du paramètre _lpPropList_ qui font partie des pièces jointes dans le message. 
     
 TNEF_PROP_CONTAINED 
   
-> Code uniquement les propriétés de la pièce jointe spécifié par le paramètre _ulElemID_ . Si le paramètre _lpvData_ n’est pas NULL, les données vers lequel pointées sont écrit dans encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+> Encode uniquement les propriétés de la pièce jointe spécifiée par le paramètre _ulElemID_ . Si le paramètre _lpvData_ n'est pas null, les données pointées sur sont écrites dans l'encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Code uniquement les propriétés à partir du message ou d’une pièce jointe spécifié par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur de _lpvData_ doit être un pointeur [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
+> Encode uniquement les propriétés du message ou de la pièce jointe spécifiées par le paramètre _ulElemID_ . Si cet indicateur est défini, la valeur dans _lpvData_ doit être un pointeur [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
-> Code toutes les propriétés non spécifiées dans le paramètre _lpPropList_ . 
+> Encode toutes les propriétés non spécifiées dans le paramètre _lpPropList_ . 
     
 TNEF_PROP_INCLUDE 
   
-> Code toutes les propriétés spécifiées dans _lpPropList_. 
+> Encode toutes les propriétés spécifiées dans _lpPropList_. 
     
 TNEF_PROP_MESSAGE_ONLY 
   
-> Code uniquement les propriétés spécifiées dans _lpPropList_ qui font partie du message lui-même. 
+> Encode uniquement les propriétés spécifiées dans _lpPropList_ qui font partie du message lui-même. 
     
  _ulElemID_
   
-> [in] Propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d’une pièce jointe qui contient un numéro qui identifie de façon unique identifie la pièce jointe dans un message de son parent. Le paramètre _ulElemID_ est utilisé lorsqu’un traitement spécial est demandé pour une pièce jointe. Le paramètre _ulElemID_ doit être 0, sauf si l’indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est défini dans le paramètre _ulFlags_ . 
+> dans Propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d'une pièce jointe, qui contient un numéro qui identifie de manière unique la pièce jointe dans son message parent. Le paramètre _ulElemID_ est utilisé lorsqu'une gestion spéciale est demandée pour une pièce jointe. Le paramètre _ulElemID_ doit être égal à 0 sauf si l'indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est défini dans le paramètre _ulFlags_ . 
     
  _lpvData_
   
-> [in] Pointeur vers les données de pièce jointe permet de remplacer les données de la pièce jointe spécifiée dans _ulElemID_. Le paramètre _lpvData_ doit être NULL sauf si TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est défini dans _ulFlags_.
+> dans Pointeur vers les données de la pièce jointe utilisée pour remplacer les données de la pièce jointe spécifiée dans _ulElemID_. Le paramètre _lpvData_ doit être null, sauf si TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est défini dans _ulFlags_.
     
  _lpPropList_
   
-> [in] Pointeur vers la liste des propriétés à inclure ou exclure de l’encapsulation.
+> dans Pointeur vers la liste des propriétés à inclure dans l'encapsulation ou à exclure de celle-ci.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -86,11 +86,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de transport, les fournisseurs de banque de message et passerelles appellent la méthode de **ITnef::AddProps** pour les propriétés de la liste pour être inclus ou exclu de la transformation de Transport-Neutral Encapsulation Format (TNEF) d’un message ou d’une pièce jointe. À l’aide des appels successifs, le fournisseur ou la passerelle peut spécifier une liste de propriétés pour ajouter et coder ou à exclure des encodé. Fournisseurs et des passerelles peuvent également utiliser **AddProps** pour fournir plus d’informations sur les pièces jointes d’un traitement spécial doivent être attribués. 
+Les fournisseurs de transport, les fournisseurs de banques de messages et les passerelles appellent la méthode **ITnef:: AddProps** pour répertorier les propriétés à inclure dans le traitement TNEF (Transport-Neutral Encapsulation Format) d'un message ou une pièce jointe. En utilisant des appels successifs, le fournisseur ou la passerelle peut spécifier une liste de propriétés à ajouter et encoder ou à exclure de l'encodage. Les fournisseurs et les passerelles peuvent également utiliser **AddProps** pour fournir des informations sur toute manipulation particulière de pièces jointes. 
   
- **AddProps** est pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
+ **AddProps** est pris en charge uniquement pour les objets TNEF ouverts avec l'indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
   
-Notez qu’aucun codage TNEF se produit pour **AddProps** jusqu'à ce que la méthode [ITnef::Finish](itnef-finish.md) est appelée. Cette fonctionnalité signifie que des pointeurs transmis à **AddProps** reste valables jusqu'à après l’appel à la **fin** . À ce stade, tous les objets et les données transmises, **AddProps** les appels peuvent être publiées ou libérées. 
+Notez qu'aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef:: Finish](itnef-finish.md) n'est pas appelée. Cette fonctionnalité signifie que les pointeurs transmis dans **AddProps** doivent rester valides jusqu'à ce **** que l'appel soit effectué. À ce stade, tous les objets et toutes les données transmis avec des appels **AddProps** peuvent être libérés ou libérés. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -98,7 +98,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef::AddProps** pour copier les propriétés d’un message à un flux TNEF.  <br/> |
+|File. cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI utilise la méthode **ITnef:: AddProps** pour copier les propriétés d'un message vers un flux TNEF.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

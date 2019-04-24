@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579444"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351169"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579444"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que le message en cours a été soumis au spouleur MAPI à la visionneuse de formulaire.
+Avertit la visionneuse de formulaires que le message actif a été envoyé au spouleur MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -33,7 +33,7 @@ HRESULT OnSubmitted( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -43,13 +43,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Un objet form appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** après qu’un appel à [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) a réussi. 
+Un objet Form appelle la méthode **IMAPIViewAdviseSink:: OnSubmitted** une fois que l'appel à [IMAPIMessageSite:: SubmitMessage](imapimessagesite-submitmessage.md) a été renvoyé avec succès. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Après avoir appelé **OnSubmitted** , vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettre à jour votre windows afin de refléter les modifications qui se sont produites. 
+Après l'appel de **OnSubmitted** , vous pouvez continuer en supposant que le message a été mis à jour. Mettez à jour vos fenêtres pour refléter les modifications qui se sont produites. 
   
-Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

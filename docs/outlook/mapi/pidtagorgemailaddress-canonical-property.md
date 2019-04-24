@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: daccc16e314be865c5f0f152a9a1b746e0978869
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342489"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Propriété canonique PidTagOrgEmailAddress
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’adresse de messagerie du compte de messagerie origine.
+Contient l'adresse de messagerie du compte de messagerie d'origine.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
-|Identificateur :  <br/> |TBD  <br/> |
+|Identificateur :  <br/> |À déterminer  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Domaine :  <br/> |Address  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

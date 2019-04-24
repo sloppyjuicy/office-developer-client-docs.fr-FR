@@ -9,44 +9,44 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: Définit la mise en forme d'un élément de données de forme qui est une chaîne, une liste fixe, un nombre, une liste variable, une date, une heure ou une monnaie.
-ms.openlocfilehash: 48342f21a107ff78fed2347fb679ed8199526056
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346024"
 ---
 # <a name="format-cell-shape-data-section"></a>Format, cellule (section Shape Data)
 
 Définit la mise en forme d'un élément de données de forme qui est une chaîne, une liste fixe, un nombre, une liste variable, une date, une heure ou une monnaie.
   
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-|**Type d’élément de données de forme**|**Valeur**|**Contenu de la cellule Format**|
+|**Type de données d'article de forme**|**Valeur**|**Contenu de la cellule Format**|
 |:-----|:-----|:-----|
-| Chaîne  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste fixe  <br/> | 1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Nombre  <br/> | 2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| String  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Liste fixe  <br/> | 0,1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
+| Nombre  <br/> | n°2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
 | Liste variable  <br/> | 4  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Date ou heure  <br/> | 5  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Durée  <br/> | 6  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Devise  <br/> | 7  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Date ou heure  <br/> | disque  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Duration  <br/> | 6.x  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Devise  <br/> | 7j/7  <br/> | Modèle de format approprié pour le type de données.  <br/> |
    
-Un exemple de modèle de format approprié pour le type de données, le format image « # #/ 4 UU » met en forme les numéros de 12,43 ;. en tant que 12 2/4 pouces. Pour plus d’informations sur la spécification d’un format de l’image, voir [à propos des modèles de format](about-format-pictures.md).
+Un exemple de modèle de format approprié pour le type de données est « 0,000 u », qui fait apparaître le nombre 250 cm sous la forme 250,000 cm. Pour plus d'informations sur les modèles de format, reportez-vous à [À propos des modèles de format](about-format-pictures.md).
   
 Un exemple d'éléments spécifiés pour une liste est « Ingénierie;Ressources humaines;Ventes;Marketing ».
   
-Les valeurs de date (type = 5) sont affichés dans le format de date court. Les valeurs monétaires (type = 7) sont affichés à l’aide du paramètre actuel de l’utilisateur pour la **devise** sous l’onglet **Options régionales** dans l’élément **Options régionales et linguistiques** dans **Le panneau de configuration**.
+Les valeurs de date (type = 5) sont affichées au format de date court. Les valeurs monétaires (type = 7) utilisent le paramètre utilisateur actif pour **Symbole monétaire** dans l'onglet **Options régionales** de l'élément **Options régionales et linguistiques** du **Panneau de configuration**.
   
 Un nombre (type = 2) peut représenter une cote, un vecteur, un angle, une date, une heure ou une devise. Pour vous assurer qu'un nombre entré est toujours évalué comme une date, une heure ou une devise, utilisez la fonction DATEHEURE ou CY dans la cellule Format au lieu d'un modèle de format.
   
-Pour obtenir une référence à la cellule Format par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Format par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Propriétés.  *nom* . Format dans lequel de propriétés.  *Name* est le nom de ligne  <br/> |
+| Nom de cellule :  <br/> | Hélice.  *nom* . Format où prop.  *Name* est le nom de la ligne  <br/> |
    
-Pour obtenir une référence à la cellule Format par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Format à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

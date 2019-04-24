@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345716"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Propriété canonique PidTagClientSubmitTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l’heure à laquelle que l’expéditeur du message envoyé un message. 
+Contient la date et l'heure auxquelles l'expéditeur du message a envoyé un message. 
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ Contient la date et l’heure à laquelle que l’expéditeur du message envoyé
    
 ## <a name="remarks"></a>Remarques
 
-Le fournisseur de banque définit l’heure à laquelle l’application cliente appelée [IMessage::SubmitMessage](imessage-submitmessage.md) **PR_CLIENT_SUBMIT_TIME** . 
+Le fournisseur de banque d' **PR_CLIENT_SUBMIT_TIME** définit l'heure à laquelle l'application cliente a appelé [IMessage:: SubmitMessage](imessage-submitmessage.md). 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

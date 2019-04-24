@@ -11,40 +11,40 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22f497de-4afe-4433-965d-c3b5a66b05da
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 7f3f6ae2b9849710bf44d3635fc7bb9a62016f48
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356979"
 ---
 # <a name="ipstoverridereq--iunknown"></a>IPSTOVERRIDEREQ : IUnknown
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournisseur de magasin de ressources d’accès d’un fichier de dossiers personnels (PST).
+Accède aux ressources d'un fournisseur de magasins de fichiers de dossiers personnels (PST).
   
 |||
 |:-----|:-----|
-|Hérite de :  <br/> |IUnknown  <br/> |
-|Implémenté par :  <br/> |Fournisseur de banque PST  <br/> |
+|Hérite de:  <br/> |IUnknown  <br/> |
+|Implémenté par :  <br/> |Fournisseur de banque de fichiers PST  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Lance la procédure de déverrouillage pour un fichier de dossiers personnels (.pst).  <br/> |
+|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Lance la procédure de déverrouillage pour un fichier de dossiers personnels (. pst).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les identificateurs d’Interface Gestionnaire remplacer PST pas peuvent être définis dans le fichier d’en-tête téléchargeables que vous avez actuellement, auquel cas vous serez les trouver dans la rubrique [Constantes MAPI](mapi-constants.md) et peuvent copier et les ajouter à votre code. Pour associer les noms symboliques identificateur global unique (GUID) à leurs valeurs, utilisez la macro DEFINE_GUID définie dans le guiddef.h de fichier d’en-tête Kit de développement logiciel (SDK) de Microsoft Windows. 
+Les identificateurs d'interface du gestionnaire des substitutions PST ne sont peut-être pas définis dans le fichier d'en-tête que vous avez actuellement, auquel cas vous les trouverez dans la rubrique [MAPI constants](mapi-constants.md) , et peuvent les copier et les ajouter à votre code. Utilisez la macro DEFINE_GUID définie dans le fichier d'en-tête Microsoft Windows Software Development Kit (SDK) guiddef. h pour associer les noms symboliques de GUID (identificateur global unique) et leurs valeurs. 
   
-Pour plus d’informations, voir [comment implémenter un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
+Pour plus d'informations, reportez-vous à la rubrique [implémentation d'un gestionnaire de substitution PST pour contourner la stratégie PSTDisableGrow dans Outlook 2007](https://support.microsoft.com/kb/956070).
   
 ## <a name="see-also"></a>Voir aussi
 

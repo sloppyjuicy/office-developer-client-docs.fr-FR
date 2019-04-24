@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 9bd7e95b00d27073536d130d443bd20970d48109
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a826f1bdf150b42b61a61b2f53870e9f170e0777
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342594"
 ---
 # <a name="pidtagoriginallyintendedrecipaddrtype-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipAddrtype
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d’adresse du destinataire prévu à l’origine d’un message transféré automatiquement.
+Contient le type d'adresse du destinataire initial d'un message autoforwarded.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le type d’adresse du destinataire prévu à l’origine d’un messag
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont une des propriétés d’adresse pour le destinataire du message à l’origine. Elle doit être définie par l’agent automatique qui a transféré le message.
+Ces propriétés sont l'une des propriétés d'adresse du destinataire du message initialement prévu. Elle doit être définie par l'agent automatique qui a transféré le message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

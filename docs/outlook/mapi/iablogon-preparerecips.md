@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c42077528a4f7227321d8f987cc5dd0ccd4c966c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 0a9b88d762ca88cebd6d9acecf06db53a0b778f6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348943"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 
@@ -33,74 +33,74 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte dans les chaînes retournées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le type du texte dans les chaînes renvoyées. L'indicateur suivant peut être défini:
     
-  - MAPI_CACHE_ONLY : Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour autoriser une application cliente ouvrir la liste d’adresses globale (LAG) en mode exchange mis en cache et accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer le trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+  - MAPI_CACHE_ONLY: Utilisez uniquement le carnet d'adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d'ouvrir la liste d'adresses globale (LAG) en mode Exchange mis en cache et d'accéder à une entrée de ce carnet d'adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d'adresses Exchange.
     
 _lpPropTagArray_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriétés qui indiquent les propriétés qui nécessitent la mise à jour, le cas échéant. Le paramètre _lpPropTagArray_ peut être NULL. 
+> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés qui nécessitent une mise à jour, le cas échéant. Le paramètre _lpPropTagArray_ peut être null. 
     
 _lpRecipList_
   
-> [in] Pointeur vers une structure [ADRLIST](adrlist.md) qui contenue la liste des destinataires. 
+> dans Pointeur vers une structure [ADRLIST](adrlist.md) qui contient la liste des destinataires. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La liste de destinataires a été correctement préparée.
+> La liste des destinataires a été préparée.
     
 MAPI_E_NOT_FOUND 
   
-> Une ou plusieurs des destinataires dans le paramètre _lpRecipList_ n’existent pas. 
+> Au moins un des destinataires dans le paramètre _lpRecipList_ n'existe pas. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Un client appelle la méthode MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) pour modifier ou réorganiser un ensemble de propriétés pour un ou plusieurs destinataires. Les destinataires peuvent ou ne peuvent pas faire partie de la liste des destinataires d’un message sortant. MAPI transfère cet appel à la méthode de **IABLogon::PrepareRecips** d’un fournisseur de carnet d’adresses. 
+Un client appelle la méthode MAPI [IAddrBook::P reparerecips](iaddrbook-preparerecips.md) pour modifier ou réorganiser un ensemble de propriétés pour un ou plusieurs destinataires. Les destinataires peuvent ou non faire partie de la liste des destinataires d'un message sortant. MAPI transfère cet appel à la méthode IABLogon du fournisseur de carnet d'adresses **::P reparerecips** . 
   
-**IABLogon::PrepareRecips** effectue les quatre tâches principales : 
+**IABLogon::P reparerecips** effectue quatre tâches principales: 
   
-- Garantit que tous les destinataires dans la liste d’adresses vers lesquelles pointent par le paramètre _lpRecipList_ ont un identificateur d’entrée à long terme. 
+- Garantit que tous les destinataires de la liste d'adresses vers laquelle pointe le paramètre _lpRecipList_ ont un identificateur d'entrée à long terme. 
     
-- Garantit que tous les destinataires ont les propriétés spécifiées dans le tableau de valeurs de propriété indiqué par le paramètre _lpPropTagArray_ . 
+- Garantit que tous les destinataires ont les propriétés spécifiées dans le tableau de valeurs de propriété vers lequel pointe le paramètre _lpPropTagArray_ . 
     
-- Garantit que les propriétés du tableau de valeur de propriété s’affichent avant les autres propriétés qui existaient avant l’appel.
+- Garantit que les propriétés du tableau de valeurs de propriété apparaissent avant les autres propriétés qui existaient avant l'appel.
     
-- Garantit que l’ordre des propriétés de la structure [ADRENTRY](adrentry.md) de chaque destinataire de la structure **ADRLIST** est le même que dans le tableau de valeurs de propriété. 
+- Garantit que l'ordre des propriétés dans la structure [ADRENTRY](adrentry.md) de chaque destinataire dans la structure **ADRLIST** est le même que dans le tableau de valeurs de la propriété. 
     
-La structure **ADRENTRY** dans le paramètre _lpRecipList_ contient une structure **ADRENTRY** pour chaque destinataire. Chaque structure **ADRENTRY** contient un tableau de structures [SPropValue](spropvalue.md) pour décrire les propriétés du destinataire. **IABLogon::PrepareRecips** retourne le tableau de structure **SPropValue** pour chaque destinataire inclut les propriétés de l' _lpPropTagArray_ suivi par les autres propriétés pour le destinataire. 
+La structure **ADRENTRY** dans le paramètre _lpRecipList_ contient une structure **ADRENTRY** pour chaque destinataire. Chaque structure **ADRENTRY** contient un tableau de structures [SPropValue](spropvalue.md) pour décrire les propriétés du destinataire. Lorsque **IABLogon::P reparerecips** renvoie, le tableau de structures **SPropValue** pour chaque destinataire inclut les propriétés de l' _lpPropTagArray_ suivies par les autres propriétés du destinataire. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation **IABLogon::PrepareRecips** implique l’assignation de propriétés dans un ordre spécifique, extraction de valeurs de propriété et la conversion des identificateurs d’entrée à court terme pour les identificateurs d’entrée à long terme. Les propriétés qui sont demandées dans le paramètre _lpPropTagArray_ doivent être au début du tableau de valeur de propriété associé à **ADRENTRY** structure chaque destinataire dans le paramètre _lpRecipList_ . Si les valeurs de ces propriétés n’existent pas, ouvrez la liste associée d’utilisateur ou de distribution de messagerie à l’aide de son identificateur d’entrée et récupérer les valeurs de propriété manquantes. 
+Implémentation de **IABLogon::P reparerecips** implique de placer des propriétés dans un ordre spécifique, d'extraire des valeurs de propriétés et de convertir des identificateurs d'entrée à court terme en identificateurs d'entrée à long terme. Les propriétés qui sont demandées dans le paramètre _lpPropTagArray_ doivent se trouver au début du tableau de valeurs de la propriété associé à la structure **ADRENTRY** de chaque destinataire dans le paramètre _lpRecipList_ . Si les valeurs de ces propriétés n'existent pas, ouvrez l'utilisateur de messagerie associé ou la liste de distribution à l'aide de son identificateur d'entrée et récupérez les valeurs de propriété manquantes. 
   
-Allouer chaque structure **SPropValue** passé _lpRecipList_ séparément afin que les structures peuvent être libérés individuellement. Si vous devez allouer l’espace supplémentaire pour les structures **SPropValue** , par exemple, utilisez la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) pour stocker les données d’une propriété de chaîne, à allouer de l’espace supplémentaire pour le tableau de valeurs de propriété complète. Utilisez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de valeurs de propriété d’origine, puis utilisez la fonction [MAPIAllocateMore](mapiallocatemore.md) pour allouer toute mémoire supplémentaire est requis. 
+AlLouez chaque structure **SPropValue** passée dans _lpRecipList_ séparément afin que les structures puissent être libérées individuellement. Si vous devez allouer de l'espace supplémentaire pour une structure **SPropValue** , par exemple, pour stocker les données d'une propriété de type chaîne, utilisez la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) pour allouer de l'espace supplémentaire pour le tableau de valeurs de la propriété complète. Utilisez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de valeurs de propriété d'origine, puis utilisez la fonction [MAPIAllocateMore](mapiallocatemore.md) pour allouer toute mémoire supplémentaire requise. 
   
-Pour mettre en œuvre **IABLogon::PrepareRecips**, utilisez la procédure suivante :
+Pour implémenter **IABLogon::P reparerecips**, procédez comme suit:
   
-1. Vérifiez les entrées dans le paramètre _lpPropTagArray_ . Si le tableau de valeurs de propriété est vide, il n’existe aucune tâche à effectuer. Renvoie une valeur de réussite. 
+1. Vérifiez les entrées dans le paramètre _lpPropTagArray_ . Si le tableau de valeurs de la propriété est vide, il n'y a aucun travail à faire. Renvoyer une valeur de réussite. 
     
-2. Processus de chaque destinataire dans le paramètre _lpRecipList_ . Il est un membre de la structure **ADRENTRY** pour chaque destinataire dans la liste. Ignorer les types de destinataires suivants : 
+2. Traitez chaque destinataire dans le paramètre _lpRecipList_ . Il existe un membre de structure **ADRENTRY** pour chaque destinataire dans la liste. Ignorez les types de destinataires suivants: 
     
-   - Destinataires sans un identificateur d’entrée dans le membre **rgPropVals** de leur structure **ADRENTRY** (autrement dit, les destinataires). 
+   - Destinataires sans identificateur d'entrée dans le membre **rgPropVals** de leur structure **ADRENTRY** (c'est-à-dire, destinataires non résolus). 
     
-   - Destinataires avec un identificateur d’entrée qui n’appartient pas à votre fournisseur. Ces destinataires sont communiquées à un autre fournisseur de carnet d’adresses.
+   - Les destinataires dont l'identificateur d'entrée n'appartient pas à votre fournisseur. Ces destinataires seront transmis à un autre fournisseur de carnets d'adresses.
     
-3. Ouvrez le destinataire et récupérer les propriétés qui sont déjà définies pour le destinataire.
+3. Ouvrez le destinataire et extrayez les propriétés qui sont déjà définies pour le destinataire.
     
-4. Le tableau de valeurs de propriété spécifié dans la _lpRecipList_ avec le tableau de propriétés renvoyé par **GetProps**de fusion. Si la même propriété se produit dans les deux tableaux de propriétés, utilisez la valeur de _lpRecipList_.
+4. Fusionnez le tableau de valeurs de propriété spécifié dans _lpRecipList_ avec le tableau de propriétés renvoyées à partir de **GetProps**. Si la même propriété se produit dans les deux tableaux de propriétés, utilisez la valeur de _lpRecipList_.
     
-5. Si le tableau de valeurs de propriété _lpRecipList_ est suffisante pour contenir toutes les propriétés nécessaires, juste Remplacez-la par le tableau fusionné. Si le tableau de valeurs de propriété _lpRecipList_ n’est pas suffisante, remplacez-la par un tableau nouvellement allouée. Assurez-vous que le nouveau tableau comporte une valeur de mise à jour dans chacun de ses membres **cValues** . 
+5. Si le tableau de valeurs de la propriété _lpRecipList_ est suffisamment grand pour contenir toutes les propriétés nécessaires, il suffit de le remplacer par le tableau fusionné. Si le tableau de valeurs de la propriété _lpRecipList_ n'est pas assez grand, remplacez-le par un tableau nouvellement alloué. Assurez-vous que le nouveau tableau dispose d'une valeur mise à jour dans chacun de ses membres **cValues** . 
     
-6. Si vous ne connaissez pas une ou plusieurs des propriétés dans le paramètre _lpPropTagArray_ , définir le type de propriété de structure **ADRENTRY** du destinataire PT_ERROR et la valeur de propriété à MAPI_E_NOT_FOUND ou à une autre valeur qui fournit une plus raison spécifique de l’indisponibilité de la propriété. Pour plus d’informations sur PT_ERROR, reportez-vous à [Types de propriété](property-types.md).
+6. Si vous ne connaissez pas une ou plusieurs des propriétés du paramètre _lpPropTagArray_ , définissez le type de la propriété dans la structure **ADRENTRY** du destinataire sur PT_ERROR et la valeur de la propriété sur MAPI_E_NOT_FOUND ou sur une autre valeur qui donne plus raison spécifique de l'indisponibilité de la propriété. Pour plus d'informations sur PT_ERROR, consultez la rubrique [types de propriétés](property-types.md).
     
 > [!NOTE]
-> Ne jamais réaffecter la structure **ADRLIST** qui est passée dans **IABLogon::PrepareRecips** ou modifier son nombre d’entrées. 
+> Ne réaffectez jamais la structure **ADRLIST** passée dans **IABLogon::P reparerecips** ou modifier son nombre d'entrées. 
   
 ## <a name="see-also"></a>Voir aussi
 

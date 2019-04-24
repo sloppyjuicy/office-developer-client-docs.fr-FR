@@ -7,13 +7,13 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 417c113f-bd98-4515-85d1-09db7fc3a227
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cf7876dacac40420fdedb8b6f55c99efcf56c4f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f1d1895cc6f9e65929781cb0e966873d2bce197c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345856"
 ---
 # <a name="mapi-messages"></a>Messages MAPI
 
@@ -21,23 +21,23 @@ ms.locfileid: "22579934"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les messages sont transmis à partir de l’application d’un client vers une autre via le spouleur MAPI et les fournisseurs de services par un système de messagerie MAPI d’objets. Presque chaque composant MAPI fonctionne avec des messages. Clients permettent aux utilisateurs de créer, enregistrer, envoyer et supprimer des messages de plus de copier et des faire passer d’un dossier à un autre. Fournisseurs de banque de messages sont responsables de la gestion des messages et de remise des messages pour le spouleur MAPI ou un fournisseur de transport. Le spouleur MAPI déplace les messages vers un fournisseur de transport approprié, tandis que les fournisseurs de transport gérer la remise et la réception de messages vers et depuis un système de messagerie et définir des propriétés de l’option destinataire et le message. Fournisseurs de carnet d’adresses manipuler indirectement messages, prise en charge des propriétés qui décrivent les destinataires du message.
+Les messages sont des objets MAPI transmis d'une application client à une autre via le spouleur MAPI et les fournisseurs de services par le biais d'un système de messagerie. Presque tous les composants de MAPI fonctionnent avec les messages. Les clients permettent aux utilisateurs de créer, enregistrer, envoyer et supprimer des messages en plus de les copier et de les déplacer d'un dossier à un autre. Les fournisseurs de banques de messages sont responsables de la gestion des messages et de la remise des messages au spouleur MAPI ou à un fournisseur de transport. Le spouleur MAPI déplace les messages vers un fournisseur de transport approprié, tandis que les fournisseurs de transport gèrent la remise et la réception des messages vers et depuis un système de messagerie et définissent les propriétés des options de destinataire et de message. Les fournisseurs de carnet d'adresses fonctionnent indirectement avec les messages, en prenant en charge les propriétés qui décrivent les destinataires des messages.
   
-Les messages sont stockés dans des dossiers dans une banque de messages, généralement les dossiers créés dans le dossier racine de message interpersonnel (IPM). Les messages sont généralement stockées au même niveau que la boîte de réception IPM standard, éléments envoyés, éléments supprimés et les dossiers boîte d’envoi, ou à des niveaux inférieurs dans la hiérarchie. Toutefois, les messages peuvent également être stockés en dehors de la sous-arborescence IPM.
+Les messages sont stockés dans des dossiers d'une banque de messages, généralement des dossiers créés dans le dossier racine de message. Les messages sont généralement stockés au même niveau que les dossiers boîte de réception IPM, éléments envoyés, éléments supprimés et boîte d'envoi, ou à des niveaux inférieurs dans la hiérarchie. Toutefois, les messages peuvent également être stockés en dehors de la sous-arborescence IPM.
   
-Les messages créés dans la sous-arborescence IPM standard ont un contenu standard (autrement dit, contenu qui est visibles par l’utilisateur d’une application cliente). Les rapports et les notes sont des exemples de messages qui ont un contenu standard. Les messages peuvent également être créées avec le contenu associé ou le contenu qui n’est pas visibles dans le client par défaut. Dossiers prennent en charge deux tables d’un contenu différent pour contenir les différents types de messages : une norme de contenu de table pour les messages standards et un contenu associé pour les messages associés. Car MAPI ne définit pas les normes pour le contenu des messages associés, ils peuvent contenir des informations arbitraires. 
+Les messages créés dans la sous-arborescence IPM standard ont un contenu standard (c'est-à-dire, le contenu qui est visible par l'utilisateur d'une application cliente). Les notes et les rapports sont des exemples de messages dont le contenu est standard. Les messages peuvent également être créés avec le contenu associé ou le contenu qui n'est pas visible dans le client classique. Les dossiers prennent en charge deux tables de contenu différentes pour contenir les différents types de messages: une table des matières standard pour les messages standard et une table des matières associée pour les messages associés. Comme MAPI ne définit pas de normes pour le contenu des messages associés, il peut contenir des informations arbitraires. 
   
-Un message peut contenir des données supplémentaires, sous la forme d’un fichier, un autre message ou un objet OLE, lui est associé. Ces données supplémentaires, qui sont appelées une pièce jointe, s’affiche sous forme d’icône ou, pour un message au format RTF, en tant que métafichier dans le texte du message. Un message peut contenir zéro, une ou plusieurs pièces jointes. Pièces jointes sont toujours transmis avec le message.
+Un message peut contenir des données supplémentaires (sous la forme d'un fichier, d'un autre message ou d'un objet OLE) qui lui est associée. Ces données supplémentaires, appelées pièce jointe, apparaissent sous la forme d'une icône ou, pour un message RTF, sous la forme d'un métafichier dans le texte du message. Un message peut avoir zéro, une ou plusieurs pièces jointes. Les pièces jointes sont toujours transmises avec le message.
   
-Un message qui est transmis a un ou plusieurs destinataires (adresses qui sont associés à un système de messagerie particulier). Certains destinataires sont entrées dans un conteneur qui appartient à un fournisseur de carnet d’adresses dans le profil actuel ; autres destinataires sont créées uniquement pour transmettre le message. Étant donné que les destinataires et les pièces jointes doivent être accessible via le message auxquels ils sont associés, les destinataires et les pièces jointes d’un message sont appelés ses sous-objets. 
+Un message transmis comporte un ou plusieurs destinataires (adresses associées à un système de messagerie particulier). Certains destinataires sont des entrées dans un conteneur qui appartient à un fournisseur de carnets d'adresses dans le profil actuel; les autres destinataires sont créés uniquement pour transmettre le message. Étant donné que les destinataires et les pièces jointes doivent être accessibles par le biais du message auquel ils sont associés, les destinataires et les pièces jointes d'un message sont appelés sous-objets. 
   
-Fournisseurs de banque de messages prennent en charge les messages, les pièces jointes et les destinataires par le biais de méthodes dans trois interfaces : 
+Les fournisseurs de banques de messages prennent en charge les messages, les pièces jointes et les destinataires via les méthodes dans trois interfaces: 
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IMessage](imessageimapiprop.md) <br/> |Gère les pièces jointes et les destinataires, envoie des messages, définit l’état de lecture.  <br/> |
-|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Crée, copie, déplace les messages et les sous-dossiers et gère l’état du message.  <br/> |
-|[IAttach](iattachimapiprop.md) <br/> |Gère les propriétés de la pièce jointe.  <br/> |
+|[IMessage](imessageimapiprop.md) <br/> |Gère les pièces jointes et les destinataires, envoie des messages, définit l'état de lecture.  <br/> |
+|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Crée, copie et déplace les messages et sous-dossiers et gère l'état des messages.  <br/> |
+|[IAttach](iattachimapiprop.md) <br/> |Gère les propriétés des pièces jointes.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

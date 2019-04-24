@@ -1,31 +1,31 @@
 ---
-title: DataColumns, élément (DataRecordSet_Type, complexType) (« Visio XML »)
+title: DataColumns, élément (DataRecordSet_Type complexType) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
-description: Contient tous les éléments dans un jeu d’enregistrements de données DataColumn.
+description: Contient tous les éléments DataColumn d'un jeu d'enregistrements de données.
 ms.openlocfilehash: a7a0a8faefdb965384e435ee3a9b059a3acbc3f0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345247"
 ---
-# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>DataColumns, élément (DataRecordSet_Type, complexType) (« Visio XML »)
+# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>DataColumns, élément (DataRecordSet_Type complexType) ('Visio XML')
 
-Contient tous les éléments dans un jeu d’enregistrements de données **DataColumn** . 
+Contient tous les éléments **DataColumn** d'un jeu d'enregistrements de données. 
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |recordsets.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |recordsets. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,7 +36,7 @@ Contient tous les éléments dans un jeu d’enregistrements de données **DataC
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -48,13 +48,13 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit comment une colonne de données apparaît dans la fenêtre **Données externes** dans l’interface utilisateur Visio et qualifiant les données dans la colonne en définissant son type de données et de la mise en forme.  <br/> |
+|[Nommée](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit le mode d'affichage d'une colonne de données dans la fenêtre **données externes** de l'interface utilisateur de Visio et qualifie les données dans la colonne en définissant le type de données et la mise en forme.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> |La colonne sur lequel trier les données.  <br/> |Valeurs du type de type xsd : Boolean.  <br/> |
-|SortColumn  <br/> |XSD : String  <br/> |facultatif  <br/> |Si le tri de la colonne **SortColumn** (1) par ordre croissant ou décroissant (0).  <br/> |Valeurs du type xsd : String.  <br/> |
+|SortAsc  <br/> |xsd: Boolean  <br/> |facultatif  <br/> |Colonne sur laquelle doit s'effectuer le tri des données.  <br/> |Valeurs du type xsd: Boolean.  <br/> |
+|SortColumn  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique si la colonne **SortColumn** doit être triée par ordre croissant (1) ou décroissant (0).  <br/> |Valeurs du type xsd: String.  <br/> |
    
 

@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251481
 localization_priority: Normal
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
-description: Renvoie la coordonnée x d’un point.
-ms.openlocfilehash: e42aa3c8d80526b11d325ba80acba9de6f4130e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la coordonnée x d'un point.
+ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348362"
 ---
-# <a name="pntx-function"></a>PNTX, fonction
+# <a name="pntx-function"></a>Fonction PNTX
 
-Renvoie le _x_-coordonnées d’un point.
+Renvoie la coordonnée _x_d'un point.
   
 ## <a name="syntax"></a>Syntaxe
 
-PNTX (** *point* **) 
+PNTXN (* * *point* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Number** <br/> |_X_-coordonnées du point.  <br/> |
+| _virgule_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _x_du point.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
 ## <a name="example"></a>Exemple
 
-PNTX(PNT(7;12)) 
+PNTXN (PNT (7, 12)) 
   
 Renvoie 7. 
   

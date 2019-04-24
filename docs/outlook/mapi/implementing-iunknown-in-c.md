@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346773"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C
 
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémentations de la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) dans C sont très similaires aux implémentations C++. Il existe deux étapes de base pour l’implémentation : 
+Les implémentations de la méthode [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) dans C sont très similaires aux implémentations C++. L'implémentation comporte deux étapes de base: 
   
 1. Validation des paramètres.
     
-2. Vérification de l’identificateur de l’interface demandée par rapport à la liste des interfaces prises en charge par l’objet et renvoie la valeur E_NO_INTERFACE ou un pointeur d’interface valide. Si un pointeur d’interface est renvoyé, l’implémentation doit également appeler la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour incrémenter le décompte de références. 
+2. Vérification de l'identificateur de l'interface demandée par rapport à la liste des interfaces prises en charge par l'objet et renvoi de la valeur E_NO_INTERFACE ou d'un pointeur d'interface valide. Si un pointeur d'interface est renvoyé, l'implémentation doit également appeler la méthode [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour incrémenter le décompte de référence. 
     
-La principale différence entre une implémentation de **QueryInterface** dans C et C++ est le premier paramètre supplémentaire dans la version C. Étant donné que le pointeur de l’objet est ajouté à la liste des paramètres, une implémentation C de **QueryInterface** doit avoir plus de validation de paramètre qu’une implémentation C++. La logique pour la vérification de l’identificateur d’interface, s’incrémentant le décompte de références et le renvoi d’un pointeur d’objet doit être identique dans les deux langues. 
+La principale différence entre une implémentation de **QueryInterface** dans c et C++ est le premier paramètre supplémentaire dans la version c. Étant donné que le pointeur d'objet est ajouté à la liste de paramètres, une implémentation C de **QueryInterface** doit avoir davantage de validation de paramètres qu'une implémentation C++. La logique de vérification de l'identificateur d'interface, d'incrémentation du nombre de références et de renvoi d'un pointeur d'objet doit être identique dans les deux langages. 
   
-L’exemple de code suivant montre comment implémenter **QueryInterface** dans C pour un objet d’état. 
+L'exemple de code suivant montre comment implémenter **QueryInterface** dans C pour un objet d'État. 
   
 ```cpp
 STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
@@ -64,9 +64,9 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Tandis que l’implémentation de la méthode **AddRef** dans C est similaire à une implémentation C++, une implémentation C de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) peut obtenir plus complexe qu’une version C++. Il s’agit, car la plupart des fonctionnalités concernées par la libération d’un objet peut être incorporée dans le constructeur C++ et le destructeur et C ne possède pas de mécanisme. Toutes ces fonctionnalités doivent être inclus dans la méthode de **publication** . En outre, en raison du paramètre supplémentaire et ses vtable explicite, plus la validation est requise. 
+Tandis que l'implémentation de la méthode **AddRef** dans C est identique à celle d'une implémentation c++, une implémentation C de la méthode [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) peut obtenir une plus grande élaborée qu'une version c++. En effet, une grande partie de la fonctionnalité de libération d'un objet peut être incorporée dans le destructeur et le constructeur C++, et C n'a pas de mécanisme de ce type. Toutes ces fonctionnalités doivent être incluses dans la méthode **Release** . En outre, en raison du paramètre supplémentaire et de sa vtable explicite, une validation supplémentaire est requise. 
   
-L’appel de méthode **AddRef** suivant illustre une implémentation C typique pour un objet d’état. 
+L'appel de la méthode **AddRef** suivant illustre une implémentation C standard pour un objet Status. 
   
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
@@ -90,13 +90,13 @@ STDMETHODIMP_(ULONG) STATUS_AddRef(LPMYSTATUSOBJ lpMyObj)
 
 ```
 
-L’exemple de code suivant illustre une implémentation standard de **version** pour un objet d’état C. Si le décompte de références est 0 après diminue, une implémentation d’objet état C doit effectuer les tâches suivantes : 
+L'exemple de code suivant montre une implémentation classique de **Release** pour un objet d'État C. Si le nombre de références est 0 après sa décrémentation, l'implémentation d'un objet d'État C doit effectuer les tâches suivantes: 
   
-- Version des pointeurs vers des objets en attente. 
+- Libérez tous les pointeurs détenus vers des objets. 
     
-- Vtable la valeur NULL, faciliter le débogage dans le cas où les utilisateurs d’un objet appelé **version** suite encore pour essayer d’utiliser l’objet. 
+- Définissez la valeur de vtable sur NULL, ce qui facilite le débogage dans le cas où l'utilisateur d'un objet appelé **Release** , mais qui a continué à essayer d'utiliser l'objet. 
     
-- Appelez **MAPIFreeBuffer** pour libérer de l’objet. 
+- Appelez **MAPIFreeBuffer** pour libérer l'objet. 
     
 ```cpp
 STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
@@ -132,6 +132,6 @@ STDMETHODIMP_(ULONG) STATUS_Release(LPMYSTATUSOBJ lpMyObj)
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Implémentation d’objets MAPI](implementing-mapi-objects.md)
-- [Implémentation de l’interface IUnknown](implementing-the-iunknown-interface.md)
+- [Implémentation d'objets MAPI](implementing-mapi-objects.md)
+- [Implémentation de l'interface IUnknown](implementing-the-iunknown-interface.md)
 

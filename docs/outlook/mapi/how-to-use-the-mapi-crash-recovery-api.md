@@ -5,23 +5,23 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
-description: 'Dernière modification : 25 juin 2012'
+description: 'Derni�re modification�: lundi 25 juin 2012'
 ms.openlocfilehash: a73889982e4aa72fb664a8eafd6fc8704e581e98
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346423"
 ---
 # <a name="use-the-mapi-crash-recovery-api"></a>Utiliser l’API de récupération sur incident MAPI
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple de code en langage C++ qui montre comment appeler la fonction [MAPICrashRecovery](mapicrashrecovery.md) à partir de la fonction [UnhandledExceptionFilter](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) . La fonction [MAPICrashRecovery](mapicrashrecovery.md) vérifie que l’état du fichier de dossiers personnels (PST) ou le fichier de dossiers en mode hors connexion (OST) de mémoire partagée. 
+Cette rubrique contient un exemple de code en C++ qui montre comment appeler la fonction [MAPICrashRecovery](mapicrashrecovery.md) à partir de la fonction [UnhandledExceptionFilter](https://msdn.microsoft.com/library/ms681401%28VS.85%29.aspx) . La fonction [MAPICrashRecovery](mapicrashrecovery.md) vérifie l'état du fichier de dossiers personnels (PST) ou de la mémoire partagée du fichier de dossiers en mode hors connexion (OST). 
 
-Si la mémoire est dans un état cohérent, la fonction [MAPICrashRecovery](mapicrashrecovery.md) déplace les données sur le disque et empêche plu accès en lecture ou écriture jusqu'à ce que le processus est terminé. En s’assurant que les fichiers pst ou ost est dans un état cohérent avant que le processus est terminé, vous pouvez empêcher l’affichage du message d’erreur suivant Microsoft Outlook 2010 ou Microsoft Outlook 2013 et éviter les problèmes de performances : 
+Si la mémoire est dans un état cohérent, la fonction [MAPICrashRecovery](mapicrashrecovery.md) déplace les données sur le disque et empêche l'accès en lecture ou en écriture tant que le processus n'est pas terminé. En vous assurant que les fichiers PST ou OSTs sont dans un état cohérent avant la fin du processus, vous pouvez empêcher Microsoft Outlook 2010 ou Microsoft Outlook 2013 d'afficher le message d'erreur suivant et éviter les problèmes de performances: 
   
-**Un fichier de données ne pas fermer correctement la dernière fois qu’il a été utilisé et est en cours d’archivage pour les problèmes. Performances peuvent être affectées alors que la case à cocher est en cours.**
+**Un fichier de données ne s'est pas fermé correctement lors de sa dernière utilisation et est en cours de vérification des problèmes. Les performances peuvent être affectées lorsque la vérification est en cours.**
   
 ```cpp
 LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep) 

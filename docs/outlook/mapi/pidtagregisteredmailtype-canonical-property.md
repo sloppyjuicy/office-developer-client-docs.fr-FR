@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 5ceb02fcf94a04b045a8ef387fc87b161a5515a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1d3eceae1e358f5716f46f33edcd0b2aae4e4a93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583301"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355096"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>Propriété canonique PidTagRegisteredMailType
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient le type d’inscription est utilisée pour la remise physique d’un message.
+Cette propriété contient le type d'inscription utilisé pour la remise physique d'un message.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Cette propriété contient le type d’inscription est utilisée pour la remise 
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

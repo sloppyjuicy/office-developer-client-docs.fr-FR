@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 25c9f817-d22b-28c9-1339-dc9f27d0dd41
 description: Fait référence à une cellule et ne recalcule pas la formule lorsque la cellule référencée change.
-ms.openlocfilehash: 454314b1f156f560c237f22a45492978ca3c31ca
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 38f3c8b4f34ed2b3d3711be5faed6b0d317e907a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356497"
 ---
-# <a name="getref-function"></a>GETREF, fonction
+# <a name="getref-function"></a>Fonction GETREF
 
 Fait référence à une cellule et ne recalcule pas la formule lorsque la cellule référencée change.
   
 ## <a name="syntax"></a>Syntaxe
 
-GETREF (** *cellname* **) 
+GETREF (* * *cellName* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellName_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Le nom de la cellule pour obtenir une référence à.  <br/> |
+| _cellName_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom de la cellule pour laquelle obtenir une référence.  <br/> |
    
 ## <a name="example"></a>Exemple
 
-SETF(GETREF(PinX),5.1) 
+SETF (GETREF (PinX), 5.1) 
   
 Donne à la formule de la cellule PinX la valeur 5,1. 
   

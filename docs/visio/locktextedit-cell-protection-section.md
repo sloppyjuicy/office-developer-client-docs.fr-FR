@@ -9,37 +9,37 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Verrouille le texte d’une forme afin d’empêcher sa modification.
-ms.openlocfilehash: 7f8800f0b260e808a46ec123d27784f3dd92e847
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348313"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit, cellule (section Protection)
 
 Verrouille le texte d’une forme afin d’empêcher sa modification.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le texte ne peut pas être modifié.  <br/> |
 | FALSE  <br/> | Le texte peut être modifié.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Vous pouvez mettre le texte en forme en appliquant un style dans la boîte de dialogue **texte** (sous l’onglet **accueil** , cliquez sur la flèche **police** ). 
+Vous pouvez mettre le texte en forme en appliquant un style à l’aide de la boîte de dialogue **Texte** (sous l’onglet **Accueil**, cliquez sur la flèche **Police**). 
   
-Pour obtenir une référence à la cellule LockTextEdit par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule LockTextEdit par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | LockTextEdit  <br/> |
    
-Pour obtenir une référence à la cellule LockTextEdit par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule LockTextEdit à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowLock** <br/> |
 | Index de la cellule :  <br/> |**visLockTextEdit** <br/> |
    

@@ -7,11 +7,11 @@ ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
 description: Le Modèle objet côté client (CSOM) de Project Server 2013 implémente la fonctionnalité de serveur courante. Le Modèle objet côté client (CSOM) de Project Server inclut un modèle CSOM Microsoft .NET, un modèle CSOM Microsoft Silverlight, un modèle CSOM Windows Phone 8 et un modèle objet JavaScript (JSOM). Par ailleurs, le modèle CSOM inclut un service OData qui active une interface REST. L’interface REST est principalement conçue pour le développement d’applications sur des plateformes autres que Windows comme iOS et Android.
 localization_priority: Priority
 ms.openlocfilehash: b722e316f5cb2054eb6522297c5c5ef3e75f9fa4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723109"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355201"
 ---
 # <a name="client-side-object-model-csom-for-project-2013"></a>Modèle objet côté client (CSOM) pour Project 2013
 

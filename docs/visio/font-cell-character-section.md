@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 935760a9-307e-90bc-c301-d04283d97427
 description: Représente le numéro de la police utilisée pour mettre le texte en forme. Ce numéro dépend des polices installées sur votre système. 0 représente la police par défaut, généralement Arial.
-ms.openlocfilehash: cbbf2a2400c995e0cbc217c1161fbd18f7459b28
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d9182932b8fa63c30473b93e420aa9efe30bf5eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346157"
 ---
 # <a name="font-cell-character-section"></a>Font, cellule (section Character)
 
 Représente le numéro de la police utilisée pour mettre le texte en forme. Ce numéro dépend des polices installées sur votre système. 0 représente la police par défaut, généralement Arial.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Font par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Font par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.Font [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Char. font [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule Font par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Font à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

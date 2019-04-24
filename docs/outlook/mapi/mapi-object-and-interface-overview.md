@@ -1,5 +1,5 @@
 ---
-title: Objet MAPI et vue d’ensemble de l’Interface
+title: Vue d'ensemble de l'objet et de l'interface MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,27 +7,27 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: d4ece3af-cb54-4727-8072-0c055381ec11
-description: 'Derniére modification : samedi 23 juillet 2011'
+description: 'Dernière modification : 23 juillet 2011'
 ms.openlocfilehash: fcd85bf518f4e6466bf15a09e417767bc34df78d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345786"
 ---
-# <a name="mapi-object-and-interface-overview"></a>Objet MAPI et vue d’ensemble de l’Interface
+# <a name="mapi-object-and-interface-overview"></a>Vue d'ensemble de l'objet et de l'interface MAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un objet MAPI est une classe d’objet C++ ou d’une structure de données C hérité d’une ou plusieurs des interfaces MAPI ou des collections de fonctions connexes. Ces collections de fonctions connexes sont appelées pour les développeurs C++ fonctions virtuelles pures. Pour une fonction virtuelle pure, MAPI fournit uniquement le prototype de fonction, pas une implémentation. Il est prévu qu’une application cliente, un fournisseur de services ou MAPI fournira cette implémentation en créant un objet de classe qui hérite de l’interface et est conforme à la description de la fonction de l’API de messagerie. Une interface MAPI peut être instanciée uniquement par le biais d’une classe héritée.
+Un objet MAPI est une classe d'objet C++ ou une structure de données C héritée d'une ou de plusieurs interfaces MAPI, ou des collections de fonctions associées. Ces collections de fonctions connexes sont connues des développeurs C++ comme des fonctions virtuelles pures. Pour une fonction virtuelle pure, MAPI fournit uniquement le prototype de fonction, pas une implémentation. Une application cliente, un fournisseur de services ou MAPI doit fournir cette implémentation en créant une classe d'objet qui hérite de l'interface et conforme aux descriptions de fonction de l'API de messagerie. Une interface MAPI ne peut être instanciée que par le biais d'une classe héritée.
   
-Il existe de nombreux objets MAPI différents, chaque objet qui hérite d’une interface qui est finalement héritée de l’interface [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) . **IUnknown** est l’interface de base OLE composant COM (Object Model). Il fournit des objets MAPI avec un mécanisme standard de communication et de contrôle. COM détermine comment gérer les problèmes de gestion de la mémoire, gestion de paramètre, l’implémentation d’objet et le multithreading. En répondant à ce modèle, une implémentation de l’objet est conforme à un contrat tel que spécifié par les interfaces inclus dans l’objet. 
+Il existe de nombreux objets MAPI différents, chaque objet qui hérite d'une interface qui est finalement héritée de l'interface [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) . **IUnknown** est l'interface de base com (Component Object Model) de OLE. Il fournit des objets MAPI avec un mécanisme standard de communication et de contrôle. COM détermine comment les implémenteurs d'objets gèrent les problèmes tels que la gestion de la mémoire, la gestion des paramètres et le multithreading. En se conformant à ce modèle, un implémenteur d'objet adhère à un contrat tel que spécifié par les interfaces incluses dans l'objet. 
   
-Nombre d’interfaces MAPI est héritée directement à partir **IUnknown**, tandis que d’autres personnes sont héritées indirectement par le biais d’une des deux autres interfaces de base : [IMAPIProp : IUnknown](imapipropiunknown.md) pour la gestion de la propriété et [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md) pour le dossier et accès au carnet d’adresses. Interfaces de base ne sont jamais implémentées comme distinct, objets autonomes ; ils sont toujours exécutées dans le cadre d’autres objets, les objets qui implémentent les interfaces dérivées. 
+De nombreuses interfaces MAPI sont directement héritées de **IUnknown**, tandis que d'autres sont indirectement héritées par le biais de l'une des deux autres interfaces de base: [IMAPIProp: IUnknown](imapipropiunknown.md) pour la gestion des propriétés et [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md) pour le dossier et accès au carnet d'adresses. Les interfaces de base ne sont jamais implémentées en tant qu'objets autonomes distincts; elles sont toujours implémentées dans le cadre d'autres objets, objets qui implémentent des interfaces dérivées. 
   
-MAPI définit de nombreux types d’objets, chacun implémenté par un ou plusieurs composants MAPI. Objets implémentés par les clients qui sont utilisés par MAPI, les fournisseurs de services et par les composants de formulaire personnalisé. Objets implémentés par les fournisseurs de services sont généralement utilisés par MAPI et par les clients. Objets implémentés par les fournisseurs de bibliothèques de formulaires et les serveurs de formulaire sont utilisés par d’autres composants de formulaire et par les clients. 
+MAPI définit de nombreux types d'objets, chacun étant implémenté par un ou plusieurs composants MAPI. Les objets implémentés par les clients sont utilisés par MAPI, par les fournisseurs de services et par les composants de formulaire personnalisés. Les objets implémentés par les fournisseurs de services sont généralement utilisés par MAPI et par les clients. Les objets implémentés par les fournisseurs de bibliothèques de formulaires et les serveurs de formulaires sont utilisés par les autres composants de formulaire et par les clients. 
   
 ## <a name="see-also"></a>Voir aussi
 

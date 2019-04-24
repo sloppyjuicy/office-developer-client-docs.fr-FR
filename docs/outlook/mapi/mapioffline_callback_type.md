@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a5c9f70831b7d3f5bcbaf9d74f5526b110375ff0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f81d82a8f7336e682c4f91546ac3916810650b92
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357182"
 ---
 # <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Énumération des types pris en charge des rappels.
+Énumération des types de rappels pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 

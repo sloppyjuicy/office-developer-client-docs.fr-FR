@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 36b5ca44-e4f9-e330-bd76-85587a4a4893
 description: Contient les cellules qui contrôlent les attributs de page, comme la largeur, la hauteur et l'échelle de la page.
-ms.openlocfilehash: 0fc1345a5c1ab680535718b3c40d4df878d2b0dd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ab9dc66a338c444c3458c0fc7c295b3640cede9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19789205"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359247"
 ---
 # <a name="page-properties-section"></a>Page Properties, section
 
@@ -22,6 +22,6 @@ Contient les cellules qui contrôlent les attributs de page, comme la largeur, l
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les valeurs des propriétés de page en créant une entrée dans la cellule de la section **Propriétés de la Page** , ou à l’aide de la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur le Lanceur de boîte de dialogue dans le groupe **Mise en Page** ). 
+Vous pouvez définir les valeurs des propriétés d'une page en y apportant une entrée dans la cellule de la section Propriétés de la **page** ou à l'aide de la boîte de dialogue **mise en page** (sous l'onglet **création** , cliquez sur lanceur de boîte de dialogue dans le groupe mise en **page** ). 
   
 

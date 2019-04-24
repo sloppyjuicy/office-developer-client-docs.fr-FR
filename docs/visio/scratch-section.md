@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: Zone de travail dans laquelle vous pouvez entrer et tester des formules auxquelles d'autres cellules sont susceptibles de faire référence.
-ms.openlocfilehash: 16f0bac8f139c0b03d7826ac377a964d15296dd8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789599"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344526"
 ---
-# <a name="scratch-section"></a>Scratch, section
+# <a name="scratch-section"></a>Scratch Section
 
 Zone de travail dans laquelle vous pouvez entrer et tester des formules auxquelles d'autres cellules sont susceptibles de faire référence.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez ajouter cette section à l’aide de la boîte de dialogue **Insérer une Section** . Avec le bouton droit dans la fenêtre feuille ShapeSheet, puis cliquez sur **Insérer une Section**.
+Vous pouvez ajouter cette section à l’aide de la boîte de dialogue **Insérer une section**. Cliquez avec le bouton droit dans la fenêtre Feuille ShapeSheet, puis cliquez sur **Insérer une section**.
   
-La section **Scratch** est généralement utilisée pour isoler les calculs répétés. Si votre solution a un objectif bien précis, il est préférable d’utiliser une cellule dans la section **User-Defined Cells** pour des raisons de clarté, car les cellules utilisateur peuvent être nommés. 
+La section **Scratch** est généralement utilisée pour isoler les calculs complexes répétés. Si votre solution a un objectif bien défini, il est judicieux d'utiliser une cellule de la section **cellules définies** par l'utilisateur pour des raisons de clarté, car les cellules utilisateur peuvent être nommées. 
   
-Les cellules dans la section **Scratch** utilisent les unités de deux manières différentes. Les cellules X et Y utilisent les unités de dessin ; N’utilisez pas une cellules D à unités. (Dans le jargon les programmeurs C, les cellules X et Y sont « tapés » et cellules de A à D sont « void ».) Les cellules **Scratch X** et **Y de montage** sont souvent utilisées pour dériver les coordonnées *x* et *y* , telles que **PinX** et **PinY**ou les cellules X et Y d’une cellule de la section **Geometry** . Les cellules de montage Qu'a à D peut afficher toute unité que vous spécifiez. 
+Les cellules de la section **Scratch** utilisent des unités de deux manières différentes. Les cellules X et Y utilisent les unités de dessin ; les cellules de A à D n’utilisent pas d’unité. (Dans le jargon du programmeur C, les cellules X et Y sont «tapées» et les cellules de A à D sont «vides».) Les cellules **Scratch x** et **Scratch Y** sont souvent utilisées pour dériver les coordonnées *x* et *y* , telles que **PinX** et **PinY**, ou les cellules X et y figurant dans une cellule de la section **Geometry** . Les cellules Scratch de A à D peuvent afficher toute unité que vous spécifiez. 
   
-Une différence supplémentaire est la façon dont ces cellules stockent les valeurs de points. Un point dans Visio est un ensemble de données unique pour une coordonnée ( *x, y*). Lorsqu’une formule renvoie une valeur de point, cette valeur est interprétée dans une des trois manières, selon la formule est dans la cellule de feuille ShapeSheet. Les cellules qui sont associées à *x* -coordonnées (par exemple, **PinX**ou les cellules dans la colonne X d’une section **Geometry** ) extrayez simplement le *x* -coordonner la partie d’une valeur en points. Les cellules liées à *y* -coordonnées extrayez simplement la valeur *y* -coordonner la partie d’une valeur en points. 
+L'autre différence entre ces cellules tient à la façon dont les valeurs des points sont stockées. Un point dans Visio est un package de données unique pour une coordonnée ( *x, y*). Lorsqu'une formule renvoie une valeur de point, cette valeur est interprétée selon l'une des trois méthodes, suivant la cellule ShapeSheet dans laquelle se trouve la formule. Les cellules associées à des coordonnées *x* (par exemple, **PinX**, ou les cellules de la colonne x d' **** une section Geometry) extraient uniquement la partie de coordonnée *x* d'une valeur de point. Les cellules liées aux coordonnées *y* extraient uniquement la partie de la coordonnée *y* d'une valeur de point. 
   
-Par exemple, Visio extrait la formule `PNT(3,4)` ces trois manières. 
+Par exemple, Visio extrait la formule `PNT(3,4)` de trois façons. 
   
 |**Cell**|**Si vous entrez**|**Visio la traite en tant que**|**Résultat**|
 |:-----|:-----|:-----|:-----|
-| X   <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 76,2000 mm  <br/> |
-| Y  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 po  <br/> |
-| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT (3.0000 pouces, 4.0000 in.)  <br/> |
+| X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 76,2000 mm  <br/> |
+| v  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 po  <br/> |
+| A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT (3.0000, 4,0000)  <br/> |
    
 

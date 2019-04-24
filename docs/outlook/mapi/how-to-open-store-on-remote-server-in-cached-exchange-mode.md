@@ -1,31 +1,31 @@
 ---
-title: Ouverture d’un magasin sur le serveur distant lorsque Outlook est en Mode Exchange mis en cache
+title: Ouvrir une banque sur le serveur distant lorsqu'Outlook est en mode Exchange mis en cache
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
-description: 'Dernière modification : 25 juin 2012'
-ms.openlocfilehash: 7c1b3d3d5eed6bc991f8e4fd702fa197d610c104
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 25 juin 2012'
+ms.openlocfilehash: 419c9ae734e8b58d0958970e7127b94d220b8382
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345947"
 ---
-# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Ouverture d’un magasin sur le serveur distant lorsque Outlook est en Mode Exchange mis en cache
+# <a name="open-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Ouvrir une banque sur le serveur distant lorsqu'Outlook est en mode Exchange mis en cache
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple de code en langage C++ qui montre comment utiliser l’indicateur **MDB_ONLINE** pour ouvrir une banque de messages sur le serveur distant lorsque Microsoft Outlook 2010 ou Microsoft Outlook 2013 est en Mode Exchange mis en cache. 
+Cette rubrique contient un exemple de code en C++ qui montre comment utiliser l'indicateur **MDB_ONLINE** pour ouvrir une banque de messages sur le serveur distant lorsque microsoft Outlook 2010 ou microsoft Outlook 2013 est en mode Exchange mis en cache. 
   
-Le Mode Exchange mis en cache permet d’Outlook 2010 et Outlook 2013 pour utiliser une copie locale de boîte aux lettres d’un utilisateur pendant une connexion avec une copie distante de boîte aux lettres de l’utilisateur sur le serveur Exchange distant tient à jour Outlook 2010 ou Outlook 2013. Lorsque Outlook 2010 ou Outlook 2013 s’exécute en Mode Exchange mis en cache, par défaut, les solutions MAPI qui se connectent à la même session sont également connectées à la banque de messages mis en cache. Toutes les données accessibles et les modifications apportées sont effectuées sur la copie locale de la boîte aux lettres.
+Le mode Exchange mis en cache permet à Outlook 2010 et à Outlook 2013 d'utiliser une copie locale de la boîte aux lettres d'un utilisateur tandis qu'Outlook 2010 ou Outlook 2013 gère une connexion en ligne à une copie distante de la boîte aux lettres de l'utilisateur sur le serveur Exchange distant. Lorsque Outlook 2010 ou Outlook 2013 est exécuté en mode Exchange mis en cache, par défaut, toutes les solutions MAPI qui se connectent à la même session sont également connectées à la Banque de messages mise en cache. Toutes les données auxquelles un accès est effectué et toutes les modifications apportées sont effectuées par rapport à la copie locale de la boîte aux lettres.
   
-Un client ou fournisseur de services peut remplacer la connexion à la base de messages locale et ouvrez le magasin sur le serveur distant en définissant le bit pour **MDB_ONLINE** dans le paramètre *ulFlags* lors de l’appel [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md). Une fois que la banque a été ouvert avec succès sur le serveur distant pour cette session, vous pouvez utiliser [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir des éléments ou des dossiers dans le magasin distant. 
+Un client ou un fournisseur de services peut remplacer la connexion à la Banque de messages locale et ouvrir la Banque sur le serveur distant en définissant le bit pour **MDB_ONLINE** dans le paramètre *ulFlags* lors de l'appel de [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md). Une fois que la Banque a été ouverte avec succès sur le serveur distant pour cette session, vous pouvez utiliser [IMAPISession:: OpenEntry](imapisession-openentry.md) pour ouvrir des éléments ou des dossiers dans le magasin distant. 
   
-Impossible d’ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
+Vous ne pouvez pas ouvrir une banque Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
   
-L’exemple de code suivant montre comment appeler **IMAPISession::OpenMsgStore** avec l’indicateur **MDB_ONLINE** dans le paramètre *ulFlags* pour ouvrir la banque par défaut sur le serveur distant. 
+L'exemple de code suivant montre comment appeler **IMAPISession:: OpenMsgStore** avec l'indicateur **MDB_ONLINE** défini dans le paramètre *ulFlags* pour ouvrir le magasin par défaut sur le serveur distant. 
   
 ```cpp
 HRESULT HrRemoteMessageStore( 

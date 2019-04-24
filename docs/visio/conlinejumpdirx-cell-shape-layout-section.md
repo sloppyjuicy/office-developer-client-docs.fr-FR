@@ -9,38 +9,38 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0671835-8d48-907a-eca6-43953658f800
 description: Détermine la direction de la déviation du trait dans le cas d'un connecteur dynamique horizontal d'une forme.
-ms.openlocfilehash: 396830d0da22c15f036f95808b3a94c33e9dc5bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22b9366b750a85a76498b83880aac2b9b974e1ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342748"
 ---
 # <a name="conlinejumpdirx-cell-shape-layout-section"></a>ConLineJumpDirX, cellule (section Shape Layout)
 
 Détermine la direction de la déviation du trait dans le cas d'un connecteur dynamique horizontal d'une forme.
   
-|**Valeur**|**Direction de déviation de trait**|**Constante d’Automation**|
+|**Valeur**|**Direction de la déviation de trait**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1  <br/> | Haut  <br/> |**visLOJumpDirXUp** <br/> |
-| 2  <br/> | Bas  <br/> |**visLOJumpDirXDown** <br/> |
+| 0,1  <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
+| n°2  <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour définir la valeur par défaut direction horizontale de connecteur de *toutes les* déviations sur une page, utilisez la cellule PageLineJumpDirX de la section Page Layout. 
+Pour définir la direction horizontale par défaut de *toutes les* déviations de connecteur d'une page, utilisez la cellule PageLineJumpDirX de la section Page Layout. 
   
-Pour obtenir une référence à la cellule ConLineJumpDirX par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ConLineJumpDirX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | ConLineJumpDirX  <br/> |
    
-Pour obtenir une référence à la cellule ConLineJumpDirX par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule ConLineJumpDirX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 | Index de la cellule :  <br/> |**visSLOJumpDirX** <br/> |
    

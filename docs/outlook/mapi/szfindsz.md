@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4584569-1246-4ac9-a404-48284e4920d7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0075db0a515166c5185657daf3fc6b1e121d6672
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9fc21a27cb6c9041bdd8976ce5f030f0ab9eb57f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345744"
 ---
 # <a name="szfindsz"></a>SzFindSz
 
@@ -25,13 +25,13 @@ ms.locfileid: "22585121"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche la première occurrence d’une sous-chaîne terminée dans une chaîne. 
+Recherche la première occurrence d'une sous-chaîne terminée par un caractère NULL dans une chaîne terminée par un caractère null. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 LPSTR SzFindCh(
@@ -44,18 +44,18 @@ LPSTR SzFindCh(
 
  _lpsz_
   
-> [in] Pointeur vers la chaîne à rechercher. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
+> dans Pointeur vers la chaîne terminée par un caractère null à rechercher. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
     
  _lpszKey_
   
-> [in] Pointeur vers la sous-chaîne terminée à rechercher. Le paramètre _lpszKey_ ne doit pas dépasser 65536 caractères. 
+> dans Pointeur vers la sous-chaîne terminée par un caractère null à rechercher. Le paramètre _lpszKey_ ne doit pas dépasser 65536 caractères. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **SzFindSz** retourne un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit pas n’importe où dans la chaîne, si _lpszKey_ est supérieure à _lpsz_, ou si un paramètre est NULL, une valeur NULL est renvoyée. 
+ **SzFindSz** renvoie un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit nulle part dans la chaîne, si _lpszKey_ est supérieur à _lpsz_, ou si l'un des paramètres est NULL, la valeur null est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **SzFindSz** cherche une correspondance exacte uniquement ; Il est sensible à la casse et différences diacritiques. Recherches dans des formats Unicode et DBCS sont pris en charge. La longueur maximale sur les deux paramètres est en caractères, pas nécessairement octets. 
+La fonction **SzFindSz** recherche une correspondance exacte uniquement; elle est sensible à la casse et aux différences diacritiques. Les recherches dans les formats Unicode et DBCS sont prises en charge. La limite de longueur sur les deux paramètres est exprimée en caractères, pas nécessairement en octets. 
   
 

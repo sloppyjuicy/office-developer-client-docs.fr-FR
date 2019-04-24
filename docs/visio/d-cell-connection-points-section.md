@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: Cellule de montage utilisable pour entrer ou tester des formules.
-ms.openlocfilehash: 21c81c7a0a64c3016d8cff3b33d83ce785dc24eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e7bd61b8bc7a1a3b765af738681d958e2c83ba05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345086"
 ---
 # <a name="d-cell-connection-points-section"></a>D, cellule (section Connection Points)
 
@@ -22,15 +22,15 @@ Cellule de montage utilisable pour entrer ou tester des formules.
   
 ## <a name="remarks"></a>Remarques
 
-Pour accéder à la cellule D, cliquez sur une ligne, puis cliquez sur **Modifier le Type de ligne** dans le menu contextuel. 
+Pour accéder à la cellule D, cliquez avec le bouton droit de la souris sur une ligne, puis cliquez sur **Modifier le type de ligne** dans le menu contextuel. 
   
-Pour obtenir une référence à la cellule D par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule D par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Connections.D [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Connections. D [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule D par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule D à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

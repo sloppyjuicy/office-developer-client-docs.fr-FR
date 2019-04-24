@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c51f4a7266e67be08f31daa5afbf23ce0b256252
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 1c27bdc52ebe725c40cbf318fab0678f41cdc287
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567852"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350833"
 ---
 # <a name="ifoldersupportgetsupportmask"></a>IFolderSupport::GetSupportMask
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567852"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient des informations sur la prise en charge d’un dossier pour le partage.
+Obtient des informations sur la prise en charge d'un dossier pour le partage.
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -37,7 +37,7 @@ HRESULT GetSupportMask(
 
  _pdwSupportMask_
   
-> [out] Masque de bits indiquant si le dossier prend en charge le partage.
+> remarquer Masque de masque indiquant si le dossier prend en charge le partage.
     
  **FS_NONE**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> L’appel a réussi.
+> L'appel a réussi.
     
 

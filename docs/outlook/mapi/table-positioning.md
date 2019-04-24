@@ -1,5 +1,5 @@
 ---
-title: Positionnement de tableau
+title: Positionnement des tableaux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,25 +7,25 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a0cbbc93-8074-4e86-b660-ee7bab910587
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f7b2baa8cd78fbb8ace72fd0edb7c77f4c02a4c8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 656f696c58e9b62e7e601d7f531870b8c385e862
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345653"
 ---
-# <a name="table-positioning"></a>Positionnement de tableau
+# <a name="table-positioning"></a>Positionnement des tableaux
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La position actuelle au sein d’une table est toujours indiquée par un curseur. Il existe un curseur pour chaque mode d’affichage d’une table ; sa valeur est définie par l’implémentation de la table. Lorsqu’un client ou fournisseur de services à l’aide de la table effectue un appel pour modifier la position de la table, la valeur du curseur est réinitialisée. Position d’une table peut être modifiée avec :
+La position actuelle dans un tableau est toujours indiquée par un curseur. Il y a un curseur pour chaque vue d'un tableau; sa valeur est définie par l'implémenteur de la table. Lorsqu'un client ou un fournisseur de services utilisant la table effectue un appel pour modifier la position de la table, la valeur du curseur est réinitialisée. La position d'une table peut être modifiée de la façon suivante:
   
 - Signet.
     
-- Une valeur décimale.
+- Fraction.
     
 - Un filtre.
     

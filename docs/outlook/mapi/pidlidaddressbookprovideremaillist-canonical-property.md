@@ -11,58 +11,58 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 053ec531f69ff7734872466b7a661beff3177b2c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348481"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propriété canonique PidLidAddressBookProviderEmailList
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les propriétés de l’adresse électronique du contact. 
+Indique quelles propriétés d'adresse électronique sont définies sur le contact. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidABPEmailList  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x00008028  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x00008028  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Chaque valeur PT_LONG dans cette propriété doit être unique dans la propriété et doit être défini sur une des valeurs dans le tableau suivant. Si cette propriété est définie, la propriété **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) doit également être définie. Ces deux propriétés doivent être conservées synchronisées entre eux. Par exemple, si une des valeurs de **dispidABPEmailList** est « 0 x 00000000 », puis **dispidABPArrayType** doit avoir le bit « 0 x 00000001 » défini. 
+Chaque valeur PT_LONG de cette propriété doit être unique dans la propriété et doit être définie sur l'une des valeurs indiquées dans le tableau suivant. Si cette propriété est définie, la propriété **dispidABPArrayType** ([PidLidAddressBookProviderArrayType](pidlidaddressbookproviderarraytype-canonical-property.md)) doit également être définie. Ces deux propriétés doivent être synchronisées les unes avec les autres. Par exemple, si l'une des valeurs de **dispidABPEmailList** est «0x00000000», **dispidABPArrayType** doit avoir le bit «0x00000001» défini. 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |E-mail1 est défini pour le contact.  <br/> |
-|0x00000001  <br/> |2 est défini pour le contact.  <br/> |
-|0x00000002  <br/> |Messagerie3 est défini pour le contact.  <br/> |
-|0 x 00000003  <br/> |Télécopie (bureau) est définie pour le contact.  <br/> |
-|0 x 00000004  <br/> |Télécopie (domicile) est définie pour le contact.  <br/> |
-|0 x 00000005  <br/> |Télécopie principal est défini pour le contact.  <br/> |
+|0x00000000  <br/> |Email1 est défini pour le contact.  <br/> |
+|0x00000001  <br/> |Email2 est défini pour le contact.  <br/> |
+|0x00000002  <br/> |Email3 est défini pour le contact.  <br/> |
+|0x00000003  <br/> |Business Fax est défini pour le contact.  <br/> |
+|0x00000004  <br/> |Home Fax est défini pour le contact.  <br/> |
+|0x00000005  <br/> |La télécopie principale est définie pour le contact.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: c9c446097213e5b743a47ec32db17ec0afe63b78
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357546"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriété canonique PidTagContainerFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des indicateurs décrivant les fonctionnalités d’un conteneur de carnet d’adresses. 
+Contient un masque de masque des indicateurs décrivant les capacités d'un conteneur de carnet d'adresses. 
   
 |||
 |:-----|:-----|
@@ -36,59 +36,59 @@ Contient un masque binaire composé des indicateurs décrivant les fonctionnalit
    
 ## <a name="remarks"></a>Remarques
 
-Un ou plusieurs des indicateurs suivants peuvent être définies pour le masque de bits :
+Un ou plusieurs des indicateurs suivants peuvent être définis pour le masque de masques:
   
 AB_FIND_ON_OPEN 
   
-> Affiche une boîte de dialogue pour demander une restriction avant d’afficher le contenu du conteneur. 
+> Affiche une boîte de dialogue pour demander une restriction avant d'afficher le contenu du conteneur. 
     
 AB_MODIFIABLE 
   
-> Entrées peuvent être ajoutées à et supprimées du conteneur. Cet indicateur n’indique pas si les entrées dans le conteneur peuvent être modifiées.
+> Les entrées peuvent être ajoutées et supprimées du conteneur. Cet indicateur n'indique pas si les entrées du conteneur peuvent être modifiées.
     
 AB_RECIPIENTS 
   
-> Le conteneur peut contenir des destinataires. Cet indicateur n’indique pas si les destinataires sont présents dans le conteneur, ou si elles peuvent être ajoutés ou supprimés. 
+> Le conteneur peut contenir des destinataires. Cet indicateur n'indique pas si les destinataires sont réellement présents dans le conteneur, ou s'ils peuvent être ajoutés ou supprimés. 
     
 AB_SUBCONTAINERS 
   
-> Le conteneur peut contenir les conteneurs enfants. Cet indicateur n’indique pas si les sous-conteneurs sont présents dans le conteneur, ni si elles peuvent être ajoutés ou supprimés. AB_SUBCONTAINERS doit être définie pour le conteneur prendre en charge [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md). 
+> Le conteneur peut contenir des conteneurs enfants. Cet indicateur n'indique pas si des sous-conteneurs sont réellement présents dans le conteneur, ni s'ils peuvent être ajoutés ou supprimés. AB_SUBCONTAINERS doit être défini pour que le conteneur prenne en charge [IMAPIContainer:: GetHierarchyTable](imapicontainer-gethierarchytable.md). 
     
 AB_UNMODIFIABLE 
   
-> Les entrées ne peut pas être ajoutées à ou supprimées du conteneur. Cet indicateur n’indique pas si les entrées dans le conteneur peuvent être modifiées. 
+> Les entrées ne peuvent pas être ajoutées ou supprimées du conteneur. Cet indicateur n'indique pas si les entrées du conteneur peuvent être modifiées. 
     
-L’indicateur AB_FIND_ON_OPEN est vivement recommandé pour les conteneurs utilisés avec les services en ligne ou les connexions lentes aux serveurs. Ouverture d’un conteneur qui a la valeur AB_FIND_ON_OPEN, une boîte de dialogue **Rechercher** est présentée à l’utilisateur pour limiter les utilisateurs de messagerie affichées. Même une spécification partielle limitant les utilisateurs de messagerie peut considérablement accélérer un affichage du contenu. 
+L'indicateur AB_FIND_ON_OPEN est fortement recommandé pour les conteneurs utilisés avec les services en ligne ou avec des connexions lentes aux serveurs. Lorsqu'un conteneur est ouvert et qu'il a AB_FIND_ON_OPEN défini, une boîte de dialogue **Rechercher** est présentée à l'utilisateur pour limiter les utilisateurs de messagerie affichés. Même une spécification partielle limitation les utilisateurs de messagerie peuvent considérablement accélérer l'affichage du contenu. 
   
-Indicateur AB_UNMODIFIABLE ou AB_MODIFIABLE doit être défini. Les deux indicateurs peuvent être définis pour indiquer que le conteneur ne sait pas si elle peut être modifiée ou non, par exemple si modification dépend des droits d’accès de l’utilisateur. Dans ce cas, une application cliente doit essayer un appel et examinez le code de retour pour déterminer les fonctionnalités du conteneur. Un client commence généralement en examinant AB_MODIFIABLE. Si elle est définie, le client effectue un appel qui tente de modifier le conteneur et vérifie la valeur de retour. 
+L'indicateur AB_MODIFIABLE ou AB_UNMODIFIABLE doit être défini. Les deux indicateurs peuvent être définis pour indiquer que le conteneur ne sait pas s'il peut être modifié, par exemple si la modification dépend des droits d'accès de l'utilisateur. Dans ce cas, une application cliente doit essayer un appel et examiner le code de retour pour déterminer les fonctionnalités du conteneur. Un client commence généralement par examiner AB_MODIFIABLE. Si elle est définie, le client effectue un appel qui tente de modifier le conteneur et vérifie la valeur renvoyée. 
   
-L’indicateur AB_MODIFIABLE n’indique pas les types d’entrées peuvent être ajoutés au conteneur. Pour cela, le client doit utiliser la méthode [OpenProperty](imapiprop-openproperty.md) appropriée pour ouvrir la propriété du conteneur **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Ouverture **PR_CREATE_TEMPLATES** causes unique du conteneur de table pour être retournés, les types d’entrées qui peuvent être créées dans le conteneur de liste. 
+L'indicateur AB_MODIFIABLE n'indique pas les types d'entrées pouvant être ajoutés au conteneur. Pour déterminer cela, le client doit utiliser la méthode [OpenProperty](imapiprop-openproperty.md) appropriée pour ouvrir la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) du conteneur. L'ouverture de **PR_CREATE_TEMPLATES** entraîne le renvoi de la table ponctuelle du conteneur, qui répertorie les types d'entrées pouvant être créés dans le conteneur. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour les listes des utilisateurs, des contacts, des groupes et des ressources.
+> Spécifie les propriétés et les opérations pour les listes d'utilisateurs, de contacts, de groupes et de ressources.
     
 [[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
-> Gère les communications d’un client avec un serveur NSPI Name Service Provider Interface ().
+> Gère les communications d'un client avec un serveur NSPI (Name Service Provider Interface).
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 59e9cf23aed2a389384318468c3853cd41c9ec1e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342769"
 ---
 # <a name="mtsid"></a>MTSID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d’entrée X.400 message transport système (MTS). 
+Contient un identificateur d'entrée de système de transport de messages (MTS) X. 400. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Macros connexes :  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Macros connexes:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,17 +45,17 @@ typedef struct
 
  **cb**
   
-> Nombre d’octets dans le tableau indiqué par le membre **abEntry** . 
+> Nombre d'octets dans le tableau décrit par le membre **abEntry** . 
     
  **abEntry**
   
-> Tableau d’octets qui contient les données d’identificateur MTS entrée.
+> Tableau d'octets qui contient les données de l'identificateur de l'entrée MTS.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **MTSID** est utilisée uniquement pour les mappages X.400 d’identificateurs d’entrée MAPI. Il correspond à la structure MAPI [FLATENTRY](flatentry.md) . 
+La structure **MTSID** est utilisée uniquement pour les mappages X. 400 des identificateurs d'entrée MAPI. Elle correspond à la structure [FLATENTRY](flatentry.md) MAPI. 
   
-Un identificateur MTS a le même format qu’un identificateur d’entrée MAPI ou une valeur de propriété binaire. Les identificateurs MTS peuvent être particulièrement utiles pour l’annulation de messages différés. 
+Un identificateur MTS a le même format qu'un identificateur d'entrée MAPI ou une valeur de propriété binaire. Les identificateurs MTS peuvent être particulièrement utiles pour annuler les messages différés. 
   
 ## <a name="see-also"></a>Voir aussi
 

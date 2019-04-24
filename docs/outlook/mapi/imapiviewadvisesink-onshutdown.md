@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c9c3aecf-5e4b-407a-8ea1-6211b4c6e0a5
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f49ea23ed7fef91bcb360483611af2ee60429934
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: b43c1b96130052a05ac390f10f545a66fe72b7fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351162"
 ---
 # <a name="imapiviewadvisesinkonshutdown"></a>IMAPIViewAdviseSink::OnShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592968"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaire fermeture d’un formulaire.
+Avertit la visionneuse de formulaires qu'un formulaire est en cours de fermeture.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -33,7 +33,7 @@ HRESULT OnShutdown( void );
 
 ## <a name="parameters"></a>Paramètres
 
-Aucune
+Aucun
   
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -43,7 +43,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur les notifications de formulaire, consultez [envoi et réception des Notifications](sending-and-receiving-form-notifications.md).
+Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 
