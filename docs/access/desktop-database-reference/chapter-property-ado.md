@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4f4efc2ffab9f7996b2d805658b985badbaf87e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296394"
 ---
 # <a name="chapter-property-ado"></a>Chapter, propriété (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
  
-Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **put\_chapitre** pour définir l’objet **Chapter** , un sous-ensemble de lignes est transformé en un objet **Recordset** . Cette opération définit le chapitre actif de l'objet **Rowset**. En lecture/écriture.
+Extrait ou définit un objet **Chapter** OLE DB à partir de ou sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez **l'\_instruction Put Chapter** pour définir l'objet **Chapter** , un sous-ensemble de lignes est transformé en objet **Recordset** ADO. Cette opération définit le chapitre actif de l'objet **Rowset**. En lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-Get HRESULT\_chapitre (\[out, retval\] long\* plChapter) ;
+HRESULT get\_chapitre (\[out, retval\] long\* plChapter);
 
-Placer HRESULT\_chapitre (\[dans\] lChapter long) ;
+HRESULT put\_Chapter (\[in\] long lChapter);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*plChapter* |Pointeur vers le descripteur d'un chapitre.|
 |*LChapter* |Descripteur d'un chapitre.|
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S\_OK et E\_ÉCHOUE.
+Cette méthode de propriété renvoie les valeurs HRESULT standard, y\_compris S OK\_et E Fail.
 
 ## <a name="applies-to"></a>Champ d'application
 

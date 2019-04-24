@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 96ddc7fc1a93543f0eea2b42a3d423ec25a00636
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300902"
 ---
 # <a name="record-object-ado"></a>Record, objet (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Représente une ligne d'un [Recordset](recordset-object-ado.md) ou du fournisseur de données, ou un objet renvoyé par un fournisseur de données semi-structurées, comme un fichier ou un répertoire.
+Représente une ligne d’un [Recordset](recordset-object-ado.md) ou du fournisseur de données, ou un objet renvoyé par un fournisseur de données semi-structurées, comme un fichier ou un répertoire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet **Record** représente une ligne de données et partage des similarités de concept avec un **Recordset** monoligne. Selon les fonctionnalités offertes par le fournisseur, les objets **Record** peuvent être renvoyés directement par le fournisseur pour générer un **Recordset** à une seule ligne, par exemple lorsqu'une requête SQL ne sélectionnant qu'une ligne est exécutée. Il en est de même d'un objet **Record** qui peut être obtenu directement à partir d'un objet **Recordset**. Un **Record** peut aussi être renvoyé directement depuis un fournisseur pour fournir des données semi-structurées, comme c'est le cas avec le fournisseur Microsoft Exchange OLE DB.
 
@@ -33,12 +33,12 @@ L'objet **Record** peut également être utilisé par des fournisseurs de donné
 
 L'objet **Record** peut aussi servir à naviguer dans des données organisées de manière hiérarchique. Un objet **Record** peut être créé pour représenter la racine d'une sous-arborescence spécifique dans une arborescence plus large, de nouveaux objets **Record** pouvant être ouverts pour représenter des nœuds enfants.
 
-Une ressource (par exemple, un fichier ou un répertoire) peut être identifiée de manière unique par une URL absolue. Un objet [Connection](connection-object-ado.md) est créé de manière implicite et défini sur l'objet **Record** quand cet objet **Record** est ouvert avec une URL absolue. Un objet **Connection** peut être défini de manière explicite sur l'objet **Record** via la propriété [ActiveConnection](activeconnection-property-ado.md). Les fichiers et répertoires accessibles via l’objet **Connection** définissent le *contexte* dans lequel les opérations **d’enregistrement** peuvent se produire.
+Une ressource (par exemple, un fichier ou un répertoire) peut être identifiée de manière unique par une URL absolue. Un objet [Connection](connection-object-ado.md) est créé de manière implicite et défini sur l’objet **Record** quand cet objet **Record** est ouvert avec une URL absolue. Un objet **Connection** peut être défini de manière explicite sur l’objet **Record** via la propriété [ActiveConnection](activeconnection-property-ado.md). Les fichiers et répertoires accessibles via l’objet **Connection** définissent le *contexte* dans lequel des opérations **Record** peuvent se produire.
 
 Les méthodes de navigation et de modification des données portant sur l'objet **Record** acceptent également les URL relatives, qui localisent une ressource à l'aide d'une URL absolue ou du contexte de l'objet **Connection** comme point de départ.
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+> [!REMARQUE] Les URL qui utilisent le modèle http appellent automatiquement [Fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
 
 
 
@@ -56,11 +56,11 @@ Les méthodes et les propriétés d'un objet **Record** vous permettent d'effect
 
   - indiquer l'URL absolue, l'URL relative ou l'objet **Recordset** dont provient l'objet **Record** au moyen de la propriété [Source](source-property-ado-record.md) ;
 
-  - indiquer l'état actuel de l'objet **Record** à l'aide de la propriété [State](state-property-ado.md) ;
+  - indiquer l’état actuel de l’objet **Record** à l’aide de la propriété [State](state-property-ado.md) ;
 
   - indiquer le type d’objet **Record** (*simple*, *collection* ou *document structuré*) à l’aide de la propriété [RecordType](recordtype-property-ado.md) ;
 
-  - arrêter l'exécution d'une opération asynchrone à l'aide de la méthode [Cancel](cancel-method-ado.md) ;
+  - arrêter l’exécution d’une opération asynchrone à l’aide de la méthode [Cancel](cancel-method-ado.md) ;
 
   - dissocier l'objet **Record** d'une source de données à l'aide de la méthode [Close](close-method-ado.md) ;
 

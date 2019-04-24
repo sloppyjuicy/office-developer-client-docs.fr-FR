@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 71dd674e90e2438c616f0973c4f9948f1b20b1f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300818"
 ---
 # <a name="readystate-property-rds"></a>ReadyState, propriété (RDS)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Indique la progression d'un [DataControl](datacontrol-object-rds.md) lorsqu'il récupère des données dans son objet [Recordset](recordset-object-ado.md).
+Indique la progression d’un [DataControl](datacontrol-object-rds.md) lorsqu’il récupère des données dans son objet [Recordset](recordset-object-ado.md).
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
@@ -37,7 +37,7 @@ Définit ou renvoie l'une des valeurs suivantes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>(adcReadyStateLoaded)</strong></p></td>
+<td><p><strong>adcReadyStateLoaded</strong></p></td>
 <td><p>La requête est encore en cours d'exécution et aucune ligne n'a été extraite. L'objet <strong>Recordset</strong> de <strong>DataControl</strong> n'est pas utilisable.</p></td>
 </tr>
 <tr class="even">
@@ -45,9 +45,8 @@ Définit ou renvoie l'une des valeurs suivantes.
 <td><p>Le premier jeu de lignes récupéré par la requête actuelle a été stocké dans le <strong>Recordset</strong> de l'objet <strong>DataControl</strong> et peut être utilisé. Les lignes restantes sont encore en cours d'extraction.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adcReadyStateComplete</strong></p></td>
-<td><p>Toutes les lignes extraites par la requête en cours ont été stockées dans le <strong>Recordset</strong> de l'objet <strong>DataControl</strong> et peuvent être utilisées.
- Cet état est aussi défini lorsque l'opération a été interrompue en raison d'une erreur ou de la non-initialisation de l'objet <strong>Recordset</strong>.</p></td>
+<td><p><strong>Devient adcReadyStateComplete</strong></p></td>
+<td><p>Toutes les lignes extraites par la requête en cours ont été stockées dans le <strong>Recordset</strong> de l'objet <strong>DataControl</strong> et peuvent être utilisées. Cet état est aussi défini lorsque l'opération a été interrompue en raison d'une erreur ou de la non-initialisation de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,7 +56,7 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez l'événement [onreadystatechange](onreadystatechange-event-rds.md) pour surveiller les modifications de la propriété **ReadyState** lors d'une requête asynchrone. C'est plus efficace que de vérifier régulièrement la valeur de la propriété.
+Utilisez l’événement [onreadystatechange](onreadystatechange-event-rds.md) pour surveiller les modifications de la propriété **ReadyState** lors d’une requête asynchrone. C’est plus efficace que de vérifier régulièrement la valeur de la propriété.
 
-Si une erreur se produit pendant une opération asynchrone, la propriété **ReadyState** devient **adcReadyStateComplete**, la propriété [State](state-property-ado.md) passe de **adStateExecuting** à **adStateClosed**et le **jeu d’enregistrements** [valeur de](value-property-ado.md) propriété de l’objet reste *Nothing*.
+Si une erreur se produit au cours d'une opération asynchrone, la propriété **ReadyState** devient **devient adcReadyStateComplete**, la propriété [State](state-property-ado.md) passe de **adStateExecuting** à **adStateClosed**et l' **objet Recordset** la propriété [value](value-property-ado.md) de ** l'objet reste inchangée.
 

@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306796"
 ---
 # <a name="removealltempvars-macro-action"></a>RemoveAllTempVars, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
-L'action **SupprimerToutesVarTemp** permet de supprimer toutes les variables temporaires que vous avez créées en utilisant l'action **DéfinirVarTemp**.
+L’action **SupprimerToutesVarTemp** permet de supprimer toutes les variables temporaires que vous avez créées en utilisant l’action **DéfinirVarTemp**.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **SupprimerToutesVarTemp** ne possède aucun argument.
+L’action **SupprimerToutesVarTemp** ne possède aucun argument.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
   - Vous pouvez définir jusqu'à 255 variables temporaires à la fois. Toute variable temporaire non supprimée reste en mémoire jusqu'à ce que la base de données ou le projet soit fermé. Il est conseillé de supprimer les variables temporaires lorsque vous ne les utilisez plus.
 
@@ -61,12 +61,12 @@ La macro suivante illustre comment créer une variable temporaire, l'utiliser da
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>DéfinirVarTemp</strong></p></td>
-<td><p><strong>Nom</strong>: MaVar<strong>Expression</strong>: BEntrée (&quot;Entrez un nombre différent de zéro.&quot;)</p></td>
+<td><p><strong>Name</strong>: MyVar<strong>expression</strong>: InputBox (&quot;entrez un nombre différent de zéro)&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>[TempVars]![MaVar] &lt;&gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;vous avez entré &quot; &amp; [VarTemp] ! [MaVar] &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
+<td><p><strong>Message</strong>: =&quot;vous avez &quot; &amp; entré [TempVars]! Mavar &amp; &quot;. &quot; <strong>Bip</strong>: <strong>YesType</strong>: <strong>informations</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

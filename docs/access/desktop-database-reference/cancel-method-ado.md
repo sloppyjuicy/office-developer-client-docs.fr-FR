@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 791803bb8935ffab24e5aed7e4e6a77360e82b65
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296674"
 ---
 # <a name="cancel-method-ado"></a>Cancel, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Annule l'exécution d'un appel de méthode asynchrone en attente.
+Annule l’exécution d’un appel de méthode asynchrone en attente.
 
 ## <a name="syntax"></a>Syntaxe
 
 *objet*. Annuler
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Faites appel à la méthode **Cancel** pour mettre fin à l'exécution d'un appel de méthode asynchrone (à savoir une méthode appelée avec l'option **adAsyncConnect**, **adAsyncExecute** ou **adAsyncFetch** ).
+Faites appel à la méthode **Cancel** pour mettre fin à l'exécution d'un appel de méthode asynchrone (à savoir une méthode appelée avec l'option **adAsyncConnect**, **adAsyncExecute** ou **adAsyncFetch**).
 
 Le tableau suivant indique quelle tâche est terminée lorsque vous utilisez la méthode **Cancel** sur un type d'objet particulier.
 

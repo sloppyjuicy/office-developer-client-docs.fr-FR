@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset.Bookmarkable (DAO)
+title: Recordset. Bookmarkable, propriété (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 6323f162-75c4-7cfe-c918-0b9454560f97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bd9b91f80c9411bb7cdf4e0be9e71ab055dc72f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300622"
 ---
-# <a name="recordsetbookmarkable-property-dao"></a>Propriété Recordset.Bookmarkable (DAO)
+# <a name="recordsetbookmarkable-property-dao"></a>Recordset. Bookmarkable, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si un objet **Recordset** prend en charge les signets, que vous pouvez définir à l'aide de la propriété **[Bookmark](recordset-bookmark-property-dao.md)**.
+Renvoie une valeur indiquant si un objet **Recordset** prend en charge les signets, que vous pouvez définir à l'aide de la propriété **[Bookmark](recordset-bookmark-property-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -29,9 +29,9 @@ Renvoie une valeur qui indique si un objet **Recordset** prend en charge les sig
 
 ## <a name="remarks"></a>Remarques
 
-Vérifiez la valeur de la propriété **Bookmarkable** d'un objet **Recordset** avant de définir ou de vérifier la propriété **Bookmark**.
+Vérifiez le paramètre de la propriété **Bookmarkable** d'un objet **Recordset** avant de tenter de définir ou contrôler la propriété **Bookmark**.
 
-Pour les objets **Recordset** repose entièrement sur les tables de moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est True et vous pouvez utiliser les signets. En revanche, il est possible que d'autres produits de base de données ne prennent pas en charge les signets. Ainsi, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne possède aucune clé primaire.
+Pour **** les objets Recordset basés entièrement sur des tables de moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est true et vous pouvez utiliser des signets. En revanche, il est possible que d'autres produits de base de données ne prennent pas en charge les signets. Ainsi, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne possède aucune clé primaire.
 
 ## <a name="example"></a>Exemple
 

@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 1e37d72754531fc4dd51427eefb355a057d08073
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306397"
 ---
 # <a name="startnewworkflow-macro-action"></a>StartNewWorkflow, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **DémarrerNouveauFluxTravail** permet de lancer un nouveau flux de travail pour un élément dans une liste Microsoft SharePoint Foundation liée.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **DémarrerNouveauFluxTravail** utilise les arguments suivants :
+L’action **DémarrerNouveauFluxTravail** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -43,7 +43,7 @@ L'action **DémarrerNouveauFluxTravail** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Numéro d’enregistrement</strong></p></td>
-<td><p>La position de l’élément dans la liste Windows SharePoint Services, en commençant par <strong>1</strong> pour le premier élément dans la liste, <strong>2</strong> pour le deuxième élément et ainsi de suite. Vous pouvez également entrer une expression pour cet argument.</p></td>
+<td><p>Position de l'élément dans la liste SharePoint Foundation, en commençant par <strong>1</strong> pour le premier élément de la liste, <strong>2</strong> pour le deuxième élément, et ainsi de suite. Vous pouvez également entrer une expression pour cet argument.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Propriété Property.Type (DAO)
+title: Propriété Property. type (DAO)
 TOCTitle: Type Property
 ms:assetid: bf8258ca-08b5-c4f9-e6d7-114e4300b2ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822796(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4280b89102e06b2ecc09a783840e671b0af9ff73
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302897"
 ---
-# <a name="propertytype-property-dao"></a>Propriété Property.Type (DAO)
+# <a name="propertytype-property-dao"></a>Propriété Property. type (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou de données d'un objet. Type de données **Integer** en lecture/écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type de données **Integer** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Type
+*expression* . Entrer
 
 *expression* Variable qui représente un objet **Property** .
 
@@ -74,7 +74,7 @@ Les paramètres et valeurs de retour possible d'un objet **Property** sont décr
 <td><p>Date/Heure</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>DBDECIMAL ne</strong></p></td>
+<td><p><strong>dbDecimal</strong></p></td>
 <td><p>Décimal</p></td>
 </tr>
 <tr class="odd">

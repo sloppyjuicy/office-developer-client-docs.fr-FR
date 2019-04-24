@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 91c279c695b72c1b60c5ae05a6f046ef116da551
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713568"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301434"
 ---
 # <a name="prepared-property-example-vj"></a>Prepared, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l'ouverture de deux objets [Command](command-object-ado.md) : l'un préparé et l'autre non préparé.
+Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l’ouverture de deux objets [Command](command-object-ado.md) : l’un préparé et l’autre non préparé.
 
 ```java 
  

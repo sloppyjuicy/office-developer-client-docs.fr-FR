@@ -1,5 +1,5 @@
 ---
-title: Collection Relations (DAO)
+title: Relation, collection (DAO)
 TOCTitle: Relations Collection
 ms:assetid: 8929b5cc-cf52-03f2-8cf5-7f45276d258e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197067(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc60e36abbb353a178864b488a738fcf3247e1a1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306971"
 ---
-# <a name="relations-collection-dao"></a>Collection Relations (DAO)
+# <a name="relations-collection-dao"></a>Relation, collection (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection **Relations** contient les objets **Relation** stockés d'un objet **Database** (bases de données de moteur de base de données Microsoft Access uniquement).
 
@@ -29,13 +29,13 @@ Pour faire référence à un objet **Relation** d'une collection par son numéro
 
 **Relations**(0)
 
-**Relations** (« nom »)
+**Relations** ("nom")
 
-**Relations**\!\[nom\]
+****\!\[Nom des relations\]
 
 ## <a name="example"></a>Exemple
 
-L'exemple ci-dessous indique comment un objet **Relation** existant peut déterminer l'entrée de données. La procédure tente d'ajouter un enregistrement dont le champ CategoryID est délibérément incorrect, ce qui déclenche la routine de traitement des erreurs.
+Cet exemple illustre la façon dont un objet **Relation** existant peut contrôler l'entrée des données. La procédure tente d'ajouter un enregistrement avec un CategoryID volontairement incorrect. Ceci déclenche une routine de gestion d'erreur.
 
 ```vb
     Sub RelationX() 
@@ -96,7 +96,7 @@ L'exemple ci-dessous indique comment un objet **Relation** existant peut déterm
 
 <br/>
 
-L'exemple ci-dessous fait appel à la méthode **CreateRelation** pour créer un objet **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** nommé Departments. Il montre également comment créer une **Relation** crée également nécessaires **index** dans la table étrangère (DepartmentsEmployees Index de la table Employees).
+Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Il montre également comment la création d'une nouvelle **relation** entraîne la création de tous les **index** nécessaires dans la table étrangère (l'index DepartmentsEmployees de la table Employees).
 
 ```vb
     Sub CreateRelationX() 

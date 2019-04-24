@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 56e47b32bb85da237464842dcb049092750d77a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306271"
 ---
 # <a name="type-property-example-property-vb"></a>Type, propriété – Exemple (propriété) (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Type](type-property-ado.md). C'est un modèle d'utilitaire permettant de répertorier les noms et les types d'une collection ([Properties](properties-collection-ado.md) ou [Fields](fields-collection-ado.md), par exemple).
 

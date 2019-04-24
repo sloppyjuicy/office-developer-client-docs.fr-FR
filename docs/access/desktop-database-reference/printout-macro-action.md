@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 04212a8bf63d5039c6548463612f006f0d116229
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301406"
 ---
 # <a name="printout-macro-action"></a>PrintOut, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Faites appel à l'action **Imprimer** pour imprimer l'objet actif dans la base de données ouverte. Vous pouvez imprimer des feuilles de données, des états, des formulaires, des pages d'accès aux données et des modules.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne sera pas autorisée si la base de données n'est pas approuvée. 
+> Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 ## <a name="setting"></a>Paramètre
 
-L'action **Imprimer** possède les arguments suivants.
+L’action **Imprimer** possède les arguments suivants.
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ L'action **Imprimer** possède les arguments suivants.
 <td><p>Dernière page à imprimer. L’impression s’arrête à la fin de cette page. Cet argument est obligatoire si vous sélectionnez l’option <strong>Pages</strong> dans la zone <strong>Imprimer</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Qualité d’impression</strong></p></td>
+<td><p><strong>Qualité de l’impression</strong></p></td>
 <td><p>Qualité d’impression. Cliquez sur <strong>Haute</strong>, <strong>Moyenne</strong>, <strong>Basse</strong> ou <strong>Brouillon</strong>. Plus la qualité est basse, plus l’impression de l’objet est rapide. <strong>Haute</strong> est la valeur par défaut.</p></td>
 </tr>
 <tr class="odd">
@@ -71,7 +71,7 @@ L'action **Imprimer** possède les arguments suivants.
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette action équivaut à sélectionner un objet, à cliquer sur l'onglet **Fichier**, puis à cliquer sur **Imprimer**. Toutefois, avec cette action, aucune boîte de dialogue **Imprimer** ne s'ouvre.
 

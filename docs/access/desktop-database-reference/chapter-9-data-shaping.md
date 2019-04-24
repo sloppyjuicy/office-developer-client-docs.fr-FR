@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 43ad9d5e989bc1c6f4a54fb4882cfe3c3e357fd1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296422"
 ---
 # <a name="chapter-9-data-shaping"></a>Chapitre 9 : Mise en forme de données
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-*Mise en forme des données* fournit un moyen pour interroger une source de données et de renvoyer un [objet Recordset](recordset-object-ado.md) qui représente une relation parent-enfant entre deux ou plusieurs entités logiques (une hiérarchie). 
+La *mise en forme des données* permet d’interroger une source de données et de retourner un objet [Recordset](recordset-object-ado.md) qui représente une relation parent-enfant entre deux ou plusieurs entités logiques (une hiérarchie). 
 
 Des clients et des commandes constituent un exemple de relation hiérarchique classique. Ainsi, à chaque client d'une base de données correspond zéro ou plusieurs commandes. Bien que les requêtes SQL normales fournissent un moyen d'extraire les données à l'aide de la syntaxe JOIN, celles-ci peuvent s'avérer inefficaces et difficiles à manipuler, car des données parentes redondantes sont répétées dans chaque enregistrement renvoyé pour une relation parent-enfant donnée. La mise en forme des données peut associer un seul enregistrement parent de l'objet **Recordset** parent à plusieurs enregistrements enfants de l'objet **Recordset** enfant, ce qui évite la redondance inhérente à une opération de jointure. Nombreux sont ceux qui trouvent le modèle de programmation de plusieurs objets **Recordset** parent-enfants plus naturel et plus facile à manipuler que le modèle JOIN reposant sur un seul objet **Recordset**.
 
@@ -31,8 +31,8 @@ Consultez les rubriques suivantes pour en savoir plus sur la mise en forme des d
 - [Fabrication de recordsets hiérarchiques](fabricating-hierarchical-recordsets.md)
 - [Accès à des lignes dans un recordset hiérarchique](accessing-rows-in-a-hierarchical-recordset.md)
 - [Grammaire de forme formelle](formal-shape-grammar.md)
-- [Fonctions Visual Basic pour Applications](visual-basic-for-applications-functions.md)
-- [Forme Append, clause (ADO)](shape-append-clause.md)
-- [Données de mise en forme (ADO)](data-shaping.md)
-- [Les commandes Shape en général (ADO)](shape-commands-in-general.md)
+- [Visual Basic for Applications functions](visual-basic-for-applications-functions.md)
+- [Shape Append, clause (ADO)](shape-append-clause.md)
+- [Mise en forme des données (ADO)](data-shaping.md)
+- [Commandes de forme en général (ADO)](shape-commands-in-general.md)
 

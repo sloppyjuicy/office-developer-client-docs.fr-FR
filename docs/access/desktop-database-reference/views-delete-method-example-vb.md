@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4046c3142721ebb59d0ad467689e92e4ac587d74
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302764"
 ---
 # <a name="views-delete-method-example-vb"></a>Views Delete, méthode – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le code suivant montre comment utiliser la méthode [Delete](delete-method-adox-collections.md) pour supprimer une vue du catalogue.
 

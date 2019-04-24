@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296786"
 ---
 # <a name="bof-eof-properties-ado"></a>BOF, EOF, propriétés (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 **BOF**  Indique que la position d'enregistrement actuelle se trouve avant le premier enregistrement d'un objet [Recordset](recordset-object-ado.md).
 
@@ -27,7 +27,7 @@ ms.locfileid: "28726126"
 
 Les propriétés **BOF** et **EOF** retournent des valeurs de type **Boolean**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Recordset** contient des enregistrements ou si vous avez dépassé les limites d'un objet **Recordset** lorsque vous vous déplacez d'un enregistrement à l'autre.
 
@@ -54,38 +54,38 @@ Ce tableau répertorie les méthodes **Move** autorisées avec les différentes 
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst,<br />
+<th><p>Méthodes<br />
 MoveLast</p></th>
-<th><p>MovePrevious,<br />
+<th><p>MovePrevious<br />
 Déplacer &lt; 0</p></th>
 <th><p><br />
 Move 0</p></th>
-<th><p>MoveNext,<br />
+<th><p>MoveNext<br />
 Déplacer &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = True,</strong><br />
-<strong>EOF = False</strong></p></td>
+<td><p><strong>BOF = true,</strong><br />
+<strong>EOF = false</strong></p></td>
 <td><p>Autorisé</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Autorisé</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>EOF = True</strong></p></td>
+<td><p><strong>BOF = false,</strong><br />
+<strong>EOF = true</strong></p></td>
 <td><p>Autorisé</p></td>
 <td><p>Autorisé</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 </tr>
 <tr class="odd">
 <td><p>Les deux propriétés ont la valeur <strong>True</strong></p></td>
 <td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
-<td><p>Erreur</p></td>
+<td><p>Error</p></td>
+<td><p>Error</p></td>
 <td><p>Erreur</p></td>
 </tr>
 <tr class="even">
@@ -119,13 +119,13 @@ Le tableau ci-dessous répertorie les valeurs prises par les propriétés **BOF*
 <tbody>
 <tr class="odd">
 <td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
-<td><p>La valeur <strong>True</strong></p></td>
-<td><p>La valeur <strong>True</strong></p></td>
+<td><p>Prend la valeur <strong>True</strong></p></td>
+<td><p>Prend la valeur <strong>True</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Move</strong> 0</p></td>
-<td><p>Aucune modification</p></td>
-<td><p>Aucune modification</p></td>
+<td><p>Aucun changement</p></td>
+<td><p>Aucun changement</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>MovePrevious</strong>, <strong>déplacer</strong> &lt; 0</p></td>
@@ -133,7 +133,7 @@ Le tableau ci-dessous répertorie les valeurs prises par les propriétés **BOF*
 <td><p>Aucune modification</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>déplacer</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>Aucune modification</p></td>
 <td><p>Prend la valeur <strong>True</strong></p></td>
 </tr>

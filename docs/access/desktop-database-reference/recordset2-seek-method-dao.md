@@ -1,5 +1,5 @@
 ---
-title: Méthode Recordset2.Seek (DAO)
+title: Recordset2. Seek, méthode (DAO)
 TOCTitle: Seek Method
 ms:assetid: 9871619b-a303-c97d-54c0-defc8d9b87f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9510faab9035f2b2cbcccae0a8ddefa484a95cb1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307188"
 ---
-# <a name="recordset2seek-method-dao"></a>Méthode Recordset2.Seek (DAO)
+# <a name="recordset2seek-method-dao"></a>Recordset2. Seek, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Localise l'enregistrement dans un objet **Recordset** de type table indexée en fonction des critères spécifiés pour l'index actuel et en fait l'enregistrement actif (espaces de travail Microsoft Access uniquement).
+Localise l’enregistrement dans un objet **Recordset** de type table indexé qui correspond aux critères spécifiés pour l’index actuel et fait de cet enregistrement l’enregistrement actif (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Seek (***comparaison***, ***touche1***, ***Key2***, ***Key3***, ***Touche4***, ***Touche5***, ***Touche6***, ***Touche7***, ***Touche8***, ***Touche9***, ***Touche10***, ***Touche11***, ***Touche12***, ***Touche13***)
+*expression* . Seek (***Comparison***, ***key1***, ***touche2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
 
 *expression* Variable qui représente un objet **Recordset2** .
 
@@ -38,14 +38,14 @@ Localise l'enregistrement dans un objet **Recordset** de type table indexée en 
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Comparaison</em></p></td>
+<td><p><em>Comparison</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>L'une des expressions de chaîne suivantes : &lt;, &lt;=, =, &gt;= ou &gt;.</p></td>
@@ -54,7 +54,7 @@ Localise l'enregistrement dans un objet **Recordset** de type table indexée en 
 <td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser les arguments clés jusqu'à 13.</p></td>
+<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser jusqu’à 13 arguments key.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,17 +62,17 @@ Localise l'enregistrement dans un objet **Recordset** de type table indexée en 
 
 ## <a name="remarks"></a>Remarques
 
-Vous devez définir l'index actuel via la propriété **Index** avant d'utiliser la méthode **Seek**. Si l'index identifie un champ de clé non unique, **Seek** localise le premier enregistrement correspondant aux critères.
+Vous devez définir l’index actuel avec la propriété **Index** avant d’utiliser la méthode **Seek**. Si l’index identifie un champ de clé non unique, la méthode **Seek** localise le premier enregistrement qui correspond aux critères.
 
-La méthode **Seek** recherche dans les champs de clé spécifiées et recherche le premier enregistrement qui répond aux critères spécifiés par comparaison et touche1. Une fois l'enregistrement trouvé, il devient actif et la propriété **NoMatch** reçoit la valeur **False**. Si la méthode **Seek** ne parvient pas à trouver de correspondance, la propriété **NoMatch** est affectée de la valeur **True**, et l'enregistrement actif n'est pas défini.
+La méthode **Seek** recherche dans les champs de clé spécifiés et localise le premier enregistrement qui correspond aux critères spécifiés par Comparison et key1. Une fois trouvé, cet enregistrement devient l’enregistrement actif et la propriété **NoMatch** est définie sur **False**. Si la méthode **Seek** ne trouve pas de correspondance, la propriété **NoMatch** est définie sur **True**, et l’enregistrement actif n’est pas défini.
 
-Si la comparaison est égal (=), supérieur ou égal (\>=), supérieur ou (\>), **Seek** commence au début de l’index et de transférer des recherches.
+Si comparaison est égal (=), supérieur ou égal (\>=) ou supérieur à (\>), la méthode **Seek** commence au début de l'index et effectue une recherche vers l'avant.
 
-Si la comparaison est inférieure à (\<) ou inférieur ou égal (\<=), **Seek** commence à la fin de l’index et de recherche vers l’arrière. Toutefois, s'il existe des doublons à la fin de l'index, la méthode **Seek** démarre arbitrairement à partir de l'un des doublons, puis effectue une recherche vers l'arrière.
+Si comparaison est inférieur à (\<) ou inférieur ou égal (\<=), la méthode **Seek** commence à la fin de l'index et effectue une recherche vers l'arrière. Toutefois, s'il existe des doublons à la fin de l'index, la méthode **Seek** démarre arbitrairement à partir de l'un des doublons, puis effectue une recherche vers l'arrière.
 
-Vous devez spécifier des valeurs pour tous les champs définis dans l'index. Si vous utilisez **Seek** avec un index à plusieurs colonnes, et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l'index, vous ne pouvez pas utiliser l'opérateur égal (=) dans la comparaison. C’est parce que certains des champs de critères (key2 key3 et ainsi de suite) par défaut Null, ce qui correspondra probablement pas. Par conséquent, l'opérateur égal ne fonctionnera correctement que s'il existe un enregistrement dont les valeurs sont toutes **null** hormis la clé que vous recherchez. Il est recommandé d’utiliser supérieur ou égal (\>=) opérateur à la place.
+Vous devez spécifier des valeurs pour tous les champs définis dans l'index. Si vous utilisez la méthode **Seek** avec un index à plusieurs colonnes et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l’index, vous ne pouvez pas utiliser l’opérateur égal (=) dans la comparaison. Ceci est dû au fait que certains champs de critères (key2, key3, etc.) seront définis par défaut sur Null, et ne correspondront probablement pas. Par conséquent, l’opérateur égal ne fonctionnera correctement que si vous disposez d’un enregistrement entièrement **null**, à l’exception de la clé que vous recherchez. Il est recommandé d'utiliser à la place l'opérateur supérieur ou\>égal (=).
 
-L’argument touche1 doit être du même type de données de champ que le champ correspondant dans l’index en cours. Par exemple, si l’index actuel fait référence à un champ numérique (par exemple, ID d’employé), l’argument touche1 doit être numérique. De même, si l’index actuel fait référence à un champ de texte (tel que le nom de famille), touche1 doit être une chaîne.
+L’argument key1 doit être du même type de champ que le champ correspondant dans l’index actuel. Par exemple, si l’index actuel fait référence à un champ numérique (comme Employee ID), key1 doit être numérique. De même, si l’index actuel fait référence à un champ de texte (comme Last Name), key1 doit être une chaîne.
 
 Il n'est pas nécessaire d'avoir un enregistrement actif pour utiliser **Seek**.
 
@@ -84,7 +84,7 @@ Vous ne pouvez pas appliquer la méthode **Seek** à une table liée, car les ta
 
 ## <a name="example"></a>Exemple
 
-Cet exemple démontre la méthode **Seek** en permettant à l'utilisateur de rechercher un produit en fonction d'un numéro d'identification.
+Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à rechercher un produit avec un numéro d’identification.
 
 ```vb
     Sub SeekX() 

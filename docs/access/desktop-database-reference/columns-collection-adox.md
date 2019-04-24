@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c1827fe11696e28871bdd03594ff0d7057c377dc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296205"
 ---
 # <a name="columns-collection-adox"></a>Columns, collection (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient tous les objets de [colonne](column-object-adox.md) d'une table, d'un index ou d'une clé.
+Contient tous les objets de [colonne](column-object-adox.md) d’une table, d’un index ou d’une clé.
 
 ## <a name="remarks"></a>Remarques
 
@@ -35,7 +35,7 @@ Les propriétés et méthodes restantes sont des collections ADO standard. Vous 
 
   - Supprimer une colonne de la collection à l'aide de la méthode [Delete](delete-method-adox-collections.md).
 
-  - Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l'aide de la méthode [Refresh](refresh-method-ado.md).
+  - Mettre à jour les objets de la collection afin de refléter le schéma de la base de données active à l’aide de la méthode [Refresh](refresh-method-ado.md).
 
 
 > [!NOTE]

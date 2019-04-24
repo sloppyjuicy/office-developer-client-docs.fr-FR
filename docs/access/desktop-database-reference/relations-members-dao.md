@@ -1,5 +1,5 @@
 ---
-title: Membres de relations (DAO)
+title: Relations, membres (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a53b7170568c535ed2321a902796af2f942f6808
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306950"
 ---
-# <a name="relations-members-dao"></a>Membres de relations (DAO)
+# <a name="relations-members-dao"></a>Relations, membres (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Une collection Relations contient les objets Relation stockés d'un objet Database (bases de données de moteur de base de données Microsoft Access uniquement).
 
@@ -36,7 +36,7 @@ Une collection Relations contient les objets Relation stockés d'un objet Databa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Ajouter</a></strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Annexe</a></strong></p></td>
 <td><p>Ajoute un nouvel objet <strong>Relation</strong> à la collection <strong>Relations</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -67,7 +67,7 @@ Une collection Relations contient les objets Relation stockés d'un objet Databa
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relations-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Renvoie le nombre d'objets dans la collection spécifiée. En lecture seule.</p></td>
+<td><p>Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

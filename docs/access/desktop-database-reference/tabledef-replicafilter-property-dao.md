@@ -1,5 +1,5 @@
 ---
-title: Propriété TableDef.ReplicaFilter (DAO)
+title: TableDef. ReplicaFilter, propriété (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836681(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: ba296701faebb32696741a742b7fe01660b74c46
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722430"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302785"
 ---
-# <a name="tabledefreplicafilter-property-dao"></a>Propriété TableDef.ReplicaFilter (DAO)
+# <a name="tabledefreplicafilter-property-dao"></a>TableDef. ReplicaFilter, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur sur un objet **[TableDef](tabledef-object-dao.md)** au sein d'un réplica partiel qui indique le sous-ensemble d'enregistrements répliqué vers cette table à partir d'un réplica complet. (Espaces de travail Microsoft Access uniquement).
 
