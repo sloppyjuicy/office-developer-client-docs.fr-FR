@@ -1,5 +1,5 @@
 ---
-title: Forçage d’une notification
+title: Forçage d'une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5affce8ab7a8b08019816ad9485641c401dd80c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 54eaf9e67da1b520896122c937508a90700a0b84
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578772"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328097"
 ---
-# <a name="forcing-a-notification"></a><span data-ttu-id="b33ba-103">Forçage d’une notification</span><span class="sxs-lookup"><span data-stu-id="b33ba-103">Forcing a Notification</span></span>
+# <a name="forcing-a-notification"></a><span data-ttu-id="8d11e-103">Forçage d'une notification</span><span class="sxs-lookup"><span data-stu-id="8d11e-103">Forcing a Notification</span></span>
 
   
   
-<span data-ttu-id="b33ba-104">**S’applique à**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b33ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8d11e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8d11e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b33ba-105">Lorsque fournisseurs de services utilisent la [IMAPISupport : IUnknown](imapisupportiunknown.md) méthodes de notification, MAPI fournit des notifications à l’aide d’une fenêtre masquée et sa procédure de fenêtre correspondante.</span><span class="sxs-lookup"><span data-stu-id="b33ba-105">When service providers use the [IMAPISupport : IUnknown](imapisupportiunknown.md) methods for notification, MAPI delivers notifications using a hidden window and its corresponding window procedure.</span></span> <span data-ttu-id="b33ba-106">Pour chaque processus recevoir une notification, MAPI publie un message spécial dans la fenêtre masquée.</span><span class="sxs-lookup"><span data-stu-id="b33ba-106">For each process to receive a notification, MAPI posts a special message to the hidden window.</span></span> <span data-ttu-id="b33ba-107">Ce message est nommé avec la constante **szMAPINotificationMsg** est défini dans MAPIDEFS. H.</span><span class="sxs-lookup"><span data-stu-id="b33ba-107">This message is named with the constant **szMAPINotificationMsg** which is defined in MAPIDEFS.H.</span></span> 
+<span data-ttu-id="8d11e-105">Lorsque les fournisseurs de services utilisent les méthodes [IMAPISupport: IUnknown](imapisupportiunknown.md) pour la notification, MAPI envoie des notifications à l'aide d'une fenêtre masquée et de la procédure de fenêtre correspondante.</span><span class="sxs-lookup"><span data-stu-id="8d11e-105">When service providers use the [IMAPISupport : IUnknown](imapisupportiunknown.md) methods for notification, MAPI delivers notifications using a hidden window and its corresponding window procedure.</span></span> <span data-ttu-id="8d11e-106">Pour chaque processus de réception d'une notification, MAPI publie un message particulier dans la fenêtre masquée.</span><span class="sxs-lookup"><span data-stu-id="8d11e-106">For each process to receive a notification, MAPI posts a special message to the hidden window.</span></span> <span data-ttu-id="8d11e-107">Ce message est nommé à l'aide de la constante **szMAPINotificationMsg** qui est définie dans MAPIDEFS. H.</span><span class="sxs-lookup"><span data-stu-id="8d11e-107">This message is named with the constant **szMAPINotificationMsg** which is defined in MAPIDEFS.H.</span></span> 
   
-<span data-ttu-id="b33ba-108">Vous recevez ces notifications lors de la procédure de fenêtre de la fenêtre masquée traite le message **szMAPINotificationMsg** .</span><span class="sxs-lookup"><span data-stu-id="b33ba-108">You receive these notifications when the hidden window's window procedure processes the **szMAPINotificationMsg** message.</span></span> <span data-ttu-id="b33ba-109">Pour garantir que les notifications sont envoyées, il est nécessaire pour attendre et distribuer ce message **szMAPINotificationMsg** .</span><span class="sxs-lookup"><span data-stu-id="b33ba-109">To guarantee that notifications are delivered, it is necessary to wait for and dispatch this **szMAPINotificationMsg** message.</span></span> <span data-ttu-id="b33ba-110">L’implémentation de la logique pour effectuer cette opération peut être effectuée assez simple, mais MAPI fournit un point d’entrée dans la DLL MAPI appelé [HrDispatchNotifications](hrdispatchnotifications.md) pour rendre le traitement encore plus simple.</span><span class="sxs-lookup"><span data-stu-id="b33ba-110">Implementing the logic to achieve this can be done fairly simply, but MAPI provides an entry point into the MAPI DLL called [HrDispatchNotifications](hrdispatchnotifications.md) to make processing even simpler.</span></span> <span data-ttu-id="b33ba-111">Appel **HrDispatchNotifications** comme suit pour recevoir des notifications dans votre client :</span><span class="sxs-lookup"><span data-stu-id="b33ba-111">Call **HrDispatchNotifications** as follows to receive notifications in your client:</span></span> 
+<span data-ttu-id="8d11e-108">Ces notifications s'affichent lorsque la procédure de fenêtre masquée traite le message **szMAPINotificationMsg** .</span><span class="sxs-lookup"><span data-stu-id="8d11e-108">You receive these notifications when the hidden window's window procedure processes the **szMAPINotificationMsg** message.</span></span> <span data-ttu-id="8d11e-109">Pour garantir la remise des notifications, il est nécessaire d'attendre et de distribuer ce message **szMAPINotificationMsg** .</span><span class="sxs-lookup"><span data-stu-id="8d11e-109">To guarantee that notifications are delivered, it is necessary to wait for and dispatch this **szMAPINotificationMsg** message.</span></span> <span data-ttu-id="8d11e-110">L'implémentation de la logique pour y parvenir peut être réalisée simplement, mais MAPI fournit un point d'entrée dans la DLL MAPI appelée [HrDispatchNotifications](hrdispatchnotifications.md) pour simplifier le traitement.</span><span class="sxs-lookup"><span data-stu-id="8d11e-110">Implementing the logic to achieve this can be done fairly simply, but MAPI provides an entry point into the MAPI DLL called [HrDispatchNotifications](hrdispatchnotifications.md) to make processing even simpler.</span></span> <span data-ttu-id="8d11e-111">Appelez **HrDispatchNotifications** comme suit pour recevoir des notifications dans votre client:</span><span class="sxs-lookup"><span data-stu-id="8d11e-111">Call **HrDispatchNotifications** as follows to receive notifications in your client:</span></span> 
   
 ```cpp
 HRESULT hr = HrDispatchNotifications(0);
