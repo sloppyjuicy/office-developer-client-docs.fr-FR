@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc0039cf2210446704d25b2156bd4ff50041a524
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5fced633023ebf00efaf5b667dc7994eeb5de316
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338828"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586276"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table de magasin de message qui contient des informations sur toutes les banques de messages dans le profil de la session.
+Fournit l'accès à la table de banque de messages qui contient des informations sur toutes les banques de messages dans le profil de session.
   
 ```cpp
 HRESULT GetMsgStoresTable(
@@ -34,41 +34,41 @@ HRESULT GetMsgStoresTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui détermine le format des colonnes sont des chaînes de caractères. Vous pouvez définir l’indicateur suivant :
+> dans Masque de réfixe des indicateurs qui déterminent le format des colonnes qui sont des chaînes de caractères. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les colonnes de type chaîne sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les colonnes de type chaîne sont au format ANSI.
+> Les colonnes de chaîne sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les colonnes de la chaîne sont au format ANSI.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table.
+> remarquer Pointeur vers un pointeur vers la table de banque de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau a été renvoyé avec succès.
+> La table a été renvoyée avec succès.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’indicateur MAPI_UNICODE a été défini et que la session ne prend pas en charge Unicode.
+> L'indicateur MAPI_UNICODE a été défini et la session ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::GetMsgStoresTable** récupère un pointeur vers la table, une table gérée par MAPI qui contient des informations sur chaque banque de messages ouverts dans le profil. 
+La méthode **IMAPISession:: GetMsgStoresTable** extrait un pointeur vers la table de banque de messages, une table gérée par MAPI qui contient des informations sur chaque banque de messages ouverte dans le profil. 
   
-Pour obtenir la liste complète des colonnes obligatoires et facultatifs dans le message magasin table, voir les [Tables de stocker des messages](message-store-tables.md). 
+Pour obtenir la liste complète des colonnes obligatoires et facultatives dans la table de banque de messages, consultez la rubrique [tables des banques de messages](message-store-tables.md). 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Étant donné que MAPI met à jour la table de banque de messages pendant la session en cas de modification, appelez la méthode **Advise** de la table de magasin de message pour s’inscrire afin d’être averti de ces modifications. Modifications possibles comprennent l’ajout de nouvelles banques de message, suppression existant stocke, remplace la banque par défaut. 
+Dans la mesure où MAPI met à jour la table de banque de messages pendant la session lorsque **** des modifications ont lieu, appelez la méthode Advise de la table de banque de messages pour vous inscrire afin d'être informé de ces modifications. Les modifications possibles incluent l'ajout de nouvelles banques de messages, la suppression de magasins existants et les modifications apportées à la Banque par défaut. 
   
-Définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes retournées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
+La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable:: QueryColumns](imapitable-querycolumns.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l'ordre de tri retourné par la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -76,7 +76,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenMessageStoreTable  <br/> |MFCMAPI utilise la méthode **IMAPISession::GetMsgStoresTable** pour obtenir la table afin qu’il peut être affiché dans la boîte de dialogue de MFCMAPI.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnOpenMessageStoreTable  <br/> |MFCMAPI utilise la méthode **IMAPISession:: GetMsgStoresTable** pour obtenir la table de banque de messages afin qu'elle puisse être affichée dans la boîte de dialogue principale de MFCMAPI.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -99,7 +99,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 [IMAPISession : IUnknown](imapisessioniunknown.md)
 
 
-[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
-[Tables de la banque de messages](message-store-tables.md)
+[Tables de banque de messages](message-store-tables.md)
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: Contient différents attributs de formes et de groupes, comme la visibilité et la représentation de leur sélection.
-ms.openlocfilehash: 8a8138d95a56a79cc4eb0178d861d5d80073cb05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16ee384d137dfb4d8544c499519985c712fd56a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335285"
 ---
 # <a name="miscellaneous-section"></a>Miscellaneous, section
 
@@ -22,10 +22,10 @@ Contient différents attributs de formes et de groupes, comme la visibilité et 
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir la valeur de la plupart des cellules de cette section dans la fenêtre feuille ShapeSheet ou dans l’onglet **comportement** dans la boîte de dialogue **comportement** (cliquez sur **comportement** dans le groupe **Création de la forme** sous l’onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) ). dans la fenêtre de dessin. Vous pouvez définir les autres propriétés du groupe à l’aide de cellules dans la section Propriétés du groupe. 
+Vous pouvez définir la valeur de la plupart des cellules de cette section dans la fenêtre Feuille ShapeSheet ou sous l’onglet **Comportement** dans la boîte de dialogue **Comportement** (cliquez sur **Comportement** dans le groupe **Création de la forme** sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md)) dans la fenêtre de dessin. Vous pouvez définir d’autres propriétés de groupe en utilisant les cellules de la section Group Properties. 
   
-Dans les produits Visio version 5.0, cette section incluait les cellules **ObjInteract** et **ObjBehavior** . Le comportement de la cellule **ObjInteract** est maintenant mappé sur les cellules suivantes dans la section Shape Layout : **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY**et **ShapePermeablePlace**. Le comportement de la cellule ObjBehavior est maintenant mappé aux cellules **ConFixedCode** et **ShapeRouteStyle** . 
+Dans les produits Visio version 5,0, cette section comprenait les cellules **ObjInteract** et **ObjBehavior** . Le comportement dans la cellule **ObjInteract** est désormais mappé aux cellules suivantes dans la section format de la forme: **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY**et **ShapePermeablePlace**. Le comportement dans la cellule ObjBehavior est désormais mappé aux cellules **ConFixedCode** et **ShapeRouteStyle** . 
   
-Dans les produits japonais Visio version 5.0, cette section comprenait une cellule **VerticalText** . Dans les produits Visio version 2000 et versions ultérieures, la valeur de cette cellule est stockée dans la cellule **TextDirection** dans la section **Text Block Format** . 
+Dans la version 5,0 de Visio, cette section comprenait une cellule **VerticalText** . Dans la version 2000 des produits et versions ultérieures, la valeur de cette cellule est stockée dans la cellule **TextDirection** de la section **format de bloc de texte** . 
   
 

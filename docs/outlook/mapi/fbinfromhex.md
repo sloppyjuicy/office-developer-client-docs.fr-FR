@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 87a470c1c682225eb1deefba9ccc8c12fbdc49c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 55c7deec9d29ae22a07b2f5ccd1c832d56782c03
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341642"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
@@ -25,13 +25,13 @@ ms.locfileid: "22569826"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit une représentation sous forme de chaîne d’un nombre hexadécimal à des données binaires. 
+ConVertit une représentation sous forme de chaîne d'un nombre hexadécimal en données binaires. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 BOOL FBinFromHex(
@@ -42,23 +42,23 @@ BOOL FBinFromHex(
 
 ## <a name="parameters"></a>Paramètres
 
- _sz_
+ _t_
   
-> [in] Pointeur vers la chaîne ASCII à convertir. Il n’est pas une chaîne Unicode. Caractères valides incluent les caractères hexadécimaux zéro par le biais de neuf et les deux caractères majuscules et minuscules A à F.
+> dans Pointeur vers la chaîne ASCII terminée par un caractère null à convertir. Il ne s'agit pas d'une chaîne Unicode. Les caractères valides incluent les caractères hexadécimaux 0 à 9, ainsi que les caractères majuscules et minuscules A à F.
     
  _pb_
   
-> [out] Pointeur vers le nombre binaire renvoyé.
+> remarquer Pointeur vers le nombre binaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La chaîne a été convertie en nombre binaire. 
+> La chaîne a été convertie correctement en un nombre binaire. 
     
 FALSE 
   
-> La chaîne d’entrée contient des caractères hexadécimaux ASCII non valides.
+> La chaîne d'entrée contient des caractères hexadécimaux ASCII non valides.
     
 ## <a name="see-also"></a>Voir aussi
 

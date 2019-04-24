@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: fa04f897687fb96431225b297399df977dbf944f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339920"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriété canonique PidTagAssociatedContentCount
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nombre d’éléments dans le tableau contenu associé du dossier.
+Contient le nombre d'éléments dans le tableau des contenus associés du dossier.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le nombre d’éléments dans le tableau contenu associé du dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le nombre d’entrées dans le tableau contenu du dossier. 
+Cette propriété contient le nombre d'entrées dans la table contents du dossier. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Définit le format d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: e9506404e8ccd6ae4452c10ecdcce2d4dfd7ac2a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337141"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat, cellule (section Text Fields)
 
 Définit le format d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette cellule n'apparaît pas dans la fenêtre Feuille ShapeSheet. Utilisez-la pour gérer les problèmes de compatibilité avec les versions précédentes, tels que l'enregistrement au format Visio version 5.0 d'un dessin réalisé dans Visio 2000.
   
-Pour obtenir une référence à la cellule UIFormat par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule UIFormat par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Fields.UIFmt [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Fields. UIFmt [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule UIFormat par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

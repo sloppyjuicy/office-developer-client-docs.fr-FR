@@ -7,24 +7,24 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6e2df265-b9dd-4e19-8ca5-3e31804e9120
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9de158e2f269c7b000734beb93b26df195255bcf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7ff7f79b5e74412e9bbb4b4882c6a7d45e50fe6a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338492"
 ---
 # <a name="sending-messages-with-tnef"></a>Envoi de messages avec TNEF
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-De nombreux fournisseurs de transport envoyer automatiquement tous les messages sortants avec la Neutral Encapsulation Format TNEF (Transport). Le format TNEF est utilisé pour transmettre le texte mis en forme qui prennent en charge les clients et les fournisseurs de banque de messages dans leurs messages, les pièces jointes de différents types et des propriétés personnalisées pour les classes de message personnalisées. Bien que le mode par défaut pour la plupart des fournisseurs de transport consiste à envoyer des messages sortants avec TNEF, certains fournisseurs de transport ne le permettent pas. L’absence de prise en charge pour le format TNEF n’est pas un problème pour les clients de messagerie standards qui envoient et reçoivent des messages IPM. Toutefois, pour les clients basés sur les formulaires ou les clients qui requièrent des propriétés personnalisées, l’utilisation du format TNEF est essentielle. Les concepteurs de clients qui reposent sur des formulaires ou des propriétés personnalisées doivent prendre en charge des fonctionnalités des fournisseurs de transport qu’ils utilisent.
+De nombreux fournisseurs de transport envoient automatiquement tous les messages sortants avec le format TNEF (Transport Neutral Encapsulation Format). Le format TNEF est utilisé pour transmettre le texte mis en forme que de nombreux clients et fournisseurs de banques de messages prennent en charge dans leurs messages, les pièces jointes de différents types et les propriétés personnalisées pour les classes de message personnalisées. Bien que le mode par défaut pour la plupart des fournisseurs de transport consiste à envoyer des messages sortants avec TNEF, certains fournisseurs de transport ne le prennent pas en charge. Le manque de prise en charge de TNEF n'est pas un problème pour les clients de messagerie standard qui envoient et reçoivent des messages IPM. Toutefois, pour les clients basés sur des formulaires ou les clients qui nécessitent des propriétés personnalisées, l'utilisation du format TNEF est essentielle. Les concepteurs de clients qui s'appuient sur des formulaires ou des propriétés personnalisées doivent être conscients des capacités des fournisseurs de transport qu'ils utilisent.
   
-Destinataires du message peuvent contrôler ou non un fournisseur de transport transmet les messages avec TNEF en définissant la propriété **PR_SEND_RICH_INFO** . Pour plus d’informations, voir **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)). Lorsque la propriété **PR_SEND_RICH_INFO** d’un destinataire est définie sur TRUE, un fournisseur de transport qui prend en charge TNEF transmet le message. Lorsque la propriété est définie sur FALSE, la mise en forme est ignoré. Lorsque **PR_SEND_RICH_INFO** n’existe pas, il est le fournisseur de transport pour choisir un plan par défaut d’action. 
+Les destinataires du message peuvent contrôler si un fournisseur de transport transmet ou non des messages avec TNEF en définissant la propriété **PR_SEND_RICH_INFO** . Pour plus d'informations, voir **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)). Lorsque la propriété **PR_SEND_RICH_INFO** d'un destinataire est définie sur true, un fournisseur de transport qui prend en charge le format TNEF le transmet avec le message. Lorsque la propriété a la valeur FALSe, la mise en forme est ignorée. Lorsque **PR_SEND_RICH_INFO** n'existe pas, il revient au fournisseur de transport de choisir une action par défaut. 
   
-Lorsque les clients et les fournisseurs de services de créent un destinataire personnalisé, elles peuvent affecter la valeur de sa propriété **PR_SEND_RICH_INFO** en transmettant l’indicateur MAPI_SEND_NO_RICH_INFO dans le paramètre _ulFlags_ au **IAddrBook::CreateOneOff** ou ** IMAPISupport::CreateOneOff** d’appel. Pour plus d’informations, voir [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) et [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md). Le passage de MAPI_SEND_NO_RICH_INFO entraîne MAPI définir la propriété **PR_SEND_RICH_INFO** de destinataire personnalisé sur FALSE. dans la plupart des cas ne pas en passant l’indicateur entraîne MAPI définir la propriété sur TRUE. La seule exception est si l’adresse du destinataire personnalisé est interprétée comme une adresse Internet. Dans ce une cas, MAPI définit **PR_SEND_RICH_INFO** sur FALSE. 
+Lorsque les clients et fournisseurs de services créent un destinataire personnalisé, ils peuvent affecter la valeur de sa propriété **PR_SEND_RICH_INFO** en transmettant l'indicateur MAPI_SEND_NO_RICH_INFO dans le paramètre _UlFlags_ à l' **IAddrBook:: CreateOneOff** ou ** Appel de IMAPISupport:: CreateOneOff** . Pour plus d'informations, voir [IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md) et [IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md). En passant MAPI_SEND_NO_RICH_INFO, MAPI affecte la valeur FALSe à la propriété **PR_SEND_RICH_INFO** du destinataire personnalisé; dans la plupart des cas, si l'indicateur n'est pas passé, MAPI affecte à la propriété la valeur TRUE. La seule exception est si l'adresse du destinataire personnalisé est interprétée comme une adresse Internet. Dans ce cas, MAPI définit **PR_SEND_RICH_INFO** sur false. 
   
 

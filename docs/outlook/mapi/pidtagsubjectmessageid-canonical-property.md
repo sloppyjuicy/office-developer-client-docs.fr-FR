@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c89a0a86ac733cd2cce1efc071e47fcb011fec18
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 7bd5a030d11577c2afabb8a2253cf4f6129814cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339234"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Propriété canonique PidTagSubjectMessageId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur binaire qui est copiée à partir du message pour lequel un rapport est généré. 
+Contient une valeur binaire qui est copiée à partir du message pour lequel un État est généré. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur binaire qui est copiée à partir du message pour lequel un 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, comme la propriété **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), peut être utilisée pour faire correspondre un rapport avec le message d’origine. 
+Cette propriété, comme la propriété **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), peut être utilisée pour corréler un État avec le message d'origine. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b3b6b5ca0b06fc55a60e035ffd9118391cab8f9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ca436bc83d5170d55475c1dd9702a9d54e4b9d5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341054"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 
@@ -44,20 +44,20 @@ BOOL FBadRglpszW(
 
  _lppszW_
   
-> [in] Pointeur vers un tableau de chaînes Unicode. 
+> dans Pointeur vers un tableau de chaînes Unicode terminées par un caractère null. 
     
  _cStrings_
   
-> [in] Nombre de chaînes dans le tableau indiqué par le paramètre _lppszW_ . 
+> dans Nombre de chaînes dans le tableau vers lequel pointe le paramètre _lppszW_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Un ou plusieurs des chaînes dans le tableau spécifié ne sont pas valides. 
+> Une ou plusieurs des chaînes du tableau spécifié ne sont pas valides. 
     
 FALSE 
   
-> Les chaînes dans le tableau spécifié sont valides.
+> Les chaînes du tableau spécifié sont valides.
     
 

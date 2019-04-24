@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251391
 localization_priority: Normal
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
-description: Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si une des expressions logiques est FALSE ou 0, la fonction et renvoie la valeur FALSE (0).
-ms.openlocfilehash: 27b2ef97ef1d0afde37596b18674c6de26355a1b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si l'une des expressions logiques est FALSe ou 0, la fonction et renvoie la valeur FALSe (0).
+ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341558"
 ---
-# <a name="and-function"></a>AND, fonction
+# <a name="and-function"></a>Fonction AND
 
-Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si une des expressions logiques est FALSE ou 0, la fonction et renvoie la valeur FALSE (0).
+Renvoie la valeur TRUE (1) si toutes les expressions logiques fournies sont vraies. Si l'une des expressions logiques est FALSe ou 0, la fonction et renvoie la valeur FALSe (0).
   
 ## <a name="syntax"></a>Syntaxe
 
-ET (** *expression1 logique* **, ** *expression2 logique* **,..., ** *expressionN logique* **) 
+et (* * *opérateur logique expression1* * *, * * caractères *logiques expression2* * *,..., * * *logical expression* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression logique_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. Toute expression donnant une valeur différente de zéro est considérée comme vraie (valeur TRUE).  <br/> |
+| _expression logique_ <br/> |Obligatoire  <br/> |**String** <br/> | Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. Toute expression donnant une valeur différente de zéro est considérée comme vraie (valeur TRUE).  <br/> |
    
 ## <a name="example"></a>Exemple
 

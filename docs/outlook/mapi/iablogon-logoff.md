@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339297"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -43,19 +43,19 @@ HRESULT Logoff(
 
 S_OK 
   
-> Le processus de fermeture de session a été lancé.
+> Le processus de fermeture de session a été initié avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Le processus de déconnexion est généralement démarré lorsqu’un client appelle la méthode [IMAPISession::Logoff](imapisession-logoff.md) pour mettre fin à une session. MAPI appelle ensuite la méthode **IABLogon::Logoff** de chaque fournisseur carnet d’adresses pour démarrer le processus de fermeture de session. 
+Le processus de déconnexion est généralement démarré lorsqu'un client appelle la méthode [IMAPISession:: Logoff](imapisession-logoff.md) pour mettre fin à une session. MAPI appelle ensuite la méthode **IABLogon:: Logoff** du fournisseur de carnets d'adresses pour démarrer le processus de fermeture de session. 
   
-La méthode **IABLogon::Logoff** effectue les opérations suivantes : 
+La méthode **IABLogon:: Logoff** effectue les opérations suivantes: 
   
-- Libère tous les objets, tels que les sous-objets ou l’objet d’état.
+- Libère tous les objets ouverts, tels que les sous-objets ou l'objet d'État.
     
-- Libère l’objet de prise en charge du fournisseur.
+- Libère l'objet de prise en charge du fournisseur.
     
-Pour plus d’informations sur le processus de déconnexion de fournisseurs de carnet d’adresses, voir [Arrêt vers le bas un fournisseur de services](shutting-down-a-service-provider.md).
+Pour plus d'informations sur le processus de fermeture de session des fournisseurs de carnets d'adresses, consultez la rubrique [arrêt d'un fournisseur de services](shutting-down-a-service-provider.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,31 +1,31 @@
 ---
-title: Élément de cellule (ligne RelQuadBezTo) (« Visio XML »)
+title: Élément de cellule (ligne RelQuadBezTo) («Visio XML»)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
-description: Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier par rapport à la hauteur et la largeur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et la hauteur de la forme relative courbe.
+description: Contient les coordonnées x ou y du point de fin d'une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et de la hauteur de la forme relative de la courbe.
 ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388671"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339612"
 ---
-# <a name="cell-element-relquadbezto-row-visio-xml"></a>Élément de cellule (ligne RelQuadBezTo) (« Visio XML »)
+# <a name="cell-element-relquadbezto-row-visio-xml"></a>Élément de cellule (ligne RelQuadBezTo) («Visio XML»)
 
-Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier par rapport à la hauteur et la largeur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et la hauteur de la forme relative courbe.
+Contient les coordonnées x ou y du point de fin d'une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et de la hauteur de la forme relative de la courbe.
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |master # .xml, page # .xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |Master #. xml, page #. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -40,33 +40,33 @@ Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézi
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelQuadBezTo_Type](relquadbezto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier par rapport à la hauteur et la largeur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et la hauteur de la forme relative courbe.  <br/> |
+|[Élément de ligne (géométrie)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelQuadBezTo_Type](relquadbezto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du point de fin d'une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme ou les coordonnées x ou y du point de contrôle de la largeur et de la hauteur de la forme relative de la courbe.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Cette énumération spécifie une référence à une page de dessin.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD : String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur de **E** est la valeur actuelle (chaîne message d’erreur) ; la valeur de l’attribut de **V** est la dernière valeur valide.  <br/> |Chaîne de message d’erreur.  <br/> |
-|F  <br/> |XSD : String  <br/> |facultatif  <br/> | Représente la formule de l’élément. Cet attribut peut contenir une des chaînes suivantes :  <br/>  « (une formule) » si la formule existe localement  <br/>  `No Formula`Si la formule est localement supprimée ou bloquée  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
-|N  <br/> |XSD : String  <br/> |obligatoire  <br/> |Représente le nom de la cellule de feuille ShapeSheet.  <br/> |Le nom de la cellule de feuille ShapeSheet.  <br/> Voir la section Remarques ci-dessous.  <br/> |
-|U  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente une unité de mesure par défaut est la liste de distribution.  <br/> |Unités de la cellule.  <br/> |
-|V  <br/> |XSD : String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |La valeur de la cellule de feuille ShapeSheet.  <br/> |
+|E  <br/> |xsd: String  <br/> |facultatif  <br/> |Indique que la formule génère une erreur. La valeur **E** est la valeur actuelle (chaîne de message d'erreur); la valeur de l'attribut **V** est la dernière valeur valide.  <br/> |Chaîne de message d'erreur.  <br/> |
+|F  <br/> |xsd: String  <br/> |facultatif  <br/> | Représente la formule de l'élément. Cet attribut peut contenir l'une des chaînes suivantes:  <br/>  ' (une formule) 'si la formule existe localement  <br/>  `No Formula`Si la formule est supprimée ou bloquée localement  <br/>  `Inh`Si la formule est héritée.  <br/> |Une formule.  <br/> |
+|N  <br/> |xsd: String  <br/> |obligatoire  <br/> |Représente le nom de la cellule ShapeSheet.  <br/> |Nom de la cellule ShapeSheet.  <br/> Consultez la section Remarques ci-dessous.  <br/> |
+|U  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente une unité de mesure la valeur par défaut est DL.  <br/> |Unités de la cellule.  <br/> |
+|V  <br/> |xsd: String  <br/> |facultatif  <br/> |Représente la valeur de la cellule.  <br/> |Valeur de la cellule ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’attribut **N** de cet élément de **cellule** doit être un ensemble limité de valeurs qui correspondent à des cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet élément de **cellule** . 
+L'attribut **N** de cet élément de **cellule** doit correspondre à l'un des jeux de valeurs limités qui correspondent aux cellules de la feuille ShapeSheet. RePortez-vous au tableau ci-dessous pour déterminer les valeurs de l'attribut **N** qui sont autorisées pour cet élément de **cellule** . 
   
-|**Valeur**|**Description**|**Plus d’informations**|
+|**Value**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X   <br/> |Coordonnée x du sommet de fin d’une courbe de Bézier par rapport à la largeur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
-|Y  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier par rapport à la hauteur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
-|A  <br/> |La coordonnée x du contrôle de la courbe de point par rapport à la largeur de la forme ; un point sur l’arc. Le point de contrôle se trouve mieux sur à mi-chemin entre le début et fin sommets de l’arc.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
-|B  <br/> |La coordonnée y du contrôle d’une courbe de point par rapport à la hauteur de la forme.  <br/> |[Ligne RelQuadBezTo (section Géométrie)](relquadbezto-row-geometry-section.md) <br/> |
+|X  <br/> |Coordonnée x du sommet de fin d'une courbe de Bézier quadratique par rapport à la largeur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|v  <br/> |Coordonnée y du sommet de fin d'une courbe de Bézier quadratique par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|A  <br/> |Coordonnée x du point de contrôle de la courbe par rapport à la largeur de la forme; point sur l'arc. Le point de contrôle est le mieux situé à mi-chemin entre les sommets de début et de fin de l'arc.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|B  <br/> |Coordonnée y du point de contrôle d'une courbe par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
    
 

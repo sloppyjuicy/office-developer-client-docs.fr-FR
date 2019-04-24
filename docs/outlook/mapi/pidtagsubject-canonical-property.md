@@ -11,60 +11,60 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 0cf9e9f8c10f8d27bd174b8b6f2bf19812dc269d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339255"
 ---
 # <a name="pidtagsubject-canonical-property"></a>Propriété canonique PidTagSubject
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la totalité de l’objet d’un message.
+Contient l'objet complet d'un message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SUBJECT, PR_SUBJECT_A, PR_SUBJECT_W  <br/> |
-|Identificateur :  <br/> |0 x 0037  <br/> |
+|Identificateur :  <br/> |0x0037  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont recommandées sur tous les objets de message. 
+Ces propriétés sont recommandées sur tous les objets message. 
   
-Ces propriétés sont toujours le texte de l’objet complet, autrement dit, la concaténation du préfixe et l’objet normalisé. S’il n’existe pas de préfixe, l’objet normalisée doit être identique à l’objet. Un message doit être stockée ou fournisseur utilise ces propriétés et les propriétés **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) pour calculer l’objet normalisée à l’aide de la règle décrite sous **PR_NORMALIZED_SUBJECT** ([ de transport PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Ces propriétés sont toujours le texte de l'objet complet, c'est-à-dire la concaténation du préfixe et l'objet normalisé. S'il n'y a pas de préfixe, l'objet normalisé doit être identique à l'objet. Une banque de messages ou un fournisseur de transport utilise ces propriétés et les propriétés **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) pour calculer l'objet normalisé à l'aide de la règle décrite sous **PR_NORMALIZED_SUBJECT** ([ PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
-Les propriétés de l’objet sont généralement petites chaînes de moins de 256 caractères, et un fournisseur de magasin de message n’est pas tenu prendre en charge l’interface **IStream** sur eux. Le client doit toujours tentent d’accéder par le biais de l’interface **IMAPIProp** tout d’abord et recourir aux **IStream** que si **MAPI_E_NOT_ENOUGH_MEMORY** est renvoyé. 
+Les propriétés de l'objet sont généralement de petites chaînes de moins de 256 caractères et un fournisseur de banque de messages n'est pas tenu de prendre en charge l'interface **IStream** sur ces dernières. Le client doit toujours tenter d'accéder d'abord à travers l'interface **IMAPIProp** et ne recourir à **IStream** que si **MAPI_E_NOT_ENOUGH_MEMORY** est renvoyé. 
   
-Pour un état, cette propriété contient le sujet du message d’origine précédé d’une chaîne qui indique ce qui est arrivé au message.
+Pour un État, cette propriété contient l'objet du message d'origine, précédé d'une chaîne indiquant ce qui s'est passé au message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

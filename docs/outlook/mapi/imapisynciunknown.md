@@ -11,30 +11,30 @@ api_name:
 api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8e2e7a3f9279485d862fac5bb6413b3d3eb1343e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4d46152136f3806c79f0dd454ed9fd41fc845721
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341278"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit un mécanisme de synchronisation de messagerie au lieu d’utiliser l’API de Transport. Cette interface est exposée sur un objet store. À l’aide de cette interface et [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir une meilleure progression et messages d’erreur que celles qui s’affichent dans la boîte de dialogue d’envoi/réception dans Microsoft Outlook.
+Fournit un mécanisme de synchronisation des messages électroniques au lieu d'utiliser l'API de transport. Cette interface est exposée sur un objet Store. En utilisant cette interface et [IMAPISyncProgressCallback: IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir de meilleurs messages d'erreur et de progression que ceux qui apparaissent dans la boîte de dialogue d'envoi/réception dans Microsoft Outlook.
   
-La boîte d’envoi est toujours dans la banque par défaut. Outlook continuera à utiliser les API de Transport pour envoyer du courrier électronique, car le message sortant ne peut pas être dans le magasin externe.
+La boîte d'envoi se trouve toujours dans la Banque par défaut. Outlook continuera à utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
   
 |||
 |:-----|:-----|
-|Exposés par :  <br/> |Fournisseurs de banque et de transport  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
-|Appelée par :  <br/> |Fournisseurs de banque et de Transport  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPISync  <br/> |
+|Exposé par:  <br/> |Banques et fournisseurs de transport  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Banques et fournisseurs de transport  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPISync  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 

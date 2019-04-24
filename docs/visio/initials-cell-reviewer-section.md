@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: Contient les initiales du réviseur d’un document.
-ms.openlocfilehash: 65f0082219c8d6adca55af86c027b2ec5642fb5d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ddca3697dfcf1f422efacbe395c18f1a6b8ac48c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335293"
 ---
 # <a name="initials-cell-reviewer-section"></a>Initials, cellule (section Reviewer)
 
@@ -22,15 +22,15 @@ Contient les initiales du réviseur d’un document.
   
 ## <a name="remarks"></a>Remarques
 
-La valeur par défaut aux initiales qui apparaissent dans la zone **initiales** sous l’onglet **Général** dans la boîte de dialogue **Options Visio** (cliquez sur l’onglet **fichier** , cliquez sur **Options**, puis cliquez sur **Général** ). 
+Cette valeur est définie par défaut sur les initiales figurant dans la zone **initiales** de l'onglet **général** de la boîte de dialogue **options Visio** (cliquez sur l'onglet **fichier** , sur **options**, puis sur **général** ). 
   
-Pour obtenir une référence à la cellule Initials par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Initials par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Reviewer.Initials [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Reviewer. Initials [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule Initials par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Initials à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

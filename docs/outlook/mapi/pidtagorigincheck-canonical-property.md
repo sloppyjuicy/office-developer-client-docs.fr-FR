@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 27b967b885ef35c04d52699c289dd60248e9abd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a82b1351c9d2d19c32e34b03a537a12bf93deb8a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335524"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propriété canonique PidTagOriginCheck
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur binaire de vérification qui permet à un destinataire de rapport de remise vérifier l’origine du message d’origine.
+Contient une valeur de vérification binaire qui permet à un destinataire de rapport de remise de vérifier l'origine du message d'origine.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGIN_CHECK  <br/> |
-|Identificateur :  <br/> |forme0x0027  <br/> |
+|Identificateur :  <br/> |0x0027  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété fournit un moyen d’un fournisseur tiers, comme un message transfert agent d’ou recevoir un rapport de remise d’un utilisateur de messagerie pour vérifier l’origine du message envoyé. S’il est présent sur un message reçu, cette propriété doit être copiée sur un rapport de remise généré en réponse au message.
+Cette propriété permet à un tiers, tel qu'un agent de transfert des messages (MTA) ou un utilisateur de messagerie qui reçoit un rapport de remise, de vérifier l'origine du message soumis. S'il est présent sur un message reçu, cette propriété doit être copiée dans n'importe quel rapport de remise généré en réponse au message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

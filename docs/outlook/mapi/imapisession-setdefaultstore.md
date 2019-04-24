@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7eda7089515942cb38a941bab863b3adf971bdc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f4ff2a3897306ebe4f77c08630782c5f2c7d5d3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587844"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335804"
 ---
 # <a name="imapisessionsetdefaultstore"></a>IMAPISession::SetDefaultStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587844"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Établissement d’une banque de messages comme banque de messages par défaut pour la session.
+Établit une banque de messages comme banque de messages par défaut pour la session.
   
 ```cpp
 HRESULT SetDefaultStore(
@@ -35,57 +35,57 @@ HRESULT SetDefaultStore(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le paramétrage de la banque de messages par défaut. Ces indicateurs sont mutuellement ; peut être défini qu’un seul des indicateurs suivants :
+> dans Masque de réinitialisation des indicateurs qui contrôle le paramètre de la Banque de messages par défaut. Ces indicateurs s'excluent mutuellement; un seul des indicateurs suivants peut être défini:
     
 MAPI_DEFAULT_STORE
   
-> Établit la banque de messages en tant que la valeur par défaut de la session. Met à jour la ligne de tableau d’état de la banque de messages en définissant l’indicateur STATUS_DEFAULT_STORE dans la colonne **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+> Établit la Banque de messages comme valeur par défaut de la session. Met à jour la ligne de table d'État du magasin de messages en définissant l'indicateur STATUS_DEFAULT_STORE dans la colonne **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
 MAPI_PRIMARY_STORE
   
-> Définit la banque de messages comme le magasin à utiliser lors de la connexion. Si la banque de messages n’est pas la banque par défaut, les clients doivent rendre la valeur par défaut. Met à jour la ligne de tableau d’état de la banque de messages en définissant l’indicateur STATUS_PRIMARY_STORE dans la colonne **PR_RESOURCE_FLAGS** . 
+> Établit la Banque de messages comme banque à utiliser lors de l'ouverture de session. S'il ne s'agit pas de la Banque de messages par défaut, les clients doivent le définir comme valeur par défaut. Met à jour la ligne de table d'État du magasin de messages en définissant l'indicateur STATUS_PRIMARY_STORE dans la colonne **PR_RESOURCE_FLAGS** . 
     
 MAPI_SECONDARY_STORE
   
-> Définit la banque de messages comme le magasin à utiliser lors de la connexion si la banque de messages principale n’est pas disponible. Si un client ne peut pas ouvrir la banque principale, il doit ouvrir le stockage secondaire et le définir en tant que la valeur par défaut. Met à jour la ligne de tableau d’état de la banque de messages en définissant l’indicateur STATUS_SECONDARY_STORE dans la colonne **PR_RESOURCE_FLAGS** . 
+> Définit la Banque de messages comme banque à utiliser lors de l'ouverture de session si elle n'est pas disponible. Si un client ne peut pas ouvrir le magasin principal, il doit ouvrir le magasin secondaire et le définir par défaut. Met à jour la ligne de table d'État du magasin de messages en définissant l'indicateur STATUS_SECONDARY_STORE dans la colonne **PR_RESOURCE_FLAGS** . 
     
 MAPI_SIMPLE_STORE_PERMANENT
   
-> Définit l’indicateur STATUS_SIMPLE_STORE dans **PR_RESOURCE_FLAGS** propriété du magasin message dans sa ligne de tableau d’état, ligne du tableau de magasin de message, dans le profil de la session. 
+> Définit l'indicateur STATUS_SIMPLE_STORE dans la propriété **PR_RESOURCE_FLAGS** de la Banque de messages dans sa ligne de table d'État, sa ligne de table de magasin de messages et le profil de session. 
     
 MAPI_SIMPLE_STORE_TEMPORARY
   
-> Définit l’indicateur STATUS_SIMPLE_STORE dans la propriété **PR_RESOURCE_FLAGS** de la banque messages dans sa ligne tableau d’état et la ligne de tableau de magasin de message. Le profil n’est pas modifié. 
+> Définit l'indicateur STATUS_SIMPLE_STORE dans la propriété **PR_RESOURCE_FLAGS** de la Banque de messages dans sa ligne de table d'État et sa ligne de table de magasin de messages. Le profil n'est pas modifié. 
     
  _cbEntryID_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de la banque de messages est destiné à la valeur par défaut. Si un client passe _lpEntryID_NULL, aucune banque de messages n’est activée par défaut.
+> dans Pointeur vers l'identificateur d'entrée de la Banque de messages qui est conçue comme valeur par défaut. Si un client transmet la valeur NULL dans _lpEntryID_, aucune banque de messages n'est sélectionnée par défaut.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::SetDefaultStore** établit une banque de messages comme une des options suivantes : 
+La méthode **IMAPISession:: SetDefaultStore** établit une banque de messages de l'une des manières suivantes: 
   
-- La banque de messages par défaut pour la session.
+- Banque de messages par défaut pour la session.
     
-- La banque de messages principale pour la session.
+- Banque de messages principale de la session.
     
-- Le magasin de message secondaire pour la session.
+- Banque de messages secondaire pour la session.
     
-Pour établir une banque de messages par défaut, la banque de messages doit avoir les indicateurs suivants définis dans sa propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) :
+Pour établir une banque de messages par défaut, les indicateurs suivants doivent être définis dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de la Banque de messages:
   
 - STORE_SUBMIT_OK
     
@@ -93,17 +93,17 @@ Pour établir une banque de messages par défaut, la banque de messages doit avo
     
 - STORE_MODIFY_OK
     
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez déterminer la banque de messages par défaut pour la session en récupérant la table d’état et en recherchant la valeur de l’indicateur STATUS_DEFAULT_STORE dans la colonne **PR_RESOURCE_FLAGS** . La ligne qui possède ce paramètre représente la banque de messages est désignée comme la valeur par défaut de la session. 
+Vous pouvez déterminer la Banque de messages par défaut pour la session en récupérant la table d'État et en recherchant le paramètre de l'indicateur STATUS_DEFAULT_STORE dans la colonne **PR_RESOURCE_FLAGS** . La ligne qui contient ce paramètre représente la Banque de messages désignée comme session par défaut. 
   
-Lorsque la MAPI_DEFAULT_STORE ou l’indicateur MAPI_SIMPLE_STORE_PERMANENT est défini, MAPI met à jour le profil, table banque de messages et table d’état. 
+Lorsque l'indicateur MAPI_DEFAULT_STORE ou MAPI_SIMPLE_STORE_PERMANENT est défini, MAPI met à jour le profil, la table de banque de messages et la table d'État. 
   
-Chaque fois qu’une modification est apportée à la valeur par défaut de banque de messages, les notifications suivantes sont générées :
+Chaque fois qu'une modification est apportée au paramètre par défaut de la Banque de messages, les notifications suivantes sont générées:
   
-- Une notification d’événement **fnevTableModified** est émise pour chaque ligne concernée dans les deux le magasin et l’état de la table de messages. 
+- Une notification d'événement **fnevTableModified** est émise pour chaque ligne concernée dans la Banque de messages et le tableau d'État. 
     
-- Une notification interne est émise au spouleur MAPI. Déjà en cours sont effectuées sans modification ; nouvelles opérations qui impliquent la banque de messages par défaut, telles que le téléchargement de message, sont traitées de la nouvelle banque par défaut.
+- Une notification interne est émise pour le spouleur MAPI. Les opérations déjà en cours sont effectuées sans modification; les nouvelles opérations qui impliquent la Banque de messages par défaut, telles que le téléchargement de messages, sont traitées pour le nouveau magasin par défaut.
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -111,7 +111,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI utilise la méthode **IMAPISession::SetDefaultStore** pour définir le magasin sélectionné en tant que la banque par défaut.  <br/> |
+|MainDlg. cpp  <br/> |CMainDlg:: OnSetDefaultStore  <br/> |MFCMAPI utilise la méthode **IMAPISession:: SetDefaultStore** pour définir la Banque sélectionnée comme banque par défaut.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

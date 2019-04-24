@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3307bb252ca4436999a541f85657fed9878c798a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 244aaea4902d6be8eda4cdca176436af9b002ba7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340102"
 ---
 # <a name="dtblddlbx"></a>DTBLDDLBX
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un contrôle de liste déroulante qui sera utilisé dans une boîte de dialogue établie à partir d’un tableau d’affichage.
+Décrit un contrôle de liste déroulante qui sera utilisé dans une boîte de dialogue construite à partir d'une table d'affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _DTBLDDLBX
@@ -42,7 +42,7 @@ typedef struct _DTBLDDLBX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  **ulFlags**
   
@@ -50,27 +50,27 @@ typedef struct _DTBLDDLBX
     
  **ulPRDisplayProperty**
   
-> Balise de propriété pour une propriété de type PT_TSTRING. Cette propriété est une des colonnes de la table identifiée par le membre **ulPRTableName** . Les valeurs de cette propriété sont affichent dans la liste. 
+> Balise de propriété pour une propriété de type PT_TSTRING. Cette propriété est une des colonnes du tableau identifié par le membre **ulPRTableName** . Les valeurs de cette propriété sont affichées dans la liste. 
     
  **ulPRSetProperty**
   
-> Balise de propriété pour une propriété d’un type quelconque. Cette propriété est une des colonnes de la table identifiée par le membre **ulPRTableName** . Lorsque l’utilisateur de la liste sélectionne une valeur de propriété pour le membre **ulPRDisplayProperty** à partir des lignes de la table identifiée par le membre **ulPRTableName** , le membre **ulPRSetProperty** correspondant est défini. 
+> Balise de propriété pour une propriété de n'importe quel type. Cette propriété est une des colonnes du tableau identifié par le membre **ulPRTableName** . Lorsque l'utilisateur de la liste sélectionne une valeur de propriété pour le membre **ulPRDisplayProperty** à partir des lignes du tableau identifié par le membre **ulPRTableName** , le membre **ulPRSetProperty** correspondant est défini. 
     
  **ulPRTableName**
   
-> Balise de propriété pour une propriété de tableau de type PT_OBJECT qui peuvent être ouverts à l’aide d’un **OpenProperty** appeler. Le tableau doit avoir deux colonnes : **ulPRDisplayProperty** et **ulPRSetProperty**. Les lignes du tableau doivent correspondre aux éléments de la liste.
+> Balise de propriété pour une propriété de table de type PT_OBJECT qui peut être ouverte à l'aide d'un appel **OpenProperty** . Le tableau doit contenir deux colonnes: **ulPRDisplayProperty** et **ulPRSetProperty**. Les lignes du tableau doivent correspondre à des éléments de la liste.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLDDLBX** décrit un contrôle de liste déroulante qui s’affiche sous la forme d’un seul élément jusqu'à ce que l’utilisateur choisit pour le développer. 
+Une structure **DTBLDDLBX** décrit un contrôle de liste déroulante qui s'affiche sous la forme d'un élément unique jusqu'à ce que l'utilisateur choisisse de le développer. 
   
-Les trois propriétés identifiées par les balises de propriété fonctionnent ensemble pour afficher les informations dans la liste et définir une propriété connexe. Le membre **ulPRTableName** est un objet table qui est accessible via un appel à [IMAPIProp::OpenProperty](imapiprop-openproperty.md). La table contient deux colonnes : une colonne pour la propriété identifiée par le membre **ulPRDisplayProperty** et l’autre pour la propriété identifiée par le membre **ulPRSetProperty** . 
+Les trois propriétés identifiées par les balises Property s'emploient ensemble pour afficher les informations de la liste et définir une propriété associée. Le membre **ulPRTableName** est un objet table accessible via un appel à [IMAPIProp:: OpenProperty](imapiprop-openproperty.md). Le tableau comporte deux colonnes: une colonne pour la propriété identifiée par le membre **ulPRDisplayProperty** et l'autre pour la propriété identifiée par le membre **ulPRSetProperty** . 
   
-La propriété **ulPRDisplayProperty** gère l’affichage de liste. Lorsqu’un utilisateur sélectionne une des valeurs de l’affichage, [IMAPIProp::SetProps](imapiprop-setprops.md) pour définir la propriété correspondante tels qu’identifiés par le membre **ulPRSetProperty** appels MAPI. Cela signifie que la propriété dans la même ligne que la propriété affichage sélectionné. Le membre **ulPRSetProperty** ne peut pas être défini sur **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
+La propriété **ulPRDisplayProperty** pilote l'affichage de la liste. Lorsqu'un utilisateur sélectionne une des valeurs dans l'affichage, MAPI appelle [IMAPIProp:: SetProps](imapiprop-setprops.md) pour définir la propriété correspondante identifiée par le membre **ulPRSetProperty** . Cela signifie que la propriété est dans la même ligne que la propriété Display sélectionnée. Le membre **ulPRSetProperty** ne peut pas être défini sur **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)).
   
-Une valeur initiale s’affiche dans la liste si MAPI a récupéré de la propriété représentée par le membre **ulPRSetProperty** via un appel à [IMAPIProp::GetProps](imapiprop-getprops.md) et trouve une ligne dans la table avec la valeur du membre **ulPRSetProperty** . La valeur affichée initiale est le contenu de la colonne **ulPRDisplayProperty** à partir de la ligne qui correspond à la propriété dans le membre **ulPRDisplayProperty** de la structure. La valeur renvoyée par **GetProps** pour la propriété identifiée par le membre **ulPRDisplayProperty** devient la valeur initiale qui s’affiche lors du premier affichage de la liste. 
+Une valeur initiale s'affiche dans la liste si MAPI a récupéré la propriété représentée par le membre **ulPRSetProperty** via un appel à [IMAPIProp:: GetProps](imapiprop-getprops.md) et a localisé une ligne dans le tableau avec la valeur du membre **ulPRSetProperty** . La valeur initiale affichée est le contenu de la colonne **ulPRDisplayProperty** de cette ligne qui correspond à la propriété dans le membre **ulPRDisplayProperty** de la structure. La valeur renvoyée par **GetProps** pour la propriété identifiée par le membre de **ulPRDisplayProperty** devient la valeur initiale qui apparaît lorsque la liste est d'abord affichée. 
   
-Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md). Pour plus d’informations sur les types de propriété, voir [Vue d’ensemble des types de propriété MAPI](mapi-property-type-overview.md).
+Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md). Pour plus d'informations sur les types de propriétés, voir [MAPI Property type Overview](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -87,9 +87,9 @@ Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](d
 
 [Structures MAPI](mapi-structures.md)
   
-[Implémentation d’un tableau d’affichage](display-table-implementation.md)
+[Implémentation des tables d'affichage](display-table-implementation.md)
   
-[Tableaux d’affichage](display-tables.md)
+[Tables d'affichage](display-tables.md)
   
-[Vue d’ensemble des types de propriété MAPI](mapi-property-type-overview.md)
+[Vue d'ensemble du type de propriété MAPI](mapi-property-type-overview.md)
 

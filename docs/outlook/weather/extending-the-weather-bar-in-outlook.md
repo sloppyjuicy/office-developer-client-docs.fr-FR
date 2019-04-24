@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
 ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336569"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 
@@ -80,8 +80,8 @@ Le tableau suivant décrit la clé **WeatherServiceUrl**.
   
 |||
 |:-----|:-----|
-|**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
-|**Nom de valeur** <br/> |**WeatherServiceUrl** <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Nom de la valeur** <br/> |**WeatherServiceUrl** <br/> |
 |**Type de valeur** <br/> |REG_SZ  <br/> |
 |**Valeur par défaut** <br/> |EMPTY_STRING  <br/> |
 |**Description** <br/> |URL d'un service de données météorologiques.  <br/> |
@@ -99,8 +99,8 @@ Notez qu'un administrateur peut également utiliser la stratégie de groupe pour
   
 |||
 |:-----|:-----|
-|**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
-|**Nom de valeur** <br/> |**DisableWeather** <br/> |
+|**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
+|**Nom de la valeur** <br/> |**DisableWeather** <br/> |
 |**Type de valeur** <br/> |REG_DWORD  <br/> |
 |**Valeur par défaut** <br/> |0  <br/> |
 |**Description** <br/> |Une valeur de 0 active la barre météorologique. Toute autre valeur la désactive.  <br/> |
@@ -120,7 +120,7 @@ Un administrateur peut également utiliser la stratégie de groupe pour désacti
 |**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Nom de valeur** <br/> |**UseOnlineContent** <br/> |
 |**Type de valeur** <br/> |REG_DWORD  <br/> |
-|**Valeur par défaut** <br/> |2  <br/> |
+|**Valeur par défaut** <br/> |n°2  <br/> |
 |**Description** <br/> |Une valeur de 2 active la barre météorologique. Toute autre valeur la désactive.  <br/> |
    
 Si la fonctionnalité de barre météorologique a été désactivée par la stratégie de groupe, l'onglet **Calendrier** ne comprend pas la case à cocher **Afficher la météo sur le calendrier**. Consultez l'administrateur pour réactiver la fonctionnalité. 

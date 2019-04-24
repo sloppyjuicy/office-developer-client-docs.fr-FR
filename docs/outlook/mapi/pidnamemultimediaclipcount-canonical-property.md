@@ -11,45 +11,45 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82242de7-e6f6-4882-bd2e-d62c8d6701b7
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 0cc4b38bd7a188722b9c762126f863c2a87f4771
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334971"
 ---
 # <a name="pidnamemultimediaclipcount-canonical-property"></a>Propriété canonique PidNameMultimediaClipCount
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le nombre d’éléments multimédias dans le fichier qui est attaché au document.
+Indique le nombre de clips multimédias dans le fichier associé au document.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucune  <br/> |
-|Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |MMClipCount  <br/> |
+|Noms conviviaux:  <br/> |Aucun  <br/> |
+|Jeu de propriétés:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Nom de la propriété:  <br/> |MMClipCount  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Common  <br/> |
+|Domaine :  <br/> |Courant  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les documents.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

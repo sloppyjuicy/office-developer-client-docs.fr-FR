@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 010f69b70324d4280a34d2fe06d670e07d922d86
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0810ed7ce20bba95c4286e6e042065c0c2d1a802
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586773"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339864"
 ---
 # <a name="imapiprogresssetlimits"></a>IMAPIProgress::SetLimits
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586773"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit les limites supérieures et inférieures pour le nombre d’éléments dans l’opération et des indicateurs qui déterminent comment les informations d’avancement sont calculées pour l’opération.
+Définit les limites inférieure et supérieure du nombre d'éléments dans l'opération, ainsi que les indicateurs qui contrôlent le mode de calcul des informations d'avancement pour l'opération.
   
 ```cpp
 HRESULT SetLimits(
@@ -39,19 +39,19 @@ HRESULT SetLimits(
 
  _lpulMin_
   
-> [in] Pointeur vers une variable qui contient la limite inférieure d’éléments dans l’opération.
+> dans Pointeur vers une variable qui contient la limite inférieure des éléments de l'opération.
     
  _lpulMax_
   
-> [in] Pointeur vers une variable qui contient la limite supérieure d’éléments dans l’opération.
+> dans Pointeur vers une variable qui contient la limite supérieure des éléments de l'opération.
     
  _lpulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le niveau de l’opération sur l’avancement des informations sont calculées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le niveau d'opération sur lequel les informations de progression sont calculées. L'indicateur suivant peut être défini:
     
 MAPI_TOP_LEVEL 
   
-> Utilise les valeurs de paramètres de la méthode [IMAPIProgress::Progress](imapiprogress-progress.md) de _ulCount_ et _ulTotal_ , qui indiquent l’élément en cours de traitement et le nombre total d’éléments, respectivement, au cours d’incrémentation sur l’opération. Lorsque cet indicateur est défini, les valeurs des limites inférieures et supérieures globales doivent être définies. 
+> Utilise les valeurs des paramètres [méthode imapiprogress::P rogress](imapiprogress-progress.md) de la méthode _ulCount_ et _ulTotal_ , qui indiquent respectivement l'élément traité et le nombre total d'éléments pour incrémenter la progression de l'opération. Lorsque cet indicateur est défini, les valeurs des limites inférieure et supérieure globales doivent être définies. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,11 +61,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs de services appeler la méthode **IMAPIProgress::SetLimits** pour définir ou effacer l’indicateur MAPI_TOP_LEVEL et définir les valeurs minimales et maximales globales et locales. La valeur du paramètre indicateur affecte si l’objet de l’avancement comprend les valeurs minimales et maximales pour être local ou global. Lorsque l’indicateur MAPI_TOP_LEVEL est défini, ces valeurs sont considérées comme globales et sont utilisés pour calculer l’avancement pour toute l’opération. Objets de progression initialiser la valeur minimale globale à 1 et la valeur maximale globale et 1000. 
+Les fournisseurs de services appellent la méthode **méthode imapiprogress:: SetLimits** pour définir ou effacer l'indicateur MAPI_TOP_LEVEL et pour définir les valeurs minimales et maximales locales et globales. La valeur du paramètre flag détermine si l'objet Progress comprend les valeurs minimale et maximale qui doivent être locales ou globales. Lorsque l'indicateur MAPI_TOP_LEVEL est défini, ces valeurs sont considérées comme globales et sont utilisées pour calculer la progression de l'opération entière. Les objets Progress initialisent la valeur minimale globale sur 1 et la valeur maximale globale sur 1000. 
   
-Lorsque MAPI_TOP_LEVEL n’est pas définie, les valeurs minimales et maximales sont considérées comme locales et fournisseurs de les utilisent en interne pour afficher la progression de sous-objets de niveau inférieurs. Objets de progression enregistrement les valeurs minimales et maximales locales uniquement afin qu’ils peuvent être renvoyées à fournisseurs lorsque les méthodes [IMAPIProgress::GetMin](imapiprogress-getmin.md) et [IMAPIProgress::GetMax](imapiprogress-getmax.md) sont appelées. 
+Lorsque MAPI_TOP_LEVEL n'est pas défini, les valeurs minimale et maximale sont considérées comme locales, et les fournisseurs les utilisent en interne pour afficher la progression des sous-objets de niveau inférieur. Les objets Progress enregistrent uniquement les valeurs minimales et maximales de sorte qu'ils puissent être renvoyés aux fournisseurs lorsque les méthodes [méthode imapiprogress:: GetMin](imapiprogress-getmin.md) et [méthode imapiprogress:: GetMax](imapiprogress-getmax.md) sont appelées. 
   
-Pour plus d’informations sur l’implémentation des autres méthodes [IMAPIProgress](imapiprogressiunknown.md) et **SetLimits** , consultez [l’implémentation d’un indicateur de progression](implementing-a-progress-indicator.md).
+Pour plus d'informations sur la façon d'implémenter **SetLimits** et les autres méthodes [méthode imapiprogress](imapiprogressiunknown.md) , consultez la rubrique [implémentation d'un indicateur de progression](implementing-a-progress-indicator.md).
   
 Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
@@ -75,7 +75,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::SetLimits  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::SetLimits** pour définir les indicateurs pour l’objet de l’avancement des limites maximale et minimale.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress:: SetLimits  <br/> |MFCMAPI utilise la méthode **méthode imapiprogress:: SetLimits** pour définir les limites et les indicateurs maximaux et minimaux de l'objet Progress.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

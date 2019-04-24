@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.
-ms.openlocfilehash: 840ce0c4ce73da378f80e5d8a185073ac3915daf
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338548"
 ---
 # <a name="address-cell-hyperlinks-section"></a>Address, cellule (section Hyperlinks)
 
 Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.
   
-Vous pouvez spécifier l’adresse comme un chemin d’accès relatif basé sur le chemin d’accès de base défini pour le document dans la zone **base de lien hypertexte** sous l’onglet **Résumé** de la boîte de dialogue **Propriétés** (cliquez sur l’onglet **fichier** , cliquez sur **Info**** propriétés ** puis cliquez sur **Propriétés avancées**). Si le document n’a aucun chemin d’accès de base, l’application utilise le chemin d’accès du document. Si le document n’a pas été enregistré, le lien hypertexte est indéfini.
+Vous pouvez spécifier address sous la forme d'un chemin d'accès relatif basé sur le chemin de base défini pour le document dans la zone **répertoire Web** sous l'onglet **Résumé** de la boîte de dialogue **Propriétés** (cliquez sur l'onglet **fichier** , cliquez sur **informations**, puis sur * * Propriétés * * , puis cliquez sur **Propriétés avancées**. Si le document n’a pas de chemin de base, l’application utilise le chemin d’accès du document. Si le document n’a pas encore été enregistré, le lien hypertexte n’est pas défini.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de la cellule Address dans la boîte de dialogue **liens hypertexte** (cliquez sur le **lien hypertexte** sous l’onglet **Insertion** ). 
+Vous pouvez également définir la valeur de la cellule Address dans la boîte de dialogue **Liens hypertexte** (cliquez sur **Lien hypertexte** sous l’onglet **Insertion**). 
   
-Pour obtenir une référence à la cellule Address par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Address à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Lien hypertexte. *nom* . Adresse où un lien hypertexte. *nom* est le nom de la ligne hyperlink  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *nom* . Adresse où lien hypertexte. *Name* est le nom de la ligne de lien hypertexte  <br/> |
    
-Pour obtenir une référence à la cellule Address par un nom à partir d’une autre formule ou d’un programme, à l’aide de la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Address par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
   
 |||
 |:-----|:-----|

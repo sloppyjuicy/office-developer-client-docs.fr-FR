@@ -1,31 +1,31 @@
 ---
-title: Configuration d’un complément hors connexion
+title: Configuration d'un complément d'État hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: 'Dernière modification : 05 juillet 2012'
+description: 'Derni�re modification�: jeudi 5 juillet 2012'
 ms.openlocfilehash: fa3cee9e6b25a9bcb951fbcbfa4435890341a872
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339290"
 ---
-# <a name="setting-up-an-offline-state-add-in"></a>Configuration d’un complément hors connexion
+# <a name="setting-up-an-offline-state-add-in"></a>Configuration d'un complément d'État hors connexion
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour implémenter un complément hors connexion, vous devez implémenter la connexion, d’initialisation et d’autres fonctions du programme d’installation. Dans cette rubrique, ces connexions, l’initialisation et le programme d’installation des fonctions sont illustrées à l’aide des exemples de code à partir de la macro complémentaire exemple hors connexion état. L’exemple de complément d’état hors connexion est un complément COM qui ajoute un menu **État hors connexion** à Outlook et qui utilise l’API d’état hors connexion. Via le menu **État hors connexion** , vous pouvez activer ou désactiver l’analyse de l’état, vérifiez l’état en cours et modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
+Pour implémenter un complément d'État hors connexion, vous devez implémenter la connexion, l'initialisation et d'autres fonctions de configuration. Dans cette rubrique, ces fonctions de connexion, d'initialisation et d'installation sont démontrées à l'aide d'exemples de code à partir de l'exemple de complément d'État hors connexion. L’exemple de complément d’état hors connexion est un complément COM qui ajoute un menu **État hors connexion** à Outlook et qui utilise l’API d’état hors connexion. Dans le menu **État hors connexion** , vous pouvez activer ou désactiver l'analyse de l'État, vérifier l'état actuel et modifier l'état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
   
-Après avoir configuré un complément hors connexion, vous devez implémenter les fonctions pour surveiller et modifier des changements d’état de connexion. Pour plus d’informations, voir [Surveillance connexion état modifications à l’aide de complément état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
+Après avoir configuré un complément d'État hors connexion, vous devez implémenter des fonctions pour surveiller et modifier les modifications d'état de connexion. Pour plus d'informations, consultez la rubrique [surveillance des modifications de l'état de connexion à l'aide d'un complément d'État hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
-## <a name="on-connection-routine"></a>Dans la routine de connexion
+## <a name="on-connection-routine"></a>Sur la routine de connexion
 
-La **[Méthode IDTExtensibility2.OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** est appelé chaque fois qu’un complément est chargé. Il est le point d’entrée pour le complément, de sorte que le code que vous avez placé dans le `OnConnection` fonction est appelée lorsque le complément démarre. Dans l’exemple suivant, la `OnConnection` les appels de fonction la `HrInitAddin` fonction. 
+La **[méthode IDTExtensibility2. OnConnection](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** est appelée chaque fois qu'un complément est chargé. Il s'agit du point d'entrée pour le complément, de sorte que le code que vous `OnConnection` avez placé dans la fonction est appelé au démarrage du complément. Dans l'exemple suivant, la `OnConnection` fonction appelle la `HrInitAddin` fonction. 
   
-### <a name="cmyaddinonconnection-example"></a>Exemple CMyAddin::OnConnection()
+### <a name="cmyaddinonconnection-example"></a>Exemple cmyaddin:: OnConnection (), exemple
 
 ```cpp
 STDMETHODIMP CMyAddin::OnConnection( 
@@ -44,11 +44,11 @@ STDMETHODIMP CMyAddin::OnConnection(
 }
 ```
 
-## <a name="initialize-add-in-routine"></a>Initialiser le complément de routine
+## <a name="initialize-add-in-routine"></a>Initialiser la routine du complément
 
-Les `HrInitAddin` les appels de fonction la `LoadLibraries`, `HrCacheProfileName`, et `HrAddMenuItems` fonctions pour terminer la configuration du complément hors connexion. 
+La `HrInitAddin` fonction appelle les `LoadLibraries`fonctions `HrCacheProfileName`, et `HrAddMenuItems` pour terminer la configuration du complément d'État hors connexion. 
   
-### <a name="cmyaddinhrinitaddin-example"></a>Exemple CMyAddin::HrInitAddin()
+### <a name="cmyaddinhrinitaddin-example"></a>Exemple cmyaddin:: HrInitAddin () exemple
 
 ```cpp
 HRESULT CMyAddin::HrInitAddin() 
@@ -63,11 +63,11 @@ HRESULT CMyAddin::HrInitAddin()
 }
 ```
 
-## <a name="load-libraries-routine"></a>Charger une routine de bibliothèques
+## <a name="load-libraries-routine"></a>Routine de chargement de bibliothèques
 
-Le `LoadLibraries` fonction charge les fichiers de bibliothèque de liens dynamiques (DLL) nécessitant la macro complémentaire. 
+La `LoadLibraries` fonction charge les fichiers de bibliothèque de liens dynamiques (dll) requis par le complément. 
   
-### <a name="loadlibraries-example"></a>Exemple LoadLibraries()
+### <a name="loadlibraries-example"></a>Exemple de LoadLibraries ()
 
 ```cpp
 void LoadLibraries() 
@@ -166,11 +166,11 @@ void LoadLibraries()
 }
 ```
 
-## <a name="cache-profile-name-routine"></a>Routine de nom du profil de cache
+## <a name="cache-profile-name-routine"></a>Routine de nom de profil de cache
 
-Le `HrCacheProfileName` fonction appelle la fonction **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** pour ouvrir une section de profil pour la session active, puis définit le profil pour les gestionnaires de bouton. 
+La `HrCacheProfileName` fonction appelle la fonction **[IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md)** pour ouvrir une section de profil pour la session en cours, puis définit le profil des gestionnaires de boutons. 
   
-### <a name="cmyaddinhrcacheprofilename-example"></a>Exemple CMyAddin::HrCacheProfileName()
+### <a name="cmyaddinhrcacheprofilename-example"></a>Exemple cmyaddin:: HrCacheProfileName () exemple
 
 ```cpp
 HRESULT CMyAddin::HrCacheProfileName() 
@@ -212,11 +212,11 @@ HRESULT CMyAddin::HrCacheProfileName()
 }
 ```
 
-## <a name="add-menu-items-routine"></a>Ajouter des éléments de Menu routine
+## <a name="add-menu-items-routine"></a>Ajouter une routine des éléments de menu
 
-Le `HrAddMenuItems` fonction définit les options de menu qui s’affichent dans le menu **État hors connexion** qui est créé lorsque le complément est chargé dans Outlook et appelle ensuite `DispEventAdvise` pour chaque élément de menu. 
+La `HrAddMenuItems` fonction définit les options de menu qui apparaissent sous le menu **État hors connexion** créé lorsque le complément est chargé dans Outlook, puis appelle `DispEventAdvise` pour chaque élément de menu. 
   
-### <a name="cmyaddinhraddmenuitems-example"></a>Exemple CMyAddin::HrAddMenuItems()
+### <a name="cmyaddinhraddmenuitems-example"></a>Exemple cmyaddin:: HrAddMenuItems () exemple
 
 ```cpp
 HRESULT CMyAddin::HrAddMenuItems() 
@@ -293,5 +293,5 @@ HRESULT CMyAddin::HrAddMenuItems()
 - [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md)
 - [À propos de l’exemple de complément d’état hors connexion](about-the-sample-offline-state-add-in.md)
 - [Surveillance des modifications de l’état de connexion à l’aide d’un complément d’état hors connexion](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-- [Déconnexion d’un complément en mode hors connexion d’état](disconnecting-an-offline-state-add-in.md)
+- [Déconnexion d'un complément d'État hors connexion](disconnecting-an-offline-state-add-in.md)
 

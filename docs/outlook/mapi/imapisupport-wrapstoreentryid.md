@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b3850da2917dbf463590643b9e7ba8420f4ea219
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341285"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576056"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit un identificateur d’entrée dans le format standard MAPI identificateur d’entrée interne d’une banque de messages.
+ConVertit l'identificateur d'entrée interne d'une banque de messages en un identificateur d'entrée au format MAPI standard.
   
 ```cpp
 HRESULT WrapStoreEntryID(
@@ -40,37 +40,37 @@ LPENTRYID FAR * lppWrappedEntry
 
  _cbOrigEntry_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpOrigEntry_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpOrigEntry_ . 
     
  _lpOrigEntry_
   
-> [in] Pointeur vers l’identificateur d’entrée privé pour la banque de messages.
+> dans Pointeur vers l'identificateur d'entrée privée de la Banque de messages.
     
  _lpcbWrappedEntry_
   
-> [out] Pointeur vers le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lppWrappedEntry_ . 
+> remarquer Pointeur vers le nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lppWrappedEntry_ . 
     
  _lppWrappedEntry_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée justifiés.
+> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée encapsulée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’identificateur d’entrée a été correctement entourée.
+> L'identificateur d'entrée a été correctement encapsulé.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de prise en charge de fournisseur de service. Fournisseurs de services utilisent **WrapStoreEntryID** pour MAPI génère un identificateur d’entrée pour une banque de messages qui encapsule l’identificateur d’entrée interne du magasin. 
+La méthode **IMAPISupport:: WrapStoreEntryID** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services utilisent **WrapStoreEntryID** pour qu'MAPI génère un identificateur d'entrée pour une banque de messages qui encapsule l'identificateur d'entrée interne de la Banque. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsqu’un client appelle la méthode de [IMAPIProp::GetProps](imapiprop-getprops.md) de la banque de messages pour extraire sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) et la banque de messages utilise un identificateur d’entrée dans un format privé, appelez **WrapStoreEntryID **et renvoyer l’identificateur d’entrée indiqué par le paramètre _lppWrappedEntry_ . 
+Lorsqu'un client appelle la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de votre magasin de messages pour récupérer sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) et que votre banque de messages utilise un identificateur d'entrée dans un format privé, appelez **WrapStoreEntryID **et renvoyer l'identificateur d'entrée pointé par le paramètre _lppWrappedEntry_ . 
   
-Les appels vers les méthodes [IMSProvider::Logon](imsprovider-logon.md) et [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) obtenir toujours un identificateur d’entrée privé du magasin ; la version encapsulée est utilisée uniquement entre les applications clientes et MAPI. 
+Les appels aux méthodes [IMSProvider:: Logon](imsprovider-logon.md) et [IMSLogon:: CompareEntryIDs](imslogon-compareentryids.md) obtiennent toujours l'identificateur d'entrée privé de la Banque; la version incluse dans un wrapper est utilisée uniquement entre les applications clientes et MAPI. 
   
-Libérer de la mémoire pour l’identificateur d’entrée indiqué par le paramètre _lppWrappedEntry_ à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé, à l’aide de l’identificateur d’entrée. 
+Libérez de la mémoire pour l'identificateur d'entrée désigné par le paramètre _lppWrappedEntry_ à l'aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d'utiliser l'identificateur d'entrée. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a791b95f-56ad-493a-9ba5-fb4c7dd80e89
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2c4577a35315c9df0055e97de26dd0baf1a2b489
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2d3fbf8f7a725f121579066001715fb0bc6beba0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336931"
 ---
 # <a name="deferring-processing"></a>Report de traitement
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Passez l’indicateur MAPI_DEFERRED_ERRORS pour les appels de méthode autant que possible. Beaucoup d’appels de méthode MAPI ont été optimisés pour accepter cet indicateur, à l’origine du fournisseur à soit attendre la tâche demandée plusieurs tâches peuvent être effectuées à la fois, ou vous pouvez attendre ne sont plus les résultats.
+TransMettez l'indicateur MAPI_DEFERRED_ERRORS aux appels de méthode autant que possible. De nombreux appels de méthode MAPI ont été optimisés pour accepter cet indicateur, ce qui a pour effet de reporter la tâche demandée jusqu'à ce que plusieurs tâches puissent être exécutées en même temps ou que vous ne puissiez plus attendre les résultats.
   
-Par exemple, si vous transmettez MAPI_DEFERRED_ERRORS à [IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir un dossier, l’ouverture du dossier et un appel à distance possible peut être différée jusqu'à ce que vous effectuez un autre appel comme un appel du dossier **GetHierarchyTable** ou ** GetProps** méthodes. À la fois **GetHierarchyTable** et **GetProps** requièrent le retour de données à partir du fournisseur de service, une tâche qui doit être exécutée immédiatement. 
+Par exemple, si vous transmettez MAPI_DEFERRED_ERRORS à [IMsgStore:: OpenEntry](imsgstore-openentry.md) pour ouvrir un dossier, l'ouverture du dossier et un éventuel appel distant peut être repoussé jusqu'à ce que vous appeliez un autre appel au **GetHierarchyTable** du dossier ou ** Méthodes GetProps** . **GetHierarchyTable** et **GetProps** requièrent le retour de données du fournisseur de services, une tâche qui doit être exécutée immédiatement. 
   
-Une autre manière de différer le traitement est simplement ne pas pour émettre un appel. En ayant connaissance de l’utilisateur et de l’utilisateur peut percevoir une charge de ressources ou de temps de traitement, vous pouvez déterminer quand il est judicieux de passer des appels. Il existe une opportunité pour améliorer les performances en effectuant des appels, soit à la fois lorsque l’utilisateur ne remarqueront ou ne pas les rendant tout.
+Un autre moyen de différer le traitement est simplement de ne pas passer un appel. En étant conscient de l'utilisateur et lorsque l'utilisateur peut percevoir une décharge sur les ressources ou le temps de traitement, vous pouvez déterminer quand il est judicieux d'effectuer des appels. Il est possible d'améliorer les performances en effectuant des appels à la fois lorsque l'utilisateur ne les remarquera pas ou en ne les apportant pas du tout.
   
-Par exemple, considérez la situation lorsque vous recevez une plusieurs notification par seconde à partir d’une banque de messages est de déplacer un grand nombre de messages. Un indicateur de progression est affiché pour indiquer le pourcentage d’achèvement de l’opération. Les utilisateurs généralement pas voit cette opération pour être lente jusqu'à ce que quelques secondes se sont écoulées. Par conséquent, si vous mettez à jour l’indicateur de progression, n’apportez aucune modification jusqu’au moins quatre secondes après l’ouverture de l’opération de déplacement. Cela gagner du temps dans les cas lorsque l’opération est rapide et informer les utilisateurs en temps voulu lorsque l’opération est lente.
+Par exemple, considérez la situation lorsque vous recevez plusieurs notifications par seconde d'une banque de messages qui déplace un grand nombre de messages. Un indicateur de progression s'affiche pour indiquer le pourcentage d'achèvement de l'opération. En règle générale, les utilisateurs ne considèrent pas que cette opération est lente avant que quelques secondes ne se soient écoulées. Par conséquent, si vous mettez à jour l'indicateur de progression, n'effectuez aucune modification pendant au moins quatre secondes après l'initialisation de l'opération de déplacement. Cela permet de gagner du temps dans les cas courants où l'opération est rapide et d'informer les utilisateurs en temps opportun lorsque l'opération est lente.
   
 

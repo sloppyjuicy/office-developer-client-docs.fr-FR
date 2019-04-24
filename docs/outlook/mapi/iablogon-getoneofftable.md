@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3732d8cbfaf9a6a10c62eae9e7a12b04de8a80ee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 326a78ed512ec82a9f16b1540aad60954ab2d864
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338408"
 ---
 # <a name="iablogongetoneofftable"></a>IABLogon::GetOneOffTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "22583679"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un tableau des modèles uniques pour la création de destinataires à ajouter à la liste des destinataires d’un message sortant.
+Renvoie une table des modèles uniques permettant de créer des destinataires à ajouter à la liste des destinataires d'un message sortant.
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -34,41 +34,41 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des colonnes de chaîne inclus dans le tableau. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le type de colonnes de chaîne incluses dans le tableau. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les colonnes de type chaîne sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les colonnes de type chaîne sont au format ANSI.
+> Les colonnes de chaîne sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les colonnes de la chaîne sont au format ANSI.
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table unique.
+> remarquer Pointeur vers un pointeur vers la table ponctuelle.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le tableau unique a été récupéré correctement.
+> La table ponctuelle a été récupérée avec succès.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et le fournisseur de carnet d’adresses ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été définie et le fournisseur de carnet d’adresses prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et le fournisseur de carnet d'adresses ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et le fournisseur de carnet d'adresses prend en charge uniquement Unicode.
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de carnet d’adresses ne fournit pas de modèles uniques.
+> Le fournisseur de carnet d'adresses ne fournit pas de modèles uniques.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **GetOneOffTable** pour rendre des modèles uniques disponibles pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d’un message sortant. Fournisseurs de carnet d’adresses doivent prendre en charge la notification sur leur table unique pour informer les MAPI de modifications du modèle. MAPI tenir à jour la table unique open pour activer la mise à jour dynamique. 
+MAPI appelle la méthode **GetOneOffTable** pour mettre à disposition des modèles uniques pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d'un message sortant. Les fournisseurs de carnets d'adresses doivent prendre en charge la notification sur leur table ponctuelle pour informer MAPI des modifications de modèle. MAPI conserve la table ponctuelle ouverte pour activer la mise à jour dynamique. 
   
-Fournisseurs de carnet d’adresses peuvent également en charge une table unique pour chacune de leurs conteneurs. Les appelants récupérer ce tableau unique à l’appel de méthode [d’IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur et demande la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Les modèles disponibles par le biais de cette table sont utilisés pour ajouter des destinataires dans le conteneur. Pour une description des différences entre les deux types de tables uniques, voir [Implémentation de Tables uniques](implementing-one-off-tables.md).
+Les fournisseurs de carnets d'adresses peuvent également prendre en charge une table ponctuelle pour chacun de leurs conteneurs. Les appelants extraient cette table ponctuelle en appelant la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) du conteneur et en demandant la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Les modèles disponibles dans ce tableau permettent d'ajouter des destinataires au conteneur. Pour plus d'informations sur les différences entre les deux types de tables ponctuelles, reportez-vous à la rubrique [implementIng One-Off tables](implementing-one-off-tables.md).
   
-Pour obtenir la liste des colonnes requises dans la table uniques d’un fournisseur de carnet d’adresses, voir [Les Tables uniques](one-off-tables.md).
+Pour obtenir la liste des colonnes requises dans la table ponctuelle d'un fournisseur de carnet d'adresses, consultez la rubrique [tables One-Off](one-off-tables.md).
   
 ## <a name="see-also"></a>Voir aussi
 

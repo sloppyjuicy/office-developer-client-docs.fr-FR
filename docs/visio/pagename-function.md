@@ -8,29 +8,29 @@ f1_keywords:
 - Vis_DSS.chm82251577
 localization_priority: Normal
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
-description: Renvoie le nom de la page sous forme de chaîne.
-ms.openlocfilehash: 530707530d60955f460d6a747024b98ebdd5ab62
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le nom de la page sous la forme d'une chaîne.
+ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339464"
 ---
-# <a name="pagename-function"></a>PAGENAME, fonction
+# <a name="pagename-function"></a>Fonction PAGENAME
 
-Renvoie le nom de la page sous forme de chaîne.
+Renvoie le nom de la page sous la forme d'une chaîne.
   
 ## <a name="syntax"></a>Syntaxe
 
-PAGENAME (** *Idlang_opt* **) 
+PAGENAME (* * *langID_opt* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Idlang_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle.  <br/> |
+| _langID_opt_ <br/> |Facultatif  <br/> |**Number** <br/> |Permet de spécifier une langue pour la chaîne à laquelle la fonction renvoie. Utilisez 0 (valeur par défaut) pour spécifier la langue locale et 750 pour la langue universelle.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fd593b68ef7ca25b1f8ceec613786cdbdd03fd76
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 1df2c665f8e9d7a0bd6d47ec59b2adf706bead75
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579073"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338863"
 ---
 # <a name="upreade"></a>UPREADE
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtenir des informations détaillées pour le téléchargement de l’état de lecture d’un élément pendant le [téléchargement lire l’état de l’état](upload-read-status-state.md).
+Informations étendues pour le téléchargement de l'état de lecture d'un élément pendant l'état de [lecture de téléchargement](upload-read-status-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -31,31 +31,31 @@ struct UPREADE
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
->  [out] / [in] indicateurs pour déterminer le comportement approprié lors du téléchargement. 
+>  [out]/[in] indicateurs pour déterminer le comportement approprié pendant le chargement. 
     
   - UPR_ASSOC
     
-    - [out] L’élément est masqué.
+    - remarquer L'élément est masqué.
     
   - UPR_READ
     
-    - [out] L’état de lecture de l’élément a été modifié.
+    - remarquer L'état de lecture de l'élément a été modifié.
     
   - UPR_OK
     
-    - [in] Téléchargement a réussi. Le client définit après le chargement des informations sur le serveur.
+    - dans Le chargement a réussi. Le client le définit après avoir téléchargé des informations sur le serveur.
     
   - UPR_COMMIT
     
-    - [in] Télécharger l’état de lecture de l’élément maintenant, au lieu d’attendre la fin de la [Télécharger l’état de la table](upload-table-state.md) pour le traitement par lots plusieurs éléments. 
+    - dans Télécharger l'état de lecture de l'élément maintenant, au lieu d'attendre la fin de l'état de la [table de chargement](upload-table-state.md) pour traiter plus d'un élément. 
     
-_SKEY_
+_skey_
   
-> [out] Clé de la source de l’élément.
+> remarquer Clé source de l'élément.
     
 ## <a name="see-also"></a>Voir aussi
 

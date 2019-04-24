@@ -1,5 +1,5 @@
 ---
-title: Propriétés communément utilisées
+title: Propriétés couramment utilisées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
-description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: 6d1eadfa4138cbd8173bccd0f31e2cdc89c9d5d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 08 08, 2011'
+ms.openlocfilehash: 5e9a1832890c65998a1732278367c0e916fb0c5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334908"
 ---
-# <a name="commonly-used-properties"></a>Propriétés communément utilisées
+# <a name="commonly-used-properties"></a>Propriétés couramment utilisées
 
  
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Listes de propriétés MAPI obligatoires et facultatifs sont documentées dans plusieurs emplacements.
+Les listes des propriétés MAPI obligatoires et facultatives sont documentées à plusieurs endroits.
   
-Voir les interfaces suivantes pour les listes des propriétés associées aux objets qui prennent en charge ces interfaces :
+Consultez les interfaces suivantes pour obtenir la liste des propriétés associées aux objets qui prennent en charge ces interfaces:
   
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
@@ -43,9 +43,9 @@ Voir les interfaces suivantes pour les listes des propriétés associées aux ob
     
 - [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
-Pour les listes des propriétés requises pour les tables, voir la documentation pour chaque type de table dans les [Tables de MAPI](mapi-tables.md).
+Pour obtenir la liste des propriétés requises pour les tableaux, reportez-vous à la documentation de chaque type de table dans les [tables MAPI](mapi-tables.md).
   
-Pour obtenir les listes des propriétés de message requis et facultatifs pour les classes de message définis par MAPI, consultez les rubriques suivantes : 
+Pour obtenir la liste des propriétés de message requises et facultatives pour les classes de message définies par MAPI, consultez les rubriques suivantes: 
   
 - [Propriétés requises pour tous les messages](required-properties-for-all-messages.md)
     
@@ -55,6 +55,6 @@ Pour obtenir les listes des propriétés de message requis et facultatifs pour l
     
 - [Propriétés des destinataires pour tous les messages](recipient-properties-for-all-messages.md)
     
-- [Propriétés des destinataires pour les rapports d’état de remise](recipient-properties-for-delivery-status-reports.md)
+- [Propriétés des destinataires pour les rapports d'état de remise](recipient-properties-for-delivery-status-reports.md)
     
 

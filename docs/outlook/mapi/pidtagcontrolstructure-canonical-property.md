@@ -11,32 +11,32 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335244"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Propriété canonique PidTagControlStructure
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un pointeur vers une structure d’un contrôle utilisé dans une boîte de dialogue. 
+Contient un pointeur vers une structure pour un contrôle utilisé dans une boîte de dialogue. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificateur :  <br/> |0x3F01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Afficher une table MAPI  <br/> |
+|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété représente un pointeur de type long qui est converti à une des structures de contrôle. Les structures de contrôle sont les suivantes :
+Cette propriété représente un pointeur long qui est casté en une des structures de contrôle. Les structures de contrôle sont les suivantes:
   
 |||
 |:-----|:-----|
@@ -47,17 +47,17 @@ Cette propriété représente un pointeur de type long qui est converti à une d
 |[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |
 |[DTBLPAGE](dtblpage.md) <br/> |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

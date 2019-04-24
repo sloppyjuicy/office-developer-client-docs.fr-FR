@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f358467d72f2a9f395762f529244041a5d9d8d6a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334936"
 ---
 # <a name="closeimsgsession"></a>CloseIMsgSession
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ferme une session de messagerie et de tous les messages créés dans cette session. 
+Ferme une session de message et tous les messages créés au sein de cette session. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Les applications clientes et des fournisseurs de services  <br/> |
+|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
 VOID CloseIMsgSession(
@@ -43,7 +43,7 @@ VOID CloseIMsgSession(
 
  _lpMsgSess_
   
-> [in] Pointeur vers l’objet de la session message obtenue à l’aide de la fonction [OpenIMsgSession](openimsgsession.md) au début de la session de messagerie. 
+> dans Pointeur vers l'objet session de message obtenu à l'aide de la fonction [OpenIMsgSession](openimsgsession.md) au début de la session de message. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,8 +51,8 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Une session de messagerie est utilisée par les applications clientes et des fournisseurs de services want gérer plusieurs objets MAPI **IMessage** connexes greffées sur des objets OLE **IStorage** sous-jacents. Le client ou le fournisseur utilise les fonctions [OpenIMsgSession](openimsgsession.md) et **CloseIMsgSession** pour encapsuler la création de ces messages à l’intérieur d’une session de messagerie. Une fois la session de messagerie est ouvert, le client ou le fournisseur lui passe un pointeur dans un appel à [OpenIMsgOnIStg](openimsgonistg.md) pour créer un nouveau **IMessage**- sur - objet **IStorage** . 
+Une session de message est utilisée par les applications clientes et les fournisseurs de services qui souhaitent traiter avec plusieurs objets **IMESSAGE** MAPI associés créés sur des objets OLE **IStorage** sous-jacents. Le client ou le fournisseur utilise les fonctions [OpenIMsgSession](openimsgsession.md) et **CloseIMsgSession** pour encapsuler la création de ces messages à l'intérieur d'une session de message. Une fois la session de message ouverte, le client ou le fournisseur lui transmet un pointeur dans un appel à [OpenIMsgOnIStg](openimsgonistg.md) pour créer un nouvel objet **IMessage**sur l' **IStorage** . 
   
-Enregistre une session de messagerie de tous les objets **IMessage**- sur - **IStorage** ouverts pendant la durée de la session, en plus de toutes les pièces jointes et d’autres propriétés des messages. Lorsqu’un client ou un fournisseur appelle **CloseIMsgSession**, il ferme tous ces objets. L’appel de **CloseIMsgSession** est la seule façon de fermer **IMessage**- sur - objets **IStorage** . 
+Une session de message assure le suivi de tous les objets **IMessage**sur le **IStorage** ouverts pendant la durée de la session, en plus de toutes les pièces jointes et d'autres propriétés des messages. Lorsqu'un client ou un fournisseur appelle **CloseIMsgSession**, il ferme tous ces objets. L'appel de **CloseIMsgSession** est la seule façon de fermer des objets **IMessage**-sur- **IStorage** . 
   
 

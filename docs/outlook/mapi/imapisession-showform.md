@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9e0ad958acc40dd28f3d9aab9996c1b7a36f38a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 8b90dee3958a20994f9a60d104ae714ad95307d3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335664"
 ---
 # <a name="imapisessionshowform"></a>IMAPISession::ShowForm
 
@@ -47,75 +47,75 @@ HRESULT ShowForm(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent du formulaire.
+> dans Handle de la fenêtre parente du formulaire.
     
  _lpMsgStore_
   
-> [in] Un pointeur vers la banque de messages qui contient le dossier indiqué par le paramètre _lpParentFolder_ . 
+> dans Pointeur vers la Banque de messages qui contient le dossier désigné par le paramètre _lpParentFolder_ . 
     
  _lpParentFolder_
   
-> [in] Pointeur vers le dossier dans lequel le message associé au paramètre _ulMessageToken_ a été créé. 
+> dans Pointeur vers le dossier dans lequel le message associé au paramètre _ulMessageToken_ a été créé. 
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au message qui s’affiche dans le formulaire. Le paramètre _lpInterface_ doit être NULL ou IID_IMessage. Résultats de la transmission NULL dans l’interface standard, [IMessage](imessageimapiprop.md), utilisé. 
+> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au message affiché dans le formulaire. Le paramètre _lpInterface_ doit être null ou IID_IMessage. Le passage de résultats NULL dans l'interface standard, [IMessage](imessageimapiprop.md), est utilisé. 
     
  _ulMessageToken_
   
-> [in] Le jeton qui est associé avec le message à afficher dans le formulaire. Le paramètre _ulMessageToken_ doit avoir le contenu du paramètre _lpulMessageToken_ à partir de l’appel précédent à [IMAPISession::PrepareForm](imapisession-prepareform.md).
+> dans Jeton associé au message à afficher dans le formulaire. Le paramètre _ulMessageToken_ doit être défini sur le contenu du paramètre _lpulMessageToken_ à partir de l'appel précédent à [IMAPISession::P repareform](imapisession-prepareform.md).
     
  _lpMessageSent_
   
-> [in] Réservé ; doit être NULL. 
+> dans MSR doit être NULL. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle comment et si le message est enregistré. Les indicateurs suivants peuvent être définis :
+> dans Masque de des indicateurs qui contrôle comment et si le message est enregistré. Les indicateurs suivants peuvent être définis:
     
 MAPI_NEW_MESSAGE 
   
-> Le message n’a jamais été enregistré (autrement dit, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) a jamais été appelée). 
+> Le message n'a jamais été enregistré (la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) n'a jamais été appelée). 
     
 MAPI_POST_MESSAGE 
   
-> Le message doit être enregistré dans son dossier parent. Le message n’est pas traité pour l’envoi, mais est publié dans le dossier à la place. Si cet indicateur n’est pas défini, le message est copié dans la boîte d’envoi et est traité pour l’envoi. 
+> Le message doit être enregistré dans son dossier parent. Le message n'est pas traité pour l'envoi, mais il est publié dans le dossier à la place. Si cet indicateur n'est pas défini, le message est copié dans la boîte d'envoi et est traité pour l'envoi. 
     
  _ulMessageStatus_
   
-> [in] Masque de bits d’indicateurs copié à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . Les indicateurs fournissent des informations sur l’état du message. 
+> dans Masque de des indicateurs copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . Les indicateurs fournissent des informations sur l'état du message. 
     
  _ulMessageFlags_
   
-> [in] Masque de bits d’indicateurs copié à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . Ces indicateurs fournissent davantage d’informations sur l’état du message. 
+> dans Masque de des indicateurs copiés à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . Ces indicateurs fournissent des informations supplémentaires sur l'état du message. 
     
  _ulAccess_
   
-> [in] Indicateur qui indique le niveau d’autorisation pour le message qui s’affiche dans le formulaire. Ces informations sont copiées à partir de la propriété **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . 
+> dans Indicateur qui indique le niveau d'autorisation du message affiché dans le formulaire. Ces informations sont copiées à partir de la propriété **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . 
     
  _lpszMessageClass_
   
-> [in] Pointeur vers la classe de message de message affiché dans le formulaire, copié à partir de la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . 
+> dans Pointeur vers la classe de message du message affiché dans le formulaire, copié à partir de la propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) du message associé au jeton dans le paramètre _ulMessageToken_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le formulaire est affiché avec succès.
+> Le formulaire s'est affiché correctement.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::ShowForm** affiche un formulaire de message qui a été préparé par la méthode **IMAPISession::PrepareForm** . 
+La méthode **IMAPISession:: ShowForm** affiche un formulaire de message qui a été préparé par la méthode **IMAPISession::P repareform** . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous devez disposer d’une seule référence au message passé dans _lpMessage_ paramètre la méthode **PrepareForm** . 
+Vous ne devez avoir qu'une seule référence au message transmis dans le paramètre _lpMessage_ de la méthode **PrepareForm** . 
   
-Sachez que les implémentations de formulaire peuvent renvoyer des valeurs d’erreur autres que ceux documentés par MAPI. Si vous pouvez utiliser ces valeurs d’erreur pour déterminer plus précise de la condition d’erreur, faites-le. Dans le cas contraire, gérer ces erreurs comme vous le feriez MAPI_E_CALL_FAILED. 
+N'oubliez pas que les implémentations de formulaire peuvent renvoyer des valeurs d'erreur autres que celles documentées par MAPI. Si vous pouvez utiliser ces valeurs d'erreur pour obtenir une détermination plus précise de la condition d'erreur, faites-le. Dans le cas contraire, gérez ces erreurs comme vous le feriez pour MAPI_E_CALL_FAILED. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -123,7 +123,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPISession::ShowForm** , avec la méthode **PrepareForm** , pour afficher un message dans un formulaire modal.  <br/> |
+|MAPIFormFunctions. cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPISession:: ShowForm** , ainsi que la méthode **PrepareForm** , pour afficher un message dans un formulaire modal.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

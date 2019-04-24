@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 050068b542616d1ad4d133b289aba46db2888519
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3b2e41c4b1bfc4879717df0c73bbcd45a724ca60
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587816"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338436"
 ---
 # <a name="imapisessionenumadrtypes"></a>IMAPISession::EnumAdrTypes
 
@@ -25,7 +25,7 @@ ms.locfileid: "22587816"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déconseillé. Renvoie les types d’adresses qui peuvent être gérés par tous les fournisseurs de transport dans la session. 
+Déconseillé. Renvoie les types d'adresses qui peuvent être gérées par tous les fournisseurs de transport dans la session. 
   
 ```cpp
 HRESULT EnumAdrTypes(
@@ -35,35 +35,35 @@ HRESULT EnumAdrTypes(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui indique le format pour les types d’adresse retournée. Vous pouvez définir l’indicateur suivant :
+> dans Masque de réindicateur qui indique le format des types d'adresses renvoyées. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les types d’adresses sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les types d’adresses sont au format ANSI.
+> Les types d'adresses sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les types d'adresses sont au format ANSI.
     
  _lpcAdrTypes_
   
-> [out] Un pointeur vers un nombre de types d’adresses indiqué par le paramètre _lpppszAdrTypes_ . 
+> remarquer Pointeur vers le nombre de types d'adresses vers lequel pointe le paramètre _lpppszAdrTypes_ . 
     
  _lpppszAdrTypes_
   
-> [out] Pointeur vers un tableau de pointeurs vers des types d’adresses.
+> remarquer Pointeur vers un tableau de pointeurs vers des types d'adresses.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Les types d’adresses ont été récupérés correctement.
+> Les types d'adresses ont été récupérés avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::EnumAdrTypes** renvoie une liste des types d’adresses qui peuvent être gérés par tous les fournisseurs de transport actif dans la session. Les types d’adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Fournisseurs de transport enregistrement pour gérer un ou plusieurs types d’adresses lors de leur méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) des appels MAPI. 
+La méthode **IMAPISession:: EnumAdrTypes** renvoie la liste des types d'adresses qui peuvent être gérées par tous les fournisseurs de transport actifs dans la session. Les types d'adresses pour les fournisseurs de transport qui ne sont pas actuellement chargés ne sont pas inclus dans la liste. Les fournisseurs de transport s'inscrivent pour gérer un ou plusieurs types d'adresses lorsque MAPI appelle la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) . 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Appelez [MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de chaînes désigné par le paramètre _lpppszAdrTypes_ . 
   

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 3c1a848eec84c7d81792a95baa3f47fa6779e95f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 33a7545f9b2719615617d46e2d5ed1f6952b5522
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335426"
 ---
 # <a name="pidtagreportname-canonical-property"></a>Propriété canonique PidTagReportName
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet pour le destinataire qui doit obtenir des rapports de ce message.
+Contient le nom complet du destinataire qui doit obtenir des rapports pour ce message.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient le nom complet pour le destinataire qui doit obtenir des rapports de ce
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse du destinataire l’expéditeur a délégué pour recevoir les rapports générés pour ce message.
+Ces propriétés sont des exemples de propriétés d'adresse pour le destinataire auquel l'expéditeur a délégué la réception des rapports générés pour ce message.
   
-Une application cliente qui doit router les rapports à un autre utilisateur doit définir ces propriétés au moment d’envoi de message. Si elles ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
+Une application cliente qui doit acheminer des rapports à un autre utilisateur doit définir ces propriétés lors de l'envoi du message. Si elles ne sont pas définies, les rapports sont envoyés à l'expéditeur du message.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

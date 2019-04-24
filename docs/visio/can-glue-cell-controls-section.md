@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 description: Détermine si une poignée de contrôle peut être collée à d'autres formes.
-ms.openlocfilehash: c7b6764e25deab3345b7b3cecd6cf12dde74a84c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2f5e65ab72c584f88b56e273b0d73abf969a6588
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337253"
 ---
 # <a name="can-glue-cell-controls-section"></a>Can Glue, cellule (section Controls)
 
 Détermine si une poignée de contrôle peut être collée à d'autres formes.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | La poignée de contrôle peut être collée.  <br/> |
 | FALSE  <br/> | La poignée de contrôle ne peut pas être collée.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule Can Glue par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Can Glue par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Contrôles.  *nom* . Contrôles CanGluewhere.  *nom* est le nom de la ligne des contrôles.  <br/> |
+| Nom de la cellule :  <br/> | Vérifie.  *nom* . Contrôles CanGluewhere.  *Name* est le nom de la ligne Controls.  <br/> |
    
-Pour obtenir une référence à la cellule Can Glue par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Can Glue à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

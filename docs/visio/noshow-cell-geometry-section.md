@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 description: Indique si un chemin est affiché sur la page de dessin.
-ms.openlocfilehash: ad4d9cf1aa3e541f512bc09ffc38cf03204b3c94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: bd42b069e6796b107aafaea3080f6970c4f678c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341082"
 ---
 # <a name="noshow-cell-geometry-section"></a>NoShow, cellule (section Geometry)
 
 Indique si un chemin est affiché sur la page de dessin.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Le trait et le remplissage du chemin représentés par cette section sont masqués.  <br/> |
 | FALSE  <br/> | Le trait et le remplissage du chemin sont affichés.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule NoShow par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule NoShow par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Géométrie *i* . NoShow où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Géométrie *i* . NoShow où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule NoShow par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule NoShow à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

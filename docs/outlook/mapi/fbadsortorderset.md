@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336973"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578576"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide un ordre de tri défini par vérifier son allocation de mémoire. 
+Valide un ordre de tri défini en vérifiant son allocation de mémoire. 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadSortOrderSet(
 
  _lpsos_
   
-> [in] Pointeur vers une structure [SSortOrderSet](ssortorderset.md) qui identifie l’ordre de tri défini à valider. 
+> dans Pointeur vers une structure [SSortOrderSet](ssortorderset.md) identifiant l'ordre de tri défini pour être validé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> L’ensemble d’ordre de tri spécifié n’est pas valide. 
+> L'ensemble d'ordre de tri spécifié n'est pas valide. 
     
 FALSE 
   
-> L’ensemble d’ordre de tri spécifié est valide.
+> L'ensemble d'ordres de tri spécifié est valide.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode de tri telles que la méthode [IMAPITable::SortTable](imapitable-sorttable.md) . 
+La fonction **FBadSortOrderSet** peut être utilisée pour préparer un appel à une méthode sort telle que la méthode [IMAPITable:: SortTable](imapitable-sorttable.md) . 
   
 

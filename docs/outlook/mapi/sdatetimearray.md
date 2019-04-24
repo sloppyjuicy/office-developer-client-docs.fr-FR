@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: dc90f15835de35354a271d87a736366a4caf8dd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9d9fd04776742383f40c6989bcf588b24b33d84b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339794"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs de temps qui sont utilisés pour décrire une propriété de type PT_MV_SYSTIME.
+Contient un tableau de valeurs d'heure utilisées pour décrire une propriété de type PT_MV_SYSTIME.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -44,15 +44,15 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpft** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpft** . 
     
  **lpft**
   
-> Pointeur vers un tableau de structures [FILETIME](filetime.md) qui contiennent les valeurs d’heure. 
+> Pointeur vers un tableau de structures [fileTime](filetime.md) qui contiennent les valeurs d'heure. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_SYSTIME, voir la [Liste des Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_SYSTIME, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

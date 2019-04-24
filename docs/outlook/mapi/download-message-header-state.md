@@ -1,43 +1,43 @@
 ---
-title: Télécharger l’état de l’en-tête de message
+title: Télécharger l'état de l'en-tête du message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: c9d1745d25e7f7a5052d767350ade6723067d1b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c8e83119d724f583d40583a6a5227bc467dc94da
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338835"
 ---
-# <a name="download-message-header-state"></a>Télécharger l’état de l’en-tête de message
+# <a name="download-message-header-state"></a>Télécharger l'état de l'en-tête du message
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit le déroulement de l’état d’en-tête de message téléchargement de l’ordinateur d’état de réplication. 
+ Cette rubrique décrit ce qui se passe pendant l'état de l'en-tête du message de téléchargement de la machine à États de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d’état :  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
-|Structure de données associées :  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
-|À partir de cet état :  <br/> |[État inactif](idle-state.md) <br/> |
-|Avec cet état :  <br/> |État inactif  <br/> |
+|Identificateur d'État:  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |
+|Structure de données associée:  <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
+|À partir de cet État:  <br/> |[État inactif](idle-state.md) <br/> |
+|À cet État:  <br/> |État inactif  <br/> |
    
 > [!NOTE]
-> L’ordinateur d’état de réplication est une machine à états déterministe. Un client au départ d’un état à l’autre doit renvoyer par la suite à l’ancienne à partir de ce dernier. 
+> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
   
 ## <a name="description"></a>Description
 
-Au cours de cet état, le client met à jour l’en-tête d’un message sur un magasin local. Le magasin local passe à cet état lors de **[l’IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et quitte lorsque **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** est appelée. Au cours de cet état, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l’en-tête d’un message. Le client télécharge d’abord l’élément de message complet à partir du serveur, puis met à jour l’en-tête de l’élément de message localement. 
+Dans cet État, le client met à jour l'en-tête d'un message dans un magasin local. Le magasin local passe dans cet État sur **[IOSTX:: SyncHdrBeg](iostx-synchdrbeg.md)** et quitte lorsque **[IOSTX:: SyncHdrEnd](iostx-synchdrend.md)** est appelé. Dans cet État, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l'en-tête d'un message. Le client télécharge d'abord l'élément de message complet à partir du serveur, puis met à jour l'en-tête de l'élément de message localement. 
   
-Lors de la synchronisation se termine, le client définit les résultats de téléchargement. Le magasin local renvoie l’état inactif.
+Lorsque synchronisation se termine, le client définit les résultats du téléchargement. Le magasin local revient à l'état inactif.
   
 ## <a name="see-also"></a>Voir aussi
 

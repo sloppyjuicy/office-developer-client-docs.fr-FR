@@ -11,37 +11,37 @@ api_name:
 api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 33d811af0fc9e06902750075ba39bfb6ca88903f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 54f61eb1bf111601e8b2c889b0d2890d0c10d63b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341236"
 ---
 # <a name="imapisyncprogresscallback--iunknown"></a>IMAPISyncProgressCallback : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Transmet le fournisseur de banque comme un champ de la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de banque utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
+Transmet le fournisseur Store en tant que champ sur la structure MAPISIB lors d'un appel à [IMAPISync: SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de banque d'informations utilise cette interface pour envoyer des commentaires à Microsoft Outlook sur l'état de la synchronisation.
   
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> ||
-|Exposés par :  <br/> |Outlook  <br/> |
-|Implémentée par :  <br/> |Outlook  <br/> |
-|Appelée par :  <br/> |Fournisseurs de magasins  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPISyncProgressCallback  <br/> |
+|Exposé par:  <br/> |Outlook  <br/> |
+|Implémenté par :  <br/> |Outlook  <br/> |
+|Appelé par :  <br/> |Fournisseurs de magasin  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPISyncProgressCallback  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur de banque appelle régulièrement cette fonction pour mettre à jour l’état dans la boîte de dialogue d’envoi/réception.  <br/> |
-|[Erreur](imapisyncprogresscallback-error.md) <br/> |Si vous rencontrez des erreurs lors de la synchronisation, le fournisseur de banque appelle cette fonction pour fournir plus d’informations qui sont affichent dans la boîte de dialogue d’envoi/réception.  <br/> |
-|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur de banque appelle cette fonction pour informer Outlook que la synchronisation est terminé.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur Store appelle régulièrement cette fonction pour mettre à jour l'État dans la boîte de dialogue d'envoi/réception.  <br/> |
+|[Error](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se produisent lors de la synchronisation, le fournisseur de banque d'informations appelle cette fonction pour fournir les détails affichés dans la boîte de dialogue d'envoi/réception.  <br/> |
+|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur Store appelle cette fonction pour informer Outlook que la synchronisation est terminée.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

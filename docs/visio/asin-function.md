@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251395
 localization_priority: Normal
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
-description: Renvoie l’arc sinus d’un nombre, par exemple, l’angle dont le sinus est nombre.
-ms.openlocfilehash: e5ed8f9fc8c85ac4816fede03bfe6f6af5cbf5f0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie l'arcsinus d'un nombre, par exemple, l'angle dont le sinus est nombre.
+ms.openlocfilehash: a7585dc07053466203f11cc04ce249ceb62fbda0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788054"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341523"
 ---
-# <a name="asin-function"></a>ASIN, fonction
+# <a name="asin-function"></a>Fonction ASIN
 
-Renvoie l’arc sinus d’un nombre, par exemple, l’angle dont le sinus est *nombre* . 
+Renvoie l'arcsinus d'un nombre, par exemple, l'angle dont le sinus est *nombre* . 
   
 ## <a name="syntax"></a>Syntaxe
 
-ASIN (** *numéro* **) 
+ASIN (* * *nombre* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Sinus de l’angle.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur entrée doit être dans la plage -1 < = *nombre* < = 1 ou un #NUM ! erreur est renvoyée. L’angle obtenu se situe dans la plage -PI/2 < = *angle* < = PI/2 radians (-90 < = *angle* < = 90 degrés). 
+La valeur d'entrée doit être comprise entre-1 < = *nombre* < = 1, ou une #NUM! est renvoyée. L'angle obtenu se trouve dans la plage-PI/2 < = *angle* _LT_ = pi/2 radians (-90 < = *angle* < = 90 degrés). 
   
 ## <a name="example"></a>Exemple
 
-ASIN(1)
+ASIN (1)
   
 Renvoie 90 deg
   

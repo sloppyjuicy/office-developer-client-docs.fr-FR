@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 6986ed7c9ab9932c5d95fcfb7f74f80088f21971
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 91440d619c8ad8a64b2bac7463a26d9c196a3c0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339730"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de type double utilisé pour décrire une propriété de type PT_MV_DOUBLE.
+Contient un tableau de doubles utilisés pour décrire une propriété de type PT_MV_DOUBLE.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -44,15 +44,15 @@ typedef struct _SDoubleArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpdbl** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpdbl** . 
     
  **lpdbl**
   
-> Pointeur vers un tableau de valeurs de type doubles.
+> Pointeur vers un tableau de valeurs de type double.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_DOUBLE, voir la [Liste des Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_DOUBLE, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

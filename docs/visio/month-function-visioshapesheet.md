@@ -1,5 +1,5 @@
 ---
-title: MONTH, fonction (VisioShapeSheet)
+title: MONTH Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251467
 localization_priority: Normal
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
-description: Renvoie un entier compris entre 1 et 12 qui représente un mois.
-ms.openlocfilehash: e17803a153b4aadec34aa751da7efa077963bba5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie une valeur de type Integer comprise entre 1 et 12 qui représente un mois.
+ms.openlocfilehash: 71ecc7992839c871780e9b703377db37279246e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335272"
 ---
-# <a name="month-function-visioshapesheet"></a>MONTH, fonction (VisioShapeSheet)
+# <a name="month-function-visioshapesheet"></a>MONTH Function (VisioShapeSheet)
 
-Renvoie un entier compris entre 1 et 12 qui représente un mois.
+Renvoie une valeur de type Integer comprise entre 1 et 12 qui représente un mois.
   
 ## <a name="syntax"></a>Syntaxe
 
-MOIS (« ** *datetime* ** » | ** *expression* ** [, ** *lcid* **]) 
+MONTH ("* * *DateTime* * *" | * * *expression* * * [, * * *LCID* * *]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _DateTime_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> | Toute expression qui génère une date et une heure.  <br/> |
-| _LCID_ <br/> |Facultatif  <br/> |**Number** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _structure_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute expression qui génère une date et une heure.  <br/> |
+| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Entier
   
 ## <a name="remarks"></a>Remarques
 
-Le composant heure de _datetime_ ou _expression_ est ignoré. 
+Le composant heure de _DateTime_ ou _expression_ est ignoré. 
   
 Aucun arrondissement n’est effectué. Si la chaîne d’entrée est introuvable ou ne peut pas être convertie en un résultat valide, la fonction MONTH renvoie une erreur.
   
@@ -60,7 +60,7 @@ Renvoie 6.
   
 ## <a name="example-3"></a>Exemple 3
 
-MONTH(35580.6337)
+MONTH (35580.6337)
   
 Renvoie 5.
   

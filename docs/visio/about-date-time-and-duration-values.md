@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: Vous pouvez effectuer des opérations dans les formules à l’aide de valeurs de date, d’heure et de durée. Dans Microsoft Visio, une expression de date et d’heure peut être évaluée comme une valeur simple. Une expression de date et d’heure est toute expression reconnue en tant que date et/ou heure ou référence à une cellule contenant une date et/ou une heure. Cette expression peut contenir des chaînes et des nombres avec un format de date et d’heure ainsi que des valeurs de date et d’heure renvoyées par des fonctions.
-ms.openlocfilehash: 936055ed6d13b75bd0c42c95564046a76082ec0d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 56de919fa713c0948bb87f794d1c6e0a5d727aef
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341579"
 ---
 # <a name="about-date-time-and-duration-values"></a>À propos des valeurs Date, Heure et Durée
 
@@ -28,8 +28,8 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
 
 ||||
 |:-----|:-----|:-----|
-| « 2/28 »  <br/> | « 2/28/99 »  <br/> | « 2/28/1999 »  <br/> |
-| « 2-28 »  <br/> | « 2-28-99 »  <br/> | « 2-28/1999 »  <br/> |
+| «2/28»  <br/> | «2/28/99»  <br/> | «2/28/1999»  <br/> |
+| «2-28»  <br/> | «2-28-99»  <br/> | «2-28/1999»  <br/> |
 | "6 mar 99"  <br/> | "6 mar"  <br/> | "6 mar 99"  <br/> |
 | "1 janvier 99"  <br/> | "1 jan 99"  <br/> | "1 jan 1999"  <br/> |
 | "Jan 00"  <br/> | "Janvier 2000"  <br/> | "1 jan 00"  <br/> |
@@ -38,27 +38,27 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
 
 ||||
 |:-----|:-----|:-----|
-| « 3:45 »  <br/> | « 3 : 45:27 »  <br/> | "7 a"  <br/> |
+| «3:45»  <br/> | «3:45:27»  <br/> | 7  <br/> |
 | "7 am"  <br/> | "7 p"  <br/> | "7:30 PM"  <br/> |
    
-## <a name="date-and-time-functions"></a>Fonctions de date et heure
+## <a name="date-and-time-functions"></a>Fonctions Date et Heure
 
 |**Fonction**|**Description**|
 |:-----|:-----|
-|[DATE](date-function-visioshapesheet.md) <br/> | Convertit un nombre en valeur de date.  <br/> |
+|[JOURS](date-function-visioshapesheet.md) <br/> | Convertit un nombre en valeur de date.  <br/> |
 |[DATETIME](datetime-function.md) <br/> | Convertit une chaîne en valeur de date et d'heure.  <br/> |
 |[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | Convertit une chaîne en valeur de date.  <br/> |
 |[NOW](now-function-visioshapesheet.md) <br/> | Renvoie la date système actuelle sous forme de valeur de date et d'heure.  <br/> |
-|[HEURE](time-function-visioshapesheet.md) <br/> | Convertit un nombre en valeur d'heure.  <br/> |
+|[PÉRIODES](time-function-visioshapesheet.md) <br/> | Convertit un nombre en valeur d'heure.  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Convertit une chaîne en valeur d'heure.  <br/> |
-|[JOUR](day-function-visioshapesheet.md) <br/> | Renvoie le jour d'une expression de date et d'heure.  <br/> |
+|[QUOTIDIENNE](day-function-visioshapesheet.md) <br/> | Renvoie le jour d'une expression de date et d'heure.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Renvoie le jour de l'année d'une expression de date et d'heure.  <br/> |
-|[HEURE](hour-function-visioshapesheet.md) <br/> | Renvoie l'heure d'une expression de date et d'heure.  <br/> |
-|[MINUTE](minute-function-visioshapesheet.md) <br/> | Renvoie les minutes d'une expression de date et d'heure.  <br/> |
-|[MOIS](month-function-visioshapesheet.md) <br/> | Renvoie le mois d'une expression de date et d'heure.  <br/> |
+|[H/24](hour-function-visioshapesheet.md) <br/> | Renvoie l'heure d'une expression de date et d'heure.  <br/> |
+|[PRÉCÉDENTE](minute-function-visioshapesheet.md) <br/> | Renvoie les minutes d'une expression de date et d'heure.  <br/> |
+|[SEMESTRIELLE](month-function-visioshapesheet.md) <br/> | Renvoie le mois d'une expression de date et d'heure.  <br/> |
 |[SECONDE](second-function-visioshapesheet.md) <br/> | Renvoie les secondes d'une expression de date et d'heure.  <br/> |
-|[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Renvoie le numéro du jour de la semaine d'une expression de date et d'heure.  <br/> |
-|[ANNÉE](year-function-visioshapesheet.md) <br/> | Renvoie l'année d'une expression de date et d'heure.  <br/> |
+|[JOURSEMAINE](weekday-function-visioshapesheet.md) <br/> | Renvoie le numéro du jour de la semaine d'une expression de date et d'heure.  <br/> |
+|[AUTRE](year-function-visioshapesheet.md) <br/> | Renvoie l'année d'une expression de date et d'heure.  <br/> |
    
 ## <a name="duration"></a>Duration
 
@@ -68,11 +68,11 @@ Visio gère les unités de durée du tableau suivant.
   
 |**Unit**|**Abréviation**|**Abréviation universelle**|
 |:-----|:-----|:-----|
-| jour écoulé  <br/> | JOURE, JE.  <br/> | ed  <br/> |
-| heure écoulée  <br/> | HEUREE, HE.  <br/> | eh  <br/> |
+| jour écoulé  <br/> | JOURE, JE.  <br/> | non  <br/> |
+| heure écoulée  <br/> | HEUREE, HE.  <br/> | IA  <br/> |
 | minute écoulée  <br/> | MINUTEE, ME.  <br/> | em  <br/> |
 | seconde écoulée  <br/> | SECONDEE, SE.  <br/> | es  <br/> |
-| semaine écoulée  <br/> | SEMAINEE, WE.  <br/> | ew  <br/> |
+| semaine écoulée  <br/> | SEMAINEE, WE.  <br/> | ouveau  <br/> |
    
 Vous pouvez ajouter une date et une heure à une durée afin de calculer une nouvelle date et heure. Vous pouvez effectuer les opérations du tableau ci-dessous à l'aide de dates, d'heures et de durées.
   

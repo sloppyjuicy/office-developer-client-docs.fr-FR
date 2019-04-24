@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a5c2fd1d3b18ceb5aec1ca71ed3f9a28dec2db89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570197"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340942"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagOriginatorAndDistributionListExpansionHistory
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations sur l’expéditeur du message et l’historique du développement des listes de distribution.
+Contient des informations sur l'expéditeur d'un message et l'historique d'expansion de la liste de distribution.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
-|Identificateur :  <br/> |0 x 1002  <br/> |
+|Identificateur :  <br/> |0x1002  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans la génération de rapport.
+Cette propriété est utilisée dans la génération des rapports.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

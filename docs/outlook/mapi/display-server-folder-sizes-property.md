@@ -1,5 +1,5 @@
 ---
-title: Propriété d’affichage des tailles de dossier du serveur
+title: Propriété d'affichage des tailles de dossier du serveur
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,50 +11,50 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f1ec10bde39f853a80540b48216478edc4e41f12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 85a8b5216eac1dd4e4cebd1313cb31c9b5d70227
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337078"
 ---
-# <a name="display-server-folder-sizes-property"></a>Propriété d’affichage des tailles de dossier du serveur
+# <a name="display-server-folder-sizes-property"></a>Propriété d'affichage des tailles de dossier du serveur
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche la taille des dossiers spécifiés sur le serveur dans la boîte de dialogue Outlook **Taille du dossier** . 
+Affiche les tailles des dossiers spécifiés sur le serveur dans la boîte de dialogue **taille du dossier** Outlook. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exposée sur :  <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) objet  <br/> |
-|Créé par :  <br/> |Fournisseur de banque  <br/> |
-|Accessible par :  <br/> |Outlook et autres clients  <br/> |
-|Type de propriété :  <br/> |PT_BOOLEAN  <br/> |
-|Type d’accès :  <br/> |En lecture-écriture.  <br/> |
+|Exposé sur:  <br/> |[IMsgStore: objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
+|Créé par:  <br/> |Fournisseur de magasin  <br/> |
+|Accès par:  <br/> |Outlook et d'autres clients  <br/> |
+|Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
+|Type d'accès:  <br/> |En lecture-écriture.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour fournir une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour une de ces propriétés passées à un appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété pour une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de banque doit également retourner la valeur de la propriété adéquate. Fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
+Pour fournir l'une des fonctionnalités de magasin, le fournisseur de banque doit implémenter [IMAPIProp: IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l'une des propriétés transmises à un appel [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) . Lorsque la balise de propriété de l'une de ces propriétés est transmise à [IMAPIProp:: GetProps](imapiprop-getprops.md), le fournisseur Store doit également renvoyer la valeur de propriété correcte. Les fournisseurs de magasins peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   
-Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l’appel [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) sur laquelle pointé le paramètre d’entrée _lppPropNames_:
+Pour récupérer la valeur de cette propriété, le client doit d'abord utiliser [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp:: GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lors de l'appel de [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md), spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d'entrée _lppPropNames_:
   
 |||
 |:-----|:-----|
-|lpGuid :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|ulKind :  <br/> |MNID_STRING  <br/> |
-|Kind.lpwstrName :  <br/> |L « urn : schemas-microsoft-com:office:outlook #serverfoldersizes »  <br/> |
+|lpGuid:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|ulKind:  <br/> |MNID_STRING  <br/> |
+|Kind. lpwstrName:  <br/> |L "urn: schemas-microsoft-com: Office: Outlook # serverfoldersizes"  <br/> |
    
-Cette propriété est prise en charge dans Microsoft Outlook 2003 Service Pack (SP) 1. Si la version d’Outlook est antérieure à Outlook 2003 Service Pack 1, ou si sa valeur est **false**, Outlook affiche uniquement les tailles des dossiers dans le magasin local. Si cette propriété est définie sur un magasin qui utilise Outlook 2003 Service Pack 1, Outlook interroge la taille de chaque dossier spécifié sur le serveur et le disque local. 
+Cette propriété est prise en charge dans Microsoft Outlook 2003 Service Pack (SP) 1. Si la version d'Outlook est antérieure à Outlook 2003 SP 1, ou si sa valeur est **false**, Outlook affiche uniquement la taille des dossiers sur le magasin local. Si cette propriété est définie sur un magasin qui utilise Outlook 2003 SP 1, Outlook demande la taille de chaque dossier spécifié sur le serveur et sur le lecteur local. 
   
-Pour rechercher la taille du dossier sur le serveur, Outlook ouvre un dossier sur le magasin avec [IMsgStore::OpenEntry](imsgstore-openentry.md), en passant l’indicateur **MAPI_NO_CACHE**, et il interroge pour **PR_MESSAGE_SIZE_EXTENDED**. Le fournisseur de banque doit ensuite retourner la taille du dossier sur le serveur.
+Pour rechercher la taille du dossier sur le serveur, Outlook ouvre un dossier sur le magasin avec [IMsgStore:: OpenEntry](imsgstore-openentry.md), en transmettant l'indicateur **MAPI_NO_CACHE**, puis il interroge **PR_MESSAGE_SIZE_EXTENDED**. Le fournisseur de banque doit ensuite renvoyer la taille du dossier sur le serveur.
   
-Pour rechercher la taille d’un dossier sur le disque local, Outlook ouvre le dossier sans l’indicateur **MAPI_NO_CACHE** . Il interroge **PR_MESSAGE_SIZE_EXTENDED**; ensuite le fournisseur de banque doit renvoyer la taille du dossier spécifié sur le disque local.
+Pour rechercher la taille d'un dossier sur le lecteur local, Outlook ouvre le dossier sans l'indicateur **MAPI_NO_CACHE** . Il interroge ensuite **PR_MESSAGE_SIZE_EXTENDED**; le fournisseur de la Banque doit renvoyer la taille du dossier spécifié sur le lecteur local.
   
-Avec ce jeu de propriétés, les fournisseurs de magasins synchroniser le magasin de contenu vers un serveur peuvent afficher des données de taille de dossier sur le serveur dans la boîte de dialogue Outlook **Taille du dossier** . Les utilisateurs peuvent comparer puis leur utilisation actuelle de stockage serveur avec des quotas de serveur. 
+Avec ce jeu de propriétés, les fournisseurs de magasin qui synchronisent le contenu du magasin sur un serveur peuvent afficher les données de taille de dossier sur le serveur dans la boîte de dialogue **taille du dossier** Outlook. Les utilisateurs peuvent ensuite comparer leur utilisation de stockage de serveur actuelle avec des quotas de serveur. 
   
 

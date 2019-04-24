@@ -1,21 +1,21 @@
 ---
-title: Cellules (référence Visio ShapeSheet)
+title: Cells (référence Visio ShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85a4c93c-13ad-4a66-9e2c-627661f24082
-ms.openlocfilehash: 7f86c25965a9981250f0782c0ebe7ff0c62dc935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 252d7d59cedfa463280b97864276315be9954c86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788298"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341943"
 ---
-# <a name="cells-visio-shapesheet-reference"></a>Cellules (référence Visio ShapeSheet)
+# <a name="cells-visio-shapesheet-reference"></a>Cells (référence Visio ShapeSheet)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [A, cellule (section Geometry)](a-cell-geometry-section.md)
     
@@ -51,7 +51,7 @@ ms.locfileid: "19788298"
     
 - [AvenueSizeY, cellule (section Page Layout)](avenuesizey-cell-page-layout-section.md)
     
-- [Avoidpagebreaks, cellule (Section Page Layout)](avoidpagebreaks-cell-page-layout-section.md)
+- [AvoidPageBreaks Cell (Page Layout Section)](avoidpagebreaks-cell-page-layout-section.md)
     
 - [B, cellule (section Geometry)](b-cell-geometry-section.md)
     
@@ -67,31 +67,31 @@ ms.locfileid: "19788298"
     
 - [BegTrigger, cellule (section Glue Info)](begtrigger-cell-glue-info-section.md)
     
-- [BevelBottomHeight, cellule (Section Propriétés de biseau)](bevelbottomheight-cell-bevel-properties-section.md)
+- [BevelBottomHeight Cell (Bevel Properties Section)](bevelbottomheight-cell-bevel-properties-section.md)
     
-- [BevelBottomType, cellule (Section Propriétés de biseau)](bevelbottomtype-cell-bevel-properties-section.md)
+- [BevelBottomType Cell (Bevel Properties Section)](bevelbottomtype-cell-bevel-properties-section.md)
     
-- [BevelBottomWidth, cellule (Section Propriétés de biseau)](bevelbottomwidth-cell-bevel-properties-section.md)
+- [BevelBottomWidth Cell (Bevel Properties Section)](bevelbottomwidth-cell-bevel-properties-section.md)
     
-- [BevelContourColor, cellule (Section Propriétés de biseau)](bevelcontourcolor-cell-bevel-properties-section.md)
+- [BevelContourColor Cell (Bevel Properties Section)](bevelcontourcolor-cell-bevel-properties-section.md)
     
-- [BevelContourSize, cellule (Section Propriétés de biseau)](bevelcontoursize-cell-bevel-properties-section.md)
+- [BevelContourSize Cell (Bevel Properties Section)](bevelcontoursize-cell-bevel-properties-section.md)
     
-- [BevelDepthColor, cellule (Section Propriétés de biseau)](beveldepthcolor-cell-bevel-properties-section.md)
+- [BevelDepthColor Cell (Bevel Properties Section)](beveldepthcolor-cell-bevel-properties-section.md)
     
-- [BevelDepthSize, cellule (Section Propriétés de biseau)](beveldepthsize-cell-bevel-properties-section.md)
+- [BevelDepthSize Cell (Bevel Properties Section)](beveldepthsize-cell-bevel-properties-section.md)
     
-- [BevelLightingAngle, cellule (Section Propriétés de biseau)](bevellightingangle-cell-bevel-properties-section.md)
+- [BevelLightingAngle Cell (Bevel Properties Section)](bevellightingangle-cell-bevel-properties-section.md)
     
-- [BevelLightingType, cellule (Section Propriétés de biseau)](bevellightingtype-cell-bevel-properties-section.md)
+- [BevelLightingType Cell (Bevel Properties Section)](bevellightingtype-cell-bevel-properties-section.md)
     
-- [BevelMaterialType, cellule (Section Propriétés de biseau)](bevelmaterialtype-cell-bevel-properties-section.md)
+- [BevelMaterialType Cell (Bevel Properties Section)](bevelmaterialtype-cell-bevel-properties-section.md)
     
-- [BevelTopHeight, cellule (Section Propriétés de biseau)](beveltopheight-cell-bevel-properties-section.md)
+- [BevelTopHeight Cell (Bevel Properties Section)](beveltopheight-cell-bevel-properties-section.md)
     
-- [BevelTopType, cellule (Section Propriétés de biseau)](beveltoptype-cell-bevel-properties-section.md)
+- [BevelTopType Cell (Bevel Properties Section)](beveltoptype-cell-bevel-properties-section.md)
     
-- [BevelTopWidth, cellule (Section Propriétés de biseau)](beveltopwidth-cell-bevel-properties-section.md)
+- [BevelTopWidth Cell (Bevel Properties Section)](beveltopwidth-cell-bevel-properties-section.md)
     
 - [BlockSizeX, cellule (section Page Layout)](blocksizex-cell-page-layout-section.md)
     
@@ -133,7 +133,7 @@ ms.locfileid: "19788298"
     
 - [Checked, cellule (section Actions)](checked-cell-actions-section.md)
     
-- [ClippingPath, cellule (Section Foreign Image Info)](clippingpath-cell-foreign-image-info-section.md)
+- [ClippingPath Cell (Foreign Image Info Section)](clippingpath-cell-foreign-image-info-section.md)
     
 - [Color, cellule (section Character)](color-cell-character-section.md)
     
@@ -141,7 +141,7 @@ ms.locfileid: "19788298"
     
 - [Color, cellule (section Reviewer)](color-cell-reviewer-section.md)
     
-- [ColorSchemeIndex, cellule (Section Propriétés de thème)](colorschemeindex-cell-theme-properties-section.md)
+- [ColorSchemeIndex Cell (Theme Properties Section)](colorschemeindex-cell-theme-properties-section.md)
     
 - [Comment, cellule (section Annotation)](comment-cell-annotation-section.md)
     
@@ -151,7 +151,7 @@ ms.locfileid: "19788298"
     
 - [ComplexScriptSize, cellule (section Character)](complexscriptsize-cell-character-section.md)
     
-- [CompoundType, cellule (Section Line Format)](compoundtype-cell-line-format-section.md)
+- [CompoundType Cell (Line Format Section)](compoundtype-cell-line-format-section.md)
     
 - [ConFixedCode, cellule (section Shape Layout)](confixedcode-cell-shape-layout-section.md)
     
@@ -165,7 +165,7 @@ ms.locfileid: "19788298"
     
 - [ConLineRouteExt, cellule (section Shape Layout)](conlinerouteext-cell-shape-layout-section.md)
     
-- [ConnectorSchemeIndex, cellule (Section Propriétés de thème)](connectorschemeindex-cell-theme-properties-section.md)
+- [ConnectorSchemeIndex Cell (Theme Properties Section)](connectorschemeindex-cell-theme-properties-section.md)
     
 - [Contrast, cellule (section Image Properties)](contrast-cell-image-properties-section.md)
     
@@ -195,19 +195,19 @@ ms.locfileid: "19788298"
     
 - [Disabled, cellule (section Actions)](disabled-cell-actions-section.md)
     
-- [DisplayLevel, cellule (Section Shape Layout)](displaylevel-cell-shape-layout-section.md)
+- [DisplayLevel Cell (Shape Layout Section)](displaylevel-cell-shape-layout-section.md)
     
 - [DisplayMode, cellule (section Group Properties)](displaymode-cell-group-properties-section.md)
     
 - [DisplayMode, cellule (Section Action Tags)](displaymode-cell-action-tags-section.md)
     
-- [Cellule DistanceFromGround (propriétés Rotation 3D)](distancefromground-cell-3-d-rotation-properties.md)
+- [DistanceFromGround Cell (3-D Rotation Properties)](distancefromground-cell-3-d-rotation-properties.md)
     
 - [DocLangID, cellule (section Document Properties)](doclangid-cell-document-properties-section.md)
     
-- [DocLockDuplicatePage, cellule (Section Document Properties)](doclockduplicatepage-cell-document-properties-section.md)
+- [DocLockDuplicatePage Cell (Document Properties Section)](doclockduplicatepage-cell-document-properties-section.md)
     
-- [DocLockReplace, cellule (Section Document Properties)](doclockreplace-cell-document-properties-section.md)
+- [DocLockReplace Cell (Document Properties Section)](doclockreplace-cell-document-properties-section.md)
     
 - [DontMoveChildren, cellule (section Group Properties)](dontmovechildren-cell-group-properties-section.md)
     
@@ -215,7 +215,7 @@ ms.locfileid: "19788298"
     
 - [DoubleULine, cellule (section Character)](doubleuline-cell-character-section.md)
     
-- [DrawingResizeType, cellule (Section Page Properties)](drawingresizetype-cell-page-properties-section.md)
+- [DrawingResizeType Cell (Page Properties Section)](drawingresizetype-cell-page-properties-section.md)
     
 - [DrawingScale, cellule (section Page Properties)](drawingscale-cell-page-properties-section.md)
     
@@ -231,9 +231,9 @@ ms.locfileid: "19788298"
     
 - [E, cellule (section Geometry)](e-cell-geometry-section.md)
     
-- [EffectSchemeIndex, cellule (Section Propriétés de thème)](effectschemeindex-cell-theme-properties-section.md)
+- [EffectSchemeIndex Cell (Theme Properties Section)](effectschemeindex-cell-theme-properties-section.md)
     
-- [EmbellishmentIndex, cellule (Section Propriétés de thème)](embellishmentindex-cell-theme-properties-section.md)
+- [EmbellishmentIndex Cell (Theme Properties Section)](embellishmentindex-cell-theme-properties-section.md)
     
 - [EnableFillProps, cellule (section Style Properties)](enablefillprops-cell-style-properties-section.md)
     
@@ -257,7 +257,7 @@ ms.locfileid: "19788298"
     
 - [EventDrop, cellule (section Events)](eventdrop-cell-events-section.md)
     
-- [EventMultiDrop, cellule (Section Events)](eventmultidrop-cell-events-section.md)
+- [EventMultiDrop Cell (Events Section)](eventmultidrop-cell-events-section.md)
     
 - [EventXFMod, cellule (section Events)](eventxfmod-cell-events-section.md)
     
@@ -271,11 +271,11 @@ ms.locfileid: "19788298"
     
 - [FillForegndTrans, cellule (section Fill Format)](fillforegndtrans-cell-fill-format-section.md)
     
-- [FillGradientAngle, cellule (Section Propriétés de dégradé)](fillgradientangle-cell-gradient-properties-section.md)
+- [FillGradientAngle Cell (Gradient Properties Section)](fillgradientangle-cell-gradient-properties-section.md)
     
-- [FillGradientDir, cellule (Section Propriétés de dégradé)](fillgradientdir-cell-gradient-properties-section.md)
+- [FillGradientDir Cell (Gradient Properties Section)](fillgradientdir-cell-gradient-properties-section.md)
     
-- [FillGradientEnabled, cellule (Section Propriétés de dégradé)](fillgradientenabled-cell-gradient-properties-section.md)
+- [FillGradientEnabled Cell (Gradient Properties Section)](fillgradientenabled-cell-gradient-properties-section.md)
     
 - [FillPattern, cellule (section Fill Format)](fillpattern-cell-fill-format-section.md)
     
@@ -285,11 +285,11 @@ ms.locfileid: "19788298"
     
 - [FlipY, cellule (section Shape Transform)](flipy-cell-shape-transform-section.md)
     
-- [FlyoutChild, cellule (Section Actions)](flyoutchild-cell-actions-section.md)
+- [FlyoutChild Cell (Actions Section)](flyoutchild-cell-actions-section.md)
     
 - [Font, cellule (section Character)](font-cell-character-section.md)
     
-- [FontSchemeIndex Cell (Theme Properties Section](fontschemeindex-cell-theme-properties-section.md)
+- [FontSchemeIndex Cell (Theme Properties Section)](fontschemeindex-cell-theme-properties-section.md)
     
 - [Format, cellule (section Shape Data)](format-cell-shape-data-section.md)
     
@@ -299,11 +299,11 @@ ms.locfileid: "19788298"
     
 - [Gamma, cellule (section Image Properties)](gamma-cell-image-properties-section.md)
     
-- [GlowColor, cellule (Section Propriétés de l’effet supplémentaires)](glowcolor-cell-additional-effect-properties-section.md)
+- [GlowColor Cell (Additional Effect Properties Section)](glowcolor-cell-additional-effect-properties-section.md)
     
-- [GlowColorTrans, cellule (Section Propriétés de l’effet supplémentaires)](glowcolortrans-cell-additional-effect-properties-section.md)
+- [GlowColorTrans Cell (Additional Effect Properties Section)](glowcolortrans-cell-additional-effect-properties-section.md)
     
-- [GlowSize, cellule (Section Propriétés de l’effet supplémentaires)](glowsize-cell-additional-effect-properties-section.md)
+- [GlowSize Cell (Additional Effect Properties Section)](glowsize-cell-additional-effect-properties-section.md)
     
 - [Glue, cellule (section Layers)](glue-cell-layers-section.md)
     
@@ -349,7 +349,7 @@ ms.locfileid: "19788298"
     
 - [IsTextEditTarget, cellule (section Group Properties)](istextedittarget-cell-group-properties-section.md)
     
-- [KeepTextFlat, cellule (Section Propriétés de Rotation 3D)](keeptextflat-cell-3-d-rotation-properties-section.md)
+- [KeepTextFlat Cell (3-D Rotation Properties Section)](keeptextflat-cell-3-d-rotation-properties-section.md)
     
 - [Label, cellule (section Shape Data)](label-cell-shape-data-section.md)
     
@@ -373,11 +373,11 @@ ms.locfileid: "19788298"
     
 - [LineColorTrans, cellule (section Line Format)](linecolortrans-cell-line-format-section.md)
     
-- [LineGradientAngle, cellule (Section Propriétés de dégradé)](linegradientangle-cell-gradient-properties-section.md)
+- [LineGradientAngle Cell (Gradient Properties Section)](linegradientangle-cell-gradient-properties-section.md)
     
-- [LineGradientDir, cellule (Section Propriétés de dégradé)](linegradientdir-cell-gradient-properties-section.md)
+- [LineGradientDir Cell (Gradient Properties Section)](linegradientdir-cell-gradient-properties-section.md)
     
-- [LineGradientEnabled, cellule (Section Propriétés de dégradé)](linegradientenabled-cell-gradient-properties-section.md)
+- [LineGradientEnabled Cell (Gradient Properties Section)](linegradientenabled-cell-gradient-properties-section.md)
     
 - [LineJumpCode, cellule (section Page Layout)](linejumpcode-cell-page-layout-section.md)
     
@@ -421,7 +421,7 @@ ms.locfileid: "19788298"
     
 - [LockFormat, cellule (section Protection)](lockformat-cell-protection-section.md)
     
-- [LockFromGroupFormat, cellule (Section Protection)](lockfromgroupformat-cell-protection-section.md)
+- [LockFromGroupFormat Cell (Protection Section)](lockfromgroupformat-cell-protection-section.md)
     
 - [LockGroup, cellule (section Protection)](lockgroup-cell-protection-section.md)
     
@@ -433,7 +433,7 @@ ms.locfileid: "19788298"
     
 - [LockPreview, cellule (section Document Properties)](lockpreview-cell-document-properties-section.md)
     
-- [LockReplace, cellule (Section Protection)](lockreplace-cell-protection-section.md)
+- [LockReplace Cell (Protection Section)](lockreplace-cell-protection-section.md)
     
 - [LockRotate, cellule (section Protection)](lockrotate-cell-protection-section.md)
     
@@ -441,17 +441,17 @@ ms.locfileid: "19788298"
     
 - [LockTextEdit, cellule (section Protection)](locktextedit-cell-protection-section.md)
     
-- [LockThemeColors, cellule (Section Protection)](lockthemecolors-cell-protection-section.md)
+- [LockThemeColors Cell (Protection Section)](lockthemecolors-cell-protection-section.md)
     
-- [LockThemeConnectors, cellule (Section Protection)](lockthemeconnectors-cell-protection-section.md)
+- [LockThemeConnectors Cell (Protection Section)](lockthemeconnectors-cell-protection-section.md)
     
-- [LockThemeFonts, cellule (Section Protection)](lockthemefonts-cell-protection-section.md)
+- [LockThemeFonts Cell (Protection Section)](lockthemefonts-cell-protection-section.md)
     
-- [LockThemeIndex, cellule (Section Protection)](lockthemeindex-cell-protection-section.md)
+- [LockThemeIndex Cell (Protection Section)](lockthemeindex-cell-protection-section.md)
     
-- [LockThemeEffects, cellule (Section Protection)](lockthemeeffects-cell-protection-section.md)
+- [LockThemeEffects Cell (Protection Section)](lockthemeeffects-cell-protection-section.md)
     
-- [LockVariation, cellule (Section Protection)](lockvariation-cell-protection-section.md)
+- [LockVariation Cell (Protection Section)](lockvariation-cell-protection-section.md)
     
 - [LockVtxEdit, cellule (section Protection)](lockvtxedit-cell-protection-section.md)
     
@@ -469,7 +469,7 @@ ms.locfileid: "19788298"
     
 - [NoAlignBox, cellule (section Miscellaneous)](noalignbox-cell-miscellaneous-section.md)
     
-- [NoCoauth, cellule (Section Document Properties)](nocoauth-cell-document-properties-section.md)
+- [NoCoauth Cell (Document Properties Section)](nocoauth-cell-document-properties-section.md)
     
 - [NoCtlHandles, cellule (section Miscellaneous)](noctlhandles-cell-miscellaneous-section.md)
     
@@ -483,9 +483,9 @@ ms.locfileid: "19788298"
     
 - [NoObjHandles, cellule (section Miscellaneous)](noobjhandles-cell-miscellaneous-section.md)
     
-- [NoProofing, cellule (Section Miscellaneous)](noproofing-cell-miscellaneous-section.md)
+- [NoProofing Cell (Miscellaneous Section)](noproofing-cell-miscellaneous-section.md)
     
-- [Noquickdrag, cellule (Section Geometry)](noquickdrag-cell-geometry-section.md)
+- [NoQuickDrag Cell (Geometry Section)](noquickdrag-cell-geometry-section.md)
     
 - [NoShow, cellule (section Geometry)](noshow-cell-geometry-section.md)
     
@@ -511,9 +511,9 @@ ms.locfileid: "19788298"
     
 - [PageLineJumpDirY, cellule (section Page Layout)](pagelinejumpdiry-cell-page-layout-section.md)
     
-- [PageLockDuplicate, cellule (Section Page Properties)](pagelockduplicate-cell-page-properties-section.md)
+- [PageLockDuplicate Cell (Page Properties Section)](pagelockduplicate-cell-page-properties-section.md)
     
-- [PageLockReplace, cellule (Section Page Properties)](pagelockreplace-cell-page-properties-section.md)
+- [PageLockReplace Cell (Page Properties Section)](pagelockreplace-cell-page-properties-section.md)
     
 - [PageRightMargin, cellule (section Print Properties)](pagerightmargin-cell-print-properties-section.md)
     
@@ -533,7 +533,7 @@ ms.locfileid: "19788298"
     
 - [PaperSource, cellule (section PrintProperties)](papersource-cell-printproperties-section.md)
     
-- [Point de vue, cellule (Section Propriétés de Rotation 3D)](perspective-cell-3-d-rotation-properties-section.md)
+- [Perspective Cell (3-D Rotation Properties Section)](perspective-cell-3-d-rotation-properties-section.md)
     
 - [PinX, cellule (section Shape Transform)](pinx-cell-shape-transform-section.md)
     
@@ -543,7 +543,7 @@ ms.locfileid: "19788298"
     
 - [PlaceFlip, cellule (section Page Layout)](placeflip-cell-page-layout-section.md)
     
-- [PlaceStyle, cellule (Section Page Layout)](placestyle-cell-page-layout-section.md)
+- [PlaceStyle Cell (Page Layout Section)](placestyle-cell-page-layout-section.md)
     
 - [PlowCode, cellule (section Page Layout)](plowcode-cell-page-layout-section.md)
     
@@ -567,45 +567,45 @@ ms.locfileid: "19788298"
     
 - [Prompt, cellule (section User-Defined Cells)](prompt-cell-user-defined-cells-section.md)
     
-- [QuickStyleEffectsMatrix, cellule (Section Style rapide)](quickstyleeffectsmatrix-cell-quick-style-section.md)
+- [QuickStyleEffectsMatrix Cell (Quick Style Section)](quickstyleeffectsmatrix-cell-quick-style-section.md)
     
-- [QuickStyleFillColor, cellule (Section Style rapide)](quickstylefillcolor-cell-quick-style-section.md)
+- [QuickStyleFillColor Cell (Quick Style Section)](quickstylefillcolor-cell-quick-style-section.md)
     
-- [QuickStyleFillMatrix, cellule (Section Style rapide)](quickstylefillmatrix-cell-quick-style-section.md)
+- [QuickStyleFillMatrix Cell (Quick Style Section)](quickstylefillmatrix-cell-quick-style-section.md)
     
-- [QuickStyleFontColor, cellule (Section Style rapide)](quickstylefontcolor-cell-quick-style-section.md)
+- [QuickStyleFontColor Cell (Quick Style Section)](quickstylefontcolor-cell-quick-style-section.md)
     
-- [QuickStyleFontMatrix, cellule (Section Style rapide)](quickstylefontmatrix-cell-quick-style-section.md)
+- [QuickStyleFontMatrix Cell (Quick Style Section)](quickstylefontmatrix-cell-quick-style-section.md)
     
-- [QuickStyleLineColor, cellule (Section Style rapide)](quickstylelinecolor-cell-quick-style-section.md)
+- [QuickStyleLineColor Cell (Quick Style Section)](quickstylelinecolor-cell-quick-style-section.md)
     
-- [QuickStyleLineMatrix, cellule (Section Style rapide)](quickstylelinematrix-cell-quick-style-section.md)
+- [QuickStyleLineMatrix Cell (Quick Style Section)](quickstylelinematrix-cell-quick-style-section.md)
     
-- [QuickStyleShadowColor, cellule (Section Style rapide)](quickstyleshadowcolor-cell-quick-style-section.md)
+- [QuickStyleShadowColor Cell (Quick Style Section)](quickstyleshadowcolor-cell-quick-style-section.md)
     
-- [QuickStyleType, cellule (Section Style rapide)](quickstyletype-cell-quick-style-section.md)
+- [QuickStyleType Cell (Quick Style Section)](quickstyletype-cell-quick-style-section.md)
     
-- [QuickStyleVariation, cellule (Section Style rapide)](quickstylevariation-cell-quick-style-section.md)
+- [QuickStyleVariation Cell (Quick Style Section)](quickstylevariation-cell-quick-style-section.md)
     
 - [ReadOnly, cellule (section Actions)](readonly-cell-actions-section.md)
     
-- [ReflectionBlur, cellule (Section Propriétés de l’effet supplémentaires)](reflectionblur-cell-additional-effect-properties-section.md)
+- [ReflectionBlur Cell (Additional Effect Properties Section)](reflectionblur-cell-additional-effect-properties-section.md)
     
-- [ReflectionDist, cellule (Section Propriétés de l’effet supplémentaires)](reflectiondist-cell-additional-effect-properties-section.md)
+- [ReflectionDist Cell (Additional Effect Properties Section)](reflectiondist-cell-additional-effect-properties-section.md)
     
-- [ReflectionSize, cellule (Section Propriétés de l’effet supplémentaires)](reflectionsize-cell-additional-effect-properties-section.md)
+- [ReflectionSize Cell (Additional Effect Properties Section)](reflectionsize-cell-additional-effect-properties-section.md)
     
-- [ReflectionTrans, cellule (Section Propriétés de l’effet supplémentaires)](reflectiontrans-cell-additional-effect-properties-section.md)
+- [ReflectionTrans Cell (Additional Effect Properties Section)](reflectiontrans-cell-additional-effect-properties-section.md)
     
-- [Relationships, cellule (Section Shape Layout)](relationships-cell-shape-layout-section.md)
+- [Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md)
     
-- [ReplaceCopyCells, cellule (Section de comportement de forme modification)](replacecopycells-cell-change-shape-behavior-section.md)
+- [ReplaceCopyCells Cell (Change Shape Behavior Section)](replacecopycells-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockFormat, cellule (Section de comportement de forme modification)](replacelockformat-cell-change-shape-behavior-section.md)
+- [ReplaceLockFormat Cell (Change Shape Behavior Section)](replacelockformat-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockShapeData, cellule (Section de comportement de forme modification)](replacelockshapedata-cell-change-shape-behavior-section.md)
+- [ReplaceLockShapeData Cell (Change Shape Behavior Section)](replacelockshapedata-cell-change-shape-behavior-section.md)
     
-- [ReplaceLockText, cellule (Section de comportement de forme modification)](replacelocktext-cell-change-shape-behavior-section.md)
+- [ReplaceLockText Cell (Change Shape Behavior Section)](replacelocktext-cell-change-shape-behavior-section.md)
     
 - [ResizeMode, cellule (section Shape Transform)](resizemode-cell-shape-transform-section.md)
     
@@ -613,15 +613,15 @@ ms.locfileid: "19788298"
     
 - [RightMargin, cellule (section Text Block Format)](rightmargin-cell-text-block-format-section.md)
     
-- [RotateGradientWithShape, cellule (Section Propriétés de dégradé)](rotategradientwithshape-cell-gradient-properties-section.md)
+- [RotateGradientWithShape Cell (Gradient Properties Section)](rotategradientwithshape-cell-gradient-properties-section.md)
     
-- [TypeRotation, cellule (Section Propriétés de Rotation 3D)](rotationtype-cell-3-d-rotation-properties-section.md)
+- [RotationType Cell (3-D Rotation Properties Section)](rotationtype-cell-3-d-rotation-properties-section.md)
     
-- [RotationXAngle, cellule (Section Propriétés de Rotation 3D)](rotationxangle-cell-3-d-rotation-properties-section.md)
+- [RotationXAngle Cell (3-D Rotation Properties Section)](rotationxangle-cell-3-d-rotation-properties-section.md)
     
-- [RotationYAngle, cellule (Section Propriétés de Rotation 3D)](rotationyangle-cell-3-d-rotation-properties-section.md)
+- [RotationYAngle Cell (3-D Rotation Properties Section)](rotationyangle-cell-3-d-rotation-properties-section.md)
     
-- [RotationZAngle, cellule (Section Propriétés de Rotation 3D)](rotationzangle-cell-3-d-rotation-properties-section.md)
+- [RotationZAngle Cell (3-D Rotation Properties Section)](rotationzangle-cell-3-d-rotation-properties-section.md)
     
 - [Rounding, cellule (section Line Format)](rounding-cell-line-format-section.md)
     
@@ -645,13 +645,13 @@ ms.locfileid: "19788298"
     
 - [ShapePlaceFlip, cellule (section Shape Layout)](shapeplaceflip-cell-shape-layout-section.md)
     
-- [ShapePlaceStyle, cellule (Section Shape Layout)](shapeplacestyle-cell-shape-layout-section.md)
+- [ShapePlaceStyle Cell (Shape Layout Section)](shapeplacestyle-cell-shape-layout-section.md)
     
 - [ShapePlowCode, cellule (section Shape Layout)](shapeplowcode-cell-shape-layout-section.md)
     
 - [ShapeRouteStyle, cellule (section Shape Layout)](shaperoutestyle-cell-shape-layout-section.md)
     
-- [ShapeShdwBlur, cellule (Section Fill Format)](shapeshdwblur-cell-fill-format-section.md)
+- [ShapeShdwBlur Cell (Fill Format Section)](shapeshdwblur-cell-fill-format-section.md)
     
 - [ShapeShdwObliqueAngle, cellule (section Fill Format)](shapeshdwobliqueangle-cell-fill-format-section.md)
     
@@ -661,7 +661,7 @@ ms.locfileid: "19788298"
     
 - [ShapeShdwScaleFactor, cellule (section Fill Format)](shapeshdwscalefactor-cell-fill-format-section.md)
     
-- [ShapeShdwShow, cellule (Section Fill Format)](shapeshdwshow-cell-fill-format-section.md)
+- [ShapeShdwShow Cell (Fill Format Section)](shapeshdwshow-cell-fill-format-section.md)
     
 - [ShapeShdwType, cellule (section Fill Format)](shapeshdwtype-cell-fill-format-section.md)
     
@@ -689,21 +689,21 @@ ms.locfileid: "19788298"
     
 - [Size, cellule (section Character)](size-cell-character-section.md)
     
-- [SketchAmount, cellule (Section Propriétés de l’effet supplémentaires)](sketchamount-cell-additional-effect-properties-section.md)
+- [SketchAmount Cell (Additional Effect Properties Section)](sketchamount-cell-additional-effect-properties-section.md)
     
-- [SketchEnabled, cellule (Section Propriétés de l’effet supplémentaires)](sketchenabled-cell-additional-effect-properties-section.md)
+- [SketchEnabled Cell (Additional Effect Properties Section)](sketchenabled-cell-additional-effect-properties-section.md)
     
-- [SketchFillChange, cellule (Section Propriétés de l’effet supplémentaires)](sketchfillchange-cell-additional-effect-properties-section.md)
+- [SketchFillChange Cell (Additional Effect Properties Section)](sketchfillchange-cell-additional-effect-properties-section.md)
     
-- [SketchLineChange, cellule (Section Propriétés de l’effet supplémentaires)](sketchlinechange-cell-additional-effect-properties-section.md)
+- [SketchLineChange Cell (Additional Effect Properties Section)](sketchlinechange-cell-additional-effect-properties-section.md)
     
-- [SketchLineWeight, cellule (Section Propriétés de l’effet supplémentaires)](sketchlineweight-cell-additional-effect-properties-section.md)
+- [SketchLineWeight Cell (Additional Effect Properties Section)](sketchlineweight-cell-additional-effect-properties-section.md)
     
-- [SketchSeed, cellule (Section Propriétés de l’effet supplémentaires)](sketchseed-cell-additional-effect-properties-section.md)
+- [SketchSeed Cell (Additional Effect Properties Section)](sketchseed-cell-additional-effect-properties-section.md)
     
 - [Snap, cellule (section Layers)](snap-cell-layers-section.md)
     
-- [SoftEdgesSize, cellule (Section Propriétés de l’effet supplémentaires)](softedgessize-cell-additional-effect-properties-section.md)
+- [SoftEdgesSize Cell (Additional Effect Properties Section)](softedgessize-cell-additional-effect-properties-section.md)
     
 - [SortKey, cellule (section Actions)](sortkey-cell-actions-section.md)
     
@@ -739,7 +739,7 @@ ms.locfileid: "19788298"
     
 - [TheData, cellule (section Events)](thedata-cell-events-section.md)
     
-- [ThemeIndex, cellule (Section Propriétés de thème)](themeindex-cell-theme-properties-section.md)
+- [ThemeIndex Cell (Theme Properties Section)](themeindex-cell-theme-properties-section.md)
     
 - [TheText, cellule (section Events)](thetext-cell-events-section.md)
     
@@ -783,7 +783,7 @@ ms.locfileid: "19788298"
     
 - [UpdateAlignBox, cellule (section Miscellaneous)](updatealignbox-cell-miscellaneous-section.md)
     
-- [UseGroupGradient, cellule (Section Propriétés de dégradé)](usegroupgradient-cell-gradient-properties-section.md)
+- [UseGroupGradient Cell (Gradient Properties Section)](usegroupgradient-cell-gradient-properties-section.md)
     
 - [Value, cellule (section Shape Data)](value-cell-shape-data-section.md)
     
@@ -791,9 +791,9 @@ ms.locfileid: "19788298"
     
 - [Value, cellule (section User-Defined Cells)](value-cell-user-defined-cells-section.md)
     
-- [VariationColorIndex, cellule (Section Propriétés de thème)](variationcolorindex-cell-theme-properties-section.md)
+- [VariationColorIndex Cell (Theme Properties Section)](variationcolorindex-cell-theme-properties-section.md)
     
-- [VariationStyleIndex, cellule (Section Propriétés de thème)](variationstyleindex-cell-theme-properties-section.md)
+- [VariationStyleIndex Cell (Theme Properties Section)](variationstyleindex-cell-theme-properties-section.md)
     
 - [VerticalAlign, cellule (section Text Block Format)](verticalalign-cell-text-block-format-section.md)
     
@@ -821,15 +821,15 @@ ms.locfileid: "19788298"
     
 - [X Justify, cellule (section Action Tags)](x-justify-cell-action-tags-section.md)
     
-- [Cellule XGridDensity (règle &amp; Section grille)](xgriddensity-cell-rulergrid-section.md)
+- [Cellule XGridDensity (section &amp; règle et grille)](xgriddensity-cell-rulergrid-section.md)
     
-- [Cellule XGridOrigin (règle &amp; Section grille)](xgridorigin-cell-rulergrid-section.md)
+- [Cellule XGridOrigin (section &amp; règle et grille)](xgridorigin-cell-rulergrid-section.md)
     
-- [Cellule XGridSpacing (règle &amp; Section grille)](xgridspacing-cell-rulergrid-section.md)
+- [Cellule XGridSpacing (section &amp; règle et grille)](xgridspacing-cell-rulergrid-section.md)
     
-- [Cellule XRulerDensity (règle &amp; Section grille)](xrulerdensity-cell-rulergrid-section.md)
+- [Cellule XRulerDensity (section &amp; règle et grille)](xrulerdensity-cell-rulergrid-section.md)
     
-- [Cellule XRulerOrigin (règle &amp; Section grille)](xrulerorigin-cell-rulergrid-section.md)
+- [Cellule XRulerOrigin (section &amp; règle et grille)](xrulerorigin-cell-rulergrid-section.md)
     
 - [Y Behavior, cellule (section Controls)](y-behavior-cell-controls-section.md)
     
@@ -847,14 +847,14 @@ ms.locfileid: "19788298"
     
 - [Y Justify, cellule (section Action Tags)](y-justify-cell-action-tags-section.md)
     
-- [Cellule XGridDensity (règle &amp; Section grille)](ygriddensity-cell-rulergrid-section.md)
+- [Cellule YGridDensity (section &amp; règle et grille)](ygriddensity-cell-rulergrid-section.md)
     
-- [Cellule YGridOrigin (règle &amp; Section grille)](ygridorigin-cell-rulergrid-section.md)
+- [Cellule YGridOrigin (section &amp; règle et grille)](ygridorigin-cell-rulergrid-section.md)
     
-- [Cellule YGridSpacing (règle &amp; Section grille)](ygridspacing-cell-rulergrid-section.md)
+- [Cellule YGridSpacing (section &amp; règle et grille)](ygridspacing-cell-rulergrid-section.md)
     
-- [Cellule YRulerDensity (règle &amp; Section grille)](yrulerdensity-cell-rulergrid-section.md)
+- [Cellule YRulerDensity (section &amp; règle et grille)](yrulerdensity-cell-rulergrid-section.md)
     
-- [Cellule YRulerOrigin (règle &amp; Section grille)](yrulerorigin-cell-rulergrid-section.md)
+- [Cellule YRulerOrigin (section &amp; règle et grille)](yrulerorigin-cell-rulergrid-section.md)
     
 

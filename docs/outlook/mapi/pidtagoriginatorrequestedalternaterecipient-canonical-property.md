@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 463f2eb6e730c9250861ce50515a7f662bb75d23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341999"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>Propriété canonique PidTagOriginatorRequestedAlternateRecipient
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d’entrée pour un autre destinataire désigné par l’expéditeur.
+Contient un identificateur d'entrée pour un autre destinataire désigné par l'expéditeur.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient un identificateur d’entrée pour un autre destinataire désigné par 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans les messages transféré automatiquement. Si le transfert automatique n’est pas autorisée ou si aucune autre destinataire n’a été désigné, un rapport de non-remise doit être généré.
+Cette propriété est utilisée dans les messages autoforwarded. Si le transfert d'autodirection n'est pas autorisé ou si aucun autre destinataire n'a été désigné, un rapport de non-remise doit être généré.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

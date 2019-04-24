@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: e4d209c4f185ff253476beb04913e6a64884f9b6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335419"
 ---
 # <a name="pidtagruleproviderdata-canonical-property"></a>Propriété canonique PidTagRuleProviderData
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une propriété opaque qui définit par le client à l’usage exclusif du client. 
+Propriété opaque définie par le client pour l'utilisation exclusive du client. 
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Une propriété opaque qui définit par le client à l’usage exclusif du clien
    
 ## <a name="remarks"></a>Remarques
 
-Le serveur doit conserver la valeur de cette propriété si elle a été définie par le client, mais doit ignorer son contenu au cours de traitement et d’évaluation de la règle.
+Le serveur doit conserver la valeur de cette propriété si elle a été définie par le client mais doit ignorer son contenu pendant l'évaluation et le traitement de la règle.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
 > Manipule les messages électroniques entrants sur un serveur.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées. 
+> Contient les définitions des propriétés indiquées en tant que propriétés associées. 
     
 ## <a name="see-also"></a>Voir aussi
 

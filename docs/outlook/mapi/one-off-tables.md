@@ -7,42 +7,42 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
-description: 'Dernière modification : 08 novembre 2011'
-ms.openlocfilehash: fc8d8d53dcbc091df98ba9e23533e4138660c8e2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 08 08, 2011'
+ms.openlocfilehash: 8719536efa9bffb1226f8fb665b912eb872227f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336483"
 ---
 # <a name="one-off-tables"></a>Tables ponctuelles
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une table unique contient des informations sur les modèles qui prend en charge par un fournisseur de carnet d’adresses pour la création de nouveaux destinataires. Tables uniques sont implémentés par les fournisseurs de carnet d’adresses, conteneurs de carnet d’adresses individuel et MAPI et peuvent être persistante ou temporaire. 
+Une table ponctuelle contient des informations sur les modèles pris en charge par un fournisseur de carnet d'adresses pour la création de nouveaux destinataires. Les tables ponctuelles sont implémentées par des fournisseurs de carnet d'adresses, des conteneurs de carnet d'adresses individuels et par MAPI, et peuvent être permanentes ou temporaires. 
   
 > [!NOTE]
-> Ne confondez pas les modèles dans des tables uniques avec des identificateurs de modèle ; alors que leurs fonctions sont identiques, leurs constructions de code sont similaires nothing. Modèles utilisés pour créer les destinataires d’un type particulier pendant les identificateurs de modèle sont utilisées pour lier les données d’un destinataire qui appartiennent à un fournisseur de l’hôte avec le code pour prendre en charge un autre destinataire qui appartiennent à un fournisseur étranger. 
+> Ne confondez pas les modèles dans les tables ponctuelles avec des identificateurs de modèle; Bien que leurs objectifs soient similaires, leurs constructions de code ne sont pas similaires. Les modèles sont utilisés pour créer des destinataires d'un type particulier tandis que les identificateurs de modèle sont utilisés pour lier les données d'un destinataire qui appartiennent à un fournisseur d'hôte avec du code afin de prendre en charge un autre destinataire appartenant à un fournisseur étranger. 
   
-Clients créer de nouveaux destinataires :
+Les clients créent des destinataires:
   
-- Pour ajouter à la liste des destinataires d’un message sortant.
+- Ajouter à la liste des destinataires d'un message sortant.
     
-- Ajouter à un des conteneurs dans le carnet d’adresses.
+- À ajouter à l'un des conteneurs dans le carnet d'adresses.
     
-Dans les deux scénarios, un fournisseur de carnet d’adresses est demandé de renvoyer une table unique. Fournisseurs de carnet d’adresses peuvent implémenter une seule table unique à être utilisé dans les situations ou une table unique unique pour chaque situation. 
+Dans les deux cas, un fournisseur de carnets d'adresses est invité à renvoyer une table ponctuelle. Les fournisseurs de carnet d'adresses peuvent implémenter une seule table unique à utiliser dans les deux situations ou une table ponctuelle unique pour chaque situation. 
   
-Lorsque le destinataire sera inclus dans un message sortant, MAPI appelle la méthode de [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) du fournisseur de carnet d’adresses pour récupérer sa table unique. Le tableau unique inclut des modèles qui permettent à un utilisateur d’entrer les informations résultant de la création d’un destinataire avec une adresse valide. Registres MAPI pour les notifications sur cette table, en conservant l’ouvrent afin que les modifications peuvent être reflétées à l’utilisateur. MAPI libère le tableau uniquement lorsque son sous-système ou l’adresse livre état [IMAPIStatus::ValidateState](imapistatus-validatestate.md) méthode de l’objet est appelée. 
+Lorsque le destinataire est inclus dans un message sortant, MAPI appelle la méthode [IABLogon:: GetOneOffTable](iablogon-getoneofftable.md) du fournisseur de carnet d'adresses pour récupérer sa table One-Off. La table ponctuelle inclut des modèles qui permettent à un utilisateur d'entrer des informations résultant de la création d'un destinataire avec une adresse valide. MAPI s'inscrit pour les notifications de cette table, le laissant s'ouvrir afin que les modifications puissent être répercutées sur l'utilisateur. MAPI ne libère la table que lorsque la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) de son sous-système ou de son carnet d'adresses est appelée. 
   
-Lorsque le destinataire sera ajouté à un conteneur, MAPI effectue un appel différents, appel de méthode [d’IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur pour récupérer sa propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). L’ensemble des modèles inclus dans ce tableau unique représente les types de destinataires qui peuvent être ajoutés au conteneur. Par exemple, les serveurs de messagerie exposent souvent un conteneur pour chaque passerelle est installée de sorte que chaque conteneur conserve uniquement des adresses spécifiques à la passerelle correspondante.
+Lorsque le destinataire est ajouté à un conteneur, MAPI effectue un autre appel en appelant la méthode [IMAPIProp:: OpenProperty](imapiprop-openproperty.md) du conteneur pour extraire sa propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). L'ensemble de modèles inclus dans cette table One-Off représente les types de destinataires qui peuvent être ajoutés au conteneur. Par exemple, les serveurs de messagerie exposent souvent un conteneur pour chaque passerelle installée de sorte que chaque conteneur ne contienne que des adresses spécifiques à la passerelle correspondante.
   
-MAPI fournit un tableau unique qui inclut ses propres modèles, ainsi que les modèles de chaque les fournisseurs de carnet d’adresses dans la session. MAPI fournit un modèle générique qui peut être utilisé pour créer un destinataire pour n’importe quel type d’adresse, en partant du principe que l’utilisateur connaît son format. Fournisseurs de carnet d’adresses utilisent ce tableau unique en appelant [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md). Chacun des modèles inclus dans les résultats de la table uniques MAPI dans la création de destinataires dont l’adresse de destinataire valide.
+MAPI fournit une table ponctuelle qui inclut ses propres modèles, ainsi que les modèles de chacun des fournisseurs de carnet d'adresses de la session. MAPI fournit un modèle générique qui peut être utilisé pour créer un nouveau destinataire pour n'importe quel type d'adresse, en supposant que l'utilisateur connaisse son format. Les fournisseurs de carnets d'adresses utilisent ce tableau isolé en appelant [IMAPISupport:: GetOneOffTable](imapisupport-getoneofftable.md). Chacun des modèles inclus dans la table ponctuelle MAPI entraîne la création de destinataires avec des adresses de destinataire valides.
   
-Fournisseurs de carnet d’adresses fournissent généralement un modèle pour chaque type d’adresse qu’ils prennent en charge. Toutefois, la prise en charge de modèles n’est pas obligatoire. Fournisseurs de carnet d’adresses qui n’autorisent pas la création de nouvelles adresses peuvent renvoyer MAPI_E_NO_SUPPORT lorsque les appels MAPI pour demander une table unique. Fournisseurs de carnet d’adresses qui n’autorisent pas la création de nouvelle adresse mais ne fournissent pas de tous les modèles peuvent appeler **IMAPISupport::GetOneOffTable** pour utiliser les modèles répertoriés dans le tableau unique MAPI. 
+Les fournisseurs de carnets d'adresses fournissent généralement un modèle pour chaque type d'adresse qu'ils prennent en charge. Toutefois, la prise en charge des modèles n'est pas obligatoire. Les fournisseurs de carnet d'adresses qui n'autorisent pas la création de nouvelles adresses peuvent renvoyer MAPI_E_NO_SUPPORT lorsque MAPI appelle pour demander une table ponctuelle. Les fournisseurs de carnet d'adresses qui permettent la création d'adresses mais ne fournissent pas de modèles peuvent appeler **IMAPISupport:: GetOneOffTable** pour utiliser les modèles figurant dans la table ponctuelle MAPI. 
   
-Les propriétés suivantes constituent la colonne requise définie dans les tableaux uniques :
+Les propriétés suivantes constituent le jeu de colonnes obligatoire dans les tables ponctuelles:
   
-- **TYPEADR_PR** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 - **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))
     
@@ -56,15 +56,15 @@ Les propriétés suivantes constituent la colonne requise définie dans les tabl
     
 - **PR_SELECTABLE** ([PidTagSelectable](pidtagselectable-canonical-property.md))
     
- **TYPEADR_PR** indique le type d’adresse peut être associé avec le nouveau destinataire créé avec le modèle. 
+ **PR_ADDRTYPE** indique le type d'adresse qui peut être associé au nouveau destinataire créé avec le modèle. 
   
- **PR_DISPLAY_NAME** et **PR_DISPLAY_TYPE** associent des données avec le nouveau destinataire. **PR_DISPLAY_NAME** contient une chaîne de caractères qui identifie le nouveau destinataire et **PR_DISPLAY_TYPE** contient une constante qui identifie le type d’icône à afficher avec la ligne. Modèles pour les utilisateurs de messagerie ont leur colonne **PR_DISPLAY_TYPE** DT_MAILUSER ; modèles de listes de distribution ont leur colonne **PR_DISPLAY_TYPE** DT_DISTLIST. 
+ **PR_DISPLAY_NAME** et **PR_DISPLAY_TYPE** associent les données au nouveau destinataire. **PR_DISPLAY_NAME** contient une chaîne de caractères qui identifie le nouveau destinataire et **PR_DISPLAY_TYPE** contient une constante qui identifie le type d'icône à afficher avec la ligne. Les modèles pour les utilisateurs de messagerie ont leur colonne **PR_DISPLAY_TYPE** définie sur DT_MAILUSER; les modèles pour les listes de distribution ont leur colonne **PR_DISPLAY_TYPE** définie sur DT_DISTLIST. 
   
- **PR_ENTRYID** est l’identificateur d’entrée du modèle à utiliser pour créer un nouveau destinataire. Cet identificateur d’entrée peut être transmis à des appels futurs [IAddrBook::NewEntry](iaddrbook-newentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md)et [IABContainer::CreateEntry](iabcontainer-createentry.md) . Conteneurs de définir la colonne **PR_ENTRYID** de leur ligne pour le modèle utilisateur pour **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) et la colonne **PR_ENTRYID** de leur ligne pour la liste de distribution par défaut de la messagerie par défaut modèle de **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). 
+ **PR_ENTRYID** est l'identificateur d'entrée du modèle à utiliser pour créer un destinataire. Cet identificateur d'entrée peut être passé aux futures [IAddrBook:: NewEntry](iaddrbook-newentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md)et [IABContainer:: CreateEntry](iabcontainer-createentry.md) appels. Les conteneurs définissent la colonne **PR_ENTRYID** de leur ligne pour le modèle utilisateur de messagerie par défaut sur **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) et la colonne **PR_ENTRYID** de leur ligne pour la liste de distribution par défaut. modèle à **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). 
   
- **PR_DEPTH** est utilisé pour prendre en charge l’affichage hiérarchique des entrées dans un tableau unique en indiquant le niveau de retrait pour le modèle. Bien que les tables uniques peuvent être affichées sous la forme d’une liste ou un affichage hiérarchique, cette dernière est préférable et fournisseurs de carnet d’adresses doivent prendre en charge qu’il en définissant la colonne **PR_DEPTH** pour chaque ligne de manière appropriée. **PR_DEPTH** est zéro ; lignes avec une valeur de 0 dans la colonne **PR_DEPTH** ne sont pas mis en retrait. Plus la valeur de **PR_DEPTH**est élevée, plus la ligne est mis en retrait. Par exemple, lignes avec **PR_DEPTH** défini sur 1 sont mis en retrait d’un onglet tandis que les lignes avec la valeur **PR_DEPTH** 3 sont mis en retrait de trois onglets. 
+ **PR_DEPTH** est utilisé pour prendre en charge l'affichage hiérarchique des entrées dans un tableau isolé en indiquant le niveau de retrait du modèle. Bien que les tables ponctuelles puissent être affichées sous la forme d'une liste plate ou d'un affichage hiérarchique, le dernier est préférable et les fournisseurs de carnets d'adresses doivent le prendre en charge en définissant la colonne **PR_DEPTH** pour chaque ligne de façon appropriée. **PR_DEPTH** est de base zéro; les lignes avec une valeur de 0 dans leur colonne **PR_DEPTH** ne sont pas mises en retrait. Plus la valeur est élevée ****, plus la ligne est mise en retrait. Par exemple, les lignes avec **PR_DEPTH** défini sur 1 sont mises en retrait d'un onglet tandis que les lignes avec **PR_DEPTH** définies sur 3 sont mises en retrait de trois onglets. 
   
- **PR_SELECTABLE** sert à indiquer si une ligne de la table représente un modèle qui peut être sélectionné et permet de créer un nouveau destinataire. Bien que la plupart des lignes d’un tableau unique représentent des modèles, fournisseurs peuvent inclure des lignes non liée au modèle. Par exemple, un fournisseur souhaiterez organiser la table unique par type de modèle, y compris une ligne de catégorie qui apparaît dans l’affichage, mais n’est pas utilisée pour la création du destinataire. 
+ **PR_SELECTABLE** est utilisé pour indiquer si une ligne du tableau représente un modèle qui peut être sélectionné et utilisé pour créer un destinataire. Bien que la plupart des lignes d'une table ponctuelle représentent des modèles, les fournisseurs peuvent inclure des lignes qui ne sont pas des modèles. Par exemple, un fournisseur peut souhaiter organiser le tableau One-off par type de modèle, y compris une ligne de catégorie qui apparaît dans l'affichage, mais qui n'est pas utilisée pour la création de destinataires. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Envoi de messages à l’aide de MAPI
+title: Envoi de messages à l'aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6a3172dcd962c04d72aacd14d2e42990fb0f78c7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: bf6324b89f06ef7f0553d3de1eaa24ae31a329ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593451"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339752"
 ---
-# <a name="sending-messages-by-using-mapi"></a>Envoi de messages à l’aide de MAPI
+# <a name="sending-messages-by-using-mapi"></a>Envoi de messages à l'aide de MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Applications clientes appellent la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer un message. **SubmitMessage** appelle [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle soit le spouleur MAPI ou directement à un fournisseur de transport. 
+Les applications clientes appellent la méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) pour envoyer un message. **SubmitMessage** appelle [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) pour enregistrer le message avant de transférer le contrôle vers le spouleur MAPI ou directement vers un fournisseur de transport. 
   
-Le spouleur MAPI reçoit le message si une des actions suivantes se produisent :
+Le spouleur MAPI reçoit le message si l'un des éléments suivants se produit:
   
-- Le fournisseur de banque de message et le fournisseur de transport ne sont pas étroitement liées.
+- Le fournisseur de banque de messages et le fournisseur de transport ne sont pas étroitement couplés.
     
-- Le message nécessite un prétraitement.
+- Le message doit être prétraité.
     
-- La banque de messages étroitement couplés et de transport ne peut pas gérer tous les destinataires auxquels le message est adressé.
+- La Banque de messages et le transport étroitement couplés ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
     
-Une banque de messages étroitement couplés doit prendre en considération état d’un message avant qu’il présente le spouleur MAPI à transférer vers un fournisseur de transport. Il existe des situations où un message s’affiche pour demander le spouleur MAPI, mais le spouleur MAPI doit vraiment pas impliqué.
+Un magasin de messages étroitement couplé doit prendre en compte l'état d'un message avant de le présenter au spouleur MAPI afin d'être téléchargé vers un fournisseur de transport. Il existe des situations dans lesquelles un message peut sembler exiger le spouleur MAPI, mais le spouleur MAPI ne doit pas être impliqué.
   
-Par exemple, considérez la situation où un utilisateur envoie un message à partir de la boîte de réception. Le client utilise un magasin étroitement couplé et transport. Si la banque de messages étroitement couplés utilise l’emplacement du message comme critère unique permettant de décider s’il faut autoriser le spouleur MAPI sur les gérer le message, le spouleur MAPI toujours le message. Pour éviter ce type de problème, une banque de messages étroitement couplés doit vérifier le statut du message en plus de l’emplacement du message. Plus précisément, le fournisseur de transport ne doit pas demander que le spouleur MAPI télécharger tout message est envoyé en.
+Par exemple, considérez la situation dans laquelle un utilisateur envoie un message à partir de la boîte de réception. Le client utilise un magasin et un transport étroitement couplés. Si la Banque de messages étroitement couplée utilise l'emplacement du message comme critère unique pour décider d'autoriser ou non le spouleur MAPI à gérer le message, le spouleur MAPI reçoit toujours le message. Pour éviter ce type de problème, un magasin de messages étroitement couplé doit vérifier l'état du message en plus de l'emplacement du message. Plus précisément, le fournisseur de transport ne doit pas demander au spouleur MAPI de télécharger les messages soumis activement.
   
-Le processus de transmission de message implique le fournisseur de banque de message, un ou plusieurs fournisseurs de transport et MAPI. Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission de message.
+Le processus de transmission de messages implique le fournisseur de banque de messages, un ou plusieurs fournisseurs de transport et MAPI. Les rubriques de cette section fournissent des informations détaillées sur des rôles spécifiques dans le processus de transmission des messages.
   
 ## <a name="see-also"></a>Voir aussi
 

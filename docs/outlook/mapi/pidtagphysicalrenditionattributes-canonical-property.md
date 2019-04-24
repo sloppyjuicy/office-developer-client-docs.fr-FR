@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f66d0f06112d95cb5adb2a9e7419c1d20f71bfc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338667"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Propriété canonique PidTagPhysicalRenditionAttributes
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d’objet ASN.1 qui est utilisé pour le rendu des pièces jointes des messages.
+Contient un identificateur d'objet ASN. 1 utilisé pour le rendu des pièces jointes des messages.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient un identificateur d’objet ASN.1 qui est utilisé pour le rendu des pi
 |Type de données :  <br/> |PT_BINARY  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

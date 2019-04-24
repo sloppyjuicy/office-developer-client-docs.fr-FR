@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 01ea05eb864c78f3ded39ca3ebc62578076b9d37
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584659"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341264"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584659"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule la responsabilité de l’envoi de notifications précédemment établie par un appel à la méthode [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
+Annule la responsabilité pour l'envoi de notifications précédemment établies avec un appel à la méthode [IMAPISupport:: subscribe](imapisupport-subscribe.md) . 
   
 ```cpp
 HRESULT Unsubscribe(
@@ -37,23 +37,23 @@ ULONG ulConnection
 
  _ulConnection_
   
-> [in] Le numéro de connexion différente de zéro qui représente l’enregistrement de notification précédemment établie par le biais de **IMAPISupport::Subscribe**.
+> dans Numéro de connexion différent de zéro qui représente l'inscription de notification précédemment établie via **IMAPISupport:: subscribe**.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’inscription de notification a été annulée.
+> L'enregistrement de la notification a été annulé.
     
 MAPI_E_NOT_FOUND 
   
-> Le numéro de connexion passé dans le paramètre _ulConnection_ n’existe pas. 
+> Le numéro de connexion transmis dans le paramètre _ulConnection_ n'existe pas. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::Unsubscribe** est implémentée pour tous les objets de prise en charge de fournisseur de service. Fournisseurs de services d’appel **désabonnement** pour annuler un enregistrement de notification précédemment configuré par **abonnement**. **Annuler l’abonnement** annule l’inscription en libérant le pointeur du récepteur advise passé dans l’appel de **s’abonner** . 
+La méthode **IMAPISupport:: unsubscribe** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de **** services appellent unsubscribe pour annuler une inscription aux notifications précédemment configurée par **subscribe**. **Unsubscribe** annule l'inscription en publiant le pointeur de récepteur de notifications transmis à l'appel **subscribe** . 
   
-En règle générale, méthode de **IUnknown::Release** du récepteur advise est appelé pendant l’appel de **désabonnement** . Toutefois, si un autre thread est en appelant la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de récepteur advise, l’appel de la **version** est différé jusqu'à ce que la méthode **OnNotify** renvoie. 
+En règle générale, la méthode **IUnknown:: Release** du récepteur de notification est appelée pendant l'appel de **désinscription** . Toutefois, si un autre thread appelle la méthode [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) pour l'objet de récepteur de notifications, l'appel de **libération** est retardé jusqu'à ce que la méthode **OnNotify** soit renvoyée. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 444bf9e2-80e8-cbe5-6855-b445f16e7920
 description: Détermine la position verticale, par rapport à l'origine de son parent, d'un repère horizontal ou d'un point de repère sur lequel est aligné le centre vertical de la forme.
-ms.openlocfilehash: dd982f716fdd98c684b1668063516de07eb965e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c49142e0e612ebee98d989acc0b878eb73f2f892
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341705"
 ---
 # <a name="alignmiddle-cell-alignment-section"></a>AlignMiddle, cellule (section Alignment)
 
 Détermine la position verticale, par rapport à l'origine de son parent, d'un repère horizontal ou d'un point de repère sur lequel est aligné le centre vertical de la forme.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule AlignMiddle par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule AlignMiddle par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | AlignMiddle  <br/> |
    
-Pour obtenir une référence à la cellule AlignMiddle par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule AlignMiddle à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowAlign** <br/> |
 | Index de la cellule :  <br/> |**visAlignMiddle** <br/> |
    

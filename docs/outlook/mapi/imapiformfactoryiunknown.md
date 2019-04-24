@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: c60b542852653bd617b5b9f604bbc44d575e5cb3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384765"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342118"
 ---
 # <a name="imapiformfactory--iunknown"></a>IMAPIFormFactory : IUnknown
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge l’utilisation des formulaires d’exécution configurables dans des environnements informatiques distribués. 
+Prend en charge l'utilisation de formulaires d'exécution configurables dans les environnements informatiques distribués. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Exposés par :  <br/> |Objets de fabrique de formulaire  <br/> |
-|Implémenté par :  <br/> |Serveurs de formulaire  <br/> |
-|Appelé par :  <br/> |Visionneuses de formulaire  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIFormFactory  <br/> |
-|Type de pointeur :  <br/> |LPMAPIFORMFACTORY  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Exposé par:  <br/> |Objets de fabrique de formulaires  <br/> |
+|Implémenté par :  <br/> |Serveurs de formulaires  <br/> |
+|Appelé par :  <br/> |Visionneuses de formulaires  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIFormFactory  <br/> |
+|Type de pointeur:  <br/> |LPMAPIFORMFACTORY  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
 |[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Renvoie un objet de fabrique de classe pour le formulaire.  <br/> |
-|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente à l’objet de fabrique de formulaire.  <br/> |
-|[LockServer](imapiformfactory-lockserver.md) <br/> |Tenir à jour un serveur de formulaire ouvert en mémoire.  <br/> |
+|[Généré](imapiformfactory-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet Factory de formulaire.  <br/> |
+|[LockServer](imapiformfactory-lockserver.md) <br/> |Conserve un serveur de formulaires ouvert en mémoire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L’interface **IMAPIFormFactory** repose sur l’interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) et les objets qui implémentent **IMAPIFormFactory** doivent également hériter de **IClassFactory**.
+L'interface **IMAPIFormFactory** est basée sur l'interface [IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) , et les objets qui implémentent **IMAPIFormFactory** doivent également hériter de **IClassFactory**.
   
- **IMAPIFormFactory** est l’interface visionneuses de formulaire permet de créer de nouveaux objets de formulaire lorsqu’un serveur de formulaire prend en charge plus d’une classe de message (autrement dit, plus d’un type d’objet de formulaire). 
+ **IMAPIFormFactory** est l'interface utilisée par les visionneuses de formulaires pour créer des objets de formulaire lorsqu'un serveur de formulaire prend en charge plusieurs classes de message (autrement dit, plusieurs types d'objet de formulaire). 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,30 +9,30 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c6d298a4-1602-a53c-bb5d-2ef16b43f722
 description: Détermine la position horizontale, par rapport à l'origine de son parent, d'un repère vertical ou d'un point de repère sur lequel est aligné le bord droit de la forme.
-ms.openlocfilehash: 8bb3f68a9b7e6fb08cbd95ee0240e35f519d4fb8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 558808908107a3e42d9d6e4a6fc1cf177150edb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341502"
 ---
 # <a name="alignright-cell-alignment-section"></a>AlignRight, cellule (section Alignment)
 
 Détermine la position horizontale, par rapport à l'origine de son parent, d'un repère vertical ou d'un point de repère sur lequel est aligné le bord droit de la forme.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule AlignRight par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule AlignRight par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | AlignRight  <br/> |
    
-Pour obtenir une référence à la cellule AlignRight par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule AlignRight dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowAlign** <br/> |
 | Index de la cellule :  <br/> |**visAlignRight** <br/> |
    

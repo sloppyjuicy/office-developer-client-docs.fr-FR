@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
-description: Ouvre une session sur le site de réseau social à l’aide des informations d’identification mises en cache.
-ms.openlocfilehash: 098ccd2cd3a55affed683886ce1e297ed725475b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ouvre une session sur le site réseau social à l'aide des informations d'identification mises en cache.
+ms.openlocfilehash: b79c692c01022dd10ecb8d4085f0aedb28a810c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19787625"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336504"
 ---
 # <a name="isocialsession2logoncached"></a>ISocialSession2::LogonCached
 
-Ouvre une session sur le site de réseau social à l’aide des informations d’identification mises en cache.
+Ouvre une session sur le site réseau social à l'aide des informations d'identification mises en cache.
   
 ```cpp
 HRESULT _stdcall LogonCached([in] BSTR connectIn, [in] BSTR userName, [in] BSTR password,  [out] BSTR connectOut);
@@ -25,29 +25,29 @@ HRESULT _stdcall LogonCached([in] BSTR connectIn, [in] BSTR userName, [in] BSTR 
 
 ## <a name="parameters"></a>Paramètres
 
-_connectIn_
+_connexion_
   
-> [in] Chaîne qui peut être vide ou contient les informations d’identification d’ouverture de session, selon le contexte dans lequel l’OSC appelle **LogonCached**.
+> dans Une chaîne qui peut être vide ou qui contient les informations d'identification de connexion, en fonction du contexte dans lequel OSC appelle **LogonCached**.
     
 _userName_
   
-> [in] Chaîne qui contient le nom d’utilisateur.
+> dans Chaîne qui contient le nom d'utilisateur.
     
 _mot de passe_
   
-> [in] Chaîne qui contient le mot de passe.
+> dans Chaîne qui contient le mot de passe de l'utilisateur.
     
 _connectOut_
   
-> [out] Une chaîne opaque qui contient les informations d’identification.
+> remarquer Chaîne opaque qui contient les informations d'identification.
     
 ## <a name="remarks"></a>Remarques
 
-Cette méthode est appelée pour l’authentification uniquement si **useLogonCached** est définie comme **true** dans le XML des **fonctionnalités** renvoyé par [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md).
+Cette méthode est appelée pour l'authentification uniquement si **useLogonCached** est défini sur **true** dans les **fonctionnalités** XML renvoyées par [ISocialProvider:: GetCapabilities](isocialprovider-getcapabilities.md).
   
-L’Outlook Social Connector (OSC) appelle **LogonCached**et transmet une chaîne vide pour _connectIn_ et chaînes de _nom d’utilisateur_ et _mot de passe_ non vide. Le fournisseur utilise le _nom d’utilisateur_ et _mot de passe_ pour vous connecter au réseau social et retourne un paramètre opaque _connectOut_ à l’OSC si l’authentification réussit. Si l’authentification échoue, le fournisseur renvoie l’erreur OSC_E_LOGON_FAILURE à l’OSC. 
+Outlook Social Connector (OSC) appelle **LogonCached**et transmet une chaîne vide pour les chaînes de _nom d'utilisateur_ et _de mot de passe_ de _connexion_ et non vide. Le fournisseur utilise le _nom d'utilisateur_ et le _mot de passe_ pour se connecter au réseau social et renvoie un paramètre _connectOut_ opaque à OSC si l'authentification réussit. Si l'authentification échoue, le fournisseur renvoie l'erreur OSC_E_LOGON_FAILURE au OSC. 
   
-Le paramètre _connectOut_ est une chaîne opaque à l’OSC et est transmis au paramètre _connectIn_ lors des tentatives suivantes à l’OSC à se connecter au réseau social. Le fournisseur doit placer les informations d’identification dans la chaîne _connectOut_ que le fournisseur souhaite l’OSC pour stocker les connexions. L’OSC n’interprète pas la chaîne de _connectOut_et chiffre la chaîne pour des raisons de sécurité avant de les stocker dans le Registre Windows.
+Le paramètre _connectOut_ est une chaîne opaque vers OSC, et est transmis au paramètre _Connect_ sur les tentatives suivantes de l'OSC pour se connecter au réseau social. Le fournisseur doit placer toutes les informations d'identification dans la chaîne _connectOut_ que le fournisseur souhaite que OSC stocke sur les connexions. Le OSC n'interprète pas la chaîne dans _connectOut_et chiffre la chaîne à des fins de sécurité avant de la stocker dans le Registre Windows.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251424
 localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
-description: Renvoie le résultat d’expression sous forme de chaîne mise en forme selon formatpicture.
-ms.openlocfilehash: dcb898b3cb21d8cc5ebee7e56540d9e2eefcffdb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie le résultat d'expression sous la forme d'une chaîne mise en forme conformément à formatPicture.
+ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339892"
 ---
-# <a name="format-function"></a>FORMAT, fonction
+# <a name="format-function"></a>Fonction FORMAT
 
-Renvoie le résultat _d’expression_ sous forme de chaîne mise en forme selon _formatpicture_.
+Renvoie le résultat d' _expression_ sous la forme d'une chaîne mise en forme conformément à _formatPicture_.
   
 ## <a name="syntax"></a>Syntaxe
 
-FORMAT (** *expression* **, « ** *formatpicture* ** ») 
+FORMAT (* * *expression* * *, "* * *formatPicture* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
-| _formatPicture_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Modèle de format utilisé pour la mise en forme de la chaîne.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
+| _formatPicture_ <br/> |Obligatoire  <br/> |**String** <br/> |Modèle de format utilisé pour la mise en forme de la chaîne.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-Le type de l’expression et le type spécifié dans le modèle de format régissent le comportement de la chaîne retournée. Le _formatpicture_ doit être approprié pour le type d’expression. Pour plus d’informations sur la spécification des modèles de format, voir [à propos des images de format](about-format-pictures.md).
+Le type de l’expression et celui indiqué dans le modèle de format régissent le comportement de la chaîne renvoyée. Le _formatPicture_ doit être approprié pour le type d'expression. Pour plus d'informations sur la spécification des images de format, voir [à propos de la mise en forme des images](about-format-pictures.md).
   
-Renvoie une erreur si le résultat de _l’expression_ et le type attendu dans _formatpicture_ est de même nature ou s’il existe des erreurs de syntaxe dans _formatpicture_.
+Renvoie une erreur si le résultat d' _expression_ et le type attendu dans _formatPicture_ sont de même nature ou s'il existe des erreurs de syntaxe dans _formatPicture_.
   
 ## <a name="example-1"></a>Exemple 1
 

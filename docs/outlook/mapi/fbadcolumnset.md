@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341005"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575097"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La validité d’une colonne de table définie pour les tests utilisent par un fournisseur de services dans un appel suivant à la méthode [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+Teste la validité d'un jeu de colonnes de table en vue d'une utilisation par un fournisseur de services lors d'un appel ultérieur à la méthode [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadColumnSet(
 
  _lpptaCols_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété définir les colonnes de la table à valider. 
+> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété qui définissent les colonnes de tableau à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> L’ensemble de la colonne spécifiée n’est pas valide. 
+> Le jeu de colonnes spécifié n'est pas valide. 
     
 FALSE 
   
-> L’ensemble de la colonne spécifiée est valide.
+> Le jeu de colonnes spécifié est valide.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadColumnSet** traite les colonnes du type PT_ERROR comme non valide et les colonnes du type PT_NULL comme étant valide. 
+La fonction **FBadColumnSet** traite les colonnes de type PT_ERROR comme non valides et les colonnes de type PT_NULL comme valides. 
   
 

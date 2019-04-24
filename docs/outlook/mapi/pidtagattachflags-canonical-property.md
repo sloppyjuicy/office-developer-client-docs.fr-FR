@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: efccd75cce04e4e392a7fbd9feecc7c8b49ab57e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339332"
 ---
 # <a name="pidtagattachflags-canonical-property"></a>Propriété canonique PidTagAttachFlags
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque binaire composé des indicateurs d’une pièce jointe. 
+Contient un masque de masque des indicateurs d'une pièce jointe. 
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient un masque binaire composé des indicateurs d’une pièce jointe.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée pour la prise en charge MHTML. 
+Cette propriété est utilisée pour la prise en charge de MHTML. 
   
-Un ou plusieurs des indicateurs suivants peuvent être définies pour le masque de bits **PR_ATTACH_FLAGS** : 
+Un ou plusieurs des indicateurs suivants peuvent être définis pour le masque de masque **PR_ATTACH_FLAGS** : 
   
 ATT_INVISIBLE_IN_HTML 
   
-> Indique que cette pièce jointe n’est pas disponible pour les applications de rendu HTML et doit être ignorée dans Multipurpose Internet Mail Extensions (MIME) de traitement. 
+> Indique que cette pièce jointe n'est pas disponible pour les applications de rendu HTML et qu'elle doit être ignorée dans le traitement MIME (Multipurpose Internet Mail Extensions). 
     
 ATT_INVISIBLE_IN_RTF 
   
-> Indique que cette pièce jointe n’est pas disponible pour les applications rendu au format RTF (RICH Text Format) et doit être ignorée par MAPI.
+> Indique que cette pièce jointe n'est pas disponible pour le rendu des applications au format RTF (Rich Text Format) et qu'elle doit être ignorée par MAPI.
     
-Si la propriété **PR_ATTACH_FLAGS** est égale à zéro ou absent, la pièce jointe doit être traité par toutes les applications. 
+Si la propriété **PR_ATTACH_FLAGS** est nulle ou absente, la pièce jointe doit être traitée par toutes les applications. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

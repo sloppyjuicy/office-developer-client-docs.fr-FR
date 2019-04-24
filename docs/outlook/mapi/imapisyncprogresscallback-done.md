@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cdd3db3f3779c2078b90352e19f8da6b29cffb8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8d397e12b8b24c5031e6e6d89d98134d487a815b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341271"
 ---
 # <a name="imapisyncprogresscallbackdone"></a>IMAPISyncProgressCallback::Done
 
@@ -38,11 +38,11 @@ HRESULT Done(
 
  **hThreadDoneEvent**
   
-> Un événement qui est passé précédent pour permettre à Microsoft Outlook fermer le handle. Il peut être NULL.
+> Un événement qui est renvoyé pour permettre à Microsoft Outlook de fermer le descripteur. Elle peut être NULL.
     
  **hResult**
   
-> Une valeur HRESULT indiquant l’état final de la progression.
+> HRESULT indiquant l'état final de la progression.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

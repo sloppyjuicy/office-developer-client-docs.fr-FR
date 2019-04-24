@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 1f51d14160c5fd80c3e65f5e4c38d3347748136b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e335caafd2a136724707d04b6679a2971697920f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336434"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Propriété canonique PidTagSearch
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet conteneur qui est utilisé pour les recherches avancées.
+Contient un objet Container qui est utilisé pour les recherches avancées.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH  <br/> |
 |Identificateur :  <br/> |0x3607  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Domaine :  <br/> |Conteneur de carnet d’adresses  <br/> |
+|Domaine :  <br/> |Conteneur de carnet d'adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un conteneur qui ne gère pas les fonctions de recherche avancées ne dispose pas de fournir la propriété.
+Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées ne doit pas fournir la propriété.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

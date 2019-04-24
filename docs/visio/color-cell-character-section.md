@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Détermine la couleur utilisée pour le texte de la forme.
-ms.openlocfilehash: ef07f4165882e08a2292e4ee549f8807fe8403e5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a27d957781ca9a784e7ab9d5c1ce4f533b9a55ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788253"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341838"
 ---
 # <a name="color-cell-character-section"></a>Color, cellule (section Character)
 
@@ -24,17 +24,17 @@ Détermine la couleur utilisée pour le texte de la forme.
 
 Pour définir la couleur, tapez un nombre compris entre 0 et 23.
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d’une couleur personnalisée est sa couleur RVB et RVB ( *r, g, b*), au lieu d’un nombre, s’affichera dans la fenêtre feuille ShapeSheet. Lorsqu’il est utilisé dans les opérations numériques, les couleurs personnalisées ont des valeurs de 24 et au-dessus. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL. La valeur d'une couleur personnalisée est sa couleur RVB et la valeur RVB ( *r, v, b*), au lieu d'un nombre, est affichée dans la fenêtre feuille ShapeSheet. Dans les opérations numériques, les couleurs personnalisées ont des valeurs supérieures ou égales à 24. 
   
 Vous pouvez définir une transparence pour la couleur du texte dans la cellule Transparency.
   
-Pour obtenir une référence à la cellule Color par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Color par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Char.Color [ *i* ] où *i* = < 1 >, 2, 3,...  <br/> |
+|Nom de la cellule :  <br/> |Char. Color [ *i* ] où *i* = <1>, 2, 3,...  <br/> |
    
-Pour obtenir une référence à la cellule Color par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

@@ -11,53 +11,53 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 90e5b370dace12dbe529465259b8551516fda491
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386368"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338058"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Propriété canonique PidNameKeywords
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des mots clés ou catégories de l’objet du message.
+Contient des mots clés ou des catégories pour l'objet message.
   
 |||
 |:-----|:-----|
-|Noms conviviaux :  <br/> |Aucune  <br/> |
-|Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Keywords  <br/> |
+|Noms conviviaux:  <br/> |Aucun  <br/> |
+|Jeu de propriétés:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Nom de la propriété:  <br/> |Mots clés  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE  <br/> |
-|Domaine :  <br/> |Général de messagerie  <br/> |
+|Domaine :  <br/> |Messagerie générale  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur de chaîne multiples qui spécifie les catégories d’un objet de message, la longueur de chaque chaîne dans cette chaîne à valeurs multiples de propriété, doit être inférieure à 256.
+Une valeur de chaîne multiple qui spécifie les catégories pour un objet message, la longueur de chaque chaîne de cette propriété chaîne à valeurs multiples doit être inférieure à 256.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations qui sont autorisées sur les documents.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

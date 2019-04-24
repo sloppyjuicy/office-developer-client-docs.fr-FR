@@ -11,35 +11,35 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: d75f74de323e2ba70675a02e388d6d1539cd30ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 1423f76b5aade400d8b828fe63a275e14b6a0c6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337106"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime les dossiers à partir du carnet d’adresses Microsoft Outlook 2010 et Microsoft Outlook 2013 de contacts.
+Supprime les dossiers de contacts du carnet d'adresses Microsoft Outlook 2010 et Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |cabadmin.h  <br/> |
-|Exposés par :  <br/> ||
-|Implémentée par :  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
-|Appelée par :  <br/> |CRM  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IContabAdmin  <br/> |
-|Type de pointeur :  <br/> ||
+|Fichier d’en-tête :  <br/> |cabadmin. h  <br/> |
+|Exposé par:  <br/> ||
+|Implémenté par :  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
+|Appelé par :  <br/> |CRM  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IContabAdmin  <br/> |
+|Type de pointeur:  <br/> ||
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le Contact adresse livre (CAB) spécifié par l’ID d’entrée donné à partir de la hiérarchie de carnets d’adresses.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Supprime le carnet d'adresses des contacts spécifié par l'ID d'entrée donné de la hiérarchie de carnet d'adresses.  <br/> |
    
 

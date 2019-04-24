@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590420"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342090"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590420"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.
+Renvoie un pointeur vers le conteneur de formulaires dans lequel un formulaire particulier est installé.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,7 +37,7 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> [out] Pointeur vers un pointeur vers l’objet conteneur de formulaire renvoyé.
+> remarquer Pointeur vers un pointeur vers l'objet conteneur de formulaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

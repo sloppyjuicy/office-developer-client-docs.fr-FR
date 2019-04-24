@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b92c733c5030ce12eb691bba57afb5ce6b9d1dad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335398"
 ---
 # <a name="subscribe-to-an-rss-feed"></a>Abonnement à un flux RSS
 
@@ -31,7 +31,7 @@ Dans l’exemple suivant, AddRssFeed s’abonne à un nouveau flux RSS nommé «
 > [!NOTE]
 > Vous devez spécifier le gestionnaire de protocole correct pour l’URL du dossier dans la méthode **OpenSharedFolder** pour vous abonner à un flux RSS. Par exemple, vous devez utiliser une URL qui commence par `feed://` au lieu de `https://`. Outlook ne peut pas ouvrir les flux RSS qui requièrent une authentification, sauf si l'authentification NTLM (Windows NT LAN Manager) est disponible, et ne peut pas charger les flux RSS depuis des emplacements SSL (Secure Sockets Layer).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

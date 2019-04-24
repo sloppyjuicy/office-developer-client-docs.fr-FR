@@ -1,5 +1,5 @@
 ---
-title: Synchroniser Outlook avec un dossier SharePoint
+title: Synchronisation d’Outlook avec un dossier SharePoint
 TOCTitle: Synchronize Outlook with a SharePoint folder
 ms:assetid: fecb04ab-39c6-43e1-9a21-12ecb29d94fb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424483(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1b6c88d40236ffb6cc3201b659a39e4d869de188
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335391"
 ---
 # <a name="synchronize-outlook-with-a-sharepoint-folder"></a>Synchroniser Outlook avec un dossier SharePoint
 
@@ -23,13 +23,13 @@ Cet exemple montre comment se connecter par programme Outlook avec un dossier Sh
 > [!NOTE] 
 > L’exemple de code suivant est un extrait de [Programmation d’Applications pour Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
-Dans Outlook, vous pouvez synchroniser des calendriers, des listes de contacts, des listes de tâches, des forums de discussion ainsi que des bibliothèques de documents vers des dossiers SharePoint. Sur la base de l'URL fournie lors de la synchronisation, Outlook crée un nouveau dossier ayant le même type de base que le dossier SharePoint. Par exemple, la synchronisation à un dossier de calendrier SharePoint crée un dossier calendrier dans Outlook. Les dossiers de synchronisation SharePoint sont stockés dans leur propre fichier de dossiers personnels Outlook (.pst) en dehors de la boîte aux lettres de l'utilisateur. Vous pouvez vous connecter à un dossier SharePoint à l’aide de la [OpenSharedFolder (Chaîne, Objet, Objet, Objet)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) méthode de l’objet d’[espace de noms](https://msdn.microsoft.com/library/bb645857\(v=office.15\)). Notez que vous devez utiliser une URL stssync:// qui fournit des détails sur le serveur SharePoint, le chemin d'accès du dossier et d'autres informations nécessaires à Outlook pour ouvrir un dossier SharePoint.
+Dans Outlook, vous pouvez synchroniser des calendriers, des listes de contacts, des listes de tâches, des forums de discussion ainsi que des bibliothèques de documents vers des dossiers SharePoint. Sur la base de l'URL fournie lors de la synchronisation, Outlook crée un nouveau dossier ayant le même type de base que le dossier SharePoint. Par exemple, la synchronisation avec un dossier de calendrier SharePoint crée un nouveau dossier de calendrier dans Outlook. Les dossiers de synchronisation SharePoint sont stockés dans leur propre fichier de dossiers personnels Outlook (.pst) en dehors de la boîte aux lettres de l'utilisateur. Vous pouvez vous connecter à un dossier SharePoint à l’aide de la [OpenSharedFolder (Chaîne, Objet, Objet, Objet)](https://msdn.microsoft.com/library/bb610157\(v=office.15\)) méthode de l’objet d’[espace de noms](https://msdn.microsoft.com/library/bb645857\(v=office.15\)). Notez que vous devez utiliser une URL stssync:// qui fournit des détails sur le serveur SharePoint, le chemin d'accès du dossier et d'autres informations nécessaires à Outlook pour ouvrir un dossier SharePoint.
 
 Lors de la connexion à un dossier SharePoint par programmation, vous devez déterminer l'URL correcte à utiliser pour créer la relation de partage. Étant donné que la stssync : / / URL n’est pas fournie pour le dossier dans l’interface utilisateur SharePoint, associez manuellement le dossier de destination dans Outlook. Utilisez ensuite la première procédure, DisplaySharePointUrl, dans l'exemple de code suivant, pour obtenir l'URL correcte. DisplaySharePointUrl utilise l'[Objet](https://msdn.microsoft.com/library/bb652856\(v=office.15\))tableau pour rechercher les informations de liaison de partage dans le dossier actif pour la fenêtre d'explorateur actuelle. Si un ou plusieurs contextes de liaison sont trouvées, les URLs pour tous les contextes partage disponibles apparaissent.
 
 Vous disposez à présent de l’URL appropriée pour créer la relation de partage. Pour synchroniser le nouveau dossier SharePoint dans Outlook, copiez et collez l'URL pour l'affecter à la variable de type chaîne   dans la deuxième procédure, AddSpsFolder. AddSpsFolder automatise la synchronisation du nouveau dossier SharePoint dans Outlook à l'aide de la méthode **NameSpace.OpenSharedFolder**avec une`stssync://`URL (dans ce cas, l'URL produite par la procédure DisplaySharePointUrl ). AddSpsFolderalso fournit aussi un nom de dossier personnalisé, « Example SPS Calendar » (Exemple de calendrier SPS), et spécifie à Outlook d'utiliser la durée de vie par défaut(TTL) pour le dossier. Les dossiers SharePoint téléchargent toujours les pièces jointes d’élément, afin que vous ne deviez pas à le spécifier ici.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

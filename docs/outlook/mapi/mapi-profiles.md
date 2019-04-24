@@ -7,70 +7,70 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340081"
 ---
 # <a name="mapi-profiles"></a>Profils MAPI
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un profil stocke des informations sur les fournisseurs de services et les services de messagerie qui sont installés sur un ordinateur. Pour chaque session, un client au moment de l’ouverture de session sélectionne un seul profil qui décrit les fournisseurs et les services à utiliser. Un client peut choisir d’une collection de profils et, si vous le souhaitez, établir un en tant que la valeur par défaut. Le profil par défaut est le profil qui est sélectionné automatiquement lorsqu’un client démarre une session et un profil n’a pas explicitement spécifié.
+Un profil stocke des informations sur les fournisseurs de services et les services de messagerie installés sur un ordinateur. Pour chaque session, un client au moment de la connexion sélectionne un profil qui décrit les fournisseurs et les services à utiliser. Un client peut choisir parmi une collection de profils et, si vous le souhaitez, en établir un comme valeur par défaut. Le profil par défaut est le profil qui est sélectionné automatiquement lorsqu'un client démarre une session et n'a pas explicitement spécifié de profil.
   
-Dans ces rubriques, vous trouverez également une discussion sur le cache du surnom, qui est stocké dans un objet stream binaire.
+Dans ces rubriques, vous trouverez également une description du cache des surnoms, qui est stocké dans un flux binaire.
   
 - [Cache de surnoms](nickname-cache.md)
     
 - [Flux de saisie semi-automatique](autocomplete-stream.md)
     
-- [L’analyse des fichiers binaires](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
+- [Analyse de fichiers binaires](https://portalvhds6gyn3khqwmgzd.blob.core.windows.net/files/NK2/NK2WithBinaryExample.pdf)
     
 ## <a name="profile-sections"></a>Sections de profil
 
-Profils sont divisées en sections que les clients et fournisseurs de services accéder pour afficher les propriétés de profil pour les utilisateurs ou pour apporter des modifications de configuration. Une section de profil est un objet MAPI qui implémente l’interface **IProfSect** , une interface qui dérive de **IMAPIProp** et possède pas de méthodes supplémentaires. Pour plus d’informations, voir [IProfSect : IMAPIProp](iprofsectimapiprop.md). Son seul but est pour manipuler les propriétés d’une section de profil. Pour récupérer un pointeur **IProfSect** à une section de profil particulier, clients et fournisseurs de services appeler les méthodes suivantes. 
+Les profils sont divisés en sections auxquelles les clients et fournisseurs de services accèdent pour afficher les propriétés de profil pour les utilisateurs ou pour modifier la configuration. Une section de profil est un objet MAPI qui implémente l'interface **IProfSect** , une interface qui dérive de **IMAPIProp** et n'a pas de méthodes supplémentaires. Pour plus d'informations, voir [IProfSect: IMAPIProp](iprofsectimapiprop.md). Son seul objectif est de manipuler les propriétés d'une section de profil. Pour récupérer un pointeur **IProfSect** vers une section de profil particulière, les clients et les fournisseurs de services appellent les méthodes suivantes. 
   
 |||
 |:-----|:-----|
-|Les clients peuvent appeler :  <br/> |[IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) <br/> |
-|Fournisseurs de services peuvent appeler :  <br/> |[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) <br/> |
-|Clients ou fournisseurs peuvent appeler :  <br/> |[IProviderAdmin::OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |
+|Les clients peuvent appeler:  <br/> |[IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) <br/> |
+|Les fournisseurs de services peuvent appeler:  <br/> |[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) <br/> |
+|Les clients ou fournisseurs peuvent appeler les éléments suivants:  <br/> |[IProviderAdmin::OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |
    
-Profils sont organisées de façon hiérarchique beaucoup comme le fichier MAPISVC.inf. Fichier. En haut de la hiérarchie, il existe des sections de profil qui contiennent des informations relatives au profil. Le niveau intermédiaire comporte des sections qui contiennent des informations sur un service particulier de message et le niveau inférieur comporte des sections qui contiennent des informations sur un des fournisseurs de services dans un service de message. 
+Les profils sont organisés de manière hiérarchique comme le MAPISVC. Fichier INF. En haut de la hiérarchie, il existe des sections de profil qui contiennent des informations relatives au profil. Le niveau intermédiaire inclut des sections qui contiennent des informations sur un service de messagerie particulier et le niveau inférieur inclut des sections qui contiennent des informations sur l'un des fournisseurs de services dans un service de messagerie. 
   
-Chaque profil possède plusieurs propriétés requises qui sont stockées dans un ou plusieurs des sections du profil. Par exemple, chaque profil a les **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) et les propriétés de **clé PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). Clé de recherche d’un profil est définie sur la valeur définie dans MAPIGUID. H en tant que MUID_PROFILE_INSTANCE et est toujours unique parmi tous les profils. Bien que deux profils peuvent avoir le même nom, ils ne peuvent pas avoir la même clé de recherche. Clés de recherche doivent être traitées en tant que données binaires plutôt que des données d’un type particulier.
+Chaque profil dispose de plusieurs propriétés requises qui sont stockées dans une ou plusieurs sections du profil. Par exemple, chaque profil a les propriétés **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) et **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)). La clé de recherche d'un profil est définie sur la valeur définie dans MAPIGUID. H en tant que MUID_PROFILE_INSTANCE et est toujours unique pour tous les profils. Bien que deux profils puissent avoir le même nom, ils ne peuvent pas avoir la même clé de recherche. Les clés de recherche doivent être considérées comme des données binaires au lieu de données de n'importe quel type particulier.
   
-Fournisseurs de magasins de message sont requis pour inclure leur propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du message dans les sections de profil pour le profil et pour leur message fournisseur de magasins et de garder ces entrées synchronisées. Lors de la création d’une banque de messages, le fournisseur définit **PR_DISPLAY_NAME** en fonction de la valeur stockée dans ces sections du profil. 
+Les fournisseurs de banques de messages doivent inclure la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de leur banque de messages dans les sections de profil pour le profil et pour leur fournisseur de banque de messages, et pour conserver ces entrées synchronisées. Lorsqu'une banque de messages est créée, le fournisseur définit **PR_DISPLAY_NAME** en fonction de la valeur stockée dans ces sections de profil. 
   
-Il existe deux principales différences entre les sections de profil et d’autres objets qui héritent de **IMAPIProp**: 
+Il existe deux différences majeures entre les sections de profil et les autres objets qui héritent de **IMAPIProp**: 
   
-- Sections profil ne prennent pas en charge transactions.
+- Les sections de profil ne prennent pas en charge les transactions.
     
-- Sections profil n’acceptent pas les propriétés nommées, renvoi MAPI_E_NO_SUPPORT à partir de leurs implémentations **IMAPIProp::GetIDsFromNames** et **IMAPIProp::GetNamesFromIDs** . Pour plus d’informations, voir [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md).
+- Les sections de profil ne prennent pas en charge les propriétés nommées, en retournant MAPI_E_NO_SUPPORT à partir de leurs implémentations **IMAPIProp:: GetIDsFromNames** et **IMAPIProp:: GetNamesFromIDs** . Pour plus d'informations, voir [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md).
     
-Étant donné que les sections de profil ne prennent pas en charge les transactions, toutes les modifications apportées par des appels à **IMAPIProp::CopyProps**, **CopyTo**ou **SetProps** immédiatement prennent effet. Pour plus d’informations, voir [IMAPIProp::CopyProps](imapiprop-copyprops.md). Clients et fournisseurs de services peuvent appeler la méthode de **IMAPIProp::SaveChanges** d’une section de profil et réussit, mais elle n’affecte pas les données de la section profil. Pour plus d’informations, voir [IMAPIProp::SaveChanges](imapiprop-savechanges.md). Avoir des modifications se produisent immédiatement peut affecter les comment les fournisseurs de services implémentent les feuilles de propriétés que les clients utilisent pour afficher les propriétés de profil aux utilisateurs. Fournisseurs de services que vous souhaitez que les utilisateurs puissent différer ou annuler les modifications doivent implémenter leurs feuilles de propriété avec les copies des sections de profil au lieu des sections réelles. À l’aide de copies, les utilisateurs peuvent apporter des modifications et puis ultérieurement Annuler les modifications, en laissant les sections de profil d’origine intacts. 
+Étant donné que les sections de profil ne prennent pas en charge les transactions, les modifications apportées avec des appels à **IMAPIProp:: CopyProps**, **CopyTo**ou **SetProps** prennent immédiatement effet. Pour plus d'informations, voir [IMAPIProp:: CopyProps](imapiprop-copyprops.md). Les clients et fournisseurs de services peuvent appeler la méthode **IMAPIProp:: SaveChanges** d'une section de profil et cela réussit, mais il n'affecte pas les données de la section de profil. Pour plus d'informations, voir [IMAPIProp:: SaveChanges](imapiprop-savechanges.md). Les modifications apportées immédiatement peuvent influer sur la façon dont les fournisseurs de services implémentent les feuilles de propriétés utilisées par les clients pour afficher les propriétés de profil aux utilisateurs. Les fournisseurs de services qui souhaitent que les utilisateurs puissent ajourner ou annuler des modifications doivent implémenter leurs feuilles de propriétés avec des copies de sections de profil au lieu des sections réelles. En utilisant des copies, les utilisateurs peuvent faire des modifications, puis annuler ces modifications, sans toucher aux sections du profil d'origine. 
   
-L’ordre dans lequel les informations apparaissent dans un profil affecte comment MAPI configure les ressources et effectue des affectations dans une session. Les affectations suivantes sont affectées par ordre de profil :
+L'ordre dans lequel les informations s'affichent dans un profil affecte la façon dont MAPI configure les ressources et crée des affectations dans une session. Les affectations suivantes sont affectées par l'ordre des profils:
   
 - Banque de messages par défaut
     
-- Carnet d’adresses personnel
+- Carnet d'adresses personnel
     
-- Chemin de recherche de magasin de message par défaut
+- Chemin de recherche par défaut de la Banque de messages
     
-- Chemin de recherche de livre adresse par défaut
+- Chemin de recherche par défaut du carnet d'adresses
     
 - Ordre des fournisseurs de transport
     
-MAPI définit la banque de messages par défaut à la première banque de messages dans le profil de l’indicateur STATUS_DEFAULT_STORE dans sa propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)), ce qui indique qu’il peut être la banque par défaut. Les clients peuvent remplacer ce paramètre en appelant **IMAPISession::SetDefaultStore**. Pour plus d’informations, voir [IMAPISession::SetDefaultStore](imapisession-setdefaultstore.md).
+MAPI définit la Banque de messages par défaut comme étant la première banque de messages du profil dont l'indicateur STATUS_DEFAULT_STORE est défini dans sa propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)), ce qui indique qu'il peut s'agir de la Banque par défaut. Les clients peuvent remplacer ce paramètre en appelant **IMAPISession:: SetDefaultStore**. Pour plus d'informations, voir [IMAPISession:: SetDefaultStore](imapisession-setdefaultstore.md).
   
-MAPI crée un ordre de transport pour la gestion des messages entrants et sortants. Lorsque plusieurs fournisseurs de transport a inscrit pour un message d’un type particulier, MAPI utilise cette commande pour déterminer le fournisseur doit traiter le message. MAPI définit l’ordre de transport à l’ordre dans lequel le transport fournisseurs ont été ajoutés au profil à une seule exception : les transports de définir l’indicateur STATUS_XP_PREFER_LAST dans leur propriété **PR_RESOURCE_FLAGS** sont positionnés en dernier dans l’ordre. Les clients peuvent définir l’ordre de transport en appelant **IMsgServiceAdmin::MsgServiceTransportOrder**. Pour plus d’informations, voir [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
+MAPI crée un ordre de transport pour gérer les messages sortants et entrants. Lorsque plusieurs fournisseurs de transport ont été inscrits pour un message d'un type particulier, MAPI utilise cette commande pour déterminer le fournisseur qui doit gérer le message. MAPI définit l'ordre de transport sur l'ordre dans lequel les fournisseurs de transport ont été ajoutés au profil à l'aide d'une exception: les transports qui définissent l'indicateur STATUS_XP_PREFER_LAST dans leur propriété **PR_RESOURCE_FLAGS** sont positionnés en dernier dans l'ordre. Les clients peuvent définir l'ordre de transport en appelant **IMsgServiceAdmin:: MsgServiceTransportOrder**. Pour plus d'informations, voir [IMsgServiceAdmin:: MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
   
-Ces instructions pour le classement des fournisseurs de services et les services de messagerie peuvent parfois entrer en conflit. S’il existe un conflit, votre code doit résoudre le conflit. Vous pouvez utiliser le programme de messagerie le panneau de configuration pour inspecter un profil que vous avez créée pour déterminer si les fournisseurs ont été configurés comme prévu.
+Ces instructions relatives à la classification des services de messagerie et des fournisseurs de services peuvent parfois être en conflit. En cas de conflit, votre code doit résoudre le conflit. Vous pouvez utiliser le programme panneau de configuration de messagerie pour inspecter un profil que vous avez créé afin de déterminer si les fournisseurs ont été configurés comme prévu.
   
 

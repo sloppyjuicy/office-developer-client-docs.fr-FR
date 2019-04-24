@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ae13eea7ee2579254eb4aa057647e20cfa61f389
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 2650292b0c9df224371bc7f9b5baf82ba13dc0b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338142"
 ---
 # <a name="pidtagphysicalforwardingprohibited-canonical-property"></a>Propriété canonique PidTagPhysicalForwardingProhibited
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un expéditeur du message empêche le transfert de message physique pour un destinataire spécifique.
+Contient la valeur TRUE si un expéditeur de message interdit le transfert de messages physiques pour un destinataire spécifique.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Contient la valeur TRUE si un expéditeur du message empêche le transfert de me
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

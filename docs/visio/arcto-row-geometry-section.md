@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm82253229
 localization_priority: Normal
 ms.assetid: 612b605d-a703-b08f-2e8e-7bc1624b5370
-description: Contient les coordonnées x - et y-coordonnées et la courbure d’un arc circulaire.
-ms.openlocfilehash: 77ed0dcaee7ddefa8771d3e890776d4adfcc3b40
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Contient les coordonnées x et y et la courbure d'un arc circulaire.
+ms.openlocfilehash: 222edea250be794adc964345384f2c08a7798f2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341404"
 ---
-# <a name="arcto-row-geometry-section"></a>ArcTo, ligne (section Geometry)
+# <a name="arcto-row-geometry-section"></a>ArcTo Row (Geometry Section)
 
-Contient les coordonnées *x* - et *y* -coordonnées et la courbure d’un arc circulaire. 
+Contient les coordonnées *x* et *y* et la courbure d'un arc circulaire. 
   
 La ligne ArcTo contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -coordonnées du sommet de fin d’un arc.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |La valeur *y* -coordonnées du sommet de fin d’un arc.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x* du sommet de fin d'un arc.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y* du sommet de fin d'un arc.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Distance entre le milieu de l'arc et le milieu de sa corde.  <br/> |
    
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les arcs dessinés dans Visio sont des arcs elliptiques, même s'ils sont basés sur des cercles. Par défaut, les arcs dessinés sont représentés par une ligne EllipticalArcTo dans la fenêtre Feuille ShapeSheet. Pour afficher une ligne ArcTo dans une fenêtre Feuille ShapeSheet, vous devez dessiner un arc puis changer le type de ligne EllipticalArcTo en type de ligne ArcTo ; de ce fait, vous changez un arc elliptique en arc circulaire.
   
-Pour modifier un type de ligne, avec le bouton droit à une ligne, puis cliquez sur **Modifier le Type de ligne** dans le menu contextuel. 
+Pour changer de type de ligne, cliquez avec le bouton droit de la souris sur la ligne, puis cliquez sur **Modifier le type de ligne** dans le menu contextuel. 
   
 

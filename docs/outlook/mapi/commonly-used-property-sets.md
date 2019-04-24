@@ -1,48 +1,48 @@
 ---
-title: Jeux de propriétés communément utilisées
+title: Jeux de propriétés couramment utilisés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 34d7d52485e334449a7cfb995de02f68f229615e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dd638a6cd6e5d32e83db827f00dd20de4a5c8a3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574677"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335160"
 ---
-# <a name="commonly-used-property-sets"></a>Jeux de propriétés communément utilisées
+# <a name="commonly-used-property-sets"></a>Jeux de propriétés couramment utilisés
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique répertorie couramment utilisées des jeux de propriétés nommées.
+Cette rubrique répertorie les ensembles de propriétés nommées couramment utilisés.
   
-## <a name="commonly-used-property-sets"></a>Jeux de propriétés communément utilisées
+## <a name="commonly-used-property-sets"></a>Jeux de propriétés couramment utilisés
 
-Le tableau suivant répertorie chaque propriété définie avec son GUID et la zone fonctionnelle.
+Le tableau suivant répertorie chaque jeu de propriétés avec son GUID et sa zone fonctionnelle.
   
-|**Catégorie**|**Propriété nom et la valeur de GUID**|
+|**Catégorie**|**Nom du jeu de propriétés et valeur GUID**|
 |:-----|:-----|
-|Common  <br/> |PS_PUBLIC_STRINGS {00020329-0000-0000-C000-000000000046}  <br/> |
-|Common  <br/> |PSETID_Common {00062008-0000-0000-C000-000000000046}  <br/> |
+|Courant  <br/> |PS_PUBLIC_STRINGS {00020329-0000-0000-C000-000000000046}  <br/> |
+|Courant  <br/> |PSETID_Common {00062008-0000-0000-C000-000000000046}  <br/> |
 |Contact  <br/> |PSETID_Address {00062004-0000-0000-C000-000000000046}  <br/> |
 |E-mail  <br/> |PS_INTERNET_HEADERS {00020386-0000-0000-C000-000000000046}  <br/> |
 |Calendrier  <br/> |PSETID_Appointment {00062002-0000-0000-C000-000000000046}  <br/> |
 |Calendrier  <br/> |PSETID_Meeting {6ED8DA90-450B-101B-98DA-00AA003F1305}  <br/> |
 |Journal  <br/> |PSETID_Log {0006200A-0000-0000-C000-000000000046}  <br/> |
-|La messagerie  <br/> |PSETID_Messaging {41F28F13-83F4-4114-A584-EEDB5A6B0BFF}  <br/> |
-|Pense-bête  <br/> |PSETID_Note {0006200E-0000-0000-C000-000000000046}  <br/> |
+|Messagerie   <br/> |PSETID_Messaging {41F28F13-83F4-4114-A584-EEDB5A6B0BFF}  <br/> |
+|Note du pense-bête  <br/> |PSETID_Note {0006200E-0000-0000-C000-000000000046}  <br/> |
 |Flux RSS  <br/> |PSETID_PostRss {00062041-0000-0000-C000-000000000046}  <br/> |
-|Task  <br/> |PSETID_Task {00062003-0000-0000-C000-000000000046}  <br/> |
-|La messagerie unifiée  <br/> |PSETID_UnifiedMessaging {4442858E-A9E3-4E80-B900-317A210CC15B}  <br/> |
-|Common  <br/> |PS_MAPI {00020328-0000-0000-C000-000000000046}  <br/> |
-|Sync  <br/> |SETID_AirSync {71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |
+|Tâche  <br/> |PSETID_Task {00062003-0000-0000-C000-000000000046}  <br/> |
+|Messagerie unifiée  <br/> |PSETID_UnifiedMessaging {4442858E-A9E3-4E80-B900-317A210CC15B}  <br/> |
+|Courant  <br/> |PS_MAPI {00020328-0000-0000-C000-000000000046}  <br/> |
+|Synchronisation  <br/> |SETID_AirSync {71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |
 |Partage  <br/> |PSETID_Sharing {00062040-0000-0000-C000-000000000046}  <br/> |
-|Général de messagerie  <br/> |PSETID_Report {00062013-0000-0000-C000-000000000046}  <br/> |
+|Messagerie générale  <br/> |PSETID_Report {00062013-0000-0000-C000-000000000046}  <br/> |
 |Messagerie à distance  <br/> |PSETID_Remote {00062014-0000-0000-C000-000000000046}  <br/> |
    
 

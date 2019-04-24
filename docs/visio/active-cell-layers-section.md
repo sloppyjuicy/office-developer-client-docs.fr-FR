@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 4c8e366f-9e9b-30ea-a89f-57c8d7a1168e
 description: Détermine si le calque est actif. Les formes sans calque pré-attribué sont affectées aux calques actifs lorsque vous les faites glisser sur la page de dessin.
-ms.openlocfilehash: 81d3ec083e207a927c46dda99e2b7f42c0a7bd8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f97f7dc09d1f882452ae2234882de45f06bd0da1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338779"
 ---
 # <a name="active-cell-layers-section"></a>Active, cellule (section Layers)
 
 Détermine si le calque est actif. Les formes sans calque pré-attribué sont affectées aux calques actifs lorsque vous les faites glisser sur la page de dessin.
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le calque est actif.  <br/> |
-|FALSE  <br/> |Calque n’est pas actif.  <br/> |
+|FALSE  <br/> |Le calque n'est pas actif.  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-La valeur de cette cellule correspond au paramètre **actif** de la boîte de dialogue **Propriétés des calques** (dans le groupe **modification** , sous l’onglet **accueil** , cliquez sur **calques**, puis cliquez sur **Propriétés des calques**).
+La valeur de cette cellule correspond au paramètre **Actif** de la boîte de dialogue **Propriétés des calques** (dans le groupe **Modification** de l’onglet **Accueil**, cliquez sur **Calques**, puis sur **Propriétés du calque**).
   
-Pour obtenir une référence à la cellule Active par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Active par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Layers.Active [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers. active [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule Active par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule Active à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

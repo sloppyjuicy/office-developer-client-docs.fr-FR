@@ -8,40 +8,40 @@ f1_keywords:
 - Vis_DSS.chm82251444
 localization_priority: Normal
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
-description: Renvoie le x-coordonnée (dans le système de coordonnées local) du point d’intersectent de deux lignes.
-ms.openlocfilehash: ea5a08f25f3e45dab3fe3fd83b74cf9a7541b6e6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la coordonnée x (dans le système de coordonnées locales) du point d'intersection de deux lignes.
+ms.openlocfilehash: 857f81d667e33ad9ce79405ef5d59874903098e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335307"
 ---
-# <a name="intersectx-function"></a>INTERSECTX, fonction
+# <a name="intersectx-function"></a>Fonction INTERSECTX
 
-Renvoie le *x* -coordonnée (dans le système de coordonnées local) du point d’intersectent de deux lignes. 
+Renvoie la coordonnée *x* (dans le système de coordonnées locales) du point d'intersection de deux lignes. 
   
 ## <a name="syntax"></a>Syntaxe
 
-INTERSECTX (** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* **) 
+INTERSECTX (* * *x1* * *, * * *Y1* * *, * * *angle1* * *, * * *x2* * *, * * *Y2* * *, * * *angle2* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |Obligatoire  <br/> |**Number** <br/> |_X_-coordonnées d’un point sur la première ligne.  <br/> |
-| _y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |La valeur _y_-coordonnées d’un point sur la première ligne.  <br/> |
+| _mâle_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _x_d'un point sur la première ligne.  <br/> |
+| _Y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _y_d'un point sur la première ligne.  <br/> |
 | _angle1_ <br/> |Obligatoire  <br/> |**Number** <br/> | Valeur de la cellule Angle de la première ligne.  <br/> |
-| _x2_ <br/> |Obligatoire  <br/> |**Number** <br/> |_X_-coordonnées d’un point sur la deuxième ligne.  <br/> |
-| _y2_ <br/> |Obligatoire  <br/> |**Number** <br/> |La valeur _y_-coordonnées d’un point sur la deuxième ligne.  <br/> |
+| _ports_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _x_d'un point sur la deuxième ligne.  <br/> |
+| _Y2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _y_d'un point sur la deuxième ligne.  <br/> |
 | _angle2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Valeur de la cellule Angle de la deuxième ligne.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Chaque ligne est définie par un point (*x, y*) et un angle. 
+Chaque ligne est définie par un point (*x,y*) et un angle. 
   
 Microsoft Visio utilise cette fonction dans la cellule PinX d’une forme collée à un repère retourné. 
   
@@ -49,8 +49,8 @@ Si les lignes ne se coupent pas, la fonction renvoie une erreur Division par zé
   
 ## <a name="example"></a>Exemple
 
-INTERSECTX (RepèreVert ! PinX, RepèreVert ! PinY, RepèreVert ! Angle, RepèreHoriz ! PinX, RepèreHoriz ! PinY, RepèreHoriz ! Angle) 
+INTERSECTX (RepèreVert! PinX, RepèreVert! PinY, RepèreVert! Angle, RepèreHoriz! PinX, RepèreHoriz! PinY, RepèreHoriz! Angle 
   
-Renvoie le *x* -coordonnées du point d’intersection de RepèreVert et RepèreHoriz en unités de page. 
+Renvoie la coordonnée *x* du point d'intersection de RepèreVert et RepèreHoriz dans les unités de page. 
   
 

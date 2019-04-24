@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e2f4b1fda57eb74e0573834c6e8fb443acf7ab12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563904"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340935"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propriété canonique PidTagOriginatingMtaCertificate
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur de l’agent de transfert des messages (MTA) à l’origine du message.
+Contient un identificateur pour l'agent de transfert des messages (MTA) à l'origine du message.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient l’identificateur de l’agent de transfert des messages (MTA) à l’
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si la valeur, est disponible sur les messages envoyé dans le dossier éléments envoyés.
+Cette propriété, si elle est définie, est disponible dans les messages envoyés dans le dossier éléments envoyés.
   
-Cette propriété correspond à l’attribut de message de rapport X.400.
+Cette propriété correspond à l'attribut par message de l'État X. 400.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

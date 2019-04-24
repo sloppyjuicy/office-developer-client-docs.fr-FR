@@ -7,34 +7,35 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1bae0af9-229d-e114-4feb-bf6d7a7d8b08
 description: Modifie la couleur en augmentant sa luminosité du pourcentage spécifié.
-ms.openlocfilehash: 50e81b5202174c61905d3914c50feddcb05a91cd
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d63b90d0cd6fcb35e23a8efa4ca9e13e2838bc21
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789186"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335195"
 ---
-# <a name="msotint-function"></a>MSOTINT, fonction
+# <a name="msotint-function"></a>Fonction MSOTINT
 
 Modifie la couleur en augmentant sa luminosité du pourcentage spécifié.
   
 ## <a name="version-information"></a>Informations de version
 
-Version ajoutée : Visio 2010 
+Version ajoutée : Visio 2010
+ 
   
 ## <a name="syntax"></a>Syntaxe
 
-MSOTINT (** *couleur* **, ** *deltaLum* **) 
+MSOTINT (* * *couleur* * *, * * *deltaLum* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Obligatoire  <br/> |**RGB** <br/> |Valeur de couleur RVB (rouge, vert, bleu) standard ou référence à une couleur.  <br/> |
-| _deltaLum_ <br/> |Obligatoire  <br/> |**Integer** <br/> |Pourcentage de modification vers blanc (-100 %) ou noir (100 %) à partir de la valeur de _couleur_ .  <br/> |
+| _color_ <br/> |Obligatoire  <br/> |**RVB** <br/> |Valeur de couleur RVB (rouge, vert, bleu) standard ou référence à une couleur.  <br/> |
+| _deltaLum_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Pourcentage de changement vers blanc (-100%) ou noir (100%) de la valeur de _couleur_ .  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Plus la valeur _color_ est blanc ou du noir, moins la modification de la teinte générée par une valeur spécifique _deltaLum_ . 
+Plus la valeur de _couleur_ est proche de blanc ou noir, plus la modification de la teinte générée par une valeur _deltaLum_ spécifique est faible. 
   
 

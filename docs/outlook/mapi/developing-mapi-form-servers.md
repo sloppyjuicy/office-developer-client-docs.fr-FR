@@ -7,39 +7,39 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d55134cf5181ebbba0108c228d9afc3a494e75ce
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 63aa9db19c901f47004a7fe52d906846f44b8883
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338527"
 ---
 # <a name="developing-mapi-form-servers"></a>Développement de serveurs de formulaires MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette section décrit le processus de création du fichier exécutable du serveur de formulaire et les fichiers de configuration de formulaire pour la création de formulaires MAPI personnalisés. Avant de lire cette section, vous devez vous familiariser avec les informations contenues dans les [Formulaires MAPI](mapi-forms.md).
+Cette section décrit le processus de création de fichiers exécutables et de configuration de formulaire pour la création de formulaires MAPI personnalisés. Avant de lire cette section, vous devez vous familiariser avec les informations contenues dans les [formulaires MAPI](mapi-forms.md).
   
-Développement d’un serveur de formulaire comprend les étapes suivantes :
+Le développement d'un serveur de formulaire comprend les étapes suivantes:
   
-1. Déterminer quelles informations contiendrait le formulaire et en sélectionnant un ensemble de propriétés pour stocker ces informations. Pour plus d’informations, voir [choix de la valeur de propriété d’un formulaire](choosing-a-form-s-property-set.md).
+1. Le choix des informations que le formulaire doit contenir et la sélection d'un ensemble de propriétés pour stocker ces informations. Pour plus d'informations, consultez [la rubrique choix du jeu de propriétés d'un formulaire](choosing-a-form-s-property-set.md).
     
-2. Conception d’une interface utilisateur avec lequel les utilisateurs peuvent interagir avec les propriétés du formulaire.
+2. Conception d'une interface utilisateur avec laquelle les utilisateurs peuvent interagir avec les propriétés du formulaire.
     
-3. Choix d’une classe de message et la génération d’un identificateur unique de classe (CLSID). Pour une vue d’ensemble des classes de messages, consultez [Les Classes de Message MAPI](mapi-message-classes.md). Pour plus d’informations sur les formulaires et les classes de messages, voir [choix d’une classe de Message](choosing-a-message-class.md).
+3. Sélection d'une classe de message et génération d'un identificateur de classe unique (CLSID). Pour une vue d'ensemble des classes de message, voir [MAPI message classes](mapi-message-classes.md). Pour plus d'informations sur les classes de message et les formulaires, voir [Choosing a message Class](choosing-a-message-class.md).
     
-4. Implémenter les interfaces de formulaire MAPI requises, ainsi que toutes les interfaces facultatifs qui a besoin de votre serveur de formulaire particulier. Pour plus d’informations, voir [L’écriture de Code de formulaire serveur](writing-form-server-code.md). 
+4. L'implémentation des interfaces de formulaire MAPI requises, ainsi que les interfaces facultatives dont votre serveur de formulaire particulier a besoin. Pour plus d'informations, consultez la rubrique [Writing Form Server Code](writing-form-server-code.md). 
     
-5. Écriture de code pour gérer l’interaction de l’utilisateur avec l’objet de formulaire et les propriétés de l’interface utilisateur par le formulaire.
+5. Écriture du code de l'interface utilisateur pour gérer l'interaction de l'utilisateur avec l'objet Form et les propriétés utilisées par le formulaire.
     
-6. Création d’un fichier de configuration de formulaire pour le formulaire. Pour plus d’informations, voir [Fichier fichiers au Format de formulaire Configuration](file-format-of-form-configuration-files.md).
+6. Création d'un fichier de configuration de formulaire pour le formulaire. Pour plus d'informations, consultez la rubrique [format de fichier des fichiers de configuration de formulaire](file-format-of-form-configuration-files.md).
     
-7. Installation du formulaire sur les ordinateurs des utilisateurs. Pour plus d’informations, consultez [installation d’un formulaire dans une bibliothèque](installing-a-form-into-a-library.md).
+7. Installation du formulaire sur les ordinateurs des utilisateurs. Pour plus d'informations, consultez la rubrique [installation d'un formulaire dans une bibliothèque](installing-a-form-into-a-library.md).
     
-Vous serez probablement effectuer les étapes 1 à 5 simultanément au lieu de les effectuer dans l’ordre. Le processus de développement d’un serveur de formulaire, comme de nombreux projets de programmation, n’est pas est une séquence particulièrement bien définie. Par exemple, création d’un fichier de configuration de formulaire est affiché comme la seconde à la dernière étape ci-dessus, mais vous allez probablement créer votre fichier de configuration de formulaire incrémentielle, et devient plus complète lorsque vous ajoutez des fonctionnalités à votre serveur de formulaire.
+Vous devrez probablement effectuer les étapes 1 à 5 simultanément au lieu de les effectuer dans l'ordre. Le processus de développement d'un serveur de formulaire, comme de nombreux projets de programmation, n'est pas celui dans lequel il existe une séquence bien définie. Par exemple, la création d'un fichier de configuration de formulaire est l'avant-dernière étape ci-dessus, mais vous créerez probablement progressivement votre fichier de configuration de formulaire, et il deviendra plus complet à mesure que vous ajoutez des fonctionnalités à votre serveur de formulaires.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 076fb4946af9a80e53fb8452d720c22b351f5ef6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 852ce31ba5ab02ff8f05dee25c9b32acb73130ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337967"
 ---
 # <a name="setattribimsgonistg"></a>SetAttribIMsgOnIStg
 
@@ -25,13 +25,13 @@ ms.locfileid: "22572521"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit ou modifie les attributs de propriétés sur un objet [IMessage](imessageimapiprop.md) fournie par la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
+Définit ou modifie les attributs des propriétés sur un objet [IMessage](imessageimapiprop.md) fourni par la fonction [OpenIMsgOnIStg](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage.h  <br/> |
+|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Fournisseurs de magasin d’applications clientes et message  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de banques de messages  <br/> |
    
 ```cpp
 HRESULT SetAttribIMsgOnIStg(
@@ -46,19 +46,19 @@ HRESULT SetAttribIMsgOnIStg(
 
  _lpObject_
   
-> [in] Pointeur vers l’objet pour la propriété attributs sont définies. 
+> dans Pointeur vers l'objet pour lequel les attributs de propriété sont définis. 
     
  _lpPropTags_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant un tableau de balises de propriété indiquant les propriétés pour la propriété attributs sont définies. 
+> dans Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs de propriété sont définis. 
     
  _lpPropAttrs_
   
-> [in] Pointeur vers une structure [SPropAttrArray](spropattrarray.md) répertoriant les attributs de propriété à définir. 
+> dans Pointeur vers une structure [SPropAttrArray](spropattrarray.md) répertoriant les attributs de propriété à définir. 
     
  _lppPropProblems_
   
-> [out] Pointeur vers la structure [SPropProblemArray](spropproblemarray.md) retournée contenant un ensemble de problèmes de propriété. Cette structure identifie les problèmes rencontrés si **SetAttribIMsgOnIStg** a été en mesure de définir certaines propriétés, mais pas toutes. Si un pointeur null est passé dans le paramètre _lppPropProblems_ , aucun tableau de problème de propriété n’est renvoyé même si certaines propriétés n’ont pas été définies. 
+> remarquer Pointeur vers la structure [SPropProblemArray](spropproblemarray.md) renvoyée contenant un ensemble de problèmes de propriété. Cette structure identifie les problèmes rencontrés si **SetAttribIMsgOnIStg** a pu définir certaines propriétés, mais pas toutes. Si un pointeur vers NULL est transmis dans le paramètre _lppPropProblems_ , aucun tableau de problèmes de propriété n'est renvoyé, même si certaines propriétés n'ont pas été définies. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -68,16 +68,16 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi, mais une ou plusieurs propriétés ne sont pas accessible et ont été renvoyées avec un type de propriété de PT_ERROR.
+> L'appel a réussi globalement, mais une ou plusieurs propriétés n'ont pas été accessibles et ont été renvoyées avec un type de propriété PT_ERROR.
     
 ## <a name="remarks"></a>Remarques
 
-Attributs de la propriété est accessible uniquement sur propriété objets, autrement dit, l’implémentation de la [IMAPIProp : IUnknown](imapipropiunknown.md) interface. Pour rendre les propriétés MAPI disponible sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) génère une [IMessage : IMAPIProp](imessageimapiprop.md) objet en haut de l’objet OLE **IStorage** . Les attributs de propriété sur de tels objets peuvent définir ou a été modifiés avec **SetAttribIMsgOnIStg** et récupérés par [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
+Les attributs de propriété ne sont accessibles que sur les objets Property, c'est-à-dire les objets qui implémentent l'interface [IMAPIProp: IUnknown](imapipropiunknown.md) . Pour que les propriétés MAPI soient disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage: IMAPIProp](imessageimapiprop.md) en haut de l'objet OLE **IStorage** . Les attributs de propriété sur ces objets peuvent être définis ou modifiés avec **SetAttribIMsgOnIStg** et récupérés avec [GetAttribIMsgOnIStg](getattribimsgonistg.md). 
   
- **Remarque** **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage** . Ils ne sont valides pour **IMessage**- sur - objets **IStorage** renvoyés par **OpenIMsgOnIStg**. 
+ **Note** **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage** . Elles ne sont valides que pour les objets **IMessage**sur le **IStorage** renvoyés par **OpenIMsgOnIStg**. 
   
-Dans le paramètre _lpPropAttrs_ , le nombre et la position des attributs doivent correspondre le nombre et la position des balises de propriété passées dans le paramètre _lpPropTags_ . 
+Dans le paramètre _lpPropAttrs_ , le nombre et la position des attributs doivent correspondre au nombre et à la position des balises de propriété transmises dans le paramètre _lpPropTags_ . 
   
-La fonction **SetAttribIMsgOnIStg** est utilisée pour définir les propriétés de message en lecture seule lorsque le schéma **IMessage** . L’exemple de fournisseur de magasin de message utilise à cet effet. Pour plus d’informations, voir [les Messages](mapi-messages.md). 
+La fonction **SetAttribIMsgOnIStg** permet de définir des propriétés de message en lecture seule lorsque cela est requis par le schéma **IMessage** . L'exemple de fournisseur de banque d'messages l'utilise à cette fin. Pour plus d'informations, consultez la rubrique [messages](mapi-messages.md). 
   
 

@@ -11,55 +11,55 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: f04d1593e2a13a2bfc23412340d7eb9f38f5d9ef
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389966"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335069"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propriété canonique PidLidDistributionListMembers
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la liste des identificateurs d’entrée des objets qui correspondent aux membres de la liste de distribution personnelle.
+Spécifie la liste des identificateurs d'objet des objets qui correspondent aux membres de la liste de distribution personnelle.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLMembers  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x00008055  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x00008055  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Membres de la liste de distribution personnelle peuvent être autres listes de distribution personnelles, les adresses électroniques contenues dans un contact, les utilisateurs de la liste d’adresses globale ou les listes de distribution ou les adresses de messagerie uniques. Le format de chaque propriété EntryId doit être un ID d’entrée unique, tel que spécifié dans [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) soit une propriété EntryId justifiée. 
+Les membres de la liste de distribution personnelle peuvent être d'autres listes de distribution personnelles, des adresses électroniques contenues dans un contact, des listes de distribution ou des utilisateurs de liste d'adresses globale ou des adresses de messagerie uniques. Le format de chaque EntryId doit être un EntryId unique, tel que spécifié dans [[MS-OXCDATA]](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou une EntryID incluse. 
   
-Lorsque vous définissez cette propriété, le client ou le serveur doit garantir que sa taille totale est inférieure à 15 000 octets.
+Lors de la définition de cette propriété, le client ou le serveur doit s'assurer que sa taille totale est inférieure à 15 000 octets.
   
-Cette propriété spécifie la liste des ID d’entrée uniques qui correspondre aux membres de la liste de distribution personnelle. Ces ID d’entrée uniques encapsulent les noms complets et les adresses de messagerie des membres de liste de distribution personnelle.
+Cette propriété spécifie la liste des identificateurs d'identificateur uniques qui correspondent aux membres de la liste de distribution personnelle. Ces EntryID uniques encapsulent les noms complets et les adresses de messagerie des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur de définie cette propriété, il doit être synchronisé avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée dans le même position dans la **dispidDLOneOffMembers**.
+Si le client ou le serveur définit cette propriété, il doit être synchronisé avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée dans le même position dans le **dispidDLOneOffMembers**.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

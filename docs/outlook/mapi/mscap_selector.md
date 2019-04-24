@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8c23788d64fe3703c7c46998cade0bd40d2f3dd2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 9c5d8ab5bbac91250f3b8c552ad891c62134526e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338674"
 ---
 # <a name="mscapselector"></a>MSCAP_SELECTOR
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les fonctionnalités à renvoyer pour une banque.
+Spécifie les fonctionnalités à renvoyer pour un magasin.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -36,26 +36,26 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  *MSCAP_SEL_RESERVED1* 
   
-> Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
     
  *MSCAP_SEL_FOLDER* 
   
-> Fonctionnalités sur la prise en charge des dossiers dans une banque.
+> Fonctionnalités de prise en charge des dossiers sur une banque.
     
  *MSCAP_SEL_RESERVED3* 
   
-> Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Prise en charge des restrictions sur un magasin de possibilités.
+> Fonctionnalités de prise en charge des restrictions sur une banque.
     
 

@@ -1,31 +1,31 @@
 ---
-title: Élément AutoLinkComparison (DataRecordSet_Type, complexType) (« Visio XML »)
+title: Élément AutoLinkComparison (complexType DataRecordSet_Type) ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
-description: Définit une règle qui compare une colonne dans l’élément DataRecordset parent avec un élément de données de forme à partir de la dernière réussite automatique liaison action effectuée dans l’interface utilisateur.
+description: Définit une règle qui compare une colonne de l'élément DataRecordset parent à un élément de données de forme à partir de la dernière action de liaison automatique réussie effectuée dans l'interface utilisateur.
 ms.openlocfilehash: 474acc4c1d259621881ea498decfeaf18b69809e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385717"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338317"
 ---
-# <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Élément AutoLinkComparison (DataRecordSet_Type, complexType) (« Visio XML »)
+# <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Élément AutoLinkComparison (complexType DataRecordSet_Type) ('Visio XML')
 
-Définit une règle qui compare une colonne dans l’élément **DataRecordset** parent avec un élément de données de forme à partir de la dernière réussite automatique liaison action effectuée dans l’interface utilisateur. 
+Définit une règle qui compare une colonne de l'élément **DataRecordset** parent à un élément de données de forme à partir de la dernière action de liaison automatique réussie effectuée dans l'interface utilisateur. 
   
-## <a name="element-information"></a>Informations sur l'élément
+## <a name="element-information"></a>Informations sur l’élément
 
 |||
 |:-----|:-----|
 |**Type d’élément** <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15.xsd  <br/> |
-|**Parties de document** <br/> |recordsets.Xml  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15. xsd  <br/> |
+|**Parties de document** <br/> |recordsets. Xml  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -36,13 +36,13 @@ Définit une règle qui compare une colonne dans l’élément **DataRecordset**
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie un jeu d’enregistrements et la liaison de données entre ce jeu d’enregistrements et les formes dans les pages de dessin.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie un objet Recordset et la liaison de données entre ce jeu d'enregistrements et les formes des pages de dessin.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,8 +52,8 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |XSD : String  <br/> |obligatoire  <br/> |Correspond à un nom de colonne dans le jeu d’enregistrements ADO.  <br/> |Valeurs du type xsd : String.  <br/> |
-|ContextType  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> |Spécifie les propriétés de la forme ou un groupe à utiliser pour la comparaison. Les valeurs sont présentées dans le tableau suivant.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ContextTypeLabel  <br/> |XSD : String  <br/> |facultatif  <br/> |Si la valeur ContextType est 2 ou 3, cet attribut est requis pour définir une comparaison. Pour ContextType = 2, ContextTypeLabel doit être l’étiquette d’élément de données de forme et si **ContextType** = 3, ContextTypeLabel doit être le nom de ligne locale.  <br/> |Valeurs du type xsd : String.  <br/> |
+|ColumnName  <br/> |xsd: String  <br/> |obligatoire  <br/> |Correspond à un nom de colonne dans l'objet Recordset ADO.  <br/> |Valeurs du type xsd: String.  <br/> |
+|ContextType  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> |Spécifie les propriétés du groupe ou de la forme à utiliser pour la comparaison. Les valeurs possibles sont indiquées dans le tableau suivant.  <br/> |Valeurs du type xsd: unsignedInt.  <br/> |
+|ContextTypeLabel  <br/> |xsd: String  <br/> |facultatif  <br/> |Si la valeur de ContextType est 2 ou 3, cet attribut est requis pour définir une comparaison. Pour ContextType = 2, ContextTypeLabel doit être l'étiquette de l'élément de données de forme et si **ContextType** = 3, ContextTypeLabel doit être le nom de ligne local.  <br/> |Valeurs du type xsd: String.  <br/> |
    
 

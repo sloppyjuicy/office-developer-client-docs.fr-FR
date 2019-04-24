@@ -1,5 +1,5 @@
 ---
-title: Architecture de l’assembly PIA Outlook
+title: Architecture de l'assembly PIA Outlook
 TOCTitle: Architecture of the Outlook PIA
 ms:assetid: 89577d14-e6e2-4270-8e72-b0adba378667
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646255(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 37ecad42b08b96d79d96d62f98e27913a0309971
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713302"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336525"
 ---
 # <a name="architecture-of-the-outlook-pia"></a>Architecture de l’assembly PIA Outlook
 

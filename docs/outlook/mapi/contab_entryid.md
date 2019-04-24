@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: ff088dc5bf62f407692c9eec649ff388f79d549d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a2a204f76b62c8c6bc6d8a4e793c936a0184dc65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335076"
 ---
 # <a name="contabentryid"></a>CONTAB_ENTRYID
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée du dossier contacts.
+Contient l'ID d'entrée du dossier contacts.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |msomapiutil.h  <br/> |
+|Fichier d’en-tête :  <br/> |msomapiutil. h  <br/> |
    
 ```cpp
 #pragma pack(4) 
@@ -46,7 +46,7 @@ typedef struct _contab_entryid
 
  **abFlags**
   
-> Masque de bits d’indicateurs qui fournit des informations décrivant l’objet. Pour plus d’informations, voir la description du champ **abFlags** d’une structure [ENTRYID](entryid.md) . 
+> Masque de des indicateurs qui fournit des informations décrivant l'objet. Pour plus d'informations, reportez-vous à la description du champ **abFlags** d'une structure [EntryID](entryid.md) . 
     
  **muid**
   
@@ -54,38 +54,38 @@ typedef struct _contab_entryid
     
  **ulVersion**
   
-> Le numéro de version de la structure **CONTAB_ENTRYID** . Doit être défini sur CONTAB_VERSION. 
+> Numéro de version de la structure **CONTAB_ENTRYID** . Doit être défini sur CONTAB_VERSION. 
     
  **ulType**
   
-> Nombre entier représentant le type d’ID entrée du contact. Il doit être une des valeurs suivantes :
+> Entier représentant le type d'ID d'entrée du contact. Il doit prendre la valeur de l'une des valeurs suivantes:
     
 |**Nom**|**Description**|
 |:-----|:-----|
-|CONTAB_USER  <br/> |Un objet utilisateur de messagerie.  <br/> |
+|CONTAB_USER  <br/> |Objet d’utilisateur de messagerie.  <br/> |
 |CONTAB_DISTLIST  <br/> |Un objet de liste de distribution.  <br/> |
    
  **ulIndex**
   
-> L’index dans le sous-ensemble de propriété de messagerie.
+> Index dans le sous-ensemble de propriétés de messagerie.
     
  **cbeid**
   
-> La taille de l’identificateur d’entrée du message Contact associé à cette entrée dans le carnet d’adresses de Contacts.
+> Taille de l'identificateur d'entrée du message de contact associé à cette entrée dans le carnet d'adresses des contacts.
     
- **abeid**
+ **Abeid**
   
-> L’identificateur d’entrée du message Contact associé à cette entrée dans le carnet d’adresses de Contacts.
+> Identificateur d'entrée du message de contact associé à cette entrée dans le carnet d'adresses des contacts.
     
 ## <a name="remarks"></a>Remarques
 
-Un carnet d’adresses de Contacts est un carnet d’adresses qui contient tous les éléments Contacts dans un dossier Contacts qui possèdent une adresse de messagerie ou un numéro de télécopie. Chaque entrée dans un carnet d’adresses de Contacts est associée à une adresse électronique ou un numéro de télécopie. Dans la mesure où un élément de contact peut avoir jusqu'à trois adresses de messagerie et trois numéros de télécopie, un élément de contact peut être représenté par jusqu'à six entrées dans le carnet d’adresses de Contacts correspondant.
+Un carnet d'adresses de contacts est un carnet d'adresses qui contient tous les contacts d'un dossier de contacts qui ont une adresse de messagerie ou un numéro de télécopie. Chaque entrée dans un carnet d'adresses de contacts est associée à une adresse de messagerie ou à un numéro de télécopie. Étant donné qu'un élément de contact peut avoir jusqu'à trois adresses de messagerie et trois numéros de télécopie, un élément de contact peut être représenté par six entrées au maximum dans le carnet d'adresses des contacts correspondant.
   
-L’objectif d’un carnet d’adresses de Contacts consiste à prendre en charge les utilisateurs de l’adressage des messages électroniques aux contacts d’un dossier Contacts. Le fournisseur de carnet d’adresses de Contacts qui prennent en charge de Microsoft Outlook 2010 et Microsoft Outlook 2013 est contab32.dll.
+L'objectif d'un carnet d'adresses de contacts est de permettre aux utilisateurs d'envoyer des messages électroniques à des contacts dans un dossier de contacts. Le fournisseur de carnets d'adresses de contacts que Microsoft Outlook 2010 et Microsoft Outlook 2013 prennent en charge est contab32. dll.
   
-La structure **CONTAB_ENTRYID** prend en charge un sous-ensemble des informations qui se trouve dans le message MAPI Contact sous-jacent. Il identifie le message de Contact qui est associée à une entrée de carnet d’adresses de Contacts particulier. 
+La structure **CONTAB_ENTRYID** prend en charge un sous-ensemble des informations présentes dans le message de contact MAPI sous-jacent. Il identifie le message de contact auquel est associée une entrée de carnet d'adresses de contacts spécifique. 
   
-Les champs **cbeid** et **abeid** ne sont valides que lorsque la valeur du champ **ulType** est définie sur CONTAB_DISTLIST ou CONTAB_USER. Lorsque la valeur du champ **ulType** est définie sur CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, la structure [DIR_ENTRYID](dir_entryid.md) doit être utilisée à la place. 
+Les champs **cbeid** et **Abeid** ne sont valides que lorsque la valeur du champ **ulType** est définie sur CONTAB_DISTLIST ou CONTAB_USER. Lorsque la valeur du champ **ulType** est définie sur CONTAB_ROOT, CONTAB_SUBROOT ou CONTAB_CONTAINER, la structure [DIR_ENTRYID](dir_entryid.md) doit être utilisée à la place. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d729e2a12ee19ee3aa4ded71263697eb739f154
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: eb3e0d5a96121f63166da2025743b7ef89f4ecf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340963"
 ---
 # <a name="fbadrestriction"></a>FBadRestriction
 
@@ -43,20 +43,20 @@ ULONG FBadRestriction(
 
  _lpres_
   
-> [in] Une structure [SRestriction](srestriction.md) définissant la restriction à valider. 
+> dans Structure [SRestriction](srestriction.md) définissant la restriction à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La restriction spécifiée, ou un ou plusieurs de ses subrestrictions, ne sont pas valide. 
+> La restriction spécifiée, ou une ou plusieurs de ses sous-restrictions, n'est pas valide. 
     
 FALSE 
   
-> La restriction spécifiée et tous ses subrestrictions sont valides.
+> La restriction spécifiée et toutes ses sous-restrictions sont valides.
     
 ## <a name="remarks"></a>Remarques
 
-Une fois une restriction est validée, il peut être passé dans les appels à la méthode [IMAPITable](imapitable-restrict.md) pour restreindre la table à certaines lignes, la méthode [IMAPITable::FindRow](imapitable-findrow.md) pour localiser une ligne de tableau et aux méthodes de l' [IMAPIContainer](imapicontainerimapiprop.md) interface pour effectuer une restriction sur un objet conteneur. 
+Une fois qu'une restriction est validée, elle peut être transmise dans les appels à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) pour limiter la table à certaines lignes, jusqu'à la méthode [IMAPITable:: FindRow](imapitable-findrow.md) pour localiser une ligne de table et aux méthodes de [IMAPIContainer](imapicontainerimapiprop.md) interface permettant d'effectuer une restriction sur un objet Container. 
   
 

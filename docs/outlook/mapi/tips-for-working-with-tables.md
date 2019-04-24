@@ -1,5 +1,5 @@
 ---
-title: Conseils relatifs à l’utilisation des tableaux
+title: Conseils pour utiliser des tableaux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,31 +7,31 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d9b4d6a469904058b0484428dbf20a90119e96bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 8f310c6331df941d3093b276b6dec47f740412e1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339647"
 ---
-# <a name="tips-for-working-with-tables"></a>Conseils relatifs à l’utilisation des tableaux
+# <a name="tips-for-working-with-tables"></a>Conseils pour utiliser des tableaux
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Utilisation d’une MAPI table est un peu comparable à l’utilisation d’une table de base de données relationnelle. Un utilisateur peut limiter le nombre de lignes et colonnes de la vue et spécifier leur ordre. Lignes peuvent être extraites d’un à la fois ou en groupes. Un curseur qui effectue le suivi de la position actuelle peut être déplacé vers un emplacement spécifique dans le tableau. 
+Travailler avec une table MAPI est un peu semblable à travailler avec une table de base de données relationnelle. Un utilisateur peut limiter le nombre de lignes et de colonnes dans l'affichage et spécifier son ordre. Les lignes peuvent être récupérées une par une ou dans des groupes. Un curseur qui effectue le suivi de la position actuelle peut être déplacé vers un emplacement spécifique dans le tableau. 
   
-Pour travailler avec des tableaux, les clients utilisent l’interface en lecture seule, [IMAPITable : IUnknown](imapitableiunknown.md), tandis que les fournisseurs de service, selon qu’ils possèdent les données selon la table, peuvent utiliser soit **IMAPITable** ou [ITableData : IUnknown](itabledataiunknown.md). Les opérations définies dans ces interfaces peuvent être classées en tant qu’opérations que tous les utilisateurs de tableaux ou peuvent appeler et qui ne sont pas aussi largement utilisés, car ils sont plus avancés. Certaines opérations avancées sont plus complexes à implémenter ; d’autres personnes sont ne plus complexes, mais destinées aux petites rarement composants MAPI. 
+Pour travailler avec des tables, les clients utilisent l'interface en lecture seule, [IMAPITable: IUnknown](imapitableiunknown.md), tandis que les fournisseurs de services, selon qu'ils possèdent ou non les données sur lesquelles la table est basée, peuvent utiliser la fonction **IMAPITable** ou [ITableData: IUnknown](itabledataiunknown.md). Les opérations définies dans ces interfaces peuvent être catégorisées comme des opérations que tous les utilisateurs de tables effectuent ou peuvent appeler et des opérations qui ne sont pas aussi largement utilisées car elles sont plus avancées. Certaines des opérations avancées sont plus complexes à mettre en œuvre; d'autres ne sont pas plus complexes, mais présentent un intérêt pour une petite minorité de composants MAPI. 
   
-Opérations les plus courantes sont les suivants :
+Les opérations les plus courantes sont les suivantes:
   
-- Opérations de colonne, qui affectent les colonnes uniques. Cela inclut la spécification des propriétés à inclure dans l’ensemble de colonnes et l’ordre dans lequel ils doivent être inclus.
+- Les opérations sur les colonnes, qui affectent des colonnes uniques. Il s'agit notamment de spécifier les propriétés à inclure dans le jeu de colonnes et l'ordre dans lequel elles doivent être incluses.
     
-- Opérations de ligne, qui concerne les lignes uniques. Cela inclut les opérations de maintenance et de récupération des données : ajout, suppression et la modification d’une seule ligne ou plusieurs lignes.
+- Les opérations de ligne, qui affectent des lignes uniques. Il s'agit notamment des opérations de récupération des données et de maintenance: ajout, suppression et modification d'une ou de plusieurs lignes.
     
-- Opérations globales, qui affectent l’intégralité du tableau. Cela inclut la notification d’événement, recherche et le tri.
+- Les opérations globales, qui affectent l'intégralité du tableau. Cela inclut la notification d'événement, la recherche et le tri.
     
 ## <a name="see-also"></a>Voir aussi
 

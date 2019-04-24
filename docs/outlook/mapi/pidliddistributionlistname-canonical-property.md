@@ -11,27 +11,27 @@ api_name:
 api_type:
 - COM
 ms.assetid: 06fe4d20-c3f5-4f4f-b7b7-5a4f5257079b
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: d3a1229f4d29bae36b90eb1daf0b6426f358b598
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341964"
 ---
 # <a name="pidliddistributionlistname-canonical-property"></a>Propriété canonique PidLidDistributionListName
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Spécifie le nom de la liste de distribution personnelle.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLName  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x00008053  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x00008053  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
@@ -39,21 +39,21 @@ Spécifie le nom de la liste de distribution personnelle.
 
 La valeur de cette propriété doit être identique à la valeur de la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

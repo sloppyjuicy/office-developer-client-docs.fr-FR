@@ -11,59 +11,59 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: aa1f76a3f410294de9c7ebfb3e64bbb1cd6cc25c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336826"
 ---
 # <a name="pidlidsharinglocaltype-canonical-property"></a>Propriété canonique PidLidSharingLocalType
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la valeur de la propriété **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé. Il s’agit d’une propriété d’un message de partage.
+Spécifie la valeur de la propriété **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé. Il s'agit d'une propriété d'un message de partage.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidSharingLocalType  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Sharing  <br/> |
-|ID de type long (capot) :  <br/> |0x00008A14  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Sharing  <br/> |
+|ID long (couvercle):  <br/> |0x00008A14  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Partage  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette propriété doit être une des options suivantes :
+La valeur de cette propriété doit être l'une des valeurs suivantes:
   
-- « ERREUR. Rendez-vous »
+- Page. Rendez-vous
     
-- « ERREUR. Contact »
+- Page. Prenez
     
-- « ERREUR. Tâche »
+- Page. Tâche
     
-- « ERREUR. StickyNote »
+- Page. StickyNote
     
-- « ERREUR. Journal »
+- Page. N
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Partage des dossiers de boîte aux lettres entre des clients.
+> Partage des dossiers de boîtes aux lettres entre les clients.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

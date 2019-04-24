@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 39d9ad3b-ff4b-8378-a3ac-d5621c7ef7f1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bdfabdf02fc0fa6222418bd0fb87e9b6c17d936a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: b401f54df020fb6553cbdcc5b85206ee422a8429
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338856"
 ---
 # <a name="uptbl"></a>UPTBL
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de téléchargement du contenu d’un dossier pendant la [Télécharger l’état de la table](upload-table-state.md).
+Informations pour le téléchargement du contenu d'un dossier lors de l' [État](upload-table-state.md)de la table de chargement.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -39,55 +39,55 @@ struct UPTBL
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
 _ulFlags_
   
-> [in] Indicateurs pour déterminer le comportement approprié lors du téléchargement.
+> dans Indicateurs permettant de déterminer le comportement approprié pendant le chargement.
     
   - UPT_OK
     
-    - [in] Téléchargement a réussi. Le client définit après avoir téléchargé le contenu du dossier sur le serveur.
+    - dans Le chargement a réussi. Le client définit cette valeur après avoir téléchargé le contenu du dossier sur le serveur.
     
 _pstmReserved_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _pszName_
   
-> [out] Nom du dossier.
+> [sortant] Nom du dossier.
     
 _feid_
   
-> [out] ID d’entrée du dossier.
+> [sortant] ID d’entrée du dossier.
     
 _uintReserved_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
 _rgte_
   
-> [out] Structure contenant les informations suivantes pour les éléments normales (ou non masqués) et associée (ou masqué) dans le dossier : _rgte [0]_ est pour les éléments normales et _rgte [1]_ des éléments associés. 
+> remarquer Structure pour contenir les informations suivantes pour les éléments normaux (ou non masqués) et les éléments associés (ou masqués) dans le dossier: _rgte [0]_ correspond aux éléments normaux et _rgte [1]_ correspond aux éléments associés. 
     
-   - le nombre d’éléments nouveaux ou modifiés
-   - le nombre d’éléments lus 
-   - le nombre d’éléments supprimés
+   - nombre d'éléments nouveaux ou modifiés
+   - nombre d'éléments lus 
+   - nombre d'éléments supprimés
     
  _iEnt_
   
-> [out] Index pour effectuer le suivi de téléchargement le nombre de modifications spécifié par _cEnt_.
+> remarquer Index permettant de suivre le téléchargement du nombre de modifications spécifiées par _cEnt_.
     
-_cEnt_
+_Motivé_
   
-> [out] Nombre de modifications dans le dossier.
+> remarquer Nombre de modifications apportées au dossier.
     
 _pupmovHead_
   
-> [out] Chaîne de structures [UPMOV](upmov.md) . 
+> remarquer Chaîne de structures [UPMOV](upmov.md) . 
     
-_Conservés_
+_Disparition_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+> [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
     
 ## <a name="see-also"></a>Voir aussi
 

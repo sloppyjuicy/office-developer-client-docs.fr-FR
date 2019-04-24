@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee4fb340-0c6b-1c9a-9d97-827081bea235
 description: Renvoie le numéro de la page qui contient la forme.
-ms.openlocfilehash: e4005f000ec3848c4bc9d966fd95a5c11a0c8e1c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8c9f3b23afacff4a90e1fa6f2463e36150bc5d5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339458"
 ---
-# <a name="pagenumber-function"></a>PAGENUMBER, fonction
+# <a name="pagenumber-function"></a>Fonction PAGENUMBER
 
 Renvoie le numéro de la page qui contient la forme. 
   
 ## <a name="syntax"></a>Syntaxe
 
-PAGENUMBER()
+PAGENUMBER ()
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Nombre
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si la page active est une page d’arrière-plan (non numérotée) ou si une erreur se produit, la fonction PAGENUMBER renvoie zéro.
   

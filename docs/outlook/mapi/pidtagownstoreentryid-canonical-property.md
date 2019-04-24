@@ -11,44 +11,44 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 54014ab25d268c161465349b4e33c6a1df19f140
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 16a23c4e711bf9f7b670dff8b3e8f65371aa6bda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335447"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>Propriété canonique PidTagOwnStoreEntryId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée du magasin d’un type de transport message étroitement couplés.
+Contient l'identificateur d'entrée d'une banque de messages étroitement couplée d'un transport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x3E06  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés de la banque de messages  <br/> |
+|Domaine :  <br/> |Propriétés de la Banque de messages  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, si elle existe. Par exemple, un fournisseur de transport peut spécifier le dossier privé stocker l’identificateur d’entrée afin que le spouleur MAPI peut se connecter le fournisseur de transport pour le magasin.
+Cette propriété spécifie l'identificateur d'entrée pour le magasin étroitement couplé, le cas échéant. Par exemple, un fournisseur de transport peut spécifier l'identificateur de l'entrée de la Banque de dossiers privés afin que le spouleur MAPI puisse connecter le fournisseur de transport au magasin.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 616c822e-1bb2-4980-7e45-0c2be77dd801
 description: Contient des informations sur les commentaires insérés sur une page de document.
-ms.openlocfilehash: 1824c8f087d999ae76ecc4227df44a0ba7001f6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f874a574940a5f56b1d1680b9b4b32730e1e79f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341397"
 ---
-# <a name="annotation-section"></a>Annotation, section
+# <a name="annotation-section"></a>Annotation Section
 
 Contient des informations sur les commentaires insérés sur une page de document. 
   
 > [!NOTE]
-> Cette section est utilisée pour le suivi des commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les nouveaux documents .vsdx dans Visio 2013. 
+> Cette section est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD. Il n'est pas utilisé pour le suivi des commentaires dans les nouveaux documents. vsdx dans Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
-La section **Annotation** de feuille ShapeSheet d’une page contient une ligne pour chaque commentaire ajouté à une page dans le dessin, qu’il s’agisse d’une page de dessin d’origine ou d’une page de superposition de balisage (une page contenant le balisage qui ont été ajoutée au dessin par un réviseur). Plus d’informations sur le balisage qui a été ajouté à l’aide du mode d’entrée manuscrite ou autres formes, plutôt que des commentaires, n’est pas inclus dans la section **Annotation** . 
+La section **annotation** de la feuille ShapeSheet d'une page contient une ligne pour chaque Commentaire ajouté à une page dans le dessin, qu'il s'agisse d'une page de dessin d'origine ou d'une page de superposition de marques de révision (une page contenant un balisage qui a été ajouté au dessin par un relecteur). Les informations sur les balises qui ont été ajoutées à l'aide d'une entrée manuscrite ou d'autres formes, plutôt que des commentaires, ne sont pas incluses dans la section **annotation** . 
   
-Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné dans la page, avec le bouton droit de la page, cliquez sur **Afficher la feuille ShapeSheet**.
+Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné sur la page, cliquez avec le bouton droit sur la page, puis cliquez sur **Afficher la feuille ShapeSheet**.
   
-Pour plus d’informations sur des réviseurs donnés, reportez-vous à la section **Reviewer** de la feuille ShapeSheet du document. 
+Pour plus d'informations sur des relecteurs spécifiques **** , reportez-vous à la section réviseur dans la feuille ShapeSheet du document. 
   
 

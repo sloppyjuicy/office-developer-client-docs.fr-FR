@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: Détermine, en unités de page, la distance du décalage horizontal entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: 9aec108146e329d7a8161acc4ca7cdcb19424eff
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbc7d37fc8ba45f3219af6a4350301102954f23d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338751"
 ---
 # <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX, cellule (section Page Properties)
 
@@ -22,9 +22,9 @@ Détermine, en unités de page, la distance du décalage horizontal entre l'ombr
   
 ## <a name="remarks"></a>Remarques
 
-Cette valeur est définie dans la boîte de dialogue **Mise en Page** (sous l’onglet **Création** , cliquez sur la flèche **Mise en Page** ). Cette valeur est indépendante de l’échelle du dessin. Si le dessin est mis à l’échelle, le décalage d’ombre reste identique. 
+Cette valeur est définie dans la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**). Elle est indépendante de l’échelle du dessin. Si le dessin est mis à l’échelle, le décalage de l’ombre reste le même. 
   
-Pour obtenir une référence à la cellule ShdwOffsetX par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule ShdwOffsetX par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule ShdwOffsetX par index dans un program
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageShdwOffsetX** <br/> |
    

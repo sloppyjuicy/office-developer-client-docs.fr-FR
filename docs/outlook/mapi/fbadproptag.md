@@ -11,13 +11,13 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 943dab0141581adc32c184b0042a063a4ec05c3e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340998"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 
@@ -43,13 +43,13 @@ ULONG FBadPropTag(
 
  _ulPropTag_
   
-> [in] La balise de propriété à valider.
+> dans Balise de propriété à valider.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La balise de propriété spécifié n’est pas une balise de propriété MAPI valide. 
+> La balise de propriété spécifiée n'est pas une balise de propriété MAPI valide. 
     
 FALSE 
   
@@ -57,7 +57,7 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions de MAPI. Il se sures que le type de propriété est un des types définis par MAPI et que l’identificateur de propriété est définie comme étant de ce type. 
+La fonction **FBadPropTag** valide la balise de propriété spécifiée en fonction des définitions MAPI. Elle permet de s'assurer que le type de propriété est l'un des types définis par MAPI et que l'identificateur de la propriété est défini comme étant de ce type. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 28b42e6abee5d918dbcca69c13642f3ebcc859e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335279"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Propriété canonique PidTagAcknowledgementMode
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur du mode d’accusé de réception de messages.
+Contient l'identificateur du mode pour l'accusé de réception des messages.
   
 |||
 |:-----|:-----|
@@ -36,24 +36,24 @@ Contient l’identificateur du mode d’accusé de réception de messages.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement une des valeurs suivantes :
+Cette propriété peut avoir exactement l'une des valeurs suivantes:
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Accusé de réception manuelle.  <br/> |
-|1  <br/> |Accusé de réception automatique.  <br/> |
+|0  <br/> |Accusé de réception manuel.  <br/> |
+|0,1  <br/> |Accusé de réception automatique.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

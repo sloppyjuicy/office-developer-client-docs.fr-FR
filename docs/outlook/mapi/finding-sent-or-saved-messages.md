@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 86373fae2753df66d4456cc0fc00f8b289977650
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337127"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Recherche de messages envoyés ou enregistrés
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
- **Pour rechercher tous les messages sortants que vous avez enregistré ou envoyé**
+ **Pour localiser tous les messages sortants enregistrés ou envoyés**
   
-1. Appelez [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient vos messages envoyés par le dossier qui contient les messages entrants. 
+1. Appelez [IMsgStore:: CompareEntryIDs](imsgstore-compareentryids.md) pour comparer le dossier qui contient les messages envoyés avec le dossier qui contient vos messages entrants. 
     
-2. Définissez le paramètre _lpEntryID1_ pour pointer vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre _lpEntryID2_ pour pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Définissez le paramètre _lpEntryID1_ de sorte qu'il pointe vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre _lpEntryID2_ de pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Sachez que si vous supprimer les messages après leur sont envoyés ou que vous ont déplacé des messages envoyés vers un autre dossier, cette stratégie ne fonctionne pas. 
+N'oubliez pas que si vous supprimez des messages après les avoir envoyés ou si vous les avez déplacés vers un autre dossier, cette stratégie ne fonctionnera pas. 
   
-Si en examinant un message entrant, vous constatez que les propriétés qui sont généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message a été jamais géré par un fournisseur de transport. Ces propriétés sont les suivantes :
+Si, lors de l'examen d'un message entrant, vous remarquez que les propriétés qui sont généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message n'a jamais été géré par un fournisseur de transport. Ces propriétés sont les suivantes :
   
 - Propriétés **PR_RECEIVED_BY** 
     

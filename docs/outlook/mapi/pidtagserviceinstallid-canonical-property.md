@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 273796430cb2ed1badd96ddb9c8fae8b251e5802
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 159a25347cd64b44f42dbb5052425ebb67894a9b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341127"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Propriété canonique PidTagServiceInstallId
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’ID du composant du fournisseur.
+ID de composant du fournisseur.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ L’ID du composant du fournisseur.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés peuvent être utilisées comme paramètre d’un appel **MsiProvideQualifiedComponent** composant pour installer le fournisseur. 
+Ces propriétés peuvent être utilisées comme paramètre de composant d'un appel **MsiProvideQualifiedComponent** pour installer le fournisseur. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Accéder aux données propres à une solution stockées dans un message masqué dans un dossier
+title: Accès aux données d’une solution stockée sous forme de message masqué dans un dossier
 TOCTitle: Access solution-specific data stored as a hidden message in a folder
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e4a0a686327bb43b07773b149831107f51fcb4fa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334950"
 ---
 # <a name="access-solution-specific-data-stored-as-a-hidden-message-in-a-folder"></a>Accéder aux données propres à une solution stockées dans un message masqué dans un dossier
 

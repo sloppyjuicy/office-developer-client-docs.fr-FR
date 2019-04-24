@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba93cd0343121751ab12514fe3f09e5a480d5b23
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 84b44b4b054a2b2617502a6a463a6d4a89546804
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336441"
 ---
 # <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit un objet état qui a été affecté par une modification. 
+Décrit un objet Status qui a été affecté par une modification. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct
@@ -46,31 +46,31 @@ typedef struct
 
  **cbEntryID**
   
-> Nombre d’octets de l’identificateur d’entrée vers laquelle pointe le membre **lpEntryID** . 
+> Nombre d'octets dans l'identificateur d'entrée vers lequel pointe le membre **lpEntryID** . 
     
  **lpEntryID**
   
-> Pointeur vers l’identificateur d’entrée de l’objet état modifié.
+> Pointeur vers l'identificateur d'entrée de l'objet d'état modifié.
     
  **cValues**
   
-> Nombre de structures [SPropValue](spropvalue.md) dans le tableau indiqué par le membre **lpPropVals** . 
+> Nombre de structures [SPropValue](spropvalue.md) dans le tableau vers lequel pointe le membre **lpPropVals** . 
     
  **lpPropVals**
   
-> Pointeur vers un tableau de structures **SPropValue** qui décrivent les propriétés de l’objet état modifié. 
+> Pointeur vers un tableau de structures **SPropValue** qui décrivent les propriétés de l'objet d'état modifié. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **STATUS_OBJECT_NOTIFICATION** est un des membres de l’union de structures inclus dans le membre **info** de la structure de [NOTIFICATION](notification.md) . La structure **STATUS_OBJECT_NOTIFICATION** est incluse dans une notification d’objet état pour un événement de type _fnevStatusObjectModified_. Notification d’état d’objet est une notification MAPI interne ; clients et fournisseurs de services ne peut pas inscrire pour qu’il et il ne peut pas générer des fournisseurs de services.
+La structure **STATUS_OBJECT_NOTIFICATION** est l'un des membres de l'Union des structures incluses dans le membre **info** de la structure de [notification](notification.md) . La structure **STATUS_OBJECT_NOTIFICATION** est incluse avec une notification d'objet d'État pour un événement de type _fnevStatusObjectModified_. La notification d'objet d'État est une notification MAPI interne; les clients et les fournisseurs de services ne peuvent pas s'inscrire à l'informatique et les fournisseurs de services ne peuvent pas le générer.
   
-Pour plus d’informations sur la notification, consultez les rubriques décrites dans le tableau suivant.
+Pour plus d'informations sur la notification, reportez-vous aux rubriques décrites dans le tableau suivant.
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des notifications et les événements de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Étude de la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événements](supporting-event-notification.md) <br/> |Étude de comment les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
+|[Notification d'événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d'ensemble générale des événements de notification et de notification.  <br/> |
+|[Gestion des notifications](handling-notifications.md) <br/> |Présentation de la façon dont les clients doivent gérer les notifications.  <br/> |
+|[Notification d'événement de prise en charge](supporting-event-notification.md) <br/> |Présentation de la façon dont les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

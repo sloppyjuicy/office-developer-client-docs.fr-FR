@@ -11,37 +11,37 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: b364fb91bda7e895b546f9a281ef14ce33b073f9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337981"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriété canonique PidLidExceptionReplaceTime
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l’heure au sein de la périodicité qui remplace l’exception.
+Indique la date et l'heure de la périodicité que l'exception doit remplacer.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidExceptionReplaceTime  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Appointment  <br/> |
-|ID de type long (capot) :  <br/> |0x00008228  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Appointment  <br/> |
+|ID long (couvercle):  <br/> |0x00008228  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Calendrier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur doit être spécifiée dans le temps universel coordonné (UTC). Cette propriété permet à l’objet de pièce jointe exception doit être localisé pour une instance spécifique.
+La valeur doit être spécifiée au format UTC (Coordinated Universal Time). Cette propriété permet de trouver l'objet de pièce jointe d'exception pour une instance particulière.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -49,11 +49,11 @@ La valeur doit être spécifiée dans le temps universel coordonné (UTC). Cette
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

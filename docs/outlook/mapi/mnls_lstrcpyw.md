@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
-description: 'Dernière modification : 18 juin 2012'
+description: 'Dernière modification: 18 juin 2012'
 ms.openlocfilehash: 1a1cf0a607dd4b57353eda74f9b14965e110c071
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341726"
 ---
 # <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Copie une chaîne dans une mémoire tampon.
   
 > [!CAUTION]
-> Ne pas utiliser. Utilisez plutôt [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) . 
+> Ne pas utiliser. EnVisagez d'utiliser [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) à la place. 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -36,21 +36,21 @@ LPCWSTR lpString2);
 
 lpString1
   
-> [out] Mémoire tampon pour recevoir le contenu de la chaîne indiquée par le paramètre lpString2.
+> remarquer Mémoire tampon pour recevoir le contenu de la chaîne désignée par le paramètre lpString2.
     
 lpString2
   
-> [in] La chaîne à copier.
+> dans Chaîne terminée par un caractère null à copier.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 Si la fonction réussit, la valeur de retour est un pointeur vers la mémoire tampon.
   
-Si la fonction échoue, la valeur de retour est NULL et lpString1 ne peut pas être terminée.
+Si la fonction échoue, la valeur renvoyée est NULL et lpString1 ne peut pas être terminé par null.
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction encapsule la fonction **lstrcpy** . Pour plus d’informations, voir [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
+Cette fonction encapsule la fonction **lstrcpy** . Pour plus d'informations, consultez la rubrique [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 

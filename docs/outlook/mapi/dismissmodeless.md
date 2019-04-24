@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c66ff2338eb5751dbffe392a6a26258fb1c89476
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339773"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
@@ -25,13 +25,13 @@ ms.locfileid: "22565836"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel appels MAPI lorsqu’il a rejeté une boîte de dialogue non modale adresse téléchargeable. 
+Définit une fonction de rappel que MAPI appelle lorsqu'il a ignoré une boîte de dialogue Carnet d'adresses non modale. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Fonction implémentée par :  <br/> |Applications clientes  <br/> |
-|Fonction appelée par :  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fonction définie implémentée par:  <br/> |Applications clientes  <br/> |
+|Fonction définie appelée par:  <br/> |MAPI  <br/> |
    
 ```cpp
 void (STDMETHODCALLTYPE DISMISSMODELESS)(
@@ -44,19 +44,19 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
  _ulUIParam_
   
-> [in] Une valeur spécifique à l’implémentation est généralement utilisée pour transmettre des informations d’interface utilisateur à une fonction. Par exemple, dans Microsoft Windows ce paramètre est le handle de fenêtre parent pour la boîte de dialogue et est de type HWND, d’une **ULONG_PTR entière**. La valeur zéro indique aucune fenêtre parent est. 
+> dans Une valeur propre à l'implémentation généralement utilisée pour passer des informations d'interface utilisateur à une fonction. Par exemple, dans Microsoft Windows, ce paramètre est le descripteur de fenêtre parent de la boîte de dialogue et est de type HWND, casté en **ULONG_PTR**. La valeur zéro indique qu'il n'y a aucune fenêtre parent. 
     
  _lpvContext_
   
-> [in] Pointeur vers une valeur arbitraire transmis à la fonction de rappel lorsque MAPI il l’appelle. Cette valeur peut représenter une adresse de l’argument précision à l’application cliente. En règle générale, pour le code C++, _lpvContext_ est un pointeur vers l’adresse d’une instance d’objet C++. 
+> dans Pointeur vers une valeur arbitraire passée à la fonction de rappel lorsque MAPI l'appelle. Cette valeur peut représenter une adresse de l'importance de l'application cliente. En règle générale, pour le code C++, _lpvContext_ est un pointeur vers l'adresse d'une instance d'objet C++. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-Aucune
+Aucun
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque l’application cliente appelle une boîte de dialogue non modale adresse téléchargeable, il inclut dans sa boucle de message Windows un appel à une fonction basée sur le prototype [ACCELERATEABSDI](accelerateabsdi.md) , qui recherche et traite les touches de raccourci. Lorsque la boîte de dialogue est fermée, les appels MAPI que fonction en fonction de la **DISMISSMODELESS** afin que l’application cliente s’arrête **ACCELERATEABSDI** l’appel en fonction de fonction. 
+Lorsque l'application cliente appelle une boîte de dialogue Carnet d'adresses non modale, elle inclut dans sa boucle de messages Windows un appel à une fonction basée sur le prototype [ACCELERATEABSDI](accelerateabsdi.md) , qui vérifie et traite les touches d'accès rapide. Lorsque la boîte de dialogue est fermée, MAPI appelle la fonction basée sur **DISMISSMODELESS** afin que l'application cliente arrête d'appeler la fonction **ACCELERATEABSDI** . 
   
 ## <a name="see-also"></a>Voir aussi
 

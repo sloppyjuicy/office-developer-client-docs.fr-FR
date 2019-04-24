@@ -1,5 +1,5 @@
 ---
-title: Définition d’une position de table avec une valeur fractionnelle
+title: Définition de la position de la table avec une valeur fractionnaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,29 +7,29 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8ffed8070c219e6611aebbcb1dd5cd181b662850
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 7800a58cad7b4e2b0b1696706c8e1d401ed424d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339262"
 ---
-# <a name="setting-table-position-with-a-fractional-value"></a>Définition d’une position de table avec une valeur fractionnelle
+# <a name="setting-table-position-with-a-fractional-value"></a>Définition de la position de la table avec une valeur fractionnaire
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les utilisateurs de tableau peuvent déplacer vers une position qui représente un pourcentage approximatif de lignes par rapport au total. Au lieu de passer à une ligne exacte, cette méthode de positionnement divise la table en portions basée sur des fractions. Les utilisateurs de tableau peuvent déplacer, par exemple, à mi-chemin d’une table ou à la ligne qui est 7/8 de la façon dont la table. 
+Tableau les utilisateurs peuvent passer à une position qui représente un pourcentage approximatif de lignes par rapport au total. Au lieu de passer à une ligne exacte, cette méthode de positionnement divise le tableau en portions en fonction de fractions. Tableau les utilisateurs peuvent déplacer, par exemple, vers le point de la moitié d'un tableau ou vers la ligne 7/8 du tableau. 
   
- **Pour déplacer le curseur du nombre de lignes approximatif**
+ **Pour déplacer le curseur d'un nombre approximatif de lignes**
   
-- Appelez [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** se déplace sur la ligne qui représente un pourcentage de lignes par rapport au début de la table. Ce pourcentage est spécifié dans les paramètres _ulNumerator_ et _ulDenominator_ . **SeekRowApprox** est fréquemment utilisé pour implémenter des barres de défilement. 
+- Appeler [IMAPITable:: SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** passe à la ligne qui représente un pourcentage particulier de lignes par rapport au début de la table. Ce pourcentage est spécifié dans les paramètres _ulNumerator_ et _ulDenominator_ . **SeekRowApprox** est fréquemment utilisé pour implémenter des barres de défilement. 
     
- **Pour déterminer la position approximative d’une table**
+ **Pour déterminer la position approximative d'une table**
   
-- Appelez [IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition** peut être utilisé pour informer l’utilisateur de la position actuelle. Il définit une valeur décimale basée sur le nombre de lignes dans le tableau et le nombre de la ligne active. Attendez que cette valeur représente une estimation. L’implémentation de la table est encouragées ne pas à calculer la position exacte étant donné que les implémentations précises coûteuses à appeler, en particulier sur les tableaux, voir. 
+- Appeler [IMAPITable:: QueryPosition](imapitable-queryposition.md). **QueryPosition** peut être utilisé pour informer l'utilisateur de la position actuelle. Il définit une valeur fractionnaire basée sur le nombre de lignes du tableau et le numéro de la ligne active. Attendez que cette valeur représente une approximation. Les implémenteurs de tableaux sont encouragés à ne pas calculer la position exacte, car les implémentations précises peuvent être coûteuses à appeler, en particulier dans les tables catégorisées. 
     
 ## <a name="see-also"></a>Voir aussi
 

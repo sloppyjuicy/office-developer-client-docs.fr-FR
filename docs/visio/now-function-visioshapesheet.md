@@ -1,5 +1,5 @@
 ---
-title: Maintenant fonction (VisioShapeSheet)
+title: NOW Function (VisioShapeSheet)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm82251470
 localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
-description: Renvoie la valeur de date et l’heure actuelle.
-ms.openlocfilehash: 387425369b1f1d6313502b3679a72cfd23038834
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Renvoie la date et l'heure actuelles.
+ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340991"
 ---
-# <a name="now-function-visioshapesheet"></a>Maintenant fonction (VisioShapeSheet)
+# <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
 
-Renvoie la valeur de date et l’heure actuelle.
+Renvoie la date et l'heure actuelles.
   
 ## <a name="syntax"></a>Syntaxe
 
 NOW ( )
   
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
-Datetime
+Structure
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 La fonction NOW est automatiquement recalculée toutes les minutes. 
   
@@ -46,7 +46,7 @@ Renvoie la date et l’heure actuelles au format 27 sept. 2010 12:03.
   
 ## <a name="example-3"></a>Exemple 3
 
-NOW()+2WE.
+NOW () + 2EW.
   
 Renvoie la date et l’heure actuelles plus deux semaines, soit 10/11/10 12:03:30.
   

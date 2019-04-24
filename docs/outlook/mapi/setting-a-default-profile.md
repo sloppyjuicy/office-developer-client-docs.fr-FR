@@ -1,5 +1,5 @@
 ---
-title: Définition d’un profil par défaut
+title: Définition d'un profil par défaut
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,26 +7,26 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2044969cc79990c9f0325fc7934e3426015fdc72
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: f6bf8f88fa3e87ae619fa32d759fc182290998ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339310"
 ---
-# <a name="setting-a-default-profile"></a>Définition d’un profil par défaut
+# <a name="setting-a-default-profile"></a>Définition d'un profil par défaut
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le profil par défaut est le profil qui est utilisé si vous ne pas spécifiez explicitement dans l’appel de [MAPILogonEx](mapilogonex.md), définition de l’indicateur MAPI_USE_DEFAULT à la place.
+Le profil par défaut est le profil qui est utilisé si vous n'en spécifiez pas explicitement dans l'appel à [MAPILogonEx](mapilogonex.md), en définissant à la place l'indicateur MAPI_USE_DEFAULT.
   
  **Pour établir un profil par défaut**
   
-1. Appelez la fonction [MAPIAdminProfiles](mapiadminprofiles.md) pour récupérer un pointeur d’interface **IProfAdmin** . 
+1. Appelez la fonction [MAPIAdminProfiles](mapiadminprofiles.md) pour récupérer un pointeur d'interface **IProfAdmin** . 
     
-2. Appelez [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** définit la propriété **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) pour le nouveau profil par défaut et supprime la définition pour le profil par défaut précédente.
+2. Appeler [IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** définit la propriété **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) pour le nouveau profil par défaut et supprime le paramètre pour le profil par défaut précédent.
     
 

@@ -7,55 +7,55 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c6079a62464231536c0fa6b5bacc291997fe38d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 73d905028f8f62ad8cbb9da9b1ad61b8cab1065e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340074"
 ---
 # <a name="mapi-progress-objects"></a>Objets de progression MAPI
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les méthodes et les données d’un objet de progression, vous pouvez contrôler comment l’indicateur signale la progression. Bien qu’un client ou un MAPI implémente l’objet de l’avancement, la plupart de la charge d’assurer l’exactitude de l’affichage de l’avancement se situe sur les fournisseurs de services. Vous pouvez garantir son exactitude en spécifiant une valeur pour les paramètres qui sont transmises aux méthodes d’objet de progression et un ordre particulier.
+Les méthodes et les données d'un objet Progress vous permettent de contrôler l'état d'avancement de l'indicateur. Bien qu'un client ou MAPI implémente l'objet Progress, il est essentiel de s'assurer que l'affichage de la progression incombe aux fournisseurs de services. Vous pouvez garantir sa précision en spécifiant une ordre et une valeur spécifiques pour les paramètres transmis aux méthodes de l'objet Progress.
   
-Les paramètres suivants sont transmis aux objets cours :
+Les paramètres suivants sont transmis aux objets Progress:
   
-- Un masque de bits d’indicateurs, définie avec [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) et récupérés par [IMAPIProgress::GetFlags](imapiprogress-getflags.md).
+- Masque de masque des indicateurs, défini avec [méthode imapiprogress:: SetLimits](imapiprogress-setlimits.md) et récupérés avec [méthode imapiprogress:: GetFlags](imapiprogress-getflags.md).
     
-- Valeur minimale (locale et globale), définie avec **SetLimits** et récupérés par [IMAPIProgress::GetMin](imapiprogress-getmin.md).
+- Valeur minimale (locale et globale), définie avec **SetLimits** et récupérée avec [méthode imapiprogress:: GetMin](imapiprogress-getmin.md).
     
-- Une valeur maximale (locale et globale), définie avec **SetLimits** et récupérés par [IMAPIProgress::GetMax](imapiprogress-getmax.md).
+- Valeur maximale (locale et globale), définie avec **SetLimits** et récupérée avec [méthode imapiprogress:: GetMax](imapiprogress-getmax.md).
     
-- Une valeur qui indique le pourcentage d’achèvement de l’opération, transmis à [IMAPIProgress::Progress](imapiprogress-progress.md).
+- Valeur qui indique le pourcentage d'achèvement actuel de l'opération, passé à [méthode imapiprogress::P rogress](imapiprogress-progress.md).
     
-- Le nombre d’objets qui ont été jusqu'à présent traités, transmises à la **progression**.
+- Décompte du nombre d'objets qui ont été traités jusqu'à présent, passés à la **progression**.
     
-- Un nombre au nombre total d’objets impliqués dans l’opération, transmise à **l’avancement**.
+- Nombre total d'objets impliqués dans l'opération, passés à la **progression**.
     
-Tous les fournisseurs de services commencent leur affichage en cours de traitement par un appel à **IMAPIProgress::GetFlags** pour récupérer les indicateurs présent définition. Actuellement, les indicateurs peuvent être définies qu’avec MAPI_TOP_LEVEL. Clients et MAPI initialiser l’indicateur MAPI_TOP_LEVEL, compter sur les fournisseurs de services pour la désactiver le cas échéant. 
+Tous les fournisseurs de services commencent leur traitement d'affichage de la progression avec un appel à **méthode imapiprogress: GetFlags** pour récupérer le paramètre présent Flags. Actuellement, les indicateurs peuvent être définis uniquement sur MAPI_TOP_LEVEL. Les clients et MAPI initialisent l'indicateur sur MAPI_TOP_LEVEL, en s'appuyant sur les fournisseurs de services pour les effacer, le cas échéant. 
   
-La valeur flags est définie à MAPI_TOP_LEVEL lorsque vous travaillez avec l’objet de niveau supérieur dans l’opération. L’objet de niveau supérieur est l’objet qui est appelée par le client pour commencer une opération. Dans une opération de copie de dossier, c’est le dossier en cours de copie. Dans une opération de suppression de dossier, c’est le dossier en cours de suppression. Lorsque vous effectuez un appel à un objet de niveau inférieur de processus ou sous-objet, désactivez la valeur flags. Dans une opération de copie de dossier, sous-objets sont les sous-dossiers qui se trouvent dans le dossier en cours de copie. 
+La valeur flags est définie sur MAPI_TOP_LEVEL lorsque vous utilisez l'objet de niveau supérieur dans l'opération. L'objet de niveau supérieur est l'objet qui est appelé par le client pour commencer une opération. Dans une opération de copie de dossier, il s'agit du dossier copié. Dans une opération de suppression de dossier, il s'agit du dossier en cours de suppression. Lorsque vous effectuez un appel pour traiter un objet de niveau inférieur ou un sous-objet, effacez la valeur flags. Dans une opération de copie de dossier, les sous-objets sont les sous-dossiers qui se trouvent dans le dossier en cours de copie. 
   
-MAPI vous permet de faire la distinction entre les objets de niveau supérieur et sous-objets avec l’indicateur MAPI_TOP_LEVEL afin que tous les objets impliquant dans une opération peuvent utiliser la même implémentation [IMAPIProgress](imapiprogressiunknown.md) pour afficher la progression, ce qui provoque l’affichage de l’indicateur pour passez comme prévu dans un seul sens positif. Si l’indicateur MAPI_TOP_LEVEL est défini affecte les paramètres des autres paramètres dans les appels suivants à l’objet de progression. 
+MAPI vous permet de différencier les objets de niveau supérieur et les sous-objets à l'aide de l'indicateur MAPI_TOP_LEVEL afin que tous les objets impliqués dans une opération puissent utiliser la même implémentation [méthode imapiprogress](imapiprogressiunknown.md) pour afficher la progression, ce qui entraîne l'affichage de l'indicateur se déroule sans problème dans une seule direction positive. Que l'indicateur MAPI_TOP_LEVEL soit défini ou non affecte les paramètres des autres paramètres dans les appels ultérieurs à l'objet Progress. 
   
-Car il peut être important de définir des valeurs de paramètre appropriée pour un affichage en cours à tous les niveaux d’une opération à plusieurs niveaux, certains fournisseurs de services de choisir de ne pas afficher la progression de sous-objets. 
+Étant donné qu'il est impossible de définir des valeurs de paramètre appropriées pour un affichage de la progression à tous les niveaux d'une opération multi-niveau, certains fournisseurs de services choisissent de ne pas afficher la progression des sous-objets. 
   
- **Pour éviter d’afficher la progression de sous-objets**
+ **Pour éviter d'afficher la progression des sous-objets**
   
-- Passez la valeur NULL pour le paramètre _lpProgress_ dans l’appel à traiter un sous-objet. Par exemple, si vous copiez les dossiers, il s’agit de l’appel de méthode [d’IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) d’un sous-dossier. 
+- Transmettre NULL pour le paramètre _lpProgress_ dans l'appel pour traiter un sous-objet. Par exemple, si vous copiez des dossiers, il s'agit de l'appel à la méthode [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md) d'un sous-dossier. 
     
-- Écrire du code spécial pour déterminer comment interpréter le paramètre _lpProgress_ . Une valeur NULL pour le paramètre _lpProgress_ peut également signifier que le client doit afficher l’avancement à l’aide de l’implémentation MAPI, code spécial est nécessaire afin de déterminer quand d’ignorer le paramètre _lpProgress_ et appelez [ IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md).
+- Écrire du code spécial pour déterminer comment interpréter le paramètre _lpProgress_ . Étant donné qu'une valeur NULL pour le paramètre _lpProgress_ peut également signifier que le client doit afficher la progression à l'aide de l'implémentation MAPI, un code spécial est nécessaire pour déterminer quand ignorer le paramètre _lpProgress_ et quand appeler [ IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md).
     
-Appelez **IMAPIProgress::SetLimits** pour définir ou effacer l’indicateur MAPI_TOP_LEVEL et définir les valeurs minimales et maximales globales et locales. La valeur des indicateurs de la définition ou non affecte l’objet progression comprend les valeurs minimales et maximales pour être local ou global. Lorsque l’indicateur MAPI_TOP_LEVEL est défini, ces valeurs sont considérées comme globales et sont utilisés pour calculer l’avancement pour toute l’opération. Objets de progression initialiser la valeur minimale globale à 0 et la valeur maximale globale et 1000. 
+Appelez **méthode imapiprogress:: SetLimits** pour définir ou désélectionner l'indicateur MAPI_TOP_LEVEL et définir les valeurs minimales et maximales locales et globales. La valeur du paramètre flags détermine si l'objet Progress comprend les valeurs minimale et maximale qui doivent être locales ou globales. Lorsque l'indicateur MAPI_TOP_LEVEL est défini, ces valeurs sont considérées comme globales et sont utilisées pour calculer la progression de l'opération entière. Les objets Progress initialisent la valeur minimale globale à 0 et la valeur maximale globale à 1000. 
   
-Lorsque MAPI_TOP_LEVEL n’est pas définie, les valeurs minimales et maximales sont considérés comme étant locales et sont utilisés en interne par les fournisseurs pour afficher la progression de sous-objets de niveau inférieurs. Objets de progression enregistrement les valeurs minimales et maximales locales uniquement afin qu’ils peuvent être renvoyées à fournisseurs lorsque **GetMin** et **GetMax** sont appelées. 
+Lorsque MAPI_TOP_LEVEL n'est pas défini, les valeurs minimale et maximale sont considérées comme locales et sont utilisées en interne par les fournisseurs pour afficher la progression des sous-objets de niveau inférieur. Les objets Progress enregistrent uniquement les valeurs minimales et maximales de sorte qu'ils puissent être renvoyés aux fournisseurs lors de l'appel de **GetMin** et **GetMax** . 
   
-La valeur, nombre d’objets et paramètres de l’objet total sont d’entrée à la méthode **IMAPIProgress::Progress** . Le paramètre value, un nombre qui indique le pourcentage d’avancement, est requis. Si l’indicateur MAPI_TOP_LEVEL est défini, vous pouvez également passer un nombre d’objets et un total de l’objet. Certains clients utilisent ces valeurs pour afficher une phrase tel que « 5 éléments terminé sur 10 » avec l’indicateur de progression. Progression d’une opération peut être signalée strictement sous forme de pourcentage ou sous forme de pourcentage et en termes de nombre d’éléments qui ont été traitées en dehors du total à traiter. Par exemple, si vous êtes un fournisseur de magasin de message et vous effectuez une opération de copie qui copie les 10 dossiers, l’indicateur de progression peut fournir des informations supplémentaires à l’utilisateur en affichant une phrase tel que « 1 de 10 », « 2 sur 10 », « 3 10 » , et ainsi de suite jusqu'à ce que l’opération est terminée. 
+La valeur, le nombre d'objets et le nombre total d'objets paramètres sont entrés dans la méthode **méthode imapiprogress::P rogress** . Le paramètre value, un nombre qui indique le pourcentage de progression, est obligatoire. Si l'indicateur MAPI_TOP_LEVEL est défini, vous pouvez également transmettre un nombre d'objets et un total d'objets. Certains clients utilisent ces valeurs pour afficher une phrase telle que «5 éléments terminés sur 10» avec l'indicateur de progression. La progression d'une opération peut être déclarée strictement sous forme de pourcentage ou de pourcentage et en termes de nombre d'éléments qui ont été traités du total à traiter. Par exemple, si vous êtes un fournisseur de banque de messages et que vous effectuez une opération de copie qui copie 10 dossiers, l'indicateur de progression peut fournir à l'utilisateur des informations supplémentaires en affichant une phrase telle que «1 sur 10», «2 de 10», «3 de 10». , et ainsi de suite jusqu'à la fin de l'opération. 
   
 ## <a name="see-also"></a>Voir aussi
 

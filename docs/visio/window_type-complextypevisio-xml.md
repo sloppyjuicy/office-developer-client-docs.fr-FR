@@ -1,5 +1,5 @@
 ---
-title: Type complexe Window_Type (« Visio XML »)
+title: ComplexType Window_Type ('Visio XML')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,21 +7,21 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c514ce79-0920-4f1b-5332-0bdef146e802
 ms.openlocfilehash: 340326213de4029201d21e627ed4b27c53b33d1e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339927"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Type complexe Window_Type (« Visio XML »)
+# <a name="windowtype-complextype-visio-xml"></a>ComplexType Window_Type ('Visio XML')
 
 ## <a name="type-information"></a>Informations sur le type
 
 |||
 |:-----|:-----|
-|**Espace de noms** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|**Fichier de schéma** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Base d’extension** <br/> |Aucune  <br/> |
+|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Fichier de schéma** <br/> |VisioSchema15-2012-06 -05. xsd  <br/> |
+|**Base d’extension** <br/> |Aucun  <br/> |
    
 ## <a name="definition"></a>Définition
 
@@ -170,7 +170,7 @@ ms.locfileid: "25400585"
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **sequence**, **minOccurs**, **maxOccurs**et **choice**, voir la section Définition. 
+Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -194,23 +194,23 @@ Si le schéma définit des exigences spécifiques, telles que **sequence**, **mi
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ContainerType  <br/> |XSD:Token  <br/> |facultatif  <br/> ||Valeurs du type xsd:token.  <br/> |
-|Document  <br/> |XSD : String  <br/> |facultatif  <br/> ||Valeurs du type xsd : String.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Master  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|Page  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ParentWindow  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ReadOnly  <br/> |type xsd : Boolean  <br/> |facultatif  <br/> ||Valeurs du type de type xsd : Boolean.  <br/> |
-|Feuille  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|ViewCenterX  <br/> |XSD : double  <br/> |facultatif  <br/> ||Valeurs du type xsd : double.  <br/> |
-|ViewCenterY  <br/> |XSD : double  <br/> |facultatif  <br/> ||Valeurs du type xsd : double.  <br/> |
-|ViewScale  <br/> |XSD : double  <br/> |facultatif  <br/> ||Valeurs du type xsd : double.  <br/> |
-|WindowHeight  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|WindowLeft  <br/> |XSD:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short.  <br/> |
-|WindowState  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
-|WindowTop  <br/> |XSD:short  <br/> |facultatif  <br/> ||Valeurs du type xsd:short.  <br/> |
-|Propriété WindowType  <br/> |XSD:Token  <br/> |obligatoire  <br/> ||Valeurs du type xsd:token.  <br/> |
-|WindowWidth  <br/> |XSD:unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd:unsignedInt.  <br/> |
+|Container  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|ContainerType  <br/> |xsd: Token  <br/> |facultatif  <br/> ||Valeurs du type xsd: Token.  <br/> |
+|Document  <br/> |xsd: String  <br/> |facultatif  <br/> ||Valeurs du type xsd: String.  <br/> |
+|ID  <br/> |xsd: unsignedInt  <br/> |obligatoire  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|Master  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|Page  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|ParentWindow  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|ReadOnly  <br/> |xsd: Boolean  <br/> |facultatif  <br/> ||Valeurs du type xsd: Boolean.  <br/> |
+|Sheet  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|ViewCenterX  <br/> |xsd: double  <br/> |facultatif  <br/> ||Valeurs du type xsd: double.  <br/> |
+|ViewCenterY  <br/> |xsd: double  <br/> |facultatif  <br/> ||Valeurs du type xsd: double.  <br/> |
+|ViewScale  <br/> |xsd: double  <br/> |facultatif  <br/> ||Valeurs du type xsd: double.  <br/> |
+|WindowHeight  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|WindowLeft  <br/> |xsd: Short  <br/> |facultatif  <br/> ||Valeurs du type xsd: short.  <br/> |
+|WindowState  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
+|WindowTop  <br/> |xsd: Short  <br/> |facultatif  <br/> ||Valeurs du type xsd: short.  <br/> |
+|WindowType  <br/> |xsd: Token  <br/> |obligatoire  <br/> ||Valeurs du type xsd: Token.  <br/> |
+|WindowWidth  <br/> |xsd: unsignedInt  <br/> |facultatif  <br/> ||Valeurs du type xsd: unsignedInt.  <br/> |
    
 

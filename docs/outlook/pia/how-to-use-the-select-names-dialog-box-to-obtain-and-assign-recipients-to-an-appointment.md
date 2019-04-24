@@ -1,5 +1,5 @@
 ---
-title: Utiliser la boîte de dialogue Sélectionner des noms pour obtenir et attribuer des destinataires à un rendez-vous
+title: Utilisation de la boîte de dialogue Sélectionner des noms pour obtenir et attribuer des destinataires à un rendez-vous
 TOCTitle: Use the Select Names dialog box to obtain and assign recipients to an appointment
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 408d2fbdc3c89b7f2bad1fe9c2c76c1f47ae05ff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335377"
 ---
 # <a name="use-the-select-names-dialog-box-to-obtain-and-assign-recipients-to-an-appointment"></a>Utiliser la boîte de dialogue Sélectionner des noms pour obtenir et attribuer des destinataires à un rendez-vous
 
@@ -27,7 +27,7 @@ Pour afficher la boîte de dialogue **Sélectionner des noms**, appelez la méth
 
 Dans l’exemple de code suivant, DemoSelectNamesDialogRecipients crée un objet [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) et définit certaines de ses propriétés. Il crée ensuite un objet **SelectNamesDialog** et utilise la méthode [SetDefaultDisplayMode(OlDefaultSelectNamesDisplayMode)](https://msdn.microsoft.com/library/bb623783\(v=office.15\)) pour définir le mode d'affichage des réunions dans la boîte de dialogue **Sélectionner des noms**. L'exemple remplit le sélecteur de destinataires **Resource** avec la chaîne « Conf Room 36/2739 ». Une fois la boîte de dialogue affichée à l'utilisateur, le code énumère la collection **Recipients** qui est associée à cette instance de l'objet **SelectNamesDialog** et ajoute ces destinataires au rendez-vous qui a été créé. Enfin, l’exemple affiche la demande de réunion à l’utilisateur.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

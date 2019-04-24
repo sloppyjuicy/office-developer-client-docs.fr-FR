@@ -11,19 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f9800b1822ca6881c451e01e890d582c77b64546
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: de9635fa77cd0c282723e0f76eabd6bc0d0dbab9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566746"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339346"
 ---
 # <a name="pidtagsupplementaryinfo-canonical-property"></a>Propriété canonique PidTagSupplementaryInfo
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient des informations supplémentaires à utiliser dans un rapport.
   
@@ -36,19 +36,19 @@ Contient des informations supplémentaires à utiliser dans un rapport.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent des informations générées par l’agent de transfert des messages ou le fournisseur de transport relatives à l’état. Il est généralement utilisé pour le texte de rapport de remise ou de non-remise à l’origine avec le système de messagerie sous-jacent.
+Ces propriétés contiennent des informations générées par l'agent de transfert des messages ou le fournisseur de transport lié au rapport. Elle est généralement utilisée pour le texte du rapport de remise ou de non-remise qui a été généré par le système de messagerie sous-jacent.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

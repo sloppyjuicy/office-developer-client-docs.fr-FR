@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 781369e1-fade-ec10-7c51-0f921b5c3b76
-description: Spécifie un argument que la cellule d’appel peut passer à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne transmet une valeur pour l’argument. Renvoie la valeur spécifiée par la cellule d’appel et le paramètre argName correspondant.
-ms.openlocfilehash: 3d0e126e0fa075ff2a07773197c1973e6b0249d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Spécifie un argument que la cellule d'appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d'appel ne transmet pas de valeur pour l'argument. Renvoie la valeur spécifiée par la cellule Calling et le paramètre argName correspondant.
+ms.openlocfilehash: f85c3dc4a49878b034674330f272a63e79c17d49
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341432"
 ---
-# <a name="arg-function"></a>ARG, fonction
+# <a name="arg-function"></a>Fonction ARG
 
-Spécifie un argument que la cellule d’appel peut passer à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d’appel ne transmet une valeur pour l’argument. Renvoie la valeur spécifiée par la cellule d’appel et le paramètre argName correspondant.
+Spécifie un argument que la cellule d'appel peut transmettre à une fonction personnalisée, ainsi que la valeur par défaut renvoyée par la fonction personnalisée si la cellule d'appel ne transmet pas de valeur pour l'argument. Renvoie la valeur spécifiée par la cellule Calling et le paramètre argName correspondant.
   
 ## <a name="syntax"></a>Syntaxe
 
-ARG (** *argName* **, [** *defaultValue* **]) 
+ARG (* * *argName* * *, [* * *DefaultValue* * *]) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _argName_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Le nom d’un argument que peut transmettre la cellule d’appel à la fonction.  <br/> |
-| _Valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |La valeur renvoyée par ARG si la cellule d’appel n’a pas transmis de valeur pour le paramètre _argName_ .  <br/> |
+| _argName_ <br/> |Obligatoire  <br/> |**String** <br/> |Le nom d’un argument que peut transmettre la cellule d’appel à la fonction.  <br/> |
+| _Valeur par défaut_ <br/> |Facultatif  <br/> |**Numérique** <br/> |Valeur renvoyée par ARG si la cellule d'appel n'a pas transmis de valeur pour le paramètre _argName_ .  <br/> |
    
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Si vous développez des formes, vous pouvez créer des fonctions personnalisées en plaçant une expression dans une cellule et en appelant cette expression d’une ou plusieurs autres cellules. L’expression peut inclure des chaînes littérales, des fonctions ShapeSheet et des références de cellules. L’expression peut aussi inclure des arguments spécifiques transmis par la cellule d’appel. 
   
-La cellule d’appel spécifie la cellule qui contient la fonction personnalisée, ainsi que tous les arguments à transmettre à la fonction. La cellule d’expression est évaluée et le résultat renvoyé à la cellule d’appel.
+La cellule d’appel spécifie la cellule contenant la fonction personnalisée ainsi que les arguments qu’elle a besoin de transmettre à la fonction. La cellule d’expression est évaluée et le résultat renvoyé à la cellule d’appel.
   
 ## <a name="example"></a>Exemple
 

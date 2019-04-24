@@ -7,76 +7,76 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 1353d494-c266-4715-afe7-14543a1bbe1b
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ce2b2497bd89f00ce7f063d3e482752fabfeb731
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 12d2a92ff80897456707c7ab8af8f704605c85d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339633"
 ---
 # <a name="tnef-stream-syntax"></a>Syntaxe de flux TNEF
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente un Bakus-Nauer comme description de la syntaxe de flux TNEF. Dans cette description, les éléments non terminaux possédant une définition plus précise sont en italique. Constantes et éléments littérales sont en gras. Séquences d’éléments sont répertoriés dans l’ordre sur une seule ligne. Par exemple, l’élément de _flux de données_ se compose de la constante **TNEF_SIGNATURE**, suivi d’une _clé_, suivi d’un _objet_. Lorsqu’un élément a plus d’une implémentation possible, les alternatives figurent sur des lignes consécutives. Par exemple, un _objet_ peut se composer d’un _Message_Seq_, un _Message_Seq_ suivi d’un _Attach_Seq_ou juste un _Attach_Seq_.
+Cette rubrique présente une bakus-Nauer comme la description de la syntaxe de flux TNEF. Dans cette description, les éléments autres que les terminaux qui ont une définition supplémentaire sont en italique. Les constantes et les éléments littéraux sont en gras. Les séquences d'éléments sont répertoriées dans l'ordre sur une seule ligne. Par exemple, l'élément de _flux_ se compose de la constante **TNEF_SIGNATURE**, suivie d'une _clé_, suivie d'un _objet_. Lorsqu'un élément a plus d'une implémentation possible, les alternatives sont répertoriées sur des lignes consécutives. Par exemple, un _objet_ peut être constitué d'un _Message_Seq_, d'un _Message_Seq_ suivi d'un _Attach_Seq_ou simplement d'un _Attach_Seq_.
   
- _TNEF_Stream :_
+ _TNEF_Stream:_
   
 > **TNEF_SIGNATURE** _Clé_ _Objet_
     
- _Clé :_
+ _Flèche_
   
-> un entier non signé de 16 bits différente de zéro
+> un entier non signé 16 bits différent de zéro
     
-Transports TNEF activé génèrent cette valeur avant d’utiliser la mise en œuvre TNEF pour générer un flux TNEF.
+Les transports activés par TNEF génèrent cette valeur avant d'utiliser l'implémentation TNEF pour générer un flux TNEF.
   
- _Objet :_
+ _Dessin_
   
 >  _Message_Seq Message_Seq Attach_Seq Attach_Seq_
     
- _Message_Seq :_
+ _Message_Seq:_
   
 >  _attTnefVersion attTnefVersion Msg_Attribute_Seq attTnefVersion attMessageClass attTnefVersion attMessageClass Msg_Attribute_Seq attMessageClass attMessageClass Msg_Attribute_Seq Msg_Attribute_Seq_
     
- _attTnefVersion :_
+ _attTnefVersion:_
   
-> **LVL_MESSAGE attTnefVersion sizeof** **0 x 00010000** somme de contrôle 
+> **LVL_MESSAGE attTnefVersion sizeof (ULONG)** total de contrôle **0x00010000** 
     
- _attMessageClass :_
+ _attMessageClass:_
   
-> **LVL_MESSAGE attMessageClass** somme de contrôle _msg_class_length msg_class_ 
+> **LVL_MESSAGE attMessageClass** _msg_class_length msg_class_ checksum 
     
- _Msg_Attribute_Seq :_
+ _Msg_Attribute_Seq:_
   
 >  _Msg_Attribute Msg_Attribute Msg_Attribute_Seq_
     
- _Msg_Attribute :_
+ _Msg_Attribute:_
   
-> Somme de contrôle **LVL_MESSAGE** -ID de l’attribut attribut longueur données d’attribut 
+> Attribut de longueur d'attribut **LVL_MESSAGE** attribute-length-Data checksum 
     
-Attribut-ID est un des identificateurs d’attribut TNEF, tel que **attSubject**. Longueur de l’attribut est la longueur, en octets, des données d’attribut. Données d’attribut sont les données associées à l’attribut.
+Attribute-ID est l'un des identificateurs d'attribut TNEF, tels que **attSubject**. Attribute-length est la longueur en octets des données d'attribut. Attribute-Data est les données associées à l'attribut.
   
- _Attach_Seq :_
+ _Attach_Seq:_
   
 >  _attRenddata attRenddata Att_Attribute_Seq_
     
- _attRenddata :_
+ _attRenddata:_
   
-> **LVL_ATTACHMENT attRenddata** somme de contrôle **sizeof(RENDDATA)** renddata 
+> **LVL_ATTACHMENT attRenddata** **sizeof (RENDDATA)** RENDDATA checksum 
     
-Renddata est les données associées à la structure **RENDDATA** qui contient les informations de rendu de la pièce jointe correspondante. La structure **RENDDATA** est définie dans le format TNEF. Fichier d’en-tête H. 
+Renddata est les données associées à la structure **Renddata** qui contient les informations de rendu pour la pièce jointe correspondante. La structure **RENDDATA** est définie dans le format TNEF. Fichier d'en-tête H. 
   
- _Att_Attribute_Seq :_
+ _Att_Attribute_Seq:_
   
 >  _Att_Attribute Att_Attribute Att_Attribute_Seq_
     
- _Att_Attribute :_
+ _Att_Attribute:_
   
-> Somme de contrôle **LVL_ATTACHMENT** -ID de l’attribut attribut longueur données d’attribut 
+> Attribut de longueur d'attribut **LVL_ATTACHMENT** attribute-length-Data checksum 
     
-ID d’attribut, longueur de l’attribut et données d’attribut ont la même signification que pour l’élément Msg_Attribute.
+Attribute-ID, attribute-Length et attribute-Data ont les mêmes significations que pour l'élément Msg_Attribute.
   
 

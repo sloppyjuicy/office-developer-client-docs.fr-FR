@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: b2caa70600bd32234e38420f274bcd5c46ffb070
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339661"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
 Contient un tableau de pointeurs vers des chaînes de classe de message.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Macro connexe :  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Macro connexe:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp
 typedef struct 
@@ -53,7 +53,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMessageClassArray** est transmise en tant que paramètre dans les méthodes suivantes : 
+La structure **SMessageClassArray** est transmise en tant que paramètre dans les méthodes suivantes: 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e86e9fbf4901b5944775886f38db1ba12c4b122d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 49e6c8254cbd527635685c3f974da57ee3ac82a5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341019"
 ---
 # <a name="fbadrowset"></a>FBadRowSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590959"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide toutes les lignes de tableau inclus dans un ensemble de lignes du tableau.
+Valide toutes les lignes de tableau comprises dans un ensemble de lignes de tableau.
   
 |||
 |:-----|:-----|
@@ -43,17 +43,17 @@ BOOL FBadRowSet(
 
  _lpRowSet_
   
-> [in] Pointeur vers une structure [SRowSet](srowset.md) qui identifie la ligne la valeur à valider. Si le pointeur est NULL, la structure n’est pas valide. 
+> dans Pointeur vers une structure [SRowSet](srowset.md) identifiant le jeu de lignes à valider. Si le pointeur est NULL, la structure n'est pas valide. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une ligne de l’ensemble de la ligne spécifiée n’est pas valide ou la ligne lui-même la valeur n’est pas valide. 
+> Une ligne du jeu de lignes spécifié n'est pas valide ou le jeu de lignes lui-même n'est pas valide. 
     
 FALSE 
   
-> Les lignes de l’ensemble de la ligne spécifiée et la ligne se sont valides.
+> Les lignes du jeu de lignes spécifié et l'ensemble de lignes lui-même sont toutes valides.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Nouveautés dans la référence PIA Outlook
+title: Nouveautés de la référence PIA Outlook
 TOCTitle: What's new in the Outlook PIA reference
 ms:assetid: 9863c857-2991-49af-84c7-1dd273172fe3
 ms:mtpsurl: https://msdn.microsoft.com/library/office/dn292515(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 09/15/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cfe322369707670833fc75f06993f6b961c28980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338590"
 ---
 # <a name="whats-new-in-the-outlook-pia-reference"></a>Nouveautés dans la référence PIA Outlook
 
@@ -282,7 +282,7 @@ Le tableau suivant répertorie les objets, membres et les valeurs énumération 
 <p>Propriété <a href="https://msdn.microsoft.com/library/bb646515(v=office.15)">Item</a></p>
 <p>Propriété <a href="https://msdn.microsoft.com/library/bb609124(v=office.15)">Name</a></p>
 <p>Propriété <a href="https://msdn.microsoft.com/library/bb608923(v=office.15)">Parent</a></p>
-<p>Propriété <a href="https://msdn.microsoft.com/library/bb610735(v=office.15)">Session</a></p>
+<p>Propriété<a href="https://msdn.microsoft.com/library/bb610735(v=office.15)">Session</a></p>
 <p>Propriété <a href="https://msdn.microsoft.com/library/bb645643(v=office.15)">Type</a></p></td>
 </tr>
 <tr class="odd">

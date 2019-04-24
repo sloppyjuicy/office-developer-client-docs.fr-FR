@@ -11,21 +11,21 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339325"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propriété canonique PidTagAttachLongFilename
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’une pièce jointe. 
+Contient le nom de fichier et l'extension longs d'une pièce jointe, à l'exclusion du chemin. 
   
 |||
 |:-----|:-----|
@@ -36,43 +36,43 @@ Contient le fichier et l’extension, à l’exclusion du chemin d’accès d’
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés s’appliquent aux valeurs de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY. Plateformes qui prennent en charge les noms de fichiers longs doivent définir les propriétés de **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) et **PR_ATTACH_LONG_FILENAME** lors de l’envoi et doit vérifier **PR_ATTACH_LONG_FILENAME** lorsque réception. 
+Ces propriétés se rapportent aux valeurs ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE et ATTACH_BY_REF_ONLY de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). Les plateformes qui prennent en charge les noms de fichier longs doivent définir les propriétés **PR_ATTACH_LONG_FILENAME** et **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) lors de l'envoi, et doivent d'abord vérifier **PR_ATTACH_LONG_FILENAME** lorsque bénéficie. 
   
-L’application cliente doit définir cette propriété sur un nom de fichier long proposé à utiliser si l’ordinateur hôte reçoit un message prend en charge les noms de fichiers longs. **PR_ATTACH_LONG_FILENAME** peut être utilisée comme un nom de fichier pour enregistrer la pièce jointe et pour fournir l’extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n’est pas fournie. 
+L'application cliente doit définir cette propriété sur un nom de fichier long suggéré à utiliser si l'ordinateur hôte qui reçoit un message prend en charge les noms de fichier longs. **PR_ATTACH_LONG_FILENAME** peut être utilisé comme nom de fichier pour enregistrer la pièce jointe et pour fournir l'extension de nom de fichier si la propriété **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) n'est pas fournie. 
   
-Contrairement à nom de fichier fourni par **PR_ATTACH_FILENAME**, ce nom n’est pas limité à un nom de fichier huit caractères et une extension de trois caractères. Au lieu de cela, il peut être jusqu'à 256 caractères long, y compris la période de nom de fichier, l’extension et séparateur. 
+Contrairement au nom de fichier fourni par **PR_ATTACH_FILENAME**, ce nom n'est pas limité à un nom de fichier de huit caractères plus une extension de trois caractères. Au lieu de cela, il peut comporter jusqu'à 256 caractères, y compris le nom de fichier, l'extension et la période de séparateur. 
   
-MAPI ne fonctionne qu’avec les noms de fichiers dans le jeu de caractères ANSI. Les applications clientes qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir au format ANSI avant l’appel de MAPI. 
+MAPI fonctionne uniquement avec les noms de fichier dans le jeu de caractères ANSI. Les applications clientes qui utilisent des noms de fichier dans un jeu de caractères OEM doivent les convertir en ANSI avant d'appeler MAPI. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et la pièce jointe.
+> Gère les objets message et Attachment.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Convertit des conventions de messagerie standard Internet aux objets de message.
+> ConVertit des conventions de messagerie standard Internet en objets message.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Spécifie les propriétés des messages codés géré par des droits.
+> Spécifie les propriétés des messages codés gérés par des droits.
     
 [[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour la représentation des messages de messagerie et de télécopie de voix.
+> Spécifie les propriétés et les opérations autorisées pour la représentation des messages vocaux et de télécopie.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-Mmapitags.h
+Mmapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

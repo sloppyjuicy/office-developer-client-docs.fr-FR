@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Nombre qui détermine l'ordre des liens hypertexte apparaissant dans un menu contextuel.
-ms.openlocfilehash: 03596918924b04a776eb7ffd2f16db1c57de8194
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335216"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>SortKey, cellule (section Hyperlinks)
 
 Nombre qui détermine l'ordre des liens hypertexte apparaissant dans un menu contextuel.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les liens hypertexte d'un menu contextuel apparaissent dans le menu dans l'ordre croissant, les numéros les plus petits figurant en haut du menu. Si deux lignes de lien hypertexte ont la même valeur de cellule SortKey, le classement est déterminé par l'ordre physique des lignes. La valeur par défaut est 0 (zéro). 
   
-Pour obtenir une référence à la cellule SortKey par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule SortKey par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Lien hypertexte. *nom* . SortKey, où le lien hypertexte *.name* est le nom de ligne  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *nom* . SortKey où hyperLink *. nom* est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

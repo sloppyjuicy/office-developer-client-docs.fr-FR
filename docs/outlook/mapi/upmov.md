@@ -7,19 +7,19 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 098743a5-f265-639a-8ba6-1412705bee0a
-description: 'Dernière modification : 05 juillet 2012'
+description: 'Derni�re modification�: jeudi 5 juillet 2012'
 ms.openlocfilehash: a7588d5fed2e059be7e628d8a76a12f76aea734d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339185"
 ---
 # <a name="upmov"></a>UPMOV
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations de téléchargement des éléments qui ont été déplacés. Ces informations sont utilisées lors du [téléchargement supprimer l’état](upload-delete-status-state.md) et [Télécharger l’état de la table](upload-table-state.md).
+Informations de téléchargement des éléments qui ont été déplacés. Ces informations sont utilisées lors de l'état de la [suppression du chargement](upload-delete-status-state.md) et de l'état de la [table de chargement](upload-table-state.md).
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -43,21 +43,21 @@ struct UPMOV
 
 _ulFlags_
   
-> [in] Indicateurs pour déterminer le comportement approprié lors du téléchargement.
+> dans Indicateurs permettant de déterminer le comportement approprié pendant le chargement.
     
   - UPV_ERROR
     
-    - [in] Problème d’ouverture de dossier du serveur.
+    - dans Problème lors de l'ouverture du dossier du serveur.
     
   - UPV_DIRTY
     
-    - [in] L’état du téléchargement a changé. Il est utilisé par le client pour effectuer le suivi de la modification de l’état pour le magasin local.
+    - dans L'état du chargement a changé. Cette option est utilisée par le client pour effectuer le suivi de la modification de l'État pour le magasin local.
     
   - UPV_COMMIT
     
-    - [in] Valider l’état du téléchargement.
+    - dans Valider l'état du chargement.
     
-_Conservés_
+_Disparition_
   
 >  [sortant] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge. 
     
@@ -67,22 +67,22 @@ _pstmReserved_
     
 _pszName_
   
->  [out] Nom du dossier de destination. 
+>  remarquer Nom du dossier de destination. 
     
   > [!NOTE]
   > Ce membre ne prend pas en charge UNICODE. 
   
 _feid_
   
->  [out] ID d’entrée du dossier de destination. 
+>  remarquer ID d'entrée du dossier de destination. 
     
 _pfld_
   
->  [in] Pointeur vers le dossier du serveur. 
+>  dans Pointeur vers le dossier du serveur. 
     
 _pxicc_
   
->  [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le téléchargement des modifications du contenu lors de l’utilisation de la synchronisation de modification incrémentielle (ICS). Pour plus d’informations sur **IExchangeImportContentsChanges** et partage de connexion Internet, voir [Critères d’évaluation de partage de connexion Internet](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  dans Pointeur vers l'interface de contenu **IExchangeImportContentsChanges** qui prend en charge le téléchargement de modifications de contenu lors de l'utilisation de la synchronisation des modifications incrémentielles (ICS). Pour plus d'informations sur **IExchangeImportContentsChanges** et ICS, consultez la rubrique [critères d'évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
@@ -90,11 +90,11 @@ _dwReserved_
     
 _pupmovNext_
   
->  [out] Déplacez ensuite le contexte. 
+>  remarquer Contexte de déplacement suivant. 
     
 _cEntMov_
   
->  [in] Nombre d’éléments déplacés ici. 
+>  dans Nombre d'éléments déplacés ici. 
     
 ## <a name="see-also"></a>Voir aussi
 

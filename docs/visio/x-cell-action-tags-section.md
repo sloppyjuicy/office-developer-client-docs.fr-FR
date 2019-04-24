@@ -8,32 +8,32 @@ f1_keywords:
 - vis_sdr.chm60093
 localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
-description: Le x - position des coordonnées dans le système de coordonnées locales de la forme autour de laquelle est positionné le bouton de balise d’action.
-ms.openlocfilehash: f6b3a57b825c96398058e7b71e3cebeb8480dd49
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Position de la coordonnée x dans les coordonnées locales de la forme et entourant laquelle se trouve le bouton de balise d'action.
+ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335774"
 ---
 # <a name="x-cell-action-tags-section"></a>X, cellule (section Action Tags)
 
-*X* -position dans les coordonnées locales de la forme autour de laquelle est positionné le bouton de balise d’action de la coordonnée. 
+Position de la coordonnée *x* dans les coordonnées locales de la forme et entourant laquelle se trouve le bouton de balise d'action. 
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
   
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les cellules X et Y définissent un point dans le système de coordonnées locales de la forme, tandis que les cellules X Justify et Y Justify définissent le positionnement du bouton de balise d’action par rapport à ce point. 
   
-Pour obtenir une référence à la cellule X par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> |Balises actives. *nom* . X où SmartTags. *nom* est le nom de la ligne de balise d’action  <br/> |
+| Nom de cellule :  <br/> |SmartTag. *nom* . X où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
    
-Pour obtenir une référence à la cellule X par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

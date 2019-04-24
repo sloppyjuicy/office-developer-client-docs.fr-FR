@@ -1,5 +1,5 @@
 ---
-title: Texte du message TNEF
+title: Texte du message avec balisage TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1d514dc8b50183e5d07d71b421a441487e933580
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 2b4d4cd790870a024cac6f2ed9952d18a970235a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588859"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339591"
 ---
-# <a name="tnef-tagged-message-text"></a>Texte du message TNEF
+# <a name="tnef-tagged-message-text"></a>Texte du message avec balisage TNEF
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Texte du message avec balise est utilisé par TNEF pour résoudre les positions des pièces jointes dans le message parent. Cette opération est effectuée en ajoutant un espace réservé dans le texte du message à la position de la pièce jointe. Cet espace réservé ou balise de pièce jointe, décrit la pièce jointe de telle sorte que TNEF sait comment résoudre la pièce jointe et sa position. Les balises sont mis en forme comme suit :
+Le texte du message balisé est utilisé par TNEF pour résoudre les positions des pièces jointes dans le message parent. Cette opération est effectuée en ajoutant un espace réservé dans le texte du message à la position de la pièce jointe. Cet emplacement réservé, ou balise de pièce jointe, décrit la pièce jointe de telle sorte que TNEF sache comment résoudre la pièce jointe et sa position. Les balises sont mises en forme comme suit:
   
  `[[ <Object Title> : <KeyNum> in <Stream Name> ]] [[ <File Name> : <KeyNum> in <Transport Name> ]]`
   
- ** \<Objet titre\> ** et ** \<nom de fichier\> ** sont des variables qui contiennent des valeurs qui proviennent de la pièce jointe elle-même. Dans les cas où ces valeurs ne sont pas disponibles, le titre par défaut est celle par TNEF en fonction du type de pièce jointe. 
+ Le titre ** \<\> ** **\> de l'objet et le nom de fichier sont des variables contenant des valeurs issues de la pièce \<** jointe elle-même. Dans les cas où ces valeurs ne sont pas disponibles, le titre est défini par défaut par le format TNEF en fonction du type de pièce jointe. 
   
-Le ** \<KeyNum\> ** variable contient la représentation textuelle de la clé de pièce jointe associée à la pièce jointe par le format TNEF. La valeur de la clé de base est transmise à l’appel de [OpenTnefStreamEx](opentnefstreamex.md) . La valeur de base ne doit pas être zéro et ne doit pas être la même pour chaque appel à **OpenTnefStreamEx**. Elle devrait suffire pour utiliser des nombres aléatoires pseudo en fonction de l’heure système dans le Générateur de nombres aléatoires votre bibliothèque d’exécution fournit, dans la mesure où vous assurer qu’ils ne sont jamais zéro.
+La ** \<variable\> KeyNum** contient la représentation textuelle de la clé de pièce jointe affectée à la pièce jointe par TNEF. La valeur de base de la clé est transmise à l'appel [OpenTnefStreamEx](opentnefstreamex.md) . La valeur de base ne doit pas être égale à zéro et ne doit pas être identique pour chaque appel à **OpenTnefStreamEx**. Il doit suffire d'utiliser des nombres pseudo-aléatoires en fonction de l'heure système du générateur de nombres aléatoires fourni par votre bibliothèque Runtime, pour autant que vous garantissez qu'ils ne sont jamais nuls.
   
-Le ** \<nom Transport\> ** variable contient le nom de flux de données passé dans l’appel [OpenTnefStreamEx](opentnefstreamex.md) ou la valeur de la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+La variable de ** \<nom\> de transport** contient le nom de flux transmis à l'appel [OpenTnefStreamEx](opentnefstreamex.md) ou la valeur de la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
   
 > [!NOTE]
-> La propriété **PR_ATTACH_TRANSPORT_NAME** et ** \<nom Transport\> ** variable dans une balise de texte de message n’a rien à voir avec le nom du fournisseur de transport que vous implémentez. Ces éléments représentent le nom d’une pièce jointe pour le fournisseur de transport et le système de messagerie. 
+> La propriété **PR_ATTACH_TRANSPORT_NAME** et la ** \<variable de\> nom de transport** dans une balise de texte de message n'ont rien à faire avec le nom du fournisseur de transport que vous implémentez. Ces éléments représentent le nom d'une pièce jointe pour le fournisseur de transport et le système de messagerie. 
   
-Le texte du message est marqué à la demande à un fournisseur de transport pour le texte du message avec balise en appelant la méthode [ITnef::OpenTaggedBody](itnef-opentaggedbody.md) . Lors de la lecture à partir du flux de texte référencé, TNEF remplace le caractère unique dans le texte du message à l’index fourni dans la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) avec la balise appropriée. Lors de l’écriture dans le flux de texte référencé, TNEF vérifie les données entrantes pour les balises, trouve la pièce jointe associée et remplace la balise par un seul espace.
+Le texte du message est marqué lorsqu'un fournisseur de transport demande un texte de message balisé en appelant la méthode [ITnef:: OpenTaggedBody](itnef-opentaggedbody.md) . Lors de la lecture à partir du flux de texte référencé, TNEF remplace le caractère unique qui était dans le texte du message à l'index fourni dans la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) par la balise appropriée. Lors de l'écriture dans le flux de texte balisé, TNEF vérifie les données entrantes pour les balises, recherche la pièce jointe associée et remplace la balise par un seul caractère d'espacement.
   
-Notez que, en utilisant le texte du message avec balise, un fournisseur de transport permettre conserver le positionnement des pièces jointes quelle que soit la plupart des modifications apportées au texte du message par les systèmes de messagerie.
+À l'aide du texte du message balisé, un fournisseur de transport peut conserver le positionnement des pièces jointes, indépendamment de la plupart des modifications apportées au texte du message par les systèmes de messagerie.
   
 

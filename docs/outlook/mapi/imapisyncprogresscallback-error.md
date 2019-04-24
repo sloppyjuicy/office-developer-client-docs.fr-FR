@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341334"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594984"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations qui sont affichent dans la boîte de dialogue d’envoi/réception. Si vous rencontrez des erreurs lors de la synchronisation, le fournisseur de banque appelle cette fonction.
+Fournit les détails affichés dans la boîte de dialogue d'envoi/réception. Si des erreurs sont rencontrées lors de la synchronisation, le fournisseur Store appelle cette fonction.
   
 ```cpp
 HRESULT Error(
@@ -38,11 +38,11 @@ HRESULT Error(
 
  **hResult**
   
-> HRESULT de l’erreur ou avertissement.
+> HRESULT de l'erreur ou de l'avertissement.
     
  **pwcszErrorStr**
   
-> Pointeur vers la chaîne associée à l’erreur s’affiche.
+> Pointeur vers la chaîne associée à l'erreur à afficher.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

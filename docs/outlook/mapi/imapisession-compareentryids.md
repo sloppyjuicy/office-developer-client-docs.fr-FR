@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 745c1b10cbbb24389cace7911d7c5fd37fe09472
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4dfde82aa843072168288f4e0b0084dfccd5cd2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338457"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586850"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d’entrée pour déterminer si elles font référence au même objet. 
+Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet. 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID1_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
     
  _lpEntryID1_
   
-> [in] Pointeur vers le premier identificateur d’entrée à comparer.
+> dans Pointeur vers le premier identificateur d'entrée à comparer.
     
  _cbEntryID2_
   
-> [in] Le nombre d’octets dans l’identificateur d’entrée indiqué par le paramètre _lpEntryID2_ . 
+> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
     
  _lpEntryID2_
   
-> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
+> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> [out] Pointeur vers le résultat de la comparaison. TRUE si les identificateurs de deux entrée font référence au même objet ; Sinon, FALSE.
+> remarquer Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> Une ou les deux les identificateurs d’entrée spécifiés en tant que paramètres ne font pas référencent aux objets, éventuellement, car ces objets sont actuellement non ouverts et non disponible.
+> L'un des identificateurs d'entrée spécifiés comme paramètres ne fait pas référence à des objets, probablement parce que ces objets ne sont pas ouverts et ne sont pas disponibles actuellement.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à un fournisseur de service unique pour déterminer si elles font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) les identificateurs d’entrée pour déterminer le fournisseur de services responsable pour les objets et appelle ensuite la méthode **CompareEntryIDs** de l’objet de son ouverture de session pour effectuer la comparaison. 
+La méthode **IMAPISession:: CompareEntryIDs** compare deux identificateurs d'entrée qui appartiennent à un seul fournisseur de services pour déterminer s'ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d'entrée afin de déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de l'objet Logon pour effectuer la comparaison. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La méthode **CompareEntryIDs** est utile car un objet peut avoir plusieurs identificateurs d’entrée valide. Cette situation peut se produire, par exemple, après avoir installé une nouvelle version d’un fournisseur de services. 
+La méthode **CompareEntryIDs** est utile, car un objet peut avoir plusieurs identificateurs d'entrée valides. Cette situation peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de services. 
   
-Si **CompareEntryIDs** renvoie une erreur, ne prend aucune action basée sur le résultat de la comparaison. Au lieu de cela, adoptez une approche plus prudente possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux les identificateurs d’entrée contient un non valide **MAPIUID**. 
+Si **CompareEntryIDs** renvoie une erreur, n'effectuez aucune action en fonction du résultat de la comparaison. Au lieu de cela, adoptez l'approche la plus conservatrice possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux identificateurs d'entrée contiennent un **MAPIUID**non valide. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession::CompareEntryIDs** pour comparer deux identificateurs d’entrée par un utilisateur.  <br/> |
+|BaseDialog. cpp  <br/> |CbaseDialog:: OnCompareEntryIDs  <br/> |MFCMAPI utilise la méthode **IMAPISession:: CompareEntryIDs** pour comparer deux ID d'entrée entrés par un utilisateur.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

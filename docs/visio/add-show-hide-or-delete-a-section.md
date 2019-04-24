@@ -1,5 +1,5 @@
 ---
-title: Ajout, affichage, masquage ou suppression d’une section
+title: Ajouter, afficher, masquer ou supprimer une section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille ShapeSheet.
 ms.openlocfilehash: 1f1aa5cc20418fa3fc588c50d5e7a94bd9763774
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341676"
 ---
-# <a name="add-show-hide-or-delete-a-section"></a>Ajout, affichage, masquage ou suppression d’une section
+# <a name="add-show-hide-or-delete-a-section"></a>Ajouter, afficher, masquer ou supprimer une section
 
 Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille ShapeSheet.
   
 > [!NOTE]
-> Si vous souhaitez ajouter votre propre section personnalisée à la feuille ShapeSheet, utilisez la section [User-defined Cells](user-defined-cells-section.md) ou [de montage](scratch-section.md) pour définir votre logique de feuille ShapeSheet. 
+> Si vous souhaitez ajouter votre propre section personnalisée à la feuille ShapeSheet, utilisez les [cellules définies par l'utilisateur](user-defined-cells-section.md) ou les sections [Scratch](scratch-section.md) pour définir la logique de votre feuille ShapeSheet. 
   
 ### <a name="to-add-a-section"></a>Pour ajouter une section
 
@@ -29,7 +29,7 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
     
 2. Effectuez l'une des opérations suivantes :
     
-  - Sous **Outils feuille ShapeSheet** sous l’onglet **Création** , dans le groupe **Sections** , cliquez sur **Insérer**.
+  - Sous **Outils ShapeSheet** sous l'onglet **création** , dans le groupe **sections** , cliquez sur **Insérer**.
     
   - Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Insérer une section** dans le menu contextuel. 
     
@@ -42,7 +42,7 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
 
 - Sélectionnez une cellule de la section à supprimer puis, dans le groupe **Sections** sous l’onglet **Outils Feuille ShapeSheet**, cliquez sur **Supprimer**.
     
-- Vous pouvez également droit dans une cellule, puis cliquez sur **Supprimer la Section** dans le menu contextuel. 
+- Vous pouvez également cliquer avec le bouton droit sur une cellule, puis cliquer sur **Supprimer la section** dans le menu contextuel. 
     
     > [!NOTE]
     >  Certaines sections ne peuvent pas être supprimées. Ainsi, vous ne pourrez pas supprimer la section **Shape Transform** car elle permet de spécifier la position d’une forme. Lorsque vous ne pouvez pas supprimer une section, l’option **Supprimer la section** est indisponible. 
@@ -51,21 +51,21 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
 
 1. Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.
     
-2. Pointez sur le titre de section.
+2. Pointez sur le titre de la section.
     
-    Si le pointeur se transforme en un signe moins ![Si le pointeur se transforme en un signe moins, réduire la section](media/IC_SSMinus_ZA07645855.gif), vous pouvez réduire la section.
+    Si le pointeur prend la forme d'un signe moins ![Si le pointeur prend la forme d'un signe moins, réduisez la section](media/IC_SSMinus_ZA07645855.gif), vous pouvez réduire la section.
     
-    Si le pointeur se transforme en un signe plus ![Si le pointeur se transforme en un signe plus, développez la section](media/IC_SSPlus_ZA07645856.gif)), vous pouvez développer la section.
+    Si le pointeur prend la forme d'un signe plus ![Si le pointeur prend la forme d'un signe plus, développez la section](media/IC_SSPlus_ZA07645856.gif), vous pouvez développer la section.
     
-3. Cliquez sur le titre de section.
+3. Cliquez sur le titre de la section.
     
-    L’affichage change pour masquer ou afficher les cellules de la section.
+    L'affichage est modifié pour masquer ou afficher les cellules de la section.
     
 ### <a name="to-delete-a-section"></a>Pour supprimer une section
 
 1. Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.
     
-2. Sous **Outils feuille ShapeSheet** sous l’onglet **Création** , dans la section **affichage** , cliquez sur **Sections**. Ou avec le bouton droit dans la fenêtre feuille ShapeSheet, puis cliquez sur **Afficher les Sections**.
+2. Sous **Outils ShapeSheet** sous l'onglet **création** , dans la section **affichage** , cliquez sur **sections**. Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Afficher les sections**.
     
 3. Sélectionnez les sections que vous voulez afficher ou supprimez les sections que vous voulez masquer.
     

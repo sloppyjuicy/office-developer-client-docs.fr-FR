@@ -11,53 +11,53 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: fed4395274cb790ab8ab7ecf0456d4ecb9ec0134
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335048"
 ---
 # <a name="pidliddistributionlistoneoffmembers-canonical-property"></a>Propriété canonique PidLidDistributionListOneOffMembers
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la liste des ID d’entrée uniques qui correspondre aux membres de la liste de distribution personnelle.
+Spécifie la liste des identificateurs d'identificateur uniques qui correspondent aux membres de la liste de distribution personnelle.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidDLOneOffMembers  <br/> |
-|Jeu de propriétés :  <br/> |PSETID_Address  <br/> |
-|ID de type long (capot) :  <br/> |0x00008054  <br/> |
+|Jeu de propriétés:  <br/> |PSETID_Address  <br/> |
+|ID long (couvercle):  <br/> |0x00008054  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
 |Domaine :  <br/> |Contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces ID d’entrée uniques encapsulent les noms complets et les adresses de messagerie des membres de liste de distribution personnelle.
+Ces EntryID uniques encapsulent les noms complets et les adresses de messagerie des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur de définie cette propriété, il doit être synchronisé avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)) : pour chaque entrée dans la propriété **dispidDLOneOffMembers** , doit être une entrée dans la même position dans la propriété **dispidDLMembers** . 
+Si le client ou le serveur définit cette propriété, il doit être synchronisé avec la propriété **dispidDLMembers** ([PidLidDistributionListMembers](pidliddistributionlistmembers-canonical-property.md)): pour chaque entrée de la propriété **dispidDLOneOffMembers** , il doit y avoir une entrée dans le même position dans la propriété **dispidDLMembers** . 
   
-Lors de la définition de **dispidDLOneOffMembers**, le client ou le serveur doit vérifier que sa taille est inférieure à 15 000 octets.
+Lorsque vous définissez **dispidDLOneOffMembers**, le client ou le serveur doit s'assurer que sa taille totale est inférieure à 15 000 octets.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références aux spécifications du protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelles.
+> Spécifie les propriétés et les opérations qui sont autorisées pour les contacts et les listes de distribution personnelle.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     

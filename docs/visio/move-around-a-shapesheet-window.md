@@ -9,14 +9,14 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f750223f-165c-8c2f-457b-724817b062b3
 description: Pour se déplacer d'une cellule à l'autre dans une fenêtre Feuille ShapeSheet, utilisez les touches fléchées ou la touche de tabulation. Cliquez sur une cellule pour l'activer ou faites défiler les cellules de la feuille ShapeSheet sans changer de cellule active.
-ms.openlocfilehash: 0e58ba66b6d086ee296fbc344c0892cdf11d09c9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a6e71852f20bfeb889161c245859b458ad0debfb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335237"
 ---
-# <a name="move-around-a-shapesheet-window"></a>Déplacement dans une fenêtre Feuille ShapeSheet
+# <a name="move-around-a-shapesheet-window"></a>Déplacer une fenêtre Feuille ShapeSheet
 
 Pour se déplacer d'une cellule à l'autre dans une fenêtre Feuille ShapeSheet, utilisez les touches fléchées ou la touche de tabulation. Cliquez sur une cellule pour l'activer ou faites défiler les cellules de la feuille ShapeSheet sans changer de cellule active.
   

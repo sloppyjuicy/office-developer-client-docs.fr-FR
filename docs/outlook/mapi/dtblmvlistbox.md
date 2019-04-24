@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f7c1241f2ad31dee8277f3b3b77ac02137067a12
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: ae8f3ab28837bf0579549ead46c28477f815f35c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338275"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une liste à valeurs multiples qui s’affichera dans la boîte de dialogue qui est générée à partir d’un tableau d’affichage.
+Décrit une liste à plusieurs valeurs qui s'affiche dans une boîte de dialogue créée à partir d'une table d'affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _DTBLMVLISTBOX
@@ -40,11 +40,11 @@ typedef struct _DTBLMVLISTBOX
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Membres
 
  **ulFlags**
   
-> Réservé ; doit être égal à zéro.
+> MSR doit être égal à zéro.
     
  **ulMVPropTag**
   
@@ -52,13 +52,13 @@ typedef struct _DTBLMVLISTBOX
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLMVLISTBOX** décrit une liste à valeurs multiples standard qui comporte une liste en lecture seule d’éléments. En utilisant une liste à valeurs multiples standard, les valeurs sont affichées immédiatement. 
+Une structure **DTBLMVLISTBOX** décrit une liste à plusieurs valeurs standard qui contient une liste d'éléments en lecture seule. À l'aide d'une liste à plusieurs valeurs standard, les valeurs s'affichent immédiatement. 
   
-Les données qui sont affichées provient de la propriété identifiée dans le membre **ulMVPropTag** . Il n’existe aucune exigence pour lire à partir de l’interface de la propriété qui est associé à la table d’affichage. En outre, étant donné que les utilisateurs ne sont pas en mesure de réaliser des sélections à partir de ces types de listes, données ne sont pas écrite à l’interface de la propriété. 
+Les données affichées proviennent de la propriété identifiée dans le membre **ulMVPropTag** . Il n'existe aucun besoin de lire à partir de l'interface de propriétés associée à la table d'affichage. En outre, étant donné que les utilisateurs ne peuvent pas effectuer des sélections à partir de ces types de listes, les données ne sont pas écrites dans l'interface de propriété. 
   
-Uniquement les propriétés de type chaîne à valeurs multiples sont pris en charge pour la liste à valeurs multiples ; autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
+Seules les propriétés de chaîne à valeurs multiples sont prises en charge pour la liste à valeurs multiples; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
   
-Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md).
+Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

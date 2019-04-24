@@ -11,26 +11,26 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bd0caff8a6c7834bdd01ef4be64805bde66dd6d9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6f3d98a3133d79f78f4eb676d49ec85ef5a359f1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340116"
 ---
 # <a name="dtblpage"></a>DTBLPAGE
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une page à onglets qui sera utilisée dans une boîte de dialogue qui est générée à partir d’un tableau d’affichage. 
+Décrit une page à onglets qui sera utilisée dans une boîte de dialogue construite à partir d'une table d'affichage. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Macro connexe :  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Macro connexe:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
    
 ```cpp
 typedef struct _DTBLPAGE
@@ -47,31 +47,31 @@ typedef struct _DTBLPAGE
 
  **ulbLpszLabel**
   
-> Position dans la mémoire de l’étiquette de chaîne de caractères de l’onglet page.
+> Position en mémoire de l'étiquette de la chaîne de caractères pour l'onglet page.
     
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisés pour désigner le format de l’étiquette vers laquelle pointé le membre **ulbLpszLabelName** . Vous pouvez définir l’indicateur suivant : 
+> Masque de des indicateurs utilisé pour désigner le format de l'étiquette désignée par le membre **ulbLpszLabelName** . L'indicateur suivant peut être défini: 
     
 MAPI_UNICODE 
   
-> L’étiquette est au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
+> L'étiquette est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, l'étiquette est au format ANSI.
     
  **ulbLpszComponent**
   
-> Position dans la mémoire d’une chaîne de caractères identifiant la section **[Help File Mappings]** dans le fichier MAPISVC.inf. Fichier configuration ou 0. Le nom de fichier figurant dans le fichier MAPISVC.inf. Section INF peut être utilisée par un utilisateur à accéder à l’aide étendue pour la page à onglets en cliquant sur le bouton **aide** dans la boîte de dialogue. Pour plus d’informations sur les entrées dans le fichier MAPISVC.inf. INF, voir [Format de fichier du fichier MAPISVC.inf. INF](file-format-of-mapisvc-inf.md).
+> Position en mémoire d'une chaîne de caractères identifiant la section **[Help file Mappings] du fichier** MAPISVC. Fichier de configuration INF ou 0. Nom de fichier apparaissant dans le fichier MAPISVC. INF peut être utilisée par un utilisateur pour accéder à une aide étendue pour la page à onglets en cliquant sur le bouton **aide** dans la boîte de dialogue. Pour plus d'informations sur les entrées dans MAPISVC. INF, consultez le [format de fichier MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
-> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le membre **ulbLpszComponent** et le membre **ulContext** doivent être différent de zéro pour le bouton **aide** travailler. Si cet identificateur est égale à zéro, et la chaîne du composant est NULL, aucune aide n’est associée à la page. 
+> Identificateur unique de la page à onglets dans la chaîne définie par le membre **ulbLpszComponent** . Le membre **ulbLpszComponent** et le membre **ulContext** doivent avoir une valeur différente de zéro pour que le bouton **aide** fonctionne. Si cet identificateur est égal à zéro et que la chaîne du composant est NULL, aucune aide n'est associée à la page. 
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLPAGE** décrit une page à onglets un contrôle qui est utilisé pour séparer plusieurs boîtes de dialogue connexes. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour afficher les options pour le destinataire, message ou configuration. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
+Une structure **DTBLPAGE** décrit une page à onglets qui est un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés permettant d'afficher les options de configuration, de message ou de destinataire. En cliquant sur l'onglet, l'utilisateur peut passer d'une feuille à une autre. 
   
-L’identificateur de chaîne et le contexte du composant fournissent des informations sur si aide détaillée est disponible pour la page à onglets. Si aide détaillée est disponible, l’identificateur de chaîne et le contexte de composant fournit des informations sur la façon d’y accéder. La chaîne composant mappe sur le fichier d’aide ; l’ID de contexte correspond à la rubrique d’aide. Si l’ID de contexte est égale à zéro, et la chaîne du composant est NULL, aide étendue n’est pas disponible.
+La chaîne de composant et l'identificateur de contexte fournissent des informations indiquant si l'aide étendue est disponible pour la page à onglets. Si l'aide étendue est disponible, la chaîne de composant et l'identificateur de contexte fournissent des informations sur la façon d'y accéder. La chaîne de composant est mappée sur le fichier d'aide; l'identificateur de contexte correspond à la rubrique d'aide initiale. Si l'identificateur de contexte est zéro et que la chaîne de composant est NULL, l'aide étendue n'est pas disponible.
   
-Pour une vue d’ensemble des tables d’affichage, voir [Afficher les Tables](display-tables.md). Pour plus d’informations sur la façon d’implémenter un tableau d’affichage, consultez [l’implémentation d’une Table à afficher](display-table-implementation.md).
+Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

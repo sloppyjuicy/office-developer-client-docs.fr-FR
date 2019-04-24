@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: f7a236c2a7e307d278cac5ef413cbd2f600bf09f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336938"
 ---
 # <a name="flaglist"></a>FLAGLIST
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’indicateurs utilisés pour indiquer l’état d’entrées d’adresse au cours du processus de résolution de nom.
+Contient une liste d'indicateurs utilisés pour indiquer l'état des entrées d'adresse lors du processus de résolution de noms.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,27 +44,27 @@ typedef struct
 
  **cFlags**
   
-> Nombre d’indicateurs MAPI dans la liste.
+> Nombre d'indicateurs définis par l'interface MAPI dans la liste.
     
  **ulFlags**
   
-> Tableau des indicateurs qui fournit l’état de l’opération de résolution de nom d’un destinataire. Les indicateurs suivants peuvent être définis :
+> Tableau d'indicateurs qui fournit l'état de l'opération de résolution de noms pour un destinataire. Les indicateurs suivants peuvent être définis:
     
 MAPI_AMBIGUOUS 
   
-> Le destinataire a été résolu, mais pas à un identificateur d’entrée unique. Autres conteneurs de carnet d’adresses ne doivent pas essayer de résoudre ce destinataire. 
+> Le destinataire a été résolu, mais pas à un identificateur d'entrée unique. Les autres conteneurs du carnet d'adresses ne doivent pas essayer de résoudre ce destinataire. 
     
 MAPI_RESOLVED 
   
-> Le destinataire a été résolu en un identificateur d’entrée unique. Autres conteneurs de carnet d’adresses ne doivent pas essayer de résoudre ce destinataire. 
+> Le destinataire a été résolu en un identificateur d'entrée unique. Les autres conteneurs du carnet d'adresses ne doivent pas essayer de résoudre ce destinataire. 
     
 MAPI_UNRESOLVED 
   
-> L’entrée n’a pas été résolue. Autres conteneurs de carnet d’adresses doivent essayer de résoudre ce destinataire.
+> L'entrée n'a pas été résolue. Les autres conteneurs du carnet d'adresses doivent essayer de résoudre ce destinataire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST](adrlist.md) . Comme le conteneur de carnet d’adresses essaie de résoudre chaque destinataire, il définit l’indicateur approprié dans l’entrée correspondante dans la structure **FLAGLIST** . Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST** . Cela facilite associer un paramètre d’indicateur à un destinataire. 
+La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST](adrlist.md) . Lorsque le conteneur du carnet d'adresses tente de résoudre chaque destinataire, il définit l'indicateur approprié dans l'entrée correspondante dans la structure **FLAGLIST** . Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST** . Cela facilite l'Association d'un paramètre d'indicateur à un destinataire. 
   
 ## <a name="see-also"></a>Voir aussi
 

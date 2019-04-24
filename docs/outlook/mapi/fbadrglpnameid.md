@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588145"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341033"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588145"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide un tableau de structures qui décrivent les propriétés nommées et vérifie leur affectation. 
+Valide un tableau de structures qui décrivent les propriétés nommées et vérifie leur allocation. 
   
 |||
 |:-----|:-----|
@@ -44,24 +44,24 @@ BOOL FBadRglpNameID(
 
  _lppNameId_
   
-> [in] Pointeur vers un tableau de structures [MAPINAMEID](mapinameid.md) décrivant les propriétés nommées. 
+> dans Pointeur vers un tableau de structures [MAPINAMEID](mapinameid.md) décrivant les propriétés nommées. 
     
- _enregistrements CNAME_
+ _Enregistrements CNAME_
   
-> [in] Nombre de structures de propriété nommée dans le tableau indiqué par le paramètre _lppNameId_ . 
+> dans Nombre de structures de propriété nommées dans le tableau vers lequel pointe le paramètre _lppNameId_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Un ou plusieurs des structures de nom de propriété spécifié ne sont pas valide. 
+> Une ou plusieurs des structures de nom de propriété spécifiées ne sont pas valides. 
     
 FALSE 
   
-> Les structures de nom de propriété spécifié sont valides.
+> Les structures de nom de propriété spécifiées sont toutes valides.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FBadRglpNameID** peut être utilisée lorsque vous configurez pour un appel à [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
+La fonction **FBadRglpNameID** peut être utilisée lors de la configuration d'un appel à [IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md) ou [IMAPIProp:: GetNamesFromIDs](imapiprop-getnamesfromids.md). 
   
 

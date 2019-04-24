@@ -11,44 +11,44 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: a15830d1b673b44e9058e33a1499744f631d8e32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587655"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338261"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreSupportMasks
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des indicateurs indiquant les fonctionnalités prises en charge de la banque.
+Contient des indicateurs indiquant les fonctionnalités prises en charge par la Banque.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
 |Identificateur :  <br/> |0x6621  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Carnet d’adresses de contacts  <br/> |
+|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est obtenue à partir de magasins qui contient les dossiers de Contacts. Le fournisseur de carnet d’adresses de contacts utilise pour évaluer l’adéquation des fonctionnalités prises en charge de la banque. Il s’agit d’une propriété sur une section de profil du carnet d’adresses de contacts. 
+Cette propriété est obtenue à partir des magasins qui contient les dossiers de contacts. Le fournisseur de carnets d'adresses des contacts l'utilise pour évaluer l'adéquation des fonctionnalités prises en charge par la Banque. Il s'agit d'une propriété sur une section de profil de carnet d'adresses de contacts. 
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: e1f57fd95ff38ef102cd74b0035dbb6b553259c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: a5a9d0796bc92514ae6d990b7328364b85bc55cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335433"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Propriété canonique PidTagRemoteProgress
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient un nombre qui indique l’état d’un transfert à distance.
+Cette propriété contient un nombre qui indique l'état d'un transfert distant.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ Cette propriété contient un nombre qui indique l’état d’un transfert à d
    
 ## <a name="remarks"></a>Remarques
 
-Si aucun transfert n’est en cours, cette propriété doit être définie sur 1. Si un transfert est en cours, il doit être défini sur une valeur comprise entre 0 et 100 indiquant le pourcentage de transfert d’achèvement.
+Si aucun transfert n'est en cours, cette propriété doit être définie sur 1. Si un transfert est en cours, il doit être défini sur une valeur comprise entre 0 et 100 indiquant le pourcentage d'achèvement du transfert.
   
-Le texte associé au code d’état numérique s’affiche dans la propriété **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
+Le texte associé au code d'état numérique apparaît dans la propriété **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
-Les indicateurs suivants peuvent être définis pour cette propriété :
+Les indicateurs suivants peuvent être définis pour cette propriété:
   
 MSGSTATUS_REMOTE_DELETE
   
-> Le transfert des messages est supprimé.
+> Le transfert du message est supprimé.
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> Le transfert de messages est en cours.
+> Le transfert du message est en cours.
     
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

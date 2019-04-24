@@ -1,5 +1,5 @@
 ---
-title: Table de statut et objets de statut
+title: Table d'État et objets d'État
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,59 +7,59 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7ebd0c21a43ddb1deb01699f0ddf77d319216a4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 3eb190069b43ea1960c3b6edf30a9e0b782d2c41
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336329"
 ---
-# <a name="status-table-and-status-objects"></a>Table de statut et objets de statut
+# <a name="status-table-and-status-objects"></a>Table d'État et objets d'État
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI fournit un tableau avec des informations sur l’état du sous-système MAPI, spouleur MAPI, carnet d’adresses ou un fournisseur de services. Vous pouvez accéder à ce tableau en appelant [IMAPISession::GetStatusTable](imapisession-getstatustable.md).
+MAPI fournit un tableau contenant des informations sur l'état du sous-système MAPI, du spouleur MAPI, du carnet d'adresses ou d'un fournisseur de services particulier. Vous pouvez accéder à ce tableau en appelant [IMAPISession:: GetStatusTable](imapisession-getstatustable.md).
   
-Chaque ligne dans la table d’état représente un objet de statut implémenté par MAPI ou un fournisseur de services. Vous pouvez utiliser un objet d’état pour afficher la feuille de propriétés de configuration d’un fournisseur, pour modifier un mot de passe fournisseur, de télécharger des messages des et de communiquer avec un fournisseur de transport spécifique. 
+Chaque ligne de la table d'état représente un objet d'État implémenté par MAPI ou un fournisseur de services. Vous pouvez utiliser un objet Status pour afficher la feuille de propriétés de configuration d'un fournisseur, pour modifier le mot de passe d'un fournisseur, pour télécharger ou télécharger des messages et pour communiquer avec un fournisseur de transport particulier. 
   
-Il existe deux façons d’accéder à un objet d’état :
+Il existe deux façons d'accéder à un objet état:
   
-- Par le biais de la table d’état
+- Via la table d'État
     
-- Via la méthode **OpenStatusEntry** de l’objet d’une ouverture de session 
+- Via la méthode **OpenStatusEntry** d'un objet d'ouverture de session 
     
-Étant donné que les objets d’ouverture de session ne sont pas disponibles pour les clients, vous devez utiliser la table d’état pour accéder aux objets de l’état. L’approche de table d’état est indirect, nécessitant quelques appels avant de l’objet de l’état est ouvert et un pointeur vers son implémentation **IMAPIStatus** renvoyé. 
+Étant donné que les objets d'ouverture de session ne sont pas disponibles pour les clients, vous devez utiliser la table d'État pour accéder aux objets d'État. L'approche de table d'État est indirecte, ce qui nécessite quelques appels avant l'ouverture de l'objet d'État et un pointeur vers son implémentation **IMAPIStatus** renvoyée. 
   
- **Pour utiliser la table d’état pour ouvrir un objet d’état**
+ **Pour ouvrir un objet Status à l'aide de la table d'État**
   
-1. Appelez **IMAPIStatus::GetStatusTable** pour récupérer un pointeur [IMAPITable](imapitableiunknown.md) . 
+1. Appelez **IMAPIStatus:: GetStatusTable** pour récupérer un pointeur [IMAPITable](imapitableiunknown.md) . 
     
-2. Appeler la méthode de [IMAPITable::SetColumns](imapitable-setcolumns.md) de la table d’état pour limiter la colonne valeur **PR_DISPLAY_NAME** ([ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+2. Appelez la méthode [IMAPITable:: SetColumns](imapitable-setcolumns.md) de la table d'État pour limiter le jeu de colonnes à la valeur **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) et **PR_DISPLAY_NAME** ([ PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
     
-3. Limiter l’affichage de tableau à un objet état particulier. Pour des implémentations MAPI, un client peut définir une restriction de propriété à l’aide de **PR_RESOURCE_TYPE**. Pour les implémentations de fournisseur de service, un client peut restreindre sur **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)), le nom du fournisseur, ou sur **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)), le nom de la DLL du fournisseur fichier.
+3. Limitez l'affichage tableau à un objet d'état particulier. Pour les implémentations MAPI, un client peut définir une restriction de propriété à l'aide de **PR_RESOURCE_TYPE**. Pour les implémentations de fournisseurs de services, un client peut restreindre sur **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)), le nom du fournisseur ou **PR_PROVIDER_DLL_NAME** ([PIDTAGPROVIDERDLLNAME](pidtagproviderdllname-canonical-property.md)), le nom de la dll du fournisseur txt.
     
-4. Appelez [IMAPITable](imapitable-restrict.md) pour définir la restriction. 
+4. Appelez [IMAPITable:: Restrict](imapitable-restrict.md) pour définir la restriction. 
     
-5. Appelez [HrQueryAllRows](hrqueryallrows.md), en passant la structure [SPropertyRestriction](spropertyrestriction.md) , pour récupérer la ligne qui représente l’état du fournisseur. 
+5. Appelez [HrQueryAllRows](hrqueryallrows.md), en transmettant la structure [SPropertyRestriction](spropertyrestriction.md) , pour récupérer la ligne qui représente l'état du fournisseur. 
     
-6. Appelez [IMAPISession::OpenEntry](imapisession-openentry.md), spécifiant l’identificateur d’entrée à partir de la ligne de tableau d’état, pour ouvrir l’objet de l’état et de récupérer un pointeur **IMAPIStatus** . 
+6. Appelez [IMAPISession:: OpenEntry](imapisession-openentry.md), en spécifiant l'identificateur d'entrée dans la ligne table d'État, pour ouvrir l'objet Status et récupérer un pointeur **IMAPIStatus** . 
     
-Pour afficher une feuille de propriétés, appeler la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) de l’objet état pour le fournisseur cible. **Dialogue** affiche une feuille de propriétés pour l’affichage et dans certains cas, modifier les propriétés de configuration d’un fournisseur. 
+Pour afficher une feuille de propriétés, appelez la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) de l'objet Status pour le fournisseur cible. **SettingsDialog** affiche une feuille de propriétés pour l'affichage et, dans certains cas, la modification des propriétés de configuration d'un fournisseur. 
   
-Pour communiquer avec un fournisseur de transport, appelez la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) de l’objet de son état. **ValidateState** pouvez reconfigurer un fournisseur de transport, empêcher le fournisseur d’afficher une interface utilisateur et contrôler une session impliquant le téléchargement des en-têtes des messages à partir d’un serveur distant, selon les indicateurs que vous passez. Pour annuler le téléchargement des en-têtes à distance, par exemple, passez l’indicateur ABORT_XP_HEADER_OPERATION à **ValidateState**. Pour se connecter ou se déconnecter du serveur distant, transmettez FORCE_XP_CONNECT ou FORCE_XP_DISCONNECT. Pour reconfigurer le fournisseur, transmettez CONFIG_CHANGED. 
+Pour communiquer avec un fournisseur de transport, appelez la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) de l'objet d'État. **ValidateState** permet de reconfigurer un fournisseur de transport, d'empêcher le fournisseur d'afficher une interface utilisateur et de contrôler une session qui implique le téléchargement des en-têtes des messages à partir d'un serveur distant, en fonction des indicateurs que vous transférez. Par exemple, pour annuler le téléchargement des en-têtes distants, transmettez l'indicateur ABORT_XP_HEADER_OPERATION à **ValidateState**. Pour vous connecter au serveur distant ou s'en déconnecter, transmettez FORCE_XP_CONNECT ou FORCE_XP_DISCONNECT. Pour reconfigurer le fournisseur, transmettez CONFIG_CHANGED. 
   
-Les clients qui implémentent l’envoi ou la réception de messages à la demande appellent soit un fournisseur de transport ou du spouleur MAPI [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) . Vous pouvez passer des trois indicateurs dans la méthode : FLUSH_UPLOAD, FLUSH_DOWNLOAD et FLUSH_FORCE. FLUSH_UPLOAD indique le fournisseur ou le spouleur MAPI pour envoyer des messages en attente dans la file d’attente de sortie, tandis que FLUSH_DOWNLOAD indique au fournisseur ou le spouleur MAPI qui recevra les messages entrants. FLUSH_FORCE peut être définie avec une des autres indicateurs à l’objet d’état effectuer le vidage, quel que soit le minutage. 
+Les clients qui implémentent l'envoi ou la réception de messages à la demande appellent un fournisseur de transport ou la méthode [IMAPIStatus:: FlushQueues](imapistatus-flushqueues.md) du spouleur MAPI. Vous pouvez transmettre trois indicateurs à la méthode: FLUSH_UPLOAD, FLUSH_DOWNLOAD et FLUSH_FORCE. FLUSH_UPLOAD indique au fournisseur ou au spouleur MAPI d'envoyer les messages en attente dans la file d'attente de sortie pendant que FLUSH_DOWNLOAD demande au fournisseur ou au spouleur MAPI de recevoir les messages entrants. FLUSH_FORCE peut être défini avec l'un des autres indicateurs pour que l'objet d'état effectue le vidage indépendamment du minutage. 
   
-Ne pensez pas pouvoir appeler **dialogue** ou [ChangePassword](imapistatus-changepassword.md) sur n’importe quel le sous-système MAPI, spouleur MAPI ou l’adresse, objets d’état book. Objets d’état book le sous-système et l’adresse prennent uniquement en charge **ValidateState**; l’objet d’état spouleur MAPI prend en charge **FlushQueues** outre **ValidateState**.
+Ne vous attendez pas à pouvoir appeler **SettingsDialog** ou [ChangePassword](imapistatus-changepassword.md) sur l'un des objets du sous-système MAPI, le spouleur MAPI ou le carnet d'adresses. Les objets d'état de sous-système et de carnet d'adresses prennent en charge uniquement **ValidateState**; l'objet d'État du spouleur MAPI prend en charge **FlushQueues** en plus de **ValidateState**.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables des états](status-tables.md)
+[Tables d'État](status-tables.md)
   
-[Objets d’état MAPI](mapi-status-objects.md)
+[Objets d'État MAPI](mapi-status-objects.md)
 

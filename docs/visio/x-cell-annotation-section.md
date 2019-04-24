@@ -8,30 +8,30 @@ f1_keywords:
 - Vis_DSS.chm1028735
 localization_priority: Normal
 ms.assetid: f9db8623-9fcf-7037-2d11-d509f463025d
-description: Le - coordonnée x de la marque de commentaire en coordonnées de page.
-ms.openlocfilehash: 454c28c6f15c705148155751d533a516aae7d2d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Coordonnée x de la marque de commentaire en coordonnées de page.
+ms.openlocfilehash: fdd9e2850a3285a2fcf4cc05fa056accd71052a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19790045"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341307"
 ---
 # <a name="x-cell-annotation-section"></a>X, cellule (section Annotation)
 
-*X* -coordonnées de la marque de commentaire en coordonnées de page. 
+Coordonnée *x* de la marque de commentaire en coordonnées de page. 
   
 > [!NOTE]
-> Cette cellule est utilisée pour le suivi des commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans des documents .vsdx dans Visio 2013. 
+> Cette cellule est utilisée pour le suivi des commentaires uniquement lors de l'ouverture d'un fichier. VSD dans Microsoft Visio 2013 ou lors de l'enregistrement d'un fichier. vsdx au format de fichier. VSD. Il n'est pas utilisé pour suivre les commentaires dans les documents. vsdx dans Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule X par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Annotation.X [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Annotation. X [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
-Pour obtenir une référence à la cellule X par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

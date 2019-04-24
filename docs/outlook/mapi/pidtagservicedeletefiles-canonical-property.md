@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 236349a6b53eeb2f5c18c841c05cfb80a3fce824
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580221"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336399"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Propriété canonique PidTagServiceDeleteFiles
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des noms de fichiers qui doivent être supprimées lors de la désinstallation du service de message.
+Contient une liste de noms de fichier à supprimer lors de la désinstallation du service de messagerie.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une liste des noms de fichiers qui doivent être supprimées lors de la
    
 ## <a name="remarks"></a>Remarques
 
-Les noms de fichiers dans la liste contenue dans ces propriétés sont supprimés de l’ordinateur lorsque vous utilisez le panneau de configuration pour désinstaller le service de message. N’incluez pas dans la liste des DLL qui prend en charge de plusieurs services de messagerie ou services de messagerie supplémentaires peuvent être supprimés par inadvertance.
+Les noms de fichier de la liste contenus dans ces propriétés sont supprimés de l'ordinateur lorsque vous utilisez le panneau de configuration pour désinstaller le service de messagerie. N'incluez pas dans la liste toute DLL qui prend en charge plusieurs services de messagerie ou les services de messages supplémentaires peuvent être supprimés par inadvertance.
   
-MAPI ne fonctionne qu’avec les noms de fichiers et autres chaînes passé, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichiers dans un jeu de caractères OEM doivent les convertir au format ANSI avant l’appel de MAPI.
+MAPI fonctionne uniquement avec les noms de fichier et les autres chaînes qui lui sont transmises, dans le jeu de caractères ANSI. Les applications qui utilisent des noms de fichier dans un jeu de caractères OEM doivent les convertir en ANSI avant d'appeler MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

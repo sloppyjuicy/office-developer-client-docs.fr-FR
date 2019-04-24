@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4301fb504439cf0ebd70b5ece589c812cb74844e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 50b49761cf5923b11a450cbce7b7991f5ddd4d82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338485"
 ---
 # <a name="imapiprovidershutdownqueryfastshutdown"></a>IMAPIProviderShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585296"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Requêtes le fournisseur MAPI pour arrêt rapide prennent en charge. 
+Interroge le fournisseur MAPI pour la prise en charge de l'arrêt rapide. 
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,17 +35,17 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> Le fournisseur MAPI prend en charge le client MAPI pour rapide de l’arrêt.
+> Le fournisseur MAPI prend en charge le client MAPI pour l'arrêt rapide.
     
 MAPI_E_NO_SUPPORT
   
-> Le fournisseur MAPI ne gère pas le client MAPI pour rapide de l’arrêt.
+> Le fournisseur MAPI ne prend pas en charge le client MAPI pour l'arrêt rapide.
     
 ## <a name="remarks"></a>Remarques
 
-Fournisseurs MAPI qui n’ont pas besoin pour prendre en charge l’arrêt rapide client doivent toujours implémenter l’interface [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) et que la méthode de **IMAPIProviderShutdown::QueryFastShutdown** renvoie MAPI_E_NO_SUPPORT. Pour Outlook en tant qu’un client MAPI, cela entraîne à attendre que toutes les références externes doit être publié avant de quitter Outlook. 
+Les fournisseurs MAPI qui n'ont pas besoin de prendre en charge l'arrêt rapide client doivent toujours implémenter l'interface [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) et faire en sorte que la méthode **IMAPIProviderShutdown:: QueryFastShutdown** renvoie MAPI_E_NO_SUPPORT. Dans le cas d'Outlook en tant que client MAPI, Outlook attend que toutes les références externes soient libérées avant de se fermer. 
   
-Dans le Registre Windows de l’utilisateur en fonction de paramètre d’arrêt rapide, ne pas l’implémentation de l’interface **IMAPIProviderShutdown** n’empêche pas nécessairement un arrêt rapide du client. 
+En fonction du paramètre de Registre Windows de l'utilisateur pour l'arrêt rapide, l'implémentation de l'interface **IMAPIProviderShutdown** n'empêche pas nécessairement un arrêt rapide du client. 
   
 ## <a name="see-also"></a>Voir aussi
 

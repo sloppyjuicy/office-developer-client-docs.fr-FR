@@ -11,25 +11,25 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 3d20a0932de0fb29ea73e56c37e262c0ccd062c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339213"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de [GUID](guid.md) structures qui sont utilisées pour décrire une propriété de type PT_MV_CLSID. 
+Contient un tableau de structures [GUID](guid.md) utilisées pour décrire une propriété de type PT_MV_CLSID. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -44,15 +44,15 @@ typedef struct _SGuidArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau indiqué par le membre **lpguid** . 
+> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpguid** . 
     
  **lpguid**
   
-> Pointeur vers un tableau de structures **GUID** qui contient les valeurs d’identificateur de classe. 
+> Pointeur vers un tableau de structures **GUID** qui contient les valeurs d'identificateurs de classe. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations sur PT_MV_CLSID, voir la [Liste des Types de propriété](property-types.md).
+Pour plus d'informations sur PT_MV_CLSID, consultez la rubrique [liste des types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

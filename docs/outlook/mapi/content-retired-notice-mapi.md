@@ -1,25 +1,25 @@
 ---
-title: Contenu obsolète avis (MAPI)
+title: Notification de retrait de contenu (MAPI)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
-description: 'Dernière modification : 05 octobre 2012'
-ms.openlocfilehash: 5f6e7dd5d04fbfe4bcec739f9e0e858695144b28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification: 1er octobre 2012'
+ms.openlocfilehash: 262955c0c2753dd69e874ab60246b3ed50500dbc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335083"
 ---
-# <a name="content-retired-notice-mapi"></a>Contenu obsolète avis (MAPI)
+# <a name="content-retired-notice-mapi"></a>Notification de retrait de contenu (MAPI)
 
 
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le contenu que vous avez essayé de visualiser n’est plus disponible. Il ont été supprimé ou remplacé par une version plus récente. Explorez ce jeu de liens pour vous aider à la mise à niveau.
+Le contenu que vous avez tenté d’afficher n’est plus disponible. Il a peut-être été supprimé ou remplacé par une version plus récente. Explorez cet ensemble de liens pour vous familiariser avec la vitesse.
   
 ## <a name="microsoft-outlook-2013-messaging-api-mapi-reference"></a>Référence Messaging API (MAPI) Microsoft Outlook 2013
 

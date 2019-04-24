@@ -9,32 +9,32 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
 description: Cellule Event qui est évaluée lors d'un double-clic sur une forme.
-ms.openlocfilehash: 623d1d095d3269cd9c82fa8d0d6601933a163f92
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a50e88ecd8e432629e246f7038dfcc9626725cc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19788569"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337169"
 ---
 # <a name="eventdblclick-cell-events-section"></a>EventDblClick, cellule (section Events)
 
 Cellule Event qui est évaluée lors d'un double-clic sur une forme.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.
   
-Pour obtenir une référence à la cellule EventDblClick par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule EventDblClick par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de la cellule :  <br/> | EventDblClick  <br/> |
    
-Pour obtenir une référence à la cellule EventDblClick par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule EventDblClick à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionObject** <br/> |
+| Index de la section :  <br/> |**Définis** <br/> |
 | Index de la ligne :  <br/> |**visRowEvent** <br/> |
 | Index de la cellule :  <br/> |**visEvtCellDblClick** <br/> |
    
