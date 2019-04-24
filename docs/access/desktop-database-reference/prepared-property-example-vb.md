@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a4d66edef0ca8a789c912d3c4d00c57f4a17ef36
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301448"
 ---
-# <a name="prepared-property-example-vb"></a><span data-ttu-id="57d3f-102">Prepared, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="57d3f-102">Prepared property example (VB)</span></span>
+# <a name="prepared-property-example-vb"></a><span data-ttu-id="a0230-102">Prepared, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a0230-102">Prepared property example (VB)</span></span>
 
 
-<span data-ttu-id="57d3f-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57d3f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0230-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0230-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="57d3f-104">Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l'ouverture de deux objets [Command](command-object-ado.md) : l'un préparé et l'autre non préparé.</span><span class="sxs-lookup"><span data-stu-id="57d3f-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="a0230-104">Cet exemple illustre la propriété [Prepared](prepared-property-ado.md) par l’ouverture de deux objets [Command](command-object-ado.md) : l’un préparé et l’autre non préparé.</span><span class="sxs-lookup"><span data-stu-id="a0230-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```vb 
  

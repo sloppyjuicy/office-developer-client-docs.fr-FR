@@ -1,5 +1,5 @@
 ---
-title: CompareEnum (référence de base de données du bureau Access)
+title: CompareEnum (référence de base de données de bureau Access)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd120f726a51c884d063bb03f6d6864ea2d48344
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296065"
 ---
-# <a name="compareenum"></a><span data-ttu-id="684ad-102">CompareEnum</span><span class="sxs-lookup"><span data-stu-id="684ad-102">CompareEnum</span></span>
+# <a name="compareenum"></a><span data-ttu-id="9a251-102">CompareEnum</span><span class="sxs-lookup"><span data-stu-id="9a251-102">CompareEnum</span></span>
 
-<span data-ttu-id="684ad-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="684ad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9a251-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a251-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="684ad-104">Spécifie la position relative de deux enregistrements représentés par leurs signets.</span><span class="sxs-lookup"><span data-stu-id="684ad-104">Specifies the relative position of two records represented by their bookmarks.</span></span>
+<span data-ttu-id="9a251-104">Spécifie la position relative de deux enregistrements représentés par leurs signets.</span><span class="sxs-lookup"><span data-stu-id="9a251-104">Specifies the relative position of two records represented by their bookmarks.</span></span>
 
 <br/>
 
@@ -30,44 +30,44 @@ ms.locfileid: "28718895"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="684ad-105">Constante</span><span class="sxs-lookup"><span data-stu-id="684ad-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="684ad-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="684ad-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="684ad-107">Description</span><span class="sxs-lookup"><span data-stu-id="684ad-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="9a251-105">Constante</span><span class="sxs-lookup"><span data-stu-id="9a251-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="9a251-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="9a251-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="9a251-107">Description</span><span class="sxs-lookup"><span data-stu-id="9a251-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-108"><strong>adCompareEqual</strong></span><span class="sxs-lookup"><span data-stu-id="684ad-108"><strong>adCompareEqual</strong></span></span></p></td>
-<td><p><span data-ttu-id="684ad-109">1</span><span class="sxs-lookup"><span data-stu-id="684ad-109">1</span></span></p></td>
-<td><p><span data-ttu-id="684ad-110">Indique que les signets sont égaux.</span><span class="sxs-lookup"><span data-stu-id="684ad-110">Indicates that the bookmarks are equal.</span></span></p></td>
+<td><p><span data-ttu-id="9a251-108"><strong>adCompareEqual</strong></span><span class="sxs-lookup"><span data-stu-id="9a251-108"><strong>adCompareEqual</strong></span></span></p></td>
+<td><p><span data-ttu-id="9a251-109">0,1</span><span class="sxs-lookup"><span data-stu-id="9a251-109">1</span></span></p></td>
+<td><p><span data-ttu-id="9a251-110">Indique que les signets sont égaux.</span><span class="sxs-lookup"><span data-stu-id="9a251-110">Indicates that the bookmarks are equal.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="684ad-111"><strong>adCompareGreaterThan</strong></span><span class="sxs-lookup"><span data-stu-id="684ad-111"><strong>adCompareGreaterThan</strong></span></span></p></td>
-<td><p><span data-ttu-id="684ad-112">2</span><span class="sxs-lookup"><span data-stu-id="684ad-112">2</span></span></p></td>
-<td><p><span data-ttu-id="684ad-113">Indique que le premier signet est situé après le second.</span><span class="sxs-lookup"><span data-stu-id="684ad-113">Indicates that the first bookmark is after the second.</span></span></p></td>
+<td><p><span data-ttu-id="9a251-111"><strong>adCompareGreaterThan</strong></span><span class="sxs-lookup"><span data-stu-id="9a251-111"><strong>adCompareGreaterThan</strong></span></span></p></td>
+<td><p><span data-ttu-id="9a251-112">n°2</span><span class="sxs-lookup"><span data-stu-id="9a251-112">2</span></span></p></td>
+<td><p><span data-ttu-id="9a251-113">Indique que le premier signet est situé après le second.</span><span class="sxs-lookup"><span data-stu-id="9a251-113">Indicates that the first bookmark is after the second.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-114"><strong>adCompareLessThan</strong></span><span class="sxs-lookup"><span data-stu-id="684ad-114"><strong>adCompareLessThan</strong></span></span></p></td>
-<td><p><span data-ttu-id="684ad-115">0</span><span class="sxs-lookup"><span data-stu-id="684ad-115">0</span></span></p></td>
-<td><p><span data-ttu-id="684ad-116">Indique que le premier signet est situé avant le second.</span><span class="sxs-lookup"><span data-stu-id="684ad-116">Indicates that the first bookmark is before the second.</span></span></p></td>
+<td><p><span data-ttu-id="9a251-114"><strong>adCompareLessThan</strong></span><span class="sxs-lookup"><span data-stu-id="9a251-114"><strong>adCompareLessThan</strong></span></span></p></td>
+<td><p><span data-ttu-id="9a251-115">0</span><span class="sxs-lookup"><span data-stu-id="9a251-115">0</span></span></p></td>
+<td><p><span data-ttu-id="9a251-116">Indique que le premier signet est situé avant le second.</span><span class="sxs-lookup"><span data-stu-id="9a251-116">Indicates that the first bookmark is before the second.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="684ad-117"><strong>adCompareNotComparable</strong></span><span class="sxs-lookup"><span data-stu-id="684ad-117"><strong>adCompareNotComparable</strong></span></span></p></td>
-<td><p><span data-ttu-id="684ad-118">4</span><span class="sxs-lookup"><span data-stu-id="684ad-118">4</span></span></p></td>
-<td><p><span data-ttu-id="684ad-119">Indique que les signets ne peuvent être ouverts.</span><span class="sxs-lookup"><span data-stu-id="684ad-119">Indicates that the bookmarks cannot be compared.</span></span></p></td>
+<td><p><span data-ttu-id="9a251-117"><strong>adCompareNotComparable</strong></span><span class="sxs-lookup"><span data-stu-id="9a251-117"><strong>adCompareNotComparable</strong></span></span></p></td>
+<td><p><span data-ttu-id="9a251-118">4</span><span class="sxs-lookup"><span data-stu-id="9a251-118">4</span></span></p></td>
+<td><p><span data-ttu-id="9a251-119">Indique que les signets ne peuvent être ouverts.</span><span class="sxs-lookup"><span data-stu-id="9a251-119">Indicates that the bookmarks cannot be compared.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-120"><strong>adCompareNotEqual</strong></span><span class="sxs-lookup"><span data-stu-id="684ad-120"><strong>adCompareNotEqual</strong></span></span></p></td>
-<td><p><span data-ttu-id="684ad-121">3</span><span class="sxs-lookup"><span data-stu-id="684ad-121">3</span></span></p></td>
-<td><p><span data-ttu-id="684ad-122">Indique que les signets ne sont ni égaux, ni classés.</span><span class="sxs-lookup"><span data-stu-id="684ad-122">Indicates that the bookmarks are not equal and not ordered.</span></span></p></td>
+<td><p><span data-ttu-id="9a251-120"><strong>adCompareNotEqual</strong></span><span class="sxs-lookup"><span data-stu-id="9a251-120"><strong>adCompareNotEqual</strong></span></span></p></td>
+<td><p><span data-ttu-id="9a251-121">3</span><span class="sxs-lookup"><span data-stu-id="9a251-121">3</span></span></p></td>
+<td><p><span data-ttu-id="9a251-122">Indique que les signets ne sont ni égaux, ni classés.</span><span class="sxs-lookup"><span data-stu-id="9a251-122">Indicates that the bookmarks are not equal and not ordered.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="684ad-123">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="684ad-123">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="9a251-123">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="9a251-123">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="684ad-124">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="684ad-124">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="9a251-124">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="9a251-124">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -75,24 +75,24 @@ ms.locfileid: "28718895"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="684ad-125">Constante</span><span class="sxs-lookup"><span data-stu-id="684ad-125">Constant</span></span></p></th>
+<th><p><span data-ttu-id="9a251-125">Constante</span><span class="sxs-lookup"><span data-stu-id="9a251-125">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-126">AdoEnums.Compare.EQUAL</span><span class="sxs-lookup"><span data-stu-id="684ad-126">AdoEnums.Compare.EQUAL</span></span></p></td>
+<td><p><span data-ttu-id="9a251-126">AdoEnums. Compare. EQUAL</span><span class="sxs-lookup"><span data-stu-id="9a251-126">AdoEnums.Compare.EQUAL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="684ad-127">AdoEnums.Compare.GREATERTHAN</span><span class="sxs-lookup"><span data-stu-id="684ad-127">AdoEnums.Compare.GREATERTHAN</span></span></p></td>
+<td><p><span data-ttu-id="9a251-127">AdoEnums. Compare. GREATERTHAN</span><span class="sxs-lookup"><span data-stu-id="9a251-127">AdoEnums.Compare.GREATERTHAN</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-128">AdoEnums.Compare.LESSTHAN</span><span class="sxs-lookup"><span data-stu-id="684ad-128">AdoEnums.Compare.LESSTHAN</span></span></p></td>
+<td><p><span data-ttu-id="9a251-128">AdoEnums. Compare. LESSTHAN</span><span class="sxs-lookup"><span data-stu-id="9a251-128">AdoEnums.Compare.LESSTHAN</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="684ad-129">AdoEnums.Compare.NOTCOMPARABLE</span><span class="sxs-lookup"><span data-stu-id="684ad-129">AdoEnums.Compare.NOTCOMPARABLE</span></span></p></td>
+<td><p><span data-ttu-id="9a251-129">AdoEnums. Compare. NOTCOMPARABLE</span><span class="sxs-lookup"><span data-stu-id="9a251-129">AdoEnums.Compare.NOTCOMPARABLE</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="684ad-130">AdoEnums.Compare.NOTEQUAL</span><span class="sxs-lookup"><span data-stu-id="684ad-130">AdoEnums.Compare.NOTEQUAL</span></span></p></td>
+<td><p><span data-ttu-id="9a251-130">AdoEnums. Compare. NOTEQUAL</span><span class="sxs-lookup"><span data-stu-id="9a251-130">AdoEnums.Compare.NOTEQUAL</span></span></p></td>
 </tr>
 </tbody>
 </table>

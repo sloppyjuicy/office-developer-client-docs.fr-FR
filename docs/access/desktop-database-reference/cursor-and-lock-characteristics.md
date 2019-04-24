@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41a42aa3b0c49a5d871fa7b079a26c7d8076116a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295288"
 ---
-# <a name="cursor-and-lock-characteristics"></a><span data-ttu-id="f1634-102">Caractéristiques du curseur et du verrou</span><span class="sxs-lookup"><span data-stu-id="f1634-102">Cursor and lock characteristics</span></span>
+# <a name="cursor-and-lock-characteristics"></a><span data-ttu-id="ac26f-102">Caractéristiques du curseur et du verrou</span><span class="sxs-lookup"><span data-stu-id="ac26f-102">Cursor and lock characteristics</span></span>
 
-<span data-ttu-id="f1634-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1634-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac26f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac26f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f1634-104">S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnalités du fournisseur, les avantages et inconvénients suivants s'appliquent généralement aux différents types de curseurs et de verrous.</span><span class="sxs-lookup"><span data-stu-id="f1634-104">While the characteristics of a cursor depend upon capabilities of the provider, the following advantages and disadvantages generally apply to the various types of cursors and locks.</span></span>
+<span data-ttu-id="ac26f-104">S'il est vrai que les caractéristiques d'un curseur dépendent des fonctionnalités du fournisseur, les avantages et inconvénients suivants s'appliquent généralement aux différents types de curseurs et de verrous.</span><span class="sxs-lookup"><span data-stu-id="ac26f-104">While the characteristics of a cursor depend upon capabilities of the provider, the following advantages and disadvantages generally apply to the various types of cursors and locks.</span></span>
 
 <table>
 <colgroup>
@@ -28,121 +28,121 @@ ms.locfileid: "28704615"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f1634-105">Type de curseur ou de verrou</span><span class="sxs-lookup"><span data-stu-id="f1634-105">Cursor or lock type</span></span></p></th>
-<th><p><span data-ttu-id="f1634-106">Avantages</span><span class="sxs-lookup"><span data-stu-id="f1634-106">Advantages</span></span></p></th>
-<th><p><span data-ttu-id="f1634-107">Inconvénients</span><span class="sxs-lookup"><span data-stu-id="f1634-107">Disadvantages</span></span></p></th>
+<th><p><span data-ttu-id="ac26f-105">Type de curseur ou de verrou</span><span class="sxs-lookup"><span data-stu-id="ac26f-105">Cursor or lock type</span></span></p></th>
+<th><p><span data-ttu-id="ac26f-106">Avantages</span><span class="sxs-lookup"><span data-stu-id="ac26f-106">Advantages</span></span></p></th>
+<th><p><span data-ttu-id="ac26f-107">Inconvénients</span><span class="sxs-lookup"><span data-stu-id="ac26f-107">Disadvantages</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f1634-108"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-108"><strong>adOpenForwardOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-108"><strong>adOpenForwardOnly</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-108"><strong>adOpenForwardOnly</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-109">Ressources requises peu importantes</span><span class="sxs-lookup"><span data-stu-id="f1634-109">Low resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-109">Ressources requises peu importantes</span><span class="sxs-lookup"><span data-stu-id="ac26f-109">Low resource requirements</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-110">Défilement arrière impossible</span><span class="sxs-lookup"><span data-stu-id="f1634-110">Cannot scroll backward</span></span></p></li>
-<li><p><span data-ttu-id="f1634-111">Pas d'accès concurrentiel aux données</span><span class="sxs-lookup"><span data-stu-id="f1634-111">No data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-110">Défilement arrière impossible</span><span class="sxs-lookup"><span data-stu-id="ac26f-110">Cannot scroll backward</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-111">Pas d'accès concurrentiel aux données</span><span class="sxs-lookup"><span data-stu-id="ac26f-111">No data concurrency</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1634-112"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-112"><strong>adOpenStatic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-112"><strong>adOpenStatic</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-112"><strong>adOpenStatic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-113">Défilement possible</span><span class="sxs-lookup"><span data-stu-id="f1634-113">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-113">Défilement</span><span class="sxs-lookup"><span data-stu-id="ac26f-113">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-114">Pas d'accès concurrentiel aux données</span><span class="sxs-lookup"><span data-stu-id="f1634-114">No data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-114">Pas d'accès concurrentiel aux données</span><span class="sxs-lookup"><span data-stu-id="ac26f-114">No data concurrency</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1634-115"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-115"><strong>adOpenKeyset</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-115"><strong>adOpenKeyset</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-115"><strong>adOpenKeyset</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-116">Accès concurrentiel aux données possible mais limité</span><span class="sxs-lookup"><span data-stu-id="f1634-116">Some data concurrency</span></span></p></li>
-<li><p><span data-ttu-id="f1634-117">Défilement possible</span><span class="sxs-lookup"><span data-stu-id="f1634-117">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-116">Accès concurrentiel aux données possible mais limité</span><span class="sxs-lookup"><span data-stu-id="ac26f-116">Some data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-117">Défilement</span><span class="sxs-lookup"><span data-stu-id="ac26f-117">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-118">Ressources requises plus importantes</span><span class="sxs-lookup"><span data-stu-id="f1634-118">Higher resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="f1634-119">Non disponible dans un scénario déconnecté</span><span class="sxs-lookup"><span data-stu-id="f1634-119">Not available in disconnected scenario</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-118">Ressources requises plus importantes</span><span class="sxs-lookup"><span data-stu-id="ac26f-118">Higher resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-119">Non disponible dans un scénario déconnecté</span><span class="sxs-lookup"><span data-stu-id="ac26f-119">Not available in disconnected scenario</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1634-120"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-120"><strong>adOpenDynamic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-120"><strong>adOpenDynamic</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-120"><strong>adOpenDynamic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-121">Accès concurrentiel aux données élevé</span><span class="sxs-lookup"><span data-stu-id="f1634-121">High data concurrency</span></span></p></li>
-<li><p><span data-ttu-id="f1634-122">Défilement possible</span><span class="sxs-lookup"><span data-stu-id="f1634-122">Scrollable</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-121">Accès concurrentiel aux données élevé</span><span class="sxs-lookup"><span data-stu-id="ac26f-121">High data concurrency</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-122">Défilement</span><span class="sxs-lookup"><span data-stu-id="ac26f-122">Scrollable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-123">Ressources requises très importantes</span><span class="sxs-lookup"><span data-stu-id="f1634-123">Highest resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="f1634-124">Non disponible dans un scénario déconnecté</span><span class="sxs-lookup"><span data-stu-id="f1634-124">Not available in disconnected scenario</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-123">Ressources requises très importantes</span><span class="sxs-lookup"><span data-stu-id="ac26f-123">Highest resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-124">Non disponible dans un scénario déconnecté</span><span class="sxs-lookup"><span data-stu-id="ac26f-124">Not available in disconnected scenario</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1634-125"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-125"><strong>adLockReadOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-125"><strong>adLockReadOnly</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-125"><strong>adLockReadOnly</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-126">Ressources requises peu importantes</span><span class="sxs-lookup"><span data-stu-id="f1634-126">Low resource requirements</span></span></p></li>
-<li><p><span data-ttu-id="f1634-127">Hautement évolutif</span><span class="sxs-lookup"><span data-stu-id="f1634-127">Highly scalable</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-126">Ressources requises peu importantes</span><span class="sxs-lookup"><span data-stu-id="ac26f-126">Low resource requirements</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-127">Hautement évolutif</span><span class="sxs-lookup"><span data-stu-id="ac26f-127">Highly scalable</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-128">Mise à jour des données par le curseur impossible</span><span class="sxs-lookup"><span data-stu-id="f1634-128">Data not updatable through cursor</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-128">Mise à jour des données par le curseur impossible</span><span class="sxs-lookup"><span data-stu-id="ac26f-128">Data not updatable through cursor</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1634-129"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-129"><strong>adLockBatchOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-129"><strong>adLockBatchOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-129"><strong>adLockBatchOptimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-130">Mises à jour par lot</span><span class="sxs-lookup"><span data-stu-id="f1634-130">Batch updates</span></span></p></li>
-<li><p><span data-ttu-id="f1634-131">Scénarios déconnectés autorisés</span><span class="sxs-lookup"><span data-stu-id="f1634-131">Allows disconnected scenarios</span></span></p></li>
-<li><p><span data-ttu-id="f1634-132">Accès aux données par d'autres utilisateurs possible</span><span class="sxs-lookup"><span data-stu-id="f1634-132">Other users able to access data</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-130">Mises à jour par lot</span><span class="sxs-lookup"><span data-stu-id="ac26f-130">Batch updates</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-131">Scénarios déconnectés autorisés</span><span class="sxs-lookup"><span data-stu-id="ac26f-131">Allows disconnected scenarios</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-132">Accès aux données par d'autres utilisateurs possible</span><span class="sxs-lookup"><span data-stu-id="ac26f-132">Other users able to access data</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-133">Données modifiables simultanément par plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="f1634-133">Data can be changed by multiple users at once</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-133">Données modifiables simultanément par plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="ac26f-133">Data can be changed by multiple users at once</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f1634-134"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-134"><strong>adLockPessimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-134"><strong>adLockPessimistic</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-134"><strong>adLockPessimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-135">Modification des données par d'autres utilisateurs impossible lorsqu'elles sont verrouillées</span><span class="sxs-lookup"><span data-stu-id="f1634-135">Data cannot be changed by other users while locked</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-135">Modification des données par d'autres utilisateurs impossible lorsqu'elles sont verrouillées</span><span class="sxs-lookup"><span data-stu-id="ac26f-135">Data cannot be changed by other users while locked</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-136">Accès aux données par d'autres utilisateurs impossible lorsqu'elles sont verrouillées</span><span class="sxs-lookup"><span data-stu-id="f1634-136">Prevents other users from accessing data while locked</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-136">Accès aux données par d'autres utilisateurs impossible lorsqu'elles sont verrouillées</span><span class="sxs-lookup"><span data-stu-id="ac26f-136">Prevents other users from accessing data while locked</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f1634-137"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="f1634-137"><strong>adLockOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac26f-137"><strong>adLockOptimistic</strong></span><span class="sxs-lookup"><span data-stu-id="ac26f-137"><strong>adLockOptimistic</strong></span></span></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-138">Accès aux données par d'autres utilisateurs possible</span><span class="sxs-lookup"><span data-stu-id="f1634-138">Other users able to access data</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-138">Accès aux données par d'autres utilisateurs possible</span><span class="sxs-lookup"><span data-stu-id="ac26f-138">Other users able to access data</span></span></p></li>
 </ul>
 <p></p></td>
 <td><p></p>
 <ul>
-<li><p><span data-ttu-id="f1634-139">Données modifiables simultanément par plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="f1634-139">Data can be changed by multiple users at once</span></span></p></li>
+<li><p><span data-ttu-id="ac26f-139">Données modifiables simultanément par plusieurs utilisateurs</span><span class="sxs-lookup"><span data-stu-id="ac26f-139">Data can be changed by multiple users at once</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>

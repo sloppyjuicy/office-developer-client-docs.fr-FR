@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 472c0b4be22de25383e710d7ea40400e5d7720d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313957"
 ---
-# <a name="unique-property-adox"></a><span data-ttu-id="a4fff-102">Unique, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a4fff-102">Unique property (ADOX)</span></span>
+# <a name="unique-property-adox"></a><span data-ttu-id="ea968-102">Unique, propriété (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ea968-102">Unique property (ADOX)</span></span>
 
 
-<span data-ttu-id="a4fff-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4fff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ea968-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea968-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a4fff-104">Indique si les clés d'index doivent être uniques.</span><span class="sxs-lookup"><span data-stu-id="a4fff-104">Indicates whether the index keys must be unique.</span></span>
+<span data-ttu-id="ea968-104">Indique si les clés d'index doivent être uniques.</span><span class="sxs-lookup"><span data-stu-id="ea968-104">Indicates whether the index keys must be unique.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="a4fff-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="a4fff-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="ea968-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="ea968-105">Settings and return values</span></span>
 
-<span data-ttu-id="a4fff-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="a4fff-106">Sets and returns a **Boolean** value.</span></span>
+<span data-ttu-id="ea968-106">Définit et renvoie une valeur de type **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="ea968-106">Sets and returns a **Boolean** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a4fff-107">Notes</span><span class="sxs-lookup"><span data-stu-id="a4fff-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ea968-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="ea968-107">Remarks</span></span>
 
-<span data-ttu-id="a4fff-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="a4fff-108">The default value is **False**.</span></span>
+<span data-ttu-id="ea968-108">**False** est la valeur par défaut.</span><span class="sxs-lookup"><span data-stu-id="ea968-108">The default value is **False**.</span></span>
 
-<span data-ttu-id="a4fff-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="a4fff-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="ea968-109">Cette propriété est en lecture seule pour des objets [Index](index-object-adox.md) déjà ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="ea968-109">This property is read-only on [Index](index-object-adox.md) objects already appended to a collection.</span></span>
 

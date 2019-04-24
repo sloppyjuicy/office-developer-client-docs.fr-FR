@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet erreur (DAO)
+title: Référence de l'objet Error (DAO)
 TOCTitle: Error Object
 ms:assetid: 96cff172-964e-49bf-b83c-d56226a4d81a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 603498d35da5596c3405508d103494c94d31074e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293468"
 ---
-# <a name="error-object-reference-dao"></a><span data-ttu-id="3f12d-102">Référence d’objet erreur (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f12d-102">Error object reference (DAO)</span></span>
+# <a name="error-object-reference-dao"></a><span data-ttu-id="dbf0e-102">Référence de l'objet Error (DAO)</span><span class="sxs-lookup"><span data-stu-id="dbf0e-102">Error object reference (DAO)</span></span>
 
-<span data-ttu-id="3f12d-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f12d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dbf0e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbf0e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3f12d-104">Error, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f12d-104">Error object (DAO)</span></span>](error-object-dao.md)
-- [<span data-ttu-id="3f12d-105">Membres de l’erreur (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f12d-105">Error members (DAO)</span></span>](error-members-dao.md)
-- [<span data-ttu-id="3f12d-106">Propriétés de l’erreur (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f12d-106">Error properties (DAO)</span></span>](error-properties-dao.md)
+- [<span data-ttu-id="dbf0e-104">Objet Error (DAO)</span><span class="sxs-lookup"><span data-stu-id="dbf0e-104">Error object (DAO)</span></span>](error-object-dao.md)
+- [<span data-ttu-id="dbf0e-105">Error, membres (DAO)</span><span class="sxs-lookup"><span data-stu-id="dbf0e-105">Error members (DAO)</span></span>](error-members-dao.md)
+- [<span data-ttu-id="dbf0e-106">Propriétés d'erreur (DAO)</span><span class="sxs-lookup"><span data-stu-id="dbf0e-106">Error properties (DAO)</span></span>](error-properties-dao.md)
 

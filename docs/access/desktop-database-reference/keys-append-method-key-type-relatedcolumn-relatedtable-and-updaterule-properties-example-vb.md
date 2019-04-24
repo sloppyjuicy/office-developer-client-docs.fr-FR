@@ -1,5 +1,5 @@
 ---
-title: Clés de méthode Append, Key Type, RelatedColumn, propriétés-exemple (VB)
+title: Keys Append, méthode, Key type, RelatedColumn, propriétés-exemple (VB)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)
 ms:assetid: d1b0508d-ab2c-eece-061c-09c67ea9ecae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250047(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9120fa718544a0d1d7a132b197517aac955f5fc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290630"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="a4e65-102">Clés méthode Append, Key Type, RelatedColumn, RelatedTable et UpdateRule, propriétés-exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="a4e65-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="1fc12-102">Keys Append, méthode-exemple de propriétés Key type, RelatedColumn, RelatedTable et UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="1fc12-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="a4e65-103">**S’applique à**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4e65-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1fc12-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fc12-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a4e65-104">Le code suivant montre comment créer une clé étrangère.</span><span class="sxs-lookup"><span data-stu-id="a4e65-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="a4e65-105">Il suppose l’existent de deux tables (**clients** et **commandes**).</span><span class="sxs-lookup"><span data-stu-id="a4e65-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="1fc12-104">Le code suivant montre comment créer une clé étrangère.</span><span class="sxs-lookup"><span data-stu-id="1fc12-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="1fc12-105">Il suppose l'existence de deux tables (**Customers** et **Orders**).</span><span class="sxs-lookup"><span data-stu-id="1fc12-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  
