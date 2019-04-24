@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d0da48080b64e43cc39b9567275e1a8755a8881
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314111"
 ---
 # <a name="limits-of-a-recordset"></a>Limites d’un recordset
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Recordset** contient des enregistrements ou si vous avez dépassé les limites d'un objet **Recordset** en vous déplaçant d'un enregistrement à l'autre. Considérez les propriétés **BOF** et **EOF** comme des enregistrements « fantômes » placés au début et à la fin de l'objet **Recordset**. En se basant sur l'exemple d'objet **Recordset** présenté dans [Examen des données](chapter-3-examining-data.md), on obtient les résultats suivants :
 
@@ -29,7 +29,7 @@ Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Reco
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ProductID</p></th>
+<th><p>Mentionnées</p></th>
 <th><p>ProductName</p></th>
 <th><p>UnitPrice</p></th>
 </tr>
@@ -43,29 +43,29 @@ Utilisez les propriétés **BOF** et **EOF** pour déterminer si un objet **Reco
 </p></td>
 </tr>
 <tr class="even">
-<td><p>7</p></td>
+<td><p>7j/7</p></td>
 <td><p>Pêches séchées bio Oncle Bob</p></td>
-<td><p>30.0000</p></td>
+<td><p>30,0000</p></td>
 </tr>
 <tr class="odd">
-<td><p>14</p></td>
-<td><p>Tofu</p></td>
-<td><p>23.2500</p></td>
+<td><p>13</p></td>
+<td><p>Longvi</p></td>
+<td><p>23,2500</p></td>
 </tr>
 <tr class="even">
-<td><p>28</p></td>
+<td><p>vingt</p></td>
 <td><p>Choucroute Frau Kraut</p></td>
-<td><p>45.6000</p></td>
+<td><p>45,6000</p></td>
 </tr>
 <tr class="odd">
 <td><p>51</p></td>
 <td><p>Pommes séchées Manjimup</p></td>
-<td><p>53.0000</p></td>
+<td><p>53,0000</p></td>
 </tr>
 <tr class="even">
 <td><p>74</p></td>
 <td><p>Tofu LongVi</p></td>
-<td><p>10.0000</p></td>
+<td><p>10,0000</p></td>
 </tr>
 <tr class="odd">
 <td><p>EOF</p></td>
@@ -91,7 +91,7 @@ If oRs.BOF And oRs.EOF Then
 End If 
 ```
 
-Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 est retournée pour des curseurs dynamiques (**CursorType** = **adOpenDynamic**) et 0 est retourné pour les autres curseurs.
+Si vous ouvrez un objet **Recordset** ne contenant aucun enregistrement, les propriétés **BOF** et **EOF** ont toutes deux la valeur **True** et la valeur définie pour la propriété **RecordCount** de l'objet **Recordset** dépend du type de curseur. -1 sera renvoyé pour les curseurs dynamiques (**CursorType** = **adOpenDynamic**) et 0 sera renvoyé pour les autres curseurs.
 
 Lorsque vous ouvrez un objet **Recordset** qui contient au moins un enregistrement, le premier enregistrement est l'enregistrement actif. Les propriétés **BOF** et **EOF** ont, dans ce cas, la valeur **False**.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Recordset2.CacheSize (DAO)
+title: Recordset2. CacheSize, propriété (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: d8d195cc-6696-0583-31eb-b9988f8b7c6f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835090(v=office.15)
@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 94453b5bd8f5a405c5ad5b7c8a175468df2adfa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307426"
 ---
-# <a name="recordset2cachesize-property-dao"></a>Propriété Recordset2.CacheSize (DAO)
+# <a name="recordset2cachesize-property-dao"></a>Recordset2. CacheSize, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur **Long** en lecture-écriture.
+Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Type de données **Long** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -49,7 +49,7 @@ Pour forcer une mise à jour de toutes les données mises en cache, affectez à 
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise les méthodes **CreateTableDef** et **FillCache** ainsi que les propriétés **CacheSize**, **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements dans une table liée. Ensuite, il énumère également deux fois les enregistrements avec un cache de 50 enregistrements. Enfin, il affiche les statistiques de performance pour les deux exécutions, avec et sans mise en cache, dans la table liée.
+Cet exemple de code montre comment utiliser les méthodes **CreateTableDef** et **FillCache** et les propriétés **CacheSize** **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements d'une table liée. Les enregistrements sont ensuite énumérés deux fois avec un cache constitué de 50 enregistrements. Enfin, les statistiques de performance sont affichées pour les exécutions au niveau de la table liée, sans et avec cache.
 
 ```vb
     Sub ClientServerX3() 

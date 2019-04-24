@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.SourceTable (DAO)
+title: Field. SourceTable, propriété (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a557a4941f5b4aa511489c5d057871df5fa72c08
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292985"
 ---
-# <a name="fieldsourcetable-property-dao"></a>Propriété Field.SourceTable (DAO)
+# <a name="fieldsourcetable-property-dao"></a>Field. SourceTable, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie une valeur indiquant le nom de la table de laquelle provient les données d'un objet **Field**. Données de type **String** en lecture seule.
 
@@ -61,7 +61,7 @@ Pour un objet **Field**, l'utilisation des propriétés **SourceField** et **Sou
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 08d8a3d7b3d6012867a91aa306f45872bfebb2e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290785"
 ---
 # <a name="jumping-to-a-record"></a>Accès à un enregistrement
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La méthode [Move](move-method-ado.md) vous permet d'avancer ou de reculer d'un nombre spécifié d'enregistrements dans l'objet **Recordset**, en utilisant la syntaxe suivante :
 
@@ -36,7 +36,7 @@ Si l’appel de la méthode **Move** déplace la position de l’enregistrement 
 
 L'appel de la méthode **Move** à partir d'un objet **Recordset** vide génère une erreur.
 
-Si vous passez un signet dans l’argument *Start* , le déplacement est par rapport à l’objet record à ce signet, en supposant que l’objet **Recordset** prend en charge les signets. Les signets sont définis par l'intermédiaire de la propriété [Bookmark](bookmark-property-ado.md). Si aucun signet n'est spécifié, le déplacement s'applique à l'enregistrement actif.
+Si vous passez un signet dans l’argument *Start*, le déplacement est effectué par rapport à l’enregistrement affecté de ce signet, en supposant que l’objet **Recordset** prenne les signets en charge. Les signets sont définis par l’intermédiaire de la propriété [Bookmark](bookmark-property-ado.md). Si aucun signet n’est spécifié, le déplacement s’applique à l’enregistrement actif.
 
-Si vous utilisez la propriété **CacheSize** pour cache localement des enregistrements à partir du fournisseur, en passant un argument *NbEnregistrements* qui déplace la position d’enregistrement actif en dehors du groupe actuel d’enregistrements mis en cache force ADO à récupérer un nouveau groupe d’enregistrements, à partir de l’enregistrement de destination. La propriété **CacheSize** détermine la taille du nouveau groupe extrait et l’enregistrement de destination est le premier enregistrement récupéré.
+Supposons que vous utilisiez la propriété **CacheSize** pour effectuer une mise en cache locale des enregistrements du fournisseur. Si vous passez un argument *NumRecords* qui déplace la position de l'enregistrement actif hors du groupe des enregistrements actuellement en cache, ADO extrait automatiquement un nouveau groupe d'enregistrements, à partir de l'enregistrement de destination. La propriété **CacheSize** détermine la taille du nouveau groupe extrait et l'enregistrement de destination est le premier enregistrement extrait.
 

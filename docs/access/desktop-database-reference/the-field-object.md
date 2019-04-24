@@ -1,5 +1,5 @@
 ---
-title: L’objet Field (référence de base de données du bureau Access)
+title: Objet Field (référence de base de données de bureau Access)
 TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2cbd5752399e5a14f08b7eb944e3a028ba53f561
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716872"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314020"
 ---
 # <a name="field-object"></a>Field, objet
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Chaque objet **Field** correspond généralement à une colonne d'une table de base de données. Cependant, un **champ** peut également représenter un pointeur vers un autre **jeu d'enregistrements**, appelé un chapitre. Les exceptions, comme les colonnes de chapitre, seront traitées plus avant dans ce guide.
 
@@ -40,17 +40,17 @@ Avec les collections, méthodes et propriétés d'un objet **Field**, vous pouve
 
 - Résoudre les incohérences des valeurs de champs au cours d'une mise à jour en lot à l'aide des propriétés **OriginalValue** et **UnderlyingValue**, si le fournisseur prend en charge les mises à jour en lot.
 
-## <a name="describing-a-field"></a>Description d’un champ
+## <a name="describing-a-field"></a>Description d'un champ
 
 Les rubriques suivantes abordent les propriétés de l'objet [Field](field-object-ado.md) qui représentent les informations décrivant l'objet **Field** lui-même  autrement dit, les métadonnées du champ. Ces informations permettent de déterminer une bonne partie du schéma du **jeu d'enregistrements**. Ces propriétés sont **Type**, **DefinedSize**, **ActualSize**, **Name**, **NumericScale** et **Precision**.
 
-## <a name="discovering-the-data-type"></a>Détection du type de données
+## <a name="discovering-the-data-type"></a>Découverte du type de données
 
-La propriété **Type** indique le type de données du champ. Les constantes de type énuméré de données qui sont prises en charge par ADO sont décrites dans la *référence du programmeur ADO* [DataTypeEnum](datatypeenum.md) .
+La propriété **Type** indique le type de données du champ. Les constantes énumérées de type de données prises en charge par ADO sont décrites dans [DataTypeEnum](datatypeenum.md) dans le *Guide de référence du programmeur ADO*.
 
 Pour les types numériques en virgule flottante comme **adNumeric**, vous pouvez obtenir plus d'informations. La propriété **NumericScale** indique le nombre de chiffres à droite du point décimal utilisé pour représenter les valeurs du **champ**. La propriété **Precision** spécifie le nombre maximal de chiffres utilisé pour représenter les valeurs du **champ**.
 
-## <a name="determining-field-size"></a>Détermination de la taille de champ
+## <a name="determining-field-size"></a>Détermination de la taille du champ
 
 Utilisez la propriété **DefinedSize** pour déterminer la capacité de données d'un objet **Field**.
 
@@ -67,21 +67,21 @@ Pour modifier les données d'un champ, attribuez à la propriété **Value** une
 > [!NOTE]
 > [!REMARQUE] Vous ne pouvez pas définir les valeurs **Recordset Field** lorsque vous ajoutez de nouveaux **champs** à un **jeu d'enregistrements**. Vous pouvez en revanche ajouter de nouveaux **champs** à un **jeu d'enregistrements** fermé. Vous devez ensuite ouvrir le **jeu d'enregistrements** pour pouvoir affecter des valeurs à ces **champs**.
 
-## <a name="getting-more-field-information"></a>Obtenir plus d’informations sur les champs
+## <a name="getting-more-field-information"></a>Obtenir des informations de champ supplémentaires
 
 Les objets ADO possèdent deux types de propriétés : intégré et dynamique. À ce stade, seules les propriétés intégrées de l'objet **Field** on été abordées.
 
-Les propriétés intégrées sont les propriétés implémentées dans ADO et immédiatement disponibles pour tout nouvel objet, en utilisant la syntaxe. Elles n'apparaissent pas comme des objets **Property** dans la collection **Properties** d'un objet.
+Les propriétés intégrées sont les propriétés implémentées dans ADO et immédiatement disponibles pour tout nouvel objet, à l'aide de la syntaxe. Elles n'apparaissent pas comme des objets **Property** dans la collection **Properties** d'un objet.
 
-Les propriétés dynamiques sont définies par le fournisseur de données sous-jacent et apparaissent dans la collection **Properties** de l'objet ADO correspondant. Par exemple, une propriété spécifique au fournisseur peut indiquer si un objet **Recordset** prend en charge les transactions ou les mises à jour. Ces propriétés supplémentaires apparaissent comme des objets **Property** dans la collection **Properties** de cet objet **Recordset**. Propriétés dynamiques peuvent être référencées seulement par le biais de la collection à l’aide de la syntaxe MyObject.Properties(0) ou ou MyObject.Properties("Name").
+Les propriétés dynamiques sont définies par le fournisseur de données sous-jacent et apparaissent dans la collection **Properties** de l'objet ADO correspondant. Par exemple, une propriété spécifique au fournisseur peut indiquer si un objet **Recordset** prend en charge les transactions ou les mises à jour. Ces propriétés supplémentaires apparaissent comme des objets **Property** dans la collection **Properties** de cet objet **Recordset**. Les propriétés dynamiques peuvent être référencées uniquement via la collection à l'aide de la syntaxe MyObject. Properties (0) ou de MyObject. Properties ("nom").
 
-Vous ne pouvez supprimer l'une ou l'autre propriété.
+Vous ne pouvez supprimer ni l'un ni l'autre de ces deux types de propriétés.
 
-Un objet **Property** dynamique comporte quatre propriétés intégrées :
+Un objet **Property** dynamique possède quatre propriétés intégrées :
 
-- La propriété **Name** est une chaîne qui identifie la propriété.
+- Sa propriété **Name** est une chaîne qui identifie la propriété.
 
-- La propriété **Type** est un entier qui spécifie le type de données de la propriété.
+- Sa propriété **Type** est un entier qui spécifie le type de données de la propriété.
 
 - La propriété **Value** est une variante qui contient le paramètre de la propriété. **Value** est la propriété par défaut d'un objet **Property**.
 
@@ -114,7 +114,7 @@ La première invocation de la méthode **AppendChunk** sur un objet **Field** é
 
 Utilisez la méthode **GetChunk** sur un objet **Field** pour en extraire toute ou partie des données binaires ou de caractères longues. Si vous manquez de mémoire système, vous pouvez utiliser la méthode **GetChunk** pour manipuler une partie des valeurs longues plutôt que leur totalité.
 
-Les données renvoyées par une invocation **GetChunk** sont affectées à *variable*. Si la *taille* est supérieure aux données restantes, la méthode **GetChunk** renvoie uniquement les données restantes sans compléter les *variables* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur nulle.
+Les données qu'un appel à la méthode **GetChunk** retourne sont assignées à une *variable*. Si *Taille* est supérieur aux données restantes, la méthode  **GetChunk ** retourne uniquement les données restantes sans remplir la *variable* avec des espaces vides. Si le champ est vide, la méthode **GetChunk** renvoie une valeur NULL.
 
 Chaque invocation **GetChunk** suivante reprend l'extraction des données à l'endroit où l'invocation **GetChunk** précédente s'est arrêtée. Cependant, si vous extrayez des données d'un champ et que vous définissez ou lisez ensuite la valeur d'un autre champ de l'enregistrement actif, ADO suppose que vous avez terminé l'extraction des données du premier champ. Si vous invoquez à nouveau la méthode **GetChunk** sur le premier champ, ADO interprète l'invocation comme une nouvelle opération **GetChunk** et commence la lecture des données du début. L'accès aux champ d'autres objets **Recordset** non identiques au premier objet **Recordset** n'interrompt pas les opérations **GetChunk**.
 
@@ -122,5 +122,5 @@ Si la section **adFldLong** de la propriété **Attributes** d'un objet **Field*
 
 S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** ou **AppendChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement actif) survient.
 
-Pour obtenir un exemple d’utilisation de ces méthodes pour manipuler des données binaires, consultez les exemples [AppendChunk, méthode](appendchunk-method-ado.md) et [GetChunk, méthode](getchunk-method-ado.md) dans la *référence du programmeur ADO*.
+Pour un exemple d'utilisation de ces méthodes pour manipuler des données binaires, reportez-vous aux exemples de méthodes [AppendChunk](appendchunk-method-ado.md) et [GetChunk](getchunk-method-ado.md) dans le *Guide de référence du programmeur ADO*.
 

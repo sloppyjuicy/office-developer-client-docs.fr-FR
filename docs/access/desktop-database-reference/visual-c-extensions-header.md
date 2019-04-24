@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 60dbf94824c5563196c549e2276b903ea814b1fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311324"
 ---
 # <a name="visual-c-extensions-header"></a>En-tête d’extensions Visual C++
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'en-tête **icrsint.h** décrit l'interface qui permet aux clients d'extraire des champs d'un objet **Recordset** dans des variables définies dans une classe dérivée de **CADORecordBinding**. Vous devez spécifier une macro de liaison ADO pour chacun des champs auxquels vous avez l'intention d'accéder.
 

@@ -1,5 +1,5 @@
 ---
-title: Types de curseurs (référence de base de données du bureau Access)
+title: Types de curseurs (référence de base de données de bureau Access)
 TOCTitle: Types of Cursors
 ms:assetid: 589f3755-3cf5-9470-bd66-8e8afa218fc5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6493d746f43ac8d923e5b1b9d6dcd3de44b411ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314027"
 ---
 # <a name="types-of-cursors"></a>Types de curseurs
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 En règle générale, votre application doit utiliser le curseur le plus simple possible, capable de fournir l'accès aux données requis. Toutes les caractéristiques supplémentaires au-delà des fonctions de base (avant uniquement, lecture seule, statique, défilement, sans tampon) sont susceptibles d'avoir une incidence sur la mémoire du client, la charge réseau ou les performances. Dans la plupart des cas, les options du curseur par défaut génèrent un curseur plus complexe que celui nécessaire à votre application.
 

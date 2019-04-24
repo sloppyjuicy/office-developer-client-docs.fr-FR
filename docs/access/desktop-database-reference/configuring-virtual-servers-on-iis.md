@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a9c7f5782885aafd43e365ddc4f08dedd0975234
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295974"
 ---
 # <a name="configuring-virtual-servers-on-iis"></a>Configuration de serveurs virtuels sur IIS
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Au moment de créer un serveur virtuel dans Internet Information Services 4.0, il convient d'exécuter les deux étapes supplémentaires suivantes pour permettre au serveur virtuel de fonctionner avec RDS :
 
 1.  Lors de la configuration du serveur, activez la case à cocher « Autoriser l'accès en exécution ».
 
-2.  Déplacez msadcs.dll dans *vroot*\\msadc, où *vroot* est le répertoire racine de votre serveur virtuel.
+2.  Déplacez msadcs. dll vers la *racine virtuelle*\\MSADC, où *vroot* est le répertoire de base de votre serveur virtuel.
 

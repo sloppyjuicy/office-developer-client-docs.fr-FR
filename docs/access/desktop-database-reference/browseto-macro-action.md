@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0bcf0a37f8c1596856f5d7b921430371d620f7a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296772"
 ---
 # <a name="browseto-macro-action"></a>BrowseTo, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **Parcourir** pour naviguer parmi des objets en place. Vous pouvez également modifier l'objet source d'un contrôle de sous-formulaire en spécifiant l'argument Chemin d'accès au contrôle de sous-formulaire. Utilisez **Parcourir** pour naviguer de formulaire1 à formulaire2 sans ouvrir de nouvelle fenêtre.
 
-## <a name="setting"></a>Paramètre
+## <a name="setting"></a>Setting
 
-L'action **Parcourir** utilise l'argument suivant :
+L’action **Parcourir** utilise l’argument suivant :
 
 <table>
 <colgroup>
@@ -41,28 +41,28 @@ L'action **Parcourir** utilise l'argument suivant :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Type d'objet</p></td>
-<td><p>Type d'objet vers lequel naviguer.</p></td>
+<td><p>Type d’objet</p></td>
+<td><p>Type d’objet vers lequel naviguer.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nom d’objet</p></td>
+<td><p>Nom de l’objet</p></td>
 <td><p>Objet qui se charge à l’intérieur du contrôle de sous-formulaire référencé par l’argument Chemin d’accès au contrôle de sous-formulaire.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Chemin d’accès au contrôle de sous-formulaire</p></td>
-<td><p>Si spécifié, le chemin d’accès à partir du formulaire principal de l’application du sous-formulaire cible contrôle qui charge l’objet spécifié par l’argument nom de l’objet.</p></td>
+<td><p>Si ce paramètre est spécifié, le chemin d'accès à partir du formulaire principal de l'application vers le contrôle de sous-formulaire cible qui charge l'objet spécifié par l'argument nom de l'objet.</p></td>
 </tr>
 <tr class="even">
 <td><p>Condition Where</p></td>
-<td><p>Spécifié, remplace la condition Where de la source de l'enregistrement de l'objet.</p></td>
+<td><p>Si spécifié, remplace la condition WHERE de la source d’enregistrement de l’objet.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Page</p></td>
-<td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est web uniquement.</p></td>
+<td><p>Spécifié, définit la page du formulaire continu qui deviendra la page active. Cet argument est uniquement Web.</p></td>
 </tr>
 <tr class="even">
 <td><p>Mode Données</p></td>
-<td><p>Spécifié, le mode d'entrée des données du formulaire.</p></td>
+<td><p>Si spécifié, il s’agit du mode de saisie des données du formulaire.</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,9 +80,9 @@ Dans cet exemple, le Formulaire principal est le formulaire de niveau supérieur
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action Parcourir pour ouvrir un état dans un contrôle de sous-formulaire ou dans un contrôle de navigation.
+L'exemple suivant montre comment utiliser l'action BrowseTo pour ouvrir un État dans un contrôle de sous-formulaire ou un contrôle de navigation.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     OnError

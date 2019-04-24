@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: caaf755ebd63f1805d0c77ef79a0f5863a85050e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300685"
 ---
 # <a name="recordopenoptionsenum"></a>RecordOpenOptionsEnum
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie des options pour l'ouverture d'un [Record](record-object-ado.md). Les valeurs peuvent être combinées en utilisant OR.
 
@@ -37,7 +37,7 @@ Spécifie des options pour l'ouverture d'un [Record](record-object-ado.md). Les 
 <tbody>
 <tr class="odd">
 <td><p><strong>adDelayFetchFields</strong></p></td>
-<td><p>0 x 8000</p></td>
+<td><p>0x8000</p></td>
 <td><p>Indique au fournisseur que les champs associés au <strong>Record</strong> n'ont pas besoin d'être extraits tout de suite ; ils peuvent l'être à la première tentative d'accès. Le fonctionnement par défaut, indiqué par l'absence de cet indicateur, est d'extraire tous les champs de l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -52,7 +52,7 @@ Spécifie des options pour l'ouverture d'un [Record](record-object-ado.md). Les 
 </tr>
 <tr class="even">
 <td><p><strong>adOpenExecuteCommand</strong></p></td>
-<td><p>0 x 10000</p></td>
+<td><p>0x10000</p></td>
 <td><p>Indique que la chaîne source contient le texte des commandes qui doivent être exécutées. Cette valeur est équivalente à l'option <strong>adCmdText</strong> de <strong>Recordset.Open</strong>.</p></td>
 </tr>
 <tr class="odd">

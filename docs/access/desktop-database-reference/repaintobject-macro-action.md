@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722829"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306684"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l'action **RedessinerObjet** pour effectuer les mises à jour d'écran en attente pour l'objet de base de données spécifié ou pour celui actif si aucun objet n'est spécifié. Ces mises à jour englobent les nouveaux calculs en attente des contrôles de l'objet.
+Vous pouvez utiliser l’action **RedessinerObjet** pour effectuer les mises à jour d’écran en attente pour l’objet de base de données spécifié ou pour celui actif si aucun objet n’est spécifié. Ces mises à jour englobent les nouveaux calculs en attente des contrôles de l’objet.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **RedessinerObjet** accepte les arguments suivants.
+L’action **RedessinerObjet** accepte les arguments suivants.
 
 <table>
 <colgroup>
@@ -41,20 +41,20 @@ L'action **RedessinerObjet** accepte les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Type d'objet</strong></p></td>
+<td><p><strong>Type d’objet</strong></p></td>
 <td><p>Type d’objet à redessiner. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Laissez cet argument vide pour sélectionner l’objet actif.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Nom de l'objet</strong></p></td>
+<td><p><strong>Nom objet</strong></p></td>
 <td><p>Nom de l’objet à redessiner. La zone <strong>Nom de l’objet</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour achever des mises à jour d'écran en attente, Microsoft Office Access attend d'avoir terminé d'autres tâches en attente. Avec cette action, vous pouvez faire en sorte que tous les contrôles de l'objet spécifié soient immédiatement redessinés. Vous pouvez utiliser cette action dans les cas suivants :
+Pour achever des mises à jour d’écran en attente, Microsoft Office Access attend d’avoir terminé d’autres tâches en attente. Avec cette action, vous pouvez faire en sorte que tous les contrôles de l’objet spécifié soient immédiatement redessinés. Vous pouvez utiliser cette action dans les cas suivants :
 
 - Lorsque vous utilisez l'action **DéfinirValeur** pour modifier des valeurs dans une série de contrôles. Access n'affiche pas toujours immédiatement les modifications, surtout si d'autres contrôles (tels que des contrôles calculés) dépendent des valeurs des contrôles modifiés.
 
@@ -64,5 +64,5 @@ Pour achever des mises à jour d'écran en attente, Microsoft Office Access atte
 > - Dans la mesure où cette action n'entraîne pas de réactualisation de la base de données, elle n'affiche pas les enregistrements nouveaux et modifiés pas plus qu'elle ne supprime les enregistrements supprimés de la table ou requête sous-jacente de l'objet. Utilisez l'action **Actualiser** pour actualiser la source de l'objet ou l'un de ses contrôles. Utilisez l'action **AfficherTousEnreg** pour afficher les enregistrements les plus récents et supprimer tous les filtres.
 > - L'action **RedessinerObjet** n'a pas le même effet que l'option **Actualiser** dans le groupe **Enregistrements** de l'onglet **Accueil**, laquelle affiche toutes les modifications que vous ou d'autres utilisateurs avez apportées aux enregistrements actuellement affichés dans des formulaires et des feuilles de données.
 
-Pour exécuter l'action **RedessinerObjet** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **RepaintObject** de l'objet **DoCmd**.
+Pour exécuter l’action **RedessinerObjet** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **RepaintObject** de l’objet **DoCmd**.
 

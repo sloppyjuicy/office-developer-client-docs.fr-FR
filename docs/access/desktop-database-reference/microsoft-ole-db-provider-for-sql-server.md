@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c4faa664ed9001c1c06906f58c7d873faf75a5d0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288889"
 ---
-# <a name="microsoft-ole-db-provider-for-sql-server"></a>Fournisseur Microsoft OLE DB pour SQL Server
+# <a name="microsoft-ole-db-provider-for-sql-server"></a>Fournisseur Microsoft OLE DB pour SQL Server
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le fournisseur Microsoft OLE DB pour SQL Server (SQLOLEDB) permet à ADO d'accéder à Microsoft SQL Server.
 
@@ -34,7 +34,7 @@ Cette valeur peut également être définie ou lue à partire de la propriété 
 
 ## <a name="typical-connection-string"></a>Chaîne de connexion classique
 
-Voici une chaîne de connexion classique pour ce fournisseur :
+Voici une chaîne de connexion classique pour ce fournisseur :
 
 ```sql 
  
@@ -83,7 +83,7 @@ La chaîne est composée des mots clé suivants :
 
 ## <a name="provider-specific-connection-parameters"></a>Paramètres de connexion spécifiques au fournisseur
 
-Le fournisseur prend en charge plusieurs paramètres de connexion qui lui sont spécifiques en plus de ceux définis par ADO. Comme les propriétés de connexion ADO, ces propriétés spécifiques au fournisseur peuvent être définies via la collection [Properties](properties-collection-ado.md) d'un objet [Connection](connection-object-ado.md) ou dans **ConnectionString**.
+Le fournisseur prend en charge plusieurs paramètres de connexion qui lui sont spécifiques en plus de ceux définis par ADO. Comme les propriétés de connexion ADO, ces propriétés spécifiques au fournisseur peuvent être définies via la collection [Properties](properties-collection-ado.md) d’un objet [Connection](connection-object-ado.md) ou dans **ConnectionString**.
 
 <table>
 <colgroup>
@@ -92,7 +92,7 @@ Le fournisseur prend en charge plusieurs paramètres de connexion qui lui sont s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -115,7 +115,7 @@ La langue doit être installée sur le serveur SQL ; sinon, la tentative de con
 </tr>
 <tr class="even">
 <td><p>Network Library</p></td>
-<td><p>Indique le nom de la bibliothèque réseau (bibliothèques de liens dynamiques) utilisé pour communiquer avec le serveur SQL Server. Le nom ne doit pas inclure le chemin d’accès ou l’extension de nom de fichier .dll. La valeur par défaut est fournie par la configuration du client SQL Server.</p></td>
+<td><p>Indique le nom de la bibliothèque réseau (bibliothèques de liens dynamiques) utilisée pour communiquer avec le serveur SQL. Le nom ne doit pas inclure le chemin d’accès ni l’extension de nom de fichier .dll. La valeur par défaut est fournie par la configuration du client SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Use Procedure for Prepare</p></td>
@@ -165,7 +165,7 @@ SQLOLEDB est capable de traiter cette instruction sous ces deux formes lorsqu'el
 
 ## <a name="stored-procedures"></a>Procédures stockées
 
-Pour exécuter une procédure stockée SQL Server à l'aide d'une commande SQLOLEDB, utilisez la séquence d'échappement d'appel de procédure ODBC dans le texte de commande. SQLOLEDB utilise alors le mécanisme d'appel de procédure distante (RPC) de SQL Server pour optimiser le traitement de la commande. Par exemple, l'instruction SQL ODBC suivante est préférable dans le texte de commande à la forme Transact-SQL :
+Pour exécuter une procédure stockée SQL Server à l'aide d'une commande SQLOLEDB, utilisez la séquence d'échappement d'appel de procédure ODBC dans le texte de commande. SQLOLEDB utilise alors le mécanisme d'appel de procédure distante (RPC) de SQL Server pour optimiser le traitement de la commande. Par exemple, l'instruction SQL ODBC suivante est préférable dans le texte de commande à la forme Transact-SQL :
 
 ## <a name="odbc-sql"></a>SQL ODBC
 
@@ -530,7 +530,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="even">
-<td><p>IConnectionPointContainer</p></td>
+<td><p>Interfaces</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="odd">
@@ -711,7 +711,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 </tr>
 <tr class="odd">
 <td><p>Server Cursor</p></td>
-<td><p>DONNEZ</p></td>
+<td><p>DBPROP_SERVERCURSOR</p></td>
 </tr>
 <tr class="even">
 <td><p>Skip Deleted Bookmarks</p></td>
@@ -826,7 +826,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_IColumnsRowset</p></td>
 </tr>
 <tr class="odd">
-<td><p>IConnectionPointContainer</p></td>
+<td><p>Interfaces</p></td>
 <td><p>DBPROP_IConnectionPointContainer</p></td>
 </tr>
 <tr class="even">
@@ -1019,7 +1019,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 </tr>
 <tr class="odd">
 <td><p>Server Cursor</p></td>
-<td><p>DONNEZ</p></td>
+<td><p>DBPROP_SERVERCURSOR</p></td>
 </tr>
 <tr class="even">
 <td><p>Server Data on Insert</p></td>
@@ -1046,7 +1046,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>SSPROP_STREAM_XMLROOT</p></td>
 </tr>
 <tr class="even">
-<td><p>XSL</p></td>
+<td><p>XSLT</p></td>
 <td><p>SSPROP_STREAM_XSL</p></td>
 </tr>
 </tbody>

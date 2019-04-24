@@ -1,5 +1,5 @@
 ---
-title: Principales propriétés, méthodes et événements (ADOX)
+title: Key, propriétés, méthodes et événements (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 35639116-c8ec-103d-88f6-c0560efef2c0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249115(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9c46ff4d00efd5ed8f46ba3a40175b997750c11a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290307"
 ---
-# <a name="key-properties-methods-and-events-adox"></a>Principales propriétés, méthodes et événements (ADOX)
+# <a name="key-properties-methods-and-events-adox"></a>Key, propriétés, méthodes et événements (ADOX)
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
@@ -29,9 +29,9 @@ ms.locfileid: "28714548"
 
 ## <a name="methods"></a>Méthodes
 
-Aucune.
+Aucun.
 
-## <a name="events"></a>Événements
+## <a name="events"></a>Events
 
 Aucun.
 

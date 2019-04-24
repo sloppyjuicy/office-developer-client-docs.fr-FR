@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c6668dfd40f7d0d26bcfa2ca4149acdc713e14c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291928"
 ---
 # <a name="hierarchy-object-ado-md"></a>Hierarchy, objet (ADO MD)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente un moyen d'agréger ou de « cumuler » les membres d'une [dimension](dimension-object-ado-md.md). Vous pouvez agréger une dimension le long d'une ou de plusieurs hiérarchies.
 
 ## <a name="remarks"></a>Remarques
 
-Avec les collections et propriétés d'un objet **Hierarchy**, vous pouvez :
+Avec les collections et propriétés d'un objet **Hierarchy**, vous pouvez :
 
   - Identifier la **hiérarchie** à l'aide des propriétés [Name](name-property-ado-md.md) et [UniqueName](uniquename-property-ado-md.md).
 
@@ -52,11 +52,11 @@ La collection **Properties** renferme les propriétés fournies par le fournisse
 <td><p>Le membre au niveau le plus élevé de la hiérarchie.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nom de catalogue</p></td>
+<td><p>Nomcatalogue</p></td>
 <td><p>Le nom du catalogue auquel ce cube appartient.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nom du cube</p></td>
+<td><p>CubeName</p></td>
 <td><p>Le nom du cube.</p></td>
 </tr>
 <tr class="even">

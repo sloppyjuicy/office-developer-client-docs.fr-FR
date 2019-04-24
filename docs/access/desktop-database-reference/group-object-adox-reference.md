@@ -1,5 +1,5 @@
 ---
-title: Référence de l’objet de groupe (ADOX)
+title: Référence d'objet de groupe (ADOX)
 TOCTitle: Group object (ADOX)
 ms:assetid: 7b616ef3-e2ca-4457-8644-b4b282c17c4f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249511(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aaa8eb15f1febf83600785c6cbf8c5582d834210
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292096"
 ---
-# <a name="group-object-adox-reference"></a>Référence de l’objet de groupe (ADOX)
+# <a name="group-object-adox-reference"></a>Référence d'objet de groupe (ADOX)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [Group, objet (ADOX)](group-object-adox.md)
-- [Groupes propriétés, méthodes et événements (ADOX)](group-properties-methods-and-events-adox.md)
+- [Propriétés, méthodes et événements de groupe (ADOX)](group-properties-methods-and-events-adox.md)
 

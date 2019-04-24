@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: dc582046ff1981a82fab9c9c551b0064c1e8c1de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296170"
 ---
 # <a name="command-object-ado"></a>Command, objet (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez un objet **Command** pour interroger une base de données et renvoyer des enregistrements dans un objet [Recordset](recordset-object-ado.md), pour exécuter une opération en bloc ou pour manipuler la structure d'une base de données. Selon les fonctionnalités proposées par le fournisseur, certaines collections, méthodes ou propriétés **Command** risquent de générer une erreur lorsqu'elles sont référencées.
 
@@ -45,7 +45,7 @@ Les collections, les méthodes et les propriétés d'un objet **Command** vous p
 
   - associer une connexion ouverte à un objet **Command** en définissant sa propriété [ActiveConnection](activeconnection-property-ado.md) ;
 
-  - définir la propriété [Name](name-property-ado.md) pour identifier l'objet **Command** en tant que méthode pour l'objet [Connection](connection-object-ado.md) associé ;
+  - Définir la propriété [Name](name-property-ado.md) pour spécifier l'objet **Command** en tant que méthode à utiliser sur l'objet [Connection](connection-object-ado.md) associé.
 
   - passer un objet **Command** à la propriété [Source](source-property-ado-recordset.md) d'un objet **Recordset** afin d'obtenir des données ;
 
@@ -58,7 +58,7 @@ Pour créer un objet **Command** indépendamment d'un objet **Connection** déj�
 
 Pour exécuter un objet **Command**, il vous suffit de l'appeler à l'aide de sa propriété [Name](name-property-ado.md) sur l'objet **Connection** associé. La propriété **ActiveConnection** de **Command** doit être définie sur l'objet **Connection**. Si **Command** possède des paramètres, passez ses valeurs en tant qu'arguments à la méthode.
 
-Si deux objets **Command** ou plus sont exécutés sur la même connexion et que l'un d'eux**** est une procédure stockée sans paramètres de sortie, une erreur se produit. Pour exécuter chaque objet **Command**, utilisez des connexions distinctes ou déconnectez tous les autres objets **Command**.
+If two or more **Command** objects are executed on the same connection and either **Command** object is a stored procedure with output parameters, an error occurs. To execute each **Command** object, use separate connections or disconnect all other **Command** objects from the connection.
 
 La collection **Parameters** est le membre par défaut de l'objet **Command**. Les deux instructions suivantes sont donc équivalentes.
 

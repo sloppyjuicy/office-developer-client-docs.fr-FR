@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d8682c19686650ab193536658c6b56961f289174
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721561"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307076"
 ---
 # <a name="refreshrecord-macro-action"></a>RefreshRecord, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Vous pouvez utiliser l'action **ActualiserEnregistrement** pour mettre à jour la source d'enregistrement sous-jacente de la feuille de données ou du formulaire actif de manière à refléter les modifications apportées aux enregistrements dans le jeu en cours.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'action **ActualiserEnregistrement** affiche uniquement les modifications apportées aux enregistrements dans le jeu actif. Étant donné que l'action **ActualiserEnregistrement** n'actualise pas réellement la base de données, le jeu actuel n'inclut pas les enregistrements qui ont été ajoutés et n'exclut pas les enregistrements qui ont été supprimés depuis la dernière actualisation de la base de données ; il n'exclut pas non plus les enregistrements qui ne répondent plus aux critères de la requête ou du filtre. Pour actualiser la base de données, utilisez la méthode **[Actualiser](requery-macro-action.md)**. Lorsque la source d'enregistrement pour un formulaire est actualisée, le jeu d'enregistrements actuel reflète exactement toutes les données de la source d'enregistrement.
 
@@ -39,9 +39,9 @@ L'action de macro **ActualiserEnregistrement** effectue les opérations suivante
 
 1.  Elle met à jour la source d'enregistrement pour la feuille de données ou le formulaire actif de façon à refléter les modifications apportées aux lignes dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne dans la source d’enregistrement a été supprimée, il est modifié pour afficher \#Deleted.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne de la source d'enregistrement a été supprimée, elle est remplacée \#pour afficher la suppression.
 
-3.  Actualise l’actif ou la feuille de données pour afficher les enregistrements modifiés et les \#suppression des enregistrements, dans le jeu actuel.
+3.  Actualise la feuille de données ou active pour afficher les enregistrements modifiés et \#les enregistrements supprimés dans le jeu actuel.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
 
@@ -53,9 +53,9 @@ L'action de macro **ActualiserEnregistrement** effectue les opérations suivante
 
 1.  Elle extrait les modifications à partir du serveur pour les tables de base dans le jeu actuel. Pour les tables liées ODBC, elle extrait de la source de données les modifications apportées aux enregistrements dans le jeu actuel.
 
-2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne dans le jeu actuel a été supprimée, il est modifié pour afficher \#Deleted.
+2.  Elle met à jour le jeu actuel de façon à refléter les modifications apportées. Si une ligne du jeu actuel a été supprimée, elle est remplacée pour afficher \#la suppression.
 
-3.  Actualise l’actif formulaire ou feuille de données pour afficher les enregistrements modifiés et les \#suppression des enregistrements, dans le jeu actuel.
+3.  Actualise la feuille de données ou le formulaire actif pour afficher les enregistrements modifiés \#et les enregistrements supprimés dans le jeu actuel.
 
 4.  Elle actualise tous les sous-formulaires et sous-états dans la feuille de données ou le formulaire actif.
 

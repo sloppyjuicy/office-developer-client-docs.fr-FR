@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.Size (DAO)
+title: Field2. Size, propriété (DAO)
 TOCTitle: Size Property
 ms:assetid: e252759a-cea9-25cb-667d-80b422fbf97e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835700(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f1467414729f4ea82bc2779eeb2bd162465b5ccd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292684"
 ---
-# <a name="field2size-property-dao"></a>Propriété Field2.Size (DAO)
+# <a name="field2size-property-dao"></a>Field2. Size, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Définit ou renvoie une valeur qui indique la taille maximale, en octets, d'un objet **Field2**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Taille
+*expression* . Longueur
 
 *expression* Variable qui représente un objet **Field2** .
 
@@ -62,7 +62,7 @@ L'utilisation de la propriété **Size** dépend de l'objet contenant la collect
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

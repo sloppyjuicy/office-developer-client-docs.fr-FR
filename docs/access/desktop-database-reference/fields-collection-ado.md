@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a537756483361733c087d5dc1c6bba6e649d17d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292572"
 ---
 # <a name="fields-collection-ado"></a>Fields, collection (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Contient tous les objets [Field](field-object-ado.md) d'un objet [Recordset](recordset-object-ado.md) ou [Record](record-object-ado.md).
+Contient tous les objets [Field](field-object-ado.md) d’un objet [Recordset](recordset-object-ado.md) ou [Record](record-object-ado.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet **Recordset** possède une collection **Fields** composée d'objets **Field**. Chaque objet **Field** correspond à une colonne du **Recordset**. Vous pouvez remplir la collection **Fields** avant d'ouvrir l'objet **Recordset** en appelant la méthode [Refresh](refresh-method-ado.md) sur cette collection.
 

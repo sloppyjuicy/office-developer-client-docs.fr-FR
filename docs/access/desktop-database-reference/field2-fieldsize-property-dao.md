@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.FieldSize (DAO)
+title: Field2. FieldSize, propriété (DAO)
 TOCTitle: FieldSize Property
 ms:assetid: d609801d-7761-663f-2840-de5923bb120c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835039(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a7dfeb33568664a6a75f9f43de64e0c24abeb09a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292803"
 ---
-# <a name="field2fieldsize-property-dao"></a>Propriété Field2.FieldSize (DAO)
+# <a name="field2fieldsize-property-dao"></a>Field2. FieldSize, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Renvoie le nombre d'octets utilisés dans la base de données (plutôt que la mémoire) d'un objet **Field2** de type Mémo ou Binaire long de la collection **[Fields](fields-collection-dao.md)** d'un objet **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Taille du champ
+*expression* . FieldSize
 
 *expression* Variable qui représente un objet **Field2** .
 

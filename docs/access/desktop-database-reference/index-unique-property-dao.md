@@ -1,5 +1,5 @@
 ---
-title: Propriété Index.Unique (DAO)
+title: Index. unique, propriété (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821087(v=office.15)
@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5c94200245b4736ad244cb37beec617a98d6c367
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704622"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291691"
 ---
-# <a name="indexunique-property-dao"></a>Propriété Index.Unique (DAO)
+# <a name="indexunique-property-dao"></a>Index. unique, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente un index (une clé) unique d'une table (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Unique
+*expression* . Exclusive
 
-*expression* Variable qui représente un objet **Index** .
+*expression* Variable qui représente un objet **index** .
 
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est en lecture/écriture jusqu'à ce que l'objet soit ajouté à une collection ; elle passe alors en lecture seule.
+Cette propriété est en lecture/écriture jusqu'à ce que l'objet soit ajouté à une collection ; elle passe alors en lecture seule.
 
 Un index unique est constitué d'un ou de plusieurs champs qui organisent de manière logique tous les enregistrements d'une table dans un ordre unique et prédéfini. Si l'index est constitué d'un seul champ, les valeurs de ce dernier doivent être uniques pour la table entière. Si l'index est constitué de plus d'un champ, chacun de ces champs peut contenir des valeurs en double, mais chaque combinaison de valeurs de tous les champs indexés doit être unique.
 
@@ -43,7 +43,7 @@ Si les propriétés **Unique** et **[Primary](index-primary-property-dao.md)** d
 > - Les enregistrements extraits de tables non indexées sont renvoyés sans ordre particulier.
 > - La propriété **[Attributes](field-attributes-property-dao.md)** de chaque objet **[Field](field-object-dao.md)** dans l'objet **Index** détermine l'ordre des enregistrements et donc les techniques d'accès à utiliser pour cet objet **Index**.
 > - Un index unique facilite la recherche des enregistrements.
-> - Index n’affectent pas l’ordre physique d’une table de base ; index affecte uniquement la manière dont les enregistrements sont accessibles par l’objet **[Recordset](recordset-object-dao.md)** de type table lorsqu’un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets **Recordset** .
+> - Les index n'ont pas d'incidence sur l'ordre physique d'une table de base; les index affectent uniquement la façon dont les enregistrements sont accessibles par l'objet **[Recordset](recordset-object-dao.md)** de type table lorsqu'un index particulier est choisi ou lorsque le moteur de base de données Microsoft Access crée des objets **Recordset** .
 
 ## <a name="example"></a>Exemple
 

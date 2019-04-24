@@ -1,5 +1,5 @@
 ---
-title: Mode immédiat (référence de base de données du bureau Access)
+title: Mode immédiat (référence de base de données de bureau Access)
 TOCTitle: Immediate mode
 ms:assetid: 61bd3645-6e84-2e3a-7814-37d8c1247df0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249362(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3abc2e8365c60987fedc0d306b274df74c7ee551
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291879"
 ---
 # <a name="immediate-mode"></a>Mode immédiat
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Le mode Immédiat est activé lorsque la propriété **LockType** est définie sur **adLockOptimistic** ou **adLockPessimistic**. Dans ce mode, les modifications apportées à un enregistrement sont répercutées dans la source de données dès que vous déclarez que le travail sur une ligne est terminé en invoquant la méthode **Update**.
 
 ## <a name="calling-update"></a>Invocation de la méthode Update
 
-Si vous quittez l'enregistrement ajouté ou modifié avant d'appeler la méthode **Update**, ADO appelle automatiquement la méthode **Update** pour enregistrer les modifications. Vous devez appeler la méthode **CancelUpdate** avant la navigation si vous souhaitez annuler les modifications apportées à l’enregistrement actif ou ignorer un enregistrement nouvellement ajouté.
+If you move from the record you are adding or editing before calling the **Update** method, ADO will automatically call **Update** to save the changes. You must call the **CancelUpdate** method before navigation if you want to cancel any changes made to the current record or discard a newly added record.
 
 L'enregistrement actif reste actif après avoir invoqué la méthode **Update**.
 

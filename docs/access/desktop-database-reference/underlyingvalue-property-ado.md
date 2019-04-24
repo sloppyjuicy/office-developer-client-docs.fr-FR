@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6d1618a0cb310c1e564fe18289da6a2d35e91d0b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313999"
 ---
 # <a name="underlyingvalue-property-ado"></a>UnderlyingValue, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 
@@ -35,7 +35,7 @@ Cette procédure est similaire à la méthode [Resync](resync-method-ado.md), ma
 
 Lorsque vous utilisez cette propriété en association avec la propriété **OriginalValue**, vous pouvez résoudre les conflits générés par les mises à jour par lot.
 
-## <a name="record"></a>Rappel
+## <a name="record"></a>Record
 
-Pour les objets [Record](record-object-ado.md), cette propriété est vide pour les champs ajoutés avant l'appel de la méthode [Update](update-method-ado.md).
+Pour les objets [Record](record-object-ado.md), cette propriété est vide pour les champs ajoutés avant l’appel de la méthode [Update](update-method-ado.md).
 

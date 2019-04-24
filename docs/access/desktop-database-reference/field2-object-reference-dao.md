@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet Field2 (DAO)
+title: Référence d'objet Field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 1f2fde45-577d-4f53-9652-1307ac038f87
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123963(v=office.15)
@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7c04fd52dc7cc97f0d36ee2966afe5166a178264
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292733"
 ---
-# <a name="field2-object-reference-dao"></a>Référence d’objet Field2 (DAO)
+# <a name="field2-object-reference-dao"></a>Référence d'objet Field2 (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Membres de l’objet Field2 (DAO)](field2-members-dao.md)
-- [Méthodes de l’objet Field2 (DAO)](field2-methods-dao.md)
-- [Objet Field2 (DAO)](field2-object-dao.md)
-- [Propriétés de l’objet Field2 (DAO)](field2-properties-dao.md)
+- [Field2, membres (DAO)](field2-members-dao.md)
+- [Field2, méthodes (DAO)](field2-methods-dao.md)
+- [Field2, objet (DAO)](field2-object-dao.md)
+- [Field2, propriétés (DAO)](field2-properties-dao.md)
 
 

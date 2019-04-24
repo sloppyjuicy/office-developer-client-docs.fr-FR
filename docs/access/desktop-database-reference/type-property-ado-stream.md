@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bb4cebdb8b4aff1413ec60fe4ebb1e05931f6476
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306250"
 ---
 # <a name="type-property-ado-stream"></a>Type, propriété (objet Stream ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le type de données contenu dans l'objet [Stream](stream-object-ado.md) (binaire ou texte).
 
@@ -29,5 +29,5 @@ Définit ou renvoie une valeur [StreamTypeEnum](streamtypeenum.md) qui spécifie
 
 La propriété **Type** n’est accessible en lecture et en écriture que lorsque la position actuelle est au début de l’objet **Stream** (la valeur de la propriété [Position](position-property-ado.md) est 0) ; elle est en lecture seule pour toute autre position.
 
-La propriété **Type** détermine les méthodes devant être utilisées pour effectuer des lectures et des écritures sur l'objet **Stream**. Pour les objets **Stream** textuels, utilisez [ReadText](readtext-method-ado.md) et [Writetext](writetext-method-ado.md). Pour les objets **Stream** binaires, utilisez [Read](read-method-ado.md) et [Write](write-method-ado.md).
+La propriété **Type** détermine les méthodes devant être utilisées pour effectuer des lectures et des écritures sur l’objet **Stream**. Pour les objets **Stream** textuels, utilisez [ReadText](readtext-method-ado.md) et [Writetext](writetext-method-ado.md). Pour les objets **Stream** binaires, utilisez [Read](read-method-ado.md) et [Write](write-method-ado.md).
 

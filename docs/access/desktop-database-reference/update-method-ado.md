@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f077634abea6fadfe5c4305fc25b28e6d57bf13e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306236"
 ---
 # <a name="update-method-ado"></a>Update, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Enregistre les modifications apportées à la ligne active d'un objet [Recordset](recordset-object-ado.md) ou à la collection [Fields](fields-collection-ado.md) d'un objet [Record](record-object-ado.md).
+Enregistre les modifications apportées à la ligne active d’un objet [Recordset](recordset-object-ado.md) ou à la collection [Fields](fields-collection-ado.md) d’un objet [Record](record-object-ado.md).
 
 ## <a name="syntax"></a>Syntaxe
 
-*jeu d’enregistrements*. Mettre à jour des*champs de* *valeurs*
+*Recordset*. Mettre à jour les*champs*, les *valeurs*
 
 *enregistrement*. *Champs*. Mise à jour
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*Fields* |Facultatif. Valeur de type **Variant** représentant un nom unique ou tableau de valeurs **Variant** représentant les noms ou positions ordinales des champs à modifier.|
 |*Values* |Facultatif. Valeur de type **Variant** représentant une valeur unique ou un tableau de valeurs **Variant** représentant les valeurs du ou des champs du nouvel enregistrement.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="recordset"></a>Recordset
 
@@ -57,7 +57,7 @@ L'enregistrement actif reste actif après avoir appelé la méthode **Update**.
 
 ### <a name="record"></a>Record
 
-La méthode **Update** finalise les ajouts, suppressions et mises à jour des champs de la collection [Fields](fields-collection-ado.md) d'un objet **Record**.
+La méthode **Update** finalise les ajouts, suppressions et mises à jour des champs de la collection [Fields](fields-collection-ado.md) d’un objet **Record**.
 
 Par exemple, les champs supprimés avec la méthode **Delete** sont marqués immédiatement pour suppression mais restent dans la collection. La méthode **Update** doit être appelée pour supprimer réellement ces champs de la collection du fournisseur.
 

@@ -1,5 +1,5 @@
 ---
-title: Référence d’objet index (DAO)
+title: Index, référence d'objet (DAO)
 TOCTitle: Indexes Object
 ms:assetid: ef17afe4-3ce6-4f70-a691-66c8dc23571e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179981(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d1f3f4433812303d5c64264358ae754eea82cbed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291510"
 ---
-# <a name="indexes-object-reference-dao"></a>Référence d’objet index (DAO)
+# <a name="indexes-object-reference-dao"></a>Index, référence d'objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [Indexes, collection (DAO)](indexes-collection-dao.md)
-- [Membres d’index (DAO)](indexes-members-dao.md)
-- [Propriétés de l’index (DAO)](indexes-properties-dao.md)
-- [Méthodes d’index (DAO)](indexes-methods-dao.md)
+- [Indexes, membres (DAO)](indexes-members-dao.md)
+- [Indexes, propriétés (DAO)](indexes-properties-dao.md)
+- [Indexes, méthodes (DAO)](indexes-methods-dao.md)
 

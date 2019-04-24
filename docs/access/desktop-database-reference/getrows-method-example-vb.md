@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 27bdc82b1ea8cd3fc019b036de98a921dd7bc9bb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292236"
 ---
 # <a name="getrows-method-example-vb"></a>GetRows, méthode – Exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise la méthode [GetRows](getrows-method-ado.md) pour récupérer un nombre spécifié de lignes à partir d'un [Recordset](recordset-object-ado.md) et pour insérer les données obtenues dans un tableau. La méthode **GetRows** renverra moins de lignes que le nombre voulu dans deux cas : si la [fin de fichier](bof-eof-properties-ado.md) a été atteinte ou si la méthode **GetRows** a tenté de récupérer un enregistrement qui a été supprimé par un autre utilisateur. La fonction renvoie **False** uniquement dans le deuxième cas. La fonction GetRowsOK est obligatoire pour exécuter cette procédure.
+Cet exemple de code montre comment utiliser la méthode [GetRows](getrows-method-ado.md) pour extraire un nombre déterminé de lignes d'un objet [Recordset](recordset-object-ado.md) et pour remplir un tableau avec les données résultantes. La méthode **GetRows** peut renvoyer un nombre de lignes inférieur au nombre souhaité dans deux cas : si [EOF](bof-eof-properties-ado.md) a été atteint ou si **GetRows** a tenté d'extraire un enregistrement qui a été supprimé par un autre utilisateur. La fonction ne renvoie la valeur **False** que dans le deuxième cas. La fonction GetRowsOK est nécessaire à l'exécution de cette procédure.
 
 ```vb 
  

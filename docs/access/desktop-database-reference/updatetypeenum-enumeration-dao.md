@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d1e4ecbc216ab4a00dabd85f623bc134772dfd4c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706162"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306187"
 ---
 # <a name="updatetypeenum-enumeration-dao"></a>UpdateTypeEnum, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cette énumération est utilisée avec la méthode **Update** pour spécifier les mises à jour à écrire sur le disque.
 
@@ -36,18 +36,18 @@ Cette énumération est utilisée avec la méthode **Update** pour spécifier le
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbUpdateBatch ne</p></td>
+<td><p>dbUpdateBatch</p></td>
 <td><p>4</p></td>
 <td><p>Toutes les modifications en attente dans le cache de mise à jour sont écrites sur le disque.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Seules les modifications en attente de l'enregistrement actif sont écrites sur le disque.</p></td>
 </tr>
 <tr class="odd">
-<td><p>valeurs de dbUpdateRegular</p></td>
-<td><p>1</p></td>
+<td><p>dbUpdateRegular</p></td>
+<td><p>0,1</p></td>
 <td><p>(Valeur par défaut) Les modifications en attente ne sont pas mises en cache. Elles sont écrites immédiatement sur le disque.</p></td>
 </tr>
 </tbody>

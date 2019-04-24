@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c056f2b0922402ea7cde7cf767969b73f912f572
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292166"
 ---
 # <a name="gotocontrol-macro-action"></a>GoToControl, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Vous pouvez utiliser l’action **GoToControl** pour placer le focus sur le champ spécifié ou le contrôle de l’enregistrement actif du formulaire ouvert, formulaire, feuille de données de table ou feuille de données de requête. Vous pouvez utiliser cette action lorsque vous souhaitez mettre le focus sur un champ ou un contrôle particulier. Ce champ ou le contrôle puis utilisable pour des comparaisons ou des actions **TrouverEnregistrement**. Vous pouvez également utiliser cette action pour naviguer dans un formulaire sous certaines conditions. Par exemple, si l'utilisateur saisit non dans un contrôle conjoint sur un formulaire d'assurance maladie, le focus peut automatiquement passer le contrôle nom du conjoint/partenaire et déplacer vers le contrôle suivant.
+Vous pouvez utiliser l'action **AtteindreContrôle** pour déplacer le focus sur le champ ou le contrôle spécifié dans l'enregistrement actif du formulaire ouvert, de la feuille de donnée de formulaire, de la feuille de donnée de table ou de la requête. Vous pouvez utiliser cette action lorsque vous souhaitez mettre le focus sur un champ ou un contrôle particulier. Ce champ ou le contrôle puis utilisable pour des comparaisons ou des actions **TrouverEnregistrement**. Vous pouvez également utiliser cette action pour naviguer dans un formulaire sous certaines conditions. Par exemple, si l'utilisateur saisit non dans un contrôle conjoint sur un formulaire d'assurance maladie, le focus peut automatiquement passer le contrôle nom du conjoint/partenaire et déplacer vers le contrôle suivant.
 
 ## <a name="setting"></a>Setting
 
 > [!NOTE]
-> Cette action n’est pas disponible pour une utilisation avec des pages d’accès aux données.
+> Cette action ne peut pas être utilisée avec des pages d'accès aux données.
 
 L’action **AtteindreContrôle** possède l’argument suivant.
 
@@ -40,9 +40,9 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Nom du contrôle</strong> :</p></td>
-<td><p>Nom du champ ou du contrôle dans lequel vous souhaitez déplacer le focus. Entrez le nom de champ ou un contrôle dans la zone <strong>Nom du contrôle</strong> dans la section <strong>Arguments de l’Action</strong> du volet Générateur de Macro. Cet argument est obligatoire.</p>
-<p><strong>Remarque</strong>: entrer uniquement le nom du champ ou du contrôle dans l’argument <strong>Nom du contrôle</strong> , pas l’identificateur complet, tels que des formulaires ! Produits ! [ID produit].</p></td>
+<td><p><strong>Nom du contrôle</strong></p></td>
+<td><p>Nom du champ ou du contrôle dans lequel vous souhaitez déplacer le focus. Entrez le nom du champ ou du contrôle dans la zone <strong>nom du contrôle</strong> de la section arguments de l' <strong>action</strong> du volet générateur de macro. Cet argument est obligatoire.</p>
+<p><strong>Remarque</strong>: entrez uniquement le nom du champ ou du contrôle dans l'argument <strong>nom du contrôle</strong> , et non pas l'identificateur complet, comme Forms! Articles! [Product ID].</p></td>
 </tr>
 </tbody>
 </table>
@@ -50,12 +50,12 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 
 ## <a name="remarks"></a>Remarques
 
-Vous ne pouvez pas utiliser l’action **AtteindreContrôle** pour déplacer le focus vers un contrôle sur un formulaire masqué.
+Vous ne pouvez pas utiliser l'action **AtteindreContrôle** pour déplacer le focus sur un contrôle dans un formulaire masqué.
 
 > [!TIP]
-> Vous pouvez utiliser l’action **AtteindreContrôle** pour déplacer un sous-formulaire, qui est un type de contrôle. Vous pouvez ensuite utiliser l’action **AtteindreEnregistrement** pour déplacer vers un enregistrement particulier du sous-formulaire. Vous pouvez également déplacer un contrôle dans un sous-formulaire à l’aide de l’action **AtteindreContrôle** pour accéder d’abord le sous-formulaire, puis le contrôle de sous-formulaire.
+> Vous pouvez utiliser l'action **AtteindreContrôle** pour accéder à un sous-formulaire, qui est un type de contrôle. Vous pouvez ensuite utiliser l'action **AtteindreEnregistrement** pour accéder à un enregistrement particulier dans le sous-formulaire. Vous pouvez également déplacer un contrôle dans un sous-formulaire à l'aide de l'action **AtteindreContrôle** pour passer tout d'abord le sous-formulaire, puis le contrôle du sous-formulaire.
 
-Pour exécuter l’action **AtteindreContrôle** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **GoToControl** de l’objet **DoCmd** . Vous pouvez également utiliser la méthode **SetFocus** pour placer le focus sur un contrôle dans un formulaire ou un de ses sous-formulaires, ou à un champ dans une table ouverte, une requête ou une feuille de données de formulaire.
+Pour exécuter l'action **AtteindreContrôle** dans un module Visual Basic pour applications (VBA), utilisez la méthode **GoToControl** de l'objet **DoCmd** . Vous pouvez également utiliser la méthode **SetFocus** pour placer le focus sur un contrôle dans un formulaire ou un de ses sous-formulaires, ou à un champ dans une table ouverte, une requête ou une feuille de données de formulaire.
 
 ## <a name="examples"></a>Exemples
 
@@ -83,13 +83,13 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 <td><p>Arrêter l'actualisation de l'écran pendant l'exécution de la macro.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>FermerFenêtre</strong></p></td>
-<td><p><strong>Type d’objet</strong>: <strong>FormObject nom</strong>: produit liste <strong>Enregistrer</strong>: <strong>non</strong></p></td>
-<td><p>Fermer le formulaire liste des produits.</p></td>
+<td><p><strong>Fermerfenêtre</strong></p></td>
+<td><p><strong>Type d'objet</strong>: <strong>Formulairenom nom</strong>: liste des produits <strong>Enregistrer</strong>: <strong>non</strong></p></td>
+<td><p>Fermez le formulaire liste des produits.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: <strong>affichage</strong>des produits : <strong>Mode FormData</strong>: <strong>Mode fenêtre Ajouter</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: <strong>produits affichage</strong>: <strong>formulairemode mode</strong> <strong>ajoutermode fenêtre</strong>: <strong>normal</strong></p></td>
 <td><p>Ouvrir le formulaire Produits.</p></td>
 </tr>
 <tr class="even">
@@ -108,7 +108,7 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d'un bouton
 
 **Valider des données à l’aide d’une macro**
 
-La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l'utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n'est pas dans le format correct pour le pays/la région, la macro affiche une zone de message et annule la sauvegarde de l'enregistrement. La macro puis revenir au contrôle de Code Postal, où vous pouvez corriger l’erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
+La macro de validation suivante vérifie les codes postaux entrés dans un formulaire Fournisseurs. Elle illustre l’utilisation des actions **ArrêtMacro**, **ZoneMessage**, **AnnulerEvénement** et **AtteindreContrôle**. Une expression conditionnelle vérifie le pays/la région et le code postal entrés dans un enregistrement du formulaire. Si le code postal n’est pas dans le format correct pour le pays/la région, la macro affiche une zone de message et annule la sauvegarde de l’enregistrement. La macro vous renvoie ensuite au contrôle de code postal, dans lequel vous pouvez corriger l'erreur. Cette macro doit être attachée à la propriété **AvantMAJ** du formulaire Fournisseurs.
 
 <table>
 <colgroup>
@@ -127,16 +127,16 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>IsNull([CountryRegion])</p></td>
+<td><p>IsNull ([PaysRégion])</p></td>
 <td><p><strong>StopMacro</strong></p></td>
 <td><p></p></td>
-<td><p>Si PaysRégion est <strong>Null</strong>, le code postal ne peut pas être validé.</p></td>
+<td><p>Si PaysRégion a la <strong>valeur null</strong>, le code postal ne peut pas être validé.</p></td>
 </tr>
 <tr class="even">
-<td><p>[PaysRégion] Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et NBCAR ([Code Postal]) &lt; &gt; 5</p></td>
+<td><p>Région Dans (&quot;France&quot;,&quot;Italie&quot;,&quot;Espagne&quot;) et NBCAR ([code postal]) &lt; &gt; 5</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: le code postal doit contenir 5 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
-<td><p>Si le code postal n’est pas 5 caractères, affiche un message.</p></td>
+<td><p><strong>Message</strong>: le code postal doit comporter 5 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
+<td><p>Si le code postal n'est pas de 5 caractères, afficher un message.</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>
@@ -147,16 +147,14 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nom du contrôle</strong>: CodePostal</p></td>
+<td><p><strong>Nom du contrôle</strong>: PostalCode</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>[PaysRégion] Dans (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([Code Postal]) &lt; &gt; 4</p></td>
+<td><p>Région En (&quot;Australie&quot;,&quot;Singapour&quot;) et NBCAR ([code postal]) &lt; &gt; 4</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p>Message : Le code postal doit contenir 4 caractères. 
-
- <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
-<td><p>Si le code postal n’est pas 4 caractères, affiche un message.</p></td>
+<td><p>Message : Le code postal doit contenir 4 caractères. <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
+<td><p>Si le code postal n'est pas 4 caractères, affichez un message.</p></td>
 </tr>
 <tr class="even">
 <td><p>...</p></td>
@@ -167,14 +165,14 @@ La macro de validation suivante vérifie les codes postaux entrés dans un formu
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToControl</strong></p></td>
-<td><p><strong>Nom du contrôle</strong>: CodePostal</p></td>
+<td><p><strong>Nom du contrôle</strong>: PostalCode</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([Code Postal] pas comme&quot;[A-Z] [0-9] [A-Z] [0-9] [A-Z] [0-9]&quot;)</p></td>
+<td><p>([PaysRégion] = &quot;Canada&quot;) Et ([code postal] non comme&quot;[A-z] [0-9] [A-z] [0-9] [A-z] [0-9]&quot;</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: le code postal n’est pas valide. Exemple de code canadien : H1J 1C3 <strong>Bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de Code Postal</p></td>
-<td><p>Si le code postal n’est pas correct pour le Canada, affiche un message. (L’exemple de code canadien : H1J 1C3)</p></td>
+<td><p><strong>Message</strong>: le code postal n'est pas valide. Exemple de code canadien: H1J 1C3 <strong>bip</strong>: <strong>YesType</strong>: <strong>InformationTitle</strong>: erreur de code postal</p></td>
+<td><p>Si le code postal n'est pas correct pour le Canada, affiche un message. (Exemple de code postal canadien : H1J 1C3.)</p></td>
 </tr>
 <tr class="odd">
 <td><p>...</p></td>

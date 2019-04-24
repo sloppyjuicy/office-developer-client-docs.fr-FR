@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c13f25df31bea1eb742b4a7e7c958ccdbfb7274a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314006"
 ---
 # <a name="transaction-processing"></a>Traitement de transactions
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO fournit les méthodes suivantes pour le contrôle des transactions : **BeginTrans**, **CommitTrans** et **RollbackTrans**. Utilisez ces méthodes avec un objet **Connection** pour enregistrer ou annuler en bloc une série de modifications apportées à la source de données. Par exemple, pour un transfert financier entre deux comptes, vous devez soustraire un montant de l'un et ajouter ce même montant à l'autre. Si l'une des deux mises à jour échoue, les comptes ne sont pas équilibrés. Si ces modifications sont effectuées par l'intermédiaire d'une transaction ouverte, vous êtes assuré de l'échec ou de la réussite de toutes les modifications.
 
@@ -29,9 +29,9 @@ L'appel de la méthode **CommitTrans** permet d'enregistrer les modifications ap
 
 En fonction de la propriété **Attributes** de l'objet [Connection](attributes-property-ado.md), l'appel des méthodes **CommitTrans** ou **RollbackTrans** permet de lancer automatiquement une nouvelle transaction. Si la propriété **Attributes** a la valeur **adXactCommitRetaining**, le fournisseur lance automatiquement une nouvelle transaction après un appel à **CommitTrans**. Si la propriété **Attributes** a la valeur **adXactAbortRetaining**, le fournisseur lance automatiquement une nouvelle transaction après un appel à **RollbackTrans**.
 
-## <a name="transaction-isolation-level"></a>Niveau d’isolement de transaction
+## <a name="transaction-isolation-level"></a>Niveau d'isolation des transactions
 
-La propriété **IsolationLevel** permet de définir le niveau d'isolation d'une transaction sur un objet **Connection**. Le paramètre ne prend effet qu'au prochain appel de la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si le niveau d'isolation demandé n'est pas disponible, le fournisseur peut renvoyer le niveau d'isolation le plus élevé suivant. Reportez-vous à la propriété **IsolationLevel** de référence du programmeur ADO pour plus d’informations sur les valeurs valides.
+La propriété **IsolationLevel** permet de définir le niveau d'isolation d'une transaction sur un objet **Connection**. Le paramètre ne prend effet qu'au prochain appel de la méthode [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md). Si le niveau d'isolation demandé n'est pas disponible, le fournisseur peut renvoyer le niveau d'isolation le plus élevé suivant. Pour plus d'informations sur les valeurs valides, rePortez-vous à la propriété **IsolationLevel** dans le Guide de référence du programmeur ADO.
 
 ## <a name="nested-transactions"></a>Transactions imbriquées
 

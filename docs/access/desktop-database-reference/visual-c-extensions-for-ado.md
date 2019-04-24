@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fc69d3244cf6faf3aa91fe954e4b39323cf13abf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302751"
 ---
-# <a name="visual-c-extensions-for-ado"></a>Extensions Visual C++ pour ADO
+# <a name="visual-c-extensions-for-ado"></a>Extensions Visual C++ pour ADO
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-À l’aide de la méthode préférée de programmation ADO avec Visual C++ est la ** \#importer** directive, comme indiqué dans la [Programmation ADO Visual C++](visual-c-ado-programming.md). Toutefois, les versions précédentes d’ADO fourni avec une autre méthode de programmation à l’aide de Visual C++ : les Extensions Visual C++. Cette section décrit cette fonctionnalité pour les utilisateurs qui doivent conserver Extensions Visual C++, mais le nouveau code ADO doit être écrite à l’aide de \# **Importer**.
+La méthode préférée de programmation ADO avec Visual c++ consiste à utiliser la directive ** \#Import** , comme décrit dans la [programmation ADO Microsoft Visual C++](visual-c-ado-programming.md). Toutefois, les versions antérieures d'ADO étaient livrées avec une autre méthode de programmation à l'aide de Visual C++: les extensions Visual C++. Cette section décrit cette fonctionnalité pour les personnes qui doivent conserver le code des extensions Visual C++, mais le nouveau code ADO \#doit être écrit à l'aide de la fonction **Import**.
 
 Une des tâches les plus fastidieuses que doivent entreprendre les programmeurs en Visual C++ pour récupérer les données avec ADO consiste à convertir les données retournées en tant que type VARIANT en données C++, puis à stocker les données converties dans une classe ou une structure. De plus, la récupération des données C++ par l'intermédiaire du type VARIANT nuit aux performances du système.
 

@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum (référence de base de données du bureau Access)
+title: ErrorValueEnum (référence de base de données de bureau Access)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d4207f157d361f3b8aba2ff80f46d06b2f328e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717663"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293321"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie le type d'erreur d'exécution ADO.
 
@@ -26,10 +26,10 @@ Trois formes d'erreur sont répertoriées :
 
 - Décimale négative  La conversion décimale du numéro d'erreur complet.
 
-- Hexadécimale — La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction des numéros d'erreurs ADO est *A*. Exemple : 0x800***A***0E7B.
+- Hexadécimale  La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction pour les numéros d'erreur ADO est *un*. Par exemple: 0x800***A***0E7B.
 
 > [!NOTE]
-> Les erreurs OLE DB peuvent être passés à votre application ADO. En règle générale, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_**4**_... Pour plus d’informations sur ces numéros, consultez le chapitre 16 de la *de référence du programmeur OLE DB.*
+> Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_**4**_.... Pour plus d'informations sur ces numéros, consultez le chapitre 16 du *Guide OLE DB Programmer's Reference* (en anglais).
 
 <br/>
 
@@ -446,67 +446,67 @@ Seuls les sous-ensembles suivants d'équivalents ADO/WFC sont définis.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
+<td><p>AdoEnums. ErrorValue. BOUNDTOCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
+<td><p>AdoEnums. ErrorValue. DATACONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
+<td><p>AdoEnums. ErrorValue. FEATURENOTAVAILABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
+<td><p>AdoEnums. ErrorValue. ILLEGALOPERATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
+<td><p>AdoEnums. ErrorValue. inTRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
+<td><p>AdoEnums. ErrorValue. INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
+<td><p>AdoEnums. ErrorValue. INVALIDCONNECTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
+<td><p>AdoEnums. ErrorValue. INVALIDPARAMINFO</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
+<td><p>AdoEnums. ErrorValue. ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
+<td><p>AdoEnums. ErrorValue. NOCURRENTRECORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
+<td><p>AdoEnums. ErrorValue. NOTEXECUTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
+<td><p>AdoEnums. ErrorValue. NOTREENTRANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
+<td><p>AdoEnums. ErrorValue. OBJECTCLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
+<td><p>AdoEnums. ErrorValue. OBJECTINCOLLECTION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
+<td><p>AdoEnums. ErrorValue. OBJECTNOTSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
+<td><p>AdoEnums. ErrorValue. OBJETOPEN,</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
+<td><p>AdoEnums. ErrorValue. OPERATIONCANCELLED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
+<td><p>AdoEnums. ErrorValue. PROVIDERNOTFOUND</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
+<td><p>AdoEnums. ErrorValue. STILLCONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
+<td><p>AdoEnums. ErrorValue. STILLEXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
+<td><p>AdoEnums. ErrorValue. UNSAFEOPERATION</p></td>
 </tr>
 </tbody>
 </table>

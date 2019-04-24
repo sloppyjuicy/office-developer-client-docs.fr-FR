@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41cfaeca449038cd71e71c85b1e3513201f484b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290256"
 ---
 # <a name="languageconstants-enumeration-dao"></a>LanguageConstants, énumération (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique un ordre d'attachement pour la création d'une base de données.
 
@@ -37,108 +37,108 @@ Indique un ordre d'attachement pour la création d'une base de données.
 <tbody>
 <tr class="odd">
 <td><p>dbLangArabic</p></td>
-<td><p>&quot;; LANGID = 0 X 0401 ; CP = 1256 ; PAYS = 0&quot;</p></td>
-<td><p>Arabe</p></td>
+<td><p>&quot;; LANGID = 0x0401; CP = 1256; PAYS = 0&quot;</p></td>
+<td><p>Arabic</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangChineseSimplified</p></td>
-<td><p>&quot;; LANGID = 0X0804 ; CP = 936 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0804; CP = 936; PAYS = 0&quot;</p></td>
 <td><p>Chinois simplifié</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangChineseTraditional</p></td>
-<td><p>&quot;; LANGID = 0X0404 ; CP = 950 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0404; CP = 950; PAYS = 0&quot;</p></td>
 <td><p>Chinois traditionnel</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangCyrillic</p></td>
-<td><p>&quot;; LANGID = 0X0419 ; CP = 1251 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0419; CP = 1251; PAYS = 0&quot;</p></td>
 <td><p>Russe</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangCzech</p></td>
-<td><p>&quot;; LANGID = 0X0405 ; CP = 1250 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0405; CP = 1250; PAYS = 0&quot;</p></td>
 <td><p>Tchèque</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangDutch</p></td>
-<td><p>&quot;; LANGID = 0X0413 ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0413; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Néerlandais</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangGeneral</p></td>
-<td><p>&quot;; LANGID = 0 X 0409 ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0409; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Anglais, allemand, français, portugais, italien et espagnol</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangGreek</p></td>
-<td><p>&quot;; LANGID = 0 X 0408 ; CP = 1253 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0408; CP = 1253; PAYS = 0&quot;</p></td>
 <td><p>Grec</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangHebrew</p></td>
-<td><p>&quot;; LANGID = 0X040D ; CP = 1255 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x040D; CP = 1255; PAYS = 0&quot;</p></td>
 <td><p>Hébreu</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangHungarian</p></td>
-<td><p>&quot;; LANGID = 0X040E ; CP = 1250 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x040E; CP = 1250; PAYS = 0&quot;</p></td>
 <td><p>Hongrois</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangIcelandic</p></td>
-<td><p>&quot;; LANGID = 0X040F ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x040F; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Islandais</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangJapanese</p></td>
-<td><p>&quot;; LANGID = 0 X 0411 ; CP = 932 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0411; CP = 932; PAYS = 0&quot;</p></td>
 <td><p>Japonais</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangKorean</p></td>
-<td><p>&quot;; LANGID = 0X0412 ; CP = 949 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0412; CP = 949; PAYS = 0&quot;</p></td>
 <td><p>Coréen</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangNordic</p></td>
-<td><p>&quot;; LANGID = 0X041D ; CP = 1252 ; PAYS = 0&quot;</p></td>
-<td><p>Langues nordiques</p></td>
+<td><p>&quot;; LANGID = 0x041D; CP = 1252; PAYS = 0&quot;</p></td>
+<td><p>Scandinave</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangNorwDan</p></td>
-<td><p>&quot;; LANGID = 0X0406 ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0406; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Norvégien et danois</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangPolish</p></td>
-<td><p>&quot;; LANGID = 0X0415 ; CP = 1250 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0415; CP = 1250; PAYS = 0&quot;</p></td>
 <td><p>Polonais</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangSlovenian</p></td>
-<td><p>&quot;; LANGID = 0X0424 ; CP = 1250 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x0424; CP = 1250; PAYS = 0&quot;</p></td>
 <td><p>Slovène</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangSpanish</p></td>
-<td><p>&quot;; LANGID = 0X040A ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x040A; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Espagnol</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangSwedFin</p></td>
-<td><p>&quot;; LANGID = 0X041D ; CP = 1252 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x041D; CP = 1252; PAYS = 0&quot;</p></td>
 <td><p>Suédois et finnois</p></td>
 </tr>
 <tr class="even">
 <td><p>dbLangThai</p></td>
-<td><p>&quot;; LANGID = 0X041E ; CP = 874 ; PAYS = 0&quot;</p></td>
+<td><p>&quot;; LANGID = 0x041E; CP = 874; PAYS = 0&quot;</p></td>
 <td><p>Thaï</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangTurkish</p></td>
-<td><p>&quot;; LANGID = 0X041F ; CP = 1254 ; PAYS = 0&quot;</p></td>
-<td><p>Turque</p></td>
+<td><p>&quot;; LANGID = 0x041F; CP = 1254; PAYS = 0&quot;</p></td>
+<td><p>Turc</p></td>
 </tr>
 </tbody>
 </table>

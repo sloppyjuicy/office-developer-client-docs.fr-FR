@@ -13,22 +13,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313390"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Utilisation de Microsoft Access en tant que serveur DDE
 
-**S’applique à**: Access 2013, Office 2013 
+**S’applique à** : Access 2013, Office 2013 
 
 Microsoft Access prend en charge l'échange dynamique de données (DDE) à la fois comme application de destination (client) et comme application source (serveur). Par exemple, une application telle que Microsoft Word, représentant le client, peut utiliser l'échange dynamique de données pour demander des données à une base de données Microsoft Access, représentant le serveur.
 
 > [!TIP]
 > [!CONSEIL] Si vous souhaitez manipuler des objets Microsoft Access à partir d'une autre application, il est peut-être préférable de recourir à l'automation.
 
-Une conversation DDE entre un client et un serveur est établie sur un sujet spécifique. Ce sujet est soit un fichier de données qui utilise le format reconnu par l'application serveur, soit le sujet System qui fournit les informations relatives à l'application serveur elle-même. Une fois une conversation créée sur un sujet particulier, seulement un élément de données associé à cette rubrique peut être transféré.
+Une conversation DDE entre un client et un serveur est établie sur un sujet spécifique. Ce sujet est soit un fichier de données qui utilise le format reconnu par l'application serveur, soit le sujet System qui fournit les informations relatives à l'application serveur elle-même. Une fois qu'une conversation a commencé sur un sujet particulier, seul un élément de données associé à cette rubrique peut être transféré.
 
 Par exemple, supposez que Microsoft Word pour Windows est en cours d'exécution et que vous souhaitez insérer des données d'une base de données Microsoft Access particulière dans un document. Vous entamez une conversation DDE avec Microsoft Access en ouvrant un canal DDE à l'aide de la fonction **DDEInitiate** et en spécifiant le nom du fichier de base de données comme sujet. Vous pouvez alors transférer des données de cette base de données vers Microsoft Word à travers ce canal.
 
@@ -44,7 +44,7 @@ En tant que serveur DDE, Microsoft Access reconnaît les sujets suivants :
 
 - Une instruction Microsoft Access SQL (sujet *chaîne-sql*)
 
-Une fois que vous avez créé une conversation DDE, vous pouvez utiliser l’instruction **DDEExecute** pour envoyer une commande à partir du client à l’application serveur. Lorsqu'il est utilisé comme serveur DDE, Microsoft Access reconnaît, comme commande valide, n'importe lequel des éléments suivants :
+Une fois que vous avez établi une conversation DDE, vous pouvez utiliser l'instruction **DDEExecute** pour envoyer une commande entre le client et l'application serveur. Lorsqu'il est utilisé comme serveur DDE, Microsoft Access reconnaît, comme commande valide, n'importe lequel des éléments suivants :
 
 - Le nom d'une macro dans la base de données en cours.
 
@@ -55,7 +55,7 @@ Une fois que vous avez créé une conversation DDE, vous pouvez utiliser l’ins
 > [!NOTE]
 > [!REMARQUE] Lorsque vous spécifiez une action de macro comme instruction **DDEExecute**, l'action et les arguments éventuels suivent la syntaxe de **DoCmd** et doivent être entourés de crochets ([ ]). Toutefois, les applications qui prennent en charge DDE ne reconnaissent pas les constantes intrinsèques dans les opérations DDE. De même, les arguments de type chaîne de caractères doivent être entourés de guillemets doubles (" ") si la chaîne renferme une virgule. Dans tous les autres cas, les guillemets doubles sont superflus.
 
-L'application client peut utiliser la fonction **DDERequest** pour demander des données textuelles à l'application serveur sur un canal DDE ouvert. Elle peut également utiliser l'instruction **DDEPoke** pour envoyer des données à l'application serveur. Une fois le transfert de données terminée, le client peut utiliser l’instruction **DDETerminate** pour fermer le canal DDE, ou l’instruction **DDETerminateAll** pour fermer tous les canaux ouverts.
+L'application client peut utiliser la fonction **DDERequest** pour demander des données textuelles à l'application serveur sur un canal DDE ouvert. Elle peut également utiliser l'instruction **DDEPoke** pour envoyer des données à l'application serveur. Une fois le transfert de données terminé, le client peut utiliser l'instruction **DDETerminate** pour fermer le canal DDE ou l'instruction **DDETerminateAll** pour fermer tous les canaux ouverts.
 
 > [!NOTE]
 > [!REMARQUE] Lorsque la réception de données par votre application client à travers un canal DDE est terminée, il est préférable de fermer ce canal afin de ne pas épuiser la mémoire et les ressources du système.
@@ -95,7 +95,7 @@ Les sections suivantes vous informent sur les sujets DDE valides pris en charge 
 
 ## <a name="the-system-topic"></a>Le sujet System
 
-Le sujet System est une rubrique standard pour toutes les applications basées sur Windows de Microsoft. Fournit des informations sur les autres rubriques pris en charge par l’application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec l’argument *sujet* , puis exécuter l’instruction **DDERequest** utilisant une des suivantes pour l’argument *élément* .
+La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit tout d'abord appeler la fonction **DDEInitiate** avec l'argument *rubrique* , puis exécuter l'instruction **DDERequest** avec l'un des éléments suivants fournis pour l'argument *élément* .
 
 <table>
 <colgroup>
@@ -118,8 +118,8 @@ Le sujet System est une rubrique standard pour toutes les applications basées s
 <td><p>Une liste des formats que Microsoft Access peut copier dans le Presse-papiers.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Status</p></td>
-<td><p>&quot;Occupé (e)&quot; ou &quot;prêt&quot;.</p></td>
+<td><p>Statut</p></td>
+<td><p>&quot;Occupé&quot; ou &quot;prêt&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p>Topics</p></td>
@@ -130,7 +130,7 @@ Le sujet System est une rubrique standard pour toutes les applications basées s
 
 <br/>
 
-L'exemple suivant montre comment utiliser les fonctions **DDEInitiate** et **DDERequest** avec le sujet System :
+L'exemple suivant montre comment utiliser les fonctions **DDEInitiate** et **DDERequest** avec le sujet System :
 
 ```vb
     ' In Visual Basic, initiate DDE conversation with Microsoft Access. 
@@ -144,12 +144,12 @@ L'exemple suivant montre comment utiliser les fonctions **DDEInitiate** et **DDE
     DDEExecute intChan1, "[OpenDatabase C:\Access\Samples\Northwind.mdb]"
 ```
 
-## <a name="the-database-topic"></a>La rubrique de la base de données
+## <a name="the-database-topic"></a>La rubrique Database
 
-La rubrique de la *base de données* est le nom de fichier d’une base de données. Vous pouvez taper uniquement le nom de base (Les Comptoirs) ou son chemin d’accès et extension .mdb (c :\\Access\\exemples\\Northwind.mdb). Une fois que vous avez engagé une conversation DDE avec la base de données, vous pouvez demander une liste des objets contenus dans celle-ci.
+Le sujet *base-de-données* contient le nom de fichier d'une base de données existante. Vous pouvez taper le nom de base (Northwind) ou son extension. mdb (C:\\Access\\Samples\\comptoir. mdb). Une fois que vous avez engagé une conversation DDE avec la base de données, vous pouvez demander une liste des objets contenus dans celle-ci.
 
 > [!NOTE]
-> [!REMARQUE] Vous ne pouvez pas recourir à l'échange dynamique de données (DDE) pour interroger le fichier d'information du groupe de travail.
+> Vous ne pouvez pas recourir à l'échange dynamique de données (DDE) pour interroger le fichier d'information du groupe de travail.
 
 Le sujet *base-de-données* prend en charge les éléments suivants :
 
@@ -167,11 +167,11 @@ Le sujet *base-de-données* prend en charge les éléments suivants :
 <tbody>
 <tr class="odd">
 <td><p>TableList</p></td>
-<td><p>Une liste de tables</p></td>
+<td><p>Une liste de tableaux</p></td>
 </tr>
 <tr class="even">
 <td><p>QueryList</p></td>
-<td><p>Une liste de requêtes</p></td>
+<td><p>Liste de requêtes</p></td>
 </tr>
 <tr class="odd">
 <td><p>FormList</p></td>
@@ -219,15 +219,15 @@ L'exemple suivant montre comment ouvrir le formulaire Employés de la base de do
     DDEExecute intChan2, "[OpenForm Employees,0,,,1,0]"
 ```
 
-## <a name="the-table-topic"></a>La rubrique de la TABLE
+## <a name="the-table-topic"></a>La rubrique de tableau
 
 Ces sujets utilisent la syntaxe suivante :
 
-_databasename_ ; **Tableau** _TableName_
+_DatabaseName_ ; **Table** _TableName_
 
-_databasename_ ; **Requête** _nom-requête_
+_DatabaseName_ ; **Requête** _NomRequête_
 
-_databasename_ ; **SQL** [ _chaîne-SQL_ ]
+_DatabaseName_ ; **SQL** [ _SqlString_ ]
 
 <br/>
 
@@ -244,20 +244,20 @@ _databasename_ ; **SQL** [ _chaîne-SQL_ ]
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>nombase</em></p></td>
+<td><p><em>DatabaseName</em></p></td>
 <td><p>Le nom de la base de données contenant la table ou la requête à laquelle s'applique l'instruction SQL, suivi d'un point-virgule (;). Le nom de la base de données peut se présenter sous la forme la plus simple (Comptoir) ou sous la forme du nom complet avec chemin d'accès et extension .mdb (C:\Access\Samples\Comptoir.mdb).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>nomtable</em></p></td>
+<td><p><em>NomTableau</em></p></td>
 <td><p>Le nom d'une table existante.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>nomrequête</em></p></td>
+<td><p><em>sujets</em></p></td>
 <td><p>Le nom d'une requête existante.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>chaîne-sql</em></p></td>
-<td><p>Une instruction SQL valide jusqu'à 256 caractères et se terminant par un point-virgule. Pour échanger plus de 256 caractères, omettez cet argument et à la place de plusieurs instructions <strong>DDEPoke</strong> successives pour créer une instruction SQL. Par exemple, le code Visual Basic suivant crée une instruction SQL au moyen de <strong>DDEPoke</strong>, puis demande le résultat de la requête.</p></td>
+<td><p><em>chaîne-</em></p></td>
+<td><p>Une instruction SQL valide pouvant compter jusqu'à 256 caractères et se terminant par un point-virgule. Pour échanger plus de 256 caractères, omettez cet argument et créez une instruction SQL au moyen de plusieurs instructions <strong>DDEPoke</strong> successives. Par exemple, le code Visual Basic suivant crée une instruction SQL au moyen de <strong>DDEPoke</strong>, puis demande le résultat de la requête.</p></td>
 </tr>
 </tbody>
 </table>
@@ -283,7 +283,7 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 <td><p>Toutes les données contenues dans la table, y compris les noms de champs.</p></td>
 </tr>
 <tr class="even">
-<td><p>Données</p></td>
+<td><p>Data</p></td>
 <td><p>Toutes les lignes de données, sans les noms de champs.</p></td>
 </tr>
 <tr class="odd">
@@ -291,24 +291,24 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 <td><p>Une liste d'une seule ligne reprenant les noms de champs.</p></td>
 </tr>
 <tr class="even">
-<td><p>FieldNames ; T</p></td>
+<td><p>FieldNames, Tonne</p></td>
 <td><p>Une liste de deux lignes reprenant les noms de champs (première ligne) et leurs types de données (seconde ligne).</p>
-<p>Voici les valeurs renvoyées :</p>
+<p>Voici les valeurs renvoyées:</p>
 <p>Valeur</p>
 <p><ul>
 <li>0</li>
-<li>1</li>
-<li>2</li>
+<li>0,1</li>
+<li>n°2</li>
 <li>3</li>
 <li>4</li>
-<li>5</li>
-<li>6</li>
-<li>7</li>
-<li>8</li>
-<li>9</li>
+<li>disque</li>
+<li>6.x</li>
+<li>7j/7</li>
+<li>8bits</li>
+<li>4,9</li>
 <li>10</li>
-<li>11</li>
-<li>12</li>
+<li>a4</li>
+<li>an</li>
 </ul>
 </p>
 </td>
@@ -335,11 +335,11 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>Une instruction SQL qui représente la table ou requête. Pour les tables, cet élément retourne une instruction SQL dans le formulaire &quot;sélectionnez `*` de <em>table</em>; &quot;.</p></td>
+<td><p>Une instruction SQL représentant la table ou la requête. Pour les tableaux, cet élément renvoie une instruction SQL dans le &quot;formulaire `*` , sélectionnez de <em>table</em>; &quot;.</p></td>
 </tr>
 <tr class="even">
-<td><p>SQLText;<em>n</em></p></td>
-<td><p>Une instruction SQL, <em>n</em>-de segments, qui représente la table ou requête, où <em>n</em> est un entier jusqu'à 256 caractères. Par exemple, supposons qu’une requête est représentée par l’instruction SQL suivante : l’élément &quot;SQLText ; 7&quot; retourne les segments ci-dessous délimité par des tabulations : l’élément &quot;SQLText ; 7&quot; renvoie les segments délimité par des tabulations suivantes :</p></td>
+<td><p>SQLTEXT <em>n</em></p></td>
+<td><p>Une instruction SQL, en segments de <em>n</em> caractères, représentant la table ou la requête, où <em>n</em> est un nombre entier dont la valeur ne peut dépasser 256. Par exemple, supposons qu'une requête est représentée par l'instruction SQL suivante: &quot;l'élément SQLTEXT&quot; ; 7 renvoie les blocs délimités par des tabulations &quot;suivants: l'&quot; élément SQLTEXT; 7 renvoie les segments suivants:</p></td>
 </tr>
 </tbody>
 </table>

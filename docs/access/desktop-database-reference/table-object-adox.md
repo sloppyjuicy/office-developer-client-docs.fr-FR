@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6475621d711881b0187031aa037c8284e155546d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314405"
 ---
 # <a name="table-object-adox"></a>Table, objet (ADOX)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente une table de base de données comprenant des colonnes, des index et des clés.
 
 ## <a name="remarks"></a>Remarques
 
-Le code suivant permet de créer une nouvelle **table**:
+Le code suivant permet de créer une nouvelle **table** :
 
 `Dim obj As New Table`
 

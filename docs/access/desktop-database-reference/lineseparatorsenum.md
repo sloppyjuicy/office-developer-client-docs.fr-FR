@@ -1,5 +1,5 @@
 ---
-title: LineSeparatorsEnum (référence de base de données du bureau Access)
+title: LineSeparatorsEnum (référence de base de données de bureau Access)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c5ab57cab4829d565ea0e9ac8bffdb0790a34c9f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289941"
 ---
 # <a name="lineseparatorsenum"></a>LineSeparatorsEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Spécifie le caractère utilisé comme séparateur de ligne dans les objets texte [Stream](stream-object-ado.md).
 
@@ -37,8 +37,8 @@ Spécifie le caractère utilisé comme séparateur de ligne dans les objets text
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adCR simple</strong></p></td>
-<td><p>13</p></td>
+<td><p><strong>adCR</strong></p></td>
+<td><p>kg</p></td>
 <td><p>Indique un retour chariot.</p></td>
 </tr>
 <tr class="even">

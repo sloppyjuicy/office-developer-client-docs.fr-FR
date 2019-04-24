@@ -1,5 +1,5 @@
 ---
-title: Définition d'un curseur  (Référence de base de données du bureau access)
+title: Définition d'un curseur  (Référence de base de données de bureau Access)
 TOCTitle: What is a Cursor?
 ms:assetid: cc70d941-05e0-9b14-1c5d-6b1a5802f546
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2023b39620f80e6f770153e381c74d5285d027c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718937"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302743"
 ---
 # <a name="what-is-a-cursor"></a>Qu’est-ce qu’un curseur ?
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Les opérations effectuées dans une base de données relationnelle s'appliquent à l'ensemble d'un jeu de lignes. Le jeu de lignes renvoyé par une instruction SELECT comprend toutes les lignes qui répondent aux conditions de la clause WHERE de l'instruction. Ce jeu de lignes complet, retourné par l'instruction, est appelé « jeu de résultats ». Dans certaines applications, plus particulièrement les applications interactives et en ligne, le traitement global du jeu de résultats présente parfois des difficultés. Ces applications requièrent un mécanisme spécifique leur permettant de traiter une ligne ou un petit ensemble de lignes à la fois. Un curseur constitue une extension au jeux de résultats qui fournit ce mécanisme.
 
@@ -73,5 +73,5 @@ Un curseur assure également le suivi de la position active dans un jeu de résu
 
 ## <a name="scrollability"></a>Fonction de défilement
 
-Le type de curseur utilisé par votre application affecte également la possibilité de déplacer vers l’avant et arrière dans les lignes d’un jeu de résultats ; Il est parfois appelée fonction de défilement. Possibilité de déplacer avant *et* arrière dans un jeu de résultats augmente la complexité du curseur et n’est donc plus coûteuse à implémenter. Pour cette raison, vous devez demander un curseur avec cette fonctionnalité uniquement lorsque cela est nécessaire.
+Le type de curseur utilisé par votre application affecte également la possibilité de défilement avant ou arrière dans les lignes d'un jeu de résultats. C'est ce que l'on appelle la fonction de défilement. La possibilité d'avancer *et* de reculer dans un jeu de résultats augmente la complexité du curseur et donc, exige davantage de ressources pour sa mise en oeuvre. C'est pour cette raison qu'il est conseillé de n'utiliser cette fonctionnalité qu'en cas d'absolue nécessité.
 

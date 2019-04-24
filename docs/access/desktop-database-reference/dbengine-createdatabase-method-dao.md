@@ -1,5 +1,5 @@
 ---
-title: Méthode DBEngine.CreateDatabase (DAO)
+title: DBEngine. CreateDatabase, méthode (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835033(v=office.15)
@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294364"
 ---
-# <a name="dbenginecreatedatabase-method-dao"></a>Méthode DBEngine.CreateDatabase (DAO)
+# <a name="dbenginecreatedatabase-method-dao"></a>DBEngine. CreateDatabase, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Crée un objet **[Database](database-object-dao.md)**, enregistre la base de données sur le disque, et renvoie un objet **Database** ouvert (espaces de travail Microsoft Access uniquement).
+Crée un objet **[Database](database-object-dao.md)**, enregistre la base de données sur le disque, et renvoie un objet **Database** ouvert (espaces de travail Microsoft Access uniquement). .
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . CreateDatabase (***nom***, ***paramètres régionaux***, ***Option***)
+*expression* . CreateDatabase (***nom***, ***paramètres régionaux***, ***option***)
 
 *expression* Variable qui représente un objet **DBEngine** .
 
@@ -42,7 +42,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -52,7 +52,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Une chaîne ne pouvant dépasser 255 caractères qui est le nom du fichier de base de données que vous créez. Il peut être le nom de fichier et chemin d’accès complet. Si votre réseau prend en charge, vous pouvez également spécifier un chemin d’accès réseau, tel que &quot; \\server1\share1\dir1\db1&quot;. Vous pouvez uniquement créer des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
+<td><p>String comportant jusqu’à 255 caractères formant le nom du fichier de base de données que vous créez. Il peut s’agir du nom de fichier et du chemin d’accès complets. Si votre réseau le permet, vous pouvez également spécifier un chemin d'accès réseau, &quot; \\tel&quot;que server1\share1\dir1\db1. Vous ne pouvez créer que des fichiers de base de données Microsoft Access avec cette méthode.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Paramètres régionaux</em></p></td>
@@ -60,11 +60,11 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concaténant la chaîne de mot de passe (commençant par &quot;; pwd =&quot; ) avec une constante dans l’argument <em>locale</em> , comme suit :</p></li>
-<li><p>dbLangSpanish &amp; &quot;; pwd = NewPassword&quot;</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concaténant la chaîne de mot &quot;de passe (&quot; en commençant par;p WD =) avec une constante dans l'argument <em>locale</em> , comme suit:</p></li>
+<li><p>dbLangSpanish &amp; &quot;;p wd = NewPassword&quot;</p></li>
 <li><p>Si vous souhaitez utiliser la valeur par défaut de <em>locale</em> mais spécifier un mot de passe, entrez simplement une chaîne de mot de passe pour l'argument <em>locale</em> :</p></li>
-<li><p>&quot;; pwd = NewPassword&quot;</p></li>
-<li><p>[!REMARQUE] Définissez des mots de passe forts qui combinent des lettres minuscules et majuscules, des nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p></li>
+<li><p>&quot;;p WD = NewPassword&quot;</p></li>
+<li><p>Utilisez des mots de passe forts qui associent des majuscules et des minuscules, des chiffres et des symboles. Les mots de passe faibles n'associent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -79,7 +79,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser l’une des constantes suivantes pour l’argument ParamètresRégionaux afin de spécifier la propriété **[CollatingOrder](database-collatingorder-property-dao.md)** du texte pour des comparaisons de chaînes.
+Vous pouvez utiliser l'une des constantes suivantes pour l'argument paramètres régionaux afin de spécifier la propriété **[CollatingOrder](database-collatingorder-property-dao.md)** de texte pour les comparaisons de chaînes.
 
 <table>
 <colgroup>
@@ -99,7 +99,7 @@ Vous pouvez utiliser l’une des constantes suivantes pour l’argument Paramèt
 </tr>
 <tr class="even">
 <td><p><strong>dbLangArabic</strong></p></td>
-<td><p>Arabe</p></td>
+<td><p>Arabic</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLangChineseSimplified</strong></p></td>

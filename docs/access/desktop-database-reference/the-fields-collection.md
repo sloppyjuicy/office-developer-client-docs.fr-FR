@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ce08ac5952151471ce74afd9a8a49600d8e8f633
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314132"
 ---
 # <a name="fields-collection"></a>Fields, collection
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La collection **Fields** est une des collections intrinsèques d'ADO. Une collection est un ensemble hiérarchique d'éléments qui peuvent être référencés en tant qu'unité.
 
@@ -25,7 +25,7 @@ La collection **Fields** contient un objet **Field** pour chaque champ (colonne)
 
 ## <a name="examining-the-fields-collection"></a>Présentation de la collection Fields
 
-Prendre en compte la collection **Fields** de l’exemple de **que jeu d’enregistrements** présenté dans ce chapitre. L’exemple de **que jeu d’enregistrements** a été dérivé de l’instruction SQL
+Consider the **Fields** collection of the sample **Recordset** introduced in this chapter. The sample **Recordset** was derived from the SQL statement
 
 ```sql 
  

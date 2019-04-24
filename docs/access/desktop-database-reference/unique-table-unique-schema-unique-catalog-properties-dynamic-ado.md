@@ -1,5 +1,5 @@
 ---
-title: Unique Table, Unique Schema, Unique Catalog, propriétés dynamiques (ADO)
+title: Unique table, unique Schema, unique Catalog, propriétés dynamiques (ADO)
 TOCTitle: Unique Table, Unique Schema, Unique Catalog dynamic properties (ADO)
 ms:assetid: e6374782-755b-322b-21de-6d6a386dcd98
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250169(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5f4bf93afc200edd88e89cf5d4e90435c2476942
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32313747"
 ---
-# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Unique Table, Unique Schema, Unique Catalog, propriétés dynamiques (ADO)
+# <a name="unique-table-unique-schema-unique-catalog-dynamic-properties-ado"></a>Unique table, unique Schema, unique Catalog, propriétés dynamiques (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Permet de contrôler précisément les modifications apportées à une table de base déterminée dans un objet [Recordset](recordset-object-ado.md) formé par une opération JOIN dans plusieurs tables de base.
 
@@ -29,9 +29,9 @@ Permet de contrôler précisément les modifications apportées à une table de 
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
-Définit ou renvoie une valeur de type **String** qui représente le nom d'une table, d'un schéma ou d'un catalogue.
+Définit ou renvoie une valeur de type **String ** qui représente le nom d'une table, d'un schéma ou d'un catalogue.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La table de base souhaitée est identifiée de manière unique par le nom de son catalogue, de son schéma et de sa table. Lorsque la propriété **Unique Table** est définie, les valeurs des propriétés **Unique Schema** ou **Unique Catalog** sont utilisées pour rechercher la table de base. Il est prévu, mais pas obligatoire, que l'une ou les deux propriétés **Unique Schema** et **Unique Catalog** soient définies avant la propriété **Unique Table**.
 
