@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: Obtient la valeur de la propriété du compte spécifié.
-ms.openlocfilehash: 2c0756f416a209d37eff2209a82c298837f85f3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient la valeur de la propriété de compte spécifiée.
+ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321232"
 ---
-# <a name="iolkaccountgetprop"></a><span data-ttu-id="c574a-103">IOlkAccount::GetProp</span><span class="sxs-lookup"><span data-stu-id="c574a-103">IOlkAccount::GetProp</span></span>
+# <a name="iolkaccountgetprop"></a><span data-ttu-id="6f483-103">IOlkAccount::GetProp</span><span class="sxs-lookup"><span data-stu-id="6f483-103">IOlkAccount::GetProp</span></span>
 
-<span data-ttu-id="c574a-104">Obtient la valeur de la propriété du compte spécifié.</span><span class="sxs-lookup"><span data-stu-id="c574a-104">Gets the value of the specified account property.</span></span>
+<span data-ttu-id="6f483-104">Obtient la valeur de la propriété de compte spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6f483-104">Gets the value of the specified account property.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="c574a-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="c574a-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="6f483-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="6f483-105">Quick info</span></span>
 
-<span data-ttu-id="c574a-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="c574a-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="6f483-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="6f483-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccount::GetProp(  
@@ -29,31 +29,31 @@ ACCT_VARIANT *pVar
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c574a-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c574a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6f483-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="6f483-107">Parameters</span></span>
 
-<span data-ttu-id="c574a-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="c574a-108">_dwProp_</span></span>
+<span data-ttu-id="6f483-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="6f483-108">_dwProp_</span></span>
   
-> <span data-ttu-id="c574a-109">[in] La balise de propriété de la propriété de compte à obtenir.</span><span class="sxs-lookup"><span data-stu-id="c574a-109">[in] The property tag of the account property to get.</span></span>
+> <span data-ttu-id="6f483-109">dans Balise de propriété de la propriété Account à obtenir.</span><span class="sxs-lookup"><span data-stu-id="6f483-109">[in] The property tag of the account property to get.</span></span>
     
-<span data-ttu-id="c574a-110">_pVar_</span><span class="sxs-lookup"><span data-stu-id="c574a-110">_pVar_</span></span>
+<span data-ttu-id="6f483-110">_pVar_</span><span class="sxs-lookup"><span data-stu-id="6f483-110">_pVar_</span></span>
   
-> <span data-ttu-id="c574a-111">[out] La valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c574a-111">[out] The value of the specified property.</span></span>
+> <span data-ttu-id="6f483-111">remarquer Valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6f483-111">[out] The value of the specified property.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="c574a-112">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="c574a-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="6f483-112">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="6f483-112">Return values</span></span>
 
-|<span data-ttu-id="c574a-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="c574a-113">**HRESULT**</span></span>|<span data-ttu-id="c574a-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="c574a-114">**Description**</span></span>|
+|<span data-ttu-id="6f483-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="6f483-113">**HRESULT**</span></span>|<span data-ttu-id="6f483-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="6f483-114">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c574a-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="c574a-115">S_OK</span></span>  <br/> |<span data-ttu-id="c574a-116">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="c574a-116">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="c574a-117">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="c574a-117">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="c574a-118">La propriété est introuvable pour le compte donné.</span><span class="sxs-lookup"><span data-stu-id="c574a-118">The property is not found for the given account.</span></span>  <br/> |
-|<span data-ttu-id="c574a-119">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="c574a-119">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="c574a-120">Une balise de propriété non valide a été spécifiée.</span><span class="sxs-lookup"><span data-stu-id="c574a-120">An invalid property tag has been specified.</span></span>  <br/> |
+|<span data-ttu-id="6f483-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="6f483-115">S_OK</span></span>  <br/> |<span data-ttu-id="6f483-116">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="6f483-116">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="6f483-117">E_ACCT_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="6f483-117">E_ACCT_NOT_FOUND</span></span>  <br/> |<span data-ttu-id="6f483-118">La propriété est introuvable pour le compte donné.</span><span class="sxs-lookup"><span data-stu-id="6f483-118">The property is not found for the given account.</span></span>  <br/> |
+|<span data-ttu-id="6f483-119">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="6f483-119">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="6f483-120">Une balise de propriété non valide a été spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6f483-120">An invalid property tag has been specified.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c574a-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="c574a-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6f483-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="6f483-121">Remarks</span></span>
 
-<span data-ttu-id="c574a-122">Une fois que cette méthode est retournée, si la valeur de la propriété de compte est un type de fichier binaire ou chaîne, vous devez libérer *pVar* à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).</span><span class="sxs-lookup"><span data-stu-id="c574a-122">After this method returns, if the value of the account property is a binary or string type, you must free  *pVar*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).</span></span>
+<span data-ttu-id="6f483-122">Après le renvoi de cette méthode, si la valeur de la propriété Account est un type binaire ou de type chaîne, vous devez libérer *pvar* à l'aide de [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).</span><span class="sxs-lookup"><span data-stu-id="6f483-122">After this method returns, if the value of the account property is a binary or string type, you must free  *pVar*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c574a-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c574a-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6f483-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6f483-123">See also</span></span>
 
-- [<span data-ttu-id="c574a-124">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="c574a-124">Constants (Account management API)</span></span>](constants-account-management-api.md) 
-- [<span data-ttu-id="c574a-125">IOlkAccount::FreeMemory</span><span class="sxs-lookup"><span data-stu-id="c574a-125">IOlkAccount::FreeMemory</span></span>](iolkaccount-freememory.md)  
-- [<span data-ttu-id="c574a-126">IOlkAccount::SetProp</span><span class="sxs-lookup"><span data-stu-id="c574a-126">IOlkAccount::SetProp</span></span>](iolkaccount-setprop.md)
+- [<span data-ttu-id="6f483-124">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="6f483-124">Constants (Account management API)</span></span>](constants-account-management-api.md) 
+- [<span data-ttu-id="6f483-125">IOlkAccount::FreeMemory</span><span class="sxs-lookup"><span data-stu-id="6f483-125">IOlkAccount::FreeMemory</span></span>](iolkaccount-freememory.md)  
+- [<span data-ttu-id="6f483-126">IOlkAccount::SetProp</span><span class="sxs-lookup"><span data-stu-id="6f483-126">IOlkAccount::SetProp</span></span>](iolkaccount-setprop.md)
 

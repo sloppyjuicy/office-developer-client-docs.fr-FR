@@ -1,5 +1,5 @@
 ---
-title: Règle &amp; Grid, Section
+title: Section &amp; grille de règle
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,19 +9,19 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: da8a6f95-86e0-fcf0-34b4-efa369569085
 description: Indique les paramètres actuels relatifs aux règles et à la grille de la page.
-ms.openlocfilehash: f43323e0d189275fb7b01a7d2039ea99bc76e539
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ad878c0efb8af668236cccf292b74bed836913db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320138"
 ---
-# <a name="ruler-amp-grid-section"></a><span data-ttu-id="2abc4-103">Règle &amp; Grid, Section</span><span class="sxs-lookup"><span data-stu-id="2abc4-103">Ruler &amp; Grid Section</span></span>
+# <a name="ruler-amp-grid-section"></a><span data-ttu-id="bb2e3-103">Section &amp; grille de règle</span><span class="sxs-lookup"><span data-stu-id="bb2e3-103">Ruler &amp; Grid Section</span></span>
 
-<span data-ttu-id="2abc4-104">Indique les paramètres actuels relatifs aux règles et à la grille de la page.</span><span class="sxs-lookup"><span data-stu-id="2abc4-104">Shows the current settings of the page's rulers and grid.</span></span>
+<span data-ttu-id="bb2e3-104">Indique les paramètres actuels relatifs aux règles et à la grille de la page.</span><span class="sxs-lookup"><span data-stu-id="bb2e3-104">Shows the current settings of the page's rulers and grid.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="2abc4-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="2abc4-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bb2e3-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="bb2e3-105">Remarks</span></span>
 
-<span data-ttu-id="2abc4-106">Cette section est une propriété de page qui peut être affichée uniquement dans la fenêtre feuille ShapeSheet d’une page.</span><span class="sxs-lookup"><span data-stu-id="2abc4-106">This section is a page property that can be viewed only in the ShapeSheet window for a page.</span></span> <span data-ttu-id="2abc4-107">Les cellules qu’elle contient correspondent aux paramètres de la **règle &amp; grille** boîte de dialogue (sous l’onglet **affichage** , dans le groupe **Afficher/masquer** , cliquez sur le Lanceur de boîte de dialogue).</span><span class="sxs-lookup"><span data-stu-id="2abc4-107">The cells it contains correspond to the settings in the **Ruler &amp; Grid** dialog box (on the **View** tab, in the **Show/Hide** group, click the dialog box launcher).</span></span> 
+<span data-ttu-id="bb2e3-106">Il s’agit d’une propriété de page qui ne figure que dans la fenêtre Feuille ShapeSheet de la page concernée.</span><span class="sxs-lookup"><span data-stu-id="bb2e3-106">This section is a page property that can be viewed only in the ShapeSheet window for a page.</span></span> <span data-ttu-id="bb2e3-107">Les cellules qu'elle contient correspondent aux paramètres de la boîte de dialogue \*\*grille de règle &amp; \*\* (sous l'onglet **affichage** , dans le groupe **Afficher/masquer** , cliquez sur le lanceur de boîte de dialogue).</span><span class="sxs-lookup"><span data-stu-id="bb2e3-107">The cells it contains correspond to the settings in the **Ruler &amp; Grid** dialog box (on the **View** tab, in the **Show/Hide** group, click the dialog box launcher).</span></span> 
   
 
