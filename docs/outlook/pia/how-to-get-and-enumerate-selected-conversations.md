@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2d71fc1d582abebc8cb00f4885ec5b5ba348228c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699372"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320313"
 ---
 # <a name="get-and-enumerate-selected-conversations"></a>Obtention et énumération des conversations sélectionnées
 
@@ -24,7 +24,7 @@ Microsoft Outlook peut être défini de manière à afficher les éléments de l
 
 L’exemple contient une méthode, DemoConversationHeadersFromSelection. La méthode définit l’affichage actuel sur la boîte de réception, puis vérifie si l’affichage actuel est un affichage tableau qui indique des conversations triées par date. Pour obtenir une sélection, y compris les objets [ConversationHeader](https://msdn.microsoft.com/library/ff184727\(v=office.15\)) sélectionnés, DemoConversationHeadersFromSelection utilise la méthode **GetSelection** de l’objet [Selection](https://msdn.microsoft.com/library/bb612099\(v=office.15\)), en spécifiant la constante [olConversationHeaders](https://msdn.microsoft.com/library/ff184867\(v=office.15\)) comme un argument. Si les en-têtes de conversation sont sélectionnés, DemoConversationHeadersFromSelection utilise l’objet [SimpleItems](https://msdn.microsoft.com/library/ff184992\(v=office.15\)) pour énumérer les éléments dans chaque conversation sélectionnée, puis affiche l’objet de ces éléments de conversation qui sont des objets [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

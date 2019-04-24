@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 78fb610c5afc3cac4f6de84240f734e5ae196110
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321384"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565542"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le dossier dans lequel le message en cours a été créé ou ouvert, si un tel dossier existe. Cette méthode renvoie la valeur NULL dans le paramètre _ppFolder_ pour les messages incorporés, qui ne sont pas stockées directement dans un dossier. 
+Renvoie le dossier dans lequel le message actif a été créé ou ouvert, si ce dossier existe. Cette méthode renvoie NULL dans le paramètre _ppFolder_ pour les messages incorporés, qui ne sont pas stockés directement dans un dossier. 
   
 ```cpp
 HRESULT GetFolder(
@@ -37,7 +37,7 @@ HRESULT GetFolder(
 
  _ppFolder_
   
-> [out] Pointeur vers un pointeur vers le dossier renvoyé.
+> remarquer Pointeur vers un pointeur vers le dossier renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Aucun dossier n’existe pour le message.
+> Il n'existe aucun dossier pour le message.
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces qui sont liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFolder  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFolder** pour renvoyer le pointeur actuellement mis en cache dans le dossier spécifié.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetFolder** pour renvoyer le pointeur actuellement en cache vers le dossier spécifié.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulaire MAPI](mapi-form-interfaces.md)
 

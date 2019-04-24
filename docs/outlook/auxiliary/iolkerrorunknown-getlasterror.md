@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f332de3-470d-9bc2-0c65-684bb58bcd7a
-description: Obtient une chaîne de message de l’erreur spécifiée.
-ms.openlocfilehash: 7b00392cdf65d1d4990f2231769e5126c9ae26dc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient une chaîne de message pour l'erreur spécifiée.
+ms.openlocfilehash: 4d2aa3a7513687484988921734eb4c0e6f91226b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321881"
 ---
 # <a name="iolkerrorunknowngetlasterror"></a>IOlkErrorUnknown::GetLastError
 
-Obtient une chaîne de message de l’erreur spécifiée. 
+Obtient une chaîne de message pour l'erreur spécifiée. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,13 +32,13 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ## <a name="parameters"></a>Paramètres
 
-_ressources humaines_
+_hr_
   
-> [in] Le code d’erreur à rechercher.
+> dans Code d'erreur à rechercher.
     
 _ppwszError_
   
-> [out] Le message d’erreur qui correspond à des *ressources humaines* . 
+> remarquer Message d'erreur correspondant à *RH* . 
     
 ## <a name="return-values"></a>Valeurs de retour
 

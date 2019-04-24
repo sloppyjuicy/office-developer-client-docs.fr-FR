@@ -11,48 +11,48 @@ api_name:
 api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: cffa3024b8533f07f8f76fa5bbac219e23d61bdb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: bf21ed1d41a61f600cfded777b699cf620c2e00f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321349"
 ---
 # <a name="imapimessagesite--iunknown"></a>IMAPIMessageSite : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère les messages et est implémentée par le code de visionneuse de formulaire (généralement, une application cliente) qui répond à ce manipulation.
+Manipule les messages et est implémenté par le code de la visionneuse de formulaires (généralement une application cliente) qui répond à cette manipulation.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm.h  <br/> |
-|Exposés par :  <br/> |Objets du site  <br/> |
-|Implémentée par :  <br/> |Visionneuses de formulaire  <br/> |
-|Appelée par :  <br/> |Objets de formulaire  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIMessageSite  <br/> |
-|Type de pointeur :  <br/> |LPMAPIMESSAGESITE  <br/> |
+|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Exposé par:  <br/> |Objets de site de messagerie  <br/> |
+|Implémenté par :  <br/> |Visionneuses de formulaires  <br/> |
+|Appelé par :  <br/> |Objets de formulaires  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIMessageSite  <br/> |
+|Type de pointeur:  <br/> |LPMAPIMESSAGESITE  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans lequel le message en cours a été créé ou ouvert.  <br/> |
-|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la banque de messages qui contient le message en cours, si une banque de ce type existe.  <br/> |
-|[GetFolder](imapimessagesite-getfolder.md) <br/> |Renvoie le dossier dans lequel le message en cours a été créé ou ouvert, si un tel dossier existe.  <br/> |
-|[GetMessage](imapimessagesite-getmessage.md) <br/> |Renvoie le message en cours.  <br/> |
-|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Renvoie une interface du Gestionnaire de formulaire un serveur de formulaire peut utiliser pour ouvrir un autre serveur du formulaire.  <br/> |
-|[NewMessage](imapimessagesite-newmessage.md) <br/> |Crée un nouveau message.  <br/> |
-|[CopyMessage](imapimessagesite-copymessage.md) <br/> |Copie le message en cours dans un dossier.  <br/> |
-|[MoveMessage](imapimessagesite-movemessage.md) <br/> |Déplace le message en cours dans un dossier.  <br/> |
-|[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Supprime le message en cours.  <br/> |
-|[SaveMessage](imapimessagesite-savemessage.md) <br/> |Demandes d’enregistrer le message en cours.  <br/> |
-|[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Demande que le message en cours est en attente de remise.  <br/> |
-|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Retourne des informations à partir d’un objet de site message sur le message fonctionnalités du site pour le message en cours.  <br/> |
-|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Retourne une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente à l’objet de site de message en cours.  <br/> |
+|[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans laquelle le message actif a été créé ou ouvert.  <br/> |
+|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la Banque de messages qui contient le message actif, si ce type de magasin existe.  <br/> |
+|[GetFolder](imapimessagesite-getfolder.md) <br/> |Renvoie le dossier dans lequel le message actif a été créé ou ouvert, si ce dossier existe.  <br/> |
+|[GetMessage](imapimessagesite-getmessage.md) <br/> |Renvoie le message actif.  <br/> |
+|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Renvoie une interface du gestionnaire de formulaires, qu'un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.  <br/> |
+|[NewMessage](imapimessagesite-newmessage.md) <br/> |Crée un message.  <br/> |
+|[CopyMessage](imapimessagesite-copymessage.md) <br/> |Copie le message actif dans un dossier.  <br/> |
+|[MoveMessage](imapimessagesite-movemessage.md) <br/> |Déplace le message actif vers un dossier.  <br/> |
+|[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Supprime le message actif.  <br/> |
+|[SaveMessage](imapimessagesite-savemessage.md) <br/> |Demande l'enregistrement du message actif.  <br/> |
+|[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Demande que le message en cours soit mis en file d'attente pour remise.  <br/> |
+|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Renvoie les informations d'un objet de site de messagerie concernant les fonctionnalités du site de messagerie pour le message actif.  <br/> |
+|[Généré](imapimessagesite-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de site de message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

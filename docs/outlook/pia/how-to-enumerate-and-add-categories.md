@@ -1,5 +1,5 @@
 ---
-title: Énumérer et ajouter des catégories
+title: Énumération et ajout des catégories
 TOCTitle: Enumerate and add categories
 ms:assetid: 17a94a01-c463-4332-851e-7d280c66d8c2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320411"
 ---
 # <a name="enumerate-and-add-categories"></a>Énumérer et ajouter des catégories
 
@@ -45,7 +45,7 @@ Les éléments Outlook sont affichés en fonction du nom de la catégorie. Chaqu
 
 
 > [!NOTE]
-> Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
+> [!REMARQUE] Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
 
 Dans l'exemple de code suivant, la première procédure, EnumerateCategories, récupère la liste principale de catégories de l'utilisateur actuel, représentée par la collection **Categories**. Elle énumère ensuite les objets **Category** dans cette collection, puis écrit les propriétés **Name** et **CategoryID** des écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx). La deuxième procédure, AddACategory, récupère la liste principale de catégories de l'utilisateur actuel et utilise la méthode CategoryExists pour vérifier si une catégorie nommée « ISV » existe dans la collection. Si aucune catégorie n'existe sous le nom « ISV », AddACategory ajoute une catégorie nommée « ISV » à la liste principale de catégories et lui affecte la couleur bleu foncé à l'aide de la méthode **Add** de la collection **Categories**. Il désigne également CTRL + F11 comme touche de raccourci pour la catégorie.
 

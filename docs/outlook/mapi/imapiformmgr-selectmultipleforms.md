@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b974b733c24e61cb256ac0cf7b377d5630966fdf
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: c40d853c49645638c2ec4001d86e64a1b2d2e381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321594"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579290"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires et renvoie un tableau de formulaire objets informations décrivant les formulaires.
+Affiche une boîte de dialogue qui permet à l'utilisateur de sélectionner plusieurs formulaires et renvoie un tableau d'objets d'informations de formulaire qui décrivent ces formulaires.
   
 ```cpp
 HRESULT SelectMultipleForms(
@@ -42,53 +42,53 @@ HRESULT SelectMultipleForms(
 
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de la boîte de dialogue qui s’affiche. 
+> dans Handle de la fenêtre parent de la boîte de dialogue affichée. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes dans le passé. Vous pouvez définir l’indicateur suivant :
+> dans Masque de bits des indicateurs qui contrôle le type des chaînes transmises. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes passée sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _pszTitle_
   
-> [in] Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est NULL, le fournisseur de bibliothèque de formulaires qui fournit les formulaires fournit une légende par défaut. 
+> dans Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est null, le fournisseur de bibliothèque de formulaires qui fournit les formulaires fournit une légende par défaut. 
     
  _pfld_
   
-> [in] Pointeur vers le dossier à partir desquels sélectionner les formulaires. Si le paramètre _pfld_ est NULL, les formulaires sont sélectionnées dans le conteneur de formulaire local, personnel ou organisation. 
+> dans Pointeur vers le dossier à partir duquel sélectionner les formulaires. Si le paramètre _pfld_ est null, les formulaires sont sélectionnés à partir du conteneur de formulaire local, personnel ou organisation. 
     
  _pfrminfoarray_
   
-> [in] Pointeur vers un tableau d’objets d’informations de formulaire qui sont présélectionnés pour l’utilisateur.
+> dans Pointeur vers un tableau d'objets d'informations de formulaire présélectionnés pour l'utilisateur.
     
  _ppfrminfoarray_
   
-> [out] Pointeur vers un pointeur vers le tableau d’objets formulaire renvoyé.
+> remarquer Pointeur vers un pointeur vers le tableau renvoyé d'objets d'informations de formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L’appel a réussi et renvoyé la valeur attendue ou les valeurs.
+> L'appel a réussi et a renvoyé la ou les valeurs attendues.
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été défini et l’implémentation prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Visionneuses de formulaire appellent la méthode de **IMAPIFormMgr::SelectMultipleForms** au premier présente une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires et puis pour récupérer un tableau de formulaire d’informations des objets qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, si elles sont masquées (autrement dit, si leurs propriétés masquées sont claires). 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: SelectMultipleForms** pour commencer par présenter une boîte de dialogue qui permet à l'utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d'objets d'informations de formulaire qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, qu'ils soient ou non masqués (c'est-à-dire, si leurs propriétés masquées sont claires ou non). 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si une visionneuse de formulaire transmet l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont en Unicode. Fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
+Si une visionneuse de formulaires transmet l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont au format Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est transmis. 
   
 ## <a name="see-also"></a>Voir aussi
 

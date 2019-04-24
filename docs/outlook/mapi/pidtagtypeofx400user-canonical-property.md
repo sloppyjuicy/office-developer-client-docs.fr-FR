@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1351ec3c-984d-4b3e-8009-7c39f18d71a5
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 41c95147a0bc5a62a4f3a103fccaf0751f89c731
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 5732cd5c2b0b8dc26d699c3567f7cd9be3495184
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320418"
 ---
 # <a name="pidtagtypeofx400user-canonical-property"></a>Propriété canonique PidTagTypeOfX400User
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient le type de destinataire d’un message pour une utilisation dans un rapport.
+Cette propriété contient le type d'un destinataire de message à utiliser dans un rapport.
   
 |||
 |:-----|:-----|
@@ -34,17 +34,17 @@ Cette propriété contient le type de destinataire d’un message pour une utili
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Destinataire MAPI  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
+> Contient les définitions des propriétés indiquées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

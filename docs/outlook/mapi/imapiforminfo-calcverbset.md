@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: db3cc987b20a76116f2591485f57afae017d3e15
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: babff746af16d51ca154d049943f6be7e9fab589
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567712"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321692"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567712"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne un pointeur vers l’ensemble complet des verbes qui utilise un formulaire.
+Renvoie un pointeur vers l'ensemble complet des verbes utilisés par un formulaire.
   
 ```cpp
 HRESULT CalcVerbSet(
@@ -34,19 +34,19 @@ HRESULT CalcVerbSet(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type de chaînes renvoyées. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le type de chaînes renvoyées. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes retournées sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _ppMAPIVerbArray_
   
-> [out] Pointeur vers un pointeur vers la structure [SMAPIVerbArray](smapiverbarray.md) retournée qui contient les verbes du formulaire. 
+> remarquer Pointeur vers un pointeur vers la structure [SMAPIVerbArray](smapiverbarray.md) renvoyée qui contient les verbes du formulaire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,11 +56,11 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été défini et l’implémentation prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
     
 ## <a name="remarks"></a>Remarques
 
-Applications clientes appellent la méthode **IMAPIFormInfo::CalcVerbSet** pour obtenir un pointeur vers l’ensemble de verbes utilisés par un formulaire. Dans la structure **SMAPIVerbArray** retournée dans le paramètre _ppMAPIVerbArray_ , les verbes sont retournés dans l’ordre de numéro d’index ; index de chaque verbe se trouve dans son membre **lVerb** . Applications clientes permet le tableau verbe dynamiquement créer des menus, masquer ou afficher les boutons et ainsi de suite. 
+Les applications clientes appellent la méthode **IMAPIFormInfo:: CalcVerbSet** pour obtenir un pointeur vers l'ensemble des verbes utilisés par un formulaire. Dans la structure **SMAPIVerbArray** renvoyée dans le paramètre _ppMAPIVerbArray_ , les verbes sont renvoyés dans l'ordre du numéro d'index; l'index de chaque verbe se trouve dans son membre **lVerb** . Les applications clientes peuvent utiliser le tableau de verbes pour générer dynamiquement des menus, masquer ou afficher des boutons, et ainsi de suite. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -68,7 +68,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo::CalcVerbSet** lors de l’écriture de sortie de débogage pour les objets d’informations de formulaire.  <br/> |
+|MFCOutput. cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI utilise la méthode **IMAPIFormInfo:: CalcVerbSet** lors de l'écriture de la sortie de débogage pour les objets d'informations de formulaire.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

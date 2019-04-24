@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: Notifie le client des modifications apportées au compte spécifié.
-ms.openlocfilehash: ea4cab8cb8571cf5f34637c08935c78c657e5503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Avertit le client des modifications apportées au compte spécifié.
+ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321965"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-Notifie le client des modifications apportées au compte spécifié.
+Avertit le client des modifications apportées au compte spécifié.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,7 +35,7 @@ HRESULT IOlkAccount::Notify(
 
 _dwNotify_
   
-> [in] Le type de notification. La valeur doit être une des opérations suivantes :
+> dans Type de notification. La valeur doit être l’une des suivantes :
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -49,11 +49,11 @@ _dwNotify_
     
  _dwAcctID_
   
-> [in] L’ID de compte du compte qui a été créé, modifié, supprimé ou préalable supprimé.
+> dans ID de compte qui a été créé, modifié, supprimé ou préalablement supprimé.
     
  _dwFlags_
   
->  [in] Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur pris en charge. 
+>  dans Non utilisé. OLK_ACCOUNT_NO_FLAGS est la seule valeur prise en charge. 
     
 ## <a name="return-values"></a>Valeurs de retour
 

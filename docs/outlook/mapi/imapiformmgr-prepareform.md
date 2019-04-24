@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f8ee2cb-1c2a-4958-b01e-2f4aab689f89
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6e8ea7230ae86dee99cc4413715055fc53afa900
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: d0d5d8fe13a3c192dc0b0a8ddc0f5f945fa16f15
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321811"
 ---
 # <a name="imapiformmgrprepareform"></a>IMAPIFormMgr::PrepareForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579724"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Télécharge un formulaire d’ouverture.
+Télécharge un formulaire à ouvrir.
   
 ```cpp
 HRESULT PrepareForm(
@@ -39,19 +39,19 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> [in] Un handle vers la fenêtre parent de l’indicateur de progression est affichée pendant que le formulaire est téléchargé. Le paramètre _ulUIParam_ est ignoré à moins que l’indicateur MAPI_DIALOG est défini dans le paramètre _ulFlags_ . 
+> dans Handle de la fenêtre parente de l'indicateur de progression qui est affiché pendant le téléchargement du formulaire. Le paramètre _ulUIParam_ est ignoré sauf si l'indicateur MAPI_DIALOG est défini dans le paramètre _ulFlags_ . 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont le formulaire est téléchargé. Vous pouvez définir l’indicateur suivant :
+> dans Masque de des indicateurs qui contrôle le mode de téléchargement du formulaire. L'indicateur suivant peut être défini:
     
 MAPI_DIALOG 
   
-> Affiche une interface utilisateur pour fournir l’état ou demandez à l’utilisateur pour plus d’informations. Si cet indicateur n’est pas défini, aucune interface utilisateur est affichée.
+> Affiche une interface utilisateur pour fournir l'État ou inviter l'utilisateur à fournir des informations supplémentaires. Si cet indicateur n'est pas défini, aucune interface utilisateur n'est affichée.
     
  _pfrmiInfo_
   
-> [in] Pointeur vers un objet d’informations de formulaire pour le formulaire à télécharger.
+> dans Pointeur vers un objet d'informations de formulaire pour le formulaire à télécharger.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,9 +61,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Visionneuses de formulaire appeler la méthode **IMAPIFormMgr::PrepareForm** pour télécharger un formulaire à partir d’un conteneur de formulaire pour l’ouverture. La plupart des utilisateurs du formulaire est inutile d’appeler **PrepareForm**, car les [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) méthodes et appellent **PrepareForm**, si nécessaire. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::P repareform** pour télécharger un formulaire à partir d'un conteneur de formulaire pour l'ouvrir. La plupart des visionneuses de formulaires n'ont pas besoin d'appeler **PrepareForm**, car les méthodes [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) et [IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md) appellent **PrepareForm**, si nécessaire. 
   
-Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (DLL) et les autres fichiers associés à un formulaire pour les modifier. Si le formulaire modifié est chargé dans son conteneur de formulaire, il doit être réinstallé. 
+Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (dll) et les autres fichiers associés à un formulaire afin de les modifier. Si le formulaire modifié est chargé à nouveau dans son conteneur de formulaire, il doit être réinstallé. 
   
 ## <a name="see-also"></a>Voir aussi
 

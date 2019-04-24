@@ -1,5 +1,5 @@
 ---
-title: Tables et utilisation de la mémoire
+title: Utilisation de la mémoire et des tables
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,35 +7,35 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 383c03a00509447222204ab729c56f5eeac553df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: afd69f5a3fff69f670d6be78ba4957307cdb6995
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563015"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320404"
 ---
-# <a name="tables-and-memory-usage"></a>Tables et utilisation de la mémoire
+# <a name="tables-and-memory-usage"></a>Utilisation de la mémoire et des tables
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un aspect important connecté à extraire des données d’une table est de la mémoire. Manque de mémoire disponible peut entraîner [IMAPITable::QueryRows](imapitable-queryrows.md) et [HrQueryAllRows](hrqueryallrows.md) échec, retournez moins le nombre de lignes souhaité. Détermination de la méthode ou la fonction à utiliser pour récupérer des données de la table dépend de si la table peut être prévue pour tenir dans la mémoire et, si elle n’est pas le cas, si l’échec est acceptable. 
+Un problème important lié à la récupération des données d'une table est l'utilisation de la mémoire. L'absence de mémoire disponible peut entraîner l'échec d'une erreur [IMAPITable:: QueryRows](imapitable-queryrows.md) et [HrQueryAllRows](hrqueryallrows.md) , ce qui renvoie moins de lignes que le nombre souhaité. Le choix de la méthode ou de la fonction à utiliser pour récupérer les données de tableau dépend du fait que la table peut être ajustée en mémoire et, si elle ne l'est pas, si la défaillance est acceptable. 
   
-Car il n’est pas toujours facile à déterminer la quantité de données adapté en mémoire en même temps, MAPI fournit des instructions de base pour une application cliente ou le fournisseur de services à suivre. N’oubliez pas qu’il n’y a toujours exceptions, en fonction de l’implémentation de la table particulière et comment les données sous-jacentes sont stockées.
+Étant donné qu'il n'est pas toujours facile de déterminer la quantité de données pouvant être insérées dans la mémoire, MAPI fournit quelques instructions de base pour qu'une application client ou un fournisseur de services soit suivi. N'oubliez pas qu'il existe toujours des exceptions, en fonction de l'implémentation de table particulière et de la façon dont les données sous-jacentes sont stockées.
   
-Les instructions suivantes peuvent servir à évaluer l’utilisation de la mémoire table :
+Les instructions suivantes peuvent être utilisées pour évaluer l'utilisation de la mémoire des tableaux:
   
-- Les clients qui tolèrent occasionnellement travailler ensemble de la mémoire dans la plage mégaoctet et peuvent prendre qu’ils n’auront aucun problème de lecture d’un tableau entier en mémoire. 
+- Les clients qui peuvent tolérer une utilisation occasionnelle de la mémoire du jeu de travail dans la plage de mégaoctets et peuvent supposer qu'ils n'auront aucun problème à lire une table entière dans la mémoire. 
     
-- Restrictions ont une incidence sur l’utilisation d’une table de la mémoire. Un tableau avec un nombre important de lignes, par exemple une table des matières, strictement limité peut s’attendre à tenir dans la mémoire mais pas les généralement une table de grande taille illimitée. 
+- Les restrictions ont un impact sur l'utilisation de la mémoire d'une table. Un tableau fortement restreint avec un nombre important de lignes, telles qu'une table des matières, peut être susceptible de s'adapter à la mémoire pendant qu'une table de grande taille non restreinte ne l'est généralement pas. 
     
-- Plusieurs tables appartenant à MAPI, tel que le statut, profils, service de message, fournisseur et tables de banque de messages, généralement contenir en mémoire. Il s’agit généralement de petites tables. Toutefois, il existe certaines exceptions. Par exemple, un fournisseur de profil sur le serveur peut générer une plus grande table profil qui ne sera pas en mesure d’adapter.
+- Plusieurs des tables appartenant à MAPI, telles que l'État, le profil, le service de messagerie, le fournisseur et les tables de banque de messages, sont généralement contenues dans la mémoire. Il s'agit généralement de petites tables. Toutefois, il existe des exceptions. Par exemple, un fournisseur de profils serveur peut générer une table de profil plus grande qui ne pourra pas être ajustée.
     
-Pour récupérer toutes les lignes d’un tableau qui s’intègre à mémoire sans problème, appelez [HrQueryAllRows](hrqueryallrows.md), définissant le nombre maximal de lignes à zéro.
+Pour récupérer toutes les lignes d'une table qui tiendront dans la mémoire sans problème, appelez [HrQueryAllRows](hrqueryallrows.md), en définissant le nombre maximal de lignes sur zéro.
   
-Pour récupérer toutes les lignes d’un tableau qui peut ou ne peut pas tenir dans la mémoire, génère une erreur, appelez **HrQueryAllRows** spécifiant un nombre maximal de lignes. Le nombre maximal de lignes doit être défini à un nombre supérieur au nombre minimal de lignes qui sont nécessaires. Si un client doit accéder au moins 50 lignes à partir d’une table de 300 lignes, le nombre maximal de lignes doit être défini au moins 51. 
+Pour récupérer toutes les lignes d'une table qui peuvent être dans la mémoire ou non, générant une erreur, appelez **HrQueryAllRows** en spécifiant un nombre maximal de lignes. Le nombre maximal de lignes doit être défini sur un nombre supérieur au nombre minimal de lignes nécessaires. Si un client doit accéder au moins à 50 lignes à partir d'une table de 300 lignes, le nombre maximal de lignes doit être défini sur au moins 51. 
   
-Pour récupérer toutes les lignes d’un tableau qui n’est pas prévu pour tenir dans la mémoire, appelez [IMAPITable::QueryRows](imapitable-queryrows.md) dans une boucle avec un nombre de lignes relativement faible, comme l’illustre l’exemple de code suivant : 
+Pour récupérer toutes les lignes d'une table qui ne sont pas censées tenir dans la mémoire, appelez la fonction [IMAPITable:: QueryRows](imapitable-queryrows.md) dans une boucle avec un nombre de lignes relativement faible, comme l'illustre l'exemple de code suivant: 
   
 ```cpp
 HRESULT     hr;
@@ -59,7 +59,7 @@ if (hr)
  
 ```
 
-Lorsque cette boucle se termine et toutes les lignes de la table ont été traitées et _cRows_ est égale à zéro, la position du curseur sera généralement en bas de la table. 
+Lorsque cette boucle est terminée et que toutes les lignes de la table ont été traitées __ et que l'argument Crows a la valeur zéro, la position du curseur se trouve généralement en bas du tableau. 
   
 ## <a name="see-also"></a>Voir aussi
 

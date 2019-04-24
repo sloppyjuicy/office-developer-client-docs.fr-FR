@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: Contient la fonction d'un champ.
-ms.openlocfilehash: 9bce4cbb1b3955f749cefa18130c6b01fe61244e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d5a09dd0d59341125db897484f74addff22328de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789995"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320201"
 ---
 # <a name="value-cell-text-fields-section"></a>Value, cellule (section Text Fields)
 
@@ -22,13 +22,13 @@ Contient la fonction d'un champ.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir la valeur de cette cellule à l’aide de la boîte de dialogue **champ** (sous l’onglet **Insertion** , dans le groupe **texte** , cliquez sur **champ**).
+Vous pouvez définir la valeur de cette cellule au moyen de la boîte de dialogue **Champ** (sous l’onglet **Insertion**, dans le groupe **Texte**, cliquez sur **Champ**).
   
-Pour obtenir une référence à la cellule Value par un nom à partir d’une autre formule ou d’un programme à la propriété **CellsU** , utilisez : 
+Pour obtenir une référence à la cellule Value par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de la cellule :  <br/> |Fields.Value [ *i* ] où *i* = < 1 >, 2, 3...  <br/> |
+|Nom de la cellule :  <br/> |Fields. Value [ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Value par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

@@ -6,20 +6,20 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 52169bda-d771-497c-bfe9-8697e6db595f
-description: Cette section décrit les interfaces qui exporte Outlook.
-ms.openlocfilehash: e2224b92ac4fda7ca078800ffa12c8b75fffa606
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette section décrit les interfaces exportées par Outlook.
+ms.openlocfilehash: 982344c80a93e7ecaac5d396a5b331f1371a5397
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320131"
 ---
 # <a name="interfaces-outlook-exported-apis"></a>Interfaces (API exportées Outlook)
 
-Cette section décrit les interfaces qui exporte Outlook.
+Cette section décrit les interfaces exportées par Outlook.
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Prend en charge la redéfinition des rendez-vous dans un dossier de calendrier.  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Prend en charge la relocalisation des rendez-vous dans un dossier de calendrier.  <br/> |
    
 

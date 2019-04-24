@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: acb6f6807f956ee6d468d3fcefc2cdd27732ab9b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320320"
 ---
 # <a name="filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder"></a>Filtrage et affichage des propriétés à valeurs multiples pendant l’énumération des éléments d’un dossier
 
@@ -60,7 +60,7 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 
 L'exemple de code suivant montre comment ajouter une propriété d'espace de noms de chaîne MAPI à l'objet **Table** et comment les propriétés à valeurs multiples affectent les valeurs retournées dans un objet [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)) . La procédure TableMultiValuedProperties filtre l’objet **Table** pour trouver les lignes où la propriété [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) n’est pas une référence null. La propriété **Categories** est représentée par une propriété qui utilise l’espace de noms de la chaîne MAPI. Un filtre DASL est construit pour les éléments ayant des catégories (le filtre réel retourne les catégories n'ayant pas une référence null). Une colonne **Categories** est ensuite ajoutée à l’objet **Table** en concaténant le spécificateur de type, 0000001f, avec la constante categoriesProperty. Enfin, l'objet **Column** qui représente la propriété **Categories** contient un tableau unidimensionnel de chaînes où chaque élément représente une catégorie assignée à l'élément. Les propriétés **Categories** et **Subject** de l’élément sont écrites sur les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

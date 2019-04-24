@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b050392-46b5-4f3a-dc67-714c32e6f8fd
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 8d0c86071a79780b38a874a9416a0212f35f9ac5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce membre est un espace réservé et n'est pas pris en charge.
+ms.openlocfilehash: 4793fcbb58e9c50152eefb68f8022f529c37cdcd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319823"
 ---
 # <a name="ifreebusysupportplaceholder3"></a>IFreeBusySupport::Placeholder3
 
-Ce membre est un espace réservé et n’est pas pris en charge.
+Ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -28,10 +28,10 @@ HRESULT Placeholder3();
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours S_OK, ce membre est un espace réservé et n’est pas pris en charge.
+Toujours S_OK, car ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit renvoyer S_OK.
+Ce membre doit retourner S_OK.
   
 

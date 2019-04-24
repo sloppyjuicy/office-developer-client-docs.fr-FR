@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d21aba9d-71a2-f090-d930-05fc6d84b673
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: da58fe82b12a0fb3e941c9b7d3de2bdcc5f4af07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce membre est un espace réservé et n'est pas pris en charge.
+ms.openlocfilehash: 06d52f43d585529c1cb7ecf65ea961e6e40d683b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319851"
 ---
 # <a name="ifreebusysupportplaceholder14"></a>IFreeBusySupport::Placeholder14
 
-Ce membre est un espace réservé et n’est pas pris en charge.
+Ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -31,7 +31,7 @@ HRESULT Placeholder14(
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours E_NOTIMPL, ce membre est un espace réservé et n’est pas pris en charge.
+Toujours E_NOTIMPL, car ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 

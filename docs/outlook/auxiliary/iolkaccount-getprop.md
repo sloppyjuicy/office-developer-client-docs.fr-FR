@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: Obtient la valeur de la propriété du compte spécifié.
-ms.openlocfilehash: 2c0756f416a209d37eff2209a82c298837f85f3d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Obtient la valeur de la propriété de compte spécifiée.
+ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782662"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321232"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
-Obtient la valeur de la propriété du compte spécifié.
+Obtient la valeur de la propriété de compte spécifiée.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,11 +33,11 @@ ACCT_VARIANT *pVar
 
 _dwProp_
   
-> [in] La balise de propriété de la propriété de compte à obtenir.
+> dans Balise de propriété de la propriété Account à obtenir.
     
 _pVar_
   
-> [out] La valeur de la propriété spécifiée.
+> remarquer Valeur de la propriété spécifiée.
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -49,7 +49,7 @@ _pVar_
    
 ## <a name="remarks"></a>Remarques
 
-Une fois que cette méthode est retournée, si la valeur de la propriété de compte est un type de fichier binaire ou chaîne, vous devez libérer *pVar* à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+Après le renvoi de cette méthode, si la valeur de la propriété Account est un type binaire ou de type chaîne, vous devez libérer *pvar* à l'aide de [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>Voir aussi
 

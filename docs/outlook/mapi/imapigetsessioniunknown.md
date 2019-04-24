@@ -11,33 +11,33 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90fe316bfd11d712f02187b6a569450b747a6409
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 0b861a11b6bc1d590225a0c99b20f8be38edfd2b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587928"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321580"
 ---
 # <a name="imapigetsession--iunknown"></a>IMAPIGetSession : IUnknown
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit l’accès à la session MAPI en cours associé à l’objet de prise en charge. Fournisseurs MAPI peuvent interroger l’objet de prise en charge MAPI pour cette interface. Pour plus d’informations sur les objets de prise en charge, voir [Présentation de l’objet prend en charge](support-object-overview.md).
+Permet d'accéder à la session MAPI actuelle associée à l'objet support. Les fournisseurs MAPI peuvent interroger leur objet de prise en charge MAPI pour cette interface. Pour plus d'informations sur les objets de prise en charge, voir [support Object Overview](support-object-overview.md).
   
 |||
 |:-----|:-----|
-|Implémentée par :  <br/> |MAPI  <br/> |
-|Appelée par :  <br/> |Fournisseurs MAPI  <br/> |
-|Identificateur de l’interface :  <br/> |IID_IMAPIGetSession  <br/> |
+|Implémenté par :  <br/> |MAPI  <br/> |
+|Appelé par :  <br/> |Fournisseurs MAPI  <br/> |
+|Identificateur de l'interface:  <br/> |IID_IMAPIGetSession  <br/> |
    
 ## <a name="vtable-order"></a>Ordre vtable
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelée pour obtenir un pointeur vers la session MAPI en cours.  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Appelé pour obtenir un pointeur vers la session MAPI actuelle.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -50,5 +50,5 @@ Fournit l’accès à la session MAPI en cours associé à l’objet de prise en
 
 [Interfaces MAPI](mapi-interfaces.md)
   
-[Vue d’ensemble de l’objet de prise en charge](support-object-overview.md)
+[Vue d'ensemble de l'objet support](support-object-overview.md)
 

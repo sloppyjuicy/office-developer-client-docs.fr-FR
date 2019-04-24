@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3b2ee5aa-7639-d86d-447e-50bda54aa3ec
-description: Libère la mémoire allouée par l’interface IOlkAccount.
-ms.openlocfilehash: ce3046db29cb2cac7d7ee72a3e4e9125346a4ac4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Libère la mémoire allouée par l'interface IOlkAccount.
+ms.openlocfilehash: a7f763ba4fc260a517f8b7df4d3791f4a8fd23b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782654"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321335"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-Libère la mémoire allouée par l’interface [IOlkAccount](iolkaccount.md) . 
+Libère la mémoire allouée par l'interface [IOlkAccount](iolkaccount.md) . 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,15 +33,15 @@ HRESULT IOlkAccount::FreeMemory (
 
 _PV_
   
-> [in] Pointeur vers la mémoire à libérer.
+> dans Pointeur vers la mémoire à libérer.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
-Utilisez cette méthode pour libérer de la mémoire allouée par [IOlkAccount::GetProp](iolkaccount-getprop.md) (si la valeur de la propriété du compte spécifié est un type de fichier binaire ou chaîne) et [IOlkAccount::GetAccountInfo](iolkaccount-getaccountinfo.md).
+Utilisez cette méthode pour libérer de la mémoire allouée par [IOlkAccount:: getprop](iolkaccount-getprop.md) (si la valeur de la propriété Account spécifiée est un type binaire ou String) et [IOlkAccount:: GetAccountInfo](iolkaccount-getaccountinfo.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 11833823-35fa-4bed-8dda-e5c74c320d46
-description: Cette section décrit les types de données Outlook exporte.
-ms.openlocfilehash: 25cf9e80c66f5c985510f7c0afe7492da32d1d9d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette section décrit les types de données exportés par Outlook.
+ms.openlocfilehash: adca0b613adc887df7a73ea4809b61bb70cf28b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782552"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319844"
 ---
 # <a name="data-types-outlook-exported-apis"></a>Types de données (API exportées Outlook)
 
-Cette section décrit les types de données Outlook exporte.
+Cette section décrit les types de données exportés par Outlook.
   
 |**Type de données**|**Description**|
 |:-----|:-----|
-|[TZDEFINITION](tzdefinition.md) <br/> |Représente un fuseau horaire entier, y compris toutes les règles de MAJ historiques, actuelles et futures fuseau horaire pour l’heure d’été.  <br/> |
-|[TZREG](tzreg.md) <br/> |Définit le démarrage de l’heure, quand le retour à l’heure standard se produit et le nombre d’heures du passage de MAJ est.  <br/> |
-|[TZRULE](tzrule.md) <br/> |Spécifie les informations d’une règle de fuseau horaire au démarrage de l’heure et l’année dans laquelle cette règle de fuseau horaire prend tout d’abord l’effet.  <br/> |
+|[TZDEFINITION](tzdefinition.md) <br/> |Représente un fuseau horaire entier, y compris toutes les règles d'évolution des fuseaux horaires, actuelles et futures, pour l'heure d'été.  <br/> |
+|[TZREG](tzreg.md) <br/> |Définit à quel moment l'heure d'été commence, lorsque le retour à l'heure standard se produit, et le nombre d'heures d'évolution de l'heure d'été.  <br/> |
+|[TZRULE](tzrule.md) <br/> |Spécifie les informations relatives à une règle de fuseau horaire relatives au démarrage de l'heure d'été et à l'année où cette règle de fuseau horaire prend effet.  <br/> |
    
 

@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7176f3547c18ec72e4bfc0a749b3814d1e906b7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: dbf9f9f73d9e3860b482f81fb942673e6d373267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577036"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321552"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Retourne un pointeur vers la session MAPI associée à l’objet de prise en charge MAPI.
+Renvoie un pointeur vers la session MAPI associée à l'objet de prise en charge MAPI.
   
 ```cpp
 HRESULT GetMAPISession(
@@ -37,7 +37,7 @@ HRESULT GetMAPISession(
 
  _lppSession_
   
-> [out] Pointeur vers la session MAPI en cours.
+> remarquer Pointeur vers la session MAPI actuelle.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -46,5 +46,5 @@ HRESULT GetMAPISession(
 [IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
 
 
-[Vue d’ensemble de l’objet de prise en charge](support-object-overview.md)
+[Vue d'ensemble de l'objet support](support-object-overview.md)
 

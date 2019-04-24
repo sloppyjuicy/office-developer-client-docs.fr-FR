@@ -1,5 +1,5 @@
 ---
-title: Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
+title: Filtrage et affichage des propriétés calculées pendant l’énumération des éléments d’un dossier
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320334"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
 
@@ -52,8 +52,8 @@ L'objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) repr
 </tr>
 <tr class="odd">
 <td><p>Propriétés de l’ordinateur, telles que <b>AutoResolvedWinner</b> et <b>BodyFormat</b>.</p></td>
-<td><p>Non prise en charge.</p></td>
-<td><p>Non prise en charge.</p></td>
+<td><p>Non prises en charge.</p></td>
+<td><p>Non prises en charge.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propriétés à valeurs multiples, telles que <b>Categories</b>, <b>Children</b>, <b>Companies</b>, et <b>VotingOptions</b>.</p></td>
@@ -101,7 +101,7 @@ Le tableau suivant répertorie les propriétés connues comme étant non valides
 <tr class="odd">
 <td><p>MeetingWorkspaceURL</p></td>
 <td><p>MemberCount</p></td>
-<td><p>Permission</p></td>
+<td><p>Autorisation</p></td>
 </tr>
 <tr class="even">
 <td><p>PermissionService</p></td>
@@ -124,7 +124,7 @@ Le tableau suivant répertorie les propriétés connues comme étant non valides
 
 Bien que certaines propriétés calculées ne peuvent pas être ajoutées à la colonne définie pour un tableau, l’exemple de code suivant contourne cette restriction. GetToDoItems utilise une requête DASL pour limiter les éléments qui apparaissent dans l'objet **Table**. Si la propriété calculée a une représentation d'espace de noms, celle-ci peut être utilisée pour créer une requête DASL qui limite le retour par l'objet **Table** de lignes pour une valeur spécifiée de la propriété calculée. GetToDoItems obtient des éléments dans la Boîte de réception où la valeur de la propriété [IsMarkedAsTask](https://msdn.microsoft.com/library/bb623631\(v=office.15\)) est égale à **true**, puis affecte des valeurs à certaines propriétés de tâche, telles que [TaskSubject](https://msdn.microsoft.com/library/bb643880\(v=office.15\)), [TaskDueDate](https://msdn.microsoft.com/library/bb623035\(v=office.15\)), [TaskStartDate](https://msdn.microsoft.com/library/bb610832\(v=office.15\)) et [TaskCompletedDate](https://msdn.microsoft.com/library/bb624055\(v=office.15\)). Enfin, ces propriétés sont écrites sur les écouteurs de trace de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l'importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d'abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l'espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

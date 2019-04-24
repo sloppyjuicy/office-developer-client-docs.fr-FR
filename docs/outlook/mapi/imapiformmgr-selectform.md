@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3c6242c9a926341908cb86645a8ea8586a9ca598
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: c25f352e7fa607a46741164574a4ba91d4026edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321671"
 ---
 # <a name="imapiformmgrselectform"></a>IMAPIFormMgr::SelectForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586353"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un formulaire et renvoie un objet d’informations de formulaire qui décrit ce formulaire.
+Affiche une boîte de dialogue qui permet à l'utilisateur de sélectionner un formulaire et renvoie un objet d'informations de formulaire qui décrit ce formulaire.
   
 ```cpp
 HRESULT SelectForm(
@@ -41,27 +41,27 @@ HRESULT SelectForm(
 
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parente de la boîte de dialogue qui s’affiche. 
+> dans Handle de la fenêtre parent de la boîte de dialogue affichée. 
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type des chaînes dans le passé. Vous pouvez définir l’indicateur suivant :
+> dans Masque de bits des indicateurs qui contrôle le type des chaînes transmises. L'indicateur suivant peut être défini:
     
 MAPI_UNICODE 
   
-> Les chaînes passée sont au format Unicode. Si l’indicateur MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
     
  _pszTitle_
   
-> [in] Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est NULL, le fournisseur de bibliothèque formulaire fournit une légende par défaut. 
+> dans Pointeur vers une chaîne qui contient la légende de la boîte de dialogue. Si le paramètre _pszTitle_ est null, le fournisseur de bibliothèque de formulaires fournit une légende par défaut. 
     
  _pfld_
   
-> [in] Pointeur vers le dossier à partir desquels sélectionner le formulaire. Si le paramètre _pfld_ est NULL, le formulaire peut être sélectionné à partir du conteneur de formulaire local, personnel ou organisation. 
+> dans Pointeur vers le dossier à partir duquel sélectionner le formulaire. Si le paramètre _pfld_ est null, le formulaire peut être sélectionné dans le conteneur de formulaire local, personnel ou organisation. 
     
  _ppfrminfoReturned_
   
-> [out] Pointeur vers un pointeur vers l’objet d’informations de formulaire renvoyé.
+> remarquer Pointeur vers un pointeur vers l'objet d'informations de formulaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -71,19 +71,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> Soit l’indicateur MAPI_UNICODE a été défini et l’implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n’a pas été défini et l’implémentation prend en charge Unicode uniquement.
+> L'indicateur MAPI_UNICODE a été défini et l'implémentation ne prend pas en charge Unicode, ou MAPI_UNICODE n'a pas été défini et l'implémentation prend en charge uniquement Unicode.
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération de généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
+> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Visionneuses de formulaire appellent la méthode **IMAPIFormMgr::SelectForm** à présent premier une boîte de dialogue qui permet à l’utilisateur de sélectionner un formulaire et puis pour récupérer un objet d’informations de formulaire qui décrit le formulaire sélectionné. La boîte de dialogue contraint l’utilisateur de sélectionner un seul formulaire. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: SelectForm** pour commencer par présenter une boîte de dialogue permettant à l'utilisateur de sélectionner un formulaire, puis de récupérer un objet d'informations de formulaire qui décrit le formulaire sélectionné. La boîte de dialogue contraint l'utilisateur à sélectionner un seul formulaire. 
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La boîte de dialogue **SelectForm** n’affiche que les formulaires qui ne sont pas masqués (autrement dit, désactivez les formulaires qui disposent de leurs propriétés masquées). Si une visionneuse de formulaire transmet l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont en Unicode. Fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
+La boîte de dialogue **SelectForm** affiche uniquement les formulaires qui ne sont pas masqués (c'est-à-dire, les formulaires dont les propriétés masquées sont désactivées). Si une visionneuse de formulaires transmet l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont au format Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prennent pas en charge les chaînes Unicode doivent renvoyer MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est transmis. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -91,7 +91,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux.  <br/> |
+|FolderDlg. cpp  <br/> |CFolderDlg:: OnSelectForm  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr:: SelectForm** pour sélectionner un formulaire et envoyer des informations sur le formulaire à un ou plusieurs journaux.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

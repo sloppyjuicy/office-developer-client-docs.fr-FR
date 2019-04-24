@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 906f6c19-7f53-a8de-9748-c5dff0425bd3
-description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 2febb5c5d4af9e859d562b197aa13c640599fa88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Ce membre est un espace réservé et n'est pas pris en charge.
+ms.openlocfilehash: 8d929d330aeccb45cc492a4d4b887ec81f4b2d87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319879"
 ---
 # <a name="ifreebusysupportplaceholder11"></a>IFreeBusySupport::Placeholder11
 
-Ce membre est un espace réservé et n’est pas pris en charge.
+Ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -30,14 +30,14 @@ BOOL Placeholder11(
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours **false**, ce membre est un espace réservé et n’est pas pris en charge.
+Toujours **false**, car ce membre est un espace réservé et n'est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 
-Ce membre doit retourner la **valeur false**.
+Ce membre doit renvoyer la **valeur false**.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (disponibilité API)](constants-free-busy-api.md) 
+- [Constantes (API de disponibilité)](constants-free-busy-api.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

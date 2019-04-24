@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 030908f7202301ec7849e655d5ff7cc1d7cffc13
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320229"
 ---
 # <a name="get-the-email-address-of-a-recipient"></a>Obtention de l’adresse e-mail du destinataire
 
@@ -20,9 +20,9 @@ Cet exemple montre comment obtenir l’adresse SMTP d’un destinataire.
 
 ## <a name="example"></a>Exemple
 
-Dans l’exemple de code suivant, la méthode GetSMTPAddressForRecipients prend un objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) comme argument d’entrée, puis affiche l’adresse SMTP de chaque destinataire de cet élément de courrier. La méthode récupère d’abord la collection [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) qui représente l’ensemble des destinataires indiqués pour l’élément de courrier électronique. Pour chaque objet [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) de la collection **Recipients**, la méthode obtient l’objet [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) correspondant à cet objet **Recipient**. Enfin, la méthode utilise la propriété [PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) pour obtenir la valeur de la propriété MAPI https://schemas.microsoft.com/mapi/proptag/0x39FE001E, qui correspond à la **PR\_SMTP\_adresse** ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) propriété du destinataire.
+Dans l’exemple de code suivant, la méthode GetSMTPAddressForRecipients prend un objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) comme argument d’entrée, puis affiche l’adresse SMTP de chaque destinataire de cet élément de courrier. La méthode récupère d’abord la collection [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)) qui représente l’ensemble des destinataires indiqués pour l’élément de courrier électronique. Pour chaque [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) de cette collection **Recipients**, la méthode obtient ensuite l'objet [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) qui correspond à cet objet **Recipient**. Enfin, la méthode utilise la [propriété PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) pour obtenir la valeur de la propriété https://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, qui correspond à la propriété de l' **adresse\_\_** SMTP PR ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) du destinataire.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **d’utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. La ligne de code suivante montre comment effectuer l’importation et la tâche dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -11,72 +11,72 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: 7a7134a037aa4845ae22ab18899d27f1e50d6b7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321321"
 ---
 # <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a>Propriété canonique PidTagScheduleInfoAppointmentTombstone
 
   
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
+Contient une liste de blocs de données qui représentent des réunions refusées.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SCHDINFO_APPT_TOMBSTONE  <br/> |
 |Identificateur :  <br/> |0x686A  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Informations de disponibilité  <br/> |
+|Domaine :  <br/> |Disponibilité  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les blocs de données commencent par un en-tête de valeurs 32 bits définie en tant que :
+Les blocs de données commencent par un en-tête de valeurs de bit 32 défini comme suit:
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
 |Identifier  <br/> |Ce champ doit être la valeur 0xBEDEAFCD.  <br/> |
 |HeaderSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
 |Version  <br/> |Ce champ doit avoir la valeur 3.  <br/> |
-|RecordsCount  <br/> |Le nombre d’enregistrements qui suivent.  <br/> |
+|RecordsCount  <br/> |Nombre d'enregistrements qui suivent.  <br/> |
 |RecordsSize  <br/> |Ce champ doit avoir la valeur 0x00000014.  <br/> |
    
-L’en-tête est suivi d’entrées **RecordsCount** des valeurs 32 bits définies en tant que : 
+L'en-tête est suivi par des entrées de **RecordsCount** de 32 bits définies comme suit: 
   
-|**Valeur**|**Description**|
+|**Value**|**Description**|
 |:-----|:-----|
-|StartTime  <br/> |Heure de début de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
-|EndTime  <br/> |Heure de fin de l’objet de la réunion en minutes depuis minuit, le 1er janvier 1601 UTC.  <br/> |
-|GlobalObjectIdSize  <br/> |La taille, en octets, du champ GlobalObjectId.  <br/> |
-|GlobalObjectId  <br/> |La valeur de la propriété **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion cet enregistrement représente.  <br/> |
-|UserName  <br/> |Les deux premiers octets sont la longueur de la chaîne PT_STRING8 qui suit.  <br/> |
+|StartTime  <br/> |Heure de début de l'objet de réunion, en minutes, depuis minuit, le 1er janvier 1601, UTC.  <br/> |
+|EndTime  <br/> |Heure de fin de l'objet de réunion, en minutes, depuis minuit, le 1er janvier 1601, UTC.  <br/> |
+|GlobalObjectIdSize  <br/> |Taille, en octets, du champ GlobalObjectId.  <br/> |
+|GlobalObjectId  <br/> |Valeur de la propriété **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion représentée par cet enregistrement.  <br/> |
+|UserName  <br/> |Les deux premiers octets correspondent à la longueur de la chaîne PT_STRING8 qui suit.  <br/> |
    
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="protocol-specifications"></a>Spécifications du protocole
+### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications du protocole Exchange Server associées.
+> Fournit des références à des spécifications de protocole Exchange Server connexes.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations pour un rendez-vous, une demande de réunion et les messages de réponse.
+> Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

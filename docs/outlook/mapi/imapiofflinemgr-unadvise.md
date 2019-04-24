@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 35dfc7af9852609dcfcc3fcb9d65ec2e4afa9632
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321216"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579521"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule des rappels pour un objet en mode hors connexion.
+Annule les rappels pour un objet hors connexion.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -34,25 +34,25 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Param�tres
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
-> [in] Indicateurs d’annulation de rappel. Seule la valeur MAPIOFFLINE_UNADVISE_DEFAULT est pris en charge.
+> dans Indicateurs pour l'annulation du rappel. Seule la valeur MAPIOFFLINE_UNADVISE_DEFAULT est prise en charge.
     
  _ulAdviseToken_
   
-> [in] Un jeton advise qui identifie l’inscription du rappel qui doit être annulée. 
+> dans Un jeton d'avertissement qui identifie l'inscription de rappel qui doit être annulée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L’appel a réussi. Cet appel doit renvoyer S_OK.
+> L'appel a réussi. Cet appel doit retourner S_OK.
     
 ## <a name="remarks"></a>Remarques
 
-Supprime l’inscription du rappel qui a été associé avec *ulAdviseToken* renvoyé à partir d’un appel précédent à **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Entraîne l’objet **IMAPIOfflineMgr** libérer sa référence à l’objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé *ulAdviseToken* . 
+Supprime l'inscription pour le rappel associé à *ulAdviseToken* renvoyé par un appel antérieur à **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Fait en sorte que l'objet **IMAPIOfflineMgr** libère sa référence sur l'objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé à *ulAdviseToken* . 
   
 ## <a name="see-also"></a>Voir aussi
 

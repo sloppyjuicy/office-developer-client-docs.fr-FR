@@ -7,69 +7,69 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 4ce91a65-17db-4ee2-ad59-01fd5b1f1ea7
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8ad5fd9cf437afc3999697792850548e4e5a1435
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: ddc59d6c503d44a0575679fce694cc34499d8e2a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320985"
 ---
 # <a name="form-configuration-file-description-section"></a>Section [Description] du fichier de configuration de formulaire
  
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Description]** répertorie toutes les propriétés du formulaire qui sont associées à des contrôles dans l’interface utilisateur du formulaire, ainsi que les attributs qui sont utilisés dans la localisation de l’écran. Le **MessageClass**, **Clsid**et entrées **DisplayName** , permettant d’identifier le nom de classe de message du formulaire, son GUID et nom d’affichage de la classe de message, respectivement, sont des entrées obligatoires permet de rechercher le formulaire dans la bibliothèque de formulaires . Les autres entrées sont facultatives. Le format de la section **[Description]** est la suivante : 
+La section **[Description]** répertorie toutes les propriétés du formulaire qui sont associées aux contrôles dans l'interface utilisateur du formulaire, ainsi que les attributs utilisés lors de la recherche du formulaire. Les entrées **MessageClass**, **CLSID**et **DisplayName** , qui identifient le nom de la classe de message, son GUID et le nom d'affichage de la classe de message, respectivement, sont des entrées requises pour localiser le formulaire dans la bibliothèque de formulaires. . Les entrées restantes sont facultatives. Le format de la section **[Description]** est le suivant: 
   
-La section **[Description]** répertorie toutes les propriétés du formulaire qui sont associées à des contrôles dans l’interface utilisateur du formulaire, ainsi que les attributs qui sont utilisés dans la localisation de l’écran. Le **MessageClass**, **Clsid**et entrées **DisplayName** , permettant d’identifier le nom de classe de message du formulaire, son GUID et nom d’affichage de la classe de message, respectivement, sont des entrées obligatoires permet de rechercher le formulaire dans la bibliothèque de formulaires . Les autres entrées sont facultatives. Le format de la section **[Description]** est la suivante : 
+La section **[Description]** répertorie toutes les propriétés du formulaire qui sont associées aux contrôles dans l'interface utilisateur du formulaire, ainsi que les attributs utilisés lors de la recherche du formulaire. Les entrées **MessageClass**, **CLSID**et **DisplayName** , qui identifient le nom de la classe de message, son GUID et le nom d'affichage de la classe de message, respectivement, sont des entrées requises pour localiser le formulaire dans la bibliothèque de formulaires. . Les entrées restantes sont facultatives. Le format de la section **[Description]** est le suivant: 
   
- **[Description] MessageClass** =  _chaîne_
+ **Description ** =  _Chaîne_ MessageClass
   
- **CLSID** =  _guid_
+ **** =  _GUID_ CLSID
   
  **DisplayName** =  _displayedstring_
   
- **SmallIcon** =  _chemin d’accès_
+ **** =  _Chemin d'accès_ SmallIcon
   
- **LargeIcon** =  _chemin d’accès_
+ **** =  _Chemin d'accès_ LargeIcon
   
-Entrées facultatives sont les suivants :
+Les entrées facultatives sont les suivantes:
   
- **Catégorie** =  _affiche la chaîne_
+ **** =  _Chaîne affichée_ sous la catégorie
   
- **Sous-catégorie** =  _affiche la chaîne_
+ **** =  _Chaîne affichée sous_ -catégorie
   
- **Commentaire** =  _affiche la chaîne_
+ **** =  _Chaîne affichée_ de commentaire
   
- **Propriétaire** =  _affiche la chaîne_
+ **** =  _Chaîne affichée_ par le propriétaire
   
- **Numéro de** =  _affiche la chaîne_
+ **** =  _Chaîne affichée_ en nombre
   
- **Version** =  _entier_
+ **** =  _Entier_ de version
   
- **Paramètres régionaux** =  _chaîne_
+ **Chaîne de paramètres régionaux**__  =  
   
- **Masqué** =  _entier_
+ **** =  _Entier_ masqué
   
- **DesignerToolName** =  _chaîne_
+ **** =  _Chaîne_ DesignerToolName
   
- **DesignerToolGuid** =  _clsid_
+ **** =  _CLSID_ DesignerToolGuid
   
- **DesignerRuntimeGuid** =  _clsid_
+ **** =  _CLSID_ DesignerRuntimeGuid
   
  **ComposeInFolder** =  _0 | 1_
   
- **ComposeCommand** =  _chaîne_
+ **** =  _Chaîne_ ComposeCommand
   
-Les entrées de **catégorie** et une **sous-catégorie** sont utilisées par les programmes d’installation de l’écran pour configurer le classement par défaut des formulaires dans l’interface utilisateur de l’application cliente. Par exemple, une hiérarchie peut être configurée où « Help Desk » est la catégorie et « Software » et « Hardware » ont été les sous-catégories. Cette catégorisation puis utilisable par les applications de la visionneuse pour afficher les messages de manière plus organisée. Les entrées de **commentaire**, le **propriétaire**et **nombre** sont toutes les chaînes de commentaire qui apparaissent dans l’interface utilisateur de l’application cliente. Il s’agit des propriétés spécifiques du formulaire qui peuvent être utilisées à la discrétion du développeur du formulaire. Par exemple, l’entrée de **commentaire** peut être utilisée pour indiquer l’objectif de la forme, l’entrée de **propriétaire** est utilisée pour indiquer la personne ou l’organisation responsable de la maintenance du formulaire et le numéro utilisé pour effectuer le suivi de version différente du formulaire. **Commentaire** entrée, jusqu'à 10 lignes de commentaires peut être incluse. La première ligne de commentaires utilise le mot « Commentaire » comme clé, la deuxième ligne de commentaires utilise « Commentaires 1 » comme clé, et ainsi de suite par le biais de « Comment9 ». 
+Les entrées de **catégorie** et de **sous-catégorie** sont utilisées par les programmes d'installation de formulaire pour configurer la catégorisation par défaut des formulaires dans l'interface utilisateur de l'application cliente. Par exemple, une hiérarchie peut être configurée où «support technique» est la catégorie et «logiciel» et «matériel» étaient les sous-catégories. Cette catégorisation peut ensuite être utilisée par les applications de la visionneuse pour afficher les messages d'une manière plus organisée. Les entrées de **Commentaire**, de **propriétaire**et de **numéro** sont toutes des chaînes de commentaires qui apparaissent dans l'interface utilisateur de l'application cliente. Il s'agit de propriétés spécifiques qui peuvent être utilisées à la discrétion du développeur de formulaires. Par exemple, l'entrée de **Commentaire** peut être utilisée pour indiquer l'objectif du formulaire, l'entrée de **propriétaire** utilisée pour indiquer la personne ou l'organisation chargée de la gestion du formulaire, ainsi que le numéro utilisé pour suivre différentes versions du formulaire. Pour l'entrée de **Commentaire** , jusqu'à dix lignes de commentaires peuvent être incluses. La première ligne de commentaires utilise le mot «commentaire» comme clé, la deuxième ligne de commentaires utilise «Comment1» comme clé, et ainsi de suite par «Comment9». 
   
-Les entrées **LargeIcon** et **SmallIcon** sont utilisées pour spécifier le chemin d’accès pour les ressources de l’icône utilisée pour afficher les icônes dans l’interface utilisateur de l’application cliente, en règle générale, il s’agit des lignes de tableau qui incluent la **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou les colonnes de propriétés **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Noms de fichiers icône peuvent être spécifiés en tant que chemins d’accès relatif au répertoire où le fichier de configuration de formulaire est installé. L’entrée de **Version** est utilisée pour indiquer le numéro de version du formulaire. **Paramètres régionaux** est l’identificateur de langue de trois lettres de la bibliothèque de formulaires de destination. Vous trouverez une liste des identificateurs suivants dans la _référence du programmeur Win32_.
+Les entrées **LargeIcon** et **SmallIcon** sont utilisées pour spécifier le chemin d'accès aux ressources d'icône utilisées pour afficher les icônes dans l'interface utilisateur de l'application cliente, en règle générale, il s'agit des lignes de tableau qui incluent le **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)). ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). Les noms de fichiers d'icônes peuvent être spécifiés sous forme de chemins d'accès par rapport au répertoire dans lequel le fichier de configuration du formulaire est installé. L'entrée de **version** est utilisée pour indiquer le numéro de version du formulaire. **Paramètres régionaux** est l'identificateur de langue à trois lettres de la bibliothèque de formulaires de destination. Une liste de ces identificateurs est disponible dans le _Guide de référence du programmeUr Win32_.
   
-L’entrée **masqué** indique si le formulaire doit être affiché dans l’interface utilisateur d’un fournisseur de bibliothèque de formulaires : 1 indique que le fichier est masqué et 0 indique que le formulaire est visible. Un exemple de fichier de configuration de formulaire est affiché suivant. 
+L' **** entrée masquée indique si le formulaire doit être affiché dans l'interface utilisateur d'un fournisseur de bibliothèque de formulaires: 1 indique que le fichier est masqué et 0 indique que le formulaire est visible. Un exemple de fichier de configuration de formulaire est illustré ci-dessous. 
   
-L’entrée **ComposeInFolder** détermine si le formulaire est conçu pour être placé dans le dossier actif ou dans la boîte de réception de l’utilisateur lorsque l’utilisateur enregistre le message lors de sa composition : 1 indique que le formulaire doit être placé dans le dossier actif et 0 indique qu’il doit allez dans la boîte de réception. 
+L'entrée **ComposeInFolder** contrôle si le formulaire est conçu pour être placé dans le dossier actif ou dans la boîte de réception de l'utilisateur lorsque l'utilisateur enregistre le message pendant qu'il le compose: 1 indique que le formulaire doit se trouver dans le dossier actif et 0 indique qu'il doit Accédez à la boîte de réception. 
   
-L’entrée **ComposeCommand** est la chaîne doit être placée dans l’application cliente de composition de menu. Si ce n’est pas spécifié, l’entrée **DisplayName** est utilisée. 
+L'entrée **ComposeCommand** est la chaîne à placer dans le menu de composition de l'application cliente. Si ce n'est pas spécifié, l'entrée **DisplayName** est utilisée. 
   
 ```cpp
 [Description]

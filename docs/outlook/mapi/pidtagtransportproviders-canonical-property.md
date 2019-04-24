@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: f8df57579b23ea660f38a0f804b3729d0c73990e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563043"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320397"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Propriété canonique PidTagTransportProviders
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d’identificateurs de fournisseurs de transport dans le profil actif.
+Contient une liste d'identificateurs de fournisseurs de transport dans le profil actuel.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d’identificateurs de fournisseurs de transport dans le prof
    
 ## <a name="remarks"></a>Remarques
 
-N’utilisez pas cette propriété. Il est réservé pour une utilisation par MAPI.
+N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
   
-## <a name="related-resources"></a>Ressources connexes
+## <a name="related-resources"></a>Ressources associées
 
-### <a name="header-files"></a>Fichiers d’en-tête
+### <a name="header-files"></a>Fichiers d'en-tête
 
-Mapidefs.h
+Mapidefs. h
   
 > Fournit des définitions de type de données.
     
-MAPITAGS.h
+Mapitags. h
   
-> Contient les définitions des propriétés répertoriées en tant que d’autres noms.
+> Contient les définitions des propriétés figurant en tant que noms de substitution.
     
 ## <a name="see-also"></a>Voir aussi
 

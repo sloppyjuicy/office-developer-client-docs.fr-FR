@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
-description: Dernière modification le 9 mars 2015
+description: 'Derni�re modification�: lundi 9 mars 2015'
 ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321364"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "25382371"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déplace le message en cours dans un dossier.
+Déplace le message actif vers un dossier.
   
 ```cpp
 HRESULT MoveMessage(
@@ -39,15 +39,15 @@ HRESULT MoveMessage(
 
  _pFolderDestination_
   
-> [in] Pointeur vers le dossier dans lequel le message doit être déplacé.
+> dans Pointeur vers le dossier dans lequel le message doit être déplacé.
     
  _pViewContext_
   
-> [in] Pointeur vers un objet de contexte de vue.
+> dans Pointeur vers un objet de contexte d'affichage.
     
  _prcPosRect_
   
-> [in] Pointeur vers une structure [RECT](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) qui contient la taille de la fenêtre et la position du formulaire actif. Le formulaire suivant utilise également ce rectangle de la fenêtre. 
+> dans Pointeur vers une structure [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) qui contient la position et la taille de la fenêtre du formulaire actif. Le formulaire suivant affiché utilise également le rectangle de cette fenêtre. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,21 +57,21 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> L’opération n’est pas pris en charge par ce site de message.
+> L'opération n'est pas prise en charge par ce site de messages.
     
 ## <a name="remarks"></a>Remarques
 
-Objets de formulaire appeler la méthode **IMAPIMessageSite::MoveMessage** pour déplacer le message en cours vers un nouveau dossier. 
+Les objets de formulaire appellent la méthode **IMAPIMessageSite:: MoveMessage** pour déplacer le message actif vers un nouveau dossier. 
   
-## <a name="notes-to-implementers"></a>Remarques à l’attention des responsables de l’implémentation
+## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Implémentation de l’utilisateur du formulaire de **MoveMessage** doit appeler la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+L'implémentation d'une visionneuse de formulaires **MoveMessage** doit appeler la méthode [IMAPIViewContext:: ActivateNext,](imapiviewcontext-activatenext.md) , en transmettant l'indicateur VCDIR_MOVE, avant de placer le message dans un nouveau dossier. Pour obtenir la structure **Rect** utilisée par la fenêtre d'un formulaire, appelez la fonction [GetWindowRect](https://msdn.microsoft.com/library/ms633519) de Windows. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaire, voir [Interfaces de formulaire MAPI](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
   
-## <a name="notes-to-callers"></a>Notes aux appelants
+## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Après le renvoi de **MoveMessage**, formulaires doivent vérifier pour un message en cours et se fermer puis si aucune n’existe. 
+Suite au retour de **MoveMessage**, les formulaires doivent vérifier l'existence d'un message en cours, puis le faire disparaître s'il n'en existe pas. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -79,7 +79,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Non implémenté.  <br/> |
+|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: MoveMessage  <br/> |Non implémenté.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
 [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md)
 
 
-[MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)
+[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
   
 [Interfaces de formulaire MAPI](mapi-form-interfaces.md)
 

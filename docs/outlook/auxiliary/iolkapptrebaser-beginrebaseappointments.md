@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: Commence une tâche pour la relocalisation de rendez-vous donné une liste de rendez-vous, généralement obtenu à partir de IOlkApptRebaser::EndEnumerateAppointments.
 ms.openlocfilehash: f0f2377f30de7688aaa4196e3a046c664c2128aa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321909"
 ---
 # <a name="iolkapptrebaserbeginrebaseappointments"></a>IOlkApptRebaser::BeginRebaseAppointments
 
@@ -52,7 +52,7 @@ _ppContext_
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette tâche s'exécute sur un nouveau thread.
   

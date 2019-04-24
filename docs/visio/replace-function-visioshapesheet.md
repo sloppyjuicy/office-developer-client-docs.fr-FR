@@ -1,5 +1,5 @@
 ---
-title: REPLACE, fonction (VisioShapeSheet)
+title: REPLACE Function (VisioShapeSheet)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm60108
 localization_priority: Normal
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
-description: Remplace une partie de chaîne de texte, selon le nombre de caractères que vous spécifiez, par une chaîne de texte différente.
-ms.openlocfilehash: 4112339d772248ac033674808d97c3f9c55b6f0a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Cette méthode remplace une partie de chaîne de texte, selon le nombre de caractères que vous spécifiez, par une chaîne de texte différente.
+ms.openlocfilehash: 75a156d720ca276e75fccf932124ae905e4350b0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19789438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320159"
 ---
-# <a name="replace-function-visioshapesheet"></a>REPLACE, fonction (VisioShapeSheet)
+# <a name="replace-function-visioshapesheet"></a>REPLACE Function (VisioShapeSheet)
 
 Cette méthode remplace une partie de chaîne de texte, selon le nombre de caractères que vous spécifiez, par une chaîne de texte différente.
   
 ## <a name="syntax"></a>Syntaxe
 
-Remplacer (** *old_text* **, ** *start_num* **, ** *nb_cars* **, ** *new_text* **) 
+RePLACE (* * *ancien_texte* * *, * * *no_départ* * *, * * *no_car* * *, * * *nouveau_texte* * *) 
   
 ### <a name="parameters"></a>Paramètres
 
-|**Name**|**Obligatoire/Facultatif**|**Type de données**|**Description**|
+|**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _old_text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
-| _Start_num_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère dans _old_text_ que vous souhaitez remplacer par _new_text_. Le premier caractère de la chaîne est la position 1.  <br/> |
-| _nb_cars_ <br/> |Obligatoire  <br/> |**Number** <br/> |Le nombre de caractères dans _old_text_ que vous souhaitez remplacer  <br/> |
-| _new_text_ <br/> |Obligatoire  <br/> |**Chaîne** <br/> |Le texte qui remplace des caractères dans _old_text_.  <br/> |
+| _ancien_texte_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
+| _no_départ_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère d' _ancien_texte_ à remplacer par _nouveau_texte_. Le premier caractère de la chaîne est à la position 1.  <br/> |
+| _no_car_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de caractères d' _ancien_texte_ à remplacer  <br/> |
+| _nouveau_texte_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplace les caractères d' _ancien_texte_.  <br/> |
    
-### <a name="return-value"></a>Valeur renvoy�e
+### <a name="return-value"></a>Valeur renvoyée
 
 Chaîne
   

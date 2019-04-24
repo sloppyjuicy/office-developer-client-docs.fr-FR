@@ -11,21 +11,21 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 699e77479e0d09e7549c0d2741d5ba54ecc8ce33
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Dernière modification : 23 juillet 2011'
+ms.openlocfilehash: 48d59d17d81da2ae78348a57ad8b1cb75486b1a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321314"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
   
   
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient les conditions pour lequel les rappels sont pris en charge par un objet en mode hors connexion.
+Obtient les conditions pour lesquelles les rappels sont pris en charge par un objet hors connexion.
   
 ```cpp
 HRESULT GetCapabilities( 
@@ -37,23 +37,23 @@ HRESULT GetCapabilities(
 
  _pulCapablities_
   
-> [out] Un masque de bits des indicateurs de capacité suivants :
+> remarquer Masque de masque des indicateurs de fonctionnalité suivants:
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
-> L’objet en mode hors connexion est capable de fournir des notifications en mode hors connexion.
+> L'objet hors connexion est capable de fournir des notifications hors connexion.
     
 MAPIOFFLINE_CAPABILITY_ONLINE
   
-> L’objet en mode hors connexion est capable de fournir des notifications en ligne.
+> L'objet hors connexion est capable de fournir des notifications en ligne.
     
 ## <a name="remarks"></a>Remarques
 
-À l’ouverture d’un objet en mode hors connexion à l’aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client peut interroger sur [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) pour obtenir un pointeur vers une interface **IMAPIOffline** et **IMAPIOffline::GetCapabilities** pour découvrir les rappels pris en charge des appels par l’objet. Le client peut ensuite choisir configurer des rappels à l’aide de **IMAPIOfflineMgr**.
+Lors de l'ouverture d'un objet hors connexion à l'aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client peut effectuer une requête sur [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) pour obtenir un pointeur vers une interface **IMAPIOffline** et appeler **IMAPIOffline:: GetCapabilities** pour connaître les rappels pris en charge par l'objet. Le client peut ensuite choisir de configurer les rappels à l'aide de **IMAPIOfflineMgr**.
   
-Notez que, selon le serveur de messagerie pour un objet en mode hors connexion, un objet qui prend en charge des rappels pour passer en ligne ne prend pas nécessairement en charge des rappels pour passer en mode hors connexion.
+Notez que, en fonction du serveur de messagerie d'un objet hors connexion, un objet qui prend en charge les rappels de mise en ligne ne prend pas nécessairement en charge les rappels pour le passage en mode hors connexion.
   
-Notez également que, pendant un objet en mode hors connexion peut prendre en charge des rappels pour que les modifications qu’en ligne/hors connexion, l’API d’état en mode hors connexion prend en charge uniquement les modifications en ligne/hors connexion et les clients doivent vérifier pour seulement ces fonctionnalités.
+Notez également que, bien qu'un objet hors connexion puisse prendre en charge des rappels pour les modifications autres que Online/Offline, l'API d'État hors connexion prend en charge uniquement les modifications en ligne/hors connexion, et les clients doivent vérifier uniquement ces fonctionnalités.
   
 ## <a name="see-also"></a>Voir aussi
 

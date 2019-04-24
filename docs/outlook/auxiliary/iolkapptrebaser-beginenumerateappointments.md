@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
 description: Commence une tâche pour l'énumération de rendez-vous dans un dossier de calendrier pour rechercher les rendez-vous qui ont besoin de relocalisation.
-ms.openlocfilehash: 2ad26692483d87166a538ec2f04d3fc13b9ea930
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc89b3510f09bb98fd6720cb6d5ab3edeb13eac8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19782731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321937"
 ---
 # <a name="iolkapptrebaserbeginenumerateappointments"></a>IOlkApptRebaser::BeginEnumerateAppointments
 
@@ -42,7 +42,7 @@ _ppContext_
 
 S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
-## <a name="remarks"></a>Note
+## <a name="remarks"></a>Remarques
 
 Cette tâche s'exécute sur un nouveau thread.
   

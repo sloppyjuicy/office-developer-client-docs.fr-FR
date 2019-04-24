@@ -1,5 +1,5 @@
 ---
-title: Propriétés de passerelle mappables
+title: Propriétés mappables de la passerelle
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,40 +7,40 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
-description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 07c215511f010741e69c08c184df0ca3ce461e13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Derni�re modification�: lundi 9 mars 2015'
+ms.openlocfilehash: 6f1a399cac2adbae66dabf9383540bb089424d17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320999"
 ---
-# <a name="gateway-mappable-properties"></a>Propriétés de passerelle mappables
+# <a name="gateway-mappable-properties"></a>Propriétés mappables de la passerelle
 
-**S’applique à**: Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016 
   
-Passerelle-mappables les propriétés qui peuvent nécessiter traduction lorsque envoyés à partir d’un domaine de messagerie à l’autre. Propriétés de passerelle-mappables de MAPI autoriser les messages inclure des informations qui requiert une passerelle pour garantir la destination de système de messagerie utilise correctement. Bien que les développeurs de passerelle ne sont pas tenus de fournir cette fonctionnalité de traduction, ils doivent envisager passerelle-mappables propriétés comme une opportunité pour améliorer la gestion du contenu du message.
+Les propriétés pouvant être mappées par une passerelle sont des propriétés qui peuvent nécessiter une traduction lorsqu'elles sont envoyées d'un domaine de messagerie à un autre. Les propriétés pouvant être mappées par la passerelle MAPI permettent aux messages d'inclure des informations qui nécessitent une passerelle pour s'assurer que le système de messagerie de destination l'utilise correctement. Bien que les développeurs de passerelles ne soient pas tenus de fournir cette fonctionnalité de traduction, ils doivent envisager des propriétés mappées sur les passerelles pour améliorer la gestion du contenu des messages.
   
-MAPI spécifie cinq types de propriétés de passerelle-mappables :
+MAPI spécifie cinq types de propriétés mappées sur la passerelle:
   
-- Nom d’affichage
+- Nom unique (DN)
     
-- Adresse de messagerie
+- Nom complet
     
-- Type de messagerie
+- Type de courrier électronique
     
-- Identificateur d’entrée
+- Identificateur d'entrée
     
 - Clé de recherche
     
-Il s’agit de l’ensemble des propriétés qui sont associées à des destinataires, les expéditeurs, destinataires des rapports et déléguées expéditeurs et destinataires d’adressage. Pour vous aider à votre client de définir ces propriétés afin qu’une passerelle gère les spécialement, MAPI spécifie une convention d’affectation de noms à l’aide des propriétés nommées et les jeux de propriétés. Il existe cinq jeux de propriétés pour contenir des propriétés nommées, les propriétés d’adressage qui nécessitent un mappage. Il existe une propriété définie pour chaque type de propriété mappable. Les jeux de propriétés qui contiendront ces propriétés adressage sont les suivants :
+Il s'agit de l'ensemble des propriétés d'adressage associées aux destinataires, aux expéditeurs, aux destinataires des rapports, ainsi qu'aux expéditeurs et destinataires délégués. Pour aider votre client à définir ces propriétés de sorte qu'une passerelle les gère spécialement, MAPI spécifie une convention d'affectation de noms à l'aide de propriétés nommées et de jeux de propriétés. Cinq jeux de propriétés existent pour contenir les propriétés nommées, les propriétés d'adressage qui nécessitent un mappage. Il existe un jeu de propriétés pour chaque type de propriété mappable. Les jeux de propriétés qui contiendront ces propriétés d'adressage nommées sont les suivants.
   
 |**Jeu de propriétés**|**Description**|
 |:-----|:-----|
-|PS_ROUTING_DISPLAY_NAME  <br/> |Contient les propriétés de chaîne utilisées comme noms complets.  <br/> |
-|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient les propriétés de chaîne utilisées comme adresses de messagerie.  <br/> |
-|PS_ROUTING_ADDRTYPE  <br/> |Contient les propriétés de chaîne utilisées en tant que types d’adresse de messagerie.  <br/> |
-|PS_ROUTING_ENTRYID  <br/> |Contient des propriétés binaires utilisées comme les identificateurs d’entrée à long terme.  <br/> |
-|PS_ROUTING_SEARCH_KEY  <br/> |Contient des propriétés binaires utilisées en tant que clés de recherche.  <br/> |
+|PS_ROUTING_DISPLAY_NAME  <br/> |Contient les propriétés de chaîne utilisées en tant que noms complets.  <br/> |
+|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient les propriétés de chaîne utilisées en tant qu'adresses de messagerie.  <br/> |
+|PS_ROUTING_ADDRTYPE  <br/> |Contient les propriétés de chaîne utilisées comme types d'adresses de messagerie.  <br/> |
+|PS_ROUTING_ENTRYID  <br/> |Contient les propriétés binaires utilisées en tant qu'identificateurs d'entrée à long terme.  <br/> |
+|PS_ROUTING_SEARCH_KEY  <br/> |Contient les propriétés binaires utilisées en tant que clés de recherche.  <br/> |
    
 

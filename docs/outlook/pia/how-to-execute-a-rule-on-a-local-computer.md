@@ -1,17 +1,18 @@
 ---
-title: Exécuter une règle sur un ordinateur local
+title: Exécution d’une règle sur un ordinateur local
 TOCTitle: Execute a rule on a local computer
 ms:assetid: 65e91010-3e4c-4921-a0fb-ad90a7b841b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424471(v=office.15)
 ms:contentKeyID: 55119883
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 76587a72d9c77a5484d9aa9788173f9f40f57614
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Normal
+ms.openlocfilehash: 4e9840133b7cd70b72e0bedf57931dfa9e53c67b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320348"
 ---
 # <a name="execute-a-rule-on-a-local-computer"></a>Exécuter une règle sur un ordinateur local
 
