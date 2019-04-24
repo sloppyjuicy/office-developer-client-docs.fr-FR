@@ -1,5 +1,5 @@
 ---
-title: Propriété Database.Recordsets (DAO)
+title: Propriété Database. Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 66880041d204bdcb5d15c9476bd290875409038a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294763"
 ---
-# <a name="databaserecordsets-property-dao"></a>Propriété Database.Recordsets (DAO)
+# <a name="databaserecordsets-property-dao"></a>Propriété Database. Recordsets (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la base de données spécifiée. Valeur en lecture seule.
+Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la base de données spécifiée. En lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Jeux d’enregistrements
+*expression* . Recordsets
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database** .
 

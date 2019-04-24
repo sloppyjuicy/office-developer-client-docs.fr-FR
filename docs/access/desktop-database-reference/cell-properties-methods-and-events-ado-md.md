@@ -1,5 +1,5 @@
 ---
-title: Propriétés de la cellule, méthodes et événements (ADO MD)
+title: Propriétés, méthodes et événements de cellule (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 76330293-fc35-0c7c-0806-1f2e253635f2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249484(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0c9a649d6e4dc3e573865b4ebc7577fd86cf2dbf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296541"
 ---
-# <a name="cell-properties-methods-and-events-ado-md"></a>Propriétés de la cellule, méthodes et événements (ADO MD)
+# <a name="cell-properties-methods-and-events-ado-md"></a>Propriétés, méthodes et événements de cellule (ADO MD)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Propriétés/Collections
 
@@ -28,9 +28,9 @@ ms.locfileid: "28707618"
 
 ## <a name="methods"></a>Méthodes
 
-Aucune.
+Aucun.
 
-## <a name="events"></a>Événements
+## <a name="events"></a>Events
 
 Aucun.
 

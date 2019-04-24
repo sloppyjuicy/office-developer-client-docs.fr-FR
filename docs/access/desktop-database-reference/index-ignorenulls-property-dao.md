@@ -1,5 +1,5 @@
 ---
-title: Propriété Index.IgnoreNulls (DAO)
+title: Propriété index. IgnoreNulls (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836698(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 6c306f76e34e24abb5065c627d9325b48c3acead
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291802"
 ---
-# <a name="indexignorenulls-property-dao"></a>Propriété Index.IgnoreNulls (DAO)
+# <a name="indexignorenulls-property-dao"></a>Propriété index. IgnoreNulls (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique si les enregistrements ayant des valeurs nulles dans leurs champs d'index ont des entrées d'index (espaces de travail Microsoft Access uniquement).
+Définit ou renvoie une valeur qui indique si les enregistrements ayant des valeurs nulles dans leurs champs d’index ont des entrées d’index (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
 *expression* . IgnoreNulls
 
-*expression* Variable qui représente un objet **Index** .
+*expression* Variable qui représente un objet **index** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,7 +49,7 @@ Les paramètres de propriété **IgnoreNulls** et **[Required](field-required-pr
 <tr class="header">
 <th><p>Si IgnoreNulls est</p></th>
 <th><p>Et Required est</p></th>
-<th><p>Alors</p></th>
+<th><p>Then</p></th>
 </tr>
 </thead>
 <tbody>

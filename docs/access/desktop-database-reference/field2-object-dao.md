@@ -1,5 +1,5 @@
 ---
-title: Objet Field2 (DAO)
+title: Field2, objet (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 88c8b7ff347235bbdc29745e9f5383933d3d1dda
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292761"
 ---
-# <a name="field2-object-dao"></a>Objet Field2 (DAO)
+# <a name="field2-object-dao"></a>Field2, objet (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet **Field2** représente une colonne de données avec un type de données communes et un ensemble commun de propriétés.
 
@@ -36,19 +36,19 @@ Un objet **Field2** contient les mêmes propriétés et méthodes que l'objet **
 
 Pour référencer un objet **Field2** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-**Fields**(0)
+**Champs** 0
 
-**Champs** (« nom »)
+**Champs** ("nom")
 
-**Champs**\!\[nom\]
+****\!\[Nom des champs\]
 
 Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field2** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field2** ou à la propriété **Value** de l'objet **Field**.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment naviguer dans un jeu d’enregistrements contenant un champ à valeurs multiples.
+L'exemple suivant montre comment naviguer dans un jeu d'enregistrements qui contient un champ à valeurs multiples.
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -112,7 +112,7 @@ L’exemple suivant montre comment naviguer dans un jeu d’enregistrements cont
 
 <br/>
 
-L’exemple suivant montre comment parcourir les fichiers dans un champ pièce jointe. Le type de fichier et le nom de chaque pièce jointe est imprimé dans la fenêtre exécution.
+L'exemple suivant montre comment naviguer dans les fichiers dans un champ pièce jointe. Le type de fichier et le nom de fichier de chaque pièce jointe sont imprimés dans la fenêtre exécution.
 
 ```vb
     Sub ListAttachments()
@@ -162,7 +162,7 @@ L’exemple suivant montre comment parcourir les fichiers dans un champ pièce j
 
 <br/>
 
-L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin d’accès du dossier spécifié à un champ pièce jointe.
+L'exemple suivant montre comment ajouter des fichiers à partir d'un chemin d'accès de dossier spécifié à un champ pièce jointe.
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -219,7 +219,7 @@ L’exemple suivant montre comment ajouter des fichiers à partir d’un chemin 
 
 <br/>
 
-L’exemple suivant montre comment enregistrer les fichiers stockés dans un champ de pièce jointe sur le chemin d’accès du dossier spécifié.
+L'exemple suivant montre comment enregistrer les fichiers stockés dans un champ pièce jointe dans le chemin d'accès au dossier spécifié.
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -275,7 +275,7 @@ L’exemple suivant montre comment enregistrer les fichiers stockés dans un cha
 
 <br/>
 
-L’exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.
+L'exemple suivant montre comment supprimer un fichier stocké dans un champ pièce jointe.
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

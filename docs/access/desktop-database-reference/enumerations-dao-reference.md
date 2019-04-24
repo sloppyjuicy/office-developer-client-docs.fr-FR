@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b68b8425563d3ffec4939288606eade0bc95763d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721450"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293538"
 ---
 # <a name="enumerations-dao-reference"></a>Énumérations (référence DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 - [CollatingOrderEnum, énumération (DAO)](collatingorderenum-enumeration-dao.md)
 - [CommitTransOptionsEnum, énumération (DAO)](committransoptionsenum-enumeration-dao.md)

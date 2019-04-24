@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 816d421d4181f78e0e0e83c2b575b330a3625f4e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312151"
 ---
 # <a name="value-property-example-vj"></a>Value, propriété – Exemple (VJ++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre la propriété [Value](value-property-ado.md) avec les objets [Field](field-object-ado.md) et [Property](property-object-ado.md) en affichant les valeurs de champ et de propriété de la table ***Employees***.
 

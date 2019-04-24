@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715318"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296331"
 ---
 # <a name="clone-method-example-vbscript"></a>Clone, méthode – Exemple (VBScript)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple fait appel à la méthode [Clone](clone-method-ado.md) pour créer des copies d'un objet [Recordset](recordset-object-ado.md) puis laisse l'utilisateur positionner indépendamment le pointeur d'enregistrement de chaque copie.
 
 Utilisez l'exemple suivant dans une page ASP (Active Server Page). Cet exemple utilise la base de données Northwind (Les Comptoirs) distribuée avec Microsoft Access. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **CloneVBS.asp**. Vous pouvez afficher le résultat dans un navigateur client.
 
-Pour exécuter cet exemple, changez la ligne RsCustomerList.Source = « Clients » à RsCustomerList.Source = « Produits » afin de traiter une plus grande table.
+Pour tester l'exemple, modifiez la ligne RsCustomerList. source = "Customers" vers RsCustomerList. source = "Products" pour compter une plus grande table.
 
 ```vb 
  

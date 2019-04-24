@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 488e37f53218a7dabfa6248ea1da7630f82818a6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291468"
 ---
 # <a name="indexnulls-property-example-vb"></a>IndexNulls, propriété – Exemple (VB)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d'un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l'entrée utilisateur (dans une zone de liste appelée List1). Ensuite, l' **Index** est ajouté au [tableau](table-object-adox.md) **employés** dans le [catalogue](catalog-object-adox.md)de *Northwind* . Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
+Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d’un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l’entrée utilisateur (dans une zone de liste appelée List1). Ensuite, l' **index** est ajouté à la table **Employees** [](table-object-adox.md) dans le ** [catalogue](catalog-object-adox.md)Northwind. Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
 
 ```vb
     ' IndexNullsVB 

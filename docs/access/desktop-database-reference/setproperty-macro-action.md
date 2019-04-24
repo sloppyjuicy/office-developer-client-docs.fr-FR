@@ -12,21 +12,21 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314573"
 ---
 # <a name="setproperty-macro-action"></a>SetProperty, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 L'action **DéfinirPropriété** permet de définir une propriété pour un contrôle dans un formulaire ou un état.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **DéfinirPropriété** utilise les arguments suivants :
+L’action **DéfinirPropriété** utilise les arguments suivants :
 
 <table>
 <colgroup>
@@ -42,7 +42,7 @@ L'action **DéfinirPropriété** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p>Nom du contrôle</p></td>
-<td><p>Tapez le nom du champ ou du contrôle pour lequel vous voulez définir la valeur de propriété. Utilisez uniquement le nom de contrôle, et non la syntaxe complète. Laissez cet argument vide si vous souhaitez définir cette propriété pour le formulaire ou l'état actif.</p></td>
+<td><p>Tapez le nom du champ ou du contrôle pour lequel vous souhaitez définir la valeur d’une propriété. Utilisez uniquement le nom du contrôle, et non la syntaxe complète. Laissez cet argument vide si vous souhaitez définir cette propriété pour le formulaire ou l’état actif.</p></td>
 </tr>
 <tr class="even">
 <td><p>Propriété</p></td>
@@ -58,19 +58,19 @@ L'action **DéfinirPropriété** utilise les arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-- L'action **DéfinirPropriété** permet de définir les propriétés suivantes pour un contrôle : **Activé**, **Visible**, **Verrouillé**, **Gauche**, **Haut**, **Largeur**, **Hauteur**, **Couleur texte**, **Couleur fond** ou **Légende**.
+- L’action **DéfinirPropriété** permet de définir les propriétés suivantes pour un contrôle : **Activé**, **Visible**, **Verrouillé**, **Gauche**, **Haut**, **Largeur**, **Hauteur**, **Couleur texte**, **Couleur fond** ou **Légende**.
 
 - Si vous entrez une valeur non admise pour l’argument ***Valeur***, aucune erreur ne se produit, mais il se peut que la valeur de la propriété soit modifiée dans Access, selon l’interprétation de l’argument.
 
 - L'action **DéfinirPropriété** peut être utilisée dans une macro autonome, à condition de la faire précéder d'une action sélectionnant le formulaire ou l'état contenant le contrôle pour lequel la propriété est définie. Si le formulaire ou l'état n'est pas ouvert, vous pouvez utiliser les actions **OuvrirFormulaire** ou **OuvrirEtat** pour l'ouvrir et le sélectionner. Si le formulaire ou l'état est déjà ouvert, vous pouvez utiliser l'action **SélectionnerObjet** pour le sélectionner. Vous pouvez ensuite utiliser l'action **DéfinirPropriété** pour définir la propriété. La sélection de l'objet n'est pas nécessaire si vous utilisez l'action **DéfinirPropriété** dans une macro incorporée dans un contrôle du même formulaire ou du même état que le contrôle pour lequel vous définissez la propriété.
 
-- Pour exécuter l’action **DéfinirPropriété** dans un module VBA, utilisez la méthode ** DéfinirPropriété** de l’objet **DoCmd**.
+- To run the **SetProperty** action in a VBA module, use the **SetProperty** method of the **DoCmd** object.
 
 ## <a name="example"></a>Exemple
 
-L’exemple suivant montre comment utiliser l’action DéfinirPropriété pour faire basculer la visibilité de la zone de texte **MyTextBox** .
+L'exemple suivant montre comment utiliser l'action SetProperty pour faire basculer la visibilité de la zone de texte **myTextBox** .
 
-**Exemple de code fourni par** la [référence du programmeur Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Submacro: TestVisible

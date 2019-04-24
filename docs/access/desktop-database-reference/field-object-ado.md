@@ -1,5 +1,5 @@
 ---
-title: Field, objet - ActiveX Data Objects (ADO)
+title: Field, objet-ActiveX Data Objects (ADO)
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a2bf17029a706ad6902a8a01a14e73183f94d7a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715214"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293055"
 ---
 # <a name="field-object-ado"></a>Field, objet (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente une colonne de données avec un type de données commun.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque objet **Field** correspond à une colonne du [Recordset](recordset-object-ado.md). Vous utilisez la propriété [Value](value-property-ado.md) des objets **Field** pour définir ou renvoyer des données pour l'enregistrement actif. Selon les fonctionnalités proposées par le fournisseur, certaines collections, méthodes ou propriétés d'un objet **Field** risquent de ne pas être disponibles.
 

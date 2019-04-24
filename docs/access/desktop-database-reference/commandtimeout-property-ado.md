@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 9d44bc8fae0143b183ef54120cdaaf91337f36f8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296128"
 ---
 # <a name="commandtimeout-property-ado"></a>CommandTimeout, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le délai d'attente pour l'exécution d'une commande avant l'abandon de la tentative et la génération d'une erreur.
 
@@ -29,11 +29,11 @@ Indique le délai d'attente pour l'exécution d'une commande avant l'abandon de 
 
 Définit ou renvoie une valeur de type **Long** indiquant, en secondes, le délai d'attente pour l'exécution d'une commande. La valeur par défaut est 30.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la propriété **CommandTimeout** dans un objet [Connection](connection-object-ado.md) ou [Command](command-object-ado.md) pour permettre l'annulation d'un appel de la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), en raison d'un délai dû au trafic réseau ou à une utilisation intensive du serveur. Si l'intervalle défini dans la propriété **CommandTimeout** s'écoule avant que la commande ait fini de s'exécuter, une erreur se produit et ADO annule la commande. Si vous attribuez la valeur 0 à la propriété, ADO attend indéfiniment que l'exécution se termine. Assurez-vous que le fournisseur et la source de données dans lesquels vous écrivez le code prennent en charge la fonctionnalité **CommandTimeout**.
 
 Le paramètre de **CommandTimeout** d'un objet **Connection** n'a aucun effet sur le paramètre de **CommandTimeout** d'un objet **Command** sur le même objet **Connection**. En d'autres termes, la propriété **CommandTimeout** de l'objet **Command** n'hérite pas de la valeur de la propriété **CommandTimeout** de l'objet **Connection**.
 
-Sur un objet **Connection** , la propriété **CommandTimeout** reste en lecture/écriture après l’ouverture de la **connexion** .
+On a **Connection** object, the **CommandTimeout** property remains read/write after the **Connection** is opened.
 

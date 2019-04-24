@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1c028a7d867a105f35b4848ecbe95339f5fcd4b7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293860"
 ---
 # <a name="disconnecting-and-reconnecting-the-recordset"></a>Déconnexion et reconnexion du recordset
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-## <a name="disconnecting-and-reconnecting-the-recordset"></a>Déconnexion et reconnexion du recordset
+## <a name="disconnecting-and-reconnecting-the-recordset"></a>Déconnexion et reconnexion de l'objet Recordset
 
 Une des fonctionnalités les plus puissantes d'ADO permet d'ouvrir un objet **Recordset** côté client à partir d'une source de données et de *déconnecter* cet objet **Recordset** de la source de données. Après la déconnexion de l'objet **Recordset**, la connexion à la source de données peut être fermée, libérant ainsi les ressources serveur utilisées pour la gérer. Vous pouvez continuer à consulter et modifier les données dans l'objet **Recordset** pendant sa déconnexion puis le reconnecter ultérieurement à la source de données et envoyer vos mises à jour en mode de mise à jour par lot.
 

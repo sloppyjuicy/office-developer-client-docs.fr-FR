@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.DefaultValue (DAO)
+title: Field2. DefaultValue, propriété (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195744(v=office.15)
@@ -12,15 +12,15 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 845a2e0c7ffa5d54d73c4fcec1a6c785468d734e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292831"
 ---
-# <a name="field2defaultvalue-property-dao"></a>Propriété Field2.DefaultValue (DAO)
+# <a name="field2defaultvalue-property-dao"></a>Field2. DefaultValue, propriété (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie la valeur par défaut d'un objet **Field2**. Pour un objet **Field2** pas encore ajouté à la collection **[Fields](fields-collection-dao.md)**, cette propriété est en lecture-écriture (espaces de travail Microsoft Access uniquement).
 
@@ -53,15 +53,15 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 <tbody>
 <tr class="odd">
 <td><p>Objet Index</p></td>
-<td><p>Non reconnu</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
 <td><p>Objet QueryDef</p></td>
-<td><p>En lecture seule</p></td>
+<td><p>Lecture seule</p></td>
 </tr>
 <tr class="odd">
 <td><p>Objet Recordset</p></td>
-<td><p>En lecture seule</p></td>
+<td><p>Lecture seule</p></td>
 </tr>
 <tr class="even">
 <td><p>Objet Relation</p></td>
@@ -69,7 +69,7 @@ La disponibilité de la propriété **DefaultValue** dépend de l'objet contenan
 </tr>
 <tr class="odd">
 <td><p>Objet TableDef</p></td>
-<td><p>En lecture/écriture</p></td>
+<td><p>En lecture-écriture.</p></td>
 </tr>
 </tbody>
 </table>

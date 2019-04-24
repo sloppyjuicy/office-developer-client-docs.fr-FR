@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d9797d1cd48c397dedcd236d8762fa0dfcef7c93
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296814"
 ---
 # <a name="bof-eof-and-bookmark-properties-example-vc"></a>BOF, EOF et Bookmark, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La première fonction de cet exemple utilise les propriétés [BOF](bof-eof-properties-ado.md) et [EOF](bof-eof-properties-ado.md) pour afficher un message si l'utilisateur tente d'aller au-delà du premier ou du dernier enregistrement d'un objet [Recordset](recordset-object-ado.md). Elle utilise la propriété [Bookmark](bookmark-property-ado.md) pour permettre à l'utilisateur de marquer un enregistrement dans un objet **Recordset** et d'y revenir ultérieurement.
 
@@ -356,7 +356,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBOFCpp 
 ```
 
-**BofEofBookmark.h**
+**BofEofBookmark. h**
 
 ```cpp 
  

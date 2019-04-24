@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5e291650b99146a8fee22de4651cdfd174e2e48a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701815"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314125"
 ---
 # <a name="understanding-recordset-structure"></a>Présentation de la structure du recordset
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Chaque objet **Recordset** possède une collection **Fields** constituée d'un ou plusieurs objets **Field**. Un objet **Field** représente généralement une colonne de table. 
 
-Les rubriques suivantes expliquent comment naviguer dans la collection **Fields** et obtenir des informations sur chaque champ. Ils abordent puis quel type d’informations est disponible par le biais de l’objet **Field** et comment l’utiliser.
+Les rubriques suivantes expliquent comment naviguer dans la **** collection Fields et obtenir des informations sur chaque champ. Ils discutent ensuite du type d'information disponible par le biais de l'objet **Field** et de la façon de l'utiliser.
 
 - [Fields, collection](the-fields-collection.md)
 - [Field (objet)](the-field-object.md)

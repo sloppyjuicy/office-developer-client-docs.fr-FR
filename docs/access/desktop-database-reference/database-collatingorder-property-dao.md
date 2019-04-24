@@ -1,5 +1,5 @@
 ---
-title: Propriété Database.CollatingOrder (DAO)
+title: Propriété Database. CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 21d775c0abac5d2afddd6b0930816c8d6d381ff0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295015"
 ---
-# <a name="databasecollatingorder-property-dao"></a>Propriété Database.CollatingOrder (DAO)
+# <a name="databasecollatingorder-property-dao"></a>Propriété Database. CollatingOrder (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la comparaison ou le tri de chaînes de caractères (espaces de travail Microsoft Access uniquement). Valeur **Long** en lecture seule.
 
@@ -25,7 +25,7 @@ Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la
 
 *expression* . CollatingOrder
 
-*expression* Variable qui représente un objet de **base de données** .
+*expression* Variable qui représente un objet **Database** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -49,7 +49,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortArabic</strong></p></td>
-<td><p>Arabe</p></td>
+<td><p>Arabic</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortChineseSimplified</strong></p></td>
@@ -147,7 +147,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </table>
 
 
-Le paramètre de propriété **CollatingOrder** correspond à l’argument paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou de la méthode **CompactDatabase** lors du dernier compactage de la base de données.
+Le paramètre de la propriété **CollatingOrder** correspond à l'argument paramètres régionaux de la méthode **CreateDatabase** lors de la création de la base de données ou de la méthode **CompactDatabase** lors du dernier compactage de la base de données.
 
-Vérifiez le paramètre de propriété **CollatingOrder** d’un objet de **base de données** ou de **champ** pour déterminer la méthode de comparaison de chaîne pour la base de données ou d’un champ. Vous pouvez définir la propriété **CollatingOrder** d’un nouvel objet **Field** non ajouté si vous souhaitez que le paramètre de l’objet **Field** diffère de celle de l’objet **Database** qui le contient.
+Check the **CollatingOrder** property setting of a **Database** or **Field** object to determine the string comparison method for the database or field. You can set the **CollatingOrder** property of a new, unappended **Field** object if you want the setting of the **Field** object to differ from that of the **Database** object that contains it.
 

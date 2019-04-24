@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 262e6781b61018cec3d52dbb930f380d3ff5bd85
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715948"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289748"
 ---
 # <a name="maximizewindow-macro-action"></a>MaximizeWindow, action de macro
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l’action **Agrandirfenêtre** pour agrandir la fenêtre active afin qu’elle remplisse la fenêtre Access. Cette action vous permet de voir la plus grande partie possible de l'objet dans la fenêtre active.
+Si Access est configuré pour utiliser des fenêtres superposées au lieu des documents à onglets, vous pouvez utiliser l'action **agrandirfenêtre** pour agrandir la fenêtre active afin qu'elle remplisse la fenêtre Access. Cette action vous permet de voir la plus grande partie possible de l'objet dans la fenêtre active.
 
 > [!NOTE]
-> [!REMARQUE] Cette action ne peut être appliquée aux fenêtres de code dans Visual Basic Editor. Pour plus d'informations sur la façon d'affecter des fenêtres de code, reportez-vous à la rubrique relative à la propriété **WindowState**.
+> [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AgrandirFenêtre** ne possède aucun argument.
+L’action **AgrandirFenêtre** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 

@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: a5635b2b97066394b8596dbcdb50c84abf429719
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293832"
 ---
 # <a name="displayhourglasspointer-macro-action"></a>DisplayHourglassPointer, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Utilisez l'action **AfficherPointeurSablier** pour transformer le pointeur de la souris en icône de sablier (ou toute autre icône choisie) pendant l'exécution d'une macro. Cette action peut fournir une indication visuelle de l'exécution de la macro. Elle est particulièrement utile lorsque l'exécution d'une action de macro ou de la macro elle-même prend beaucoup de temps.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **AfficherPointeurSablier** utilise l'argument suivant :
+L’action **AfficherPointeurSablier** utilise l'argument suivant :
 
 <table>
 <colgroup>
@@ -36,7 +36,7 @@ L'action **AfficherPointeurSablier** utilise l'argument suivant :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Argument de l’action</p></th>
+<th><p>Argument d’action</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -51,7 +51,7 @@ L'action **AfficherPointeurSablier** utilise l'argument suivant :
 
 ## <a name="remarks"></a>Remarques
 
-Cette action est souvent utilisée lorsque l'écho est désactivé à l'aide de l'action **Écho**. Lorsque l’écho est désactivé, Access suspend les mises à jour de l’écran jusqu'à ce que la macro est terminée.
+Cette action est souvent utilisée lorsque l'écho est désactivé à l'aide de l'action **Écho**. Lorsque l'écho est désactivé, Access interrompt les mises à jour de l'écran jusqu'à la fin de la macro.
 
 Access réinitialise automatiquement l'argument **Sablier actif** sur la valeur **Non** une fois la macro terminée.
 

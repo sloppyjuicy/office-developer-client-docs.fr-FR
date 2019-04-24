@@ -1,5 +1,5 @@
 ---
-title: Objet index - Data Access Objects (DAO)
+title: Objet index-objets d'accès aux données (DAO)
 TOCTitle: Index object
 ms:assetid: 92c32cad-ec8a-1243-1d18-83f50b269ecb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197655(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ca0a975017b5c5396d23817716689b37433d8f97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291767"
 ---
 # <a name="index-object-dao"></a>Objet index (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Les objets **Index** déterminent l'ordre des enregistrements accessibles depuis les tables de base de données et indiquent si les enregistrements en double sont acceptés ou pas, ce qui optimise l'accès aux données. Dans le cas d'une base de données externe, les objets **Index** décrivent les index définis pour les tables externes (espaces de travail Microsoft Access uniquement).
 

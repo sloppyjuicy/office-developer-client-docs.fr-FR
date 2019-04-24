@@ -1,5 +1,5 @@
 ---
-title: Propriété Field2.SourceField (DAO)
+title: Field2. SourceField, propriété (DAO)
 TOCTitle: SourceField Property
 ms:assetid: f89146c1-d4a4-1129-636a-c22cf7921a4e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836948(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1d0bedd3c1f9f2af6ccf156e1cf8c0192551f582
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717404"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292677"
 ---
-# <a name="field2sourcefield-property-dao"></a>Propriété Field2.SourceField (DAO)
+# <a name="field2sourcefield-property-dao"></a>Field2. SourceField, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Renvoie une valeur indiquant le nom du champ duquel provient les données d'un objet **Field2**. Données de type **String** en lecture seule.
 
@@ -57,7 +57,7 @@ Pour un objet **Field2**, l'utilisation des propriétés **SourceField** et **So
 </tr>
 <tr class="even">
 <td><p><strong>Relation</strong></p></td>
-<td><p>Non pris en charge</p></td>
+<td><p>Non reconnu</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>TableDef</strong></p></td>

@@ -12,27 +12,27 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296373"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError, action de macro
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Utilisez l'action **EffacerMacroErreur** pour effacer les informations sur une erreur qui sont stockées dans l'objet **MacroError**.
 
-## <a name="setting"></a>Valeur
+## <a name="setting"></a>Setting
 
-L'action **EffacerMacroErreur** ne possède aucun argument.
+L’action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="remarks"></a>Remarques
 
-- Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n’avez pas utilisé l’action **[SurErreur](onerror-macro-action.md)** pour supprimer les messages d’erreur, la macro s’arrête et les informations d’erreur s’affiche dans un message d’erreur standard. Toutefois, si vous avez utilisé l’action **SurErreur** pour supprimer les messages d’erreur, vous souhaitez utiliser les informations stockées dans l’objet **MacroError** dans une condition ou dans un message d’erreur personnalisé.
+- Lorsqu'une erreur se produit dans une macro, les informations sur l'erreur sont stockées dans l'objet **MacroError**. Si vous n'avez pas utilisé **[](onerror-macro-action.md)** l'action SurErreur pour supprimer les messages d'erreur, la macro s'arrête et les informations d'erreur s'affichent dans un message d'erreur standard. Toutefois, si vous avez utilisé l' **** action SurErreur pour supprimer les messages d'erreur, vous souhaiterez peut-être utiliser les informations stockées dans l'objet **MacroError** dans une condition ou dans un message d'erreur personnalisé.
     
   Lorsqu'une erreur a été gérée, les informations stockées dans l'objet **MacroError** deviennent obsolètes. Il est alors conseillé d'effacer l'objet à l'aide de l'action **EffacerMacroErreur**, ce qui permet de réinitialiser à 0 le numéro d'erreur dans l'objet **MacroError** et de supprimer toutes les autres informations sur l'erreur, telles que sa description, le nom de la macro, ainsi que le nom, la condition et les arguments de l'action. Ainsi, vous pourrez réexaminer ultérieurement l'objet **MacroError** pour déterminer si une autre erreur s'est produite.
 
@@ -44,7 +44,7 @@ L'action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition ** \[MacroError\].\[ Numéro de\]\<\>0** teste l’objet **MacroError** . Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l'action **EffacerMacroErreur** est exécutée afin d'effacer l'objet **MacroError**.
+La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition ** \[MacroError\].\[ Le\]\<chiffre\>0** teste l'objet **MacroError** . Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l’action **EffacerMacroErreur** est exécutée afin d’effacer l’objet **MacroError**.
 
 <table>
 <colgroup>
@@ -68,17 +68,17 @@ La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pou
 <tr class="even">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom de formulaire</strong>: Formulairecatégorie<strong>affichage</strong>: <strong>Mode FormWindow</strong>: <strong>Normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: formulairecatégorie<strong>View</strong>: <strong>FormWindow mode</strong>: <strong>normal</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>GoToRecord</strong></p></td>
-<td><p><strong>Type d’objet</strong>: <strong>FormObject nom</strong>: Formulairecatégorie<strong>enregistrement</strong>: précédent</p></td>
+<td><p><strong>Type d'objet</strong>: <strong>nom formulairenom</strong>:<strong>enregistrement</strong>formulairecatégorie: précédent</p></td>
 </tr>
 <tr class="even">
-<td><p>[MacroError]. [Nombre] &lt; &gt;0</p></td>
+<td><p>[MacroError]. Valeur &lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Message</strong>: =&quot;erreur # &quot; &amp; [MacroError]. [Nombre] &amp; &quot; sur &quot; &amp; [MacroError]. [Nomaction] &amp; &quot; action. &quot; <strong>Bip</strong>: <strong>YesType</strong>: informations</p></td>
+<td><p><strong>Message</strong>: =&quot;erreur # &quot; &amp; [MacroError]. Valeur &amp; sur &quot; [ &amp; MacroError]. &quot; ActionName &amp; &quot; action. &quot; <strong>Bip</strong>: <strong>YesType</strong>: informations</p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>

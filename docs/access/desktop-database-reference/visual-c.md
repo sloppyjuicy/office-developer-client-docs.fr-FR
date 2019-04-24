@@ -1,5 +1,5 @@
 ---
-title: Visual C++ (référence de base de données du bureau Access)
+title: Visual C++ (référence de base de données de bureau Access)
 TOCTitle: Visual C++
 ms:assetid: 31d27968-e7bd-02fa-efad-26039bea30b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249091(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 082790c33840bfeacf0c1a6bd38af34c0617f4fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303401"
 ---
 # <a name="visual-c"></a>Visual C++
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Voir [l’exemple de modèle d’événements ADO (VC ++)](ado-events-model-example-vc.md) pour une description complète.
+Ceci est une description schématique de la manière de créer une instance d'événements ADO dans Microsoft Visual C++. Pour une description complète, voir [exemple de modèle d'événements ADO (VC + +)](ado-events-model-example-vc.md) .
 
 Créez des classes dérivées des interfaces **ConnectionEventsVt** et **RecordsetEventsVt** du fichier adoint.h.
 
@@ -49,7 +49,7 @@ class CRstEvent : public RecordsetEventsVt
 // EndEventExampleVC01 
 ```
 
-Implémentez chaque méthode de gestionnaire d'événements dans les deux classes. Il suffit que chaque méthode retourne simplement une valeur HRESULT de S\_OK. Cependant, lorsque la disponibilité de vos gestionnaires d'événements est connue, ils sont sans cesse invoqués par défaut. Vous pouvez toutefois décider d'annuler toute notification ultérieure la première fois en définissant **adStatus** sur **adStatusUnwantedEvent**.
+Implémentez chaque méthode de gestionnaire d'événements dans les deux classes. Il suffit que chaque méthode renvoie un HRESULT de S\_OK. Cependant, lorsque la disponibilité de vos gestionnaires d'événements est connue, ils sont sans cesse invoqués par défaut. Vous pouvez toutefois décider d'annuler toute notification ultérieure la première fois en définissant **adStatus** sur **adStatusUnwantedEvent**.
 
 ```cpp 
  

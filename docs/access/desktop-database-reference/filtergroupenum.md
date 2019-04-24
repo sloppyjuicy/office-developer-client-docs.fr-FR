@@ -1,5 +1,5 @@
 ---
-title: FilterGroupEnum (référence de base de données du bureau Access)
+title: FilterGroupEnum (référence de base de données de bureau Access)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be2ce54fe743c46468850abc5dc16520e208ec9e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704064"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292418"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Spécifie le groupe d'enregistrements à filtrer depuis un objet [Recordset](recordset-object-ado.md).
+Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](recordset-object-ado.md).
 
 <br/>
 
@@ -38,12 +38,12 @@ Spécifie le groupe d'enregistrements à filtrer depuis un objet [Recordset](rec
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Filtres pour ne visualiser que les enregistrements affectés par le dernier appel <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a> ou <a href="cancelbatch-method-ado.md">CancelBatch</a>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterConflictingRecords</strong></p></td>
-<td><p>5</p></td>
+<td><p>disque</p></td>
 <td><p>Filtres pour visualiser les enregistrements qui ont échoué à la dernière mise à jour par lots.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ Spécifie le groupe d'enregistrements à filtrer depuis un objet [Recordset](rec
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Filtres permettant de ne visualiser que les enregistrements modifiés mais pas encore envoyés au serveur. Applicables seulement en mode de mise à jour par lots.</p></td>
 </tr>
 </tbody>
@@ -80,19 +80,19 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.AFFECTEDRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. AFFECTEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.CONFLICTINGRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. CONFLICTINGRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.FETCHEDRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. FETCHEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FilterGroup.NONE</p></td>
+<td><p>AdoEnums. FilterGroup. NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FilterGroup.PENDINGRECORDS</p></td>
+<td><p>AdoEnums. FilterGroup. PENDINGRECORDS</p></td>
 </tr>
 </tbody>
 </table>

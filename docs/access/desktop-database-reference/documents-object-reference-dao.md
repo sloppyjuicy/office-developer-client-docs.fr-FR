@@ -1,5 +1,5 @@
 ---
-title: Documents d’objet référence (DAO)
+title: Référence d'objet documents (DAO)
 TOCTitle: Documents Object
 ms:assetid: 62d40d09-9083-4ddd-b08d-12e45092d029
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142217(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4fac59c6753162af5d18ea5ce9bb6c3fd66d11f1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293713"
 ---
-# <a name="documents-object-reference-dao"></a>Documents d’objet référence (DAO)
+# <a name="documents-object-reference-dao"></a>Référence d'objet documents (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-- [Collection de documents (DAO)](documents-collection-dao.md)
-- [Membres de documents (DAO)](documents-members-dao.md)
-- [Propriétés de documents (DAO)](documents-properties-dao.md)
-- [Méthodes de documents (DAO)](documents-methods-dao.md)
+- [Documents, collection (DAO)](documents-collection-dao.md)
+- [Documents, membres (DAO)](documents-members-dao.md)
+- [Propriétés des documents (DAO)](documents-properties-dao.md)
+- [Documents, méthodes (DAO)](documents-methods-dao.md)
 

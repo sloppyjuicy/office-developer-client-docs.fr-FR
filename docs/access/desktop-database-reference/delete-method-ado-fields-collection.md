@@ -1,5 +1,5 @@
 ---
-title: DELETE, méthode (Collection de champs ADO)
+title: Delete, méthode (collection Fields ADO)
 TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5d97cec041d69ddbbfe61600ca6b03cb09bc466
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294105"
 ---
-# <a name="delete-method-ado-fields-collection"></a>DELETE, méthode (Collection de champs ADO)
+# <a name="delete-method-ado-fields-collection"></a>Delete, méthode (collection Fields ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 Supprime un objet de la collection [Fields](fields-collection-ado.md).
@@ -25,13 +25,13 @@ Supprime un objet de la collection [Fields](fields-collection-ado.md).
 
 *Champs*. Supprimer le*champ*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
-|*Field* |**Variant** qui désigne l’objet [Field](field-object-ado.md) à supprimer. Ce paramètre peut être le nom de l’objet **Field** ou la position ordinale de l’objet **Field** lui-même.|
+|*Field* |A **Variant** that designates the [Field](field-object-ado.md) object to delete. This parameter can be the name of the **Field** object or the ordinal position of the **Field** object itself.|
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L'appel de la méthode **Fields.Delete** sur un objet [Recordset](recordset-object-ado.md) ouvert provoque un erreur d'exécution.
+L’appel de la méthode **Fields.Delete** sur un objet [Recordset](recordset-object-ado.md) ouvert provoque un erreur d’exécution.
 

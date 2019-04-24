@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c0650a287e2aebc13b89572db112b8f9b333dc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291240"
 ---
 # <a name="internettimeout-property-rds"></a>InternetTimeout, propriété (RDS)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique le nombre de millisecondes s'écoulant avant l'expiration d'une requête.
 

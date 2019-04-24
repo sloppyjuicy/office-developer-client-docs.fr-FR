@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 22a3662d3d14dd639069fa7aa48eda6f032fd2d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289769"
 ---
 # <a name="marshaloptions-property-ado"></a>MarshalOptions, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique les enregistrements dont les paramètres doivent être convertis avant d'être renvoyés vers le serveur.
 
@@ -27,7 +27,7 @@ Définit ou renvoie une valeur [MarshalOptions](marshaloptionsenum.md). La valeu
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous utilisez un [jeu d’enregistrements](recordset-object-ado.md)du côté client, les enregistrements qui ont été modifiés sur le client sont réécrits au niveau intermédiaire ou au serveur web via une technique appelée marshaling, le processus d’empaquetage et d’envoi des paramètres de méthode d’interface entre les threads ou limites de processus. Définition de la propriété **MarshalOptions** peut améliorer les performances lors du marshaling de données distantes modifiées pour mettre à jour au niveau intermédiaire ou au serveur web.
+Lors de l'utilisation d'un [objet Recordset](recordset-object-ado.md)côté client, les enregistrements qui ont été modifiés sur le client sont réécrits sur le niveau intermédiaire ou le serveur Web via une technique appelée marshaling, le processus d'empaquetage et l'envoi de paramètres de méthode d'interface à travers le thread ou limites de processus. La définition de la propriété **MarshalOptions** peut améliorer les performances lorsque les données à distance modifiées sont marshalées pour être mises à jour vers le niveau intermédiaire ou le serveur Web.
 
-**L’utilisation du Service de données à distance** Cette propriété est utilisée uniquement sur un **jeu d’enregistrements**du côté client.
+**Utilisation des services de données à distance** Cette propriété est utilisée uniquement sur un **objet Recordset**côté client.
 

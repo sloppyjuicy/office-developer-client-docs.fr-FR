@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9cf773090ccb37bf4cad4aff41499ad01f966479
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293251"
 ---
 # <a name="executeoptions-property-rds"></a>ExecuteOptions, propriété (RDS)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique si l'exécution asynchrone est activée.
 
@@ -38,7 +38,7 @@ Définit ou renvoie l'une des valeurs suivantes.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>valeur adcExecSync</strong></p></td>
+<td><p><strong>adcExecSync</strong></p></td>
 <td><p>Exécute l’actualisation suivante du <a href="recordset-object-ado.md">Recordset</a> de façon asynchrone.</p></td>
 </tr>
 <tr class="even">
@@ -53,9 +53,9 @@ Définit ou renvoie l'une des valeurs suivantes.
 
 ## <a name="remarks"></a>Remarques
 
-Si **ExecuteOptions** est défini sur **adcExecAsync**, l'appel suivant de **Refresh** est exécuté de façon asynchrone sur le [Recordset](datacontrol-object-rds.md) de l'objet **RDS.DataControl**.
+Si **ExecuteOptions** est défini sur **adcExecAsync**, l’appel suivant de **Refresh** est exécuté de façon asynchrone sur le **Recordset** de l’objet [RDS.DataControl](datacontrol-object-rds.md).
 
-Si vous essayez d'appeler [Reset](reset-method-rds.md),[Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md) ou [Recordset](recordset-sourcerecordset-properties-rds.md) pendant l'exécution d'une autre opération asynchrone susceptible de modifier le [Recordset](datacontrol-object-rds.md) de l'objet **RDS.DataControl**, une erreur se produit.
+Si vous essayez d’appeler [Reset](reset-method-rds.md),[Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md) ou [Recordset](recordset-sourcerecordset-properties-rds.md) pendant l’exécution d’une autre opération asynchrone susceptible de modifier le **Recordset** de l’objet[RDS.DataControl](datacontrol-object-rds.md), une erreur se produit.
 
 S’il se produit une erreur pendant une opération asynchrone, la valeur [ReadyState](readystate-property-rds.md) de l’objet **RDS.DataControl** (**adcReadyStateLoaded**) est remplacée par **adcReadyStateComplete** et la valeur de la propriété **Recordset** reste la même : *Nothing*.
 

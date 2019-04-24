@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c74b90ad45055689c7235e4062b83d71919c02a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699169"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294413"
 ---
 # <a name="datecreated-and-datemodified-properties-example-vc"></a>DateCreated et DateModified, propriétés – Exemple (VC++)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre les propriétés [DateCreated](datecreated-property-adox.md) et [DateModified](datemodified-property-adox.md) par l'ajout d'un nouvel objet [Column](column-object-adox.md) à un objet [Table](table-object-adox.md) existant et la création d'un nouvel objet **Table**. L'exécution de cet exemple requiert la procédure DateOutput.
 

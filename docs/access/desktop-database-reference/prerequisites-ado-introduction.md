@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e33d44c1c34d9a0d899e370095e400815a503356
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301441"
 ---
 # <a name="prerequisites-ado-introduction"></a>Prerequisites (ADO Introduction)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Le *guide du programmeur ADO* sera très utile aux développeurs un large éventail d’arrière-plans. Ils doivent néanmoins avoir un niveau d'expérience intermédiaire dans le développement d'applications avec Microsoft Visual Basic, car la plupart des exemples de ce guide sont rédigés dans ce langage. Autres exemples sont écrits en Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript) et Microsoft JScript.
+Le *Guide du programmeUr ADO* s'avère utile pour les développeurs disposant d'un grand nombre d'arrière-plans. Ils doivent néanmoins avoir un niveau d'expérience intermédiaire dans le développement d'applications avec Microsoft Visual Basic, car la plupart des exemples de ce guide sont rédigés dans ce langage. D'autres exemples sont écrits en Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript) et Microsoft JScript.
 
 Dans la mesure où ADO est utilisé pour l'accès aux données de différentes sources, les lecteurs doivent également comprendre les concepts fondamentaux de gestion des systèmes de base de données relationnelles, les concepts de traitement analytique en ligne (OLAP), ainsi qu'une connaissance de base d'Internet et de ses protocoles.
 
-ADO est un composant de la stratégie Microsoft Data Access (UDA). (Pour plus d’informations sur l’analyse utilisateur, voir [Le rôle d’ADO dans Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md), plus loin dans ce chapitre.) De ce fait, il interagit avec la technologie OLE DB. OLE DB est basé sur le Microsoft composant COM (Object Model). Par conséquent, vous familiariser avec COM peut également être utile pour comprendre certains des concepts plus avancés dans ADO.
+ADO fait partie de la stratégie Microsoft Data Access (UDA). (Pour plus d'informations sur UDA, consultez [le rôle d'ADO dans Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md), plus loin dans ce chapitre.) En tant que tel, il interagit avec la technologie OLE DB. OLE DB est basé sur le modèle Microsoft Component Object Model (COM). Il peut être par conséquent utile de connaître les rudiments de COM pour comprendre certains des concepts les plus avancés d’ADO.
 

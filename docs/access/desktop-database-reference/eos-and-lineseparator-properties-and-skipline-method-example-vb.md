@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2241d61f66ea8599b60bd83a044f2073664f4bbf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293531"
 ---
 # <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>EOS et LineSeparator, propriétés et SkipLine, méthode-exemple (VB)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Cet exemple illustre comment manipuler des flux de texte ligne par ligne. Il montre ce qu'implique le fait de remplacer le séparateur de ligne par défaut, retour/saut à la ligne (**adCRLF**) par un saut à la ligne (**adLF**) ou un retour chariot (**adCR**) simple.
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété Field.ValidateOnSet (DAO)
+title: Field. ValidateOnSet, propriété (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844720(v=office.15)
@@ -12,16 +12,16 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d8fb358ab757d826bcfcd335aada8825e3ba980
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292957"
 ---
-# <a name="fieldvalidateonset-property-dao"></a>Propriété Field.ValidateOnSet (DAO)
+# <a name="fieldvalidateonset-property-dao"></a>Field. ValidateOnSet, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Définit ou renvoie une valeur qui spécifie si la valeur d'un objet **[Field](field-object-dao.md)** est immédiatement validée quand la propriété **[Value](field-value-property-dao.md)** de l'objet est définie (espaces de travail Microsoft Access uniquement).
 
@@ -39,7 +39,7 @@ Il peut être utile d'attribuer la valeur **True** à la propriété **ValidateO
 
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la propriété **ValidateOnSet** pour montrer comment intercepter des erreurs pendant l'entrée des données. La fonction ValidateData est obligatoire pour l'exécution de cette procédure.
+Cet exemple utilise la propriété **ValidateOnSet** pour démontrer la manière de capturer les erreurs lors de l'entrée de données. La fonction ValidateData est indispensable pour l'exécution de cette procédure.
 
 ```vb
     Sub ValidateOnSetX() 

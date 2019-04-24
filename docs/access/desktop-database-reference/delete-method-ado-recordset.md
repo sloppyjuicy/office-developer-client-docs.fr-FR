@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e8142d4fc4fc0036f80693f0bff779d9f3f2a62e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702487"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294098"
 ---
 # <a name="delete-method-ado-recordset"></a>Delete, méthode (Recordset ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Supprime l'enregistrement actif ou un groupe d'enregistrements.
 
 ## <a name="syntax"></a>Syntaxe
 
-*jeu d’enregistrements*. Supprimer *AffectRecords*
+*Recordset*. Supprimer *AffectRecords*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
 |*AffectRecords* |Valeur [AffectEnum](affectenum.md) qui détermine le nombre d'enregistrements concernés par la méthode **Delete**. La valeur par défaut est **adAffectCurrent**.|
 
 > [!NOTE]
 > [!REMARQUE] **adAffectAll** et **adAffectAllChapters** ne sont pas des arguments valides de la méthode **Delete**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L'utilisation de la méthode **Delete** marque pour suppression l'enregistrement actif ou un groupe d'enregistrements d'un objet [Recordset](recordset-object-ado.md). Si l'objet **Recordset** n'autorise pas la suppression d'enregistrements, une erreur se produit. Si vous êtes en mode de mise à jour immédiate, les suppressions sont effectuées immédiatement dans la base de données. S'il est impossible de supprimer un enregistrement (en raison de violations d'intégrité de la base de données, par exemple), l'enregistrement reste en mode édition après l'appel de la méthode **Update**. Cela signifie que vous devez annuler la mise à jour avec [CancelUpdate](cancelupdate-method-ado.md) avant de quitter l'enregistrement actif (par exemple, avec les méthodes [Close](close-method-ado.md), [Move](move-method-ado.md) ou [NextRecordset](nextrecordset-method-ado.md)).
 

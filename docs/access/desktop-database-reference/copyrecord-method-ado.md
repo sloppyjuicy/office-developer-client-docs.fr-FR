@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c5aac745bacf0662f6cd389bfefde7182a9676d3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295526"
 ---
 # <a name="copyrecord-method-ado"></a>CopyRecord, méthode (ADO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Copie une entité représentée par un objet **Record** vers un autre emplacement.
 
 ## <a name="syntax"></a>Syntaxe
 
-*Enregistrement*. CopyRecord (*Source*, *Destination*, *nom d’utilisateur*, *mot de passe*, *Options*, *asynchrone*)
+*Enregistrement*. CopyRecord (*source*, *destination*, *username*, *Password*, *options*, *Async*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
-|Paramètre|Description|
+|Parameter|Description|
 |:--------|:----------|
-|*Source* |Facultatif. Valeur de type **String** contenant une URL spécifiant l'entité à copier (par exemple, un fichier ou un répertoire). Si la *Source* est omis ou spécifie une chaîne vide, le fichier ou le répertoire représenté par l' [enregistrement](record-object-ado.md) actif est copié.|
-|*Destination* |Facultatif. Une valeur de **type String** qui contient une URL spécifiant l’emplacement dans lequel *Source* va être copié.|
+|*Source* |Facultatif. Valeur de type **String** contenant une URL spécifiant l’entité à copier (par exemple, un fichier ou un répertoire). Si le paramètre *Source* est omis ou spécifie une chaîne vide, le fichier ou le répertoire représenté par l’objet [Record](record-object-ado.md) actif est copié.|
+|*Destination* |Facultatif. Valeur de type **String** contenant une URL spécifiant l'emplacement dans lequel *Source* va être copié.|
 |*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Destination*.|
-|*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
+|*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie *UserName*.|
 |*Options* |Facultatif. Valeur de l'énumération [CopyRecordOptionsEnum](copyrecordoptionsenum.md) (par défaut, **adCopyUnspecified** ). Spécifie le comportement de cette méthode.|
 |*Async* |Facultatif. Valeur de type **Boolean** qui, lorsqu'elle correspond à **True**, indique que cette opération doit être asynchrone.|
 
@@ -41,17 +41,17 @@ Valeur de type **String** qui retourne, en général, la valeur de *Destination*
 
 ## <a name="remarks"></a>Remarques
 
-Les valeurs de la *Source* et de *Destination* ne doivent pas être identiques ; dans le cas contraire, une erreur d’exécution se produit. Il faut au moins que le nom du serveur, du chemin d'accès ou de la ressource diffère.
+Les valeurs des paramètres *Source* et *Destination* ne doivent pas être identiques sans quoi une erreur d'exécution se produit. Il faut au moins que le nom du serveur, du chemin d'accès ou de la ressource diffère.
 
 Tous les enfants (par exemple, les sous-répertoires) de *Source* sont copiés de manière récursive sauf si la valeur **adCopyNonRecursive** est spécifiée. Dans une opération récursive, *Destination* ne doit pas correspondre à un sous-répertoire de *Source* sans quoi l'opération n'est pas exécutée.
 
 Cette méthode échoue si *Destination* identifie une entité existante (par exemple, un fichier ou un répertoire) sauf si **adCopyOverWrite** est spécifié.
 
 > [!IMPORTANT]
-> [!IMPORTANTE] Soyez prudent lorsque vous utilisez l'option **adCopyOverWrite**. Par exemple, si cette option lors de la copie d’un fichier dans un répertoire sera *Supprimer* le répertoire et remplacez-la par le fichier.
+> Soyez prudent lorsque vous utilisez l'option **adCopyOverWrite**. Si, par exemple, vous la spécifiez lors de la copie d'un fichier dans un répertoire, ce répertoire est *supprimé* et remplacé par le fichier.
 
 
 > [!NOTE]
-> [!REMARQUE] Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, consultez [URL absolues et relatives](absolute-and-relative-urls.md).
+> Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d'informations, consultez la rubrique [URL absolues et relatives](absolute-and-relative-urls.md).
 
 

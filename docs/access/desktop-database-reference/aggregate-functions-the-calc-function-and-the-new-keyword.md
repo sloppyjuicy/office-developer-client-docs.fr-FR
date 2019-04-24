@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25f52489430465235a928fff3c38469ec6ba83ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297192"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Fonctions d’agrégation, fonction CALC et mot-clé NEW
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La mise en forme des données prend en charge les fonctions suivantes. Le nom attribué au chapitre contenant la colonne à manipuler est *alias-chapitre*.
 
-Un alias-chapitre peut être complet, constitué de chaque nom de colonne de chapitre menant au chapitre contenant le *nom de la colonne,* toutes les séparés par des virgules. Par exemple si le chapitre parent, chap1, contient un chapitre enfant, chap2, avec une colonne de montant, mnt, le nom qualifié sera chap1.chap2.mnt.
+Un alias-chapitre peut être complètement qualifié et se composer de chaque nom de colonne de chapitre menant au chapitre contenant le *nom-colonne,*, le tout séparé par des points. Par exemple si le chapitre parent, chap1, contient un chapitre enfant, chap2, avec une colonne de montant, mnt, le nom qualifié sera chap1.chap2.mnt.
 
 <table>
 <colgroup>
@@ -36,33 +36,32 @@ Un alias-chapitre peut être complet, constitué de chaque nom de colonne de cha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Somme (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
+<td><p>SUM (<em>Chapter-alias</em>.<em> colonne-nom</em>)</p></td>
 <td><p>Calcule la somme de toutes les valeurs dans la colonne spécifiée.</p></td>
 </tr>
 <tr class="even">
-<td><p>AVG (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
+<td><p>AVG (<em>alias-Chapter</em>.<em> colonne-nom</em>)</p></td>
 <td><p>Calcule la moyenne de toutes les valeurs dans la colonne spécifiée.</p></td>
 </tr>
 <tr class="odd">
-<td><p>MAX (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
+<td><p>MAX (<em>alias-chapitre</em>.<em> colonne-nom</em>)</p></td>
 <td><p>Calcule la valeur maximale dans la colonne spécifiée.</p></td>
 </tr>
 <tr class="even">
-<td><p>MIN (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
+<td><p>MIN (<em>chapitre-alias</em>.<em> colonne-nom</em>)</p></td>
 <td><p>Calcule la valeur minimale dans la colonne spécifiée.</p></td>
 </tr>
 <tr class="odd">
-<td><p>COUNT (<em>alias-chapitre</em>[.<em> nom de la colonne</em>])</p></td>
+<td><p>COUNT (<em>Chapter-alias</em>[.<em> Column-Name</em>])</p></td>
 <td><p>Compte le nombre de lignes dans l'alias spécifié. Si une colonne est spécifiée, seules les lignes pour lesquelles cette colonne n'est pas Null, sont comptées.</p></td>
 </tr>
 <tr class="even">
-<td><p>STDEV (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
+<td><p>ECARTYPE (<em>chapitre-alias</em>.<em> colonne-nom</em>)</p></td>
 <td><p>Calcule l'écart type dans la colonne spécifiée.</p></td>
 </tr>
 <tr class="odd">
-<td><p>TOUT (<em>alias-chapitre</em>.<em> nom de la colonne</em>)</p></td>
-<td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.
-</p><p><strong>Remarque</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes dans le chapitre, la commande SHAPE retourne arbitrairement l’une des valeurs à la valeur de la fonction ANY.</p></td>
+<td><p>ANY (<em>alias-chapitre)</em>.<em> colonne-nom</em>)</p></td>
+<td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.</p><p><strong>Remarque</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE renvoie de manière arbitraire une des valeurs à la valeur de la fonction any.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +81,7 @@ Un alias-chapitre peut être complet, constitué de chaque nom de colonne de cha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>CALC(<em>expression</em>)</p></td>
+<td><p>CALC (<em>expression</em>)</p></td>
 <td><p>Calcule une expression arbitraire, mais uniquement sur la ligne de l’objet <strong>Recordset</strong> contenant la fonction CALC. Toute expression utilisant ces <a href="visual-basic-for-applications-functions.md"> fonctions Visual Basic pour Applications (VBA)</a> est autorisée.</p></td>
 </tr>
 </tbody>
@@ -103,15 +102,15 @@ Un alias-chapitre peut être complet, constitué de chaque nom de colonne de cha
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NOUVEAU <em>type-champ</em> [(<em>largeur</em> | <em>à l’échelle</em> | <em>précision</em> | <em>erreur</em> [, <em>échelle</em> | <em>erreur</em>])]</p></td>
-<td><p>Ajoute une colonne vide de type spécifié à l'objet <strong>Recordset</strong>.</p></td>
+<td><p>New <em>Field-type</em> <em></em> | [(<em>erreur</em> de<em>précision</em> | de l'épaisseur de la<em>largeur</em> | [,<em>erreur</em>d' <em>homothétie</em> | ])]</p></td>
+<td><p>Ajoute une colonne vide du type spécifié à l' <strong>objet Recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un des suivants :
+Le *type de champ* passé avec le mot clé New peut être l'un des types de données suivants.
 
 <table>
 <colgroup>
@@ -121,7 +120,7 @@ Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un 
 <thead>
 <tr class="header">
 <th><p>Types de données OLE DB</p></th>
-<th><p>Type(s) de données ADO équivalent(s)</p></th>
+<th><p>Type (s) de données ADO équivalent (s)</p></th>
 </tr>
 </thead>
 <tbody>
@@ -167,11 +166,11 @@ Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un 
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_BYTES</p></td>
-<td><p>adLongVarBinary adBinary, AdVarBinary,</p></td>
+<td><p>adBinary, AdVarBinary, adLongVarBinary</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_STR</p></td>
-<td><p>adChar, adVarChar, adLongVarChar</p></td>
+<td><p>adChar, adVarchar, adLongVarChar</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_WSTR</p></td>
@@ -194,7 +193,7 @@ Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un 
 <td><p>adDBTimeStamp</p></td>
 </tr>
 <tr class="even">
-<td><p>AVANT DBTYPE_VARNUMERIC</p></td>
+<td><p>DBTYPE_VARNUMERIC</p></td>
 <td><p>adVarNumeric</p></td>
 </tr>
 <tr class="odd">
@@ -209,5 +208,5 @@ Le type de données du *type-champ* passé avec le mot clé NEW peut être l'un 
 </table>
 
 
-Lorsque le nouveau champ est décimal (dans OLE DB, DBTYPE\_décimal, ou dans ADO, adDecimal), vous devez spécifier les valeurs de précision et une échelle.
+Lorsque le nouveau champ est de type décimal (dans OLE DB, DBTYPE\_Decimal ou dans ADO, adDecimal), vous devez spécifier les valeurs de précision et d'étendue.
 

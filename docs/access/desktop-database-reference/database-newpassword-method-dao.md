@@ -1,5 +1,5 @@
 ---
-title: Méthode Database.NewPassword (DAO)
+title: Database. NewPassword, méthode (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294854"
 ---
-# <a name="databasenewpassword-method-dao"></a>Méthode Database.NewPassword (DAO)
+# <a name="databasenewpassword-method-dao"></a>Database. NewPassword, méthode (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Permet de modifier le mot de passe d'une base de données existante du moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).
+Permet de modifier le mot de passe d’une base de données existante du moteur de base de données Microsoft Access (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . NewPassword (***chaînes bstrAncien***, ***bstrNouveau***)
+*expression* . NewPassword (***bstrAncien***, ***bstrNouveau***)
 
-*expression* Expression qui renvoie un objet de **base de données** .
+*expression* Expression qui renvoie un objet **Database** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -42,14 +42,14 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 <thead>
 <tr class="header">
 <th><p>Nom</p></th>
-<th><p>Requis/facultatif</p></th>
+<th><p>Obligatoire/facultatif</p></th>
 <th><p>Type de données</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>chaînes bstrAncien</em></p></td>
+<td><p><em>bstrAncien</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>Définition actuelle de la propriété <strong>Password</strong> de l'objet <strong>Database</strong>.</p></td>
@@ -58,8 +58,8 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 <td><p><em>bstrNouveau</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Le nouveau paramètre de la propriété de <strong>mot de passe</strong> de l’objet de <strong>base de données</strong> .</p>
-<p><strong>Remarque</strong>: utilisez des mots de passe forts combinant des majuscules et minuscules, nombres et des symboles. Les mots de passe faibles ne regroupent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : Maison27. Utilisez un mot de passe fort dont vous pouvez vous souvenir sans devoir le noter.</p>
+<td><p>Nouveau paramètre de la propriété <strong>Password</strong> de l'objet <strong>Database</strong> .</p>
+<p><strong>Remarque</strong>: utilisez des mots de passe forts qui combinent des lettres majuscules et minuscules, des chiffres et des symboles. Les mots de passe faibles ne mélangent pas ces éléments. Mot de passe fort : Y6dh!et5. Mot de passe faible : House27. Utilisez un mot de passe fort facile à mémoriser afin de ne pas avoir à le noter.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ Permet de modifier le mot de passe d'une base de données existante du moteur de
 
 ## <a name="remarks"></a>Remarques
 
-Les chaînes bstrAncien et bstrNouveau peuvent comporter jusqu'à 20 caractères et peut comprendre des caractères, à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne de longueur nulle (" ») pour l’argument bstrNouveau.
+Les chaînes bstrAncien et bstrNouveau peuvent contenir jusqu'à 20 caractères et peuvent contenir n'importe quel caractère, à l'exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne de longueur nulle ("") pour bstrNouveau.
 
 Les mots de passe respectent la casse.
 

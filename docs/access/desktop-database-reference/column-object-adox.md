@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 188f70d32237385cd82979589aecb989f18748b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720722"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296247"
 ---
 # <a name="column-object-adox"></a>Column, objet (ADOX)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Représente une colonne dans une table, un index ou une clé.
 
 ## <a name="remarks"></a>Remarques
 
-Le code suivant permet de créer une nouvelle **colonne**:
+Le code suivant permet de créer une nouvelle **colonne** :
 
 `Dim obj As New Column`
 
@@ -47,7 +47,7 @@ Avec les propriétés et collections d'un objet **Column**, vous pouvez :
 
   - Spécifier si l'ordre de tri des colonnes d'index est croissant ou décroissant à l'aide de la propriété [SortOrder](sortorder-property-adox.md).
 
-  - Accéder aux propriétés spécifiques au fournisseur à l'aide de la collection [Properties](properties-collection-ado.md).
+  - Accéder aux propriétés spécifiques au fournisseur à l’aide de la collection [Properties](properties-collection-ado.md).
 
 
 > [!NOTE]

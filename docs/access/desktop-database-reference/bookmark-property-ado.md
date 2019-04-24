@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 17818fe2b4f826cbcfbbb3955817c2b5d99ab6a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296793"
 ---
 # <a name="bookmark-property-ado"></a>Bookmark, propriété (ADO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Indique un signet qui identifie de manière unique l'enregistrement actif d'un objet [Recordset](recordset-object-ado.md) ou définit comme enregistrement actif d'un objet **Recordset** l'enregistrement identifié par un signet valide.
 
@@ -25,7 +25,7 @@ Indique un signet qui identifie de manière unique l'enregistrement actif d'un o
 
 Définit ou renvoie une expression de type **Variant** qui correspond à un signet valide.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la propriété **Bookmark** pour enregistrer la position de l'enregistrement actif et revenir à cet enregistrement à tout moment. Les signets ne sont disponibles que dans les objets **Recordset** prenant en charge la fonctionnalité de signet.
 
@@ -35,5 +35,5 @@ L'utilisateur n'est peut-être pas en mesure de visualiser la valeur du signet. 
 
 Si vous utilisez la méthode [Clone](clone-method-ado.md) pour créer une copie d'un objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué, sont identiques et vous pouvez les utiliser de manière interchangeable. Cependant, vous ne pouvez pas utiliser des signets de différents objets **Recordset** de manière interchangeable même s'ils ont été créés à partir de la même source ou de la même commande.
 
-**L’utilisation du Service de données à distance** Lorsqu’elle est utilisée sur un objet **Recordset** de côté client, la propriété **Bookmark** est toujours disponible.
+**Utilisation des services de données à distance** Lorsqu'elle est utilisée sur un objet **Recordset** côté client, la propriété **Bookmark** est toujours disponible.
 

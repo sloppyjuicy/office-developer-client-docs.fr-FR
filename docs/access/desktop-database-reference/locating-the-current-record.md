@@ -8,19 +8,19 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 09dc5984d4b6028272f3a715b40d0bb8f39ff4f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289877"
 ---
 # <a name="locating-the-current-record"></a>Localisation de l’enregistrement actif
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La position actuelle du curseur dans le **jeu d'enregistrements** délimite la position de l'enregistrement actif. En supposant que la commande publiée renvoie des résultats, le curseur est automatiquement placé au niveau du premier enregistrement lorsque la méthode **Recordset** **Open** est invoquée. Ainsi, dans l'exemple **Recordset**, le curseur se trouve au niveau du premier enregistrement « Les poires séchées organiques d'oncle Bob ».
 
-Cette section comprend les rubriques suivantes :
+Cette section contient les rubriques suivantes :
 
 - [Décompte des lignes](counting-rows.md)
-- [Les limites d’un jeu d’enregistrements](the-limits-of-a-recordset.md)
+- [Limites d'un objet Recordset](the-limits-of-a-recordset.md)

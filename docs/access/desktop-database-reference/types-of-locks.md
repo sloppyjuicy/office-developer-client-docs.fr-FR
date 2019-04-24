@@ -1,5 +1,5 @@
 ---
-title: Types de verrous (référence de base de données du bureau Access)
+title: Types de verrous (référence de base de données de bureau Access)
 TOCTitle: Types of Locks
 ms:assetid: 8276edca-f603-2487-a2ca-73e618c0f11e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249565(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 47b212be1922f783889f1e5be436a616909dc5c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314160"
 ---
 # <a name="types-of-locks"></a>Types de verrous
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 
 
@@ -37,7 +37,7 @@ Indique un verrouillage pessimiste, enregistrement par enregistrement. Le fourni
 
 ## <a name="adlockreadonly"></a>adLockReadOnly
 
-Indique des enregistrements en lecture seule. Vous ne pouvez pas modifier les données. Un verrou en lecture seule constitue le type de verrou le plus « rapide » car il ne requiert pas de verrouillage des enregistrements par le serveur.
+Indique des enregistrements en lecture seule. Vous ne pouvez pas modifier les données. Un verrou en lecture seule constitue le type de verrou le plus « rapide » car il ne requiert pas de verrouillage des enregistrements par le serveur.
 
 ## <a name="adlockunspecified"></a>adLockUnspecified
 

@@ -1,5 +1,5 @@
 ---
-title: Objet conteneur (DAO)
+title: Objet Container (DAO)
 TOCTitle: Container Object
 ms:assetid: 22e487cd-e966-fe68-fff3-c680b460cbeb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295631"
 ---
-# <a name="container-object-dao"></a>Objet conteneur (DAO)
+# <a name="container-object-dao"></a>Objet Container (DAO)
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 Un objet **Container** regroupe des types d'objets **Document** similaires.
 
@@ -39,7 +39,7 @@ Certains de ces objets **Container** sont définis par le moteur de base de donn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Bases de données</p></td>
+<td><p>Databases</p></td>
 <td><p>Bases de données enregistrées</p></td>
 </tr>
 <tr class="even">
@@ -70,11 +70,11 @@ Comme les objets **Container** sont intégrés, vous ne pouvez pas créer d'obje
 
 Pour renvoyer à un objet **Container** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des formes de syntaxe suivantes :
 
-- **Containers**(0)
+- **Conteneurs** 0
 
-- **Conteneurs** («*nom*»)
+- **Conteneurs** ("*nom*")
 
-- **Conteneurs**\!\[*nom*\]
+- ****\!\[*Nom* des conteneurs\]
 
 ## <a name="example"></a>Exemple
 

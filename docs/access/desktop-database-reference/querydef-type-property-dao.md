@@ -1,5 +1,5 @@
 ---
-title: Propriété QueryDef.Type (DAO)
+title: QueryDef. type, propriété (DAO)
 TOCTitle: Type Property
 ms:assetid: 03db891d-b958-7cf9-56c1-524d9ff2b9b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844814(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cb8856194d0b2ed14577bdc275adeb50ebdde212
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721380"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300944"
 ---
-# <a name="querydeftype-property-dao"></a>Propriété QueryDef.Type (DAO)
+# <a name="querydeftype-property-dao"></a>QueryDef. type, propriété (DAO)
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type **Integer** en lecture seule.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Type de valeur Integer**en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* . Type
+*expression* . Entrer
 
 *expression* Variable qui représente un objet **QueryDef** .
 
@@ -53,19 +53,19 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Composé</p></td>
+<td><p>Gomme</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Analyse croisée</p></td>
+<td><p>Analyse</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
-<td><p>Définition de données</p></td>
+<td><p>Définition des données</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQDelete</strong></p></td>
-<td><p>Delete</p></td>
+<td><p>Supprimer</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQMakeTable</strong></p></td>
@@ -77,7 +77,7 @@ Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décr
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>
-<td><p>Sélection</p></td>
+<td><p>Sélectionner</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQSetOperation</strong></p></td>

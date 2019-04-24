@@ -1,5 +1,5 @@
 ---
-title: FieldAttributeEnum (référence de base de données du bureau Access)
+title: FieldAttributeEnum (référence de base de données de bureau Access)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 079c79af3d15a6a5864a7db7f8334393258cfd42
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706876"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292600"
 ---
 # <a name="fieldattributeenum"></a>FieldAttributeEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
+Spécifie un ou plusieurs attributs d’un objet [Field](field-object-ado.md).
 
 <br/>
 
@@ -43,7 +43,7 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldFixed</strong></p></td>
-<td><p>0 x 10</p></td>
+<td><p>0x10</p></td>
 <td><p>Indique que le champ contient des données de longueur fixe.</p></td>
 </tr>
 <tr class="odd">
@@ -53,32 +53,32 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsCollection</strong></p></td>
-<td><p>0 x 40000</p></td>
+<td><p>0x40000</p></td>
 <td><p>Indique que le champ spécifie que la ressource représentée par l'enregistrement est une collection d'autres ressources, comme un dossier, plutôt que comme une ressource simple comme un fichier texte.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsDefaultStream</strong></p></td>
-<td><p>0 x 20000</p></td>
-<td><p>Indique que le champ contient le flux par défaut pour la ressource représentée par l’objet record. Par exemple, le flux par défaut peut être le contenu HTML d’un dossier racine sur un site Web, qui est automatiquement servi lorsque l’URL racine est spécifié.</p></td>
+<td><p>0x20000</p></td>
+<td><p>Indique que le champ contient la chaîne par défaut de la ressource représentée par l'enregistrement. Par exemple, le flux par défaut peut être le contenu HTML d'un dossier racine sur un site Web, qui est automatiquement desservi lorsque l'URL racine est spécifiée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldIsNullable</strong></p></td>
-<td><p>0 x 20</p></td>
+<td><p>engendre</p></td>
 <td><p>Indique que le champ accepte des valeurs nulles.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIsRowURL</strong></p></td>
-<td><p>0 x 10000</p></td>
+<td><p>0x10000</p></td>
 <td><p>Indique que le champ contient l'URL qui appelle la ressource à partir de l'emplacement des données représenté par l'enregistrement.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adFldLong</strong></p></td>
-<td><p>0 x 80</p></td>
+<td><p><strong>Bit adFldLong</strong></p></td>
+<td><p>0x80</p></td>
 <td><p>Indique que le champ est de type binaire long. Indique également que vous pouvez utiliser les méthodes <a href="appendchunk-method-ado.md">AppendChunk</a> et <a href="getchunk-method-ado.md">GetChunk</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldMayBeNull</strong></p></td>
-<td><p>0 x 40</p></td>
+<td><p>0x40</p></td>
 <td><p>Indique que vous pouvez lire des valeurs nulles à partir du champ.</p></td>
 </tr>
 <tr class="even">
@@ -93,28 +93,28 @@ Spécifie un ou plusieurs attributs d'un objet [Field](field-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adFldRowID</strong></p></td>
-<td><p>0 x 100</p></td>
+<td><p>0x100</p></td>
 <td><p>Indique que le champ contient un identificateur de lignes persistantes sur lequel il n'est pas possible d'écrire et qui ne possède pas de valeurs significatives, sauf pour l'identification de la ligne (comme un numéro d'enregistrement, un identificateur unique, etc.).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldRowVersion</strong></p></td>
-<td><p>0 x 200</p></td>
+<td><p>0x200</p></td>
 <td><p>Indique que le champ contient un horodatage (heure ou date) utilisé pour suivre les mises à jour.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldUnknownUpdatable</strong></p></td>
-<td><p>0 x 8</p></td>
+<td><p>0x8</p></td>
 <td><p>Indique que le fournisseur ne peut déterminer si vous pouvez écrire dans le champ.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnspecified</strong></p></td>
 <td><p>-1<br />
-0xFFFFFFFF</p></td>
+Égale</p></td>
 <td><p>Indique que le fournisseur ne spécifie pas d'attributs pour le champ.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldUpdatable</strong></p></td>
-<td><p>0 x 4</p></td>
+<td><p>0x4</p></td>
 <td><p>Indique que vous pouvez écrire dans le champ.</p></td>
 </tr>
 </tbody>
@@ -136,40 +136,40 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
+<td><p>AdoEnums. FieldAttribute. CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
+<td><p>AdoEnums. FieldAttribute. FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. ISNULLABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.LONG</p></td>
+<td><p>AdoEnums. FieldAttribute. LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
+<td><p>AdoEnums. FieldAttribute. MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
+<td><p>AdoEnums. FieldAttribute. MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
+<td><p>AdoEnums. FieldAttribute. NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
+<td><p>AdoEnums. FieldAttribute. ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
+<td><p>AdoEnums. FieldAttribute. ROWVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
+<td><p>AdoEnums. FieldAttribute. unSPÉCIFIÉ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
+<td><p>AdoEnums. FieldAttribute. Updatable</p></td>
 </tr>
 </tbody>
 </table>

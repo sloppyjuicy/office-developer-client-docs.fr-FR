@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f43207edec0c0acb58c66318e5dc7668a28ea595
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295326"
 ---
 # <a name="creating-the-connection-string"></a>Création de la chaîne de connexion
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'autres arguments sont transférés au fournisseur mentionné dans l'argument *Fournisseur* sans aucun traitement de la part d'ADO.
 
@@ -37,7 +37,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 <td><p>Spécifie le nom d'un fournisseur à utiliser pour la connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Nom de fichier</em></p></td>
+<td><p><em>Nom du fichier</em></p></td>
 <td><p>Spécifie le nom d'un fichier spécifique au fournisseur (par exemple, un objet de source de données persistant) contenant des informations de connexion prédéfinies.</p></td>
 </tr>
 <tr class="odd">
@@ -50,7 +50,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 </tr>
 <tr class="odd">
 <td><p><em>Serveur distant</em></p></td>
-<td><p>Spécifie le nom du chemin d'accès du serveur à utiliser lors de l'ouverture d'une connexion côté client (RDS uniquement).</p></td>
+<td><p>Spécifie le nom de chemin du serveur à utiliser pour les connexions côté client. (Remote Data Service uniquement.)</p></td>
 </tr>
 </tbody>
 </table>
@@ -58,9 +58,9 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 
 
 > [!NOTE]
-> Dans les exemples suivants et dans le guide du programmeur ADO, l’id utilisateur « MyId » avec un mot de passe de « 123aBc » est utilisé pour authentifier auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
+> Dans les exemples suivants et tout au long du Guide du programmeur ADO, l'ID d'utilisateur «MyId» avec le mot de passe «123aBc» est utilisé pour l'authentification auprès du serveur. Remplacez ces valeurs par des informations d'identification valides pour votre serveur. Remplacez également le nom de votre serveur par « MySqlServer ».
 
-Dans le chapitre 1, l'application HelloData a utilisé la chaîne de connexion suivante :
+Dans le chapitre 1, l'application HelloData a utilisé la chaîne de connexion suivante :
 
 ```vb 
  
@@ -68,7 +68,7 @@ m_sConnStr = "Provider='SQLOLEDB';Data Source='MySqlServer';" & _
  "Initial Catalog='Northwind';Integrated Security='SSPI';" 
 ```
 
-Le seul paramètre ADO fourni dans cette chaîne de connexion était « Provider=SQLOLEDB », qui indiquait le fournisseur Microsoft OLE DB pour SQL Server. Reportez-vous à la documentation de chaque fournisseur pour déterminer les autres paramètres valides pouvant être transférés dans la chaîne de connexion. Selon le fournisseur OLE DB pour la documentation SQL Server, vous pouvez remplacer « Serveur » pour le paramètre *Source de données* et « Database » pour le paramètre *Initial Catalog* . Ainsi, la chaîne de connexion suivante devrait produire les mêmes résultats que la première :
+Le seul paramètre ADO fourni dans cette chaîne de connexion était « Provider=SQLOLEDB », qui indiquait le fournisseur Microsoft OLE DB pour SQL Server. Reportez-vous à la documentation de chaque fournisseur pour déterminer les autres paramètres valides pouvant être transférés dans la chaîne de connexion. Selon la documentation du fournisseur OLE DB pour SQL Server, vous pouvez remplacer « Server » par le paramètre *Source de données* et « Database » par le paramètre *Catalogue initial*. Ainsi, la chaîne de connexion suivante devrait produire les mêmes résultats que la première :
 
 ```vb 
  

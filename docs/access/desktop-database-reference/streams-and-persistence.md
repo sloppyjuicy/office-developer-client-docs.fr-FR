@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a6f49368def305964119edcb06b5bcc80c278d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314433"
 ---
 # <a name="streams-and-persistence"></a>Flux et persistance
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 La méthode [Save](save-method-ado.md) de l’objet [Recordset](recordset-object-ado.md) stocke, ou *persiste*, un objet **Recordset** dans un fichier. La méthode [Open](open-method-ado-recordset.md) restaure, quant à elle, l’objet **Recordset** à partir de ce fichier.
 
@@ -79,7 +79,7 @@ strRst = stm.ReadText(adReadAll)
 
 ## <a name="scenario-3"></a>Scénario 3
 
-Cet exemple de code montre comment le code ASP persiste un objet **Recordset** au format XML directement dans l'objet **Response**:
+Cet exemple de code montre comment le code ASP persiste un objet **Recordset** au format XML directement dans l'objet **Response** :
 
 ```vb 
  

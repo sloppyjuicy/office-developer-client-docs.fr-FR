@@ -1,5 +1,5 @@
 ---
-title: ConnectOptionEnum (référence de base de données du bureau Access)
+title: ConnectOptionEnum (référence de base de données de bureau Access)
 TOCTitle: ConnectOptionEnum
 ms:assetid: 803d3fd6-93cf-85ea-eeb0-ca1bc965577d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249544(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 95b622d2216b085ffd0f76c8a26533187c17bd7b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295680"
 ---
 # <a name="connectoptionenum"></a>ConnectOptionEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Indique si la méthode [Open](open-method-ado-connection.md) d'un objet [Connection](connection-object-ado.md) doit être exécutée après (de façon synchrone) ou avant (de façon asynchrone) l'établissement de la connexion.
+Indique si la méthode [Open](open-method-ado-connection.md) d’un objet [Connection](connection-object-ado.md) doit être exécutée après (de façon synchrone) ou avant (de façon asynchrone) l’établissement de la connexion.
 
 <br/>
 
@@ -37,8 +37,8 @@ Indique si la méthode [Open](open-method-ado-connection.md) d'un objet [Connect
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adAsyncConnect</strong></p></td>
-<td><p>16</p></td>
+<td><p><strong>Option adAsyncConnect</strong></p></td>
+<td><p>Seiz</p></td>
 <td><p>Ouvre la connexion de manière asynchrone. L’événement <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> peut être utilisé pour déterminer quand la connexion sera disponible.</p></td>
 </tr>
 <tr class="even">
@@ -65,10 +65,10 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ConnectOption.ASYNCCONNECT</p></td>
+<td><p>AdoEnums. ConnectOption. ASYNCCONNECT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectOption.CONNECTUNSPECIFIED</p></td>
+<td><p>AdoEnums. ConnectOption. CONNECTUNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

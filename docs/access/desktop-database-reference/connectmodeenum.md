@@ -1,5 +1,5 @@
 ---
-title: ConnectModeEnum (référence de base de données du bureau Access)
+title: ConnectModeEnum (référence de base de données de bureau Access)
 TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 453d84e687a31f7df5082e17b80fe2a1bda756be
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708661"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295694"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
-Spécifie les autorisations disponibles pour modifier les données dans une [Connexion](connection-object-ado.md), en ouvrant un [Enregistrement](record-object-ado.md), ou en spécifiant des valeurs pour la propriété [Mode](mode-property-ado.md) de l' **Enregistrement** et des objets [Stream](stream-object-ado.md).
+Spécifie les autorisations disponibles pour modifier les données dans une [Connexion](connection-object-ado.md), en ouvrant un [Enregistrement](record-object-ado.md), ou en spécifiant des valeurs pour la propriété [Mode](mode-property-ado.md) de l’**Enregistrement** et des objets [Stream](stream-object-ado.md).
 
 <br/>
 
@@ -38,7 +38,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <tbody>
 <tr class="odd">
 <td><p><strong>adModeRead</strong></p></td>
-<td><p>1</p></td>
+<td><p>0,1</p></td>
 <td><p>Indique des autorisations en lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -47,13 +47,13 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <td><p>Indique des autorisations en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>encore adModeRecursive</strong></p></td>
-<td><p>0 x 400000</p></td>
-<td><p>Utilisée conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les enregistrements secondaire de l' <strong>enregistrement</strong>actif. Il n’a aucun effet si l' <strong>enregistrement</strong> n’a pas d’enfants.</p><p>Une erreur d’exécution est générée si elle est utilisée avec <strong>adModeShareDenyNone</strong> . Toutefois, il peut être utilisé avec <strong>adModeShareDenyNone</strong> lorsqu’il est associé avec d’autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>encore adModeRecursive</strong>&quot;.</p></td>
+<td><p><strong>adModeRecursive</strong></p></td>
+<td><p>0x400000</p></td>
+<td><p>Utilisé conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les sous-enregistrements de l' <strong>enregistrement</strong>actif. Elle n'a pas d'effet si l'<strong>Enregistrement</strong> n'a pas d'enfant.</p><p>Une erreur d'exécution est générée si elle n'est associée qu'avec <strong>adModeShareDenyNone</strong>. Elle peut toutefois être s'appliquer à <strong>adModeShareDenyNone</strong> lorsqu'elle est associée à d'autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
-<td><p>16</p></td>
+<td><p>Seiz</p></td>
 <td><p>Permet à d'autres utilisateurs d'ouvrir une connexion sans autorisations d'aucune sorte. L'accès en lecture et en écriture ne pourra être interdit.</p></td>
 </tr>
 <tr class="odd">
@@ -63,12 +63,12 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyWrite</strong></p></td>
-<td><p>8</p></td>
+<td><p>8bits</p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion sans autorisation d'écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareExclusive</strong></p></td>
-<td><p>12</p></td>
+<td><p>an</p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion.</p></td>
 </tr>
 <tr class="even">
@@ -78,7 +78,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="odd">
 <td><p><strong>adModeWrite</strong></p></td>
-<td><p>2</p></td>
+<td><p>n°2</p></td>
 <td><p>Indique des autorisations en écriture seule.</p></td>
 </tr>
 </tbody>
@@ -100,31 +100,31 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.READ</p></td>
+<td><p>AdoEnums. ConnectMode. READ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.READWRITE</p></td>
+<td><p>AdoEnums. ConnectMode. READWRITE</p></td>
 </tr>
 <tr class="odd">
 <td><p>(Il n'existe pas d'équivalent pour AdoEnums.ConnectMode.RECURSIVE)</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.SHAREDENYNONE</p></td>
+<td><p>AdoEnums. ConnectMode. SHAREDENYNONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.SHAREDENYREAD</p></td>
+<td><p>AdoEnums. ConnectMode. SHAREDENYREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.SHAREDENYWRITE</p></td>
+<td><p>AdoEnums. ConnectMode. SHAREDENYWRITE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.SHAREEXCLUSIVE</p></td>
+<td><p>AdoEnums. ConnectMode. SHAREEXCLUSIVE</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ConnectMode.UNKNOWN</p></td>
+<td><p>AdoEnums. ConnectMode. unKNOWn</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ConnectMode.WRITE</p></td>
+<td><p>AdoEnums. ConnectMode. WRITE</p></td>
 </tr>
 </tbody>
 </table>

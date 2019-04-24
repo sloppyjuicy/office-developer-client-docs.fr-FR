@@ -1,5 +1,5 @@
 ---
-title: Détermination du mode d’édition
+title: Détermination du mode d'édition
 TOCTitle: Determining Edit mode
 ms:assetid: 45e21fa7-94e8-3449-e062-09cbcf15cba8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249215(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b5b62bc282a99472d0e7399ee9f3dd9d0648f0c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293916"
 ---
-# <a name="determining-edit-mode"></a>Détermination du mode d’édition
+# <a name="determining-edit-mode"></a>Détermination du mode d'édition
 
 
-**S’applique à**: Access 2013, Office 2013
+**S’applique à** : Access 2013, Office 2013
 
 ADO gère une mémoire tampon de modification associée à l'enregistrement actif. La propriété **EditMode** indique si cette mémoire tampon a été modifiée ou si un nouvel enregistrement a été créé. Utilisez **EditMode** pour déterminer l'état de modification de l'enregistrement actif. Vous pouvez vérifier s'il existe des modifications en attente en cas d'interruption d'un processus de modification et déterminer si vous avez besoin d'utiliser la méthode **Update** ou **CancelUpdate**.
 
@@ -49,7 +49,7 @@ ADO gère une mémoire tampon de modification associée à l'enregistrement acti
 </tr>
 <tr class="even">
 <td><p><strong>adEditDelete</strong></p></td>
-<td><p>Indique que l'enregistrement en cours a été supprimé.</p></td>
+<td><p>Indique que l'enregistrement actif a été supprimé.</p></td>
 </tr>
 </tbody>
 </table>
